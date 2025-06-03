@@ -295,6 +295,9 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
+	mini_icon Snivy
+	mini_icon Servine
+	mini_icon Serperior
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -1232,5 +1232,13 @@ MunchlaxEggSpeciesMoves:
 	db GUNK_SHOT
 	db $ff
 
+SnivyEggSpeciesMoves:
+	dp SNIVY, PLAIN_FORM
+	db IRON_TAIL
+	db MEAN_LOOK
+	db MIRROR_COAT
+	db PURSUIT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

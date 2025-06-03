@@ -291,6 +291,9 @@ EggSpeciesMovesPointers::
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
+	dw SnivyEggSpeciesMoves             ; Snivy
+	dw SnivyEggSpeciesMoves             ; Servine
+	dw SnivyEggSpeciesMoves             ; Serperior
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

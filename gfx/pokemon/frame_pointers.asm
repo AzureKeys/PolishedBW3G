@@ -291,6 +291,9 @@ FramesPointers:
 	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames
+	dw SnivyFrames
+	dw ServineFrames
+	dw SerperiorFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

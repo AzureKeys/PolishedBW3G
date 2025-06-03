@@ -295,6 +295,9 @@ endc
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
+	db NO_MOVE      ; SNIVY
+	db NO_MOVE      ; SERVINE
+	db NO_MOVE      ; SERPERIOR
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

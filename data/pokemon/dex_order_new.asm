@@ -2,6 +2,9 @@
 
 NewPokedexOrder:
 	table_width 2
+	dp SNIVY
+	dp SERVINE
+	dp SERPERIOR
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

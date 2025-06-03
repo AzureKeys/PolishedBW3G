@@ -296,4 +296,7 @@ endc
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
+	db   1,  16 ; Snivy
+	db  17,  35 ; Servine
+	db  36, 100 ; Serperior
 	assert_table_length NUM_SPECIES

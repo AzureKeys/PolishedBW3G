@@ -292,4 +292,7 @@ PokemonNames::
 	rawchar "Farigiraf@"
 	rawchar "Clodsire@@"
 	rawchar "Annihilape"
+	rawchar "Snivy@@@@@"
+	rawchar "Servine@@@"
+	rawchar "Serperior@"
 	assert_table_length NUM_SPECIES + 1

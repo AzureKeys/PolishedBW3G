@@ -291,6 +291,9 @@ AnimationPointers:
 	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
+	dw SnivyAnimation
+	dw ServineAnimation
+	dw SerperiorAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

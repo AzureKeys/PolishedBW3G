@@ -295,6 +295,9 @@ EvosAttacksPointers::
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
+	dw SnivyEvosAttacks
+	dw ServineEvosAttacks
+	dw SerperiorEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

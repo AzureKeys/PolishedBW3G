@@ -128,6 +128,9 @@ OverqwilFrames:   INCLUDE "gfx/pokemon/overqwil/frames.asm"
 FarigirafFrames:  INCLUDE "gfx/pokemon/farigiraf/frames.asm"
 ClodsireFrames:   INCLUDE "gfx/pokemon/clodsire/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
+SnivyFrames:      INCLUDE "gfx/pokemon/snivy/frames.asm"
+ServineFrames:    INCLUDE "gfx/pokemon/servine/frames.asm"
+SerperiorFrames:  INCLUDE "gfx/pokemon/serperior/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

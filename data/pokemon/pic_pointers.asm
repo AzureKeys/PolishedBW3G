@@ -295,6 +295,9 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+	pics Snivy
+	pics Servine
+	pics Serperior
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

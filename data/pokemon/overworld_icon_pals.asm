@@ -294,7 +294,10 @@ OverworldMonIconColors::
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
-	iconpal GRAY, PURPLE ; ANNIHILAPE
+	iconpal BROWN, BLUE ; ANNIHILAPE
+	iconpal GREEN, BLUE ; SNIVY
+	iconpal GREEN, BLUE ; SERVINE
+	iconpal GREEN, BLUE ; SERPERIOR
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

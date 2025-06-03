@@ -297,4 +297,7 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
+	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
+	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
+	mon_cry CRY_METAPOD,    -$09a,  $0d0 ; Serperior
 	assert_table_length NUM_SPECIES

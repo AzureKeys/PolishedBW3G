@@ -2895,6 +2895,36 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
+SECTION "SnivyPokedexEntry", ROMX
+SnivyPokedexEntry::
+	db "Grass Snake@"
+	db "They photosynthe"
+	next "by bathing their"
+	next "tails in light."
+	page "It uses vines"
+	next "more adeptly"
+	next "than its hands.@"
+
+SECTION "ServinePokedexEntry", ROMX
+ServinePokedexEntry::
+	db "Grass Snake@"
+	db "It moves along"
+	next "the ground as if"
+	next "sliding. It "
+	page "confuses its foe"
+	next "and attacks with"
+	next "a vine whip.@"
+
+SECTION "SerperiorPokedexEntry", ROMX
+SerperiorPokedexEntry::
+	db "Regal@"
+	db "It can stop its"
+	next "enemy's moves"
+	next "with a glare. It"
+	page "taken in solar"
+	next "energy and"
+	next "boosts it.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

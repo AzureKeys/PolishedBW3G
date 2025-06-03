@@ -223,6 +223,8 @@ AlphabeticalPokedexOrder:
 	dp SEAKING
 	dp SEEL
 	dp SENTRET
+	dp SERPERIOR
+	dp SERVINE
 	dp SHELLDER
 	dp SHUCKLE
 	dp SIRFETCH_D
@@ -236,6 +238,7 @@ AlphabeticalPokedexOrder:
 	dp SMOOCHUM
 	dp SNEASEL
 	dp SNEASLER
+	dp SNIVY
 	dp SNORLAX
 	dp SNUBBULL
 	dp SPEAROW

@@ -291,6 +291,9 @@ BitmasksPointers:
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
+	dw SnivyBitmasks
+	dw ServineBitmasks
+	dw SerperiorBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

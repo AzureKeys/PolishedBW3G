@@ -5936,6 +5936,62 @@ endc
 	learnset 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	learnset 53, OUTRAGE
 
+	evos_attacks Snivy
+	evo_data EVOLVE_LEVEL, 17, SERVINE
+	learnset 1, TACKLE
+	learnset 4, LEER
+	learnset 7, VINE_WHIP
+	learnset 10, WRAP
+	learnset 13, GROWTH
+	learnset 16, RAZOR_LEAF ; Leaf Tornado
+	learnset 19, LEECH_SEED
+	learnset 22, MEGA_DRAIN
+	learnset 25, BODY_SLAM ; Slam
+	learnset 28, SEED_BOMB ; Leaf Blade
+	learnset 31, GLARE ; Coil
+	learnset 34, GIGA_DRAIN
+	learnset 37, DRAGONBREATH ; Wring Out
+	; Skipped Gastro Acid
+	learnset 40, SOLAR_BEAM ; Leaf Storm
+
+	evos_attacks Servine
+	evo_data EVOLVE_LEVEL, 36, SERPERIOR
+	learnset 1, TACKLE
+	learnset 4, LEER
+	learnset 7, VINE_WHIP
+	learnset 10, WRAP
+	learnset 13, GROWTH
+	learnset 16, RAZOR_LEAF ; Leaf Tornado
+	learnset 20, LEECH_SEED
+	learnset 24, MEGA_DRAIN
+	learnset 28, BODY_SLAM ; Slam
+	learnset 32, SEED_BOMB ; Leaf Blade
+	learnset 36, GLARE ; Coil
+	learnset 40, GIGA_DRAIN
+	learnset 44, DRAGONBREATH ; Wring Out
+	; Skipped Gastro Acid
+	learnset 48, SOLAR_BEAM ; Leaf Storm
+
+	evos_attacks Serperior
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 1, VINE_WHIP
+	learnset 1, WRAP
+	learnset 4, LEER
+	learnset 7, VINE_WHIP
+	learnset 10, WRAP
+	learnset 13, GROWTH
+	learnset 16, RAZOR_LEAF ; Leaf Tornado
+	learnset 20, LEECH_SEED
+	learnset 24, MEGA_DRAIN
+	learnset 28, BODY_SLAM ; Slam
+	learnset 32, SEED_BOMB ; Leaf Blade
+	learnset 36, GLARE ; Coil
+	learnset 44, GIGA_DRAIN
+	learnset 50, DRAGONBREATH ; Wring Out
+	; Skipped Gastro Acid
+	learnset 56, SOLAR_BEAM ; Leaf Storm
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

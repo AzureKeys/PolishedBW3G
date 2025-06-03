@@ -1457,6 +1457,21 @@ AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
 AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
 AnnihilapeIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
 
+SECTION "Snivy Mini Icon", ROMX
+SnivyMini::     INCBIN "gfx/minis/snivy.2bpp.lz"
+SnivyMiniMask:: INCBIN "gfx/minis/snivy_mask.1bpp.lz"
+SnivyIcon::     INCBIN "gfx/icons/snivy.2bpp.lz"
+
+SECTION "Servine Mini Icon", ROMX
+ServineMini::     INCBIN "gfx/minis/servine.2bpp.lz"
+ServineMiniMask:: INCBIN "gfx/minis/servine_mask.1bpp.lz"
+ServineIcon::     INCBIN "gfx/icons/servine.2bpp.lz"
+
+SECTION "Serperior Mini Icon", ROMX
+SerperiorMini::     INCBIN "gfx/minis/serperior.2bpp.lz"
+SerperiorMiniMask:: INCBIN "gfx/minis/serperior_mask.1bpp.lz"
+SerperiorIcon::     INCBIN "gfx/icons/serperior.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

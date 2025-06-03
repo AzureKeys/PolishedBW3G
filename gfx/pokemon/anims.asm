@@ -239,6 +239,9 @@ OverqwilAnimation:   INCLUDE "gfx/pokemon/overqwil/anim.asm"
 FarigirafAnimation:  INCLUDE "gfx/pokemon/farigiraf/anim.asm"
 ClodsireAnimation:   INCLUDE "gfx/pokemon/clodsire/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
+SnivyAnimation:      INCLUDE "gfx/pokemon/snivy/anim.asm"
+ServineAnimation:    INCLUDE "gfx/pokemon/servine/anim.asm"
+SerperiorAnimation:  INCLUDE "gfx/pokemon/serperior/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
