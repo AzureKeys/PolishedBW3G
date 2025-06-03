@@ -1,6 +1,6 @@
-NAME := polishedcrystal
+NAME := bw3g
 MODIFIERS :=
-VERSION := 3.2.0
+VERSION := 2.0.0
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc
