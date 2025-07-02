@@ -699,6 +699,8 @@ PerformMove:
 	call GetBattleVarAddr
 	res SUBSTATUS_IN_ABILITY, [hl]
 
+	farcall TickDisableAfterMove
+
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVarAddr
 	res SUBSTATUS_PROTECT, [hl]
@@ -858,6 +860,18 @@ ForceDeferredSwitch:
 	call SwitchTurn
 	call .consume_item
 	call SwitchTurn
+
+	; Suction Cups can prevent this item from activating.
+	call GetTrueUserAbility
+	cp SUCTION_CUPS
+	jr nz, .items_done
+
+	farcall BeginAbility
+	farcall ShowAbilityActivation
+	ld hl, UnaffectedText
+	call StdBattleTextbox
+	farcall EndAbility
+	jmp .all_done
 
 .items_done
 	; Figure out which side is switching
@@ -1730,6 +1744,14 @@ LeppaRestorePP:
 
 DealDamageToOpponent:
 ; ONLY runs from attacking damage.
+	call GetOpponentAbilityAfterMoldBreaker
+	cp BERSERK
+	jr z, .berserk
+	call SwitchTurn
+	call SubtractHPFromUser
+	jmp SwitchTurn
+
+.berserk
 	; If user has more than 50%HP, set Berserk flag. Unset later if we still
 	; have more than 50%HP.
 	push bc
@@ -1745,15 +1767,9 @@ DealDamageToOpponent:
 
 .not_over_half
 	pop bc
-	push de
-	ld de, _SubtractHP
-	ldh a, [hBattleTurn]
-	and a
-	push af
-	call z, _SubtractHPFromEnemy
-	pop af
-	call nz, _SubtractHPFromPlayer
-	pop de
+	call SwitchTurn
+	call SubtractHPFromUser_SkipItems
+	call SwitchTurn
 
 	; deal with Berserk
 	push bc
@@ -1791,9 +1807,16 @@ SubtractHPFromUser_OverrideFaintOrder:
 .did_not_faint
 	jmp PopBCDEHL
 
+SubtractHPFromUser_SkipItems:
+; Self-damage from confusion should not trigger Berry consumption.
+	push de
+	ld de, _SubtractHP
+	jr DoSubtractHPFromUser
 SubtractHPFromUser:
 	push de
 	ld de, SubtractHP
+	; fallthrough
+DoSubtractHPFromUser:
 	ldh a, [hBattleTurn]
 	and a
 	jr nz, .enemy
@@ -3278,7 +3301,7 @@ SpikesDamage_GotAbility:
 	farcall CheckAirborne_GotAbility
 	pop bc
 	pop de
-	ret z
+	jmp nz, HandleAirBalloon
 
 	push bc
 	predef GetUserItemAfterUnnerve
