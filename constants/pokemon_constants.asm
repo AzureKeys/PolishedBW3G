@@ -315,6 +315,9 @@
 	const SNIVY      ; 124
 	const SERVINE    ; 125
 	const SERPERIOR  ; 126
+	const TEPIG      ; 127
+	const PIGNITE    ; 128
+	const EMBOAR     ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

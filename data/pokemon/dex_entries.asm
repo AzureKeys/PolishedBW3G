@@ -2895,6 +2895,35 @@ SerperiorPokedexEntry::
 	next "energy and"
 	next "boosts it.@"
 
+SECTION "TepigPokedexEntry", ROMX
+TepigPokedexEntry::
+	db "Fire Pig@"
+	db "It can dodge"
+	next "while shooting"
+	next "fire from its"
+	page "nose. It roasts"
+	next "berries before"
+	next "eating them.@"
+
+SECTION "PignitePokedexEntry", ROMX
+PignitePokedexEntry::
+	db "Fire Pig@"
+	db "When its fire"
+	next "flares up, it"
+	next "becomes stronger"
+	page "When in trouble,"
+	next "it emits smoke.@"
+
+SECTION "EmboarPokedexEntry", ROMX
+EmboarPokedexEntry::
+	db "Mega Fire Pig@"
+	db "It can throw a"
+	next "fiery punch by"
+	next "setting its fist"
+	page "on fire with the"
+	next "blaze on its"
+	next "chin.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

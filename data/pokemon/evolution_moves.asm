@@ -295,6 +295,9 @@ endc
 	db NO_MOVE      ; SNIVY
 	db NO_MOVE      ; SERVINE
 	db NO_MOVE      ; SERPERIOR
+	db NO_MOVE      ; TEPIG
+	db LOW_KICK     ; PIGNITE
+	db NO_MOVE      ; EMBOAR
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

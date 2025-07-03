@@ -5,6 +5,9 @@ NewPokedexOrder:
 	dp SNIVY
 	dp SERVINE
 	dp SERPERIOR
+	dp TEPIG
+	dp PIGNITE
+	dp EMBOAR
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

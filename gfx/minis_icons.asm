@@ -1457,6 +1457,21 @@ SerperiorMini::     INCBIN "gfx/minis/serperior.2bpp.lz"
 SerperiorMiniMask:: INCBIN "gfx/minis/serperior_mask.1bpp.lz"
 SerperiorIcon::     INCBIN "gfx/icons/serperior.2bpp.lz"
 
+SECTION "Tepig Mini Icon", ROMX
+TepigMini::     INCBIN "gfx/minis/tepig.2bpp.lz"
+TepigMiniMask:: INCBIN "gfx/minis/tepig_mask.1bpp.lz"
+TepigIcon::     INCBIN "gfx/icons/tepig.2bpp.lz"
+
+SECTION "Pignite Mini Icon", ROMX
+PigniteMini::     INCBIN "gfx/minis/pignite.2bpp.lz"
+PigniteMiniMask:: INCBIN "gfx/minis/pignite_mask.1bpp.lz"
+PigniteIcon::     INCBIN "gfx/icons/pignite.2bpp.lz"
+
+SECTION "Emboar Mini Icon", ROMX
+EmboarMini::     INCBIN "gfx/minis/emboar.2bpp.lz"
+EmboarMiniMask:: INCBIN "gfx/minis/emboar_mask.1bpp.lz"
+EmboarIcon::     INCBIN "gfx/icons/emboar.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

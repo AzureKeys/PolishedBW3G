@@ -292,4 +292,7 @@ PokemonNames::
 	rawchar "Snivy@@@@@"
 	rawchar "Servine@@@"
 	rawchar "Serperior@"
+	rawchar "Tepig@@@@@"
+	rawchar "Pignite@@@"
+	rawchar "Emboar@@@@"
 	assert_table_length NUM_SPECIES + 1

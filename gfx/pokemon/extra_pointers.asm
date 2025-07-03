@@ -291,6 +291,9 @@ AnimationExtraPointers:
 	dw SnivyAnimationExtra
 	dw ServineAnimationExtra
 	dw SerperiorAnimationExtra
+	dw TepigAnimationExtra
+	dw PigniteAnimationExtra
+	dw EmboarAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

@@ -239,6 +239,9 @@ AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
 SnivyBitmasks:      INCLUDE "gfx/pokemon/snivy/bitmask.asm"
 ServineBitmasks:    INCLUDE "gfx/pokemon/servine/bitmask.asm"
 SerperiorBitmasks:  INCLUDE "gfx/pokemon/serperior/bitmask.asm"
+TepigBitmasks:      INCLUDE "gfx/pokemon/tepig/bitmask.asm"
+PigniteBitmasks:    INCLUDE "gfx/pokemon/pignite/bitmask.asm"
+EmboarBitmasks:     INCLUDE "gfx/pokemon/emboar/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

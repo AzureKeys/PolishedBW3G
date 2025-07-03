@@ -296,4 +296,7 @@ endc
 	db   1,  16 ; Snivy
 	db  17,  35 ; Servine
 	db  36, 100 ; Serperior
+	db   1,  16 ; Tepig
+	db  17,  35 ; Pignite
+	db  36, 100 ; Emboar
 	assert_table_length NUM_SPECIES

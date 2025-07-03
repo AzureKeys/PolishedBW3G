@@ -291,6 +291,9 @@ AnimationPointers:
 	dw SnivyAnimation
 	dw ServineAnimation
 	dw SerperiorAnimation
+	dw TepigAnimation
+	dw PigniteAnimation
+	dw EmboarAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

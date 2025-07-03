@@ -295,6 +295,9 @@ PokemonPicPointers::
 	pics Snivy
 	pics Servine
 	pics Serperior
+	pics Tepig
+	pics Pignite
+	pics Emboar
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

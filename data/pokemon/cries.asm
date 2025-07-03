@@ -297,4 +297,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
 	mon_cry CRY_METAPOD,    -$09a,  $0d0 ; Serperior
+	mon_cry CRY_NIDORAN_M,  -$08d,  $0ab ; Tepig
+	mon_cry CRY_METAPOD,    -$3c5,  $0f0 ; Pignite
+	mon_cry CRY_METAPOD,    -$4c0,  $130 ; Emboar
 	assert_table_length NUM_SPECIES

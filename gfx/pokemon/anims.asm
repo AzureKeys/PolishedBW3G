@@ -239,6 +239,9 @@ AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
 SnivyAnimation:      INCLUDE "gfx/pokemon/snivy/anim.asm"
 ServineAnimation:    INCLUDE "gfx/pokemon/servine/anim.asm"
 SerperiorAnimation:  INCLUDE "gfx/pokemon/serperior/anim.asm"
+TepigAnimation:      INCLUDE "gfx/pokemon/tepig/anim.asm"
+PigniteAnimation:    INCLUDE "gfx/pokemon/pignite/anim.asm"
+EmboarAnimation:     INCLUDE "gfx/pokemon/emboar/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

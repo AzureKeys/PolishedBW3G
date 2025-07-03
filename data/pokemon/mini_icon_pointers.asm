@@ -295,6 +295,9 @@ MiniIconPointers:
 	mini_icon Snivy
 	mini_icon Servine
 	mini_icon Serperior
+	mini_icon Tepig
+	mini_icon Pignite
+	mini_icon Emboar
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

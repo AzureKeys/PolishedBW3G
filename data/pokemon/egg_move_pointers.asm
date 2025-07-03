@@ -291,6 +291,9 @@ EggSpeciesMovesPointers::
 	dw SnivyEggSpeciesMoves             ; Snivy
 	dw SnivyEggSpeciesMoves             ; Servine
 	dw SnivyEggSpeciesMoves             ; Serperior
+	dw TepigEggSpeciesMoves             ; Tepig
+	dw TepigEggSpeciesMoves             ; Pignite
+	dw TepigEggSpeciesMoves             ; Emboar
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

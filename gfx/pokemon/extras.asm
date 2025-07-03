@@ -239,6 +239,9 @@ AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 SnivyAnimationExtra:      INCLUDE "gfx/pokemon/snivy/anim_idle.asm"
 ServineAnimationExtra:    INCLUDE "gfx/pokemon/servine/anim_idle.asm"
 SerperiorAnimationExtra:  INCLUDE "gfx/pokemon/serperior/anim_idle.asm"
+TepigAnimationExtra:      INCLUDE "gfx/pokemon/tepig/anim_idle.asm"
+PigniteAnimationExtra:    INCLUDE "gfx/pokemon/pignite/anim_idle.asm"
+EmboarAnimationExtra:     INCLUDE "gfx/pokemon/emboar/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

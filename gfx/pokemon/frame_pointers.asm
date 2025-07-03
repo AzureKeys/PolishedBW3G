@@ -291,6 +291,9 @@ FramesPointers:
 	dw SnivyFrames
 	dw ServineFrames
 	dw SerperiorFrames
+	dw TepigFrames
+	dw PigniteFrames
+	dw EmboarFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

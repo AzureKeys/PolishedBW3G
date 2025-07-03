@@ -298,6 +298,9 @@ PokemonBodyData:
 	body_data   2,  179, SERPENTINE,   GREEN  ; SNIVY
 	body_data   2,  353, SERPENTINE,   GREEN  ; SERVINE
 	body_data  10, 1389, SERPENTINE,   GREEN  ; SERPERIOR
+	body_data   2,  218, QUADRUPED,    RED    ; TEPIG
+	body_data   2, 1224, BIPEDAL,      RED    ; PIGNITE
+	body_data  10, 3307, BIPEDAL,      RED    ; EMBOAR
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

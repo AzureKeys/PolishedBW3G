@@ -291,6 +291,9 @@ FootprintPointers::
 	dw SnivyFootprint
 	dw ServineFootprint
 	dw SerperiorFootprint
+	dw TepigFootprint
+	dw PigniteFootprint
+	dw EmboarFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

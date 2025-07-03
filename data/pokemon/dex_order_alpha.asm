@@ -61,6 +61,7 @@ AlphabeticalPokedexOrder:
 	dp ELECTIVIRE
 	dp ELECTRODE
 	dp ELEKID
+	dp EMBOAR
 	dp ENTEI
 	dp ESPEON
 	dp EXEGGCUTE
@@ -185,6 +186,7 @@ AlphabeticalPokedexOrder:
 	dp PIDGEOT
 	dp PIDGEOTTO
 	dp PIDGEY
+	dp PIGNITE
 	dp PIKACHU
 	dp PILOSWINE
 	dp PINECO
@@ -257,6 +259,7 @@ AlphabeticalPokedexOrder:
 	dp TEDDIURSA
 	dp TENTACOOL
 	dp TENTACRUEL
+	dp TEPIG
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC

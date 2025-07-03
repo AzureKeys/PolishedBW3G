@@ -1505,18 +1505,6 @@ SECTION "Annihilape Pics", ROMX
 AnnihilapeFrontpic: INCBIN "gfx/pokemon/annihilape/front.animated.2bpp.lz"
 AnnihilapeBackpic:  INCBIN "gfx/pokemon/annihilape/back.2bpp.lz"
 
-SECTION "Snivy Pics", ROMX
-SnivyFrontpic: INCBIN "gfx/pokemon/snivy/front.animated.2bpp.lz"
-SnivyBackpic:  INCBIN "gfx/pokemon/snivy/back.2bpp.lz"
-
-SECTION "Servine Pics", ROMX
-ServineFrontpic: INCBIN "gfx/pokemon/servine/front.animated.2bpp.lz"
-ServineBackpic:  INCBIN "gfx/pokemon/servine/back.2bpp.lz"
-
-SECTION "Serperior Pics", ROMX
-SerperiorFrontpic: INCBIN "gfx/pokemon/serperior/front.animated.2bpp.lz"
-SerperiorBackpic:  INCBIN "gfx/pokemon/serperior/back.2bpp.lz"
-
 SECTION "SneaselPlain Pics", ROMX
 SneaselPlainFrontpic: INCBIN "gfx/pokemon/sneasel_plain/front.animated.2bpp.lz"
 SneaselPlainBackpic:  INCBIN "gfx/pokemon/sneasel_plain/back.2bpp.lz"
@@ -1556,3 +1544,27 @@ TaurosPaldeanFireBackpic:  INCBIN "gfx/pokemon/tauros_paldean_fire/back.2bpp.lz"
 SECTION "TaurosPaldeanWater Pics", ROMX
 TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lz"
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lz"
+
+SECTION "Snivy Pics", ROMX
+SnivyFrontpic: INCBIN "gfx/pokemon/snivy/front.animated.2bpp.lz"
+SnivyBackpic:  INCBIN "gfx/pokemon/snivy/back.2bpp.lz"
+
+SECTION "Servine Pics", ROMX
+ServineFrontpic: INCBIN "gfx/pokemon/servine/front.animated.2bpp.lz"
+ServineBackpic:  INCBIN "gfx/pokemon/servine/back.2bpp.lz"
+
+SECTION "Serperior Pics", ROMX
+SerperiorFrontpic: INCBIN "gfx/pokemon/serperior/front.animated.2bpp.lz"
+SerperiorBackpic:  INCBIN "gfx/pokemon/serperior/back.2bpp.lz"
+
+SECTION "Tepig Pics", ROMX
+TepigFrontpic: INCBIN "gfx/pokemon/tepig/front.animated.2bpp.lz"
+TepigBackpic:  INCBIN "gfx/pokemon/tepig/back.2bpp.lz"
+
+SECTION "Pignite Pics", ROMX
+PigniteFrontpic: INCBIN "gfx/pokemon/pignite/front.animated.2bpp.lz"
+PigniteBackpic:  INCBIN "gfx/pokemon/pignite/back.2bpp.lz"
+
+SECTION "Emboar Pics", ROMX
+EmboarFrontpic: INCBIN "gfx/pokemon/emboar/front.animated.2bpp.lz"
+EmboarBackpic:  INCBIN "gfx/pokemon/emboar/back.2bpp.lz"

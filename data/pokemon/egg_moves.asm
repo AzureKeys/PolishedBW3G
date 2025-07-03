@@ -1236,5 +1236,12 @@ SnivyEggSpeciesMoves:
 	db PURSUIT
 	db $ff
 
+TepigEggSpeciesMoves:
+	db BODY_SLAM
+	db CURSE
+	db MAGNITUDE
+	db SUCKER_PUNCH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

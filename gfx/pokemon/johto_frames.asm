@@ -131,6 +131,9 @@ AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
 SnivyFrames:      INCLUDE "gfx/pokemon/snivy/frames.asm"
 ServineFrames:    INCLUDE "gfx/pokemon/servine/frames.asm"
 SerperiorFrames:  INCLUDE "gfx/pokemon/serperior/frames.asm"
+TepigFrames:      INCLUDE "gfx/pokemon/tepig/frames.asm"
+PigniteFrames:    INCLUDE "gfx/pokemon/pignite/frames.asm"
+EmboarFrames:     INCLUDE "gfx/pokemon/emboar/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

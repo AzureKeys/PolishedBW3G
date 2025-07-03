@@ -23,6 +23,9 @@ BlankFootprint::
 SnivyFootprint::
 ServineFootprint::
 SerperiorFootprint::
+TepigFootprint::
+PigniteFootprint::
+EmboarFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

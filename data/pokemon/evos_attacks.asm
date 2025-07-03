@@ -5961,6 +5961,64 @@ endc
 	; Skipped Gastro Acid
 	learnset 56, SOLAR_BEAM ; Leaf Storm
 
+	evos_attacks Tepig
+	evo_data EVOLVE_LEVEL, 17, PIGNITE
+	learnset 1, TACKLE
+	learnset 3, LEER
+	learnset 7, EMBER
+	learnset 13, DEFENSE_CURL
+	learnset 15, FLAME_CHARGE
+	;learnset 19, POISON_GAS ; Smog
+	learnset 21, ROLLOUT
+	learnset 25, TAKE_DOWN
+	;learnset 27, FIRE_FANG ; Heat Crash
+	learnset 31, FEINT_ATTACK ; Assurance
+	learnset 33, FLAMETHROWER
+	; Skipped Head Smash
+	learnset 37, ROAR
+	learnset 39, FLARE_BLITZ
+
+	evos_attacks Pignite
+	evo_data EVOLVE_LEVEL, 36, EMBOAR
+	learnset 1, TACKLE
+	learnset 3, LEER
+	learnset 7, EMBER
+	learnset 13, DEFENSE_CURL
+	learnset 15, FLAME_CHARGE
+	learnset 16, LOW_KICK ; Arm Thrust
+	;learnset 20, POISON_GAS ; Smog
+	learnset 23, ROLLOUT
+	learnset 28, TAKE_DOWN
+	learnset 31, FIRE_PUNCH ; Heat Crash
+	learnset 36, FEINT_ATTACK ; Assurance
+	learnset 39, FLAMETHROWER
+	; Skipped Head Smash
+	learnset 44, ROAR
+	learnset 47, FLARE_BLITZ
+
+	evos_attacks Emboar
+	learnset 1, LOW_KICK
+	;learnset 1, HAMMER_ARM
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 1, EMBER
+	learnset 1, DEFENSE_CURL
+	learnset 3, LEER
+	learnset 7, EMBER
+	learnset 13, DEFENSE_CURL
+	learnset 15, FLAME_CHARGE
+	learnset 16, LOW_KICK ; Arm Thrust
+	;learnset 20, POISON_GAS ; Smog
+	learnset 23, ROLLOUT
+	learnset 28, TAKE_DOWN
+	learnset 31, FIRE_PUNCH ; Heat Crash
+	;learnset 35, HAMMER_ARM
+	learnset 36, FEINT_ATTACK ; Assurance
+	learnset 43, FLAMETHROWER
+	; Skipped Head Smash
+	learnset 50, ROAR
+	learnset 55, FLARE_BLITZ
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

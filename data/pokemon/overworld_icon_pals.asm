@@ -295,6 +295,9 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; SNIVY
 	iconpal GREEN, BLUE ; SERVINE
 	iconpal GREEN, BLUE ; SERPERIOR
+	iconpal RED, ORANGE ; TEPIG
+	iconpal RED, ORANGE ; PIGNITE
+	iconpal RED, BLUE ; EMBOAR
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
