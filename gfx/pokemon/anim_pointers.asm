@@ -9,9 +9,6 @@ AnimationPointers:
 	dw SquirtleAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
-	dw CaterpieAnimation
-	dw MetapodAnimation
-	dw ButterfreeAnimation
 	dw WeedleAnimation
 	dw KakunaAnimation
 	dw BeedrillAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw AzurillAnimation
 	dw WynautAnimation
 	dw AmbipomAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw MimeJrAnimation
 	dw HappinyAnimation
 	dw MunchlaxAnimation

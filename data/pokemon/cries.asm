@@ -15,9 +15,6 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $060,  $0c0 ; Squirtle
 	mon_cry CRY_SQUIRTLE,    $020,  $0c0 ; Wartortle
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; Blastoise
-	mon_cry CRY_CATERPIE,    $080,  $0a0 ; Caterpie
-	mon_cry CRY_METAPOD,     $0cc,  $081 ; Metapod
-	mon_cry CRY_CATERPIE,    $077,  $0c0 ; Butterfree
 	mon_cry CRY_WEEDLE,      $0ee,  $081 ; Weedle
 	mon_cry CRY_BLASTOISE,   $0ff,  $081 ; Kakuna
 	mon_cry CRY_BLASTOISE,   $060,  $100 ; Beedrill
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
 	mon_cry CRY_AMPHAROS,    $27b,  $144 ; Wynaut
 	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Ambipom
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Mismagius
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Bonsly
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mime Jr.
 	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Happiny
 	mon_cry CRY_GRIMER,      $055,  $081 ; Munchlax

@@ -9,9 +9,6 @@ AnimationExtraPointers:
 	dw SquirtleAnimationExtra
 	dw WartortleAnimationExtra
 	dw BlastoiseAnimationExtra
-	dw CaterpieAnimationExtra
-	dw MetapodAnimationExtra
-	dw ButterfreeAnimationExtra
 	dw WeedleAnimationExtra
 	dw KakunaAnimationExtra
 	dw BeedrillAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw AzurillAnimationExtra
 	dw WynautAnimationExtra
 	dw AmbipomAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw MimeJrAnimationExtra
 	dw HappinyAnimationExtra
 	dw MunchlaxAnimationExtra

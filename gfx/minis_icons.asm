@@ -46,21 +46,6 @@ BlastoiseMini::     INCBIN "gfx/minis/blastoise.2bpp.lz"
 BlastoiseMiniMask:: INCBIN "gfx/minis/blastoise_mask.1bpp.lz"
 BlastoiseIcon::     INCBIN "gfx/icons/blastoise.2bpp.lz"
 
-SECTION "Caterpie Mini Icon", ROMX
-CaterpieMini::     INCBIN "gfx/minis/caterpie.2bpp.lz"
-CaterpieMiniMask:: INCBIN "gfx/minis/caterpie_mask.1bpp.lz"
-CaterpieIcon::     INCBIN "gfx/icons/caterpie.2bpp.lz"
-
-SECTION "Metapod Mini Icon", ROMX
-MetapodMini::     INCBIN "gfx/minis/metapod.2bpp.lz"
-MetapodMiniMask:: INCBIN "gfx/minis/metapod_mask.1bpp.lz"
-MetapodIcon::     INCBIN "gfx/icons/metapod.2bpp.lz"
-
-SECTION "Butterfree Mini Icon", ROMX
-ButterfreeMini::     INCBIN "gfx/minis/butterfree.2bpp.lz"
-ButterfreeMiniMask:: INCBIN "gfx/minis/butterfree_mask.1bpp.lz"
-ButterfreeIcon::     INCBIN "gfx/icons/butterfree.2bpp.lz"
-
 SECTION "Weedle Mini Icon", ROMX
 WeedleMini::     INCBIN "gfx/minis/weedle.2bpp.lz"
 WeedleMiniMask:: INCBIN "gfx/minis/weedle_mask.1bpp.lz"

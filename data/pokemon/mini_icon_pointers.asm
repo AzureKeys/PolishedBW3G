@@ -13,9 +13,6 @@ MiniIconPointers:
 	mini_icon Squirtle
 	mini_icon Wartortle
 	mini_icon Blastoise
-	mini_icon Caterpie
-	mini_icon Metapod
-	mini_icon Butterfree
 	mini_icon Weedle
 	mini_icon Kakuna
 	mini_icon Beedrill
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Azurill
 	mini_icon Wynaut
 	mini_icon Ambipom
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon MimeJr
 	mini_icon Happiny
 	mini_icon Munchlax

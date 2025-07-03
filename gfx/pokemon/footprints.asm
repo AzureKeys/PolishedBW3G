@@ -4,7 +4,6 @@ VenomothFootprint::
 KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
-CaterpieFootprint::
 WeedleFootprint::
 StaryuFootprint::
 StarmieFootprint::
@@ -59,7 +58,6 @@ MagikarpFootprint::
 MagnezoneFootprint::
 MantineFootprint::
 MantykeFootprint::
-MetapodFootprint::
 MisdreavusFootprint::
 MismagiusFootprint::
 MukFootprint::
@@ -94,7 +92,6 @@ CharizardFootprint:: INCBIN "gfx/footprints/charizard.1bpp.lz"
 SquirtleFootprint:: INCBIN "gfx/footprints/squirtle.1bpp.lz"
 WartortleFootprint:: INCBIN "gfx/footprints/wartortle.1bpp.lz"
 BlastoiseFootprint:: INCBIN "gfx/footprints/blastoise.1bpp.lz"
-ButterfreeFootprint:: INCBIN "gfx/footprints/butterfree.1bpp.lz"
 BeedrillFootprint:: INCBIN "gfx/footprints/beedrill.1bpp.lz"
 PidgeottoFootprint:: INCBIN "gfx/footprints/pidgeotto.1bpp.lz"
 PidgeotFootprint:: INCBIN "gfx/footprints/pidgeot.1bpp.lz"

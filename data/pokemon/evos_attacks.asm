@@ -248,37 +248,6 @@ if !DEF(FAITHFUL)
 	learnset 75, IRON_HEAD ; TM move
 endc
 
-	evos_attacks Caterpie
-	evo_data EVOLVE_LEVEL, 7, METAPOD
-	learnset 1, TACKLE
-	learnset 1, STRING_SHOT
-	learnset 9, BUG_BITE
-
-	evos_attacks Metapod
-	evo_data EVOLVE_LEVEL, 10, BUTTERFREE
-	learnset 1, TACKLE ; Caterpie move
-	learnset 1, STRING_SHOT ; Caterpie move
-	learnset 1, DEFENSE_CURL ; Harden → similar move
-
-	evos_attacks Butterfree
-	learnset 1, TACKLE ; Caterpie move
-	learnset 1, STRING_SHOT ; Caterpie move
-	learnset 1, GUST
-	learnset 11, CONFUSION
-	learnset 13, POISONPOWDER
-	learnset 15, STUN_SPORE
-	learnset 17, SLEEP_POWDER ; Psybeam → Sleep Powder
-	learnset 19, PSYBEAM ; Silver Wind → Psybeam
-	learnset 23, SUPERSONIC
-	learnset 25, SAFEGUARD
-	learnset 29, HYPNOSIS ; Whirlwind → new move
-	learnset 31, BUG_BUZZ
-	learnset 35, REFLECT ; Rage Powder → RBY TM move
-	learnset 37, AGILITY ; Captivate → new move
-	learnset 41, HEALINGLIGHT ; Tailwind → new move
-	learnset 43, AIR_SLASH
-	learnset 47, PSYCHIC_M ; Quiver Dance → TM move
-
 	evos_attacks Weedle
 	evo_data EVOLVE_LEVEL, 7, KAKUNA
 	learnset 1, POISON_STING

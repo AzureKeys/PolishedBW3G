@@ -14,7 +14,6 @@ WithdrawUsers:
 
 HardenUsers:
 ; Defense Curl += Harden
-	dp METAPOD
 	dp KAKUNA
 	dp GRIMER
 	dp MUK

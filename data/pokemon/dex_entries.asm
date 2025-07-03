@@ -92,36 +92,6 @@ endc
 	next "from the jets on"
 	next "its back.@"
 
-SECTION "CaterpiePokedexEntry", ROMX
-CaterpiePokedexEntry::
-	db "Worm@"
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
-
-SECTION "MetapodPokedexEntry", ROMX
-MetapodPokedexEntry::
-	db "Cocoon@"
-	db   "This is its pre-"
-	next "evolved form. At"
-	next "this stage, it can"
-	page "only harden, so it"
-	next "remains motionless"
-	next "to avoid attack.@"
-
-SECTION "ButterfreePokedexEntry", ROMX
-ButterfreePokedexEntry::
-	db "Butterfly@"
-	db   "It flits from"
-	next "flower to flower,"
-	next "collecting nectar."
-	page "It can even"
-	next "identify distant"
-	next "flowers in bloom.@"
-
 SECTION "WeedlePokedexEntry", ROMX
 WeedlePokedexEntry::
 	db "Hairy Bug@"

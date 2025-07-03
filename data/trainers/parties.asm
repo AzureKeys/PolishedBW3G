@@ -114,7 +114,7 @@ BugsyGroup:
 
 	def_trainer_class BUGSY
 	def_trainer 1, "Bugsy"
-	tr_mon 14, BUTTERFREE @ NO_ITEM, MALE ; NO_ITEM needed to match
+	tr_mon 14, RATTATA @ NO_ITEM, MALE ; NO_ITEM needed to match
 		tr_evs 32 SAt, 32 Spe
 		tr_moves TACKLE, POISONPOWDER, SLEEP_POWDER, CONFUSION
 	tr_mon 14, BEEDRILL, MALE
@@ -1688,45 +1688,45 @@ BugCatcherGroup:
 
 	def_trainer_class BUG_CATCHER
 	def_trainer WADE1, "Wade"
-	tr_mon 2, CATERPIE
-	tr_mon 2, CATERPIE
+	tr_mon 2, RATTATA
+	tr_mon 2, RATTATA
 	tr_mon 3, WEEDLE
-	tr_mon 2, CATERPIE
+	tr_mon 2, RATTATA
 	end_trainer
 
 	def_trainer WADE2, "Wade"
-	tr_mon 9, METAPOD
-	tr_mon 9, METAPOD
+	tr_mon 9, RATTATA
+	tr_mon 9, RATTATA
 	tr_mon 10, KAKUNA
-	tr_mon 9, METAPOD
+	tr_mon 9, RATTATA
 	end_trainer
 
 	def_trainer WADE3, "Wade"
-	tr_mon 14, BUTTERFREE
-	tr_mon 14, BUTTERFREE
+	tr_mon 14, RATTATA
+	tr_mon 14, RATTATA
 	tr_mon 15, BEEDRILL
-	tr_mon 14, BUTTERFREE
+	tr_mon 14, RATTATA
 	end_trainer
 
 	def_trainer WADE4, "Wade"
-	tr_mon 24, BUTTERFREE
+	tr_mon 24, RATTATA
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, HEALINGLIGHT
-	tr_mon 24, BUTTERFREE
+	tr_mon 24, RATTATA
 		tr_moves CONFUSION, STUN_SPORE, SUPERSONIC, HEALINGLIGHT
 	tr_mon 25, BEEDRILL
 		tr_moves FURY_STRIKES, FOCUS_ENERGY, PIN_MISSILE, RAGE
-	tr_mon 24, BUTTERFREE
+	tr_mon 24, RATTATA
 		tr_moves CONFUSION, SLEEP_POWDER, SUPERSONIC, HEALINGLIGHT
 	end_trainer
 
 	def_trainer WADE5, "Wade"
-	tr_mon 30, BUTTERFREE
+	tr_mon 30, RATTATA
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, GUST
-	tr_mon 30, BUTTERFREE
+	tr_mon 30, RATTATA
 		tr_moves CONFUSION, STUN_SPORE, SUPERSONIC, GUST
 	tr_mon 32, BEEDRILL
 		tr_moves FURY_STRIKES, PURSUIT, U_TURN, DOUBLE_TEAM
-	tr_mon 34, BUTTERFREE
+	tr_mon 34, RATTATA
 		tr_moves PSYBEAM, SLEEP_POWDER, GUST, HEALINGLIGHT
 	end_trainer
 
@@ -1754,8 +1754,8 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer DON, "Don"
-	tr_mon 3, CATERPIE
-	tr_mon 3, CATERPIE
+	tr_mon 3, RATTATA
+	tr_mon 3, RATTATA
 	end_trainer
 
 	def_trainer BENNY, "Benny"
@@ -1765,7 +1765,7 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer AL, "Al"
-	tr_mon 13, CATERPIE
+	tr_mon 13, RATTATA
 	tr_mon 13, WEEDLE
 	end_trainer
 
@@ -3583,7 +3583,7 @@ BeautyGroup:
 
 	def_trainer CASSIE, "Cassie"
 	tr_mon 47, VILEPLUME
-	tr_mon 49, BUTTERFREE
+	tr_mon 49, RATTATA
 	end_trainer
 
 	def_trainer JULIA, "Julia"
@@ -3661,23 +3661,23 @@ BugManiacGroup:
 
 	def_trainer ROB, "Rob"
 	tr_mon 60, BEEDRILL
-	tr_mon 59, BUTTERFREE
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer ED, "Ed"
 	tr_mon 61, YANMA
 	tr_mon 62, BEEDRILL
-	tr_mon 62, BUTTERFREE
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer DOUG, "Doug"
-	tr_mon 59, BUTTERFREE
+	tr_mon 59, RATTATA
 	tr_mon 57, ARIADOS
 	end_trainer
 
 	def_trainer DANE, "Dane"
 	tr_mon 59, BEEDRILL
-	tr_mon 61, BUTTERFREE
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer DION, "Dion"
@@ -3685,9 +3685,9 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer STACEY, "Stacey"
-	tr_mon 60, METAPOD
-	tr_mon 62, METAPOD
-	tr_mon 64, METAPOD
+	tr_mon 60, RATTATA
+	tr_mon 62, RATTATA
+	tr_mon 64, RATTATA
 	end_trainer
 
 	def_trainer ELLIS, "Ellis"
@@ -3697,7 +3697,7 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer ABNER, "Abner"
-	tr_mon 59, BUTTERFREE
+	tr_mon 59, RATTATA
 	tr_mon 59, BEEDRILL
 	tr_mon 59, PIKACHU
 	end_trainer
@@ -3709,8 +3709,8 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer ROBBY, "Robby"
-	tr_mon 60, BUTTERFREE
-	tr_mon 60, BUTTERFREE
+	tr_mon 60, RATTATA
+	tr_mon 60, RATTATA
 	tr_mon 60, PARASECT
 	end_trainer
 
@@ -3722,7 +3722,7 @@ BugManiacGroup:
 
 	def_trainer DYLAN, "Dylan"
 	tr_mon 55, LEDIAN
-	tr_mon 55, BUTTERFREE
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer KAI, "Kai"
@@ -4505,11 +4505,11 @@ CoupleGroup:
 
 	def_trainer JOEANDJO1, "Joe & Jo"
 	tr_mon 56, ALAKAZAM, MALE
-	tr_mon 52, BUTTERFREE, FEMALE
+	tr_mon 52, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer JOEANDJO2, "Joe & Jo"
-	tr_mon 52, BUTTERFREE, FEMALE
+	tr_mon 52, RATTATA, FEMALE
 	tr_mon 56, ALAKAZAM, MALE
 	end_trainer
 
@@ -6363,7 +6363,7 @@ endc
 	end_trainer
 
 	def_trainer CYBIL, "Cybil"
-	tr_mon 35, BUTTERFREE
+	tr_mon 35, RATTATA
 		tr_moves SUPERSONIC, PSYBEAM, HYPNOSIS, HEALINGLIGHT
 	tr_mon 36, BELLOSSOM
 		tr_moves ACID, SLEEP_POWDER, GIGA_DRAIN, HEALINGLIGHT
@@ -6871,7 +6871,7 @@ ProfIvyGroup:
 
 	def_trainer_class PROF_IVY
 	def_trainer 1, "Ivy"
-	tr_mon 65, BUTTERFREE
+	tr_mon 65, RATTATA
 	tr_mon 64, POLITOED
 	tr_mon 64, VICTREEBEL
 	tr_mon 63, RHYPERIOR
@@ -7644,7 +7644,7 @@ KatyGroup:
 	def_trainer_class KATY
 	def_trainer 1, "Katy"
 	tr_mon 55, ARIADOS
-	tr_mon 55, BUTTERFREE
+	tr_mon 55, RATTATA
 	tr_mon 56, SHUCKLE
 	tr_mon 56, KLEAVOR
 	tr_mon 54, HERACROSS
@@ -7653,7 +7653,7 @@ KatyGroup:
 
 	def_trainer 2, "Katy"
 	tr_mon 73, ARIADOS
-	tr_mon 73, BUTTERFREE
+	tr_mon 73, RATTATA
 	tr_mon 74, SHUCKLE
 	tr_mon 74, KLEAVOR
 	tr_mon 72, HERACROSS
@@ -7701,8 +7701,8 @@ YellowGroup:
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 240 Atk
 		tr_moves SUCKER_PUNCH, QUICK_ATTACK, HYPER_FANG, SWORDS_DANCE
-	tr_mon LEVEL_FROM_BADGES + 3, "Kitty", BUTTERFREE @ SITRUS_BERRY, FEMALE
-		tr_extra TINTED_LENS, SATK_UP_ATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 3, "Kitty", RATTATA @ SITRUS_BERRY, FEMALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 240 Spe
 		tr_moves BUG_BUZZ, SUPERSONIC, STUN_SPORE, PSYCHIC_M
 	tr_mon LEVEL_FROM_BADGES + 6, "Dody", DODUO, FEMALE
@@ -7730,8 +7730,8 @@ YellowGroup:
 	tr_mon 73, "Ratty", RATICATE @ KINGS_ROCK, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_moves SWORDS_DANCE, QUICK_ATTACK, SUPER_FANG, CRUNCH
-	tr_mon 71, "Free", BUTTERFREE @ BRIGHTPOWDER, FEMALE
-		tr_extra TINTED_LENS, SATK_UP_ATK_DOWN
+	tr_mon 71, "Free", RATTATA @ BRIGHTPOWDER, FEMALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_moves PSYCHIC_M, BUG_BUZZ, SLEEP_POWDER, STUN_SPORE
 	tr_mon 74, "Dody", DODRIO @ SHARP_BEAK, FEMALE
 		tr_extra TANGLED_FEET, SPE_UP_DEF_DOWN

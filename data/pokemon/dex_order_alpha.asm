@@ -23,8 +23,6 @@ AlphabeticalPokedexOrder:
 	dp BLISSEY
 	dp BONSLY
 	dp BULBASAUR
-	dp BUTTERFREE
-	dp CATERPIE
 	dp CELEBI
 	dp CHANSEY
 	dp CHARIZARD
@@ -151,7 +149,6 @@ AlphabeticalPokedexOrder:
 	dp MAROWAK
 	dp MEGANIUM
 	dp MEOWTH
-	dp METAPOD
 	dp MEW
 	dp MEWTWO
 	dp MILTANK

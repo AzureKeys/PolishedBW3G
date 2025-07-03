@@ -33,9 +33,6 @@
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
 	const WEEDLE     ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f
@@ -278,11 +275,11 @@
 	const AZURILL    ; fc
 	const WYNAUT     ; fd
 	const AMBIPOM    ; fe
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const MISMAGIUS  ; 101
 	const HONCHKROW  ; 102
 	const BONSLY     ; 103
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const MIME_JR_   ; 104
 	const HAPPINY    ; 105
 	const MUNCHLAX   ; 106

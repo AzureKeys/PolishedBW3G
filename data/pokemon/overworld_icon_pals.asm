@@ -13,9 +13,6 @@ OverworldMonIconColors::
 	iconpal AZURE, TEAL ; SQUIRTLE
 	iconpal BLUE, TEAL ; WARTORTLE
 	iconpal BLUE, TEAL ; BLASTOISE
-	iconpal GREEN, PINK ; CATERPIE
-	iconpal GREEN, ORANGE ; METAPOD
-	iconpal BLUE, PINK ; BUTTERFREE
 	iconpal BROWN, PINK ; WEEDLE
 	iconpal BROWN, GREEN ; KAKUNA
 	iconpal BROWN, TEAL ; BEEDRILL
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; AZURILL
 	iconpal AZURE, PURPLE ; WYNAUT
 	iconpal PURPLE, RED ; AMBIPOM
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, GREEN ; MIME_JR_
 	iconpal RED, PINK ; HAPPINY
 	iconpal TEAL, BLUE ; MUNCHLAX

@@ -13,9 +13,6 @@ EvosAttacksPointers::
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw AzurillEvosAttacks
 	dw WynautEvosAttacks
 	dw AmbipomEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw MimeJrEvosAttacks
 	dw HappinyEvosAttacks
 	dw MunchlaxEvosAttacks

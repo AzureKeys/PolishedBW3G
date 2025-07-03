@@ -28,9 +28,6 @@ NewPokedexOrder:
 	dp PICHU
 	dp PIKACHU
 	dp RAICHU
-	dp CATERPIE
-	dp METAPOD
-	dp BUTTERFREE
 	dp WEEDLE
 	dp KAKUNA
 	dp BEEDRILL

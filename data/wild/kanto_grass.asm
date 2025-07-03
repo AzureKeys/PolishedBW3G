@@ -339,18 +339,18 @@
 	def_grass_wildmons ROUTE_2_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, BUTTERFREE
+	wildmon 55, RATTATA
 	wildmon 54, LEDIAN
 	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
+	wildmon 57, RATTATA
 	wildmon 56, LEDIAN
 	wildmon 58, PIDGEOTTO
 	wildmon 59, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
+	wildmon 55, RATTATA
 	wildmon 54, PIDGEOTTO
 	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
+	wildmon 57, RATTATA
 	wildmon 56, PIDGEOTTO
 	wildmon 58, PIDGEOTTO
 	wildmon 59, PIKACHU
@@ -367,18 +367,18 @@
 	def_grass_wildmons ROUTE_2_SOUTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, BUTTERFREE
+	wildmon 55, RATTATA
 	wildmon 54, LEDIAN
 	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
+	wildmon 57, RATTATA
 	wildmon 56, LEDIAN
 	wildmon 58, PIDGEOTTO
 	wildmon 59, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
+	wildmon 55, RATTATA
 	wildmon 54, PIDGEOTTO
 	wildmon 57, PIDGEOTTO
-	wildmon 57, BUTTERFREE
+	wildmon 57, RATTATA
 	wildmon 56, PIDGEOTTO
 	wildmon 58, PIDGEOTTO
 	wildmon 59, PIKACHU
@@ -395,17 +395,17 @@
 	def_grass_wildmons VIRIDIAN_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 57, BUTTERFREE
+	wildmon 57, RATTATA
 	wildmon 57, BEEDRILL
 	wildmon 55, KAKUNA
-	wildmon 55, METAPOD
-	wildmon 56, METAPOD
+	wildmon 55, RATTATA
+	wildmon 56, RATTATA
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; day
-	wildmon 57, BUTTERFREE
+	wildmon 57, RATTATA
 	wildmon 57, BEEDRILL
-	wildmon 55, METAPOD
+	wildmon 55, RATTATA
 	wildmon 55, KAKUNA
 	wildmon 56, KAKUNA
 	wildmon 59, PIKACHU
@@ -1039,7 +1039,7 @@
 	def_grass_wildmons ROUTE_24
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, BUTTERFREE
+	wildmon 48, RATTATA
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
@@ -1047,7 +1047,7 @@
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; day
-	wildmon 48, BUTTERFREE
+	wildmon 48, RATTATA
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
@@ -1067,7 +1067,7 @@
 	def_grass_wildmons ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, BUTTERFREE
+	wildmon 48, RATTATA
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
@@ -1075,7 +1075,7 @@
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; day
-	wildmon 48, BUTTERFREE
+	wildmon 48, RATTATA
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
@@ -1179,7 +1179,7 @@
 	def_grass_wildmons CERULEAN_CAPE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, BUTTERFREE
+	wildmon 48, RATTATA
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
@@ -1187,7 +1187,7 @@
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; day
-	wildmon 48, BUTTERFREE
+	wildmon 48, RATTATA
 	wildmon 48, BEEDRILL
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL

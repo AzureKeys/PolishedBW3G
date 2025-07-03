@@ -13,9 +13,6 @@ PokemonPicPointers::
 	pics Squirtle
 	pics Wartortle
 	pics Blastoise
-	pics Caterpie
-	pics Metapod
-	pics Butterfree
 	pics Weedle
 	pics Kakuna
 	pics Beedrill
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Azurill
 	pics Wynaut
 	pics Ambipom
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics MimeJr
 	pics Happiny
 	pics Munchlax

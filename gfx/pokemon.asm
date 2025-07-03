@@ -44,18 +44,6 @@ SECTION "Blastoise Pics", ROMX
 BlastoiseFrontpic: INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
 BlastoiseBackpic:  INCBIN "gfx/pokemon/blastoise/back.2bpp.lz"
 
-SECTION "Caterpie Pics", ROMX
-CaterpieFrontpic: INCBIN "gfx/pokemon/caterpie/front.animated.2bpp.lz"
-CaterpieBackpic:  INCBIN "gfx/pokemon/caterpie/back.2bpp.lz"
-
-SECTION "Metapod Pics", ROMX
-MetapodFrontpic: INCBIN "gfx/pokemon/metapod/front.animated.2bpp.lz"
-MetapodBackpic:  INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
-
-SECTION "Butterfree Pics", ROMX
-ButterfreeFrontpic: INCBIN "gfx/pokemon/butterfree/front.animated.2bpp.lz"
-ButterfreeBackpic:  INCBIN "gfx/pokemon/butterfree/back.2bpp.lz"
-
 SECTION "Weedle Pics", ROMX
 WeedleFrontpic: INCBIN "gfx/pokemon/weedle/front.animated.2bpp.lz"
 WeedleBackpic:  INCBIN "gfx/pokemon/weedle/back.2bpp.lz"

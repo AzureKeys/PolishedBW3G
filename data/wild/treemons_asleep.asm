@@ -9,9 +9,6 @@ AsleepTreeMons:
 	assert_table_length NUM_DAYTIMES
 .Nite
 .Eve
-	dp CATERPIE
-	dp METAPOD
-	dp BUTTERFREE
 	dp WEEDLE
 	dp KAKUNA
 	dp BEEDRILL

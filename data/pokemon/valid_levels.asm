@@ -10,9 +10,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; Squirtle
 	db  16,  35 ; Wartortle
 	db  36, 100 ; Blastoise
-	db   1,   6 ; Caterpie
-	db   7,   9 ; Metapod
-	db  10, 100 ; Butterfree
 	db   1,   6 ; Weedle
 	db   7,   9 ; Kakuna
 	db  10, 100 ; Beedrill
@@ -259,11 +256,11 @@ endc
 	db   1,  19 ; Azurill
 	db   1,  19 ; Wynaut
 	db  35, 100 ; Ambipom
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  19 ; Mime Jr.
 	db   1,  19 ; Happiny
 	db   1,  19 ; Munchlax

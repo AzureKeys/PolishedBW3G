@@ -144,8 +144,8 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 1, FEAROW
-	wildmon LEVEL_FROM_BADGES - 1, BUTTERFREE
-	wildmon LEVEL_FROM_BADGES + 1, BUTTERFREE
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, SCYTHER
 	wildmon LEVEL_FROM_BADGES + 2, WEEPINBELL
 	wildmon LEVEL_FROM_BADGES + 4, YANMA

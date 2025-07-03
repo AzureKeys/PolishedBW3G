@@ -16,9 +16,6 @@ PokemonBodyData:
 	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; SQUIRTLE
 	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; WARTORTLE
 	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; BLASTOISE
-	body_data   3,   29, INSECTOID,    GREEN  ; CATERPIE
-	body_data   7,   99, SERPENTINE,   GREEN  ; METAPOD
-	body_data  11,  320, MULTIWINGS,   WHITE  ; BUTTERFREE
 	body_data   3,   32, INSECTOID,    BROWN  ; WEEDLE
 	body_data   6,  100, SERPENTINE,   YELLOW ; KAKUNA
 	body_data  10,  295, MULTIWINGS,   YELLOW ; BEEDRILL
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
 	body_data   6,  140, BIPEDAL_TAIL, BLUE   ; WYNAUT
 	body_data  12,  203, BIPEDAL_TAIL, PURPLE ; AMBIPOM
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  130, BIPEDAL,      PINK   ; MIME_JR_
 	body_data   6,  244, BIPEDAL,      PINK   ; HAPPINY
 	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX

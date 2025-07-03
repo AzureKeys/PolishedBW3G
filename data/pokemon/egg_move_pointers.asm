@@ -9,9 +9,6 @@ EggSpeciesMovesPointers::
 	dw SquirtleEggSpeciesMoves          ; Squirtle
 	dw SquirtleEggSpeciesMoves          ; Wartortle
 	dw SquirtleEggSpeciesMoves          ; Blastoise
-	dw CaterpieEggSpeciesMoves          ; Caterpie
-	dw CaterpieEggSpeciesMoves          ; Metapod
-	dw CaterpieEggSpeciesMoves          ; Butterfree
 	dw WeedleEggSpeciesMoves            ; Weedle
 	dw WeedleEggSpeciesMoves            ; Kakuna
 	dw WeedleEggSpeciesMoves            ; Beedrill
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw WynautEggSpeciesMoves            ; Wynaut
 	dw AipomEggSpeciesMoves             ; Ambipom
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw MimeJrEggSpeciesMoves            ; Mime Jr.
 	dw HappinyEggSpeciesMoves           ; Happiny
 	dw MunchlaxEggSpeciesMoves          ; Munchlax
