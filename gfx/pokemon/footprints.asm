@@ -4,7 +4,6 @@ VenomothFootprint::
 KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
-WeedleFootprint::
 StaryuFootprint::
 StarmieFootprint::
 PorygonZFootprint:: INCBIN "gfx/footprints/circle_large.1bpp.lz"
@@ -51,7 +50,6 @@ GyaradosFootprint::
 HaunterFootprint::
 HorseaFootprint::
 JynxFootprint::
-KakunaFootprint::
 KingdraFootprint::
 KoffingFootprint::
 LanturnFootprint::
@@ -95,7 +93,6 @@ CharizardFootprint:: INCBIN "gfx/footprints/charizard.1bpp.lz"
 SquirtleFootprint:: INCBIN "gfx/footprints/squirtle.1bpp.lz"
 WartortleFootprint:: INCBIN "gfx/footprints/wartortle.1bpp.lz"
 BlastoiseFootprint:: INCBIN "gfx/footprints/blastoise.1bpp.lz"
-BeedrillFootprint:: INCBIN "gfx/footprints/beedrill.1bpp.lz"
 PidgeottoFootprint:: INCBIN "gfx/footprints/pidgeotto.1bpp.lz"
 PidgeotFootprint:: INCBIN "gfx/footprints/pidgeot.1bpp.lz"
 RattataFootprint:: INCBIN "gfx/footprints/rattata.1bpp.lz"

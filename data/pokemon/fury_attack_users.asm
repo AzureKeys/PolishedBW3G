@@ -1,6 +1,5 @@
 FuryAttackUsers:
 ; "Fury Strikes" = Fury Attack + Fury Swipes
-	dp BEEDRILL
 	dp SPEAROW
 	dp FEAROW
 	dp NIDORAN_M

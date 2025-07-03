@@ -372,16 +372,16 @@
 	wildmon 14, LEDYBA
 	wildmon 14, PIDGEY
 	wildmon 10, RATTATA
-	wildmon 12, WEEDLE
-	wildmon 12, WEEDLE
+	wildmon 12, RATTATA
+	wildmon 12, RATTATA
 	; day
 	wildmon 12, NIDORAN_F
 	wildmon 13, NIDORAN_M
 	wildmon 14, SUNKERN
 	wildmon 14, PIDGEY
 	wildmon 10, RATTATA
-	wildmon 12, WEEDLE
-	wildmon 12, WEEDLE
+	wildmon 12, RATTATA
+	wildmon 12, RATTATA
 	; nite
 	wildmon 12, PSYDUCK
 	wildmon 13, HOOTHOOT
@@ -676,17 +676,17 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 9, RATTATA
-	wildmon 9, WEEDLE
+	wildmon 9, RATTATA
 	wildmon 10, RATTATA
-	wildmon 10, KAKUNA
+	wildmon 10, RATTATA
 	wildmon 10, PIDGEY
 	wildmon 9, PARAS
 	wildmon 10, PARAS
 	; day
 	wildmon 9, RATTATA
-	wildmon 9, WEEDLE
+	wildmon 9, RATTATA
 	wildmon 10, RATTATA
-	wildmon 10, KAKUNA
+	wildmon 10, RATTATA
 	wildmon 9, PARAS
 	wildmon 8, ODDISH
 	wildmon 10, PIDGEY
@@ -1379,7 +1379,7 @@
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 4, PIDGEY
-	wildmon 3, WEEDLE
+	wildmon 3, RATTATA
 	wildmon 4, HOPPIP
 	wildmon 4, HOPPIP
 	; day
@@ -1387,7 +1387,7 @@
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 4, PIDGEY
-	wildmon 3, WEEDLE
+	wildmon 3, RATTATA
 	wildmon 4, HOPPIP
 	wildmon 4, HOPPIP
 	; nite
@@ -1407,7 +1407,7 @@
 	wildmon 4, RATTATA
 	wildmon 5, BELLSPROUT
 	wildmon 5, PIDGEY
-	wildmon 4, WEEDLE
+	wildmon 4, RATTATA
 	wildmon 5, HOPPIP
 	wildmon 5, HOPPIP
 	; day
@@ -1415,7 +1415,7 @@
 	wildmon 4, RATTATA
 	wildmon 5, BELLSPROUT
 	wildmon 5, PIDGEY
-	wildmon 4, WEEDLE
+	wildmon 4, RATTATA
 	wildmon 5, HOPPIP
 	wildmon 5, HOPPIP
 	; nite

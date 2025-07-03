@@ -248,35 +248,6 @@ if !DEF(FAITHFUL)
 	learnset 75, IRON_HEAD ; TM move
 endc
 
-	evos_attacks Weedle
-	evo_data EVOLVE_LEVEL, 7, KAKUNA
-	learnset 1, POISON_STING
-	learnset 1, STRING_SHOT
-	learnset 9, BUG_BITE
-
-	evos_attacks Kakuna
-	evo_data EVOLVE_LEVEL, 10, BEEDRILL
-	learnset 1, POISON_STING ; Weedle move
-	learnset 1, STRING_SHOT ; Weedle move
-	learnset 1, DEFENSE_CURL ; Harden → similar move
-
-	evos_attacks Beedrill
-	learnset 1, POISON_STING ; Weedle move
-	learnset 1, STRING_SHOT ; Weedle move
-	learnset 1, FURY_STRIKES ; Fury Attack → similar move
-	learnset 1, U_TURN ; evolution move
-	learnset 14, RAGE
-	learnset 17, PURSUIT
-	learnset 20, FOCUS_ENERGY
-	learnset 23, VENOSHOCK
-	learnset 26, FEINT_ATTACK ; Assurance → similar move
-	learnset 29, TOXIC_SPIKES
-	learnset 32, PIN_MISSILE
-	learnset 35, POISON_JAB
-	learnset 38, AGILITY
-	learnset 41, SWORDS_DANCE ; Endeavor → TM move
-	learnset 44, OUTRAGE ; Fell Stinger → LGPE move
-
 	evos_attacks Pidgey
 	evo_data EVOLVE_LEVEL, 18, PIDGEOTTO
 	learnset 1, TACKLE

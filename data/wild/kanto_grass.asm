@@ -396,18 +396,18 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 57, RATTATA
-	wildmon 57, BEEDRILL
-	wildmon 55, KAKUNA
+	wildmon 57, RATTATA
+	wildmon 55, RATTATA
 	wildmon 55, RATTATA
 	wildmon 56, RATTATA
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; day
 	wildmon 57, RATTATA
-	wildmon 57, BEEDRILL
+	wildmon 57, RATTATA
 	wildmon 55, RATTATA
-	wildmon 55, KAKUNA
-	wildmon 56, KAKUNA
+	wildmon 55, RATTATA
+	wildmon 56, RATTATA
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; nite
@@ -1040,7 +1040,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 48, RATTATA
-	wildmon 48, BEEDRILL
+	wildmon 48, RATTATA
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
@@ -1048,7 +1048,7 @@
 	wildmon 52, KADABRA
 	; day
 	wildmon 48, RATTATA
-	wildmon 48, BEEDRILL
+	wildmon 48, RATTATA
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
@@ -1068,7 +1068,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 48, RATTATA
-	wildmon 48, BEEDRILL
+	wildmon 48, RATTATA
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
@@ -1076,7 +1076,7 @@
 	wildmon 52, KADABRA
 	; day
 	wildmon 48, RATTATA
-	wildmon 48, BEEDRILL
+	wildmon 48, RATTATA
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
@@ -1180,7 +1180,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 48, RATTATA
-	wildmon 48, BEEDRILL
+	wildmon 48, RATTATA
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO
@@ -1188,7 +1188,7 @@
 	wildmon 52, KINGLER
 	; day
 	wildmon 48, RATTATA
-	wildmon 48, BEEDRILL
+	wildmon 48, RATTATA
 	wildmon 51, PIDGEOTTO
 	wildmon 50, WEEPINBELL
 	wildmon 49, PIDGEOTTO

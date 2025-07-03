@@ -21,7 +21,7 @@ ENDM
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	contest_winner KAKUNA,     300
+	contest_winner RATTATA,     300
 	contest_winner RATTATA,    285
 	contest_winner RATTATA,   226
 
@@ -46,14 +46,14 @@ BugContestant_PokefanMWilliam:
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BENNY
 	contest_winner RATTATA, 318
-	contest_winner WEEDLE,     295
+	contest_winner RATTATA,     295
 	contest_winner RATTATA,   285
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	contest_winner PINSIR,     366
 	contest_winner VENONAT,    329
-	contest_winner KAKUNA,     314
+	contest_winner RATTATA,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
@@ -69,7 +69,7 @@ BugContestant_BugCatcherJosh:
 
 BugContestant_SchoolboyJohnny:
 	db SCHOOLBOY, JOHNNY
-	contest_winner WEEDLE,     270
+	contest_winner RATTATA,     270
 	contest_winner PINSIR,     282
 	contest_winner RATTATA,   251
 
@@ -77,4 +77,4 @@ BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	contest_winner VENONAT,    267
 	contest_winner PARAS,      254
-	contest_winner KAKUNA,     259
+	contest_winner RATTATA,     259

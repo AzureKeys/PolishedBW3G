@@ -9,9 +9,6 @@ AsleepTreeMons:
 	assert_table_length NUM_DAYTIMES
 .Nite
 .Eve
-	dp WEEDLE
-	dp KAKUNA
-	dp BEEDRILL
 	dp SPEAROW
 	dp EKANS
 	dp EXEGGCUTE

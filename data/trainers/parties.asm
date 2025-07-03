@@ -117,7 +117,7 @@ BugsyGroup:
 	tr_mon 14, RATTATA @ NO_ITEM, MALE ; NO_ITEM needed to match
 		tr_evs 32 SAt, 32 Spe
 		tr_moves TACKLE, POISONPOWDER, SLEEP_POWDER, CONFUSION
-	tr_mon 14, BEEDRILL, MALE
+	tr_mon 14, RATTATA, MALE
 		tr_evs 32 Atk, 32 Spe
 		tr_moves POISON_STING, STRING_SHOT, DEFENSE_CURL, FURY_STRIKES
 	tr_mon 14, YANMA, FEMALE
@@ -1690,21 +1690,21 @@ BugCatcherGroup:
 	def_trainer WADE1, "Wade"
 	tr_mon 2, RATTATA
 	tr_mon 2, RATTATA
-	tr_mon 3, WEEDLE
+	tr_mon 3, RATTATA
 	tr_mon 2, RATTATA
 	end_trainer
 
 	def_trainer WADE2, "Wade"
 	tr_mon 9, RATTATA
 	tr_mon 9, RATTATA
-	tr_mon 10, KAKUNA
+	tr_mon 10, RATTATA
 	tr_mon 9, RATTATA
 	end_trainer
 
 	def_trainer WADE3, "Wade"
 	tr_mon 14, RATTATA
 	tr_mon 14, RATTATA
-	tr_mon 15, BEEDRILL
+	tr_mon 15, RATTATA
 	tr_mon 14, RATTATA
 	end_trainer
 
@@ -1713,7 +1713,7 @@ BugCatcherGroup:
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, HEALINGLIGHT
 	tr_mon 24, RATTATA
 		tr_moves CONFUSION, STUN_SPORE, SUPERSONIC, HEALINGLIGHT
-	tr_mon 25, BEEDRILL
+	tr_mon 25, RATTATA
 		tr_moves FURY_STRIKES, FOCUS_ENERGY, PIN_MISSILE, RAGE
 	tr_mon 24, RATTATA
 		tr_moves CONFUSION, SLEEP_POWDER, SUPERSONIC, HEALINGLIGHT
@@ -1724,7 +1724,7 @@ BugCatcherGroup:
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, GUST
 	tr_mon 30, RATTATA
 		tr_moves CONFUSION, STUN_SPORE, SUPERSONIC, GUST
-	tr_mon 32, BEEDRILL
+	tr_mon 32, RATTATA
 		tr_moves FURY_STRIKES, PURSUIT, U_TURN, DOUBLE_TEAM
 	tr_mon 34, RATTATA
 		tr_moves PSYBEAM, SLEEP_POWDER, GUST, HEALINGLIGHT
@@ -1759,14 +1759,14 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer BENNY, "Benny"
-	tr_mon 7, WEEDLE
-	tr_mon 10, KAKUNA
-	tr_mon 12, BEEDRILL
+	tr_mon 7, RATTATA
+	tr_mon 10, RATTATA
+	tr_mon 12, RATTATA
 	end_trainer
 
 	def_trainer AL, "Al"
 	tr_mon 13, RATTATA
-	tr_mon 13, WEEDLE
+	tr_mon 13, RATTATA
 	end_trainer
 
 	def_trainer JOSH, "Josh"
@@ -3660,13 +3660,13 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer ROB, "Rob"
-	tr_mon 60, BEEDRILL
+	tr_mon 60, RATTATA
 	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer ED, "Ed"
 	tr_mon 61, YANMA
-	tr_mon 62, BEEDRILL
+	tr_mon 62, RATTATA
 	tr_mon 62, RATTATA
 	end_trainer
 
@@ -3676,7 +3676,7 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer DANE, "Dane"
-	tr_mon 59, BEEDRILL
+	tr_mon 59, RATTATA
 	tr_mon 61, RATTATA
 	end_trainer
 
@@ -3691,20 +3691,20 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer ELLIS, "Ellis"
-	tr_mon 58, WEEDLE
-	tr_mon 60, KAKUNA
-	tr_mon 62, BEEDRILL
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer ABNER, "Abner"
 	tr_mon 59, RATTATA
-	tr_mon 59, BEEDRILL
+	tr_mon 59, RATTATA
 	tr_mon 59, PIKACHU
 	end_trainer
 
 	def_trainer KENTA, "Kenta"
-	tr_mon 60, BEEDRILL
-	tr_mon 60, BEEDRILL
+	tr_mon 60, RATTATA
+	tr_mon 60, RATTATA
 	tr_mon 60, PARASECT
 	end_trainer
 

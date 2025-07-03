@@ -92,36 +92,6 @@ endc
 	next "from the jets on"
 	next "its back.@"
 
-SECTION "WeedlePokedexEntry", ROMX
-WeedlePokedexEntry::
-	db "Hairy Bug@"
-	db   "The barb on top of"
-	next "its head secretes"
-	next "a strong poison."
-	page "It uses this toxic"
-	next "barb to protect"
-	next "itself.@"
-
-SECTION "KakunaPokedexEntry", ROMX
-KakunaPokedexEntry::
-	db "Cocoon@"
-	db   "Nearly incapable"
-	next "of movement, it"
-	next "leans against"
-	page "stout trees while"
-	next "waiting for its"
-	next "evolution.@"
-
-SECTION "BeedrillPokedexEntry", ROMX
-BeedrillPokedexEntry::
-	db "Poison Bee@"
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"
-
 SECTION "PidgeyPokedexEntry", ROMX
 PidgeyPokedexEntry::
 	db "Tiny Bird@"

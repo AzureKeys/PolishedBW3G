@@ -44,18 +44,6 @@ SECTION "Blastoise Pics", ROMX
 BlastoiseFrontpic: INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
 BlastoiseBackpic:  INCBIN "gfx/pokemon/blastoise/back.2bpp.lz"
 
-SECTION "Weedle Pics", ROMX
-WeedleFrontpic: INCBIN "gfx/pokemon/weedle/front.animated.2bpp.lz"
-WeedleBackpic:  INCBIN "gfx/pokemon/weedle/back.2bpp.lz"
-
-SECTION "Kakuna Pics", ROMX
-KakunaFrontpic: INCBIN "gfx/pokemon/kakuna/front.animated.2bpp.lz"
-KakunaBackpic:  INCBIN "gfx/pokemon/kakuna/back.2bpp.lz"
-
-SECTION "Beedrill Pics", ROMX
-BeedrillFrontpic: INCBIN "gfx/pokemon/beedrill/front.animated.2bpp.lz"
-BeedrillBackpic:  INCBIN "gfx/pokemon/beedrill/back.2bpp.lz"
-
 SECTION "Pidgey Pics", ROMX
 PidgeyFrontpic: INCBIN "gfx/pokemon/pidgey/front.animated.2bpp.lz"
 PidgeyBackpic:  INCBIN "gfx/pokemon/pidgey/back.2bpp.lz"

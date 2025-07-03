@@ -9,9 +9,6 @@ FramesPointers:
 	dw SquirtleFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
-	dw WeedleFrames
-	dw KakunaFrames
-	dw BeedrillFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw MimeJrFrames
 	dw HappinyFrames
 	dw MunchlaxFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw MantykeFrames
 	dw WeavileFrames
 	dw MagnezoneFrames

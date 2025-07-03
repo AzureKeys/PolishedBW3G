@@ -35,10 +35,6 @@ SquirtleEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-WeedleEggSpeciesMoves:
-	dp WEEDLE, PLAIN_FORM
-	db $ff
-
 PidgeyEggSpeciesMoves:
 	dp PIDGEY, PLAIN_FORM
 	db PECK

@@ -31,9 +31,6 @@ NewPokedexOrder:
 	dp PICHU
 	dp PIKACHU
 	dp RAICHU
-	dp WEEDLE
-	dp KAKUNA
-	dp BEEDRILL
 	dp LEDYBA
 	dp LEDIAN
 	dp SPINARAK

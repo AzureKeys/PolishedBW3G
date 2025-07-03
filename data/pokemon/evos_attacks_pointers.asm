@@ -13,9 +13,6 @@ EvosAttacksPointers::
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw MimeJrEvosAttacks
 	dw HappinyEvosAttacks
 	dw MunchlaxEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw MantykeEvosAttacks
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks

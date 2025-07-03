@@ -16,7 +16,6 @@ AlphabeticalPokedexOrder:
 	dp AZUMARILL
 	dp AZURILL
 	dp BAYLEEF
-	dp BEEDRILL
 	dp BELLOSSOM
 	dp BELLSPROUT
 	dp BLASTOISE
@@ -114,7 +113,6 @@ AlphabeticalPokedexOrder:
 	dp KABUTO
 	dp KABUTOPS
 	dp KADABRA
-	dp KAKUNA
 	dp KANGASKHAN
 	dp KINGDRA
 	dp KINGLER
@@ -281,7 +279,6 @@ AlphabeticalPokedexOrder:
 	dp VULPIX
 	dp WARTORTLE
 	dp WEAVILE
-	dp WEEDLE
 	dp WEEPINBELL
 	dp WEEZING
 	dp WIGGLYTUFF

@@ -7,11 +7,11 @@ ENDM
 ContestMons:
 	;            %, species,   min, max
 	contest_mon 15, RATTATA,    7, 18
-	contest_mon 15, WEEDLE,      7, 18
+	contest_mon 15, RATTATA,      7, 18
 	contest_mon 10, RATTATA,     9, 18
-	contest_mon 10, KAKUNA,      9, 18
+	contest_mon 10, RATTATA,      9, 18
 	contest_mon  5, RATTATA, 12, 15
-	contest_mon  5, BEEDRILL,   12, 15
+	contest_mon  5, RATTATA,   12, 15
 	contest_mon 10, VENONAT,    10, 16
 	contest_mon 10, PARAS,      10, 17
 	contest_mon  5, VENOMOTH,   12, 15

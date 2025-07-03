@@ -9,9 +9,6 @@ EggSpeciesMovesPointers::
 	dw SquirtleEggSpeciesMoves          ; Squirtle
 	dw SquirtleEggSpeciesMoves          ; Wartortle
 	dw SquirtleEggSpeciesMoves          ; Blastoise
-	dw WeedleEggSpeciesMoves            ; Weedle
-	dw WeedleEggSpeciesMoves            ; Kakuna
-	dw WeedleEggSpeciesMoves            ; Beedrill
 	dw PidgeyEggSpeciesMoves            ; Pidgey
 	dw PidgeyEggSpeciesMoves            ; Pidgeotto
 	dw PidgeyEggSpeciesMoves            ; Pidgeot
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw MimeJrEggSpeciesMoves            ; Mime Jr.
 	dw HappinyEggSpeciesMoves           ; Happiny
 	dw MunchlaxEggSpeciesMoves          ; Munchlax
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone

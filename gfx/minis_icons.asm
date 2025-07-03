@@ -46,21 +46,6 @@ BlastoiseMini::     INCBIN "gfx/minis/blastoise.2bpp.lz"
 BlastoiseMiniMask:: INCBIN "gfx/minis/blastoise_mask.1bpp.lz"
 BlastoiseIcon::     INCBIN "gfx/icons/blastoise.2bpp.lz"
 
-SECTION "Weedle Mini Icon", ROMX
-WeedleMini::     INCBIN "gfx/minis/weedle.2bpp.lz"
-WeedleMiniMask:: INCBIN "gfx/minis/weedle_mask.1bpp.lz"
-WeedleIcon::     INCBIN "gfx/icons/weedle.2bpp.lz"
-
-SECTION "Kakuna Mini Icon", ROMX
-KakunaMini::     INCBIN "gfx/minis/kakuna.2bpp.lz"
-KakunaMiniMask:: INCBIN "gfx/minis/kakuna_mask.1bpp.lz"
-KakunaIcon::     INCBIN "gfx/icons/kakuna.2bpp.lz"
-
-SECTION "Beedrill Mini Icon", ROMX
-BeedrillMini::     INCBIN "gfx/minis/beedrill.2bpp.lz"
-BeedrillMiniMask:: INCBIN "gfx/minis/beedrill_mask.1bpp.lz"
-BeedrillIcon::     INCBIN "gfx/icons/beedrill.2bpp.lz"
-
 SECTION "Pidgey Mini Icon", ROMX
 PidgeyMini::     INCBIN "gfx/minis/pidgey.2bpp.lz"
 PidgeyMiniMask:: INCBIN "gfx/minis/pidgey_mask.1bpp.lz"

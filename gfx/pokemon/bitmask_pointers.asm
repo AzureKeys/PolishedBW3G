@@ -9,9 +9,6 @@ BitmasksPointers:
 	dw SquirtleBitmasks
 	dw WartortleBitmasks
 	dw BlastoiseBitmasks
-	dw WeedleBitmasks
-	dw KakunaBitmasks
-	dw BeedrillBitmasks
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw MimeJrBitmasks
 	dw HappinyBitmasks
 	dw MunchlaxBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw MantykeBitmasks
 	dw WeavileBitmasks
 	dw MagnezoneBitmasks
