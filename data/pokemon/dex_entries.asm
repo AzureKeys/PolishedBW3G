@@ -2894,6 +2894,35 @@ EmboarPokedexEntry::
 	next "blaze on its"
 	next "chin.@"
 
+SECTION "OshawottPokedexEntry", ROMX
+OshawottPokedexEntry::
+	db "Sea Otter@"
+	db "It fights using"
+	next "the scalchop on"
+	next "its stomach. It"
+	page "responds to an"
+	next "attack by "
+	next "slashing.@"
+
+SECTION "DewottPokedexEntry", ROMX
+DewottPokedexEntry::
+	db "Discipline@"
+	db "Strict training"
+	next "is how it learns"
+	next "its flowing"
+	page "double scalchop"
+	next "technique.@"
+
+SECTION "SamurottPlainPokedexEntry", ROMX
+SamurottPlainPokedexEntry::
+	db "Formidable@"
+	db "Part of the armor"
+	next "on its legs"
+	next "becomes a giant"
+	page "sword. Its cry"
+	next "can intimidate"
+	next "most enemies.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

@@ -1457,6 +1457,21 @@ EmboarMini::     INCBIN "gfx/minis/emboar.2bpp.lz"
 EmboarMiniMask:: INCBIN "gfx/minis/emboar_mask.1bpp.lz"
 EmboarIcon::     INCBIN "gfx/icons/emboar.2bpp.lz"
 
+SECTION "Oshawott Mini Icon", ROMX
+OshawottMini::     INCBIN "gfx/minis/oshawott.2bpp.lz"
+OshawottMiniMask:: INCBIN "gfx/minis/oshawott_mask.1bpp.lz"
+OshawottIcon::     INCBIN "gfx/icons/oshawott.2bpp.lz"
+
+SECTION "Dewott Mini Icon", ROMX
+DewottMini::     INCBIN "gfx/minis/dewott.2bpp.lz"
+DewottMiniMask:: INCBIN "gfx/minis/dewott_mask.1bpp.lz"
+DewottIcon::     INCBIN "gfx/icons/dewott.2bpp.lz"
+
+SECTION "Samurott Mini Icon", ROMX
+SamurottMini::     INCBIN "gfx/minis/samurott.2bpp.lz"
+SamurottMiniMask:: INCBIN "gfx/minis/samurott_mask.1bpp.lz"
+SamurottIcon::     INCBIN "gfx/icons/samurott.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

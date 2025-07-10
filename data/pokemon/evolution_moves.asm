@@ -295,6 +295,9 @@ endc
 	db NO_MOVE      ; TEPIG
 	db LOW_KICK     ; PIGNITE
 	db NO_MOVE      ; EMBOAR
+	db NO_MOVE      ; OSHAWOTT
+	db NO_MOVE      ; DEWOTT
+	db SLASH        ; SAMUROTT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

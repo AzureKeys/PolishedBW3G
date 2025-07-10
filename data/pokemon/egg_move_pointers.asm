@@ -291,6 +291,9 @@ EggSpeciesMovesPointers::
 	dw TepigEggSpeciesMoves             ; Tepig
 	dw TepigEggSpeciesMoves             ; Pignite
 	dw TepigEggSpeciesMoves             ; Emboar
+	dw OshawottEggSpeciesMoves          ; Oshawott
+	dw OshawottEggSpeciesMoves          ; Dewott
+	dw OshawottEggSpeciesMoves          ; Samurott
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

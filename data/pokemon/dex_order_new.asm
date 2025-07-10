@@ -8,6 +8,9 @@ NewPokedexOrder:
 	dp TEPIG
 	dp PIGNITE
 	dp EMBOAR
+	dp OSHAWOTT
+	dp DEWOTT
+	dp SAMUROTT
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

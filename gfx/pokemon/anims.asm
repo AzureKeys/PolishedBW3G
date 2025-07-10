@@ -239,6 +239,9 @@ SerperiorAnimation:  INCLUDE "gfx/pokemon/serperior/anim.asm"
 TepigAnimation:      INCLUDE "gfx/pokemon/tepig/anim.asm"
 PigniteAnimation:    INCLUDE "gfx/pokemon/pignite/anim.asm"
 EmboarAnimation:     INCLUDE "gfx/pokemon/emboar/anim.asm"
+OshawottAnimation:   INCLUDE "gfx/pokemon/oshawott/anim.asm"
+DewottAnimation:     INCLUDE "gfx/pokemon/dewott/anim.asm"
+SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

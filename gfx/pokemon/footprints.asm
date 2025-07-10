@@ -25,6 +25,9 @@ SerperiorFootprint::
 TepigFootprint::
 PigniteFootprint::
 EmboarFootprint::
+OshawottFootprint::
+DewottFootprint::
+SamurottFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

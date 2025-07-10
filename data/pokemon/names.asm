@@ -292,4 +292,7 @@ PokemonNames::
 	rawchar "Tepig@@@@@"
 	rawchar "Pignite@@@"
 	rawchar "Emboar@@@@"
+	rawchar "Oshawott@@"
+	rawchar "Dewott@@@@"
+	rawchar "Samurott@@"
 	assert_table_length NUM_SPECIES + 1

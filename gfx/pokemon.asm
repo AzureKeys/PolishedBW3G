@@ -1556,3 +1556,15 @@ PigniteBackpic:  INCBIN "gfx/pokemon/pignite/back.2bpp.lz"
 SECTION "Emboar Pics", ROMX
 EmboarFrontpic: INCBIN "gfx/pokemon/emboar/front.animated.2bpp.lz"
 EmboarBackpic:  INCBIN "gfx/pokemon/emboar/back.2bpp.lz"
+
+SECTION "Oshawott Pics", ROMX
+OshawottFrontpic: INCBIN "gfx/pokemon/oshawott/front.animated.2bpp.lz"
+OshawottBackpic:  INCBIN "gfx/pokemon/oshawott/back.2bpp.lz"
+
+SECTION "Dewott Pics", ROMX
+DewottFrontpic: INCBIN "gfx/pokemon/dewott/front.animated.2bpp.lz"
+DewottBackpic:  INCBIN "gfx/pokemon/dewott/back.2bpp.lz"
+
+SECTION "SamurottPlain Pics", ROMX
+SamurottPlainFrontpic: INCBIN "gfx/pokemon/samurott_plain/front.animated.2bpp.lz"
+SamurottPlainBackpic:  INCBIN "gfx/pokemon/samurott_plain/back.2bpp.lz"

@@ -239,6 +239,9 @@ SerperiorBitmasks:  INCLUDE "gfx/pokemon/serperior/bitmask.asm"
 TepigBitmasks:      INCLUDE "gfx/pokemon/tepig/bitmask.asm"
 PigniteBitmasks:    INCLUDE "gfx/pokemon/pignite/bitmask.asm"
 EmboarBitmasks:     INCLUDE "gfx/pokemon/emboar/bitmask.asm"
+OshawottBitmasks:   INCLUDE "gfx/pokemon/oshawott/bitmask.asm"
+DewottBitmasks:     INCLUDE "gfx/pokemon/dewott/bitmask.asm"
+SamurottPlainBitmasks: INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

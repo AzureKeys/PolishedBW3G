@@ -1239,5 +1239,11 @@ TepigEggSpeciesMoves:
 	db SUCKER_PUNCH
 	db $ff
 
+OshawottEggSpeciesMoves:
+	db AIR_SLASH
+	db NIGHT_SLASH
+	db SCREECH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

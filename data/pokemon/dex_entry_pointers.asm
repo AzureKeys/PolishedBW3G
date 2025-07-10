@@ -292,6 +292,9 @@ PokedexDataPointerTable:
 	dba TepigPokedexEntry
 	dba PignitePokedexEntry
 	dba EmboarPokedexEntry
+	dba OshawottPokedexEntry
+	dba DewottPokedexEntry
+	dba SamurottPlainPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

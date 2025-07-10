@@ -291,6 +291,9 @@ AnimationPointers:
 	dw TepigAnimation
 	dw PigniteAnimation
 	dw EmboarAnimation
+	dw OshawottAnimation
+	dw DewottAnimation
+	dw SamurottPlainAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

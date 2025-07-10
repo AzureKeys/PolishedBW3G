@@ -295,6 +295,9 @@ PokemonPicPointers::
 	pics Tepig
 	pics Pignite
 	pics Emboar
+	pics Oshawott
+	pics Dewott
+	pics SamurottPlain
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

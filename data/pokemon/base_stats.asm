@@ -326,6 +326,9 @@ INCLUDE "data/pokemon/base_stats/serperior.asm"
 INCLUDE "data/pokemon/base_stats/tepig.asm"
 INCLUDE "data/pokemon/base_stats/pignite.asm"
 INCLUDE "data/pokemon/base_stats/emboar.asm"
+INCLUDE "data/pokemon/base_stats/oshawott.asm"
+INCLUDE "data/pokemon/base_stats/dewott.asm"
+INCLUDE "data/pokemon/base_stats/samurott.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

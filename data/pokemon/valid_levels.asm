@@ -296,4 +296,7 @@ endc
 	db   1,  16 ; Tepig
 	db  17,  35 ; Pignite
 	db  36, 100 ; Emboar
+	db   1,  16 ; Oshawott
+	db  17,  35 ; Dewott
+	db  36, 100 ; Samurott
 	assert_table_length NUM_SPECIES

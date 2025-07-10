@@ -309,6 +309,9 @@ INCLUDE "gfx/pokemon/serperior/front.dimensions"
 INCLUDE "gfx/pokemon/tepig/front.dimensions"
 INCLUDE "gfx/pokemon/pignite/front.dimensions"
 INCLUDE "gfx/pokemon/emboar/front.dimensions"
+INCLUDE "gfx/pokemon/oshawott/front.dimensions"
+INCLUDE "gfx/pokemon/dewott/front.dimensions"
+INCLUDE "gfx/pokemon/samurott_plain/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

@@ -291,6 +291,9 @@ FramesPointers:
 	dw TepigFrames
 	dw PigniteFrames
 	dw EmboarFrames
+	dw OshawottFrames
+	dw DewottFrames
+	dw SamurottPlainFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

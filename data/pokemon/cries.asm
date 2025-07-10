@@ -297,4 +297,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,  -$08d,  $0ab ; Tepig
 	mon_cry CRY_METAPOD,    -$3c5,  $0f0 ; Pignite
 	mon_cry CRY_METAPOD,    -$4c0,  $130 ; Emboar
+	mon_cry CRY_SLOWPOKE,    $1ca,  $130 ; Oshawott
+	mon_cry CRY_DIGLETT,     $033,  $0d0 ; Dewott
+	mon_cry CRY_VULPIX,     -$15c,  $100 ; Samurott
 	assert_table_length NUM_SPECIES

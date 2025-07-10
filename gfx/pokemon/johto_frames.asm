@@ -134,6 +134,9 @@ SerperiorFrames:  INCLUDE "gfx/pokemon/serperior/frames.asm"
 TepigFrames:      INCLUDE "gfx/pokemon/tepig/frames.asm"
 PigniteFrames:    INCLUDE "gfx/pokemon/pignite/frames.asm"
 EmboarFrames:     INCLUDE "gfx/pokemon/emboar/frames.asm"
+OshawottFrames:   INCLUDE "gfx/pokemon/oshawott/frames.asm"
+DewottFrames:     INCLUDE "gfx/pokemon/dewott/frames.asm"
+SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

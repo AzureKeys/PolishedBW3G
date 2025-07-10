@@ -295,6 +295,9 @@ OverworldMonIconColors::
 	iconpal RED, ORANGE ; TEPIG
 	iconpal RED, ORANGE ; PIGNITE
 	iconpal RED, BLUE ; EMBOAR
+	iconpal AZURE, BLUE ; OSHAWOTT
+	iconpal AZURE, TEAL ; DEWOTT
+	iconpal AZURE, BLUE ; SAMUROTT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

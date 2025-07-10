@@ -42,6 +42,7 @@ AlphabeticalPokedexOrder:
 	dp CYNDAQUIL
 	dp DELIBIRD
 	dp DEWGONG
+	dp DEWOTT
 	dp DIGLETT
 	dp DITTO
 	dp DODRIO
@@ -174,6 +175,7 @@ AlphabeticalPokedexOrder:
 	dp OMANYTE
 	dp OMASTAR
 	dp ONIX
+	dp OSHAWOTT
 	dp OVERQWIL
 	dp PARAS
 	dp PARASECT
@@ -212,6 +214,7 @@ AlphabeticalPokedexOrder:
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
+	dp SAMUROTT
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SCIZOR

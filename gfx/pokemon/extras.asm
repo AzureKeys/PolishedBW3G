@@ -239,6 +239,9 @@ SerperiorAnimationExtra:  INCLUDE "gfx/pokemon/serperior/anim_idle.asm"
 TepigAnimationExtra:      INCLUDE "gfx/pokemon/tepig/anim_idle.asm"
 PigniteAnimationExtra:    INCLUDE "gfx/pokemon/pignite/anim_idle.asm"
 EmboarAnimationExtra:     INCLUDE "gfx/pokemon/emboar/anim_idle.asm"
+OshawottAnimationExtra:   INCLUDE "gfx/pokemon/oshawott/anim_idle.asm"
+DewottAnimationExtra:     INCLUDE "gfx/pokemon/dewott/anim_idle.asm"
+SamurottPlainAnimationExtra: INCLUDE "gfx/pokemon/samurott_plain/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

@@ -295,6 +295,9 @@ MiniIconPointers:
 	mini_icon Tepig
 	mini_icon Pignite
 	mini_icon Emboar
+	mini_icon Oshawott
+	mini_icon Dewott
+	mini_icon Samurott
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

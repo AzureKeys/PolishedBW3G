@@ -5989,6 +5989,63 @@ endc
 	; Skipped Head Smash
 	learnset 50, ROAR
 	learnset 55, FLARE_BLITZ
+	
+	evos_attacks Oshawott
+	evo_data EVOLVE_LEVEL, 17, DEWOTT
+	learnset 1, TACKLE
+	learnset 5, LEER
+	learnset 7, WATER_GUN
+	learnset 13, FOCUS_ENERGY
+	learnset 16, BUBBLE_BEAM ; Razor Shell
+	;learnset 19, FURY_CUTTER
+	learnset 23, WATER_PULSE
+	learnset 25, KARATE_CHOP ; Revenge
+	learnset 29, AQUA_JET
+	learnset 31, ENCORE
+	learnset 35, AQUA_TAIL
+	; Removed Retaliate
+	learnset 37, SWORDS_DANCE
+	learnset 41, HYDRO_PUMP
+	
+	evos_attacks Dewott
+	evo_data EVOLVE_LEVEL, 36, SAMUROTT
+	learnset 1, TACKLE
+	learnset 5, LEER
+	learnset 7, WATER_GUN
+	learnset 13, FOCUS_ENERGY
+	learnset 16, BUBBLE_BEAM ; Razor Shell
+	;learnset 21, FURY_CUTTER
+	learnset 26, WATER_PULSE
+	learnset 29, KARATE_CHOP ; Revenge
+	learnset 34, AQUA_JET
+	learnset 37, ENCORE
+	learnset 42, AQUA_TAIL
+	; Removed Retaliate
+	learnset 45, SWORDS_DANCE
+	learnset 50, HYDRO_PUMP
+	
+	evos_attacks SamurottPlain
+	learnset 1, SLASH
+	learnset 1, MEGAHORN
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 1, WATER_GUN
+	learnset 1, FOCUS_ENERGY
+	learnset 5, LEER
+	learnset 7, WATER_GUN
+	learnset 13, FOCUS_ENERGY
+	learnset 16, BUBBLE_BEAM ; Razor Shell
+	;learnset 21, FURY_CUTTER
+	learnset 26, WATER_PULSE
+	learnset 29, KARATE_CHOP ; Revenge
+	learnset 34, AQUA_JET
+	learnset 35, SLASH
+	learnset 39, ENCORE
+	learnset 46, AQUA_TAIL
+	; Removed Retaliate
+	learnset 51, SWORDS_DANCE
+	learnset 58, HYDRO_PUMP
+	learnset 63, MEGAHORN ; Added at Hydro Pump's original level
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
