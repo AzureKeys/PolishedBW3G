@@ -56,16 +56,6 @@ RaticateMini::     INCBIN "gfx/minis/raticate.2bpp.lz"
 RaticateMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lz"
 RaticateIcon::     INCBIN "gfx/icons/raticate.2bpp.lz"
 
-SECTION "Spearow Mini Icon", ROMX
-SpearowMini::     INCBIN "gfx/minis/spearow.2bpp.lz"
-SpearowMiniMask:: INCBIN "gfx/minis/spearow_mask.1bpp.lz"
-SpearowIcon::     INCBIN "gfx/icons/spearow.2bpp.lz"
-
-SECTION "Fearow Mini Icon", ROMX
-FearowMini::     INCBIN "gfx/minis/fearow.2bpp.lz"
-FearowMiniMask:: INCBIN "gfx/minis/fearow_mask.1bpp.lz"
-FearowIcon::     INCBIN "gfx/icons/fearow.2bpp.lz"
-
 SECTION "Ekans Mini Icon", ROMX
 EkansMini::     INCBIN "gfx/minis/ekans.2bpp.lz"
 EkansMiniMask:: INCBIN "gfx/minis/ekans_mask.1bpp.lz"

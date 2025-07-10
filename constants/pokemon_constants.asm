@@ -35,8 +35,6 @@
 	const BLASTOISE  ; 09
 	const RATTATA    ; 13
 	const RATICATE   ; 14
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18
 	const PIKACHU    ; 19
@@ -278,10 +276,10 @@
 	const MANTYKE    ; 107
 	const WEAVILE    ; 108
 	const MAGNEZONE  ; 109
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const LICKILICKY ; 10a
 	const RHYPERIOR  ; 10b
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const TANGROWTH  ; 10c
 	const ELECTIVIRE ; 10d
 	const MAGMORTAR  ; 10e

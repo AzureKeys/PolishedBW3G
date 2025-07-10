@@ -17,8 +17,6 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; Blastoise
 	mon_cry CRY_RATTATA,     $000,  $100 ; Rattata
 	mon_cry CRY_RATTATA,     $020,  $17f ; Raticate
-	mon_cry CRY_FARFETCH_D,  $000,  $100 ; Spearow
-	mon_cry CRY_SHELLDER,    $040,  $120 ; Fearow
 	mon_cry CRY_EKANS,       $012,  $0c0 ; Ekans
 	mon_cry CRY_EKANS,       $0e0,  $090 ; Arbok
 	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; Pikachu
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantyke
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magnezone
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickilicky
 	mon_cry CRY_RHYDON,      $000,  $100 ; Rhyperior
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GOLEM,       $000,  $100 ; Tangrowth
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmortar

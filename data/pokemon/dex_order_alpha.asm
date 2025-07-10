@@ -68,7 +68,6 @@ AlphabeticalPokedexOrder:
 	dp EXEGGUTOR
 	dp FARIGIRAF
 	dp FARFETCH_D
-	dp FEAROW
 	dp FERALIGATR
 	dp FLAAFFY
 	dp FLAREON
@@ -243,7 +242,6 @@ AlphabeticalPokedexOrder:
 	dp SNIVY
 	dp SNORLAX
 	dp SNUBBULL
-	dp SPEAROW
 	dp SPINARAK
 	dp SQUIRTLE
 	dp STANTLER

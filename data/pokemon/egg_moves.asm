@@ -53,15 +53,6 @@ RattataAlolanEggSpeciesMoves:
 	db COUNTER
 	db $ff
 
-SpearowEggSpeciesMoves:
-	dp SPEAROW, PLAIN_FORM
-	db ASTONISH
-	db FEINT_ATTACK
-	db QUICK_ATTACK
-	db SCARY_FACE
-	db TRI_ATTACK
-	db $ff
-
 EkansEggSpeciesMoves:
 	dp EKANS, NO_FORM
 	db CRUNCH

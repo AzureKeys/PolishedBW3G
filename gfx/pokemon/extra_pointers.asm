@@ -11,8 +11,6 @@ AnimationExtraPointers:
 	dw BlastoiseAnimationExtra
 	dw RattataPlainAnimationExtra
 	dw RaticatePlainAnimationExtra
-	dw SpearowAnimationExtra
-	dw FearowAnimationExtra
 	dw EkansAnimationExtra
 	dw ArbokJohtoAnimationExtra
 	dw PikachuPlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw MantykeAnimationExtra
 	dw WeavileAnimationExtra
 	dw MagnezoneAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw LickilickyAnimationExtra
 	dw RhyperiorAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw TangrowthAnimationExtra
 	dw ElectivireAnimationExtra
 	dw MagmortarAnimationExtra

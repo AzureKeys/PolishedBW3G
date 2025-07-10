@@ -1460,7 +1460,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 9, RATTATA
-	wildmon 9, SPEAROW
+	wildmon 9, RATTATA
 	wildmon 9, GEODUDE
 	wildmon 10, HOPPIP
 	wildmon 10, EKANS, ARBOK_JOHTO_FORM
@@ -1468,7 +1468,7 @@
 	wildmon 10, SUNKERN
 	; day
 	wildmon 9, RATTATA
-	wildmon 9, SPEAROW
+	wildmon 9, RATTATA
 	wildmon 9, GEODUDE
 	wildmon 10, HOPPIP
 	wildmon 10, EKANS, ARBOK_JOHTO_FORM
@@ -1659,7 +1659,7 @@
 	wildmon 22, MANKEY
 	wildmon 22, RATTATA
 	wildmon 23, RATICATE
-	wildmon 21, SPEAROW
+	wildmon 21, RATTATA
 	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
 	wildmon 24, PRIMEAPE
 	; day
@@ -1667,7 +1667,7 @@
 	wildmon 22, MANKEY
 	wildmon 22, RATTATA
 	wildmon 23, RATICATE
-	wildmon 21, SPEAROW
+	wildmon 21, RATTATA
 	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
 	wildmon 24, PRIMEAPE
 	; nite
@@ -1768,7 +1768,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, GEODUDE
-	wildmon 2, SPEAROW
+	wildmon 2, RATTATA
 	wildmon 3, GEODUDE
 	wildmon 2, PHANPY
 	wildmon 2, RATTATA
@@ -1776,7 +1776,7 @@
 	wildmon 3, RATTATA
 	; day
 	wildmon 2, GEODUDE
-	wildmon 2, SPEAROW
+	wildmon 2, RATTATA
 	wildmon 3, GEODUDE
 	wildmon 2, JIGGLYPUFF
 	wildmon 2, RATTATA

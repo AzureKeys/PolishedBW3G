@@ -297,37 +297,6 @@ endc
 	learnset 39, DOUBLE_EDGE
 	learnset 44, COUNTER ; Endeavor → egg move
 
-	evos_attacks Spearow
-	evo_data EVOLVE_LEVEL, 20, FEAROW
-	learnset 1, PECK
-	learnset 1, GROWL
-	learnset 4, LEER
-	learnset 8, PURSUIT
-	learnset 11, FURY_STRIKES ; Fury Attack → similar move
-	learnset 15, AERIAL_ACE
-	learnset 18, SWIFT ; Mirror Move → TM move
-	learnset 22, FEINT_ATTACK ; Assurance → similar move
-	learnset 25, AGILITY
-	learnset 29, FOCUS_ENERGY
-	learnset 32, ROOST
-	learnset 36, DRILL_PECK
-
-	evos_attacks Fearow
-	learnset 1, QUICK_ATTACK ; Pluck → egg move
-	learnset 1, PECK
-	learnset 1, GROWL
-	learnset 4, LEER
-	learnset 8, PURSUIT
-	learnset 11, FURY_STRIKES ; Fury Attack → similar move
-	learnset 15, AERIAL_ACE
-	learnset 18, SWIFT ; Mirror Move → TM move
-	learnset 23, FEINT_ATTACK ; Assurance → similar move
-	learnset 27, AGILITY
-	learnset 32, FOCUS_ENERGY
-	learnset 36, ROOST
-	learnset 41, DRILL_PECK
-	learnset 45, DOUBLE_EDGE ; Drill Run → tutor move
-
 	evos_attacks Ekans
 	evo_data EVOLVE_LEVEL, 22, ARBOK, NO_FORM ; preserve pre-evo form
 	learnset 1, WRAP

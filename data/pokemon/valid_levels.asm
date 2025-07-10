@@ -12,8 +12,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  36, 100 ; Blastoise
 	db   1,  19 ; Rattata
 	db  20, 100 ; Raticate
-	db   1,  19 ; Spearow
-	db  20, 100 ; Fearow
 	db   1,  21 ; Ekans
 	db  22, 100 ; Arbok
 	db   1,  19 ; Pikachu
@@ -259,10 +257,10 @@ endc
 	db   1,  19 ; Mantyke
 	db  40, 100 ; Weavile
 	db  50, 100 ; Magnezone
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  35, 100 ; Lickilicky
 	db  55, 100 ; Rhyperior
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  39, 100 ; Tangrowth
 	db  47, 100 ; Electivire
 	db  47, 100 ; Magmortar

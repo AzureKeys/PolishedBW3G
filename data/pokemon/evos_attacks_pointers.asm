@@ -15,8 +15,6 @@ EvosAttacksPointers::
 	dw BlastoiseEvosAttacks
 	dw RattataPlainEvosAttacks
 	dw RaticatePlainEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw MantykeEvosAttacks
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw LickilickyEvosAttacks
 	dw RhyperiorEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw TangrowthEvosAttacks
 	dw ElectivireEvosAttacks
 	dw MagmortarEvosAttacks

@@ -11,8 +11,6 @@ BitmasksPointers:
 	dw BlastoiseBitmasks
 	dw RattataPlainBitmasks
 	dw RaticatePlainBitmasks
-	dw SpearowBitmasks
-	dw FearowBitmasks
 	dw EkansBitmasks
 	dw ArbokJohtoBitmasks
 	dw PikachuPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw MantykeBitmasks
 	dw WeavileBitmasks
 	dw MagnezoneBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw LickilickyBitmasks
 	dw RhyperiorBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw TangrowthBitmasks
 	dw ElectivireBitmasks
 	dw MagmortarBitmasks

@@ -11,8 +11,6 @@ AnimationPointers:
 	dw BlastoiseAnimation
 	dw RattataPlainAnimation
 	dw RaticatePlainAnimation
-	dw SpearowAnimation
-	dw FearowAnimation
 	dw EkansAnimation
 	dw ArbokJohtoAnimation
 	dw PikachuPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw MantykeAnimation
 	dw WeavileAnimation
 	dw MagnezoneAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw LickilickyAnimation
 	dw RhyperiorAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw TangrowthAnimation
 	dw ElectivireAnimation
 	dw MagmortarAnimation

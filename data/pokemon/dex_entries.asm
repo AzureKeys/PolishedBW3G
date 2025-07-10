@@ -112,26 +112,6 @@ RaticatePlainPokedexEntry::
 	next "es wide areas for"
 	next "food.@"
 
-SECTION "SpearowPokedexEntry", ROMX
-SpearowPokedexEntry::
-	db "Tiny Bird@"
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
-
-SECTION "FearowPokedexEntry", ROMX
-FearowPokedexEntry::
-	db "Beak@"
-	db   "It uses its long"
-	next "beak to attack. It"
-	next "has a surprisingly"
-	page "long reach, so it"
-	next "must be treated"
-	next "with caution.@"
-
 SECTION "EkansPokedexEntry", ROMX
 EkansPokedexEntry::
 	db "Snake@"

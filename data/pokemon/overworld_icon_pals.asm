@@ -15,8 +15,6 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; BLASTOISE
 	iconpal PURPLE, GRAY ; RATTATA
 	iconpal BROWN, RED ; RATICATE
-	iconpal BROWN, ORANGE ; SPEAROW
-	iconpal BROWN, PINK ; FEAROW
 	iconpal PURPLE, BROWN ; EKANS
 	iconpal PURPLE, BROWN ; ARBOK
 	iconpal RED, AZURE ; PIKACHU
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
 	iconpal GRAY, BROWN ; MAGNEZONE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal PINK, BROWN ; LICKILICKY
 	iconpal GRAY, RED ; RHYPERIOR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, GREEN ; TANGROWTH
 	iconpal BROWN, RED ; ELECTIVIRE
 	iconpal RED, BROWN ; MAGMORTAR

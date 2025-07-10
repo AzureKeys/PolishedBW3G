@@ -11,8 +11,6 @@ EggSpeciesMovesPointers::
 	dw SquirtleEggSpeciesMoves          ; Blastoise
 	dw RattataPlainEggSpeciesMoves      ; Rattata
 	dw RattataPlainEggSpeciesMoves      ; Raticate
-	dw SpearowEggSpeciesMoves           ; Spearow
-	dw SpearowEggSpeciesMoves           ; Fearow
 	dw EkansEggSpeciesMoves             ; Ekans
 	dw EkansEggSpeciesMoves             ; Arbok
 	dw PichuEggSpeciesMoves             ; Pikachu
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw LickitungEggSpeciesMoves         ; Lickilicky
 	dw RhyhornEggSpeciesMoves           ; Rhyperior
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TangelaEggSpeciesMoves           ; Tangrowth
 	dw ElekidEggSpeciesMoves            ; Electivire
 	dw MagbyEggSpeciesMoves             ; Magmortar

@@ -9,7 +9,6 @@ AsleepTreeMons:
 	assert_table_length NUM_DAYTIMES
 .Nite
 .Eve
-	dp SPEAROW
 	dp EKANS
 	dp EXEGGCUTE
 	dp LEDYBA

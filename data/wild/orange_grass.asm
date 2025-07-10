@@ -143,7 +143,7 @@
 	def_grass_wildmons NOISY_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 1, FEAROW
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, SCYTHER
@@ -151,7 +151,7 @@
 	wildmon LEVEL_FROM_BADGES + 4, YANMA
 	wildmon LEVEL_FROM_BADGES + 2, YANMA
 	; day
-	wildmon LEVEL_FROM_BADGES - 1, FEAROW
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, SCYTHER
@@ -159,7 +159,7 @@
 	wildmon LEVEL_FROM_BADGES + 4, YANMA
 	wildmon LEVEL_FROM_BADGES + 2, YANMA
 	; nite
-	wildmon LEVEL_FROM_BADGES - 1, FEAROW
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, ARIADOS
 	wildmon LEVEL_FROM_BADGES + 1, ARIADOS
 	wildmon LEVEL_FROM_BADGES + 3, SCYTHER

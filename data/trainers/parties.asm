@@ -1625,7 +1625,7 @@ YoungsterGroup:
 	end_trainer
 
 	def_trainer WARREN, "Warren"
-	tr_mon 56, FEAROW
+	tr_mon 56, RATTATA
 	tr_mon 60, RATICATE
 	end_trainer
 
@@ -1879,7 +1879,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer QUENTIN, "Quentin"
-	tr_mon 30, FEAROW
+	tr_mon 30, RATTATA
 	tr_mon 30, PRIMEAPE
 	tr_mon 30, TAUROS
 	end_trainer
@@ -2439,7 +2439,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer ABE, "Abe"
-	tr_mon 9, SPEAROW
+	tr_mon 9, RATTATA
 	end_trainer
 
 	def_trainer THEO, "Theo"
@@ -2457,9 +2457,9 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer DENIS, "Denis"
-	tr_mon 18, SPEAROW
-	tr_mon 20, FEAROW
-	tr_mon 18, SPEAROW
+	tr_mon 18, RATTATA
+	tr_mon 20, RATTATA
+	tr_mon 18, RATTATA
 	end_trainer
 
 	def_trainer HANK, "Hank"
@@ -2468,7 +2468,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer ROY, "Roy"
-	tr_mon 55, FEAROW
+	tr_mon 55, RATTATA
 	tr_mon 59, RATTATA
 	end_trainer
 
@@ -2485,7 +2485,7 @@ BirdKeeperGroup:
 	def_trainer PETER, "Peter"
 	tr_mon 7, RATTATA
 	tr_mon 8, RATTATA
-	tr_mon 10, SPEAROW
+	tr_mon 10, RATTATA
 	end_trainer
 
 	def_trainer PERRY, "Perry"
@@ -2494,7 +2494,7 @@ BirdKeeperGroup:
 
 	def_trainer BRET, "Bret"
 	tr_mon 57, RATTATA
-	tr_mon 57, FEAROW
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer MICK, "Mick"

@@ -11,8 +11,6 @@ EvolutionMoves::
 	db FLASH_CANNON ; BLASTOISE
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
-	db NO_MOVE      ; SPEAROW
-	db NO_MOVE      ; FEAROW
 	db NO_MOVE      ; EKANS
 	db CRUNCH       ; ARBOK
 	db NO_MOVE      ; PIKACHU
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; WEAVILE
 	db TRI_ATTACK   ; MAGNEZONE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; LICKILICKY
 	db OUTRAGE      ; RHYPERIOR
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; TANGROWTH
 	db CLOSE_COMBAT ; ELECTIVIRE
 	db FLASH_CANNON ; MAGMORTAR

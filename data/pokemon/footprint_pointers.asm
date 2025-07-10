@@ -11,8 +11,6 @@ FootprintPointers::
 	dw BlastoiseFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
-	dw SpearowFootprint
-	dw FearowFootprint
 	dw EkansFootprint
 	dw ArbokFootprint
 	dw PikachuFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw MantykeFootprint
 	dw WeavileFootprint
 	dw MagnezoneFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw LickilickyFootprint
 	dw RhyperiorFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw TangrowthFootprint
 	dw ElectivireFootprint
 	dw MagmortarFootprint

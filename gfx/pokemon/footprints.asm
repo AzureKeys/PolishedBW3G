@@ -12,8 +12,6 @@ UmbreonFootprint::
 LeafeonFootprint::
 GlaceonFootprint:: INCBIN "gfx/footprints/umbreon_leafeon_glaceon.1bpp.lz"
 
-SpearowFootprint:: INCBIN "gfx/footprints/pidgey_spearow.1bpp.lz"
-
 CorsolaFootprint::
 CursolaFootprint:: INCBIN "gfx/footprints/corsola_cursola.1bpp.lz"
 
@@ -104,7 +102,6 @@ WartortleFootprint:: INCBIN "gfx/footprints/wartortle.1bpp.lz"
 BlastoiseFootprint:: INCBIN "gfx/footprints/blastoise.1bpp.lz"
 RattataFootprint:: INCBIN "gfx/footprints/rattata.1bpp.lz"
 RaticateFootprint:: INCBIN "gfx/footprints/raticate.1bpp.lz"
-FearowFootprint:: INCBIN "gfx/footprints/fearow.1bpp.lz"
 PikachuFootprint:: INCBIN "gfx/footprints/pikachu.1bpp.lz"
 RaichuFootprint:: INCBIN "gfx/footprints/raichu.1bpp.lz"
 SandshrewFootprint:: INCBIN "gfx/footprints/sandshrew.1bpp.lz"

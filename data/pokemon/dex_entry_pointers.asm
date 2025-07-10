@@ -12,8 +12,6 @@ PokedexDataPointerTable:
 	dba BlastoisePokedexEntry
 	dba RattataPlainPokedexEntry
 	dba RaticatePlainPokedexEntry
-	dba SpearowPokedexEntry
-	dba FearowPokedexEntry
 	dba EkansPokedexEntry
 	dba ArbokPokedexEntry
 	dba PikachuPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba MantykePokedexEntry
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba LickilickyPokedexEntry
 	dba RhyperiorPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba TangrowthPokedexEntry
 	dba ElectivirePokedexEntry
 	dba MagmortarPokedexEntry

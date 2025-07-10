@@ -11,8 +11,6 @@ FramesPointers:
 	dw BlastoiseFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
-	dw SpearowFrames
-	dw FearowFrames
 	dw EkansFrames
 	dw ArbokJohtoFrames
 	dw PikachuPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw MantykeFrames
 	dw WeavileFrames
 	dw MagnezoneFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw LickilickyFrames
 	dw RhyperiorFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw TangrowthFrames
 	dw ElectivireFrames
 	dw MagmortarFrames

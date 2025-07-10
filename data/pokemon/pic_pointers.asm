@@ -15,8 +15,6 @@ PokemonPicPointers::
 	pics Blastoise
 	pics RattataPlain
 	pics RaticatePlain
-	pics Spearow
-	pics Fearow
 	pics Ekans
 	pics ArbokJohto
 	pics PikachuPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Mantyke
 	pics Weavile
 	pics Magnezone
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Lickilicky
 	pics Rhyperior
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Tangrowth
 	pics Electivire
 	pics Magmortar

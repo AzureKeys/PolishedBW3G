@@ -27,8 +27,6 @@ NewPokedexOrder:
 	dp TOTODILE
 	dp CROCONAW
 	dp FERALIGATR
-	dp SPEAROW
-	dp FEAROW
 	dp HOOTHOOT
 	dp NOCTOWL
 	dp RATTATA
