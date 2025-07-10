@@ -692,54 +692,6 @@ endc
 	learnset 48, AIR_SLASH
 	learnset 51, PURSUIT ; Quick Guard → egg move
 
-	evos_attacks Oddish
-	evo_data EVOLVE_LEVEL, 21, GLOOM
-	learnset 1, ABSORB
-	learnset 1, GROWTH
-	learnset 5, LEECH_SEED ; Sweet Scent → event move
-	learnset 9, ACID
-	learnset 13, POISONPOWDER
-	learnset 14, STUN_SPORE
-	learnset 15, SLEEP_POWDER
-	learnset 19, MEGA_DRAIN
-	learnset 23, CHARM ; Lucky Chant → egg move
-	learnset 27, HEALINGLIGHT ; Moonlight → similar move
-	learnset 31, GIGA_DRAIN
-	learnset 35, TOXIC
-	learnset 39, HYPER_VOICE ; Natural Gift → tutor move
-	learnset 43, MOONBLAST
-	learnset 47, GROWTH ; Grassy Terrain → GSC move
-	learnset 51, PETAL_DANCE
-
-	evos_attacks Gloom
-	evo_data EVOLVE_ITEM, LEAF_STONE, VILEPLUME
-	evo_data EVOLVE_ITEM, SUN_STONE, BELLOSSOM
-	learnset 1, ABSORB
-	learnset 5, LEECH_SEED ; Sweet Scent → event move
-	learnset 9, ACID
-	learnset 13, POISONPOWDER
-	learnset 14, STUN_SPORE
-	learnset 15, SLEEP_POWDER
-	learnset 19, MEGA_DRAIN
-	learnset 24, CHARM ; Lucky Chant → egg move
-	learnset 29, HEALINGLIGHT ; Moonlight → similar move
-	learnset 34, GIGA_DRAIN
-	learnset 39, TOXIC
-	learnset 44, HYPER_VOICE ; Natural Gift → tutor move
-	learnset 49, MOONBLAST
-	learnset 54, GROWTH ; Grassy Terrain → Crystal move
-	learnset 59, PETAL_DANCE
-
-	evos_attacks Vileplume
-	learnset 1, MEGA_DRAIN
-	learnset 1, HEAL_BELL ; Aromatherapy → similar move
-	learnset 1, POISONPOWDER
-	learnset 1, STUN_SPORE
-	learnset 39, GROWTH
-	learnset 49, MOONBLAST ; Petal Blizzard → Gloom move
-	learnset 59, PETAL_DANCE
-	learnset 69, SOLAR_BEAM
-
 	evos_attacks Paras
 	evo_data EVOLVE_LEVEL, 24, PARASECT
 	learnset 1, SCRATCH

@@ -38,9 +38,6 @@ PokemonBodyData:
 	body_data  10,  120, BIPEDAL,      PINK   ; WIGGLYTUFF
 	body_data   8,   75, WINGS,        PURPLE ; ZUBAT
 	body_data  16,  550, WINGS,        PURPLE ; GOLBAT
-	body_data   5,   54, HEAD_LEGS,    BLUE   ; ODDISH
-	body_data   8,   86, BIPEDAL,      BLUE   ; GLOOM
-	body_data  12,  186, BIPEDAL,      RED    ; VILEPLUME
 	body_data   3,   54, INSECTOID,    RED    ; PARAS
 	body_data  10,  295, INSECTOID,    RED    ; PARASECT
 	body_data  10,  300, BIPEDAL,      PURPLE ; VENONAT
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
 	body_data  17, 1400, BIPEDAL,      PINK   ; LICKILICKY
 	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; RHYPERIOR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  20, 1286, BIPEDAL,      BLUE   ; TANGROWTH
 	body_data  18, 1386, BIPEDAL_TAIL, YELLOW ; ELECTIVIRE
 	body_data  16,  680, BIPEDAL_TAIL, RED    ; MAGMORTAR
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  15,  380, WINGS,        WHITE  ; TOGEKISS
 	body_data  19,  515, MULTIWINGS,   GREEN  ; YANMEGA
 	body_data  10,  255, QUADRUPED,    GREEN  ; LEAFEON

@@ -139,14 +139,6 @@ ZubatEggSpeciesMoves:
 	db BRAVE_BIRD
 	db $ff
 
-OddishEggSpeciesMoves:
-	dp ODDISH, PLAIN_FORM
-	db CHARM
-	db RAZOR_LEAF
-	db HEALINGLIGHT
-	db SWORDS_DANCE
-	db $ff
-
 ParasEggSpeciesMoves:
 	dp PARAS, PLAIN_FORM
 	db AGILITY

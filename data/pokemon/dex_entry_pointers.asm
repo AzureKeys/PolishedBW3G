@@ -32,9 +32,6 @@ PokedexDataPointerTable:
 	dba WigglytuffPokedexEntry
 	dba ZubatPokedexEntry
 	dba GolbatPokedexEntry
-	dba OddishPokedexEntry
-	dba GloomPokedexEntry
-	dba VileplumePokedexEntry
 	dba ParasPokedexEntry
 	dba ParasectPokedexEntry
 	dba VenonatPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba MagnezonePokedexEntry
 	dba LickilickyPokedexEntry
 	dba RhyperiorPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba TangrowthPokedexEntry
 	dba ElectivirePokedexEntry
 	dba MagmortarPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba TogekissPokedexEntry
 	dba YanmegaPokedexEntry
 	dba LeafeonPokedexEntry

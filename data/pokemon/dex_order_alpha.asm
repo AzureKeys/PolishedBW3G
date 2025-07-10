@@ -80,7 +80,6 @@ AlphabeticalPokedexOrder:
 	dp GLACEON
 	dp GLIGAR
 	dp GLISCOR
-	dp GLOOM
 	dp GOLBAT
 	dp GOLDEEN
 	dp GOLDUCK
@@ -173,7 +172,6 @@ AlphabeticalPokedexOrder:
 	dp NINETALES
 	dp NOCTOWL
 	dp OCTILLERY
-	dp ODDISH
 	dp OMANYTE
 	dp OMASTAR
 	dp ONIX
@@ -278,7 +276,6 @@ AlphabeticalPokedexOrder:
 	dp VENONAT
 	dp VENUSAUR
 	dp VICTREEBEL
-	dp VILEPLUME
 	dp VOLTORB
 	dp VULPIX
 	dp WARTORTLE

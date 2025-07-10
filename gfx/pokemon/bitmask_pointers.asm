@@ -31,9 +31,6 @@ BitmasksPointers:
 	dw WigglytuffBitmasks
 	dw ZubatBitmasks
 	dw GolbatBitmasks
-	dw OddishBitmasks
-	dw GloomBitmasks
-	dw VileplumeBitmasks
 	dw ParasBitmasks
 	dw ParasectBitmasks
 	dw VenonatBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw MagnezoneBitmasks
 	dw LickilickyBitmasks
 	dw RhyperiorBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw TangrowthBitmasks
 	dw ElectivireBitmasks
 	dw MagmortarBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw TogekissBitmasks
 	dw YanmegaBitmasks
 	dw LeafeonBitmasks

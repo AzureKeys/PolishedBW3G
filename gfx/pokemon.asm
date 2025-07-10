@@ -104,18 +104,6 @@ SECTION "Golbat Pics", ROMX
 GolbatFrontpic: INCBIN "gfx/pokemon/golbat/front.animated.2bpp.lz"
 GolbatBackpic:  INCBIN "gfx/pokemon/golbat/back.2bpp.lz"
 
-SECTION "Oddish Pics", ROMX
-OddishFrontpic: INCBIN "gfx/pokemon/oddish/front.animated.2bpp.lz"
-OddishBackpic:  INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
-
-SECTION "Gloom Pics", ROMX
-GloomFrontpic: INCBIN "gfx/pokemon/gloom/front.animated.2bpp.lz"
-GloomBackpic:  INCBIN "gfx/pokemon/gloom/back.2bpp.lz"
-
-SECTION "Vileplume Pics", ROMX
-VileplumeFrontpic: INCBIN "gfx/pokemon/vileplume/front.animated.2bpp.lz"
-VileplumeBackpic:  INCBIN "gfx/pokemon/vileplume/back.2bpp.lz"
-
 SECTION "Paras Pics", ROMX
 ParasFrontpic: INCBIN "gfx/pokemon/paras/front.animated.2bpp.lz"
 ParasBackpic:  INCBIN "gfx/pokemon/paras/back.2bpp.lz"

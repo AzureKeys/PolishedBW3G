@@ -35,9 +35,6 @@ OverworldMonIconColors::
 	iconpal PINK, RED ; WIGGLYTUFF
 	iconpal BLUE, GREEN ; ZUBAT
 	iconpal BLUE, GREEN ; GOLBAT
-	iconpal GREEN, TEAL ; ODDISH
-	iconpal RED, PINK ; GLOOM
-	iconpal RED, GREEN ; VILEPLUME
 	iconpal ORANGE, ORANGE ; PARAS
 	iconpal RED, GRAY ; PARASECT
 	iconpal PURPLE, BLUE ; VENONAT
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; MAGNEZONE
 	iconpal PINK, BROWN ; LICKILICKY
 	iconpal GRAY, RED ; RHYPERIOR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, GREEN ; TANGROWTH
 	iconpal BROWN, RED ; ELECTIVIRE
 	iconpal RED, BROWN ; MAGMORTAR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal WHITE, AZURE ; TOGEKISS
 	iconpal RED, BLUE ; YANMEGA
 	iconpal GREEN, BROWN ; LEAFEON

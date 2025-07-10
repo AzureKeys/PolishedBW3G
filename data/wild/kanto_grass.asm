@@ -497,8 +497,8 @@
 	; nite
 	wildmon 46, NOCTOWL
 	wildmon 46, PERSIAN
-	wildmon 51, ODDISH
-	wildmon 47, GLOOM
+	wildmon 51, RATTATA
+	wildmon 47, RATTATA
 	wildmon 48, KADABRA
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
@@ -694,7 +694,7 @@
 	wildmon 50, VENOMOTH
 	wildmon 50, NOCTOWL
 	wildmon 50, QUAGSIRE
-	wildmon 51, GLOOM
+	wildmon 51, RATTATA
 	wildmon 53, VENOMOTH
 	wildmon 52, QUAGSIRE
 	wildmon 54, QUAGSIRE
@@ -722,7 +722,7 @@
 	wildmon 50, VENOMOTH
 	wildmon 50, NOCTOWL
 	wildmon 51, QUAGSIRE
-	wildmon 52, GLOOM
+	wildmon 52, RATTATA
 	wildmon 54, VENOMOTH
 	wildmon 53, QUAGSIRE
 	wildmon 55, QUAGSIRE
@@ -750,7 +750,7 @@
 	wildmon 52, VENOMOTH
 	wildmon 52, NOCTOWL
 	wildmon 53, QUAGSIRE
-	wildmon 51, GLOOM
+	wildmon 51, RATTATA
 	wildmon 56, VENOMOTH
 	wildmon 54, QUAGSIRE
 	wildmon 56, QUAGSIRE
@@ -806,7 +806,7 @@
 	wildmon 52, VENOMOTH
 	wildmon 52, NOCTOWL
 	wildmon 54, QUAGSIRE
-	wildmon 54, GLOOM
+	wildmon 54, RATTATA
 	wildmon 57, VENOMOTH
 	wildmon 55, QUAGSIRE
 	wildmon 57, QUAGSIRE
@@ -1058,8 +1058,8 @@
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
-	wildmon 50, GLOOM
-	wildmon 49, GLOOM
+	wildmon 50, RATTATA
+	wildmon 49, RATTATA
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	end_grass_wildmons
@@ -1086,8 +1086,8 @@
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
-	wildmon 50, GLOOM
-	wildmon 49, GLOOM
+	wildmon 50, RATTATA
+	wildmon 49, RATTATA
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	end_grass_wildmons
@@ -1198,8 +1198,8 @@
 	wildmon 48, VENOMOTH
 	wildmon 48, VENOMOTH
 	wildmon 51, NOCTOWL
-	wildmon 50, GLOOM
-	wildmon 49, GLOOM
+	wildmon 50, RATTATA
+	wildmon 49, RATTATA
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	end_grass_wildmons

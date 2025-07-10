@@ -31,9 +31,6 @@ EggSpeciesMovesPointers::
 	dw IgglybuffEggSpeciesMoves         ; Wigglytuff
 	dw ZubatEggSpeciesMoves             ; Zubat
 	dw ZubatEggSpeciesMoves             ; Golbat
-	dw OddishEggSpeciesMoves            ; Oddish
-	dw OddishEggSpeciesMoves            ; Gloom
-	dw OddishEggSpeciesMoves            ; Vileplume
 	dw ParasEggSpeciesMoves             ; Paras
 	dw ParasEggSpeciesMoves             ; Parasect
 	dw VenonatEggSpeciesMoves           ; Venonat
@@ -170,7 +167,7 @@ EggSpeciesMovesPointers::
 	dw MareepEggSpeciesMoves            ; Mareep
 	dw MareepEggSpeciesMoves            ; Flaaffy
 	dw MareepEggSpeciesMoves            ; Ampharos
-	dw OddishEggSpeciesMoves            ; Bellossom
+	dw ParasEggSpeciesMoves             ; Bellossom
 	dw AzurillEggSpeciesMoves           ; Marill
 	dw AzurillEggSpeciesMoves           ; Azumarill
 	dw BonslyEggSpeciesMoves            ; Sudowoodo
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
 	dw LickitungEggSpeciesMoves         ; Lickilicky
 	dw RhyhornEggSpeciesMoves           ; Rhyperior
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TangelaEggSpeciesMoves           ; Tangrowth
 	dw ElekidEggSpeciesMoves            ; Electivire
 	dw MagbyEggSpeciesMoves             ; Magmortar
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TogepiEggSpeciesMoves            ; Togekiss
 	dw YanmaEggSpeciesMoves             ; Yanmega
 	dw EeveeEggSpeciesMoves             ; Leafeon

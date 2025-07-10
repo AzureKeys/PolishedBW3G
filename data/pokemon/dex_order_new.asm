@@ -94,9 +94,6 @@ NewPokedexOrder:
 	dp SLOWPOKE
 	dp SLOWBRO
 	dp SLOWKING
-	dp ODDISH
-	dp GLOOM
-	dp VILEPLUME
 	dp BELLOSSOM
 	dp DROWZEE
 	dp HYPNO

@@ -37,9 +37,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $068,  $0e0 ; Wigglytuff
 	mon_cry CRY_SQUIRTLE,    $0e0,  $100 ; Zubat
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; Golbat
-	mon_cry CRY_ODDISH,      $0dd,  $081 ; Oddish
-	mon_cry CRY_ODDISH,      $0aa,  $0c0 ; Gloom
-	mon_cry CRY_VILEPLUME,   $022,  $17f ; Vileplume
 	mon_cry CRY_PARAS,       $020,  $160 ; Paras
 	mon_cry CRY_PARAS,       $042,  $17f ; Parasect
 	mon_cry CRY_VENONAT,     $044,  $0c0 ; Venonat
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magnezone
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickilicky
 	mon_cry CRY_RHYDON,      $000,  $100 ; Rhyperior
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GOLEM,       $000,  $100 ; Tangrowth
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmortar
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanmega
 	mon_cry CRY_VENONAT,     $03d,  $160 ; Leafeon

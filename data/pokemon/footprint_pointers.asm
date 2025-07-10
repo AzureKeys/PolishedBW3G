@@ -31,9 +31,6 @@ FootprintPointers::
 	dw WigglytuffFootprint
 	dw ZubatFootprint
 	dw GolbatFootprint
-	dw OddishFootprint
-	dw GloomFootprint
-	dw VileplumeFootprint
 	dw ParasFootprint
 	dw ParasectFootprint
 	dw VenonatFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw MagnezoneFootprint
 	dw LickilickyFootprint
 	dw RhyperiorFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw TangrowthFootprint
 	dw ElectivireFootprint
 	dw MagmortarFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw TogekissFootprint
 	dw YanmegaFootprint
 	dw LeafeonFootprint

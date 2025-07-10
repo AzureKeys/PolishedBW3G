@@ -32,9 +32,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Wigglytuff
 	db   1,  21 ; Zubat
 	db  22, 100 ; Golbat
-	db   1,  20 ; Oddish
-	db  21,  31 ; Gloom
-	db  32, 100 ; Vileplume
 	db   1,  23 ; Paras
 	db  24, 100 ; Parasect
 	db   1,  30 ; Venonat
@@ -259,11 +256,11 @@ endc
 	db  50, 100 ; Magnezone
 	db  35, 100 ; Lickilicky
 	db  55, 100 ; Rhyperior
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  39, 100 ; Tangrowth
 	db  47, 100 ; Electivire
 	db  47, 100 ; Magmortar
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  40, 100 ; Togekiss
 	db  40, 100 ; Yanmega
 	db  20, 100 ; Leafeon

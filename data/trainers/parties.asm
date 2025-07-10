@@ -816,7 +816,7 @@ endc
 	tr_mon 64, VICTREEBEL
 		tr_evs 252 HP, 132 Spe
 		tr_moves SUNNY_DAY, HEALINGLIGHT, ACID, RAZOR_LEAF
-	tr_mon 65, VILEPLUME
+	tr_mon 65, RATTATA
 		tr_evs 252 SAt, 132 Spe
 		tr_moves SUNNY_DAY, HEALINGLIGHT, PETAL_DANCE, SOLAR_BEAM
 	tr_mon 65, BELLOSSOM @ SITRUS_BERRY
@@ -837,7 +837,7 @@ endc
 		tr_moves SWORDS_DANCE, GIGA_DRAIN, SLUDGE_BOMB, SEED_BOMB
 	tr_mon 74, LEAFEON @ MIRACLE_SEED
 		tr_moves SWORDS_DANCE, SEED_BOMB, IRON_TAIL, X_SCISSOR
-	tr_mon 74, VILEPLUME @ QUICK_CLAW
+	tr_mon 74, RATTATA @ QUICK_CLAW
 		tr_moves PETAL_DANCE, HEALINGLIGHT, LEECH_SEED, TOXIC
 	tr_mon 75, BELLOSSOM @ PINK_BOW
 		tr_moves SLEEP_POWDER, MOONBLAST, PETAL_DANCE, HP_ROCK
@@ -1992,12 +1992,12 @@ endc
 
 	def_trainer ERIN1, "Erin"
 	tr_mon 18, PONYTA
-	tr_mon 16, ODDISH
+	tr_mon 16, RATTATA
 	end_trainer
 
 	def_trainer ERIN2, "Erin"
 	tr_mon 32, PONYTA
-	tr_mon 32, GLOOM
+	tr_mon 32, RATTATA
 	end_trainer
 
 	def_trainer ERIN3, "Erin"
@@ -2005,7 +2005,7 @@ endc
 		tr_moves DOUBLE_TEAM, STOMP, FIRE_SPIN, SUNNY_DAY
 	tr_mon 34, RAICHU
 		tr_moves SWIFT, MUD_SLAP, QUICK_ATTACK, THUNDERBOLT
-	tr_mon 36, VILEPLUME
+	tr_mon 36, RATTATA
 		tr_moves SLEEP_POWDER, ACID, HEALINGLIGHT, PETAL_DANCE
 	end_trainer
 
@@ -2122,11 +2122,11 @@ TwinsGroup:
 
 	def_trainer JOANDZOE1, "Lo & Zoe"
 	tr_mon 59, VICTREEBEL
-	tr_mon 59, VILEPLUME
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer JOANDZOE2, "Lo & Zoe"
-	tr_mon 59, VILEPLUME
+	tr_mon 59, RATTATA
 	tr_mon 59, VICTREEBEL
 	end_trainer
 
@@ -2970,14 +2970,14 @@ GruntFGroup:
 
 	def_trainer 3, "Grunt"
 	tr_mon 36, UMBREON
-	tr_mon 35, GLOOM
+	tr_mon 35, RATTATA
 	end_trainer
 
 	def_trainer 4, "Grunt"
 	tr_mon 33, EKANS
-	tr_mon 34, ODDISH
+	tr_mon 34, RATTATA
 	tr_mon 35, ARBOK
-	tr_mon 36, GLOOM
+	tr_mon 36, RATTATA
 	end_trainer
 
 	def_trainer 5, "Grunt"
@@ -2985,14 +2985,14 @@ GruntFGroup:
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
 	tr_mon 28, QWILFISH
 		tr_moves DEFENSE_CURL, MINIMIZE, WATER_GUN, ROLLOUT
-	tr_mon 28, GLOOM
+	tr_mon 28, RATTATA
 		tr_moves GROWTH, STUN_SPORE, SLEEP_POWDER, MEGA_DRAIN
 	end_trainer
 
 	def_trainer 6, "Grunt"
 	tr_mon 22, EKANS
 	tr_mon 23, ARBOK
-	tr_mon 23, GLOOM
+	tr_mon 23, RATTATA
 	end_trainer
 
 
@@ -3445,13 +3445,13 @@ endc
 	end_trainer
 
 	def_trainer AMANDA, "Amanda"
-	tr_mon 57, GLOOM
+	tr_mon 57, RATTATA
 	tr_mon 60, ARBOK
-	tr_mon 57, GLOOM
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer KRISE, "Krise"
-	tr_mon 14, ODDISH
+	tr_mon 14, RATTATA
 	tr_mon 17, CUBONE
 	end_trainer
 
@@ -3467,7 +3467,7 @@ endc
 	end_trainer
 
 	def_trainer LAURA, "Laura"
-	tr_mon 52, GLOOM @ SITRUS_BERRY
+	tr_mon 52, RATTATA @ SITRUS_BERRY
 	tr_mon 54, RATTATA
 	tr_mon 54, BELLOSSOM
 	end_trainer
@@ -3582,7 +3582,7 @@ BeautyGroup:
 	end_trainer
 
 	def_trainer CASSIE, "Cassie"
-	tr_mon 47, VILEPLUME
+	tr_mon 47, RATTATA
 	tr_mon 49, RATTATA
 	end_trainer
 
@@ -3875,22 +3875,22 @@ SchoolboyGroup:
 
 	def_trainer_class SCHOOLBOY
 	def_trainer JACK1, "Jack"
-	tr_mon 12, ODDISH
+	tr_mon 12, RATTATA
 	tr_mon 15, VOLTORB
 	end_trainer
 
 	def_trainer JACK2, "Jack"
-	tr_mon 14, ODDISH
+	tr_mon 14, RATTATA
 	tr_mon 17, VOLTORB
 	end_trainer
 
 	def_trainer JACK3, "Jack"
-	tr_mon 28, GLOOM
+	tr_mon 28, RATTATA
 	tr_mon 31, ELECTRODE
 	end_trainer
 
 	def_trainer JACK4, "Jack"
-	tr_mon 30, GLOOM
+	tr_mon 30, RATTATA
 	tr_mon 33, GROWLITHE
 	tr_mon 33, ELECTRODE
 	end_trainer
@@ -3900,7 +3900,7 @@ SchoolboyGroup:
 		tr_moves SCREECH, SONIC_BOOM, ROLLOUT, LIGHT_SCREEN
 	tr_mon 35, GROWLITHE
 		tr_moves SUNNY_DAY, LEER, TAKE_DOWN, FLAME_CHARGE
-	tr_mon 37, VILEPLUME
+	tr_mon 37, RATTATA
 		tr_moves SOLAR_BEAM, SLEEP_POWDER, ACID, HEALINGLIGHT
 	end_trainer
 
@@ -3989,7 +3989,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer DUDLEY, "Dudley"
-	tr_mon 55, ODDISH @ SITRUS_BERRY
+	tr_mon 55, RATTATA @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer JOE, "Joe"
@@ -4029,7 +4029,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer TRAVIS, "Travis"
-	tr_mon 59, ODDISH
+	tr_mon 59, RATTATA
 	end_trainer
 
 
@@ -4043,7 +4043,7 @@ SchoolgirlGroup:
 	end_trainer
 
 	def_trainer ELIZA, "Eliza"
-	tr_mon 18, "Silver", ODDISH @ SILVER_LEAF
+	tr_mon 18, "Silver", RATTATA @ SILVER_LEAF
 	tr_mon 16, "Lady", LEDYBA
 	tr_mon 17, "Tret", SENTRET @ ORAN_BERRY
 	end_trainer
@@ -4416,11 +4416,11 @@ SrAndJrGroup:
 
 	def_trainer IVYANDAMY1, "Ivy & Amy"
 	tr_mon 30, FLAAFFY
-	tr_mon 28, GLOOM
+	tr_mon 28, RATTATA
 	end_trainer
 
 	def_trainer IVYANDAMY2, "Ivy & Amy"
-	tr_mon 28, GLOOM
+	tr_mon 28, RATTATA
 	tr_mon 30, FLAAFFY
 	end_trainer
 
@@ -4474,13 +4474,13 @@ CoupleGroup:
 	end_trainer
 
 	def_trainer MOEANDLULU1, "Moe & Lulu"
-	tr_mon 53, GLOOM, MALE
+	tr_mon 53, RATTATA, MALE
 	tr_mon 53, WEEPINBELL, FEMALE
 	end_trainer
 
 	def_trainer MOEANDLULU2, "Moe & Lulu"
 	tr_mon 53, WEEPINBELL, FEMALE
-	tr_mon 53, GLOOM, MALE
+	tr_mon 53, RATTATA, MALE
 	end_trainer
 
 	def_trainer VICANDTARA1, "Vic & Tara"
@@ -5899,7 +5899,7 @@ AromaLadyGroup:
 
 	def_trainer_class AROMA_LADY
 	def_trainer DAHLIA, "Dahlia"
-	tr_mon 58, VILEPLUME
+	tr_mon 58, RATTATA
 	tr_mon 58, BELLOSSOM
 	end_trainer
 
@@ -6397,7 +6397,7 @@ endc
 		tr_evs 192 HP, 192 Def
 	tr_mon 62, RAPIDASH @ QUICK_CLAW
 		tr_evs 252 Atk, 132 SAt
-	tr_mon 63, VILEPLUME @ BLACK_SLUDGE
+	tr_mon 63, RATTATA @ BLACK_SLUDGE
 		tr_evs 132 SAt, 252 Spe
 	tr_mon 63, NINETALES @ CHARCOAL
 		tr_evs 132 SAt, 252 Spe
@@ -6740,7 +6740,7 @@ ArianaGroup:
 	def_trainer ARIANA1, "Ariana"
 	tr_mon 40, ARBOK @ POISON_BARB, FEMALE | ARBOK_ARIANA_FORM
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
-	tr_mon 41, VILEPLUME @ MIRACLE_SEED, FEMALE
+	tr_mon 41, RATTATA @ MIRACLE_SEED, FEMALE
 		tr_moves LEECH_SEED, ACID, SLEEP_POWDER, GIGA_DRAIN
 	tr_mon 42, HONCHKROW @ BLACKGLASSES, FEMALE
 		tr_moves WING_ATTACK, NIGHT_SHADE, CONFUSE_RAY, FEINT_ATTACK
@@ -6749,7 +6749,7 @@ ArianaGroup:
 	def_trainer ARIANA2, "Ariana"
 	tr_mon 35, ARBOK @ BLACKGLASSES, FEMALE | ARBOK_ARIANA_FORM
 		tr_moves WRAP, ACID, CRUNCH, GLARE
-	tr_mon 36, GLOOM @ MIRACLE_SEED, FEMALE
+	tr_mon 36, RATTATA @ MIRACLE_SEED, FEMALE
 		tr_moves MEGA_DRAIN, GROWTH, SLEEP_POWDER, ACID
 	tr_mon 37, MURKROW @ KINGS_ROCK, FEMALE
 		tr_moves WING_ATTACK, PURSUIT, CONFUSE_RAY, NIGHT_SHADE
@@ -7293,7 +7293,7 @@ MiraGroup:
 	tr_mon 58, TOGEKISS
 	tr_mon 57, ALAKAZAM
 	tr_mon 56, MAGMORTAR
-	tr_mon 55, VILEPLUME
+	tr_mon 55, RATTATA
 	tr_mon 56, MAGNEZONE
 	tr_mon 55, PORYGON_Z
 	end_trainer
@@ -7301,7 +7301,7 @@ MiraGroup:
 	def_trainer 2, "Mira"
 	tr_mon 75, ALAKAZAM
 	tr_mon 74, GENGAR
-	tr_mon 71, VILEPLUME
+	tr_mon 71, RATTATA
 	tr_mon 73, MAGMORTAR
 	tr_mon 71, PORYGON_Z
 	tr_mon 73, MAGNEZONE

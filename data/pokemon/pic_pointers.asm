@@ -35,9 +35,6 @@ PokemonPicPointers::
 	pics Wigglytuff
 	pics Zubat
 	pics Golbat
-	pics Oddish
-	pics Gloom
-	pics Vileplume
 	pics Paras
 	pics Parasect
 	pics Venonat
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Magnezone
 	pics Lickilicky
 	pics Rhyperior
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Tangrowth
 	pics Electivire
 	pics Magmortar
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Togekiss
 	pics Yanmega
 	pics Leafeon

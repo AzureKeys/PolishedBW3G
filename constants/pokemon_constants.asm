@@ -55,9 +55,6 @@
 	const WIGGLYTUFF ; 28
 	const ZUBAT      ; 29
 	const GOLBAT     ; 2a
-	const ODDISH     ; 2b
-	const GLOOM      ; 2c
-	const VILEPLUME  ; 2d
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const VENONAT    ; 30
@@ -278,11 +275,11 @@
 	const MAGNEZONE  ; 109
 	const LICKILICKY ; 10a
 	const RHYPERIOR  ; 10b
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const TANGROWTH  ; 10c
 	const ELECTIVIRE ; 10d
 	const MAGMORTAR  ; 10e
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const TOGEKISS   ; 10f
 	const YANMEGA    ; 110
 	const LEAFEON    ; 111

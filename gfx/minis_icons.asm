@@ -162,21 +162,6 @@ GolbatMini::     INCBIN "gfx/minis/golbat.2bpp.lz"
 GolbatMiniMask:: INCBIN "gfx/minis/golbat_mask.1bpp.lz"
 GolbatIcon::     INCBIN "gfx/icons/golbat.2bpp.lz"
 
-SECTION "Oddish Mini Icon", ROMX
-OddishMini::     INCBIN "gfx/minis/oddish.2bpp.lz"
-OddishMiniMask:: INCBIN "gfx/minis/oddish_mask.1bpp.lz"
-OddishIcon::     INCBIN "gfx/icons/oddish.2bpp.lz"
-
-SECTION "Gloom Mini Icon", ROMX
-GloomMini::     INCBIN "gfx/minis/gloom.2bpp.lz"
-GloomMiniMask:: INCBIN "gfx/minis/gloom_mask.1bpp.lz"
-GloomIcon::     INCBIN "gfx/icons/gloom.2bpp.lz"
-
-SECTION "Vileplume Mini Icon", ROMX
-VileplumeMini::     INCBIN "gfx/minis/vileplume.2bpp.lz"
-VileplumeMiniMask:: INCBIN "gfx/minis/vileplume_mask.1bpp.lz"
-VileplumeIcon::     INCBIN "gfx/icons/vileplume.2bpp.lz"
-
 SECTION "Paras Mini Icon", ROMX
 ParasMini::     INCBIN "gfx/minis/paras.2bpp.lz"
 ParasMiniMask:: INCBIN "gfx/minis/paras_mask.1bpp.lz"

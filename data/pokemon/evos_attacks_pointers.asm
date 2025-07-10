@@ -35,9 +35,6 @@ EvosAttacksPointers::
 	dw WigglytuffEvosAttacks
 	dw ZubatEvosAttacks
 	dw GolbatEvosAttacks
-	dw OddishEvosAttacks
-	dw GloomEvosAttacks
-	dw VileplumeEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
 	dw VenonatEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw MagnezoneEvosAttacks
 	dw LickilickyEvosAttacks
 	dw RhyperiorEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw TangrowthEvosAttacks
 	dw ElectivireEvosAttacks
 	dw MagmortarEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw TogekissEvosAttacks
 	dw YanmegaEvosAttacks
 	dw LeafeonEvosAttacks

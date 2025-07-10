@@ -35,9 +35,6 @@ MiniIconPointers:
 	mini_icon Wigglytuff
 	mini_icon Zubat
 	mini_icon Golbat
-	mini_icon Oddish
-	mini_icon Gloom
-	mini_icon Vileplume
 	mini_icon Paras
 	mini_icon Parasect
 	mini_icon Venonat
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Magnezone
 	mini_icon Lickilicky
 	mini_icon Rhyperior
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Tangrowth
 	mini_icon Electivire
 	mini_icon Magmortar
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Togekiss
 	mini_icon Yanmega
 	mini_icon Leafeon

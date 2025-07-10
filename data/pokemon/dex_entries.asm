@@ -312,36 +312,6 @@ GolbatPokedexEntry::
 	next "and gorges itself"
 	next "with blood.@"
 
-SECTION "OddishPokedexEntry", ROMX
-OddishPokedexEntry::
-	db "Weed@"
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
-
-SECTION "GloomPokedexEntry", ROMX
-GloomPokedexEntry::
-	db "Weed@"
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
-
-SECTION "VileplumePokedexEntry", ROMX
-VileplumePokedexEntry::
-	db "Flower@"
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
-
 SECTION "ParasPokedexEntry", ROMX
 ParasPokedexEntry::
 	db "Mushroom@"

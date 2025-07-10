@@ -31,9 +31,6 @@ AnimationExtraPointers:
 	dw WigglytuffAnimationExtra
 	dw ZubatAnimationExtra
 	dw GolbatAnimationExtra
-	dw OddishAnimationExtra
-	dw GloomAnimationExtra
-	dw VileplumeAnimationExtra
 	dw ParasAnimationExtra
 	dw ParasectAnimationExtra
 	dw VenonatAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw MagnezoneAnimationExtra
 	dw LickilickyAnimationExtra
 	dw RhyperiorAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw TangrowthAnimationExtra
 	dw ElectivireAnimationExtra
 	dw MagmortarAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw TogekissAnimationExtra
 	dw YanmegaAnimationExtra
 	dw LeafeonAnimationExtra

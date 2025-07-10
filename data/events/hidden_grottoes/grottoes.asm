@@ -17,7 +17,7 @@ HiddenGrottoData:
 ; HIDDENGROTTO_ILEX_FOREST
 	db 4, LEAF_STONE, 9
 	dp PARAS
-	dp ODDISH
+	dp RATTATA
 	dp PSYDUCK
 	dp PINECO
 

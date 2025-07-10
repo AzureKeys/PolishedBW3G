@@ -31,9 +31,6 @@ AnimationPointers:
 	dw WigglytuffAnimation
 	dw ZubatAnimation
 	dw GolbatAnimation
-	dw OddishAnimation
-	dw GloomAnimation
-	dw VileplumeAnimation
 	dw ParasAnimation
 	dw ParasectAnimation
 	dw VenonatAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw MagnezoneAnimation
 	dw LickilickyAnimation
 	dw RhyperiorAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw TangrowthAnimation
 	dw ElectivireAnimation
 	dw MagmortarAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw TogekissAnimation
 	dw YanmegaAnimation
 	dw LeafeonAnimation

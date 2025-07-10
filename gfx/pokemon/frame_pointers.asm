@@ -31,9 +31,6 @@ FramesPointers:
 	dw WigglytuffFrames
 	dw ZubatFrames
 	dw GolbatFrames
-	dw OddishFrames
-	dw GloomFrames
-	dw VileplumeFrames
 	dw ParasFrames
 	dw ParasectFrames
 	dw VenonatFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw MagnezoneFrames
 	dw LickilickyFrames
 	dw RhyperiorFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw TangrowthFrames
 	dw ElectivireFrames
 	dw MagmortarFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw TogekissFrames
 	dw YanmegaFrames
 	dw LeafeonFrames
