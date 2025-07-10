@@ -293,6 +293,9 @@ FramesPointers:
 	dw SamurottPlainFrames
 	dw PatratFrames
 	dw WatchogFrames
+	dw LillipupFrames
+	dw HerdierFrames
+	dw StoutlandFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

@@ -300,6 +300,9 @@ PokemonBodyData:
 	body_data  15,  946, QUADRUPED,    BLUE   ; SAMUROTT
 	body_data   5,  116, QUADRUPED,    BROWN  ; PATRAT
 	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
+	body_data   4,   41, QUADRUPED,    BROWN  ; LILLIPUP
+	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
+	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

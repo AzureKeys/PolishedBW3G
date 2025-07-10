@@ -317,6 +317,9 @@
 	const SAMUROTT   ; 129
 	const PATRAT     ; 128
 	const WATCHOG    ; 129
+	const LILLIPUP   ; 129
+	const HERDIER    ; 128
+	const STOUTLAND  ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

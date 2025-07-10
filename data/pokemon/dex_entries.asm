@@ -2913,6 +2913,35 @@ WatchogPokedexEntry::
 	next "berries stored in"
 	next "their cheeks.@"
 
+SECTION "LillipupPokedexEntry", ROMX
+LillipupPokedexEntry::
+	db "Puppy@"
+	db "Though it is a"
+	next "brave #MON,"
+	next "it is intelligent"
+	page "enough to flee"
+	next "from a dangerous"
+	next "enemy.@"
+
+SECTION "HerdierPokedexEntry", ROMX
+HerdierPokedexEntry::
+	db "Loyal Dog@"
+	db "Its black, cape-"
+	next "like fur is very"
+	next "hard, protecting"
+	page "this #MON from"
+	next "enemy attacks.@"
+
+SECTION "StoutlandPokedexEntry", ROMX
+StoutlandPokedexEntry::
+	db "Big Hearted@"
+	db "It rescues people"
+	next "from blizzards in"
+	next "the mountains. Its"
+	page "shaggy fur"
+	next "protects it from"
+	next "the cold.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

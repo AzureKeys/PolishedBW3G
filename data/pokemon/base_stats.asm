@@ -328,6 +328,9 @@ INCLUDE "data/pokemon/base_stats/dewott.asm"
 INCLUDE "data/pokemon/base_stats/samurott_plain.asm"
 INCLUDE "data/pokemon/base_stats/patrat.asm"
 INCLUDE "data/pokemon/base_stats/watchog.asm"
+INCLUDE "data/pokemon/base_stats/lillipup.asm"
+INCLUDE "data/pokemon/base_stats/herdier.asm"
+INCLUDE "data/pokemon/base_stats/stoutland.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

@@ -297,6 +297,9 @@ endc
 	db SLASH        ; SAMUROTT
 	db NO_MOVE      ; PATRAT
 	db CONFUSE_RAY  ; WATCHOG
+	db NO_MOVE      ; LILLIPUP
+	db NO_MOVE      ; HERDIER
+	db NO_MOVE      ; STOUTLAND
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

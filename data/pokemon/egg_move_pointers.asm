@@ -293,6 +293,9 @@ EggSpeciesMovesPointers::
 	dw OshawottEggSpeciesMoves          ; Samurott
 	dw PatratEggSpeciesMoves            ; Patrat
 	dw PatratEggSpeciesMoves            ; Watchog
+	dw LillipupEggSpeciesMoves          ; Lillipup
+	dw LillipupEggSpeciesMoves          ; Herdier
+	dw LillipupEggSpeciesMoves          ; Stoutland
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

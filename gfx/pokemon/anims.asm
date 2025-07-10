@@ -240,6 +240,9 @@ OshawottAnimation:   INCLUDE "gfx/pokemon/oshawott/anim.asm"
 DewottAnimation:     INCLUDE "gfx/pokemon/dewott/anim.asm"
 PatratAnimation:     INCLUDE "gfx/pokemon/patrat/anim.asm"
 WatchogAnimation:    INCLUDE "gfx/pokemon/watchog/anim.asm"
+LillipupAnimation:   INCLUDE "gfx/pokemon/lillipup/anim.asm"
+HerdierAnimation:    INCLUDE "gfx/pokemon/herdier/anim.asm"
+StoutlandAnimation:  INCLUDE "gfx/pokemon/stoutland/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

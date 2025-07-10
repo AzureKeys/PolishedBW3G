@@ -1564,3 +1564,15 @@ PatratBackpic:  INCBIN "gfx/pokemon/patrat/back.2bpp.lz"
 SECTION "Watchog Pics", ROMX
 WatchogFrontpic: INCBIN "gfx/pokemon/watchog/front.animated.2bpp.lz"
 WatchogBackpic:  INCBIN "gfx/pokemon/watchog/back.2bpp.lz"
+
+SECTION "Lillipup Pics", ROMX
+LillipupFrontpic: INCBIN "gfx/pokemon/lillipup/front.animated.2bpp.lz"
+LillipupBackpic:  INCBIN "gfx/pokemon/lillipup/back.2bpp.lz"
+
+SECTION "Herdier Pics", ROMX
+HerdierFrontpic: INCBIN "gfx/pokemon/herdier/front.animated.2bpp.lz"
+HerdierBackpic:  INCBIN "gfx/pokemon/herdier/back.2bpp.lz"
+
+SECTION "Stoutland Pics", ROMX
+StoutlandFrontpic: INCBIN "gfx/pokemon/stoutland/front.animated.2bpp.lz"
+StoutlandBackpic:  INCBIN "gfx/pokemon/stoutland/back.2bpp.lz"

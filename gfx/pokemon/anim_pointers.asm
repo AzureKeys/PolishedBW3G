@@ -293,6 +293,9 @@ AnimationPointers:
 	dw SamurottPlainAnimation
 	dw PatratAnimation
 	dw WatchogAnimation
+	dw LillipupAnimation
+	dw HerdierAnimation
+	dw StoutlandAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

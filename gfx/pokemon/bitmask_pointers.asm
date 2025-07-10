@@ -293,6 +293,9 @@ BitmasksPointers:
 	dw SamurottPlainBitmasks
 	dw PatratBitmasks
 	dw WatchogBitmasks
+	dw LillipupBitmasks
+	dw HerdierBitmasks
+	dw StoutlandBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

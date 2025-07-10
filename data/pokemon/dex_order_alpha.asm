@@ -94,6 +94,7 @@ AlphabeticalPokedexOrder:
 	dp HAPPINY
 	dp HAUNTER
 	dp HERACROSS
+	dp HERDIER
 	dp HITMONCHAN
 	dp HITMONLEE
 	dp HITMONTOP
@@ -128,6 +129,7 @@ AlphabeticalPokedexOrder:
 	dp LEDYBA
 	dp LICKILICKY
 	dp LICKITUNG
+	dp LILLIPUP
 	dp LUGIA
 	dp MACHAMP
 	dp MACHOKE
@@ -246,6 +248,7 @@ AlphabeticalPokedexOrder:
 	dp STARMIE
 	dp STARYU
 	dp STEELIX
+	dp STOUTLAND
 	dp SUDOWOODO
 	dp SUICUNE
 	dp SUNFLORA

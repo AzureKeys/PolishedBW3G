@@ -297,6 +297,9 @@ EvosAttacksPointers::
 	dw SamurottPlainEvosAttacks
 	dw PatratEvosAttacks
 	dw WatchogEvosAttacks
+	dw LillipupEvosAttacks
+	dw HerdierEvosAttacks
+	dw StoutlandEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

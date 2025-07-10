@@ -1467,6 +1467,21 @@ WatchogMini::     INCBIN "gfx/minis/watchog.2bpp.lz"
 WatchogMiniMask:: INCBIN "gfx/minis/watchog_mask.1bpp.lz"
 WatchogIcon::     INCBIN "gfx/icons/watchog.2bpp.lz"
 
+SECTION "Lillipup Mini Icon", ROMX
+LillipupMini::     INCBIN "gfx/minis/lillipup.2bpp.lz"
+LillipupMiniMask:: INCBIN "gfx/minis/lillipup_mask.1bpp.lz"
+LillipupIcon::     INCBIN "gfx/icons/lillipup.2bpp.lz"
+
+SECTION "Herdier Mini Icon", ROMX
+HerdierMini::     INCBIN "gfx/minis/herdier.2bpp.lz"
+HerdierMiniMask:: INCBIN "gfx/minis/herdier_mask.1bpp.lz"
+HerdierIcon::     INCBIN "gfx/icons/herdier.2bpp.lz"
+
+SECTION "Stoutland Mini Icon", ROMX
+StoutlandMini::     INCBIN "gfx/minis/stoutland.2bpp.lz"
+StoutlandMiniMask:: INCBIN "gfx/minis/stoutland_mask.1bpp.lz"
+StoutlandIcon::     INCBIN "gfx/icons/stoutland.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

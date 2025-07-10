@@ -138,6 +138,9 @@ OshawottFrames:   INCLUDE "gfx/pokemon/oshawott/frames.asm"
 DewottFrames:     INCLUDE "gfx/pokemon/dewott/frames.asm"
 PatratFrames:     INCLUDE "gfx/pokemon/patrat/frames.asm"
 WatchogFrames:    INCLUDE "gfx/pokemon/watchog/frames.asm"
+LillipupFrames:   INCLUDE "gfx/pokemon/lillipup/frames.asm"
+HerdierFrames:    INCLUDE "gfx/pokemon/herdier/frames.asm"
+StoutlandFrames:  INCLUDE "gfx/pokemon/stoutland/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

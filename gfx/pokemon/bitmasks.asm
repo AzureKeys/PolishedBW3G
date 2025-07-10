@@ -240,6 +240,9 @@ OshawottBitmasks:   INCLUDE "gfx/pokemon/oshawott/bitmask.asm"
 DewottBitmasks:     INCLUDE "gfx/pokemon/dewott/bitmask.asm"
 PatratBitmasks:     INCLUDE "gfx/pokemon/patrat/bitmask.asm"
 WatchogBitmasks:    INCLUDE "gfx/pokemon/watchog/bitmask.asm"
+LillipupBitmasks:   INCLUDE "gfx/pokemon/lillipup/bitmask.asm"
+HerdierBitmasks:    INCLUDE "gfx/pokemon/herdier/bitmask.asm"
+StoutlandBitmasks:  INCLUDE "gfx/pokemon/stoutland/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

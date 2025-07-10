@@ -298,4 +298,7 @@ endc
 	db  36, 100 ; Samurott
 	db   1,  19 ; Patrat
 	db  20, 100 ; Watchog
+	db   1,  15 ; Lillipup
+	db  16,  31 ; Herdier
+	db  32, 100 ; Stoutland
 	assert_table_length NUM_SPECIES

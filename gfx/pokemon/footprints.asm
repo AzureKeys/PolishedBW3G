@@ -29,6 +29,9 @@ DewottFootprint::
 SamurottFootprint::
 PatratFootprint::
 WatchogFootprint::
+LillipupFootprint::
+HerdierFootprint::
+StoutlandFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

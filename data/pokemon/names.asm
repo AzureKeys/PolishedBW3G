@@ -294,4 +294,7 @@ PokemonNames::
 	rawchar "Samurott@@"
 	rawchar "Patrat@@@@"
 	rawchar "Watchog@@@"
+	rawchar "Lillipup@@"
+	rawchar "Herdier@@@"
+	rawchar "Stoutland@"
 	assert_table_length NUM_SPECIES + 1

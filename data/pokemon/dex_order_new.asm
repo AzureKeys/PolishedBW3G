@@ -13,6 +13,9 @@ NewPokedexOrder:
 	dp SAMUROTT
 	dp PATRAT
 	dp WATCHOG
+	dp LILLIPUP
+	dp HERDIER
+	dp STOUTLAND
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

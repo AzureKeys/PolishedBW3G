@@ -1236,10 +1236,23 @@ OshawottEggSpeciesMoves:
 
 PatratEggSpeciesMoves:
 	dp PATRAT, PLAIN_FORM
+	;db FLAIL
 	db FORESIGHT
 	db IRON_TAIL
 	db PURSUIT
 	db SCREECH
+	db $ff
+
+LillipupEggSpeciesMoves:
+	dp LILLIPUP, PLAIN_FORM
+	db CHARM
+	db ENDURE
+	;db FIRE_FANG
+	;db ICE_FANG
+	db LICK
+	db MUD_SLAP
+	db PURSUIT
+	;db THUNDER_FANG
 	db $ff
 
 NoEggSpeciesMoves:

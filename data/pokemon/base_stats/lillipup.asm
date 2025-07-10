@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for LILLIPUP, VITAL_SPIRIT, PICK_UP, RUN_AWAY
+	abilities_for LILLIPUP, VITAL_SPIRIT, PICKUP, RUN_AWAY
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

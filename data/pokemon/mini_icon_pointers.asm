@@ -297,6 +297,9 @@ MiniIconPointers:
 	mini_icon Samurott
 	mini_icon Patrat
 	mini_icon Watchog
+	mini_icon Lillipup
+	mini_icon Herdier
+	mini_icon Stoutland
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

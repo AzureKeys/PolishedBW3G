@@ -6038,6 +6038,64 @@ endc
 	learnset 43, MEAN_LOOK
 	learnset 46, BATON_PASS
 	learnset 50, BODY_SLAM ; Slam
+	
+	evos_attacks Lillipup
+	evo_data EVOLVE_LEVEL, 16, HERDIER
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 5, FORESIGHT ; Odor Sleuth
+	learnset 8, BITE
+	learnset 10, GROWL ; Baby-Doll Eyes
+	learnset 12, ENCORE
+	learnset 15, TAKE_DOWN
+	learnset 19, HONE_CLAWS ; Work Up
+	learnset 22, CRUNCH
+	learnset 26, ROAR
+	learnset 29, BODY_SLAM ; Retaliate
+	learnset 33, REVERSAL
+	; Skipped Last Resort
+	learnset 36, GIGA_IMPACT
+	learnset 40, PLAY_ROUGH
+	
+	evos_attacks Herdier
+	evo_data EVOLVE_LEVEL, 32, STOUTLAND
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 5, FORESIGHT ; Odor Sleuth
+	learnset 8, BITE
+	learnset 10, GROWL ; Baby-Doll Eyes
+	learnset 12, ENCORE
+	learnset 16, TAKE_DOWN
+	learnset 20, HONE_CLAWS ; Work Up
+	learnset 24, CRUNCH
+	learnset 29, ROAR
+	learnset 33, BODY_SLAM ; Retaliate
+	learnset 38, REVERSAL
+	; Skipped Last Resort
+	learnset 42, GIGA_IMPACT
+	learnset 47, PLAY_ROUGH
+	
+	evos_attacks Stoutland
+	;learnset 1, ICE_FANG
+	;learnset 1, THUNDER_FANG
+	;learnset 1, FIRE_FANG
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 1, FORESIGHT ; Odor Sleuth
+	learnset 1, BITE
+	learnset 5, FORESIGHT ; Odor Sleuth
+	learnset 8, BITE
+	learnset 10, GROWL ; Baby-Doll Eyes
+	learnset 12, ENCORE
+	learnset 16, TAKE_DOWN
+	learnset 20, HONE_CLAWS ; Work Up
+	learnset 24, CRUNCH
+	learnset 29, ROAR
+	learnset 36, BODY_SLAM ; Retaliate
+	learnset 42, REVERSAL
+	; Skipped Last Resort
+	learnset 51, GIGA_IMPACT
+	learnset 59, PLAY_ROUGH
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

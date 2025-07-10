@@ -297,6 +297,9 @@ PokemonCries::
 	mon_cry CRY_SLOWPOKE,    $1ca,  $130 ; Oshawott
 	mon_cry CRY_DIGLETT,     $033,  $0d0 ; Dewott
 	mon_cry CRY_VULPIX,     -$15c,  $100 ; Samurott
-	mon_cry CRY_RATTATA,     $000,  $100 ; Patrat
+	mon_cry CRY_RATTATA,     $000,  $100 ; PATRAT*
 	mon_cry CRY_CLEFAIRY,   -$026,  $0b0 ; Watchog
+	mon_cry CRY_REMORAID,   -$077,  $0e0 ; Lillipup
+	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
+	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*
 	assert_table_length NUM_SPECIES

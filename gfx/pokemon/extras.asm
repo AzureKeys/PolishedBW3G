@@ -240,6 +240,9 @@ OshawottAnimationExtra:   INCLUDE "gfx/pokemon/oshawott/anim_idle.asm"
 DewottAnimationExtra:     INCLUDE "gfx/pokemon/dewott/anim_idle.asm"
 PatratAnimationExtra:     INCLUDE "gfx/pokemon/patrat/anim_idle.asm"
 WatchogAnimationExtra:    INCLUDE "gfx/pokemon/watchog/anim_idle.asm"
+LillipupAnimationExtra:   INCLUDE "gfx/pokemon/lillipup/anim_idle.asm"
+HerdierAnimationExtra:    INCLUDE "gfx/pokemon/herdier/anim_idle.asm"
+StoutlandAnimationExtra:  INCLUDE "gfx/pokemon/stoutland/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

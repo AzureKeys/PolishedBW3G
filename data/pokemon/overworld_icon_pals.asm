@@ -297,6 +297,9 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; SAMUROTT
 	iconpal BROWN, RED ; PATRAT
 	iconpal BROWN, GREEN ; WATCHOG
+	iconpal BROWN, GRAY ; LILLIPUP
+	iconpal BLUE, GRAY ; HERDIER
+	iconpal BLUE, GREEN ; STOUTLAND
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

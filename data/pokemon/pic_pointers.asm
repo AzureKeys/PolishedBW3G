@@ -297,6 +297,9 @@ PokemonPicPointers::
 	pics SamurottPlain
 	pics Patrat
 	pics Watchog
+	pics Lillipup
+	pics Herdier
+	pics Stoutland
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
