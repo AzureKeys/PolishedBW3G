@@ -2893,6 +2893,26 @@ SamurottPlainPokedexEntry::
 	next "can intimidate"
 	next "most enemies.@"
 
+SECTION "PatratPokedexEntry", ROMX
+PatratPokedexEntry::
+	db "Scout@"
+	db "Using food stored"
+	next "in cheek pouches,"
+	next "it can keep watch"
+	page "for days. They"
+	next "use their tails"
+	next "to communicate.@"
+
+SECTION "WatchogPokedexEntry", ROMX
+WatchogPokedexEntry::
+	db "Lookout@"
+	db "When they see an"
+	next "enemy, their tail"
+	next "stands high. They"
+	page "spit the seeds of"
+	next "berries stored in"
+	next "their cheeks.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

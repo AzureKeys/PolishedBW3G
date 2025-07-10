@@ -297,4 +297,6 @@ PokemonCries::
 	mon_cry CRY_SLOWPOKE,    $1ca,  $130 ; Oshawott
 	mon_cry CRY_DIGLETT,     $033,  $0d0 ; Dewott
 	mon_cry CRY_VULPIX,     -$15c,  $100 ; Samurott
+	mon_cry CRY_RATTATA,     $000,  $100 ; Patrat
+	mon_cry CRY_CLEFAIRY,   -$026,  $0b0 ; Watchog
 	assert_table_length NUM_SPECIES

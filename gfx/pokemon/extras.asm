@@ -238,6 +238,8 @@ PigniteAnimationExtra:    INCLUDE "gfx/pokemon/pignite/anim_idle.asm"
 EmboarAnimationExtra:     INCLUDE "gfx/pokemon/emboar/anim_idle.asm"
 OshawottAnimationExtra:   INCLUDE "gfx/pokemon/oshawott/anim_idle.asm"
 DewottAnimationExtra:     INCLUDE "gfx/pokemon/dewott/anim_idle.asm"
+PatratAnimationExtra:     INCLUDE "gfx/pokemon/patrat/anim_idle.asm"
+WatchogAnimationExtra:    INCLUDE "gfx/pokemon/watchog/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

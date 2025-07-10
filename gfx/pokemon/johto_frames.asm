@@ -136,6 +136,8 @@ PigniteFrames:    INCLUDE "gfx/pokemon/pignite/frames.asm"
 EmboarFrames:     INCLUDE "gfx/pokemon/emboar/frames.asm"
 OshawottFrames:   INCLUDE "gfx/pokemon/oshawott/frames.asm"
 DewottFrames:     INCLUDE "gfx/pokemon/dewott/frames.asm"
+PatratFrames:     INCLUDE "gfx/pokemon/patrat/frames.asm"
+WatchogFrames:    INCLUDE "gfx/pokemon/watchog/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

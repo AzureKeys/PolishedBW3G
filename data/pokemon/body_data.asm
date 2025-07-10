@@ -289,15 +289,17 @@ PokemonBodyData:
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
-	body_data   2,  179, SERPENTINE,   GREEN  ; SNIVY
-	body_data   2,  353, SERPENTINE,   GREEN  ; SERVINE
-	body_data  10, 1389, SERPENTINE,   GREEN  ; SERPERIOR
-	body_data   2,  218, QUADRUPED,    RED    ; TEPIG
-	body_data   2, 1224, BIPEDAL,      RED    ; PIGNITE
-	body_data  10, 3307, BIPEDAL,      RED    ; EMBOAR
-	body_data   1,  130, BIPEDAL,      BLUE   ; OSHAWOTT
-	body_data   2,  540, BIPEDAL,      BLUE   ; DEWOTT
-	body_data   4, 2090, QUADRUPED,    BLUE   ; SAMUROTT
+	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
+	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
+	body_data  33,  630, SERPENTINE,   GREEN  ; SERPERIOR
+	body_data   5,   99, QUADRUPED,    RED    ; TEPIG
+	body_data  10,  555, BIPEDAL_TAIL, RED    ; PIGNITE
+	body_data  16, 1500, BIPEDAL_TAIL, RED    ; EMBOAR
+	body_data   5,   59, BIPEDAL_TAIL, BLUE   ; OSHAWOTT
+	body_data   8,  245, BIPEDAL_TAIL, BLUE   ; DEWOTT
+	body_data  15,  946, QUADRUPED,    BLUE   ; SAMUROTT
+	body_data   5,  116, QUADRUPED,    BROWN  ; PATRAT
+	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

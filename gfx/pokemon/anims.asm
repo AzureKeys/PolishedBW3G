@@ -238,6 +238,8 @@ PigniteAnimation:    INCLUDE "gfx/pokemon/pignite/anim.asm"
 EmboarAnimation:     INCLUDE "gfx/pokemon/emboar/anim.asm"
 OshawottAnimation:   INCLUDE "gfx/pokemon/oshawott/anim.asm"
 DewottAnimation:     INCLUDE "gfx/pokemon/dewott/anim.asm"
+PatratAnimation:     INCLUDE "gfx/pokemon/patrat/anim.asm"
+WatchogAnimation:    INCLUDE "gfx/pokemon/watchog/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

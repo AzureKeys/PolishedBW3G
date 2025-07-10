@@ -291,6 +291,8 @@ BitmasksPointers:
 	dw OshawottBitmasks
 	dw DewottBitmasks
 	dw SamurottPlainBitmasks
+	dw PatratBitmasks
+	dw WatchogBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

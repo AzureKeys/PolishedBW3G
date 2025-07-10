@@ -1556,3 +1556,11 @@ DewottBackpic:  INCBIN "gfx/pokemon/dewott/back.2bpp.lz"
 SECTION "SamurottPlain Pics", ROMX
 SamurottPlainFrontpic: INCBIN "gfx/pokemon/samurott_plain/front.animated.2bpp.lz"
 SamurottPlainBackpic:  INCBIN "gfx/pokemon/samurott_plain/back.2bpp.lz"
+
+SECTION "Patrat Pics", ROMX
+PatratFrontpic: INCBIN "gfx/pokemon/patrat/front.animated.2bpp.lz"
+PatratBackpic:  INCBIN "gfx/pokemon/patrat/back.2bpp.lz"
+
+SECTION "Watchog Pics", ROMX
+WatchogFrontpic: INCBIN "gfx/pokemon/watchog/front.animated.2bpp.lz"
+WatchogBackpic:  INCBIN "gfx/pokemon/watchog/back.2bpp.lz"

@@ -291,6 +291,8 @@ AnimationPointers:
 	dw OshawottAnimation
 	dw DewottAnimation
 	dw SamurottPlainAnimation
+	dw PatratAnimation
+	dw WatchogAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

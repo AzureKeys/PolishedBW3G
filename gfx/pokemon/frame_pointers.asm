@@ -291,6 +291,8 @@ FramesPointers:
 	dw OshawottFrames
 	dw DewottFrames
 	dw SamurottPlainFrames
+	dw PatratFrames
+	dw WatchogFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

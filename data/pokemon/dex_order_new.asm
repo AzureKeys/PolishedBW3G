@@ -11,6 +11,8 @@ NewPokedexOrder:
 	dp OSHAWOTT
 	dp DEWOTT
 	dp SAMUROTT
+	dp PATRAT
+	dp WATCHOG
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

@@ -238,6 +238,8 @@ PigniteBitmasks:    INCLUDE "gfx/pokemon/pignite/bitmask.asm"
 EmboarBitmasks:     INCLUDE "gfx/pokemon/emboar/bitmask.asm"
 OshawottBitmasks:   INCLUDE "gfx/pokemon/oshawott/bitmask.asm"
 DewottBitmasks:     INCLUDE "gfx/pokemon/dewott/bitmask.asm"
+PatratBitmasks:     INCLUDE "gfx/pokemon/patrat/bitmask.asm"
+WatchogBitmasks:    INCLUDE "gfx/pokemon/watchog/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

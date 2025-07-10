@@ -295,6 +295,8 @@ MiniIconPointers:
 	mini_icon Oshawott
 	mini_icon Dewott
 	mini_icon Samurott
+	mini_icon Patrat
+	mini_icon Watchog
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

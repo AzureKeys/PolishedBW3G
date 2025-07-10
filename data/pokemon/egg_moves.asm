@@ -1234,5 +1234,13 @@ OshawottEggSpeciesMoves:
 	db SCREECH
 	db $ff
 
+PatratEggSpeciesMoves:
+	dp PATRAT, PLAIN_FORM
+	db FORESIGHT
+	db IRON_TAIL
+	db PURSUIT
+	db SCREECH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

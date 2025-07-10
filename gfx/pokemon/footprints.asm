@@ -27,6 +27,8 @@ EmboarFootprint::
 OshawottFootprint::
 DewottFootprint::
 SamurottFootprint::
+PatratFootprint::
+WatchogFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

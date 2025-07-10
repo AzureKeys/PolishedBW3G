@@ -1457,6 +1457,16 @@ SamurottMini::     INCBIN "gfx/minis/samurott.2bpp.lz"
 SamurottMiniMask:: INCBIN "gfx/minis/samurott_mask.1bpp.lz"
 SamurottIcon::     INCBIN "gfx/icons/samurott.2bpp.lz"
 
+SECTION "Patrat Mini Icon", ROMX
+PatratMini::     INCBIN "gfx/minis/patrat.2bpp.lz"
+PatratMiniMask:: INCBIN "gfx/minis/patrat_mask.1bpp.lz"
+PatratIcon::     INCBIN "gfx/icons/patrat.2bpp.lz"
+
+SECTION "Watchog Mini Icon", ROMX
+WatchogMini::     INCBIN "gfx/minis/watchog.2bpp.lz"
+WatchogMiniMask:: INCBIN "gfx/minis/watchog_mask.1bpp.lz"
+WatchogIcon::     INCBIN "gfx/icons/watchog.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

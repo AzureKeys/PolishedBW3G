@@ -5996,6 +5996,48 @@ endc
 	learnset 51, SWORDS_DANCE
 	learnset 58, HYDRO_PUMP
 	learnset 63, MEGAHORN ; Added at Hydro Pump's original level
+	
+	evos_attacks Patrat
+	evo_data EVOLVE_LEVEL, 20, WATCHOG
+	learnset 1, TACKLE
+	learnset 3, LEER
+	learnset 6, BITE
+	learnset 11, PROTECT ; Detect
+	learnset 13, MUD_SLAP ; Sand-Attack
+	learnset 16, CRUNCH
+	learnset 18, HYPNOSIS
+	learnset 21, SUPER_FANG
+	learnset 23, DISABLE ; After You
+	learnset 26, FOCUS_ENERGY
+	;learnset 28, WORK_UP
+	learnset 31, HYPER_FANG
+	learnset 33, NASTY_PLOT
+	learnset 36, MEAN_LOOK
+	learnset 38, BATON_PASS
+	learnset 41, BODY_SLAM ; Slam
+	
+	evos_attacks Watchog
+	learnset 1, CONFUSE_RAY
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 1, BITE
+	learnset 1, LOW_KICK
+	learnset 3, LEER
+	learnset 6, BITE
+	learnset 11, PROTECT ; Detect
+	learnset 13, MUD_SLAP ; Sand-Attack
+	learnset 16, CRUNCH
+	learnset 18, HYPNOSIS
+	learnset 19, CONFUSE_RAY
+	learnset 22, SUPER_FANG
+	learnset 25, DISABLE ; After You
+	learnset 29, FOCUS_ENERGY
+	;learnset 32, WORK_UP
+	learnset 36, HYPER_FANG
+	learnset 39, NASTY_PLOT
+	learnset 43, MEAN_LOOK
+	learnset 46, BATON_PASS
+	learnset 50, BODY_SLAM ; Slam
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

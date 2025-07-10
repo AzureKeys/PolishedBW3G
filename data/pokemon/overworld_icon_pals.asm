@@ -295,6 +295,8 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; OSHAWOTT
 	iconpal AZURE, TEAL ; DEWOTT
 	iconpal AZURE, BLUE ; SAMUROTT
+	iconpal BROWN, RED ; PATRAT
+	iconpal BROWN, GREEN ; WATCHOG
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

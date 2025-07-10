@@ -291,6 +291,8 @@ FootprintPointers::
 	dw OshawottFootprint
 	dw DewottFootprint
 	dw SamurottFootprint
+	dw PatratFootprint
+	dw WatchogFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -179,6 +179,7 @@ AlphabeticalPokedexOrder:
 	dp OVERQWIL
 	dp PARAS
 	dp PARASECT
+	dp PATRAT
 	dp PERRSERKER
 	dp PERSIAN
 	dp PHANPY
@@ -278,6 +279,7 @@ AlphabeticalPokedexOrder:
 	dp VOLTORB
 	dp VULPIX
 	dp WARTORTLE
+	dp WATCHOG
 	dp WEAVILE
 	dp WEEPINBELL
 	dp WEEZING

@@ -295,6 +295,8 @@ PokemonPicPointers::
 	pics Oshawott
 	pics Dewott
 	pics SamurottPlain
+	pics Patrat
+	pics Watchog
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

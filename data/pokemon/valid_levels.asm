@@ -296,4 +296,6 @@ endc
 	db   1,  16 ; Oshawott
 	db  17,  35 ; Dewott
 	db  36, 100 ; Samurott
+	db   1,  19 ; Patrat
+	db  20, 100 ; Watchog
 	assert_table_length NUM_SPECIES

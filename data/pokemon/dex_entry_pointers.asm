@@ -292,6 +292,8 @@ PokedexDataPointerTable:
 	dba OshawottPokedexEntry
 	dba DewottPokedexEntry
 	dba SamurottPlainPokedexEntry
+	dba PatratPokedexEntry
+	dba WatchogPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
