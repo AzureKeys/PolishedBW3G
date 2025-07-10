@@ -7,9 +7,6 @@ CharizardAnimationExtra:  INCLUDE "gfx/pokemon/charizard/anim_idle.asm"
 SquirtleAnimationExtra:   INCLUDE "gfx/pokemon/squirtle/anim_idle.asm"
 WartortleAnimationExtra:  INCLUDE "gfx/pokemon/wartortle/anim_idle.asm"
 BlastoiseAnimationExtra:  INCLUDE "gfx/pokemon/blastoise/anim_idle.asm"
-PidgeyAnimationExtra:     INCLUDE "gfx/pokemon/pidgey/anim_idle.asm"
-PidgeottoAnimationExtra:  INCLUDE "gfx/pokemon/pidgeotto/anim_idle.asm"
-PidgeotAnimationExtra:    INCLUDE "gfx/pokemon/pidgeot/anim_idle.asm"
 SpearowAnimationExtra:    INCLUDE "gfx/pokemon/spearow/anim_idle.asm"
 FearowAnimationExtra:     INCLUDE "gfx/pokemon/fearow/anim_idle.asm"
 EkansAnimationExtra:      INCLUDE "gfx/pokemon/ekans/anim_idle.asm"
@@ -241,7 +238,6 @@ PigniteAnimationExtra:    INCLUDE "gfx/pokemon/pignite/anim_idle.asm"
 EmboarAnimationExtra:     INCLUDE "gfx/pokemon/emboar/anim_idle.asm"
 OshawottAnimationExtra:   INCLUDE "gfx/pokemon/oshawott/anim_idle.asm"
 DewottAnimationExtra:     INCLUDE "gfx/pokemon/dewott/anim_idle.asm"
-SamurottPlainAnimationExtra: INCLUDE "gfx/pokemon/samurott_plain/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -442,3 +438,5 @@ TaurosPaldeanWaterAnimationExtra: INCLUDE "gfx/pokemon/tauros_paldean_water/anim
 
 UrsalunaPlainAnimationExtra:     INCLUDE "gfx/pokemon/ursaluna_plain/anim_idle.asm"
 UrsalunaBloodmoonAnimationExtra: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim_idle.asm"
+
+SamurottPlainAnimationExtra: INCLUDE "gfx/pokemon/samurott_plain/anim_idle.asm"

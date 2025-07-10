@@ -82,13 +82,13 @@ FalknerGroup:
 
 	def_trainer_class FALKNER
 	def_trainer 1, "Falkner"
-	tr_mon 11, PIDGEY
+	tr_mon 11, RATTATA
 		tr_evs 32 HP
 		tr_moves TACKLE, GUST, MUD_SLAP
 	tr_mon 11, HOOTHOOT
 		tr_evs 32 HP
 		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
-	tr_mon 13, PIDGEOTTO @ PECHA_BERRY
+	tr_mon 13, RATTATA @ PECHA_BERRY
 		tr_evs 32 HP
 		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
 	end_trainer
@@ -104,7 +104,7 @@ FalknerGroup:
 		tr_moves ANCIENTPOWER, HURRICANE, NASTY_PLOT, FRESH_SNACK
 	tr_mon 72, HONCHKROW @ BLACKGLASSES
 		tr_moves BRAVE_BIRD, NIGHT_SLASH, SUCKER_PUNCH, CONFUSE_RAY
-	tr_mon 75, PIDGEOT @ SHARP_BEAK
+	tr_mon 75, RATTATA @ SHARP_BEAK
 		tr_moves HURRICANE, HYPER_BEAM, STEEL_WING, ROOST
 	end_trainer
 
@@ -1416,7 +1416,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_4, "Lyra"
-	tr_mon 16, PIDGEY
+	tr_mon 16, RATTATA
 		tr_evs 36 HP, 36 Spe
 		tr_moves TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
 	tr_mon 17, MARILL
@@ -1431,7 +1431,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_5, "Lyra"
-	tr_mon 16, PIDGEY
+	tr_mon 16, RATTATA
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, SUNKERN
 		tr_evs 36 SAt, 36 Spe
@@ -1442,7 +1442,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_6, "Lyra"
-	tr_mon 16, PIDGEY
+	tr_mon 16, RATTATA
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, GROWLITHE
 		tr_evs 36 HP, 36 Atk
@@ -1453,7 +1453,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_7, "Lyra"
-	tr_mon 33, PIDGEOTTO
+	tr_mon 33, RATTATA
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, GROWLITHE
 		tr_evs 100 HP, 100 Atk
@@ -1466,7 +1466,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_8, "Lyra"
-	tr_mon 33, PIDGEOTTO
+	tr_mon 33, RATTATA
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
 		tr_evs 100 SAt, 100 Spe
@@ -1479,7 +1479,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_9, "Lyra"
-	tr_mon 33, PIDGEOTTO
+	tr_mon 33, RATTATA
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
 		tr_evs 100 SAt, 100 Spe
@@ -1492,7 +1492,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_10, "Lyra"
-	tr_mon 44, PIDGEOT
+	tr_mon 44, RATTATA
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
 		tr_evs 132 Atk, 132 Spe
@@ -1507,7 +1507,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_11, "Lyra"
-	tr_mon 44, PIDGEOT
+	tr_mon 44, RATTATA
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
 		tr_evs 132 Atk, 132 Spe
@@ -1522,7 +1522,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_12, "Lyra"
-	tr_mon 44, PIDGEOT
+	tr_mon 44, RATTATA
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
 		tr_evs 132 Atk, 132 Spe
@@ -1542,7 +1542,7 @@ Lyra2Group:
 
 	def_trainer_class LYRA2
 	def_trainer 1, "Lyra"
-	tr_mon 69, PIDGEOT
+	tr_mon 69, RATTATA
 	tr_mon 70, ARCANINE
 	tr_mon 70, AZUMARILL
 	tr_mon 71, AMPHAROS
@@ -1551,7 +1551,7 @@ Lyra2Group:
 	end_trainer
 
 	def_trainer 2, "Lyra"
-	tr_mon 69, PIDGEOT
+	tr_mon 69, RATTATA
 	tr_mon 70, SUNFLORA
 	tr_mon 70, AZUMARILL
 	tr_mon 71, AMPHAROS
@@ -1560,7 +1560,7 @@ Lyra2Group:
 	end_trainer
 
 	def_trainer 3, "Lyra"
-	tr_mon 69, PIDGEOT
+	tr_mon 69, RATTATA
 	tr_mon 70, SUNFLORA
 	tr_mon 70, ARCANINE
 	tr_mon 71, AMPHAROS
@@ -1612,7 +1612,7 @@ YoungsterGroup:
 
 	def_trainer MIKEY, "Mikey"
 	tr_mon 2, RATTATA
-	tr_mon 4, PIDGEY
+	tr_mon 4, RATTATA
 	end_trainer
 
 	def_trainer ALBERT, "Albert"
@@ -1890,7 +1890,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer CRAIG, "Craig"
-	tr_mon LEVEL_FROM_BADGES + 5, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, MANKEY
 	tr_mon LEVEL_FROM_BADGES + 6, SANDSLASH
 	end_trainer
@@ -2404,19 +2404,19 @@ BirdKeeperGroup:
 
 	def_trainer_class BIRD_KEEPER
 	def_trainer VANCE1, "Vance"
-	tr_mon 36, PIDGEOTTO
-	tr_mon 36, PIDGEOTTO
+	tr_mon 36, RATTATA
+	tr_mon 36, RATTATA
 	end_trainer
 
 	def_trainer VANCE2, "Vance"
-	tr_mon 40, PIDGEOTTO
-	tr_mon 40, PIDGEOTTO
+	tr_mon 40, RATTATA
+	tr_mon 40, RATTATA
 	end_trainer
 
 	def_trainer VANCE3, "Vance"
-	tr_mon 45, PIDGEOT
+	tr_mon 45, RATTATA
 		tr_moves TOXIC, QUICK_ATTACK, ROAR, FLY
-	tr_mon 45, PIDGEOT
+	tr_mon 45, RATTATA
 		tr_moves SWIFT, PROTECT, STEEL_WING, FLY
 	end_trainer
 
@@ -2434,7 +2434,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer ROD, "Rod"
-	tr_mon 7, PIDGEY
+	tr_mon 7, RATTATA
 	tr_mon 8, HOOTHOOT
 	end_trainer
 
@@ -2443,11 +2443,11 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer THEO, "Theo"
-	tr_mon 17, PIDGEY
+	tr_mon 17, RATTATA
 	tr_mon 16, HOOTHOOT
-	tr_mon 19, PIDGEOTTO
+	tr_mon 19, RATTATA
 	tr_mon 17, HOOTHOOT
-	tr_mon 16, PIDGEY
+	tr_mon 16, RATTATA
 	end_trainer
 
 	def_trainer TOBY, "Toby"
@@ -2463,13 +2463,13 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer HANK, "Hank"
-	tr_mon 13, PIDGEY
-	tr_mon 56, PIDGEOT
+	tr_mon 13, RATTATA
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer ROY, "Roy"
 	tr_mon 55, FEAROW
-	tr_mon 59, PIDGEOT
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer BORIS, "Boris"
@@ -2483,8 +2483,8 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer PETER, "Peter"
-	tr_mon 7, PIDGEY
-	tr_mon 8, PIDGEY
+	tr_mon 7, RATTATA
+	tr_mon 8, RATTATA
 	tr_mon 10, SPEAROW
 	end_trainer
 
@@ -2493,24 +2493,24 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer BRET, "Bret"
-	tr_mon 57, PIDGEOT
+	tr_mon 57, RATTATA
 	tr_mon 57, FEAROW
 	end_trainer
 
 	def_trainer MICK, "Mick"
-	tr_mon 62, PIDGEOT
+	tr_mon 62, RATTATA
 	tr_mon 60, MURKROW
 	tr_mon 60, NOCTOWL
 	end_trainer
 
 	def_trainer POWELL, "Powell"
-	tr_mon LEVEL_FROM_BADGES + 8, PIDGEOT
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	end_trainer
 
 	def_trainer BIRD_KEEPER_TONY, "Tony"
-	tr_mon LEVEL_FROM_BADGES + 4, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 		tr_moves GUST, QUICK_ATTACK, RAGE, MUD_SLAP
-	tr_mon LEVEL_FROM_BADGES + 4, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 		tr_moves GUST, QUICK_ATTACK, RAGE, DOUBLE_TEAM
 	tr_mon LEVEL_FROM_BADGES + 7, GOLDUCK
 		tr_moves SURF, DISABLE, SCREECH, ZEN_HEADBUTT
@@ -2518,7 +2518,7 @@ BirdKeeperGroup:
 
 	def_trainer JULIAN, "Julian"
 	tr_mon LEVEL_FROM_BADGES + 0, HOOTHOOT
-	tr_mon LEVEL_FROM_BADGES + 4, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, MURKROW
 	end_trainer
 
@@ -2528,8 +2528,8 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer GAIL, "Gail"
-	tr_mon 56, PIDGEOT
-	tr_mon 53, PIDGEOTTO
+	tr_mon 56, RATTATA
+	tr_mon 53, RATTATA
 	end_trainer
 
 	def_trainer BIRD_KEEPER_JOSH, "Josh"
@@ -2542,13 +2542,13 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer ERNIE, "Ernie"
-	tr_mon 61, PIDGEOT
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer KINSLEY, "Kinsey" ; MISMATCH
 	tr_mon 58, FARFETCH_D
 	tr_mon 58, DODRIO
-	tr_mon 58, PIDGEOTTO
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer EASTON, "Easton"
@@ -2559,14 +2559,14 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer BRYAN, "Bryan"
-	tr_mon LEVEL_FROM_BADGES - 1, PIDGEY
-	tr_mon LEVEL_FROM_BADGES + 1, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES - 1, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 1, RATTATA
 	end_trainer
 
 	def_trainer TRENT, "Trent"
-	tr_mon 33, PIDGEY
-	tr_mon 44, PIDGEOTTO
-	tr_mon 55, PIDGEOT
+	tr_mon 33, RATTATA
+	tr_mon 44, RATTATA
+	tr_mon 55, RATTATA
 	end_trainer
 
 
@@ -3468,7 +3468,7 @@ endc
 
 	def_trainer LAURA, "Laura"
 	tr_mon 52, GLOOM @ SITRUS_BERRY
-	tr_mon 54, PIDGEOTTO
+	tr_mon 54, RATTATA
 	tr_mon 54, BELLOSSOM
 	end_trainer
 
@@ -4016,7 +4016,7 @@ SchoolboyGroup:
 
 	def_trainer SHERMAN, "Sherman"
 	tr_mon 59, FURRET
-	tr_mon 61, PIDGEOT
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer SCHOOLBOY_CONNOR, "Connor"
@@ -4062,7 +4062,7 @@ SchoolgirlGroup:
 
 	def_trainer ISABEL, "Isabel"
 	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", SQUIRTLE
-	tr_mon LEVEL_FROM_BADGES + 0, PIDGEY
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 1, PIKACHU
 	end_trainer
 
@@ -4558,7 +4558,7 @@ RichBoyGroup:
 
 	def_trainer_class RICH_BOY
 	def_trainer WINSTON, "Winston"
-	tr_mon 46, PIDGEOT
+	tr_mon 46, RATTATA
 	tr_mon 44, FURRET
 	tr_mon 45, AMPHAROS
 	end_trainer
@@ -5644,7 +5644,7 @@ TeacherFGroup:
 
 	def_trainer KATHRYN, "Kathryn"
 	tr_mon LEVEL_FROM_BADGES + 5, BELLOSSOM
-	tr_mon LEVEL_FROM_BADGES + 3, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 2, FURRET
 	end_trainer
 
@@ -6090,7 +6090,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer RYAN, "Ryan"
-	tr_mon 35, PIDGEOT
+	tr_mon 35, RATTATA
 		tr_moves MUD_SLAP, QUICK_ATTACK, ROAR, AERIAL_ACE
 	tr_mon 37, ELECTABUZZ
 		tr_moves THUNDERPUNCH, LIGHT_SCREEN, SWIFT, SCREECH
@@ -6185,7 +6185,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer COOLTRAINERM_COREY, "Corey"
-	tr_mon 63, PIDGEOT @ QUICK_CLAW
+	tr_mon 63, RATTATA @ QUICK_CLAW
 		tr_evs 252 Atk, 132 Spe
 	tr_mon 62, RHYDON @ ROCKY_HELMET
 		tr_evs 252 HP, 132 Atk
@@ -6579,7 +6579,7 @@ VeteranFGroup:
 	def_trainer JOANNE, "Joanne"
 	tr_mon 41, VENUSAUR @ MIRACLE_SEED
 		tr_moves GROWTH, SLUDGE_BOMB, PETAL_DANCE, SLEEP_POWDER
-	tr_mon 38, PIDGEOT @ QUICK_CLAW
+	tr_mon 38, RATTATA @ QUICK_CLAW
 		tr_moves ROOST, FLY, SWIFT, ROAR
 	tr_mon 39, SCYTHER @ EVIOLITE
 		tr_moves SLASH, AERIAL_ACE, SWORDS_DANCE, PURSUIT
@@ -7268,7 +7268,7 @@ MarleyGroup:
 
 	def_trainer 2, "Marley"
 	tr_mon 60, ARCANINE
-	tr_mon 59, PIDGEOT
+	tr_mon 59, RATTATA
 	tr_mon 58, RAICHU
 	tr_mon 56, CROBAT
 	tr_mon 56, ELECTRODE
@@ -7277,7 +7277,7 @@ MarleyGroup:
 
 	def_trainer 3, "Marley"
 	tr_mon 75, ARCANINE
-	tr_mon 74, PIDGEOT
+	tr_mon 74, RATTATA
 	tr_mon 73, RAICHU
 	tr_mon 71, CROBAT
 	tr_mon 71, ELECTRODE
@@ -7753,7 +7753,7 @@ WalkerGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, NOCTOWL
 		tr_evs 184 Spe
 		tr_moves AERIAL_ACE, NIGHT_SHADE, REFLECT, EXTRASENSORY
-	tr_mon LEVEL_FROM_BADGES + 6, PIDGEOTTO
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 		tr_evs 184 SAt
 		tr_moves MUD_SLAP, ROOST, SWIFT, AIR_SLASH
 	tr_mon LEVEL_FROM_BADGES + 5, AERODACTYL
@@ -7769,7 +7769,7 @@ WalkerGroup:
 		tr_moves SCREECH, SPIKES, DRILL_PECK, NIGHT_SLASH
 	tr_mon 72, NOCTOWL @ SHARP_BEAK
 		tr_moves AIR_SLASH, PSYCHIC_M, SHADOW_BALL, REFLECT
-	tr_mon 74, PIDGEOT @ BRIGHTPOWDER
+	tr_mon 74, RATTATA @ BRIGHTPOWDER
 		tr_moves ROOST, EXTREMESPEED, HURRICANE, ROAR
 	tr_mon 73, AERODACTYL @ MUSCLE_BAND
 		tr_moves ROCK_SLIDE, CRUNCH, IRON_HEAD, FLY

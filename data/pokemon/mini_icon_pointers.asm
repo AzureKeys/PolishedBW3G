@@ -13,9 +13,6 @@ MiniIconPointers:
 	mini_icon Squirtle
 	mini_icon Wartortle
 	mini_icon Blastoise
-	mini_icon Pidgey
-	mini_icon Pidgeotto
-	mini_icon Pidgeot
 	mini_icon Rattata
 	mini_icon Raticate
 	mini_icon Spearow
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon MimeJr
 	mini_icon Happiny
 	mini_icon Munchlax
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Mantyke
 	mini_icon Weavile
 	mini_icon Magnezone
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Lickilicky
 	mini_icon Rhyperior
 	mini_icon Tangrowth

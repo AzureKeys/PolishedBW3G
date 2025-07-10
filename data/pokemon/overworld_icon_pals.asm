@@ -13,9 +13,6 @@ OverworldMonIconColors::
 	iconpal AZURE, TEAL ; SQUIRTLE
 	iconpal BLUE, TEAL ; WARTORTLE
 	iconpal BLUE, TEAL ; BLASTOISE
-	iconpal BROWN, RED ; PIDGEY
-	iconpal BROWN, RED ; PIDGEOTTO
-	iconpal BROWN, RED ; PIDGEOT
 	iconpal PURPLE, GRAY ; RATTATA
 	iconpal BROWN, RED ; RATICATE
 	iconpal BROWN, ORANGE ; SPEAROW
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; MIME_JR_
 	iconpal RED, PINK ; HAPPINY
 	iconpal TEAL, BLUE ; MUNCHLAX
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
 	iconpal GRAY, BROWN ; MAGNEZONE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal PINK, BROWN ; LICKILICKY
 	iconpal GRAY, RED ; RHYPERIOR
 	iconpal BLUE, GREEN ; TANGROWTH

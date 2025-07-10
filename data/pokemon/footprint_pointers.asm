@@ -9,9 +9,6 @@ FootprintPointers::
 	dw SquirtleFootprint
 	dw WartortleFootprint
 	dw BlastoiseFootprint
-	dw PidgeyFootprint
-	dw PidgeottoFootprint
-	dw PidgeotFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
 	dw SpearowFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw MimeJrFootprint
 	dw HappinyFootprint
 	dw MunchlaxFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw MantykeFootprint
 	dw WeavileFootprint
 	dw MagnezoneFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw LickilickyFootprint
 	dw RhyperiorFootprint
 	dw TangrowthFootprint

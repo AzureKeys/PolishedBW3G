@@ -35,19 +35,6 @@ SquirtleEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-PidgeyEggSpeciesMoves:
-	dp PIDGEY, PLAIN_FORM
-	db PECK
-	db FEINT_ATTACK
-	db FORESIGHT
-	db PURSUIT
-	db AIR_SLASH
-	db STEEL_WING
-	db CHARM
-	db EXTREMESPEED
-	db BRAVE_BIRD
-	db $ff
-
 RattataPlainEggSpeciesMoves:
 	dp RATTATA, PLAIN_FORM
 	db FURY_STRIKES
@@ -1233,6 +1220,7 @@ SnivyEggSpeciesMoves:
 	db $ff
 
 TepigEggSpeciesMoves:
+	dp TEPIG, PLAIN_FORM
 	db BODY_SLAM
 	db CURSE
 	db MAGNITUDE
@@ -1240,6 +1228,7 @@ TepigEggSpeciesMoves:
 	db $ff
 
 OshawottEggSpeciesMoves:
+	dp OSHAWOTT, PLAIN_FORM
 	db AIR_SLASH
 	db NIGHT_SLASH
 	db SCREECH

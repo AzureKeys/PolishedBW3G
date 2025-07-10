@@ -7,9 +7,6 @@ CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"
 SquirtleAnimation:   INCLUDE "gfx/pokemon/squirtle/anim.asm"
 WartortleAnimation:  INCLUDE "gfx/pokemon/wartortle/anim.asm"
 BlastoiseAnimation:  INCLUDE "gfx/pokemon/blastoise/anim.asm"
-PidgeyAnimation:     INCLUDE "gfx/pokemon/pidgey/anim.asm"
-PidgeottoAnimation:  INCLUDE "gfx/pokemon/pidgeotto/anim.asm"
-PidgeotAnimation:    INCLUDE "gfx/pokemon/pidgeot/anim.asm"
 SpearowAnimation:    INCLUDE "gfx/pokemon/spearow/anim.asm"
 FearowAnimation:     INCLUDE "gfx/pokemon/fearow/anim.asm"
 EkansAnimation:      INCLUDE "gfx/pokemon/ekans/anim.asm"
@@ -241,7 +238,6 @@ PigniteAnimation:    INCLUDE "gfx/pokemon/pignite/anim.asm"
 EmboarAnimation:     INCLUDE "gfx/pokemon/emboar/anim.asm"
 OshawottAnimation:   INCLUDE "gfx/pokemon/oshawott/anim.asm"
 DewottAnimation:     INCLUDE "gfx/pokemon/dewott/anim.asm"
-SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -442,3 +438,5 @@ TaurosPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"
 
 UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
 UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
+
+SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"

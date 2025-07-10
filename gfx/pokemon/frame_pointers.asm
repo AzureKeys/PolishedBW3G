@@ -9,9 +9,6 @@ FramesPointers:
 	dw SquirtleFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
-	dw PidgeyFrames
-	dw PidgeottoFrames
-	dw PidgeotFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
 	dw SpearowFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw MimeJrFrames
 	dw HappinyFrames
 	dw MunchlaxFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw MantykeFrames
 	dw WeavileFrames
 	dw MagnezoneFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw LickilickyFrames
 	dw RhyperiorFrames
 	dw TangrowthFrames

@@ -13,9 +13,6 @@ PokemonPicPointers::
 	pics Squirtle
 	pics Wartortle
 	pics Blastoise
-	pics Pidgey
-	pics Pidgeotto
-	pics Pidgeot
 	pics RattataPlain
 	pics RaticatePlain
 	pics Spearow
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics MimeJr
 	pics Happiny
 	pics Munchlax
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Mantyke
 	pics Weavile
 	pics Magnezone
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Lickilicky
 	pics Rhyperior
 	pics Tangrowth

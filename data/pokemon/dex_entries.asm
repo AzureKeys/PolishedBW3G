@@ -92,36 +92,6 @@ endc
 	next "from the jets on"
 	next "its back.@"
 
-SECTION "PidgeyPokedexEntry", ROMX
-PidgeyPokedexEntry::
-	db "Tiny Bird@"
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
-
-SECTION "PidgeottoPokedexEntry", ROMX
-PidgeottoPokedexEntry::
-	db "Bird@"
-	db   "It slowly flies in"
-	next "a circular pat-"
-	next "tern, all the"
-	page "while keeping a"
-	next "sharp lookout for"
-	next "prey.@"
-
-SECTION "PidgeotPokedexEntry", ROMX
-PidgeotPokedexEntry::
-	db "Bird@"
-	db   "This #mon flies"
-	next "at Mach 2 speed,"
-	next "seeking prey."
-	page "Its large talons"
-	next "are feared as"
-	next "wicked weapons.@"
-
 SECTION "RattataPlainPokedexEntry", ROMX
 RattataPlainPokedexEntry::
 	db "Rat@"

@@ -136,7 +136,6 @@ PigniteFrames:    INCLUDE "gfx/pokemon/pignite/frames.asm"
 EmboarFrames:     INCLUDE "gfx/pokemon/emboar/frames.asm"
 OshawottFrames:   INCLUDE "gfx/pokemon/oshawott/frames.asm"
 DewottFrames:     INCLUDE "gfx/pokemon/dewott/frames.asm"
-SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -195,3 +194,5 @@ WooperPaldeanFrames: INCLUDE "gfx/pokemon/wooper_paldean/frames.asm"
 
 UrsalunaPlainFrames:     INCLUDE "gfx/pokemon/ursaluna_plain/frames.asm"
 UrsalunaBloodmoonFrames: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/frames.asm"
+
+SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"

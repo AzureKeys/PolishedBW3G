@@ -9,9 +9,6 @@ AnimationPointers:
 	dw SquirtleAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
-	dw PidgeyAnimation
-	dw PidgeottoAnimation
-	dw PidgeotAnimation
 	dw RattataPlainAnimation
 	dw RaticatePlainAnimation
 	dw SpearowAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw MimeJrAnimation
 	dw HappinyAnimation
 	dw MunchlaxAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw MantykeAnimation
 	dw WeavileAnimation
 	dw MagnezoneAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw LickilickyAnimation
 	dw RhyperiorAnimation
 	dw TangrowthAnimation

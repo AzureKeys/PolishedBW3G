@@ -37,7 +37,7 @@
 	wildmon 12, NIDORAN_F
 	wildmon 12, YANMA
 	wildmon 14, YANMA
-	wildmon 14, PIDGEY
+	wildmon 14, RATTATA
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; day
@@ -45,7 +45,7 @@
 	wildmon 12, NIDORAN_F
 	wildmon 12, YANMA
 	wildmon 14, YANMA
-	wildmon 14, PIDGEY
+	wildmon 14, RATTATA
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; nite

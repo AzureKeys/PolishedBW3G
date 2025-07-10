@@ -311,21 +311,21 @@
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 56, PIDGEOTTO
+	wildmon 56, RATTATA
 	wildmon 56, RATICATE
 	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
+	wildmon 57, RATTATA
 	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
+	wildmon 60, RATTATA
+	wildmon 60, RATTATA
 	; day
-	wildmon 56, PIDGEOTTO
+	wildmon 56, RATTATA
 	wildmon 56, RATICATE
 	wildmon 57, FURRET
-	wildmon 57, PIDGEOTTO
+	wildmon 57, RATTATA
 	wildmon 59, FURRET
-	wildmon 60, PIDGEOT
-	wildmon 60, PIDGEOT
+	wildmon 60, RATTATA
+	wildmon 60, RATTATA
 	; nite
 	wildmon 56, NOCTOWL
 	wildmon 56, RATICATE
@@ -341,18 +341,18 @@
 	; morn
 	wildmon 55, RATTATA
 	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
+	wildmon 57, RATTATA
 	wildmon 57, RATTATA
 	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
+	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; day
 	wildmon 55, RATTATA
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
+	wildmon 54, RATTATA
 	wildmon 57, RATTATA
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
+	wildmon 57, RATTATA
+	wildmon 56, RATTATA
+	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; nite
 	wildmon 55, NOCTOWL
@@ -369,18 +369,18 @@
 	; morn
 	wildmon 55, RATTATA
 	wildmon 54, LEDIAN
-	wildmon 57, PIDGEOTTO
+	wildmon 57, RATTATA
 	wildmon 57, RATTATA
 	wildmon 56, LEDIAN
-	wildmon 58, PIDGEOTTO
+	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; day
 	wildmon 55, RATTATA
-	wildmon 54, PIDGEOTTO
-	wildmon 57, PIDGEOTTO
+	wildmon 54, RATTATA
 	wildmon 57, RATTATA
-	wildmon 56, PIDGEOTTO
-	wildmon 58, PIDGEOTTO
+	wildmon 57, RATTATA
+	wildmon 56, RATTATA
+	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; nite
 	wildmon 55, NOCTOWL
@@ -479,7 +479,7 @@
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 46, PIDGEOTTO
+	wildmon 46, RATTATA
 	wildmon 46, GRANBULL
 	wildmon 51, BELLSPROUT
 	wildmon 47, WEEPINBELL
@@ -487,7 +487,7 @@
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
 	; day
-	wildmon 46, PIDGEOTTO
+	wildmon 46, RATTATA
 	wildmon 46, GRANBULL
 	wildmon 51, BELLSPROUT
 	wildmon 47, WEEPINBELL
@@ -563,7 +563,7 @@
 	def_grass_wildmons ROUTE_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, PIDGEOTTO
+	wildmon 48, RATTATA
 	wildmon 51, ARBOK, ARBOK_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
@@ -571,7 +571,7 @@
 	wildmon 50, KADABRA
 	wildmon 50, KADABRA
 	; day
-	wildmon 48, PIDGEOTTO
+	wildmon 48, RATTATA
 	wildmon 51, ARBOK, ARBOK_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
@@ -650,7 +650,7 @@
 	wildmon 53, SKIPLOOM
 	wildmon 48, RATICATE
 	wildmon 50, MAGNETON
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 51, SANDSLASH
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
@@ -658,7 +658,7 @@
 	wildmon 53, SKIPLOOM
 	wildmon 48, RATICATE
 	wildmon 50, MAGNETON
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 51, SANDSLASH
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
@@ -677,7 +677,7 @@
 	; morn
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 50, PIDGEOTTO
+	wildmon 50, RATTATA
 	wildmon 51, WEEPINBELL
 	wildmon 53, WEEPINBELL
 	wildmon 52, FARFETCH_D
@@ -685,7 +685,7 @@
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 50, PIDGEOTTO
+	wildmon 50, RATTATA
 	wildmon 51, WEEPINBELL
 	wildmon 53, WEEPINBELL
 	wildmon 52, FARFETCH_D
@@ -705,7 +705,7 @@
 	; morn
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 52, WEEPINBELL
 	wildmon 54, WEEPINBELL
 	wildmon 53, SUNFLORA
@@ -713,7 +713,7 @@
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 52, WEEPINBELL
 	wildmon 54, WEEPINBELL
 	wildmon 53, SUNFLORA
@@ -733,7 +733,7 @@
 	; morn
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 53, PIDGEOTTO
+	wildmon 53, RATTATA
 	wildmon 51, WEEPINBELL
 	wildmon 56, WEEPINBELL
 	wildmon 54, SUNFLORA
@@ -741,7 +741,7 @@
 	; day
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 53, PIDGEOTTO
+	wildmon 53, RATTATA
 	wildmon 51, WEEPINBELL
 	wildmon 56, WEEPINBELL
 	wildmon 54, SUNFLORA
@@ -789,7 +789,7 @@
 	; morn
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 54, PIDGEOTTO
+	wildmon 54, RATTATA
 	wildmon 54, WEEPINBELL
 	wildmon 57, WEEPINBELL
 	wildmon 55, SUNFLORA
@@ -797,7 +797,7 @@
 	; day
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
-	wildmon 54, PIDGEOTTO
+	wildmon 54, RATTATA
 	wildmon 54, WEEPINBELL
 	wildmon 57, WEEPINBELL
 	wildmon 55, SUNFLORA
@@ -1041,17 +1041,17 @@
 	; morn
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, RATTATA
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; day
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, RATTATA
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; nite
@@ -1069,17 +1069,17 @@
 	; morn
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, RATTATA
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; day
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, RATTATA
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; nite
@@ -1181,17 +1181,17 @@
 	; morn
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, RATTATA
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; day
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, PIDGEOTTO
+	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
-	wildmon 49, PIDGEOTTO
+	wildmon 49, RATTATA
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; nite

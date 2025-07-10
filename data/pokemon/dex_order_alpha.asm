@@ -183,9 +183,6 @@ AlphabeticalPokedexOrder:
 	dp PERSIAN
 	dp PHANPY
 	dp PICHU
-	dp PIDGEOT
-	dp PIDGEOTTO
-	dp PIDGEY
 	dp PIGNITE
 	dp PIKACHU
 	dp PILOSWINE

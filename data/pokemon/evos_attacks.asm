@@ -248,56 +248,6 @@ if !DEF(FAITHFUL)
 	learnset 75, IRON_HEAD ; TM move
 endc
 
-	evos_attacks Pidgey
-	evo_data EVOLVE_LEVEL, 18, PIDGEOTTO
-	learnset 1, TACKLE
-	learnset 5, GUST ; Sand Attack → Gust
-	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
-	learnset 17, RAGE ; Whirlwind → RBY TM move
-	learnset 21, CHARM ; Twister → egg move
-	learnset 25, SWIFT ; Feather Dance → TM move
-	learnset 29, AGILITY
-	learnset 33, WING_ATTACK
-	learnset 37, ROOST
-	learnset 41, DRILL_PECK ; Tailwind → new move
-	learnset 45, STEEL_WING ; Mirror Move → TM move
-	learnset 49, AIR_SLASH
-	learnset 53, HURRICANE
-
-	evos_attacks Pidgeotto
-	evo_data EVOLVE_LEVEL, 36, PIDGEOT
-	learnset 1, TACKLE
-	learnset 5, GUST ; Sand Attack → Gust
-	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
-	learnset 17, RAGE ; Whirlwind → RBY TM move
-	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
-	learnset 32, AGILITY
-	learnset 37, WING_ATTACK
-	learnset 42, ROOST
-	learnset 47, DRILL_PECK ; Tailwind → new move
-	learnset 52, STEEL_WING ; Mirror Move → TM move
-	learnset 57, AIR_SLASH
-	learnset 62, HURRICANE
-
-	evos_attacks Pidgeot
-	learnset 1, TACKLE
-	learnset 5, MUD_SLAP ; Sand Attack → similar move
-	learnset 9, GUST
-	learnset 13, QUICK_ATTACK
-	learnset 17, RAGE ; Whirlwind → RBY TM move
-	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
-	learnset 32, AGILITY
-	learnset 38, WING_ATTACK
-	learnset 44, ROOST
-	learnset 50, DRILL_PECK ; Tailwind → new move
-	learnset 56, STEEL_WING ; Mirror Move → TM move
-	learnset 62, AIR_SLASH
-	learnset 68, HURRICANE
-
 	evos_attacks RattataPlain
 	evo_data EVOLVE_LEVEL, 20, RATICATE
 	learnset 1, TACKLE

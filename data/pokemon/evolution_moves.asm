@@ -9,9 +9,6 @@ EvolutionMoves::
 	db NO_MOVE      ; SQUIRTLE
 	db NO_MOVE      ; WARTORTLE
 	db FLASH_CANNON ; BLASTOISE
-	db NO_MOVE      ; PIDGEY
-	db NO_MOVE      ; PIDGEOTTO
-	db NO_MOVE      ; PIDGEOT
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; SPEAROW
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; MIME_JR_
 	db NO_MOVE      ; HAPPINY
 	db NO_MOVE      ; MUNCHLAX
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; WEAVILE
 	db TRI_ATTACK   ; MAGNEZONE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; LICKILICKY
 	db OUTRAGE      ; RHYPERIOR
 	db NO_MOVE      ; TANGROWTH

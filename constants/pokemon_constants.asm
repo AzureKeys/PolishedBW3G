@@ -33,9 +33,6 @@
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
-	const PIDGEY     ; 10
-	const PIDGEOTTO  ; 11
-	const PIDGEOT    ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14
 	const SPEAROW    ; 15
@@ -278,11 +275,11 @@
 	const MIME_JR_   ; 104
 	const HAPPINY    ; 105
 	const MUNCHLAX   ; 106
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const MANTYKE    ; 107
 	const WEAVILE    ; 108
 	const MAGNEZONE  ; 109
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const LICKILICKY ; 10a
 	const RHYPERIOR  ; 10b
 	const TANGROWTH  ; 10c

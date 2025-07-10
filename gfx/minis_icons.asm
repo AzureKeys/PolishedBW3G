@@ -46,21 +46,6 @@ BlastoiseMini::     INCBIN "gfx/minis/blastoise.2bpp.lz"
 BlastoiseMiniMask:: INCBIN "gfx/minis/blastoise_mask.1bpp.lz"
 BlastoiseIcon::     INCBIN "gfx/icons/blastoise.2bpp.lz"
 
-SECTION "Pidgey Mini Icon", ROMX
-PidgeyMini::     INCBIN "gfx/minis/pidgey.2bpp.lz"
-PidgeyMiniMask:: INCBIN "gfx/minis/pidgey_mask.1bpp.lz"
-PidgeyIcon::     INCBIN "gfx/icons/pidgey.2bpp.lz"
-
-SECTION "Pidgeotto Mini Icon", ROMX
-PidgeottoMini::     INCBIN "gfx/minis/pidgeotto.2bpp.lz"
-PidgeottoMiniMask:: INCBIN "gfx/minis/pidgeotto_mask.1bpp.lz"
-PidgeottoIcon::     INCBIN "gfx/icons/pidgeotto.2bpp.lz"
-
-SECTION "Pidgeot Mini Icon", ROMX
-PidgeotMini::     INCBIN "gfx/minis/pidgeot.2bpp.lz"
-PidgeotMiniMask:: INCBIN "gfx/minis/pidgeot_mask.1bpp.lz"
-PidgeotIcon::     INCBIN "gfx/icons/pidgeot.2bpp.lz"
-
 SECTION "Rattata Mini Icon", ROMX
 RattataMini::     INCBIN "gfx/minis/rattata.2bpp.lz"
 RattataMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"

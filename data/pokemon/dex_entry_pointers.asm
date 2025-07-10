@@ -10,9 +10,6 @@ PokedexDataPointerTable:
 	dba SquirtlePokedexEntry
 	dba WartortlePokedexEntry
 	dba BlastoisePokedexEntry
-	dba PidgeyPokedexEntry
-	dba PidgeottoPokedexEntry
-	dba PidgeotPokedexEntry
 	dba RattataPlainPokedexEntry
 	dba RaticatePlainPokedexEntry
 	dba SpearowPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba MimeJrPokedexEntry
 	dba HappinyPokedexEntry
 	dba MunchlaxPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba MantykePokedexEntry
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba LickilickyPokedexEntry
 	dba RhyperiorPokedexEntry
 	dba TangrowthPokedexEntry

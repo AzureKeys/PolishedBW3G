@@ -16,9 +16,6 @@ PokemonBodyData:
 	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; SQUIRTLE
 	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; WARTORTLE
 	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; BLASTOISE
-	body_data   3,   18, WINGS,        BROWN  ; PIDGEY
-	body_data  11,  300, WINGS,        BROWN  ; PIDGEOTTO
-	body_data  15,  395, WINGS,        BROWN  ; PIDGEOT
 	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
 	body_data   3,   20, WINGS,        BROWN  ; SPEAROW
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   6,  130, BIPEDAL,      PINK   ; MIME_JR_
 	body_data   6,  244, BIPEDAL,      PINK   ; HAPPINY
 	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
 	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  17, 1400, BIPEDAL,      PINK   ; LICKILICKY
 	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; RHYPERIOR
 	body_data  20, 1286, BIPEDAL,      BLUE   ; TANGROWTH

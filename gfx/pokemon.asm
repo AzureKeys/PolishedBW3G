@@ -44,18 +44,6 @@ SECTION "Blastoise Pics", ROMX
 BlastoiseFrontpic: INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
 BlastoiseBackpic:  INCBIN "gfx/pokemon/blastoise/back.2bpp.lz"
 
-SECTION "Pidgey Pics", ROMX
-PidgeyFrontpic: INCBIN "gfx/pokemon/pidgey/front.animated.2bpp.lz"
-PidgeyBackpic:  INCBIN "gfx/pokemon/pidgey/back.2bpp.lz"
-
-SECTION "Pidgeotto Pics", ROMX
-PidgeottoFrontpic: INCBIN "gfx/pokemon/pidgeotto/front.animated.2bpp.lz"
-PidgeottoBackpic:  INCBIN "gfx/pokemon/pidgeotto/back.2bpp.lz"
-
-SECTION "Pidgeot Pics", ROMX
-PidgeotFrontpic: INCBIN "gfx/pokemon/pidgeot/front.animated.2bpp.lz"
-PidgeotBackpic:  INCBIN "gfx/pokemon/pidgeot/back.2bpp.lz"
-
 SECTION "Marill Pics", ROMX
 MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
 MarillBackpic:  INCBIN "gfx/pokemon/marill/back.2bpp.lz"

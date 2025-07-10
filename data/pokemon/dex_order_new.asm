@@ -20,9 +20,6 @@ NewPokedexOrder:
 	dp TOTODILE
 	dp CROCONAW
 	dp FERALIGATR
-	dp PIDGEY
-	dp PIDGEOTTO
-	dp PIDGEOT
 	dp SPEAROW
 	dp FEAROW
 	dp HOOTHOOT
