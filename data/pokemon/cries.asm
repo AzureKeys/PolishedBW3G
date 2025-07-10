@@ -302,4 +302,6 @@ PokemonCries::
 	mon_cry CRY_REMORAID,   -$077,  $0e0 ; Lillipup
 	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*
+	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
+	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
 	assert_table_length NUM_SPECIES

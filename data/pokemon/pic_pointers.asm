@@ -300,6 +300,8 @@ PokemonPicPointers::
 	pics Lillipup
 	pics Herdier
 	pics Stoutland
+	pics Purrloin
+	pics Liepard
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

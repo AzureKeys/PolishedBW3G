@@ -1255,5 +1255,12 @@ LillipupEggSpeciesMoves:
 	;db THUNDER_FANG
 	db $ff
 
+PurrloinEggSpeciesMoves:
+	dp PURRLOIN, PLAIN_FORM
+	db CHARM
+	db ENCORE
+	db FEINT_ATTACK
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

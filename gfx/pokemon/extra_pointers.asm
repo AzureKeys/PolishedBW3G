@@ -296,6 +296,8 @@ AnimationExtraPointers:
 	dw LillipupAnimationExtra
 	dw HerdierAnimationExtra
 	dw StoutlandAnimationExtra
+	dw PurrloinAnimationExtra
+	dw LiepardAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

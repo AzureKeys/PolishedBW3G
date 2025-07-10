@@ -296,6 +296,8 @@ FramesPointers:
 	dw LillipupFrames
 	dw HerdierFrames
 	dw StoutlandFrames
+	dw PurrloinFrames
+	dw LiepardFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

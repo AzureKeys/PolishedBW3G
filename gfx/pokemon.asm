@@ -1576,3 +1576,11 @@ HerdierBackpic:  INCBIN "gfx/pokemon/herdier/back.2bpp.lz"
 SECTION "Stoutland Pics", ROMX
 StoutlandFrontpic: INCBIN "gfx/pokemon/stoutland/front.animated.2bpp.lz"
 StoutlandBackpic:  INCBIN "gfx/pokemon/stoutland/back.2bpp.lz"
+
+SECTION "Purrloin Pics", ROMX
+PurrloinFrontpic: INCBIN "gfx/pokemon/purrloin/front.animated.2bpp.lz"
+PurrloinBackpic:  INCBIN "gfx/pokemon/purrloin/back.2bpp.lz"
+
+SECTION "Liepard Pics", ROMX
+LiepardFrontpic: INCBIN "gfx/pokemon/liepard/front.animated.2bpp.lz"
+LiepardBackpic:  INCBIN "gfx/pokemon/liepard/back.2bpp.lz"

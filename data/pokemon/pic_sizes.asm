@@ -314,6 +314,8 @@ INCLUDE "gfx/pokemon/watchog/front.dimensions"
 INCLUDE "gfx/pokemon/lillipup/front.dimensions"
 INCLUDE "gfx/pokemon/herdier/front.dimensions"
 INCLUDE "gfx/pokemon/stoutland/front.dimensions"
+INCLUDE "gfx/pokemon/purrloin/front.dimensions"
+INCLUDE "gfx/pokemon/liepard/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

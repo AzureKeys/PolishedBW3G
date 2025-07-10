@@ -32,6 +32,8 @@ WatchogFootprint::
 LillipupFootprint::
 HerdierFootprint::
 StoutlandFootprint::
+PurrloinFootprint::
+LiepardFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

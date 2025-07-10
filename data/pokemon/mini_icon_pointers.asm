@@ -300,6 +300,8 @@ MiniIconPointers:
 	mini_icon Lillipup
 	mini_icon Herdier
 	mini_icon Stoutland
+	mini_icon Purrloin
+	mini_icon Liepard
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

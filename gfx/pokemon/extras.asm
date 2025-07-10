@@ -243,6 +243,8 @@ WatchogAnimationExtra:    INCLUDE "gfx/pokemon/watchog/anim_idle.asm"
 LillipupAnimationExtra:   INCLUDE "gfx/pokemon/lillipup/anim_idle.asm"
 HerdierAnimationExtra:    INCLUDE "gfx/pokemon/herdier/anim_idle.asm"
 StoutlandAnimationExtra:  INCLUDE "gfx/pokemon/stoutland/anim_idle.asm"
+PurrloinAnimationExtra:   INCLUDE "gfx/pokemon/purrloin/anim_idle.asm"
+LiepardAnimationExtra:    INCLUDE "gfx/pokemon/liepard/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

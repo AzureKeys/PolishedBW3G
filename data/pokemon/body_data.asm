@@ -303,6 +303,8 @@ PokemonBodyData:
 	body_data   4,   41, QUADRUPED,    BROWN  ; LILLIPUP
 	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
 	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
+	body_data   4,  101, QUADRUPED,    PURPLE ; PURRLOIN
+	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

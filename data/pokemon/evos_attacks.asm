@@ -6096,6 +6096,48 @@ endc
 	; Skipped Last Resort
 	learnset 51, GIGA_IMPACT
 	learnset 59, PLAY_ROUGH
+	
+	evos_attacks Purrloin
+	evo_data EVOLVE_LEVEL, 20, LIEPARD
+	learnset 1, SCRATCH
+	learnset 3, GROWL
+	learnset 6, LEER ; Assist
+	learnset 10, MUD_SLAP ; Sand-Attack
+	learnset 12, FURY_STRIKES ; Fury Swipes
+	learnset 15, PURSUIT
+	learnset 19, SWAGGER ; Torment
+	learnset 21, THIEF ; Fake Out
+	learnset 24, HONE_CLAWS
+	learnset 28, FEINT_ATTACK ; Assurance
+	learnset 30, SLASH
+	learnset 33, CHARM ; Captivate
+	learnset 37, NIGHT_SLASH
+	learnset 39, DARK_PULSE ; Snatch
+	learnset 42, NASTY_PLOT
+	learnset 46, SUCKER_PUNCH
+	learnset 49, PLAY_ROUGH
+	
+	evos_attacks Liepard
+	learnset 1, SCRATCH
+	learnset 1, GROWL
+	learnset 1, LEER ; Assist
+	learnset 1, MUD_SLAP ; Sand-Attack
+	learnset 3, GROWL
+	learnset 6, LEER ; Assist
+	learnset 10, MUD_SLAP ; Sand-Attack
+	learnset 12, FURY_STRIKES ; Fury Swipes
+	learnset 15, PURSUIT
+	learnset 19, SWAGGER ; Torment
+	learnset 22, THIEF ; Fake Out
+	learnset 26, HONE_CLAWS
+	learnset 31, FEINT_ATTACK ; Assurance
+	learnset 34, SLASH
+	learnset 38, CHARM ; Captivate
+	learnset 43, NIGHT_SLASH
+	learnset 47, DARK_PULSE ; Snatch
+	learnset 50, NASTY_PLOT
+	learnset 55, SUCKER_PUNCH
+	learnset 58, PLAY_ROUGH
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

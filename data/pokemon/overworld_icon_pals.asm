@@ -300,6 +300,8 @@ OverworldMonIconColors::
 	iconpal BROWN, GRAY ; LILLIPUP
 	iconpal BLUE, GRAY ; HERDIER
 	iconpal BLUE, GREEN ; STOUTLAND
+	iconpal PURPLE, BLUE ; PURRLOIN
+	iconpal PURPLE, RED ; LIEPARD
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

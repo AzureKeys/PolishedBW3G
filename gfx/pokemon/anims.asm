@@ -243,6 +243,8 @@ WatchogAnimation:    INCLUDE "gfx/pokemon/watchog/anim.asm"
 LillipupAnimation:   INCLUDE "gfx/pokemon/lillipup/anim.asm"
 HerdierAnimation:    INCLUDE "gfx/pokemon/herdier/anim.asm"
 StoutlandAnimation:  INCLUDE "gfx/pokemon/stoutland/anim.asm"
+PurrloinAnimation:   INCLUDE "gfx/pokemon/purrloin/anim.asm"
+LiepardAnimation:    INCLUDE "gfx/pokemon/liepard/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

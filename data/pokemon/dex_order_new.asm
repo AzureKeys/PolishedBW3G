@@ -16,6 +16,8 @@ NewPokedexOrder:
 	dp LILLIPUP
 	dp HERDIER
 	dp STOUTLAND
+	dp PURRLOIN
+	dp LIEPARD
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

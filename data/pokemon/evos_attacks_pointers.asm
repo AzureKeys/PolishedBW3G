@@ -300,6 +300,8 @@ EvosAttacksPointers::
 	dw LillipupEvosAttacks
 	dw HerdierEvosAttacks
 	dw StoutlandEvosAttacks
+	dw PurrloinEvosAttacks
+	dw LiepardEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

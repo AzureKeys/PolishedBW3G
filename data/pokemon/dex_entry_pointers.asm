@@ -297,6 +297,8 @@ PokedexDataPointerTable:
 	dba LillipupPokedexEntry
 	dba HerdierPokedexEntry
 	dba StoutlandPokedexEntry
+	dba PurrloinPokedexEntry
+	dba LiepardPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -1482,6 +1482,16 @@ StoutlandMini::     INCBIN "gfx/minis/stoutland.2bpp.lz"
 StoutlandMiniMask:: INCBIN "gfx/minis/stoutland_mask.1bpp.lz"
 StoutlandIcon::     INCBIN "gfx/icons/stoutland.2bpp.lz"
 
+SECTION "Purrloin Mini Icon", ROMX
+PurrloinMini::     INCBIN "gfx/minis/purrloin.2bpp.lz"
+PurrloinMiniMask:: INCBIN "gfx/minis/purrloin_mask.1bpp.lz"
+PurrloinIcon::     INCBIN "gfx/icons/purrloin.2bpp.lz"
+
+SECTION "Liepard Mini Icon", ROMX
+LiepardMini::     INCBIN "gfx/minis/liepard.2bpp.lz"
+LiepardMiniMask:: INCBIN "gfx/minis/liepard_mask.1bpp.lz"
+LiepardIcon::     INCBIN "gfx/icons/liepard.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

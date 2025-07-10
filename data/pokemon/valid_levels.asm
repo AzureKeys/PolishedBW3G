@@ -301,4 +301,6 @@ endc
 	db   1,  15 ; Lillipup
 	db  16,  31 ; Herdier
 	db  32, 100 ; Stoutland
+	db   1,  19 ; Purrloin
+	db  20, 100 ; Liepard
 	assert_table_length NUM_SPECIES

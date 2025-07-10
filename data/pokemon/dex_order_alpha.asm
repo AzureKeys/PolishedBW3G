@@ -129,6 +129,7 @@ AlphabeticalPokedexOrder:
 	dp LEDYBA
 	dp LICKILICKY
 	dp LICKITUNG
+	dp LIEPARD
 	dp LILLIPUP
 	dp LUGIA
 	dp MACHAMP
@@ -202,6 +203,7 @@ AlphabeticalPokedexOrder:
 	dp PRIMEAPE
 	dp PSYDUCK
 	dp PUPITAR
+	dp PURRLOIN
 	dp QUAGSIRE
 	dp QUILAVA
 	dp QWILFISH

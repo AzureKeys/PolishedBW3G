@@ -2942,6 +2942,25 @@ StoutlandPokedexEntry::
 	next "protects it from"
 	next "the cold.@"
 
+SECTION "PurrloinPokedexEntry", ROMX
+PurrloinPokedexEntry::
+	db "Devious@"
+	db "They steal from"
+	next "people for fun."
+	next "Their deceptive"
+	page "and cute act"
+	next "is perfect.@"
+
+SECTION "LiepardPokedexEntry", ROMX
+LiepardPokedexEntry::
+	db "Cruel@"
+	db "These #MON"
+	next "vanish and appear"
+	next "unexpectedly."
+	page "Trainers are"
+	next "drawn to their"
+	next "beautiful form.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

@@ -296,6 +296,8 @@ EggSpeciesMovesPointers::
 	dw LillipupEggSpeciesMoves          ; Lillipup
 	dw LillipupEggSpeciesMoves          ; Herdier
 	dw LillipupEggSpeciesMoves          ; Stoutland
+	dw PurrloinEggSpeciesMoves          ; Purrloin
+	dw PurrloinEggSpeciesMoves          ; Liepard
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

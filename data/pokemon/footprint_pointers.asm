@@ -296,6 +296,8 @@ FootprintPointers::
 	dw LillipupFootprint
 	dw HerdierFootprint
 	dw StoutlandFootprint
+	dw PurrloinFootprint
+	dw LiepardFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
