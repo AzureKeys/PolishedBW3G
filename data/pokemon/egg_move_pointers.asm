@@ -33,8 +33,6 @@ EggSpeciesMovesPointers::
 	dw ZubatEggSpeciesMoves             ; Golbat
 	dw ParasEggSpeciesMoves             ; Paras
 	dw ParasEggSpeciesMoves             ; Parasect
-	dw VenonatEggSpeciesMoves           ; Venonat
-	dw VenonatEggSpeciesMoves           ; Venomoth
 	dw DiglettPlainEggSpeciesMoves      ; Diglett
 	dw DiglettPlainEggSpeciesMoves      ; Dugtrio
 	dw MeowthPlainEggSpeciesMoves       ; Meowth
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw TangelaEggSpeciesMoves           ; Tangrowth
 	dw ElekidEggSpeciesMoves            ; Electivire
 	dw MagbyEggSpeciesMoves             ; Magmortar
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TogepiEggSpeciesMoves            ; Togekiss
 	dw YanmaEggSpeciesMoves             ; Yanmega
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw EeveeEggSpeciesMoves             ; Leafeon
 	dw EeveeEggSpeciesMoves             ; Glaceon
 	dw GligarEggSpeciesMoves            ; Gliscor

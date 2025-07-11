@@ -37,8 +37,6 @@ PokemonPicPointers::
 	pics Golbat
 	pics Paras
 	pics Parasect
-	pics Venonat
-	pics Venomoth
 	pics DiglettPlain
 	pics DugtrioPlain
 	pics MeowthPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Tangrowth
 	pics Electivire
 	pics Magmortar
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Togekiss
 	pics Yanmega
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Leafeon
 	pics Glaceon
 	pics Gliscor

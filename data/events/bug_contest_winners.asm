@@ -39,9 +39,9 @@ BugContestant_CooltrainerMNick:
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	contest_winner VENOMOTH,   332
+	contest_winner RATTATA,   332
 	contest_winner RATTATA, 324
-	contest_winner VENONAT,    321
+	contest_winner RATTATA,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BENNY
@@ -52,7 +52,7 @@ BugContestant_BugCatcherBenny:
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	contest_winner PINSIR,     366
-	contest_winner VENONAT,    329
+	contest_winner RATTATA,    329
 	contest_winner RATTATA,     314
 
 BugContestant_PicnickerCindy:
@@ -75,6 +75,6 @@ BugContestant_SchoolboyJohnny:
 
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
-	contest_winner VENONAT,    267
+	contest_winner RATTATA,    267
 	contest_winner PARAS,      254
 	contest_winner RATTATA,     259

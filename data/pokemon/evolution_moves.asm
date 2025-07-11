@@ -33,8 +33,6 @@ EvolutionMoves::
 	db NO_MOVE      ; GOLBAT
 	db NO_MOVE      ; PARAS
 	db SHADOW_CLAW  ; PARASECT
-	db NO_MOVE      ; VENONAT
-	db GUST         ; VENOMOTH
 	db NO_MOVE      ; DIGLETT
 	db TRI_ATTACK   ; DUGTRIO
 	db NO_MOVE      ; MEOWTH
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; TANGROWTH
 	db CLOSE_COMBAT ; ELECTIVIRE
 	db FLASH_CANNON ; MAGMORTAR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db DISARM_VOICE ; TOGEKISS
 	db DRAGONBREATH ; YANMEGA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db RAZOR_LEAF   ; LEAFEON
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR

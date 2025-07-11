@@ -1,6 +1,5 @@
 Footprints:: ; needed for BANK(Footprints)
 
-VenomothFootprint::
 KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
@@ -121,7 +120,6 @@ WigglytuffFootprint:: INCBIN "gfx/footprints/wigglytuff.1bpp.lz"
 GolbatFootprint:: INCBIN "gfx/footprints/golbat.1bpp.lz"
 ParasFootprint:: INCBIN "gfx/footprints/paras.1bpp.lz"
 ParasectFootprint:: INCBIN "gfx/footprints/parasect.1bpp.lz"
-VenonatFootprint:: INCBIN "gfx/footprints/venonat.1bpp.lz"
 MeowthFootprint:: INCBIN "gfx/footprints/meowth.1bpp.lz"
 PersianFootprint:: INCBIN "gfx/footprints/persian.1bpp.lz"
 PsyduckFootprint:: INCBIN "gfx/footprints/psyduck.1bpp.lz"

@@ -37,8 +37,6 @@ MiniIconPointers:
 	mini_icon Golbat
 	mini_icon Paras
 	mini_icon Parasect
-	mini_icon Venonat
-	mini_icon Venomoth
 	mini_icon Diglett
 	mini_icon Dugtrio
 	mini_icon Meowth
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Tangrowth
 	mini_icon Electivire
 	mini_icon Magmortar
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Togekiss
 	mini_icon Yanmega
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Leafeon
 	mini_icon Glaceon
 	mini_icon Gliscor

@@ -34,8 +34,6 @@ PokedexDataPointerTable:
 	dba GolbatPokedexEntry
 	dba ParasPokedexEntry
 	dba ParasectPokedexEntry
-	dba VenonatPokedexEntry
-	dba VenomothPokedexEntry
 	dba DiglettPlainPokedexEntry
 	dba DugtrioPlainPokedexEntry
 	dba MeowthPlainPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba TangrowthPokedexEntry
 	dba ElectivirePokedexEntry
 	dba MagmortarPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba TogekissPokedexEntry
 	dba YanmegaPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba LeafeonPokedexEntry
 	dba GlaceonPokedexEntry
 	dba GliscorPokedexEntry

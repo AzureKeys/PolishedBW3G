@@ -150,15 +150,6 @@ ParasEggSpeciesMoves:
 	db SHADOW_CLAW
 	db $ff
 
-VenonatEggSpeciesMoves:
-	dp VENONAT, PLAIN_FORM
-	db AGILITY
-	db BATON_PASS
-	db HEALINGLIGHT
-	db SCREECH
-	db TOXIC_SPIKES
-	db $ff
-
 DiglettPlainEggSpeciesMoves:
 	dp DIGLETT, PLAIN_FORM
 	db ANCIENTPOWER

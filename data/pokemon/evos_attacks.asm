@@ -724,42 +724,6 @@ endc
 	learnset 59, HEALINGLIGHT ; Rage Powder → new move
 	learnset 66, X_SCISSOR
 
-	evos_attacks Venonat
-	evo_data EVOLVE_LEVEL, 31, VENOMOTH
-	learnset 1, TACKLE
-	learnset 1, DISABLE
-	learnset 1, FORESIGHT
-	learnset 5, SUPERSONIC
-	learnset 11, CONFUSION
-	learnset 13, POISONPOWDER
-	learnset 17, PSYBEAM
-	learnset 23, BUG_BITE ; Stun Spore → HGSS tutor move
-	learnset 25, STUN_SPORE ; Signal Beam → Stun Spore
-	learnset 29, SLEEP_POWDER
-	learnset 35, LEECH_LIFE
-	learnset 37, ZEN_HEADBUTT
-	learnset 41, BATON_PASS ; Poison Fang → egg move
-	learnset 47, PSYCHIC_M
-
-	evos_attacks Venomoth
-	learnset 1, BUG_BUZZ
-	learnset 1, TACKLE
-	learnset 1, DISABLE
-	learnset 1, FORESIGHT
-	learnset 5, SUPERSONIC
-	learnset 11, CONFUSION
-	learnset 13, POISONPOWDER
-	learnset 17, PSYBEAM
-	learnset 23, BUG_BITE ; Stun Spore → HGSS tutor move
-	learnset 25, STUN_SPORE ; Signal Beam → Stun Spore
-	learnset 29, SLEEP_POWDER
-	learnset 31, GUST
-	learnset 37, LEECH_LIFE
-	learnset 41, ZEN_HEADBUTT
-	learnset 47, BATON_PASS ; Poison Fang → egg move
-	learnset 55, PSYCHIC_M
-	learnset 59, BUG_BUZZ
-
 	evos_attacks DiglettPlain
 	evo_data EVOLVE_LEVEL, 26, DUGTRIO, PLAIN_FORM
 	learnset 1, MUD_SLAP ; Sand Attack → Mud-Slap

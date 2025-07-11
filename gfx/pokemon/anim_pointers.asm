@@ -33,8 +33,6 @@ AnimationPointers:
 	dw GolbatAnimation
 	dw ParasAnimation
 	dw ParasectAnimation
-	dw VenonatAnimation
-	dw VenomothAnimation
 	dw DiglettPlainAnimation
 	dw DugtrioPlainAnimation
 	dw MeowthPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw TangrowthAnimation
 	dw ElectivireAnimation
 	dw MagmortarAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw TogekissAnimation
 	dw YanmegaAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw LeafeonAnimation
 	dw GlaceonAnimation
 	dw GliscorAnimation

@@ -16,7 +16,6 @@ AsleepTreeMons:
 
 .Morn
 .Day
-	dp VENONAT
 	dp HOOTHOOT
 	dp NOCTOWL
 	dp SPINARAK

@@ -172,16 +172,6 @@ ParasectMini::     INCBIN "gfx/minis/parasect.2bpp.lz"
 ParasectMiniMask:: INCBIN "gfx/minis/parasect_mask.1bpp.lz"
 ParasectIcon::     INCBIN "gfx/icons/parasect.2bpp.lz"
 
-SECTION "Venonat Mini Icon", ROMX
-VenonatMini::     INCBIN "gfx/minis/venonat.2bpp.lz"
-VenonatMiniMask:: INCBIN "gfx/minis/venonat_mask.1bpp.lz"
-VenonatIcon::     INCBIN "gfx/icons/venonat.2bpp.lz"
-
-SECTION "Venomoth Mini Icon", ROMX
-VenomothMini::     INCBIN "gfx/minis/venomoth.2bpp.lz"
-VenomothMiniMask:: INCBIN "gfx/minis/venomoth_mask.1bpp.lz"
-VenomothIcon::     INCBIN "gfx/icons/venomoth.2bpp.lz"
-
 SECTION "Diglett Mini Icon", ROMX
 DiglettMini::     INCBIN "gfx/minis/diglett.2bpp.lz"
 DiglettMiniMask:: INCBIN "gfx/minis/diglett_mask.1bpp.lz"

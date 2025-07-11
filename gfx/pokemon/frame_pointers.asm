@@ -33,8 +33,6 @@ FramesPointers:
 	dw GolbatFrames
 	dw ParasFrames
 	dw ParasectFrames
-	dw VenonatFrames
-	dw VenomothFrames
 	dw DiglettPlainFrames
 	dw DugtrioPlainFrames
 	dw MeowthPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw TangrowthFrames
 	dw ElectivireFrames
 	dw MagmortarFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw TogekissFrames
 	dw YanmegaFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw LeafeonFrames
 	dw GlaceonFrames
 	dw GliscorFrames

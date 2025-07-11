@@ -332,26 +332,6 @@ ParasectPokedexEntry::
 	next "back leave spores"
 	next "on the bug's egg.@"
 
-SECTION "VenonatPokedexEntry", ROMX
-VenonatPokedexEntry::
-	db "Insect@"
-	db   "The small bugs it"
-	next "eats appear only"
-	next "at night, so it"
-	page "sleeps in a hole"
-	next "in a tree until"
-	next "night falls.@"
-
-SECTION "VenomothPokedexEntry", ROMX
-VenomothPokedexEntry::
-	db "Poison Moth@"
-	db   "The scales it"
-	next "scatters will"
-	next "paralyze anyone"
-	page "who touches them,"
-	next "making that person"
-	next "unable to stand.@"
-
 SECTION "DiglettPlainPokedexEntry", ROMX
 DiglettPlainPokedexEntry::
 	db "Mole@"

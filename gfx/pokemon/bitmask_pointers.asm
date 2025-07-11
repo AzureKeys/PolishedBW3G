@@ -33,8 +33,6 @@ BitmasksPointers:
 	dw GolbatBitmasks
 	dw ParasBitmasks
 	dw ParasectBitmasks
-	dw VenonatBitmasks
-	dw VenomothBitmasks
 	dw DiglettPlainBitmasks
 	dw DugtrioPlainBitmasks
 	dw MeowthPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw TangrowthBitmasks
 	dw ElectivireBitmasks
 	dw MagmortarBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw TogekissBitmasks
 	dw YanmegaBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw LeafeonBitmasks
 	dw GlaceonBitmasks
 	dw GliscorBitmasks

@@ -39,8 +39,6 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; Golbat
 	mon_cry CRY_PARAS,       $020,  $160 ; Paras
 	mon_cry CRY_PARAS,       $042,  $17f ; Parasect
-	mon_cry CRY_VENONAT,     $044,  $0c0 ; Venonat
-	mon_cry CRY_VENONAT,     $029,  $100 ; Venomoth
 	mon_cry CRY_DIGLETT,     $0aa,  $081 ; Diglett
 	mon_cry CRY_DIGLETT,     $02a,  $090 ; Dugtrio
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Meowth
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       $000,  $100 ; Tangrowth
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmortar
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanmega
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VENONAT,     $03d,  $160 ; Leafeon
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Glaceon
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gliscor

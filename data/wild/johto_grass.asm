@@ -387,9 +387,9 @@
 	wildmon 13, HOOTHOOT
 	wildmon 14, SPINARAK
 	wildmon 14, HOOTHOOT
-	wildmon 10, VENONAT
-	wildmon 12, VENONAT
-	wildmon 12, VENONAT
+	wildmon 10, RATTATA
+	wildmon 12, RATTATA
+	wildmon 12, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -692,7 +692,7 @@
 	wildmon 10, RATTATA
 	; nite
 	wildmon 9, RATTATA
-	wildmon 9, VENONAT
+	wildmon 9, RATTATA
 	wildmon 10, RATTATA
 	wildmon 10, PSYDUCK
 	wildmon 10, HOOTHOOT
@@ -1699,11 +1699,11 @@
 	wildmon 23, MAREEP
 	wildmon 23, MAREEP
 	; nite
-	wildmon 25, VENONAT
+	wildmon 25, RATTATA
 	wildmon 23, GIRAFARIG
 	wildmon 23, FLAAFFY
 	wildmon 24, NOCTOWL
-	wildmon 23, VENOMOTH
+	wildmon 23, RATTATA
 	wildmon 23, MAREEP
 	wildmon 23, MAREEP
 	end_grass_wildmons
@@ -2177,11 +2177,11 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, CLODSIRE
 	wildmon LEVEL_FROM_BADGES - 4, ZUBAT
-	wildmon LEVEL_FROM_BADGES + 1, VENONAT
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GASTLY
 	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
 	wildmon LEVEL_FROM_BADGES + 1, MISDREAVUS
-	wildmon LEVEL_FROM_BADGES + 5, VENOMOTH
+	wildmon LEVEL_FROM_BADGES + 5, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons MAGNET_TUNNEL_INSIDE

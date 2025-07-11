@@ -75,7 +75,7 @@ TreeMonSet_Kanto:
 
 TreeMonSet_Lake:
 	tree_mon 65, HOOTHOOT,   10
-	tree_mon 15, VENONAT,    10
+	tree_mon 15, RATTATA,    10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 	; rare

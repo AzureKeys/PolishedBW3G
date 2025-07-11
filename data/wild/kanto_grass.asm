@@ -608,9 +608,9 @@
 	wildmon 52, PRIMEAPE
 	; nite
 	wildmon 48, RATICATE
-	wildmon 47, VENOMOTH
+	wildmon 47, RATTATA
 	wildmon 49, RATICATE
-	wildmon 50, VENOMOTH
+	wildmon 50, RATTATA
 	wildmon 50, GOLBAT
 	wildmon 52, MAROWAK
 	wildmon 52, RATICATE
@@ -635,7 +635,7 @@
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; nite
-	wildmon 47, VENOMOTH
+	wildmon 47, RATTATA
 	wildmon 49, ELECTRODE
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
@@ -691,11 +691,11 @@
 	wildmon 52, FARFETCH_D
 	wildmon 54, FARFETCH_D
 	; nite
-	wildmon 50, VENOMOTH
+	wildmon 50, RATTATA
 	wildmon 50, NOCTOWL
 	wildmon 50, QUAGSIRE
 	wildmon 51, RATTATA
-	wildmon 53, VENOMOTH
+	wildmon 53, RATTATA
 	wildmon 52, QUAGSIRE
 	wildmon 54, QUAGSIRE
 	end_grass_wildmons
@@ -719,11 +719,11 @@
 	wildmon 53, SUNFLORA
 	wildmon 55, SUNFLORA
 	; nite
-	wildmon 50, VENOMOTH
+	wildmon 50, RATTATA
 	wildmon 50, NOCTOWL
 	wildmon 51, QUAGSIRE
 	wildmon 52, RATTATA
-	wildmon 54, VENOMOTH
+	wildmon 54, RATTATA
 	wildmon 53, QUAGSIRE
 	wildmon 55, QUAGSIRE
 	end_grass_wildmons
@@ -747,11 +747,11 @@
 	wildmon 54, SUNFLORA
 	wildmon 56, SUNFLORA
 	; nite
-	wildmon 52, VENOMOTH
+	wildmon 52, RATTATA
 	wildmon 52, NOCTOWL
 	wildmon 53, QUAGSIRE
 	wildmon 51, RATTATA
-	wildmon 56, VENOMOTH
+	wildmon 56, RATTATA
 	wildmon 54, QUAGSIRE
 	wildmon 56, QUAGSIRE
 	end_grass_wildmons
@@ -803,11 +803,11 @@
 	wildmon 55, SUNFLORA
 	wildmon 57, SUNFLORA
 	; nite
-	wildmon 52, VENOMOTH
+	wildmon 52, RATTATA
 	wildmon 52, NOCTOWL
 	wildmon 54, QUAGSIRE
 	wildmon 54, RATTATA
-	wildmon 57, VENOMOTH
+	wildmon 57, RATTATA
 	wildmon 55, QUAGSIRE
 	wildmon 57, QUAGSIRE
 	end_grass_wildmons
@@ -1055,8 +1055,8 @@
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; nite
-	wildmon 48, VENOMOTH
-	wildmon 48, VENOMOTH
+	wildmon 48, RATTATA
+	wildmon 48, RATTATA
 	wildmon 51, NOCTOWL
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
@@ -1083,8 +1083,8 @@
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; nite
-	wildmon 48, VENOMOTH
-	wildmon 48, VENOMOTH
+	wildmon 48, RATTATA
+	wildmon 48, RATTATA
 	wildmon 51, NOCTOWL
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
@@ -1195,8 +1195,8 @@
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; nite
-	wildmon 48, VENOMOTH
-	wildmon 48, VENOMOTH
+	wildmon 48, RATTATA
+	wildmon 48, RATTATA
 	wildmon 51, NOCTOWL
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
@@ -1571,24 +1571,24 @@
 	def_grass_wildmons SAFARI_ZONE_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, VENONAT
-	wildmon 58, VENOMOTH
+	wildmon 55, RATTATA
+	wildmon 58, RATTATA
 	wildmon 56, RHYHORN
 	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
 	wildmon 59, PINSIR
 	wildmon 60, RHYDON
 	wildmon 60, CHANSEY
 	; day
-	wildmon 55, VENONAT
-	wildmon 58, VENOMOTH
+	wildmon 55, RATTATA
+	wildmon 58, RATTATA
 	wildmon 56, RHYHORN
 	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
 	wildmon 59, PINSIR
 	wildmon 60, RHYDON
 	wildmon 60, CHANSEY
 	; nite
-	wildmon 55, VENONAT
-	wildmon 58, VENOMOTH
+	wildmon 55, RATTATA
+	wildmon 58, RATTATA
 	wildmon 56, RHYHORN
 	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
 	wildmon 59, PINSIR
@@ -1599,27 +1599,27 @@
 	def_grass_wildmons SAFARI_ZONE_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, VENONAT
+	wildmon 55, RATTATA
 	wildmon 58, NIDORINA
 	wildmon 58, NIDORINO
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
-	wildmon 59, VENOMOTH
+	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
 	wildmon 60, MAROWAK
 	; day
-	wildmon 55, VENONAT
+	wildmon 55, RATTATA
 	wildmon 58, NIDORINA
 	wildmon 58, NIDORINO
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
-	wildmon 59, VENOMOTH
+	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
 	wildmon 60, MAROWAK
 	; nite
-	wildmon 55, VENONAT
+	wildmon 55, RATTATA
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
-	wildmon 59, VENOMOTH
+	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
 	wildmon 60, MAROWAK
 	end_grass_wildmons

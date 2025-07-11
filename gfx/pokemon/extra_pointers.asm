@@ -33,8 +33,6 @@ AnimationExtraPointers:
 	dw GolbatAnimationExtra
 	dw ParasAnimationExtra
 	dw ParasectAnimationExtra
-	dw VenonatAnimationExtra
-	dw VenomothAnimationExtra
 	dw DiglettPlainAnimationExtra
 	dw DugtrioPlainAnimationExtra
 	dw MeowthPlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw TangrowthAnimationExtra
 	dw ElectivireAnimationExtra
 	dw MagmortarAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw TogekissAnimationExtra
 	dw YanmegaAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw LeafeonAnimationExtra
 	dw GlaceonAnimationExtra
 	dw GliscorAnimationExtra

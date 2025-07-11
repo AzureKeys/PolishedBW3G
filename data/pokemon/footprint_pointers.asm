@@ -33,8 +33,6 @@ FootprintPointers::
 	dw GolbatFootprint
 	dw ParasFootprint
 	dw ParasectFootprint
-	dw VenonatFootprint
-	dw VenomothFootprint
 	dw DiglettFootprint
 	dw DugtrioFootprint
 	dw MeowthFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw TangrowthFootprint
 	dw ElectivireFootprint
 	dw MagmortarFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw TogekissFootprint
 	dw YanmegaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw LeafeonFootprint
 	dw GlaceonFootprint
 	dw GliscorFootprint

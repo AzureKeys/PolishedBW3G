@@ -486,7 +486,7 @@ KogaGroup:
 
 	def_trainer_class KOGA
 	def_trainer 1, "Koga"
-	tr_mon 50, VENOMOTH @ SILVERPOWDER
+	tr_mon 50, RATTATA @ SILVERPOWDER
 		tr_evs 252 SAt, 68 Spe
 		tr_moves SUPERSONIC, BUG_BUZZ, PSYCHIC_M, TOXIC
 	tr_mon 50, CLODSIRE @ SITRUS_BERRY
@@ -864,7 +864,7 @@ JanineGroup:
 	tr_mon 63, WEEZING
 		tr_evs 252 SAt, 164 Spe
 		tr_moves SLUDGE_BOMB, THUNDER, FIRE_BLAST, EXPLOSION
-	tr_mon 66, VENOMOTH @ SITRUS_BERRY
+	tr_mon 66, RATTATA @ SITRUS_BERRY
 		tr_evs 208 SAt, 208 Spe
 		tr_moves SLUDGE_BOMB, DOUBLE_TEAM, GUST, PSYCHIC_M
 	end_trainer
@@ -880,7 +880,7 @@ JanineGroup:
 		tr_moves EARTHQUAKE, HEALINGLIGHT, SLUDGE_BOMB, ICE_BEAM
 	tr_mon 73, WEEZING @ CHARCOAL
 		tr_moves SLUDGE_BOMB, FIRE_BLAST, WILL_O_WISP, EXPLOSION
-	tr_mon 75, VENOMOTH @ BRIGHTPOWDER
+	tr_mon 75, RATTATA @ BRIGHTPOWDER
 		tr_moves SLUDGE_BOMB, DOUBLE_TEAM, SLEEP_POWDER, PSYCHIC_M
 	end_trainer
 
@@ -1731,25 +1731,25 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer ARNIE1, "Arnie"
-	tr_mon 16, VENONAT
+	tr_mon 16, RATTATA
 	end_trainer
 
 	def_trainer ARNIE2, "Arnie"
-	tr_mon 20, VENONAT
+	tr_mon 20, RATTATA
 	end_trainer
 
 	def_trainer ARNIE3, "Arnie"
-	tr_mon 28, VENOMOTH
+	tr_mon 28, RATTATA
 		tr_moves DISABLE, SUPERSONIC, CONFUSION, LEECH_LIFE
 	end_trainer
 
 	def_trainer ARNIE4, "Arnie"
-	tr_mon 36, VENOMOTH
+	tr_mon 36, RATTATA
 		tr_moves GUST, SUPERSONIC, PSYBEAM, LEECH_LIFE
 	end_trainer
 
 	def_trainer ARNIE5, "Arnie"
-	tr_mon 40, VENOMOTH
+	tr_mon 40, RATTATA
 		tr_moves GUST, SUPERSONIC, PSYCHIC_M, TOXIC
 	end_trainer
 
@@ -1771,7 +1771,7 @@ BugCatcherGroup:
 
 	def_trainer JOSH, "Josh"
 	tr_mon 12, PARAS
-	tr_mon 12, VENONAT
+	tr_mon 12, RATTATA
 	end_trainer
 
 	def_trainer KEN, "Ken"
@@ -2817,7 +2817,7 @@ GruntMGroup:
 
 	def_trainer 6, "Grunt"
 	tr_mon 34, GOLBAT
-	tr_mon 34, VENOMOTH
+	tr_mon 34, RATTATA
 	end_trainer
 
 	def_trainer 7, "Grunt"
@@ -2885,8 +2885,8 @@ GruntMGroup:
 	end_trainer
 
 	def_trainer 19, "Grunt"
-	tr_mon 28, VENONAT
-	tr_mon 28, VENOMOTH
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
 	end_trainer
 
 	def_trainer 20, "Grunt"
@@ -3726,8 +3726,8 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer KAI, "Kai"
-	tr_mon LEVEL_FROM_BADGES + 7, VENONAT
-	tr_mon LEVEL_FROM_BADGES + 9, VENOMOTH
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
 
 
@@ -6202,7 +6202,7 @@ CooltrainerMGroup:
 	def_trainer COOLTRAINERM_RAYMOND, "Ray" ; MISMATCH
 	tr_mon 63, DONPHAN @ SOFT_SAND
 		tr_evs 192 Atk, 192 Spe
-	tr_mon 62, VENOMOTH @ BLACK_SLUDGE
+	tr_mon 62, RATTATA @ BLACK_SLUDGE
 		tr_evs 192 SAt, 192 Spe
 	tr_mon 62, GOLEM @ ROCKY_HELMET
 		tr_evs 192 Atk, 192 Spe

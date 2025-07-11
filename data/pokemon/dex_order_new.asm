@@ -117,8 +117,6 @@ NewPokedexOrder:
 	dp EXEGGUTOR
 	dp BONSLY
 	dp SUDOWOODO
-	dp VENONAT
-	dp VENOMOTH
 	dp SCYTHER
 	dp SCIZOR
 	dp KLEAVOR

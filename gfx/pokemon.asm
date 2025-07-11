@@ -112,14 +112,6 @@ SECTION "Parasect Pics", ROMX
 ParasectFrontpic: INCBIN "gfx/pokemon/parasect/front.animated.2bpp.lz"
 ParasectBackpic:  INCBIN "gfx/pokemon/parasect/back.2bpp.lz"
 
-SECTION "Venonat Pics", ROMX
-VenonatFrontpic: INCBIN "gfx/pokemon/venonat/front.animated.2bpp.lz"
-VenonatBackpic:  INCBIN "gfx/pokemon/venonat/back.2bpp.lz"
-
-SECTION "Venomoth Pics", ROMX
-VenomothFrontpic: INCBIN "gfx/pokemon/venomoth/front.animated.2bpp.lz"
-VenomothBackpic:  INCBIN "gfx/pokemon/venomoth/back.2bpp.lz"
-
 SECTION "Psyduck Pics", ROMX
 PsyduckFrontpic: INCBIN "gfx/pokemon/psyduck/front.animated.2bpp.lz"
 PsyduckBackpic:  INCBIN "gfx/pokemon/psyduck/back.2bpp.lz"

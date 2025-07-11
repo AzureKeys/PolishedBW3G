@@ -24,7 +24,6 @@ UniqueWildMoves:
 	unique_moves SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
 	unique_moves ROUTE_34_COAST,   STARYU,     DREAM_EATER  ; new move
-	unique_moves STORMY_BEACH,     VENOMOTH,   0
 	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
 	unique_moves MAGNET_TUNNEL,    MAGNEMITE,  PSYBEAM      ; new move
 	unique_moves GOLDENROD_HARBOR, PSYDUCK,    ENCORE       ; Dream World move

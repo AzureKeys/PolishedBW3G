@@ -272,8 +272,6 @@ AlphabeticalPokedexOrder:
 	dp URSALUNA
 	dp URSARING
 	dp VAPOREON
-	dp VENOMOTH
-	dp VENONAT
 	dp VENUSAUR
 	dp VICTREEBEL
 	dp VOLTORB

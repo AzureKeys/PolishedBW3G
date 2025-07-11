@@ -57,8 +57,6 @@
 	const GOLBAT     ; 2a
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
-	const VENONAT    ; 30
-	const VENOMOTH   ; 31
 	const DIGLETT    ; 32
 	const DUGTRIO    ; 33
 	const MEOWTH     ; 34
@@ -278,10 +276,10 @@
 	const TANGROWTH  ; 10c
 	const ELECTIVIRE ; 10d
 	const MAGMORTAR  ; 10e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const TOGEKISS   ; 10f
 	const YANMEGA    ; 110
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const LEAFEON    ; 111
 	const GLACEON    ; 112
 	const GLISCOR    ; 113

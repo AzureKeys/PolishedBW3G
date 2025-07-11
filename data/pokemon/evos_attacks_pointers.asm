@@ -37,8 +37,6 @@ EvosAttacksPointers::
 	dw GolbatEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
-	dw VenonatEvosAttacks
-	dw VenomothEvosAttacks
 	dw DiglettPlainEvosAttacks
 	dw DugtrioPlainEvosAttacks
 	dw MeowthPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw TangrowthEvosAttacks
 	dw ElectivireEvosAttacks
 	dw MagmortarEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw TogekissEvosAttacks
 	dw YanmegaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
