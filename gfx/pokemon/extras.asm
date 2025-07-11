@@ -240,6 +240,8 @@ BoldoreAnimationExtra:    INCLUDE "gfx/pokemon/boldore/anim_idle.asm"
 GigalithAnimationExtra:   INCLUDE "gfx/pokemon/gigalith/anim_idle.asm"
 WoobatAnimationExtra:     INCLUDE "gfx/pokemon/woobat/anim_idle.asm"
 SwoobatAnimationExtra:    INCLUDE "gfx/pokemon/swoobat/anim_idle.asm"
+DrilburAnimationExtra:    INCLUDE "gfx/pokemon/drilbur/anim_idle.asm"
+ExcadrillAnimationExtra:  INCLUDE "gfx/pokemon/excadrill/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

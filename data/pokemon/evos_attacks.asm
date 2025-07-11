@@ -6074,6 +6074,40 @@ endc
 	learnset 36, FUTURE_SIGHT
 	learnset 41, PSYCHIC_M
 	learnset 47, PERISH_SONG ; Endeavor
+	
+	evos_attacks Drilbur
+	evo_data EVOLVE_LEVEL, 31, EXCADRILL
+	learnset 1, SCRATCH
+	learnset 5, RAPID_SPIN
+	learnset 8, MUD_SLAP
+	learnset 12, FURY_STRIKES ; Fury Swipes
+	learnset 15, METAL_CLAW
+	learnset 19, DIG
+	learnset 22, HONE_CLAWS
+	learnset 26, SLASH
+	learnset 29, ROCK_SLIDE
+	learnset 33, EARTHQUAKE
+	learnset 36, SWORDS_DANCE
+	learnset 40, SANDSTORM
+	learnset 43, IRON_HEAD ; Drill Run
+	
+	evos_attacks Excadrill
+	learnset 1, SCRATCH
+	learnset 1, RAPID_SPIN
+	learnset 1, MUD_SLAP
+	learnset 1, FURY_STRIKES ; Fury Swipes
+	learnset 5, RAPID_SPIN
+	learnset 8, MUD_SLAP
+	learnset 12, FURY_STRIKES ; Fury Swipes
+	learnset 15, METAL_CLAW
+	learnset 19, DIG
+	learnset 22, HONE_CLAWS
+	learnset 26, SLASH
+	learnset 29, ROCK_SLIDE
+	learnset 36, EARTHQUAKE
+	learnset 42, SWORDS_DANCE
+	learnset 49, SANDSTORM
+	learnset 55, IRON_HEAD ; Drill Run
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

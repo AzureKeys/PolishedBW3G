@@ -49,6 +49,7 @@ AlphabeticalPokedexOrder:
 	dp DRAGONAIR
 	dp DRAGONITE
 	dp DRATINI
+	dp DRILBUR
 	dp DROWZEE
 	dp DUDUNSPARCE
 	dp DUGTRIO
@@ -62,6 +63,7 @@ AlphabeticalPokedexOrder:
 	dp EMBOAR
 	dp ENTEI
 	dp ESPEON
+	dp EXCADRILL
 	dp EXEGGCUTE
 	dp EXEGGUTOR
 	dp FARIGIRAF

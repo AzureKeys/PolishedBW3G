@@ -297,6 +297,8 @@ MiniIconPointers:
 	mini_icon Gigalith
 	mini_icon Woobat
 	mini_icon Swoobat
+	mini_icon Drilbur
+	mini_icon Excadrill
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

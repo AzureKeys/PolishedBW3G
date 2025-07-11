@@ -240,6 +240,8 @@ BoldoreAnimation:    INCLUDE "gfx/pokemon/boldore/anim.asm"
 GigalithAnimation:   INCLUDE "gfx/pokemon/gigalith/anim.asm"
 WoobatAnimation:     INCLUDE "gfx/pokemon/woobat/anim.asm"
 SwoobatAnimation:    INCLUDE "gfx/pokemon/swoobat/anim.asm"
+DrilburAnimation:    INCLUDE "gfx/pokemon/drilbur/anim.asm"
+ExcadrillAnimation:  INCLUDE "gfx/pokemon/excadrill/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

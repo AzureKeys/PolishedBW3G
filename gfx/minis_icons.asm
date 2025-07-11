@@ -1467,6 +1467,16 @@ SwoobatMini::     INCBIN "gfx/minis/swoobat.2bpp.lz"
 SwoobatMiniMask:: INCBIN "gfx/minis/swoobat_mask.1bpp.lz"
 SwoobatIcon::     INCBIN "gfx/icons/swoobat.2bpp.lz"
 
+SECTION "Drilbur Mini Icon", ROMX
+DrilburMini::     INCBIN "gfx/minis/drilbur.2bpp.lz"
+DrilburMiniMask:: INCBIN "gfx/minis/drilbur_mask.1bpp.lz"
+DrilburIcon::     INCBIN "gfx/icons/drilbur.2bpp.lz"
+
+SECTION "Excadrill Mini Icon", ROMX
+ExcadrillMini::     INCBIN "gfx/minis/excadrill.2bpp.lz"
+ExcadrillMiniMask:: INCBIN "gfx/minis/excadrill_mask.1bpp.lz"
+ExcadrillIcon::     INCBIN "gfx/icons/excadrill.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

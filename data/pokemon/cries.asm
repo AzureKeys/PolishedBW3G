@@ -299,4 +299,6 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; Gigalith
 	mon_cry CRY_MANTINE,    -$03a,  $0ea ; Woobat
 	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
+	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
+	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; Excadrill
 	assert_table_length NUM_SPECIES

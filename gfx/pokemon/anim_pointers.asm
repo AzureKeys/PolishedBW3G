@@ -293,6 +293,8 @@ AnimationPointers:
 	dw GigalithAnimation
 	dw WoobatAnimation
 	dw SwoobatAnimation
+	dw DrilburAnimation
+	dw ExcadrillAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

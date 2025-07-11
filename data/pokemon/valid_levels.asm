@@ -298,4 +298,6 @@ endc
 	db  40, 100 ; Gigalith
 	db   1,  22 ; Woobat
 	db  23, 100 ; Swoobat
+	db   1,  30 ; Drilbur
+	db  31, 100 ; Excadrill
 	assert_table_length NUM_SPECIES

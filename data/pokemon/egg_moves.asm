@@ -1248,5 +1248,11 @@ WoobatEggSpeciesMoves:
 	db SUPERSONIC
 	db $ff
 
+DrilburEggSpeciesMoves:
+	dp DRILBUR, PLAIN_FORM
+	db EARTH_POWER
+	db BARRIER ; Iron Defense
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

@@ -293,6 +293,8 @@ BitmasksPointers:
 	dw GigalithBitmasks
 	dw WoobatBitmasks
 	dw SwoobatBitmasks
+	dw DrilburBitmasks
+	dw ExcadrillBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

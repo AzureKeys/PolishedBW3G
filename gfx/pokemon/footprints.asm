@@ -43,6 +43,8 @@ BoldoreFootprint::
 GigalithFootprint::
 WoobatFootprint::
 SwoobatFootprint::
+DrilburFootprint::
+ExcadrillFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CloysterFootprint::

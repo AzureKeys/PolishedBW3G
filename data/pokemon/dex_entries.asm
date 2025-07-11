@@ -2911,6 +2911,26 @@ SwoobatPokedexEntry::
 	next "enough to"
 	next "destroy rocks.@"
 
+SECTION "DrilburPokedexEntry", ROMX
+DrilburPokedexEntry::
+	db "Mole@"
+	db "It makes its way"
+	next "swiftly through"
+	next "the soil by"
+	page "putting its claws"
+	next "together and "
+	next "rotating.@"
+
+SECTION "ExcadrillPokedexEntry", ROMX
+ExcadrillPokedexEntry::
+	db "Subterrene@"
+	db "It can help in"
+	next "making tunnels."
+	next "Its drill evolved"
+	page "into steel strong"
+	next "enough to bore"
+	next "trough iron.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

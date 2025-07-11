@@ -293,6 +293,8 @@ EggSpeciesMovesPointers::
 	dw RoggenrolaEggSpeciesMoves        ; Gigalith
 	dw WoobatEggSpeciesMoves            ; Woobat
 	dw WoobatEggSpeciesMoves            ; Swoobat
+	dw DrilburEggSpeciesMoves           ; Drilbur
+	dw DrilburEggSpeciesMoves           ; Excadrill
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -30,6 +30,8 @@ NewPokedexOrder:
 	dp GIGALITH
 	dp WOOBAT
 	dp SWOOBAT
+	dp DRILBUR
+	dp EXCADRILL
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

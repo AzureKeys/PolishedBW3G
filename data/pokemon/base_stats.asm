@@ -328,6 +328,8 @@ INCLUDE "data/pokemon/base_stats/boldore.asm"
 INCLUDE "data/pokemon/base_stats/gigalith.asm"
 INCLUDE "data/pokemon/base_stats/woobat.asm"
 INCLUDE "data/pokemon/base_stats/swoobat.asm"
+INCLUDE "data/pokemon/base_stats/drilbur.asm"
+INCLUDE "data/pokemon/base_stats/excadrill.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

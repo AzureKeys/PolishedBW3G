@@ -294,4 +294,6 @@ PokemonNames::
 	rawchar "Gigalith@@"
 	rawchar "Woobat@@@@"
 	rawchar "Swoobat@@@"
+	rawchar "Drilbur@@@"
+	rawchar "Excadrill@"
 	assert_table_length NUM_SPECIES + 1

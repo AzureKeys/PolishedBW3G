@@ -293,6 +293,8 @@ FootprintPointers::
 	dw GigalithFootprint
 	dw WoobatFootprint
 	dw SwoobatFootprint
+	dw DrilburFootprint
+	dw ExcadrillFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

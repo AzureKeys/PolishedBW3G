@@ -297,6 +297,8 @@ PokemonPicPointers::
 	pics Gigalith
 	pics Woobat
 	pics Swoobat
+	pics Drilbur
+	pics Excadrill
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

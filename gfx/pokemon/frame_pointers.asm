@@ -293,6 +293,8 @@ FramesPointers:
 	dw GigalithFrames
 	dw WoobatFrames
 	dw SwoobatFrames
+	dw DrilburFrames
+	dw ExcadrillFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

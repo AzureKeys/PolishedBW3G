@@ -1564,3 +1564,11 @@ WoobatBackpic:  INCBIN "gfx/pokemon/woobat/back.2bpp.lz"
 SECTION "Swoobat Pics", ROMX
 SwoobatFrontpic: INCBIN "gfx/pokemon/swoobat/front.animated.2bpp.lz"
 SwoobatBackpic:  INCBIN "gfx/pokemon/swoobat/back.2bpp.lz"
+
+SECTION "Drilbur Pics", ROMX
+DrilburFrontpic: INCBIN "gfx/pokemon/drilbur/front.animated.2bpp.lz"
+DrilburBackpic:  INCBIN "gfx/pokemon/drilbur/back.2bpp.lz"
+
+SECTION "Excadrill Pics", ROMX
+ExcadrillFrontpic: INCBIN "gfx/pokemon/excadrill/front.animated.2bpp.lz"
+ExcadrillBackpic:  INCBIN "gfx/pokemon/excadrill/back.2bpp.lz"

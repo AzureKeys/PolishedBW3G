@@ -240,6 +240,8 @@ BoldoreBitmasks:    INCLUDE "gfx/pokemon/boldore/bitmask.asm"
 GigalithBitmasks:   INCLUDE "gfx/pokemon/gigalith/bitmask.asm"
 WoobatBitmasks:     INCLUDE "gfx/pokemon/woobat/bitmask.asm"
 SwoobatBitmasks:    INCLUDE "gfx/pokemon/swoobat/bitmask.asm"
+DrilburBitmasks:    INCLUDE "gfx/pokemon/drilbur/bitmask.asm"
+ExcadrillBitmasks:  INCLUDE "gfx/pokemon/excadrill/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
