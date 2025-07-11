@@ -41,6 +41,8 @@ ZebstrikaFootprint::
 RoggenrolaFootprint::
 BoldoreFootprint::
 GigalithFootprint::
+WoobatFootprint::
+SwoobatFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CloysterFootprint::

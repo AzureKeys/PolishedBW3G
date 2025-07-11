@@ -291,6 +291,8 @@ AnimationExtraPointers:
 	dw RoggenrolaAnimationExtra
 	dw BoldoreAnimationExtra
 	dw GigalithAnimationExtra
+	dw WoobatAnimationExtra
+	dw SwoobatAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

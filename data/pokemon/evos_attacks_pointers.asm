@@ -295,6 +295,8 @@ EvosAttacksPointers::
 	dw RoggenrolaEvosAttacks
 	dw BoldoreEvosAttacks
 	dw GigalithEvosAttacks
+	dw WoobatEvosAttacks
+	dw SwoobatEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

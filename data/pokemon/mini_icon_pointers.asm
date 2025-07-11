@@ -295,6 +295,8 @@ MiniIconPointers:
 	mini_icon Roggenrola
 	mini_icon Boldore
 	mini_icon Gigalith
+	mini_icon Woobat
+	mini_icon Swoobat
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -251,6 +251,7 @@ AlphabeticalPokedexOrder:
 	dp SUNFLORA
 	dp SUNKERN
 	dp SWINUB
+	dp SWOOBAT
 	dp SYLVEON
 	dp TANGELA
 	dp TANGROWTH
@@ -282,6 +283,7 @@ AlphabeticalPokedexOrder:
 	dp WEEZING
 	dp WIGGLYTUFF
 	dp WOBBUFFET
+	dp WOOBAT
 	dp WOOPER
 	dp WYNAUT
 	dp WYRDEER

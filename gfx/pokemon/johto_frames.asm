@@ -152,6 +152,8 @@ ZebstrikaFrames:  INCLUDE "gfx/pokemon/zebstrika/frames.asm"
 RoggenrolaFrames: INCLUDE "gfx/pokemon/roggenrola/frames.asm"
 BoldoreFrames:    INCLUDE "gfx/pokemon/boldore/frames.asm"
 GigalithFrames:   INCLUDE "gfx/pokemon/gigalith/frames.asm"
+WoobatFrames:     INCLUDE "gfx/pokemon/woobat/frames.asm"
+SwoobatFrames:    INCLUDE "gfx/pokemon/swoobat/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -291,6 +291,8 @@ FramesPointers:
 	dw RoggenrolaFrames
 	dw BoldoreFrames
 	dw GigalithFrames
+	dw WoobatFrames
+	dw SwoobatFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

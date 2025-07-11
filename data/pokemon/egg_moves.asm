@@ -1242,5 +1242,11 @@ RoggenrolaEggSpeciesMoves:
 	db TAKE_DOWN
 	db $ff
 
+WoobatEggSpeciesMoves:
+	dp WOOBAT, PLAIN_FORM
+	db CHARM
+	db SUPERSONIC
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

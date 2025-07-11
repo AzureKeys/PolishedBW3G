@@ -238,6 +238,8 @@ ZebstrikaAnimation:  INCLUDE "gfx/pokemon/zebstrika/anim.asm"
 RoggenrolaAnimation: INCLUDE "gfx/pokemon/roggenrola/anim.asm"
 BoldoreAnimation:    INCLUDE "gfx/pokemon/boldore/anim.asm"
 GigalithAnimation:   INCLUDE "gfx/pokemon/gigalith/anim.asm"
+WoobatAnimation:     INCLUDE "gfx/pokemon/woobat/anim.asm"
+SwoobatAnimation:    INCLUDE "gfx/pokemon/swoobat/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

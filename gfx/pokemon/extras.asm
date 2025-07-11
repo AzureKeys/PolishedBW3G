@@ -238,6 +238,8 @@ ZebstrikaAnimationExtra:  INCLUDE "gfx/pokemon/zebstrika/anim_idle.asm"
 RoggenrolaAnimationExtra: INCLUDE "gfx/pokemon/roggenrola/anim_idle.asm"
 BoldoreAnimationExtra:    INCLUDE "gfx/pokemon/boldore/anim_idle.asm"
 GigalithAnimationExtra:   INCLUDE "gfx/pokemon/gigalith/anim_idle.asm"
+WoobatAnimationExtra:     INCLUDE "gfx/pokemon/woobat/anim_idle.asm"
+SwoobatAnimationExtra:    INCLUDE "gfx/pokemon/swoobat/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

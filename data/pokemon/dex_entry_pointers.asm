@@ -292,6 +292,8 @@ PokedexDataPointerTable:
 	dba RoggenrolaPokedexEntry
 	dba BoldorePokedexEntry
 	dba GigalithPokedexEntry
+	dba WoobatPokedexEntry
+	dba SwoobatPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

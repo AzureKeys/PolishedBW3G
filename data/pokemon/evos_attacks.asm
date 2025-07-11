@@ -6039,6 +6039,42 @@ endc
 	learnset 50, STONE_EDGE
 	learnset 59, EXPLOSION
 
+	evos_attacks Woobat
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, SWOOBAT
+	learnset 1, CONFUSION
+	learnset 4, FORESIGHT ; Odor Sleuth
+	learnset 8, GUST
+	learnset 12, PURSUIT ; Assurance
+	learnset 15, PSYBEAM ; Heart Stamp
+	learnset 19, SWEET_KISS ; Imprison
+	;learnset 21, AIR_CUTTER
+	learnset 25, ATTRACT
+	learnset 27, AMNESIA
+	learnset 29, CALM_MIND
+	learnset 32, AIR_SLASH
+	learnset 36, FUTURE_SIGHT
+	learnset 41, PSYCHIC_M
+	learnset 47, PERISH_SONG ; Endeavor
+
+	evos_attacks Swoobat
+	learnset 1, CONFUSION
+	learnset 1, FORESIGHT ; Odor Sleuth
+	learnset 1, GUST
+	learnset 1, PURSUIT ; Assurance
+	learnset 4, FORESIGHT ; Odor Sleuth
+	learnset 8, GUST
+	learnset 12, PURSUIT ; Assurance
+	learnset 15, PSYBEAM ; Heart Stamp
+	learnset 19, SWEET_KISS ; Imprison
+	;learnset 21, AIR_CUTTER
+	learnset 25, ATTRACT
+	learnset 27, AMNESIA
+	learnset 29, CALM_MIND
+	learnset 32, AIR_SLASH
+	learnset 36, FUTURE_SIGHT
+	learnset 41, PSYCHIC_M
+	learnset 47, PERISH_SONG ; Endeavor
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

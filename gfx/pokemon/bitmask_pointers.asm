@@ -291,6 +291,8 @@ BitmasksPointers:
 	dw RoggenrolaBitmasks
 	dw BoldoreBitmasks
 	dw GigalithBitmasks
+	dw WoobatBitmasks
+	dw SwoobatBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

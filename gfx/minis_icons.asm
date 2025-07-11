@@ -1457,6 +1457,16 @@ GigalithMini::     INCBIN "gfx/minis/gigalith.2bpp.lz"
 GigalithMiniMask:: INCBIN "gfx/minis/gigalith_mask.1bpp.lz"
 GigalithIcon::     INCBIN "gfx/icons/gigalith.2bpp.lz"
 
+SECTION "Woobat Mini Icon", ROMX
+WoobatMini::     INCBIN "gfx/minis/woobat.2bpp.lz"
+WoobatMiniMask:: INCBIN "gfx/minis/woobat_mask.1bpp.lz"
+WoobatIcon::     INCBIN "gfx/icons/woobat.2bpp.lz"
+
+SECTION "Swoobat Mini Icon", ROMX
+SwoobatMini::     INCBIN "gfx/minis/swoobat.2bpp.lz"
+SwoobatMiniMask:: INCBIN "gfx/minis/swoobat_mask.1bpp.lz"
+SwoobatIcon::     INCBIN "gfx/icons/swoobat.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

@@ -295,6 +295,8 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; ROGGENROLA
 	iconpal BLUE, PURPLE ; BOLDORE
 	iconpal BLUE, PURPLE ; GIGALITH
+	iconpal AZURE, GREEN ; WOOBAT
+	iconpal AZURE, ORANGE ; SWOOBAT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

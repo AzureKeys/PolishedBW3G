@@ -2891,6 +2891,26 @@ GigalithPokedexEntry::
 	next "fired from its"
 	next "mouth.@"
 
+SECTION "WoobatPokedexEntry", ROMX
+WoobatPokedexEntry::
+	db "Bat@"
+	db "It lives in dark"
+	next "caves. It trans-"
+	next "mitts sonic"
+	page "waves from its"
+	next "nose to learn"
+	next "its surroundings.@"
+
+SECTION "SwoobatPokedexEntry", ROMX
+SwoobatPokedexEntry::
+	db "Courting@"
+	db "It emits sound"
+	next "waves from its"
+	next "nose, including"
+	page "some powerful"
+	next "enough to"
+	next "destroy rocks.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

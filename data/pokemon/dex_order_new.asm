@@ -28,6 +28,8 @@ NewPokedexOrder:
 	dp ROGGENROLA
 	dp BOLDORE
 	dp GIGALITH
+	dp WOOBAT
+	dp SWOOBAT
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

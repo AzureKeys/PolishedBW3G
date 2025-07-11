@@ -292,4 +292,6 @@ PokemonNames::
 	rawchar "Roggenrola"
 	rawchar "Boldore@@@"
 	rawchar "Gigalith@@"
+	rawchar "Woobat@@@@"
+	rawchar "Swoobat@@@"
 	assert_table_length NUM_SPECIES + 1

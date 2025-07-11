@@ -296,4 +296,6 @@ endc
 	db   1,  24 ; Roggenrola
 	db  25,  39 ; Boldore
 	db  40, 100 ; Gigalith
+	db   1,  22 ; Woobat
+	db  23, 100 ; Swoobat
 	assert_table_length NUM_SPECIES

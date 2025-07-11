@@ -295,6 +295,8 @@ endc
 	db NO_MOVE      ; ROGGENROLA
 	db POWER_GEM    ; BOLDORE
 	db NO_MOVE      ; GIGALITH
+	db NO_MOVE      ; WOOBAT
+	db NO_MOVE      ; SWOOBAT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

@@ -1556,3 +1556,11 @@ BoldoreBackpic:  INCBIN "gfx/pokemon/boldore/back.2bpp.lz"
 SECTION "Gigalith Pics", ROMX
 GigalithFrontpic: INCBIN "gfx/pokemon/gigalith/front.animated.2bpp.lz"
 GigalithBackpic:  INCBIN "gfx/pokemon/gigalith/back.2bpp.lz"
+
+SECTION "Woobat Pics", ROMX
+WoobatFrontpic: INCBIN "gfx/pokemon/woobat/front.animated.2bpp.lz"
+WoobatBackpic:  INCBIN "gfx/pokemon/woobat/back.2bpp.lz"
+
+SECTION "Swoobat Pics", ROMX
+SwoobatFrontpic: INCBIN "gfx/pokemon/swoobat/front.animated.2bpp.lz"
+SwoobatBackpic:  INCBIN "gfx/pokemon/swoobat/back.2bpp.lz"

@@ -291,6 +291,8 @@ FootprintPointers::
 	dw RoggenrolaFootprint
 	dw BoldoreFootprint
 	dw GigalithFootprint
+	dw WoobatFootprint
+	dw SwoobatFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

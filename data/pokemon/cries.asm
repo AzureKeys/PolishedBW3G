@@ -297,4 +297,6 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,   -$5a0,  $130 ; Roggenrola
 	mon_cry CRY_VOLTORB,     $4bf,  $100 ; Boldore
 	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; Gigalith
+	mon_cry CRY_MANTINE,    -$03a,  $0ea ; Woobat
+	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
 	assert_table_length NUM_SPECIES

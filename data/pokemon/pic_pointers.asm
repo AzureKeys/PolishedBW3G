@@ -295,6 +295,8 @@ PokemonPicPointers::
 	pics Roggenrola
 	pics Boldore
 	pics Gigalith
+	pics Woobat
+	pics Swoobat
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
