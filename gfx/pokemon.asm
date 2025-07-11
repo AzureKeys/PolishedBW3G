@@ -1572,3 +1572,7 @@ DrilburBackpic:  INCBIN "gfx/pokemon/drilbur/back.2bpp.lz"
 SECTION "Excadrill Pics", ROMX
 ExcadrillFrontpic: INCBIN "gfx/pokemon/excadrill/front.animated.2bpp.lz"
 ExcadrillBackpic:  INCBIN "gfx/pokemon/excadrill/back.2bpp.lz"
+
+SECTION "Audino Pics", ROMX
+AudinoFrontpic: INCBIN "gfx/pokemon/audino/front.animated.2bpp.lz"
+AudinoBackpic:  INCBIN "gfx/pokemon/audino/back.2bpp.lz"

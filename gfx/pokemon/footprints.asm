@@ -45,6 +45,7 @@ WoobatFootprint::
 SwoobatFootprint::
 DrilburFootprint::
 ExcadrillFootprint::
+AudinoFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CloysterFootprint::

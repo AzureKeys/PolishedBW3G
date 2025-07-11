@@ -242,6 +242,7 @@ WoobatBitmasks:     INCLUDE "gfx/pokemon/woobat/bitmask.asm"
 SwoobatBitmasks:    INCLUDE "gfx/pokemon/swoobat/bitmask.asm"
 DrilburBitmasks:    INCLUDE "gfx/pokemon/drilbur/bitmask.asm"
 ExcadrillBitmasks:  INCLUDE "gfx/pokemon/excadrill/bitmask.asm"
+AudinoBitmasks:     INCLUDE "gfx/pokemon/audino/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

@@ -319,6 +319,7 @@
 	const SWOOBAT    ; 129
 	const DRILBUR    ; 128
 	const EXCADRILL  ; 129
+	const AUDINO     ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

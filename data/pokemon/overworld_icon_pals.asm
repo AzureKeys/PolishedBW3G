@@ -299,6 +299,7 @@ OverworldMonIconColors::
 	iconpal AZURE, ORANGE ; SWOOBAT
 	iconpal GRAY, RED ; DRILBUR
 	iconpal BROWN, RED ; EXCADRILL
+	iconpal PINK, PURPLE ; AUDINO
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

@@ -1254,5 +1254,13 @@ DrilburEggSpeciesMoves:
 	db BARRIER ; Iron Defense
 	db $ff
 
+AudinoEggSpeciesMoves:
+	dp AUDINO, PLAIN_FORM
+	db AMNESIA
+	db DRAINING_KISS
+	db ENCORE
+	db SWEET_KISS
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

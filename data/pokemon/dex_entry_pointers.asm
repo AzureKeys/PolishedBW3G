@@ -296,6 +296,7 @@ PokedexDataPointerTable:
 	dba SwoobatPokedexEntry
 	dba DrilburPokedexEntry
 	dba ExcadrillPokedexEntry
+	dba AudinoPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

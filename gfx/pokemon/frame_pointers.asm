@@ -295,6 +295,7 @@ FramesPointers:
 	dw SwoobatFrames
 	dw DrilburFrames
 	dw ExcadrillFrames
+	dw AudinoFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

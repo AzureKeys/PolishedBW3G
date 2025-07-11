@@ -156,6 +156,7 @@ WoobatFrames:     INCLUDE "gfx/pokemon/woobat/frames.asm"
 SwoobatFrames:    INCLUDE "gfx/pokemon/swoobat/frames.asm"
 DrilburFrames:    INCLUDE "gfx/pokemon/drilbur/frames.asm"
 ExcadrillFrames:  INCLUDE "gfx/pokemon/excadrill/frames.asm"
+AudinoFrames:     INCLUDE "gfx/pokemon/audino/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

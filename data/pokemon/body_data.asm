@@ -302,6 +302,7 @@ PokemonBodyData:
 	body_data   9,  105, WINGS,        BLUE   ; SWOOBAT
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
 	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
+	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

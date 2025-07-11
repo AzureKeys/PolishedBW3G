@@ -242,6 +242,7 @@ WoobatAnimation:     INCLUDE "gfx/pokemon/woobat/anim.asm"
 SwoobatAnimation:    INCLUDE "gfx/pokemon/swoobat/anim.asm"
 DrilburAnimation:    INCLUDE "gfx/pokemon/drilbur/anim.asm"
 ExcadrillAnimation:  INCLUDE "gfx/pokemon/excadrill/anim.asm"
+AudinoAnimation:     INCLUDE "gfx/pokemon/audino/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

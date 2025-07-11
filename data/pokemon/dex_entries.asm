@@ -2931,6 +2931,16 @@ ExcadrillPokedexEntry::
 	next "enough to bore"
 	next "trough iron.@"
 
+SECTION "AudinoPokedexEntry", ROMX
+AudinoPokedexEntry::
+	db "Hearing@"
+	db "Its auditory sense"
+	next "is astounding. It"
+	next "has a radar-like"
+	page "ability to under-"
+	next "stand surroundings"
+	next "by slight sounds.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

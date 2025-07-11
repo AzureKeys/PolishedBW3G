@@ -7,7 +7,8 @@
 	db ORAN_BERRY, SITRUS_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for AUDINO, HEALER, REGENERATOR, KLUTZ
+	abilities_for AUDINO, REGENERATOR, REGENERATOR, REGENERATOR
+	;abilities_for AUDINO, HEALER, REGENERATOR, KLUTZ
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
 

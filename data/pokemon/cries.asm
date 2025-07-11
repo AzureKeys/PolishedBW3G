@@ -301,4 +301,5 @@ PokemonCries::
 	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; Excadrill
+	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
 	assert_table_length NUM_SPECIES

@@ -299,6 +299,7 @@ PokemonPicPointers::
 	pics Swoobat
 	pics Drilbur
 	pics Excadrill
+	pics Audino
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

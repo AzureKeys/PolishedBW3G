@@ -300,4 +300,5 @@ endc
 	db  23, 100 ; Swoobat
 	db   1,  30 ; Drilbur
 	db  31, 100 ; Excadrill
+	db  20, 100 ; Audino
 	assert_table_length NUM_SPECIES

@@ -296,4 +296,5 @@ PokemonNames::
 	rawchar "Swoobat@@@"
 	rawchar "Drilbur@@@"
 	rawchar "Excadrill@"
+	rawchar "Audino@@@@"
 	assert_table_length NUM_SPECIES + 1

@@ -313,6 +313,7 @@ INCLUDE "gfx/pokemon/woobat/front.dimensions"
 INCLUDE "gfx/pokemon/swoobat/front.dimensions"
 INCLUDE "gfx/pokemon/drilbur/front.dimensions"
 INCLUDE "gfx/pokemon/excadrill/front.dimensions"
+INCLUDE "gfx/pokemon/audino/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

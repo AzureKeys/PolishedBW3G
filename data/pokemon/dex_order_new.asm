@@ -32,6 +32,7 @@ NewPokedexOrder:
 	dp SWOOBAT
 	dp DRILBUR
 	dp EXCADRILL
+	dp AUDINO
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

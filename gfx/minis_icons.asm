@@ -1477,6 +1477,11 @@ ExcadrillMini::     INCBIN "gfx/minis/excadrill.2bpp.lz"
 ExcadrillMiniMask:: INCBIN "gfx/minis/excadrill_mask.1bpp.lz"
 ExcadrillIcon::     INCBIN "gfx/icons/excadrill.2bpp.lz"
 
+SECTION "Audino Mini Icon", ROMX
+AudinoMini::     INCBIN "gfx/minis/audino.2bpp.lz"
+AudinoMiniMask:: INCBIN "gfx/minis/audino_mask.1bpp.lz"
+AudinoIcon::     INCBIN "gfx/icons/audino.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

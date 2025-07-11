@@ -299,6 +299,7 @@ MiniIconPointers:
 	mini_icon Swoobat
 	mini_icon Drilbur
 	mini_icon Excadrill
+	mini_icon Audino
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

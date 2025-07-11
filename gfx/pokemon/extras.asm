@@ -242,6 +242,7 @@ WoobatAnimationExtra:     INCLUDE "gfx/pokemon/woobat/anim_idle.asm"
 SwoobatAnimationExtra:    INCLUDE "gfx/pokemon/swoobat/anim_idle.asm"
 DrilburAnimationExtra:    INCLUDE "gfx/pokemon/drilbur/anim_idle.asm"
 ExcadrillAnimationExtra:  INCLUDE "gfx/pokemon/excadrill/anim_idle.asm"
+AudinoAnimationExtra:     INCLUDE "gfx/pokemon/audino/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

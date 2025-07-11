@@ -299,6 +299,7 @@ endc
 	db NO_MOVE      ; SWOOBAT
 	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EXCADRILL
+	db NO_MOVE      ; AUDINO
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

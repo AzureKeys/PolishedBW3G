@@ -11,6 +11,7 @@ AlphabeticalPokedexOrder:
 	dp ARCANINE
 	dp ARIADOS
 	dp ARTICUNO
+	dp AUDINO
 	dp AZUMARILL
 	dp AZURILL
 	dp BAYLEEF

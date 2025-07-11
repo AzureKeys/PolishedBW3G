@@ -6108,6 +6108,27 @@ endc
 	learnset 42, SWORDS_DANCE
 	learnset 49, SANDSTORM
 	learnset 55, IRON_HEAD ; Drill Run
+	
+	evos_attacks Audino
+	learnset 1, HYPER_VOICE
+	learnset 1, HYPER_BEAM ; Last Resort
+	learnset 1, TACKLE ; Pound
+	learnset 1, GROWL
+	learnset 1, SAFEGUARD ; Refresh
+	learnset 1, DISARM_VOICE
+	learnset 9, SAFEGUARD ; Refresh
+	learnset 13, DISARM_VOICE
+	learnset 17, DOUBLE_SLAP
+	learnset 21, ATTRACT
+	learnset 25, DIZZY_PUNCH ; Secret Power
+	;learnset 29, ENTRAINMENT
+	learnset 33, TAKE_DOWN
+	learnset 37, RECOVER ; Heal Pulse
+	learnset 41, SWAGGER ; After You
+	learnset 45, PERISH_SONG ; Simple Beam
+	learnset 49, DOUBLE_EDGE
+	learnset 53, HYPER_VOICE
+	learnset 57, HYPER_BEAM ; Last Resort
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

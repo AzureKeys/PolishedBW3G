@@ -295,6 +295,7 @@ AnimationExtraPointers:
 	dw SwoobatAnimationExtra
 	dw DrilburAnimationExtra
 	dw ExcadrillAnimationExtra
+	dw AudinoAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
