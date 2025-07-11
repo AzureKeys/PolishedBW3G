@@ -1251,5 +1251,16 @@ PidoveEggSpeciesMoves:
 	db STEEL_WING
 	db $ff
 
+BlitzleEggSpeciesMoves:
+	dp BLITZLE, PLAIN_FORM
+	db DOUBLE_EDGE
+	db DOUBLE_KICK
+	db ENDURE
+	db MUD_SLAP
+	db SCREECH
+	;db SHOCK_WAVE
+	db TAKE_DOWN
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

@@ -296,6 +296,8 @@ FootprintPointers::
 	dw PidoveFootprint
 	dw TranquillFootprint
 	dw UnfezantFootprint
+	dw BlitzleFootprint
+	dw ZebstrikaFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

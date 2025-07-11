@@ -148,6 +148,8 @@ MusharnaFrames:   INCLUDE "gfx/pokemon/musharna/frames.asm"
 PidoveFrames:     INCLUDE "gfx/pokemon/pidove/frames.asm"
 TranquillFrames:  INCLUDE "gfx/pokemon/tranquill/frames.asm"
 UnfezantFrames:   INCLUDE "gfx/pokemon/unfezant/frames.asm"
+BlitzleFrames:    INCLUDE "gfx/pokemon/blitzle/frames.asm"
+ZebstrikaFrames:  INCLUDE "gfx/pokemon/zebstrika/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

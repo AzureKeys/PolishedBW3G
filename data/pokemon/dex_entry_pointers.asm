@@ -297,6 +297,8 @@ PokedexDataPointerTable:
 	dba PidovePokedexEntry
 	dba TranquillPokedexEntry
 	dba UnfezantPokedexEntry
+	dba BlitzlePokedexEntry
+	dba ZebstrikaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

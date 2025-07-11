@@ -300,6 +300,8 @@ OverworldMonIconColors::
 	iconpal GRAY, BLUE ; PIDOVE
 	iconpal GRAY, GREEN ; TRANQUILL
 	iconpal PINK, PURPLE ; UNFEZANT
+	iconpal BLACK, BLUE ; BLITZLE
+	iconpal BLACK, PURPLE ; ZEBSTRIKA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

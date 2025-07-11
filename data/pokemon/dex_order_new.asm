@@ -23,6 +23,8 @@ NewPokedexOrder:
 	dp PIDOVE
 	dp TRANQUILL
 	dp UNFEZANT
+	dp BLITZLE
+	dp ZEBSTRIKA
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

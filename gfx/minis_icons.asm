@@ -1482,6 +1482,16 @@ UnfezantMini::     INCBIN "gfx/minis/unfezant.2bpp.lz"
 UnfezantMiniMask:: INCBIN "gfx/minis/unfezant_mask.1bpp.lz"
 UnfezantIcon::     INCBIN "gfx/icons/unfezant.2bpp.lz"
 
+SECTION "Blitzle Mini Icon", ROMX
+BlitzleMini::     INCBIN "gfx/minis/blitzle.2bpp.lz"
+BlitzleMiniMask:: INCBIN "gfx/minis/blitzle_mask.1bpp.lz"
+BlitzleIcon::     INCBIN "gfx/icons/blitzle.2bpp.lz"
+
+SECTION "Zebstrika Mini Icon", ROMX
+ZebstrikaMini::     INCBIN "gfx/minis/zebstrika.2bpp.lz"
+ZebstrikaMiniMask:: INCBIN "gfx/minis/zebstrika_mask.1bpp.lz"
+ZebstrikaIcon::     INCBIN "gfx/icons/zebstrika.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

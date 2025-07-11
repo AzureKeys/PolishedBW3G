@@ -297,4 +297,6 @@ PokemonNames::
 	rawchar "Pidove@@@@"
 	rawchar "Tranquill@"
 	rawchar "Unfezant@@"
+	rawchar "Blitzle@@@"
+	rawchar "Zebstrika@"
 	assert_table_length NUM_SPECIES + 1

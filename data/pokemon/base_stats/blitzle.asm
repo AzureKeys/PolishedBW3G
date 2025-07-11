@@ -7,7 +7,7 @@
 	db CHERI_BERRY, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for BLITZLE, LIGHTNINGROD, MOTOR_DRIVE, SAP_SIPPER
+	abilities_for BLITZLE, LIGHTNING_ROD, MOTOR_DRIVE, SAP_SIPPER
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

@@ -303,6 +303,8 @@ PokemonBodyData:
 	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
 	body_data   6,  150, WINGS,        GRAY   ; TRANQUILL
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT
+	body_data   8,  298, QUADRUPED,    BLACK  ; BLITZLE
+	body_data  16,  795, QUADRUPED,    BLACK  ; ZEBSTRIKA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

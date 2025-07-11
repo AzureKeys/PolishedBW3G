@@ -6104,6 +6104,40 @@ endc
 	learnset 55, FACADE
 	; Skipped Tailwind
 	learnset 60, BRAVE_BIRD ; Sky Attack
+	
+	evos_attacks Blitzle
+	evo_data EVOLVE_LEVEL, 27, ZEBSTRIKA
+	learnset 1, QUICK_ATTACK
+	learnset 4, LEER
+	learnset 8, THUNDERSHOCK ; Charge
+	;learnset 11, SHOCK_WAVE
+	learnset 15, THUNDER_WAVE
+	learnset 18, FLAME_CHARGE
+	learnset 22, PURSUIT
+	learnset 25, SPARK
+	learnset 29, STOMP
+	;learnset 32, DISCHARGE
+	learnset 36, AGILITY
+	learnset 39, WILD_CHARGE
+	learnset 43, THRASH
+	
+	evos_attacks Zebstrika
+	learnset 1, QUICK_ATTACK
+	learnset 1, LEER
+	learnset 1, THUNDERSHOCK ; Charge
+	learnset 1, THUNDER_WAVE
+	learnset 4, LEER
+	learnset 8, THUNDERSHOCK ; Charge
+	;learnset 11, SHOCK_WAVE
+	learnset 15, THUNDER_WAVE
+	learnset 18, FLAME_CHARGE
+	learnset 22, PURSUIT
+	learnset 25, SPARK
+	learnset 31, STOMP
+	;learnset 36, DISCHARGE
+	learnset 42, AGILITY
+	learnset 47, WILD_CHARGE
+	learnset 53, THRASH
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

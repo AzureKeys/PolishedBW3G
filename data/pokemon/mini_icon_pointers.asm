@@ -300,6 +300,8 @@ MiniIconPointers:
 	mini_icon Pidove
 	mini_icon Tranquill
 	mini_icon Unfezant
+	mini_icon Blitzle
+	mini_icon Zebstrika
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

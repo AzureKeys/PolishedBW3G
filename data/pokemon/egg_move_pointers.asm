@@ -296,6 +296,8 @@ EggSpeciesMovesPointers::
 	dw PidoveEggSpeciesMoves            ; Pidove
 	dw PidoveEggSpeciesMoves            ; Tranquill
 	dw PidoveEggSpeciesMoves            ; Unfezant
+	dw BlitzleEggSpeciesMoves           ; Blitzle
+	dw BlitzleEggSpeciesMoves           ; Zebstrika
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

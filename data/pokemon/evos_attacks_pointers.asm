@@ -300,6 +300,8 @@ EvosAttacksPointers::
 	dw PidoveEvosAttacks
 	dw TranquillEvosAttacks
 	dw UnfezantEvosAttacks
+	dw BlitzleEvosAttacks
+	dw ZebstrikaEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

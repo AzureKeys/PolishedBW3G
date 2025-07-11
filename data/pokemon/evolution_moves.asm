@@ -300,6 +300,8 @@ endc
 	db NO_MOVE      ; PIDOVE
 	db NO_MOVE      ; TRANQUILL
 	db NO_MOVE      ; UNFEZANT
+	db NO_MOVE      ; BLITZLE
+	db NO_MOVE      ; ZEBSTRIKA
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

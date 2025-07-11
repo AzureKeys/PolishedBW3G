@@ -36,6 +36,8 @@ MusharnaFootprint::
 PidoveFootprint::
 TranquillFootprint::
 UnfezantFootprint::
+BlitzleFootprint::
+ZebstrikaFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

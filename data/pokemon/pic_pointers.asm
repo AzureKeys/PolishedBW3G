@@ -300,6 +300,8 @@ PokemonPicPointers::
 	pics Pidove
 	pics Tranquill
 	pics Unfezant
+	pics Blitzle
+	pics Zebstrika
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

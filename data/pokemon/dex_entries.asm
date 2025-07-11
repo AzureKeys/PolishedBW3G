@@ -2941,6 +2941,26 @@ UnfezantPokedexEntry::
 	next "flying surpasses"
 	next "all #MON.@"
 
+SECTION "BlitzlePokedexEntry", ROMX
+BlitzlePokedexEntry::
+	db "Electrified@"
+	db "Its mane shines"
+	next "when discharging"
+	next "electricity."
+	page "They use them to"
+	next "communicate with"
+	next "one another.@"
+
+SECTION "ZebstrikaPokedexEntry", ROMX
+ZebstrikaPokedexEntry::
+	db "Thunderbolt@"
+	db "They have moves"
+	next "like lightning."
+	next "When they run"
+	page "at full speed,"
+	next "it makes sound"
+	next "of thunder.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

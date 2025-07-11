@@ -301,4 +301,6 @@ endc
 	db   1,  20 ; Pidove
 	db  21,  31 ; Tranquill
 	db  32, 100 ; Unfezant
+	db   1,  26 ; Blitzle
+	db  27, 100 ; Zebstrika
 	assert_table_length NUM_SPECIES

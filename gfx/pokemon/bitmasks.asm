@@ -243,6 +243,8 @@ MusharnaBitmasks:   INCLUDE "gfx/pokemon/musharna/bitmask.asm"
 PidoveBitmasks:     INCLUDE "gfx/pokemon/pidove/bitmask.asm"
 TranquillBitmasks:  INCLUDE "gfx/pokemon/tranquill/bitmask.asm"
 UnfezantBitmasks:   INCLUDE "gfx/pokemon/unfezant/bitmask.asm"
+BlitzleBitmasks:    INCLUDE "gfx/pokemon/blitzle/bitmask.asm"
+ZebstrikaBitmasks:  INCLUDE "gfx/pokemon/zebstrika/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

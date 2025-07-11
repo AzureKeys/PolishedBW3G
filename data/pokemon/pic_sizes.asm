@@ -314,6 +314,8 @@ INCLUDE "gfx/pokemon/musharna/front.dimensions"
 INCLUDE "gfx/pokemon/pidove/front.dimensions"
 INCLUDE "gfx/pokemon/tranquill/front.dimensions"
 INCLUDE "gfx/pokemon/unfezant/front.dimensions"
+INCLUDE "gfx/pokemon/blitzle/front.dimensions"
+INCLUDE "gfx/pokemon/zebstrika/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

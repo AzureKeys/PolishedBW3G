@@ -302,4 +302,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
 	mon_cry CRY_PIDGEY,      $1c0,  $184 ; Tranquill
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
+	mon_cry CRY_PIDGEOTTO,   $024,  $0c0 ; Blitzle
+	mon_cry CRY_NIDORAN_M,   $026,  $220 ; Zebstrika
 	assert_table_length NUM_SPECIES

@@ -20,6 +20,7 @@ AlphabeticalPokedexOrder:
 	dp BELLSPROUT
 	dp BLASTOISE
 	dp BLISSEY
+	dp BLITZLE
 	dp BONSLY
 	dp BULBASAUR
 	dp CELEBI
@@ -295,5 +296,6 @@ AlphabeticalPokedexOrder:
 	dp YANMA
 	dp YANMEGA
 	dp ZAPDOS
+	dp ZEBSTRIKA
 	dp ZUBAT
 	assert_table_length NUM_POKEMON

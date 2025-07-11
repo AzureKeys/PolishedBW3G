@@ -296,6 +296,8 @@ AnimationPointers:
 	dw PidoveAnimation
 	dw TranquillAnimation
 	dw UnfezantAnimation
+	dw BlitzleAnimation
+	dw ZebstrikaAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

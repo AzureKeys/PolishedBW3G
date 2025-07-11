@@ -296,6 +296,8 @@ FramesPointers:
 	dw PidoveFrames
 	dw TranquillFrames
 	dw UnfezantFrames
+	dw BlitzleFrames
+	dw ZebstrikaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

@@ -296,6 +296,8 @@ BitmasksPointers:
 	dw PidoveBitmasks
 	dw TranquillBitmasks
 	dw UnfezantBitmasks
+	dw BlitzleBitmasks
+	dw ZebstrikaBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

@@ -1576,3 +1576,11 @@ TranquillBackpic:  INCBIN "gfx/pokemon/tranquill/back.2bpp.lz"
 SECTION "Unfezant Pics", ROMX
 UnfezantFrontpic: INCBIN "gfx/pokemon/unfezant/front.animated.2bpp.lz"
 UnfezantBackpic:  INCBIN "gfx/pokemon/unfezant/back.2bpp.lz"
+
+SECTION "Blitzle Pics", ROMX
+BlitzleFrontpic: INCBIN "gfx/pokemon/blitzle/front.animated.2bpp.lz"
+BlitzleBackpic:  INCBIN "gfx/pokemon/blitzle/back.2bpp.lz"
+
+SECTION "Zebstrika Pics", ROMX
+ZebstrikaFrontpic: INCBIN "gfx/pokemon/zebstrika/front.animated.2bpp.lz"
+ZebstrikaBackpic:  INCBIN "gfx/pokemon/zebstrika/back.2bpp.lz"

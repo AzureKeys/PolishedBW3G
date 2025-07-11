@@ -243,6 +243,8 @@ MusharnaAnimation:   INCLUDE "gfx/pokemon/musharna/anim.asm"
 PidoveAnimation:     INCLUDE "gfx/pokemon/pidove/anim.asm"
 TranquillAnimation:  INCLUDE "gfx/pokemon/tranquill/anim.asm"
 UnfezantAnimation:   INCLUDE "gfx/pokemon/unfezant/anim.asm"
+BlitzleAnimation:    INCLUDE "gfx/pokemon/blitzle/anim.asm"
+ZebstrikaAnimation:  INCLUDE "gfx/pokemon/zebstrika/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
