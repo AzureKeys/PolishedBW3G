@@ -143,6 +143,8 @@ HerdierFrames:    INCLUDE "gfx/pokemon/herdier/frames.asm"
 StoutlandFrames:  INCLUDE "gfx/pokemon/stoutland/frames.asm"
 PurrloinFrames:   INCLUDE "gfx/pokemon/purrloin/frames.asm"
 LiepardFrames:    INCLUDE "gfx/pokemon/liepard/frames.asm"
+MunnaFrames:      INCLUDE "gfx/pokemon/munna/frames.asm"
+MusharnaFrames:   INCLUDE "gfx/pokemon/musharna/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -238,6 +238,8 @@ HerdierBitmasks:    INCLUDE "gfx/pokemon/herdier/bitmask.asm"
 StoutlandBitmasks:  INCLUDE "gfx/pokemon/stoutland/bitmask.asm"
 PurrloinBitmasks:   INCLUDE "gfx/pokemon/purrloin/bitmask.asm"
 LiepardBitmasks:    INCLUDE "gfx/pokemon/liepard/bitmask.asm"
+MunnaBitmasks:      INCLUDE "gfx/pokemon/munna/bitmask.asm"
+MusharnaBitmasks:   INCLUDE "gfx/pokemon/musharna/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

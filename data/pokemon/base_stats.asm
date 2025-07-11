@@ -326,6 +326,8 @@ INCLUDE "data/pokemon/base_stats/herdier.asm"
 INCLUDE "data/pokemon/base_stats/stoutland.asm"
 INCLUDE "data/pokemon/base_stats/purrloin.asm"
 INCLUDE "data/pokemon/base_stats/liepard.asm"
+INCLUDE "data/pokemon/base_stats/munna.asm"
+INCLUDE "data/pokemon/base_stats/musharna.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

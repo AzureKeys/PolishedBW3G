@@ -291,6 +291,8 @@ BitmasksPointers:
 	dw StoutlandBitmasks
 	dw PurrloinBitmasks
 	dw LiepardBitmasks
+	dw MunnaBitmasks
+	dw MusharnaBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

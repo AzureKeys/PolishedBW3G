@@ -292,6 +292,8 @@ PokedexDataPointerTable:
 	dba StoutlandPokedexEntry
 	dba PurrloinPokedexEntry
 	dba LiepardPokedexEntry
+	dba MunnaPokedexEntry
+	dba MusharnaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -6024,6 +6024,31 @@ endc
 	learnset 55, SUCKER_PUNCH
 	learnset 58, PLAY_ROUGH
 
+	evos_attacks Munna
+	evo_data EVOLVE_ITEM, MOON_STONE, MUSHARNA
+	learnset 1, CONFUSION ; Psywave
+	learnset 1, DEFENSE_CURL
+	learnset 5, SAFEGUARD ; Lucky Chant
+	learnset 7, REST ; Yawn
+	learnset 11, PSYBEAM
+	learnset 13, REFLECT ; Imprison
+	learnset 17, HEALINGLIGHT ; Moonlight
+	learnset 19, HYPNOSIS
+	learnset 23, ZEN_HEADBUTT
+	learnset 25, EXTRASENSORY ; Synchronoise
+	learnset 29, CURSE ; Nightmare
+	learnset 31, FUTURE_SIGHT
+	learnset 35, CALM_MIND
+	learnset 37, PSYCHIC_M
+	learnset 41, DREAM_EATER
+
+	evos_attacks Musharna
+	learnset 1, DEFENSE_CURL
+	learnset 1, SAFEGUARD ; Lucky Chant
+	learnset 1, PSYBEAM
+	learnset 1, HYPNOSIS
+	learnset 13, REFLECT ; Imprison
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

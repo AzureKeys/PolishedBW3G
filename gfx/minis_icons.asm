@@ -1457,6 +1457,16 @@ LiepardMini::     INCBIN "gfx/minis/liepard.2bpp.lz"
 LiepardMiniMask:: INCBIN "gfx/minis/liepard_mask.1bpp.lz"
 LiepardIcon::     INCBIN "gfx/icons/liepard.2bpp.lz"
 
+SECTION "Munna Mini Icon", ROMX
+MunnaMini::     INCBIN "gfx/minis/munna.2bpp.lz"
+MunnaMiniMask:: INCBIN "gfx/minis/munna_mask.1bpp.lz"
+MunnaIcon::     INCBIN "gfx/icons/munna.2bpp.lz"
+
+SECTION "Musharna Mini Icon", ROMX
+MusharnaMini::     INCBIN "gfx/minis/musharna.2bpp.lz"
+MusharnaMiniMask:: INCBIN "gfx/minis/musharna_mask.1bpp.lz"
+MusharnaIcon::     INCBIN "gfx/icons/musharna.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

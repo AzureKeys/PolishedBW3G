@@ -2891,6 +2891,26 @@ LiepardPokedexEntry::
 	next "drawn to their"
 	next "beautiful form.@"
 
+SECTION "MunnaPokedexEntry", ROMX
+MunnaPokedexEntry::
+	db "Dream Eater@"
+	db "It eats the"
+	next "dreams of people"
+	next "and #MON."
+	page "When it eats a"
+	next "pleasant dream,"
+	next "it makes mist.@"
+
+SECTION "MusharnaPokedexEntry", ROMX
+MusharnaPokedexEntry::
+	db "Drowsing@"
+	db "The mist emanating"
+	next "from their heads"
+	next "is packed with"
+	page "the dreams of"
+	next "people and"
+	next "#MON.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

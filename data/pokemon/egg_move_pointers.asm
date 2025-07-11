@@ -291,6 +291,8 @@ EggSpeciesMovesPointers::
 	dw LillipupEggSpeciesMoves          ; Stoutland
 	dw PurrloinEggSpeciesMoves          ; Purrloin
 	dw PurrloinEggSpeciesMoves          ; Liepard
+	dw MunnaEggSpeciesMoves             ; Munna
+	dw MunnaEggSpeciesMoves             ; Musharna
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

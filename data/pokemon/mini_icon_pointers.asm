@@ -295,6 +295,8 @@ MiniIconPointers:
 	mini_icon Stoutland
 	mini_icon Purrloin
 	mini_icon Liepard
+	mini_icon Munna
+	mini_icon Musharna
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

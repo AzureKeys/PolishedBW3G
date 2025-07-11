@@ -295,6 +295,8 @@ endc
 	db NO_MOVE      ; STOUTLAND
 	db NO_MOVE      ; PURRLOIN
 	db NO_MOVE      ; LIEPARD
+	db NO_MOVE      ; MUNNA
+	db NO_MOVE      ; MUSHARNA
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

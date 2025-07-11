@@ -298,6 +298,8 @@ PokemonBodyData:
 	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	body_data   4,  101, QUADRUPED,    PURPLE ; PURRLOIN
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
+	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
+	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

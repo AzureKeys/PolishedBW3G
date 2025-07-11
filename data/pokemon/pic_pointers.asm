@@ -295,6 +295,8 @@ PokemonPicPointers::
 	pics Stoutland
 	pics Purrloin
 	pics Liepard
+	pics Munna
+	pics Musharna
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

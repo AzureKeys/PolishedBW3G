@@ -296,4 +296,6 @@ endc
 	db  32, 100 ; Stoutland
 	db   1,  19 ; Purrloin
 	db  20, 100 ; Liepard
+	db   1,  19 ; Munna
+	db  20, 100 ; Musharna
 	assert_table_length NUM_SPECIES

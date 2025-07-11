@@ -291,6 +291,8 @@ AnimationExtraPointers:
 	dw StoutlandAnimationExtra
 	dw PurrloinAnimationExtra
 	dw LiepardAnimationExtra
+	dw MunnaAnimationExtra
+	dw MusharnaAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

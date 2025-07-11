@@ -291,6 +291,8 @@ AnimationPointers:
 	dw StoutlandAnimation
 	dw PurrloinAnimation
 	dw LiepardAnimation
+	dw MunnaAnimation
+	dw MusharnaAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

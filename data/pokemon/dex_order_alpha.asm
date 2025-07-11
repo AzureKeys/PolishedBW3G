@@ -161,7 +161,9 @@ AlphabeticalPokedexOrder:
 	dp MR__RIME
 	dp MUK
 	dp MUNCHLAX
+	dp MUNNA
 	dp MURKROW
+	dp MUSHARNA
 	dp NATU
 	dp NIDOKING
 	dp NIDOQUEEN

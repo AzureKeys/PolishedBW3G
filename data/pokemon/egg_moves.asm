@@ -1236,5 +1236,13 @@ PurrloinEggSpeciesMoves:
 	db FEINT_ATTACK
 	db $ff
 
+MunnaEggSpeciesMoves:
+	dp MUNNA, PLAIN_FORM
+	db BARRIER
+	db CURSE
+	db SONIC_BOOM
+	db SWIFT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

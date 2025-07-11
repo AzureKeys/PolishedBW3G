@@ -295,6 +295,8 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; STOUTLAND
 	iconpal PURPLE, BLUE ; PURRLOIN
 	iconpal PURPLE, RED ; LIEPARD
+	iconpal PINK, GREEN ; MUNNA
+	iconpal PINK, BLUE ; MUSHARNA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

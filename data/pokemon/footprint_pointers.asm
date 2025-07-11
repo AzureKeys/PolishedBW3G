@@ -291,6 +291,8 @@ FootprintPointers::
 	dw StoutlandFootprint
 	dw PurrloinFootprint
 	dw LiepardFootprint
+	dw MunnaFootprint
+	dw MusharnaFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

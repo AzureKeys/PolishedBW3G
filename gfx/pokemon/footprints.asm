@@ -31,6 +31,8 @@ HerdierFootprint::
 StoutlandFootprint::
 PurrloinFootprint::
 LiepardFootprint::
+MunnaFootprint::
+MusharnaFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

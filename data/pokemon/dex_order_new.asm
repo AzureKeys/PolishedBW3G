@@ -18,6 +18,8 @@ NewPokedexOrder:
 	dp STOUTLAND
 	dp PURRLOIN
 	dp LIEPARD
+	dp MUNNA
+	dp MUSHARNA
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

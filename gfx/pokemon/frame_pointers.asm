@@ -291,6 +291,8 @@ FramesPointers:
 	dw StoutlandFrames
 	dw PurrloinFrames
 	dw LiepardFrames
+	dw MunnaFrames
+	dw MusharnaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

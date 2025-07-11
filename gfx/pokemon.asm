@@ -1556,3 +1556,11 @@ PurrloinBackpic:  INCBIN "gfx/pokemon/purrloin/back.2bpp.lz"
 SECTION "Liepard Pics", ROMX
 LiepardFrontpic: INCBIN "gfx/pokemon/liepard/front.animated.2bpp.lz"
 LiepardBackpic:  INCBIN "gfx/pokemon/liepard/back.2bpp.lz"
+
+SECTION "Munna Pics", ROMX
+MunnaFrontpic: INCBIN "gfx/pokemon/munna/front.animated.2bpp.lz"
+MunnaBackpic:  INCBIN "gfx/pokemon/munna/back.2bpp.lz"
+
+SECTION "Musharna Pics", ROMX
+MusharnaFrontpic: INCBIN "gfx/pokemon/musharna/front.animated.2bpp.lz"
+MusharnaBackpic:  INCBIN "gfx/pokemon/musharna/back.2bpp.lz"
