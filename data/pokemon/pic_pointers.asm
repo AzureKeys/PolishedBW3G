@@ -50,9 +50,6 @@ PokemonPicPointers::
 	pics Poliwag
 	pics Poliwhirl
 	pics Poliwrath
-	pics Machop
-	pics Machoke
-	pics Machamp
 	pics Bellsprout
 	pics Weepinbell
 	pics Victreebel
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Leafeon
 	pics Glaceon
 	pics Gliscor
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Mamoswine
 	pics PorygonZ
 	pics Sylveon
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Perrserker
 	pics Cursola
 	pics SirfetchD

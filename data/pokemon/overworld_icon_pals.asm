@@ -50,9 +50,6 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; POLIWAG
 	iconpal BLUE, AZURE ; POLIWHIRL
 	iconpal BLUE, TEAL ; POLIWRATH
-	iconpal GRAY, GREEN ; MACHOP
-	iconpal GRAY, GREEN ; MACHOKE
-	iconpal GRAY, GREEN ; MACHAMP
 	iconpal GREEN, BROWN ; BELLSPROUT
 	iconpal GREEN, BROWN ; WEEPINBELL
 	iconpal GREEN, BROWN ; VICTREEBEL
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; LEAFEON
 	iconpal AZURE, BLUE ; GLACEON
 	iconpal PURPLE, GRAY ; GLISCOR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, GREEN ; MAMOSWINE
 	iconpal BLUE, PURPLE ; PORYGON_Z
 	iconpal PINK, AZURE ; SYLVEON
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, BROWN ; PERRSERKER
 	iconpal GRAY, PINK ; CURSOLA
 	iconpal WHITE, RED ; SIRFETCH_D

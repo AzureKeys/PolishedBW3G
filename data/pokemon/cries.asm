@@ -52,9 +52,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; Poliwag
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; Poliwhirl
 	mon_cry CRY_PIDGEY,      $000,  $17f ; Poliwrath
-	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; Machop
-	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; Machoke
-	mon_cry CRY_GROWLITHE,   $008,  $140 ; Machamp
 	mon_cry CRY_PSYDUCK,     $055,  $081 ; Bellsprout
 	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; Weepinbell
 	mon_cry CRY_WEEPINBELL,  $066,  $14c ; Victreebel
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $03d,  $160 ; Leafeon
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Glaceon
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gliscor
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Mamoswine
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PorygonZ
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Perrserker
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
 	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; SirfetchD

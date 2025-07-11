@@ -46,9 +46,6 @@ EvolutionMoves::
 	db NO_MOVE      ; POLIWAG
 	db NO_MOVE      ; POLIWHIRL
 	db CLOSE_COMBAT ; POLIWRATH
-	db NO_MOVE      ; MACHOP
-	db NO_MOVE      ; MACHOKE
-	db STRENGTH     ; MACHAMP
 	db NO_MOVE      ; BELLSPROUT
 	db NO_MOVE      ; WEEPINBELL
 	db NO_MOVE      ; VICTREEBEL
@@ -258,11 +255,11 @@ endc
 	db RAZOR_LEAF   ; LEAFEON
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; MAMOSWINE
 	db NASTY_PLOT   ; PORYGON_Z
 	db DISARM_VOICE ; SYLVEON
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db IRON_HEAD    ; PERRSERKER
 	db NO_MOVE      ; CURSOLA
 	db COUNTER      ; SIRFETCH_D

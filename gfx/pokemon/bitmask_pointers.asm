@@ -46,9 +46,6 @@ BitmasksPointers:
 	dw PoliwagBitmasks
 	dw PoliwhirlBitmasks
 	dw PoliwrathBitmasks
-	dw MachopBitmasks
-	dw MachokeBitmasks
-	dw MachampBitmasks
 	dw BellsproutBitmasks
 	dw WeepinbellBitmasks
 	dw VictreebelBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw LeafeonBitmasks
 	dw GlaceonBitmasks
 	dw GliscorBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw MamoswineBitmasks
 	dw PorygonZBitmasks
 	dw SylveonBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw PerrserkerBitmasks
 	dw CursolaBitmasks
 	dw SirfetchDBitmasks

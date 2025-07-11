@@ -42,7 +42,6 @@ UniqueWildMoves:
 	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
 	unique_moves VIRIDIAN_FOREST,  PIKACHU,    DISARM_VOICE ; Sketch-breed move
 	unique_moves MT_MOON,          0,          0
-	unique_moves CERULEAN_CAVE,    MACHAMP,    METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move

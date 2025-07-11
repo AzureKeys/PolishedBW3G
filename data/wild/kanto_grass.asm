@@ -120,7 +120,7 @@
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
 	wildmon 51, GOLBAT
-	wildmon 54, MACHOKE
+	wildmon 54, RATTATA
 	wildmon 51, MAROWAK
 	; day
 	wildmon 49, MAROWAK
@@ -128,7 +128,7 @@
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
 	wildmon 51, GOLBAT
-	wildmon 54, MACHOKE
+	wildmon 54, RATTATA
 	wildmon 51, MAROWAK
 	; nite
 	wildmon 49, MAROWAK
@@ -147,7 +147,7 @@
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, GOLBAT
-	wildmon 55, MACHOKE
+	wildmon 55, RATTATA
 	wildmon 52, GRAVELER
 	wildmon 52, STEELIX
 	; day
@@ -155,7 +155,7 @@
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, GOLBAT
-	wildmon 55, MACHOKE
+	wildmon 55, RATTATA
 	wildmon 52, GRAVELER
 	wildmon 52, STEELIX
 	; nite
@@ -174,7 +174,7 @@
 	wildmon 52, MAROWAK
 	wildmon 54, GRAVELER
 	wildmon 52, GOLBAT
-	wildmon 54, MACHOKE
+	wildmon 54, RATTATA
 	wildmon 55, GRAVELER
 	wildmon 55, KANGASKHAN
 	wildmon 56, KANGASKHAN
@@ -182,7 +182,7 @@
 	wildmon 52, MAROWAK
 	wildmon 54, GRAVELER
 	wildmon 52, GOLBAT
-	wildmon 54, MACHOKE
+	wildmon 54, RATTATA
 	wildmon 55, GRAVELER
 	wildmon 55, KANGASKHAN
 	wildmon 56, KANGASKHAN
@@ -190,7 +190,7 @@
 	wildmon 52, GOLBAT
 	wildmon 54, GRAVELER
 	wildmon 52, GRAVELER
-	wildmon 54, MACHOKE
+	wildmon 54, RATTATA
 	wildmon 55, GOLBAT
 	wildmon 55, HAUNTER
 	wildmon 56, HAUNTER
@@ -1211,7 +1211,7 @@
 	wildmon 65, PARASECT
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
-	wildmon 68, MACHAMP
+	wildmon 68, RATTATA
 	wildmon 67, ELECTRODE
 	wildmon 70, DITTO
 	; day
@@ -1219,7 +1219,7 @@
 	wildmon 65, PARASECT
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
-	wildmon 68, MACHAMP
+	wildmon 68, RATTATA
 	wildmon 67, ELECTRODE
 	wildmon 70, DITTO
 	; nite
@@ -1227,7 +1227,7 @@
 	wildmon 65, PARASECT
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
-	wildmon 68, MACHAMP
+	wildmon 68, RATTATA
 	wildmon 67, ELECTRODE
 	wildmon 70, DITTO
 	end_grass_wildmons
@@ -1237,7 +1237,7 @@
 	; morn
 	wildmon 67, CROBAT
 	wildmon 67, PARASECT
-	wildmon 68, MACHAMP
+	wildmon 68, RATTATA
 	wildmon 69, MAGNEZONE
 	wildmon 70, RATTATA
 	wildmon 69, ELECTRODE
@@ -1245,7 +1245,7 @@
 	; day
 	wildmon 67, CROBAT
 	wildmon 67, PARASECT
-	wildmon 68, MACHAMP
+	wildmon 68, RATTATA
 	wildmon 69, MAGNEZONE
 	wildmon 70, RATTATA
 	wildmon 69, ELECTRODE
@@ -1253,7 +1253,7 @@
 	; nite
 	wildmon 67, CROBAT
 	wildmon 67, PARASECT
-	wildmon 68, MACHAMP
+	wildmon 68, RATTATA
 	wildmon 69, MAGNEZONE
 	wildmon 70, GENGAR
 	wildmon 69, ELECTRODE
@@ -1265,7 +1265,7 @@
 	; morn
 	wildmon 69, PARASECT
 	wildmon 69, MAGNEZONE
-	wildmon 70, MACHAMP
+	wildmon 70, RATTATA
 	wildmon 71, GOLEM
 	wildmon 72, RATTATA
 	wildmon 71, RAICHU
@@ -1273,7 +1273,7 @@
 	; day
 	wildmon 69, PARASECT
 	wildmon 69, MAGNEZONE
-	wildmon 70, MACHAMP
+	wildmon 70, RATTATA
 	wildmon 71, GOLEM
 	wildmon 72, RATTATA
 	wildmon 71, RAICHU
@@ -1281,7 +1281,7 @@
 	; nite
 	wildmon 69, PARASECT
 	wildmon 69, MAGNEZONE
-	wildmon 70, MACHAMP
+	wildmon 70, RATTATA
 	wildmon 71, GOLEM
 	wildmon 72, GENGAR
 	wildmon 71, RAICHU

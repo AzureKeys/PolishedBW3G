@@ -46,9 +46,6 @@ EggSpeciesMovesPointers::
 	dw PoliwagEggSpeciesMoves           ; Poliwag
 	dw PoliwagEggSpeciesMoves           ; Poliwhirl
 	dw PoliwagEggSpeciesMoves           ; Poliwrath
-	dw MachopEggSpeciesMoves            ; Machop
-	dw MachopEggSpeciesMoves            ; Machoke
-	dw MachopEggSpeciesMoves            ; Machamp
 	dw BellsproutEggSpeciesMoves        ; Bellsprout
 	dw BellsproutEggSpeciesMoves        ; Weepinbell
 	dw BellsproutEggSpeciesMoves        ; Victreebel
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Leafeon
 	dw EeveeEggSpeciesMoves             ; Glaceon
 	dw GligarEggSpeciesMoves            ; Gliscor
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SwinubEggSpeciesMoves            ; Mamoswine
 	dw PorygonEggSpeciesMoves           ; PorygonZ
 	dw EeveeEggSpeciesMoves             ; Sylveon
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw MeowthGalarianEggSpeciesMoves    ; Perrserker
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
 	dw FarfetchDGalarianEggSpeciesMoves ; SirfetchD

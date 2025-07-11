@@ -53,9 +53,6 @@ PokemonBodyData:
 	body_data   6,  124, HEAD_LEGS,    BLUE   ; POLIWAG
 	body_data  10,  200, BIPEDAL,      BLUE   ; POLIWHIRL
 	body_data  13,  540, BIPEDAL,      BLUE   ; POLIWRATH
-	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; MACHOP
-	body_data  15,  705, BIPEDAL,      GRAY   ; MACHOKE
-	body_data  16, 1300, BIPEDAL,      GRAY   ; MACHAMP
 	body_data   7,   40, BIPEDAL,      GREEN  ; BELLSPROUT
 	body_data  10,   64, HEAD_BASE,    GREEN  ; WEEPINBELL
 	body_data  17,  155, HEAD_BASE,    GREEN  ; VICTREEBEL
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  10,  255, QUADRUPED,    GREEN  ; LEAFEON
 	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
 	body_data  20,  425, WINGS,        PURPLE ; GLISCOR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
 	body_data   9,  340, HEAD_ARMS,    RED    ; PORYGON_Z
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
 	body_data   8, 1170, WINGS,        WHITE  ; SIRFETCH_D

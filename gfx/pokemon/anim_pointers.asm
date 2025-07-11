@@ -46,9 +46,6 @@ AnimationPointers:
 	dw PoliwagAnimation
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation
-	dw MachopAnimation
-	dw MachokeAnimation
-	dw MachampAnimation
 	dw BellsproutAnimation
 	dw WeepinbellAnimation
 	dw VictreebelAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw LeafeonAnimation
 	dw GlaceonAnimation
 	dw GliscorAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw MamoswineAnimation
 	dw PorygonZAnimation
 	dw SylveonAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw PerrserkerAnimation
 	dw CursolaAnimation
 	dw SirfetchDAnimation

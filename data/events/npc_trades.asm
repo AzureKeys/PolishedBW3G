@@ -3,7 +3,7 @@ NPCTrades:
 ; NPC_TRADE_MIKE in Goldenrod City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp RATTATA, NO_FORM  ; wants
-	dp MACHOP, FEMALE ; gives
+	dp RATTATA, FEMALE ; gives
 	rawchar "Muscle@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  LEVEL_BALL,   SITRUS_BERRY
 	dw 37460

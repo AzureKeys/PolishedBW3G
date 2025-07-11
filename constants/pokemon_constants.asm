@@ -70,9 +70,6 @@
 	const POLIWAG    ; 3c
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
-	const MACHOP     ; 42
-	const MACHOKE    ; 43
-	const MACHAMP    ; 44
 	const BELLSPROUT ; 45
 	const WEEPINBELL ; 46
 	const VICTREEBEL ; 47
@@ -278,11 +275,11 @@
 	const LEAFEON    ; 111
 	const GLACEON    ; 112
 	const GLISCOR    ; 113
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const MAMOSWINE  ; 114
 	const PORYGON_Z  ; 115
 	const SYLVEON    ; 116
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const PERRSERKER ; 117
 	const CURSOLA    ; 118
 	const SIRFETCH_D ; 119

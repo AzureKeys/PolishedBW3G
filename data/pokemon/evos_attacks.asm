@@ -1076,67 +1076,6 @@ endc
 	learnset 43, EARTH_POWER ; Mind Reader → Poliwhirl move
 	learnset 53, CROSS_CHOP ; Circle Throw → similar move
 
-	evos_attacks Machop
-	evo_data EVOLVE_LEVEL, 28, MACHOKE
-	learnset 1, LOW_KICK
-	learnset 1, LEER
-	learnset 3, FOCUS_ENERGY
-	learnset 7, KARATE_CHOP
-	learnset 9, FORESIGHT
-	learnset 13, RAGE ; Low Sweep → RBY TM move
-	learnset 15, SEISMIC_TOSS
-	learnset 19, REVERSAL ; Revenge → Sw/Sh move
-	learnset 21, KNOCK_OFF
-	learnset 25, MACH_PUNCH ; Vital Throw → egg move
-	learnset 27, BULLET_PUNCH ; Wake-Up Slap → egg move
-	learnset 31, THRASH ; Dual Chop → event move
-	learnset 33, CLOSE_COMBAT ; Submission → new move
-	learnset 37, BULK_UP
-	learnset 39, CROSS_CHOP
-	learnset 43, SCARY_FACE
-	learnset 45, DYNAMICPUNCH
-
-	evos_attacks Machoke
-	evo_data EVOLVE_TRADE, LINKING_CORD, MACHAMP
-	learnset 1, LOW_KICK
-	learnset 1, LEER
-	learnset 3, FOCUS_ENERGY
-	learnset 7, KARATE_CHOP
-	learnset 9, FORESIGHT
-	learnset 13, RAGE ; Low Sweep → RBY TM move
-	learnset 15, SEISMIC_TOSS
-	learnset 19, REVERSAL ; Revenge → Sw/Sh move
-	learnset 21, KNOCK_OFF
-	learnset 25, MACH_PUNCH ; Vital Throw → egg move
-	learnset 27, BULLET_PUNCH ; Wake-Up Slap → egg move
-	learnset 33, THRASH ; Dual Chop → event move
-	learnset 37, CLOSE_COMBAT ; Submission → new move
-	learnset 43, BULK_UP
-	learnset 47, CROSS_CHOP
-	learnset 53, SCARY_FACE
-	learnset 57, DYNAMICPUNCH
-
-	evos_attacks Machamp
-	learnset 1, STRENGTH ; evolution move
-	learnset 1, ROCK_BLAST ; Sw/Sh move
-	learnset 1, LOW_KICK
-	learnset 1, LEER
-	learnset 3, FOCUS_ENERGY
-	learnset 7, KARATE_CHOP
-	learnset 9, FORESIGHT
-	learnset 13, RAGE ; Low Sweep → RBY TM move
-	learnset 15, SEISMIC_TOSS
-	learnset 19, REVERSAL ; Revenge → Sw/Sh TM move
-	learnset 21, KNOCK_OFF
-	learnset 25, MACH_PUNCH ; Vital Throw → egg move
-	learnset 27, BULLET_PUNCH ; Wake-Up Slap → egg move
-	learnset 33, THRASH ; Dual Chop → event move
-	learnset 37, CLOSE_COMBAT ; Submission → new move
-	learnset 43, BULK_UP
-	learnset 47, CROSS_CHOP
-	learnset 53, SCARY_FACE
-	learnset 57, DYNAMICPUNCH
-
 	evos_attacks Bellsprout
 	evo_data EVOLVE_LEVEL, 21, WEEPINBELL
 	learnset 1, VINE_WHIP

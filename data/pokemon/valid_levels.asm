@@ -47,9 +47,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  24 ; Poliwag
 	db  25,  35 ; Poliwhirl
 	db  36, 100 ; Poliwrath
-	db   1,  27 ; Machop
-	db  28,  45 ; Machoke
-	db  46, 100 ; Machamp
 	db   1,  20 ; Bellsprout
 	db  21,  31 ; Weepinbell
 	db  32, 100 ; Victreebel
@@ -259,11 +256,11 @@ endc
 	db  20, 100 ; Leafeon
 	db  20, 100 ; Glaceon
 	db  20, 100 ; Gliscor
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  45, 100 ; Mamoswine
 	db  40, 100 ; Porygon-Z
 	db  20, 100 ; Sylveon
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  28, 100 ; Perrserker
 	db  38, 100 ; Cursola
 	db  20, 100 ; Sirfetch'd

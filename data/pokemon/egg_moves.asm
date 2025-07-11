@@ -259,17 +259,6 @@ PoliwagEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
-MachopEggSpeciesMoves:
-	dp MACHOP, PLAIN_FORM
-	db BULLET_PUNCH
-	db ENCORE
-	db BULK_UP
-	db LIGHT_SCREEN
-	db MACH_PUNCH
-	db CLOSE_COMBAT
-	db KNOCK_OFF
-	db $ff
-
 BellsproutEggSpeciesMoves:
 	dp BELLSPROUT, PLAIN_FORM
 	db ENCORE

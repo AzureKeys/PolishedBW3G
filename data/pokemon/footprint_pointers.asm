@@ -46,9 +46,6 @@ FootprintPointers::
 	dw PoliwagFootprint
 	dw PoliwhirlFootprint
 	dw PoliwrathFootprint
-	dw MachopFootprint
-	dw MachokeFootprint
-	dw MachampFootprint
 	dw BellsproutFootprint
 	dw WeepinbellFootprint
 	dw VictreebelFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw LeafeonFootprint
 	dw GlaceonFootprint
 	dw GliscorFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw MamoswineFootprint
 	dw PorygonZFootprint
 	dw SylveonFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw PerrserkerFootprint
 	dw CursolaFootprint
 	dw SirfetchDFootprint

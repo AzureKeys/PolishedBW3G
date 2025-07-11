@@ -50,9 +50,6 @@ EvosAttacksPointers::
 	dw PoliwagEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
-	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
-	dw MachampEvosAttacks
 	dw BellsproutEvosAttacks
 	dw WeepinbellEvosAttacks
 	dw VictreebelEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw MamoswineEvosAttacks
 	dw PorygonZEvosAttacks
 	dw SylveonEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw PerrserkerEvosAttacks
 	dw CursolaEvosAttacks
 	dw SirfetchDEvosAttacks

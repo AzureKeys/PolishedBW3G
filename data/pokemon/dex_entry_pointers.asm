@@ -47,9 +47,6 @@ PokedexDataPointerTable:
 	dba PoliwagPokedexEntry
 	dba PoliwhirlPokedexEntry
 	dba PoliwrathPokedexEntry
-	dba MachopPokedexEntry
-	dba MachokePokedexEntry
-	dba MachampPokedexEntry
 	dba BellsproutPokedexEntry
 	dba WeepinbellPokedexEntry
 	dba VictreebelPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba LeafeonPokedexEntry
 	dba GlaceonPokedexEntry
 	dba GliscorPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba MamoswinePokedexEntry
 	dba PorygonZPokedexEntry
 	dba SylveonPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba PerrserkerPokedexEntry
 	dba CursolaPokedexEntry
 	dba SirfetchDPokedexEntry

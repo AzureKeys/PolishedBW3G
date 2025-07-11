@@ -46,9 +46,6 @@ FramesPointers:
 	dw PoliwagFrames
 	dw PoliwhirlFrames
 	dw PoliwrathFrames
-	dw MachopFrames
-	dw MachokeFrames
-	dw MachampFrames
 	dw BellsproutFrames
 	dw WeepinbellFrames
 	dw VictreebelFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw LeafeonFrames
 	dw GlaceonFrames
 	dw GliscorFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw MamoswineFrames
 	dw PorygonZFrames
 	dw SylveonFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw PerrserkerFrames
 	dw CursolaFrames
 	dw SirfetchDFrames

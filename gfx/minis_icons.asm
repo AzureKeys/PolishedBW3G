@@ -237,21 +237,6 @@ PoliwrathMini::     INCBIN "gfx/minis/poliwrath.2bpp.lz"
 PoliwrathMiniMask:: INCBIN "gfx/minis/poliwrath_mask.1bpp.lz"
 PoliwrathIcon::     INCBIN "gfx/icons/poliwrath.2bpp.lz"
 
-SECTION "Machop Mini Icon", ROMX
-MachopMini::     INCBIN "gfx/minis/machop.2bpp.lz"
-MachopMiniMask:: INCBIN "gfx/minis/machop_mask.1bpp.lz"
-MachopIcon::     INCBIN "gfx/icons/machop.2bpp.lz"
-
-SECTION "Machoke Mini Icon", ROMX
-MachokeMini::     INCBIN "gfx/minis/machoke.2bpp.lz"
-MachokeMiniMask:: INCBIN "gfx/minis/machoke_mask.1bpp.lz"
-MachokeIcon::     INCBIN "gfx/icons/machoke.2bpp.lz"
-
-SECTION "Machamp Mini Icon", ROMX
-MachampMini::     INCBIN "gfx/minis/machamp.2bpp.lz"
-MachampMiniMask:: INCBIN "gfx/minis/machamp_mask.1bpp.lz"
-MachampIcon::     INCBIN "gfx/icons/machamp.2bpp.lz"
-
 SECTION "Bellsprout Mini Icon", ROMX
 BellsproutMini::     INCBIN "gfx/minis/bellsprout.2bpp.lz"
 BellsproutMiniMask:: INCBIN "gfx/minis/bellsprout_mask.1bpp.lz"

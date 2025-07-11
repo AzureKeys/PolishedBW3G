@@ -704,7 +704,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 21, ZUBAT
-	wildmon 22, MACHOP
+	wildmon 22, RATTATA
 	wildmon 21, GOLBAT
 	wildmon 22, GEODUDE
 	wildmon 20, CUBONE
@@ -712,7 +712,7 @@
 	wildmon 24, RATTATA
 	; day
 	wildmon 21, ZUBAT
-	wildmon 22, MACHOP
+	wildmon 22, RATTATA
 	wildmon 21, GOLBAT
 	wildmon 22, GEODUDE
 	wildmon 22, CUBONE
@@ -732,7 +732,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 21, GEODUDE
-	wildmon 23, MACHOP
+	wildmon 23, RATTATA
 	wildmon 23, ZUBAT
 	wildmon 22, RATICATE
 	wildmon 20, CUBONE
@@ -740,7 +740,7 @@
 	wildmon 25, GOLBAT
 	; day
 	wildmon 21, GEODUDE
-	wildmon 23, MACHOP
+	wildmon 23, RATTATA
 	wildmon 23, ZUBAT
 	wildmon 22, RATICATE
 	wildmon 20, CUBONE
@@ -760,17 +760,17 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 34, GRAVELER
-	wildmon 35, MACHOKE
+	wildmon 35, RATTATA
 	wildmon 34, GEODUDE
-	wildmon 31, MACHOP
+	wildmon 31, RATTATA
 	wildmon 33, MAROWAK
 	wildmon 33, GOLBAT
 	wildmon 33, GOLBAT
 	; day
 	wildmon 34, GRAVELER
-	wildmon 35, MACHOKE
+	wildmon 35, RATTATA
 	wildmon 34, GEODUDE
-	wildmon 31, MACHOP
+	wildmon 31, RATTATA
 	wildmon 33, MAROWAK
 	wildmon 33, GOLBAT
 	wildmon 33, GOLBAT
@@ -788,7 +788,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 15, ZUBAT
-	wildmon 16, MACHOP
+	wildmon 16, RATTATA
 	wildmon 17, GOLBAT
 	wildmon 16, GEODUDE
 	wildmon 17, CUBONE
@@ -796,7 +796,7 @@
 	wildmon 18, RATICATE
 	; day
 	wildmon 15, ZUBAT
-	wildmon 16, MACHOP
+	wildmon 16, RATTATA
 	wildmon 17, GOLBAT
 	wildmon 16, GEODUDE
 	wildmon 17, CUBONE
@@ -1208,7 +1208,7 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 74, GOLBAT
-	wildmon 74, MACHOKE
+	wildmon 74, RATTATA
 	wildmon 72, URSARING
 	wildmon 76, PARASECT
 	wildmon 76, PARASECT
@@ -1216,7 +1216,7 @@
 	wildmon 77, PUPITAR
 	; day
 	wildmon 74, GOLBAT
-	wildmon 74, MACHOKE
+	wildmon 74, RATTATA
 	wildmon 72, URSARING
 	wildmon 76, PARASECT
 	wildmon 76, PARASECT
@@ -1853,7 +1853,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 5, GEODUDE
-	wildmon LEVEL_FROM_BADGES - 2, MACHOKE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, KRABBY
 	wildmon LEVEL_FROM_BADGES - 6, WOOPER
 	wildmon LEVEL_FROM_BADGES - 4, GRAVELER
@@ -1861,7 +1861,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 5, GEODUDE
-	wildmon LEVEL_FROM_BADGES - 5, MACHOP
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, KINGLER
 	wildmon LEVEL_FROM_BADGES - 4, QUAGSIRE
 	wildmon LEVEL_FROM_BADGES - 4, ONIX
@@ -1870,7 +1870,7 @@
 	wildmon LEVEL_FROM_BADGES - 6, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 2, KINGLER
-	wildmon LEVEL_FROM_BADGES - 2, MACHOKE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, ONIX
 	wildmon LEVEL_FROM_BADGES - 4, MISDREAVUS
 	wildmon LEVEL_FROM_BADGES - 1, STEELIX
@@ -2021,7 +2021,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 3, CUBONE
 	wildmon LEVEL_FROM_BADGES - 2, ZUBAT
-	wildmon LEVEL_FROM_BADGES - 2, MACHOP
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 2, NATU
@@ -2029,7 +2029,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 3, CUBONE
 	wildmon LEVEL_FROM_BADGES - 2, ZUBAT
-	wildmon LEVEL_FROM_BADGES - 2, MACHOP
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 2, NATU
@@ -2051,7 +2051,7 @@
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 1, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
-	wildmon LEVEL_FROM_BADGES + 0, MACHOP
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; day
@@ -2059,7 +2059,7 @@
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 1, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
-	wildmon LEVEL_FROM_BADGES + 0, MACHOP
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; nite

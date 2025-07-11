@@ -130,9 +130,6 @@ AlphabeticalPokedexOrder:
 	dp LIEPARD
 	dp LILLIPUP
 	dp LUGIA
-	dp MACHAMP
-	dp MACHOKE
-	dp MACHOP
 	dp MAGBY
 	dp MAGCARGO
 	dp MAGIKARP

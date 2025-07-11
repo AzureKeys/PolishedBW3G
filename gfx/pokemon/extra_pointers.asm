@@ -46,9 +46,6 @@ AnimationExtraPointers:
 	dw PoliwagAnimationExtra
 	dw PoliwhirlAnimationExtra
 	dw PoliwrathAnimationExtra
-	dw MachopAnimationExtra
-	dw MachokeAnimationExtra
-	dw MachampAnimationExtra
 	dw BellsproutAnimationExtra
 	dw WeepinbellAnimationExtra
 	dw VictreebelAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw LeafeonAnimationExtra
 	dw GlaceonAnimationExtra
 	dw GliscorAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw MamoswineAnimationExtra
 	dw PorygonZAnimationExtra
 	dw SylveonAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw PerrserkerAnimationExtra
 	dw CursolaAnimationExtra
 	dw SirfetchDAnimationExtra

@@ -50,9 +50,6 @@ MiniIconPointers:
 	mini_icon Poliwag
 	mini_icon Poliwhirl
 	mini_icon Poliwrath
-	mini_icon Machop
-	mini_icon Machoke
-	mini_icon Machamp
 	mini_icon Bellsprout
 	mini_icon Weepinbell
 	mini_icon Victreebel
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Leafeon
 	mini_icon Glaceon
 	mini_icon Gliscor
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Mamoswine
 	mini_icon PorygonZ
 	mini_icon Sylveon
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Perrserker
 	mini_icon Cursola
 	mini_icon SirfetchD

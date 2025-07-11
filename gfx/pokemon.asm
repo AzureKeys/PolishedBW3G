@@ -140,18 +140,6 @@ SECTION "Poliwrath Pics", ROMX
 PoliwrathFrontpic: INCBIN "gfx/pokemon/poliwrath/front.animated.2bpp.lz"
 PoliwrathBackpic:  INCBIN "gfx/pokemon/poliwrath/back.2bpp.lz"
 
-SECTION "Machop Pics", ROMX
-MachopFrontpic: INCBIN "gfx/pokemon/machop/front.animated.2bpp.lz"
-MachopBackpic:  INCBIN "gfx/pokemon/machop/back.2bpp.lz"
-
-SECTION "Machoke Pics", ROMX
-MachokeFrontpic: INCBIN "gfx/pokemon/machoke/front.animated.2bpp.lz"
-MachokeBackpic:  INCBIN "gfx/pokemon/machoke/back.2bpp.lz"
-
-SECTION "Machamp Pics", ROMX
-MachampFrontpic: INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
-MachampBackpic:  INCBIN "gfx/pokemon/machamp/back.2bpp.lz"
-
 SECTION "Bellsprout Pics", ROMX
 BellsproutFrontpic: INCBIN "gfx/pokemon/bellsprout/front.animated.2bpp.lz"
 BellsproutBackpic:  INCBIN "gfx/pokemon/bellsprout/back.2bpp.lz"

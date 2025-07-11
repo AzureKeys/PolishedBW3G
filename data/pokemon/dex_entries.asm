@@ -462,36 +462,6 @@ PoliwrathPokedexEntry::
 	next "of the water for a"
 	next "split second.@"
 
-SECTION "MachopPokedexEntry", ROMX
-MachopPokedexEntry::
-	db "Superpower@"
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
-	page "can even pick up a"
-	next "Graveler with"
-	next "ease.@"
-
-SECTION "MachokePokedexEntry", ROMX
-MachokePokedexEntry::
-	db "Superpower@"
-	db   "This tough #mon"
-	next "always stays in"
-	next "the zone. Its"
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"
-
-SECTION "MachampPokedexEntry", ROMX
-MachampPokedexEntry::
-	db "Superpower@"
-	db   "With four arms"
-	next "that react more"
-	next "quickly than it"
-	page "can think, it can"
-	next "execute many"
-	next "punches at once.@"
-
 SECTION "BellsproutPokedexEntry", ROMX
 BellsproutPokedexEntry::
 	db "Flower@"
