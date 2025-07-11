@@ -53,9 +53,6 @@ PokemonBodyData:
 	body_data   6,  124, HEAD_LEGS,    BLUE   ; POLIWAG
 	body_data  10,  200, BIPEDAL,      BLUE   ; POLIWHIRL
 	body_data  13,  540, BIPEDAL,      BLUE   ; POLIWRATH
-	body_data   9,  195, BIPEDAL_TAIL, BROWN  ; ABRA
-	body_data  13,  565, BIPEDAL_TAIL, BROWN  ; KADABRA
-	body_data  15,  480, BIPEDAL,      BROWN  ; ALAKAZAM
 	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; MACHOP
 	body_data  15,  705, BIPEDAL,      GRAY   ; MACHOKE
 	body_data  16, 1300, BIPEDAL,      GRAY   ; MACHAMP
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  16,  680, BIPEDAL_TAIL, RED    ; MAGMORTAR
 	body_data  15,  380, WINGS,        WHITE  ; TOGEKISS
 	body_data  19,  515, MULTIWINGS,   GREEN  ; YANMEGA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  10,  255, QUADRUPED,    GREEN  ; LEAFEON
 	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
 	body_data  20,  425, WINGS,        PURPLE ; GLISCOR
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
 	body_data   9,  340, HEAD_ARMS,    RED    ; PORYGON_Z
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
@@ -305,6 +302,9 @@ PokemonBodyData:
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT
 	body_data   8,  298, QUADRUPED,    BLACK  ; BLITZLE
 	body_data  16,  795, QUADRUPED,    BLACK  ; ZEBSTRIKA
+	body_data   4,  180, HEAD_LEGS,    BLUE   ; ROGGENROLA
+	body_data   9, 1020, TENTACLES,    BLUE   ; BOLDORE
+	body_data  17, 2600, TENTACLES,    BLUE   ; GIGALITH
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

@@ -462,36 +462,6 @@ PoliwrathPokedexEntry::
 	next "of the water for a"
 	next "split second.@"
 
-SECTION "AbraPokedexEntry", ROMX
-AbraPokedexEntry::
-	db "Psi@"
-	db   "It hypnotizes"
-	next "itself so that it"
-	next "can teleport away"
-	page "when it senses"
-	next "danger, even"
-	next "if it is asleep.@"
-
-SECTION "KadabraPokedexEntry", ROMX
-KadabraPokedexEntry::
-	db "Psi@"
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
-
-SECTION "AlakazamPokedexEntry", ROMX
-AlakazamPokedexEntry::
-	db "Psi@"
-	db   "It has an IQ of"
-	next "5000. It calcu-"
-	next "lates many things"
-	page "in order to gain"
-	next "the edge in every"
-	next "battle.@"
-
 SECTION "MachopPokedexEntry", ROMX
 MachopPokedexEntry::
 	db "Superpower@"
@@ -2960,6 +2930,36 @@ ZebstrikaPokedexEntry::
 	page "at full speed,"
 	next "it makes sound"
 	next "of thunder.@"
+
+SECTION "RoggenrolaPokedexEntry", ROMX
+RoggenrolaPokedexEntry::
+	db "Mantle@"
+	db "Its ear is shaped"
+	next "like a hexagon."
+	next "Compressed under"
+	page "ground, its body"
+	next "is as hard as"
+	next "steel.@"
+
+SECTION "BoldorePokedexEntry", ROMX
+BoldorePokedexEntry::
+	db "Ore@"
+	db "When it is full"
+	next "of power, the"
+	next "orange crystal"
+	page "on it glows. It"
+	next "looks for energy"
+	next "in caves.@"
+
+SECTION "GigalithPokedexEntry", ROMX
+GigalithPokedexEntry::
+	db "Compressed@"
+	db "The solar energy"
+	next "absorbed by its"
+	next "body's crystals"
+	page "is magnified and"
+	next "fired from its"
+	next "mouth.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

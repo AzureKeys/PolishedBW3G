@@ -483,7 +483,7 @@
 	wildmon 46, GRANBULL
 	wildmon 51, BELLSPROUT
 	wildmon 47, WEEPINBELL
-	wildmon 48, KADABRA
+	wildmon 48, RATTATA
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
 	; day
@@ -491,7 +491,7 @@
 	wildmon 46, GRANBULL
 	wildmon 51, BELLSPROUT
 	wildmon 47, WEEPINBELL
-	wildmon 48, KADABRA
+	wildmon 48, RATTATA
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
 	; nite
@@ -499,7 +499,7 @@
 	wildmon 46, PERSIAN
 	wildmon 51, RATTATA
 	wildmon 47, RATTATA
-	wildmon 48, KADABRA
+	wildmon 48, RATTATA
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
 	end_grass_wildmons
@@ -568,24 +568,24 @@
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
+	wildmon 50, RATTATA
+	wildmon 50, RATTATA
 	; day
 	wildmon 48, RATTATA
 	wildmon 51, ARBOK, ARBOK_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
+	wildmon 50, RATTATA
+	wildmon 50, RATTATA
 	; nite
 	wildmon 48, PERSIAN
 	wildmon 51, NOCTOWL
-	wildmon 53, KADABRA
+	wildmon 53, RATTATA
 	wildmon 53, HAUNTER
 	wildmon 53, VULPIX
-	wildmon 50, KADABRA
-	wildmon 50, KADABRA
+	wildmon 50, RATTATA
+	wildmon 50, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_9
@@ -1044,24 +1044,24 @@
 	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
 	wildmon 49, RATTATA
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	; day
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
 	wildmon 49, RATTATA
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	; nite
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, NOCTOWL
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_25
@@ -1072,24 +1072,24 @@
 	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
 	wildmon 49, RATTATA
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	; day
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
 	wildmon 50, WEEPINBELL
 	wildmon 49, RATTATA
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	; nite
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, NOCTOWL
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
-	wildmon 53, KADABRA
-	wildmon 52, KADABRA
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26
@@ -1239,7 +1239,7 @@
 	wildmon 67, PARASECT
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
-	wildmon 70, ALAKAZAM
+	wildmon 70, RATTATA
 	wildmon 69, ELECTRODE
 	wildmon 72, DITTO
 	; day
@@ -1247,7 +1247,7 @@
 	wildmon 67, PARASECT
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
-	wildmon 70, ALAKAZAM
+	wildmon 70, RATTATA
 	wildmon 69, ELECTRODE
 	wildmon 72, DITTO
 	; nite
@@ -1267,7 +1267,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
-	wildmon 72, ALAKAZAM
+	wildmon 72, RATTATA
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
 	; day
@@ -1275,7 +1275,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
-	wildmon 72, ALAKAZAM
+	wildmon 72, RATTATA
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
 	; nite

@@ -140,18 +140,6 @@ SECTION "Poliwrath Pics", ROMX
 PoliwrathFrontpic: INCBIN "gfx/pokemon/poliwrath/front.animated.2bpp.lz"
 PoliwrathBackpic:  INCBIN "gfx/pokemon/poliwrath/back.2bpp.lz"
 
-SECTION "Abra Pics", ROMX
-AbraFrontpic: INCBIN "gfx/pokemon/abra/front.animated.2bpp.lz"
-AbraBackpic:  INCBIN "gfx/pokemon/abra/back.2bpp.lz"
-
-SECTION "Kadabra Pics", ROMX
-KadabraFrontpic: INCBIN "gfx/pokemon/kadabra/front.animated.2bpp.lz"
-KadabraBackpic:  INCBIN "gfx/pokemon/kadabra/back.2bpp.lz"
-
-SECTION "Alakazam Pics", ROMX
-AlakazamFrontpic: INCBIN "gfx/pokemon/alakazam/front.animated.2bpp.lz"
-AlakazamBackpic:  INCBIN "gfx/pokemon/alakazam/back.2bpp.lz"
-
 SECTION "Machop Pics", ROMX
 MachopFrontpic: INCBIN "gfx/pokemon/machop/front.animated.2bpp.lz"
 MachopBackpic:  INCBIN "gfx/pokemon/machop/back.2bpp.lz"
@@ -1584,3 +1572,15 @@ BlitzleBackpic:  INCBIN "gfx/pokemon/blitzle/back.2bpp.lz"
 SECTION "Zebstrika Pics", ROMX
 ZebstrikaFrontpic: INCBIN "gfx/pokemon/zebstrika/front.animated.2bpp.lz"
 ZebstrikaBackpic:  INCBIN "gfx/pokemon/zebstrika/back.2bpp.lz"
+
+SECTION "Roggenrola Pics", ROMX
+RoggenrolaFrontpic: INCBIN "gfx/pokemon/roggenrola/front.animated.2bpp.lz"
+RoggenrolaBackpic:  INCBIN "gfx/pokemon/roggenrola/back.2bpp.lz"
+
+SECTION "Boldore Pics", ROMX
+BoldoreFrontpic: INCBIN "gfx/pokemon/boldore/front.animated.2bpp.lz"
+BoldoreBackpic:  INCBIN "gfx/pokemon/boldore/back.2bpp.lz"
+
+SECTION "Gigalith Pics", ROMX
+GigalithFrontpic: INCBIN "gfx/pokemon/gigalith/front.animated.2bpp.lz"
+GigalithBackpic:  INCBIN "gfx/pokemon/gigalith/back.2bpp.lz"

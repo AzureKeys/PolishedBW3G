@@ -34,4 +34,7 @@ HardenUsers:
 	dp GLISCOR
 	dp CURSOLA
 	dp KLEAVOR
+	dp ROGGENROLA
+	dp BOLDORE
+	dp GIGALITH
 	db 0

@@ -45,7 +45,6 @@ UniqueWildMoves:
 	unique_moves CERULEAN_CAVE,    MACHAMP,    METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAVE,    ALAKAZAM,   METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
 	unique_moves DIGLETTS_CAVE,    DUGTRIO,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move

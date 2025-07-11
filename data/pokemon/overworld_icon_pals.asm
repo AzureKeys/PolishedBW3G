@@ -50,9 +50,6 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; POLIWAG
 	iconpal BLUE, AZURE ; POLIWHIRL
 	iconpal BLUE, TEAL ; POLIWRATH
-	iconpal BROWN, RED ; ABRA
-	iconpal BROWN, RED ; KADABRA
-	iconpal BROWN, RED ; ALAKAZAM
 	iconpal GRAY, GREEN ; MACHOP
 	iconpal GRAY, GREEN ; MACHOKE
 	iconpal GRAY, GREEN ; MACHAMP
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; MAGMORTAR
 	iconpal WHITE, AZURE ; TOGEKISS
 	iconpal RED, BLUE ; YANMEGA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, BROWN ; LEAFEON
 	iconpal AZURE, BLUE ; GLACEON
 	iconpal PURPLE, GRAY ; GLISCOR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, GREEN ; MAMOSWINE
 	iconpal BLUE, PURPLE ; PORYGON_Z
 	iconpal PINK, AZURE ; SYLVEON
@@ -302,6 +299,9 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; UNFEZANT
 	iconpal BLACK, BLUE ; BLITZLE
 	iconpal BLACK, PURPLE ; ZEBSTRIKA
+	iconpal BLUE, PURPLE ; ROGGENROLA
+	iconpal BLUE, PURPLE ; BOLDORE
+	iconpal BLUE, PURPLE ; GIGALITH
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

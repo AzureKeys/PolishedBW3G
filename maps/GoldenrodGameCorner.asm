@@ -206,16 +206,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .abra
 	checkcoins GOLDENRODGAMECORNER_ABRA_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname ABRA, STRING_BUFFER_3
+	getmonname RATTATA, STRING_BUFFER_3
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke ABRA, 5
+	givepoke RATTATA, 5
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval ABRA
+	setmonval RATTATA
 	special Special_GameCornerPrizeMonCheckDex
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop

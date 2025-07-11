@@ -237,21 +237,6 @@ PoliwrathMini::     INCBIN "gfx/minis/poliwrath.2bpp.lz"
 PoliwrathMiniMask:: INCBIN "gfx/minis/poliwrath_mask.1bpp.lz"
 PoliwrathIcon::     INCBIN "gfx/icons/poliwrath.2bpp.lz"
 
-SECTION "Abra Mini Icon", ROMX
-AbraMini::     INCBIN "gfx/minis/abra.2bpp.lz"
-AbraMiniMask:: INCBIN "gfx/minis/abra_mask.1bpp.lz"
-AbraIcon::     INCBIN "gfx/icons/abra.2bpp.lz"
-
-SECTION "Kadabra Mini Icon", ROMX
-KadabraMini::     INCBIN "gfx/minis/kadabra.2bpp.lz"
-KadabraMiniMask:: INCBIN "gfx/minis/kadabra_mask.1bpp.lz"
-KadabraIcon::     INCBIN "gfx/icons/kadabra.2bpp.lz"
-
-SECTION "Alakazam Mini Icon", ROMX
-AlakazamMini::     INCBIN "gfx/minis/alakazam.2bpp.lz"
-AlakazamMiniMask:: INCBIN "gfx/minis/alakazam_mask.1bpp.lz"
-AlakazamIcon::     INCBIN "gfx/icons/alakazam.2bpp.lz"
-
 SECTION "Machop Mini Icon", ROMX
 MachopMini::     INCBIN "gfx/minis/machop.2bpp.lz"
 MachopMiniMask:: INCBIN "gfx/minis/machop_mask.1bpp.lz"
@@ -1491,6 +1476,21 @@ SECTION "Zebstrika Mini Icon", ROMX
 ZebstrikaMini::     INCBIN "gfx/minis/zebstrika.2bpp.lz"
 ZebstrikaMiniMask:: INCBIN "gfx/minis/zebstrika_mask.1bpp.lz"
 ZebstrikaIcon::     INCBIN "gfx/icons/zebstrika.2bpp.lz"
+
+SECTION "Roggenrola Mini Icon", ROMX
+RoggenrolaMini::     INCBIN "gfx/minis/roggenrola.2bpp.lz"
+RoggenrolaMiniMask:: INCBIN "gfx/minis/roggenrola_mask.1bpp.lz"
+RoggenrolaIcon::     INCBIN "gfx/icons/roggenrola.2bpp.lz"
+
+SECTION "Boldore Mini Icon", ROMX
+BoldoreMini::     INCBIN "gfx/minis/boldore.2bpp.lz"
+BoldoreMiniMask:: INCBIN "gfx/minis/boldore_mask.1bpp.lz"
+BoldoreIcon::     INCBIN "gfx/icons/boldore.2bpp.lz"
+
+SECTION "Gigalith Mini Icon", ROMX
+GigalithMini::     INCBIN "gfx/minis/gigalith.2bpp.lz"
+GigalithMiniMask:: INCBIN "gfx/minis/gigalith_mask.1bpp.lz"
+GigalithIcon::     INCBIN "gfx/icons/gigalith.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

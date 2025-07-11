@@ -38,6 +38,9 @@ TranquillFootprint::
 UnfezantFootprint::
 BlitzleFootprint::
 ZebstrikaFootprint::
+RoggenrolaFootprint::
+BoldoreFootprint::
+GigalithFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::
@@ -138,9 +141,6 @@ ArcanineFootprint:: INCBIN "gfx/footprints/arcanine.1bpp.lz"
 PoliwagFootprint:: INCBIN "gfx/footprints/poliwag.1bpp.lz"
 PoliwhirlFootprint:: INCBIN "gfx/footprints/poliwhirl.1bpp.lz"
 PoliwrathFootprint:: INCBIN "gfx/footprints/poliwrath.1bpp.lz"
-AbraFootprint:: INCBIN "gfx/footprints/abra.1bpp.lz"
-KadabraFootprint:: INCBIN "gfx/footprints/kadabra.1bpp.lz"
-AlakazamFootprint:: INCBIN "gfx/footprints/alakazam.1bpp.lz"
 MachopFootprint:: INCBIN "gfx/footprints/machop.1bpp.lz"
 MachokeFootprint:: INCBIN "gfx/footprints/machoke.1bpp.lz"
 MachampFootprint:: INCBIN "gfx/footprints/machamp.1bpp.lz"

@@ -259,14 +259,6 @@ PoliwagEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
-AbraEggSpeciesMoves:
-	dp ABRA, PLAIN_FORM
-	db BARRIER
-	db ENCORE
-	db LIGHT_SCREEN
-	db KNOCK_OFF
-	db $ff
-
 MachopEggSpeciesMoves:
 	dp MACHOP, PLAIN_FORM
 	db BULLET_PUNCH
@@ -1259,6 +1251,15 @@ BlitzleEggSpeciesMoves:
 	db MUD_SLAP
 	db SCREECH
 	;db SHOCK_WAVE
+	db TAKE_DOWN
+	db $ff
+
+RoggenrolaEggSpeciesMoves:
+	dp ROGGENROLA, PLAIN_FORM
+	db CURSE
+	;db LOCK_ON
+	db MAGNITUDE
+	;db ROCK_TOMB
 	db TAKE_DOWN
 	db $ff
 

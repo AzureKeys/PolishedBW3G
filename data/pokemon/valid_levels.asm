@@ -47,9 +47,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  24 ; Poliwag
 	db  25,  35 ; Poliwhirl
 	db  36, 100 ; Poliwrath
-	db   1,  15 ; Abra
-	db  16,  35 ; Kadabra
-	db  36, 100 ; Alakazam
 	db   1,  27 ; Machop
 	db  28,  45 ; Machoke
 	db  46, 100 ; Machamp
@@ -259,11 +256,11 @@ endc
 	db  47, 100 ; Magmortar
 	db  40, 100 ; Togekiss
 	db  40, 100 ; Yanmega
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  20, 100 ; Leafeon
 	db  20, 100 ; Glaceon
 	db  20, 100 ; Gliscor
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  45, 100 ; Mamoswine
 	db  40, 100 ; Porygon-Z
 	db  20, 100 ; Sylveon
@@ -303,4 +300,7 @@ endc
 	db  32, 100 ; Unfezant
 	db   1,  26 ; Blitzle
 	db  27, 100 ; Zebstrika
+	db   1,  24 ; Roggenrola
+	db  25,  39 ; Boldore
+	db  40, 100 ; Gigalith
 	assert_table_length NUM_SPECIES

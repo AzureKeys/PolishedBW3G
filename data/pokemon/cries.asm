@@ -52,9 +52,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; Poliwag
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; Poliwhirl
 	mon_cry CRY_PIDGEY,      $000,  $17f ; Poliwrath
-	mon_cry CRY_METAPOD,     $0c0,  $081 ; Abra
-	mon_cry CRY_METAPOD,     $0a8,  $140 ; Kadabra
-	mon_cry CRY_METAPOD,     $098,  $17f ; Alakazam
 	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; Machop
 	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; Machoke
 	mon_cry CRY_GROWLITHE,   $008,  $140 ; Machamp
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmortar
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanmega
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VENONAT,     $03d,  $160 ; Leafeon
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Glaceon
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gliscor
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Mamoswine
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PorygonZ
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
@@ -304,4 +301,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
 	mon_cry CRY_PIDGEOTTO,   $024,  $0c0 ; Blitzle
 	mon_cry CRY_NIDORAN_M,   $026,  $220 ; Zebstrika
+	mon_cry CRY_SLOWKING,   -$5a0,  $130 ; Roggenrola
+	mon_cry CRY_VOLTORB,     $4bf,  $100 ; Boldore
+	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; Gigalith
 	assert_table_length NUM_SPECIES

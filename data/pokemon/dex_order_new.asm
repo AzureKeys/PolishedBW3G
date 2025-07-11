@@ -25,6 +25,9 @@ NewPokedexOrder:
 	dp UNFEZANT
 	dp BLITZLE
 	dp ZEBSTRIKA
+	dp ROGGENROLA
+	dp BOLDORE
+	dp GIGALITH
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -104,9 +107,6 @@ NewPokedexOrder:
 	dp BELLOSSOM
 	dp DROWZEE
 	dp HYPNO
-	dp ABRA
-	dp KADABRA
-	dp ALAKAZAM
 	dp DITTO
 	dp PINECO
 	dp FORRETRESS

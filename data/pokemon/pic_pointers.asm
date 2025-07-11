@@ -50,9 +50,6 @@ PokemonPicPointers::
 	pics Poliwag
 	pics Poliwhirl
 	pics Poliwrath
-	pics Abra
-	pics Kadabra
-	pics Alakazam
 	pics Machop
 	pics Machoke
 	pics Machamp
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Magmortar
 	pics Togekiss
 	pics Yanmega
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Leafeon
 	pics Glaceon
 	pics Gliscor
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Mamoswine
 	pics PorygonZ
 	pics Sylveon
@@ -302,6 +299,9 @@ PokemonPicPointers::
 	pics Unfezant
 	pics Blitzle
 	pics Zebstrika
+	pics Roggenrola
+	pics Boldore
+	pics Gigalith
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

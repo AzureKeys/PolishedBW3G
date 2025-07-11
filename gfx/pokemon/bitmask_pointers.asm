@@ -46,9 +46,6 @@ BitmasksPointers:
 	dw PoliwagBitmasks
 	dw PoliwhirlBitmasks
 	dw PoliwrathBitmasks
-	dw AbraBitmasks
-	dw KadabraBitmasks
-	dw AlakazamBitmasks
 	dw MachopBitmasks
 	dw MachokeBitmasks
 	dw MachampBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw MagmortarBitmasks
 	dw TogekissBitmasks
 	dw YanmegaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw LeafeonBitmasks
 	dw GlaceonBitmasks
 	dw GliscorBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw MamoswineBitmasks
 	dw PorygonZBitmasks
 	dw SylveonBitmasks
@@ -298,6 +295,9 @@ BitmasksPointers:
 	dw UnfezantBitmasks
 	dw BlitzleBitmasks
 	dw ZebstrikaBitmasks
+	dw RoggenrolaBitmasks
+	dw BoldoreBitmasks
+	dw GigalithBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

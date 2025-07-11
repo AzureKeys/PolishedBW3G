@@ -50,9 +50,6 @@ EvosAttacksPointers::
 	dw PoliwagEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
-	dw AbraEvosAttacks
-	dw KadabraEvosAttacks
-	dw AlakazamEvosAttacks
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw MagmortarEvosAttacks
 	dw TogekissEvosAttacks
 	dw YanmegaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw MamoswineEvosAttacks
 	dw PorygonZEvosAttacks
 	dw SylveonEvosAttacks
@@ -302,6 +299,9 @@ EvosAttacksPointers::
 	dw UnfezantEvosAttacks
 	dw BlitzleEvosAttacks
 	dw ZebstrikaEvosAttacks
+	dw RoggenrolaEvosAttacks
+	dw BoldoreEvosAttacks
+	dw GigalithEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

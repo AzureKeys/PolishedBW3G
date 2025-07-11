@@ -50,9 +50,6 @@ MiniIconPointers:
 	mini_icon Poliwag
 	mini_icon Poliwhirl
 	mini_icon Poliwrath
-	mini_icon Abra
-	mini_icon Kadabra
-	mini_icon Alakazam
 	mini_icon Machop
 	mini_icon Machoke
 	mini_icon Machamp
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Magmortar
 	mini_icon Togekiss
 	mini_icon Yanmega
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Leafeon
 	mini_icon Glaceon
 	mini_icon Gliscor
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Mamoswine
 	mini_icon PorygonZ
 	mini_icon Sylveon
@@ -302,6 +299,9 @@ MiniIconPointers:
 	mini_icon Unfezant
 	mini_icon Blitzle
 	mini_icon Zebstrika
+	mini_icon Roggenrola
+	mini_icon Boldore
+	mini_icon Gigalith
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -454,7 +454,7 @@ WillGroup:
 	tr_mon 50, EXEGGUTOR @ MIRACLE_SEED
 		tr_evs 144 HP, 144 SAt
 		tr_moves REFLECT, LEECH_SEED, SEED_BOMB, PSYCHIC_M
-	tr_mon 50, ALAKAZAM @ LUM_BERRY
+	tr_mon 50, RATTATA @ LUM_BERRY
 		tr_evs 144 HP, 144 SAt
 		tr_moves CALM_MIND, RECOVER, LIGHT_SCREEN, PSYCHIC_M
 	tr_mon 49, SLOWBRO @ SITRUS_BERRY
@@ -472,7 +472,7 @@ WillGroup:
 		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
 	tr_mon 68, EXEGGUTOR @ MIRACLE_SEED
 		tr_moves REFLECT, GIGA_DRAIN, SLEEP_POWDER, PSYCHIC_M
-	tr_mon 69, ALAKAZAM @ LUM_BERRY
+	tr_mon 69, RATTATA @ LUM_BERRY
 		tr_moves HP_FIGHTING, RECOVER, SHADOW_BALL, PSYCHIC_M
 	tr_mon 69, SLOWBRO @ WISE_GLASSES
 		tr_moves SURF, PSYCHIC_M, THUNDER_WAVE, REST
@@ -905,7 +905,7 @@ SabrinaGroup:
 	tr_mon 58, WOBBUFFET
 		tr_evs 252 HP, 68 Spe
 		tr_moves COUNTER, MIRROR_COAT, SAFEGUARD, DESTINY_BOND
-	tr_mon 62, ALAKAZAM @ SITRUS_BERRY
+	tr_mon 62, RATTATA @ SITRUS_BERRY
 		tr_evs 252 SAt, 68 Spe
 		tr_moves RECOVER, FUTURE_SIGHT, PSYCHIC_M, REFLECT
 	end_trainer
@@ -921,7 +921,7 @@ SabrinaGroup:
 		tr_moves NASTY_PLOT, PSYCHIC_M, HYPNOSIS, FUTURE_SIGHT
 	tr_mon 74, SLOWKING @ KINGS_ROCK
 		tr_moves THUNDER_WAVE, NASTY_PLOT, SCALD, PSYCHIC_M
-	tr_mon 75, ALAKAZAM @ FOCUS_BAND
+	tr_mon 75, RATTATA @ FOCUS_BAND
 		tr_moves RECOVER, SHADOW_BALL, PSYCHIC_M, FOCUS_BLAST
 	end_trainer
 
@@ -1247,7 +1247,7 @@ Rival1Group:
 		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
 	tr_mon 46, GENGAR @ SPELL_TAG
 		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 46, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 46, RATTATA @ BRIGHTPOWDER
 		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
 	tr_mon 49, MEGANIUM @ SITRUS_BERRY
 		tr_moves REFLECT, LIGHT_SCREEN, ENERGY_BALL, ANCIENTPOWER
@@ -1262,7 +1262,7 @@ Rival1Group:
 		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
 	tr_mon 46, GENGAR @ SPELL_TAG
 		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 46, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 46, RATTATA @ BRIGHTPOWDER
 		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
 	tr_mon 49, TYPHLOSION @ SITRUS_BERRY
 		tr_moves SMOKESCREEN, QUICK_ATTACK, DIG, FLAMETHROWER
@@ -1277,7 +1277,7 @@ Rival1Group:
 		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
 	tr_mon 46, GENGAR @ SPELL_TAG
 		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 46, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 46, RATTATA @ BRIGHTPOWDER
 		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
 	tr_mon 49, FERALIGATR @ SITRUS_BERRY
 		tr_moves CRUNCH, SURF, SLASH, SCARY_FACE
@@ -1301,7 +1301,7 @@ Rival2Group:
 	tr_mon 63, GENGAR @ SPELL_TAG
 		tr_evs 252 SAt, 204 Spe
 		tr_moves MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 63, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 63, RATTATA @ BRIGHTPOWDER
 		tr_evs 252 SAt, 204 Spe
 		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
 	tr_mon 65, MEGANIUM @ MIRACLE_SEED
@@ -1322,7 +1322,7 @@ Rival2Group:
 	tr_mon 63, GENGAR @ SPELL_TAG
 		tr_evs 252 SAt, 204 Spe
 		tr_moves MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 63, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 63, RATTATA @ BRIGHTPOWDER
 		tr_evs 252 SAt, 204 Spe
 		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
 	tr_mon 65, TYPHLOSION @ CHARCOAL
@@ -1343,7 +1343,7 @@ Rival2Group:
 	tr_mon 63, GENGAR @ SPELL_TAG
 		tr_evs 252 SAt, 204 Spe
 		tr_moves MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 63, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 63, RATTATA @ BRIGHTPOWDER
 		tr_evs 252 SAt, 204 Spe
 		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
 	tr_mon 65, FERALIGATR @ MYSTIC_WATER
@@ -1360,7 +1360,7 @@ Rival2Group:
 		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
 	tr_mon 70, GENGAR @ SPELL_TAG
 		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 70, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 70, RATTATA @ BRIGHTPOWDER
 		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
 	tr_mon 72, MEGANIUM @ LEFTOVERS
 		tr_moves PETAL_DANCE, MOONBLAST, LIGHT_SCREEN, ANCIENTPOWER
@@ -1375,7 +1375,7 @@ Rival2Group:
 		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
 	tr_mon 70, GENGAR @ SPELL_TAG
 		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 70, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 70, RATTATA @ BRIGHTPOWDER
 		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
 	tr_mon 72, TYPHLOSION @ LEFTOVERS
 		tr_moves FIRE_BLAST, FOCUS_BLAST, EARTH_POWER, SMOKESCREEN
@@ -1390,7 +1390,7 @@ Rival2Group:
 		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
 	tr_mon 70, GENGAR @ SPELL_TAG
 		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 70, ALAKAZAM @ BRIGHTPOWDER
+	tr_mon 70, RATTATA @ BRIGHTPOWDER
 		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
 	tr_mon 72, FERALIGATR @ LEFTOVERS
 		tr_moves SURF, CRUNCH, SLASH, OUTRAGE
@@ -3985,7 +3985,7 @@ SchoolboyGroup:
 
 	def_trainer TOMMY, "Tommy"
 	tr_mon 56, XATU
-	tr_mon 57, ALAKAZAM
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer DUDLEY, "Dudley"
@@ -4081,7 +4081,7 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer FRANKLIN, "Franklin"
-	tr_mon 53, KADABRA
+	tr_mon 53, RATTATA
 	tr_mon 56, GIRAFARIG
 	end_trainer
 
@@ -4108,16 +4108,16 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer MARK, "Mark"
-	tr_mon 14, ABRA
+	tr_mon 14, RATTATA
 		tr_moves TELEPORT, FLASH
-	tr_mon 14, ABRA
+	tr_mon 14, RATTATA
 		tr_moves TELEPORT, FLASH
-	tr_mon 16, KADABRA
+	tr_mon 16, RATTATA
 		tr_moves TELEPORT, CALM_MIND, CONFUSION
 	end_trainer
 
 	def_trainer PHIL, "Phil"
-	tr_mon 36, KADABRA
+	tr_mon 36, RATTATA
 	tr_mon 35, XATU
 	end_trainer
 
@@ -4149,8 +4149,8 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer URI, "Uri"
-	tr_mon 57, "Hocus", KADABRA
-	tr_mon 57, "Pocus", KADABRA
+	tr_mon 57, "Hocus", RATTATA
+	tr_mon 57, "Pocus", RATTATA
 	end_trainer
 
 	def_trainer VIRGIL, "Virgil"
@@ -4181,7 +4181,7 @@ HexManiacGroup:
 	end_trainer
 
 	def_trainer LUNA, "Luna"
-	tr_mon 54, KADABRA
+	tr_mon 54, RATTATA
 		tr_moves PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FUTURE_SIGHT
 	tr_mon 56, NINETALES
 		tr_moves PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FLAMETHROWER
@@ -4197,7 +4197,7 @@ HexManiacGroup:
 	tr_mon 54, HAUNTER
 	tr_mon 52, HAUNTER
 	tr_mon 54, HAUNTER
-	tr_mon 56, ALAKAZAM
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer ESTHER, "Esther"
@@ -4494,23 +4494,23 @@ CoupleGroup:
 	end_trainer
 
 	def_trainer TIMANDSUE1, "Tim & Sue"
-	tr_mon 53, KADABRA, MALE
+	tr_mon 53, RATTATA, MALE
 	tr_mon 57, GOLDUCK, FEMALE
 	end_trainer
 
 	def_trainer TIMANDSUE2, "Tim & Sue"
 	tr_mon 57, GOLDUCK, FEMALE
-	tr_mon 53, KADABRA, MALE
+	tr_mon 53, RATTATA, MALE
 	end_trainer
 
 	def_trainer JOEANDJO1, "Joe & Jo"
-	tr_mon 56, ALAKAZAM, MALE
+	tr_mon 56, RATTATA, MALE
 	tr_mon 52, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer JOEANDJO2, "Joe & Jo"
 	tr_mon 52, RATTATA, FEMALE
-	tr_mon 56, ALAKAZAM, MALE
+	tr_mon 56, RATTATA, MALE
 	end_trainer
 
 
@@ -5220,13 +5220,13 @@ ScientistGroup:
 
 	def_trainer DEXTER, "Dexter"
 	tr_mon 54, MAGNETON
-	tr_mon 55, ALAKAZAM
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer JOSEPH, "Joseph"
 	tr_mon 54, DITTO
 	tr_mon 55, GOLDUCK
-	tr_mon 53, KADABRA
+	tr_mon 53, RATTATA
 	end_trainer
 
 	def_trainer NIGEL, "Nigel"
@@ -5236,11 +5236,11 @@ ScientistGroup:
 
 	def_trainer PIOTR, "Piotr"
 	tr_mon 54, GOLDUCK
-	tr_mon 55, ALAKAZAM
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer SANDERS, "Sanders"
-	tr_mon 52, ALAKAZAM
+	tr_mon 52, RATTATA
 	tr_mon 54, LAPRAS
 	tr_mon 53, NOCTOWL
 	end_trainer
@@ -5993,8 +5993,8 @@ SightseerFGroup:
 	end_trainer
 
 	def_trainer LENIE, "Lenie"
-	tr_mon LEVEL_FROM_BADGES + 6, ALAKAZAM @ FLAME_ORB, FEMALE
-		tr_extra SYNCHRONIZE, SATK_UP_ATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA @ FLAME_ORB, FEMALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 168 SAt
 		tr_moves LIGHT_SCREEN, REFLECT, PSYCHIC_M, SHADOW_BALL
 	tr_mon LEVEL_FROM_BADGES + 6, MACHAMP @ FLAME_ORB, FEMALE
@@ -6132,7 +6132,7 @@ CooltrainerMGroup:
 
 	def_trainer FRENCH, "French"
 	tr_mon 62, HOUNDOOM
-	tr_mon 63, ALAKAZAM
+	tr_mon 63, RATTATA
 	end_trainer
 
 	def_trainer HENRI, "Henri"
@@ -6526,7 +6526,7 @@ endc
 		tr_moves SLUDGE_BOMB, SEED_BOMB, SLEEP_POWDER, SWORDS_DANCE
 	tr_mon 39, RAICHU @ SILK_SCARF
 		tr_moves SURF, THUNDERBOLT, EXTREMESPEED, NASTY_PLOT
-	tr_mon 40, ALAKAZAM @ TWISTEDSPOON
+	tr_mon 40, RATTATA @ TWISTEDSPOON
 		tr_moves TRI_ATTACK, PSYBEAM, RECOVER, REFLECT
 	tr_mon 38, SKARMORY @ SHARP_BEAK
 		tr_moves DRILL_PECK, SWIFT, STEEL_WING, ROCK_SMASH
@@ -6608,8 +6608,8 @@ VeteranFGroup:
 
 	def_trainer LITVYAK, "Litvyak"
 
-	tr_mon LEVEL_FROM_BADGES + 11, ALAKAZAM @ CHOICE_SPECS, FEMALE
-		tr_extra TRACE, SATK_UP_ATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ CHOICE_SPECS, FEMALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 44 Spe
 		tr_moves PSYCHIC_M, SHADOW_BALL, FOCUS_BLAST, HP_FIRE
 	tr_mon LEVEL_FROM_BADGES + 11, PORYGON_Z @ CHOICE_SPECS, FEMALE
@@ -6894,8 +6894,8 @@ MysticalmanGroup:
 	tr_mon 28, ELECTRODE @ MAGNET, MALE
 		tr_extra AFTERMATH, SHINY
 		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
-	tr_mon 29, ALAKAZAM @ TWISTEDSPOON, MALE
-		tr_extra SYNCHRONIZE
+	tr_mon 29, RATTATA @ TWISTEDSPOON, MALE
+		tr_extra HUSTLE
 		tr_moves REFLECT, LIGHT_SCREEN, HP_FIGHTING, PSYBEAM
 	end_trainer
 
@@ -6929,7 +6929,7 @@ TowerTycoonGroup:
 		tr_moves EARTHQUAKE, ROCK_SLIDE, MEGAHORN, AVALANCHE
 	tr_mon 75, DRAGONITE @ WISE_GLASSES
 		tr_moves HURRICANE, DRAGON_PULSE, FIRE_BLAST, BLIZZARD
-	tr_mon 73, ALAKAZAM @ TWISTEDSPOON
+	tr_mon 73, RATTATA @ TWISTEDSPOON
 		tr_moves PSYCHIC_M, CONFUSE_RAY, TRI_ATTACK, LIGHT_SCREEN
 	tr_mon 73, SNORLAX @ LEFTOVERS
 		tr_moves SLEEP_TALK, REST, BODY_SLAM, GUNK_SHOT
@@ -7291,7 +7291,7 @@ MiraGroup:
 	def_trainer_class MIRA
 	def_trainer 1, "Mira"
 	tr_mon 58, TOGEKISS
-	tr_mon 57, ALAKAZAM
+	tr_mon 57, RATTATA
 	tr_mon 56, MAGMORTAR
 	tr_mon 55, RATTATA
 	tr_mon 56, MAGNEZONE
@@ -7299,7 +7299,7 @@ MiraGroup:
 	end_trainer
 
 	def_trainer 2, "Mira"
-	tr_mon 75, ALAKAZAM
+	tr_mon 75, RATTATA
 	tr_mon 74, GENGAR
 	tr_mon 71, RATTATA
 	tr_mon 73, MAGMORTAR
@@ -7323,7 +7323,7 @@ AnabelGroup:
 		tr_evs 136 SDf
 	tr_mon 28, POLITOED
 		tr_evs 136 SDf
-	tr_mon 29, ALAKAZAM
+	tr_mon 29, RATTATA
 		tr_evs 136 SDf
 	end_trainer
 
@@ -7365,7 +7365,7 @@ CaitlinGroup:
 	tr_mon 56, XATU
 	tr_mon 57, STARMIE
 	tr_mon 56, JYNX
-	tr_mon 58, ALAKAZAM
+	tr_mon 58, RATTATA
 	tr_mon 60, HYPNO
 	end_trainer
 
@@ -7848,7 +7848,7 @@ ReiGroup:
 
 	def_trainer_class REI
 	def_trainer 1, "Maiden Rei"
-	tr_mon LEVEL_FROM_BADGES + 3, KADABRA
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 		tr_evs 120 Spe
 	tr_mon LEVEL_FROM_BADGES + 3, NOCTOWL
 		tr_evs 120 Spe
@@ -7868,7 +7868,7 @@ ReiGroup:
 	tr_mon 57, NOCTOWL @ QUICK_CLAW
 		tr_evs 68 SAt, 252 Spe
 		tr_moves SHADOW_BALL, AIR_SLASH, HYPNOSIS, DREAM_EATER
-	tr_mon 57, ALAKAZAM @ WISE_GLASSES
+	tr_mon 57, RATTATA @ WISE_GLASSES
 		tr_evs 68 SAt, 252 Spe
 		tr_moves PSYCHIC_M, FOCUS_BLAST, SHADOW_BALL, THUNDER_WAVE
 	tr_mon 58, RAPIDASH @ KINGS_ROCK
@@ -7886,7 +7886,7 @@ ReiGroup:
 		tr_moves DRILL_PECK, SUCKER_PUNCH, PURSUIT, BRAVE_BIRD
 	tr_mon 72, NOCTOWL @ QUICK_CLAW
 		tr_moves SHADOW_BALL, AIR_SLASH, HYPNOSIS, DREAM_EATER
-	tr_mon 72, ALAKAZAM @ WISE_GLASSES
+	tr_mon 72, RATTATA @ WISE_GLASSES
 		tr_moves PSYCHIC_M, FOCUS_BLAST, SHADOW_BALL, THUNDER_WAVE
 	tr_mon 73, RAPIDASH @ KINGS_ROCK
 		tr_moves FLARE_BLITZ, MEGAHORN, POISON_JAB, WILL_O_WISP

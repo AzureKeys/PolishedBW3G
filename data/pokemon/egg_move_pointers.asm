@@ -46,9 +46,6 @@ EggSpeciesMovesPointers::
 	dw PoliwagEggSpeciesMoves           ; Poliwag
 	dw PoliwagEggSpeciesMoves           ; Poliwhirl
 	dw PoliwagEggSpeciesMoves           ; Poliwrath
-	dw AbraEggSpeciesMoves              ; Abra
-	dw AbraEggSpeciesMoves              ; Kadabra
-	dw AbraEggSpeciesMoves              ; Alakazam
 	dw MachopEggSpeciesMoves            ; Machop
 	dw MachopEggSpeciesMoves            ; Machoke
 	dw MachopEggSpeciesMoves            ; Machamp
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw MagbyEggSpeciesMoves             ; Magmortar
 	dw TogepiEggSpeciesMoves            ; Togekiss
 	dw YanmaEggSpeciesMoves             ; Yanmega
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw EeveeEggSpeciesMoves             ; Leafeon
 	dw EeveeEggSpeciesMoves             ; Glaceon
 	dw GligarEggSpeciesMoves            ; Gliscor
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SwinubEggSpeciesMoves            ; Mamoswine
 	dw PorygonEggSpeciesMoves           ; PorygonZ
 	dw EeveeEggSpeciesMoves             ; Sylveon
@@ -298,6 +295,9 @@ EggSpeciesMovesPointers::
 	dw PidoveEggSpeciesMoves            ; Unfezant
 	dw BlitzleEggSpeciesMoves           ; Blitzle
 	dw BlitzleEggSpeciesMoves           ; Zebstrika
+	dw RoggenrolaEggSpeciesMoves        ; Roggenrola
+	dw RoggenrolaEggSpeciesMoves        ; Boldore
+	dw RoggenrolaEggSpeciesMoves        ; Gigalith
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

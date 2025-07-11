@@ -1076,46 +1076,6 @@ endc
 	learnset 43, EARTH_POWER ; Mind Reader → Poliwhirl move
 	learnset 53, CROSS_CHOP ; Circle Throw → similar move
 
-	evos_attacks Abra
-	evo_data EVOLVE_LEVEL, 16, KADABRA
-	learnset 1, TELEPORT
-
-	evos_attacks Kadabra
-	evo_data EVOLVE_TRADE, LINKING_CORD, ALAKAZAM
-	learnset 1, TELEPORT
-	learnset 1, FORESIGHT ; evolution move
-	learnset 16, CONFUSION
-	learnset 18, DISABLE
-	learnset 21, PSYBEAM
-	learnset 23, NIGHT_SHADE ; Miracle Eye → LGPE move
-	learnset 26, REFLECT
-	learnset 28, LIGHT_SCREEN ; Psycho Cut → egg move
-	learnset 31, RECOVER
-	learnset 33, BARRIER ; Telekinesis → egg move
-	learnset 36, BATON_PASS ; Ally Switch → new move
-	learnset 38, PSYCHIC_M
-	learnset 41, CALM_MIND
-	learnset 43, CONFUSE_RAY ; Role Play → new move
-	learnset 46, FUTURE_SIGHT
-
-	evos_attacks Alakazam
-	learnset 1, TRI_ATTACK ; RBY TM move
-	learnset 1, TELEPORT
-	learnset 1, FORESIGHT ; evolution move
-	learnset 16, CONFUSION
-	learnset 18, DISABLE
-	learnset 21, PSYBEAM
-	learnset 23, NIGHT_SHADE ; Miracle Eye → LGPE move
-	learnset 26, REFLECT
-	learnset 28, LIGHT_SCREEN ; Psycho Cut → egg move
-	learnset 31, RECOVER
-	learnset 33, BARRIER ; Telekinesis → egg move
-	learnset 36, BATON_PASS ; Ally Switch → new move
-	learnset 38, PSYCHIC_M
-	learnset 41, CALM_MIND
-	learnset 43, CONFUSE_RAY ; Role Play → new move
-	learnset 46, FUTURE_SIGHT
-
 	evos_attacks Machop
 	evo_data EVOLVE_LEVEL, 28, MACHOKE
 	learnset 1, LOW_KICK
@@ -6138,6 +6098,59 @@ endc
 	learnset 42, AGILITY
 	learnset 47, WILD_CHARGE
 	learnset 53, THRASH
+	
+	evos_attacks Roggenrola
+	evo_data EVOLVE_LEVEL, 25, BOLDORE
+	learnset 1, TACKLE
+	learnset 4, DEFENSE_CURL ; Harden
+	;learnset 7, SAND_ATTACK
+	learnset 10, HEADBUTT
+	learnset 14, ROCK_BLAST
+	learnset 17, MUD_SLAP
+	learnset 20, BARRIER ; Iron Defense
+	;learnset 23, SMACK_DOWN
+	learnset 27, ROCK_SLIDE
+	;learnset 30, STEALTH_ROCK
+	learnset 33, SANDSTORM
+	learnset 36, STONE_EDGE
+	learnset 40, EXPLOSION
+	
+	evos_attacks Boldore
+	evo_data EVOLVE_TRADE, LINKING_CORD, GIGALITH
+	learnset 1, TACKLE
+	learnset 4, DEFENSE_CURL ; Harden
+	;learnset 7, SAND_ATTACK
+	learnset 10, HEADBUTT
+	learnset 14, ROCK_BLAST
+	learnset 17, MUD_SLAP
+	learnset 20, BARRIER ; Iron Defense
+	;learnset 23, SMACK_DOWN
+	learnset 24, POWER_GEM
+	learnset 30, ROCK_SLIDE
+	;learnset 36, STEALTH_ROCK
+	learnset 42, SANDSTORM
+	learnset 48, STONE_EDGE
+	learnset 55, EXPLOSION
+	
+	evos_attacks Gigalith
+	learnset 1, POWER_GEM
+	learnset 1, TACKLE
+	learnset 1, DEFENSE_CURL ; Harden
+	;learnset 1, SAND_ATTACK
+	learnset 1, HEADBUTT
+	learnset 4, DEFENSE_CURL ; Harden
+	;learnset 7, SAND_ATTACK
+	learnset 10, HEADBUTT
+	learnset 14, ROCK_BLAST
+	learnset 17, MUD_SLAP
+	learnset 20, BARRIER ; Iron Defense
+	;learnset 23, SMACK_DOWN
+	learnset 24, POWER_GEM
+	learnset 30, ROCK_SLIDE
+	;learnset 36, STEALTH_ROCK
+	learnset 44, SANDSTORM
+	learnset 50, STONE_EDGE
+	learnset 59, EXPLOSION
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

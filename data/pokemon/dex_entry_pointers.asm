@@ -47,9 +47,6 @@ PokedexDataPointerTable:
 	dba PoliwagPokedexEntry
 	dba PoliwhirlPokedexEntry
 	dba PoliwrathPokedexEntry
-	dba AbraPokedexEntry
-	dba KadabraPokedexEntry
-	dba AlakazamPokedexEntry
 	dba MachopPokedexEntry
 	dba MachokePokedexEntry
 	dba MachampPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba MagmortarPokedexEntry
 	dba TogekissPokedexEntry
 	dba YanmegaPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba LeafeonPokedexEntry
 	dba GlaceonPokedexEntry
 	dba GliscorPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba MamoswinePokedexEntry
 	dba PorygonZPokedexEntry
 	dba SylveonPokedexEntry
@@ -299,6 +296,9 @@ PokedexDataPointerTable:
 	dba UnfezantPokedexEntry
 	dba BlitzlePokedexEntry
 	dba ZebstrikaPokedexEntry
+	dba RoggenrolaPokedexEntry
+	dba BoldorePokedexEntry
+	dba GigalithPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

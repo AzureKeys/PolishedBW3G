@@ -2,10 +2,8 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
-	dp ABRA
 	dp AERODACTYL
 	dp AIPOM
-	dp ALAKAZAM
 	dp AMBIPOM
 	dp AMPHAROS
 	dp ANNIHILAPE
@@ -21,6 +19,7 @@ AlphabeticalPokedexOrder:
 	dp BLASTOISE
 	dp BLISSEY
 	dp BLITZLE
+	dp BOLDORE
 	dp BONSLY
 	dp BULBASAUR
 	dp CELEBI
@@ -77,6 +76,7 @@ AlphabeticalPokedexOrder:
 	dp GASTLY
 	dp GENGAR
 	dp GEODUDE
+	dp GIGALITH
 	dp GIRAFARIG
 	dp GLACEON
 	dp GLIGAR
@@ -113,7 +113,6 @@ AlphabeticalPokedexOrder:
 	dp JYNX
 	dp KABUTO
 	dp KABUTOPS
-	dp KADABRA
 	dp KANGASKHAN
 	dp KINGDRA
 	dp KINGLER
@@ -217,6 +216,7 @@ AlphabeticalPokedexOrder:
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
+	dp ROGGENROLA
 	dp SAMUROTT
 	dp SANDSHREW
 	dp SANDSLASH

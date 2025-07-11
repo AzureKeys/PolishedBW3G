@@ -70,9 +70,6 @@
 	const POLIWAG    ; 3c
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
-	const ABRA       ; 3f
-	const KADABRA    ; 40
-	const ALAKAZAM   ; 41
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
@@ -278,11 +275,11 @@
 	const MAGMORTAR  ; 10e
 	const TOGEKISS   ; 10f
 	const YANMEGA    ; 110
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const LEAFEON    ; 111
 	const GLACEON    ; 112
 	const GLISCOR    ; 113
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const MAMOSWINE  ; 114
 	const PORYGON_Z  ; 115
 	const SYLVEON    ; 116
@@ -322,6 +319,9 @@
 	const UNFEZANT   ; 129
 	const BLITZLE    ; 128
 	const ZEBSTRIKA  ; 129
+	const ROGGENROLA ; 129
+	const BOLDORE    ; 128
+	const GIGALITH   ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

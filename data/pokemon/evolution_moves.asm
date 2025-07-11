@@ -46,9 +46,6 @@ EvolutionMoves::
 	db NO_MOVE      ; POLIWAG
 	db NO_MOVE      ; POLIWHIRL
 	db CLOSE_COMBAT ; POLIWRATH
-	db NO_MOVE      ; ABRA
-	db FORESIGHT    ; KADABRA
-	db FORESIGHT    ; ALAKAZAM
 	db NO_MOVE      ; MACHOP
 	db NO_MOVE      ; MACHOKE
 	db STRENGTH     ; MACHAMP
@@ -258,11 +255,11 @@ endc
 	db FLASH_CANNON ; MAGMORTAR
 	db DISARM_VOICE ; TOGEKISS
 	db DRAGONBREATH ; YANMEGA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db RAZOR_LEAF   ; LEAFEON
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; MAMOSWINE
 	db NASTY_PLOT   ; PORYGON_Z
 	db DISARM_VOICE ; SYLVEON
@@ -302,6 +299,9 @@ endc
 	db NO_MOVE      ; UNFEZANT
 	db NO_MOVE      ; BLITZLE
 	db NO_MOVE      ; ZEBSTRIKA
+	db NO_MOVE      ; ROGGENROLA
+	db POWER_GEM    ; BOLDORE
+	db NO_MOVE      ; GIGALITH
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

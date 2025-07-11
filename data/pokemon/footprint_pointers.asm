@@ -46,9 +46,6 @@ FootprintPointers::
 	dw PoliwagFootprint
 	dw PoliwhirlFootprint
 	dw PoliwrathFootprint
-	dw AbraFootprint
-	dw KadabraFootprint
-	dw AlakazamFootprint
 	dw MachopFootprint
 	dw MachokeFootprint
 	dw MachampFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw MagmortarFootprint
 	dw TogekissFootprint
 	dw YanmegaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw LeafeonFootprint
 	dw GlaceonFootprint
 	dw GliscorFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw MamoswineFootprint
 	dw PorygonZFootprint
 	dw SylveonFootprint
@@ -298,6 +295,9 @@ FootprintPointers::
 	dw UnfezantFootprint
 	dw BlitzleFootprint
 	dw ZebstrikaFootprint
+	dw RoggenrolaFootprint
+	dw BoldoreFootprint
+	dw GigalithFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

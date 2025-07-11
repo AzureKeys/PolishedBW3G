@@ -46,9 +46,6 @@ AnimationPointers:
 	dw PoliwagAnimation
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation
-	dw AbraAnimation
-	dw KadabraAnimation
-	dw AlakazamAnimation
 	dw MachopAnimation
 	dw MachokeAnimation
 	dw MachampAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw MagmortarAnimation
 	dw TogekissAnimation
 	dw YanmegaAnimation
-	dw EggAnimation
-	dw EggAnimation
 	dw LeafeonAnimation
 	dw GlaceonAnimation
 	dw GliscorAnimation
+	dw EggAnimation
+	dw EggAnimation
 	dw MamoswineAnimation
 	dw PorygonZAnimation
 	dw SylveonAnimation
@@ -298,6 +295,9 @@ AnimationPointers:
 	dw UnfezantAnimation
 	dw BlitzleAnimation
 	dw ZebstrikaAnimation
+	dw RoggenrolaAnimation
+	dw BoldoreAnimation
+	dw GigalithAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

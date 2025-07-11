@@ -46,9 +46,6 @@ FramesPointers:
 	dw PoliwagFrames
 	dw PoliwhirlFrames
 	dw PoliwrathFrames
-	dw AbraFrames
-	dw KadabraFrames
-	dw AlakazamFrames
 	dw MachopFrames
 	dw MachokeFrames
 	dw MachampFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw MagmortarFrames
 	dw TogekissFrames
 	dw YanmegaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw LeafeonFrames
 	dw GlaceonFrames
 	dw GliscorFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw MamoswineFrames
 	dw PorygonZFrames
 	dw SylveonFrames
@@ -298,6 +295,9 @@ FramesPointers:
 	dw UnfezantFrames
 	dw BlitzleFrames
 	dw ZebstrikaFrames
+	dw RoggenrolaFrames
+	dw BoldoreFrames
+	dw GigalithFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

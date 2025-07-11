@@ -150,6 +150,9 @@ TranquillFrames:  INCLUDE "gfx/pokemon/tranquill/frames.asm"
 UnfezantFrames:   INCLUDE "gfx/pokemon/unfezant/frames.asm"
 BlitzleFrames:    INCLUDE "gfx/pokemon/blitzle/frames.asm"
 ZebstrikaFrames:  INCLUDE "gfx/pokemon/zebstrika/frames.asm"
+RoggenrolaFrames: INCLUDE "gfx/pokemon/roggenrola/frames.asm"
+BoldoreFrames:    INCLUDE "gfx/pokemon/boldore/frames.asm"
+GigalithFrames:   INCLUDE "gfx/pokemon/gigalith/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
