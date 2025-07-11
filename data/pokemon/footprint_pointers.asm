@@ -46,9 +46,6 @@ FootprintPointers::
 	dw PoliwagFootprint
 	dw PoliwhirlFootprint
 	dw PoliwrathFootprint
-	dw BellsproutFootprint
-	dw WeepinbellFootprint
-	dw VictreebelFootprint
 	dw TentacoolFootprint
 	dw TentacruelFootprint
 	dw GeodudeFootprint
@@ -159,7 +156,6 @@ FootprintPointers::
 	dw MareepFootprint
 	dw FlaaffyFootprint
 	dw AmpharosFootprint
-	dw BellossomFootprint
 	dw MarillFootprint
 	dw AzumarillFootprint
 	dw SudowoodoFootprint
@@ -254,12 +250,12 @@ FootprintPointers::
 	dw MamoswineFootprint
 	dw PorygonZFootprint
 	dw SylveonFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw PerrserkerFootprint
 	dw CursolaFootprint
 	dw SirfetchDFootprint
 	dw MrRimeFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw WyrdeerFootprint
 	dw KleavorFootprint
 	dw UrsalunaFootprint

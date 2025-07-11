@@ -69,7 +69,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal BELLSPROUT, .WrongPokemon
+	ifnotequal RATTATA, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_BELLSPROUT_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedBellsprout

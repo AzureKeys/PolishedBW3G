@@ -46,9 +46,6 @@ EvolutionMoves::
 	db NO_MOVE      ; POLIWAG
 	db NO_MOVE      ; POLIWHIRL
 	db CLOSE_COMBAT ; POLIWRATH
-	db NO_MOVE      ; BELLSPROUT
-	db NO_MOVE      ; WEEPINBELL
-	db NO_MOVE      ; VICTREEBEL
 	db NO_MOVE      ; TENTACOOL
 	db POWER_WHIP   ; TENTACRUEL
 	db NO_MOVE      ; GEODUDE
@@ -159,7 +156,6 @@ EvolutionMoves::
 	db NO_MOVE      ; MAREEP
 	db NO_MOVE      ; FLAAFFY
 	db THUNDERPUNCH ; AMPHAROS
-	db PETAL_DANCE  ; BELLOSSOM
 	db NO_MOVE      ; MARILL
 	db NO_MOVE      ; AZUMARILL
 	db STONE_EDGE   ; SUDOWOODO
@@ -258,12 +254,12 @@ endc
 	db NO_MOVE      ; MAMOSWINE
 	db NASTY_PLOT   ; PORYGON_Z
 	db DISARM_VOICE ; SYLVEON
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db IRON_HEAD    ; PERRSERKER
 	db NO_MOVE      ; CURSOLA
 	db COUNTER      ; SIRFETCH_D
 	db NO_MOVE      ; MR__RIME
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db EXTRASENSORY ; WYRDEER
 	db ROCK_THROW   ; KLEAVOR
 	db BULLDOZE     ; URSALUNA

@@ -70,9 +70,6 @@
 	const POLIWAG    ; 3c
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
-	const BELLSPROUT ; 45
-	const WEEPINBELL ; 46
-	const VICTREEBEL ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const GEODUDE    ; 4a
@@ -183,7 +180,6 @@
 	const MAREEP     ; b3
 	const FLAAFFY    ; b4
 	const AMPHAROS   ; b5
-	const BELLOSSOM  ; b6
 	const MARILL     ; b7
 	const AZUMARILL  ; b8
 	const SUDOWOODO  ; b9
@@ -278,12 +274,12 @@
 	const MAMOSWINE  ; 114
 	const PORYGON_Z  ; 115
 	const SYLVEON    ; 116
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const PERRSERKER ; 117
 	const CURSOLA    ; 118
 	const SIRFETCH_D ; 119
 	const MR__RIME   ; 11a
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const WYRDEER    ; 11b
 	const KLEAVOR    ; 11c
 	const URSALUNA   ; 11d

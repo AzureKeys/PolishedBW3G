@@ -481,16 +481,16 @@
 	; morn
 	wildmon 46, RATTATA
 	wildmon 46, GRANBULL
-	wildmon 51, BELLSPROUT
-	wildmon 47, WEEPINBELL
+	wildmon 51, RATTATA
+	wildmon 47, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
 	; day
 	wildmon 46, RATTATA
 	wildmon 46, GRANBULL
-	wildmon 51, BELLSPROUT
-	wildmon 47, WEEPINBELL
+	wildmon 51, RATTATA
+	wildmon 47, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
@@ -678,16 +678,16 @@
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
 	wildmon 50, RATTATA
-	wildmon 51, WEEPINBELL
-	wildmon 53, WEEPINBELL
+	wildmon 51, RATTATA
+	wildmon 53, RATTATA
 	wildmon 52, FARFETCH_D
 	wildmon 54, FARFETCH_D
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
 	wildmon 50, RATTATA
-	wildmon 51, WEEPINBELL
-	wildmon 53, WEEPINBELL
+	wildmon 51, RATTATA
+	wildmon 53, RATTATA
 	wildmon 52, FARFETCH_D
 	wildmon 54, FARFETCH_D
 	; nite
@@ -706,16 +706,16 @@
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
 	wildmon 51, RATTATA
-	wildmon 52, WEEPINBELL
-	wildmon 54, WEEPINBELL
+	wildmon 52, RATTATA
+	wildmon 54, RATTATA
 	wildmon 53, SUNFLORA
 	wildmon 55, SUNFLORA
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
 	wildmon 51, RATTATA
-	wildmon 52, WEEPINBELL
-	wildmon 54, WEEPINBELL
+	wildmon 52, RATTATA
+	wildmon 54, RATTATA
 	wildmon 53, SUNFLORA
 	wildmon 55, SUNFLORA
 	; nite
@@ -734,16 +734,16 @@
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
 	wildmon 53, RATTATA
-	wildmon 51, WEEPINBELL
-	wildmon 56, WEEPINBELL
+	wildmon 51, RATTATA
+	wildmon 56, RATTATA
 	wildmon 54, SUNFLORA
 	wildmon 56, SUNFLORA
 	; day
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
 	wildmon 53, RATTATA
-	wildmon 51, WEEPINBELL
-	wildmon 56, WEEPINBELL
+	wildmon 51, RATTATA
+	wildmon 56, RATTATA
 	wildmon 54, SUNFLORA
 	wildmon 56, SUNFLORA
 	; nite
@@ -790,16 +790,16 @@
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
 	wildmon 54, RATTATA
-	wildmon 54, WEEPINBELL
-	wildmon 57, WEEPINBELL
+	wildmon 54, RATTATA
+	wildmon 57, RATTATA
 	wildmon 55, SUNFLORA
 	wildmon 57, SUNFLORA
 	; day
 	wildmon 52, NIDORINO
 	wildmon 52, NIDORINA
 	wildmon 54, RATTATA
-	wildmon 54, WEEPINBELL
-	wildmon 57, WEEPINBELL
+	wildmon 54, RATTATA
+	wildmon 57, RATTATA
 	wildmon 55, SUNFLORA
 	wildmon 57, SUNFLORA
 	; nite
@@ -1042,7 +1042,7 @@
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
-	wildmon 50, WEEPINBELL
+	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA
 	wildmon 52, RATTATA
@@ -1050,7 +1050,7 @@
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
-	wildmon 50, WEEPINBELL
+	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA
 	wildmon 52, RATTATA
@@ -1070,7 +1070,7 @@
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
-	wildmon 50, WEEPINBELL
+	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA
 	wildmon 52, RATTATA
@@ -1078,7 +1078,7 @@
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
-	wildmon 50, WEEPINBELL
+	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA
 	wildmon 52, RATTATA
@@ -1182,7 +1182,7 @@
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
-	wildmon 50, WEEPINBELL
+	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
@@ -1190,7 +1190,7 @@
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
-	wildmon 50, WEEPINBELL
+	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER

@@ -85,9 +85,6 @@ NewPokedexOrder:
 	dp WOBBUFFET
 	dp ONIX
 	dp STEELIX
-	dp BELLSPROUT
-	dp WEEPINBELL
-	dp VICTREEBEL
 	dp HOPPIP
 	dp SKIPLOOM
 	dp JUMPLUFF
@@ -104,7 +101,6 @@ NewPokedexOrder:
 	dp SLOWPOKE
 	dp SLOWBRO
 	dp SLOWKING
-	dp BELLOSSOM
 	dp DROWZEE
 	dp HYPNO
 	dp DITTO

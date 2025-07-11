@@ -50,9 +50,6 @@ MiniIconPointers:
 	mini_icon Poliwag
 	mini_icon Poliwhirl
 	mini_icon Poliwrath
-	mini_icon Bellsprout
-	mini_icon Weepinbell
-	mini_icon Victreebel
 	mini_icon Tentacool
 	mini_icon Tentacruel
 	mini_icon Geodude
@@ -163,7 +160,6 @@ MiniIconPointers:
 	mini_icon Mareep
 	mini_icon Flaaffy
 	mini_icon Ampharos
-	mini_icon Bellossom
 	mini_icon Marill
 	mini_icon Azumarill
 	mini_icon Sudowoodo
@@ -258,12 +254,12 @@ MiniIconPointers:
 	mini_icon Mamoswine
 	mini_icon PorygonZ
 	mini_icon Sylveon
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Perrserker
 	mini_icon Cursola
 	mini_icon SirfetchD
 	mini_icon MrRime
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Wyrdeer
 	mini_icon Kleavor
 	mini_icon Ursaluna

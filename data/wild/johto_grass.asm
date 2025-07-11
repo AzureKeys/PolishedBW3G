@@ -6,26 +6,26 @@
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
-	wildmon 3, BELLSPROUT
+	wildmon 3, RATTATA
 	wildmon 6, RATTATA
-	wildmon 5, BELLSPROUT
-	wildmon 6, BELLSPROUT
+	wildmon 5, RATTATA
+	wildmon 6, RATTATA
 	; day
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
-	wildmon 3, BELLSPROUT
+	wildmon 3, RATTATA
 	wildmon 6, RATTATA
-	wildmon 5, BELLSPROUT
-	wildmon 6, BELLSPROUT
+	wildmon 5, RATTATA
+	wildmon 6, RATTATA
 	; nite
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, GASTLY
-	wildmon 3, BELLSPROUT
+	wildmon 3, RATTATA
 	wildmon 6, GASTLY
-	wildmon 5, BELLSPROUT
-	wildmon 6, BELLSPROUT
+	wildmon 5, RATTATA
+	wildmon 6, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons SPROUT_TOWER_3F
@@ -34,26 +34,26 @@
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
 	wildmon 6, RATTATA
-	wildmon 4, BELLSPROUT
+	wildmon 4, RATTATA
 	wildmon 7, RATTATA
-	wildmon 6, BELLSPROUT
-	wildmon 7, BELLSPROUT
+	wildmon 6, RATTATA
+	wildmon 7, RATTATA
 	; day
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
 	wildmon 6, RATTATA
-	wildmon 4, BELLSPROUT
+	wildmon 4, RATTATA
 	wildmon 7, RATTATA
-	wildmon 6, BELLSPROUT
-	wildmon 7, BELLSPROUT
+	wildmon 6, RATTATA
+	wildmon 7, RATTATA
 	; nite
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
 	wildmon 6, GASTLY
-	wildmon 4, BELLSPROUT
+	wildmon 4, RATTATA
 	wildmon 7, GASTLY
-	wildmon 6, BELLSPROUT
-	wildmon 7, BELLSPROUT
+	wildmon 6, RATTATA
+	wildmon 7, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_2F
@@ -1405,7 +1405,7 @@
 	; morn
 	wildmon 4, LEDYBA
 	wildmon 4, RATTATA
-	wildmon 5, BELLSPROUT
+	wildmon 5, RATTATA
 	wildmon 5, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, HOPPIP
@@ -1413,7 +1413,7 @@
 	; day
 	wildmon 4, RATTATA
 	wildmon 4, RATTATA
-	wildmon 5, BELLSPROUT
+	wildmon 5, RATTATA
 	wildmon 5, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, HOPPIP
@@ -1421,7 +1421,7 @@
 	; nite
 	wildmon 4, SPINARAK
 	wildmon 4, POLIWAG
-	wildmon 5, BELLSPROUT
+	wildmon 5, RATTATA
 	wildmon 5, HOOTHOOT
 	wildmon 4, ZUBAT
 	wildmon 5, GASTLY
@@ -1433,7 +1433,7 @@
 	; morn
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
 	wildmon 6, RATTATA
-	wildmon 8, BELLSPROUT
+	wildmon 8, RATTATA
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
 	wildmon 7, HOPPIP
@@ -1441,7 +1441,7 @@
 	; day
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
 	wildmon 6, RATTATA
-	wildmon 8, BELLSPROUT
+	wildmon 8, RATTATA
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
 	wildmon 7, HOPPIP
@@ -1449,7 +1449,7 @@
 	; nite
 	wildmon 5, WOOPER
 	wildmon 6, RATTATA
-	wildmon 8, BELLSPROUT
+	wildmon 8, RATTATA
 	wildmon 8, HOOTHOOT
 	wildmon 7, MAREEP
 	wildmon 7, GASTLY
@@ -1545,7 +1545,7 @@
 	; morn
 	wildmon 5, LEDYBA
 	wildmon 5, RATTATA
-	wildmon 6, BELLSPROUT
+	wildmon 6, RATTATA
 	wildmon 7, GROWLITHE
 	wildmon 6, RATTATA
 	wildmon 7, RATTATA
@@ -1553,7 +1553,7 @@
 	; day
 	wildmon 5, RATTATA
 	wildmon 5, RATTATA
-	wildmon 6, BELLSPROUT
+	wildmon 6, RATTATA
 	wildmon 7, GROWLITHE
 	wildmon 6, RATTATA
 	wildmon 7, RATTATA
@@ -1561,7 +1561,7 @@
 	; nite
 	wildmon 5, SPINARAK
 	wildmon 5, HOOTHOOT
-	wildmon 6, BELLSPROUT
+	wildmon 6, RATTATA
 	wildmon 7, VULPIX
 	wildmon 6, HOOTHOOT
 	wildmon 7, GASTLY
@@ -1713,24 +1713,24 @@
 	; morn
 	wildmon 31, TANGELA
 	wildmon 29, LICKITUNG
-	wildmon 30, BELLSPROUT
-	wildmon 32, WEEPINBELL
+	wildmon 30, RATTATA
+	wildmon 32, RATTATA
 	wildmon 32, LICKITUNG
 	wildmon 34, LICKITUNG
 	wildmon 34, LICKITUNG
 	; day
 	wildmon 31, TANGELA
 	wildmon 29, LICKITUNG
-	wildmon 30, BELLSPROUT
-	wildmon 32, WEEPINBELL
+	wildmon 30, RATTATA
+	wildmon 32, RATTATA
 	wildmon 32, LICKITUNG
 	wildmon 34, LICKITUNG
 	wildmon 34, LICKITUNG
 	; nite
 	wildmon 31, TANGELA
 	wildmon 29, POLIWAG
-	wildmon 30, BELLSPROUT
-	wildmon 32, WEEPINBELL
+	wildmon 30, RATTATA
+	wildmon 32, RATTATA
 	wildmon 32, POLIWHIRL
 	wildmon 34, GLIGAR
 	wildmon 34, GLIGAR
@@ -1909,7 +1909,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 0, BELLSPROUT
+	wildmon LEVEL_FROM_BADGES - 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, GROWLITHE
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
@@ -1917,7 +1917,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 0, BELLSPROUT
+	wildmon LEVEL_FROM_BADGES - 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, GROWLITHE
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
@@ -1965,7 +1965,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, BELLSPROUT
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
 	wildmon LEVEL_FROM_BADGES + 0, FLAAFFY
 	wildmon LEVEL_FROM_BADGES + 1, SKIPLOOM
@@ -1973,7 +1973,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, BELLSPROUT
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
 	wildmon LEVEL_FROM_BADGES + 0, FLAAFFY
 	wildmon LEVEL_FROM_BADGES + 1, SKIPLOOM
@@ -1981,7 +1981,7 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, WOOPER
 	wildmon LEVEL_FROM_BADGES - 4, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, BELLSPROUT
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, HOOTHOOT
 	wildmon LEVEL_FROM_BADGES + 1, GASTLY
 	wildmon LEVEL_FROM_BADGES + 1, HAUNTER

@@ -14,8 +14,6 @@ AlphabeticalPokedexOrder:
 	dp AZUMARILL
 	dp AZURILL
 	dp BAYLEEF
-	dp BELLOSSOM
-	dp BELLSPROUT
 	dp BLASTOISE
 	dp BLISSEY
 	dp BLITZLE
@@ -276,13 +274,11 @@ AlphabeticalPokedexOrder:
 	dp URSARING
 	dp VAPOREON
 	dp VENUSAUR
-	dp VICTREEBEL
 	dp VOLTORB
 	dp VULPIX
 	dp WARTORTLE
 	dp WATCHOG
 	dp WEAVILE
-	dp WEEPINBELL
 	dp WEEZING
 	dp WIGGLYTUFF
 	dp WOBBUFFET

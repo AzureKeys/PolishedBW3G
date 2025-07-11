@@ -46,9 +46,6 @@ EggSpeciesMovesPointers::
 	dw PoliwagEggSpeciesMoves           ; Poliwag
 	dw PoliwagEggSpeciesMoves           ; Poliwhirl
 	dw PoliwagEggSpeciesMoves           ; Poliwrath
-	dw BellsproutEggSpeciesMoves        ; Bellsprout
-	dw BellsproutEggSpeciesMoves        ; Weepinbell
-	dw BellsproutEggSpeciesMoves        ; Victreebel
 	dw TentacoolEggSpeciesMoves         ; Tentacool
 	dw TentacoolEggSpeciesMoves         ; Tentacruel
 	dw GeodudePlainEggSpeciesMoves      ; Geodude
@@ -98,7 +95,7 @@ EggSpeciesMovesPointers::
 	dw GoldeenEggSpeciesMoves           ; Goldeen
 	dw GoldeenEggSpeciesMoves           ; Seaking
 	dw StaryuEggSpeciesMoves            ; Staryu
-	dw StaryuEggSpeciesMoves           ; Starmie
+	dw StaryuEggSpeciesMoves            ; Starmie
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime
 	dw ScytherEggSpeciesMoves           ; Scyther
 	dw SmoochumEggSpeciesMoves          ; Jynx
@@ -159,7 +156,6 @@ EggSpeciesMovesPointers::
 	dw MareepEggSpeciesMoves            ; Mareep
 	dw MareepEggSpeciesMoves            ; Flaaffy
 	dw MareepEggSpeciesMoves            ; Ampharos
-	dw ParasEggSpeciesMoves             ; Bellossom
 	dw AzurillEggSpeciesMoves           ; Marill
 	dw AzurillEggSpeciesMoves           ; Azumarill
 	dw BonslyEggSpeciesMoves            ; Sudowoodo
@@ -254,12 +250,12 @@ EggSpeciesMovesPointers::
 	dw SwinubEggSpeciesMoves            ; Mamoswine
 	dw PorygonEggSpeciesMoves           ; PorygonZ
 	dw EeveeEggSpeciesMoves             ; Sylveon
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw MeowthGalarianEggSpeciesMoves    ; Perrserker
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
 	dw FarfetchDGalarianEggSpeciesMoves ; SirfetchD
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw StantlerEggSpeciesMoves          ; Wyrdeer
 	dw ScytherEggSpeciesMoves           ; Kleavor
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna

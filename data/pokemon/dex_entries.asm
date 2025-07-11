@@ -462,36 +462,6 @@ PoliwrathPokedexEntry::
 	next "of the water for a"
 	next "split second.@"
 
-SECTION "BellsproutPokedexEntry", ROMX
-BellsproutPokedexEntry::
-	db "Flower@"
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
-
-SECTION "WeepinbellPokedexEntry", ROMX
-WeepinbellPokedexEntry::
-	db "Flycatcher@"
-	db   "When it's hungry,"
-	next "it swings its"
-	next "razor-sharp"
-	page "leaves, slicing up"
-	next "any unlucky object"
-	next "nearby for food.@"
-
-SECTION "VictreebelPokedexEntry", ROMX
-VictreebelPokedexEntry::
-	db "Flycatcher@"
-	db   "Once ingested into"
-	next "this #mon's"
-	next "body, even the"
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
-
 SECTION "TentacoolPokedexEntry", ROMX
 TentacoolPokedexEntry::
 	db "Jellyfish@"
@@ -1595,16 +1565,6 @@ AmpharosPokedexEntry::
 	page "can be seen from"
 	next "far away on the"
 	next "ocean's surface.@"
-
-SECTION "BellossomPokedexEntry", ROMX
-BellossomPokedexEntry::
-	db "Flower@"
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
 
 SECTION "MarillPokedexEntry", ROMX
 MarillPokedexEntry::

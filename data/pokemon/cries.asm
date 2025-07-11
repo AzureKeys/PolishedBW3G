@@ -52,9 +52,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; Poliwag
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; Poliwhirl
 	mon_cry CRY_PIDGEY,      $000,  $17f ; Poliwrath
-	mon_cry CRY_PSYDUCK,     $055,  $081 ; Bellsprout
-	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; Weepinbell
-	mon_cry CRY_WEEPINBELL,  $066,  $14c ; Victreebel
 	mon_cry CRY_VENONAT,     $000,  $100 ; Tentacool
 	mon_cry CRY_VENONAT,     $0ee,  $17f ; Tentacruel
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; Geodude
@@ -165,7 +162,6 @@ PokemonCries::
 	mon_cry CRY_MAREEP,      $022,  $0d8 ; Mareep
 	mon_cry CRY_MAREEP,     -$007,  $180 ; Flaaffy
 	mon_cry CRY_AMPHAROS,   -$07c,  $0e8 ; Ampharos
-	mon_cry CRY_BELLOSSOM,   $084,  $150 ; Bellossom
 	mon_cry CRY_MARILL,      $11b,  $120 ; Marill
 	mon_cry CRY_MARILL,      $0b6,  $180 ; Azumarill
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Sudowoodo
@@ -260,12 +256,12 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Mamoswine
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PorygonZ
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Perrserker
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
 	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; SirfetchD
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Rime
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Wyrdeer
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Kleavor
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna

@@ -1076,48 +1076,6 @@ endc
 	learnset 43, EARTH_POWER ; Mind Reader → Poliwhirl move
 	learnset 53, CROSS_CHOP ; Circle Throw → similar move
 
-	evos_attacks Bellsprout
-	evo_data EVOLVE_LEVEL, 21, WEEPINBELL
-	learnset 1, VINE_WHIP
-	learnset 7, GROWTH
-	learnset 11, WRAP
-	learnset 13, SLEEP_POWDER
-	learnset 15, POISONPOWDER
-	learnset 17, STUN_SPORE
-	learnset 23, ACID
-	learnset 27, KNOCK_OFF
-	learnset 29, SWEET_KISS ; Sweet Scent → event move
-	learnset 35, HEALINGLIGHT ; Gastro Acid → new move
-	learnset 39, RAZOR_LEAF
-	learnset 41, POISON_JAB
-	learnset 47, SUCKER_PUNCH ; Slam → HGSS tutor move
-	learnset 50, SWORDS_DANCE ; Wring Out → egg move
-
-	evos_attacks Weepinbell
-	evo_data EVOLVE_ITEM, LEAF_STONE, VICTREEBEL
-	learnset 1, VINE_WHIP
-	learnset 7, GROWTH
-	learnset 11, WRAP
-	learnset 13, SLEEP_POWDER
-	learnset 15, POISONPOWDER
-	learnset 17, STUN_SPORE
-	learnset 24, ACID
-	learnset 29, KNOCK_OFF
-	learnset 32, SWEET_KISS ; Sweet Scent → event move
-	learnset 39, HEALINGLIGHT ; Gastro Acid → new move
-	learnset 44, RAZOR_LEAF
-	learnset 47, POISON_JAB
-	learnset 54, SUCKER_PUNCH ; Slam → HGSS tutor move
-	learnset 58, SWORDS_DANCE ; Wring Out → egg move
-
-	evos_attacks Victreebel
-	learnset 1, VINE_WHIP
-	learnset 1, SLEEP_POWDER
-	learnset 1, HEALINGLIGHT ; Sweet Scent → new move
-	learnset 1, RAZOR_LEAF
-	learnset 32, SUCKER_PUNCH ; Leaf Storm → prior move
-	learnset 44, SWORDS_DANCE ; Leaf Blade → prior move
-
 	evos_attacks Tentacool
 	evo_data EVOLVE_LEVEL, 30, TENTACRUEL
 	learnset 1, POISON_STING
@@ -3547,16 +3505,6 @@ endc
 	learnset 62, THUNDER
 	learnset 65, DRAGON_PULSE
 	learnset 71, OUTRAGE ; HGSS tutor move
-
-	evos_attacks Bellossom
-	learnset 1, MEGA_DRAIN
-	learnset 1, HEAL_BELL ; new move
-	learnset 1, SUNNY_DAY
-	learnset 1, STUN_SPORE
-	learnset 39, GROWTH ; Quiver Dance → Growth
-	learnset 49, MOONBLAST ; Petal Blizzard → Gloom move
-	learnset 59, PETAL_DANCE ; evolution move
-	learnset 69, PLAY_ROUGH ; Leaf Storm → Sw/Sh move
 
 	evos_attacks Marill
 	evo_data EVOLVE_LEVEL, 18, AZUMARILL

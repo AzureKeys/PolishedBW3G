@@ -140,18 +140,6 @@ SECTION "Poliwrath Pics", ROMX
 PoliwrathFrontpic: INCBIN "gfx/pokemon/poliwrath/front.animated.2bpp.lz"
 PoliwrathBackpic:  INCBIN "gfx/pokemon/poliwrath/back.2bpp.lz"
 
-SECTION "Bellsprout Pics", ROMX
-BellsproutFrontpic: INCBIN "gfx/pokemon/bellsprout/front.animated.2bpp.lz"
-BellsproutBackpic:  INCBIN "gfx/pokemon/bellsprout/back.2bpp.lz"
-
-SECTION "Weepinbell Pics", ROMX
-WeepinbellFrontpic: INCBIN "gfx/pokemon/weepinbell/front.animated.2bpp.lz"
-WeepinbellBackpic:  INCBIN "gfx/pokemon/weepinbell/back.2bpp.lz"
-
-SECTION "Victreebel Pics", ROMX
-VictreebelFrontpic: INCBIN "gfx/pokemon/victreebel/front.animated.2bpp.lz"
-VictreebelBackpic:  INCBIN "gfx/pokemon/victreebel/back.2bpp.lz"
-
 SECTION "Tentacool Pics", ROMX
 TentacoolFrontpic: INCBIN "gfx/pokemon/tentacool/front.animated.2bpp.lz"
 TentacoolBackpic:  INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
@@ -507,10 +495,6 @@ FlaaffyBackpic:  INCBIN "gfx/pokemon/flaaffy/back.2bpp.lz"
 SECTION "Ampharos Pics", ROMX
 AmpharosFrontpic: INCBIN "gfx/pokemon/ampharos/front.animated.2bpp.lz"
 AmpharosBackpic:  INCBIN "gfx/pokemon/ampharos/back.2bpp.lz"
-
-SECTION "Bellossom Pics", ROMX
-BellossomFrontpic: INCBIN "gfx/pokemon/bellossom/front.animated.2bpp.lz"
-BellossomBackpic:  INCBIN "gfx/pokemon/bellossom/back.2bpp.lz"
 
 SECTION "Sudowoodo Pics", ROMX
 SudowoodoFrontpic: INCBIN "gfx/pokemon/sudowoodo/front.animated.2bpp.lz"

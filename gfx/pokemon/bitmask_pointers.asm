@@ -46,9 +46,6 @@ BitmasksPointers:
 	dw PoliwagBitmasks
 	dw PoliwhirlBitmasks
 	dw PoliwrathBitmasks
-	dw BellsproutBitmasks
-	dw WeepinbellBitmasks
-	dw VictreebelBitmasks
 	dw TentacoolBitmasks
 	dw TentacruelBitmasks
 	dw GeodudePlainBitmasks
@@ -159,7 +156,6 @@ BitmasksPointers:
 	dw MareepBitmasks
 	dw FlaaffyBitmasks
 	dw AmpharosBitmasks
-	dw BellossomBitmasks
 	dw MarillBitmasks
 	dw AzumarillBitmasks
 	dw SudowoodoBitmasks
@@ -254,12 +250,12 @@ BitmasksPointers:
 	dw MamoswineBitmasks
 	dw PorygonZBitmasks
 	dw SylveonBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw PerrserkerBitmasks
 	dw CursolaBitmasks
 	dw SirfetchDBitmasks
 	dw MrRimeBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw WyrdeerBitmasks
 	dw KleavorBitmasks
 	dw UrsalunaPlainBitmasks

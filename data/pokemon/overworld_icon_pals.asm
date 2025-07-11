@@ -50,9 +50,6 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; POLIWAG
 	iconpal BLUE, AZURE ; POLIWHIRL
 	iconpal BLUE, TEAL ; POLIWRATH
-	iconpal GREEN, BROWN ; BELLSPROUT
-	iconpal GREEN, BROWN ; WEEPINBELL
-	iconpal GREEN, BROWN ; VICTREEBEL
 	iconpal BLUE, AZURE ; TENTACOOL
 	iconpal BLUE, AZURE ; TENTACRUEL
 	iconpal BROWN, RED ; GEODUDE
@@ -163,7 +160,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; MAREEP
 	iconpal PINK, RED ; FLAAFFY
 	iconpal BROWN, RED ; AMPHAROS
-	iconpal GREEN, RED ; BELLOSSOM
 	iconpal BLUE, GREEN ; MARILL
 	iconpal BLUE, BROWN ; AZUMARILL
 	iconpal GREEN, RED ; SUDOWOODO
@@ -258,12 +254,12 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; MAMOSWINE
 	iconpal BLUE, PURPLE ; PORYGON_Z
 	iconpal PINK, AZURE ; SYLVEON
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, BROWN ; PERRSERKER
 	iconpal GRAY, PINK ; CURSOLA
 	iconpal WHITE, RED ; SIRFETCH_D
 	iconpal BLUE, GRAY ; MR__RIME
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, GREEN ; WYRDEER
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal BROWN, RED ; URSALUNA

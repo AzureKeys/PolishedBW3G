@@ -42,7 +42,6 @@ RoggenrolaFootprint::
 BoldoreFootprint::
 GigalithFootprint::
 ArbokFootprint::
-BellossomFootprint::
 ChinchouFootprint::
 CloysterFootprint::
 CrobatFootprint::
@@ -94,9 +93,7 @@ SunkernFootprint::
 TentacoolFootprint::
 TentacruelFootprint::
 UnownFootprint::
-VictreebelFootprint::
 VoltorbFootprint::
-WeepinbellFootprint::
 WeezingFootprint::
 ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
@@ -141,7 +138,6 @@ ArcanineFootprint:: INCBIN "gfx/footprints/arcanine.1bpp.lz"
 PoliwagFootprint:: INCBIN "gfx/footprints/poliwag.1bpp.lz"
 PoliwhirlFootprint:: INCBIN "gfx/footprints/poliwhirl.1bpp.lz"
 PoliwrathFootprint:: INCBIN "gfx/footprints/poliwrath.1bpp.lz"
-BellsproutFootprint:: INCBIN "gfx/footprints/bellsprout.1bpp.lz"
 GravelerFootprint:: INCBIN "gfx/footprints/graveler.1bpp.lz"
 GolemFootprint:: INCBIN "gfx/footprints/golem.1bpp.lz"
 PonytaFootprint:: INCBIN "gfx/footprints/ponyta.1bpp.lz"

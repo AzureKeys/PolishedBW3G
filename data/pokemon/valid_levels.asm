@@ -47,9 +47,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  24 ; Poliwag
 	db  25,  35 ; Poliwhirl
 	db  36, 100 ; Poliwrath
-	db   1,  20 ; Bellsprout
-	db  21,  31 ; Weepinbell
-	db  32, 100 ; Victreebel
 	db   1,  29 ; Tentacool
 	db  30, 100 ; Tentacruel
 	db   1,  24 ; Geodude
@@ -164,7 +161,6 @@ if DEF(FAITHFUL)
 else
 	db  36, 100 ; Ampharos
 endc
-	db  32, 100 ; Bellossom
 	db   1,  17 ; Marill
 	db  18, 100 ; Azumarill
 	db  10, 100 ; Sudowoodo
@@ -259,12 +255,12 @@ endc
 	db  45, 100 ; Mamoswine
 	db  40, 100 ; Porygon-Z
 	db  20, 100 ; Sylveon
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  28, 100 ; Perrserker
 	db  38, 100 ; Cursola
 	db  20, 100 ; Sirfetch'd
 	db  42, 100 ; Mr. Rime
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  30, 100 ; Wyrdeer
 	db  20, 100 ; Kleavor
 	db  50, 100 ; Ursaluna

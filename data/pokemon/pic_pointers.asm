@@ -50,9 +50,6 @@ PokemonPicPointers::
 	pics Poliwag
 	pics Poliwhirl
 	pics Poliwrath
-	pics Bellsprout
-	pics Weepinbell
-	pics Victreebel
 	pics Tentacool
 	pics Tentacruel
 	pics GeodudePlain
@@ -163,7 +160,6 @@ PokemonPicPointers::
 	pics Mareep
 	pics Flaaffy
 	pics Ampharos
-	pics Bellossom
 	pics Marill
 	pics Azumarill
 	pics Sudowoodo
@@ -258,12 +254,12 @@ PokemonPicPointers::
 	pics Mamoswine
 	pics PorygonZ
 	pics Sylveon
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Perrserker
 	pics Cursola
 	pics SirfetchD
 	pics MrRime
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Wyrdeer
 	pics Kleavor
 	pics UrsalunaPlain

@@ -46,9 +46,6 @@ FramesPointers:
 	dw PoliwagFrames
 	dw PoliwhirlFrames
 	dw PoliwrathFrames
-	dw BellsproutFrames
-	dw WeepinbellFrames
-	dw VictreebelFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
 	dw GeodudePlainFrames
@@ -159,7 +156,6 @@ FramesPointers:
 	dw MareepFrames
 	dw FlaaffyFrames
 	dw AmpharosFrames
-	dw BellossomFrames
 	dw MarillFrames
 	dw AzumarillFrames
 	dw SudowoodoFrames
@@ -254,12 +250,12 @@ FramesPointers:
 	dw MamoswineFrames
 	dw PorygonZFrames
 	dw SylveonFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw PerrserkerFrames
 	dw CursolaFrames
 	dw SirfetchDFrames
 	dw MrRimeFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw WyrdeerFrames
 	dw KleavorFrames
 	dw UrsalunaPlainFrames

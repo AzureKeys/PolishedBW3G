@@ -259,16 +259,6 @@ PoliwagEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
-BellsproutEggSpeciesMoves:
-	dp BELLSPROUT, PLAIN_FORM
-	db ENCORE
-	db LEECH_LIFE
-	db SWORDS_DANCE
-	db REFLECT
-	db HEALINGLIGHT
-	db POWER_WHIP
-	db $ff
-
 TentacoolEggSpeciesMoves:
 	dp TENTACOOL, PLAIN_FORM
 	db AURORA_BEAM

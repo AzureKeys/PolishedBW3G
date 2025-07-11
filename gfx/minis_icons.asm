@@ -237,21 +237,6 @@ PoliwrathMini::     INCBIN "gfx/minis/poliwrath.2bpp.lz"
 PoliwrathMiniMask:: INCBIN "gfx/minis/poliwrath_mask.1bpp.lz"
 PoliwrathIcon::     INCBIN "gfx/icons/poliwrath.2bpp.lz"
 
-SECTION "Bellsprout Mini Icon", ROMX
-BellsproutMini::     INCBIN "gfx/minis/bellsprout.2bpp.lz"
-BellsproutMiniMask:: INCBIN "gfx/minis/bellsprout_mask.1bpp.lz"
-BellsproutIcon::     INCBIN "gfx/icons/bellsprout.2bpp.lz"
-
-SECTION "Weepinbell Mini Icon", ROMX
-WeepinbellMini::     INCBIN "gfx/minis/weepinbell.2bpp.lz"
-WeepinbellMiniMask:: INCBIN "gfx/minis/weepinbell_mask.1bpp.lz"
-WeepinbellIcon::     INCBIN "gfx/icons/weepinbell.2bpp.lz"
-
-SECTION "Victreebel Mini Icon", ROMX
-VictreebelMini::     INCBIN "gfx/minis/victreebel.2bpp.lz"
-VictreebelMiniMask:: INCBIN "gfx/minis/victreebel_mask.1bpp.lz"
-VictreebelIcon::     INCBIN "gfx/icons/victreebel.2bpp.lz"
-
 SECTION "Tentacool Mini Icon", ROMX
 TentacoolMini::     INCBIN "gfx/minis/tentacool.2bpp.lz"
 TentacoolMiniMask:: INCBIN "gfx/minis/tentacool_mask.1bpp.lz"
@@ -801,11 +786,6 @@ SECTION "Ampharos Mini Icon", ROMX
 AmpharosMini::     INCBIN "gfx/minis/ampharos.2bpp.lz"
 AmpharosMiniMask:: INCBIN "gfx/minis/ampharos_mask.1bpp.lz"
 AmpharosIcon::     INCBIN "gfx/icons/ampharos.2bpp.lz"
-
-SECTION "Bellossom Mini Icon", ROMX
-BellossomMini::     INCBIN "gfx/minis/bellossom.2bpp.lz"
-BellossomMiniMask:: INCBIN "gfx/minis/bellossom_mask.1bpp.lz"
-BellossomIcon::     INCBIN "gfx/icons/bellossom.2bpp.lz"
 
 SECTION "Marill Mini Icon", ROMX
 MarillMini::     INCBIN "gfx/minis/marill.2bpp.lz"

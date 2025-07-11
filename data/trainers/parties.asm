@@ -813,13 +813,13 @@ else
 		tr_evs 252 SAt, 132 Spe
 		tr_moves GIGA_DRAIN, SCALD, ICE_BEAM, FOCUS_BLAST
 endc
-	tr_mon 64, VICTREEBEL
+	tr_mon 64, RATTATA
 		tr_evs 252 HP, 132 Spe
 		tr_moves SUNNY_DAY, HEALINGLIGHT, ACID, RAZOR_LEAF
 	tr_mon 65, RATTATA
 		tr_evs 252 SAt, 132 Spe
 		tr_moves SUNNY_DAY, HEALINGLIGHT, PETAL_DANCE, SOLAR_BEAM
-	tr_mon 65, BELLOSSOM @ SITRUS_BERRY
+	tr_mon 65, RATTATA @ SITRUS_BERRY
 		tr_evs 132 SAt, 252 Spe
 		tr_moves SUNNY_DAY, HEALINGLIGHT, PETAL_DANCE, SOLAR_BEAM
 	end_trainer
@@ -833,13 +833,13 @@ else
 endc
 	tr_mon 73, TANGROWTH @ LEFTOVERS
 		tr_moves EARTHQUAKE, SWORDS_DANCE, GIGA_DRAIN, SLEEP_POWDER
-	tr_mon 73, VICTREEBEL @ POISON_BARB
+	tr_mon 73, RATTATA @ POISON_BARB
 		tr_moves SWORDS_DANCE, GIGA_DRAIN, SLUDGE_BOMB, SEED_BOMB
 	tr_mon 74, LEAFEON @ MIRACLE_SEED
 		tr_moves SWORDS_DANCE, SEED_BOMB, IRON_TAIL, X_SCISSOR
 	tr_mon 74, RATTATA @ QUICK_CLAW
 		tr_moves PETAL_DANCE, HEALINGLIGHT, LEECH_SEED, TOXIC
-	tr_mon 75, BELLOSSOM @ PINK_BOW
+	tr_mon 75, RATTATA @ PINK_BOW
 		tr_moves SLEEP_POWDER, MOONBLAST, PETAL_DANCE, HP_ROCK
 	end_trainer
 
@@ -1672,7 +1672,7 @@ YoungsterGroup:
 	end_trainer
 
 	def_trainer TYLER, "Tyler"
-	tr_mon LEVEL_FROM_BADGES + 8, WEEPINBELL
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 9, QUAGSIRE
 	tr_mon LEVEL_FROM_BADGES + 8, SANDSLASH
 	end_trainer
@@ -1928,24 +1928,24 @@ PicnickerGroup:
 	end_trainer
 
 	def_trainer LIZ2, "Liz"
-	tr_mon 15, WEEPINBELL
+	tr_mon 15, RATTATA
 	tr_mon 15, NIDORINA
 	end_trainer
 
 	def_trainer LIZ3, "Liz"
-	tr_mon 19, WEEPINBELL
+	tr_mon 19, RATTATA
 	tr_mon 19, NIDORINO
 	tr_mon 21, NIDOQUEEN
 	end_trainer
 
 	def_trainer LIZ4, "Liz"
-	tr_mon 24, WEEPINBELL
+	tr_mon 24, RATTATA
 	tr_mon 26, NIDORINO
 	tr_mon 26, NIDOQUEEN
 	end_trainer
 
 	def_trainer LIZ5, "Liz"
-	tr_mon 30, WEEPINBELL
+	tr_mon 30, RATTATA
 		tr_moves SLEEP_POWDER, POISONPOWDER, STUN_SPORE, SLUDGE_BOMB
 	tr_mon 32, NIDOKING
 		tr_moves EARTHQUAKE, DOUBLE_KICK, POISON_STING, IRON_TAIL
@@ -2066,8 +2066,8 @@ endc
 
 	def_trainer LILY, "Lily"
 	tr_mon LEVEL_FROM_BADGES + 4, NIDORINA
-	tr_mon LEVEL_FROM_BADGES + 2, BELLSPROUT
-	tr_mon LEVEL_FROM_BADGES + 6, WEEPINBELL
+	tr_mon LEVEL_FROM_BADGES + 2, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
 	def_trainer PIPER, "Piper"
@@ -2121,13 +2121,13 @@ TwinsGroup:
 	end_trainer
 
 	def_trainer JOANDZOE1, "Lo & Zoe"
-	tr_mon 59, VICTREEBEL
+	tr_mon 59, RATTATA
 	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer JOANDZOE2, "Lo & Zoe"
 	tr_mon 59, RATTATA
-	tr_mon 59, VICTREEBEL
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer MEGANDPEG1, "Meg & Peg"
@@ -3469,7 +3469,7 @@ endc
 	def_trainer LAURA, "Laura"
 	tr_mon 52, RATTATA @ SITRUS_BERRY
 	tr_mon 54, RATTATA
-	tr_mon 54, BELLOSSOM
+	tr_mon 54, RATTATA
 	end_trainer
 
 	def_trainer SHANNON, "Shannon"
@@ -3490,10 +3490,10 @@ endc
 	end_trainer
 
 	def_trainer IRIS, "Iris"
-	tr_mon 59, WEEPINBELL
+	tr_mon 59, RATTATA
 	tr_mon 59, TANGELA
 	tr_mon 60, JIGGLYPUFF
-	tr_mon 61, BELLOSSOM
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer MIRIAM, "Miriam"
@@ -3613,7 +3613,7 @@ BeautyGroup:
 	end_trainer
 
 	def_trainer CHARLOTTE, "Charlotte"
-	tr_mon 20, "Blossom", BELLOSSOM, FEMALE
+	tr_mon 20, "Blossom", RATTATA, FEMALE
 		tr_extra SHINY
 	end_trainer
 
@@ -3972,7 +3972,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer JOHNNY, "Johnny"
-	tr_mon 18, "Gold", BELLSPROUT @ GOLD_LEAF
+	tr_mon 18, "Gold", RATTATA @ GOLD_LEAF
 	tr_mon 16, "Spin", SPINARAK
 	tr_mon 17, "Rat", RATTATA @ ORAN_BERRY
 	end_trainer
@@ -4049,9 +4049,9 @@ SchoolgirlGroup:
 	end_trainer
 
 	def_trainer FAITH, "Faith"
-	tr_mon 57, BELLSPROUT
-	tr_mon 58, WEEPINBELL
-	tr_mon 59, "Audrey", VICTREEBEL
+	tr_mon 57, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 59, "Audrey", RATTATA
 	end_trainer
 
 	def_trainer SARAH, "Sarah"
@@ -4229,23 +4229,23 @@ SageGroup:
 
 	def_trainer_class SAGE
 	def_trainer CHOW, "Chow"
-	tr_mon 3, BELLSPROUT
-	tr_mon 3, BELLSPROUT
-	tr_mon 3, BELLSPROUT
+	tr_mon 3, RATTATA
+	tr_mon 3, RATTATA
+	tr_mon 3, RATTATA
 	end_trainer
 
 	def_trainer NICO, "Nico"
-	tr_mon 3, BELLSPROUT
-	tr_mon 3, BELLSPROUT
+	tr_mon 3, RATTATA
+	tr_mon 3, RATTATA
 	tr_mon 3, HOOTHOOT
 	end_trainer
 
 	def_trainer JIN, "Jin"
-	tr_mon 7, BELLSPROUT
+	tr_mon 7, RATTATA
 	end_trainer
 
 	def_trainer TROY, "Troy"
-	tr_mon 7, BELLSPROUT
+	tr_mon 7, RATTATA
 	tr_mon 7, GASTLY
 	end_trainer
 
@@ -4262,13 +4262,13 @@ SageGroup:
 	end_trainer
 
 	def_trainer EDMOND, "Edmond"
-	tr_mon 3, BELLSPROUT
+	tr_mon 3, RATTATA
 	tr_mon 3, HOOTHOOT
-	tr_mon 3, BELLSPROUT
+	tr_mon 3, RATTATA
 	end_trainer
 
 	def_trainer NEAL, "Neal"
-	tr_mon 6, BELLSPROUT
+	tr_mon 6, RATTATA
 	tr_mon 6, HOOTHOOT
 	end_trainer
 
@@ -4378,13 +4378,13 @@ ElderGroup:
 	def_trainer LI, "Li"
 	tr_mon 7, HOOTHOOT
 	tr_mon 7, GASTLY
-	tr_mon 10, BELLSPROUT
+	tr_mon 10, RATTATA
 	end_trainer
 
 	def_trainer GAKU, "Gaku"
 	tr_mon 37, NOCTOWL
 	tr_mon 38, FLAREON
-	tr_mon 38, WEEPINBELL
+	tr_mon 38, RATTATA
 	end_trainer
 
 	def_trainer MASA, "Masa"
@@ -4475,11 +4475,11 @@ CoupleGroup:
 
 	def_trainer MOEANDLULU1, "Moe & Lulu"
 	tr_mon 53, RATTATA, MALE
-	tr_mon 53, WEEPINBELL, FEMALE
+	tr_mon 53, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer MOEANDLULU2, "Moe & Lulu"
-	tr_mon 53, WEEPINBELL, FEMALE
+	tr_mon 53, RATTATA, FEMALE
 	tr_mon 53, RATTATA, MALE
 	end_trainer
 
@@ -5643,7 +5643,7 @@ TeacherFGroup:
 	end_trainer
 
 	def_trainer KATHRYN, "Kathryn"
-	tr_mon LEVEL_FROM_BADGES + 5, BELLOSSOM
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 2, FURRET
 	end_trainer
@@ -5900,13 +5900,13 @@ AromaLadyGroup:
 	def_trainer_class AROMA_LADY
 	def_trainer DAHLIA, "Dahlia"
 	tr_mon 58, RATTATA
-	tr_mon 58, BELLOSSOM
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer BRYONY, "Bryony"
-	tr_mon 55, BELLOSSOM
+	tr_mon 55, RATTATA
 		tr_moves SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
-	tr_mon 55, BELLOSSOM
+	tr_mon 55, RATTATA
 		tr_moves SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
 	end_trainer
 
@@ -6038,7 +6038,7 @@ CooltrainerMGroup:
 
 	def_trainer_class COOLTRAINERM
 	def_trainer GAVEN1, "Gaven"
-	tr_mon 39, VICTREEBEL
+	tr_mon 39, RATTATA
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
 	tr_mon 39, KINGLER
 		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
@@ -6047,7 +6047,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer GAVEN2, "Gaven"
-	tr_mon 41, VICTREEBEL
+	tr_mon 41, RATTATA
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
 	tr_mon 41, KINGLER
 		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
@@ -6056,7 +6056,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer GAVEN3, "Gaven"
-	tr_mon 45, VICTREEBEL
+	tr_mon 45, RATTATA
 		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
 	tr_mon 45, KINGLER @ KINGS_ROCK
 		tr_moves SURF, STOMP, DIG, BLIZZARD
@@ -6167,8 +6167,8 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer PETRIE, "Petrie"
-	tr_mon LEVEL_FROM_BADGES + 3, BELLSPROUT @ MIRACLE_SEED, MALE
-		tr_extra CHLOROPHYLL, ATK_UP_SATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA @ MIRACLE_SEED, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_dvs 14 All
 		tr_evs 20 Atk
 		tr_moves VINE_WHIP, GROWTH, WRAP, SLEEP_POWDER
@@ -6365,7 +6365,7 @@ endc
 	def_trainer CYBIL, "Cybil"
 	tr_mon 35, RATTATA
 		tr_moves SUPERSONIC, PSYBEAM, HYPNOSIS, HEALINGLIGHT
-	tr_mon 36, BELLOSSOM
+	tr_mon 36, RATTATA
 		tr_moves ACID, SLEEP_POWDER, GIGA_DRAIN, HEALINGLIGHT
 	end_trainer
 
@@ -6406,8 +6406,8 @@ endc
 	end_trainer
 
 	def_trainer CHIARA, "Chiara"
-	tr_mon LEVEL_FROM_BADGES + 4, WEEPINBELL @ BINDING_BAND, FEMALE
-		tr_extra CHLOROPHYLL, SPE_UP_DEF_DOWN
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA @ BINDING_BAND, FEMALE
+		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves WRAP, SLEEP_POWDER, POISONPOWDER, STUN_SPORE
 	tr_mon LEVEL_FROM_BADGES + 4, AZUMARILL @ BINDING_BAND, FEMALE
@@ -6522,7 +6522,7 @@ else
 endc
 	tr_mon 41, NINETALES @ CHARCOAL
 		tr_moves FLAMETHROWER, SHADOW_BALL, CONFUSE_RAY, EXTRASENSORY
-	tr_mon 39, VICTREEBEL @ MIRACLE_SEED
+	tr_mon 39, RATTATA @ MIRACLE_SEED
 		tr_moves SLUDGE_BOMB, SEED_BOMB, SLEEP_POWDER, SWORDS_DANCE
 	tr_mon 39, RAICHU @ SILK_SCARF
 		tr_moves SURF, THUNDERBOLT, EXTREMESPEED, NASTY_PLOT
@@ -6873,7 +6873,7 @@ ProfIvyGroup:
 	def_trainer 1, "Ivy"
 	tr_mon 65, RATTATA
 	tr_mon 64, POLITOED
-	tr_mon 64, VICTREEBEL
+	tr_mon 64, RATTATA
 	tr_mon 63, RHYPERIOR
 	tr_mon 63, NIDOQUEEN
 	tr_mon 66, GYARADOS
@@ -6956,7 +6956,7 @@ JessieJamesGroup:
 	def_trainer 1, "& James"
 	tr_mon 26, WEEZING, MALE
 	tr_mon 26, ARBOK, FEMALE | ARBOK_KANTO_FORM
-	tr_mon 24, VICTREEBEL, FEMALE
+	tr_mon 24, RATTATA, FEMALE
 	tr_mon 24, WOBBUFFET, MALE
 	tr_mon 28, MEOWTH, MALE
 	end_trainer
@@ -7319,7 +7319,7 @@ AnabelGroup:
 		tr_evs 136 SDf
 	tr_mon 29, SLOWKING
 		tr_evs 136 SDf
-	tr_mon 27, BELLOSSOM
+	tr_mon 27, RATTATA
 		tr_evs 136 SDf
 	tr_mon 28, POLITOED
 		tr_evs 136 SDf
@@ -7331,7 +7331,7 @@ AnabelGroup:
 	tr_mon 74, SNORLAX
 	tr_mon 75, SLOWKING
 	tr_mon 73, BLASTOISE
-	tr_mon 71, BELLOSSOM
+	tr_mon 71, RATTATA
 	tr_mon 72, POLITOED
 	tr_mon 73, MR__MIME
 	end_trainer

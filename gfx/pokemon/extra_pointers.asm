@@ -46,9 +46,6 @@ AnimationExtraPointers:
 	dw PoliwagAnimationExtra
 	dw PoliwhirlAnimationExtra
 	dw PoliwrathAnimationExtra
-	dw BellsproutAnimationExtra
-	dw WeepinbellAnimationExtra
-	dw VictreebelAnimationExtra
 	dw TentacoolAnimationExtra
 	dw TentacruelAnimationExtra
 	dw GeodudePlainAnimationExtra
@@ -159,7 +156,6 @@ AnimationExtraPointers:
 	dw MareepAnimationExtra
 	dw FlaaffyAnimationExtra
 	dw AmpharosAnimationExtra
-	dw BellossomAnimationExtra
 	dw MarillAnimationExtra
 	dw AzumarillAnimationExtra
 	dw SudowoodoAnimationExtra
@@ -254,12 +250,12 @@ AnimationExtraPointers:
 	dw MamoswineAnimationExtra
 	dw PorygonZAnimationExtra
 	dw SylveonAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw PerrserkerAnimationExtra
 	dw CursolaAnimationExtra
 	dw SirfetchDAnimationExtra
 	dw MrRimeAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw WyrdeerAnimationExtra
 	dw KleavorAnimationExtra
 	dw UrsalunaPlainAnimationExtra

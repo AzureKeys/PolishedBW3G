@@ -53,9 +53,6 @@ PokemonBodyData:
 	body_data   6,  124, HEAD_LEGS,    BLUE   ; POLIWAG
 	body_data  10,  200, BIPEDAL,      BLUE   ; POLIWHIRL
 	body_data  13,  540, BIPEDAL,      BLUE   ; POLIWRATH
-	body_data   7,   40, BIPEDAL,      GREEN  ; BELLSPROUT
-	body_data  10,   64, HEAD_BASE,    GREEN  ; WEEPINBELL
-	body_data  17,  155, HEAD_BASE,    GREEN  ; VICTREEBEL
 	body_data   9,  455, TENTACLES,    BLUE   ; TENTACOOL
 	body_data  16,  550, TENTACLES,    BLUE   ; TENTACRUEL
 	body_data   4,  200, HEAD_ARMS,    BROWN  ; GEODUDE
@@ -166,7 +163,6 @@ PokemonBodyData:
 	body_data   6,   78, QUADRUPED,    WHITE  ; MAREEP
 	body_data   8,  133, BIPEDAL_TAIL, PINK   ; FLAAFFY
 	body_data  14,  615, BIPEDAL_TAIL, YELLOW ; AMPHAROS
-	body_data   4,   58, BIPEDAL,      GREEN  ; BELLOSSOM
 	body_data   4,   85, BIPEDAL_TAIL, BLUE   ; MARILL
 	body_data   8,  285, BIPEDAL_TAIL, BLUE   ; AZUMARILL
 	body_data  12,  380, BIPEDAL,      BROWN  ; SUDOWOODO
@@ -261,12 +257,12 @@ PokemonBodyData:
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
 	body_data   9,  340, HEAD_ARMS,    RED    ; PORYGON_Z
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
 	body_data   8, 1170, WINGS,        WHITE  ; SIRFETCH_D
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  18,  951, QUADRUPED,    GRAY   ; WYRDEER
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
