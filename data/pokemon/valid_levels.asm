@@ -298,4 +298,7 @@ endc
 	db  20, 100 ; Liepard
 	db   1,  19 ; Munna
 	db  20, 100 ; Musharna
+	db   1,  20 ; Pidove
+	db  21,  31 ; Tranquill
+	db  32, 100 ; Unfezant
 	assert_table_length NUM_SPECIES

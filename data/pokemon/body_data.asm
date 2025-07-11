@@ -300,6 +300,9 @@ PokemonBodyData:
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
+	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
+	body_data   6,  150, WINGS,        GRAY   ; TRANQUILL
+	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

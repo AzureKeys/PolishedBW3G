@@ -294,4 +294,7 @@ PokemonNames::
 	rawchar "Liepard@@@"
 	rawchar "Munna@@@@@"
 	rawchar "Musharna@@"
+	rawchar "Pidove@@@@"
+	rawchar "Tranquill@"
+	rawchar "Unfezant@@"
 	assert_table_length NUM_SPECIES + 1

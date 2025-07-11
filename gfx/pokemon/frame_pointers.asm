@@ -293,6 +293,9 @@ FramesPointers:
 	dw LiepardFrames
 	dw MunnaFrames
 	dw MusharnaFrames
+	dw PidoveFrames
+	dw TranquillFrames
+	dw UnfezantFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

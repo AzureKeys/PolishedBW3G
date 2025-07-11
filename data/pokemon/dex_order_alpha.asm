@@ -186,6 +186,7 @@ AlphabeticalPokedexOrder:
 	dp PERSIAN
 	dp PHANPY
 	dp PICHU
+	dp PIDOVE
 	dp PIGNITE
 	dp PIKACHU
 	dp PILOSWINE
@@ -266,10 +267,12 @@ AlphabeticalPokedexOrder:
 	dp TOGEPI
 	dp TOGETIC
 	dp TOTODILE
+	dp TRANQUILL
 	dp TYPHLOSION
 	dp TYRANITAR
 	dp TYROGUE
 	dp UMBREON
+	dp UNFEZANT
 	dp UNOWN
 	dp URSALUNA
 	dp URSARING

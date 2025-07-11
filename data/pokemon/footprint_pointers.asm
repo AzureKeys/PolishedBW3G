@@ -293,6 +293,9 @@ FootprintPointers::
 	dw LiepardFootprint
 	dw MunnaFootprint
 	dw MusharnaFootprint
+	dw PidoveFootprint
+	dw TranquillFootprint
+	dw UnfezantFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

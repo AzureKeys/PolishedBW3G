@@ -317,6 +317,9 @@
 	const LIEPARD    ; 129
 	const MUNNA      ; 128
 	const MUSHARNA   ; 129
+	const PIDOVE     ; 129
+	const TRANQUILL  ; 128
+	const UNFEZANT   ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

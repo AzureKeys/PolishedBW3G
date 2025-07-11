@@ -293,6 +293,9 @@ EggSpeciesMovesPointers::
 	dw PurrloinEggSpeciesMoves          ; Liepard
 	dw MunnaEggSpeciesMoves             ; Munna
 	dw MunnaEggSpeciesMoves             ; Musharna
+	dw PidoveEggSpeciesMoves            ; Pidove
+	dw PidoveEggSpeciesMoves            ; Tranquill
+	dw PidoveEggSpeciesMoves            ; Unfezant
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

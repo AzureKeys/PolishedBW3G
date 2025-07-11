@@ -294,6 +294,9 @@ PokedexDataPointerTable:
 	dba LiepardPokedexEntry
 	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry
+	dba PidovePokedexEntry
+	dba TranquillPokedexEntry
+	dba UnfezantPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -20,6 +20,9 @@ NewPokedexOrder:
 	dp LIEPARD
 	dp MUNNA
 	dp MUSHARNA
+	dp PIDOVE
+	dp TRANQUILL
+	dp UNFEZANT
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

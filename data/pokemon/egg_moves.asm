@@ -1244,5 +1244,12 @@ MunnaEggSpeciesMoves:
 	db SWIFT
 	db $ff
 
+PidoveEggSpeciesMoves:
+	dp PIDOVE, PLAIN_FORM
+	db HYPNOSIS
+	db NIGHT_SLASH
+	db STEEL_WING
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

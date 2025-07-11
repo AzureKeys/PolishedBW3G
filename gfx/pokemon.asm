@@ -1564,3 +1564,15 @@ MunnaBackpic:  INCBIN "gfx/pokemon/munna/back.2bpp.lz"
 SECTION "Musharna Pics", ROMX
 MusharnaFrontpic: INCBIN "gfx/pokemon/musharna/front.animated.2bpp.lz"
 MusharnaBackpic:  INCBIN "gfx/pokemon/musharna/back.2bpp.lz"
+
+SECTION "Pidove Pics", ROMX
+PidoveFrontpic: INCBIN "gfx/pokemon/pidove/front.animated.2bpp.lz"
+PidoveBackpic:  INCBIN "gfx/pokemon/pidove/back.2bpp.lz"
+
+SECTION "Tranquill Pics", ROMX
+TranquillFrontpic: INCBIN "gfx/pokemon/tranquill/front.animated.2bpp.lz"
+TranquillBackpic:  INCBIN "gfx/pokemon/tranquill/back.2bpp.lz"
+
+SECTION "Unfezant Pics", ROMX
+UnfezantFrontpic: INCBIN "gfx/pokemon/unfezant/front.animated.2bpp.lz"
+UnfezantBackpic:  INCBIN "gfx/pokemon/unfezant/back.2bpp.lz"

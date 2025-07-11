@@ -297,6 +297,9 @@ OverworldMonIconColors::
 	iconpal PURPLE, RED ; LIEPARD
 	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA
+	iconpal GRAY, BLUE ; PIDOVE
+	iconpal GRAY, GREEN ; TRANQUILL
+	iconpal PINK, PURPLE ; UNFEZANT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

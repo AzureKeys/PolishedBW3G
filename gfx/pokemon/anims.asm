@@ -240,6 +240,9 @@ PurrloinAnimation:   INCLUDE "gfx/pokemon/purrloin/anim.asm"
 LiepardAnimation:    INCLUDE "gfx/pokemon/liepard/anim.asm"
 MunnaAnimation:      INCLUDE "gfx/pokemon/munna/anim.asm"
 MusharnaAnimation:   INCLUDE "gfx/pokemon/musharna/anim.asm"
+PidoveAnimation:     INCLUDE "gfx/pokemon/pidove/anim.asm"
+TranquillAnimation:  INCLUDE "gfx/pokemon/tranquill/anim.asm"
+UnfezantAnimation:   INCLUDE "gfx/pokemon/unfezant/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

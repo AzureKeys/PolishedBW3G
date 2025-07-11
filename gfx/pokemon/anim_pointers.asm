@@ -293,6 +293,9 @@ AnimationPointers:
 	dw LiepardAnimation
 	dw MunnaAnimation
 	dw MusharnaAnimation
+	dw PidoveAnimation
+	dw TranquillAnimation
+	dw UnfezantAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

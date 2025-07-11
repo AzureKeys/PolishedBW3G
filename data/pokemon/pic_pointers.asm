@@ -297,6 +297,9 @@ PokemonPicPointers::
 	pics Liepard
 	pics Munna
 	pics Musharna
+	pics Pidove
+	pics Tranquill
+	pics Unfezant
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

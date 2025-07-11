@@ -299,4 +299,7 @@ PokemonCries::
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
 	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
+	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
+	mon_cry CRY_PIDGEY,      $1c0,  $184 ; Tranquill
+	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
 	assert_table_length NUM_SPECIES

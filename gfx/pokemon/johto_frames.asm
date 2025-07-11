@@ -145,6 +145,9 @@ PurrloinFrames:   INCLUDE "gfx/pokemon/purrloin/frames.asm"
 LiepardFrames:    INCLUDE "gfx/pokemon/liepard/frames.asm"
 MunnaFrames:      INCLUDE "gfx/pokemon/munna/frames.asm"
 MusharnaFrames:   INCLUDE "gfx/pokemon/musharna/frames.asm"
+PidoveFrames:     INCLUDE "gfx/pokemon/pidove/frames.asm"
+TranquillFrames:  INCLUDE "gfx/pokemon/tranquill/frames.asm"
+UnfezantFrames:   INCLUDE "gfx/pokemon/unfezant/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

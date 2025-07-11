@@ -240,6 +240,9 @@ PurrloinAnimationExtra:   INCLUDE "gfx/pokemon/purrloin/anim_idle.asm"
 LiepardAnimationExtra:    INCLUDE "gfx/pokemon/liepard/anim_idle.asm"
 MunnaAnimationExtra:      INCLUDE "gfx/pokemon/munna/anim_idle.asm"
 MusharnaAnimationExtra:   INCLUDE "gfx/pokemon/musharna/anim_idle.asm"
+PidoveAnimationExtra:     INCLUDE "gfx/pokemon/pidove/anim_idle.asm"
+TranquillAnimationExtra:  INCLUDE "gfx/pokemon/tranquill/anim_idle.asm"
+UnfezantAnimationExtra:   INCLUDE "gfx/pokemon/unfezant/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

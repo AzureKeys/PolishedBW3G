@@ -297,6 +297,9 @@ MiniIconPointers:
 	mini_icon Liepard
 	mini_icon Munna
 	mini_icon Musharna
+	mini_icon Pidove
+	mini_icon Tranquill
+	mini_icon Unfezant
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

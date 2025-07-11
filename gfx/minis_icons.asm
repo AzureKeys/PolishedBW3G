@@ -1467,6 +1467,21 @@ MusharnaMini::     INCBIN "gfx/minis/musharna.2bpp.lz"
 MusharnaMiniMask:: INCBIN "gfx/minis/musharna_mask.1bpp.lz"
 MusharnaIcon::     INCBIN "gfx/icons/musharna.2bpp.lz"
 
+SECTION "Pidove Mini Icon", ROMX
+PidoveMini::     INCBIN "gfx/minis/pidove.2bpp.lz"
+PidoveMiniMask:: INCBIN "gfx/minis/pidove_mask.1bpp.lz"
+PidoveIcon::     INCBIN "gfx/icons/pidove.2bpp.lz"
+
+SECTION "Tranquill Mini Icon", ROMX
+TranquillMini::     INCBIN "gfx/minis/tranquill.2bpp.lz"
+TranquillMiniMask:: INCBIN "gfx/minis/tranquill_mask.1bpp.lz"
+TranquillIcon::     INCBIN "gfx/icons/tranquill.2bpp.lz"
+
+SECTION "Unfezant Mini Icon", ROMX
+UnfezantMini::     INCBIN "gfx/minis/unfezant.2bpp.lz"
+UnfezantMiniMask:: INCBIN "gfx/minis/unfezant_mask.1bpp.lz"
+UnfezantIcon::     INCBIN "gfx/icons/unfezant.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

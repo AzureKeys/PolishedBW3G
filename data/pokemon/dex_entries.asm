@@ -2911,6 +2911,36 @@ MusharnaPokedexEntry::
 	next "people and"
 	next "#MON.@"
 
+SECTION "PidovePokedexEntry", ROMX
+PidovePokedexEntry::
+	db "Tiny Pigeon@"
+	db "These #MON live"
+	next "in cities. They"
+	next "are accustomed to"
+	page "people. Flocks"
+	next "often gather in"
+	next "parks.@"
+
+SECTION "TranquillPokedexEntry", ROMX
+TranquillPokedexEntry::
+	db "Wild Pigeon@"
+	db "It can return to"
+	next "its trainer's"
+	next "location"
+	page "regardless of the"
+	next "distance between"
+	next "them.@"
+
+SECTION "UnfezantPokedexEntry", ROMX
+UnfezantPokedexEntry::
+	db "Proud@"
+	db "They swing the"
+	next "plumage on their"
+	next "heads to threaten"
+	page "opponents. Their"
+	next "flying surpasses"
+	next "all #MON.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

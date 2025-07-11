@@ -297,6 +297,9 @@ EvosAttacksPointers::
 	dw LiepardEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks
+	dw PidoveEvosAttacks
+	dw TranquillEvosAttacks
+	dw UnfezantEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

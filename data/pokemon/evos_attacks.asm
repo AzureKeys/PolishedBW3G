@@ -6048,6 +6048,62 @@ endc
 	learnset 1, PSYBEAM
 	learnset 1, HYPNOSIS
 	learnset 13, REFLECT ; Imprison
+	
+	evos_attacks Pidove
+	evo_data EVOLVE_LEVEL, 21, TRANQUILL
+	learnset 1, GUST
+	learnset 4, GROWL
+	learnset 8, LEER
+	learnset 11, QUICK_ATTACK
+	;learnset 15, AIR_CUTTER
+	learnset 18, ROOST
+	learnset 22, PROTECT ; Detect
+	learnset 25, THIEF ; Taunt
+	learnset 29, AIR_SLASH
+	learnset 32, DRILL_PECK ; Razor Wind
+	learnset 36, CHARM ; FeatherDance
+	learnset 39, SWAGGER
+	learnset 43, FACADE
+	; Skipped Tailwind
+	learnset 46, BRAVE_BIRD ; Sky Attack
+	
+	evos_attacks Tranquill
+	evo_data EVOLVE_LEVEL, 32, UNFEZANT
+	learnset 1, GUST
+	learnset 4, GROWL
+	learnset 8, LEER
+	learnset 11, QUICK_ATTACK
+	;learnset 15, AIR_CUTTER
+	learnset 18, ROOST
+	learnset 23, PROTECT ; Detect
+	learnset 27, THIEF ; Taunt
+	learnset 32, AIR_SLASH
+	learnset 36, DRILL_PECK ; Razor Wind
+	learnset 41, CHARM ; FeatherDance
+	learnset 45, SWAGGER
+	learnset 50, FACADE
+	; Skipped Tailwind
+	learnset 54, BRAVE_BIRD ; Sky Attack
+	
+	evos_attacks Unfezant
+	learnset 1, GUST
+	learnset 1, GROWL
+	learnset 1, LEER
+	learnset 1, QUICK_ATTACK
+	learnset 4, GROWL
+	learnset 8, LEER
+	learnset 11, QUICK_ATTACK
+	;learnset 15, AIR_CUTTER
+	learnset 18, ROOST
+	learnset 23, PROTECT ; Detect
+	learnset 27, THIEF ; Taunt
+	learnset 32, AIR_SLASH
+	learnset 38, DRILL_PECK ; Razor Wind
+	learnset 44, CHARM ; FeatherDance
+	learnset 49, SWAGGER
+	learnset 55, FACADE
+	; Skipped Tailwind
+	learnset 60, BRAVE_BIRD ; Sky Attack
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

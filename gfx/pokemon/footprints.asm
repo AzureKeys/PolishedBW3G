@@ -33,6 +33,9 @@ PurrloinFootprint::
 LiepardFootprint::
 MunnaFootprint::
 MusharnaFootprint::
+PidoveFootprint::
+TranquillFootprint::
+UnfezantFootprint::
 ArbokFootprint::
 BellossomFootprint::
 ChinchouFootprint::

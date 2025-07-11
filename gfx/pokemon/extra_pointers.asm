@@ -293,6 +293,9 @@ AnimationExtraPointers:
 	dw LiepardAnimationExtra
 	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra
+	dw PidoveAnimationExtra
+	dw TranquillAnimationExtra
+	dw UnfezantAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
