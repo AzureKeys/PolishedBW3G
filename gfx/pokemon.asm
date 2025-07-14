@@ -140,14 +140,6 @@ SECTION "Poliwrath Pics", ROMX
 PoliwrathFrontpic: INCBIN "gfx/pokemon/poliwrath/front.animated.2bpp.lz"
 PoliwrathBackpic:  INCBIN "gfx/pokemon/poliwrath/back.2bpp.lz"
 
-SECTION "Tentacool Pics", ROMX
-TentacoolFrontpic: INCBIN "gfx/pokemon/tentacool/front.animated.2bpp.lz"
-TentacoolBackpic:  INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
-
-SECTION "Tentacruel Pics", ROMX
-TentacruelFrontpic: INCBIN "gfx/pokemon/tentacruel/front.animated.2bpp.lz"
-TentacruelBackpic:  INCBIN "gfx/pokemon/tentacruel/back.2bpp.lz"
-
 SECTION "Magnemite Pics", ROMX
 MagnemiteFrontpic: INCBIN "gfx/pokemon/magnemite/front.animated.2bpp.lz"
 MagnemiteBackpic:  INCBIN "gfx/pokemon/magnemite/back.2bpp.lz"
@@ -1576,3 +1568,15 @@ ExcadrillBackpic:  INCBIN "gfx/pokemon/excadrill/back.2bpp.lz"
 SECTION "Audino Pics", ROMX
 AudinoFrontpic: INCBIN "gfx/pokemon/audino/front.animated.2bpp.lz"
 AudinoBackpic:  INCBIN "gfx/pokemon/audino/back.2bpp.lz"
+
+SECTION "Timburr Pics", ROMX
+TimburrFrontpic: INCBIN "gfx/pokemon/timburr/front.animated.2bpp.lz"
+TimburrBackpic:  INCBIN "gfx/pokemon/timburr/back.2bpp.lz"
+
+SECTION "Gurdurr Pics", ROMX
+GurdurrFrontpic: INCBIN "gfx/pokemon/gurdurr/front.animated.2bpp.lz"
+GurdurrBackpic:  INCBIN "gfx/pokemon/gurdurr/back.2bpp.lz"
+
+SECTION "Conkeldurr Pics", ROMX
+ConkeldurrFrontpic: INCBIN "gfx/pokemon/conkeldurr/front.animated.2bpp.lz"
+ConkeldurrBackpic:  INCBIN "gfx/pokemon/conkeldurr/back.2bpp.lz"

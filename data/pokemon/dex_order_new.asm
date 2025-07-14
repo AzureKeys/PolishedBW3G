@@ -33,6 +33,9 @@ NewPokedexOrder:
 	dp DRILBUR
 	dp EXCADRILL
 	dp AUDINO
+	dp TIMBURR
+	dp GURDURR
+	dp CONKELDURR
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -188,8 +191,6 @@ NewPokedexOrder:
 	dp XATU
 	dp QWILFISH
 	dp OVERQWIL
-	dp TENTACOOL
-	dp TENTACRUEL
 	dp KRABBY
 	dp KINGLER
 	dp SHUCKLE

@@ -50,8 +50,6 @@ EvosAttacksPointers::
 	dw PoliwagEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
-	dw TentacoolEvosAttacks
-	dw TentacruelEvosAttacks
 	dw GeodudePlainEvosAttacks
 	dw GravelerPlainEvosAttacks
 	dw GolemPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw CursolaEvosAttacks
 	dw SirfetchDEvosAttacks
 	dw MrRimeEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw WyrdeerEvosAttacks
 	dw KleavorEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
 	dw OverqwilEvosAttacks
@@ -300,6 +298,9 @@ EvosAttacksPointers::
 	dw DrilburEvosAttacks
 	dw ExcadrillEvosAttacks
 	dw AudinoEvosAttacks
+	dw TimburrEvosAttacks
+	dw GurdurrEvosAttacks
+	dw ConkeldurrEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

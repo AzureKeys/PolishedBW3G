@@ -237,16 +237,6 @@ PoliwrathMini::     INCBIN "gfx/minis/poliwrath.2bpp.lz"
 PoliwrathMiniMask:: INCBIN "gfx/minis/poliwrath_mask.1bpp.lz"
 PoliwrathIcon::     INCBIN "gfx/icons/poliwrath.2bpp.lz"
 
-SECTION "Tentacool Mini Icon", ROMX
-TentacoolMini::     INCBIN "gfx/minis/tentacool.2bpp.lz"
-TentacoolMiniMask:: INCBIN "gfx/minis/tentacool_mask.1bpp.lz"
-TentacoolIcon::     INCBIN "gfx/icons/tentacool.2bpp.lz"
-
-SECTION "Tentacruel Mini Icon", ROMX
-TentacruelMini::     INCBIN "gfx/minis/tentacruel.2bpp.lz"
-TentacruelMiniMask:: INCBIN "gfx/minis/tentacruel_mask.1bpp.lz"
-TentacruelIcon::     INCBIN "gfx/icons/tentacruel.2bpp.lz"
-
 SECTION "Geodude Mini Icon", ROMX
 GeodudeMini::     INCBIN "gfx/minis/geodude.2bpp.lz"
 GeodudeMiniMask:: INCBIN "gfx/minis/geodude_mask.1bpp.lz"
@@ -1481,6 +1471,21 @@ SECTION "Audino Mini Icon", ROMX
 AudinoMini::     INCBIN "gfx/minis/audino.2bpp.lz"
 AudinoMiniMask:: INCBIN "gfx/minis/audino_mask.1bpp.lz"
 AudinoIcon::     INCBIN "gfx/icons/audino.2bpp.lz"
+
+SECTION "Timburr Mini Icon", ROMX
+TimburrMini::     INCBIN "gfx/minis/timburr.2bpp.lz"
+TimburrMiniMask:: INCBIN "gfx/minis/timburr_mask.1bpp.lz"
+TimburrIcon::     INCBIN "gfx/icons/timburr.2bpp.lz"
+
+SECTION "Gurdurr Mini Icon", ROMX
+GurdurrMini::     INCBIN "gfx/minis/gurdurr.2bpp.lz"
+GurdurrMiniMask:: INCBIN "gfx/minis/gurdurr_mask.1bpp.lz"
+GurdurrIcon::     INCBIN "gfx/icons/gurdurr.2bpp.lz"
+
+SECTION "Conkeldurr Mini Icon", ROMX
+ConkeldurrMini::     INCBIN "gfx/minis/conkeldurr.2bpp.lz"
+ConkeldurrMiniMask:: INCBIN "gfx/minis/conkeldurr_mask.1bpp.lz"
+ConkeldurrIcon::     INCBIN "gfx/icons/conkeldurr.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

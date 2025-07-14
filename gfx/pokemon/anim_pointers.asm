@@ -46,8 +46,6 @@ AnimationPointers:
 	dw PoliwagAnimation
 	dw PoliwhirlAnimation
 	dw PoliwrathAnimation
-	dw TentacoolAnimation
-	dw TentacruelAnimation
 	dw GeodudePlainAnimation
 	dw GravelerPlainAnimation
 	dw GolemPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw SirfetchDAnimation
 	dw MrRimeAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw WyrdeerAnimation
 	dw KleavorAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
 	dw OverqwilAnimation
@@ -296,6 +294,9 @@ AnimationPointers:
 	dw DrilburAnimation
 	dw ExcadrillAnimation
 	dw AudinoAnimation
+	dw TimburrAnimation
+	dw GurdurrAnimation
+	dw ConkeldurrAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

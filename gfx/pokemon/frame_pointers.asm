@@ -46,8 +46,6 @@ FramesPointers:
 	dw PoliwagFrames
 	dw PoliwhirlFrames
 	dw PoliwrathFrames
-	dw TentacoolFrames
-	dw TentacruelFrames
 	dw GeodudePlainFrames
 	dw GravelerPlainFrames
 	dw GolemPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw CursolaFrames
 	dw SirfetchDFrames
 	dw MrRimeFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw WyrdeerFrames
 	dw KleavorFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw UrsalunaPlainFrames
 	dw SneaslerFrames
 	dw OverqwilFrames
@@ -296,6 +294,9 @@ FramesPointers:
 	dw DrilburFrames
 	dw ExcadrillFrames
 	dw AudinoFrames
+	dw TimburrFrames
+	dw GurdurrFrames
+	dw ConkeldurrFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

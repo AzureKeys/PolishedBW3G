@@ -50,8 +50,6 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; POLIWAG
 	iconpal BLUE, AZURE ; POLIWHIRL
 	iconpal BLUE, TEAL ; POLIWRATH
-	iconpal BLUE, AZURE ; TENTACOOL
-	iconpal BLUE, AZURE ; TENTACRUEL
 	iconpal BROWN, RED ; GEODUDE
 	iconpal BROWN, RED ; GRAVELER
 	iconpal BROWN, RED ; GOLEM
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GRAY, PINK ; CURSOLA
 	iconpal WHITE, RED ; SIRFETCH_D
 	iconpal BLUE, GRAY ; MR__RIME
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, GREEN ; WYRDEER
 	iconpal BROWN, GREEN ; KLEAVOR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
 	iconpal PURPLE, BLUE ; OVERQWIL
@@ -300,6 +298,9 @@ OverworldMonIconColors::
 	iconpal GRAY, RED ; DRILBUR
 	iconpal BROWN, RED ; EXCADRILL
 	iconpal PINK, PURPLE ; AUDINO
+	iconpal GRAY, BROWN ; TIMBURR
+	iconpal GRAY, BROWN ; GURDURR
+	iconpal BROWN, ORANGE ; CONKELDURR
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

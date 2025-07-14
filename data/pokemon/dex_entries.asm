@@ -462,26 +462,6 @@ PoliwrathPokedexEntry::
 	next "of the water for a"
 	next "split second.@"
 
-SECTION "TentacoolPokedexEntry", ROMX
-TentacoolPokedexEntry::
-	db "Jellyfish@"
-	db   "As it floats along"
-	next "on the waves, it"
-	next "uses its toxic"
-	page "feelers to stab"
-	next "anything it"
-	next "touches.@"
-
-SECTION "TentacruelPokedexEntry", ROMX
-TentacruelPokedexEntry::
-	db "Jellyfish@"
-	db   "When its 80 feel-"
-	next "ers absorb water,"
-	next "it stretches to"
-	page "become like a net"
-	next "to entangle its"
-	next "prey.@"
-
 SECTION "GeodudePlainPokedexEntry", ROMX
 GeodudePlainPokedexEntry::
 	db "Rock@"
@@ -2747,7 +2727,7 @@ SECTION "LillipupPokedexEntry", ROMX
 LillipupPokedexEntry::
 	db "Puppy@"
 	db "Though it is a"
-	next "brave #MON,"
+	next "brave #mon,"
 	next "it is intelligent"
 	page "enough to flee"
 	next "from a dangerous"
@@ -2759,7 +2739,7 @@ HerdierPokedexEntry::
 	db "Its black, cape-"
 	next "like fur is very"
 	next "hard, protecting"
-	page "this #MON from"
+	page "this #mon from"
 	next "enemy attacks.@"
 
 SECTION "StoutlandPokedexEntry", ROMX
@@ -2784,7 +2764,7 @@ PurrloinPokedexEntry::
 SECTION "LiepardPokedexEntry", ROMX
 LiepardPokedexEntry::
 	db "Cruel@"
-	db "These #MON"
+	db "These #mon"
 	next "vanish and appear"
 	next "unexpectedly."
 	page "Trainers are"
@@ -2796,7 +2776,7 @@ MunnaPokedexEntry::
 	db "Dream Eater@"
 	db "It eats the"
 	next "dreams of people"
-	next "and #MON."
+	next "and #mon."
 	page "When it eats a"
 	next "pleasant dream,"
 	next "it makes mist.@"
@@ -2809,12 +2789,12 @@ MusharnaPokedexEntry::
 	next "is packed with"
 	page "the dreams of"
 	next "people and"
-	next "#MON.@"
+	next "#mon.@"
 
 SECTION "PidovePokedexEntry", ROMX
 PidovePokedexEntry::
 	db "Tiny Pigeon@"
-	db "These #MON live"
+	db "These #mon live"
 	next "in cities. They"
 	next "are accustomed to"
 	page "people. Flocks"
@@ -2839,7 +2819,7 @@ UnfezantPokedexEntry::
 	next "heads to threaten"
 	page "opponents. Their"
 	next "flying surpasses"
-	next "all #MON.@"
+	next "all #mon.@"
 
 SECTION "BlitzlePokedexEntry", ROMX
 BlitzlePokedexEntry::
@@ -2940,6 +2920,36 @@ AudinoPokedexEntry::
 	page "ability to under-"
 	next "stand surroundings"
 	next "by slight sounds.@"
+
+SECTION "TimburrPokedexEntry", ROMX
+TimburrPokedexEntry::
+	db "Muscular@"
+	db "It fights with a"
+	next "piece of lumber."
+	next "It is close to"
+	page "evolving when it"
+	next "can handle the"
+	next "lumber easily.@"
+
+SECTION "GurdurrPokedexEntry", ROMX
+GurdurrPokedexEntry::
+	db "Muscular@"
+	db "They strenghten"
+	next "their bodies by"
+	next "carrying steel"
+	page "beams. They show"
+	next "off their muscles"
+	next "to other Gurdurr.@"
+
+SECTION "ConkeldurrPokedexEntry", ROMX
+ConkeldurrPokedexEntry::
+	db "Muscular@"
+	db "They use concrete"
+	next "pillars as walking"
+	next "canes. They know"
+	page "moves that enable"
+	next "them to swing the"
+	next "pillars freely.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

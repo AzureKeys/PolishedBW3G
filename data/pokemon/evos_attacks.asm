@@ -1076,44 +1076,6 @@ endc
 	learnset 43, EARTH_POWER ; Mind Reader → Poliwhirl move
 	learnset 53, CROSS_CHOP ; Circle Throw → similar move
 
-	evos_attacks Tentacool
-	evo_data EVOLVE_LEVEL, 30, TENTACRUEL
-	learnset 1, POISON_STING
-	learnset 4, SUPERSONIC
-	learnset 7, WATER_GUN ; Constrict → new move
-	learnset 10, ACID
-	learnset 13, TOXIC_SPIKES
-	learnset 16, WATER_PULSE
-	learnset 19, WRAP
-	learnset 22, CONFUSE_RAY ; Acid Spray → event move
-	learnset 25, BUBBLE_BEAM
-	learnset 28, BARRIER
-	learnset 31, POISON_JAB
-	learnset 34, VENOSHOCK ; Brine → tutor move
-	learnset 37, SCREECH
-	learnset 40, HEX
-	learnset 43, SLUDGE_BOMB ; Sludge Wave → TM move
-	learnset 46, HYDRO_PUMP
-
-	evos_attacks Tentacruel
-	learnset 1, POWER_WHIP ; evolution move
-	learnset 1, POISON_STING
-	learnset 4, SUPERSONIC
-	learnset 7, WATER_GUN ; Constrict → new move
-	learnset 10, ACID
-	learnset 13, TOXIC_SPIKES
-	learnset 16, WATER_PULSE
-	learnset 19, WRAP
-	learnset 22, CONFUSE_RAY ; Acid Spray → event move
-	learnset 25, BUBBLE_BEAM
-	learnset 28, BARRIER
-	learnset 32, POISON_JAB
-	learnset 36, VENOSHOCK ; Brine → tutor move
-	learnset 40, SCREECH
-	learnset 44, HEX
-	learnset 48, SLUDGE_BOMB ; Sludge Wave → TM move
-	learnset 52, HYDRO_PUMP
-
 	evos_attacks GeodudePlain
 	evo_data EVOLVE_LEVEL, 25, GRAVELER, PLAIN_FORM
 	learnset 1, TACKLE
@@ -6129,6 +6091,61 @@ endc
 	learnset 49, DOUBLE_EDGE
 	learnset 53, HYPER_VOICE
 	learnset 57, HYPER_BEAM ; Last Resort
+	
+	evos_attacks Timburr
+	evo_data EVOLVE_LEVEL, 25, GURDURR
+	learnset 1, TACKLE ; Pound
+	learnset 1, LEER
+	learnset 4, FOCUS_ENERGY
+	learnset 12, LOW_KICK
+	learnset 16, ROCK_THROW
+	;learnset 20, WAKE_UP_SLAP
+	learnset 24, DIZZY_PUNCH ; Chip Away
+	learnset 28, BULK_UP
+	learnset 31, ROCK_SLIDE
+	learnset 34, DYNAMICPUNCH
+	learnset 37, SCARY_FACE
+	;learnset 40, HAMMER_ARM
+	learnset 43, STONE_EDGE
+	; Skipped Focus Punch
+	learnset 46, CLOSE_COMBAT
+	
+	evos_attacks Gurdurr
+	evo_data EVOLVE_TRADE, LINKING_CORD, CONKELDURR
+	learnset 1, TACKLE ; Pound
+	learnset 1, LEER
+	learnset 4, FOCUS_ENERGY
+	learnset 12, LOW_KICK
+	learnset 16, ROCK_THROW
+	;learnset 20, WAKE_UP_SLAP
+	learnset 24, DIZZY_PUNCH ; Chip Away
+	learnset 29, BULK_UP
+	learnset 33, ROCK_SLIDE
+	learnset 37, DYNAMICPUNCH
+	learnset 41, SCARY_FACE
+	;learnset 45, HAMMER_ARM
+	learnset 49, STONE_EDGE
+	; Skipped Focus Punch
+	learnset 53, CLOSE_COMBAT
+	
+	evos_attacks Conkeldurr
+	learnset 1, TACKLE ; Pound
+	learnset 1, LEER
+	learnset 1, FOCUS_ENERGY
+	learnset 1, LOW_KICK
+	learnset 4, FOCUS_ENERGY
+	learnset 12, LOW_KICK
+	learnset 16, ROCK_THROW
+	;learnset 20, WAKE_UP_SLAP
+	learnset 24, DIZZY_PUNCH ; Chip Away
+	learnset 29, BULK_UP
+	learnset 33, ROCK_SLIDE
+	learnset 37, DYNAMICPUNCH
+	learnset 43, SCARY_FACE
+	;learnset 49, HAMMER_ARM
+	learnset 53, STONE_EDGE
+	; Skipped Focus Punch
+	learnset 58, CLOSE_COMBAT
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

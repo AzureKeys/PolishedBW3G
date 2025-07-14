@@ -50,8 +50,6 @@ MiniIconPointers:
 	mini_icon Poliwag
 	mini_icon Poliwhirl
 	mini_icon Poliwrath
-	mini_icon Tentacool
-	mini_icon Tentacruel
 	mini_icon Geodude
 	mini_icon Graveler
 	mini_icon Golem
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Cursola
 	mini_icon SirfetchD
 	mini_icon MrRime
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Wyrdeer
 	mini_icon Kleavor
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Ursaluna
 	mini_icon Sneasler
 	mini_icon Overqwil
@@ -300,6 +298,9 @@ MiniIconPointers:
 	mini_icon Drilbur
 	mini_icon Excadrill
 	mini_icon Audino
+	mini_icon Timburr
+	mini_icon Gurdurr
+	mini_icon Conkeldurr
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

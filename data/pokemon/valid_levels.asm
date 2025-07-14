@@ -47,8 +47,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  24 ; Poliwag
 	db  25,  35 ; Poliwhirl
 	db  36, 100 ; Poliwrath
-	db   1,  29 ; Tentacool
-	db  30, 100 ; Tentacruel
 	db   1,  24 ; Geodude
 	db  25,  44 ; Graveler
 	db  45, 100 ; Golem
@@ -259,10 +257,10 @@ endc
 	db  38, 100 ; Cursola
 	db  20, 100 ; Sirfetch'd
 	db  42, 100 ; Mr. Rime
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  30, 100 ; Wyrdeer
 	db  20, 100 ; Kleavor
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
 	db  33, 100 ; Overqwil
@@ -301,4 +299,7 @@ endc
 	db   1,  30 ; Drilbur
 	db  31, 100 ; Excadrill
 	db  20, 100 ; Audino
+	db   1,  24 ; Timburr
+	db  25,  39 ; Gurdurr
+	db  40, 100 ; Conkeldurr
 	assert_table_length NUM_SPECIES

@@ -70,8 +70,6 @@
 	const POLIWAG    ; 3c
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
-	const TENTACOOL  ; 48
-	const TENTACRUEL ; 49
 	const GEODUDE    ; 4a
 	const GRAVELER   ; 4b
 	const GOLEM      ; 4c
@@ -278,10 +276,10 @@
 	const CURSOLA    ; 118
 	const SIRFETCH_D ; 119
 	const MR__RIME   ; 11a
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const WYRDEER    ; 11b
 	const KLEAVOR    ; 11c
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const URSALUNA   ; 11d
 	const SNEASLER   ; 11e
 	const OVERQWIL   ; 11f
@@ -320,6 +318,9 @@
 	const DRILBUR    ; 128
 	const EXCADRILL  ; 129
 	const AUDINO     ; 129
+	const TIMBURR    ; 128
+	const GURDURR    ; 129
+	const CONKELDURR ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

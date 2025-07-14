@@ -33,6 +33,7 @@ AlphabeticalPokedexOrder:
 	dp CLEFFA
 	dp CLODSIRE
 	dp CLOYSTER
+	dp CONKELDURR
 	dp CORSOLA
 	dp CROBAT
 	dp CROCONAW
@@ -90,6 +91,7 @@ AlphabeticalPokedexOrder:
 	dp GRAVELER
 	dp GRIMER
 	dp GROWLITHE
+	dp GURDURR
 	dp GYARADOS
 	dp HAPPINY
 	dp HAUNTER
@@ -260,9 +262,8 @@ AlphabeticalPokedexOrder:
 	dp TANGROWTH
 	dp TAUROS
 	dp TEDDIURSA
-	dp TENTACOOL
-	dp TENTACRUEL
 	dp TEPIG
+	dp TIMBURR
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC

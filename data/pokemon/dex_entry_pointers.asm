@@ -47,8 +47,6 @@ PokedexDataPointerTable:
 	dba PoliwagPokedexEntry
 	dba PoliwhirlPokedexEntry
 	dba PoliwrathPokedexEntry
-	dba TentacoolPokedexEntry
-	dba TentacruelPokedexEntry
 	dba GeodudePlainPokedexEntry
 	dba GravelerPlainPokedexEntry
 	dba GolemPlainPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba CursolaPokedexEntry
 	dba SirfetchDPokedexEntry
 	dba MrRimePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba WyrdeerPokedexEntry
 	dba KleavorPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
 	dba OverqwilPokedexEntry
@@ -297,6 +295,9 @@ PokedexDataPointerTable:
 	dba DrilburPokedexEntry
 	dba ExcadrillPokedexEntry
 	dba AudinoPokedexEntry
+	dba TimburrPokedexEntry
+	dba GurdurrPokedexEntry
+	dba ConkeldurrPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -46,8 +46,6 @@ EvolutionMoves::
 	db NO_MOVE      ; POLIWAG
 	db NO_MOVE      ; POLIWHIRL
 	db CLOSE_COMBAT ; POLIWRATH
-	db NO_MOVE      ; TENTACOOL
-	db POWER_WHIP   ; TENTACRUEL
 	db NO_MOVE      ; GEODUDE
 	db NO_MOVE      ; GRAVELER
 	db NO_MOVE      ; GOLEM
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; CURSOLA
 	db COUNTER      ; SIRFETCH_D
 	db NO_MOVE      ; MR__RIME
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db EXTRASENSORY ; WYRDEER
 	db ROCK_THROW   ; KLEAVOR
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
@@ -300,6 +298,9 @@ endc
 	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EXCADRILL
 	db NO_MOVE      ; AUDINO
+	db NO_MOVE      ; TIMBURR
+	db NO_MOVE      ; GURDURR
+	db NO_MOVE      ; CONKELDURR
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

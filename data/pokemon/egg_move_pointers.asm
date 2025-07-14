@@ -46,8 +46,6 @@ EggSpeciesMovesPointers::
 	dw PoliwagEggSpeciesMoves           ; Poliwag
 	dw PoliwagEggSpeciesMoves           ; Poliwhirl
 	dw PoliwagEggSpeciesMoves           ; Poliwrath
-	dw TentacoolEggSpeciesMoves         ; Tentacool
-	dw TentacoolEggSpeciesMoves         ; Tentacruel
 	dw GeodudePlainEggSpeciesMoves      ; Geodude
 	dw GeodudePlainEggSpeciesMoves      ; Graveler
 	dw GeodudePlainEggSpeciesMoves      ; Golem
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
 	dw FarfetchDGalarianEggSpeciesMoves ; SirfetchD
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw StantlerEggSpeciesMoves          ; Wyrdeer
 	dw ScytherEggSpeciesMoves           ; Kleavor
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
@@ -296,6 +294,9 @@ EggSpeciesMovesPointers::
 	dw DrilburEggSpeciesMoves           ; Drilbur
 	dw DrilburEggSpeciesMoves           ; Excadrill
 	dw AudinoEggSpeciesMoves            ; Audino
+	dw TimburrEggSpeciesMoves           ; Timburr
+	dw TimburrEggSpeciesMoves           ; Gurdurr
+	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -57,7 +57,6 @@ UniqueWildMoves:
 	unique_moves SAFARI_ZONE,      TAUROS,     STOMP        ; RBY move (east)
 	unique_moves SAFARI_ZONE,      PINSIR,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
-	unique_moves URAGA_CHANNEL,    TENTACRUEL, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       GOLBAT,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  JYNX,       METRONOME    ; RBY TM move

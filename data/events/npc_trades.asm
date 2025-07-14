@@ -50,7 +50,7 @@ NPCTrades:
 	rawchar "Kim@@@@@", $00
 ; NPC_TRADE_JACQUES in Goldenrod Harbor
 	db TRADE_DIALOGSET_HAPPY
-	dp TENTACOOL, NO_FORM ; wants
+	dp RATTATA, NO_FORM ; wants
 	dp GRIMER, FEMALE     ; gives
 	rawchar "Gail@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SDEF_UP_SATK_DOWN, LURE_BALL,    EVIOLITE

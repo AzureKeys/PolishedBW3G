@@ -46,8 +46,6 @@ FootprintPointers::
 	dw PoliwagFootprint
 	dw PoliwhirlFootprint
 	dw PoliwrathFootprint
-	dw TentacoolFootprint
-	dw TentacruelFootprint
 	dw GeodudeFootprint
 	dw GravelerFootprint
 	dw GolemFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw CursolaFootprint
 	dw SirfetchDFootprint
 	dw MrRimeFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw WyrdeerFootprint
 	dw KleavorFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
 	dw OverqwilFootprint
@@ -296,6 +294,9 @@ FootprintPointers::
 	dw DrilburFootprint
 	dw ExcadrillFootprint
 	dw AudinoFootprint
+	dw TimburrFootprint
+	dw GurdurrFootprint
+	dw ConkeldurrFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

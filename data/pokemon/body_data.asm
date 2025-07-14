@@ -53,8 +53,6 @@ PokemonBodyData:
 	body_data   6,  124, HEAD_LEGS,    BLUE   ; POLIWAG
 	body_data  10,  200, BIPEDAL,      BLUE   ; POLIWHIRL
 	body_data  13,  540, BIPEDAL,      BLUE   ; POLIWRATH
-	body_data   9,  455, TENTACLES,    BLUE   ; TENTACOOL
-	body_data  16,  550, TENTACLES,    BLUE   ; TENTACRUEL
 	body_data   4,  200, HEAD_ARMS,    BROWN  ; GEODUDE
 	body_data  10, 1050, BIPEDAL,      BROWN  ; GRAVELER
 	body_data  14, 3000, BIPEDAL,      BROWN  ; GOLEM
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
 	body_data   8, 1170, WINGS,        WHITE  ; SIRFETCH_D
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  18,  951, QUADRUPED,    GRAY   ; WYRDEER
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
@@ -303,6 +301,9 @@ PokemonBodyData:
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
 	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
 	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
+	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
+	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
+	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

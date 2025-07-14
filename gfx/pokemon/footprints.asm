@@ -46,6 +46,9 @@ SwoobatFootprint::
 DrilburFootprint::
 ExcadrillFootprint::
 AudinoFootprint::
+TimburrFootprint::
+GurdurrFootprint::
+ConkeldurrFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CloysterFootprint::
@@ -95,8 +98,6 @@ ShellderFootprint::
 SlugmaFootprint::
 SteelixFootprint::
 SunkernFootprint::
-TentacoolFootprint::
-TentacruelFootprint::
 UnownFootprint::
 VoltorbFootprint::
 WeezingFootprint::

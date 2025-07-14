@@ -9,9 +9,9 @@
 
 	def_water_wildmons VERMILION_PORT
 	db 2 percent ; encounter rate
-	wildmon  45, TENTACOOL
-	wildmon  40, TENTACOOL
-	wildmon  45, TENTACRUEL
+	wildmon  45, RATTATA
+	wildmon  40, RATTATA
+	wildmon  45, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_2_SOUTH
@@ -51,72 +51,72 @@
 
 	def_water_wildmons ROUTE_12_NORTH
 	db 6 percent ; encounter rate
-	wildmon  48, TENTACOOL
+	wildmon  48, RATTATA
 	wildmon  52, QUAGSIRE
-	wildmon  54, TENTACRUEL
+	wildmon  54, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12_SOUTH
 	db 6 percent ; encounter rate
-	wildmon  48, TENTACOOL
+	wildmon  48, RATTATA
 	wildmon  52, QUAGSIRE
-	wildmon  54, TENTACRUEL
+	wildmon  54, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_13_EAST
 	db 6 percent ; encounter rate
-	wildmon  49, TENTACOOL
+	wildmon  49, RATTATA
 	wildmon  53, QUAGSIRE
-	wildmon  55, TENTACRUEL
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_14
 	db 6 percent ; encounter rate
-	wildmon  49, TENTACOOL
+	wildmon  49, RATTATA
 	wildmon  53, QUAGSIRE
-	wildmon  55, TENTACRUEL
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_16_WEST
 	db 6 percent ; encounter rate
-	wildmon  53, TENTACOOL
+	wildmon  53, RATTATA
 	wildmon  55, SEAKING
-	wildmon  57, TENTACRUEL
+	wildmon  57, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons LUCKY_ISLAND
 	db 6 percent ; encounter rate
-	wildmon  49, TENTACOOL
+	wildmon  49, RATTATA
 	wildmon  53, QUAGSIRE
-	wildmon  55, TENTACRUEL
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_18_WEST
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
+	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
+	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_20
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
+	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_21
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
+	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_22
@@ -128,7 +128,7 @@
 
 	def_water_wildmons ROUTE_23
 	db 6 percent ; encounter rate
-	wildmon  35, TENTACRUEL
+	wildmon  35, RATTATA
 	wildmon  35, KINGLER
 	wildmon  35, GYARADOS
 	end_water_wildmons
@@ -149,16 +149,16 @@
 
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
-	wildmon  35, TENTACOOL
-	wildmon  30, TENTACOOL
-	wildmon  35, TENTACRUEL
+	wildmon  35, RATTATA
+	wildmon  30, RATTATA
+	wildmon  35, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent ; encounter rate
-	wildmon  20, TENTACOOL
-	wildmon  15, TENTACOOL
-	wildmon  20, TENTACRUEL
+	wildmon  20, RATTATA
+	wildmon  15, RATTATA
+	wildmon  20, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
@@ -170,9 +170,9 @@
 
 	def_water_wildmons PALLET_TOWN
 	db 6 percent ; encounter rate
-	wildmon  55, TENTACOOL
-	wildmon  50, TENTACOOL
-	wildmon  55, TENTACRUEL
+	wildmon  55, RATTATA
+	wildmon  50, RATTATA
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons VIRIDIAN_CITY
@@ -191,9 +191,9 @@
 
 	def_water_wildmons VERMILION_CITY
 	db 6 percent ; encounter rate
-	wildmon  45, TENTACOOL
-	wildmon  40, TENTACOOL
-	wildmon  45, TENTACRUEL
+	wildmon  45, RATTATA
+	wildmon  40, RATTATA
+	wildmon  45, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CELADON_CITY
@@ -212,9 +212,9 @@
 
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	wildmon  55, TENTACOOL
-	wildmon  50, TENTACOOL
-	wildmon  55, TENTACRUEL
+	wildmon  55, RATTATA
+	wildmon  50, RATTATA
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAPE
@@ -226,22 +226,22 @@
 
 	def_water_wildmons URAGA_CHANNEL_EAST
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
+	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_1F
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
 	wildmon  58, LANTURN
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_B1F
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
 	wildmon  58, LANTURN
 	end_water_wildmons
 
@@ -254,9 +254,9 @@
 
 	def_water_wildmons URAGA_CHANNEL_WEST
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, RATTATA
+	wildmon  56, RATTATA
+	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAVE_1F

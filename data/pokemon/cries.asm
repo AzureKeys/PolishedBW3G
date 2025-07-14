@@ -52,8 +52,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; Poliwag
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; Poliwhirl
 	mon_cry CRY_PIDGEY,      $000,  $17f ; Poliwrath
-	mon_cry CRY_VENONAT,     $000,  $100 ; Tentacool
-	mon_cry CRY_VENONAT,     $0ee,  $17f ; Tentacruel
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; Geodude
 	mon_cry CRY_VULPIX,      $000,  $100 ; Graveler
 	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; Golem
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
 	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; SirfetchD
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Rime
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Wyrdeer
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Kleavor
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
@@ -302,4 +300,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; Excadrill
 	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
+	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr
+	mon_cry CRY_AMPHAROS,   -$154,  $160 ; Gurdurr
+	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
 	assert_table_length NUM_SPECIES

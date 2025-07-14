@@ -50,8 +50,6 @@ PokemonPicPointers::
 	pics Poliwag
 	pics Poliwhirl
 	pics Poliwrath
-	pics Tentacool
-	pics Tentacruel
 	pics GeodudePlain
 	pics GravelerPlain
 	pics GolemPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Cursola
 	pics SirfetchD
 	pics MrRime
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Wyrdeer
 	pics Kleavor
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics UrsalunaPlain
 	pics Sneasler
 	pics Overqwil
@@ -300,6 +298,9 @@ PokemonPicPointers::
 	pics Drilbur
 	pics Excadrill
 	pics Audino
+	pics Timburr
+	pics Gurdurr
+	pics Conkeldurr
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

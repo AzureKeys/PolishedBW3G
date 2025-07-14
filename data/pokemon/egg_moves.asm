@@ -259,17 +259,6 @@ PoliwagEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
-TentacoolEggSpeciesMoves:
-	dp TENTACOOL, PLAIN_FORM
-	db AURORA_BEAM
-	db CONFUSE_RAY
-	db HAZE
-	db MIRROR_COAT
-	db RAPID_SPIN
-	db SAFEGUARD
-	db KNOCK_OFF
-	db $ff
-
 GeodudePlainEggSpeciesMoves:
 	dp GEODUDE, PLAIN_FORM
 	db ROCK_SLIDE
@@ -1260,6 +1249,16 @@ AudinoEggSpeciesMoves:
 	db DRAINING_KISS
 	db ENCORE
 	db SWEET_KISS
+	db $ff
+
+TimburrEggSpeciesMoves:
+	dp TIMBURR, PLAIN_FORM
+	db COUNTER
+	db DRAIN_PUNCH
+	db ENDURE
+	db FORESIGHT
+	db MACH_PUNCH
+	db REVERSAL
 	db $ff
 
 NoEggSpeciesMoves:

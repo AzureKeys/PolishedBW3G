@@ -507,7 +507,7 @@ KogaGroup:
 	end_trainer
 
 	def_trainer 2, "Koga"
-	tr_mon 69, TENTACRUEL @ WISE_GLASSES, MALE
+	tr_mon 69, RATTATA @ WISE_GLASSES, MALE
 		tr_moves POWER_WHIP, ICE_BEAM, SURF, SLUDGE_BOMB
 	tr_mon 71, FORRETRESS @ SILK_SCARF, MALE
 		tr_moves PROTECT, TOXIC, EXPLOSION, SPIKES
@@ -2323,7 +2323,7 @@ FisherGroup:
 	tr_mon 60, MAGIKARP
 	tr_mon 58, QUAGSIRE
 	tr_mon 55, QWILFISH
-	tr_mon 55, TENTACRUEL
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer BARNEY, "Barney"
@@ -2910,7 +2910,7 @@ GruntMGroup:
 	def_trainer 23, "Grunt"
 	tr_mon 23, KOFFING
 	tr_mon 25, HOUNDOUR
-	tr_mon 23, TENTACOOL
+	tr_mon 23, RATTATA
 	end_trainer
 
 	def_trainer 24, "Grunt"
@@ -2919,7 +2919,7 @@ GruntMGroup:
 	end_trainer
 
 	def_trainer 25, "Grunt"
-	tr_mon 36, TENTACRUEL
+	tr_mon 36, RATTATA
 	tr_mon 35, MUK
 	end_trainer
 
@@ -4810,8 +4810,8 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer SIMON, "Simon"
-	tr_mon 20, TENTACOOL
-	tr_mon 20, TENTACOOL
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
 	end_trainer
 
 	def_trainer RANDALL, "Randall"
@@ -4822,16 +4822,16 @@ SwimmerMGroup:
 
 	def_trainer CHARLIE, "Charlie"
 	tr_mon 21, SHELLDER
-	tr_mon 19, TENTACOOL
-	tr_mon 19, TENTACRUEL
+	tr_mon 19, RATTATA
+	tr_mon 19, RATTATA
 	end_trainer
 
 	def_trainer GEORGE, "George"
-	tr_mon 16, TENTACOOL
-	tr_mon 17, TENTACOOL
-	tr_mon 16, TENTACOOL
+	tr_mon 16, RATTATA
+	tr_mon 17, RATTATA
+	tr_mon 16, RATTATA
 	tr_mon 19, STARYU
-	tr_mon 17, TENTACOOL
+	tr_mon 17, RATTATA
 	tr_mon 19, REMORAID
 	end_trainer
 
@@ -4856,8 +4856,8 @@ SwimmerMGroup:
 
 	def_trainer JEROME, "Jerome"
 	tr_mon 57, SEADRA
-	tr_mon 58, TENTACOOL
-	tr_mon 59, TENTACRUEL
+	tr_mon 58, RATTATA
+	tr_mon 59, RATTATA
 	tr_mon 58, SEAKING
 	end_trainer
 
@@ -4951,7 +4951,7 @@ SwimmerMGroup:
 
 	def_trainer ELMO, "Elmo"
 	tr_mon 60, POLIWHIRL
-	tr_mon 56, TENTACRUEL
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer DUANE, "Duane"
@@ -5786,7 +5786,7 @@ BikerGroup:
 
 	def_trainer JACOB, "Jacob"
 	tr_mon 54, MAGMAR
-	tr_mon 54, TENTACRUEL
+	tr_mon 54, RATTATA
 	end_trainer
 
 	def_trainer AIDEN, "Aiden"
@@ -5817,7 +5817,7 @@ RoughneckGroup:
 
 	def_trainer_class ROUGHNECK
 	def_trainer BRIAN, "Brian"
-	tr_mon 55, TENTACRUEL
+	tr_mon 55, RATTATA
 	tr_mon 55, WEEZING
 	tr_mon 55, WEEZING
 	end_trainer
@@ -6221,7 +6221,7 @@ CooltrainerMGroup:
 		tr_evs 132 HP, 252 SAt
 	tr_mon 62, VAPOREON @ FOCUS_BAND
 		tr_evs 132 HP, 252 SAt
-	tr_mon 62, TENTACRUEL @ BLACK_SLUDGE
+	tr_mon 62, RATTATA @ BLACK_SLUDGE
 		tr_evs 192 SAt, 192 Spe
 	tr_mon 63, KINGDRA @ QUICK_CLAW
 		tr_evs 192 SAt, 192 Spe
@@ -7489,7 +7489,7 @@ MarlonGroup:
 	def_trainer 1, "Marlon"
 	tr_mon 33, QUAGSIRE
 		tr_evs 200 SDf
-	tr_mon 37, TENTACRUEL
+	tr_mon 37, RATTATA
 		tr_evs 200 Spe
 	tr_mon 34, BLASTOISE
 		tr_evs 200 HP
@@ -7502,7 +7502,7 @@ MarlonGroup:
 	def_trainer 2, "Marlon"
 	tr_mon 57, QUAGSIRE
 		tr_evs 68 HP, 252 SDf
-	tr_mon 60, TENTACRUEL
+	tr_mon 60, RATTATA
 		tr_evs 68 SAt, 252 Spe
 	tr_mon 58, BLASTOISE
 		tr_evs 252 HP, 68 SAt
@@ -7516,7 +7516,7 @@ MarlonGroup:
 
 	def_trainer 3, "Marlon"
 	tr_mon 72, QUAGSIRE
-	tr_mon 75, TENTACRUEL
+	tr_mon 75, RATTATA
 	tr_mon 73, BLASTOISE
 	tr_mon 74, MANTINE
 	tr_mon 73, STARMIE
