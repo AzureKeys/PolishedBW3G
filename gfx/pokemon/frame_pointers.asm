@@ -291,6 +291,9 @@ FramesPointers:
 	dw TimburrFrames
 	dw GurdurrFrames
 	dw ConkeldurrFrames
+	dw TympoleFrames
+	dw PalpitoadFrames
+	dw SeismitoadFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

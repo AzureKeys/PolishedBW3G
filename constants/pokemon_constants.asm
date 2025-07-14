@@ -315,6 +315,9 @@
 	const TIMBURR    ; 128
 	const GURDURR    ; 129
 	const CONKELDURR ; 129
+	const TYMPOLE    ; 128
+	const PALPITOAD  ; 129
+	const SEISMITOAD ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

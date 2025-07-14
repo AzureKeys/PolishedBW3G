@@ -326,6 +326,9 @@ INCLUDE "data/pokemon/base_stats/audino.asm"
 INCLUDE "data/pokemon/base_stats/timburr.asm"
 INCLUDE "data/pokemon/base_stats/gurdurr.asm"
 INCLUDE "data/pokemon/base_stats/conkeldurr.asm"
+INCLUDE "data/pokemon/base_stats/tympole.asm"
+INCLUDE "data/pokemon/base_stats/palpitoad.asm"
+INCLUDE "data/pokemon/base_stats/seismitoad.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

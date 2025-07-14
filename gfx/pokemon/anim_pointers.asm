@@ -291,6 +291,9 @@ AnimationPointers:
 	dw TimburrAnimation
 	dw GurdurrAnimation
 	dw ConkeldurrAnimation
+	dw TympoleAnimation
+	dw PalpitoadAnimation
+	dw SeismitoadAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

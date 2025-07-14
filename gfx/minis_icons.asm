@@ -1457,6 +1457,21 @@ ConkeldurrMini::     INCBIN "gfx/minis/conkeldurr.2bpp.lz"
 ConkeldurrMiniMask:: INCBIN "gfx/minis/conkeldurr_mask.1bpp.lz"
 ConkeldurrIcon::     INCBIN "gfx/icons/conkeldurr.2bpp.lz"
 
+SECTION "Tympole Mini Icon", ROMX
+TympoleMini::     INCBIN "gfx/minis/tympole.2bpp.lz"
+TympoleMiniMask:: INCBIN "gfx/minis/tympole_mask.1bpp.lz"
+TympoleIcon::     INCBIN "gfx/icons/tympole.2bpp.lz"
+
+SECTION "Palpitoad Mini Icon", ROMX
+PalpitoadMini::     INCBIN "gfx/minis/palpitoad.2bpp.lz"
+PalpitoadMiniMask:: INCBIN "gfx/minis/palpitoad_mask.1bpp.lz"
+PalpitoadIcon::     INCBIN "gfx/icons/palpitoad.2bpp.lz"
+
+SECTION "Seismitoad Mini Icon", ROMX
+SeismitoadMini::     INCBIN "gfx/minis/seismitoad.2bpp.lz"
+SeismitoadMiniMask:: INCBIN "gfx/minis/seismitoad_mask.1bpp.lz"
+SeismitoadIcon::     INCBIN "gfx/icons/seismitoad.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

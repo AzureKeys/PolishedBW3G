@@ -1556,3 +1556,15 @@ GurdurrBackpic:  INCBIN "gfx/pokemon/gurdurr/back.2bpp.lz"
 SECTION "Conkeldurr Pics", ROMX
 ConkeldurrFrontpic: INCBIN "gfx/pokemon/conkeldurr/front.animated.2bpp.lz"
 ConkeldurrBackpic:  INCBIN "gfx/pokemon/conkeldurr/back.2bpp.lz"
+
+SECTION "Tympole Pics", ROMX
+TympoleFrontpic: INCBIN "gfx/pokemon/tympole/front.animated.2bpp.lz"
+TympoleBackpic:  INCBIN "gfx/pokemon/tympole/back.2bpp.lz"
+
+SECTION "Palpitoad Pics", ROMX
+PalpitoadFrontpic: INCBIN "gfx/pokemon/palpitoad/front.animated.2bpp.lz"
+PalpitoadBackpic:  INCBIN "gfx/pokemon/palpitoad/back.2bpp.lz"
+
+SECTION "Seismitoad Pics", ROMX
+SeismitoadFrontpic: INCBIN "gfx/pokemon/seismitoad/front.animated.2bpp.lz"
+SeismitoadBackpic:  INCBIN "gfx/pokemon/seismitoad/back.2bpp.lz"

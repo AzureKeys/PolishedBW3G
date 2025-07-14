@@ -238,6 +238,9 @@ AudinoAnimationExtra:     INCLUDE "gfx/pokemon/audino/anim_idle.asm"
 TimburrAnimationExtra:    INCLUDE "gfx/pokemon/timburr/anim_idle.asm"
 GurdurrAnimationExtra:    INCLUDE "gfx/pokemon/gurdurr/anim_idle.asm"
 ConkeldurrAnimationExtra: INCLUDE "gfx/pokemon/conkeldurr/anim_idle.asm"
+TympoleAnimationExtra:    INCLUDE "gfx/pokemon/tympole/anim_idle.asm"
+PalpitoadAnimationExtra:  INCLUDE "gfx/pokemon/palpitoad/anim_idle.asm"
+SeismitoadAnimationExtra: INCLUDE "gfx/pokemon/seismitoad/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

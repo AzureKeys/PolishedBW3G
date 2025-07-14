@@ -6035,6 +6035,60 @@ endc
 	learnset 53, STONE_EDGE
 	; Skipped Focus Punch
 	learnset 58, CLOSE_COMBAT
+	
+	evos_attacks Tympole
+	evo_data EVOLVE_LEVEL, 25, PALPITOAD
+	learnset 1, WATER_GUN ; Bubble
+	learnset 1, GROWL
+	learnset 5, SUPERSONIC
+	learnset 9, SWIFT ; Round
+	learnset 12, BUBBLE_BEAM
+	;learnset 16, MUD_SHOT
+	learnset 20, RECOVER ; Aqua Ring
+	learnset 23, SONIC_BOOM ; Uproar
+	learnset 27, SCALD ; Muddy Water
+	learnset 31, RAIN_DANCE
+	learnset 34, REVERSAL ; Flail
+	learnset 38, EARTH_POWER ; Echoed Voice
+	learnset 42, HYDRO_PUMP
+	learnset 45, HYPER_VOICE
+	
+	evos_attacks Palpitoad
+	evo_data EVOLVE_LEVEL, 36, SEISMITOAD
+	learnset 1, WATER_GUN ; Bubble
+	learnset 1, GROWL
+	learnset 5, SUPERSONIC
+	learnset 9, SWIFT ; Round
+	learnset 12, BUBBLE_BEAM
+	;learnset 16, MUD_SHOT
+	learnset 20, RECOVER ; Aqua Ring
+	learnset 23, SONIC_BOOM ; Uproar
+	learnset 28, SCALD ; Muddy Water
+	learnset 33, RAIN_DANCE
+	learnset 37, REVERSAL ; Flail
+	learnset 42, EARTH_POWER ; Echoed Voice
+	learnset 47, HYDRO_PUMP
+	learnset 51, HYPER_VOICE
+	
+	evos_attacks Seismitoad
+	learnset 1, ACID
+	learnset 1, WATER_GUN ; Bubble
+	learnset 1, GROWL
+	learnset 1, SUPERSONIC
+	learnset 1, SWIFT ; Round
+	learnset 5, SUPERSONIC
+	learnset 9, SWIFT ; Round
+	learnset 12, BUBBLE_BEAM
+	;learnset 16, MUD_SHOT
+	learnset 20, RECOVER ; Aqua Ring
+	learnset 23, SONIC_BOOM ; Uproar
+	learnset 28, SCALD ; Muddy Water
+	learnset 33, RAIN_DANCE
+	learnset 39, REVERSAL ; Flail
+	learnset 44, DRAIN_PUNCH
+	learnset 49, EARTH_POWER ; Echoed Voice
+	learnset 53, HYDRO_PUMP
+	learnset 59, HYPER_VOICE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

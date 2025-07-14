@@ -1233,5 +1233,12 @@ TimburrEggSpeciesMoves:
 	db REVERSAL
 	db $ff
 
+TympoleEggSpeciesMoves:
+	dp TYMPOLE, PLAIN_FORM
+	db EARTH_POWER
+	;db MIST
+	db WATER_PULSE
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

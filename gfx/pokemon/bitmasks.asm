@@ -238,6 +238,9 @@ AudinoBitmasks:     INCLUDE "gfx/pokemon/audino/bitmask.asm"
 TimburrBitmasks:    INCLUDE "gfx/pokemon/timburr/bitmask.asm"
 GurdurrBitmasks:    INCLUDE "gfx/pokemon/gurdurr/bitmask.asm"
 ConkeldurrBitmasks: INCLUDE "gfx/pokemon/conkeldurr/bitmask.asm"
+TympoleBitmasks:    INCLUDE "gfx/pokemon/tympole/bitmask.asm"
+PalpitoadBitmasks:  INCLUDE "gfx/pokemon/palpitoad/bitmask.asm"
+SeismitoadBitmasks: INCLUDE "gfx/pokemon/seismitoad/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

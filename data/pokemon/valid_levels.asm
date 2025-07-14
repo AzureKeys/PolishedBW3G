@@ -296,4 +296,7 @@ endc
 	db   1,  24 ; Timburr
 	db  25,  39 ; Gurdurr
 	db  40, 100 ; Conkeldurr
+	db   1,  24 ; Tympole
+	db  25,  35 ; Palpitoad
+	db  36, 100 ; Seismtioad
 	assert_table_length NUM_SPECIES

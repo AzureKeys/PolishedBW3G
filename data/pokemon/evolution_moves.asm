@@ -295,6 +295,9 @@ endc
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
 	db NO_MOVE      ; CONKELDURR
+	db NO_MOVE      ; TYMPOLE
+	db NO_MOVE      ; PALPITOAD
+	db ACID        ; SEISMITOAD
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

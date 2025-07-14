@@ -292,4 +292,7 @@ PokemonNames::
 	rawchar "Timburr@@@"
 	rawchar "Gurdurr@@@"
 	rawchar "Conkeldurr"
+	rawchar "Tympole@@@"
+	rawchar "Palpitoad@"
+	rawchar "Seismitoad"
 	assert_table_length NUM_SPECIES + 1

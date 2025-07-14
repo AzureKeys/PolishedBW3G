@@ -160,6 +160,9 @@ AudinoFrames:     INCLUDE "gfx/pokemon/audino/frames.asm"
 TimburrFrames:    INCLUDE "gfx/pokemon/timburr/frames.asm"
 GurdurrFrames:    INCLUDE "gfx/pokemon/gurdurr/frames.asm"
 ConkeldurrFrames: INCLUDE "gfx/pokemon/conkeldurr/frames.asm"
+TympoleFrames:    INCLUDE "gfx/pokemon/tympole/frames.asm"
+PalpitoadFrames:  INCLUDE "gfx/pokemon/palpitoad/frames.asm"
+SeismitoadFrames: INCLUDE "gfx/pokemon/seismitoad/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

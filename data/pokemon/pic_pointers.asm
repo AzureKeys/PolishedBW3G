@@ -295,6 +295,9 @@ PokemonPicPointers::
 	pics Timburr
 	pics Gurdurr
 	pics Conkeldurr
+	pics Tympole
+	pics Palpitoad
+	pics Seismitoad
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

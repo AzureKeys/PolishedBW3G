@@ -174,6 +174,7 @@ AlphabeticalPokedexOrder:
 	dp ONIX
 	dp OSHAWOTT
 	dp OVERQWIL
+	dp PALPITOAD
 	dp PARAS
 	dp PARASECT
 	dp PATRAT
@@ -220,6 +221,7 @@ AlphabeticalPokedexOrder:
 	dp SEADRA
 	dp SEAKING
 	dp SEEL
+	dp SEISMITOAD
 	dp SENTRET
 	dp SERPERIOR
 	dp SERVINE
@@ -263,6 +265,7 @@ AlphabeticalPokedexOrder:
 	dp TOGETIC
 	dp TOTODILE
 	dp TRANQUILL
+	dp TYMPOLE
 	dp TYPHLOSION
 	dp TYRANITAR
 	dp TYROGUE

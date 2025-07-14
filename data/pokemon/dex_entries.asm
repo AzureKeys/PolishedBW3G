@@ -2891,6 +2891,36 @@ ConkeldurrPokedexEntry::
 	next "them to swing the"
 	next "pillars freely.@"
 
+SECTION "TympolePokedexEntry", ROMX
+TympolePokedexEntry::
+	db "Tadpole@"
+	db "They warn others"
+	next "of danger by"
+	next "vibrating their"
+	page "cheeks to create"
+	next "a high-pitched"
+	next "sound.@"
+
+SECTION "PalpitoadPokedexEntry", ROMX
+PalpitoadPokedexEntry::
+	db "Vibration@"
+	db "When they vibrate"
+	next "the bumps on their"
+	next "heads, they can"
+	page "make waves or"
+	next "earthquake-like"
+	next "vibrations.@"
+
+SECTION "SeismitoadPokedexEntry", ROMX
+SeismitoadPokedexEntry::
+	db "Vibration@"
+	db "They shoot liquid"
+	next "that paralyzes"
+	next "from their head"
+	page "bumps. They use"
+	next "vibration to hurt"
+	next "opponents.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

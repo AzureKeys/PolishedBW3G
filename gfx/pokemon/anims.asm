@@ -238,6 +238,9 @@ AudinoAnimation:     INCLUDE "gfx/pokemon/audino/anim.asm"
 TimburrAnimation:    INCLUDE "gfx/pokemon/timburr/anim.asm"
 GurdurrAnimation:    INCLUDE "gfx/pokemon/gurdurr/anim.asm"
 ConkeldurrAnimation: INCLUDE "gfx/pokemon/conkeldurr/anim.asm"
+TympoleAnimation:    INCLUDE "gfx/pokemon/tympole/anim.asm"
+PalpitoadAnimation:  INCLUDE "gfx/pokemon/palpitoad/anim.asm"
+SeismitoadAnimation: INCLUDE "gfx/pokemon/seismitoad/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

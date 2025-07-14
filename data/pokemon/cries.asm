@@ -297,4 +297,7 @@ PokemonCries::
 	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr
 	mon_cry CRY_AMPHAROS,   -$154,  $160 ; Gurdurr
 	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
+	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
+	mon_cry CRY_PIDGEY,      $077,  $0e0 ; PALPITOAD*
+	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	assert_table_length NUM_SPECIES

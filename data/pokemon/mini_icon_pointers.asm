@@ -295,6 +295,9 @@ MiniIconPointers:
 	mini_icon Timburr
 	mini_icon Gurdurr
 	mini_icon Conkeldurr
+	mini_icon Tympole
+	mini_icon Palpitoad
+	mini_icon Seismitoad
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

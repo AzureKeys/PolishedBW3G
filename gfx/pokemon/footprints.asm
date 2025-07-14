@@ -49,6 +49,9 @@ AudinoFootprint::
 TimburrFootprint::
 GurdurrFootprint::
 ConkeldurrFootprint::
+TympoleFootprint::
+PalpitoadFootprint::
+SeismitoadFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

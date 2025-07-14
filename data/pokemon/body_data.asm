@@ -298,6 +298,9 @@ PokemonBodyData:
 	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
+	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
+	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
+	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

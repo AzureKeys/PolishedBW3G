@@ -295,6 +295,9 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; TIMBURR
 	iconpal GRAY, BROWN ; GURDURR
 	iconpal BROWN, ORANGE ; CONKELDURR
+	iconpal BLUE, YELLOW ; TYMPOLE
+	iconpal BLUE, TEAL ; PALPITOAD
+	iconpal BLUE, TEAL ; SEISMITOAD
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

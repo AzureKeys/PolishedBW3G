@@ -291,6 +291,9 @@ FootprintPointers::
 	dw TimburrFootprint
 	dw GurdurrFootprint
 	dw ConkeldurrFootprint
+	dw TympoleFootprint
+	dw PalpitoadFootprint
+	dw SeismitoadFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

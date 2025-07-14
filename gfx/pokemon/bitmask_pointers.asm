@@ -291,6 +291,9 @@ BitmasksPointers:
 	dw TimburrBitmasks
 	dw GurdurrBitmasks
 	dw ConkeldurrBitmasks
+	dw TympoleBitmasks
+	dw PalpitoadBitmasks
+	dw SeismitoadBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
