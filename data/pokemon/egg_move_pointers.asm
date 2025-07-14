@@ -73,8 +73,6 @@ EggSpeciesMovesPointers::
 	dw LickitungEggSpeciesMoves         ; Lickitung
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
-	dw RhyhornEggSpeciesMoves           ; Rhyhorn
-	dw RhyhornEggSpeciesMoves           ; Rhydon
 	dw HappinyEggSpeciesMoves           ; Chansey
 	dw TangelaEggSpeciesMoves           ; Tangela
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan
@@ -224,7 +222,6 @@ EggSpeciesMovesPointers::
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
 	dw LickitungEggSpeciesMoves         ; Lickilicky
-	dw RhyhornEggSpeciesMoves           ; Rhyperior
 	dw TangelaEggSpeciesMoves           ; Tangrowth
 	dw ElekidEggSpeciesMoves            ; Electivire
 	dw MagbyEggSpeciesMoves             ; Magmortar
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw SnivyEggSpeciesMoves             ; Serperior
 	dw TepigEggSpeciesMoves             ; Tepig
 	dw TepigEggSpeciesMoves             ; Pignite
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TepigEggSpeciesMoves             ; Emboar
 	dw OshawottEggSpeciesMoves          ; Oshawott
 	dw OshawottEggSpeciesMoves          ; Dewott
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw OshawottEggSpeciesMoves          ; Samurott
 	dw PatratEggSpeciesMoves            ; Patrat
 	dw PatratEggSpeciesMoves            ; Watchog
@@ -293,6 +290,9 @@ EggSpeciesMovesPointers::
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon
 	dw SewaddleEggSpeciesMoves          ; Leavanny
+	dw VenipedeEggSpeciesMoves          ; Venipede
+	dw VenipedeEggSpeciesMoves          ; Whirlipede
+	dw VenipedeEggSpeciesMoves          ; Scolipede
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

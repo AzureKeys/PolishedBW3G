@@ -200,19 +200,19 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 43, GRAVELER
-	wildmon 42, RHYHORN
+	wildmon 42, RATTATA
 	wildmon 41, ONIX
 	wildmon 42, GOLBAT
 	wildmon 44, SANDSLASH
-	wildmon 46, RHYDON
+	wildmon 46, RATTATA
 	wildmon 45, STEELIX
 	; day
 	wildmon 43, GRAVELER
-	wildmon 42, RHYHORN
+	wildmon 42, RATTATA
 	wildmon 41, ONIX
 	wildmon 42, GOLBAT
 	wildmon 44, SANDSLASH
-	wildmon 46, RHYDON
+	wildmon 46, RATTATA
 	wildmon 45, STEELIX
 	; nite
 	wildmon 43, GOLBAT
@@ -221,26 +221,26 @@
 	wildmon 42, GRAVELER
 	wildmon 44, HAUNTER
 	wildmon 46, STEELIX
-	wildmon 45, RHYDON
+	wildmon 45, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD_2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 46, GRAVELER
-	wildmon 45, RHYHORN
+	wildmon 45, RATTATA
 	wildmon 44, ONIX
 	wildmon 45, GOLBAT
 	wildmon 47, SANDSLASH
-	wildmon 49, RHYDON
+	wildmon 49, RATTATA
 	wildmon 48, STEELIX
 	; day
 	wildmon 46, GRAVELER
-	wildmon 45, RHYHORN
+	wildmon 45, RATTATA
 	wildmon 44, ONIX
 	wildmon 45, GOLBAT
 	wildmon 47, SANDSLASH
-	wildmon 49, RHYDON
+	wildmon 49, RATTATA
 	wildmon 48, STEELIX
 	; nite
 	wildmon 46, GOLBAT
@@ -249,26 +249,26 @@
 	wildmon 45, GRAVELER
 	wildmon 47, HAUNTER
 	wildmon 49, STEELIX
-	wildmon 48, RHYDON
+	wildmon 48, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD_3F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 48, GRAVELER
-	wildmon 47, RHYHORN
+	wildmon 47, RATTATA
 	wildmon 46, ONIX
 	wildmon 47, GOLBAT
 	wildmon 48, SANDSLASH
-	wildmon 51, RHYDON
+	wildmon 51, RATTATA
 	wildmon 50, STEELIX
 	; day
 	wildmon 48, GRAVELER
-	wildmon 47, RHYHORN
+	wildmon 47, RATTATA
 	wildmon 46, ONIX
 	wildmon 47, GOLBAT
 	wildmon 48, SANDSLASH
-	wildmon 51, RHYDON
+	wildmon 51, RATTATA
 	wildmon 50, STEELIX
 	; nite
 	wildmon 48, GOLBAT
@@ -277,7 +277,7 @@
 	wildmon 47, GRAVELER
 	wildmon 48, HAUNTER
 	wildmon 51, STEELIX
-	wildmon 50, RHYDON
+	wildmon 50, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TOHJO_FALLS
@@ -1573,26 +1573,26 @@
 	; morn
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
-	wildmon 56, RHYHORN
+	wildmon 56, RATTATA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
 	wildmon 59, PINSIR
-	wildmon 60, RHYDON
+	wildmon 60, RATTATA
 	wildmon 60, CHANSEY
 	; day
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
-	wildmon 56, RHYHORN
+	wildmon 56, RATTATA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
 	wildmon 59, PINSIR
-	wildmon 60, RHYDON
+	wildmon 60, RATTATA
 	wildmon 60, CHANSEY
 	; nite
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
-	wildmon 56, RHYHORN
+	wildmon 56, RATTATA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
 	wildmon 59, PINSIR
-	wildmon 60, RHYDON
+	wildmon 60, RATTATA
 	wildmon 60, KANGASKHAN
 	end_grass_wildmons
 

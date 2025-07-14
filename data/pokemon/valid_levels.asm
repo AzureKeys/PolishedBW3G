@@ -74,8 +74,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  10, 100 ; Lickitung
 	db   1,  34 ; Koffing
 	db  35, 100 ; Weezing
-	db   1,  41 ; Rhyhorn
-	db  42,  54 ; Rhydon
 	db  20, 100 ; Chansey
 	db   1,  38 ; Tangela
 	db  20, 100 ; Kangaskhan
@@ -229,7 +227,6 @@ endc
 	db  40, 100 ; Weavile
 	db  50, 100 ; Magnezone
 	db  35, 100 ; Lickilicky
-	db  55, 100 ; Rhyperior
 	db  39, 100 ; Tangrowth
 	db  47, 100 ; Electivire
 	db  47, 100 ; Magmortar
@@ -259,11 +256,11 @@ endc
 	db  36, 100 ; Serperior
 	db   1,  16 ; Tepig
 	db  17,  35 ; Pignite
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  36, 100 ; Emboar
 	db   1,  16 ; Oshawott
 	db  17,  35 ; Dewott
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  36, 100 ; Samurott
 	db   1,  19 ; Patrat
 	db  20, 100 ; Watchog
@@ -298,4 +295,7 @@ endc
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon
 	db  30, 100 ; Leavanny
+	db   1,  21 ; Venipede
+	db  22,  29 ; Whirlipede
+	db  30, 100 ; Scolipede
 	assert_table_length NUM_SPECIES

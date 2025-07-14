@@ -77,8 +77,6 @@ PokemonPicPointers::
 	pics Lickitung
 	pics Koffing
 	pics WeezingPlain
-	pics Rhyhorn
-	pics Rhydon
 	pics Chansey
 	pics Tangela
 	pics Kangaskhan
@@ -228,7 +226,6 @@ PokemonPicPointers::
 	pics Weavile
 	pics Magnezone
 	pics Lickilicky
-	pics Rhyperior
 	pics Tangrowth
 	pics Electivire
 	pics Magmortar
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Serperior
 	pics Tepig
 	pics Pignite
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Emboar
 	pics Oshawott
 	pics Dewott
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics SamurottPlain
 	pics Patrat
 	pics Watchog
@@ -297,6 +294,9 @@ PokemonPicPointers::
 	pics Sewaddle
 	pics Swadloon
 	pics Leavanny
+	pics Venipede
+	pics Whirlipede
+	pics Scolipede
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

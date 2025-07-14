@@ -73,8 +73,6 @@ FramesPointers:
 	dw LickitungFrames
 	dw KoffingFrames
 	dw WeezingPlainFrames
-	dw RhyhornFrames
-	dw RhydonFrames
 	dw ChanseyFrames
 	dw TangelaFrames
 	dw KangaskhanFrames
@@ -224,7 +222,6 @@ FramesPointers:
 	dw WeavileFrames
 	dw MagnezoneFrames
 	dw LickilickyFrames
-	dw RhyperiorFrames
 	dw TangrowthFrames
 	dw ElectivireFrames
 	dw MagmortarFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw SerperiorFrames
 	dw TepigFrames
 	dw PigniteFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw EmboarFrames
 	dw OshawottFrames
 	dw DewottFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SamurottPlainFrames
 	dw PatratFrames
 	dw WatchogFrames
@@ -293,6 +290,9 @@ FramesPointers:
 	dw SewaddleFrames
 	dw SwadloonFrames
 	dw LeavannyFrames
+	dw VenipedeFrames
+	dw WhirlipedeFrames
+	dw ScolipedeFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

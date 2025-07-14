@@ -428,17 +428,6 @@ KoffingEggSpeciesMoves:
 	db PAIN_SPLIT
 	db $ff
 
-RhyhornEggSpeciesMoves:
-	dp RHYHORN, PLAIN_FORM
-	db CRUNCH
-	db MAGNITUDE
-	db PURSUIT
-	db REVERSAL
-	db THRASH
-	db ROCK_SLIDE
-	db COUNTER
-	db $ff
-
 TangelaEggSpeciesMoves:
 	dp TANGELA, PLAIN_FORM
 	db CONFUSION
@@ -1158,7 +1147,7 @@ MunnaEggSpeciesMoves:
 	db $ff
 
 PidoveEggSpeciesMoves:
-	dp PIDOVE, PLAIN_FORM
+	dp PIDOVE, NO_FORM
 	db HYPNOSIS
 	db NIGHT_SLASH
 	db STEEL_WING
@@ -1235,6 +1224,12 @@ SewaddleEggSpeciesMoves:
 	db AIR_SLASH
 	;db LOCK_ON
 	db SCREECH
+	db $ff
+
+VenipedeEggSpeciesMoves:
+	dp VENIPEDE, PLAIN_FORM
+	db PIN_MISSILE
+	db TAKE_DOWN
 	db $ff
 
 NoEggSpeciesMoves:

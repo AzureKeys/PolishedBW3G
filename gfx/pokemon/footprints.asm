@@ -57,6 +57,9 @@ SawkFootprint::
 SewaddleFootprint::
 SwadloonFootprint::
 LeavannyFootprint::
+VenipedeFootprint::
+WhirlipedeFootprint::
+ScolipedeFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -164,8 +167,6 @@ ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lz"
 CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lz"
 MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lz"
 LickitungFootprint:: INCBIN "gfx/footprints/lickitung.1bpp.lz"
-RhyhornFootprint:: INCBIN "gfx/footprints/rhyhorn.1bpp.lz"
-RhydonFootprint:: INCBIN "gfx/footprints/rhydon.1bpp.lz"
 ChanseyFootprint:: INCBIN "gfx/footprints/chansey.1bpp.lz"
 TangelaFootprint:: INCBIN "gfx/footprints/tangela.1bpp.lz"
 KangaskhanFootprint:: INCBIN "gfx/footprints/kangaskhan.1bpp.lz"
@@ -279,7 +280,6 @@ HappinyFootprint:: INCBIN "gfx/footprints/happiny.1bpp.lz"
 MunchlaxFootprint:: INCBIN "gfx/footprints/munchlax.1bpp.lz"
 WeavileFootprint:: INCBIN "gfx/footprints/weavile.1bpp.lz"
 LickilickyFootprint:: INCBIN "gfx/footprints/lickilicky.1bpp.lz"
-RhyperiorFootprint:: INCBIN "gfx/footprints/rhyperior.1bpp.lz"
 TangrowthFootprint:: INCBIN "gfx/footprints/tangrowth.1bpp.lz"
 ElectivireFootprint:: INCBIN "gfx/footprints/electivire.1bpp.lz"
 MagmortarFootprint:: INCBIN "gfx/footprints/magmortar.1bpp.lz"

@@ -1864,47 +1864,6 @@ endc
 	learnset 51, PAIN_SPLIT ; Belch → HGSS tutor move
 	learnset 57, MOONBLAST ; Memento → new move
 
-	evos_attacks Rhyhorn
-	evo_data EVOLVE_LEVEL, 42, RHYDON
-	learnset 1, TACKLE
-	learnset 1, MUD_SLAP ; Sand-Attack → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
-	learnset 6, FURY_STRIKES ; Fury Attack → similar move
-	learnset 9, SCARY_FACE
-	learnset 13, MAGNITUDE ; Smack Down → egg move
-	learnset 17, STOMP
-	learnset 21, BULLDOZE
-	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 29, ROCK_BLAST
-	learnset 33, TAKE_DOWN ; Drill Run → Take Down
-	learnset 37, STONE_EDGE ; Take Down → Stone Edge
-	learnset 41, DOUBLE_EDGE ; Double Edge → event move
-	learnset 45, EARTHQUAKE
-	learnset 49, CLOSE_COMBAT ; Megahorn → new move
-	learnset 53, MEGAHORN ; Horn Drill → Megahorn
-
-	evos_attacks Rhydon
-	evo_data EVOLVE_TRADE, PROTECTOR, RHYPERIOR
-	learnset 1, OUTRAGE ; Hammer Arm → HGSS tutor move ; evolution move
-	learnset 1, TACKLE
-	learnset 1, MUD_SLAP ; Sand-Attack → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
-	learnset 6, FURY_STRIKES ; Fury Attack → similar move
-	learnset 9, SCARY_FACE
-	learnset 13, MAGNITUDE ; Smack Down → egg move
-	learnset 17, STOMP
-	learnset 21, BULLDOZE
-	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 29, ROCK_BLAST
-	learnset 33, TAKE_DOWN ; Drill Run → Take Down
-	learnset 37, STONE_EDGE ; Take Down → Stone Edge
-	learnset 41, DOUBLE_EDGE ; Double Edge → event move
-	learnset 48, EARTHQUAKE
-	learnset 55, CLOSE_COMBAT ; Megahorn → new move
-	learnset 62, MEGAHORN ; Horn Drill → Megahorn
-
 	evos_attacks Chansey
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
 	learnset 1, DEFENSE_CURL
@@ -4832,28 +4791,6 @@ endc
 	learnset 57, BELLY_DRUM ; Wring Out → egg move
 	learnset 61, GYRO_BALL
 
-	evos_attacks Rhyperior
-	learnset 1, OUTRAGE ; Hammer Arm → HGSS tutor move ; evolution move
-	learnset 1, POISON_JAB
-	learnset 1, TACKLE
-	learnset 1, MUD_SLAP ; Sand-Attack → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
-	learnset 6, FURY_STRIKES ; Fury Attack → similar move
-	learnset 9, SCARY_FACE
-	learnset 13, MAGNITUDE ; Smack Down → egg move
-	learnset 17, STOMP
-	learnset 21, BULLDOZE
-	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 29, ROCK_BLAST
-	learnset 33, TAKE_DOWN ; Drill Run → Take Down
-	learnset 37, STONE_EDGE ; Take Down → Stone Edge
-	learnset 41, DOUBLE_EDGE ; Double Edge → event move
-	learnset 48, EARTHQUAKE
-	learnset 55, CLOSE_COMBAT ; Megahorn → new move
-	learnset 62, MEGAHORN ; Horn Drill → Megahorn
-	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
-
 	evos_attacks Tangrowth
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 4, SLEEP_POWDER
@@ -6064,6 +6001,66 @@ endc
 	learnset 43, HEALINGLIGHT ; Entrainment
 	learnset 46, SWORDS_DANCE
 	learnset 50, PETAL_DANCE ; Leaf Storm
+	
+	evos_attacks Venipede
+	evo_data EVOLVE_LEVEL, 22, WHIRLIPEDE
+	learnset 1, DEFENSE_CURL
+	learnset 1, ROLLOUT
+	learnset 5, POISON_STING
+	learnset 8, SCREECH
+	learnset 12, PURSUIT
+	learnset 15, PROTECT
+	;learnset 19, POISON_TAIL
+	learnset 22, BUG_BITE
+	learnset 26, VENOSHOCK
+	learnset 29, AGILITY
+	learnset 33, X_SCISSOR ; Steamroller
+	learnset 36, TOXIC
+	;learnset 38, VENOM_DRENCH
+	learnset 40, EXTREMESPEED ; Rock Climb
+	learnset 43, DOUBLE_EDGE
+	
+	evos_attacks Whirlipede
+	evo_data EVOLVE_LEVEL, 30, SCOLIPEDE
+	learnset 1, DEFENSE_CURL
+	learnset 1, ROLLOUT
+	learnset 5, POISON_STING
+	learnset 8, SCREECH
+	learnset 12, PURSUIT
+	learnset 15, PROTECT
+	;learnset 19, POISON_TAIL
+	learnset 21, BARRIER ; Iron Defense
+	learnset 22, BUG_BITE
+	learnset 28, VENOSHOCK
+	learnset 32, AGILITY
+	learnset 37, X_SCISSOR ; Steamroller
+	learnset 41, TOXIC
+	;learnset 43, VENOM_DRENCH
+	learnset 46, EXTREMESPEED ; Rock Climb
+	learnset 50, DOUBLE_EDGE
+	
+	evos_attacks Scolipede
+	learnset 1, BARRIER ; Iron Defense
+	learnset 1, MEGAHORN
+	learnset 1, DEFENSE_CURL
+	learnset 1, ROLLOUT
+	learnset 1, POISON_STING
+	learnset 1, SCREECH
+	learnset 5, POISON_STING
+	learnset 8, SCREECH
+	learnset 12, PURSUIT
+	learnset 15, PROTECT
+	;learnset 19, POISON_TAIL
+	learnset 21, BARRIER ; Iron Defense
+	learnset 22, BUG_BITE
+	learnset 28, VENOSHOCK
+	learnset 33, AGILITY
+	learnset 39, X_SCISSOR ; Steamroller
+	learnset 44, TOXIC
+	;learnset 47, VENOM_DRENCH
+	learnset 50, EXTREMESPEED ; Rock Climb
+	learnset 55, DOUBLE_EDGE
+	learnset 65, MEGAHORN
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

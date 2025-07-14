@@ -333,7 +333,7 @@ if DEF(FAITHFUL)
 	tr_mon 72, MAGNEZONE @ CHARCOAL
 		tr_moves THUNDERBOLT, HP_FIRE, FLASH_CANNON, EXPLOSION
 else
-	tr_mon 72, RHYPERIOR @ SILVERPOWDER
+	tr_mon 72, RATTATA @ SILVERPOWDER
 		tr_dvs 14 All
 		tr_moves EARTHQUAKE, STONE_EDGE, MEGAHORN, IRON_HEAD
 endc
@@ -674,7 +674,7 @@ BrockGroup:
 	tr_mon 64, GOLEM
 		tr_evs 252 HP, 196 Atk
 		tr_moves DEFENSE_CURL, ROLLOUT, ROCK_SLIDE, EARTHQUAKE
-	tr_mon 63, RHYDON @ EVIOLITE
+	tr_mon 63, RATTATA @ EVIOLITE
 		tr_evs 252 HP, 196 SDf
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, OUTRAGE
 	tr_mon 65, OMASTAR
@@ -694,7 +694,7 @@ BrockGroup:
 	def_trainer 2, "Brock"
 	tr_mon 74, ONIX @ SOFT_SAND
 		tr_moves IRON_HEAD, ROCK_SLIDE, EARTHQUAKE, SANDSTORM
-	tr_mon 73, RHYPERIOR @ KINGS_ROCK
+	tr_mon 73, RATTATA @ KINGS_ROCK
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, MEGAHORN
 	tr_mon 72, OMASTAR @ MYSTIC_WATER
 		tr_moves ANCIENTPOWER, SURF, EARTH_POWER, SPIKES
@@ -1869,7 +1869,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer JERRY, "Jerry"
-	tr_mon 62, RHYDON
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer SPENCER, "Spencer"
@@ -2732,8 +2732,8 @@ HikerGroup:
 	end_trainer
 
 	def_trainer GERARD, "Gerard"
-	tr_mon 59, RHYHORN
-	tr_mon 61, RHYDON
+	tr_mon 59, RATTATA
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer DENT, "Dent"
@@ -2744,7 +2744,7 @@ HikerGroup:
 
 	def_trainer BRUCE, "Bruce"
 	tr_mon 57, GRAVELER
-	tr_mon 62, RHYDON
+	tr_mon 62, RATTATA
 	tr_mon 63, CLEFAIRY
 	end_trainer
 
@@ -3220,8 +3220,8 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ETHAN, "Ethan"
-	tr_mon 45, RHYHORN
-	tr_mon 46, RHYDON
+	tr_mon 45, RATTATA
+	tr_mon 46, RATTATA
 	end_trainer
 
 	def_trainer ISSAC, "Issac"
@@ -3235,7 +3235,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ZACH, "Zach"
-	tr_mon 37, RHYHORN
+	tr_mon 37, RATTATA
 	end_trainer
 
 	def_trainer ENZO, "Enzo"
@@ -6118,7 +6118,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer KEVIN, "Kevin"
-	tr_mon 54, RHYDON
+	tr_mon 54, RATTATA
 	tr_mon 56, CHARIZARD
 	tr_mon 56, BLASTOISE
 	end_trainer
@@ -6149,7 +6149,7 @@ CooltrainerMGroup:
 
 	def_trainer KIERAN, "Kieran"
 	tr_mon 52, RATTATA
-	tr_mon 53, RHYHORN
+	tr_mon 53, RATTATA
 	tr_mon 55, PRIMEAPE
 	end_trainer
 
@@ -6187,7 +6187,7 @@ CooltrainerMGroup:
 	def_trainer COOLTRAINERM_COREY, "Corey"
 	tr_mon 63, RATTATA @ QUICK_CLAW
 		tr_evs 252 Atk, 132 Spe
-	tr_mon 62, RHYDON @ ROCKY_HELMET
+	tr_mon 62, RATTATA @ ROCKY_HELMET
 		tr_evs 252 HP, 132 Atk
 	tr_mon 62, SCYTHER @ EVIOLITE
 		tr_evs 252 HP, 132 Atk
@@ -6785,11 +6785,11 @@ else
 		tr_extra EARLY_BIRD, ATK_UP_SATK_DOWN
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, CRUNCH, REST
 endc
-	tr_mon 62, RHYDON @ EVIOLITE, MALE
+	tr_mon 62, RATTATA @ EVIOLITE, MALE
 if !DEF(FAITHFUL)
-		tr_extra SOLID_ROCK, ATK_UP_SATK_DOWN
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 else
-		tr_extra LIGHTNING_ROD, ATK_UP_SATK_DOWN
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 endc
 		tr_moves ROCK_SLIDE, EARTHQUAKE, AVALANCHE, SWORDS_DANCE
 	tr_mon 64, NIDOQUEEN @ LIFE_ORB, FEMALE
@@ -6874,7 +6874,7 @@ ProfIvyGroup:
 	tr_mon 65, RATTATA
 	tr_mon 64, POLITOED
 	tr_mon 64, RATTATA
-	tr_mon 63, RHYPERIOR
+	tr_mon 63, RATTATA
 	tr_mon 63, NIDOQUEEN
 	tr_mon 66, GYARADOS
 	end_trainer
@@ -6925,7 +6925,7 @@ TowerTycoonGroup:
 	def_trainer 2, "Palmer"
 	tr_mon 74, GYARADOS @ MUSCLE_BAND
 		tr_moves DRAGON_DANCE, WATERFALL, CRUNCH, OUTRAGE
-	tr_mon 74, RHYPERIOR @ KINGS_ROCK
+	tr_mon 74, RATTATA @ KINGS_ROCK
 		tr_moves EARTHQUAKE, ROCK_SLIDE, MEGAHORN, AVALANCHE
 	tr_mon 75, DRAGONITE @ WISE_GLASSES
 		tr_moves HURRICANE, DRAGON_PULSE, FIRE_BLAST, BLIZZARD
@@ -7107,7 +7107,7 @@ if DEF(FAITHFUL)
 	tr_mon 77, FORRETRESS @ FOCUS_BAND, MALE
 		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 else
-	tr_mon 76, RHYPERIOR @ FOCUS_BAND, MALE
+	tr_mon 76, RATTATA @ FOCUS_BAND, MALE
 		tr_moves EARTHQUAKE, STONE_EDGE, MEGAHORN, IRON_HEAD
 endc
 	tr_mon 76, MAGNEZONE @ WISE_GLASSES, MALE
@@ -7210,7 +7210,7 @@ RileyGroup:
 	def_trainer 1, "Riley"
 	tr_mon 58, RATTATA
 	tr_mon 57, DRAGONITE
-	tr_mon 56, RHYPERIOR
+	tr_mon 56, RATTATA
 	tr_mon 55, NIDOKING
 	tr_mon 56, ELECTIVIRE
 	tr_mon 55, MAMOSWINE
@@ -7219,7 +7219,7 @@ RileyGroup:
 	def_trainer 2, "Riley"
 	tr_mon 75, RATTATA
 	tr_mon 74, DRAGONITE
-	tr_mon 73, RHYPERIOR
+	tr_mon 73, RATTATA
 	tr_mon 72, NIDOKING
 	tr_mon 73, ELECTIVIRE
 	tr_mon 72, MAMOSWINE

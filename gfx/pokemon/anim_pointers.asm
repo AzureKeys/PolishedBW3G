@@ -73,8 +73,6 @@ AnimationPointers:
 	dw LickitungAnimation
 	dw KoffingAnimation
 	dw WeezingPlainAnimation
-	dw RhyhornAnimation
-	dw RhydonAnimation
 	dw ChanseyAnimation
 	dw TangelaAnimation
 	dw KangaskhanAnimation
@@ -224,7 +222,6 @@ AnimationPointers:
 	dw WeavileAnimation
 	dw MagnezoneAnimation
 	dw LickilickyAnimation
-	dw RhyperiorAnimation
 	dw TangrowthAnimation
 	dw ElectivireAnimation
 	dw MagmortarAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw SerperiorAnimation
 	dw TepigAnimation
 	dw PigniteAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw EmboarAnimation
 	dw OshawottAnimation
 	dw DewottAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw SamurottPlainAnimation
 	dw PatratAnimation
 	dw WatchogAnimation
@@ -293,6 +290,9 @@ AnimationPointers:
 	dw SewaddleAnimation
 	dw SwadloonAnimation
 	dw LeavannyAnimation
+	dw VenipedeAnimation
+	dw WhirlipedeAnimation
+	dw ScolipedeAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

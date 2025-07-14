@@ -73,8 +73,6 @@ FootprintPointers::
 	dw LickitungFootprint
 	dw KoffingFootprint
 	dw WeezingFootprint
-	dw RhyhornFootprint
-	dw RhydonFootprint
 	dw ChanseyFootprint
 	dw TangelaFootprint
 	dw KangaskhanFootprint
@@ -224,7 +222,6 @@ FootprintPointers::
 	dw WeavileFootprint
 	dw MagnezoneFootprint
 	dw LickilickyFootprint
-	dw RhyperiorFootprint
 	dw TangrowthFootprint
 	dw ElectivireFootprint
 	dw MagmortarFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw SerperiorFootprint
 	dw TepigFootprint
 	dw PigniteFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw EmboarFootprint
 	dw OshawottFootprint
 	dw DewottFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SamurottFootprint
 	dw PatratFootprint
 	dw WatchogFootprint
@@ -293,6 +290,9 @@ FootprintPointers::
 	dw SewaddleFootprint
 	dw SwadloonFootprint
 	dw LeavannyFootprint
+	dw VenipedeFootprint
+	dw WhirlipedeFootprint
+	dw ScolipedeFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

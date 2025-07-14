@@ -372,16 +372,6 @@ WeezingMini::     INCBIN "gfx/minis/weezing.2bpp.lz"
 WeezingMiniMask:: INCBIN "gfx/minis/weezing_mask.1bpp.lz"
 WeezingIcon::     INCBIN "gfx/icons/weezing.2bpp.lz"
 
-SECTION "Rhyhorn Mini Icon", ROMX
-RhyhornMini::     INCBIN "gfx/minis/rhyhorn.2bpp.lz"
-RhyhornMiniMask:: INCBIN "gfx/minis/rhyhorn_mask.1bpp.lz"
-RhyhornIcon::     INCBIN "gfx/icons/rhyhorn.2bpp.lz"
-
-SECTION "Rhydon Mini Icon", ROMX
-RhydonMini::     INCBIN "gfx/minis/rhydon.2bpp.lz"
-RhydonMiniMask:: INCBIN "gfx/minis/rhydon_mask.1bpp.lz"
-RhydonIcon::     INCBIN "gfx/icons/rhydon.2bpp.lz"
-
 SECTION "Chansey Mini Icon", ROMX
 ChanseyMini::     INCBIN "gfx/minis/chansey.2bpp.lz"
 ChanseyMiniMask:: INCBIN "gfx/minis/chansey_mask.1bpp.lz"
@@ -1132,11 +1122,6 @@ LickilickyMini::     INCBIN "gfx/minis/lickilicky.2bpp.lz"
 LickilickyMiniMask:: INCBIN "gfx/minis/lickilicky_mask.1bpp.lz"
 LickilickyIcon::     INCBIN "gfx/icons/lickilicky.2bpp.lz"
 
-SECTION "Rhyperior Mini Icon", ROMX
-RhyperiorMini::     INCBIN "gfx/minis/rhyperior.2bpp.lz"
-RhyperiorMiniMask:: INCBIN "gfx/minis/rhyperior_mask.1bpp.lz"
-RhyperiorIcon::     INCBIN "gfx/icons/rhyperior.2bpp.lz"
-
 SECTION "Tangrowth Mini Icon", ROMX
 TangrowthMini::     INCBIN "gfx/minis/tangrowth.2bpp.lz"
 TangrowthMiniMask:: INCBIN "gfx/minis/tangrowth_mask.1bpp.lz"
@@ -1466,6 +1451,21 @@ SECTION "Leavanny Mini Icon", ROMX
 LeavannyMini::     INCBIN "gfx/minis/leavanny.2bpp.lz"
 LeavannyMiniMask:: INCBIN "gfx/minis/leavanny_mask.1bpp.lz"
 LeavannyIcon::     INCBIN "gfx/icons/leavanny.2bpp.lz"
+
+SECTION "Venipede Mini Icon", ROMX
+VenipedeMini::     INCBIN "gfx/minis/venipede.2bpp.lz"
+VenipedeMiniMask:: INCBIN "gfx/minis/venipede_mask.1bpp.lz"
+VenipedeIcon::     INCBIN "gfx/icons/venipede.2bpp.lz"
+
+SECTION "Whirlipede Mini Icon", ROMX
+WhirlipedeMini::     INCBIN "gfx/minis/whirlipede.2bpp.lz"
+WhirlipedeMiniMask:: INCBIN "gfx/minis/whirlipede_mask.1bpp.lz"
+WhirlipedeIcon::     INCBIN "gfx/icons/whirlipede.2bpp.lz"
+
+SECTION "Scolipede Mini Icon", ROMX
+ScolipedeMini::     INCBIN "gfx/minis/scolipede.2bpp.lz"
+ScolipedeMiniMask:: INCBIN "gfx/minis/scolipede_mask.1bpp.lz"
+ScolipedeIcon::     INCBIN "gfx/icons/scolipede.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

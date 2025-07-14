@@ -73,8 +73,6 @@ EvolutionMoves::
 	db NO_MOVE      ; LICKITUNG
 	db NO_MOVE      ; KOFFING
 	db NO_MOVE      ; WEEZING
-	db NO_MOVE      ; RHYHORN
-	db OUTRAGE      ; RHYDON
 	db NO_MOVE      ; CHANSEY
 	db NO_MOVE      ; TANGELA
 	db NO_MOVE      ; KANGASKHAN
@@ -228,7 +226,6 @@ endc
 	db NO_MOVE      ; WEAVILE
 	db TRI_ATTACK   ; MAGNEZONE
 	db NO_MOVE      ; LICKILICKY
-	db OUTRAGE      ; RHYPERIOR
 	db NO_MOVE      ; TANGROWTH
 	db CLOSE_COMBAT ; ELECTIVIRE
 	db FLASH_CANNON ; MAGMORTAR
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; SERPERIOR
 	db NO_MOVE      ; TEPIG
 	db LOW_KICK     ; PIGNITE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; EMBOAR
 	db NO_MOVE      ; OSHAWOTT
 	db NO_MOVE      ; DEWOTT
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db SLASH        ; SAMUROTT
 	db NO_MOVE      ; PATRAT
 	db CONFUSE_RAY  ; WATCHOG
@@ -297,6 +294,9 @@ endc
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
+	db NO_MOVE      ; VENIPEDE
+	db BARRIER      ; WHIRLIPEDE
+	db NO_MOVE      ; SCOLIPEDE
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

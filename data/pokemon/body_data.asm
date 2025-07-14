@@ -80,8 +80,6 @@ PokemonBodyData:
 	body_data  12,  655, BIPEDAL_TAIL, PINK   ; LICKITUNG
 	body_data   6,   10, HEAD,         PURPLE ; KOFFING
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
-	body_data  10, 1150, QUADRUPED,    GRAY   ; RHYHORN
-	body_data  19, 1200, BIPEDAL_TAIL, GRAY   ; RHYDON
 	body_data  11,  346, BIPEDAL_TAIL, PINK   ; CHANSEY
 	body_data  10,  350, HEAD_LEGS,    BLUE   ; TANGELA
 	body_data  22,  800, BIPEDAL_TAIL, BROWN  ; KANGASKHAN
@@ -231,7 +229,6 @@ PokemonBodyData:
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
 	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
 	body_data  17, 1400, BIPEDAL,      PINK   ; LICKILICKY
-	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; RHYPERIOR
 	body_data  20, 1286, BIPEDAL,      BLUE   ; TANGROWTH
 	body_data  18, 1386, BIPEDAL_TAIL, YELLOW ; ELECTIVIRE
 	body_data  16,  680, BIPEDAL_TAIL, RED    ; MAGMORTAR
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  33,  630, SERPENTINE,   GREEN  ; SERPERIOR
 	body_data   5,   99, QUADRUPED,    RED    ; TEPIG
 	body_data  10,  555, BIPEDAL_TAIL, RED    ; PIGNITE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  16, 1500, BIPEDAL_TAIL, RED    ; EMBOAR
 	body_data   5,   59, BIPEDAL_TAIL, BLUE   ; OSHAWOTT
 	body_data   8,  245, BIPEDAL_TAIL, BLUE   ; DEWOTT
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  15,  946, QUADRUPED,    BLUE   ; SAMUROTT
 	body_data   5,  116, QUADRUPED,    BROWN  ; PATRAT
 	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
@@ -300,6 +297,9 @@ PokemonBodyData:
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON
 	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY
+	body_data   4,   53, INSECTOID,    RED    ; VENIPEDE
+	body_data  12,  585, HEAD,         GRAY   ; WHIRLIPEDE
+	body_data  25, 2005, INSECTOID,    RED    ; SCOLIPEDE
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

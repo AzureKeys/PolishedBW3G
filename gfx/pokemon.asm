@@ -188,14 +188,6 @@ SECTION "Lickitung Pics", ROMX
 LickitungFrontpic: INCBIN "gfx/pokemon/lickitung/front.animated.2bpp.lz"
 LickitungBackpic:  INCBIN "gfx/pokemon/lickitung/back.2bpp.lz"
 
-SECTION "Rhyhorn Pics", ROMX
-RhyhornFrontpic: INCBIN "gfx/pokemon/rhyhorn/front.animated.2bpp.lz"
-RhyhornBackpic:  INCBIN "gfx/pokemon/rhyhorn/back.2bpp.lz"
-
-SECTION "Rhydon Pics", ROMX
-RhydonFrontpic: INCBIN "gfx/pokemon/rhydon/front.animated.2bpp.lz"
-RhydonBackpic:  INCBIN "gfx/pokemon/rhydon/back.2bpp.lz"
-
 SECTION "Chansey Pics", ROMX
 ChanseyFrontpic: INCBIN "gfx/pokemon/chansey/front.animated.2bpp.lz"
 ChanseyBackpic:  INCBIN "gfx/pokemon/chansey/back.2bpp.lz"
@@ -419,10 +411,6 @@ MunchlaxBackpic:  INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"
 SECTION "Magnezone Pics", ROMX
 MagnezoneFrontpic: INCBIN "gfx/pokemon/magnezone/front.animated.2bpp.lz"
 MagnezoneBackpic:  INCBIN "gfx/pokemon/magnezone/back.2bpp.lz"
-
-SECTION "Rhyperior Pics", ROMX
-RhyperiorFrontpic: INCBIN "gfx/pokemon/rhyperior/front.animated.2bpp.lz"
-RhyperiorBackpic:  INCBIN "gfx/pokemon/rhyperior/back.2bpp.lz"
 
 SECTION "Tangrowth Pics", ROMX
 TangrowthFrontpic: INCBIN "gfx/pokemon/tangrowth/front.animated.2bpp.lz"
@@ -1564,3 +1552,15 @@ SwadloonBackpic:  INCBIN "gfx/pokemon/swadloon/back.2bpp.lz"
 SECTION "Leavanny Pics", ROMX
 LeavannyFrontpic: INCBIN "gfx/pokemon/leavanny/front.animated.2bpp.lz"
 LeavannyBackpic:  INCBIN "gfx/pokemon/leavanny/back.2bpp.lz"
+
+SECTION "Venipede Pics", ROMX
+VenipedeFrontpic: INCBIN "gfx/pokemon/venipede/front.animated.2bpp.lz"
+VenipedeBackpic:  INCBIN "gfx/pokemon/venipede/back.2bpp.lz"
+
+SECTION "Whirlipede Pics", ROMX
+WhirlipedeFrontpic: INCBIN "gfx/pokemon/whirlipede/front.animated.2bpp.lz"
+WhirlipedeBackpic:  INCBIN "gfx/pokemon/whirlipede/back.2bpp.lz"
+
+SECTION "Scolipede Pics", ROMX
+ScolipedeFrontpic: INCBIN "gfx/pokemon/scolipede/front.animated.2bpp.lz"
+ScolipedeBackpic:  INCBIN "gfx/pokemon/scolipede/back.2bpp.lz"

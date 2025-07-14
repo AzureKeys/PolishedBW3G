@@ -47,7 +47,6 @@ UniqueWildMoves:
 	unique_moves DIGLETTS_CAVE,    DUGTRIO,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
-	unique_moves DIM_CAVE,         RHYDON,     CRUNCH       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MAROWAK,    PERISH_SONG  ; Dream World move

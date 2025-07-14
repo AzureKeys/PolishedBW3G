@@ -205,15 +205,13 @@ AlphabeticalPokedexOrder:
 	dp RATICATE
 	dp RATTATA
 	dp REMORAID
-	dp RHYDON
-	dp RHYHORN
-	dp RHYPERIOR
 	dp ROGGENROLA
 	dp SAMUROTT
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SAWK
 	dp SCIZOR
+	dp SCOLIPEDE
 	dp SCYTHER
 	dp SEADRA
 	dp SEAKING
@@ -274,6 +272,7 @@ AlphabeticalPokedexOrder:
 	dp URSALUNA
 	dp URSARING
 	dp VAPOREON
+	dp VENIPEDE
 	dp VENUSAUR
 	dp VOLTORB
 	dp VULPIX
@@ -281,6 +280,7 @@ AlphabeticalPokedexOrder:
 	dp WATCHOG
 	dp WEAVILE
 	dp WEEZING
+	dp WHIRLIPEDE
 	dp WIGGLYTUFF
 	dp WOBBUFFET
 	dp WOOBAT

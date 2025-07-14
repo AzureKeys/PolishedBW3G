@@ -77,8 +77,6 @@ OverworldMonIconColors::
 	iconpal PINK, BROWN ; LICKITUNG
 	iconpal PURPLE, AZURE ; KOFFING
 	iconpal PURPLE, AZURE ; WEEZING
-	iconpal GRAY, RED ; RHYHORN
-	iconpal GRAY, RED ; RHYDON
 	iconpal PINK, GREEN ; CHANSEY
 	iconpal BLUE, GREEN ; TANGELA
 	iconpal BROWN, GRAY ; KANGASKHAN
@@ -228,7 +226,6 @@ OverworldMonIconColors::
 	iconpal BLUE, RED ; WEAVILE
 	iconpal GRAY, BROWN ; MAGNEZONE
 	iconpal PINK, BROWN ; LICKILICKY
-	iconpal GRAY, RED ; RHYPERIOR
 	iconpal BLUE, GREEN ; TANGROWTH
 	iconpal BROWN, RED ; ELECTIVIRE
 	iconpal RED, BROWN ; MAGMORTAR
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; SERPERIOR
 	iconpal RED, ORANGE ; TEPIG
 	iconpal RED, ORANGE ; PIGNITE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, BLUE ; EMBOAR
 	iconpal AZURE, BLUE ; OSHAWOTT
 	iconpal AZURE, TEAL ; DEWOTT
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal AZURE, BLUE ; SAMUROTT
 	iconpal BROWN, RED ; PATRAT
 	iconpal BROWN, GREEN ; WATCHOG
@@ -297,6 +294,9 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; SEWADDLE
 	iconpal GREEN, GRAY ; SWADLOON
 	iconpal GREEN, BROWN ; LEAVANNY
+	iconpal RED, BROWN ; VENIPEDE
+	iconpal GRAY, PURPLE ; WHIRLIPEDE
+	iconpal RED, ORANGE ; SCOLIPEDE
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

@@ -77,8 +77,6 @@ MiniIconPointers:
 	mini_icon Lickitung
 	mini_icon Koffing
 	mini_icon Weezing
-	mini_icon Rhyhorn
-	mini_icon Rhydon
 	mini_icon Chansey
 	mini_icon Tangela
 	mini_icon Kangaskhan
@@ -228,7 +226,6 @@ MiniIconPointers:
 	mini_icon Weavile
 	mini_icon Magnezone
 	mini_icon Lickilicky
-	mini_icon Rhyperior
 	mini_icon Tangrowth
 	mini_icon Electivire
 	mini_icon Magmortar
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Serperior
 	mini_icon Tepig
 	mini_icon Pignite
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Emboar
 	mini_icon Oshawott
 	mini_icon Dewott
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Samurott
 	mini_icon Patrat
 	mini_icon Watchog
@@ -297,6 +294,9 @@ MiniIconPointers:
 	mini_icon Sewaddle
 	mini_icon Swadloon
 	mini_icon Leavanny
+	mini_icon Venipede
+	mini_icon Whirlipede
+	mini_icon Scolipede
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

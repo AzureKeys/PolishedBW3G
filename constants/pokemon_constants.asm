@@ -97,8 +97,6 @@
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
-	const RHYHORN    ; 6f
-	const RHYDON     ; 70
 	const CHANSEY    ; 71
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
@@ -248,7 +246,6 @@
 	const WEAVILE    ; 108
 	const MAGNEZONE  ; 109
 	const LICKILICKY ; 10a
-	const RHYPERIOR  ; 10b
 	const TANGROWTH  ; 10c
 	const ELECTIVIRE ; 10d
 	const MAGMORTAR  ; 10e
@@ -278,11 +275,11 @@
 	const SERPERIOR  ; 126
 	const TEPIG      ; 127
 	const PIGNITE    ; 128
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const EMBOAR     ; 129
 	const OSHAWOTT   ; 127
 	const DEWOTT     ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SAMUROTT   ; 129
 	const PATRAT     ; 128
 	const WATCHOG    ; 129
@@ -317,6 +314,9 @@
 	const SEWADDLE   ; 128
 	const SWADLOON   ; 129
 	const LEAVANNY   ; 129
+	const VENIPEDE   ; 128
+	const WHIRLIPEDE ; 129
+	const SCOLIPEDE  ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

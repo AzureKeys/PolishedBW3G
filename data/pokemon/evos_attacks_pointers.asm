@@ -77,8 +77,6 @@ EvosAttacksPointers::
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks
-	dw RhyhornEvosAttacks
-	dw RhydonEvosAttacks
 	dw ChanseyEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
@@ -228,7 +226,6 @@ EvosAttacksPointers::
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
 	dw LickilickyEvosAttacks
-	dw RhyperiorEvosAttacks
 	dw TangrowthEvosAttacks
 	dw ElectivireEvosAttacks
 	dw MagmortarEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw SerperiorEvosAttacks
 	dw TepigEvosAttacks
 	dw PigniteEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw EmboarEvosAttacks
 	dw OshawottEvosAttacks
 	dw DewottEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SamurottPlainEvosAttacks
 	dw PatratEvosAttacks
 	dw WatchogEvosAttacks
@@ -297,6 +294,9 @@ EvosAttacksPointers::
 	dw SewaddleEvosAttacks
 	dw SwadloonEvosAttacks
 	dw LeavannyEvosAttacks
+	dw VenipedeEvosAttacks
+	dw WhirlipedeEvosAttacks
+	dw ScolipedeEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

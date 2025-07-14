@@ -74,8 +74,6 @@ PokedexDataPointerTable:
 	dba LickitungPokedexEntry
 	dba KoffingPokedexEntry
 	dba WeezingPlainPokedexEntry
-	dba RhyhornPokedexEntry
-	dba RhydonPokedexEntry
 	dba ChanseyPokedexEntry
 	dba TangelaPokedexEntry
 	dba KangaskhanPokedexEntry
@@ -225,7 +223,6 @@ PokedexDataPointerTable:
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
 	dba LickilickyPokedexEntry
-	dba RhyperiorPokedexEntry
 	dba TangrowthPokedexEntry
 	dba ElectivirePokedexEntry
 	dba MagmortarPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba SerperiorPokedexEntry
 	dba TepigPokedexEntry
 	dba PignitePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba EmboarPokedexEntry
 	dba OshawottPokedexEntry
 	dba DewottPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba SamurottPlainPokedexEntry
 	dba PatratPokedexEntry
 	dba WatchogPokedexEntry
@@ -294,6 +291,9 @@ PokedexDataPointerTable:
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry
+	dba VenipedePokedexEntry
+	dba WhirlipedePokedexEntry
+	dba ScolipedePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

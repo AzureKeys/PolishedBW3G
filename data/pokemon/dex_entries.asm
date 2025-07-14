@@ -736,26 +736,6 @@ WeezingPlainPokedexEntry::
 	next "its insides smell"
 	next "much worse.@"
 
-SECTION "RhyhornPokedexEntry", ROMX
-RhyhornPokedexEntry::
-	db "Spikes@"
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
-
-SECTION "RhydonPokedexEntry", ROMX
-RhydonPokedexEntry::
-	db "Drill@"
-	db   "By lightly spin-"
-	next "ning its drill-"
-	next "like horn, it can"
-	page "easily shatter"
-	next "even a diamond in"
-	next "the rough.@"
-
 SECTION "ChanseyPokedexEntry", ROMX
 ChanseyPokedexEntry::
 	db "Egg@"
@@ -2246,16 +2226,6 @@ LickilickyPokedexEntry::
 	next "solvent that"
 	next "causes numbness.@"
 
-SECTION "RhyperiorPokedexEntry", ROMX
-RhyperiorPokedexEntry::
-	db "Drill@"
-	db   "From holes in its"
-	next "palms, it fires"
-	next "out Geodude. Its"
-	page "carapace can with-"
-	next "stand volcanic"
-	next "eruptions.@"
-
 SECTION "TangrowthPokedexEntry", ROMX
 TangrowthPokedexEntry::
 	db "Vine@"
@@ -2909,6 +2879,36 @@ LeavannyPokedexEntry::
 	page "It also uses them"
 	next "to make warm wraps"
 	next "for Sewaddle.@"
+
+SECTION "VenipedePokedexEntry", ROMX
+VenipedePokedexEntry::
+	db "Centipede@"
+	db "Its bite injects a"
+	next "potent poison. It"
+	next "is enough to stun"
+	page "large birds that"
+	next "try to prey on"
+	next "it.@"
+
+SECTION "WhirlipedePokedexEntry", ROMX
+WhirlipedePokedexEntry::
+	db "Curlipede@"
+	db "Protected by its"
+	next "shell, it spins"
+	next "like a wheel"
+	page "and crashes with"
+	next "fury into its"
+	next "enemies.@"
+
+SECTION "ScolipedePokedexEntry", ROMX
+ScolipedePokedexEntry::
+	db "Megapede@"
+	db "With quick moves,"
+	next "it chases down its"
+	next "foes, attacking"
+	page "relentlessly with"
+	next "its large horns"
+	next "until prevailing.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

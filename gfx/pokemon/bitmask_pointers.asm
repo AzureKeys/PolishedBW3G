@@ -73,8 +73,6 @@ BitmasksPointers:
 	dw LickitungBitmasks
 	dw KoffingBitmasks
 	dw WeezingPlainBitmasks
-	dw RhyhornBitmasks
-	dw RhydonBitmasks
 	dw ChanseyBitmasks
 	dw TangelaBitmasks
 	dw KangaskhanBitmasks
@@ -224,7 +222,6 @@ BitmasksPointers:
 	dw WeavileBitmasks
 	dw MagnezoneBitmasks
 	dw LickilickyBitmasks
-	dw RhyperiorBitmasks
 	dw TangrowthBitmasks
 	dw ElectivireBitmasks
 	dw MagmortarBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw SerperiorBitmasks
 	dw TepigBitmasks
 	dw PigniteBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw EmboarBitmasks
 	dw OshawottBitmasks
 	dw DewottBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw SamurottPlainBitmasks
 	dw PatratBitmasks
 	dw WatchogBitmasks
@@ -293,6 +290,9 @@ BitmasksPointers:
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks
 	dw LeavannyBitmasks
+	dw VenipedeBitmasks
+	dw WhirlipedeBitmasks
+	dw ScolipedeBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

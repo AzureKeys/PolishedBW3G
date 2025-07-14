@@ -4,8 +4,6 @@ FuryAttackUsers:
 	dp NIDORINO
 	dp NIDOKING
 	dp FARFETCH_D
-	dp RHYHORN
-	dp RHYDON
 	dp GOLDEEN
 	dp SEAKING
 	dp PINSIR
@@ -14,7 +12,6 @@ FuryAttackUsers:
 	dp PILOSWINE
 	dp SKARMORY
 	dp DONPHAN
-	dp RHYPERIOR
 	dp MAMOSWINE
 	dp DUDUNSPARCE
 	dw 0
