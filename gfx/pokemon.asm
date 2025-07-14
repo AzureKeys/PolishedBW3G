@@ -172,14 +172,6 @@ SECTION "Onix Pics", ROMX
 OnixFrontpic: INCBIN "gfx/pokemon/onix/front.animated.2bpp.lz"
 OnixBackpic:  INCBIN "gfx/pokemon/onix/back.2bpp.lz"
 
-SECTION "Krabby Pics", ROMX
-KrabbyFrontpic: INCBIN "gfx/pokemon/krabby/front.animated.2bpp.lz"
-KrabbyBackpic:  INCBIN "gfx/pokemon/krabby/back.2bpp.lz"
-
-SECTION "Kingler Pics", ROMX
-KinglerFrontpic: INCBIN "gfx/pokemon/kingler/front.animated.2bpp.lz"
-KinglerBackpic:  INCBIN "gfx/pokemon/kingler/back.2bpp.lz"
-
 SECTION "Exeggcute Pics", ROMX
 ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lz"
 ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
@@ -1576,3 +1568,15 @@ ThrohBackpic:  INCBIN "gfx/pokemon/throh/back.2bpp.lz"
 SECTION "Sawk Pics", ROMX
 SawkFrontpic: INCBIN "gfx/pokemon/sawk/front.animated.2bpp.lz"
 SawkBackpic:  INCBIN "gfx/pokemon/sawk/back.2bpp.lz"
+
+SECTION "Sewaddle Pics", ROMX
+SewaddleFrontpic: INCBIN "gfx/pokemon/sewaddle/front.animated.2bpp.lz"
+SewaddleBackpic:  INCBIN "gfx/pokemon/sewaddle/back.2bpp.lz"
+
+SECTION "Swadloon Pics", ROMX
+SwadloonFrontpic: INCBIN "gfx/pokemon/swadloon/front.animated.2bpp.lz"
+SwadloonBackpic:  INCBIN "gfx/pokemon/swadloon/back.2bpp.lz"
+
+SECTION "Leavanny Pics", ROMX
+LeavannyFrontpic: INCBIN "gfx/pokemon/leavanny/front.animated.2bpp.lz"
+LeavannyBackpic:  INCBIN "gfx/pokemon/leavanny/back.2bpp.lz"

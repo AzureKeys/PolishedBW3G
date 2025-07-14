@@ -64,8 +64,6 @@ AnimationPointers:
 	dw HaunterAnimation
 	dw GengarAnimation
 	dw OnixAnimation
-	dw KrabbyAnimation
-	dw KinglerAnimation
 	dw VoltorbPlainAnimation
 	dw ElectrodePlainAnimation
 	dw ExeggcuteAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw DudunsparceTwoSegmentAnimation
 	dw FarigirafAnimation
 	dw ClodsireAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw AnnihilapeAnimation
 	dw SnivyAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ServineAnimation
 	dw SerperiorAnimation
 	dw TepigAnimation
@@ -296,6 +294,9 @@ AnimationPointers:
 	dw SeismitoadAnimation
 	dw ThrohAnimation
 	dw SawkAnimation
+	dw SewaddleAnimation
+	dw SwadloonAnimation
+	dw LeavannyAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

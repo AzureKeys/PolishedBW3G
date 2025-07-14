@@ -68,8 +68,6 @@ EvosAttacksPointers::
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
 	dw OnixEvosAttacks
-	dw KrabbyEvosAttacks
-	dw KinglerEvosAttacks
 	dw VoltorbPlainEvosAttacks
 	dw ElectrodePlainEvosAttacks
 	dw ExeggcuteEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw DudunsparceEvosAttacks
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw AnnihilapeEvosAttacks
 	dw SnivyEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw ServineEvosAttacks
 	dw SerperiorEvosAttacks
 	dw TepigEvosAttacks
@@ -300,6 +298,9 @@ EvosAttacksPointers::
 	dw SeismitoadEvosAttacks
 	dw ThrohEvosAttacks
 	dw SawkEvosAttacks
+	dw SewaddleEvosAttacks
+	dw SwadloonEvosAttacks
+	dw LeavannyEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

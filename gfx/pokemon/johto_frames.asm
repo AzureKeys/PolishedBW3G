@@ -165,6 +165,9 @@ PalpitoadFrames:  INCLUDE "gfx/pokemon/palpitoad/frames.asm"
 SeismitoadFrames: INCLUDE "gfx/pokemon/seismitoad/frames.asm"
 ThrohFrames:      INCLUDE "gfx/pokemon/throh/frames.asm"
 SawkFrames:       INCLUDE "gfx/pokemon/sawk/frames.asm"
+SewaddleFrames:   INCLUDE "gfx/pokemon/sewaddle/frames.asm"
+SwadloonFrames:   INCLUDE "gfx/pokemon/swadloon/frames.asm"
+LeavannyFrames:   INCLUDE "gfx/pokemon/leavanny/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

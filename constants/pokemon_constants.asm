@@ -88,8 +88,6 @@
 	const HAUNTER    ; 5d
 	const GENGAR     ; 5e
 	const ONIX       ; 5f
-	const KRABBY     ; 62
-	const KINGLER    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
@@ -278,10 +276,10 @@
 	const DUDUNSPARCE ; 120
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ANNIHILAPE ; 123
 	const SNIVY      ; 124
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SERVINE    ; 125
 	const SERPERIOR  ; 126
 	const TEPIG      ; 127
@@ -320,6 +318,9 @@
 	const SEISMITOAD ; 129
 	const THROH      ; 129
 	const SAWK       ; 129
+	const SEWADDLE   ; 128
+	const SWADLOON   ; 129
+	const LEAVANNY   ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

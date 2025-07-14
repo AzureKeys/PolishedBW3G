@@ -64,8 +64,6 @@ FramesPointers:
 	dw HaunterFrames
 	dw GengarFrames
 	dw OnixFrames
-	dw KrabbyFrames
-	dw KinglerFrames
 	dw VoltorbPlainFrames
 	dw ElectrodePlainFrames
 	dw ExeggcuteFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw DudunsparceTwoSegmentFrames
 	dw FarigirafFrames
 	dw ClodsireFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw AnnihilapeFrames
 	dw SnivyFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ServineFrames
 	dw SerperiorFrames
 	dw TepigFrames
@@ -296,6 +294,9 @@ FramesPointers:
 	dw SeismitoadFrames
 	dw ThrohFrames
 	dw SawkFrames
+	dw SewaddleFrames
+	dw SwadloonFrames
+	dw LeavannyFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

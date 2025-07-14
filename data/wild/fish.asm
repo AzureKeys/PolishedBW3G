@@ -39,17 +39,17 @@ ENDM
 .Shore_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     KRABBY,     10
+	fishentry 100 percent,     RATTATA,     10
 .Shore_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     KRABBY,     20
-	fishentry  90 percent + 1, KRABBY,     20
+	fishentry  70 percent,     RATTATA,     20
+	fishentry  90 percent + 1, RATTATA,     20
 	fishentry 100 percent,     0,          20 ; corsola morn/day, staryu eve/night
 .Shore_Super:
-	fishentry  40 percent,     KRABBY,     40
+	fishentry  40 percent,     RATTATA,     40
 	fishentry  70 percent,     0,          40 ; corsola morn/day, staryu eve/night
-	fishentry  90 percent + 1, KRABBY,     40
-	fishentry 100 percent,     KINGLER,    40
+	fishentry  90 percent + 1, RATTATA,     40
+	fishentry 100 percent,     RATTATA,    40
 
 .Ocean_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
@@ -185,16 +185,16 @@ ENDM
 .WhirlIslands_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     KRABBY,     10
+	fishentry 100 percent,     RATTATA,     10
 .WhirlIslands_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     KRABBY,     20
-	fishentry  90 percent + 1, KRABBY,     20
+	fishentry  70 percent,     RATTATA,     20
+	fishentry  90 percent + 1, RATTATA,     20
 	fishentry 100 percent,     HORSEA,     20
 .WhirlIslands_Super:
-	fishentry  40 percent,     KRABBY,     40
+	fishentry  40 percent,     RATTATA,     40
 	fishentry  70 percent,     HORSEA,     40
-	fishentry  90 percent + 1, KINGLER,    40
+	fishentry  90 percent + 1, RATTATA,    40
 	fishentry 100 percent,     SEADRA,     40
 
 .Qwilfish_Old:

@@ -64,8 +64,6 @@ BitmasksPointers:
 	dw HaunterBitmasks
 	dw GengarBitmasks
 	dw OnixBitmasks
-	dw KrabbyBitmasks
-	dw KinglerBitmasks
 	dw VoltorbPlainBitmasks
 	dw ElectrodePlainBitmasks
 	dw ExeggcuteBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw DudunsparceTwoSegmentBitmasks
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw AnnihilapeBitmasks
 	dw SnivyBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw ServineBitmasks
 	dw SerperiorBitmasks
 	dw TepigBitmasks
@@ -296,6 +294,9 @@ BitmasksPointers:
 	dw SeismitoadBitmasks
 	dw ThrohBitmasks
 	dw SawkBitmasks
+	dw SewaddleBitmasks
+	dw SwadloonBitmasks
+	dw LeavannyBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

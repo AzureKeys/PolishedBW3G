@@ -41,6 +41,9 @@ NewPokedexOrder:
 	dp SEISMITOAD
 	dp THROH
 	dp SAWK
+	dp SEWADDLE
+	dp SWADLOON
+	dp LEAVANNY
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -194,8 +197,6 @@ NewPokedexOrder:
 	dp XATU
 	dp QWILFISH
 	dp OVERQWIL
-	dp KRABBY
-	dp KINGLER
 	dp SHUCKLE
 	dp STARYU
 	dp STARMIE

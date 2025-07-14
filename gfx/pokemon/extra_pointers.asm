@@ -64,8 +64,6 @@ AnimationExtraPointers:
 	dw HaunterAnimationExtra
 	dw GengarAnimationExtra
 	dw OnixAnimationExtra
-	dw KrabbyAnimationExtra
-	dw KinglerAnimationExtra
 	dw VoltorbPlainAnimationExtra
 	dw ElectrodePlainAnimationExtra
 	dw ExeggcuteAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw DudunsparceTwoSegmentAnimationExtra
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw AnnihilapeAnimationExtra
 	dw SnivyAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw ServineAnimationExtra
 	dw SerperiorAnimationExtra
 	dw TepigAnimationExtra
@@ -296,6 +294,9 @@ AnimationExtraPointers:
 	dw SeismitoadAnimationExtra
 	dw ThrohAnimationExtra
 	dw SawkAnimationExtra
+	dw SewaddleAnimationExtra
+	dw SwadloonAnimationExtra
+	dw LeavannyAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

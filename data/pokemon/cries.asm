@@ -70,8 +70,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; Haunter
 	mon_cry CRY_MUK,         $000,  $17f ; Gengar
 	mon_cry CRY_EKANS,       $0ff,  $140 ; Onix
-	mon_cry CRY_KRABBY,      $020,  $160 ; Krabby
-	mon_cry CRY_KRABBY,      $0ee,  $160 ; Kingler
 	mon_cry CRY_VOLTORB,     $0ed,  $100 ; Voltorb
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; Electrode
 	mon_cry CRY_DIGLETT,     $000,  $100 ; Exeggcute
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
 	mon_cry CRY_METAPOD,    -$09a,  $0d0 ; Serperior
 	mon_cry CRY_NIDORAN_M,  -$08d,  $0ab ; Tepig
@@ -302,4 +300,7 @@ PokemonCries::
 	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
+	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
+	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon
+	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny
 	assert_table_length NUM_SPECIES

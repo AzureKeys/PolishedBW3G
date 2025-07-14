@@ -721,7 +721,7 @@ MistyGroup:
 	tr_mon 62, LAPRAS
 		tr_evs 252 Def, 100 SDf
 		tr_moves SURF, PERISH_SONG, BLIZZARD, RAIN_DANCE
-	tr_mon 60, KINGLER
+	tr_mon 60, RATTATA
 		tr_evs 252 Atk, 100 Spe
 		tr_moves DEFENSE_CURL, STOMP, PROTECT, CRABHAMMER
 	tr_mon 62, LANTURN
@@ -737,7 +737,7 @@ MistyGroup:
 		tr_moves PSYCHIC_M, SCALD, ICE_BEAM, CALM_MIND
 	tr_mon 72, QUAGSIRE
 		tr_moves EARTHQUAKE, SCALD, RECOVER, TOXIC
-	tr_mon 72, KINGLER @ KINGS_ROCK
+	tr_mon 72, RATTATA @ KINGS_ROCK
 		tr_moves SWORDS_DANCE, CRABHAMMER, X_SCISSOR, ROCK_SLIDE
 	tr_mon 73, LANTURN @ NEVERMELTICE
 		tr_moves SURF, THUNDERBOLT, ICE_BEAM, CONFUSE_RAY
@@ -4739,7 +4739,7 @@ SailorGroup:
 	def_trainer EUGENE, "Eugene"
 	tr_mon 17, POLIWHIRL
 	tr_mon 17, RATICATE
-	tr_mon 19, KRABBY
+	tr_mon 19, RATTATA
 	end_trainer
 
 	def_trainer TERRELL, "Terrell"
@@ -4747,9 +4747,9 @@ SailorGroup:
 	end_trainer
 
 	def_trainer KENT, "Kent"
-	tr_mon 18, KRABBY
+	tr_mon 18, RATTATA
 		tr_moves WATER_GUN, LEER, SCRATCH, DEFENSE_CURL
-	tr_mon 20, KRABBY
+	tr_mon 20, RATTATA
 		tr_moves BUBBLE_BEAM, LEER, SCRATCH, DEFENSE_CURL
 	end_trainer
 
@@ -4765,7 +4765,7 @@ SailorGroup:
 	end_trainer
 
 	def_trainer GARRETT, "Garrett"
-	tr_mon 48, KINGLER
+	tr_mon 48, RATTATA
 	end_trainer
 
 	def_trainer KENNETH, "Kenneth"
@@ -4845,7 +4845,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer MATHEW, "Mathew"
-	tr_mon 23, KRABBY
+	tr_mon 23, RATTATA
 	end_trainer
 
 	def_trainer HAL, "Hal"
@@ -4935,7 +4935,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer ARMAND, "Armand"
-	tr_mon 55, KINGLER
+	tr_mon 55, RATTATA
 	tr_mon 55, RATTATA
 	end_trainer
 
@@ -4955,7 +4955,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer DUANE, "Duane"
-	tr_mon 60, KINGLER
+	tr_mon 60, RATTATA
 	tr_mon 60, KABUTOPS
 	end_trainer
 
@@ -6040,7 +6040,7 @@ CooltrainerMGroup:
 	def_trainer GAVEN1, "Gaven"
 	tr_mon 39, RATTATA
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
-	tr_mon 39, KINGLER
+	tr_mon 39, RATTATA
 		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
 	tr_mon 39, FLAREON
 		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
@@ -6049,7 +6049,7 @@ CooltrainerMGroup:
 	def_trainer GAVEN2, "Gaven"
 	tr_mon 41, RATTATA
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
-	tr_mon 41, KINGLER
+	tr_mon 41, RATTATA
 		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
 	tr_mon 41, FLAREON
 		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
@@ -6058,7 +6058,7 @@ CooltrainerMGroup:
 	def_trainer GAVEN3, "Gaven"
 	tr_mon 45, RATTATA
 		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
-	tr_mon 45, KINGLER @ KINGS_ROCK
+	tr_mon 45, RATTATA @ KINGS_ROCK
 		tr_moves SURF, STOMP, DIG, BLIZZARD
 	tr_mon 45, FLAREON
 		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN

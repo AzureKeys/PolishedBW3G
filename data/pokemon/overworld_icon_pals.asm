@@ -68,8 +68,6 @@ OverworldMonIconColors::
 	iconpal PURPLE, BLUE ; HAUNTER
 	iconpal PURPLE, BLUE ; GENGAR
 	iconpal GRAY, AZURE ; ONIX
-	iconpal ORANGE, BLUE ; KRABBY
-	iconpal ORANGE, BLUE ; KINGLER
 	iconpal RED, BLUE ; VOLTORB
 	iconpal RED, BLUE ; ELECTRODE
 	iconpal PINK, TEAL ; EXEGGCUTE
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal GREEN, BLUE ; SNIVY
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, BLUE ; SERVINE
 	iconpal GREEN, BLUE ; SERPERIOR
 	iconpal RED, ORANGE ; TEPIG
@@ -300,6 +298,9 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH
 	iconpal BLUE, PURPLE ; SAWK
+	iconpal GREEN, TEAL ; SEWADDLE
+	iconpal GREEN, GRAY ; SWADLOON
+	iconpal GREEN, BROWN ; LEAVANNY
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

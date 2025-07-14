@@ -71,8 +71,6 @@ PokemonBodyData:
 	body_data  16,    1, HEAD_ARMS,    PURPLE ; HAUNTER
 	body_data  15,  405, BIPEDAL_TAIL, PURPLE ; GENGAR
 	body_data  88, 2100, SERPENTINE,   GRAY   ; ONIX
-	body_data   4,   65, INSECTOID,    RED    ; KRABBY
-	body_data  13,  600, INSECTOID,    RED    ; KINGLER
 	body_data   5,  104, HEAD,         RED    ; VOLTORB
 	body_data  12,  666, HEAD,         RED    ; ELECTRODE
 	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
 	body_data  33,  630, SERPENTINE,   GREEN  ; SERPERIOR
 	body_data   5,   99, QUADRUPED,    RED    ; TEPIG
@@ -303,6 +301,9 @@ PokemonBodyData:
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	body_data  13,  555, BIPEDAL,      RED    ; THROH
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
+	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
+	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON
+	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

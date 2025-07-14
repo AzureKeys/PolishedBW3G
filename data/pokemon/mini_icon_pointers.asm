@@ -68,8 +68,6 @@ MiniIconPointers:
 	mini_icon Haunter
 	mini_icon Gengar
 	mini_icon Onix
-	mini_icon Krabby
-	mini_icon Kingler
 	mini_icon Voltorb
 	mini_icon Electrode
 	mini_icon Exeggcute
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon DudunsparceTwoSegment
 	mini_icon Farigiraf
 	mini_icon Clodsire
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Annihilape
 	mini_icon Snivy
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Servine
 	mini_icon Serperior
 	mini_icon Tepig
@@ -300,6 +298,9 @@ MiniIconPointers:
 	mini_icon Seismitoad
 	mini_icon Throh
 	mini_icon Sawk
+	mini_icon Sewaddle
+	mini_icon Swadloon
+	mini_icon Leavanny
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

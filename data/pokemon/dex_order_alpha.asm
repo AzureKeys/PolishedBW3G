@@ -113,14 +113,13 @@ AlphabeticalPokedexOrder:
 	dp KABUTOPS
 	dp KANGASKHAN
 	dp KINGDRA
-	dp KINGLER
 	dp KLEAVOR
 	dp KOFFING
-	dp KRABBY
 	dp LANTURN
 	dp LAPRAS
 	dp LARVITAR
 	dp LEAFEON
+	dp LEAVANNY
 	dp LEDIAN
 	dp LEDYBA
 	dp LICKILICKY
@@ -226,6 +225,7 @@ AlphabeticalPokedexOrder:
 	dp SENTRET
 	dp SERPERIOR
 	dp SERVINE
+	dp SEWADDLE
 	dp SHUCKLE
 	dp SIRFETCH_D
 	dp SKARMORY
@@ -252,6 +252,7 @@ AlphabeticalPokedexOrder:
 	dp SUICUNE
 	dp SUNFLORA
 	dp SUNKERN
+	dp SWADLOON
 	dp SWINUB
 	dp SWOOBAT
 	dp SYLVEON

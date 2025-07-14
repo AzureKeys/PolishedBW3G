@@ -1618,39 +1618,6 @@ endc
 	learnset 49, DOUBLE_EDGE
 	learnset 52, EARTHQUAKE ; Sandstorm → TM move
 
-	evos_attacks Krabby
-	evo_data EVOLVE_LEVEL, 28, KINGLER
-	learnset 1, AQUA_JET ; Bubble → new move
-	learnset 5, SCRATCH ; Vice Grip → new move
-	learnset 9, LEER
-	learnset 11, DEFENSE_CURL ; Harden → similar move
-	learnset 15, BUBBLE_BEAM
-	learnset 19, DIG ; Mud Shot → egg move
-	learnset 21, METAL_CLAW
-	learnset 25, STOMP
-	learnset 29, PROTECT
-	learnset 31, X_SCISSOR ; Guillotine → TM move
-	learnset 35, CLOSE_COMBAT ; Slam → new move
-	learnset 39, CRABHAMMER ; Brine → Crabhammer
-	learnset 41, ANCIENTPOWER ; Crabhammer → HGSS tutor move
-	learnset 45, REVERSAL ; Flail → similar move
-
-	evos_attacks Kingler
-	learnset 1, AQUA_JET ; Bubble → new move
-	learnset 5, SCRATCH ; Vice Grip → new move
-	learnset 9, LEER
-	learnset 11, DEFENSE_CURL ; Harden → similar move
-	learnset 15, BUBBLE_BEAM
-	learnset 19, DIG ; Mud Shot → egg move
-	learnset 21, METAL_CLAW
-	learnset 25, STOMP
-	learnset 32, PROTECT
-	learnset 37, X_SCISSOR ; Guillotine → TM move
-	learnset 44, CLOSE_COMBAT ; Slam → new move
-	learnset 51, CRABHAMMER ; Brine → Crabhammer
-	learnset 56, ANCIENTPOWER ; Crabhammer → HGSS tutor move
-	learnset 63, REVERSAL ; Flail → new move
-
 	evos_attacks VoltorbPlain
 	evo_data EVOLVE_LEVEL, 30, ELECTRODE
 	learnset 1, TACKLE
@@ -6128,6 +6095,43 @@ endc
 	learnset 37, PROTECT ; Quick Guard
 	learnset 41, CLOSE_COMBAT
 	learnset 45, REVERSAL
+	
+	evos_attacks Sewaddle
+	evo_data EVOLVE_LEVEL, 20, SWADLOON
+	learnset 1, TACKLE
+	learnset 1, STRING_SHOT
+	learnset 8, BUG_BITE
+	learnset 15, RAZOR_LEAF
+	;learnset 22, STRUGGLE_BUG
+	learnset 29, ENDURE
+	learnset 31, BARRIER ; Sticky Web
+	learnset 36, BUG_BUZZ
+	learnset 43, REVERSAL ; Flail
+	
+	evos_attacks Swadloon
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, LEAVANNY
+	learnset 1, TACKLE
+	learnset 1, STRING_SHOT
+	learnset 8, BUG_BITE
+	learnset 15, RAZOR_LEAF
+	learnset 19, PROTECT
+	
+	evos_attacks Leavanny
+	learnset 1, SLASH
+	learnset 1, TACKLE
+	learnset 1, STRING_SHOT
+	learnset 1, BUG_BITE
+	learnset 1, RAZOR_LEAF
+	learnset 8, BUG_BITE
+	learnset 15, RAZOR_LEAF
+	;learnset 22, STRUGGLE_BUG
+	;learnset 29, FELL_STINGER
+	learnset 32, DOUBLE_TEAM ; Helping Hand
+	;learnset 36, LEAF_BLADE
+	learnset 39, X_SCISSOR
+	learnset 43, HEALINGLIGHT ; Entrainment
+	learnset 46, SWORDS_DANCE
+	learnset 50, PETAL_DANCE ; Leaf Storm
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

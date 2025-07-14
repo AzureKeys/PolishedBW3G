@@ -68,8 +68,6 @@ PokemonPicPointers::
 	pics Haunter
 	pics Gengar
 	pics Onix
-	pics Krabby
-	pics Kingler
 	pics VoltorbPlain
 	pics ElectrodePlain
 	pics Exeggcute
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics DudunsparceTwoSegment
 	pics Farigiraf
 	pics Clodsire
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Annihilape
 	pics Snivy
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Servine
 	pics Serperior
 	pics Tepig
@@ -300,6 +298,9 @@ PokemonPicPointers::
 	pics Seismitoad
 	pics Throh
 	pics Sawk
+	pics Sewaddle
+	pics Swadloon
+	pics Leavanny
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

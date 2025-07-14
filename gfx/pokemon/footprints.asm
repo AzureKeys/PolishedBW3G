@@ -54,6 +54,9 @@ PalpitoadFootprint::
 SeismitoadFootprint::
 ThrohFootprint::
 SawkFootprint::
+SewaddleFootprint::
+SwadloonFootprint::
+LeavannyFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -157,8 +160,6 @@ MagnemiteFootprint:: INCBIN "gfx/footprints/magnemite.1bpp.lz"
 MagnetonFootprint:: INCBIN "gfx/footprints/magneton.1bpp.lz"
 FarfetchDFootprint:: INCBIN "gfx/footprints/farfetch_d.1bpp.lz"
 GengarFootprint:: INCBIN "gfx/footprints/gengar.1bpp.lz"
-KrabbyFootprint:: INCBIN "gfx/footprints/krabby.1bpp.lz"
-KinglerFootprint:: INCBIN "gfx/footprints/kingler.1bpp.lz"
 ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lz"
 CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lz"
 MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lz"

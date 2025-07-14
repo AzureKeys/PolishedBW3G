@@ -65,8 +65,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  25,  44 ; Haunter
 	db  45, 100 ; Gengar
 	db   1, 100 ; Onix
-	db   1,  27 ; Krabby
-	db  28, 100 ; Kingler
 	db   1,  29 ; Voltorb
 	db  30, 100 ; Electrode
 	db   1,  29 ; Exeggcute
@@ -259,10 +257,10 @@ endc
 	db  32, 100 ; Dudunsparce
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  56, 100 ; Annihilape
 	db   1,  16 ; Snivy
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  17,  35 ; Servine
 	db  36, 100 ; Serperior
 	db   1,  16 ; Tepig
@@ -301,4 +299,7 @@ endc
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
 	db  20, 100 ; Sawk
+	db   1,  19 ; Sewaddle
+	db  20,  29 ; Swadloon
+	db  30, 100 ; Leavanny
 	assert_table_length NUM_SPECIES

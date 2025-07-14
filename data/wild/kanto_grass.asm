@@ -1184,24 +1184,24 @@
 	wildmon 51, RATTATA
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
-	wildmon 53, KINGLER
-	wildmon 52, KINGLER
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	; day
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, RATTATA
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
-	wildmon 53, KINGLER
-	wildmon 52, KINGLER
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	; nite
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
 	wildmon 51, NOCTOWL
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
-	wildmon 53, KINGLER
-	wildmon 52, KINGLER
+	wildmon 53, RATTATA
+	wildmon 52, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_1F
@@ -1629,26 +1629,26 @@
 	; morn
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
-	wildmon 57, KRABBY
+	wildmon 57, RATTATA
 	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, KINGLER
-	wildmon 61, KINGLER
+	wildmon 60, RATTATA
+	wildmon 61, RATTATA
 	wildmon 62, CORSOLA, GALARIAN_FORM
 	; day
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
-	wildmon 57, KRABBY
+	wildmon 57, RATTATA
 	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, KINGLER
-	wildmon 61, KINGLER
+	wildmon 60, RATTATA
+	wildmon 61, RATTATA
 	wildmon 62, CORSOLA, GALARIAN_FORM
 	; nite
 	wildmon 56, ZUBAT
 	wildmon 59, GOLBAT
-	wildmon 57, KRABBY
+	wildmon 57, RATTATA
 	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, KINGLER
-	wildmon 61, KINGLER
+	wildmon 60, RATTATA
+	wildmon 61, RATTATA
 	wildmon 62, CORSOLA, GALARIAN_FORM
 	end_grass_wildmons
 
@@ -1656,28 +1656,28 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 57, GOLBAT
-	wildmon 60, KINGLER
+	wildmon 60, RATTATA
 	wildmon 58, CORSOLA, GALARIAN_FORM
 	wildmon 59, CORSOLA, GALARIAN_FORM
 	wildmon 59, HAUNTER
-	wildmon 61, KINGLER
-	wildmon 62, KINGLER
+	wildmon 61, RATTATA
+	wildmon 62, RATTATA
 	; day
 	wildmon 57, GOLBAT
-	wildmon 60, KINGLER
+	wildmon 60, RATTATA
 	wildmon 58, CORSOLA, GALARIAN_FORM
 	wildmon 59, CORSOLA, GALARIAN_FORM
 	wildmon 59, HAUNTER
-	wildmon 61, KINGLER
-	wildmon 62, KINGLER
+	wildmon 61, RATTATA
+	wildmon 62, RATTATA
 	; nite
 	wildmon 57, GOLBAT
-	wildmon 60, KINGLER
+	wildmon 60, RATTATA
 	wildmon 58, CORSOLA, GALARIAN_FORM
 	wildmon 59, CORSOLA, GALARIAN_FORM
 	wildmon 59, HAUNTER
-	wildmon 61, KINGLER
-	wildmon 62, KINGLER
+	wildmon 61, RATTATA
+	wildmon 62, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_SHIPWRECK

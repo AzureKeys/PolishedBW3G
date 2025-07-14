@@ -64,8 +64,6 @@ EggSpeciesMovesPointers::
 	dw GastlyEggSpeciesMoves            ; Haunter
 	dw GastlyEggSpeciesMoves            ; Gengar
 	dw OnixEggSpeciesMoves              ; Onix
-	dw KrabbyEggSpeciesMoves            ; Krabby
-	dw KrabbyEggSpeciesMoves            ; Kingler
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
 	dw VoltorbPlainEggSpeciesMoves      ; Electrode
 	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SnivyEggSpeciesMoves             ; Snivy
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SnivyEggSpeciesMoves             ; Servine
 	dw SnivyEggSpeciesMoves             ; Serperior
 	dw TepigEggSpeciesMoves             ; Tepig
@@ -296,6 +294,9 @@ EggSpeciesMovesPointers::
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
 	dw SawkEggSpeciesMoves              ; Sawk
+	dw SewaddleEggSpeciesMoves          ; Sewaddle
+	dw SewaddleEggSpeciesMoves          ; Swadloon
+	dw SewaddleEggSpeciesMoves          ; Leavanny
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -955,26 +955,26 @@
 	def_grass_wildmons WHIRL_ISLAND_NW
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; day
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; nite
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
-	wildmon 32, KRABBY
-	wildmon 34, KRABBY
+	wildmon 32, RATTATA
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, GOLBAT
 	wildmon 34, GOLBAT
@@ -983,26 +983,26 @@
 	def_grass_wildmons WHIRL_ISLAND_NE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; day
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; nite
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
-	wildmon 32, KRABBY
-	wildmon 34, KRABBY
+	wildmon 32, RATTATA
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, GOLBAT
 	wildmon 34, GOLBAT
@@ -1011,26 +1011,26 @@
 	def_grass_wildmons WHIRL_ISLAND_SW
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; day
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; nite
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
-	wildmon 32, KRABBY
-	wildmon 34, KRABBY
+	wildmon 32, RATTATA
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, GOLBAT
 	wildmon 34, GOLBAT
@@ -1039,26 +1039,26 @@
 	def_grass_wildmons WHIRL_ISLAND_CAVE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; day
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; nite
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
-	wildmon 32, KRABBY
-	wildmon 34, KRABBY
+	wildmon 32, RATTATA
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, GOLBAT
 	wildmon 34, GOLBAT
@@ -1067,26 +1067,26 @@
 	def_grass_wildmons WHIRL_ISLAND_SE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; day
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	; nite
-	wildmon 32, KRABBY
+	wildmon 32, RATTATA
 	wildmon 33, ZUBAT
-	wildmon 32, KRABBY
-	wildmon 34, KRABBY
+	wildmon 32, RATTATA
+	wildmon 34, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 34, GOLBAT
 	wildmon 34, GOLBAT
@@ -1095,26 +1095,26 @@
 	def_grass_wildmons WHIRL_ISLAND_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 33, KRABBY
+	wildmon 33, RATTATA
 	wildmon 34, ZUBAT
 	wildmon 33, SEEL
-	wildmon 35, KRABBY
+	wildmon 35, RATTATA
 	wildmon 36, GOLBAT
 	wildmon 35, RATTATA
 	wildmon 35, RATTATA
 	; day
-	wildmon 33, KRABBY
+	wildmon 33, RATTATA
 	wildmon 34, ZUBAT
 	wildmon 33, SEEL
-	wildmon 35, KRABBY
+	wildmon 35, RATTATA
 	wildmon 36, GOLBAT
 	wildmon 35, RATTATA
 	wildmon 35, RATTATA
 	; nite
-	wildmon 33, KRABBY
+	wildmon 33, RATTATA
 	wildmon 34, ZUBAT
-	wildmon 33, KRABBY
-	wildmon 35, KRABBY
+	wildmon 33, RATTATA
+	wildmon 35, RATTATA
 	wildmon 36, GOLBAT
 	wildmon 35, GOLBAT
 	wildmon 35, GOLBAT
@@ -1123,26 +1123,26 @@
 	def_grass_wildmons WHIRL_ISLAND_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, ZUBAT
 	wildmon 34, SEEL
-	wildmon 36, KRABBY
+	wildmon 36, RATTATA
 	wildmon 37, GOLBAT
 	wildmon 36, RATTATA
 	wildmon 36, RATTATA
 	; day
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, ZUBAT
 	wildmon 34, SEEL
-	wildmon 36, KRABBY
+	wildmon 36, RATTATA
 	wildmon 37, GOLBAT
 	wildmon 36, RATTATA
 	wildmon 36, RATTATA
 	; nite
-	wildmon 34, KRABBY
+	wildmon 34, RATTATA
 	wildmon 35, ZUBAT
-	wildmon 34, KRABBY
-	wildmon 36, KRABBY
+	wildmon 34, RATTATA
+	wildmon 36, RATTATA
 	wildmon 37, GOLBAT
 	wildmon 36, GOLBAT
 	wildmon 36, GOLBAT
@@ -1151,26 +1151,26 @@
 	def_grass_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 35, KRABBY
+	wildmon 35, RATTATA
 	wildmon 36, ZUBAT
 	wildmon 35, SEEL
-	wildmon 37, KRABBY
+	wildmon 37, RATTATA
 	wildmon 38, GOLBAT
 	wildmon 37, RATTATA
 	wildmon 37, RATTATA
 	; day
-	wildmon 35, KRABBY
+	wildmon 35, RATTATA
 	wildmon 36, ZUBAT
 	wildmon 35, SEEL
-	wildmon 37, KRABBY
+	wildmon 37, RATTATA
 	wildmon 38, GOLBAT
 	wildmon 37, RATTATA
 	wildmon 37, RATTATA
 	; nite
-	wildmon 35, KRABBY
+	wildmon 35, RATTATA
 	wildmon 36, ZUBAT
-	wildmon 35, KRABBY
-	wildmon 37, KRABBY
+	wildmon 35, RATTATA
+	wildmon 37, RATTATA
 	wildmon 38, GOLBAT
 	wildmon 37, GOLBAT
 	wildmon 37, GOLBAT
@@ -1854,7 +1854,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 5, GEODUDE
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, KRABBY
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	wildmon LEVEL_FROM_BADGES - 6, WOOPER
 	wildmon LEVEL_FROM_BADGES - 4, GRAVELER
 	wildmon LEVEL_FROM_BADGES - 1, STEELIX
@@ -1862,14 +1862,14 @@
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 5, GEODUDE
 	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, KINGLER
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, QUAGSIRE
 	wildmon LEVEL_FROM_BADGES - 4, ONIX
 	wildmon LEVEL_FROM_BADGES - 1, STEELIX
 	; nite
 	wildmon LEVEL_FROM_BADGES - 6, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
-	wildmon LEVEL_FROM_BADGES - 2, KINGLER
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, ONIX
 	wildmon LEVEL_FROM_BADGES - 4, MISDREAVUS

@@ -65,8 +65,6 @@ PokedexDataPointerTable:
 	dba HaunterPokedexEntry
 	dba GengarPokedexEntry
 	dba OnixPokedexEntry
-	dba KrabbyPokedexEntry
-	dba KinglerPokedexEntry
 	dba VoltorbPokedexEntry
 	dba ElectrodePokedexEntry
 	dba ExeggcutePokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba DudunsparcePokedexEntry
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba AnnihilapePokedexEntry
 	dba SnivyPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba ServinePokedexEntry
 	dba SerperiorPokedexEntry
 	dba TepigPokedexEntry
@@ -297,6 +295,9 @@ PokedexDataPointerTable:
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry
 	dba SawkPokedexEntry
+	dba SewaddlePokedexEntry
+	dba SwadloonPokedexEntry
+	dba LeavannyPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

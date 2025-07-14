@@ -64,8 +64,6 @@ EvolutionMoves::
 	db SHADOW_CLAW  ; HAUNTER
 	db SHADOW_CLAW  ; GENGAR
 	db NO_MOVE      ; ONIX
-	db NO_MOVE      ; KRABBY
-	db NO_MOVE      ; KINGLER
 	db NO_MOVE      ; VOLTORB
 	db NO_MOVE      ; ELECTRODE
 	db NO_MOVE      ; EXEGGCUTE
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; DUDUNSPARCE
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db SHADOW_CLAW  ; ANNIHILAPE
 	db NO_MOVE      ; SNIVY
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SERVINE
 	db NO_MOVE      ; SERPERIOR
 	db NO_MOVE      ; TEPIG
@@ -300,6 +298,9 @@ endc
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH
 	db NO_MOVE      ; SAWK
+	db NO_MOVE      ; SEWADDLE
+	db PROTECT      ; SWADLOON
+	db SLASH        ; LEAVANNY
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

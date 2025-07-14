@@ -64,8 +64,6 @@ FootprintPointers::
 	dw HaunterFootprint
 	dw GengarFootprint
 	dw OnixFootprint
-	dw KrabbyFootprint
-	dw KinglerFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
 	dw ExeggcuteFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw DudunsparceFootprint
 	dw FarigirafFootprint
 	dw ClodsireFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw AnnihilapeFootprint
 	dw SnivyFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ServineFootprint
 	dw SerperiorFootprint
 	dw TepigFootprint
@@ -296,6 +294,9 @@ FootprintPointers::
 	dw SeismitoadFootprint
 	dw ThrohFootprint
 	dw SawkFootprint
+	dw SewaddleFootprint
+	dw SwadloonFootprint
+	dw LeavannyFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -16,8 +16,6 @@ HardenUsers:
 	dp MUK
 	dp ONIX
 	dp STEELIX
-	dp KRABBY
-	dp KINGLER
 	dp STARYU
 	dp STARMIE
 	dp KABUTO

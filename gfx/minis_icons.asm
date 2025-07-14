@@ -327,16 +327,6 @@ OnixMini::     INCBIN "gfx/minis/onix.2bpp.lz"
 OnixMiniMask:: INCBIN "gfx/minis/onix_mask.1bpp.lz"
 OnixIcon::     INCBIN "gfx/icons/onix.2bpp.lz"
 
-SECTION "Krabby Mini Icon", ROMX
-KrabbyMini::     INCBIN "gfx/minis/krabby.2bpp.lz"
-KrabbyMiniMask:: INCBIN "gfx/minis/krabby_mask.1bpp.lz"
-KrabbyIcon::     INCBIN "gfx/icons/krabby.2bpp.lz"
-
-SECTION "Kingler Mini Icon", ROMX
-KinglerMini::     INCBIN "gfx/minis/kingler.2bpp.lz"
-KinglerMiniMask:: INCBIN "gfx/minis/kingler_mask.1bpp.lz"
-KinglerIcon::     INCBIN "gfx/icons/kingler.2bpp.lz"
-
 SECTION "Voltorb Mini Icon", ROMX
 VoltorbMini::     INCBIN "gfx/minis/voltorb.2bpp.lz"
 VoltorbMiniMask:: INCBIN "gfx/minis/voltorb_mask.1bpp.lz"
@@ -1481,6 +1471,21 @@ SECTION "Sawk Mini Icon", ROMX
 SawkMini::     INCBIN "gfx/minis/sawk.2bpp.lz"
 SawkMiniMask:: INCBIN "gfx/minis/sawk_mask.1bpp.lz"
 SawkIcon::     INCBIN "gfx/icons/sawk.2bpp.lz"
+
+SECTION "Sewaddle Mini Icon", ROMX
+SewaddleMini::     INCBIN "gfx/minis/sewaddle.2bpp.lz"
+SewaddleMiniMask:: INCBIN "gfx/minis/sewaddle_mask.1bpp.lz"
+SewaddleIcon::     INCBIN "gfx/icons/sewaddle.2bpp.lz"
+
+SECTION "Swadloon Mini Icon", ROMX
+SwadloonMini::     INCBIN "gfx/minis/swadloon.2bpp.lz"
+SwadloonMiniMask:: INCBIN "gfx/minis/swadloon_mask.1bpp.lz"
+SwadloonIcon::     INCBIN "gfx/icons/swadloon.2bpp.lz"
+
+SECTION "Leavanny Mini Icon", ROMX
+LeavannyMini::     INCBIN "gfx/minis/leavanny.2bpp.lz"
+LeavannyMiniMask:: INCBIN "gfx/minis/leavanny_mask.1bpp.lz"
+LeavannyIcon::     INCBIN "gfx/icons/leavanny.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

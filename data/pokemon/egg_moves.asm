@@ -387,16 +387,6 @@ OnixEggSpeciesMoves:
 	db ROCK_BLAST
 	db $ff
 
-KrabbyEggSpeciesMoves:
-	dp KRABBY, PLAIN_FORM
-	db AGILITY
-	db HAZE
-	db AMNESIA
-	db DIG
-	db CALM_MIND
-	db KNOCK_OFF
-	db $ff
-
 VoltorbPlainEggSpeciesMoves:
 	dp VOLTORB, PLAIN_FORM
 	db $ff
@@ -1246,6 +1236,14 @@ ThrohEggSpeciesMoves:
 
 SawkEggSpeciesMoves:
 	dp SAWK, PLAIN_FORM
+	db $ff
+
+SewaddleEggSpeciesMoves:
+	dp SEWADDLE, PLAIN_FORM
+	db AGILITY
+	db AIR_SLASH
+	;db LOCK_ON
+	db SCREECH
 	db $ff
 
 NoEggSpeciesMoves:

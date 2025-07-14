@@ -646,26 +646,6 @@ OnixPokedexEntry::
 	next "what makes its"
 	next "body so solid.@"
 
-SECTION "KrabbyPokedexEntry", ROMX
-KrabbyPokedexEntry::
-	db "River Crab@"
-	db   "If it is unable"
-	next "to find food, it"
-	next "will absorb"
-	page "nutrients by"
-	next "swallowing a"
-	next "mouthful of sand.@"
-
-SECTION "KinglerPokedexEntry", ROMX
-KinglerPokedexEntry::
-	db "Pincer@"
-	db   "Its oversized claw"
-	next "is very powerful,"
-	next "but when it's not"
-	page "in battle, the"
-	next "claw just gets in"
-	next "the way.@"
-
 SECTION "VoltorbPokedexEntry", ROMX
 VoltorbPokedexEntry::
 	db "Ball@"
@@ -2939,6 +2919,36 @@ SawkPokedexEntry::
 	page "way down from the"
 	next "mountains where"
 	next "they train.@"
+
+SECTION "SewaddlePokedexEntry", ROMX
+SewaddlePokedexEntry::
+	db "Sewing@"
+	db "It chews up"
+	next "leaves and sews"
+	next "them with sticky"
+	page "thread that it"
+	next "extrudes from its"
+	next "mouth.@"
+
+SECTION "SwadloonPokedexEntry", ROMX
+SwadloonPokedexEntry::
+	db "Leaf Wrapped@"
+	db "It protects from"
+	next "the cold by"
+	next "wrapping up in"
+	page "leaves. It stays"
+	next "on the move"
+	next "in forests.@"
+
+SECTION "LeavannyPokedexEntry", ROMX
+LeavannyPokedexEntry::
+	db "Nurturing@"
+	db "It keeps its eggs"
+	next "warm with heat"
+	next "from its leaves."
+	page "It also uses them"
+	next "to make warm wraps"
+	next "for Sewaddle.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
