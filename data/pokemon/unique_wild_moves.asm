@@ -69,7 +69,6 @@ UniqueWildMoves:
 	unique_moves BEAUTIFUL_BEACH,  0,          0
 	unique_moves ROCKY_BEACH,      DONPHAN,    LOW_KICK     ; HGSS tutor move
 	unique_moves NOISY_FOREST,     PINECO,     PAIN_SPLIT   ; HGSS tutor move
-	unique_moves SHRINE_RUINS,     HYPNO,      METRONOME    ; RBY TM move
 	unique_moves SHAMOUTI_TUNNEL,  GOLBAT,     OUTRAGE      ; Prism tutor move
 	unique_moves WARM_BEACH,       SEADRA,     FLAMETHROWER ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0

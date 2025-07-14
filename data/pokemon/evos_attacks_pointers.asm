@@ -68,8 +68,6 @@ EvosAttacksPointers::
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
 	dw OnixEvosAttacks
-	dw DrowzeeEvosAttacks
-	dw HypnoEvosAttacks
 	dw KrabbyEvosAttacks
 	dw KinglerEvosAttacks
 	dw VoltorbPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw SneaslerEvosAttacks
 	dw OverqwilEvosAttacks
 	dw DudunsparceEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw AnnihilapeEvosAttacks
 	dw SnivyEvosAttacks
 	dw ServineEvosAttacks

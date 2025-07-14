@@ -65,8 +65,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  25,  44 ; Haunter
 	db  45, 100 ; Gengar
 	db   1, 100 ; Onix
-	db   1,  25 ; Drowzee
-	db  26, 100 ; Hypno
 	db   1,  27 ; Krabby
 	db  28, 100 ; Kingler
 	db   1,  29 ; Voltorb
@@ -259,10 +257,10 @@ endc
 	db  40, 100 ; Sneasler
 	db  33, 100 ; Overqwil
 	db  32, 100 ; Dudunsparce
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  56, 100 ; Annihilape
 	db   1,  16 ; Snivy
 	db  17,  35 ; Servine

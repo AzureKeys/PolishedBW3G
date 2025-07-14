@@ -64,8 +64,6 @@ EggSpeciesMovesPointers::
 	dw GastlyEggSpeciesMoves            ; Haunter
 	dw GastlyEggSpeciesMoves            ; Gengar
 	dw OnixEggSpeciesMoves              ; Onix
-	dw DrowzeeEggSpeciesMoves           ; Drowzee
-	dw DrowzeeEggSpeciesMoves           ; Hypno
 	dw KrabbyEggSpeciesMoves            ; Krabby
 	dw KrabbyEggSpeciesMoves            ; Kingler
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SnivyEggSpeciesMoves             ; Snivy
 	dw SnivyEggSpeciesMoves             ; Servine

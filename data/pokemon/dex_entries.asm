@@ -646,26 +646,6 @@ OnixPokedexEntry::
 	next "what makes its"
 	next "body so solid.@"
 
-SECTION "DrowzeePokedexEntry", ROMX
-DrowzeePokedexEntry::
-	db "Hypnosis@"
-	db   "When it twitches"
-	next "its nose, it can"
-	next "tell where someone"
-	page "is sleeping and"
-	next "what that person"
-	next "is dreaming about.@"
-
-SECTION "HypnoPokedexEntry", ROMX
-HypnoPokedexEntry::
-	db "Hypnosis@"
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
-
 SECTION "KrabbyPokedexEntry", ROMX
 KrabbyPokedexEntry::
 	db "River Crab@"

@@ -64,8 +64,6 @@ AnimationExtraPointers:
 	dw HaunterAnimationExtra
 	dw GengarAnimationExtra
 	dw OnixAnimationExtra
-	dw DrowzeeAnimationExtra
-	dw HypnoAnimationExtra
 	dw KrabbyAnimationExtra
 	dw KinglerAnimationExtra
 	dw VoltorbPlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw SneaslerAnimationExtra
 	dw OverqwilAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw AnnihilapeAnimationExtra
 	dw SnivyAnimationExtra
 	dw ServineAnimationExtra

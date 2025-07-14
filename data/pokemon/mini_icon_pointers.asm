@@ -68,8 +68,6 @@ MiniIconPointers:
 	mini_icon Haunter
 	mini_icon Gengar
 	mini_icon Onix
-	mini_icon Drowzee
-	mini_icon Hypno
 	mini_icon Krabby
 	mini_icon Kingler
 	mini_icon Voltorb
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Sneasler
 	mini_icon Overqwil
 	mini_icon DudunsparceTwoSegment
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Farigiraf
 	mini_icon Clodsire
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Annihilape
 	mini_icon Snivy
 	mini_icon Servine

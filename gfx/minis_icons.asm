@@ -327,16 +327,6 @@ OnixMini::     INCBIN "gfx/minis/onix.2bpp.lz"
 OnixMiniMask:: INCBIN "gfx/minis/onix_mask.1bpp.lz"
 OnixIcon::     INCBIN "gfx/icons/onix.2bpp.lz"
 
-SECTION "Drowzee Mini Icon", ROMX
-DrowzeeMini::     INCBIN "gfx/minis/drowzee.2bpp.lz"
-DrowzeeMiniMask:: INCBIN "gfx/minis/drowzee_mask.1bpp.lz"
-DrowzeeIcon::     INCBIN "gfx/icons/drowzee.2bpp.lz"
-
-SECTION "Hypno Mini Icon", ROMX
-HypnoMini::     INCBIN "gfx/minis/hypno.2bpp.lz"
-HypnoMiniMask:: INCBIN "gfx/minis/hypno_mask.1bpp.lz"
-HypnoIcon::     INCBIN "gfx/icons/hypno.2bpp.lz"
-
 SECTION "Krabby Mini Icon", ROMX
 KrabbyMini::     INCBIN "gfx/minis/krabby.2bpp.lz"
 KrabbyMiniMask:: INCBIN "gfx/minis/krabby_mask.1bpp.lz"

@@ -64,8 +64,6 @@ BitmasksPointers:
 	dw HaunterBitmasks
 	dw GengarBitmasks
 	dw OnixBitmasks
-	dw DrowzeeBitmasks
-	dw HypnoBitmasks
 	dw KrabbyBitmasks
 	dw KinglerBitmasks
 	dw VoltorbPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
 	dw DudunsparceTwoSegmentBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw AnnihilapeBitmasks
 	dw SnivyBitmasks
 	dw ServineBitmasks

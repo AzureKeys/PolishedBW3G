@@ -524,7 +524,7 @@
 	wildmon 47, WIGGLYTUFF
 	; nite
 	wildmon 45, PERSIAN
-	wildmon 45, HYPNO
+	wildmon 45, RATTATA
 	wildmon 46, MAGNETON
 	wildmon 47, PSYDUCK
 	wildmon 50, JIGGLYPUFF
@@ -663,13 +663,13 @@
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
 	; nite
-	wildmon 53, DROWZEE
+	wildmon 53, RATTATA
 	wildmon 48, MEOWTH
 	wildmon 50, MAGNEMITE
 	wildmon 51, NOCTOWL
 	wildmon 51, RATICATE
-	wildmon 51, HYPNO
-	wildmon 51, HYPNO
+	wildmon 51, RATTATA
+	wildmon 51, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_12_SOUTH

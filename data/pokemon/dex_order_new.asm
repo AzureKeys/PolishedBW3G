@@ -109,8 +109,6 @@ NewPokedexOrder:
 	dp SLOWPOKE
 	dp SLOWBRO
 	dp SLOWKING
-	dp DROWZEE
-	dp HYPNO
 	dp DITTO
 	dp PINECO
 	dp FORRETRESS

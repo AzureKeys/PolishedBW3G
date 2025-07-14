@@ -899,7 +899,7 @@ SabrinaGroup:
 	tr_mon 60, MR__MIME
 		tr_evs 252 HP, 68 Spe
 		tr_moves BARRIER, REFLECT, BATON_PASS, PSYCHIC_M
-	tr_mon 59, HYPNO
+	tr_mon 59, RATTATA
 		tr_evs 252 HP, 68 SAt
 		tr_moves HYPNOSIS, DREAM_EATER, NASTY_PLOT, PSYCHIC_M
 	tr_mon 58, WOBBUFFET
@@ -917,7 +917,7 @@ SabrinaGroup:
 		tr_moves PSYCHIC_M, DAZZLINGLEAM, NASTY_PLOT, ENCORE
 	tr_mon 73, FARIGIRAF @ BRIGHTPOWDER
 		tr_moves NASTY_PLOT, SHADOW_BALL, HYPER_VOICE, PSYCHIC_M
-	tr_mon 72, HYPNO @ TWISTEDSPOON
+	tr_mon 72, RATTATA @ TWISTEDSPOON
 		tr_moves NASTY_PLOT, PSYCHIC_M, HYPNOSIS, FUTURE_SIGHT
 	tr_mon 74, SLOWKING @ KINGS_ROCK
 		tr_moves THUNDER_WAVE, NASTY_PLOT, SCALD, PSYCHIC_M
@@ -1137,7 +1137,7 @@ Rival1Group:
 	tr_mon 18, MAGNEMITE
 		tr_evs 104 Spe
 		tr_moves TACKLE, THUNDERSHOCK, SUPERSONIC, SONIC_BOOM
-	tr_mon 19, DROWZEE
+	tr_mon 19, RATTATA
 		tr_evs 104 Spe
 		tr_moves HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
 	tr_mon 20, ZUBAT
@@ -1155,7 +1155,7 @@ Rival1Group:
 	tr_mon 18, MAGNEMITE
 		tr_evs 104 Spe
 		tr_moves TACKLE, THUNDERSHOCK, SUPERSONIC, SONIC_BOOM
-	tr_mon 19, DROWZEE
+	tr_mon 19, RATTATA
 		tr_evs 104 Spe
 		tr_moves HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
 	tr_mon 20, ZUBAT
@@ -1173,7 +1173,7 @@ Rival1Group:
 	tr_mon 18, MAGNEMITE
 		tr_evs 104 Spe
 		tr_moves TACKLE, THUNDERSHOCK, SUPERSONIC, SONIC_BOOM
-	tr_mon 19, DROWZEE
+	tr_mon 19, RATTATA
 		tr_evs 104 Spe
 		tr_moves HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
 	tr_mon 20, ZUBAT
@@ -2071,7 +2071,7 @@ endc
 	end_trainer
 
 	def_trainer PIPER, "Piper"
-	tr_mon 55, HYPNO
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer GINGER, "Ginger"
@@ -2896,7 +2896,7 @@ GruntMGroup:
 	end_trainer
 
 	def_trainer 21, "Grunt"
-	tr_mon 26, DROWZEE
+	tr_mon 26, RATTATA
 	tr_mon 27, ZUBAT
 	tr_mon 28, HAUNTER
 	end_trainer
@@ -4096,7 +4096,7 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer GREG, "Greg"
-	tr_mon 17, DROWZEE
+	tr_mon 17, RATTATA
 		tr_moves HYPNOSIS, DISABLE, DREAM_EATER
 	end_trainer
 
@@ -4138,13 +4138,13 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer RODNEY, "Rodney"
-	tr_mon 45, DROWZEE
-	tr_mon 47, HYPNO
+	tr_mon 45, RATTATA
+	tr_mon 47, RATTATA
 	end_trainer
 
 	def_trainer LEON, "Leon"
 	tr_mon 54, NOCTOWL
-	tr_mon 55, HYPNO
+	tr_mon 55, RATTATA
 	tr_mon 53, GIRAFARIG
 	end_trainer
 
@@ -4188,9 +4188,9 @@ HexManiacGroup:
 	end_trainer
 
 	def_trainer NATALIE, "Natalie"
-	tr_mon 54, DROWZEE
-	tr_mon 54, DROWZEE
-	tr_mon 56, HYPNO
+	tr_mon 54, RATTATA
+	tr_mon 54, RATTATA
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer VIVIAN, "Vivian"
@@ -4206,9 +4206,9 @@ HexManiacGroup:
 	end_trainer
 
 	def_trainer MATILDA, "Matilda"
-	tr_mon LEVEL_FROM_BADGES + 3, DROWZEE
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, MISDREAVUS
-	tr_mon LEVEL_FROM_BADGES + 5, HYPNO
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
 	def_trainer BETHANY, "Bethany"
@@ -4289,8 +4289,8 @@ MediumGroup:
 	end_trainer
 
 	def_trainer REBECCA, "Rebecca"
-	tr_mon 54, DROWZEE
-	tr_mon 54, HYPNO
+	tr_mon 54, RATTATA
+	tr_mon 54, RATTATA
 	end_trainer
 
 	def_trainer DORIS, "Doris"
@@ -6148,7 +6148,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer KIERAN, "Kieran"
-	tr_mon 52, HYPNO
+	tr_mon 52, RATTATA
 	tr_mon 53, RHYHORN
 	tr_mon 55, PRIMEAPE
 	end_trainer
@@ -6885,8 +6885,8 @@ MysticalmanGroup:
 
 	def_trainer_class MYSTICALMAN
 	def_trainer EUSINE, "Eusine"
-	tr_mon 27, DROWZEE @ EVIOLITE, MALE
-		tr_extra INSOMNIA
+	tr_mon 27, RATTATA @ EVIOLITE, MALE
+		tr_extra HUSTLE
 		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
 	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
 		tr_extra LEVITATE
@@ -7366,7 +7366,7 @@ CaitlinGroup:
 	tr_mon 57, STARMIE
 	tr_mon 56, JYNX
 	tr_mon 58, RATTATA
-	tr_mon 60, HYPNO
+	tr_mon 60, RATTATA
 	end_trainer
 
 
@@ -7791,7 +7791,7 @@ ImakuniGroup:
 	def_trainer 1, "Imakuni"
 	tr_mon 62, GOLDUCK @ BRIGHTPOWDER
 	tr_mon 62, SLOWBRO @ TWISTEDSPOON
-	tr_mon 63, HYPNO @ QUICK_CLAW
+	tr_mon 63, RATTATA @ QUICK_CLAW
 	tr_mon 61, FARFETCH_D @ LEEK
 	tr_mon 61, RATTATA @ SHARP_BEAK
 	tr_mon 64, WOBBUFFET @ LEFTOVERS

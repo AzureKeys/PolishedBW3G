@@ -64,8 +64,6 @@ FootprintPointers::
 	dw HaunterFootprint
 	dw GengarFootprint
 	dw OnixFootprint
-	dw DrowzeeFootprint
-	dw HypnoFootprint
 	dw KrabbyFootprint
 	dw KinglerFootprint
 	dw VoltorbFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw SneaslerFootprint
 	dw OverqwilFootprint
 	dw DudunsparceFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw FarigirafFootprint
 	dw ClodsireFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw AnnihilapeFootprint
 	dw SnivyFootprint
 	dw ServineFootprint

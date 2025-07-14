@@ -1618,45 +1618,6 @@ endc
 	learnset 49, DOUBLE_EDGE
 	learnset 52, EARTHQUAKE ; Sandstorm → TM move
 
-	evos_attacks Drowzee
-	evo_data EVOLVE_LEVEL, 26, HYPNO
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, HYPNOSIS
-	learnset 5, DISABLE
-	learnset 9, CONFUSION
-	learnset 13, HEADBUTT
-	learnset 17, LOW_KICK ; Poison Gas → HGSS tutor move
-	learnset 21, CALM_MIND ; Meditate → TM move
-	learnset 25, PSYBEAM
-	learnset 29, TRI_ATTACK ; Wake-Up Slap → RBY TM move
-	learnset 33, BARRIER ; Psych Up → egg move
-	learnset 37, BELLY_DRUM ; Synchronoise → event move
-	learnset 41, ZEN_HEADBUTT
-	learnset 45, SWAGGER
-	learnset 49, PSYCHIC_M
-	learnset 53, NASTY_PLOT
-	learnset 57, TOXIC ; Psyshock → TM move
-	learnset 61, FUTURE_SIGHT
-
-	evos_attacks Hypno
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, HYPNOSIS
-	learnset 5, DISABLE
-	learnset 9, CONFUSION
-	learnset 13, HEADBUTT
-	learnset 17, LOW_KICK ; Poison Gas → HGSS tutor move
-	learnset 21, CALM_MIND ; Meditate → TM move
-	learnset 25, PSYBEAM
-	learnset 29, TRI_ATTACK ; Wake-Up Slap → RBY TM move
-	learnset 33, BARRIER ; Psych Up → egg move
-	learnset 37, BELLY_DRUM ; Synchronoise → event move
-	learnset 41, ZEN_HEADBUTT
-	learnset 45, SWAGGER
-	learnset 49, PSYCHIC_M
-	learnset 53, NASTY_PLOT
-	learnset 57, TOXIC ; Psyshock → TM move
-	learnset 61, FUTURE_SIGHT
-
 	evos_attacks Krabby
 	evo_data EVOLVE_LEVEL, 28, KINGLER
 	learnset 1, AQUA_JET ; Bubble → new move

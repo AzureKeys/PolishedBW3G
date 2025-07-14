@@ -49,7 +49,6 @@ AlphabeticalPokedexOrder:
 	dp DRAGONITE
 	dp DRATINI
 	dp DRILBUR
-	dp DROWZEE
 	dp DUDUNSPARCE
 	dp DUGTRIO
 	dp DUNSPARCE
@@ -104,7 +103,6 @@ AlphabeticalPokedexOrder:
 	dp HORSEA
 	dp HOUNDOOM
 	dp HOUNDOUR
-	dp HYPNO
 	dp IGGLYBUFF
 	dp IVYSAUR
 	dp JIGGLYPUFF

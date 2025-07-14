@@ -1503,7 +1503,7 @@
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; nite
-	wildmon 12, DROWZEE
+	wildmon 12, RATTATA
 	wildmon 12, RATTATA, ALOLAN_FORM
 	wildmon 13, HOOTHOOT
 	wildmon 10, RATTATA
@@ -1531,7 +1531,7 @@
 	wildmon 10, DITTO
 	wildmon 13, YANMA
 	; nite
-	wildmon 13, DROWZEE
+	wildmon 13, RATTATA
 	wildmon 14, HOOTHOOT
 	wildmon 14, PSYDUCK
 	wildmon 14, HOOTHOOT

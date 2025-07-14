@@ -71,8 +71,6 @@ PokemonBodyData:
 	body_data  16,    1, HEAD_ARMS,    PURPLE ; HAUNTER
 	body_data  15,  405, BIPEDAL_TAIL, PURPLE ; GENGAR
 	body_data  88, 2100, SERPENTINE,   GRAY   ; ONIX
-	body_data  10,  324, BIPEDAL,      YELLOW ; DROWZEE
-	body_data  16,  756, BIPEDAL,      YELLOW ; HYPNO
 	body_data   4,   65, INSECTOID,    RED    ; KRABBY
 	body_data  13,  600, INSECTOID,    RED    ; KINGLER
 	body_data   5,  104, HEAD,         RED    ; VOLTORB
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE

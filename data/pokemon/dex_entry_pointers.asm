@@ -65,8 +65,6 @@ PokedexDataPointerTable:
 	dba HaunterPokedexEntry
 	dba GengarPokedexEntry
 	dba OnixPokedexEntry
-	dba DrowzeePokedexEntry
-	dba HypnoPokedexEntry
 	dba KrabbyPokedexEntry
 	dba KinglerPokedexEntry
 	dba VoltorbPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba SneaslerPokedexEntry
 	dba OverqwilPokedexEntry
 	dba DudunsparcePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba AnnihilapePokedexEntry
 	dba SnivyPokedexEntry
 	dba ServinePokedexEntry

@@ -64,8 +64,6 @@ AnimationPointers:
 	dw HaunterAnimation
 	dw GengarAnimation
 	dw OnixAnimation
-	dw DrowzeeAnimation
-	dw HypnoAnimation
 	dw KrabbyAnimation
 	dw KinglerAnimation
 	dw VoltorbPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw SneaslerAnimation
 	dw OverqwilAnimation
 	dw DudunsparceTwoSegmentAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw FarigirafAnimation
 	dw ClodsireAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw AnnihilapeAnimation
 	dw SnivyAnimation
 	dw ServineAnimation

@@ -172,14 +172,6 @@ SECTION "Onix Pics", ROMX
 OnixFrontpic: INCBIN "gfx/pokemon/onix/front.animated.2bpp.lz"
 OnixBackpic:  INCBIN "gfx/pokemon/onix/back.2bpp.lz"
 
-SECTION "Drowzee Pics", ROMX
-DrowzeeFrontpic: INCBIN "gfx/pokemon/drowzee/front.animated.2bpp.lz"
-DrowzeeBackpic:  INCBIN "gfx/pokemon/drowzee/back.2bpp.lz"
-
-SECTION "Hypno Pics", ROMX
-HypnoFrontpic: INCBIN "gfx/pokemon/hypno/front.animated.2bpp.lz"
-HypnoBackpic:  INCBIN "gfx/pokemon/hypno/back.2bpp.lz"
-
 SECTION "Krabby Pics", ROMX
 KrabbyFrontpic: INCBIN "gfx/pokemon/krabby/front.animated.2bpp.lz"
 KrabbyBackpic:  INCBIN "gfx/pokemon/krabby/back.2bpp.lz"

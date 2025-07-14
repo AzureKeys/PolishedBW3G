@@ -387,13 +387,6 @@ OnixEggSpeciesMoves:
 	db ROCK_BLAST
 	db $ff
 
-DrowzeeEggSpeciesMoves:
-	dp DROWZEE, PLAIN_FORM
-	db BARRIER
-	db LIGHT_SCREEN
-	db BELLY_DRUM
-	db $ff
-
 KrabbyEggSpeciesMoves:
 	dp KRABBY, PLAIN_FORM
 	db AGILITY

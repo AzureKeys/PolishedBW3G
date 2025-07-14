@@ -88,8 +88,6 @@
 	const HAUNTER    ; 5d
 	const GENGAR     ; 5e
 	const ONIX       ; 5f
-	const DROWZEE    ; 60
-	const HYPNO      ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64
@@ -278,10 +276,10 @@
 	const SNEASLER   ; 11e
 	const OVERQWIL   ; 11f
 	const DUDUNSPARCE ; 120
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const ANNIHILAPE ; 123
 	const SNIVY      ; 124
 	const SERVINE    ; 125

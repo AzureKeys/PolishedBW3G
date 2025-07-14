@@ -64,8 +64,6 @@ EvolutionMoves::
 	db SHADOW_CLAW  ; HAUNTER
 	db SHADOW_CLAW  ; GENGAR
 	db NO_MOVE      ; ONIX
-	db NO_MOVE      ; DROWZEE
-	db NO_MOVE      ; HYPNO
 	db NO_MOVE      ; KRABBY
 	db NO_MOVE      ; KINGLER
 	db NO_MOVE      ; VOLTORB
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db SHADOW_CLAW  ; ANNIHILAPE
 	db NO_MOVE      ; SNIVY
 	db NO_MOVE      ; SERVINE

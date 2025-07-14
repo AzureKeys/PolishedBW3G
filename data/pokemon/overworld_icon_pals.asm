@@ -68,8 +68,6 @@ OverworldMonIconColors::
 	iconpal PURPLE, BLUE ; HAUNTER
 	iconpal PURPLE, BLUE ; GENGAR
 	iconpal GRAY, AZURE ; ONIX
-	iconpal BROWN, PURPLE ; DROWZEE
-	iconpal BROWN, PURPLE ; HYPNO
 	iconpal ORANGE, BLUE ; KRABBY
 	iconpal ORANGE, BLUE ; KINGLER
 	iconpal RED, BLUE ; VOLTORB
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; SNEASLER
 	iconpal PURPLE, BLUE ; OVERQWIL
 	iconpal AZURE, RED ; DUDUNSPARCE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal GREEN, BLUE ; SNIVY
 	iconpal GREEN, BLUE ; SERVINE

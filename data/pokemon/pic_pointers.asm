@@ -68,8 +68,6 @@ PokemonPicPointers::
 	pics Haunter
 	pics Gengar
 	pics Onix
-	pics Drowzee
-	pics Hypno
 	pics Krabby
 	pics Kingler
 	pics VoltorbPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Sneasler
 	pics Overqwil
 	pics DudunsparceTwoSegment
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Farigiraf
 	pics Clodsire
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Annihilape
 	pics Snivy
 	pics Servine

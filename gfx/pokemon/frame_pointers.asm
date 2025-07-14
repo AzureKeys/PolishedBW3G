@@ -64,8 +64,6 @@ FramesPointers:
 	dw HaunterFrames
 	dw GengarFrames
 	dw OnixFrames
-	dw DrowzeeFrames
-	dw HypnoFrames
 	dw KrabbyFrames
 	dw KinglerFrames
 	dw VoltorbPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw SneaslerFrames
 	dw OverqwilFrames
 	dw DudunsparceTwoSegmentFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw FarigirafFrames
 	dw ClodsireFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw AnnihilapeFrames
 	dw SnivyFrames
 	dw ServineFrames
