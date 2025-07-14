@@ -566,26 +566,6 @@ FarfetchDPlainPokedexEntry::
 	next "an effort to breed"
 	next "these #mon.@"
 
-SECTION "DoduoPokedexEntry", ROMX
-DoduoPokedexEntry::
-	db "Twin Bird@"
-	db   "By alternately"
-	next "raising and lower-"
-	next "ing its two heads,"
-	page "it balances itself"
-	next "to be more stable"
-	next "while running.@"
-
-SECTION "DodrioPokedexEntry", ROMX
-DodrioPokedexEntry::
-	db "Triple Bird@"
-	db   "An enemy that"
-	next "takes its eyes off"
-	next "any of the three"
-	page "heads--even for a"
-	next "second--will get"
-	next "pecked severely.@"
-
 SECTION "SeelPokedexEntry", ROMX
 SeelPokedexEntry::
 	db "Sea Lion@"

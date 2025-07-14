@@ -98,7 +98,7 @@ FalknerGroup:
 		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	tr_mon 70, GLISCOR @ SCOPE_LENS
 		tr_moves SWORDS_DANCE, EARTHQUAKE, X_SCISSOR, NIGHT_SLASH
-	tr_mon 72, DODRIO @ SILK_SCARF
+	tr_mon 72, RATTATA @ SILK_SCARF
 		tr_moves DRILL_PECK, BULLDOZE, PURSUIT, BRAVE_BIRD
 	tr_mon 70, TOGEKISS @ LEFTOVERS
 		tr_moves ANCIENTPOWER, HURRICANE, NASTY_PLOT, FRESH_SNACK
@@ -1912,7 +1912,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer AMOS, "Amos"
-	tr_mon LEVEL_FROM_BADGES + 8, DODRIO
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINO
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINA
 	tr_mon LEVEL_FROM_BADGES + 9, TAUROS
@@ -2451,9 +2451,9 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer TOBY, "Toby"
-	tr_mon 16, DODUO
-	tr_mon 17, DODUO
-	tr_mon 18, DODUO
+	tr_mon 16, RATTATA
+	tr_mon 17, RATTATA
+	tr_mon 18, RATTATA
 	end_trainer
 
 	def_trainer DENIS, "Denis"
@@ -2473,9 +2473,9 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer BORIS, "Boris"
-	tr_mon 56, DODUO
-	tr_mon 55, DODUO
-	tr_mon 58, DODRIO
+	tr_mon 56, RATTATA
+	tr_mon 55, RATTATA
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer BOB, "Bob"
@@ -2533,12 +2533,12 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer BIRD_KEEPER_JOSH, "Josh"
-	tr_mon 55, DODRIO
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer BERT, "Bert"
 	tr_mon 60, SKARMORY
-	tr_mon 57, DODRIO
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer ERNIE, "Ernie"
@@ -2547,15 +2547,15 @@ BirdKeeperGroup:
 
 	def_trainer KINSLEY, "Kinsey" ; MISMATCH
 	tr_mon 58, FARFETCH_D
-	tr_mon 58, DODRIO
+	tr_mon 58, RATTATA
 	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer EASTON, "Easton"
-	tr_mon 57, DODUO
-	tr_mon 57, DODUO
-	tr_mon 59, DODRIO
-	tr_mon 59, DODRIO
+	tr_mon 57, RATTATA
+	tr_mon 57, RATTATA
+	tr_mon 59, RATTATA
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer BRYAN, "Bryan"
@@ -6806,8 +6806,8 @@ ProfOakGroup:
 	tr_mon 78, TAUROS @ CHOICE_SCARF, MALE
 		tr_extra INTIMIDATE, ATK_UP_SATK_DOWN
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, ZEN_HEADBUTT, STONE_EDGE
-	tr_mon 76, DODRIO @ BERSERK_GENE, FEMALE
-		tr_extra TANGLED_FEET, ATK_UP_SATK_DOWN
+	tr_mon 76, RATTATA @ BERSERK_GENE, FEMALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves BRAVE_BIRD, HI_JUMP_KICK, KNOCK_OFF, QUICK_ATTACK
 	tr_mon 80, VENUSAUR @ BIG_ROOT, FEMALE
 		tr_extra THICK_FAT, SDEF_UP_ATK_DOWN
@@ -7705,8 +7705,8 @@ YellowGroup:
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 240 Spe
 		tr_moves BUG_BUZZ, SUPERSONIC, STUN_SPORE, PSYCHIC_M
-	tr_mon LEVEL_FROM_BADGES + 6, "Dody", DODUO, FEMALE
-		tr_extra TANGLED_FEET, SPE_UP_DEF_DOWN
+	tr_mon LEVEL_FROM_BADGES + 6, "Dody", RATTATA, FEMALE
+		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_evs 240 Spe
 		tr_moves SWORDS_DANCE, ACROBATICS, RETURN, MUD_SLAP
 	tr_mon LEVEL_FROM_BADGES + 5, "Gravvy", GRAVELER @ EVIOLITE, FEMALE
@@ -7733,8 +7733,8 @@ YellowGroup:
 	tr_mon 71, "Free", RATTATA @ BRIGHTPOWDER, FEMALE
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_moves PSYCHIC_M, BUG_BUZZ, SLEEP_POWDER, STUN_SPORE
-	tr_mon 74, "Dody", DODRIO @ SHARP_BEAK, FEMALE
-		tr_extra TANGLED_FEET, SPE_UP_DEF_DOWN
+	tr_mon 74, "Dody", RATTATA @ SHARP_BEAK, FEMALE
+		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_moves DRILL_PECK, TRI_ATTACK, DOUBLE_TEAM, PURSUIT
 	tr_mon 73, "Gravvy", GOLEM @ MUSCLE_BAND, FEMALE
 		tr_extra STURDY, ATK_UP_SATK_DOWN
@@ -7793,7 +7793,7 @@ ImakuniGroup:
 	tr_mon 62, SLOWBRO @ TWISTEDSPOON
 	tr_mon 63, HYPNO @ QUICK_CLAW
 	tr_mon 61, FARFETCH_D @ LEEK
-	tr_mon 61, DODRIO @ SHARP_BEAK
+	tr_mon 61, RATTATA @ SHARP_BEAK
 	tr_mon 64, WOBBUFFET @ LEFTOVERS
 	end_trainer
 

@@ -56,8 +56,6 @@ FramesPointers:
 	dw MagnemiteFrames
 	dw MagnetonFrames
 	dw FarfetchDPlainFrames
-	dw DoduoFrames
-	dw DodrioFrames
 	dw SeelFrames
 	dw DewgongFrames
 	dw GrimerPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw MrRimeFrames
 	dw WyrdeerFrames
 	dw KleavorFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw UrsalunaPlainFrames
 	dw SneaslerFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw OverqwilFrames
 	dw DudunsparceTwoSegmentFrames
 	dw FarigirafFrames

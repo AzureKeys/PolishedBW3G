@@ -60,8 +60,6 @@ PokemonPicPointers::
 	pics Magnemite
 	pics Magneton
 	pics FarfetchDPlain
-	pics Doduo
-	pics Dodrio
 	pics Seel
 	pics Dewgong
 	pics GrimerPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics MrRime
 	pics Wyrdeer
 	pics Kleavor
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics UrsalunaPlain
 	pics Sneasler
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Overqwil
 	pics DudunsparceTwoSegment
 	pics Farigiraf

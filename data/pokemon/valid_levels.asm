@@ -57,8 +57,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  29 ; Magnemite
 	db  30,  49 ; Magneton
 	db   1,  20 ; Farfetch'd
-	db   1,  30 ; Doduo
-	db  31, 100 ; Dodrio
 	db   1,  33 ; Seel
 	db  34, 100 ; Dewgong
 	db   1,  37 ; Grimer
@@ -259,10 +257,10 @@ endc
 	db  42, 100 ; Mr. Rime
 	db  30, 100 ; Wyrdeer
 	db  20, 100 ; Kleavor
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  33, 100 ; Overqwil
 	db  32, 100 ; Dudunsparce
 	db  32, 100 ; Farigiraf

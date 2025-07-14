@@ -56,8 +56,6 @@ BitmasksPointers:
 	dw MagnemiteBitmasks
 	dw MagnetonBitmasks
 	dw FarfetchDPlainBitmasks
-	dw DoduoBitmasks
-	dw DodrioBitmasks
 	dw SeelBitmasks
 	dw DewgongBitmasks
 	dw GrimerPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw MrRimeBitmasks
 	dw WyrdeerBitmasks
 	dw KleavorBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw UrsalunaPlainBitmasks
 	dw SneaslerBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw OverqwilBitmasks
 	dw DudunsparceTwoSegmentBitmasks
 	dw FarigirafBitmasks

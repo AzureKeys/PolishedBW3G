@@ -1883,7 +1883,7 @@
 	wildmon 70, PONYTA
 	wildmon 71, ARBOK ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
-	wildmon 73, DODRIO
+	wildmon 73, RATTATA
 	wildmon 75, SKARMORY
 	wildmon 75, URSARING
 	; day
@@ -1891,7 +1891,7 @@
 	wildmon 70, PONYTA
 	wildmon 71, ARBOK ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
-	wildmon 73, DODRIO
+	wildmon 73, RATTATA
 	wildmon 75, SKARMORY
 	wildmon 75, URSARING
 	; nite

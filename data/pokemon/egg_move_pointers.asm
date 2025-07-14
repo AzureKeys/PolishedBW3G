@@ -56,8 +56,6 @@ EggSpeciesMovesPointers::
 	dw MagnemiteEggSpeciesMoves         ; Magnemite
 	dw MagnemiteEggSpeciesMoves         ; Magneton
 	dw FarfetchDPlainEggSpeciesMoves    ; FarfetchD
-	dw DoduoEggSpeciesMoves             ; Doduo
-	dw DoduoEggSpeciesMoves             ; Dodrio
 	dw SeelEggSpeciesMoves              ; Seel
 	dw SeelEggSpeciesMoves              ; Dewgong
 	dw GrimerPlainEggSpeciesMoves       ; Grimer
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
 	dw StantlerEggSpeciesMoves          ; Wyrdeer
 	dw ScytherEggSpeciesMoves           ; Kleavor
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	dw GirafarigEggSpeciesMoves         ; Farigiraf

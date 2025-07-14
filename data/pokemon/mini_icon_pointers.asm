@@ -60,8 +60,6 @@ MiniIconPointers:
 	mini_icon Magnemite
 	mini_icon Magneton
 	mini_icon FarfetchD
-	mini_icon Doduo
-	mini_icon Dodrio
 	mini_icon Seel
 	mini_icon Dewgong
 	mini_icon Grimer
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon MrRime
 	mini_icon Wyrdeer
 	mini_icon Kleavor
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Ursaluna
 	mini_icon Sneasler
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Overqwil
 	mini_icon DudunsparceTwoSegment
 	mini_icon Farigiraf

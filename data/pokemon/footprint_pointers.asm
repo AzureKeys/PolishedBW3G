@@ -56,8 +56,6 @@ FootprintPointers::
 	dw MagnemiteFootprint
 	dw MagnetonFootprint
 	dw FarfetchDFootprint
-	dw DoduoFootprint
-	dw DodrioFootprint
 	dw SeelFootprint
 	dw DewgongFootprint
 	dw GrimerFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw MrRimeFootprint
 	dw WyrdeerFootprint
 	dw KleavorFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw OverqwilFootprint
 	dw DudunsparceFootprint
 	dw FarigirafFootprint

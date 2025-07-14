@@ -4,8 +4,6 @@ FuryAttackUsers:
 	dp NIDORINO
 	dp NIDOKING
 	dp FARFETCH_D
-	dp DODUO
-	dp DODRIO
 	dp RHYHORN
 	dp RHYDON
 	dp GOLDEEN

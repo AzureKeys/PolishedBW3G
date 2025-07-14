@@ -57,8 +57,6 @@ PokedexDataPointerTable:
 	dba MagnemitePokedexEntry
 	dba MagnetonPokedexEntry
 	dba FarfetchDPlainPokedexEntry
-	dba DoduoPokedexEntry
-	dba DodrioPokedexEntry
 	dba SeelPokedexEntry
 	dba DewgongPokedexEntry
 	dba GrimerPlainPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba MrRimePokedexEntry
 	dba WyrdeerPokedexEntry
 	dba KleavorPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba OverqwilPokedexEntry
 	dba DudunsparcePokedexEntry
 	dba FarigirafPokedexEntry

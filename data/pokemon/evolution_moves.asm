@@ -56,8 +56,6 @@ EvolutionMoves::
 	db NO_MOVE      ; MAGNEMITE
 	db TRI_ATTACK   ; MAGNETON
 	db NO_MOVE      ; FARFETCH_D
-	db NO_MOVE      ; DODUO
-	db TRI_ATTACK   ; DODRIO
 	db NO_MOVE      ; SEEL
 	db ICICLE_SPEAR ; DEWGONG
 	db NO_MOVE      ; GRIMER
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; MR__RIME
 	db EXTRASENSORY ; WYRDEER
 	db ROCK_THROW   ; KLEAVOR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
 	db NO_MOVE      ; FARIGIRAF

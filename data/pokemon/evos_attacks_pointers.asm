@@ -60,8 +60,6 @@ EvosAttacksPointers::
 	dw MagnemiteEvosAttacks
 	dw MagnetonEvosAttacks
 	dw FarfetchDPlainEvosAttacks
-	dw DoduoEvosAttacks
-	dw DodrioEvosAttacks
 	dw SeelEvosAttacks
 	dw DewgongEvosAttacks
 	dw GrimerPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw MrRimeEvosAttacks
 	dw WyrdeerEvosAttacks
 	dw KleavorEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw OverqwilEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw FarigirafEvosAttacks

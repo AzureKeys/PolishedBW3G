@@ -63,8 +63,6 @@ PokemonBodyData:
 	body_data   3,   60, HEAD_ARMS,    GRAY   ; MAGNEMITE
 	body_data  10,  600, MULTIBODY,    GRAY   ; MAGNETON
 	body_data   8,  150, WINGS,        BROWN  ; FARFETCH_D
-	body_data  14,  392, HEAD_LEGS,    BROWN  ; DODUO
-	body_data  18,  852, HEAD_LEGS,    BROWN  ; DODRIO
 	body_data  11,  900, FINS,         WHITE  ; SEEL
 	body_data  17, 1200, FINS,         WHITE  ; DEWGONG
 	body_data   9,  300, HEAD_ARMS,    PURPLE ; GRIMER
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
 	body_data  18,  951, QUADRUPED,    GRAY   ; WYRDEER
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF

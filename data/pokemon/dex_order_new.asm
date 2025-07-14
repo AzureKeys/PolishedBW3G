@@ -236,8 +236,6 @@ NewPokedexOrder:
 	dp MANTYKE
 	dp MANTINE
 	dp SKARMORY
-	dp DODUO
-	dp DODRIO
 	dp PONYTA
 	dp RAPIDASH
 	dp CUBONE

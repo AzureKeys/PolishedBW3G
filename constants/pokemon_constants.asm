@@ -80,8 +80,6 @@
 	const MAGNEMITE  ; 51
 	const MAGNETON   ; 52
 	const FARFETCH_D ; 53
-	const DODUO      ; 54
-	const DODRIO     ; 55
 	const SEEL       ; 56
 	const DEWGONG    ; 57
 	const GRIMER     ; 58
@@ -278,10 +276,10 @@
 	const MR__RIME   ; 11a
 	const WYRDEER    ; 11b
 	const KLEAVOR    ; 11c
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const URSALUNA   ; 11d
 	const SNEASLER   ; 11e
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const OVERQWIL   ; 11f
 	const DUDUNSPARCE ; 120
 	const FARIGIRAF  ; 121

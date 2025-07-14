@@ -900,17 +900,17 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 52, RATTATA
-	wildmon 56, DODUO
+	wildmon 56, RATTATA
 	wildmon 53, RATTATA
-	wildmon 54, DODRIO
+	wildmon 54, RATTATA
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
 	wildmon 52, RATTATA
-	wildmon 56, DODUO
+	wildmon 56, RATTATA
 	wildmon 53, RATTATA
-	wildmon 54, DODRIO
+	wildmon 54, RATTATA
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
@@ -928,17 +928,17 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 52, RATTATA
-	wildmon 56, DODUO
+	wildmon 56, RATTATA
 	wildmon 53, RATTATA
-	wildmon 54, DODRIO
+	wildmon 54, RATTATA
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
 	wildmon 52, RATTATA
-	wildmon 56, DODUO
+	wildmon 56, RATTATA
 	wildmon 53, RATTATA
-	wildmon 54, DODRIO
+	wildmon 54, RATTATA
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
@@ -1011,7 +1011,7 @@
 	def_grass_wildmons ROUTE_23
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 37, DODRIO
+	wildmon 37, RATTATA
 	wildmon 38, SANDSLASH
 	wildmon 38, ARBOK, ARBOK_KANTO_FORM
 	wildmon 39, PRIMEAPE
@@ -1019,7 +1019,7 @@
 	wildmon 40, SANDSLASH
 	wildmon 42, DITTO
 	; day
-	wildmon 37, DODRIO
+	wildmon 37, RATTATA
 	wildmon 38, SANDSLASH
 	wildmon 38, ARBOK, ARBOK_KANTO_FORM
 	wildmon 39, PRIMEAPE
@@ -1095,19 +1095,19 @@
 	def_grass_wildmons ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 38, DODUO
+	wildmon 38, RATTATA
 	wildmon 38, SANDSLASH
 	wildmon 41, PONYTA
 	wildmon 40, RATICATE
-	wildmon 39, DODUO
+	wildmon 39, RATTATA
 	wildmon 40, ARBOK, ARBOK_KANTO_FORM
 	wildmon 41, ARBOK, ARBOK_KANTO_FORM
 	; day
-	wildmon 38, DODUO
+	wildmon 38, RATTATA
 	wildmon 38, SANDSLASH
 	wildmon 41, PONYTA
 	wildmon 40, RATICATE
-	wildmon 39, DODUO
+	wildmon 39, RATTATA
 	wildmon 40, ARBOK, ARBOK_KANTO_FORM
 	wildmon 41, ARBOK, ARBOK_KANTO_FORM
 	; nite
@@ -1123,21 +1123,21 @@
 	def_grass_wildmons ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 37, DODUO
+	wildmon 37, RATTATA
 	wildmon 37, ARBOK, ARBOK_KANTO_FORM
 	wildmon 39, RATICATE
-	wildmon 39, DODUO
+	wildmon 39, RATTATA
 	wildmon 41, PONYTA
-	wildmon 39, DODRIO
-	wildmon 40, DODRIO
+	wildmon 39, RATTATA
+	wildmon 40, RATTATA
 	; day
-	wildmon 37, DODUO
+	wildmon 37, RATTATA
 	wildmon 37, ARBOK, ARBOK_KANTO_FORM
 	wildmon 39, RATICATE
-	wildmon 39, DODUO
+	wildmon 39, RATTATA
 	wildmon 41, PONYTA
-	wildmon 39, DODRIO
-	wildmon 40, DODRIO
+	wildmon 39, RATTATA
+	wildmon 40, RATTATA
 	; nite
 	wildmon 37, QUAGSIRE
 	wildmon 37, NOCTOWL
@@ -1155,7 +1155,7 @@
 	wildmon 67, PONYTA
 	wildmon 67, ARBOK ; randomly Kanto or Johto form
 	wildmon 70, RAPIDASH
-	wildmon 68, DODRIO
+	wildmon 68, RATTATA
 	wildmon 71, SKARMORY
 	wildmon 71, URSARING
 	; day
@@ -1163,7 +1163,7 @@
 	wildmon 67, PONYTA
 	wildmon 67, ARBOK ; randomly Kanto or Johto form
 	wildmon 70, RAPIDASH
-	wildmon 68, DODRIO
+	wildmon 68, RATTATA
 	wildmon 71, SKARMORY
 	wildmon 71, URSARING
 	; nite
@@ -1515,24 +1515,24 @@
 	def_grass_wildmons SAFARI_ZONE_HUB
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, DODUO
-	wildmon 58, DODRIO
+	wildmon 55, RATTATA
+	wildmon 58, RATTATA
 	wildmon 55, EXEGGCUTE
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
 	; day
-	wildmon 55, DODUO
-	wildmon 58, DODRIO
+	wildmon 55, RATTATA
+	wildmon 58, RATTATA
 	wildmon 55, EXEGGCUTE
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
 	; nite
-	wildmon 55, DODUO
-	wildmon 58, DODRIO
+	wildmon 55, RATTATA
+	wildmon 58, RATTATA
 	wildmon 55, EXEGGCUTE
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR

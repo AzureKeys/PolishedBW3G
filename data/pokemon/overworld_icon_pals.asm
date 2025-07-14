@@ -60,8 +60,6 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; MAGNEMITE
 	iconpal GRAY, BROWN ; MAGNETON
 	iconpal BROWN, GREEN ; FARFETCH_D
-	iconpal BROWN, RED ; DODUO
-	iconpal BROWN, RED ; DODRIO
 	iconpal AZURE, WHITE ; SEEL
 	iconpal AZURE, WHITE ; DEWGONG
 	iconpal PURPLE, GREEN ; GRIMER
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BLUE, GRAY ; MR__RIME
 	iconpal GRAY, GREEN ; WYRDEER
 	iconpal BROWN, GREEN ; KLEAVOR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal PURPLE, BLUE ; OVERQWIL
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; FARIGIRAF

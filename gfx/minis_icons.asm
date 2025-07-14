@@ -287,16 +287,6 @@ FarfetchDMini::     INCBIN "gfx/minis/farfetch_d.2bpp.lz"
 FarfetchDMiniMask:: INCBIN "gfx/minis/farfetch_d_mask.1bpp.lz"
 FarfetchDIcon::     INCBIN "gfx/icons/farfetch_d.2bpp.lz"
 
-SECTION "Doduo Mini Icon", ROMX
-DoduoMini::     INCBIN "gfx/minis/doduo.2bpp.lz"
-DoduoMiniMask:: INCBIN "gfx/minis/doduo_mask.1bpp.lz"
-DoduoIcon::     INCBIN "gfx/icons/doduo.2bpp.lz"
-
-SECTION "Dodrio Mini Icon", ROMX
-DodrioMini::     INCBIN "gfx/minis/dodrio.2bpp.lz"
-DodrioMiniMask:: INCBIN "gfx/minis/dodrio_mask.1bpp.lz"
-DodrioIcon::     INCBIN "gfx/icons/dodrio.2bpp.lz"
-
 SECTION "Seel Mini Icon", ROMX
 SeelMini::     INCBIN "gfx/minis/seel.2bpp.lz"
 SeelMiniMask:: INCBIN "gfx/minis/seel_mask.1bpp.lz"

@@ -339,15 +339,6 @@ FarfetchDPlainEggSpeciesMoves:
 	db ROOST
 	db $ff
 
-DoduoEggSpeciesMoves:
-	dp DODUO, PLAIN_FORM
-	db FEINT_ATTACK
-	db HAZE
-	db SUPERSONIC
-	db QUICK_ATTACK
-	db BRAVE_BIRD
-	db $ff
-
 SeelEggSpeciesMoves:
 	dp SEEL, PLAIN_FORM
 	db DISABLE

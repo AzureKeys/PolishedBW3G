@@ -56,8 +56,6 @@ AnimationPointers:
 	dw MagnemiteAnimation
 	dw MagnetonAnimation
 	dw FarfetchDPlainAnimation
-	dw DoduoAnimation
-	dw DodrioAnimation
 	dw SeelAnimation
 	dw DewgongAnimation
 	dw GrimerPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw MrRimeAnimation
 	dw WyrdeerAnimation
 	dw KleavorAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw OverqwilAnimation
 	dw DudunsparceTwoSegmentAnimation
 	dw FarigirafAnimation

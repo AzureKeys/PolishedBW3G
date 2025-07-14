@@ -148,14 +148,6 @@ SECTION "Magneton Pics", ROMX
 MagnetonFrontpic: INCBIN "gfx/pokemon/magneton/front.animated.2bpp.lz"
 MagnetonBackpic:  INCBIN "gfx/pokemon/magneton/back.2bpp.lz"
 
-SECTION "Doduo Pics", ROMX
-DoduoFrontpic: INCBIN "gfx/pokemon/doduo/front.animated.2bpp.lz"
-DoduoBackpic:  INCBIN "gfx/pokemon/doduo/back.2bpp.lz"
-
-SECTION "Dodrio Pics", ROMX
-DodrioFrontpic: INCBIN "gfx/pokemon/dodrio/front.animated.2bpp.lz"
-DodrioBackpic:  INCBIN "gfx/pokemon/dodrio/back.2bpp.lz"
-
 SECTION "Seel Pics", ROMX
 SeelFrontpic: INCBIN "gfx/pokemon/seel/front.animated.2bpp.lz"
 SeelBackpic:  INCBIN "gfx/pokemon/seel/back.2bpp.lz"

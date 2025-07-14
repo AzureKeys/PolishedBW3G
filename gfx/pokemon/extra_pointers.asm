@@ -56,8 +56,6 @@ AnimationExtraPointers:
 	dw MagnemiteAnimationExtra
 	dw MagnetonAnimationExtra
 	dw FarfetchDPlainAnimationExtra
-	dw DoduoAnimationExtra
-	dw DodrioAnimationExtra
 	dw SeelAnimationExtra
 	dw DewgongAnimationExtra
 	dw GrimerPlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw MrRimeAnimationExtra
 	dw WyrdeerAnimationExtra
 	dw KleavorAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw UrsalunaPlainAnimationExtra
 	dw SneaslerAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw OverqwilAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
 	dw FarigirafAnimationExtra

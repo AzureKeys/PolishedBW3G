@@ -1427,44 +1427,6 @@ endc
 	learnset 60, CLOSE_COMBAT ; Final Gambit → TR move
 	learnset 65, BRAVE_BIRD
 
-	evos_attacks Doduo
-	evo_data EVOLVE_LEVEL, 31, DODRIO
-	learnset 1, PECK
-	learnset 1, GROWL
-	learnset 5, QUICK_ATTACK
-	learnset 8, RAGE
-	learnset 12, FURY_STRIKES ; Fury Attack → similar move
-	learnset 15, PURSUIT
-	learnset 19, BATON_PASS ; Pluck → XD move
-	learnset 22, DOUBLE_KICK ; Double Hit → new move
-	learnset 26, AGILITY
-	learnset 29, DOUBLE_TEAM ; Uproar → TM move
-	learnset 33, TRI_ATTACK ; Acupressure → Crystal move
-	learnset 36, SWORDS_DANCE
-	learnset 40, HI_JUMP_KICK ; Jump Kick → similar move
-	learnset 43, DRILL_PECK
-	learnset 47, REVERSAL ; Endeavor → new move
-	learnset 50, THRASH
-
-	evos_attacks Dodrio
-	learnset 1, TRI_ATTACK ; evolution move
-	learnset 1, PECK
-	learnset 1, GROWL
-	learnset 5, QUICK_ATTACK
-	learnset 8, RAGE
-	learnset 12, FURY_STRIKES ; Fury Attack → similar move
-	learnset 15, PURSUIT
-	learnset 19, BATON_PASS ; Pluck → XD move
-	learnset 22, DOUBLE_KICK ; Double Hit → new move
-	learnset 26, AGILITY
-	learnset 29, DOUBLE_TEAM ; Uproar → TM move
-	learnset 34, BULLDOZE ; Acupressure → TM move
-	learnset 38, SWORDS_DANCE
-	learnset 43, HI_JUMP_KICK ; Jump Kick → similar move
-	learnset 47, DRILL_PECK
-	learnset 52, REVERSAL ; Endeavor → new move
-	learnset 56, THRASH
-
 	evos_attacks Seel
 	evo_data EVOLVE_LEVEL, 34, DEWGONG
 	learnset 1, HEADBUTT

@@ -45,8 +45,6 @@ AlphabeticalPokedexOrder:
 	dp DEWOTT
 	dp DIGLETT
 	dp DITTO
-	dp DODRIO
-	dp DODUO
 	dp DONPHAN
 	dp DRAGONAIR
 	dp DRAGONITE

@@ -62,8 +62,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $080,  $0e0 ; Magnemite
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magneton
 	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; FarfetchD
-	mon_cry CRY_DIGLETT,     $0bb,  $081 ; Doduo
-	mon_cry CRY_DIGLETT,     $099,  $0a0 ; Dodrio
 	mon_cry CRY_SEEL,        $088,  $140 ; Seel
 	mon_cry CRY_SEEL,        $023,  $17f ; Dewgong
 	mon_cry CRY_GRIMER,      $000,  $100 ; Grimer
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Rime
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Wyrdeer
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Kleavor
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
