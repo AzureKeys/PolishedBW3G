@@ -74,8 +74,6 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; EXEGGUTOR
 	iconpal BROWN, TEAL ; CUBONE
 	iconpal BROWN, TEAL ; MAROWAK
-	iconpal BROWN, GREEN ; HITMONLEE
-	iconpal BROWN, BLUE ; HITMONCHAN
 	iconpal PINK, BROWN ; LICKITUNG
 	iconpal PURPLE, AZURE ; KOFFING
 	iconpal PURPLE, AZURE ; WEEZING
@@ -203,8 +201,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; PORYGON2
 	iconpal BROWN, GREEN ; STANTLER
 	iconpal BROWN, GREEN ; SMEARGLE
-	iconpal BROWN, AZURE ; TYROGUE
-	iconpal BROWN, AZURE ; HITMONTOP
 	iconpal PURPLE, PINK ; SMOOCHUM
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
@@ -258,12 +254,12 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal GREEN, BLUE ; SNIVY
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, BLUE ; SERVINE
 	iconpal GREEN, BLUE ; SERPERIOR
 	iconpal RED, ORANGE ; TEPIG
 	iconpal RED, ORANGE ; PIGNITE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal RED, BLUE ; EMBOAR
 	iconpal AZURE, BLUE ; OSHAWOTT
 	iconpal AZURE, TEAL ; DEWOTT

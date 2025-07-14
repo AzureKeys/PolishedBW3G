@@ -997,15 +997,6 @@ StantlerEggSpeciesMoves:
 	db RAGE
 	db $ff
 
-TyrogueEggSpeciesMoves:
-	dp TYROGUE, PLAIN_FORM
-	db BULLET_PUNCH
-	db HI_JUMP_KICK
-	db MACH_PUNCH
-	db PURSUIT
-	db RAPID_SPIN
-	db $ff
-
 SmoochumEggSpeciesMoves:
 	dp SMOOCHUM, PLAIN_FORM
 	db BULK_UP

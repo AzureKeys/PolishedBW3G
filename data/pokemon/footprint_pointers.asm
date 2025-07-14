@@ -70,8 +70,6 @@ FootprintPointers::
 	dw ExeggutorFootprint
 	dw CuboneFootprint
 	dw MarowakFootprint
-	dw HitmonleeFootprint
-	dw HitmonchanFootprint
 	dw LickitungFootprint
 	dw KoffingFootprint
 	dw WeezingFootprint
@@ -199,8 +197,6 @@ FootprintPointers::
 	dw Porygon2Footprint
 	dw StantlerFootprint
 	dw SmeargleFootprint
-	dw TyrogueFootprint
-	dw HitmontopFootprint
 	dw SmoochumFootprint
 	dw ElekidFootprint
 	dw MagbyFootprint
@@ -254,12 +250,12 @@ FootprintPointers::
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
 	dw SnivyFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ServineFootprint
 	dw SerperiorFootprint
 	dw TepigFootprint
 	dw PigniteFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw EmboarFootprint
 	dw OshawottFootprint
 	dw DewottFootprint

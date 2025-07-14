@@ -74,8 +74,6 @@ EvosAttacksPointers::
 	dw ExeggutorPlainEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakPlainEvosAttacks
-	dw HitmonleeEvosAttacks
-	dw HitmonchanEvosAttacks
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks
@@ -203,8 +201,6 @@ EvosAttacksPointers::
 	dw Porygon2EvosAttacks
 	dw StantlerEvosAttacks
 	dw SmeargleEvosAttacks
-	dw TyrogueEvosAttacks
-	dw HitmontopEvosAttacks
 	dw SmoochumEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
@@ -258,12 +254,12 @@ EvosAttacksPointers::
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw SnivyEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ServineEvosAttacks
 	dw SerperiorEvosAttacks
 	dw TepigEvosAttacks
 	dw PigniteEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw EmboarEvosAttacks
 	dw OshawottEvosAttacks
 	dw DewottEvosAttacks

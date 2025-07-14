@@ -70,8 +70,6 @@ FramesPointers:
 	dw ExeggutorPlainFrames
 	dw CuboneFrames
 	dw MarowakPlainFrames
-	dw HitmonleeFrames
-	dw HitmonchanFrames
 	dw LickitungFrames
 	dw KoffingFrames
 	dw WeezingPlainFrames
@@ -199,8 +197,6 @@ FramesPointers:
 	dw Porygon2Frames
 	dw StantlerFrames
 	dw SmeargleFrames
-	dw TyrogueFrames
-	dw HitmontopFrames
 	dw SmoochumFrames
 	dw ElekidFrames
 	dw MagbyFrames
@@ -254,12 +250,12 @@ FramesPointers:
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw SnivyFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ServineFrames
 	dw SerperiorFrames
 	dw TepigFrames
 	dw PigniteFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw EmboarFrames
 	dw OshawottFrames
 	dw DewottFrames

@@ -74,8 +74,6 @@ PokemonPicPointers::
 	pics ExeggutorPlain
 	pics Cubone
 	pics MarowakPlain
-	pics Hitmonlee
-	pics Hitmonchan
 	pics Lickitung
 	pics Koffing
 	pics WeezingPlain
@@ -203,8 +201,6 @@ PokemonPicPointers::
 	pics Porygon2
 	pics Stantler
 	pics Smeargle
-	pics Tyrogue
-	pics Hitmontop
 	pics Smoochum
 	pics Elekid
 	pics Magby
@@ -258,12 +254,12 @@ PokemonPicPointers::
 	pics Clodsire
 	pics Annihilape
 	pics Snivy
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Servine
 	pics Serperior
 	pics Tepig
 	pics Pignite
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Emboar
 	pics Oshawott
 	pics Dewott

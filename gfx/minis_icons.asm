@@ -357,16 +357,6 @@ MarowakMini::     INCBIN "gfx/minis/marowak.2bpp.lz"
 MarowakMiniMask:: INCBIN "gfx/minis/marowak_mask.1bpp.lz"
 MarowakIcon::     INCBIN "gfx/icons/marowak.2bpp.lz"
 
-SECTION "Hitmonlee Mini Icon", ROMX
-HitmonleeMini::     INCBIN "gfx/minis/hitmonlee.2bpp.lz"
-HitmonleeMiniMask:: INCBIN "gfx/minis/hitmonlee_mask.1bpp.lz"
-HitmonleeIcon::     INCBIN "gfx/icons/hitmonlee.2bpp.lz"
-
-SECTION "Hitmonchan Mini Icon", ROMX
-HitmonchanMini::     INCBIN "gfx/minis/hitmonchan.2bpp.lz"
-HitmonchanMiniMask:: INCBIN "gfx/minis/hitmonchan_mask.1bpp.lz"
-HitmonchanIcon::     INCBIN "gfx/icons/hitmonchan.2bpp.lz"
-
 SECTION "Lickitung Mini Icon", ROMX
 LickitungMini::     INCBIN "gfx/minis/lickitung.2bpp.lz"
 LickitungMiniMask:: INCBIN "gfx/minis/lickitung_mask.1bpp.lz"
@@ -1001,16 +991,6 @@ SECTION "Smeargle Mini Icon", ROMX
 SmeargleMini::     INCBIN "gfx/minis/smeargle.2bpp.lz"
 SmeargleMiniMask:: INCBIN "gfx/minis/smeargle_mask.1bpp.lz"
 SmeargleIcon::     INCBIN "gfx/icons/smeargle.2bpp.lz"
-
-SECTION "Tyrogue Mini Icon", ROMX
-TyrogueMini::     INCBIN "gfx/minis/tyrogue.2bpp.lz"
-TyrogueMiniMask:: INCBIN "gfx/minis/tyrogue_mask.1bpp.lz"
-TyrogueIcon::     INCBIN "gfx/icons/tyrogue.2bpp.lz"
-
-SECTION "Hitmontop Mini Icon", ROMX
-HitmontopMini::     INCBIN "gfx/minis/hitmontop.2bpp.lz"
-HitmontopMiniMask:: INCBIN "gfx/minis/hitmontop_mask.1bpp.lz"
-HitmontopIcon::     INCBIN "gfx/icons/hitmontop.2bpp.lz"
 
 SECTION "Smoochum Mini Icon", ROMX
 SmoochumMini::     INCBIN "gfx/minis/smoochum.2bpp.lz"

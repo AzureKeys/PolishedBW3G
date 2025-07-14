@@ -76,8 +76,6 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,     $000,  $100 ; Exeggutor
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; Cubone
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; Marowak
-	mon_cry CRY_GOLEM,       $080,  $140 ; Hitmonlee
-	mon_cry CRY_SEEL,        $0ee,  $140 ; Hitmonchan
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickitung
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; Koffing
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; Weezing
@@ -205,8 +203,6 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; Porygon2
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; Smeargle
-	mon_cry CRY_TYROGUE,     $02c,  $108 ; Tyrogue
-	mon_cry CRY_SLUGMA,      $000,  $100 ; Hitmontop
 	mon_cry CRY_MARILL,      $068,  $100 ; Smoochum
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
 	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
@@ -260,12 +256,12 @@ PokemonCries::
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
 	mon_cry CRY_METAPOD,    -$09a,  $0d0 ; Serperior
 	mon_cry CRY_NIDORAN_M,  -$08d,  $0ab ; Tepig
 	mon_cry CRY_METAPOD,    -$3c5,  $0f0 ; Pignite
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_METAPOD,    -$4c0,  $130 ; Emboar
 	mon_cry CRY_SLOWPOKE,    $1ca,  $130 ; Oshawott
 	mon_cry CRY_DIGLETT,     $033,  $0d0 ; Dewott

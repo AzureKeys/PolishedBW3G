@@ -23,7 +23,7 @@ SaffronHitmontopKidHouseChildScript:
 	applymovement SAFFRONHITMONTOPKIDHOUSE_CHILD, .SpinMovement
 	faceplayer
 	pause 20
-	checkpoke HITMONTOP
+	checkpoke RATTATA
 	iffalsefwd .Done
 	showemote EMOTE_SHOCK, SAFFRONHITMONTOPKIDHOUSE_CHILD, 15
 	showtext .Text2

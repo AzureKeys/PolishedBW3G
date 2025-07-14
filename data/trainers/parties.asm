@@ -266,8 +266,8 @@ if DEF(FAITHFUL)
 else
 		tr_moves REVERSAL, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
 endc
-	tr_mon 28, HITMONTOP, MALE
-		tr_extra INTIMIDATE
+	tr_mon 28, RATTATA, MALE
+		tr_extra HUSTLE
 		tr_evs 160 Atk
 		tr_moves BULK_UP, SUCKER_PUNCH, DOUBLE_KICK, RAPID_SPIN
 	tr_mon 31, POLIWRATH @ ZOOM_LENS, MALE
@@ -283,14 +283,14 @@ endc
 	tr_mon 73, SIRFETCH_D @ LEEK, MALE
 		tr_extra STEADFAST
 		tr_moves CLOSE_COMBAT, BRAVE_BIRD, NIGHT_SLASH, POISON_JAB
-	tr_mon 72, HITMONCHAN @ NEVERMELTICE, MALE
-		tr_extra IRON_FIST
+	tr_mon 72, RATTATA @ NEVERMELTICE, MALE
+		tr_extra HUSTLE
 		tr_moves THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MACH_PUNCH
-	tr_mon 72, HITMONLEE @ QUICK_CLAW, MALE
-		tr_extra RECKLESS
+	tr_mon 72, RATTATA @ QUICK_CLAW, MALE
+		tr_extra HUSTLE
 		tr_moves SUCKER_PUNCH, BULK_UP, REVERSAL, HI_JUMP_KICK
-	tr_mon 72, HITMONTOP @ KINGS_ROCK, MALE
-		tr_extra INTIMIDATE
+	tr_mon 72, RATTATA @ KINGS_ROCK, MALE
+		tr_extra HUSTLE
 		tr_moves RAPID_SPIN, TOXIC, CLOSE_COMBAT, SUCKER_PUNCH
 	tr_mon 75, POLIWRATH @ LEFTOVERS, MALE
 		tr_extra WATER_ABSORB
@@ -527,16 +527,16 @@ BrunoGroup:
 
 	def_trainer_class BRUNO
 	def_trainer 1, "Bruno"
-	tr_mon 51, HITMONTOP @ QUICK_CLAW
+	tr_mon 51, RATTATA @ QUICK_CLAW
 		tr_evs 176 Atk, 176 Spe
 		tr_moves PURSUIT, CLOSE_COMBAT, DIG, PROTECT
 	tr_mon 53, SNEASLER @ SILVERPOWDER
 		tr_evs 176 Atk, 176 Spe
 		tr_moves SWORDS_DANCE, X_SCISSOR, CLOSE_COMBAT, GUNK_SHOT
-	tr_mon 51, HITMONLEE @ FOCUS_BAND
+	tr_mon 51, RATTATA @ FOCUS_BAND
 		tr_evs 176 Atk, 176 Spe
 		tr_moves SUCKER_PUNCH, DOUBLE_KICK, HI_JUMP_KICK, FORESIGHT
-	tr_mon 51, HITMONCHAN @ NEVERMELTICE
+	tr_mon 51, RATTATA @ NEVERMELTICE
 		tr_evs 176 Atk, 176 Spe
 		tr_moves THUNDERPUNCH, ICE_PUNCH, POISON_JAB, MACH_PUNCH
 	tr_mon 53, ONIX @ HARD_STONE
@@ -548,13 +548,13 @@ BrunoGroup:
 	end_trainer
 
 	def_trainer 2, "Bruno"
-	tr_mon 70, HITMONTOP @ QUICK_CLAW
+	tr_mon 70, RATTATA @ QUICK_CLAW
 		tr_moves BULK_UP, SUCKER_PUNCH, COUNTER, HI_JUMP_KICK
 	tr_mon 71, SNEASLER @ SILVERPOWDER
 		tr_moves SWORDS_DANCE, X_SCISSOR, CLOSE_COMBAT, GUNK_SHOT
-	tr_mon 70, HITMONLEE @ FOCUS_BAND
+	tr_mon 70, RATTATA @ FOCUS_BAND
 		tr_moves BULK_UP, SUCKER_PUNCH, HI_JUMP_KICK, REVERSAL
-	tr_mon 70, HITMONCHAN @ NEVERMELTICE
+	tr_mon 70, RATTATA @ NEVERMELTICE
 		tr_moves THUNDERPUNCH, ICE_PUNCH, POISON_JAB, MACH_PUNCH
 	tr_mon 72, STEELIX @ LEFTOVERS
 		tr_moves CURSE, EARTHQUAKE, STONE_EDGE, IRON_HEAD
@@ -4621,7 +4621,7 @@ BreederGroup:
 	end_trainer
 
 	def_trainer JODY, "Jody"
-	tr_mon 27, TYROGUE @ EVIOLITE
+	tr_mon 27, RATTATA @ EVIOLITE
 		tr_moves TACKLE, RAGE, FORESIGHT, HI_JUMP_KICK
 	tr_mon 28, MUNCHLAX @ EVIOLITE
 		tr_moves METRONOME, BODY_SLAM, SCREECH, GUNK_SHOT
@@ -5358,7 +5358,7 @@ BlackbeltGroup:
 ;	; unused
 ;	def_trainer KENJI2, "Kenji"
 ;	tr_mon 36, ONIX
-;	tr_mon 38, HITMONLEE
+;	tr_mon 38, RATTATA
 ;	tr_mon 36, ONIX
 ;	tr_mon 39, RATTATA
 ;	end_trainer
@@ -5370,17 +5370,17 @@ BlackbeltGroup:
 ;		tr_moves HEADBUTT, SWAGGER, THUNDERPUNCH, BULLET_PUNCH
 ;	tr_mon 33, STEELIX
 ;		tr_moves EARTHQUAKE, ROCK_THROW, IRON_TAIL, SANDSTORM
-;	tr_mon 36, HITMONLEE
+;	tr_mon 36, RATTATA
 ;		tr_moves DOUBLE_TEAM, HI_JUMP_KICK, MUD_SLAP, SWIFT
 ;	end_trainer
 
 	def_trainer YOSHI, "Yoshi"
-	tr_mon 27, "Bruce", HITMONLEE
+	tr_mon 27, "Bruce", RATTATA
 		tr_moves DOUBLE_KICK, BULK_UP, HI_JUMP_KICK, FOCUS_ENERGY
 	end_trainer
 
 	def_trainer LAO, "Lao"
-	tr_mon 27, "Jackie", HITMONCHAN
+	tr_mon 27, "Jackie", RATTATA
 		tr_moves AERIAL_ACE, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH
 	end_trainer
 
@@ -5420,7 +5420,7 @@ BlackbeltGroup:
 	end_trainer
 
 	def_trainer TAKEO, "Takeo"
-	tr_mon 52, HITMONTOP
+	tr_mon 52, RATTATA
 	tr_mon 54, HERACROSS
 	tr_mon 56, POLIWRATH
 	end_trainer
@@ -5443,7 +5443,7 @@ BattleGirlGroup:
 	end_trainer
 
 	def_trainer DIANE, "Diane"
-	tr_mon LEVEL_FROM_BADGES + 8, HITMONLEE
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 8, URSARING
 	end_trainer
 
@@ -5456,19 +5456,19 @@ BattleGirlGroup:
 	def_trainer NOZOMI, "Nozomi"
 	tr_mon 36, RATTATA
 	tr_mon 36, RATTATA
-	tr_mon 37, HITMONTOP
+	tr_mon 37, RATTATA
 	end_trainer
 
 	def_trainer RONDA, "Ronda"
-	tr_mon 37, HITMONCHAN
+	tr_mon 37, RATTATA
 	tr_mon 39, RATTATA
 	tr_mon 38, URSARING
 	end_trainer
 
 	def_trainer PADMA, "Padma"
-	tr_mon LEVEL_FROM_BADGES + 7, HITMONLEE
-	tr_mon LEVEL_FROM_BADGES + 8, HITMONCHAN
-	tr_mon LEVEL_FROM_BADGES + 9, HITMONTOP
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
 
 	def_trainer EMY, "Emy"
@@ -5805,7 +5805,7 @@ BikerGroup:
 	end_trainer
 
 	def_trainer TYRONE, "Tyrone"
-	tr_mon 22, TYROGUE
+	tr_mon 22, RATTATA
 	tr_mon 32, GRIMER
 	tr_mon 42, MUK
 	tr_mon 52, WEEZING
@@ -6191,7 +6191,7 @@ CooltrainerMGroup:
 		tr_evs 252 HP, 132 Atk
 	tr_mon 62, SCYTHER @ EVIOLITE
 		tr_evs 252 HP, 132 Atk
-	tr_mon 62, HITMONLEE @ FOCUS_BAND
+	tr_mon 62, RATTATA @ FOCUS_BAND
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 63, SANDSLASH @ KINGS_ROCK
 		tr_evs 132 HP, 252 Atk ; has Gyro Ball, so no Speed.
@@ -6905,11 +6905,11 @@ KarateKingGroup:
 
 	def_trainer_class KARATE_KING
 	def_trainer KIYO, "Kiyo"
-	tr_mon LEVEL_FROM_BADGES + 11, HITMONLEE @ BLACK_BELT
+	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ BLACK_BELT
 		tr_moves BULK_UP, FOCUS_ENERGY, HI_JUMP_KICK, FORESIGHT
-	tr_mon LEVEL_FROM_BADGES + 11, HITMONCHAN @ KINGS_ROCK
+	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ KINGS_ROCK
 		tr_moves THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MACH_PUNCH
-	tr_mon LEVEL_FROM_BADGES + 11, HITMONTOP @ FOCUS_BAND
+	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ FOCUS_BAND
 		tr_moves BULK_UP, DOUBLE_KICK, RAPID_SPIN, COUNTER
 	end_trainer
 
@@ -7446,11 +7446,11 @@ MayleneGroup:
 
 	def_trainer_class MAYLENE
 	def_trainer 1, "Maylene"
-	tr_mon 59, HITMONTOP
+	tr_mon 59, RATTATA
 		tr_evs 140 Atk, 252 Spe
-	tr_mon 59, HITMONLEE
+	tr_mon 59, RATTATA
 		tr_evs 252 Atk, 140 Spe
-	tr_mon 59, HITMONCHAN
+	tr_mon 59, RATTATA
 		tr_evs 196 Atk, 196 Spe
 if DEF(FAITHFUL)
 	tr_mon 62, HERACROSS
@@ -7468,9 +7468,9 @@ endc
 	end_trainer
 
 	def_trainer 2, "Maylene"
-	tr_mon 72, HITMONTOP
-	tr_mon 72, HITMONLEE
-	tr_mon 72, HITMONCHAN
+	tr_mon 72, RATTATA
+	tr_mon 72, RATTATA
+	tr_mon 72, RATTATA
 if DEF(FAITHFUL)
 	tr_mon 73, HERACROSS
 	tr_mon 73, PRIMEAPE

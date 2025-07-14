@@ -94,8 +94,6 @@
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
-	const HITMONLEE  ; 6a
-	const HITMONCHAN ; 6b
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
@@ -223,8 +221,6 @@
 	const PORYGON2   ; e9
 	const STANTLER   ; ea
 	const SMEARGLE   ; eb
-	const TYROGUE    ; ec
-	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee
 	const ELEKID     ; ef
 	const MAGBY      ; f0
@@ -278,12 +274,12 @@
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
 	const SNIVY      ; 124
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SERVINE    ; 125
 	const SERPERIOR  ; 126
 	const TEPIG      ; 127
 	const PIGNITE    ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const EMBOAR     ; 129
 	const OSHAWOTT   ; 127
 	const DEWOTT     ; 128

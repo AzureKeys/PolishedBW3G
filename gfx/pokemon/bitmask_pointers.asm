@@ -70,8 +70,6 @@ BitmasksPointers:
 	dw ExeggutorPlainBitmasks
 	dw CuboneBitmasks
 	dw MarowakPlainBitmasks
-	dw HitmonleeBitmasks
-	dw HitmonchanBitmasks
 	dw LickitungBitmasks
 	dw KoffingBitmasks
 	dw WeezingPlainBitmasks
@@ -199,8 +197,6 @@ BitmasksPointers:
 	dw Porygon2Bitmasks
 	dw StantlerBitmasks
 	dw SmeargleBitmasks
-	dw TyrogueBitmasks
-	dw HitmontopBitmasks
 	dw SmoochumBitmasks
 	dw ElekidBitmasks
 	dw MagbyBitmasks
@@ -254,12 +250,12 @@ BitmasksPointers:
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
 	dw SnivyBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ServineBitmasks
 	dw SerperiorBitmasks
 	dw TepigBitmasks
 	dw PigniteBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw EmboarBitmasks
 	dw OshawottBitmasks
 	dw DewottBitmasks

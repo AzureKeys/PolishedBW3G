@@ -70,8 +70,6 @@ AnimationPointers:
 	dw ExeggutorPlainAnimation
 	dw CuboneAnimation
 	dw MarowakPlainAnimation
-	dw HitmonleeAnimation
-	dw HitmonchanAnimation
 	dw LickitungAnimation
 	dw KoffingAnimation
 	dw WeezingPlainAnimation
@@ -199,8 +197,6 @@ AnimationPointers:
 	dw Porygon2Animation
 	dw StantlerAnimation
 	dw SmeargleAnimation
-	dw TyrogueAnimation
-	dw HitmontopAnimation
 	dw SmoochumAnimation
 	dw ElekidAnimation
 	dw MagbyAnimation
@@ -254,12 +250,12 @@ AnimationPointers:
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
 	dw SnivyAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ServineAnimation
 	dw SerperiorAnimation
 	dw TepigAnimation
 	dw PigniteAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw EmboarAnimation
 	dw OshawottAnimation
 	dw DewottAnimation

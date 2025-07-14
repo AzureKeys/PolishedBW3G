@@ -180,14 +180,6 @@ SECTION "Cubone Pics", ROMX
 CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
 CuboneBackpic:  INCBIN "gfx/pokemon/cubone/back.2bpp.lz"
 
-SECTION "Hitmonlee Pics", ROMX
-HitmonleeFrontpic: INCBIN "gfx/pokemon/hitmonlee/front.animated.2bpp.lz"
-HitmonleeBackpic:  INCBIN "gfx/pokemon/hitmonlee/back.2bpp.lz"
-
-SECTION "Hitmonchan Pics", ROMX
-HitmonchanFrontpic: INCBIN "gfx/pokemon/hitmonchan/front.animated.2bpp.lz"
-HitmonchanBackpic:  INCBIN "gfx/pokemon/hitmonchan/back.2bpp.lz"
-
 SECTION "Koffing Pics", ROMX
 KoffingFrontpic: INCBIN "gfx/pokemon/koffing/front.animated.2bpp.lz"
 KoffingBackpic:  INCBIN "gfx/pokemon/koffing/back.2bpp.lz"
@@ -639,14 +631,6 @@ PorygonZBackpic:  INCBIN "gfx/pokemon/porygon_z/back.2bpp.lz"
 SECTION "Smeargle Pics", ROMX
 SmeargleFrontpic: INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
 SmeargleBackpic:  INCBIN "gfx/pokemon/smeargle/back.2bpp.lz"
-
-SECTION "Tyrogue Pics", ROMX
-TyrogueFrontpic: INCBIN "gfx/pokemon/tyrogue/front.animated.2bpp.lz"
-TyrogueBackpic:  INCBIN "gfx/pokemon/tyrogue/back.2bpp.lz"
-
-SECTION "Hitmontop Pics", ROMX
-HitmontopFrontpic: INCBIN "gfx/pokemon/hitmontop/front.animated.2bpp.lz"
-HitmontopBackpic:  INCBIN "gfx/pokemon/hitmontop/back.2bpp.lz"
 
 SECTION "Elekid Pics", ROMX
 ElekidFrontpic: INCBIN "gfx/pokemon/elekid/front.animated.2bpp.lz"

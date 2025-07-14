@@ -77,8 +77,6 @@ PokemonBodyData:
 	body_data  20, 1200, HEAD_LEGS,    YELLOW ; EXEGGUTOR
 	body_data   4,   65, BIPEDAL_TAIL, BROWN  ; CUBONE
 	body_data  10,  450, BIPEDAL_TAIL, BROWN  ; MAROWAK
-	body_data  15,  498, BIPEDAL,      BROWN  ; HITMONLEE
-	body_data  14,  502, BIPEDAL,      BROWN  ; HITMONCHAN
 	body_data  12,  655, BIPEDAL_TAIL, PINK   ; LICKITUNG
 	body_data   6,   10, HEAD,         PURPLE ; KOFFING
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
@@ -206,8 +204,6 @@ PokemonBodyData:
 	body_data   6,  325, HEAD_LEGS,    RED    ; PORYGON2
 	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
 	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
-	body_data   7,  210, BIPEDAL,      PURPLE ; TYROGUE
-	body_data  14,  480, BIPEDAL_TAIL, BROWN  ; HITMONTOP
 	body_data   4,   60, BIPEDAL,      PINK   ; SMOOCHUM
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
 	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
@@ -261,12 +257,12 @@ PokemonBodyData:
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
 	body_data  33,  630, SERPENTINE,   GREEN  ; SERPERIOR
 	body_data   5,   99, QUADRUPED,    RED    ; TEPIG
 	body_data  10,  555, BIPEDAL_TAIL, RED    ; PIGNITE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  16, 1500, BIPEDAL_TAIL, RED    ; EMBOAR
 	body_data   5,   59, BIPEDAL_TAIL, BLUE   ; OSHAWOTT
 	body_data   8,  245, BIPEDAL_TAIL, BLUE   ; DEWOTT

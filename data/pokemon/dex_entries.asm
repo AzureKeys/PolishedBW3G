@@ -706,26 +706,6 @@ MarowakPlainPokedexEntry::
 	next "its bones from"
 	next "those graves.@"
 
-SECTION "HitmonleePokedexEntry", ROMX
-HitmonleePokedexEntry::
-	db "Kicking@"
-	db   "It is also called"
-	next "the Kick Master."
-	next "It uses its"
-	page "elastic legs to"
-	next "execute every"
-	next "known kick.@"
-
-SECTION "HitmonchanPokedexEntry", ROMX
-HitmonchanPokedexEntry::
-	db "Punching@"
-	db   "To increase the"
-	next "strength of all"
-	next "its punch moves,"
-	page "it spins its arms"
-	next "just before making"
-	next "contact.@"
-
 SECTION "LickitungPokedexEntry", ROMX
 LickitungPokedexEntry::
 	db "Licking@"
@@ -1995,26 +1975,6 @@ SmearglePokedexEntry::
 	page "tail is predeter-"
 	next "mined for each"
 	next "Smeargle.@"
-
-SECTION "TyroguePokedexEntry", ROMX
-TyroguePokedexEntry::
-	db "Scuffle@"
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
-
-SECTION "HitmontopPokedexEntry", ROMX
-HitmontopPokedexEntry::
-	db "Handstand@"
-	db   "After doing a"
-	next "handstand to"
-	next "throw off the"
-	page "opponent's timing,"
-	next "it presents its"
-	next "fancy kick moves.@"
 
 SECTION "SmoochumPokedexEntry", ROMX
 SmoochumPokedexEntry::

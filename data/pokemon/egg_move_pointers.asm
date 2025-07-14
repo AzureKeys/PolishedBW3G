@@ -70,8 +70,6 @@ EggSpeciesMovesPointers::
 	dw ExeggcuteEggSpeciesMoves         ; Exeggutor
 	dw CuboneEggSpeciesMoves            ; Cubone
 	dw CuboneEggSpeciesMoves            ; Marowak
-	dw TyrogueEggSpeciesMoves           ; Hitmonlee
-	dw TyrogueEggSpeciesMoves           ; Hitmonchan
 	dw LickitungEggSpeciesMoves         ; Lickitung
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
@@ -199,8 +197,6 @@ EggSpeciesMovesPointers::
 	dw PorygonEggSpeciesMoves           ; Porygon2
 	dw StantlerEggSpeciesMoves          ; Stantler
 	dw NoEggSpeciesMoves                ; Smeargle
-	dw TyrogueEggSpeciesMoves           ; Tyrogue
-	dw TyrogueEggSpeciesMoves           ; Hitmontop
 	dw SmoochumEggSpeciesMoves          ; Smoochum
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
@@ -254,12 +250,12 @@ EggSpeciesMovesPointers::
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SnivyEggSpeciesMoves             ; Snivy
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SnivyEggSpeciesMoves             ; Servine
 	dw SnivyEggSpeciesMoves             ; Serperior
 	dw TepigEggSpeciesMoves             ; Tepig
 	dw TepigEggSpeciesMoves             ; Pignite
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TepigEggSpeciesMoves             ; Emboar
 	dw OshawottEggSpeciesMoves          ; Oshawott
 	dw OshawottEggSpeciesMoves          ; Dewott

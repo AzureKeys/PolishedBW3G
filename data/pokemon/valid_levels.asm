@@ -71,8 +71,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  30, 100 ; Exeggutor
 	db   1,  27 ; Cubone
 	db  28, 100 ; Marowak
-	db  20, 100 ; Hitmonlee
-	db  20, 100 ; Hitmonchan
 	db  10, 100 ; Lickitung
 	db   1,  34 ; Koffing
 	db  35, 100 ; Weezing
@@ -204,8 +202,6 @@ endc
 	db  20,  39 ; Porygon2
 	db   1,  29 ; Stantler
 	db   1, 100 ; Smeargle
-	db   1,  19 ; Tyrogue
-	db  20, 100 ; Hitmontop
 	db   1,  19 ; Smoochum
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
@@ -259,12 +255,12 @@ endc
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
 	db   1,  16 ; Snivy
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  17,  35 ; Servine
 	db  36, 100 ; Serperior
 	db   1,  16 ; Tepig
 	db  17,  35 ; Pignite
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  36, 100 ; Emboar
 	db   1,  16 ; Oshawott
 	db  17,  35 ; Dewott

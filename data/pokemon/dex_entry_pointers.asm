@@ -71,8 +71,6 @@ PokedexDataPointerTable:
 	dba ExeggutorPlainPokedexEntry
 	dba CubonePokedexEntry
 	dba MarowakPlainPokedexEntry
-	dba HitmonleePokedexEntry
-	dba HitmonchanPokedexEntry
 	dba LickitungPokedexEntry
 	dba KoffingPokedexEntry
 	dba WeezingPlainPokedexEntry
@@ -200,8 +198,6 @@ PokedexDataPointerTable:
 	dba Porygon2PokedexEntry
 	dba StantlerPokedexEntry
 	dba SmearglePokedexEntry
-	dba TyroguePokedexEntry
-	dba HitmontopPokedexEntry
 	dba SmoochumPokedexEntry
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
@@ -255,12 +251,12 @@ PokedexDataPointerTable:
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba SnivyPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba ServinePokedexEntry
 	dba SerperiorPokedexEntry
 	dba TepigPokedexEntry
 	dba PignitePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba EmboarPokedexEntry
 	dba OshawottPokedexEntry
 	dba DewottPokedexEntry

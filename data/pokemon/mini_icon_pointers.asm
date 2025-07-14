@@ -74,8 +74,6 @@ MiniIconPointers:
 	mini_icon Exeggutor
 	mini_icon Cubone
 	mini_icon Marowak
-	mini_icon Hitmonlee
-	mini_icon Hitmonchan
 	mini_icon Lickitung
 	mini_icon Koffing
 	mini_icon Weezing
@@ -203,8 +201,6 @@ MiniIconPointers:
 	mini_icon Porygon2
 	mini_icon Stantler
 	mini_icon Smeargle
-	mini_icon Tyrogue
-	mini_icon Hitmontop
 	mini_icon Smoochum
 	mini_icon Elekid
 	mini_icon Magby
@@ -258,12 +254,12 @@ MiniIconPointers:
 	mini_icon Clodsire
 	mini_icon Annihilape
 	mini_icon Snivy
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Servine
 	mini_icon Serperior
 	mini_icon Tepig
 	mini_icon Pignite
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Emboar
 	mini_icon Oshawott
 	mini_icon Dewott

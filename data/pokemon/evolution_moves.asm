@@ -70,8 +70,6 @@ EvolutionMoves::
 	db STOMP        ; EXEGGUTOR
 	db NO_MOVE      ; CUBONE
 	db SWORDS_DANCE ; MAROWAK
-	db DOUBLE_KICK  ; HITMONLEE
-	db DIZZY_PUNCH  ; HITMONCHAN
 	db NO_MOVE      ; LICKITUNG
 	db NO_MOVE      ; KOFFING
 	db NO_MOVE      ; WEEZING
@@ -203,8 +201,6 @@ endc
 	db NO_MOVE      ; PORYGON2
 	db NO_MOVE      ; STANTLER
 	db NO_MOVE      ; SMEARGLE
-	db NO_MOVE      ; TYROGUE
-	db LOW_KICK     ; HITMONTOP
 	db NO_MOVE      ; SMOOCHUM
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
@@ -258,12 +254,12 @@ endc
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
 	db NO_MOVE      ; SNIVY
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; SERVINE
 	db NO_MOVE      ; SERPERIOR
 	db NO_MOVE      ; TEPIG
 	db LOW_KICK     ; PIGNITE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; EMBOAR
 	db NO_MOVE      ; OSHAWOTT
 	db NO_MOVE      ; DEWOTT

@@ -1795,49 +1795,6 @@ endc
 	learnset 59, PAIN_SPLIT ; Retaliate → S/M tutor move
 	learnset 65, OUTRAGE ; Bone Rush → HGSS tutor move
 
-	evos_attacks Hitmonlee
-	learnset 1, DOUBLE_KICK ; evolution move
-	learnset 1, BULK_UP ; Revenge → TM move
-	learnset 5, AGILITY ; Meditate → new move
-	learnset 9, PURSUIT ; Rolling Kick → egg move
-	learnset 13, LOW_KICK ; Jump Kick → HGSS tutor move
-	learnset 17, STOMP ; Brick Break → new move
-if DEF(FAITHFUL)
-	learnset 21, ENDURE ; Focus Energy → TM move
-else
-	learnset 21, ROCK_SMASH ; Focus Energy → "Brick Break"
-endc
-	learnset 25, AERIAL_ACE ; Feint → new move
-	learnset 29, HI_JUMP_KICK
-	learnset 33, DOUBLE_TEAM ; Mind Reader → TM move
-	learnset 37, FORESIGHT
-	learnset 41, FOCUS_ENERGY ; Wide Guard → LGPE move
-	learnset 45, REVERSAL ; Blaze Kick → Reversal
-	learnset 49, ENDURE
-	learnset 53, FOCUS_BLAST ; Mega Kick → TM move
-	learnset 57, CLOSE_COMBAT
-	learnset 61, COUNTER ; Reversal → TM move
-
-	evos_attacks Hitmonchan
-	learnset 1, DIZZY_PUNCH ; Comet Punch → Dizzy Punch ; evolution move
-	learnset 1, BULK_UP ; Revenge → TM move
-	learnset 6, AGILITY
-	learnset 11, PURSUIT
-	learnset 13, MACH_PUNCH
-	learnset 17, BULLET_PUNCH
-	learnset 21, AERIAL_ACE ; Feint → new move
-	learnset 26, SEISMIC_TOSS ; Vacuum Wave → RBY TM move
-	learnset 31, FORESIGHT ; Quick Guard → new move
-	learnset 36, THUNDERPUNCH
-	learnset 36, ICE_PUNCH
-	learnset 36, FIRE_PUNCH
-	learnset 41, FOCUS_ENERGY ; Sky Uppercut → LGPE move
-	learnset 46, DYNAMICPUNCH ; Mega Punch → TM move
-	learnset 51, PROTECT ; Detect → TM move
-	learnset 56, FOCUS_BLAST ; Focus Punch → TM move
-	learnset 61, COUNTER
-	learnset 66, CLOSE_COMBAT
-
 	evos_attacks Lickitung
 	evo_data EVOLVE_MOVE, ROLLOUT, LICKILICKY
 	learnset 1, LICK
@@ -4407,31 +4364,6 @@ endc
 	learnset 71, SKETCH
 	learnset 81, SKETCH
 	learnset 91, SKETCH
-
-	evos_attacks Tyrogue
-	evo_data EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
-	evo_data EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
-	evo_data EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
-	learnset 1, TACKLE
-	learnset 1, RAGE ; Fake Out → event move
-	learnset 1, FORESIGHT
-
-	evos_attacks Hitmontop
-	learnset 1, LOW_KICK ; Rolling Kick → HGSS tutor move ; evolution move
-	learnset 1, BULK_UP ; Revenge → TM move
-	learnset 6, FOCUS_ENERGY
-	learnset 10, PURSUIT
-	learnset 15, QUICK_ATTACK
-	learnset 19, RAPID_SPIN
-	learnset 24, FEINT_ATTACK ; Feint → new move
-	learnset 28, COUNTER
-	learnset 33, DOUBLE_KICK ; Triple Kick → similar move
-	learnset 37, AGILITY
-	learnset 42, GYRO_BALL
-	learnset 46, FORESIGHT ; Wide Guard + Quick Guard → new move
-	learnset 50, PROTECT ; Detect → similar move
-	learnset 55, CLOSE_COMBAT
-	learnset 60, REVERSAL ; Endeavor → new move
 
 	evos_attacks Smoochum
 	evo_data EVOLVE_LEVEL, 30, JYNX

@@ -93,9 +93,6 @@ AlphabeticalPokedexOrder:
 	dp HAUNTER
 	dp HERACROSS
 	dp HERDIER
-	dp HITMONCHAN
-	dp HITMONLEE
-	dp HITMONTOP
 	dp HO_OH
 	dp HONCHKROW
 	dp HOOTHOOT
@@ -271,7 +268,6 @@ AlphabeticalPokedexOrder:
 	dp TYMPOLE
 	dp TYPHLOSION
 	dp TYRANITAR
-	dp TYROGUE
 	dp UMBREON
 	dp UNFEZANT
 	dp UNOWN
