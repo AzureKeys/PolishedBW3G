@@ -2921,6 +2921,25 @@ SeismitoadPokedexEntry::
 	next "vibration to hurt"
 	next "opponents.@"
 
+SECTION "ThrohPokedexEntry", ROMX
+ThrohPokedexEntry::
+	db "Judo@"
+	db "When they approach"
+	next "foes bigger than"
+	next "themselves, they"
+	page "will always try to"
+	next "throw them.@"
+
+SECTION "SawkPokedexEntry", ROMX
+SawkPokedexEntry::
+	db "Karate@"
+	db "The sound of Sawk"
+	next "punching trees can"
+	next "be heard all the"
+	page "way down from the"
+	next "mountains where"
+	next "they train.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

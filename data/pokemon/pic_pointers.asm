@@ -298,6 +298,8 @@ PokemonPicPointers::
 	pics Tympole
 	pics Palpitoad
 	pics Seismitoad
+	pics Throh
+	pics Sawk
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

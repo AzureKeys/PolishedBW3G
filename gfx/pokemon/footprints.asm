@@ -52,6 +52,8 @@ ConkeldurrFootprint::
 TympoleFootprint::
 PalpitoadFootprint::
 SeismitoadFootprint::
+ThrohFootprint::
+SawkFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

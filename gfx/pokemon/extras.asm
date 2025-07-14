@@ -241,6 +241,8 @@ ConkeldurrAnimationExtra: INCLUDE "gfx/pokemon/conkeldurr/anim_idle.asm"
 TympoleAnimationExtra:    INCLUDE "gfx/pokemon/tympole/anim_idle.asm"
 PalpitoadAnimationExtra:  INCLUDE "gfx/pokemon/palpitoad/anim_idle.asm"
 SeismitoadAnimationExtra: INCLUDE "gfx/pokemon/seismitoad/anim_idle.asm"
+ThrohAnimationExtra:      INCLUDE "gfx/pokemon/throh/anim_idle.asm"
+SawkAnimationExtra:       INCLUDE "gfx/pokemon/sawk/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

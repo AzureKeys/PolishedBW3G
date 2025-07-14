@@ -298,6 +298,8 @@ MiniIconPointers:
 	mini_icon Tympole
 	mini_icon Palpitoad
 	mini_icon Seismitoad
+	mini_icon Throh
+	mini_icon Sawk
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -295,4 +295,6 @@ PokemonNames::
 	rawchar "Tympole@@@"
 	rawchar "Palpitoad@"
 	rawchar "Seismitoad"
+	rawchar "Throh@@@@@"
+	rawchar "Sawk@@@@@@"
 	assert_table_length NUM_SPECIES + 1

@@ -6089,6 +6089,45 @@ endc
 	learnset 49, EARTH_POWER ; Echoed Voice
 	learnset 53, HYDRO_PUMP
 	learnset 59, HYPER_VOICE
+	
+	evos_attacks Throh
+	learnset 1, WRAP ; Bind
+	learnset 1, TACKLE ; Bide
+	learnset 1, LEER
+	learnset 1, FOCUS_ENERGY
+	;learnset 9, VITAL_THROW
+	learnset 13, KARATE_CHOP ; Revenge
+	learnset 17, DRAIN_PUNCH ; Storm Throw
+	learnset 21, BODY_SLAM
+	learnset 25, BULK_UP
+	;learnset 29, CIRCLE_THROW
+	learnset 33, ENDURE
+	learnset 37, PROTECT ; Wide Guard
+	learnset 41, CLOSE_COMBAT ; Superpower
+	learnset 45, REVERSAL
+	
+	evos_attacks Sawk
+if DEF(FAITHFUL)
+	learnset 1, ROCK_SMASH
+else
+	learnset 1, TACKLE ; Rock Smash
+endc
+	learnset 1, LEER
+	learnset 1, FOCUS_ENERGY
+	learnset 9, DOUBLE_KICK ; Low Sweep
+	learnset 13, COUNTER
+	learnset 17, KARATE_CHOP
+if DEF(FAITHFUL)
+	learnset 21, CROSS_CHOP ; Brick Break
+else
+	learnset 21, BRICK_BREAK
+endc
+	learnset 25, BULK_UP
+	learnset 29, HI_JUMP_KICK ; Retaliate
+	learnset 33, ENDURE
+	learnset 37, PROTECT ; Quick Guard
+	learnset 41, CLOSE_COMBAT
+	learnset 45, REVERSAL
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

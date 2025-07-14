@@ -294,6 +294,8 @@ AnimationExtraPointers:
 	dw TympoleAnimationExtra
 	dw PalpitoadAnimationExtra
 	dw SeismitoadAnimationExtra
+	dw ThrohAnimationExtra
+	dw SawkAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

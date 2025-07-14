@@ -1568,3 +1568,11 @@ PalpitoadBackpic:  INCBIN "gfx/pokemon/palpitoad/back.2bpp.lz"
 SECTION "Seismitoad Pics", ROMX
 SeismitoadFrontpic: INCBIN "gfx/pokemon/seismitoad/front.animated.2bpp.lz"
 SeismitoadBackpic:  INCBIN "gfx/pokemon/seismitoad/back.2bpp.lz"
+
+SECTION "Throh Pics", ROMX
+ThrohFrontpic: INCBIN "gfx/pokemon/throh/front.animated.2bpp.lz"
+ThrohBackpic:  INCBIN "gfx/pokemon/throh/back.2bpp.lz"
+
+SECTION "Sawk Pics", ROMX
+SawkFrontpic: INCBIN "gfx/pokemon/sawk/front.animated.2bpp.lz"
+SawkBackpic:  INCBIN "gfx/pokemon/sawk/back.2bpp.lz"

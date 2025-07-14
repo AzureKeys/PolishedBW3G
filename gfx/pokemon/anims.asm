@@ -241,6 +241,8 @@ ConkeldurrAnimation: INCLUDE "gfx/pokemon/conkeldurr/anim.asm"
 TympoleAnimation:    INCLUDE "gfx/pokemon/tympole/anim.asm"
 PalpitoadAnimation:  INCLUDE "gfx/pokemon/palpitoad/anim.asm"
 SeismitoadAnimation: INCLUDE "gfx/pokemon/seismitoad/anim.asm"
+ThrohAnimation:      INCLUDE "gfx/pokemon/throh/anim.asm"
+SawkAnimation:       INCLUDE "gfx/pokemon/sawk/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

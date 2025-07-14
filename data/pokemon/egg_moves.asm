@@ -1240,5 +1240,13 @@ TympoleEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
+ThrohEggSpeciesMoves:
+	dp THROH, PLAIN_FORM
+	db $ff
+
+SawkEggSpeciesMoves:
+	dp SAWK, PLAIN_FORM
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

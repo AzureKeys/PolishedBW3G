@@ -295,6 +295,8 @@ PokedexDataPointerTable:
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
 	dba SeismitoadPokedexEntry
+	dba ThrohPokedexEntry
+	dba SawkPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

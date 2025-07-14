@@ -163,6 +163,8 @@ ConkeldurrFrames: INCLUDE "gfx/pokemon/conkeldurr/frames.asm"
 TympoleFrames:    INCLUDE "gfx/pokemon/tympole/frames.asm"
 PalpitoadFrames:  INCLUDE "gfx/pokemon/palpitoad/frames.asm"
 SeismitoadFrames: INCLUDE "gfx/pokemon/seismitoad/frames.asm"
+ThrohFrames:      INCLUDE "gfx/pokemon/throh/frames.asm"
+SawkFrames:       INCLUDE "gfx/pokemon/sawk/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

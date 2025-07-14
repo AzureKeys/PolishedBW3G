@@ -298,6 +298,8 @@ EvosAttacksPointers::
 	dw TympoleEvosAttacks
 	dw PalpitoadEvosAttacks
 	dw SeismitoadEvosAttacks
+	dw ThrohEvosAttacks
+	dw SawkEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

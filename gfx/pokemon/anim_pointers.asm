@@ -294,6 +294,8 @@ AnimationPointers:
 	dw TympoleAnimation
 	dw PalpitoadAnimation
 	dw SeismitoadAnimation
+	dw ThrohAnimation
+	dw SawkAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

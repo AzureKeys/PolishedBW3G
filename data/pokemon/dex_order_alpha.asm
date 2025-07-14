@@ -216,6 +216,7 @@ AlphabeticalPokedexOrder:
 	dp SAMUROTT
 	dp SANDSHREW
 	dp SANDSLASH
+	dp SAWK
 	dp SCIZOR
 	dp SCYTHER
 	dp SEADRA
@@ -259,6 +260,7 @@ AlphabeticalPokedexOrder:
 	dp TAUROS
 	dp TEDDIURSA
 	dp TEPIG
+	dp THROH
 	dp TIMBURR
 	dp TOGEKISS
 	dp TOGEPI

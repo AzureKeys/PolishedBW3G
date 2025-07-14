@@ -1472,6 +1472,16 @@ SeismitoadMini::     INCBIN "gfx/minis/seismitoad.2bpp.lz"
 SeismitoadMiniMask:: INCBIN "gfx/minis/seismitoad_mask.1bpp.lz"
 SeismitoadIcon::     INCBIN "gfx/icons/seismitoad.2bpp.lz"
 
+SECTION "Throh Mini Icon", ROMX
+ThrohMini::     INCBIN "gfx/minis/throh.2bpp.lz"
+ThrohMiniMask:: INCBIN "gfx/minis/throh_mask.1bpp.lz"
+ThrohIcon::     INCBIN "gfx/icons/throh.2bpp.lz"
+
+SECTION "Sawk Mini Icon", ROMX
+SawkMini::     INCBIN "gfx/minis/sawk.2bpp.lz"
+SawkMiniMask:: INCBIN "gfx/minis/sawk_mask.1bpp.lz"
+SawkIcon::     INCBIN "gfx/icons/sawk.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

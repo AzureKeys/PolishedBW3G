@@ -299,4 +299,6 @@ endc
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
 	db  36, 100 ; Seismtioad
+	db  20, 100 ; Throh
+	db  20, 100 ; Sawk
 	assert_table_length NUM_SPECIES

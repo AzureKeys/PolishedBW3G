@@ -298,6 +298,8 @@ OverworldMonIconColors::
 	iconpal BLUE, YELLOW ; TYMPOLE
 	iconpal BLUE, TEAL ; PALPITOAD
 	iconpal BLUE, TEAL ; SEISMITOAD
+	iconpal RED, ORANGE ; THROH
+	iconpal BLUE, PURPLE ; SAWK
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

@@ -294,6 +294,8 @@ EggSpeciesMovesPointers::
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
 	dw TympoleEggSpeciesMoves           ; Seismitoad
+	dw ThrohEggSpeciesMoves             ; Throh
+	dw SawkEggSpeciesMoves              ; Sawk
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

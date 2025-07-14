@@ -301,6 +301,8 @@ PokemonBodyData:
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
+	body_data  13,  555, BIPEDAL,      RED    ; THROH
+	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

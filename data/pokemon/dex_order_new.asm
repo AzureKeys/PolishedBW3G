@@ -39,6 +39,8 @@ NewPokedexOrder:
 	dp TYMPOLE
 	dp PALPITOAD
 	dp SEISMITOAD
+	dp THROH
+	dp SAWK
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
