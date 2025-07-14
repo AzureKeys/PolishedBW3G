@@ -67,8 +67,6 @@ PokemonBodyData:
 	body_data  17, 1200, FINS,         WHITE  ; DEWGONG
 	body_data   9,  300, HEAD_ARMS,    PURPLE ; GRIMER
 	body_data  12,  300, HEAD_ARMS,    PURPLE ; MUK
-	body_data   3,   40, HEAD,         PURPLE ; SHELLDER
-	body_data  15, 1325, HEAD,         PURPLE ; CLOYSTER
 	body_data  13,    1, HEAD,         PURPLE ; GASTLY
 	body_data  16,    1, HEAD_ARMS,    PURPLE ; HAUNTER
 	body_data  15,  405, BIPEDAL_TAIL, PURPLE ; GENGAR
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE

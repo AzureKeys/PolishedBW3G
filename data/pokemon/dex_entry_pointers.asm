@@ -61,8 +61,6 @@ PokedexDataPointerTable:
 	dba DewgongPokedexEntry
 	dba GrimerPlainPokedexEntry
 	dba MukPlainPokedexEntry
-	dba ShellderPokedexEntry
-	dba CloysterPokedexEntry
 	dba GastlyPokedexEntry
 	dba HaunterPokedexEntry
 	dba GengarPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba KleavorPokedexEntry
 	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba OverqwilPokedexEntry
 	dba DudunsparcePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry

@@ -6,8 +6,6 @@ WithdrawUsers:
 	dp WARTORTLE
 	dp BLASTOISE
 	dp SLOWBRO
-	dp SHELLDER
-	dp CLOYSTER
 	dp OMANYTE
 	dp OMASTAR
 	db 0

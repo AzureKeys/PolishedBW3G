@@ -66,8 +66,6 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $023,  $17f ; Dewgong
 	mon_cry CRY_GRIMER,      $000,  $100 ; Grimer
 	mon_cry CRY_MUK,         $0ef,  $17f ; Muk
-	mon_cry CRY_SHELLDER,    $000,  $100 ; Shellder
-	mon_cry CRY_SHELLDER,    $06f,  $160 ; Cloyster
 	mon_cry CRY_METAPOD,     $000,  $100 ; Gastly
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; Haunter
 	mon_cry CRY_MUK,         $000,  $17f ; Gengar
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Kleavor
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape

@@ -60,8 +60,6 @@ EggSpeciesMovesPointers::
 	dw SeelEggSpeciesMoves              ; Dewgong
 	dw GrimerPlainEggSpeciesMoves       ; Grimer
 	dw GrimerPlainEggSpeciesMoves       ; Muk
-	dw ShellderEggSpeciesMoves          ; Shellder
-	dw ShellderEggSpeciesMoves          ; Cloyster
 	dw GastlyEggSpeciesMoves            ; Gastly
 	dw GastlyEggSpeciesMoves            ; Haunter
 	dw GastlyEggSpeciesMoves            ; Gengar
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw ScytherEggSpeciesMoves           ; Kleavor
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape

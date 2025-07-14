@@ -64,8 +64,6 @@ PokemonPicPointers::
 	pics Dewgong
 	pics GrimerPlain
 	pics MukPlain
-	pics Shellder
-	pics Cloyster
 	pics Gastly
 	pics Haunter
 	pics Gengar
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Kleavor
 	pics UrsalunaPlain
 	pics Sneasler
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Overqwil
 	pics DudunsparceTwoSegment
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape

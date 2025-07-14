@@ -84,8 +84,6 @@
 	const DEWGONG    ; 57
 	const GRIMER     ; 58
 	const MUK        ; 59
-	const SHELLDER   ; 5a
-	const CLOYSTER   ; 5b
 	const GASTLY     ; 5c
 	const HAUNTER    ; 5d
 	const GENGAR     ; 5e
@@ -278,10 +276,10 @@
 	const KLEAVOR    ; 11c
 	const URSALUNA   ; 11d
 	const SNEASLER   ; 11e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const OVERQWIL   ; 11f
 	const DUDUNSPARCE ; 120
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123

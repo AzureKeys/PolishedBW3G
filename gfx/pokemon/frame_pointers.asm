@@ -60,8 +60,6 @@ FramesPointers:
 	dw DewgongFrames
 	dw GrimerPlainFrames
 	dw MukPlainFrames
-	dw ShellderFrames
-	dw CloysterFrames
 	dw GastlyFrames
 	dw HaunterFrames
 	dw GengarFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw KleavorFrames
 	dw UrsalunaPlainFrames
 	dw SneaslerFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw OverqwilFrames
 	dw DudunsparceTwoSegmentFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames

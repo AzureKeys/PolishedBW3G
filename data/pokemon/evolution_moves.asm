@@ -60,8 +60,6 @@ EvolutionMoves::
 	db ICICLE_SPEAR ; DEWGONG
 	db NO_MOVE      ; GRIMER
 	db NO_MOVE      ; MUK
-	db NO_MOVE      ; SHELLDER
-	db SPIKES       ; CLOYSTER
 	db NO_MOVE      ; GASTLY
 	db SHADOW_CLAW  ; HAUNTER
 	db SHADOW_CLAW  ; GENGAR
@@ -258,10 +256,10 @@ endc
 	db ROCK_THROW   ; KLEAVOR
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE

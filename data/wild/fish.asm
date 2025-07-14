@@ -59,10 +59,10 @@ ENDM
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     RATTATA,  20
 	fishentry  90 percent + 1, CHINCHOU,   20
-	fishentry 100 percent,     SHELLDER,   20
+	fishentry 100 percent,     RATTATA,   20
 .Ocean_Super:
 	fishentry  40 percent,     CHINCHOU,   40
-	fishentry  70 percent,     SHELLDER,   40
+	fishentry  70 percent,     RATTATA,   40
 	fishentry  90 percent + 1, RATTATA, 40
 	fishentry 100 percent,     LANTURN,    40
 
@@ -89,7 +89,7 @@ ENDM
 .Well_Super:
 	fishentry  40 percent,     GOLDEEN,    40
 	fishentry  70 percent,     GOLDEEN,    40
-	fishentry  90 percent + 1, SHELLDER,   40
+	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     SEAKING,    40
 
 .Pond_Old:

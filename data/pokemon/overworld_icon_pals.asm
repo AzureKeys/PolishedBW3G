@@ -64,8 +64,6 @@ OverworldMonIconColors::
 	iconpal AZURE, WHITE ; DEWGONG
 	iconpal PURPLE, GREEN ; GRIMER
 	iconpal PURPLE, GREEN ; MUK
-	iconpal PURPLE, RED ; SHELLDER
-	iconpal PURPLE, BLUE ; CLOYSTER
 	iconpal PURPLE, AZURE ; GASTLY
 	iconpal PURPLE, BLUE ; HAUNTER
 	iconpal PURPLE, BLUE ; GENGAR
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal PURPLE, BLUE ; OVERQWIL
 	iconpal AZURE, RED ; DUDUNSPARCE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal BROWN, BLUE ; ANNIHILAPE

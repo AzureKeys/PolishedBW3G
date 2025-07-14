@@ -60,8 +60,6 @@ AnimationExtraPointers:
 	dw DewgongAnimationExtra
 	dw GrimerPlainAnimationExtra
 	dw MukPlainAnimationExtra
-	dw ShellderAnimationExtra
-	dw CloysterAnimationExtra
 	dw GastlyAnimationExtra
 	dw HaunterAnimationExtra
 	dw GengarAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw KleavorAnimationExtra
 	dw UrsalunaPlainAnimationExtra
 	dw SneaslerAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw OverqwilAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra

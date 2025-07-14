@@ -51,7 +51,6 @@ GurdurrFootprint::
 ConkeldurrFootprint::
 ArbokFootprint::
 ChinchouFootprint::
-CloysterFootprint::
 CrobatFootprint::
 DewgongFootprint::
 DiglettFootprint::
@@ -94,7 +93,6 @@ RemoraidFootprint::
 SeadraFootprint::
 SeakingFootprint::
 SeelFootprint::
-ShellderFootprint::
 SlugmaFootprint::
 SteelixFootprint::
 SunkernFootprint::

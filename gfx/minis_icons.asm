@@ -307,16 +307,6 @@ MukMini::     INCBIN "gfx/minis/muk.2bpp.lz"
 MukMiniMask:: INCBIN "gfx/minis/muk_mask.1bpp.lz"
 MukIcon::     INCBIN "gfx/icons/muk.2bpp.lz"
 
-SECTION "Shellder Mini Icon", ROMX
-ShellderMini::     INCBIN "gfx/minis/shellder.2bpp.lz"
-ShellderMiniMask:: INCBIN "gfx/minis/shellder_mask.1bpp.lz"
-ShellderIcon::     INCBIN "gfx/icons/shellder.2bpp.lz"
-
-SECTION "Cloyster Mini Icon", ROMX
-CloysterMini::     INCBIN "gfx/minis/cloyster.2bpp.lz"
-CloysterMiniMask:: INCBIN "gfx/minis/cloyster_mask.1bpp.lz"
-CloysterIcon::     INCBIN "gfx/icons/cloyster.2bpp.lz"
-
 SECTION "Gastly Mini Icon", ROMX
 GastlyMini::     INCBIN "gfx/minis/gastly.2bpp.lz"
 GastlyMiniMask:: INCBIN "gfx/minis/gastly_mask.1bpp.lz"

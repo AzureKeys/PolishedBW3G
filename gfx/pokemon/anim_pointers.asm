@@ -60,8 +60,6 @@ AnimationPointers:
 	dw DewgongAnimation
 	dw GrimerPlainAnimation
 	dw MukPlainAnimation
-	dw ShellderAnimation
-	dw CloysterAnimation
 	dw GastlyAnimation
 	dw HaunterAnimation
 	dw GengarAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw KleavorAnimation
 	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw OverqwilAnimation
 	dw DudunsparceTwoSegmentAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation

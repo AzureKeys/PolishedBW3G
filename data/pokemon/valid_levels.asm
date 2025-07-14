@@ -61,8 +61,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  34, 100 ; Dewgong
 	db   1,  37 ; Grimer
 	db  38, 100 ; Muk
-	db   1,  33 ; Shellder
-	db  34, 100 ; Cloyster
 	db   1,  24 ; Gastly
 	db  25,  44 ; Haunter
 	db  45, 100 ; Gengar
@@ -259,10 +257,10 @@ endc
 	db  20, 100 ; Kleavor
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  33, 100 ; Overqwil
 	db  32, 100 ; Dudunsparce
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape

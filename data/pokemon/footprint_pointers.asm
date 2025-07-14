@@ -60,8 +60,6 @@ FootprintPointers::
 	dw DewgongFootprint
 	dw GrimerFootprint
 	dw MukFootprint
-	dw ShellderFootprint
-	dw CloysterFootprint
 	dw GastlyFootprint
 	dw HaunterFootprint
 	dw GengarFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw KleavorFootprint
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw OverqwilFootprint
 	dw DudunsparceFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint

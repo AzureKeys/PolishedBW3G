@@ -64,8 +64,6 @@ EvosAttacksPointers::
 	dw DewgongEvosAttacks
 	dw GrimerPlainEvosAttacks
 	dw MukPlainEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
 	dw GastlyEvosAttacks
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw KleavorEvosAttacks
 	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw OverqwilEvosAttacks
 	dw DudunsparceEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks

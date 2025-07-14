@@ -196,8 +196,6 @@ NewPokedexOrder:
 	dp SHUCKLE
 	dp STARYU
 	dp STARMIE
-	dp SHELLDER
-	dp CLOYSTER
 	dp CORSOLA
 	dp CURSOLA
 	dp REMORAID

@@ -960,16 +960,16 @@
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; day
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; nite
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
@@ -988,16 +988,16 @@
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; day
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; nite
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
@@ -1016,16 +1016,16 @@
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; day
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; nite
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
@@ -1044,16 +1044,16 @@
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; day
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; nite
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
@@ -1072,16 +1072,16 @@
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; day
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
 	wildmon 32, SEEL
 	wildmon 34, KRABBY
 	wildmon 35, GOLBAT
-	wildmon 34, SHELLDER
-	wildmon 34, SHELLDER
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	; nite
 	wildmon 32, KRABBY
 	wildmon 33, ZUBAT
@@ -1100,16 +1100,16 @@
 	wildmon 33, SEEL
 	wildmon 35, KRABBY
 	wildmon 36, GOLBAT
-	wildmon 35, SHELLDER
-	wildmon 35, SHELLDER
+	wildmon 35, RATTATA
+	wildmon 35, RATTATA
 	; day
 	wildmon 33, KRABBY
 	wildmon 34, ZUBAT
 	wildmon 33, SEEL
 	wildmon 35, KRABBY
 	wildmon 36, GOLBAT
-	wildmon 35, SHELLDER
-	wildmon 35, SHELLDER
+	wildmon 35, RATTATA
+	wildmon 35, RATTATA
 	; nite
 	wildmon 33, KRABBY
 	wildmon 34, ZUBAT
@@ -1128,16 +1128,16 @@
 	wildmon 34, SEEL
 	wildmon 36, KRABBY
 	wildmon 37, GOLBAT
-	wildmon 36, SHELLDER
-	wildmon 36, SHELLDER
+	wildmon 36, RATTATA
+	wildmon 36, RATTATA
 	; day
 	wildmon 34, KRABBY
 	wildmon 35, ZUBAT
 	wildmon 34, SEEL
 	wildmon 36, KRABBY
 	wildmon 37, GOLBAT
-	wildmon 36, SHELLDER
-	wildmon 36, SHELLDER
+	wildmon 36, RATTATA
+	wildmon 36, RATTATA
 	; nite
 	wildmon 34, KRABBY
 	wildmon 35, ZUBAT
@@ -1156,16 +1156,16 @@
 	wildmon 35, SEEL
 	wildmon 37, KRABBY
 	wildmon 38, GOLBAT
-	wildmon 37, SHELLDER
-	wildmon 37, SHELLDER
+	wildmon 37, RATTATA
+	wildmon 37, RATTATA
 	; day
 	wildmon 35, KRABBY
 	wildmon 36, ZUBAT
 	wildmon 35, SEEL
 	wildmon 37, KRABBY
 	wildmon 38, GOLBAT
-	wildmon 37, SHELLDER
-	wildmon 37, SHELLDER
+	wildmon 37, RATTATA
+	wildmon 37, RATTATA
 	; nite
 	wildmon 35, KRABBY
 	wildmon 36, ZUBAT

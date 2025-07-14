@@ -1540,40 +1540,6 @@ endc
 	learnset 46, PAIN_SPLIT ; Acid Armor → HGSS tutor move
 	learnset 52, TOXIC_SPIKES ; Belch → SV TM move
 
-	evos_attacks Shellder
-	evo_data EVOLVE_ITEM, WATER_STONE, CLOYSTER
-	learnset 1, TACKLE
-	learnset 4, DEFENSE_CURL ; Withdraw → similar move
-	learnset 8, SUPERSONIC
-	learnset 13, ICICLE_SPEAR
-	learnset 16, PROTECT
-	learnset 20, LEER
-	learnset 25, BITE ; Ice Shard → new move
-	learnset 28, ICE_SHARD ; Clamp → Ice Shard
-	learnset 32, BUBBLE_BEAM ; Razor Shell → egg move
-	learnset 37, AURORA_BEAM
-	learnset 40, WHIRLPOOL
-	learnset 44, EXPLOSION ; Brine → RBY TM move
-	learnset 49, BARRIER ; Iron Defense → egg move
-	learnset 52, ICE_BEAM
-	learnset 56, SHELL_SMASH
-	learnset 61, HYDRO_PUMP
-
-	evos_attacks Cloyster
-	learnset 1, HYDRO_PUMP
-	learnset 1, SHELL_SMASH
-	learnset 1, TOXIC_SPIKES
-	learnset 1, FURY_STRIKES ; Spike Cannon → similar move
-	learnset 1, TRI_ATTACK ; RBY TM move
-	learnset 1, DEFENSE_CURL ; Withdraw → similar move
-	learnset 1, SUPERSONIC
-	learnset 1, PROTECT
-	learnset 1, AURORA_BEAM
-	learnset 1, SPIKES ; evolution move
-	learnset 28, ICICLE_SPEAR ; Spikes → Icicle Spear
-	learnset 32, PIN_MISSILE ; Sw/Sh TM move
-	learnset 50, ICICLE_CRASH
-
 	evos_attacks Gastly
 	evo_data EVOLVE_LEVEL, 25, HAUNTER
 	learnset 1, HYPNOSIS

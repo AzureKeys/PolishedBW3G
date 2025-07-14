@@ -60,8 +60,6 @@ BitmasksPointers:
 	dw DewgongBitmasks
 	dw GrimerPlainBitmasks
 	dw MukPlainBitmasks
-	dw ShellderBitmasks
-	dw CloysterBitmasks
 	dw GastlyBitmasks
 	dw HaunterBitmasks
 	dw GengarBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw KleavorBitmasks
 	dw UrsalunaPlainBitmasks
 	dw SneaslerBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw OverqwilBitmasks
 	dw DudunsparceTwoSegmentBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks

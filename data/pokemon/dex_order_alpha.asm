@@ -32,7 +32,6 @@ AlphabeticalPokedexOrder:
 	dp CLEFAIRY
 	dp CLEFFA
 	dp CLODSIRE
-	dp CLOYSTER
 	dp CONKELDURR
 	dp CORSOLA
 	dp CROBAT
@@ -226,7 +225,6 @@ AlphabeticalPokedexOrder:
 	dp SENTRET
 	dp SERPERIOR
 	dp SERVINE
-	dp SHELLDER
 	dp SHUCKLE
 	dp SIRFETCH_D
 	dp SKARMORY

@@ -156,14 +156,6 @@ SECTION "Dewgong Pics", ROMX
 DewgongFrontpic: INCBIN "gfx/pokemon/dewgong/front.animated.2bpp.lz"
 DewgongBackpic:  INCBIN "gfx/pokemon/dewgong/back.2bpp.lz"
 
-SECTION "Shellder Pics", ROMX
-ShellderFrontpic: INCBIN "gfx/pokemon/shellder/front.animated.2bpp.lz"
-ShellderBackpic:  INCBIN "gfx/pokemon/shellder/back.2bpp.lz"
-
-SECTION "Cloyster Pics", ROMX
-CloysterFrontpic: INCBIN "gfx/pokemon/cloyster/front.animated.2bpp.lz"
-CloysterBackpic:  INCBIN "gfx/pokemon/cloyster/back.2bpp.lz"
-
 SECTION "Gastly Pics", ROMX
 GastlyFrontpic: INCBIN "gfx/pokemon/gastly/front.animated.2bpp.lz"
 GastlyBackpic:  INCBIN "gfx/pokemon/gastly/back.2bpp.lz"

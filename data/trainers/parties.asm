@@ -357,7 +357,7 @@ PryceGroup:
 	tr_mon 38, SNEASEL
 		tr_evs 224 Atk
 		tr_moves SWORDS_DANCE, ICICLE_CRASH, SCREECH, SLASH
-	tr_mon 38, CLOYSTER
+	tr_mon 38, RATTATA
 		tr_evs 224 HP
 		tr_moves DEFENSE_CURL, SUPERSONIC, WATER_PULSE, ICE_SHARD
 	tr_mon 40, LAPRAS
@@ -371,7 +371,7 @@ PryceGroup:
 	def_trainer 2, "Pryce"
 	tr_mon 73, DEWGONG @ FOCUS_BAND
 		tr_moves PROTECT, TOXIC, SURF, ICE_BEAM
-	tr_mon 73, CLOYSTER @ KINGS_ROCK
+	tr_mon 73, RATTATA @ KINGS_ROCK
 		tr_moves SPIKES, SURF, EXPLOSION, ICICLE_CRASH
 	tr_mon 72, WEAVILE @ KINGS_ROCK
 		tr_moves SWORDS_DANCE, ICICLE_CRASH, SLASH, CRUNCH
@@ -2263,7 +2263,7 @@ FisherGroup:
 	end_trainer
 
 	def_trainer ARNOLD, "Arnold"
-	tr_mon 62, CLOYSTER
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer KYLE, "Kyle"
@@ -2308,10 +2308,10 @@ FisherGroup:
 	end_trainer
 
 	def_trainer JONAH, "Jonah"
-	tr_mon 44, SHELLDER
+	tr_mon 44, RATTATA
 	tr_mon 46, OCTILLERY
 	tr_mon 44, REMORAID
-	tr_mon 46, CLOYSTER
+	tr_mon 46, RATTATA
 	end_trainer
 
 	def_trainer MARTIN, "Martin"
@@ -4454,13 +4454,13 @@ CoupleGroup:
 	end_trainer
 
 	def_trainer DUFFANDEDA1, "Duff & Eda"
-	tr_mon LEVEL_FROM_BADGES + 2, CLOYSTER, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 2, RATTATA, FEMALE
 	tr_mon LEVEL_FROM_BADGES + 2, ONIX, MALE
 	end_trainer
 
 	def_trainer DUFFANDEDA2, "Duff & Eda"
 	tr_mon LEVEL_FROM_BADGES + 2, ONIX, MALE
-	tr_mon LEVEL_FROM_BADGES + 2, CLOYSTER, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 2, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer FOXANDRAE1, "Fox & Rae"
@@ -4815,13 +4815,13 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer RANDALL, "Randall"
-	tr_mon 18, SHELLDER
+	tr_mon 18, RATTATA
 	tr_mon 20, WARTORTLE
-	tr_mon 18, SHELLDER
+	tr_mon 18, RATTATA
 	end_trainer
 
 	def_trainer CHARLIE, "Charlie"
-	tr_mon 21, SHELLDER
+	tr_mon 21, RATTATA
 	tr_mon 19, RATTATA
 	tr_mon 19, RATTATA
 	end_trainer
@@ -4862,8 +4862,8 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer TUCKER, "Tucker"
-	tr_mon 59, SHELLDER
-	tr_mon 61, CLOYSTER
+	tr_mon 59, RATTATA
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer RICK, "Rick"
@@ -4929,14 +4929,14 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer MALCOLM, "Malcolm"
-	tr_mon 54, CLOYSTER
+	tr_mon 54, RATTATA
 	tr_mon 55, DEWGONG
-	tr_mon 54, CLOYSTER
+	tr_mon 54, RATTATA
 	end_trainer
 
 	def_trainer ARMAND, "Armand"
 	tr_mon 55, KINGLER
-	tr_mon 55, CLOYSTER
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer THOMAS, "Thomas"
@@ -4985,7 +4985,7 @@ SwimmerFGroup:
 
 	def_trainer PAULA, "Paula"
 	tr_mon 19, STARYU
-	tr_mon 19, SHELLDER
+	tr_mon 19, RATTATA
 	end_trainer
 
 	def_trainer KAYLEE, "Kaylee"
@@ -5052,7 +5052,7 @@ SwimmerFGroup:
 	end_trainer
 
 	def_trainer VIOLA, "Viola"
-	tr_mon 58, CLOYSTER
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer KATIE, "Lisa" ; MISMATCH
@@ -5293,13 +5293,13 @@ BoarderGroup:
 	end_trainer
 
 	def_trainer DOUGLAS, "Douglas"
-	tr_mon 33, SHELLDER
-	tr_mon 35, CLOYSTER
-	tr_mon 33, SHELLDER
+	tr_mon 33, RATTATA
+	tr_mon 35, RATTATA
+	tr_mon 33, RATTATA
 	end_trainer
 
 	def_trainer SHAUN, "Shaun"
-	tr_mon 65, CLOYSTER
+	tr_mon 65, RATTATA
 	tr_mon 60, DEWGONG
 	end_trainer
 
@@ -6316,8 +6316,8 @@ endc
 	end_trainer
 
 	def_trainer KATE, "Kate"
-	tr_mon 26, SHELLDER
-	tr_mon 28, CLOYSTER
+	tr_mon 26, RATTATA
+	tr_mon 28, RATTATA
 	end_trainer
 
 	def_trainer IRENE, "Irene"
@@ -6973,7 +6973,7 @@ LoreleiGroup:
 	tr_mon 41, DEWGONG
 		tr_evs 240 HP
 		tr_moves WATERFALL, AURORA_BEAM, SLEEP_TALK, REST
-	tr_mon 40, CLOYSTER
+	tr_mon 40, RATTATA
 		tr_evs 240 Atk
 		tr_moves DEFENSE_CURL, ROLLOUT, AURORA_BEAM, EXPLOSION
 	tr_mon 41, SLOWBRO
@@ -6990,7 +6990,7 @@ LoreleiGroup:
 	def_trainer 2, "Lorelei"
 	tr_mon 73, DEWGONG @ LEFTOVERS
 		tr_moves SURF, ICE_BEAM, REST, SLEEP_TALK
-	tr_mon 72, CLOYSTER @ MUSCLE_BAND
+	tr_mon 72, RATTATA @ MUSCLE_BAND
 		tr_moves EXPLOSION, ROCK_BLAST, ICICLE_CRASH, BARRIER
 	tr_mon 73, SLOWBRO @ WISE_GLASSES
 		tr_moves PSYCHIC_M, SURF, ICE_BEAM, CALM_MIND
@@ -7006,7 +7006,7 @@ LoreleiGroup:
 	tr_mon 58, DEWGONG @ LEFTOVERS
 		tr_evs 160 HP, 160 SDf
 		tr_moves AQUA_TAIL, ICE_BEAM, REST, SLEEP_TALK
-	tr_mon 57, CLOYSTER @ SILK_SCARF
+	tr_mon 57, RATTATA @ SILK_SCARF
 		tr_evs 252 Atk, 68 Spe
 		tr_moves EXPLOSION, ROLLOUT, ICICLE_CRASH, BARRIER
 	tr_mon 58, SLOWBRO @ TWISTEDSPOON
@@ -7245,7 +7245,7 @@ BuckGroup:
 	tr_mon 73, FORRETRESS
 	tr_mon 72, SKARMORY
 	tr_mon 73, STEELIX
-	tr_mon 74, CLOYSTER
+	tr_mon 74, RATTATA
 	end_trainer
 
 
@@ -7510,7 +7510,7 @@ MarlonGroup:
 		tr_evs 68 HP, 252 Def
 	tr_mon 58, STARMIE
 		tr_evs 252 SAt, 68 Spe
-	tr_mon 57, CLOYSTER
+	tr_mon 57, RATTATA
 		tr_evs 252 Atk, 68 Spe
 	end_trainer
 
@@ -7520,7 +7520,7 @@ MarlonGroup:
 	tr_mon 73, BLASTOISE
 	tr_mon 74, MANTINE
 	tr_mon 73, STARMIE
-	tr_mon 72, CLOYSTER
+	tr_mon 72, RATTATA
 	end_trainer
 
 

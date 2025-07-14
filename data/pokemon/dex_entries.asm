@@ -606,26 +606,6 @@ MukPlainPokedexEntry::
 	next "there barren for"
 	next "three years.@"
 
-SECTION "ShellderPokedexEntry", ROMX
-ShellderPokedexEntry::
-	db "Bivalve@"
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
-
-SECTION "CloysterPokedexEntry", ROMX
-CloysterPokedexEntry::
-	db "Bivalve@"
-	db   "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
-	page "stab opponents."
-	next "They're even harder"
-	next "than its shell.@"
-
 SECTION "GastlyPokedexEntry", ROMX
 GastlyPokedexEntry::
 	db "Gas@"

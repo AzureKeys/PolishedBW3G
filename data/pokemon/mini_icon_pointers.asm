@@ -64,8 +64,6 @@ MiniIconPointers:
 	mini_icon Dewgong
 	mini_icon Grimer
 	mini_icon Muk
-	mini_icon Shellder
-	mini_icon Cloyster
 	mini_icon Gastly
 	mini_icon Haunter
 	mini_icon Gengar
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Kleavor
 	mini_icon Ursaluna
 	mini_icon Sneasler
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Overqwil
 	mini_icon DudunsparceTwoSegment
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
