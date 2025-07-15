@@ -77,7 +77,6 @@ EvosAttacksPointers::
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks
-	dw ChanseyEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
@@ -203,7 +202,6 @@ EvosAttacksPointers::
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
-	dw BlisseyEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks
@@ -220,7 +218,6 @@ EvosAttacksPointers::
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
 	dw MimeJrEvosAttacks
-	dw HappinyEvosAttacks
 	dw MunchlaxEvosAttacks
 	dw MantykeEvosAttacks
 	dw WeavileEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw EmboarEvosAttacks
 	dw OshawottEvosAttacks
 	dw DewottEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw SamurottPlainEvosAttacks
 	dw PatratEvosAttacks
 	dw WatchogEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw LillipupEvosAttacks
 	dw HerdierEvosAttacks
 	dw StoutlandEvosAttacks

@@ -77,7 +77,6 @@ PokemonPicPointers::
 	pics Lickitung
 	pics Koffing
 	pics WeezingPlain
-	pics Chansey
 	pics Tangela
 	pics Kangaskhan
 	pics Horsea
@@ -203,7 +202,6 @@ PokemonPicPointers::
 	pics Elekid
 	pics Magby
 	pics Miltank
-	pics Blissey
 	pics Raikou
 	pics Entei
 	pics Suicune
@@ -220,7 +218,6 @@ PokemonPicPointers::
 	pics Honchkrow
 	pics Bonsly
 	pics MimeJr
-	pics Happiny
 	pics Munchlax
 	pics Mantyke
 	pics Weavile
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Emboar
 	pics Oshawott
 	pics Dewott
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics SamurottPlain
 	pics Patrat
 	pics Watchog
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Lillipup
 	pics Herdier
 	pics Stoutland

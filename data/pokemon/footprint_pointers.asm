@@ -73,7 +73,6 @@ FootprintPointers::
 	dw LickitungFootprint
 	dw KoffingFootprint
 	dw WeezingFootprint
-	dw ChanseyFootprint
 	dw TangelaFootprint
 	dw KangaskhanFootprint
 	dw HorseaFootprint
@@ -199,7 +198,6 @@ FootprintPointers::
 	dw ElekidFootprint
 	dw MagbyFootprint
 	dw MiltankFootprint
-	dw BlisseyFootprint
 	dw RaikouFootprint
 	dw EnteiFootprint
 	dw SuicuneFootprint
@@ -216,7 +214,6 @@ FootprintPointers::
 	dw HonchkrowFootprint
 	dw BonslyFootprint
 	dw MimeJrFootprint
-	dw HappinyFootprint
 	dw MunchlaxFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw EmboarFootprint
 	dw OshawottFootprint
 	dw DewottFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SamurottFootprint
 	dw PatratFootprint
 	dw WatchogFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw LillipupFootprint
 	dw HerdierFootprint
 	dw StoutlandFootprint

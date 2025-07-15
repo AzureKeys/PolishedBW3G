@@ -79,7 +79,6 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickitung
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; Koffing
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; Weezing
-	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Chansey
 	mon_cry CRY_GOLEM,       $000,  $100 ; Tangela
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; Kangaskhan
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; Horsea
@@ -205,7 +204,6 @@ PokemonCries::
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
 	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; Miltank
-	mon_cry CRY_SLOWKING,    $293,  $140 ; Blissey
 	mon_cry CRY_RAIKOU,      $22e,  $120 ; Raikou
 	mon_cry CRY_ENTEI,       $000,  $1a0 ; Entei
 	mon_cry CRY_MAGCARGO,    $000,  $180 ; Suicune
@@ -222,7 +220,6 @@ PokemonCries::
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Bonsly
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mime Jr.
-	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Happiny
 	mon_cry CRY_GRIMER,      $055,  $081 ; Munchlax
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantyke
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_METAPOD,    -$4c0,  $130 ; Emboar
 	mon_cry CRY_SLOWPOKE,    $1ca,  $130 ; Oshawott
 	mon_cry CRY_DIGLETT,     $033,  $0d0 ; Dewott
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VULPIX,     -$15c,  $100 ; Samurott
 	mon_cry CRY_RATTATA,     $000,  $100 ; PATRAT*
 	mon_cry CRY_CLEFAIRY,   -$026,  $0b0 ; Watchog
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_REMORAID,   -$077,  $0e0 ; Lillipup
 	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*

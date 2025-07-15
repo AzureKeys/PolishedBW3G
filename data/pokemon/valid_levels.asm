@@ -74,7 +74,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  10, 100 ; Lickitung
 	db   1,  34 ; Koffing
 	db  35, 100 ; Weezing
-	db  20, 100 ; Chansey
 	db   1,  38 ; Tangela
 	db  20, 100 ; Kangaskhan
 	db   1,  31 ; Horsea
@@ -204,7 +203,6 @@ endc
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
 	db  20, 100 ; Miltank
-	db  20, 100 ; Blissey
 	db 255, 255 ; Raikou
 	db 255, 255 ; Entei
 	db 255, 255 ; Suicune
@@ -221,7 +219,6 @@ endc
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
 	db   1,  19 ; Mime Jr.
-	db   1,  19 ; Happiny
 	db   1,  19 ; Munchlax
 	db   1,  19 ; Mantyke
 	db  40, 100 ; Weavile
@@ -259,11 +256,11 @@ endc
 	db  36, 100 ; Emboar
 	db   1,  16 ; Oshawott
 	db  17,  35 ; Dewott
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  36, 100 ; Samurott
 	db   1,  19 ; Patrat
 	db  20, 100 ; Watchog
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  15 ; Lillipup
 	db  16,  31 ; Herdier
 	db  32, 100 ; Stoutland

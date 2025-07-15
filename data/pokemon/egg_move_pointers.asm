@@ -73,7 +73,6 @@ EggSpeciesMovesPointers::
 	dw LickitungEggSpeciesMoves         ; Lickitung
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
-	dw HappinyEggSpeciesMoves           ; Chansey
 	dw TangelaEggSpeciesMoves           ; Tangela
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan
 	dw HorseaEggSpeciesMoves            ; Horsea
@@ -199,7 +198,6 @@ EggSpeciesMovesPointers::
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
 	dw MiltankEggSpeciesMoves           ; Miltank
-	dw HappinyEggSpeciesMoves           ; Blissey
 	dw NoEggSpeciesMoves                ; Raikou
 	dw NoEggSpeciesMoves                ; Entei
 	dw NoEggSpeciesMoves                ; Suicune
@@ -216,7 +214,6 @@ EggSpeciesMovesPointers::
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
 	dw MimeJrEggSpeciesMoves            ; Mime Jr.
-	dw HappinyEggSpeciesMoves           ; Happiny
 	dw MunchlaxEggSpeciesMoves          ; Munchlax
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw TepigEggSpeciesMoves             ; Emboar
 	dw OshawottEggSpeciesMoves          ; Oshawott
 	dw OshawottEggSpeciesMoves          ; Dewott
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw OshawottEggSpeciesMoves          ; Samurott
 	dw PatratEggSpeciesMoves            ; Patrat
 	dw PatratEggSpeciesMoves            ; Watchog
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw LillipupEggSpeciesMoves          ; Lillipup
 	dw LillipupEggSpeciesMoves          ; Herdier
 	dw LillipupEggSpeciesMoves          ; Stoutland

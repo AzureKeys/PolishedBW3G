@@ -74,7 +74,6 @@ PokedexDataPointerTable:
 	dba LickitungPokedexEntry
 	dba KoffingPokedexEntry
 	dba WeezingPlainPokedexEntry
-	dba ChanseyPokedexEntry
 	dba TangelaPokedexEntry
 	dba KangaskhanPokedexEntry
 	dba HorseaPokedexEntry
@@ -200,7 +199,6 @@ PokedexDataPointerTable:
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
 	dba MiltankPokedexEntry
-	dba BlisseyPokedexEntry
 	dba RaikouPokedexEntry
 	dba EnteiPokedexEntry
 	dba SuicunePokedexEntry
@@ -217,7 +215,6 @@ PokedexDataPointerTable:
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
 	dba MimeJrPokedexEntry
-	dba HappinyPokedexEntry
 	dba MunchlaxPokedexEntry
 	dba MantykePokedexEntry
 	dba WeavilePokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba EmboarPokedexEntry
 	dba OshawottPokedexEntry
 	dba DewottPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba SamurottPlainPokedexEntry
 	dba PatratPokedexEntry
 	dba WatchogPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba LillipupPokedexEntry
 	dba HerdierPokedexEntry
 	dba StoutlandPokedexEntry

@@ -77,7 +77,6 @@ MiniIconPointers:
 	mini_icon Lickitung
 	mini_icon Koffing
 	mini_icon Weezing
-	mini_icon Chansey
 	mini_icon Tangela
 	mini_icon Kangaskhan
 	mini_icon Horsea
@@ -203,7 +202,6 @@ MiniIconPointers:
 	mini_icon Elekid
 	mini_icon Magby
 	mini_icon Miltank
-	mini_icon Blissey
 	mini_icon Raikou
 	mini_icon Entei
 	mini_icon Suicune
@@ -220,7 +218,6 @@ MiniIconPointers:
 	mini_icon Honchkrow
 	mini_icon Bonsly
 	mini_icon MimeJr
-	mini_icon Happiny
 	mini_icon Munchlax
 	mini_icon Mantyke
 	mini_icon Weavile
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Emboar
 	mini_icon Oshawott
 	mini_icon Dewott
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Samurott
 	mini_icon Patrat
 	mini_icon Watchog
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Lillipup
 	mini_icon Herdier
 	mini_icon Stoutland

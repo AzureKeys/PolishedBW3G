@@ -43,7 +43,7 @@ NPCTrades:
 ; NPC_TRADE_KIM in Route 14
 	db TRADE_DIALOGSET_GIRL
 	dp WOBBUFFET, NO_FORM ; wants
-	dp CHANSEY, FEMALE    ; gives
+	dp RATTATA, FEMALE    ; gives
 	rawchar "Chance@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SDEF_UP_ATK_DOWN,  HEAL_BALL,    LUCKY_EGG
 	dw 26491

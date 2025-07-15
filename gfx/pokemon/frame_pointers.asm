@@ -73,7 +73,6 @@ FramesPointers:
 	dw LickitungFrames
 	dw KoffingFrames
 	dw WeezingPlainFrames
-	dw ChanseyFrames
 	dw TangelaFrames
 	dw KangaskhanFrames
 	dw HorseaFrames
@@ -199,7 +198,6 @@ FramesPointers:
 	dw ElekidFrames
 	dw MagbyFrames
 	dw MiltankFrames
-	dw BlisseyFrames
 	dw RaikouFrames
 	dw EnteiFrames
 	dw SuicuneFrames
@@ -216,7 +214,6 @@ FramesPointers:
 	dw HonchkrowFrames
 	dw BonslyFrames
 	dw MimeJrFrames
-	dw HappinyFrames
 	dw MunchlaxFrames
 	dw MantykeFrames
 	dw WeavileFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw EmboarFrames
 	dw OshawottFrames
 	dw DewottFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SamurottPlainFrames
 	dw PatratFrames
 	dw WatchogFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw LillipupFrames
 	dw HerdierFrames
 	dw StoutlandFrames

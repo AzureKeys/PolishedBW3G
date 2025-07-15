@@ -73,7 +73,6 @@ AnimationExtraPointers:
 	dw LickitungAnimationExtra
 	dw KoffingAnimationExtra
 	dw WeezingPlainAnimationExtra
-	dw ChanseyAnimationExtra
 	dw TangelaAnimationExtra
 	dw KangaskhanAnimationExtra
 	dw HorseaAnimationExtra
@@ -199,7 +198,6 @@ AnimationExtraPointers:
 	dw ElekidAnimationExtra
 	dw MagbyAnimationExtra
 	dw MiltankAnimationExtra
-	dw BlisseyAnimationExtra
 	dw RaikouAnimationExtra
 	dw EnteiAnimationExtra
 	dw SuicuneAnimationExtra
@@ -216,7 +214,6 @@ AnimationExtraPointers:
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
 	dw MimeJrAnimationExtra
-	dw HappinyAnimationExtra
 	dw MunchlaxAnimationExtra
 	dw MantykeAnimationExtra
 	dw WeavileAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw EmboarAnimationExtra
 	dw OshawottAnimationExtra
 	dw DewottAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw SamurottPlainAnimationExtra
 	dw PatratAnimationExtra
 	dw WatchogAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw LillipupAnimationExtra
 	dw HerdierAnimationExtra
 	dw StoutlandAnimationExtra

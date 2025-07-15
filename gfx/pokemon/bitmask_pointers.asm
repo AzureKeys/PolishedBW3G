@@ -73,7 +73,6 @@ BitmasksPointers:
 	dw LickitungBitmasks
 	dw KoffingBitmasks
 	dw WeezingPlainBitmasks
-	dw ChanseyBitmasks
 	dw TangelaBitmasks
 	dw KangaskhanBitmasks
 	dw HorseaBitmasks
@@ -199,7 +198,6 @@ BitmasksPointers:
 	dw ElekidBitmasks
 	dw MagbyBitmasks
 	dw MiltankBitmasks
-	dw BlisseyBitmasks
 	dw RaikouBitmasks
 	dw EnteiBitmasks
 	dw SuicuneBitmasks
@@ -216,7 +214,6 @@ BitmasksPointers:
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
 	dw MimeJrBitmasks
-	dw HappinyBitmasks
 	dw MunchlaxBitmasks
 	dw MantykeBitmasks
 	dw WeavileBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw EmboarBitmasks
 	dw OshawottBitmasks
 	dw DewottBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw SamurottPlainBitmasks
 	dw PatratBitmasks
 	dw WatchogBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw LillipupBitmasks
 	dw HerdierBitmasks
 	dw StoutlandBitmasks

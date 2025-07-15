@@ -736,16 +736,6 @@ WeezingPlainPokedexEntry::
 	next "its insides smell"
 	next "much worse.@"
 
-SECTION "ChanseyPokedexEntry", ROMX
-ChanseyPokedexEntry::
-	db "Egg@"
-	db   "People try to"
-	next "catch it for its"
-	next "extremely"
-	page "nutritious eggs,"
-	next "but it rarely can"
-	next "be found.@"
-
 SECTION "TangelaPokedexEntry", ROMX
 TangelaPokedexEntry::
 	db "Vine@"
@@ -1996,16 +1986,6 @@ MiltankPokedexEntry::
 	next "ing up and down"
 	next "on its udders.@"
 
-SECTION "BlisseyPokedexEntry", ROMX
-BlisseyPokedexEntry::
-	db "Happiness@"
-	db   "Biting into one"
-	next "of the delicious"
-	next "eggs that Blissey"
-	page "provides will make"
-	next "everyone around"
-	next "smile with joy.@"
-
 SECTION "RaikouPokedexEntry", ROMX
 RaikouPokedexEntry::
 	db "Thunder@"
@@ -2165,16 +2145,6 @@ MimeJrPokedexEntry::
 	page "it sees to under-"
 	next "stand the feelings"
 	next "of others.@"
-
-SECTION "HappinyPokedexEntry", ROMX
-HappinyPokedexEntry::
-	db "Playhouse@"
-	db   "It carries a"
-	next "round, egg-shaped"
-	next "rock in its belly"
-	page "pouch and gives"
-	next "the rock to its"
-	next "friends.@"
 
 SECTION "MunchlaxPokedexEntry", ROMX
 MunchlaxPokedexEntry::

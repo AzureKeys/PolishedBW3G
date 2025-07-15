@@ -17,13 +17,11 @@ AlphabeticalPokedexOrder:
 	dp BASCULIN
 	dp BAYLEEF
 	dp BLASTOISE
-	dp BLISSEY
 	dp BLITZLE
 	dp BOLDORE
 	dp BONSLY
 	dp BULBASAUR
 	dp CELEBI
-	dp CHANSEY
 	dp CHARIZARD
 	dp CHARMANDER
 	dp CHARMELEON
@@ -91,7 +89,6 @@ AlphabeticalPokedexOrder:
 	dp GROWLITHE
 	dp GURDURR
 	dp GYARADOS
-	dp HAPPINY
 	dp HAUNTER
 	dp HERACROSS
 	dp HERDIER

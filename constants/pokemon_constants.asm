@@ -97,7 +97,6 @@
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
-	const CHANSEY    ; 71
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
@@ -223,7 +222,6 @@
 	const ELEKID     ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
-	const BLISSEY    ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
 	const SUICUNE    ; f5
@@ -240,7 +238,6 @@
 	const HONCHKROW  ; 102
 	const BONSLY     ; 103
 	const MIME_JR_   ; 104
-	const HAPPINY    ; 105
 	const MUNCHLAX   ; 106
 	const MANTYKE    ; 107
 	const WEAVILE    ; 108
@@ -278,11 +275,11 @@
 	const EMBOAR     ; 129
 	const OSHAWOTT   ; 127
 	const DEWOTT     ; 128
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SAMUROTT   ; 129
 	const PATRAT     ; 128
 	const WATCHOG    ; 129
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const LILLIPUP   ; 129
 	const HERDIER    ; 128
 	const STOUTLAND  ; 129

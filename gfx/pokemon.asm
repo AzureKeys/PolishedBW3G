@@ -188,10 +188,6 @@ SECTION "Lickitung Pics", ROMX
 LickitungFrontpic: INCBIN "gfx/pokemon/lickitung/front.animated.2bpp.lz"
 LickitungBackpic:  INCBIN "gfx/pokemon/lickitung/back.2bpp.lz"
 
-SECTION "Chansey Pics", ROMX
-ChanseyFrontpic: INCBIN "gfx/pokemon/chansey/front.animated.2bpp.lz"
-ChanseyBackpic:  INCBIN "gfx/pokemon/chansey/back.2bpp.lz"
-
 SECTION "Tangela Pics", ROMX
 TangelaFrontpic: INCBIN "gfx/pokemon/tangela/front.animated.2bpp.lz"
 TangelaBackpic:  INCBIN "gfx/pokemon/tangela/back.2bpp.lz"
@@ -640,10 +636,6 @@ SECTION "Miltank Pics", ROMX
 MiltankFrontpic: INCBIN "gfx/pokemon/miltank/front.animated.2bpp.lz"
 MiltankBackpic:  INCBIN "gfx/pokemon/miltank/back.2bpp.lz"
 
-SECTION "Blissey Pics", ROMX
-BlisseyFrontpic: INCBIN "gfx/pokemon/blissey/front.animated.2bpp.lz"
-BlisseyBackpic:  INCBIN "gfx/pokemon/blissey/back.2bpp.lz"
-
 SECTION "Raikou Pics", ROMX
 RaikouFrontpic: INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
 RaikouBackpic:  INCBIN "gfx/pokemon/raikou/back.2bpp.lz"
@@ -731,10 +723,6 @@ AmbipomBackpic:  INCBIN "gfx/pokemon/ambipom/back.2bpp.lz"
 SECTION "Bonsly Pics", ROMX
 BonslyFrontpic: INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lz"
 BonslyBackpic:  INCBIN "gfx/pokemon/bonsly/back.2bpp.lz"
-
-SECTION "Happiny Pics", ROMX
-HappinyFrontpic: INCBIN "gfx/pokemon/happiny/front.animated.2bpp.lz"
-HappinyBackpic:  INCBIN "gfx/pokemon/happiny/back.2bpp.lz"
 
 SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"

@@ -3154,20 +3154,20 @@ NurseGroup:
 
 	def_trainer_class NURSE
 	def_trainer BEATRICE, "Beatrice"
-	tr_mon LEVEL_FROM_BADGES + 5, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
 	def_trainer KEIKO, "Keiko"
-	tr_mon LEVEL_FROM_BADGES + 0, HAPPINY
-	tr_mon LEVEL_FROM_BADGES + 5, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
 	def_trainer JOY, "Joy"
-	tr_mon LEVEL_FROM_BADGES + 6, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
 	def_trainer WINIFRED, "Winifred"
-	tr_mon LEVEL_FROM_BADGES + 6, BLISSEY
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
 
@@ -3189,7 +3189,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer BRENT4, "Brent"
-	tr_mon 47, CHANSEY
+	tr_mon 47, RATTATA
 		tr_moves ROLLOUT, ATTRACT, RETURN, FRESH_SNACK
 	end_trainer
 
@@ -4565,7 +4565,7 @@ RichBoyGroup:
 
 	def_trainer GERALD, "Gerald"
 	tr_mon 42, AZUMARILL @ NUGGET
-	tr_mon 40, BLISSEY @ NUGGET
+	tr_mon 40, RATTATA @ NUGGET
 	end_trainer
 
 	def_trainer IRVING, "Irving"
@@ -4573,8 +4573,8 @@ RichBoyGroup:
 		tr_extra SERENE_GRACE
 		tr_dvs 14 All
 		tr_moves HEADBUTT, METRONOME, SWEET_KISS, DISARM_VOICE
-	tr_mon LEVEL_FROM_BADGES + 4, CHANSEY @ KINGS_ROCK, FEMALE
-		tr_extra SERENE_GRACE
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA @ KINGS_ROCK, FEMALE
+		tr_extra HUSTLE
 		tr_dvs 14 All
 		tr_moves HEADBUTT, FRESH_SNACK, SWEET_KISS, ZEN_HEADBUTT
 	tr_mon LEVEL_FROM_BADGES + 5, SYLVEON @ KINGS_ROCK, FEMALE
@@ -4599,7 +4599,7 @@ LadyGroup:
 
 	def_trainer_class LADY
 	def_trainer JESSICA, "Jessica"
-	tr_mon 55, BLISSEY @ NUGGET
+	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, FURRET @ NUGGET
 	end_trainer
 
@@ -4671,14 +4671,14 @@ endc
 	end_trainer
 
 	def_trainer MARGARET, "Margaret"
-	tr_mon 55, CHANSEY
+	tr_mon 55, RATTATA
 	tr_mon 55, MILTANK
 	end_trainer
 
 	def_trainer OLGA, "Olga"
 	tr_mon 50, TEDDIURSA
 	tr_mon 55, URSARING
-	tr_mon 53, CHANSEY
+	tr_mon 53, RATTATA
 	end_trainer
 
 
@@ -7172,7 +7172,7 @@ CherylGroup:
 
 	def_trainer_class CHERYL
 	def_trainer 1, "Cheryl"
-	tr_mon LEVEL_FROM_BADGES + 8, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 		tr_evs 136 HP ; maybe 252 since these are "stat trainers"?
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINA
 		tr_evs 136 HP
@@ -7185,7 +7185,7 @@ CherylGroup:
 	end_trainer
 
 	def_trainer 2, "Cheryl"
-	tr_mon 60, BLISSEY
+	tr_mon 60, RATTATA
 	tr_mon 59, NIDOQUEEN
 	tr_mon 56, CLEFABLE
 	tr_mon 56, WIGGLYTUFF
@@ -7194,7 +7194,7 @@ CherylGroup:
 	end_trainer
 
 	def_trainer 3, "Cheryl"
-	tr_mon 75, BLISSEY
+	tr_mon 75, RATTATA
 	tr_mon 74, NIDOQUEEN
 	tr_mon 71, CLEFABLE
 	tr_mon 71, WIGGLYTUFF

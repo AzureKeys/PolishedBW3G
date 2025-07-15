@@ -1864,26 +1864,6 @@ endc
 	learnset 51, PAIN_SPLIT ; Belch → HGSS tutor move
 	learnset 57, MOONBLAST ; Memento → new move
 
-	evos_attacks Chansey
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
-	learnset 1, DEFENSE_CURL
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, GROWL
-	learnset 5, LEER ; Tail Whip → similar move
-	learnset 9, SWEET_KISS ; Refresh → Happiny move
-	learnset 12, DOUBLE_SLAP
-	learnset 16, FRESH_SNACK ; Soft-Boiled → similar move
-	learnset 20, METRONOME ; Bestow → egg move
-	learnset 23, MINIMIZE
-	learnset 27, TAKE_DOWN
-	learnset 31, SING
-	learnset 35, CHARM ; Fling → Happiny move
-	learnset 39, HEAL_BELL ; Heal Pulse → HGSS tutor move
-	learnset 44, BODY_SLAM ; Egg Bomb → TM move
-	learnset 50, LIGHT_SCREEN
-	learnset 57, SUBSTITUTE ; Healing Wish → TM move
-	learnset 65, DOUBLE_EDGE
-
 	evos_attacks Tangela
 	evo_data EVOLVE_MOVE, ANCIENTPOWER, TANGROWTH
 	learnset 1, WRAP ; Constrict → similar move
@@ -4390,25 +4370,6 @@ endc
 	learnset 48, HEAL_BELL
 	learnset 50, REVERSAL ; Wake-Up Slap → egg move
 
-	evos_attacks Blissey
-	learnset 1, DEFENSE_CURL
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, GROWL
-	learnset 5, LEER ; Tail Whip → similar move
-	learnset 9, SWEET_KISS ; Refresh → Happiny move
-	learnset 12, DOUBLE_SLAP
-	learnset 16, FRESH_SNACK ; Soft-Boiled → similar move
-	learnset 20, METRONOME ; Bestow → egg move
-	learnset 23, MINIMIZE
-	learnset 27, TAKE_DOWN
-	learnset 31, SING
-	learnset 35, CHARM ; Fling → Happiny move
-	learnset 39, HEAL_BELL ; Heal Pulse → HGSS tutor move
-	learnset 44, BODY_SLAM ; Egg Bomb → TM move
-	learnset 50, LIGHT_SCREEN
-	learnset 57, SUBSTITUTE ; Healing Wish → TM move
-	learnset 65, DOUBLE_EDGE
-
 	evos_attacks Raikou
 	learnset 1, BITE
 	learnset 1, LEER
@@ -4681,17 +4642,6 @@ endc
 	learnset 43, FUTURE_SIGHT ; Role Play → egg move
 	learnset 46, BATON_PASS
 	learnset 50, SAFEGUARD
-
-	evos_attacks Happiny
-	evo_data EVOLVE_HOLDING, OVAL_STONE, TR_MORNDAY, CHANSEY
-	learnset 1, MINIMIZE
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, METRONOME ; Copycat → egg move
-	learnset 4, DEFENSE_CURL
-	learnset 8, SWEET_KISS
-	learnset 12, DISARM_VOICE
-	learnset 16, ROLLOUT ; Covet → tutor move
-	learnset 20, CHARM
 
 	evos_attacks Munchlax
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX

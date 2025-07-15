@@ -80,7 +80,6 @@ PokemonBodyData:
 	body_data  12,  655, BIPEDAL_TAIL, PINK   ; LICKITUNG
 	body_data   6,   10, HEAD,         PURPLE ; KOFFING
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
-	body_data  11,  346, BIPEDAL_TAIL, PINK   ; CHANSEY
 	body_data  10,  350, HEAD_LEGS,    BLUE   ; TANGELA
 	body_data  22,  800, BIPEDAL_TAIL, BROWN  ; KANGASKHAN
 	body_data   4,   80, HEAD_BASE,    BLUE   ; HORSEA
@@ -206,7 +205,6 @@ PokemonBodyData:
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
 	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
 	body_data  12,  755, BIPEDAL_TAIL, PINK   ; MILTANK
-	body_data  15,  468, BIPEDAL,      PINK   ; BLISSEY
 	body_data  19, 1780, QUADRUPED,    YELLOW ; RAIKOU
 	body_data  21, 1980, QUADRUPED,    BROWN  ; ENTEI
 	body_data  20, 1870, QUADRUPED,    BLUE   ; SUICUNE
@@ -223,7 +221,6 @@ PokemonBodyData:
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
 	body_data   6,  130, BIPEDAL,      PINK   ; MIME_JR_
-	body_data   6,  244, BIPEDAL,      PINK   ; HAPPINY
 	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX
 	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  16, 1500, BIPEDAL_TAIL, RED    ; EMBOAR
 	body_data   5,   59, BIPEDAL_TAIL, BLUE   ; OSHAWOTT
 	body_data   8,  245, BIPEDAL_TAIL, BLUE   ; DEWOTT
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  15,  946, QUADRUPED,    BLUE   ; SAMUROTT
 	body_data   5,  116, QUADRUPED,    BROWN  ; PATRAT
 	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   41, QUADRUPED,    BROWN  ; LILLIPUP
 	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
 	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND

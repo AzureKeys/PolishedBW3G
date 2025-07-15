@@ -77,7 +77,6 @@ OverworldMonIconColors::
 	iconpal PINK, BROWN ; LICKITUNG
 	iconpal PURPLE, AZURE ; KOFFING
 	iconpal PURPLE, AZURE ; WEEZING
-	iconpal PINK, GREEN ; CHANSEY
 	iconpal BLUE, GREEN ; TANGELA
 	iconpal BROWN, GRAY ; KANGASKHAN
 	iconpal AZURE, RED ; HORSEA
@@ -203,7 +202,6 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
 	iconpal PINK, AZURE ; MILTANK
-	iconpal PINK, RED ; BLISSEY
 	iconpal BROWN, RED ; RAIKOU
 	iconpal RED, BROWN ; ENTEI
 	iconpal BLUE, WHITE ; SUICUNE
@@ -220,7 +218,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
 	iconpal BLUE, GREEN ; MIME_JR_
-	iconpal RED, PINK ; HAPPINY
 	iconpal TEAL, BLUE ; MUNCHLAX
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; EMBOAR
 	iconpal AZURE, BLUE ; OSHAWOTT
 	iconpal AZURE, TEAL ; DEWOTT
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal AZURE, BLUE ; SAMUROTT
 	iconpal BROWN, RED ; PATRAT
 	iconpal BROWN, GREEN ; WATCHOG
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, GRAY ; LILLIPUP
 	iconpal BLUE, GRAY ; HERDIER
 	iconpal BLUE, GREEN ; STOUTLAND
