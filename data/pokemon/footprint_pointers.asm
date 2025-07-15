@@ -297,6 +297,7 @@ FootprintPointers::
 	dw WhimsicottFootprint
 	dw PetililFootprint
 	dw LilligantFootprint
+	dw BasculinFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

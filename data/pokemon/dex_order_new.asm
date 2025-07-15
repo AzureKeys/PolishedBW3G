@@ -51,6 +51,7 @@ NewPokedexOrder:
 	dp WHIMSICOTT
 	dp PETILIL
 	dp LILLIGANT
+	dp BASCULIN
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

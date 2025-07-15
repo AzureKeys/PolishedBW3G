@@ -3401,3 +3401,13 @@ UrsalunaBloodmoonPokedexEntry::
 	page "itself with mud"
 	next "that is as hard as"
 	next "iron.@"
+
+SECTION "BasculinRedPokedexEntry", ROMX
+BasculinRedPokedexEntry::
+	db "Hostile@"
+	db "Basculin get"
+	next "along so poorly,"
+	next "they'll start to"
+	page "fight instantly."
+	next "These #mon are"
+	next "very hostile.@"

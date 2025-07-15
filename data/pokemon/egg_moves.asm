@@ -1246,5 +1246,13 @@ PetililEggSpeciesMoves:
 	;db SWEET_SCENT
 	db $ff
 
+BasculinEggSpeciesMoves:
+	dp BASCULIN, NO_FORM
+	db AGILITY
+	db BUBBLE_BEAM
+	;db MUD_SHOT
+	db SWIFT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

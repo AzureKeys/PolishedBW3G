@@ -447,3 +447,5 @@ UrsalunaBloodmoonAnimationExtra: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim_id
 SamurottPlainAnimationExtra: INCLUDE "gfx/pokemon/samurott_plain/anim_idle.asm"
 
 LilligantPlainAnimationExtra: INCLUDE "gfx/pokemon/lilligant_plain/anim_idle.asm"
+
+BasculinRedAnimationExtra: INCLUDE "gfx/pokemon/basculin_red/anim_idle.asm"

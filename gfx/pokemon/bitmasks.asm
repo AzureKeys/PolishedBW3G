@@ -447,3 +447,5 @@ UrsalunaBloodmoonBitmasks: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/bitmask.asm"
 SamurottPlainBitmasks: INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
 
 LilligantPlainBitmasks: INCLUDE "gfx/pokemon/lilligant_plain/bitmask.asm"
+
+BasculinRedBitmasks: INCLUDE "gfx/pokemon/basculin_red/bitmask.asm"

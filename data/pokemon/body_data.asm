@@ -304,6 +304,7 @@ PokemonBodyData:
 	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
 	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
 	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
+	body_data  10,  180, FINS,         GREEN  ; BASCULIN
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

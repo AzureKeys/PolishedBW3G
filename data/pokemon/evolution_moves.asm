@@ -301,6 +301,7 @@ endc
 	db NO_MOVE      ; WHIMSICOTT
 	db NO_MOVE      ; PETILIL
 	db NO_MOVE      ; LILLIGANT
+	db NO_MOVE      ; BASCULIN
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

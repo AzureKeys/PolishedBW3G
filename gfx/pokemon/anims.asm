@@ -447,3 +447,5 @@ UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
 SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
 
 LilligantPlainAnimation: INCLUDE "gfx/pokemon/lilligant_plain/anim.asm"
+
+BasculinRedAnimation: INCLUDE "gfx/pokemon/basculin_red/anim.asm"

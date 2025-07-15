@@ -298,6 +298,7 @@ PokedexDataPointerTable:
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
 	dba LilligantPlainPokedexEntry
+	dba BasculinRedPokedexEntry ; BasculinWhitePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

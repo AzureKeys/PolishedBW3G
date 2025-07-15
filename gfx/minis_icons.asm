@@ -1487,6 +1487,11 @@ LilligantMini::     INCBIN "gfx/minis/lilligant.2bpp.lz"
 LilligantMiniMask:: INCBIN "gfx/minis/lilligant_mask.1bpp.lz"
 LilligantIcon::     INCBIN "gfx/icons/lilligant.2bpp.lz"
 
+SECTION "Basculin Mini Icon", ROMX
+BasculinMini::     INCBIN "gfx/minis/basculin.2bpp.lz"
+BasculinMiniMask:: INCBIN "gfx/minis/basculin_mask.1bpp.lz"
+BasculinIcon::     INCBIN "gfx/icons/basculin.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

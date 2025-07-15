@@ -301,6 +301,7 @@ OverworldMonIconColors::
 	iconpal BROWN, GRAY ; WHIMSICOTT
 	iconpal GREEN, BROWN ; PETILIL
 	iconpal GREEN, TEAL ; LILLIGANT
+	iconpal GREEN, TEAL ; BASCULIN
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

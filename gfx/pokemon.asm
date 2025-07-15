@@ -1580,3 +1580,7 @@ PetililBackpic:  INCBIN "gfx/pokemon/petilil/back.2bpp.lz"
 SECTION "LilligantPlain Pics", ROMX
 LilligantPlainFrontpic: INCBIN "gfx/pokemon/lilligant_plain/front.animated.2bpp.lz"
 LilligantPlainBackpic:  INCBIN "gfx/pokemon/lilligant_plain/back.2bpp.lz"
+
+SECTION "BasculinRed Pics", ROMX
+BasculinRedFrontpic: INCBIN "gfx/pokemon/basculin_red/front.animated.2bpp.lz"
+BasculinRedBackpic:  INCBIN "gfx/pokemon/basculin_red/back.2bpp.lz"

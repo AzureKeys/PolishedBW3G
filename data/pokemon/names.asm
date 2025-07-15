@@ -298,4 +298,5 @@ PokemonNames::
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"
 	rawchar "Lilligant@"
+	rawchar "Basculin@@"
 	assert_table_length NUM_SPECIES + 1

@@ -64,6 +64,7 @@ CottoneeFootprint::
 WhimsicottFootprint::
 PetililFootprint::
 LilligantFootprint::
+BasculinFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

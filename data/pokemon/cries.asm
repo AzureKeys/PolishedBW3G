@@ -303,4 +303,5 @@ PokemonCries::
 	mon_cry CRY_BELLOSSOM,   $000,  $180 ; WHIMSICOTT*
 	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
 	mon_cry CRY_REMORAID,   -$020,  $180 ; LILLIGANT*
+	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
 	assert_table_length NUM_SPECIES

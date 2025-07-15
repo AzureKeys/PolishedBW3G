@@ -301,6 +301,7 @@ EvosAttacksPointers::
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
 	dw LilligantPlainEvosAttacks
+	dw BasculinEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

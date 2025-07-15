@@ -301,6 +301,7 @@ MiniIconPointers:
 	mini_icon Whimsicott
 	mini_icon Petilil
 	mini_icon Lilligant
+	mini_icon Basculin
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

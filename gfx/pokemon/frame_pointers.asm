@@ -297,6 +297,7 @@ FramesPointers:
 	dw WhimsicottFrames
 	dw PetililFrames
 	dw LilligantPlainFrames
+	dw BasculinRedFrames ; BasculinWhiteFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

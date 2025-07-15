@@ -301,6 +301,7 @@ PokemonPicPointers::
 	pics Whimsicott
 	pics Petilil
 	pics LilligantPlain
+	pics BasculinRed ; BasculinWhite
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

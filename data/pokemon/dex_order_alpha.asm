@@ -14,6 +14,7 @@ AlphabeticalPokedexOrder:
 	dp AUDINO
 	dp AZUMARILL
 	dp AZURILL
+	dp BASCULIN
 	dp BAYLEEF
 	dp BLASTOISE
 	dp BLISSEY

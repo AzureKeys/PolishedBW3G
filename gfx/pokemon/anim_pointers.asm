@@ -297,6 +297,7 @@ AnimationPointers:
 	dw WhimsicottAnimation
 	dw PetililAnimation
 	dw LilligantPlainAnimation
+	dw BasculinRedAnimation ; BasculinWhiteAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

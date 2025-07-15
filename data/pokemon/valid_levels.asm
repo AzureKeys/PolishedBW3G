@@ -302,4 +302,5 @@ endc
 	db  30, 100 ; Whimsicott
 	db   1,  29 ; Petilil
 	db  30, 100 ; Lilligant
+	db  15, 100 ; Basculin
 	assert_table_length NUM_SPECIES

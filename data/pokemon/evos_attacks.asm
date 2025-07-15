@@ -6121,6 +6121,24 @@ endc
 	learnset 46, PETAL_DANCE
 	;learnset 50, PETAL_BLIZZARD
 
+	evos_attacks Basculin
+	learnset 1, TACKLE
+	learnset 1, LEER
+	learnset 1, WATER_GUN
+	learnset 5, HEADBUTT
+	learnset 7, BITE
+	learnset 9, AQUA_JET
+	learnset 14, TAKE_DOWN
+	learnset 17, CRUNCH
+	learnset 20, AQUA_TAIL
+	learnset 23, RAIN_DANCE ; Soak
+	learnset 26, DOUBLE_EDGE
+	learnset 30, SCARY_FACE
+	learnset 34, REVERSAL ; Flail
+	;learnset 38, FINAL_GAMBIT
+	learnset 42, THRASH
+	learnset 46, ZEN_HEADBUTT ; Head Smash
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions
