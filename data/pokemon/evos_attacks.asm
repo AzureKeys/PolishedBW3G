@@ -6072,6 +6072,48 @@ endc
 	learnset 48, SANDSTORM
 	learnset 54, EARTHQUAKE
 	learnset 60, OUTRAGE
+	
+	evos_attacks DarumakaPlain
+	evo_data EVOLVE_LEVEL, 35, DARMANITAN
+	learnset 1, TACKLE
+	learnset 3, ROLLOUT
+	learnset 6, EMBER ; Incinerate
+	learnset 9, RAGE
+	;learnset 11, FIRE_FANG
+	learnset 14, HEADBUTT
+	learnset 17, HYPER_VOICE ; Uproar
+	learnset 19, FACADE
+	learnset 22, FIRE_PUNCH
+	learnset 25, BULK_UP ; Work Up
+	learnset 27, THRASH
+	learnset 30, BELLY_DRUM
+	learnset 33, FLARE_BLITZ
+	learnset 36, SWAGGER ; Taunt
+	learnset 39, CROSS_CHOP ; Superpower
+	;learnset 42, OVERHEAT
+	
+	evos_attacks DarmanitanPlain
+	;learnset 1, HAMMER_ARM
+	learnset 1, TACKLE
+	learnset 1, ROLLOUT
+	learnset 1, EMBER ; Incinerate
+	learnset 1, RAGE
+	learnset 3, ROLLOUT
+	learnset 6, EMBER ; Incinerate
+	learnset 9, RAGE
+	;learnset 11, FIRE_FANG
+	learnset 14, HEADBUTT
+	learnset 17, HYPER_VOICE ; Uproar
+	learnset 19, FACADE
+	learnset 22, FIRE_PUNCH
+	learnset 25, BULK_UP ; Work Up
+	learnset 27, THRASH
+	learnset 30, BELLY_DRUM
+	learnset 33, FLARE_BLITZ
+	;learnset 34, HAMMER_ARM
+	learnset 39, SWAGGER ; Taunt
+	learnset 47, CROSS_CHOP ; Superpower
+	;learnset 54, OVERHEAT
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

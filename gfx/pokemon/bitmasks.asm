@@ -445,3 +445,7 @@ SamurottPlainBitmasks: INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
 LilligantPlainBitmasks: INCLUDE "gfx/pokemon/lilligant_plain/bitmask.asm"
 
 BasculinRedBitmasks: INCLUDE "gfx/pokemon/basculin_red/bitmask.asm"
+
+DarumakaPlainBitmasks: INCLUDE "gfx/pokemon/darumaka_plain/bitmask.asm"
+
+DarmanitanPlainBitmasks: INCLUDE "gfx/pokemon/darmanitan_plain/bitmask.asm"

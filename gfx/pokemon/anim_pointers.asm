@@ -294,6 +294,8 @@ AnimationPointers:
 	dw SandileAnimation
 	dw KrokorokAnimation
 	dw KrookodileAnimation
+	dw DarumakaPlainAnimation
+	dw DarmanitanPlainAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

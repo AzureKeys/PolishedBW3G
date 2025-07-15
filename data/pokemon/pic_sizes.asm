@@ -313,6 +313,8 @@ INCLUDE "gfx/pokemon/basculin_red/front.dimensions"
 INCLUDE "gfx/pokemon/sandile/front.dimensions"
 INCLUDE "gfx/pokemon/krokorok/front.dimensions"
 INCLUDE "gfx/pokemon/krookodile/front.dimensions"
+INCLUDE "gfx/pokemon/darumaka_plain/front.dimensions"
+INCLUDE "gfx/pokemon/darmanitan_plain/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

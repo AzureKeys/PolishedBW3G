@@ -298,6 +298,8 @@ EvosAttacksPointers::
 	dw SandileEvosAttacks
 	dw KrokorokEvosAttacks
 	dw KrookodileEvosAttacks
+	dw DarumakaPlainEvosAttacks
+	dw DarmanitanPlainEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

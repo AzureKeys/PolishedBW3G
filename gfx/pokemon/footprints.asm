@@ -68,6 +68,8 @@ BasculinFootprint::
 SandileFootprint::
 KrokorokFootprint::
 KrookodileFootprint::
+DarumakaFootprint::
+DarmanitanFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

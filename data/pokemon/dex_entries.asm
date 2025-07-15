@@ -2910,6 +2910,26 @@ KrookodilePokedexEntry::
 	next "crush the body of"
 	next "an automobile.@"
 
+SECTION "DarumakaPlainPokedexEntry", ROMX
+DarumakaPlainPokedexEntry::
+	db "Zen Charm@"
+	db "It can't calm down"
+	next "when its internal"
+	next "fire is burning,"
+	page "it runs around. It"
+	next "falls asleep if"
+	next "the fire slows.@"
+
+SECTION "DarmanitanPlainPokedexEntry", ROMX
+DarmanitanPlainPokedexEntry::
+	db "Blazing@"
+	db "Its internal fire"
+	next "burns with enough"
+	next "power that it can"
+	page "destroy a dump"
+	next "truck with just"
+	next "one punch.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

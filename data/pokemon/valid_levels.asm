@@ -299,4 +299,6 @@ endc
 	db   1,  28 ; Sandile
 	db  29,  39 ; Krokorok
 	db  40, 100 ; Krookodile
+	db   1,  34 ; Darumaka
+	db  35, 100 ; Darmanitan
 	assert_table_length NUM_SPECIES

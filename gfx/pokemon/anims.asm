@@ -445,3 +445,7 @@ SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
 LilligantPlainAnimation: INCLUDE "gfx/pokemon/lilligant_plain/anim.asm"
 
 BasculinRedAnimation: INCLUDE "gfx/pokemon/basculin_red/anim.asm"
+
+DarumakaPlainAnimation: INCLUDE "gfx/pokemon/darumaka_plain/anim.asm"
+
+DarmanitanPlainAnimation: INCLUDE "gfx/pokemon/darmanitan_plain/anim.asm"

@@ -1568,3 +1568,11 @@ KrokorokBackpic:  INCBIN "gfx/pokemon/krokorok/back.2bpp.lz"
 SECTION "Krookodile Pics", ROMX
 KrookodileFrontpic: INCBIN "gfx/pokemon/krookodile/front.animated.2bpp.lz"
 KrookodileBackpic:  INCBIN "gfx/pokemon/krookodile/back.2bpp.lz"
+
+SECTION "DarumakaPlain Pics", ROMX
+DarumakaPlainFrontpic: INCBIN "gfx/pokemon/darumaka_plain/front.animated.2bpp.lz"
+DarumakaPlainBackpic:  INCBIN "gfx/pokemon/darumaka_plain/back.2bpp.lz"
+
+SECTION "DarmanitanPlain Pics", ROMX
+DarmanitanPlainFrontpic: INCBIN "gfx/pokemon/darmanitan_plain/front.animated.2bpp.lz"
+DarmanitanPlainBackpic:  INCBIN "gfx/pokemon/darmanitan_plain/back.2bpp.lz"

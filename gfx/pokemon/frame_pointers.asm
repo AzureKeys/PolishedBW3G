@@ -294,6 +294,8 @@ FramesPointers:
 	dw SandileFrames
 	dw KrokorokFrames
 	dw KrookodileFrames
+	dw DarumakaPlainFrames
+	dw DarmanitanPlainFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

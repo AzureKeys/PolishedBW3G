@@ -294,6 +294,8 @@ FootprintPointers::
 	dw SandileFootprint
 	dw KrokorokFootprint
 	dw KrookodileFootprint
+	dw DarumakaFootprint
+	dw DarmanitanFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

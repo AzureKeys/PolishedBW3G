@@ -298,6 +298,8 @@ OverworldMonIconColors::
 	iconpal BROWN, YELLOW ; SANDILE
 	iconpal BROWN, YELLOW ; KROKOROK
 	iconpal RED, BROWN ; KROOKODILE
+	iconpal RED, PINK ; DARUMAKA
+	iconpal RED, PURPLE ; DARMANITAN
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

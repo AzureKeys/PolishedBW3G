@@ -295,6 +295,8 @@ PokedexDataPointerTable:
 	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
 	dba KrookodilePokedexEntry
+	dba DarumakaPlainPokedexEntry
+	dba DarmanitanPlainPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

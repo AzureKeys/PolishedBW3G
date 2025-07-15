@@ -1472,6 +1472,16 @@ KrookodileMini::     INCBIN "gfx/minis/krookodile.2bpp.lz"
 KrookodileMiniMask:: INCBIN "gfx/minis/krookodile_mask.1bpp.lz"
 KrookodileIcon::     INCBIN "gfx/icons/krookodile.2bpp.lz"
 
+SECTION "Darumaka Mini Icon", ROMX
+DarumakaMini::     INCBIN "gfx/minis/darumaka.2bpp.lz"
+DarumakaMiniMask:: INCBIN "gfx/minis/darumaka_mask.1bpp.lz"
+DarumakaIcon::     INCBIN "gfx/icons/darumaka.2bpp.lz"
+
+SECTION "Darmanitan Mini Icon", ROMX
+DarmanitanMini::     INCBIN "gfx/minis/darmanitan.2bpp.lz"
+DarmanitanMiniMask:: INCBIN "gfx/minis/darmanitan_mask.1bpp.lz"
+DarmanitanIcon::     INCBIN "gfx/icons/darmanitan.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

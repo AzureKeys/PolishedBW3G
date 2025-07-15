@@ -1246,5 +1246,16 @@ SandileEggSpeciesMoves:
 	;db THUNDER_FANG
 	db $ff
 
+DarumakaPlainEggSpeciesMoves:
+	dp DARUMAKA, PLAIN_FORM
+	db ENCORE
+	db ENDURE
+	db EXTRASENSORY
+	;db FLAME_WHEEL
+	db FOCUS_ENERGY
+	;db HAMMER_ARM
+	db TAKE_DOWN
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

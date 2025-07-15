@@ -298,6 +298,8 @@ MiniIconPointers:
 	mini_icon Sandile
 	mini_icon Krokorok
 	mini_icon Krookodile
+	mini_icon Darumaka
+	mini_icon Darmanitan
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

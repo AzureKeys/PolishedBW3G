@@ -294,6 +294,8 @@ BitmasksPointers:
 	dw SandileBitmasks
 	dw KrokorokBitmasks
 	dw KrookodileBitmasks
+	dw DarumakaPlainBitmasks
+	dw DarmanitanPlainBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

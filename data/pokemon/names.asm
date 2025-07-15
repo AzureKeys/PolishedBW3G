@@ -295,4 +295,6 @@ PokemonNames::
 	rawchar "Sandile@@@"
 	rawchar "Krokorok@@"
 	rawchar "Krookodile"
+	rawchar "Darumaka@@"
+	rawchar "Darmanitan"
 	assert_table_length NUM_SPECIES + 1

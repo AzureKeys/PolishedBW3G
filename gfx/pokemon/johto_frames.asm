@@ -235,3 +235,7 @@ SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
 LilligantPlainFrames: INCLUDE "gfx/pokemon/lilligant_plain/frames.asm"
 
 BasculinRedFrames: INCLUDE "gfx/pokemon/basculin_red/frames.asm"
+
+DarumakaPlainFrames: INCLUDE "gfx/pokemon/darumaka_plain/frames.asm"
+
+DarmanitanPlainFrames: INCLUDE "gfx/pokemon/darmanitan_plain/frames.asm"

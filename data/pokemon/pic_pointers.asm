@@ -298,6 +298,8 @@ PokemonPicPointers::
 	pics Sandile
 	pics Krokorok
 	pics Krookodile
+	pics DarumakaPlain
+	pics DarmanitanPlain
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

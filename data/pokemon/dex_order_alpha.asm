@@ -39,6 +39,8 @@ AlphabeticalPokedexOrder:
 	dp CUBONE
 	dp CURSOLA
 	dp CYNDAQUIL
+	dp DARMANITAN
+	dp DARUMAKA
 	dp DELIBIRD
 	dp DEWGONG
 	dp DEWOTT

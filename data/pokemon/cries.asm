@@ -300,4 +300,6 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
 	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
+	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
+	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	assert_table_length NUM_SPECIES

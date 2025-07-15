@@ -298,6 +298,8 @@ endc
 	db NO_MOVE      ; SANDILE
 	db NO_MOVE      ; KROKOROK
 	db NO_MOVE      ; KROOKODILE
+	db NO_MOVE      ; DARUMAKA
+	db NO_MOVE      ; DARMANITAN
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
