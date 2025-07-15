@@ -65,6 +65,9 @@ WhimsicottFootprint::
 PetililFootprint::
 LilligantFootprint::
 BasculinFootprint::
+SandileFootprint::
+KrokorokFootprint::
+KrookodileFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

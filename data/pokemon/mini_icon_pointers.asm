@@ -295,6 +295,9 @@ MiniIconPointers:
 	mini_icon Petilil
 	mini_icon Lilligant
 	mini_icon Basculin
+	mini_icon Sandile
+	mini_icon Krokorok
+	mini_icon Krookodile
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

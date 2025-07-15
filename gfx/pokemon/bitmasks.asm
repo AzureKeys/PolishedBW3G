@@ -236,6 +236,9 @@ ScolipedeBitmasks:  INCLUDE "gfx/pokemon/scolipede/bitmask.asm"
 CottoneeBitmasks:   INCLUDE "gfx/pokemon/cottonee/bitmask.asm"
 WhimsicottBitmasks: INCLUDE "gfx/pokemon/whimsicott/bitmask.asm"
 PetililBitmasks:    INCLUDE "gfx/pokemon/petilil/bitmask.asm"
+SandileBitmasks:    INCLUDE "gfx/pokemon/sandile/bitmask.asm"
+KrokorokBitmasks:   INCLUDE "gfx/pokemon/krokorok/bitmask.asm"
+KrookodileBitmasks: INCLUDE "gfx/pokemon/krookodile/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

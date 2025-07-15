@@ -292,6 +292,9 @@ PokedexDataPointerTable:
 	dba PetililPokedexEntry
 	dba LilligantPlainPokedexEntry
 	dba BasculinRedPokedexEntry ; BasculinWhitePokedexEntry
+	dba SandilePokedexEntry
+	dba KrokorokPokedexEntry
+	dba KrookodilePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -2880,6 +2880,36 @@ LilligantPlainPokedexEntry::
 	next "beautiful flower"
 	next "to bloom.@"
 
+SECTION "SandilePokedexEntry", ROMX
+SandilePokedexEntry::
+	db "Desert Croc@"
+	db "They live buried"
+	next "in the sand. The"
+	next "sun warmed sands"
+	page "prevent their"
+	next "body temperature"
+	next "from dropping.@"
+
+SECTION "KrokorokPokedexEntry", ROMX
+KrokorokPokedexEntry::
+	db "Desert Croc@"
+	db "They are in groups"
+	next "of a few #mon."
+	next "Protective"
+	page "membranes cover"
+	next "Krokorok's eyes"
+	next "from sandstorms.@"
+
+SECTION "KrookodilePokedexEntry", ROMX
+KrookodilePokedexEntry::
+	db "Intimidation@"
+	db "They never allow"
+	next "prey to escape."
+	next "Their jaws are so"
+	page "powerful, they can"
+	next "crush the body of"
+	next "an automobile.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

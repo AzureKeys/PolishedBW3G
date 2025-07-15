@@ -1235,5 +1235,16 @@ BasculinEggSpeciesMoves:
 	db SWIFT
 	db $ff
 
+SandileEggSpeciesMoves:
+	dp SANDILE, PLAIN_FORM
+	db COUNTER
+	db DOUBLE_EDGE
+	;db FIRE_FANG
+	db FOCUS_ENERGY
+	db MEAN_LOOK
+	db PURSUIT
+	;db THUNDER_FANG
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

@@ -168,6 +168,9 @@ ScolipedeFrames:  INCLUDE "gfx/pokemon/scolipede/frames.asm"
 CottoneeFrames:   INCLUDE "gfx/pokemon/cottonee/frames.asm"
 WhimsicottFrames: INCLUDE "gfx/pokemon/whimsicott/frames.asm"
 PetililFrames:    INCLUDE "gfx/pokemon/petilil/frames.asm"
+SandileFrames:    INCLUDE "gfx/pokemon/sandile/frames.asm"
+KrokorokFrames:   INCLUDE "gfx/pokemon/krokorok/frames.asm"
+KrookodileFrames: INCLUDE "gfx/pokemon/krookodile/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

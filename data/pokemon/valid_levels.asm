@@ -296,4 +296,7 @@ endc
 	db   1,  29 ; Petilil
 	db  30, 100 ; Lilligant
 	db  15, 100 ; Basculin
+	db   1,  28 ; Sandile
+	db  29,  39 ; Krokorok
+	db  40, 100 ; Krookodile
 	assert_table_length NUM_SPECIES

@@ -291,6 +291,9 @@ FramesPointers:
 	dw PetililFrames
 	dw LilligantPlainFrames
 	dw BasculinRedFrames ; BasculinWhiteFrames
+	dw SandileFrames
+	dw KrokorokFrames
+	dw KrookodileFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

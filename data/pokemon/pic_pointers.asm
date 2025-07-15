@@ -295,6 +295,9 @@ PokemonPicPointers::
 	pics Petilil
 	pics LilligantPlain
 	pics BasculinRed ; BasculinWhite
+	pics Sandile
+	pics Krokorok
+	pics Krookodile
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

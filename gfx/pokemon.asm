@@ -1556,3 +1556,15 @@ LilligantPlainBackpic:  INCBIN "gfx/pokemon/lilligant_plain/back.2bpp.lz"
 SECTION "BasculinRed Pics", ROMX
 BasculinRedFrontpic: INCBIN "gfx/pokemon/basculin_red/front.animated.2bpp.lz"
 BasculinRedBackpic:  INCBIN "gfx/pokemon/basculin_red/back.2bpp.lz"
+
+SECTION "Sandile Pics", ROMX
+SandileFrontpic: INCBIN "gfx/pokemon/sandile/front.animated.2bpp.lz"
+SandileBackpic:  INCBIN "gfx/pokemon/sandile/back.2bpp.lz"
+
+SECTION "Krokorok Pics", ROMX
+KrokorokFrontpic: INCBIN "gfx/pokemon/krokorok/front.animated.2bpp.lz"
+KrokorokBackpic:  INCBIN "gfx/pokemon/krokorok/back.2bpp.lz"
+
+SECTION "Krookodile Pics", ROMX
+KrookodileFrontpic: INCBIN "gfx/pokemon/krookodile/front.animated.2bpp.lz"
+KrookodileBackpic:  INCBIN "gfx/pokemon/krookodile/back.2bpp.lz"

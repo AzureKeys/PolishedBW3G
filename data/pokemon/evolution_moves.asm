@@ -295,6 +295,9 @@ endc
 	db NO_MOVE      ; PETILIL
 	db NO_MOVE      ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
+	db NO_MOVE      ; SANDILE
+	db NO_MOVE      ; KROKOROK
+	db NO_MOVE      ; KROOKODILE
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

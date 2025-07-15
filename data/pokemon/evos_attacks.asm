@@ -6016,6 +6016,62 @@ endc
 	;learnset 38, FINAL_GAMBIT
 	learnset 42, THRASH
 	learnset 46, ZEN_HEADBUTT ; Head Smash
+	
+	evos_attacks Sandile
+	evo_data EVOLVE_LEVEL, 29, KROKOROK
+	learnset 1, LEER
+	learnset 4, BITE
+	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 13, BULLDOZE ; Sand Tomb
+	learnset 16, THIEF ; Assurance
+	;learnset 19, MUD_SLAP
+	learnset 22, HONE_CLAWS ; Embargo
+	learnset 25, SWAGGER
+	learnset 28, CRUNCH
+	learnset 31, DIG
+	learnset 34, SCARY_FACE
+	learnset 37, SUCKER_PUNCH ; Foul Play
+	learnset 40, SANDSTORM
+	learnset 43, EARTHQUAKE
+	learnset 46, THRASH
+	
+	evos_attacks Krokorok
+	evo_data EVOLVE_LEVEL, 40, KROOKODILE
+	learnset 1, LEER
+	learnset 4, BITE
+	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 13, BULLDOZE ; Sand Tomb
+	learnset 16, THIEF ; Assurance
+	;learnset 19, MUD_SLAP
+	learnset 22, HONE_CLAWS ; Embargo
+	learnset 25, SWAGGER
+	learnset 28, CRUNCH
+	learnset 32, DIG
+	learnset 36, SCARY_FACE
+	learnset 40, SUCKER_PUNCH ; Foul Play
+	learnset 44, SANDSTORM
+	learnset 48, EARTHQUAKE
+	learnset 52, THRASH
+	
+	evos_attacks Krookodile
+	learnset 1, LEER
+	learnset 1, BITE
+	learnset 1, MUD_SLAP ; Sand-Attack
+	learnset 1, BULLDOZE ; Sand Tomb
+	learnset 4, BITE
+	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 13, BULLDOZE ; Sand Tomb
+	learnset 16, THIEF ; Assurance
+	;learnset 19, MUD_SLAP
+	learnset 22, HONE_CLAWS ; Embargo
+	learnset 25, SWAGGER
+	learnset 28, CRUNCH
+	learnset 32, DIG
+	learnset 36, SCARY_FACE
+	learnset 40, SUCKER_PUNCH ; Foul Play
+	learnset 48, SANDSTORM
+	learnset 54, EARTHQUAKE
+	learnset 60, OUTRAGE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

@@ -109,6 +109,8 @@ AlphabeticalPokedexOrder:
 	dp KINGDRA
 	dp KLEAVOR
 	dp KOFFING
+	dp KROKOROK
+	dp KROOKODILE
 	dp LANTURN
 	dp LAPRAS
 	dp LARVITAR
@@ -206,6 +208,7 @@ AlphabeticalPokedexOrder:
 	dp REMORAID
 	dp ROGGENROLA
 	dp SAMUROTT
+	dp SANDILE
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SAWK

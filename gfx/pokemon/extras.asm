@@ -236,6 +236,9 @@ ScolipedeAnimationExtra:  INCLUDE "gfx/pokemon/scolipede/anim_idle.asm"
 CottoneeAnimationExtra:   INCLUDE "gfx/pokemon/cottonee/anim_idle.asm"
 WhimsicottAnimationExtra: INCLUDE "gfx/pokemon/whimsicott/anim_idle.asm"
 PetililAnimationExtra:    INCLUDE "gfx/pokemon/petilil/anim_idle.asm"
+SandileAnimationExtra:    INCLUDE "gfx/pokemon/sandile/anim_idle.asm"
+KrokorokAnimationExtra:   INCLUDE "gfx/pokemon/krokorok/anim_idle.asm"
+KrookodileAnimationExtra: INCLUDE "gfx/pokemon/krookodile/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

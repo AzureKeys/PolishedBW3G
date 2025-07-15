@@ -298,6 +298,9 @@ PokemonBodyData:
 	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
 	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
 	body_data  10,  180, FINS,         GREEN  ; BASCULIN
+	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE
+	body_data  10,  334, QUADRUPED,    BROWN  ; KROKOROK
+	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

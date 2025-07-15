@@ -291,6 +291,9 @@ FootprintPointers::
 	dw PetililFootprint
 	dw LilligantFootprint
 	dw BasculinFootprint
+	dw SandileFootprint
+	dw KrokorokFootprint
+	dw KrookodileFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

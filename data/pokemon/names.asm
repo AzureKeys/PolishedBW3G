@@ -292,4 +292,7 @@ PokemonNames::
 	rawchar "Petilil@@@"
 	rawchar "Lilligant@"
 	rawchar "Basculin@@"
+	rawchar "Sandile@@@"
+	rawchar "Krokorok@@"
+	rawchar "Krookodile"
 	assert_table_length NUM_SPECIES + 1

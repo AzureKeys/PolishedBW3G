@@ -291,6 +291,9 @@ BitmasksPointers:
 	dw PetililBitmasks
 	dw LilligantPlainBitmasks
 	dw BasculinRedBitmasks ; BasculinWhiteBitmasks
+	dw SandileBitmasks
+	dw KrokorokBitmasks
+	dw KrookodileBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

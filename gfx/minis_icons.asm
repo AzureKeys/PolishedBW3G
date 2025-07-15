@@ -1457,6 +1457,21 @@ BasculinMini::     INCBIN "gfx/minis/basculin.2bpp.lz"
 BasculinMiniMask:: INCBIN "gfx/minis/basculin_mask.1bpp.lz"
 BasculinIcon::     INCBIN "gfx/icons/basculin.2bpp.lz"
 
+SECTION "Sandile Mini Icon", ROMX
+SandileMini::     INCBIN "gfx/minis/sandile.2bpp.lz"
+SandileMiniMask:: INCBIN "gfx/minis/sandile_mask.1bpp.lz"
+SandileIcon::     INCBIN "gfx/icons/sandile.2bpp.lz"
+
+SECTION "Krokorok Mini Icon", ROMX
+KrokorokMini::     INCBIN "gfx/minis/krokorok.2bpp.lz"
+KrokorokMiniMask:: INCBIN "gfx/minis/krokorok_mask.1bpp.lz"
+KrokorokIcon::     INCBIN "gfx/icons/krokorok.2bpp.lz"
+
+SECTION "Krookodile Mini Icon", ROMX
+KrookodileMini::     INCBIN "gfx/minis/krookodile.2bpp.lz"
+KrookodileMiniMask:: INCBIN "gfx/minis/krookodile_mask.1bpp.lz"
+KrookodileIcon::     INCBIN "gfx/icons/krookodile.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
