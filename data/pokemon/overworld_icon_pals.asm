@@ -297,6 +297,8 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
 	iconpal RED, ORANGE ; SCOLIPEDE
+	iconpal GREEN, ORANGE ; COTTONEE
+	iconpal BROWN, GRAY ; WHIMSICOTT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

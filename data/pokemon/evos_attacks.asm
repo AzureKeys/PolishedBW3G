@@ -6062,6 +6062,36 @@ endc
 	learnset 55, DOUBLE_EDGE
 	learnset 65, MEGAHORN
 
+	evos_attacks Cottonee
+	evo_data EVOLVE_ITEM, SUN_STONE, WHIMSICOTT
+	learnset 1, ABSORB
+	learnset 1, DISARM_VOICE ; Fairy Wind
+	learnset 4, GROWTH
+	learnset 8, LEECH_SEED
+	learnset 10, STUN_SPORE
+	learnset 13, MEGA_DRAIN
+	learnset 17, POISONPOWDER ; Cotton Spore
+	learnset 19, RAZOR_LEAF
+	learnset 22, SLEEP_POWDER ; PoisonPowder
+	learnset 26, GIGA_DRAIN
+	learnset 28, CHARM
+	learnset 31, SAFEGUARD ; Helping Hand
+	learnset 35, ENERGY_BALL
+	learnset 37, BARRIER ; Cotton Guard
+	learnset 40, SUNNY_DAY
+	;learnset 44, ENDEAVOR
+	learnset 46, SOLAR_BEAM
+
+	evos_attacks Whimsicott
+	learnset 1, GROWTH
+	learnset 1, LEECH_SEED
+	learnset 1, STUN_SPORE
+	learnset 1, MEGA_DRAIN
+	learnset 10, GUST
+	;learnset 28, TAILWIND
+	learnset 46, HURRICANE
+	learnset 50, MOONBLAST
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

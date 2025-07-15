@@ -60,6 +60,8 @@ LeavannyFootprint::
 VenipedeFootprint::
 WhirlipedeFootprint::
 ScolipedeFootprint::
+CottoneeFootprint::
+WhimsicottFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

@@ -240,6 +240,8 @@ LeavannyBitmasks:   INCLUDE "gfx/pokemon/leavanny/bitmask.asm"
 VenipedeBitmasks:   INCLUDE "gfx/pokemon/venipede/bitmask.asm"
 WhirlipedeBitmasks: INCLUDE "gfx/pokemon/whirlipede/bitmask.asm"
 ScolipedeBitmasks:  INCLUDE "gfx/pokemon/scolipede/bitmask.asm"
+CottoneeBitmasks:   INCLUDE "gfx/pokemon/cottonee/bitmask.asm"
+WhimsicottBitmasks: INCLUDE "gfx/pokemon/whimsicott/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

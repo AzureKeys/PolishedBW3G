@@ -240,6 +240,8 @@ LeavannyAnimation:   INCLUDE "gfx/pokemon/leavanny/anim.asm"
 VenipedeAnimation:   INCLUDE "gfx/pokemon/venipede/anim.asm"
 WhirlipedeAnimation: INCLUDE "gfx/pokemon/whirlipede/anim.asm"
 ScolipedeAnimation:  INCLUDE "gfx/pokemon/scolipede/anim.asm"
+CottoneeAnimation:   INCLUDE "gfx/pokemon/cottonee/anim.asm"
+WhimsicottAnimation: INCLUDE "gfx/pokemon/whimsicott/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

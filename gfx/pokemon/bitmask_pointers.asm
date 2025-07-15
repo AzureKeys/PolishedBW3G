@@ -293,6 +293,8 @@ BitmasksPointers:
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
 	dw ScolipedeBitmasks
+	dw CottoneeBitmasks
+	dw WhimsicottBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

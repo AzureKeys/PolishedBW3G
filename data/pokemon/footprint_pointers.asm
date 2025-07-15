@@ -293,6 +293,8 @@ FootprintPointers::
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
 	dw ScolipedeFootprint
+	dw CottoneeFootprint
+	dw WhimsicottFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

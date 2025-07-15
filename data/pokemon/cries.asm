@@ -299,4 +299,6 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,   -$1c7,  $1b0 ; Venipede
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
+	mon_cry CRY_MARILL,      $0d7,  $140 ; Cottonee
+	mon_cry CRY_BELLOSSOM,   $000,  $180 ; WHIMSICOTT*
 	assert_table_length NUM_SPECIES

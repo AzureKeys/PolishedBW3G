@@ -298,4 +298,6 @@ endc
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
 	db  30, 100 ; Scolipede
+	db   1,  29 ; Cottonee
+	db  30, 100 ; Whimsicott
 	assert_table_length NUM_SPECIES

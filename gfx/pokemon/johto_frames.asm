@@ -168,6 +168,8 @@ LeavannyFrames:   INCLUDE "gfx/pokemon/leavanny/frames.asm"
 VenipedeFrames:   INCLUDE "gfx/pokemon/venipede/frames.asm"
 WhirlipedeFrames: INCLUDE "gfx/pokemon/whirlipede/frames.asm"
 ScolipedeFrames:  INCLUDE "gfx/pokemon/scolipede/frames.asm"
+CottoneeFrames:   INCLUDE "gfx/pokemon/cottonee/frames.asm"
+WhimsicottFrames: INCLUDE "gfx/pokemon/whimsicott/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

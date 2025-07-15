@@ -297,6 +297,8 @@ endc
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; SCOLIPEDE
+	db NO_MOVE      ; COTTONEE
+	db NO_MOVE      ; WHIMSICOTT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

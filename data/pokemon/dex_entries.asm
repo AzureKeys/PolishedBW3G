@@ -2910,6 +2910,26 @@ ScolipedePokedexEntry::
 	next "its large horns"
 	next "until prevailing.@"
 
+SECTION "CottoneePokedexEntry", ROMX
+CottoneePokedexEntry::
+	db "Cotton Puff@"
+	db "When attacked, it"
+	next "escapes by shoot-"
+	next "ing cotton from"
+	page "its body. The "
+	next "cotton is a decoy"
+	next "for distraction.@"
+
+SECTION "WhimsicottPokedexEntry", ROMX
+WhimsicottPokedexEntry::
+	db "Windveiled@"
+	db "Like the wind, it"
+	next "can slip through"
+	next "any gap, however"
+	page "small. It leaves"
+	next "balls of white"
+	next "fluff behind.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

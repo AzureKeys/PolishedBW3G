@@ -297,6 +297,8 @@ PokemonPicPointers::
 	pics Venipede
 	pics Whirlipede
 	pics Scolipede
+	pics Cottonee
+	pics Whimsicott
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

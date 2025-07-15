@@ -1232,5 +1232,11 @@ VenipedeEggSpeciesMoves:
 	db TAKE_DOWN
 	db $ff
 
+CottoneeEggSpeciesMoves:
+	dp COTTONEE, PLAIN_FORM
+	db ENCORE
+	db SING
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

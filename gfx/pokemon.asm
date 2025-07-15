@@ -1564,3 +1564,11 @@ WhirlipedeBackpic:  INCBIN "gfx/pokemon/whirlipede/back.2bpp.lz"
 SECTION "Scolipede Pics", ROMX
 ScolipedeFrontpic: INCBIN "gfx/pokemon/scolipede/front.animated.2bpp.lz"
 ScolipedeBackpic:  INCBIN "gfx/pokemon/scolipede/back.2bpp.lz"
+
+SECTION "Cottonee Pics", ROMX
+CottoneeFrontpic: INCBIN "gfx/pokemon/cottonee/front.animated.2bpp.lz"
+CottoneeBackpic:  INCBIN "gfx/pokemon/cottonee/back.2bpp.lz"
+
+SECTION "Whimsicott Pics", ROMX
+WhimsicottFrontpic: INCBIN "gfx/pokemon/whimsicott/front.animated.2bpp.lz"
+WhimsicottBackpic:  INCBIN "gfx/pokemon/whimsicott/back.2bpp.lz"

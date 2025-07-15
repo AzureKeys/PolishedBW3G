@@ -1467,6 +1467,16 @@ ScolipedeMini::     INCBIN "gfx/minis/scolipede.2bpp.lz"
 ScolipedeMiniMask:: INCBIN "gfx/minis/scolipede_mask.1bpp.lz"
 ScolipedeIcon::     INCBIN "gfx/icons/scolipede.2bpp.lz"
 
+SECTION "Cottonee Mini Icon", ROMX
+CottoneeMini::     INCBIN "gfx/minis/cottonee.2bpp.lz"
+CottoneeMiniMask:: INCBIN "gfx/minis/cottonee_mask.1bpp.lz"
+CottoneeIcon::     INCBIN "gfx/icons/cottonee.2bpp.lz"
+
+SECTION "Whimsicott Mini Icon", ROMX
+WhimsicottMini::     INCBIN "gfx/minis/whimsicott.2bpp.lz"
+WhimsicottMiniMask:: INCBIN "gfx/minis/whimsicott_mask.1bpp.lz"
+WhimsicottIcon::     INCBIN "gfx/icons/whimsicott.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

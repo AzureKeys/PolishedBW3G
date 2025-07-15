@@ -300,6 +300,8 @@ PokemonBodyData:
 	body_data   4,   53, INSECTOID,    RED    ; VENIPEDE
 	body_data  12,  585, HEAD,         GRAY   ; WHIRLIPEDE
 	body_data  25, 2005, INSECTOID,    RED    ; SCOLIPEDE
+	body_data   3,    6, HEAD,         GREEN  ; COTTONEE
+	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

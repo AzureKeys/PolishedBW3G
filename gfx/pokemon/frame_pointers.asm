@@ -293,6 +293,8 @@ FramesPointers:
 	dw VenipedeFrames
 	dw WhirlipedeFrames
 	dw ScolipedeFrames
+	dw CottoneeFrames
+	dw WhimsicottFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

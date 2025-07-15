@@ -311,6 +311,8 @@ INCLUDE "gfx/pokemon/leavanny/front.dimensions"
 INCLUDE "gfx/pokemon/venipede/front.dimensions"
 INCLUDE "gfx/pokemon/whirlipede/front.dimensions"
 INCLUDE "gfx/pokemon/scolipede/front.dimensions"
+INCLUDE "gfx/pokemon/cottonee/front.dimensions"
+INCLUDE "gfx/pokemon/whimsicott/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

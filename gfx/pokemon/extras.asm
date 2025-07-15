@@ -240,6 +240,8 @@ LeavannyAnimationExtra:   INCLUDE "gfx/pokemon/leavanny/anim_idle.asm"
 VenipedeAnimationExtra:   INCLUDE "gfx/pokemon/venipede/anim_idle.asm"
 WhirlipedeAnimationExtra: INCLUDE "gfx/pokemon/whirlipede/anim_idle.asm"
 ScolipedeAnimationExtra:  INCLUDE "gfx/pokemon/scolipede/anim_idle.asm"
+CottoneeAnimationExtra:   INCLUDE "gfx/pokemon/cottonee/anim_idle.asm"
+WhimsicottAnimationExtra: INCLUDE "gfx/pokemon/whimsicott/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

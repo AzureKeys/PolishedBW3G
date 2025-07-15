@@ -34,6 +34,7 @@ AlphabeticalPokedexOrder:
 	dp CLODSIRE
 	dp CONKELDURR
 	dp CORSOLA
+	dp COTTONEE
 	dp CROBAT
 	dp CROCONAW
 	dp CUBONE
@@ -280,6 +281,7 @@ AlphabeticalPokedexOrder:
 	dp WATCHOG
 	dp WEAVILE
 	dp WEEZING
+	dp WHIMSICOTT
 	dp WHIRLIPEDE
 	dp WIGGLYTUFF
 	dp WOBBUFFET

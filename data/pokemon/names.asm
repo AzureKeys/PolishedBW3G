@@ -294,4 +294,6 @@ PokemonNames::
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
 	rawchar "Scolipede@"
+	rawchar "Cottonee@@"
+	rawchar "Whimsicott"
 	assert_table_length NUM_SPECIES + 1

@@ -293,6 +293,8 @@ AnimationExtraPointers:
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra
 	dw ScolipedeAnimationExtra
+	dw CottoneeAnimationExtra
+	dw WhimsicottAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

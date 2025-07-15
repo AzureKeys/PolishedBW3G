@@ -293,6 +293,8 @@ EggSpeciesMovesPointers::
 	dw VenipedeEggSpeciesMoves          ; Venipede
 	dw VenipedeEggSpeciesMoves          ; Whirlipede
 	dw VenipedeEggSpeciesMoves          ; Scolipede
+	dw CottoneeEggSpeciesMoves          ; Cottonee
+	dw CottoneeEggSpeciesMoves          ; Whimsicott
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
