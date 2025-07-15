@@ -82,7 +82,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  33, 100 ; Starmie
 	db  20, 100 ; Mr. Mime
 	db  10, 100 ; Scyther
-	db  20, 100 ; Jynx
 	db  20,  46 ; Electabuzz
 	db  20,  46 ; Magmar
 	db  10, 100 ; Pinsir
@@ -197,7 +196,6 @@ endc
 	db  20,  39 ; Porygon2
 	db   1,  29 ; Stantler
 	db   1, 100 ; Smeargle
-	db   1,  19 ; Smoochum
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
 	db  20, 100 ; Miltank
@@ -259,10 +257,10 @@ endc
 	db  20, 100 ; Watchog
 	db   1,  15 ; Lillipup
 	db  16,  31 ; Herdier
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  32, 100 ; Stoutland
 	db   1,  19 ; Purrloin
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  20, 100 ; Liepard
 	db   1,  19 ; Munna
 	db  20, 100 ; Musharna

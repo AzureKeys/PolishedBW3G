@@ -81,7 +81,6 @@ BitmasksPointers:
 	dw StarmieBitmasks
 	dw MrMimePlainBitmasks
 	dw ScytherBitmasks
-	dw JynxBitmasks
 	dw ElectabuzzBitmasks
 	dw MagmarBitmasks
 	dw PinsirBitmasks
@@ -192,7 +191,6 @@ BitmasksPointers:
 	dw Porygon2Bitmasks
 	dw StantlerBitmasks
 	dw SmeargleBitmasks
-	dw SmoochumBitmasks
 	dw ElekidBitmasks
 	dw MagbyBitmasks
 	dw MiltankBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw WatchogBitmasks
 	dw LillipupBitmasks
 	dw HerdierBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw StoutlandBitmasks
 	dw PurrloinBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw LiepardBitmasks
 	dw MunnaBitmasks
 	dw MusharnaBitmasks

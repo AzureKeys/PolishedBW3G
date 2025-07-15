@@ -81,7 +81,6 @@ EvolutionMoves::
 	db NO_MOVE      ; STARMIE
 	db NO_MOVE      ; MR__MIME
 	db NO_MOVE      ; SCYTHER
-	db NO_MOVE      ; JYNX
 	db NO_MOVE      ; ELECTABUZZ
 	db NO_MOVE      ; MAGMAR
 	db NO_MOVE      ; PINSIR
@@ -196,7 +195,6 @@ endc
 	db NO_MOVE      ; PORYGON2
 	db NO_MOVE      ; STANTLER
 	db NO_MOVE      ; SMEARGLE
-	db NO_MOVE      ; SMOOCHUM
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
 	db NO_MOVE      ; MILTANK
@@ -258,10 +256,10 @@ endc
 	db CONFUSE_RAY  ; WATCHOG
 	db NO_MOVE      ; LILLIPUP
 	db NO_MOVE      ; HERDIER
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; STOUTLAND
 	db NO_MOVE      ; PURRLOIN
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; LIEPARD
 	db NO_MOVE      ; MUNNA
 	db NO_MOVE      ; MUSHARNA

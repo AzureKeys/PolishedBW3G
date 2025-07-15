@@ -85,7 +85,6 @@ PokemonPicPointers::
 	pics Starmie
 	pics MrMimePlain
 	pics Scyther
-	pics Jynx
 	pics Electabuzz
 	pics Magmar
 	pics Pinsir
@@ -196,7 +195,6 @@ PokemonPicPointers::
 	pics Porygon2
 	pics Stantler
 	pics Smeargle
-	pics Smoochum
 	pics Elekid
 	pics Magby
 	pics Miltank
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Watchog
 	pics Lillipup
 	pics Herdier
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Stoutland
 	pics Purrloin
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Liepard
 	pics Munna
 	pics Musharna

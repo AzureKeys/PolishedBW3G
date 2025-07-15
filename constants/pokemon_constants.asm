@@ -105,7 +105,6 @@
 	const STARMIE    ; 79
 	const MR__MIME   ; 7a
 	const SCYTHER    ; 7b
-	const JYNX       ; 7c
 	const ELECTABUZZ ; 7d
 	const MAGMAR     ; 7e
 	const PINSIR     ; 7f
@@ -216,7 +215,6 @@
 	const PORYGON2   ; e9
 	const STANTLER   ; ea
 	const SMEARGLE   ; eb
-	const SMOOCHUM   ; ee
 	const ELEKID     ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
@@ -278,10 +276,10 @@
 	const WATCHOG    ; 129
 	const LILLIPUP   ; 129
 	const HERDIER    ; 128
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const STOUTLAND  ; 129
 	const PURRLOIN   ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const LIEPARD    ; 129
 	const MUNNA      ; 128
 	const MUSHARNA   ; 129

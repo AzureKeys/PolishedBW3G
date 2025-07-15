@@ -81,7 +81,6 @@ AnimationPointers:
 	dw StarmieAnimation
 	dw MrMimePlainAnimation
 	dw ScytherAnimation
-	dw JynxAnimation
 	dw ElectabuzzAnimation
 	dw MagmarAnimation
 	dw PinsirAnimation
@@ -192,7 +191,6 @@ AnimationPointers:
 	dw Porygon2Animation
 	dw StantlerAnimation
 	dw SmeargleAnimation
-	dw SmoochumAnimation
 	dw ElekidAnimation
 	dw MagbyAnimation
 	dw MiltankAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw WatchogAnimation
 	dw LillipupAnimation
 	dw HerdierAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw StoutlandAnimation
 	dw PurrloinAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw LiepardAnimation
 	dw MunnaAnimation
 	dw MusharnaAnimation

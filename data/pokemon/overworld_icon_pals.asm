@@ -85,7 +85,6 @@ OverworldMonIconColors::
 	iconpal PURPLE, BLUE ; STARMIE
 	iconpal PINK, GREEN ; MR__MIME
 	iconpal GREEN, RED ; SCYTHER
-	iconpal PURPLE, RED ; JYNX
 	iconpal BROWN, RED ; ELECTABUZZ
 	iconpal RED, BROWN ; MAGMAR
 	iconpal BROWN, BLUE ; PINSIR
@@ -196,7 +195,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; PORYGON2
 	iconpal BROWN, GREEN ; STANTLER
 	iconpal BROWN, GREEN ; SMEARGLE
-	iconpal PURPLE, PINK ; SMOOCHUM
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
 	iconpal PINK, AZURE ; MILTANK
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; WATCHOG
 	iconpal BROWN, GRAY ; LILLIPUP
 	iconpal BLUE, GRAY ; HERDIER
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, GREEN ; STOUTLAND
 	iconpal PURPLE, BLUE ; PURRLOIN
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal PURPLE, RED ; LIEPARD
 	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA

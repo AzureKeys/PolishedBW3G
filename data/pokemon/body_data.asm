@@ -88,7 +88,6 @@ PokemonBodyData:
 	body_data  11,  800, HEAD_BASE,    PURPLE ; STARMIE
 	body_data  13,  545, BIPEDAL,      PINK   ; MR__MIME
 	body_data  15,  560, MULTIWINGS,   GREEN  ; SCYTHER
-	body_data  14,  406, BIPEDAL,      RED    ; JYNX
 	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; ELECTABUZZ
 	body_data  13,  445, BIPEDAL_TAIL, RED    ; MAGMAR
 	body_data  15,  550, BIPEDAL,      BROWN  ; PINSIR
@@ -199,7 +198,6 @@ PokemonBodyData:
 	body_data   6,  325, HEAD_LEGS,    RED    ; PORYGON2
 	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
 	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
-	body_data   4,   60, BIPEDAL,      PINK   ; SMOOCHUM
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
 	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
 	body_data  12,  755, BIPEDAL_TAIL, PINK   ; MILTANK
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
 	body_data   4,   41, QUADRUPED,    BROWN  ; LILLIPUP
 	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	body_data   4,  101, QUADRUPED,    PURPLE ; PURRLOIN
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA

@@ -81,7 +81,6 @@ FootprintPointers::
 	dw StarmieFootprint
 	dw MrMimeFootprint
 	dw ScytherFootprint
-	dw JynxFootprint
 	dw ElectabuzzFootprint
 	dw MagmarFootprint
 	dw PinsirFootprint
@@ -192,7 +191,6 @@ FootprintPointers::
 	dw Porygon2Footprint
 	dw StantlerFootprint
 	dw SmeargleFootprint
-	dw SmoochumFootprint
 	dw ElekidFootprint
 	dw MagbyFootprint
 	dw MiltankFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw WatchogFootprint
 	dw LillipupFootprint
 	dw HerdierFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw StoutlandFootprint
 	dw PurrloinFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw LiepardFootprint
 	dw MunnaFootprint
 	dw MusharnaFootprint

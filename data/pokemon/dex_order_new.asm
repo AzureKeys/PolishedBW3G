@@ -184,8 +184,6 @@ NewPokedexOrder:
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR
-	dp SMOOCHUM
-	dp JYNX
 	dp ELEKID
 	dp ELECTABUZZ
 	dp ELECTIVIRE

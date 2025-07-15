@@ -228,10 +228,6 @@ SECTION "Scyther Pics", ROMX
 ScytherFrontpic: INCBIN "gfx/pokemon/scyther/front.animated.2bpp.lz"
 ScytherBackpic:  INCBIN "gfx/pokemon/scyther/back.2bpp.lz"
 
-SECTION "Jynx Pics", ROMX
-JynxFrontpic: INCBIN "gfx/pokemon/jynx/front.animated.2bpp.lz"
-JynxBackpic:  INCBIN "gfx/pokemon/jynx/back.2bpp.lz"
-
 SECTION "Electabuzz Pics", ROMX
 ElectabuzzFrontpic: INCBIN "gfx/pokemon/electabuzz/front.animated.2bpp.lz"
 ElectabuzzBackpic:  INCBIN "gfx/pokemon/electabuzz/back.2bpp.lz"
@@ -691,10 +687,6 @@ AipomBackpic:  INCBIN "gfx/pokemon/aipom/back.2bpp.lz"
 SECTION "Stantler Pics", ROMX
 StantlerFrontpic: INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"
 StantlerBackpic:  INCBIN "gfx/pokemon/stantler/back.2bpp.lz"
-
-SECTION "Smoochum Pics", ROMX
-SmoochumFrontpic: INCBIN "gfx/pokemon/smoochum/front.animated.2bpp.lz"
-SmoochumBackpic:  INCBIN "gfx/pokemon/smoochum/back.2bpp.lz"
 
 SECTION "Celebi Pics", ROMX
 CelebiFrontpic: INCBIN "gfx/pokemon/celebi/front.animated.2bpp.lz"

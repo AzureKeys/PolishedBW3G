@@ -87,7 +87,6 @@ PokemonCries::
 	mon_cry CRY_PARAS,       $000,  $100 ; Starmie
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Mime
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Scyther
-	mon_cry CRY_DROWZEE,     $0ff,  $17f ; Jynx
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electabuzz
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmar
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; Pinsir
@@ -198,7 +197,6 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; Porygon2
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; Smeargle
-	mon_cry CRY_MARILL,      $068,  $100 ; Smoochum
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
 	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; Miltank
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,   -$026,  $0b0 ; Watchog
 	mon_cry CRY_REMORAID,   -$077,  $0e0 ; Lillipup
 	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
 	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna

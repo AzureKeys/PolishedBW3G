@@ -81,7 +81,6 @@ EggSpeciesMovesPointers::
 	dw StaryuEggSpeciesMoves            ; Starmie
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime
 	dw ScytherEggSpeciesMoves           ; Scyther
-	dw SmoochumEggSpeciesMoves          ; Jynx
 	dw ElekidEggSpeciesMoves            ; Electabuzz
 	dw MagbyEggSpeciesMoves             ; Magmar
 	dw PinsirEggSpeciesMoves            ; Pinsir
@@ -192,7 +191,6 @@ EggSpeciesMovesPointers::
 	dw PorygonEggSpeciesMoves           ; Porygon2
 	dw StantlerEggSpeciesMoves          ; Stantler
 	dw NoEggSpeciesMoves                ; Smeargle
-	dw SmoochumEggSpeciesMoves          ; Smoochum
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
 	dw MiltankEggSpeciesMoves           ; Miltank
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw PatratEggSpeciesMoves            ; Watchog
 	dw LillipupEggSpeciesMoves          ; Lillipup
 	dw LillipupEggSpeciesMoves          ; Herdier
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw LillipupEggSpeciesMoves          ; Stoutland
 	dw PurrloinEggSpeciesMoves          ; Purrloin
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw PurrloinEggSpeciesMoves          ; Liepard
 	dw MunnaEggSpeciesMoves             ; Munna
 	dw MunnaEggSpeciesMoves             ; Musharna

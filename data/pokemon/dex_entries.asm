@@ -816,16 +816,6 @@ ScytherPokedexEntry::
 	next "not even know what"
 	next "knocked it down.@"
 
-SECTION "JynxPokedexEntry", ROMX
-JynxPokedexEntry::
-	db "Human Shape@"
-	db   "It has several"
-	next "different cry"
-	next "patterns, each of"
-	page "which seems to"
-	next "have its own"
-	next "meaning.@"
-
 SECTION "ElectabuzzPokedexEntry", ROMX
 ElectabuzzPokedexEntry::
 	db "Electric@"
@@ -1925,16 +1915,6 @@ SmearglePokedexEntry::
 	page "tail is predeter-"
 	next "mined for each"
 	next "Smeargle.@"
-
-SECTION "SmoochumPokedexEntry", ROMX
-SmoochumPokedexEntry::
-	db "Kiss@"
-	db   "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects.@"
 
 SECTION "ElekidPokedexEntry", ROMX
 ElekidPokedexEntry::

@@ -1826,7 +1826,7 @@
 	wildmon 60, GOLBAT
 	wildmon 63, DEWGONG
 	wildmon 61, GOLDUCK
-	wildmon 62, JYNX
+	wildmon 62, RATTATA
 	wildmon 64, PSYDUCK
 	wildmon 65, SEEL
 	wildmon 66, DEWGONG
@@ -1834,7 +1834,7 @@
 	wildmon 60, GOLBAT
 	wildmon 63, DEWGONG
 	wildmon 61, GOLDUCK
-	wildmon 62, JYNX
+	wildmon 62, RATTATA
 	wildmon 64, PSYDUCK
 	wildmon 65, SEEL
 	wildmon 66, DEWGONG
@@ -1842,7 +1842,7 @@
 	wildmon 60, GOLBAT
 	wildmon 63, DEWGONG
 	wildmon 61, GOLDUCK
-	wildmon 62, JYNX
+	wildmon 62, RATTATA
 	wildmon 64, PSYDUCK
 	wildmon 65, SEEL
 	wildmon 66, DEWGONG

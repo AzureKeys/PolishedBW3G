@@ -85,7 +85,6 @@ MiniIconPointers:
 	mini_icon Starmie
 	mini_icon MrMime
 	mini_icon Scyther
-	mini_icon Jynx
 	mini_icon Electabuzz
 	mini_icon Magmar
 	mini_icon Pinsir
@@ -196,7 +195,6 @@ MiniIconPointers:
 	mini_icon Porygon2
 	mini_icon Stantler
 	mini_icon Smeargle
-	mini_icon Smoochum
 	mini_icon Elekid
 	mini_icon Magby
 	mini_icon Miltank
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Watchog
 	mini_icon Lillipup
 	mini_icon Herdier
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Stoutland
 	mini_icon Purrloin
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Liepard
 	mini_icon Munna
 	mini_icon Musharna

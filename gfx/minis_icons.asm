@@ -412,11 +412,6 @@ ScytherMini::     INCBIN "gfx/minis/scyther.2bpp.lz"
 ScytherMiniMask:: INCBIN "gfx/minis/scyther_mask.1bpp.lz"
 ScytherIcon::     INCBIN "gfx/icons/scyther.2bpp.lz"
 
-SECTION "Jynx Mini Icon", ROMX
-JynxMini::     INCBIN "gfx/minis/jynx.2bpp.lz"
-JynxMiniMask:: INCBIN "gfx/minis/jynx_mask.1bpp.lz"
-JynxIcon::     INCBIN "gfx/icons/jynx.2bpp.lz"
-
 SECTION "Electabuzz Mini Icon", ROMX
 ElectabuzzMini::     INCBIN "gfx/minis/electabuzz.2bpp.lz"
 ElectabuzzMiniMask:: INCBIN "gfx/minis/electabuzz_mask.1bpp.lz"
@@ -966,11 +961,6 @@ SECTION "Smeargle Mini Icon", ROMX
 SmeargleMini::     INCBIN "gfx/minis/smeargle.2bpp.lz"
 SmeargleMiniMask:: INCBIN "gfx/minis/smeargle_mask.1bpp.lz"
 SmeargleIcon::     INCBIN "gfx/icons/smeargle.2bpp.lz"
-
-SECTION "Smoochum Mini Icon", ROMX
-SmoochumMini::     INCBIN "gfx/minis/smoochum.2bpp.lz"
-SmoochumMiniMask:: INCBIN "gfx/minis/smoochum_mask.1bpp.lz"
-SmoochumIcon::     INCBIN "gfx/icons/smoochum.2bpp.lz"
 
 SECTION "Elekid Mini Icon", ROMX
 ElekidMini::     INCBIN "gfx/minis/elekid.2bpp.lz"

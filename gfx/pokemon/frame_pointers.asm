@@ -81,7 +81,6 @@ FramesPointers:
 	dw StarmieFrames
 	dw MrMimePlainFrames
 	dw ScytherFrames
-	dw JynxFrames
 	dw ElectabuzzFrames
 	dw MagmarFrames
 	dw PinsirFrames
@@ -192,7 +191,6 @@ FramesPointers:
 	dw Porygon2Frames
 	dw StantlerFrames
 	dw SmeargleFrames
-	dw SmoochumFrames
 	dw ElekidFrames
 	dw MagbyFrames
 	dw MiltankFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw WatchogFrames
 	dw LillipupFrames
 	dw HerdierFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw StoutlandFrames
 	dw PurrloinFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw LiepardFrames
 	dw MunnaFrames
 	dw MusharnaFrames

@@ -86,7 +86,6 @@ GrimerFootprint::
 GyaradosFootprint::
 HaunterFootprint::
 HorseaFootprint::
-JynxFootprint::
 KingdraFootprint::
 KoffingFootprint::
 LanturnFootprint::
@@ -258,7 +257,6 @@ DonphanFootprint:: INCBIN "gfx/footprints/donphan.1bpp.lz"
 Porygon2Footprint:: INCBIN "gfx/footprints/porygon2.1bpp.lz"
 StantlerFootprint:: INCBIN "gfx/footprints/stantler.1bpp.lz"
 SmeargleFootprint:: INCBIN "gfx/footprints/smeargle.1bpp.lz"
-SmoochumFootprint:: INCBIN "gfx/footprints/smoochum.1bpp.lz"
 ElekidFootprint:: INCBIN "gfx/footprints/elekid.1bpp.lz"
 MagbyFootprint:: INCBIN "gfx/footprints/magby.1bpp.lz"
 MiltankFootprint:: INCBIN "gfx/footprints/miltank.1bpp.lz"

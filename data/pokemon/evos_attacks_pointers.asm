@@ -85,7 +85,6 @@ EvosAttacksPointers::
 	dw StarmieEvosAttacks
 	dw MrMimePlainEvosAttacks
 	dw ScytherEvosAttacks
-	dw JynxEvosAttacks
 	dw ElectabuzzEvosAttacks
 	dw MagmarEvosAttacks
 	dw PinsirEvosAttacks
@@ -196,7 +195,6 @@ EvosAttacksPointers::
 	dw Porygon2EvosAttacks
 	dw StantlerEvosAttacks
 	dw SmeargleEvosAttacks
-	dw SmoochumEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw WatchogEvosAttacks
 	dw LillipupEvosAttacks
 	dw HerdierEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw StoutlandEvosAttacks
 	dw PurrloinEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw LiepardEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks

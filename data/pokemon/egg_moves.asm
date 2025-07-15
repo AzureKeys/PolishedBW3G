@@ -978,12 +978,6 @@ StantlerEggSpeciesMoves:
 	db RAGE
 	db $ff
 
-SmoochumEggSpeciesMoves:
-	dp SMOOCHUM, PLAIN_FORM
-	db BULK_UP
-	db NASTY_PLOT
-	db $ff
-
 ElekidEggSpeciesMoves:
 	dp ELEKID, PLAIN_FORM
 	db BARRIER

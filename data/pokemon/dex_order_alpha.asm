@@ -103,7 +103,6 @@ AlphabeticalPokedexOrder:
 	dp JIGGLYPUFF
 	dp JOLTEON
 	dp JUMPLUFF
-	dp JYNX
 	dp KABUTO
 	dp KABUTOPS
 	dp KANGASKHAN
@@ -229,7 +228,6 @@ AlphabeticalPokedexOrder:
 	dp SLOWPOKE
 	dp SLUGMA
 	dp SMEARGLE
-	dp SMOOCHUM
 	dp SNEASEL
 	dp SNEASLER
 	dp SNIVY

@@ -26,7 +26,7 @@ NPCTrades:
 	rawchar "Tim@@@@@", $00
 ; NPC_TRADE_EMY in Blackthorn City
 	db TRADE_DIALOGSET_GIRL
-	dp JYNX, NO_FORM    ; wants
+	dp RATTATA, NO_FORM    ; wants
 	dp MR__MIME, FEMALE ; gives
 	rawchar "Doris@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_ATK_DOWN,   LOVE_BALL,    PINK_BOW

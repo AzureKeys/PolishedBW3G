@@ -82,7 +82,6 @@ PokedexDataPointerTable:
 	dba StarmiePokedexEntry
 	dba MrMimePlainPokedexEntry
 	dba ScytherPokedexEntry
-	dba JynxPokedexEntry
 	dba ElectabuzzPokedexEntry
 	dba MagmarPokedexEntry
 	dba PinsirPokedexEntry
@@ -193,7 +192,6 @@ PokedexDataPointerTable:
 	dba Porygon2PokedexEntry
 	dba StantlerPokedexEntry
 	dba SmearglePokedexEntry
-	dba SmoochumPokedexEntry
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
 	dba MiltankPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba WatchogPokedexEntry
 	dba LillipupPokedexEntry
 	dba HerdierPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba StoutlandPokedexEntry
 	dba PurrloinPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba LiepardPokedexEntry
 	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry

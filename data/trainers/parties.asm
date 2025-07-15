@@ -448,7 +448,7 @@ WillGroup:
 	tr_mon 48, WYRDEER @ TWISTEDSPOON
 		tr_evs 252 HP, 36 Spe
 		tr_moves PSYCHIC_M, SHADOW_BALL, CALM_MIND, HYPNOSIS
-	tr_mon 49, JYNX @ BRIGHTPOWDER
+	tr_mon 49, RATTATA @ BRIGHTPOWDER
 		tr_evs 144 SAt, 144 Spe
 		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
 	tr_mon 50, EXEGGUTOR @ MIRACLE_SEED
@@ -468,7 +468,7 @@ WillGroup:
 	def_trainer 2, "Will"
 	tr_mon 67, WYRDEER @ TWISTEDSPOON
 		tr_moves SHADOW_BALL, MEGAHORN, EARTHQUAKE, PSYCHIC_M
-	tr_mon 68, JYNX @ BRIGHTPOWDER
+	tr_mon 68, RATTATA @ BRIGHTPOWDER
 		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
 	tr_mon 68, EXEGGUTOR @ MIRACLE_SEED
 		tr_moves REFLECT, GIGA_DRAIN, SLEEP_POWDER, PSYCHIC_M
@@ -3978,7 +3978,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer DANNY, "Danny"
-	tr_mon 61, JYNX
+	tr_mon 61, RATTATA
 	tr_mon 61, ELECTABUZZ
 	tr_mon 61, MAGMAR
 	end_trainer
@@ -5325,7 +5325,7 @@ SkierGroup:
 
 	def_trainer_class SKIER
 	def_trainer ROXANNE, "Roxanne"
-	tr_mon 36, JYNX
+	tr_mon 36, RATTATA
 	end_trainer
 
 	def_trainer CLARISSA, "Clarissa"
@@ -5337,7 +5337,7 @@ SkierGroup:
 	end_trainer
 
 	def_trainer MARIA, "Maria"
-	tr_mon 39, JYNX
+	tr_mon 39, RATTATA
 	end_trainer
 
 	def_trainer BECKY, "Becky"
@@ -6024,11 +6024,11 @@ SightseersGroup:
 
 	def_trainer CYANDVI1, "Cy & Vi"
 	tr_mon 64, MR__MIME, MALE
-	tr_mon 64, JYNX, FEMALE
+	tr_mon 64, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer CYANDVI2, "Cy & Vi"
-	tr_mon 64, JYNX, FEMALE
+	tr_mon 64, RATTATA, FEMALE
 	tr_mon 64, MR__MIME, MALE
 	end_trainer
 
@@ -6979,7 +6979,7 @@ LoreleiGroup:
 	tr_mon 41, SLOWBRO
 		tr_evs 240 HP
 		tr_moves PSYCHIC_M, WATER_PULSE, HEADBUTT, DISABLE
-	tr_mon 44, JYNX @ SITRUS_BERRY
+	tr_mon 44, RATTATA @ SITRUS_BERRY
 		tr_evs 240 SAt
 		tr_moves DRAINING_KISS, SING, AVALANCHE, PETAL_DANCE
 	tr_mon 43, LAPRAS
@@ -6996,7 +6996,7 @@ LoreleiGroup:
 		tr_moves PSYCHIC_M, SURF, ICE_BEAM, CALM_MIND
 	tr_mon 72, GLACEON @ NEVERMELTICE
 		tr_moves ICE_BEAM, BARRIER, HYPER_VOICE, MIRROR_COAT
-	tr_mon 75, JYNX @ PINK_BOW
+	tr_mon 75, RATTATA @ PINK_BOW
 		tr_moves DRAINING_KISS, NASTY_PLOT, ICE_BEAM, PSYCHIC_M
 	tr_mon 74, LAPRAS @ BRIGHTPOWDER
 		tr_moves ICE_BEAM, ANCIENTPOWER, CONFUSE_RAY, OUTRAGE
@@ -7015,7 +7015,7 @@ LoreleiGroup:
 	tr_mon 56, GLACEON @ NEVERMELTICE
 		tr_evs 68 Atk, 252 SAt
 		tr_moves ICE_BEAM, BARRIER, HYPER_VOICE, QUICK_ATTACK
-	tr_mon 60, JYNX @ PINK_BOW
+	tr_mon 60, RATTATA @ PINK_BOW
 		tr_evs 68 SAt, 252 Spe
 		tr_moves DRAINING_KISS, NASTY_PLOT, ICE_BEAM, PSYCHIC_M
 	tr_mon 59, LAPRAS @ BRIGHTPOWDER
@@ -7364,7 +7364,7 @@ CaitlinGroup:
 	tr_mon 58, ESPEON
 	tr_mon 56, XATU
 	tr_mon 57, STARMIE
-	tr_mon 56, JYNX
+	tr_mon 56, RATTATA
 	tr_mon 58, RATTATA
 	tr_mon 60, RATTATA
 	end_trainer
@@ -7392,7 +7392,7 @@ BlancheGroup:
 	tr_mon 63, VAPOREON
 	tr_mon 62, LAPRAS
 	tr_mon 63, BLASTOISE
-	tr_mon 61, JYNX
+	tr_mon 61, RATTATA
 	tr_mon 62, STARMIE
 	tr_mon 65, ARTICUNO @ NEVERMELTICE
 	end_trainer

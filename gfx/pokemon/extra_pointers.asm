@@ -81,7 +81,6 @@ AnimationExtraPointers:
 	dw StarmieAnimationExtra
 	dw MrMimePlainAnimationExtra
 	dw ScytherAnimationExtra
-	dw JynxAnimationExtra
 	dw ElectabuzzAnimationExtra
 	dw MagmarAnimationExtra
 	dw PinsirAnimationExtra
@@ -192,7 +191,6 @@ AnimationExtraPointers:
 	dw Porygon2AnimationExtra
 	dw StantlerAnimationExtra
 	dw SmeargleAnimationExtra
-	dw SmoochumAnimationExtra
 	dw ElekidAnimationExtra
 	dw MagbyAnimationExtra
 	dw MiltankAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw WatchogAnimationExtra
 	dw LillipupAnimationExtra
 	dw HerdierAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw StoutlandAnimationExtra
 	dw PurrloinAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw LiepardAnimationExtra
 	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra

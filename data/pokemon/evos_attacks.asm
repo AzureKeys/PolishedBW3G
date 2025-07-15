@@ -2002,27 +2002,6 @@ endc
 	learnset 50, AIR_SLASH
 	learnset 57, SWORDS_DANCE
 
-	evos_attacks Jynx
-	learnset 1, PETAL_DANCE ; event move
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, LICK
-	learnset 1, CONFUSION ; Smoochum move
-	learnset 1, SWEET_KISS ; Smoochum move
-	learnset 5, SING ; Lovely Kiss → Smoochum move
-	learnset 8, SCREECH ; Lovely Kiss → LGPE move
-	learnset 11, ICY_WIND ; Powder Snow → TM move
-	learnset 15, DOUBLE_SLAP
-	learnset 18, ICE_PUNCH
-	learnset 21, METRONOME ; Heart Stamp → RBY TM move
-	learnset 25, MEAN_LOOK
-	learnset 28, DRAINING_KISS ; Fake Tears → Drain Kiss
-	learnset 33, PSYBEAM ; Wake-Up Slap → new move
-	learnset 39, AVALANCHE
-	learnset 44, BODY_SLAM
-	learnset 49, NASTY_PLOT ; Wring Out → egg move
-	learnset 55, PERISH_SONG
-	learnset 60, BLIZZARD
-
 	evos_attacks Electabuzz
 	evo_data EVOLVE_TRADE, ELECTIRIZER, ELECTIVIRE
 	learnset 1, QUICK_ATTACK
@@ -4269,23 +4248,6 @@ endc
 	learnset 71, SKETCH
 	learnset 81, SKETCH
 	learnset 91, SKETCH
-
-	evos_attacks Smoochum
-	evo_data EVOLVE_LEVEL, 30, JYNX
-	learnset 1, LICK
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 4, ICY_WIND ; Powder Snow → TM move
-	learnset 8, METRONOME ; Copycat → Jynx RBY TM move
-	learnset 12, CONFUSION
-	learnset 16, THIEF ; Covet → similar move
-	learnset 20, SING
-	learnset 24, MEAN_LOOK ; Fake Tears → Mean Look
-	learnset 28, ICE_PUNCH
-	learnset 32, PSYCHIC_M
-	learnset 36, SWEET_KISS
-	learnset 40, NASTY_PLOT ; Mean Look → egg move
-	learnset 44, PERISH_SONG
-	learnset 48, BLIZZARD
 
 	evos_attacks Elekid
 	evo_data EVOLVE_LEVEL, 30, ELECTABUZZ
