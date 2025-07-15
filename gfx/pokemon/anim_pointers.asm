@@ -295,6 +295,8 @@ AnimationPointers:
 	dw ScolipedeAnimation
 	dw CottoneeAnimation
 	dw WhimsicottAnimation
+	dw PetililAnimation
+	dw LilligantPlainAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

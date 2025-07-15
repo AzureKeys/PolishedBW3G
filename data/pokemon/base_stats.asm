@@ -330,6 +330,8 @@ INCLUDE "data/pokemon/base_stats/whirlipede.asm"
 INCLUDE "data/pokemon/base_stats/scolipede.asm"
 INCLUDE "data/pokemon/base_stats/cottonee.asm"
 INCLUDE "data/pokemon/base_stats/whimsicott.asm"
+INCLUDE "data/pokemon/base_stats/petilil.asm"
+INCLUDE "data/pokemon/base_stats/lilligant_plain.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

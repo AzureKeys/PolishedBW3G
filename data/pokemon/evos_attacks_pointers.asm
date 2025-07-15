@@ -299,6 +299,8 @@ EvosAttacksPointers::
 	dw ScolipedeEvosAttacks
 	dw CottoneeEvosAttacks
 	dw WhimsicottEvosAttacks
+	dw PetililEvosAttacks
+	dw LilligantPlainEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

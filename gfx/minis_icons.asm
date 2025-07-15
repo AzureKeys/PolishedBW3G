@@ -1477,6 +1477,16 @@ WhimsicottMini::     INCBIN "gfx/minis/whimsicott.2bpp.lz"
 WhimsicottMiniMask:: INCBIN "gfx/minis/whimsicott_mask.1bpp.lz"
 WhimsicottIcon::     INCBIN "gfx/icons/whimsicott.2bpp.lz"
 
+SECTION "Petilil Mini Icon", ROMX
+PetililMini::     INCBIN "gfx/minis/petilil.2bpp.lz"
+PetililMiniMask:: INCBIN "gfx/minis/petilil_mask.1bpp.lz"
+PetililIcon::     INCBIN "gfx/icons/petilil.2bpp.lz"
+
+SECTION "Lilligant Mini Icon", ROMX
+LilligantMini::     INCBIN "gfx/minis/lilligant.2bpp.lz"
+LilligantMiniMask:: INCBIN "gfx/minis/lilligant_mask.1bpp.lz"
+LilligantIcon::     INCBIN "gfx/icons/lilligant.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

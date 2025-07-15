@@ -170,6 +170,7 @@ WhirlipedeFrames: INCLUDE "gfx/pokemon/whirlipede/frames.asm"
 ScolipedeFrames:  INCLUDE "gfx/pokemon/scolipede/frames.asm"
 CottoneeFrames:   INCLUDE "gfx/pokemon/cottonee/frames.asm"
 WhimsicottFrames: INCLUDE "gfx/pokemon/whimsicott/frames.asm"
+PetililFrames:    INCLUDE "gfx/pokemon/petilil/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -230,3 +231,5 @@ UrsalunaPlainFrames:     INCLUDE "gfx/pokemon/ursaluna_plain/frames.asm"
 UrsalunaBloodmoonFrames: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/frames.asm"
 
 SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
+
+LilligantPlainFrames: INCLUDE "gfx/pokemon/lilligant_plain/frames.asm"

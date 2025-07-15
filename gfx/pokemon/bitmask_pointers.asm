@@ -295,6 +295,8 @@ BitmasksPointers:
 	dw ScolipedeBitmasks
 	dw CottoneeBitmasks
 	dw WhimsicottBitmasks
+	dw PetililBitmasks
+	dw LilligantPlainBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

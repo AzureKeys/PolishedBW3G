@@ -301,4 +301,6 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
 	mon_cry CRY_MARILL,      $0d7,  $140 ; Cottonee
 	mon_cry CRY_BELLOSSOM,   $000,  $180 ; WHIMSICOTT*
+	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
+	mon_cry CRY_REMORAID,   -$020,  $180 ; LILLIGANT*
 	assert_table_length NUM_SPECIES

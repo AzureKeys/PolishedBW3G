@@ -1572,3 +1572,11 @@ CottoneeBackpic:  INCBIN "gfx/pokemon/cottonee/back.2bpp.lz"
 SECTION "Whimsicott Pics", ROMX
 WhimsicottFrontpic: INCBIN "gfx/pokemon/whimsicott/front.animated.2bpp.lz"
 WhimsicottBackpic:  INCBIN "gfx/pokemon/whimsicott/back.2bpp.lz"
+
+SECTION "Petilil Pics", ROMX
+PetililFrontpic: INCBIN "gfx/pokemon/petilil/front.animated.2bpp.lz"
+PetililBackpic:  INCBIN "gfx/pokemon/petilil/back.2bpp.lz"
+
+SECTION "LilligantPlain Pics", ROMX
+LilligantPlainFrontpic: INCBIN "gfx/pokemon/lilligant_plain/front.animated.2bpp.lz"
+LilligantPlainBackpic:  INCBIN "gfx/pokemon/lilligant_plain/back.2bpp.lz"

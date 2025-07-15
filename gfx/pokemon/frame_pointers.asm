@@ -295,6 +295,8 @@ FramesPointers:
 	dw ScolipedeFrames
 	dw CottoneeFrames
 	dw WhimsicottFrames
+	dw PetililFrames
+	dw LilligantPlainFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

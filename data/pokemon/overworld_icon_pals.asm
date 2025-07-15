@@ -299,6 +299,8 @@ OverworldMonIconColors::
 	iconpal RED, ORANGE ; SCOLIPEDE
 	iconpal GREEN, ORANGE ; COTTONEE
 	iconpal BROWN, GRAY ; WHIMSICOTT
+	iconpal GREEN, BROWN ; PETILIL
+	iconpal GREEN, TEAL ; LILLIGANT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

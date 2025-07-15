@@ -299,6 +299,8 @@ MiniIconPointers:
 	mini_icon Scolipede
 	mini_icon Cottonee
 	mini_icon Whimsicott
+	mini_icon Petilil
+	mini_icon Lilligant
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

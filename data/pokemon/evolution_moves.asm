@@ -299,6 +299,8 @@ endc
 	db NO_MOVE      ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
 	db NO_MOVE      ; WHIMSICOTT
+	db NO_MOVE      ; PETILIL
+	db NO_MOVE      ; LILLIGANT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

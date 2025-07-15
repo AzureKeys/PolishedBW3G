@@ -299,6 +299,8 @@ PokemonPicPointers::
 	pics Scolipede
 	pics Cottonee
 	pics Whimsicott
+	pics Petilil
+	pics LilligantPlain
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

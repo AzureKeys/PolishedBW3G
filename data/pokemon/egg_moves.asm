@@ -1238,5 +1238,13 @@ CottoneeEggSpeciesMoves:
 	db SING
 	db $ff
 
+PetililEggSpeciesMoves:
+	dp PETILIL, PLAIN_FORM
+	db CHARM
+	db ENCORE
+	db ENDURE
+	;db SWEET_SCENT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

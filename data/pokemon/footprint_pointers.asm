@@ -295,6 +295,8 @@ FootprintPointers::
 	dw ScolipedeFootprint
 	dw CottoneeFootprint
 	dw WhimsicottFootprint
+	dw PetililFootprint
+	dw LilligantFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

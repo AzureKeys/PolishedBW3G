@@ -123,6 +123,7 @@ AlphabeticalPokedexOrder:
 	dp LICKILICKY
 	dp LICKITUNG
 	dp LIEPARD
+	dp LILLIGANT
 	dp LILLIPUP
 	dp LUGIA
 	dp MAGBY
@@ -177,6 +178,7 @@ AlphabeticalPokedexOrder:
 	dp PATRAT
 	dp PERRSERKER
 	dp PERSIAN
+	dp PETILIL
 	dp PHANPY
 	dp PICHU
 	dp PIDOVE

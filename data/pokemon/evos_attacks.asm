@@ -6092,6 +6092,35 @@ endc
 	learnset 46, HURRICANE
 	learnset 50, MOONBLAST
 
+	evos_attacks Petilil
+	evo_data EVOLVE_ITEM, SUN_STONE, LILLIGANT
+	learnset 1, ABSORB
+	learnset 4, GROWTH
+	learnset 8, LEECH_SEED
+	learnset 10, SLEEP_POWDER
+	learnset 13, MEGA_DRAIN
+	learnset 17, HEALINGLIGHT ; Synthesis
+	;learnset 19, MAGICAL_LEAF
+	learnset 22, STUN_SPORE
+	learnset 26, GIGA_DRAIN
+	;learnset 28, AROMATHERAPY
+	learnset 31, SAFEGUARD ; Helping Hand
+	learnset 35, ENERGY_BALL
+	learnset 37, MINIMIZE ; Entrainment
+	learnset 40, SUNNY_DAY
+	learnset 44, ENCORE ; After You
+	learnset 46, SOLAR_BEAM ; Leaf Storm
+
+	evos_attacks LilligantPlain
+	learnset 1, GROWTH
+	learnset 1, LEECH_SEED
+	learnset 1, MEGA_DRAIN
+	learnset 1, HEALINGLIGHT ; Synthesis
+	learnset 10, SWEET_KISS ; Teeter Dance
+	;learnset 28, QUIVER_DANCE
+	learnset 46, PETAL_DANCE
+	;learnset 50, PETAL_BLIZZARD
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

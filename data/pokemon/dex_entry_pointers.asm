@@ -296,6 +296,8 @@ PokedexDataPointerTable:
 	dba ScolipedePokedexEntry
 	dba CottoneePokedexEntry
 	dba WhimsicottPokedexEntry
+	dba PetililPokedexEntry
+	dba LilligantPlainPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

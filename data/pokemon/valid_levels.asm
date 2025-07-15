@@ -300,4 +300,6 @@ endc
 	db  30, 100 ; Scolipede
 	db   1,  29 ; Cottonee
 	db  30, 100 ; Whimsicott
+	db   1,  29 ; Petilil
+	db  30, 100 ; Lilligant
 	assert_table_length NUM_SPECIES

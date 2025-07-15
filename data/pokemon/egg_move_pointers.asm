@@ -295,6 +295,8 @@ EggSpeciesMovesPointers::
 	dw VenipedeEggSpeciesMoves          ; Scolipede
 	dw CottoneeEggSpeciesMoves          ; Cottonee
 	dw CottoneeEggSpeciesMoves          ; Whimsicott
+	dw PetililEggSpeciesMoves           ; Petilil
+	dw PetililEggSpeciesMoves           ; Lilligant
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

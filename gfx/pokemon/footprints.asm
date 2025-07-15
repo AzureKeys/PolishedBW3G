@@ -62,6 +62,8 @@ WhirlipedeFootprint::
 ScolipedeFootprint::
 CottoneeFootprint::
 WhimsicottFootprint::
+PetililFootprint::
+LilligantFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

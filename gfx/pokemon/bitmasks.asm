@@ -242,6 +242,7 @@ WhirlipedeBitmasks: INCLUDE "gfx/pokemon/whirlipede/bitmask.asm"
 ScolipedeBitmasks:  INCLUDE "gfx/pokemon/scolipede/bitmask.asm"
 CottoneeBitmasks:   INCLUDE "gfx/pokemon/cottonee/bitmask.asm"
 WhimsicottBitmasks: INCLUDE "gfx/pokemon/whimsicott/bitmask.asm"
+PetililBitmasks:    INCLUDE "gfx/pokemon/petilil/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -444,3 +445,5 @@ UrsalunaPlainBitmasks:     INCLUDE "gfx/pokemon/ursaluna_plain/bitmask.asm"
 UrsalunaBloodmoonBitmasks: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/bitmask.asm"
 
 SamurottPlainBitmasks: INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
+
+LilligantPlainBitmasks: INCLUDE "gfx/pokemon/lilligant_plain/bitmask.asm"

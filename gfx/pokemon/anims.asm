@@ -242,6 +242,7 @@ WhirlipedeAnimation: INCLUDE "gfx/pokemon/whirlipede/anim.asm"
 ScolipedeAnimation:  INCLUDE "gfx/pokemon/scolipede/anim.asm"
 CottoneeAnimation:   INCLUDE "gfx/pokemon/cottonee/anim.asm"
 WhimsicottAnimation: INCLUDE "gfx/pokemon/whimsicott/anim.asm"
+PetililAnimation:    INCLUDE "gfx/pokemon/petilil/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -444,3 +445,5 @@ UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
 UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
 
 SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
+
+LilligantPlainAnimation: INCLUDE "gfx/pokemon/lilligant_plain/anim.asm"

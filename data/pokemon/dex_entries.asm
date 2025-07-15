@@ -2930,6 +2930,26 @@ WhimsicottPokedexEntry::
 	next "balls of white"
 	next "fluff behind.@"
 
+SECTION "PetililPokedexEntry", ROMX
+PetililPokedexEntry::
+	db "Bulb@"
+	db "Since they prefer"
+	next "nutrient-rich soil"
+	next "the areas where"
+	page "Petilil live are"
+	next "known to be good"
+	next "for planting.@"
+
+SECTION "LilligantPlainPokedexEntry", ROMX
+LilligantPlainPokedexEntry::
+	db "Flowering@"
+	db "Even veteran"
+	next "trainers have a"
+	next "challenge trying"
+	page "to get its"
+	next "beautiful flower"
+	next "to bloom.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
