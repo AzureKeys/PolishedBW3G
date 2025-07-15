@@ -71,26 +71,26 @@ ENDM
 .Well_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     GOLDEEN,    10
+	fishentry 100 percent,     RATTATA,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     GOLDEEN,    20
-	fishentry  90 percent + 1, GOLDEEN,    20
-	fishentry 100 percent,     GOLDEEN,    20
+	fishentry  70 percent,     RATTATA,    20
+	fishentry  90 percent + 1, RATTATA,    20
+	fishentry 100 percent,     RATTATA,    20
 .Lake_Super:
 .River_Super:
-	fishentry  40 percent,     GOLDEEN,    40
-	fishentry  70 percent,     GOLDEEN,    40
+	fishentry  40 percent,     RATTATA,    40
+	fishentry  70 percent,     RATTATA,    40
 	fishentry  90 percent + 1, MAGIKARP,   40
-	fishentry 100 percent,     SEAKING,    40
+	fishentry 100 percent,     RATTATA,    40
 
 .Well_Super:
-	fishentry  40 percent,     GOLDEEN,    40
-	fishentry  70 percent,     GOLDEEN,    40
+	fishentry  40 percent,     RATTATA,    40
+	fishentry  70 percent,     RATTATA,    40
 	fishentry  90 percent + 1, RATTATA,   40
-	fishentry 100 percent,     SEAKING,    40
+	fishentry 100 percent,     RATTATA,    40
 
 .Pond_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10

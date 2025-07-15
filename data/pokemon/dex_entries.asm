@@ -776,26 +776,6 @@ SeadraPokedexEntry::
 	next "spikes to fend off"
 	next "the intruder.@"
 
-SECTION "GoldeenPokedexEntry", ROMX
-GoldeenPokedexEntry::
-	db "Goldfish@"
-	db   "During spawning"
-	next "season, they swim"
-	next "gracefully in the"
-	page "water, searching"
-	next "for their perfect"
-	next "mate.@"
-
-SECTION "SeakingPokedexEntry", ROMX
-SeakingPokedexEntry::
-	db "Goldfish@"
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
-
 SECTION "StaryuPokedexEntry", ROMX
 StaryuPokedexEntry::
 	db "Star Shape@"

@@ -456,14 +456,6 @@ HorseaEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
-GoldeenEggSpeciesMoves:
-	dp GOLDEEN, PLAIN_FORM
-	db AQUA_TAIL
-	db HYDRO_PUMP
-	db PSYBEAM
-	db QUICK_ATTACK
-	db $ff
-
 StaryuEggSpeciesMoves:
 	dp STARYU, PLAIN_FORM
 	db $ff

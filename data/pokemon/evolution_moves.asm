@@ -77,8 +77,6 @@ EvolutionMoves::
 	db NO_MOVE      ; KANGASKHAN
 	db NO_MOVE      ; HORSEA
 	db NO_MOVE      ; SEADRA
-	db NO_MOVE      ; GOLDEEN
-	db NO_MOVE      ; SEAKING
 	db NO_MOVE      ; STARYU
 	db NO_MOVE      ; STARMIE
 	db NO_MOVE      ; MR__MIME
@@ -258,10 +256,10 @@ endc
 	db SLASH        ; SAMUROTT
 	db NO_MOVE      ; PATRAT
 	db CONFUSE_RAY  ; WATCHOG
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; LILLIPUP
 	db NO_MOVE      ; HERDIER
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; STOUTLAND
 	db NO_MOVE      ; PURRLOIN
 	db NO_MOVE      ; LIEPARD

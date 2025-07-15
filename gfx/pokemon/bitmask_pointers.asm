@@ -77,8 +77,6 @@ BitmasksPointers:
 	dw KangaskhanBitmasks
 	dw HorseaBitmasks
 	dw SeadraBitmasks
-	dw GoldeenBitmasks
-	dw SeakingBitmasks
 	dw StaryuBitmasks
 	dw StarmieBitmasks
 	dw MrMimePlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw SamurottPlainBitmasks
 	dw PatratBitmasks
 	dw WatchogBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw LillipupBitmasks
 	dw HerdierBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw StoutlandBitmasks
 	dw PurrloinBitmasks
 	dw LiepardBitmasks

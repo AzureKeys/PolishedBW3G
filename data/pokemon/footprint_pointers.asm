@@ -77,8 +77,6 @@ FootprintPointers::
 	dw KangaskhanFootprint
 	dw HorseaFootprint
 	dw SeadraFootprint
-	dw GoldeenFootprint
-	dw SeakingFootprint
 	dw StaryuFootprint
 	dw StarmieFootprint
 	dw MrMimeFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw SamurottFootprint
 	dw PatratFootprint
 	dw WatchogFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw LillipupFootprint
 	dw HerdierFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw StoutlandFootprint
 	dw PurrloinFootprint
 	dw LiepardFootprint

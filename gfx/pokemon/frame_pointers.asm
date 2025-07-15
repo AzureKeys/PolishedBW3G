@@ -77,8 +77,6 @@ FramesPointers:
 	dw KangaskhanFrames
 	dw HorseaFrames
 	dw SeadraFrames
-	dw GoldeenFrames
-	dw SeakingFrames
 	dw StaryuFrames
 	dw StarmieFrames
 	dw MrMimePlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw SamurottPlainFrames
 	dw PatratFrames
 	dw WatchogFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw LillipupFrames
 	dw HerdierFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw StoutlandFrames
 	dw PurrloinFrames
 	dw LiepardFrames

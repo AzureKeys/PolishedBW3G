@@ -80,7 +80,6 @@ AlphabeticalPokedexOrder:
 	dp GLIGAR
 	dp GLISCOR
 	dp GOLBAT
-	dp GOLDEEN
 	dp GOLDUCK
 	dp GOLEM
 	dp GRANBULL
@@ -215,7 +214,6 @@ AlphabeticalPokedexOrder:
 	dp SCOLIPEDE
 	dp SCYTHER
 	dp SEADRA
-	dp SEAKING
 	dp SEEL
 	dp SEISMITOAD
 	dp SENTRET

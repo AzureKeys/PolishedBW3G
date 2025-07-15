@@ -81,8 +81,6 @@ EvosAttacksPointers::
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
-	dw GoldeenEvosAttacks
-	dw SeakingEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
 	dw MrMimePlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw SamurottPlainEvosAttacks
 	dw PatratEvosAttacks
 	dw WatchogEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw LillipupEvosAttacks
 	dw HerdierEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw StoutlandEvosAttacks
 	dw PurrloinEvosAttacks
 	dw LiepardEvosAttacks

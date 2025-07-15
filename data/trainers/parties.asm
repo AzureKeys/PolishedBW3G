@@ -2047,7 +2047,7 @@ endc
 	end_trainer
 
 	def_trainer DEBRA, "Debra"
-	tr_mon 50, SEAKING
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer HEIDI, "Heidi"
@@ -2180,21 +2180,21 @@ FisherGroup:
 
 	def_trainer_class FISHER
 	def_trainer RALPH1, "Ralph"
-	tr_mon 11, GOLDEEN
+	tr_mon 11, RATTATA
 	end_trainer
 
 	def_trainer RALPH2, "Ralph"
-	tr_mon 17, GOLDEEN
+	tr_mon 17, RATTATA
 	end_trainer
 
 	def_trainer RALPH3, "Ralph"
 	tr_mon 17, QWILFISH
-	tr_mon 19, GOLDEEN
+	tr_mon 19, RATTATA
 	end_trainer
 
 	def_trainer RALPH4, "Ralph"
 	tr_mon 30, QWILFISH
-	tr_mon 32, SEAKING
+	tr_mon 32, RATTATA
 	end_trainer
 
 	def_trainer RALPH5, "Ralph"
@@ -2202,7 +2202,7 @@ FisherGroup:
 		tr_moves TOXIC, MINIMIZE, SURF, PIN_MISSILE
 	tr_mon 36, LANTURN
 		tr_moves REVERSAL, WATERFALL, THUNDERBOLT, CONFUSE_RAY
-	tr_mon 39, SEAKING
+	tr_mon 39, RATTATA
 		tr_moves WATERFALL, AGILITY, FURY_STRIKES, POISON_JAB
 	end_trainer
 
@@ -2211,41 +2211,41 @@ FisherGroup:
 	end_trainer
 
 	def_trainer TULLY2, "Tully"
-	tr_mon 35, GOLDEEN
+	tr_mon 35, RATTATA
 	tr_mon 35, QWILFISH
 	end_trainer
 
 	def_trainer TULLY3, "Tully"
 	tr_mon 40, POLIWHIRL
-	tr_mon 40, SEAKING
+	tr_mon 40, RATTATA
 	tr_mon 40, QWILFISH
 	end_trainer
 
 	def_trainer TULLY4, "Tully"
 	tr_mon 43, POLIWRATH
 		tr_moves RAIN_DANCE, HYPNOSIS, WATERFALL, CLOSE_COMBAT
-	tr_mon 43, SEAKING
+	tr_mon 43, RATTATA
 		tr_moves AGILITY, WATERFALL, BODY_SLAM, POISON_JAB
 	tr_mon 45, QWILFISH
 		tr_moves ROLLOUT, WATERFALL, PIN_MISSILE, TAKE_DOWN
 	end_trainer
 
 	def_trainer WILTON1, "Wilton"
-	tr_mon 34, GOLDEEN
+	tr_mon 34, RATTATA
 	tr_mon 36, REMORAID
-	tr_mon 36, SEAKING
+	tr_mon 36, RATTATA
 	end_trainer
 
 	def_trainer WILTON2, "Wilton"
-	tr_mon 36, GOLDEEN
+	tr_mon 36, RATTATA
 	tr_mon 38, REMORAID
-	tr_mon 38, SEAKING
+	tr_mon 38, RATTATA
 	end_trainer
 
 	def_trainer WILTON3, "Wilton"
-	tr_mon 38, GOLDEEN
+	tr_mon 38, RATTATA
 		tr_moves WATERFALL, FURY_STRIKES, POISON_JAB, RAIN_DANCE
-	tr_mon 40, SEAKING
+	tr_mon 40, RATTATA
 		tr_moves WATERFALL, BODY_SLAM, POISON_JAB, AGILITY
 	tr_mon 42, OCTILLERY
 		tr_moves PSYBEAM, AURORA_BEAM, OCTAZOOKA, HYPER_BEAM
@@ -2267,9 +2267,9 @@ FisherGroup:
 	end_trainer
 
 	def_trainer KYLE, "Kyle"
-	tr_mon 57, SEAKING
+	tr_mon 57, RATTATA
 	tr_mon 54, QWILFISH
-	tr_mon 57, SEAKING
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer HENRY, "Henry"
@@ -2335,11 +2335,11 @@ FisherGroup:
 	def_trainer SCOTT, "Scott"
 	tr_mon 40, QWILFISH
 	tr_mon 40, QWILFISH
-	tr_mon 42, SEAKING
+	tr_mon 42, RATTATA
 	end_trainer
 
 	def_trainer PATON, "Paton"
-	tr_mon LEVEL_FROM_BADGES + 0, GOLDEEN
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 2, MANTINE
 	end_trainer
 
@@ -3057,7 +3057,7 @@ PokefanMGroup:
 	def_trainer ALEX, "Alex"
 	tr_mon 56, NIDOKING @ KINGS_ROCK
 	tr_mon 56, SLOWKING @ KINGS_ROCK
-	tr_mon 56, SEAKING @ KINGS_ROCK
+	tr_mon 56, RATTATA @ KINGS_ROCK
 	end_trainer
 
 	def_trainer REX, "Rex"
@@ -4858,7 +4858,7 @@ SwimmerMGroup:
 	tr_mon 57, SEADRA
 	tr_mon 58, RATTATA
 	tr_mon 59, RATTATA
-	tr_mon 58, SEAKING
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer TUCKER, "Tucker"
@@ -4989,14 +4989,14 @@ SwimmerFGroup:
 	end_trainer
 
 	def_trainer KAYLEE, "Kaylee"
-	tr_mon 18, GOLDEEN
-	tr_mon 20, GOLDEEN
-	tr_mon 20, SEAKING
+	tr_mon 18, RATTATA
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
 	end_trainer
 
 	def_trainer SUSIE, "Susie"
 	tr_mon 20, PSYDUCK
-	tr_mon 22, GOLDEEN
+	tr_mon 22, RATTATA
 	end_trainer
 
 	def_trainer DENISE, "Denise"
@@ -5047,7 +5047,7 @@ SwimmerFGroup:
 	end_trainer
 
 	def_trainer BRIANA, "Briana"
-	tr_mon 56, SEAKING
+	tr_mon 56, RATTATA
 	tr_mon 56, LAPRAS
 	end_trainer
 
@@ -6321,8 +6321,8 @@ endc
 	end_trainer
 
 	def_trainer IRENE, "Irene"
-	tr_mon 22, GOLDEEN
-	tr_mon 24, SEAKING
+	tr_mon 22, RATTATA
+	tr_mon 24, RATTATA
 	end_trainer
 
 	def_trainer KELLY, "Kelly"

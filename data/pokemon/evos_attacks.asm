@@ -1932,40 +1932,6 @@ endc
 	learnset 52, DRAGON_DANCE
 	learnset 60, HYDRO_PUMP
 
-	evos_attacks Goldeen
-	evo_data EVOLVE_LEVEL, 33, SEAKING
-	learnset 1, PECK
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 1, WATER_GUN ; Water Sport → RBY TM move
-	learnset 5, SUPERSONIC
-	learnset 8, HORN_ATTACK
-	learnset 13, REVERSAL ; Flail → similar move
-	learnset 16, WATER_PULSE
-	learnset 21, HAZE ; Aqua Ring → egg move
-	learnset 24, FURY_STRIKES ; Fury Attack → similar moves
-	learnset 29, AGILITY
-	learnset 32, WATERFALL
-	learnset 37, BODY_SLAM ; Horn Drill → tutor move
-	learnset 40, KNOCK_OFF ; Soak → tutor move
-	learnset 45, MEGAHORN
-
-	evos_attacks Seaking
-	learnset 1, POISON_JAB
-	learnset 1, PECK
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 1, WATER_GUN ; Water Sport → RBY TM move
-	learnset 5, SUPERSONIC
-	learnset 8, HORN_ATTACK
-	learnset 13, REVERSAL ; Flail → similar move
-	learnset 16, WATER_PULSE
-	learnset 21, HAZE ; Aqua Ring → egg move
-	learnset 24, FURY_STRIKES ; Fury Attack → similar moves
-	learnset 29, AGILITY
-	learnset 32, WATERFALL
-	learnset 40, BODY_SLAM ; Horn Drill → tutor move
-	learnset 46, KNOCK_OFF ; Soak → tutor move
-	learnset 54, MEGAHORN
-
 	evos_attacks Staryu
 	evo_data EVOLVE_ITEM, WATER_STONE, STARMIE
 	learnset 1, TACKLE

@@ -77,8 +77,6 @@ AnimationExtraPointers:
 	dw KangaskhanAnimationExtra
 	dw HorseaAnimationExtra
 	dw SeadraAnimationExtra
-	dw GoldeenAnimationExtra
-	dw SeakingAnimationExtra
 	dw StaryuAnimationExtra
 	dw StarmieAnimationExtra
 	dw MrMimePlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw SamurottPlainAnimationExtra
 	dw PatratAnimationExtra
 	dw WatchogAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw LillipupAnimationExtra
 	dw HerdierAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw StoutlandAnimationExtra
 	dw PurrloinAnimationExtra
 	dw LiepardAnimationExtra

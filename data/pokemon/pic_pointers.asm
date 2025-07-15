@@ -81,8 +81,6 @@ PokemonPicPointers::
 	pics Kangaskhan
 	pics Horsea
 	pics Seadra
-	pics Goldeen
-	pics Seaking
 	pics Staryu
 	pics Starmie
 	pics MrMimePlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics SamurottPlain
 	pics Patrat
 	pics Watchog
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Lillipup
 	pics Herdier
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Stoutland
 	pics Purrloin
 	pics Liepard

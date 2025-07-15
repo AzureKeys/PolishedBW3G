@@ -77,8 +77,6 @@ AnimationPointers:
 	dw KangaskhanAnimation
 	dw HorseaAnimation
 	dw SeadraAnimation
-	dw GoldeenAnimation
-	dw SeakingAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
 	dw MrMimePlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw SamurottPlainAnimation
 	dw PatratAnimation
 	dw WatchogAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw LillipupAnimation
 	dw HerdierAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw StoutlandAnimation
 	dw PurrloinAnimation
 	dw LiepardAnimation

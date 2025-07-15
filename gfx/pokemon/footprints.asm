@@ -82,7 +82,6 @@ ExeggcuteFootprint::
 ForretressFootprint::
 GastlyFootprint::
 GeodudeFootprint::
-GoldeenFootprint::
 GrimerFootprint::
 GyaradosFootprint::
 HaunterFootprint::
@@ -107,7 +106,6 @@ PupitarFootprint::
 QwilfishFootprint::
 RemoraidFootprint::
 SeadraFootprint::
-SeakingFootprint::
 SeelFootprint::
 SlugmaFootprint::
 SteelixFootprint::

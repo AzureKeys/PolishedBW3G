@@ -81,8 +81,6 @@ MiniIconPointers:
 	mini_icon Kangaskhan
 	mini_icon Horsea
 	mini_icon Seadra
-	mini_icon Goldeen
-	mini_icon Seaking
 	mini_icon Staryu
 	mini_icon Starmie
 	mini_icon MrMime
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Samurott
 	mini_icon Patrat
 	mini_icon Watchog
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Lillipup
 	mini_icon Herdier
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Stoutland
 	mini_icon Purrloin
 	mini_icon Liepard

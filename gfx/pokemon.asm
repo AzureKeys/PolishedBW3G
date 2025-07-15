@@ -668,14 +668,6 @@ SECTION "HoOh Pics", ROMX
 HoOhFrontpic: INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
 HoOhBackpic:  INCBIN "gfx/pokemon/ho_oh/back.2bpp.lz"
 
-SECTION "Goldeen Pics", ROMX
-GoldeenFrontpic: INCBIN "gfx/pokemon/goldeen/front.animated.2bpp.lz"
-GoldeenBackpic:  INCBIN "gfx/pokemon/goldeen/back.2bpp.lz"
-
-SECTION "Seaking Pics", ROMX
-SeakingFrontpic: INCBIN "gfx/pokemon/seaking/front.animated.2bpp.lz"
-SeakingBackpic:  INCBIN "gfx/pokemon/seaking/back.2bpp.lz"
-
 SECTION "Igglybuff Pics", ROMX
 IgglybuffFrontpic: INCBIN "gfx/pokemon/igglybuff/front.animated.2bpp.lz"
 IgglybuffBackpic:  INCBIN "gfx/pokemon/igglybuff/back.2bpp.lz"

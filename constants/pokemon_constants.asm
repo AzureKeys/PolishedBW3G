@@ -101,8 +101,6 @@
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
 	const SEADRA     ; 75
-	const GOLDEEN    ; 76
-	const SEAKING    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
 	const MR__MIME   ; 7a
@@ -278,10 +276,10 @@
 	const SAMUROTT   ; 129
 	const PATRAT     ; 128
 	const WATCHOG    ; 129
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const LILLIPUP   ; 129
 	const HERDIER    ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const STOUTLAND  ; 129
 	const PURRLOIN   ; 128
 	const LIEPARD    ; 129

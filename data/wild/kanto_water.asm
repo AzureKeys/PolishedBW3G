@@ -2,9 +2,9 @@
 
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate
-	wildmon  20, GOLDEEN
+	wildmon  20, RATTATA
 	wildmon  20, SLOWPOKE
-	wildmon  20, SEAKING
+	wildmon  20, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_PORT
@@ -16,16 +16,16 @@
 
 	def_water_wildmons ROUTE_2_SOUTH
 	db 6 percent ; encounter rate
-	wildmon  53, GOLDEEN
+	wildmon  53, RATTATA
 	wildmon  55, PSYDUCK
-	wildmon  57, SEAKING
+	wildmon  57, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
-	wildmon  55, GOLDEEN
-	wildmon  60, SEAKING
-	wildmon  55, GOLDEEN
+	wildmon  55, RATTATA
+	wildmon  60, RATTATA
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_6
@@ -37,16 +37,16 @@
 
 	def_water_wildmons ROUTE_9
 	db 4 percent ; encounter rate
-	wildmon  47, GOLDEEN
-	wildmon  42, GOLDEEN
-	wildmon  47, SEAKING
+	wildmon  47, RATTATA
+	wildmon  42, RATTATA
+	wildmon  47, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	wildmon  47, GOLDEEN
-	wildmon  47, GOLDEEN
-	wildmon  52, SEAKING
+	wildmon  47, RATTATA
+	wildmon  47, RATTATA
+	wildmon  52, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12_NORTH
@@ -80,7 +80,7 @@
 	def_water_wildmons ROUTE_16_WEST
 	db 6 percent ; encounter rate
 	wildmon  53, RATTATA
-	wildmon  55, SEAKING
+	wildmon  55, RATTATA
 	wildmon  57, RATTATA
 	end_water_wildmons
 
@@ -136,15 +136,15 @@
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
 	wildmon  48, MAGIKARP
-	wildmon  50, GOLDEEN
-	wildmon  52, SEAKING
+	wildmon  50, RATTATA
+	wildmon  52, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
 	wildmon  48, MAGIKARP
-	wildmon  50, GOLDEEN
-	wildmon  52, SEAKING
+	wildmon  50, RATTATA
+	wildmon  52, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_26
@@ -184,9 +184,9 @@
 
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent ; encounter rate
-	wildmon  55, GOLDEEN
-	wildmon  50, GOLDEEN
-	wildmon  55, SEAKING
+	wildmon  55, RATTATA
+	wildmon  50, RATTATA
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_CITY

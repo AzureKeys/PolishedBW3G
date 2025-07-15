@@ -78,8 +78,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Kangaskhan
 	db   1,  31 ; Horsea
 	db  32,  54 ; Seadra
-	db   1,  32 ; Goldeen
-	db  33, 100 ; Seaking
 	db   1,  32 ; Staryu
 	db  33, 100 ; Starmie
 	db  20, 100 ; Mr. Mime
@@ -259,10 +257,10 @@ endc
 	db  36, 100 ; Samurott
 	db   1,  19 ; Patrat
 	db  20, 100 ; Watchog
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  15 ; Lillipup
 	db  16,  31 ; Herdier
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  32, 100 ; Stoutland
 	db   1,  19 ; Purrloin
 	db  20, 100 ; Liepard

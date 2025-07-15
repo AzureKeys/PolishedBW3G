@@ -78,8 +78,6 @@ PokedexDataPointerTable:
 	dba KangaskhanPokedexEntry
 	dba HorseaPokedexEntry
 	dba SeadraPokedexEntry
-	dba GoldeenPokedexEntry
-	dba SeakingPokedexEntry
 	dba StaryuPokedexEntry
 	dba StarmiePokedexEntry
 	dba MrMimePlainPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba SamurottPlainPokedexEntry
 	dba PatratPokedexEntry
 	dba WatchogPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba LillipupPokedexEntry
 	dba HerdierPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba StoutlandPokedexEntry
 	dba PurrloinPokedexEntry
 	dba LiepardPokedexEntry

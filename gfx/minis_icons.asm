@@ -392,16 +392,6 @@ SeadraMini::     INCBIN "gfx/minis/seadra.2bpp.lz"
 SeadraMiniMask:: INCBIN "gfx/minis/seadra_mask.1bpp.lz"
 SeadraIcon::     INCBIN "gfx/icons/seadra.2bpp.lz"
 
-SECTION "Goldeen Mini Icon", ROMX
-GoldeenMini::     INCBIN "gfx/minis/goldeen.2bpp.lz"
-GoldeenMiniMask:: INCBIN "gfx/minis/goldeen_mask.1bpp.lz"
-GoldeenIcon::     INCBIN "gfx/icons/goldeen.2bpp.lz"
-
-SECTION "Seaking Mini Icon", ROMX
-SeakingMini::     INCBIN "gfx/minis/seaking.2bpp.lz"
-SeakingMiniMask:: INCBIN "gfx/minis/seaking_mask.1bpp.lz"
-SeakingIcon::     INCBIN "gfx/icons/seaking.2bpp.lz"
-
 SECTION "Staryu Mini Icon", ROMX
 StaryuMini::     INCBIN "gfx/minis/staryu.2bpp.lz"
 StaryuMiniMask:: INCBIN "gfx/minis/staryu_mask.1bpp.lz"

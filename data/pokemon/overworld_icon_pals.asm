@@ -81,8 +81,6 @@ OverworldMonIconColors::
 	iconpal BROWN, GRAY ; KANGASKHAN
 	iconpal AZURE, RED ; HORSEA
 	iconpal AZURE, PURPLE ; SEADRA
-	iconpal RED, BROWN ; GOLDEEN
-	iconpal RED, BROWN ; SEAKING
 	iconpal BROWN, AZURE ; STARYU
 	iconpal PURPLE, BLUE ; STARMIE
 	iconpal PINK, GREEN ; MR__MIME
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; SAMUROTT
 	iconpal BROWN, RED ; PATRAT
 	iconpal BROWN, GREEN ; WATCHOG
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, GRAY ; LILLIPUP
 	iconpal BLUE, GRAY ; HERDIER
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, GREEN ; STOUTLAND
 	iconpal PURPLE, BLUE ; PURRLOIN
 	iconpal PURPLE, RED ; LIEPARD

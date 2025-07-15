@@ -120,8 +120,6 @@ NewPokedexOrder:
 	dp POLITOED
 	dp MAGIKARP
 	dp GYARADOS
-	dp GOLDEEN
-	dp SEAKING
 	dp SLOWPOKE
 	dp SLOWBRO
 	dp SLOWKING

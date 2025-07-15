@@ -84,8 +84,6 @@ PokemonBodyData:
 	body_data  22,  800, BIPEDAL_TAIL, BROWN  ; KANGASKHAN
 	body_data   4,   80, HEAD_BASE,    BLUE   ; HORSEA
 	body_data  12,  250, HEAD_BASE,    BLUE   ; SEADRA
-	body_data   6,  150, FINS,         RED    ; GOLDEEN
-	body_data  13,  390, FINS,         RED    ; SEAKING
 	body_data   8,  345, HEAD_BASE,    BROWN  ; STARYU
 	body_data  11,  800, HEAD_BASE,    PURPLE ; STARMIE
 	body_data  13,  545, BIPEDAL,      PINK   ; MR__MIME
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  15,  946, QUADRUPED,    BLUE   ; SAMUROTT
 	body_data   5,  116, QUADRUPED,    BROWN  ; PATRAT
 	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   41, QUADRUPED,    BROWN  ; LILLIPUP
 	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	body_data   4,  101, QUADRUPED,    PURPLE ; PURRLOIN
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD

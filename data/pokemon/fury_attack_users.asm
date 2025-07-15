@@ -4,8 +4,6 @@ FuryAttackUsers:
 	dp NIDORINO
 	dp NIDOKING
 	dp FARFETCH_D
-	dp GOLDEEN
-	dp SEAKING
 	dp PINSIR
 	dp DUNSPARCE
 	dp HERACROSS

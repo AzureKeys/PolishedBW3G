@@ -77,8 +77,6 @@ EggSpeciesMovesPointers::
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan
 	dw HorseaEggSpeciesMoves            ; Horsea
 	dw HorseaEggSpeciesMoves            ; Seadra
-	dw GoldeenEggSpeciesMoves           ; Goldeen
-	dw GoldeenEggSpeciesMoves           ; Seaking
 	dw StaryuEggSpeciesMoves            ; Staryu
 	dw StaryuEggSpeciesMoves            ; Starmie
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw OshawottEggSpeciesMoves          ; Samurott
 	dw PatratEggSpeciesMoves            ; Patrat
 	dw PatratEggSpeciesMoves            ; Watchog
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw LillipupEggSpeciesMoves          ; Lillipup
 	dw LillipupEggSpeciesMoves          ; Herdier
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw LillipupEggSpeciesMoves          ; Stoutland
 	dw PurrloinEggSpeciesMoves          ; Purrloin
 	dw PurrloinEggSpeciesMoves          ; Liepard

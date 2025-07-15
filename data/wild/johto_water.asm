@@ -58,23 +58,23 @@
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
-	wildmon 20, GOLDEEN
+	wildmon 20, RATTATA
 	wildmon 20, MARILL
-	wildmon 20, SEAKING
+	wildmon 20, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
-	wildmon 20, GOLDEEN
+	wildmon 20, RATTATA
 	wildmon 25, MARILL
-	wildmon 25, SEAKING
+	wildmon 25, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
-	wildmon 15, GOLDEEN
+	wildmon 15, RATTATA
 	wildmon 20, MARILL
-	wildmon 20, SEAKING
+	wildmon 20, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_SW
@@ -191,9 +191,9 @@
 
 	def_water_wildmons ROUTE_42
 	db 4 percent ; encounter rate
-	wildmon 20, GOLDEEN
-	wildmon 20, GOLDEEN
-	wildmon 20, SEAKING
+	wildmon 20, RATTATA
+	wildmon 20, RATTATA
+	wildmon 20, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_43
@@ -394,8 +394,8 @@
 
 	def_water_wildmons RUGGED_ROAD_SOUTH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, GOLDEEN
-	wildmon LEVEL_FROM_BADGES + 0, SEAKING
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
 	end_water_wildmons
 

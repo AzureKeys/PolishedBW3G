@@ -83,8 +83,6 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; Kangaskhan
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; Horsea
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; Seadra
-	mon_cry CRY_CATERPIE,    $080,  $0c0 ; Goldeen
-	mon_cry CRY_CATERPIE,    $010,  $17f ; Seaking
 	mon_cry CRY_PARAS,       $002,  $0a0 ; Staryu
 	mon_cry CRY_PARAS,       $000,  $100 ; Starmie
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Mime
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_VULPIX,     -$15c,  $100 ; Samurott
 	mon_cry CRY_RATTATA,     $000,  $100 ; PATRAT*
 	mon_cry CRY_CLEFAIRY,   -$026,  $0b0 ; Watchog
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_REMORAID,   -$077,  $0e0 ; Lillipup
 	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
