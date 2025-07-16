@@ -472,11 +472,6 @@ FlareonMini::     INCBIN "gfx/minis/flareon.2bpp.lz"
 FlareonMiniMask:: INCBIN "gfx/minis/flareon_mask.1bpp.lz"
 FlareonIcon::     INCBIN "gfx/icons/flareon.2bpp.lz"
 
-SECTION "Porygon Mini Icon", ROMX
-PorygonMini::     INCBIN "gfx/minis/porygon.2bpp.lz"
-PorygonMiniMask:: INCBIN "gfx/minis/porygon_mask.1bpp.lz"
-PorygonIcon::     INCBIN "gfx/icons/porygon.2bpp.lz"
-
 SECTION "Omanyte Mini Icon", ROMX
 OmanyteMini::     INCBIN "gfx/minis/omanyte.2bpp.lz"
 OmanyteMiniMask:: INCBIN "gfx/minis/omanyte_mask.1bpp.lz"
@@ -947,11 +942,6 @@ DonphanMini::     INCBIN "gfx/minis/donphan.2bpp.lz"
 DonphanMiniMask:: INCBIN "gfx/minis/donphan_mask.1bpp.lz"
 DonphanIcon::     INCBIN "gfx/icons/donphan.2bpp.lz"
 
-SECTION "Porygon2 Mini Icon", ROMX
-Porygon2Mini::     INCBIN "gfx/minis/porygon2.2bpp.lz"
-Porygon2MiniMask:: INCBIN "gfx/minis/porygon2_mask.1bpp.lz"
-Porygon2Icon::     INCBIN "gfx/icons/porygon2.2bpp.lz"
-
 SECTION "Stantler Mini Icon", ROMX
 StantlerMini::     INCBIN "gfx/minis/stantler.2bpp.lz"
 StantlerMiniMask:: INCBIN "gfx/minis/stantler_mask.1bpp.lz"
@@ -1131,11 +1121,6 @@ SECTION "Mamoswine Mini Icon", ROMX
 MamoswineMini::     INCBIN "gfx/minis/mamoswine.2bpp.lz"
 MamoswineMiniMask:: INCBIN "gfx/minis/mamoswine_mask.1bpp.lz"
 MamoswineIcon::     INCBIN "gfx/icons/mamoswine.2bpp.lz"
-
-SECTION "PorygonZ Mini Icon", ROMX
-PorygonZMini::     INCBIN "gfx/minis/porygon_z.2bpp.lz"
-PorygonZMiniMask:: INCBIN "gfx/minis/porygon_z_mask.1bpp.lz"
-PorygonZIcon::     INCBIN "gfx/icons/porygon_z.2bpp.lz"
 
 SECTION "Sylveon Mini Icon", ROMX
 SylveonMini::     INCBIN "gfx/minis/sylveon.2bpp.lz"
@@ -1486,6 +1471,16 @@ SECTION "Maractus Mini Icon", ROMX
 MaractusMini::     INCBIN "gfx/minis/maractus.2bpp.lz"
 MaractusMiniMask:: INCBIN "gfx/minis/maractus_mask.1bpp.lz"
 MaractusIcon::     INCBIN "gfx/icons/maractus.2bpp.lz"
+
+SECTION "Dwebble Mini Icon", ROMX
+DwebbleMini::     INCBIN "gfx/minis/dwebble.2bpp.lz"
+DwebbleMiniMask:: INCBIN "gfx/minis/dwebble_mask.1bpp.lz"
+DwebbleIcon::     INCBIN "gfx/icons/dwebble.2bpp.lz"
+
+SECTION "Crustle Mini Icon", ROMX
+CrustleMini::     INCBIN "gfx/minis/crustle.2bpp.lz"
+CrustleMiniMask:: INCBIN "gfx/minis/crustle_mask.1bpp.lz"
+CrustleIcon::     INCBIN "gfx/icons/crustle.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

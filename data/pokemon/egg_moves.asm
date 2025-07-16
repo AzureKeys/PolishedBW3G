@@ -497,10 +497,6 @@ EeveeEggSpeciesMoves:
 	db CHARM
 	db $ff
 
-PorygonEggSpeciesMoves:
-	dp PORYGON, PLAIN_FORM
-	db $ff
-
 OmanyteEggSpeciesMoves:
 	dp OMANYTE, PLAIN_FORM
 	db AURORA_BEAM
@@ -1262,6 +1258,15 @@ MaractusEggSpeciesMoves:
 	db LEECH_SEED
 	db SEED_BOMB
 	;db WOOD_HAMMER
+	db $ff
+
+DwebbleEggSpeciesMoves:
+	dp DWEBBLE, PLAIN_FORM
+	db COUNTER
+	db CURSE
+	db ENDURE
+	db BARRIER
+	db NIGHT_SLASH
 	db $ff
 
 NoEggSpeciesMoves:

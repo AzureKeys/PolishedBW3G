@@ -2256,23 +2256,6 @@ endc
 	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
 	learnset 45, FLARE_BLITZ
 
-	evos_attacks Porygon
-	evo_data EVOLVE_TRADE, UPGRADE, PORYGON2
-	learnset 1, TACKLE
-	learnset 1, CONVERSION
-	learnset 1, TELEPORT ; Sharpen → RBY TM move
-	learnset 7, PSYBEAM
-	learnset 12, AGILITY
-	learnset 18, RECOVER
-	learnset 23, GROWTH ; Magnet Rise → new move
-	learnset 29, AURORA_BEAM ; Signal Beam → new move
-	learnset 34, THUNDER_WAVE ; Recycle → TM move
-	learnset 40, BARRIER ; Discharge → event move
-	learnset 45, THUNDERBOLT ; Lock-On → TM move
-	learnset 50, TRI_ATTACK
-	learnset 56, MIRROR_COAT ; Magic Coat → new move
-	learnset 62, ZAP_CANNON
-
 	evos_attacks Omanyte
 	evo_data EVOLVE_LEVEL, 40, OMASTAR
 	learnset 1, WRAP ; Constrict → similar move
@@ -4197,24 +4180,6 @@ endc
 	learnset 43, EARTHQUAKE
 	learnset 50, GIGA_IMPACT
 
-	evos_attacks Porygon2
-	evo_data EVOLVE_TRADE, DUBIOUS_DISC, PORYGON_Z
-	learnset 1, TACKLE
-	learnset 1, CONVERSION
-	learnset 1, DEFENSE_CURL
-	learnset 7, PSYBEAM
-	learnset 12, AGILITY
-	learnset 18, RECOVER
-	learnset 23, GROWTH ; Magnet Rise → new move
-	learnset 29, AURORA_BEAM ; Signal Beam → new move
-	learnset 34, THUNDER_WAVE ; Recycle → TM move
-	learnset 40, BARRIER ; Discharge → event move
-	learnset 45, THUNDERBOLT ; Lock-On → TM move
-	learnset 50, TRI_ATTACK
-	learnset 56, MIRROR_COAT ; Magic Coat → new move
-	learnset 62, ZAP_CANNON
-	learnset 67, HYPER_BEAM
-
 	evos_attacks Stantler
 	evo_data EVOLVE_LOCATION, RUGGED_ROAD, WYRDEER
 	evo_data EVOLVE_LOCATION, SNOWTOP_MOUNTAIN, WYRDEER
@@ -4814,24 +4779,6 @@ endc
 	learnset 46, EARTHQUAKE
 	learnset 52, BLIZZARD
 	learnset 58, SCARY_FACE
-
-	evos_attacks PorygonZ
-	learnset 1, TRICK_ROOM
-	learnset 1, TACKLE
-	learnset 1, CONVERSION
-	learnset 1, NASTY_PLOT ; evolution move
-	learnset 7, PSYBEAM
-	learnset 12, AGILITY
-	learnset 18, RECOVER
-	learnset 23, GROWTH ; Magnet Rise → new move
-	learnset 29, AURORA_BEAM ; Signal Beam → new move
-	learnset 34, PAIN_SPLIT ; Embargo → HGSS tutor move
-	learnset 40, BARRIER ; Discharge → event move
-	learnset 45, THUNDERBOLT ; Lock-On → TM move
-	learnset 50, TRI_ATTACK
-	learnset 56, MIRROR_COAT ; Magic Coat → new move
-	learnset 62, ZAP_CANNON
-	learnset 67, HYPER_BEAM
 
 	evos_attacks Sylveon
 	learnset 1, GROWL
@@ -6135,6 +6082,43 @@ endc
 	;learnset 48, PETAL_BLIZZARD
 	learnset 50, SOLAR_BEAM
 	learnset 55, BARRIER ; Cotton Guard
+	
+	evos_attacks Dwebble
+	evo_data EVOLVE_LEVEL, 34, CRUSTLE
+	learnset 1, TACKLE ; Fury Cutter
+	learnset 5, ROCK_BLAST
+	learnset 7, DEFENSE_CURL ; Withdraw
+	learnset 11, MUD_SLAP ; Sand-Attack
+	learnset 13, FEINT_ATTACK
+	;learnset 17, SMACK_DOWN
+	learnset 19, AGILITY ; Rock Polish
+	learnset 23, BUG_BITE
+	learnset 29, ROCK_SLIDE
+	learnset 31, SLASH
+	learnset 35, X_SCISSOR
+	learnset 37, SHELL_SMASH
+	learnset 41, REVERSAL ; Flail
+	learnset 43, STONE_EDGE ; Rock Wrecker
+	
+	evos_attacks Crustle
+	learnset 1, SHELL_SMASH
+	learnset 1, TACKLE ; Fury Cutter
+	learnset 1, ROCK_BLAST
+	learnset 1, DEFENSE_CURL ; Withdraw
+	learnset 1, MUD_SLAP ; Sand-Attack
+	learnset 5, ROCK_BLAST
+	learnset 7, DEFENSE_CURL ; Withdraw
+	learnset 11, MUD_SLAP ; Sand-Attack
+	learnset 13, FEINT_ATTACK
+	;learnset 17, SMACK_DOWN
+	learnset 19, AGILITY ; Rock Polish
+	learnset 23, BUG_BITE
+	learnset 29, ROCK_SLIDE
+	learnset 31, SLASH
+	learnset 38, X_SCISSOR
+	learnset 43, SHELL_SMASH
+	learnset 50, REVERSAL ; Flail
+	learnset 55, STONE_EDGE ; Rock Wrecker
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

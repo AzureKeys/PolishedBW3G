@@ -93,7 +93,6 @@ FootprintPointers::
 	dw VaporeonFootprint
 	dw JolteonFootprint
 	dw FlareonFootprint
-	dw PorygonFootprint
 	dw OmanyteFootprint
 	dw OmastarFootprint
 	dw KabutoFootprint
@@ -188,7 +187,6 @@ FootprintPointers::
 	dw KingdraFootprint
 	dw PhanpyFootprint
 	dw DonphanFootprint
-	dw Porygon2Footprint
 	dw StantlerFootprint
 	dw SmeargleFootprint
 	dw ElekidFootprint
@@ -224,7 +222,6 @@ FootprintPointers::
 	dw GlaceonFootprint
 	dw GliscorFootprint
 	dw MamoswineFootprint
-	dw PorygonZFootprint
 	dw SylveonFootprint
 	dw PerrserkerFootprint
 	dw CursolaFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw HerdierFootprint
 	dw StoutlandFootprint
 	dw PurrloinFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw LiepardFootprint
 	dw MunnaFootprint
 	dw MusharnaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw PidoveFootprint
 	dw TranquillFootprint
 	dw UnfezantFootprint
@@ -297,6 +294,8 @@ FootprintPointers::
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
 	dw MaractusFootprint
+	dw DwebbleFootprint
+	dw CrustleFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

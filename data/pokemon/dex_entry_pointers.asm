@@ -94,7 +94,6 @@ PokedexDataPointerTable:
 	dba VaporeonPokedexEntry
 	dba JolteonPokedexEntry
 	dba FlareonPokedexEntry
-	dba PorygonPokedexEntry
 	dba OmanytePokedexEntry
 	dba OmastarPokedexEntry
 	dba KabutoPokedexEntry
@@ -189,7 +188,6 @@ PokedexDataPointerTable:
 	dba KingdraPokedexEntry
 	dba PhanpyPokedexEntry
 	dba DonphanPokedexEntry
-	dba Porygon2PokedexEntry
 	dba StantlerPokedexEntry
 	dba SmearglePokedexEntry
 	dba ElekidPokedexEntry
@@ -225,7 +223,6 @@ PokedexDataPointerTable:
 	dba GlaceonPokedexEntry
 	dba GliscorPokedexEntry
 	dba MamoswinePokedexEntry
-	dba PorygonZPokedexEntry
 	dba SylveonPokedexEntry
 	dba PerrserkerPokedexEntry
 	dba CursolaPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba HerdierPokedexEntry
 	dba StoutlandPokedexEntry
 	dba PurrloinPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba LiepardPokedexEntry
 	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba PidovePokedexEntry
 	dba TranquillPokedexEntry
 	dba UnfezantPokedexEntry
@@ -298,6 +295,8 @@ PokedexDataPointerTable:
 	dba DarumakaPlainPokedexEntry
 	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry
+	dba DwebblePokedexEntry
+	dba CrustlePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

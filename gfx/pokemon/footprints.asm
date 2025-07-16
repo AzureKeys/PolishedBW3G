@@ -4,8 +4,7 @@ KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
 StaryuFootprint::
-StarmieFootprint::
-PorygonZFootprint:: INCBIN "gfx/footprints/circle_large.1bpp.lz"
+StarmieFootprint:: INCBIN "gfx/footprints/circle_large.1bpp.lz"
 
 UmbreonFootprint::
 LeafeonFootprint::
@@ -71,6 +70,8 @@ KrookodileFootprint::
 DarumakaFootprint::
 DarmanitanFootprint::
 MaractusFootprint::
+DwebbleFootprint::
+CrustleFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -187,7 +188,6 @@ EeveeFootprint:: INCBIN "gfx/footprints/eevee.1bpp.lz"
 VaporeonFootprint:: INCBIN "gfx/footprints/vaporeon.1bpp.lz"
 JolteonFootprint:: INCBIN "gfx/footprints/jolteon.1bpp.lz"
 FlareonFootprint:: INCBIN "gfx/footprints/flareon.1bpp.lz"
-PorygonFootprint:: INCBIN "gfx/footprints/porygon.1bpp.lz"
 OmanyteFootprint:: INCBIN "gfx/footprints/omanyte.1bpp.lz"
 OmastarFootprint:: INCBIN "gfx/footprints/omastar.1bpp.lz"
 KabutopsFootprint:: INCBIN "gfx/footprints/kabutops.1bpp.lz"
@@ -260,7 +260,6 @@ HoundourFootprint:: INCBIN "gfx/footprints/houndour.1bpp.lz"
 HoundoomFootprint:: INCBIN "gfx/footprints/houndoom.1bpp.lz"
 PhanpyFootprint:: INCBIN "gfx/footprints/phanpy.1bpp.lz"
 DonphanFootprint:: INCBIN "gfx/footprints/donphan.1bpp.lz"
-Porygon2Footprint:: INCBIN "gfx/footprints/porygon2.1bpp.lz"
 StantlerFootprint:: INCBIN "gfx/footprints/stantler.1bpp.lz"
 SmeargleFootprint:: INCBIN "gfx/footprints/smeargle.1bpp.lz"
 ElekidFootprint:: INCBIN "gfx/footprints/elekid.1bpp.lz"

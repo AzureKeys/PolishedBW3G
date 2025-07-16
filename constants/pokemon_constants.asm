@@ -117,7 +117,6 @@
 	const VAPOREON   ; 46
 	const JOLTEON    ; 47
 	const FLAREON    ; 48
-	const PORYGON    ; xx
 	const OMANYTE    ; xx
 	const OMASTAR    ; xx
 	const KABUTO     ; xx
@@ -212,7 +211,6 @@
 	const KINGDRA    ; 77
 	const PHANPY     ; xx
 	const DONPHAN    ; xx
-	const PORYGON2   ; xx
 	const STANTLER   ; xx
 	const SMEARGLE   ; xx
 	const ELEKID     ; 78
@@ -248,7 +246,6 @@
 	const GLACEON    ; 112
 	const GLISCOR    ; 113
 	const MAMOSWINE  ; 114
-	const PORYGON_Z  ; 115
 	const SYLVEON    ; 116
 	const PERRSERKER ; 117
 	const CURSOLA    ; 118
@@ -278,11 +275,11 @@
 	const HERDIER    ; 128
 	const STOUTLAND  ; 129
 	const PURRLOIN   ; 128
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const LIEPARD    ; 129
 	const MUNNA      ; 128
 	const MUSHARNA   ; 129
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const PIDOVE     ; 129
 	const TRANQUILL  ; 128
 	const UNFEZANT   ; 129
@@ -321,6 +318,8 @@
 	const DARUMAKA   ; 129
 	const DARMANITAN ; 129
 	const MARACTUS   ; 129
+	const DWEBBLE    ; 129
+	const CRUSTLE    ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

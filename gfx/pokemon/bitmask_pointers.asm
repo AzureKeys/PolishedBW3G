@@ -93,7 +93,6 @@ BitmasksPointers:
 	dw VaporeonBitmasks
 	dw JolteonBitmasks
 	dw FlareonBitmasks
-	dw PorygonBitmasks
 	dw OmanyteBitmasks
 	dw OmastarBitmasks
 	dw KabutoBitmasks
@@ -188,7 +187,6 @@ BitmasksPointers:
 	dw KingdraBitmasks
 	dw PhanpyBitmasks
 	dw DonphanBitmasks
-	dw Porygon2Bitmasks
 	dw StantlerBitmasks
 	dw SmeargleBitmasks
 	dw ElekidBitmasks
@@ -224,7 +222,6 @@ BitmasksPointers:
 	dw GlaceonBitmasks
 	dw GliscorBitmasks
 	dw MamoswineBitmasks
-	dw PorygonZBitmasks
 	dw SylveonBitmasks
 	dw PerrserkerBitmasks
 	dw CursolaBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw HerdierBitmasks
 	dw StoutlandBitmasks
 	dw PurrloinBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw LiepardBitmasks
 	dw MunnaBitmasks
 	dw MusharnaBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw PidoveBitmasks
 	dw TranquillBitmasks
 	dw UnfezantBitmasks
@@ -297,6 +294,8 @@ BitmasksPointers:
 	dw DarumakaPlainBitmasks
 	dw DarmanitanPlainBitmasks
 	dw MaractusBitmasks
+	dw DwebbleBitmasks
+	dw CrustleBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

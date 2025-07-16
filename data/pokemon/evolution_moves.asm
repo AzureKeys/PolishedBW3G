@@ -93,7 +93,6 @@ EvolutionMoves::
 	db WATER_GUN    ; VAPOREON
 	db THUNDERSHOCK ; JOLTEON
 	db EMBER        ; FLAREON
-	db NO_MOVE      ; PORYGON
 	db NO_MOVE      ; OMANYTE
 	db ICICLE_SPEAR ; OMASTAR
 	db NO_MOVE      ; KABUTO
@@ -192,7 +191,6 @@ endc
 	db DRAGONBREATH ; KINGDRA
 	db NO_MOVE      ; PHANPY
 	db FURY_STRIKES ; DONPHAN
-	db NO_MOVE      ; PORYGON2
 	db NO_MOVE      ; STANTLER
 	db NO_MOVE      ; SMEARGLE
 	db NO_MOVE      ; ELEKID
@@ -228,7 +226,6 @@ endc
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR
 	db NO_MOVE      ; MAMOSWINE
-	db NASTY_PLOT   ; PORYGON_Z
 	db DISARM_VOICE ; SYLVEON
 	db IRON_HEAD    ; PERRSERKER
 	db NO_MOVE      ; CURSOLA
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; HERDIER
 	db NO_MOVE      ; STOUTLAND
 	db NO_MOVE      ; PURRLOIN
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; LIEPARD
 	db NO_MOVE      ; MUNNA
 	db NO_MOVE      ; MUSHARNA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; PIDOVE
 	db NO_MOVE      ; TRANQUILL
 	db NO_MOVE      ; UNFEZANT
@@ -301,6 +298,8 @@ endc
 	db NO_MOVE      ; DARUMAKA
 	db NO_MOVE      ; DARMANITAN
 	db NO_MOVE      ; MARACTUS
+	db NO_MOVE      ; DWEBBLE
+	db NO_MOVE      ; CRUSTLE
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

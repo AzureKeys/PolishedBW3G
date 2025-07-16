@@ -93,7 +93,6 @@ AnimationExtraPointers:
 	dw VaporeonAnimationExtra
 	dw JolteonAnimationExtra
 	dw FlareonAnimationExtra
-	dw PorygonAnimationExtra
 	dw OmanyteAnimationExtra
 	dw OmastarAnimationExtra
 	dw KabutoAnimationExtra
@@ -188,7 +187,6 @@ AnimationExtraPointers:
 	dw KingdraAnimationExtra
 	dw PhanpyAnimationExtra
 	dw DonphanAnimationExtra
-	dw Porygon2AnimationExtra
 	dw StantlerAnimationExtra
 	dw SmeargleAnimationExtra
 	dw ElekidAnimationExtra
@@ -224,7 +222,6 @@ AnimationExtraPointers:
 	dw GlaceonAnimationExtra
 	dw GliscorAnimationExtra
 	dw MamoswineAnimationExtra
-	dw PorygonZAnimationExtra
 	dw SylveonAnimationExtra
 	dw PerrserkerAnimationExtra
 	dw CursolaAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw HerdierAnimationExtra
 	dw StoutlandAnimationExtra
 	dw PurrloinAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw LiepardAnimationExtra
 	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw PidoveAnimationExtra
 	dw TranquillAnimationExtra
 	dw UnfezantAnimationExtra
@@ -297,6 +294,8 @@ AnimationExtraPointers:
 	dw DarumakaPlainAnimationExtra
 	dw DarmanitanPlainAnimationExtra
 	dw MaractusAnimationExtra
+	dw DwebbleAnimationExtra
+	dw CrustleAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

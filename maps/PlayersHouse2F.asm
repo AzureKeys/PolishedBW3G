@@ -49,7 +49,7 @@ PlayersHousePoster:
 
 PlayersHouseRadio:
 
-if DEF(DEBUG)
+;if DEF(DEBUG)
 
 	opentext
 	; time
@@ -321,7 +321,7 @@ if NUM_UNIQUE_POKEMON % 8
 endc
 	ret
 
-else
+;else
 
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftruefwd .NormalRadio
@@ -351,7 +351,7 @@ else
 	pause 45
 	endtext
 
-endc
+;endc
 
 PokemonJournalProfElmScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL

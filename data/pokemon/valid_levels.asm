@@ -94,7 +94,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Vaporeon
 	db  20, 100 ; Jolteon
 	db  20, 100 ; Flareon
-	db   1,  20 ; Porygon
 	db  15,  39 ; Omanyte
 	db  40, 100 ; Omastar
 	db  15,  39 ; Kabuto
@@ -193,7 +192,6 @@ endc
 	db  55, 100 ; Kingdra
 	db   1,  24 ; Phanpy
 	db  25, 100 ; Donphan
-	db  20,  39 ; Porygon2
 	db   1,  29 ; Stantler
 	db   1, 100 ; Smeargle
 	db   1,  19 ; Elekid
@@ -229,7 +227,6 @@ endc
 	db  20, 100 ; Glaceon
 	db  20, 100 ; Gliscor
 	db  45, 100 ; Mamoswine
-	db  40, 100 ; Porygon-Z
 	db  20, 100 ; Sylveon
 	db  28, 100 ; Perrserker
 	db  38, 100 ; Cursola
@@ -259,11 +256,11 @@ endc
 	db  16,  31 ; Herdier
 	db  32, 100 ; Stoutland
 	db   1,  19 ; Purrloin
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  20, 100 ; Liepard
 	db   1,  19 ; Munna
 	db  20, 100 ; Musharna
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  20 ; Pidove
 	db  21,  31 ; Tranquill
 	db  32, 100 ; Unfezant
@@ -302,4 +299,6 @@ endc
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus
+	db   1,  33 ; Dwebble
+	db  34, 100 ; Crustle
 	assert_table_length NUM_SPECIES

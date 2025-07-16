@@ -8,6 +8,8 @@ WithdrawUsers:
 	dp SLOWBRO
 	dp OMANYTE
 	dp OMASTAR
+	dp DWEBBLE
+	dp CRUSTLE
 	db 0
 
 HardenUsers:

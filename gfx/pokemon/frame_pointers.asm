@@ -93,7 +93,6 @@ FramesPointers:
 	dw VaporeonFrames
 	dw JolteonFrames
 	dw FlareonFrames
-	dw PorygonFrames
 	dw OmanyteFrames
 	dw OmastarFrames
 	dw KabutoFrames
@@ -188,7 +187,6 @@ FramesPointers:
 	dw KingdraFrames
 	dw PhanpyFrames
 	dw DonphanFrames
-	dw Porygon2Frames
 	dw StantlerFrames
 	dw SmeargleFrames
 	dw ElekidFrames
@@ -224,7 +222,6 @@ FramesPointers:
 	dw GlaceonFrames
 	dw GliscorFrames
 	dw MamoswineFrames
-	dw PorygonZFrames
 	dw SylveonFrames
 	dw PerrserkerFrames
 	dw CursolaFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw HerdierFrames
 	dw StoutlandFrames
 	dw PurrloinFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw LiepardFrames
 	dw MunnaFrames
 	dw MusharnaFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw PidoveFrames
 	dw TranquillFrames
 	dw UnfezantFrames
@@ -297,6 +294,8 @@ FramesPointers:
 	dw DarumakaPlainFrames
 	dw DarmanitanPlainFrames
 	dw MaractusFrames
+	dw DwebbleFrames
+	dw CrustleFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

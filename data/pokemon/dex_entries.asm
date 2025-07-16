@@ -936,16 +936,6 @@ FlareonPokedexEntry::
 	next "can reach up to"
 	next "1700 degrees.@"
 
-SECTION "PorygonPokedexEntry", ROMX
-PorygonPokedexEntry::
-	db "Virtual@"
-	db   "An artificial"
-	next "#mon created"
-	next "due to extensive"
-	page "research, it can"
-	next "perform only what"
-	next "is in its program.@"
-
 SECTION "OmanytePokedexEntry", ROMX
 OmanytePokedexEntry::
 	db "Spiral@"
@@ -1886,16 +1876,6 @@ DonphanPokedexEntry::
 	next "leave a scratch on"
 	next "it.@"
 
-SECTION "Porygon2PokedexEntry", ROMX
-Porygon2PokedexEntry::
-	db "Virtual@"
-	db   "This man-made"
-	next "#mon evolved"
-	next "from the latest"
-	page "technology. It may"
-	next "have unprogrammed"
-	next "reactions.@"
-
 SECTION "StantlerPokedexEntry", ROMX
 StantlerPokedexEntry::
 	db "Big Horn@"
@@ -2246,16 +2226,6 @@ MamoswinePokedexEntry::
 	next "it turned warm"
 	next "after the ice age.@"
 
-SECTION "PorygonZPokedexEntry", ROMX
-PorygonZPokedexEntry::
-	db "Virtual@"
-	db   "Its programming"
-	next "was modified to"
-	next "enable work in"
-	page "alien dimensions."
-	next "It did not work"
-	next "as planned.@"
-
 SECTION "SylveonPokedexEntry", ROMX
 SylveonPokedexEntry::
 	db "Intertwined@"
@@ -2446,7 +2416,7 @@ PignitePokedexEntry::
 
 SECTION "EmboarPokedexEntry", ROMX
 EmboarPokedexEntry::
-	db "Mega Fire Pig@"
+	db "MegaFirePig@"
 	db "It can throw a"
 	next "fiery punch by"
 	next "setting its fist"
@@ -2792,7 +2762,7 @@ SewaddlePokedexEntry::
 
 SECTION "SwadloonPokedexEntry", ROMX
 SwadloonPokedexEntry::
-	db "Leaf Wrapped@"
+	db "LeafWrapped@"
 	db "It protects from"
 	next "the cold by"
 	next "wrapping up in"
@@ -2939,6 +2909,26 @@ MaractusPokedexEntry::
 	page "rhythm, making a"
 	next "sound like"
 	next "maracas.@"
+
+SECTION "DwebblePokedexEntry", ROMX
+DwebblePokedexEntry::
+	db "Rock Inn@"
+	db "When it finds a"
+    next "suitable stone,"
+    next "it secretes a"
+    page "corrosive liquid"
+    next "to make a hole to"
+    next "crawl into.@"
+
+SECTION "CrustlePokedexEntry", ROMX
+CrustlePokedexEntry::
+	db "Stone Home@"
+	db "Its legs are very"
+    next "strong, allowing"
+    next "it to carry heavy"
+    page "stone slabs, even"
+    next "across arid"
+    next "environments.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

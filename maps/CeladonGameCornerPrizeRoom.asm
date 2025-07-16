@@ -172,16 +172,16 @@ CeladonGameCornerPokemonVendor:
 .porygon
 	checkcoins CELADONGAMECORNERPRIZEROOM_PORYGON_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getmonname PORYGON, STRING_BUFFER_3
+	getmonname RATTATA, STRING_BUFFER_3
 	scall CeladonPrizeRoom_askbuy
 	iffalse_jumpopenedtext CeladonPrizeRoom_ComeAgainText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	givepoke PORYGON, 30
+	givepoke RATTATA, 30
 	iffalse_jumpopenedtext CeladonPrizeRoom_NotEnoughRoomText
-	setmonval PORYGON
+	setmonval RATTATA
 	special Special_GameCornerPrizeMonCheckDex
 	takecoins CELADONGAMECORNERPRIZEROOM_PORYGON_COINS
 	sjump .loop

@@ -97,7 +97,6 @@ EvosAttacksPointers::
 	dw VaporeonEvosAttacks
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
-	dw PorygonEvosAttacks
 	dw OmanyteEvosAttacks
 	dw OmastarEvosAttacks
 	dw KabutoEvosAttacks
@@ -192,7 +191,6 @@ EvosAttacksPointers::
 	dw KingdraEvosAttacks
 	dw PhanpyEvosAttacks
 	dw DonphanEvosAttacks
-	dw Porygon2EvosAttacks
 	dw StantlerEvosAttacks
 	dw SmeargleEvosAttacks
 	dw ElekidEvosAttacks
@@ -228,7 +226,6 @@ EvosAttacksPointers::
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
 	dw MamoswineEvosAttacks
-	dw PorygonZEvosAttacks
 	dw SylveonEvosAttacks
 	dw PerrserkerEvosAttacks
 	dw CursolaEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw HerdierEvosAttacks
 	dw StoutlandEvosAttacks
 	dw PurrloinEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw LiepardEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw PidoveEvosAttacks
 	dw TranquillEvosAttacks
 	dw UnfezantEvosAttacks
@@ -301,6 +298,8 @@ EvosAttacksPointers::
 	dw DarumakaPlainEvosAttacks
 	dw DarmanitanPlainEvosAttacks
 	dw MaractusEvosAttacks
+	dw DwebbleEvosAttacks
+	dw CrustleEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

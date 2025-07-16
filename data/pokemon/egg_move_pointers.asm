@@ -93,7 +93,6 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Vaporeon
 	dw EeveeEggSpeciesMoves             ; Jolteon
 	dw EeveeEggSpeciesMoves             ; Flareon
-	dw PorygonEggSpeciesMoves           ; Porygon
 	dw OmanyteEggSpeciesMoves           ; Omanyte
 	dw OmanyteEggSpeciesMoves           ; Omastar
 	dw KabutoEggSpeciesMoves            ; Kabuto
@@ -188,7 +187,6 @@ EggSpeciesMovesPointers::
 	dw HorseaEggSpeciesMoves            ; Kingdra
 	dw PhanpyEggSpeciesMoves            ; Phanpy
 	dw PhanpyEggSpeciesMoves            ; Donphan
-	dw PorygonEggSpeciesMoves           ; Porygon2
 	dw StantlerEggSpeciesMoves          ; Stantler
 	dw NoEggSpeciesMoves                ; Smeargle
 	dw ElekidEggSpeciesMoves            ; Elekid
@@ -224,7 +222,6 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Glaceon
 	dw GligarEggSpeciesMoves            ; Gliscor
 	dw SwinubEggSpeciesMoves            ; Mamoswine
-	dw PorygonEggSpeciesMoves           ; PorygonZ
 	dw EeveeEggSpeciesMoves             ; Sylveon
 	dw MeowthGalarianEggSpeciesMoves    ; Perrserker
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw LillipupEggSpeciesMoves          ; Herdier
 	dw LillipupEggSpeciesMoves          ; Stoutland
 	dw PurrloinEggSpeciesMoves          ; Purrloin
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw PurrloinEggSpeciesMoves          ; Liepard
 	dw MunnaEggSpeciesMoves             ; Munna
 	dw MunnaEggSpeciesMoves             ; Musharna
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw PidoveEggSpeciesMoves            ; Pidove
 	dw PidoveEggSpeciesMoves            ; Tranquill
 	dw PidoveEggSpeciesMoves            ; Unfezant
@@ -297,6 +294,8 @@ EggSpeciesMovesPointers::
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
 	dw MaractusEggSpeciesMoves          ; Maractus
+	dw DwebbleEggSpeciesMoves           ; Dwebble
+	dw DwebbleEggSpeciesMoves           ; Crustle
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

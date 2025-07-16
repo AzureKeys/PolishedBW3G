@@ -100,7 +100,6 @@ PokemonBodyData:
 	body_data  10,  290, QUADRUPED,    BLUE   ; VAPOREON
 	body_data   8,  245, QUADRUPED,    YELLOW ; JOLTEON
 	body_data   9,  250, QUADRUPED,    RED    ; FLAREON
-	body_data   8,  365, HEAD_LEGS,    PINK   ; PORYGON
 	body_data   4,   75, TENTACLES,    BLUE   ; OMANYTE
 	body_data  10,  350, TENTACLES,    BLUE   ; OMASTAR
 	body_data   5,  115, INSECTOID,    BROWN  ; KABUTO
@@ -195,7 +194,6 @@ PokemonBodyData:
 	body_data  18, 1520, HEAD_BASE,    BLUE   ; KINGDRA
 	body_data   5,  335, QUADRUPED,    BLUE   ; PHANPY
 	body_data  11, 1200, QUADRUPED,    GRAY   ; DONPHAN
-	body_data   6,  325, HEAD_LEGS,    RED    ; PORYGON2
 	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
 	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
@@ -231,7 +229,6 @@ PokemonBodyData:
 	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
 	body_data  20,  425, WINGS,        PURPLE ; GLISCOR
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
-	body_data   9,  340, HEAD_ARMS,    RED    ; PORYGON_Z
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
 	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	body_data   4,  101, QUADRUPED,    PURPLE ; PURRLOIN
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
 	body_data   6,  150, WINGS,        GRAY   ; TRANQUILL
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT
@@ -304,6 +301,8 @@ PokemonBodyData:
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA
 	body_data  13,  929, QUADRUPED,    RED    ; DARMANITAN
 	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
+	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
+	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

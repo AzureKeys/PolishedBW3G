@@ -264,10 +264,6 @@ SECTION "Flareon Pics", ROMX
 FlareonFrontpic: INCBIN "gfx/pokemon/flareon/front.animated.2bpp.lz"
 FlareonBackpic:  INCBIN "gfx/pokemon/flareon/back.2bpp.lz"
 
-SECTION "Porygon Pics", ROMX
-PorygonFrontpic: INCBIN "gfx/pokemon/porygon/front.animated.2bpp.lz"
-PorygonBackpic:  INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
-
 SECTION "Omanyte Pics", ROMX
 OmanyteFrontpic: INCBIN "gfx/pokemon/omanyte/front.animated.2bpp.lz"
 OmanyteBackpic:  INCBIN "gfx/pokemon/omanyte/back.2bpp.lz"
@@ -599,14 +595,6 @@ PhanpyBackpic:  INCBIN "gfx/pokemon/phanpy/back.2bpp.lz"
 SECTION "Donphan Pics", ROMX
 DonphanFrontpic: INCBIN "gfx/pokemon/donphan/front.animated.2bpp.lz"
 DonphanBackpic:  INCBIN "gfx/pokemon/donphan/back.2bpp.lz"
-
-SECTION "Porygon2 Pics", ROMX
-Porygon2Frontpic: INCBIN "gfx/pokemon/porygon2/front.animated.2bpp.lz"
-Porygon2Backpic:  INCBIN "gfx/pokemon/porygon2/back.2bpp.lz"
-
-SECTION "PorygonZ Pics", ROMX
-PorygonZFrontpic: INCBIN "gfx/pokemon/porygon_z/front.animated.2bpp.lz"
-PorygonZBackpic:  INCBIN "gfx/pokemon/porygon_z/back.2bpp.lz"
 
 SECTION "Smeargle Pics", ROMX
 SmeargleFrontpic: INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
@@ -1580,3 +1568,11 @@ DarmanitanPlainBackpic:  INCBIN "gfx/pokemon/darmanitan_plain/back.2bpp.lz"
 SECTION "Maractus Pics", ROMX
 MaractusFrontpic: INCBIN "gfx/pokemon/maractus/front.animated.2bpp.lz"
 MaractusBackpic:  INCBIN "gfx/pokemon/maractus/back.2bpp.lz"
+
+SECTION "Dwebble Pics", ROMX
+DwebbleFrontpic: INCBIN "gfx/pokemon/dwebble/front.animated.2bpp.lz"
+DwebbleBackpic:  INCBIN "gfx/pokemon/dwebble/back.2bpp.lz"
+
+SECTION "Crustle Pics", ROMX
+CrustleFrontpic: INCBIN "gfx/pokemon/crustle/front.animated.2bpp.lz"
+CrustleBackpic:  INCBIN "gfx/pokemon/crustle/back.2bpp.lz"

@@ -58,6 +58,8 @@ NewPokedexOrder:
 	dp DARUMAKA
 	dp DARMANITAN
 	dp MARACTUS
+	dp DWEBBLE
+	dp CRUSTLE
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -260,9 +262,6 @@ NewPokedexOrder:
 	dp SNEASLER
 	dp MISDREAVUS
 	dp MISMAGIUS
-	dp PORYGON
-	dp PORYGON2
-	dp PORYGON_Z
 	dp LAPRAS
 	dp OMANYTE
 	dp OMASTAR

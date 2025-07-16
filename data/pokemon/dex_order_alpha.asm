@@ -36,6 +36,7 @@ AlphabeticalPokedexOrder:
 	dp COTTONEE
 	dp CROBAT
 	dp CROCONAW
+	dp CRUSTLE
 	dp CUBONE
 	dp CURSOLA
 	dp CYNDAQUIL
@@ -54,6 +55,7 @@ AlphabeticalPokedexOrder:
 	dp DUDUNSPARCE
 	dp DUGTRIO
 	dp DUNSPARCE
+	dp DWEBBLE
 	dp EEVEE
 	dp EKANS
 	dp ELECTABUZZ
@@ -193,9 +195,6 @@ AlphabeticalPokedexOrder:
 	dp POLIWHIRL
 	dp POLIWRATH
 	dp PONYTA
-	dp PORYGON
-	dp PORYGON_Z
-	dp PORYGON2
 	dp PRIMEAPE
 	dp PSYDUCK
 	dp PUPITAR

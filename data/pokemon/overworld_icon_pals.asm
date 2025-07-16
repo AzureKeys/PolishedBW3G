@@ -97,7 +97,6 @@ OverworldMonIconColors::
 	iconpal AZURE, PURPLE ; VAPOREON
 	iconpal BROWN, GREEN ; JOLTEON
 	iconpal ORANGE, BLUE ; FLAREON
-	iconpal AZURE, PURPLE ; PORYGON
 	iconpal AZURE, GRAY ; OMANYTE
 	iconpal AZURE, GRAY ; OMASTAR
 	iconpal BROWN, GRAY ; KABUTO
@@ -192,7 +191,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; KINGDRA
 	iconpal AZURE, WHITE ; PHANPY
 	iconpal GRAY, RED ; DONPHAN
-	iconpal BLUE, PURPLE ; PORYGON2
 	iconpal BROWN, GREEN ; STANTLER
 	iconpal BROWN, GREEN ; SMEARGLE
 	iconpal BROWN, RED ; ELEKID
@@ -228,7 +226,6 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; GLACEON
 	iconpal PURPLE, GRAY ; GLISCOR
 	iconpal BROWN, GREEN ; MAMOSWINE
-	iconpal BLUE, PURPLE ; PORYGON_Z
 	iconpal PINK, AZURE ; SYLVEON
 	iconpal GRAY, BROWN ; PERRSERKER
 	iconpal GRAY, PINK ; CURSOLA
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal BLUE, GRAY ; HERDIER
 	iconpal BLUE, GREEN ; STOUTLAND
 	iconpal PURPLE, BLUE ; PURRLOIN
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal PURPLE, RED ; LIEPARD
 	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, BLUE ; PIDOVE
 	iconpal GRAY, GREEN ; TRANQUILL
 	iconpal PINK, PURPLE ; UNFEZANT
@@ -301,6 +298,8 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN
 	iconpal GREEN, BROWN ; MARACTUS
+	iconpal ORANGE, RED ; DWEBBLE
+	iconpal ORANGE, GREEN ; CRUSTLE
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

@@ -97,7 +97,6 @@ MiniIconPointers:
 	mini_icon Vaporeon
 	mini_icon Jolteon
 	mini_icon Flareon
-	mini_icon Porygon
 	mini_icon Omanyte
 	mini_icon Omastar
 	mini_icon Kabuto
@@ -192,7 +191,6 @@ MiniIconPointers:
 	mini_icon Kingdra
 	mini_icon Phanpy
 	mini_icon Donphan
-	mini_icon Porygon2
 	mini_icon Stantler
 	mini_icon Smeargle
 	mini_icon Elekid
@@ -228,7 +226,6 @@ MiniIconPointers:
 	mini_icon Glaceon
 	mini_icon Gliscor
 	mini_icon Mamoswine
-	mini_icon PorygonZ
 	mini_icon Sylveon
 	mini_icon Perrserker
 	mini_icon Cursola
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Herdier
 	mini_icon Stoutland
 	mini_icon Purrloin
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Liepard
 	mini_icon Munna
 	mini_icon Musharna
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Pidove
 	mini_icon Tranquill
 	mini_icon Unfezant
@@ -301,6 +298,8 @@ MiniIconPointers:
 	mini_icon Darumaka
 	mini_icon Darmanitan
 	mini_icon Maractus
+	mini_icon Dwebble
+	mini_icon Crustle
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

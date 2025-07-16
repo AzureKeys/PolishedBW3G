@@ -99,7 +99,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $0aa,  $17f ; Vaporeon
 	mon_cry CRY_VENONAT,     $03d,  $100 ; Jolteon
 	mon_cry CRY_VENONAT,     $010,  $0a0 ; Flareon
-	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; Porygon
 	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; Omanyte
 	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; Omastar
 	mon_cry CRY_CATERPIE,    $0bb,  $0c0 ; Kabuto
@@ -194,7 +193,6 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; Kingdra
 	mon_cry CRY_SENTRET,     $048,  $230 ; Phanpy
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; Donphan
-	mon_cry CRY_GIRAFARIG,   $073,  $240 ; Porygon2
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; Smeargle
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
@@ -230,7 +228,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Glaceon
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gliscor
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Mamoswine
-	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PorygonZ
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Perrserker
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
 	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
 	mon_cry CRY_PIDGEY,      $1c0,  $184 ; Tranquill
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
@@ -303,4 +300,6 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
+	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
+	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
 	assert_table_length NUM_SPECIES

@@ -3184,7 +3184,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer BRENT3, "Brent"
-	tr_mon 42, PORYGON
+	tr_mon 42, RATTATA
 		tr_moves RECOVER, PSYCHIC_M, CONVERSION, TRI_ATTACK
 	end_trainer
 
@@ -3250,7 +3250,7 @@ PokemaniacGroup:
 	def_trainer AIDAN, "Aidan"
 	tr_mon 36, SNORLAX
 		tr_moves HEADBUTT, DEFENSE_CURL, ROLLOUT, EXPLOSION
-	tr_mon 36, PORYGON2
+	tr_mon 36, RATTATA
 		tr_moves CONVERSION, RECOVER, PSYBEAM, TRI_ATTACK
 	end_trainer
 
@@ -3297,7 +3297,7 @@ SuperNerdGroup:
 
 	def_trainer ERIC, "Eric"
 	tr_mon 13, GRIMER
-	tr_mon 14, PORYGON
+	tr_mon 14, RATTATA
 	end_trainer
 
 	def_trainer SAM, "Sam"
@@ -3312,7 +3312,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer PAT, "Pat"
-	tr_mon 56, PORYGON2
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer SHAWN, "Shawn"
@@ -3370,12 +3370,12 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer RORY, "Rory"
-	tr_mon 26, PORYGON
+	tr_mon 26, RATTATA
 	end_trainer
 
 	def_trainer GREGG, "Gregg"
-	tr_mon 53, PORYGON
-	tr_mon 55, PORYGON2
+	tr_mon 53, RATTATA
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer FOOTE, "Foote"
@@ -3385,7 +3385,7 @@ SuperNerdGroup:
 	def_trainer DAVE, "Dave"
 	tr_mon 52, LARVITAR
 	tr_mon 53, PUPITAR
-	tr_mon 56, PORYGON_Z
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer KOUTA, "Kouta"
@@ -5201,7 +5201,7 @@ ScientistGroup:
 	end_trainer
 
 	def_trainer OSKAR, "Oskar"
-	tr_mon 64, PORYGON2
+	tr_mon 64, RATTATA
 	tr_mon 62, NINETALES
 	tr_mon 60, MAGNEZONE
 	end_trainer
@@ -5213,8 +5213,8 @@ ScientistGroup:
 	end_trainer
 
 	def_trainer CARL, "Carl"
-	tr_mon LEVEL_FROM_BADGES + 5, PORYGON
-	tr_mon LEVEL_FROM_BADGES + 5, PORYGON
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 6, MAGNETON
 	end_trainer
 
@@ -5256,7 +5256,7 @@ RocketScientistGroup:
 
 	def_trainer MITCH, "Mitch"
 	tr_mon 25, DITTO
-	tr_mon 25, PORYGON
+	tr_mon 25, RATTATA
 	end_trainer
 
 	def_trainer JED, "Jed"
@@ -5272,7 +5272,7 @@ RocketScientistGroup:
 	end_trainer
 
 	def_trainer RICH, "Trenton" ; MISMATCH
-	tr_mon 35, PORYGON_Z
+	tr_mon 35, RATTATA
 		tr_moves CONVERSION, RECOVER, TRI_ATTACK, PSYBEAM
 	end_trainer
 
@@ -6230,7 +6230,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer DARIC, "Daric"
-	tr_mon 54, PORYGON_Z
+	tr_mon 54, RATTATA
 	tr_mon 53, SLOWKING
 	tr_mon 55, GLACEON
 	end_trainer
@@ -6426,13 +6426,13 @@ AceDuoGroup:
 
 	def_trainer_class ACE_DUO
 	def_trainer ELANANDIDA1, "Elan & Ida"
-	tr_mon 65, PORYGON2, MALE
+	tr_mon 65, RATTATA, MALE
 	tr_mon 65, AZUMARILL, FEMALE
 	end_trainer
 
 	def_trainer ELANANDIDA2, "Elan & Ida"
 	tr_mon 65, AZUMARILL, FEMALE
-	tr_mon 65, PORYGON2, MALE
+	tr_mon 65, RATTATA, MALE
 	end_trainer
 
 	def_trainer ARAANDBELA1, "Ara & Bela"
@@ -6612,8 +6612,8 @@ VeteranFGroup:
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 44 Spe
 		tr_moves PSYCHIC_M, SHADOW_BALL, FOCUS_BLAST, HP_FIRE
-	tr_mon LEVEL_FROM_BADGES + 11, PORYGON_Z @ CHOICE_SPECS, FEMALE
-		tr_extra ADAPTABILITY, SATK_UP_ATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ CHOICE_SPECS, FEMALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 44 Spe
 		tr_moves TRI_ATTACK, DARK_PULSE, ICE_BEAM, HP_GROUND
 	tr_mon LEVEL_FROM_BADGES + 11, GENGAR @ CHOICE_SPECS, FEMALE
@@ -7295,7 +7295,7 @@ MiraGroup:
 	tr_mon 56, MAGMORTAR
 	tr_mon 55, RATTATA
 	tr_mon 56, MAGNEZONE
-	tr_mon 55, PORYGON_Z
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer 2, "Mira"
@@ -7303,7 +7303,7 @@ MiraGroup:
 	tr_mon 74, GENGAR
 	tr_mon 71, RATTATA
 	tr_mon 73, MAGMORTAR
-	tr_mon 71, PORYGON_Z
+	tr_mon 71, RATTATA
 	tr_mon 73, MAGNEZONE
 	end_trainer
 
@@ -7687,7 +7687,7 @@ BillGroup:
 		tr_moves SEED_BOMB, SWORDS_DANCE, HEALINGLIGHT, X_SCISSOR
 	tr_mon 63, GLACEON @ NEVERMELTICE
 		tr_moves ICE_BEAM, MIRROR_COAT, RECOVER, QUICK_ATTACK
-	tr_mon 66, PORYGON2 @ EVIOLITE
+	tr_mon 66, RATTATA @ EVIOLITE
 		tr_moves TRI_ATTACK, THUNDERBOLT, ICE_BEAM, RECOVER
 	end_trainer
 
@@ -7836,7 +7836,7 @@ endc
 		tr_moves DRAGON_DANCE, OUTRAGE, AQUA_TAIL, EARTHQUAKE
 	tr_mon 72, TYRANITAR @ KINGS_ROCK, MALE
 		tr_moves EARTHQUAKE, STONE_EDGE, CRUNCH, SCARY_FACE
-	tr_mon 71, PORYGON_Z @ QUICK_CLAW, MALE
+	tr_mon 71, RATTATA @ QUICK_CLAW, MALE
 		tr_moves NASTY_PLOT, DARK_PULSE, TRI_ATTACK, THUNDERBOLT
 	tr_mon 75, ZAPDOS @ SHARP_BEAK, MALE
 		tr_moves DRILL_PECK, THUNDER, ANCIENTPOWER, LIGHT_SCREEN

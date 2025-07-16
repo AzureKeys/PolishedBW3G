@@ -97,7 +97,6 @@ PokemonPicPointers::
 	pics Vaporeon
 	pics Jolteon
 	pics Flareon
-	pics Porygon
 	pics Omanyte
 	pics Omastar
 	pics Kabuto
@@ -192,7 +191,6 @@ PokemonPicPointers::
 	pics Kingdra
 	pics Phanpy
 	pics Donphan
-	pics Porygon2
 	pics Stantler
 	pics Smeargle
 	pics Elekid
@@ -228,7 +226,6 @@ PokemonPicPointers::
 	pics Glaceon
 	pics Gliscor
 	pics Mamoswine
-	pics PorygonZ
 	pics Sylveon
 	pics Perrserker
 	pics Cursola
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Herdier
 	pics Stoutland
 	pics Purrloin
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Liepard
 	pics Munna
 	pics Musharna
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Pidove
 	pics Tranquill
 	pics Unfezant
@@ -301,6 +298,8 @@ PokemonPicPointers::
 	pics DarumakaPlain
 	pics DarmanitanPlain
 	pics Maractus
+	pics Dwebble
+	pics Crustle
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
