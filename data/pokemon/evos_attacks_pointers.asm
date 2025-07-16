@@ -300,6 +300,8 @@ EvosAttacksPointers::
 	dw SigilyphEvosAttacks
 	dw YamaskPlainEvosAttacks
 	dw CofagrigusEvosAttacks
+	dw TirtougaEvosAttacks
+	dw CarracostaEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

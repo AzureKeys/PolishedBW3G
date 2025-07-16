@@ -76,6 +76,8 @@ ScraftyFootprint::
 SigilyphFootprint::
 YamaskFootprint::
 CofagrigusFootprint::
+TirtougaFootprint::
+CarracostaFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

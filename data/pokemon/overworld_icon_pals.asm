@@ -300,6 +300,8 @@ OverworldMonIconColors::
 	iconpal YELLOW, GREEN ; SIGILYPH
 	iconpal YELLOW, GRAY ; YAMASK
 	iconpal YELLOW, GRAY ; COFAGRIGUS
+	iconpal BLUE, TEAL ; TIRTOUGA
+	iconpal BLUE, AZURE ; CARRACOSTA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

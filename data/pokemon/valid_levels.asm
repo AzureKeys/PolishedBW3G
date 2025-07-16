@@ -301,4 +301,6 @@ endc
 	db  20, 100 ; Sigilyph
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
+	db   1,  36 ; Tirtouga
+	db  37, 100 ; Carracosta
 	assert_table_length NUM_SPECIES

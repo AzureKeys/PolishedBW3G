@@ -8,6 +8,8 @@ WithdrawUsers:
 	dp SLOWBRO
 	dp DWEBBLE
 	dp CRUSTLE
+	dp TIRTOUGA
+	dp CARRACOSTA
 	db 0
 
 HardenUsers:

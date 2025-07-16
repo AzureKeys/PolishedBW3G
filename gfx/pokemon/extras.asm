@@ -238,6 +238,8 @@ ScraggyAnimationExtra:    INCLUDE "gfx/pokemon/scraggy/anim_idle.asm"
 ScraftyAnimationExtra:    INCLUDE "gfx/pokemon/scrafty/anim_idle.asm"
 SigilyphAnimationExtra:   INCLUDE "gfx/pokemon/sigilyph/anim_idle.asm"
 CofagrigusAnimationExtra: INCLUDE "gfx/pokemon/cofagrigus/anim_idle.asm"
+TirtougaAnimationExtra:   INCLUDE "gfx/pokemon/tirtouga/anim_idle.asm"
+CarracostaAnimationExtra: INCLUDE "gfx/pokemon/carracosta/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

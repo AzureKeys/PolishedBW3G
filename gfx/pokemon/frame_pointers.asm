@@ -296,6 +296,8 @@ FramesPointers:
 	dw SigilyphFrames
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
+	dw TirtougaFrames
+	dw CarracostaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

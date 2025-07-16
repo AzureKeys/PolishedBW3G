@@ -297,4 +297,6 @@ PokemonNames::
 	rawchar "Sigilyph@@"
 	rawchar "Yamask@@@@"
 	rawchar "Cofagrigus"
+	rawchar "Tirtouga@@"
+	rawchar "Carracosta"
 	assert_table_length NUM_SPECIES + 1

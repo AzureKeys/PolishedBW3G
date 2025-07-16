@@ -300,6 +300,8 @@ MiniIconPointers:
 	mini_icon Sigilyph
 	mini_icon Yamask
 	mini_icon Cofagrigus
+	mini_icon Tirtouga
+	mini_icon Carracosta
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

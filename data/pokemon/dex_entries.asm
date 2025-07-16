@@ -2930,6 +2930,25 @@ CofagrigusPokedexEntry::
     next "They are covered"
     next "in gold.@"
 
+SECTION "TirtougaPokedexEntry", ROMX
+TirtougaPokedexEntry::
+	db "ProtoTurtle@"
+	db "This #mon was"
+    next "restored from a"
+    next "fossil. It dove"
+    page "underwater as far"
+    next "as half a mile.@"
+
+SECTION "CarracostaPokedexEntry", ROMX
+CarracostaPokedexEntry::
+	db "ProtoTurtle@"
+	db "Incredible jaw"
+    next "strength allows"
+    next "Carracosta to chew"
+    page "through rocks and"
+    next "iron, along with"
+    next "its prey.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

@@ -6130,6 +6130,45 @@ endc
 	learnset 45, CONFUSE_RAY ; Grudge
 	learnset 51, MEAN_LOOK
 	learnset 57, DESTINY_BOND
+	
+	evos_attacks Tirtouga
+	evo_data EVOLVE_LEVEL, 37, CARRACOSTA
+	learnset 1, WATER_GUN
+	learnset 1, DEFENSE_CURL ; Withdraw
+	learnset 5, ROLLOUT
+	learnset 8, BITE
+	learnset 11, PROTECT
+	learnset 15, AQUA_JET
+	learnset 18, ANCIENTPOWER
+	learnset 21, CRUNCH
+	learnset 25, SAFEGUARD ; Wide Guard
+	;learnset 31, SMACK_DOWN
+	learnset 35, CURSE
+	learnset 38, SHELL_SMASH
+	learnset 41, AQUA_TAIL
+	learnset 45, ROCK_SLIDE
+	learnset 48, RAIN_DANCE
+	learnset 50, HYDRO_PUMP
+	
+	evos_attacks Carracosta
+	learnset 1, WATER_GUN
+	learnset 1, DEFENSE_CURL ; Withdraw
+	learnset 1, ROLLOUT
+	learnset 1, BITE
+	learnset 5, ROLLOUT
+	learnset 8, BITE
+	learnset 11, PROTECT
+	learnset 15, AQUA_JET
+	learnset 18, ANCIENTPOWER
+	learnset 21, CRUNCH
+	learnset 25, SAFEGUARD ; Wide Guard
+	;learnset 31, SMACK_DOWN
+	learnset 35, CURSE
+	learnset 40, SHELL_SMASH
+	learnset 45, AQUA_TAIL
+	learnset 51, ROCK_SLIDE
+	learnset 56, RAIN_DANCE
+	learnset 61, HYDRO_PUMP
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

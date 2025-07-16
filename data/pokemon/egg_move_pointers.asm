@@ -296,6 +296,8 @@ EggSpeciesMovesPointers::
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
+	dw TirtougaEggSpeciesMoves          ; Tirtouga
+	dw TirtougaEggSpeciesMoves          ; Carracosta
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

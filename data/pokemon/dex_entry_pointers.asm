@@ -297,6 +297,8 @@ PokedexDataPointerTable:
 	dba SigilyphPokedexEntry
 	dba YamaskPlainPokedexEntry
 	dba CofagrigusPokedexEntry
+	dba TirtougaPokedexEntry
+	dba CarracostaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

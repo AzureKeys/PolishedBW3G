@@ -20,6 +20,7 @@ AlphabeticalPokedexOrder:
 	dp BOLDORE
 	dp BONSLY
 	dp BULBASAUR
+	dp CARRACOSTA
 	dp CELEBI
 	dp CHARIZARD
 	dp CHARMANDER
@@ -259,6 +260,7 @@ AlphabeticalPokedexOrder:
 	dp TEPIG
 	dp THROH
 	dp TIMBURR
+	dp TIRTOUGA
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC

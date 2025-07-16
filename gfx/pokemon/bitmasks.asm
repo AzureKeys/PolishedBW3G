@@ -238,6 +238,8 @@ ScraggyBitmasks:    INCLUDE "gfx/pokemon/scraggy/bitmask.asm"
 ScraftyBitmasks:    INCLUDE "gfx/pokemon/scrafty/bitmask.asm"
 SigilyphBitmasks:   INCLUDE "gfx/pokemon/sigilyph/bitmask.asm"
 CofagrigusBitmasks: INCLUDE "gfx/pokemon/cofagrigus/bitmask.asm"
+TirtougaBitmasks:   INCLUDE "gfx/pokemon/tirtouga/bitmask.asm"
+CarracostaBitmasks: INCLUDE "gfx/pokemon/carracosta/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

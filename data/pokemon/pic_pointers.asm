@@ -300,6 +300,8 @@ PokemonPicPointers::
 	pics Sigilyph
 	pics YamaskPlain
 	pics Cofagrigus
+	pics Tirtouga
+	pics Carracosta
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

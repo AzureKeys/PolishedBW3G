@@ -238,6 +238,8 @@ ScraggyAnimation:    INCLUDE "gfx/pokemon/scraggy/anim.asm"
 ScraftyAnimation:    INCLUDE "gfx/pokemon/scrafty/anim.asm"
 SigilyphAnimation:   INCLUDE "gfx/pokemon/sigilyph/anim.asm"
 CofagrigusAnimation: INCLUDE "gfx/pokemon/cofagrigus/anim.asm"
+TirtougaAnimation:   INCLUDE "gfx/pokemon/tirtouga/anim.asm"
+CarracostaAnimation: INCLUDE "gfx/pokemon/carracosta/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

@@ -300,6 +300,8 @@ endc
 	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
+	db NO_MOVE      ; TIRTOUGA
+	db NO_MOVE      ; CARRACOSTA
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

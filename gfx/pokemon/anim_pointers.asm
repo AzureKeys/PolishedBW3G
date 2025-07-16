@@ -296,6 +296,8 @@ AnimationPointers:
 	dw SigilyphAnimation
 	dw YamaskPlainAnimation
 	dw CofagrigusAnimation
+	dw TirtougaAnimation
+	dw CarracostaAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

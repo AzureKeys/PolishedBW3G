@@ -1576,3 +1576,11 @@ YamaskPlainBackpic:  INCBIN "gfx/pokemon/yamask_plain/back.2bpp.lz"
 SECTION "Cofagrigus Pics", ROMX
 CofagrigusFrontpic: INCBIN "gfx/pokemon/cofagrigus/front.animated.2bpp.lz"
 CofagrigusBackpic:  INCBIN "gfx/pokemon/cofagrigus/back.2bpp.lz"
+
+SECTION "Tirtouga Pics", ROMX
+TirtougaFrontpic: INCBIN "gfx/pokemon/tirtouga/front.animated.2bpp.lz"
+TirtougaBackpic:  INCBIN "gfx/pokemon/tirtouga/back.2bpp.lz"
+
+SECTION "Carracosta Pics", ROMX
+CarracostaFrontpic: INCBIN "gfx/pokemon/carracosta/front.animated.2bpp.lz"
+CarracostaBackpic:  INCBIN "gfx/pokemon/carracosta/back.2bpp.lz"

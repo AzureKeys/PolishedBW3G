@@ -1482,6 +1482,16 @@ CofagrigusMini::     INCBIN "gfx/minis/cofagrigus.2bpp.lz"
 CofagrigusMiniMask:: INCBIN "gfx/minis/cofagrigus_mask.1bpp.lz"
 CofagrigusIcon::     INCBIN "gfx/icons/cofagrigus.2bpp.lz"
 
+SECTION "Tirtouga Mini Icon", ROMX
+TirtougaMini::     INCBIN "gfx/minis/tirtouga.2bpp.lz"
+TirtougaMiniMask:: INCBIN "gfx/minis/tirtouga_mask.1bpp.lz"
+TirtougaIcon::     INCBIN "gfx/icons/tirtouga.2bpp.lz"
+
+SECTION "Carracosta Mini Icon", ROMX
+CarracostaMini::     INCBIN "gfx/minis/carracosta.2bpp.lz"
+CarracostaMiniMask:: INCBIN "gfx/minis/carracosta_mask.1bpp.lz"
+CarracostaIcon::     INCBIN "gfx/icons/carracosta.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
