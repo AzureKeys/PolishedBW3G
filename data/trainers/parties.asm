@@ -1908,7 +1908,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer PEDRO, "Pedro"
-	tr_mon 62, FURRET
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer AMOS, "Amos"
@@ -2042,7 +2042,7 @@ endc
 	end_trainer
 
 	def_trainer SHARON, "Sharon"
-	tr_mon 50, FURRET
+	tr_mon 50, RATTATA
 	tr_mon 52, RAPIDASH
 	end_trainer
 
@@ -3090,11 +3090,11 @@ PokefanFGroup:
 	end_trainer
 
 	def_trainer GEORGIA, "Georgia"
-	tr_mon 44, SENTRET @ ORAN_BERRY
-	tr_mon 44, SENTRET @ ORAN_BERRY
-	tr_mon 44, SENTRET @ ORAN_BERRY
-	tr_mon 46, FURRET @ SITRUS_BERRY
-	tr_mon 44, SENTRET @ ORAN_BERRY
+	tr_mon 44, RATTATA @ ORAN_BERRY
+	tr_mon 44, RATTATA @ ORAN_BERRY
+	tr_mon 44, RATTATA @ ORAN_BERRY
+	tr_mon 46, RATTATA @ SITRUS_BERRY
+	tr_mon 44, RATTATA @ ORAN_BERRY
 	end_trainer
 
 	def_trainer JAIME, "Jaime"
@@ -3569,9 +3569,9 @@ BeautyGroup:
 
 	def_trainer_class BEAUTY
 	def_trainer VICTORIA, "Victoria"
-	tr_mon 9, SENTRET
-	tr_mon 13, SENTRET
-	tr_mon 17, SENTRET
+	tr_mon 9, RATTATA
+	tr_mon 13, RATTATA
+	tr_mon 17, RATTATA
 	end_trainer
 
 	def_trainer SAMANTHA, "Samantha"
@@ -4015,12 +4015,12 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer SHERMAN, "Sherman"
-	tr_mon 59, FURRET
+	tr_mon 59, RATTATA
 	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer SCHOOLBOY_CONNOR, "Connor"
-	tr_mon 59, SENTRET
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer TORIN, "Torin"
@@ -4045,7 +4045,7 @@ SchoolgirlGroup:
 	def_trainer ELIZA, "Eliza"
 	tr_mon 18, "Silver", RATTATA @ SILVER_LEAF
 	tr_mon 16, "Lady", LEDYBA
-	tr_mon 17, "Tret", SENTRET @ ORAN_BERRY
+	tr_mon 17, "Tret", RATTATA @ ORAN_BERRY
 	end_trainer
 
 	def_trainer FAITH, "Faith"
@@ -4056,7 +4056,7 @@ SchoolgirlGroup:
 
 	def_trainer SARAH, "Sarah"
 	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", CHARMANDER
-	tr_mon LEVEL_FROM_BADGES + 0, SENTRET
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 1, MARILL
 	end_trainer
 
@@ -4559,7 +4559,7 @@ RichBoyGroup:
 	def_trainer_class RICH_BOY
 	def_trainer WINSTON, "Winston"
 	tr_mon 46, RATTATA
-	tr_mon 44, FURRET
+	tr_mon 44, RATTATA
 	tr_mon 45, AMPHAROS
 	end_trainer
 
@@ -4600,7 +4600,7 @@ LadyGroup:
 	def_trainer_class LADY
 	def_trainer JESSICA, "Jessica"
 	tr_mon 55, RATTATA @ NUGGET
-	tr_mon 54, FURRET @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
 
 
@@ -5645,11 +5645,11 @@ TeacherFGroup:
 	def_trainer KATHRYN, "Kathryn"
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 2, FURRET
+	tr_mon LEVEL_FROM_BADGES + 2, RATTATA
 	end_trainer
 
 	def_trainer CLARICE, "Clarice"
-	tr_mon 54, FURRET
+	tr_mon 54, RATTATA
 	tr_mon 56, SUNFLORA
 	end_trainer
 

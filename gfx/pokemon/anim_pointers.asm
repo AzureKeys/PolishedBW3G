@@ -111,8 +111,6 @@ AnimationPointers:
 	dw TotodileAnimation
 	dw CroconawAnimation
 	dw FeraligatrAnimation
-	dw SentretAnimation
-	dw FurretAnimation
 	dw HoothootAnimation
 	dw NoctowlAnimation
 	dw LedybaAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw UnfezantAnimation
 	dw BlitzleAnimation
 	dw ZebstrikaAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw RoggenrolaAnimation
 	dw BoldoreAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw GigalithAnimation
 	dw WoobatAnimation
 	dw SwoobatAnimation

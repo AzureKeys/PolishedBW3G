@@ -115,8 +115,6 @@ MiniIconPointers:
 	mini_icon Totodile
 	mini_icon Croconaw
 	mini_icon Feraligatr
-	mini_icon Sentret
-	mini_icon Furret
 	mini_icon Hoothoot
 	mini_icon Noctowl
 	mini_icon Ledyba
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Unfezant
 	mini_icon Blitzle
 	mini_icon Zebstrika
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Roggenrola
 	mini_icon Boldore
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Gigalith
 	mini_icon Woobat
 	mini_icon Swoobat

@@ -80,8 +80,6 @@ NewPokedexOrder:
 	dp NOCTOWL
 	dp RATTATA
 	dp RATICATE
-	dp SENTRET
-	dp FURRET
 	dp PICHU
 	dp PIKACHU
 	dp RAICHU

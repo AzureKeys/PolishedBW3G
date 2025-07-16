@@ -135,8 +135,6 @@
 	const TOTODILE   ; xx
 	const CROCONAW   ; xx
 	const FERALIGATR ; xx
-	const SENTRET    ; xx
-	const FURRET     ; xx
 	const HOOTHOOT   ; xx
 	const NOCTOWL    ; xx
 	const LEDYBA     ; xx
@@ -278,10 +276,10 @@
 	const UNFEZANT   ; 129
 	const BLITZLE    ; 128
 	const ZEBSTRIKA  ; 129
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ROGGENROLA ; 129
 	const BOLDORE    ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const GIGALITH   ; 129
 	const WOOBAT     ; 128
 	const SWOOBAT    ; 129

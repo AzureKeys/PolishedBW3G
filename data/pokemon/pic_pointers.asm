@@ -115,8 +115,6 @@ PokemonPicPointers::
 	pics Totodile
 	pics Croconaw
 	pics Feraligatr
-	pics Sentret
-	pics Furret
 	pics Hoothoot
 	pics Noctowl
 	pics Ledyba
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Unfezant
 	pics Blitzle
 	pics Zebstrika
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Roggenrola
 	pics Boldore
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Gigalith
 	pics Woobat
 	pics Swoobat

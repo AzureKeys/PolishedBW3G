@@ -111,8 +111,6 @@ EggSpeciesMovesPointers::
 	dw TotodileEggSpeciesMoves          ; Totodile
 	dw TotodileEggSpeciesMoves          ; Croconaw
 	dw TotodileEggSpeciesMoves          ; Feraligatr
-	dw SentretEggSpeciesMoves           ; Sentret
-	dw SentretEggSpeciesMoves           ; Furret
 	dw HoothootEggSpeciesMoves          ; Hoothoot
 	dw HoothootEggSpeciesMoves          ; Noctowl
 	dw LedybaEggSpeciesMoves            ; Ledyba
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw PidoveEggSpeciesMoves            ; Unfezant
 	dw BlitzleEggSpeciesMoves           ; Blitzle
 	dw BlitzleEggSpeciesMoves           ; Zebstrika
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw RoggenrolaEggSpeciesMoves        ; Roggenrola
 	dw RoggenrolaEggSpeciesMoves        ; Boldore
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw RoggenrolaEggSpeciesMoves        ; Gigalith
 	dw WoobatEggSpeciesMoves            ; Woobat
 	dw WoobatEggSpeciesMoves            ; Swoobat

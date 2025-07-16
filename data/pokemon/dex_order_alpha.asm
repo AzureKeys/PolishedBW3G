@@ -75,7 +75,6 @@ AlphabeticalPokedexOrder:
 	dp FLAAFFY
 	dp FLAREON
 	dp FORRETRESS
-	dp FURRET
 	dp GASTLY
 	dp GENGAR
 	dp GEODUDE
@@ -219,7 +218,6 @@ AlphabeticalPokedexOrder:
 	dp SEADRA
 	dp SEEL
 	dp SEISMITOAD
-	dp SENTRET
 	dp SERPERIOR
 	dp SERVINE
 	dp SEWADDLE

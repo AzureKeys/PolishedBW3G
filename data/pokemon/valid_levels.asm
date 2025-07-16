@@ -112,8 +112,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  17 ; Totodile
 	db  18,  29 ; Croconaw
 	db  30, 100 ; Feraligatr
-	db   1,  14 ; Sentret
-	db  15, 100 ; Furret
 	db   1,  19 ; Hoothoot
 	db  20, 100 ; Noctowl
 	db   1,  17 ; Ledyba
@@ -259,10 +257,10 @@ endc
 	db  32, 100 ; Unfezant
 	db   1,  26 ; Blitzle
 	db  27, 100 ; Zebstrika
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  24 ; Roggenrola
 	db  25,  39 ; Boldore
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  40, 100 ; Gigalith
 	db   1,  22 ; Woobat
 	db  23, 100 ; Swoobat

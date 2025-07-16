@@ -115,8 +115,6 @@ EvosAttacksPointers::
 	dw TotodileEvosAttacks
 	dw CroconawEvosAttacks
 	dw FeraligatrEvosAttacks
-	dw SentretEvosAttacks
-	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
 	dw LedybaEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw UnfezantEvosAttacks
 	dw BlitzleEvosAttacks
 	dw ZebstrikaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw RoggenrolaEvosAttacks
 	dw BoldoreEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw GigalithEvosAttacks
 	dw WoobatEvosAttacks
 	dw SwoobatEvosAttacks

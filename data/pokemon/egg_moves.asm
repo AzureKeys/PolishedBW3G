@@ -543,17 +543,6 @@ TotodileEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-SentretEggSpeciesMoves:
-	dp SENTRET, PLAIN_FORM
-	db CHARM
-	db FOCUS_ENERGY
-	db PURSUIT
-	db REVERSAL
-	db SLASH
-	db DOUBLE_EDGE
-	db TRICK
-	db $ff
-
 HoothootEggSpeciesMoves:
 	dp HOOTHOOT, PLAIN_FORM
 	db AGILITY

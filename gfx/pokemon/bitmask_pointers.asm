@@ -111,8 +111,6 @@ BitmasksPointers:
 	dw TotodileBitmasks
 	dw CroconawBitmasks
 	dw FeraligatrBitmasks
-	dw SentretBitmasks
-	dw FurretBitmasks
 	dw HoothootBitmasks
 	dw NoctowlBitmasks
 	dw LedybaBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw UnfezantBitmasks
 	dw BlitzleBitmasks
 	dw ZebstrikaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw RoggenrolaBitmasks
 	dw BoldoreBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw GigalithBitmasks
 	dw WoobatBitmasks
 	dw SwoobatBitmasks

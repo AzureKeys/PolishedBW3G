@@ -1116,26 +1116,6 @@ FeraligatrPokedexEntry::
 	next "quickly, even on"
 	next "the ground.@"
 
-SECTION "SentretPokedexEntry", ROMX
-SentretPokedexEntry::
-	db "Scout@"
-	db   "When acting as a"
-	next "lookout, it warns"
-	next "others of danger"
-	page "by screeching and"
-	next "hitting the ground"
-	next "with its tail.@"
-
-SECTION "FurretPokedexEntry", ROMX
-FurretPokedexEntry::
-	db "Long Body@"
-	db   "It lives in narrow"
-	next "burrows that fit"
-	next "its slim body. The"
-	page "deeper the nests"
-	next "go, the more maze-"
-	next "like they become.@"
-
 SECTION "HoothootPokedexEntry", ROMX
 HoothootPokedexEntry::
 	db "Owl@"

@@ -313,17 +313,17 @@
 	; morn
 	wildmon 56, RATTATA
 	wildmon 56, RATICATE
-	wildmon 57, FURRET
 	wildmon 57, RATTATA
-	wildmon 59, FURRET
+	wildmon 57, RATTATA
+	wildmon 59, RATTATA
 	wildmon 60, RATTATA
 	wildmon 60, RATTATA
 	; day
 	wildmon 56, RATTATA
 	wildmon 56, RATICATE
-	wildmon 57, FURRET
 	wildmon 57, RATTATA
-	wildmon 59, FURRET
+	wildmon 57, RATTATA
+	wildmon 59, RATTATA
 	wildmon 60, RATTATA
 	wildmon 60, RATTATA
 	; nite

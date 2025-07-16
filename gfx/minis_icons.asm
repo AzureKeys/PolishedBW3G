@@ -562,16 +562,6 @@ FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lz"
 FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lz"
 FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lz"
 
-SECTION "Sentret Mini Icon", ROMX
-SentretMini::     INCBIN "gfx/minis/sentret.2bpp.lz"
-SentretMiniMask:: INCBIN "gfx/minis/sentret_mask.1bpp.lz"
-SentretIcon::     INCBIN "gfx/icons/sentret.2bpp.lz"
-
-SECTION "Furret Mini Icon", ROMX
-FurretMini::     INCBIN "gfx/minis/furret.2bpp.lz"
-FurretMiniMask:: INCBIN "gfx/minis/furret_mask.1bpp.lz"
-FurretIcon::     INCBIN "gfx/icons/furret.2bpp.lz"
-
 SECTION "Hoothoot Mini Icon", ROMX
 HoothootMini::     INCBIN "gfx/minis/hoothoot.2bpp.lz"
 HoothootMiniMask:: INCBIN "gfx/minis/hoothoot_mask.1bpp.lz"

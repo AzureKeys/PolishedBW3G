@@ -2681,40 +2681,6 @@ endc
 	learnset 78, CLOSE_COMBAT ; Superpower → similar move
 	learnset 84, HYDRO_PUMP
 
-	evos_attacks Sentret
-	evo_data EVOLVE_LEVEL, 15, FURRET
-	learnset 1, TACKLE
-	learnset 1, FORESIGHT
-	learnset 4, DEFENSE_CURL
-	learnset 7, QUICK_ATTACK
-	learnset 13, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 16, DIZZY_PUNCH ; Helping Hand → event move
-	learnset 19, SUPER_FANG ; Follow Me → HGSS tutor move
-	learnset 25, HEADBUTT ; Slam → tutor move
-	learnset 28, REST
-	learnset 31, SUCKER_PUNCH
-	learnset 36, AMNESIA
-	learnset 39, BATON_PASS
-	learnset 42, SLASH ; Me First → egg move
-	learnset 47, HYPER_VOICE
-
-	evos_attacks Furret
-	learnset 1, TACKLE
-	learnset 1, FORESIGHT
-	learnset 1, AGILITY ; evolution move
-	learnset 4, DEFENSE_CURL
-	learnset 7, QUICK_ATTACK
-	learnset 13, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 17, DIZZY_PUNCH ; Helping Hand → event move
-	learnset 21, SUPER_FANG ; Follow Me → HGSS tutor move
-	learnset 28, HEADBUTT ; Slam → tutor move
-	learnset 32, REST
-	learnset 36, SUCKER_PUNCH
-	learnset 42, AMNESIA
-	learnset 46, BATON_PASS
-	learnset 50, SLASH ; Me First → egg move
-	learnset 56, HYPER_VOICE
-
 	evos_attacks Hoothoot
 	evo_data EVOLVE_LEVEL, 20, NOCTOWL
 	learnset 1, TACKLE

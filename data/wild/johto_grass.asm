@@ -1348,17 +1348,17 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, RATTATA
-	wildmon 2, SENTRET
+	wildmon 2, RATTATA
 	wildmon 3, RATTATA
-	wildmon 3, SENTRET
+	wildmon 3, RATTATA
 	wildmon 2, RATTATA
 	wildmon 3, HOPPIP
 	wildmon 3, HOPPIP
 	; day
 	wildmon 2, RATTATA
-	wildmon 2, SENTRET
+	wildmon 2, RATTATA
 	wildmon 3, RATTATA
-	wildmon 3, SENTRET
+	wildmon 3, RATTATA
 	wildmon 2, RATTATA
 	wildmon 3, HOPPIP
 	wildmon 3, HOPPIP
@@ -1936,7 +1936,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
-	wildmon LEVEL_FROM_BADGES - 1, SENTRET
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
 	wildmon LEVEL_FROM_BADGES + 1, MAREEP
@@ -1944,7 +1944,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, SUNKERN
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
-	wildmon LEVEL_FROM_BADGES - 1, SENTRET
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
 	wildmon LEVEL_FROM_BADGES + 1, MAREEP
@@ -1991,7 +1991,7 @@
 	def_grass_wildmons YELLOW_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, SENTRET
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
 	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
 	wildmon LEVEL_FROM_BADGES - 2, LEDYBA
@@ -1999,7 +1999,7 @@
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
 	wildmon LEVEL_FROM_BADGES - 14, PICHU
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, SENTRET
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
 	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
 	wildmon LEVEL_FROM_BADGES - 2, PARAS

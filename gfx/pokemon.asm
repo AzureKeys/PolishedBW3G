@@ -324,14 +324,6 @@ SECTION "Feraligatr Pics", ROMX
 FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 
-SECTION "Sentret Pics", ROMX
-SentretFrontpic: INCBIN "gfx/pokemon/sentret/front.animated.2bpp.lz"
-SentretBackpic:  INCBIN "gfx/pokemon/sentret/back.2bpp.lz"
-
-SECTION "Furret Pics", ROMX
-FurretFrontpic: INCBIN "gfx/pokemon/furret/front.animated.2bpp.lz"
-FurretBackpic:  INCBIN "gfx/pokemon/furret/back.2bpp.lz"
-
 SECTION "Hoothoot Pics", ROMX
 HoothootFrontpic: INCBIN "gfx/pokemon/hoothoot/front.animated.2bpp.lz"
 HoothootBackpic:  INCBIN "gfx/pokemon/hoothoot/back.2bpp.lz"
