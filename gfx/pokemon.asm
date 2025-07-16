@@ -1564,3 +1564,7 @@ ScraggyBackpic:  INCBIN "gfx/pokemon/scraggy/back.2bpp.lz"
 SECTION "Scrafty Pics", ROMX
 ScraftyFrontpic: INCBIN "gfx/pokemon/scrafty/front.animated.2bpp.lz"
 ScraftyBackpic:  INCBIN "gfx/pokemon/scrafty/back.2bpp.lz"
+
+SECTION "Sigilyph Pics", ROMX
+SigilyphFrontpic: INCBIN "gfx/pokemon/sigilyph/front.animated.2bpp.lz"
+SigilyphBackpic:  INCBIN "gfx/pokemon/sigilyph/back.2bpp.lz"

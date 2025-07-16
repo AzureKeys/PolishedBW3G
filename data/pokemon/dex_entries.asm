@@ -2900,6 +2900,16 @@ ScraftyPokedexEntry::
     next "largest crest is"
     next "the group leader.@"
 
+SECTION "SigilyphPokedexEntry", ROMX
+SigilyphPokedexEntry::
+	db "Avianoid@"
+	db "Guardians of an"
+    next "ancient city, they"
+    next "use their powerful"
+    page "psychic attacks"
+    next "to ward off"
+    next "invaders.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

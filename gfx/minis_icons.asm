@@ -1467,6 +1467,11 @@ ScraftyMini::     INCBIN "gfx/minis/scrafty.2bpp.lz"
 ScraftyMiniMask:: INCBIN "gfx/minis/scrafty_mask.1bpp.lz"
 ScraftyIcon::     INCBIN "gfx/icons/scrafty.2bpp.lz"
 
+SECTION "Sigilyph Mini Icon", ROMX
+SigilyphMini::     INCBIN "gfx/minis/sigilyph.2bpp.lz"
+SigilyphMiniMask:: INCBIN "gfx/minis/sigilyph_mask.1bpp.lz"
+SigilyphIcon::     INCBIN "gfx/icons/sigilyph.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

@@ -236,6 +236,7 @@ DwebbleAnimationExtra:    INCLUDE "gfx/pokemon/dwebble/anim_idle.asm"
 CrustleAnimationExtra:    INCLUDE "gfx/pokemon/crustle/anim_idle.asm"
 ScraggyAnimationExtra:    INCLUDE "gfx/pokemon/scraggy/anim_idle.asm"
 ScraftyAnimationExtra:    INCLUDE "gfx/pokemon/scrafty/anim_idle.asm"
+SigilyphAnimationExtra:   INCLUDE "gfx/pokemon/sigilyph/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

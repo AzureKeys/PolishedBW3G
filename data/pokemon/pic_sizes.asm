@@ -312,6 +312,7 @@ INCLUDE "gfx/pokemon/dwebble/front.dimensions"
 INCLUDE "gfx/pokemon/crustle/front.dimensions"
 INCLUDE "gfx/pokemon/scraggy/front.dimensions"
 INCLUDE "gfx/pokemon/scrafty/front.dimensions"
+INCLUDE "gfx/pokemon/sigilyph/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

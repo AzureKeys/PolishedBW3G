@@ -298,4 +298,5 @@ endc
 	db  34, 100 ; Crustle
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
+	db  20, 100 ; Sigilyph
 	assert_table_length NUM_SPECIES

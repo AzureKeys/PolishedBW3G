@@ -1249,5 +1249,11 @@ ScraggyEggSpeciesMoves:
 	db ZEN_HEADBUTT
 	db $ff
 
+SigilyphEggSpeciesMoves:
+	dp SIGILYPH, PLAIN_FORM
+	db ANCIENTPOWER
+	db STEEL_WING
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

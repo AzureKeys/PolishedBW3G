@@ -174,6 +174,7 @@ DwebbleFrames:    INCLUDE "gfx/pokemon/dwebble/frames.asm"
 CrustleFrames:    INCLUDE "gfx/pokemon/crustle/frames.asm"
 ScraggyFrames:    INCLUDE "gfx/pokemon/scraggy/frames.asm"
 ScraftyFrames:    INCLUDE "gfx/pokemon/scrafty/frames.asm"
+SigilyphFrames:   INCLUDE "gfx/pokemon/sigilyph/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -293,6 +293,7 @@ FootprintPointers::
 	dw CrustleFootprint
 	dw ScraggyFootprint
 	dw ScraftyFootprint
+	dw SigilyphFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

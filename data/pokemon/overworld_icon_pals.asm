@@ -297,6 +297,7 @@ OverworldMonIconColors::
 	iconpal ORANGE, GREEN ; CRUSTLE
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
+	iconpal YELLOW, GREEN ; SIGILYPH
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

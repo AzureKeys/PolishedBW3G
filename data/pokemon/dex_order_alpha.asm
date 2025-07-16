@@ -222,6 +222,7 @@ AlphabeticalPokedexOrder:
 	dp SERVINE
 	dp SEWADDLE
 	dp SHUCKLE
+	dp SIGILYPH
 	dp SIRFETCH_D
 	dp SKARMORY
 	dp SKIPLOOM

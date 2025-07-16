@@ -62,6 +62,7 @@ NewPokedexOrder:
 	dp CRUSTLE
 	dp SCRAGGY
 	dp SCRAFTY
+	dp SIGILYPH
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

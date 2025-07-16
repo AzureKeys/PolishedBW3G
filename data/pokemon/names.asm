@@ -294,4 +294,5 @@ PokemonNames::
 	rawchar "Crustle@@@"
 	rawchar "Scraggy@@@"
 	rawchar "Scrafty@@@"
+	rawchar "Sigilyph@@"
 	assert_table_length NUM_SPECIES + 1

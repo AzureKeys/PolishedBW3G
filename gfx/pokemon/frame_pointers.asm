@@ -293,6 +293,7 @@ FramesPointers:
 	dw CrustleFrames
 	dw ScraggyFrames
 	dw ScraftyFrames
+	dw SigilyphFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

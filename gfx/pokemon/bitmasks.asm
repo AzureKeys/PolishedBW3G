@@ -236,6 +236,7 @@ DwebbleBitmasks:    INCLUDE "gfx/pokemon/dwebble/bitmask.asm"
 CrustleBitmasks:    INCLUDE "gfx/pokemon/crustle/bitmask.asm"
 ScraggyBitmasks:    INCLUDE "gfx/pokemon/scraggy/bitmask.asm"
 ScraftyBitmasks:    INCLUDE "gfx/pokemon/scrafty/bitmask.asm"
+SigilyphBitmasks:   INCLUDE "gfx/pokemon/sigilyph/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

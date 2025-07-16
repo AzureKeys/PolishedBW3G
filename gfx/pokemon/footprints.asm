@@ -73,6 +73,7 @@ DwebbleFootprint::
 CrustleFootprint::
 ScraggyFootprint::
 ScraftyFootprint::
+SigilyphFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

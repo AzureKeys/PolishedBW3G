@@ -293,6 +293,7 @@ BitmasksPointers:
 	dw CrustleBitmasks
 	dw ScraggyBitmasks
 	dw ScraftyBitmasks
+	dw SigilyphBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

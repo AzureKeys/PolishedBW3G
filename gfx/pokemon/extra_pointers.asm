@@ -293,6 +293,7 @@ AnimationExtraPointers:
 	dw CrustleAnimationExtra
 	dw ScraggyAnimationExtra
 	dw ScraftyAnimationExtra
+	dw SigilyphAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

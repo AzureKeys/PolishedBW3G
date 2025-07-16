@@ -294,6 +294,7 @@ PokedexDataPointerTable:
 	dba CrustlePokedexEntry
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
+	dba SigilyphPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

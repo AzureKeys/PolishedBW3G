@@ -297,6 +297,7 @@ PokemonPicPointers::
 	pics Crustle
 	pics Scraggy
 	pics Scrafty
+	pics Sigilyph
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

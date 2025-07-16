@@ -317,6 +317,7 @@
 	const CRUSTLE    ; 129
 	const SCRAGGY    ; 129
 	const SCRAFTY    ; 129
+	const SIGILYPH   ; 129
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

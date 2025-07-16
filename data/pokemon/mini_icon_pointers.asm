@@ -297,6 +297,7 @@ MiniIconPointers:
 	mini_icon Crustle
 	mini_icon Scraggy
 	mini_icon Scrafty
+	mini_icon Sigilyph
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

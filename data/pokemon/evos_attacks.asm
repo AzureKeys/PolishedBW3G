@@ -6076,6 +6076,23 @@ endc
 	;learnset 51, ROCK_CLIMB
 	learnset 58, CROSS_CHOP ; Focus Punch
 	learnset 65, STONE_EDGE ; Head Smash
+	
+	evos_attacks Sigilyph
+	learnset 1, GUST
+	learnset 4, HYPNOSIS
+	learnset 8, CONFUSION ; Psywave
+	learnset 14, ROAR ; Whirlwind
+	learnset 18, PSYBEAM
+	;learnset 21, AIR_CUTTER
+	learnset 24, LIGHT_SCREEN
+	learnset 28, REFLECT
+	learnset 31, EXTRASENSORY ; Synchronoise
+	learnset 34, AGILITY ; Mirror Move
+	learnset 38, BARRIER ; Gravity
+	learnset 41, AIR_SLASH
+	learnset 44, PSYCHIC_M
+	learnset 48, CALM_MIND ; Cosmic Power
+	learnset 50, HURRICANE ; Sky Attack
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
