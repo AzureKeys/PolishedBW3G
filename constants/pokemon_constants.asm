@@ -318,6 +318,8 @@
 	const CARRACOSTA ; 13a
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
+	const TRUBBISH   ; 13d
+	const GARBODOR   ; 13e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

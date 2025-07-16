@@ -294,6 +294,8 @@ BitmasksPointers:
 	dw CarracostaBitmasks
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks
+	dw TrubbishBitmasks
+	dw GarbodorBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

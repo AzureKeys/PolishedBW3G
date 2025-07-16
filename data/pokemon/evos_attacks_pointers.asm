@@ -298,6 +298,8 @@ EvosAttacksPointers::
 	dw CarracostaEvosAttacks
 	dw ArchenEvosAttacks
 	dw ArcheopsEvosAttacks
+	dw TrubbishEvosAttacks
+	dw GarbodorEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

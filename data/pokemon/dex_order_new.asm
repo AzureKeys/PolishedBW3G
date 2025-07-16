@@ -69,6 +69,8 @@ NewPokedexOrder:
 	dp CARRACOSTA
 	dp ARCHEN
 	dp ARCHEOPS
+	dp TRUBBISH
+	dp GARBODOR
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

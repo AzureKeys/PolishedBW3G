@@ -329,6 +329,8 @@ INCLUDE "data/pokemon/base_stats/tirtouga.asm"
 INCLUDE "data/pokemon/base_stats/carracosta.asm"
 INCLUDE "data/pokemon/base_stats/archen.asm"
 INCLUDE "data/pokemon/base_stats/archeops.asm"
+INCLUDE "data/pokemon/base_stats/trubbish.asm"
+INCLUDE "data/pokemon/base_stats/garbodor.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

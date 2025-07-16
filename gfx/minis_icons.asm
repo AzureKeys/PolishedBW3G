@@ -1472,6 +1472,16 @@ ArcheopsMini::     INCBIN "gfx/minis/archeops.2bpp.lz"
 ArcheopsMiniMask:: INCBIN "gfx/minis/archeops_mask.1bpp.lz"
 ArcheopsIcon::     INCBIN "gfx/icons/archeops.2bpp.lz"
 
+SECTION "Trubbish Mini Icon", ROMX
+TrubbishMini::     INCBIN "gfx/minis/trubbish.2bpp.lz"
+TrubbishMiniMask:: INCBIN "gfx/minis/trubbish_mask.1bpp.lz"
+TrubbishIcon::     INCBIN "gfx/icons/trubbish.2bpp.lz"
+
+SECTION "Garbodor Mini Icon", ROMX
+GarbodorMini::     INCBIN "gfx/minis/garbodor.2bpp.lz"
+GarbodorMiniMask:: INCBIN "gfx/minis/garbodor_mask.1bpp.lz"
+GarbodorIcon::     INCBIN "gfx/icons/garbodor.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

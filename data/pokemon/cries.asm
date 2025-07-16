@@ -300,4 +300,6 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; CARRACOSTA*
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
+	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
+	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
 	assert_table_length NUM_SPECIES

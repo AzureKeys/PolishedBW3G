@@ -298,6 +298,8 @@ PokemonPicPointers::
 	pics Carracosta
 	pics Archen
 	pics Archeops
+	pics Trubbish
+	pics Garbodor
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

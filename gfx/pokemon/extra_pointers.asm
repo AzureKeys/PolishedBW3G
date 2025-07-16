@@ -294,6 +294,8 @@ AnimationExtraPointers:
 	dw CarracostaAnimationExtra
 	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra
+	dw TrubbishAnimationExtra
+	dw GarbodorAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

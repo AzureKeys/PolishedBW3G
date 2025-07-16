@@ -298,6 +298,8 @@ endc
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
+	db NO_MOVE      ; TRUBBISH
+	db NO_MOVE      ; GARBODOR
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

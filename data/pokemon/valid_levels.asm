@@ -299,4 +299,6 @@ endc
 	db  37, 100 ; Carracosta
 	db   1,  36 ; Archen
 	db  37, 100 ; Archeops
+	db   1,  35 ; Trubbish
+	db  36, 100 ; Garbodor
 	assert_table_length NUM_SPECIES

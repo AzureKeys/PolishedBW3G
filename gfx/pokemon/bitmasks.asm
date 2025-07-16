@@ -236,6 +236,8 @@ TirtougaBitmasks:   INCLUDE "gfx/pokemon/tirtouga/bitmask.asm"
 CarracostaBitmasks: INCLUDE "gfx/pokemon/carracosta/bitmask.asm"
 ArchenBitmasks:     INCLUDE "gfx/pokemon/archen/bitmask.asm"
 ArcheopsBitmasks:   INCLUDE "gfx/pokemon/archeops/bitmask.asm"
+TrubbishBitmasks:   INCLUDE "gfx/pokemon/trubbish/bitmask.asm"
+GarbodorBitmasks:   INCLUDE "gfx/pokemon/garbodor/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

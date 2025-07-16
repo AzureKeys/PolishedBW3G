@@ -6100,6 +6100,43 @@ endc
 	learnset 51, ROCK_SLIDE
 	learnset 56, DRAGON_CLAW
 	learnset 61, THRASH
+	
+	evos_attacks Trubbish
+	evo_data EVOLVE_LEVEL, 36, GARBODOR
+	learnset 1, TACKLE ; Pound
+	;learnset 1, POISON_GAS
+	learnset 7, TOXIC_SPIKES
+	learnset 12, ACID ; Acid Spray
+	learnset 14, DOUBLE_SLAP
+	;learnset 18, SLUDGE
+	learnset 23, BARRIER ; Stockpile / Swallow
+	learnset 25, TAKE_DOWN
+	learnset 29, SLUDGE_BOMB
+	learnset 34, VENOSHOCK ; Clear Smog
+	learnset 36, TOXIC
+	learnset 40, AMNESIA
+	;learnset 42, BELCH
+	learnset 45, GUNK_SHOT
+	learnset 47, EXPLOSION
+	
+	evos_attacks Garbodor
+	learnset 1, TACKLE ; Pound
+	;learnset 1, POISON_GAS
+	learnset 1, TOXIC_SPIKES
+	learnset 1, ACID ; Acid Spray
+	learnset 7, TOXIC_SPIKES
+	learnset 12, ACID ; Acid Spray
+	learnset 14, DOUBLE_SLAP
+	;learnset 18, SLUDGE
+	learnset 23, BARRIER ; Stockpile / Swallow
+	learnset 25, TAKE_DOWN
+	learnset 29, SLUDGE_BOMB
+	learnset 34, VENOSHOCK ; Clear Smog
+	learnset 36, TOXIC
+	learnset 46, AMNESIA
+	;learnset 49, BELCH
+	learnset 54, GUNK_SHOT
+	learnset 59, EXPLOSION
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

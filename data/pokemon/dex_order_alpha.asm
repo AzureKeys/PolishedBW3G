@@ -77,6 +77,7 @@ AlphabeticalPokedexOrder:
 	dp FLAAFFY
 	dp FLAREON
 	dp FORRETRESS
+	dp GARBODOR
 	dp GASTLY
 	dp GENGAR
 	dp GEODUDE
@@ -262,6 +263,7 @@ AlphabeticalPokedexOrder:
 	dp TOGETIC
 	dp TOTODILE
 	dp TRANQUILL
+	dp TRUBBISH
 	dp TYMPOLE
 	dp TYPHLOSION
 	dp TYRANITAR

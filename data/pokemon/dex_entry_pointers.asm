@@ -295,6 +295,8 @@ PokedexDataPointerTable:
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
+	dba TrubbishPokedexEntry
+	dba GarbodorPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

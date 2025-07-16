@@ -1568,3 +1568,11 @@ ArchenBackpic:  INCBIN "gfx/pokemon/archen/back.2bpp.lz"
 SECTION "Archeops Pics", ROMX
 ArcheopsFrontpic: INCBIN "gfx/pokemon/archeops/front.animated.2bpp.lz"
 ArcheopsBackpic:  INCBIN "gfx/pokemon/archeops/back.2bpp.lz"
+
+SECTION "Trubbish Pics", ROMX
+TrubbishFrontpic: INCBIN "gfx/pokemon/trubbish/front.animated.2bpp.lz"
+TrubbishBackpic:  INCBIN "gfx/pokemon/trubbish/back.2bpp.lz"
+
+SECTION "Garbodor Pics", ROMX
+GarbodorFrontpic: INCBIN "gfx/pokemon/garbodor/front.animated.2bpp.lz"
+GarbodorBackpic:  INCBIN "gfx/pokemon/garbodor/back.2bpp.lz"

@@ -294,6 +294,8 @@ AnimationPointers:
 	dw CarracostaAnimation
 	dw ArchenAnimation
 	dw ArcheopsAnimation
+	dw TrubbishAnimation
+	dw GarbodorAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

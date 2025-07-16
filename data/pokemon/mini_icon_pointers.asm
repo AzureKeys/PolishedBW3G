@@ -298,6 +298,8 @@ MiniIconPointers:
 	mini_icon Carracosta
 	mini_icon Archen
 	mini_icon Archeops
+	mini_icon Trubbish
+	mini_icon Garbodor
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

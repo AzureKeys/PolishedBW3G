@@ -294,6 +294,8 @@ EggSpeciesMovesPointers::
 	dw TirtougaEggSpeciesMoves          ; Carracosta
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
+	dw TrubbishEggSpeciesMoves          ; Trubbish
+	dw TrubbishEggSpeciesMoves          ; Garbodor
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

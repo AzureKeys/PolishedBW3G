@@ -301,6 +301,8 @@ PokemonBodyData:
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
+	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
+	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

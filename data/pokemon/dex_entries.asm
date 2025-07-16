@@ -2909,6 +2909,26 @@ ArcheopsPokedexEntry::
     next "to an automobile"
     next "to take off.@"
 
+SECTION "TrubbishPokedexEntry", ROMX
+TrubbishPokedexEntry::
+	db "Trash Bag@"
+	db "Trubbish was"
+    next "created by a"
+    next "chemical reaction"
+    page "caused by toxic"
+    next "waste and trash"
+    next "bags.@"
+
+SECTION "GarbodorPokedexEntry", ROMX
+GarbodorPokedexEntry::
+	db "Trash Heap@"
+	db "They absorb trash"
+    next "and add it to"
+    next "their bodies. It"
+    page "can shoot toxic"
+    next "fluid from the end"
+    next "of its arm.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

@@ -295,4 +295,6 @@ PokemonNames::
 	rawchar "Carracosta"
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"
+	rawchar "Trubbish@@"
+	rawchar "Garbodor@@"
 	assert_table_length NUM_SPECIES + 1

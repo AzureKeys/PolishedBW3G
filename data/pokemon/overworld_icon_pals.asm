@@ -298,6 +298,8 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; CARRACOSTA
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS
+	iconpal GREEN, BLUE ; TRUBBISH
+	iconpal GREEN, TEAL ; GARBODOR
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

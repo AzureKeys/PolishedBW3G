@@ -294,6 +294,8 @@ FootprintPointers::
 	dw CarracostaFootprint
 	dw ArchenFootprint
 	dw ArcheopsFootprint
+	dw TrubbishFootprint
+	dw GarbodorFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

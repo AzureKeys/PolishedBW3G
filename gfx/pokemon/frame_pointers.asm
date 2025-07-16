@@ -294,6 +294,8 @@ FramesPointers:
 	dw CarracostaFrames
 	dw ArchenFrames
 	dw ArcheopsFrames
+	dw TrubbishFrames
+	dw GarbodorFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

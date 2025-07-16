@@ -236,6 +236,8 @@ TirtougaAnimation:   INCLUDE "gfx/pokemon/tirtouga/anim.asm"
 CarracostaAnimation: INCLUDE "gfx/pokemon/carracosta/anim.asm"
 ArchenAnimation:     INCLUDE "gfx/pokemon/archen/anim.asm"
 ArcheopsAnimation:   INCLUDE "gfx/pokemon/archeops/anim.asm"
+TrubbishAnimation:   INCLUDE "gfx/pokemon/trubbish/anim.asm"
+GarbodorAnimation:   INCLUDE "gfx/pokemon/garbodor/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

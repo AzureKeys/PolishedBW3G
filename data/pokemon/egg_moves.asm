@@ -1246,5 +1246,14 @@ ArchenEggSpeciesMoves:
 	db STEEL_WING
 	db $ff
 
+TrubbishEggSpeciesMoves:
+	dp TRUBBISH, PLAIN_FORM
+	db CURSE
+	db HAZE
+	db ROLLOUT
+	;db SAND_ATTACK
+	;db SELFDESTRUCT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

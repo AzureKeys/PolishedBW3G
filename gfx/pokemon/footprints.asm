@@ -80,6 +80,8 @@ TirtougaFootprint::
 CarracostaFootprint::
 ArchenFootprint::
 ArcheopsFootprint::
+TrubbishFootprint::
+GarbodorFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
