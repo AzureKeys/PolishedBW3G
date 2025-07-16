@@ -298,4 +298,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; COFAGRIGUS*
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; TIRTOUGA*
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; CARRACOSTA*
+	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
+	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
 	assert_table_length NUM_SPECIES

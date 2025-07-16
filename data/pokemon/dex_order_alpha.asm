@@ -8,6 +8,8 @@ AlphabeticalPokedexOrder:
 	dp ANNIHILAPE
 	dp ARBOK
 	dp ARCANINE
+	dp ARCHEN
+	dp ARCHEOPS
 	dp ARIADOS
 	dp ARTICUNO
 	dp AUDINO

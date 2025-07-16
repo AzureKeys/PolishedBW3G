@@ -1560,3 +1560,11 @@ TirtougaBackpic:  INCBIN "gfx/pokemon/tirtouga/back.2bpp.lz"
 SECTION "Carracosta Pics", ROMX
 CarracostaFrontpic: INCBIN "gfx/pokemon/carracosta/front.animated.2bpp.lz"
 CarracostaBackpic:  INCBIN "gfx/pokemon/carracosta/back.2bpp.lz"
+
+SECTION "Archen Pics", ROMX
+ArchenFrontpic: INCBIN "gfx/pokemon/archen/front.animated.2bpp.lz"
+ArchenBackpic:  INCBIN "gfx/pokemon/archen/back.2bpp.lz"
+
+SECTION "Archeops Pics", ROMX
+ArcheopsFrontpic: INCBIN "gfx/pokemon/archeops/front.animated.2bpp.lz"
+ArcheopsBackpic:  INCBIN "gfx/pokemon/archeops/back.2bpp.lz"

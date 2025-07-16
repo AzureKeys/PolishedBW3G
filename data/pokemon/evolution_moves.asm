@@ -296,6 +296,8 @@ endc
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
 	db NO_MOVE      ; CARRACOSTA
+	db NO_MOVE      ; ARCHEN
+	db NO_MOVE      ; ARCHEOPS
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

@@ -292,6 +292,8 @@ FootprintPointers::
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
 	dw CarracostaFootprint
+	dw ArchenFootprint
+	dw ArcheopsFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

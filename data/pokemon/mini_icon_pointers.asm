@@ -296,6 +296,8 @@ MiniIconPointers:
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
 	mini_icon Carracosta
+	mini_icon Archen
+	mini_icon Archeops
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

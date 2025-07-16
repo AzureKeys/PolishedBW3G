@@ -292,6 +292,8 @@ AnimationPointers:
 	dw CofagrigusAnimation
 	dw TirtougaAnimation
 	dw CarracostaAnimation
+	dw ArchenAnimation
+	dw ArcheopsAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

@@ -6059,6 +6059,47 @@ endc
 	learnset 51, ROCK_SLIDE
 	learnset 56, RAIN_DANCE
 	learnset 61, HYDRO_PUMP
+	
+	evos_attacks Archen
+	evo_data EVOLVE_LEVEL, 37, ARCHEOPS
+	learnset 1, QUICK_ATTACK
+	learnset 1, LEER
+	learnset 5, ROCK_THROW
+	learnset 8, DOUBLE_TEAM
+	learnset 11, SCARY_FACE
+	learnset 15, WING_ATTACK ; Pluck
+	learnset 18, ANCIENTPOWER
+	learnset 21, AGILITY
+	learnset 25, PROTECT ; Quick Guard
+	learnset 28, ACROBATICS
+	learnset 31, DRAGONBREATH
+	learnset 35, CRUNCH
+	learnset 38, BODY_SLAM ; Endeavor
+	learnset 41, U_TURN
+	learnset 45, ROCK_SLIDE
+	learnset 48, DRAGON_CLAW
+	learnset 50, THRASH
+	
+	evos_attacks Archeops
+	learnset 1, QUICK_ATTACK
+	learnset 1, LEER
+	learnset 1, ROCK_THROW
+	learnset 1, WING_ATTACK ; Pluck
+	learnset 5, ROCK_THROW
+	learnset 8, DOUBLE_TEAM
+	learnset 11, SCARY_FACE
+	learnset 15, WING_ATTACK ; Pluck
+	learnset 18, ANCIENTPOWER
+	learnset 21, AGILITY
+	learnset 25, PROTECT ; Quick Guard
+	learnset 28, ACROBATICS
+	learnset 31, DRAGONBREATH
+	learnset 35, CRUNCH
+	learnset 40, BODY_SLAM ; Endeavor
+	learnset 45, U_TURN
+	learnset 51, ROCK_SLIDE
+	learnset 56, DRAGON_CLAW
+	learnset 61, THRASH
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

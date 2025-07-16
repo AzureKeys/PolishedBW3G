@@ -1462,6 +1462,16 @@ CarracostaMini::     INCBIN "gfx/minis/carracosta.2bpp.lz"
 CarracostaMiniMask:: INCBIN "gfx/minis/carracosta_mask.1bpp.lz"
 CarracostaIcon::     INCBIN "gfx/icons/carracosta.2bpp.lz"
 
+SECTION "Archen Mini Icon", ROMX
+ArchenMini::     INCBIN "gfx/minis/archen.2bpp.lz"
+ArchenMiniMask:: INCBIN "gfx/minis/archen_mask.1bpp.lz"
+ArchenIcon::     INCBIN "gfx/icons/archen.2bpp.lz"
+
+SECTION "Archeops Mini Icon", ROMX
+ArcheopsMini::     INCBIN "gfx/minis/archeops.2bpp.lz"
+ArcheopsMiniMask:: INCBIN "gfx/minis/archeops_mask.1bpp.lz"
+ArcheopsIcon::     INCBIN "gfx/icons/archeops.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

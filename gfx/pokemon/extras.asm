@@ -234,6 +234,8 @@ SigilyphAnimationExtra:   INCLUDE "gfx/pokemon/sigilyph/anim_idle.asm"
 CofagrigusAnimationExtra: INCLUDE "gfx/pokemon/cofagrigus/anim_idle.asm"
 TirtougaAnimationExtra:   INCLUDE "gfx/pokemon/tirtouga/anim_idle.asm"
 CarracostaAnimationExtra: INCLUDE "gfx/pokemon/carracosta/anim_idle.asm"
+ArchenAnimationExtra:     INCLUDE "gfx/pokemon/archen/anim_idle.asm"
+ArcheopsAnimationExtra:   INCLUDE "gfx/pokemon/archeops/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

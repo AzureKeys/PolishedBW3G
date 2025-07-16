@@ -172,6 +172,8 @@ SigilyphFrames:   INCLUDE "gfx/pokemon/sigilyph/frames.asm"
 CofagrigusFrames: INCLUDE "gfx/pokemon/cofagrigus/frames.asm"
 TirtougaFrames:   INCLUDE "gfx/pokemon/tirtouga/frames.asm"
 CarracostaFrames: INCLUDE "gfx/pokemon/carracosta/frames.asm"
+ArchenFrames:     INCLUDE "gfx/pokemon/archen/frames.asm"
+ArcheopsFrames:   INCLUDE "gfx/pokemon/archeops/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -78,6 +78,8 @@ YamaskFootprint::
 CofagrigusFootprint::
 TirtougaFootprint::
 CarracostaFootprint::
+ArchenFootprint::
+ArcheopsFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

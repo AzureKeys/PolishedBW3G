@@ -293,4 +293,6 @@ PokemonNames::
 	rawchar "Cofagrigus"
 	rawchar "Tirtouga@@"
 	rawchar "Carracosta"
+	rawchar "Archen@@@@"
+	rawchar "Archeops@@"
 	assert_table_length NUM_SPECIES + 1

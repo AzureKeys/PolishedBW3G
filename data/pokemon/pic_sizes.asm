@@ -311,6 +311,8 @@ INCLUDE "gfx/pokemon/yamask_plain/front.dimensions"
 INCLUDE "gfx/pokemon/cofagrigus/front.dimensions"
 INCLUDE "gfx/pokemon/tirtouga/front.dimensions"
 INCLUDE "gfx/pokemon/carracosta/front.dimensions"
+INCLUDE "gfx/pokemon/archen/front.dimensions"
+INCLUDE "gfx/pokemon/archeops/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

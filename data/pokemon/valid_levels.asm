@@ -297,4 +297,6 @@ endc
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
 	db  37, 100 ; Carracosta
+	db   1,  36 ; Archen
+	db  37, 100 ; Archeops
 	assert_table_length NUM_SPECIES

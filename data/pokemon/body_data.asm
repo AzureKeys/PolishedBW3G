@@ -299,6 +299,8 @@ PokemonBodyData:
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
+	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
+	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

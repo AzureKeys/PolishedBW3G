@@ -1238,5 +1238,13 @@ TirtougaEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
+ArchenEggSpeciesMoves:
+	dp ARCHEN, PLAIN_FORM
+	db BITE
+	db DRAGON_PULSE
+	db EARTH_POWER
+	db STEEL_WING
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

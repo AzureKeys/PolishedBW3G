@@ -2889,6 +2889,26 @@ CarracostaPokedexEntry::
     next "iron, along with"
     next "its prey.@"
 
+SECTION "ArchenPokedexEntry", ROMX
+ArchenPokedexEntry::
+	db "First Bird@"
+	db "Archen is the"
+    next "ancestor of bird"
+    next "#mon. It could"
+    page "not fly, instead"
+    next "hopping from"
+    next "branch to branch.@"
+
+SECTION "ArcheopsPokedexEntry", ROMX
+ArcheopsPokedexEntry::
+	db "First Bird@"
+	db "It runs better"
+    next "than it flies."
+    next "Archeops can run"
+    page "at speeds similar"
+    next "to an automobile"
+    next "to take off.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

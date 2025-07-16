@@ -292,6 +292,8 @@ AnimationExtraPointers:
 	dw CofagrigusAnimationExtra
 	dw TirtougaAnimationExtra
 	dw CarracostaAnimationExtra
+	dw ArchenAnimationExtra
+	dw ArcheopsAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

@@ -292,6 +292,8 @@ FramesPointers:
 	dw CofagrigusFrames
 	dw TirtougaFrames
 	dw CarracostaFrames
+	dw ArchenFrames
+	dw ArcheopsFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

@@ -296,6 +296,8 @@ OverworldMonIconColors::
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
 	iconpal BLUE, AZURE ; CARRACOSTA
+	iconpal BROWN, TEAL ; ARCHEN
+	iconpal BROWN, TEAL ; ARCHEOPS
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

@@ -293,6 +293,8 @@ PokedexDataPointerTable:
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
 	dba CarracostaPokedexEntry
+	dba ArchenPokedexEntry
+	dba ArcheopsPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

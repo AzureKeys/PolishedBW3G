@@ -296,6 +296,8 @@ PokemonPicPointers::
 	pics Cofagrigus
 	pics Tirtouga
 	pics Carracosta
+	pics Archen
+	pics Archeops
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
