@@ -7,7 +7,7 @@
 	db MIRACLE_SEED, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MARACTUS, WATER_ABSORB, CHLOROPHYLL, STORM_DRAIN
+	abilities_for MARACTUS, WATER_ABSORB, CHLOROPHYLL, CHLOROPHYLL ; STORM_DRAIN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 

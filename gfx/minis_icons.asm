@@ -1482,6 +1482,11 @@ DarmanitanMini::     INCBIN "gfx/minis/darmanitan.2bpp.lz"
 DarmanitanMiniMask:: INCBIN "gfx/minis/darmanitan_mask.1bpp.lz"
 DarmanitanIcon::     INCBIN "gfx/icons/darmanitan.2bpp.lz"
 
+SECTION "Maractus Mini Icon", ROMX
+MaractusMini::     INCBIN "gfx/minis/maractus.2bpp.lz"
+MaractusMiniMask:: INCBIN "gfx/minis/maractus_mask.1bpp.lz"
+MaractusIcon::     INCBIN "gfx/icons/maractus.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

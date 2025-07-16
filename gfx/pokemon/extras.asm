@@ -239,6 +239,7 @@ PetililAnimationExtra:    INCLUDE "gfx/pokemon/petilil/anim_idle.asm"
 SandileAnimationExtra:    INCLUDE "gfx/pokemon/sandile/anim_idle.asm"
 KrokorokAnimationExtra:   INCLUDE "gfx/pokemon/krokorok/anim_idle.asm"
 KrookodileAnimationExtra: INCLUDE "gfx/pokemon/krookodile/anim_idle.asm"
+MaractusAnimationExtra:   INCLUDE "gfx/pokemon/maractus/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

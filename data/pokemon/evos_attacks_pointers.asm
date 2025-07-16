@@ -300,6 +300,7 @@ EvosAttacksPointers::
 	dw KrookodileEvosAttacks
 	dw DarumakaPlainEvosAttacks
 	dw DarmanitanPlainEvosAttacks
+	dw MaractusEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

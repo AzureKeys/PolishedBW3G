@@ -2930,6 +2930,16 @@ DarmanitanPlainPokedexEntry::
 	next "truck with just"
 	next "one punch.@"
 
+SECTION "MaractusPokedexEntry", ROMX
+MaractusPokedexEntry::
+	db "Cactus@"
+	db "Lives in arid"
+	next "regions. This"
+	next "#mon moves with"
+	page "rhythm, making a"
+	next "sound like"
+	next "maracas.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

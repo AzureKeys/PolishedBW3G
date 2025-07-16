@@ -296,6 +296,7 @@ AnimationExtraPointers:
 	dw KrookodileAnimationExtra
 	dw DarumakaPlainAnimationExtra
 	dw DarmanitanPlainAnimationExtra
+	dw MaractusAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

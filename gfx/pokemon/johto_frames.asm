@@ -171,6 +171,7 @@ PetililFrames:    INCLUDE "gfx/pokemon/petilil/frames.asm"
 SandileFrames:    INCLUDE "gfx/pokemon/sandile/frames.asm"
 KrokorokFrames:   INCLUDE "gfx/pokemon/krokorok/frames.asm"
 KrookodileFrames: INCLUDE "gfx/pokemon/krookodile/frames.asm"
+MaractusFrames:   INCLUDE "gfx/pokemon/maractus/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -302,4 +302,5 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
+	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
 	assert_table_length NUM_SPECIES

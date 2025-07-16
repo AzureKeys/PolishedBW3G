@@ -1576,3 +1576,7 @@ DarumakaPlainBackpic:  INCBIN "gfx/pokemon/darumaka_plain/back.2bpp.lz"
 SECTION "DarmanitanPlain Pics", ROMX
 DarmanitanPlainFrontpic: INCBIN "gfx/pokemon/darmanitan_plain/front.animated.2bpp.lz"
 DarmanitanPlainBackpic:  INCBIN "gfx/pokemon/darmanitan_plain/back.2bpp.lz"
+
+SECTION "Maractus Pics", ROMX
+MaractusFrontpic: INCBIN "gfx/pokemon/maractus/front.animated.2bpp.lz"
+MaractusBackpic:  INCBIN "gfx/pokemon/maractus/back.2bpp.lz"

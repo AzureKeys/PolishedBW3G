@@ -331,6 +331,7 @@ INCLUDE "data/pokemon/base_stats/krokorok.asm"
 INCLUDE "data/pokemon/base_stats/krookodile.asm"
 INCLUDE "data/pokemon/base_stats/darumaka_plain.asm"
 INCLUDE "data/pokemon/base_stats/darmanitan_plain.asm"
+INCLUDE "data/pokemon/base_stats/maractus.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

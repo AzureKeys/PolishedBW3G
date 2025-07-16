@@ -70,6 +70,7 @@ KrokorokFootprint::
 KrookodileFootprint::
 DarumakaFootprint::
 DarmanitanFootprint::
+MaractusFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

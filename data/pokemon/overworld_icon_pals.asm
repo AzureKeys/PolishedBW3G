@@ -300,6 +300,7 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN
+	iconpal GREEN, BROWN ; MARACTUS
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

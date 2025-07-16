@@ -300,6 +300,7 @@ MiniIconPointers:
 	mini_icon Krookodile
 	mini_icon Darumaka
 	mini_icon Darmanitan
+	mini_icon Maractus
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

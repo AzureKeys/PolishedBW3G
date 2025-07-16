@@ -301,4 +301,5 @@ endc
 	db  40, 100 ; Krookodile
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan
+	db  15, 100 ; Maractus
 	assert_table_length NUM_SPECIES

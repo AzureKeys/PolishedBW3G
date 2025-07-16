@@ -296,6 +296,7 @@ EggSpeciesMovesPointers::
 	dw SandileEggSpeciesMoves           ; Krookodile
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
+	dw MaractusEggSpeciesMoves          ; Maractus
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

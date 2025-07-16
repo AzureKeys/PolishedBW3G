@@ -1257,5 +1257,12 @@ DarumakaPlainEggSpeciesMoves:
 	db TAKE_DOWN
 	db $ff
 
+MaractusEggSpeciesMoves:
+	dp MARACTUS, PLAIN_FORM
+	db LEECH_SEED
+	db SEED_BOMB
+	;db WOOD_HAMMER
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

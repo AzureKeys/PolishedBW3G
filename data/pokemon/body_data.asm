@@ -303,6 +303,7 @@ PokemonBodyData:
 	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA
 	body_data  13,  929, QUADRUPED,    RED    ; DARMANITAN
+	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

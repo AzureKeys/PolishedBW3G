@@ -6114,6 +6114,27 @@ endc
 	learnset 39, SWAGGER ; Taunt
 	learnset 47, CROSS_CHOP ; Superpower
 	;learnset 54, OVERHEAT
+	
+	evos_attacks Maractus
+	learnset 1, BARRIER ; Iron Defense
+	learnset 1, PECK
+	learnset 1, ABSORB
+	;learnset 3, SWEET_SCENT
+	learnset 6, GROWTH
+	learnset 10, PIN_MISSILE
+	learnset 13, MEGA_DRAIN
+	learnset 15, HEALINGLIGHT ; Synthesis
+	learnset 18, STUN_SPORE ; Cotton Spore
+	learnset 22, SEED_BOMB ; Needle Arm
+	learnset 26, GIGA_DRAIN
+	learnset 29, CURSE ; Acupressure
+	learnset 33, SAFEGUARD ; Ingrain
+	learnset 38, PETAL_DANCE
+	learnset 42, SUCKER_PUNCH
+	learnset 45, SUNNY_DAY
+	;learnset 48, PETAL_BLIZZARD
+	learnset 50, SOLAR_BEAM
+	learnset 55, BARRIER ; Cotton Guard
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

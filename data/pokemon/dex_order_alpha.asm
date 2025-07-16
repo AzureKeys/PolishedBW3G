@@ -138,6 +138,7 @@ AlphabeticalPokedexOrder:
 	dp MANKEY
 	dp MANTINE
 	dp MANTYKE
+	dp MARACTUS
 	dp MAREEP
 	dp MARILL
 	dp MAROWAK

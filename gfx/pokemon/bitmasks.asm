@@ -239,6 +239,7 @@ PetililBitmasks:    INCLUDE "gfx/pokemon/petilil/bitmask.asm"
 SandileBitmasks:    INCLUDE "gfx/pokemon/sandile/bitmask.asm"
 KrokorokBitmasks:   INCLUDE "gfx/pokemon/krokorok/bitmask.asm"
 KrookodileBitmasks: INCLUDE "gfx/pokemon/krookodile/bitmask.asm"
+MaractusBitmasks:   INCLUDE "gfx/pokemon/maractus/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

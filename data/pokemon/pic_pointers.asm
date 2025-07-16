@@ -300,6 +300,7 @@ PokemonPicPointers::
 	pics Krookodile
 	pics DarumakaPlain
 	pics DarmanitanPlain
+	pics Maractus
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
