@@ -111,8 +111,6 @@ FootprintPointers::
 	dw TotodileFootprint
 	dw CroconawFootprint
 	dw FeraligatrFootprint
-	dw LedybaFootprint
-	dw LedianFootprint
 	dw SpinarakFootprint
 	dw AriadosFootprint
 	dw CrobatFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw BoldoreFootprint
 	dw GigalithFootprint
 	dw WoobatFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SwoobatFootprint
 	dw DrilburFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ExcadrillFootprint
 	dw AudinoFootprint
 	dw TimburrFootprint

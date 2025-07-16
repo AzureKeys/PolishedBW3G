@@ -117,8 +117,6 @@ AlphabeticalPokedexOrder:
 	dp LARVITAR
 	dp LEAFEON
 	dp LEAVANNY
-	dp LEDIAN
-	dp LEDYBA
 	dp LICKILICKY
 	dp LICKITUNG
 	dp LIEPARD

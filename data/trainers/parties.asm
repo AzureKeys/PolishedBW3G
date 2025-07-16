@@ -131,7 +131,7 @@ BugsyGroup:
 	def_trainer 2, "Bugsy"
 	tr_mon 73, HERACROSS @ BLACK_BELT, MALE
 		tr_moves MEGAHORN, CROSS_CHOP, ROCK_SMASH, STONE_EDGE
-	tr_mon 71, LEDIAN @ KINGS_ROCK, FEMALE
+	tr_mon 71, RATTATA @ KINGS_ROCK, FEMALE
 		tr_moves REFLECT, LIGHT_SCREEN, BUG_BUZZ, ICE_PUNCH
 	tr_mon 70, YANMEGA @ QUICK_CLAW, FEMALE
 if DEF(FAITHFUL)
@@ -1785,7 +1785,7 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer OSCAR, "Oscar"
-	tr_mon LEVEL_FROM_BADGES + 4, LEDIAN
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, SCYTHER
 	end_trainer
 
@@ -2098,11 +2098,11 @@ TwinsGroup:
 	def_trainer_class TWINS
 	def_trainer AMYANDMIMI1, "Amy & Mimi"
 	tr_mon 13, SPINARAK
-	tr_mon 13, LEDYBA
+	tr_mon 13, RATTATA
 	end_trainer
 
 	def_trainer AMYANDMIMI2, "Amy & Mimi"
-	tr_mon 10, LEDYBA
+	tr_mon 10, RATTATA
 	tr_mon 10, SPINARAK
 	end_trainer
 
@@ -3721,7 +3721,7 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer DYLAN, "Dylan"
-	tr_mon 55, LEDIAN
+	tr_mon 55, RATTATA
 	tr_mon 55, RATTATA
 	end_trainer
 
@@ -4005,7 +4005,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer NATE, "Nate"
-	tr_mon 46, LEDIAN
+	tr_mon 46, RATTATA
 	tr_mon 48, EXEGGUTOR
 	end_trainer
 
@@ -4044,7 +4044,7 @@ SchoolgirlGroup:
 
 	def_trainer ELIZA, "Eliza"
 	tr_mon 18, "Silver", RATTATA @ SILVER_LEAF
-	tr_mon 16, "Lady", LEDYBA
+	tr_mon 16, "Lady", RATTATA
 	tr_mon 17, "Tret", RATTATA @ ORAN_BERRY
 	end_trainer
 

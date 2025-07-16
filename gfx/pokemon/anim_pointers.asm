@@ -111,8 +111,6 @@ AnimationPointers:
 	dw TotodileAnimation
 	dw CroconawAnimation
 	dw FeraligatrAnimation
-	dw LedybaAnimation
-	dw LedianAnimation
 	dw SpinarakAnimation
 	dw AriadosAnimation
 	dw CrobatAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw BoldoreAnimation
 	dw GigalithAnimation
 	dw WoobatAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SwoobatAnimation
 	dw DrilburAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ExcadrillAnimation
 	dw AudinoAnimation
 	dw TimburrAnimation

@@ -11,7 +11,6 @@ AsleepTreeMons:
 .Eve
 	dp EKANS
 	dp EXEGGCUTE
-	dp LEDYBA
 	db 0 ; end
 
 .Morn

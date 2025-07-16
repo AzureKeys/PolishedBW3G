@@ -32,7 +32,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, SLOWPOKE, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, SLOWPOKE, GALARIAN_FORM
@@ -60,7 +60,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, SLOWPOKE, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, SLOWPOKE, GALARIAN_FORM
@@ -88,7 +88,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, SLOWPOKE, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 1, PHANPY
 	wildmon LEVEL_FROM_BADGES + 2, SLOWPOKE, GALARIAN_FORM
@@ -172,7 +172,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, PONYTA, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 2, PONYTA, GALARIAN_FORM

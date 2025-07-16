@@ -81,8 +81,6 @@ NewPokedexOrder:
 	dp PICHU
 	dp PIKACHU
 	dp RAICHU
-	dp LEDYBA
-	dp LEDIAN
 	dp SPINARAK
 	dp ARIADOS
 	dp GEODUDE

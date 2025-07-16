@@ -135,8 +135,6 @@
 	const TOTODILE   ; xx
 	const CROCONAW   ; xx
 	const FERALIGATR ; xx
-	const LEDYBA     ; xx
-	const LEDIAN     ; xx
 	const SPINARAK   ; xx
 	const ARIADOS    ; xx
 	const CROBAT     ; 4d
@@ -278,10 +276,10 @@
 	const BOLDORE    ; 128
 	const GIGALITH   ; 129
 	const WOOBAT     ; 128
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SWOOBAT    ; 129
 	const DRILBUR    ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const EXCADRILL  ; 129
 	const AUDINO     ; 129
 	const TIMBURR    ; 128

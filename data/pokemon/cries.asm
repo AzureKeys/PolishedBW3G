@@ -117,8 +117,6 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,    $46c,  $0e8 ; Totodile
 	mon_cry CRY_TOTODILE,    $440,  $110 ; Croconaw
 	mon_cry CRY_TOTODILE,    $3fc,  $180 ; Feraligatr
-	mon_cry CRY_LEDYBA,      $000,  $0de ; Ledyba
-	mon_cry CRY_LEDYBA,     -$096,  $138 ; Ledian
 	mon_cry CRY_SPINARAK,    $011,  $200 ; Spinarak
 	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; Ariados
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; Crobat
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $4bf,  $100 ; Boldore
 	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; Gigalith
 	mon_cry CRY_MANTINE,    -$03a,  $0ea ; Woobat
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; Excadrill
 	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
 	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr

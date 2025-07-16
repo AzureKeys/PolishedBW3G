@@ -562,16 +562,6 @@ FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lz"
 FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lz"
 FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lz"
 
-SECTION "Ledyba Mini Icon", ROMX
-LedybaMini::     INCBIN "gfx/minis/ledyba.2bpp.lz"
-LedybaMiniMask:: INCBIN "gfx/minis/ledyba_mask.1bpp.lz"
-LedybaIcon::     INCBIN "gfx/icons/ledyba.2bpp.lz"
-
-SECTION "Ledian Mini Icon", ROMX
-LedianMini::     INCBIN "gfx/minis/ledian.2bpp.lz"
-LedianMiniMask:: INCBIN "gfx/minis/ledian_mask.1bpp.lz"
-LedianIcon::     INCBIN "gfx/icons/ledian.2bpp.lz"
-
 SECTION "Spinarak Mini Icon", ROMX
 SpinarakMini::     INCBIN "gfx/minis/spinarak.2bpp.lz"
 SpinarakMiniMask:: INCBIN "gfx/minis/spinarak_mask.1bpp.lz"

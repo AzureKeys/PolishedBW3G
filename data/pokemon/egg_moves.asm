@@ -543,17 +543,6 @@ TotodileEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-LedybaEggSpeciesMoves:
-	dp LEDYBA, PLAIN_FORM
-	db DIZZY_PUNCH
-	db ENCORE
-	db PSYBEAM
-	db SCREECH
-	db LIGHT_SCREEN
-	db KNOCK_OFF
-	db DRAIN_PUNCH
-	db $ff
-
 SpinarakEggSpeciesMoves:
 	dp SPINARAK, PLAIN_FORM
 	db BATON_PASS

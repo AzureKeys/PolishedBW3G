@@ -2681,40 +2681,6 @@ endc
 	learnset 78, CLOSE_COMBAT ; Superpower → similar move
 	learnset 84, HYDRO_PUMP
 
-	evos_attacks Ledyba
-	evo_data EVOLVE_LEVEL, 18, LEDIAN
-	learnset 1, TACKLE
-	learnset 5, SUPERSONIC
-	learnset 8, SWIFT
-	learnset 12, LIGHT_SCREEN
-	learnset 12, REFLECT
-	learnset 12, SAFEGUARD
-	learnset 15, MACH_PUNCH
-	learnset 19, BARRIER ; Silver Wind → event move
-	learnset 22, DIZZY_PUNCH ; Comet Punch → new move
-	learnset 26, BATON_PASS
-	learnset 29, AGILITY
-	learnset 33, BUG_BUZZ
-	learnset 36, AIR_SLASH
-	learnset 40, DOUBLE_EDGE
-
-	evos_attacks Ledian
-	learnset 1, SWORDS_DANCE ; evolution move
-	learnset 1, TACKLE
-	learnset 5, SUPERSONIC
-	learnset 8, SWIFT
-	learnset 12, LIGHT_SCREEN
-	learnset 12, REFLECT
-	learnset 12, SAFEGUARD
-	learnset 15, MACH_PUNCH
-	learnset 20, BARRIER ; Silver Wind → event move
-	learnset 24, DIZZY_PUNCH ; Comet Punch → new move
-	learnset 29, BATON_PASS
-	learnset 33, AGILITY
-	learnset 38, BUG_BUZZ
-	learnset 42, AIR_SLASH
-	learnset 47, DOUBLE_EDGE
-
 	evos_attacks Spinarak
 	evo_data EVOLVE_LEVEL, 22, ARIADOS
 	learnset 1, POISON_STING

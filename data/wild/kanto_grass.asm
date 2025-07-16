@@ -340,10 +340,10 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, RATTATA
-	wildmon 54, LEDIAN
+	wildmon 54, RATTATA
 	wildmon 57, RATTATA
 	wildmon 57, RATTATA
-	wildmon 56, LEDIAN
+	wildmon 56, RATTATA
 	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; day
@@ -368,10 +368,10 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, RATTATA
-	wildmon 54, LEDIAN
+	wildmon 54, RATTATA
 	wildmon 57, RATTATA
 	wildmon 57, RATTATA
-	wildmon 56, LEDIAN
+	wildmon 56, RATTATA
 	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; day

@@ -111,8 +111,6 @@ FramesPointers:
 	dw TotodileFrames
 	dw CroconawFrames
 	dw FeraligatrFrames
-	dw LedybaFrames
-	dw LedianFrames
 	dw SpinarakFrames
 	dw AriadosFrames
 	dw CrobatFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw BoldoreFrames
 	dw GigalithFrames
 	dw WoobatFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SwoobatFrames
 	dw DrilburFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ExcadrillFrames
 	dw AudinoFrames
 	dw TimburrFrames

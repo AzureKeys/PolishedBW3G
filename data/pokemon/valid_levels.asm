@@ -112,8 +112,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  17 ; Totodile
 	db  18,  29 ; Croconaw
 	db  30, 100 ; Feraligatr
-	db   1,  17 ; Ledyba
-	db  18, 100 ; Ledian
 	db   1,  21 ; Spinarak
 	db  22, 100 ; Ariados
 	db  32, 100 ; Crobat
@@ -259,10 +257,10 @@ endc
 	db  25,  39 ; Boldore
 	db  40, 100 ; Gigalith
 	db   1,  22 ; Woobat
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  23, 100 ; Swoobat
 	db   1,  30 ; Drilbur
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  31, 100 ; Excadrill
 	db  20, 100 ; Audino
 	db   1,  24 ; Timburr

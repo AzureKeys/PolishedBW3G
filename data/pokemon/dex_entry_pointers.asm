@@ -112,8 +112,6 @@ PokedexDataPointerTable:
 	dba TotodilePokedexEntry
 	dba CroconawPokedexEntry
 	dba FeraligatrPokedexEntry
-	dba LedybaPokedexEntry
-	dba LedianPokedexEntry
 	dba SpinarakPokedexEntry
 	dba AriadosPokedexEntry
 	dba CrobatPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba BoldorePokedexEntry
 	dba GigalithPokedexEntry
 	dba WoobatPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba SwoobatPokedexEntry
 	dba DrilburPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba ExcadrillPokedexEntry
 	dba AudinoPokedexEntry
 	dba TimburrPokedexEntry

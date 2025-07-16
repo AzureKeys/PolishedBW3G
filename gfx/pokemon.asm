@@ -324,14 +324,6 @@ SECTION "Feraligatr Pics", ROMX
 FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 
-SECTION "Ledyba Pics", ROMX
-LedybaFrontpic: INCBIN "gfx/pokemon/ledyba/front.animated.2bpp.lz"
-LedybaBackpic:  INCBIN "gfx/pokemon/ledyba/back.2bpp.lz"
-
-SECTION "Ledian Pics", ROMX
-LedianFrontpic: INCBIN "gfx/pokemon/ledian/front.animated.2bpp.lz"
-LedianBackpic:  INCBIN "gfx/pokemon/ledian/back.2bpp.lz"
-
 SECTION "Spinarak Pics", ROMX
 SpinarakFrontpic: INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lz"
 SpinarakBackpic:  INCBIN "gfx/pokemon/spinarak/back.2bpp.lz"

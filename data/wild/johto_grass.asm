@@ -369,7 +369,7 @@
 	; morn
 	wildmon 12, NIDORAN_M
 	wildmon 13, NIDORAN_F
-	wildmon 14, LEDYBA
+	wildmon 14, RATTATA
 	wildmon 14, RATTATA
 	wildmon 10, RATTATA
 	wildmon 12, RATTATA
@@ -1375,7 +1375,7 @@
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 3, LEDYBA
+	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 4, RATTATA
@@ -1403,7 +1403,7 @@
 	def_grass_wildmons ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 4, LEDYBA
+	wildmon 4, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
 	wildmon 5, RATTATA
@@ -1543,7 +1543,7 @@
 	def_grass_wildmons ROUTE_36
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, LEDYBA
+	wildmon 5, RATTATA
 	wildmon 5, RATTATA
 	wildmon 6, RATTATA
 	wildmon 7, GROWLITHE
@@ -1571,12 +1571,12 @@
 	def_grass_wildmons ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 13, LEDYBA
+	wildmon 13, RATTATA
 	wildmon 14, RATTATA
 	wildmon 15, RATTATA
 	wildmon 16, GROWLITHE
 	wildmon 14, SMEARGLE
-	wildmon 15, LEDIAN
+	wildmon 15, RATTATA
 	wildmon 16, RATTATA
 	; day
 	wildmon 14, RATTATA
@@ -1994,7 +1994,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
 	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
-	wildmon LEVEL_FROM_BADGES - 2, LEDYBA
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
 	wildmon LEVEL_FROM_BADGES - 14, PICHU

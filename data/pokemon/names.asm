@@ -112,8 +112,6 @@ PokemonNames::
 	rawchar "Totodile@@"
 	rawchar "Croconaw@@"
 	rawchar "Feraligatr"
-	rawchar "Ledyba@@@@"
-	rawchar "Ledian@@@@"
 	rawchar "Spinarak@@"
 	rawchar "Ariados@@@"
 	rawchar "Crobat@@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Boldore@@@"
 	rawchar "Gigalith@@"
 	rawchar "Woobat@@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Swoobat@@@"
 	rawchar "Drilbur@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Excadrill@"
 	rawchar "Audino@@@@"
 	rawchar "Timburr@@@"

@@ -1116,26 +1116,6 @@ FeraligatrPokedexEntry::
 	next "quickly, even on"
 	next "the ground.@"
 
-SECTION "LedybaPokedexEntry", ROMX
-LedybaPokedexEntry::
-	db "Five Star@"
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
-
-SECTION "LedianPokedexEntry", ROMX
-LedianPokedexEntry::
-	db "Five Star@"
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
-
 SECTION "SpinarakPokedexEntry", ROMX
 SpinarakPokedexEntry::
 	db "String Spit@"
