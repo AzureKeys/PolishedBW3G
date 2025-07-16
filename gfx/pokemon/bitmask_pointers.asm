@@ -93,9 +93,6 @@ BitmasksPointers:
 	dw VaporeonBitmasks
 	dw JolteonBitmasks
 	dw FlareonBitmasks
-	dw KabutoBitmasks
-	dw KabutopsBitmasks
-	dw AerodactylBitmasks
 	dw SnorlaxBitmasks
 	dw ArticunoPlainBitmasks
 	dw ZapdosPlainBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw MusharnaBitmasks
 	dw PidoveBitmasks
 	dw TranquillBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw UnfezantBitmasks
 	dw BlitzleBitmasks
 	dw ZebstrikaBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw RoggenrolaBitmasks
 	dw BoldoreBitmasks
 	dw GigalithBitmasks

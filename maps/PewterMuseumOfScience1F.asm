@@ -168,13 +168,13 @@ ResurrectHelixFossil:
 ResurrectDomeFossil:
 	takeitem DOME_FOSSIL
 	scall ResurrectAFossilScript
-	givepoke KABUTO, 20
+	givepoke RATTATA, 20
 	sjumpfwd FinishResurrect
 
 ResurrectOldAmber:
 	takeitem OLD_AMBER
 	scall ResurrectAFossilScript
-	givepoke AERODACTYL, 20
+	givepoke RATTATA, 20
 FinishResurrect:
 	iffalse_jumpopenedtext NoRoomForFossilPokemonText
 	jumpopenedtext TakeGoodCareOfItText

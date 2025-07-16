@@ -2256,60 +2256,6 @@ endc
 	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
 	learnset 45, FLARE_BLITZ
 
-	evos_attacks Kabuto
-	evo_data EVOLVE_LEVEL, 40, KABUTOPS
-	learnset 1, SCRATCH
-	learnset 1, DEFENSE_CURL ; Harden → similar move
-	learnset 6, ABSORB
-	learnset 11, MUD_SLAP ; Leer → GSC TM move
-	learnset 16, ROCK_THROW ; Mud Shot → Rock Throw (event move)
-	learnset 21, LEER ; Sand Attack → Leer
-	learnset 26, ENDURE
-	learnset 31, AQUA_JET
-	learnset 36, MEGA_DRAIN
-	learnset 41, SCREECH ; Metal Sound → similar move
-	learnset 46, ANCIENTPOWER
-	learnset 51, GIGA_DRAIN ; Wring Out → TM move
-	learnset 56, IRON_HEAD ; new move
-	learnset 61, SHELL_SMASH ; new move
-
-	evos_attacks Kabutops
-	learnset 1, SLASH ; evolution move
-	learnset 1, LOW_KICK ; HGSS tutor move
-	learnset 1, SCRATCH
-	learnset 1, DEFENSE_CURL ; Harden → similar move
-	learnset 6, ABSORB
-	learnset 11, MUD_SLAP ; Leer → GSC TM move
-	learnset 16, ROCK_THROW ; Mud Shot → Rock Throw (event move)
-	learnset 21, LEER ; Sand Attack → Leer
-	learnset 26, ENDURE
-	learnset 31, AQUA_JET
-	learnset 36, MEGA_DRAIN
-	learnset 45, SCREECH ; Metal Sound → similar move
-	learnset 54, ANCIENTPOWER
-	learnset 63, LEECH_LIFE ; Wring Out → LGPE move
-	learnset 72, NIGHT_SLASH
-	learnset 81, SHELL_SMASH ; new move
-
-	evos_attacks Aerodactyl
-	learnset 1, DRAGON_RAGE ; RBY TM move
-	learnset 1, DRAGONBREATH ; GSC TM move
-	learnset 1, WING_ATTACK
-	learnset 1, SUPERSONIC
-	learnset 1, BITE
-	learnset 1, SCARY_FACE
-	learnset 9, ROAR
-	learnset 13, ROCK_THROW ; LGPE move
-	learnset 17, AGILITY
-	learnset 25, ANCIENTPOWER
-	learnset 33, CRUNCH
-	learnset 41, TAKE_DOWN
-	learnset 49, BRAVE_BIRD ; Sky Drop → new move
-	learnset 57, IRON_HEAD
-	learnset 65, HYPER_BEAM
-	learnset 73, ROCK_SLIDE
-	learnset 81, GIGA_IMPACT
-
 	evos_attacks Snorlax
 	learnset 1, TACKLE
 	learnset 4, DEFENSE_CURL

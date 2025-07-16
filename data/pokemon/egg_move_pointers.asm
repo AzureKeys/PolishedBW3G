@@ -93,9 +93,6 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Vaporeon
 	dw EeveeEggSpeciesMoves             ; Jolteon
 	dw EeveeEggSpeciesMoves             ; Flareon
-	dw KabutoEggSpeciesMoves            ; Kabuto
-	dw KabutoEggSpeciesMoves            ; Kabutops
-	dw AerodactylEggSpeciesMoves        ; Aerodactyl
 	dw MunchlaxEggSpeciesMoves          ; Snorlax
 	dw NoEggSpeciesMoves                ; Articuno
 	dw NoEggSpeciesMoves                ; Zapdos
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw MunnaEggSpeciesMoves             ; Musharna
 	dw PidoveEggSpeciesMoves            ; Pidove
 	dw PidoveEggSpeciesMoves            ; Tranquill
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw PidoveEggSpeciesMoves            ; Unfezant
 	dw BlitzleEggSpeciesMoves           ; Blitzle
 	dw BlitzleEggSpeciesMoves           ; Zebstrika
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw RoggenrolaEggSpeciesMoves        ; Roggenrola
 	dw RoggenrolaEggSpeciesMoves        ; Boldore
 	dw RoggenrolaEggSpeciesMoves        ; Gigalith

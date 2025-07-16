@@ -97,9 +97,6 @@ EvosAttacksPointers::
 	dw VaporeonEvosAttacks
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
-	dw KabutoEvosAttacks
-	dw KabutopsEvosAttacks
-	dw AerodactylEvosAttacks
 	dw SnorlaxEvosAttacks
 	dw ArticunoPlainEvosAttacks
 	dw ZapdosPlainEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw MusharnaEvosAttacks
 	dw PidoveEvosAttacks
 	dw TranquillEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw UnfezantEvosAttacks
 	dw BlitzleEvosAttacks
 	dw ZebstrikaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw RoggenrolaEvosAttacks
 	dw BoldoreEvosAttacks
 	dw GigalithEvosAttacks

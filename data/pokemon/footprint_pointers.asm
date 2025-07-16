@@ -93,9 +93,6 @@ FootprintPointers::
 	dw VaporeonFootprint
 	dw JolteonFootprint
 	dw FlareonFootprint
-	dw KabutoFootprint
-	dw KabutopsFootprint
-	dw AerodactylFootprint
 	dw SnorlaxFootprint
 	dw ArticunoFootprint
 	dw ZapdosFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw MusharnaFootprint
 	dw PidoveFootprint
 	dw TranquillFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw UnfezantFootprint
 	dw BlitzleFootprint
 	dw ZebstrikaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw RoggenrolaFootprint
 	dw BoldoreFootprint
 	dw GigalithFootprint

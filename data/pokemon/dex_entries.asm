@@ -936,36 +936,6 @@ FlareonPokedexEntry::
 	next "can reach up to"
 	next "1700 degrees.@"
 
-SECTION "KabutoPokedexEntry", ROMX
-KabutoPokedexEntry::
-	db "Shellfish@"
-	db   "Three hundred"
-	next "million years ago,"
-	next "it hid on the sea"
-	page "floor. It also has"
-	next "eyes on its back"
-	next "that glow.@"
-
-SECTION "KabutopsPokedexEntry", ROMX
-KabutopsPokedexEntry::
-	db "Shellfish@"
-	db   "It was able to"
-	next "swim quickly thro-"
-	next "ugh the water by"
-	page "compactly folding"
-	next "up its razor-sharp"
-	next "sickles.@"
-
-SECTION "AerodactylPokedexEntry", ROMX
-AerodactylPokedexEntry::
-	db "Fossil@"
-	db   "In prehistoric"
-	next "times, this"
-	next "#mon flew"
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
-
 SECTION "SnorlaxPokedexEntry", ROMX
 SnorlaxPokedexEntry::
 	db "Sleeping@"

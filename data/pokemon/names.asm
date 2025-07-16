@@ -94,9 +94,6 @@ PokemonNames::
 	rawchar "Vaporeon@@"
 	rawchar "Jolteon@@@"
 	rawchar "Flareon@@@"
-	rawchar "Kabuto@@@@"
-	rawchar "Kabutops@@"
-	rawchar "Aerodactyl"
 	rawchar "Snorlax@@@"
 	rawchar "Articuno@@"
 	rawchar "Zapdos@@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Musharna@@"
 	rawchar "Pidove@@@@"
 	rawchar "Tranquill@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Unfezant@@"
 	rawchar "Blitzle@@@"
 	rawchar "Zebstrika@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Roggenrola"
 	rawchar "Boldore@@@"
 	rawchar "Gigalith@@"

@@ -97,9 +97,6 @@ PokemonPicPointers::
 	pics Vaporeon
 	pics Jolteon
 	pics Flareon
-	pics Kabuto
-	pics Kabutops
-	pics Aerodactyl
 	pics Snorlax
 	pics ArticunoPlain
 	pics ZapdosPlain
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Musharna
 	pics Pidove
 	pics Tranquill
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Unfezant
 	pics Blitzle
 	pics Zebstrika
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Roggenrola
 	pics Boldore
 	pics Gigalith

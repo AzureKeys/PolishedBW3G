@@ -18,8 +18,6 @@ HardenUsers:
 	dp STEELIX
 	dp STARYU
 	dp STARMIE
-	dp KABUTO
-	dp KABUTOPS
 	dp HERACROSS
 	dp GLIGAR
 	dp SLUGMA

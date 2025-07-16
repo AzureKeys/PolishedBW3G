@@ -117,9 +117,6 @@
 	const VAPOREON   ; 46
 	const JOLTEON    ; 47
 	const FLAREON    ; 48
-	const KABUTO     ; xx
-	const KABUTOPS   ; xx
-	const AERODACTYL ; xx
 	const SNORLAX    ; 49
 	const ARTICUNO   ; xx
 	const ZAPDOS     ; xx
@@ -278,11 +275,11 @@
 	const MUSHARNA   ; 129
 	const PIDOVE     ; 129
 	const TRANQUILL  ; 128
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const UNFEZANT   ; 129
 	const BLITZLE    ; 128
 	const ZEBSTRIKA  ; 129
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const ROGGENROLA ; 129
 	const BOLDORE    ; 128
 	const GIGALITH   ; 129

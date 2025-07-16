@@ -1,6 +1,5 @@
 Footprints:: ; needed for BANK(Footprints)
 
-KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
 StaryuFootprint::
@@ -188,8 +187,6 @@ EeveeFootprint:: INCBIN "gfx/footprints/eevee.1bpp.lz"
 VaporeonFootprint:: INCBIN "gfx/footprints/vaporeon.1bpp.lz"
 JolteonFootprint:: INCBIN "gfx/footprints/jolteon.1bpp.lz"
 FlareonFootprint:: INCBIN "gfx/footprints/flareon.1bpp.lz"
-KabutopsFootprint:: INCBIN "gfx/footprints/kabutops.1bpp.lz"
-AerodactylFootprint:: INCBIN "gfx/footprints/aerodactyl.1bpp.lz"
 SnorlaxFootprint:: INCBIN "gfx/footprints/snorlax.1bpp.lz"
 ArticunoFootprint:: INCBIN "gfx/footprints/articuno.1bpp.lz"
 ZapdosFootprint:: INCBIN "gfx/footprints/zapdos.1bpp.lz"

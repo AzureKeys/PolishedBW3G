@@ -472,21 +472,6 @@ FlareonMini::     INCBIN "gfx/minis/flareon.2bpp.lz"
 FlareonMiniMask:: INCBIN "gfx/minis/flareon_mask.1bpp.lz"
 FlareonIcon::     INCBIN "gfx/icons/flareon.2bpp.lz"
 
-SECTION "Kabuto Mini Icon", ROMX
-KabutoMini::     INCBIN "gfx/minis/kabuto.2bpp.lz"
-KabutoMiniMask:: INCBIN "gfx/minis/kabuto_mask.1bpp.lz"
-KabutoIcon::     INCBIN "gfx/icons/kabuto.2bpp.lz"
-
-SECTION "Kabutops Mini Icon", ROMX
-KabutopsMini::     INCBIN "gfx/minis/kabutops.2bpp.lz"
-KabutopsMiniMask:: INCBIN "gfx/minis/kabutops_mask.1bpp.lz"
-KabutopsIcon::     INCBIN "gfx/icons/kabutops.2bpp.lz"
-
-SECTION "Aerodactyl Mini Icon", ROMX
-AerodactylMini::     INCBIN "gfx/minis/aerodactyl.2bpp.lz"
-AerodactylMiniMask:: INCBIN "gfx/minis/aerodactyl_mask.1bpp.lz"
-AerodactylIcon::     INCBIN "gfx/icons/aerodactyl.2bpp.lz"
-
 SECTION "Snorlax Mini Icon", ROMX
 SnorlaxMini::     INCBIN "gfx/minis/snorlax.2bpp.lz"
 SnorlaxMiniMask:: INCBIN "gfx/minis/snorlax_mask.1bpp.lz"

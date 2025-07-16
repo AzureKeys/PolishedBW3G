@@ -93,9 +93,6 @@ AnimationPointers:
 	dw VaporeonAnimation
 	dw JolteonAnimation
 	dw FlareonAnimation
-	dw KabutoAnimation
-	dw KabutopsAnimation
-	dw AerodactylAnimation
 	dw SnorlaxAnimation
 	dw ArticunoPlainAnimation
 	dw ZapdosPlainAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw MusharnaAnimation
 	dw PidoveAnimation
 	dw TranquillAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw UnfezantAnimation
 	dw BlitzleAnimation
 	dw ZebstrikaAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw RoggenrolaAnimation
 	dw BoldoreAnimation
 	dw GigalithAnimation

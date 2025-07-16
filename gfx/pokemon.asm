@@ -264,18 +264,6 @@ SECTION "Flareon Pics", ROMX
 FlareonFrontpic: INCBIN "gfx/pokemon/flareon/front.animated.2bpp.lz"
 FlareonBackpic:  INCBIN "gfx/pokemon/flareon/back.2bpp.lz"
 
-SECTION "Kabuto Pics", ROMX
-KabutoFrontpic: INCBIN "gfx/pokemon/kabuto/front.animated.2bpp.lz"
-KabutoBackpic:  INCBIN "gfx/pokemon/kabuto/back.2bpp.lz"
-
-SECTION "Kabutops Pics", ROMX
-KabutopsFrontpic: INCBIN "gfx/pokemon/kabutops/front.animated.2bpp.lz"
-KabutopsBackpic:  INCBIN "gfx/pokemon/kabutops/back.2bpp.lz"
-
-SECTION "Aerodactyl Pics", ROMX
-AerodactylFrontpic: INCBIN "gfx/pokemon/aerodactyl/front.animated.2bpp.lz"
-AerodactylBackpic:  INCBIN "gfx/pokemon/aerodactyl/back.2bpp.lz"
-
 SECTION "Snorlax Pics", ROMX
 SnorlaxFrontpic: INCBIN "gfx/pokemon/snorlax/front.animated.2bpp.lz"
 SnorlaxBackpic:  INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"

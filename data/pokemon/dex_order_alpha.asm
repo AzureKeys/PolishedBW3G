@@ -2,7 +2,6 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
-	dp AERODACTYL
 	dp AIPOM
 	dp AMBIPOM
 	dp AMPHAROS
@@ -107,8 +106,6 @@ AlphabeticalPokedexOrder:
 	dp JIGGLYPUFF
 	dp JOLTEON
 	dp JUMPLUFF
-	dp KABUTO
-	dp KABUTOPS
 	dp KANGASKHAN
 	dp KINGDRA
 	dp KLEAVOR

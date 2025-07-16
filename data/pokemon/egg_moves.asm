@@ -497,27 +497,6 @@ EeveeEggSpeciesMoves:
 	db CHARM
 	db $ff
 
-KabutoEggSpeciesMoves:
-	dp KABUTO, PLAIN_FORM
-	db AURORA_BEAM
-	db BUBBLE_BEAM
-	db CONFUSE_RAY
-	db FORESIGHT
-	db RAPID_SPIN
-	db SCREECH
-	db TAKE_DOWN
-	db DIG
-	db KNOCK_OFF
-	db $ff
-
-AerodactylEggSpeciesMoves:
-	dp AERODACTYL, PLAIN_FORM
-	db FORESIGHT
-	db PURSUIT
-	db STEEL_WING
-	db ROOST
-	db $ff
-
 DratiniEggSpeciesMoves:
 	dp DRATINI, PLAIN_FORM
 	db EXTREMESPEED ; requires Dragon Shrine Dratini
