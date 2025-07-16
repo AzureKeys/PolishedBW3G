@@ -292,4 +292,6 @@ PokemonNames::
 	rawchar "Maractus@@"
 	rawchar "Dwebble@@@"
 	rawchar "Crustle@@@"
+	rawchar "Scraggy@@@"
+	rawchar "Scrafty@@@"
 	assert_table_length NUM_SPECIES + 1

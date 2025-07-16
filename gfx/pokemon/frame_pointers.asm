@@ -291,6 +291,8 @@ FramesPointers:
 	dw MaractusFrames
 	dw DwebbleFrames
 	dw CrustleFrames
+	dw ScraggyFrames
+	dw ScraftyFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

@@ -1457,6 +1457,16 @@ CrustleMini::     INCBIN "gfx/minis/crustle.2bpp.lz"
 CrustleMiniMask:: INCBIN "gfx/minis/crustle_mask.1bpp.lz"
 CrustleIcon::     INCBIN "gfx/icons/crustle.2bpp.lz"
 
+SECTION "Scraggy Mini Icon", ROMX
+ScraggyMini::     INCBIN "gfx/minis/scraggy.2bpp.lz"
+ScraggyMiniMask:: INCBIN "gfx/minis/scraggy_mask.1bpp.lz"
+ScraggyIcon::     INCBIN "gfx/icons/scraggy.2bpp.lz"
+
+SECTION "Scrafty Mini Icon", ROMX
+ScraftyMini::     INCBIN "gfx/minis/scrafty.2bpp.lz"
+ScraftyMiniMask:: INCBIN "gfx/minis/scrafty_mask.1bpp.lz"
+ScraftyIcon::     INCBIN "gfx/icons/scrafty.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

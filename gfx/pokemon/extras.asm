@@ -234,6 +234,8 @@ KrookodileAnimationExtra: INCLUDE "gfx/pokemon/krookodile/anim_idle.asm"
 MaractusAnimationExtra:   INCLUDE "gfx/pokemon/maractus/anim_idle.asm"
 DwebbleAnimationExtra:    INCLUDE "gfx/pokemon/dwebble/anim_idle.asm"
 CrustleAnimationExtra:    INCLUDE "gfx/pokemon/crustle/anim_idle.asm"
+ScraggyAnimationExtra:    INCLUDE "gfx/pokemon/scraggy/anim_idle.asm"
+ScraftyAnimationExtra:    INCLUDE "gfx/pokemon/scrafty/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

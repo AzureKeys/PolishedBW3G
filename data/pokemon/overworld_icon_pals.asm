@@ -295,6 +295,8 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; MARACTUS
 	iconpal ORANGE, RED ; DWEBBLE
 	iconpal ORANGE, GREEN ; CRUSTLE
+	iconpal ORANGE, RED ; SCRAGGY
+	iconpal ORANGE, GREEN ; SCRAFTY
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

@@ -291,6 +291,8 @@ EggSpeciesMovesPointers::
 	dw MaractusEggSpeciesMoves          ; Maractus
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
+	dw ScraggyEggSpeciesMoves           ; Scraggy
+	dw ScraggyEggSpeciesMoves           ; Scrafty
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

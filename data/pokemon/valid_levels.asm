@@ -296,4 +296,6 @@ endc
 	db  15, 100 ; Maractus
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle
+	db   1,  38 ; Scraggy
+	db  39, 100 ; Scrafty
 	assert_table_length NUM_SPECIES

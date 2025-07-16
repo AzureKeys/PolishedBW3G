@@ -298,6 +298,8 @@ PokemonBodyData:
 	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
+	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
+	body_data  11,  300, BIPEDAL_TAIL, RED   ; SCRAFTY
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

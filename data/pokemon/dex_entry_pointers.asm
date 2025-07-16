@@ -292,6 +292,8 @@ PokedexDataPointerTable:
 	dba MaractusPokedexEntry
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry
+	dba ScraggyPokedexEntry
+	dba ScraftyPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

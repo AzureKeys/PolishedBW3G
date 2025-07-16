@@ -211,6 +211,8 @@ AlphabeticalPokedexOrder:
 	dp SAWK
 	dp SCIZOR
 	dp SCOLIPEDE
+	dp SCRAFTY
+	dp SCRAGGY
 	dp SCYTHER
 	dp SEADRA
 	dp SEEL

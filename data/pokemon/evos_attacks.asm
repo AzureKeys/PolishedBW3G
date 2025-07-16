@@ -6029,6 +6029,53 @@ endc
 	learnset 43, SHELL_SMASH
 	learnset 50, REVERSAL ; Flail
 	learnset 55, STONE_EDGE ; Rock Wrecker
+	
+	evos_attacks Scraggy
+	evo_data EVOLVE_LEVEL, 39, SCRAFTY
+	learnset 1, HEADBUTT
+	learnset 1, LEER
+	learnset 5, MUD_SLAP ; Sand-Attack
+	learnset 9, FEINT_ATTACK
+	learnset 12, SWAGGER
+	learnset 16, LOW_KICK
+	learnset 20, THIEF ; Payback
+if DEF(FAITHFUL)
+	learnset 23, DRAIN_PUNCH ; Brick Break
+else
+	learnset 23, BRICK_BREAK
+endc
+	learnset 27, DIZZY_PUNCH ; Chip Away
+	learnset 31, HI_JUMP_KICK
+	learnset 34, SCARY_FACE
+	learnset 38, CRUNCH
+	learnset 42, FACADE
+	;learnset 45, ROCK_CLIMB
+	learnset 48, CROSS_CHOP ; Focus Punch
+	learnset 50, STONE_EDGE ; Head Smash
+	
+	evos_attacks Scrafty
+	learnset 1, HEADBUTT
+	learnset 1, LEER
+	learnset 1, MUD_SLAP ; Sand-Attack
+	learnset 1, FEINT_ATTACK
+	learnset 5, MUD_SLAP ; Sand-Attack
+	learnset 9, FEINT_ATTACK
+	learnset 12, SWAGGER
+	learnset 16, LOW_KICK
+	learnset 20, THIEF ; Payback
+if DEF(FAITHFUL)
+	learnset 23, DRAIN_PUNCH ; Brick Break
+else
+	learnset 23, BRICK_BREAK
+endc
+	learnset 27, DIZZY_PUNCH ; Chip Away
+	learnset 31, HI_JUMP_KICK
+	learnset 34, SCARY_FACE
+	learnset 38, CRUNCH
+	learnset 45, FACADE
+	;learnset 51, ROCK_CLIMB
+	learnset 58, CROSS_CHOP ; Focus Punch
+	learnset 65, STONE_EDGE ; Head Smash
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

@@ -295,6 +295,8 @@ PokemonPicPointers::
 	pics Maractus
 	pics Dwebble
 	pics Crustle
+	pics Scraggy
+	pics Scrafty
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

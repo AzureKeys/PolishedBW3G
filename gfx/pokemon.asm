@@ -1556,3 +1556,11 @@ DwebbleBackpic:  INCBIN "gfx/pokemon/dwebble/back.2bpp.lz"
 SECTION "Crustle Pics", ROMX
 CrustleFrontpic: INCBIN "gfx/pokemon/crustle/front.animated.2bpp.lz"
 CrustleBackpic:  INCBIN "gfx/pokemon/crustle/back.2bpp.lz"
+
+SECTION "Scraggy Pics", ROMX
+ScraggyFrontpic: INCBIN "gfx/pokemon/scraggy/front.animated.2bpp.lz"
+ScraggyBackpic:  INCBIN "gfx/pokemon/scraggy/back.2bpp.lz"
+
+SECTION "Scrafty Pics", ROMX
+ScraftyFrontpic: INCBIN "gfx/pokemon/scrafty/front.animated.2bpp.lz"
+ScraftyBackpic:  INCBIN "gfx/pokemon/scrafty/back.2bpp.lz"

@@ -291,6 +291,8 @@ BitmasksPointers:
 	dw MaractusBitmasks
 	dw DwebbleBitmasks
 	dw CrustleBitmasks
+	dw ScraggyBitmasks
+	dw ScraftyBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

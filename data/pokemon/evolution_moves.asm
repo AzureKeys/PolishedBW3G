@@ -295,6 +295,8 @@ endc
 	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
+	db NO_MOVE      ; SCRAGGY
+	db NO_MOVE      ; SCRAFTY
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

@@ -295,6 +295,8 @@ EvosAttacksPointers::
 	dw MaractusEvosAttacks
 	dw DwebbleEvosAttacks
 	dw CrustleEvosAttacks
+	dw ScraggyEvosAttacks
+	dw ScraftyEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

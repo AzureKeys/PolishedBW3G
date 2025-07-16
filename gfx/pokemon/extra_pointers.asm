@@ -291,6 +291,8 @@ AnimationExtraPointers:
 	dw MaractusAnimationExtra
 	dw DwebbleAnimationExtra
 	dw CrustleAnimationExtra
+	dw ScraggyAnimationExtra
+	dw ScraftyAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

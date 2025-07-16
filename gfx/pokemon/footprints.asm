@@ -71,6 +71,8 @@ DarmanitanFootprint::
 MaractusFootprint::
 DwebbleFootprint::
 CrustleFootprint::
+ScraggyFootprint::
+ScraftyFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

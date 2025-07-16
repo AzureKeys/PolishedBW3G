@@ -295,6 +295,8 @@ MiniIconPointers:
 	mini_icon Maractus
 	mini_icon Dwebble
 	mini_icon Crustle
+	mini_icon Scraggy
+	mini_icon Scrafty
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

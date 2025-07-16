@@ -60,6 +60,8 @@ NewPokedexOrder:
 	dp MARACTUS
 	dp DWEBBLE
 	dp CRUSTLE
+	dp SCRAGGY
+	dp SCRAFTY
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

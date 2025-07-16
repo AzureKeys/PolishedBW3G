@@ -2880,6 +2880,26 @@ CrustlePokedexEntry::
     next "across arid"
     next "environments.@"
 
+SECTION "ScraggyPokedexEntry", ROMX
+ScraggyPokedexEntry::
+	db "Shedding@"
+	db "Its skin is"
+    next "rubbery. It can"
+    next "pull it up to its"
+    page "head to protect"
+    next "itself from"
+    next "attacks.@"
+
+SECTION "ScraftyPokedexEntry", ROMX
+ScraftyPokedexEntry::
+	db "Hoodlum@"
+	db "It can smash"
+    next "concrete blocks"
+    next "with its kicks."
+    page "The one with the"
+    next "largest crest is"
+    next "the group leader.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

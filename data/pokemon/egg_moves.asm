@@ -1236,5 +1236,18 @@ DwebbleEggSpeciesMoves:
 	db NIGHT_SLASH
 	db $ff
 
+ScraggyEggSpeciesMoves:
+	dp SCRAGGY, PLAIN_FORM
+	db AMNESIA
+	db COUNTER
+	db DRAGON_DANCE
+	db DRAIN_PUNCH
+	db FEINT_ATTACK
+	db FIRE_PUNCH
+	db ICE_PUNCH
+	db THUNDERPUNCH
+	db ZEN_HEADBUTT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff
