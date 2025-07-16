@@ -384,9 +384,9 @@
 	wildmon 12, RATTATA
 	; nite
 	wildmon 12, PSYDUCK
-	wildmon 13, HOOTHOOT
+	wildmon 13, RATTATA
 	wildmon 14, SPINARAK
-	wildmon 14, HOOTHOOT
+	wildmon 14, RATTATA
 	wildmon 10, RATTATA
 	wildmon 12, RATTATA
 	wildmon 12, RATTATA
@@ -695,7 +695,7 @@
 	wildmon 9, RATTATA
 	wildmon 10, RATTATA
 	wildmon 10, PSYDUCK
-	wildmon 10, HOOTHOOT
+	wildmon 10, RATTATA
 	wildmon 9, PARAS
 	wildmon 10, PARAS
 	end_grass_wildmons
@@ -1363,13 +1363,13 @@
 	wildmon 3, HOPPIP
 	wildmon 3, HOPPIP
 	; nite
-	wildmon 2, HOOTHOOT
 	wildmon 2, RATTATA
-	wildmon 3, HOOTHOOT
+	wildmon 2, RATTATA
+	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	wildmon 2, RATTATA
-	wildmon 3, HOOTHOOT
-	wildmon 3, HOOTHOOT
+	wildmon 3, RATTATA
+	wildmon 3, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1392,12 +1392,12 @@
 	wildmon 4, HOPPIP
 	; nite
 	wildmon 3, SPINARAK
-	wildmon 3, HOOTHOOT
+	wildmon 3, RATTATA
 	wildmon 4, POLIWAG
-	wildmon 4, HOOTHOOT
+	wildmon 4, RATTATA
 	wildmon 3, ZUBAT
-	wildmon 4, HOOTHOOT
-	wildmon 4, HOOTHOOT
+	wildmon 4, RATTATA
+	wildmon 4, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
@@ -1422,7 +1422,7 @@
 	wildmon 4, SPINARAK
 	wildmon 4, POLIWAG
 	wildmon 5, RATTATA
-	wildmon 5, HOOTHOOT
+	wildmon 5, RATTATA
 	wildmon 4, ZUBAT
 	wildmon 5, GASTLY
 	wildmon 5, GASTLY
@@ -1450,7 +1450,7 @@
 	wildmon 5, WOOPER
 	wildmon 6, RATTATA
 	wildmon 8, RATTATA
-	wildmon 8, HOOTHOOT
+	wildmon 8, RATTATA
 	wildmon 7, MAREEP
 	wildmon 7, GASTLY
 	wildmon 7, GASTLY
@@ -1505,7 +1505,7 @@
 	; nite
 	wildmon 12, RATTATA
 	wildmon 12, RATTATA, ALOLAN_FORM
-	wildmon 13, HOOTHOOT
+	wildmon 13, RATTATA
 	wildmon 10, RATTATA
 	wildmon 13, JIGGLYPUFF
 	wildmon 10, DITTO
@@ -1532,9 +1532,9 @@
 	wildmon 13, YANMA
 	; nite
 	wildmon 13, RATTATA
-	wildmon 14, HOOTHOOT
+	wildmon 14, RATTATA
 	wildmon 14, PSYDUCK
-	wildmon 14, HOOTHOOT
+	wildmon 14, RATTATA
 	wildmon 12, JIGGLYPUFF
 	wildmon 10, DITTO
 	wildmon 13, YANMA
@@ -1560,10 +1560,10 @@
 	wildmon 7, RATTATA
 	; nite
 	wildmon 5, SPINARAK
-	wildmon 5, HOOTHOOT
+	wildmon 5, RATTATA
 	wildmon 6, RATTATA
 	wildmon 7, VULPIX
-	wildmon 6, HOOTHOOT
+	wildmon 6, RATTATA
 	wildmon 7, GASTLY
 	wildmon 7, GASTLY
 	end_grass_wildmons
@@ -1589,7 +1589,7 @@
 	; nite
 	wildmon 13, SPINARAK
 	wildmon 15, STANTLER
-	wildmon 14, HOOTHOOT
+	wildmon 14, RATTATA
 	wildmon 16, STANTLER
 	wildmon 16, ARIADOS
 	wildmon 15, HOUNDOUR
@@ -1618,7 +1618,7 @@
 	wildmon 16, MEOWTH
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
-	wildmon 16, NOCTOWL
+	wildmon 16, RATTATA
 	wildmon 16, MEOWTH
 	wildmon 16, MURKROW
 	wildmon 16, MURKROW
@@ -1646,7 +1646,7 @@
 	wildmon 16, MEOWTH
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
-	wildmon 16, NOCTOWL
+	wildmon 16, RATTATA
 	wildmon 18, MEOWTH
 	wildmon 18, MURKROW
 	wildmon 18, MURKROW
@@ -1702,7 +1702,7 @@
 	wildmon 25, RATTATA
 	wildmon 23, GIRAFARIG
 	wildmon 23, FLAAFFY
-	wildmon 24, NOCTOWL
+	wildmon 24, RATTATA
 	wildmon 23, RATTATA
 	wildmon 23, MAREEP
 	wildmon 23, MAREEP
@@ -1812,12 +1812,12 @@
 	wildmon LEVEL_FROM_BADGES - 1, FARFETCH_D, GALARIAN_FORM
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, DITTO
-	wildmon LEVEL_FROM_BADGES + 1, NOCTOWL
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MILTANK
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
-	wildmon LEVEL_FROM_BADGES - 4, NOCTOWL
-	wildmon LEVEL_FROM_BADGES - 1, NOCTOWL
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_48
@@ -1843,7 +1843,7 @@
 	wildmon LEVEL_FROM_BADGES + 0, TAUROS
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, VULPIX
-	wildmon LEVEL_FROM_BADGES - 3, NOCTOWL
+	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
 	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
 	end_grass_wildmons
@@ -1924,10 +1924,10 @@
 	wildmon LEVEL_FROM_BADGES - 1, RATICATE
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, HOOTHOOT
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 0, GASTLY
 	wildmon LEVEL_FROM_BADGES - 3, VULPIX
-	wildmon LEVEL_FROM_BADGES - 1, NOCTOWL
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
 	wildmon LEVEL_FROM_BADGES - 1, RATICATE
 	end_grass_wildmons
@@ -1953,7 +1953,7 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, WOOPER
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, HOOTHOOT
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
 	wildmon LEVEL_FROM_BADGES + 1, MAREEP
 	wildmon LEVEL_FROM_BADGES + 0, GASTLY
@@ -1982,7 +1982,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, WOOPER
 	wildmon LEVEL_FROM_BADGES - 4, RATICATE
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, HOOTHOOT
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, GASTLY
 	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
 	wildmon LEVEL_FROM_BADGES + 5, HAUNTER
@@ -2007,13 +2007,13 @@
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
 	wildmon LEVEL_FROM_BADGES - 14, PICHU
 	; nite
-	wildmon LEVEL_FROM_BADGES - 1, HOOTHOOT
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, MEOWTH
 	wildmon LEVEL_FROM_BADGES - 2, PARAS
 	wildmon LEVEL_FROM_BADGES - 1, SPINARAK
 	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 1, NOCTOWL
-	wildmon LEVEL_FROM_BADGES + 1, NOCTOWL
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons QUIET_CAVE_1F
@@ -2148,7 +2148,7 @@
 	wildmon LEVEL_FROM_BADGES + 3, YANMA
 	; nite
 	wildmon LEVEL_FROM_BADGES - 1, WOOPER
-	wildmon LEVEL_FROM_BADGES - 2, HOOTHOOT
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, RATICATE
 	wildmon LEVEL_FROM_BADGES + 1, GASTLY

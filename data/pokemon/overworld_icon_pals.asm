@@ -115,8 +115,6 @@ OverworldMonIconColors::
 	iconpal AZURE, TEAL ; TOTODILE
 	iconpal AZURE, TEAL ; CROCONAW
 	iconpal AZURE, TEAL ; FERALIGATR
-	iconpal BROWN, RED ; HOOTHOOT
-	iconpal BROWN, GREEN ; NOCTOWL
 	iconpal RED, PINK ; LEDYBA
 	iconpal RED, PINK ; LEDIAN
 	iconpal GREEN, PURPLE ; SPINARAK
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BLACK, PURPLE ; ZEBSTRIKA
 	iconpal BLUE, PURPLE ; ROGGENROLA
 	iconpal BLUE, PURPLE ; BOLDORE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, PURPLE ; GIGALITH
 	iconpal AZURE, GREEN ; WOOBAT
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal AZURE, ORANGE ; SWOOBAT
 	iconpal GRAY, RED ; DRILBUR
 	iconpal BROWN, RED ; EXCADRILL

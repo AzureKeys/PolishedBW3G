@@ -97,7 +97,6 @@ AlphabeticalPokedexOrder:
 	dp HERDIER
 	dp HO_OH
 	dp HONCHKROW
-	dp HOOTHOOT
 	dp HOPPIP
 	dp HORSEA
 	dp HOUNDOOM
@@ -166,7 +165,6 @@ AlphabeticalPokedexOrder:
 	dp NIDORINA
 	dp NIDORINO
 	dp NINETALES
-	dp NOCTOWL
 	dp OCTILLERY
 	dp ONIX
 	dp OSHAWOTT

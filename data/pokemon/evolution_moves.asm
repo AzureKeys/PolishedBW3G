@@ -111,8 +111,6 @@ EvolutionMoves::
 	db NO_MOVE      ; TOTODILE
 	db NO_MOVE      ; CROCONAW
 	db NIGHT_SLASH  ; FERALIGATR
-	db NO_MOVE      ; HOOTHOOT
-	db NO_MOVE      ; NOCTOWL
 	db NO_MOVE      ; LEDYBA
 	db SWORDS_DANCE ; LEDIAN
 	db NO_MOVE      ; SPINARAK
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; ZEBSTRIKA
 	db NO_MOVE      ; ROGGENROLA
 	db POWER_GEM    ; BOLDORE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; GIGALITH
 	db NO_MOVE      ; WOOBAT
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SWOOBAT
 	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EXCADRILL

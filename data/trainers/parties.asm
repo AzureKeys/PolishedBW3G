@@ -85,7 +85,7 @@ FalknerGroup:
 	tr_mon 11, RATTATA
 		tr_evs 32 HP
 		tr_moves TACKLE, GUST, MUD_SLAP
-	tr_mon 11, HOOTHOOT
+	tr_mon 11, RATTATA
 		tr_evs 32 HP
 		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
 	tr_mon 13, RATTATA @ PECHA_BERRY
@@ -94,7 +94,7 @@ FalknerGroup:
 	end_trainer
 
 	def_trainer 2, "Falkner"
-	tr_mon 73, NOCTOWL @ TWISTEDSPOON
+	tr_mon 73, RATTATA @ TWISTEDSPOON
 		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	tr_mon 70, GLISCOR @ SCOPE_LENS
 		tr_moves SWORDS_DANCE, EARTHQUAKE, X_SCISSOR, NIGHT_SLASH
@@ -200,7 +200,7 @@ if DEF(FAITHFUL)
 		tr_evs 64 SAt, 64 Spe
 		tr_moves HYPNOSIS, CONFUSE_RAY, DISABLE, SHADOW_BALL
 else
-	tr_mon 24, NOCTOWL, MALE
+	tr_mon 24, RATTATA, MALE
 		tr_evs 64 HP, 64 Spe
 		tr_moves HYPNOSIS, FORESIGHT, CONFUSION, HEX
 endc
@@ -236,7 +236,7 @@ if DEF(FAITHFUL)
 		tr_extra LEVITATE
 		tr_moves SHADOW_BALL, SLUDGE_BOMB, DESTINY_BOND, PAIN_SPLIT
 else
-	tr_mon 74, NOCTOWL @ SHARP_BEAK, MALE
+	tr_mon 74, RATTATA @ SHARP_BEAK, MALE
 		tr_moves MOONBLAST, AIR_SLASH, SHADOW_BALL, REFLECT
 endc
 	tr_mon 75, GENGAR @ SPELL_TAG, MALE
@@ -2435,7 +2435,7 @@ BirdKeeperGroup:
 
 	def_trainer ROD, "Rod"
 	tr_mon 7, RATTATA
-	tr_mon 8, HOOTHOOT
+	tr_mon 8, RATTATA
 	end_trainer
 
 	def_trainer ABE, "Abe"
@@ -2444,9 +2444,9 @@ BirdKeeperGroup:
 
 	def_trainer THEO, "Theo"
 	tr_mon 17, RATTATA
-	tr_mon 16, HOOTHOOT
+	tr_mon 16, RATTATA
 	tr_mon 19, RATTATA
-	tr_mon 17, HOOTHOOT
+	tr_mon 17, RATTATA
 	tr_mon 16, RATTATA
 	end_trainer
 
@@ -2479,7 +2479,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer BOB, "Bob"
-	tr_mon 59, NOCTOWL
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer PETER, "Peter"
@@ -2500,7 +2500,7 @@ BirdKeeperGroup:
 	def_trainer MICK, "Mick"
 	tr_mon 62, RATTATA
 	tr_mon 60, MURKROW
-	tr_mon 60, NOCTOWL
+	tr_mon 60, RATTATA
 	end_trainer
 
 	def_trainer POWELL, "Powell"
@@ -2517,14 +2517,14 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer JULIAN, "Julian"
-	tr_mon LEVEL_FROM_BADGES + 0, HOOTHOOT
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, MURKROW
 	end_trainer
 
 	def_trainer BIRD_KEEPER_JUSTIN, "Justin"
 	tr_mon 57, XATU
-	tr_mon 50, NOCTOWL
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer GAIL, "Gail"
@@ -4143,7 +4143,7 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer LEON, "Leon"
-	tr_mon 54, NOCTOWL
+	tr_mon 54, RATTATA
 	tr_mon 55, RATTATA
 	tr_mon 53, GIRAFARIG
 	end_trainer
@@ -4237,7 +4237,7 @@ SageGroup:
 	def_trainer NICO, "Nico"
 	tr_mon 3, RATTATA
 	tr_mon 3, RATTATA
-	tr_mon 3, HOOTHOOT
+	tr_mon 3, RATTATA
 	end_trainer
 
 	def_trainer JIN, "Jin"
@@ -4256,20 +4256,20 @@ SageGroup:
 
 	def_trainer PING, "Ping"
 	tr_mon 17, GASTLY
-	tr_mon 17, HOOTHOOT
+	tr_mon 17, RATTATA
 	tr_mon 18, GASTLY
-	tr_mon 18, NOCTOWL
+	tr_mon 18, RATTATA
 	end_trainer
 
 	def_trainer EDMOND, "Edmond"
 	tr_mon 3, RATTATA
-	tr_mon 3, HOOTHOOT
+	tr_mon 3, RATTATA
 	tr_mon 3, RATTATA
 	end_trainer
 
 	def_trainer NEAL, "Neal"
 	tr_mon 6, RATTATA
-	tr_mon 6, HOOTHOOT
+	tr_mon 6, RATTATA
 	end_trainer
 
 
@@ -4376,25 +4376,25 @@ ElderGroup:
 
 	def_trainer_class ELDER
 	def_trainer LI, "Li"
-	tr_mon 7, HOOTHOOT
+	tr_mon 7, RATTATA
 	tr_mon 7, GASTLY
 	tr_mon 10, RATTATA
 	end_trainer
 
 	def_trainer GAKU, "Gaku"
-	tr_mon 37, NOCTOWL
+	tr_mon 37, RATTATA
 	tr_mon 38, FLAREON
 	tr_mon 38, RATTATA
 	end_trainer
 
 	def_trainer MASA, "Masa"
-	tr_mon 37, NOCTOWL
+	tr_mon 37, RATTATA
 	tr_mon 38, JOLTEON
 	tr_mon 38, WARTORTLE
 	end_trainer
 
 	def_trainer KOJI, "Koji"
-	tr_mon 37, NOCTOWL
+	tr_mon 37, RATTATA
 	tr_mon 38, VAPOREON
 	tr_mon 38, NINETALES
 	end_trainer
@@ -4534,7 +4534,7 @@ GentlemanGroup:
 	end_trainer
 
 	def_trainer ALFRED, "Alfred"
-	tr_mon 22, NOCTOWL
+	tr_mon 22, RATTATA
 	end_trainer
 
 	def_trainer MILTON, "Milton"
@@ -5242,7 +5242,7 @@ ScientistGroup:
 	def_trainer SANDERS, "Sanders"
 	tr_mon 52, RATTATA
 	tr_mon 54, LAPRAS
-	tr_mon 53, NOCTOWL
+	tr_mon 53, RATTATA
 	end_trainer
 
 SECTION "RocketScientistGroup", ROMX
@@ -6505,7 +6505,7 @@ VeteranMGroup:
 		tr_moves THUNDER_WAVE, CONFUSE_RAY, DRAGON_PULSE, THUNDERBOLT
 	tr_mon 38, URSARING @ LEFTOVERS
 		tr_moves BELLY_DRUM, PLAY_ROUGH, SLASH, STRENGTH
-	tr_mon 38, NOCTOWL @ QUICK_CLAW
+	tr_mon 38, RATTATA @ QUICK_CLAW
 		tr_moves REFLECT, PSYCHIC_M, SHADOW_BALL, AIR_SLASH
 	tr_mon 39, ARCANINE @ CHARCOAL
 		tr_moves FLAME_CHARGE, FLAMETHROWER, DOUBLE_KICK, TAKE_DOWN
@@ -6833,7 +6833,7 @@ ProfElmGroup:
 
 	def_trainer_class PROF_ELM
 	def_trainer 1, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 3, HOOTHOOT
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
 	tr_mon LEVEL_FROM_BADGES + 5, CYNDAQUIL
 	tr_mon LEVEL_FROM_BADGES + 5, CHIKORITA
@@ -7750,7 +7750,7 @@ WalkerGroup:
 
 	def_trainer_class WALKER
 	def_trainer 1, "Walker"
-	tr_mon LEVEL_FROM_BADGES + 5, NOCTOWL
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 		tr_evs 184 Spe
 		tr_moves AERIAL_ACE, NIGHT_SHADE, REFLECT, EXTRASENSORY
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
@@ -7767,7 +7767,7 @@ WalkerGroup:
 	def_trainer 2, "Walker"
 	tr_mon 75, SKARMORY @ LEFTOVERS
 		tr_moves SCREECH, SPIKES, DRILL_PECK, NIGHT_SLASH
-	tr_mon 72, NOCTOWL @ SHARP_BEAK
+	tr_mon 72, RATTATA @ SHARP_BEAK
 		tr_moves AIR_SLASH, PSYCHIC_M, SHADOW_BALL, REFLECT
 	tr_mon 74, RATTATA @ BRIGHTPOWDER
 		tr_moves ROOST, EXTREMESPEED, HURRICANE, ROAR
@@ -7850,7 +7850,7 @@ ReiGroup:
 	def_trainer 1, "Maiden Rei"
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 		tr_evs 120 Spe
-	tr_mon LEVEL_FROM_BADGES + 3, NOCTOWL
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 		tr_evs 120 Spe
 	tr_mon LEVEL_FROM_BADGES + 2, MURKROW
 		tr_evs 120 Spe
@@ -7865,7 +7865,7 @@ ReiGroup:
 	tr_mon 58, HONCHKROW @ BLACKGLASSES
 		tr_evs 68 Atk, 252 Spe
 		tr_moves DRILL_PECK, SUCKER_PUNCH, PURSUIT, BRAVE_BIRD
-	tr_mon 57, NOCTOWL @ QUICK_CLAW
+	tr_mon 57, RATTATA @ QUICK_CLAW
 		tr_evs 68 SAt, 252 Spe
 		tr_moves SHADOW_BALL, AIR_SLASH, HYPNOSIS, DREAM_EATER
 	tr_mon 57, RATTATA @ WISE_GLASSES
@@ -7884,7 +7884,7 @@ ReiGroup:
 		tr_moves QUICK_ATTACK, ROCK_SMASH, DOUBLE_EDGE, FLARE_BLITZ
 	tr_mon 73, HONCHKROW @ BLACKGLASSES
 		tr_moves DRILL_PECK, SUCKER_PUNCH, PURSUIT, BRAVE_BIRD
-	tr_mon 72, NOCTOWL @ QUICK_CLAW
+	tr_mon 72, RATTATA @ QUICK_CLAW
 		tr_moves SHADOW_BALL, AIR_SLASH, HYPNOSIS, DREAM_EATER
 	tr_mon 72, RATTATA @ WISE_GLASSES
 		tr_moves PSYCHIC_M, FOCUS_BLAST, SHADOW_BALL, THUNDER_WAVE

@@ -327,13 +327,13 @@
 	wildmon 60, RATTATA
 	wildmon 60, RATTATA
 	; nite
-	wildmon 56, NOCTOWL
+	wildmon 56, RATTATA
 	wildmon 56, RATICATE
 	wildmon 57, RATICATE
-	wildmon 57, NOCTOWL
+	wildmon 57, RATTATA
 	wildmon 59, RATICATE
-	wildmon 60, NOCTOWL
-	wildmon 60, NOCTOWL
+	wildmon 60, RATTATA
+	wildmon 60, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2_NORTH
@@ -355,13 +355,13 @@
 	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; nite
-	wildmon 55, NOCTOWL
+	wildmon 55, RATTATA
 	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
+	wildmon 57, RATTATA
+	wildmon 57, RATTATA
 	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
+	wildmon 58, RATTATA
+	wildmon 59, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2_SOUTH
@@ -383,13 +383,13 @@
 	wildmon 58, RATTATA
 	wildmon 59, PIKACHU
 	; nite
-	wildmon 55, NOCTOWL
+	wildmon 55, RATTATA
 	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
+	wildmon 57, RATTATA
+	wildmon 57, RATTATA
 	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
+	wildmon 58, RATTATA
+	wildmon 59, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons VIRIDIAN_FOREST
@@ -411,13 +411,13 @@
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; nite
-	wildmon 57, NOCTOWL
+	wildmon 57, RATTATA
 	wildmon 57, ARIADOS
-	wildmon 55, NOCTOWL
-	wildmon 55, NOCTOWL
+	wildmon 55, RATTATA
+	wildmon 55, RATTATA
 	wildmon 56, ARIADOS
-	wildmon 59, NOCTOWL
-	wildmon 60, NOCTOWL
+	wildmon 59, RATTATA
+	wildmon 60, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_3
@@ -495,7 +495,7 @@
 	wildmon 51, JIGGLYPUFF
 	wildmon 47, WIGGLYTUFF
 	; nite
-	wildmon 46, NOCTOWL
+	wildmon 46, RATTATA
 	wildmon 46, PERSIAN
 	wildmon 51, RATTATA
 	wildmon 47, RATTATA
@@ -580,7 +580,7 @@
 	wildmon 50, RATTATA
 	; nite
 	wildmon 48, PERSIAN
-	wildmon 51, NOCTOWL
+	wildmon 51, RATTATA
 	wildmon 53, RATTATA
 	wildmon 53, HAUNTER
 	wildmon 53, VULPIX
@@ -666,7 +666,7 @@
 	wildmon 53, RATTATA
 	wildmon 48, MEOWTH
 	wildmon 50, MAGNEMITE
-	wildmon 51, NOCTOWL
+	wildmon 51, RATTATA
 	wildmon 51, RATICATE
 	wildmon 51, RATTATA
 	wildmon 51, RATTATA
@@ -692,7 +692,7 @@
 	wildmon 54, FARFETCH_D
 	; nite
 	wildmon 50, RATTATA
-	wildmon 50, NOCTOWL
+	wildmon 50, RATTATA
 	wildmon 50, QUAGSIRE
 	wildmon 51, RATTATA
 	wildmon 53, RATTATA
@@ -720,7 +720,7 @@
 	wildmon 55, SUNFLORA
 	; nite
 	wildmon 50, RATTATA
-	wildmon 50, NOCTOWL
+	wildmon 50, RATTATA
 	wildmon 51, QUAGSIRE
 	wildmon 52, RATTATA
 	wildmon 54, RATTATA
@@ -748,7 +748,7 @@
 	wildmon 56, SUNFLORA
 	; nite
 	wildmon 52, RATTATA
-	wildmon 52, NOCTOWL
+	wildmon 52, RATTATA
 	wildmon 53, QUAGSIRE
 	wildmon 51, RATTATA
 	wildmon 56, RATTATA
@@ -804,7 +804,7 @@
 	wildmon 57, SUNFLORA
 	; nite
 	wildmon 52, RATTATA
-	wildmon 52, NOCTOWL
+	wildmon 52, RATTATA
 	wildmon 54, QUAGSIRE
 	wildmon 54, RATTATA
 	wildmon 57, RATTATA
@@ -916,7 +916,7 @@
 	wildmon 57, MUK
 	; nite
 	wildmon 52, RATICATE
-	wildmon 56, NOCTOWL
+	wildmon 56, RATTATA
 	wildmon 53, RATICATE
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
@@ -944,7 +944,7 @@
 	wildmon 57, MUK
 	; nite
 	wildmon 52, RATICATE
-	wildmon 56, NOCTOWL
+	wildmon 56, RATTATA
 	wildmon 53, RATICATE
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
@@ -1027,7 +1027,7 @@
 	wildmon 40, SANDSLASH
 	wildmon 42, DITTO
 	; nite
-	wildmon 37, NOCTOWL
+	wildmon 37, RATTATA
 	wildmon 38, RATICATE
 	wildmon 38, RATICATE
 	wildmon 39, QUAGSIRE
@@ -1057,7 +1057,7 @@
 	; nite
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, NOCTOWL
+	wildmon 51, RATTATA
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA
@@ -1085,7 +1085,7 @@
 	; nite
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, NOCTOWL
+	wildmon 51, RATTATA
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA
@@ -1111,9 +1111,9 @@
 	wildmon 40, ARBOK, ARBOK_KANTO_FORM
 	wildmon 41, ARBOK, ARBOK_KANTO_FORM
 	; nite
-	wildmon 38, NOCTOWL
+	wildmon 38, RATTATA
 	wildmon 38, RATICATE
-	wildmon 41, NOCTOWL
+	wildmon 41, RATTATA
 	wildmon 40, RATICATE
 	wildmon 39, QUAGSIRE
 	wildmon 40, QUAGSIRE
@@ -1140,12 +1140,12 @@
 	wildmon 40, RATTATA
 	; nite
 	wildmon 37, QUAGSIRE
-	wildmon 37, NOCTOWL
+	wildmon 37, RATTATA
 	wildmon 39, RATICATE
 	wildmon 39, QUAGSIRE
-	wildmon 41, NOCTOWL
-	wildmon 39, NOCTOWL
-	wildmon 40, NOCTOWL
+	wildmon 41, RATTATA
+	wildmon 39, RATTATA
+	wildmon 40, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_28
@@ -1197,7 +1197,7 @@
 	; nite
 	wildmon 48, RATTATA
 	wildmon 48, RATTATA
-	wildmon 51, NOCTOWL
+	wildmon 51, RATTATA
 	wildmon 50, RATTATA
 	wildmon 49, RATTATA
 	wildmon 53, RATTATA

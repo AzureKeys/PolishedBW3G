@@ -51,7 +51,7 @@ TreeMonSet_Town:
 	db -1
 
 TreeMonSet_Route:
-	tree_mon 50, HOOTHOOT,   10
+	tree_mon 50, RATTATA,   10
 	tree_mon 15, SPINARAK,   10
 	tree_mon 15, LEDYBA,     10
 	tree_mon 20, EXEGGCUTE,  10
@@ -63,7 +63,7 @@ TreeMonSet_Route:
 	db -1
 
 TreeMonSet_Kanto:
-	tree_mon 65, HOOTHOOT,   10
+	tree_mon 65, RATTATA,   10
 	tree_mon 15, EKANS,      10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
@@ -74,25 +74,25 @@ TreeMonSet_Kanto:
 	db -1
 
 TreeMonSet_Lake:
-	tree_mon 65, HOOTHOOT,   10
+	tree_mon 65, RATTATA,   10
 	tree_mon 15, RATTATA,    10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 	; rare
-	tree_mon 50, HOOTHOOT,   10
+	tree_mon 50, RATTATA,   10
 	tree_mon 30, PINECO,     10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 
 TreeMonSet_Forest:
-	tree_mon 50, HOOTHOOT,   10
+	tree_mon 50, RATTATA,   10
 	tree_mon 30, PINECO,     10
-	tree_mon 10, NOCTOWL,    10
+	tree_mon 10, RATTATA,    10
 	tree_mon  5, RATTATA, 10
 	tree_mon  5, RATTATA,   10
 	db -1
 	; rare
-	tree_mon 60, HOOTHOOT,   10
+	tree_mon 60, RATTATA,   10
 	tree_mon 15, RATTATA,   10
 	tree_mon 15, RATTATA,     10
 	tree_mon  5, RATTATA,    10

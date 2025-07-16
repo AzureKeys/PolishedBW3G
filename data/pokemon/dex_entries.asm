@@ -1116,26 +1116,6 @@ FeraligatrPokedexEntry::
 	next "quickly, even on"
 	next "the ground.@"
 
-SECTION "HoothootPokedexEntry", ROMX
-HoothootPokedexEntry::
-	db "Owl@"
-	db   "It begins to hoot"
-	next "at the same time"
-	next "every day. Some"
-	page "trainers use them"
-	next "in place of"
-	next "clocks.@"
-
-SECTION "NoctowlPokedexEntry", ROMX
-NoctowlPokedexEntry::
-	db "Owl@"
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
-
 SECTION "LedybaPokedexEntry", ROMX
 LedybaPokedexEntry::
 	db "Five Star@"

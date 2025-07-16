@@ -111,8 +111,6 @@ EggSpeciesMovesPointers::
 	dw TotodileEggSpeciesMoves          ; Totodile
 	dw TotodileEggSpeciesMoves          ; Croconaw
 	dw TotodileEggSpeciesMoves          ; Feraligatr
-	dw HoothootEggSpeciesMoves          ; Hoothoot
-	dw HoothootEggSpeciesMoves          ; Noctowl
 	dw LedybaEggSpeciesMoves            ; Ledyba
 	dw LedybaEggSpeciesMoves            ; Ledian
 	dw SpinarakEggSpeciesMoves          ; Spinarak
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw BlitzleEggSpeciesMoves           ; Zebstrika
 	dw RoggenrolaEggSpeciesMoves        ; Roggenrola
 	dw RoggenrolaEggSpeciesMoves        ; Boldore
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw RoggenrolaEggSpeciesMoves        ; Gigalith
 	dw WoobatEggSpeciesMoves            ; Woobat
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw WoobatEggSpeciesMoves            ; Swoobat
 	dw DrilburEggSpeciesMoves           ; Drilbur
 	dw DrilburEggSpeciesMoves           ; Excadrill

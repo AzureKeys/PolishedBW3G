@@ -562,16 +562,6 @@ FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lz"
 FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lz"
 FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lz"
 
-SECTION "Hoothoot Mini Icon", ROMX
-HoothootMini::     INCBIN "gfx/minis/hoothoot.2bpp.lz"
-HoothootMiniMask:: INCBIN "gfx/minis/hoothoot_mask.1bpp.lz"
-HoothootIcon::     INCBIN "gfx/icons/hoothoot.2bpp.lz"
-
-SECTION "Noctowl Mini Icon", ROMX
-NoctowlMini::     INCBIN "gfx/minis/noctowl.2bpp.lz"
-NoctowlMiniMask:: INCBIN "gfx/minis/noctowl_mask.1bpp.lz"
-NoctowlIcon::     INCBIN "gfx/icons/noctowl.2bpp.lz"
-
 SECTION "Ledyba Mini Icon", ROMX
 LedybaMini::     INCBIN "gfx/minis/ledyba.2bpp.lz"
 LedybaMiniMask:: INCBIN "gfx/minis/ledyba_mask.1bpp.lz"

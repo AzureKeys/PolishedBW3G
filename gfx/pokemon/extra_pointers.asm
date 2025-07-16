@@ -111,8 +111,6 @@ AnimationExtraPointers:
 	dw TotodileAnimationExtra
 	dw CroconawAnimationExtra
 	dw FeraligatrAnimationExtra
-	dw HoothootAnimationExtra
-	dw NoctowlAnimationExtra
 	dw LedybaAnimationExtra
 	dw LedianAnimationExtra
 	dw SpinarakAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw ZebstrikaAnimationExtra
 	dw RoggenrolaAnimationExtra
 	dw BoldoreAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw GigalithAnimationExtra
 	dw WoobatAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw SwoobatAnimationExtra
 	dw DrilburAnimationExtra
 	dw ExcadrillAnimationExtra

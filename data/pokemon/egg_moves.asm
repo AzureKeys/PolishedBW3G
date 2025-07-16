@@ -543,17 +543,6 @@ TotodileEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-HoothootEggSpeciesMoves:
-	dp HOOTHOOT, PLAIN_FORM
-	db AGILITY
-	db FEINT_ATTACK
-	db NIGHT_SHADE
-	db SUPERSONIC
-	db WING_ATTACK
-	db BRAVE_BIRD
-	db HURRICANE
-	db $ff
-
 LedybaEggSpeciesMoves:
 	dp LEDYBA, PLAIN_FORM
 	db DIZZY_PUNCH

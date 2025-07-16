@@ -76,8 +76,6 @@ NewPokedexOrder:
 	dp TOTODILE
 	dp CROCONAW
 	dp FERALIGATR
-	dp HOOTHOOT
-	dp NOCTOWL
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

@@ -16,8 +16,6 @@ AsleepTreeMons:
 
 .Morn
 .Day
-	dp HOOTHOOT
-	dp NOCTOWL
 	dp SPINARAK
 	dp HERACROSS
 	db 0 ; end

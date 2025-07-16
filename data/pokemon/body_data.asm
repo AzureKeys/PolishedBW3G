@@ -118,8 +118,6 @@ PokemonBodyData:
 	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; TOTODILE
 	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; CROCONAW
 	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; FERALIGATR
-	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
-	body_data  16,  408, WINGS,        BROWN  ; NOCTOWL
 	body_data  10,  108, WINGS,        RED    ; LEDYBA
 	body_data  14,  356, WINGS,        RED    ; LEDIAN
 	body_data   5,   85, INSECTOID,    GREEN  ; SPINARAK
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  16,  795, QUADRUPED,    BLACK  ; ZEBSTRIKA
 	body_data   4,  180, HEAD_LEGS,    BLUE   ; ROGGENROLA
 	body_data   9, 1020, TENTACLES,    BLUE   ; BOLDORE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  17, 2600, TENTACLES,    BLUE   ; GIGALITH
 	body_data   4,   21, WINGS,        BLUE   ; WOOBAT
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   9,  105, WINGS,        BLUE   ; SWOOBAT
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
 	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL

@@ -2681,48 +2681,6 @@ endc
 	learnset 78, CLOSE_COMBAT ; Superpower → similar move
 	learnset 84, HYDRO_PUMP
 
-	evos_attacks Hoothoot
-	evo_data EVOLVE_LEVEL, 20, NOCTOWL
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 1, FORESIGHT
-	learnset 4, HYPNOSIS
-	learnset 7, PECK
-	learnset 10, CONFUSION
-	learnset 13, NIGHT_SHADE ; Echoed Voice → event move
-	learnset 16, ZEN_HEADBUTT
-	learnset 19, HEX ; Psycho Shift → new move
-	learnset 22, WING_ATTACK ; Extrasensory → egg move
-	learnset 25, TAKE_DOWN
-	learnset 28, REFLECT
-	learnset 31, AIR_SLASH
-	learnset 34, EXTRASENSORY ; Uproar → Extrasensory
-	learnset 37, ROOST
-	learnset 40, HYPER_VOICE ; Moonblast → tutor move
-	learnset 43, MOONBLAST ; Synchronoise → Moonblast
-	learnset 46, DREAM_EATER
-
-	evos_attacks Noctowl
-	learnset 1, DREAM_EATER
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 1, FORESIGHT
-	learnset 4, HYPNOSIS
-	learnset 7, PECK
-	learnset 10, CONFUSION
-	learnset 13, NIGHT_SHADE ; Echoed Voice → event move
-	learnset 16, ZEN_HEADBUTT
-	learnset 19, HEX ; Psycho Shift → new move
-	learnset 23, WING_ATTACK ; Extrasensory → egg move
-	learnset 27, TAKE_DOWN
-	learnset 31, REFLECT
-	learnset 35, AIR_SLASH
-	learnset 39, EXTRASENSORY ; Uproar → Extrasensory
-	learnset 43, ROOST
-	learnset 47, HYPER_VOICE ; Moonblast → tutor move
-	learnset 51, MOONBLAST ; Synchronoise → Moonblast
-	learnset 55, DREAM_EATER
-
 	evos_attacks Ledyba
 	evo_data EVOLVE_LEVEL, 18, LEDIAN
 	learnset 1, TACKLE

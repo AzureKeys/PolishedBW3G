@@ -324,14 +324,6 @@ SECTION "Feraligatr Pics", ROMX
 FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 
-SECTION "Hoothoot Pics", ROMX
-HoothootFrontpic: INCBIN "gfx/pokemon/hoothoot/front.animated.2bpp.lz"
-HoothootBackpic:  INCBIN "gfx/pokemon/hoothoot/back.2bpp.lz"
-
-SECTION "Noctowl Pics", ROMX
-NoctowlFrontpic: INCBIN "gfx/pokemon/noctowl/front.animated.2bpp.lz"
-NoctowlBackpic:  INCBIN "gfx/pokemon/noctowl/back.2bpp.lz"
-
 SECTION "Ledyba Pics", ROMX
 LedybaFrontpic: INCBIN "gfx/pokemon/ledyba/front.animated.2bpp.lz"
 LedybaBackpic:  INCBIN "gfx/pokemon/ledyba/back.2bpp.lz"
