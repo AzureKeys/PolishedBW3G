@@ -298,6 +298,8 @@ PokemonPicPointers::
 	pics Scraggy
 	pics Scrafty
 	pics Sigilyph
+	pics YamaskPlain
+	pics Cofagrigus
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

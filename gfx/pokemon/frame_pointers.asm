@@ -294,6 +294,8 @@ FramesPointers:
 	dw ScraggyFrames
 	dw ScraftyFrames
 	dw SigilyphFrames
+	dw YamaskPlainFrames
+	dw CofagrigusFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

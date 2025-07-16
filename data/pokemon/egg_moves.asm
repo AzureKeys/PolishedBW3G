@@ -1255,5 +1255,12 @@ SigilyphEggSpeciesMoves:
 	db STEEL_WING
 	db $ff
 
+YamaskPlainEggSpeciesMoves:
+	dp YAMASK, PLAIN_FORM
+	db DISABLE
+	db ENDURE
+	db NASTY_PLOT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

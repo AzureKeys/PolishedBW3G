@@ -299,4 +299,6 @@ endc
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
 	db  20, 100 ; Sigilyph
+	db   1,  33 ; Yamask
+	db  34, 100 ; Cofagrigus
 	assert_table_length NUM_SPECIES

@@ -74,6 +74,8 @@ CrustleFootprint::
 ScraggyFootprint::
 ScraftyFootprint::
 SigilyphFootprint::
+YamaskFootprint::
+CofagrigusFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

@@ -30,6 +30,7 @@ AlphabeticalPokedexOrder:
 	dp CLEFAIRY
 	dp CLEFFA
 	dp CLODSIRE
+	dp COFAGRIGUS
 	dp CONKELDURR
 	dp CORSOLA
 	dp COTTONEE
@@ -289,6 +290,7 @@ AlphabeticalPokedexOrder:
 	dp WYNAUT
 	dp WYRDEER
 	dp XATU
+	dp YAMASK
 	dp YANMA
 	dp YANMEGA
 	dp ZAPDOS

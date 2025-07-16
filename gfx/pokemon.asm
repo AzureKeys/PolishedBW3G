@@ -1568,3 +1568,11 @@ ScraftyBackpic:  INCBIN "gfx/pokemon/scrafty/back.2bpp.lz"
 SECTION "Sigilyph Pics", ROMX
 SigilyphFrontpic: INCBIN "gfx/pokemon/sigilyph/front.animated.2bpp.lz"
 SigilyphBackpic:  INCBIN "gfx/pokemon/sigilyph/back.2bpp.lz"
+
+SECTION "YamaskPlain Pics", ROMX
+YamaskPlainFrontpic: INCBIN "gfx/pokemon/yamask_plain/front.animated.2bpp.lz"
+YamaskPlainBackpic:  INCBIN "gfx/pokemon/yamask_plain/back.2bpp.lz"
+
+SECTION "Cofagrigus Pics", ROMX
+CofagrigusFrontpic: INCBIN "gfx/pokemon/cofagrigus/front.animated.2bpp.lz"
+CofagrigusBackpic:  INCBIN "gfx/pokemon/cofagrigus/back.2bpp.lz"

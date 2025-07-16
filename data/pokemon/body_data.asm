@@ -301,6 +301,8 @@ PokemonBodyData:
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
 	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
 	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
+	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
+	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

@@ -237,6 +237,7 @@ CrustleAnimation:    INCLUDE "gfx/pokemon/crustle/anim.asm"
 ScraggyAnimation:    INCLUDE "gfx/pokemon/scraggy/anim.asm"
 ScraftyAnimation:    INCLUDE "gfx/pokemon/scrafty/anim.asm"
 SigilyphAnimation:   INCLUDE "gfx/pokemon/sigilyph/anim.asm"
+CofagrigusAnimation: INCLUDE "gfx/pokemon/cofagrigus/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -447,3 +448,5 @@ BasculinRedAnimation: INCLUDE "gfx/pokemon/basculin_red/anim.asm"
 DarumakaPlainAnimation: INCLUDE "gfx/pokemon/darumaka_plain/anim.asm"
 
 DarmanitanPlainAnimation: INCLUDE "gfx/pokemon/darmanitan_plain/anim.asm"
+
+YamaskPlainAnimation: INCLUDE "gfx/pokemon/yamask_plain/anim.asm"

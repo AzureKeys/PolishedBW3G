@@ -1472,6 +1472,16 @@ SigilyphMini::     INCBIN "gfx/minis/sigilyph.2bpp.lz"
 SigilyphMiniMask:: INCBIN "gfx/minis/sigilyph_mask.1bpp.lz"
 SigilyphIcon::     INCBIN "gfx/icons/sigilyph.2bpp.lz"
 
+SECTION "Yamask Mini Icon", ROMX
+YamaskMini::     INCBIN "gfx/minis/yamask.2bpp.lz"
+YamaskMiniMask:: INCBIN "gfx/minis/yamask_mask.1bpp.lz"
+YamaskIcon::     INCBIN "gfx/icons/yamask.2bpp.lz"
+
+SECTION "Cofagrigus Mini Icon", ROMX
+CofagrigusMini::     INCBIN "gfx/minis/cofagrigus.2bpp.lz"
+CofagrigusMiniMask:: INCBIN "gfx/minis/cofagrigus_mask.1bpp.lz"
+CofagrigusIcon::     INCBIN "gfx/icons/cofagrigus.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

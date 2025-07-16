@@ -300,4 +300,6 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; SCRAGGY*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SCRAFTY*
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
+	mon_cry CRY_METAPOD,     $000,  $100 ; YAMASK*
+	mon_cry CRY_METAPOD,     $030,  $0c0 ; COFAGRIGUS*
 	assert_table_length NUM_SPECIES

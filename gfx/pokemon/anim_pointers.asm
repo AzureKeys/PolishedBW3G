@@ -294,6 +294,8 @@ AnimationPointers:
 	dw ScraggyAnimation
 	dw ScraftyAnimation
 	dw SigilyphAnimation
+	dw YamaskPlainAnimation
+	dw CofagrigusAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

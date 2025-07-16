@@ -237,6 +237,7 @@ CrustleBitmasks:    INCLUDE "gfx/pokemon/crustle/bitmask.asm"
 ScraggyBitmasks:    INCLUDE "gfx/pokemon/scraggy/bitmask.asm"
 ScraftyBitmasks:    INCLUDE "gfx/pokemon/scrafty/bitmask.asm"
 SigilyphBitmasks:   INCLUDE "gfx/pokemon/sigilyph/bitmask.asm"
+CofagrigusBitmasks: INCLUDE "gfx/pokemon/cofagrigus/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -447,3 +448,5 @@ BasculinRedBitmasks: INCLUDE "gfx/pokemon/basculin_red/bitmask.asm"
 DarumakaPlainBitmasks: INCLUDE "gfx/pokemon/darumaka_plain/bitmask.asm"
 
 DarmanitanPlainBitmasks: INCLUDE "gfx/pokemon/darmanitan_plain/bitmask.asm"
+
+YamaskPlainBitmasks: INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"

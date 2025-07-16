@@ -298,6 +298,8 @@ EvosAttacksPointers::
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw SigilyphEvosAttacks
+	dw YamaskPlainEvosAttacks
+	dw CofagrigusEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

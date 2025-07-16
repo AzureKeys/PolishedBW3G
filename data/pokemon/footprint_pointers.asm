@@ -294,6 +294,8 @@ FootprintPointers::
 	dw ScraggyFootprint
 	dw ScraftyFootprint
 	dw SigilyphFootprint
+	dw YamaskFootprint
+	dw CofagrigusFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -2910,6 +2910,26 @@ SigilyphPokedexEntry::
     next "to ward off"
     next "invaders.@"
 
+SECTION "YamaskPlainPokedexEntry", ROMX
+YamaskPlainPokedexEntry::
+	db "Spirit@"
+	db "It carries a mask"
+    next "that used to be"
+    next "its face when it"
+    page "was alive. It"
+    next "cries sometimes"
+    next "looking at it.@"
+
+SECTION "CofagrigusPokedexEntry", ROMX
+CofagrigusPokedexEntry::
+	db "Coffin@"
+	db "They swallow grave"
+    next "robbers who get"
+    next "too close and turn"
+    page "them into mummies."
+    next "They are covered"
+    next "in gold.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

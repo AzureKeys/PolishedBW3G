@@ -175,6 +175,7 @@ CrustleFrames:    INCLUDE "gfx/pokemon/crustle/frames.asm"
 ScraggyFrames:    INCLUDE "gfx/pokemon/scraggy/frames.asm"
 ScraftyFrames:    INCLUDE "gfx/pokemon/scrafty/frames.asm"
 SigilyphFrames:   INCLUDE "gfx/pokemon/sigilyph/frames.asm"
+CofagrigusFrames: INCLUDE "gfx/pokemon/cofagrigus/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -243,3 +244,5 @@ BasculinRedFrames: INCLUDE "gfx/pokemon/basculin_red/frames.asm"
 DarumakaPlainFrames: INCLUDE "gfx/pokemon/darumaka_plain/frames.asm"
 
 DarmanitanPlainFrames: INCLUDE "gfx/pokemon/darmanitan_plain/frames.asm"
+
+YamaskPlainFrames: INCLUDE "gfx/pokemon/yamask_plain/frames.asm"

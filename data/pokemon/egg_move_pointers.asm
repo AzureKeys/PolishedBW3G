@@ -294,6 +294,8 @@ EggSpeciesMovesPointers::
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
+	dw YamaskPlainEggSpeciesMoves       ; Yamask
+	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

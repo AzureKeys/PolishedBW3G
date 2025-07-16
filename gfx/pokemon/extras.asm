@@ -237,6 +237,7 @@ CrustleAnimationExtra:    INCLUDE "gfx/pokemon/crustle/anim_idle.asm"
 ScraggyAnimationExtra:    INCLUDE "gfx/pokemon/scraggy/anim_idle.asm"
 ScraftyAnimationExtra:    INCLUDE "gfx/pokemon/scrafty/anim_idle.asm"
 SigilyphAnimationExtra:   INCLUDE "gfx/pokemon/sigilyph/anim_idle.asm"
+CofagrigusAnimationExtra: INCLUDE "gfx/pokemon/cofagrigus/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -447,3 +448,5 @@ BasculinRedAnimationExtra: INCLUDE "gfx/pokemon/basculin_red/anim_idle.asm"
 DarumakaPlainAnimationExtra: INCLUDE "gfx/pokemon/darumaka_plain/anim_idle.asm"
 
 DarmanitanPlainAnimationExtra: INCLUDE "gfx/pokemon/darmanitan_plain/anim_idle.asm"
+
+YamaskPlainAnimationExtra: INCLUDE "gfx/pokemon/yamask_plain/anim_idle.asm"

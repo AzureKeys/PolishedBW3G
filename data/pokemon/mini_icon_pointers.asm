@@ -298,6 +298,8 @@ MiniIconPointers:
 	mini_icon Scraggy
 	mini_icon Scrafty
 	mini_icon Sigilyph
+	mini_icon Yamask
+	mini_icon Cofagrigus
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

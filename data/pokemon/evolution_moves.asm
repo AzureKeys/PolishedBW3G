@@ -298,6 +298,8 @@ endc
 	db NO_MOVE      ; SCRAGGY
 	db NO_MOVE      ; SCRAFTY
 	db NO_MOVE      ; SIGILYPH
+	db NO_MOVE      ; YAMASK
+	db SCARY_FACE   ; COFAGRIGUS
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

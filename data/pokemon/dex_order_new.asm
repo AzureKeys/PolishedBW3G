@@ -63,6 +63,8 @@ NewPokedexOrder:
 	dp SCRAGGY
 	dp SCRAFTY
 	dp SIGILYPH
+	dp YAMASK
+	dp COFAGRIGUS
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
