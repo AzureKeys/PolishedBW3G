@@ -97,8 +97,6 @@ PokemonPicPointers::
 	pics Vaporeon
 	pics Jolteon
 	pics Flareon
-	pics Omanyte
-	pics Omastar
 	pics Kabuto
 	pics Kabutops
 	pics Aerodactyl
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Liepard
 	pics Munna
 	pics Musharna
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Pidove
 	pics Tranquill
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Unfezant
 	pics Blitzle
 	pics Zebstrika

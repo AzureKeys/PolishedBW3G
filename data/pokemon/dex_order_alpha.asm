@@ -170,8 +170,6 @@ AlphabeticalPokedexOrder:
 	dp NINETALES
 	dp NOCTOWL
 	dp OCTILLERY
-	dp OMANYTE
-	dp OMASTAR
 	dp ONIX
 	dp OSHAWOTT
 	dp OVERQWIL

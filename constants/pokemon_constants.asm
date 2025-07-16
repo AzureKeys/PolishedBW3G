@@ -117,8 +117,6 @@
 	const VAPOREON   ; 46
 	const JOLTEON    ; 47
 	const FLAREON    ; 48
-	const OMANYTE    ; xx
-	const OMASTAR    ; xx
 	const KABUTO     ; xx
 	const KABUTOPS   ; xx
 	const AERODACTYL ; xx
@@ -278,10 +276,10 @@
 	const LIEPARD    ; 129
 	const MUNNA      ; 128
 	const MUSHARNA   ; 129
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const PIDOVE     ; 129
 	const TRANQUILL  ; 128
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const UNFEZANT   ; 129
 	const BLITZLE    ; 128
 	const ZEBSTRIKA  ; 129

@@ -97,8 +97,6 @@ EvosAttacksPointers::
 	dw VaporeonEvosAttacks
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
-	dw OmanyteEvosAttacks
-	dw OmastarEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw LiepardEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw PidoveEvosAttacks
 	dw TranquillEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw UnfezantEvosAttacks
 	dw BlitzleEvosAttacks
 	dw ZebstrikaEvosAttacks

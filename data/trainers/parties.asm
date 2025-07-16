@@ -677,7 +677,7 @@ BrockGroup:
 	tr_mon 63, RATTATA @ EVIOLITE
 		tr_evs 252 HP, 196 SDf
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, OUTRAGE
-	tr_mon 65, OMASTAR
+	tr_mon 65, RATTATA
 		tr_evs 252 HP, 196 SAt
 		tr_moves ANCIENTPOWER, SURF, PROTECT, SPIKES
 	tr_mon 68, ONIX
@@ -696,7 +696,7 @@ BrockGroup:
 		tr_moves IRON_HEAD, ROCK_SLIDE, EARTHQUAKE, SANDSTORM
 	tr_mon 73, RATTATA @ KINGS_ROCK
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, MEGAHORN
-	tr_mon 72, OMASTAR @ MYSTIC_WATER
+	tr_mon 72, RATTATA @ MYSTIC_WATER
 		tr_moves ANCIENTPOWER, SURF, EARTH_POWER, SPIKES
 	tr_mon 72, KABUTOPS @ MIRACLE_SEED
 		tr_moves SLASH, SURF, ENDURE, GIGA_DRAIN
@@ -1020,8 +1020,8 @@ RedGroup:
 	tr_mon 85, SNORLAX @ LEFTOVERS, MALE
 		tr_extra IMMUNITY, ATK_UP_SATK_DOWN
 		tr_moves CURSE, REST, SLEEP_TALK, RETURN
-	tr_mon 87, OMASTAR @ WISE_GLASSES, MALE
-		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
+	tr_mon 87, RATTATA @ WISE_GLASSES, MALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_moves SURF, ANCIENTPOWER, EARTH_POWER, ICE_BEAM
 	tr_mon 87, GYARADOS @ QUICK_CLAW, MALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN, SHINY
@@ -3363,7 +3363,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer MIGUEL, "Miguel"
-	tr_mon 62, OMASTAR, MALE
+	tr_mon 62, RATTATA, MALE
 	tr_mon 62, KABUTOPS, MALE
 	tr_mon 64, UMBREON, MALE
 		tr_extra SHINY
@@ -3736,7 +3736,7 @@ RuinManiacGroup:
 
 	def_trainer_class RUIN_MANIAC
 	def_trainer JONES, "Jones"
-	tr_mon 8, OMANYTE
+	tr_mon 8, RATTATA
 	tr_mon 8, KABUTO
 	end_trainer
 
@@ -3746,13 +3746,13 @@ RuinManiacGroup:
 	end_trainer
 
 	def_trainer PETRY, "Petry"
-	tr_mon 23, OMANYTE
+	tr_mon 23, RATTATA
 	tr_mon 23, KABUTO
 	tr_mon 25, AERODACTYL
 	end_trainer
 
 	def_trainer GLYN, "Glyn"
-	tr_mon 25, OMASTAR
+	tr_mon 25, RATTATA
 	tr_mon 25, KABUTOPS
 	end_trainer
 
@@ -7713,8 +7713,8 @@ YellowGroup:
 		tr_extra STURDY, ATK_UP_SATK_DOWN
 		tr_evs 240 HP
 		tr_moves ROLLOUT, DEFENSE_CURL, EARTHQUAKE, ROCK_BLAST
-	tr_mon LEVEL_FROM_BADGES + 4, "Omny", OMANYTE @ SITRUS_BERRY, FEMALE
-		tr_extra SHELL_ARMOR
+	tr_mon LEVEL_FROM_BADGES + 4, "Omny", RATTATA @ SITRUS_BERRY, FEMALE
+		tr_extra HUSTLE
 		tr_evs 240 HP
 		tr_moves SURF, PROTECT, ANCIENTPOWER, AURORA_BEAM
 	tr_mon LEVEL_FROM_BADGES + 8, "Chuchu", PIKACHU @ LIGHT_BALL, FEMALE | PIKACHU_YELLOW_FORM
@@ -7724,8 +7724,8 @@ YellowGroup:
 	end_trainer
 
 	def_trainer 2, "Yellow"
-	tr_mon 72, "Omny", OMASTAR @ WISE_GLASSES, FEMALE
-		tr_extra SHELL_ARMOR
+	tr_mon 72, "Omny", RATTATA @ WISE_GLASSES, FEMALE
+		tr_extra HUSTLE
 		tr_moves SCALD, ANCIENTPOWER, SPIKES, ICE_BEAM
 	tr_mon 73, "Ratty", RATICATE @ KINGS_ROCK, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN

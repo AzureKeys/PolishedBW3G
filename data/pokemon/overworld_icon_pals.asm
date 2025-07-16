@@ -97,8 +97,6 @@ OverworldMonIconColors::
 	iconpal AZURE, PURPLE ; VAPOREON
 	iconpal BROWN, GREEN ; JOLTEON
 	iconpal ORANGE, BLUE ; FLAREON
-	iconpal AZURE, GRAY ; OMANYTE
-	iconpal AZURE, GRAY ; OMASTAR
 	iconpal BROWN, GRAY ; KABUTO
 	iconpal BROWN, GRAY ; KABUTOPS
 	iconpal BROWN, GRAY ; AERODACTYL
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal PURPLE, RED ; LIEPARD
 	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, BLUE ; PIDOVE
 	iconpal GRAY, GREEN ; TRANQUILL
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal PINK, PURPLE ; UNFEZANT
 	iconpal BLACK, BLUE ; BLITZLE
 	iconpal BLACK, PURPLE ; ZEBSTRIKA

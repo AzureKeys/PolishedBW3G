@@ -99,8 +99,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $0aa,  $17f ; Vaporeon
 	mon_cry CRY_VENONAT,     $03d,  $100 ; Jolteon
 	mon_cry CRY_VENONAT,     $010,  $0a0 ; Flareon
-	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; Omanyte
-	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; Omastar
 	mon_cry CRY_CATERPIE,    $0bb,  $0c0 ; Kabuto
 	mon_cry CRY_SHELLDER,    $0ee,  $081 ; Kabutops
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; Aerodactyl
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
 	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
 	mon_cry CRY_PIDGEY,      $1c0,  $184 ; Tranquill
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
 	mon_cry CRY_PIDGEOTTO,   $024,  $0c0 ; Blitzle
 	mon_cry CRY_NIDORAN_M,   $026,  $220 ; Zebstrika

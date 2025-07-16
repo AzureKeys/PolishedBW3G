@@ -2256,42 +2256,6 @@ endc
 	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
 	learnset 45, FLARE_BLITZ
 
-	evos_attacks Omanyte
-	evo_data EVOLVE_LEVEL, 40, OMASTAR
-	learnset 1, WRAP ; Constrict → similar move
-	learnset 1, DEFENSE_CURL ; Withdraw → similar move
-	learnset 7, BITE
-	learnset 10, WATER_GUN
-	learnset 16, ROCK_THROW ; Rollout → event move
-	learnset 19, LEER
-	learnset 25, ROLLOUT ; Mud Shot → Rollout
-	learnset 28, BUBBLE_BEAM ; Brine → egg move
-	learnset 34, PROTECT
-	learnset 37, ANCIENTPOWER
-	learnset 43, AURORA_BEAM ; Tickle → egg move
-	learnset 46, ROCK_BLAST
-	learnset 52, SHELL_SMASH
-	learnset 55, HYDRO_PUMP
-	learnset 61, POWER_GEM ; new move
-
-	evos_attacks Omastar
-	learnset 1, WRAP ; Constrict → similar move
-	learnset 1, DEFENSE_CURL ; Withdraw → similar move
-	learnset 1, ICICLE_SPEAR ; Spike Cannon → new move ; evolution move
-	learnset 7, BITE
-	learnset 10, WATER_GUN
-	learnset 16, ROCK_THROW ; Rollout → event move
-	learnset 19, LEER
-	learnset 25, ROLLOUT ; Mud Shot → Rollout
-	learnset 28, BUBBLE_BEAM ; Brine → egg move
-	learnset 34, PROTECT
-	learnset 37, ANCIENTPOWER
-	learnset 48, SPIKES ; Tickle → new move
-	learnset 56, ROCK_BLAST
-	learnset 67, SHELL_SMASH
-	learnset 75, HYDRO_PUMP
-	learnset 86, POWER_GEM ; new move
-
 	evos_attacks Kabuto
 	evo_data EVOLVE_LEVEL, 40, KABUTOPS
 	learnset 1, SCRATCH

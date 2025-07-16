@@ -93,8 +93,6 @@ EvolutionMoves::
 	db WATER_GUN    ; VAPOREON
 	db THUNDERSHOCK ; JOLTEON
 	db EMBER        ; FLAREON
-	db NO_MOVE      ; OMANYTE
-	db ICICLE_SPEAR ; OMASTAR
 	db NO_MOVE      ; KABUTO
 	db SLASH        ; KABUTOPS
 	db NO_MOVE      ; AERODACTYL
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; LIEPARD
 	db NO_MOVE      ; MUNNA
 	db NO_MOVE      ; MUSHARNA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; PIDOVE
 	db NO_MOVE      ; TRANQUILL
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; UNFEZANT
 	db NO_MOVE      ; BLITZLE
 	db NO_MOVE      ; ZEBSTRIKA

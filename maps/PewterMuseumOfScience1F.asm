@@ -162,7 +162,7 @@ HelixDomeAmberMenuDataHeader:
 ResurrectHelixFossil:
 	takeitem HELIX_FOSSIL
 	scall ResurrectAFossilScript
-	givepoke OMANYTE, 20
+	givepoke RATTATA, 20
 	sjumpfwd FinishResurrect
 
 ResurrectDomeFossil:

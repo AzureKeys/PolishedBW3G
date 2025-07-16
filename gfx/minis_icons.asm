@@ -472,16 +472,6 @@ FlareonMini::     INCBIN "gfx/minis/flareon.2bpp.lz"
 FlareonMiniMask:: INCBIN "gfx/minis/flareon_mask.1bpp.lz"
 FlareonIcon::     INCBIN "gfx/icons/flareon.2bpp.lz"
 
-SECTION "Omanyte Mini Icon", ROMX
-OmanyteMini::     INCBIN "gfx/minis/omanyte.2bpp.lz"
-OmanyteMiniMask:: INCBIN "gfx/minis/omanyte_mask.1bpp.lz"
-OmanyteIcon::     INCBIN "gfx/icons/omanyte.2bpp.lz"
-
-SECTION "Omastar Mini Icon", ROMX
-OmastarMini::     INCBIN "gfx/minis/omastar.2bpp.lz"
-OmastarMiniMask:: INCBIN "gfx/minis/omastar_mask.1bpp.lz"
-OmastarIcon::     INCBIN "gfx/icons/omastar.2bpp.lz"
-
 SECTION "Kabuto Mini Icon", ROMX
 KabutoMini::     INCBIN "gfx/minis/kabuto.2bpp.lz"
 KabutoMiniMask:: INCBIN "gfx/minis/kabuto_mask.1bpp.lz"

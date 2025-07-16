@@ -93,8 +93,6 @@ AnimationPointers:
 	dw VaporeonAnimation
 	dw JolteonAnimation
 	dw FlareonAnimation
-	dw OmanyteAnimation
-	dw OmastarAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation
 	dw AerodactylAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw LiepardAnimation
 	dw MunnaAnimation
 	dw MusharnaAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw PidoveAnimation
 	dw TranquillAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw UnfezantAnimation
 	dw BlitzleAnimation
 	dw ZebstrikaAnimation

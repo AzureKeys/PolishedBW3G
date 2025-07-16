@@ -497,18 +497,6 @@ EeveeEggSpeciesMoves:
 	db CHARM
 	db $ff
 
-OmanyteEggSpeciesMoves:
-	dp OMANYTE, PLAIN_FORM
-	db AURORA_BEAM
-	db BUBBLE_BEAM
-	db HAZE
-	db SPIKES
-	db TOXIC_SPIKES
-	db SUPERSONIC
-	db WATER_PULSE
-	db KNOCK_OFF
-	db $ff
-
 KabutoEggSpeciesMoves:
 	dp KABUTO, PLAIN_FORM
 	db AURORA_BEAM

@@ -93,8 +93,6 @@ FramesPointers:
 	dw VaporeonFrames
 	dw JolteonFrames
 	dw FlareonFrames
-	dw OmanyteFrames
-	dw OmastarFrames
 	dw KabutoFrames
 	dw KabutopsFrames
 	dw AerodactylFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw LiepardFrames
 	dw MunnaFrames
 	dw MusharnaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw PidoveFrames
 	dw TranquillFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw UnfezantFrames
 	dw BlitzleFrames
 	dw ZebstrikaFrames

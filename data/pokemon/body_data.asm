@@ -100,8 +100,6 @@ PokemonBodyData:
 	body_data  10,  290, QUADRUPED,    BLUE   ; VAPOREON
 	body_data   8,  245, QUADRUPED,    YELLOW ; JOLTEON
 	body_data   9,  250, QUADRUPED,    RED    ; FLAREON
-	body_data   4,   75, TENTACLES,    BLUE   ; OMANYTE
-	body_data  10,  350, TENTACLES,    BLUE   ; OMASTAR
 	body_data   5,  115, INSECTOID,    BROWN  ; KABUTO
 	body_data  13,  405, BIPEDAL_TAIL, BROWN  ; KABUTOPS
 	body_data  18,  590, WINGS,        PURPLE ; AERODACTYL
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
 	body_data   6,  150, WINGS,        GRAY   ; TRANQUILL
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT
 	body_data   8,  298, QUADRUPED,    BLACK  ; BLITZLE
 	body_data  16,  795, QUADRUPED,    BLACK  ; ZEBSTRIKA

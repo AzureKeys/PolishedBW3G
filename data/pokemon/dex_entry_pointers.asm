@@ -94,8 +94,6 @@ PokedexDataPointerTable:
 	dba VaporeonPokedexEntry
 	dba JolteonPokedexEntry
 	dba FlareonPokedexEntry
-	dba OmanytePokedexEntry
-	dba OmastarPokedexEntry
 	dba KabutoPokedexEntry
 	dba KabutopsPokedexEntry
 	dba AerodactylPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba LiepardPokedexEntry
 	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba PidovePokedexEntry
 	dba TranquillPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba UnfezantPokedexEntry
 	dba BlitzlePokedexEntry
 	dba ZebstrikaPokedexEntry

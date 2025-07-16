@@ -93,8 +93,6 @@ FootprintPointers::
 	dw VaporeonFootprint
 	dw JolteonFootprint
 	dw FlareonFootprint
-	dw OmanyteFootprint
-	dw OmastarFootprint
 	dw KabutoFootprint
 	dw KabutopsFootprint
 	dw AerodactylFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw LiepardFootprint
 	dw MunnaFootprint
 	dw MusharnaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw PidoveFootprint
 	dw TranquillFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw UnfezantFootprint
 	dw BlitzleFootprint
 	dw ZebstrikaFootprint

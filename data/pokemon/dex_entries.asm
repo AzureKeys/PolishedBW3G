@@ -936,26 +936,6 @@ FlareonPokedexEntry::
 	next "can reach up to"
 	next "1700 degrees.@"
 
-SECTION "OmanytePokedexEntry", ROMX
-OmanytePokedexEntry::
-	db "Spiral@"
-	db   "In prehistoric"
-	next "times, it swam on"
-	next "the sea floor,"
-	page "eating plankton."
-	next "Its fossils are"
-	next "sometimes found.@"
-
-SECTION "OmastarPokedexEntry", ROMX
-OmastarPokedexEntry::
-	db "Spiral@"
-	db   "Its heavy shell"
-	next "allowed it to"
-	next "reach only nearby"
-	page "food. This could"
-	next "be the reason it"
-	next "is extinct.@"
-
 SECTION "KabutoPokedexEntry", ROMX
 KabutoPokedexEntry::
 	db "Shellfish@"

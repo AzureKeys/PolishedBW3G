@@ -97,8 +97,6 @@ MiniIconPointers:
 	mini_icon Vaporeon
 	mini_icon Jolteon
 	mini_icon Flareon
-	mini_icon Omanyte
-	mini_icon Omastar
 	mini_icon Kabuto
 	mini_icon Kabutops
 	mini_icon Aerodactyl
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Liepard
 	mini_icon Munna
 	mini_icon Musharna
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Pidove
 	mini_icon Tranquill
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Unfezant
 	mini_icon Blitzle
 	mini_icon Zebstrika

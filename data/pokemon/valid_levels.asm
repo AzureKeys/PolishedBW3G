@@ -94,8 +94,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Vaporeon
 	db  20, 100 ; Jolteon
 	db  20, 100 ; Flareon
-	db  15,  39 ; Omanyte
-	db  40, 100 ; Omastar
 	db  15,  39 ; Kabuto
 	db  40, 100 ; Kabutops
 	db  15, 100 ; Aerodactyl
@@ -259,10 +257,10 @@ endc
 	db  20, 100 ; Liepard
 	db   1,  19 ; Munna
 	db  20, 100 ; Musharna
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  20 ; Pidove
 	db  21,  31 ; Tranquill
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  32, 100 ; Unfezant
 	db   1,  26 ; Blitzle
 	db  27, 100 ; Zebstrika

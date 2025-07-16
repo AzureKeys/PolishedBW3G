@@ -263,8 +263,6 @@ NewPokedexOrder:
 	dp MISDREAVUS
 	dp MISMAGIUS
 	dp LAPRAS
-	dp OMANYTE
-	dp OMASTAR
 	dp KABUTO
 	dp KABUTOPS
 	dp AERODACTYL

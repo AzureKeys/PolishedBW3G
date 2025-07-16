@@ -93,8 +93,6 @@ AnimationExtraPointers:
 	dw VaporeonAnimationExtra
 	dw JolteonAnimationExtra
 	dw FlareonAnimationExtra
-	dw OmanyteAnimationExtra
-	dw OmastarAnimationExtra
 	dw KabutoAnimationExtra
 	dw KabutopsAnimationExtra
 	dw AerodactylAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw LiepardAnimationExtra
 	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw PidoveAnimationExtra
 	dw TranquillAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw UnfezantAnimationExtra
 	dw BlitzleAnimationExtra
 	dw ZebstrikaAnimationExtra

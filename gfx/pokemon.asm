@@ -264,14 +264,6 @@ SECTION "Flareon Pics", ROMX
 FlareonFrontpic: INCBIN "gfx/pokemon/flareon/front.animated.2bpp.lz"
 FlareonBackpic:  INCBIN "gfx/pokemon/flareon/back.2bpp.lz"
 
-SECTION "Omanyte Pics", ROMX
-OmanyteFrontpic: INCBIN "gfx/pokemon/omanyte/front.animated.2bpp.lz"
-OmanyteBackpic:  INCBIN "gfx/pokemon/omanyte/back.2bpp.lz"
-
-SECTION "Omastar Pics", ROMX
-OmastarFrontpic: INCBIN "gfx/pokemon/omastar/front.animated.2bpp.lz"
-OmastarBackpic:  INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
-
 SECTION "Kabuto Pics", ROMX
 KabutoFrontpic: INCBIN "gfx/pokemon/kabuto/front.animated.2bpp.lz"
 KabutoBackpic:  INCBIN "gfx/pokemon/kabuto/back.2bpp.lz"
