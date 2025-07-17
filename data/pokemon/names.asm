@@ -112,8 +112,6 @@ PokemonNames::
 	rawchar "Totodile@@"
 	rawchar "Croconaw@@"
 	rawchar "Feraligatr"
-	rawchar "Spinarak@@"
-	rawchar "Ariados@@@"
 	rawchar "Crobat@@@@"
 	rawchar "Chinchou@@"
 	rawchar "Lanturn@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Woobat@@@@"
 	rawchar "Swoobat@@@"
 	rawchar "Drilbur@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Excadrill@"
 	rawchar "Audino@@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Timburr@@@"
 	rawchar "Gurdurr@@@"
 	rawchar "Conkeldurr"
@@ -297,4 +295,6 @@ PokemonNames::
 	rawchar "Archeops@@"
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
+	rawchar "Zorua@@@@@"
+	rawchar "Zoroark@@@"
 	assert_table_length NUM_SPECIES + 1

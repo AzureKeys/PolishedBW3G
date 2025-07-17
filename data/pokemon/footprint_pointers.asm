@@ -111,8 +111,6 @@ FootprintPointers::
 	dw TotodileFootprint
 	dw CroconawFootprint
 	dw FeraligatrFootprint
-	dw SpinarakFootprint
-	dw AriadosFootprint
 	dw CrobatFootprint
 	dw ChinchouFootprint
 	dw LanturnFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw WoobatFootprint
 	dw SwoobatFootprint
 	dw DrilburFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ExcadrillFootprint
 	dw AudinoFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw TimburrFootprint
 	dw GurdurrFootprint
 	dw ConkeldurrFootprint
@@ -296,6 +294,8 @@ FootprintPointers::
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
 	dw GarbodorFootprint
+	dw ZoruaFootprint
+	dw ZoroarkFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

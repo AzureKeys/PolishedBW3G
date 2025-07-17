@@ -52,7 +52,7 @@ TreeMonSet_Town:
 
 TreeMonSet_Route:
 	tree_mon 50, RATTATA,   10
-	tree_mon 15, SPINARAK,   10
+	tree_mon 15, RATTATA,   10
 	tree_mon 15, RATTATA,     10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1

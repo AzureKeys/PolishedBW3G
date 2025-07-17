@@ -115,8 +115,6 @@ EvosAttacksPointers::
 	dw TotodileEvosAttacks
 	dw CroconawEvosAttacks
 	dw FeraligatrEvosAttacks
-	dw SpinarakEvosAttacks
-	dw AriadosEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw WoobatEvosAttacks
 	dw SwoobatEvosAttacks
 	dw DrilburEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ExcadrillEvosAttacks
 	dw AudinoEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw TimburrEvosAttacks
 	dw GurdurrEvosAttacks
 	dw ConkeldurrEvosAttacks
@@ -300,6 +298,8 @@ EvosAttacksPointers::
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
+	dw ZoruaPlainEvosAttacks
+	dw ZoroarkPlainEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

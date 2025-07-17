@@ -1116,26 +1116,6 @@ FeraligatrPokedexEntry::
 	next "quickly, even on"
 	next "the ground.@"
 
-SECTION "SpinarakPokedexEntry", ROMX
-SpinarakPokedexEntry::
-	db "String Spit@"
-	db   "If prey becomes"
-	next "ensnared in its"
-	next "nest of spun"
-	page "string, it waits"
-	next "motionlessly until"
-	next "it becomes dark.@"
-
-SECTION "AriadosPokedexEntry", ROMX
-AriadosPokedexEntry::
-	db "Long Leg@"
-	db   "Rather than making"
-	next "a nest in one"
-	next "specific spot, it"
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
-
 SECTION "CrobatPokedexEntry", ROMX
 CrobatPokedexEntry::
 	db "Bat@"
@@ -2928,6 +2908,25 @@ GarbodorPokedexEntry::
     page "can shoot toxic"
     next "fluid from the end"
     next "of its arm.@"
+
+SECTION "ZoruaPlainPokedexEntry", ROMX
+ZoruaPlainPokedexEntry::
+	db "Tricky Fox@"
+	db "To protect itself,"
+    next "Zorua changes its"
+    next "appearance to that"
+    page "of another"
+    next "#mon, or even"
+    next "a person.@"
+
+SECTION "ZoroarkPlainPokedexEntry", ROMX
+ZoroarkPlainPokedexEntry::
+	db "IllusionFox@"
+	db "Stories say those"
+    next "who try to catch"
+    next "Zoroark are"
+    page "trapped in an"
+    next "illusion.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::

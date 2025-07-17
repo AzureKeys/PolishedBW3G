@@ -111,8 +111,6 @@ EvolutionMoves::
 	db NO_MOVE      ; TOTODILE
 	db NO_MOVE      ; CROCONAW
 	db NIGHT_SLASH  ; FERALIGATR
-	db NO_MOVE      ; SPINARAK
-	db BUG_BITE     ; ARIADOS
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; WOOBAT
 	db NO_MOVE      ; SWOOBAT
 	db NO_MOVE      ; DRILBUR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; EXCADRILL
 	db NO_MOVE      ; AUDINO
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
 	db NO_MOVE      ; CONKELDURR
@@ -300,6 +298,8 @@ endc
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
+	db NO_MOVE      ; ZORUA
+	db NIGHT_SLASH  ; ZOROARK
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

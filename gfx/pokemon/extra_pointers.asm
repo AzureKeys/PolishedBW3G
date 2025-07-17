@@ -111,8 +111,6 @@ AnimationExtraPointers:
 	dw TotodileAnimationExtra
 	dw CroconawAnimationExtra
 	dw FeraligatrAnimationExtra
-	dw SpinarakAnimationExtra
-	dw AriadosAnimationExtra
 	dw CrobatAnimationExtra
 	dw ChinchouAnimationExtra
 	dw LanturnAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw WoobatAnimationExtra
 	dw SwoobatAnimationExtra
 	dw DrilburAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ExcadrillAnimationExtra
 	dw AudinoAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw TimburrAnimationExtra
 	dw GurdurrAnimationExtra
 	dw ConkeldurrAnimationExtra
@@ -296,6 +294,8 @@ AnimationExtraPointers:
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra
+	dw ZoruaPlainAnimationExtra
+	dw ZoroarkPlainAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

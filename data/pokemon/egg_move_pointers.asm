@@ -111,8 +111,6 @@ EggSpeciesMovesPointers::
 	dw TotodileEggSpeciesMoves          ; Totodile
 	dw TotodileEggSpeciesMoves          ; Croconaw
 	dw TotodileEggSpeciesMoves          ; Feraligatr
-	dw SpinarakEggSpeciesMoves          ; Spinarak
-	dw SpinarakEggSpeciesMoves          ; Ariados
 	dw ZubatEggSpeciesMoves             ; Crobat
 	dw ChinchouEggSpeciesMoves          ; Chinchou
 	dw ChinchouEggSpeciesMoves          ; Lanturn
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw WoobatEggSpeciesMoves            ; Woobat
 	dw WoobatEggSpeciesMoves            ; Swoobat
 	dw DrilburEggSpeciesMoves           ; Drilbur
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw DrilburEggSpeciesMoves           ; Excadrill
 	dw AudinoEggSpeciesMoves            ; Audino
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TimburrEggSpeciesMoves           ; Timburr
 	dw TimburrEggSpeciesMoves           ; Gurdurr
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
@@ -296,6 +294,8 @@ EggSpeciesMovesPointers::
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
+	dw ZoruaPlainEggSpeciesMoves        ; Zorua
+	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -118,8 +118,6 @@ PokemonBodyData:
 	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; TOTODILE
 	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; CROCONAW
 	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; FERALIGATR
-	body_data   5,   85, INSECTOID,    GREEN  ; SPINARAK
-	body_data  11,  335, INSECTOID,    RED    ; ARIADOS
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
 	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
 	body_data  12,  225, FINS,         BLUE   ; LANTURN
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data   4,   21, WINGS,        BLUE   ; WOOBAT
 	body_data   9,  105, WINGS,        BLUE   ; SWOOBAT
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
 	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
@@ -303,6 +301,8 @@ PokemonBodyData:
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
+	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
+	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

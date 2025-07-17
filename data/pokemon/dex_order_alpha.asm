@@ -10,7 +10,6 @@ AlphabeticalPokedexOrder:
 	dp ARCANINE
 	dp ARCHEN
 	dp ARCHEOPS
-	dp ARIADOS
 	dp ARTICUNO
 	dp AUDINO
 	dp AZUMARILL
@@ -235,7 +234,6 @@ AlphabeticalPokedexOrder:
 	dp SNIVY
 	dp SNORLAX
 	dp SNUBBULL
-	dp SPINARAK
 	dp SQUIRTLE
 	dp STANTLER
 	dp STARMIE
@@ -295,5 +293,7 @@ AlphabeticalPokedexOrder:
 	dp YANMEGA
 	dp ZAPDOS
 	dp ZEBSTRIKA
+	dp ZOROARK
+	dp ZORUA
 	dp ZUBAT
 	assert_table_length NUM_POKEMON

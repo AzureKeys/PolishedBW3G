@@ -1,7 +1,5 @@
 Footprints:: ; needed for BANK(Footprints)
 
-SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
-
 StaryuFootprint::
 StarmieFootprint:: INCBIN "gfx/footprints/circle_large.1bpp.lz"
 
@@ -82,6 +80,8 @@ ArchenFootprint::
 ArcheopsFootprint::
 TrubbishFootprint::
 GarbodorFootprint::
+ZoruaFootprint::
+ZoroarkFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -214,7 +214,6 @@ TyphlosionFootprint:: INCBIN "gfx/footprints/typhlosion.1bpp.lz"
 TotodileFootprint:: INCBIN "gfx/footprints/totodile.1bpp.lz"
 CroconawFootprint:: INCBIN "gfx/footprints/croconaw.1bpp.lz"
 FeraligatrFootprint:: INCBIN "gfx/footprints/feraligatr.1bpp.lz"
-AriadosFootprint:: INCBIN "gfx/footprints/ariados.1bpp.lz"
 PichuFootprint:: INCBIN "gfx/footprints/pichu.1bpp.lz"
 CleffaFootprint:: INCBIN "gfx/footprints/cleffa.1bpp.lz"
 IgglybuffFootprint:: INCBIN "gfx/footprints/igglybuff.1bpp.lz"

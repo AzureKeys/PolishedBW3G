@@ -852,7 +852,7 @@ JanineGroup:
 	tr_mon 64, CROBAT
 		tr_evs 252 Atk, 164 Spe
 		tr_moves SCREECH, TOXIC, CONFUSE_RAY, AERIAL_ACE
-	tr_mon 61, ARIADOS
+	tr_mon 61, RATTATA
 		tr_evs 252 Atk, 164 SAt
 		tr_moves AGILITY, POISON_JAB, MEAN_LOOK, PSYCHIC_M
 	tr_mon 62, QWILFISH
@@ -872,7 +872,7 @@ JanineGroup:
 	def_trainer 2, "Janine"
 	tr_mon 73, CROBAT @ KINGS_ROCK
 		tr_moves DOUBLE_TEAM, POISON_JAB, AERIAL_ACE, TOXIC
-	tr_mon 72, ARIADOS @ QUICK_CLAW
+	tr_mon 72, RATTATA @ QUICK_CLAW
 		tr_moves SCARY_FACE, POISON_JAB, MEAN_LOOK, GIGA_DRAIN
 	tr_mon 72, QWILFISH @ FOCUS_BAND
 		tr_moves AQUA_TAIL, POISON_JAB, SPIKES, EXPLOSION
@@ -1775,7 +1775,7 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer KEN, "Ken"
-	tr_mon 46, ARIADOS
+	tr_mon 46, RATTATA
 	tr_mon 47, PINSIR
 	end_trainer
 
@@ -2097,13 +2097,13 @@ TwinsGroup:
 
 	def_trainer_class TWINS
 	def_trainer AMYANDMIMI1, "Amy & Mimi"
-	tr_mon 13, SPINARAK
+	tr_mon 13, RATTATA
 	tr_mon 13, RATTATA
 	end_trainer
 
 	def_trainer AMYANDMIMI2, "Amy & Mimi"
 	tr_mon 10, RATTATA
-	tr_mon 10, SPINARAK
+	tr_mon 10, RATTATA
 	end_trainer
 
 	def_trainer ANNANDANNE1, "Tori & Til"
@@ -3672,7 +3672,7 @@ BugManiacGroup:
 
 	def_trainer DOUG, "Doug"
 	tr_mon 59, RATTATA
-	tr_mon 57, ARIADOS
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer DANE, "Dane"
@@ -3681,7 +3681,7 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer DION, "Dion"
-	tr_mon 63, ARIADOS
+	tr_mon 63, RATTATA
 	end_trainer
 
 	def_trainer STACEY, "Stacey"
@@ -3973,7 +3973,7 @@ SchoolboyGroup:
 
 	def_trainer JOHNNY, "Johnny"
 	tr_mon 18, "Gold", RATTATA @ GOLD_LEAF
-	tr_mon 16, "Spin", SPINARAK
+	tr_mon 16, "Spin", RATTATA
 	tr_mon 17, "Rat", RATTATA @ ORAN_BERRY
 	end_trainer
 
@@ -7643,7 +7643,7 @@ KatyGroup:
 
 	def_trainer_class KATY
 	def_trainer 1, "Katy"
-	tr_mon 55, ARIADOS
+	tr_mon 55, RATTATA
 	tr_mon 55, RATTATA
 	tr_mon 56, SHUCKLE
 	tr_mon 56, KLEAVOR
@@ -7652,7 +7652,7 @@ KatyGroup:
 	end_trainer
 
 	def_trainer 2, "Katy"
-	tr_mon 73, ARIADOS
+	tr_mon 73, RATTATA
 	tr_mon 73, RATTATA
 	tr_mon 74, SHUCKLE
 	tr_mon 74, KLEAVOR

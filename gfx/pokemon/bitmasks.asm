@@ -70,8 +70,6 @@ QuilavaBitmasks:    INCLUDE "gfx/pokemon/quilava/bitmask.asm"
 TotodileBitmasks:   INCLUDE "gfx/pokemon/totodile/bitmask.asm"
 CroconawBitmasks:   INCLUDE "gfx/pokemon/croconaw/bitmask.asm"
 FeraligatrBitmasks: INCLUDE "gfx/pokemon/feraligatr/bitmask.asm"
-SpinarakBitmasks:   INCLUDE "gfx/pokemon/spinarak/bitmask.asm"
-AriadosBitmasks:    INCLUDE "gfx/pokemon/ariados/bitmask.asm"
 CrobatBitmasks:     INCLUDE "gfx/pokemon/crobat/bitmask.asm"
 ChinchouBitmasks:   INCLUDE "gfx/pokemon/chinchou/bitmask.asm"
 LanturnBitmasks:    INCLUDE "gfx/pokemon/lanturn/bitmask.asm"
@@ -452,3 +450,7 @@ DarumakaPlainBitmasks: INCLUDE "gfx/pokemon/darumaka_plain/bitmask.asm"
 DarmanitanPlainBitmasks: INCLUDE "gfx/pokemon/darmanitan_plain/bitmask.asm"
 
 YamaskPlainBitmasks: INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"
+
+ZoruaPlainBitmasks: INCLUDE "gfx/pokemon/zorua_plain/bitmask.asm"
+
+ZoroarkPlainBitmasks: INCLUDE "gfx/pokemon/zoroark_plain/bitmask.asm"

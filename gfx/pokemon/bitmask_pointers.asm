@@ -111,8 +111,6 @@ BitmasksPointers:
 	dw TotodileBitmasks
 	dw CroconawBitmasks
 	dw FeraligatrBitmasks
-	dw SpinarakBitmasks
-	dw AriadosBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw WoobatBitmasks
 	dw SwoobatBitmasks
 	dw DrilburBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ExcadrillBitmasks
 	dw AudinoBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw TimburrBitmasks
 	dw GurdurrBitmasks
 	dw ConkeldurrBitmasks
@@ -296,6 +294,8 @@ BitmasksPointers:
 	dw ArcheopsBitmasks
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
+	dw ZoruaPlainBitmasks
+	dw ZoroarkPlainBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

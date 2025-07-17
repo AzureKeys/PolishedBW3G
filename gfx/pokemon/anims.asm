@@ -70,8 +70,6 @@ QuilavaAnimation:    INCLUDE "gfx/pokemon/quilava/anim.asm"
 TotodileAnimation:   INCLUDE "gfx/pokemon/totodile/anim.asm"
 CroconawAnimation:   INCLUDE "gfx/pokemon/croconaw/anim.asm"
 FeraligatrAnimation: INCLUDE "gfx/pokemon/feraligatr/anim.asm"
-SpinarakAnimation:   INCLUDE "gfx/pokemon/spinarak/anim.asm"
-AriadosAnimation:    INCLUDE "gfx/pokemon/ariados/anim.asm"
 CrobatAnimation:     INCLUDE "gfx/pokemon/crobat/anim.asm"
 ChinchouAnimation:   INCLUDE "gfx/pokemon/chinchou/anim.asm"
 LanturnAnimation:    INCLUDE "gfx/pokemon/lanturn/anim.asm"
@@ -452,3 +450,7 @@ DarumakaPlainAnimation: INCLUDE "gfx/pokemon/darumaka_plain/anim.asm"
 DarmanitanPlainAnimation: INCLUDE "gfx/pokemon/darmanitan_plain/anim.asm"
 
 YamaskPlainAnimation: INCLUDE "gfx/pokemon/yamask_plain/anim.asm"
+
+ZoruaPlainAnimation: INCLUDE "gfx/pokemon/zorua_plain/anim.asm"
+
+ZoroarkPlainAnimation: INCLUDE "gfx/pokemon/zoroark_plain/anim.asm"

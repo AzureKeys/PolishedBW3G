@@ -15,6 +15,5 @@ AsleepTreeMons:
 
 .Morn
 .Day
-	dp SPINARAK
 	dp HERACROSS
 	db 0 ; end

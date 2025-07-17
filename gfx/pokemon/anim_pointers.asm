@@ -111,8 +111,6 @@ AnimationPointers:
 	dw TotodileAnimation
 	dw CroconawAnimation
 	dw FeraligatrAnimation
-	dw SpinarakAnimation
-	dw AriadosAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw WoobatAnimation
 	dw SwoobatAnimation
 	dw DrilburAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ExcadrillAnimation
 	dw AudinoAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw TimburrAnimation
 	dw GurdurrAnimation
 	dw ConkeldurrAnimation
@@ -296,6 +294,8 @@ AnimationPointers:
 	dw ArcheopsAnimation
 	dw TrubbishAnimation
 	dw GarbodorAnimation
+	dw ZoruaPlainAnimation
+	dw ZoroarkPlainAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

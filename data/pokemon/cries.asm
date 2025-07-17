@@ -117,8 +117,6 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,    $46c,  $0e8 ; Totodile
 	mon_cry CRY_TOTODILE,    $440,  $110 ; Croconaw
 	mon_cry CRY_TOTODILE,    $3fc,  $180 ; Feraligatr
-	mon_cry CRY_SPINARAK,    $011,  $200 ; Spinarak
-	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; Ariados
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; Crobat
 	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Chinchou
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_MANTINE,    -$03a,  $0ea ; Woobat
 	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; Excadrill
 	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr
 	mon_cry CRY_AMPHAROS,   -$154,  $160 ; Gurdurr
 	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
@@ -302,4 +300,6 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
 	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
+	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
+	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	assert_table_length NUM_SPECIES

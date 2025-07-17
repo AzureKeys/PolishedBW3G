@@ -112,8 +112,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  17 ; Totodile
 	db  18,  29 ; Croconaw
 	db  30, 100 ; Feraligatr
-	db   1,  21 ; Spinarak
-	db  22, 100 ; Ariados
 	db  32, 100 ; Crobat
 	db   1,  26 ; Chinchou
 	db  27, 100 ; Lanturn
@@ -259,10 +257,10 @@ endc
 	db   1,  22 ; Woobat
 	db  23, 100 ; Swoobat
 	db   1,  30 ; Drilbur
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  31, 100 ; Excadrill
 	db  20, 100 ; Audino
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  24 ; Timburr
 	db  25,  39 ; Gurdurr
 	db  40, 100 ; Conkeldurr
@@ -301,4 +299,6 @@ endc
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
+	db   1,  29 ; Zorua
+	db  30, 100 ; Zoroark
 	assert_table_length NUM_SPECIES

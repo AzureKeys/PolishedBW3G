@@ -324,14 +324,6 @@ SECTION "Feraligatr Pics", ROMX
 FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 
-SECTION "Spinarak Pics", ROMX
-SpinarakFrontpic: INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lz"
-SpinarakBackpic:  INCBIN "gfx/pokemon/spinarak/back.2bpp.lz"
-
-SECTION "Ariados Pics", ROMX
-AriadosFrontpic: INCBIN "gfx/pokemon/ariados/front.animated.2bpp.lz"
-AriadosBackpic:  INCBIN "gfx/pokemon/ariados/back.2bpp.lz"
-
 SECTION "Crobat Pics", ROMX
 CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 CrobatBackpic:  INCBIN "gfx/pokemon/crobat/back.2bpp.lz"
@@ -1580,3 +1572,11 @@ TrubbishBackpic:  INCBIN "gfx/pokemon/trubbish/back.2bpp.lz"
 SECTION "Garbodor Pics", ROMX
 GarbodorFrontpic: INCBIN "gfx/pokemon/garbodor/front.animated.2bpp.lz"
 GarbodorBackpic:  INCBIN "gfx/pokemon/garbodor/back.2bpp.lz"
+
+SECTION "ZoruaPlain Pics", ROMX
+ZoruaPlainFrontpic: INCBIN "gfx/pokemon/zorua_plain/front.animated.2bpp.lz"
+ZoruaPlainBackpic:  INCBIN "gfx/pokemon/zorua_plain/back.2bpp.lz"
+
+SECTION "ZoroarkPlain Pics", ROMX
+ZoroarkPlainFrontpic: INCBIN "gfx/pokemon/zoroark_plain/front.animated.2bpp.lz"
+ZoroarkPlainBackpic:  INCBIN "gfx/pokemon/zoroark_plain/back.2bpp.lz"

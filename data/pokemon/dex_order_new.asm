@@ -71,6 +71,8 @@ NewPokedexOrder:
 	dp ARCHEOPS
 	dp TRUBBISH
 	dp GARBODOR
+	dp ZORUA
+	dp ZOROARK
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -85,8 +87,6 @@ NewPokedexOrder:
 	dp PICHU
 	dp PIKACHU
 	dp RAICHU
-	dp SPINARAK
-	dp ARIADOS
 	dp GEODUDE
 	dp GRAVELER
 	dp GOLEM

@@ -543,19 +543,6 @@ TotodileEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-SpinarakEggSpeciesMoves:
-	dp SPINARAK, PLAIN_FORM
-	db BATON_PASS
-	db DISABLE
-	db MEGAHORN
-	db PSYBEAM
-	db PURSUIT
-	db SONIC_BOOM
-	db POISON_JAB
-	db NIGHT_SLASH
-	db TOXIC_SPIKES
-	db $ff
-
 ChinchouEggSpeciesMoves:
 	dp CHINCHOU, PLAIN_FORM
 	db AGILITY
@@ -1253,6 +1240,14 @@ TrubbishEggSpeciesMoves:
 	db ROLLOUT
 	;db SAND_ATTACK
 	;db SELFDESTRUCT
+	db $ff
+
+ZoruaPlainEggSpeciesMoves:
+	dp ZORUA, PLAIN_FORM
+	db COUNTER
+	db DARK_PULSE
+	db EXTRASENSORY
+	db SUCKER_PUNCH
 	db $ff
 
 NoEggSpeciesMoves:

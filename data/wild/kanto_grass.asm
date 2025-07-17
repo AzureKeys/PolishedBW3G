@@ -356,10 +356,10 @@
 	wildmon 59, PIKACHU
 	; nite
 	wildmon 55, RATTATA
-	wildmon 54, ARIADOS
+	wildmon 54, RATTATA
 	wildmon 57, RATTATA
 	wildmon 57, RATTATA
-	wildmon 56, ARIADOS
+	wildmon 56, RATTATA
 	wildmon 58, RATTATA
 	wildmon 59, RATTATA
 	end_grass_wildmons
@@ -384,10 +384,10 @@
 	wildmon 59, PIKACHU
 	; nite
 	wildmon 55, RATTATA
-	wildmon 54, ARIADOS
+	wildmon 54, RATTATA
 	wildmon 57, RATTATA
 	wildmon 57, RATTATA
-	wildmon 56, ARIADOS
+	wildmon 56, RATTATA
 	wildmon 58, RATTATA
 	wildmon 59, RATTATA
 	end_grass_wildmons
@@ -412,10 +412,10 @@
 	wildmon 60, PIKACHU
 	; nite
 	wildmon 57, RATTATA
-	wildmon 57, ARIADOS
+	wildmon 57, RATTATA
 	wildmon 55, RATTATA
 	wildmon 55, RATTATA
-	wildmon 56, ARIADOS
+	wildmon 56, RATTATA
 	wildmon 59, RATTATA
 	wildmon 60, RATTATA
 	end_grass_wildmons

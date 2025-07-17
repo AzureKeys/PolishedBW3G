@@ -135,8 +135,6 @@
 	const TOTODILE   ; xx
 	const CROCONAW   ; xx
 	const FERALIGATR ; xx
-	const SPINARAK   ; xx
-	const ARIADOS    ; xx
 	const CROBAT     ; 4d
 	const CHINCHOU   ; 4e
 	const LANTURN    ; 4f
@@ -278,10 +276,10 @@
 	const WOOBAT     ; 114
 	const SWOOBAT    ; 115
 	const DRILBUR    ; 116
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const EXCADRILL  ; 117
 	const AUDINO     ; 118
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
 	const CONKELDURR ; 11b
@@ -320,6 +318,8 @@
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
+	const ZORUA      ; 13f
+	const ZOROARK    ; 140
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

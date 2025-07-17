@@ -2681,47 +2681,6 @@ endc
 	learnset 78, CLOSE_COMBAT ; Superpower → similar move
 	learnset 84, HYDRO_PUMP
 
-	evos_attacks Spinarak
-	evo_data EVOLVE_LEVEL, 22, ARIADOS
-	learnset 1, POISON_STING
-	learnset 1, STRING_SHOT
-	learnset 1, WRAP ; Constrict → similar move
-	learnset 5, ABSORB
-	learnset 8, GLARE ; Infestation → new move
-	learnset 12, SCARY_FACE
-	learnset 15, NIGHT_SHADE
-	learnset 19, GROWTH ; Shadow Sneak → event move
-	learnset 22, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 26, SUCKER_PUNCH
-	learnset 29, MEAN_LOOK ; Spider Web → similar move
-	learnset 33, AGILITY
-	learnset 36, PIN_MISSILE
-	learnset 40, PSYCHIC_M
-	learnset 43, POISON_JAB
-	learnset 47, LEECH_LIFE ; Cross Poison → TM move
-	learnset 50, FEINT_ATTACK ; Sticky Web → new move
-
-	evos_attacks Ariados
-	learnset 1, BUG_BITE ; evolution move
-	learnset 1, FOCUS_ENERGY
-	learnset 1, POISON_STING
-	learnset 1, STRING_SHOT
-	learnset 1, WRAP ; Constrict → similar move
-	learnset 5, ABSORB
-	learnset 8, GLARE ; Infestation → new move
-	learnset 12, SCARY_FACE
-	learnset 15, NIGHT_SHADE
-	learnset 19, GROWTH ; Shadow Sneak → event move
-	learnset 23, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 28, SUCKER_PUNCH
-	learnset 32, MEAN_LOOK ; Spider Web → similar move
-	learnset 37, AGILITY
-	learnset 41, PIN_MISSILE
-	learnset 46, PSYCHIC_M
-	learnset 50, POISON_JAB
-	learnset 55, LEECH_LIFE ; Cross Poison → TM move
-	learnset 58, FEINT_ATTACK ; Sticky Web → new move
-
 	evos_attacks Crobat
 	learnset 1, X_SCISSOR ; evolution move
 	learnset 1, SCREECH
@@ -6137,6 +6096,48 @@ endc
 	;learnset 49, BELCH
 	learnset 54, GUNK_SHOT
 	learnset 59, EXPLOSION
+	
+	evos_attacks ZoruaPlain
+	evo_data EVOLVE_LEVEL, 30, ZOROARK
+	learnset 1, SCRATCH
+	learnset 1, LEER
+	learnset 5, PURSUIT
+	learnset 9, HONE_CLAWS ; Fake Tears
+	learnset 13, FURY_STRIKES ; Fury Swipes
+	learnset 17, FEINT_ATTACK
+	learnset 21, SCARY_FACE
+	learnset 25, MEAN_LOOK ; Taunt
+	learnset 29, THIEF ; Foul Play
+	learnset 33, ENCORE ; Torment
+	learnset 37, AGILITY
+	learnset 41, CONFUSE_RAY ; Embargo
+	learnset 45, DARK_PULSE ; Punishment
+	learnset 49, NASTY_PLOT
+	; Skipped Imprison
+	learnset 53, FOCUS_BLAST ; Night Daze
+	
+	evos_attacks ZoroarkPlain
+	learnset 1, NIGHT_SLASH
+	learnset 1, FOCUS_BLAST ; Night Daze
+	learnset 1, SCRATCH
+	learnset 1, LEER
+	learnset 1, PURSUIT
+	learnset 1, HONE_CLAWS ; Fake Tears
+	learnset 5, PURSUIT
+	learnset 9, HONE_CLAWS ; Fake Tears
+	learnset 13, FURY_STRIKES ; Fury Swipes
+	learnset 17, FEINT_ATTACK
+	learnset 21, SCARY_FACE
+	learnset 25, MEAN_LOOK ; Taunt
+	learnset 29, THIEF ; Foul Play
+	learnset 29, NIGHT_SLASH
+	learnset 34, ENCORE ; Torment
+	learnset 39, AGILITY
+	learnset 44, CONFUSE_RAY ; Embargo
+	learnset 49, DARK_PULSE ; Punishment
+	learnset 54, NASTY_PLOT
+	; Skipped Imprison
+	learnset 59, FOCUS_BLAST ; Night Daze
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

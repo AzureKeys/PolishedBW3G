@@ -385,7 +385,7 @@
 	; nite
 	wildmon 12, PSYDUCK
 	wildmon 13, RATTATA
-	wildmon 14, SPINARAK
+	wildmon 14, RATTATA
 	wildmon 14, RATTATA
 	wildmon 10, RATTATA
 	wildmon 12, RATTATA
@@ -1391,7 +1391,7 @@
 	wildmon 4, HOPPIP
 	wildmon 4, HOPPIP
 	; nite
-	wildmon 3, SPINARAK
+	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	wildmon 4, POLIWAG
 	wildmon 4, RATTATA
@@ -1419,7 +1419,7 @@
 	wildmon 5, HOPPIP
 	wildmon 5, HOPPIP
 	; nite
-	wildmon 4, SPINARAK
+	wildmon 4, RATTATA
 	wildmon 4, POLIWAG
 	wildmon 5, RATTATA
 	wildmon 5, RATTATA
@@ -1559,7 +1559,7 @@
 	wildmon 7, RATTATA
 	wildmon 7, RATTATA
 	; nite
-	wildmon 5, SPINARAK
+	wildmon 5, RATTATA
 	wildmon 5, RATTATA
 	wildmon 6, RATTATA
 	wildmon 7, VULPIX
@@ -1587,11 +1587,11 @@
 	wildmon 15, RATTATA
 	wildmon 16, RATTATA
 	; nite
-	wildmon 13, SPINARAK
+	wildmon 13, RATTATA
 	wildmon 15, STANTLER
 	wildmon 14, RATTATA
 	wildmon 16, STANTLER
-	wildmon 16, ARIADOS
+	wildmon 16, RATTATA
 	wildmon 15, HOUNDOUR
 	wildmon 16, HOUNDOUR
 	end_grass_wildmons
@@ -2010,7 +2010,7 @@
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, MEOWTH
 	wildmon LEVEL_FROM_BADGES - 2, PARAS
-	wildmon LEVEL_FROM_BADGES - 1, SPINARAK
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA

@@ -111,8 +111,6 @@ FramesPointers:
 	dw TotodileFrames
 	dw CroconawFrames
 	dw FeraligatrFrames
-	dw SpinarakFrames
-	dw AriadosFrames
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw WoobatFrames
 	dw SwoobatFrames
 	dw DrilburFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ExcadrillFrames
 	dw AudinoFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw TimburrFrames
 	dw GurdurrFrames
 	dw ConkeldurrFrames
@@ -296,6 +294,8 @@ FramesPointers:
 	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames
+	dw ZoruaPlainFrames
+	dw ZoroarkPlainFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

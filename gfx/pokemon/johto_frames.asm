@@ -8,8 +8,6 @@ QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 TotodileFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm"
 CroconawFrames:   INCLUDE "gfx/pokemon/croconaw/frames.asm"
 FeraligatrFrames: INCLUDE "gfx/pokemon/feraligatr/frames.asm"
-SpinarakFrames:   INCLUDE "gfx/pokemon/spinarak/frames.asm"
-AriadosFrames:    INCLUDE "gfx/pokemon/ariados/frames.asm"
 CrobatFrames:     INCLUDE "gfx/pokemon/crobat/frames.asm"
 ChinchouFrames:   INCLUDE "gfx/pokemon/chinchou/frames.asm"
 LanturnFrames:    INCLUDE "gfx/pokemon/lanturn/frames.asm"
@@ -248,3 +246,7 @@ DarumakaPlainFrames: INCLUDE "gfx/pokemon/darumaka_plain/frames.asm"
 DarmanitanPlainFrames: INCLUDE "gfx/pokemon/darmanitan_plain/frames.asm"
 
 YamaskPlainFrames: INCLUDE "gfx/pokemon/yamask_plain/frames.asm"
+
+ZoruaPlainFrames: INCLUDE "gfx/pokemon/zorua_plain/frames.asm"
+
+ZoroarkPlainFrames: INCLUDE "gfx/pokemon/zoroark_plain/frames.asm"

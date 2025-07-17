@@ -562,16 +562,6 @@ FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lz"
 FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lz"
 FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lz"
 
-SECTION "Spinarak Mini Icon", ROMX
-SpinarakMini::     INCBIN "gfx/minis/spinarak.2bpp.lz"
-SpinarakMiniMask:: INCBIN "gfx/minis/spinarak_mask.1bpp.lz"
-SpinarakIcon::     INCBIN "gfx/icons/spinarak.2bpp.lz"
-
-SECTION "Ariados Mini Icon", ROMX
-AriadosMini::     INCBIN "gfx/minis/ariados.2bpp.lz"
-AriadosMiniMask:: INCBIN "gfx/minis/ariados_mask.1bpp.lz"
-AriadosIcon::     INCBIN "gfx/icons/ariados.2bpp.lz"
-
 SECTION "Crobat Mini Icon", ROMX
 CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lz"
 CrobatMiniMask:: INCBIN "gfx/minis/crobat_mask.1bpp.lz"
@@ -1481,6 +1471,16 @@ SECTION "Garbodor Mini Icon", ROMX
 GarbodorMini::     INCBIN "gfx/minis/garbodor.2bpp.lz"
 GarbodorMiniMask:: INCBIN "gfx/minis/garbodor_mask.1bpp.lz"
 GarbodorIcon::     INCBIN "gfx/icons/garbodor.2bpp.lz"
+
+SECTION "Zorua Mini Icon", ROMX
+ZoruaMini::     INCBIN "gfx/minis/zorua.2bpp.lz"
+ZoruaMiniMask:: INCBIN "gfx/minis/zorua_mask.1bpp.lz"
+ZoruaIcon::     INCBIN "gfx/icons/zorua.2bpp.lz"
+
+SECTION "Zoroark Mini Icon", ROMX
+ZoroarkMini::     INCBIN "gfx/minis/zoroark.2bpp.lz"
+ZoroarkMiniMask:: INCBIN "gfx/minis/zoroark_mask.1bpp.lz"
+ZoroarkIcon::     INCBIN "gfx/icons/zoroark.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

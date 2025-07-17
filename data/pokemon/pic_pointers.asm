@@ -115,8 +115,6 @@ PokemonPicPointers::
 	pics Totodile
 	pics Croconaw
 	pics Feraligatr
-	pics Spinarak
-	pics Ariados
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Woobat
 	pics Swoobat
 	pics Drilbur
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Excadrill
 	pics Audino
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Timburr
 	pics Gurdurr
 	pics Conkeldurr
@@ -300,6 +298,8 @@ PokemonPicPointers::
 	pics Archeops
 	pics Trubbish
 	pics Garbodor
+	pics ZoruaPlain
+	pics ZoroarkPlain
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

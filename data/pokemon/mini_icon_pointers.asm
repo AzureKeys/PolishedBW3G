@@ -115,8 +115,6 @@ MiniIconPointers:
 	mini_icon Totodile
 	mini_icon Croconaw
 	mini_icon Feraligatr
-	mini_icon Spinarak
-	mini_icon Ariados
 	mini_icon Crobat
 	mini_icon Chinchou
 	mini_icon Lanturn
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Woobat
 	mini_icon Swoobat
 	mini_icon Drilbur
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Excadrill
 	mini_icon Audino
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Timburr
 	mini_icon Gurdurr
 	mini_icon Conkeldurr
@@ -300,6 +298,8 @@ MiniIconPointers:
 	mini_icon Archeops
 	mini_icon Trubbish
 	mini_icon Garbodor
+	mini_icon Zorua
+	mini_icon Zoroark
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

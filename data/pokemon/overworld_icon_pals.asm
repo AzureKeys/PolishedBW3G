@@ -115,8 +115,6 @@ OverworldMonIconColors::
 	iconpal AZURE, TEAL ; TOTODILE
 	iconpal AZURE, TEAL ; CROCONAW
 	iconpal AZURE, TEAL ; FERALIGATR
-	iconpal GREEN, PURPLE ; SPINARAK
-	iconpal PURPLE, BLUE ; ARIADOS
 	iconpal PURPLE, RED ; CROBAT
 	iconpal BLUE, TEAL ; CHINCHOU
 	iconpal BLUE, TEAL ; LANTURN
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal AZURE, GREEN ; WOOBAT
 	iconpal AZURE, ORANGE ; SWOOBAT
 	iconpal GRAY, RED ; DRILBUR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, RED ; EXCADRILL
 	iconpal PINK, PURPLE ; AUDINO
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, BROWN ; TIMBURR
 	iconpal GRAY, BROWN ; GURDURR
 	iconpal BROWN, ORANGE ; CONKELDURR
@@ -300,6 +298,8 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
+	iconpal GRAY, AZURE ; ZORUA
+	iconpal GRAY, PURPLE ; ZOROARK
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
