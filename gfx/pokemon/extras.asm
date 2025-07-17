@@ -194,7 +194,6 @@ MunnaAnimationExtra:      INCLUDE "gfx/pokemon/munna/anim_idle.asm"
 MusharnaAnimationExtra:   INCLUDE "gfx/pokemon/musharna/anim_idle.asm"
 PidoveAnimationExtra:     INCLUDE "gfx/pokemon/pidove/anim_idle.asm"
 TranquillAnimationExtra:  INCLUDE "gfx/pokemon/tranquill/anim_idle.asm"
-UnfezantAnimationExtra:   INCLUDE "gfx/pokemon/unfezant/anim_idle.asm"
 BlitzleAnimationExtra:    INCLUDE "gfx/pokemon/blitzle/anim_idle.asm"
 ZebstrikaAnimationExtra:  INCLUDE "gfx/pokemon/zebstrika/anim_idle.asm"
 RoggenrolaAnimationExtra: INCLUDE "gfx/pokemon/roggenrola/anim_idle.asm"
@@ -438,6 +437,9 @@ TaurosPaldeanWaterAnimationExtra: INCLUDE "gfx/pokemon/tauros_paldean_water/anim
 
 UrsalunaPlainAnimationExtra:     INCLUDE "gfx/pokemon/ursaluna_plain/anim_idle.asm"
 UrsalunaBloodmoonAnimationExtra: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim_idle.asm"
+
+UnfezantMaleAnimationExtra:   INCLUDE "gfx/pokemon/unfezant_male/anim_idle.asm"
+UnfezantFemaleAnimationExtra: INCLUDE "gfx/pokemon/unfezant_female/anim_idle.asm"
 
 SamurottPlainAnimationExtra: INCLUDE "gfx/pokemon/samurott_plain/anim_idle.asm"
 

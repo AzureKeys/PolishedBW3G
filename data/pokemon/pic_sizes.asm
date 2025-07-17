@@ -263,7 +263,7 @@ INCLUDE "gfx/pokemon/munna/front.dimensions"
 INCLUDE "gfx/pokemon/musharna/front.dimensions"
 INCLUDE "gfx/pokemon/pidove/front.dimensions"
 INCLUDE "gfx/pokemon/tranquill/front.dimensions"
-INCLUDE "gfx/pokemon/unfezant/front.dimensions"
+INCLUDE "gfx/pokemon/unfezant_male/front.dimensions"
 INCLUDE "gfx/pokemon/blitzle/front.dimensions"
 INCLUDE "gfx/pokemon/zebstrika/front.dimensions"
 INCLUDE "gfx/pokemon/roggenrola/front.dimensions"
@@ -433,6 +433,8 @@ INCLUDE "gfx/pokemon/tauros_paldean_fire/front.dimensions"
 INCLUDE "gfx/pokemon/tauros_paldean_water/front.dimensions"
 
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/front.dimensions"
+
+INCLUDE "gfx/pokemon/unfezant_female/front.dimensions"
 
 	if list_index % 2
 		db size_value << 4

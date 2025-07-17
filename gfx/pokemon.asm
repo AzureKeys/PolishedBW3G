@@ -1381,9 +1381,13 @@ SECTION "Tranquill Pics", ROMX
 TranquillFrontpic: INCBIN "gfx/pokemon/tranquill/front.animated.2bpp.lz"
 TranquillBackpic:  INCBIN "gfx/pokemon/tranquill/back.2bpp.lz"
 
-SECTION "Unfezant Pics", ROMX
-UnfezantFrontpic: INCBIN "gfx/pokemon/unfezant/front.animated.2bpp.lz"
-UnfezantBackpic:  INCBIN "gfx/pokemon/unfezant/back.2bpp.lz"
+SECTION "UnfezantMale Pics", ROMX
+UnfezantMaleFrontpic: INCBIN "gfx/pokemon/unfezant_male/front.animated.2bpp.lz"
+UnfezantMaleBackpic:  INCBIN "gfx/pokemon/unfezant_male/back.2bpp.lz"
+
+SECTION "UnfezantFemale Pics", ROMX
+UnfezantFemaleFrontpic: INCBIN "gfx/pokemon/unfezant_female/front.animated.2bpp.lz"
+UnfezantFemaleBackpic:  INCBIN "gfx/pokemon/unfezant_female/back.2bpp.lz"
 
 SECTION "Blitzle Pics", ROMX
 BlitzleFrontpic: INCBIN "gfx/pokemon/blitzle/front.animated.2bpp.lz"

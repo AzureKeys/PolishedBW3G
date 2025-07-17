@@ -245,7 +245,7 @@ AnimationPointers:
 	dw MusharnaAnimation
 	dw PidoveAnimation
 	dw TranquillAnimation
-	dw UnfezantAnimation
+	dw UnfezantMaleAnimation
 	dw BlitzleAnimation
 	dw ZebstrikaAnimation
 	dw RoggenrolaAnimation
@@ -414,5 +414,7 @@ AnimationPointers:
 	dw TaurosPaldeanWaterAnimation
 
 	dw UrsalunaBloodmoonAnimation
+	
+	dw UnfezantFemaleAnimation
 
 	assert_table_length NUM_UNIQUE_POKEMON

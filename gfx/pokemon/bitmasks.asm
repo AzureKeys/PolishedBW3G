@@ -194,7 +194,6 @@ MunnaBitmasks:      INCLUDE "gfx/pokemon/munna/bitmask.asm"
 MusharnaBitmasks:   INCLUDE "gfx/pokemon/musharna/bitmask.asm"
 PidoveBitmasks:     INCLUDE "gfx/pokemon/pidove/bitmask.asm"
 TranquillBitmasks:  INCLUDE "gfx/pokemon/tranquill/bitmask.asm"
-UnfezantBitmasks:   INCLUDE "gfx/pokemon/unfezant/bitmask.asm"
 BlitzleBitmasks:    INCLUDE "gfx/pokemon/blitzle/bitmask.asm"
 ZebstrikaBitmasks:  INCLUDE "gfx/pokemon/zebstrika/bitmask.asm"
 RoggenrolaBitmasks: INCLUDE "gfx/pokemon/roggenrola/bitmask.asm"
@@ -438,6 +437,9 @@ TaurosPaldeanWaterBitmasks: INCLUDE "gfx/pokemon/tauros_paldean_water/bitmask.as
 
 UrsalunaPlainBitmasks:     INCLUDE "gfx/pokemon/ursaluna_plain/bitmask.asm"
 UrsalunaBloodmoonBitmasks: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/bitmask.asm"
+
+UnfezantMaleBitmasks:   INCLUDE "gfx/pokemon/unfezant_male/bitmask.asm"
+UnfezantFemaleBitmasks: INCLUDE "gfx/pokemon/unfezant_female/bitmask.asm"
 
 SamurottPlainBitmasks: INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
 

@@ -352,5 +352,7 @@ PokedexDataPointerTable:
 	dba TaurosPaldeanWaterPokedexEntry
 
 	dba UrsalunaBloodmoonPokedexEntry
+	
+	dba UnfezantPokedexEntry
 
 	assert_table_length NUM_EXT_POKEMON

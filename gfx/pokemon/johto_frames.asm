@@ -132,7 +132,6 @@ MunnaFrames:      INCLUDE "gfx/pokemon/munna/frames.asm"
 MusharnaFrames:   INCLUDE "gfx/pokemon/musharna/frames.asm"
 PidoveFrames:     INCLUDE "gfx/pokemon/pidove/frames.asm"
 TranquillFrames:  INCLUDE "gfx/pokemon/tranquill/frames.asm"
-UnfezantFrames:   INCLUDE "gfx/pokemon/unfezant/frames.asm"
 BlitzleFrames:    INCLUDE "gfx/pokemon/blitzle/frames.asm"
 ZebstrikaFrames:  INCLUDE "gfx/pokemon/zebstrika/frames.asm"
 RoggenrolaFrames: INCLUDE "gfx/pokemon/roggenrola/frames.asm"
@@ -234,6 +233,9 @@ WooperPaldeanFrames: INCLUDE "gfx/pokemon/wooper_paldean/frames.asm"
 
 UrsalunaPlainFrames:     INCLUDE "gfx/pokemon/ursaluna_plain/frames.asm"
 UrsalunaBloodmoonFrames: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/frames.asm"
+
+UnfezantMaleFrames:   INCLUDE "gfx/pokemon/unfezant_male/frames.asm"
+UnfezantFemaleFrames: INCLUDE "gfx/pokemon/unfezant_female/frames.asm"
 
 SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
 

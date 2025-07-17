@@ -351,5 +351,7 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Tauros (Paldean Water Form)
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
+	
+	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
 
 	assert_table_length NUM_EXT_POKEMON

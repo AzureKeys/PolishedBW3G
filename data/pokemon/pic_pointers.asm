@@ -249,7 +249,7 @@ PokemonPicPointers::
 	pics Musharna
 	pics Pidove
 	pics Tranquill
-	pics Unfezant
+	pics UnfezantMale
 	pics Blitzle
 	pics Zebstrika
 	pics Roggenrola
@@ -418,5 +418,7 @@ PokemonPicPointers::
 	pics TaurosPaldeanWater
 
 	pics UrsalunaBloodmoon
+	
+	pics UnfezantFemale
 
 	assert_table_length NUM_UNIQUE_POKEMON

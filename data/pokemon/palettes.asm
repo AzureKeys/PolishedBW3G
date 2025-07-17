@@ -501,8 +501,8 @@ INCLUDE "gfx/pokemon/pidove/normal.pal"
 INCLUDE "gfx/pokemon/pidove/shiny.pal"
 INCLUDE "gfx/pokemon/tranquill/normal.pal"
 INCLUDE "gfx/pokemon/tranquill/shiny.pal"
-INCLUDE "gfx/pokemon/unfezant/normal.pal"
-INCLUDE "gfx/pokemon/unfezant/shiny.pal"
+INCLUDE "gfx/pokemon/unfezant_male/normal.pal"
+INCLUDE "gfx/pokemon/unfezant_male/shiny.pal"
 INCLUDE "gfx/pokemon/blitzle/normal.pal"
 INCLUDE "gfx/pokemon/blitzle/shiny.pal"
 INCLUDE "gfx/pokemon/zebstrika/normal.pal"
@@ -706,6 +706,9 @@ INCLUDE "gfx/pokemon/tauros_paldean_water/shiny.pal"
 
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/normal.pal"
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/shiny.pal"
+
+INCLUDE "gfx/pokemon/unfezant_female/normal.pal"
+INCLUDE "gfx/pokemon/unfezant_female/shiny.pal"
 
 	assert_table_length NUM_EXT_POKEMON + 1
 

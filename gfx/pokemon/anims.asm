@@ -194,7 +194,6 @@ MunnaAnimation:      INCLUDE "gfx/pokemon/munna/anim.asm"
 MusharnaAnimation:   INCLUDE "gfx/pokemon/musharna/anim.asm"
 PidoveAnimation:     INCLUDE "gfx/pokemon/pidove/anim.asm"
 TranquillAnimation:  INCLUDE "gfx/pokemon/tranquill/anim.asm"
-UnfezantAnimation:   INCLUDE "gfx/pokemon/unfezant/anim.asm"
 BlitzleAnimation:    INCLUDE "gfx/pokemon/blitzle/anim.asm"
 ZebstrikaAnimation:  INCLUDE "gfx/pokemon/zebstrika/anim.asm"
 RoggenrolaAnimation: INCLUDE "gfx/pokemon/roggenrola/anim.asm"
@@ -438,6 +437,9 @@ TaurosPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"
 
 UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
 UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
+
+UnfezantMaleAnimation:   INCLUDE "gfx/pokemon/unfezant_male/anim.asm"
+UnfezantFemaleAnimation: INCLUDE "gfx/pokemon/unfezant_female/anim.asm"
 
 SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
 

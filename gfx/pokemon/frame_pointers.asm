@@ -245,7 +245,7 @@ FramesPointers:
 	dw MusharnaFrames
 	dw PidoveFrames
 	dw TranquillFrames
-	dw UnfezantFrames
+	dw UnfezantMaleFrames
 	dw BlitzleFrames
 	dw ZebstrikaFrames
 	dw RoggenrolaFrames
@@ -414,5 +414,7 @@ FramesPointers:
 	dw TaurosPaldeanWaterFrames
 
 	dw UrsalunaBloodmoonFrames
+	
+	dw UnfezantFemaleFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

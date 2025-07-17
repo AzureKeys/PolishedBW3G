@@ -1237,10 +1237,10 @@ TranquillMini::     INCBIN "gfx/minis/tranquill.2bpp.lz"
 TranquillMiniMask:: INCBIN "gfx/minis/tranquill_mask.1bpp.lz"
 TranquillIcon::     INCBIN "gfx/icons/tranquill.2bpp.lz"
 
-SECTION "Unfezant Mini Icon", ROMX
-UnfezantMini::     INCBIN "gfx/minis/unfezant.2bpp.lz"
-UnfezantMiniMask:: INCBIN "gfx/minis/unfezant_mask.1bpp.lz"
-UnfezantIcon::     INCBIN "gfx/icons/unfezant.2bpp.lz"
+SECTION "UnfezantMale Mini Icon", ROMX
+UnfezantMaleMini::     INCBIN "gfx/minis/unfezant_male.2bpp.lz"
+UnfezantMaleMiniMask:: INCBIN "gfx/minis/unfezant_male_mask.1bpp.lz"
+UnfezantMaleIcon::     INCBIN "gfx/icons/unfezant_male.2bpp.lz"
 
 SECTION "Blitzle Mini Icon", ROMX
 BlitzleMini::     INCBIN "gfx/minis/blitzle.2bpp.lz"
@@ -1841,3 +1841,8 @@ SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lz"
 UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lz"
+
+SECTION "UnfezantFemale Mini Icon", ROMX
+UnfezantFemaleMini::     INCBIN "gfx/minis/unfezant_female.2bpp.lz"
+UnfezantFemaleMiniMask:: INCBIN "gfx/minis/unfezant_female_mask.1bpp.lz"
+UnfezantFemaleIcon::     INCBIN "gfx/icons/unfezant_female.2bpp.lz"

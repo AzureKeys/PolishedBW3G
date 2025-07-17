@@ -245,7 +245,7 @@ BitmasksPointers:
 	dw MusharnaBitmasks
 	dw PidoveBitmasks
 	dw TranquillBitmasks
-	dw UnfezantBitmasks
+	dw UnfezantMaleBitmasks
 	dw BlitzleBitmasks
 	dw ZebstrikaBitmasks
 	dw RoggenrolaBitmasks
@@ -414,5 +414,7 @@ BitmasksPointers:
 	dw TaurosPaldeanWaterBitmasks
 
 	dw UrsalunaBloodmoonBitmasks
+	
+	dw UnfezantFemaleBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

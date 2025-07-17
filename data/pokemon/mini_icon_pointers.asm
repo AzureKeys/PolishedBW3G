@@ -249,7 +249,7 @@ MiniIconPointers:
 	mini_icon Musharna
 	mini_icon Pidove
 	mini_icon Tranquill
-	mini_icon Unfezant
+	mini_icon UnfezantMale
 	mini_icon Blitzle
 	mini_icon Zebstrika
 	mini_icon Roggenrola
@@ -402,5 +402,7 @@ endr
 	mini_icon TaurosPaldeanWater
 
 	mini_icon UrsalunaBloodmoon
+
+	mini_icon UnfezantFemale
 
 	assert_table_length NUM_UNIQUE_POKEMON
