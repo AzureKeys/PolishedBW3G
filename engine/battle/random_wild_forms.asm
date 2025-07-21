@@ -93,6 +93,54 @@ RandomWildSpeciesForms:
 	and EXTSPECIES_MASK
 	inc a ; or PLAIN_FORM
 	ret
+		
+GenerateGenderForm:
+
+	;DEBUG
+	;push hl
+	;ld hl, SilphScopeRevealText
+	;call StdBattleTextbox
+	;pop hl
+	;DEBUG
+	
+	push hl
+	push de
+	push bc
+	ld a, [wCurForm]
+; All Pokemon with gender-based forms have indexes > $100
+	assert !HIGH(UNFEZANT) ; Unfezant is < $100 at the moment
+	and EXTSPECIES_MASK
+	;jr z, .done
+	jr nz, .done ; Unfezant is < $100 at the moment
+	ld a, [wTempEnemyMonSpecies]
+	cp LOW(PIDOVE)
+	jr z, .Unfezant
+	cp LOW(TRANQUILL)
+	jr z, .Unfezant
+	cp LOW(UNFEZANT)
+	jr nz, .done
+	
+.Unfezant
+	; Set form based on gender
+	ld a, [wCurForm]
+	ld b, a
+	and GENDER_MASK
+	jr z, .done ; Form is 1 (male) by default
+	ld a, b
+	inc a ; 2 = female
+	ld [wTempEnemyMonForm], a
+	ld [wCurForm], a
+	; fallthrough
+	
+	;DEBUG
+	push hl
+	ld hl, SilphScopeRevealText
+	call StdBattleTextbox
+	pop hl
+	;DEBUG
+	
+.done
+	jmp PopBCDEHL
 
 CheckUnownLetter:
 ; Return carry if the Unown letter in a has been unlocked.

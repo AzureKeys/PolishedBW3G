@@ -60,13 +60,14 @@ ReadTrainerParty:
 	and a
 	assert ARBOK_JOHTO_FORM == ARBOK_KANTO_FORM - 1
 	ld c, ARBOK_KANTO_FORM
-	jr nz, .got_arbok_form
+	jr nz, .got_arbok
 	dec c
-.got_arbok_form
+	; fallthrough
+.got_arbok
 	ld a, b
 	or c
 	ld [wCurForm], a
-
+	
 .not_arbok
 	ld a, OTPARTYMON
 	ld [wMonType], a
@@ -116,7 +117,7 @@ ReadTrainerParty:
 ; personality?
 	ld a, [wOtherTrainerType]
 	bit TRNTYPE_PERSONALITY, a
-	jr z, .not_personality
+	jr z, .check_gender_form
 
 	; We only care about the upper personality byte.
 	; The lower one has already been specified as part of
@@ -132,6 +133,39 @@ ReadTrainerParty:
 	pop hl
 	call GetNextTrainerDataByte
 	ld [de], a
+	
+.check_gender_form	
+	
+	;DEBUG
+	push hl
+	ld hl, SilphScopeRevealText
+	call StdBattleTextbox
+	pop hl
+	;DEBUG
+	
+; NPC trainers should display correct gender form for the following Pokemon:
+; UNFEZANT, FRILLISH, JELLICENT
+	assert !HIGH(UNFEZANT) ; Unfezant is < $100 at the moment
+; All Pokemon with gender-based forms have indexes > $100
+	ld a, [wCurForm]
+	ld b, a
+	and EXTSPECIES_MASK
+	;jr z, .not_personality
+	jr nz, .not_personality ; Unfezant is under $100 at the moment
+	ld a, [wCurPartySpecies]
+	cp LOW(UNFEZANT)
+	jr nz, .not_personality
+	; Unfezant
+	assert UNFEZANT_MALE_FORM == UNFEZANT_FEMALE_FORM - 1
+	ld a, b
+	and GENDER_MASK
+	ld c, UNFEZANT_FEMALE_FORM
+	jr nz, .got_gender_form
+	dec c ; UNFEZANT_MALE_FORM
+.got_gender_form
+	ld a, b
+	or c
+	ld [wCurForm], a
 
 .not_personality
 ; nickname?

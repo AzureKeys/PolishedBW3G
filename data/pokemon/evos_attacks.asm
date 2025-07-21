@@ -5168,7 +5168,7 @@ endc
 	learnset 13, REFLECT ; Imprison
 	
 	evos_attacks Pidove
-	evo_data EVOLVE_LEVEL, 21, TRANQUILL
+	evo_data EVOLVE_LEVEL, 21, TRANQUILL, NO_FORM ; preserve pre-evo form
 	learnset 1, GUST
 	learnset 4, GROWL
 	learnset 8, LEER
@@ -5186,7 +5186,7 @@ endc
 	learnset 46, BRAVE_BIRD ; Sky Attack
 	
 	evos_attacks Tranquill
-	evo_data EVOLVE_LEVEL, 32, UNFEZANT
+	evo_data EVOLVE_LEVEL, 32, UNFEZANT, NO_FORM ; preserve pre-evo form
 	learnset 1, GUST
 	learnset 4, GROWL
 	learnset 8, LEER

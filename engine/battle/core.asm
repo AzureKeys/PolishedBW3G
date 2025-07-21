@@ -5888,6 +5888,9 @@ LoadEnemyWildmon:
 
 	call CheckValidMagikarpLength
 	jr c, LoadEnemyWildmon
+	
+	; Gender based form must be set after TryAddMonToParty sets gender flag
+	;call GenerateGenderForm
 
 	ld a, [wBaseCatchRate]
 	ld [wEnemyMonCatchRate], a

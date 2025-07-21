@@ -1487,26 +1487,26 @@
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 12, SNUBBULL
-	wildmon 12, RATTATA, ALOLAN_FORM
-	wildmon 13, RATTATA
-	wildmon 10, RATTATA
+	wildmon 12, UNFEZANT
+	wildmon 12, TRANQUILL
+	wildmon 13, UNFEZANT
+	wildmon 31, TRANQUILL
 	wildmon 13, JIGGLYPUFF
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; day
-	wildmon 12, SNUBBULL
-	wildmon 12, RATTATA, ALOLAN_FORM
-	wildmon 13, RATTATA
-	wildmon 10, RATTATA
+	wildmon 12, UNFEZANT
+	wildmon 12, TRANQUILL
+	wildmon 13, UNFEZANT
+	wildmon 31, TRANQUILL
 	wildmon 13, JIGGLYPUFF
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; nite
-	wildmon 12, RATTATA
-	wildmon 12, RATTATA, ALOLAN_FORM
-	wildmon 13, RATTATA
-	wildmon 10, RATTATA
+	wildmon 12, UNFEZANT
+	wildmon 12, TRANQUILL
+	wildmon 13, UNFEZANT
+	wildmon 31, TRANQUILL
 	wildmon 13, JIGGLYPUFF
 	wildmon 10, DITTO
 	wildmon 10, DITTO

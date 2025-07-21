@@ -1954,7 +1954,7 @@ PicnickerGroup:
 	end_trainer
 
 	def_trainer GINA1, "Gina"
-	tr_mon 9, SUNKERN
+	tr_mon 9, UNFEZANT
 	tr_mon 9, HOPPIP
 	tr_mon 12, BULBASAUR
 	end_trainer
@@ -3041,7 +3041,7 @@ PokefanMGroup:
 
 	def_trainer BRANDON, "Brandon"
 	tr_mon 13, SNUBBULL @ ORAN_BERRY
-	tr_mon 13, MAREEP
+	tr_mon 13, UNFEZANT
 	end_trainer
 
 	def_trainer JEREMY, "Jeremy"
