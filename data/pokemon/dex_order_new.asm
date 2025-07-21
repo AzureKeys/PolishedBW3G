@@ -81,6 +81,9 @@ NewPokedexOrder:
 	dp REUNICLUS
 	dp DUCKLETT
 	dp SWANNA
+	dp VANILLITE
+	dp VANILLISH
+	dp VANILLUXE
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -191,8 +194,6 @@ NewPokedexOrder:
 	dp PERRSERKER
 	dp PSYDUCK
 	dp GOLDUCK
-	dp GIRAFARIG
-	dp FARIGIRAF
 	dp TAUROS
 	dp MILTANK
 	dp MAGBY

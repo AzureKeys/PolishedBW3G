@@ -416,10 +416,6 @@ SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"
 
-SECTION "Girafarig Pics", ROMX
-GirafarigFrontpic: INCBIN "gfx/pokemon/girafarig/front.animated.2bpp.lz"
-GirafarigBackpic:  INCBIN "gfx/pokemon/girafarig/back.2bpp.lz"
-
 SECTION "Pineco Pics", ROMX
 PinecoFrontpic: INCBIN "gfx/pokemon/pineco/front.animated.2bpp.lz"
 PinecoBackpic:  INCBIN "gfx/pokemon/pineco/back.2bpp.lz"
@@ -1205,10 +1201,6 @@ DudunsparceThreeSegmentFrontpic: INCBIN "gfx/pokemon/dudunsparce_three_segment/f
 DudunsparceTwoSegmentBackpic:
 DudunsparceThreeSegmentBackpic: INCBIN "gfx/pokemon/dudunsparce/back.2bpp.lz"
 
-SECTION "Farigiraf Pics", ROMX
-FarigirafFrontpic: INCBIN "gfx/pokemon/farigiraf/front.animated.2bpp.lz"
-FarigirafBackpic:  INCBIN "gfx/pokemon/farigiraf/back.2bpp.lz"
-
 SECTION "Clodsire Pics", ROMX
 ClodsireFrontpic: INCBIN "gfx/pokemon/clodsire/front.animated.2bpp.lz"
 ClodsireBackpic:  INCBIN "gfx/pokemon/clodsire/back.2bpp.lz"
@@ -1576,3 +1568,15 @@ DucklettBackpic:  INCBIN "gfx/pokemon/ducklett/back.2bpp.lz"
 SECTION "Swanna Pics", ROMX
 SwannaFrontpic: INCBIN "gfx/pokemon/swanna/front.animated.2bpp.lz"
 SwannaBackpic:  INCBIN "gfx/pokemon/swanna/back.2bpp.lz"
+
+SECTION "Vanillite Pics", ROMX
+VanilliteFrontpic: INCBIN "gfx/pokemon/vanillite/front.animated.2bpp.lz"
+VanilliteBackpic:  INCBIN "gfx/pokemon/vanillite/back.2bpp.lz"
+
+SECTION "Vanillish Pics", ROMX
+VanillishFrontpic: INCBIN "gfx/pokemon/vanillish/front.animated.2bpp.lz"
+VanillishBackpic:  INCBIN "gfx/pokemon/vanillish/back.2bpp.lz"
+
+SECTION "Vanilluxe Pics", ROMX
+VanilluxeFrontpic: INCBIN "gfx/pokemon/vanilluxe/front.animated.2bpp.lz"
+VanilluxeBackpic:  INCBIN "gfx/pokemon/vanilluxe/back.2bpp.lz"

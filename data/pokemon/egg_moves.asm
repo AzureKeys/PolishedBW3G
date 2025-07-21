@@ -651,18 +651,6 @@ MisdreavusEggSpeciesMoves:
 	db SCREECH
 	db $ff
 
-GirafarigEggSpeciesMoves:
-	dp GIRAFARIG, PLAIN_FORM
-	db DOUBLE_KICK
-	db FORESIGHT
-	db FUTURE_SIGHT
-	db MEAN_LOOK
-	db MIRROR_COAT
-	db TAKE_DOWN
-	db AMNESIA
-	db CALM_MIND
-	db $ff
-
 PinecoEggSpeciesMoves:
 	dp PINECO, PLAIN_FORM
 	db PIN_MISSILE
@@ -1241,6 +1229,14 @@ DucklettEggSpeciesMoves:
 	db AQUA_JET
 	db GUST
 	db STEEL_WING
+	db $ff
+
+VanilliteEggSpeciesMoves:
+	dp VANILLITE, PLAIN_FORM
+	db ICE_SHARD
+	;db IRON_DEFENSE
+	;db POWDER_SNOW
+	db WATER_PULSE
 	db $ff
 
 NoEggSpeciesMoves:

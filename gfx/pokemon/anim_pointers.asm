@@ -137,7 +137,6 @@ AnimationPointers:
 	dw SlowkingPlainAnimation
 	dw MisdreavusAnimation
 	dw UnownAAnimation
-	dw GirafarigAnimation
 	dw PinecoAnimation
 	dw ForretressAnimation
 	dw DunsparceAnimation
@@ -211,7 +210,6 @@ AnimationPointers:
 	dw SneaslerAnimation
 	dw OverqwilAnimation
 	dw DudunsparceTwoSegmentAnimation
-	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
 	dw SnivyAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw ThrohAnimation
 	dw SawkAnimation
 	dw SewaddleAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SwadloonAnimation
 	dw LeavannyAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw VenipedeAnimation
 	dw WhirlipedeAnimation
 	dw ScolipedeAnimation
@@ -295,6 +293,9 @@ AnimationPointers:
 	dw ReuniclusAnimation
 	dw DucklettAnimation
 	dw SwannaAnimation
+	dw VanilliteAnimation
+	dw VanillishAnimation
+	dw VanilluxeAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

@@ -1684,7 +1684,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 25, RATTATA
-	wildmon 23, GIRAFARIG
+	wildmon 23, RATTATA
 	wildmon 23, FLAAFFY
 	wildmon 24, FARFETCH_D
 	wildmon 23, MAREEP
@@ -1692,7 +1692,7 @@
 	wildmon 23, MAREEP
 	; day
 	wildmon 25, RATTATA
-	wildmon 23, GIRAFARIG
+	wildmon 23, RATTATA
 	wildmon 23, FLAAFFY
 	wildmon 24, FARFETCH_D
 	wildmon 23, MAREEP
@@ -1700,7 +1700,7 @@
 	wildmon 23, MAREEP
 	; nite
 	wildmon 25, RATTATA
-	wildmon 23, GIRAFARIG
+	wildmon 23, RATTATA
 	wildmon 23, FLAAFFY
 	wildmon 24, RATTATA
 	wildmon 23, RATTATA
@@ -1828,24 +1828,24 @@
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES - 2, GROWLITHE
 	wildmon LEVEL_FROM_BADGES - 3, FARFETCH_D, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
-	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	; day
 	wildmon LEVEL_FROM_BADGES + 1, FARFETCH_D, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 0, TAUROS
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, HOUNDOUR
 	wildmon LEVEL_FROM_BADGES - 3, FARFETCH_D, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
-	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, HOUNDOUR
 	wildmon LEVEL_FROM_BADGES + 0, TAUROS
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, VULPIX
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
-	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons CLIFF_CAVE

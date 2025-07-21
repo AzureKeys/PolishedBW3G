@@ -143,7 +143,6 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $104,  $200 ; Slowking
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Misdreavus
 	mon_cry CRY_HOOTHOOT,    $162,  $100 ; Unown
-	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Girafarig
 	mon_cry CRY_SLOWKING,    $080,  $100 ; Pineco
 	mon_cry CRY_SLOWKING,    $000,  $180 ; Forretress
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dunsparce
@@ -217,7 +216,6 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
-	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_SPINARAK,   -$1c7,  $1b0 ; Venipede
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
@@ -301,4 +299,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus
 	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; Ducklett
 	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; Swanna
+	mon_cry CRY_MANTINE,     $030,  $0ea ; Vanillite
+	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
+	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
 	assert_table_length NUM_SPECIES

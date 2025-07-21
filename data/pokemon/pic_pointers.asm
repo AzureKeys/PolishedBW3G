@@ -141,7 +141,6 @@ PokemonPicPointers::
 	pics SlowkingPlain
 	pics Misdreavus
 	pics UnownA
-	pics Girafarig
 	pics Pineco
 	pics Forretress
 	pics Dunsparce
@@ -215,7 +214,6 @@ PokemonPicPointers::
 	pics Sneasler
 	pics Overqwil
 	pics DudunsparceTwoSegment
-	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
 	pics Snivy
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Throh
 	pics Sawk
 	pics Sewaddle
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Swadloon
 	pics Leavanny
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Venipede
 	pics Whirlipede
 	pics Scolipede
@@ -299,6 +297,9 @@ PokemonPicPointers::
 	pics Reuniclus
 	pics Ducklett
 	pics Swanna
+	pics Vanillite
+	pics Vanillish
+	pics Vanilluxe
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

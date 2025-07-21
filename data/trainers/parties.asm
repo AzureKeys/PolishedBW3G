@@ -893,7 +893,7 @@ SabrinaGroup:
 	tr_mon 61, ESPEON
 		tr_evs 252 SAt, 68 Spe
 		tr_moves MUD_SLAP, QUICK_ATTACK, SWIFT, PSYCHIC_M
-	tr_mon 59, GIRAFARIG
+	tr_mon 59, RATTATA
 		tr_evs 68 HP, 252 Spe
 		tr_moves PSYCHIC_M, CRUNCH, AGILITY, CALM_MIND
 	tr_mon 60, MR__MIME
@@ -915,7 +915,7 @@ SabrinaGroup:
 		tr_moves PSYCHIC_M, BATON_PASS, REFLECT, LIGHT_SCREEN
 	tr_mon 73, MR__MIME
 		tr_moves PSYCHIC_M, DAZZLINGLEAM, NASTY_PLOT, ENCORE
-	tr_mon 73, FARIGIRAF @ BRIGHTPOWDER
+	tr_mon 73, RATTATA @ BRIGHTPOWDER
 		tr_moves NASTY_PLOT, SHADOW_BALL, HYPER_VOICE, PSYCHIC_M
 	tr_mon 72, RATTATA @ TWISTEDSPOON
 		tr_moves NASTY_PLOT, PSYCHIC_M, HYPNOSIS, FUTURE_SIGHT
@@ -1494,7 +1494,7 @@ Lyra1Group:
 	def_trainer LYRA1_10, "Lyra"
 	tr_mon 44, RATTATA
 		tr_evs 132 HP, 132 Spe
-	tr_mon 43, GIRAFARIG
+	tr_mon 43, RATTATA
 		tr_evs 132 Atk, 132 Spe
 	tr_mon 45, ARCANINE
 		tr_evs 132 HP, 132 Atk
@@ -1509,7 +1509,7 @@ Lyra1Group:
 	def_trainer LYRA1_11, "Lyra"
 	tr_mon 44, RATTATA
 		tr_evs 132 HP, 132 Spe
-	tr_mon 43, GIRAFARIG
+	tr_mon 43, RATTATA
 		tr_evs 132 Atk, 132 Spe
 	tr_mon 45, SUNFLORA
 		tr_evs 132 SAt, 132 Spe
@@ -1524,7 +1524,7 @@ Lyra1Group:
 	def_trainer LYRA1_12, "Lyra"
 	tr_mon 44, RATTATA
 		tr_evs 132 HP, 132 Spe
-	tr_mon 43, GIRAFARIG
+	tr_mon 43, RATTATA
 		tr_evs 132 Atk, 132 Spe
 	tr_mon 45, SUNFLORA
 		tr_evs 132 SAt, 132 Spe
@@ -1546,7 +1546,7 @@ Lyra2Group:
 	tr_mon 70, ARCANINE
 	tr_mon 70, AZUMARILL
 	tr_mon 71, AMPHAROS
-	tr_mon 68, FARIGIRAF
+	tr_mon 68, RATTATA
 	tr_mon 72, "Chicory", MEGANIUM @ SITRUS_BERRY
 	end_trainer
 
@@ -1555,7 +1555,7 @@ Lyra2Group:
 	tr_mon 70, SUNFLORA
 	tr_mon 70, AZUMARILL
 	tr_mon 71, AMPHAROS
-	tr_mon 68, FARIGIRAF
+	tr_mon 68, RATTATA
 	tr_mon 72, "Cinder", TYPHLOSION @ SITRUS_BERRY
 	end_trainer
 
@@ -1564,7 +1564,7 @@ Lyra2Group:
 	tr_mon 70, SUNFLORA
 	tr_mon 70, ARCANINE
 	tr_mon 71, AMPHAROS
-	tr_mon 68, FARIGIRAF
+	tr_mon 68, RATTATA
 	tr_mon 72, "Toto", FERALIGATR @ SITRUS_BERRY
 	end_trainer
 
@@ -4077,12 +4077,12 @@ PsychicGroup:
 
 	def_trainer_class PSYCHIC_T
 	def_trainer NATHAN, "Nathan"
-	tr_mon 26, GIRAFARIG
+	tr_mon 26, RATTATA
 	end_trainer
 
 	def_trainer FRANKLIN, "Franklin"
 	tr_mon 53, RATTATA
-	tr_mon 56, GIRAFARIG
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer HERMAN, "Herman"
@@ -4128,7 +4128,7 @@ PsychicGroup:
 	def_trainer GILBERT, "Gilbert"
 	tr_mon 38, STARMIE
 	tr_mon 36, EXEGGCUTE
-	tr_mon 40, GIRAFARIG
+	tr_mon 40, RATTATA
 	end_trainer
 
 	def_trainer JARED, "Jared"
@@ -4145,7 +4145,7 @@ PsychicGroup:
 	def_trainer LEON, "Leon"
 	tr_mon 54, RATTATA
 	tr_mon 55, RATTATA
-	tr_mon 53, GIRAFARIG
+	tr_mon 53, RATTATA
 	end_trainer
 
 	def_trainer URI, "Uri"
@@ -6380,7 +6380,7 @@ endc
 	end_trainer
 
 	def_trainer BONITA, "Bonita"
-	tr_mon 62, GIRAFARIG
+	tr_mon 62, RATTATA
 	tr_mon 65, SUDOWOODO
 	end_trainer
 
@@ -6437,11 +6437,11 @@ AceDuoGroup:
 
 	def_trainer ARAANDBELA1, "Ara & Bela"
 	tr_mon 64, TAUROS, MALE
-	tr_mon 64, GIRAFARIG, FEMALE
+	tr_mon 64, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer ARAANDBELA2, "Ara & Bela"
-	tr_mon 64, GIRAFARIG, FEMALE
+	tr_mon 64, RATTATA, FEMALE
 	tr_mon 64, TAUROS, MALE
 	end_trainer
 
@@ -7632,7 +7632,7 @@ PiersGroup:
 if DEF(FAITHFUL)
 	tr_mon LEVEL_FROM_BADGES + 14, UMBREON
 else
-	tr_mon LEVEL_FROM_BADGES + 14, GIRAFARIG
+	tr_mon LEVEL_FROM_BADGES + 14, RATTATA
 endc
 	tr_mon LEVEL_FROM_BADGES + 19, RATICATE, ALOLAN_FORM
 	end_trainer

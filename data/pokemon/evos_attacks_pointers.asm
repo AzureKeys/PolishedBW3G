@@ -141,7 +141,6 @@ EvosAttacksPointers::
 	dw SlowkingPlainEvosAttacks
 	dw MisdreavusEvosAttacks
 	dw UnownEvosAttacks
-	dw GirafarigEvosAttacks
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks
 	dw DunsparceEvosAttacks
@@ -215,7 +214,6 @@ EvosAttacksPointers::
 	dw SneaslerEvosAttacks
 	dw OverqwilEvosAttacks
 	dw DudunsparceEvosAttacks
-	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw SnivyEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw ThrohEvosAttacks
 	dw SawkEvosAttacks
 	dw SewaddleEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw SwadloonEvosAttacks
 	dw LeavannyEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw VenipedeEvosAttacks
 	dw WhirlipedeEvosAttacks
 	dw ScolipedeEvosAttacks
@@ -299,6 +297,9 @@ EvosAttacksPointers::
 	dw ReuniclusEvosAttacks
 	dw DucklettEvosAttacks
 	dw SwannaEvosAttacks
+	dw VanilliteEvosAttacks
+	dw VanillishEvosAttacks
+	dw VanilluxeEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

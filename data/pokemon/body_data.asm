@@ -144,7 +144,6 @@ PokemonBodyData:
 	body_data  20,  795, BIPEDAL_TAIL, PINK   ; SLOWKING
 	body_data   7,   10, HEAD,         GRAY   ; MISDREAVUS
 	body_data   5,   50, HEAD,         BLACK  ; UNOWN
-	body_data  15,  415, QUADRUPED,    YELLOW ; GIRAFARIG
 	body_data   6,   72, HEAD,         GRAY   ; PINECO
 	body_data  12, 1258, HEAD,         PURPLE ; FORRETRESS
 	body_data  15,  140, SERPENTINE,   YELLOW ; DUNSPARCE
@@ -218,7 +217,6 @@ PokemonBodyData:
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
-	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  13,  555, BIPEDAL,      RED    ; THROH
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON
 	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   53, INSECTOID,    RED    ; VENIPEDE
 	body_data  12,  585, HEAD,         GRAY   ; WHIRLIPEDE
 	body_data  25, 2005, INSECTOID,    RED    ; SCOLIPEDE
@@ -302,6 +300,9 @@ PokemonBodyData:
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
 	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT
 	body_data  13,  242, WINGS,        WHITE  ; SWANNA
+	body_data   4,   57, HEAD_BASE,    WHITE  ; VANILLITE
+	body_data  11,  410, HEAD_BASE,    WHITE  ; VANILLISH
+	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

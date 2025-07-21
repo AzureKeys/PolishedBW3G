@@ -3163,28 +3163,6 @@ endc
 	evos_attacks Unown
 	learnset 1, HIDDEN_POWER
 
-	evos_attacks Girafarig
-	evo_data EVOLVE_MOVE, ZEN_HEADBUTT, FARIGIRAF
-	FarigirafEvosAttacks:
-	learnset 1, ASTONISH
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 1, CONFUSION
-	learnset 5, FORESIGHT ; Odor Sleuth → egg move
-	learnset 10, PURSUIT ; Assurance → new move
-	learnset 14, STOMP
-	learnset 19, PSYBEAM
-	learnset 23, AGILITY
-	learnset 28, DOUBLE_KICK ; Double Hit → egg move
-	learnset 32, ZEN_HEADBUTT
-	learnset 37, CRUNCH
-	learnset 41, BATON_PASS
-	learnset 46, NASTY_PLOT
-	learnset 50, PSYCHIC_M
-if !DEF(FAITHFUL)
-	learnset 55, DARK_PULSE ; new move
-endc
-
 	evos_attacks Pineco
 	evo_data EVOLVE_LEVEL, 31, FORRETRESS
 	learnset 1, TACKLE
@@ -6134,6 +6112,56 @@ endc
 	learnset 40, AGILITY ; Tailwind
 	learnset 47, BRAVE_BIRD
 	learnset 55, HURRICANE
+	
+	evos_attacks Vanillite
+	evo_data EVOLVE_LEVEL, 35, VANILLISH
+	learnset 1, ICICLE_SPEAR
+	learnset 4, DEFENSE_CURL ; Harden
+	learnset 7, ASTONISH
+	learnset 13, ICY_WIND
+	;learnset 16, MIST
+	learnset 19, AVALANCHE
+	learnset 22, SWAGGER ; Taunt
+	;learnset 26, MIRROR_SHOT
+	learnset 31, BARRIER ; Acid Armor
+	learnset 35, ICE_BEAM
+	learnset 40, HAIL
+	learnset 44, MIRROR_COAT
+	learnset 49, BLIZZARD
+	
+	evos_attacks Vanillish
+	evo_data EVOLVE_LEVEL, 47, VANILLUXE
+	learnset 1, ICICLE_SPEAR
+	learnset 4, DEFENSE_CURL ; Harden
+	learnset 7, ASTONISH
+	learnset 13, ICY_WIND
+	;learnset 16, MIST
+	learnset 19, AVALANCHE
+	learnset 22, SWAGGER ; Taunt
+	;learnset 26, MIRROR_SHOT
+	learnset 31, BARRIER ; Acid Armor
+	learnset 35, ICE_BEAM
+	learnset 42, HAIL
+	learnset 47, MIRROR_COAT
+	learnset 53, BLIZZARD
+	
+	evos_attacks Vanilluxe
+	learnset 1, ICICLE_SPEAR
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 1, ASTONISH
+	learnset 1, ICY_WIND
+	learnset 4, DEFENSE_CURL ; Harden
+	learnset 7, ASTONISH
+	learnset 13, ICY_WIND
+	;learnset 16, MIST
+	learnset 19, AVALANCHE
+	learnset 22, SWAGGER ; Taunt
+	;learnset 26, MIRROR_SHOT
+	learnset 31, BARRIER ; Acid Armor
+	learnset 35, ICE_BEAM
+	learnset 42, HAIL
+	learnset 47, MIRROR_COAT
+	learnset 59, BLIZZARD
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

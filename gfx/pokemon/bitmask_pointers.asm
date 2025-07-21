@@ -137,7 +137,6 @@ BitmasksPointers:
 	dw SlowkingPlainBitmasks
 	dw MisdreavusBitmasks
 	dw UnownABitmasks
-	dw GirafarigBitmasks
 	dw PinecoBitmasks
 	dw ForretressBitmasks
 	dw DunsparceBitmasks
@@ -211,7 +210,6 @@ BitmasksPointers:
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
 	dw DudunsparceTwoSegmentBitmasks
-	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
 	dw SnivyBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw ThrohBitmasks
 	dw SawkBitmasks
 	dw SewaddleBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw SwadloonBitmasks
 	dw LeavannyBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
 	dw ScolipedeBitmasks
@@ -295,6 +293,9 @@ BitmasksPointers:
 	dw ReuniclusBitmasks
 	dw DucklettBitmasks
 	dw SwannaBitmasks
+	dw VanilliteBitmasks
+	dw VanillishBitmasks
+	dw VanilluxeBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

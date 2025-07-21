@@ -137,7 +137,6 @@ AnimationExtraPointers:
 	dw SlowkingPlainAnimationExtra
 	dw MisdreavusAnimationExtra
 	dw UnownAAnimationExtra
-	dw GirafarigAnimationExtra
 	dw PinecoAnimationExtra
 	dw ForretressAnimationExtra
 	dw DunsparceAnimationExtra
@@ -211,7 +210,6 @@ AnimationExtraPointers:
 	dw SneaslerAnimationExtra
 	dw OverqwilAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
-	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw SnivyAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw ThrohAnimationExtra
 	dw SawkAnimationExtra
 	dw SewaddleAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw SwadloonAnimationExtra
 	dw LeavannyAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra
 	dw ScolipedeAnimationExtra
@@ -295,6 +293,9 @@ AnimationExtraPointers:
 	dw ReuniclusAnimationExtra
 	dw DucklettAnimationExtra
 	dw SwannaAnimationExtra
+	dw VanilliteAnimationExtra
+	dw VanillishAnimationExtra
+	dw VanilluxeAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

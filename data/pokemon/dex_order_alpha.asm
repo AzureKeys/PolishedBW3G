@@ -70,7 +70,6 @@ AlphabeticalPokedexOrder:
 	dp EXCADRILL
 	dp EXEGGCUTE
 	dp EXEGGUTOR
-	dp FARIGIRAF
 	dp FARFETCH_D
 	dp FERALIGATR
 	dp FLAAFFY
@@ -81,7 +80,6 @@ AlphabeticalPokedexOrder:
 	dp GENGAR
 	dp GEODUDE
 	dp GIGALITH
-	dp GIRAFARIG
 	dp GLACEON
 	dp GLIGAR
 	dp GLISCOR
@@ -272,6 +270,9 @@ AlphabeticalPokedexOrder:
 	dp UNOWN
 	dp URSALUNA
 	dp URSARING
+	dp VANILLISH
+	dp VANILLITE
+	dp VANILLUXE
 	dp VAPOREON
 	dp VENIPEDE
 	dp VENUSAUR

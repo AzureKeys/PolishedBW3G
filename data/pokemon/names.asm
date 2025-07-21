@@ -138,7 +138,6 @@ PokemonNames::
 	rawchar "Slowking@@"
 	rawchar "Misdreavus"
 	rawchar "Unown@@@@@"
-	rawchar "Girafarig@"
 	rawchar "Pineco@@@@"
 	rawchar "Forretress"
 	rawchar "Dunsparce@"
@@ -212,7 +211,6 @@ PokemonNames::
 	rawchar "Sneasler@@"
 	rawchar "Overqwil@@"
 	rawchar "Dudunsparc"
-	rawchar "Farigiraf@"
 	rawchar "Clodsire@@"
 	rawchar "Annihilape"
 	rawchar "Snivy@@@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Throh@@@@@"
 	rawchar "Sawk@@@@@@"
 	rawchar "Sewaddle@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Swadloon@@"
 	rawchar "Leavanny@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
 	rawchar "Scolipede@"
@@ -296,4 +294,7 @@ PokemonNames::
 	rawchar "Reuniclus@"
 	rawchar "Ducklett@@"
 	rawchar "Swanna@@@@"
+	rawchar "Vanillite@"
+	rawchar "Vanillish@"
+	rawchar "Vanilluxe@"
 	assert_table_length NUM_SPECIES + 1

@@ -161,7 +161,6 @@
 	const SLOWKING   ; 62
 	const MISDREAVUS ; 63
 	const UNOWN      ; xx
-	const GIRAFARIG  ; xx
 	const PINECO     ; xx
 	const FORRETRESS ; xx
 	const DUNSPARCE  ; 64
@@ -235,7 +234,6 @@
 	const SNEASLER   ; 11e
 	const OVERQWIL   ; xx
 	const DUDUNSPARCE ; 120
-	const FARIGIRAF  ; xx
 	const CLODSIRE   ; xx
 	const ANNIHILAPE ; 123
 	const SNIVY      ; f2
@@ -278,10 +276,10 @@
 	const THROH      ; 11f
 	const SAWK       ; 120
 	const SEWADDLE   ; 121
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SWADLOON   ; 122
 	const LEAVANNY   ; 123
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const VENIPEDE   ; 124
 	const WHIRLIPEDE ; 125
 	const SCOLIPEDE  ; 126
@@ -319,6 +317,9 @@
 	const REUNICLUS  ; 148
 	const DUCKLETT   ; 149
 	const SWANNA     ; 14a
+	const VANILLITE  ; 14b
+	const VANILLISH  ; 14c
+	const VANILLUXE  ; 14d
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

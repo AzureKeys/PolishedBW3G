@@ -33,4 +33,7 @@ HardenUsers:
 	dp ROGGENROLA
 	dp BOLDORE
 	dp GIGALITH
+	dp VANILLITE
+	dp VANILLISH
+	dp VANILLUXE
 	db 0

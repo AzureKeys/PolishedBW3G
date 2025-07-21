@@ -141,7 +141,6 @@ endc
 	db NO_MOVE      ; SLOWKING
 	db NO_MOVE      ; MISDREAVUS
 	db NO_MOVE      ; UNOWN
-	db NO_MOVE      ; GIRAFARIG
 	db NO_MOVE      ; PINECO
 	db FLASH_CANNON ; FORRETRESS
 	db NO_MOVE      ; DUNSPARCE
@@ -215,7 +214,6 @@ endc
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
-	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
 	db NO_MOVE      ; SNIVY
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; THROH
 	db NO_MOVE      ; SAWK
 	db NO_MOVE      ; SEWADDLE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; SCOLIPEDE
@@ -299,6 +297,9 @@ endc
 	db DIZZY_PUNCH  ; REUNICLUS
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
+	db NO_MOVE      ; VANILLITE
+	db NO_MOVE      ; VANILLISH
+	db NO_MOVE      ; VANILLUXE
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

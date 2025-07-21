@@ -138,7 +138,6 @@ PokedexDataPointerTable:
 	dba SlowkingPlainPokedexEntry
 	dba MisdreavusPokedexEntry
 	dba UnownPokedexEntry
-	dba GirafarigPokedexEntry
 	dba PinecoPokedexEntry
 	dba ForretressPokedexEntry
 	dba DunsparcePokedexEntry
@@ -212,7 +211,6 @@ PokedexDataPointerTable:
 	dba SneaslerPokedexEntry
 	dba OverqwilPokedexEntry
 	dba DudunsparcePokedexEntry
-	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba SnivyPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba ThrohPokedexEntry
 	dba SawkPokedexEntry
 	dba SewaddlePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
 	dba ScolipedePokedexEntry
@@ -296,6 +294,9 @@ PokedexDataPointerTable:
 	dba ReuniclusPokedexEntry
 	dba DucklettPokedexEntry
 	dba SwannaPokedexEntry
+	dba VanillitePokedexEntry
+	dba VanillishPokedexEntry
+	dba VanilluxePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

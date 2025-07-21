@@ -137,7 +137,6 @@ FramesPointers:
 	dw SlowkingPlainFrames
 	dw MisdreavusFrames
 	dw UnownAFrames
-	dw GirafarigFrames
 	dw PinecoFrames
 	dw ForretressFrames
 	dw DunsparceFrames
@@ -211,7 +210,6 @@ FramesPointers:
 	dw SneaslerFrames
 	dw OverqwilFrames
 	dw DudunsparceTwoSegmentFrames
-	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw SnivyFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw ThrohFrames
 	dw SawkFrames
 	dw SewaddleFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SwadloonFrames
 	dw LeavannyFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw VenipedeFrames
 	dw WhirlipedeFrames
 	dw ScolipedeFrames
@@ -295,6 +293,9 @@ FramesPointers:
 	dw ReuniclusFrames
 	dw DucklettFrames
 	dw SwannaFrames
+	dw VanilliteFrames
+	dw VanillishFrames
+	dw VanilluxeFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

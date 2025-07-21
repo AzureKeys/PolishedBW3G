@@ -137,7 +137,6 @@ EggSpeciesMovesPointers::
 	dw SlowpokePlainEggSpeciesMoves     ; Slowking
 	dw MisdreavusEggSpeciesMoves        ; Misdreavus
 	dw NoEggSpeciesMoves                ; Unown
-	dw GirafarigEggSpeciesMoves         ; Girafarig
 	dw PinecoEggSpeciesMoves            ; Pineco
 	dw PinecoEggSpeciesMoves            ; Forretress
 	dw DunsparceEggSpeciesMoves         ; Dunsparce
@@ -211,7 +210,6 @@ EggSpeciesMovesPointers::
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
-	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SnivyEggSpeciesMoves             ; Snivy
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw ThrohEggSpeciesMoves             ; Throh
 	dw SawkEggSpeciesMoves              ; Sawk
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SewaddleEggSpeciesMoves          ; Swadloon
 	dw SewaddleEggSpeciesMoves          ; Leavanny
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw VenipedeEggSpeciesMoves          ; Venipede
 	dw VenipedeEggSpeciesMoves          ; Whirlipede
 	dw VenipedeEggSpeciesMoves          ; Scolipede
@@ -295,6 +293,9 @@ EggSpeciesMovesPointers::
 	dw SolosisEggSpeciesMoves           ; Reuniclus
 	dw DucklettEggSpeciesMoves          ; Ducklett
 	dw DucklettEggSpeciesMoves          ; Swanna
+	dw VanilliteEggSpeciesMoves         ; Vanillite
+	dw VanilliteEggSpeciesMoves         ; Vanillish
+	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

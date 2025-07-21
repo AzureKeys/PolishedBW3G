@@ -141,7 +141,6 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; SLOWKING
 	iconpal PURPLE, BROWN ; MISDREAVUS
 	iconpal BLACK, BLUE ; UNOWN
-	iconpal BROWN, BLUE ; GIRAFARIG
 	iconpal GRAY, RED ; PINECO
 	iconpal PURPLE, BROWN ; FORRETRESS
 	iconpal AZURE, RED ; DUNSPARCE
@@ -215,7 +214,6 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; SNEASLER
 	iconpal PURPLE, BLUE ; OVERQWIL
 	iconpal AZURE, RED ; DUDUNSPARCE
-	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal GREEN, BLUE ; SNIVY
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal RED, ORANGE ; THROH
 	iconpal BLUE, PURPLE ; SAWK
 	iconpal GREEN, TEAL ; SEWADDLE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, GRAY ; SWADLOON
 	iconpal GREEN, BROWN ; LEAVANNY
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
 	iconpal RED, ORANGE ; SCOLIPEDE
@@ -299,6 +297,9 @@ OverworldMonIconColors::
 	iconpal GREEN, AZURE ; REUNICLUS
 	iconpal AZURE, PINK ; DUCKLETT
 	iconpal WHITE, PURPLE ; SWANNA
+	iconpal AZURE, PINK ; VANILLITE
+	iconpal AZURE, PURPLE ; VANILLISH
+	iconpal AZURE, PURPLE ; VANILLUXE
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

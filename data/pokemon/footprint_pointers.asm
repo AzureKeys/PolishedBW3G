@@ -137,7 +137,6 @@ FootprintPointers::
 	dw SlowkingFootprint
 	dw MisdreavusFootprint
 	dw UnownFootprint
-	dw GirafarigFootprint
 	dw PinecoFootprint
 	dw ForretressFootprint
 	dw DunsparceFootprint
@@ -211,7 +210,6 @@ FootprintPointers::
 	dw SneaslerFootprint
 	dw OverqwilFootprint
 	dw DudunsparceFootprint
-	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
 	dw SnivyFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw ThrohFootprint
 	dw SawkFootprint
 	dw SewaddleFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SwadloonFootprint
 	dw LeavannyFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
 	dw ScolipedeFootprint
@@ -295,6 +293,9 @@ FootprintPointers::
 	dw ReuniclusFootprint
 	dw DucklettFootprint
 	dw SwannaFootprint
+	dw VanilliteFootprint
+	dw VanillishFootprint
+	dw VanilluxeFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

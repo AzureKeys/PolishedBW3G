@@ -692,11 +692,6 @@ UnownAMini::     INCBIN "gfx/minis/unown_a.2bpp.lz"
 UnownAMiniMask:: INCBIN "gfx/minis/unown_a_mask.1bpp.lz"
 UnownAIcon::     INCBIN "gfx/icons/unown_a.2bpp.lz"
 
-SECTION "Girafarig Mini Icon", ROMX
-GirafarigMini::     INCBIN "gfx/minis/girafarig.2bpp.lz"
-GirafarigMiniMask:: INCBIN "gfx/minis/girafarig_mask.1bpp.lz"
-GirafarigIcon::     INCBIN "gfx/icons/girafarig.2bpp.lz"
-
 SECTION "Pineco Mini Icon", ROMX
 PinecoMini::     INCBIN "gfx/minis/pineco.2bpp.lz"
 PinecoMiniMask:: INCBIN "gfx/minis/pineco_mask.1bpp.lz"
@@ -1066,11 +1061,6 @@ SECTION "DudunsparceTwoSegment Mini Icon", ROMX
 DudunsparceTwoSegmentMini::     INCBIN "gfx/minis/dudunsparce_two_segment.2bpp.lz"
 DudunsparceTwoSegmentMiniMask:: INCBIN "gfx/minis/dudunsparce_two_segment_mask.1bpp.lz"
 DudunsparceTwoSegmentIcon::     INCBIN "gfx/icons/dudunsparce_two_segment.2bpp.lz"
-
-SECTION "Farigiraf Mini Icon", ROMX
-FarigirafMini::     INCBIN "gfx/minis/farigiraf.2bpp.lz"
-FarigirafMiniMask:: INCBIN "gfx/minis/farigiraf_mask.1bpp.lz"
-FarigirafIcon::     INCBIN "gfx/icons/farigiraf.2bpp.lz"
 
 SECTION "Clodsire Mini Icon", ROMX
 ClodsireMini::     INCBIN "gfx/minis/clodsire.2bpp.lz"
@@ -1476,6 +1466,21 @@ SECTION "Swanna Mini Icon", ROMX
 SwannaMini::     INCBIN "gfx/minis/swanna.2bpp.lz"
 SwannaMiniMask:: INCBIN "gfx/minis/swanna_mask.1bpp.lz"
 SwannaIcon::     INCBIN "gfx/icons/swanna.2bpp.lz"
+
+SECTION "Vanillite Mini Icon", ROMX
+VanilliteMini::     INCBIN "gfx/minis/vanillite.2bpp.lz"
+VanilliteMiniMask:: INCBIN "gfx/minis/vanillite_mask.1bpp.lz"
+VanilliteIcon::     INCBIN "gfx/icons/vanillite.2bpp.lz"
+
+SECTION "Vanillish Mini Icon", ROMX
+VanillishMini::     INCBIN "gfx/minis/vanillish.2bpp.lz"
+VanillishMiniMask:: INCBIN "gfx/minis/vanillish_mask.1bpp.lz"
+VanillishIcon::     INCBIN "gfx/icons/vanillish.2bpp.lz"
+
+SECTION "Vanilluxe Mini Icon", ROMX
+VanilluxeMini::     INCBIN "gfx/minis/vanilluxe.2bpp.lz"
+VanilluxeMiniMask:: INCBIN "gfx/minis/vanilluxe_mask.1bpp.lz"
+VanilluxeIcon::     INCBIN "gfx/icons/vanilluxe.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

@@ -141,7 +141,6 @@ MiniIconPointers:
 	mini_icon Slowking
 	mini_icon Misdreavus
 	mini_icon UnownA
-	mini_icon Girafarig
 	mini_icon Pineco
 	mini_icon Forretress
 	mini_icon Dunsparce
@@ -215,7 +214,6 @@ MiniIconPointers:
 	mini_icon Sneasler
 	mini_icon Overqwil
 	mini_icon DudunsparceTwoSegment
-	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
 	mini_icon Snivy
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Throh
 	mini_icon Sawk
 	mini_icon Sewaddle
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Swadloon
 	mini_icon Leavanny
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Venipede
 	mini_icon Whirlipede
 	mini_icon Scolipede
@@ -299,6 +297,9 @@ MiniIconPointers:
 	mini_icon Reuniclus
 	mini_icon Ducklett
 	mini_icon Swanna
+	mini_icon Vanillite
+	mini_icon Vanillish
+	mini_icon Vanilluxe
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

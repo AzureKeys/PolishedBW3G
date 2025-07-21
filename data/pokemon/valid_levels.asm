@@ -142,7 +142,6 @@ endc
 	db  37, 100 ; Slowking
 	db   1,  39 ; Misdreavus
 	db 255, 255 ; Unown
-	db   1,  31 ; Girafarig
 	db   1,  30 ; Pineco
 	db  31, 100 ; Forretress
 	db   1,  31 ; Dunsparce
@@ -216,7 +215,6 @@ endc
 	db  40, 100 ; Sneasler
 	db  33, 100 ; Overqwil
 	db  32, 100 ; Dudunsparce
-	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
 	db   1,  16 ; Snivy
@@ -259,10 +257,10 @@ endc
 	db  20, 100 ; Throh
 	db  20, 100 ; Sawk
 	db   1,  19 ; Sewaddle
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  20,  29 ; Swadloon
 	db  30, 100 ; Leavanny
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
 	db  30, 100 ; Scolipede
@@ -300,4 +298,7 @@ endc
 	db  41, 100 ; Reuniclus
 	db   1,  34 ; Ducklett
 	db  35, 100 ; Swanna
+	db   1,  34 ; Vanillite
+	db  35,  46 ; Vanillish
+	db  47, 100 ; Vanilluxe
 	assert_table_length NUM_SPECIES

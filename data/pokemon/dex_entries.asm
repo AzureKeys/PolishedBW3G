@@ -1376,16 +1376,6 @@ UnownPokedexEntry::
 	next "have a variety of"
 	next "abilities.@"
 
-SECTION "GirafarigPokedexEntry", ROMX
-GirafarigPokedexEntry::
-	db "Long Neck@"
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"
-
 SECTION "PinecoPokedexEntry", ROMX
 PinecoPokedexEntry::
 	db "Bagworm@"
@@ -2114,16 +2104,6 @@ DudunsparcePokedexEntry::
 	page "into deep bedrock."
 	next "The nest can reach"
 	next "over six miles.@"
-
-SECTION "FarigirafPokedexEntry", ROMX
-FarigirafPokedexEntry::
-	db "Long Neck@"
-	db   "Now that the brain"
-	next "waves from its"
-	next "head and tail are"
-	page "synced up, its"
-	next "psychic power is"
-	next "10 times stronger.@"
 
 SECTION "ClodsirePokedexEntry", ROMX
 ClodsirePokedexEntry::
@@ -2916,6 +2896,36 @@ SwannaPokedexEntry::
     page "swings its long"
     next "neck around for"
     next "more force.@"
+
+SECTION "VanillitePokedexEntry", ROMX
+VanillitePokedexEntry::
+	db "Fresh Snow@"
+	db "This #mon"
+    next "formed from"
+    next "icicles bathed in"
+    page "energy. They sleep"
+    next "buried in powdery"
+    next "snow.@"
+
+SECTION "VanillishPokedexEntry", ROMX
+VanillishPokedexEntry::
+	db "Icy Snow@"
+	db "Vanillish hides"
+    next "from foes by"
+    next "freezing tiny ice"
+    page "particles in the"
+    next "air and hiding"
+    next "among them.@"
+
+SECTION "VanilluxePokedexEntry", ROMX
+VanilluxePokedexEntry::
+	db "Snowstorm@"
+	db "Vanilluxe swallows"
+    next "large amounts of"
+    next "water and creates"
+    page "snow clouds in its"
+    next "body, then makes"
+    next "a blizzard.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
