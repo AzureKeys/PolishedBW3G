@@ -325,6 +325,8 @@ INCLUDE "data/pokemon/base_stats/swanna.asm"
 INCLUDE "data/pokemon/base_stats/vanillite.asm"
 INCLUDE "data/pokemon/base_stats/vanillish.asm"
 INCLUDE "data/pokemon/base_stats/vanilluxe.asm"
+INCLUDE "data/pokemon/base_stats/deerling.asm"
+INCLUDE "data/pokemon/base_stats/sawsbuck.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

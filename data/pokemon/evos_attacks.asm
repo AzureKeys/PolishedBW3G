@@ -6055,6 +6055,44 @@ endc
 	learnset 42, HAIL
 	learnset 47, MIRROR_COAT
 	learnset 59, BLIZZARD
+	
+	evos_attacks Deerling
+	evo_data EVOLVE_LEVEL, 34, SAWSBUCK, NO_FORM ; preserve pre-evo form
+	learnset 1, TACKLE
+	learnset 4, GROWL
+	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 10, DOUBLE_KICK
+	learnset 13, LEECH_SEED
+	learnset 16, FEINT_ATTACK
+	learnset 20, TAKE_DOWN
+	learnset 24, HI_JUMP_KICK ; Jump Kick
+	learnset 28, HEALINGLIGHT ; Aromatherapy
+	learnset 32, ENERGY_BALL
+	learnset 36, CHARM
+	;learnset 41, NATURE_POWER
+	learnset 46, DOUBLE_EDGE
+	learnset 51, SOLAR_BEAM
+	
+	evos_attacks Sawsbuck
+	learnset 1, MEGAHORN
+	learnset 1, TACKLE
+	learnset 1, GROWL
+	learnset 1, MUD_SLAP ; Sand-Attack
+	learnset 1, DOUBLE_KICK
+	learnset 4, GROWL
+	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 10, DOUBLE_KICK
+	learnset 13, LEECH_SEED
+	learnset 16, FEINT_ATTACK
+	learnset 20, TAKE_DOWN
+	learnset 24, HI_JUMP_KICK ; Jump Kick
+	learnset 28, HEALINGLIGHT ; Aromatherapy
+	learnset 32, ENERGY_BALL
+	learnset 33, MEGAHORN ; Horn Leech
+	learnset 36, CHARM
+	;learnset 44, NATURE_POWER
+	learnset 52, DOUBLE_EDGE
+	learnset 60, SOLAR_BEAM
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

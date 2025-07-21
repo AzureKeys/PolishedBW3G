@@ -290,6 +290,8 @@ FootprintPointers::
 	dw VanilliteFootprint
 	dw VanillishFootprint
 	dw VanilluxeFootprint
+	dw DeerlingFootprint
+	dw SawsbuckFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

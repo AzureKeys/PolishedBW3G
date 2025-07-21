@@ -450,3 +450,7 @@ YamaskPlainBitmasks: INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"
 ZoruaPlainBitmasks: INCLUDE "gfx/pokemon/zorua_plain/bitmask.asm"
 
 ZoroarkPlainBitmasks: INCLUDE "gfx/pokemon/zoroark_plain/bitmask.asm"
+
+DeerlingSpringBitmasks: INCLUDE "gfx/pokemon/deerling_spring/bitmask.asm"
+
+SawsbuckSpringBitmasks: INCLUDE "gfx/pokemon/sawsbuck_spring/bitmask.asm"

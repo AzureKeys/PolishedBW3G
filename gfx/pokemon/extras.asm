@@ -448,3 +448,7 @@ YamaskPlainAnimationExtra: INCLUDE "gfx/pokemon/yamask_plain/anim_idle.asm"
 ZoruaPlainAnimationExtra: INCLUDE "gfx/pokemon/zorua_plain/anim_idle.asm"
 
 ZoroarkPlainAnimationExtra: INCLUDE "gfx/pokemon/zoroark_plain/anim_idle.asm"
+
+DeerlingSpringAnimationExtra: INCLUDE "gfx/pokemon/deerling_spring/anim_idle.asm"
+
+SawsbuckSpringAnimationExtra: INCLUDE "gfx/pokemon/sawsbuck_spring/anim_idle.asm"

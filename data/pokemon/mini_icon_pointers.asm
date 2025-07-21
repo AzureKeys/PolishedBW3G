@@ -294,6 +294,8 @@ MiniIconPointers:
 	mini_icon Vanillite
 	mini_icon Vanillish
 	mini_icon Vanilluxe
+	mini_icon Deerling
+	mini_icon Sawsbuck
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

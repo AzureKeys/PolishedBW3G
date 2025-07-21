@@ -2867,6 +2867,26 @@ VanilluxePokedexEntry::
     next "body, then makes"
     next "a blizzard.@"
 
+SECTION "DeerlingPokedexEntry", ROMX
+DeerlingPokedexEntry::
+	db "Season@"
+	db "The color of"
+	next "their fur changes"
+	next "to match the"
+	page "grass. When they"
+	next "sense danger, they"
+	next "hide away.@"
+
+SECTION "SawsbuckPokedexEntry", ROMX
+SawsbuckPokedexEntry::
+	db "Season@"
+	db "The plants on its"
+	next "horns change with"
+	next "the seasons. The"
+	page "leader of the herd"
+	next "has magnificent"
+	next "horns.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

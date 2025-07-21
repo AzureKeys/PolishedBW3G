@@ -294,6 +294,8 @@ EvosAttacksPointers::
 	dw VanilliteEvosAttacks
 	dw VanillishEvosAttacks
 	dw VanilluxeEvosAttacks
+	dw DeerlingEvosAttacks
+	dw SawsbuckEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

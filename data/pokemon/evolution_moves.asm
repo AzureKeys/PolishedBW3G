@@ -294,6 +294,8 @@ endc
 	db NO_MOVE      ; VANILLITE
 	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; VANILLUXE
+	db NO_MOVE      ; DEERLING
+	db MEGAHORN     ; SAWSBUCK
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

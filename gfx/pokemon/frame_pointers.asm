@@ -290,6 +290,8 @@ FramesPointers:
 	dw VanilliteFrames
 	dw VanillishFrames
 	dw VanilluxeFrames
+	dw DeerlingSpringFrames
+	dw SawsbuckSpringFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

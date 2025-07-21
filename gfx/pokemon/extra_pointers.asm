@@ -290,6 +290,8 @@ AnimationExtraPointers:
 	dw VanilliteAnimationExtra
 	dw VanillishAnimationExtra
 	dw VanilluxeAnimationExtra
+	dw DeerlingSpringAnimationExtra
+	dw SawsbuckSpringAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

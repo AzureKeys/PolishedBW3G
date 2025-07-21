@@ -1452,6 +1452,16 @@ VanilluxeMini::     INCBIN "gfx/minis/vanilluxe.2bpp.lz"
 VanilluxeMiniMask:: INCBIN "gfx/minis/vanilluxe_mask.1bpp.lz"
 VanilluxeIcon::     INCBIN "gfx/icons/vanilluxe.2bpp.lz"
 
+SECTION "Deerling Mini Icon", ROMX
+DeerlingMini::     INCBIN "gfx/minis/deerling.2bpp.lz"
+DeerlingMiniMask:: INCBIN "gfx/minis/deerling_mask.1bpp.lz"
+DeerlingIcon::     INCBIN "gfx/icons/deerling.2bpp.lz"
+
+SECTION "Sawsbuck Mini Icon", ROMX
+SawsbuckMini::     INCBIN "gfx/minis/sawsbuck.2bpp.lz"
+SawsbuckMiniMask:: INCBIN "gfx/minis/sawsbuck_mask.1bpp.lz"
+SawsbuckIcon::     INCBIN "gfx/icons/sawsbuck.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

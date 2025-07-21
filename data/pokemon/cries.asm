@@ -296,4 +296,6 @@ PokemonCries::
 	mon_cry CRY_MANTINE,     $030,  $0ea ; Vanillite
 	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
 	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
+	mon_cry CRY_BULBASAUR,   $080,  $081 ; DEERLING*
+	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck
 	assert_table_length NUM_SPECIES

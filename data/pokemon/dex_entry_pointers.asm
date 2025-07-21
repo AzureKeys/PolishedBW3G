@@ -291,6 +291,8 @@ PokedexDataPointerTable:
 	dba VanillitePokedexEntry
 	dba VanillishPokedexEntry
 	dba VanilluxePokedexEntry
+	dba DeerlingPokedexEntry
+	dba SawsbuckPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

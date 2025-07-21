@@ -450,3 +450,7 @@ YamaskPlainAnimation: INCLUDE "gfx/pokemon/yamask_plain/anim.asm"
 ZoruaPlainAnimation: INCLUDE "gfx/pokemon/zorua_plain/anim.asm"
 
 ZoroarkPlainAnimation: INCLUDE "gfx/pokemon/zoroark_plain/anim.asm"
+
+DeerlingSpringAnimation: INCLUDE "gfx/pokemon/deerling_spring/anim.asm"
+
+SawsbuckSpringAnimation: INCLUDE "gfx/pokemon/sawsbuck_spring/anim.asm"

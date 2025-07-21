@@ -230,7 +230,7 @@ OverworldMonIconColors::
 	iconpal PINK, BLUE ; MUSHARNA
 	iconpal GRAY, BLUE ; PIDOVE
 	iconpal GRAY, GREEN ; TRANQUILL
-	iconpal PINK, PURPLE ; UNFEZANT
+	iconpal PINK, PURPLE ; UNFEZANT (male)
 	iconpal BLACK, BLUE ; BLITZLE
 	iconpal BLACK, PURPLE ; ZEBSTRIKA
 	iconpal BLUE, PURPLE ; ROGGENROLA
@@ -294,6 +294,8 @@ OverworldMonIconColors::
 	iconpal AZURE, PINK ; VANILLITE
 	iconpal AZURE, PURPLE ; VANILLISH
 	iconpal AZURE, PURPLE ; VANILLUXE
+	iconpal BROWN, PINK ; DEERLING (spring)
+	iconpal BROWN, ORANGE ; SAWSBUCK (spring)
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

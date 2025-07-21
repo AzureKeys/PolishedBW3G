@@ -291,4 +291,6 @@ PokemonNames::
 	rawchar "Vanillite@"
 	rawchar "Vanillish@"
 	rawchar "Vanilluxe@"
+	rawchar "Deerling@@"
+	rawchar "Sawsbuck@@"
 	assert_table_length NUM_SPECIES + 1

@@ -42,6 +42,7 @@ AlphabeticalPokedexOrder:
 	dp CYNDAQUIL
 	dp DARMANITAN
 	dp DARUMAKA
+	dp DEERLING
 	dp DELIBIRD
 	dp DEWGONG
 	dp DEWOTT
@@ -202,6 +203,7 @@ AlphabeticalPokedexOrder:
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SAWK
+	dp SAWSBUCK
 	dp SCIZOR
 	dp SCOLIPEDE
 	dp SCRAFTY

@@ -1213,5 +1213,12 @@ VanilliteEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
+DeerlingEggSpeciesMoves:
+	dp DEERLING, NO_FORM
+	db AGILITY
+	db HEADBUTT
+	db HEALINGLIGHT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

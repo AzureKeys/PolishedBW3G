@@ -290,6 +290,8 @@ EggSpeciesMovesPointers::
 	dw VanilliteEggSpeciesMoves         ; Vanillite
 	dw VanilliteEggSpeciesMoves         ; Vanillish
 	dw VanilliteEggSpeciesMoves         ; Vanilluxe
+	dw DeerlingEggSpeciesMoves          ; Deerling
+	dw DeerlingEggSpeciesMoves          ; Sawsbuck
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -93,6 +93,8 @@ SwannaFootprint::
 VanilliteFootprint::
 VanillishFootprint::
 VanilluxeFootprint::
+DeerlingFootprint::
+SawsbuckFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

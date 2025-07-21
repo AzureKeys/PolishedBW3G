@@ -314,6 +314,8 @@
 	const VANILLITE  ; 14b
 	const VANILLISH  ; 14c
 	const VANILLUXE  ; 14d
+	const DEERLING   ; 14e
+	const SAWSBUCK   ; 14f
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

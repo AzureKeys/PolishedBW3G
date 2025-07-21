@@ -295,4 +295,6 @@ endc
 	db   1,  34 ; Vanillite
 	db  35,  46 ; Vanillish
 	db  47, 100 ; Vanilluxe
+	db   1,  33 ; Deerling
+	db  34, 100 ; Sawsbuck
 	assert_table_length NUM_SPECIES

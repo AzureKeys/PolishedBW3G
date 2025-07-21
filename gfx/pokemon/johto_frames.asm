@@ -244,3 +244,7 @@ YamaskPlainFrames: INCLUDE "gfx/pokemon/yamask_plain/frames.asm"
 ZoruaPlainFrames: INCLUDE "gfx/pokemon/zorua_plain/frames.asm"
 
 ZoroarkPlainFrames: INCLUDE "gfx/pokemon/zoroark_plain/frames.asm"
+
+DeerlingSpringFrames: INCLUDE "gfx/pokemon/deerling_spring/frames.asm"
+
+SawsbuckSpringFrames: INCLUDE "gfx/pokemon/sawsbuck_spring/frames.asm"

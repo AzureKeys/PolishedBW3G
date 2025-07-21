@@ -1556,3 +1556,11 @@ VanillishBackpic:  INCBIN "gfx/pokemon/vanillish/back.2bpp.lz"
 SECTION "Vanilluxe Pics", ROMX
 VanilluxeFrontpic: INCBIN "gfx/pokemon/vanilluxe/front.animated.2bpp.lz"
 VanilluxeBackpic:  INCBIN "gfx/pokemon/vanilluxe/back.2bpp.lz"
+
+SECTION "DeerlingSpring Pics", ROMX
+DeerlingSpringFrontpic: INCBIN "gfx/pokemon/deerling_spring/front.animated.2bpp.lz"
+DeerlingSpringBackpic:  INCBIN "gfx/pokemon/deerling_spring/back.2bpp.lz"
+
+SECTION "SawsbuckSpring Pics", ROMX
+SawsbuckSpringFrontpic: INCBIN "gfx/pokemon/sawsbuck_spring/front.animated.2bpp.lz"
+SawsbuckSpringBackpic:  INCBIN "gfx/pokemon/sawsbuck_spring/back.2bpp.lz"

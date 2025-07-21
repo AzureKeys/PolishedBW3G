@@ -294,6 +294,8 @@ PokemonPicPointers::
 	pics Vanillite
 	pics Vanillish
 	pics Vanilluxe
+	pics DeerlingSpring
+	pics SawsbuckSpring
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
