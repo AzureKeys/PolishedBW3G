@@ -138,7 +138,6 @@ PokemonNames::
 	rawchar "Slowking@@"
 	rawchar "Misdreavus"
 	rawchar "Unown@@@@@"
-	rawchar "Wobbuffet@"
 	rawchar "Girafarig@"
 	rawchar "Pineco@@@@"
 	rawchar "Forretress"
@@ -184,7 +183,6 @@ PokemonNames::
 	rawchar "Ho-Oh@@@@@"
 	rawchar "Celebi@@@@"
 	rawchar "Azurill@@@"
-	rawchar "Wynaut@@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Palpitoad@"
 	rawchar "Seismitoad"
 	rawchar "Throh@@@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Sawk@@@@@@"
 	rawchar "Sewaddle@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Swadloon@@"
 	rawchar "Leavanny@@"
 	rawchar "Venipede@@"

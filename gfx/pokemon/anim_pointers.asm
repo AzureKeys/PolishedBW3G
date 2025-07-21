@@ -137,7 +137,6 @@ AnimationPointers:
 	dw SlowkingPlainAnimation
 	dw MisdreavusAnimation
 	dw UnownAAnimation
-	dw WobbuffetAnimation
 	dw GirafarigAnimation
 	dw PinecoAnimation
 	dw ForretressAnimation
@@ -183,7 +182,6 @@ AnimationPointers:
 	dw HoOhAnimation
 	dw CelebiAnimation
 	dw AzurillAnimation
-	dw WynautAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw PalpitoadAnimation
 	dw SeismitoadAnimation
 	dw ThrohAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SawkAnimation
 	dw SewaddleAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw SwadloonAnimation
 	dw LeavannyAnimation
 	dw VenipedeAnimation

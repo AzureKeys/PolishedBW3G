@@ -142,7 +142,6 @@ endc
 	db  37, 100 ; Slowking
 	db   1,  39 ; Misdreavus
 	db 255, 255 ; Unown
-	db   1, 100 ; Wobbuffet
 	db   1,  31 ; Girafarig
 	db   1,  30 ; Pineco
 	db  31, 100 ; Forretress
@@ -188,7 +187,6 @@ endc
 	db 255, 255 ; Ho-Oh
 	db 255, 255 ; Celebi
 	db   1,  19 ; Azurill
-	db   1,  19 ; Wynaut
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -259,10 +257,10 @@ endc
 	db  25,  35 ; Palpitoad
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  20, 100 ; Sawk
 	db   1,  19 ; Sewaddle
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  20,  29 ; Swadloon
 	db  30, 100 ; Leavanny
 	db   1,  21 ; Venipede

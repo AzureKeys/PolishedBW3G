@@ -692,11 +692,6 @@ UnownAMini::     INCBIN "gfx/minis/unown_a.2bpp.lz"
 UnownAMiniMask:: INCBIN "gfx/minis/unown_a_mask.1bpp.lz"
 UnownAIcon::     INCBIN "gfx/icons/unown_a.2bpp.lz"
 
-SECTION "Wobbuffet Mini Icon", ROMX
-WobbuffetMini::     INCBIN "gfx/minis/wobbuffet.2bpp.lz"
-WobbuffetMiniMask:: INCBIN "gfx/minis/wobbuffet_mask.1bpp.lz"
-WobbuffetIcon::     INCBIN "gfx/icons/wobbuffet.2bpp.lz"
-
 SECTION "Girafarig Mini Icon", ROMX
 GirafarigMini::     INCBIN "gfx/minis/girafarig.2bpp.lz"
 GirafarigMiniMask:: INCBIN "gfx/minis/girafarig_mask.1bpp.lz"
@@ -921,11 +916,6 @@ SECTION "Azurill Mini Icon", ROMX
 AzurillMini::     INCBIN "gfx/minis/azurill.2bpp.lz"
 AzurillMiniMask:: INCBIN "gfx/minis/azurill_mask.1bpp.lz"
 AzurillIcon::     INCBIN "gfx/icons/azurill.2bpp.lz"
-
-SECTION "Wynaut Mini Icon", ROMX
-WynautMini::     INCBIN "gfx/minis/wynaut.2bpp.lz"
-WynautMiniMask:: INCBIN "gfx/minis/wynaut_mask.1bpp.lz"
-WynautIcon::     INCBIN "gfx/icons/wynaut.2bpp.lz"
 
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"

@@ -1376,16 +1376,6 @@ UnownPokedexEntry::
 	next "have a variety of"
 	next "abilities.@"
 
-SECTION "WobbuffetPokedexEntry", ROMX
-WobbuffetPokedexEntry::
-	db "Patient@"
-	db   "In order to"
-	next "conceal its black"
-	next "tail, it lives in"
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
-
 SECTION "GirafarigPokedexEntry", ROMX
 GirafarigPokedexEntry::
 	db "Long Neck@"
@@ -1835,16 +1825,6 @@ AzurillPokedexEntry::
 	page "growth. It plays"
 	next "by bouncing on its"
 	next "tail.@"
-
-SECTION "WynautPokedexEntry", ROMX
-WynautPokedexEntry::
-	db "Bright@"
-	db   "It tends to move"
-	next "in a pack. Indiv-"
-	next "iduals squash"
-	page "against one an-"
-	next "other to toughen"
-	next "their spirits.@"
 
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::

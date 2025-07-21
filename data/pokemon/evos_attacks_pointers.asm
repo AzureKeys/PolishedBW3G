@@ -141,7 +141,6 @@ EvosAttacksPointers::
 	dw SlowkingPlainEvosAttacks
 	dw MisdreavusEvosAttacks
 	dw UnownEvosAttacks
-	dw WobbuffetEvosAttacks
 	dw GirafarigEvosAttacks
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks
@@ -187,7 +186,6 @@ EvosAttacksPointers::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw AzurillEvosAttacks
-	dw WynautEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw PalpitoadEvosAttacks
 	dw SeismitoadEvosAttacks
 	dw ThrohEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw SawkEvosAttacks
 	dw SewaddleEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SwadloonEvosAttacks
 	dw LeavannyEvosAttacks
 	dw VenipedeEvosAttacks

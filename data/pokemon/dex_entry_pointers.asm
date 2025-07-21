@@ -138,7 +138,6 @@ PokedexDataPointerTable:
 	dba SlowkingPlainPokedexEntry
 	dba MisdreavusPokedexEntry
 	dba UnownPokedexEntry
-	dba WobbuffetPokedexEntry
 	dba GirafarigPokedexEntry
 	dba PinecoPokedexEntry
 	dba ForretressPokedexEntry
@@ -184,7 +183,6 @@ PokedexDataPointerTable:
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
 	dba AzurillPokedexEntry
-	dba WynautPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba PalpitoadPokedexEntry
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba SawkPokedexEntry
 	dba SewaddlePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry
 	dba VenipedePokedexEntry

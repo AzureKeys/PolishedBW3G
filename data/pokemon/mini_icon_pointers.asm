@@ -141,7 +141,6 @@ MiniIconPointers:
 	mini_icon Slowking
 	mini_icon Misdreavus
 	mini_icon UnownA
-	mini_icon Wobbuffet
 	mini_icon Girafarig
 	mini_icon Pineco
 	mini_icon Forretress
@@ -187,7 +186,6 @@ MiniIconPointers:
 	mini_icon HoOh
 	mini_icon Celebi
 	mini_icon Azurill
-	mini_icon Wynaut
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Palpitoad
 	mini_icon Seismitoad
 	mini_icon Throh
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Sawk
 	mini_icon Sewaddle
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Swadloon
 	mini_icon Leavanny
 	mini_icon Venipede

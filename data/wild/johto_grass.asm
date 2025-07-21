@@ -1338,8 +1338,8 @@
 	wildmon 23, GEODUDE
 	wildmon 23, ZUBAT
 	wildmon 25, GRAVELER
-	wildmon 20, WOBBUFFET
-	wildmon 25, WOBBUFFET
+	wildmon 20, RATTATA
+	wildmon 25, RATTATA
 	wildmon 23, GOLBAT
 	wildmon 23, DUNSPARCE
 	end_grass_wildmons

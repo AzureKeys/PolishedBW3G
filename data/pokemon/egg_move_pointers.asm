@@ -137,7 +137,6 @@ EggSpeciesMovesPointers::
 	dw SlowpokePlainEggSpeciesMoves     ; Slowking
 	dw MisdreavusEggSpeciesMoves        ; Misdreavus
 	dw NoEggSpeciesMoves                ; Unown
-	dw WynautEggSpeciesMoves            ; Wobbuffet
 	dw GirafarigEggSpeciesMoves         ; Girafarig
 	dw PinecoEggSpeciesMoves            ; Pineco
 	dw PinecoEggSpeciesMoves            ; Forretress
@@ -183,7 +182,6 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; HoOh
 	dw NoEggSpeciesMoves                ; Celebi
 	dw AzurillEggSpeciesMoves           ; Azurill
-	dw WynautEggSpeciesMoves            ; Wynaut
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw TympoleEggSpeciesMoves           ; Palpitoad
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SawkEggSpeciesMoves              ; Sawk
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SewaddleEggSpeciesMoves          ; Swadloon
 	dw SewaddleEggSpeciesMoves          ; Leavanny
 	dw VenipedeEggSpeciesMoves          ; Venipede

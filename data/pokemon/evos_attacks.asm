@@ -3163,17 +3163,6 @@ endc
 	evos_attacks Unown
 	learnset 1, HIDDEN_POWER
 
-	evos_attacks Wobbuffet
-	learnset 1, SPLASH
-	learnset 1, CHARM
-	learnset 1, ENCORE
-	learnset 1, AMNESIA
-	learnset 1, RECOVER ; evolve move
-	learnset 1, COUNTER
-	learnset 1, MIRROR_COAT
-	learnset 1, SAFEGUARD
-	learnset 1, DESTINY_BOND
-
 	evos_attacks Girafarig
 	evo_data EVOLVE_MOVE, ZEN_HEADBUTT, FARIGIRAF
 	FarigirafEvosAttacks:
@@ -4081,17 +4070,6 @@ endc
 	learnset 16, SING ; Helping Hand → egg move
 	learnset 20, ROLLOUT ; Slam → tutor move
 	learnset 23, BODY_SLAM ; Bounce → egg move
-
-	evos_attacks Wynaut
-	evo_data EVOLVE_LEVEL, 15, WOBBUFFET
-	learnset 1, SPLASH
-	learnset 1, CHARM
-	learnset 1, ENCORE
-	learnset 1, AMNESIA
-	learnset 1, COUNTER
-	learnset 1, MIRROR_COAT
-	learnset 1, SAFEGUARD
-	learnset 1, DESTINY_BOND
 
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM

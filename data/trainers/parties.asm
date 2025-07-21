@@ -902,7 +902,7 @@ SabrinaGroup:
 	tr_mon 59, RATTATA
 		tr_evs 252 HP, 68 SAt
 		tr_moves HYPNOSIS, DREAM_EATER, NASTY_PLOT, PSYCHIC_M
-	tr_mon 58, WOBBUFFET
+	tr_mon 58, RATTATA
 		tr_evs 252 HP, 68 Spe
 		tr_moves COUNTER, MIRROR_COAT, SAFEGUARD, DESTINY_BOND
 	tr_mon 62, RATTATA @ SITRUS_BERRY
@@ -6957,7 +6957,7 @@ JessieJamesGroup:
 	tr_mon 26, WEEZING, MALE
 	tr_mon 26, ARBOK, FEMALE | ARBOK_KANTO_FORM
 	tr_mon 24, RATTATA, FEMALE
-	tr_mon 24, WOBBUFFET, MALE
+	tr_mon 24, RATTATA, MALE
 	tr_mon 28, MEOWTH, MALE
 	end_trainer
 
@@ -7180,7 +7180,7 @@ CherylGroup:
 		tr_evs 136 HP
 	tr_mon LEVEL_FROM_BADGES + 6, AZUMARILL
 		tr_evs 136 HP
-	tr_mon LEVEL_FROM_BADGES + 5, WOBBUFFET
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 		tr_evs 136 HP
 	end_trainer
 
@@ -7190,7 +7190,7 @@ CherylGroup:
 	tr_mon 56, CLEFABLE
 	tr_mon 56, WIGGLYTUFF
 	tr_mon 58, AZUMARILL
-	tr_mon 57, WOBBUFFET
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer 3, "Cheryl"
@@ -7199,7 +7199,7 @@ CherylGroup:
 	tr_mon 71, CLEFABLE
 	tr_mon 71, WIGGLYTUFF
 	tr_mon 73, AZUMARILL
-	tr_mon 72, WOBBUFFET
+	tr_mon 72, RATTATA
 	end_trainer
 
 
@@ -7794,7 +7794,7 @@ ImakuniGroup:
 	tr_mon 63, RATTATA @ QUICK_CLAW
 	tr_mon 61, FARFETCH_D @ LEEK
 	tr_mon 61, RATTATA @ SHARP_BEAK
-	tr_mon 64, WOBBUFFET @ LEFTOVERS
+	tr_mon 64, RATTATA @ LEFTOVERS
 	end_trainer
 
 

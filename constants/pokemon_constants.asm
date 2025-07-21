@@ -161,7 +161,6 @@
 	const SLOWKING   ; 62
 	const MISDREAVUS ; 63
 	const UNOWN      ; xx
-	const WOBBUFFET  ; xx
 	const GIRAFARIG  ; xx
 	const PINECO     ; xx
 	const FORRETRESS ; xx
@@ -207,7 +206,6 @@
 	const HO_OH      ; xx
 	const CELEBI     ; xx
 	const AZURILL    ; 8d
-	const WYNAUT     ; xx
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -278,10 +276,10 @@
 	const PALPITOAD  ; 11d
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SAWK       ; 120
 	const SEWADDLE   ; 121
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SWADLOON   ; 122
 	const LEAVANNY   ; 123
 	const VENIPEDE   ; 124

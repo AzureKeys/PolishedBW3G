@@ -137,7 +137,6 @@ FootprintPointers::
 	dw SlowkingFootprint
 	dw MisdreavusFootprint
 	dw UnownFootprint
-	dw WobbuffetFootprint
 	dw GirafarigFootprint
 	dw PinecoFootprint
 	dw ForretressFootprint
@@ -183,7 +182,6 @@ FootprintPointers::
 	dw HoOhFootprint
 	dw CelebiFootprint
 	dw AzurillFootprint
-	dw WynautFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw PalpitoadFootprint
 	dw SeismitoadFootprint
 	dw ThrohFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SawkFootprint
 	dw SewaddleFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SwadloonFootprint
 	dw LeavannyFootprint
 	dw VenipedeFootprint

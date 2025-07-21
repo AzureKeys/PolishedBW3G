@@ -121,8 +121,6 @@ NewPokedexOrder:
 	dp HAUNTER
 	dp GENGAR
 	dp UNOWN
-	dp WYNAUT
-	dp WOBBUFFET
 	dp ONIX
 	dp STEELIX
 	dp PARAS

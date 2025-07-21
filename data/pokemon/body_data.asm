@@ -144,7 +144,6 @@ PokemonBodyData:
 	body_data  20,  795, BIPEDAL_TAIL, PINK   ; SLOWKING
 	body_data   7,   10, HEAD,         GRAY   ; MISDREAVUS
 	body_data   5,   50, HEAD,         BLACK  ; UNOWN
-	body_data  13,  285, HEAD_BASE,    BLUE   ; WOBBUFFET
 	body_data  15,  415, QUADRUPED,    YELLOW ; GIRAFARIG
 	body_data   6,   72, HEAD,         GRAY   ; PINECO
 	body_data  12, 1258, HEAD,         PURPLE ; FORRETRESS
@@ -190,7 +189,6 @@ PokemonBodyData:
 	body_data  38, 1990, WINGS,        RED    ; HO_OH
 	body_data   6,   50, BIPEDAL,      GREEN  ; CELEBI
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
-	body_data   6,  140, BIPEDAL_TAIL, BLUE   ; WYNAUT
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	body_data  13,  555, BIPEDAL,      RED    ; THROH
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON
 	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY
 	body_data   4,   53, INSECTOID,    RED    ; VENIPEDE

@@ -279,10 +279,8 @@ AlphabeticalPokedexOrder:
 	dp WHIMSICOTT
 	dp WHIRLIPEDE
 	dp WIGGLYTUFF
-	dp WOBBUFFET
 	dp WOOBAT
 	dp WOOPER
-	dp WYNAUT
 	dp WYRDEER
 	dp YAMASK
 	dp YANMA

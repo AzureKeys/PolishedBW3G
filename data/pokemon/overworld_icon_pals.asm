@@ -141,7 +141,6 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; SLOWKING
 	iconpal PURPLE, BROWN ; MISDREAVUS
 	iconpal BLACK, BLUE ; UNOWN
-	iconpal AZURE, PURPLE ; WOBBUFFET
 	iconpal BROWN, BLUE ; GIRAFARIG
 	iconpal GRAY, RED ; PINECO
 	iconpal PURPLE, BROWN ; FORRETRESS
@@ -187,7 +186,6 @@ OverworldMonIconColors::
 	iconpal RED, GREEN ; HO_OH
 	iconpal GREEN, RED ; CELEBI
 	iconpal BLUE, GREEN ; AZURILL
-	iconpal AZURE, PURPLE ; WYNAUT
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; PALPITOAD
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, PURPLE ; SAWK
 	iconpal GREEN, TEAL ; SEWADDLE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, GRAY ; SWADLOON
 	iconpal GREEN, BROWN ; LEAVANNY
 	iconpal RED, BROWN ; VENIPEDE

@@ -141,7 +141,6 @@ PokemonPicPointers::
 	pics SlowkingPlain
 	pics Misdreavus
 	pics UnownA
-	pics Wobbuffet
 	pics Girafarig
 	pics Pineco
 	pics Forretress
@@ -187,7 +186,6 @@ PokemonPicPointers::
 	pics HoOh
 	pics Celebi
 	pics Azurill
-	pics Wynaut
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Palpitoad
 	pics Seismitoad
 	pics Throh
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Sawk
 	pics Sewaddle
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Swadloon
 	pics Leavanny
 	pics Venipede

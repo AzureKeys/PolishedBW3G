@@ -416,10 +416,6 @@ SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"
 
-SECTION "Wobbuffet Pics", ROMX
-WobbuffetFrontpic: INCBIN "gfx/pokemon/wobbuffet/front.animated.2bpp.lz"
-WobbuffetBackpic:  INCBIN "gfx/pokemon/wobbuffet/back.2bpp.lz"
-
 SECTION "Girafarig Pics", ROMX
 GirafarigFrontpic: INCBIN "gfx/pokemon/girafarig/front.animated.2bpp.lz"
 GirafarigBackpic:  INCBIN "gfx/pokemon/girafarig/back.2bpp.lz"
@@ -607,10 +603,6 @@ CelebiBackpic:  INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
 SECTION "Azurill Pics", ROMX
 AzurillFrontpic: INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
 AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
-
-SECTION "Wynaut Pics", ROMX
-WynautFrontpic: INCBIN "gfx/pokemon/wynaut/front.animated.2bpp.lz"
-WynautBackpic:  INCBIN "gfx/pokemon/wynaut/back.2bpp.lz"
 
 SECTION "Bonsly Pics", ROMX
 BonslyFrontpic: INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lz"

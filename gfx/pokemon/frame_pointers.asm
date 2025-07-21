@@ -137,7 +137,6 @@ FramesPointers:
 	dw SlowkingPlainFrames
 	dw MisdreavusFrames
 	dw UnownAFrames
-	dw WobbuffetFrames
 	dw GirafarigFrames
 	dw PinecoFrames
 	dw ForretressFrames
@@ -183,7 +182,6 @@ FramesPointers:
 	dw HoOhFrames
 	dw CelebiFrames
 	dw AzurillFrames
-	dw WynautFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw PalpitoadFrames
 	dw SeismitoadFrames
 	dw ThrohFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SawkFrames
 	dw SewaddleFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SwadloonFrames
 	dw LeavannyFrames
 	dw VenipedeFrames

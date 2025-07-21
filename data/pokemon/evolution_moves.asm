@@ -141,7 +141,6 @@ endc
 	db NO_MOVE      ; SLOWKING
 	db NO_MOVE      ; MISDREAVUS
 	db NO_MOVE      ; UNOWN
-	db RECOVER      ; WOBBUFFET
 	db NO_MOVE      ; GIRAFARIG
 	db NO_MOVE      ; PINECO
 	db FLASH_CANNON ; FORRETRESS
@@ -187,7 +186,6 @@ endc
 	db NO_MOVE      ; HO_OH
 	db NO_MOVE      ; CELEBI
 	db NO_MOVE      ; AZURILL
-	db NO_MOVE      ; WYNAUT
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; PALPITOAD
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; SAWK
 	db NO_MOVE      ; SEWADDLE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
 	db NO_MOVE      ; VENIPEDE

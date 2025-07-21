@@ -922,12 +922,6 @@ AzurillEggSpeciesMoves:
 	db CALM_MIND
 	db $ff
 
-WynautEggSpeciesMoves:
-	dp WYNAUT, PLAIN_FORM
-	db CHARM
-	db ENCORE
-	db $ff
-
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL
