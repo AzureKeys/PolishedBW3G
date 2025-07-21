@@ -232,6 +232,8 @@ GothitelleAnimationExtra: INCLUDE "gfx/pokemon/gothitelle/anim_idle.asm"
 SolosisAnimationExtra:    INCLUDE "gfx/pokemon/solosis/anim_idle.asm"
 DuosionAnimationExtra:    INCLUDE "gfx/pokemon/duosion/anim_idle.asm"
 ReuniclusAnimationExtra:  INCLUDE "gfx/pokemon/reuniclus/anim_idle.asm"
+DucklettAnimationExtra:   INCLUDE "gfx/pokemon/ducklett/anim_idle.asm"
+SwannaAnimationExtra:     INCLUDE "gfx/pokemon/swanna/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

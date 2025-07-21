@@ -232,6 +232,8 @@ GothitelleAnimation: INCLUDE "gfx/pokemon/gothitelle/anim.asm"
 SolosisAnimation:    INCLUDE "gfx/pokemon/solosis/anim.asm"
 DuosionAnimation:    INCLUDE "gfx/pokemon/duosion/anim.asm"
 ReuniclusAnimation:  INCLUDE "gfx/pokemon/reuniclus/anim.asm"
+DucklettAnimation:   INCLUDE "gfx/pokemon/ducklett/anim.asm"
+SwannaAnimation:     INCLUDE "gfx/pokemon/swanna/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

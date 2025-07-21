@@ -52,6 +52,7 @@ AlphabeticalPokedexOrder:
 	dp DRAGONITE
 	dp DRATINI
 	dp DRILBUR
+	dp DUCKLETT
 	dp DUDUNSPARCE
 	dp DUGTRIO
 	dp DUNSPARCE
@@ -245,6 +246,7 @@ AlphabeticalPokedexOrder:
 	dp SUNFLORA
 	dp SUNKERN
 	dp SWADLOON
+	dp SWANNA
 	dp SWINUB
 	dp SWOOBAT
 	dp SYLVEON

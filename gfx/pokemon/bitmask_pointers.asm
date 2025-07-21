@@ -293,6 +293,8 @@ BitmasksPointers:
 	dw SolosisBitmasks
 	dw DuosionBitmasks
 	dw ReuniclusBitmasks
+	dw DucklettBitmasks
+	dw SwannaBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

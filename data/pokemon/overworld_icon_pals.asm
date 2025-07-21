@@ -297,6 +297,8 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; SOLOSIS
 	iconpal GREEN, TEAL ; DUOSION
 	iconpal GREEN, AZURE ; REUNICLUS
+	iconpal AZURE, PINK ; DUCKLETT
+	iconpal WHITE, PURPLE ; SWANNA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

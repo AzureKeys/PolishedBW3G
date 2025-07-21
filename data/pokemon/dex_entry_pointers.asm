@@ -294,6 +294,8 @@ PokedexDataPointerTable:
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry
+	dba DucklettPokedexEntry
+	dba SwannaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

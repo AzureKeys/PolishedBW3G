@@ -297,6 +297,8 @@ MiniIconPointers:
 	mini_icon Solosis
 	mini_icon Duosion
 	mini_icon Reuniclus
+	mini_icon Ducklett
+	mini_icon Swanna
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

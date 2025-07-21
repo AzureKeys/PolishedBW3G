@@ -293,6 +293,8 @@ FootprintPointers::
 	dw SolosisFootprint
 	dw DuosionFootprint
 	dw ReuniclusFootprint
+	dw DucklettFootprint
+	dw SwannaFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

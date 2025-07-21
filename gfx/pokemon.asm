@@ -1568,3 +1568,11 @@ DuosionBackpic:  INCBIN "gfx/pokemon/duosion/back.2bpp.lz"
 SECTION "Reuniclus Pics", ROMX
 ReuniclusFrontpic: INCBIN "gfx/pokemon/reuniclus/front.animated.2bpp.lz"
 ReuniclusBackpic:  INCBIN "gfx/pokemon/reuniclus/back.2bpp.lz"
+
+SECTION "Ducklett Pics", ROMX
+DucklettFrontpic: INCBIN "gfx/pokemon/ducklett/front.animated.2bpp.lz"
+DucklettBackpic:  INCBIN "gfx/pokemon/ducklett/back.2bpp.lz"
+
+SECTION "Swanna Pics", ROMX
+SwannaFrontpic: INCBIN "gfx/pokemon/swanna/front.animated.2bpp.lz"
+SwannaBackpic:  INCBIN "gfx/pokemon/swanna/back.2bpp.lz"

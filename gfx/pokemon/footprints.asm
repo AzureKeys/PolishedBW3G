@@ -88,6 +88,8 @@ GothitelleFootprint::
 SolosisFootprint::
 DuosionFootprint::
 ReuniclusFootprint::
+DucklettFootprint::
+SwannaFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

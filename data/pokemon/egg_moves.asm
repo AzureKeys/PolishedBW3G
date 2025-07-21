@@ -1235,5 +1235,13 @@ SolosisEggSpeciesMoves:
 	db NIGHT_SHADE
 	db $ff
 
+DucklettEggSpeciesMoves:
+	dp DUCKLETT, PLAIN_FORM
+	;db AIR_CUTTER
+	db AQUA_JET
+	db GUST
+	db STEEL_WING
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

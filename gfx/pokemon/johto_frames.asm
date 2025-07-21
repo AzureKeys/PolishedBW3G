@@ -170,6 +170,8 @@ GothitelleFrames: INCLUDE "gfx/pokemon/gothitelle/frames.asm"
 SolosisFrames:    INCLUDE "gfx/pokemon/solosis/frames.asm"
 DuosionFrames:    INCLUDE "gfx/pokemon/duosion/frames.asm"
 ReuniclusFrames:  INCLUDE "gfx/pokemon/reuniclus/frames.asm"
+DucklettFrames:   INCLUDE "gfx/pokemon/ducklett/frames.asm"
+SwannaFrames:     INCLUDE "gfx/pokemon/swanna/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

@@ -298,4 +298,6 @@ endc
 	db   1,  31 ; Solosis
 	db  32,  40 ; Duosion
 	db  41, 100 ; Reuniclus
+	db   1,  34 ; Ducklett
+	db  35, 100 ; Swanna
 	assert_table_length NUM_SPECIES

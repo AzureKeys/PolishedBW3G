@@ -317,6 +317,8 @@
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148
+	const DUCKLETT   ; 149
+	const SWANNA     ; 14a
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

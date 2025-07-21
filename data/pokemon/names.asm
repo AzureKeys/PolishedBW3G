@@ -294,4 +294,6 @@ PokemonNames::
 	rawchar "Solosis@@@"
 	rawchar "Duosion@@@"
 	rawchar "Reuniclus@"
+	rawchar "Ducklett@@"
+	rawchar "Swanna@@@@"
 	assert_table_length NUM_SPECIES + 1

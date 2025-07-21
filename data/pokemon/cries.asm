@@ -299,4 +299,6 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
 	mon_cry CRY_AMPHAROS,    $185,  $184 ; Duosion
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus
+	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; Ducklett
+	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; Swanna
 	assert_table_length NUM_SPECIES

@@ -297,6 +297,8 @@ PokemonPicPointers::
 	pics Solosis
 	pics Duosion
 	pics Reuniclus
+	pics Ducklett
+	pics Swanna
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

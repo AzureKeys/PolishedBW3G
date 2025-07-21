@@ -2897,6 +2897,26 @@ ReuniclusPokedexEntry::
     page "are made of a"
     next "powerful liquid.@"
 
+SECTION "DucklettPokedexEntry", ROMX
+DucklettPokedexEntry::
+	db "Water Bird@"
+	db "Ducklett is better"
+    next "at swimming than"
+    next "flying. They dive"
+    page "deep underwater"
+    next "to find peat moss"
+    next "to eat.@"
+
+SECTION "SwannaPokedexEntry", ROMX
+SwannaPokedexEntry::
+	db "White Bird@"
+	db "It delivers sharp,"
+    next "powerful jabs with"
+    next "its bill. It"
+    page "swings its long"
+    next "neck around for"
+    next "more force.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

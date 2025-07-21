@@ -297,6 +297,8 @@ endc
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
 	db DIZZY_PUNCH  ; REUNICLUS
+	db NO_MOVE      ; DUCKLETT
+	db NO_MOVE      ; SWANNA
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

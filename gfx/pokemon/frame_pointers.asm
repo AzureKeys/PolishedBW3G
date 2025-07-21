@@ -293,6 +293,8 @@ FramesPointers:
 	dw SolosisFrames
 	dw DuosionFrames
 	dw ReuniclusFrames
+	dw DucklettFrames
+	dw SwannaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

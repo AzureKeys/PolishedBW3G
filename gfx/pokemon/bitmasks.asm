@@ -232,6 +232,8 @@ GothitelleBitmasks: INCLUDE "gfx/pokemon/gothitelle/bitmask.asm"
 SolosisBitmasks:    INCLUDE "gfx/pokemon/solosis/bitmask.asm"
 DuosionBitmasks:    INCLUDE "gfx/pokemon/duosion/bitmask.asm"
 ReuniclusBitmasks:  INCLUDE "gfx/pokemon/reuniclus/bitmask.asm"
+DucklettBitmasks:   INCLUDE "gfx/pokemon/ducklett/bitmask.asm"
+SwannaBitmasks:     INCLUDE "gfx/pokemon/swanna/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

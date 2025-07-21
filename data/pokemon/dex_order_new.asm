@@ -79,6 +79,8 @@ NewPokedexOrder:
 	dp SOLOSIS
 	dp DUOSION
 	dp REUNICLUS
+	dp DUCKLETT
+	dp SWANNA
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

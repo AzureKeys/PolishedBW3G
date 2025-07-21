@@ -293,6 +293,8 @@ AnimationPointers:
 	dw SolosisAnimation
 	dw DuosionAnimation
 	dw ReuniclusAnimation
+	dw DucklettAnimation
+	dw SwannaAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

@@ -300,6 +300,8 @@ PokemonBodyData:
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
 	body_data   6,   80, HEAD,         GREEN  ; DUOSION
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
+	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT
+	body_data  13,  242, WINGS,        WHITE  ; SWANNA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

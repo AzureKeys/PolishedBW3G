@@ -328,6 +328,8 @@ INCLUDE "data/pokemon/base_stats/gothitelle.asm"
 INCLUDE "data/pokemon/base_stats/solosis.asm"
 INCLUDE "data/pokemon/base_stats/duosion.asm"
 INCLUDE "data/pokemon/base_stats/reuniclus.asm"
+INCLUDE "data/pokemon/base_stats/ducklett.asm"
+INCLUDE "data/pokemon/base_stats/swanna.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

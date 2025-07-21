@@ -297,6 +297,8 @@ EvosAttacksPointers::
 	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
 	dw ReuniclusEvosAttacks
+	dw DucklettEvosAttacks
+	dw SwannaEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

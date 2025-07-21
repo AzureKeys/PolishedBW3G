@@ -1467,6 +1467,16 @@ ReuniclusMini::     INCBIN "gfx/minis/reuniclus.2bpp.lz"
 ReuniclusMiniMask:: INCBIN "gfx/minis/reuniclus_mask.1bpp.lz"
 ReuniclusIcon::     INCBIN "gfx/icons/reuniclus.2bpp.lz"
 
+SECTION "Ducklett Mini Icon", ROMX
+DucklettMini::     INCBIN "gfx/minis/ducklett.2bpp.lz"
+DucklettMiniMask:: INCBIN "gfx/minis/ducklett_mask.1bpp.lz"
+DucklettIcon::     INCBIN "gfx/icons/ducklett.2bpp.lz"
+
+SECTION "Swanna Mini Icon", ROMX
+SwannaMini::     INCBIN "gfx/minis/swanna.2bpp.lz"
+SwannaMiniMask:: INCBIN "gfx/minis/swanna_mask.1bpp.lz"
+SwannaIcon::     INCBIN "gfx/icons/swanna.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

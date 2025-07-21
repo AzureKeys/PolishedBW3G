@@ -6098,6 +6098,42 @@ endc
 	learnset 45, SKILL_SWAP
 	learnset 54, BARRIER ; Heal Block
 	learnset 59, DREAM_EATER ; Wonder Room
+	
+	evos_attacks Ducklett
+	evo_data EVOLVE_LEVEL, 35, SWANNA
+	learnset 1, WATER_GUN
+	learnset 6, LEER ; Defog
+	learnset 9, WING_ATTACK
+	learnset 13, WATER_PULSE
+	learnset 15, AERIAL_ACE
+	learnset 19, BUBBLE_BEAM
+	learnset 21, CHARM ; FeatherDance
+	learnset 24, SAFEGUARD ; Aqua Ring
+	learnset 27, AIR_SLASH
+	learnset 30, ROOST
+	learnset 34, RAIN_DANCE
+	learnset 37, AGILITY ; Tailwind
+	learnset 41, BRAVE_BIRD
+	learnset 46, HURRICANE
+	
+	evos_attacks Swanna
+	learnset 1, WATER_GUN
+	learnset 1, LEER ; Defog
+	learnset 1, WING_ATTACK
+	learnset 1, WATER_PULSE
+	learnset 6, LEER ; Defog
+	learnset 9, WING_ATTACK
+	learnset 13, WATER_PULSE
+	learnset 15, AERIAL_ACE
+	learnset 19, BUBBLE_BEAM
+	learnset 21, CHARM ; FeatherDance
+	learnset 24, SAFEGUARD ; Aqua Ring
+	learnset 27, AIR_SLASH
+	learnset 30, ROOST
+	learnset 34, RAIN_DANCE
+	learnset 40, AGILITY ; Tailwind
+	learnset 47, BRAVE_BIRD
+	learnset 55, HURRICANE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

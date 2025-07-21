@@ -293,6 +293,8 @@ EggSpeciesMovesPointers::
 	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus
+	dw DucklettEggSpeciesMoves          ; Ducklett
+	dw DucklettEggSpeciesMoves          ; Swanna
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
