@@ -117,7 +117,6 @@ KingdraFootprint::
 KoffingFootprint::
 LanturnFootprint::
 LaprasFootprint::
-MagcargoFootprint::
 MagikarpFootprint::
 MagnezoneFootprint::
 MantineFootprint::
@@ -132,7 +131,6 @@ QwilfishFootprint::
 RemoraidFootprint::
 SeadraFootprint::
 SeelFootprint::
-SlugmaFootprint::
 SteelixFootprint::
 SunkernFootprint::
 UnownFootprint::

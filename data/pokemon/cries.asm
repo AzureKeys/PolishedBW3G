@@ -155,8 +155,6 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasel
 	mon_cry CRY_TEDDIURSA,   $7a2,  $06e ; Teddiursa
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaring
-	mon_cry CRY_SLUGMA,     -$1d8,  $140 ; Slugma
-	mon_cry CRY_MAGCARGO,   -$20d,  $1c0 ; Magcargo
 	mon_cry CRY_CYNDAQUIL,   $1fe,  $140 ; Swinub
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Piloswine
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Corsola
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny
 	mon_cry CRY_SPINARAK,   -$1c7,  $1b0 ; Venipede
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
 	mon_cry CRY_MARILL,      $0d7,  $140 ; Cottonee
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_BELLOSSOM,   $000,  $180 ; WHIMSICOTT*
 	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
 	mon_cry CRY_REMORAID,   -$020,  $180 ; LILLIGANT*

@@ -149,8 +149,6 @@ FootprintPointers::
 	dw SneaselFootprint
 	dw TeddiursaFootprint
 	dw UrsaringFootprint
-	dw SlugmaFootprint
-	dw MagcargoFootprint
 	dw SwinubFootprint
 	dw PiloswineFootprint
 	dw CorsolaFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw LeavannyFootprint
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ScolipedeFootprint
 	dw CottoneeFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw WhimsicottFootprint
 	dw PetililFootprint
 	dw LilligantFootprint

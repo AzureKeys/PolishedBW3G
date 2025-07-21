@@ -173,8 +173,6 @@
 	const SNEASEL    ; 6c
 	const TEDDIURSA  ; xx
 	const URSARING   ; xx
-	const SLUGMA     ; xx
-	const MAGCARGO   ; xx
 	const SWINUB     ; 6d
 	const PILOSWINE  ; 6e
 	const CORSOLA    ; 6f
@@ -278,10 +276,10 @@
 	const LEAVANNY   ; 123
 	const VENIPEDE   ; 124
 	const WHIRLIPEDE ; 125
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SCOLIPEDE  ; 126
 	const COTTONEE   ; 127
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const WHIMSICOTT ; 128
 	const PETILIL    ; 129
 	const LILLIGANT  ; 12a

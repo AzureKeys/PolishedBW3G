@@ -752,16 +752,6 @@ UrsaringMini::     INCBIN "gfx/minis/ursaring.2bpp.lz"
 UrsaringMiniMask:: INCBIN "gfx/minis/ursaring_mask.1bpp.lz"
 UrsaringIcon::     INCBIN "gfx/icons/ursaring.2bpp.lz"
 
-SECTION "Slugma Mini Icon", ROMX
-SlugmaMini::     INCBIN "gfx/minis/slugma.2bpp.lz"
-SlugmaMiniMask:: INCBIN "gfx/minis/slugma_mask.1bpp.lz"
-SlugmaIcon::     INCBIN "gfx/icons/slugma.2bpp.lz"
-
-SECTION "Magcargo Mini Icon", ROMX
-MagcargoMini::     INCBIN "gfx/minis/magcargo.2bpp.lz"
-MagcargoMiniMask:: INCBIN "gfx/minis/magcargo_mask.1bpp.lz"
-MagcargoIcon::     INCBIN "gfx/icons/magcargo.2bpp.lz"
-
 SECTION "Swinub Mini Icon", ROMX
 SwinubMini::     INCBIN "gfx/minis/swinub.2bpp.lz"
 SwinubMiniMask:: INCBIN "gfx/minis/swinub_mask.1bpp.lz"

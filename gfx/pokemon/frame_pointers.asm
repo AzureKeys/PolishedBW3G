@@ -149,8 +149,6 @@ FramesPointers:
 	dw SneaselPlainFrames
 	dw TeddiursaFrames
 	dw UrsaringFrames
-	dw SlugmaFrames
-	dw MagcargoFrames
 	dw SwinubFrames
 	dw PiloswineFrames
 	dw CorsolaPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw LeavannyFrames
 	dw VenipedeFrames
 	dw WhirlipedeFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ScolipedeFrames
 	dw CottoneeFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw WhimsicottFrames
 	dw PetililFrames
 	dw LilligantPlainFrames

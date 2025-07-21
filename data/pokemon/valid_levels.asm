@@ -154,8 +154,6 @@ endc
 	db   1,  39 ; Sneasel
 	db   1,  29 ; Teddiursa
 	db  30,  49 ; Ursaring
-	db   1,  37 ; Slugma
-	db  38, 100 ; Magcargo
 	db   1,  32 ; Swinub
 	db  33,  44 ; Piloswine
 	db   1, 100 ; Corsola
@@ -259,10 +257,10 @@ endc
 	db  30, 100 ; Leavanny
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  30, 100 ; Scolipede
 	db   1,  29 ; Cottonee
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  30, 100 ; Whimsicott
 	db   1,  29 ; Petilil
 	db  30, 100 ; Lilligant

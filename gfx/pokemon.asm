@@ -460,14 +460,6 @@ SECTION "Ursaring Pics", ROMX
 UrsaringFrontpic: INCBIN "gfx/pokemon/ursaring/front.animated.2bpp.lz"
 UrsaringBackpic:  INCBIN "gfx/pokemon/ursaring/back.2bpp.lz"
 
-SECTION "Slugma Pics", ROMX
-SlugmaFrontpic: INCBIN "gfx/pokemon/slugma/front.animated.2bpp.lz"
-SlugmaBackpic:  INCBIN "gfx/pokemon/slugma/back.2bpp.lz"
-
-SECTION "Magcargo Pics", ROMX
-MagcargoFrontpic: INCBIN "gfx/pokemon/magcargo/front.animated.2bpp.lz"
-MagcargoBackpic:  INCBIN "gfx/pokemon/magcargo/back.2bpp.lz"
-
 SECTION "Swinub Pics", ROMX
 SwinubFrontpic: INCBIN "gfx/pokemon/swinub/front.animated.2bpp.lz"
 SwinubBackpic:  INCBIN "gfx/pokemon/swinub/back.2bpp.lz"

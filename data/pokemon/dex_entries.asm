@@ -1496,26 +1496,6 @@ UrsaringPokedexEntry::
 	next "eats and sleeps in"
 	next "the treetops.@"
 
-SECTION "SlugmaPokedexEntry", ROMX
-SlugmaPokedexEntry::
-	db "Lava@"
-	db   "These group"
-	next "together in areas"
-	next "that are hotter"
-	page "than normal. If it"
-	next "cools off, its"
-	next "skin hardens.@"
-
-SECTION "MagcargoPokedexEntry", ROMX
-MagcargoPokedexEntry::
-	db "Lava@"
-	db   "Its body is as hot"
-	next "as lava and is"
-	next "always billowing."
-	page "Flames will"
-	next "occasionally burst"
-	next "from its shell.@"
-
 SECTION "SwinubPokedexEntry", ROMX
 SwinubPokedexEntry::
 	db "Pig@"

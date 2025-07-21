@@ -22,8 +22,6 @@ HardenUsers:
 	dp STARMIE
 	dp HERACROSS
 	dp GLIGAR
-	dp SLUGMA
-	dp MAGCARGO
 	dp CORSOLA
 	dp PUPITAR
 	dp TYRANITAR

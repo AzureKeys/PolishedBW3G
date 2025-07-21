@@ -153,8 +153,6 @@ endc
 	db NO_MOVE      ; SNEASEL
 	db NO_MOVE      ; TEDDIURSA
 	db NO_MOVE      ; URSARING
-	db NO_MOVE      ; SLUGMA
-	db SHELL_SMASH  ; MAGCARGO
 	db NO_MOVE      ; SWINUB
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
@@ -258,10 +256,10 @@ endc
 	db SLASH        ; LEAVANNY
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; WHIMSICOTT
 	db NO_MOVE      ; PETILIL
 	db NO_MOVE      ; LILLIGANT

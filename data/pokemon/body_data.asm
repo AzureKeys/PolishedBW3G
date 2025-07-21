@@ -156,8 +156,6 @@ PokemonBodyData:
 	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; SNEASEL
 	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; TEDDIURSA
 	body_data  18, 1258, BIPEDAL_TAIL, BROWN  ; URSARING
-	body_data   7,  350, SERPENTINE,   RED    ; SLUGMA
-	body_data   8,  550, SERPENTINE,   RED    ; MAGCARGO
 	body_data   4,   65, QUADRUPED,    BROWN  ; SWINUB
 	body_data  11,  558, QUADRUPED,    BROWN  ; PILOSWINE
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY
 	body_data   4,   53, INSECTOID,    RED    ; VENIPEDE
 	body_data  12,  585, HEAD,         GRAY   ; WHIRLIPEDE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  25, 2005, INSECTOID,    RED    ; SCOLIPEDE
 	body_data   3,    6, HEAD,         GREEN  ; COTTONEE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
 	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
 	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT

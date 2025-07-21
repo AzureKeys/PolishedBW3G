@@ -150,8 +150,6 @@ PokedexDataPointerTable:
 	dba SneaselPokedexEntry
 	dba TeddiursaPokedexEntry
 	dba UrsaringPokedexEntry
-	dba SlugmaPokedexEntry
-	dba MagcargoPokedexEntry
 	dba SwinubPokedexEntry
 	dba PiloswinePokedexEntry
 	dba CorsolaPlainPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba LeavannyPokedexEntry
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba ScolipedePokedexEntry
 	dba CottoneePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
 	dba LilligantPlainPokedexEntry

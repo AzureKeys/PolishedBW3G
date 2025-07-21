@@ -124,7 +124,6 @@ AlphabeticalPokedexOrder:
 	dp LILLIPUP
 	dp LUGIA
 	dp MAGBY
-	dp MAGCARGO
 	dp MAGIKARP
 	dp MAGMAR
 	dp MAGMORTAR
@@ -223,7 +222,6 @@ AlphabeticalPokedexOrder:
 	dp SLOWBRO
 	dp SLOWKING
 	dp SLOWPOKE
-	dp SLUGMA
 	dp SMEARGLE
 	dp SNEASEL
 	dp SNEASLER

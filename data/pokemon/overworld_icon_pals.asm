@@ -153,8 +153,6 @@ OverworldMonIconColors::
 	iconpal BLUE, RED ; SNEASEL
 	iconpal BROWN, GREEN ; TEDDIURSA
 	iconpal BROWN, GREEN ; URSARING
-	iconpal RED, GRAY ; SLUGMA
-	iconpal RED, BLUE ; MAGCARGO
 	iconpal BROWN, BLUE ; SWINUB
 	iconpal BROWN, GREEN ; PILOSWINE
 	iconpal PINK, AZURE ; CORSOLA
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; LEAVANNY
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, ORANGE ; SCOLIPEDE
 	iconpal GREEN, ORANGE ; COTTONEE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, GRAY ; WHIMSICOTT
 	iconpal GREEN, BROWN ; PETILIL
 	iconpal GREEN, TEAL ; LILLIGANT

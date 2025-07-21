@@ -149,8 +149,6 @@ EggSpeciesMovesPointers::
 	dw SneaselEggSpeciesMoves           ; Sneasel
 	dw TeddiursaEggSpeciesMoves         ; Teddiursa
 	dw TeddiursaEggSpeciesMoves         ; Ursaring
-	dw SlugmaEggSpeciesMoves            ; Slugma
-	dw SlugmaEggSpeciesMoves            ; Magcargo
 	dw SwinubEggSpeciesMoves            ; Swinub
 	dw SwinubEggSpeciesMoves            ; Piloswine
 	dw CorsolaPlainEggSpeciesMoves      ; Corsola
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw SewaddleEggSpeciesMoves          ; Leavanny
 	dw VenipedeEggSpeciesMoves          ; Venipede
 	dw VenipedeEggSpeciesMoves          ; Whirlipede
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw VenipedeEggSpeciesMoves          ; Scolipede
 	dw CottoneeEggSpeciesMoves          ; Cottonee
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw CottoneeEggSpeciesMoves          ; Whimsicott
 	dw PetililEggSpeciesMoves           ; Petilil
 	dw PetililEggSpeciesMoves           ; Lilligant

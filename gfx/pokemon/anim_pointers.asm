@@ -149,8 +149,6 @@ AnimationPointers:
 	dw SneaselPlainAnimation
 	dw TeddiursaAnimation
 	dw UrsaringAnimation
-	dw SlugmaAnimation
-	dw MagcargoAnimation
 	dw SwinubAnimation
 	dw PiloswineAnimation
 	dw CorsolaPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw LeavannyAnimation
 	dw VenipedeAnimation
 	dw WhirlipedeAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ScolipedeAnimation
 	dw CottoneeAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw WhimsicottAnimation
 	dw PetililAnimation
 	dw LilligantPlainAnimation

@@ -258,8 +258,6 @@ NewPokedexOrder:
 	dp HONCHKROW
 	dp HOUNDOUR
 	dp HOUNDOOM
-	dp SLUGMA
-	dp MAGCARGO
 	dp SNEASEL
 	dp WEAVILE
 	dp SNEASLER

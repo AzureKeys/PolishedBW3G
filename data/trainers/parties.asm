@@ -931,7 +931,7 @@ BlaineGroup:
 
 	def_trainer_class BLAINE
 	def_trainer 1, "Blaine"
-	tr_mon 65, MAGCARGO
+	tr_mon 65, RATTATA
 		tr_evs 228 SAt, 252 Spe
 		tr_moves CURSE, WILL_O_WISP, FLAMETHROWER, ROCK_SLIDE
 	tr_mon 68, MAGMAR @ EVIOLITE
@@ -952,7 +952,7 @@ BlaineGroup:
 	end_trainer
 
 	def_trainer 2, "Blaine"
-	tr_mon 71, MAGCARGO @ FOCUS_BAND
+	tr_mon 71, RATTATA @ FOCUS_BAND
 		tr_moves RECOVER, SHELL_SMASH, FLAME_CHARGE, ROCK_SLIDE
 	tr_mon 72, MAGMORTAR @ BLACK_BELT
 		tr_moves SUNNY_DAY, FOCUS_BLAST, FIRE_BLAST, FLASH_CANNON
@@ -1813,7 +1813,7 @@ CamperGroup:
 	def_trainer TODD4, "Todd"
 	tr_mon 30, GRAVELER
 	tr_mon 30, GRAVELER
-	tr_mon 30, SLUGMA
+	tr_mon 30, RATTATA
 	tr_mon 32, PSYDUCK
 	end_trainer
 
@@ -1822,7 +1822,7 @@ CamperGroup:
 		tr_moves MUD_SLAP, BULLDOZE, SANDSTORM, ROCK_SLIDE
 	tr_mon 34, GRAVELER
 		tr_moves DEFENSE_CURL, ROLLOUT, MAGNITUDE, ROCK_SLIDE
-	tr_mon 36, MAGCARGO
+	tr_mon 36, RATTATA
 		tr_moves ROCK_THROW, DEFENSE_CURL, CALM_MIND, FLAMETHROWER
 	tr_mon 34, GOLDUCK
 		tr_moves DISABLE, PSYCHIC_M, SURF, CALM_MIND
@@ -3347,7 +3347,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer MERLE, "Merle"
-	tr_mon 63, MAGCARGO
+	tr_mon 63, RATTATA
 	end_trainer
 
 	def_trainer LUIS, "Luis"
@@ -3787,7 +3787,7 @@ FirebreatherGroup:
 
 	def_trainer BURT, "Burt"
 	tr_mon 59, WEEZING
-	tr_mon 61, MAGCARGO
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer BILL, "Bill"
@@ -7417,7 +7417,7 @@ FlanneryGroup:
 
 	def_trainer_class FLANNERY
 	def_trainer 1, "Flannery"
-	tr_mon 64, MAGCARGO
+	tr_mon 64, RATTATA
 		tr_evs 252 SAt, 172 Spe
 	tr_mon 63, ARCANINE
 		tr_evs 252 Atk, 172 Spe
@@ -7432,7 +7432,7 @@ FlanneryGroup:
 	end_trainer
 
 	def_trainer 2, "Flannery"
-	tr_mon 74, MAGCARGO
+	tr_mon 74, RATTATA
 	tr_mon 73, ARCANINE
 	tr_mon 73, HOUNDOOM
 	tr_mon 73, RAPIDASH

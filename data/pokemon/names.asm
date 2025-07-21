@@ -150,8 +150,6 @@ PokemonNames::
 	rawchar "Sneasel@@@"
 	rawchar "Teddiursa@"
 	rawchar "Ursaring@@"
-	rawchar "Slugma@@@@"
-	rawchar "Magcargo@@"
 	rawchar "Swinub@@@@"
 	rawchar "Piloswine@"
 	rawchar "Corsola@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Leavanny@@"
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Scolipede@"
 	rawchar "Cottonee@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"
 	rawchar "Lilligant@"

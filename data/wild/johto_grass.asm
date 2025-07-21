@@ -343,24 +343,24 @@
 	wildmon 14, RATTATA
 	wildmon 16, KOFFING
 	wildmon 15, ZUBAT
-	wildmon 12, SLUGMA
-	wildmon 15, SLUGMA
+	wildmon 12, RATTATA
+	wildmon 15, RATTATA
 	wildmon 15, MAGBY
 	; day
 	wildmon 14, KOFFING
 	wildmon 14, RATTATA
 	wildmon 16, KOFFING
 	wildmon 15, ZUBAT
-	wildmon 12, SLUGMA
-	wildmon 15, SLUGMA
+	wildmon 12, RATTATA
+	wildmon 15, RATTATA
 	wildmon 15, MAGBY
 	; nite
 	wildmon 14, KOFFING
 	wildmon 14, GASTLY
 	wildmon 16, KOFFING
 	wildmon 15, ZUBAT
-	wildmon 12, SLUGMA
-	wildmon 15, SLUGMA
+	wildmon 12, RATTATA
+	wildmon 15, RATTATA
 	wildmon 15, MAGBY
 	end_grass_wildmons
 

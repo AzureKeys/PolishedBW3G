@@ -3457,42 +3457,6 @@ endc
 	learnset 67, CLOSE_COMBAT ; Hammer Arm → new move
 	learnset 76, DOUBLE_EDGE ; new move
 
-	evos_attacks Slugma
-	evo_data EVOLVE_LEVEL, 38, MAGCARGO
-	learnset 1, MUD_SLAP ; Smog → TM move
-	learnset 6, EMBER
-	learnset 8, ROCK_THROW
-	learnset 13, DEFENSE_CURL ; Harden → similar move
-	learnset 15, FIRE_SPIN ; Incinerate → new move
-	learnset 20, SMOKESCREEN ; Clear Smog → egg move
-	learnset 22, ANCIENTPOWER
-	learnset 27, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 29, ROCK_SLIDE
-	learnset 34, PAIN_SPLIT ; Lava Plume → HGSS tutor move
-	learnset 36, AMNESIA
-	learnset 41, BODY_SLAM
-	learnset 43, RECOVER
-	learnset 48, FLAMETHROWER
-	learnset 50, EARTH_POWER
-
-	evos_attacks Magcargo
-	learnset 1, SHELL_SMASH ; evolution move
-	learnset 1, MUD_SLAP ; Smog → TM move
-	learnset 6, EMBER
-	learnset 8, ROCK_THROW
-	learnset 13, DEFENSE_CURL ; Harden → similar move
-	learnset 15, FIRE_SPIN ; Incinerate → new move
-	learnset 20, SMOKESCREEN ; Clear Smog → egg move
-	learnset 22, ANCIENTPOWER
-	learnset 27, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 29, ROCK_SLIDE
-	learnset 34, PAIN_SPLIT ; Lava Plume → HGSS tutor move
-	learnset 36, AMNESIA
-	learnset 43, BODY_SLAM
-	learnset 47, RECOVER
-	learnset 54, FLAMETHROWER
-	learnset 58, EARTH_POWER
-
 	evos_attacks Swinub
 	evo_data EVOLVE_LEVEL, 33, PILOSWINE
 	learnset 1, TACKLE

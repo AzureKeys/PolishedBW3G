@@ -149,8 +149,6 @@ BitmasksPointers:
 	dw SneaselPlainBitmasks
 	dw TeddiursaBitmasks
 	dw UrsaringBitmasks
-	dw SlugmaBitmasks
-	dw MagcargoBitmasks
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
 	dw CorsolaPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw LeavannyBitmasks
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ScolipedeBitmasks
 	dw CottoneeBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw WhimsicottBitmasks
 	dw PetililBitmasks
 	dw LilligantPlainBitmasks

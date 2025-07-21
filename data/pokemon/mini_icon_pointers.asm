@@ -153,8 +153,6 @@ MiniIconPointers:
 	mini_icon Sneasel
 	mini_icon Teddiursa
 	mini_icon Ursaring
-	mini_icon Slugma
-	mini_icon Magcargo
 	mini_icon Swinub
 	mini_icon Piloswine
 	mini_icon Corsola
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Leavanny
 	mini_icon Venipede
 	mini_icon Whirlipede
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Scolipede
 	mini_icon Cottonee
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Whimsicott
 	mini_icon Petilil
 	mini_icon Lilligant

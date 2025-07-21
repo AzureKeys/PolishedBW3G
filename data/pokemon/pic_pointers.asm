@@ -153,8 +153,6 @@ PokemonPicPointers::
 	pics SneaselPlain
 	pics Teddiursa
 	pics Ursaring
-	pics Slugma
-	pics Magcargo
 	pics Swinub
 	pics Piloswine
 	pics CorsolaPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Leavanny
 	pics Venipede
 	pics Whirlipede
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Scolipede
 	pics Cottonee
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Whimsicott
 	pics Petilil
 	pics LilligantPlain

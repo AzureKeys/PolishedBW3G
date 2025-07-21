@@ -744,12 +744,6 @@ TeddiursaEggSpeciesMoves:
 	db CLOSE_COMBAT
 	db $ff
 
-SlugmaEggSpeciesMoves:
-	dp SLUGMA, PLAIN_FORM
-	db SMOKESCREEN
-	db CURSE
-	db $ff
-
 SwinubEggSpeciesMoves:
 	dp SWINUB, PLAIN_FORM
 	db AVALANCHE

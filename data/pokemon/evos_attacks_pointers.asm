@@ -153,8 +153,6 @@ EvosAttacksPointers::
 	dw SneaselPlainEvosAttacks
 	dw TeddiursaEvosAttacks
 	dw UrsaringEvosAttacks
-	dw SlugmaEvosAttacks
-	dw MagcargoEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw LeavannyEvosAttacks
 	dw VenipedeEvosAttacks
 	dw WhirlipedeEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ScolipedeEvosAttacks
 	dw CottoneeEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
 	dw LilligantPlainEvosAttacks

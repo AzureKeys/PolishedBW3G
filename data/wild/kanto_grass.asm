@@ -817,17 +817,17 @@
 	; morn
 	wildmon 53, GRIMER
 	wildmon 50, RATTATA
-	wildmon 54, SLUGMA
+	wildmon 54, RATTATA
 	wildmon 52, RATTATA
-	wildmon 53, MAGCARGO
+	wildmon 53, RATTATA
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; day
 	wildmon 53, GRIMER
 	wildmon 50, RATTATA
-	wildmon 54, SLUGMA
+	wildmon 54, RATTATA
 	wildmon 52, RATTATA
-	wildmon 53, MAGCARGO
+	wildmon 53, RATTATA
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; nite
@@ -845,17 +845,17 @@
 	; morn
 	wildmon 53, GRIMER
 	wildmon 50, RATTATA
-	wildmon 54, SLUGMA
+	wildmon 54, RATTATA
 	wildmon 52, RATTATA
-	wildmon 53, MAGCARGO
+	wildmon 53, RATTATA
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; day
 	wildmon 53, GRIMER
 	wildmon 50, RATTATA
-	wildmon 54, SLUGMA
+	wildmon 54, RATTATA
 	wildmon 52, RATTATA
-	wildmon 53, MAGCARGO
+	wildmon 53, RATTATA
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; nite
@@ -872,18 +872,18 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 51, RATTATA
-	wildmon 55, SLUGMA
+	wildmon 55, RATTATA
 	wildmon 55, GRIMER
 	wildmon 53, RATTATA
-	wildmon 53, MAGCARGO
+	wildmon 53, RATTATA
 	wildmon 54, MUK
 	wildmon 56, MUK
 	; day
 	wildmon 51, RATTATA
-	wildmon 55, SLUGMA
+	wildmon 55, RATTATA
 	wildmon 55, GRIMER
 	wildmon 53, RATTATA
-	wildmon 53, MAGCARGO
+	wildmon 53, RATTATA
 	wildmon 54, MUK
 	wildmon 56, MUK
 	; nite
@@ -903,7 +903,7 @@
 	wildmon 56, RATTATA
 	wildmon 53, RATTATA
 	wildmon 54, RATTATA
-	wildmon 54, MAGCARGO
+	wildmon 54, RATTATA
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
@@ -911,7 +911,7 @@
 	wildmon 56, RATTATA
 	wildmon 53, RATTATA
 	wildmon 54, RATTATA
-	wildmon 54, MAGCARGO
+	wildmon 54, RATTATA
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; nite
@@ -931,7 +931,7 @@
 	wildmon 56, RATTATA
 	wildmon 53, RATTATA
 	wildmon 54, RATTATA
-	wildmon 54, MAGCARGO
+	wildmon 54, RATTATA
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
@@ -939,7 +939,7 @@
 	wildmon 56, RATTATA
 	wildmon 53, RATTATA
 	wildmon 54, RATTATA
-	wildmon 54, MAGCARGO
+	wildmon 54, RATTATA
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; nite
@@ -1909,16 +1909,16 @@
 	; morn
 	wildmon 56, KOFFING
 	wildmon 58, GRAVELER
-	wildmon 57, SLUGMA
-	wildmon 59, MAGCARGO
+	wildmon 57, RATTATA
+	wildmon 59, RATTATA
 	wildmon 60, DIGLETT, ALOLAN_FORM
 	wildmon 61, MAGMAR
 	wildmon 62, MAGMAR
 	; day
 	wildmon 56, KOFFING
 	wildmon 58, GRAVELER
-	wildmon 57, SLUGMA
-	wildmon 59, MAGCARGO
+	wildmon 57, RATTATA
+	wildmon 59, RATTATA
 	wildmon 60, DIGLETT, ALOLAN_FORM
 	wildmon 61, MAGMAR
 	wildmon 62, MAGMAR
@@ -1926,8 +1926,8 @@
 	wildmon 56, KOFFING
 	wildmon 58, GASTLY
 	wildmon 57, GRAVELER
-	wildmon 59, SLUGMA
-	wildmon 60, MAGCARGO
+	wildmon 59, RATTATA
+	wildmon 60, RATTATA
 	wildmon 61, DIGLETT, ALOLAN_FORM
 	wildmon 62, MAGMAR
 	end_grass_wildmons
@@ -1937,7 +1937,7 @@
 	; morn
 	wildmon 58, GRAVELER
 	wildmon 60, WEEZING
-	wildmon 59, MAGCARGO
+	wildmon 59, RATTATA
 	wildmon 61, DIGLETT, ALOLAN_FORM
 	wildmon 62, MAGMAR
 	wildmon 63, STEELIX
@@ -1945,7 +1945,7 @@
 	; day
 	wildmon 58, GRAVELER
 	wildmon 60, WEEZING
-	wildmon 59, MAGCARGO
+	wildmon 59, RATTATA
 	wildmon 61, DIGLETT, ALOLAN_FORM
 	wildmon 62, MAGMAR
 	wildmon 63, STEELIX
@@ -1954,7 +1954,7 @@
 	wildmon 58, HAUNTER
 	wildmon 60, GRAVELER
 	wildmon 59, WEEZING
-	wildmon 61, MAGCARGO
+	wildmon 61, RATTATA
 	wildmon 62, DIGLETT, ALOLAN_FORM
 	wildmon 63, MAGMAR
 	wildmon 64, STEELIX
@@ -1963,23 +1963,23 @@
 	def_grass_wildmons CINNABAR_VOLCANO_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 60, MAGCARGO
+	wildmon 60, RATTATA
 	wildmon 62, WEEZING
-	wildmon 61, SLUGMA
+	wildmon 61, RATTATA
 	wildmon 63, DUGTRIO, ALOLAN_FORM
 	wildmon 64, MAGMAR
 	wildmon 65, STEELIX
 	wildmon 66, STEELIX
 	; day
-	wildmon 60, MAGCARGO
+	wildmon 60, RATTATA
 	wildmon 62, WEEZING
-	wildmon 61, SLUGMA
+	wildmon 61, RATTATA
 	wildmon 63, DUGTRIO, ALOLAN_FORM
 	wildmon 64, MAGMAR
 	wildmon 65, STEELIX
 	wildmon 66, STEELIX
 	; nite
-	wildmon 60, MAGCARGO
+	wildmon 60, RATTATA
 	wildmon 62, WEEZING
 	wildmon 61, DUGTRIO, ALOLAN_FORM
 	wildmon 63, MAGMAR
