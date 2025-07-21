@@ -296,4 +296,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,       $002,  $0a0 ; GOTHITA*
 	mon_cry CRY_PARAS,       $000,  $100 ; GOTHORITA*
 	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle
+	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
+	mon_cry CRY_AMPHAROS,    $185,  $184 ; Duosion
+	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus
 	assert_table_length NUM_SPECIES

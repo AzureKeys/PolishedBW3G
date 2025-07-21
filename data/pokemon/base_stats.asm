@@ -325,6 +325,9 @@ INCLUDE "data/pokemon/base_stats/zoroark_plain.asm"
 INCLUDE "data/pokemon/base_stats/gothita.asm"
 INCLUDE "data/pokemon/base_stats/gothorita.asm"
 INCLUDE "data/pokemon/base_stats/gothitelle.asm"
+INCLUDE "data/pokemon/base_stats/solosis.asm"
+INCLUDE "data/pokemon/base_stats/duosion.asm"
+INCLUDE "data/pokemon/base_stats/reuniclus.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

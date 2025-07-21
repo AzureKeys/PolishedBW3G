@@ -294,6 +294,9 @@ MiniIconPointers:
 	mini_icon Gothita
 	mini_icon Gothorita
 	mini_icon Gothitelle
+	mini_icon Solosis
+	mini_icon Duosion
+	mini_icon Reuniclus
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

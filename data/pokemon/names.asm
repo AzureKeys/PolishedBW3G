@@ -291,4 +291,7 @@ PokemonNames::
 	rawchar "Gothita@@@"
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"
+	rawchar "Solosis@@@"
+	rawchar "Duosion@@@"
+	rawchar "Reuniclus@"
 	assert_table_length NUM_SPECIES + 1

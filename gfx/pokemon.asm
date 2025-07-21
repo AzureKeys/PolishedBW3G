@@ -1556,3 +1556,15 @@ GothoritaBackpic:  INCBIN "gfx/pokemon/gothorita/back.2bpp.lz"
 SECTION "Gothitelle Pics", ROMX
 GothitelleFrontpic: INCBIN "gfx/pokemon/gothitelle/front.animated.2bpp.lz"
 GothitelleBackpic:  INCBIN "gfx/pokemon/gothitelle/back.2bpp.lz"
+
+SECTION "Solosis Pics", ROMX
+SolosisFrontpic: INCBIN "gfx/pokemon/solosis/front.animated.2bpp.lz"
+SolosisBackpic:  INCBIN "gfx/pokemon/solosis/back.2bpp.lz"
+
+SECTION "Duosion Pics", ROMX
+DuosionFrontpic: INCBIN "gfx/pokemon/duosion/front.animated.2bpp.lz"
+DuosionBackpic:  INCBIN "gfx/pokemon/duosion/back.2bpp.lz"
+
+SECTION "Reuniclus Pics", ROMX
+ReuniclusFrontpic: INCBIN "gfx/pokemon/reuniclus/front.animated.2bpp.lz"
+ReuniclusBackpic:  INCBIN "gfx/pokemon/reuniclus/back.2bpp.lz"

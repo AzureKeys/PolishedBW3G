@@ -290,6 +290,9 @@ AnimationExtraPointers:
 	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
+	dw SolosisAnimationExtra
+	dw DuosionAnimationExtra
+	dw ReuniclusAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

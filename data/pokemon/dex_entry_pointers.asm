@@ -291,6 +291,9 @@ PokedexDataPointerTable:
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
+	dba SolosisPokedexEntry
+	dba DuosionPokedexEntry
+	dba ReuniclusPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

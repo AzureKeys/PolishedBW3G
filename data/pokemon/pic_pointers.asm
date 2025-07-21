@@ -294,6 +294,9 @@ PokemonPicPointers::
 	pics Gothita
 	pics Gothorita
 	pics Gothitelle
+	pics Solosis
+	pics Duosion
+	pics Reuniclus
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

@@ -294,6 +294,9 @@ endc
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
+	db NO_MOVE      ; SOLOSIS
+	db NO_MOVE      ; DUOSION
+	db DIZZY_PUNCH  ; REUNICLUS
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

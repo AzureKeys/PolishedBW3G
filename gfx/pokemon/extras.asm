@@ -229,6 +229,9 @@ GarbodorAnimationExtra:   INCLUDE "gfx/pokemon/garbodor/anim_idle.asm"
 GothitaAnimationExtra:    INCLUDE "gfx/pokemon/gothita/anim_idle.asm"
 GothoritaAnimationExtra:  INCLUDE "gfx/pokemon/gothorita/anim_idle.asm"
 GothitelleAnimationExtra: INCLUDE "gfx/pokemon/gothitelle/anim_idle.asm"
+SolosisAnimationExtra:    INCLUDE "gfx/pokemon/solosis/anim_idle.asm"
+DuosionAnimationExtra:    INCLUDE "gfx/pokemon/duosion/anim_idle.asm"
+ReuniclusAnimationExtra:  INCLUDE "gfx/pokemon/reuniclus/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

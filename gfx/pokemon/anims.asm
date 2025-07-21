@@ -229,6 +229,9 @@ GarbodorAnimation:   INCLUDE "gfx/pokemon/garbodor/anim.asm"
 GothitaAnimation:    INCLUDE "gfx/pokemon/gothita/anim.asm"
 GothoritaAnimation:  INCLUDE "gfx/pokemon/gothorita/anim.asm"
 GothitelleAnimation: INCLUDE "gfx/pokemon/gothitelle/anim.asm"
+SolosisAnimation:    INCLUDE "gfx/pokemon/solosis/anim.asm"
+DuosionAnimation:    INCLUDE "gfx/pokemon/duosion/anim.asm"
+ReuniclusAnimation:  INCLUDE "gfx/pokemon/reuniclus/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

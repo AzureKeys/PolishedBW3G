@@ -167,6 +167,9 @@ GarbodorFrames:   INCLUDE "gfx/pokemon/garbodor/frames.asm"
 GothitaFrames:    INCLUDE "gfx/pokemon/gothita/frames.asm"
 GothoritaFrames:  INCLUDE "gfx/pokemon/gothorita/frames.asm"
 GothitelleFrames: INCLUDE "gfx/pokemon/gothitelle/frames.asm"
+SolosisFrames:    INCLUDE "gfx/pokemon/solosis/frames.asm"
+DuosionFrames:    INCLUDE "gfx/pokemon/duosion/frames.asm"
+ReuniclusFrames:  INCLUDE "gfx/pokemon/reuniclus/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

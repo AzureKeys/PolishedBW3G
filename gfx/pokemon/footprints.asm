@@ -85,6 +85,9 @@ ZoroarkFootprint::
 GothitaFootprint::
 GothoritaFootprint::
 GothitelleFootprint::
+SolosisFootprint::
+DuosionFootprint::
+ReuniclusFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

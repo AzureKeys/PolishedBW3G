@@ -2868,6 +2868,35 @@ GothitellePokedexEntry::
     next "Gothitelle's great"
     next "psychic power.@"
 
+SECTION "SolosisPokedexEntry", ROMX
+SolosisPokedexEntry::
+	db "Cell@"
+	db "They give off"
+    next "psychic waves to"
+    next "ward off enemies."
+    page "Solosis are able"
+    next "to communicate"
+    next "using telepathy.@"
+
+SECTION "DuosionPokedexEntry", ROMX
+DuosionPokedexEntry::
+	db "Mitosis@"
+	db "When its brain,"
+    next "divided in two,"
+    next "thinks the same"
+    page "thoughts, its"
+    next "psychic powers"
+    next "are at the peak.@"
+
+SECTION "ReuniclusPokedexEntry", ROMX
+ReuniclusPokedexEntry::
+	db "Multiplying@"
+	db "They use psychic"
+    next "power to control"
+    next "their arms, which"
+    page "are made of a"
+    next "powerful liquid.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

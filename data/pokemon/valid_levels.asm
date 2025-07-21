@@ -295,4 +295,7 @@ endc
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle
+	db   1,  31 ; Solosis
+	db  32,  40 ; Duosion
+	db  41, 100 ; Reuniclus
 	assert_table_length NUM_SPECIES

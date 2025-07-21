@@ -297,6 +297,9 @@ PokemonBodyData:
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
+	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
+	body_data   6,   80, HEAD,         GREEN  ; DUOSION
+	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

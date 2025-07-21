@@ -6037,6 +6037,67 @@ endc
 	learnset 45, DAZZLINGLEAM ; Telekinesis
 	learnset 54, CHARM
 	learnset 59, BARRIER ; Magic Room
+	
+	evos_attacks Solosis
+	evo_data EVOLVE_LEVEL, 32, DUOSION
+	learnset 1, CONFUSION ; Psywave
+	learnset 3, REFLECT
+	learnset 7, ROLLOUT
+	learnset 10, SAFEGUARD ; Snatch
+	learnset 14, HIDDEN_POWER
+	learnset 16, LIGHT_SCREEN
+	learnset 19, CHARM
+	learnset 24, RECOVER
+	;learnset 25, PSYSHOCK
+	learnset 28, TAKE_DOWN ; Endeavor
+	learnset 31, FUTURE_SIGHT
+	learnset 33, PAIN_SPLIT
+	learnset 37, PSYCHIC_M
+	learnset 40, SKILL_SWAP
+	learnset 46, BARRIER ; Heal Block
+	learnset 48, DREAM_EATER ; Wonder Room
+	
+	evos_attacks Duosion
+	evo_data EVOLVE_LEVEL, 41, REUNICLUS
+	learnset 1, CONFUSION ; Psywave
+	learnset 3, REFLECT
+	learnset 7, ROLLOUT
+	learnset 10, SAFEGUARD ; Snatch
+	learnset 14, HIDDEN_POWER
+	learnset 16, LIGHT_SCREEN
+	learnset 19, CHARM
+	learnset 24, RECOVER
+	;learnset 25, PSYSHOCK
+	learnset 28, TAKE_DOWN ; Endeavor
+	learnset 31, FUTURE_SIGHT
+	learnset 34, PAIN_SPLIT
+	learnset 39, PSYCHIC_M
+	learnset 43, SKILL_SWAP
+	learnset 50, BARRIER ; Heal Block
+	learnset 53, DREAM_EATER ; Wonder Room
+	
+	evos_attacks Reuniclus
+	learnset 1, DIZZY_PUNCH
+	learnset 1, CONFUSION ; Psywave
+	learnset 1, REFLECT
+	learnset 1, ROLLOUT
+	learnset 1, SAFEGUARD ; Snatch
+	learnset 3, REFLECT
+	learnset 7, ROLLOUT
+	learnset 10, SAFEGUARD ; Snatch
+	learnset 14, HIDDEN_POWER
+	learnset 16, LIGHT_SCREEN
+	learnset 19, CHARM
+	learnset 24, RECOVER
+	;learnset 25, PSYSHOCK
+	learnset 28, TAKE_DOWN ; Endeavor
+	learnset 31, FUTURE_SIGHT
+	learnset 34, PAIN_SPLIT
+	learnset 39, PSYCHIC_M
+	learnset 40, DIZZY_PUNCH
+	learnset 45, SKILL_SWAP
+	learnset 54, BARRIER ; Heal Block
+	learnset 59, DREAM_EATER ; Wonder Room
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

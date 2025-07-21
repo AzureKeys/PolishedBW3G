@@ -1228,5 +1228,12 @@ GothitaEggSpeciesMoves:
 	db MIRROR_COAT
 	db $ff
 
+SolosisEggSpeciesMoves:
+	dp SOLOSIS, PLAIN_FORM
+	;db ACID_ARMOR
+	db CONFUSE_RAY
+	db NIGHT_SHADE
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

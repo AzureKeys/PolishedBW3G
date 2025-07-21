@@ -290,6 +290,9 @@ FootprintPointers::
 	dw GothitaFootprint
 	dw GothoritaFootprint
 	dw GothitelleFootprint
+	dw SolosisFootprint
+	dw DuosionFootprint
+	dw ReuniclusFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

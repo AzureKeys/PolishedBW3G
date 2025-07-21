@@ -290,6 +290,9 @@ EggSpeciesMovesPointers::
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
+	dw SolosisEggSpeciesMoves           ; Solosis
+	dw SolosisEggSpeciesMoves           ; Duosion
+	dw SolosisEggSpeciesMoves           ; Reuniclus
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

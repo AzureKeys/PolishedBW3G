@@ -294,6 +294,9 @@ EvosAttacksPointers::
 	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks
+	dw SolosisEvosAttacks
+	dw DuosionEvosAttacks
+	dw ReuniclusEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

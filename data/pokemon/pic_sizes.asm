@@ -309,6 +309,9 @@ INCLUDE "gfx/pokemon/zoroark_plain/front.dimensions"
 INCLUDE "gfx/pokemon/gothita/front.dimensions"
 INCLUDE "gfx/pokemon/gothorita/front.dimensions"
 INCLUDE "gfx/pokemon/gothitelle/front.dimensions"
+INCLUDE "gfx/pokemon/solosis/front.dimensions"
+INCLUDE "gfx/pokemon/duosion/front.dimensions"
+INCLUDE "gfx/pokemon/reuniclus/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

@@ -1452,6 +1452,21 @@ GothitelleMini::     INCBIN "gfx/minis/gothitelle.2bpp.lz"
 GothitelleMiniMask:: INCBIN "gfx/minis/gothitelle_mask.1bpp.lz"
 GothitelleIcon::     INCBIN "gfx/icons/gothitelle.2bpp.lz"
 
+SECTION "Solosis Mini Icon", ROMX
+SolosisMini::     INCBIN "gfx/minis/solosis.2bpp.lz"
+SolosisMiniMask:: INCBIN "gfx/minis/solosis_mask.1bpp.lz"
+SolosisIcon::     INCBIN "gfx/icons/solosis.2bpp.lz"
+
+SECTION "Duosion Mini Icon", ROMX
+DuosionMini::     INCBIN "gfx/minis/duosion.2bpp.lz"
+DuosionMiniMask:: INCBIN "gfx/minis/duosion_mask.1bpp.lz"
+DuosionIcon::     INCBIN "gfx/icons/duosion.2bpp.lz"
+
+SECTION "Reuniclus Mini Icon", ROMX
+ReuniclusMini::     INCBIN "gfx/minis/reuniclus.2bpp.lz"
+ReuniclusMiniMask:: INCBIN "gfx/minis/reuniclus_mask.1bpp.lz"
+ReuniclusIcon::     INCBIN "gfx/icons/reuniclus.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

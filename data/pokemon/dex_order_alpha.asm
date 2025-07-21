@@ -55,6 +55,7 @@ AlphabeticalPokedexOrder:
 	dp DUDUNSPARCE
 	dp DUGTRIO
 	dp DUNSPARCE
+	dp DUOSION
 	dp DWEBBLE
 	dp EEVEE
 	dp EKANS
@@ -200,6 +201,7 @@ AlphabeticalPokedexOrder:
 	dp RATICATE
 	dp RATTATA
 	dp REMORAID
+	dp REUNICLUS
 	dp ROGGENROLA
 	dp SAMUROTT
 	dp SANDILE
@@ -231,6 +233,7 @@ AlphabeticalPokedexOrder:
 	dp SNIVY
 	dp SNORLAX
 	dp SNUBBULL
+	dp SOLOSIS
 	dp SQUIRTLE
 	dp STANTLER
 	dp STARMIE

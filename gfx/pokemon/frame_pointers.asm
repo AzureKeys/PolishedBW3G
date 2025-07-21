@@ -290,6 +290,9 @@ FramesPointers:
 	dw GothitaFrames
 	dw GothoritaFrames
 	dw GothitelleFrames
+	dw SolosisFrames
+	dw DuosionFrames
+	dw ReuniclusFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

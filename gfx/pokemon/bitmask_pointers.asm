@@ -290,6 +290,9 @@ BitmasksPointers:
 	dw GothitaBitmasks
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
+	dw SolosisBitmasks
+	dw DuosionBitmasks
+	dw ReuniclusBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
