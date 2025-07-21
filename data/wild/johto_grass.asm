@@ -395,29 +395,29 @@
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, NATU
-	wildmon 22, NATU
-	wildmon 18, NATU
-	wildmon 24, NATU
+	wildmon 20, RATTATA
+	wildmon 22, RATTATA
+	wildmon 18, RATTATA
+	wildmon 24, RATTATA
 	wildmon 20, SMEARGLE
 	wildmon 22, SMEARGLE
 	wildmon 22, SMEARGLE
 	; day
-	wildmon 20, NATU
-	wildmon 22, NATU
-	wildmon 18, NATU
-	wildmon 24, NATU
+	wildmon 20, RATTATA
+	wildmon 22, RATTATA
+	wildmon 18, RATTATA
+	wildmon 24, RATTATA
 	wildmon 20, SMEARGLE
 	wildmon 22, SMEARGLE
 	wildmon 22, SMEARGLE
 	; nite
-	wildmon 22, NATU
-	wildmon 24, NATU
-	wildmon 20, NATU
+	wildmon 22, RATTATA
+	wildmon 24, RATTATA
+	wildmon 20, RATTATA
 	wildmon 18, WOOPER
 	wildmon 22, QUAGSIRE
-	wildmon 25, XATU
-	wildmon 25, XATU
+	wildmon 25, RATTATA
+	wildmon 25, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_ENTRANCE_CHAMBER
@@ -2024,7 +2024,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
-	wildmon LEVEL_FROM_BADGES - 2, NATU
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; day
 	wildmon LEVEL_FROM_BADGES - 3, CUBONE
@@ -2032,7 +2032,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
-	wildmon LEVEL_FROM_BADGES - 2, NATU
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; nite
 	wildmon LEVEL_FROM_BADGES - 3, CUBONE
@@ -2040,7 +2040,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, GASTLY
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
-	wildmon LEVEL_FROM_BADGES - 2, NATU
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	end_grass_wildmons
 

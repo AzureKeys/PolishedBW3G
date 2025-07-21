@@ -123,8 +123,6 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; IGGLYBUFF
 	iconpal RED, AZURE ; TOGEPI
 	iconpal WHITE, AZURE ; TOGETIC
-	iconpal GREEN, RED ; NATU
-	iconpal GREEN, RED ; XATU
 	iconpal BLUE, PURPLE ; MAREEP
 	iconpal PINK, RED ; FLAAFFY
 	iconpal BROWN, RED ; AMPHAROS
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GRAY, RED ; DRILBUR
 	iconpal BROWN, RED ; EXCADRILL
 	iconpal PINK, PURPLE ; AUDINO
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, BROWN ; TIMBURR
 	iconpal GRAY, BROWN ; GURDURR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, ORANGE ; CONKELDURR
 	iconpal BLUE, YELLOW ; TYMPOLE
 	iconpal BLUE, TEAL ; PALPITOAD
@@ -300,6 +298,9 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; GARBODOR
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
+	iconpal BLACK, PURPLE ; GOTHITA
+	iconpal BLACK, PURPLE ; GOTHORITA
+	iconpal BLACK, PURPLE ; GOTHITELLE
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

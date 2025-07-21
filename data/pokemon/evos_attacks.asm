@@ -2809,42 +2809,6 @@ endc
 	learnset 49, EXTRASENSORY ; Last Resort → egg move
 	learnset 53, PLAY_ROUGH ; After You → Sw/Sh move
 
-	evos_attacks Natu
-	evo_data EVOLVE_LEVEL, 25, XATU
-	learnset 1, PECK
-	learnset 1, LEER
-	learnset 6, NIGHT_SHADE
-	learnset 9, TELEPORT
-	learnset 12, SAFEGUARD ; Lucky Chant → event move
-	learnset 17, HYPNOSIS ; Stored Power → new move
-	learnset 20, PAIN_SPLIT ; Ominous Wind → HGSS tutor move
-	learnset 23, CONFUSE_RAY
-	learnset 28, RECOVER ; Wish → similar move
-	learnset 33, PSYCHIC_M
-	learnset 36, ROOST ; Miracle Eye → egg move
-	learnset 39, HAZE ; Psycho Shift → egg move
-	learnset 44, FUTURE_SIGHT
-	learnset 47, HEX ; Power Swap + Guard Swap → new move
-	learnset 50, SUCKER_PUNCH ; Me First → HGSS tutor move
-
-	evos_attacks Xatu
-	learnset 1, AIR_SLASH ; evolution move
-	learnset 1, PECK
-	learnset 1, LEER
-	learnset 6, NIGHT_SHADE
-	learnset 9, TELEPORT
-	learnset 12, SAFEGUARD ; Lucky Chant → event move
-	learnset 17, HYPNOSIS ; Stored Power → new move
-	learnset 20, PAIN_SPLIT ; Ominous Wind → HGSS tutor move
-	learnset 23, CONFUSE_RAY
-	learnset 29, RECOVER ; Wish → similar move
-	learnset 35, PSYCHIC_M
-	learnset 39, ROOST ; Miracle Eye → egg move
-	learnset 43, HAZE ; Psycho Shift → egg move
-	learnset 49, FUTURE_SIGHT
-	learnset 53, HEX ; Power Swap + Guard Swap → new move
-	learnset 57, SUCKER_PUNCH ; Me First → HGSS tutor move
-
 	evos_attacks Mareep
 	evo_data EVOLVE_LEVEL, 15, FLAAFFY
 	learnset 1, TACKLE
@@ -6138,6 +6102,65 @@ endc
 	learnset 54, NASTY_PLOT
 	; Skipped Imprison
 	learnset 59, FOCUS_BLAST ; Night Daze
+	
+	evos_attacks Gothita
+	evo_data EVOLVE_LEVEL, 32, GOTHORITA
+	learnset 1, TACKLE
+	learnset 3, CONFUSION
+	learnset 7, GROWL ; Play Nice
+	learnset 10, LEER ; Fake Tears
+	learnset 14, DOUBLE_SLAP
+	learnset 16, PSYBEAM
+	learnset 19, DRAINING_KISS ; Embargo
+	learnset 24, FEINT_ATTACK
+	;learnset 25, PSYSHOCK
+	learnset 28, SWAGGER ; Flatter
+	learnset 31, FUTURE_SIGHT
+	learnset 33, HYPNOSIS ; Heal Block
+	learnset 37, PSYCHIC_M
+	learnset 40, DAZZLINGLEAM ; Telekinesis
+	learnset 46, CHARM
+	learnset 48, BARRIER ; Magic Room
+	
+	evos_attacks Gothorita
+	evo_data EVOLVE_LEVEL, 41, GOTHITELLE
+	learnset 1, TACKLE
+	learnset 3, CONFUSION
+	learnset 7, GROWL ; Play Nice
+	learnset 10, LEER ; Fake Tears
+	learnset 14, DOUBLE_SLAP
+	learnset 16, PSYBEAM
+	learnset 19, DRAINING_KISS ; Embargo
+	learnset 24, FEINT_ATTACK
+	;learnset 25, PSYSHOCK
+	learnset 28, SWAGGER ; Flatter
+	learnset 31, FUTURE_SIGHT
+	learnset 34, HYPNOSIS ; Heal Block
+	learnset 39, PSYCHIC_M
+	learnset 43, DAZZLINGLEAM ; Telekinesis
+	learnset 50, CHARM
+	learnset 53, BARRIER ; Magic Room
+	
+	evos_attacks Gothitelle
+	learnset 1, TACKLE
+	learnset 1, CONFUSION
+	learnset 1, GROWL ; Play Nice
+	learnset 1, LEER ; Fake Tears
+	learnset 3, CONFUSION
+	learnset 7, GROWL ; Play Nice
+	learnset 10, LEER ; Fake Tears
+	learnset 14, DOUBLE_SLAP
+	learnset 16, PSYBEAM
+	learnset 19, DRAINING_KISS ; Embargo
+	learnset 24, FEINT_ATTACK
+	;learnset 25, PSYSHOCK
+	learnset 28, SWAGGER ; Flatter
+	learnset 31, FUTURE_SIGHT
+	learnset 34, HYPNOSIS ; Heal Block
+	learnset 39, PSYCHIC_M
+	learnset 45, DAZZLINGLEAM ; Telekinesis
+	learnset 54, CHARM
+	learnset 59, BARRIER ; Magic Room
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

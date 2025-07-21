@@ -352,14 +352,6 @@ SECTION "Tangrowth Pics", ROMX
 TangrowthFrontpic: INCBIN "gfx/pokemon/tangrowth/front.animated.2bpp.lz"
 TangrowthBackpic:  INCBIN "gfx/pokemon/tangrowth/back.2bpp.lz"
 
-SECTION "Natu Pics", ROMX
-NatuFrontpic: INCBIN "gfx/pokemon/natu/front.animated.2bpp.lz"
-NatuBackpic:  INCBIN "gfx/pokemon/natu/back.2bpp.lz"
-
-SECTION "Xatu Pics", ROMX
-XatuFrontpic: INCBIN "gfx/pokemon/xatu/front.animated.2bpp.lz"
-XatuBackpic:  INCBIN "gfx/pokemon/xatu/back.2bpp.lz"
-
 SECTION "Mareep Pics", ROMX
 MareepFrontpic: INCBIN "gfx/pokemon/mareep/front.animated.2bpp.lz"
 MareepBackpic:  INCBIN "gfx/pokemon/mareep/back.2bpp.lz"
@@ -1580,3 +1572,15 @@ ZoruaPlainBackpic:  INCBIN "gfx/pokemon/zorua_plain/back.2bpp.lz"
 SECTION "ZoroarkPlain Pics", ROMX
 ZoroarkPlainFrontpic: INCBIN "gfx/pokemon/zoroark_plain/front.animated.2bpp.lz"
 ZoroarkPlainBackpic:  INCBIN "gfx/pokemon/zoroark_plain/back.2bpp.lz"
+
+SECTION "Gothita Pics", ROMX
+GothitaFrontpic: INCBIN "gfx/pokemon/gothita/front.animated.2bpp.lz"
+GothitaBackpic:  INCBIN "gfx/pokemon/gothita/back.2bpp.lz"
+
+SECTION "Gothorita Pics", ROMX
+GothoritaFrontpic: INCBIN "gfx/pokemon/gothorita/front.animated.2bpp.lz"
+GothoritaBackpic:  INCBIN "gfx/pokemon/gothorita/back.2bpp.lz"
+
+SECTION "Gothitelle Pics", ROMX
+GothitelleFrontpic: INCBIN "gfx/pokemon/gothitelle/front.animated.2bpp.lz"
+GothitelleBackpic:  INCBIN "gfx/pokemon/gothitelle/back.2bpp.lz"

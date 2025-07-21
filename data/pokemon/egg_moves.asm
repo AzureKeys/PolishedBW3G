@@ -587,17 +587,6 @@ TogepiEggSpeciesMoves:
 	db PECK
 	db $ff
 
-NatuEggSpeciesMoves:
-	dp NATU, PLAIN_FORM
-	db DRILL_PECK
-	db FEINT_ATTACK
-	db HAZE
-	db QUICK_ATTACK
-	db STEEL_WING
-	db ZEN_HEADBUTT
-	db ROOST
-	db $ff
-
 MareepEggSpeciesMoves:
 	dp MAREEP, PLAIN_FORM
 	db AGILITY
@@ -1248,6 +1237,13 @@ ZoruaPlainEggSpeciesMoves:
 	db DARK_PULSE
 	db EXTRASENSORY
 	db SUCKER_PUNCH
+	db $ff
+
+GothitaEggSpeciesMoves:
+	dp GOTHITA, PLAIN_FORM
+	db DARK_PULSE
+	db MEAN_LOOK
+	db MIRROR_COAT
 	db $ff
 
 NoEggSpeciesMoves:

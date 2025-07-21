@@ -123,8 +123,6 @@ PokemonPicPointers::
 	pics Igglybuff
 	pics Togepi
 	pics Togetic
-	pics Natu
-	pics Xatu
 	pics Mareep
 	pics Flaaffy
 	pics Ampharos
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Drilbur
 	pics Excadrill
 	pics Audino
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Timburr
 	pics Gurdurr
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
@@ -300,6 +298,9 @@ PokemonPicPointers::
 	pics Garbodor
 	pics ZoruaPlain
 	pics ZoroarkPlain
+	pics Gothita
+	pics Gothorita
+	pics Gothitelle
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

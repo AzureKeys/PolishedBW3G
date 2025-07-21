@@ -143,8 +143,6 @@
 	const IGGLYBUFF  ; 52
 	const TOGEPI     ; 53
 	const TOGETIC    ; 54
-	const NATU       ; xx
-	const XATU       ; xx
 	const MAREEP     ; 55
 	const FLAAFFY    ; 56
 	const AMPHAROS   ; 57
@@ -278,10 +276,10 @@
 	const DRILBUR    ; 116
 	const EXCADRILL  ; 117
 	const AUDINO     ; 118
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
@@ -320,6 +318,9 @@
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
+	const GOTHITA    ; 143
+	const GOTHORITA  ; 144
+	const GOTHITELLE ; 145
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

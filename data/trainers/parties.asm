@@ -4,7 +4,7 @@ INCLUDE "data/trainers/macros.asm"
 ; All trainers follow a basic structure (<> is mandatory, [] is optional):
 	; def_trainer <TRAINER_CONSTANT>, <Name>
 	; tr_mon <LEVEL>, [Nickname], <SPECIES/SPECIES @ ITEM>, [GENDER+FORM]
-		; tr_extra [ABILITY], [NATURE], [SHINY]
+		; tr_extra [ABILITY], [RATTATARE], [SHINY]
 		; tr_dvs <SPREAD>
 		; tr_evs <SPREAD>
 		; tr_moves <MOVE1>, [MOVE2], [MOVE3], [MOVE4]
@@ -13,7 +13,7 @@ INCLUDE "data/trainers/macros.asm"
 	; optional and can be skipped. For full information about what each
 	; parameter does, see data/trainers/macros.asm.
 
-; TODO: boss trainers need better movesets, held items, natures, and abilities
+; TODO: boss trainers need better movesets, held items, RATTATAres, and abilities
 
 	def_trainer_class TRAINER_NONE
 
@@ -460,7 +460,7 @@ WillGroup:
 	tr_mon 49, SLOWBRO @ SITRUS_BERRY
 		tr_evs 144 HP, 144 SDf
 		tr_moves SURF, CALM_MIND, BODY_SLAM, PSYCHIC_M
-	tr_mon 51, XATU @ LEFTOVERS
+	tr_mon 51, RATTATA @ LEFTOVERS
 		tr_evs 4 HP, 252 SAt
 		tr_moves QUICK_ATTACK, CONFUSE_RAY, PSYCHIC_M, FUTURE_SIGHT
 	end_trainer
@@ -476,7 +476,7 @@ WillGroup:
 		tr_moves HP_FIGHTING, RECOVER, SHADOW_BALL, PSYCHIC_M
 	tr_mon 69, SLOWBRO @ WISE_GLASSES
 		tr_moves SURF, PSYCHIC_M, THUNDER_WAVE, REST
-	tr_mon 70, XATU @ LEFTOVERS
+	tr_mon 70, RATTATA @ LEFTOVERS
 		tr_moves QUICK_ATTACK, FUTURE_SIGHT, CONFUSE_RAY, PSYCHIC_M
 	end_trainer
 
@@ -2523,7 +2523,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer BIRD_KEEPER_JUSTIN, "Justin"
-	tr_mon 57, XATU
+	tr_mon 57, RATTATA
 	tr_mon 50, RATTATA
 	end_trainer
 
@@ -3914,21 +3914,21 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer ALAN3, "Alan"
-	tr_mon 20, NATU
+	tr_mon 20, RATTATA
 	tr_mon 22, TANGELA
 	tr_mon 20, QUAGSIRE
 	tr_mon 25, YANMA
 	end_trainer
 
 	def_trainer ALAN4, "Alan"
-	tr_mon 27, NATU
+	tr_mon 27, RATTATA
 	tr_mon 27, TANGELA
 	tr_mon 30, QUAGSIRE
 	tr_mon 30, YANMA
 	end_trainer
 
 	def_trainer ALAN5, "Alan"
-	tr_mon 35, XATU
+	tr_mon 35, RATTATA
 		tr_moves PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
 	tr_mon 38, TANGROWTH
 		tr_moves ANCIENTPOWER, POISONPOWDER, VINE_WHIP, MEGA_DRAIN
@@ -3984,7 +3984,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer TOMMY, "Tommy"
-	tr_mon 56, XATU
+	tr_mon 56, RATTATA
 	tr_mon 57, RATTATA
 	end_trainer
 
@@ -4092,7 +4092,7 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer FIDEL, "Fidel"
-	tr_mon 57, XATU
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer GREG, "Greg"
@@ -4118,7 +4118,7 @@ PsychicGroup:
 
 	def_trainer PHIL, "Phil"
 	tr_mon 36, RATTATA
-	tr_mon 35, XATU
+	tr_mon 35, RATTATA
 	end_trainer
 
 	def_trainer RICHARD, "Vernon" ; MISMATCH
@@ -4154,8 +4154,8 @@ PsychicGroup:
 	end_trainer
 
 	def_trainer VIRGIL, "Virgil"
-	tr_mon LEVEL_FROM_BADGES + 4, NATU
-	tr_mon LEVEL_FROM_BADGES + 6, XATU
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
 
@@ -6387,7 +6387,7 @@ endc
 	def_trainer SERA, "Sera"
 	tr_mon 63, CHARMELEON @ EVIOLITE
 	tr_mon 61, AMPHAROS @ MAGNET
-	tr_mon 61, XATU @ TWISTEDSPOON
+	tr_mon 61, RATTATA @ TWISTEDSPOON
 	end_trainer
 
 	def_trainer NEESHA, "Neesha"
@@ -7362,7 +7362,7 @@ CaitlinGroup:
 	def_trainer_class CAITLIN
 	def_trainer 1, "Caitlin"
 	tr_mon 58, ESPEON
-	tr_mon 56, XATU
+	tr_mon 56, RATTATA
 	tr_mon 57, STARMIE
 	tr_mon 56, RATTATA
 	tr_mon 58, RATTATA
@@ -7779,7 +7779,7 @@ if DEF(FAITHFUL)
 else
 		tr_moves SWORDS_DANCE, FIRE_BLAST, ROCK_SLIDE, DRAGON_CLAW
 endc
-	tr_mon 72, XATU @ QUICK_CLAW
+	tr_mon 72, RATTATA @ QUICK_CLAW
 		tr_moves FUTURE_SIGHT, PAIN_SPLIT, REFLECT, PSYCHIC_M
 	end_trainer
 

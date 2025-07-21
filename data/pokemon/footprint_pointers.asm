@@ -119,8 +119,6 @@ FootprintPointers::
 	dw IgglybuffFootprint
 	dw TogepiFootprint
 	dw TogeticFootprint
-	dw NatuFootprint
-	dw XatuFootprint
 	dw MareepFootprint
 	dw FlaaffyFootprint
 	dw AmpharosFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw DrilburFootprint
 	dw ExcadrillFootprint
 	dw AudinoFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw TimburrFootprint
 	dw GurdurrFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ConkeldurrFootprint
 	dw TympoleFootprint
 	dw PalpitoadFootprint
@@ -296,6 +294,9 @@ FootprintPointers::
 	dw GarbodorFootprint
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
+	dw GothitaFootprint
+	dw GothoritaFootprint
+	dw GothitelleFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

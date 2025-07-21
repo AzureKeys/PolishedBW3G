@@ -119,8 +119,6 @@ EggSpeciesMovesPointers::
 	dw IgglybuffEggSpeciesMoves         ; Igglybuff
 	dw TogepiEggSpeciesMoves            ; Togepi
 	dw TogepiEggSpeciesMoves            ; Togetic
-	dw NatuEggSpeciesMoves              ; Natu
-	dw NatuEggSpeciesMoves              ; Xatu
 	dw MareepEggSpeciesMoves            ; Mareep
 	dw MareepEggSpeciesMoves            ; Flaaffy
 	dw MareepEggSpeciesMoves            ; Ampharos
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw DrilburEggSpeciesMoves           ; Drilbur
 	dw DrilburEggSpeciesMoves           ; Excadrill
 	dw AudinoEggSpeciesMoves            ; Audino
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TimburrEggSpeciesMoves           ; Timburr
 	dw TimburrEggSpeciesMoves           ; Gurdurr
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
@@ -296,6 +294,9 @@ EggSpeciesMovesPointers::
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
+	dw GothitaEggSpeciesMoves           ; Gothita
+	dw GothitaEggSpeciesMoves           ; Gothorita
+	dw GothitaEggSpeciesMoves           ; Gothitelle
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

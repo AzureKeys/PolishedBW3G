@@ -119,8 +119,6 @@ AnimationExtraPointers:
 	dw IgglybuffAnimationExtra
 	dw TogepiAnimationExtra
 	dw TogeticAnimationExtra
-	dw NatuAnimationExtra
-	dw XatuAnimationExtra
 	dw MareepAnimationExtra
 	dw FlaaffyAnimationExtra
 	dw AmpharosAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw DrilburAnimationExtra
 	dw ExcadrillAnimationExtra
 	dw AudinoAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw TimburrAnimationExtra
 	dw GurdurrAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw ConkeldurrAnimationExtra
 	dw TympoleAnimationExtra
 	dw PalpitoadAnimationExtra
@@ -296,6 +294,9 @@ AnimationExtraPointers:
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
+	dw GothitaAnimationExtra
+	dw GothoritaAnimationExtra
+	dw GothitelleAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

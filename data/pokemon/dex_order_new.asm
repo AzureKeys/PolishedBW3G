@@ -73,6 +73,9 @@ NewPokedexOrder:
 	dp GARBODOR
 	dp ZORUA
 	dp ZOROARK
+	dp GOTHITA
+	dp GOTHORITA
+	dp GOTHITELLE
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -206,8 +209,6 @@ NewPokedexOrder:
 	dp SMEARGLE
 	dp FARFETCH_D
 	dp SIRFETCH_D
-	dp NATU
-	dp XATU
 	dp QWILFISH
 	dp OVERQWIL
 	dp SHUCKLE

@@ -119,8 +119,6 @@ FramesPointers:
 	dw IgglybuffFrames
 	dw TogepiFrames
 	dw TogeticFrames
-	dw NatuFrames
-	dw XatuFrames
 	dw MareepFrames
 	dw FlaaffyFrames
 	dw AmpharosFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw DrilburFrames
 	dw ExcadrillFrames
 	dw AudinoFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw TimburrFrames
 	dw GurdurrFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ConkeldurrFrames
 	dw TympoleFrames
 	dw PalpitoadFrames
@@ -296,6 +294,9 @@ FramesPointers:
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
+	dw GothitaFrames
+	dw GothoritaFrames
+	dw GothitelleFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

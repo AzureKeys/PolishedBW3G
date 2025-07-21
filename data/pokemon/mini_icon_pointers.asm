@@ -123,8 +123,6 @@ MiniIconPointers:
 	mini_icon Igglybuff
 	mini_icon Togepi
 	mini_icon Togetic
-	mini_icon Natu
-	mini_icon Xatu
 	mini_icon Mareep
 	mini_icon Flaaffy
 	mini_icon Ampharos
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Drilbur
 	mini_icon Excadrill
 	mini_icon Audino
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Timburr
 	mini_icon Gurdurr
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Conkeldurr
 	mini_icon Tympole
 	mini_icon Palpitoad
@@ -300,6 +298,9 @@ MiniIconPointers:
 	mini_icon Garbodor
 	mini_icon Zorua
 	mini_icon Zoroark
+	mini_icon Gothita
+	mini_icon Gothorita
+	mini_icon Gothitelle
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

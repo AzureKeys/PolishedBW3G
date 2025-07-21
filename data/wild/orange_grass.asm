@@ -3,18 +3,18 @@
 	def_grass_wildmons ROUTE_49
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, XATU
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES + 0, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 1, XATU
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 2, EXEGGCUTE
 	wildmon LEVEL_FROM_BADGES + 3, JUMPLUFF
 	wildmon LEVEL_FROM_BADGES + 1, JUMPLUFF
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, XATU
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES + 0, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 1, XATU
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 2, EXEGGCUTE
 	wildmon LEVEL_FROM_BADGES + 3, JUMPLUFF
 	wildmon LEVEL_FROM_BADGES + 1, JUMPLUFF

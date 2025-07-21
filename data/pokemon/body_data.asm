@@ -126,8 +126,6 @@ PokemonBodyData:
 	body_data   3,   10, BIPEDAL,      PINK   ; IGGLYBUFF
 	body_data   3,   15, BIPEDAL,      WHITE  ; TOGEPI
 	body_data   6,   32, BIPEDAL,      WHITE  ; TOGETIC
-	body_data   2,   20, WINGS,        GREEN  ; NATU
-	body_data  15,  150, WINGS,        GREEN  ; XATU
 	body_data   6,   78, QUADRUPED,    WHITE  ; MAREEP
 	body_data   8,  133, BIPEDAL_TAIL, PINK   ; FLAAFFY
 	body_data  14,  615, BIPEDAL_TAIL, YELLOW ; AMPHAROS
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
 	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
 	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
@@ -303,6 +301,9 @@ PokemonBodyData:
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
+	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
+	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
+	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

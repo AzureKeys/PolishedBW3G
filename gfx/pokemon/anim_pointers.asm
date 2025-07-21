@@ -119,8 +119,6 @@ AnimationPointers:
 	dw IgglybuffAnimation
 	dw TogepiAnimation
 	dw TogeticAnimation
-	dw NatuAnimation
-	dw XatuAnimation
 	dw MareepAnimation
 	dw FlaaffyAnimation
 	dw AmpharosAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw DrilburAnimation
 	dw ExcadrillAnimation
 	dw AudinoAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw TimburrAnimation
 	dw GurdurrAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ConkeldurrAnimation
 	dw TympoleAnimation
 	dw PalpitoadAnimation
@@ -296,6 +294,9 @@ AnimationPointers:
 	dw GarbodorAnimation
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
+	dw GothitaAnimation
+	dw GothoritaAnimation
+	dw GothitelleAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

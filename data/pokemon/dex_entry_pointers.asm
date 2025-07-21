@@ -120,8 +120,6 @@ PokedexDataPointerTable:
 	dba IgglybuffPokedexEntry
 	dba TogepiPokedexEntry
 	dba TogeticPokedexEntry
-	dba NatuPokedexEntry
-	dba XatuPokedexEntry
 	dba MareepPokedexEntry
 	dba FlaaffyPokedexEntry
 	dba AmpharosPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba DrilburPokedexEntry
 	dba ExcadrillPokedexEntry
 	dba AudinoPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba TimburrPokedexEntry
 	dba GurdurrPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
@@ -297,6 +295,9 @@ PokedexDataPointerTable:
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
+	dba GothitaPokedexEntry
+	dba GothoritaPokedexEntry
+	dba GothitellePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

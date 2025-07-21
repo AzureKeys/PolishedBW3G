@@ -88,6 +88,9 @@ AlphabeticalPokedexOrder:
 	dp GOLBAT
 	dp GOLDUCK
 	dp GOLEM
+	dp GOTHITA
+	dp GOTHITELLE
+	dp GOTHORITA
 	dp GRANBULL
 	dp GRAVELER
 	dp GRIMER
@@ -157,7 +160,6 @@ AlphabeticalPokedexOrder:
 	dp MUNNA
 	dp MURKROW
 	dp MUSHARNA
-	dp NATU
 	dp NIDOKING
 	dp NIDOQUEEN
 	dp NIDORAN_F
@@ -287,7 +289,6 @@ AlphabeticalPokedexOrder:
 	dp WOOPER
 	dp WYNAUT
 	dp WYRDEER
-	dp XATU
 	dp YAMASK
 	dp YANMA
 	dp YANMEGA

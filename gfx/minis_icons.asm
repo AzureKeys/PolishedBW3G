@@ -602,16 +602,6 @@ TogeticMini::     INCBIN "gfx/minis/togetic.2bpp.lz"
 TogeticMiniMask:: INCBIN "gfx/minis/togetic_mask.1bpp.lz"
 TogeticIcon::     INCBIN "gfx/icons/togetic.2bpp.lz"
 
-SECTION "Natu Mini Icon", ROMX
-NatuMini::     INCBIN "gfx/minis/natu.2bpp.lz"
-NatuMiniMask:: INCBIN "gfx/minis/natu_mask.1bpp.lz"
-NatuIcon::     INCBIN "gfx/icons/natu.2bpp.lz"
-
-SECTION "Xatu Mini Icon", ROMX
-XatuMini::     INCBIN "gfx/minis/xatu.2bpp.lz"
-XatuMiniMask:: INCBIN "gfx/minis/xatu_mask.1bpp.lz"
-XatuIcon::     INCBIN "gfx/icons/xatu.2bpp.lz"
-
 SECTION "Mareep Mini Icon", ROMX
 MareepMini::     INCBIN "gfx/minis/mareep.2bpp.lz"
 MareepMiniMask:: INCBIN "gfx/minis/mareep_mask.1bpp.lz"
@@ -1481,6 +1471,21 @@ SECTION "Zoroark Mini Icon", ROMX
 ZoroarkMini::     INCBIN "gfx/minis/zoroark.2bpp.lz"
 ZoroarkMiniMask:: INCBIN "gfx/minis/zoroark_mask.1bpp.lz"
 ZoroarkIcon::     INCBIN "gfx/icons/zoroark.2bpp.lz"
+
+SECTION "Gothita Mini Icon", ROMX
+GothitaMini::     INCBIN "gfx/minis/gothita.2bpp.lz"
+GothitaMiniMask:: INCBIN "gfx/minis/gothita_mask.1bpp.lz"
+GothitaIcon::     INCBIN "gfx/icons/gothita.2bpp.lz"
+
+SECTION "Gothorita Mini Icon", ROMX
+GothoritaMini::     INCBIN "gfx/minis/gothorita.2bpp.lz"
+GothoritaMiniMask:: INCBIN "gfx/minis/gothorita_mask.1bpp.lz"
+GothoritaIcon::     INCBIN "gfx/icons/gothorita.2bpp.lz"
+
+SECTION "Gothitelle Mini Icon", ROMX
+GothitelleMini::     INCBIN "gfx/minis/gothitelle.2bpp.lz"
+GothitelleMiniMask:: INCBIN "gfx/minis/gothitelle_mask.1bpp.lz"
+GothitelleIcon::     INCBIN "gfx/icons/gothitelle.2bpp.lz"
 
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"

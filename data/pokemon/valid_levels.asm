@@ -120,8 +120,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  19 ; Igglybuff
 	db   1,  19 ; Togepi
 	db  20,  39 ; Togetic
-	db   1,  24 ; Natu
-	db  25, 100 ; Xatu
 	db   1,  14 ; Mareep
 	db  15,  29 ; Flaaffy
 if DEF(FAITHFUL)
@@ -259,10 +257,10 @@ endc
 	db   1,  30 ; Drilbur
 	db  31, 100 ; Excadrill
 	db  20, 100 ; Audino
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  24 ; Timburr
 	db  25,  39 ; Gurdurr
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
@@ -301,4 +299,7 @@ endc
 	db  36, 100 ; Garbodor
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
+	db   1,  31 ; Gothita
+	db  32,  40 ; Gothorita
+	db  41, 100 ; Gothitelle
 	assert_table_length NUM_SPECIES

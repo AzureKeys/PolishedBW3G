@@ -120,8 +120,6 @@ PokemonNames::
 	rawchar "Igglybuff@"
 	rawchar "Togepi@@@@"
 	rawchar "Togetic@@@"
-	rawchar "Natu@@@@@@"
-	rawchar "Xatu@@@@@@"
 	rawchar "Mareep@@@@"
 	rawchar "Flaaffy@@@"
 	rawchar "Ampharos@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Drilbur@@@"
 	rawchar "Excadrill@"
 	rawchar "Audino@@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Timburr@@@"
 	rawchar "Gurdurr@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Conkeldurr"
 	rawchar "Tympole@@@"
 	rawchar "Palpitoad@"
@@ -297,4 +295,7 @@ PokemonNames::
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
+	rawchar "Gothita@@@"
+	rawchar "Gothorita@"
+	rawchar "Gothitelle"
 	assert_table_length NUM_SPECIES + 1

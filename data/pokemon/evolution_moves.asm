@@ -119,8 +119,6 @@ EvolutionMoves::
 	db NO_MOVE      ; IGGLYBUFF
 	db NO_MOVE      ; TOGEPI
 	db DISARM_VOICE ; TOGETIC
-	db NO_MOVE      ; NATU
-	db AIR_SLASH    ; XATU
 	db NO_MOVE      ; MAREEP
 	db NO_MOVE      ; FLAAFFY
 	db THUNDERPUNCH ; AMPHAROS
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EXCADRILL
 	db NO_MOVE      ; AUDINO
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; CONKELDURR
 	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
@@ -300,6 +298,9 @@ endc
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
+	db NO_MOVE      ; GOTHITA
+	db NO_MOVE      ; GOTHORITA
+	db NO_MOVE      ; GOTHITELLE
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

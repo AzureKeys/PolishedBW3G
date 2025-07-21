@@ -1196,26 +1196,6 @@ TogeticPokedexEntry::
 	next "as it tags along"
 	next "after its trainer.@"
 
-SECTION "NatuPokedexEntry", ROMX
-NatuPokedexEntry::
-	db "Little Bird@"
-	db   "It is extremely"
-	next "good at climbing"
-	next "tree trunks and"
-	page "likes to eat the"
-	next "new sprouts on"
-	next "the trees.@"
-
-SECTION "XatuPokedexEntry", ROMX
-XatuPokedexEntry::
-	db "Mystic@"
-	db   "Once it begins to"
-	next "meditate at sun-"
-	next "rise, the entire"
-	page "day will pass"
-	next "before it will"
-	next "move again.@"
-
 SECTION "MareepPokedexEntry", ROMX
 MareepPokedexEntry::
 	db "Wool@"
@@ -2927,6 +2907,36 @@ ZoroarkPlainPokedexEntry::
     next "Zoroark are"
     page "trapped in an"
     next "illusion.@"
+
+SECTION "GothitaPokedexEntry", ROMX
+GothitaPokedexEntry::
+	db "Fixation@"
+	db "The ribbon-like"
+    next "feelers focus its"
+    next "psychic powers."
+    page "Gothita is always"
+    next "staring intently"
+    next "at something.@"
+
+SECTION "GothoritaPokedexEntry", ROMX
+GothoritaPokedexEntry::
+	db "Manipulate@"
+	db "Starlight gives"
+    next "Gothorita power."
+    next "They mark the"
+    page "positions of the"
+    next "stars at night by"
+    next "floating rocks.@"
+
+SECTION "GothitellePokedexEntry", ROMX
+GothitellePokedexEntry::
+	db "Astral Body@"
+	db "Starry skies light"
+    next "years away are"
+    next "visible in the"
+    page "space distorted by"
+    next "Gothitelle's great"
+    next "psychic power.@"
 
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
