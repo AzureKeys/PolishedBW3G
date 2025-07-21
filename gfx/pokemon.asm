@@ -596,10 +596,6 @@ SECTION "Igglybuff Pics", ROMX
 IgglybuffFrontpic: INCBIN "gfx/pokemon/igglybuff/front.animated.2bpp.lz"
 IgglybuffBackpic:  INCBIN "gfx/pokemon/igglybuff/back.2bpp.lz"
 
-SECTION "Aipom Pics", ROMX
-AipomFrontpic: INCBIN "gfx/pokemon/aipom/front.animated.2bpp.lz"
-AipomBackpic:  INCBIN "gfx/pokemon/aipom/back.2bpp.lz"
-
 SECTION "Stantler Pics", ROMX
 StantlerFrontpic: INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"
 StantlerBackpic:  INCBIN "gfx/pokemon/stantler/back.2bpp.lz"
@@ -615,10 +611,6 @@ AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
 SECTION "Wynaut Pics", ROMX
 WynautFrontpic: INCBIN "gfx/pokemon/wynaut/front.animated.2bpp.lz"
 WynautBackpic:  INCBIN "gfx/pokemon/wynaut/back.2bpp.lz"
-
-SECTION "Ambipom Pics", ROMX
-AmbipomFrontpic: INCBIN "gfx/pokemon/ambipom/front.animated.2bpp.lz"
-AmbipomBackpic:  INCBIN "gfx/pokemon/ambipom/back.2bpp.lz"
 
 SECTION "Bonsly Pics", ROMX
 BonslyFrontpic: INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lz"

@@ -131,7 +131,6 @@ endc
 	db  18, 100 ; Azumarill
 	db  10, 100 ; Sudowoodo
 	db  36, 100 ; Politoed
-	db   1, 100 ; Aipom
 	db   1,  31 ; Sunkern
 	db  32, 100 ; Sunflora
 	db   1,  39 ; Yanma
@@ -190,7 +189,6 @@ endc
 	db 255, 255 ; Celebi
 	db   1,  19 ; Azurill
 	db   1,  19 ; Wynaut
-	db  35, 100 ; Ambipom
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -259,10 +257,10 @@ endc
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  20, 100 ; Sawk
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon

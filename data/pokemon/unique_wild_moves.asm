@@ -73,7 +73,7 @@ UniqueWildMoves:
 	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move
 	unique_moves LIGHTNING_ISLAND, ELECTRODE,  SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ROUTE_23,         GYARADOS,   POWER_WHIP   ; Sw/Sh TR move
-	unique_moves ROUTE_44,         AIPOM,      ROCK_BLAST   ; new move
+	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	unique_moves ROUTE_49,         PARASECT,   CONFUSE_RAY  ; Prism tutor move
 	unique_moves YELLOW_FOREST,    PIKACHU,    PLAIN_FORM,        FLY  ; Yellow special move, assumed only Pikachu can learn Fly
 	unique_moves YELLOW_FOREST,    PIKACHU,    PIKACHU_SURF_FORM, SURF ; Yellow special move, assumed only Pikachu can learn Surf

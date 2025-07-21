@@ -150,7 +150,6 @@
 	const AZUMARILL  ; 59
 	const SUDOWOODO  ; 5a
 	const POLITOED   ; 5b
-	const AIPOM      ; xx
 	const SUNKERN    ; 5c
 	const SUNFLORA   ; 5d
 	const YANMA      ; 5e
@@ -209,7 +208,6 @@
 	const CELEBI     ; xx
 	const AZURILL    ; 8d
 	const WYNAUT     ; xx
-	const AMBIPOM    ; xx
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -278,10 +276,10 @@
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SAWK       ; 120
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122

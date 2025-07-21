@@ -130,7 +130,6 @@ PokemonPicPointers::
 	pics Azumarill
 	pics Sudowoodo
 	pics Politoed
-	pics Aipom
 	pics Sunkern
 	pics Sunflora
 	pics Yanma
@@ -189,7 +188,6 @@ PokemonPicPointers::
 	pics Celebi
 	pics Azurill
 	pics Wynaut
-	pics Ambipom
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Seismitoad
 	pics Throh
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Sawk
 	pics Sewaddle
 	pics Swadloon

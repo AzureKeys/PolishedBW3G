@@ -130,7 +130,6 @@ MiniIconPointers:
 	mini_icon Azumarill
 	mini_icon Sudowoodo
 	mini_icon Politoed
-	mini_icon Aipom
 	mini_icon Sunkern
 	mini_icon Sunflora
 	mini_icon Yanma
@@ -189,7 +188,6 @@ MiniIconPointers:
 	mini_icon Celebi
 	mini_icon Azurill
 	mini_icon Wynaut
-	mini_icon Ambipom
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Conkeldurr
 	mini_icon Tympole
 	mini_icon Palpitoad
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Seismitoad
 	mini_icon Throh
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Sawk
 	mini_icon Sewaddle
 	mini_icon Swadloon

@@ -130,7 +130,6 @@ EvosAttacksPointers::
 	dw AzumarillEvosAttacks
 	dw SudowoodoEvosAttacks
 	dw PolitoedEvosAttacks
-	dw AipomEvosAttacks
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks
 	dw YanmaEvosAttacks
@@ -189,7 +188,6 @@ EvosAttacksPointers::
 	dw CelebiEvosAttacks
 	dw AzurillEvosAttacks
 	dw WynautEvosAttacks
-	dw AmbipomEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw ConkeldurrEvosAttacks
 	dw TympoleEvosAttacks
 	dw PalpitoadEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw SeismitoadEvosAttacks
 	dw ThrohEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SawkEvosAttacks
 	dw SewaddleEvosAttacks
 	dw SwadloonEvosAttacks

@@ -2932,23 +2932,6 @@ endc
 	learnset 27, SWAGGER
 	learnset 48, HYPER_VOICE
 
-	evos_attacks Aipom
-	evo_data EVOLVE_MOVE, DOUBLE_SLAP, AMBIPOM
-	learnset 1, SCRATCH
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 4, MUD_SLAP ; Sand Attack → similar move
-	learnset 8, ASTONISH
-	learnset 11, BATON_PASS
-	learnset 15, THIEF ; Tickle → TM move
-	learnset 18, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 22, SWIFT
-	learnset 25, SCREECH
-	learnset 29, AGILITY
-	learnset 32, DOUBLE_SLAP ; Double Hit → egg move
-	learnset 36, ACROBATICS ; Fling → TM move
-	learnset 39, NASTY_PLOT
-	learnset 43, DOUBLE_EDGE ; Last Resort → tutor move
-
 	evos_attacks Sunkern
 	evo_data EVOLVE_ITEM, SUN_STONE, SUNFLORA
 	learnset 1, SPLASH ; Growth → Hoppip move
@@ -4109,23 +4092,6 @@ endc
 	learnset 1, MIRROR_COAT
 	learnset 1, SAFEGUARD
 	learnset 1, DESTINY_BOND
-
-	evos_attacks Ambipom
-	learnset 1, HEADBUTT ; Dual Chop → tutor move
-	learnset 1, SCRATCH
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 4, MUD_SLAP ; Sand Attack → similar move
-	learnset 8, ASTONISH
-	learnset 11, BATON_PASS
-	learnset 15, THIEF ; Tickle → TM move
-	learnset 18, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 22, SWIFT
-	learnset 25, SCREECH
-	learnset 29, AGILITY
-	learnset 32, DOUBLE_SLAP ; Double Hit → egg move
-	learnset 36, ACROBATICS ; Fling → TM move
-	learnset 39, NASTY_PLOT
-	learnset 43, DOUBLE_EDGE ; Last Resort → tutor move
 
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM

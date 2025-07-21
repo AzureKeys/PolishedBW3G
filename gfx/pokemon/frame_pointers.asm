@@ -126,7 +126,6 @@ FramesPointers:
 	dw AzumarillFrames
 	dw SudowoodoFrames
 	dw PolitoedFrames
-	dw AipomFrames
 	dw SunkernFrames
 	dw SunfloraFrames
 	dw YanmaFrames
@@ -185,7 +184,6 @@ FramesPointers:
 	dw CelebiFrames
 	dw AzurillFrames
 	dw WynautFrames
-	dw AmbipomFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw ConkeldurrFrames
 	dw TympoleFrames
 	dw PalpitoadFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SeismitoadFrames
 	dw ThrohFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SawkFrames
 	dw SewaddleFrames
 	dw SwadloonFrames

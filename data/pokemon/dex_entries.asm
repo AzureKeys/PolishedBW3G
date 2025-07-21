@@ -1266,16 +1266,6 @@ PolitoedPokedexEntry::
 	next "Poliwhirl gather"
 	next "immediately.@"
 
-SECTION "AipomPokedexEntry", ROMX
-AipomPokedexEntry::
-	db "Long Tail@"
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
-
 SECTION "SunkernPokedexEntry", ROMX
 SunkernPokedexEntry::
 	db "Seed@"
@@ -1855,16 +1845,6 @@ WynautPokedexEntry::
 	page "against one an-"
 	next "other to toughen"
 	next "their spirits.@"
-
-SECTION "AmbipomPokedexEntry", ROMX
-AmbipomPokedexEntry::
-	db "Long Tail@"
-	db   "Split in two, the"
-	next "tails are so adept"
-	next "at handling and"
-	page "doing things."
-	next "Ambipom rarely"
-	next "uses its hands.@"
 
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::

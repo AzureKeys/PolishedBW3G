@@ -167,8 +167,6 @@ NewPokedexOrder:
 	dp MAGNEZONE
 	dp VOLTORB
 	dp ELECTRODE
-	dp AIPOM
-	dp AMBIPOM
 	dp SNUBBULL
 	dp GRANBULL
 	dp VULPIX

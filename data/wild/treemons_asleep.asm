@@ -9,7 +9,6 @@ AsleepTreeMons:
 	assert_table_length NUM_DAYTIMES
 .Nite
 .Eve
-	dp EKANS
 	dp EXEGGCUTE
 	db 0 ; end
 

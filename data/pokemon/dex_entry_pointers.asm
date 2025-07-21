@@ -127,7 +127,6 @@ PokedexDataPointerTable:
 	dba AzumarillPokedexEntry
 	dba SudowoodoPokedexEntry
 	dba PolitoedPokedexEntry
-	dba AipomPokedexEntry
 	dba SunkernPokedexEntry
 	dba SunfloraPokedexEntry
 	dba YanmaPokedexEntry
@@ -186,7 +185,6 @@ PokedexDataPointerTable:
 	dba CelebiPokedexEntry
 	dba AzurillPokedexEntry
 	dba WynautPokedexEntry
-	dba AmbipomPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba SawkPokedexEntry
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry

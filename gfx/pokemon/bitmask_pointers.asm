@@ -126,7 +126,6 @@ BitmasksPointers:
 	dw AzumarillBitmasks
 	dw SudowoodoBitmasks
 	dw PolitoedBitmasks
-	dw AipomBitmasks
 	dw SunkernBitmasks
 	dw SunfloraBitmasks
 	dw YanmaBitmasks
@@ -185,7 +184,6 @@ BitmasksPointers:
 	dw CelebiBitmasks
 	dw AzurillBitmasks
 	dw WynautBitmasks
-	dw AmbipomBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw ConkeldurrBitmasks
 	dw TympoleBitmasks
 	dw PalpitoadBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw SeismitoadBitmasks
 	dw ThrohBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw SawkBitmasks
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks

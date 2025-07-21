@@ -2,8 +2,6 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
-	dp AIPOM
-	dp AMBIPOM
 	dp AMPHAROS
 	dp ANNIHILAPE
 	dp ARBOK

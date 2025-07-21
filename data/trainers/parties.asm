@@ -4010,7 +4010,7 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer RICKY, "Ricky"
-	tr_mon 44, AIPOM
+	tr_mon 44, RATTATA
 	tr_mon 46, DITTO
 	end_trainer
 
@@ -5633,7 +5633,7 @@ TeacherFGroup:
 	end_trainer
 
 	def_trainer HILLARY, "Hillary"
-	tr_mon 58, AIPOM
+	tr_mon 58, RATTATA
 	tr_mon 56, SUNFLORA
 	tr_mon 59, MAROWAK
 	end_trainer
@@ -6841,7 +6841,7 @@ ProfElmGroup:
 	end_trainer
 
 	def_trainer 2, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 3, AIPOM
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 5, QUILAVA
 	tr_mon LEVEL_FROM_BADGES + 5, BAYLEEF
@@ -6849,7 +6849,7 @@ ProfElmGroup:
 	end_trainer
 
 	def_trainer 3, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 4, AMBIPOM
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 6, TYPHLOSION
 	tr_mon LEVEL_FROM_BADGES + 6, MEGANIUM
@@ -6857,7 +6857,7 @@ ProfElmGroup:
 	end_trainer
 
 	def_trainer 4, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 7, AMBIPOM
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS
 	tr_mon LEVEL_FROM_BADGES + 9, TYPHLOSION

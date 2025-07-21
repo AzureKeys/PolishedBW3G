@@ -126,7 +126,6 @@ EggSpeciesMovesPointers::
 	dw AzurillEggSpeciesMoves           ; Azumarill
 	dw BonslyEggSpeciesMoves            ; Sudowoodo
 	dw PoliwagEggSpeciesMoves           ; Politoed
-	dw AipomEggSpeciesMoves             ; Aipom
 	dw SunkernEggSpeciesMoves           ; Sunkern
 	dw SunkernEggSpeciesMoves           ; Sunflora
 	dw YanmaEggSpeciesMoves             ; Yanma
@@ -185,7 +184,6 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Celebi
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw WynautEggSpeciesMoves            ; Wynaut
-	dw AipomEggSpeciesMoves             ; Ambipom
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SawkEggSpeciesMoves              ; Sawk
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon

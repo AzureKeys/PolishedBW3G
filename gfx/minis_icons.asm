@@ -637,11 +637,6 @@ PolitoedMini::     INCBIN "gfx/minis/politoed.2bpp.lz"
 PolitoedMiniMask:: INCBIN "gfx/minis/politoed_mask.1bpp.lz"
 PolitoedIcon::     INCBIN "gfx/icons/politoed.2bpp.lz"
 
-SECTION "Aipom Mini Icon", ROMX
-AipomMini::     INCBIN "gfx/minis/aipom.2bpp.lz"
-AipomMiniMask:: INCBIN "gfx/minis/aipom_mask.1bpp.lz"
-AipomIcon::     INCBIN "gfx/icons/aipom.2bpp.lz"
-
 SECTION "Sunkern Mini Icon", ROMX
 SunkernMini::     INCBIN "gfx/minis/sunkern.2bpp.lz"
 SunkernMiniMask:: INCBIN "gfx/minis/sunkern_mask.1bpp.lz"
@@ -931,11 +926,6 @@ SECTION "Wynaut Mini Icon", ROMX
 WynautMini::     INCBIN "gfx/minis/wynaut.2bpp.lz"
 WynautMiniMask:: INCBIN "gfx/minis/wynaut_mask.1bpp.lz"
 WynautIcon::     INCBIN "gfx/icons/wynaut.2bpp.lz"
-
-SECTION "Ambipom Mini Icon", ROMX
-AmbipomMini::     INCBIN "gfx/minis/ambipom.2bpp.lz"
-AmbipomMiniMask:: INCBIN "gfx/minis/ambipom_mask.1bpp.lz"
-AmbipomIcon::     INCBIN "gfx/icons/ambipom.2bpp.lz"
 
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"

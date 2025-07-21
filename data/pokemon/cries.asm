@@ -132,7 +132,6 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $0b6,  $180 ; Azumarill
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Sudowoodo
 	mon_cry CRY_BELLOSSOM,  -$2a3,  $1c8 ; Politoed
-	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Aipom
 	mon_cry CRY_MARILL,      $12b,  $0b8 ; Sunkern
 	mon_cry CRY_REMORAID,   -$020,  $180 ; Sunflora
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanma
@@ -191,7 +190,6 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
 	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
 	mon_cry CRY_AMPHAROS,    $27b,  $144 ; Wynaut
-	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Ambipom
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Mismagius
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Bonsly
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
 	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
 	mon_cry CRY_PIDGEY,      $077,  $0e0 ; PALPITOAD*
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon

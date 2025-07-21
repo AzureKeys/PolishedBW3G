@@ -133,7 +133,6 @@ PokemonBodyData:
 	body_data   8,  285, BIPEDAL_TAIL, BLUE   ; AZUMARILL
 	body_data  12,  380, BIPEDAL,      BROWN  ; SUDOWOODO
 	body_data  11,  339, BIPEDAL,      GREEN  ; POLITOED
-	body_data   8,  115, BIPEDAL_TAIL, PURPLE ; AIPOM
 	body_data   3,   18, HEAD,         YELLOW ; SUNKERN
 	body_data   8,   85, BIPEDAL,      YELLOW ; SUNFLORA
 	body_data  12,  380, MULTIWINGS,   RED    ; YANMA
@@ -192,7 +191,6 @@ PokemonBodyData:
 	body_data   6,   50, BIPEDAL,      GREEN  ; CELEBI
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
 	body_data   6,  140, BIPEDAL_TAIL, BLUE   ; WYNAUT
-	body_data  12,  203, BIPEDAL_TAIL, PURPLE ; AMBIPOM
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	body_data  13,  555, BIPEDAL,      RED    ; THROH
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON

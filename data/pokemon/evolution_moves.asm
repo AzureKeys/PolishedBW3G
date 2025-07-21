@@ -126,7 +126,6 @@ EvolutionMoves::
 	db NO_MOVE      ; AZUMARILL
 	db STONE_EDGE   ; SUDOWOODO
 	db GIGA_DRAIN   ; POLITOED
-	db NO_MOVE      ; AIPOM
 	db NO_MOVE      ; SUNKERN
 if DEF(FAITHFUL)
 	db NO_MOVE      ; SUNFLORA
@@ -189,7 +188,6 @@ endc
 	db NO_MOVE      ; CELEBI
 	db NO_MOVE      ; AZURILL
 	db NO_MOVE      ; WYNAUT
-	db NO_MOVE      ; AMBIPOM
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; CONKELDURR
 	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SAWK
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
