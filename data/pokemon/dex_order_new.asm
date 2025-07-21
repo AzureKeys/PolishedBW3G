@@ -125,9 +125,6 @@ NewPokedexOrder:
 	dp WOBBUFFET
 	dp ONIX
 	dp STEELIX
-	dp HOPPIP
-	dp SKIPLOOM
-	dp JUMPLUFF
 	dp PARAS
 	dp PARASECT
 	dp POLIWAG

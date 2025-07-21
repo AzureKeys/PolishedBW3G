@@ -1266,36 +1266,6 @@ PolitoedPokedexEntry::
 	next "Poliwhirl gather"
 	next "immediately.@"
 
-SECTION "HoppipPokedexEntry", ROMX
-HoppipPokedexEntry::
-	db "Cottonweed@"
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
-
-SECTION "SkiploomPokedexEntry", ROMX
-SkiploomPokedexEntry::
-	db "Cottonweed@"
-	db   "As soon as it"
-	next "rains, it closes"
-	next "its flower and"
-	page "hides in the shade"
-	next "of a tree to avoid"
-	next "getting wet.@"
-
-SECTION "JumpluffPokedexEntry", ROMX
-JumpluffPokedexEntry::
-	db "Cottonweed@"
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
-
 SECTION "AipomPokedexEntry", ROMX
 AipomPokedexEntry::
 	db "Long Tail@"

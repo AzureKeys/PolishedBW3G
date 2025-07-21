@@ -130,9 +130,6 @@ PokemonPicPointers::
 	pics Azumarill
 	pics Sudowoodo
 	pics Politoed
-	pics Hoppip
-	pics Skiploom
-	pics Jumpluff
 	pics Aipom
 	pics Sunkern
 	pics Sunflora
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Audino
 	pics Timburr
 	pics Gurdurr
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Seismitoad
 	pics Throh
 	pics Sawk

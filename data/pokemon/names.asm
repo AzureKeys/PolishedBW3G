@@ -127,9 +127,6 @@ PokemonNames::
 	rawchar "Azumarill@"
 	rawchar "Sudowoodo@"
 	rawchar "Politoed@@"
-	rawchar "Hoppip@@@@"
-	rawchar "Skiploom@@"
-	rawchar "Jumpluff@@"
 	rawchar "Aipom@@@@@"
 	rawchar "Sunkern@@@"
 	rawchar "Sunflora@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Audino@@@@"
 	rawchar "Timburr@@@"
 	rawchar "Gurdurr@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Conkeldurr"
 	rawchar "Tympole@@@"
 	rawchar "Palpitoad@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Seismitoad"
 	rawchar "Throh@@@@@"
 	rawchar "Sawk@@@@@@"

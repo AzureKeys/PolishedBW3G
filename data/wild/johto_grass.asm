@@ -1352,16 +1352,16 @@
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	wildmon 2, RATTATA
-	wildmon 3, HOPPIP
-	wildmon 3, HOPPIP
+	wildmon 3, RATTATA
+	wildmon 3, RATTATA
 	; day
 	wildmon 2, RATTATA
 	wildmon 2, RATTATA
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	wildmon 2, RATTATA
-	wildmon 3, HOPPIP
-	wildmon 3, HOPPIP
+	wildmon 3, RATTATA
+	wildmon 3, RATTATA
 	; nite
 	wildmon 2, RATTATA
 	wildmon 2, RATTATA
@@ -1380,16 +1380,16 @@
 	wildmon 4, RATTATA
 	wildmon 4, RATTATA
 	wildmon 3, RATTATA
-	wildmon 4, HOPPIP
-	wildmon 4, HOPPIP
+	wildmon 4, RATTATA
+	wildmon 4, RATTATA
 	; day
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA
 	wildmon 4, RATTATA
 	wildmon 3, RATTATA
-	wildmon 4, HOPPIP
-	wildmon 4, HOPPIP
+	wildmon 4, RATTATA
+	wildmon 4, RATTATA
 	; nite
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
@@ -1408,16 +1408,16 @@
 	wildmon 5, RATTATA
 	wildmon 5, RATTATA
 	wildmon 4, RATTATA
-	wildmon 5, HOPPIP
-	wildmon 5, HOPPIP
+	wildmon 5, RATTATA
+	wildmon 5, RATTATA
 	; day
 	wildmon 4, RATTATA
 	wildmon 4, RATTATA
 	wildmon 5, RATTATA
 	wildmon 5, RATTATA
 	wildmon 4, RATTATA
-	wildmon 5, HOPPIP
-	wildmon 5, HOPPIP
+	wildmon 5, RATTATA
+	wildmon 5, RATTATA
 	; nite
 	wildmon 4, RATTATA
 	wildmon 4, POLIWAG
@@ -1436,16 +1436,16 @@
 	wildmon 8, RATTATA
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
-	wildmon 7, HOPPIP
-	wildmon 8, HOPPIP
+	wildmon 7, RATTATA
+	wildmon 8, RATTATA
 	; day
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
 	wildmon 6, RATTATA
 	wildmon 8, RATTATA
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
-	wildmon 7, HOPPIP
-	wildmon 8, HOPPIP
+	wildmon 7, RATTATA
+	wildmon 8, RATTATA
 	; nite
 	wildmon 5, WOOPER
 	wildmon 6, RATTATA
@@ -1462,7 +1462,7 @@
 	wildmon 9, RATTATA
 	wildmon 9, RATTATA
 	wildmon 9, GEODUDE
-	wildmon 10, HOPPIP
+	wildmon 10, RATTATA
 	wildmon 10, EKANS, ARBOK_JOHTO_FORM
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
@@ -1470,7 +1470,7 @@
 	wildmon 9, RATTATA
 	wildmon 9, RATTATA
 	wildmon 9, GEODUDE
-	wildmon 10, HOPPIP
+	wildmon 10, RATTATA
 	wildmon 10, EKANS, ARBOK_JOHTO_FORM
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
@@ -1968,16 +1968,16 @@
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
 	wildmon LEVEL_FROM_BADGES + 0, FLAAFFY
-	wildmon LEVEL_FROM_BADGES + 1, SKIPLOOM
-	wildmon LEVEL_FROM_BADGES + 3, SKIPLOOM
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
+	wildmon LEVEL_FROM_BADGES + 3, RATTATA
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
 	wildmon LEVEL_FROM_BADGES + 0, FLAAFFY
-	wildmon LEVEL_FROM_BADGES + 1, SKIPLOOM
-	wildmon LEVEL_FROM_BADGES + 3, SKIPLOOM
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
+	wildmon LEVEL_FROM_BADGES + 3, RATTATA
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, WOOPER
 	wildmon LEVEL_FROM_BADGES - 4, RATICATE

@@ -647,7 +647,7 @@
 	def_grass_wildmons ROUTE_11
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 53, SKIPLOOM
+	wildmon 53, RATTATA
 	wildmon 48, RATICATE
 	wildmon 50, MAGNETON
 	wildmon 51, RATTATA
@@ -655,7 +655,7 @@
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
 	; day
-	wildmon 53, SKIPLOOM
+	wildmon 53, RATTATA
 	wildmon 48, RATICATE
 	wildmon 50, MAGNETON
 	wildmon 51, RATTATA

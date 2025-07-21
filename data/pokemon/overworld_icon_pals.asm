@@ -130,9 +130,6 @@ OverworldMonIconColors::
 	iconpal BLUE, BROWN ; AZUMARILL
 	iconpal GREEN, RED ; SUDOWOODO
 	iconpal GREEN, TEAL ; POLITOED
-	iconpal RED, GREEN ; HOPPIP
-	iconpal GREEN, PURPLE ; SKIPLOOM
-	iconpal BLUE, PINK ; JUMPLUFF
 	iconpal PURPLE, RED ; AIPOM
 	iconpal GREEN, BROWN ; SUNKERN
 	iconpal GREEN, BROWN ; SUNFLORA
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; AUDINO
 	iconpal GRAY, BROWN ; TIMBURR
 	iconpal GRAY, BROWN ; GURDURR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, ORANGE ; CONKELDURR
 	iconpal BLUE, YELLOW ; TYMPOLE
 	iconpal BLUE, TEAL ; PALPITOAD
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH
 	iconpal BLUE, PURPLE ; SAWK

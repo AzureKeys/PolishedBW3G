@@ -596,18 +596,6 @@ SECTION "Igglybuff Pics", ROMX
 IgglybuffFrontpic: INCBIN "gfx/pokemon/igglybuff/front.animated.2bpp.lz"
 IgglybuffBackpic:  INCBIN "gfx/pokemon/igglybuff/back.2bpp.lz"
 
-SECTION "Hoppip Pics", ROMX
-HoppipFrontpic: INCBIN "gfx/pokemon/hoppip/front.animated.2bpp.lz"
-HoppipBackpic:  INCBIN "gfx/pokemon/hoppip/back.2bpp.lz"
-
-SECTION "Skiploom Pics", ROMX
-SkiploomFrontpic: INCBIN "gfx/pokemon/skiploom/front.animated.2bpp.lz"
-SkiploomBackpic:  INCBIN "gfx/pokemon/skiploom/back.2bpp.lz"
-
-SECTION "Jumpluff Pics", ROMX
-JumpluffFrontpic: INCBIN "gfx/pokemon/jumpluff/front.animated.2bpp.lz"
-JumpluffBackpic:  INCBIN "gfx/pokemon/jumpluff/back.2bpp.lz"
-
 SECTION "Aipom Pics", ROMX
 AipomFrontpic: INCBIN "gfx/pokemon/aipom/front.animated.2bpp.lz"
 AipomBackpic:  INCBIN "gfx/pokemon/aipom/back.2bpp.lz"

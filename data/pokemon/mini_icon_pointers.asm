@@ -130,9 +130,6 @@ MiniIconPointers:
 	mini_icon Azumarill
 	mini_icon Sudowoodo
 	mini_icon Politoed
-	mini_icon Hoppip
-	mini_icon Skiploom
-	mini_icon Jumpluff
 	mini_icon Aipom
 	mini_icon Sunkern
 	mini_icon Sunflora
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Audino
 	mini_icon Timburr
 	mini_icon Gurdurr
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Conkeldurr
 	mini_icon Tympole
 	mini_icon Palpitoad
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Seismitoad
 	mini_icon Throh
 	mini_icon Sawk

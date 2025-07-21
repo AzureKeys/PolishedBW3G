@@ -126,9 +126,6 @@ FramesPointers:
 	dw AzumarillFrames
 	dw SudowoodoFrames
 	dw PolitoedFrames
-	dw HoppipFrames
-	dw SkiploomFrames
-	dw JumpluffFrames
 	dw AipomFrames
 	dw SunkernFrames
 	dw SunfloraFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw AudinoFrames
 	dw TimburrFrames
 	dw GurdurrFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ConkeldurrFrames
 	dw TympoleFrames
 	dw PalpitoadFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SeismitoadFrames
 	dw ThrohFrames
 	dw SawkFrames

@@ -126,9 +126,6 @@ FootprintPointers::
 	dw AzumarillFootprint
 	dw SudowoodoFootprint
 	dw PolitoedFootprint
-	dw HoppipFootprint
-	dw SkiploomFootprint
-	dw JumpluffFootprint
 	dw AipomFootprint
 	dw SunkernFootprint
 	dw SunfloraFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw AudinoFootprint
 	dw TimburrFootprint
 	dw GurdurrFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ConkeldurrFootprint
 	dw TympoleFootprint
 	dw PalpitoadFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SeismitoadFootprint
 	dw ThrohFootprint
 	dw SawkFootprint

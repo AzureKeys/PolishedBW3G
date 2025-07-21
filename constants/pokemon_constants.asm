@@ -150,9 +150,6 @@
 	const AZUMARILL  ; 59
 	const SUDOWOODO  ; 5a
 	const POLITOED   ; 5b
-	const HOPPIP     ; xx
-	const SKIPLOOM   ; xx
-	const JUMPLUFF   ; xx
 	const AIPOM      ; xx
 	const SUNKERN    ; 5c
 	const SUNFLORA   ; 5d
@@ -278,11 +275,11 @@
 	const AUDINO     ; 118
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
 	const SAWK       ; 120

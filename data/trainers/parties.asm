@@ -1955,25 +1955,25 @@ PicnickerGroup:
 
 	def_trainer GINA1, "Gina"
 	tr_mon 9, UNFEZANT
-	tr_mon 9, HOPPIP
+	tr_mon 9, RATTATA
 	tr_mon 12, BULBASAUR
 	end_trainer
 
 	def_trainer GINA2, "Gina"
 	tr_mon 14, SUNKERN
-	tr_mon 14, HOPPIP
+	tr_mon 14, RATTATA
 	tr_mon 17, IVYSAUR
 	end_trainer
 
 	def_trainer GINA3, "Gina"
 	tr_mon 26, SUNFLORA
-	tr_mon 27, SKIPLOOM
+	tr_mon 27, RATTATA
 	tr_mon 29, IVYSAUR
 	end_trainer
 
 	def_trainer GINA4, "Gina"
 	tr_mon 30, SUNFLORA
-	tr_mon 31, JUMPLUFF
+	tr_mon 31, RATTATA
 	tr_mon 32, IVYSAUR
 	end_trainer
 
@@ -1984,7 +1984,7 @@ if DEF(FAITHFUL)
 else
 		tr_moves LEECH_SEED, GIGA_DRAIN, SUNNY_DAY, FLAMETHROWER
 endc
-	tr_mon 34, JUMPLUFF
+	tr_mon 34, RATTATA
 		tr_moves ACROBATICS, SLEEP_POWDER, STUN_SPORE, MEGA_DRAIN
 	tr_mon 38, VENUSAUR
 		tr_moves SOLAR_BEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
@@ -2051,8 +2051,8 @@ endc
 	end_trainer
 
 	def_trainer HEIDI, "Heidi"
-	tr_mon 53, JUMPLUFF
-	tr_mon 53, JUMPLUFF
+	tr_mon 53, RATTATA
+	tr_mon 53, RATTATA
 	end_trainer
 
 	def_trainer EDNA, "Edna"
@@ -3481,7 +3481,7 @@ endc
 	def_trainer MICHELLE, "Michelle"
 	tr_mon 56, LEAFEON
 	tr_mon 57, TANGELA
-	tr_mon 58, JUMPLUFF
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer ELLEN, "Ellen"
@@ -3504,7 +3504,7 @@ endc
 	end_trainer
 
 	def_trainer ABIGAIL, "Abigail"
-	tr_mon LEVEL_FROM_BADGES + 3, SKIPLOOM
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, FLAAFFY
 	tr_mon LEVEL_FROM_BADGES + 5, GOLDUCK
 	end_trainer
@@ -3594,7 +3594,7 @@ BeautyGroup:
 
 	def_trainer VALENCIA, "Valencia"
 	tr_mon 18, SUNKERN
-	tr_mon 18, SKIPLOOM
+	tr_mon 18, RATTATA
 	tr_mon 18, SUNFLORA
 	end_trainer
 
@@ -6298,7 +6298,7 @@ endc
 	end_trainer
 
 	def_trainer LOIS, "Lois"
-	tr_mon 29, JUMPLUFF
+	tr_mon 29, RATTATA
 	tr_mon 29, NINETALES
 	end_trainer
 

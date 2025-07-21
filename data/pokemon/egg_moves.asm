@@ -599,12 +599,6 @@ MareepEggSpeciesMoves:
 	db SAFEGUARD
 	db $ff
 
-HoppipEggSpeciesMoves:
-	dp HOPPIP, PLAIN_FORM
-	db ENCORE
-	db SEED_BOMB
-	db $ff
-
 AipomEggSpeciesMoves:
 	dp AIPOM, PLAIN_FORM
 	db COUNTER

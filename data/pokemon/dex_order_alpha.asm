@@ -102,7 +102,6 @@ AlphabeticalPokedexOrder:
 	dp HERDIER
 	dp HO_OH
 	dp HONCHKROW
-	dp HOPPIP
 	dp HORSEA
 	dp HOUNDOOM
 	dp HOUNDOUR
@@ -110,7 +109,6 @@ AlphabeticalPokedexOrder:
 	dp IVYSAUR
 	dp JIGGLYPUFF
 	dp JOLTEON
-	dp JUMPLUFF
 	dp KANGASKHAN
 	dp KINGDRA
 	dp KLEAVOR
@@ -225,7 +223,6 @@ AlphabeticalPokedexOrder:
 	dp SIGILYPH
 	dp SIRFETCH_D
 	dp SKARMORY
-	dp SKIPLOOM
 	dp SLOWBRO
 	dp SLOWKING
 	dp SLOWPOKE

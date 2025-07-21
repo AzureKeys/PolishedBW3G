@@ -131,9 +131,6 @@ endc
 	db  18, 100 ; Azumarill
 	db  10, 100 ; Sudowoodo
 	db  36, 100 ; Politoed
-	db   1,  17 ; Hoppip
-	db  18,  26 ; Skiploom
-	db  27, 100 ; Jumpluff
 	db   1, 100 ; Aipom
 	db   1,  31 ; Sunkern
 	db  32, 100 ; Sunflora
@@ -259,11 +256,11 @@ endc
 	db  20, 100 ; Audino
 	db   1,  24 ; Timburr
 	db  25,  39 ; Gurdurr
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
 	db  20, 100 ; Sawk

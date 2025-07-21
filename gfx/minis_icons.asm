@@ -637,21 +637,6 @@ PolitoedMini::     INCBIN "gfx/minis/politoed.2bpp.lz"
 PolitoedMiniMask:: INCBIN "gfx/minis/politoed_mask.1bpp.lz"
 PolitoedIcon::     INCBIN "gfx/icons/politoed.2bpp.lz"
 
-SECTION "Hoppip Mini Icon", ROMX
-HoppipMini::     INCBIN "gfx/minis/hoppip.2bpp.lz"
-HoppipMiniMask:: INCBIN "gfx/minis/hoppip_mask.1bpp.lz"
-HoppipIcon::     INCBIN "gfx/icons/hoppip.2bpp.lz"
-
-SECTION "Skiploom Mini Icon", ROMX
-SkiploomMini::     INCBIN "gfx/minis/skiploom.2bpp.lz"
-SkiploomMiniMask:: INCBIN "gfx/minis/skiploom_mask.1bpp.lz"
-SkiploomIcon::     INCBIN "gfx/icons/skiploom.2bpp.lz"
-
-SECTION "Jumpluff Mini Icon", ROMX
-JumpluffMini::     INCBIN "gfx/minis/jumpluff.2bpp.lz"
-JumpluffMiniMask:: INCBIN "gfx/minis/jumpluff_mask.1bpp.lz"
-JumpluffIcon::     INCBIN "gfx/icons/jumpluff.2bpp.lz"
-
 SECTION "Aipom Mini Icon", ROMX
 AipomMini::     INCBIN "gfx/minis/aipom.2bpp.lz"
 AipomMiniMask:: INCBIN "gfx/minis/aipom_mask.1bpp.lz"

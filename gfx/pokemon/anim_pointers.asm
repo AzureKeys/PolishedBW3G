@@ -126,9 +126,6 @@ AnimationPointers:
 	dw AzumarillAnimation
 	dw SudowoodoAnimation
 	dw PolitoedAnimation
-	dw HoppipAnimation
-	dw SkiploomAnimation
-	dw JumpluffAnimation
 	dw AipomAnimation
 	dw SunkernAnimation
 	dw SunfloraAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw AudinoAnimation
 	dw TimburrAnimation
 	dw GurdurrAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ConkeldurrAnimation
 	dw TympoleAnimation
 	dw PalpitoadAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw SeismitoadAnimation
 	dw ThrohAnimation
 	dw SawkAnimation
