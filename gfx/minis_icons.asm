@@ -807,16 +807,6 @@ KingdraMini::     INCBIN "gfx/minis/kingdra.2bpp.lz"
 KingdraMiniMask:: INCBIN "gfx/minis/kingdra_mask.1bpp.lz"
 KingdraIcon::     INCBIN "gfx/icons/kingdra.2bpp.lz"
 
-SECTION "Phanpy Mini Icon", ROMX
-PhanpyMini::     INCBIN "gfx/minis/phanpy.2bpp.lz"
-PhanpyMiniMask:: INCBIN "gfx/minis/phanpy_mask.1bpp.lz"
-PhanpyIcon::     INCBIN "gfx/icons/phanpy.2bpp.lz"
-
-SECTION "Donphan Mini Icon", ROMX
-DonphanMini::     INCBIN "gfx/minis/donphan.2bpp.lz"
-DonphanMiniMask:: INCBIN "gfx/minis/donphan_mask.1bpp.lz"
-DonphanIcon::     INCBIN "gfx/icons/donphan.2bpp.lz"
-
 SECTION "Stantler Mini Icon", ROMX
 StantlerMini::     INCBIN "gfx/minis/stantler.2bpp.lz"
 StantlerMiniMask:: INCBIN "gfx/minis/stantler_mask.1bpp.lz"

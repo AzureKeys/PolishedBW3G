@@ -160,8 +160,6 @@ BitmasksPointers:
 	dw HoundourBitmasks
 	dw HoundoomBitmasks
 	dw KingdraBitmasks
-	dw PhanpyBitmasks
-	dw DonphanBitmasks
 	dw StantlerBitmasks
 	dw SmeargleBitmasks
 	dw ElekidBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw WhirlipedeBitmasks
 	dw ScolipedeBitmasks
 	dw CottoneeBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw WhimsicottBitmasks
 	dw PetililBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw LilligantPlainBitmasks
 	dw BasculinRedBitmasks ; BasculinWhiteBitmasks
 	dw SandileBitmasks

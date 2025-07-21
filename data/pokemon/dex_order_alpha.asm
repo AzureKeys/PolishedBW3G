@@ -47,7 +47,6 @@ AlphabeticalPokedexOrder:
 	dp DEWOTT
 	dp DIGLETT
 	dp DITTO
-	dp DONPHAN
 	dp DRAGONAIR
 	dp DRAGONITE
 	dp DRATINI
@@ -172,7 +171,6 @@ AlphabeticalPokedexOrder:
 	dp PERRSERKER
 	dp PERSIAN
 	dp PETILIL
-	dp PHANPY
 	dp PICHU
 	dp PIDOVE
 	dp PIGNITE

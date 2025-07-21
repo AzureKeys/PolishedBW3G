@@ -165,8 +165,6 @@ endc
 	db   1,  23 ; Houndour
 	db  24, 100 ; Houndoom
 	db  55, 100 ; Kingdra
-	db   1,  24 ; Phanpy
-	db  25, 100 ; Donphan
 	db   1,  29 ; Stantler
 	db   1, 100 ; Smeargle
 	db   1,  19 ; Elekid
@@ -259,10 +257,10 @@ endc
 	db  22,  29 ; Whirlipede
 	db  30, 100 ; Scolipede
 	db   1,  29 ; Cottonee
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  30, 100 ; Whimsicott
 	db   1,  29 ; Petilil
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  30, 100 ; Lilligant
 	db  15, 100 ; Basculin
 	db   1,  28 ; Sandile

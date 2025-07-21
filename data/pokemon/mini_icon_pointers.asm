@@ -164,8 +164,6 @@ MiniIconPointers:
 	mini_icon Houndour
 	mini_icon Houndoom
 	mini_icon Kingdra
-	mini_icon Phanpy
-	mini_icon Donphan
 	mini_icon Stantler
 	mini_icon Smeargle
 	mini_icon Elekid
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Whirlipede
 	mini_icon Scolipede
 	mini_icon Cottonee
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Whimsicott
 	mini_icon Petilil
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Lilligant
 	mini_icon Basculin
 	mini_icon Sandile

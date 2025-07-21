@@ -504,14 +504,6 @@ SECTION "Kingdra Pics", ROMX
 KingdraFrontpic: INCBIN "gfx/pokemon/kingdra/front.animated.2bpp.lz"
 KingdraBackpic:  INCBIN "gfx/pokemon/kingdra/back.2bpp.lz"
 
-SECTION "Phanpy Pics", ROMX
-PhanpyFrontpic: INCBIN "gfx/pokemon/phanpy/front.animated.2bpp.lz"
-PhanpyBackpic:  INCBIN "gfx/pokemon/phanpy/back.2bpp.lz"
-
-SECTION "Donphan Pics", ROMX
-DonphanFrontpic: INCBIN "gfx/pokemon/donphan/front.animated.2bpp.lz"
-DonphanBackpic:  INCBIN "gfx/pokemon/donphan/back.2bpp.lz"
-
 SECTION "Smeargle Pics", ROMX
 SmeargleFrontpic: INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
 SmeargleBackpic:  INCBIN "gfx/pokemon/smeargle/back.2bpp.lz"

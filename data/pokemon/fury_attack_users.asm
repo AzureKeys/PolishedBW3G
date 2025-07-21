@@ -9,7 +9,6 @@ FuryAttackUsers:
 	dp HERACROSS
 	dp PILOSWINE
 	dp SKARMORY
-	dp DONPHAN
 	dp MAMOSWINE
 	dp DUDUNSPARCE
 	dw 0

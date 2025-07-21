@@ -161,8 +161,6 @@ PokemonNames::
 	rawchar "Houndour@@"
 	rawchar "Houndoom@@"
 	rawchar "Kingdra@@@"
-	rawchar "Phanpy@@@@"
-	rawchar "Donphan@@@"
 	rawchar "Stantler@@"
 	rawchar "Smeargle@@"
 	rawchar "Elekid@@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Whirlipede"
 	rawchar "Scolipede@"
 	rawchar "Cottonee@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Lilligant@"
 	rawchar "Basculin@@"
 	rawchar "Sandile@@@"

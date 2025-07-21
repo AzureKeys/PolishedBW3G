@@ -160,8 +160,6 @@ AnimationPointers:
 	dw HoundourAnimation
 	dw HoundoomAnimation
 	dw KingdraAnimation
-	dw PhanpyAnimation
-	dw DonphanAnimation
 	dw StantlerAnimation
 	dw SmeargleAnimation
 	dw ElekidAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw WhirlipedeAnimation
 	dw ScolipedeAnimation
 	dw CottoneeAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw WhimsicottAnimation
 	dw PetililAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw LilligantPlainAnimation
 	dw BasculinRedAnimation ; BasculinWhiteAnimation
 	dw SandileAnimation

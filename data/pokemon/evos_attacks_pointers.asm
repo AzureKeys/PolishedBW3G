@@ -164,8 +164,6 @@ EvosAttacksPointers::
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks
 	dw KingdraEvosAttacks
-	dw PhanpyEvosAttacks
-	dw DonphanEvosAttacks
 	dw StantlerEvosAttacks
 	dw SmeargleEvosAttacks
 	dw ElekidEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw WhirlipedeEvosAttacks
 	dw ScolipedeEvosAttacks
 	dw CottoneeEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw LilligantPlainEvosAttacks
 	dw BasculinEvosAttacks
 	dw SandileEvosAttacks

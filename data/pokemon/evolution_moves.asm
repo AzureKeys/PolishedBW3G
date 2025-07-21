@@ -164,8 +164,6 @@ endc
 	db NO_MOVE      ; HOUNDOUR
 	db NO_MOVE      ; HOUNDOOM
 	db DRAGONBREATH ; KINGDRA
-	db NO_MOVE      ; PHANPY
-	db FURY_STRIKES ; DONPHAN
 	db NO_MOVE      ; STANTLER
 	db NO_MOVE      ; SMEARGLE
 	db NO_MOVE      ; ELEKID
@@ -258,10 +256,10 @@ endc
 	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; WHIMSICOTT
 	db NO_MOVE      ; PETILIL
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
 	db NO_MOVE      ; SANDILE

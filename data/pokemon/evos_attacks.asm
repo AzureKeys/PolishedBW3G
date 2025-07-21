@@ -3678,39 +3678,6 @@ endc
 	learnset 52, DRAGON_DANCE
 	learnset 60, HYDRO_PUMP
 
-	evos_attacks Phanpy
-	evo_data EVOLVE_LEVEL, 25, DONPHAN
-	learnset 1, FORESIGHT ; Odor Sleuth → similar move
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 1, DEFENSE_CURL
-	learnset 6, REVERSAL ; Flail → similar move
-	learnset 10, ROLLOUT
-	learnset 15, MAGNITUDE ; Natural Gift → Donphan move
-	learnset 19, ENDURE
-	learnset 24, TAKE_DOWN ; Slam → Take Down
-	learnset 28, BODY_SLAM ; Take Down → TM move
-	learnset 33, CHARM
-	learnset 37, PLAY_ROUGH ; Last Resort → egg move
-	learnset 42, DOUBLE_EDGE
-
-	evos_attacks Donphan
-	learnset 1, FURY_STRIKES ; evolution move
-	learnset 1, GUNK_SHOT ; HGSS tutor move
-	learnset 1, HORN_ATTACK
-	learnset 1, GROWL
-	learnset 1, DEFENSE_CURL
-	learnset 1, BULLDOZE
-	learnset 6, RAPID_SPIN
-	learnset 10, ROLLOUT
-	learnset 15, MAGNITUDE ; Assurance → Magnitude
-	learnset 19, KNOCK_OFF
-	learnset 24, ANCIENTPOWER ; Slam → HGSS tutor move
-	learnset 30, IRON_TAIL ; Magnitude → TM move
-	learnset 37, SCARY_FACE
-	learnset 43, EARTHQUAKE
-	learnset 50, GIGA_IMPACT
-
 	evos_attacks Stantler
 	evo_data EVOLVE_LOCATION, RUGGED_ROAD, WYRDEER
 	evo_data EVOLVE_LOCATION, SNOWTOP_MOUNTAIN, WYRDEER

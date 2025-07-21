@@ -1741,16 +1741,16 @@
 	; morn
 	wildmon 33, GEODUDE
 	wildmon 35, GRAVELER
-	wildmon 34, DONPHAN
+	wildmon 34, RATTATA
 	wildmon 34, URSARING
-	wildmon 34, DONPHAN
+	wildmon 34, RATTATA
 	wildmon 36, SKARMORY
 	wildmon 37, SKARMORY
 	; day
 	wildmon 33, GEODUDE
 	wildmon 35, GRAVELER
 	wildmon 34, URSARING
-	wildmon 34, DONPHAN
+	wildmon 34, RATTATA
 	wildmon 34, URSARING
 	wildmon 36, SKARMORY
 	wildmon 37, SKARMORY
@@ -1770,7 +1770,7 @@
 	wildmon 2, GEODUDE
 	wildmon 2, RATTATA
 	wildmon 3, GEODUDE
-	wildmon 2, PHANPY
+	wildmon 2, RATTATA
 	wildmon 2, RATTATA
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA

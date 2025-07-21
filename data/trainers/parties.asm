@@ -2132,11 +2132,11 @@ TwinsGroup:
 
 	def_trainer MEGANDPEG1, "Meg & Peg"
 	tr_mon 45, TEDDIURSA
-	tr_mon 45, PHANPY
+	tr_mon 45, RATTATA
 	end_trainer
 
 	def_trainer MEGANDPEG2, "Meg & Peg"
-	tr_mon 45, PHANPY
+	tr_mon 45, RATTATA
 	tr_mon 45, TEDDIURSA
 	end_trainer
 
@@ -2648,7 +2648,7 @@ HikerGroup:
 
 	def_trainer ERIK, "Erik"
 	tr_mon 35, GRAVELER
-	tr_mon 37, DONPHAN
+	tr_mon 37, RATTATA
 	tr_mon 37, GLIGAR
 	end_trainer
 
@@ -3061,7 +3061,7 @@ PokefanMGroup:
 	end_trainer
 
 	def_trainer REX, "Rex"
-	tr_mon 53, PHANPY @ SITRUS_BERRY
+	tr_mon 53, RATTATA @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer ALLAN, "Allan"
@@ -4039,7 +4039,7 @@ SchoolgirlGroup:
 	def_trainer_class SCHOOLGIRL
 	def_trainer MOLLY, "Molly"
 	tr_mon 7, "Teddy", TEDDIURSA
-	tr_mon 6, PHANPY
+	tr_mon 6, RATTATA
 	end_trainer
 
 	def_trainer ELIZA, "Eliza"
@@ -5845,11 +5845,11 @@ TamerGroup:
 
 	def_trainer VINCE, "Vince"
 	tr_mon 54, KANGASKHAN
-	tr_mon 56, DONPHAN
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer OSWALD, "Oswald"
-	tr_mon 60, DONPHAN
+	tr_mon 60, RATTATA
 	tr_mon 62, URSARING
 	tr_mon 61, KANGASKHAN
 	end_trainer
@@ -6200,7 +6200,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer COOLTRAINERM_RAYMOND, "Ray" ; MISMATCH
-	tr_mon 63, DONPHAN @ SOFT_SAND
+	tr_mon 63, RATTATA @ SOFT_SAND
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 62, RATTATA @ BLACK_SLUDGE
 		tr_evs 192 SAt, 192 Spe

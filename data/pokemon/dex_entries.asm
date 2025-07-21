@@ -1606,26 +1606,6 @@ KingdraPokedexEntry::
 	next "life forms can"
 	next "survive.@"
 
-SECTION "PhanpyPokedexEntry", ROMX
-PhanpyPokedexEntry::
-	db "Long Nose@"
-	db   "During the desert-"
-	next "ed morning hours,"
-	next "it comes ashore"
-	page "where it deftly"
-	next "uses its trunk to"
-	next "take a shower.@"
-
-SECTION "DonphanPokedexEntry", ROMX
-DonphanPokedexEntry::
-	db "Armor@"
-	db   "Because this"
-	next "#mon's skin is"
-	next "so tough, a normal"
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
-
 SECTION "StantlerPokedexEntry", ROMX
 StantlerPokedexEntry::
 	db "Big Horn@"

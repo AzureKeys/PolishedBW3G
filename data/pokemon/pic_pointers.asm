@@ -164,8 +164,6 @@ PokemonPicPointers::
 	pics Houndour
 	pics Houndoom
 	pics Kingdra
-	pics Phanpy
-	pics Donphan
 	pics Stantler
 	pics Smeargle
 	pics Elekid
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Whirlipede
 	pics Scolipede
 	pics Cottonee
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Whimsicott
 	pics Petilil
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics LilligantPlain
 	pics BasculinRed ; BasculinWhite
 	pics Sandile

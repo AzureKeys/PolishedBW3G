@@ -244,8 +244,6 @@ NewPokedexOrder:
 	dp TEDDIURSA
 	dp URSARING
 	dp URSALUNA
-	dp PHANPY
-	dp DONPHAN
 	dp MANTYKE
 	dp MANTINE
 	dp SKARMORY

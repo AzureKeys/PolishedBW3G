@@ -826,18 +826,6 @@ HoundourEggSpeciesMoves:
 	db WILL_O_WISP
 	db $ff
 
-PhanpyEggSpeciesMoves:
-	dp PHANPY, PLAIN_FORM
-	db FOCUS_ENERGY
-	db PLAY_ROUGH
-	db WATER_GUN
-	db BODY_SLAM
-	db ANCIENTPOWER
-	db GUNK_SHOT
-	db ICE_SHARD
-	db ENCORE
-	db $ff
-
 StantlerEggSpeciesMoves:
 	dp STANTLER, PLAIN_FORM
 	db BITE

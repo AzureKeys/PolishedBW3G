@@ -166,8 +166,6 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; Houndour
 	mon_cry CRY_TOTODILE,   -$10a,  $100 ; Houndoom
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; Kingdra
-	mon_cry CRY_SENTRET,     $048,  $230 ; Phanpy
-	mon_cry CRY_DONPHAN,     $000,  $1a0 ; Donphan
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
 	mon_cry CRY_PICHU,      -$21a,  $1f0 ; Smeargle
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
 	mon_cry CRY_MARILL,      $0d7,  $140 ; Cottonee
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_BELLOSSOM,   $000,  $180 ; WHIMSICOTT*
 	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_REMORAID,   -$020,  $180 ; LILLIGANT*
 	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
 	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
