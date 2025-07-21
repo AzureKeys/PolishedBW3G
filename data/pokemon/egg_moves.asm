@@ -651,14 +651,6 @@ MisdreavusEggSpeciesMoves:
 	db SCREECH
 	db $ff
 
-PinecoEggSpeciesMoves:
-	dp PINECO, PLAIN_FORM
-	db PIN_MISSILE
-	db SWIFT
-	db REFLECT
-	db TOXIC_SPIKES
-	db $ff
-
 DunsparceEggSpeciesMoves:
 	dp DUNSPARCE, NO_FORM
 	db AGILITY

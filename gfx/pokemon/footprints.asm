@@ -107,7 +107,6 @@ DunsparceFootprint::
 EkansFootprint::
 ElectrodeFootprint::
 ExeggcuteFootprint::
-ForretressFootprint::
 GastlyFootprint::
 GeodudeFootprint::
 GrimerFootprint::
@@ -128,7 +127,6 @@ MismagiusFootprint::
 MukFootprint::
 OnixFootprint::
 OverqwilFootprint::
-PinecoFootprint::
 PupitarFootprint::
 QwilfishFootprint::
 RemoraidFootprint::

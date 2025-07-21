@@ -142,8 +142,6 @@ endc
 	db  37, 100 ; Slowking
 	db   1,  39 ; Misdreavus
 	db 255, 255 ; Unown
-	db   1,  30 ; Pineco
-	db  31, 100 ; Forretress
 	db   1,  31 ; Dunsparce
 	db   1,  19 ; Gligar
 	db  20, 100 ; Steelix
@@ -259,10 +257,10 @@ endc
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon
 	db  30, 100 ; Leavanny
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  30, 100 ; Scolipede
 	db   1,  29 ; Cottonee
 	db  30, 100 ; Whimsicott

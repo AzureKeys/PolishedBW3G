@@ -137,8 +137,6 @@ EggSpeciesMovesPointers::
 	dw SlowpokePlainEggSpeciesMoves     ; Slowking
 	dw MisdreavusEggSpeciesMoves        ; Misdreavus
 	dw NoEggSpeciesMoves                ; Unown
-	dw PinecoEggSpeciesMoves            ; Pineco
-	dw PinecoEggSpeciesMoves            ; Forretress
 	dw DunsparceEggSpeciesMoves         ; Dunsparce
 	dw GligarEggSpeciesMoves            ; Gligar
 	dw OnixEggSpeciesMoves              ; Steelix
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon
 	dw SewaddleEggSpeciesMoves          ; Leavanny
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw VenipedeEggSpeciesMoves          ; Venipede
 	dw VenipedeEggSpeciesMoves          ; Whirlipede
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw VenipedeEggSpeciesMoves          ; Scolipede
 	dw CottoneeEggSpeciesMoves          ; Cottonee
 	dw CottoneeEggSpeciesMoves          ; Whimsicott

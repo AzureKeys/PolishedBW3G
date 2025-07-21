@@ -137,8 +137,6 @@ AnimationPointers:
 	dw SlowkingPlainAnimation
 	dw MisdreavusAnimation
 	dw UnownAAnimation
-	dw PinecoAnimation
-	dw ForretressAnimation
 	dw DunsparceAnimation
 	dw GligarAnimation
 	dw SteelixAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw SewaddleAnimation
 	dw SwadloonAnimation
 	dw LeavannyAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw VenipedeAnimation
 	dw WhirlipedeAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ScolipedeAnimation
 	dw CottoneeAnimation
 	dw WhimsicottAnimation

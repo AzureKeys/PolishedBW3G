@@ -1376,26 +1376,6 @@ UnownPokedexEntry::
 	next "have a variety of"
 	next "abilities.@"
 
-SECTION "PinecoPokedexEntry", ROMX
-PinecoPokedexEntry::
-	db "Bagworm@"
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
-
-SECTION "ForretressPokedexEntry", ROMX
-ForretressPokedexEntry::
-	db "Bagworm@"
-	db   "Usually found"
-	next "hanging on to a"
-	next "fat tree trunk. It"
-	page "shoots out bits of"
-	next "its shell when it"
-	next "sees action.@"
-
 SECTION "DunsparcePokedexEntry", ROMX
 DunsparcePokedexEntry::
 	db "Land Snake@"

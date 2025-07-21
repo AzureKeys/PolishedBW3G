@@ -137,8 +137,6 @@ AnimationExtraPointers:
 	dw SlowkingPlainAnimationExtra
 	dw MisdreavusAnimationExtra
 	dw UnownAAnimationExtra
-	dw PinecoAnimationExtra
-	dw ForretressAnimationExtra
 	dw DunsparceAnimationExtra
 	dw GligarAnimationExtra
 	dw SteelixAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw SewaddleAnimationExtra
 	dw SwadloonAnimationExtra
 	dw LeavannyAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw ScolipedeAnimationExtra
 	dw CottoneeAnimationExtra
 	dw WhimsicottAnimationExtra

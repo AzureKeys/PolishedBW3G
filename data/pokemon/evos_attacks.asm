@@ -3163,44 +3163,6 @@ endc
 	evos_attacks Unown
 	learnset 1, HIDDEN_POWER
 
-	evos_attacks Pineco
-	evo_data EVOLVE_LEVEL, 31, FORRETRESS
-	learnset 1, TACKLE
-	learnset 1, PROTECT
-	learnset 6, FOCUS_ENERGY ; Self-Destruct → TCG move
-	learnset 9, BUG_BITE
-	learnset 12, SUBSTITUTE ; Take Down → event move
-	learnset 17, RAPID_SPIN
-	learnset 20, DEFENSE_CURL ; Bide → TM move
-	learnset 23, TAKE_DOWN ; Natural Gift → Take Down
-	learnset 28, SPIKES
-	learnset 31, REVERSAL ; Payback → new move
-	learnset 34, EXPLOSION
-	learnset 39, REFLECT ; Iron Defense → egg move
-	learnset 42, GYRO_BALL
-	learnset 45, DOUBLE_EDGE
-
-	evos_attacks Forretress
-	learnset 1, FLASH_CANNON ; Mirror Shot → TM move ; evolution move
-	learnset 1, AGILITY ; Autotomize → similar move
-	learnset 1, TOXIC_SPIKES
-	learnset 1, TACKLE
-	learnset 1, PROTECT
-	learnset 6, FOCUS_ENERGY ; Self-Destruct → TCG move
-	learnset 9, BUG_BITE
-	learnset 12, SUBSTITUTE ; Take Down → event move
-	learnset 17, RAPID_SPIN
-	learnset 20, DEFENSE_CURL ; Bide → TM move
-	learnset 23, TAKE_DOWN ; Natural Gift → Take Down
-	learnset 28, SPIKES
-	learnset 32, REVERSAL ; Payback → new move
-	learnset 36, EXPLOSION
-	learnset 42, REFLECT ; Iron Defense → egg move
-	learnset 46, GYRO_BALL
-	learnset 50, DOUBLE_EDGE
-	learnset 56, ZAP_CANNON
-	learnset 60, IRON_HEAD ; Heavy Slam → new move
-
 	evos_attacks Dunsparce
 	evo_data EVOLVE_LEVEL, 32, DUDUNSPARCE, NO_FORM ; preserve pre-evo form
 	learnset 1, RAGE

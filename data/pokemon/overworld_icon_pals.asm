@@ -141,8 +141,6 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; SLOWKING
 	iconpal PURPLE, BROWN ; MISDREAVUS
 	iconpal BLACK, BLUE ; UNOWN
-	iconpal GRAY, RED ; PINECO
-	iconpal PURPLE, BROWN ; FORRETRESS
 	iconpal AZURE, RED ; DUNSPARCE
 	iconpal PURPLE, GRAY ; GLIGAR
 	iconpal GRAY, BROWN ; STEELIX
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; SEWADDLE
 	iconpal GREEN, GRAY ; SWADLOON
 	iconpal GREEN, BROWN ; LEAVANNY
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal RED, ORANGE ; SCOLIPEDE
 	iconpal GREEN, ORANGE ; COTTONEE
 	iconpal BROWN, GRAY ; WHIMSICOTT

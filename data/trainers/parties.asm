@@ -309,7 +309,7 @@ JasmineGroup:
 	tr_mon 33, MAGNETON
 		tr_evs 192 HP
 		tr_moves SUPERSONIC, THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK
-	tr_mon 34, FORRETRESS
+	tr_mon 34, RATTATA
 		tr_evs 192 HP
 		tr_moves SPIKES, GYRO_BALL, DEFENSE_CURL, ROLLOUT
 	tr_mon 33, SCIZOR
@@ -326,7 +326,7 @@ JasmineGroup:
 		tr_moves SPIKES, SCREECH, DRILL_PECK, STEEL_WING
 	tr_mon 72, MAGNEZONE @ MIRACLE_SEED
 		tr_moves THUNDERBOLT, HP_GRASS, FLASH_CANNON, EXPLOSION
-	tr_mon 73, FORRETRESS @ SOFT_SAND
+	tr_mon 73, RATTATA @ SOFT_SAND
 		tr_dvs 14 All
 		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 if DEF(FAITHFUL)
@@ -492,7 +492,7 @@ KogaGroup:
 	tr_mon 50, CLODSIRE @ SITRUS_BERRY
 		tr_evs 160 Def, 160 SDf
 		tr_moves POISON_JAB, TOXIC_SPIKES, EARTHQUAKE, MEGAHORN
-	tr_mon 52, FORRETRESS @ SILK_SCARF
+	tr_mon 52, RATTATA @ SILK_SCARF
 		tr_evs 252 HP, 68 SDf
 		tr_moves PROTECT, EXPLOSION, SPIKES, IRON_HEAD
 	tr_mon 51, MUK @ BRIGHTPOWDER
@@ -509,7 +509,7 @@ KogaGroup:
 	def_trainer 2, "Koga"
 	tr_mon 69, RATTATA @ WISE_GLASSES, MALE
 		tr_moves POWER_WHIP, ICE_BEAM, SURF, SLUDGE_BOMB
-	tr_mon 71, FORRETRESS @ SILK_SCARF, MALE
+	tr_mon 71, RATTATA @ SILK_SCARF, MALE
 		tr_moves PROTECT, TOXIC, EXPLOSION, SPIKES
 	tr_mon 69, ARBOK @ SOFT_SAND, MALE | ARBOK_KOGA_FORM
 		tr_moves SLUDGE_BOMB, GLARE, EARTHQUAKE, SCREECH
@@ -1781,7 +1781,7 @@ BugCatcherGroup:
 
 	def_trainer WAYNE, "Wayne"
 	tr_mon 9, PARAS
-	tr_mon 10, PINECO
+	tr_mon 10, RATTATA
 	end_trainer
 
 	def_trainer OSCAR, "Oscar"
@@ -6542,8 +6542,8 @@ else
 endc
 		tr_evs 232 HP
 		tr_moves SANDSTORM, ROCK_SLIDE, PURSUIT, OUTRAGE
-	tr_mon LEVEL_FROM_BADGES + 6, FORRETRESS @ ROCKY_HELMET, MALE
-		tr_extra STURDY, ATK_UP_SATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA @ ROCKY_HELMET, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_evs 232 HP
 		tr_moves SPIKES, EXPLOSION, SANDSTORM, DIG
 	tr_mon LEVEL_FROM_BADGES + 6, SKARMORY @ ROCKY_HELMET, MALE
@@ -7083,7 +7083,7 @@ StevenGroup:
 	def_trainer 1, "Steven"
 	tr_mon 61, SKARMORY @ QUICK_CLAW, MALE
 		tr_moves SPIKES, SCREECH, DRILL_PECK, STEEL_WING
-	tr_mon 60, FORRETRESS @ FOCUS_BAND, MALE
+	tr_mon 60, RATTATA @ FOCUS_BAND, MALE
 		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 if DEF(FAITHFUL)
 	tr_mon 58, MAGNEZONE @ WISE_GLASSES, MALE
@@ -7104,7 +7104,7 @@ endc
 	tr_mon 78, SKARMORY @ QUICK_CLAW, MALE
 		tr_moves SPIKES, SCREECH, DRILL_PECK, STEEL_WING
 if DEF(FAITHFUL)
-	tr_mon 77, FORRETRESS @ FOCUS_BAND, MALE
+	tr_mon 77, RATTATA @ FOCUS_BAND, MALE
 		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 else
 	tr_mon 76, RATTATA @ FOCUS_BAND, MALE
@@ -7234,7 +7234,7 @@ BuckGroup:
 	tr_mon 65, UMBREON
 	tr_mon 64, GOLEM
 	tr_mon 62, POLIWRATH
-	tr_mon 63, FORRETRESS
+	tr_mon 63, RATTATA
 	tr_mon 62, SKARMORY
 	tr_mon 63, STEELIX
 	end_trainer
@@ -7242,7 +7242,7 @@ BuckGroup:
 	def_trainer 2, "Buck"
 	tr_mon 75, GOLEM
 	tr_mon 72, POLIWRATH
-	tr_mon 73, FORRETRESS
+	tr_mon 73, RATTATA
 	tr_mon 72, SKARMORY
 	tr_mon 73, STEELIX
 	tr_mon 74, RATTATA

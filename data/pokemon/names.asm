@@ -138,8 +138,6 @@ PokemonNames::
 	rawchar "Slowking@@"
 	rawchar "Misdreavus"
 	rawchar "Unown@@@@@"
-	rawchar "Pineco@@@@"
-	rawchar "Forretress"
 	rawchar "Dunsparce@"
 	rawchar "Gligar@@@@"
 	rawchar "Steelix@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Sewaddle@@"
 	rawchar "Swadloon@@"
 	rawchar "Leavanny@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Scolipede@"
 	rawchar "Cottonee@@"
 	rawchar "Whimsicott"

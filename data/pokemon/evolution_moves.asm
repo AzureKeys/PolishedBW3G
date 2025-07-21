@@ -141,8 +141,6 @@ endc
 	db NO_MOVE      ; SLOWKING
 	db NO_MOVE      ; MISDREAVUS
 	db NO_MOVE      ; UNOWN
-	db NO_MOVE      ; PINECO
-	db FLASH_CANNON ; FORRETRESS
 	db NO_MOVE      ; DUNSPARCE
 	db NO_MOVE      ; GLIGAR
 	db IRON_TAIL    ; STEELIX
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
 	db NO_MOVE      ; WHIMSICOTT

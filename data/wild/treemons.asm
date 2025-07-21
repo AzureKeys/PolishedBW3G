@@ -58,7 +58,7 @@ TreeMonSet_Route:
 	db -1
 	; rare
 	tree_mon 40, MURKROW,    10
-	tree_mon 40, PINECO,     10
+	tree_mon 40, RATTATA,     10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 
@@ -69,7 +69,7 @@ TreeMonSet_Kanto:
 	db -1
 	; rare
 	tree_mon 40, MURKROW,    10
-	tree_mon 40, PINECO,     10
+	tree_mon 40, RATTATA,     10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 
@@ -80,13 +80,13 @@ TreeMonSet_Lake:
 	db -1
 	; rare
 	tree_mon 50, RATTATA,   10
-	tree_mon 30, PINECO,     10
+	tree_mon 30, RATTATA,     10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 
 TreeMonSet_Forest:
 	tree_mon 50, RATTATA,   10
-	tree_mon 30, PINECO,     10
+	tree_mon 30, RATTATA,     10
 	tree_mon 10, RATTATA,    10
 	tree_mon  5, RATTATA, 10
 	tree_mon  5, RATTATA,   10
@@ -113,14 +113,14 @@ TreeMonSet_Apricorns:
 	db -1
 
 TreeMonSet_NoisyForest:
-	tree_mon 60, PINECO,                  LEVEL_FROM_BADGES - 3
-	tree_mon  5, FORRETRESS,              LEVEL_FROM_BADGES + 2
+	tree_mon 60, RATTATA,                  LEVEL_FROM_BADGES - 3
+	tree_mon  5, RATTATA,              LEVEL_FROM_BADGES + 2
 	tree_mon 35, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
 	db -1
 	; rare
 	tree_mon 60, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
-	tree_mon 30, PINECO,                  LEVEL_FROM_BADGES - 2
-	tree_mon 10, FORRETRESS,              LEVEL_FROM_BADGES + 3
+	tree_mon 30, RATTATA,                  LEVEL_FROM_BADGES - 2
+	tree_mon 10, RATTATA,              LEVEL_FROM_BADGES + 3
 	db -1
 
 TreeMonSet_Rock:

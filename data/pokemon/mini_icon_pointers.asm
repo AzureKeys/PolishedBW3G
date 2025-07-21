@@ -141,8 +141,6 @@ MiniIconPointers:
 	mini_icon Slowking
 	mini_icon Misdreavus
 	mini_icon UnownA
-	mini_icon Pineco
-	mini_icon Forretress
 	mini_icon Dunsparce
 	mini_icon Gligar
 	mini_icon Steelix
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Sewaddle
 	mini_icon Swadloon
 	mini_icon Leavanny
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Venipede
 	mini_icon Whirlipede
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Scolipede
 	mini_icon Cottonee
 	mini_icon Whimsicott

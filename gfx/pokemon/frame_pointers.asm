@@ -137,8 +137,6 @@ FramesPointers:
 	dw SlowkingPlainFrames
 	dw MisdreavusFrames
 	dw UnownAFrames
-	dw PinecoFrames
-	dw ForretressFrames
 	dw DunsparceFrames
 	dw GligarFrames
 	dw SteelixFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw SewaddleFrames
 	dw SwadloonFrames
 	dw LeavannyFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw VenipedeFrames
 	dw WhirlipedeFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ScolipedeFrames
 	dw CottoneeFrames
 	dw WhimsicottFrames

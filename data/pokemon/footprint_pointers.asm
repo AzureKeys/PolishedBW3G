@@ -137,8 +137,6 @@ FootprintPointers::
 	dw SlowkingFootprint
 	dw MisdreavusFootprint
 	dw UnownFootprint
-	dw PinecoFootprint
-	dw ForretressFootprint
 	dw DunsparceFootprint
 	dw GligarFootprint
 	dw SteelixFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw SewaddleFootprint
 	dw SwadloonFootprint
 	dw LeavannyFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ScolipedeFootprint
 	dw CottoneeFootprint
 	dw WhimsicottFootprint

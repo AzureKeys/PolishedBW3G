@@ -74,7 +74,6 @@ AlphabeticalPokedexOrder:
 	dp FERALIGATR
 	dp FLAAFFY
 	dp FLAREON
-	dp FORRETRESS
 	dp GARBODOR
 	dp GASTLY
 	dp GENGAR
@@ -180,7 +179,6 @@ AlphabeticalPokedexOrder:
 	dp PIGNITE
 	dp PIKACHU
 	dp PILOSWINE
-	dp PINECO
 	dp PINSIR
 	dp POLITOED
 	dp POLIWAG

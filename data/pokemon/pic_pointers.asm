@@ -141,8 +141,6 @@ PokemonPicPointers::
 	pics SlowkingPlain
 	pics Misdreavus
 	pics UnownA
-	pics Pineco
-	pics Forretress
 	pics Dunsparce
 	pics Gligar
 	pics Steelix
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Sewaddle
 	pics Swadloon
 	pics Leavanny
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Venipede
 	pics Whirlipede
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Scolipede
 	pics Cottonee
 	pics Whimsicott

@@ -416,14 +416,6 @@ SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"
 
-SECTION "Pineco Pics", ROMX
-PinecoFrontpic: INCBIN "gfx/pokemon/pineco/front.animated.2bpp.lz"
-PinecoBackpic:  INCBIN "gfx/pokemon/pineco/back.2bpp.lz"
-
-SECTION "Forretress Pics", ROMX
-ForretressFrontpic: INCBIN "gfx/pokemon/forretress/front.animated.2bpp.lz"
-ForretressBackpic:  INCBIN "gfx/pokemon/forretress/back.2bpp.lz"
-
 SECTION "Dunsparce Pics", ROMX
 DunsparceFrontpic: INCBIN "gfx/pokemon/dunsparce/front.animated.2bpp.lz"
 DunsparceBackpic:  INCBIN "gfx/pokemon/dunsparce/back.2bpp.lz"

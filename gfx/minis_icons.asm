@@ -692,16 +692,6 @@ UnownAMini::     INCBIN "gfx/minis/unown_a.2bpp.lz"
 UnownAMiniMask:: INCBIN "gfx/minis/unown_a_mask.1bpp.lz"
 UnownAIcon::     INCBIN "gfx/icons/unown_a.2bpp.lz"
 
-SECTION "Pineco Mini Icon", ROMX
-PinecoMini::     INCBIN "gfx/minis/pineco.2bpp.lz"
-PinecoMiniMask:: INCBIN "gfx/minis/pineco_mask.1bpp.lz"
-PinecoIcon::     INCBIN "gfx/icons/pineco.2bpp.lz"
-
-SECTION "Forretress Mini Icon", ROMX
-ForretressMini::     INCBIN "gfx/minis/forretress.2bpp.lz"
-ForretressMiniMask:: INCBIN "gfx/minis/forretress_mask.1bpp.lz"
-ForretressIcon::     INCBIN "gfx/icons/forretress.2bpp.lz"
-
 SECTION "Dunsparce Mini Icon", ROMX
 DunsparceMini::     INCBIN "gfx/minis/dunsparce.2bpp.lz"
 DunsparceMiniMask:: INCBIN "gfx/minis/dunsparce_mask.1bpp.lz"

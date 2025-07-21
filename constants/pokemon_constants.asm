@@ -161,8 +161,6 @@
 	const SLOWKING   ; 62
 	const MISDREAVUS ; 63
 	const UNOWN      ; xx
-	const PINECO     ; xx
-	const FORRETRESS ; xx
 	const DUNSPARCE  ; 64
 	const GLIGAR     ; 65
 	const STEELIX    ; 66
@@ -278,10 +276,10 @@
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122
 	const LEAVANNY   ; 123
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const VENIPEDE   ; 124
 	const WHIRLIPEDE ; 125
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SCOLIPEDE  ; 126
 	const COTTONEE   ; 127
 	const WHIMSICOTT ; 128

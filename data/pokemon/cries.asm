@@ -143,8 +143,6 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $104,  $200 ; Slowking
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Misdreavus
 	mon_cry CRY_HOOTHOOT,    $162,  $100 ; Unown
-	mon_cry CRY_SLOWKING,    $080,  $100 ; Pineco
-	mon_cry CRY_SLOWKING,    $000,  $180 ; Forretress
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dunsparce
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gligar
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; Steelix
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_SPINARAK,   -$1c7,  $1b0 ; Venipede
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
 	mon_cry CRY_MARILL,      $0d7,  $140 ; Cottonee
 	mon_cry CRY_BELLOSSOM,   $000,  $180 ; WHIMSICOTT*

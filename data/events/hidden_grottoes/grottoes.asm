@@ -19,7 +19,7 @@ HiddenGrottoData:
 	dp PARAS
 	dp RATTATA
 	dp PSYDUCK
-	dp PINECO
+	dp RATTATA
 
 ; HIDDENGROTTO_ROUTE_35
 	db 4, SUN_STONE, 15

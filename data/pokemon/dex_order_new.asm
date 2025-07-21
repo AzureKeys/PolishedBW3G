@@ -143,8 +143,6 @@ NewPokedexOrder:
 	dp SLOWBRO
 	dp SLOWKING
 	dp DITTO
-	dp PINECO
-	dp FORRETRESS
 	dp NIDORAN_F
 	dp NIDORINA
 	dp NIDOQUEEN

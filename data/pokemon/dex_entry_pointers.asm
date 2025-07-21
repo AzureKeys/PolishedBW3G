@@ -138,8 +138,6 @@ PokedexDataPointerTable:
 	dba SlowkingPlainPokedexEntry
 	dba MisdreavusPokedexEntry
 	dba UnownPokedexEntry
-	dba PinecoPokedexEntry
-	dba ForretressPokedexEntry
 	dba DunsparcePokedexEntry
 	dba GligarPokedexEntry
 	dba SteelixPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba ScolipedePokedexEntry
 	dba CottoneePokedexEntry
 	dba WhimsicottPokedexEntry

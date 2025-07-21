@@ -137,8 +137,6 @@ BitmasksPointers:
 	dw SlowkingPlainBitmasks
 	dw MisdreavusBitmasks
 	dw UnownABitmasks
-	dw PinecoBitmasks
-	dw ForretressBitmasks
 	dw DunsparceBitmasks
 	dw GligarBitmasks
 	dw SteelixBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks
 	dw LeavannyBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw ScolipedeBitmasks
 	dw CottoneeBitmasks
 	dw WhimsicottBitmasks
