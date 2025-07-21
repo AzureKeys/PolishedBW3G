@@ -167,6 +167,7 @@ SwannaFrames:     INCLUDE "gfx/pokemon/swanna/frames.asm"
 VanilliteFrames:  INCLUDE "gfx/pokemon/vanillite/frames.asm"
 VanillishFrames:  INCLUDE "gfx/pokemon/vanillish/frames.asm"
 VanilluxeFrames:  INCLUDE "gfx/pokemon/vanilluxe/frames.asm"
+EmolgaFrames:     INCLUDE "gfx/pokemon/emolga/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

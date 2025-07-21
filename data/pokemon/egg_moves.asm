@@ -1220,5 +1220,13 @@ DeerlingEggSpeciesMoves:
 	db HEALINGLIGHT
 	db $ff
 
+EmolgaEggSpeciesMoves:
+	dp EMOLGA, PLAIN_FORM
+	db AIR_SLASH
+	db CHARM
+	db IRON_TAIL
+	;db SHOCK_WAVE
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

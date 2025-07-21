@@ -231,6 +231,7 @@ SwannaBitmasks:     INCLUDE "gfx/pokemon/swanna/bitmask.asm"
 VanilliteBitmasks:  INCLUDE "gfx/pokemon/vanillite/bitmask.asm"
 VanillishBitmasks:  INCLUDE "gfx/pokemon/vanillish/bitmask.asm"
 VanilluxeBitmasks:  INCLUDE "gfx/pokemon/vanilluxe/bitmask.asm"
+EmolgaBitmasks:     INCLUDE "gfx/pokemon/emolga/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

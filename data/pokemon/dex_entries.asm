@@ -2887,6 +2887,16 @@ SawsbuckPokedexEntry::
 	next "has magnificent"
 	next "horns.@"
 
+SECTION "EmolgaPokedexEntry", ROMX
+EmolgaPokedexEntry::
+	db "SkySquirrel@"
+	db "They live in tree"
+	next "tops and glide"
+	next "using their cape-"
+	page "like skin while"
+	next "discharging"
+	next "electricity.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

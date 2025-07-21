@@ -296,6 +296,7 @@ OverworldMonIconColors::
 	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal BROWN, PINK ; DEERLING (spring)
 	iconpal BROWN, ORANGE ; SAWSBUCK (spring)
+	iconpal YELLOW, BROWN ; EMOLGA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

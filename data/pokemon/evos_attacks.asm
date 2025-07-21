@@ -6093,6 +6093,23 @@ endc
 	;learnset 44, NATURE_POWER
 	learnset 52, DOUBLE_EDGE
 	learnset 60, SOLAR_BEAM
+	
+	evos_attacks Emolga
+	learnset 1, THUNDERSHOCK
+	learnset 4, QUICK_ATTACK
+	learnset 7, LEER ; Tail Whip
+	learnset 10, THUNDER_WAVE ; Charge
+	learnset 13, SPARK
+	learnset 16, PURSUIT
+	learnset 19, DOUBLE_TEAM
+	;learnset 22, SHOCK_WAVE
+	learnset 26, AIR_SLASH ; Electro Ball
+	learnset 30, ACROBATICS
+	learnset 34, LIGHT_SCREEN
+	learnset 38, ENCORE
+	learnset 42, VOLT_SWITCH
+	learnset 46, AGILITY
+	learnset 50, ZAP_CANNON ; Discharge
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

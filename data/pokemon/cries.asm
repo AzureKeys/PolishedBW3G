@@ -298,4 +298,5 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
 	mon_cry CRY_BULBASAUR,   $080,  $081 ; DEERLING*
 	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck
+	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; EMOLGA*
 	assert_table_length NUM_SPECIES

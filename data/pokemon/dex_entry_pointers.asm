@@ -293,6 +293,7 @@ PokedexDataPointerTable:
 	dba VanilluxePokedexEntry
 	dba DeerlingPokedexEntry
 	dba SawsbuckPokedexEntry
+	dba EmolgaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -86,6 +86,7 @@ NewPokedexOrder:
 	dp VANILLUXE
 	dp DEERLING
 	dp SAWSBUCK
+	dp EMOLGA
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

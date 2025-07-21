@@ -297,4 +297,5 @@ endc
 	db  47, 100 ; Vanilluxe
 	db   1,  33 ; Deerling
 	db  34, 100 ; Sawsbuck
+	db  20, 100 ; Emolga
 	assert_table_length NUM_SPECIES

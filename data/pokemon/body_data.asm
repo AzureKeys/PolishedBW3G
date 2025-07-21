@@ -299,6 +299,7 @@ PokemonBodyData:
 	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
+	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

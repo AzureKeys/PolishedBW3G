@@ -65,6 +65,7 @@ AlphabeticalPokedexOrder:
 	dp ELECTRODE
 	dp ELEKID
 	dp EMBOAR
+	dp EMOLGA
 	dp ENTEI
 	dp ESPEON
 	dp EXCADRILL

@@ -292,6 +292,7 @@ FramesPointers:
 	dw VanilluxeFrames
 	dw DeerlingSpringFrames
 	dw SawsbuckSpringFrames
+	dw EmolgaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

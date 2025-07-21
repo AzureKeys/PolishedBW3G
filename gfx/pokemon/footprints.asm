@@ -95,6 +95,7 @@ VanillishFootprint::
 VanilluxeFootprint::
 DeerlingFootprint::
 SawsbuckFootprint::
+EmolgaFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

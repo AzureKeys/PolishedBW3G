@@ -292,6 +292,7 @@ BitmasksPointers:
 	dw VanilluxeBitmasks
 	dw DeerlingSpringBitmasks
 	dw SawsbuckSpringBitmasks
+	dw EmolgaBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

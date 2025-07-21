@@ -1462,6 +1462,11 @@ SawsbuckMini::     INCBIN "gfx/minis/sawsbuck.2bpp.lz"
 SawsbuckMiniMask:: INCBIN "gfx/minis/sawsbuck_mask.1bpp.lz"
 SawsbuckIcon::     INCBIN "gfx/icons/sawsbuck.2bpp.lz"
 
+SECTION "Emolga Mini Icon", ROMX
+EmolgaMini::     INCBIN "gfx/minis/emolga.2bpp.lz"
+EmolgaMiniMask:: INCBIN "gfx/minis/emolga_mask.1bpp.lz"
+EmolgaIcon::     INCBIN "gfx/icons/emolga.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

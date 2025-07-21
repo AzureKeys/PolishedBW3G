@@ -296,6 +296,7 @@ PokemonPicPointers::
 	pics Vanilluxe
 	pics DeerlingSpring
 	pics SawsbuckSpring
+	pics Emolga
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

@@ -296,6 +296,7 @@ MiniIconPointers:
 	mini_icon Vanilluxe
 	mini_icon Deerling
 	mini_icon Sawsbuck
+	mini_icon Emolga
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

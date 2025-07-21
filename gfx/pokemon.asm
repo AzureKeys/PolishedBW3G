@@ -1564,3 +1564,7 @@ DeerlingSpringBackpic:  INCBIN "gfx/pokemon/deerling_spring/back.2bpp.lz"
 SECTION "SawsbuckSpring Pics", ROMX
 SawsbuckSpringFrontpic: INCBIN "gfx/pokemon/sawsbuck_spring/front.animated.2bpp.lz"
 SawsbuckSpringBackpic:  INCBIN "gfx/pokemon/sawsbuck_spring/back.2bpp.lz"
+
+SECTION "Emolga Pics", ROMX
+EmolgaFrontpic: INCBIN "gfx/pokemon/emolga/front.animated.2bpp.lz"
+EmolgaBackpic:  INCBIN "gfx/pokemon/emolga/back.2bpp.lz"

@@ -229,6 +229,7 @@ SwannaAnimationExtra:     INCLUDE "gfx/pokemon/swanna/anim_idle.asm"
 VanilliteAnimationExtra:  INCLUDE "gfx/pokemon/vanillite/anim_idle.asm"
 VanillishAnimationExtra:  INCLUDE "gfx/pokemon/vanillish/anim_idle.asm"
 VanilluxeAnimationExtra:  INCLUDE "gfx/pokemon/vanilluxe/anim_idle.asm"
+EmolgaAnimationExtra:     INCLUDE "gfx/pokemon/emolga/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
