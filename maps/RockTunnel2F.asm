@@ -30,8 +30,8 @@ RockTunnel2F_MapScriptHeader:
 	object_event 22, 22, SPRITE_SNES, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_ROCK_CRYSTAL, OBJECTTYPE_DONOTHING, 0, DoNothingScript, -1
 
 RockTunnel2FElectrode:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 50
+	cry RATTATA
+	loadwildmon RATTATA, 50
 	startbattle
 	disappear LAST_TALKED
 	reloadmapafterbattle

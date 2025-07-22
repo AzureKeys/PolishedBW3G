@@ -68,8 +68,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; Haunter
 	mon_cry CRY_MUK,         $000,  $17f ; Gengar
 	mon_cry CRY_EKANS,       $0ff,  $140 ; Onix
-	mon_cry CRY_VOLTORB,     $0ed,  $100 ; Voltorb
-	mon_cry CRY_VOLTORB,     $0a8,  $110 ; Electrode
 	mon_cry CRY_DIGLETT,     $000,  $100 ; Exeggcute
 	mon_cry CRY_DROWZEE,     $000,  $100 ; Exeggutor
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; Cubone
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
 	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; SCRAGGY*
@@ -303,4 +301,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $035,  $0b6 ; Galvantula
 	mon_cry CRY_MANTINE,     $032,  $080 ; Ferroseed
 	mon_cry CRY_MANTINE,     $184,  $0a0 ; Ferrothorn
+	mon_cry CRY_SQUIRTLE,    $0e4,  $0ad ; Klink
+	mon_cry CRY_SQUIRTLE,   -$01a,  $0ad ; Klang
+	mon_cry CRY_SHELLDER,   -$108,  $1d0 ; Klinklang
 	assert_table_length NUM_SPECIES

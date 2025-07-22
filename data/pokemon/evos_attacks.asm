@@ -1544,86 +1544,6 @@ endc
 	learnset 49, DOUBLE_EDGE
 	learnset 52, EARTHQUAKE ; Sandstorm → TM move
 
-	evos_attacks VoltorbPlain
-	evo_data EVOLVE_LEVEL, 30, ELECTRODE
-	learnset 1, TACKLE
-	learnset 1, THUNDERSHOCK ; LGPE move
-	learnset 4, SONIC_BOOM
-	learnset 6, AGILITY ; Eerie Impulse → event move
-	learnset 9, SPARK
-	learnset 11, ROLLOUT
-	learnset 13, SCREECH
-	learnset 16, THUNDER_WAVE ; Charge Beam → TM move
-	learnset 20, SWIFT
-	learnset 22, THUNDERBOLT ; Electro Ball → TM move
-	learnset 26, REFLECT ; Self-Destruct → TM move
-	learnset 29, LIGHT_SCREEN
-	learnset 34, EXPLOSION ; Magnet Rise → Explosion
-	learnset 37, THUNDER ; Discharge → TM move
-	learnset 41, BUG_BUZZ ; Explosion → new move
-	learnset 46, GYRO_BALL
-	learnset 48, MIRROR_COAT
-
-	evos_attacks ElectrodePlain
-	learnset 1, TACKLE
-	learnset 1, THUNDERSHOCK ; LGPE move
-	learnset 4, SONIC_BOOM
-	learnset 6, AGILITY ; Eerie Impulse → event move
-	learnset 9, SPARK
-	learnset 11, ROLLOUT
-	learnset 13, SCREECH
-	learnset 16, THUNDER_WAVE ; Charge Beam → TM move
-	learnset 20, SWIFT
-	learnset 22, THUNDERBOLT ; Electro Ball → TM move
-	learnset 26, REFLECT ; Self-Destruct → TM move
-	learnset 29, LIGHT_SCREEN
-	learnset 36, EXPLOSION ; Magnet Rise → Explosion
-	learnset 41, THUNDER ; Discharge → TM move
-	learnset 47, BUG_BUZZ ; Explosion → new move
-	learnset 54, GYRO_BALL
-	learnset 58, MIRROR_COAT
-
-	evos_attacks VoltorbHisuian
-	evo_data EVOLVE_ITEM, LEAF_STONE, ELECTRODE, HISUIAN_FORM
-	learnset 1, TACKLE
-	learnset 1, THUNDERSHOCK ; LGPE move
-	learnset 1, ABSORB ; new move
-	learnset 4, SONIC_BOOM
-	learnset 6, AGILITY ; Eerie Impulse → event move
-	learnset 9, SPARK
-	learnset 11, ROLLOUT
-	learnset 13, SCREECH
-	learnset 16, THUNDER_WAVE ; Charge Beam → TM move
-	learnset 20, SWIFT
-	learnset 22, THUNDERBOLT ; Electro Ball → TM move
-	learnset 26, ENERGY_BALL
-	learnset 29, LIGHT_SCREEN
-	learnset 34, EXPLOSION ; Magnet Rise → Explosion
-	learnset 37, THUNDER ; Discharge → TM move
-	learnset 41, SOLAR_BEAM ; Chloroblast → TM move
-	learnset 46, GYRO_BALL
-	learnset 48, MIRROR_COAT
-
-	evos_attacks ElectrodeHisuian
-	learnset 1, TACKLE
-	learnset 1, THUNDERSHOCK ; LGPE move
-	learnset 1, ABSORB ; new move
-	learnset 4, SONIC_BOOM
-	learnset 6, AGILITY ; Eerie Impulse → event move
-	learnset 9, SPARK
-	learnset 11, ROLLOUT
-	learnset 13, SCREECH
-	learnset 16, THUNDER_WAVE ; Charge Beam → TM move
-	learnset 20, SWIFT
-	learnset 22, THUNDERBOLT ; Electro Ball → TM move
-	learnset 26, ENERGY_BALL
-	learnset 29, LIGHT_SCREEN
-	learnset 36, EXPLOSION ; Magnet Rise → Explosion
-	learnset 41, THUNDER ; Discharge → TM move
-	learnset 47, SOLAR_BEAM ; Chloroblast → TM move
-	learnset 54, GYRO_BALL
-	learnset 58, MIRROR_COAT
-
 	evos_attacks Exeggcute
 	evo_data EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR, PLAIN_FORM
 	evo_data EVOLVE_ITEM, ODD_SOUVENIR, EXEGGUTOR, ALOLAN_FORM
@@ -6153,6 +6073,62 @@ endc
 	learnset 53, NIGHT_SLASH ; Payback
 	learnset 61, FLASH_CANNON
 	learnset 67, EXPLOSION
+	
+	evos_attacks Klink
+	evo_data EVOLVE_LEVEL, 38, KLANG
+	learnset 1, TACKLE ; Vicegrip
+	learnset 6, THUNDER_WAVE ; Charge
+	learnset 11, THUNDERSHOCK
+	;learnset 16, GEAR_GRIND
+	learnset 21, WRAP ; Bind
+	;learnset 26, CHARGE_BEAM
+	learnset 31, AGILITY ; Autotomize
+	;learnset 36, MIRROR_SHOT
+	learnset 39, SCREECH
+	;learnset 42, DISCHARGE
+	learnset 45, BARRIER ; Metal Sound
+	learnset 48, DRAGON_DANCE ; Shift Gear
+	;learnset 50, LOCK_ON
+	learnset 54, ZAP_CANNON
+	learnset 57, HYPER_BEAM
+	
+	evos_attacks Klang
+	evo_data EVOLVE_LEVEL, 49, KLINKLANG
+	learnset 1, TACKLE ; Vicegrip
+	learnset 6, THUNDER_WAVE ; Charge
+	learnset 11, THUNDERSHOCK
+	;learnset 16, GEAR_GRIND
+	learnset 21, WRAP ; Bind
+	;learnset 26, CHARGE_BEAM
+	learnset 31, AGILITY ; Autotomize
+	;learnset 36, MIRROR_SHOT
+	learnset 40, SCREECH
+	;learnset 44, DISCHARGE
+	learnset 48, BARRIER ; Metal Sound
+	learnset 52, DRAGON_DANCE ; Shift Gear
+	;learnset 56, LOCK_ON
+	learnset 60, ZAP_CANNON
+	learnset 64, HYPER_BEAM
+	
+	evos_attacks Klinklang
+	learnset 1, TACKLE ; Vicegrip
+	learnset 1, THUNDER_WAVE ; Charge
+	learnset 1, THUNDERSHOCK
+	;learnset 1, GEAR_GRIND
+	learnset 6, THUNDER_WAVE ; Charge
+	learnset 11, THUNDERSHOCK
+	;learnset 16, GEAR_GRIND
+	learnset 21, WRAP ; Bind
+	;learnset 26, CHARGE_BEAM
+	learnset 31, AGILITY ; Autotomize
+	;learnset 36, MIRROR_SHOT
+	learnset 40, SCREECH
+	;learnset 44, DISCHARGE
+	learnset 48, BARRIER ; Metal Sound
+	learnset 54, DRAGON_DANCE ; Shift Gear
+	;learnset 60, LOCK_ON
+	learnset 66, ZAP_CANNON
+	learnset 72, HYPER_BEAM
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

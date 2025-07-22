@@ -106,6 +106,9 @@ JoltikFootprint::
 GalvantulaFootprint::
 FerroseedFootprint::
 FerrothornFootprint::
+KlinkFootprint::
+KlangFootprint::
+KlinklangFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -116,7 +119,6 @@ DratiniFootprint::
 DudunsparceFootprint::
 DunsparceFootprint::
 EkansFootprint::
-ElectrodeFootprint::
 ExeggcuteFootprint::
 GastlyFootprint::
 GeodudeFootprint::
@@ -145,7 +147,6 @@ SeelFootprint::
 SteelixFootprint::
 SunkernFootprint::
 UnownFootprint::
-VoltorbFootprint::
 WeezingFootprint::
 ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 

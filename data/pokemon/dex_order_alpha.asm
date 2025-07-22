@@ -61,7 +61,6 @@ AlphabeticalPokedexOrder:
 	dp EKANS
 	dp ELECTABUZZ
 	dp ELECTIVIRE
-	dp ELECTRODE
 	dp ELEKID
 	dp EMBOAR
 	dp EMOLGA
@@ -117,7 +116,10 @@ AlphabeticalPokedexOrder:
 	dp KANGASKHAN
 	dp KARRABLAST
 	dp KINGDRA
+	dp KLANG
 	dp KLEAVOR
+	dp KLINK
+	dp KLINKLANG
 	dp KOFFING
 	dp KROKOROK
 	dp KROOKODILE
@@ -278,7 +280,6 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENIPEDE
 	dp VENUSAUR
-	dp VOLTORB
 	dp VULPIX
 	dp WARTORTLE
 	dp WATCHOG

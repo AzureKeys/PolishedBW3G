@@ -190,12 +190,6 @@ GrowlitheHisuianFrames: INCLUDE "gfx/pokemon/growlithe_hisuian/frames.asm"
 ArcaninePlainFrames:   INCLUDE "gfx/pokemon/arcanine_plain/frames.asm"
 ArcanineHisuianFrames: INCLUDE "gfx/pokemon/arcanine_hisuian/frames.asm"
 
-VoltorbPlainFrames:   INCLUDE "gfx/pokemon/voltorb_plain/frames.asm"
-VoltorbHisuianFrames: INCLUDE "gfx/pokemon/voltorb_hisuian/frames.asm"
-
-ElectrodePlainFrames:   INCLUDE "gfx/pokemon/electrode_plain/frames.asm"
-ElectrodeHisuianFrames: INCLUDE "gfx/pokemon/electrode_hisuian/frames.asm"
-
 TaurosPlainFrames:        INCLUDE "gfx/pokemon/tauros_plain/frames.asm"
 TaurosPaldeanFrames:      INCLUDE "gfx/pokemon/tauros_paldean/frames.asm"
 TaurosPaldeanFireFrames:  INCLUDE "gfx/pokemon/tauros_paldean_fire/frames.asm"

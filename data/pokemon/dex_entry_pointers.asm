@@ -63,8 +63,6 @@ PokedexDataPointerTable:
 	dba HaunterPokedexEntry
 	dba GengarPokedexEntry
 	dba OnixPokedexEntry
-	dba VoltorbPokedexEntry
-	dba ElectrodePokedexEntry
 	dba ExeggcutePokedexEntry
 	dba ExeggutorPlainPokedexEntry
 	dba CubonePokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba KrokorokPokedexEntry
 	dba KrookodilePokedexEntry
 	dba DarumakaPlainPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry
 	dba ScraggyPokedexEntry
@@ -298,6 +296,9 @@ PokedexDataPointerTable:
 	dba GalvantulaPokedexEntry
 	dba FerroseedPokedexEntry
 	dba FerrothornPokedexEntry
+	dba KlinkPokedexEntry
+	dba KlangPokedexEntry
+	dba KlinklangPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -339,8 +340,6 @@ PokedexDataPointerTable:
 
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry
-	dba VoltorbHisuianPokedexEntry
-	dba ElectrodeHisuianPokedexEntry
 	dba TyphlosionHisuianPokedexEntry
 	dba QwilfishHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry

@@ -11,7 +11,7 @@ NPCTrades:
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp POLIWAG, NO_FORM ; wants
-	dp VOLTORB, MALE    ; gives
+	dp RATTATA, MALE    ; gives
 	rawchar "Mimic@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
 	dw 48926

@@ -626,26 +626,6 @@ OnixPokedexEntry::
 	next "what makes its"
 	next "body so solid.@"
 
-SECTION "VoltorbPokedexEntry", ROMX
-VoltorbPokedexEntry::
-	db "Ball@"
-	db   "During the study"
-	next "of this #mon,"
-	next "it was discovered"
-	page "that its compo-"
-	next "nents are not"
-	next "found in nature.@"
-
-SECTION "ElectrodePokedexEntry", ROMX
-ElectrodePokedexEntry::
-	db "Ball@"
-	db   "The more energy it"
-	next "charges up, the"
-	next "faster it gets."
-	page "But this also"
-	next "makes it more"
-	next "likely to explode.@"
-
 SECTION "ExeggcutePokedexEntry", ROMX
 ExeggcutePokedexEntry::
 	db "Egg@"
@@ -2937,6 +2917,36 @@ FerrothornPokedexEntry::
 	next "from one can"
 	next "break a boulder.@"
 
+SECTION "KlinkPokedexEntry", ROMX
+KlinkPokedexEntry::
+	db "Gear@"
+	db "The interlocking"
+	next "gears constantly"
+	next "spin in order to"
+	page "generate the"
+	next "energy they need"
+	next "to live.@"
+
+SECTION "KlangPokedexEntry", ROMX
+KlangPokedexEntry::
+	db "Gear@"
+	db "By changing the"
+	next "direction it"
+	next "spins, it can"
+	page "communicate. When"
+	next "angry, it spins"
+	next "faster.@"
+
+SECTION "KlinklangPokedexEntry", ROMX
+KlinklangPokedexEntry::
+	db "Gear@"
+	db "Its red core"
+	next "functions as an"
+	next "energy tank. It"
+	page "fires the charged"
+	next "energy through"
+	next "its spiked ring.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -3269,26 +3279,6 @@ ArcanineHisuianPokedexEntry::
 	page "leading opponents"
 	next "on a chase as it"
 	next "dances past them.@"
-
-SECTION "VoltorbHisuianPokedexEntry", ROMX
-VoltorbHisuianPokedexEntry::
-	db "Sphere@"
-	db   "When excited, it"
-	next "discharges the"
-	next "electric current"
-	page "stored in its"
-	next "belly, then lets"
-	next "out a laugh.@"
-
-SECTION "ElectrodeHisuianPokedexEntry", ROMX
-ElectrodeHisuianPokedexEntry::
-	db "Sphere@"
-	db   "The tissue on the"
-	next "surface of its"
-	next "body is curious-"
-	page "ly similar in"
-	next "composition to an"
-	next "Apricorn.@"
 
 SECTION "TyphlosionHisuianPokedexEntry", ROMX
 TyphlosionHisuianPokedexEntry::

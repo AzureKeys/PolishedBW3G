@@ -234,6 +234,9 @@ JoltikBitmasks:     INCLUDE "gfx/pokemon/joltik/bitmask.asm"
 GalvantulaBitmasks: INCLUDE "gfx/pokemon/galvantula/bitmask.asm"
 FerroseedBitmasks:  INCLUDE "gfx/pokemon/ferroseed/bitmask.asm"
 FerrothornBitmasks: INCLUDE "gfx/pokemon/ferrothorn/bitmask.asm"
+KlinkBitmasks:      INCLUDE "gfx/pokemon/klink/bitmask.asm"
+KlangBitmasks:      INCLUDE "gfx/pokemon/klang/bitmask.asm"
+KlinklangBitmasks:  INCLUDE "gfx/pokemon/klinklang/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -402,12 +405,6 @@ GrowlitheHisuianBitmasks: INCLUDE "gfx/pokemon/growlithe_hisuian/bitmask.asm"
 
 ArcaninePlainBitmasks:   INCLUDE "gfx/pokemon/arcanine_plain/bitmask.asm"
 ArcanineHisuianBitmasks: INCLUDE "gfx/pokemon/arcanine_hisuian/bitmask.asm"
-
-VoltorbPlainBitmasks:   INCLUDE "gfx/pokemon/voltorb_plain/bitmask.asm"
-VoltorbHisuianBitmasks: INCLUDE "gfx/pokemon/voltorb_hisuian/bitmask.asm"
-
-ElectrodePlainBitmasks:   INCLUDE "gfx/pokemon/electrode_plain/bitmask.asm"
-ElectrodeHisuianBitmasks: INCLUDE "gfx/pokemon/electrode_hisuian/bitmask.asm"
 
 TyphlosionPlainBitmasks:   INCLUDE "gfx/pokemon/typhlosion_plain/bitmask.asm"
 TyphlosionHisuianBitmasks: INCLUDE "gfx/pokemon/typhlosion_hisuian/bitmask.asm"

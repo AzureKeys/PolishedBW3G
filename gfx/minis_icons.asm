@@ -317,16 +317,6 @@ OnixMini::     INCBIN "gfx/minis/onix.2bpp.lz"
 OnixMiniMask:: INCBIN "gfx/minis/onix_mask.1bpp.lz"
 OnixIcon::     INCBIN "gfx/icons/onix.2bpp.lz"
 
-SECTION "Voltorb Mini Icon", ROMX
-VoltorbMini::     INCBIN "gfx/minis/voltorb.2bpp.lz"
-VoltorbMiniMask:: INCBIN "gfx/minis/voltorb_mask.1bpp.lz"
-VoltorbIcon::     INCBIN "gfx/icons/voltorb.2bpp.lz"
-
-SECTION "Electrode Mini Icon", ROMX
-ElectrodeMini::     INCBIN "gfx/minis/electrode.2bpp.lz"
-ElectrodeMiniMask:: INCBIN "gfx/minis/electrode_mask.1bpp.lz"
-ElectrodeIcon::     INCBIN "gfx/icons/electrode.2bpp.lz"
-
 SECTION "Exeggcute Mini Icon", ROMX
 ExeggcuteMini::     INCBIN "gfx/minis/exeggcute.2bpp.lz"
 ExeggcuteMiniMask:: INCBIN "gfx/minis/exeggcute_mask.1bpp.lz"
@@ -1487,6 +1477,21 @@ FerrothornMini::     INCBIN "gfx/minis/ferrothorn.2bpp.lz"
 FerrothornMiniMask:: INCBIN "gfx/minis/ferrothorn_mask.1bpp.lz"
 FerrothornIcon::     INCBIN "gfx/icons/ferrothorn.2bpp.lz"
 
+SECTION "Klink Mini Icon", ROMX
+KlinkMini::     INCBIN "gfx/minis/klink.2bpp.lz"
+KlinkMiniMask:: INCBIN "gfx/minis/klink_mask.1bpp.lz"
+KlinkIcon::     INCBIN "gfx/icons/klink.2bpp.lz"
+
+SECTION "Klang Mini Icon", ROMX
+KlangMini::     INCBIN "gfx/minis/klang.2bpp.lz"
+KlangMiniMask:: INCBIN "gfx/minis/klang_mask.1bpp.lz"
+KlangIcon::     INCBIN "gfx/icons/klang.2bpp.lz"
+
+SECTION "Klinklang Mini Icon", ROMX
+KlinklangMini::     INCBIN "gfx/minis/klinklang.2bpp.lz"
+KlinklangMiniMask:: INCBIN "gfx/minis/klinklang_mask.1bpp.lz"
+KlinklangIcon::     INCBIN "gfx/icons/klinklang.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1786,16 +1791,6 @@ SECTION "ArcanineHisuian Mini Icon", ROMX
 ArcanineHisuianMini::     INCBIN "gfx/minis/arcanine_hisuian.2bpp.lz"
 ArcanineHisuianMiniMask:: INCBIN "gfx/minis/arcanine_hisuian_mask.1bpp.lz"
 ArcanineHisuianIcon::     INCBIN "gfx/icons/arcanine_hisuian.2bpp.lz"
-
-SECTION "VoltorbHisuian Mini Icon", ROMX
-VoltorbHisuianMini::     INCBIN "gfx/minis/voltorb_hisuian.2bpp.lz"
-VoltorbHisuianMiniMask:: INCBIN "gfx/minis/voltorb_hisuian_mask.1bpp.lz"
-VoltorbHisuianIcon::     INCBIN "gfx/icons/voltorb_hisuian.2bpp.lz"
-
-SECTION "ElectrodeHisuian Mini Icon", ROMX
-ElectrodeHisuianMini::     INCBIN "gfx/minis/electrode_hisuian.2bpp.lz"
-ElectrodeHisuianMiniMask:: INCBIN "gfx/minis/electrode_hisuian_mask.1bpp.lz"
-ElectrodeHisuianIcon::     INCBIN "gfx/icons/electrode_hisuian.2bpp.lz"
 
 SECTION "TyphlosionHisuian Mini Icon", ROMX
 TyphlosionHisuianMini::     INCBIN "gfx/minis/typhlosion_hisuian.2bpp.lz"

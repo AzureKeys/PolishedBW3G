@@ -69,8 +69,6 @@ PokemonBodyData:
 	body_data  16,    1, HEAD_ARMS,    PURPLE ; HAUNTER
 	body_data  15,  405, BIPEDAL_TAIL, PURPLE ; GENGAR
 	body_data  88, 2100, SERPENTINE,   GRAY   ; ONIX
-	body_data   5,  104, HEAD,         RED    ; VOLTORB
-	body_data  12,  666, HEAD,         RED    ; ELECTRODE
 	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
 	body_data  20, 1200, HEAD_LEGS,    YELLOW ; EXEGGUTOR
 	body_data   4,   65, BIPEDAL_TAIL, BROWN  ; CUBONE
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  10,  334, QUADRUPED,    BROWN  ; KROKOROK
 	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  13,  929, QUADRUPED,    RED    ; DARMANITAN
 	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
@@ -304,6 +302,9 @@ PokemonBodyData:
 	body_data   8,  143, INSECTOID,    YELLOW ; GALVANTULA
 	body_data   6,  188, HEAD,         GRAY   ; FERROSEED
 	body_data  10, 1100, TENTACLES,    GRAY   ; FERROTHORN
+	body_data   3,  210, MULTIBODY,    GRAY   ; KLINK
+	body_data   6,  510, MULTIBODY,    GRAY   ; KLANG
+	body_data   6,  810, MULTIBODY,    GRAY   ; KLINKLANG
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -345,8 +346,6 @@ PokemonBodyData:
 
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
-	body_data   5,  130, HEAD,         BROWN  ; VOLTORB (HISUIAN_FORM)
-	body_data  12,  710, HEAD,         BROWN  ; ELECTRODE (HISUIAN_FORM)
 	body_data  16,  698, QUADRUPED,    YELLOW ; TYPHLOSION (HISUIAN_FORM)
 	body_data   5,   39, FINS,         BLACK  ; QWILFISH (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)

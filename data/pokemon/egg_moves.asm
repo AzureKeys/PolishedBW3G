@@ -367,14 +367,6 @@ OnixEggSpeciesMoves:
 	db ROCK_BLAST
 	db $ff
 
-VoltorbPlainEggSpeciesMoves:
-	dp VOLTORB, PLAIN_FORM
-	db $ff
-
-VoltorbHisuianEggSpeciesMoves:
-	dp VOLTORB, HISUIAN_FORM
-	db $ff
-
 ExeggcuteEggSpeciesMoves:
 	dp EXEGGCUTE, PLAIN_FORM
 	db MEGA_DRAIN
@@ -1237,6 +1229,10 @@ FerroseedEggSpeciesMoves:
 	dp FERROSEED, PLAIN_FORM
 	db LEECH_SEED
 	db SEED_BOMB
+	db $ff
+
+KlinkEggSpeciesMoves:
+	dp KLINK, PLAIN_FORM
 	db $ff
 
 NoEggSpeciesMoves:

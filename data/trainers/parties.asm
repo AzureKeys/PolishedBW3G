@@ -756,13 +756,13 @@ LtSurgeGroup:
 	tr_mon 58, ELECTABUZZ @ EVIOLITE
 		tr_evs 252 HP, 36 Def
 		tr_moves QUICK_ATTACK, THUNDERPUNCH, LIGHT_SCREEN, WILD_CHARGE
-	tr_mon 56, ELECTRODE
+	tr_mon 56, RATTATA
 		tr_evs 36 HP, 252 SAt
 		tr_moves SCREECH, DOUBLE_TEAM, THUNDERBOLT, EXPLOSION
 	tr_mon 57, MAGNEZONE
 		tr_evs 36 HP, 252 SAt
 		tr_moves LIGHT_SCREEN, DOUBLE_TEAM, WILD_CHARGE, ZAP_CANNON
-	tr_mon 56, ELECTRODE
+	tr_mon 56, RATTATA
 		tr_evs 36 HP, 252 Atk
 		tr_moves SCREECH, DOUBLE_TEAM, WILD_CHARGE, EXPLOSION
 	tr_mon 58, JOLTEON
@@ -776,7 +776,7 @@ LtSurgeGroup:
 	def_trainer 2, "Lt.Surge"
 	tr_mon 74, ELECTIVIRE @ BLACK_BELT
 		tr_moves CROSS_CHOP, THUNDERPUNCH, LIGHT_SCREEN, WILD_CHARGE
-	tr_mon 72, ELECTRODE @ SILK_SCARF
+	tr_mon 72, RATTATA @ SILK_SCARF
 		tr_moves REFLECT, DOUBLE_TEAM, SWIFT, EXPLOSION
 	tr_mon 73, JOLTEON @ NEVERMELTICE
 		tr_moves HP_ICE, THUNDER_WAVE, HYPER_VOICE, THUNDERBOLT
@@ -1653,7 +1653,7 @@ YoungsterGroup:
 
 	def_trainer REGIS, "Regis"
 	tr_mon 58, GOLBAT
-	tr_mon 58, ELECTRODE
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer ALFIE, "Alfie"
@@ -3283,7 +3283,7 @@ CosplayerGroup:
 	def_trainer LYRIC, "Lyric"
 	tr_mon 54, LANTURN
 	tr_mon 53, MAGNEZONE
-	tr_mon 55, ELECTRODE
+	tr_mon 55, RATTATA
 	end_trainer
 
 
@@ -3323,7 +3323,7 @@ SuperNerdGroup:
 
 	def_trainer TERU, "Teru"
 	tr_mon 9, MAGNEMITE
-	tr_mon 13, VOLTORB
+	tr_mon 13, RATTATA
 	tr_mon 9, MAGNEMITE
 	tr_mon 11, MAGNEMITE
 	end_trainer
@@ -3358,8 +3358,8 @@ SuperNerdGroup:
 
 	def_trainer JOVAN, "Jovan"
 	tr_mon 62, MAGNETON
-	tr_mon 60, VOLTORB
-	tr_mon 61, ELECTRODE
+	tr_mon 60, RATTATA
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer MIGUEL, "Miguel"
@@ -3829,32 +3829,32 @@ JugglerGroup:
 
 	def_trainer_class JUGGLER
 	def_trainer IRWIN1, "Irwin"
-	tr_mon 2, VOLTORB
-	tr_mon 6, VOLTORB
-	tr_mon 10, VOLTORB
-	tr_mon 14, VOLTORB
+	tr_mon 2, RATTATA
+	tr_mon 6, RATTATA
+	tr_mon 10, RATTATA
+	tr_mon 14, RATTATA
 	end_trainer
 
 ;	; unused
 ;	def_trainer IRWIN2, "Irwin"
-;	tr_mon 6, VOLTORB
-;	tr_mon 10, VOLTORB
-;	tr_mon 14, VOLTORB
-;	tr_mon 18, VOLTORB
+;	tr_mon 6, RATTATA
+;	tr_mon 10, RATTATA
+;	tr_mon 14, RATTATA
+;	tr_mon 18, RATTATA
 ;	end_trainer
 
 ;	def_trainer IRWIN3, "Irwin"
-;	tr_mon 18, VOLTORB
-;	tr_mon 22, VOLTORB
-;	tr_mon 26, VOLTORB
-;	tr_mon 30, ELECTRODE
+;	tr_mon 18, RATTATA
+;	tr_mon 22, RATTATA
+;	tr_mon 26, RATTATA
+;	tr_mon 30, RATTATA
 ;	end_trainer
 
 ;	def_trainer IRWIN4, "Irwin"
-;	tr_mon 18, VOLTORB
-;	tr_mon 22, VOLTORB
-;	tr_mon 26, VOLTORB
-;	tr_mon 30, ELECTRODE
+;	tr_mon 18, RATTATA
+;	tr_mon 22, RATTATA
+;	tr_mon 26, RATTATA
+;	tr_mon 30, RATTATA
 ;	end_trainer
 
 	def_trainer FRITZ, "Fritz"
@@ -3864,9 +3864,9 @@ JugglerGroup:
 	end_trainer
 
 	def_trainer HORTON, "Horton"
-	tr_mon 53, ELECTRODE
-	tr_mon 53, ELECTRODE
-	tr_mon 53, ELECTRODE
+	tr_mon 53, RATTATA
+	tr_mon 53, RATTATA
+	tr_mon 53, RATTATA
 	end_trainer
 
 
@@ -3876,27 +3876,27 @@ SchoolboyGroup:
 	def_trainer_class SCHOOLBOY
 	def_trainer JACK1, "Jack"
 	tr_mon 12, RATTATA
-	tr_mon 15, VOLTORB
+	tr_mon 15, RATTATA
 	end_trainer
 
 	def_trainer JACK2, "Jack"
 	tr_mon 14, RATTATA
-	tr_mon 17, VOLTORB
+	tr_mon 17, RATTATA
 	end_trainer
 
 	def_trainer JACK3, "Jack"
 	tr_mon 28, RATTATA
-	tr_mon 31, ELECTRODE
+	tr_mon 31, RATTATA
 	end_trainer
 
 	def_trainer JACK4, "Jack"
 	tr_mon 30, RATTATA
 	tr_mon 33, GROWLITHE
-	tr_mon 33, ELECTRODE
+	tr_mon 33, RATTATA
 	end_trainer
 
 	def_trainer JACK5, "Jack"
-	tr_mon 35, ELECTRODE
+	tr_mon 35, RATTATA
 		tr_moves SCREECH, SONIC_BOOM, ROLLOUT, LIGHT_SCREEN
 	tr_mon 35, GROWLITHE
 		tr_moves SUNNY_DAY, LEER, TAKE_DOWN, FLAME_CHARGE
@@ -3965,8 +3965,8 @@ SchoolboyGroup:
 	end_trainer
 
 	def_trainer KIPP, "Kipp"
-	tr_mon 55, VOLTORB
-	tr_mon 58, VOLTORB
+	tr_mon 55, RATTATA
+	tr_mon 58, RATTATA
 	tr_mon 55, MAGNEMITE
 	tr_mon 58, MAGNETON
 	end_trainer
@@ -5209,7 +5209,7 @@ ScientistGroup:
 	def_trainer BRAYDON, "Braydon"
 	tr_mon 60, MAGNETON
 	tr_mon 62, MAGNEZONE
-	tr_mon 63, ELECTRODE
+	tr_mon 63, RATTATA
 	end_trainer
 
 	def_trainer CARL, "Carl"
@@ -5569,12 +5569,12 @@ EngineerGroup:
 
 	def_trainer CAMDEN, "Camden"
 	tr_mon 56, MAGNETON
-	tr_mon 56, ELECTRODE
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer LANG, "Lang"
-	tr_mon 55, ELECTRODE
-	tr_mon 55, ELECTRODE
+	tr_mon 55, RATTATA
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer HUGO, "Hugo"
@@ -5599,10 +5599,10 @@ EngineerGroup:
 	end_trainer
 
 	def_trainer GUSTAV, "Gustav"
-	tr_mon LEVEL_FROM_BADGES + 1, VOLTORB, MALE
-		tr_extra AFTERMATH
-	tr_mon LEVEL_FROM_BADGES + 1, VOLTORB, MALE
-		tr_extra AFTERMATH
+	tr_mon LEVEL_FROM_BADGES + 1, RATTATA, MALE
+		tr_extra HUSTLE
+	tr_mon LEVEL_FROM_BADGES + 1, RATTATA, MALE
+		tr_extra HUSTLE
 	tr_mon LEVEL_FROM_BADGES + 3, MAGNEMITE, MALE
 if DEF(FAITHFUL)
 		tr_extra STURDY
@@ -5612,10 +5612,10 @@ endc
 	end_trainer
 
 	def_trainer NICOLAS, "Nicolas"
-	tr_mon LEVEL_FROM_BADGES + 1, VOLTORB, MALE
-		tr_extra AFTERMATH
-	tr_mon LEVEL_FROM_BADGES + 1, VOLTORB, MALE
-		tr_extra AFTERMATH
+	tr_mon LEVEL_FROM_BADGES + 1, RATTATA, MALE
+		tr_extra HUSTLE
+	tr_mon LEVEL_FROM_BADGES + 1, RATTATA, MALE
+		tr_extra HUSTLE
 	tr_mon LEVEL_FROM_BADGES + 3, MAGNEMITE, MALE
 if DEF(FAITHFUL)
 		tr_extra STURDY
@@ -5664,7 +5664,7 @@ TeacherMGroup:
 
 	def_trainer_class TEACHER_M
 	def_trainer NOLAN, "Nolan"
-	tr_mon 54, ELECTRODE
+	tr_mon 54, RATTATA
 	tr_mon 55, MAGNEZONE
 	tr_mon 56, ELECTIVIRE
 	end_trainer
@@ -5679,7 +5679,7 @@ GuitaristMGroup:
 	end_trainer
 
 	def_trainer VINCENT, "Vincent"
-	tr_mon 53, VOLTORB
+	tr_mon 53, RATTATA
 	tr_mon 52, MAGNEMITE
 	tr_mon 55, JOLTEON
 	end_trainer
@@ -5718,7 +5718,7 @@ GuitaristFGroup:
 	end_trainer
 
 	def_trainer MORGAN, "Morgan"
-	tr_mon 55, ELECTRODE
+	tr_mon 55, RATTATA
 	tr_mon 55, JOLTEON
 	end_trainer
 
@@ -5729,7 +5729,7 @@ GuitaristFGroup:
 
 	def_trainer WANDA, "Wanda"
 	tr_mon 53, MAGNEMITE
-	tr_mon 54, ELECTRODE
+	tr_mon 54, RATTATA
 	tr_mon 55, MAGNETON
 	end_trainer
 
@@ -6348,7 +6348,7 @@ endc
 	end_trainer
 
 	def_trainer CAROL, "Carol"
-	tr_mon 47, ELECTRODE
+	tr_mon 47, RATTATA
 	tr_mon 47, STARMIE
 	tr_mon 47, NINETALES
 	end_trainer
@@ -6891,8 +6891,8 @@ MysticalmanGroup:
 	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
 		tr_extra LEVITATE
 		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
-	tr_mon 28, ELECTRODE @ MAGNET, MALE
-		tr_extra AFTERMATH, SHINY
+	tr_mon 28, RATTATA @ MAGNET, MALE
+		tr_extra HUSTLE, SHINY
 		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
 	tr_mon 29, RATTATA @ TWISTEDSPOON, MALE
 		tr_extra HUSTLE
@@ -7260,7 +7260,7 @@ MarleyGroup:
 		tr_evs 240 Spe
 	tr_mon LEVEL_FROM_BADGES + 5, CROBAT
 		tr_evs 240 Spe
-	tr_mon LEVEL_FROM_BADGES + 5, ELECTRODE
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 		tr_evs 240 Spe
 	tr_mon LEVEL_FROM_BADGES + 7, WEAVILE
 		tr_evs 240 Spe
@@ -7271,7 +7271,7 @@ MarleyGroup:
 	tr_mon 59, RATTATA
 	tr_mon 58, RAICHU
 	tr_mon 56, CROBAT
-	tr_mon 56, ELECTRODE
+	tr_mon 56, RATTATA
 	tr_mon 58, RATTATA
 	end_trainer
 
@@ -7280,7 +7280,7 @@ MarleyGroup:
 	tr_mon 74, RATTATA
 	tr_mon 73, RAICHU
 	tr_mon 71, CROBAT
-	tr_mon 71, ELECTRODE
+	tr_mon 71, RATTATA
 	tr_mon 73, RATTATA
 	end_trainer
 

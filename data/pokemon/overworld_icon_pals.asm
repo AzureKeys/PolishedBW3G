@@ -66,8 +66,6 @@ OverworldMonIconColors::
 	iconpal PURPLE, BLUE ; HAUNTER
 	iconpal PURPLE, BLUE ; GENGAR
 	iconpal GRAY, AZURE ; ONIX
-	iconpal RED, BLUE ; VOLTORB
-	iconpal RED, BLUE ; ELECTRODE
 	iconpal PINK, TEAL ; EXEGGCUTE
 	iconpal BROWN, TEAL ; EXEGGUTOR
 	iconpal BROWN, TEAL ; CUBONE
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BROWN, YELLOW ; KROKOROK
 	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, PURPLE ; DARMANITAN
 	iconpal GREEN, BROWN ; MARACTUS
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal ORANGE, RED ; DWEBBLE
 	iconpal ORANGE, GREEN ; CRUSTLE
 	iconpal ORANGE, RED ; SCRAGGY
@@ -301,6 +299,9 @@ OverworldMonIconColors::
 	iconpal BLUE, ORANGE ; GALVANTULA
 	iconpal GREEN, BLUE ; FERROSEED
 	iconpal GREEN, RED ; FERROTHORN
+	iconpal GRAY, BROWN ; KLINK
+	iconpal GRAY, BROWN ; KLANG
+	iconpal GRAY, BROWN ; KLINKLANG
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -362,8 +363,6 @@ endr
 
 	iconpal RED, BROWN ; GROWLITHE, HISUIAN_FORM
 	iconpal ORANGE, BROWN ; ARCANINE, HISUIAN_FORM
-	iconpal BROWN, GRAY ; VOLTORB, HISUIAN_FORM
-	iconpal BROWN, GRAY ; ELECTRODE, HISUIAN_FORM
 	iconpal PURPLE, BLUE ; TYPHLOSION, HISUIAN_FORM
 	iconpal PURPLE, BLUE ; QWILFISH, HISUIAN_FORM
 	iconpal PURPLE, BROWN ; SNEASEL, HISUIAN_FORM

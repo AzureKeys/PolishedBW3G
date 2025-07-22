@@ -62,8 +62,6 @@ EvolutionMoves::
 	db SHADOW_CLAW  ; HAUNTER
 	db SHADOW_CLAW  ; GENGAR
 	db NO_MOVE      ; ONIX
-	db NO_MOVE      ; VOLTORB
-	db NO_MOVE      ; ELECTRODE
 	db NO_MOVE      ; EXEGGCUTE
 	db STOMP        ; EXEGGUTOR
 	db NO_MOVE      ; CUBONE
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; KROKOROK
 	db NO_MOVE      ; KROOKODILE
 	db NO_MOVE      ; DARUMAKA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; DARMANITAN
 	db NO_MOVE      ; MARACTUS
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
 	db NO_MOVE      ; SCRAGGY
@@ -301,6 +299,9 @@ endc
 	db NO_MOVE      ; GALVANTULA
 	db NO_MOVE      ; FERROSEED
 	db SEED_BOMB    ; FERROTHORN
+	db NO_MOVE      ; KLINK
+	db NO_MOVE      ; KLANG
+	db NO_MOVE      ; KLINKLANG
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -342,8 +343,6 @@ endc
 
 	db NO_MOVE      ; GROWLITHE, HISUIAN_FORM
 	db EXTREMESPEED ; ARCANINE, HISUIAN_FORM
-	db NO_MOVE      ; VOLTORB, HISUIAN_FORM
-	db NO_MOVE      ; ELECTRODE, HISUIAN_FORM
 	db SHADOW_CLAW  ; TYPHLOSION, HISUIAN_FORM
 	db NO_MOVE      ; QWILFISH, HISUIAN_FORM
 	db NO_MOVE      ; SNEASEL, HISUIAN_FORM

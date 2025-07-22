@@ -1111,22 +1111,6 @@ SECTION "ArcanineHisuian Pics", ROMX
 ArcanineHisuianFrontpic: INCBIN "gfx/pokemon/arcanine_hisuian/front.animated.2bpp.lz"
 ArcanineHisuianBackpic:  INCBIN "gfx/pokemon/arcanine_hisuian/back.2bpp.lz"
 
-SECTION "VoltorbPlain Pics", ROMX
-VoltorbPlainFrontpic: INCBIN "gfx/pokemon/voltorb_plain/front.animated.2bpp.lz"
-VoltorbPlainBackpic:  INCBIN "gfx/pokemon/voltorb_plain/back.2bpp.lz"
-
-SECTION "ElectrodePlain Pics", ROMX
-ElectrodePlainFrontpic: INCBIN "gfx/pokemon/electrode_plain/front.animated.2bpp.lz"
-ElectrodePlainBackpic:  INCBIN "gfx/pokemon/electrode_plain/back.2bpp.lz"
-
-SECTION "VoltorbHisuian Pics", ROMX
-VoltorbHisuianFrontpic: INCBIN "gfx/pokemon/voltorb_hisuian/front.animated.2bpp.lz"
-VoltorbHisuianBackpic:  INCBIN "gfx/pokemon/voltorb_hisuian/back.2bpp.lz"
-
-SECTION "ElectrodeHisuian Pics", ROMX
-ElectrodeHisuianFrontpic: INCBIN "gfx/pokemon/electrode_hisuian/front.animated.2bpp.lz"
-ElectrodeHisuianBackpic:  INCBIN "gfx/pokemon/electrode_hisuian/back.2bpp.lz"
-
 SECTION "QwilfishPlain Pics", ROMX
 QwilfishPlainFrontpic: INCBIN "gfx/pokemon/qwilfish_plain/front.animated.2bpp.lz"
 QwilfishPlainBackpic:  INCBIN "gfx/pokemon/qwilfish_plain/back.2bpp.lz"
@@ -1576,3 +1560,15 @@ FerroseedBackpic:  INCBIN "gfx/pokemon/ferroseed/back.2bpp.lz"
 SECTION "Ferrothorn Pics", ROMX
 FerrothornFrontpic: INCBIN "gfx/pokemon/ferrothorn/front.animated.2bpp.lz"
 FerrothornBackpic:  INCBIN "gfx/pokemon/ferrothorn/back.2bpp.lz"
+
+SECTION "Klink Pics", ROMX
+KlinkFrontpic: INCBIN "gfx/pokemon/klink/front.animated.2bpp.lz"
+KlinkBackpic:  INCBIN "gfx/pokemon/klink/back.2bpp.lz"
+
+SECTION "Klang Pics", ROMX
+KlangFrontpic: INCBIN "gfx/pokemon/klang/front.animated.2bpp.lz"
+KlangBackpic:  INCBIN "gfx/pokemon/klang/back.2bpp.lz"
+
+SECTION "Klinklang Pics", ROMX
+KlinklangFrontpic: INCBIN "gfx/pokemon/klinklang/front.animated.2bpp.lz"
+KlinklangBackpic:  INCBIN "gfx/pokemon/klinklang/back.2bpp.lz"

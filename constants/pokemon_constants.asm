@@ -86,8 +86,6 @@
 	const HAUNTER    ; 30
 	const GENGAR     ; 31
 	const ONIX       ; 32
-	const VOLTORB    ; xx
-	const ELECTRODE  ; xx
 	const EXEGGCUTE  ; 33
 	const EXEGGUTOR  ; 34
 	const CUBONE     ; xx
@@ -278,10 +276,10 @@
 	const KROKOROK   ; 12d
 	const KROOKODILE ; 12e
 	const DARUMAKA   ; 12f
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const DARMANITAN ; 130
 	const MARACTUS   ; 131
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const DWEBBLE    ; 132
 	const CRUSTLE    ; 133
 	const SCRAGGY    ; 134
@@ -321,6 +319,9 @@
 	const GALVANTULA ; 159
 	const FERROSEED  ; 15a
 	const FERROTHORN ; 15b
+	const KLINK      ; 15c
+	const KLANG      ; 15d
+	const KLINKLANG  ; 15e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -484,8 +485,6 @@ DEF GALARIAN_FORM EQU 3
 DEF HISUIAN_FORM EQU 4
 	const_skip ; 17e growlithe
 	const_skip ; 17f arcanine
-	const_skip ; 180 voltorb
-	const_skip ; 181 electrode
 	const_skip ; 182 typhlosion
 	const_skip ; 183 qwilfish
 	const_skip ; 184 sneasel

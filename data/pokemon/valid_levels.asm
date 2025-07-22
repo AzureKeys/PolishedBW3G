@@ -63,8 +63,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  25,  44 ; Haunter
 	db  45, 100 ; Gengar
 	db   1, 100 ; Onix
-	db   1,  29 ; Voltorb
-	db  30, 100 ; Electrode
 	db   1,  29 ; Exeggcute
 	db  30, 100 ; Exeggutor
 	db   1,  27 ; Cubone
@@ -259,10 +257,10 @@ endc
 	db  29,  39 ; Krokorok
 	db  40, 100 ; Krookodile
 	db   1,  34 ; Darumaka
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle
 	db   1,  38 ; Scraggy
@@ -302,4 +300,7 @@ endc
 	db  36, 100 ; Galvantula
 	db   1,  39 ; Ferroseed
 	db  40, 100 ; Ferrothorn
+	db   1,  37 ; Klink
+	db  38,  48 ; Klang
+	db  49, 100 ; Klinklang
 	assert_table_length NUM_SPECIES

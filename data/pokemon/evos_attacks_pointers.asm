@@ -66,8 +66,6 @@ EvosAttacksPointers::
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
 	dw OnixEvosAttacks
-	dw VoltorbPlainEvosAttacks
-	dw ElectrodePlainEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorPlainEvosAttacks
 	dw CuboneEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw KrokorokEvosAttacks
 	dw KrookodileEvosAttacks
 	dw DarumakaPlainEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw DarmanitanPlainEvosAttacks
 	dw MaractusEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw DwebbleEvosAttacks
 	dw CrustleEvosAttacks
 	dw ScraggyEvosAttacks
@@ -301,6 +299,9 @@ EvosAttacksPointers::
 	dw GalvantulaEvosAttacks
 	dw FerroseedEvosAttacks
 	dw FerrothornEvosAttacks
+	dw KlinkEvosAttacks
+	dw KlangEvosAttacks
+	dw KlinklangEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -342,8 +343,6 @@ EvosAttacksPointers::
 
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks
-	dw VoltorbHisuianEvosAttacks
-	dw ElectrodeHisuianEvosAttacks
 	dw TyphlosionHisuianEvosAttacks
 	dw QwilfishHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks

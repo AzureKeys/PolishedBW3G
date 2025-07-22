@@ -66,8 +66,6 @@ MiniIconPointers:
 	mini_icon Haunter
 	mini_icon Gengar
 	mini_icon Onix
-	mini_icon Voltorb
-	mini_icon Electrode
 	mini_icon Exeggcute
 	mini_icon Exeggutor
 	mini_icon Cubone
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Krokorok
 	mini_icon Krookodile
 	mini_icon Darumaka
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Darmanitan
 	mini_icon Maractus
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Dwebble
 	mini_icon Crustle
 	mini_icon Scraggy
@@ -301,6 +299,9 @@ MiniIconPointers:
 	mini_icon Galvantula
 	mini_icon Ferroseed
 	mini_icon Ferrothorn
+	mini_icon Klink
+	mini_icon Klang
+	mini_icon Klinklang
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -389,8 +390,6 @@ endr
 
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
-	mini_icon VoltorbHisuian
-	mini_icon ElectrodeHisuian
 	mini_icon TyphlosionHisuian
 	mini_icon QwilfishHisuian
 	mini_icon SneaselHisuian

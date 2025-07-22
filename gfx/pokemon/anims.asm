@@ -234,6 +234,9 @@ JoltikAnimation:     INCLUDE "gfx/pokemon/joltik/anim.asm"
 GalvantulaAnimation: INCLUDE "gfx/pokemon/galvantula/anim.asm"
 FerroseedAnimation:  INCLUDE "gfx/pokemon/ferroseed/anim.asm"
 FerrothornAnimation: INCLUDE "gfx/pokemon/ferrothorn/anim.asm"
+KlinkAnimation:      INCLUDE "gfx/pokemon/klink/anim.asm"
+KlangAnimation:      INCLUDE "gfx/pokemon/klang/anim.asm"
+KlinklangAnimation:  INCLUDE "gfx/pokemon/klinklang/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -402,12 +405,6 @@ GrowlitheHisuianAnimation: INCLUDE "gfx/pokemon/growlithe_hisuian/anim.asm"
 
 ArcaninePlainAnimation:   INCLUDE "gfx/pokemon/arcanine_plain/anim.asm"
 ArcanineHisuianAnimation: INCLUDE "gfx/pokemon/arcanine_hisuian/anim.asm"
-
-VoltorbPlainAnimation:   INCLUDE "gfx/pokemon/voltorb_plain/anim.asm"
-VoltorbHisuianAnimation: INCLUDE "gfx/pokemon/voltorb_hisuian/anim.asm"
-
-ElectrodePlainAnimation:   INCLUDE "gfx/pokemon/electrode_plain/anim.asm"
-ElectrodeHisuianAnimation: INCLUDE "gfx/pokemon/electrode_hisuian/anim.asm"
 
 TyphlosionPlainAnimation:   INCLUDE "gfx/pokemon/typhlosion_plain/anim.asm"
 TyphlosionHisuianAnimation: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim.asm"

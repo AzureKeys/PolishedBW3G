@@ -62,8 +62,6 @@ EggSpeciesMovesPointers::
 	dw GastlyEggSpeciesMoves            ; Haunter
 	dw GastlyEggSpeciesMoves            ; Gengar
 	dw OnixEggSpeciesMoves              ; Onix
-	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
-	dw VoltorbPlainEggSpeciesMoves      ; Electrode
 	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
 	dw ExeggcuteEggSpeciesMoves         ; Exeggutor
 	dw CuboneEggSpeciesMoves            ; Cubone
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw SandileEggSpeciesMoves           ; Krokorok
 	dw SandileEggSpeciesMoves           ; Krookodile
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
 	dw MaractusEggSpeciesMoves          ; Maractus
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
 	dw ScraggyEggSpeciesMoves           ; Scraggy
@@ -297,6 +295,9 @@ EggSpeciesMovesPointers::
 	dw JoltikEggSpeciesMoves            ; Galvantula
 	dw FerroseedEggSpeciesMoves         ; Ferroseed
 	dw FerroseedEggSpeciesMoves         ; Ferrothorn
+	dw KlinkEggSpeciesMoves             ; Klink
+	dw KlinkEggSpeciesMoves             ; Klang
+	dw KlinkEggSpeciesMoves             ; Klinklang
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -338,8 +339,6 @@ EggSpeciesMovesPointers::
 
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
-	dw VoltorbHisuianEggSpeciesMoves    ; Voltorb (Hisuian Form)
-	dw VoltorbHisuianEggSpeciesMoves    ; Electrode (Hisuian Form)
 	dw CyndaquilEggSpeciesMoves         ; Typhlosion (Hisuian Form)
 	dw QwilfishHisuianEggSpeciesMoves   ; Qwilfish (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)

@@ -510,11 +510,11 @@ ExplodingTrap22:
 VoltorbExplodingTrap:
 	special FadeOutPalettes
 	special LoadMapPalettes
-	cry VOLTORB
+	cry RATTATA
 	special FadeInPalettes_EnableDynNoApply
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 30
+	loadwildmon RATTATA, 30
 	startbattle
 	end
 

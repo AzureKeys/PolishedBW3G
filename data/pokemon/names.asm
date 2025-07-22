@@ -63,8 +63,6 @@ PokemonNames::
 	rawchar "Haunter@@@"
 	rawchar "Gengar@@@@"
 	rawchar "Onix@@@@@@"
-	rawchar "Voltorb@@@"
-	rawchar "Electrode@"
 	rawchar "Exeggcute@"
 	rawchar "Exeggutor@"
 	rawchar "Cubone@@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Krokorok@@"
 	rawchar "Krookodile"
 	rawchar "Darumaka@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Darmanitan"
 	rawchar "Maractus@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Dwebble@@@"
 	rawchar "Crustle@@@"
 	rawchar "Scraggy@@@"
@@ -298,4 +296,7 @@ PokemonNames::
 	rawchar "Galvantula"
 	rawchar "Ferroseed@"
 	rawchar "Ferrothorn"
+	rawchar "Klink@@@@@"
+	rawchar "Klang@@@@@"
+	rawchar "Klinklang@"
 	assert_table_length NUM_SPECIES + 1

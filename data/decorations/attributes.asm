@@ -57,7 +57,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,     GENGAR,            SET_UP_DOLL,        EVENT_DECO_GENGAR_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     OCTILLERY,         SET_UP_DOLL,        EVENT_DECO_OCTILLERY_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     DITTO,             SET_UP_DOLL,        EVENT_DECO_DITTO_DOLL,              SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     VOLTORB,           SET_UP_DOLL,        EVENT_DECO_VOLTORB_DOLL,            SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     RATTATA,           SET_UP_DOLL,        EVENT_DECO_VOLTORB_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     RATTATA,           SET_UP_DOLL,        EVENT_DECO_ABRA_DOLL,               SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     UNOWN,             SET_UP_DOLL,        EVENT_DECO_UNOWN_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     GEODUDE,           SET_UP_DOLL,        EVENT_DECO_GEODUDE_DOLL,            SPRITE_MON_DOLL_1

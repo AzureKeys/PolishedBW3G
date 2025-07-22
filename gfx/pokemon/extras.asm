@@ -234,6 +234,9 @@ JoltikAnimationExtra:     INCLUDE "gfx/pokemon/joltik/anim_idle.asm"
 GalvantulaAnimationExtra: INCLUDE "gfx/pokemon/galvantula/anim_idle.asm"
 FerroseedAnimationExtra:  INCLUDE "gfx/pokemon/ferroseed/anim_idle.asm"
 FerrothornAnimationExtra: INCLUDE "gfx/pokemon/ferrothorn/anim_idle.asm"
+KlinkAnimationExtra:      INCLUDE "gfx/pokemon/klink/anim_idle.asm"
+KlangAnimationExtra:      INCLUDE "gfx/pokemon/klang/anim_idle.asm"
+KlinklangAnimationExtra:  INCLUDE "gfx/pokemon/klinklang/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -402,12 +405,6 @@ GrowlitheHisuianAnimationExtra: INCLUDE "gfx/pokemon/growlithe_hisuian/anim_idle
 
 ArcaninePlainAnimationExtra:   INCLUDE "gfx/pokemon/arcanine_plain/anim_idle.asm"
 ArcanineHisuianAnimationExtra: INCLUDE "gfx/pokemon/arcanine_hisuian/anim_idle.asm"
-
-VoltorbPlainAnimationExtra:   INCLUDE "gfx/pokemon/voltorb_plain/anim_idle.asm"
-VoltorbHisuianAnimationExtra: INCLUDE "gfx/pokemon/voltorb_hisuian/anim_idle.asm"
-
-ElectrodePlainAnimationExtra:   INCLUDE "gfx/pokemon/electrode_plain/anim_idle.asm"
-ElectrodeHisuianAnimationExtra: INCLUDE "gfx/pokemon/electrode_hisuian/anim_idle.asm"
 
 TyphlosionPlainAnimationExtra:   INCLUDE "gfx/pokemon/typhlosion_plain/anim_idle.asm"
 TyphlosionHisuianAnimationExtra: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim_idle.asm"

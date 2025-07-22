@@ -620,7 +620,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 47, RATTATA
-	wildmon 49, ELECTRODE
+	wildmon 49, RATTATA
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
 	wildmon 49, MAROWAK
@@ -628,7 +628,7 @@
 	wildmon 52, ELECTABUZZ
 	; day
 	wildmon 47, RATTATA
-	wildmon 49, ELECTRODE
+	wildmon 49, RATTATA
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
 	wildmon 49, MAROWAK
@@ -636,7 +636,7 @@
 	wildmon 52, ELECTABUZZ
 	; nite
 	wildmon 47, RATTATA
-	wildmon 49, ELECTRODE
+	wildmon 49, RATTATA
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
 	wildmon 49, GOLBAT
@@ -1212,7 +1212,7 @@
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
 	wildmon 68, RATTATA
-	wildmon 67, ELECTRODE
+	wildmon 67, RATTATA
 	wildmon 70, DITTO
 	; day
 	wildmon 65, CROBAT
@@ -1220,7 +1220,7 @@
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
 	wildmon 68, RATTATA
-	wildmon 67, ELECTRODE
+	wildmon 67, RATTATA
 	wildmon 70, DITTO
 	; nite
 	wildmon 65, CROBAT
@@ -1228,7 +1228,7 @@
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
 	wildmon 68, RATTATA
-	wildmon 67, ELECTRODE
+	wildmon 67, RATTATA
 	wildmon 70, DITTO
 	end_grass_wildmons
 
@@ -1240,7 +1240,7 @@
 	wildmon 68, RATTATA
 	wildmon 69, MAGNEZONE
 	wildmon 70, RATTATA
-	wildmon 69, ELECTRODE
+	wildmon 69, RATTATA
 	wildmon 72, DITTO
 	; day
 	wildmon 67, CROBAT
@@ -1248,7 +1248,7 @@
 	wildmon 68, RATTATA
 	wildmon 69, MAGNEZONE
 	wildmon 70, RATTATA
-	wildmon 69, ELECTRODE
+	wildmon 69, RATTATA
 	wildmon 72, DITTO
 	; nite
 	wildmon 67, CROBAT
@@ -1256,7 +1256,7 @@
 	wildmon 68, RATTATA
 	wildmon 69, MAGNEZONE
 	wildmon 70, GENGAR
-	wildmon 69, ELECTRODE
+	wildmon 69, RATTATA
 	wildmon 72, DITTO
 	end_grass_wildmons
 
@@ -1380,7 +1380,7 @@
 	wildmon 52, MAGNETON
 	wildmon 52, ELECTABUZZ
 	wildmon 51, GRAVELER, ALOLAN_FORM
-	wildmon 55, ELECTRODE
+	wildmon 55, RATTATA
 	wildmon 52, DUNSPARCE
 	; day
 	wildmon 51, GOLBAT
@@ -1388,7 +1388,7 @@
 	wildmon 52, MAGNETON
 	wildmon 52, ELECTABUZZ
 	wildmon 51, GRAVELER, ALOLAN_FORM
-	wildmon 55, ELECTRODE
+	wildmon 55, RATTATA
 	wildmon 52, DUNSPARCE
 	; nite
 	wildmon 51, SNEASEL, HISUIAN_FORM
@@ -1407,7 +1407,7 @@
 	wildmon 50, SNEASEL, HISUIAN_FORM
 	wildmon 50, GOLBAT
 	wildmon 51, MAGNETON
-	wildmon 51, ELECTRODE
+	wildmon 51, RATTATA
 	wildmon 54, GRAVELER, ALOLAN_FORM
 	wildmon 51, DUNSPARCE
 	; day
@@ -1415,7 +1415,7 @@
 	wildmon 50, SNEASEL, HISUIAN_FORM
 	wildmon 50, GOLBAT
 	wildmon 51, MAGNETON
-	wildmon 51, ELECTRODE
+	wildmon 51, RATTATA
 	wildmon 54, GRAVELER, ALOLAN_FORM
 	wildmon 51, DUNSPARCE
 	; nite

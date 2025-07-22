@@ -66,8 +66,6 @@ PokemonPicPointers::
 	pics Haunter
 	pics Gengar
 	pics Onix
-	pics VoltorbPlain
-	pics ElectrodePlain
 	pics Exeggcute
 	pics ExeggutorPlain
 	pics Cubone
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Krokorok
 	pics Krookodile
 	pics DarumakaPlain
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics DarmanitanPlain
 	pics Maractus
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Dwebble
 	pics Crustle
 	pics Scraggy
@@ -301,6 +299,9 @@ PokemonPicPointers::
 	pics Galvantula
 	pics Ferroseed
 	pics Ferrothorn
+	pics Klink
+	pics Klang
+	pics Klinklang
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -405,8 +406,6 @@ PokemonPicPointers::
 
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
-	pics VoltorbHisuian
-	pics ElectrodeHisuian
 	pics TyphlosionHisuian
 	pics QwilfishHisuian
 	pics SneaselHisuian

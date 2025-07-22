@@ -62,8 +62,6 @@ FootprintPointers::
 	dw HaunterFootprint
 	dw GengarFootprint
 	dw OnixFootprint
-	dw VoltorbFootprint
-	dw ElectrodeFootprint
 	dw ExeggcuteFootprint
 	dw ExeggutorFootprint
 	dw CuboneFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw KrokorokFootprint
 	dw KrookodileFootprint
 	dw DarumakaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw DarmanitanFootprint
 	dw MaractusFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw DwebbleFootprint
 	dw CrustleFootprint
 	dw ScraggyFootprint
@@ -297,6 +295,9 @@ FootprintPointers::
 	dw GalvantulaFootprint
 	dw FerroseedFootprint
 	dw FerrothornFootprint
+	dw KlinkFootprint
+	dw KlangFootprint
+	dw KlinklangFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -338,8 +339,6 @@ FootprintPointers::
 
 	dw GrowlitheFootprint
 	dw ArcanineFootprint
-	dw VoltorbFootprint
-	dw ElectrodeFootprint
 	dw TyphlosionFootprint
 	dw QwilfishFootprint
 	dw SneaselFootprint

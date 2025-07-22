@@ -172,6 +172,9 @@ JoltikFrames:     INCLUDE "gfx/pokemon/joltik/frames.asm"
 GalvantulaFrames: INCLUDE "gfx/pokemon/galvantula/frames.asm"
 FerroseedFrames:  INCLUDE "gfx/pokemon/ferroseed/frames.asm"
 FerrothornFrames: INCLUDE "gfx/pokemon/ferrothorn/frames.asm"
+KlinkFrames:      INCLUDE "gfx/pokemon/klink/frames.asm"
+KlangFrames:      INCLUDE "gfx/pokemon/klang/frames.asm"
+KlinklangFrames:  INCLUDE "gfx/pokemon/klinklang/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

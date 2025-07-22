@@ -62,8 +62,6 @@ BitmasksPointers:
 	dw HaunterBitmasks
 	dw GengarBitmasks
 	dw OnixBitmasks
-	dw VoltorbPlainBitmasks
-	dw ElectrodePlainBitmasks
 	dw ExeggcuteBitmasks
 	dw ExeggutorPlainBitmasks
 	dw CuboneBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw KrokorokBitmasks
 	dw KrookodileBitmasks
 	dw DarumakaPlainBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw DarmanitanPlainBitmasks
 	dw MaractusBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw DwebbleBitmasks
 	dw CrustleBitmasks
 	dw ScraggyBitmasks
@@ -297,6 +295,9 @@ BitmasksPointers:
 	dw GalvantulaBitmasks
 	dw FerroseedBitmasks
 	dw FerrothornBitmasks
+	dw KlinkBitmasks
+	dw KlangBitmasks
+	dw KlinklangBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -401,8 +402,6 @@ BitmasksPointers:
 
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks
-	dw VoltorbHisuianBitmasks
-	dw ElectrodeHisuianBitmasks
 	dw TyphlosionHisuianBitmasks
 	dw QwilfishHisuianBitmasks
 	dw SneaselHisuianBitmasks

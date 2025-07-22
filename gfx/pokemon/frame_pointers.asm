@@ -62,8 +62,6 @@ FramesPointers:
 	dw HaunterFrames
 	dw GengarFrames
 	dw OnixFrames
-	dw VoltorbPlainFrames
-	dw ElectrodePlainFrames
 	dw ExeggcuteFrames
 	dw ExeggutorPlainFrames
 	dw CuboneFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw KrokorokFrames
 	dw KrookodileFrames
 	dw DarumakaPlainFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw DarmanitanPlainFrames
 	dw MaractusFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw DwebbleFrames
 	dw CrustleFrames
 	dw ScraggyFrames
@@ -297,6 +295,9 @@ FramesPointers:
 	dw GalvantulaFrames
 	dw FerroseedFrames
 	dw FerrothornFrames
+	dw KlinkFrames
+	dw KlangFrames
+	dw KlinklangFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -401,8 +402,6 @@ FramesPointers:
 
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames
-	dw VoltorbHisuianFrames
-	dw ElectrodeHisuianFrames
 	dw TyphlosionHisuianFrames
 	dw QwilfishHisuianFrames
 	dw SneaselHisuianFrames

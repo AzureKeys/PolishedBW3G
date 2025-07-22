@@ -62,8 +62,6 @@ AnimationExtraPointers:
 	dw HaunterAnimationExtra
 	dw GengarAnimationExtra
 	dw OnixAnimationExtra
-	dw VoltorbPlainAnimationExtra
-	dw ElectrodePlainAnimationExtra
 	dw ExeggcuteAnimationExtra
 	dw ExeggutorPlainAnimationExtra
 	dw CuboneAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw KrokorokAnimationExtra
 	dw KrookodileAnimationExtra
 	dw DarumakaPlainAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw DarmanitanPlainAnimationExtra
 	dw MaractusAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw DwebbleAnimationExtra
 	dw CrustleAnimationExtra
 	dw ScraggyAnimationExtra
@@ -297,6 +295,9 @@ AnimationExtraPointers:
 	dw GalvantulaAnimationExtra
 	dw FerroseedAnimationExtra
 	dw FerrothornAnimationExtra
+	dw KlinkAnimationExtra
+	dw KlangAnimationExtra
+	dw KlinklangAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
@@ -401,8 +402,6 @@ AnimationExtraPointers:
 
 	dw GrowlitheHisuianAnimationExtra
 	dw ArcanineHisuianAnimationExtra
-	dw VoltorbHisuianAnimationExtra
-	dw ElectrodeHisuianAnimationExtra
 	dw TyphlosionHisuianAnimationExtra
 	dw QwilfishHisuianAnimationExtra
 	dw SneaselHisuianAnimationExtra

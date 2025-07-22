@@ -12,7 +12,6 @@ ENDM
 ; TODO: finish unique moves
 UniqueWildMoves:
 	; event mons (100% chance, see engine/battle/unique_wild_moves.asm)
-	unique_moves MAHOGANY_TOWN,    VOLTORB,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    KOFFING,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
@@ -68,7 +67,6 @@ UniqueWildMoves:
 	unique_moves SHAMOUTI_COAST,   0,          0
 	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move
-	unique_moves LIGHTNING_ISLAND, ELECTRODE,  SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ROUTE_23,         GYARADOS,   POWER_WHIP   ; Sw/Sh TR move
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	unique_moves ROUTE_49,         PARASECT,   CONFUSE_RAY  ; Prism tutor move
