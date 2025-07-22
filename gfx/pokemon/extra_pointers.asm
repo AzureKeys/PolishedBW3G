@@ -295,6 +295,8 @@ AnimationExtraPointers:
 	dw JellicentMaleAnimationExtra
 	dw JoltikAnimationExtra
 	dw GalvantulaAnimationExtra
+	dw FerroseedAnimationExtra
+	dw FerrothornAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

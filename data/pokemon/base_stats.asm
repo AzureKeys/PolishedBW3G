@@ -330,6 +330,8 @@ INCLUDE "data/pokemon/base_stats/frillish.asm"
 INCLUDE "data/pokemon/base_stats/jellicent.asm"
 INCLUDE "data/pokemon/base_stats/joltik.asm"
 INCLUDE "data/pokemon/base_stats/galvantula.asm"
+INCLUDE "data/pokemon/base_stats/ferroseed.asm"
+INCLUDE "data/pokemon/base_stats/ferrothorn.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red
@@ -384,6 +386,6 @@ INCLUDE "data/pokemon/base_stats/tauros_paldean_water.asm"
 
 INCLUDE "data/pokemon/base_stats/ursaluna_bloodmoon.asm"
 
-INCLUDE "data/pokemon/base_stats/unfezant.asm"
+INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
 
 	assert_table_length NUM_EXT_POKEMON

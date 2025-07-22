@@ -1477,6 +1477,16 @@ GalvantulaMini::     INCBIN "gfx/minis/galvantula.2bpp.lz"
 GalvantulaMiniMask:: INCBIN "gfx/minis/galvantula_mask.1bpp.lz"
 GalvantulaIcon::     INCBIN "gfx/icons/galvantula.2bpp.lz"
 
+SECTION "Ferroseed Mini Icon", ROMX
+FerroseedMini::     INCBIN "gfx/minis/ferroseed.2bpp.lz"
+FerroseedMiniMask:: INCBIN "gfx/minis/ferroseed_mask.1bpp.lz"
+FerroseedIcon::     INCBIN "gfx/icons/ferroseed.2bpp.lz"
+
+SECTION "Ferrothorn Mini Icon", ROMX
+FerrothornMini::     INCBIN "gfx/minis/ferrothorn.2bpp.lz"
+FerrothornMiniMask:: INCBIN "gfx/minis/ferrothorn_mask.1bpp.lz"
+FerrothornIcon::     INCBIN "gfx/icons/ferrothorn.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

@@ -73,6 +73,8 @@ AlphabeticalPokedexOrder:
 	dp EXEGGUTOR
 	dp FARFETCH_D
 	dp FERALIGATR
+	dp FERROSEED
+	dp FERROTHORN
 	dp FLAAFFY
 	dp FLAREON
 	dp FOONGUS

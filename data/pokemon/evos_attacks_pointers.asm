@@ -299,6 +299,8 @@ EvosAttacksPointers::
 	dw JellicentEvosAttacks
 	dw JoltikEvosAttacks
 	dw GalvantulaEvosAttacks
+	dw FerroseedEvosAttacks
+	dw FerrothornEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

@@ -1568,3 +1568,11 @@ JoltikBackpic:  INCBIN "gfx/pokemon/joltik/back.2bpp.lz"
 SECTION "Galvantula Pics", ROMX
 GalvantulaFrontpic: INCBIN "gfx/pokemon/galvantula/front.animated.2bpp.lz"
 GalvantulaBackpic:  INCBIN "gfx/pokemon/galvantula/back.2bpp.lz"
+
+SECTION "Ferroseed Pics", ROMX
+FerroseedFrontpic: INCBIN "gfx/pokemon/ferroseed/front.animated.2bpp.lz"
+FerroseedBackpic:  INCBIN "gfx/pokemon/ferroseed/back.2bpp.lz"
+
+SECTION "Ferrothorn Pics", ROMX
+FerrothornFrontpic: INCBIN "gfx/pokemon/ferrothorn/front.animated.2bpp.lz"
+FerrothornBackpic:  INCBIN "gfx/pokemon/ferrothorn/back.2bpp.lz"

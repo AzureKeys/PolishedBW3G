@@ -232,6 +232,8 @@ FoongusAnimationExtra:    INCLUDE "gfx/pokemon/foongus/anim_idle.asm"
 AmoongussAnimationExtra:  INCLUDE "gfx/pokemon/amoonguss/anim_idle.asm"
 JoltikAnimationExtra:     INCLUDE "gfx/pokemon/joltik/anim_idle.asm"
 GalvantulaAnimationExtra: INCLUDE "gfx/pokemon/galvantula/anim_idle.asm"
+FerroseedAnimationExtra:  INCLUDE "gfx/pokemon/ferroseed/anim_idle.asm"
+FerrothornAnimationExtra: INCLUDE "gfx/pokemon/ferrothorn/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

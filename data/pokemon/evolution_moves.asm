@@ -299,6 +299,8 @@ endc
 	db NO_MOVE      ; JELLICENT
 	db NO_MOVE      ; JOLTIK
 	db NO_MOVE      ; GALVANTULA
+	db NO_MOVE      ; FERROSEED
+	db SEED_BOMB    ; FERROTHORN
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

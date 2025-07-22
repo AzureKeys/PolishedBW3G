@@ -299,6 +299,8 @@ PokemonPicPointers::
 	pics JellicentMale
 	pics Joltik
 	pics Galvantula
+	pics Ferroseed
+	pics Ferrothorn
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

@@ -295,6 +295,8 @@ EggSpeciesMovesPointers::
 	dw FrillishEggSpeciesMoves          ; Jellicent
 	dw JoltikEggSpeciesMoves            ; Joltik
 	dw JoltikEggSpeciesMoves            ; Galvantula
+	dw FerroseedEggSpeciesMoves         ; Ferroseed
+	dw FerroseedEggSpeciesMoves         ; Ferrothorn
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

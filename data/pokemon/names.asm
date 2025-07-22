@@ -296,4 +296,6 @@ PokemonNames::
 	rawchar "Jellicent@"
 	rawchar "Joltik@@@@"
 	rawchar "Galvantula"
+	rawchar "Ferroseed@"
+	rawchar "Ferrothorn"
 	assert_table_length NUM_SPECIES + 1

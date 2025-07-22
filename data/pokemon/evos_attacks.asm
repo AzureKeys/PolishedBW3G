@@ -6114,6 +6114,45 @@ endc
 	learnset 46, SUCKER_PUNCH
 	;learnset 54, DISCHARGE
 	learnset 60, BUG_BUZZ
+	
+	evos_attacks Ferroseed
+	evo_data EVOLVE_LEVEL, 40, FERROTHORN
+	learnset 1, TACKLE
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 6, ROLLOUT
+	learnset 9, CURSE
+	learnset 14, METAL_CLAW
+	learnset 18, PIN_MISSILE
+	learnset 21, GYRO_BALL
+	learnset 26, BARRIER ; Iron Defense
+	;learnset 30, MIRROR_SHOT
+	learnset 35, HEALINGLIGHT ; Ingrain
+	;learnset 38, SELFDESTRUCT
+	learnset 43, IRON_HEAD
+	learnset 47, NIGHT_SLASH ; Payback
+	learnset 52, FLASH_CANNON
+	learnset 55, EXPLOSION
+	
+	evos_attacks Ferrothorn
+	learnset 1, SEED_BOMB
+	learnset 1, TACKLE
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 1, ROLLOUT
+	learnset 1, CURSE
+	learnset 6, ROLLOUT
+	learnset 9, CURSE
+	learnset 14, METAL_CLAW
+	learnset 18, PIN_MISSILE
+	learnset 21, GYRO_BALL
+	learnset 26, BARRIER ; Iron Defense
+	;learnset 30, MIRROR_SHOT
+	learnset 35, HEALINGLIGHT ; Ingrain
+	;learnset 38, SELFDESTRUCT
+	learnset 39, POWER_WHIP
+	learnset 46, IRON_HEAD
+	learnset 53, NIGHT_SLASH ; Payback
+	learnset 61, FLASH_CANNON
+	learnset 67, EXPLOSION
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

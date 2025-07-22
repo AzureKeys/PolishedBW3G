@@ -295,6 +295,8 @@ FramesPointers:
 	dw JellicentMaleFrames
 	dw JoltikFrames
 	dw GalvantulaFrames
+	dw FerroseedFrames
+	dw FerrothornFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

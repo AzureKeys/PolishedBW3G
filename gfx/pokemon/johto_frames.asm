@@ -170,6 +170,8 @@ FoongusFrames:    INCLUDE "gfx/pokemon/foongus/frames.asm"
 AmoongussFrames:  INCLUDE "gfx/pokemon/amoonguss/frames.asm"
 JoltikFrames:     INCLUDE "gfx/pokemon/joltik/frames.asm"
 GalvantulaFrames: INCLUDE "gfx/pokemon/galvantula/frames.asm"
+FerroseedFrames:  INCLUDE "gfx/pokemon/ferroseed/frames.asm"
+FerrothornFrames: INCLUDE "gfx/pokemon/ferrothorn/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

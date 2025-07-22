@@ -299,6 +299,8 @@ MiniIconPointers:
 	mini_icon JellicentMale
 	mini_icon Joltik
 	mini_icon Galvantula
+	mini_icon Ferroseed
+	mini_icon Ferrothorn
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

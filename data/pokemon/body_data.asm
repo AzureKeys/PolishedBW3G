@@ -302,6 +302,8 @@ PokemonBodyData:
 	body_data  22, 1350, TENTACLES,    WHITE  ; JELLICENT
 	body_data   1,    6, INSECTOID,    YELLOW ; JOLTIK
 	body_data   8,  143, INSECTOID,    YELLOW ; GALVANTULA
+	body_data   6,  188, HEAD,         GRAY   ; FERROSEED
+	body_data  10, 1100, TENTACLES,    GRAY   ; FERROTHORN
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

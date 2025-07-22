@@ -2917,6 +2917,26 @@ GalvantulaPokedexEntry::
 	next "They eat the"
 	next "stunned target.@"
 
+SECTION "FerroseedPokedexEntry", ROMX
+FerroseedPokedexEntry::
+	db "Thorn Seed@"
+	db "When attacked, it"
+	next "shoots out a"
+	next "barrage of spikes,"
+	page "which give it a"
+	next "chance to roll"
+	next "away.@"
+
+SECTION "FerrothornPokedexEntry", ROMX
+FerrothornPokedexEntry::
+	db "Thorn Pod@"
+	db "It fights by"
+	next "swinging around"
+	next "its three spiky"
+	page "feelers. A hit"
+	next "from one can"
+	next "break a boulder.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

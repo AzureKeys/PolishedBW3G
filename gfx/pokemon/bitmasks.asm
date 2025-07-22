@@ -232,6 +232,8 @@ FoongusBitmasks:    INCLUDE "gfx/pokemon/foongus/bitmask.asm"
 AmoongussBitmasks:  INCLUDE "gfx/pokemon/amoonguss/bitmask.asm"
 JoltikBitmasks:     INCLUDE "gfx/pokemon/joltik/bitmask.asm"
 GalvantulaBitmasks: INCLUDE "gfx/pokemon/galvantula/bitmask.asm"
+FerroseedBitmasks:  INCLUDE "gfx/pokemon/ferroseed/bitmask.asm"
+FerrothornBitmasks: INCLUDE "gfx/pokemon/ferrothorn/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

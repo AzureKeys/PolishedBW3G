@@ -295,6 +295,8 @@ FootprintPointers::
 	dw JellicentFootprint
 	dw JoltikFootprint
 	dw GalvantulaFootprint
+	dw FerroseedFootprint
+	dw FerrothornFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

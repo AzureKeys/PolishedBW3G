@@ -104,6 +104,8 @@ FrillishFootprint::
 JellicentFootprint::
 JoltikFootprint::
 GalvantulaFootprint::
+FerroseedFootprint::
+FerrothornFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

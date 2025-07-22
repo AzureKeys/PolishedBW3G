@@ -1233,5 +1233,11 @@ JoltikEggSpeciesMoves:
 	db PURSUIT
 	db $ff
 
+FerroseedEggSpeciesMoves:
+	dp FERROSEED, PLAIN_FORM
+	db LEECH_SEED
+	db SEED_BOMB
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

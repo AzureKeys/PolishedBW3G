@@ -34,4 +34,6 @@ HardenUsers:
 	dp VANILLITE
 	dp VANILLISH
 	dp VANILLUXE
+	dp FERROSEED
+	dp FERROTHORN
 	db 0

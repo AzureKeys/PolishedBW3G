@@ -295,6 +295,8 @@ BitmasksPointers:
 	dw JellicentMaleBitmasks
 	dw JoltikBitmasks
 	dw GalvantulaBitmasks
+	dw FerroseedBitmasks
+	dw FerrothornBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
