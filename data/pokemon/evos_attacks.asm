@@ -724,80 +724,6 @@ endc
 	learnset 59, HEALINGLIGHT ; Rage Powder → new move
 	learnset 66, X_SCISSOR
 
-	evos_attacks DiglettPlain
-	evo_data EVOLVE_LEVEL, 26, DUGTRIO, PLAIN_FORM
-	learnset 1, MUD_SLAP ; Sand Attack → Mud-Slap
-	learnset 1, SCRATCH
-	learnset 1, CHARM ; XD move
-	learnset 4, GROWL
-	learnset 7, ASTONISH
-	learnset 10, AGILITY ; Mud-Slap → LGPE move
-	learnset 14, MAGNITUDE
-	learnset 18, BULLDOZE
-	learnset 22, SUCKER_PUNCH
-	learnset 25, ANCIENTPOWER ; Mud Bomb → egg move
-	learnset 28, EARTH_POWER
-	learnset 31, DIG
-	learnset 35, SLASH
-	learnset 39, EARTHQUAKE
-	learnset 43, NIGHT_SLASH ; Fissure → Dugtrio move
-
-	evos_attacks DiglettAlolan
-	evo_data EVOLVE_LEVEL, 26, DUGTRIO, ALOLAN_FORM
-	learnset 1, MUD_SLAP ; Sand Attack → Mud-Slap
-	learnset 1, METAL_CLAW
-	learnset 1, CHARM ; XD move
-	learnset 4, GROWL
-	learnset 7, ASTONISH
-	learnset 10, AGILITY ; Mud-Slap → LGPE move
-	learnset 14, MAGNITUDE
-	learnset 18, BULLDOZE
-	learnset 22, SUCKER_PUNCH
-	learnset 25, ANCIENTPOWER ; Mud Bomb → egg move
-	learnset 28, EARTH_POWER
-	learnset 31, DIG
-	learnset 35, IRON_HEAD
-	learnset 39, EARTHQUAKE
-	learnset 43, NIGHT_SLASH ; Fissure → Dugtrio move
-
-	evos_attacks DugtrioPlain
-	learnset 1, TRI_ATTACK ; Sand Tomb → Tri Attack ; evolution move
-	learnset 1, NIGHT_SLASH
-	learnset 1, MUD_SLAP ; Sand Attack → Mud-Slap
-	learnset 1, SCRATCH
-	learnset 1, CHARM ; XD move
-	learnset 4, GROWL
-	learnset 7, ASTONISH
-	learnset 10, AGILITY ; Mud-Slap → LGPE move
-	learnset 14, MAGNITUDE
-	learnset 18, BULLDOZE
-	learnset 22, SUCKER_PUNCH
-	learnset 25, ANCIENTPOWER ; Mud Bomb → egg move
-	learnset 30, EARTH_POWER
-	learnset 35, DIG
-	learnset 41, SLASH
-	learnset 47, EARTHQUAKE
-	learnset 53, NIGHT_SLASH ; Fissure → Night Slash
-
-	evos_attacks DugtrioAlolan
-	learnset 1, TRI_ATTACK ; Sand Tomb → Tri Attack ; evolution move
-	learnset 1, NIGHT_SLASH
-	learnset 1, MUD_SLAP ; Sand Attack → Mud-Slap
-	learnset 1, METAL_CLAW
-	learnset 1, CHARM ; XD move
-	learnset 4, GROWL
-	learnset 7, ASTONISH
-	learnset 10, AGILITY ; Mud-Slap → LGPE move
-	learnset 14, MAGNITUDE
-	learnset 18, BULLDOZE
-	learnset 22, SUCKER_PUNCH
-	learnset 25, ANCIENTPOWER ; Mud Bomb → egg move
-	learnset 30, EARTH_POWER
-	learnset 35, DIG
-	learnset 41, IRON_HEAD
-	learnset 47, EARTHQUAKE
-	learnset 53, NIGHT_SLASH ; Fissure → Night Slash
-
 	evos_attacks MeowthPlain
 	evo_data EVOLVE_LEVEL, 28, PERSIAN, PLAIN_FORM
 	learnset 1, SCRATCH
@@ -6119,6 +6045,38 @@ endc
 	learnset 49, SOLAR_BEAM
 	; Skipped Rage Powder
 	learnset 54, SPORE
+	
+	evos_attacks Frillish
+	evo_data EVOLVE_LEVEL, 40, JELLICENT, NO_FORM ; preserve pre-evo form
+	learnset 1, WATER_GUN ; Bubble
+	learnset 5, ABSORB
+	learnset 9, NIGHT_SHADE
+	learnset 13, BUBBLE_BEAM
+	learnset 17, RECOVER
+	learnset 22, WATER_PULSE
+	learnset 27, HEX ; Ominous Wind
+	learnset 32, SCALD ; Brine
+	learnset 37, RAIN_DANCE
+	learnset 43, SHADOW_BALL ; Hex
+	learnset 49, HYDRO_PUMP
+	learnset 55, GIGA_DRAIN ; Wring Out
+	
+	evos_attacks Jellicent
+	learnset 1, GIGA_DRAIN ; Wring Out
+	learnset 1, WATER_GUN ; Bubble
+	learnset 1, ABSORB
+	learnset 1, NIGHT_SHADE
+	learnset 5, ABSORB
+	learnset 9, NIGHT_SHADE
+	learnset 13, BUBBLE_BEAM
+	learnset 17, RECOVER
+	learnset 22, WATER_PULSE
+	learnset 27, HEX ; Ominous Wind
+	learnset 32, SCALD ; Brine
+	learnset 37, RAIN_DANCE
+	learnset 45, SHADOW_BALL ; Hex
+	learnset 53, HYDRO_PUMP
+	learnset 61, GIGA_DRAIN ; Wring Out
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

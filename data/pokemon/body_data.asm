@@ -40,8 +40,6 @@ PokemonBodyData:
 	body_data  16,  550, WINGS,        PURPLE ; GOLBAT
 	body_data   3,   54, INSECTOID,    RED    ; PARAS
 	body_data  10,  295, INSECTOID,    RED    ; PARASECT
-	body_data   2,    8, HEAD_BASE,    BROWN  ; DIGLETT
-	body_data   7,  333, MULTIBODY,    BROWN  ; DUGTRIO
 	body_data   4,   42, QUADRUPED,    YELLOW ; MEOWTH
 	body_data  10,  320, QUADRUPED,    YELLOW ; PERSIAN
 	body_data   8,  196, BIPEDAL_TAIL, YELLOW ; PSYDUCK
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  10,  180, FINS,         GREEN  ; BASCULIN
 	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE
 	body_data  10,  334, QUADRUPED,    BROWN  ; KROKOROK
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  13,  929, QUADRUPED,    RED    ; DARMANITAN
 	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
@@ -300,6 +298,8 @@ PokemonBodyData:
 	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
 	body_data   2,   10, HEAD_ARMS,    WHITE  ; FOONGUS
 	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
+	body_data  12,  330, TENTACLES,    WHITE  ; FRILLISH
+	body_data  22, 1350, TENTACLES,    WHITE  ; JELLICENT
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -315,8 +315,6 @@ PokemonBodyData:
 	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; SANDSLASH (ALOLAN_FORM)
 	body_data   6,   99, QUADRUPED,    WHITE  ; VULPIX (ALOLAN_FORM)
 	body_data  11,  199, QUADRUPED,    BLUE   ; NINETALES (ALOLAN_FORM)
-	body_data   2,   10, HEAD_BASE,    BROWN  ; DIGLETT (ALOLAN_FORM)
-	body_data   7,  666, MULTIBODY,    BROWN  ; DUGTRIO (ALOLAN_FORM)
 	body_data   4,   42, QUADRUPED,    BLUE   ; MEOWTH (ALOLAN_FORM)
 	body_data  11,  330, QUADRUPED,    BLUE   ; PERSIAN (ALOLAN_FORM)
 	body_data   4,  203, HEAD_ARMS,    GRAY   ; GEODUDE (ALOLAN_FORM)

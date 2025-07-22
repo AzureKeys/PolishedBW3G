@@ -332,26 +332,6 @@ ParasectPokedexEntry::
 	next "back leave spores"
 	next "on the bug's egg.@"
 
-SECTION "DiglettPlainPokedexEntry", ROMX
-DiglettPlainPokedexEntry::
-	db "Mole@"
-	db   "It digs under-"
-	next "ground and chews"
-	next "on tree roots,"
-	page "sticking its head"
-	next "out only when the"
-	next "sun isn't bright.@"
-
-SECTION "DugtrioPlainPokedexEntry", ROMX
-DugtrioPlainPokedexEntry::
-	db "Mole@"
-	db   "Its three heads"
-	next "bob separately up"
-	next "and down to loosen"
-	page "the soil nearby,"
-	next "making it easier"
-	next "for it to burrow.@"
-
 SECTION "MeowthPlainPokedexEntry", ROMX
 MeowthPlainPokedexEntry::
 	db "Scratch Cat@"
@@ -2897,6 +2877,26 @@ AmoongussPokedexEntry::
 	next "#balls, in a"
 	next "swaying dance.@"
 
+SECTION "FrillishPokedexEntry", ROMX
+FrillishPokedexEntry::
+	db "Floating@"
+	db "They paralyze prey"
+	next "with poison, then"
+	next "drag them down"
+	page "deep underwater"
+	next "to their hidden"
+	next "lairs.@"
+
+SECTION "JellicentPokedexEntry", ROMX
+JellicentPokedexEntry::
+	db "Floating@"
+	db "They swim by"
+	next "expelling sea-"
+	next "water from their"
+	page "bodies. Their"
+	next "favorite food is"
+	next "life energy.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -2986,26 +2986,6 @@ NinetalesAlolanPokedexEntry::
 	page "mountain's base is"
 	next "so that they hurry"
 	next "up and leave.@"
-
-SECTION "DiglettAlolanPokedexEntry", ROMX
-DiglettAlolanPokedexEntry::
-	db "Mole@"
-	db   "The metal-rich"
-	next "geology of this"
-	next "#mon's habitat"
-	page "caused it to de-"
-	next "velop steel whis-"
-	next "kers on its head.@"
-
-SECTION "DugtrioAlolanPokedexEntry", ROMX
-DugtrioAlolanPokedexEntry::
-	db "Mole@"
-	db   "Its metallic whis-"
-	next "kers are heavy, so"
-	next "it's not very fast,"
-	page "but it has the"
-	next "power to dig"
-	next "through bedrock.@"
 
 SECTION "MeowthAlolanPokedexEntry", ROMX
 MeowthAlolanPokedexEntry::

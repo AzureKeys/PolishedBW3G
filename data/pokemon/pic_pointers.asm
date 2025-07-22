@@ -37,8 +37,6 @@ PokemonPicPointers::
 	pics Golbat
 	pics Paras
 	pics Parasect
-	pics DiglettPlain
-	pics DugtrioPlain
 	pics MeowthPlain
 	pics PersianPlain
 	pics Psyduck
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics BasculinRed ; BasculinWhite
 	pics Sandile
 	pics Krokorok
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Krookodile
 	pics DarumakaPlain
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics DarmanitanPlain
 	pics Maractus
 	pics Dwebble
@@ -297,6 +295,8 @@ PokemonPicPointers::
 	pics Escavalier
 	pics Foongus
 	pics Amoonguss
+	pics FrillishMale
+	pics JellicentMale
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -375,8 +375,6 @@ PokemonPicPointers::
 	pics SandslashAlolan
 	pics VulpixAlolan
 	pics NinetalesAlolan
-	pics DiglettAlolan
-	pics DugtrioAlolan
 	pics MeowthAlolan
 	pics PersianAlolan
 	pics GeodudeAlolan

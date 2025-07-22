@@ -172,16 +172,6 @@ ParasectMini::     INCBIN "gfx/minis/parasect.2bpp.lz"
 ParasectMiniMask:: INCBIN "gfx/minis/parasect_mask.1bpp.lz"
 ParasectIcon::     INCBIN "gfx/icons/parasect.2bpp.lz"
 
-SECTION "Diglett Mini Icon", ROMX
-DiglettMini::     INCBIN "gfx/minis/diglett.2bpp.lz"
-DiglettMiniMask:: INCBIN "gfx/minis/diglett_mask.1bpp.lz"
-DiglettIcon::     INCBIN "gfx/icons/diglett.2bpp.lz"
-
-SECTION "Dugtrio Mini Icon", ROMX
-DugtrioMini::     INCBIN "gfx/minis/dugtrio.2bpp.lz"
-DugtrioMiniMask:: INCBIN "gfx/minis/dugtrio_mask.1bpp.lz"
-DugtrioIcon::     INCBIN "gfx/icons/dugtrio.2bpp.lz"
-
 SECTION "Meowth Mini Icon", ROMX
 MeowthMini::     INCBIN "gfx/minis/meowth.2bpp.lz"
 MeowthMiniMask:: INCBIN "gfx/minis/meowth_mask.1bpp.lz"
@@ -1467,6 +1457,16 @@ AmoongussMini::     INCBIN "gfx/minis/amoonguss.2bpp.lz"
 AmoongussMiniMask:: INCBIN "gfx/minis/amoonguss_mask.1bpp.lz"
 AmoongussIcon::     INCBIN "gfx/icons/amoonguss.2bpp.lz"
 
+SECTION "FrillishMale Mini Icon", ROMX
+FrillishMaleMini::     INCBIN "gfx/minis/frillish_male.2bpp.lz"
+FrillishMaleMiniMask:: INCBIN "gfx/minis/frillish_male_mask.1bpp.lz"
+FrillishMaleIcon::     INCBIN "gfx/icons/frillish_male.2bpp.lz"
+
+SECTION "JellicentMale Mini Icon", ROMX
+JellicentMaleMini::     INCBIN "gfx/minis/jellicent_male.2bpp.lz"
+JellicentMaleMiniMask:: INCBIN "gfx/minis/jellicent_male_mask.1bpp.lz"
+JellicentMaleIcon::     INCBIN "gfx/icons/jellicent_male.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1646,16 +1646,6 @@ SECTION "NinetalesAlolan Mini Icon", ROMX
 NinetalesAlolanMini::     INCBIN "gfx/minis/ninetales_alolan.2bpp.lz"
 NinetalesAlolanMiniMask:: INCBIN "gfx/minis/ninetales_alolan_mask.1bpp.lz"
 NinetalesAlolanIcon::     INCBIN "gfx/icons/ninetales_alolan.2bpp.lz"
-
-SECTION "DiglettAlolan Mini Icon", ROMX
-DiglettAlolanMini::     INCBIN "gfx/minis/diglett_alolan.2bpp.lz"
-DiglettAlolanMiniMask:: INCBIN "gfx/minis/diglett_alolan_mask.1bpp.lz"
-DiglettAlolanIcon::     INCBIN "gfx/icons/diglett_alolan.2bpp.lz"
-
-SECTION "DugtrioAlolan Mini Icon", ROMX
-DugtrioAlolanMini::     INCBIN "gfx/minis/dugtrio_alolan.2bpp.lz"
-DugtrioAlolanMiniMask:: INCBIN "gfx/minis/dugtrio_alolan_mask.1bpp.lz"
-DugtrioAlolanIcon::     INCBIN "gfx/icons/dugtrio_alolan.2bpp.lz"
 
 SECTION "MeowthAlolan Mini Icon", ROMX
 MeowthAlolanMini::     INCBIN "gfx/minis/meowth_alolan.2bpp.lz"

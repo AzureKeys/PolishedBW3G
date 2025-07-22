@@ -91,6 +91,8 @@ NewPokedexOrder:
 	dp ESCAVALIER
 	dp FOONGUS
 	dp AMOONGUSS
+	dp FRILLISH
+	dp JELLICENT
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -187,8 +189,6 @@ NewPokedexOrder:
 	dp AZURILL
 	dp MARILL
 	dp AZUMARILL
-	dp DIGLETT
-	dp DUGTRIO
 	dp MANKEY
 	dp PRIMEAPE
 	dp ANNIHILAPE

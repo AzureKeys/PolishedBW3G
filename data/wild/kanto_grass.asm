@@ -3,29 +3,29 @@
 	def_grass_wildmons DIGLETTS_CAVE
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 54, DIGLETT
-	wildmon 56, DIGLETT
-	wildmon 53, DIGLETT
-	wildmon 55, DIGLETT
-	wildmon 57, DUGTRIO
-	wildmon 58, DUGTRIO
-	wildmon 60, DUGTRIO
+	wildmon 54, RATTATA
+	wildmon 56, RATTATA
+	wildmon 53, RATTATA
+	wildmon 55, RATTATA
+	wildmon 57, RATTATA
+	wildmon 58, RATTATA
+	wildmon 60, RATTATA
 	; day
-	wildmon 54, DIGLETT
-	wildmon 56, DIGLETT
-	wildmon 53, DIGLETT
-	wildmon 55, DIGLETT
-	wildmon 57, DUGTRIO
-	wildmon 58, DUGTRIO
-	wildmon 60, DUGTRIO
+	wildmon 54, RATTATA
+	wildmon 56, RATTATA
+	wildmon 53, RATTATA
+	wildmon 55, RATTATA
+	wildmon 57, RATTATA
+	wildmon 58, RATTATA
+	wildmon 60, RATTATA
 	; nite
-	wildmon 54, DIGLETT
-	wildmon 56, DIGLETT
-	wildmon 53, DIGLETT
-	wildmon 55, DIGLETT
-	wildmon 57, DUGTRIO
-	wildmon 58, DUGTRIO
-	wildmon 60, DUGTRIO
+	wildmon 54, RATTATA
+	wildmon 56, RATTATA
+	wildmon 53, RATTATA
+	wildmon 55, RATTATA
+	wildmon 57, RATTATA
+	wildmon 58, RATTATA
+	wildmon 60, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON_1F
@@ -1911,7 +1911,7 @@
 	wildmon 58, GRAVELER
 	wildmon 57, RATTATA
 	wildmon 59, RATTATA
-	wildmon 60, DIGLETT, ALOLAN_FORM
+	wildmon 60, RATTATA, ALOLAN_FORM
 	wildmon 61, MAGMAR
 	wildmon 62, MAGMAR
 	; day
@@ -1919,7 +1919,7 @@
 	wildmon 58, GRAVELER
 	wildmon 57, RATTATA
 	wildmon 59, RATTATA
-	wildmon 60, DIGLETT, ALOLAN_FORM
+	wildmon 60, RATTATA, ALOLAN_FORM
 	wildmon 61, MAGMAR
 	wildmon 62, MAGMAR
 	; nite
@@ -1928,7 +1928,7 @@
 	wildmon 57, GRAVELER
 	wildmon 59, RATTATA
 	wildmon 60, RATTATA
-	wildmon 61, DIGLETT, ALOLAN_FORM
+	wildmon 61, RATTATA, ALOLAN_FORM
 	wildmon 62, MAGMAR
 	end_grass_wildmons
 
@@ -1938,7 +1938,7 @@
 	wildmon 58, GRAVELER
 	wildmon 60, WEEZING
 	wildmon 59, RATTATA
-	wildmon 61, DIGLETT, ALOLAN_FORM
+	wildmon 61, RATTATA, ALOLAN_FORM
 	wildmon 62, MAGMAR
 	wildmon 63, STEELIX
 	wildmon 64, STEELIX
@@ -1946,7 +1946,7 @@
 	wildmon 58, GRAVELER
 	wildmon 60, WEEZING
 	wildmon 59, RATTATA
-	wildmon 61, DIGLETT, ALOLAN_FORM
+	wildmon 61, RATTATA, ALOLAN_FORM
 	wildmon 62, MAGMAR
 	wildmon 63, STEELIX
 	wildmon 64, STEELIX
@@ -1955,7 +1955,7 @@
 	wildmon 60, GRAVELER
 	wildmon 59, WEEZING
 	wildmon 61, RATTATA
-	wildmon 62, DIGLETT, ALOLAN_FORM
+	wildmon 62, RATTATA, ALOLAN_FORM
 	wildmon 63, MAGMAR
 	wildmon 64, STEELIX
 	end_grass_wildmons
@@ -1966,7 +1966,7 @@
 	wildmon 60, RATTATA
 	wildmon 62, WEEZING
 	wildmon 61, RATTATA
-	wildmon 63, DUGTRIO, ALOLAN_FORM
+	wildmon 63, RATTATA, ALOLAN_FORM
 	wildmon 64, MAGMAR
 	wildmon 65, STEELIX
 	wildmon 66, STEELIX
@@ -1974,14 +1974,14 @@
 	wildmon 60, RATTATA
 	wildmon 62, WEEZING
 	wildmon 61, RATTATA
-	wildmon 63, DUGTRIO, ALOLAN_FORM
+	wildmon 63, RATTATA, ALOLAN_FORM
 	wildmon 64, MAGMAR
 	wildmon 65, STEELIX
 	wildmon 66, STEELIX
 	; nite
 	wildmon 60, RATTATA
 	wildmon 62, WEEZING
-	wildmon 61, DUGTRIO, ALOLAN_FORM
+	wildmon 61, RATTATA, ALOLAN_FORM
 	wildmon 63, MAGMAR
 	wildmon 64, STEELIX
 	wildmon 65, GENGAR

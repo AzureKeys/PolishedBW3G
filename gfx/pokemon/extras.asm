@@ -329,12 +329,6 @@ VulpixAlolanAnimationExtra: INCLUDE "gfx/pokemon/vulpix_alolan/anim_idle.asm"
 NinetalesPlainAnimationExtra:  INCLUDE "gfx/pokemon/ninetales_plain/anim_idle.asm"
 NinetalesAlolanAnimationExtra: INCLUDE "gfx/pokemon/ninetales_alolan/anim_idle.asm"
 
-DiglettPlainAnimationExtra:  INCLUDE "gfx/pokemon/diglett_plain/anim_idle.asm"
-DiglettAlolanAnimationExtra: INCLUDE "gfx/pokemon/diglett_alolan/anim_idle.asm"
-
-DugtrioPlainAnimationExtra:  INCLUDE "gfx/pokemon/dugtrio_plain/anim_idle.asm"
-DugtrioAlolanAnimationExtra: INCLUDE "gfx/pokemon/dugtrio_alolan/anim_idle.asm"
-
 MeowthPlainAnimationExtra:  INCLUDE "gfx/pokemon/meowth_plain/anim_idle.asm"
 MeowthAlolanAnimationExtra: INCLUDE "gfx/pokemon/meowth_alolan/anim_idle.asm"
 MeowthGalarianAnimationExtra: INCLUDE "gfx/pokemon/meowth_galarian/anim_idle.asm"
@@ -453,3 +447,7 @@ ZoroarkPlainAnimationExtra: INCLUDE "gfx/pokemon/zoroark_plain/anim_idle.asm"
 DeerlingSpringAnimationExtra: INCLUDE "gfx/pokemon/deerling_spring/anim_idle.asm"
 
 SawsbuckSpringAnimationExtra: INCLUDE "gfx/pokemon/sawsbuck_spring/anim_idle.asm"
+
+FrillishMaleAnimationExtra:   INCLUDE "gfx/pokemon/frillish_male/anim_idle.asm"
+
+JellicentMaleAnimationExtra:   INCLUDE "gfx/pokemon/jellicent_male/anim_idle.asm"

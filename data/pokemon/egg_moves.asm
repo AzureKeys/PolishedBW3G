@@ -150,26 +150,6 @@ ParasEggSpeciesMoves:
 	db SHADOW_CLAW
 	db $ff
 
-DiglettPlainEggSpeciesMoves:
-	dp DIGLETT, PLAIN_FORM
-	db ANCIENTPOWER
-	db FEINT_ATTACK
-	db HEADBUTT
-	db PURSUIT
-	db REVERSAL
-	db SCREECH
-	db $ff
-
-DiglettAlolanEggSpeciesMoves:
-	dp DIGLETT, ALOLAN_FORM
-	db ANCIENTPOWER
-	db FEINT_ATTACK
-	db HEADBUTT
-	db PURSUIT
-	db REVERSAL
-	db SCREECH
-	db $ff
-
 MeowthPlainEggSpeciesMoves:
 	dp MEOWTH, PLAIN_FORM
 	db CHARM
@@ -1232,6 +1212,15 @@ FoongusEggSpeciesMoves:
 	db POISONPOWDER
 	db ROLLOUT
 	db STUN_SPORE
+	db $ff
+
+FrillishEggSpeciesMoves:
+	dp FRILLISH, NO_FORM
+	;db ACID_ARMOR
+	db CONFUSE_RAY
+	;db MIST
+	db PAIN_SPLIT
+	db RECOVER
 	db $ff
 
 NoEggSpeciesMoves:

@@ -33,8 +33,6 @@ FootprintPointers::
 	dw GolbatFootprint
 	dw ParasFootprint
 	dw ParasectFootprint
-	dw DiglettFootprint
-	dw DugtrioFootprint
 	dw MeowthFootprint
 	dw PersianFootprint
 	dw PsyduckFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw BasculinFootprint
 	dw SandileFootprint
 	dw KrokorokFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw KrookodileFootprint
 	dw DarumakaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw DarmanitanFootprint
 	dw MaractusFootprint
 	dw DwebbleFootprint
@@ -293,6 +291,8 @@ FootprintPointers::
 	dw EscavalierFootprint
 	dw FoongusFootprint
 	dw AmoongussFootprint
+	dw FrillishFootprint
+	dw JellicentFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -308,8 +308,6 @@ FootprintPointers::
 	dw SandslashFootprint
 	dw VulpixFootprint
 	dw NinetalesFootprint
-	dw DiglettFootprint
-	dw DugtrioFootprint
 	dw MeowthFootprint
 	dw PersianFootprint
 	dw GeodudeFootprint

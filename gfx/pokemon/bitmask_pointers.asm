@@ -33,8 +33,6 @@ BitmasksPointers:
 	dw GolbatBitmasks
 	dw ParasBitmasks
 	dw ParasectBitmasks
-	dw DiglettPlainBitmasks
-	dw DugtrioPlainBitmasks
 	dw MeowthPlainBitmasks
 	dw PersianPlainBitmasks
 	dw PsyduckBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw BasculinRedBitmasks ; BasculinWhiteBitmasks
 	dw SandileBitmasks
 	dw KrokorokBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw KrookodileBitmasks
 	dw DarumakaPlainBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw DarmanitanPlainBitmasks
 	dw MaractusBitmasks
 	dw DwebbleBitmasks
@@ -293,6 +291,8 @@ BitmasksPointers:
 	dw EscavalierBitmasks
 	dw FoongusBitmasks
 	dw AmoongussBitmasks
+	dw FrillishMaleBitmasks
+	dw JellicentMaleBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -371,8 +371,6 @@ BitmasksPointers:
 	dw SandslashAlolanBitmasks
 	dw VulpixAlolanBitmasks
 	dw NinetalesAlolanBitmasks
-	dw DiglettAlolanBitmasks
-	dw DugtrioAlolanBitmasks
 	dw MeowthAlolanBitmasks
 	dw PersianAlolanBitmasks
 	dw GeodudeAlolanBitmasks

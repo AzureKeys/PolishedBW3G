@@ -44,7 +44,6 @@ UniqueWildMoves:
 	unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
-	unique_moves DIGLETTS_CAVE,    DUGTRIO,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move

@@ -37,8 +37,6 @@ MiniIconPointers:
 	mini_icon Golbat
 	mini_icon Paras
 	mini_icon Parasect
-	mini_icon Diglett
-	mini_icon Dugtrio
 	mini_icon Meowth
 	mini_icon Persian
 	mini_icon Psyduck
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Basculin
 	mini_icon Sandile
 	mini_icon Krokorok
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Krookodile
 	mini_icon Darumaka
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Darmanitan
 	mini_icon Maractus
 	mini_icon Dwebble
@@ -297,6 +295,8 @@ MiniIconPointers:
 	mini_icon Escavalier
 	mini_icon Foongus
 	mini_icon Amoonguss
+	mini_icon FrillishMale
+	mini_icon JellicentMale
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -359,8 +359,6 @@ endr
 	mini_icon SandslashAlolan
 	mini_icon VulpixAlolan
 	mini_icon NinetalesAlolan
-	mini_icon DiglettAlolan
-	mini_icon DugtrioAlolan
 	mini_icon MeowthAlolan
 	mini_icon PersianAlolan
 	mini_icon GeodudeAlolan

@@ -37,8 +37,6 @@ EvosAttacksPointers::
 	dw GolbatEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
-	dw DiglettPlainEvosAttacks
-	dw DugtrioPlainEvosAttacks
 	dw MeowthPlainEvosAttacks
 	dw PersianPlainEvosAttacks
 	dw PsyduckEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw BasculinEvosAttacks
 	dw SandileEvosAttacks
 	dw KrokorokEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw KrookodileEvosAttacks
 	dw DarumakaPlainEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw DarmanitanPlainEvosAttacks
 	dw MaractusEvosAttacks
 	dw DwebbleEvosAttacks
@@ -297,6 +295,8 @@ EvosAttacksPointers::
 	dw EscavalierEvosAttacks
 	dw FoongusEvosAttacks
 	dw AmoongussEvosAttacks
+	dw FrillishEvosAttacks
+	dw JellicentEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -312,8 +312,6 @@ EvosAttacksPointers::
 	dw SandslashAlolanEvosAttacks
 	dw VulpixAlolanEvosAttacks
 	dw NinetalesAlolanEvosAttacks
-	dw DiglettAlolanEvosAttacks
-	dw DugtrioAlolanEvosAttacks
 	dw MeowthAlolanEvosAttacks
 	dw PersianAlolanEvosAttacks
 	dw GeodudeAlolanEvosAttacks

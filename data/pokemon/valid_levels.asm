@@ -34,8 +34,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  22, 100 ; Golbat
 	db   1,  23 ; Paras
 	db  24, 100 ; Parasect
-	db   1,  25 ; Diglett
-	db  26, 100 ; Dugtrio
 	db   1,  27 ; Meowth
 	db  28, 100 ; Persian
 	db   1,  32 ; Psyduck
@@ -259,10 +257,10 @@ endc
 	db  15, 100 ; Basculin
 	db   1,  28 ; Sandile
 	db  29,  39 ; Krokorok
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  40, 100 ; Krookodile
 	db   1,  34 ; Darumaka
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus
 	db   1,  33 ; Dwebble
@@ -298,4 +296,6 @@ endc
 	db  30, 100 ; Escavalier
 	db   1,  38 ; Foongus
 	db  39, 100 ; Amoonguss
+	db   1,  39 ; Frillish
+	db  40, 100 ; Jellicent
 	assert_table_length NUM_SPECIES

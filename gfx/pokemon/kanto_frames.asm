@@ -126,12 +126,6 @@ VulpixAlolanFrames: INCLUDE "gfx/pokemon/vulpix_alolan/frames.asm"
 NinetalesPlainFrames:  INCLUDE "gfx/pokemon/ninetales_plain/frames.asm"
 NinetalesAlolanFrames: INCLUDE "gfx/pokemon/ninetales_alolan/frames.asm"
 
-DiglettPlainFrames:  INCLUDE "gfx/pokemon/diglett_plain/frames.asm"
-DiglettAlolanFrames: INCLUDE "gfx/pokemon/diglett_alolan/frames.asm"
-
-DugtrioPlainFrames:  INCLUDE "gfx/pokemon/dugtrio_plain/frames.asm"
-DugtrioAlolanFrames: INCLUDE "gfx/pokemon/dugtrio_alolan/frames.asm"
-
 MeowthPlainFrames:    INCLUDE "gfx/pokemon/meowth_plain/frames.asm"
 MeowthAlolanFrames:   INCLUDE "gfx/pokemon/meowth_alolan/frames.asm"
 MeowthGalarianFrames: INCLUDE "gfx/pokemon/meowth_galarian/frames.asm"

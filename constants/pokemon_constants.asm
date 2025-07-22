@@ -57,8 +57,6 @@
 	const GOLBAT     ; 14
 	const PARAS      ; 15
 	const PARASECT   ; 16
-	const DIGLETT    ; xx
-	const DUGTRIO    ; xx
 	const MEOWTH     ; 17
 	const PERSIAN    ; 18
 	const PSYDUCK    ; 19
@@ -278,10 +276,10 @@
 	const BASCULIN   ; 12b
 	const SANDILE    ; 12c
 	const KROKOROK   ; 12d
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const KROOKODILE ; 12e
 	const DARUMAKA   ; 12f
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const DARMANITAN ; 130
 	const MARACTUS   ; 131
 	const DWEBBLE    ; 132
@@ -317,6 +315,8 @@
 	const ESCAVALIER ; 152
 	const FOONGUS    ; 153
 	const AMOONGUSS  ; 154
+	const FRILLISH   ; 155
+	const JELLICENT  ; 156
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -450,8 +450,6 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 163 sandslash
 	const_skip ; 164 vulpix
 	const_skip ; 165 ninetales
-	const_skip ; 166 diglett
-	const_skip ; 167 dugtrio
 	const_skip ; 168 meowth
 	const_skip ; 169 persian
 	const_skip ; 16a geodude

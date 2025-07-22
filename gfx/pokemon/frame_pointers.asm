@@ -33,8 +33,6 @@ FramesPointers:
 	dw GolbatFrames
 	dw ParasFrames
 	dw ParasectFrames
-	dw DiglettPlainFrames
-	dw DugtrioPlainFrames
 	dw MeowthPlainFrames
 	dw PersianPlainFrames
 	dw PsyduckFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw BasculinRedFrames ; BasculinWhiteFrames
 	dw SandileFrames
 	dw KrokorokFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw KrookodileFrames
 	dw DarumakaPlainFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw DarmanitanPlainFrames
 	dw MaractusFrames
 	dw DwebbleFrames
@@ -293,6 +291,8 @@ FramesPointers:
 	dw EscavalierFrames
 	dw FoongusFrames
 	dw AmoongussFrames
+	dw FrillishMaleFrames
+	dw JellicentMaleFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -371,8 +371,6 @@ FramesPointers:
 	dw SandslashAlolanFrames
 	dw VulpixAlolanFrames
 	dw NinetalesAlolanFrames
-	dw DiglettAlolanFrames
-	dw DugtrioAlolanFrames
 	dw MeowthAlolanFrames
 	dw PersianAlolanFrames
 	dw GeodudeAlolanFrames

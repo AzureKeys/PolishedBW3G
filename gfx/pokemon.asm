@@ -895,22 +895,6 @@ SECTION "NinetalesAlolan Pics", ROMX
 NinetalesAlolanFrontpic: INCBIN "gfx/pokemon/ninetales_alolan/front.animated.2bpp.lz"
 NinetalesAlolanBackpic:  INCBIN "gfx/pokemon/ninetales_alolan/back.2bpp.lz"
 
-SECTION "DiglettPlain Pics", ROMX
-DiglettPlainFrontpic: INCBIN "gfx/pokemon/diglett_plain/front.animated.2bpp.lz"
-DiglettPlainBackpic:  INCBIN "gfx/pokemon/diglett_plain/back.2bpp.lz"
-
-SECTION "DugtrioPlain Pics", ROMX
-DugtrioPlainFrontpic: INCBIN "gfx/pokemon/dugtrio_plain/front.animated.2bpp.lz"
-DugtrioPlainBackpic:  INCBIN "gfx/pokemon/dugtrio_plain/back.2bpp.lz"
-
-SECTION "DiglettAlolan Pics", ROMX
-DiglettAlolanFrontpic: INCBIN "gfx/pokemon/diglett_alolan/front.animated.2bpp.lz"
-DiglettAlolanBackpic:  INCBIN "gfx/pokemon/diglett_alolan/back.2bpp.lz"
-
-SECTION "DugtrioAlolan Pics", ROMX
-DugtrioAlolanFrontpic: INCBIN "gfx/pokemon/dugtrio_alolan/front.animated.2bpp.lz"
-DugtrioAlolanBackpic:  INCBIN "gfx/pokemon/dugtrio_alolan/back.2bpp.lz"
-
 SECTION "MeowthPlain Pics", ROMX
 MeowthPlainFrontpic: INCBIN "gfx/pokemon/meowth_plain/front.animated.2bpp.lz"
 MeowthPlainBackpic:  INCBIN "gfx/pokemon/meowth_plain/back.2bpp.lz"
@@ -1568,3 +1552,11 @@ FoongusBackpic:  INCBIN "gfx/pokemon/foongus/back.2bpp.lz"
 SECTION "Amoonguss Pics", ROMX
 AmoongussFrontpic: INCBIN "gfx/pokemon/amoonguss/front.animated.2bpp.lz"
 AmoongussBackpic:  INCBIN "gfx/pokemon/amoonguss/back.2bpp.lz"
+
+SECTION "FrillishMale Pics", ROMX
+FrillishMaleFrontpic: INCBIN "gfx/pokemon/frillish_male/front.animated.2bpp.lz"
+FrillishMaleBackpic:  INCBIN "gfx/pokemon/frillish_male/back.2bpp.lz"
+
+SECTION "JellicentMale Pics", ROMX
+JellicentMaleFrontpic: INCBIN "gfx/pokemon/jellicent_male/front.animated.2bpp.lz"
+JellicentMaleBackpic:  INCBIN "gfx/pokemon/jellicent_male/back.2bpp.lz"

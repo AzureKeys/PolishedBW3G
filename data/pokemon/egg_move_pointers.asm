@@ -33,8 +33,6 @@ EggSpeciesMovesPointers::
 	dw ZubatEggSpeciesMoves             ; Golbat
 	dw ParasEggSpeciesMoves             ; Paras
 	dw ParasEggSpeciesMoves             ; Parasect
-	dw DiglettPlainEggSpeciesMoves      ; Diglett
-	dw DiglettPlainEggSpeciesMoves      ; Dugtrio
 	dw MeowthPlainEggSpeciesMoves       ; Meowth
 	dw MeowthPlainEggSpeciesMoves       ; Persian
 	dw PsyduckEggSpeciesMoves           ; Psyduck
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw BasculinEggSpeciesMoves          ; Basculin
 	dw SandileEggSpeciesMoves           ; Sandile
 	dw SandileEggSpeciesMoves           ; Krokorok
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SandileEggSpeciesMoves           ; Krookodile
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
 	dw MaractusEggSpeciesMoves          ; Maractus
 	dw DwebbleEggSpeciesMoves           ; Dwebble
@@ -293,6 +291,8 @@ EggSpeciesMovesPointers::
 	dw KarrablastEggSpeciesMoves        ; Escavalier
 	dw FoongusEggSpeciesMoves           ; Foongus
 	dw FoongusEggSpeciesMoves           ; Amoonguss
+	dw FrillishEggSpeciesMoves          ; Frillish
+	dw FrillishEggSpeciesMoves          ; Jellicent
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -308,8 +308,6 @@ EggSpeciesMovesPointers::
 	dw SandshrewAlolanEggSpeciesMoves   ; Sandslash (Alolan Form)
 	dw VulpixAlolanEggSpeciesMoves      ; Vulpix (Alolan Form)
 	dw VulpixAlolanEggSpeciesMoves      ; Ninetales (Alolan Form)
-	dw DiglettAlolanEggSpeciesMoves     ; Diglett (Alolan Form)
-	dw DiglettAlolanEggSpeciesMoves     ; Dugtrio (Alolan Form)
 	dw MeowthAlolanEggSpeciesMoves      ; Meowth (Alolan Form)
 	dw MeowthAlolanEggSpeciesMoves      ; Persian (Alolan Form)
 	dw GeodudeAlolanEggSpeciesMoves     ; Geodude (Alolan Form)

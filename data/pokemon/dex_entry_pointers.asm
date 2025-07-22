@@ -34,8 +34,6 @@ PokedexDataPointerTable:
 	dba GolbatPokedexEntry
 	dba ParasPokedexEntry
 	dba ParasectPokedexEntry
-	dba DiglettPlainPokedexEntry
-	dba DugtrioPlainPokedexEntry
 	dba MeowthPlainPokedexEntry
 	dba PersianPlainPokedexEntry
 	dba PsyduckPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba BasculinRedPokedexEntry ; BasculinWhitePokedexEntry
 	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba KrookodilePokedexEntry
 	dba DarumakaPlainPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry
 	dba DwebblePokedexEntry
@@ -294,6 +292,8 @@ PokedexDataPointerTable:
 	dba EscavalierPokedexEntry
 	dba FoongusPokedexEntry
 	dba AmoongussPokedexEntry
+	dba FrillishPokedexEntry
+	dba JellicentPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -309,8 +309,6 @@ PokedexDataPointerTable:
 	dba SandslashAlolanPokedexEntry
 	dba VulpixAlolanPokedexEntry
 	dba NinetalesAlolanPokedexEntry
-	dba DiglettAlolanPokedexEntry
-	dba DugtrioAlolanPokedexEntry
 	dba MeowthAlolanPokedexEntry
 	dba PersianAlolanPokedexEntry
 	dba GeodudeAlolanPokedexEntry

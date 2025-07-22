@@ -37,8 +37,6 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; GOLBAT
 	iconpal ORANGE, ORANGE ; PARAS
 	iconpal RED, GRAY ; PARASECT
-	iconpal BROWN, GRAY ; DIGLETT
-	iconpal BROWN, GRAY ; DUGTRIO
 	iconpal BROWN, RED ; MEOWTH
 	iconpal BROWN, RED ; PERSIAN
 	iconpal BROWN, AZURE ; PSYDUCK
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; BASCULIN
 	iconpal BROWN, YELLOW ; SANDILE
 	iconpal BROWN, YELLOW ; KROKOROK
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal RED, PURPLE ; DARMANITAN
 	iconpal GREEN, BROWN ; MARACTUS
 	iconpal ORANGE, RED ; DWEBBLE
@@ -297,6 +295,8 @@ OverworldMonIconColors::
 	iconpal GRAY, PINK ; ESCAVALIER
 	iconpal RED, PURPLE ; FOONGUS
 	iconpal RED, PURPLE ; AMOONGUSS
+	iconpal AZURE, TEAL ; FRILLISH (male)
+	iconpal AZURE, TEAL ; JELLICENT (male)
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -332,8 +332,6 @@ endr
 	iconpal WHITE, GREEN ; SANDSLASH, ALOLAN_FORM
 	iconpal AZURE, RED ; VULPIX, ALOLAN_FORM
 	iconpal AZURE, RED ; NINETALES, ALOLAN_FORM
-	iconpal BROWN, RED ; DIGLETT, ALOLAN_FORM
-	iconpal BROWN, RED ; DUGTRIO, ALOLAN_FORM
 	iconpal GRAY, AZURE ; MEOWTH, ALOLAN_FORM
 	iconpal GRAY, AZURE ; PERSIAN, ALOLAN_FORM
 	iconpal GRAY, BROWN ; GEODUDE, ALOLAN_FORM

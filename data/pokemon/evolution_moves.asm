@@ -33,8 +33,6 @@ EvolutionMoves::
 	db NO_MOVE      ; GOLBAT
 	db NO_MOVE      ; PARAS
 	db SHADOW_CLAW  ; PARASECT
-	db NO_MOVE      ; DIGLETT
-	db TRI_ATTACK   ; DUGTRIO
 	db NO_MOVE      ; MEOWTH
 	db SWIFT        ; PERSIAN
 	db NO_MOVE      ; PSYDUCK
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; BASCULIN
 	db NO_MOVE      ; SANDILE
 	db NO_MOVE      ; KROKOROK
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; KROOKODILE
 	db NO_MOVE      ; DARUMAKA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; DARMANITAN
 	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; DWEBBLE
@@ -297,6 +295,8 @@ endc
 	db NO_MOVE      ; ESCAVALIER
 	db NO_MOVE      ; FOONGUS
 	db NO_MOVE      ; AMOONGUSS
+	db NO_MOVE      ; FRILLISH
+	db NO_MOVE      ; JELLICENT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -312,8 +312,6 @@ endc
 	db ICICLE_SPEAR ; SANDSLASH, ALOLAN_FORM
 	db NO_MOVE      ; VULPIX, ALOLAN_FORM
 	db DAZZLINGLEAM ; NINETALES, ALOLAN_FORM
-	db NO_MOVE      ; DIGLETT, ALOLAN_FORM
-	db TRI_ATTACK   ; DUGTRIO, ALOLAN_FORM
 	db NO_MOVE      ; MEOWTH, ALOLAN_FORM
 	db SWIFT        ; PERSIAN, ALOLAN_FORM
 	db NO_MOVE      ; GEODUDE, ALOLAN_FORM

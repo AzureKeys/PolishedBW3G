@@ -47,7 +47,6 @@ AlphabeticalPokedexOrder:
 	dp DELIBIRD
 	dp DEWGONG
 	dp DEWOTT
-	dp DIGLETT
 	dp DITTO
 	dp DRAGONAIR
 	dp DRAGONITE
@@ -55,7 +54,6 @@ AlphabeticalPokedexOrder:
 	dp DRILBUR
 	dp DUCKLETT
 	dp DUDUNSPARCE
-	dp DUGTRIO
 	dp DUNSPARCE
 	dp DUOSION
 	dp DWEBBLE
@@ -78,6 +76,7 @@ AlphabeticalPokedexOrder:
 	dp FLAAFFY
 	dp FLAREON
 	dp FOONGUS
+	dp FRILLISH
 	dp GARBODOR
 	dp GASTLY
 	dp GENGAR
@@ -108,6 +107,7 @@ AlphabeticalPokedexOrder:
 	dp HOUNDOUR
 	dp IGGLYBUFF
 	dp IVYSAUR
+	dp JELLICENT
 	dp JIGGLYPUFF
 	dp JOLTEON
 	dp KANGASKHAN

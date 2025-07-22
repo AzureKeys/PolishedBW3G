@@ -329,12 +329,6 @@ VulpixAlolanBitmasks: INCLUDE "gfx/pokemon/vulpix_alolan/bitmask.asm"
 NinetalesPlainBitmasks:  INCLUDE "gfx/pokemon/ninetales_plain/bitmask.asm"
 NinetalesAlolanBitmasks: INCLUDE "gfx/pokemon/ninetales_alolan/bitmask.asm"
 
-DiglettPlainBitmasks:  INCLUDE "gfx/pokemon/diglett_plain/bitmask.asm"
-DiglettAlolanBitmasks: INCLUDE "gfx/pokemon/diglett_alolan/bitmask.asm"
-
-DugtrioPlainBitmasks:  INCLUDE "gfx/pokemon/dugtrio_plain/bitmask.asm"
-DugtrioAlolanBitmasks: INCLUDE "gfx/pokemon/dugtrio_alolan/bitmask.asm"
-
 MeowthPlainBitmasks:    INCLUDE "gfx/pokemon/meowth_plain/bitmask.asm"
 MeowthAlolanBitmasks:   INCLUDE "gfx/pokemon/meowth_alolan/bitmask.asm"
 MeowthGalarianBitmasks: INCLUDE "gfx/pokemon/meowth_galarian/bitmask.asm"
@@ -453,3 +447,7 @@ ZoroarkPlainBitmasks: INCLUDE "gfx/pokemon/zoroark_plain/bitmask.asm"
 DeerlingSpringBitmasks: INCLUDE "gfx/pokemon/deerling_spring/bitmask.asm"
 
 SawsbuckSpringBitmasks: INCLUDE "gfx/pokemon/sawsbuck_spring/bitmask.asm"
+
+FrillishMaleBitmasks:   INCLUDE "gfx/pokemon/frillish_male/bitmask.asm"
+
+JellicentMaleBitmasks:   INCLUDE "gfx/pokemon/jellicent_male/bitmask.asm"

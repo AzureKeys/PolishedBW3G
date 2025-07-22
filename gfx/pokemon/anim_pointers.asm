@@ -33,8 +33,6 @@ AnimationPointers:
 	dw GolbatAnimation
 	dw ParasAnimation
 	dw ParasectAnimation
-	dw DiglettPlainAnimation
-	dw DugtrioPlainAnimation
 	dw MeowthPlainAnimation
 	dw PersianPlainAnimation
 	dw PsyduckAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw BasculinRedAnimation ; BasculinWhiteAnimation
 	dw SandileAnimation
 	dw KrokorokAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw KrookodileAnimation
 	dw DarumakaPlainAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw DarmanitanPlainAnimation
 	dw MaractusAnimation
 	dw DwebbleAnimation
@@ -293,6 +291,8 @@ AnimationPointers:
 	dw EscavalierAnimation
 	dw FoongusAnimation
 	dw AmoongussAnimation
+	dw FrillishMaleAnimation
+	dw JellicentMaleAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
@@ -371,8 +371,6 @@ AnimationPointers:
 	dw SandslashAlolanAnimation
 	dw VulpixAlolanAnimation
 	dw NinetalesAlolanAnimation
-	dw DiglettAlolanAnimation
-	dw DugtrioAlolanAnimation
 	dw MeowthAlolanAnimation
 	dw PersianAlolanAnimation
 	dw GeodudeAlolanAnimation

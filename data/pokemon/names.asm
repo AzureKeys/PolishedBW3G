@@ -34,8 +34,6 @@ PokemonNames::
 	rawchar "Golbat@@@@"
 	rawchar "Paras@@@@@"
 	rawchar "Parasect@@"
-	rawchar "Diglett@@@"
-	rawchar "Dugtrio@@@"
 	rawchar "Meowth@@@@"
 	rawchar "Persian@@@"
 	rawchar "Psyduck@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Basculin@@"
 	rawchar "Sandile@@@"
 	rawchar "Krokorok@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Krookodile"
 	rawchar "Darumaka@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Darmanitan"
 	rawchar "Maractus@@"
 	rawchar "Dwebble@@@"
@@ -294,4 +292,6 @@ PokemonNames::
 	rawchar "Escavalier"
 	rawchar "Foongus@@@"
 	rawchar "Amoonguss@"
+	rawchar "Frillish@@"
+	rawchar "Jellicent@"
 	assert_table_length NUM_SPECIES + 1

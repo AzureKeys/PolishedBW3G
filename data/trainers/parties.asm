@@ -1833,9 +1833,9 @@ CamperGroup:
 	end_trainer
 
 	def_trainer IVAN, "Ivan"
-	tr_mon 11, DIGLETT
+	tr_mon 11, RATTATA
 	tr_mon 11, ZUBAT
-	tr_mon 15, DIGLETT
+	tr_mon 15, RATTATA
 	end_trainer
 
 	def_trainer BARRY, "Barry"
@@ -1852,7 +1852,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer SID, "Sid"
-	tr_mon 53, DUGTRIO
+	tr_mon 53, RATTATA
 	tr_mon 51, PRIMEAPE
 	tr_mon 51, POLIWRATH
 	end_trainer
@@ -2617,7 +2617,7 @@ HikerGroup:
 	def_trainer PARRY3, "Parry"
 	tr_mon 36, PILOSWINE
 		tr_moves EARTHQUAKE, AVALANCHE, REST, TAKE_DOWN
-	tr_mon 36, DUGTRIO
+	tr_mon 36, RATTATA
 		tr_moves MAGNITUDE, DIG, MUD_SLAP, SLASH
 	tr_mon 39, STEELIX
 		tr_moves DIG, IRON_TAIL, SANDSTORM, HEADBUTT
@@ -2641,7 +2641,7 @@ HikerGroup:
 	end_trainer
 
 	def_trainer BENJAMIN, "Benjamin"
-	tr_mon 24, DIGLETT
+	tr_mon 24, RATTATA
 	tr_mon 24, DUNSPARCE
 	tr_mon 28, GLIGAR
 	end_trainer
@@ -2660,7 +2660,7 @@ HikerGroup:
 
 	def_trainer TIMOTHY, "Timothy"
 	tr_mon 36, SANDSLASH
-	tr_mon 37, DUGTRIO
+	tr_mon 37, RATTATA
 	end_trainer
 
 	def_trainer BAILEY, "Bailey"
@@ -2671,18 +2671,18 @@ HikerGroup:
 	end_trainer
 
 	def_trainer TIM, "Eoin" ; MISMATCH
-	tr_mon 50, DIGLETT
+	tr_mon 50, RATTATA
 	tr_mon 52, GRAVELER
-	tr_mon 54, DUGTRIO
+	tr_mon 54, RATTATA
 	end_trainer
 
 	def_trainer NOLAND, "Noland"
-	tr_mon 45, DUGTRIO
+	tr_mon 45, RATTATA
 	tr_mon 47, GOLEM
 	end_trainer
 
 	def_trainer SIDNEY, "Clarke" ; MISMATCH
-	tr_mon 53, DUGTRIO
+	tr_mon 53, RATTATA
 	tr_mon 55, ONIX
 	end_trainer
 
@@ -2771,7 +2771,7 @@ HikerGroup:
 
 	def_trainer DERRICK, "Derrick"
 	tr_mon 53, CLODSIRE
-	tr_mon 53, DUGTRIO
+	tr_mon 53, RATTATA
 	tr_mon 55, GOLEM
 	end_trainer
 
@@ -3758,7 +3758,7 @@ RuinManiacGroup:
 
 	def_trainer SMILTE, "Smilte"
 	tr_mon 54, SANDSLASH
-	tr_mon 54, DUGTRIO
+	tr_mon 54, RATTATA
 	tr_mon 56, RATTATA
 	end_trainer
 
@@ -6456,13 +6456,13 @@ AceDuoGroup:
 	end_trainer
 
 	def_trainer ZACANDJEN1, "Zac & Jen"
-	tr_mon 62, DUGTRIO, MALE
+	tr_mon 62, RATTATA, MALE
 	tr_mon 62, ELECTIVIRE, FEMALE
 	end_trainer
 
 	def_trainer ZACANDJEN2, "Zac & Jen"
 	tr_mon 62, ELECTIVIRE, FEMALE
-	tr_mon 62, DUGTRIO, MALE
+	tr_mon 62, RATTATA, MALE
 	end_trainer
 
 	def_trainer JAKEANDBRI1, "Jake & Bri"
@@ -6770,8 +6770,8 @@ GiovanniGroup:
 	tr_mon 64, NIDOKING @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
 		tr_moves SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, FLAMETHROWER
-	tr_mon 62, DUGTRIO @ CHOICE_BAND, MALE
-		tr_extra ARENA_TRAP, SPE_UP_SATK_DOWN
+	tr_mon 62, RATTATA @ CHOICE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_moves EARTHQUAKE, STONE_EDGE, SUCKER_PUNCH, TOXIC
 	tr_mon 60, HONCHKROW @ FOCUS_SASH, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN

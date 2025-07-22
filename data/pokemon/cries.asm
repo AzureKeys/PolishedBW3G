@@ -39,8 +39,6 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $0fa,  $100 ; Golbat
 	mon_cry CRY_PARAS,       $020,  $160 ; Paras
 	mon_cry CRY_PARAS,       $042,  $17f ; Parasect
-	mon_cry CRY_DIGLETT,     $0aa,  $081 ; Diglett
-	mon_cry CRY_DIGLETT,     $02a,  $090 ; Dugtrio
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Meowth
 	mon_cry CRY_CLEFAIRY,    $099,  $17f ; Persian
 	mon_cry CRY_PSYDUCK,     $020,  $0e0 ; Psyduck
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
 	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
 	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
 	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
@@ -299,4 +297,6 @@ PokemonCries::
 	mon_cry CRY_MUK,         $0ef,  $17f ; ESCAVALIER*
 	mon_cry CRY_GRIMER,      $2d0,  $0a0 ; Foongus
 	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
+	mon_cry CRY_RAIKOU,      $083,  $130 ; Frillish
+	mon_cry CRY_RAIKOU,     -$18d,  $130 ; Jellicent
 	assert_table_length NUM_SPECIES
