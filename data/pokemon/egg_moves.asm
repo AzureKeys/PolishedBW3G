@@ -1228,5 +1228,15 @@ EmolgaEggSpeciesMoves:
 	;db SHOCK_WAVE
 	db $ff
 
+KarrablastEggSpeciesMoves:
+	dp KARRABLAST, PLAIN_FORM
+	db BUG_BITE
+	db COUNTER
+	db FEINT_ATTACK
+	db MEGAHORN
+	db PURSUIT
+	db SCREECH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

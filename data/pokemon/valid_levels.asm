@@ -298,4 +298,6 @@ endc
 	db   1,  33 ; Deerling
 	db  34, 100 ; Sawsbuck
 	db  20, 100 ; Emolga
+	db   1,  29 ; Karrablast
+	db  30, 100 ; Escavalier
 	assert_table_length NUM_SPECIES

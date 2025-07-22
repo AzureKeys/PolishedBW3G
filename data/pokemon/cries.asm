@@ -299,4 +299,6 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,   $080,  $081 ; DEERLING*
 	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; EMOLGA*
+	mon_cry CRY_GRIMER,      $000,  $100 ; KARRABLAST*
+	mon_cry CRY_MUK,         $0ef,  $17f ; ESCAVALIER*
 	assert_table_length NUM_SPECIES

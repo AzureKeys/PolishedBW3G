@@ -317,6 +317,8 @@
 	const DEERLING   ; 14e
 	const SAWSBUCK   ; 14f
 	const EMOLGA     ; 150
+	const KARRABLAST ; 151
+	const ESCAVALIER ; 152
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

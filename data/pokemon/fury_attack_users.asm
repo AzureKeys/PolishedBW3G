@@ -11,4 +11,6 @@ FuryAttackUsers:
 	dp SKARMORY
 	dp MAMOSWINE
 	dp DUDUNSPARCE
+	dp KARRABLAST
+	dp ESCAVALIER
 	dw 0

@@ -297,6 +297,8 @@ PokemonPicPointers::
 	pics DeerlingSpring
 	pics SawsbuckSpring
 	pics Emolga
+	pics Karrablast
+	pics Escavalier
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

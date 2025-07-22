@@ -6110,6 +6110,45 @@ endc
 	learnset 42, VOLT_SWITCH
 	learnset 46, AGILITY
 	learnset 50, ZAP_CANNON ; Discharge
+	
+	evos_attacks Karrablast
+	evo_data EVOLVE_TRADE, LINKING_CORD, ESCAVALIER
+	learnset 1, PECK
+	learnset 4, LEER
+	learnset 8, ENDURE
+	;learnset 13, FURY_CUTTER
+	learnset 16, FURY_STRIKES ; Fury Attack
+	learnset 20, HEADBUTT
+	learnset 25, FALSE_SWIPE
+	learnset 28, BUG_BUZZ
+	learnset 32, SLASH
+	learnset 37, TAKE_DOWN
+	learnset 40, SCARY_FACE
+	learnset 44, X_SCISSOR
+	learnset 49, REVERSAL ; Flail
+	learnset 52, SWORDS_DANCE
+	learnset 56, DOUBLE_EDGE
+	
+	evos_attacks Escavalier
+	learnset 1, DOUBLE_EDGE
+	learnset 1, PECK
+	learnset 1, LEER
+	learnset 1, PROTECT ; Quick Guard
+	;learnset 1, TWINEEDLE
+	learnset 4, LEER
+	learnset 8, PROTECT ; Quick Guard
+	;learnset 13, TWINEEDLE
+	learnset 16, FURY_STRIKES ; Fury Attack
+	learnset 20, HEADBUTT
+	learnset 25, FALSE_SWIPE
+	learnset 28, BUG_BUZZ
+	learnset 32, SLASH
+	learnset 37, IRON_HEAD
+	learnset 40, BARRIER ; Iron Defense
+	learnset 44, X_SCISSOR
+	learnset 49, REVERSAL
+	learnset 52, SWORDS_DANCE
+	learnset 56, GIGA_IMPACT
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

@@ -312,6 +312,8 @@ INCLUDE "gfx/pokemon/vanilluxe/front.dimensions"
 INCLUDE "gfx/pokemon/deerling_spring/front.dimensions"
 INCLUDE "gfx/pokemon/sawsbuck_spring/front.dimensions"
 INCLUDE "gfx/pokemon/emolga/front.dimensions"
+INCLUDE "gfx/pokemon/karrablast/front.dimensions"
+INCLUDE "gfx/pokemon/escavalier/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

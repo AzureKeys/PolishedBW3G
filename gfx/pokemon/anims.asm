@@ -232,6 +232,8 @@ VanilliteAnimation:  INCLUDE "gfx/pokemon/vanillite/anim.asm"
 VanillishAnimation:  INCLUDE "gfx/pokemon/vanillish/anim.asm"
 VanilluxeAnimation:  INCLUDE "gfx/pokemon/vanilluxe/anim.asm"
 EmolgaAnimation:     INCLUDE "gfx/pokemon/emolga/anim.asm"
+KarrablastAnimation: INCLUDE "gfx/pokemon/karrablast/anim.asm"
+EscavalierAnimation: INCLUDE "gfx/pokemon/escavalier/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

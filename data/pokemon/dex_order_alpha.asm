@@ -67,6 +67,7 @@ AlphabeticalPokedexOrder:
 	dp EMBOAR
 	dp EMOLGA
 	dp ENTEI
+	dp ESCAVALIER
 	dp ESPEON
 	dp EXCADRILL
 	dp EXEGGCUTE
@@ -108,6 +109,7 @@ AlphabeticalPokedexOrder:
 	dp JIGGLYPUFF
 	dp JOLTEON
 	dp KANGASKHAN
+	dp KARRABLAST
 	dp KINGDRA
 	dp KLEAVOR
 	dp KOFFING

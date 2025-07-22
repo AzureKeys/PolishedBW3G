@@ -2897,6 +2897,26 @@ EmolgaPokedexEntry::
 	next "discharging"
 	next "electricity.@"
 
+SECTION "KarrablastPokedexEntry", ROMX
+KarrablastPokedexEntry::
+	db "Clamping@"
+	db "When they feel"
+	next "threatened, they"
+	next "spit an acid to"
+	page "drive attackers"
+	next "away. They fight"
+	next "with Shelmet.@"
+
+SECTION "EscavalierPokedexEntry", ROMX
+EscavalierPokedexEntry::
+	db "Cavalry@"
+	db "These #mon"
+	next "evolve by wearing"
+	next "the shell of a"
+	page "snail. The steel"
+	next "armor protects"
+	next "their whole body.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

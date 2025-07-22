@@ -293,6 +293,8 @@ AnimationPointers:
 	dw DeerlingSpringAnimation
 	dw SawsbuckSpringAnimation
 	dw EmolgaAnimation
+	dw KarrablastAnimation
+	dw EscavalierAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

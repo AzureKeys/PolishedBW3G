@@ -1467,6 +1467,16 @@ EmolgaMini::     INCBIN "gfx/minis/emolga.2bpp.lz"
 EmolgaMiniMask:: INCBIN "gfx/minis/emolga_mask.1bpp.lz"
 EmolgaIcon::     INCBIN "gfx/icons/emolga.2bpp.lz"
 
+SECTION "Karrablast Mini Icon", ROMX
+KarrablastMini::     INCBIN "gfx/minis/karrablast.2bpp.lz"
+KarrablastMiniMask:: INCBIN "gfx/minis/karrablast_mask.1bpp.lz"
+KarrablastIcon::     INCBIN "gfx/icons/karrablast.2bpp.lz"
+
+SECTION "Escavalier Mini Icon", ROMX
+EscavalierMini::     INCBIN "gfx/minis/escavalier.2bpp.lz"
+EscavalierMiniMask:: INCBIN "gfx/minis/escavalier_mask.1bpp.lz"
+EscavalierIcon::     INCBIN "gfx/icons/escavalier.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

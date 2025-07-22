@@ -293,6 +293,8 @@ EggSpeciesMovesPointers::
 	dw DeerlingEggSpeciesMoves          ; Deerling
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck
 	dw EmolgaEggSpeciesMoves            ; Emolga
+	dw KarrablastEggSpeciesMoves        ; Karrablast
+	dw KarrablastEggSpeciesMoves        ; Escavalier
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

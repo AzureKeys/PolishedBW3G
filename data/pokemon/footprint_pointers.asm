@@ -293,6 +293,8 @@ FootprintPointers::
 	dw DeerlingFootprint
 	dw SawsbuckFootprint
 	dw EmolgaFootprint
+	dw KarrablastFootprint
+	dw EscavalierFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

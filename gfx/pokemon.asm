@@ -1568,3 +1568,11 @@ SawsbuckSpringBackpic:  INCBIN "gfx/pokemon/sawsbuck_spring/back.2bpp.lz"
 SECTION "Emolga Pics", ROMX
 EmolgaFrontpic: INCBIN "gfx/pokemon/emolga/front.animated.2bpp.lz"
 EmolgaBackpic:  INCBIN "gfx/pokemon/emolga/back.2bpp.lz"
+
+SECTION "Karrablast Pics", ROMX
+KarrablastFrontpic: INCBIN "gfx/pokemon/karrablast/front.animated.2bpp.lz"
+KarrablastBackpic:  INCBIN "gfx/pokemon/karrablast/back.2bpp.lz"
+
+SECTION "Escavalier Pics", ROMX
+EscavalierFrontpic: INCBIN "gfx/pokemon/escavalier/front.animated.2bpp.lz"
+EscavalierBackpic:  INCBIN "gfx/pokemon/escavalier/back.2bpp.lz"

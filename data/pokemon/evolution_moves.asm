@@ -297,6 +297,8 @@ endc
 	db NO_MOVE      ; DEERLING
 	db MEGAHORN     ; SAWSBUCK
 	db NO_MOVE      ; EMOLGA
+	db NO_MOVE      ; KARRABLAST
+	db NO_MOVE      ; ESCAVALIER
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

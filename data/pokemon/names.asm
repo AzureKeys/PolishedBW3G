@@ -294,4 +294,6 @@ PokemonNames::
 	rawchar "Deerling@@"
 	rawchar "Sawsbuck@@"
 	rawchar "Emolga@@@@"
+	rawchar "Karrablast"
+	rawchar "Escavalier"
 	assert_table_length NUM_SPECIES + 1

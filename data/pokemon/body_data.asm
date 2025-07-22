@@ -300,6 +300,8 @@ PokemonBodyData:
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
 	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
+	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST
+	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

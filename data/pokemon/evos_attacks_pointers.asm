@@ -297,6 +297,8 @@ EvosAttacksPointers::
 	dw DeerlingEvosAttacks
 	dw SawsbuckEvosAttacks
 	dw EmolgaEvosAttacks
+	dw KarrablastEvosAttacks
+	dw EscavalierEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

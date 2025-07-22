@@ -297,6 +297,8 @@ OverworldMonIconColors::
 	iconpal BROWN, PINK ; DEERLING (spring)
 	iconpal BROWN, ORANGE ; SAWSBUCK (spring)
 	iconpal YELLOW, BROWN ; EMOLGA
+	iconpal BLUE, TEAL ; KARRABLAST
+	iconpal GRAY, PINK ; ESCAVALIER
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
