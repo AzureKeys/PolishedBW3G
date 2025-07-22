@@ -235,7 +235,6 @@ AlphabeticalPokedexOrder:
 	dp SNUBBULL
 	dp SOLOSIS
 	dp SQUIRTLE
-	dp STANTLER
 	dp STARMIE
 	dp STARYU
 	dp STEELIX
@@ -288,7 +287,6 @@ AlphabeticalPokedexOrder:
 	dp WIGGLYTUFF
 	dp WOOBAT
 	dp WOOPER
-	dp WYRDEER
 	dp YAMASK
 	dp YANMA
 	dp YANMEGA

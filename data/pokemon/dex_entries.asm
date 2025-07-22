@@ -1606,16 +1606,6 @@ KingdraPokedexEntry::
 	next "life forms can"
 	next "survive.@"
 
-SECTION "StantlerPokedexEntry", ROMX
-StantlerPokedexEntry::
-	db "Big Horn@"
-	db   "The round balls"
-	next "found on the"
-	next "fallen antlers can"
-	page "be ground into a"
-	next "powder that aids"
-	next "in sleeping.@"
-
 SECTION "SmearglePokedexEntry", ROMX
 SmearglePokedexEntry::
 	db "Painter@"
@@ -1985,16 +1975,6 @@ MrRimePokedexEntry::
 	page "ice in time with"
 	next "its graceful"
 	next "movements.@"
-
-SECTION "WyrdeerPokedexEntry", ROMX
-WyrdeerPokedexEntry::
-	db "Big Horn@"
-	db   "The fur shed from"
-	next "its beard retains"
-	next "heat well and is"
-	page "a highly useful"
-	next "material for"
-	next "winter clothing.@"
 
 SECTION "KleavorPokedexEntry", ROMX
 KleavorPokedexEntry::

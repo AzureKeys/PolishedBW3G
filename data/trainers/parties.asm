@@ -169,7 +169,7 @@ WhitneyGroup:
 	end_trainer
 
 	def_trainer 2, "Whitney"
-	tr_mon 71, STANTLER @ LIGHT_CLAY, FEMALE
+	tr_mon 71, RATTATA @ LIGHT_CLAY, FEMALE
 		tr_moves REFLECT, LIGHT_SCREEN, DOUBLE_EDGE, ZEN_HEADBUTT
 	tr_mon 72, CLEFABLE @ PINK_BOW, FEMALE
 		tr_moves CALM_MIND, MOONBLAST, FRESH_SNACK, THUNDER_WAVE
@@ -445,7 +445,7 @@ WillGroup:
 
 	def_trainer_class WILL
 	def_trainer 1, "Will"
-	tr_mon 48, WYRDEER @ TWISTEDSPOON
+	tr_mon 48, RATTATA @ TWISTEDSPOON
 		tr_evs 252 HP, 36 Spe
 		tr_moves PSYCHIC_M, SHADOW_BALL, CALM_MIND, HYPNOSIS
 	tr_mon 49, RATTATA @ BRIGHTPOWDER
@@ -466,7 +466,7 @@ WillGroup:
 	end_trainer
 
 	def_trainer 2, "Will"
-	tr_mon 67, WYRDEER @ TWISTEDSPOON
+	tr_mon 67, RATTATA @ TWISTEDSPOON
 		tr_moves SHADOW_BALL, MEGAHORN, EARTHQUAKE, PSYCHIC_M
 	tr_mon 68, RATTATA @ BRIGHTPOWDER
 		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M

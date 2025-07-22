@@ -564,10 +564,6 @@ SECTION "Igglybuff Pics", ROMX
 IgglybuffFrontpic: INCBIN "gfx/pokemon/igglybuff/front.animated.2bpp.lz"
 IgglybuffBackpic:  INCBIN "gfx/pokemon/igglybuff/back.2bpp.lz"
 
-SECTION "Stantler Pics", ROMX
-StantlerFrontpic: INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"
-StantlerBackpic:  INCBIN "gfx/pokemon/stantler/back.2bpp.lz"
-
 SECTION "Celebi Pics", ROMX
 CelebiFrontpic: INCBIN "gfx/pokemon/celebi/front.animated.2bpp.lz"
 CelebiBackpic:  INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
@@ -599,10 +595,6 @@ GlaceonBackpic:  INCBIN "gfx/pokemon/glaceon/back.2bpp.lz"
 SECTION "Sylveon Pics", ROMX
 SylveonFrontpic: INCBIN "gfx/pokemon/sylveon/front.animated.2bpp.lz"
 SylveonBackpic:  INCBIN "gfx/pokemon/sylveon/back.2bpp.lz"
-
-SECTION "Wyrdeer Pics", ROMX
-WyrdeerFrontpic: INCBIN "gfx/pokemon/wyrdeer/front.animated.2bpp.lz"
-WyrdeerBackpic:  INCBIN "gfx/pokemon/wyrdeer/back.2bpp.lz"
 
 SECTION "Kleavor Pics", ROMX
 KleavorFrontpic: INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"

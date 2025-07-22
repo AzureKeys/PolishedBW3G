@@ -826,14 +826,6 @@ HoundourEggSpeciesMoves:
 	db WILL_O_WISP
 	db $ff
 
-StantlerEggSpeciesMoves:
-	dp STANTLER, PLAIN_FORM
-	db BITE
-	db DOUBLE_KICK
-	db EXTRASENSORY
-	db RAGE
-	db $ff
-
 ElekidEggSpeciesMoves:
 	dp ELEKID, PLAIN_FORM
 	db BARRIER

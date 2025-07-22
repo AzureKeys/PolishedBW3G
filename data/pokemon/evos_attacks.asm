@@ -3678,28 +3678,6 @@ endc
 	learnset 52, DRAGON_DANCE
 	learnset 60, HYDRO_PUMP
 
-	evos_attacks Stantler
-	evo_data EVOLVE_LOCATION, RUGGED_ROAD, WYRDEER
-	evo_data EVOLVE_LOCATION, SNOWTOP_MOUNTAIN, WYRDEER
-	evo_data EVOLVE_LOCATION, SINJOH_RUINS, WYRDEER
-	evo_data EVOLVE_LOCATION, MYSTRI_STAGE, WYRDEER
-	learnset 1, TACKLE
-	learnset 3, LEER
-	learnset 7, ASTONISH
-	learnset 10, HYPNOSIS
-	learnset 13, STOMP
-	learnset 16, MUD_SLAP ; Sand-Attack → similar move
-	learnset 21, HEADBUTT ; Take Down → tutor move
-	learnset 23, CONFUSE_RAY
-	learnset 27, CALM_MIND
-	learnset 33, TAKE_DOWN ; Role Play → Take Down
-	learnset 38, ZEN_HEADBUTT
-	learnset 43, THRASH ; Jump Kick → egg move
-	learnset 49, SKILL_SWAP ; Imprison → tutor move
-	learnset 50, HI_JUMP_KICK ; Captivate → new move
-	learnset 55, MEGAHORN ; Me First → egg move
-	learnset 60, DOUBLE_EDGE ; new move
-
 	evos_attacks Smeargle
 	learnset 1, SKETCH
 	learnset 11, SKETCH
@@ -4355,25 +4333,6 @@ endc
 	learnset 44, ICE_BEAM ; Freeze-Dry → TR move
 	learnset 48, PSYCHIC_M
 	learnset 52, CONFUSE_RAY ; Teeter Dance → egg move
-
-	evos_attacks Wyrdeer
-	learnset 1, EXTRASENSORY ; evolution move
-	learnset 1, TACKLE
-	learnset 3, LEER
-	learnset 7, ASTONISH
-	learnset 10, HYPNOSIS
-	learnset 13, STOMP
-	learnset 16, MUD_SLAP ; Sand-Attack → similar move
-	learnset 21, HEADBUTT ; Take Down → tutor move
-	learnset 23, CONFUSE_RAY
-	learnset 27, CALM_MIND
-	learnset 33, TAKE_DOWN ; Role Play → Take Down
-	learnset 38, ZEN_HEADBUTT
-	learnset 43, THRASH ; Jump Kick → egg move
-	learnset 49, SKILL_SWAP ; Imprison → tutor move
-	learnset 55, HI_JUMP_KICK ; Captivate → new move
-	learnset 60, MEGAHORN ; Me First → egg move
-	learnset 65, DOUBLE_EDGE ; new move
 
 	evos_attacks Kleavor
 	learnset 1, ROCK_THROW ; evolution move

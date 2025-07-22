@@ -161,7 +161,6 @@ PokemonNames::
 	rawchar "Houndour@@"
 	rawchar "Houndoom@@"
 	rawchar "Kingdra@@@"
-	rawchar "Stantler@@"
 	rawchar "Smeargle@@"
 	rawchar "Elekid@@@@"
 	rawchar "Magby@@@@@"
@@ -199,7 +198,6 @@ PokemonNames::
 	rawchar "Cursola@@@"
 	rawchar "Sirfetch'd@"
 	rawchar "Mr.Rime@@@"
-	rawchar "Wyrdeer@@@"
 	rawchar "Kleavor@@@"
 	rawchar "Ursaluna@@"
 	rawchar "Sneasler@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Cottonee@@"
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Lilligant@"
 	rawchar "Basculin@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Sandile@@@"
 	rawchar "Krokorok@@"
 	rawchar "Krookodile"

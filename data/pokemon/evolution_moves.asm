@@ -164,7 +164,6 @@ endc
 	db NO_MOVE      ; HOUNDOUR
 	db NO_MOVE      ; HOUNDOOM
 	db DRAGONBREATH ; KINGDRA
-	db NO_MOVE      ; STANTLER
 	db NO_MOVE      ; SMEARGLE
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
@@ -202,7 +201,6 @@ endc
 	db NO_MOVE      ; CURSOLA
 	db COUNTER      ; SIRFETCH_D
 	db NO_MOVE      ; MR__RIME
-	db EXTRASENSORY ; WYRDEER
 	db ROCK_THROW   ; KLEAVOR
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; COTTONEE
 	db NO_MOVE      ; WHIMSICOTT
 	db NO_MOVE      ; PETILIL
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SANDILE
 	db NO_MOVE      ; KROKOROK
 	db NO_MOVE      ; KROOKODILE

@@ -167,7 +167,6 @@ PokemonBodyData:
 	body_data   6,  108, QUADRUPED,    BLACK  ; HOUNDOUR
 	body_data  14,  350, QUADRUPED,    BLACK  ; HOUNDOOM
 	body_data  18, 1520, HEAD_BASE,    BLUE   ; KINGDRA
-	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
 	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
 	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
@@ -205,7 +204,6 @@ PokemonBodyData:
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
 	body_data   8, 1170, WINGS,        WHITE  ; SIRFETCH_D
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
-	body_data  18,  951, QUADRUPED,    GRAY   ; WYRDEER
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data   3,    6, HEAD,         GREEN  ; COTTONEE
 	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
 	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
 	body_data  10,  180, FINS,         GREEN  ; BASCULIN
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE
 	body_data  10,  334, QUADRUPED,    BROWN  ; KROKOROK
 	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE

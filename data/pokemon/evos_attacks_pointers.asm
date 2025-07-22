@@ -164,7 +164,6 @@ EvosAttacksPointers::
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks
 	dw KingdraEvosAttacks
-	dw StantlerEvosAttacks
 	dw SmeargleEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
@@ -202,7 +201,6 @@ EvosAttacksPointers::
 	dw CursolaEvosAttacks
 	dw SirfetchDEvosAttacks
 	dw MrRimeEvosAttacks
-	dw WyrdeerEvosAttacks
 	dw KleavorEvosAttacks
 	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw CottoneeEvosAttacks
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw LilligantPlainEvosAttacks
 	dw BasculinEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SandileEvosAttacks
 	dw KrokorokEvosAttacks
 	dw KrookodileEvosAttacks

@@ -160,7 +160,6 @@ FootprintPointers::
 	dw HoundourFootprint
 	dw HoundoomFootprint
 	dw KingdraFootprint
-	dw StantlerFootprint
 	dw SmeargleFootprint
 	dw ElekidFootprint
 	dw MagbyFootprint
@@ -198,7 +197,6 @@ FootprintPointers::
 	dw CursolaFootprint
 	dw SirfetchDFootprint
 	dw MrRimeFootprint
-	dw WyrdeerFootprint
 	dw KleavorFootprint
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw CottoneeFootprint
 	dw WhimsicottFootprint
 	dw PetililFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw LilligantFootprint
 	dw BasculinFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SandileFootprint
 	dw KrokorokFootprint
 	dw KrookodileFootprint

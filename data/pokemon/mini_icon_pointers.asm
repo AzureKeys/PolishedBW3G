@@ -164,7 +164,6 @@ MiniIconPointers:
 	mini_icon Houndour
 	mini_icon Houndoom
 	mini_icon Kingdra
-	mini_icon Stantler
 	mini_icon Smeargle
 	mini_icon Elekid
 	mini_icon Magby
@@ -202,7 +201,6 @@ MiniIconPointers:
 	mini_icon Cursola
 	mini_icon SirfetchD
 	mini_icon MrRime
-	mini_icon Wyrdeer
 	mini_icon Kleavor
 	mini_icon Ursaluna
 	mini_icon Sneasler
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Cottonee
 	mini_icon Whimsicott
 	mini_icon Petilil
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Lilligant
 	mini_icon Basculin
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Sandile
 	mini_icon Krokorok
 	mini_icon Krookodile

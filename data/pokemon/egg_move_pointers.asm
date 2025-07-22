@@ -160,7 +160,6 @@ EggSpeciesMovesPointers::
 	dw HoundourEggSpeciesMoves          ; Houndour
 	dw HoundourEggSpeciesMoves          ; Houndoom
 	dw HorseaEggSpeciesMoves            ; Kingdra
-	dw StantlerEggSpeciesMoves          ; Stantler
 	dw NoEggSpeciesMoves                ; Smeargle
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
@@ -198,7 +197,6 @@ EggSpeciesMovesPointers::
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
 	dw FarfetchDGalarianEggSpeciesMoves ; SirfetchD
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
-	dw StantlerEggSpeciesMoves          ; Wyrdeer
 	dw ScytherEggSpeciesMoves           ; Kleavor
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw CottoneeEggSpeciesMoves          ; Cottonee
 	dw CottoneeEggSpeciesMoves          ; Whimsicott
 	dw PetililEggSpeciesMoves           ; Petilil
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw PetililEggSpeciesMoves           ; Lilligant
 	dw BasculinEggSpeciesMoves          ; Basculin
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SandileEggSpeciesMoves           ; Sandile
 	dw SandileEggSpeciesMoves           ; Krokorok
 	dw SandileEggSpeciesMoves           ; Krookodile

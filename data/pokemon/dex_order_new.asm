@@ -184,8 +184,6 @@ NewPokedexOrder:
 	dp NINETALES
 	dp GROWLITHE
 	dp ARCANINE
-	dp STANTLER
-	dp WYRDEER
 	dp AZURILL
 	dp MARILL
 	dp AZUMARILL

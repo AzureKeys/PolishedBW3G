@@ -160,7 +160,6 @@ AnimationPointers:
 	dw HoundourAnimation
 	dw HoundoomAnimation
 	dw KingdraAnimation
-	dw StantlerAnimation
 	dw SmeargleAnimation
 	dw ElekidAnimation
 	dw MagbyAnimation
@@ -198,7 +197,6 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw SirfetchDAnimation
 	dw MrRimeAnimation
-	dw WyrdeerAnimation
 	dw KleavorAnimation
 	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw CottoneeAnimation
 	dw WhimsicottAnimation
 	dw PetililAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw LilligantPlainAnimation
 	dw BasculinRedAnimation ; BasculinWhiteAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw SandileAnimation
 	dw KrokorokAnimation
 	dw KrookodileAnimation

@@ -164,7 +164,6 @@ PokemonPicPointers::
 	pics Houndour
 	pics Houndoom
 	pics Kingdra
-	pics Stantler
 	pics Smeargle
 	pics Elekid
 	pics Magby
@@ -202,7 +201,6 @@ PokemonPicPointers::
 	pics Cursola
 	pics SirfetchD
 	pics MrRime
-	pics Wyrdeer
 	pics Kleavor
 	pics UrsalunaPlain
 	pics Sneasler
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Cottonee
 	pics Whimsicott
 	pics Petilil
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics LilligantPlain
 	pics BasculinRed ; BasculinWhite
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Sandile
 	pics Krokorok
 	pics Krookodile

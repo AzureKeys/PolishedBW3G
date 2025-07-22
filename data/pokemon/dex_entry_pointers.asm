@@ -161,7 +161,6 @@ PokedexDataPointerTable:
 	dba HoundourPokedexEntry
 	dba HoundoomPokedexEntry
 	dba KingdraPokedexEntry
-	dba StantlerPokedexEntry
 	dba SmearglePokedexEntry
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
@@ -199,7 +198,6 @@ PokedexDataPointerTable:
 	dba CursolaPokedexEntry
 	dba SirfetchDPokedexEntry
 	dba MrRimePokedexEntry
-	dba WyrdeerPokedexEntry
 	dba KleavorPokedexEntry
 	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba CottoneePokedexEntry
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba LilligantPlainPokedexEntry
 	dba BasculinRedPokedexEntry ; BasculinWhitePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
 	dba KrookodilePokedexEntry

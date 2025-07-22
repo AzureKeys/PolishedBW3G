@@ -807,11 +807,6 @@ KingdraMini::     INCBIN "gfx/minis/kingdra.2bpp.lz"
 KingdraMiniMask:: INCBIN "gfx/minis/kingdra_mask.1bpp.lz"
 KingdraIcon::     INCBIN "gfx/icons/kingdra.2bpp.lz"
 
-SECTION "Stantler Mini Icon", ROMX
-StantlerMini::     INCBIN "gfx/minis/stantler.2bpp.lz"
-StantlerMiniMask:: INCBIN "gfx/minis/stantler_mask.1bpp.lz"
-StantlerIcon::     INCBIN "gfx/icons/stantler.2bpp.lz"
-
 SECTION "Smeargle Mini Icon", ROMX
 SmeargleMini::     INCBIN "gfx/minis/smeargle.2bpp.lz"
 SmeargleMiniMask:: INCBIN "gfx/minis/smeargle_mask.1bpp.lz"
@@ -1001,11 +996,6 @@ SECTION "MrRime Mini Icon", ROMX
 MrRimeMini::     INCBIN "gfx/minis/mr__rime.2bpp.lz"
 MrRimeMiniMask:: INCBIN "gfx/minis/mr__rime_mask.1bpp.lz"
 MrRimeIcon::     INCBIN "gfx/icons/mr__rime.2bpp.lz"
-
-SECTION "Wyrdeer Mini Icon", ROMX
-WyrdeerMini::     INCBIN "gfx/minis/wyrdeer.2bpp.lz"
-WyrdeerMiniMask:: INCBIN "gfx/minis/wyrdeer_mask.1bpp.lz"
-WyrdeerIcon::     INCBIN "gfx/icons/wyrdeer.2bpp.lz"
 
 SECTION "Kleavor Mini Icon", ROMX
 KleavorMini::     INCBIN "gfx/minis/kleavor.2bpp.lz"

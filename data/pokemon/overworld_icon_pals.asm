@@ -164,7 +164,6 @@ OverworldMonIconColors::
 	iconpal RED, GRAY ; HOUNDOUR
 	iconpal RED, GRAY ; HOUNDOOM
 	iconpal BLUE, PURPLE ; KINGDRA
-	iconpal BROWN, GREEN ; STANTLER
 	iconpal BROWN, GREEN ; SMEARGLE
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
@@ -202,7 +201,6 @@ OverworldMonIconColors::
 	iconpal GRAY, PINK ; CURSOLA
 	iconpal WHITE, RED ; SIRFETCH_D
 	iconpal BLUE, GRAY ; MR__RIME
-	iconpal GRAY, GREEN ; WYRDEER
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GREEN, ORANGE ; COTTONEE
 	iconpal BROWN, GRAY ; WHIMSICOTT
 	iconpal GREEN, BROWN ; PETILIL
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, TEAL ; LILLIGANT
 	iconpal GREEN, TEAL ; BASCULIN
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, YELLOW ; SANDILE
 	iconpal BROWN, YELLOW ; KROKOROK
 	iconpal RED, BROWN ; KROOKODILE

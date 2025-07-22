@@ -165,7 +165,6 @@ endc
 	db   1,  23 ; Houndour
 	db  24, 100 ; Houndoom
 	db  55, 100 ; Kingdra
-	db   1,  29 ; Stantler
 	db   1, 100 ; Smeargle
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
@@ -203,7 +202,6 @@ endc
 	db  38, 100 ; Cursola
 	db  20, 100 ; Sirfetch'd
 	db  42, 100 ; Mr. Rime
-	db  30, 100 ; Wyrdeer
 	db  20, 100 ; Kleavor
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
@@ -259,10 +257,10 @@ endc
 	db   1,  29 ; Cottonee
 	db  30, 100 ; Whimsicott
 	db   1,  29 ; Petilil
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  30, 100 ; Lilligant
 	db  15, 100 ; Basculin
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  28 ; Sandile
 	db  29,  39 ; Krokorok
 	db  40, 100 ; Krookodile
