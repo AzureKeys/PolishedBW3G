@@ -299,6 +299,8 @@ MiniIconPointers:
 	mini_icon Emolga
 	mini_icon Karrablast
 	mini_icon Escavalier
+	mini_icon Foongus
+	mini_icon Amoonguss
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -299,6 +299,8 @@ endc
 	db NO_MOVE      ; EMOLGA
 	db NO_MOVE      ; KARRABLAST
 	db NO_MOVE      ; ESCAVALIER
+	db NO_MOVE      ; FOONGUS
+	db NO_MOVE      ; AMOONGUSS
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

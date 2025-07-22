@@ -295,6 +295,8 @@ AnimationPointers:
 	dw EmolgaAnimation
 	dw KarrablastAnimation
 	dw EscavalierAnimation
+	dw FoongusAnimation
+	dw AmoongussAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

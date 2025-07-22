@@ -6149,6 +6149,44 @@ endc
 	learnset 49, REVERSAL
 	learnset 52, SWORDS_DANCE
 	learnset 56, GIGA_IMPACT
+	
+	evos_attacks Foongus
+	evo_data EVOLVE_LEVEL, 39, AMOONGUSS
+	learnset 1, ABSORB
+	learnset 6, GROWTH
+	learnset 8, ASTONISH
+	learnset 12, POISONPOWDER ; Bide
+	learnset 15, MEGA_DRAIN
+	learnset 18, SLEEP_POWDER ; Ingrain
+	learnset 20, FEINT_ATTACK
+	;learnset 24, SWEET_SCENT
+	learnset 28, GIGA_DRAIN
+	learnset 32, TOXIC
+	learnset 35, HEALINGLIGHT ; Synthesis
+	;learnset 39, CLEAR_SMOG
+	learnset 43, SOLAR_BEAM
+	; Skipped Rage Powder
+	learnset 45, SPORE
+	
+	evos_attacks Amoonguss
+	learnset 1, ABSORB
+	learnset 1, GROWTH
+	learnset 1, ASTONISH
+	learnset 1, POISONPOWDER ; Bide
+	learnset 6, GROWTH
+	learnset 8, ASTONISH
+	learnset 12, POISONPOWDER ; Bide
+	learnset 15, MEGA_DRAIN
+	learnset 18, SLEEP_POWDER ; Ingrain
+	learnset 20, FEINT_ATTACK
+	;learnset 24, SWEET_SCENT
+	learnset 28, GIGA_DRAIN
+	learnset 32, TOXIC
+	learnset 35, HEALINGLIGHT ; Synthesis
+	;learnset 39, CLEAR_SMOG
+	learnset 49, SOLAR_BEAM
+	; Skipped Rage Powder
+	learnset 54, SPORE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

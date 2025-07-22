@@ -1576,3 +1576,11 @@ KarrablastBackpic:  INCBIN "gfx/pokemon/karrablast/back.2bpp.lz"
 SECTION "Escavalier Pics", ROMX
 EscavalierFrontpic: INCBIN "gfx/pokemon/escavalier/front.animated.2bpp.lz"
 EscavalierBackpic:  INCBIN "gfx/pokemon/escavalier/back.2bpp.lz"
+
+SECTION "Foongus Pics", ROMX
+FoongusFrontpic: INCBIN "gfx/pokemon/foongus/front.animated.2bpp.lz"
+FoongusBackpic:  INCBIN "gfx/pokemon/foongus/back.2bpp.lz"
+
+SECTION "Amoonguss Pics", ROMX
+AmoongussFrontpic: INCBIN "gfx/pokemon/amoonguss/front.animated.2bpp.lz"
+AmoongussBackpic:  INCBIN "gfx/pokemon/amoonguss/back.2bpp.lz"

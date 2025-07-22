@@ -330,6 +330,8 @@ INCLUDE "data/pokemon/base_stats/sawsbuck.asm"
 INCLUDE "data/pokemon/base_stats/emolga.asm"
 INCLUDE "data/pokemon/base_stats/karrablast.asm"
 INCLUDE "data/pokemon/base_stats/escavalier.asm"
+INCLUDE "data/pokemon/base_stats/foongus.asm"
+INCLUDE "data/pokemon/base_stats/amoonguss.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

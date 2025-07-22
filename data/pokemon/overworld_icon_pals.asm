@@ -299,6 +299,8 @@ OverworldMonIconColors::
 	iconpal YELLOW, BROWN ; EMOLGA
 	iconpal BLUE, TEAL ; KARRABLAST
 	iconpal GRAY, PINK ; ESCAVALIER
+	iconpal RED, PURPLE ; FOONGUS
+	iconpal RED, PURPLE ; AMOONGUSS
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

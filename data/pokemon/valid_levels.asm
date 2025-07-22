@@ -300,4 +300,6 @@ endc
 	db  20, 100 ; Emolga
 	db   1,  29 ; Karrablast
 	db  30, 100 ; Escavalier
+	db   1,  38 ; Foongus
+	db  39, 100 ; Amoonguss
 	assert_table_length NUM_SPECIES

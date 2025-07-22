@@ -299,6 +299,8 @@ PokemonPicPointers::
 	pics Emolga
 	pics Karrablast
 	pics Escavalier
+	pics Foongus
+	pics Amoonguss
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

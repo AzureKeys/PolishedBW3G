@@ -232,6 +232,8 @@ VanilluxeAnimationExtra:  INCLUDE "gfx/pokemon/vanilluxe/anim_idle.asm"
 EmolgaAnimationExtra:     INCLUDE "gfx/pokemon/emolga/anim_idle.asm"
 KarrablastAnimationExtra: INCLUDE "gfx/pokemon/karrablast/anim_idle.asm"
 EscavalierAnimationExtra: INCLUDE "gfx/pokemon/escavalier/anim_idle.asm"
+FoongusAnimationExtra:    INCLUDE "gfx/pokemon/foongus/anim_idle.asm"
+AmoongussAnimationExtra:  INCLUDE "gfx/pokemon/amoonguss/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

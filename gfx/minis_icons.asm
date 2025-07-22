@@ -1477,6 +1477,16 @@ EscavalierMini::     INCBIN "gfx/minis/escavalier.2bpp.lz"
 EscavalierMiniMask:: INCBIN "gfx/minis/escavalier_mask.1bpp.lz"
 EscavalierIcon::     INCBIN "gfx/icons/escavalier.2bpp.lz"
 
+SECTION "Foongus Mini Icon", ROMX
+FoongusMini::     INCBIN "gfx/minis/foongus.2bpp.lz"
+FoongusMiniMask:: INCBIN "gfx/minis/foongus_mask.1bpp.lz"
+FoongusIcon::     INCBIN "gfx/icons/foongus.2bpp.lz"
+
+SECTION "Amoonguss Mini Icon", ROMX
+AmoongussMini::     INCBIN "gfx/minis/amoonguss.2bpp.lz"
+AmoongussMiniMask:: INCBIN "gfx/minis/amoonguss_mask.1bpp.lz"
+AmoongussIcon::     INCBIN "gfx/icons/amoonguss.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

@@ -302,6 +302,8 @@ PokemonBodyData:
 	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
 	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST
 	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
+	body_data   2,   10, HEAD_ARMS,    WHITE  ; FOONGUS
+	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

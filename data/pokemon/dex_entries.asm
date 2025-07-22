@@ -2917,6 +2917,26 @@ EscavalierPokedexEntry::
 	next "armor protects"
 	next "their whole body.@"
 
+SECTION "FoongusPokedexEntry", ROMX
+FoongusPokedexEntry::
+	db "Mushroom@"
+	db "It lures people"
+	next "with its #ball"
+	next "pattern, then"
+	page "releases poisonous"
+	next "spores onto its"
+	next "victims.@"
+
+SECTION "AmoongussPokedexEntry", ROMX
+AmoongussPokedexEntry::
+	db "Mushroom@"
+	db "It lures prey"
+	next "close by waving"
+	next "its arm caps,"
+	page "which resemble"
+	next "#balls, in a"
+	next "swaying dance.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

@@ -295,6 +295,8 @@ FramesPointers:
 	dw EmolgaFrames
 	dw KarrablastFrames
 	dw EscavalierFrames
+	dw FoongusFrames
+	dw AmoongussFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

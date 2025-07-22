@@ -295,6 +295,8 @@ BitmasksPointers:
 	dw EmolgaBitmasks
 	dw KarrablastBitmasks
 	dw EscavalierBitmasks
+	dw FoongusBitmasks
+	dw AmoongussBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

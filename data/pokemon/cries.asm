@@ -301,4 +301,6 @@ PokemonCries::
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; EMOLGA*
 	mon_cry CRY_GRIMER,      $000,  $100 ; KARRABLAST*
 	mon_cry CRY_MUK,         $0ef,  $17f ; ESCAVALIER*
+	mon_cry CRY_GRIMER,      $2d0,  $0a0 ; Foongus
+	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	assert_table_length NUM_SPECIES

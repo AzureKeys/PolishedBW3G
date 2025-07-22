@@ -1238,5 +1238,16 @@ KarrablastEggSpeciesMoves:
 	db SCREECH
 	db $ff
 
+FoongusEggSpeciesMoves:
+	dp FOONGUS, PLAIN_FORM
+	db BODY_SLAM
+	db DEFENSE_CURL
+	db ENDURE
+	db GROWTH
+	db POISONPOWDER
+	db ROLLOUT
+	db STUN_SPORE
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

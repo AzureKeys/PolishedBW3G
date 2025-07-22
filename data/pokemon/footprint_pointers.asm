@@ -295,6 +295,8 @@ FootprintPointers::
 	dw EmolgaFootprint
 	dw KarrablastFootprint
 	dw EscavalierFootprint
+	dw FoongusFootprint
+	dw AmoongussFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

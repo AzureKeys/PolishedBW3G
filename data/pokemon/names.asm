@@ -296,4 +296,6 @@ PokemonNames::
 	rawchar "Emolga@@@@"
 	rawchar "Karrablast"
 	rawchar "Escavalier"
+	rawchar "Foongus@@@"
+	rawchar "Amoonguss@"
 	assert_table_length NUM_SPECIES + 1

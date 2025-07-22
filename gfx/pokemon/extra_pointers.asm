@@ -295,6 +295,8 @@ AnimationExtraPointers:
 	dw EmolgaAnimationExtra
 	dw KarrablastAnimationExtra
 	dw EscavalierAnimationExtra
+	dw FoongusAnimationExtra
+	dw AmoongussAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

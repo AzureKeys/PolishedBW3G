@@ -295,6 +295,8 @@ EggSpeciesMovesPointers::
 	dw EmolgaEggSpeciesMoves            ; Emolga
 	dw KarrablastEggSpeciesMoves        ; Karrablast
 	dw KarrablastEggSpeciesMoves        ; Escavalier
+	dw FoongusEggSpeciesMoves           ; Foongus
+	dw FoongusEggSpeciesMoves           ; Amoonguss
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

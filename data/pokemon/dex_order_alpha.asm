@@ -2,6 +2,7 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
+	dp AMOONGUSS
 	dp AMPHAROS
 	dp ANNIHILAPE
 	dp ARBOK
@@ -76,6 +77,7 @@ AlphabeticalPokedexOrder:
 	dp FERALIGATR
 	dp FLAAFFY
 	dp FLAREON
+	dp FOONGUS
 	dp GARBODOR
 	dp GASTLY
 	dp GENGAR

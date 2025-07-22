@@ -98,6 +98,8 @@ SawsbuckFootprint::
 EmolgaFootprint::
 KarrablastFootprint::
 EscavalierFootprint::
+FoongusFootprint::
+AmoongussFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
