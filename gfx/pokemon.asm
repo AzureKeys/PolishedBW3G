@@ -1560,3 +1560,11 @@ FrillishMaleBackpic:  INCBIN "gfx/pokemon/frillish_male/back.2bpp.lz"
 SECTION "JellicentMale Pics", ROMX
 JellicentMaleFrontpic: INCBIN "gfx/pokemon/jellicent_male/front.animated.2bpp.lz"
 JellicentMaleBackpic:  INCBIN "gfx/pokemon/jellicent_male/back.2bpp.lz"
+
+SECTION "Joltik Pics", ROMX
+JoltikFrontpic: INCBIN "gfx/pokemon/joltik/front.animated.2bpp.lz"
+JoltikBackpic:  INCBIN "gfx/pokemon/joltik/back.2bpp.lz"
+
+SECTION "Galvantula Pics", ROMX
+GalvantulaFrontpic: INCBIN "gfx/pokemon/galvantula/front.animated.2bpp.lz"
+GalvantulaBackpic:  INCBIN "gfx/pokemon/galvantula/back.2bpp.lz"

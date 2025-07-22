@@ -297,6 +297,8 @@ MiniIconPointers:
 	mini_icon Amoonguss
 	mini_icon FrillishMale
 	mini_icon JellicentMale
+	mini_icon Joltik
+	mini_icon Galvantula
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -168,6 +168,8 @@ KarrablastFrames: INCLUDE "gfx/pokemon/karrablast/frames.asm"
 EscavalierFrames: INCLUDE "gfx/pokemon/escavalier/frames.asm"
 FoongusFrames:    INCLUDE "gfx/pokemon/foongus/frames.asm"
 AmoongussFrames:  INCLUDE "gfx/pokemon/amoonguss/frames.asm"
+JoltikFrames:     INCLUDE "gfx/pokemon/joltik/frames.asm"
+GalvantulaFrames: INCLUDE "gfx/pokemon/galvantula/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

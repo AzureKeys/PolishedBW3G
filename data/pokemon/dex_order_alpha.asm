@@ -77,6 +77,7 @@ AlphabeticalPokedexOrder:
 	dp FLAREON
 	dp FOONGUS
 	dp FRILLISH
+	dp GALVANTULA
 	dp GARBODOR
 	dp GASTLY
 	dp GENGAR
@@ -110,6 +111,7 @@ AlphabeticalPokedexOrder:
 	dp JELLICENT
 	dp JIGGLYPUFF
 	dp JOLTEON
+	dp JOLTIK
 	dp KANGASKHAN
 	dp KARRABLAST
 	dp KINGDRA

@@ -293,6 +293,8 @@ BitmasksPointers:
 	dw AmoongussBitmasks
 	dw FrillishMaleBitmasks
 	dw JellicentMaleBitmasks
+	dw JoltikBitmasks
+	dw GalvantulaBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

@@ -328,6 +328,8 @@ INCLUDE "data/pokemon/base_stats/foongus.asm"
 INCLUDE "data/pokemon/base_stats/amoonguss.asm"
 INCLUDE "data/pokemon/base_stats/frillish.asm"
 INCLUDE "data/pokemon/base_stats/jellicent.asm"
+INCLUDE "data/pokemon/base_stats/joltik.asm"
+INCLUDE "data/pokemon/base_stats/galvantula.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

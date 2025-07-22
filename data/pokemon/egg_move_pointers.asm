@@ -293,6 +293,8 @@ EggSpeciesMovesPointers::
 	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw FrillishEggSpeciesMoves          ; Frillish
 	dw FrillishEggSpeciesMoves          ; Jellicent
+	dw JoltikEggSpeciesMoves            ; Joltik
+	dw JoltikEggSpeciesMoves            ; Galvantula
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

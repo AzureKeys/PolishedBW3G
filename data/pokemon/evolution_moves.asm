@@ -297,6 +297,8 @@ endc
 	db NO_MOVE      ; AMOONGUSS
 	db NO_MOVE      ; FRILLISH
 	db NO_MOVE      ; JELLICENT
+	db NO_MOVE      ; JOLTIK
+	db NO_MOVE      ; GALVANTULA
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

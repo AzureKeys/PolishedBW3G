@@ -6077,6 +6077,43 @@ endc
 	learnset 45, SHADOW_BALL ; Hex
 	learnset 53, HYDRO_PUMP
 	learnset 61, GIGA_DRAIN ; Wring Out
+	
+	evos_attacks Joltik
+	evo_data EVOLVE_LEVEL, 36, GALVANTULA
+	learnset 1, ABSORB
+	learnset 1, STRING_SHOT
+	learnset 4, THUNDER_WAVE
+	learnset 7, SCREECH
+	;learnset 12, FURY_CUTTER
+	;learnset 15, ELECTROWEB
+	learnset 18, BUG_BITE
+	learnset 23, ACID ; Gastro Acid
+	learnset 26, SLASH
+	;learnset 29, ELECTRO_BALL
+	;learnset 34, SIGNAL_BEAM
+	learnset 37, AGILITY
+	learnset 40, SUCKER_PUNCH
+	;learnset 45, DISCHARGE
+	learnset 48, BUG_BUZZ
+	
+	evos_attacks Galvantula
+	learnset 1, ABSORB
+	learnset 1, STRING_SHOT
+	learnset 1, THUNDER_WAVE
+	learnset 1, SCREECH
+	learnset 4, THUNDER_WAVE
+	learnset 7, SCREECH
+	;learnset 12, FURY_CUTTER
+	;learnset 15, ELECTROWEB
+	learnset 18, BUG_BITE
+	learnset 23, ACID ; Gastro Acid
+	learnset 26, SLASH
+	;learnset 29, ELECTRO_BALL
+	;learnset 34, SIGNAL_BEAM
+	learnset 40, AGILITY
+	learnset 46, SUCKER_PUNCH
+	;learnset 54, DISCHARGE
+	learnset 60, BUG_BUZZ
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

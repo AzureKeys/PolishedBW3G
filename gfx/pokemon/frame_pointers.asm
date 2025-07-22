@@ -293,6 +293,8 @@ FramesPointers:
 	dw AmoongussFrames
 	dw FrillishMaleFrames
 	dw JellicentMaleFrames
+	dw JoltikFrames
+	dw GalvantulaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

@@ -298,4 +298,6 @@ endc
 	db  39, 100 ; Amoonguss
 	db   1,  39 ; Frillish
 	db  40, 100 ; Jellicent
+	db   1,  35 ; Joltik
+	db  36, 100 ; Galvantula
 	assert_table_length NUM_SPECIES

@@ -297,6 +297,8 @@ OverworldMonIconColors::
 	iconpal RED, PURPLE ; AMOONGUSS
 	iconpal AZURE, TEAL ; FRILLISH (male)
 	iconpal AZURE, TEAL ; JELLICENT (male)
+	iconpal ORANGE, YELLOW ; JOLTIK
+	iconpal BLUE, ORANGE ; GALVANTULA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

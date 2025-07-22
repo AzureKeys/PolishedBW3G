@@ -300,6 +300,8 @@ PokemonBodyData:
 	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	body_data  12,  330, TENTACLES,    WHITE  ; FRILLISH
 	body_data  22, 1350, TENTACLES,    WHITE  ; JELLICENT
+	body_data   1,    6, INSECTOID,    YELLOW ; JOLTIK
+	body_data   8,  143, INSECTOID,    YELLOW ; GALVANTULA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

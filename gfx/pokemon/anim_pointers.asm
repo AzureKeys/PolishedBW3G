@@ -293,6 +293,8 @@ AnimationPointers:
 	dw AmoongussAnimation
 	dw FrillishMaleAnimation
 	dw JellicentMaleAnimation
+	dw JoltikAnimation
+	dw GalvantulaAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

@@ -297,6 +297,8 @@ PokemonPicPointers::
 	pics Amoonguss
 	pics FrillishMale
 	pics JellicentMale
+	pics Joltik
+	pics Galvantula
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

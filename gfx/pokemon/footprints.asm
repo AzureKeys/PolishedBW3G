@@ -102,6 +102,8 @@ FoongusFootprint::
 AmoongussFootprint::
 FrillishFootprint::
 JellicentFootprint::
+JoltikFootprint::
+GalvantulaFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

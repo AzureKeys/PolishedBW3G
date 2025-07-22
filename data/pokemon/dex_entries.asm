@@ -2897,6 +2897,26 @@ JellicentPokedexEntry::
 	next "favorite food is"
 	next "life energy.@"
 
+SECTION "JoltikPokedexEntry", ROMX
+JoltikPokedexEntry::
+	db "Attaching@"
+	db "Joltik attach"
+	next "themselves to the"
+	next "bodies of larger"
+	page "#mon and absorb"
+	next "static electricity"
+	next "to consume.@"
+
+SECTION "GalvantulaPokedexEntry", ROMX
+GalvantulaPokedexEntry::
+	db "EleSpider@"
+	db "They use a web"
+	next "charged with"
+	next "electricity to"
+	page "trap their prey."
+	next "They eat the"
+	next "stunned target.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

@@ -293,6 +293,8 @@ FootprintPointers::
 	dw AmoongussFootprint
 	dw FrillishFootprint
 	dw JellicentFootprint
+	dw JoltikFootprint
+	dw GalvantulaFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

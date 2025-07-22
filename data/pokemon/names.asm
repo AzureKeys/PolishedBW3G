@@ -294,4 +294,6 @@ PokemonNames::
 	rawchar "Amoonguss@"
 	rawchar "Frillish@@"
 	rawchar "Jellicent@"
+	rawchar "Joltik@@@@"
+	rawchar "Galvantula"
 	assert_table_length NUM_SPECIES + 1

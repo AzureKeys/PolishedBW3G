@@ -1223,5 +1223,15 @@ FrillishEggSpeciesMoves:
 	db RECOVER
 	db $ff
 
+JoltikEggSpeciesMoves:
+	dp JOLTIK, PLAIN_FORM
+	;db CROSS_POISON
+	db DISABLE
+	db FEINT_ATTACK
+	db PIN_MISSILE
+	db POISON_STING
+	db PURSUIT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

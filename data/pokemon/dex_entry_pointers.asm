@@ -294,6 +294,8 @@ PokedexDataPointerTable:
 	dba AmoongussPokedexEntry
 	dba FrillishPokedexEntry
 	dba JellicentPokedexEntry
+	dba JoltikPokedexEntry
+	dba GalvantulaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

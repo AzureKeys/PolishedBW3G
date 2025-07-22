@@ -312,6 +312,8 @@ INCLUDE "gfx/pokemon/foongus/front.dimensions"
 INCLUDE "gfx/pokemon/amoonguss/front.dimensions"
 INCLUDE "gfx/pokemon/frillish_male/front.dimensions"
 INCLUDE "gfx/pokemon/jellicent_male/front.dimensions"
+INCLUDE "gfx/pokemon/joltik/front.dimensions"
+INCLUDE "gfx/pokemon/galvantula/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

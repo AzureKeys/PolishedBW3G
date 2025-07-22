@@ -297,6 +297,8 @@ EvosAttacksPointers::
 	dw AmoongussEvosAttacks
 	dw FrillishEvosAttacks
 	dw JellicentEvosAttacks
+	dw JoltikEvosAttacks
+	dw GalvantulaEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

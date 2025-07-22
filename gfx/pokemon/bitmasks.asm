@@ -230,6 +230,8 @@ KarrablastBitmasks: INCLUDE "gfx/pokemon/karrablast/bitmask.asm"
 EscavalierBitmasks: INCLUDE "gfx/pokemon/escavalier/bitmask.asm"
 FoongusBitmasks:    INCLUDE "gfx/pokemon/foongus/bitmask.asm"
 AmoongussBitmasks:  INCLUDE "gfx/pokemon/amoonguss/bitmask.asm"
+JoltikBitmasks:     INCLUDE "gfx/pokemon/joltik/bitmask.asm"
+GalvantulaBitmasks: INCLUDE "gfx/pokemon/galvantula/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

@@ -1467,6 +1467,16 @@ JellicentMaleMini::     INCBIN "gfx/minis/jellicent_male.2bpp.lz"
 JellicentMaleMiniMask:: INCBIN "gfx/minis/jellicent_male_mask.1bpp.lz"
 JellicentMaleIcon::     INCBIN "gfx/icons/jellicent_male.2bpp.lz"
 
+SECTION "Joltik Mini Icon", ROMX
+JoltikMini::     INCBIN "gfx/minis/joltik.2bpp.lz"
+JoltikMiniMask:: INCBIN "gfx/minis/joltik_mask.1bpp.lz"
+JoltikIcon::     INCBIN "gfx/icons/joltik.2bpp.lz"
+
+SECTION "Galvantula Mini Icon", ROMX
+GalvantulaMini::     INCBIN "gfx/minis/galvantula.2bpp.lz"
+GalvantulaMiniMask:: INCBIN "gfx/minis/galvantula_mask.1bpp.lz"
+GalvantulaIcon::     INCBIN "gfx/icons/galvantula.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
