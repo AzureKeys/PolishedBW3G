@@ -160,7 +160,6 @@ FramesPointers:
 	dw HoundourFrames
 	dw HoundoomFrames
 	dw KingdraFrames
-	dw SmeargleFrames
 	dw ElekidFrames
 	dw MagbyFrames
 	dw MiltankFrames
@@ -254,9 +253,9 @@ FramesPointers:
 	dw PetililFrames
 	dw LilligantPlainFrames
 	dw BasculinRedFrames ; BasculinWhiteFrames
+	dw SandileFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw SandileFrames
 	dw KrokorokFrames
 	dw KrookodileFrames
 	dw DarumakaPlainFrames

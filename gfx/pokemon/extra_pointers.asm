@@ -160,7 +160,6 @@ AnimationExtraPointers:
 	dw HoundourAnimationExtra
 	dw HoundoomAnimationExtra
 	dw KingdraAnimationExtra
-	dw SmeargleAnimationExtra
 	dw ElekidAnimationExtra
 	dw MagbyAnimationExtra
 	dw MiltankAnimationExtra
@@ -254,9 +253,9 @@ AnimationExtraPointers:
 	dw PetililAnimationExtra
 	dw LilligantPlainAnimationExtra
 	dw BasculinRedAnimationExtra ; BasculinWhiteAnimationExtra
+	dw SandileAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
-	dw SandileAnimationExtra
 	dw KrokorokAnimationExtra
 	dw KrookodileAnimationExtra
 	dw DarumakaPlainAnimationExtra

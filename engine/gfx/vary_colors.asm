@@ -212,15 +212,6 @@ endc
 
 	ld bc, wColorVaryDVs
 
-	ld a, [wColorVarySpecies]
-	cp LOW(SMEARGLE)
-	jr nz, .VaryColors
-	ld a, [wColorVaryForm]
-	and EXTSPECIES_MASK
-	assert HIGH(SMEARGLE) << MON_EXTSPECIES_F == 0
-	and a
-	jr z, .Smeargle
-
 .VaryColors:
 ;;; LiteRed ~ HPDV, aka, rrrrr ~ hhhh
 ; store HPDV in e
@@ -291,57 +282,3 @@ endc
 	pop af
 	ldh [rWBK], a
 	ret
-
-; TODO: vary paint color with unused DV bits
-; * DarkRed' = DarkRed + (HPDV & %0100 >> 2) - (HPDV & %1000 >> 3)
-; * DarkGrn' = DarkGrn + (AtkDV & %0100 >> 2) - (AtkDV & %1000 >> 3)
-; * DarkBlu' = DarkBlu + (DefDV & %0100 >> 2) - (DefDV & %1000 >> 3)
-.Smeargle:
-; a = (AtkDV & %11) << 2 | (DefDV & %11)
-	ld a, [bc]
-	and %11
-	add a
-	add a
-	ld d, a
-	inc bc
-	ld a, [bc]
-	swap a
-	and %11
-	or d
-; d, e = base paint color
-	ld e, a
-	ld d, 0
-	push hl
-	ld hl, .SmearglePals
-	ld a, [wColorVaryShiny]
-	and SHINY_MASK
-	jr z, .not_shiny
-	ld hl, .SmeargleShinyPals
-.not_shiny
-	add hl, de
-	add hl, de
-	ld a, [hli]
-	ld d, a
-	ld a, [hl]
-	ld e, a
-	pop hl
-;;; DarkRGB = base paint color
-	inc hl
-	inc hl
-	inc hl
-	ld a, e
-	ld [hld], a
-	ld a, d
-	ld [hl], a
-;;; LiteRGB ~ Spe,SAt,SDfDVs
-	jr .Finish
-
-; red and blue channels: no 0 or 31
-; green channel: no 0, 7, 8, 15, 16, 23, 24, or 31
-; need to be able to add or subtract 1 without overflow/underflow
-
-.SmearglePals:
-INCLUDE "gfx/pokemon/smeargle.pal"
-
-.SmeargleShinyPals: ; TODO
-INCLUDE "gfx/pokemon/smeargle_shiny.pal"

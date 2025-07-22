@@ -1606,16 +1606,6 @@ KingdraPokedexEntry::
 	next "life forms can"
 	next "survive.@"
 
-SECTION "SmearglePokedexEntry", ROMX
-SmearglePokedexEntry::
-	db "Painter@"
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
-	page "tail is predeter-"
-	next "mined for each"
-	next "Smeargle.@"
-
 SECTION "ElekidPokedexEntry", ROMX
 ElekidPokedexEntry::
 	db "Electric@"

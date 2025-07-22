@@ -164,7 +164,6 @@ OverworldMonIconColors::
 	iconpal RED, GRAY ; HOUNDOUR
 	iconpal RED, GRAY ; HOUNDOOM
 	iconpal BLUE, PURPLE ; KINGDRA
-	iconpal BROWN, GREEN ; SMEARGLE
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
 	iconpal PINK, AZURE ; MILTANK
@@ -258,9 +257,9 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; PETILIL
 	iconpal GREEN, TEAL ; LILLIGANT
 	iconpal GREEN, TEAL ; BASCULIN
+	iconpal BROWN, YELLOW ; SANDILE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal BROWN, YELLOW ; SANDILE
 	iconpal BROWN, YELLOW ; KROKOROK
 	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA

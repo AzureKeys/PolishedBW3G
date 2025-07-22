@@ -161,7 +161,6 @@ PokedexDataPointerTable:
 	dba HoundourPokedexEntry
 	dba HoundoomPokedexEntry
 	dba KingdraPokedexEntry
-	dba SmearglePokedexEntry
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
 	dba MiltankPokedexEntry
@@ -255,9 +254,9 @@ PokedexDataPointerTable:
 	dba PetililPokedexEntry
 	dba LilligantPlainPokedexEntry
 	dba BasculinRedPokedexEntry ; BasculinWhitePokedexEntry
+	dba SandilePokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
-	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
 	dba KrookodilePokedexEntry
 	dba DarumakaPlainPokedexEntry

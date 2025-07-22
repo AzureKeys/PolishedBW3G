@@ -161,7 +161,6 @@ PokemonNames::
 	rawchar "Houndour@@"
 	rawchar "Houndoom@@"
 	rawchar "Kingdra@@@"
-	rawchar "Smeargle@@"
 	rawchar "Elekid@@@@"
 	rawchar "Magby@@@@@"
 	rawchar "Miltank@@@"
@@ -255,9 +254,9 @@ PokemonNames::
 	rawchar "Petilil@@@"
 	rawchar "Lilligant@"
 	rawchar "Basculin@@"
+	rawchar "Sandile@@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
-	rawchar "Sandile@@@"
 	rawchar "Krokorok@@"
 	rawchar "Krookodile"
 	rawchar "Darumaka@@"

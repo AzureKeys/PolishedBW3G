@@ -227,7 +227,6 @@ AlphabeticalPokedexOrder:
 	dp SLOWBRO
 	dp SLOWKING
 	dp SLOWPOKE
-	dp SMEARGLE
 	dp SNEASEL
 	dp SNEASLER
 	dp SNIVY

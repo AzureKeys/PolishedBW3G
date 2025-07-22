@@ -208,7 +208,6 @@ NewPokedexOrder:
 	dp MIME_JR_
 	dp MR__MIME
 	dp MR__RIME
-	dp SMEARGLE
 	dp FARFETCH_D
 	dp SIRFETCH_D
 	dp QWILFISH

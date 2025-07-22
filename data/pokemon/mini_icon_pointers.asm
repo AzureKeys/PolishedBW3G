@@ -164,7 +164,6 @@ MiniIconPointers:
 	mini_icon Houndour
 	mini_icon Houndoom
 	mini_icon Kingdra
-	mini_icon Smeargle
 	mini_icon Elekid
 	mini_icon Magby
 	mini_icon Miltank
@@ -258,9 +257,9 @@ MiniIconPointers:
 	mini_icon Petilil
 	mini_icon Lilligant
 	mini_icon Basculin
+	mini_icon Sandile
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Sandile
 	mini_icon Krokorok
 	mini_icon Krookodile
 	mini_icon Darumaka

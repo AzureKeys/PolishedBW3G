@@ -807,11 +807,6 @@ KingdraMini::     INCBIN "gfx/minis/kingdra.2bpp.lz"
 KingdraMiniMask:: INCBIN "gfx/minis/kingdra_mask.1bpp.lz"
 KingdraIcon::     INCBIN "gfx/icons/kingdra.2bpp.lz"
 
-SECTION "Smeargle Mini Icon", ROMX
-SmeargleMini::     INCBIN "gfx/minis/smeargle.2bpp.lz"
-SmeargleMiniMask:: INCBIN "gfx/minis/smeargle_mask.1bpp.lz"
-SmeargleIcon::     INCBIN "gfx/icons/smeargle.2bpp.lz"
-
 SECTION "Elekid Mini Icon", ROMX
 ElekidMini::     INCBIN "gfx/minis/elekid.2bpp.lz"
 ElekidMiniMask:: INCBIN "gfx/minis/elekid_mask.1bpp.lz"

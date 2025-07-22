@@ -3678,18 +3678,6 @@ endc
 	learnset 52, DRAGON_DANCE
 	learnset 60, HYDRO_PUMP
 
-	evos_attacks Smeargle
-	learnset 1, SKETCH
-	learnset 11, SKETCH
-	learnset 21, SKETCH
-	learnset 31, SKETCH
-	learnset 41, SKETCH
-	learnset 51, SKETCH
-	learnset 61, SKETCH
-	learnset 71, SKETCH
-	learnset 81, SKETCH
-	learnset 91, SKETCH
-
 	evos_attacks Elekid
 	evo_data EVOLVE_LEVEL, 30, ELECTABUZZ
 	learnset 1, QUICK_ATTACK

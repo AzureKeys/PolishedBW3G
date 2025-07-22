@@ -164,7 +164,6 @@ PokemonPicPointers::
 	pics Houndour
 	pics Houndoom
 	pics Kingdra
-	pics Smeargle
 	pics Elekid
 	pics Magby
 	pics Miltank
@@ -258,9 +257,9 @@ PokemonPicPointers::
 	pics Petilil
 	pics LilligantPlain
 	pics BasculinRed ; BasculinWhite
+	pics Sandile
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Sandile
 	pics Krokorok
 	pics Krookodile
 	pics DarumakaPlain

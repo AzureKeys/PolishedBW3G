@@ -184,7 +184,6 @@
 	const HOUNDOUR   ; 75
 	const HOUNDOOM   ; 76
 	const KINGDRA    ; 77
-	const SMEARGLE   ; xx
 	const ELEKID     ; 78
 	const MAGBY      ; 79
 	const MILTANK    ; xx
@@ -278,9 +277,9 @@
 	const PETILIL    ; 129
 	const LILLIGANT  ; 12a
 	const BASCULIN   ; 12b
+	const SANDILE    ; 12c
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const SANDILE    ; 12c
 	const KROKOROK   ; 12d
 	const KROOKODILE ; 12e
 	const DARUMAKA   ; 12f

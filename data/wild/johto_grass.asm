@@ -399,17 +399,17 @@
 	wildmon 22, RATTATA
 	wildmon 18, RATTATA
 	wildmon 24, RATTATA
-	wildmon 20, SMEARGLE
-	wildmon 22, SMEARGLE
-	wildmon 22, SMEARGLE
+	wildmon 20, RATTATA
+	wildmon 22, RATTATA
+	wildmon 22, RATTATA
 	; day
 	wildmon 20, RATTATA
 	wildmon 22, RATTATA
 	wildmon 18, RATTATA
 	wildmon 24, RATTATA
-	wildmon 20, SMEARGLE
-	wildmon 22, SMEARGLE
-	wildmon 22, SMEARGLE
+	wildmon 20, RATTATA
+	wildmon 22, RATTATA
+	wildmon 22, RATTATA
 	; nite
 	wildmon 22, RATTATA
 	wildmon 24, RATTATA
@@ -1575,7 +1575,7 @@
 	wildmon 14, RATTATA
 	wildmon 15, RATTATA
 	wildmon 16, GROWLITHE
-	wildmon 14, SMEARGLE
+	wildmon 14, RATTATA
 	wildmon 15, RATTATA
 	wildmon 16, RATTATA
 	; day
@@ -1583,7 +1583,7 @@
 	wildmon 14, GROWLITHE
 	wildmon 15, RATTATA
 	wildmon 16, GROWLITHE
-	wildmon 14, SMEARGLE
+	wildmon 14, RATTATA
 	wildmon 15, RATTATA
 	wildmon 16, RATTATA
 	; nite
