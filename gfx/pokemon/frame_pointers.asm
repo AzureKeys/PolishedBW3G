@@ -162,7 +162,6 @@ FramesPointers:
 	dw KingdraFrames
 	dw ElekidFrames
 	dw MagbyFrames
-	dw MiltankFrames
 	dw RaikouFrames
 	dw EnteiFrames
 	dw SuicuneFrames
@@ -254,9 +253,9 @@ FramesPointers:
 	dw LilligantPlainFrames
 	dw BasculinRedFrames ; BasculinWhiteFrames
 	dw SandileFrames
+	dw KrokorokFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw KrokorokFrames
 	dw KrookodileFrames
 	dw DarumakaPlainFrames
 	dw DarmanitanPlainFrames

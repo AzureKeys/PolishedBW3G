@@ -166,7 +166,6 @@ EvosAttacksPointers::
 	dw KingdraEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
-	dw MiltankEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks
@@ -258,9 +257,9 @@ EvosAttacksPointers::
 	dw LilligantPlainEvosAttacks
 	dw BasculinEvosAttacks
 	dw SandileEvosAttacks
+	dw KrokorokEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
-	dw KrokorokEvosAttacks
 	dw KrookodileEvosAttacks
 	dw DarumakaPlainEvosAttacks
 	dw DarmanitanPlainEvosAttacks

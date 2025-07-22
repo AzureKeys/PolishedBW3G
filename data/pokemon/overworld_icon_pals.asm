@@ -166,7 +166,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; KINGDRA
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
-	iconpal PINK, AZURE ; MILTANK
 	iconpal BROWN, RED ; RAIKOU
 	iconpal RED, BROWN ; ENTEI
 	iconpal BLUE, WHITE ; SUICUNE
@@ -258,9 +257,9 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; LILLIGANT
 	iconpal GREEN, TEAL ; BASCULIN
 	iconpal BROWN, YELLOW ; SANDILE
+	iconpal BROWN, YELLOW ; KROKOROK
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal BROWN, YELLOW ; KROKOROK
 	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN

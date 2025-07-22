@@ -817,11 +817,6 @@ MagbyMini::     INCBIN "gfx/minis/magby.2bpp.lz"
 MagbyMiniMask:: INCBIN "gfx/minis/magby_mask.1bpp.lz"
 MagbyIcon::     INCBIN "gfx/icons/magby.2bpp.lz"
 
-SECTION "Miltank Mini Icon", ROMX
-MiltankMini::     INCBIN "gfx/minis/miltank.2bpp.lz"
-MiltankMiniMask:: INCBIN "gfx/minis/miltank_mask.1bpp.lz"
-MiltankIcon::     INCBIN "gfx/icons/miltank.2bpp.lz"
-
 SECTION "Raikou Mini Icon", ROMX
 RaikouMini::     INCBIN "gfx/minis/raikou.2bpp.lz"
 RaikouMiniMask:: INCBIN "gfx/minis/raikou_mask.1bpp.lz"

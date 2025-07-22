@@ -198,7 +198,6 @@ NewPokedexOrder:
 	dp PSYDUCK
 	dp GOLDUCK
 	dp TAUROS
-	dp MILTANK
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR

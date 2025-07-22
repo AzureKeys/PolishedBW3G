@@ -520,10 +520,6 @@ SECTION "Magmortar Pics", ROMX
 MagmortarFrontpic: INCBIN "gfx/pokemon/magmortar/front.animated.2bpp.lz"
 MagmortarBackpic:  INCBIN "gfx/pokemon/magmortar/back.2bpp.lz"
 
-SECTION "Miltank Pics", ROMX
-MiltankFrontpic: INCBIN "gfx/pokemon/miltank/front.animated.2bpp.lz"
-MiltankBackpic:  INCBIN "gfx/pokemon/miltank/back.2bpp.lz"
-
 SECTION "Raikou Pics", ROMX
 RaikouFrontpic: INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
 RaikouBackpic:  INCBIN "gfx/pokemon/raikou/back.2bpp.lz"

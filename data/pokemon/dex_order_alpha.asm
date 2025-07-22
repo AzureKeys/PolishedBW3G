@@ -147,7 +147,6 @@ AlphabeticalPokedexOrder:
 	dp MEOWTH
 	dp MEW
 	dp MEWTWO
-	dp MILTANK
 	dp MIME_JR_
 	dp MISDREAVUS
 	dp MISMAGIUS

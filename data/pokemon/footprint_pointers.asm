@@ -162,7 +162,6 @@ FootprintPointers::
 	dw KingdraFootprint
 	dw ElekidFootprint
 	dw MagbyFootprint
-	dw MiltankFootprint
 	dw RaikouFootprint
 	dw EnteiFootprint
 	dw SuicuneFootprint
@@ -254,9 +253,9 @@ FootprintPointers::
 	dw LilligantFootprint
 	dw BasculinFootprint
 	dw SandileFootprint
+	dw KrokorokFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
-	dw KrokorokFootprint
 	dw KrookodileFootprint
 	dw DarumakaFootprint
 	dw DarmanitanFootprint

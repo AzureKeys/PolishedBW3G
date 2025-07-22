@@ -162,7 +162,6 @@ BitmasksPointers:
 	dw KingdraBitmasks
 	dw ElekidBitmasks
 	dw MagbyBitmasks
-	dw MiltankBitmasks
 	dw RaikouBitmasks
 	dw EnteiBitmasks
 	dw SuicuneBitmasks
@@ -254,9 +253,9 @@ BitmasksPointers:
 	dw LilligantPlainBitmasks
 	dw BasculinRedBitmasks ; BasculinWhiteBitmasks
 	dw SandileBitmasks
+	dw KrokorokBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
-	dw KrokorokBitmasks
 	dw KrookodileBitmasks
 	dw DarumakaPlainBitmasks
 	dw DarmanitanPlainBitmasks

@@ -162,7 +162,6 @@ AnimationExtraPointers:
 	dw KingdraAnimationExtra
 	dw ElekidAnimationExtra
 	dw MagbyAnimationExtra
-	dw MiltankAnimationExtra
 	dw RaikouAnimationExtra
 	dw EnteiAnimationExtra
 	dw SuicuneAnimationExtra
@@ -254,9 +253,9 @@ AnimationExtraPointers:
 	dw LilligantPlainAnimationExtra
 	dw BasculinRedAnimationExtra ; BasculinWhiteAnimationExtra
 	dw SandileAnimationExtra
+	dw KrokorokAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
-	dw KrokorokAnimationExtra
 	dw KrookodileAnimationExtra
 	dw DarumakaPlainAnimationExtra
 	dw DarmanitanPlainAnimationExtra

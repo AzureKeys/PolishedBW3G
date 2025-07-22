@@ -3712,21 +3712,6 @@ endc
 	learnset 40, FLAMETHROWER
 	learnset 43, FIRE_BLAST
 
-	evos_attacks Miltank
-	learnset 1, TACKLE
-	learnset 3, GROWL
-	learnset 5, DEFENSE_CURL
-	learnset 8, STOMP
-	learnset 11, FRESH_SNACK ; Milk Drink → similar move
-	learnset 15, DIZZY_PUNCH ; Bide → egg move
-	learnset 19, ROLLOUT
-	learnset 24, BODY_SLAM
-	learnset 29, ZEN_HEADBUTT
-	learnset 35, SEISMIC_TOSS ; Captivate → egg move
-	learnset 41, GYRO_BALL
-	learnset 48, HEAL_BELL
-	learnset 50, REVERSAL ; Wake-Up Slap → egg move
-
 	evos_attacks Raikou
 	learnset 1, BITE
 	learnset 1, LEER

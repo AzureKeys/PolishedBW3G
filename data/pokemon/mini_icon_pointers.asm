@@ -166,7 +166,6 @@ MiniIconPointers:
 	mini_icon Kingdra
 	mini_icon Elekid
 	mini_icon Magby
-	mini_icon Miltank
 	mini_icon Raikou
 	mini_icon Entei
 	mini_icon Suicune
@@ -258,9 +257,9 @@ MiniIconPointers:
 	mini_icon Lilligant
 	mini_icon Basculin
 	mini_icon Sandile
+	mini_icon Krokorok
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Krokorok
 	mini_icon Krookodile
 	mini_icon Darumaka
 	mini_icon Darmanitan

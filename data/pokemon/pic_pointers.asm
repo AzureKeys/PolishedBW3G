@@ -166,7 +166,6 @@ PokemonPicPointers::
 	pics Kingdra
 	pics Elekid
 	pics Magby
-	pics Miltank
 	pics Raikou
 	pics Entei
 	pics Suicune
@@ -258,9 +257,9 @@ PokemonPicPointers::
 	pics LilligantPlain
 	pics BasculinRed ; BasculinWhite
 	pics Sandile
+	pics Krokorok
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Krokorok
 	pics Krookodile
 	pics DarumakaPlain
 	pics DarmanitanPlain

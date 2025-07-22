@@ -162,8 +162,8 @@ WhitneyGroup:
 	tr_mon 19, MUNCHLAX, FEMALE
 		tr_evs 64 Def, 32 SDf
 		tr_moves ATTRACT, METRONOME, DEFENSE_CURL, ROLLOUT
-	tr_mon 21, MILTANK @ LUM_BERRY, FEMALE
-		tr_extra SCRAPPY
+	tr_mon 21, RATTATA @ LUM_BERRY, FEMALE
+		tr_extra HUSTLE
 		tr_evs 48 Atk, 48 Spe
 		tr_moves DEFENSE_CURL, STOMP, FRESH_SNACK, ROLLOUT
 	end_trainer
@@ -179,8 +179,8 @@ WhitneyGroup:
 		tr_moves FOCUS_BLAST, HYPER_VOICE, DAZZLINGLEAM, ICE_BEAM
 	tr_mon 74, TAUROS @ SILK_SCARF, FEMALE
 		tr_moves BULK_UP, EARTHQUAKE, STRENGTH, IRON_TAIL
-	tr_mon 75, MILTANK @ BRIGHTPOWDER, FEMALE
-		tr_extra SCRAPPY
+	tr_mon 75, RATTATA @ BRIGHTPOWDER, FEMALE
+		tr_extra HUSTLE
 		tr_moves DEFENSE_CURL, ROLLOUT, FRESH_SNACK, BODY_SLAM
 	end_trainer
 
@@ -3624,7 +3624,7 @@ BeautyGroup:
 
 	def_trainer VERONICA, "Veronica"
 	tr_mon 54, WIGGLYTUFF
-	tr_mon 54, MILTANK
+	tr_mon 54, RATTATA
 	tr_mon 56, CLEFABLE
 	end_trainer
 
@@ -4657,7 +4657,7 @@ BakerGroup:
 
 	def_trainer_class BAKER
 	def_trainer CHELSIE, "Chelsie"
-	tr_mon 18, MILTANK
+	tr_mon 18, RATTATA
 if DEF(FAITHFUL)
 	tr_mon 18, MAGMAR
 else
@@ -4666,13 +4666,13 @@ endc
 	end_trainer
 
 	def_trainer SHARYN, "Sharyn"
-	tr_mon 46, MILTANK
+	tr_mon 46, RATTATA
 	tr_mon 46, TAUROS
 	end_trainer
 
 	def_trainer MARGARET, "Margaret"
 	tr_mon 55, RATTATA
-	tr_mon 55, MILTANK
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer OLGA, "Olga"
@@ -4687,8 +4687,8 @@ CowgirlGroup:
 
 	def_trainer_class COWGIRL
 	def_trainer ANNIE, "Annie"
-	tr_mon LEVEL_FROM_BADGES + 5, MILTANK @ LEFTOVERS, FEMALE
-		tr_extra SCRAPPY, ATK_UP_SATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA @ LEFTOVERS, FEMALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_moves DEFENSE_CURL, ROLLOUT, FRESH_SNACK, BODY_SLAM
 	tr_mon LEVEL_FROM_BADGES + 5, TAUROS @ LEFTOVERS, MALE
@@ -4706,7 +4706,7 @@ CowgirlGroup:
 
 	def_trainer DANIELA, "Daniela"
 	tr_mon LEVEL_FROM_BADGES + 3, TAUROS
-	tr_mon LEVEL_FROM_BADGES + 3, MILTANK
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	end_trainer
 
 

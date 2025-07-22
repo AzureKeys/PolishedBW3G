@@ -162,7 +162,6 @@ EggSpeciesMovesPointers::
 	dw HorseaEggSpeciesMoves            ; Kingdra
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
-	dw MiltankEggSpeciesMoves           ; Miltank
 	dw NoEggSpeciesMoves                ; Raikou
 	dw NoEggSpeciesMoves                ; Entei
 	dw NoEggSpeciesMoves                ; Suicune
@@ -254,9 +253,9 @@ EggSpeciesMovesPointers::
 	dw PetililEggSpeciesMoves           ; Lilligant
 	dw BasculinEggSpeciesMoves          ; Basculin
 	dw SandileEggSpeciesMoves           ; Sandile
+	dw SandileEggSpeciesMoves           ; Krokorok
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
-	dw SandileEggSpeciesMoves           ; Krokorok
 	dw SandileEggSpeciesMoves           ; Krookodile
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan

@@ -168,7 +168,6 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; Kingdra
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
 	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
-	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; Miltank
 	mon_cry CRY_RAIKOU,      $22e,  $120 ; Raikou
 	mon_cry CRY_ENTEI,       $000,  $1a0 ; Entei
 	mon_cry CRY_MAGCARGO,    $000,  $180 ; Suicune
@@ -260,9 +259,9 @@ PokemonCries::
 	mon_cry CRY_REMORAID,   -$020,  $180 ; LILLIGANT*
 	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
 	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
+	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
-	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan

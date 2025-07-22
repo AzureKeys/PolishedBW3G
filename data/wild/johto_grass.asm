@@ -1604,16 +1604,16 @@
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
 	wildmon 13, TAUROS
-	wildmon 13, MILTANK
-	wildmon 13, MILTANK
+	wildmon 13, RATTATA
+	wildmon 13, RATTATA
 	; day
 	wildmon 16, RATTATA
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
 	wildmon 13, TAUROS
-	wildmon 13, MILTANK
-	wildmon 13, MILTANK
+	wildmon 13, RATTATA
+	wildmon 13, RATTATA
 	; nite
 	wildmon 16, MEOWTH
 	wildmon 16, RATICATE
@@ -1631,7 +1631,7 @@
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
-	wildmon 15, MILTANK
+	wildmon 15, RATTATA
 	wildmon 15, TAUROS
 	wildmon 15, TAUROS
 	; day
@@ -1639,7 +1639,7 @@
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
-	wildmon 15, MILTANK
+	wildmon 15, RATTATA
 	wildmon 15, TAUROS
 	wildmon 15, TAUROS
 	; nite
@@ -1797,7 +1797,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES + 1, DITTO
 	wildmon LEVEL_FROM_BADGES + 1, FARFETCH_D, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, MILTANK
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
 	wildmon LEVEL_FROM_BADGES - 4, FARFETCH_D, GALARIAN_FORM
@@ -1805,7 +1805,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES + 1, DITTO
 	wildmon LEVEL_FROM_BADGES + 1, FARFETCH_D, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, MILTANK
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
 	wildmon LEVEL_FROM_BADGES - 4, FARFETCH_D, GALARIAN_FORM
@@ -1813,7 +1813,7 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, DITTO
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, MILTANK
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 3, RATICATE
 	wildmon LEVEL_FROM_BADGES - 4, RATTATA

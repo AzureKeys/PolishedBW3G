@@ -6794,7 +6794,6 @@ CheckBattleAnimSubstitution:
 	ret
 
 .MilkDrinkUsers:
-	dp MILTANK
 	db 0
 
 _CheckBattleEffects:

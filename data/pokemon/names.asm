@@ -163,7 +163,6 @@ PokemonNames::
 	rawchar "Kingdra@@@"
 	rawchar "Elekid@@@@"
 	rawchar "Magby@@@@@"
-	rawchar "Miltank@@@"
 	rawchar "Raikou@@@@"
 	rawchar "Entei@@@@@"
 	rawchar "Suicune@@@"
@@ -255,9 +254,9 @@ PokemonNames::
 	rawchar "Lilligant@"
 	rawchar "Basculin@@"
 	rawchar "Sandile@@@"
+	rawchar "Krokorok@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
-	rawchar "Krokorok@@"
 	rawchar "Krookodile"
 	rawchar "Darumaka@@"
 	rawchar "Darmanitan"

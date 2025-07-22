@@ -166,7 +166,6 @@ endc
 	db DRAGONBREATH ; KINGDRA
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
-	db NO_MOVE      ; MILTANK
 	db NO_MOVE      ; RAIKOU
 	db NO_MOVE      ; ENTEI
 	db NO_MOVE      ; SUICUNE
@@ -258,9 +257,9 @@ endc
 	db NO_MOVE      ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
 	db NO_MOVE      ; SANDILE
+	db NO_MOVE      ; KROKOROK
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db NO_MOVE      ; KROKOROK
 	db NO_MOVE      ; KROOKODILE
 	db NO_MOVE      ; DARUMAKA
 	db NO_MOVE      ; DARMANITAN

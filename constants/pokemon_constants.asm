@@ -186,7 +186,6 @@
 	const KINGDRA    ; 77
 	const ELEKID     ; 78
 	const MAGBY      ; 79
-	const MILTANK    ; xx
 	const RAIKOU     ; xx
 	const ENTEI      ; xx
 	const SUICUNE    ; xx
@@ -278,9 +277,9 @@
 	const LILLIGANT  ; 12a
 	const BASCULIN   ; 12b
 	const SANDILE    ; 12c
+	const KROKOROK   ; 12d
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const KROKOROK   ; 12d
 	const KROOKODILE ; 12e
 	const DARUMAKA   ; 12f
 	const DARMANITAN ; 130

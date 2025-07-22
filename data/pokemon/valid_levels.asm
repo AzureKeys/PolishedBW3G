@@ -167,7 +167,6 @@ endc
 	db  55, 100 ; Kingdra
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
-	db  20, 100 ; Miltank
 	db 255, 255 ; Raikou
 	db 255, 255 ; Entei
 	db 255, 255 ; Suicune
@@ -259,9 +258,9 @@ endc
 	db  30, 100 ; Lilligant
 	db  15, 100 ; Basculin
 	db   1,  28 ; Sandile
+	db  29,  39 ; Krokorok
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
-	db  29,  39 ; Krokorok
 	db  40, 100 ; Krookodile
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan

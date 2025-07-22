@@ -846,13 +846,6 @@ MagbyEggSpeciesMoves:
 	db SCREECH
 	db $ff
 
-MiltankEggSpeciesMoves:
-	dp MILTANK, PLAIN_FORM
-	db DIZZY_PUNCH
-	db REVERSAL
-	db SEISMIC_TOSS
-	db $ff
-
 LarvitarEggSpeciesMoves:
 	dp LARVITAR, PLAIN_FORM
 	db DRAGON_DANCE
