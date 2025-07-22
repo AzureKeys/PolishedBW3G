@@ -3,7 +3,6 @@ FuryAttackUsers:
 	dp NIDORAN_M
 	dp NIDORINO
 	dp NIDOKING
-	dp FARFETCH_D
 	dp PINSIR
 	dp DUNSPARCE
 	dp HERACROSS

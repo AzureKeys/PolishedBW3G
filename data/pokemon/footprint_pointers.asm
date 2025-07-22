@@ -53,7 +53,6 @@ FootprintPointers::
 	dw SlowbroFootprint
 	dw MagnemiteFootprint
 	dw MagnetonFootprint
-	dw FarfetchDFootprint
 	dw SeelFootprint
 	dw DewgongFootprint
 	dw GrimerFootprint
@@ -189,7 +188,6 @@ FootprintPointers::
 	dw SylveonFootprint
 	dw PerrserkerFootprint
 	dw CursolaFootprint
-	dw SirfetchDFootprint
 	dw MrRimeFootprint
 	dw KleavorFootprint
 	dw UrsalunaFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
 	dw MaractusFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw DwebbleFootprint
 	dw CrustleFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ScraggyFootprint
 	dw ScraftyFootprint
 	dw SigilyphFootprint
@@ -328,7 +326,6 @@ FootprintPointers::
 	dw RapidashFootprint
 	dw SlowpokeFootprint
 	dw SlowbroFootprint
-	dw FarfetchDFootprint
 	dw WeezingFootprint
 	dw MrMimeFootprint
 	dw ArticunoFootprint

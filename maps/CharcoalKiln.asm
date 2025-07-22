@@ -105,7 +105,7 @@ CharcoalKilnApprentice:
 
 CharcoalKilnFarfetchdScript:
 	faceplayer
-	showcrytext .Text, FARFETCH_D
+	showcrytext .Text, RATTATA
 	end
 
 .Text:

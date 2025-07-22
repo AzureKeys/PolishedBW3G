@@ -680,16 +680,16 @@
 	wildmon 50, RATTATA
 	wildmon 51, RATTATA
 	wildmon 53, RATTATA
-	wildmon 52, FARFETCH_D
-	wildmon 54, FARFETCH_D
+	wildmon 52, RATTATA
+	wildmon 54, RATTATA
 	; day
 	wildmon 50, NIDORINO
 	wildmon 50, NIDORINA
 	wildmon 50, RATTATA
 	wildmon 51, RATTATA
 	wildmon 53, RATTATA
-	wildmon 52, FARFETCH_D
-	wildmon 54, FARFETCH_D
+	wildmon 52, RATTATA
+	wildmon 54, RATTATA
 	; nite
 	wildmon 50, RATTATA
 	wildmon 50, RATTATA

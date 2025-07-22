@@ -53,7 +53,6 @@ AnimationPointers:
 	dw SlowbroPlainAnimation
 	dw MagnemiteAnimation
 	dw MagnetonAnimation
-	dw FarfetchDPlainAnimation
 	dw SeelAnimation
 	dw DewgongAnimation
 	dw GrimerPlainAnimation
@@ -189,7 +188,6 @@ AnimationPointers:
 	dw SylveonAnimation
 	dw PerrserkerAnimation
 	dw CursolaAnimation
-	dw SirfetchDAnimation
 	dw MrRimeAnimation
 	dw KleavorAnimation
 	dw UrsalunaPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw DarumakaPlainAnimation
 	dw DarmanitanPlainAnimation
 	dw MaractusAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw DwebbleAnimation
 	dw CrustleAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ScraggyAnimation
 	dw ScraftyAnimation
 	dw SigilyphAnimation
@@ -391,7 +389,6 @@ AnimationPointers:
 	dw RapidashGalarianAnimation
 	dw SlowpokeGalarianAnimation
 	dw SlowbroGalarianAnimation
-	dw FarfetchDGalarianAnimation
 	dw WeezingGalarianAnimation
 	dw MrMimeGalarianAnimation
 	dw ArticunoGalarianAnimation

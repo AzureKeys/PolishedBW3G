@@ -57,7 +57,6 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; SLOWBRO
 	iconpal GRAY, BROWN ; MAGNEMITE
 	iconpal GRAY, BROWN ; MAGNETON
-	iconpal BROWN, GREEN ; FARFETCH_D
 	iconpal AZURE, WHITE ; SEEL
 	iconpal AZURE, WHITE ; DEWGONG
 	iconpal PURPLE, GREEN ; GRIMER
@@ -193,7 +192,6 @@ OverworldMonIconColors::
 	iconpal PINK, AZURE ; SYLVEON
 	iconpal GRAY, BROWN ; PERRSERKER
 	iconpal GRAY, PINK ; CURSOLA
-	iconpal WHITE, RED ; SIRFETCH_D
 	iconpal BLUE, GRAY ; MR__RIME
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal BROWN, RED ; URSALUNA
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN
 	iconpal GREEN, BROWN ; MARACTUS
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal ORANGE, RED ; DWEBBLE
 	iconpal ORANGE, GREEN ; CRUSTLE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
 	iconpal YELLOW, GREEN ; SIGILYPH
@@ -352,7 +350,6 @@ endr
 	iconpal WHITE, PURPLE ; RAPIDASH, GALARIAN_FORM
 	iconpal PURPLE, BROWN ; SLOWPOKE, GALARIAN_FORM
 	iconpal PURPLE, BROWN ; SLOWBRO, GALARIAN_FORM
-	iconpal BROWN, RED ; FARFETCH_D, GALARIAN_FORM
 	iconpal GRAY, BROWN ; WEEZING, GALARIAN_FORM
 	iconpal BLUE, GRAY ; MR__MIME, GALARIAN_FORM
 	iconpal PURPLE, BLUE ; ARTICUNO, GALARIAN_FORM

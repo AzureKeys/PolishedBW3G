@@ -58,7 +58,7 @@ NPCTrades:
 	rawchar "Jacques@", $00
 ; NPC_TRADE_HARI in Ecruteak City
 	db TRADE_DIALOGSET_COLLECTOR
-	dp FARFETCH_D, NO_FORM ; wants
+	dp RATTATA, NO_FORM ; wants
 	dp RATTATA, MALE         ; gives
 	rawchar "Clarence@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   FAST_BALL,    GOLD_LEAF

@@ -272,11 +272,6 @@ MagnetonMini::     INCBIN "gfx/minis/magneton.2bpp.lz"
 MagnetonMiniMask:: INCBIN "gfx/minis/magneton_mask.1bpp.lz"
 MagnetonIcon::     INCBIN "gfx/icons/magneton.2bpp.lz"
 
-SECTION "FarfetchD Mini Icon", ROMX
-FarfetchDMini::     INCBIN "gfx/minis/farfetch_d.2bpp.lz"
-FarfetchDMiniMask:: INCBIN "gfx/minis/farfetch_d_mask.1bpp.lz"
-FarfetchDIcon::     INCBIN "gfx/icons/farfetch_d.2bpp.lz"
-
 SECTION "Seel Mini Icon", ROMX
 SeelMini::     INCBIN "gfx/minis/seel.2bpp.lz"
 SeelMiniMask:: INCBIN "gfx/minis/seel_mask.1bpp.lz"
@@ -956,11 +951,6 @@ SECTION "Cursola Mini Icon", ROMX
 CursolaMini::     INCBIN "gfx/minis/cursola.2bpp.lz"
 CursolaMiniMask:: INCBIN "gfx/minis/cursola_mask.1bpp.lz"
 CursolaIcon::     INCBIN "gfx/icons/cursola.2bpp.lz"
-
-SECTION "SirfetchD Mini Icon", ROMX
-SirfetchDMini::     INCBIN "gfx/minis/sirfetch_d.2bpp.lz"
-SirfetchDMiniMask:: INCBIN "gfx/minis/sirfetch_d_mask.1bpp.lz"
-SirfetchDIcon::     INCBIN "gfx/icons/sirfetch_d.2bpp.lz"
 
 SECTION "MrRime Mini Icon", ROMX
 MrRimeMini::     INCBIN "gfx/minis/mr__rime.2bpp.lz"
@@ -1741,11 +1731,6 @@ SECTION "SlowbroGalarian Mini Icon", ROMX
 SlowbroGalarianMini::     INCBIN "gfx/minis/slowbro_galarian.2bpp.lz"
 SlowbroGalarianMiniMask:: INCBIN "gfx/minis/slowbro_galarian_mask.1bpp.lz"
 SlowbroGalarianIcon::     INCBIN "gfx/icons/slowbro_galarian.2bpp.lz"
-
-SECTION "FarfetchDGalarian Mini Icon", ROMX
-FarfetchDGalarianMini::     INCBIN "gfx/minis/farfetch_d_galarian.2bpp.lz"
-FarfetchDGalarianMiniMask:: INCBIN "gfx/minis/farfetch_d_galarian_mask.1bpp.lz"
-FarfetchDGalarianIcon::     INCBIN "gfx/icons/farfetch_d_galarian.2bpp.lz"
 
 SECTION "WeezingGalarian Mini Icon", ROMX
 WeezingGalarianMini::     INCBIN "gfx/minis/weezing_galarian.2bpp.lz"

@@ -57,7 +57,6 @@ PokemonPicPointers::
 	pics SlowbroPlain
 	pics Magnemite
 	pics Magneton
-	pics FarfetchDPlain
 	pics Seel
 	pics Dewgong
 	pics GrimerPlain
@@ -193,7 +192,6 @@ PokemonPicPointers::
 	pics Sylveon
 	pics Perrserker
 	pics Cursola
-	pics SirfetchD
 	pics MrRime
 	pics Kleavor
 	pics UrsalunaPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics DarumakaPlain
 	pics DarmanitanPlain
 	pics Maractus
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Dwebble
 	pics Crustle
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Scraggy
 	pics Scrafty
 	pics Sigilyph
@@ -395,7 +393,6 @@ PokemonPicPointers::
 	pics RapidashGalarian
 	pics SlowpokeGalarian
 	pics SlowbroGalarian
-	pics FarfetchDGalarian
 	pics WeezingGalarian
 	pics MrMimeGalarian
 	pics ArticunoGalarian

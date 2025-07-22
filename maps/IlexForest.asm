@@ -136,7 +136,7 @@ IlexForestFarfetchdScript:
 	faceplayer
 	readmem wFarfetchdPosition
 	ifequalfwd  0, .Position1
-	showcrytext Text_Kwaaaa, FARFETCH_D
+	showcrytext Text_Kwaaaa, RATTATA
 	readmem wFarfetchdPosition
 	ifequalfwd  2, .Position2
 	ifequalfwd  3, .Position3
@@ -154,7 +154,7 @@ IlexForestFarfetchdScript:
 	writetext Text_ItsTheMissingPokemon
 	promptbutton
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry RATTATA
 	waitbutton
 	closetext
 	applymovement ILEXFOREST_FARFETCHD, MovementData_Farfetchd_Pos1_Pos2

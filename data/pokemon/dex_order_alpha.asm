@@ -70,7 +70,6 @@ AlphabeticalPokedexOrder:
 	dp EXCADRILL
 	dp EXEGGCUTE
 	dp EXEGGUTOR
-	dp FARFETCH_D
 	dp FERALIGATR
 	dp FERROSEED
 	dp FERROTHORN
@@ -227,7 +226,6 @@ AlphabeticalPokedexOrder:
 	dp SEWADDLE
 	dp SHUCKLE
 	dp SIGILYPH
-	dp SIRFETCH_D
 	dp SKARMORY
 	dp SLOWBRO
 	dp SLOWKING

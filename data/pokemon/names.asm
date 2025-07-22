@@ -54,7 +54,6 @@ PokemonNames::
 	rawchar "Slowbro@@@"
 	rawchar "Magnemite@"
 	rawchar "Magneton@@"
-	rawchar "Farfetch'd@"
 	rawchar "Seel@@@@@@"
 	rawchar "Dewgong@@@"
 	rawchar "Grimer@@@@"
@@ -190,7 +189,6 @@ PokemonNames::
 	rawchar "Sylveon@@@"
 	rawchar "Perrserker"
 	rawchar "Cursola@@@"
-	rawchar "Sirfetch'd@"
 	rawchar "Mr.Rime@@@"
 	rawchar "Kleavor@@@"
 	rawchar "Ursaluna@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Darumaka@@"
 	rawchar "Darmanitan"
 	rawchar "Maractus@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Dwebble@@@"
 	rawchar "Crustle@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Scraggy@@@"
 	rawchar "Scrafty@@@"
 	rawchar "Sigilyph@@"

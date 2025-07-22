@@ -258,8 +258,8 @@ ChuckGroup:
 		tr_extra DEFIANT
 		tr_evs 160 Atk
 		tr_moves KARATE_CHOP, SEISMIC_TOSS, SCREECH, DYNAMICPUNCH
-	tr_mon 29, FARFETCH_D, MALE | GALARIAN_FORM
-		tr_extra STEADFAST
+	tr_mon 29, RATTATA, MALE
+		tr_extra HUSTLE
 		tr_evs 160 Atk
 if DEF(FAITHFUL)
 		tr_moves ROCK_SMASH, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
@@ -280,8 +280,8 @@ endc
 	tr_mon 71, ANNIHILAPE @ DRAGON_FANG, MALE
 		tr_extra DEFIANT
 		tr_moves EARTHQUAKE, STONE_EDGE, OUTRAGE, CROSS_CHOP
-	tr_mon 73, SIRFETCH_D @ LEEK, MALE
-		tr_extra STEADFAST
+	tr_mon 73, RATTATA @ LEEK, MALE
+		tr_extra HUSTLE
 		tr_moves CLOSE_COMBAT, BRAVE_BIRD, NIGHT_SLASH, POISON_JAB
 	tr_mon 72, RATTATA @ NEVERMELTICE, MALE
 		tr_extra HUSTLE
@@ -2421,15 +2421,15 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer JOSE1, "Jose"
-	tr_mon 44, FARFETCH_D
+	tr_mon 44, RATTATA
 	end_trainer
 
 	def_trainer JOSE2, "Jose"
-	tr_mon 48, FARFETCH_D
+	tr_mon 48, RATTATA
 	end_trainer
 
 	def_trainer JOSE3, "Jose"
-	tr_mon 55, FARFETCH_D
+	tr_mon 55, RATTATA
 		tr_moves SWORDS_DANCE, NIGHT_SLASH, PROTECT, BRAVE_BIRD
 	end_trainer
 
@@ -2489,7 +2489,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer PERRY, "Perry"
-	tr_mon 59, FARFETCH_D
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer BRET, "Bret"
@@ -2546,7 +2546,7 @@ BirdKeeperGroup:
 	end_trainer
 
 	def_trainer KINSLEY, "Kinsey" ; MISMATCH
-	tr_mon 58, FARFETCH_D
+	tr_mon 58, RATTATA
 	tr_mon 58, RATTATA
 	tr_mon 58, RATTATA
 	end_trainer
@@ -7349,7 +7349,7 @@ if DEF(FAITHFUL)
 	tr_mon 56, SKARMORY
 else
 	tr_mon 57, BLASTOISE
-	tr_mon 56, FARFETCH_D
+	tr_mon 56, RATTATA
 endc
 	tr_mon 58, MISMAGIUS
 	tr_mon 60, HOUNDOOM
@@ -7792,7 +7792,7 @@ ImakuniGroup:
 	tr_mon 62, GOLDUCK @ BRIGHTPOWDER
 	tr_mon 62, SLOWBRO @ TWISTEDSPOON
 	tr_mon 63, RATTATA @ QUICK_CLAW
-	tr_mon 61, FARFETCH_D @ LEEK
+	tr_mon 61, RATTATA @ LEEK
 	tr_mon 61, RATTATA @ SHARP_BEAK
 	tr_mon 64, RATTATA @ LEFTOVERS
 	end_trainer

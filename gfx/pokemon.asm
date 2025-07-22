@@ -1023,18 +1023,6 @@ SECTION "SlowkingGalarian Pics", ROMX
 SlowkingGalarianFrontpic: INCBIN "gfx/pokemon/slowking_galarian/front.animated.2bpp.lz"
 SlowkingGalarianBackpic:  INCBIN "gfx/pokemon/slowking_galarian/back.2bpp.lz"
 
-SECTION "FarfetchDPlain Pics", ROMX
-FarfetchDPlainFrontpic: INCBIN "gfx/pokemon/farfetch_d_plain/front.animated.2bpp.lz"
-FarfetchDPlainBackpic:  INCBIN "gfx/pokemon/farfetch_d_plain/back.2bpp.lz"
-
-SECTION "FarfetchDGalarian Pics", ROMX
-FarfetchDGalarianFrontpic: INCBIN "gfx/pokemon/farfetch_d_galarian/front.animated.2bpp.lz"
-FarfetchDGalarianBackpic:  INCBIN "gfx/pokemon/farfetch_d_galarian/back.2bpp.lz"
-
-SECTION "SirfetchD Pics", ROMX
-SirfetchDFrontpic: INCBIN "gfx/pokemon/sirfetch_d/front.animated.2bpp.lz"
-SirfetchDBackpic:  INCBIN "gfx/pokemon/sirfetch_d/back.2bpp.lz"
-
 SECTION "WeezingPlain Pics", ROMX
 WeezingPlainFrontpic: INCBIN "gfx/pokemon/weezing_plain/front.animated.2bpp.lz"
 WeezingPlainBackpic:  INCBIN "gfx/pokemon/weezing_plain/back.2bpp.lz"

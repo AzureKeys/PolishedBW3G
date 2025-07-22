@@ -53,7 +53,6 @@ EggSpeciesMovesPointers::
 	dw SlowpokePlainEggSpeciesMoves     ; Slowbro
 	dw MagnemiteEggSpeciesMoves         ; Magnemite
 	dw MagnemiteEggSpeciesMoves         ; Magneton
-	dw FarfetchDPlainEggSpeciesMoves    ; FarfetchD
 	dw SeelEggSpeciesMoves              ; Seel
 	dw SeelEggSpeciesMoves              ; Dewgong
 	dw GrimerPlainEggSpeciesMoves       ; Grimer
@@ -189,7 +188,6 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Sylveon
 	dw MeowthGalarianEggSpeciesMoves    ; Perrserker
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
-	dw FarfetchDGalarianEggSpeciesMoves ; SirfetchD
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
 	dw ScytherEggSpeciesMoves           ; Kleavor
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
 	dw MaractusEggSpeciesMoves          ; Maractus
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
@@ -328,7 +326,6 @@ EggSpeciesMovesPointers::
 	dw PonytaGalarianEggSpeciesMoves    ; Rapidash (Galarian Form)
 	dw SlowpokeGalarianEggSpeciesMoves  ; Slowpoke (Galarian Form)
 	dw SlowpokeGalarianEggSpeciesMoves  ; Slowbro (Galarian Form)
-	dw FarfetchDGalarianEggSpeciesMoves ; Farfetch'D (Galarian Form)
 	dw KoffingEggSpeciesMoves           ; Weezing (Galarian Form)
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime (Galarian Form)
 	dw NoEggSpeciesMoves                ; Articuno (Galarian Form)

@@ -59,7 +59,6 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $000,  $100 ; Slowbro
 	mon_cry CRY_METAPOD,     $080,  $0e0 ; Magnemite
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magneton
-	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; FarfetchD
 	mon_cry CRY_SEEL,        $088,  $140 ; Seel
 	mon_cry CRY_SEEL,        $023,  $17f ; Dewgong
 	mon_cry CRY_GRIMER,      $000,  $100 ; Grimer
@@ -195,7 +194,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
 	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Perrserker
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
-	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; SirfetchD
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Rime
 	mon_cry CRY_CATERPIE,    $000,  $100 ; Kleavor
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
 	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; SCRAGGY*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SCRAFTY*
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph

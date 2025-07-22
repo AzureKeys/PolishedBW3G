@@ -54,7 +54,6 @@ PokedexDataPointerTable:
 	dba SlowbroPlainPokedexEntry
 	dba MagnemitePokedexEntry
 	dba MagnetonPokedexEntry
-	dba FarfetchDPlainPokedexEntry
 	dba SeelPokedexEntry
 	dba DewgongPokedexEntry
 	dba GrimerPlainPokedexEntry
@@ -190,7 +189,6 @@ PokedexDataPointerTable:
 	dba SylveonPokedexEntry
 	dba PerrserkerPokedexEntry
 	dba CursolaPokedexEntry
-	dba SirfetchDPokedexEntry
 	dba MrRimePokedexEntry
 	dba KleavorPokedexEntry
 	dba UrsalunaPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba DarumakaPlainPokedexEntry
 	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
 	dba SigilyphPokedexEntry
@@ -329,7 +327,6 @@ PokedexDataPointerTable:
 	dba RapidashGalarianPokedexEntry
 	dba SlowpokeGalarianPokedexEntry
 	dba SlowbroGalarianPokedexEntry
-	dba FarfetchDGalarianPokedexEntry
 	dba WeezingGalarianPokedexEntry
 	dba MrMimeGalarianPokedexEntry
 	dba ArticunoGalarianPokedexEntry

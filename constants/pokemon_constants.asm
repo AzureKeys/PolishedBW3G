@@ -77,7 +77,6 @@
 	const SLOWBRO    ; 28
 	const MAGNEMITE  ; 29
 	const MAGNETON   ; 2a
-	const FARFETCH_D ; xx
 	const SEEL       ; 2b
 	const DEWGONG    ; 2c
 	const GRIMER     ; 2d
@@ -213,7 +212,6 @@
 	const SYLVEON    ; 116
 	const PERRSERKER ; 117
 	const CURSOLA    ; 118
-	const SIRFETCH_D ; xx
 	const MR__RIME   ; 11a
 	const KLEAVOR    ; 11c
 	const URSALUNA   ; xx
@@ -278,10 +276,10 @@
 	const DARUMAKA   ; 12f
 	const DARMANITAN ; 130
 	const MARACTUS   ; 131
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const DWEBBLE    ; 132
 	const CRUSTLE    ; 133
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
 	const SIGILYPH   ; 136
@@ -472,7 +470,6 @@ DEF GALARIAN_FORM EQU 3
 	const_skip ; 173 rapidash
 	const_skip ; 174 slowpoke
 	const_skip ; 175 slowbro
-	const_skip ; 176 farfetch'd
 	const_skip ; 177 weezing
 	const_skip ; 178 mr. mime
 	const_skip ; 179 articuno

@@ -145,7 +145,6 @@ MamoswineAnimationExtra:  INCLUDE "gfx/pokemon/mamoswine/anim_idle.asm"
 SylveonAnimationExtra:    INCLUDE "gfx/pokemon/sylveon/anim_idle.asm"
 PerrserkerAnimationExtra: INCLUDE "gfx/pokemon/perrserker/anim_idle.asm"
 CursolaAnimationExtra:    INCLUDE "gfx/pokemon/cursola/anim_idle.asm"
-SirfetchDAnimationExtra:  INCLUDE "gfx/pokemon/sirfetch_d/anim_idle.asm"
 MrRimeAnimationExtra:     INCLUDE "gfx/pokemon/mr__rime/anim_idle.asm"
 KleavorAnimationExtra:    INCLUDE "gfx/pokemon/kleavor/anim_idle.asm"
 SneaslerAnimationExtra:   INCLUDE "gfx/pokemon/sneasler/anim_idle.asm"
@@ -375,9 +374,6 @@ SlowpokeGalarianAnimationExtra: INCLUDE "gfx/pokemon/slowpoke_galarian/anim_idle
 
 SlowbroPlainAnimationExtra:    INCLUDE "gfx/pokemon/slowbro_plain/anim_idle.asm"
 SlowbroGalarianAnimationExtra: INCLUDE "gfx/pokemon/slowbro_galarian/anim_idle.asm"
-
-FarfetchDPlainAnimationExtra:     INCLUDE "gfx/pokemon/farfetch_d_plain/anim_idle.asm"
-FarfetchDGalarianAnimationExtra:  INCLUDE "gfx/pokemon/farfetch_d_galarian/anim_idle.asm"
 
 WeezingPlainAnimationExtra:    INCLUDE "gfx/pokemon/weezing_plain/anim_idle.asm"
 WeezingGalarianAnimationExtra: INCLUDE "gfx/pokemon/weezing_galarian/anim_idle.asm"

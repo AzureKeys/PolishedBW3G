@@ -60,7 +60,6 @@ PokemonBodyData:
 	body_data  16,  785, BIPEDAL_TAIL, PINK   ; SLOWBRO
 	body_data   3,   60, HEAD_ARMS,    GRAY   ; MAGNEMITE
 	body_data  10,  600, MULTIBODY,    GRAY   ; MAGNETON
-	body_data   8,  150, WINGS,        BROWN  ; FARFETCH_D
 	body_data  11,  900, FINS,         WHITE  ; SEEL
 	body_data  17, 1200, FINS,         WHITE  ; DEWGONG
 	body_data   9,  300, HEAD_ARMS,    PURPLE ; GRIMER
@@ -196,7 +195,6 @@ PokemonBodyData:
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
-	body_data   8, 1170, WINGS,        WHITE  ; SIRFETCH_D
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA
 	body_data  13,  929, QUADRUPED,    RED    ; DARMANITAN
 	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
 	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
 	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
@@ -335,7 +333,6 @@ PokemonBodyData:
 	body_data  17,  800, QUADRUPED,    WHITE  ; RAPIDASH (GALARIAN_FORM)
 	body_data  12,  360, QUADRUPED,    PINK   ; SLOWPOKE (GALARIAN_FORM)
 	body_data  16,  705, BIPEDAL_TAIL, PINK   ; SLOWBRO (GALARIAN_FORM)
-	body_data   8,  420, WINGS,        BROWN  ; FARFETCH_D (GALARIAN_FORM)
 	body_data  30,  160, MULTIBODY,    GRAY   ; WEEZING (GALARIAN_FORM)
 	body_data  14,  568, BIPEDAL,      WHITE  ; MR__MIME (GALARIAN_FORM)
 	body_data  17,  509, WINGS,        PURPLE ; ARTICUNO (GALARIAN_FORM)

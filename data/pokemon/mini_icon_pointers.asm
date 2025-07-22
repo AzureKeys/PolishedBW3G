@@ -57,7 +57,6 @@ MiniIconPointers:
 	mini_icon Slowbro
 	mini_icon Magnemite
 	mini_icon Magneton
-	mini_icon FarfetchD
 	mini_icon Seel
 	mini_icon Dewgong
 	mini_icon Grimer
@@ -193,7 +192,6 @@ MiniIconPointers:
 	mini_icon Sylveon
 	mini_icon Perrserker
 	mini_icon Cursola
-	mini_icon SirfetchD
 	mini_icon MrRime
 	mini_icon Kleavor
 	mini_icon Ursaluna
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Darumaka
 	mini_icon Darmanitan
 	mini_icon Maractus
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Dwebble
 	mini_icon Crustle
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Scraggy
 	mini_icon Scrafty
 	mini_icon Sigilyph
@@ -379,7 +377,6 @@ endr
 	mini_icon RapidashGalarian
 	mini_icon SlowpokeGalarian
 	mini_icon SlowbroGalarian
-	mini_icon FarfetchDGalarian
 	mini_icon WeezingGalarian
 	mini_icon MrMimeGalarian
 	mini_icon ArticunoGalarian

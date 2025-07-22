@@ -212,8 +212,6 @@ NewPokedexOrder:
 	dp MIME_JR_
 	dp MR__MIME
 	dp MR__RIME
-	dp FARFETCH_D
-	dp SIRFETCH_D
 	dp QWILFISH
 	dp OVERQWIL
 	dp SHUCKLE

@@ -54,7 +54,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  37, 100 ; Slowbro
 	db   1,  29 ; Magnemite
 	db  30,  49 ; Magneton
-	db   1,  20 ; Farfetch'd
 	db   1,  33 ; Seel
 	db  34, 100 ; Dewgong
 	db   1,  37 ; Grimer
@@ -194,7 +193,6 @@ endc
 	db  20, 100 ; Sylveon
 	db  28, 100 ; Perrserker
 	db  38, 100 ; Cursola
-	db  20, 100 ; Sirfetch'd
 	db  42, 100 ; Mr. Rime
 	db  20, 100 ; Kleavor
 	db  50, 100 ; Ursaluna
@@ -259,10 +257,10 @@ endc
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
 	db  20, 100 ; Sigilyph

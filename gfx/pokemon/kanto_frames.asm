@@ -166,9 +166,6 @@ SlowpokeGalarianFrames: INCLUDE "gfx/pokemon/slowpoke_galarian/frames.asm"
 SlowbroPlainFrames:    INCLUDE "gfx/pokemon/slowbro_plain/frames.asm"
 SlowbroGalarianFrames: INCLUDE "gfx/pokemon/slowbro_galarian/frames.asm"
 
-FarfetchDPlainFrames:    INCLUDE "gfx/pokemon/farfetch_d_plain/frames.asm"
-FarfetchDGalarianFrames: INCLUDE "gfx/pokemon/farfetch_d_galarian/frames.asm"
-
 WeezingPlainFrames:    INCLUDE "gfx/pokemon/weezing_plain/frames.asm"
 WeezingGalarianFrames: INCLUDE "gfx/pokemon/weezing_galarian/frames.asm"
 

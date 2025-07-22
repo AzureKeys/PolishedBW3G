@@ -1306,53 +1306,6 @@ endc
 	learnset 59, THUNDER ; Gyro Ball → TM move
 	learnset 63, ZAP_CANNON
 
-	evos_attacks FarfetchDPlain
-	learnset 1, POISON_JAB
-	learnset 1, BATON_PASS ; Brave Bird → event move
-	learnset 1, PECK
-	learnset 1, MUD_SLAP ; Sand Attack → similar move
-	learnset 1, LEER
-	learnset 7, FURY_STRIKES ; Fury Attack → similar move
-	learnset 9, AERIAL_ACE
-	learnset 13, KNOCK_OFF
-	learnset 15, RAZOR_LEAF ; LGPE move
-	learnset 19, SLASH
-	learnset 21, KARATE_CHOP ; Air Cutter → new move
-	learnset 25, SWORDS_DANCE
-	learnset 31, AGILITY
-	learnset 33, NIGHT_SLASH
-	learnset 37, ACROBATICS
-	learnset 43, HI_JUMP_KICK ; Feint → new move
-	learnset 45, FALSE_SWIPE
-	learnset 49, AIR_SLASH
-	learnset 55, BRAVE_BIRD
-
-	evos_attacks FarfetchDGalarian
-	evo_data EVOLVE_CRIT, TR_ANYTIME, SIRFETCH_D, PLAIN_FORM
-	learnset 1, PECK
-	learnset 1, MUD_SLAP ; Sand Attack → similar move
-	learnset 5, LEER
-	learnset 10, QUICK_ATTACK ; Fury Cutter → egg move
-if DEF(FAITHFUL)
-	learnset 15, ROCK_SMASH
-else
-	learnset 15, REVERSAL ; Rock Smash → TM move
-endc
-	learnset 20, FEINT_ATTACK ; Brutal Swing → similar move
-	learnset 25, PROTECT ; Detect → similar move
-	learnset 30, KNOCK_OFF
-	learnset 35, STEEL_WING ; Defog → TM move
-if DEF(FAITHFUL)
-	learnset 40, NIGHT_SLASH ; Brick Break → egg move
-else
-	learnset 40, ROCK_SMASH ; Brick Break
-endc
-	learnset 45, SWORDS_DANCE
-	learnset 50, BODY_SLAM ; Slam → TR move
-	learnset 55, POISON_JAB ; Leaf Blade → TR move
-	learnset 60, CLOSE_COMBAT ; Final Gambit → TR move
-	learnset 65, BRAVE_BIRD
-
 	evos_attacks Seel
 	evo_data EVOLVE_LEVEL, 34, DEWGONG
 	learnset 1, HEADBUTT
@@ -4098,34 +4051,6 @@ endc
 	learnset 45, NIGHT_SHADE
 	learnset 50, HYDRO_PUMP ; Grudge → TR move
 	learnset 55, MIRROR_COAT
-
-	evos_attacks SirfetchD
-	learnset 1, CUT ; Fury Cutter → HM move
-	learnset 1, COUNTER ; Iron Defense → egg move ; evolution move
-	learnset 1, QUICK_ATTACK ; First Impression → egg move
-	learnset 1, PECK
-	learnset 1, MUD_SLAP ; Sand Attack → similar move
-	learnset 1, LEER
-if DEF(FAITHFUL)
-	learnset 15, ROCK_SMASH
-else
-	learnset 15, REVERSAL ; Rock Smash → TM move
-endc
-	learnset 20, FEINT_ATTACK ; Brutal Swing → similar move
-	learnset 25, PROTECT ; Detect → similar move
-	learnset 30, KNOCK_OFF
-	learnset 35, STEEL_WING ; Defog → TM move
-if DEF(FAITHFUL)
-	learnset 40, NIGHT_SLASH ; Brick Break → egg move
-else
-	learnset 40, ROCK_SMASH ; Brick Break
-endc
-	learnset 45, SWORDS_DANCE
-	learnset 50, BODY_SLAM ; Slam → TR move
-	learnset 55, POISON_JAB ; Leaf Blade → TR move
-	learnset 60, CLOSE_COMBAT ; Final Gambit → TR move
-	learnset 65, BRAVE_BIRD
-	learnset 70, GIGA_IMPACT ; Meteor Assault → similar move
 
 	evos_attacks MrMimeGalarian
 	evo_data EVOLVE_LEVEL, 42, MR__RIME

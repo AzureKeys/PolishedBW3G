@@ -53,7 +53,6 @@ BitmasksPointers:
 	dw SlowbroPlainBitmasks
 	dw MagnemiteBitmasks
 	dw MagnetonBitmasks
-	dw FarfetchDPlainBitmasks
 	dw SeelBitmasks
 	dw DewgongBitmasks
 	dw GrimerPlainBitmasks
@@ -189,7 +188,6 @@ BitmasksPointers:
 	dw SylveonBitmasks
 	dw PerrserkerBitmasks
 	dw CursolaBitmasks
-	dw SirfetchDBitmasks
 	dw MrRimeBitmasks
 	dw KleavorBitmasks
 	dw UrsalunaPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw DarumakaPlainBitmasks
 	dw DarmanitanPlainBitmasks
 	dw MaractusBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw DwebbleBitmasks
 	dw CrustleBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw ScraggyBitmasks
 	dw ScraftyBitmasks
 	dw SigilyphBitmasks
@@ -391,7 +389,6 @@ BitmasksPointers:
 	dw RapidashGalarianBitmasks
 	dw SlowpokeGalarianBitmasks
 	dw SlowbroGalarianBitmasks
-	dw FarfetchDGalarianBitmasks
 	dw WeezingGalarianBitmasks
 	dw MrMimeGalarianBitmasks
 	dw ArticunoGalarianBitmasks

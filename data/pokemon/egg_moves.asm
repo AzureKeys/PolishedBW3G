@@ -298,27 +298,6 @@ MagnemiteEggSpeciesMoves:
 	dp MAGNEMITE, PLAIN_FORM
 	db $ff
 
-FarfetchDGalarianEggSpeciesMoves:
-	dp FARFETCH_D, GALARIAN_FORM
-	db COUNTER
-	db FORESIGHT
-	db GUST
-	db QUICK_ATTACK
-	db STEEL_WING
-	db NIGHT_SLASH
-	db ROOST
-	db $ff
-
-FarfetchDPlainEggSpeciesMoves:
-	dp FARFETCH_D, PLAIN_FORM
-	db FORESIGHT
-	db GUST
-	db QUICK_ATTACK
-	db STEEL_WING
-	db NIGHT_SLASH
-	db ROOST
-	db $ff
-
 SeelEggSpeciesMoves:
 	dp SEEL, PLAIN_FORM
 	db DISABLE

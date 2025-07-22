@@ -57,7 +57,6 @@ EvosAttacksPointers::
 	dw SlowbroPlainEvosAttacks
 	dw MagnemiteEvosAttacks
 	dw MagnetonEvosAttacks
-	dw FarfetchDPlainEvosAttacks
 	dw SeelEvosAttacks
 	dw DewgongEvosAttacks
 	dw GrimerPlainEvosAttacks
@@ -193,7 +192,6 @@ EvosAttacksPointers::
 	dw SylveonEvosAttacks
 	dw PerrserkerEvosAttacks
 	dw CursolaEvosAttacks
-	dw SirfetchDEvosAttacks
 	dw MrRimeEvosAttacks
 	dw KleavorEvosAttacks
 	dw UrsalunaPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw DarumakaPlainEvosAttacks
 	dw DarmanitanPlainEvosAttacks
 	dw MaractusEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw DwebbleEvosAttacks
 	dw CrustleEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw SigilyphEvosAttacks
@@ -332,7 +330,6 @@ EvosAttacksPointers::
 	dw RapidashGalarianEvosAttacks
 	dw SlowpokeGalarianEvosAttacks
 	dw SlowbroGalarianEvosAttacks
-	dw FarfetchDGalarianEvosAttacks
 	dw WeezingGalarianEvosAttacks
 	dw MrMimeGalarianEvosAttacks
 	dw ArticunoGalarianEvosAttacks

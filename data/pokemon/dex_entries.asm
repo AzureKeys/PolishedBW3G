@@ -536,16 +536,6 @@ MagnetonPokedexEntry::
 	next "storm disrupts"
 	next "radio waves.@"
 
-SECTION "FarfetchDPlainPokedexEntry", ROMX
-FarfetchDPlainPokedexEntry::
-	db "Wild Duck@"
-	db   "In order to"
-	next "prevent their"
-	next "extinction, more"
-	page "people have made"
-	next "an effort to breed"
-	next "these #mon.@"
-
 SECTION "SeelPokedexEntry", ROMX
 SeelPokedexEntry::
 	db "Sea Lion@"
@@ -1896,16 +1886,6 @@ CursolaPokedexEntry::
 	next "stiff as stone if"
 	next "you touch it.@"
 
-SECTION "SirfetchDPokedexEntry", ROMX
-SirfetchDPokedexEntry::
-	db "Wild Duck@"
-	db   "After deflecting"
-	next "attacks with its"
-	next "hard leaf shield,"
-	page "it strikes back"
-	next "with its sharp"
-	next "leek stalk.@"
-
 SECTION "MrRimePokedexEntry", ROMX
 MrRimePokedexEntry::
 	db "Comedian@"
@@ -3180,15 +3160,6 @@ endc
 	page "Slowbro's body,"
 	next "making Slowbro a"
 	next "Poison-type.@"
-
-SECTION "FarfetchDGalarianPokedexEntry", ROMX
-FarfetchDGalarianPokedexEntry::
-	db "Wild Duck@"
-	db   "These unique Far-"
-	next "fetch'd are brave"
-	next "warriors, and they"
-	page "wield thick, tough"
-	next "leeks in battle.@"
 
 SECTION "WeezingGalarianPokedexEntry", ROMX
 WeezingGalarianPokedexEntry::

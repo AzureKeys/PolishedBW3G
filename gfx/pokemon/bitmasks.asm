@@ -145,7 +145,6 @@ MamoswineBitmasks:  INCLUDE "gfx/pokemon/mamoswine/bitmask.asm"
 SylveonBitmasks:    INCLUDE "gfx/pokemon/sylveon/bitmask.asm"
 PerrserkerBitmasks: INCLUDE "gfx/pokemon/perrserker/bitmask.asm"
 CursolaBitmasks:    INCLUDE "gfx/pokemon/cursola/bitmask.asm"
-SirfetchDBitmasks:  INCLUDE "gfx/pokemon/sirfetch_d/bitmask.asm"
 MrRimeBitmasks:     INCLUDE "gfx/pokemon/mr__rime/bitmask.asm"
 KleavorBitmasks:    INCLUDE "gfx/pokemon/kleavor/bitmask.asm"
 SneaslerBitmasks:   INCLUDE "gfx/pokemon/sneasler/bitmask.asm"
@@ -375,9 +374,6 @@ SlowpokeGalarianBitmasks: INCLUDE "gfx/pokemon/slowpoke_galarian/bitmask.asm"
 
 SlowbroPlainBitmasks:    INCLUDE "gfx/pokemon/slowbro_plain/bitmask.asm"
 SlowbroGalarianBitmasks: INCLUDE "gfx/pokemon/slowbro_galarian/bitmask.asm"
-
-FarfetchDPlainBitmasks:     INCLUDE "gfx/pokemon/farfetch_d_plain/bitmask.asm"
-FarfetchDGalarianBitmasks:  INCLUDE "gfx/pokemon/farfetch_d_galarian/bitmask.asm"
 
 WeezingPlainBitmasks:    INCLUDE "gfx/pokemon/weezing_plain/bitmask.asm"
 WeezingGalarianBitmasks: INCLUDE "gfx/pokemon/weezing_galarian/bitmask.asm"

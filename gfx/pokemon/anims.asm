@@ -145,7 +145,6 @@ MamoswineAnimation:  INCLUDE "gfx/pokemon/mamoswine/anim.asm"
 SylveonAnimation:    INCLUDE "gfx/pokemon/sylveon/anim.asm"
 PerrserkerAnimation: INCLUDE "gfx/pokemon/perrserker/anim.asm"
 CursolaAnimation:    INCLUDE "gfx/pokemon/cursola/anim.asm"
-SirfetchDAnimation:  INCLUDE "gfx/pokemon/sirfetch_d/anim.asm"
 MrRimeAnimation:     INCLUDE "gfx/pokemon/mr__rime/anim.asm"
 KleavorAnimation:    INCLUDE "gfx/pokemon/kleavor/anim.asm"
 SneaslerAnimation:   INCLUDE "gfx/pokemon/sneasler/anim.asm"
@@ -375,9 +374,6 @@ SlowpokeGalarianAnimation: INCLUDE "gfx/pokemon/slowpoke_galarian/anim.asm"
 
 SlowbroPlainAnimation:    INCLUDE "gfx/pokemon/slowbro_plain/anim.asm"
 SlowbroGalarianAnimation: INCLUDE "gfx/pokemon/slowbro_galarian/anim.asm"
-
-FarfetchDPlainAnimation:    INCLUDE "gfx/pokemon/farfetch_d_plain/anim.asm"
-FarfetchDGalarianAnimation: INCLUDE "gfx/pokemon/farfetch_d_galarian/anim.asm"
 
 WeezingPlainAnimation:    INCLUDE "gfx/pokemon/weezing_plain/anim.asm"
 WeezingGalarianAnimation: INCLUDE "gfx/pokemon/weezing_galarian/anim.asm"

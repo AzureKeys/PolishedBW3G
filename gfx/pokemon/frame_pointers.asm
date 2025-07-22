@@ -53,7 +53,6 @@ FramesPointers:
 	dw SlowbroPlainFrames
 	dw MagnemiteFrames
 	dw MagnetonFrames
-	dw FarfetchDPlainFrames
 	dw SeelFrames
 	dw DewgongFrames
 	dw GrimerPlainFrames
@@ -189,7 +188,6 @@ FramesPointers:
 	dw SylveonFrames
 	dw PerrserkerFrames
 	dw CursolaFrames
-	dw SirfetchDFrames
 	dw MrRimeFrames
 	dw KleavorFrames
 	dw UrsalunaPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw DarumakaPlainFrames
 	dw DarmanitanPlainFrames
 	dw MaractusFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw DwebbleFrames
 	dw CrustleFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ScraggyFrames
 	dw ScraftyFrames
 	dw SigilyphFrames
@@ -391,7 +389,6 @@ FramesPointers:
 	dw RapidashGalarianFrames
 	dw SlowpokeGalarianFrames
 	dw SlowbroGalarianFrames
-	dw FarfetchDGalarianFrames
 	dw WeezingGalarianFrames
 	dw MrMimeGalarianFrames
 	dw ArticunoGalarianFrames
