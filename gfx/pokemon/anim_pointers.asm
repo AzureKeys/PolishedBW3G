@@ -305,6 +305,8 @@ AnimationPointers:
 	dw ShelmetAnimation
 	dw AccelgorAnimation
 	dw StunfiskPlainAnimation
+	dw GolettAnimation
+	dw GolurkAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

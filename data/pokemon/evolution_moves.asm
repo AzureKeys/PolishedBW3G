@@ -309,6 +309,8 @@ endc
 	db NO_MOVE      ; SHELMET
 	db NO_MOVE      ; ACCELGOR
 	db NO_MOVE      ; STUNFISK
+	db NO_MOVE      ; GOLETT
+	db NO_MOVE      ; GOLURK
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

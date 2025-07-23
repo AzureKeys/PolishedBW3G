@@ -312,6 +312,8 @@ PokemonBodyData:
 	body_data   4,   77, HEAD,         RED    ; SHELMET
 	body_data   8,  253, HEAD_ARMS,    RED    ; ACCELGOR
 	body_data   7,  110, FINS,         BROWN  ; STUNFISK
+	body_data  10,  920, BIPEDAL,      GREEN  ; GOLETT
+	body_data  28, 3300, BIPEDAL,      GREEN  ; GOLURK
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

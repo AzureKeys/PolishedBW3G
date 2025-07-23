@@ -3017,6 +3017,26 @@ StunfiskPlainPokedexEntry::
 	next "touch it, it uses"
 	next "electric shocks.@"
 
+SECTION "GolettPokedexEntry", ROMX
+GolettPokedexEntry::
+	db "Automaton@"
+	db "Ancient science"
+	next "fashioned this"
+	next "#mon from clay."
+	page "It's been active"
+	next "for thousands"
+	next "of years.@"
+
+SECTION "GolurkPokedexEntry", ROMX
+GolurkPokedexEntry::
+	db "Automaton@"
+	db "Golurk were"
+	next "created to protect"
+	next "people and"
+	page "#mon. They run"
+	next "on a mysterious"
+	next "energy.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

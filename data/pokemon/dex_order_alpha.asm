@@ -96,6 +96,8 @@ AlphabeticalPokedexOrder:
 	dp GOLBAT
 	dp GOLDUCK
 	dp GOLEM
+	dp GOLETT
+	dp GOLURK
 	dp GOTHITA
 	dp GOTHITELLE
 	dp GOTHORITA

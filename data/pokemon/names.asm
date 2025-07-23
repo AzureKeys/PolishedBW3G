@@ -306,4 +306,6 @@ PokemonNames::
 	rawchar "Shelmet@@@"
 	rawchar "Accelgor@@"
 	rawchar "Stunfisk@@"
+	rawchar "Golett@@@@"
+	rawchar "Golurk@@@@"
 	assert_table_length NUM_SPECIES + 1

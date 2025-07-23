@@ -306,6 +306,8 @@ PokedexDataPointerTable:
 	dba ShelmetPokedexEntry
 	dba AccelgorPokedexEntry
 	dba StunfiskPlainPokedexEntry
+	dba GolettPokedexEntry
+	dba GolurkPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

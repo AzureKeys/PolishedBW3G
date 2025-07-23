@@ -1568,3 +1568,11 @@ AccelgorBackpic:  INCBIN "gfx/pokemon/accelgor/back.2bpp.lz"
 SECTION "StunfiskPlain Pics", ROMX
 StunfiskPlainFrontpic: INCBIN "gfx/pokemon/stunfisk_plain/front.animated.2bpp.lz"
 StunfiskPlainBackpic:  INCBIN "gfx/pokemon/stunfisk_plain/back.2bpp.lz"
+
+SECTION "Golett Pics", ROMX
+GolettFrontpic: INCBIN "gfx/pokemon/golett/front.animated.2bpp.lz"
+GolettBackpic:  INCBIN "gfx/pokemon/golett/back.2bpp.lz"
+
+SECTION "Golurk Pics", ROMX
+GolurkFrontpic: INCBIN "gfx/pokemon/golurk/front.animated.2bpp.lz"
+GolurkBackpic:  INCBIN "gfx/pokemon/golurk/back.2bpp.lz"

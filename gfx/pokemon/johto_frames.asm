@@ -188,6 +188,8 @@ BearticFrames:    INCLUDE "gfx/pokemon/beartic/frames.asm"
 CryogonalFrames:  INCLUDE "gfx/pokemon/cryogonal/frames.asm"
 ShelmetFrames:    INCLUDE "gfx/pokemon/shelmet/frames.asm"
 AccelgorFrames:   INCLUDE "gfx/pokemon/accelgor/frames.asm"
+GolettFrames:     INCLUDE "gfx/pokemon/golett/frames.asm"
+GolurkFrames:     INCLUDE "gfx/pokemon/golurk/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

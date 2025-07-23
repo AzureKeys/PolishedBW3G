@@ -305,6 +305,8 @@ BitmasksPointers:
 	dw ShelmetBitmasks
 	dw AccelgorBitmasks
 	dw StunfiskPlainBitmasks
+	dw GolettBitmasks
+	dw GolurkBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

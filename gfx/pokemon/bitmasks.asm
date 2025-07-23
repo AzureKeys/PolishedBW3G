@@ -249,6 +249,8 @@ BearticBitmasks:    INCLUDE "gfx/pokemon/beartic/bitmask.asm"
 CryogonalBitmasks:  INCLUDE "gfx/pokemon/cryogonal/bitmask.asm"
 ShelmetBitmasks:    INCLUDE "gfx/pokemon/shelmet/bitmask.asm"
 AccelgorBitmasks:   INCLUDE "gfx/pokemon/accelgor/bitmask.asm"
+GolettBitmasks:     INCLUDE "gfx/pokemon/golett/bitmask.asm"
+GolurkBitmasks:     INCLUDE "gfx/pokemon/golurk/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

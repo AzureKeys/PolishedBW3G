@@ -1527,6 +1527,16 @@ StunfiskMini::     INCBIN "gfx/minis/stunfisk.2bpp.lz"
 StunfiskMiniMask:: INCBIN "gfx/minis/stunfisk_mask.1bpp.lz"
 StunfiskIcon::     INCBIN "gfx/icons/stunfisk.2bpp.lz"
 
+SECTION "Golett Mini Icon", ROMX
+GolettMini::     INCBIN "gfx/minis/golett.2bpp.lz"
+GolettMiniMask:: INCBIN "gfx/minis/golett_mask.1bpp.lz"
+GolettIcon::     INCBIN "gfx/icons/golett.2bpp.lz"
+
+SECTION "Golurk Mini Icon", ROMX
+GolurkMini::     INCBIN "gfx/minis/golurk.2bpp.lz"
+GolurkMiniMask:: INCBIN "gfx/minis/golurk_mask.1bpp.lz"
+GolurkIcon::     INCBIN "gfx/icons/golurk.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

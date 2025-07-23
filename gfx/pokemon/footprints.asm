@@ -124,6 +124,8 @@ CryogonalFootprint::
 ShelmetFootprint::
 AccelgorFootprint::
 StunfiskFootprint::
+GolettFootprint::
+GolurkFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

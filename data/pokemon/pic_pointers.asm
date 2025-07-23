@@ -309,6 +309,8 @@ PokemonPicPointers::
 	pics Shelmet
 	pics Accelgor
 	pics StunfiskPlain
+	pics Golett
+	pics Golurk
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

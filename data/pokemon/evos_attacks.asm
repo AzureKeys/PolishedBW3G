@@ -6064,6 +6064,43 @@ endc
 	learnset 50, COUNTER ; Revenge
 	learnset 55, REVERSAL ; Flail
 	learnset 61, EARTHQUAKE ; Fissure
+	
+	evos_attacks Golett
+	evo_data EVOLVE_LEVEL, 43, GOLURK
+	learnset 1, TACKLE ; Pound
+	learnset 1, DEFENSE_CURL
+	learnset 5, MUD_SLAP
+	learnset 9, ROLLOUT
+	;learnset 13, SHADOW_PUNCH
+	learnset 17, BARRIER ; Iron Defense
+	learnset 21, BULLDOZE ; Stomping Tantrum
+	learnset 25, SHADOW_CLAW ; Mega Punch
+	learnset 30, MAGNITUDE
+	learnset 35, DYNAMICPUNCH
+	learnset 40, NIGHT_SHADE
+	learnset 45, CURSE
+	learnset 50, EARTHQUAKE
+	;learnset 55, HAMMER_ARM
+	
+	evos_attacks Golurk
+	;learnset 1, HEAVY_SLAM
+	learnset 1, TACKLE ; Pound
+	learnset 1, DEFENSE_CURL
+	learnset 1, MUD_SLAP
+	learnset 1, ASTONISH
+	learnset 5, MUD_SLAP
+	learnset 9, ROLLOUT
+	;learnset 13, SHADOW_PUNCH
+	learnset 17, BARRIER ; Iron Defense
+	learnset 21, BULLDOZE ; Stomping Tantrum
+	learnset 25, SHADOW_CLAW ; Mega Punch
+	learnset 30, MAGNITUDE
+	learnset 35, DYNAMICPUNCH
+	learnset 40, NIGHT_SHADE
+	;learnset 42, HEAVY_SLAM
+	learnset 47, CURSE
+	learnset 54, EARTHQUAKE
+	;learnset 61, HAMMER_ARM
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

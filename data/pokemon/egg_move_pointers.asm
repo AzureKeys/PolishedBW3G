@@ -305,6 +305,8 @@ EggSpeciesMovesPointers::
 	dw ShelmetEggSpeciesMoves           ; Shelmet
 	dw ShelmetEggSpeciesMoves           ; Accelgor
 	dw StunfiskPlainEggSpeciesMoves     ; Stunfisk
+	dw GolettEggSpeciesMoves            ; Golett
+	dw GolettEggSpeciesMoves            ; Golurk
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

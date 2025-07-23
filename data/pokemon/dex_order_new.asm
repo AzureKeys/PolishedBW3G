@@ -115,6 +115,8 @@ NewPokedexOrder:
 	dp SHELMET
 	dp ACCELGOR
 	dp STUNFISK
+	dp GOLETT
+	dp GOLURK
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

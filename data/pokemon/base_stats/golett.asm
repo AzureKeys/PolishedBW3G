@@ -7,7 +7,8 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for GOLETT, IRON_FIST, KLUTZ, NO_GAURD
+	abilities_for GOLETT, IRON_FIST, IRON_FIST, NO_GUARD
+	;abilities_for GOLETT, IRON_FIST, KLUTZ, NO_GUARD
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 

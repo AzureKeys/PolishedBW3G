@@ -249,6 +249,8 @@ BearticAnimation:    INCLUDE "gfx/pokemon/beartic/anim.asm"
 CryogonalAnimation:  INCLUDE "gfx/pokemon/cryogonal/anim.asm"
 ShelmetAnimation:    INCLUDE "gfx/pokemon/shelmet/anim.asm"
 AccelgorAnimation:   INCLUDE "gfx/pokemon/accelgor/anim.asm"
+GolettAnimation:     INCLUDE "gfx/pokemon/golett/anim.asm"
+GolurkAnimation:     INCLUDE "gfx/pokemon/golurk/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

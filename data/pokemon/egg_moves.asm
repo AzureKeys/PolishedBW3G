@@ -1257,5 +1257,9 @@ StunfiskPlainEggSpeciesMoves:
 	db SPARK
 	db $ff
 
+GolettEggSpeciesMoves:
+	dp GOLETT, PLAIN_FORM
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

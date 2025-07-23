@@ -309,6 +309,8 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; SHELMET
 	iconpal BLUE, YELLOW ; ACCELGOR
 	iconpal BROWN, BLUE ; STUNFISK
+	iconpal TEAL, BLUE ; GOLETT
+	iconpal TEAL, GRAY ; GOLURK
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

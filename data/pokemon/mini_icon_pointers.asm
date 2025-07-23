@@ -309,6 +309,8 @@ MiniIconPointers:
 	mini_icon Shelmet
 	mini_icon Accelgor
 	mini_icon Stunfisk
+	mini_icon Golett
+	mini_icon Golurk
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

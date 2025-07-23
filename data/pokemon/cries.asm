@@ -311,4 +311,6 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; SHELMET*
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; ACCELGOR*
 	mon_cry CRY_METAPOD,     $2d1,  $0e0 ; Stunfisk
+	mon_cry CRY_CATERPIE,    $0fa,  $129 ; Golett
+	mon_cry CRY_TYPHLOSION,  $111,  $0fa ; Golurk
 	assert_table_length NUM_SPECIES
