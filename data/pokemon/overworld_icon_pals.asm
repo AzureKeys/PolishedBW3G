@@ -301,6 +301,9 @@ OverworldMonIconColors::
 	iconpal WHITE, AZURE ; TYNAMO
 	iconpal BLUE, AZURE ; EELEKTRIK
 	iconpal BLUE, TEAL ; EELEKTROSS
+	iconpal PURPLE, AZURE ; LITWICK
+	iconpal BLACK, PURPLE ; LAMPENT
+	iconpal PURPLE, ORANGE ; CHANDELURE
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

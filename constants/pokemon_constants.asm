@@ -321,6 +321,9 @@
 	const TYNAMO     ; 15f
 	const EELEKTRIK  ; 160
 	const EELEKTROSS ; 161
+	const LITWICK    ; 164
+	const LAMPENT    ; 165
+	const CHANDELURE ; 166
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

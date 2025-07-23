@@ -301,6 +301,9 @@ MiniIconPointers:
 	mini_icon Tynamo
 	mini_icon Eelektrik
 	mini_icon Eelektross
+	mini_icon Litwick
+	mini_icon Lampent
+	mini_icon Chandelure
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

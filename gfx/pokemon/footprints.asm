@@ -112,6 +112,9 @@ KlinklangFootprint::
 TynamoFootprint::
 EelektrikFootprint::
 EelektrossFootprint::
+LitwickFootprint::
+LampentFootprint::
+ChandelureFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

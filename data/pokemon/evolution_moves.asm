@@ -301,6 +301,9 @@ endc
 	db NO_MOVE      ; TYNAMO
 	db CRUNCH       ; EELEKTRIK
 	db THUNDERPUNCH ; EELEKTROSS
+	db NO_MOVE      ; LITWICK
+	db NO_MOVE      ; LAMPENT
+	db NO_MOVE      ; CHANDELURE
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

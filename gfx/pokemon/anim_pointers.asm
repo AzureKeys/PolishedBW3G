@@ -297,6 +297,9 @@ AnimationPointers:
 	dw TynamoAnimation
 	dw EelektrikAnimation
 	dw EelektrossAnimation
+	dw LitwickAnimation
+	dw LampentAnimation
+	dw ChandelureAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

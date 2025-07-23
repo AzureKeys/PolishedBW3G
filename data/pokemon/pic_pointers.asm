@@ -301,6 +301,9 @@ PokemonPicPointers::
 	pics Tynamo
 	pics Eelektrik
 	pics Eelektross
+	pics Litwick
+	pics Lampent
+	pics Chandelure
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

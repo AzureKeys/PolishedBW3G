@@ -298,4 +298,7 @@ PokemonNames::
 	rawchar "Tynamo@@@@"
 	rawchar "Eelektrik@"
 	rawchar "Eelektross"
+	rawchar "Litwick@@@"
+	rawchar "Lampent@@@"
+	rawchar "Chandelure"
 	assert_table_length NUM_SPECIES + 1

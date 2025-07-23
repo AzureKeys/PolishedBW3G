@@ -297,6 +297,9 @@ BitmasksPointers:
 	dw TynamoBitmasks
 	dw EelektrikBitmasks
 	dw EelektrossBitmasks
+	dw LitwickBitmasks
+	dw LampentBitmasks
+	dw ChandelureBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

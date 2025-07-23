@@ -6031,6 +6031,50 @@ endc
 	learnset 1, HEADBUTT
 	learnset 1, ACID
 	;learnset 1, DISCHARGE
+	
+	evos_attacks Litwick
+	evo_data EVOLVE_LEVEL, 41, LAMPENT
+	learnset 1, EMBER
+	learnset 1, ASTONISH
+	learnset 3, MINIMIZE
+	learnset 7, FIRE_SPIN
+	learnset 10, CONFUSE_RAY
+	learnset 13, NIGHT_SHADE
+	learnset 16, WILL_O_WISP
+	;learnset 20, FLAME_BURST
+	learnset 24, MEAN_LOOK ; Imprison
+	learnset 28, HEX
+	learnset 33, DESTINY_BOND ; Memento
+	learnset 38, FLAMETHROWER ; Inferno
+	learnset 43, CURSE
+	learnset 49, SHADOW_BALL
+	learnset 55, PAIN_SPLIT
+	;learnset 61, OVERHEAT
+	
+	evos_attacks Lampent
+	evo_data EVOLVE_ITEM, DUSK_STONE, CHANDELURE
+	learnset 1, EMBER
+	learnset 1, ASTONISH
+	learnset 3, MINIMIZE
+	learnset 7, FIRE_SPIN
+	learnset 10, CONFUSE_RAY
+	learnset 13, NIGHT_SHADE
+	learnset 16, WILL_O_WISP
+	;learnset 20, FLAME_BURST
+	learnset 24, MEAN_LOOK ; Imprison
+	learnset 28, HEX
+	learnset 33, DESTINY_BOND ; Memento
+	learnset 38, FLAMETHROWER ; Inferno
+	learnset 45, CURSE
+	learnset 53, SHADOW_BALL
+	learnset 61, PAIN_SPLIT
+	;learnset 69, OVERHEAT
+	
+	evos_attacks Chandelure
+	learnset 1, EMBER
+	learnset 1, CONFUSE_RAY
+	learnset 1, PAIN_SPLIT
+	learnset 1, HEX
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

@@ -301,6 +301,9 @@ EvosAttacksPointers::
 	dw TynamoEvosAttacks
 	dw EelektrikEvosAttacks
 	dw EelektrossEvosAttacks
+	dw LitwickEvosAttacks
+	dw LampentEvosAttacks
+	dw ChandelureEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

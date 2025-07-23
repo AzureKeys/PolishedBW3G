@@ -2937,6 +2937,36 @@ EelektrossPokedexEntry::
 	next "drag it back into"
 	next "the ocean.@"
 
+SECTION "LitwickPokedexEntry", ROMX
+LitwickPokedexEntry::
+	db "Candle@"
+	db "Litwick shines a"
+	next "light that absorbs"
+	next "life energy,"
+	page "which becomes the"
+	next "fuel that it"
+	next "burns.@"
+
+SECTION "LampentPokedexEntry", ROMX
+LampentPokedexEntry::
+	db "Lamp@"
+	db "This ominous"
+	next "#mon is feared."
+	next "It wanders through"
+	page "cities, searching"
+	next "for the spirits"
+	next "of the fallen.@"
+
+SECTION "ChandelurePokedexEntry", ROMX
+ChandelurePokedexEntry::
+	db "Luring@"
+	db "Being consumed in"
+	next "Chandelure's"
+	next "flame burns up"
+	page "the spirit,"
+	next "leaving the body"
+	next "behind.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

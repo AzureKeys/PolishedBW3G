@@ -22,6 +22,7 @@ AlphabeticalPokedexOrder:
 	dp BULBASAUR
 	dp CARRACOSTA
 	dp CELEBI
+	dp CHANDELURE
 	dp CHARIZARD
 	dp CHARMANDER
 	dp CHARMELEON
@@ -123,6 +124,7 @@ AlphabeticalPokedexOrder:
 	dp KOFFING
 	dp KROKOROK
 	dp KROOKODILE
+	dp LAMPENT
 	dp LANTURN
 	dp LAPRAS
 	dp LARVITAR
@@ -133,6 +135,7 @@ AlphabeticalPokedexOrder:
 	dp LIEPARD
 	dp LILLIGANT
 	dp LILLIPUP
+	dp LITWICK
 	dp LUGIA
 	dp MAGBY
 	dp MAGIKARP

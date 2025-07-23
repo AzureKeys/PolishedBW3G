@@ -297,6 +297,9 @@ FramesPointers:
 	dw TynamoFrames
 	dw EelektrikFrames
 	dw EelektrossFrames
+	dw LitwickFrames
+	dw LampentFrames
+	dw ChandelureFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

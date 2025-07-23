@@ -297,6 +297,9 @@ EggSpeciesMovesPointers::
 	dw TynamoEggSpeciesMoves            ; Tynamo
 	dw TynamoEggSpeciesMoves            ; Eelektrik
 	dw TynamoEggSpeciesMoves            ; Eelektross
+	dw LitwickEggSpeciesMoves           ; Litwick
+	dw LitwickEggSpeciesMoves           ; Lampent
+	dw LitwickEggSpeciesMoves           ; Chandelure
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

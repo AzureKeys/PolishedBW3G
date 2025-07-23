@@ -304,6 +304,9 @@ PokemonBodyData:
 	body_data   2,    3, FINS,         WHITE  ; TYNAMO
 	body_data  12,  220, FINS,         BLUE   ; EELEKTRIK
 	body_data  21,  805, FINS,         BLUE   ; EELEKTROSS
+	body_data   3,   31, HEAD_BASE,    WHITE  ; LITWICK
+	body_data   6,  130, HEAD_ARMS,    BLACK  ; LAMPENT
+	body_data  10,  343, HEAD_ARMS,    BLACK  ; CHANDELURE
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

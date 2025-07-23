@@ -238,6 +238,9 @@ KlinklangBitmasks:  INCLUDE "gfx/pokemon/klinklang/bitmask.asm"
 TynamoBitmasks:     INCLUDE "gfx/pokemon/tynamo/bitmask.asm"
 EelektrikBitmasks:  INCLUDE "gfx/pokemon/eelektrik/bitmask.asm"
 EelektrossBitmasks: INCLUDE "gfx/pokemon/eelektross/bitmask.asm"
+LitwickBitmasks:    INCLUDE "gfx/pokemon/litwick/bitmask.asm"
+LampentBitmasks:    INCLUDE "gfx/pokemon/lampent/bitmask.asm"
+ChandelureBitmasks: INCLUDE "gfx/pokemon/chandelure/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

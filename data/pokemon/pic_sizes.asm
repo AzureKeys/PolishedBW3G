@@ -316,6 +316,9 @@ INCLUDE "gfx/pokemon/klinklang/front.dimensions"
 INCLUDE "gfx/pokemon/tynamo/front.dimensions"
 INCLUDE "gfx/pokemon/eelektrik/front.dimensions"
 INCLUDE "gfx/pokemon/eelektross/front.dimensions"
+INCLUDE "gfx/pokemon/litwick/front.dimensions"
+INCLUDE "gfx/pokemon/lampent/front.dimensions"
+INCLUDE "gfx/pokemon/chandelure/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

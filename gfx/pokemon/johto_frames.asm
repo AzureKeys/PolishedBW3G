@@ -177,6 +177,9 @@ KlinklangFrames:  INCLUDE "gfx/pokemon/klinklang/frames.asm"
 TynamoFrames:     INCLUDE "gfx/pokemon/tynamo/frames.asm"
 EelektrikFrames:  INCLUDE "gfx/pokemon/eelektrik/frames.asm"
 EelektrossFrames: INCLUDE "gfx/pokemon/eelektross/frames.asm"
+LitwickFrames:    INCLUDE "gfx/pokemon/litwick/frames.asm"
+LampentFrames:    INCLUDE "gfx/pokemon/lampent/frames.asm"
+ChandelureFrames: INCLUDE "gfx/pokemon/chandelure/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

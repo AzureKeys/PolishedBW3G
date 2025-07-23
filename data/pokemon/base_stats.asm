@@ -332,6 +332,9 @@ INCLUDE "data/pokemon/base_stats/klinklang.asm"
 INCLUDE "data/pokemon/base_stats/tynamo.asm"
 INCLUDE "data/pokemon/base_stats/eelektrik.asm"
 INCLUDE "data/pokemon/base_stats/eelektross.asm"
+INCLUDE "data/pokemon/base_stats/litwick.asm"
+INCLUDE "data/pokemon/base_stats/lampent.asm"
+INCLUDE "data/pokemon/base_stats/chandelure.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

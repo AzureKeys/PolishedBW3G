@@ -1487,6 +1487,21 @@ EelektrossMini::     INCBIN "gfx/minis/eelektross.2bpp.lz"
 EelektrossMiniMask:: INCBIN "gfx/minis/eelektross_mask.1bpp.lz"
 EelektrossIcon::     INCBIN "gfx/icons/eelektross.2bpp.lz"
 
+SECTION "Litwick Mini Icon", ROMX
+LitwickMini::     INCBIN "gfx/minis/litwick.2bpp.lz"
+LitwickMiniMask:: INCBIN "gfx/minis/litwick_mask.1bpp.lz"
+LitwickIcon::     INCBIN "gfx/icons/litwick.2bpp.lz"
+
+SECTION "Lampent Mini Icon", ROMX
+LampentMini::     INCBIN "gfx/minis/lampent.2bpp.lz"
+LampentMiniMask:: INCBIN "gfx/minis/lampent_mask.1bpp.lz"
+LampentIcon::     INCBIN "gfx/icons/lampent.2bpp.lz"
+
+SECTION "Chandelure Mini Icon", ROMX
+ChandelureMini::     INCBIN "gfx/minis/chandelure.2bpp.lz"
+ChandelureMiniMask:: INCBIN "gfx/minis/chandelure_mask.1bpp.lz"
+ChandelureIcon::     INCBIN "gfx/icons/chandelure.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

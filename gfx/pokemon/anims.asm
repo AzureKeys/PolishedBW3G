@@ -238,6 +238,9 @@ KlinklangAnimation:  INCLUDE "gfx/pokemon/klinklang/anim.asm"
 TynamoAnimation:     INCLUDE "gfx/pokemon/tynamo/anim.asm"
 EelektrikAnimation:  INCLUDE "gfx/pokemon/eelektrik/anim.asm"
 EelektrossAnimation: INCLUDE "gfx/pokemon/eelektross/anim.asm"
+LitwickAnimation:    INCLUDE "gfx/pokemon/litwick/anim.asm"
+LampentAnimation:    INCLUDE "gfx/pokemon/lampent/anim.asm"
+ChandelureAnimation: INCLUDE "gfx/pokemon/chandelure/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

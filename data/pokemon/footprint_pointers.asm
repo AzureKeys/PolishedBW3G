@@ -297,6 +297,9 @@ FootprintPointers::
 	dw TynamoFootprint
 	dw EelektrikFootprint
 	dw EelektrossFootprint
+	dw LitwickFootprint
+	dw LampentFootprint
+	dw ChandelureFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

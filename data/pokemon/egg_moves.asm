@@ -1206,5 +1206,13 @@ TynamoEggSpeciesMoves:
 	dp TYNAMO, PLAIN_FORM
 	db $ff
 
+LitwickEggSpeciesMoves:
+	dp LITWICK, PLAIN_FORM
+	db ACID
+	;db ACID_ARMOR
+	db ENDURE
+	db HAZE
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

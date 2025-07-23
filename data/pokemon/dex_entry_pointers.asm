@@ -298,6 +298,9 @@ PokedexDataPointerTable:
 	dba TynamoPokedexEntry
 	dba EelektrikPokedexEntry
 	dba EelektrossPokedexEntry
+	dba LitwickPokedexEntry
+	dba LampentPokedexEntry
+	dba ChandelurePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
