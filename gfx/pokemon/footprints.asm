@@ -126,6 +126,8 @@ AccelgorFootprint::
 StunfiskFootprint::
 GolettFootprint::
 GolurkFootprint::
+PawniardFootprint::
+BisharpFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

@@ -251,6 +251,8 @@ ShelmetAnimation:    INCLUDE "gfx/pokemon/shelmet/anim.asm"
 AccelgorAnimation:   INCLUDE "gfx/pokemon/accelgor/anim.asm"
 GolettAnimation:     INCLUDE "gfx/pokemon/golett/anim.asm"
 GolurkAnimation:     INCLUDE "gfx/pokemon/golurk/anim.asm"
+PawniardAnimation:   INCLUDE "gfx/pokemon/pawniard/anim.asm"
+BisharpAnimation:    INCLUDE "gfx/pokemon/bisharp/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

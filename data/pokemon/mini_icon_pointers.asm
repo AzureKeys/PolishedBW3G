@@ -311,6 +311,8 @@ MiniIconPointers:
 	mini_icon Stunfisk
 	mini_icon Golett
 	mini_icon Golurk
+	mini_icon Pawniard
+	mini_icon Bisharp
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

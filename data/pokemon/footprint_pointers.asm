@@ -307,6 +307,8 @@ FootprintPointers::
 	dw StunfiskFootprint
 	dw GolettFootprint
 	dw GolurkFootprint
+	dw PawniardFootprint
+	dw BisharpFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

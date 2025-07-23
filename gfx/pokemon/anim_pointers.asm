@@ -307,6 +307,8 @@ AnimationPointers:
 	dw StunfiskPlainAnimation
 	dw GolettAnimation
 	dw GolurkAnimation
+	dw PawniardAnimation
+	dw BisharpAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

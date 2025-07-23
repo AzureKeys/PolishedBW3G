@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	dp BASCULIN
 	dp BAYLEEF
 	dp BEARTIC
+	dp BISHARP
 	dp BLASTOISE
 	dp BLITZLE
 	dp BOLDORE
@@ -188,6 +189,7 @@ AlphabeticalPokedexOrder:
 	dp PARAS
 	dp PARASECT
 	dp PATRAT
+	dp PAWNIARD
 	dp PERRSERKER
 	dp PERSIAN
 	dp PETILIL

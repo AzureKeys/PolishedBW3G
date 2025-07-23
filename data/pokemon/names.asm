@@ -308,4 +308,6 @@ PokemonNames::
 	rawchar "Stunfisk@@"
 	rawchar "Golett@@@@"
 	rawchar "Golurk@@@@"
+	rawchar "Pawniard@@"
+	rawchar "Bisharp@@@"
 	assert_table_length NUM_SPECIES + 1

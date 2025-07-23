@@ -311,6 +311,8 @@ PokemonPicPointers::
 	pics StunfiskPlain
 	pics Golett
 	pics Golurk
+	pics Pawniard
+	pics Bisharp
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

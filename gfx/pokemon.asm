@@ -1576,3 +1576,11 @@ GolettBackpic:  INCBIN "gfx/pokemon/golett/back.2bpp.lz"
 SECTION "Golurk Pics", ROMX
 GolurkFrontpic: INCBIN "gfx/pokemon/golurk/front.animated.2bpp.lz"
 GolurkBackpic:  INCBIN "gfx/pokemon/golurk/back.2bpp.lz"
+
+SECTION "Pawniard Pics", ROMX
+PawniardFrontpic: INCBIN "gfx/pokemon/pawniard/front.animated.2bpp.lz"
+PawniardBackpic:  INCBIN "gfx/pokemon/pawniard/back.2bpp.lz"
+
+SECTION "Bisharp Pics", ROMX
+BisharpFrontpic: INCBIN "gfx/pokemon/bisharp/front.animated.2bpp.lz"
+BisharpBackpic:  INCBIN "gfx/pokemon/bisharp/back.2bpp.lz"

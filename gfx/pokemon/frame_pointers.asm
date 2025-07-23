@@ -307,6 +307,8 @@ FramesPointers:
 	dw StunfiskPlainFrames
 	dw GolettFrames
 	dw GolurkFrames
+	dw PawniardFrames
+	dw BisharpFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

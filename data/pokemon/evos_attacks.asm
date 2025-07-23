@@ -6101,6 +6101,49 @@ endc
 	learnset 47, CURSE
 	learnset 54, EARTHQUAKE
 	;learnset 61, HAMMER_ARM
+	
+	evos_attacks Pawniard
+	evo_data EVOLVE_LEVEL, 52, BISHARP
+	learnset 1, SCRATCH
+	learnset 6, LEER
+	;learnset 9, FURY_CUTTER
+	learnset 14, SWAGGER ; Torment
+	learnset 17, FEINT_ATTACK
+	learnset 22, SCARY_FACE
+	learnset 25, METAL_CLAW
+	learnset 30, SLASH
+	;learnset 33, ASSURANCE
+	learnset 38, SCREECH ; Metal Sound
+	learnset 41, BULLET_PUNCH ; Embargo
+	learnset 46, BARRIER ; Iron Defense
+	learnset 49, NIGHT_SLASH
+	learnset 54, IRON_HEAD
+	learnset 57, SWORDS_DANCE
+	;learnset 62, GUILLOTINE
+	
+	evos_attacks Bisharp
+	;learnset 1, GUILLOTINE
+	learnset 1, IRON_HEAD
+	learnset 1, COUNTER ; Metal Burst
+	learnset 1, SCRATCH
+	learnset 1, LEER
+	;learnset 1, FURY_CUTTER
+	learnset 1, SWAGGER ; Torment
+	learnset 6, LEER
+	;learnset 9, FURY_CUTTER
+	learnset 14, SWAGGER ; Torment
+	learnset 17, FEINT_ATTACK
+	learnset 22, SCARY_FACE
+	learnset 25, METAL_CLAW
+	learnset 30, SLASH
+	;learnset 33, ASSURANCE
+	learnset 38, SCREECH ; Metal Sound
+	learnset 41, BULLET_PUNCH ; Embargo
+	learnset 46, BARRIER ; Iron Defense
+	learnset 49, NIGHT_SLASH
+	learnset 57, IRON_HEAD
+	learnset 63, SWORDS_DANCE
+	;learnset 71, GUILLOTINE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

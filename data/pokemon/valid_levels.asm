@@ -312,4 +312,6 @@ endc
 	db  20, 100 ; Stunfisk
 	db   1,  42 ; Golett
 	db  43, 100 ; Golurk
+	db   1,  51 ; Pawniard
+	db  52, 100 ; Bisharp
 	assert_table_length NUM_SPECIES

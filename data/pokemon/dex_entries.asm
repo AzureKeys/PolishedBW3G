@@ -3037,6 +3037,26 @@ GolurkPokedexEntry::
 	next "on a mysterious"
 	next "energy.@"
 
+SECTION "PawniardPokedexEntry", ROMX
+PawniardPokedexEntry::
+	db "Sharp Blade@"
+	db "Blades cover this"
+	next "#mon's entire"
+	next "body. It sharpens"
+	page "them on stones"
+	next "if they are dulled"
+	next "in battle.@"
+
+SECTION "BisharpPokedexEntry", ROMX
+BisharpPokedexEntry::
+	db "Sharp Sword@"
+	db "Bisharp pursues"
+	next "prey with a group"
+	next "of Pawniard. The"
+	page "Bisharp will"
+	next "finish off"
+	next "the prey.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

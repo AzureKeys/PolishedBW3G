@@ -251,6 +251,8 @@ ShelmetAnimationExtra:    INCLUDE "gfx/pokemon/shelmet/anim_idle.asm"
 AccelgorAnimationExtra:   INCLUDE "gfx/pokemon/accelgor/anim_idle.asm"
 GolettAnimationExtra:     INCLUDE "gfx/pokemon/golett/anim_idle.asm"
 GolurkAnimationExtra:     INCLUDE "gfx/pokemon/golurk/anim_idle.asm"
+PawniardAnimationExtra:   INCLUDE "gfx/pokemon/pawniard/anim_idle.asm"
+BisharpAnimationExtra:    INCLUDE "gfx/pokemon/bisharp/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

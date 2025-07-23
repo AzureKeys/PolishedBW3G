@@ -1261,5 +1261,14 @@ GolettEggSpeciesMoves:
 	dp GOLETT, PLAIN_FORM
 	db $ff
 
+PawniardEggSpeciesMoves:
+	dp PAWNIARD, PLAIN_FORM
+	db HEADBUTT
+	db MEAN_LOOK
+	;db PSYCHO_CUT
+	db PURSUIT
+	db SUCKER_PUNCH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

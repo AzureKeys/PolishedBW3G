@@ -117,6 +117,8 @@ NewPokedexOrder:
 	dp STUNFISK
 	dp GOLETT
 	dp GOLURK
+	dp PAWNIARD
+	dp BISHARP
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

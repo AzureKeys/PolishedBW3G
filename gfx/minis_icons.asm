@@ -1537,6 +1537,16 @@ GolurkMini::     INCBIN "gfx/minis/golurk.2bpp.lz"
 GolurkMiniMask:: INCBIN "gfx/minis/golurk_mask.1bpp.lz"
 GolurkIcon::     INCBIN "gfx/icons/golurk.2bpp.lz"
 
+SECTION "Pawniard Mini Icon", ROMX
+PawniardMini::     INCBIN "gfx/minis/pawniard.2bpp.lz"
+PawniardMiniMask:: INCBIN "gfx/minis/pawniard_mask.1bpp.lz"
+PawniardIcon::     INCBIN "gfx/icons/pawniard.2bpp.lz"
+
+SECTION "Bisharp Mini Icon", ROMX
+BisharpMini::     INCBIN "gfx/minis/bisharp.2bpp.lz"
+BisharpMiniMask:: INCBIN "gfx/minis/bisharp_mask.1bpp.lz"
+BisharpIcon::     INCBIN "gfx/icons/bisharp.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

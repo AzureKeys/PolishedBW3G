@@ -311,6 +311,8 @@ EvosAttacksPointers::
 	dw StunfiskPlainEvosAttacks
 	dw GolettEvosAttacks
 	dw GolurkEvosAttacks
+	dw PawniardEvosAttacks
+	dw BisharpEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

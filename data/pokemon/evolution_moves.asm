@@ -311,6 +311,8 @@ endc
 	db NO_MOVE      ; STUNFISK
 	db NO_MOVE      ; GOLETT
 	db NO_MOVE      ; GOLURK
+	db NO_MOVE      ; PAWNIARD
+	db NO_MOVE      ; BISHARP
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

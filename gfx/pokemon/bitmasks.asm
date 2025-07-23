@@ -251,6 +251,8 @@ ShelmetBitmasks:    INCLUDE "gfx/pokemon/shelmet/bitmask.asm"
 AccelgorBitmasks:   INCLUDE "gfx/pokemon/accelgor/bitmask.asm"
 GolettBitmasks:     INCLUDE "gfx/pokemon/golett/bitmask.asm"
 GolurkBitmasks:     INCLUDE "gfx/pokemon/golurk/bitmask.asm"
+PawniardBitmasks:   INCLUDE "gfx/pokemon/pawniard/bitmask.asm"
+BisharpBitmasks:    INCLUDE "gfx/pokemon/bisharp/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
