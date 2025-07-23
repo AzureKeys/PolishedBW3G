@@ -38,7 +38,6 @@ HaunterAnimation:    INCLUDE "gfx/pokemon/haunter/anim.asm"
 GengarAnimation:     INCLUDE "gfx/pokemon/gengar/anim.asm"
 OnixAnimation:       INCLUDE "gfx/pokemon/onix/anim.asm"
 ExeggcuteAnimation:  INCLUDE "gfx/pokemon/exeggcute/anim.asm"
-CuboneAnimation:     INCLUDE "gfx/pokemon/cubone/anim.asm"
 LickitungAnimation:  INCLUDE "gfx/pokemon/lickitung/anim.asm"
 KoffingAnimation:    INCLUDE "gfx/pokemon/koffing/anim.asm"
 TangelaAnimation:    INCLUDE "gfx/pokemon/tangela/anim.asm"
@@ -236,6 +235,9 @@ FerrothornAnimation: INCLUDE "gfx/pokemon/ferrothorn/anim.asm"
 KlinkAnimation:      INCLUDE "gfx/pokemon/klink/anim.asm"
 KlangAnimation:      INCLUDE "gfx/pokemon/klang/anim.asm"
 KlinklangAnimation:  INCLUDE "gfx/pokemon/klinklang/anim.asm"
+TynamoAnimation:     INCLUDE "gfx/pokemon/tynamo/anim.asm"
+EelektrikAnimation:  INCLUDE "gfx/pokemon/eelektrik/anim.asm"
+EelektrossAnimation: INCLUDE "gfx/pokemon/eelektross/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -359,9 +361,6 @@ MukAlolanAnimation: INCLUDE "gfx/pokemon/muk_alolan/anim.asm"
 
 ExeggutorPlainAnimation:  INCLUDE "gfx/pokemon/exeggutor_plain/anim.asm"
 ExeggutorAlolanAnimation: INCLUDE "gfx/pokemon/exeggutor_alolan/anim.asm"
-
-MarowakPlainAnimation:  INCLUDE "gfx/pokemon/marowak_plain/anim.asm"
-MarowakAlolanAnimation: INCLUDE "gfx/pokemon/marowak_alolan/anim.asm"
 
 PonytaPlainAnimation:    INCLUDE "gfx/pokemon/ponyta_plain/anim.asm"
 PonytaGalarianAnimation: INCLUDE "gfx/pokemon/ponyta_galarian/anim.asm"

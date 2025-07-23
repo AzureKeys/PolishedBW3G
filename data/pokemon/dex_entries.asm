@@ -636,26 +636,6 @@ ExeggutorPlainPokedexEntry::
 	next "drops off becomes"
 	next "an Exeggcute.@"
 
-SECTION "CubonePokedexEntry", ROMX
-CubonePokedexEntry::
-	db "Lonely@"
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
-
-SECTION "MarowakPlainPokedexEntry", ROMX
-MarowakPlainPokedexEntry::
-	db "Bone Keeper@"
-	db   "Somewhere in the"
-	next "world is a ceme-"
-	next "tery just for"
-	page "Marowak. It gets"
-	next "its bones from"
-	next "those graves.@"
-
 SECTION "LickitungPokedexEntry", ROMX
 LickitungPokedexEntry::
 	db "Licking@"
@@ -2927,6 +2907,36 @@ KlinklangPokedexEntry::
 	next "energy through"
 	next "its spiked ring.@"
 
+SECTION "TynamoPokedexEntry", ROMX
+TynamoPokedexEntry::
+	db "EleFish@"
+	db "While one alone"
+	next "doesn't have much"
+	next "power, a chain of"
+	page "many Tynamo can be"
+	next "as powerful as a"
+	next "lightning storm.@"
+
+SECTION "EelektrikPokedexEntry", ROMX
+EelektrikPokedexEntry::
+	db "EleFish@"
+	db "They coil around"
+	next "foes and shock"
+	next "them with their"
+	page "electricity"
+	next "generating organs"
+	next "to hunt.@"
+
+SECTION "EelektrossPokedexEntry", ROMX
+EelektrossPokedexEntry::
+	db "EleFish@"
+	db "They crawl out of"
+	next "the ocean using"
+	next "their arms. They"
+	page "attack prey and"
+	next "drag it back into"
+	next "the ocean.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -3056,16 +3066,6 @@ ExeggutorAlolanPokedexEntry::
 	page "opponents. This"
 	next "makes Exeggutor"
 	next "itself dizzy, too.@"
-
-SECTION "MarowakAlolanPokedexEntry", ROMX
-MarowakAlolanPokedexEntry::
-	db "Bone Keeper@"
-	db   "It sets the bone"
-	next "it holds on fire"
-	next "and dances through"
-	page "through the night"
-	next "as a way to mourn"
-	next "its fallen allies.@"
 
 SECTION "MeowthGalarianPokedexEntry", ROMX
 MeowthGalarianPokedexEntry::

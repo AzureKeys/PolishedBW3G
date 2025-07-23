@@ -223,16 +223,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .cubone
 	checkcoins GOLDENRODGAMECORNER_CUBONE_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname CUBONE, STRING_BUFFER_3
+	getmonname RATTATA, STRING_BUFFER_3
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke CUBONE, 10
+	givepoke RATTATA, 10
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval CUBONE
+	setmonval RATTATA
 	special Special_GameCornerPrizeMonCheckDex
 	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
 	sjump .loop

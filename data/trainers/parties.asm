@@ -227,7 +227,7 @@ endc
 		tr_moves WILL_O_WISP, SHADOW_BALL, FOCUS_BLAST, SUBSTITUTE
 	tr_mon 70, NINETALES @ CHARCOAL, MALE
 		tr_moves NASTY_PLOT, SHADOW_BALL, FLAMETHROWER, WILL_O_WISP
-	tr_mon 71, MAROWAK @ THICK_CLUB, MALE | ALOLAN_FORM
+	tr_mon 71, RATTATA @ THICK_CLUB, MALE | ALOLAN_FORM
 		tr_moves BONEMERANG, STONE_EDGE, ICE_PUNCH, SHADOW_CLAW
 	tr_mon 73, MISMAGIUS @ PINK_BOW, MALE
 		tr_moves DAZZLINGLEAM, SHADOW_BALL, NASTY_PLOT, THUNDERBOLT
@@ -3198,8 +3198,8 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ANDREW, "Andrew"
-	tr_mon 24, MAROWAK
-	tr_mon 24, MAROWAK
+	tr_mon 24, RATTATA
+	tr_mon 24, RATTATA
 	end_trainer
 
 	def_trainer CALVIN, "Calvin"
@@ -3452,7 +3452,7 @@ endc
 
 	def_trainer KRISE, "Krise"
 	tr_mon 14, RATTATA
-	tr_mon 17, CUBONE
+	tr_mon 17, RATTATA
 	end_trainer
 
 	def_trainer CONNIE, "Connie"
@@ -5635,7 +5635,7 @@ TeacherFGroup:
 	def_trainer HILLARY, "Hillary"
 	tr_mon 58, RATTATA
 	tr_mon 56, SUNFLORA
-	tr_mon 59, MAROWAK
+	tr_mon 59, RATTATA
 	end_trainer
 
 	def_trainer SHIRLEY, "Shirley"
@@ -5987,7 +5987,7 @@ SightseerFGroup:
 
 	def_trainer PILAR, "Pilar"
 	tr_mon 60, "Antorcha", MAGBY, FEMALE
-	tr_mon 61, "Huesitos", CUBONE, MALE
+	tr_mon 61, "Huesitos", RATTATA, MALE
 	tr_mon 64, "Luna", ESPEON, FEMALE
 	tr_mon 65, "Linterna", LANTURN, FEMALE
 	end_trainer
@@ -7043,7 +7043,7 @@ if DEF(FAITHFUL)
 		tr_evs 252 HP, 108 Spe
 		tr_moves EXPLOSION, SLUDGE_BOMB, SCREECH, MINIMIZE
 else
-	tr_mon 61, MAROWAK @ THICK_CLUB, FEMALE | ALOLAN_FORM
+	tr_mon 61, RATTATA @ THICK_CLUB, FEMALE | ALOLAN_FORM
 		tr_evs 108 Atk, 252 Spe
 		tr_moves SWORDS_DANCE, BONEMERANG, FIRE_PUNCH, SHADOW_CLAW
 endc
@@ -7066,7 +7066,7 @@ if DEF(FAITHFUL)
 	tr_mon 72, MUK @ SILK_SCARF, FEMALE
 		tr_moves EXPLOSION, SLUDGE_BOMB, SCREECH, MINIMIZE
 else
-	tr_mon 72, MAROWAK @ THICK_CLUB, FEMALE | ALOLAN_FORM
+	tr_mon 72, RATTATA @ THICK_CLUB, FEMALE | ALOLAN_FORM
 		tr_moves SWORDS_DANCE, BONEMERANG, ROCK_SMASH, SHADOW_CLAW
 endc
 	tr_mon 74, ARBOK @ KINGS_ROCK, FEMALE | ARBOK_AGATHA_FORM
@@ -7588,7 +7588,7 @@ KukuiGroup:
 
 	def_trainer_class KUKUI
 	def_trainer 1, "Kukui"
-	tr_mon 67, MAROWAK, MALE | ALOLAN_FORM
+	tr_mon 67, RATTATA, MALE | ALOLAN_FORM
 		tr_evs 236 Atk, 252 Spe
 	tr_mon 65, NINETALES, MALE | ALOLAN_FORM
 		tr_evs 252 SAt, 236 Spe
@@ -7603,7 +7603,7 @@ KukuiGroup:
 	end_trainer
 
 	def_trainer 2, "Kukui"
-	tr_mon 74, MAROWAK, MALE | ALOLAN_FORM
+	tr_mon 74, RATTATA, MALE | ALOLAN_FORM
 	tr_mon 72, NINETALES, MALE | ALOLAN_FORM
 	tr_mon 73, MAGNEZONE, MALE
 	tr_mon 73, SNORLAX, MALE

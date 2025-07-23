@@ -707,7 +707,7 @@
 	wildmon 22, RATTATA
 	wildmon 21, GOLBAT
 	wildmon 22, GEODUDE
-	wildmon 20, CUBONE
+	wildmon 20, RATTATA
 	wildmon 25, RATICATE
 	wildmon 24, RATTATA
 	; day
@@ -715,7 +715,7 @@
 	wildmon 22, RATTATA
 	wildmon 21, GOLBAT
 	wildmon 22, GEODUDE
-	wildmon 22, CUBONE
+	wildmon 22, RATTATA
 	wildmon 25, RATICATE
 	wildmon 24, RATTATA
 	; nite
@@ -723,7 +723,7 @@
 	wildmon 22, MARILL
 	wildmon 21, GOLBAT
 	wildmon 22, GEODUDE
-	wildmon 20, CUBONE
+	wildmon 20, RATTATA
 	wildmon 25, RATICATE
 	wildmon 24, RATTATA
 	end_grass_wildmons
@@ -735,7 +735,7 @@
 	wildmon 23, RATTATA
 	wildmon 23, ZUBAT
 	wildmon 22, RATICATE
-	wildmon 20, CUBONE
+	wildmon 20, RATTATA
 	wildmon 25, GOLBAT
 	wildmon 25, GOLBAT
 	; day
@@ -743,7 +743,7 @@
 	wildmon 23, RATTATA
 	wildmon 23, ZUBAT
 	wildmon 22, RATICATE
-	wildmon 20, CUBONE
+	wildmon 20, RATTATA
 	wildmon 25, GOLBAT
 	wildmon 25, GOLBAT
 	; nite
@@ -751,7 +751,7 @@
 	wildmon 23, MARILL
 	wildmon 22, ZUBAT
 	wildmon 23, RATICATE
-	wildmon 20, CUBONE
+	wildmon 20, RATTATA
 	wildmon 25, GOLBAT
 	wildmon 25, GOLBAT
 	end_grass_wildmons
@@ -763,7 +763,7 @@
 	wildmon 35, RATTATA
 	wildmon 34, GEODUDE
 	wildmon 31, RATTATA
-	wildmon 33, MAROWAK
+	wildmon 33, RATTATA
 	wildmon 33, GOLBAT
 	wildmon 33, GOLBAT
 	; day
@@ -771,7 +771,7 @@
 	wildmon 35, RATTATA
 	wildmon 34, GEODUDE
 	wildmon 31, RATTATA
-	wildmon 33, MAROWAK
+	wildmon 33, RATTATA
 	wildmon 33, GOLBAT
 	wildmon 33, GOLBAT
 	; nite
@@ -779,7 +779,7 @@
 	wildmon 35, GOLBAT
 	wildmon 34, GEODUDE
 	wildmon 31, MARILL
-	wildmon 33, MAROWAK
+	wildmon 33, RATTATA
 	wildmon 35, GOLBAT
 	wildmon 35, GOLBAT
 	end_grass_wildmons
@@ -791,7 +791,7 @@
 	wildmon 16, RATTATA
 	wildmon 17, GOLBAT
 	wildmon 16, GEODUDE
-	wildmon 17, CUBONE
+	wildmon 17, RATTATA
 	wildmon 18, RATICATE
 	wildmon 18, RATICATE
 	; day
@@ -799,7 +799,7 @@
 	wildmon 16, RATTATA
 	wildmon 17, GOLBAT
 	wildmon 16, GEODUDE
-	wildmon 17, CUBONE
+	wildmon 17, RATTATA
 	wildmon 18, RATICATE
 	wildmon 18, RATICATE
 	; nite
@@ -807,7 +807,7 @@
 	wildmon 16, GEODUDE
 	wildmon 17, GOLBAT
 	wildmon 16, MARILL
-	wildmon 17, CUBONE
+	wildmon 17, RATTATA
 	wildmon 18, RATICATE
 	wildmon 18, RATICATE
 	end_grass_wildmons
@@ -2019,7 +2019,7 @@
 	def_grass_wildmons QUIET_CAVE_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 3, CUBONE
+	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
@@ -2027,7 +2027,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; day
-	wildmon LEVEL_FROM_BADGES - 3, CUBONE
+	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
@@ -2035,7 +2035,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; nite
-	wildmon LEVEL_FROM_BADGES - 3, CUBONE
+	wildmon LEVEL_FROM_BADGES - 3, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 2, GASTLY
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
@@ -2047,84 +2047,84 @@
 	def_grass_wildmons QUIET_CAVE_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, CUBONE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 1, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, CUBONE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 1, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 1, MUNCHLAX
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	; nite
-	wildmon LEVEL_FROM_BADGES - 2, CUBONE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES - 1, GASTLY
 	wildmon LEVEL_FROM_BADGES - 1, GOLBAT
 	wildmon LEVEL_FROM_BADGES + 0, HAUNTER
-	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GOLBAT
 	end_grass_wildmons
 
 	def_grass_wildmons QUIET_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 1, CUBONE
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
-	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 2, ONIX
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	; day
-	wildmon LEVEL_FROM_BADGES - 1, CUBONE
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
-	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 2, ONIX
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	; nite
-	wildmon LEVEL_FROM_BADGES - 1, CUBONE
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 0, GOLBAT
 	wildmon LEVEL_FROM_BADGES - 1, GASTLY
 	wildmon LEVEL_FROM_BADGES + 0, HAUNTER
-	wildmon LEVEL_FROM_BADGES + 1, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 2, ONIX
 	end_grass_wildmons
 
 	def_grass_wildmons QUIET_CAVE_B3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES + 0, CUBONE
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 1, GOLBAT
-	wildmon LEVEL_FROM_BADGES + 2, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, STEELIX
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	; day
-	wildmon LEVEL_FROM_BADGES + 0, CUBONE
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 1, GOLBAT
-	wildmon LEVEL_FROM_BADGES + 2, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, STEELIX
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	wildmon LEVEL_FROM_BADGES - 15, LARVITAR
 	; nite
-	wildmon LEVEL_FROM_BADGES + 0, CUBONE
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 1, GOLBAT
 	wildmon LEVEL_FROM_BADGES + 0, GASTLY
 	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
-	wildmon LEVEL_FROM_BADGES + 2, MAROWAK
+	wildmon LEVEL_FROM_BADGES + 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, STEELIX
 	end_grass_wildmons
 

@@ -70,8 +70,6 @@ PokemonBodyData:
 	body_data  88, 2100, SERPENTINE,   GRAY   ; ONIX
 	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
 	body_data  20, 1200, HEAD_LEGS,    YELLOW ; EXEGGUTOR
-	body_data   4,   65, BIPEDAL_TAIL, BROWN  ; CUBONE
-	body_data  10,  450, BIPEDAL_TAIL, BROWN  ; MAROWAK
 	body_data  12,  655, BIPEDAL_TAIL, PINK   ; LICKITUNG
 	body_data   6,   10, HEAD,         PURPLE ; KOFFING
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
 	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
@@ -303,6 +301,9 @@ PokemonBodyData:
 	body_data   3,  210, MULTIBODY,    GRAY   ; KLINK
 	body_data   6,  510, MULTIBODY,    GRAY   ; KLANG
 	body_data   6,  810, MULTIBODY,    GRAY   ; KLINKLANG
+	body_data   2,    3, FINS,         WHITE  ; TYNAMO
+	body_data  12,  220, FINS,         BLUE   ; EELEKTRIK
+	body_data  21,  805, FINS,         BLUE   ; EELEKTROSS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -326,7 +327,6 @@ PokemonBodyData:
 	body_data   7,  420, HEAD_ARMS,    GREEN  ; GRIMER (ALOLAN_FORM)
 	body_data  10,  520, HEAD_ARMS,    GREEN  ; MUK (ALOLAN_FORM)
 	body_data 109, 4156, HEAD_LEGS,    YELLOW ; EXEGGUTOR (ALOLAN_FORM)
-	body_data  10,  340, BIPEDAL_TAIL, PURPLE ; MAROWAK (ALOLAN_FORM)
 
 	body_data   4,   75, BIPEDAL_TAIL, BROWN  ; MEOWTH (GALARIAN_FORM)
 	body_data   8,  240, QUADRUPED,    WHITE  ; PONYTA (GALARIAN_FORM)

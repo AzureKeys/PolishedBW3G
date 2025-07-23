@@ -322,16 +322,6 @@ ExeggutorMini::     INCBIN "gfx/minis/exeggutor.2bpp.lz"
 ExeggutorMiniMask:: INCBIN "gfx/minis/exeggutor_mask.1bpp.lz"
 ExeggutorIcon::     INCBIN "gfx/icons/exeggutor.2bpp.lz"
 
-SECTION "Cubone Mini Icon", ROMX
-CuboneMini::     INCBIN "gfx/minis/cubone.2bpp.lz"
-CuboneMiniMask:: INCBIN "gfx/minis/cubone_mask.1bpp.lz"
-CuboneIcon::     INCBIN "gfx/icons/cubone.2bpp.lz"
-
-SECTION "Marowak Mini Icon", ROMX
-MarowakMini::     INCBIN "gfx/minis/marowak.2bpp.lz"
-MarowakMiniMask:: INCBIN "gfx/minis/marowak_mask.1bpp.lz"
-MarowakIcon::     INCBIN "gfx/icons/marowak.2bpp.lz"
-
 SECTION "Lickitung Mini Icon", ROMX
 LickitungMini::     INCBIN "gfx/minis/lickitung.2bpp.lz"
 LickitungMiniMask:: INCBIN "gfx/minis/lickitung_mask.1bpp.lz"
@@ -1482,6 +1472,21 @@ KlinklangMini::     INCBIN "gfx/minis/klinklang.2bpp.lz"
 KlinklangMiniMask:: INCBIN "gfx/minis/klinklang_mask.1bpp.lz"
 KlinklangIcon::     INCBIN "gfx/icons/klinklang.2bpp.lz"
 
+SECTION "Tynamo Mini Icon", ROMX
+TynamoMini::     INCBIN "gfx/minis/tynamo.2bpp.lz"
+TynamoMiniMask:: INCBIN "gfx/minis/tynamo_mask.1bpp.lz"
+TynamoIcon::     INCBIN "gfx/icons/tynamo.2bpp.lz"
+
+SECTION "Eelektrik Mini Icon", ROMX
+EelektrikMini::     INCBIN "gfx/minis/eelektrik.2bpp.lz"
+EelektrikMiniMask:: INCBIN "gfx/minis/eelektrik_mask.1bpp.lz"
+EelektrikIcon::     INCBIN "gfx/icons/eelektrik.2bpp.lz"
+
+SECTION "Eelektross Mini Icon", ROMX
+EelektrossMini::     INCBIN "gfx/minis/eelektross.2bpp.lz"
+EelektrossMiniMask:: INCBIN "gfx/minis/eelektross_mask.1bpp.lz"
+EelektrossIcon::     INCBIN "gfx/icons/eelektross.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1701,11 +1706,6 @@ SECTION "ExeggutorAlolan Mini Icon", ROMX
 ExeggutorAlolanMini::     INCBIN "gfx/minis/exeggutor_alolan.2bpp.lz"
 ExeggutorAlolanMiniMask:: INCBIN "gfx/minis/exeggutor_alolan_mask.1bpp.lz"
 ExeggutorAlolanIcon::     INCBIN "gfx/icons/exeggutor_alolan.2bpp.lz"
-
-SECTION "MarowakAlolan Mini Icon", ROMX
-MarowakAlolanMini::     INCBIN "gfx/minis/marowak_alolan.2bpp.lz"
-MarowakAlolanMiniMask:: INCBIN "gfx/minis/marowak_alolan_mask.1bpp.lz"
-MarowakAlolanIcon::     INCBIN "gfx/icons/marowak_alolan.2bpp.lz"
 
 SECTION "MeowthGalarian Mini Icon", ROMX
 MeowthGalarianMini::     INCBIN "gfx/minis/meowth_galarian.2bpp.lz"

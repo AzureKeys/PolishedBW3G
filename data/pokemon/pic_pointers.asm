@@ -67,8 +67,6 @@ PokemonPicPointers::
 	pics Onix
 	pics Exeggcute
 	pics ExeggutorPlain
-	pics Cubone
-	pics MarowakPlain
 	pics Lickitung
 	pics Koffing
 	pics WeezingPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Maractus
 	pics Dwebble
 	pics Crustle
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Scraggy
 	pics Scrafty
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Sigilyph
 	pics YamaskPlain
 	pics Cofagrigus
@@ -300,6 +298,9 @@ PokemonPicPointers::
 	pics Klink
 	pics Klang
 	pics Klinklang
+	pics Tynamo
+	pics Eelektrik
+	pics Eelektross
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -386,7 +387,6 @@ PokemonPicPointers::
 	pics GrimerAlolan
 	pics MukAlolan
 	pics ExeggutorAlolan
-	pics MarowakAlolan
 
 	pics MeowthGalarian
 	pics PonytaGalarian

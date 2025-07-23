@@ -67,8 +67,6 @@ EvosAttacksPointers::
 	dw OnixEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorPlainEvosAttacks
-	dw CuboneEvosAttacks
-	dw MarowakPlainEvosAttacks
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw MaractusEvosAttacks
 	dw DwebbleEvosAttacks
 	dw CrustleEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SigilyphEvosAttacks
 	dw YamaskPlainEvosAttacks
 	dw CofagrigusEvosAttacks
@@ -300,6 +298,9 @@ EvosAttacksPointers::
 	dw KlinkEvosAttacks
 	dw KlangEvosAttacks
 	dw KlinklangEvosAttacks
+	dw TynamoEvosAttacks
+	dw EelektrikEvosAttacks
+	dw EelektrossEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -323,7 +324,6 @@ EvosAttacksPointers::
 	dw GrimerAlolanEvosAttacks
 	dw MukAlolanEvosAttacks
 	dw ExeggutorAlolanEvosAttacks
-	dw MarowakAlolanEvosAttacks
 
 	dw MeowthGalarianEvosAttacks
 	dw PonytaGalarianEvosAttacks

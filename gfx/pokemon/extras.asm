@@ -38,7 +38,6 @@ HaunterAnimationExtra:    INCLUDE "gfx/pokemon/haunter/anim_idle.asm"
 GengarAnimationExtra:     INCLUDE "gfx/pokemon/gengar/anim_idle.asm"
 OnixAnimationExtra:       INCLUDE "gfx/pokemon/onix/anim_idle.asm"
 ExeggcuteAnimationExtra:  INCLUDE "gfx/pokemon/exeggcute/anim_idle.asm"
-CuboneAnimationExtra:     INCLUDE "gfx/pokemon/cubone/anim_idle.asm"
 LickitungAnimationExtra:  INCLUDE "gfx/pokemon/lickitung/anim_idle.asm"
 KoffingAnimationExtra:    INCLUDE "gfx/pokemon/koffing/anim_idle.asm"
 TangelaAnimationExtra:    INCLUDE "gfx/pokemon/tangela/anim_idle.asm"
@@ -236,6 +235,9 @@ FerrothornAnimationExtra: INCLUDE "gfx/pokemon/ferrothorn/anim_idle.asm"
 KlinkAnimationExtra:      INCLUDE "gfx/pokemon/klink/anim_idle.asm"
 KlangAnimationExtra:      INCLUDE "gfx/pokemon/klang/anim_idle.asm"
 KlinklangAnimationExtra:  INCLUDE "gfx/pokemon/klinklang/anim_idle.asm"
+TynamoAnimationExtra:     INCLUDE "gfx/pokemon/tynamo/anim_idle.asm"
+EelektrikAnimationExtra:  INCLUDE "gfx/pokemon/eelektrik/anim_idle.asm"
+EelektrossAnimationExtra: INCLUDE "gfx/pokemon/eelektross/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -359,9 +361,6 @@ MukAlolanAnimationExtra: INCLUDE "gfx/pokemon/muk_alolan/anim_idle.asm"
 
 ExeggutorPlainAnimationExtra:  INCLUDE "gfx/pokemon/exeggutor_plain/anim_idle.asm"
 ExeggutorAlolanAnimationExtra: INCLUDE "gfx/pokemon/exeggutor_alolan/anim_idle.asm"
-
-MarowakPlainAnimationExtra:  INCLUDE "gfx/pokemon/marowak_plain/anim_idle.asm"
-MarowakAlolanAnimationExtra: INCLUDE "gfx/pokemon/marowak_alolan/anim_idle.asm"
 
 PonytaPlainAnimationExtra:    INCLUDE "gfx/pokemon/ponyta_plain/anim_idle.asm"
 PonytaGalarianAnimationExtra: INCLUDE "gfx/pokemon/ponyta_galarian/anim_idle.asm"

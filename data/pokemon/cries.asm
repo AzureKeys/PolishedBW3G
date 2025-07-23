@@ -69,8 +69,6 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $0ff,  $140 ; Onix
 	mon_cry CRY_DIGLETT,     $000,  $100 ; Exeggcute
 	mon_cry CRY_DROWZEE,     $000,  $100 ; Exeggutor
-	mon_cry CRY_CLEFAIRY,    $000,  $100 ; Cubone
-	mon_cry CRY_ODDISH,      $04f,  $0e0 ; Marowak
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickitung
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; Koffing
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; Weezing
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
 	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
 	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; SCRAGGY*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SCRAFTY*
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
 	mon_cry CRY_METAPOD,     $000,  $100 ; YAMASK*
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; COFAGRIGUS*
@@ -302,4 +300,7 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    $0e4,  $0ad ; Klink
 	mon_cry CRY_SQUIRTLE,   -$01a,  $0ad ; Klang
 	mon_cry CRY_SHELLDER,   -$108,  $1d0 ; Klinklang
+	mon_cry CRY_SENTRET,     $03a,  $2a8 ; Tynamo
+	mon_cry CRY_LAPRAS,     -$159,  $145 ; Eelektrik
+	mon_cry CRY_BLASTOISE,   $06f,  $148 ; Eelektross
 	assert_table_length NUM_SPECIES

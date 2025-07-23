@@ -354,18 +354,6 @@ ExeggcuteEggSpeciesMoves:
 	db REFLECT
 	db $ff
 
-CuboneEggSpeciesMoves:
-	dp CUBONE, PLAIN_FORM
-	db ANCIENTPOWER
-	db BELLY_DRUM
-	db DOUBLE_KICK
-	db PERISH_SONG
-	db SCREECH
-	db ROCK_SLIDE
-	db SWORDS_DANCE
-	db IRON_HEAD
-	db $ff
-
 LickitungEggSpeciesMoves:
 	dp LICKITUNG, PLAIN_FORM
 	db THRASH
@@ -1212,6 +1200,10 @@ FerroseedEggSpeciesMoves:
 
 KlinkEggSpeciesMoves:
 	dp KLINK, PLAIN_FORM
+	db $ff
+
+TynamoEggSpeciesMoves:
+	dp TYNAMO, PLAIN_FORM
 	db $ff
 
 NoEggSpeciesMoves:

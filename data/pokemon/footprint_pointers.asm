@@ -63,8 +63,6 @@ FootprintPointers::
 	dw OnixFootprint
 	dw ExeggcuteFootprint
 	dw ExeggutorFootprint
-	dw CuboneFootprint
-	dw MarowakFootprint
 	dw LickitungFootprint
 	dw KoffingFootprint
 	dw WeezingFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw MaractusFootprint
 	dw DwebbleFootprint
 	dw CrustleFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ScraggyFootprint
 	dw ScraftyFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SigilyphFootprint
 	dw YamaskFootprint
 	dw CofagrigusFootprint
@@ -296,6 +294,9 @@ FootprintPointers::
 	dw KlinkFootprint
 	dw KlangFootprint
 	dw KlinklangFootprint
+	dw TynamoFootprint
+	dw EelektrikFootprint
+	dw EelektrossFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -319,7 +320,6 @@ FootprintPointers::
 	dw GrimerFootprint
 	dw MukFootprint
 	dw ExeggutorFootprint
-	dw MarowakFootprint
 
 	dw MeowthFootprint
 	dw PonytaFootprint

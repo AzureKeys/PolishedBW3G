@@ -38,7 +38,6 @@ AlphabeticalPokedexOrder:
 	dp CROBAT
 	dp CROCONAW
 	dp CRUSTLE
-	dp CUBONE
 	dp CURSOLA
 	dp CYNDAQUIL
 	dp DARMANITAN
@@ -57,6 +56,8 @@ AlphabeticalPokedexOrder:
 	dp DUNSPARCE
 	dp DUOSION
 	dp DWEBBLE
+	dp EELEKTRIK
+	dp EELEKTROSS
 	dp EEVEE
 	dp EKANS
 	dp ELECTABUZZ
@@ -147,7 +148,6 @@ AlphabeticalPokedexOrder:
 	dp MARACTUS
 	dp MAREEP
 	dp MARILL
-	dp MAROWAK
 	dp MEGANIUM
 	dp MEOWTH
 	dp MEW
@@ -265,6 +265,7 @@ AlphabeticalPokedexOrder:
 	dp TRANQUILL
 	dp TRUBBISH
 	dp TYMPOLE
+	dp TYNAMO
 	dp TYPHLOSION
 	dp TYRANITAR
 	dp UMBREON

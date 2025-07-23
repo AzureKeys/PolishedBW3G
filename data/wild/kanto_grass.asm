@@ -115,23 +115,23 @@
 	def_grass_wildmons ROCK_TUNNEL_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, GRAVELER
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
 	wildmon 51, GOLBAT
 	wildmon 54, RATTATA
-	wildmon 51, MAROWAK
+	wildmon 51, RATTATA
 	; day
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, GRAVELER
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
 	wildmon 51, GOLBAT
 	wildmon 54, RATTATA
-	wildmon 51, MAROWAK
+	wildmon 51, RATTATA
 	; nite
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, GRAVELER
 	wildmon 51, GRAVELER
 	wildmon 51, ONIX
@@ -143,7 +143,7 @@
 	def_grass_wildmons ROCK_TUNNEL_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 50, MAROWAK
+	wildmon 50, RATTATA
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, GOLBAT
@@ -151,7 +151,7 @@
 	wildmon 52, GRAVELER
 	wildmon 52, STEELIX
 	; day
-	wildmon 50, MAROWAK
+	wildmon 50, RATTATA
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, GOLBAT
@@ -159,7 +159,7 @@
 	wildmon 52, GRAVELER
 	wildmon 52, STEELIX
 	; nite
-	wildmon 50, MAROWAK
+	wildmon 50, RATTATA
 	wildmon 51, GRAVELER
 	wildmon 52, ONIX
 	wildmon 52, HAUNTER
@@ -171,7 +171,7 @@
 	def_grass_wildmons ROCK_TUNNEL_2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, MAROWAK
+	wildmon 52, RATTATA
 	wildmon 54, GRAVELER
 	wildmon 52, GOLBAT
 	wildmon 54, RATTATA
@@ -179,7 +179,7 @@
 	wildmon 55, KANGASKHAN
 	wildmon 56, KANGASKHAN
 	; day
-	wildmon 52, MAROWAK
+	wildmon 52, RATTATA
 	wildmon 54, GRAVELER
 	wildmon 52, GOLBAT
 	wildmon 54, RATTATA
@@ -596,7 +596,7 @@
 	wildmon 49, PRIMEAPE
 	wildmon 50, NIDORINA
 	wildmon 50, NIDORINO
-	wildmon 52, MAROWAK
+	wildmon 52, RATTATA
 	wildmon 52, PRIMEAPE
 	; day
 	wildmon 48, RATICATE
@@ -604,7 +604,7 @@
 	wildmon 49, PRIMEAPE
 	wildmon 50, NIDORINA
 	wildmon 50, NIDORINO
-	wildmon 52, MAROWAK
+	wildmon 52, RATTATA
 	wildmon 52, PRIMEAPE
 	; nite
 	wildmon 48, RATICATE
@@ -612,7 +612,7 @@
 	wildmon 49, RATICATE
 	wildmon 50, RATTATA
 	wildmon 50, GOLBAT
-	wildmon 52, MAROWAK
+	wildmon 52, RATTATA
 	wildmon 52, RATICATE
 	end_grass_wildmons
 
@@ -623,7 +623,7 @@
 	wildmon 49, RATTATA
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; day
@@ -631,7 +631,7 @@
 	wildmon 49, RATTATA
 	wildmon 47, RATICATE
 	wildmon 48, MAGNETON
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; nite
@@ -1436,7 +1436,7 @@
 	wildmon 48, HAUNTER
 	wildmon 49, HAUNTER
 	wildmon 49, MISDREAVUS
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, MISMAGIUS
 	; day
 	wildmon 47, GASTLY
@@ -1444,7 +1444,7 @@
 	wildmon 48, HAUNTER
 	wildmon 49, HAUNTER
 	wildmon 49, MISDREAVUS
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, MISMAGIUS
 	; nite
 	wildmon 47, GASTLY
@@ -1452,7 +1452,7 @@
 	wildmon 48, HAUNTER
 	wildmon 49, HAUNTER
 	wildmon 49, MISDREAVUS
-	wildmon 49, MAROWAK
+	wildmon 49, RATTATA
 	wildmon 50, MISMAGIUS
 	end_grass_wildmons
 
@@ -1464,7 +1464,7 @@
 	wildmon 49, HAUNTER
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 50, MAROWAK
+	wildmon 50, RATTATA
 	wildmon 51, MISMAGIUS
 	; day
 	wildmon 48, GASTLY
@@ -1472,7 +1472,7 @@
 	wildmon 49, HAUNTER
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 50, MAROWAK
+	wildmon 50, RATTATA
 	wildmon 51, MISMAGIUS
 	; nite
 	wildmon 48, GASTLY
@@ -1480,7 +1480,7 @@
 	wildmon 49, HAUNTER
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 50, MAROWAK
+	wildmon 50, RATTATA
 	wildmon 51, MISMAGIUS
 	end_grass_wildmons
 
@@ -1491,7 +1491,7 @@
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
 	wildmon 49, VULPIX
-	wildmon 51, MAROWAK
+	wildmon 51, RATTATA
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
 	; day
@@ -1499,7 +1499,7 @@
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
 	wildmon 49, VULPIX
-	wildmon 51, MAROWAK
+	wildmon 51, RATTATA
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
 	; nite
@@ -1507,7 +1507,7 @@
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
 	wildmon 49, VULPIX
-	wildmon 51, MAROWAK
+	wildmon 51, RATTATA
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
 	end_grass_wildmons
@@ -1605,7 +1605,7 @@
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
-	wildmon 60, MAROWAK
+	wildmon 60, RATTATA
 	; day
 	wildmon 55, RATTATA
 	wildmon 58, NIDORINA
@@ -1613,7 +1613,7 @@
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
-	wildmon 60, MAROWAK
+	wildmon 60, RATTATA
 	; nite
 	wildmon 55, RATTATA
 	wildmon 58, NIDORINO
@@ -1621,7 +1621,7 @@
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
-	wildmon 60, MAROWAK
+	wildmon 60, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_1F

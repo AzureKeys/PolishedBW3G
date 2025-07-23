@@ -63,8 +63,6 @@ AnimationExtraPointers:
 	dw OnixAnimationExtra
 	dw ExeggcuteAnimationExtra
 	dw ExeggutorPlainAnimationExtra
-	dw CuboneAnimationExtra
-	dw MarowakPlainAnimationExtra
 	dw LickitungAnimationExtra
 	dw KoffingAnimationExtra
 	dw WeezingPlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw MaractusAnimationExtra
 	dw DwebbleAnimationExtra
 	dw CrustleAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ScraggyAnimationExtra
 	dw ScraftyAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw SigilyphAnimationExtra
 	dw YamaskPlainAnimationExtra
 	dw CofagrigusAnimationExtra
@@ -296,6 +294,9 @@ AnimationExtraPointers:
 	dw KlinkAnimationExtra
 	dw KlangAnimationExtra
 	dw KlinklangAnimationExtra
+	dw TynamoAnimationExtra
+	dw EelektrikAnimationExtra
+	dw EelektrossAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
@@ -382,7 +383,6 @@ AnimationExtraPointers:
 	dw GrimerAlolanAnimationExtra
 	dw MukAlolanAnimationExtra
 	dw ExeggutorAlolanAnimationExtra
-	dw MarowakAlolanAnimationExtra
 
 	dw MeowthGalarianAnimationExtra
 	dw PonytaGalarianAnimationExtra

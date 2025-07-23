@@ -63,8 +63,6 @@ EvolutionMoves::
 	db NO_MOVE      ; ONIX
 	db NO_MOVE      ; EXEGGCUTE
 	db STOMP        ; EXEGGUTOR
-	db NO_MOVE      ; CUBONE
-	db SWORDS_DANCE ; MAROWAK
 	db NO_MOVE      ; LICKITUNG
 	db NO_MOVE      ; KOFFING
 	db NO_MOVE      ; WEEZING
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; SCRAGGY
 	db NO_MOVE      ; SCRAFTY
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
@@ -300,6 +298,9 @@ endc
 	db NO_MOVE      ; KLINK
 	db NO_MOVE      ; KLANG
 	db NO_MOVE      ; KLINKLANG
+	db NO_MOVE      ; TYNAMO
+	db CRUNCH       ; EELEKTRIK
+	db THUNDERPUNCH ; EELEKTROSS
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -323,7 +324,6 @@ endc
 	db NO_MOVE      ; GRIMER, ALOLAN_FORM
 	db NO_MOVE      ; MUK, ALOLAN_FORM
 	db DRAGON_PULSE ; EXEGGUTOR, ALOLAN_FORM
-	db SWORDS_DANCE ; MAROWAK, ALOLAN_FORM
 
 	db NO_MOVE      ; MEOWTH, GALARIAN_FORM
 	db NO_MOVE      ; PONYTA, GALARIAN_FORM

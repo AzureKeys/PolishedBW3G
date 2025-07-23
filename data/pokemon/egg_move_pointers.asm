@@ -63,8 +63,6 @@ EggSpeciesMovesPointers::
 	dw OnixEggSpeciesMoves              ; Onix
 	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
 	dw ExeggcuteEggSpeciesMoves         ; Exeggutor
-	dw CuboneEggSpeciesMoves            ; Cubone
-	dw CuboneEggSpeciesMoves            ; Marowak
 	dw LickitungEggSpeciesMoves         ; Lickitung
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw MaractusEggSpeciesMoves          ; Maractus
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
@@ -296,6 +294,9 @@ EggSpeciesMovesPointers::
 	dw KlinkEggSpeciesMoves             ; Klink
 	dw KlinkEggSpeciesMoves             ; Klang
 	dw KlinkEggSpeciesMoves             ; Klinklang
+	dw TynamoEggSpeciesMoves            ; Tynamo
+	dw TynamoEggSpeciesMoves            ; Eelektrik
+	dw TynamoEggSpeciesMoves            ; Eelektross
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -319,7 +320,6 @@ EggSpeciesMovesPointers::
 	dw GrimerAlolanEggSpeciesMoves      ; Grimer (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Muk (Alolan Form)
 	dw ExeggcuteEggSpeciesMoves         ; Exeggutor (Alolan Form)
-	dw CuboneEggSpeciesMoves            ; Marowak (Alolan Form)
 
 	dw MeowthGalarianEggSpeciesMoves    ; Meowth (Galarian Form)
 	dw PonytaGalarianEggSpeciesMoves    ; Ponyta (Galarian Form)

@@ -24,7 +24,6 @@ MultipleEvolutions:
 	multi_evo MAGNETON
 	multi_evo EXEGGCUTE
 	multi_evo KOFFING
-	multi_evo CUBONE
 	multi_evo SCYTHER
 	multi_evo EEVEE
 	multi_evo MIME_JR_

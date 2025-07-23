@@ -40,7 +40,6 @@ HaunterFrames:    INCLUDE "gfx/pokemon/haunter/frames.asm"
 GengarFrames:     INCLUDE "gfx/pokemon/gengar/frames.asm"
 OnixFrames:       INCLUDE "gfx/pokemon/onix/frames.asm"
 ExeggcuteFrames:  INCLUDE "gfx/pokemon/exeggcute/frames.asm"
-CuboneFrames:     INCLUDE "gfx/pokemon/cubone/frames.asm"
 LickitungFrames:  INCLUDE "gfx/pokemon/lickitung/frames.asm"
 KoffingFrames:    INCLUDE "gfx/pokemon/koffing/frames.asm"
 TangelaFrames:    INCLUDE "gfx/pokemon/tangela/frames.asm"
@@ -150,9 +149,6 @@ MukAlolanFrames: INCLUDE "gfx/pokemon/muk_alolan/frames.asm"
 
 ExeggutorPlainFrames:  INCLUDE "gfx/pokemon/exeggutor_plain/frames.asm"
 ExeggutorAlolanFrames: INCLUDE "gfx/pokemon/exeggutor_alolan/frames.asm"
-
-MarowakPlainFrames:  INCLUDE "gfx/pokemon/marowak_plain/frames.asm"
-MarowakAlolanFrames: INCLUDE "gfx/pokemon/marowak_alolan/frames.asm"
 
 PonytaPlainFrames:    INCLUDE "gfx/pokemon/ponyta_plain/frames.asm"
 PonytaGalarianFrames: INCLUDE "gfx/pokemon/ponyta_galarian/frames.asm"

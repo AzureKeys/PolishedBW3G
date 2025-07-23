@@ -176,10 +176,6 @@ SECTION "Exeggcute Pics", ROMX
 ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lz"
 ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
 
-SECTION "Cubone Pics", ROMX
-CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
-CuboneBackpic:  INCBIN "gfx/pokemon/cubone/back.2bpp.lz"
-
 SECTION "Koffing Pics", ROMX
 KoffingFrontpic: INCBIN "gfx/pokemon/koffing/front.animated.2bpp.lz"
 KoffingBackpic:  INCBIN "gfx/pokemon/koffing/back.2bpp.lz"
@@ -975,14 +971,6 @@ SECTION "ExeggutorAlolan Pics", ROMX
 ExeggutorAlolanFrontpic: INCBIN "gfx/pokemon/exeggutor_alolan/front.animated.2bpp.lz"
 ExeggutorAlolanBackpic:  INCBIN "gfx/pokemon/exeggutor_alolan/back.2bpp.lz"
 
-SECTION "MarowakPlain Pics", ROMX
-MarowakPlainFrontpic: INCBIN "gfx/pokemon/marowak_plain/front.animated.2bpp.lz"
-MarowakPlainBackpic:  INCBIN "gfx/pokemon/marowak_plain/back.2bpp.lz"
-
-SECTION "MarowakAlolan Pics", ROMX
-MarowakAlolanFrontpic: INCBIN "gfx/pokemon/marowak_alolan/front.animated.2bpp.lz"
-MarowakAlolanBackpic:  INCBIN "gfx/pokemon/marowak_alolan/back.2bpp.lz"
-
 SECTION "PonytaPlain Pics", ROMX
 PonytaPlainFrontpic: INCBIN "gfx/pokemon/ponyta_plain/front.animated.2bpp.lz"
 PonytaPlainBackpic:  INCBIN "gfx/pokemon/ponyta_plain/back.2bpp.lz"
@@ -1560,3 +1548,15 @@ KlangBackpic:  INCBIN "gfx/pokemon/klang/back.2bpp.lz"
 SECTION "Klinklang Pics", ROMX
 KlinklangFrontpic: INCBIN "gfx/pokemon/klinklang/front.animated.2bpp.lz"
 KlinklangBackpic:  INCBIN "gfx/pokemon/klinklang/back.2bpp.lz"
+
+SECTION "Tynamo Pics", ROMX
+TynamoFrontpic: INCBIN "gfx/pokemon/tynamo/front.animated.2bpp.lz"
+TynamoBackpic:  INCBIN "gfx/pokemon/tynamo/back.2bpp.lz"
+
+SECTION "Eelektrik Pics", ROMX
+EelektrikFrontpic: INCBIN "gfx/pokemon/eelektrik/front.animated.2bpp.lz"
+EelektrikBackpic:  INCBIN "gfx/pokemon/eelektrik/back.2bpp.lz"
+
+SECTION "Eelektross Pics", ROMX
+EelektrossFrontpic: INCBIN "gfx/pokemon/eelektross/front.animated.2bpp.lz"
+EelektrossBackpic:  INCBIN "gfx/pokemon/eelektross/back.2bpp.lz"

@@ -38,7 +38,6 @@ HaunterBitmasks:    INCLUDE "gfx/pokemon/haunter/bitmask.asm"
 GengarBitmasks:     INCLUDE "gfx/pokemon/gengar/bitmask.asm"
 OnixBitmasks:       INCLUDE "gfx/pokemon/onix/bitmask.asm"
 ExeggcuteBitmasks:  INCLUDE "gfx/pokemon/exeggcute/bitmask.asm"
-CuboneBitmasks:     INCLUDE "gfx/pokemon/cubone/bitmask.asm"
 LickitungBitmasks:  INCLUDE "gfx/pokemon/lickitung/bitmask.asm"
 KoffingBitmasks:    INCLUDE "gfx/pokemon/koffing/bitmask.asm"
 TangelaBitmasks:    INCLUDE "gfx/pokemon/tangela/bitmask.asm"
@@ -236,6 +235,9 @@ FerrothornBitmasks: INCLUDE "gfx/pokemon/ferrothorn/bitmask.asm"
 KlinkBitmasks:      INCLUDE "gfx/pokemon/klink/bitmask.asm"
 KlangBitmasks:      INCLUDE "gfx/pokemon/klang/bitmask.asm"
 KlinklangBitmasks:  INCLUDE "gfx/pokemon/klinklang/bitmask.asm"
+TynamoBitmasks:     INCLUDE "gfx/pokemon/tynamo/bitmask.asm"
+EelektrikBitmasks:  INCLUDE "gfx/pokemon/eelektrik/bitmask.asm"
+EelektrossBitmasks: INCLUDE "gfx/pokemon/eelektross/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -359,9 +361,6 @@ MukAlolanBitmasks: INCLUDE "gfx/pokemon/muk_alolan/bitmask.asm"
 
 ExeggutorPlainBitmasks:  INCLUDE "gfx/pokemon/exeggutor_plain/bitmask.asm"
 ExeggutorAlolanBitmasks: INCLUDE "gfx/pokemon/exeggutor_alolan/bitmask.asm"
-
-MarowakPlainBitmasks:  INCLUDE "gfx/pokemon/marowak_plain/bitmask.asm"
-MarowakAlolanBitmasks: INCLUDE "gfx/pokemon/marowak_alolan/bitmask.asm"
 
 PonytaPlainBitmasks:    INCLUDE "gfx/pokemon/ponyta_plain/bitmask.asm"
 PonytaGalarianBitmasks: INCLUDE "gfx/pokemon/ponyta_galarian/bitmask.asm"

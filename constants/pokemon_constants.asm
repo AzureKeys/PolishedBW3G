@@ -87,8 +87,6 @@
 	const ONIX       ; 32
 	const EXEGGCUTE  ; 33
 	const EXEGGUTOR  ; 34
-	const CUBONE     ; xx
-	const MAROWAK    ; xx
 	const LICKITUNG  ; 35
 	const KOFFING    ; 36
 	const WEEZING    ; 37
@@ -278,10 +276,10 @@
 	const MARACTUS   ; 131
 	const DWEBBLE    ; 132
 	const CRUSTLE    ; 133
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SIGILYPH   ; 136
 	const YAMASK     ; 137
 	const COFAGRIGUS ; 138
@@ -320,6 +318,9 @@
 	const KLINK      ; 15c
 	const KLANG      ; 15d
 	const KLINKLANG  ; 15e
+	const TYNAMO     ; 15f
+	const EELEKTRIK  ; 160
+	const EELEKTROSS ; 161
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -461,7 +462,6 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 16d grimer
 	const_skip ; 16e muk
 	const_skip ; 16f exeggutor
-	const_skip ; 170 marowak
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3

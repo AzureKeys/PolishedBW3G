@@ -1536,64 +1536,6 @@ endc
 	learnset 37, POWER_WHIP ; Wood Hammer → new move
 	learnset 47, OUTRAGE ; Leaf Storm → S/M TM move
 
-	evos_attacks Cubone
-	evo_data EVOLVE_LEVEL, 28, MAROWAK, PLAIN_FORM
-	evo_data EVOLVE_ITEM, ODD_SOUVENIR, MAROWAK, ALOLAN_FORM
-	learnset 1, GROWL
-	learnset 3, TACKLE ; Tail Whip → new move
-	learnset 7, MUD_SLAP ; Bone Club → TM move
-	learnset 11, HEADBUTT
-	learnset 13, LEER
-	learnset 17, FOCUS_ENERGY
-	learnset 21, BONEMERANG
-	learnset 23, RAGE
-	learnset 27, LOW_KICK ; False Swipe → HGSS tutor move
-	learnset 31, FALSE_SWIPE ; Thrash → False Swipe
-	learnset 33, THRASH ; Fling → Thrash
-	learnset 37, MAGNITUDE ; Stomping Tantrum → new move
-	learnset 41, ROCK_SMASH ; Endeavor → TM move
-	learnset 43, DOUBLE_EDGE
-	learnset 47, REVERSAL ; Retaliate → new move
-	learnset 51, OUTRAGE ; Bone Rush → HGSS tutor move
-
-	evos_attacks MarowakPlain
-	learnset 1, SWORDS_DANCE ; evolution move
-	learnset 1, GROWL
-	learnset 3, TACKLE ; Tail Whip → new move
-	learnset 7, MUD_SLAP ; Bone Club → TM move
-	learnset 11, HEADBUTT
-	learnset 13, LEER
-	learnset 17, FOCUS_ENERGY
-	learnset 21, BONEMERANG
-	learnset 23, RAGE
-	learnset 27, LOW_KICK ; False Swipe → HGSS tutor move
-	learnset 33, THRASH
-	learnset 37, KNOCK_OFF ; Fling → TM move
-	learnset 43, MAGNITUDE ; Stomping Tantrum → new move
-	learnset 49, ROCK_SMASH ; Endeavor → TM move
-	learnset 53, DOUBLE_EDGE
-	learnset 59, REVERSAL ; Retaliate → new move
-	learnset 65, OUTRAGE ; Bone Rush → HGSS tutor move
-
-	evos_attacks MarowakAlolan
-	learnset 1, SWORDS_DANCE ; evolution move
-	learnset 1, GROWL
-	learnset 3, TACKLE ; Tail Whip → new move
-	learnset 7, ASTONISH ; Bone Club → new move
-	learnset 11, FIRE_SPIN ; Flame Wheel → LGPE move
-	learnset 13, LEER
-	learnset 17, HEX
-	learnset 21, BONEMERANG
-	learnset 23, WILL_O_WISP
-	learnset 27, SHADOW_CLAW ; Shadow Bone → similar move
-	learnset 33, THRASH
-	learnset 37, KNOCK_OFF ; Fling → TM move
-	learnset 43, ACROBATICS ; Stomping Tantrum → new move
-	learnset 49, ROCK_SMASH ; Endeavor → TM move
-	learnset 53, FLARE_BLITZ
-	learnset 59, PAIN_SPLIT ; Retaliate → S/M tutor move
-	learnset 65, OUTRAGE ; Bone Rush → HGSS tutor move
-
 	evos_attacks Lickitung
 	evo_data EVOLVE_MOVE, ROLLOUT, LICKILICKY
 	learnset 1, LICK
@@ -6054,6 +5996,41 @@ endc
 	;learnset 60, LOCK_ON
 	learnset 66, ZAP_CANNON
 	learnset 72, HYPER_BEAM
+	
+	evos_attacks Tynamo
+	evo_data EVOLVE_LEVEL, 39, EELEKTRIK
+	learnset 1, TACKLE
+	learnset 1, THUNDER_WAVE
+	learnset 1, SPARK
+	learnset 1, ACID ; Charge Beam
+	learnset 9, WRAP ; Bind
+	;learnset 29, THUNDER_FANG
+
+	evos_attacks Eelektrik
+	evo_data EVOLVE_ITEM, THUNDERSTONE, EELEKTROSS
+	learnset 1, HEADBUTT
+	learnset 1, THUNDER_WAVE
+	learnset 1, SPARK
+	learnset 9, WRAP ; Bind
+	learnset 19, ACID
+	;learnset 29, THUNDER_FANG ; Added from Tynamo's moves
+	;learnset 29, DISCHARGE
+	learnset 38, CRUNCH
+	learnset 44, THUNDERBOLT
+	learnset 49, GUNK_SHOT ; Acid Spray
+	learnset 54, GLARE ; Coil
+	learnset 59, WILD_CHARGE
+	; Skipped Gastro Acid
+	learnset 64, ZAP_CANNON
+
+	evos_attacks Eelektross
+	learnset 1, CRUNCH
+	learnset 1, ZAP_CANNON
+	learnset 1, GLARE ; Coil
+	learnset 1, SLASH ; Crush Claw
+	learnset 1, HEADBUTT
+	learnset 1, ACID
+	;learnset 1, DISCHARGE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

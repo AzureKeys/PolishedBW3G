@@ -109,6 +109,9 @@ FerrothornFootprint::
 KlinkFootprint::
 KlangFootprint::
 KlinklangFootprint::
+TynamoFootprint::
+EelektrikFootprint::
+EelektrossFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -201,8 +204,6 @@ MagnemiteFootprint:: INCBIN "gfx/footprints/magnemite.1bpp.lz"
 MagnetonFootprint:: INCBIN "gfx/footprints/magneton.1bpp.lz"
 GengarFootprint:: INCBIN "gfx/footprints/gengar.1bpp.lz"
 ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lz"
-CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lz"
-MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lz"
 LickitungFootprint:: INCBIN "gfx/footprints/lickitung.1bpp.lz"
 TangelaFootprint:: INCBIN "gfx/footprints/tangela.1bpp.lz"
 KangaskhanFootprint:: INCBIN "gfx/footprints/kangaskhan.1bpp.lz"

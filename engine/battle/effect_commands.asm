@@ -1369,8 +1369,6 @@ ENDM
 .ValidBattleItemTable:
 	species_battle_item LIGHT_BALL, PIKACHU
 	species_battle_item QUICK_POWDER, DITTO
-	species_battle_item THICK_CLUB, CUBONE
-	species_battle_item THICK_CLUB, MAROWAK
 	db -1
 
 OpponentCanLoseItem:

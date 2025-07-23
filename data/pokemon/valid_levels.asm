@@ -64,8 +64,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1, 100 ; Onix
 	db   1,  29 ; Exeggcute
 	db  30, 100 ; Exeggutor
-	db   1,  27 ; Cubone
-	db  28, 100 ; Marowak
 	db  10, 100 ; Lickitung
 	db   1,  34 ; Koffing
 	db  35, 100 ; Weezing
@@ -259,10 +257,10 @@ endc
 	db  15, 100 ; Maractus
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  20, 100 ; Sigilyph
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
@@ -301,4 +299,7 @@ endc
 	db   1,  37 ; Klink
 	db  38,  48 ; Klang
 	db  49, 100 ; Klinklang
+	db   1,  38 ; Tynamo
+	db  39,  49 ; Eelektrik
+	db  50, 100 ; Eelektross
 	assert_table_length NUM_SPECIES

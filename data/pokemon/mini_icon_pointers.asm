@@ -67,8 +67,6 @@ MiniIconPointers:
 	mini_icon Onix
 	mini_icon Exeggcute
 	mini_icon Exeggutor
-	mini_icon Cubone
-	mini_icon Marowak
 	mini_icon Lickitung
 	mini_icon Koffing
 	mini_icon Weezing
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Maractus
 	mini_icon Dwebble
 	mini_icon Crustle
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Scraggy
 	mini_icon Scrafty
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Sigilyph
 	mini_icon Yamask
 	mini_icon Cofagrigus
@@ -300,6 +298,9 @@ MiniIconPointers:
 	mini_icon Klink
 	mini_icon Klang
 	mini_icon Klinklang
+	mini_icon Tynamo
+	mini_icon Eelektrik
+	mini_icon Eelektross
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -370,7 +371,6 @@ endr
 	mini_icon GrimerAlolan
 	mini_icon MukAlolan
 	mini_icon ExeggutorAlolan
-	mini_icon MarowakAlolan
 
 	mini_icon MeowthGalarian
 	mini_icon PonytaGalarian

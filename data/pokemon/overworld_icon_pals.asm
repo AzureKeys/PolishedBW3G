@@ -67,8 +67,6 @@ OverworldMonIconColors::
 	iconpal GRAY, AZURE ; ONIX
 	iconpal PINK, TEAL ; EXEGGCUTE
 	iconpal BROWN, TEAL ; EXEGGUTOR
-	iconpal BROWN, TEAL ; CUBONE
-	iconpal BROWN, TEAL ; MAROWAK
 	iconpal PINK, BROWN ; LICKITUNG
 	iconpal PURPLE, AZURE ; KOFFING
 	iconpal PURPLE, AZURE ; WEEZING
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; MARACTUS
 	iconpal ORANGE, RED ; DWEBBLE
 	iconpal ORANGE, GREEN ; CRUSTLE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal YELLOW, GREEN ; SIGILYPH
 	iconpal YELLOW, GRAY ; YAMASK
 	iconpal YELLOW, GRAY ; COFAGRIGUS
@@ -300,6 +298,9 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; KLINK
 	iconpal GRAY, BROWN ; KLANG
 	iconpal GRAY, BROWN ; KLINKLANG
+	iconpal WHITE, AZURE ; TYNAMO
+	iconpal BLUE, AZURE ; EELEKTRIK
+	iconpal BLUE, TEAL ; EELEKTROSS
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -343,7 +344,6 @@ endr
 	iconpal GREEN, PURPLE ; GRIMER, ALOLAN_FORM
 	iconpal GREEN, PURPLE ; MUK, ALOLAN_FORM
 	iconpal GREEN, RED ; EXEGGUTOR, ALOLAN_FORM
-	iconpal BROWN, PURPLE ; MAROWAK, ALOLAN_FORM
 
 	iconpal GRAY, BROWN ; MEOWTH, GALARIAN_FORM
 	iconpal WHITE, PURPLE ; PONYTA, GALARIAN_FORM

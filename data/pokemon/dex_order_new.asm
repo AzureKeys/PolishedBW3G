@@ -100,6 +100,9 @@ NewPokedexOrder:
 	dp KLINK
 	dp KLANG
 	dp KLINKLANG
+	dp TYNAMO
+	dp EELEKTRIK
+	dp EELEKTROSS
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -255,8 +258,6 @@ NewPokedexOrder:
 	dp SKARMORY
 	dp PONYTA
 	dp RAPIDASH
-	dp CUBONE
-	dp MAROWAK
 	dp KANGASKHAN
 	dp MURKROW
 	dp HONCHKROW

@@ -63,8 +63,6 @@ FramesPointers:
 	dw OnixFrames
 	dw ExeggcuteFrames
 	dw ExeggutorPlainFrames
-	dw CuboneFrames
-	dw MarowakPlainFrames
 	dw LickitungFrames
 	dw KoffingFrames
 	dw WeezingPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw MaractusFrames
 	dw DwebbleFrames
 	dw CrustleFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ScraggyFrames
 	dw ScraftyFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SigilyphFrames
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
@@ -296,6 +294,9 @@ FramesPointers:
 	dw KlinkFrames
 	dw KlangFrames
 	dw KlinklangFrames
+	dw TynamoFrames
+	dw EelektrikFrames
+	dw EelektrossFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -382,7 +383,6 @@ FramesPointers:
 	dw GrimerAlolanFrames
 	dw MukAlolanFrames
 	dw ExeggutorAlolanFrames
-	dw MarowakAlolanFrames
 
 	dw MeowthGalarianFrames
 	dw PonytaGalarianFrames
