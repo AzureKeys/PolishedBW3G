@@ -1248,5 +1248,14 @@ ShelmetEggSpeciesMoves:
 	db PURSUIT
 	db $ff
 
+StunfiskPlainEggSpeciesMoves:
+	dp STUNFISK, PLAIN_FORM
+	db CURSE
+	db EARTH_POWER
+	db PAIN_SPLIT
+	;db SHOCK_WAVE
+	db SPARK
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

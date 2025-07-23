@@ -114,6 +114,7 @@ NewPokedexOrder:
 	dp CRYOGONAL
 	dp SHELMET
 	dp ACCELGOR
+	dp STUNFISK
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

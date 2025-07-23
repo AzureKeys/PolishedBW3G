@@ -444,3 +444,5 @@ SawsbuckSpringAnimationExtra: INCLUDE "gfx/pokemon/sawsbuck_spring/anim_idle.asm
 FrillishMaleAnimationExtra:   INCLUDE "gfx/pokemon/frillish_male/anim_idle.asm"
 
 JellicentMaleAnimationExtra:   INCLUDE "gfx/pokemon/jellicent_male/anim_idle.asm"
+
+StunfiskPlainAnimationExtra: INCLUDE "gfx/pokemon/stunfisk_plain/anim_idle.asm"

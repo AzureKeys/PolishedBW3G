@@ -6047,6 +6047,23 @@ endc
 	learnset 49, RECOVER
 	learnset 50, CALM_MIND ; Power Swap
 	learnset 56, AURA_SPHERE ; Final Gambit
+	
+	evos_attacks StunfiskPlain
+	learnset 1, TACKLE
+	learnset 1, WATER_GUN
+	learnset 5, MUD_SLAP ; Bide
+	learnset 9, THUNDERSHOCK
+	;learnset 13, MUD_SHOT
+	learnset 17, MINIMIZE ; Camouflage
+	learnset 21, MAGNITUDE ; Mud Bomb
+	;learnset 25, DISCHARGE
+	learnset 30, ENDURE
+	learnset 35, ACROBATICS ; Bounce
+	learnset 40, EARTH_POWER ; Muddy Water
+	learnset 45, THUNDERBOLT
+	learnset 50, COUNTER ; Revenge
+	learnset 55, REVERSAL ; Flail
+	learnset 61, EARTHQUAKE ; Fissure
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

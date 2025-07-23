@@ -304,6 +304,7 @@ FootprintPointers::
 	dw CryogonalFootprint
 	dw ShelmetFootprint
 	dw AccelgorFootprint
+	dw StunfiskFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

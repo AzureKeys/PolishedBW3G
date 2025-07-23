@@ -308,6 +308,7 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; CRYOGONAL
 	iconpal GRAY, BROWN ; SHELMET
 	iconpal BLUE, YELLOW ; ACCELGOR
+	iconpal BROWN, BLUE ; STUNFISK
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

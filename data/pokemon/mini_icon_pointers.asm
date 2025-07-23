@@ -308,6 +308,7 @@ MiniIconPointers:
 	mini_icon Cryogonal
 	mini_icon Shelmet
 	mini_icon Accelgor
+	mini_icon Stunfisk
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

@@ -3007,6 +3007,16 @@ AccelgorPokedexEntry::
 	next "fight with ninja-"
 	next "like movements.@"
 
+SECTION "StunfiskPlainPokedexEntry", ROMX
+StunfiskPlainPokedexEntry::
+	db "Trap@"
+	db "It conceals itself"
+	next "in the mud of the"
+	next "seashore, then it"
+	page "waits. When prey"
+	next "touch it, it uses"
+	next "electric shocks.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

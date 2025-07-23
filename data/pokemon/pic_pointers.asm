@@ -308,6 +308,7 @@ PokemonPicPointers::
 	pics Cryogonal
 	pics Shelmet
 	pics Accelgor
+	pics StunfiskPlain
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

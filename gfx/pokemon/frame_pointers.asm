@@ -304,6 +304,7 @@ FramesPointers:
 	dw CryogonalFrames
 	dw ShelmetFrames
 	dw AccelgorFrames
+	dw StunfiskPlainFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

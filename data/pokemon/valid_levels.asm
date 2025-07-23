@@ -309,4 +309,5 @@ endc
 	db  30, 100 ; Cryogonal
 	db   1,  29 ; Shelmet
 	db  30, 100 ; Accelgor
+	db  20, 100 ; Stunfisk
 	assert_table_length NUM_SPECIES

@@ -304,6 +304,7 @@ AnimationExtraPointers:
 	dw CryogonalAnimationExtra
 	dw ShelmetAnimationExtra
 	dw AccelgorAnimationExtra
+	dw StunfiskPlainAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

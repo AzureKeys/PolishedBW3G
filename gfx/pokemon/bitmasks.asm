@@ -444,3 +444,5 @@ SawsbuckSpringBitmasks: INCLUDE "gfx/pokemon/sawsbuck_spring/bitmask.asm"
 FrillishMaleBitmasks:   INCLUDE "gfx/pokemon/frillish_male/bitmask.asm"
 
 JellicentMaleBitmasks:   INCLUDE "gfx/pokemon/jellicent_male/bitmask.asm"
+
+StunfiskPlainBitmasks: INCLUDE "gfx/pokemon/stunfisk_plain/bitmask.asm"

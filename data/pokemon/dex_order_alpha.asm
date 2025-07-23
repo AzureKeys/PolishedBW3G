@@ -250,6 +250,7 @@ AlphabeticalPokedexOrder:
 	dp STARYU
 	dp STEELIX
 	dp STOUTLAND
+	dp STUNFISK
 	dp SUDOWOODO
 	dp SUICUNE
 	dp SUNFLORA

@@ -1522,6 +1522,11 @@ AccelgorMini::     INCBIN "gfx/minis/accelgor.2bpp.lz"
 AccelgorMiniMask:: INCBIN "gfx/minis/accelgor_mask.1bpp.lz"
 AccelgorIcon::     INCBIN "gfx/icons/accelgor.2bpp.lz"
 
+SECTION "Stunfisk Mini Icon", ROMX
+StunfiskMini::     INCBIN "gfx/minis/stunfisk.2bpp.lz"
+StunfiskMiniMask:: INCBIN "gfx/minis/stunfisk_mask.1bpp.lz"
+StunfiskIcon::     INCBIN "gfx/icons/stunfisk.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

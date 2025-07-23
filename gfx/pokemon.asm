@@ -1564,3 +1564,7 @@ ShelmetBackpic:  INCBIN "gfx/pokemon/shelmet/back.2bpp.lz"
 SECTION "Accelgor Pics", ROMX
 AccelgorFrontpic: INCBIN "gfx/pokemon/accelgor/front.animated.2bpp.lz"
 AccelgorBackpic:  INCBIN "gfx/pokemon/accelgor/back.2bpp.lz"
+
+SECTION "StunfiskPlain Pics", ROMX
+StunfiskPlainFrontpic: INCBIN "gfx/pokemon/stunfisk_plain/front.animated.2bpp.lz"
+StunfiskPlainBackpic:  INCBIN "gfx/pokemon/stunfisk_plain/back.2bpp.lz"

@@ -123,6 +123,7 @@ BearticFootprint::
 CryogonalFootprint::
 ShelmetFootprint::
 AccelgorFootprint::
+StunfiskFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
