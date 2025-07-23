@@ -81,7 +81,6 @@ EvosAttacksPointers::
 	dw ElectabuzzEvosAttacks
 	dw MagmarEvosAttacks
 	dw PinsirEvosAttacks
-	dw TaurosPlainEvosAttacks
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks
 	dw LaprasEvosAttacks
@@ -258,9 +257,9 @@ EvosAttacksPointers::
 	dw CrustleEvosAttacks
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
+	dw SigilyphEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
-	dw SigilyphEvosAttacks
 	dw YamaskPlainEvosAttacks
 	dw CofagrigusEvosAttacks
 	dw TirtougaEvosAttacks
@@ -307,6 +306,8 @@ EvosAttacksPointers::
 	dw AxewEvosAttacks
 	dw FraxureEvosAttacks
 	dw HaxorusEvosAttacks
+	dw CubchooEvosAttacks
+	dw BearticEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -351,9 +352,6 @@ EvosAttacksPointers::
 	dw SneaselHisuianEvosAttacks
 
 	dw WooperPaldeanEvosAttacks
-	dw TaurosPaldeanEvosAttacks
-	dw TaurosPaldeanFireEvosAttacks
-	dw TaurosPaldeanWaterEvosAttacks
 
 	dw UrsalunaBloodmoonEvosAttacks
 	

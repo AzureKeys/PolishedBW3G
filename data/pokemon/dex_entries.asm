@@ -776,16 +776,6 @@ PinsirPokedexEntry::
 	next "among roots where"
 	next "it is well hidden.@"
 
-SECTION "TaurosPlainPokedexEntry", ROMX
-TaurosPlainPokedexEntry::
-	db "Wild Bull@"
-	db   "These violent"
-	next "#mon fight with"
-	next "other members"
-	page "of their herd in"
-	next "order to prove"
-	next "their strength.@"
-
 SECTION "MagikarpPokedexEntry", ROMX
 MagikarpPokedexEntry::
 	db "Fish@"
@@ -2997,6 +2987,26 @@ HaxorusPokedexEntry::
 	next "#mon are cased"
 	next "in hard armor.@"
 
+SECTION "CubchooPokedexEntry", ROMX
+CubchooPokedexEntry::
+	db "Chill@"
+	db "Its nose is"
+	next "always running."
+	next "The mucus provides"
+	page "the raw material"
+	next "for its ice type"
+	next "powers.@"
+
+SECTION "BearticPokedexEntry", ROMX
+BearticPokedexEntry::
+	db "Freezing@"
+	db "It freezes its"
+	next "breath to create"
+	next "fangs and claws"
+	page "of ice to fight"
+	next "with. It lives"
+	next "in cold areas.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -3349,36 +3359,6 @@ WooperPaldeanPokedexEntry::
 	page "other as they walk"
 	next "across the danger-"
 	next "ous wetlands.@"
-
-SECTION "TaurosPaldeanPokedexEntry", ROMX
-TaurosPaldeanPokedexEntry::
-	db "Wild Bull@"
-	db   "The “Combat Breed”"
-	next "fights in close"
-	next "quarters. It uses"
-	page "its short horns"
-	next "to strike the"
-	next "foe's weak spots.@"
-
-SECTION "TaurosPaldeanFirePokedexEntry", ROMX
-TaurosPaldeanFirePokedexEntry::
-	db "Wild Bull@"
-	db   "The “Blaze Breed's”"
-	next "horns can reach"
-	next "over 1800 degrees."
-	page "Those gored by"
-	next "them will suffer"
-	next "wounds and burns.@"
-
-SECTION "TaurosPaldeanWaterPokedexEntry", ROMX
-TaurosPaldeanWaterPokedexEntry::
-	db "Wild Bull@"
-	db   "The “Aqua Breed”"
-	next "swims by jetting"
-	next "water from its"
-	page "horns. Its high"
-	next "body fat allows it"
-	next "to float easily.@"
 
 SECTION "UrsalunaBloodmoonPokedexEntry", ROMX
 UrsalunaBloodmoonPokedexEntry::

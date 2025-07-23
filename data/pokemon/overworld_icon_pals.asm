@@ -81,7 +81,6 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; ELECTABUZZ
 	iconpal RED, BROWN ; MAGMAR
 	iconpal BROWN, BLUE ; PINSIR
-	iconpal BROWN, RED ; TAUROS
 	iconpal ORANGE, BROWN ; MAGIKARP
 	iconpal BLUE, BROWN ; GYARADOS
 	iconpal BLUE, RED ; LAPRAS
@@ -258,9 +257,9 @@ OverworldMonIconColors::
 	iconpal ORANGE, GREEN ; CRUSTLE
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
+	iconpal YELLOW, GREEN ; SIGILYPH
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal YELLOW, GREEN ; SIGILYPH
 	iconpal YELLOW, GRAY ; YAMASK
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
@@ -307,6 +306,8 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; AXEW
 	iconpal GREEN, YELLOW ; FRAXURE
 	iconpal YELLOW, BLACK ; HAXORUS
+	iconpal AZURE, PINK ; CUBCHOO
+	iconpal AZURE, BLUE ; BEARTIC
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -371,9 +372,6 @@ endr
 	iconpal PURPLE, BROWN ; SNEASEL, HISUIAN_FORM
 
 	iconpal BROWN, AZURE ; WOOPER, PALDEAN_FORM
-	iconpal BLACK, BROWN ; TAUROS, PALDEAN_FORM
-	iconpal RED, PURPLE ; TAUROS, TAUROS_PALDEAN_FIRE_FORM
-	iconpal BLUE, GREEN ; TAUROS, TAUROS_PALDEAN_WATER_FORM
 
 	iconpal RED, RED ; URSALUNA, URSALUNA_BLOODMOON_FORM
 

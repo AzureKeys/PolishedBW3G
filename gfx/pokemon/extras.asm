@@ -244,6 +244,8 @@ ChandelureAnimationExtra: INCLUDE "gfx/pokemon/chandelure/anim_idle.asm"
 AxewAnimationExtra:       INCLUDE "gfx/pokemon/axew/anim_idle.asm"
 FraxureAnimationExtra:    INCLUDE "gfx/pokemon/fraxure/anim_idle.asm"
 HaxorusAnimationExtra:    INCLUDE "gfx/pokemon/haxorus/anim_idle.asm"
+CubchooAnimationExtra:    INCLUDE "gfx/pokemon/cubchoo/anim_idle.asm"
+BearticAnimationExtra:    INCLUDE "gfx/pokemon/beartic/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -418,11 +420,6 @@ SneaselHisuianAnimationExtra: INCLUDE "gfx/pokemon/sneasel_hisuian/anim_idle.asm
 
 WooperPlainAnimationExtra:   INCLUDE "gfx/pokemon/wooper_plain/anim_idle.asm"
 WooperPaldeanAnimationExtra: INCLUDE "gfx/pokemon/wooper_paldean/anim_idle.asm"
-
-TaurosPlainAnimationExtra:        INCLUDE "gfx/pokemon/tauros_plain/anim_idle.asm"
-TaurosPaldeanAnimationExtra:      INCLUDE "gfx/pokemon/tauros_paldean/anim_idle.asm"
-TaurosPaldeanFireAnimationExtra:  INCLUDE "gfx/pokemon/tauros_paldean_fire/anim_idle.asm"
-TaurosPaldeanWaterAnimationExtra: INCLUDE "gfx/pokemon/tauros_paldean_water/anim_idle.asm"
 
 UrsalunaPlainAnimationExtra:     INCLUDE "gfx/pokemon/ursaluna_plain/anim_idle.asm"
 UrsalunaBloodmoonAnimationExtra: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim_idle.asm"

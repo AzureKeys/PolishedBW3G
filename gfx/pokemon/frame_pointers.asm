@@ -77,7 +77,6 @@ FramesPointers:
 	dw ElectabuzzFrames
 	dw MagmarFrames
 	dw PinsirFrames
-	dw TaurosPlainFrames
 	dw MagikarpPlainFrames
 	dw GyaradosPlainFrames
 	dw LaprasFrames
@@ -254,9 +253,9 @@ FramesPointers:
 	dw CrustleFrames
 	dw ScraggyFrames
 	dw ScraftyFrames
+	dw SigilyphFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw SigilyphFrames
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
 	dw TirtougaFrames
@@ -303,6 +302,8 @@ FramesPointers:
 	dw AxewFrames
 	dw FraxureFrames
 	dw HaxorusFrames
+	dw CubchooFrames
+	dw BearticFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -410,9 +411,6 @@ FramesPointers:
 	dw SneaselHisuianFrames
 
 	dw WooperPaldeanFrames
-	dw TaurosPaldeanFrames
-	dw TaurosPaldeanFireFrames
-	dw TaurosPaldeanWaterFrames
 
 	dw UrsalunaBloodmoonFrames
 	

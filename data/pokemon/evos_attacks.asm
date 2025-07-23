@@ -1794,78 +1794,6 @@ endc
 	learnset 47, CLOSE_COMBAT ; Superpower → similar move
 	learnset 50, MEGAHORN ; Guillotine → new move
 
-	evos_attacks TaurosPlain
-	learnset 1, TACKLE
-	learnset 3, LEER ; Tail Whip → similar move
-	learnset 5, RAGE
-	learnset 8, HORN_ATTACK
-	learnset 11, SCARY_FACE
-	learnset 15, PURSUIT
-	learnset 19, REST
-	learnset 24, QUICK_ATTACK ; Payback → event move
-	learnset 29, FOCUS_ENERGY ; Work Up → LGPE move
-	learnset 35, TAKE_DOWN
-	learnset 41, ZEN_HEADBUTT
-	learnset 48, SWAGGER
-	learnset 55, THRASH
-	learnset 63, DOUBLE_EDGE
-	learnset 71, GIGA_IMPACT
-	learnset 80, OUTRAGE ; HGSS tutor move
-
-	evos_attacks TaurosPaldean
-	learnset 1, TACKLE
-	learnset 3, LEER ; Tail Whip → similar move
-	learnset 5, RAGE
-	learnset 8, HEADBUTT
-	learnset 11, SCARY_FACE
-	learnset 15, PURSUIT
-	learnset 19, REST
-	learnset 24, DOUBLE_KICK
-	learnset 29, FOCUS_ENERGY ; Work Up → LGPE move
-	learnset 35, TAKE_DOWN
-	learnset 41, ZEN_HEADBUTT
-	learnset 48, SWAGGER
-	learnset 55, THRASH
-	learnset 63, DOUBLE_EDGE
-	learnset 71, CLOSE_COMBAT
-	learnset 80, OUTRAGE ; HGSS tutor move
-
-	evos_attacks TaurosPaldeanFire
-	learnset 1, TACKLE
-	learnset 3, LEER ; Tail Whip → similar move
-	learnset 5, RAGE
-	learnset 8, HEADBUTT
-	learnset 11, SCARY_FACE
-	learnset 15, FLAME_CHARGE
-	learnset 19, REST
-	learnset 24, DOUBLE_KICK
-	learnset 29, FOCUS_ENERGY ; Work Up → LGPE move
-	learnset 35, TAKE_DOWN
-	learnset 41, ZEN_HEADBUTT
-	learnset 48, SWAGGER
-	learnset 55, THRASH
-	learnset 63, FLARE_BLITZ
-	learnset 71, CLOSE_COMBAT
-	learnset 80, OUTRAGE ; HGSS tutor move
-
-	evos_attacks TaurosPaldeanWater
-	learnset 1, TACKLE
-	learnset 3, LEER ; Tail Whip → similar move
-	learnset 5, RAGE
-	learnset 8, HEADBUTT
-	learnset 11, SCARY_FACE
-	learnset 15, AQUA_JET
-	learnset 19, REST
-	learnset 24, DOUBLE_KICK
-	learnset 29, FOCUS_ENERGY ; Work Up → LGPE move
-	learnset 35, TAKE_DOWN
-	learnset 41, ZEN_HEADBUTT
-	learnset 48, SWAGGER
-	learnset 55, THRASH
-	learnset 63, AQUA_TAIL ; Wave Crash → tutor move
-	learnset 71, CLOSE_COMBAT
-	learnset 80, OUTRAGE ; HGSS tutor move
-
 	evos_attacks Magikarp
 	evo_data EVOLVE_LEVEL, 20, GYARADOS, NO_FORM ; preserve pre-evo form
 	learnset 1, SPLASH
@@ -6135,6 +6063,47 @@ endc
 	learnset 58, BELLY_DRUM ; Guillotine
 	learnset 66, OUTRAGE
 	learnset 74, GIGA_IMPACT
+	
+	evos_attacks Cubchoo
+	evo_data EVOLVE_LEVEL, 37, BEARTIC
+	learnset 1, GROWL
+	;learnset 5, POWDER_SNOW
+	learnset 9, DEFENSE_CURL ; Bide
+	learnset 13, ICY_WIND
+	learnset 17, FURY_STRIKES ; Fury Swipes
+	learnset 21, ICE_PUNCH ; Brine
+	learnset 25, ENDURE
+	learnset 29, CHARM
+	learnset 33, SLASH
+	learnset 36, REVERSAL ; Flail
+	learnset 41, REST
+	learnset 45, BLIZZARD
+	learnset 49, HAIL
+	learnset 53, THRASH
+	
+	evos_attacks Beartic
+	learnset 1, ICICLE_CRASH
+	learnset 1, THRASH
+	learnset 1, CLOSE_COMBAT ; Superpower
+	learnset 1, AQUA_JET
+	learnset 1, GROWL
+	;learnset 1, POWDER_SNOW
+	learnset 1, DEFENSE_CURL ; Bide
+	learnset 1, ICY_WIND
+	;learnset 5, POWDER_SNOW
+	learnset 9, DEFENSE_CURL ; Bide
+	learnset 13, ICY_WIND
+	learnset 17, FURY_STRIKES ; Fury Swipes
+	learnset 21, ICE_PUNCH ; Brine
+	learnset 25, ENDURE
+	learnset 29, CHARM
+	learnset 33, SLASH
+	learnset 36, REVERSAL ; Flail
+	learnset 36, ICICLE_CRASH
+	learnset 41, REST
+	learnset 45, BLIZZARD
+	learnset 53, HAIL
+	learnset 59, THRASH
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

@@ -78,7 +78,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20,  46 ; Electabuzz
 	db  20,  46 ; Magmar
 	db  10, 100 ; Pinsir
-	db  20, 100 ; Tauros
 	db   1,  19 ; Magikarp
 	db  20, 100 ; Gyarados
 	db  20, 100 ; Lapras
@@ -259,9 +258,9 @@ endc
 	db  34, 100 ; Crustle
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
+	db  20, 100 ; Sigilyph
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
-	db  20, 100 ; Sigilyph
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
@@ -308,4 +307,6 @@ endc
 	db   1,  37 ; Axew
 	db  38,  47 ; Fraxure
 	db  48, 100 ; Haxorus
+	db   1,  36 ; Cubchoo
+	db  37, 100 ; Beartic
 	assert_table_length NUM_SPECIES

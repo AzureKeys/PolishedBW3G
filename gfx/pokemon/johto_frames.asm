@@ -183,6 +183,8 @@ ChandelureFrames: INCLUDE "gfx/pokemon/chandelure/frames.asm"
 AxewFrames:       INCLUDE "gfx/pokemon/axew/frames.asm"
 FraxureFrames:    INCLUDE "gfx/pokemon/fraxure/frames.asm"
 HaxorusFrames:    INCLUDE "gfx/pokemon/haxorus/frames.asm"
+CubchooFrames:    INCLUDE "gfx/pokemon/cubchoo/frames.asm"
+BearticFrames:    INCLUDE "gfx/pokemon/beartic/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

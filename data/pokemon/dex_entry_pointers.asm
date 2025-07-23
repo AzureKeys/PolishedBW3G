@@ -78,7 +78,6 @@ PokedexDataPointerTable:
 	dba ElectabuzzPokedexEntry
 	dba MagmarPokedexEntry
 	dba PinsirPokedexEntry
-	dba TaurosPlainPokedexEntry
 	dba MagikarpPokedexEntry
 	dba GyaradosPlainPokedexEntry
 	dba LaprasPokedexEntry
@@ -255,9 +254,9 @@ PokedexDataPointerTable:
 	dba CrustlePokedexEntry
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
+	dba SigilyphPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
-	dba SigilyphPokedexEntry
 	dba YamaskPlainPokedexEntry
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
@@ -304,6 +303,8 @@ PokedexDataPointerTable:
 	dba AxewPokedexEntry
 	dba FraxurePokedexEntry
 	dba HaxorusPokedexEntry
+	dba CubchooPokedexEntry
+	dba BearticPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -348,9 +349,6 @@ PokedexDataPointerTable:
 	dba SneaselHisuianPokedexEntry
 
 	dba WooperPaldeanPokedexEntry
-	dba TaurosPaldeanPokedexEntry
-	dba TaurosPaldeanFirePokedexEntry
-	dba TaurosPaldeanWaterPokedexEntry
 
 	dba UrsalunaBloodmoonPokedexEntry
 	

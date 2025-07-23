@@ -1603,7 +1603,7 @@
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
-	wildmon 13, TAUROS
+	wildmon 13, RATTATA
 	wildmon 13, RATTATA
 	wildmon 13, RATTATA
 	; day
@@ -1611,7 +1611,7 @@
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
-	wildmon 13, TAUROS
+	wildmon 13, RATTATA
 	wildmon 13, RATTATA
 	wildmon 13, RATTATA
 	; nite
@@ -1632,16 +1632,16 @@
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
 	wildmon 15, RATTATA
-	wildmon 15, TAUROS
-	wildmon 15, TAUROS
+	wildmon 15, RATTATA
+	wildmon 15, RATTATA
 	; day
 	wildmon 16, RATTATA
 	wildmon 16, RATICATE
 	wildmon 16, MAGNEMITE
 	wildmon 16, RATTATA
 	wildmon 15, RATTATA
-	wildmon 15, TAUROS
-	wildmon 15, TAUROS
+	wildmon 15, RATTATA
+	wildmon 15, RATTATA
 	; nite
 	wildmon 16, MEOWTH
 	wildmon 16, RATICATE
@@ -1824,7 +1824,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, TAUROS
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES - 2, GROWLITHE
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA, GALARIAN_FORM
@@ -1832,7 +1832,7 @@
 	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	; day
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, TAUROS
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, HOUNDOUR
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA, GALARIAN_FORM
@@ -1840,7 +1840,7 @@
 	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, HOUNDOUR
-	wildmon LEVEL_FROM_BADGES + 0, TAUROS
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, VULPIX
 	wildmon LEVEL_FROM_BADGES - 3, RATTATA

@@ -101,7 +101,6 @@
 	const ELECTABUZZ ; 40
 	const MAGMAR     ; 41
 	const PINSIR     ; 42
-	const TAUROS     ; xx
 	const MAGIKARP   ; xx
 	const GYARADOS   ; xx
 	const LAPRAS     ; 43
@@ -278,9 +277,9 @@
 	const CRUSTLE    ; 133
 	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
+	const SIGILYPH   ; 136
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const SIGILYPH   ; 136
 	const YAMASK     ; 137
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
@@ -327,6 +326,8 @@
 	const AXEW       ; 167
 	const FRAXURE    ; 168
 	const HAXORUS    ; 169
+	const CUBCHOO    ; 16a
+	const BEARTIC    ; 16b
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -495,12 +496,6 @@ DEF HISUIAN_FORM EQU 4
 ; paldean forms
 DEF PALDEAN_FORM EQU 5
 	const_skip ; 185 wooper
-	const_skip ; 186 tauros
-
-; tauros
-	ext_const_def 2
-	ext_const TAUROS_PALDEAN_FIRE_FORM  ; 187 (2)
-	ext_const TAUROS_PALDEAN_WATER_FORM ; 188 (3)
 
 ; ursaluna
 	ext_const_def 2

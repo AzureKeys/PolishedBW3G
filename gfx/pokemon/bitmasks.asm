@@ -244,6 +244,8 @@ ChandelureBitmasks: INCLUDE "gfx/pokemon/chandelure/bitmask.asm"
 AxewBitmasks:       INCLUDE "gfx/pokemon/axew/bitmask.asm"
 FraxureBitmasks:    INCLUDE "gfx/pokemon/fraxure/bitmask.asm"
 HaxorusBitmasks:    INCLUDE "gfx/pokemon/haxorus/bitmask.asm"
+CubchooBitmasks:    INCLUDE "gfx/pokemon/cubchoo/bitmask.asm"
+BearticBitmasks:    INCLUDE "gfx/pokemon/beartic/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -418,11 +420,6 @@ SneaselHisuianBitmasks: INCLUDE "gfx/pokemon/sneasel_hisuian/bitmask.asm"
 
 WooperPlainBitmasks:    INCLUDE "gfx/pokemon/wooper_plain/bitmask.asm"
 WooperPaldeanBitmasks:  INCLUDE "gfx/pokemon/wooper_paldean/bitmask.asm"
-
-TaurosPlainBitmasks:        INCLUDE "gfx/pokemon/tauros_plain/bitmask.asm"
-TaurosPaldeanBitmasks:      INCLUDE "gfx/pokemon/tauros_paldean/bitmask.asm"
-TaurosPaldeanFireBitmasks:  INCLUDE "gfx/pokemon/tauros_paldean_fire/bitmask.asm"
-TaurosPaldeanWaterBitmasks: INCLUDE "gfx/pokemon/tauros_paldean_water/bitmask.asm"
 
 UrsalunaPlainBitmasks:     INCLUDE "gfx/pokemon/ursaluna_plain/bitmask.asm"
 UrsalunaBloodmoonBitmasks: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/bitmask.asm"

@@ -392,11 +392,6 @@ PinsirMini::     INCBIN "gfx/minis/pinsir.2bpp.lz"
 PinsirMiniMask:: INCBIN "gfx/minis/pinsir_mask.1bpp.lz"
 PinsirIcon::     INCBIN "gfx/icons/pinsir.2bpp.lz"
 
-SECTION "Tauros Mini Icon", ROMX
-TaurosMini::     INCBIN "gfx/minis/tauros.2bpp.lz"
-TaurosMiniMask:: INCBIN "gfx/minis/tauros_mask.1bpp.lz"
-TaurosIcon::     INCBIN "gfx/icons/tauros.2bpp.lz"
-
 SECTION "Magikarp Mini Icon", ROMX
 MagikarpMini::     INCBIN "gfx/minis/magikarp.2bpp.lz"
 MagikarpMiniMask:: INCBIN "gfx/minis/magikarp_mask.1bpp.lz"
@@ -1517,6 +1512,16 @@ HaxorusMini::     INCBIN "gfx/minis/haxorus.2bpp.lz"
 HaxorusMiniMask:: INCBIN "gfx/minis/haxorus_mask.1bpp.lz"
 HaxorusIcon::     INCBIN "gfx/icons/haxorus.2bpp.lz"
 
+SECTION "Cubchoo Mini Icon", ROMX
+CubchooMini::     INCBIN "gfx/minis/cubchoo.2bpp.lz"
+CubchooMiniMask:: INCBIN "gfx/minis/cubchoo_mask.1bpp.lz"
+CubchooIcon::     INCBIN "gfx/icons/cubchoo.2bpp.lz"
+
+SECTION "Beartic Mini Icon", ROMX
+BearticMini::     INCBIN "gfx/minis/beartic.2bpp.lz"
+BearticMiniMask:: INCBIN "gfx/minis/beartic_mask.1bpp.lz"
+BearticIcon::     INCBIN "gfx/icons/beartic.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1826,21 +1831,6 @@ SECTION "WooperPaldean Mini Icon", ROMX
 WooperPaldeanMini::     INCBIN "gfx/minis/wooper_paldean.2bpp.lz"
 WooperPaldeanMiniMask:: INCBIN "gfx/minis/wooper_paldean_mask.1bpp.lz"
 WooperPaldeanIcon::     INCBIN "gfx/icons/wooper_paldean.2bpp.lz"
-
-SECTION "TaurosPaldean Mini Icon", ROMX
-TaurosPaldeanMini::     INCBIN "gfx/minis/tauros_paldean.2bpp.lz"
-TaurosPaldeanMiniMask:: INCBIN "gfx/minis/tauros_paldean_mask.1bpp.lz"
-TaurosPaldeanIcon::     INCBIN "gfx/icons/tauros_paldean.2bpp.lz"
-
-SECTION "TaurosPaldeanFire Mini Icon", ROMX
-TaurosPaldeanFireMini::     INCBIN "gfx/minis/tauros_paldean_fire.2bpp.lz"
-TaurosPaldeanFireMiniMask:: INCBIN "gfx/minis/tauros_paldean_fire_mask.1bpp.lz"
-TaurosPaldeanFireIcon::     INCBIN "gfx/icons/tauros_paldean_fire.2bpp.lz"
-
-SECTION "TaurosPaldeanWater Mini Icon", ROMX
-TaurosPaldeanWaterMini::     INCBIN "gfx/minis/tauros_paldean_water.2bpp.lz"
-TaurosPaldeanWaterMiniMask:: INCBIN "gfx/minis/tauros_paldean_water_mask.1bpp.lz"
-TaurosPaldeanWaterIcon::     INCBIN "gfx/icons/tauros_paldean_water.2bpp.lz"
 
 SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"

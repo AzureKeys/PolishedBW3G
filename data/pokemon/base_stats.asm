@@ -112,7 +112,6 @@ INCLUDE "data/pokemon/base_stats/scyther.asm"
 INCLUDE "data/pokemon/base_stats/electabuzz.asm"
 INCLUDE "data/pokemon/base_stats/magmar.asm"
 INCLUDE "data/pokemon/base_stats/pinsir.asm"
-INCLUDE "data/pokemon/base_stats/tauros_plain.asm"
 INCLUDE "data/pokemon/base_stats/magikarp.asm"
 INCLUDE "data/pokemon/base_stats/gyarados.asm"
 INCLUDE "data/pokemon/base_stats/lapras.asm"
@@ -289,9 +288,9 @@ INCLUDE "data/pokemon/base_stats/dwebble.asm"
 INCLUDE "data/pokemon/base_stats/crustle.asm"
 INCLUDE "data/pokemon/base_stats/scraggy.asm"
 INCLUDE "data/pokemon/base_stats/scrafty.asm"
+INCLUDE "data/pokemon/base_stats/sigilyph.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm" ; 100
-INCLUDE "data/pokemon/base_stats/sigilyph.asm"
 INCLUDE "data/pokemon/base_stats/yamask_plain.asm"
 INCLUDE "data/pokemon/base_stats/cofagrigus.asm"
 INCLUDE "data/pokemon/base_stats/tirtouga.asm"
@@ -338,6 +337,8 @@ INCLUDE "data/pokemon/base_stats/chandelure.asm"
 INCLUDE "data/pokemon/base_stats/axew.asm"
 INCLUDE "data/pokemon/base_stats/fraxure.asm"
 INCLUDE "data/pokemon/base_stats/haxorus.asm"
+INCLUDE "data/pokemon/base_stats/cubchoo.asm"
+INCLUDE "data/pokemon/base_stats/beartic.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red
@@ -382,9 +383,6 @@ INCLUDE "data/pokemon/base_stats/qwilfish_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/sneasel_hisuian.asm"
 
 INCLUDE "data/pokemon/base_stats/wooper_paldean.asm"
-INCLUDE "data/pokemon/base_stats/tauros_paldean.asm"
-INCLUDE "data/pokemon/base_stats/tauros_paldean_fire.asm"
-INCLUDE "data/pokemon/base_stats/tauros_paldean_water.asm"
 
 INCLUDE "data/pokemon/base_stats/ursaluna_bloodmoon.asm"
 

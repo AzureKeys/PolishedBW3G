@@ -182,8 +182,3 @@ GrowlitheHisuianFrames: INCLUDE "gfx/pokemon/growlithe_hisuian/frames.asm"
 
 ArcaninePlainFrames:   INCLUDE "gfx/pokemon/arcanine_plain/frames.asm"
 ArcanineHisuianFrames: INCLUDE "gfx/pokemon/arcanine_hisuian/frames.asm"
-
-TaurosPlainFrames:        INCLUDE "gfx/pokemon/tauros_plain/frames.asm"
-TaurosPaldeanFrames:      INCLUDE "gfx/pokemon/tauros_paldean/frames.asm"
-TaurosPaldeanFireFrames:  INCLUDE "gfx/pokemon/tauros_paldean_fire/frames.asm"
-TaurosPaldeanWaterFrames: INCLUDE "gfx/pokemon/tauros_paldean_water/frames.asm"

@@ -77,7 +77,6 @@ FootprintPointers::
 	dw ElectabuzzFootprint
 	dw MagmarFootprint
 	dw PinsirFootprint
-	dw TaurosFootprint
 	dw MagikarpFootprint
 	dw GyaradosFootprint
 	dw LaprasFootprint
@@ -254,9 +253,9 @@ FootprintPointers::
 	dw CrustleFootprint
 	dw ScraggyFootprint
 	dw ScraftyFootprint
+	dw SigilyphFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
-	dw SigilyphFootprint
 	dw YamaskFootprint
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
@@ -303,6 +302,8 @@ FootprintPointers::
 	dw AxewFootprint
 	dw FraxureFootprint
 	dw HaxorusFootprint
+	dw CubchooFootprint
+	dw BearticFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -347,9 +348,6 @@ FootprintPointers::
 	dw SneaselFootprint
 
 	dw WooperFootprint
-	dw TaurosFootprint
-	dw TaurosFootprint
-	dw TaurosFootprint
 
 	dw UrsalunaFootprint
 	

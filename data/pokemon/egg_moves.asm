@@ -1226,5 +1226,13 @@ AxewEggSpeciesMoves:
 	db REVERSAL
 	db $ff
 
+CubchooEggSpeciesMoves:
+	dp CUBCHOO, PLAIN_FORM
+	db ENCORE
+	db ICE_PUNCH
+	db NIGHT_SLASH
+	db PLAY_ROUGH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

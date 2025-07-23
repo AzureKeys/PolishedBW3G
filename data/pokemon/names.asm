@@ -78,7 +78,6 @@ PokemonNames::
 	rawchar "Electabuzz"
 	rawchar "Magmar@@@@"
 	rawchar "Pinsir@@@@"
-	rawchar "Tauros@@@@"
 	rawchar "Magikarp@@"
 	rawchar "Gyarados@@"
 	rawchar "Lapras@@@@"
@@ -255,9 +254,9 @@ PokemonNames::
 	rawchar "Crustle@@@"
 	rawchar "Scraggy@@@"
 	rawchar "Scrafty@@@"
+	rawchar "Sigilyph@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
-	rawchar "Sigilyph@@"
 	rawchar "Yamask@@@@"
 	rawchar "Cofagrigus"
 	rawchar "Tirtouga@@"
@@ -304,4 +303,6 @@ PokemonNames::
 	rawchar "Axew@@@@@@"
 	rawchar "Fraxure@@@"
 	rawchar "Haxorus@@@"
+	rawchar "Cubchoo@@@"
+	rawchar "Beartic@@@"
 	assert_table_length NUM_SPECIES + 1

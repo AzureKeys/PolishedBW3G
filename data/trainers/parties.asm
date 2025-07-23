@@ -177,7 +177,7 @@ WhitneyGroup:
 		tr_moves SWORDS_DANCE, CROSS_CHOP, CRUNCH, PLAY_ROUGH
 	tr_mon 72, WIGGLYTUFF @ LEFTOVERS, FEMALE
 		tr_moves FOCUS_BLAST, HYPER_VOICE, DAZZLINGLEAM, ICE_BEAM
-	tr_mon 74, TAUROS @ SILK_SCARF, FEMALE
+	tr_mon 74, RATTATA @ SILK_SCARF, FEMALE
 		tr_moves BULK_UP, EARTHQUAKE, STRENGTH, IRON_TAIL
 	tr_mon 75, RATTATA @ BRIGHTPOWDER, FEMALE
 		tr_extra HUSTLE
@@ -1679,7 +1679,7 @@ YoungsterGroup:
 
 	def_trainer ARDEN, "Arden"
 	tr_mon 55, FLAREON
-	tr_mon 53, TAUROS
+	tr_mon 53, RATTATA
 	tr_mon 55, RAPIDASH
 	end_trainer
 
@@ -1881,7 +1881,7 @@ CamperGroup:
 	def_trainer QUENTIN, "Quentin"
 	tr_mon 30, RATTATA
 	tr_mon 30, PRIMEAPE
-	tr_mon 30, TAUROS
+	tr_mon 30, RATTATA
 	end_trainer
 
 	def_trainer GRANT, "Grant"
@@ -1915,7 +1915,7 @@ CamperGroup:
 	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINO
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINA
-	tr_mon LEVEL_FROM_BADGES + 9, TAUROS
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
 
 
@@ -4667,7 +4667,7 @@ endc
 
 	def_trainer SHARYN, "Sharyn"
 	tr_mon 46, RATTATA
-	tr_mon 46, TAUROS
+	tr_mon 46, RATTATA
 	end_trainer
 
 	def_trainer MARGARET, "Margaret"
@@ -4691,21 +4691,21 @@ CowgirlGroup:
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_moves DEFENSE_CURL, ROLLOUT, FRESH_SNACK, BODY_SLAM
-	tr_mon LEVEL_FROM_BADGES + 5, TAUROS @ LEFTOVERS, MALE
-		tr_extra ANGER_POINT, ATK_UP_SATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA @ LEFTOVERS, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_moves ZEN_HEADBUTT, QUICK_ATTACK, PURSUIT, BULK_UP
 	end_trainer
 
 	def_trainer APRIL, "April"
-	tr_mon LEVEL_FROM_BADGES + 6, TAUROS
-	tr_mon LEVEL_FROM_BADGES + 7, TAUROS, PALDEAN_FORM
-	tr_mon LEVEL_FROM_BADGES + 8, TAUROS, TAUROS_PALDEAN_FIRE_FORM
-	tr_mon LEVEL_FROM_BADGES + 9, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
 
 	def_trainer DANIELA, "Daniela"
-	tr_mon LEVEL_FROM_BADGES + 3, TAUROS
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	end_trainer
 
@@ -5839,7 +5839,7 @@ TamerGroup:
 	def_trainer_class TAMER
 	def_trainer BRETT, "Brett"
 	tr_mon LEVEL_FROM_BADGES + 8, ARBOK
-	tr_mon LEVEL_FROM_BADGES + 8, TAUROS
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 9, URSARING
 	end_trainer
 
@@ -6114,7 +6114,7 @@ CooltrainerMGroup:
 	def_trainer SEAN, "Sean"
 	tr_mon 47, FLAREON
 	tr_mon 47, TANGELA
-	tr_mon 47, TAUROS
+	tr_mon 47, RATTATA
 	end_trainer
 
 	def_trainer KEVIN, "Kevin"
@@ -6436,13 +6436,13 @@ AceDuoGroup:
 	end_trainer
 
 	def_trainer ARAANDBELA1, "Ara & Bela"
-	tr_mon 64, TAUROS, MALE
+	tr_mon 64, RATTATA, MALE
 	tr_mon 64, RATTATA, FEMALE
 	end_trainer
 
 	def_trainer ARAANDBELA2, "Ara & Bela"
 	tr_mon 64, RATTATA, FEMALE
-	tr_mon 64, TAUROS, MALE
+	tr_mon 64, RATTATA, MALE
 	end_trainer
 
 	def_trainer THOMANDKAE1, "Thom & Kae"
@@ -6803,8 +6803,8 @@ ProfOakGroup:
 
 	def_trainer_class PROF_OAK
 	def_trainer 1, "Oak"
-	tr_mon 78, TAUROS @ CHOICE_SCARF, MALE
-		tr_extra INTIMIDATE, ATK_UP_SATK_DOWN
+	tr_mon 78, RATTATA @ CHOICE_SCARF, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, ZEN_HEADBUTT, STONE_EDGE
 	tr_mon 76, RATTATA @ BERSERK_GENE, FEMALE
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN

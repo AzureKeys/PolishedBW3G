@@ -16,6 +16,7 @@ AlphabeticalPokedexOrder:
 	dp AZURILL
 	dp BASCULIN
 	dp BAYLEEF
+	dp BEARTIC
 	dp BLASTOISE
 	dp BLITZLE
 	dp BOLDORE
@@ -40,6 +41,7 @@ AlphabeticalPokedexOrder:
 	dp CROBAT
 	dp CROCONAW
 	dp CRUSTLE
+	dp CUBCHOO
 	dp CURSOLA
 	dp CYNDAQUIL
 	dp DARMANITAN
@@ -258,7 +260,6 @@ AlphabeticalPokedexOrder:
 	dp SYLVEON
 	dp TANGELA
 	dp TANGROWTH
-	dp TAUROS
 	dp TEDDIURSA
 	dp TEPIG
 	dp THROH

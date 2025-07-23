@@ -118,6 +118,8 @@ ChandelureFootprint::
 AxewFootprint::
 FraxureFootprint::
 HaxorusFootprint::
+CubchooFootprint::
+BearticFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -218,7 +220,6 @@ ScytherFootprint:: INCBIN "gfx/footprints/scyther.1bpp.lz"
 ElectabuzzFootprint:: INCBIN "gfx/footprints/electabuzz.1bpp.lz"
 MagmarFootprint:: INCBIN "gfx/footprints/magmar.1bpp.lz"
 PinsirFootprint:: INCBIN "gfx/footprints/pinsir.1bpp.lz"
-TaurosFootprint:: INCBIN "gfx/footprints/tauros.1bpp.lz"
 EeveeFootprint:: INCBIN "gfx/footprints/eevee.1bpp.lz"
 VaporeonFootprint:: INCBIN "gfx/footprints/vaporeon.1bpp.lz"
 JolteonFootprint:: INCBIN "gfx/footprints/jolteon.1bpp.lz"

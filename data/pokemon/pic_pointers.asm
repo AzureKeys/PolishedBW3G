@@ -81,7 +81,6 @@ PokemonPicPointers::
 	pics Electabuzz
 	pics Magmar
 	pics Pinsir
-	pics TaurosPlain
 	pics MagikarpPlain
 	pics GyaradosPlain
 	pics Lapras
@@ -258,9 +257,9 @@ PokemonPicPointers::
 	pics Crustle
 	pics Scraggy
 	pics Scrafty
+	pics Sigilyph
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Sigilyph
 	pics YamaskPlain
 	pics Cofagrigus
 	pics Tirtouga
@@ -307,6 +306,8 @@ PokemonPicPointers::
 	pics Axew
 	pics Fraxure
 	pics Haxorus
+	pics Cubchoo
+	pics Beartic
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -414,9 +415,6 @@ PokemonPicPointers::
 	pics SneaselHisuian
 
 	pics WooperPaldean
-	pics TaurosPaldean
-	pics TaurosPaldeanFire
-	pics TaurosPaldeanWater
 
 	pics UrsalunaBloodmoon
 	

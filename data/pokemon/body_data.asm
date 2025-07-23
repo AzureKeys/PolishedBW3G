@@ -84,7 +84,6 @@ PokemonBodyData:
 	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; ELECTABUZZ
 	body_data  13,  445, BIPEDAL_TAIL, RED    ; MAGMAR
 	body_data  15,  550, BIPEDAL,      BROWN  ; PINSIR
-	body_data  14,  884, QUADRUPED,    BROWN  ; TAUROS
 	body_data   9,  100, FINS,         RED    ; MAGIKARP
 	body_data  65, 2350, SERPENTINE,   BLUE   ; GYARADOS
 	body_data  25, 2200, FINS,         BLUE   ; LAPRAS
@@ -261,9 +260,9 @@ PokemonBodyData:
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
 	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
+	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
-	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
@@ -310,6 +309,8 @@ PokemonBodyData:
 	body_data   6,  180, BIPEDAL_TAIL, GREEN  ; AXEW
 	body_data  10,  360, BIPEDAL_TAIL, GREEN  ; FRAXURE
 	body_data  18, 1055, BIPEDAL_TAIL, YELLOW ; HAXORUS
+	body_data   5,   85, BIPEDAL_TAIL, WHITE  ; CUBCHOO
+	body_data  26, 2600, QUADRUPED,    WHITE  ; BEARTIC
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -354,10 +355,7 @@ PokemonBodyData:
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
 
 	body_data   4,  110, HEAD_LEGS,    BROWN  ; WOOPER (PALDEAN_FORM)
-	body_data  14, 1150, QUADRUPED,    BLACK  ; TAUROS (PALDEAN_FORM)
-	body_data  14,  850, QUADRUPED,    BLACK  ; TAUROS (TAUROS_PALDEAN_FIRE_FORM)
-	body_data  14, 1100, QUADRUPED,    BLACK  ; TAUROS (TAUROS_PALDEAN_WATER_FORM)
-
+	
 	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)
 	
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT (UNFEZANT_FEMALE_FORM)

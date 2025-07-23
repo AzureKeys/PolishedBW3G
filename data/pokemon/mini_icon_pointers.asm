@@ -81,7 +81,6 @@ MiniIconPointers:
 	mini_icon Electabuzz
 	mini_icon Magmar
 	mini_icon Pinsir
-	mini_icon Tauros
 	mini_icon Magikarp
 	mini_icon Gyarados
 	mini_icon Lapras
@@ -258,9 +257,9 @@ MiniIconPointers:
 	mini_icon Crustle
 	mini_icon Scraggy
 	mini_icon Scrafty
+	mini_icon Sigilyph
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Sigilyph
 	mini_icon Yamask
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
@@ -307,6 +306,8 @@ MiniIconPointers:
 	mini_icon Axew
 	mini_icon Fraxure
 	mini_icon Haxorus
+	mini_icon Cubchoo
+	mini_icon Beartic
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -398,9 +399,6 @@ endr
 	mini_icon SneaselHisuian
 
 	mini_icon WooperPaldean
-	mini_icon TaurosPaldean
-	mini_icon TaurosPaldeanFire
-	mini_icon TaurosPaldeanWater
 
 	mini_icon UrsalunaBloodmoon
 

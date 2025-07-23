@@ -77,7 +77,6 @@ EggSpeciesMovesPointers::
 	dw ElekidEggSpeciesMoves            ; Electabuzz
 	dw MagbyEggSpeciesMoves             ; Magmar
 	dw PinsirEggSpeciesMoves            ; Pinsir
-	dw NoEggSpeciesMoves                ; Tauros
 	dw MagikarpEggSpeciesMoves          ; Magikarp
 	dw MagikarpEggSpeciesMoves          ; Gyarados
 	dw LaprasEggSpeciesMoves            ; Lapras
@@ -254,9 +253,9 @@ EggSpeciesMovesPointers::
 	dw DwebbleEggSpeciesMoves           ; Crustle
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
+	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
-	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
@@ -303,6 +302,8 @@ EggSpeciesMovesPointers::
 	dw AxewEggSpeciesMoves              ; Axew
 	dw AxewEggSpeciesMoves              ; Fraxure
 	dw AxewEggSpeciesMoves              ; Haxorus
+	dw CubchooEggSpeciesMoves           ; Cubchoo
+	dw CubchooEggSpeciesMoves           ; Beartic
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -347,9 +348,6 @@ EggSpeciesMovesPointers::
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
 
 	dw WooperPaldeanEggSpeciesMoves     ; Wooper (Paldean Form)
-	dw NoEggSpeciesMoves                ; Tauros (Paldean Form)
-	dw NoEggSpeciesMoves                ; Tauros (Paldean Fire Form)
-	dw NoEggSpeciesMoves                ; Tauros (Paldean Water Form)
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
 	

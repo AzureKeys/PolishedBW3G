@@ -1137,22 +1137,6 @@ SECTION "WooperPaldean Pics", ROMX
 WooperPaldeanFrontpic: INCBIN "gfx/pokemon/wooper_paldean/front.animated.2bpp.lz"
 WooperPaldeanBackpic:  INCBIN "gfx/pokemon/wooper_paldean/back.2bpp.lz"
 
-SECTION "TaurosPlain Pics", ROMX
-TaurosPlainFrontpic: INCBIN "gfx/pokemon/tauros_plain/front.animated.2bpp.lz"
-TaurosPlainBackpic:  INCBIN "gfx/pokemon/tauros_plain/back.2bpp.lz"
-
-SECTION "TaurosPaldean Pics", ROMX
-TaurosPaldeanFrontpic: INCBIN "gfx/pokemon/tauros_paldean/front.animated.2bpp.lz"
-TaurosPaldeanBackpic:  INCBIN "gfx/pokemon/tauros_paldean/back.2bpp.lz"
-
-SECTION "TaurosPaldeanFire Pics", ROMX
-TaurosPaldeanFireFrontpic: INCBIN "gfx/pokemon/tauros_paldean_fire/front.animated.2bpp.lz"
-TaurosPaldeanFireBackpic:  INCBIN "gfx/pokemon/tauros_paldean_fire/back.2bpp.lz"
-
-SECTION "TaurosPaldeanWater Pics", ROMX
-TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lz"
-TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lz"
-
 SECTION "Snivy Pics", ROMX
 SnivyFrontpic: INCBIN "gfx/pokemon/snivy/front.animated.2bpp.lz"
 SnivyBackpic:  INCBIN "gfx/pokemon/snivy/back.2bpp.lz"
@@ -1584,3 +1568,11 @@ FraxureBackpic:  INCBIN "gfx/pokemon/fraxure/back.2bpp.lz"
 SECTION "Haxorus Pics", ROMX
 HaxorusFrontpic: INCBIN "gfx/pokemon/haxorus/front.animated.2bpp.lz"
 HaxorusBackpic:  INCBIN "gfx/pokemon/haxorus/back.2bpp.lz"
+
+SECTION "Cubchoo Pics", ROMX
+CubchooFrontpic: INCBIN "gfx/pokemon/cubchoo/front.animated.2bpp.lz"
+CubchooBackpic:  INCBIN "gfx/pokemon/cubchoo/back.2bpp.lz"
+
+SECTION "Beartic Pics", ROMX
+BearticFrontpic: INCBIN "gfx/pokemon/beartic/front.animated.2bpp.lz"
+BearticBackpic:  INCBIN "gfx/pokemon/beartic/back.2bpp.lz"

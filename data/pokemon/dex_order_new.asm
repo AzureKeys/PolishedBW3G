@@ -109,6 +109,8 @@ NewPokedexOrder:
 	dp AXEW
 	dp FRAXURE
 	dp HAXORUS
+	dp CUBCHOO
+	dp BEARTIC
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -211,7 +213,6 @@ NewPokedexOrder:
 	dp PERRSERKER
 	dp PSYDUCK
 	dp GOLDUCK
-	dp TAUROS
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR

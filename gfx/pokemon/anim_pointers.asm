@@ -77,7 +77,6 @@ AnimationPointers:
 	dw ElectabuzzAnimation
 	dw MagmarAnimation
 	dw PinsirAnimation
-	dw TaurosPlainAnimation
 	dw MagikarpPlainAnimation
 	dw GyaradosPlainAnimation
 	dw LaprasAnimation
@@ -254,9 +253,9 @@ AnimationPointers:
 	dw CrustleAnimation
 	dw ScraggyAnimation
 	dw ScraftyAnimation
+	dw SigilyphAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
-	dw SigilyphAnimation
 	dw YamaskPlainAnimation
 	dw CofagrigusAnimation
 	dw TirtougaAnimation
@@ -303,6 +302,8 @@ AnimationPointers:
 	dw AxewAnimation
 	dw FraxureAnimation
 	dw HaxorusAnimation
+	dw CubchooAnimation
+	dw BearticAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
@@ -410,9 +411,6 @@ AnimationPointers:
 	dw SneaselHisuianAnimation
 
 	dw WooperPaldeanAnimation
-	dw TaurosPaldeanAnimation
-	dw TaurosPaldeanFireAnimation
-	dw TaurosPaldeanWaterAnimation
 
 	dw UrsalunaBloodmoonAnimation
 	

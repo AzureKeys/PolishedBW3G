@@ -1518,7 +1518,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
 	wildmon 55, EXEGGCUTE
-	wildmon 59, TAUROS
+	wildmon 59, RATTATA
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
@@ -1526,7 +1526,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
 	wildmon 55, EXEGGCUTE
-	wildmon 59, TAUROS
+	wildmon 59, RATTATA
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
@@ -1534,7 +1534,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
 	wildmon 55, EXEGGCUTE
-	wildmon 59, TAUROS
+	wildmon 59, RATTATA
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
@@ -1546,7 +1546,7 @@
 	wildmon 55, PARAS
 	wildmon 57, NIDORINA
 	wildmon 57, NIDORINO
-	wildmon 59, TAUROS, PALDEAN_FORM
+	wildmon 59, RATTATA, PALDEAN_FORM
 	wildmon 60, NIDOKING
 	wildmon 60, NIDOQUEEN
 	wildmon 50, PARASECT
@@ -1554,7 +1554,7 @@
 	wildmon 55, PARAS
 	wildmon 57, NIDORINA
 	wildmon 57, NIDORINO
-	wildmon 59, TAUROS, PALDEAN_FORM
+	wildmon 59, RATTATA, PALDEAN_FORM
 	wildmon 60, NIDOKING
 	wildmon 60, NIDOQUEEN
 	wildmon 50, PARASECT
@@ -1562,7 +1562,7 @@
 	wildmon 55, PARAS
 	wildmon 57, NIDORINA
 	wildmon 57, NIDORINO
-	wildmon 59, TAUROS, PALDEAN_FORM
+	wildmon 59, RATTATA, PALDEAN_FORM
 	wildmon 60, NIDOKING
 	wildmon 60, NIDOQUEEN
 	wildmon 50, PARASECT
@@ -1574,7 +1574,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
 	wildmon 56, RATTATA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
+	wildmon 59, RATTATA
 	wildmon 59, PINSIR
 	wildmon 60, RATTATA
 	wildmon 60, RATTATA
@@ -1582,7 +1582,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
 	wildmon 56, RATTATA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
+	wildmon 59, RATTATA
 	wildmon 59, PINSIR
 	wildmon 60, RATTATA
 	wildmon 60, RATTATA
@@ -1590,7 +1590,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, RATTATA
 	wildmon 56, RATTATA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
+	wildmon 59, RATTATA
 	wildmon 59, PINSIR
 	wildmon 60, RATTATA
 	wildmon 60, KANGASKHAN
@@ -1602,7 +1602,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, NIDORINA
 	wildmon 58, NIDORINO
-	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	wildmon 59, RATTATA
 	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
 	wildmon 60, RATTATA
@@ -1610,7 +1610,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, NIDORINA
 	wildmon 58, NIDORINO
-	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	wildmon 59, RATTATA
 	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
 	wildmon 60, RATTATA
@@ -1618,7 +1618,7 @@
 	wildmon 55, RATTATA
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	wildmon 59, RATTATA
 	wildmon 59, RATTATA
 	wildmon 60, KANGASKHAN
 	wildmon 60, RATTATA

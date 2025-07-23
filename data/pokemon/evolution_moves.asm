@@ -77,7 +77,6 @@ EvolutionMoves::
 	db NO_MOVE      ; ELECTABUZZ
 	db NO_MOVE      ; MAGMAR
 	db NO_MOVE      ; PINSIR
-	db NO_MOVE      ; TAUROS
 	db NO_MOVE      ; MAGIKARP
 	db BITE         ; GYARADOS
 	db NO_MOVE      ; LAPRAS
@@ -258,9 +257,9 @@ endc
 	db NO_MOVE      ; CRUSTLE
 	db NO_MOVE      ; SCRAGGY
 	db NO_MOVE      ; SCRAFTY
+	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
@@ -307,6 +306,8 @@ endc
 	db NO_MOVE      ; AXEW
 	db NO_MOVE      ; FRAXURE
 	db NO_MOVE      ; HAXORUS
+	db NO_MOVE      ; CUBCHOO
+	db ICICLE_CRASH ; BEARTIC
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -351,9 +352,6 @@ endc
 	db NO_MOVE      ; SNEASEL, HISUIAN_FORM
 
 	db NO_MOVE      ; WOOPER, PALDEAN_FORM
-	db NO_MOVE      ; TAUROS, PALDEAN_FORM
-	db NO_MOVE      ; TAUROS, TAUROS_PALDEAN_FIRE_FORM
-	db NO_MOVE      ; TAUROS, TAUROS_PALDEAN_WATER_FORM
 
 	db NO_MOVE      ; URSALUNA, URSALUNA_BLOODMOON_FORM
 	

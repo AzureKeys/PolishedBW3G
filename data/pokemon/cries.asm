@@ -83,7 +83,6 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electabuzz
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmar
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; Pinsir
-	mon_cry CRY_SQUIRTLE,    $011,  $0c0 ; Tauros
 	mon_cry CRY_EKANS,       $080,  $080 ; Magikarp
 	mon_cry CRY_EKANS,       $000,  $100 ; Gyarados
 	mon_cry CRY_LAPRAS,      $000,  $100 ; Lapras
@@ -260,9 +259,9 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; SCRAGGY*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SCRAFTY*
+	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
-	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
 	mon_cry CRY_METAPOD,     $000,  $100 ; YAMASK*
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; COFAGRIGUS*
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; TIRTOUGA*
@@ -309,4 +308,6 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,    $83c,  $0c0 ; Axew
 	mon_cry CRY_EKANS,       $9c5,  $170 ; Fraxure
 	mon_cry CRY_EKANS,       $7d8,  $190 ; Haxorus
+	mon_cry CRY_CLEFAIRY,    $099,  $090 ; CUBCHOO*
+	mon_cry CRY_VILEPLUME,  -$2bb,  $0bb ; Beartic
 	assert_table_length NUM_SPECIES

@@ -244,6 +244,8 @@ ChandelureAnimation: INCLUDE "gfx/pokemon/chandelure/anim.asm"
 AxewAnimation:       INCLUDE "gfx/pokemon/axew/anim.asm"
 FraxureAnimation:    INCLUDE "gfx/pokemon/fraxure/anim.asm"
 HaxorusAnimation:    INCLUDE "gfx/pokemon/haxorus/anim.asm"
+CubchooAnimation:    INCLUDE "gfx/pokemon/cubchoo/anim.asm"
+BearticAnimation:    INCLUDE "gfx/pokemon/beartic/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -418,11 +420,6 @@ SneaselHisuianAnimation: INCLUDE "gfx/pokemon/sneasel_hisuian/anim.asm"
 
 WooperPlainAnimation:   INCLUDE "gfx/pokemon/wooper_plain/anim.asm"
 WooperPaldeanAnimation: INCLUDE "gfx/pokemon/wooper_paldean/anim.asm"
-
-TaurosPlainAnimation:        INCLUDE "gfx/pokemon/tauros_plain/anim.asm"
-TaurosPaldeanAnimation:      INCLUDE "gfx/pokemon/tauros_paldean/anim.asm"
-TaurosPaldeanFireAnimation:  INCLUDE "gfx/pokemon/tauros_paldean_fire/anim.asm"
-TaurosPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"
 
 UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
 UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
