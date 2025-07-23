@@ -121,6 +121,8 @@ HaxorusFootprint::
 CubchooFootprint::
 BearticFootprint::
 CryogonalFootprint::
+ShelmetFootprint::
+AccelgorFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

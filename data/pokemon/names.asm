@@ -303,4 +303,6 @@ PokemonNames::
 	rawchar "Cubchoo@@@"
 	rawchar "Beartic@@@"
 	rawchar "Cryogonal@"
+	rawchar "Shelmet@@@"
+	rawchar "Accelgor@@"
 	assert_table_length NUM_SPECIES + 1

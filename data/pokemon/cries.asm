@@ -308,4 +308,6 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; CUBCHOO*
 	mon_cry CRY_VILEPLUME,  -$2bb,  $0bb ; Beartic
 	mon_cry CRY_METAPOD,     $7d4,  $17f ; Cryogonal
+	mon_cry CRY_CLEFAIRY,    $099,  $090 ; SHELMET*
+	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; ACCELGOR*
 	assert_table_length NUM_SPECIES

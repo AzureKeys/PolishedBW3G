@@ -302,6 +302,8 @@ AnimationExtraPointers:
 	dw CubchooAnimationExtra
 	dw BearticAnimationExtra
 	dw CryogonalAnimationExtra
+	dw ShelmetAnimationExtra
+	dw AccelgorAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

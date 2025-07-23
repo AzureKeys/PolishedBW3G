@@ -302,6 +302,8 @@ FramesPointers:
 	dw CubchooFrames
 	dw BearticFrames
 	dw CryogonalFrames
+	dw ShelmetFrames
+	dw AccelgorFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

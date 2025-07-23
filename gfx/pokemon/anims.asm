@@ -247,6 +247,8 @@ HaxorusAnimation:    INCLUDE "gfx/pokemon/haxorus/anim.asm"
 CubchooAnimation:    INCLUDE "gfx/pokemon/cubchoo/anim.asm"
 BearticAnimation:    INCLUDE "gfx/pokemon/beartic/anim.asm"
 CryogonalAnimation:  INCLUDE "gfx/pokemon/cryogonal/anim.asm"
+ShelmetAnimation:    INCLUDE "gfx/pokemon/shelmet/anim.asm"
+AccelgorAnimation:   INCLUDE "gfx/pokemon/accelgor/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

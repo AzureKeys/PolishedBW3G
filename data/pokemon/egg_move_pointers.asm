@@ -302,6 +302,8 @@ EggSpeciesMovesPointers::
 	dw CubchooEggSpeciesMoves           ; Cubchoo
 	dw CubchooEggSpeciesMoves           ; Beartic
 	dw CryogonalEggSpeciesMoves         ; Cryogonal
+	dw ShelmetEggSpeciesMoves           ; Shelmet
+	dw ShelmetEggSpeciesMoves           ; Accelgor
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

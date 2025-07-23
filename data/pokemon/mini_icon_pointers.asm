@@ -306,6 +306,8 @@ MiniIconPointers:
 	mini_icon Cubchoo
 	mini_icon Beartic
 	mini_icon Cryogonal
+	mini_icon Shelmet
+	mini_icon Accelgor
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

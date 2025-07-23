@@ -1556,3 +1556,11 @@ BearticBackpic:  INCBIN "gfx/pokemon/beartic/back.2bpp.lz"
 SECTION "Cryogonal Pics", ROMX
 CryogonalFrontpic: INCBIN "gfx/pokemon/cryogonal/front.animated.2bpp.lz"
 CryogonalBackpic:  INCBIN "gfx/pokemon/cryogonal/back.2bpp.lz"
+
+SECTION "Shelmet Pics", ROMX
+ShelmetFrontpic: INCBIN "gfx/pokemon/shelmet/front.animated.2bpp.lz"
+ShelmetBackpic:  INCBIN "gfx/pokemon/shelmet/back.2bpp.lz"
+
+SECTION "Accelgor Pics", ROMX
+AccelgorFrontpic: INCBIN "gfx/pokemon/accelgor/front.animated.2bpp.lz"
+AccelgorBackpic:  INCBIN "gfx/pokemon/accelgor/back.2bpp.lz"

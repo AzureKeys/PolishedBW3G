@@ -2,6 +2,7 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
+	dp ACCELGOR
 	dp AMOONGUSS
 	dp AMPHAROS
 	dp ANNIHILAPE
@@ -231,6 +232,7 @@ AlphabeticalPokedexOrder:
 	dp SERPERIOR
 	dp SERVINE
 	dp SEWADDLE
+	dp SHELMET
 	dp SHUCKLE
 	dp SIGILYPH
 	dp SKARMORY

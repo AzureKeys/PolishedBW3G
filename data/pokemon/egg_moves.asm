@@ -1238,5 +1238,15 @@ CryogonalEggSpeciesMoves:
 	dp CRYOGONAL, PLAIN_FORM
 	db $ff
 
+ShelmetEggSpeciesMoves:
+	dp SHELMET, PLAIN_FORM
+	db DOUBLE_EDGE
+	db ENCORE
+	db ENDURE
+	;db LOCK_ON
+	db MUD_SLAP
+	db PURSUIT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

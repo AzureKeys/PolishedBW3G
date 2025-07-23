@@ -6007,6 +6007,46 @@ endc
 	learnset 50, SOLAR_BEAM
 	learnset 53, NIGHT_SLASH
 	learnset 57, BLIZZARD ; Sheer Cold
+	
+	evos_attacks Shelmet
+	evo_data EVOLVE_TRADE, LINKING_CORD, ACCELGOR
+	learnset 1, ABSORB
+	learnset 4, ACID
+	learnset 8, DEFENSE_CURL ; Bide
+	learnset 13, CURSE
+	;learnset 16, STRUGGLE_BUG
+	learnset 20, MEGA_DRAIN
+	learnset 25, REST ; Yawn
+	learnset 28, PROTECT
+	learnset 32, BARRIER ; Acid Armor
+	learnset 37, GIGA_DRAIN
+	learnset 40, BODY_SLAM
+	learnset 44, BUG_BUZZ
+	learnset 49, RECOVER
+	;learnset 50, GUARD_SWAP
+	learnset 56, AURA_SPHERE ; Final Gambit
+	
+	evos_attacks Accelgor
+	learnset 1, CALM_MIND ; Power Swap
+	learnset 1, AURA_SPHERE ; Final Gambit
+	learnset 1, ABSORB
+	learnset 1, ACID ; Acid Spray
+	learnset 1, DOUBLE_TEAM
+	learnset 1, QUICK_ATTACK
+	learnset 4, ACID ; Acid Spray
+	learnset 8, DOUBLE_TEAM
+	learnset 13, QUICK_ATTACK
+	;learnset 16, STRUGGLE_BUG
+	learnset 20, MEGA_DRAIN
+	learnset 25, SWIFT
+	learnset 28, PROTECT ; Me First
+	learnset 32, AGILITY
+	learnset 37, GIGA_DRAIN
+	learnset 40, U_TURN
+	learnset 44, BUG_BUZZ
+	learnset 49, RECOVER
+	learnset 50, CALM_MIND ; Power Swap
+	learnset 56, AURA_SPHERE ; Final Gambit
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

@@ -309,6 +309,8 @@ PokemonBodyData:
 	body_data   5,   85, BIPEDAL_TAIL, WHITE  ; CUBCHOO
 	body_data  26, 2600, QUADRUPED,    WHITE  ; BEARTIC
 	body_data  11, 1480, HEAD,         BLUE   ; CRYOGONAL
+	body_data   4,   77, HEAD,         RED    ; SHELMET
+	body_data   8,  253, HEAD_ARMS,    RED    ; ACCELGOR
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

@@ -306,6 +306,8 @@ OverworldMonIconColors::
 	iconpal AZURE, PINK ; CUBCHOO
 	iconpal AZURE, BLUE ; BEARTIC
 	iconpal BLUE, AZURE ; CRYOGONAL
+	iconpal GRAY, BROWN ; SHELMET
+	iconpal BLUE, YELLOW ; ACCELGOR
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

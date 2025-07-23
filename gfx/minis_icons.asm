@@ -1512,6 +1512,16 @@ CryogonalMini::     INCBIN "gfx/minis/cryogonal.2bpp.lz"
 CryogonalMiniMask:: INCBIN "gfx/minis/cryogonal_mask.1bpp.lz"
 CryogonalIcon::     INCBIN "gfx/icons/cryogonal.2bpp.lz"
 
+SECTION "Shelmet Mini Icon", ROMX
+ShelmetMini::     INCBIN "gfx/minis/shelmet.2bpp.lz"
+ShelmetMiniMask:: INCBIN "gfx/minis/shelmet_mask.1bpp.lz"
+ShelmetIcon::     INCBIN "gfx/icons/shelmet.2bpp.lz"
+
+SECTION "Accelgor Mini Icon", ROMX
+AccelgorMini::     INCBIN "gfx/minis/accelgor.2bpp.lz"
+AccelgorMiniMask:: INCBIN "gfx/minis/accelgor_mask.1bpp.lz"
+AccelgorIcon::     INCBIN "gfx/icons/accelgor.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

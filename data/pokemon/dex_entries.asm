@@ -2987,6 +2987,26 @@ CryogonalPokedexEntry::
 	next "to ensnare their"
 	next "prey.@"
 
+SECTION "ShelmetPokedexEntry", ROMX
+ShelmetPokedexEntry::
+	db "Snail@"
+	db "It defends itself"
+	next "by closing the"
+	next "lid of its shell."
+	page "It can spit a"
+	next "sticky, poisonous"
+	next "liquid.@"
+
+SECTION "AccelgorPokedexEntry", ROMX
+AccelgorPokedexEntry::
+	db "Shell Out@"
+	db "Having removed"
+	next "its heavy shell,"
+	next "it becomes very"
+	page "light, and can"
+	next "fight with ninja-"
+	next "like movements.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

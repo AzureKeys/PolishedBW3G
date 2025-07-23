@@ -306,6 +306,8 @@ PokemonPicPointers::
 	pics Cubchoo
 	pics Beartic
 	pics Cryogonal
+	pics Shelmet
+	pics Accelgor
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

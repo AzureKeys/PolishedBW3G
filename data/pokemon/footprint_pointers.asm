@@ -302,6 +302,8 @@ FootprintPointers::
 	dw CubchooFootprint
 	dw BearticFootprint
 	dw CryogonalFootprint
+	dw ShelmetFootprint
+	dw AccelgorFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

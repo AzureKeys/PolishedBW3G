@@ -307,4 +307,6 @@ endc
 	db   1,  36 ; Cubchoo
 	db  37, 100 ; Beartic
 	db  30, 100 ; Cryogonal
+	db   1,  29 ; Shelmet
+	db  30, 100 ; Accelgor
 	assert_table_length NUM_SPECIES

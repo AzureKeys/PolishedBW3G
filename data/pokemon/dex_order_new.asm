@@ -112,6 +112,8 @@ NewPokedexOrder:
 	dp CUBCHOO
 	dp BEARTIC
 	dp CRYOGONAL
+	dp SHELMET
+	dp ACCELGOR
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

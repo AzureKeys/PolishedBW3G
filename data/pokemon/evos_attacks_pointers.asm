@@ -306,6 +306,8 @@ EvosAttacksPointers::
 	dw CubchooEvosAttacks
 	dw BearticEvosAttacks
 	dw CryogonalEvosAttacks
+	dw ShelmetEvosAttacks
+	dw AccelgorEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

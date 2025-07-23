@@ -306,6 +306,8 @@ endc
 	db NO_MOVE      ; CUBCHOO
 	db ICICLE_CRASH ; BEARTIC
 	db NO_MOVE      ; CRYOGONAL
+	db NO_MOVE      ; SHELMET
+	db NO_MOVE      ; ACCELGOR
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

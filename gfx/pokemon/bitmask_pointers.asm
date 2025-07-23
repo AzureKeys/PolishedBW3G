@@ -302,6 +302,8 @@ BitmasksPointers:
 	dw CubchooBitmasks
 	dw BearticBitmasks
 	dw CryogonalBitmasks
+	dw ShelmetBitmasks
+	dw AccelgorBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
