@@ -87,9 +87,6 @@ PokedexDataPointerTable:
 	dba JolteonPokedexEntry
 	dba FlareonPokedexEntry
 	dba SnorlaxPokedexEntry
-	dba ArticunoPlainPokedexEntry
-	dba ZapdosPlainPokedexEntry
-	dba MoltresPlainPokedexEntry
 	dba DratiniPokedexEntry
 	dba DragonairPokedexEntry
 	dba DragonitePokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
 	dba SigilyphPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba YamaskPlainPokedexEntry
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
@@ -305,6 +302,7 @@ PokedexDataPointerTable:
 	dba HaxorusPokedexEntry
 	dba CubchooPokedexEntry
 	dba BearticPokedexEntry
+	dba CryogonalPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -336,9 +334,6 @@ PokedexDataPointerTable:
 	dba SlowbroGalarianPokedexEntry
 	dba WeezingGalarianPokedexEntry
 	dba MrMimeGalarianPokedexEntry
-	dba ArticunoGalarianPokedexEntry
-	dba ZapdosGalarianPokedexEntry
-	dba MoltresGalarianPokedexEntry
 	dba SlowkingGalarianPokedexEntry
 	dba CorsolaGalarianPokedexEntry
 

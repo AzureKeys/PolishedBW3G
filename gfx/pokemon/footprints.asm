@@ -120,6 +120,7 @@ FraxureFootprint::
 HaxorusFootprint::
 CubchooFootprint::
 BearticFootprint::
+CryogonalFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -225,9 +226,6 @@ VaporeonFootprint:: INCBIN "gfx/footprints/vaporeon.1bpp.lz"
 JolteonFootprint:: INCBIN "gfx/footprints/jolteon.1bpp.lz"
 FlareonFootprint:: INCBIN "gfx/footprints/flareon.1bpp.lz"
 SnorlaxFootprint:: INCBIN "gfx/footprints/snorlax.1bpp.lz"
-ArticunoFootprint:: INCBIN "gfx/footprints/articuno.1bpp.lz"
-ZapdosFootprint:: INCBIN "gfx/footprints/zapdos.1bpp.lz"
-MoltresFootprint:: INCBIN "gfx/footprints/moltres.1bpp.lz"
 DragoniteFootprint:: INCBIN "gfx/footprints/dragonite.1bpp.lz"
 MewtwoFootprint:: INCBIN "gfx/footprints/mewtwo.1bpp.lz"
 MewFootprint:: INCBIN "gfx/footprints/mew.1bpp.lz"

@@ -50,13 +50,12 @@ CherrygroveBayGalarianBirdsScript:
 	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
 	iftruefwd .NothingHappens
 	closetext
-	callasm GalarianMoltresEvent
 	opentext
 	farwritetext MoltresText
-	cry MOLTRES
+	cry RATTATA
 	pause 15
 	closetext
-	loadwildmon MOLTRES, GALARIAN_FORM, 65
+	loadwildmon RATTATA, GALARIAN_FORM, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
@@ -71,13 +70,12 @@ CherrygroveBayGalarianBirdsScript:
 	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ARTICUNO
 	iftruefwd .NothingHappens
 	closetext
-	callasm GalarianArticunoEvent
 	opentext
 	farwritetext ArticunoText
-	cry ARTICUNO
+	cry RATTATA
 	pause 15
 	closetext
-	loadwildmon ARTICUNO, GALARIAN_FORM, 65
+	loadwildmon RATTATA, GALARIAN_FORM, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ARTICUNO
@@ -92,13 +90,12 @@ CherrygroveBayGalarianBirdsScript:
 	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ZAPDOS
 	iftruefwd .NothingHappens
 	closetext
-	callasm GalarianZapdosEvent
 	opentext
 	farwritetext ZapdosText
-	cry ZAPDOS
+	cry RATTATA
 	pause 15
 	closetext
-	loadwildmon ZAPDOS, GALARIAN_FORM, 65
+	loadwildmon RATTATA, GALARIAN_FORM, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ZAPDOS

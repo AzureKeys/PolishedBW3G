@@ -90,9 +90,6 @@ PokemonPicPointers::
 	pics Jolteon
 	pics Flareon
 	pics Snorlax
-	pics ArticunoPlain
-	pics ZapdosPlain
-	pics MoltresPlain
 	pics Dratini
 	pics Dragonair
 	pics Dragonite
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Scraggy
 	pics Scrafty
 	pics Sigilyph
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics YamaskPlain
 	pics Cofagrigus
 	pics Tirtouga
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Carracosta
 	pics Archen
 	pics Archeops
@@ -308,6 +305,7 @@ PokemonPicPointers::
 	pics Haxorus
 	pics Cubchoo
 	pics Beartic
+	pics Cryogonal
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -402,9 +400,6 @@ PokemonPicPointers::
 	pics SlowbroGalarian
 	pics WeezingGalarian
 	pics MrMimeGalarian
-	pics ArticunoGalarian
-	pics ZapdosGalarian
-	pics MoltresGalarian
 	pics SlowkingGalarian
 	pics CorsolaGalarian
 

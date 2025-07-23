@@ -86,9 +86,6 @@ AnimationPointers:
 	dw JolteonAnimation
 	dw FlareonAnimation
 	dw SnorlaxAnimation
-	dw ArticunoPlainAnimation
-	dw ZapdosPlainAnimation
-	dw MoltresPlainAnimation
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw ScraggyAnimation
 	dw ScraftyAnimation
 	dw SigilyphAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw YamaskPlainAnimation
 	dw CofagrigusAnimation
 	dw TirtougaAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw CarracostaAnimation
 	dw ArchenAnimation
 	dw ArcheopsAnimation
@@ -304,6 +301,7 @@ AnimationPointers:
 	dw HaxorusAnimation
 	dw CubchooAnimation
 	dw BearticAnimation
+	dw CryogonalAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
@@ -398,9 +396,6 @@ AnimationPointers:
 	dw SlowbroGalarianAnimation
 	dw WeezingGalarianAnimation
 	dw MrMimeGalarianAnimation
-	dw ArticunoGalarianAnimation
-	dw ZapdosGalarianAnimation
-	dw MoltresGalarianAnimation
 	dw SlowkingGalarianAnimation
 	dw CorsolaGalarianAnimation
 

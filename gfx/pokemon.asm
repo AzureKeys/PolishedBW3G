@@ -1035,30 +1035,6 @@ SECTION "MrRime Pics", ROMX
 MrRimeFrontpic: INCBIN "gfx/pokemon/mr__rime/front.animated.2bpp.lz"
 MrRimeBackpic:  INCBIN "gfx/pokemon/mr__rime/back.2bpp.lz"
 
-SECTION "ArticunoPlain Pics", ROMX
-ArticunoPlainFrontpic: INCBIN "gfx/pokemon/articuno_plain/front.animated.2bpp.lz"
-ArticunoPlainBackpic:  INCBIN "gfx/pokemon/articuno_plain/back.2bpp.lz"
-
-SECTION "ZapdosPlain Pics", ROMX
-ZapdosPlainFrontpic: INCBIN "gfx/pokemon/zapdos_plain/front.animated.2bpp.lz"
-ZapdosPlainBackpic:  INCBIN "gfx/pokemon/zapdos_plain/back.2bpp.lz"
-
-SECTION "MoltresPlain Pics", ROMX
-MoltresPlainFrontpic: INCBIN "gfx/pokemon/moltres_plain/front.animated.2bpp.lz"
-MoltresPlainBackpic:  INCBIN "gfx/pokemon/moltres_plain/back.2bpp.lz"
-
-SECTION "ArticunoGalarian Pics", ROMX
-ArticunoGalarianFrontpic: INCBIN "gfx/pokemon/articuno_galarian/front.animated.2bpp.lz"
-ArticunoGalarianBackpic:  INCBIN "gfx/pokemon/articuno_galarian/back.2bpp.lz"
-
-SECTION "ZapdosGalarian Pics", ROMX
-ZapdosGalarianFrontpic: INCBIN "gfx/pokemon/zapdos_galarian/front.animated.2bpp.lz"
-ZapdosGalarianBackpic:  INCBIN "gfx/pokemon/zapdos_galarian/back.2bpp.lz"
-
-SECTION "MoltresGalarian Pics", ROMX
-MoltresGalarianFrontpic: INCBIN "gfx/pokemon/moltres_galarian/front.animated.2bpp.lz"
-MoltresGalarianBackpic:  INCBIN "gfx/pokemon/moltres_galarian/back.2bpp.lz"
-
 SECTION "CorsolaPlain Pics", ROMX
 CorsolaPlainFrontpic: INCBIN "gfx/pokemon/corsola_plain/front.animated.2bpp.lz"
 CorsolaPlainBackpic:  INCBIN "gfx/pokemon/corsola_plain/back.2bpp.lz"
@@ -1576,3 +1552,7 @@ CubchooBackpic:  INCBIN "gfx/pokemon/cubchoo/back.2bpp.lz"
 SECTION "Beartic Pics", ROMX
 BearticFrontpic: INCBIN "gfx/pokemon/beartic/front.animated.2bpp.lz"
 BearticBackpic:  INCBIN "gfx/pokemon/beartic/back.2bpp.lz"
+
+SECTION "Cryogonal Pics", ROMX
+CryogonalFrontpic: INCBIN "gfx/pokemon/cryogonal/front.animated.2bpp.lz"
+CryogonalBackpic:  INCBIN "gfx/pokemon/cryogonal/back.2bpp.lz"

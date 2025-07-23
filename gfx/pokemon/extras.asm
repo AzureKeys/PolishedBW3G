@@ -246,6 +246,7 @@ FraxureAnimationExtra:    INCLUDE "gfx/pokemon/fraxure/anim_idle.asm"
 HaxorusAnimationExtra:    INCLUDE "gfx/pokemon/haxorus/anim_idle.asm"
 CubchooAnimationExtra:    INCLUDE "gfx/pokemon/cubchoo/anim_idle.asm"
 BearticAnimationExtra:    INCLUDE "gfx/pokemon/beartic/anim_idle.asm"
+CryogonalAnimationExtra:  INCLUDE "gfx/pokemon/cryogonal/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -387,15 +388,6 @@ WeezingGalarianAnimationExtra: INCLUDE "gfx/pokemon/weezing_galarian/anim_idle.a
 
 MrMimePlainAnimationExtra:    INCLUDE "gfx/pokemon/mr__mime_plain/anim_idle.asm"
 MrMimeGalarianAnimationExtra: INCLUDE "gfx/pokemon/mr__mime_galarian/anim_idle.asm"
-
-ArticunoPlainAnimationExtra:    INCLUDE "gfx/pokemon/articuno_plain/anim_idle.asm"
-ArticunoGalarianAnimationExtra: INCLUDE "gfx/pokemon/articuno_galarian/anim_idle.asm"
-
-ZapdosPlainAnimationExtra:    INCLUDE "gfx/pokemon/zapdos_plain/anim_idle.asm"
-ZapdosGalarianAnimationExtra: INCLUDE "gfx/pokemon/zapdos_galarian/anim_idle.asm"
-
-MoltresPlainAnimationExtra:    INCLUDE "gfx/pokemon/moltres_plain/anim_idle.asm"
-MoltresGalarianAnimationExtra: INCLUDE "gfx/pokemon/moltres_galarian/anim_idle.asm"
 
 SlowkingPlainAnimationExtra:    INCLUDE "gfx/pokemon/slowking_plain/anim_idle.asm"
 SlowkingGalarianAnimationExtra: INCLUDE "gfx/pokemon/slowking_galarian/anim_idle.asm"

@@ -110,9 +110,6 @@
 	const JOLTEON    ; 47
 	const FLAREON    ; 48
 	const SNORLAX    ; 49
-	const ARTICUNO   ; xx
-	const ZAPDOS     ; xx
-	const MOLTRES    ; xx
 	const DRATINI    ; 4a
 	const DRAGONAIR  ; 4b
 	const DRAGONITE  ; 4c
@@ -278,11 +275,11 @@
 	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
 	const SIGILYPH   ; 136
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const YAMASK     ; 137
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const CARRACOSTA ; 13a
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
@@ -328,6 +325,7 @@
 	const HAXORUS    ; 169
 	const CUBCHOO    ; 16a
 	const BEARTIC    ; 16b
+	const CRYOGONAL  ; 16c
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -479,9 +477,6 @@ DEF GALARIAN_FORM EQU 3
 	const_skip ; 175 slowbro
 	const_skip ; 177 weezing
 	const_skip ; 178 mr. mime
-	const_skip ; 179 articuno
-	const_skip ; 17a zapdos
-	const_skip ; 17b moltres
 	const_skip ; 17c slowking
 	const_skip ; 17d corsola
 

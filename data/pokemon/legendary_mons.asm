@@ -1,7 +1,4 @@
 LegendaryMons::
-	dp ARTICUNO
-	dp ZAPDOS
-	dp MOLTRES
 	dp RAIKOU
 	dp ENTEI
 	dp SUICUNE

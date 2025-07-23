@@ -246,6 +246,7 @@ FraxureAnimation:    INCLUDE "gfx/pokemon/fraxure/anim.asm"
 HaxorusAnimation:    INCLUDE "gfx/pokemon/haxorus/anim.asm"
 CubchooAnimation:    INCLUDE "gfx/pokemon/cubchoo/anim.asm"
 BearticAnimation:    INCLUDE "gfx/pokemon/beartic/anim.asm"
+CryogonalAnimation:  INCLUDE "gfx/pokemon/cryogonal/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -387,15 +388,6 @@ WeezingGalarianAnimation: INCLUDE "gfx/pokemon/weezing_galarian/anim.asm"
 
 MrMimePlainAnimation:    INCLUDE "gfx/pokemon/mr__mime_plain/anim.asm"
 MrMimeGalarianAnimation: INCLUDE "gfx/pokemon/mr__mime_galarian/anim.asm"
-
-ArticunoPlainAnimation:    INCLUDE "gfx/pokemon/articuno_plain/anim.asm"
-ArticunoGalarianAnimation: INCLUDE "gfx/pokemon/articuno_galarian/anim.asm"
-
-ZapdosPlainAnimation:    INCLUDE "gfx/pokemon/zapdos_plain/anim.asm"
-ZapdosGalarianAnimation: INCLUDE "gfx/pokemon/zapdos_galarian/anim.asm"
-
-MoltresPlainAnimation:    INCLUDE "gfx/pokemon/moltres_plain/anim.asm"
-MoltresGalarianAnimation: INCLUDE "gfx/pokemon/moltres_galarian/anim.asm"
 
 SlowkingPlainAnimation:    INCLUDE "gfx/pokemon/slowking_plain/anim.asm"
 SlowkingGalarianAnimation: INCLUDE "gfx/pokemon/slowking_galarian/anim.asm"

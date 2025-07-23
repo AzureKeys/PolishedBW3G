@@ -90,9 +90,6 @@ MiniIconPointers:
 	mini_icon Jolteon
 	mini_icon Flareon
 	mini_icon Snorlax
-	mini_icon Articuno
-	mini_icon Zapdos
-	mini_icon Moltres
 	mini_icon Dratini
 	mini_icon Dragonair
 	mini_icon Dragonite
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Scraggy
 	mini_icon Scrafty
 	mini_icon Sigilyph
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Yamask
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Carracosta
 	mini_icon Archen
 	mini_icon Archeops
@@ -308,6 +305,7 @@ MiniIconPointers:
 	mini_icon Haxorus
 	mini_icon Cubchoo
 	mini_icon Beartic
+	mini_icon Cryogonal
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -386,9 +384,6 @@ endr
 	mini_icon SlowbroGalarian
 	mini_icon WeezingGalarian
 	mini_icon MrMimeGalarian
-	mini_icon ArticunoGalarian
-	mini_icon ZapdosGalarian
-	mini_icon MoltresGalarian
 	mini_icon SlowkingGalarian
 	mini_icon CorsolaGalarian
 

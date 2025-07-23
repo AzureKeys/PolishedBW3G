@@ -1234,5 +1234,9 @@ CubchooEggSpeciesMoves:
 	db PLAY_ROUGH
 	db $ff
 
+CryogonalEggSpeciesMoves:
+	dp CRYOGONAL, PLAIN_FORM
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

@@ -1942,120 +1942,6 @@ endc
 	learnset 50, CLOSE_COMBAT ; Heavy Slam → new move
 	learnset 57, GIGA_IMPACT
 
-	evos_attacks ArticunoPlain
-	learnset 1, GUST
-	learnset 1, ICY_WIND ; Powder Snow → similar move
-	learnset 1, LEER ; LGPE move
-	learnset 8, ICE_SHARD ; Mist → Ice Shard
-	learnset 15, SAFEGUARD ; Ice Shard → new move
-	learnset 22, EXTRASENSORY ; Mind Reader → event move
-	learnset 29, ANCIENTPOWER
-	learnset 36, AGILITY
-	learnset 43, ICE_BEAM
-	learnset 50, AIR_SLASH ; Reflect → new move
-	learnset 57, HAIL
-	learnset 64, REFLECT ; Tailwind → Reflect
-	learnset 71, BLIZZARD
-	learnset 78, BRAVE_BIRD ; Sheer Cold → new move
-	learnset 85, ROOST
-	learnset 92, HURRICANE
-	learnset 99, AEROBLAST ; new move
-
-	evos_attacks ArticunoGalarian
-	learnset 1, GUST
-	learnset 1, CONFUSION
-	learnset 1, LEER ; LGPE move
-	learnset 8, SAFEGUARD ; Psycho Shift → new move
-	learnset 15, HYPNOSIS
-	learnset 22, EXTRASENSORY ; Mind Reader → event move
-	learnset 29, ANCIENTPOWER
-	learnset 36, AGILITY
-	learnset 43, PSYCHIC_M ; Freezing Glare → TM move
-	learnset 50, AIR_SLASH ; Reflect → new move
-	learnset 57, DREAM_EATER
-	learnset 64, REFLECT ; Tailwind → Reflect
-	learnset 71, FUTURE_SIGHT
-	learnset 78, BRAVE_BIRD ; Sheer Cold → TR move
-	learnset 85, RECOVER
-	learnset 92, HURRICANE
-	learnset 99, AEROBLAST ; new move
-
-	evos_attacks ZapdosPlain
-	learnset 1, PECK
-	learnset 1, THUNDERSHOCK
-	learnset 1, LEER ; LGPE move
-	learnset 8, THUNDER_WAVE
-	learnset 15, PROTECT ; Detect → similar move
-	learnset 22, EXTRASENSORY ; Pluck → event move
-	learnset 29, ANCIENTPOWER
-	learnset 36, AGILITY ; Charge → Agility
-	learnset 43, THUNDERBOLT ; Agility → TM move
-	learnset 50, DRILL_PECK ; Discharge → Drill Peck
-	learnset 57, RAIN_DANCE
-	learnset 64, LIGHT_SCREEN
-	learnset 71, THUNDER ; Drill Peck → Thunder
-	learnset 78, BRAVE_BIRD ; Thunder → new move
-	learnset 85, ROOST
-	learnset 92, HURRICANE ; Zap Cannon → new move
-	learnset 99, ZAP_CANNON
-
-	evos_attacks ZapdosGalarian
-	learnset 1, PECK
-	learnset 1, LOW_KICK ; Rock Smash → TR move
-	learnset 1, LEER ; LGPE move
-	learnset 8, FOCUS_ENERGY
-	learnset 15, PROTECT ; Detect → similar move
-	learnset 22, COUNTER ; Pluck → Counter
-	learnset 29, ANCIENTPOWER
-	learnset 36, AGILITY ; Charge → Agility
-	learnset 43, ROCK_SMASH ; Agility → Rock Smash/Brick Break
-	learnset 50, DRILL_PECK ; Discharge → Drill Peck
-	learnset 57, BULK_UP
-	learnset 64, LIGHT_SCREEN
-	learnset 71, CLOSE_COMBAT
-	learnset 78, BRAVE_BIRD ; Counter → TR move
-	learnset 85, HI_JUMP_KICK ; Quick Guard → new move
-	learnset 92, HURRICANE
-	learnset 99, REVERSAL
-
-	evos_attacks MoltresPlain
-	learnset 1, WING_ATTACK
-	learnset 1, EMBER
-	learnset 1, LEER ; LGPE move
-	learnset 8, FIRE_SPIN
-	learnset 15, SAFEGUARD ; Agility → Safeguard
-	learnset 22, EXTRASENSORY ; Endure → event move
-	learnset 29, ANCIENTPOWER
-	learnset 36, AGILITY ; Flamethrower → Agility
-	learnset 43, FLAMETHROWER ; Safeguard → Flamethrower
-	learnset 50, AIR_SLASH
-	learnset 57, SUNNY_DAY
-	learnset 64, WILL_O_WISP ; Heat Wave → event move
-	learnset 71, FIRE_BLAST ; Solar Beam → TM move
-	learnset 78, BRAVE_BIRD ; Sky Attack → new move
-	learnset 85, ROOST
-	learnset 92, HURRICANE
-	learnset 99, SOLAR_BEAM
-
-	evos_attacks MoltresGalarian
-	learnset 1, GUST
-	learnset 1, PURSUIT ; Payback → new move
-	learnset 1, LEER
-	learnset 8, FEINT_ATTACK ; new move
-	learnset 15, SAFEGUARD
-	learnset 22, WING_ATTACK
-	learnset 29, ANCIENTPOWER
-	learnset 36, AGILITY ; Flamethrower → Agility
-	learnset 43, SUCKER_PUNCH
-	learnset 50, AIR_SLASH
-	learnset 57, NASTY_PLOT ; After You → Nasty Plot
-	learnset 64, DARK_PULSE ; Fiery Wrath → similar move
-	learnset 71, HEX ; Nasty Plot → TR move
-	learnset 78, BRAVE_BIRD ; Sky Attack → new move
-	learnset 85, PAIN_SPLIT ; Memento → new move
-	learnset 92, HURRICANE
-	learnset 99, NIGHT_SLASH ; new move
-
 	evos_attacks Dratini
 	evo_data EVOLVE_LEVEL, 30, DRAGONAIR
 	learnset 1, WRAP
@@ -6104,6 +5990,23 @@ endc
 	learnset 45, BLIZZARD
 	learnset 53, HAIL
 	learnset 59, THRASH
+	
+	evos_attacks Cryogonal
+	learnset 1, ICE_SHARD
+	learnset 5, ICY_WIND
+	learnset 9, HAZE
+	learnset 13, AURORA_BEAM
+	learnset 17, BARRIER ; Acid Armor
+	learnset 21, ANCIENTPOWER
+	learnset 25, ICE_BEAM
+	learnset 29, LIGHT_SCREEN
+	learnset 33, REFLECT
+	learnset 37, SLASH
+	learnset 41, CONFUSE_RAY
+	learnset 45, RECOVER
+	learnset 50, SOLAR_BEAM
+	learnset 53, NIGHT_SLASH
+	learnset 57, BLIZZARD ; Sheer Cold
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

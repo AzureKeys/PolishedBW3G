@@ -168,15 +168,6 @@ WeezingGalarianFrames: INCLUDE "gfx/pokemon/weezing_galarian/frames.asm"
 MrMimePlainFrames:    INCLUDE "gfx/pokemon/mr__mime_plain/frames.asm"
 MrMimeGalarianFrames: INCLUDE "gfx/pokemon/mr__mime_galarian/frames.asm"
 
-ArticunoPlainFrames:    INCLUDE "gfx/pokemon/articuno_plain/frames.asm"
-ArticunoGalarianFrames: INCLUDE "gfx/pokemon/articuno_galarian/frames.asm"
-
-ZapdosPlainFrames:    INCLUDE "gfx/pokemon/zapdos_plain/frames.asm"
-ZapdosGalarianFrames: INCLUDE "gfx/pokemon/zapdos_galarian/frames.asm"
-
-MoltresPlainFrames:    INCLUDE "gfx/pokemon/moltres_plain/frames.asm"
-MoltresGalarianFrames: INCLUDE "gfx/pokemon/moltres_galarian/frames.asm"
-
 GrowlithePlainFrames:   INCLUDE "gfx/pokemon/growlithe_plain/frames.asm"
 GrowlitheHisuianFrames: INCLUDE "gfx/pokemon/growlithe_hisuian/frames.asm"
 

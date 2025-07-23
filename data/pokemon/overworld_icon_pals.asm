@@ -90,9 +90,6 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; JOLTEON
 	iconpal ORANGE, BLUE ; FLAREON
 	iconpal BLACK, BLUE ; SNORLAX
-	iconpal BLUE, AZURE ; ARTICUNO
-	iconpal BROWN, RED ; ZAPDOS
-	iconpal RED, RED ; MOLTRES
 	iconpal AZURE, PINK ; DRATINI
 	iconpal BLUE, RED ; DRAGONAIR
 	iconpal ORANGE, BLUE ; DRAGONITE
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
 	iconpal YELLOW, GREEN ; SIGILYPH
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal YELLOW, GRAY ; YAMASK
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, AZURE ; CARRACOSTA
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS
@@ -308,6 +305,7 @@ OverworldMonIconColors::
 	iconpal YELLOW, BLACK ; HAXORUS
 	iconpal AZURE, PINK ; CUBCHOO
 	iconpal AZURE, BLUE ; BEARTIC
+	iconpal BLUE, AZURE ; CRYOGONAL
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -359,9 +357,6 @@ endr
 	iconpal PURPLE, BROWN ; SLOWBRO, GALARIAN_FORM
 	iconpal GRAY, BROWN ; WEEZING, GALARIAN_FORM
 	iconpal BLUE, GRAY ; MR__MIME, GALARIAN_FORM
-	iconpal PURPLE, BLUE ; ARTICUNO, GALARIAN_FORM
-	iconpal RED, BROWN ; ZAPDOS, GALARIAN_FORM
-	iconpal RED, RED ; MOLTRES, GALARIAN_FORM
 	iconpal PURPLE, BROWN ; SLOWKING, GALARIAN_FORM
 	iconpal WHITE, PINK ; CORSOLA, GALARIAN_FORM
 

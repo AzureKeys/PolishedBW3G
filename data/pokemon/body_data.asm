@@ -93,9 +93,6 @@ PokemonBodyData:
 	body_data   8,  245, QUADRUPED,    YELLOW ; JOLTEON
 	body_data   9,  250, QUADRUPED,    RED    ; FLAREON
 	body_data  21, 4600, BIPEDAL,      BLACK  ; SNORLAX
-	body_data  17,  554, WINGS,        BLUE   ; ARTICUNO
-	body_data  16,  526, WINGS,        YELLOW ; ZAPDOS
-	body_data  20,  600, WINGS,        YELLOW ; MOLTRES
 	body_data  18,   33, SERPENTINE,   BLUE   ; DRATINI
 	body_data  40,  165, SERPENTINE,   BLUE   ; DRAGONAIR
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
 	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
 	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
@@ -311,6 +308,7 @@ PokemonBodyData:
 	body_data  18, 1055, BIPEDAL_TAIL, YELLOW ; HAXORUS
 	body_data   5,   85, BIPEDAL_TAIL, WHITE  ; CUBCHOO
 	body_data  26, 2600, QUADRUPED,    WHITE  ; BEARTIC
+	body_data  11, 1480, HEAD,         BLUE   ; CRYOGONAL
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -342,9 +340,6 @@ PokemonBodyData:
 	body_data  16,  705, BIPEDAL_TAIL, PINK   ; SLOWBRO (GALARIAN_FORM)
 	body_data  30,  160, MULTIBODY,    GRAY   ; WEEZING (GALARIAN_FORM)
 	body_data  14,  568, BIPEDAL,      WHITE  ; MR__MIME (GALARIAN_FORM)
-	body_data  17,  509, WINGS,        PURPLE ; ARTICUNO (GALARIAN_FORM)
-	body_data  16,  582, WINGS,        YELLOW ; ZAPDOS (GALARIAN_FORM)
-	body_data  20,  660, WINGS,        RED    ; MOLTRES (GALARIAN_FORM)
 	body_data  18,  795, BIPEDAL_TAIL, PINK   ; SLOWKING (GALARIAN_FORM)
 	body_data   6,    5, INSECTOID,    WHITE  ; CORSOLA (GALARIAN_FORM)
 

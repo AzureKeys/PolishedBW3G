@@ -86,9 +86,6 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Jolteon
 	dw EeveeEggSpeciesMoves             ; Flareon
 	dw MunchlaxEggSpeciesMoves          ; Snorlax
-	dw NoEggSpeciesMoves                ; Articuno
-	dw NoEggSpeciesMoves                ; Zapdos
-	dw NoEggSpeciesMoves                ; Moltres
 	dw DratiniEggSpeciesMoves           ; Dratini
 	dw DratiniEggSpeciesMoves           ; Dragonair
 	dw DratiniEggSpeciesMoves           ; Dragonite
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TirtougaEggSpeciesMoves          ; Carracosta
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
@@ -304,6 +301,7 @@ EggSpeciesMovesPointers::
 	dw AxewEggSpeciesMoves              ; Haxorus
 	dw CubchooEggSpeciesMoves           ; Cubchoo
 	dw CubchooEggSpeciesMoves           ; Beartic
+	dw CryogonalEggSpeciesMoves         ; Cryogonal
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -335,9 +333,6 @@ EggSpeciesMovesPointers::
 	dw SlowpokeGalarianEggSpeciesMoves  ; Slowbro (Galarian Form)
 	dw KoffingEggSpeciesMoves           ; Weezing (Galarian Form)
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime (Galarian Form)
-	dw NoEggSpeciesMoves                ; Articuno (Galarian Form)
-	dw NoEggSpeciesMoves                ; Zapdos (Galarian Form)
-	dw NoEggSpeciesMoves                ; Moltres (Galarian Form)
 	dw SlowpokeGalarianEggSpeciesMoves  ; Slowking (Galarian Form)
 	dw CorsolaGalarianEggSpeciesMoves   ; Corsola (Galarian Form)
 

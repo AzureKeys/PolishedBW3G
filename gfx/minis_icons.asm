@@ -437,21 +437,6 @@ SnorlaxMini::     INCBIN "gfx/minis/snorlax.2bpp.lz"
 SnorlaxMiniMask:: INCBIN "gfx/minis/snorlax_mask.1bpp.lz"
 SnorlaxIcon::     INCBIN "gfx/icons/snorlax.2bpp.lz"
 
-SECTION "Articuno Mini Icon", ROMX
-ArticunoMini::     INCBIN "gfx/minis/articuno.2bpp.lz"
-ArticunoMiniMask:: INCBIN "gfx/minis/articuno_mask.1bpp.lz"
-ArticunoIcon::     INCBIN "gfx/icons/articuno.2bpp.lz"
-
-SECTION "Zapdos Mini Icon", ROMX
-ZapdosMini::     INCBIN "gfx/minis/zapdos.2bpp.lz"
-ZapdosMiniMask:: INCBIN "gfx/minis/zapdos_mask.1bpp.lz"
-ZapdosIcon::     INCBIN "gfx/icons/zapdos.2bpp.lz"
-
-SECTION "Moltres Mini Icon", ROMX
-MoltresMini::     INCBIN "gfx/minis/moltres.2bpp.lz"
-MoltresMiniMask:: INCBIN "gfx/minis/moltres_mask.1bpp.lz"
-MoltresIcon::     INCBIN "gfx/icons/moltres.2bpp.lz"
-
 SECTION "Dratini Mini Icon", ROMX
 DratiniMini::     INCBIN "gfx/minis/dratini.2bpp.lz"
 DratiniMiniMask:: INCBIN "gfx/minis/dratini_mask.1bpp.lz"
@@ -1522,6 +1507,11 @@ BearticMini::     INCBIN "gfx/minis/beartic.2bpp.lz"
 BearticMiniMask:: INCBIN "gfx/minis/beartic_mask.1bpp.lz"
 BearticIcon::     INCBIN "gfx/icons/beartic.2bpp.lz"
 
+SECTION "Cryogonal Mini Icon", ROMX
+CryogonalMini::     INCBIN "gfx/minis/cryogonal.2bpp.lz"
+CryogonalMiniMask:: INCBIN "gfx/minis/cryogonal_mask.1bpp.lz"
+CryogonalIcon::     INCBIN "gfx/icons/cryogonal.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1776,21 +1766,6 @@ SECTION "MrMimeGalarian Mini Icon", ROMX
 MrMimeGalarianMini::     INCBIN "gfx/minis/mr__mime_galarian.2bpp.lz"
 MrMimeGalarianMiniMask:: INCBIN "gfx/minis/mr__mime_galarian_mask.1bpp.lz"
 MrMimeGalarianIcon::     INCBIN "gfx/icons/mr__mime_galarian.2bpp.lz"
-
-SECTION "ArticunoGalarian Mini Icon", ROMX
-ArticunoGalarianMini::     INCBIN "gfx/minis/articuno_galarian.2bpp.lz"
-ArticunoGalarianMiniMask:: INCBIN "gfx/minis/articuno_galarian_mask.1bpp.lz"
-ArticunoGalarianIcon::     INCBIN "gfx/icons/articuno_galarian.2bpp.lz"
-
-SECTION "ZapdosGalarian Mini Icon", ROMX
-ZapdosGalarianMini::     INCBIN "gfx/minis/zapdos_galarian.2bpp.lz"
-ZapdosGalarianMiniMask:: INCBIN "gfx/minis/zapdos_galarian_mask.1bpp.lz"
-ZapdosGalarianIcon::     INCBIN "gfx/icons/zapdos_galarian.2bpp.lz"
-
-SECTION "MoltresGalarian Mini Icon", ROMX
-MoltresGalarianMini::     INCBIN "gfx/minis/moltres_galarian.2bpp.lz"
-MoltresGalarianMiniMask:: INCBIN "gfx/minis/moltres_galarian_mask.1bpp.lz"
-MoltresGalarianIcon::     INCBIN "gfx/icons/moltres_galarian.2bpp.lz"
 
 SECTION "SlowkingGalarian Mini Icon", ROMX
 SlowkingGalarianMini::     INCBIN "gfx/minis/slowking_galarian.2bpp.lz"

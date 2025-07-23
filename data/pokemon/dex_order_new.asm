@@ -111,6 +111,7 @@ NewPokedexOrder:
 	dp HAXORUS
 	dp CUBCHOO
 	dp BEARTIC
+	dp CRYOGONAL
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -287,9 +288,6 @@ NewPokedexOrder:
 	dp SQUIRTLE
 	dp WARTORTLE
 	dp BLASTOISE
-	dp ARTICUNO
-	dp ZAPDOS
-	dp MOLTRES
 	dp RAIKOU
 	dp ENTEI
 	dp SUICUNE

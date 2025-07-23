@@ -246,6 +246,7 @@ FraxureBitmasks:    INCLUDE "gfx/pokemon/fraxure/bitmask.asm"
 HaxorusBitmasks:    INCLUDE "gfx/pokemon/haxorus/bitmask.asm"
 CubchooBitmasks:    INCLUDE "gfx/pokemon/cubchoo/bitmask.asm"
 BearticBitmasks:    INCLUDE "gfx/pokemon/beartic/bitmask.asm"
+CryogonalBitmasks:  INCLUDE "gfx/pokemon/cryogonal/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -387,15 +388,6 @@ WeezingGalarianBitmasks: INCLUDE "gfx/pokemon/weezing_galarian/bitmask.asm"
 
 MrMimePlainBitmasks:    INCLUDE "gfx/pokemon/mr__mime_plain/bitmask.asm"
 MrMimeGalarianBitmasks: INCLUDE "gfx/pokemon/mr__mime_galarian/bitmask.asm"
-
-ArticunoPlainBitmasks:    INCLUDE "gfx/pokemon/articuno_plain/bitmask.asm"
-ArticunoGalarianBitmasks: INCLUDE "gfx/pokemon/articuno_galarian/bitmask.asm"
-
-ZapdosPlainBitmasks:    INCLUDE "gfx/pokemon/zapdos_plain/bitmask.asm"
-ZapdosGalarianBitmasks: INCLUDE "gfx/pokemon/zapdos_galarian/bitmask.asm"
-
-MoltresPlainBitmasks:    INCLUDE "gfx/pokemon/moltres_plain/bitmask.asm"
-MoltresGalarianBitmasks: INCLUDE "gfx/pokemon/moltres_galarian/bitmask.asm"
 
 SlowkingPlainBitmasks:    INCLUDE "gfx/pokemon/slowking_plain/bitmask.asm"
 SlowkingGalarianBitmasks: INCLUDE "gfx/pokemon/slowking_galarian/bitmask.asm"

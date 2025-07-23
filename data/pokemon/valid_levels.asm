@@ -87,9 +87,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Jolteon
 	db  20, 100 ; Flareon
 	db  20, 100 ; Snorlax
-	db 255, 255 ; Articuno
-	db 255, 255 ; Zapdos
-	db 255, 255 ; Moltres
 	db  20,  29 ; Dratini
 	db  30,  54 ; Dragonair
 	db  55, 100 ; Dragonite
@@ -259,11 +256,11 @@ endc
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
 	db  20, 100 ; Sigilyph
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  37, 100 ; Carracosta
 	db   1,  36 ; Archen
 	db  37, 100 ; Archeops
@@ -309,4 +306,5 @@ endc
 	db  48, 100 ; Haxorus
 	db   1,  36 ; Cubchoo
 	db  37, 100 ; Beartic
+	db  30, 100 ; Cryogonal
 	assert_table_length NUM_SPECIES

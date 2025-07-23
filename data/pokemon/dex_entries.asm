@@ -866,36 +866,6 @@ SnorlaxPokedexEntry::
 	next "rotten food will"
 	next "not affect it.@"
 
-SECTION "ArticunoPlainPokedexEntry", ROMX
-ArticunoPlainPokedexEntry::
-	db "Freeze@"
-	db   "Legendary bird"
-	next "#mon. As it"
-	next "flies through the"
-	page "sky, it cools the"
-	next "air, causing snow"
-	next "to fall.@"
-
-SECTION "ZapdosPlainPokedexEntry", ROMX
-ZapdosPlainPokedexEntry::
-	db "Electric@"
-	db   "Legendary bird"
-	next "#mon. They say"
-	next "lightning caused"
-	page "by the flapping of"
-	next "its wings causes"
-	next "summer storms.@"
-
-SECTION "MoltresPlainPokedexEntry", ROMX
-MoltresPlainPokedexEntry::
-	db "Flame@"
-	db   "Legendary bird"
-	next "#mon. It is"
-	next "said to migrate"
-	page "from the south"
-	next "along with the"
-	next "spring.@"
-
 SECTION "DratiniPokedexEntry", ROMX
 DratiniPokedexEntry::
 	db "Dragon@"
@@ -3007,6 +2977,16 @@ BearticPokedexEntry::
 	next "with. It lives"
 	next "in cold areas.@"
 
+SECTION "CryogonalPokedexEntry", ROMX
+CryogonalPokedexEntry::
+	db "Crystallize@"
+	db "They are born in"
+	next "snow clouds. They"
+	next "use chains made"
+	page "of ice crystals"
+	next "to ensnare their"
+	next "prey.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -3250,36 +3230,6 @@ MrMimeGalarianPokedexEntry::
 	page "feet. It will tap"
 	next "dance all day on"
 	next "a frozen floor.@"
-
-SECTION "ArticunoGalarianPokedexEntry", ROMX
-ArticunoGalarianPokedexEntry::
-	db "Cruel@"
-	db   "Known as Articuno,"
-	next "this #mon fires"
-	next "beams that can im-"
-	page "mobilize opponents"
-	next "as if they had"
-	next "been frozen solid.@"
-
-SECTION "ZapdosGalarianPokedexEntry", ROMX
-ZapdosGalarianPokedexEntry::
-	db "Strong Legs@"
-	db   "When its feathers"
-	next "rub together,"
-	next "they produce a"
-	page "crackling sound"
-	next "like the zapping"
-	next "of electricity.@"
-
-SECTION "MoltresGalarianPokedexEntry", ROMX
-MoltresGalarianPokedexEntry::
-	db "Malevolent@"
-	db   "The sinister aura"
-	next "that blazes like"
-	next "molten fire around"
-	page "this #mon is"
-	next "what inspired the"
-	next "name Moltres.@"
 
 SECTION "SlowkingGalarianPokedexEntry", ROMX
 SlowkingGalarianPokedexEntry::

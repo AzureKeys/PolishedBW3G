@@ -90,9 +90,6 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw SnorlaxEvosAttacks
-	dw ArticunoPlainEvosAttacks
-	dw ZapdosPlainEvosAttacks
-	dw MoltresPlainEvosAttacks
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw SigilyphEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw YamaskPlainEvosAttacks
 	dw CofagrigusEvosAttacks
 	dw TirtougaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw CarracostaEvosAttacks
 	dw ArchenEvosAttacks
 	dw ArcheopsEvosAttacks
@@ -308,6 +305,7 @@ EvosAttacksPointers::
 	dw HaxorusEvosAttacks
 	dw CubchooEvosAttacks
 	dw BearticEvosAttacks
+	dw CryogonalEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -339,9 +337,6 @@ EvosAttacksPointers::
 	dw SlowbroGalarianEvosAttacks
 	dw WeezingGalarianEvosAttacks
 	dw MrMimeGalarianEvosAttacks
-	dw ArticunoGalarianEvosAttacks
-	dw ZapdosGalarianEvosAttacks
-	dw MoltresGalarianEvosAttacks
 	dw SlowkingGalarianEvosAttacks
 	dw CorsolaGalarianEvosAttacks
 

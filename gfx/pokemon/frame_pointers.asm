@@ -86,9 +86,6 @@ FramesPointers:
 	dw JolteonFrames
 	dw FlareonFrames
 	dw SnorlaxFrames
-	dw ArticunoPlainFrames
-	dw ZapdosPlainFrames
-	dw MoltresPlainFrames
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw ScraggyFrames
 	dw ScraftyFrames
 	dw SigilyphFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
 	dw TirtougaFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw CarracostaFrames
 	dw ArchenFrames
 	dw ArcheopsFrames
@@ -304,6 +301,7 @@ FramesPointers:
 	dw HaxorusFrames
 	dw CubchooFrames
 	dw BearticFrames
+	dw CryogonalFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -398,9 +396,6 @@ FramesPointers:
 	dw SlowbroGalarianFrames
 	dw WeezingGalarianFrames
 	dw MrMimeGalarianFrames
-	dw ArticunoGalarianFrames
-	dw ZapdosGalarianFrames
-	dw MoltresGalarianFrames
 	dw SlowkingGalarianFrames
 	dw CorsolaGalarianFrames
 

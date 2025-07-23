@@ -86,9 +86,6 @@ EvolutionMoves::
 	db THUNDERSHOCK ; JOLTEON
 	db EMBER        ; FLAREON
 	db NO_MOVE      ; SNORLAX
-	db NO_MOVE      ; ARTICUNO
-	db NO_MOVE      ; ZAPDOS
-	db NO_MOVE      ; MOLTRES
 	db NO_MOVE      ; DRATINI
 	db NO_MOVE      ; DRAGONAIR
 	db WING_ATTACK  ; DRAGONITE
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; SCRAGGY
 	db NO_MOVE      ; SCRAFTY
 	db NO_MOVE      ; SIGILYPH
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
@@ -308,6 +305,7 @@ endc
 	db NO_MOVE      ; HAXORUS
 	db NO_MOVE      ; CUBCHOO
 	db ICICLE_CRASH ; BEARTIC
+	db NO_MOVE      ; CRYOGONAL
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -339,9 +337,6 @@ endc
 	db GUNK_SHOT    ; SLOWBRO, GALARIAN_FORM
 	db SAFEGUARD    ; WEEZING, GALARIAN_FORM
 	db NO_MOVE      ; MR__MIME, GALARIAN_FORM
-	db NO_MOVE      ; ARTICUNO, GALARIAN_FORM
-	db NO_MOVE      ; ZAPDOS, GALARIAN_FORM
-	db NO_MOVE      ; MOLTRES, GALARIAN_FORM
 	db HEX          ; SLOWKING, GALARIAN_FORM
 	db NO_MOVE      ; CORSOLA, GALARIAN_FORM
 

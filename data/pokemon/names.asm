@@ -87,9 +87,6 @@ PokemonNames::
 	rawchar "Jolteon@@@"
 	rawchar "Flareon@@@"
 	rawchar "Snorlax@@@"
-	rawchar "Articuno@@"
-	rawchar "Zapdos@@@@"
-	rawchar "Moltres@@@"
 	rawchar "Dratini@@@"
 	rawchar "Dragonair@"
 	rawchar "Dragonite@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Scraggy@@@"
 	rawchar "Scrafty@@@"
 	rawchar "Sigilyph@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Yamask@@@@"
 	rawchar "Cofagrigus"
 	rawchar "Tirtouga@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Carracosta"
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"
@@ -305,4 +302,5 @@ PokemonNames::
 	rawchar "Haxorus@@@"
 	rawchar "Cubchoo@@@"
 	rawchar "Beartic@@@"
+	rawchar "Cryogonal@"
 	assert_table_length NUM_SPECIES + 1

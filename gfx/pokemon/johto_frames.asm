@@ -185,6 +185,7 @@ FraxureFrames:    INCLUDE "gfx/pokemon/fraxure/frames.asm"
 HaxorusFrames:    INCLUDE "gfx/pokemon/haxorus/frames.asm"
 CubchooFrames:    INCLUDE "gfx/pokemon/cubchoo/frames.asm"
 BearticFrames:    INCLUDE "gfx/pokemon/beartic/frames.asm"
+CryogonalFrames:  INCLUDE "gfx/pokemon/cryogonal/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

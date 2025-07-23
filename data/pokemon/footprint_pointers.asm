@@ -86,9 +86,6 @@ FootprintPointers::
 	dw JolteonFootprint
 	dw FlareonFootprint
 	dw SnorlaxFootprint
-	dw ArticunoFootprint
-	dw ZapdosFootprint
-	dw MoltresFootprint
 	dw DratiniFootprint
 	dw DragonairFootprint
 	dw DragoniteFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw ScraggyFootprint
 	dw ScraftyFootprint
 	dw SigilyphFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw YamaskFootprint
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw CarracostaFootprint
 	dw ArchenFootprint
 	dw ArcheopsFootprint
@@ -304,6 +301,7 @@ FootprintPointers::
 	dw HaxorusFootprint
 	dw CubchooFootprint
 	dw BearticFootprint
+	dw CryogonalFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -335,9 +333,6 @@ FootprintPointers::
 	dw SlowbroFootprint
 	dw WeezingFootprint
 	dw MrMimeFootprint
-	dw ArticunoFootprint
-	dw ZapdosFootprint
-	dw MoltresFootprint
 	dw SlowkingFootprint
 	dw CorsolaFootprint
 

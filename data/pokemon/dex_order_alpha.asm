@@ -9,7 +9,6 @@ AlphabeticalPokedexOrder:
 	dp ARCANINE
 	dp ARCHEN
 	dp ARCHEOPS
-	dp ARTICUNO
 	dp AUDINO
 	dp AXEW
 	dp AZUMARILL
@@ -41,6 +40,7 @@ AlphabeticalPokedexOrder:
 	dp CROBAT
 	dp CROCONAW
 	dp CRUSTLE
+	dp CRYOGONAL
 	dp CUBCHOO
 	dp CURSOLA
 	dp CYNDAQUIL
@@ -163,7 +163,6 @@ AlphabeticalPokedexOrder:
 	dp MIME_JR_
 	dp MISDREAVUS
 	dp MISMAGIUS
-	dp MOLTRES
 	dp MR__MIME
 	dp MR__RIME
 	dp MUK
@@ -299,7 +298,6 @@ AlphabeticalPokedexOrder:
 	dp YAMASK
 	dp YANMA
 	dp YANMEGA
-	dp ZAPDOS
 	dp ZEBSTRIKA
 	dp ZOROARK
 	dp ZORUA

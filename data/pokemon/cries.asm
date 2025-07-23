@@ -92,9 +92,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $03d,  $100 ; Jolteon
 	mon_cry CRY_VENONAT,     $010,  $0a0 ; Flareon
 	mon_cry CRY_GRIMER,      $055,  $081 ; Snorlax
-	mon_cry CRY_RAICHU,      $080,  $0c0 ; Articuno
-	mon_cry CRY_SHELLDER,    $0ff,  $100 ; Zapdos
-	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; Moltres
 	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; Dratini
 	mon_cry CRY_BULBASAUR,   $040,  $100 ; Dragonair
 	mon_cry CRY_BULBASAUR,   $03c,  $140 ; Dragonite
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; SCRAGGY*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SCRAFTY*
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_METAPOD,     $000,  $100 ; YAMASK*
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; COFAGRIGUS*
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; TIRTOUGA*
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; CARRACOSTA*
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
@@ -310,4 +307,5 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $7d8,  $190 ; Haxorus
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; CUBCHOO*
 	mon_cry CRY_VILEPLUME,  -$2bb,  $0bb ; Beartic
+	mon_cry CRY_METAPOD,     $7d4,  $17f ; Cryogonal
 	assert_table_length NUM_SPECIES
