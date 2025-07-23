@@ -307,6 +307,9 @@ PokemonBodyData:
 	body_data   3,   31, HEAD_BASE,    WHITE  ; LITWICK
 	body_data   6,  130, HEAD_ARMS,    BLACK  ; LAMPENT
 	body_data  10,  343, HEAD_ARMS,    BLACK  ; CHANDELURE
+	body_data   6,  180, BIPEDAL_TAIL, GREEN  ; AXEW
+	body_data  10,  360, BIPEDAL_TAIL, GREEN  ; FRAXURE
+	body_data  18, 1055, BIPEDAL_TAIL, YELLOW ; HAXORUS
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

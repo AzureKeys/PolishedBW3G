@@ -300,6 +300,9 @@ FramesPointers:
 	dw LitwickFrames
 	dw LampentFrames
 	dw ChandelureFrames
+	dw AxewFrames
+	dw FraxureFrames
+	dw HaxorusFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

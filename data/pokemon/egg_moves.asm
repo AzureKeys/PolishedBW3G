@@ -1214,5 +1214,17 @@ LitwickEggSpeciesMoves:
 	db HAZE
 	db $ff
 
+AxewEggSpeciesMoves:
+	dp AXEW, PLAIN_FORM
+	db COUNTER
+	db DRAGON_PULSE
+	db ENDURE
+	db FOCUS_ENERGY
+	;db HARDEN
+	db IRON_TAIL
+	db NIGHT_SLASH
+	db REVERSAL
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

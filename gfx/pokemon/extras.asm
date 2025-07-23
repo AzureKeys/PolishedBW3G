@@ -241,6 +241,9 @@ EelektrossAnimationExtra: INCLUDE "gfx/pokemon/eelektross/anim_idle.asm"
 LitwickAnimationExtra:    INCLUDE "gfx/pokemon/litwick/anim_idle.asm"
 LampentAnimationExtra:    INCLUDE "gfx/pokemon/lampent/anim_idle.asm"
 ChandelureAnimationExtra: INCLUDE "gfx/pokemon/chandelure/anim_idle.asm"
+AxewAnimationExtra:       INCLUDE "gfx/pokemon/axew/anim_idle.asm"
+FraxureAnimationExtra:    INCLUDE "gfx/pokemon/fraxure/anim_idle.asm"
+HaxorusAnimationExtra:    INCLUDE "gfx/pokemon/haxorus/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

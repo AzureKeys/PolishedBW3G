@@ -1572,3 +1572,15 @@ LampentBackpic:  INCBIN "gfx/pokemon/lampent/back.2bpp.lz"
 SECTION "Chandelure Pics", ROMX
 ChandelureFrontpic: INCBIN "gfx/pokemon/chandelure/front.animated.2bpp.lz"
 ChandelureBackpic:  INCBIN "gfx/pokemon/chandelure/back.2bpp.lz"
+
+SECTION "Axew Pics", ROMX
+AxewFrontpic: INCBIN "gfx/pokemon/axew/front.animated.2bpp.lz"
+AxewBackpic:  INCBIN "gfx/pokemon/axew/back.2bpp.lz"
+
+SECTION "Fraxure Pics", ROMX
+FraxureFrontpic: INCBIN "gfx/pokemon/fraxure/front.animated.2bpp.lz"
+FraxureBackpic:  INCBIN "gfx/pokemon/fraxure/back.2bpp.lz"
+
+SECTION "Haxorus Pics", ROMX
+HaxorusFrontpic: INCBIN "gfx/pokemon/haxorus/front.animated.2bpp.lz"
+HaxorusBackpic:  INCBIN "gfx/pokemon/haxorus/back.2bpp.lz"

@@ -241,6 +241,9 @@ EelektrossBitmasks: INCLUDE "gfx/pokemon/eelektross/bitmask.asm"
 LitwickBitmasks:    INCLUDE "gfx/pokemon/litwick/bitmask.asm"
 LampentBitmasks:    INCLUDE "gfx/pokemon/lampent/bitmask.asm"
 ChandelureBitmasks: INCLUDE "gfx/pokemon/chandelure/bitmask.asm"
+AxewBitmasks:       INCLUDE "gfx/pokemon/axew/bitmask.asm"
+FraxureBitmasks:    INCLUDE "gfx/pokemon/fraxure/bitmask.asm"
+HaxorusBitmasks:    INCLUDE "gfx/pokemon/haxorus/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

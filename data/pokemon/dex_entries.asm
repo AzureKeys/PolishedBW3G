@@ -2967,6 +2967,36 @@ ChandelurePokedexEntry::
 	next "leaving the body"
 	next "behind.@"
 
+SECTION "AxewPokedexEntry", ROMX
+AxewPokedexEntry::
+	db "Tusk@"
+	db "Its tusks have a"
+	next "tendency to break,"
+	next "but each time"
+	page "they grow back,"
+	next "they become harder"
+	next "and stronger.@"
+
+SECTION "FraxurePokedexEntry", ROMX
+FraxurePokedexEntry::
+	db "Axe Jaw@"
+	db "Their tusks can"
+	next "shatter rocks."
+	next "Territory battles"
+	page "between Fraxure"
+	next "can be intensely"
+	next "violent.@"
+
+SECTION "HaxorusPokedexEntry", ROMX
+HaxorusPokedexEntry::
+	db "Axe Jaw@"
+	db "Their tusks will"
+	next "stay sharp even"
+	next "if used to cut"
+	page "steel beams. These"
+	next "#mon are cased"
+	next "in hard armor.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

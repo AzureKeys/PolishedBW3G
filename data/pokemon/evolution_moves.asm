@@ -304,6 +304,9 @@ endc
 	db NO_MOVE      ; LITWICK
 	db NO_MOVE      ; LAMPENT
 	db NO_MOVE      ; CHANDELURE
+	db NO_MOVE      ; AXEW
+	db NO_MOVE      ; FRAXURE
+	db NO_MOVE      ; HAXORUS
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

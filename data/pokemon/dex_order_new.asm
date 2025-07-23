@@ -106,6 +106,9 @@ NewPokedexOrder:
 	dp LITWICK
 	dp LAMPENT
 	dp CHANDELURE
+	dp AXEW
+	dp FRAXURE
+	dp HAXORUS
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

@@ -305,4 +305,7 @@ endc
 	db   1,  40 ; Litwick
 	db  41,  51 ; Lampent
 	db  52, 100 ; Chandelure
+	db   1,  37 ; Axew
+	db  38,  47 ; Fraxure
+	db  48, 100 ; Haxorus
 	assert_table_length NUM_SPECIES

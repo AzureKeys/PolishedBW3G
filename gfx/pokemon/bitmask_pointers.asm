@@ -300,6 +300,9 @@ BitmasksPointers:
 	dw LitwickBitmasks
 	dw LampentBitmasks
 	dw ChandelureBitmasks
+	dw AxewBitmasks
+	dw FraxureBitmasks
+	dw HaxorusBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

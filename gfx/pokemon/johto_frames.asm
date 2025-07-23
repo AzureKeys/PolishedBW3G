@@ -180,6 +180,9 @@ EelektrossFrames: INCLUDE "gfx/pokemon/eelektross/frames.asm"
 LitwickFrames:    INCLUDE "gfx/pokemon/litwick/frames.asm"
 LampentFrames:    INCLUDE "gfx/pokemon/lampent/frames.asm"
 ChandelureFrames: INCLUDE "gfx/pokemon/chandelure/frames.asm"
+AxewFrames:       INCLUDE "gfx/pokemon/axew/frames.asm"
+FraxureFrames:    INCLUDE "gfx/pokemon/fraxure/frames.asm"
+HaxorusFrames:    INCLUDE "gfx/pokemon/haxorus/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

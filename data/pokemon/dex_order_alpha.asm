@@ -11,6 +11,7 @@ AlphabeticalPokedexOrder:
 	dp ARCHEOPS
 	dp ARTICUNO
 	dp AUDINO
+	dp AXEW
 	dp AZUMARILL
 	dp AZURILL
 	dp BASCULIN
@@ -78,6 +79,7 @@ AlphabeticalPokedexOrder:
 	dp FLAAFFY
 	dp FLAREON
 	dp FOONGUS
+	dp FRAXURE
 	dp FRILLISH
 	dp GALVANTULA
 	dp GARBODOR
@@ -101,6 +103,7 @@ AlphabeticalPokedexOrder:
 	dp GURDURR
 	dp GYARADOS
 	dp HAUNTER
+	dp HAXORUS
 	dp HERACROSS
 	dp HERDIER
 	dp HO_OH

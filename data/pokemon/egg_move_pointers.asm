@@ -300,6 +300,9 @@ EggSpeciesMovesPointers::
 	dw LitwickEggSpeciesMoves           ; Litwick
 	dw LitwickEggSpeciesMoves           ; Lampent
 	dw LitwickEggSpeciesMoves           ; Chandelure
+	dw AxewEggSpeciesMoves              ; Axew
+	dw AxewEggSpeciesMoves              ; Fraxure
+	dw AxewEggSpeciesMoves              ; Haxorus
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -301,4 +301,7 @@ PokemonNames::
 	rawchar "Litwick@@@"
 	rawchar "Lampent@@@"
 	rawchar "Chandelure"
+	rawchar "Axew@@@@@@"
+	rawchar "Fraxure@@@"
+	rawchar "Haxorus@@@"
 	assert_table_length NUM_SPECIES + 1

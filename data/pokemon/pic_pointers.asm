@@ -304,6 +304,9 @@ PokemonPicPointers::
 	pics Litwick
 	pics Lampent
 	pics Chandelure
+	pics Axew
+	pics Fraxure
+	pics Haxorus
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

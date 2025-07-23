@@ -6075,6 +6075,66 @@ endc
 	learnset 1, CONFUSE_RAY
 	learnset 1, PAIN_SPLIT
 	learnset 1, HEX
+	
+	evos_attacks Axew
+	evo_data EVOLVE_LEVEL, 38, FRAXURE
+	learnset 1, SCRATCH
+	learnset 4, LEER
+	learnset 7, PURSUIT ; Assurance
+	learnset 10, DRAGON_RAGE
+	learnset 13, DRAGONBREATH ; Dual Chop
+	learnset 16, SCARY_FACE
+	learnset 20, SLASH
+	learnset 24, FALSE_SWIPE
+	learnset 28, DRAGON_CLAW
+	learnset 32, DRAGON_DANCE
+	learnset 36, SWAGGER ; Taunt
+	learnset 41, DRAGON_PULSE
+	learnset 46, SWORDS_DANCE
+	learnset 50, BELLY_DRUM ; Guillotine
+	learnset 56, OUTRAGE
+	learnset 61, GIGA_IMPACT
+	
+	evos_attacks Fraxure
+	evo_data EVOLVE_LEVEL, 48, HAXORUS
+	learnset 1, SCRATCH
+	learnset 4, LEER
+	learnset 7, PURSUIT ; Assurance
+	learnset 10, DRAGON_RAGE
+	learnset 13, DRAGONBREATH ; Dual Chop
+	learnset 16, SCARY_FACE
+	learnset 20, SLASH
+	learnset 24, FALSE_SWIPE
+	learnset 28, DRAGON_CLAW
+	learnset 32, DRAGON_DANCE
+	learnset 36, SWAGGER ; Taunt
+	learnset 42, DRAGON_PULSE
+	learnset 48, SWORDS_DANCE
+	learnset 54, BELLY_DRUM ; Guillotine
+	learnset 60, OUTRAGE
+	learnset 66, GIGA_IMPACT
+	
+	evos_attacks Haxorus
+	learnset 1, OUTRAGE
+	learnset 1, SCRATCH
+	learnset 1, LEER
+	learnset 1, PURSUIT ; Assurance
+	learnset 1, DRAGON_RAGE
+	learnset 4, LEER
+	learnset 7, PURSUIT ; Assurance
+	learnset 10, DRAGON_RAGE
+	learnset 13, DRAGONBREATH ; Dual Chop
+	learnset 16, SCARY_FACE
+	learnset 20, SLASH
+	learnset 24, FALSE_SWIPE
+	learnset 28, DRAGON_CLAW
+	learnset 32, DRAGON_DANCE
+	learnset 36, SWAGGER ; Taunt
+	learnset 42, DRAGON_PULSE
+	learnset 48, SWORDS_DANCE
+	learnset 58, BELLY_DRUM ; Guillotine
+	learnset 66, OUTRAGE
+	learnset 74, GIGA_IMPACT
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

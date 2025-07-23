@@ -300,6 +300,9 @@ AnimationExtraPointers:
 	dw LitwickAnimationExtra
 	dw LampentAnimationExtra
 	dw ChandelureAnimationExtra
+	dw AxewAnimationExtra
+	dw FraxureAnimationExtra
+	dw HaxorusAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

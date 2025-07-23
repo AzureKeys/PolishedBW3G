@@ -306,4 +306,7 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $030,  $0d0 ; Litwick
 	mon_cry CRY_CLEFAIRY,   -$02e,  $1dd ; Lampent
 	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; Chandelure
+	mon_cry CRY_CATERPIE,    $83c,  $0c0 ; Axew
+	mon_cry CRY_EKANS,       $9c5,  $170 ; Fraxure
+	mon_cry CRY_EKANS,       $7d8,  $190 ; Haxorus
 	assert_table_length NUM_SPECIES

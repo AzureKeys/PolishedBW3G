@@ -1502,6 +1502,21 @@ ChandelureMini::     INCBIN "gfx/minis/chandelure.2bpp.lz"
 ChandelureMiniMask:: INCBIN "gfx/minis/chandelure_mask.1bpp.lz"
 ChandelureIcon::     INCBIN "gfx/icons/chandelure.2bpp.lz"
 
+SECTION "Axew Mini Icon", ROMX
+AxewMini::     INCBIN "gfx/minis/axew.2bpp.lz"
+AxewMiniMask:: INCBIN "gfx/minis/axew_mask.1bpp.lz"
+AxewIcon::     INCBIN "gfx/icons/axew.2bpp.lz"
+
+SECTION "Fraxure Mini Icon", ROMX
+FraxureMini::     INCBIN "gfx/minis/fraxure.2bpp.lz"
+FraxureMiniMask:: INCBIN "gfx/minis/fraxure_mask.1bpp.lz"
+FraxureIcon::     INCBIN "gfx/icons/fraxure.2bpp.lz"
+
+SECTION "Haxorus Mini Icon", ROMX
+HaxorusMini::     INCBIN "gfx/minis/haxorus.2bpp.lz"
+HaxorusMiniMask:: INCBIN "gfx/minis/haxorus_mask.1bpp.lz"
+HaxorusIcon::     INCBIN "gfx/icons/haxorus.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

@@ -301,6 +301,9 @@ PokedexDataPointerTable:
 	dba LitwickPokedexEntry
 	dba LampentPokedexEntry
 	dba ChandelurePokedexEntry
+	dba AxewPokedexEntry
+	dba FraxurePokedexEntry
+	dba HaxorusPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

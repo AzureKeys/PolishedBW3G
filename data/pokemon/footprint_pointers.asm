@@ -300,6 +300,9 @@ FootprintPointers::
 	dw LitwickFootprint
 	dw LampentFootprint
 	dw ChandelureFootprint
+	dw AxewFootprint
+	dw FraxureFootprint
+	dw HaxorusFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -304,6 +304,9 @@ OverworldMonIconColors::
 	iconpal PURPLE, AZURE ; LITWICK
 	iconpal BLACK, PURPLE ; LAMPENT
 	iconpal PURPLE, ORANGE ; CHANDELURE
+	iconpal GREEN, BROWN ; AXEW
+	iconpal GREEN, YELLOW ; FRAXURE
+	iconpal YELLOW, BLACK ; HAXORUS
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

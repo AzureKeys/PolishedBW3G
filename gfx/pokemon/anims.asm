@@ -241,6 +241,9 @@ EelektrossAnimation: INCLUDE "gfx/pokemon/eelektross/anim.asm"
 LitwickAnimation:    INCLUDE "gfx/pokemon/litwick/anim.asm"
 LampentAnimation:    INCLUDE "gfx/pokemon/lampent/anim.asm"
 ChandelureAnimation: INCLUDE "gfx/pokemon/chandelure/anim.asm"
+AxewAnimation:       INCLUDE "gfx/pokemon/axew/anim.asm"
+FraxureAnimation:    INCLUDE "gfx/pokemon/fraxure/anim.asm"
+HaxorusAnimation:    INCLUDE "gfx/pokemon/haxorus/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

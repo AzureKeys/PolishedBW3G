@@ -115,6 +115,9 @@ EelektrossFootprint::
 LitwickFootprint::
 LampentFootprint::
 ChandelureFootprint::
+AxewFootprint::
+FraxureFootprint::
+HaxorusFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

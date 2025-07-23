@@ -335,6 +335,9 @@ INCLUDE "data/pokemon/base_stats/eelektross.asm"
 INCLUDE "data/pokemon/base_stats/litwick.asm"
 INCLUDE "data/pokemon/base_stats/lampent.asm"
 INCLUDE "data/pokemon/base_stats/chandelure.asm"
+INCLUDE "data/pokemon/base_stats/axew.asm"
+INCLUDE "data/pokemon/base_stats/fraxure.asm"
+INCLUDE "data/pokemon/base_stats/haxorus.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

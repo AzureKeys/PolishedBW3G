@@ -304,6 +304,9 @@ MiniIconPointers:
 	mini_icon Litwick
 	mini_icon Lampent
 	mini_icon Chandelure
+	mini_icon Axew
+	mini_icon Fraxure
+	mini_icon Haxorus
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
