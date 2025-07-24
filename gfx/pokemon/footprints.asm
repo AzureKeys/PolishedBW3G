@@ -158,9 +158,7 @@ MisdreavusFootprint::
 MismagiusFootprint::
 MukFootprint::
 OnixFootprint::
-OverqwilFootprint::
 PupitarFootprint::
-QwilfishFootprint::
 RemoraidFootprint::
 SeadraFootprint::
 SeelFootprint::

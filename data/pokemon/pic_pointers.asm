@@ -133,7 +133,6 @@ PokemonPicPointers::
 	pics Steelix
 	pics Snubbull
 	pics Granbull
-	pics QwilfishPlain
 	pics Scizor
 	pics Shuckle
 	pics Heracross
@@ -188,7 +187,6 @@ PokemonPicPointers::
 	pics Kleavor
 	pics UrsalunaPlain
 	pics Sneasler
-	pics Overqwil
 	pics DudunsparceTwoSegment
 	pics Annihilape
 	pics Snivy
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Carracosta
 	pics Archen
 	pics Archeops
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Trubbish
 	pics Garbodor
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics ZoruaPlain
 	pics ZoroarkPlain
 	pics Gothita
@@ -411,7 +409,6 @@ PokemonPicPointers::
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
 	pics TyphlosionHisuian
-	pics QwilfishHisuian
 	pics SneaselHisuian
 
 	pics UrsalunaBloodmoon

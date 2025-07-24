@@ -146,7 +146,6 @@ CursolaAnimation:    INCLUDE "gfx/pokemon/cursola/anim.asm"
 MrRimeAnimation:     INCLUDE "gfx/pokemon/mr__rime/anim.asm"
 KleavorAnimation:    INCLUDE "gfx/pokemon/kleavor/anim.asm"
 SneaslerAnimation:   INCLUDE "gfx/pokemon/sneasler/anim.asm"
-OverqwilAnimation:   INCLUDE "gfx/pokemon/overqwil/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
 SnivyAnimation:      INCLUDE "gfx/pokemon/snivy/anim.asm"
 ServineAnimation:    INCLUDE "gfx/pokemon/servine/anim.asm"
@@ -408,9 +407,6 @@ ArcanineHisuianAnimation: INCLUDE "gfx/pokemon/arcanine_hisuian/anim.asm"
 
 TyphlosionPlainAnimation:   INCLUDE "gfx/pokemon/typhlosion_plain/anim.asm"
 TyphlosionHisuianAnimation: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim.asm"
-
-QwilfishPlainAnimation:   INCLUDE "gfx/pokemon/qwilfish_plain/anim.asm"
-QwilfishHisuianAnimation: INCLUDE "gfx/pokemon/qwilfish_hisuian/anim.asm"
 
 SneaselPlainAnimation:   INCLUDE "gfx/pokemon/sneasel_plain/anim.asm"
 SneaselHisuianAnimation: INCLUDE "gfx/pokemon/sneasel_hisuian/anim.asm"

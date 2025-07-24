@@ -130,7 +130,6 @@ PokedexDataPointerTable:
 	dba SteelixPokedexEntry
 	dba SnubbullPokedexEntry
 	dba GranbullPokedexEntry
-	dba QwilfishPokedexEntry
 	dba ScizorPokedexEntry
 	dba ShucklePokedexEntry
 	dba HeracrossPokedexEntry
@@ -185,7 +184,6 @@ PokedexDataPointerTable:
 	dba KleavorPokedexEntry
 	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
-	dba OverqwilPokedexEntry
 	dba DudunsparcePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba SnivyPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
 	dba GothitaPokedexEntry
@@ -345,7 +343,6 @@ PokedexDataPointerTable:
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry
 	dba TyphlosionHisuianPokedexEntry
-	dba QwilfishHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
 
 	dba UrsalunaBloodmoonPokedexEntry

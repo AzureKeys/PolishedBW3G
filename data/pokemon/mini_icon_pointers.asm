@@ -133,7 +133,6 @@ MiniIconPointers:
 	mini_icon Steelix
 	mini_icon Snubbull
 	mini_icon Granbull
-	mini_icon Qwilfish
 	mini_icon Scizor
 	mini_icon Shuckle
 	mini_icon Heracross
@@ -188,7 +187,6 @@ MiniIconPointers:
 	mini_icon Kleavor
 	mini_icon Ursaluna
 	mini_icon Sneasler
-	mini_icon Overqwil
 	mini_icon DudunsparceTwoSegment
 	mini_icon Annihilape
 	mini_icon Snivy
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Carracosta
 	mini_icon Archen
 	mini_icon Archeops
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Trubbish
 	mini_icon Garbodor
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Zorua
 	mini_icon Zoroark
 	mini_icon Gothita
@@ -395,7 +393,6 @@ endr
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
 	mini_icon TyphlosionHisuian
-	mini_icon QwilfishHisuian
 	mini_icon SneaselHisuian
 
 	mini_icon UrsalunaBloodmoon

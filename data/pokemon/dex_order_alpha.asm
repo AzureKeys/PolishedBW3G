@@ -184,7 +184,6 @@ AlphabeticalPokedexOrder:
 	dp OCTILLERY
 	dp ONIX
 	dp OSHAWOTT
-	dp OVERQWIL
 	dp PALPITOAD
 	dp PARAS
 	dp PARASECT
@@ -209,7 +208,6 @@ AlphabeticalPokedexOrder:
 	dp PUPITAR
 	dp PURRLOIN
 	dp QUILAVA
-	dp QWILFISH
 	dp RAICHU
 	dp RAIKOU
 	dp RAPIDASH

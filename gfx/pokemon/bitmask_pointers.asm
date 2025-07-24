@@ -129,7 +129,6 @@ BitmasksPointers:
 	dw SteelixBitmasks
 	dw SnubbullBitmasks
 	dw GranbullBitmasks
-	dw QwilfishPlainBitmasks
 	dw ScizorBitmasks
 	dw ShuckleBitmasks
 	dw HeracrossBitmasks
@@ -184,7 +183,6 @@ BitmasksPointers:
 	dw KleavorBitmasks
 	dw UrsalunaPlainBitmasks
 	dw SneaslerBitmasks
-	dw OverqwilBitmasks
 	dw DudunsparceTwoSegmentBitmasks
 	dw AnnihilapeBitmasks
 	dw SnivyBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw CarracostaBitmasks
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
 	dw GothitaBitmasks
@@ -407,7 +405,6 @@ BitmasksPointers:
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks
 	dw TyphlosionHisuianBitmasks
-	dw QwilfishHisuianBitmasks
 	dw SneaselHisuianBitmasks
 
 	dw UrsalunaBloodmoonBitmasks

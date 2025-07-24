@@ -85,7 +85,6 @@ CursolaFrames:    INCLUDE "gfx/pokemon/cursola/frames.asm"
 MrRimeFrames:     INCLUDE "gfx/pokemon/mr__rime/frames.asm"
 KleavorFrames:    INCLUDE "gfx/pokemon/kleavor/frames.asm"
 SneaslerFrames:   INCLUDE "gfx/pokemon/sneasler/frames.asm"
-OverqwilFrames:   INCLUDE "gfx/pokemon/overqwil/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
 SnivyFrames:      INCLUDE "gfx/pokemon/snivy/frames.asm"
 ServineFrames:    INCLUDE "gfx/pokemon/servine/frames.asm"
@@ -234,9 +233,6 @@ CorsolaGalarianFrames: INCLUDE "gfx/pokemon/corsola_galarian/frames.asm"
 
 TyphlosionPlainFrames:   INCLUDE "gfx/pokemon/typhlosion_plain/frames.asm"
 TyphlosionHisuianFrames: INCLUDE "gfx/pokemon/typhlosion_hisuian/frames.asm"
-
-QwilfishPlainFrames:   INCLUDE "gfx/pokemon/qwilfish_plain/frames.asm"
-QwilfishHisuianFrames: INCLUDE "gfx/pokemon/qwilfish_hisuian/frames.asm"
 
 SneaselPlainFrames:   INCLUDE "gfx/pokemon/sneasel_plain/frames.asm"
 SneaselHisuianFrames: INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"

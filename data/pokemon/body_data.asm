@@ -136,7 +136,6 @@ PokemonBodyData:
 	body_data  92, 4000, SERPENTINE,   GRAY   ; STEELIX
 	body_data   6,   78, BIPEDAL,      PINK   ; SNUBBULL
 	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; GRANBULL
-	body_data   5,   39, FINS,         GRAY   ; QWILFISH
 	body_data  18, 1180, MULTIWINGS,   RED    ; SCIZOR
 	body_data   6,  205, INSECTOID,    YELLOW ; SHUCKLE
 	body_data  15,  540, BIPEDAL,      BLUE   ; HERACROSS
@@ -191,7 +190,6 @@ PokemonBodyData:
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
-	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
@@ -351,7 +349,6 @@ PokemonBodyData:
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
 	body_data  16,  698, QUADRUPED,    YELLOW ; TYPHLOSION (HISUIAN_FORM)
-	body_data   5,   39, FINS,         BLACK  ; QWILFISH (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
 	
 	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)

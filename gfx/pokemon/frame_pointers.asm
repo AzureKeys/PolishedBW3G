@@ -129,7 +129,6 @@ FramesPointers:
 	dw SteelixFrames
 	dw SnubbullFrames
 	dw GranbullFrames
-	dw QwilfishPlainFrames
 	dw ScizorFrames
 	dw ShuckleFrames
 	dw HeracrossFrames
@@ -184,7 +183,6 @@ FramesPointers:
 	dw KleavorFrames
 	dw UrsalunaPlainFrames
 	dw SneaslerFrames
-	dw OverqwilFrames
 	dw DudunsparceTwoSegmentFrames
 	dw AnnihilapeFrames
 	dw SnivyFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw CarracostaFrames
 	dw ArchenFrames
 	dw ArcheopsFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw TrubbishFrames
 	dw GarbodorFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
 	dw GothitaFrames
@@ -407,7 +405,6 @@ FramesPointers:
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames
 	dw TyphlosionHisuianFrames
-	dw QwilfishHisuianFrames
 	dw SneaselHisuianFrames
 
 	dw UrsalunaBloodmoonFrames

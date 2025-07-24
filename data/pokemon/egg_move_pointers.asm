@@ -129,7 +129,6 @@ EggSpeciesMovesPointers::
 	dw OnixEggSpeciesMoves              ; Steelix
 	dw SnubbullEggSpeciesMoves          ; Snubbull
 	dw SnubbullEggSpeciesMoves          ; Granbull
-	dw QwilfishEggSpeciesMoves          ; Qwilfish
 	dw ScytherEggSpeciesMoves           ; Scizor
 	dw ShuckleEggSpeciesMoves           ; Shuckle
 	dw HeracrossEggSpeciesMoves         ; Heracross
@@ -184,7 +183,6 @@ EggSpeciesMovesPointers::
 	dw ScytherEggSpeciesMoves           ; Kleavor
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
-	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SnivyEggSpeciesMoves             ; Snivy
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw TirtougaEggSpeciesMoves          ; Carracosta
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw GothitaEggSpeciesMoves           ; Gothita
@@ -344,7 +342,6 @@ EggSpeciesMovesPointers::
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
 	dw CyndaquilEggSpeciesMoves         ; Typhlosion (Hisuian Form)
-	dw QwilfishHisuianEggSpeciesMoves   ; Qwilfish (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)

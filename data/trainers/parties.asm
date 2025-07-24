@@ -70,7 +70,7 @@ JackyGroup:
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
 	tr_mon 60, MAGNETON @ EVIOLITE
 		tr_moves THUNDERBOLT, FLASH_CANNON, THUNDER_WAVE, LIGHT_SCREEN
-	tr_mon 60, OVERQWIL @ LEFTOVERS
+	tr_mon 60, RATTATA @ LEFTOVERS
 		tr_moves EXPLOSION, POISON_JAB, TOXIC_SPIKES, DARK_PULSE
 	tr_mon 60, TOGETIC @ WIDE_LENS
 		tr_moves DAZZLINGLEAM, METRONOME, ANCIENTPOWER, EXTRASENSORY
@@ -855,7 +855,7 @@ JanineGroup:
 	tr_mon 61, RATTATA
 		tr_evs 252 Atk, 164 SAt
 		tr_moves AGILITY, POISON_JAB, MEAN_LOOK, PSYCHIC_M
-	tr_mon 62, QWILFISH
+	tr_mon 62, RATTATA
 		tr_evs 252 HP, 164 Atk
 		tr_moves AQUA_TAIL, POISON_JAB, SPIKES, MINIMIZE
 	tr_mon 64, NIDOQUEEN
@@ -874,7 +874,7 @@ JanineGroup:
 		tr_moves DOUBLE_TEAM, POISON_JAB, AERIAL_ACE, TOXIC
 	tr_mon 72, RATTATA @ QUICK_CLAW
 		tr_moves SCARY_FACE, POISON_JAB, MEAN_LOOK, GIGA_DRAIN
-	tr_mon 72, QWILFISH @ FOCUS_BAND
+	tr_mon 72, RATTATA @ FOCUS_BAND
 		tr_moves AQUA_TAIL, POISON_JAB, SPIKES, EXPLOSION
 	tr_mon 74, NIDOQUEEN @ LEFTOVERS
 		tr_moves EARTHQUAKE, HEALINGLIGHT, SLUDGE_BOMB, ICE_BEAM
@@ -2188,17 +2188,17 @@ FisherGroup:
 	end_trainer
 
 	def_trainer RALPH3, "Ralph"
-	tr_mon 17, QWILFISH
+	tr_mon 17, RATTATA
 	tr_mon 19, RATTATA
 	end_trainer
 
 	def_trainer RALPH4, "Ralph"
-	tr_mon 30, QWILFISH
+	tr_mon 30, RATTATA
 	tr_mon 32, RATTATA
 	end_trainer
 
 	def_trainer RALPH5, "Ralph"
-	tr_mon 36, QWILFISH
+	tr_mon 36, RATTATA
 		tr_moves TOXIC, MINIMIZE, SURF, PIN_MISSILE
 	tr_mon 36, LANTURN
 		tr_moves REVERSAL, WATERFALL, THUNDERBOLT, CONFUSE_RAY
@@ -2207,18 +2207,18 @@ FisherGroup:
 	end_trainer
 
 	def_trainer TULLY1, "Tully"
-	tr_mon 30, QWILFISH
+	tr_mon 30, RATTATA
 	end_trainer
 
 	def_trainer TULLY2, "Tully"
 	tr_mon 35, RATTATA
-	tr_mon 35, QWILFISH
+	tr_mon 35, RATTATA
 	end_trainer
 
 	def_trainer TULLY3, "Tully"
 	tr_mon 40, POLIWHIRL
 	tr_mon 40, RATTATA
-	tr_mon 40, QWILFISH
+	tr_mon 40, RATTATA
 	end_trainer
 
 	def_trainer TULLY4, "Tully"
@@ -2226,7 +2226,7 @@ FisherGroup:
 		tr_moves RAIN_DANCE, HYPNOSIS, WATERFALL, CLOSE_COMBAT
 	tr_mon 43, RATTATA
 		tr_moves AGILITY, WATERFALL, BODY_SLAM, POISON_JAB
-	tr_mon 45, QWILFISH
+	tr_mon 45, RATTATA
 		tr_moves ROLLOUT, WATERFALL, PIN_MISSILE, TAKE_DOWN
 	end_trainer
 
@@ -2268,7 +2268,7 @@ FisherGroup:
 
 	def_trainer KYLE, "Kyle"
 	tr_mon 57, RATTATA
-	tr_mon 54, QWILFISH
+	tr_mon 54, RATTATA
 	tr_mon 57, RATTATA
 	end_trainer
 
@@ -2322,7 +2322,7 @@ FisherGroup:
 	def_trainer STEPHEN, "Stephen"
 	tr_mon 60, MAGIKARP
 	tr_mon 58, RATTATA
-	tr_mon 55, QWILFISH
+	tr_mon 55, RATTATA
 	tr_mon 55, RATTATA
 	end_trainer
 
@@ -2333,8 +2333,8 @@ FisherGroup:
 	end_trainer
 
 	def_trainer SCOTT, "Scott"
-	tr_mon 40, QWILFISH
-	tr_mon 40, QWILFISH
+	tr_mon 40, RATTATA
+	tr_mon 40, RATTATA
 	tr_mon 42, RATTATA
 	end_trainer
 
@@ -2353,7 +2353,7 @@ FisherGroup:
 	def_trainer FRANCIS, "Francis"
 	tr_mon LEVEL_FROM_BADGES + 4, REMORAID
 	tr_mon LEVEL_FROM_BADGES + 5, CHINCHOU
-	tr_mon LEVEL_FROM_BADGES + 4, QWILFISH
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	end_trainer
 
 	def_trainer LEROY, "Virgil" ; MISMATCH
@@ -2388,12 +2388,12 @@ FisherGroup:
 	end_trainer
 
 	def_trainer HALL, "Hall"
-	tr_mon 56, "Dopefish", QWILFISH
+	tr_mon 56, "Dopefish", RATTATA
 		tr_dvs 8 HP, 7 Atk, 13 Def, 8 Spe, 2 SAt, 8 SDf ; green
 	end_trainer
 
 	def_trainer DALLAS, "Dallas"
-	tr_mon 61, QWILFISH
+	tr_mon 61, RATTATA
 	tr_mon 63, LANTURN
 	tr_mon 65, GYARADOS
 	end_trainer
@@ -2983,7 +2983,7 @@ GruntFGroup:
 	def_trainer 5, "Grunt"
 	tr_mon 29, ARBOK
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
-	tr_mon 28, QWILFISH
+	tr_mon 28, RATTATA
 		tr_moves DEFENSE_CURL, MINIMIZE, WATER_GUN, ROLLOUT
 	tr_mon 28, RATTATA
 		tr_moves GROWTH, STUN_SPORE, SLEEP_POWDER, MEGA_DRAIN
@@ -4836,7 +4836,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer BERKE, "Berke"
-	tr_mon 23, QWILFISH
+	tr_mon 23, RATTATA
 	end_trainer
 
 	def_trainer KIRK, "Kirk"
@@ -6649,7 +6649,7 @@ ProtonGroup:
 	def_trainer PROTON1, "Proton"
 	tr_mon 39, GOLBAT @ KINGS_ROCK
 		tr_moves AERIAL_ACE, CONFUSE_RAY, SUPER_FANG, POISON_JAB
-	tr_mon 40, QWILFISH @ BRIGHTPOWDER
+	tr_mon 40, RATTATA @ BRIGHTPOWDER
 		tr_moves MINIMIZE, BUBBLE_BEAM, PAIN_SPLIT, ROLLOUT
 	tr_mon 40, OCTILLERY @ LUM_BERRY
 		tr_moves OCTAZOOKA, POWER_WHIP, FLAMETHROWER, ICE_BEAM
@@ -6660,7 +6660,7 @@ ProtonGroup:
 	def_trainer PROTON2, "Proton"
 	tr_mon 11, ZUBAT
 		tr_evs 32 Spe
-	tr_mon 12, QWILFISH
+	tr_mon 12, RATTATA
 		tr_evs 32 Spe
 	tr_mon 14, KOFFING
 		tr_evs 32 Spe
@@ -7619,14 +7619,14 @@ PiersGroup:
 
 	def_trainer 1, "Piers"
 	tr_mon 16, MURKROW
-	tr_mon 17, QWILFISH, HISUIAN_FORM
+	tr_mon 17, RATTATA, HISUIAN_FORM
 	tr_mon 17, MUK, ALOLAN_FORM
 	tr_mon 19, RATICATE, ALOLAN_FORM
 	end_trainer
 
 	def_trainer 2, "Piers"
 	tr_mon LEVEL_FROM_BADGES + 12, HONCHKROW
-	tr_mon LEVEL_FROM_BADGES + 16, OVERQWIL
+	tr_mon LEVEL_FROM_BADGES + 16, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 16, MUK, ALOLAN_FORM
 	tr_mon LEVEL_FROM_BADGES + 14, PERSIAN, ALOLAN_FORM
 if DEF(FAITHFUL)

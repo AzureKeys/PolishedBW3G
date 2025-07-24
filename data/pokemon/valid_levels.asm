@@ -134,7 +134,6 @@ endc
 	db  20, 100 ; Steelix
 	db   1,  22 ; Snubbull
 	db  23, 100 ; Granbull
-	db   1,  32 ; Qwilfish
 	db  20, 100 ; Scizor
 	db   1, 100 ; Shuckle
 	db  10, 100 ; Heracross
@@ -189,7 +188,6 @@ endc
 	db  20, 100 ; Kleavor
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
-	db  33, 100 ; Overqwil
 	db  32, 100 ; Dudunsparce
 	db  56, 100 ; Annihilape
 	db   1,  16 ; Snivy
@@ -259,10 +257,10 @@ endc
 	db  37, 100 ; Carracosta
 	db   1,  36 ; Archen
 	db  37, 100 ; Archeops
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
 	db   1,  31 ; Gothita

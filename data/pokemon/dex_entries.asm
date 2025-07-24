@@ -1296,16 +1296,6 @@ GranbullPokedexEntry::
 	next "wide to reveal its"
 	next "big fangs.@"
 
-SECTION "QwilfishPokedexEntry", ROMX
-QwilfishPokedexEntry::
-	db "Balloon@"
-	db   "When faced with a"
-	next "larger opponent,"
-	next "it swallows as"
-	page "much water as it"
-	next "can to match the"
-	next "opponent's size.@"
-
 SECTION "ScizorPokedexEntry", ROMX
 ScizorPokedexEntry::
 	db "Scissors@"
@@ -1844,16 +1834,6 @@ SneaslerPokedexEntry::
 	page "ess. Preferring"
 	next "solitude, it does"
 	next "not form packs.@"
-
-SECTION "OverqwilPokedexEntry", ROMX
-OverqwilPokedexEntry::
-	db "Pin Cluster@"
-	db   "Its spikes and sa-"
-	next "vage temperament"
-	next "have earned it the"
-	page "name Sea Fiend."
-	next "It slurps poison"
-	next "to nourish itself.@"
 
 SECTION "DudunsparcePokedexEntry", ROMX
 DudunsparcePokedexEntry::
@@ -3330,15 +3310,6 @@ TyphlosionHisuianPokedexEntry::
 	page "flames and guide"
 	next "them to the"
 	next "afterlife.@"
-
-SECTION "QwilfishHisuianPokedexEntry", ROMX
-QwilfishHisuianPokedexEntry::
-	db "Balloon@"
-	db   "Fishers detest it"
-	next "because it sprays"
-	next "poison from its"
-	page "spines, getting it"
-	next "everywhere.@"
 
 SECTION "SneaselHisuianPokedexEntry", ROMX
 SneaselHisuianPokedexEntry::

@@ -133,7 +133,6 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; STEELIX
 	iconpal PINK, BLUE ; SNUBBULL
 	iconpal PURPLE, GRAY ; GRANBULL
-	iconpal BLUE, PURPLE ; QWILFISH
 	iconpal RED, GRAY ; SCIZOR
 	iconpal RED, BLUE ; SHUCKLE
 	iconpal BLUE, PURPLE ; HERACROSS
@@ -188,7 +187,6 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
-	iconpal PURPLE, BLUE ; OVERQWIL
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal GREEN, BLUE ; SNIVY
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BLUE, AZURE ; CARRACOSTA
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal BLACK, PURPLE ; GOTHITA
@@ -368,7 +366,6 @@ endr
 	iconpal RED, BROWN ; GROWLITHE, HISUIAN_FORM
 	iconpal ORANGE, BROWN ; ARCANINE, HISUIAN_FORM
 	iconpal PURPLE, BLUE ; TYPHLOSION, HISUIAN_FORM
-	iconpal PURPLE, BLUE ; QWILFISH, HISUIAN_FORM
 	iconpal PURPLE, BROWN ; SNEASEL, HISUIAN_FORM
 
 	iconpal RED, RED ; URSALUNA, URSALUNA_BLOODMOON_FORM

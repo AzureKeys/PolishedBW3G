@@ -1059,18 +1059,6 @@ SECTION "ArcanineHisuian Pics", ROMX
 ArcanineHisuianFrontpic: INCBIN "gfx/pokemon/arcanine_hisuian/front.animated.2bpp.lz"
 ArcanineHisuianBackpic:  INCBIN "gfx/pokemon/arcanine_hisuian/back.2bpp.lz"
 
-SECTION "QwilfishPlain Pics", ROMX
-QwilfishPlainFrontpic: INCBIN "gfx/pokemon/qwilfish_plain/front.animated.2bpp.lz"
-QwilfishPlainBackpic:  INCBIN "gfx/pokemon/qwilfish_plain/back.2bpp.lz"
-
-SECTION "QwilfishHisuian Pics", ROMX
-QwilfishHisuianFrontpic: INCBIN "gfx/pokemon/qwilfish_hisuian/front.animated.2bpp.lz"
-QwilfishHisuianBackpic:  INCBIN "gfx/pokemon/qwilfish_hisuian/back.2bpp.lz"
-
-SECTION "Overqwil Pics", ROMX
-OverqwilFrontpic: INCBIN "gfx/pokemon/overqwil/front.animated.2bpp.lz"
-OverqwilBackpic:  INCBIN "gfx/pokemon/overqwil/back.2bpp.lz"
-
 SECTION "Dudunsparce Pics", ROMX
 DudunsparceTwoSegmentFrontpic:   INCBIN "gfx/pokemon/dudunsparce_two_segment/front.animated.2bpp.lz"
 DudunsparceThreeSegmentFrontpic: INCBIN "gfx/pokemon/dudunsparce_three_segment/front.animated.2bpp.lz"

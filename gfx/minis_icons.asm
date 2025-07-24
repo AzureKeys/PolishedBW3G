@@ -652,11 +652,6 @@ GranbullMini::     INCBIN "gfx/minis/granbull.2bpp.lz"
 GranbullMiniMask:: INCBIN "gfx/minis/granbull_mask.1bpp.lz"
 GranbullIcon::     INCBIN "gfx/icons/granbull.2bpp.lz"
 
-SECTION "Qwilfish Mini Icon", ROMX
-QwilfishMini::     INCBIN "gfx/minis/qwilfish.2bpp.lz"
-QwilfishMiniMask:: INCBIN "gfx/minis/qwilfish_mask.1bpp.lz"
-QwilfishIcon::     INCBIN "gfx/icons/qwilfish.2bpp.lz"
-
 SECTION "Scizor Mini Icon", ROMX
 ScizorMini::     INCBIN "gfx/minis/scizor.2bpp.lz"
 ScizorMiniMask:: INCBIN "gfx/minis/scizor_mask.1bpp.lz"
@@ -931,11 +926,6 @@ SECTION "Sneasler Mini Icon", ROMX
 SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
 SneaslerMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
 SneaslerIcon::     INCBIN "gfx/icons/sneasler.2bpp.lz"
-
-SECTION "Overqwil Mini Icon", ROMX
-OverqwilMini::     INCBIN "gfx/minis/overqwil.2bpp.lz"
-OverqwilMiniMask:: INCBIN "gfx/minis/overqwil_mask.1bpp.lz"
-OverqwilIcon::     INCBIN "gfx/icons/overqwil.2bpp.lz"
 
 SECTION "DudunsparceTwoSegment Mini Icon", ROMX
 DudunsparceTwoSegmentMini::     INCBIN "gfx/minis/dudunsparce_two_segment.2bpp.lz"
@@ -1816,11 +1806,6 @@ SECTION "TyphlosionHisuian Mini Icon", ROMX
 TyphlosionHisuianMini::     INCBIN "gfx/minis/typhlosion_hisuian.2bpp.lz"
 TyphlosionHisuianMiniMask:: INCBIN "gfx/minis/typhlosion_hisuian_mask.1bpp.lz"
 TyphlosionHisuianIcon::     INCBIN "gfx/icons/typhlosion_hisuian.2bpp.lz"
-
-SECTION "QwilfishHisuian Mini Icon", ROMX
-QwilfishHisuianMini::     INCBIN "gfx/minis/qwilfish_hisuian.2bpp.lz"
-QwilfishHisuianMiniMask:: INCBIN "gfx/minis/qwilfish_hisuian_mask.1bpp.lz"
-QwilfishHisuianIcon::     INCBIN "gfx/icons/qwilfish_hisuian.2bpp.lz"
 
 SECTION "SneaselHisuian Mini Icon", ROMX
 SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"

@@ -129,7 +129,6 @@ AnimationPointers:
 	dw SteelixAnimation
 	dw SnubbullAnimation
 	dw GranbullAnimation
-	dw QwilfishPlainAnimation
 	dw ScizorAnimation
 	dw ShuckleAnimation
 	dw HeracrossAnimation
@@ -184,7 +183,6 @@ AnimationPointers:
 	dw KleavorAnimation
 	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
-	dw OverqwilAnimation
 	dw DudunsparceTwoSegmentAnimation
 	dw AnnihilapeAnimation
 	dw SnivyAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw CarracostaAnimation
 	dw ArchenAnimation
 	dw ArcheopsAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw TrubbishAnimation
 	dw GarbodorAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
 	dw GothitaAnimation
@@ -407,7 +405,6 @@ AnimationPointers:
 	dw GrowlitheHisuianAnimation
 	dw ArcanineHisuianAnimation
 	dw TyphlosionHisuianAnimation
-	dw QwilfishHisuianAnimation
 	dw SneaselHisuianAnimation
 
 	dw UrsalunaBloodmoonAnimation

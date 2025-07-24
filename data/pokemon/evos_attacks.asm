@@ -2787,49 +2787,6 @@ endc
 	learnset 59, CRUNCH
 	learnset 67, OUTRAGE
 
-	evos_attacks QwilfishPlain
-	learnset 1, WATER_GUN
-	learnset 1, SPIKES
-	learnset 1, TACKLE
-	learnset 1, POISON_STING
-	learnset 5, DEFENSE_CURL ; Harden → TM move
-	learnset 9, MINIMIZE
-	learnset 13, BUBBLE_BEAM ; Bubble → similar move
-	learnset 17, ROLLOUT
-	learnset 21, TOXIC_SPIKES
-	learnset 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	learnset 29, REVERSAL ; Revenge → Sw/Sh move
-	learnset 33, WATER_PULSE ; Brine → TM move
-	learnset 37, PIN_MISSILE
-	learnset 41, TAKE_DOWN
-	learnset 45, AQUA_TAIL
-	learnset 49, POISON_JAB
-	learnset 53, DESTINY_BOND
-	learnset 57, HYDRO_PUMP
-	learnset 60, DOUBLE_EDGE ; Fell Stinger → event move
-
-	evos_attacks QwilfishHisuian
-	evo_data EVOLVE_LEVEL, 33, OVERQWIL
-	learnset 1, AQUA_JET ; Water Gun → SV TM move
-	learnset 1, SPIKES
-	learnset 1, TACKLE
-	learnset 1, POISON_STING
-	learnset 5, DEFENSE_CURL ; Harden → TM move
-	learnset 9, MINIMIZE
-	learnset 13, PIN_MISSILE
-	learnset 17, ROLLOUT
-	learnset 21, TOXIC_SPIKES
-	learnset 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	learnset 29, REVERSAL ; Revenge → Sw/Sh move
-	learnset 33, WATER_PULSE ; Brine → TM move
-	learnset 37, CRUNCH ; Dark Pulse → SV TM move
-	learnset 41, TAKE_DOWN
-	learnset 45, AQUA_TAIL
-	learnset 49, POISON_JAB
-	learnset 53, DESTINY_BOND
-	learnset 57, EXPLOSION ; Self-Destruct → similar move
-	learnset 60, DOUBLE_EDGE ; Fell Stinger → event move
-
 	evos_attacks Scizor
 	learnset 1, METAL_CLAW ; evolution move
 	learnset 1, BULLET_PUNCH
@@ -3868,27 +3825,6 @@ endc
 	learnset 44, X_SCISSOR ; Punishment → TM move
 	learnset 47, CLOSE_COMBAT
 	learnset 50, GUNK_SHOT ; SV TM move
-
-	evos_attacks Overqwil
-	learnset 1, AQUA_JET ; Water Gun → SV TM move
-	learnset 1, SPIKES
-	learnset 1, TACKLE
-	learnset 1, POISON_STING
-	learnset 5, DEFENSE_CURL ; Harden → TM move
-	learnset 9, MINIMIZE
-	learnset 13, PIN_MISSILE
-	learnset 17, ROLLOUT
-	learnset 21, TOXIC_SPIKES
-	learnset 25, PAIN_SPLIT ; Stockpile + Spit Up → HGSS move tutor
-	learnset 29, REVERSAL ; Revenge → Sw/Sh move
-	learnset 33, WATER_PULSE ; Brine → TM move
-	learnset 37, CRUNCH ; Dark Pulse → SV TM move
-	learnset 41, TAKE_DOWN
-	learnset 45, AQUA_TAIL
-	learnset 49, POISON_JAB
-	learnset 53, DESTINY_BOND
-	learnset 57, EXPLOSION ; Self-Destruct → similar move
-	learnset 60, DOUBLE_EDGE ; Fell Stinger → event move
 
 	evos_attacks Dudunsparce
 	learnset 1, RAGE

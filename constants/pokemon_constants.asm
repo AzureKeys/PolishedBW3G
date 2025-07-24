@@ -153,7 +153,6 @@
 	const STEELIX    ; 66
 	const SNUBBULL   ; 67
 	const GRANBULL   ; 68
-	const QWILFISH   ; xx
 	const SCIZOR     ; 69
 	const SHUCKLE    ; 6a
 	const HERACROSS  ; 6b
@@ -208,7 +207,6 @@
 	const KLEAVOR    ; 11c
 	const URSALUNA   ; xx
 	const SNEASLER   ; 11e
-	const OVERQWIL   ; xx
 	const DUDUNSPARCE ; 120
 	const ANNIHILAPE ; 123
 	const SNIVY      ; f2
@@ -278,10 +276,10 @@
 	const CARRACOSTA ; 13a
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const GOTHITA    ; 143
@@ -490,7 +488,6 @@ DEF HISUIAN_FORM EQU 4
 	const_skip ; 17e growlithe
 	const_skip ; 17f arcanine
 	const_skip ; 182 typhlosion
-	const_skip ; 183 qwilfish
 	const_skip ; 184 sneasel
 
 ; paldean forms

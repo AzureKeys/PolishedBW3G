@@ -125,17 +125,17 @@ ENDM
 .Qwilfish_Swarm_Old:
 	fishentry  70 percent + 1, MAGIKARP,   5
 	fishentry  85 percent + 1, MAGIKARP,   5
-	fishentry 100 percent,     QWILFISH,   5
+	fishentry 100 percent,     RATTATA,   5
 .Qwilfish_Swarm_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     QWILFISH,   20
-	fishentry  90 percent + 1, QWILFISH,   20
-	fishentry 100 percent,     QWILFISH,   20
+	fishentry  70 percent,     RATTATA,   20
+	fishentry  90 percent + 1, RATTATA,   20
+	fishentry 100 percent,     RATTATA,   20
 .Qwilfish_Swarm_Super:
-	fishentry  40 percent,     QWILFISH,   40
-	fishentry  70 percent,     QWILFISH,   40
-	fishentry  90 percent + 1, QWILFISH,   40
-	fishentry 100 percent,     QWILFISH,   40
+	fishentry  40 percent,     RATTATA,   40
+	fishentry  70 percent,     RATTATA,   40
+	fishentry  90 percent + 1, RATTATA,   40
+	fishentry 100 percent,     RATTATA,   40
 
 .Remoraid_Swarm_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
@@ -210,7 +210,7 @@ ENDM
 	fishentry  40 percent,     RATTATA,  40
 	fishentry  70 percent,     RATTATA,  40
 	fishentry  90 percent + 1, MAGIKARP,   40
-	fishentry 100 percent,     QWILFISH,   40
+	fishentry 100 percent,     RATTATA,   40
 
 .Remoraid_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
@@ -235,9 +235,9 @@ ENDM
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     RATTATA,  20
 	fishentry  90 percent + 1, HORSEA,     20
-	fishentry 100 percent,     QWILFISH,   HISUIAN_FORM,   20
+	fishentry 100 percent,     RATTATA,   HISUIAN_FORM,   20
 .Hisuian_Qwilfish_Super:
 	fishentry  40 percent,     RATTATA, 40
 	fishentry  70 percent,     SEADRA,     40
-	fishentry  90 percent + 1, QWILFISH,   HISUIAN_FORM,   40
-	fishentry 100 percent,     OVERQWIL,   40
+	fishentry  90 percent + 1, RATTATA,   HISUIAN_FORM,   40
+	fishentry 100 percent,     RATTATA,   40

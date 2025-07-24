@@ -133,7 +133,6 @@ EvosAttacksPointers::
 	dw SteelixEvosAttacks
 	dw SnubbullEvosAttacks
 	dw GranbullEvosAttacks
-	dw QwilfishPlainEvosAttacks
 	dw ScizorEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
@@ -188,7 +187,6 @@ EvosAttacksPointers::
 	dw KleavorEvosAttacks
 	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
-	dw OverqwilEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw SnivyEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw CarracostaEvosAttacks
 	dw ArchenEvosAttacks
 	dw ArcheopsEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
 	dw GothitaEvosAttacks
@@ -348,7 +346,6 @@ EvosAttacksPointers::
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks
 	dw TyphlosionHisuianEvosAttacks
-	dw QwilfishHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks
 
 	dw UrsalunaBloodmoonEvosAttacks

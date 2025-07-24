@@ -49,7 +49,7 @@ Ralph_SetUpSwarm:
 	checkflag ENGINE_FISH_SWARM
 	iftruefwd .Generic
 	setflag ENGINE_FISH_SWARM
-	getmonname QWILFISH, STRING_BUFFER_4
+	getmonname RATTATA, STRING_BUFFER_4
 	getlandmarkname ROUTE_32, STRING_BUFFER_5
 	setval FISHSWARM_QWILFISH
 	special Special_ActivateFishingSwarm

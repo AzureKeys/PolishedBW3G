@@ -146,7 +146,6 @@ CursolaAnimationExtra:    INCLUDE "gfx/pokemon/cursola/anim_idle.asm"
 MrRimeAnimationExtra:     INCLUDE "gfx/pokemon/mr__rime/anim_idle.asm"
 KleavorAnimationExtra:    INCLUDE "gfx/pokemon/kleavor/anim_idle.asm"
 SneaslerAnimationExtra:   INCLUDE "gfx/pokemon/sneasler/anim_idle.asm"
-OverqwilAnimationExtra:   INCLUDE "gfx/pokemon/overqwil/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 SnivyAnimationExtra:      INCLUDE "gfx/pokemon/snivy/anim_idle.asm"
 ServineAnimationExtra:    INCLUDE "gfx/pokemon/servine/anim_idle.asm"
@@ -408,9 +407,6 @@ ArcanineHisuianAnimationExtra: INCLUDE "gfx/pokemon/arcanine_hisuian/anim_idle.a
 
 TyphlosionPlainAnimationExtra:   INCLUDE "gfx/pokemon/typhlosion_plain/anim_idle.asm"
 TyphlosionHisuianAnimationExtra: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim_idle.asm"
-
-QwilfishPlainAnimationExtra:   INCLUDE "gfx/pokemon/qwilfish_plain/anim_idle.asm"
-QwilfishHisuianAnimationExtra: INCLUDE "gfx/pokemon/qwilfish_hisuian/anim_idle.asm"
 
 SneaselPlainAnimationExtra:   INCLUDE "gfx/pokemon/sneasel_plain/anim_idle.asm"
 SneaselHisuianAnimationExtra: INCLUDE "gfx/pokemon/sneasel_hisuian/anim_idle.asm"

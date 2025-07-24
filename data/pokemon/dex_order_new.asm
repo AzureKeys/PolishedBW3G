@@ -228,8 +228,6 @@ NewPokedexOrder:
 	dp MIME_JR_
 	dp MR__MIME
 	dp MR__RIME
-	dp QWILFISH
-	dp OVERQWIL
 	dp SHUCKLE
 	dp STARYU
 	dp STARMIE

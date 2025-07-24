@@ -601,19 +601,6 @@ SnubbullEggSpeciesMoves:
 	db CLOSE_COMBAT
 	db $ff
 
-QwilfishEggSpeciesMoves:
-	dp QWILFISH, PLAIN_FORM
-	db BUBBLE_BEAM
-	db HAZE
-	db SUPERSONIC
-	db POISON_JAB
-	db WATER_PULSE
-	db $ff
-
-QwilfishHisuianEggSpeciesMoves:
-	dp QWILFISH, HISUIAN_FORM
-	db $ff
-
 ShuckleEggSpeciesMoves:
 	dp SHUCKLE, PLAIN_FORM
 	db ROLLOUT

@@ -129,7 +129,6 @@ FootprintPointers::
 	dw SteelixFootprint
 	dw SnubbullFootprint
 	dw GranbullFootprint
-	dw QwilfishFootprint
 	dw ScizorFootprint
 	dw ShuckleFootprint
 	dw HeracrossFootprint
@@ -184,7 +183,6 @@ FootprintPointers::
 	dw KleavorFootprint
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
-	dw OverqwilFootprint
 	dw DudunsparceFootprint
 	dw AnnihilapeFootprint
 	dw SnivyFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw CarracostaFootprint
 	dw ArchenFootprint
 	dw ArcheopsFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw TrubbishFootprint
 	dw GarbodorFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
 	dw GothitaFootprint
@@ -344,7 +342,6 @@ FootprintPointers::
 	dw GrowlitheFootprint
 	dw ArcanineFootprint
 	dw TyphlosionFootprint
-	dw QwilfishFootprint
 	dw SneaselFootprint
 
 	dw UrsalunaFootprint
