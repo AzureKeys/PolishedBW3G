@@ -118,8 +118,6 @@ BitmasksPointers:
 	dw SunkernBitmasks
 	dw SunfloraBitmasks
 	dw YanmaBitmasks
-	dw WooperPlainBitmasks
-	dw QuagsireBitmasks
 	dw EspeonBitmasks
 	dw UmbreonBitmasks
 	dw MurkrowBitmasks
@@ -188,7 +186,6 @@ BitmasksPointers:
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
 	dw DudunsparceTwoSegmentBitmasks
-	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
 	dw SnivyBitmasks
 	dw ServineBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw YamaskPlainBitmasks
 	dw CofagrigusBitmasks
 	dw TirtougaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw CarracostaBitmasks
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
@@ -309,6 +306,7 @@ BitmasksPointers:
 	dw GolurkBitmasks
 	dw PawniardBitmasks
 	dw BisharpBitmasks
+	dw BouffalantBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -411,8 +409,6 @@ BitmasksPointers:
 	dw TyphlosionHisuianBitmasks
 	dw QwilfishHisuianBitmasks
 	dw SneaselHisuianBitmasks
-
-	dw WooperPaldeanBitmasks
 
 	dw UrsalunaBloodmoonBitmasks
 	

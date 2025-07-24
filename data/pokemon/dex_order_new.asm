@@ -119,6 +119,7 @@ NewPokedexOrder:
 	dp GOLURK
 	dp PAWNIARD
 	dp BISHARP
+	dp BOUFFALANT
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -157,9 +158,6 @@ NewPokedexOrder:
 	dp MAREEP
 	dp FLAAFFY
 	dp AMPHAROS
-	dp WOOPER
-	dp QUAGSIRE
-	dp CLODSIRE
 	dp GASTLY
 	dp HAUNTER
 	dp GENGAR

@@ -1186,26 +1186,6 @@ YanmaPokedexEntry::
 	next "spot attackers and"
 	next "food right away.@"
 
-SECTION "WooperPlainPokedexEntry", ROMX
-WooperPlainPokedexEntry::
-	db "Water Fish@"
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
-
-SECTION "QuagsirePokedexEntry", ROMX
-QuagsirePokedexEntry::
-	db "Water Fish@"
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
-
 SECTION "EspeonPokedexEntry", ROMX
 EspeonPokedexEntry::
 	db "Sun@"
@@ -1884,16 +1864,6 @@ DudunsparcePokedexEntry::
 	page "into deep bedrock."
 	next "The nest can reach"
 	next "over six miles.@"
-
-SECTION "ClodsirePokedexEntry", ROMX
-ClodsirePokedexEntry::
-	db "Spiny Fish@"
-	db   "When attacked, it"
-	next "will retaliate by"
-	next "sticking thick"
-	page "spines out from"
-	next "its body. It's a"
-	next "risky move.@"
 
 SECTION "AnnihilapePokedexEntry", ROMX
 AnnihilapePokedexEntry::
@@ -3057,6 +3027,16 @@ BisharpPokedexEntry::
 	next "finish off"
 	next "the prey.@"
 
+SECTION "BouffalantPokedexEntry", ROMX
+BouffalantPokedexEntry::
+	db "BashBuffalo@"
+	db "They charge wildly"
+	next "and headbutt"
+	next "anything. Their"
+	page "headbutts have"
+	next "enough force to"
+	next "derail a train.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -3369,16 +3349,6 @@ SneaselHisuianPokedexEntry::
 	page "These claws drip"
 	next "venom that infil-"
 	next "trates its prey.@"
-
-SECTION "WooperPaldeanPokedexEntry", ROMX
-WooperPaldeanPokedexEntry::
-	db "Poison Fish@"
-	db   "They line up in"
-	next "groups of three or"
-	next "four and help each"
-	page "other as they walk"
-	next "across the danger-"
-	next "ous wetlands.@"
 
 SECTION "UrsalunaBloodmoonPokedexEntry", ROMX
 UrsalunaBloodmoonPokedexEntry::

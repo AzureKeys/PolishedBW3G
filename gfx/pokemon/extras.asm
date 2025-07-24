@@ -86,7 +86,6 @@ PolitoedAnimationExtra:   INCLUDE "gfx/pokemon/politoed/anim_idle.asm"
 SunkernAnimationExtra:    INCLUDE "gfx/pokemon/sunkern/anim_idle.asm"
 SunfloraAnimationExtra:   INCLUDE "gfx/pokemon/sunflora/anim_idle.asm"
 YanmaAnimationExtra:      INCLUDE "gfx/pokemon/yanma/anim_idle.asm"
-QuagsireAnimationExtra:   INCLUDE "gfx/pokemon/quagsire/anim_idle.asm"
 EspeonAnimationExtra:     INCLUDE "gfx/pokemon/espeon/anim_idle.asm"
 UmbreonAnimationExtra:    INCLUDE "gfx/pokemon/umbreon/anim_idle.asm"
 MurkrowAnimationExtra:    INCLUDE "gfx/pokemon/murkrow/anim_idle.asm"
@@ -148,7 +147,6 @@ MrRimeAnimationExtra:     INCLUDE "gfx/pokemon/mr__rime/anim_idle.asm"
 KleavorAnimationExtra:    INCLUDE "gfx/pokemon/kleavor/anim_idle.asm"
 SneaslerAnimationExtra:   INCLUDE "gfx/pokemon/sneasler/anim_idle.asm"
 OverqwilAnimationExtra:   INCLUDE "gfx/pokemon/overqwil/anim_idle.asm"
-ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 SnivyAnimationExtra:      INCLUDE "gfx/pokemon/snivy/anim_idle.asm"
 ServineAnimationExtra:    INCLUDE "gfx/pokemon/servine/anim_idle.asm"
@@ -253,6 +251,7 @@ GolettAnimationExtra:     INCLUDE "gfx/pokemon/golett/anim_idle.asm"
 GolurkAnimationExtra:     INCLUDE "gfx/pokemon/golurk/anim_idle.asm"
 PawniardAnimationExtra:   INCLUDE "gfx/pokemon/pawniard/anim_idle.asm"
 BisharpAnimationExtra:    INCLUDE "gfx/pokemon/bisharp/anim_idle.asm"
+BouffalantAnimationExtra: INCLUDE "gfx/pokemon/bouffalant/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -415,9 +414,6 @@ QwilfishHisuianAnimationExtra: INCLUDE "gfx/pokemon/qwilfish_hisuian/anim_idle.a
 
 SneaselPlainAnimationExtra:   INCLUDE "gfx/pokemon/sneasel_plain/anim_idle.asm"
 SneaselHisuianAnimationExtra: INCLUDE "gfx/pokemon/sneasel_hisuian/anim_idle.asm"
-
-WooperPlainAnimationExtra:   INCLUDE "gfx/pokemon/wooper_plain/anim_idle.asm"
-WooperPaldeanAnimationExtra: INCLUDE "gfx/pokemon/wooper_paldean/anim_idle.asm"
 
 UrsalunaPlainAnimationExtra:     INCLUDE "gfx/pokemon/ursaluna_plain/anim_idle.asm"
 UrsalunaBloodmoonAnimationExtra: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim_idle.asm"

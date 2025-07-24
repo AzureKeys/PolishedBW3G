@@ -122,8 +122,6 @@ else
 	db EMBER        ; SUNFLORA
 endc
 	db NO_MOVE      ; YANMA
-	db NO_MOVE      ; WOOPER
-	db ANCIENTPOWER ; QUAGSIRE
 	db CONFUSION    ; ESPEON
 	db PURSUIT      ; UMBREON
 	db NO_MOVE      ; MURKROW
@@ -192,7 +190,6 @@ endc
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
-	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
 	db NO_MOVE      ; SNIVY
 	db NO_MOVE      ; SERVINE
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
@@ -313,6 +310,7 @@ endc
 	db NO_MOVE      ; GOLURK
 	db NO_MOVE      ; PAWNIARD
 	db NO_MOVE      ; BISHARP
+	db NO_MOVE      ; BOUFFALANT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -352,8 +350,6 @@ endc
 	db SHADOW_CLAW  ; TYPHLOSION, HISUIAN_FORM
 	db NO_MOVE      ; QWILFISH, HISUIAN_FORM
 	db NO_MOVE      ; SNEASEL, HISUIAN_FORM
-
-	db NO_MOVE      ; WOOPER, PALDEAN_FORM
 
 	db NO_MOVE      ; URSALUNA, URSALUNA_BLOODMOON_FORM
 	

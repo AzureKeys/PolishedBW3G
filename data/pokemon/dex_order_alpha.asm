@@ -22,6 +22,7 @@ AlphabeticalPokedexOrder:
 	dp BLITZLE
 	dp BOLDORE
 	dp BONSLY
+	dp BOUFFALANT
 	dp BULBASAUR
 	dp CARRACOSTA
 	dp CELEBI
@@ -34,7 +35,6 @@ AlphabeticalPokedexOrder:
 	dp CLEFABLE
 	dp CLEFAIRY
 	dp CLEFFA
-	dp CLODSIRE
 	dp COFAGRIGUS
 	dp CONKELDURR
 	dp CORSOLA
@@ -208,7 +208,6 @@ AlphabeticalPokedexOrder:
 	dp PSYDUCK
 	dp PUPITAR
 	dp PURRLOIN
-	dp QUAGSIRE
 	dp QUILAVA
 	dp QWILFISH
 	dp RAICHU
@@ -301,7 +300,6 @@ AlphabeticalPokedexOrder:
 	dp WHIRLIPEDE
 	dp WIGGLYTUFF
 	dp WOOBAT
-	dp WOOPER
 	dp YAMASK
 	dp YANMA
 	dp YANMEGA

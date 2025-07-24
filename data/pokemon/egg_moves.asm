@@ -549,28 +549,6 @@ YanmaEggSpeciesMoves:
 	db REVERSAL
 	db $ff
 
-WooperPlainEggSpeciesMoves:
-	dp WOOPER, PLAIN_FORM
-	db COUNTER
-	db DOUBLE_KICK
-	db ENCORE
-	db RECOVER
-	db BODY_SLAM
-	db ANCIENTPOWER
-	db SAFEGUARD
-	db $ff
-
-WooperPaldeanEggSpeciesMoves:
-	dp WOOPER, PALDEAN_FORM
-	db COUNTER
-	db DOUBLE_KICK
-	db ENCORE
-	db RECOVER
-	db BODY_SLAM
-	db ANCIENTPOWER
-	db SAFEGUARD
-	db $ff
-
 MurkrowEggSpeciesMoves:
 	dp MURKROW, PLAIN_FORM
 	db CONFUSE_RAY
@@ -1268,6 +1246,15 @@ PawniardEggSpeciesMoves:
 	;db PSYCHO_CUT
 	db PURSUIT
 	db SUCKER_PUNCH
+	db $ff
+
+BouffalantEggSpeciesMoves:
+	dp BOUFFALANT, PLAIN_FORM
+	db AMNESIA
+	db HEADBUTT
+	db IRON_HEAD
+	;db MUD_SHOT
+	db MUD_SLAP
 	db $ff
 
 NoEggSpeciesMoves:

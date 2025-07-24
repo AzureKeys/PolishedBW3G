@@ -119,8 +119,6 @@ PokemonNames::
 	rawchar "Sunkern@@@"
 	rawchar "Sunflora@@"
 	rawchar "Yanma@@@@@"
-	rawchar "Wooper@@@@"
-	rawchar "Quagsire@@"
 	rawchar "Espeon@@@@"
 	rawchar "Umbreon@@@"
 	rawchar "Murkrow@@@"
@@ -188,8 +186,7 @@ PokemonNames::
 	rawchar "Ursaluna@@"
 	rawchar "Sneasler@@"
 	rawchar "Overqwil@@"
-	rawchar "Dudunsparc"
-	rawchar "Clodsire@@"
+	rawchar "Dudnsparce"
 	rawchar "Annihilape"
 	rawchar "Snivy@@@@@"
 	rawchar "Servine@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Yamask@@@@"
 	rawchar "Cofagrigus"
 	rawchar "Tirtouga@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Carracosta"
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
@@ -310,4 +307,5 @@ PokemonNames::
 	rawchar "Golurk@@@@"
 	rawchar "Pawniard@@"
 	rawchar "Bisharp@@@"
+	rawchar "Bouffalant"
 	assert_table_length NUM_SPECIES + 1

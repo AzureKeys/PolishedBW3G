@@ -122,8 +122,6 @@ PokemonPicPointers::
 	pics Sunkern
 	pics Sunflora
 	pics Yanma
-	pics WooperPlain
-	pics Quagsire
 	pics Espeon
 	pics Umbreon
 	pics Murkrow
@@ -192,7 +190,6 @@ PokemonPicPointers::
 	pics Sneasler
 	pics Overqwil
 	pics DudunsparceTwoSegment
-	pics Clodsire
 	pics Annihilape
 	pics Snivy
 	pics Servine
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics YamaskPlain
 	pics Cofagrigus
 	pics Tirtouga
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Carracosta
 	pics Archen
 	pics Archeops
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Trubbish
 	pics Garbodor
 	pics ZoruaPlain
@@ -313,6 +310,7 @@ PokemonPicPointers::
 	pics Golurk
 	pics Pawniard
 	pics Bisharp
+	pics Bouffalant
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -415,8 +413,6 @@ PokemonPicPointers::
 	pics TyphlosionHisuian
 	pics QwilfishHisuian
 	pics SneaselHisuian
-
-	pics WooperPaldean
 
 	pics UrsalunaBloodmoon
 	

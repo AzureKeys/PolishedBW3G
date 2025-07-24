@@ -693,11 +693,11 @@
 	; nite
 	wildmon 50, RATTATA
 	wildmon 50, RATTATA
-	wildmon 50, QUAGSIRE
+	wildmon 50, RATTATA
 	wildmon 51, RATTATA
 	wildmon 53, RATTATA
-	wildmon 52, QUAGSIRE
-	wildmon 54, QUAGSIRE
+	wildmon 52, RATTATA
+	wildmon 54, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_13_EAST
@@ -721,11 +721,11 @@
 	; nite
 	wildmon 50, RATTATA
 	wildmon 50, RATTATA
-	wildmon 51, QUAGSIRE
+	wildmon 51, RATTATA
 	wildmon 52, RATTATA
 	wildmon 54, RATTATA
-	wildmon 53, QUAGSIRE
-	wildmon 55, QUAGSIRE
+	wildmon 53, RATTATA
+	wildmon 55, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_14
@@ -749,11 +749,11 @@
 	; nite
 	wildmon 52, RATTATA
 	wildmon 52, RATTATA
-	wildmon 53, QUAGSIRE
+	wildmon 53, RATTATA
 	wildmon 51, RATTATA
 	wildmon 56, RATTATA
-	wildmon 54, QUAGSIRE
-	wildmon 56, QUAGSIRE
+	wildmon 54, RATTATA
+	wildmon 56, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons LUCKY_ISLAND
@@ -805,11 +805,11 @@
 	; nite
 	wildmon 52, RATTATA
 	wildmon 52, RATTATA
-	wildmon 54, QUAGSIRE
+	wildmon 54, RATTATA
 	wildmon 54, RATTATA
 	wildmon 57, RATTATA
-	wildmon 55, QUAGSIRE
-	wildmon 57, QUAGSIRE
+	wildmon 55, RATTATA
+	wildmon 57, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_16_WEST
@@ -1030,9 +1030,9 @@
 	wildmon 37, RATTATA
 	wildmon 38, RATICATE
 	wildmon 38, RATICATE
-	wildmon 39, QUAGSIRE
-	wildmon 39, QUAGSIRE
-	wildmon 40, QUAGSIRE
+	wildmon 39, RATTATA
+	wildmon 39, RATTATA
+	wildmon 40, RATTATA
 	wildmon 42, DITTO
 	end_grass_wildmons
 
@@ -1115,9 +1115,9 @@
 	wildmon 38, RATICATE
 	wildmon 41, RATTATA
 	wildmon 40, RATICATE
-	wildmon 39, QUAGSIRE
-	wildmon 40, QUAGSIRE
-	wildmon 41, QUAGSIRE
+	wildmon 39, RATTATA
+	wildmon 40, RATTATA
+	wildmon 41, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
@@ -1139,10 +1139,10 @@
 	wildmon 39, RATTATA
 	wildmon 40, RATTATA
 	; nite
-	wildmon 37, QUAGSIRE
+	wildmon 37, RATTATA
 	wildmon 37, RATTATA
 	wildmon 39, RATICATE
-	wildmon 39, QUAGSIRE
+	wildmon 39, RATTATA
 	wildmon 41, RATTATA
 	wildmon 39, RATTATA
 	wildmon 40, RATTATA

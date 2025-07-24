@@ -124,8 +124,6 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $12b,  $0b8 ; Sunkern
 	mon_cry CRY_REMORAID,   -$020,  $180 ; Sunflora
 	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanma
-	mon_cry CRY_WOOPER,      $093,  $0af ; Wooper
-	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Quagsire
 	mon_cry CRY_TYROGUE,     $0a2,  $140 ; Espeon
 	mon_cry CRY_VENONAT,    -$0e9,  $0f0 ; Umbreon
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Murkrow
@@ -194,7 +192,6 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
-	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $000,  $100 ; YAMASK*
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; COFAGRIGUS*
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; TIRTOUGA*
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; CARRACOSTA*
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
@@ -315,4 +312,5 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $111,  $0fa ; Golurk
 	mon_cry CRY_GROWLITHE,   $1d0,  $0b0 ; Pawniard
 	mon_cry CRY_GROWLITHE,   $2fc,  $1c4 ; Bisharp
+	mon_cry CRY_TOTODILE,   -$170,  $180 ; Bouffalant
 	assert_table_length NUM_SPECIES

@@ -597,16 +597,6 @@ YanmaMini::     INCBIN "gfx/minis/yanma.2bpp.lz"
 YanmaMiniMask:: INCBIN "gfx/minis/yanma_mask.1bpp.lz"
 YanmaIcon::     INCBIN "gfx/icons/yanma.2bpp.lz"
 
-SECTION "Wooper Mini Icon", ROMX
-WooperMini::     INCBIN "gfx/minis/wooper.2bpp.lz"
-WooperMiniMask:: INCBIN "gfx/minis/wooper_mask.1bpp.lz"
-WooperIcon::     INCBIN "gfx/icons/wooper.2bpp.lz"
-
-SECTION "Quagsire Mini Icon", ROMX
-QuagsireMini::     INCBIN "gfx/minis/quagsire.2bpp.lz"
-QuagsireMiniMask:: INCBIN "gfx/minis/quagsire_mask.1bpp.lz"
-QuagsireIcon::     INCBIN "gfx/icons/quagsire.2bpp.lz"
-
 SECTION "Espeon Mini Icon", ROMX
 EspeonMini::     INCBIN "gfx/minis/espeon.2bpp.lz"
 EspeonMiniMask:: INCBIN "gfx/minis/espeon_mask.1bpp.lz"
@@ -951,11 +941,6 @@ SECTION "DudunsparceTwoSegment Mini Icon", ROMX
 DudunsparceTwoSegmentMini::     INCBIN "gfx/minis/dudunsparce_two_segment.2bpp.lz"
 DudunsparceTwoSegmentMiniMask:: INCBIN "gfx/minis/dudunsparce_two_segment_mask.1bpp.lz"
 DudunsparceTwoSegmentIcon::     INCBIN "gfx/icons/dudunsparce_two_segment.2bpp.lz"
-
-SECTION "Clodsire Mini Icon", ROMX
-ClodsireMini::     INCBIN "gfx/minis/clodsire.2bpp.lz"
-ClodsireMiniMask:: INCBIN "gfx/minis/clodsire_mask.1bpp.lz"
-ClodsireIcon::     INCBIN "gfx/icons/clodsire.2bpp.lz"
 
 SECTION "Annihilape Mini Icon", ROMX
 AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
@@ -1547,6 +1532,11 @@ BisharpMini::     INCBIN "gfx/minis/bisharp.2bpp.lz"
 BisharpMiniMask:: INCBIN "gfx/minis/bisharp_mask.1bpp.lz"
 BisharpIcon::     INCBIN "gfx/icons/bisharp.2bpp.lz"
 
+SECTION "Bouffalant Mini Icon", ROMX
+BouffalantMini::     INCBIN "gfx/minis/bouffalant.2bpp.lz"
+BouffalantMiniMask:: INCBIN "gfx/minis/bouffalant_mask.1bpp.lz"
+BouffalantIcon::     INCBIN "gfx/icons/bouffalant.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1836,11 +1826,6 @@ SECTION "SneaselHisuian Mini Icon", ROMX
 SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"
 SneaselHisuianMiniMask:: INCBIN "gfx/minis/sneasel_hisuian_mask.1bpp.lz"
 SneaselHisuianIcon::     INCBIN "gfx/icons/sneasel_hisuian.2bpp.lz"
-
-SECTION "WooperPaldean Mini Icon", ROMX
-WooperPaldeanMini::     INCBIN "gfx/minis/wooper_paldean.2bpp.lz"
-WooperPaldeanMiniMask:: INCBIN "gfx/minis/wooper_paldean_mask.1bpp.lz"
-WooperPaldeanIcon::     INCBIN "gfx/icons/wooper_paldean.2bpp.lz"
 
 SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"

@@ -12,4 +12,5 @@ FuryAttackUsers:
 	dp DUDUNSPARCE
 	dp KARRABLAST
 	dp ESCAVALIER
+	dp BOUFFALANT
 	dw 0

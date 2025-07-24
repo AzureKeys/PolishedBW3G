@@ -122,8 +122,6 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; SUNKERN
 	iconpal GREEN, BROWN ; SUNFLORA
 	iconpal RED, BLUE ; YANMA
-	iconpal AZURE, RED ; WOOPER
-	iconpal AZURE, RED ; QUAGSIRE
 	iconpal PURPLE, GREEN ; ESPEON
 	iconpal YELLOW, GREEN ; UMBREON
 	iconpal BLUE, PURPLE ; MURKROW
@@ -192,7 +190,6 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; SNEASLER
 	iconpal PURPLE, BLUE ; OVERQWIL
 	iconpal AZURE, RED ; DUDUNSPARCE
-	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal GREEN, BLUE ; SNIVY
 	iconpal GREEN, BLUE ; SERVINE
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal YELLOW, GRAY ; YAMASK
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, AZURE ; CARRACOSTA
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
 	iconpal GRAY, AZURE ; ZORUA
@@ -313,6 +310,7 @@ OverworldMonIconColors::
 	iconpal TEAL, GRAY ; GOLURK
 	iconpal RED, BLUE ; PAWNIARD
 	iconpal RED, BLUE ; BISHARP
+	iconpal BROWN, RED ; BOUFFALANT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -372,8 +370,6 @@ endr
 	iconpal PURPLE, BLUE ; TYPHLOSION, HISUIAN_FORM
 	iconpal PURPLE, BLUE ; QWILFISH, HISUIAN_FORM
 	iconpal PURPLE, BROWN ; SNEASEL, HISUIAN_FORM
-
-	iconpal BROWN, AZURE ; WOOPER, PALDEAN_FORM
 
 	iconpal RED, RED ; URSALUNA, URSALUNA_BLOODMOON_FORM
 

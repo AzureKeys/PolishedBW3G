@@ -123,8 +123,6 @@ endc
 	db   1,  31 ; Sunkern
 	db  32, 100 ; Sunflora
 	db   1,  39 ; Yanma
-	db   1,  19 ; Wooper
-	db  20, 100 ; Quagsire
 	db  20, 100 ; Espeon
 	db  20, 100 ; Umbreon
 	db   1,  39 ; Murkrow
@@ -193,7 +191,6 @@ endc
 	db  40, 100 ; Sneasler
 	db  33, 100 ; Overqwil
 	db  32, 100 ; Dudunsparce
-	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
 	db   1,  16 ; Snivy
 	db  17,  35 ; Servine
@@ -259,11 +256,11 @@ endc
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  37, 100 ; Carracosta
 	db   1,  36 ; Archen
 	db  37, 100 ; Archeops
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
 	db   1,  29 ; Zorua
@@ -314,4 +311,5 @@ endc
 	db  43, 100 ; Golurk
 	db   1,  51 ; Pawniard
 	db  52, 100 ; Bisharp
+	db  30, 100 ; Bouffalant
 	assert_table_length NUM_SPECIES

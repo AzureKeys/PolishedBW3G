@@ -118,8 +118,6 @@ EggSpeciesMovesPointers::
 	dw SunkernEggSpeciesMoves           ; Sunkern
 	dw SunkernEggSpeciesMoves           ; Sunflora
 	dw YanmaEggSpeciesMoves             ; Yanma
-	dw WooperPlainEggSpeciesMoves       ; Wooper
-	dw WooperPlainEggSpeciesMoves       ; Quagsire
 	dw EeveeEggSpeciesMoves             ; Espeon
 	dw EeveeEggSpeciesMoves             ; Umbreon
 	dw MurkrowEggSpeciesMoves           ; Murkrow
@@ -188,7 +186,6 @@ EggSpeciesMovesPointers::
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw QwilfishHisuianEggSpeciesMoves   ; Overqwil
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
-	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SnivyEggSpeciesMoves             ; Snivy
 	dw SnivyEggSpeciesMoves             ; Servine
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TirtougaEggSpeciesMoves          ; Carracosta
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
@@ -309,6 +306,7 @@ EggSpeciesMovesPointers::
 	dw GolettEggSpeciesMoves            ; Golurk
 	dw PawniardEggSpeciesMoves          ; Pawniard
 	dw PawniardEggSpeciesMoves          ; Bisharp
+	dw BouffalantEggSpeciesMoves        ; Bouffalant
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -348,8 +346,6 @@ EggSpeciesMovesPointers::
 	dw CyndaquilEggSpeciesMoves         ; Typhlosion (Hisuian Form)
 	dw QwilfishHisuianEggSpeciesMoves   ; Qwilfish (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
-
-	dw WooperPaldeanEggSpeciesMoves     ; Wooper (Paldean Form)
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
 	

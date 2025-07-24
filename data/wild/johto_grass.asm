@@ -414,8 +414,8 @@
 	wildmon 22, RATTATA
 	wildmon 24, RATTATA
 	wildmon 20, RATTATA
-	wildmon 18, WOOPER
-	wildmon 22, QUAGSIRE
+	wildmon 18, RATTATA
+	wildmon 22, RATTATA
 	wildmon 25, RATTATA
 	wildmon 25, RATTATA
 	end_grass_wildmons
@@ -497,7 +497,7 @@
 	; nite
 	wildmon 8, GEODUDE
 	wildmon 8, RATTATA
-	wildmon 7, WOOPER
+	wildmon 7, RATTATA
 	wildmon 6, RATTATA
 	wildmon 9, ZUBAT
 	wildmon 8, ONIX
@@ -525,7 +525,7 @@
 	; nite
 	wildmon 8, GEODUDE
 	wildmon 6, ZUBAT
-	wildmon 8, WOOPER
+	wildmon 8, RATTATA
 	wildmon 8, ONIX
 	wildmon 6, RATTATA
 	wildmon 8, RATTATA
@@ -553,7 +553,7 @@
 	; nite
 	wildmon 21, ZUBAT
 	wildmon 21, GOLBAT
-	wildmon 21, QUAGSIRE
+	wildmon 21, RATTATA
 	wildmon 20, RATICATE
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
@@ -581,7 +581,7 @@
 	; nite
 	wildmon 22, ZUBAT
 	wildmon 22, GOLBAT
-	wildmon 22, QUAGSIRE
+	wildmon 22, RATTATA
 	wildmon 21, RATICATE
 	wildmon 20, GEODUDE
 	wildmon 23, ONIX
@@ -1447,7 +1447,7 @@
 	wildmon 7, RATTATA
 	wildmon 8, RATTATA
 	; nite
-	wildmon 5, WOOPER
+	wildmon 5, RATTATA
 	wildmon 6, RATTATA
 	wildmon 8, RATTATA
 	wildmon 8, RATTATA
@@ -1855,7 +1855,7 @@
 	wildmon LEVEL_FROM_BADGES - 5, GEODUDE
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, RATTATA
-	wildmon LEVEL_FROM_BADGES - 6, WOOPER
+	wildmon LEVEL_FROM_BADGES - 6, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, GRAVELER
 	wildmon LEVEL_FROM_BADGES - 1, STEELIX
 	; day
@@ -1863,7 +1863,7 @@
 	wildmon LEVEL_FROM_BADGES - 5, GEODUDE
 	wildmon LEVEL_FROM_BADGES - 5, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, ONIX
 	wildmon LEVEL_FROM_BADGES - 1, STEELIX
 	; nite
@@ -1951,7 +1951,7 @@
 	wildmon LEVEL_FROM_BADGES + 0, SUNKERN
 	wildmon LEVEL_FROM_BADGES + 1, SUNKERN
 	; nite
-	wildmon LEVEL_FROM_BADGES - 2, WOOPER
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
@@ -1979,7 +1979,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, RATTATA
 	; nite
-	wildmon LEVEL_FROM_BADGES + 1, WOOPER
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, RATICATE
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
@@ -2131,23 +2131,23 @@
 	def_grass_wildmons STORMY_BEACH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 1, WOOPER
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, YANMA
 	; day
-	wildmon LEVEL_FROM_BADGES - 1, WOOPER
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, YANMA
 	; nite
-	wildmon LEVEL_FROM_BADGES - 1, WOOPER
+	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, RATICATE
@@ -2159,23 +2159,23 @@
 	def_grass_wildmons MURKY_SWAMP
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, WOOPER, PALDEAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, CLODSIRE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA, PALDEAN_FORM
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, YANMA
 	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 0, GRIMER, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 1, MUK, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, YANMEGA
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, WOOPER, PALDEAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, CLODSIRE
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA, PALDEAN_FORM
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, YANMA
 	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 0, GRIMER, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 1, MUK, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 3, YANMEGA
 	; nite
-	wildmon LEVEL_FROM_BADGES + 1, CLODSIRE
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 4, ZUBAT
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 2, GASTLY

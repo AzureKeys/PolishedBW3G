@@ -118,8 +118,6 @@ FramesPointers:
 	dw SunkernFrames
 	dw SunfloraFrames
 	dw YanmaFrames
-	dw WooperPlainFrames
-	dw QuagsireFrames
 	dw EspeonFrames
 	dw UmbreonFrames
 	dw MurkrowFrames
@@ -188,7 +186,6 @@ FramesPointers:
 	dw SneaslerFrames
 	dw OverqwilFrames
 	dw DudunsparceTwoSegmentFrames
-	dw ClodsireFrames
 	dw AnnihilapeFrames
 	dw SnivyFrames
 	dw ServineFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
 	dw TirtougaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw CarracostaFrames
 	dw ArchenFrames
 	dw ArcheopsFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw TrubbishFrames
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
@@ -309,6 +306,7 @@ FramesPointers:
 	dw GolurkFrames
 	dw PawniardFrames
 	dw BisharpFrames
+	dw BouffalantFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -411,8 +409,6 @@ FramesPointers:
 	dw TyphlosionHisuianFrames
 	dw QwilfishHisuianFrames
 	dw SneaselHisuianFrames
-
-	dw WooperPaldeanFrames
 
 	dw UrsalunaBloodmoonFrames
 	

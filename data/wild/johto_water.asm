@@ -2,36 +2,36 @@
 
 	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, RATTATA
+	wildmon 20, RATTATA
+	wildmon 15, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_1F
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, RATTATA
+	wildmon 20, RATTATA
+	wildmon 15, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_NORTH
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, RATTATA
+	wildmon 20, RATTATA
+	wildmon 15, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_SOUTH
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, RATTATA
+	wildmon 20, RATTATA
+	wildmon 15, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
 	wildmon 15, RATTATA
-	wildmon 20, QUAGSIRE
+	wildmon 20, RATTATA
 	wildmon 20, RATTATA
 	end_water_wildmons
 
@@ -157,7 +157,7 @@
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
 	wildmon 15, RATTATA
-	wildmon 20, QUAGSIRE
+	wildmon 20, RATTATA
 	wildmon 20, RATTATA
 	end_water_wildmons
 
@@ -226,9 +226,9 @@
 
 	def_water_wildmons CLIFF_EDGE_GATE
 	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, WOOPER
-	wildmon LEVEL_FROM_BADGES - 4, WOOPER
-	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
+	wildmon LEVEL_FROM_BADGES - 4, RATTATA
+	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons NEW_BARK_TOWN
@@ -380,16 +380,16 @@
 
 	def_water_wildmons MURKY_SWAMP
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
-	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
+	wildmon LEVEL_FROM_BADGES + 5, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons MAGNET_TUNNEL_INSIDE
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
-	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
+	wildmon LEVEL_FROM_BADGES + 0, RATTATA
+	wildmon LEVEL_FROM_BADGES + 5, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons RUGGED_ROAD_SOUTH

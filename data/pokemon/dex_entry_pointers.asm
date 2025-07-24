@@ -119,8 +119,6 @@ PokedexDataPointerTable:
 	dba SunkernPokedexEntry
 	dba SunfloraPokedexEntry
 	dba YanmaPokedexEntry
-	dba WooperPlainPokedexEntry
-	dba QuagsirePokedexEntry
 	dba EspeonPokedexEntry
 	dba UmbreonPokedexEntry
 	dba MurkrowPokedexEntry
@@ -189,7 +187,6 @@ PokedexDataPointerTable:
 	dba SneaslerPokedexEntry
 	dba OverqwilPokedexEntry
 	dba DudunsparcePokedexEntry
-	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba SnivyPokedexEntry
 	dba ServinePokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba YamaskPlainPokedexEntry
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
@@ -310,6 +307,7 @@ PokedexDataPointerTable:
 	dba GolurkPokedexEntry
 	dba PawniardPokedexEntry
 	dba BisharpPokedexEntry
+	dba BouffalantPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -349,8 +347,6 @@ PokedexDataPointerTable:
 	dba TyphlosionHisuianPokedexEntry
 	dba QwilfishHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
-
-	dba WooperPaldeanPokedexEntry
 
 	dba UrsalunaBloodmoonPokedexEntry
 	

@@ -52,28 +52,28 @@
 	def_water_wildmons ROUTE_12_NORTH
 	db 6 percent ; encounter rate
 	wildmon  48, RATTATA
-	wildmon  52, QUAGSIRE
+	wildmon  52, RATTATA
 	wildmon  54, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12_SOUTH
 	db 6 percent ; encounter rate
 	wildmon  48, RATTATA
-	wildmon  52, QUAGSIRE
+	wildmon  52, RATTATA
 	wildmon  54, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_13_EAST
 	db 6 percent ; encounter rate
 	wildmon  49, RATTATA
-	wildmon  53, QUAGSIRE
+	wildmon  53, RATTATA
 	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_14
 	db 6 percent ; encounter rate
 	wildmon  49, RATTATA
-	wildmon  53, QUAGSIRE
+	wildmon  53, RATTATA
 	wildmon  55, RATTATA
 	end_water_wildmons
 
@@ -87,7 +87,7 @@
 	def_water_wildmons LUCKY_ISLAND
 	db 6 percent ; encounter rate
 	wildmon  49, RATTATA
-	wildmon  53, QUAGSIRE
+	wildmon  53, RATTATA
 	wildmon  55, RATTATA
 	end_water_wildmons
 

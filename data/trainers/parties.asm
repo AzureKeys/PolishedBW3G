@@ -489,7 +489,7 @@ KogaGroup:
 	tr_mon 50, RATTATA @ SILVERPOWDER
 		tr_evs 252 SAt, 68 Spe
 		tr_moves SUPERSONIC, BUG_BUZZ, PSYCHIC_M, TOXIC
-	tr_mon 50, CLODSIRE @ SITRUS_BERRY
+	tr_mon 50, RATTATA @ SITRUS_BERRY
 		tr_evs 160 Def, 160 SDf
 		tr_moves POISON_JAB, TOXIC_SPIKES, EARTHQUAKE, MEGAHORN
 	tr_mon 52, RATTATA @ SILK_SCARF
@@ -715,7 +715,7 @@ MistyGroup:
 	tr_mon 61, GOLDUCK
 		tr_evs 100 HP, 252 SAt
 		tr_moves WATER_PULSE, DISABLE, CALM_MIND, PSYCHIC_M
-	tr_mon 60, QUAGSIRE
+	tr_mon 60, RATTATA
 		tr_evs 100 HP, 252 SAt
 		tr_moves SCALD, CALM_MIND, EARTHQUAKE, RAIN_DANCE
 	tr_mon 62, LAPRAS
@@ -735,7 +735,7 @@ MistyGroup:
 	def_trainer 2, "Misty"
 	tr_mon 73, GOLDUCK @ TWISTEDSPOON
 		tr_moves PSYCHIC_M, SCALD, ICE_BEAM, CALM_MIND
-	tr_mon 72, QUAGSIRE
+	tr_mon 72, RATTATA
 		tr_moves EARTHQUAKE, SCALD, RECOVER, TOXIC
 	tr_mon 72, RATTATA @ KINGS_ROCK
 		tr_moves SWORDS_DANCE, CRABHAMMER, X_SCISSOR, ROCK_SLIDE
@@ -1621,7 +1621,7 @@ YoungsterGroup:
 	end_trainer
 
 	def_trainer GORDON, "Gordon"
-	tr_mon 11, WOOPER
+	tr_mon 11, RATTATA
 	end_trainer
 
 	def_trainer WARREN, "Warren"
@@ -1658,7 +1658,7 @@ YoungsterGroup:
 
 	def_trainer ALFIE, "Alfie"
 	tr_mon 54, SANDSLASH
-	tr_mon 55, QUAGSIRE
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer OLIVER, "Oliver"
@@ -1673,7 +1673,7 @@ YoungsterGroup:
 
 	def_trainer TYLER, "Tyler"
 	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, QUAGSIRE
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 8, SANDSLASH
 	end_trainer
 
@@ -2165,13 +2165,13 @@ TwinsGroup:
 	end_trainer
 
 	def_trainer KAYANDTIA1, "Kay & Tia"
-	tr_mon 56, QUAGSIRE
-	tr_mon 56, CLODSIRE
+	tr_mon 56, RATTATA
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer KAYANDTIA2, "Kay & Tia"
-	tr_mon 56, CLODSIRE
-	tr_mon 56, QUAGSIRE
+	tr_mon 56, RATTATA
+	tr_mon 56, RATTATA
 	end_trainer
 
 
@@ -2321,7 +2321,7 @@ FisherGroup:
 
 	def_trainer STEPHEN, "Stephen"
 	tr_mon 60, MAGIKARP
-	tr_mon 58, QUAGSIRE
+	tr_mon 58, RATTATA
 	tr_mon 55, QWILFISH
 	tr_mon 55, RATTATA
 	end_trainer
@@ -2770,7 +2770,7 @@ HikerGroup:
 	end_trainer
 
 	def_trainer DERRICK, "Derrick"
-	tr_mon 53, CLODSIRE
+	tr_mon 53, RATTATA
 	tr_mon 53, RATTATA
 	tr_mon 55, GOLEM
 	end_trainer
@@ -3017,7 +3017,7 @@ PokefanMGroup:
 	end_trainer
 
 	def_trainer ROBERT, "Robert"
-	tr_mon 56, QUAGSIRE @ SITRUS_BERRY
+	tr_mon 56, RATTATA @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer JOSHUA, "Joshua"
@@ -3916,14 +3916,14 @@ SchoolboyGroup:
 	def_trainer ALAN3, "Alan"
 	tr_mon 20, RATTATA
 	tr_mon 22, TANGELA
-	tr_mon 20, QUAGSIRE
+	tr_mon 20, RATTATA
 	tr_mon 25, YANMA
 	end_trainer
 
 	def_trainer ALAN4, "Alan"
 	tr_mon 27, RATTATA
 	tr_mon 27, TANGELA
-	tr_mon 30, QUAGSIRE
+	tr_mon 30, RATTATA
 	tr_mon 30, YANMA
 	end_trainer
 
@@ -3934,7 +3934,7 @@ SchoolboyGroup:
 		tr_moves ANCIENTPOWER, POISONPOWDER, VINE_WHIP, MEGA_DRAIN
 	tr_mon 37, YANMA
 		tr_moves QUICK_ATTACK, DOUBLE_TEAM, DRAGON_RAGE, WING_ATTACK
-	tr_mon 35, QUAGSIRE
+	tr_mon 35, RATTATA
 		tr_moves LEER, HEADBUTT, AMNESIA, EARTHQUAKE
 	end_trainer
 
@@ -4782,7 +4782,7 @@ SailorGroup:
 	end_trainer
 
 	def_trainer HARRY, "Harry"
-	tr_mon 20, WOOPER
+	tr_mon 20, RATTATA
 	end_trainer
 
 	def_trainer PARKER, "Parker"
@@ -4877,9 +4877,9 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer SETH, "Tyson" ; MISMATCH
-	tr_mon 58, QUAGSIRE
+	tr_mon 58, RATTATA
 	tr_mon 58, OCTILLERY
-	tr_mon 62, QUAGSIRE
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer JAMES, "James"
@@ -4915,7 +4915,7 @@ SwimmerMGroup:
 
 	def_trainer NADAR, "Nadar"
 	tr_mon LEVEL_FROM_BADGES + 4, SEADRA
-	tr_mon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
 	def_trainer CONRAD, "Conrad"
@@ -4946,7 +4946,7 @@ SwimmerMGroup:
 
 	def_trainer SWIMMERM_LUIS, "Luis"
 	tr_mon 60, SEADRA
-	tr_mon 56, QUAGSIRE
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer ELMO, "Elmo"
@@ -6099,7 +6099,7 @@ CooltrainerMGroup:
 	def_trainer BLAKE, "Blake"
 	tr_mon 38, MAGNETON
 		tr_moves THUNDERBOLT, SUPERSONIC, SWIFT, SCREECH
-	tr_mon 36, QUAGSIRE
+	tr_mon 36, RATTATA
 		tr_moves WATER_GUN, HEADBUTT, AMNESIA, EARTHQUAKE
 	tr_mon 36, EXEGGCUTE
 		tr_moves LEECH_SEED, CONFUSION, SLEEP_POWDER, SOLAR_BEAM
@@ -7487,7 +7487,7 @@ MarlonGroup:
 
 	def_trainer_class MARLON
 	def_trainer 1, "Marlon"
-	tr_mon 33, QUAGSIRE
+	tr_mon 33, RATTATA
 		tr_evs 200 SDf
 	tr_mon 37, RATTATA
 		tr_evs 200 Spe
@@ -7500,7 +7500,7 @@ MarlonGroup:
 	end_trainer
 
 	def_trainer 2, "Marlon"
-	tr_mon 57, QUAGSIRE
+	tr_mon 57, RATTATA
 		tr_evs 68 HP, 252 SDf
 	tr_mon 60, RATTATA
 		tr_evs 68 SAt, 252 Spe
@@ -7515,7 +7515,7 @@ MarlonGroup:
 	end_trainer
 
 	def_trainer 3, "Marlon"
-	tr_mon 72, QUAGSIRE
+	tr_mon 72, RATTATA
 	tr_mon 75, RATTATA
 	tr_mon 73, BLASTOISE
 	tr_mon 74, MANTINE

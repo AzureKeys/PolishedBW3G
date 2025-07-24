@@ -2560,51 +2560,6 @@ endc
 	learnset 57, BUG_BUZZ
 	learnset 62, DREAM_EATER ; event move
 
-	evos_attacks WooperPlain
-	evo_data EVOLVE_LEVEL, 20, QUAGSIRE
-	learnset 1, WATER_GUN
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 5, MUD_SLAP ; Mud Sport → TM move
-	learnset 9, SCARY_FACE ; Mud Shot → event move
-	learnset 15, HEADBUTT ; Slam → tutor move
-	learnset 19, RECOVER ; Mud Bomb → egg move
-	learnset 23, AMNESIA
-	learnset 29, BELLY_DRUM ; Yawn → event move
-	learnset 33, EARTHQUAKE
-	learnset 37, RAIN_DANCE
-	learnset 43, HAZE
-	learnset 47, AQUA_TAIL ; Muddy Water → event move
-
-	evos_attacks WooperPaldean
-	evo_data EVOLVE_LEVEL, 20, CLODSIRE
-	learnset 1, MUD_SLAP ; Mud Shot → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 5, TACKLE
-	learnset 9, POISON_STING ; Poison Tail → similar move
-	learnset 15, HEADBUTT ; Slam → tutor move
-	learnset 19, RECOVER ; Mud Bomb → egg move
-	learnset 23, AMNESIA
-	learnset 29, BELLY_DRUM ; Yawn → event move
-	learnset 33, EARTHQUAKE
-	learnset 37, POISON_JAB
-	learnset 43, TOXIC_SPIKES
-	learnset 47, GUNK_SHOT ; Sludge Wave → similar move
-
-	evos_attacks Quagsire
-	learnset 1, ANCIENTPOWER ; evolution move
-	learnset 1, WATER_GUN
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 5, MUD_SLAP ; Mud Sport → TM move
-	learnset 9, SCARY_FACE ; Mud Shot → event move
-	learnset 15, HEADBUTT ; Slam → tutor move
-	learnset 19, RECOVER ; Mud Bomb → egg move
-	learnset 24, AMNESIA
-	learnset 31, BELLY_DRUM ; Yawn → event move
-	learnset 36, EARTHQUAKE
-	learnset 41, RAIN_DANCE
-	learnset 48, HAZE
-	learnset 53, AQUA_TAIL ; Muddy Water → event move
-
 	evos_attacks Espeon
 	learnset 1, GROWL
 	learnset 1, TACKLE
@@ -3961,21 +3916,6 @@ endc
 	learnset 53, HURRICANE
 	learnset 56, HYPER_VOICE ; Boomburst → similar move
 	learnset 58, OUTRAGE ; new move
-
-	evos_attacks Clodsire
-	learnset 1, MEGAHORN ; evolution move
-	learnset 1, MUD_SLAP ; Mud Shot → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 5, TACKLE
-	learnset 9, POISON_STING ; Poison Tail → similar move
-	learnset 15, HEADBUTT ; Slam → tutor move
-	learnset 19, RECOVER ; Mud Bomb → egg move
-	learnset 24, AMNESIA
-	learnset 31, BELLY_DRUM ; Yawn → event move
-	learnset 36, EARTHQUAKE
-	learnset 41, POISON_JAB
-	learnset 48, TOXIC_SPIKES
-	learnset 53, GUNK_SHOT ; Sludge Wave → similar move
 
 	evos_attacks Annihilape
 	learnset 1, SHADOW_CLAW ; Shadow Punch → similar move ; evolution move
@@ -6144,6 +6084,22 @@ endc
 	learnset 57, IRON_HEAD
 	learnset 63, SWORDS_DANCE
 	;learnset 71, GUILLOTINE
+	
+	evos_attacks Bouffalant
+	learnset 1, PURSUIT
+	learnset 1, LEER
+	learnset 6, RAGE
+	learnset 11, FURY_STRIKES ; Fury Attack
+	learnset 16, HORN_ATTACK
+	learnset 21, SCARY_FACE
+	learnset 26, DOUBLE_KICK ; Revenge
+	learnset 31, EXTREMESPEED ; Head Charge
+	learnset 36, FOCUS_ENERGY
+	learnset 41, MEGAHORN
+	learnset 46, REVERSAL
+	learnset 50, THRASH
+	learnset 56, SWORDS_DANCE
+	learnset 61, GIGA_IMPACT
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

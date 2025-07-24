@@ -122,8 +122,6 @@ MiniIconPointers:
 	mini_icon Sunkern
 	mini_icon Sunflora
 	mini_icon Yanma
-	mini_icon Wooper
-	mini_icon Quagsire
 	mini_icon Espeon
 	mini_icon Umbreon
 	mini_icon Murkrow
@@ -192,7 +190,6 @@ MiniIconPointers:
 	mini_icon Sneasler
 	mini_icon Overqwil
 	mini_icon DudunsparceTwoSegment
-	mini_icon Clodsire
 	mini_icon Annihilape
 	mini_icon Snivy
 	mini_icon Servine
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Yamask
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Carracosta
 	mini_icon Archen
 	mini_icon Archeops
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Trubbish
 	mini_icon Garbodor
 	mini_icon Zorua
@@ -313,6 +310,7 @@ MiniIconPointers:
 	mini_icon Golurk
 	mini_icon Pawniard
 	mini_icon Bisharp
+	mini_icon Bouffalant
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -399,8 +397,6 @@ endr
 	mini_icon TyphlosionHisuian
 	mini_icon QwilfishHisuian
 	mini_icon SneaselHisuian
-
-	mini_icon WooperPaldean
 
 	mini_icon UrsalunaBloodmoon
 

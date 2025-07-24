@@ -384,10 +384,6 @@ SECTION "Yanmega Pics", ROMX
 YanmegaFrontpic: INCBIN "gfx/pokemon/yanmega/front.animated.2bpp.lz"
 YanmegaBackpic:  INCBIN "gfx/pokemon/yanmega/back.2bpp.lz"
 
-SECTION "Quagsire Pics", ROMX
-QuagsireFrontpic: INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
-QuagsireBackpic:  INCBIN "gfx/pokemon/quagsire/back.2bpp.lz"
-
 SECTION "Espeon Pics", ROMX
 EspeonFrontpic: INCBIN "gfx/pokemon/espeon/front.animated.2bpp.lz"
 EspeonBackpic:  INCBIN "gfx/pokemon/espeon/back.2bpp.lz"
@@ -1081,10 +1077,6 @@ DudunsparceThreeSegmentFrontpic: INCBIN "gfx/pokemon/dudunsparce_three_segment/f
 DudunsparceTwoSegmentBackpic:
 DudunsparceThreeSegmentBackpic: INCBIN "gfx/pokemon/dudunsparce/back.2bpp.lz"
 
-SECTION "Clodsire Pics", ROMX
-ClodsireFrontpic: INCBIN "gfx/pokemon/clodsire/front.animated.2bpp.lz"
-ClodsireBackpic:  INCBIN "gfx/pokemon/clodsire/back.2bpp.lz"
-
 SECTION "Annihilape Pics", ROMX
 AnnihilapeFrontpic: INCBIN "gfx/pokemon/annihilape/front.animated.2bpp.lz"
 AnnihilapeBackpic:  INCBIN "gfx/pokemon/annihilape/back.2bpp.lz"
@@ -1104,14 +1096,6 @@ SneaselHisuianBackpic:  INCBIN "gfx/pokemon/sneasel_hisuian/back.2bpp.lz"
 SECTION "Sneasler Pics", ROMX
 SneaslerFrontpic: INCBIN "gfx/pokemon/sneasler/front.animated.2bpp.lz"
 SneaslerBackpic:  INCBIN "gfx/pokemon/sneasler/back.2bpp.lz"
-
-SECTION "WooperPlain Pics", ROMX
-WooperPlainFrontpic: INCBIN "gfx/pokemon/wooper_plain/front.animated.2bpp.lz"
-WooperPlainBackpic:  INCBIN "gfx/pokemon/wooper_plain/back.2bpp.lz"
-
-SECTION "WooperPaldean Pics", ROMX
-WooperPaldeanFrontpic: INCBIN "gfx/pokemon/wooper_paldean/front.animated.2bpp.lz"
-WooperPaldeanBackpic:  INCBIN "gfx/pokemon/wooper_paldean/back.2bpp.lz"
 
 SECTION "Snivy Pics", ROMX
 SnivyFrontpic: INCBIN "gfx/pokemon/snivy/front.animated.2bpp.lz"
@@ -1584,3 +1568,7 @@ PawniardBackpic:  INCBIN "gfx/pokemon/pawniard/back.2bpp.lz"
 SECTION "Bisharp Pics", ROMX
 BisharpFrontpic: INCBIN "gfx/pokemon/bisharp/front.animated.2bpp.lz"
 BisharpBackpic:  INCBIN "gfx/pokemon/bisharp/back.2bpp.lz"
+
+SECTION "Bouffalant Pics", ROMX
+BouffalantFrontpic: INCBIN "gfx/pokemon/bouffalant/front.animated.2bpp.lz"
+BouffalantBackpic:  INCBIN "gfx/pokemon/bouffalant/back.2bpp.lz"

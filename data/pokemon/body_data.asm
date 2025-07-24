@@ -125,8 +125,6 @@ PokemonBodyData:
 	body_data   3,   18, HEAD,         YELLOW ; SUNKERN
 	body_data   8,   85, BIPEDAL,      YELLOW ; SUNFLORA
 	body_data  12,  380, MULTIWINGS,   RED    ; YANMA
-	body_data   4,   85, HEAD_LEGS,    BLUE   ; WOOPER
-	body_data  14,  750, BIPEDAL_TAIL, BLUE   ; QUAGSIRE
 	body_data   9,  265, QUADRUPED,    PURPLE ; ESPEON
 	body_data  10,  270, QUADRUPED,    BLACK  ; UMBREON
 	body_data   5,   21, WINGS,        BLACK  ; MURKROW
@@ -195,7 +193,6 @@ PokemonBodyData:
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
-	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
@@ -316,6 +313,7 @@ PokemonBodyData:
 	body_data  28, 3300, BIPEDAL,      GREEN  ; GOLURK
 	body_data   5,  102, BIPEDAL,      RED    ; PAWNIARD
 	body_data  16,  700, BIPEDAL,      RED    ; BISHARP
+	body_data  16,  946, QUADRUPED,    BROWN  ; BOUFFALANT
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -355,8 +353,6 @@ PokemonBodyData:
 	body_data  16,  698, QUADRUPED,    YELLOW ; TYPHLOSION (HISUIAN_FORM)
 	body_data   5,   39, FINS,         BLACK  ; QWILFISH (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
-
-	body_data   4,  110, HEAD_LEGS,    BROWN  ; WOOPER (PALDEAN_FORM)
 	
 	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)
 	

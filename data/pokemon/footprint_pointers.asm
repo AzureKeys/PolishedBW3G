@@ -118,8 +118,6 @@ FootprintPointers::
 	dw SunkernFootprint
 	dw SunfloraFootprint
 	dw YanmaFootprint
-	dw WooperFootprint
-	dw QuagsireFootprint
 	dw EspeonFootprint
 	dw UmbreonFootprint
 	dw MurkrowFootprint
@@ -188,7 +186,6 @@ FootprintPointers::
 	dw SneaslerFootprint
 	dw OverqwilFootprint
 	dw DudunsparceFootprint
-	dw ClodsireFootprint
 	dw AnnihilapeFootprint
 	dw SnivyFootprint
 	dw ServineFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw YamaskFootprint
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw CarracostaFootprint
 	dw ArchenFootprint
 	dw ArcheopsFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw TrubbishFootprint
 	dw GarbodorFootprint
 	dw ZoruaFootprint
@@ -309,6 +306,7 @@ FootprintPointers::
 	dw GolurkFootprint
 	dw PawniardFootprint
 	dw BisharpFootprint
+	dw BouffalantFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -348,8 +346,6 @@ FootprintPointers::
 	dw TyphlosionFootprint
 	dw QwilfishFootprint
 	dw SneaselFootprint
-
-	dw WooperFootprint
 
 	dw UrsalunaFootprint
 	

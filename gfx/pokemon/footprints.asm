@@ -128,6 +128,7 @@ GolettFootprint::
 GolurkFootprint::
 PawniardFootprint::
 BisharpFootprint::
+BouffalantFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -259,8 +260,6 @@ SudowoodoFootprint:: INCBIN "gfx/footprints/sudowoodo.1bpp.lz"
 PolitoedFootprint:: INCBIN "gfx/footprints/politoed.1bpp.lz"
 SunfloraFootprint:: INCBIN "gfx/footprints/sunflora.1bpp.lz"
 YanmaFootprint:: INCBIN "gfx/footprints/yanma.1bpp.lz"
-WooperFootprint:: INCBIN "gfx/footprints/wooper.1bpp.lz"
-QuagsireFootprint:: INCBIN "gfx/footprints/quagsire.1bpp.lz"
 EspeonFootprint:: INCBIN "gfx/footprints/espeon.1bpp.lz"
 MurkrowFootprint:: INCBIN "gfx/footprints/murkrow.1bpp.lz"
 SlowkingFootprint:: INCBIN "gfx/footprints/slowking.1bpp.lz"
@@ -311,5 +310,4 @@ MrRimeFootprint:: INCBIN "gfx/footprints/mr__rime.1bpp.lz"
 KleavorFootprint:: INCBIN "gfx/footprints/kleavor.1bpp.lz"
 UrsalunaFootprint:: INCBIN "gfx/footprints/ursaluna.1bpp.lz"
 SneaslerFootprint:: INCBIN "gfx/footprints/sneasler.1bpp.lz"
-ClodsireFootprint:: INCBIN "gfx/footprints/clodsire.1bpp.lz"
 AnnihilapeFootprint:: INCBIN "gfx/footprints/annihilape.1bpp.lz"

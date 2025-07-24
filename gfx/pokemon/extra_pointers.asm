@@ -118,8 +118,6 @@ AnimationExtraPointers:
 	dw SunkernAnimationExtra
 	dw SunfloraAnimationExtra
 	dw YanmaAnimationExtra
-	dw WooperPlainAnimationExtra
-	dw QuagsireAnimationExtra
 	dw EspeonAnimationExtra
 	dw UmbreonAnimationExtra
 	dw MurkrowAnimationExtra
@@ -188,7 +186,6 @@ AnimationExtraPointers:
 	dw SneaslerAnimationExtra
 	dw OverqwilAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
-	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw SnivyAnimationExtra
 	dw ServineAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw YamaskPlainAnimationExtra
 	dw CofagrigusAnimationExtra
 	dw TirtougaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw CarracostaAnimationExtra
 	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
@@ -309,6 +306,7 @@ AnimationExtraPointers:
 	dw GolurkAnimationExtra
 	dw PawniardAnimationExtra
 	dw BisharpAnimationExtra
+	dw BouffalantAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
@@ -411,8 +409,6 @@ AnimationExtraPointers:
 	dw TyphlosionHisuianAnimationExtra
 	dw QwilfishHisuianAnimationExtra
 	dw SneaselHisuianAnimationExtra
-
-	dw WooperPaldeanAnimationExtra
 
 	dw UrsalunaBloodmoonAnimationExtra
 	

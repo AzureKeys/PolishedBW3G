@@ -142,8 +142,6 @@
 	const SUNKERN    ; 5c
 	const SUNFLORA   ; 5d
 	const YANMA      ; 5e
-	const WOOPER     ; xx
-	const QUAGSIRE   ; xx
 	const ESPEON     ; 5f
 	const UMBREON    ; 60
 	const MURKROW    ; 61
@@ -212,7 +210,6 @@
 	const SNEASLER   ; 11e
 	const OVERQWIL   ; xx
 	const DUDUNSPARCE ; 120
-	const CLODSIRE   ; xx
 	const ANNIHILAPE ; 123
 	const SNIVY      ; f2
 	const SERVINE    ; f3
@@ -278,11 +275,11 @@
 	const YAMASK     ; 137
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const CARRACOSTA ; 13a
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f
@@ -333,6 +330,7 @@
 	const GOLURK     ; 174
 	const PAWNIARD   ; 175
 	const BISHARP    ; 176
+	const BOUFFALANT ; 177
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -497,7 +495,6 @@ DEF HISUIAN_FORM EQU 4
 
 ; paldean forms
 DEF PALDEAN_FORM EQU 5
-	const_skip ; 185 wooper
 
 ; ursaluna
 	ext_const_def 2
