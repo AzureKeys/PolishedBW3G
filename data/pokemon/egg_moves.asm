@@ -1244,5 +1244,9 @@ BouffalantEggSpeciesMoves:
 	db MUD_SLAP
 	db $ff
 
+RuffletEggSpeciesMoves:
+	dp RUFFLET, PLAIN_FORM
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

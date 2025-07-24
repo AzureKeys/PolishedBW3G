@@ -310,4 +310,6 @@ endc
 	db   1,  51 ; Pawniard
 	db  52, 100 ; Bisharp
 	db  30, 100 ; Bouffalant
+	db   1,  53 ; Rufflet
+	db  54, 100 ; Braviary
 	assert_table_length NUM_SPECIES

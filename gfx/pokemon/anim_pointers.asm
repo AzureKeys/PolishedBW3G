@@ -305,6 +305,8 @@ AnimationPointers:
 	dw PawniardAnimation
 	dw BisharpAnimation
 	dw BouffalantAnimation
+	dw RuffletAnimation
+	dw BraviaryPlainAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

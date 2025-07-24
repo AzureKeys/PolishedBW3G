@@ -129,6 +129,8 @@ GolurkFootprint::
 PawniardFootprint::
 BisharpFootprint::
 BouffalantFootprint::
+RuffletFootprint::
+BraviaryFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

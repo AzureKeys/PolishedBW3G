@@ -309,6 +309,8 @@ PokemonPicPointers::
 	pics Pawniard
 	pics Bisharp
 	pics Bouffalant
+	pics Rufflet
+	pics BraviaryPlain
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

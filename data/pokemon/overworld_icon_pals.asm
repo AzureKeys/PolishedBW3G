@@ -309,6 +309,8 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; PAWNIARD
 	iconpal RED, BLUE ; BISHARP
 	iconpal BROWN, RED ; BOUFFALANT
+	iconpal BLUE, BROWN ; RUFFLET
+	iconpal RED, BLUE ; BRAVIARY
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

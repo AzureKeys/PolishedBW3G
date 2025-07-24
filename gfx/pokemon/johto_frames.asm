@@ -190,6 +190,7 @@ GolurkFrames:     INCLUDE "gfx/pokemon/golurk/frames.asm"
 PawniardFrames:   INCLUDE "gfx/pokemon/pawniard/frames.asm"
 BisharpFrames:    INCLUDE "gfx/pokemon/bisharp/frames.asm"
 BouffalantFrames: INCLUDE "gfx/pokemon/bouffalant/frames.asm"
+RuffletFrames:    INCLUDE "gfx/pokemon/rufflet/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -271,3 +272,5 @@ FrillishMaleFrames:   INCLUDE "gfx/pokemon/frillish_male/frames.asm"
 JellicentMaleFrames:   INCLUDE "gfx/pokemon/jellicent_male/frames.asm"
 
 StunfiskPlainFrames: INCLUDE "gfx/pokemon/stunfisk_plain/frames.asm"
+
+BraviaryPlainFrames: INCLUDE "gfx/pokemon/braviary_plain/frames.asm"

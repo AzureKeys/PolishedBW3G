@@ -309,6 +309,8 @@ MiniIconPointers:
 	mini_icon Pawniard
 	mini_icon Bisharp
 	mini_icon Bouffalant
+	mini_icon Rufflet
+	mini_icon Braviary
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

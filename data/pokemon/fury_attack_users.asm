@@ -13,4 +13,6 @@ FuryAttackUsers:
 	dp KARRABLAST
 	dp ESCAVALIER
 	dp BOUFFALANT
+	dp RUFFLET
+	dp BRAVIARY
 	dw 0

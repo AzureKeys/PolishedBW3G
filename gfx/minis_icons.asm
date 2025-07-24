@@ -1527,6 +1527,16 @@ BouffalantMini::     INCBIN "gfx/minis/bouffalant.2bpp.lz"
 BouffalantMiniMask:: INCBIN "gfx/minis/bouffalant_mask.1bpp.lz"
 BouffalantIcon::     INCBIN "gfx/icons/bouffalant.2bpp.lz"
 
+SECTION "Rufflet Mini Icon", ROMX
+RuffletMini::     INCBIN "gfx/minis/rufflet.2bpp.lz"
+RuffletMiniMask:: INCBIN "gfx/minis/rufflet_mask.1bpp.lz"
+RuffletIcon::     INCBIN "gfx/icons/rufflet.2bpp.lz"
+
+SECTION "Braviary Mini Icon", ROMX
+BraviaryMini::     INCBIN "gfx/minis/braviary.2bpp.lz"
+BraviaryMiniMask:: INCBIN "gfx/minis/braviary_mask.1bpp.lz"
+BraviaryIcon::     INCBIN "gfx/icons/braviary.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

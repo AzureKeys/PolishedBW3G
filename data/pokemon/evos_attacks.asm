@@ -6036,6 +6036,47 @@ endc
 	learnset 50, THRASH
 	learnset 56, SWORDS_DANCE
 	learnset 61, GIGA_IMPACT
+	
+	evos_attacks Rufflet
+	evo_data EVOLVE_LEVEL, 54, BRAVIARY
+	learnset 1, PECK
+	learnset 1, LEER
+	learnset 5, FURY_STRIKES ; Fury Attack
+	learnset 10, WING_ATTACK
+	learnset 14, HONE_CLAWS
+	learnset 19, SCARY_FACE
+	learnset 23, AERIAL_ACE
+	learnset 28, SLASH
+	learnset 32, DOUBLE_TEAM ; Defog
+	learnset 37, AGILITY ; Tailwind
+	learnset 41, AIR_SLASH
+	learnset 46, BODY_SLAM ; Crush Claw
+	learnset 50, ACROBATICS ; Sky Drop
+	learnset 55, ROAR ; Whirlwind
+	learnset 59, BRAVE_BIRD
+	
+	evos_attacks BraviaryPlain
+	learnset 1, CLOSE_COMBAT ; Superpower
+	learnset 1, ROAR ; Whirlwind
+	learnset 1, BRAVE_BIRD
+	learnset 1, PECK
+	learnset 1, LEER
+	learnset 1, FURY_STRIKES ; Fury Attack
+	learnset 1, WING_ATTACK
+	learnset 5, FURY_STRIKES ; Fury Attack
+	learnset 10, WING_ATTACK
+	learnset 14, HONE_CLAWS
+	learnset 19, SCARY_FACE
+	learnset 23, AERIAL_ACE
+	learnset 28, SLASH
+	learnset 32, DOUBLE_TEAM ; Defog
+	learnset 37, AGILITY ; Tailwind
+	learnset 41, AIR_SLASH
+	learnset 46, BODY_SLAM ; Crush Claw
+	learnset 50, ACROBATICS ; Sky Drop
+	learnset 53, CLOSE_COMBAT ; Superpower
+	learnset 57, ROAR ; Whirlwind
+	learnset 63, BRAVE_BIRD
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

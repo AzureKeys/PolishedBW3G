@@ -309,6 +309,8 @@ endc
 	db NO_MOVE      ; PAWNIARD
 	db NO_MOVE      ; BISHARP
 	db NO_MOVE      ; BOUFFALANT
+	db NO_MOVE      ; RUFFLET
+	db CLOSE_COMBAT ; BRAVIARY
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

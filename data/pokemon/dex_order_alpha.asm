@@ -23,6 +23,7 @@ AlphabeticalPokedexOrder:
 	dp BOLDORE
 	dp BONSLY
 	dp BOUFFALANT
+	dp BRAVIARY
 	dp BULBASAUR
 	dp CARRACOSTA
 	dp CELEBI
@@ -216,6 +217,7 @@ AlphabeticalPokedexOrder:
 	dp REMORAID
 	dp REUNICLUS
 	dp ROGGENROLA
+	dp RUFFLET
 	dp SAMUROTT
 	dp SANDILE
 	dp SANDSHREW

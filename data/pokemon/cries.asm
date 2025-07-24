@@ -311,4 +311,6 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $1d0,  $0b0 ; Pawniard
 	mon_cry CRY_GROWLITHE,   $2fc,  $1c4 ; Bisharp
 	mon_cry CRY_TOTODILE,   -$170,  $180 ; Bouffalant
+	mon_cry CRY_SLOWPOKE,    $194,  $0a0 ; Rufflet
+	mon_cry CRY_GOLEM,       $2e0,  $0e0 ; Braviary
 	assert_table_length NUM_SPECIES

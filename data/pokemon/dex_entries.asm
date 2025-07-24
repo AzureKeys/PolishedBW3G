@@ -3017,6 +3017,25 @@ BouffalantPokedexEntry::
 	next "enough force to"
 	next "derail a train.@"
 
+SECTION "RuffletPokedexEntry", ROMX
+RuffletPokedexEntry::
+	db "Eaglet@"
+	db "They will stand"
+	next "up to anything,"
+	next "even strong"
+	page "#mon. This"
+	next "helps them become"
+	next "stronger.@"
+
+SECTION "BraviaryPlainPokedexEntry", ROMX
+BraviaryPlainPokedexEntry::
+	db "Valiant@"
+	db "The more scars"
+	next "they have, the"
+	next "more respect they"
+	page "receive from their"
+	next "peers.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

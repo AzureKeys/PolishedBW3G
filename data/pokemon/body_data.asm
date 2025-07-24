@@ -312,6 +312,8 @@ PokemonBodyData:
 	body_data   5,  102, BIPEDAL,      RED    ; PAWNIARD
 	body_data  16,  700, BIPEDAL,      RED    ; BISHARP
 	body_data  16,  946, QUADRUPED,    BROWN  ; BOUFFALANT
+	body_data   5,  105, WINGS,        WHITE  ; RUFFLET
+	body_data  15,  410, WINGS,        RED    ; BRAVIARY
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

@@ -1560,3 +1560,11 @@ BisharpBackpic:  INCBIN "gfx/pokemon/bisharp/back.2bpp.lz"
 SECTION "Bouffalant Pics", ROMX
 BouffalantFrontpic: INCBIN "gfx/pokemon/bouffalant/front.animated.2bpp.lz"
 BouffalantBackpic:  INCBIN "gfx/pokemon/bouffalant/back.2bpp.lz"
+
+SECTION "Rufflet Pics", ROMX
+RuffletFrontpic: INCBIN "gfx/pokemon/rufflet/front.animated.2bpp.lz"
+RuffletBackpic:  INCBIN "gfx/pokemon/rufflet/back.2bpp.lz"
+
+SECTION "BraviaryPlain Pics", ROMX
+BraviaryPlainFrontpic: INCBIN "gfx/pokemon/braviary_plain/front.animated.2bpp.lz"
+BraviaryPlainBackpic:  INCBIN "gfx/pokemon/braviary_plain/back.2bpp.lz"

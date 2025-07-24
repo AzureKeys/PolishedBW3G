@@ -251,6 +251,7 @@ GolurkAnimationExtra:     INCLUDE "gfx/pokemon/golurk/anim_idle.asm"
 PawniardAnimationExtra:   INCLUDE "gfx/pokemon/pawniard/anim_idle.asm"
 BisharpAnimationExtra:    INCLUDE "gfx/pokemon/bisharp/anim_idle.asm"
 BouffalantAnimationExtra: INCLUDE "gfx/pokemon/bouffalant/anim_idle.asm"
+RuffletAnimationExtra:    INCLUDE "gfx/pokemon/rufflet/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -442,3 +443,5 @@ FrillishMaleAnimationExtra:   INCLUDE "gfx/pokemon/frillish_male/anim_idle.asm"
 JellicentMaleAnimationExtra:   INCLUDE "gfx/pokemon/jellicent_male/anim_idle.asm"
 
 StunfiskPlainAnimationExtra: INCLUDE "gfx/pokemon/stunfisk_plain/anim_idle.asm"
+
+BraviaryPlainAnimationExtra: INCLUDE "gfx/pokemon/braviary_plain/anim_idle.asm"

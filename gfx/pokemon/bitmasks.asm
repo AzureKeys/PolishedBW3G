@@ -251,6 +251,7 @@ GolurkBitmasks:     INCLUDE "gfx/pokemon/golurk/bitmask.asm"
 PawniardBitmasks:   INCLUDE "gfx/pokemon/pawniard/bitmask.asm"
 BisharpBitmasks:    INCLUDE "gfx/pokemon/bisharp/bitmask.asm"
 BouffalantBitmasks: INCLUDE "gfx/pokemon/bouffalant/bitmask.asm"
+RuffletBitmasks:    INCLUDE "gfx/pokemon/rufflet/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -442,3 +443,5 @@ FrillishMaleBitmasks:   INCLUDE "gfx/pokemon/frillish_male/bitmask.asm"
 JellicentMaleBitmasks:   INCLUDE "gfx/pokemon/jellicent_male/bitmask.asm"
 
 StunfiskPlainBitmasks: INCLUDE "gfx/pokemon/stunfisk_plain/bitmask.asm"
+
+BraviaryPlainBitmasks: INCLUDE "gfx/pokemon/braviary_plain/bitmask.asm"

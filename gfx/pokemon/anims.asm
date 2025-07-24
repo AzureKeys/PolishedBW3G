@@ -251,6 +251,7 @@ GolurkAnimation:     INCLUDE "gfx/pokemon/golurk/anim.asm"
 PawniardAnimation:   INCLUDE "gfx/pokemon/pawniard/anim.asm"
 BisharpAnimation:    INCLUDE "gfx/pokemon/bisharp/anim.asm"
 BouffalantAnimation: INCLUDE "gfx/pokemon/bouffalant/anim.asm"
+RuffletAnimation:    INCLUDE "gfx/pokemon/rufflet/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -442,3 +443,5 @@ FrillishMaleAnimation:   INCLUDE "gfx/pokemon/frillish_male/anim.asm"
 JellicentMaleAnimation:   INCLUDE "gfx/pokemon/jellicent_male/anim.asm"
 
 StunfiskPlainAnimation: INCLUDE "gfx/pokemon/stunfisk_plain/anim.asm"
+
+BraviaryPlainAnimation: INCLUDE "gfx/pokemon/braviary_plain/anim.asm"
