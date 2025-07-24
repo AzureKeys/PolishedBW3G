@@ -333,6 +333,8 @@
 	const BRAVIARY   ; 179
 	const VULLABY    ; 17a
 	const MANDIBUZZ  ; 17b
+	const HEATMOR    ; 17c
+	const DURANT     ; 17d
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

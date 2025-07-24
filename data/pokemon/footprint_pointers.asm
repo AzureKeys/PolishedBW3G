@@ -309,6 +309,8 @@ FootprintPointers::
 	dw BraviaryFootprint
 	dw VullabyFootprint
 	dw MandibuzzFootprint
+	dw HeatmorFootprint
+	dw DurantFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

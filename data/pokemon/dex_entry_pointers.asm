@@ -310,6 +310,8 @@ PokedexDataPointerTable:
 	dba BraviaryPlainPokedexEntry
 	dba VullabyPokedexEntry
 	dba MandibuzzPokedexEntry
+	dba HeatmorPokedexEntry
+	dba DurantPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

@@ -309,6 +309,8 @@ AnimationPointers:
 	dw BraviaryPlainAnimation
 	dw VullabyAnimation
 	dw MandibuzzAnimation
+	dw HeatmorAnimation
+	dw DurantAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

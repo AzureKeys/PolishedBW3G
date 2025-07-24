@@ -315,4 +315,6 @@ PokemonCries::
 	mon_cry CRY_GOLEM,       $2e0,  $0e0 ; Braviary
 	mon_cry CRY_DROWZEE,     $15c,  $0de ; Vullaby
 	mon_cry CRY_VULPIX,      $126,  $0a0 ; Mandibuzz
+	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; HEATMOR*
+	mon_cry CRY_VENONAT,     $034,  $120 ; Durant
 	assert_table_length NUM_SPECIES

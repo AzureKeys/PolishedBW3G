@@ -1547,6 +1547,16 @@ MandibuzzMini::     INCBIN "gfx/minis/mandibuzz.2bpp.lz"
 MandibuzzMiniMask:: INCBIN "gfx/minis/mandibuzz_mask.1bpp.lz"
 MandibuzzIcon::     INCBIN "gfx/icons/mandibuzz.2bpp.lz"
 
+SECTION "Heatmor Mini Icon", ROMX
+HeatmorMini::     INCBIN "gfx/minis/heatmor.2bpp.lz"
+HeatmorMiniMask:: INCBIN "gfx/minis/heatmor_mask.1bpp.lz"
+HeatmorIcon::     INCBIN "gfx/icons/heatmor.2bpp.lz"
+
+SECTION "Durant Mini Icon", ROMX
+DurantMini::     INCBIN "gfx/minis/durant.2bpp.lz"
+DurantMiniMask:: INCBIN "gfx/minis/durant_mask.1bpp.lz"
+DurantIcon::     INCBIN "gfx/icons/durant.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

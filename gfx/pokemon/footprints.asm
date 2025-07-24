@@ -133,6 +133,8 @@ RuffletFootprint::
 BraviaryFootprint::
 VullabyFootprint::
 MandibuzzFootprint::
+HeatmorFootprint::
+DurantFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

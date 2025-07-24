@@ -1576,3 +1576,11 @@ VullabyBackpic:  INCBIN "gfx/pokemon/vullaby/back.2bpp.lz"
 SECTION "Mandibuzz Pics", ROMX
 MandibuzzFrontpic: INCBIN "gfx/pokemon/mandibuzz/front.animated.2bpp.lz"
 MandibuzzBackpic:  INCBIN "gfx/pokemon/mandibuzz/back.2bpp.lz"
+
+SECTION "Heatmor Pics", ROMX
+HeatmorFrontpic: INCBIN "gfx/pokemon/heatmor/front.animated.2bpp.lz"
+HeatmorBackpic:  INCBIN "gfx/pokemon/heatmor/back.2bpp.lz"
+
+SECTION "Durant Pics", ROMX
+DurantFrontpic: INCBIN "gfx/pokemon/durant/front.animated.2bpp.lz"
+DurantBackpic:  INCBIN "gfx/pokemon/durant/back.2bpp.lz"

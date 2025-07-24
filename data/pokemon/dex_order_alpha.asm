@@ -62,6 +62,7 @@ AlphabeticalPokedexOrder:
 	dp DUDUNSPARCE
 	dp DUNSPARCE
 	dp DUOSION
+	dp DURANT
 	dp DWEBBLE
 	dp EELEKTRIK
 	dp EELEKTROSS
@@ -111,6 +112,7 @@ AlphabeticalPokedexOrder:
 	dp GYARADOS
 	dp HAUNTER
 	dp HAXORUS
+	dp HEATMOR
 	dp HERACROSS
 	dp HERDIER
 	dp HO_OH

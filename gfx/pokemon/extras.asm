@@ -254,6 +254,8 @@ BouffalantAnimationExtra: INCLUDE "gfx/pokemon/bouffalant/anim_idle.asm"
 RuffletAnimationExtra:    INCLUDE "gfx/pokemon/rufflet/anim_idle.asm"
 VullabyAnimationExtra:    INCLUDE "gfx/pokemon/vullaby/anim_idle.asm"
 MandibuzzAnimationExtra:  INCLUDE "gfx/pokemon/mandibuzz/anim_idle.asm"
+HeatmorAnimationExtra:    INCLUDE "gfx/pokemon/heatmor/anim_idle.asm"
+DurantAnimationExtra:     INCLUDE "gfx/pokemon/durant/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

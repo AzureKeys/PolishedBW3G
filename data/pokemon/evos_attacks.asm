@@ -6118,6 +6118,44 @@ endc
 	learnset 53, HURRICANE ; Bone Rush
 	learnset 57, ROAR ; Whirlwind
 	learnset 63, BRAVE_BIRD
+	
+	evos_attacks Heatmor
+	learnset 1, TACKLE
+	learnset 1, EMBER ; Incinerate
+	learnset 1, LICK
+	learnset 6, FORESIGHT ; Odor Sleuth
+	learnset 11, WRAP ; Bind
+	learnset 16, FIRE_SPIN
+	learnset 21, FURY_STRIKES ; Fury Swipes
+	learnset 26, HONE_CLAWS ; Snatch
+	;learnset 31, FLAME_BURST
+	learnset 36, BUG_BITE
+	learnset 41, SLASH
+	learnset 44, FIRE_PUNCH ; Fire Lash
+	learnset 47, AMNESIA
+	learnset 50, FLAMETHROWER
+	learnset 56, CURSE ; Stockpile / Swallow / Spit Up
+	learnset 61, FLARE_BLITZ
+	;learnset 66, INFERNO
+	
+	evos_attacks Durant
+	;learnset 1, GUILLOTINE
+	learnset 1, SCREECH ; Metal Sound
+	;learnset 1, VICEGRIP
+	learnset 1, MUD_SLAP ; Sand-Attack
+	;learnset 1, FURY_CUTTER
+	learnset 1, BITE
+	learnset 6, AGILITY
+	learnset 11, METAL_CLAW
+	learnset 16, BUG_BITE
+	learnset 21, CRUNCH
+	learnset 26, IRON_HEAD
+	learnset 31, DIG
+	learnset 36, MINIMIZE ; Entrainment
+	learnset 41, X_SCISSOR
+	learnset 46, BARRIER ; Iron Defense
+	;learnset 51, GUILLOTINE
+	learnset 56, SCREECH ; Metal Sound
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

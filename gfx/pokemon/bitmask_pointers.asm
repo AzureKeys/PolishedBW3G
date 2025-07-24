@@ -309,6 +309,8 @@ BitmasksPointers:
 	dw BraviaryPlainBitmasks
 	dw VullabyBitmasks
 	dw MandibuzzBitmasks
+	dw HeatmorBitmasks
+	dw DurantBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

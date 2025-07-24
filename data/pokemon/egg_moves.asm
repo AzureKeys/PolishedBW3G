@@ -1255,5 +1255,24 @@ VullabyEggSpeciesMoves:
 	db STEEL_WING
 	db $ff
 
+HeatmorEggSpeciesMoves:
+	dp HEATMOR, PLAIN_FORM
+	db BODY_SLAM
+	db CURSE
+	db FEINT_ATTACK
+	db NIGHT_SLASH
+	db PURSUIT
+	db SUCKER_PUNCH
+	db WRAP
+	db $ff
+
+DurantEggSpeciesMoves:
+	dp DURANT, PLAIN_FORM
+	db ENDURE
+	db FEINT_ATTACK
+	db SCREECH
+	;db THUNDER_FANG
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

@@ -316,6 +316,8 @@ PokemonBodyData:
 	body_data  15,  410, WINGS,        RED    ; BRAVIARY
 	body_data   5,   90, WINGS,        BROWN  ; VULLABY
 	body_data  12,  395, WINGS,        BROWN  ; MANDIBUZZ
+	body_data  14,  580, BIPEDAL_TAIL, RED    ; HEATMOR
+	body_data   3,  330, INSECTOID,    GRAY   ; DURANT
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

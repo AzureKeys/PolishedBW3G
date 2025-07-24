@@ -313,6 +313,8 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; BRAVIARY
 	iconpal BROWN, BLACK ; VULLABY
 	iconpal BROWN, PURPLE ; MANDIBUZZ
+	iconpal RED, BLACK ; HEATMOR
+	iconpal GRAY, BROWN ; DURANT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

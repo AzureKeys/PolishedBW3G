@@ -313,6 +313,8 @@ endc
 	db CLOSE_COMBAT ; BRAVIARY
 	db NO_MOVE      ; VULLABY
 	db HURRICANE    ; MANDIBUZZ
+	db NO_MOVE      ; HEATMOR
+	db NO_MOVE      ; DURANT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

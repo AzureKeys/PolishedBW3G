@@ -313,6 +313,8 @@ PokemonPicPointers::
 	pics BraviaryPlain
 	pics Vullaby
 	pics Mandibuzz
+	pics Heatmor
+	pics Durant
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

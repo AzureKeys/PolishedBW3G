@@ -3056,6 +3056,26 @@ MandibuzzPokedexEntry::
 	next "and brings it to"
 	next "its nest of bone.@"
 
+SECTION "HeatmorPokedexEntry", ROMX
+HeatmorPokedexEntry::
+	db "Anteater@"
+	db "It draws in air"
+	next "through its tail"
+	next "and uses it to"
+	page "fuel its internal"
+	next "fire, using it"
+	next "like a tongue.@"
+
+SECTION "DurantPokedexEntry", ROMX
+DurantPokedexEntry::
+	db "Iron Ant@"
+	db "Durant dig nests"
+	next "in mountains."
+	next "They build their"
+	page "complicated"
+	next "tunnels as"
+	next "mazes.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

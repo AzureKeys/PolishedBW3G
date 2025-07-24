@@ -124,6 +124,8 @@ NewPokedexOrder:
 	dp BRAVIARY
 	dp VULLABY
 	dp MANDIBUZZ
+	dp HEATMOR
+	dp DURANT
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

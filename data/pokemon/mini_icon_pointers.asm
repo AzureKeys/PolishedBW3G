@@ -313,6 +313,8 @@ MiniIconPointers:
 	mini_icon Braviary
 	mini_icon Vullaby
 	mini_icon Mandibuzz
+	mini_icon Heatmor
+	mini_icon Durant
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

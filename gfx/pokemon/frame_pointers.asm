@@ -309,6 +309,8 @@ FramesPointers:
 	dw BraviaryPlainFrames
 	dw VullabyFrames
 	dw MandibuzzFrames
+	dw HeatmorFrames
+	dw DurantFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

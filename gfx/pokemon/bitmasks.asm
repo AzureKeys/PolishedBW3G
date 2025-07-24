@@ -254,6 +254,8 @@ BouffalantBitmasks: INCLUDE "gfx/pokemon/bouffalant/bitmask.asm"
 RuffletBitmasks:    INCLUDE "gfx/pokemon/rufflet/bitmask.asm"
 VullabyBitmasks:    INCLUDE "gfx/pokemon/vullaby/bitmask.asm"
 MandibuzzBitmasks:  INCLUDE "gfx/pokemon/mandibuzz/bitmask.asm"
+HeatmorBitmasks:    INCLUDE "gfx/pokemon/heatmor/bitmask.asm"
+DurantBitmasks:     INCLUDE "gfx/pokemon/durant/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

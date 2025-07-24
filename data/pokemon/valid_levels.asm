@@ -314,4 +314,6 @@ endc
 	db  54, 100 ; Braviary
 	db   1,  53 ; Vullaby
 	db  54, 100 ; Mandibuzz
+	db  30, 100 ; Heatmor
+	db  30, 100 ; Durant
 	assert_table_length NUM_SPECIES

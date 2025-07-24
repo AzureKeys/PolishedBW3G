@@ -313,6 +313,8 @@ EvosAttacksPointers::
 	dw BraviaryPlainEvosAttacks
 	dw VullabyEvosAttacks
 	dw MandibuzzEvosAttacks
+	dw HeatmorEvosAttacks
+	dw DurantEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
