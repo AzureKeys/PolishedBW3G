@@ -1248,5 +1248,12 @@ RuffletEggSpeciesMoves:
 	dp RUFFLET, PLAIN_FORM
 	db $ff
 
+VullabyEggSpeciesMoves:
+	dp VULLABY, PLAIN_FORM
+	db MEAN_LOOK
+	db SCARY_FACE
+	db STEEL_WING
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

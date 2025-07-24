@@ -15,4 +15,6 @@ FuryAttackUsers:
 	dp BOUFFALANT
 	dp RUFFLET
 	dp BRAVIARY
+	dp VULLABY
+	dp MANDIBUZZ
 	dw 0

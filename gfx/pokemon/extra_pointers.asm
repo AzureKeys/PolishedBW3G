@@ -307,6 +307,8 @@ AnimationExtraPointers:
 	dw BouffalantAnimationExtra
 	dw RuffletAnimationExtra
 	dw BraviaryPlainAnimationExtra
+	dw VullabyAnimationExtra
+	dw MandibuzzAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra

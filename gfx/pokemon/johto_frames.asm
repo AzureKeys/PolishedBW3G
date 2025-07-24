@@ -191,6 +191,8 @@ PawniardFrames:   INCLUDE "gfx/pokemon/pawniard/frames.asm"
 BisharpFrames:    INCLUDE "gfx/pokemon/bisharp/frames.asm"
 BouffalantFrames: INCLUDE "gfx/pokemon/bouffalant/frames.asm"
 RuffletFrames:    INCLUDE "gfx/pokemon/rufflet/frames.asm"
+VullabyFrames:    INCLUDE "gfx/pokemon/vullaby/frames.asm"
+MandibuzzFrames:  INCLUDE "gfx/pokemon/mandibuzz/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

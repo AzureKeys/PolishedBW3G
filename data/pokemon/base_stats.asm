@@ -342,6 +342,8 @@ INCLUDE "data/pokemon/base_stats/bisharp.asm"
 INCLUDE "data/pokemon/base_stats/bouffalant.asm"
 INCLUDE "data/pokemon/base_stats/rufflet.asm"
 INCLUDE "data/pokemon/base_stats/braviary_plain.asm"
+INCLUDE "data/pokemon/base_stats/vullaby.asm"
+INCLUDE "data/pokemon/base_stats/mandibuzz.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

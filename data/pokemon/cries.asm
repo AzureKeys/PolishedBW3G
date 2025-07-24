@@ -313,4 +313,6 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   -$170,  $180 ; Bouffalant
 	mon_cry CRY_SLOWPOKE,    $194,  $0a0 ; Rufflet
 	mon_cry CRY_GOLEM,       $2e0,  $0e0 ; Braviary
+	mon_cry CRY_DROWZEE,     $15c,  $0de ; Vullaby
+	mon_cry CRY_VULPIX,      $126,  $0a0 ; Mandibuzz
 	assert_table_length NUM_SPECIES

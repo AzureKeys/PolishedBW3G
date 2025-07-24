@@ -1537,6 +1537,16 @@ BraviaryMini::     INCBIN "gfx/minis/braviary.2bpp.lz"
 BraviaryMiniMask:: INCBIN "gfx/minis/braviary_mask.1bpp.lz"
 BraviaryIcon::     INCBIN "gfx/icons/braviary.2bpp.lz"
 
+SECTION "Vullaby Mini Icon", ROMX
+VullabyMini::     INCBIN "gfx/minis/vullaby.2bpp.lz"
+VullabyMiniMask:: INCBIN "gfx/minis/vullaby_mask.1bpp.lz"
+VullabyIcon::     INCBIN "gfx/icons/vullaby.2bpp.lz"
+
+SECTION "Mandibuzz Mini Icon", ROMX
+MandibuzzMini::     INCBIN "gfx/minis/mandibuzz.2bpp.lz"
+MandibuzzMiniMask:: INCBIN "gfx/minis/mandibuzz_mask.1bpp.lz"
+MandibuzzIcon::     INCBIN "gfx/icons/mandibuzz.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

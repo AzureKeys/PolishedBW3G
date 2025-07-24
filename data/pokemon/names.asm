@@ -308,4 +308,6 @@ PokemonNames::
 	rawchar "Bouffalant"
 	rawchar "Rufflet@@@"
 	rawchar "Braviary@@"
+	rawchar "Vullaby@@@"
+	rawchar "Mandibuzz@"
 	assert_table_length NUM_SPECIES + 1

@@ -307,6 +307,8 @@ FramesPointers:
 	dw BouffalantFrames
 	dw RuffletFrames
 	dw BraviaryPlainFrames
+	dw VullabyFrames
+	dw MandibuzzFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

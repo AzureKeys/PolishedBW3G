@@ -307,6 +307,8 @@ EggSpeciesMovesPointers::
 	dw BouffalantEggSpeciesMoves        ; Bouffalant
 	dw RuffletEggSpeciesMoves           ; Rufflet
 	dw RuffletEggSpeciesMoves           ; Braviary
+	dw VullabyEggSpeciesMoves           ; Vullaby
+	dw VullabyEggSpeciesMoves           ; Mandibuzz
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

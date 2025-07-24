@@ -252,6 +252,8 @@ PawniardAnimationExtra:   INCLUDE "gfx/pokemon/pawniard/anim_idle.asm"
 BisharpAnimationExtra:    INCLUDE "gfx/pokemon/bisharp/anim_idle.asm"
 BouffalantAnimationExtra: INCLUDE "gfx/pokemon/bouffalant/anim_idle.asm"
 RuffletAnimationExtra:    INCLUDE "gfx/pokemon/rufflet/anim_idle.asm"
+VullabyAnimationExtra:    INCLUDE "gfx/pokemon/vullaby/anim_idle.asm"
+MandibuzzAnimationExtra:  INCLUDE "gfx/pokemon/mandibuzz/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

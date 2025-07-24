@@ -308,6 +308,8 @@ PokedexDataPointerTable:
 	dba BouffalantPokedexEntry
 	dba RuffletPokedexEntry
 	dba BraviaryPlainPokedexEntry
+	dba VullabyPokedexEntry
+	dba MandibuzzPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

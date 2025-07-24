@@ -311,6 +311,8 @@ MiniIconPointers:
 	mini_icon Bouffalant
 	mini_icon Rufflet
 	mini_icon Braviary
+	mini_icon Vullaby
+	mini_icon Mandibuzz
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

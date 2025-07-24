@@ -314,6 +314,8 @@ PokemonBodyData:
 	body_data  16,  946, QUADRUPED,    BROWN  ; BOUFFALANT
 	body_data   5,  105, WINGS,        WHITE  ; RUFFLET
 	body_data  15,  410, WINGS,        RED    ; BRAVIARY
+	body_data   5,   90, WINGS,        BROWN  ; VULLABY
+	body_data  12,  395, WINGS,        BROWN  ; MANDIBUZZ
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

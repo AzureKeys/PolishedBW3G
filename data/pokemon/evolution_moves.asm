@@ -311,6 +311,8 @@ endc
 	db NO_MOVE      ; BOUFFALANT
 	db NO_MOVE      ; RUFFLET
 	db CLOSE_COMBAT ; BRAVIARY
+	db NO_MOVE      ; VULLABY
+	db HURRICANE    ; MANDIBUZZ
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

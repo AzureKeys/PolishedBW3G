@@ -131,6 +131,8 @@ BisharpFootprint::
 BouffalantFootprint::
 RuffletFootprint::
 BraviaryFootprint::
+VullabyFootprint::
+MandibuzzFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

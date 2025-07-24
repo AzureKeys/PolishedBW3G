@@ -312,4 +312,6 @@ endc
 	db  30, 100 ; Bouffalant
 	db   1,  53 ; Rufflet
 	db  54, 100 ; Braviary
+	db   1,  53 ; Vullaby
+	db  54, 100 ; Mandibuzz
 	assert_table_length NUM_SPECIES

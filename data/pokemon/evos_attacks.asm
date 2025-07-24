@@ -6077,6 +6077,47 @@ endc
 	learnset 53, CLOSE_COMBAT ; Superpower
 	learnset 57, ROAR ; Whirlwind
 	learnset 63, BRAVE_BIRD
+	
+	evos_attacks Vullaby
+	evo_data EVOLVE_LEVEL, 54, MANDIBUZZ
+	learnset 1, GUST
+	learnset 1, LEER
+	learnset 5, FURY_STRIKES ; Fury Attack
+	;learnset 10, PLUCK
+	learnset 14, NASTY_PLOT
+	learnset 19, SWAGGER ; Flatter
+	learnset 23, FEINT_ATTACK
+	learnset 28, NIGHT_SLASH ; Punishment
+	learnset 32, DOUBLE_TEAM ; Defog
+	learnset 37, AGILITY ; Tailwind
+	learnset 41, AIR_SLASH
+	learnset 46, DARK_PULSE
+	learnset 50, THIEF ; Embargo
+	learnset 55, ROAR ; Whirlwind
+	learnset 59, BRAVE_BIRD
+	
+	evos_attacks Mandibuzz
+	learnset 1, HURRICANE ; Bone Rush
+	learnset 1, ROAR ; Whirlwind
+	learnset 1, BRAVE_BIRD
+	learnset 1, GUST
+	learnset 1, LEER
+	learnset 1, FURY_STRIKES ; Fury Attack
+	;learnset 1, PLUCK
+	learnset 5, FURY_STRIKES ; Fury Attack
+	;learnset 10, PLUCK
+	learnset 14, NASTY_PLOT
+	learnset 19, SWAGGER ; Flatter
+	learnset 23, FEINT_ATTACK
+	learnset 28, NIGHT_SLASH ; Punishment
+	learnset 32, DOUBLE_TEAM ; Defog
+	learnset 37, AGILITY ; Tailwind
+	learnset 41, AIR_SLASH
+	learnset 46, DARK_PULSE
+	learnset 50, THIEF ; Embargo
+	learnset 53, HURRICANE ; Bone Rush
+	learnset 57, ROAR ; Whirlwind
+	learnset 63, BRAVE_BIRD
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

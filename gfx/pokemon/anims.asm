@@ -252,6 +252,8 @@ PawniardAnimation:   INCLUDE "gfx/pokemon/pawniard/anim.asm"
 BisharpAnimation:    INCLUDE "gfx/pokemon/bisharp/anim.asm"
 BouffalantAnimation: INCLUDE "gfx/pokemon/bouffalant/anim.asm"
 RuffletAnimation:    INCLUDE "gfx/pokemon/rufflet/anim.asm"
+VullabyAnimation:    INCLUDE "gfx/pokemon/vullaby/anim.asm"
+MandibuzzAnimation:  INCLUDE "gfx/pokemon/mandibuzz/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

@@ -326,6 +326,8 @@ INCLUDE "gfx/pokemon/bisharp/front.dimensions"
 INCLUDE "gfx/pokemon/bouffalant/front.dimensions"
 INCLUDE "gfx/pokemon/rufflet/front.dimensions"
 INCLUDE "gfx/pokemon/braviary_plain/front.dimensions"
+INCLUDE "gfx/pokemon/vullaby/front.dimensions"
+INCLUDE "gfx/pokemon/mandibuzz/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

@@ -155,6 +155,7 @@ AlphabeticalPokedexOrder:
 	dp MAGNETON
 	dp MAGNEZONE
 	dp MAMOSWINE
+	dp MANDIBUZZ
 	dp MANKEY
 	dp MANTINE
 	dp MANTYKE
@@ -291,6 +292,7 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENIPEDE
 	dp VENUSAUR
+	dp VULLABY
 	dp VULPIX
 	dp WARTORTLE
 	dp WATCHOG

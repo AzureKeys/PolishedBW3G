@@ -311,6 +311,8 @@ PokemonPicPointers::
 	pics Bouffalant
 	pics Rufflet
 	pics BraviaryPlain
+	pics Vullaby
+	pics Mandibuzz
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

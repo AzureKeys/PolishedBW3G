@@ -1568,3 +1568,11 @@ RuffletBackpic:  INCBIN "gfx/pokemon/rufflet/back.2bpp.lz"
 SECTION "BraviaryPlain Pics", ROMX
 BraviaryPlainFrontpic: INCBIN "gfx/pokemon/braviary_plain/front.animated.2bpp.lz"
 BraviaryPlainBackpic:  INCBIN "gfx/pokemon/braviary_plain/back.2bpp.lz"
+
+SECTION "Vullaby Pics", ROMX
+VullabyFrontpic: INCBIN "gfx/pokemon/vullaby/front.animated.2bpp.lz"
+VullabyBackpic:  INCBIN "gfx/pokemon/vullaby/back.2bpp.lz"
+
+SECTION "Mandibuzz Pics", ROMX
+MandibuzzFrontpic: INCBIN "gfx/pokemon/mandibuzz/front.animated.2bpp.lz"
+MandibuzzBackpic:  INCBIN "gfx/pokemon/mandibuzz/back.2bpp.lz"

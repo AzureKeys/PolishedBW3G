@@ -3036,6 +3036,26 @@ BraviaryPlainPokedexEntry::
 	page "receive from their"
 	next "peers.@"
 
+SECTION "VullabyPokedexEntry", ROMX
+VullabyPokedexEntry::
+	db "Diapered@"
+	db "They tend to"
+	next "guard themselves"
+	next "with bones they"
+	page "have found. They"
+	next "pursue weak"
+	next "#mon.@"
+
+SECTION "MandibuzzPokedexEntry", ROMX
+MandibuzzPokedexEntry::
+	db "BoneVulture@"
+	db "It makes a nest"
+	next "of bones it finds."
+	next "It grabs weakened"
+	page "prey in its claws"
+	next "and brings it to"
+	next "its nest of bone.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

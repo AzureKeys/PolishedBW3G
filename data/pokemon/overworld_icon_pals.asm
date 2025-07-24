@@ -311,6 +311,8 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; BOUFFALANT
 	iconpal BLUE, BROWN ; RUFFLET
 	iconpal RED, BLUE ; BRAVIARY
+	iconpal BROWN, BLACK ; VULLABY
+	iconpal BROWN, PURPLE ; MANDIBUZZ
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
