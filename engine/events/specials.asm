@@ -468,7 +468,7 @@ RespawnOneOffs:
 	ret
 
 RespawnRoamingRaikou:
-	ld a, RAIKOU
+	ld a, RATTATA
 	ld [wRoamMon1Species], a
 	ld a, 50
 	ld [wRoamMon1Level], a
@@ -481,7 +481,7 @@ RespawnRoamingRaikou:
 	ret
 
 RespawnRoamingEntei:
-	ld a, ENTEI
+	ld a, RATTATA
 	ld [wRoamMon2Species], a
 	ld a, 50
 	ld [wRoamMon2Level], a
@@ -494,7 +494,7 @@ RespawnRoamingEntei:
 	ret
 
 RespawnRoamingSuicune:
-	ld a, SUICUNE
+	ld a, RATTATA
 	ld [wRoamMon3Species], a
 	ld a, 50
 	ld [wRoamMon3Level], a

@@ -1,7 +1,5 @@
 LegendaryMons::
-	dp RAIKOU
-	dp ENTEI
-	dp SUICUNE
+;
 UberMons::
 ; banned from Battle Tower
 	dp MEWTWO

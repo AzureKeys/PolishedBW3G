@@ -684,9 +684,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, RATTATA
 	ld [wRoamMon1Species], a
-	assert RAIKOU + 1 == ENTEI
+	assert RATTATA + 1 == RATICATE
 	inc a
 	ld [wRoamMon2Species], a
 

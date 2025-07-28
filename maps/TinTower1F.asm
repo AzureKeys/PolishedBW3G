@@ -16,9 +16,9 @@ TinTower1F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	pokemon_event  7,  9, SUICUNE, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BLUE, ClearText, EVENT_TIN_TOWER_1F_SUICUNE
-	pokemon_event  5,  9, RAIKOU, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, ClearText, EVENT_TIN_TOWER_1F_RAIKOU
-	pokemon_event 10,  9, ENTEI, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_RED, ClearText, EVENT_TIN_TOWER_1F_ENTEI
+	pokemon_event  7,  9, RATTATA, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BLUE, ClearText, EVENT_TIN_TOWER_1F_SUICUNE
+	pokemon_event  5,  9, RATTATA, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, ClearText, EVENT_TIN_TOWER_1F_RAIKOU
+	pokemon_event 10,  9, RATTATA, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_RED, ClearText, EVENT_TIN_TOWER_1F_ENTEI
 	object_event  6,  3, SPRITE_EUSINE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FEusineAfterHoOhScript, EVENT_TIN_TOWER_1F_EUSINE
 	object_event  3,  9, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TinTower1FSage1Text, EVENT_TIN_TOWER_1F_WISE_TRIO_1
 	object_event  9, 11, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TinTower1FSage2Text, EVENT_TIN_TOWER_1F_WISE_TRIO_1
@@ -100,7 +100,7 @@ TinTower1FSuicuneBattleScript:
 	iftruefwd .Next1 ; if player caught Raikou, he doesn't appear in Tin Tower
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouApproachesMovement
 	turnobject PLAYER, LEFT
-	cry RAIKOU
+	cry RATTATA
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouLeavesMovement
@@ -112,7 +112,7 @@ TinTower1FSuicuneBattleScript:
 	iftruefwd .Next2 ; if player caught Entei, he doesn't appear in Tin Tower
 	applymovement TINTOWER1F_ENTEI, TinTower1FEnteiApproachesMovement
 	turnobject PLAYER, RIGHT
-	cry ENTEI
+	cry RATTATA
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_ENTEI, TinTower1FEnteiLeavesMovement
@@ -124,9 +124,9 @@ TinTower1FSuicuneBattleScript:
 	pause 10
 	applymovement PLAYER, TinTower1FPlayerBacksUpMovement
 	applymovement TINTOWER1F_SUICUNE, TinTower1FSuicuneApproachesMovement
-	cry SUICUNE
+	cry RATTATA
 	pause 20
-	loadwildmon SUICUNE, 40
+	loadwildmon RATTATA, 40
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	dontrestartmapmusic

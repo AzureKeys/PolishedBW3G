@@ -297,9 +297,6 @@ NewPokedexOrder:
 	dp SQUIRTLE
 	dp WARTORTLE
 	dp BLASTOISE
-	dp RAIKOU
-	dp ENTEI
-	dp SUICUNE
 	dp DRATINI
 	dp DRAGONAIR
 	dp DRAGONITE

@@ -170,9 +170,6 @@
 	const KINGDRA    ; 77
 	const ELEKID     ; 78
 	const MAGBY      ; 79
-	const RAIKOU     ; xx
-	const ENTEI      ; xx
-	const SUICUNE    ; xx
 	const LARVITAR   ; 7a
 	const PUPITAR    ; 7b
 	const TYRANITAR  ; 7c
@@ -278,11 +275,11 @@
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const GOTHITA    ; 143
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148
 	const DUCKLETT   ; 149

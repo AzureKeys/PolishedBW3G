@@ -1200,21 +1200,22 @@ RandomEncounter::
 	jr nz, .bug_contest
 	farcall TryWildEncounter
 	jr nz, .nope
+	jr .notroaming ; TEMP
 .ok
 	ld a, [wTempWildMonSpecies]
-	cp SUICUNE
+	cp RATTATA
 	jr nz, .notroamingsuicune
 	ld a, BANK(RoamingSuicuneBattleScript)
 	ld hl, RoamingSuicuneBattleScript
 	jr .done
 .notroamingsuicune
-	cp RAIKOU
+	cp RATTATA
 	jr nz, .notroamingraikou
 	ld a, BANK(RoamingRaikouBattleScript)
 	ld hl, RoamingRaikouBattleScript
 	jr .done
 .notroamingraikou
-	cp ENTEI
+	cp RATTATA
 	jr nz, .notroaming
 	ld a, BANK(RoamingEnteiBattleScript)
 	ld hl, RoamingEnteiBattleScript

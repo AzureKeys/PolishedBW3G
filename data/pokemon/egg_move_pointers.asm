@@ -146,9 +146,6 @@ EggSpeciesMovesPointers::
 	dw HorseaEggSpeciesMoves            ; Kingdra
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
-	dw NoEggSpeciesMoves                ; Raikou
-	dw NoEggSpeciesMoves                ; Entei
-	dw NoEggSpeciesMoves                ; Suicune
 	dw LarvitarEggSpeciesMoves          ; Larvitar
 	dw LarvitarEggSpeciesMoves          ; Pupitar
 	dw LarvitarEggSpeciesMoves          ; Tyranitar
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw GothitaEggSpeciesMoves           ; Gothita
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus
 	dw DucklettEggSpeciesMoves          ; Ducklett

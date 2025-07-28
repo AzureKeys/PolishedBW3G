@@ -146,9 +146,6 @@ AnimationExtraPointers:
 	dw KingdraAnimationExtra
 	dw ElekidAnimationExtra
 	dw MagbyAnimationExtra
-	dw RaikouAnimationExtra
-	dw EnteiAnimationExtra
-	dw SuicuneAnimationExtra
 	dw LarvitarAnimationExtra
 	dw PupitarAnimationExtra
 	dw TyranitarAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
 	dw GothitaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw DuosionAnimationExtra
 	dw ReuniclusAnimationExtra
 	dw DucklettAnimationExtra

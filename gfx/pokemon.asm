@@ -504,18 +504,6 @@ SECTION "Magmortar Pics", ROMX
 MagmortarFrontpic: INCBIN "gfx/pokemon/magmortar/front.animated.2bpp.lz"
 MagmortarBackpic:  INCBIN "gfx/pokemon/magmortar/back.2bpp.lz"
 
-SECTION "Raikou Pics", ROMX
-RaikouFrontpic: INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
-RaikouBackpic:  INCBIN "gfx/pokemon/raikou/back.2bpp.lz"
-
-SECTION "Entei Pics", ROMX
-EnteiFrontpic: INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
-EnteiBackpic:  INCBIN "gfx/pokemon/entei/back.2bpp.lz"
-
-SECTION "Suicune Pics", ROMX
-SuicuneFrontpic: INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
-SuicuneBackpic:  INCBIN "gfx/pokemon/suicune/back.2bpp.lz"
-
 SECTION "Larvitar Pics", ROMX
 LarvitarFrontpic: INCBIN "gfx/pokemon/larvitar/front.animated.2bpp.lz"
 LarvitarBackpic:  INCBIN "gfx/pokemon/larvitar/back.2bpp.lz"

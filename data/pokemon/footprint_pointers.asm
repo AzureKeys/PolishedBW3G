@@ -146,9 +146,6 @@ FootprintPointers::
 	dw KingdraFootprint
 	dw ElekidFootprint
 	dw MagbyFootprint
-	dw RaikouFootprint
-	dw EnteiFootprint
-	dw SuicuneFootprint
 	dw LarvitarFootprint
 	dw PupitarFootprint
 	dw TyranitarFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
 	dw GothitaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw GothoritaFootprint
 	dw GothitelleFootprint
 	dw SolosisFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw DuosionFootprint
 	dw ReuniclusFootprint
 	dw DucklettFootprint

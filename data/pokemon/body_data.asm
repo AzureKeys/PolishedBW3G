@@ -153,9 +153,6 @@ PokemonBodyData:
 	body_data  18, 1520, HEAD_BASE,    BLUE   ; KINGDRA
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
 	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
-	body_data  19, 1780, QUADRUPED,    YELLOW ; RAIKOU
-	body_data  21, 1980, QUADRUPED,    BROWN  ; ENTEI
-	body_data  20, 1870, QUADRUPED,    BLUE   ; SUICUNE
 	body_data   6,  720, BIPEDAL_TAIL, GREEN  ; LARVITAR
 	body_data  12, 1520, SERPENTINE,   GRAY   ; PUPITAR
 	body_data  20, 2020, BIPEDAL_TAIL, GREEN  ; TYRANITAR
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,   80, HEAD,         GREEN  ; DUOSION
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
 	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT

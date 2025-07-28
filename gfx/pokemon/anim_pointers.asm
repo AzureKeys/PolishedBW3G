@@ -146,9 +146,6 @@ AnimationPointers:
 	dw KingdraAnimation
 	dw ElekidAnimation
 	dw MagbyAnimation
-	dw RaikouAnimation
-	dw EnteiAnimation
-	dw SuicuneAnimation
 	dw LarvitarAnimation
 	dw PupitarAnimation
 	dw TyranitarAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
 	dw GothitaAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw GothoritaAnimation
 	dw GothitelleAnimation
 	dw SolosisAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw DuosionAnimation
 	dw ReuniclusAnimation
 	dw DucklettAnimation

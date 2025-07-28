@@ -150,9 +150,6 @@ MiniIconPointers:
 	mini_icon Kingdra
 	mini_icon Elekid
 	mini_icon Magby
-	mini_icon Raikou
-	mini_icon Entei
-	mini_icon Suicune
 	mini_icon Larvitar
 	mini_icon Pupitar
 	mini_icon Tyranitar
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Zorua
 	mini_icon Zoroark
 	mini_icon Gothita
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Gothorita
 	mini_icon Gothitelle
 	mini_icon Solosis
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Duosion
 	mini_icon Reuniclus
 	mini_icon Ducklett

@@ -74,7 +74,6 @@ AlphabeticalPokedexOrder:
 	dp ELEKID
 	dp EMBOAR
 	dp EMOLGA
-	dp ENTEI
 	dp ESCAVALIER
 	dp ESPEON
 	dp EXCADRILL
@@ -215,7 +214,6 @@ AlphabeticalPokedexOrder:
 	dp PURRLOIN
 	dp QUILAVA
 	dp RAICHU
-	dp RAIKOU
 	dp RAPIDASH
 	dp RATICATE
 	dp RATTATA
@@ -260,7 +258,6 @@ AlphabeticalPokedexOrder:
 	dp STOUTLAND
 	dp STUNFISK
 	dp SUDOWOODO
-	dp SUICUNE
 	dp SUNFLORA
 	dp SUNKERN
 	dp SWADLOON

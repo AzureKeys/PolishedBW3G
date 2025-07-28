@@ -150,9 +150,6 @@ PokemonPicPointers::
 	pics Kingdra
 	pics Elekid
 	pics Magby
-	pics Raikou
-	pics Entei
-	pics Suicune
 	pics Larvitar
 	pics Pupitar
 	pics Tyranitar
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics ZoruaPlain
 	pics ZoroarkPlain
 	pics Gothita
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Gothorita
 	pics Gothitelle
 	pics Solosis
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Duosion
 	pics Reuniclus
 	pics Ducklett

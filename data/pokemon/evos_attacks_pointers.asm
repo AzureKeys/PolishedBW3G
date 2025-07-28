@@ -150,9 +150,6 @@ EvosAttacksPointers::
 	dw KingdraEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
-	dw RaikouEvosAttacks
-	dw EnteiEvosAttacks
-	dw SuicuneEvosAttacks
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
 	dw GothitaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw DuosionEvosAttacks
 	dw ReuniclusEvosAttacks
 	dw DucklettEvosAttacks

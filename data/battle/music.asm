@@ -56,9 +56,6 @@ BattleMusic_Trainers:
 BattleMusic_Legendaries:
 	music_legendary MEWTWO,   PLAIN_FORM,    MUSIC_MEWTWO_BATTLE_STADIUM
 	music_legendary MEW,      PLAIN_FORM,    MUSIC_KANTO_LEGEND_BATTLE_XY
-	music_legendary RAIKOU,   PLAIN_FORM,    MUSIC_SUICUNE_BATTLE
-	music_legendary ENTEI,    PLAIN_FORM,    MUSIC_SUICUNE_BATTLE
-	music_legendary SUICUNE,  PLAIN_FORM,    MUSIC_SUICUNE_BATTLE
 	music_legendary HO_OH,    PLAIN_FORM,    MUSIC_HO_OH_BATTLE_HGSS
 	music_legendary LUGIA,    PLAIN_FORM,    MUSIC_LUGIA_BATTLE_HGSS
 	music_legendary CELEBI,   PLAIN_FORM,    MUSIC_SUICUNE_BATTLE

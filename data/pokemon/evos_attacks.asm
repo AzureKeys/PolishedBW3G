@@ -3138,60 +3138,6 @@ endc
 	learnset 40, FLAMETHROWER
 	learnset 43, FIRE_BLAST
 
-	evos_attacks Raikou
-	learnset 1, BITE
-	learnset 1, LEER
-	learnset 8, THUNDERSHOCK
-	learnset 15, ROAR
-	learnset 22, QUICK_ATTACK
-	learnset 29, SPARK
-	learnset 36, REFLECT
-	learnset 43, CRUNCH
-	learnset 50, WILD_CHARGE ; Thunder Fang → TM move
-	learnset 57, EXTREMESPEED ; Discharge → event move
-	learnset 64, EXTRASENSORY
-	learnset 71, RAIN_DANCE
-	learnset 78, CALM_MIND
-	learnset 85, AURA_SPHERE ; Thunder → event move
-	learnset 92, THUNDER
-	learnset 99, HIDDEN_POWER ; TM move
-
-	evos_attacks Entei
-	learnset 1, BITE
-	learnset 1, LEER
-	learnset 8, EMBER
-	learnset 15, ROAR
-	learnset 22, FIRE_SPIN
-	learnset 29, STOMP
-	learnset 36, FLAMETHROWER
-	learnset 43, SWAGGER
-	learnset 50, FLAME_CHARGE ; Fire Fang → TM move
-	learnset 57, EXTREMESPEED ; Lava Plume → event move
-	learnset 64, EXTRASENSORY
-	learnset 71, FIRE_BLAST
-	learnset 78, CALM_MIND
-	learnset 85, FLARE_BLITZ ; Eruption → event move
-	learnset 92, SACRED_FIRE
-	learnset 99, HIDDEN_POWER ; TM move
-
-	evos_attacks Suicune
-	learnset 1, BITE
-	learnset 1, LEER
-	learnset 8, BUBBLE_BEAM
-	learnset 15, RAIN_DANCE
-	learnset 22, GUST
-	learnset 29, AURORA_BEAM
-	learnset 36, LIGHT_SCREEN ; Mist → new move
-	learnset 43, MIRROR_COAT
-	learnset 50, AIR_SLASH ; Ice Fang → event move
-	learnset 57, EXTREMESPEED ; Tailwind → event move
-	learnset 64, EXTRASENSORY
-	learnset 71, HYDRO_PUMP
-	learnset 78, CALM_MIND
-	learnset 85, HYPER_BEAM ; Blizzard → TM move
-	learnset 92, BLIZZARD
-	learnset 99, HIDDEN_POWER ; TM move
-
 	evos_attacks Larvitar
 	evo_data EVOLVE_LEVEL, 30, PUPITAR
 	learnset 1, TACKLE ; Sw/Sh move

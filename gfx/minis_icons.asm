@@ -737,21 +737,6 @@ MagbyMini::     INCBIN "gfx/minis/magby.2bpp.lz"
 MagbyMiniMask:: INCBIN "gfx/minis/magby_mask.1bpp.lz"
 MagbyIcon::     INCBIN "gfx/icons/magby.2bpp.lz"
 
-SECTION "Raikou Mini Icon", ROMX
-RaikouMini::     INCBIN "gfx/minis/raikou.2bpp.lz"
-RaikouMiniMask:: INCBIN "gfx/minis/raikou_mask.1bpp.lz"
-RaikouIcon::     INCBIN "gfx/icons/raikou.2bpp.lz"
-
-SECTION "Entei Mini Icon", ROMX
-EnteiMini::     INCBIN "gfx/minis/entei.2bpp.lz"
-EnteiMiniMask:: INCBIN "gfx/minis/entei_mask.1bpp.lz"
-EnteiIcon::     INCBIN "gfx/icons/entei.2bpp.lz"
-
-SECTION "Suicune Mini Icon", ROMX
-SuicuneMini::     INCBIN "gfx/minis/suicune.2bpp.lz"
-SuicuneMiniMask:: INCBIN "gfx/minis/suicune_mask.1bpp.lz"
-SuicuneIcon::     INCBIN "gfx/icons/suicune.2bpp.lz"
-
 SECTION "Larvitar Mini Icon", ROMX
 LarvitarMini::     INCBIN "gfx/minis/larvitar.2bpp.lz"
 LarvitarMiniMask:: INCBIN "gfx/minis/larvitar_mask.1bpp.lz"

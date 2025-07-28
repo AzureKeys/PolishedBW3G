@@ -151,9 +151,6 @@ endc
 	db  55, 100 ; Kingdra
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
-	db 255, 255 ; Raikou
-	db 255, 255 ; Entei
-	db 255, 255 ; Suicune
 	db   1,  29 ; Larvitar
 	db  30,  54 ; Pupitar
 	db  55, 100 ; Tyranitar
@@ -259,11 +256,11 @@ endc
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
 	db   1,  31 ; Gothita
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle
 	db   1,  31 ; Solosis
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  32,  40 ; Duosion
 	db  41, 100 ; Reuniclus
 	db   1,  34 ; Ducklett

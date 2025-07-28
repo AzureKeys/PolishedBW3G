@@ -147,9 +147,6 @@ PokedexDataPointerTable:
 	dba KingdraPokedexEntry
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
-	dba RaikouPokedexEntry
-	dba EnteiPokedexEntry
-	dba SuicunePokedexEntry
 	dba LarvitarPokedexEntry
 	dba PupitarPokedexEntry
 	dba TyranitarPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
 	dba GothitaPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry
 	dba DucklettPokedexEntry

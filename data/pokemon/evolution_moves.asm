@@ -150,9 +150,6 @@ endc
 	db DRAGONBREATH ; KINGDRA
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
-	db NO_MOVE      ; RAIKOU
-	db NO_MOVE      ; ENTEI
-	db NO_MOVE      ; SUICUNE
 	db NO_MOVE      ; LARVITAR
 	db DEFENSE_CURL ; PUPITAR
 	db STOMP        ; TYRANITAR
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; GOTHITA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; DUOSION
 	db DIZZY_PUNCH  ; REUNICLUS
 	db NO_MOVE      ; DUCKLETT

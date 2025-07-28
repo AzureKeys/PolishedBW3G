@@ -146,9 +146,6 @@ FramesPointers:
 	dw KingdraFrames
 	dw ElekidFrames
 	dw MagbyFrames
-	dw RaikouFrames
-	dw EnteiFrames
-	dw SuicuneFrames
 	dw LarvitarFrames
 	dw PupitarFrames
 	dw TyranitarFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
 	dw GothitaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw GothoritaFrames
 	dw GothitelleFrames
 	dw SolosisFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw DuosionFrames
 	dw ReuniclusFrames
 	dw DucklettFrames

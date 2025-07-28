@@ -150,9 +150,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; KINGDRA
 	iconpal BROWN, RED ; ELEKID
 	iconpal RED, BROWN ; MAGBY
-	iconpal BROWN, RED ; RAIKOU
-	iconpal RED, BROWN ; ENTEI
-	iconpal BLUE, WHITE ; SUICUNE
 	iconpal GREEN, TEAL ; LARVITAR
 	iconpal GRAY, PURPLE ; PUPITAR
 	iconpal GREEN, GRAY ; TYRANITAR
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal BLACK, PURPLE ; GOTHITA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE
 	iconpal GREEN, BLUE ; SOLOSIS
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, TEAL ; DUOSION
 	iconpal GREEN, AZURE ; REUNICLUS
 	iconpal AZURE, PINK ; DUCKLETT

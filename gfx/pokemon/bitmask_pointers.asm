@@ -146,9 +146,6 @@ BitmasksPointers:
 	dw KingdraBitmasks
 	dw ElekidBitmasks
 	dw MagbyBitmasks
-	dw RaikouBitmasks
-	dw EnteiBitmasks
-	dw SuicuneBitmasks
 	dw LarvitarBitmasks
 	dw PupitarBitmasks
 	dw TyranitarBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
 	dw GothitaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
 	dw SolosisBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw DuosionBitmasks
 	dw ReuniclusBitmasks
 	dw DucklettBitmasks

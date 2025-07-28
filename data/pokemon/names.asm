@@ -147,9 +147,6 @@ PokemonNames::
 	rawchar "Kingdra@@@"
 	rawchar "Elekid@@@@"
 	rawchar "Magby@@@@@"
-	rawchar "Raikou@@@@"
-	rawchar "Entei@@@@@"
-	rawchar "Suicune@@@"
 	rawchar "Larvitar@@"
 	rawchar "Pupitar@@@"
 	rawchar "Tyranitar@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
 	rawchar "Gothita@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"
 	rawchar "Solosis@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Duosion@@@"
 	rawchar "Reuniclus@"
 	rawchar "Ducklett@@"

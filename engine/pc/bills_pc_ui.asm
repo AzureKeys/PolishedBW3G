@@ -2725,19 +2725,19 @@ RemoveStorageBoxMon_MaybeRespawn:
 
 	; This is ours. Check which, if any, beast we should respawn.
 	ld a, [wTempMonSpecies]
-	cp RAIKOU
+	cp RATTATA
 	jr nz, .not_raikou
-	farcall RespawnRoamingRaikou
+	;farcall RespawnRoamingRaikou
 	jr .done
 .not_raikou
-	cp ENTEI
+	cp RATTATA
 	jr nz, .not_entei
-	farcall RespawnRoamingEntei
+	;farcall RespawnRoamingEntei
 	jr .done
 .not_entei
-	cp SUICUNE
+	cp RATTATA
 	jr nz, .done
-	farcall RespawnRoamingSuicune
+	;farcall RespawnRoamingSuicune
 .done
 	pop bc
 	pop de

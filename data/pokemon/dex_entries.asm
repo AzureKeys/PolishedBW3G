@@ -1466,36 +1466,6 @@ MagbyPokedexEntry::
 	next "it heralds a"
 	next "volcanic eruption.@"
 
-SECTION "RaikouPokedexEntry", ROMX
-RaikouPokedexEntry::
-	db "Thunder@"
-	db   "This rough #mon"
-	next "stores energy"
-	next "inside its body,"
-	page "then sweeps across"
-	next "the land, shooting"
-	next "off electricity.@"
-
-SECTION "EnteiPokedexEntry", ROMX
-EnteiPokedexEntry::
-	db "Volcano@"
-	db   "This brawny"
-	next "#mon courses"
-	next "around the earth,"
-	page "spouting flames"
-	next "hotter than a"
-	next "volcano's magma.@"
-
-SECTION "SuicunePokedexEntry", ROMX
-SuicunePokedexEntry::
-	db "Aurora@"
-	db   "This divine"
-	next "#mon blows"
-	next "around the world,"
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
-
 SECTION "LarvitarPokedexEntry", ROMX
 LarvitarPokedexEntry::
 	db "Rock Skin@"

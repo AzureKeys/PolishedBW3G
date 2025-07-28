@@ -32,33 +32,33 @@ CeladonEusine:
 	iftruefwd .OwnRaikou
 	showtext EusineShowsRaikouText
 	reanchormap
-	pokepic RAIKOU
-	cry RAIKOU
+	pokepic RATTATA
+	cry RATTATA
 	waitbutton
 	closepokepic
-	setmonval RAIKOU
+	setmonval RATTATA
 	special SpecialSeenMon
 .OwnRaikou
 	checkflag ENGINE_PLAYER_CAUGHT_ENTEI
 	iftruefwd .OwnEntei
 	showtext EusineShowsEnteiText
 	reanchormap
-	pokepic ENTEI
-	cry ENTEI
+	pokepic RATTATA
+	cry RATTATA
 	waitbutton
 	closepokepic
-	setmonval ENTEI
+	setmonval RATTATA
 	special SpecialSeenMon
 .OwnEntei
 	checkflag ENGINE_PLAYER_CAUGHT_SUICUNE
 	iftruefwd .OwnSuicune
 	showtext EusineShowsSuicuneText
 	reanchormap
-	pokepic SUICUNE
-	cry SUICUNE
+	pokepic RATTATA
+	cry RATTATA
 	waitbutton
 	closepokepic
-	setmonval SUICUNE
+	setmonval RATTATA
 	special SpecialSeenMon
 .OwnSuicune
 	jumptext EusineQuestHintText
