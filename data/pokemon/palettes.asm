@@ -722,6 +722,12 @@ INCLUDE "gfx/pokemon/sawsbuck_autumn/shiny.pal"
 INCLUDE "gfx/pokemon/sawsbuck_winter/normal.pal"
 INCLUDE "gfx/pokemon/sawsbuck_winter/shiny.pal"
 
+INCLUDE "gfx/pokemon/frillish_female/normal.pal"
+INCLUDE "gfx/pokemon/frillish_female/shiny.pal"
+
+INCLUDE "gfx/pokemon/jellicent_female/normal.pal"
+INCLUDE "gfx/pokemon/jellicent_female/shiny.pal"
+
 	assert_table_length NUM_EXT_POKEMON + 1
 
 endc

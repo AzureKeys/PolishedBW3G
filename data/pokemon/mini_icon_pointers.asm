@@ -411,4 +411,8 @@ endr
 	mini_icon SawsbuckAutumn
 	mini_icon SawsbuckWinter
 
+	mini_icon FrillishFemale
+
+	mini_icon JellicentFemale
+
 	assert_table_length NUM_UNIQUE_POKEMON

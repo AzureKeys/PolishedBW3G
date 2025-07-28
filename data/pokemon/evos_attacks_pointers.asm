@@ -363,5 +363,9 @@ EvosAttacksPointers::
 	dw SawsbuckEvosAttacks
 	dw SawsbuckEvosAttacks
 	dw SawsbuckEvosAttacks
+	
+	dw FrillishEvosAttacks
+	
+	dw JellicentEvosAttacks
 
 	assert_table_length NUM_EXT_POKEMON

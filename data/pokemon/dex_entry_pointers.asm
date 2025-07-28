@@ -360,5 +360,9 @@ PokedexDataPointerTable:
 	dba SawsbuckPokedexEntry
 	dba SawsbuckPokedexEntry
 	dba SawsbuckPokedexEntry
+	
+	dba FrillishPokedexEntry
+	
+	dba JellicentPokedexEntry
 
 	assert_table_length NUM_EXT_POKEMON

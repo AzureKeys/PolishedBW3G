@@ -447,8 +447,10 @@ SawsbuckAutumnAnimationExtra: INCLUDE "gfx/pokemon/sawsbuck_autumn/anim_idle.asm
 SawsbuckWinterAnimationExtra: INCLUDE "gfx/pokemon/sawsbuck_winter/anim_idle.asm"
 
 FrillishMaleAnimationExtra:   INCLUDE "gfx/pokemon/frillish_male/anim_idle.asm"
+FrillishFemaleAnimationExtra: INCLUDE "gfx/pokemon/frillish_female/anim_idle.asm"
 
 JellicentMaleAnimationExtra:   INCLUDE "gfx/pokemon/jellicent_male/anim_idle.asm"
+JellicentFemaleAnimationExtra: INCLUDE "gfx/pokemon/jellicent_female/anim_idle.asm"
 
 StunfiskPlainAnimationExtra: INCLUDE "gfx/pokemon/stunfisk_plain/anim_idle.asm"
 

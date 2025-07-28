@@ -1861,3 +1861,13 @@ SECTION "SawsbuckWinter Mini Icon", ROMX
 SawsbuckWinterMini::     INCBIN "gfx/minis/sawsbuck_winter.2bpp.lz"
 SawsbuckWinterMiniMask:: INCBIN "gfx/minis/sawsbuck_winter_mask.1bpp.lz"
 SawsbuckWinterIcon::     INCBIN "gfx/icons/sawsbuck_winter.2bpp.lz"
+
+SECTION "FrillishFemale Mini Icon", ROMX
+FrillishFemaleMini::     INCBIN "gfx/minis/frillish_female.2bpp.lz"
+FrillishFemaleMiniMask:: INCBIN "gfx/minis/frillish_female_mask.1bpp.lz"
+FrillishFemaleIcon::     INCBIN "gfx/icons/frillish_female.2bpp.lz"
+
+SECTION "JellicentFemale Mini Icon", ROMX
+JellicentFemaleMini::     INCBIN "gfx/minis/jellicent_female.2bpp.lz"
+JellicentFemaleMiniMask:: INCBIN "gfx/minis/jellicent_female_mask.1bpp.lz"
+JellicentFemaleIcon::     INCBIN "gfx/icons/jellicent_female.2bpp.lz"

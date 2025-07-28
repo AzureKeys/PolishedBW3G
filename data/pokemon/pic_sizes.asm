@@ -442,6 +442,10 @@ INCLUDE "gfx/pokemon/sawsbuck_summer/front.dimensions"
 INCLUDE "gfx/pokemon/sawsbuck_autumn/front.dimensions"
 INCLUDE "gfx/pokemon/sawsbuck_winter/front.dimensions"
 
+INCLUDE "gfx/pokemon/frillish_female/front.dimensions"
+
+INCLUDE "gfx/pokemon/jellicent_female/front.dimensions"
+
 	if list_index % 2
 		db size_value << 4
 	endc

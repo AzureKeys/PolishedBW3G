@@ -359,5 +359,9 @@ FootprintPointers::
 	dw SawsbuckFootprint
 	dw SawsbuckFootprint
 	dw SawsbuckFootprint
+	
+	dw FrillishFootprint
+	
+	dw JellicentFootprint
 
 	assert_table_length NUM_EXT_POKEMON

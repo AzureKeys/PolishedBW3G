@@ -422,5 +422,9 @@ FramesPointers:
 	dw SawsbuckSummerFrames
 	dw SawsbuckAutumnFrames
 	dw SawsbuckWinterFrames
+	
+	dw FrillishFemaleFrames
+	
+	dw JellicentFemaleFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

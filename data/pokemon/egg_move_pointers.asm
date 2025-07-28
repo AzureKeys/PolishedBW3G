@@ -359,5 +359,9 @@ EggSpeciesMovesPointers::
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Summer)
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Autumn)
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Winter)
+	
+	dw FrillishEggSpeciesMoves          ; Frillish (Female)
+	
+	dw FrillishEggSpeciesMoves          ; Jellicent (Female)
 
 	assert_table_length NUM_EXT_POKEMON

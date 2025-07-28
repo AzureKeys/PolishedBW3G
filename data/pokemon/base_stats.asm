@@ -395,4 +395,8 @@ INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; summer
 INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; autumn
 INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; winter
 
+INCLUDE "data/pokemon/base_stats/frillish.asm" ; female
+
+INCLUDE "data/pokemon/base_stats/jellicent.asm" ; female
+
 	assert_table_length NUM_EXT_POKEMON

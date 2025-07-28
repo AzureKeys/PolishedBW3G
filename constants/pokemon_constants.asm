@@ -505,17 +505,25 @@ DEF PALDEAN_FORM EQU 5
 	
 ; deerling
 	ext_const_def 1, DEERLING_SPRING_FORM ; (1)
-	ext_const DEERLING_SUMMER_FORM      ; 13f (2)
-	ext_const DEERLING_AUTUMN_FORM      ; 13f (3)
-	ext_const DEERLING_WINTER_FORM      ; 13f (4)
-DEF NUM_DEERLING EQU ext_const_value - 1 ; 4
+	ext_const DEERLING_SUMMER_FORM        ; 13f (2)
+	ext_const DEERLING_AUTUMN_FORM        ; 13f (3)
+	ext_const DEERLING_WINTER_FORM        ; 13f (4)
+DEF NUM_DEERLING EQU ext_const_value - 1  ; 4
 	
 ; sawsbuck
 	ext_const_def 1, SAWSBUCK_SPRING_FORM ; (1)
-	ext_const SAWSBUCK_SUMMER_FORM      ; 13f (2)
-	ext_const SAWSBUCK_AUTUMN_FORM      ; 13f (3)
-	ext_const SAWSBUCK_WINTER_FORM      ; 13f (4)
-DEF NUM_SAWSBUCK EQU ext_const_value - 1 ; 4
+	ext_const SAWSBUCK_SUMMER_FORM        ; 13f (2)
+	ext_const SAWSBUCK_AUTUMN_FORM        ; 13f (3)
+	ext_const SAWSBUCK_WINTER_FORM        ; 13f (4)
+DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
+
+; frillish
+	ext_const_def 1, FRILLISH_MALE_FORM ; (1)
+	ext_const FRILLISH_FEMALE_FORM      ; 13f (2)
+
+; jellicent
+	ext_const_def 1, JELLICENT_MALE_FORM ; (1)
+	ext_const JELLICENT_FEMALE_FORM      ; 13f (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 

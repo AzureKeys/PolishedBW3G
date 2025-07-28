@@ -1604,3 +1604,11 @@ SawsbuckAutumnBackpic:  INCBIN "gfx/pokemon/sawsbuck_autumn/back.2bpp.lz"
 SECTION "SawsbuckWinter Pics", ROMX
 SawsbuckWinterFrontpic: INCBIN "gfx/pokemon/sawsbuck_winter/front.animated.2bpp.lz"
 SawsbuckWinterBackpic:  INCBIN "gfx/pokemon/sawsbuck_winter/back.2bpp.lz"
+
+SECTION "FrillishFemale Pics", ROMX
+FrillishFemaleFrontpic: INCBIN "gfx/pokemon/frillish_female/front.animated.2bpp.lz"
+FrillishFemaleBackpic:  INCBIN "gfx/pokemon/frillish_female/back.2bpp.lz"
+
+SECTION "JellicentFemale Pics", ROMX
+JellicentFemaleFrontpic: INCBIN "gfx/pokemon/jellicent_female/front.animated.2bpp.lz"
+JellicentFemaleBackpic:  INCBIN "gfx/pokemon/jellicent_female/back.2bpp.lz"

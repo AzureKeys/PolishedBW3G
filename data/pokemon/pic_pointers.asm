@@ -426,5 +426,9 @@ PokemonPicPointers::
 	pics SawsbuckSummer
 	pics SawsbuckAutumn
 	pics SawsbuckWinter
+	
+	pics FrillishFemale
+	
+	pics JellicentFemale
 
 	assert_table_length NUM_UNIQUE_POKEMON

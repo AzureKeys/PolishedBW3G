@@ -276,8 +276,10 @@ SawsbuckAutumnFrames: INCLUDE "gfx/pokemon/sawsbuck_autumn/frames.asm"
 SawsbuckWinterFrames: INCLUDE "gfx/pokemon/sawsbuck_winter/frames.asm"
 
 FrillishMaleFrames:   INCLUDE "gfx/pokemon/frillish_male/frames.asm"
+FrillishFemaleFrames: INCLUDE "gfx/pokemon/frillish_female/frames.asm"
 
 JellicentMaleFrames:   INCLUDE "gfx/pokemon/jellicent_male/frames.asm"
+JellicentFemaleFrames: INCLUDE "gfx/pokemon/jellicent_female/frames.asm"
 
 StunfiskPlainFrames: INCLUDE "gfx/pokemon/stunfisk_plain/frames.asm"
 
