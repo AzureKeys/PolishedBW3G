@@ -437,8 +437,14 @@ ZoruaPlainBitmasks: INCLUDE "gfx/pokemon/zorua_plain/bitmask.asm"
 ZoroarkPlainBitmasks: INCLUDE "gfx/pokemon/zoroark_plain/bitmask.asm"
 
 DeerlingSpringBitmasks: INCLUDE "gfx/pokemon/deerling_spring/bitmask.asm"
+DeerlingSummerBitmasks: INCLUDE "gfx/pokemon/deerling_summer/bitmask.asm"
+DeerlingAutumnBitmasks: INCLUDE "gfx/pokemon/deerling_autumn/bitmask.asm"
+DeerlingWinterBitmasks: INCLUDE "gfx/pokemon/deerling_winter/bitmask.asm"
 
 SawsbuckSpringBitmasks: INCLUDE "gfx/pokemon/sawsbuck_spring/bitmask.asm"
+SawsbuckSummerBitmasks: INCLUDE "gfx/pokemon/sawsbuck_summer/bitmask.asm"
+SawsbuckAutumnBitmasks: INCLUDE "gfx/pokemon/sawsbuck_autumn/bitmask.asm"
+SawsbuckWinterBitmasks: INCLUDE "gfx/pokemon/sawsbuck_winter/bitmask.asm"
 
 FrillishMaleBitmasks:   INCLUDE "gfx/pokemon/frillish_male/bitmask.asm"
 

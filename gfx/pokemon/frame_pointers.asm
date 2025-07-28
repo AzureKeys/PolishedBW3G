@@ -414,5 +414,13 @@ FramesPointers:
 	dw SneaselHisuianFrames
 	
 	dw UnfezantFemaleFrames
+	
+	dw DeerlingSummerFrames
+	dw DeerlingAutumnFrames
+	dw DeerlingWinterFrames
+	
+	dw SawsbuckSummerFrames
+	dw SawsbuckAutumnFrames
+	dw SawsbuckWinterFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

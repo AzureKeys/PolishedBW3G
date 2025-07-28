@@ -352,5 +352,13 @@ PokedexDataPointerTable:
 	dba SneaselHisuianPokedexEntry
 	
 	dba UnfezantPokedexEntry
+	
+	dba DeerlingPokedexEntry
+	dba DeerlingPokedexEntry
+	dba DeerlingPokedexEntry
+	
+	dba SawsbuckPokedexEntry
+	dba SawsbuckPokedexEntry
+	dba SawsbuckPokedexEntry
 
 	assert_table_length NUM_EXT_POKEMON

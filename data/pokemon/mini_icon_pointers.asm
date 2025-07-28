@@ -268,7 +268,7 @@ MiniIconPointers:
 	mini_icon Vanillish
 	mini_icon Vanilluxe
 	mini_icon Deerling
-	mini_icon Sawsbuck
+	mini_icon SawsbuckSpring
 	mini_icon Emolga
 	mini_icon Karrablast
 	mini_icon Escavalier
@@ -402,5 +402,13 @@ endr
 	mini_icon SneaselHisuian
 
 	mini_icon UnfezantFemale
+	
+	mini_icon Deerling
+	mini_icon Deerling
+	mini_icon Deerling
+	
+	mini_icon SawsbuckSummer
+	mini_icon SawsbuckAutumn
+	mini_icon SawsbuckWinter
 
 	assert_table_length NUM_UNIQUE_POKEMON

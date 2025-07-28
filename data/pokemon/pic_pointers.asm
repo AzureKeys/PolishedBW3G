@@ -418,5 +418,13 @@ PokemonPicPointers::
 	pics SneaselHisuian
 	
 	pics UnfezantFemale
+	
+	pics DeerlingSummer
+	pics DeerlingAutumn
+	pics DeerlingWinter
+	
+	pics SawsbuckSummer
+	pics SawsbuckAutumn
+	pics SawsbuckWinter
 
 	assert_table_length NUM_UNIQUE_POKEMON

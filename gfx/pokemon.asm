@@ -1141,10 +1141,6 @@ SECTION "UnfezantMale Pics", ROMX
 UnfezantMaleFrontpic: INCBIN "gfx/pokemon/unfezant_male/front.animated.2bpp.lz"
 UnfezantMaleBackpic:  INCBIN "gfx/pokemon/unfezant_male/back.2bpp.lz"
 
-SECTION "UnfezantFemale Pics", ROMX
-UnfezantFemaleFrontpic: INCBIN "gfx/pokemon/unfezant_female/front.animated.2bpp.lz"
-UnfezantFemaleBackpic:  INCBIN "gfx/pokemon/unfezant_female/back.2bpp.lz"
-
 SECTION "Blitzle Pics", ROMX
 BlitzleFrontpic: INCBIN "gfx/pokemon/blitzle/front.animated.2bpp.lz"
 BlitzleBackpic:  INCBIN "gfx/pokemon/blitzle/back.2bpp.lz"
@@ -1580,3 +1576,31 @@ VolcaronaBackpic:  INCBIN "gfx/pokemon/volcarona/back.2bpp.lz"
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"
+
+SECTION "UnfezantFemale Pics", ROMX
+UnfezantFemaleFrontpic: INCBIN "gfx/pokemon/unfezant_female/front.animated.2bpp.lz"
+UnfezantFemaleBackpic:  INCBIN "gfx/pokemon/unfezant_female/back.2bpp.lz"
+
+SECTION "DeerlingSummer Pics", ROMX
+DeerlingSummerFrontpic: INCBIN "gfx/pokemon/deerling_summer/front.animated.2bpp.lz"
+DeerlingSummerBackpic:  INCBIN "gfx/pokemon/deerling_summer/back.2bpp.lz"
+
+SECTION "DeerlingAutumn Pics", ROMX
+DeerlingAutumnFrontpic: INCBIN "gfx/pokemon/deerling_autumn/front.animated.2bpp.lz"
+DeerlingAutumnBackpic:  INCBIN "gfx/pokemon/deerling_autumn/back.2bpp.lz"
+
+SECTION "DeerlingWinter Pics", ROMX
+DeerlingWinterFrontpic: INCBIN "gfx/pokemon/deerling_winter/front.animated.2bpp.lz"
+DeerlingWinterBackpic:  INCBIN "gfx/pokemon/deerling_winter/back.2bpp.lz"
+
+SECTION "SawsbuckSummer Pics", ROMX
+SawsbuckSummerFrontpic: INCBIN "gfx/pokemon/sawsbuck_summer/front.animated.2bpp.lz"
+SawsbuckSummerBackpic:  INCBIN "gfx/pokemon/sawsbuck_summer/back.2bpp.lz"
+
+SECTION "SawsbuckAutumn Pics", ROMX
+SawsbuckAutumnFrontpic: INCBIN "gfx/pokemon/sawsbuck_autumn/front.animated.2bpp.lz"
+SawsbuckAutumnBackpic:  INCBIN "gfx/pokemon/sawsbuck_autumn/back.2bpp.lz"
+
+SECTION "SawsbuckWinter Pics", ROMX
+SawsbuckWinterFrontpic: INCBIN "gfx/pokemon/sawsbuck_winter/front.animated.2bpp.lz"
+SawsbuckWinterBackpic:  INCBIN "gfx/pokemon/sawsbuck_winter/back.2bpp.lz"

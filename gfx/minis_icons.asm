@@ -1322,10 +1322,10 @@ DeerlingMini::     INCBIN "gfx/minis/deerling.2bpp.lz"
 DeerlingMiniMask:: INCBIN "gfx/minis/deerling_mask.1bpp.lz"
 DeerlingIcon::     INCBIN "gfx/icons/deerling.2bpp.lz"
 
-SECTION "Sawsbuck Mini Icon", ROMX
-SawsbuckMini::     INCBIN "gfx/minis/sawsbuck.2bpp.lz"
-SawsbuckMiniMask:: INCBIN "gfx/minis/sawsbuck_mask.1bpp.lz"
-SawsbuckIcon::     INCBIN "gfx/icons/sawsbuck.2bpp.lz"
+SECTION "SawsbuckSpring Mini Icon", ROMX
+SawsbuckSpringMini::     INCBIN "gfx/minis/sawsbuck_spring.2bpp.lz"
+SawsbuckSpringMiniMask:: INCBIN "gfx/minis/sawsbuck_spring_mask.1bpp.lz"
+SawsbuckSpringIcon::     INCBIN "gfx/icons/sawsbuck_spring.2bpp.lz"
 
 SECTION "Emolga Mini Icon", ROMX
 EmolgaMini::     INCBIN "gfx/minis/emolga.2bpp.lz"
@@ -1846,3 +1846,18 @@ SECTION "UnfezantFemale Mini Icon", ROMX
 UnfezantFemaleMini::     INCBIN "gfx/minis/unfezant_female.2bpp.lz"
 UnfezantFemaleMiniMask:: INCBIN "gfx/minis/unfezant_female_mask.1bpp.lz"
 UnfezantFemaleIcon::     INCBIN "gfx/icons/unfezant_female.2bpp.lz"
+
+SECTION "SawsbuckSummer Mini Icon", ROMX
+SawsbuckSummerMini::     INCBIN "gfx/minis/sawsbuck_summer.2bpp.lz"
+SawsbuckSummerMiniMask:: INCBIN "gfx/minis/sawsbuck_summer_mask.1bpp.lz"
+SawsbuckSummerIcon::     INCBIN "gfx/icons/sawsbuck_summer.2bpp.lz"
+
+SECTION "SawsbuckAutumn Mini Icon", ROMX
+SawsbuckAutumnMini::     INCBIN "gfx/minis/sawsbuck_autumn.2bpp.lz"
+SawsbuckAutumnMiniMask:: INCBIN "gfx/minis/sawsbuck_autumn_mask.1bpp.lz"
+SawsbuckAutumnIcon::     INCBIN "gfx/icons/sawsbuck_autumn.2bpp.lz"
+
+SECTION "SawsbuckWinter Mini Icon", ROMX
+SawsbuckWinterMini::     INCBIN "gfx/minis/sawsbuck_winter.2bpp.lz"
+SawsbuckWinterMiniMask:: INCBIN "gfx/minis/sawsbuck_winter_mask.1bpp.lz"
+SawsbuckWinterIcon::     INCBIN "gfx/icons/sawsbuck_winter.2bpp.lz"

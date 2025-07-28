@@ -708,6 +708,20 @@ INCLUDE "gfx/pokemon/sneasel_hisuian/shiny.pal"
 INCLUDE "gfx/pokemon/unfezant_female/normal.pal"
 INCLUDE "gfx/pokemon/unfezant_female/shiny.pal"
 
+INCLUDE "gfx/pokemon/deerling_summer/normal.pal"
+INCLUDE "gfx/pokemon/deerling_summer/shiny.pal"
+INCLUDE "gfx/pokemon/deerling_autumn/normal.pal"
+INCLUDE "gfx/pokemon/deerling_autumn/shiny.pal"
+INCLUDE "gfx/pokemon/deerling_winter/normal.pal"
+INCLUDE "gfx/pokemon/deerling_winter/shiny.pal"
+
+INCLUDE "gfx/pokemon/sawsbuck_summer/normal.pal"
+INCLUDE "gfx/pokemon/sawsbuck_summer/shiny.pal"
+INCLUDE "gfx/pokemon/sawsbuck_autumn/normal.pal"
+INCLUDE "gfx/pokemon/sawsbuck_autumn/shiny.pal"
+INCLUDE "gfx/pokemon/sawsbuck_winter/normal.pal"
+INCLUDE "gfx/pokemon/sawsbuck_winter/shiny.pal"
+
 	assert_table_length NUM_EXT_POKEMON + 1
 
 endc

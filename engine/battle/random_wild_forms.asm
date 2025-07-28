@@ -51,6 +51,8 @@ RandomWildSpeciesForms:
 	random_wild_form ARBOK,       .EkansArbok
 	random_wild_form DUNSPARCE,   .Dudunsparce
 	random_wild_form DUDUNSPARCE, .Dudunsparce
+	random_wild_form DEERLING,    .Deerling
+	random_wild_form SAWSBUCK,    .Deerling
 	dbw 0,        .Default
 
 .Unown:
@@ -65,6 +67,11 @@ RandomWildSpeciesForms:
 .Magikarp:
 	; Random Magikarp pattern
 	ld a, NUM_MAGIKARP
+	jr .RandomForm
+
+.Deerling:
+	; Random Deerling/Sawsbuck form
+	ld a, NUM_DEERLING
 	jr .RandomForm
 
 .EkansArbok:

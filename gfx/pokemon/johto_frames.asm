@@ -266,8 +266,14 @@ ZoruaPlainFrames: INCLUDE "gfx/pokemon/zorua_plain/frames.asm"
 ZoroarkPlainFrames: INCLUDE "gfx/pokemon/zoroark_plain/frames.asm"
 
 DeerlingSpringFrames: INCLUDE "gfx/pokemon/deerling_spring/frames.asm"
+DeerlingSummerFrames: INCLUDE "gfx/pokemon/deerling_summer/frames.asm"
+DeerlingAutumnFrames: INCLUDE "gfx/pokemon/deerling_autumn/frames.asm"
+DeerlingWinterFrames: INCLUDE "gfx/pokemon/deerling_winter/frames.asm"
 
 SawsbuckSpringFrames: INCLUDE "gfx/pokemon/sawsbuck_spring/frames.asm"
+SawsbuckSummerFrames: INCLUDE "gfx/pokemon/sawsbuck_summer/frames.asm"
+SawsbuckAutumnFrames: INCLUDE "gfx/pokemon/sawsbuck_autumn/frames.asm"
+SawsbuckWinterFrames: INCLUDE "gfx/pokemon/sawsbuck_winter/frames.asm"
 
 FrillishMaleFrames:   INCLUDE "gfx/pokemon/frillish_male/frames.asm"
 

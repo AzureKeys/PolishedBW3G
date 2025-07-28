@@ -414,5 +414,13 @@ AnimationExtraPointers:
 	dw SneaselHisuianAnimationExtra
 	
 	dw UnfezantFemaleAnimationExtra
+	
+	dw DeerlingSummerAnimationExtra
+	dw DeerlingAutumnAnimationExtra
+	dw DeerlingWinterAnimationExtra
+	
+	dw SawsbuckSummerAnimationExtra
+	dw SawsbuckAutumnAnimationExtra
+	dw SawsbuckWinterAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

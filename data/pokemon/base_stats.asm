@@ -387,4 +387,12 @@ INCLUDE "data/pokemon/base_stats/sneasel_hisuian.asm"
 
 INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
 
+INCLUDE "data/pokemon/base_stats/deerling.asm" ; summer
+INCLUDE "data/pokemon/base_stats/deerling.asm" ; autumn
+INCLUDE "data/pokemon/base_stats/deerling.asm" ; winter
+
+INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; summer
+INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; autumn
+INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; winter
+
 	assert_table_length NUM_EXT_POKEMON

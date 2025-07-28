@@ -351,5 +351,13 @@ EggSpeciesMovesPointers::
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
 	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
+	
+	dw DeerlingEggSpeciesMoves          ; Deerling (Summer)
+	dw DeerlingEggSpeciesMoves          ; Deerling (Autumn)
+	dw DeerlingEggSpeciesMoves          ; Deerling (Winter)
+	
+	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Summer)
+	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Autumn)
+	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Winter)
 
 	assert_table_length NUM_EXT_POKEMON

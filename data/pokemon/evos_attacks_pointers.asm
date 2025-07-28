@@ -355,5 +355,13 @@ EvosAttacksPointers::
 	dw SneaselHisuianEvosAttacks
 	
 	dw UnfezantEvosAttacks
+	
+	dw DeerlingEvosAttacks
+	dw DeerlingEvosAttacks
+	dw DeerlingEvosAttacks
+	
+	dw SawsbuckEvosAttacks
+	dw SawsbuckEvosAttacks
+	dw SawsbuckEvosAttacks
 
 	assert_table_length NUM_EXT_POKEMON

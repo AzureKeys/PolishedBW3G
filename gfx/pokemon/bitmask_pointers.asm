@@ -414,5 +414,13 @@ BitmasksPointers:
 	dw SneaselHisuianBitmasks
 	
 	dw UnfezantFemaleBitmasks
+	
+	dw DeerlingSummerBitmasks
+	dw DeerlingAutumnBitmasks
+	dw DeerlingWinterBitmasks
+	
+	dw SawsbuckSummerBitmasks
+	dw SawsbuckAutumnBitmasks
+	dw SawsbuckWinterBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

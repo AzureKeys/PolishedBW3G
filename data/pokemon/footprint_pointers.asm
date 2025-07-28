@@ -351,5 +351,13 @@ FootprintPointers::
 	dw SneaselFootprint
 	
 	dw UnfezantFootprint
+	
+	dw DeerlingFootprint
+	dw DeerlingFootprint
+	dw DeerlingFootprint
+	
+	dw SawsbuckFootprint
+	dw SawsbuckFootprint
+	dw SawsbuckFootprint
 
 	assert_table_length NUM_EXT_POKEMON

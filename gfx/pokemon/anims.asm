@@ -437,8 +437,14 @@ ZoruaPlainAnimation: INCLUDE "gfx/pokemon/zorua_plain/anim.asm"
 ZoroarkPlainAnimation: INCLUDE "gfx/pokemon/zoroark_plain/anim.asm"
 
 DeerlingSpringAnimation: INCLUDE "gfx/pokemon/deerling_spring/anim.asm"
+DeerlingSummerAnimation: INCLUDE "gfx/pokemon/deerling_summer/anim.asm"
+DeerlingAutumnAnimation: INCLUDE "gfx/pokemon/deerling_autumn/anim.asm"
+DeerlingWinterAnimation: INCLUDE "gfx/pokemon/deerling_winter/anim.asm"
 
 SawsbuckSpringAnimation: INCLUDE "gfx/pokemon/sawsbuck_spring/anim.asm"
+SawsbuckSummerAnimation: INCLUDE "gfx/pokemon/sawsbuck_summer/anim.asm"
+SawsbuckAutumnAnimation: INCLUDE "gfx/pokemon/sawsbuck_autumn/anim.asm"
+SawsbuckWinterAnimation: INCLUDE "gfx/pokemon/sawsbuck_winter/anim.asm"
 
 FrillishMaleAnimation:   INCLUDE "gfx/pokemon/frillish_male/anim.asm"
 
