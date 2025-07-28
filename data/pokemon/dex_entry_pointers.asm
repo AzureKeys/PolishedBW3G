@@ -311,6 +311,7 @@ PokedexDataPointerTable:
 	dba HydreigonPokedexEntry
 	dba LarvestaPokedexEntry
 	dba VolcaronaPokedexEntry
+	dba GenesectPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

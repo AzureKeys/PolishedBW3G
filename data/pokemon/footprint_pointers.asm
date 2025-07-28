@@ -310,6 +310,7 @@ FootprintPointers::
 	dw HydreigonFootprint
 	dw LarvestaFootprint
 	dw VolcaronaFootprint
+	dw GenesectFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

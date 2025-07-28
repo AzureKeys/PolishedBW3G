@@ -1576,3 +1576,7 @@ LarvestaBackpic:  INCBIN "gfx/pokemon/larvesta/back.2bpp.lz"
 SECTION "Volcarona Pics", ROMX
 VolcaronaFrontpic: INCBIN "gfx/pokemon/volcarona/front.animated.2bpp.lz"
 VolcaronaBackpic:  INCBIN "gfx/pokemon/volcarona/back.2bpp.lz"
+
+SECTION "Genesect Pics", ROMX
+GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
+GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"

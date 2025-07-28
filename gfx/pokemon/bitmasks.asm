@@ -256,6 +256,7 @@ ZweilousBitmasks:   INCLUDE "gfx/pokemon/zweilous/bitmask.asm"
 HydreigonBitmasks:  INCLUDE "gfx/pokemon/hydreigon/bitmask.asm"
 LarvestaBitmasks:   INCLUDE "gfx/pokemon/larvesta/bitmask.asm"
 VolcaronaBitmasks:  INCLUDE "gfx/pokemon/volcarona/bitmask.asm"
+GenesectBitmasks:   INCLUDE "gfx/pokemon/genesect/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 

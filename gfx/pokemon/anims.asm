@@ -256,6 +256,7 @@ ZweilousAnimation:   INCLUDE "gfx/pokemon/zweilous/anim.asm"
 HydreigonAnimation:  INCLUDE "gfx/pokemon/hydreigon/anim.asm"
 LarvestaAnimation:   INCLUDE "gfx/pokemon/larvesta/anim.asm"
 VolcaronaAnimation:  INCLUDE "gfx/pokemon/volcarona/anim.asm"
+GenesectAnimation:   INCLUDE "gfx/pokemon/genesect/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

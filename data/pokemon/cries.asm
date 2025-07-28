@@ -316,4 +316,5 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $000,  $100 ; HYDREIGON*
 	mon_cry CRY_CYNDAQUIL,  -$4c7,  $0f5 ; Larvesta
 	mon_cry CRY_METAPOD,    -$420,  $1a6 ; Volcarona
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; Genesect
 	assert_table_length NUM_SPECIES

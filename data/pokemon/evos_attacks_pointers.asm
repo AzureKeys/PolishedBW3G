@@ -314,6 +314,7 @@ EvosAttacksPointers::
 	dw HydreigonEvosAttacks
 	dw LarvestaEvosAttacks
 	dw VolcaronaEvosAttacks
+	dw GenesectEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

@@ -3067,6 +3067,15 @@ VolcaronaPokedexEntry::
 	next "to scatter fiery"
 	next "scales.@"
 
+SECTION "GenesectPokedexEntry", ROMX
+GenesectPokedexEntry::
+	db "Paleozoic@"
+	db "Over 300 million"
+	next "years ago, it was"
+	next "feared as the"
+	page "strongest of"
+	next "hunters.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

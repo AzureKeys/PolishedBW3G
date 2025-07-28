@@ -314,6 +314,7 @@ MiniIconPointers:
 	mini_icon Hydreigon
 	mini_icon Larvesta
 	mini_icon Volcarona
+	mini_icon Genesect
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

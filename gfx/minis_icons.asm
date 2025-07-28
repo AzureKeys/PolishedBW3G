@@ -1552,6 +1552,11 @@ VolcaronaMini::     INCBIN "gfx/minis/volcarona.2bpp.lz"
 VolcaronaMiniMask:: INCBIN "gfx/minis/volcarona_mask.1bpp.lz"
 VolcaronaIcon::     INCBIN "gfx/icons/volcarona.2bpp.lz"
 
+SECTION "Genesect Mini Icon", ROMX
+GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
+GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"
+GenesectIcon::     INCBIN "gfx/icons/genesect.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

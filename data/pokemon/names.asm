@@ -311,4 +311,5 @@ PokemonNames::
 	rawchar "Hydreigon@"
 	rawchar "Larvesta@@"
 	rawchar "Volcarona@"
+	rawchar "Genesect@@"
 	assert_table_length NUM_SPECIES + 1

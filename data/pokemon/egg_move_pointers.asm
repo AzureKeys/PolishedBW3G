@@ -310,6 +310,7 @@ EggSpeciesMovesPointers::
 	dw DeinoEggSpeciesMoves             ; Hydreigon
 	dw LarvestaEggSpeciesMoves          ; Larvesta
 	dw LarvestaEggSpeciesMoves          ; Volcarona
+	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

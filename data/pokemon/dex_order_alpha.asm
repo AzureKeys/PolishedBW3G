@@ -90,6 +90,7 @@ AlphabeticalPokedexOrder:
 	dp GALVANTULA
 	dp GARBODOR
 	dp GASTLY
+	dp GENESECT
 	dp GENGAR
 	dp GEODUDE
 	dp GIGALITH

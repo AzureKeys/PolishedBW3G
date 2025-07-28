@@ -140,6 +140,7 @@ ZweilousFootprint::
 HydreigonFootprint::
 LarvestaFootprint::
 VolcaronaFootprint::
+GenesectFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

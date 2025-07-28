@@ -314,6 +314,7 @@ endc
 	db TRI_ATTACK   ; HYDREIGON
 	db NO_MOVE      ; LARVESTA
 	db NO_MOVE      ; VOLCARONA
+	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

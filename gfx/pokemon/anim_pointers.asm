@@ -310,6 +310,7 @@ AnimationPointers:
 	dw HydreigonAnimation
 	dw LarvestaAnimation
 	dw VolcaronaAnimation
+	dw GenesectAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

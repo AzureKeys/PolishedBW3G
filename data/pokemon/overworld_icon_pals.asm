@@ -314,6 +314,7 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; HYDREIGON
 	iconpal RED, BROWN ; LARVESTA
 	iconpal ORANGE, PURPLE ; VOLCARONA
+	iconpal PURPLE, RED ; GENESECT
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

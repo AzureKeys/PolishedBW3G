@@ -310,6 +310,7 @@ FramesPointers:
 	dw HydreigonFrames
 	dw LarvestaFrames
 	dw VolcaronaFrames
+	dw GenesectFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
