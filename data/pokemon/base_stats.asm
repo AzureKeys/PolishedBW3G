@@ -343,6 +343,8 @@ INCLUDE "data/pokemon/base_stats/durant.asm"
 INCLUDE "data/pokemon/base_stats/deino.asm"
 INCLUDE "data/pokemon/base_stats/zweilous.asm"
 INCLUDE "data/pokemon/base_stats/hydreigon.asm"
+INCLUDE "data/pokemon/base_stats/larvesta.asm"
+INCLUDE "data/pokemon/base_stats/volcarona.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

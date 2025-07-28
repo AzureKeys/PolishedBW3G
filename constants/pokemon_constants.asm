@@ -332,6 +332,8 @@
 	const DEINO      ; 17e
 	const ZWEILOUS   ; 17f
 	const HYDREIGON  ; 180
+	const LARVESTA   ; 181
+	const VOLCARONA  ; 182
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 

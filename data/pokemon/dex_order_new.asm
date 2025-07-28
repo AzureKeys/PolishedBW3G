@@ -129,6 +129,8 @@ NewPokedexOrder:
 	dp DEINO
 	dp ZWEILOUS
 	dp HYDREIGON
+	dp LARVESTA
+	dp VOLCARONA
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

@@ -308,6 +308,8 @@ AnimationPointers:
 	dw DeinoAnimation
 	dw ZweilousAnimation
 	dw HydreigonAnimation
+	dw LarvestaAnimation
+	dw VolcaronaAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

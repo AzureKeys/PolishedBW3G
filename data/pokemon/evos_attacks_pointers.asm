@@ -312,6 +312,8 @@ EvosAttacksPointers::
 	dw DeinoEvosAttacks
 	dw ZweilousEvosAttacks
 	dw HydreigonEvosAttacks
+	dw LarvestaEvosAttacks
+	dw VolcaronaEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

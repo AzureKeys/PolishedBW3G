@@ -1568,3 +1568,11 @@ ZweilousBackpic:  INCBIN "gfx/pokemon/zweilous/back.2bpp.lz"
 SECTION "Hydreigon Pics", ROMX
 HydreigonFrontpic: INCBIN "gfx/pokemon/hydreigon/front.animated.2bpp.lz"
 HydreigonBackpic:  INCBIN "gfx/pokemon/hydreigon/back.2bpp.lz"
+
+SECTION "Larvesta Pics", ROMX
+LarvestaFrontpic: INCBIN "gfx/pokemon/larvesta/front.animated.2bpp.lz"
+LarvestaBackpic:  INCBIN "gfx/pokemon/larvesta/back.2bpp.lz"
+
+SECTION "Volcarona Pics", ROMX
+VolcaronaFrontpic: INCBIN "gfx/pokemon/volcarona/front.animated.2bpp.lz"
+VolcaronaBackpic:  INCBIN "gfx/pokemon/volcarona/back.2bpp.lz"

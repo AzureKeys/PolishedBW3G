@@ -312,6 +312,8 @@ MiniIconPointers:
 	mini_icon Deino
 	mini_icon Zweilous
 	mini_icon Hydreigon
+	mini_icon Larvesta
+	mini_icon Volcarona
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

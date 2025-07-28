@@ -140,6 +140,7 @@ AlphabeticalPokedexOrder:
 	dp LAMPENT
 	dp LANTURN
 	dp LAPRAS
+	dp LARVESTA
 	dp LARVITAR
 	dp LEAFEON
 	dp LEAVANNY
@@ -290,6 +291,7 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENIPEDE
 	dp VENUSAUR
+	dp VOLCARONA
 	dp VULLABY
 	dp VULPIX
 	dp WARTORTLE

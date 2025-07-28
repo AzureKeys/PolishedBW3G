@@ -312,6 +312,8 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; DEINO
 	iconpal BLUE, GREEN ; ZWEILOUS
 	iconpal BLUE, GREEN ; HYDREIGON
+	iconpal RED, BROWN ; LARVESTA
+	iconpal ORANGE, PURPLE ; VOLCARONA
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

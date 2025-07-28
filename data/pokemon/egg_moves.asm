@@ -1268,5 +1268,14 @@ DeinoEggSpeciesMoves:
 	;db THUNDER_FANG
 	db $ff
 
+LarvestaEggSpeciesMoves:
+	dp LARVESTA, PLAIN_FORM
+	db ENDURE
+	db FORESIGHT
+	db DEFENSE_CURL
+	db STRING_SHOT
+	db ZEN_HEADBUTT
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

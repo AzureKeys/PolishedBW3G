@@ -3047,6 +3047,26 @@ HydreigonPokedexEntry::
 	next "to consume and"
 	next "destroy anything.@"
 
+SECTION "LarvestaPokedexEntry", ROMX
+LarvestaPokedexEntry::
+	db "Torch@"
+	db "This #mon was"
+	next "belived to be born"
+	next "from the sun. It"
+	page "shoots fire from"
+	next "its horns to repel"
+	next "enemies.@"
+
+SECTION "VolcaronaPokedexEntry", ROMX
+VolcaronaPokedexEntry::
+	db "Sun@"
+	db "A sea of fire"
+	next "engulfs their"
+	next "battles. They use"
+	page "their six wings"
+	next "to scatter fiery"
+	next "scales.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

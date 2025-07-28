@@ -312,6 +312,8 @@ PokemonPicPointers::
 	pics Deino
 	pics Zweilous
 	pics Hydreigon
+	pics Larvesta
+	pics Volcarona
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

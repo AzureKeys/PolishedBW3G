@@ -315,6 +315,8 @@ PokemonBodyData:
 	body_data   8,  173, QUADRUPED,    BLUE   ; DEINO
 	body_data  14,  500, QUADRUPED,    BLUE   ; ZWEILOUS
 	body_data  18, 1600, BIPEDAL_TAIL, BLUE   ; HYDREIGON
+	body_data  11,  288, INSECTOID,    WHITE  ; LARVESTA
+	body_data  16,  460, MULTIWINGS,   WHITE  ; VOLCARONA
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

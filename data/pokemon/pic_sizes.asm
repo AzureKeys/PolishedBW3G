@@ -327,6 +327,8 @@ INCLUDE "gfx/pokemon/durant/front.dimensions"
 INCLUDE "gfx/pokemon/deino/front.dimensions"
 INCLUDE "gfx/pokemon/zweilous/front.dimensions"
 INCLUDE "gfx/pokemon/hydreigon/front.dimensions"
+INCLUDE "gfx/pokemon/larvesta/front.dimensions"
+INCLUDE "gfx/pokemon/volcarona/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

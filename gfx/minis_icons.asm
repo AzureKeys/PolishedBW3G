@@ -1542,6 +1542,16 @@ HydreigonMini::     INCBIN "gfx/minis/hydreigon.2bpp.lz"
 HydreigonMiniMask:: INCBIN "gfx/minis/hydreigon_mask.1bpp.lz"
 HydreigonIcon::     INCBIN "gfx/icons/hydreigon.2bpp.lz"
 
+SECTION "Larvesta Mini Icon", ROMX
+LarvestaMini::     INCBIN "gfx/minis/larvesta.2bpp.lz"
+LarvestaMiniMask:: INCBIN "gfx/minis/larvesta_mask.1bpp.lz"
+LarvestaIcon::     INCBIN "gfx/icons/larvesta.2bpp.lz"
+
+SECTION "Volcarona Mini Icon", ROMX
+VolcaronaMini::     INCBIN "gfx/minis/volcarona.2bpp.lz"
+VolcaronaMiniMask:: INCBIN "gfx/minis/volcarona_mask.1bpp.lz"
+VolcaronaIcon::     INCBIN "gfx/icons/volcarona.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

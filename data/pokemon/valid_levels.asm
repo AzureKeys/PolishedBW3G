@@ -313,4 +313,6 @@ endc
 	db   1,  49 ; Deino
 	db  50,  63 ; Zweilous
 	db  64, 100 ; Hydreigon
+	db   1,  58 ; Larvesta
+	db  59, 100 ; Volcarona
 	assert_table_length NUM_SPECIES

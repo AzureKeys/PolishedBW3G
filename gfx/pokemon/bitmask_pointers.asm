@@ -308,6 +308,8 @@ BitmasksPointers:
 	dw DeinoBitmasks
 	dw ZweilousBitmasks
 	dw HydreigonBitmasks
+	dw LarvestaBitmasks
+	dw VolcaronaBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

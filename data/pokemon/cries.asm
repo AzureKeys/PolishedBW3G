@@ -314,4 +314,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $094,  $100 ; Deino
 	mon_cry CRY_VULPIX,     -$0ee,  $090 ; Zweilous
 	mon_cry CRY_RAICHU,      $000,  $100 ; HYDREIGON*
+	mon_cry CRY_CYNDAQUIL,  -$4c7,  $0f5 ; Larvesta
+	mon_cry CRY_METAPOD,    -$420,  $1a6 ; Volcarona
 	assert_table_length NUM_SPECIES

@@ -309,6 +309,8 @@ PokedexDataPointerTable:
 	dba DeinoPokedexEntry
 	dba ZweilousPokedexEntry
 	dba HydreigonPokedexEntry
+	dba LarvestaPokedexEntry
+	dba VolcaronaPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry

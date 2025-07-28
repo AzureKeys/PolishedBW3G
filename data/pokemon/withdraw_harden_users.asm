@@ -36,4 +36,6 @@ HardenUsers:
 	dp VANILLUXE
 	dp FERROSEED
 	dp FERROTHORN
+	dp LARVESTA
+	dp VOLCARONA
 	db 0

@@ -6081,6 +6081,43 @@ endc
 	learnset 63, TRI_ATTACK
 	learnset 64, HYPER_VOICE
 	learnset 79, OUTRAGE
+	
+	evos_attacks Larvesta
+	evo_data EVOLVE_LEVEL, 59, VOLCARONA
+	learnset 1, STRING_SHOT
+	learnset 1, EMBER
+	learnset 10, ABSORB
+	learnset 20, TAKE_DOWN
+	learnset 30, FLAME_CHARGE
+	learnset 40, BUG_BITE
+	learnset 50, DOUBLE_EDGE
+	; Skipped Flame Wheel
+	learnset 60, BUG_BUZZ
+	learnset 70, AMNESIA
+	; Skipped Thrash
+	learnset 80, FLARE_BLITZ
+	
+	evos_attacks Volcarona
+	;learnset 1, QUIVER_DANCE
+	learnset 1, HURRICANE
+	;learnset 1, FIERY_DANCE
+	;learnset 1, HEAT_WAVE
+	learnset 1, FLARE_BLITZ
+	learnset 1, STRING_SHOT
+	learnset 1, EMBER
+	learnset 1, ABSORB
+	learnset 1, GUST
+	learnset 10, ABSORB
+	learnset 20, GUST
+	learnset 30, FIRE_SPIN
+	learnset 40, ROAR ; Whirlwind
+	; Skipped Silver Wind
+	;learnset 50, HEAT_WAVE
+	;learnset 58, QUIVER_DANCE
+	learnset 60, BUG_BUZZ
+	; Skipped Rage Powder
+	learnset 70, HURRICANE
+	;learnset 80, FIERY_DANCE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

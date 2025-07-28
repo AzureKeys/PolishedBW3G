@@ -138,6 +138,8 @@ DurantFootprint::
 DeinoFootprint::
 ZweilousFootprint::
 HydreigonFootprint::
+LarvestaFootprint::
+VolcaronaFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::

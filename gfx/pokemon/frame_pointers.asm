@@ -308,6 +308,8 @@ FramesPointers:
 	dw DeinoFrames
 	dw ZweilousFrames
 	dw HydreigonFrames
+	dw LarvestaFrames
+	dw VolcaronaFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames

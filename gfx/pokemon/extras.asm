@@ -254,6 +254,8 @@ DurantAnimationExtra:     INCLUDE "gfx/pokemon/durant/anim_idle.asm"
 DeinoAnimationExtra:      INCLUDE "gfx/pokemon/deino/anim_idle.asm"
 ZweilousAnimationExtra:   INCLUDE "gfx/pokemon/zweilous/anim_idle.asm"
 HydreigonAnimationExtra:  INCLUDE "gfx/pokemon/hydreigon/anim_idle.asm"
+LarvestaAnimationExtra:   INCLUDE "gfx/pokemon/larvesta/anim_idle.asm"
+VolcaronaAnimationExtra:  INCLUDE "gfx/pokemon/volcarona/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

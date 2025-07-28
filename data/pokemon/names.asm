@@ -309,4 +309,6 @@ PokemonNames::
 	rawchar "Deino@@@@@"
 	rawchar "Zweilous@@"
 	rawchar "Hydreigon@"
+	rawchar "Larvesta@@"
+	rawchar "Volcarona@"
 	assert_table_length NUM_SPECIES + 1

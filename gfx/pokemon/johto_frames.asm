@@ -193,6 +193,8 @@ DurantFrames:     INCLUDE "gfx/pokemon/durant/frames.asm"
 DeinoFrames:      INCLUDE "gfx/pokemon/deino/frames.asm"
 ZweilousFrames:   INCLUDE "gfx/pokemon/zweilous/frames.asm"
 HydreigonFrames:  INCLUDE "gfx/pokemon/hydreigon/frames.asm"
+LarvestaFrames:   INCLUDE "gfx/pokemon/larvesta/frames.asm"
+VolcaronaFrames:  INCLUDE "gfx/pokemon/volcarona/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
