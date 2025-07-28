@@ -632,22 +632,6 @@ SneaselHisuianEggSpeciesMoves:
 	dp SNEASEL, HISUIAN_FORM
 	db $ff
 
-TeddiursaEggSpeciesMoves:
-	dp TEDDIURSA, PLAIN_FORM
-	db BELLY_DRUM
-	db CROSS_CHOP
-	db CRUNCH
-	db FOCUS_ENERGY
-	db METAL_CLAW
-	db PLAY_ROUGH
-	db TAKE_DOWN
-	db SEISMIC_TOSS
-	db COUNTER
-	db GUNK_SHOT
-	db NIGHT_SLASH
-	db CLOSE_COMBAT
-	db $ff
-
 SwinubEggSpeciesMoves:
 	dp SWINUB, PLAIN_FORM
 	db AVALANCHE
@@ -1270,6 +1254,16 @@ DurantEggSpeciesMoves:
 	dp DURANT, PLAIN_FORM
 	db ENDURE
 	db FEINT_ATTACK
+	db SCREECH
+	;db THUNDER_FANG
+	db $ff
+
+DeinoEggSpeciesMoves:
+	dp DEINO, PLAIN_FORM
+	db DARK_PULSE
+	db EARTH_POWER
+	;db FIRE_FANG
+	;db ICE_FANG
 	db SCREECH
 	;db THUNDER_FANG
 	db $ff

@@ -137,8 +137,6 @@ endc
 	db NO_MOVE      ; SHUCKLE
 	db NO_MOVE      ; HERACROSS
 	db NO_MOVE      ; SNEASEL
-	db NO_MOVE      ; TEDDIURSA
-	db NO_MOVE      ; URSARING
 	db NO_MOVE      ; SWINUB
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
@@ -185,7 +183,6 @@ endc
 	db NO_MOVE      ; CURSOLA
 	db NO_MOVE      ; MR__RIME
 	db ROCK_THROW   ; KLEAVOR
-	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; DUDUNSPARCE
 	db SHADOW_CLAW  ; ANNIHILAPE
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; GOTHITA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
@@ -315,6 +312,9 @@ endc
 	db HURRICANE    ; MANDIBUZZ
 	db NO_MOVE      ; HEATMOR
 	db NO_MOVE      ; DURANT
+	db NO_MOVE      ; DEINO
+	db NO_MOVE      ; ZWEILOUS
+	db TRI_ATTACK   ; HYDREIGON
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM
@@ -353,8 +353,6 @@ endc
 	db EXTREMESPEED ; ARCANINE, HISUIAN_FORM
 	db SHADOW_CLAW  ; TYPHLOSION, HISUIAN_FORM
 	db NO_MOVE      ; SNEASEL, HISUIAN_FORM
-
-	db NO_MOVE      ; URSALUNA, URSALUNA_BLOODMOON_FORM
 	
 	db NO_MOVE      ; UNFEZANT, UNFEZANT_FEMALE_FORM
 

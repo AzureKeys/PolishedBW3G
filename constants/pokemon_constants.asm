@@ -157,8 +157,6 @@
 	const SHUCKLE    ; 6a
 	const HERACROSS  ; 6b
 	const SNEASEL    ; 6c
-	const TEDDIURSA  ; xx
-	const URSARING   ; xx
 	const SWINUB     ; 6d
 	const PILOSWINE  ; 6e
 	const CORSOLA    ; 6f
@@ -205,7 +203,6 @@
 	const CURSOLA    ; 118
 	const MR__RIME   ; 11a
 	const KLEAVOR    ; 11c
-	const URSALUNA   ; xx
 	const SNEASLER   ; 11e
 	const DUDUNSPARCE ; 120
 	const ANNIHILAPE ; 123
@@ -278,11 +275,11 @@
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const GOTHITA    ; 143
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
@@ -335,6 +332,9 @@
 	const MANDIBUZZ  ; 17b
 	const HEATMOR    ; 17c
 	const DURANT     ; 17d
+	const DEINO      ; 17e
+	const ZWEILOUS   ; 17f
+	const HYDREIGON  ; 180
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -498,10 +498,6 @@ DEF HISUIAN_FORM EQU 4
 
 ; paldean forms
 DEF PALDEAN_FORM EQU 5
-
-; ursaluna
-	ext_const_def 2
-	ext_const URSALUNA_BLOODMOON_FORM ; 189 (2)
 
 ; unfezant
 	ext_const_def 1, UNFEZANT_MALE_FORM ; (1)

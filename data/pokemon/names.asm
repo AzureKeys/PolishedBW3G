@@ -134,8 +134,6 @@ PokemonNames::
 	rawchar "Shuckle@@@"
 	rawchar "Heracross@"
 	rawchar "Sneasel@@@"
-	rawchar "Teddiursa@"
-	rawchar "Ursaring@@"
 	rawchar "Swinub@@@@"
 	rawchar "Piloswine@"
 	rawchar "Corsola@@@"
@@ -182,7 +180,6 @@ PokemonNames::
 	rawchar "Cursola@@@"
 	rawchar "Mr.Rime@@@"
 	rawchar "Kleavor@@@"
-	rawchar "Ursaluna@@"
 	rawchar "Sneasler@@"
 	rawchar "D'dunsparce"
 	rawchar "Annihilape"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Archeops@@"
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
 	rawchar "Gothita@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"
 	rawchar "Solosis@@@"
@@ -312,4 +309,7 @@ PokemonNames::
 	rawchar "Mandibuzz@"
 	rawchar "Heatmor@@@"
 	rawchar "Durant@@@@"
+	rawchar "Deino@@@@@"
+	rawchar "Zweilous@@"
+	rawchar "Hydreigon@"
 	assert_table_length NUM_SPECIES + 1

@@ -137,8 +137,6 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; SHUCKLE
 	iconpal BLUE, PURPLE ; HERACROSS
 	iconpal BLUE, RED ; SNEASEL
-	iconpal BROWN, GREEN ; TEDDIURSA
-	iconpal BROWN, GREEN ; URSARING
 	iconpal BROWN, BLUE ; SWINUB
 	iconpal BROWN, GREEN ; PILOSWINE
 	iconpal PINK, AZURE ; CORSOLA
@@ -185,7 +183,6 @@ OverworldMonIconColors::
 	iconpal GRAY, PINK ; CURSOLA
 	iconpal BLUE, GRAY ; MR__RIME
 	iconpal BROWN, GREEN ; KLEAVOR
-	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; ANNIHILAPE
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal BLACK, PURPLE ; GOTHITA
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE
 	iconpal GREEN, BLUE ; SOLOSIS
@@ -315,6 +312,9 @@ OverworldMonIconColors::
 	iconpal BROWN, PURPLE ; MANDIBUZZ
 	iconpal RED, BLACK ; HEATMOR
 	iconpal GRAY, BROWN ; DURANT
+	iconpal BLUE, GREEN ; DEINO
+	iconpal BLUE, GREEN ; ZWEILOUS
+	iconpal BLUE, GREEN ; HYDREIGON
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -373,8 +373,6 @@ endr
 	iconpal ORANGE, BROWN ; ARCANINE, HISUIAN_FORM
 	iconpal PURPLE, BLUE ; TYPHLOSION, HISUIAN_FORM
 	iconpal PURPLE, BROWN ; SNEASEL, HISUIAN_FORM
-
-	iconpal RED, RED ; URSALUNA, URSALUNA_BLOODMOON_FORM
 
 	iconpal GRAY, PINK ; UNFEZANT, UNFEZANT_FEMALE_FORM
 

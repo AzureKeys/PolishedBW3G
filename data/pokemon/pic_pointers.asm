@@ -137,8 +137,6 @@ PokemonPicPointers::
 	pics Shuckle
 	pics Heracross
 	pics SneaselPlain
-	pics Teddiursa
-	pics Ursaring
 	pics Swinub
 	pics Piloswine
 	pics CorsolaPlain
@@ -185,7 +183,6 @@ PokemonPicPointers::
 	pics Cursola
 	pics MrRime
 	pics Kleavor
-	pics UrsalunaPlain
 	pics Sneasler
 	pics DudunsparceTwoSegment
 	pics Annihilape
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Archeops
 	pics Trubbish
 	pics Garbodor
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics ZoruaPlain
 	pics ZoroarkPlain
 	pics Gothita
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Gothorita
 	pics Gothitelle
 	pics Solosis
@@ -315,6 +312,9 @@ PokemonPicPointers::
 	pics Mandibuzz
 	pics Heatmor
 	pics Durant
+	pics Deino
+	pics Zweilous
+	pics Hydreigon
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -416,8 +416,6 @@ PokemonPicPointers::
 	pics ArcanineHisuian
 	pics TyphlosionHisuian
 	pics SneaselHisuian
-
-	pics UrsalunaBloodmoon
 	
 	pics UnfezantFemale
 

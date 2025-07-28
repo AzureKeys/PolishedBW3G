@@ -137,8 +137,6 @@ MiniIconPointers:
 	mini_icon Shuckle
 	mini_icon Heracross
 	mini_icon Sneasel
-	mini_icon Teddiursa
-	mini_icon Ursaring
 	mini_icon Swinub
 	mini_icon Piloswine
 	mini_icon Corsola
@@ -185,7 +183,6 @@ MiniIconPointers:
 	mini_icon Cursola
 	mini_icon MrRime
 	mini_icon Kleavor
-	mini_icon Ursaluna
 	mini_icon Sneasler
 	mini_icon DudunsparceTwoSegment
 	mini_icon Annihilape
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Archeops
 	mini_icon Trubbish
 	mini_icon Garbodor
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Zorua
 	mini_icon Zoroark
 	mini_icon Gothita
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Gothorita
 	mini_icon Gothitelle
 	mini_icon Solosis
@@ -315,6 +312,9 @@ MiniIconPointers:
 	mini_icon Mandibuzz
 	mini_icon Heatmor
 	mini_icon Durant
+	mini_icon Deino
+	mini_icon Zweilous
+	mini_icon Hydreigon
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -400,8 +400,6 @@ endr
 	mini_icon ArcanineHisuian
 	mini_icon TyphlosionHisuian
 	mini_icon SneaselHisuian
-
-	mini_icon UrsalunaBloodmoon
 
 	mini_icon UnfezantFemale
 

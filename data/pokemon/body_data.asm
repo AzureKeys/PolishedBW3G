@@ -140,8 +140,6 @@ PokemonBodyData:
 	body_data   6,  205, INSECTOID,    YELLOW ; SHUCKLE
 	body_data  15,  540, BIPEDAL,      BLUE   ; HERACROSS
 	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; SNEASEL
-	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; TEDDIURSA
-	body_data  18, 1258, BIPEDAL_TAIL, BROWN  ; URSARING
 	body_data   4,   65, QUADRUPED,    BROWN  ; SWINUB
 	body_data  11,  558, QUADRUPED,    BROWN  ; PILOSWINE
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
@@ -188,7 +186,6 @@ PokemonBodyData:
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
-	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
@@ -318,6 +315,9 @@ PokemonBodyData:
 	body_data  12,  395, WINGS,        BROWN  ; MANDIBUZZ
 	body_data  14,  580, BIPEDAL_TAIL, RED    ; HEATMOR
 	body_data   3,  330, INSECTOID,    GRAY   ; DURANT
+	body_data   8,  173, QUADRUPED,    BLUE   ; DEINO
+	body_data  14,  500, QUADRUPED,    BLUE   ; ZWEILOUS
+	body_data  18, 1600, BIPEDAL_TAIL, BLUE   ; HYDREIGON
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -356,8 +356,6 @@ PokemonBodyData:
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
 	body_data  16,  698, QUADRUPED,    YELLOW ; TYPHLOSION (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
-	
-	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)
 	
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT (UNFEZANT_FEMALE_FORM)
 

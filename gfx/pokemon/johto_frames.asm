@@ -37,8 +37,6 @@ GranbullFrames:   INCLUDE "gfx/pokemon/granbull/frames.asm"
 ScizorFrames:     INCLUDE "gfx/pokemon/scizor/frames.asm"
 ShuckleFrames:    INCLUDE "gfx/pokemon/shuckle/frames.asm"
 HeracrossFrames:  INCLUDE "gfx/pokemon/heracross/frames.asm"
-TeddiursaFrames:  INCLUDE "gfx/pokemon/teddiursa/frames.asm"
-UrsaringFrames:   INCLUDE "gfx/pokemon/ursaring/frames.asm"
 SwinubFrames:     INCLUDE "gfx/pokemon/swinub/frames.asm"
 PiloswineFrames:  INCLUDE "gfx/pokemon/piloswine/frames.asm"
 RemoraidFrames:   INCLUDE "gfx/pokemon/remoraid/frames.asm"
@@ -195,6 +193,9 @@ VullabyFrames:    INCLUDE "gfx/pokemon/vullaby/frames.asm"
 MandibuzzFrames:  INCLUDE "gfx/pokemon/mandibuzz/frames.asm"
 HeatmorFrames:    INCLUDE "gfx/pokemon/heatmor/frames.asm"
 DurantFrames:     INCLUDE "gfx/pokemon/durant/frames.asm"
+DeinoFrames:      INCLUDE "gfx/pokemon/deino/frames.asm"
+ZweilousFrames:   INCLUDE "gfx/pokemon/zweilous/frames.asm"
+HydreigonFrames:  INCLUDE "gfx/pokemon/hydreigon/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -244,9 +245,6 @@ SneaselHisuianFrames: INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"
 
 DudunsparceTwoSegmentFrames:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/frames.asm"
 DudunsparceThreeSegmentFrames: INCLUDE "gfx/pokemon/dudunsparce_three_segment/frames.asm"
-
-UrsalunaPlainFrames:     INCLUDE "gfx/pokemon/ursaluna_plain/frames.asm"
-UrsalunaBloodmoonFrames: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/frames.asm"
 
 UnfezantMaleFrames:   INCLUDE "gfx/pokemon/unfezant_male/frames.asm"
 UnfezantFemaleFrames: INCLUDE "gfx/pokemon/unfezant_female/frames.asm"

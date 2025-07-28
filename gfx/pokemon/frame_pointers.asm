@@ -133,8 +133,6 @@ FramesPointers:
 	dw ShuckleFrames
 	dw HeracrossFrames
 	dw SneaselPlainFrames
-	dw TeddiursaFrames
-	dw UrsaringFrames
 	dw SwinubFrames
 	dw PiloswineFrames
 	dw CorsolaPlainFrames
@@ -181,7 +179,6 @@ FramesPointers:
 	dw CursolaFrames
 	dw MrRimeFrames
 	dw KleavorFrames
-	dw UrsalunaPlainFrames
 	dw SneaslerFrames
 	dw DudunsparceTwoSegmentFrames
 	dw AnnihilapeFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
 	dw GothitaFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw GothoritaFrames
 	dw GothitelleFrames
 	dw SolosisFrames
@@ -311,6 +308,9 @@ FramesPointers:
 	dw MandibuzzFrames
 	dw HeatmorFrames
 	dw DurantFrames
+	dw DeinoFrames
+	dw ZweilousFrames
+	dw HydreigonFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -412,8 +412,6 @@ FramesPointers:
 	dw ArcanineHisuianFrames
 	dw TyphlosionHisuianFrames
 	dw SneaselHisuianFrames
-
-	dw UrsalunaBloodmoonFrames
 	
 	dw UnfezantFemaleFrames
 

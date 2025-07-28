@@ -98,8 +98,6 @@ GranbullBitmasks:   INCLUDE "gfx/pokemon/granbull/bitmask.asm"
 ScizorBitmasks:     INCLUDE "gfx/pokemon/scizor/bitmask.asm"
 ShuckleBitmasks:    INCLUDE "gfx/pokemon/shuckle/bitmask.asm"
 HeracrossBitmasks:  INCLUDE "gfx/pokemon/heracross/bitmask.asm"
-TeddiursaBitmasks:  INCLUDE "gfx/pokemon/teddiursa/bitmask.asm"
-UrsaringBitmasks:   INCLUDE "gfx/pokemon/ursaring/bitmask.asm"
 SwinubBitmasks:     INCLUDE "gfx/pokemon/swinub/bitmask.asm"
 PiloswineBitmasks:  INCLUDE "gfx/pokemon/piloswine/bitmask.asm"
 RemoraidBitmasks:   INCLUDE "gfx/pokemon/remoraid/bitmask.asm"
@@ -256,6 +254,9 @@ VullabyBitmasks:    INCLUDE "gfx/pokemon/vullaby/bitmask.asm"
 MandibuzzBitmasks:  INCLUDE "gfx/pokemon/mandibuzz/bitmask.asm"
 HeatmorBitmasks:    INCLUDE "gfx/pokemon/heatmor/bitmask.asm"
 DurantBitmasks:     INCLUDE "gfx/pokemon/durant/bitmask.asm"
+DeinoBitmasks:      INCLUDE "gfx/pokemon/deino/bitmask.asm"
+ZweilousBitmasks:   INCLUDE "gfx/pokemon/zweilous/bitmask.asm"
+HydreigonBitmasks:  INCLUDE "gfx/pokemon/hydreigon/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -415,9 +416,6 @@ TyphlosionHisuianBitmasks: INCLUDE "gfx/pokemon/typhlosion_hisuian/bitmask.asm"
 
 SneaselPlainBitmasks:   INCLUDE "gfx/pokemon/sneasel_plain/bitmask.asm"
 SneaselHisuianBitmasks: INCLUDE "gfx/pokemon/sneasel_hisuian/bitmask.asm"
-
-UrsalunaPlainBitmasks:     INCLUDE "gfx/pokemon/ursaluna_plain/bitmask.asm"
-UrsalunaBloodmoonBitmasks: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/bitmask.asm"
 
 UnfezantMaleBitmasks:   INCLUDE "gfx/pokemon/unfezant_male/bitmask.asm"
 UnfezantFemaleBitmasks: INCLUDE "gfx/pokemon/unfezant_female/bitmask.asm"

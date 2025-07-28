@@ -98,8 +98,6 @@ GranbullAnimation:   INCLUDE "gfx/pokemon/granbull/anim.asm"
 ScizorAnimation:     INCLUDE "gfx/pokemon/scizor/anim.asm"
 ShuckleAnimation:    INCLUDE "gfx/pokemon/shuckle/anim.asm"
 HeracrossAnimation:  INCLUDE "gfx/pokemon/heracross/anim.asm"
-TeddiursaAnimation:  INCLUDE "gfx/pokemon/teddiursa/anim.asm"
-UrsaringAnimation:   INCLUDE "gfx/pokemon/ursaring/anim.asm"
 SwinubAnimation:     INCLUDE "gfx/pokemon/swinub/anim.asm"
 PiloswineAnimation:  INCLUDE "gfx/pokemon/piloswine/anim.asm"
 RemoraidAnimation:   INCLUDE "gfx/pokemon/remoraid/anim.asm"
@@ -256,6 +254,9 @@ VullabyAnimation:    INCLUDE "gfx/pokemon/vullaby/anim.asm"
 MandibuzzAnimation:  INCLUDE "gfx/pokemon/mandibuzz/anim.asm"
 HeatmorAnimation:    INCLUDE "gfx/pokemon/heatmor/anim.asm"
 DurantAnimation:     INCLUDE "gfx/pokemon/durant/anim.asm"
+DeinoAnimation:      INCLUDE "gfx/pokemon/deino/anim.asm"
+ZweilousAnimation:   INCLUDE "gfx/pokemon/zweilous/anim.asm"
+HydreigonAnimation:  INCLUDE "gfx/pokemon/hydreigon/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -415,9 +416,6 @@ TyphlosionHisuianAnimation: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim.asm"
 
 SneaselPlainAnimation:   INCLUDE "gfx/pokemon/sneasel_plain/anim.asm"
 SneaselHisuianAnimation: INCLUDE "gfx/pokemon/sneasel_hisuian/anim.asm"
-
-UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
-UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
 
 UnfezantMaleAnimation:   INCLUDE "gfx/pokemon/unfezant_male/anim.asm"
 UnfezantFemaleAnimation: INCLUDE "gfx/pokemon/unfezant_female/anim.asm"

@@ -50,6 +50,7 @@ AlphabeticalPokedexOrder:
 	dp DARMANITAN
 	dp DARUMAKA
 	dp DEERLING
+	dp DEINO
 	dp DELIBIRD
 	dp DEWGONG
 	dp DEWOTT
@@ -120,6 +121,7 @@ AlphabeticalPokedexOrder:
 	dp HORSEA
 	dp HOUNDOOM
 	dp HOUNDOUR
+	dp HYDREIGON
 	dp IGGLYBUFF
 	dp IVYSAUR
 	dp JELLICENT
@@ -268,7 +270,6 @@ AlphabeticalPokedexOrder:
 	dp SYLVEON
 	dp TANGELA
 	dp TANGROWTH
-	dp TEDDIURSA
 	dp TEPIG
 	dp THROH
 	dp TIMBURR
@@ -286,8 +287,6 @@ AlphabeticalPokedexOrder:
 	dp UMBREON
 	dp UNFEZANT
 	dp UNOWN
-	dp URSALUNA
-	dp URSARING
 	dp VANILLISH
 	dp VANILLITE
 	dp VANILLUXE
@@ -311,4 +310,5 @@ AlphabeticalPokedexOrder:
 	dp ZOROARK
 	dp ZORUA
 	dp ZUBAT
+	dp ZWEILOUS
 	assert_table_length NUM_POKEMON

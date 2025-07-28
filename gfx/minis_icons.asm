@@ -672,16 +672,6 @@ SneaselMini::     INCBIN "gfx/minis/sneasel.2bpp.lz"
 SneaselMiniMask:: INCBIN "gfx/minis/sneasel_mask.1bpp.lz"
 SneaselIcon::     INCBIN "gfx/icons/sneasel.2bpp.lz"
 
-SECTION "Teddiursa Mini Icon", ROMX
-TeddiursaMini::     INCBIN "gfx/minis/teddiursa.2bpp.lz"
-TeddiursaMiniMask:: INCBIN "gfx/minis/teddiursa_mask.1bpp.lz"
-TeddiursaIcon::     INCBIN "gfx/icons/teddiursa.2bpp.lz"
-
-SECTION "Ursaring Mini Icon", ROMX
-UrsaringMini::     INCBIN "gfx/minis/ursaring.2bpp.lz"
-UrsaringMiniMask:: INCBIN "gfx/minis/ursaring_mask.1bpp.lz"
-UrsaringIcon::     INCBIN "gfx/icons/ursaring.2bpp.lz"
-
 SECTION "Swinub Mini Icon", ROMX
 SwinubMini::     INCBIN "gfx/minis/swinub.2bpp.lz"
 SwinubMiniMask:: INCBIN "gfx/minis/swinub_mask.1bpp.lz"
@@ -916,11 +906,6 @@ SECTION "Kleavor Mini Icon", ROMX
 KleavorMini::     INCBIN "gfx/minis/kleavor.2bpp.lz"
 KleavorMiniMask:: INCBIN "gfx/minis/kleavor_mask.1bpp.lz"
 KleavorIcon::     INCBIN "gfx/icons/kleavor.2bpp.lz"
-
-SECTION "Ursaluna Mini Icon", ROMX
-UrsalunaMini::     INCBIN "gfx/minis/ursaluna.2bpp.lz"
-UrsalunaMiniMask:: INCBIN "gfx/minis/ursaluna_mask.1bpp.lz"
-UrsalunaIcon::     INCBIN "gfx/icons/ursaluna.2bpp.lz"
 
 SECTION "Sneasler Mini Icon", ROMX
 SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
@@ -1557,6 +1542,21 @@ DurantMini::     INCBIN "gfx/minis/durant.2bpp.lz"
 DurantMiniMask:: INCBIN "gfx/minis/durant_mask.1bpp.lz"
 DurantIcon::     INCBIN "gfx/icons/durant.2bpp.lz"
 
+SECTION "Deino Mini Icon", ROMX
+DeinoMini::     INCBIN "gfx/minis/deino.2bpp.lz"
+DeinoMiniMask:: INCBIN "gfx/minis/deino_mask.1bpp.lz"
+DeinoIcon::     INCBIN "gfx/icons/deino.2bpp.lz"
+
+SECTION "Zweilous Mini Icon", ROMX
+ZweilousMini::     INCBIN "gfx/minis/zweilous.2bpp.lz"
+ZweilousMiniMask:: INCBIN "gfx/minis/zweilous_mask.1bpp.lz"
+ZweilousIcon::     INCBIN "gfx/icons/zweilous.2bpp.lz"
+
+SECTION "Hydreigon Mini Icon", ROMX
+HydreigonMini::     INCBIN "gfx/minis/hydreigon.2bpp.lz"
+HydreigonMiniMask:: INCBIN "gfx/minis/hydreigon_mask.1bpp.lz"
+HydreigonIcon::     INCBIN "gfx/icons/hydreigon.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1841,11 +1841,6 @@ SECTION "SneaselHisuian Mini Icon", ROMX
 SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"
 SneaselHisuianMiniMask:: INCBIN "gfx/minis/sneasel_hisuian_mask.1bpp.lz"
 SneaselHisuianIcon::     INCBIN "gfx/icons/sneasel_hisuian.2bpp.lz"
-
-SECTION "UrsalunaBloodmoon Mini Icon", ROMX
-UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"
-UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lz"
-UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lz"
 
 SECTION "UnfezantFemale Mini Icon", ROMX
 UnfezantFemaleMini::     INCBIN "gfx/minis/unfezant_female.2bpp.lz"

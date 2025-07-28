@@ -1157,7 +1157,7 @@
 	wildmon 70, RAPIDASH
 	wildmon 68, RATTATA
 	wildmon 71, SKARMORY
-	wildmon 71, URSARING
+	wildmon 71, RATTATA
 	; day
 	wildmon 66, TANGELA
 	wildmon 67, PONYTA
@@ -1165,7 +1165,7 @@
 	wildmon 70, RAPIDASH
 	wildmon 68, RATTATA
 	wildmon 71, SKARMORY
-	wildmon 71, URSARING
+	wildmon 71, RATTATA
 	; nite
 	wildmon 66, TANGELA
 	wildmon 67, POLIWHIRL

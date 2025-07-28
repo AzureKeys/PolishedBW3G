@@ -1180,7 +1180,7 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 72, GRAVELER
-	wildmon 72, URSARING
+	wildmon 72, RATTATA
 	wildmon 70, ONIX
 	wildmon 74, MAGMAR
 	wildmon 74, GOLBAT
@@ -1188,7 +1188,7 @@
 	wildmon 75, PUPITAR
 	; day
 	wildmon 72, GRAVELER
-	wildmon 72, URSARING
+	wildmon 72, RATTATA
 	wildmon 70, ONIX
 	wildmon 74, MAGMAR
 	wildmon 74, GOLBAT
@@ -1209,7 +1209,7 @@
 	; morn
 	wildmon 74, GOLBAT
 	wildmon 74, RATTATA
-	wildmon 72, URSARING
+	wildmon 72, RATTATA
 	wildmon 76, PARASECT
 	wildmon 76, PARASECT
 	wildmon 77, STEELIX
@@ -1217,7 +1217,7 @@
 	; day
 	wildmon 74, GOLBAT
 	wildmon 74, RATTATA
-	wildmon 72, URSARING
+	wildmon 72, RATTATA
 	wildmon 76, PARASECT
 	wildmon 76, PARASECT
 	wildmon 77, STEELIX
@@ -1238,7 +1238,7 @@
 	wildmon 76, CROBAT
 	wildmon 76, ONIX
 	wildmon 74, GOLEM
-	wildmon 78, URSARING
+	wildmon 78, RATTATA
 	wildmon 78, STEELIX
 	wildmon 79, PUPITAR
 	wildmon 80, TYRANITAR
@@ -1246,7 +1246,7 @@
 	wildmon 76, CROBAT
 	wildmon 76, ONIX
 	wildmon 74, GOLEM
-	wildmon 78, URSARING
+	wildmon 78, RATTATA
 	wildmon 78, STEELIX
 	wildmon 79, PUPITAR
 	wildmon 80, TYRANITAR
@@ -1295,7 +1295,7 @@
 	wildmon 2, ZUBAT
 	wildmon 2, GEODUDE
 	wildmon 4, GEODUDE
-	wildmon 2, TEDDIURSA
+	wildmon 2, RATTATA
 	wildmon 4, ZUBAT
 	wildmon 4, DUNSPARCE
 	; day
@@ -1322,15 +1322,15 @@
 	wildmon 23, GEODUDE
 	wildmon 23, ZUBAT
 	wildmon 25, GRAVELER
-	wildmon 25, URSARING
-	wildmon 20, TEDDIURSA
+	wildmon 25, RATTATA
+	wildmon 20, RATTATA
 	wildmon 23, GOLBAT
 	wildmon 23, DUNSPARCE
 	; day
 	wildmon 23, GEODUDE
 	wildmon 23, ZUBAT
 	wildmon 25, GRAVELER
-	wildmon 25, URSARING
+	wildmon 25, RATTATA
 	wildmon 25, GOLBAT
 	wildmon 23, GOLBAT
 	wildmon 23, DUNSPARCE
@@ -1742,16 +1742,16 @@
 	wildmon 33, GEODUDE
 	wildmon 35, GRAVELER
 	wildmon 34, RATTATA
-	wildmon 34, URSARING
+	wildmon 34, RATTATA
 	wildmon 34, RATTATA
 	wildmon 36, SKARMORY
 	wildmon 37, SKARMORY
 	; day
 	wildmon 33, GEODUDE
 	wildmon 35, GRAVELER
-	wildmon 34, URSARING
 	wildmon 34, RATTATA
-	wildmon 34, URSARING
+	wildmon 34, RATTATA
+	wildmon 34, RATTATA
 	wildmon 36, SKARMORY
 	wildmon 37, SKARMORY
 	; nite
@@ -1885,7 +1885,7 @@
 	wildmon 74, RAPIDASH
 	wildmon 73, RATTATA
 	wildmon 75, SKARMORY
-	wildmon 75, URSARING
+	wildmon 75, RATTATA
 	; day
 	wildmon 69, TANGELA
 	wildmon 70, PONYTA
@@ -1893,7 +1893,7 @@
 	wildmon 74, RAPIDASH
 	wildmon 73, RATTATA
 	wildmon 75, SKARMORY
-	wildmon 75, URSARING
+	wildmon 75, RATTATA
 	; nite
 	wildmon 69, TANGELA
 	wildmon 70, POLIWHIRL

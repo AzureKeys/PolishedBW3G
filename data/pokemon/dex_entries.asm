@@ -1336,26 +1336,6 @@ SneaselPokedexEntry::
 	next "waiting to attack"
 	next "its prey.@"
 
-SECTION "TeddiursaPokedexEntry", ROMX
-TeddiursaPokedexEntry::
-	db "Little Bear@"
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
-
-SECTION "UrsaringPokedexEntry", ROMX
-UrsaringPokedexEntry::
-	db "Hibernator@"
-	db   "Although it has a"
-	next "large body, it is"
-	next "quite skilled at"
-	page "climbing trees. It"
-	next "eats and sleeps in"
-	next "the treetops.@"
-
 SECTION "SwinubPokedexEntry", ROMX
 SwinubPokedexEntry::
 	db "Pig@"
@@ -1815,15 +1795,6 @@ KleavorPokedexEntry::
 	page "crude axes and"
 	next "shields itself"
 	next "with hard stone.@"
-
-SECTION "UrsalunaPokedexEntry", ROMX
-UrsalunaPokedexEntry::
-	db "Peat@"
-	db   "This #mon has a"
-	next "burly physique and"
-	next "a newfound capa-"
-	page "city to manipulate"
-	next "peat at will.@"
 
 SECTION "SneaslerPokedexEntry", ROMX
 SneaslerPokedexEntry::
@@ -3076,6 +3047,36 @@ DurantPokedexEntry::
 	next "tunnels as"
 	next "mazes.@"
 
+SECTION "DeinoPokedexEntry", ROMX
+DeinoPokedexEntry::
+	db "Irate@"
+	db "It tends to bite"
+	next "everything, and"
+	next "it is not a picky"
+	page "eater. Approaching"
+	next "it carelessly"
+	next "is dangerous.@"
+
+SECTION "ZweilousPokedexEntry", ROMX
+ZweilousPokedexEntry::
+	db "Hostile@"
+	db "Since their two"
+	next "heads do not get"
+	next "along and compete"
+	page "with each other"
+	next "for food, it eats"
+	next "too much.@"
+
+SECTION "HydreigonPokedexEntry", ROMX
+HydreigonPokedexEntry::
+	db "Brutal@"
+	db "The heads on its"
+	next "arms do not have"
+	next "brains. It uses"
+	page "all three heads"
+	next "to consume and"
+	next "destroy anything.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -3379,16 +3380,6 @@ SneaselHisuianPokedexEntry::
 	page "These claws drip"
 	next "venom that infil-"
 	next "trates its prey.@"
-
-SECTION "UrsalunaBloodmoonPokedexEntry", ROMX
-UrsalunaBloodmoonPokedexEntry::
-	db "Peat@"
-	db   "It can see in the"
-	next "dark with its left"
-	next "eye, and protects"
-	page "itself with mud"
-	next "that is as hard as"
-	next "iron.@"
 
 SECTION "BasculinRedPokedexEntry", ROMX
 BasculinRedPokedexEntry::

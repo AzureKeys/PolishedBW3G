@@ -133,8 +133,6 @@ AnimationPointers:
 	dw ShuckleAnimation
 	dw HeracrossAnimation
 	dw SneaselPlainAnimation
-	dw TeddiursaAnimation
-	dw UrsaringAnimation
 	dw SwinubAnimation
 	dw PiloswineAnimation
 	dw CorsolaPlainAnimation
@@ -181,7 +179,6 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw MrRimeAnimation
 	dw KleavorAnimation
-	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
 	dw DudunsparceTwoSegmentAnimation
 	dw AnnihilapeAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw ArcheopsAnimation
 	dw TrubbishAnimation
 	dw GarbodorAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
 	dw GothitaAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw GothoritaAnimation
 	dw GothitelleAnimation
 	dw SolosisAnimation
@@ -311,6 +308,9 @@ AnimationPointers:
 	dw MandibuzzAnimation
 	dw HeatmorAnimation
 	dw DurantAnimation
+	dw DeinoAnimation
+	dw ZweilousAnimation
+	dw HydreigonAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
@@ -412,8 +412,6 @@ AnimationPointers:
 	dw ArcanineHisuianAnimation
 	dw TyphlosionHisuianAnimation
 	dw SneaselHisuianAnimation
-
-	dw UrsalunaBloodmoonAnimation
 	
 	dw UnfezantFemaleAnimation
 

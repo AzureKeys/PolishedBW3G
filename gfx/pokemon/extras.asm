@@ -98,8 +98,6 @@ GranbullAnimationExtra:   INCLUDE "gfx/pokemon/granbull/anim_idle.asm"
 ScizorAnimationExtra:     INCLUDE "gfx/pokemon/scizor/anim_idle.asm"
 ShuckleAnimationExtra:    INCLUDE "gfx/pokemon/shuckle/anim_idle.asm"
 HeracrossAnimationExtra:  INCLUDE "gfx/pokemon/heracross/anim_idle.asm"
-TeddiursaAnimationExtra:  INCLUDE "gfx/pokemon/teddiursa/anim_idle.asm"
-UrsaringAnimationExtra:   INCLUDE "gfx/pokemon/ursaring/anim_idle.asm"
 SwinubAnimationExtra:     INCLUDE "gfx/pokemon/swinub/anim_idle.asm"
 PiloswineAnimationExtra:  INCLUDE "gfx/pokemon/piloswine/anim_idle.asm"
 RemoraidAnimationExtra:   INCLUDE "gfx/pokemon/remoraid/anim_idle.asm"
@@ -256,6 +254,9 @@ VullabyAnimationExtra:    INCLUDE "gfx/pokemon/vullaby/anim_idle.asm"
 MandibuzzAnimationExtra:  INCLUDE "gfx/pokemon/mandibuzz/anim_idle.asm"
 HeatmorAnimationExtra:    INCLUDE "gfx/pokemon/heatmor/anim_idle.asm"
 DurantAnimationExtra:     INCLUDE "gfx/pokemon/durant/anim_idle.asm"
+DeinoAnimationExtra:      INCLUDE "gfx/pokemon/deino/anim_idle.asm"
+ZweilousAnimationExtra:   INCLUDE "gfx/pokemon/zweilous/anim_idle.asm"
+HydreigonAnimationExtra:  INCLUDE "gfx/pokemon/hydreigon/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -415,9 +416,6 @@ TyphlosionHisuianAnimationExtra: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim_id
 
 SneaselPlainAnimationExtra:   INCLUDE "gfx/pokemon/sneasel_plain/anim_idle.asm"
 SneaselHisuianAnimationExtra: INCLUDE "gfx/pokemon/sneasel_hisuian/anim_idle.asm"
-
-UrsalunaPlainAnimationExtra:     INCLUDE "gfx/pokemon/ursaluna_plain/anim_idle.asm"
-UrsalunaBloodmoonAnimationExtra: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim_idle.asm"
 
 UnfezantMaleAnimationExtra:   INCLUDE "gfx/pokemon/unfezant_male/anim_idle.asm"
 UnfezantFemaleAnimationExtra: INCLUDE "gfx/pokemon/unfezant_female/anim_idle.asm"

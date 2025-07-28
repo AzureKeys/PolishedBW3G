@@ -444,14 +444,6 @@ SECTION "Heracross Pics", ROMX
 HeracrossFrontpic: INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"
 HeracrossBackpic:  INCBIN "gfx/pokemon/heracross/back.2bpp.lz"
 
-SECTION "Teddiursa Pics", ROMX
-TeddiursaFrontpic: INCBIN "gfx/pokemon/teddiursa/front.animated.2bpp.lz"
-TeddiursaBackpic:  INCBIN "gfx/pokemon/teddiursa/back.2bpp.lz"
-
-SECTION "Ursaring Pics", ROMX
-UrsaringFrontpic: INCBIN "gfx/pokemon/ursaring/front.animated.2bpp.lz"
-UrsaringBackpic:  INCBIN "gfx/pokemon/ursaring/back.2bpp.lz"
-
 SECTION "Swinub Pics", ROMX
 SwinubFrontpic: INCBIN "gfx/pokemon/swinub/front.animated.2bpp.lz"
 SwinubBackpic:  INCBIN "gfx/pokemon/swinub/back.2bpp.lz"
@@ -583,14 +575,6 @@ SylveonBackpic:  INCBIN "gfx/pokemon/sylveon/back.2bpp.lz"
 SECTION "Kleavor Pics", ROMX
 KleavorFrontpic: INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"
 KleavorBackpic:  INCBIN "gfx/pokemon/kleavor/back.2bpp.lz"
-
-SECTION "UrsalunaPlain Pics", ROMX
-UrsalunaPlainFrontpic: INCBIN "gfx/pokemon/ursaluna_plain/front.animated.2bpp.lz"
-UrsalunaPlainBackpic:  INCBIN "gfx/pokemon/ursaluna_plain/back.2bpp.lz"
-
-SECTION "UrsalunaBloodmoon Pics", ROMX
-UrsalunaBloodmoonFrontpic: INCBIN "gfx/pokemon/ursaluna_bloodmoon/front.animated.2bpp.lz"
-UrsalunaBloodmoonBackpic:  INCBIN "gfx/pokemon/ursaluna_bloodmoon/back.2bpp.lz"
 
 SECTION "EggPic", ROMX
 EggPic: INCBIN "gfx/pokemon/egg/front.animated.2bpp.lz"
@@ -1584,3 +1568,15 @@ HeatmorBackpic:  INCBIN "gfx/pokemon/heatmor/back.2bpp.lz"
 SECTION "Durant Pics", ROMX
 DurantFrontpic: INCBIN "gfx/pokemon/durant/front.animated.2bpp.lz"
 DurantBackpic:  INCBIN "gfx/pokemon/durant/back.2bpp.lz"
+
+SECTION "Deino Pics", ROMX
+DeinoFrontpic: INCBIN "gfx/pokemon/deino/front.animated.2bpp.lz"
+DeinoBackpic:  INCBIN "gfx/pokemon/deino/back.2bpp.lz"
+
+SECTION "Zweilous Pics", ROMX
+ZweilousFrontpic: INCBIN "gfx/pokemon/zweilous/front.animated.2bpp.lz"
+ZweilousBackpic:  INCBIN "gfx/pokemon/zweilous/back.2bpp.lz"
+
+SECTION "Hydreigon Pics", ROMX
+HydreigonFrontpic: INCBIN "gfx/pokemon/hydreigon/front.animated.2bpp.lz"
+HydreigonBackpic:  INCBIN "gfx/pokemon/hydreigon/back.2bpp.lz"

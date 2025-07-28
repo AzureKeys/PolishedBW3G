@@ -133,8 +133,6 @@ FootprintPointers::
 	dw ShuckleFootprint
 	dw HeracrossFootprint
 	dw SneaselFootprint
-	dw TeddiursaFootprint
-	dw UrsaringFootprint
 	dw SwinubFootprint
 	dw PiloswineFootprint
 	dw CorsolaFootprint
@@ -181,7 +179,6 @@ FootprintPointers::
 	dw CursolaFootprint
 	dw MrRimeFootprint
 	dw KleavorFootprint
-	dw UrsalunaFootprint
 	dw SneaslerFootprint
 	dw DudunsparceFootprint
 	dw AnnihilapeFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
 	dw GarbodorFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
 	dw GothitaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw GothoritaFootprint
 	dw GothitelleFootprint
 	dw SolosisFootprint
@@ -311,6 +308,9 @@ FootprintPointers::
 	dw MandibuzzFootprint
 	dw HeatmorFootprint
 	dw DurantFootprint
+	dw DeinoFootprint
+	dw ZweilousFootprint
+	dw HydreigonFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -349,8 +349,6 @@ FootprintPointers::
 	dw ArcanineFootprint
 	dw TyphlosionFootprint
 	dw SneaselFootprint
-
-	dw UrsalunaFootprint
 	
 	dw UnfezantFootprint
 

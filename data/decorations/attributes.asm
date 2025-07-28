@@ -63,7 +63,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,     GEODUDE,           SET_UP_DOLL,        EVENT_DECO_GEODUDE_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     RATTATA,           SET_UP_DOLL,        EVENT_DECO_PINECO_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MARILL,            SET_UP_DOLL,        EVENT_DECO_MARILL_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     TEDDIURSA,         SET_UP_DOLL,        EVENT_DECO_TEDDIURSA_DOLL,          SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     RATTATA,           SET_UP_DOLL,        EVENT_DECO_TEDDIURSA_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MEOWTH,            SET_UP_DOLL,        EVENT_DECO_MEOWTH_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     VULPIX,            SET_UP_DOLL,        EVENT_DECO_VULPIX_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     GROWLITHE,         SET_UP_DOLL,        EVENT_DECO_GROWLITHE_DOLL,          SPRITE_MON_DOLL_1

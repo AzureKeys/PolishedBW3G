@@ -135,6 +135,9 @@ VullabyFootprint::
 MandibuzzFootprint::
 HeatmorFootprint::
 DurantFootprint::
+DeinoFootprint::
+ZweilousFootprint::
+HydreigonFootprint::
 ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
@@ -274,8 +277,6 @@ ScizorFootprint:: INCBIN "gfx/footprints/scizor.1bpp.lz"
 ShuckleFootprint:: INCBIN "gfx/footprints/shuckle.1bpp.lz"
 HeracrossFootprint:: INCBIN "gfx/footprints/heracross.1bpp.lz"
 SneaselFootprint:: INCBIN "gfx/footprints/sneasel.1bpp.lz"
-TeddiursaFootprint:: INCBIN "gfx/footprints/teddiursa.1bpp.lz"
-UrsaringFootprint:: INCBIN "gfx/footprints/ursaring.1bpp.lz"
 SwinubFootprint:: INCBIN "gfx/footprints/swinub.1bpp.lz"
 PiloswineFootprint:: INCBIN "gfx/footprints/piloswine.1bpp.lz"
 OctilleryFootprint:: INCBIN "gfx/footprints/octillery.1bpp.lz"
@@ -312,6 +313,5 @@ SylveonFootprint:: INCBIN "gfx/footprints/sylveon.1bpp.lz"
 PerrserkerFootprint:: INCBIN "gfx/footprints/perrserker.1bpp.lz"
 MrRimeFootprint:: INCBIN "gfx/footprints/mr__rime.1bpp.lz"
 KleavorFootprint:: INCBIN "gfx/footprints/kleavor.1bpp.lz"
-UrsalunaFootprint:: INCBIN "gfx/footprints/ursaluna.1bpp.lz"
 SneaslerFootprint:: INCBIN "gfx/footprints/sneasler.1bpp.lz"
 AnnihilapeFootprint:: INCBIN "gfx/footprints/annihilape.1bpp.lz"

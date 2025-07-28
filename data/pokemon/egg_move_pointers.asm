@@ -133,8 +133,6 @@ EggSpeciesMovesPointers::
 	dw ShuckleEggSpeciesMoves           ; Shuckle
 	dw HeracrossEggSpeciesMoves         ; Heracross
 	dw SneaselEggSpeciesMoves           ; Sneasel
-	dw TeddiursaEggSpeciesMoves         ; Teddiursa
-	dw TeddiursaEggSpeciesMoves         ; Ursaring
 	dw SwinubEggSpeciesMoves            ; Swinub
 	dw SwinubEggSpeciesMoves            ; Piloswine
 	dw CorsolaPlainEggSpeciesMoves      ; Corsola
@@ -181,7 +179,6 @@ EggSpeciesMovesPointers::
 	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
 	dw ScytherEggSpeciesMoves           ; Kleavor
-	dw TeddiursaEggSpeciesMoves         ; Ursaluna
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	dw MankeyEggSpeciesMoves            ; Annihilape
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw GothitaEggSpeciesMoves           ; Gothita
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis
@@ -311,6 +308,9 @@ EggSpeciesMovesPointers::
 	dw VullabyEggSpeciesMoves           ; Mandibuzz
 	dw HeatmorEggSpeciesMoves           ; Heatmor
 	dw DurantEggSpeciesMoves            ; Durant
+	dw DeinoEggSpeciesMoves             ; Deino
+	dw DeinoEggSpeciesMoves             ; Zweilous
+	dw DeinoEggSpeciesMoves             ; Hydreigon
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -349,8 +349,6 @@ EggSpeciesMovesPointers::
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
 	dw CyndaquilEggSpeciesMoves         ; Typhlosion (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
-
-	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
 	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
 

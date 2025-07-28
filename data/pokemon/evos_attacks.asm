@@ -2883,47 +2883,6 @@ endc
 	learnset 47, CLOSE_COMBAT
 	learnset 50, GUNK_SHOT ; SV TM move
 
-	evos_attacks Teddiursa
-	evo_data EVOLVE_LEVEL, 30, URSARING
-	learnset 1, THIEF ; Covet → TM move
-	learnset 1, SCRATCH
-	learnset 1, GROWL ; Baby-Doll Eyes → similar move
-	learnset 1, LICK
-	learnset 1, FOCUS_ENERGY ; Fake Tears → egg move
-	learnset 8, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 15, FEINT_ATTACK
-	learnset 22, BELLY_DRUM ; Sweet Scent → egg move
-	learnset 25, PLAY_ROUGH ; Play Nice → egg move
-	learnset 29, SLASH
-	learnset 36, CHARM
-	learnset 43, REST
-	learnset 43, CRUNCH ; Snore → egg move
-	learnset 50, THRASH
-	learnset 57, CLOSE_COMBAT ; Fling → new move
-	learnset 64, DOUBLE_EDGE ; new move
-
-	evos_attacks Ursaring
-	evo_data EVOLVE_ITEM, MOON_STONE, URSALUNA
-	evo_data EVOLVE_LOCATION, SINJOH_RUINS, URSALUNA
-	evo_data EVOLVE_LOCATION, MYSTRI_STAGE, URSALUNA
-	learnset 1, GUNK_SHOT ; HGSS tutor move
-	learnset 1, THIEF ; Covet → TM move
-	learnset 1, SCRATCH
-	learnset 1, LEER
-	learnset 1, LICK
-	learnset 1, FOCUS_ENERGY ; Fake Tears → egg move
-	learnset 8, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 15, FEINT_ATTACK
-	learnset 22, BELLY_DRUM ; Sweet Scent → egg move
-	learnset 25, PLAY_ROUGH ; Play Nice → egg move
-	learnset 29, SLASH
-	learnset 38, SCARY_FACE
-	learnset 47, REST
-	learnset 49, CRUNCH ; Snore → egg move
-	learnset 58, THRASH
-	learnset 67, CLOSE_COMBAT ; Hammer Arm → new move
-	learnset 76, DOUBLE_EDGE ; new move
-
 	evos_attacks Swinub
 	evo_data EVOLVE_LEVEL, 33, PILOSWINE
 	learnset 1, TACKLE
@@ -3764,48 +3723,6 @@ endc
 	learnset 49, CLOSE_COMBAT ; Double Hit → SV TM move
 	learnset 50, STONE_EDGE ; Stone Axe → new move
 	learnset 57, SWORDS_DANCE
-
-	evos_attacks UrsalunaPlain
-	learnset 1, BULLDOZE ; evolution move
-	learnset 1, GUNK_SHOT ; HGSS tutor move
-	learnset 1, THIEF ; Covet → TM move
-	learnset 1, SCRATCH
-	learnset 1, LEER
-	learnset 1, LICK
-	learnset 1, FOCUS_ENERGY ; Fake Tears → egg move
-	learnset 8, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 15, FEINT_ATTACK
-	learnset 22, BELLY_DRUM ; Sweet Scent → egg move
-	learnset 25, PLAY_ROUGH ; Play Nice → egg move
-	learnset 29, SLASH
-	learnset 38, SCARY_FACE
-	learnset 47, REST
-	learnset 49, EARTHQUAKE ; High Horsepower → TM move
-	learnset 58, THRASH
-	learnset 67, CLOSE_COMBAT ; Hammer Arm → SV TM move
-	learnset 76, DOUBLE_EDGE ; new move
-	learnset 85, GUNK_SHOT ; SV TM move
-
-	evos_attacks UrsalunaBloodmoon
-	learnset 1, BULLDOZE ; evolution move
-	learnset 1, GUNK_SHOT ; HGSS tutor move
-	learnset 1, THIEF ; Covet → TM move
-	learnset 1, SCRATCH
-	learnset 1, LEER
-	learnset 1, LICK
-	learnset 1, HEALINGLIGHT ; Moonlight → similar move
-	learnset 8, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 15, FEINT_ATTACK
-	learnset 22, DEFENSE_CURL ; Harden → similar move
-	learnset 25, SHADOW_BALL ; new move
-	learnset 29, SLASH
-	learnset 38, SCARY_FACE
-	learnset 47, REST
-	learnset 49, EARTH_POWER
-	learnset 58, MOONBLAST
-	learnset 67, FOCUS_BLAST ; Hammer Arm → SV TM move
-	learnset 76, HYPER_BEAM ; Blood Moon → SV TM move
-	learnset 85, GUNK_SHOT ; SV TM move
 
 	evos_attacks Sneasler
 	learnset 1, SCRATCH
@@ -6156,6 +6073,68 @@ endc
 	learnset 46, BARRIER ; Iron Defense
 	;learnset 51, GUILLOTINE
 	learnset 56, SCREECH ; Metal Sound
+	
+	evos_attacks Deino
+	evo_data EVOLVE_LEVEL, 50, ZWEILOUS
+	learnset 1, TACKLE
+	learnset 1, DRAGON_RAGE
+	learnset 4, FOCUS_ENERGY
+	learnset 9, BITE
+	learnset 12, HEADBUTT
+	learnset 17, DRAGONBREATH
+	learnset 20, ROAR
+	learnset 25, CRUNCH
+	learnset 28, BODY_SLAM ; Slam
+	learnset 32, DRAGON_PULSE
+	learnset 38, HONE_CLAWS ; Work Up
+	learnset 42, DRAGON_CLAW ; Dragon Rush
+	learnset 48, DARK_PULSE ; Body Slam
+	learnset 50, SCARY_FACE
+	learnset 58, HYPER_VOICE
+	learnset 62, OUTRAGE
+	
+	evos_attacks Zweilous
+	evo_data EVOLVE_LEVEL, 64, HYDREIGON
+	learnset 1, TACKLE
+	learnset 1, DRAGON_RAGE
+	learnset 4, FOCUS_ENERGY
+	learnset 9, BITE
+	learnset 12, HEADBUTT
+	learnset 17, DRAGONBREATH
+	learnset 20, ROAR
+	learnset 25, CRUNCH
+	learnset 28, BODY_SLAM ; Slam
+	learnset 32, DRAGON_PULSE
+	learnset 38, HONE_CLAWS ; Work Up
+	learnset 42, DRAGON_CLAW ; Dragon Rush
+	learnset 48, DARK_PULSE ; Body Slam
+	learnset 50, SCARY_FACE
+	learnset 64, HYPER_VOICE
+	learnset 71, OUTRAGE
+	
+	evos_attacks Hydreigon
+	learnset 1, OUTRAGE
+	learnset 1, HYPER_VOICE
+	learnset 1, TRI_ATTACK
+	learnset 1, TACKLE
+	learnset 1, DRAGON_RAGE
+	learnset 1, FOCUS_ENERGY
+	learnset 1, BITE
+	learnset 4, FOCUS_ENERGY
+	learnset 9, BITE
+	learnset 12, HEADBUTT
+	learnset 17, DRAGONBREATH
+	learnset 20, ROAR
+	learnset 25, CRUNCH
+	learnset 28, BODY_SLAM ; Slam
+	learnset 32, DRAGON_PULSE
+	learnset 38, HONE_CLAWS ; Work Up
+	learnset 42, DRAGON_CLAW ; Dragon Rush
+	learnset 48, DARK_PULSE ; Body Slam
+	learnset 50, SCARY_FACE
+	learnset 63, TRI_ATTACK
+	learnset 64, HYPER_VOICE
+	learnset 79, OUTRAGE
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

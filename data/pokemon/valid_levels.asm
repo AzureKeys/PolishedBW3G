@@ -138,8 +138,6 @@ endc
 	db   1, 100 ; Shuckle
 	db  10, 100 ; Heracross
 	db   1,  39 ; Sneasel
-	db   1,  29 ; Teddiursa
-	db  30,  49 ; Ursaring
 	db   1,  32 ; Swinub
 	db  33,  44 ; Piloswine
 	db   1, 100 ; Corsola
@@ -186,7 +184,6 @@ endc
 	db  38, 100 ; Cursola
 	db  42, 100 ; Mr. Rime
 	db  20, 100 ; Kleavor
-	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
 	db  32, 100 ; Dudunsparce
 	db  56, 100 ; Annihilape
@@ -259,11 +256,11 @@ endc
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
 	db   1,  31 ; Gothita
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle
 	db   1,  31 ; Solosis
@@ -316,4 +313,7 @@ endc
 	db  54, 100 ; Mandibuzz
 	db  30, 100 ; Heatmor
 	db  30, 100 ; Durant
+	db   1,  49 ; Deino
+	db  50,  63 ; Zweilous
+	db  64, 100 ; Hydreigon
 	assert_table_length NUM_SPECIES

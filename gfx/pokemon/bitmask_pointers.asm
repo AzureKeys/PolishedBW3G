@@ -133,8 +133,6 @@ BitmasksPointers:
 	dw ShuckleBitmasks
 	dw HeracrossBitmasks
 	dw SneaselPlainBitmasks
-	dw TeddiursaBitmasks
-	dw UrsaringBitmasks
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
 	dw CorsolaPlainBitmasks
@@ -181,7 +179,6 @@ BitmasksPointers:
 	dw CursolaBitmasks
 	dw MrRimeBitmasks
 	dw KleavorBitmasks
-	dw UrsalunaPlainBitmasks
 	dw SneaslerBitmasks
 	dw DudunsparceTwoSegmentBitmasks
 	dw AnnihilapeBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw ArcheopsBitmasks
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
 	dw GothitaBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
 	dw SolosisBitmasks
@@ -311,6 +308,9 @@ BitmasksPointers:
 	dw MandibuzzBitmasks
 	dw HeatmorBitmasks
 	dw DurantBitmasks
+	dw DeinoBitmasks
+	dw ZweilousBitmasks
+	dw HydreigonBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -412,8 +412,6 @@ BitmasksPointers:
 	dw ArcanineHisuianBitmasks
 	dw TyphlosionHisuianBitmasks
 	dw SneaselHisuianBitmasks
-
-	dw UrsalunaBloodmoonBitmasks
 	
 	dw UnfezantFemaleBitmasks
 

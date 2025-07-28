@@ -156,7 +156,7 @@ WhitneyGroup:
 	tr_mon 19, CLEFAIRY, FEMALE
 		tr_evs 96 HP
 		tr_moves METRONOME, DISARM_VOICE, DOUBLE_SLAP, ATTRACT
-	tr_mon 20, TEDDIURSA, FEMALE
+	tr_mon 20, RATTATA, FEMALE
 		tr_evs 32 HP, 32 Atk, 32 Spe
 		tr_moves SCRATCH, ATTRACT, LICK, FEINT_ATTACK
 	tr_mon 19, MUNCHLAX, FEMALE
@@ -173,7 +173,7 @@ WhitneyGroup:
 		tr_moves REFLECT, LIGHT_SCREEN, DOUBLE_EDGE, ZEN_HEADBUTT
 	tr_mon 72, CLEFABLE @ PINK_BOW, FEMALE
 		tr_moves CALM_MIND, MOONBLAST, FRESH_SNACK, THUNDER_WAVE
-	tr_mon 70, URSARING @ BLACK_BELT, FEMALE
+	tr_mon 70, RATTATA @ BLACK_BELT, FEMALE
 		tr_moves SWORDS_DANCE, CROSS_CHOP, CRUNCH, PLAY_ROUGH
 	tr_mon 72, WIGGLYTUFF @ LEFTOVERS, FEMALE
 		tr_moves FOCUS_BLAST, HYPER_VOICE, DAZZLINGLEAM, ICE_BEAM
@@ -2131,13 +2131,13 @@ TwinsGroup:
 	end_trainer
 
 	def_trainer MEGANDPEG1, "Meg & Peg"
-	tr_mon 45, TEDDIURSA
+	tr_mon 45, RATTATA
 	tr_mon 45, RATTATA
 	end_trainer
 
 	def_trainer MEGANDPEG2, "Meg & Peg"
 	tr_mon 45, RATTATA
-	tr_mon 45, TEDDIURSA
+	tr_mon 45, RATTATA
 	end_trainer
 
 	def_trainer LEAANDPIA1, "Lea & Pia"
@@ -3065,7 +3065,7 @@ PokefanMGroup:
 	end_trainer
 
 	def_trainer ALLAN, "Allan"
-	tr_mon 53, TEDDIURSA @ SITRUS_BERRY
+	tr_mon 53, RATTATA @ SITRUS_BERRY
 	end_trainer
 
 
@@ -4038,7 +4038,7 @@ SchoolgirlGroup:
 
 	def_trainer_class SCHOOLGIRL
 	def_trainer MOLLY, "Molly"
-	tr_mon 7, "Teddy", TEDDIURSA
+	tr_mon 7, "Teddy", RATTATA
 	tr_mon 6, RATTATA
 	end_trainer
 
@@ -4405,13 +4405,13 @@ SrAndJrGroup:
 
 	def_trainer_class SR_AND_JR
 	def_trainer JOANDCATH1, "Jo & Cath"
-	tr_mon 18, TEDDIURSA
+	tr_mon 18, RATTATA
 	tr_mon 16, JIGGLYPUFF
 	end_trainer
 
 	def_trainer JOANDCATH2, "Jo & Cath"
 	tr_mon 16, JIGGLYPUFF
-	tr_mon 18, TEDDIURSA
+	tr_mon 18, RATTATA
 	end_trainer
 
 	def_trainer IVYANDAMY1, "Ivy & Amy"
@@ -4676,8 +4676,8 @@ endc
 	end_trainer
 
 	def_trainer OLGA, "Olga"
-	tr_mon 50, TEDDIURSA
-	tr_mon 55, URSARING
+	tr_mon 50, RATTATA
+	tr_mon 55, RATTATA
 	tr_mon 53, RATTATA
 	end_trainer
 
@@ -5444,13 +5444,13 @@ BattleGirlGroup:
 
 	def_trainer DIANE, "Diane"
 	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, URSARING
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	end_trainer
 
 	def_trainer KAGAMI, "Kagami"
 	tr_mon LEVEL_FROM_BADGES + 5, PRIMEAPE
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 7, URSARING
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
 	end_trainer
 
 	def_trainer NOZOMI, "Nozomi"
@@ -5462,7 +5462,7 @@ BattleGirlGroup:
 	def_trainer RONDA, "Ronda"
 	tr_mon 37, RATTATA
 	tr_mon 39, RATTATA
-	tr_mon 38, URSARING
+	tr_mon 38, RATTATA
 	end_trainer
 
 	def_trainer PADMA, "Padma"
@@ -5476,8 +5476,8 @@ BattleGirlGroup:
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_moves CROSS_CHOP, GUNK_SHOT, BULK_UP, NIGHT_SLASH
-	tr_mon LEVEL_FROM_BADGES + 10, URSARING @ PROTECT_PADS, MALE
-		tr_extra UNNERVE, ATK_UP_SATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 10, RATTATA @ PROTECT_PADS, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_moves PLAY_ROUGH, SLASH, BELLY_DRUM, NIGHT_SLASH
 	end_trainer
@@ -5790,7 +5790,7 @@ BikerGroup:
 	end_trainer
 
 	def_trainer AIDEN, "Aiden"
-	tr_mon 55, URSARING
+	tr_mon 55, RATTATA
 	tr_mon 55, AZUMARILL
 	end_trainer
 
@@ -5840,7 +5840,7 @@ TamerGroup:
 	def_trainer BRETT, "Brett"
 	tr_mon LEVEL_FROM_BADGES + 8, ARBOK
 	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, URSARING
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
 
 	def_trainer VINCE, "Vince"
@@ -5850,7 +5850,7 @@ TamerGroup:
 
 	def_trainer OSWALD, "Oswald"
 	tr_mon 60, RATTATA
-	tr_mon 62, URSARING
+	tr_mon 62, RATTATA
 	tr_mon 61, KANGASKHAN
 	end_trainer
 
@@ -6503,7 +6503,7 @@ VeteranMGroup:
 		tr_moves SCARY_FACE, METAL_CLAW, CRUNCH, WATERFALL
 	tr_mon 40, AMPHAROS @ MAGNET
 		tr_moves THUNDER_WAVE, CONFUSE_RAY, DRAGON_PULSE, THUNDERBOLT
-	tr_mon 38, URSARING @ LEFTOVERS
+	tr_mon 38, RATTATA @ LEFTOVERS
 		tr_moves BELLY_DRUM, PLAY_ROUGH, SLASH, STRENGTH
 	tr_mon 38, RATTATA @ QUICK_CLAW
 		tr_moves REFLECT, PSYCHIC_M, SHADOW_BALL, AIR_SLASH
@@ -7138,7 +7138,7 @@ if DEF(FAITHFUL)
 else
 		tr_moves PROTECT, BUG_BUZZ, ANCIENTPOWER, DRAGON_PULSE
 endc
-	tr_mon 62, URSALUNA @ LEFTOVERS
+	tr_mon 62, RATTATA @ LEFTOVERS
 		tr_moves EARTHQUAKE, SHADOW_CLAW, PLAY_ROUGH, GIGA_IMPACT
 	tr_mon 61, GLISCOR @ KINGS_ROCK
 		tr_moves SWORDS_DANCE, NIGHT_SLASH, X_SCISSOR, SCREECH
@@ -7648,7 +7648,7 @@ KatyGroup:
 	tr_mon 56, SHUCKLE
 	tr_mon 56, KLEAVOR
 	tr_mon 54, HERACROSS
-	tr_mon 57, URSARING
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer 2, "Katy"
@@ -7657,7 +7657,7 @@ KatyGroup:
 	tr_mon 74, SHUCKLE
 	tr_mon 74, KLEAVOR
 	tr_mon 72, HERACROSS
-	tr_mon 75, URSALUNA
+	tr_mon 75, RATTATA
 	end_trainer
 
 

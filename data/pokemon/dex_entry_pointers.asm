@@ -134,8 +134,6 @@ PokedexDataPointerTable:
 	dba ShucklePokedexEntry
 	dba HeracrossPokedexEntry
 	dba SneaselPokedexEntry
-	dba TeddiursaPokedexEntry
-	dba UrsaringPokedexEntry
 	dba SwinubPokedexEntry
 	dba PiloswinePokedexEntry
 	dba CorsolaPlainPokedexEntry
@@ -182,7 +180,6 @@ PokedexDataPointerTable:
 	dba CursolaPokedexEntry
 	dba MrRimePokedexEntry
 	dba KleavorPokedexEntry
-	dba UrsalunaPokedexEntry
 	dba SneaslerPokedexEntry
 	dba DudunsparcePokedexEntry
 	dba AnnihilapePokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
 	dba GothitaPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry
@@ -312,6 +309,9 @@ PokedexDataPointerTable:
 	dba MandibuzzPokedexEntry
 	dba HeatmorPokedexEntry
 	dba DurantPokedexEntry
+	dba DeinoPokedexEntry
+	dba ZweilousPokedexEntry
+	dba HydreigonPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -350,8 +350,6 @@ PokedexDataPointerTable:
 	dba ArcanineHisuianPokedexEntry
 	dba TyphlosionHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
-
-	dba UrsalunaBloodmoonPokedexEntry
 	
 	dba UnfezantPokedexEntry
 

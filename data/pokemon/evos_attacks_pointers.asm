@@ -137,8 +137,6 @@ EvosAttacksPointers::
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselPlainEvosAttacks
-	dw TeddiursaEvosAttacks
-	dw UrsaringEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaPlainEvosAttacks
@@ -185,7 +183,6 @@ EvosAttacksPointers::
 	dw CursolaEvosAttacks
 	dw MrRimeEvosAttacks
 	dw KleavorEvosAttacks
-	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw AnnihilapeEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
 	dw GothitaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks
@@ -315,6 +312,9 @@ EvosAttacksPointers::
 	dw MandibuzzEvosAttacks
 	dw HeatmorEvosAttacks
 	dw DurantEvosAttacks
+	dw DeinoEvosAttacks
+	dw ZweilousEvosAttacks
+	dw HydreigonEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -353,8 +353,6 @@ EvosAttacksPointers::
 	dw ArcanineHisuianEvosAttacks
 	dw TyphlosionHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks
-
-	dw UrsalunaBloodmoonEvosAttacks
 	
 	dw UnfezantEvosAttacks
 
