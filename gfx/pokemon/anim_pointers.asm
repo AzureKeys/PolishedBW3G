@@ -199,6 +199,8 @@ AnimationPointers:
 	dw SimisageAnimation
 	dw PansearAnimation
 	dw SimisearAnimation
+	dw PanpourAnimation
+	dw SimipourAnimation
 	dw MunnaAnimation
 	dw MusharnaAnimation
 	dw PidoveAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw ArcheopsAnimation
 	dw TrubbishAnimation
 	dw GarbodorAnimation
-	dw ZoruaPlainAnimation
-	dw ZoroarkPlainAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ZoruaPlainAnimation
+	dw ZoroarkPlainAnimation
 	dw GothitaAnimation
 	dw GothoritaAnimation
 	dw GothitelleAnimation

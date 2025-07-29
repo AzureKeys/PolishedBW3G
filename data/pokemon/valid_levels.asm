@@ -204,6 +204,8 @@ endc
 	db  25, 100 ; Simisage
 	db   1,  24 ; Pansear
 	db  25, 100 ; Simisear
+	db   1,  24 ; Panpour
+	db  25, 100 ; Simipour
 	db   1,  19 ; Munna
 	db  20, 100 ; Musharna
 	db   1,  20 ; Pidove
@@ -257,10 +259,10 @@ endc
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
-	db   1,  29 ; Zorua
-	db  30, 100 ; Zoroark
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  29 ; Zorua
+	db  30, 100 ; Zoroark
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle

@@ -192,6 +192,7 @@ AlphabeticalPokedexOrder:
 	dp ONIX
 	dp OSHAWOTT
 	dp PALPITOAD
+	dp PANPOUR
 	dp PANSAGE
 	dp PANSEAR
 	dp PARAS
@@ -245,6 +246,7 @@ AlphabeticalPokedexOrder:
 	dp SHELMET
 	dp SHUCKLE
 	dp SIGILYPH
+	dp SIMIPOUR
 	dp SIMISAGE
 	dp SIMISEAR
 	dp SKARMORY

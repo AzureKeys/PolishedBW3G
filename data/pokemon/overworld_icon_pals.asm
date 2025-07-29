@@ -203,6 +203,8 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; SIMISAGE
 	iconpal RED, ORANGE ; PANSEAR
 	iconpal RED, ORANGE ; SIMISEAR
+	iconpal AZURE, TEAL ; PANPOUR
+	iconpal AZURE, BLUE ; SIMIPOUR
 	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA
 	iconpal GRAY, BLUE ; PIDOVE
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
-	iconpal GRAY, AZURE ; ZORUA
-	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal GRAY, AZURE ; ZORUA
+	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE

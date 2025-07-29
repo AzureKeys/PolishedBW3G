@@ -22,6 +22,8 @@ NewPokedexOrder:
 	dp SIMISAGE
 	dp PANSEAR
 	dp SIMISEAR
+	dp PANPOUR
+	dp SIMIPOUR
 	dp MUNNA
 	dp MUSHARNA
 	dp PIDOVE

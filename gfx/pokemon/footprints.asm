@@ -31,6 +31,8 @@ PansageFootprint::
 SimisageFootprint::
 PansearFootprint::
 SimisearFootprint::
+PanpourFootprint::
+SimipourFootprint::
 MunnaFootprint::
 MusharnaFootprint::
 PidoveFootprint::

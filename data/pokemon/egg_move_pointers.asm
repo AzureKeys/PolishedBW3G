@@ -199,6 +199,8 @@ EggSpeciesMovesPointers::
 	dw PansageEggSpeciesMoves           ; Simisage
 	dw PansearEggSpeciesMoves           ; Pansear
 	dw PansearEggSpeciesMoves           ; Simisear
+	dw PanpourEggSpeciesMoves           ; Panpour
+	dw PanpourEggSpeciesMoves           ; Simipour
 	dw MunnaEggSpeciesMoves             ; Munna
 	dw MunnaEggSpeciesMoves             ; Musharna
 	dw PidoveEggSpeciesMoves            ; Pidove
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
-	dw ZoruaPlainEggSpeciesMoves        ; Zorua
-	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw ZoruaPlainEggSpeciesMoves        ; Zorua
+	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle

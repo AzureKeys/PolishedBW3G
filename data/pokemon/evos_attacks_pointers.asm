@@ -203,6 +203,8 @@ EvosAttacksPointers::
 	dw SimisageEvosAttacks
 	dw PansearEvosAttacks
 	dw SimisearEvosAttacks
+	dw PanpourEvosAttacks
+	dw SimipourEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks
 	dw PidoveEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
-	dw ZoruaPlainEvosAttacks
-	dw ZoroarkPlainEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw ZoruaPlainEvosAttacks
+	dw ZoroarkPlainEvosAttacks
 	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks

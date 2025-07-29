@@ -205,6 +205,8 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SIMISAGE*
 	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; PANSAGE*
 	mon_cry CRY_WEEDLE,      $000,  $100 ; SIMISAGE*
+	mon_cry CRY_SEEL,        $088,  $140 ; PANPOUR*
+	mon_cry CRY_SEEL,        $023,  $17f ; SIMIPOUR*
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
 	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
 	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
 	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
-	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
-	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
+	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_PARAS,       $002,  $0a0 ; GOTHITA*
 	mon_cry CRY_PARAS,       $000,  $100 ; GOTHORITA*
 	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle

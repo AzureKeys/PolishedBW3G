@@ -1991,6 +1991,26 @@ SimisearPokedexEntry::
 	next "tail to sear its"
 	next "opponents.@"
 
+SECTION "PanpourPokedexEntry", ROMX
+PanpourPokedexEntry::
+	db "Spray@"
+	db "The water stored"
+	next "inside the tuft on"
+	next "its head is full"
+	page "of nutrients. It"
+	next "waters plants"
+	next "using its tail.@"
+
+SECTION "SimipourPokedexEntry", ROMX
+SimipourPokedexEntry::
+	db "Geyser@"
+	db "The high-pressure"
+	next "water expelled"
+	next "from its tail is"
+	page "so powerful, it"
+	next "can destroy a"
+	next "concrete wall.@"
+
 SECTION "MunnaPokedexEntry", ROMX
 MunnaPokedexEntry::
 	db "Dream Eater@"

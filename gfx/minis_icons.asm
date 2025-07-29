@@ -1007,6 +1007,16 @@ SimisearMini::     INCBIN "gfx/minis/simisear.2bpp.lz"
 SimisearMiniMask:: INCBIN "gfx/minis/simisear_mask.1bpp.lz"
 SimisearIcon::     INCBIN "gfx/icons/simisear.2bpp.lz"
 
+SECTION "Panpour Mini Icon", ROMX
+PanpourMini::     INCBIN "gfx/minis/panpour.2bpp.lz"
+PanpourMiniMask:: INCBIN "gfx/minis/panpour_mask.1bpp.lz"
+PanpourIcon::     INCBIN "gfx/icons/panpour.2bpp.lz"
+
+SECTION "Simipour Mini Icon", ROMX
+SimipourMini::     INCBIN "gfx/minis/simipour.2bpp.lz"
+SimipourMiniMask:: INCBIN "gfx/minis/simipour_mask.1bpp.lz"
+SimipourIcon::     INCBIN "gfx/icons/simipour.2bpp.lz"
+
 SECTION "Munna Mini Icon", ROMX
 MunnaMini::     INCBIN "gfx/minis/munna.2bpp.lz"
 MunnaMiniMask:: INCBIN "gfx/minis/munna_mask.1bpp.lz"

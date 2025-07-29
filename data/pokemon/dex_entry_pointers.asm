@@ -200,6 +200,8 @@ PokedexDataPointerTable:
 	dba SimisagePokedexEntry
 	dba PansearPokedexEntry
 	dba SimisearPokedexEntry
+	dba PanpourPokedexEntry
+	dba SimipourPokedexEntry
 	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry
 	dba PidovePokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
-	dba ZoruaPlainPokedexEntry
-	dba ZoroarkPlainPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
+	dba ZoruaPlainPokedexEntry
+	dba ZoroarkPlainPokedexEntry
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry

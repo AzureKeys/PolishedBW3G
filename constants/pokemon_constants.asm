@@ -223,6 +223,8 @@
 	const SIMISAGE   ; 105
 	const PANSEAR    ; 106
 	const SIMISEAR   ; 107
+	const PANPOUR    ; 108
+	const SIMIPOUR   ; 109
 	const MUNNA      ; 10a
 	const MUSHARNA   ; 10b
 	const PIDOVE     ; 10c
@@ -276,12 +278,12 @@
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147

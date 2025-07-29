@@ -1137,6 +1137,14 @@ SECTION "Simisear Pics", ROMX
 SimisearFrontpic: INCBIN "gfx/pokemon/simisear/front.animated.2bpp.lz"
 SimisearBackpic:  INCBIN "gfx/pokemon/simisear/back.2bpp.lz"
 
+SECTION "Panpour Pics", ROMX
+PanpourFrontpic: INCBIN "gfx/pokemon/panpour/front.animated.2bpp.lz"
+PanpourBackpic:  INCBIN "gfx/pokemon/panpour/back.2bpp.lz"
+
+SECTION "Simipour Pics", ROMX
+SimipourFrontpic: INCBIN "gfx/pokemon/simipour/front.animated.2bpp.lz"
+SimipourBackpic:  INCBIN "gfx/pokemon/simipour/back.2bpp.lz"
+
 SECTION "Munna Pics", ROMX
 MunnaFrontpic: INCBIN "gfx/pokemon/munna/front.animated.2bpp.lz"
 MunnaBackpic:  INCBIN "gfx/pokemon/munna/back.2bpp.lz"

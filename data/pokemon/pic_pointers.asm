@@ -203,6 +203,8 @@ PokemonPicPointers::
 	pics Simisage
 	pics Pansear
 	pics Simisear
+	pics Panpour
+	pics Simipour
 	pics Munna
 	pics Musharna
 	pics Pidove
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Archeops
 	pics Trubbish
 	pics Garbodor
-	pics ZoruaPlain
-	pics ZoroarkPlain
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics ZoruaPlain
+	pics ZoroarkPlain
 	pics Gothita
 	pics Gothorita
 	pics Gothitelle
