@@ -997,6 +997,16 @@ SimisageMini::     INCBIN "gfx/minis/simisage.2bpp.lz"
 SimisageMiniMask:: INCBIN "gfx/minis/simisage_mask.1bpp.lz"
 SimisageIcon::     INCBIN "gfx/icons/simisage.2bpp.lz"
 
+SECTION "Pansear Mini Icon", ROMX
+PansearMini::     INCBIN "gfx/minis/pansear.2bpp.lz"
+PansearMiniMask:: INCBIN "gfx/minis/pansear_mask.1bpp.lz"
+PansearIcon::     INCBIN "gfx/icons/pansear.2bpp.lz"
+
+SECTION "Simisear Mini Icon", ROMX
+SimisearMini::     INCBIN "gfx/minis/simisear.2bpp.lz"
+SimisearMiniMask:: INCBIN "gfx/minis/simisear_mask.1bpp.lz"
+SimisearIcon::     INCBIN "gfx/icons/simisear.2bpp.lz"
+
 SECTION "Munna Mini Icon", ROMX
 MunnaMini::     INCBIN "gfx/minis/munna.2bpp.lz"
 MunnaMiniMask:: INCBIN "gfx/minis/munna_mask.1bpp.lz"

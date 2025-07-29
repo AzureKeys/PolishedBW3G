@@ -1972,6 +1972,25 @@ SimisagePokedexEntry::
 	next "tail. It is wild"
 	next "tempered.@"
 
+SECTION "PansearPokedexEntry", ROMX
+PansearPokedexEntry::
+	db "High Temp@"
+	db "Very intelligent,"
+	next "it roasts berries"
+	next "before eating"
+	page "them. It likes to"
+	next "help people.@"
+
+SECTION "SimisearPokedexEntry", ROMX
+SimisearPokedexEntry::
+	db "Ember@"
+	db "A flame burns"
+	next "inside its body."
+	next "It scatters embers"
+	page "from its head and"
+	next "tail to sear its"
+	next "opponents.@"
+
 SECTION "MunnaPokedexEntry", ROMX
 MunnaPokedexEntry::
 	db "Dream Eater@"

@@ -204,6 +204,8 @@ PokemonBodyData:
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  105, BIPEDAL_TAIL, GREEN  ; PANSAGE
 	body_data  11,  305, BIPEDAL_TAIL, GREEN  ; SIMISAGE
+	body_data   6,  110, BIPEDAL_TAIL, RED    ; PANSEAR
+	body_data  10,  280, BIPEDAL_TAIL, RED    ; SIMISEAR
 	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
 	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
-	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
-	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
+	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
 	body_data   6,   80, HEAD,         GREEN  ; DUOSION

@@ -197,6 +197,8 @@ AnimationExtraPointers:
 	dw LiepardAnimationExtra
 	dw PansageAnimationExtra
 	dw SimisageAnimationExtra
+	dw PansearAnimationExtra
+	dw SimisearAnimationExtra
 	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra
 	dw PidoveAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
-	dw GothitaAnimationExtra
-	dw GothoritaAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw GothitaAnimationExtra
+	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra

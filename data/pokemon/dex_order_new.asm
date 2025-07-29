@@ -20,6 +20,8 @@ NewPokedexOrder:
 	dp LIEPARD
 	dp PANSAGE
 	dp SIMISAGE
+	dp PANSEAR
+	dp SIMISEAR
 	dp MUNNA
 	dp MUSHARNA
 	dp PIDOVE

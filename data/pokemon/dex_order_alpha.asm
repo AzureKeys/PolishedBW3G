@@ -193,6 +193,7 @@ AlphabeticalPokedexOrder:
 	dp OSHAWOTT
 	dp PALPITOAD
 	dp PANSAGE
+	dp PANSEAR
 	dp PARAS
 	dp PARASECT
 	dp PATRAT
@@ -245,6 +246,7 @@ AlphabeticalPokedexOrder:
 	dp SHUCKLE
 	dp SIGILYPH
 	dp SIMISAGE
+	dp SIMISEAR
 	dp SKARMORY
 	dp SLOWBRO
 	dp SLOWKING

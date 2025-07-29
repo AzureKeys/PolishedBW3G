@@ -221,6 +221,8 @@
 	const LIEPARD    ; 103
 	const PANSAGE    ; 104
 	const SIMISAGE   ; 105
+	const PANSEAR    ; 106
+	const SIMISEAR   ; 107
 	const MUNNA      ; 10a
 	const MUSHARNA   ; 10b
 	const PIDOVE     ; 10c

@@ -201,6 +201,8 @@ MiniIconPointers:
 	mini_icon Liepard
 	mini_icon Pansage
 	mini_icon Simisage
+	mini_icon Pansear
+	mini_icon Simisear
 	mini_icon Munna
 	mini_icon Musharna
 	mini_icon Pidove
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Garbodor
 	mini_icon Zorua
 	mini_icon Zoroark
-	mini_icon Gothita
-	mini_icon Gothorita
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Gothita
+	mini_icon Gothorita
 	mini_icon Gothitelle
 	mini_icon Solosis
 	mini_icon Duosion

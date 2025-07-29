@@ -29,6 +29,8 @@ PurrloinFootprint::
 LiepardFootprint::
 PansageFootprint::
 SimisageFootprint::
+PansearFootprint::
+SimisearFootprint::
 MunnaFootprint::
 MusharnaFootprint::
 PidoveFootprint::

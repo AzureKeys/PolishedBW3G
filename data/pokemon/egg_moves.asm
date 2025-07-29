@@ -846,6 +846,10 @@ PansageEggSpeciesMoves:
 	dp PANSAGE, PLAIN_FORM
 	db $ff
 
+PansearEggSpeciesMoves:
+	dp PANSEAR, PLAIN_FORM
+	db $ff
+
 MunnaEggSpeciesMoves:
 	dp MUNNA, PLAIN_FORM
 	db BARRIER

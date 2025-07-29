@@ -197,6 +197,8 @@ BitmasksPointers:
 	dw LiepardBitmasks
 	dw PansageBitmasks
 	dw SimisageBitmasks
+	dw PansearBitmasks
+	dw SimisearBitmasks
 	dw MunnaBitmasks
 	dw MusharnaBitmasks
 	dw PidoveBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
-	dw GothitaBitmasks
-	dw GothoritaBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw GothitaBitmasks
+	dw GothoritaBitmasks
 	dw GothitelleBitmasks
 	dw SolosisBitmasks
 	dw DuosionBitmasks

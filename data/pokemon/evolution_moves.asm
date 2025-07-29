@@ -201,6 +201,8 @@ endc
 	db NO_MOVE      ; LIEPARD
 	db NO_MOVE      ; PANSAGE
 	db NO_MOVE      ; SIMISAGE
+	db NO_MOVE      ; PANSEAR
+	db NO_MOVE      ; SIMISEAR
 	db NO_MOVE      ; MUNNA
 	db NO_MOVE      ; MUSHARNA
 	db NO_MOVE      ; PIDOVE
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
-	db NO_MOVE      ; GOTHITA
-	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; GOTHITA
+	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
