@@ -201,6 +201,8 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; STOUTLAND*
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
+	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; PANSAGE*
+	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SIMISAGE*
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
 	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
 	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_PARAS,       $002,  $0a0 ; GOTHITA*
 	mon_cry CRY_PARAS,       $000,  $100 ; GOTHORITA*
-	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle
-	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle
+	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
 	mon_cry CRY_AMPHAROS,    $185,  $184 ; Duosion
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus
 	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; Ducklett

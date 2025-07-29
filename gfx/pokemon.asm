@@ -1121,6 +1121,14 @@ SECTION "Liepard Pics", ROMX
 LiepardFrontpic: INCBIN "gfx/pokemon/liepard/front.animated.2bpp.lz"
 LiepardBackpic:  INCBIN "gfx/pokemon/liepard/back.2bpp.lz"
 
+SECTION "Pansage Pics", ROMX
+PansageFrontpic: INCBIN "gfx/pokemon/pansage/front.animated.2bpp.lz"
+PansageBackpic:  INCBIN "gfx/pokemon/pansage/back.2bpp.lz"
+
+SECTION "Simisage Pics", ROMX
+SimisageFrontpic: INCBIN "gfx/pokemon/simisage/front.animated.2bpp.lz"
+SimisageBackpic:  INCBIN "gfx/pokemon/simisage/back.2bpp.lz"
+
 SECTION "Munna Pics", ROMX
 MunnaFrontpic: INCBIN "gfx/pokemon/munna/front.animated.2bpp.lz"
 MunnaBackpic:  INCBIN "gfx/pokemon/munna/back.2bpp.lz"

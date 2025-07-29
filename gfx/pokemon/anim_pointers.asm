@@ -195,6 +195,8 @@ AnimationPointers:
 	dw StoutlandAnimation
 	dw PurrloinAnimation
 	dw LiepardAnimation
+	dw PansageAnimation
+	dw SimisageAnimation
 	dw MunnaAnimation
 	dw MusharnaAnimation
 	dw PidoveAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw ZoroarkPlainAnimation
 	dw GothitaAnimation
 	dw GothoritaAnimation
-	dw GothitelleAnimation
-	dw SolosisAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw GothitelleAnimation
+	dw SolosisAnimation
 	dw DuosionAnimation
 	dw ReuniclusAnimation
 	dw DucklettAnimation

@@ -195,6 +195,8 @@ FootprintPointers::
 	dw StoutlandFootprint
 	dw PurrloinFootprint
 	dw LiepardFootprint
+	dw PansageFootprint
+	dw SimisageFootprint
 	dw MunnaFootprint
 	dw MusharnaFootprint
 	dw PidoveFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw ZoroarkFootprint
 	dw GothitaFootprint
 	dw GothoritaFootprint
-	dw GothitelleFootprint
-	dw SolosisFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw GothitelleFootprint
+	dw SolosisFootprint
 	dw DuosionFootprint
 	dw ReuniclusFootprint
 	dw DucklettFootprint

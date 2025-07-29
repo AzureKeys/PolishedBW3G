@@ -195,6 +195,8 @@ EggSpeciesMovesPointers::
 	dw LillipupEggSpeciesMoves          ; Stoutland
 	dw PurrloinEggSpeciesMoves          ; Purrloin
 	dw PurrloinEggSpeciesMoves          ; Liepard
+	dw PansageEggSpeciesMoves           ; Pansage
+	dw PansageEggSpeciesMoves           ; Simisage
 	dw MunnaEggSpeciesMoves             ; Munna
 	dw MunnaEggSpeciesMoves             ; Musharna
 	dw PidoveEggSpeciesMoves            ; Pidove
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
-	dw GothitaEggSpeciesMoves           ; Gothitelle
-	dw SolosisEggSpeciesMoves           ; Solosis
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw GothitaEggSpeciesMoves           ; Gothitelle
+	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus
 	dw DucklettEggSpeciesMoves          ; Ducklett

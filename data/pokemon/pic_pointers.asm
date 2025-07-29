@@ -199,6 +199,8 @@ PokemonPicPointers::
 	pics Stoutland
 	pics Purrloin
 	pics Liepard
+	pics Pansage
+	pics Simisage
 	pics Munna
 	pics Musharna
 	pics Pidove
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics ZoroarkPlain
 	pics Gothita
 	pics Gothorita
-	pics Gothitelle
-	pics Solosis
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Gothitelle
+	pics Solosis
 	pics Duosion
 	pics Reuniclus
 	pics Ducklett

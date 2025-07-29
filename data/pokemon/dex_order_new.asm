@@ -18,6 +18,8 @@ NewPokedexOrder:
 	dp STOUTLAND
 	dp PURRLOIN
 	dp LIEPARD
+	dp PANSAGE
+	dp SIMISAGE
 	dp MUNNA
 	dp MUSHARNA
 	dp PIDOVE

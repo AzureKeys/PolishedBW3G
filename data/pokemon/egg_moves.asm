@@ -842,6 +842,10 @@ PurrloinEggSpeciesMoves:
 	db FEINT_ATTACK
 	db $ff
 
+PansageEggSpeciesMoves:
+	dp PANSAGE, PLAIN_FORM
+	db $ff
+
 MunnaEggSpeciesMoves:
 	dp MUNNA, PLAIN_FORM
 	db BARRIER

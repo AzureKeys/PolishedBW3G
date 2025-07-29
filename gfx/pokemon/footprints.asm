@@ -27,6 +27,8 @@ HerdierFootprint::
 StoutlandFootprint::
 PurrloinFootprint::
 LiepardFootprint::
+PansageFootprint::
+SimisageFootprint::
 MunnaFootprint::
 MusharnaFootprint::
 PidoveFootprint::

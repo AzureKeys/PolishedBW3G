@@ -199,6 +199,8 @@ EvosAttacksPointers::
 	dw StoutlandEvosAttacks
 	dw PurrloinEvosAttacks
 	dw LiepardEvosAttacks
+	dw PansageEvosAttacks
+	dw SimisageEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks
 	dw PidoveEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw ZoroarkPlainEvosAttacks
 	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
-	dw GothitelleEvosAttacks
-	dw SolosisEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw GothitelleEvosAttacks
+	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
 	dw ReuniclusEvosAttacks
 	dw DucklettEvosAttacks

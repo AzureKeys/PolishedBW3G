@@ -1952,6 +1952,26 @@ LiepardPokedexEntry::
 	next "drawn to their"
 	next "beautiful form.@"
 
+SECTION "PansagePokedexEntry", ROMX
+PansagePokedexEntry::
+	db "GrassMonkey@"
+	db "It shares the leaf"
+	next "on its head with"
+	next "weary-looking"
+	page "#mon. These"
+	next "leaves are known"
+	next "to relieve stress.@"
+
+SECTION "SimisagePokedexEntry", ROMX
+SimisagePokedexEntry::
+	db "ThornMonkey@"
+	db "It attacks"
+	next "enemies with"
+	next "strikes of its"
+	page "thorn covered"
+	next "tail. It is wild"
+	next "tempered.@"
+
 SECTION "MunnaPokedexEntry", ROMX
 MunnaPokedexEntry::
 	db "Dream Eater@"

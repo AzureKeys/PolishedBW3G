@@ -219,6 +219,8 @@
 	const STOUTLAND  ; 101
 	const PURRLOIN   ; 102
 	const LIEPARD    ; 103
+	const PANSAGE    ; 104
+	const SIMISAGE   ; 105
 	const MUNNA      ; 10a
 	const MUSHARNA   ; 10b
 	const PIDOVE     ; 10c
@@ -276,10 +278,10 @@
 	const ZOROARK    ; 140
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
-	const GOTHITELLE ; 145
-	const SOLOSIS    ; 146
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const GOTHITELLE ; 145
+	const SOLOSIS    ; 146
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148
 	const DUCKLETT   ; 149

@@ -987,6 +987,16 @@ LiepardMini::     INCBIN "gfx/minis/liepard.2bpp.lz"
 LiepardMiniMask:: INCBIN "gfx/minis/liepard_mask.1bpp.lz"
 LiepardIcon::     INCBIN "gfx/icons/liepard.2bpp.lz"
 
+SECTION "Pansage Mini Icon", ROMX
+PansageMini::     INCBIN "gfx/minis/pansage.2bpp.lz"
+PansageMiniMask:: INCBIN "gfx/minis/pansage_mask.1bpp.lz"
+PansageIcon::     INCBIN "gfx/icons/pansage.2bpp.lz"
+
+SECTION "Simisage Mini Icon", ROMX
+SimisageMini::     INCBIN "gfx/minis/simisage.2bpp.lz"
+SimisageMiniMask:: INCBIN "gfx/minis/simisage_mask.1bpp.lz"
+SimisageIcon::     INCBIN "gfx/icons/simisage.2bpp.lz"
+
 SECTION "Munna Mini Icon", ROMX
 MunnaMini::     INCBIN "gfx/minis/munna.2bpp.lz"
 MunnaMiniMask:: INCBIN "gfx/minis/munna_mask.1bpp.lz"

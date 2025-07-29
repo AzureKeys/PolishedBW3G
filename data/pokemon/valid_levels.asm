@@ -200,6 +200,8 @@ endc
 	db  32, 100 ; Stoutland
 	db   1,  19 ; Purrloin
 	db  20, 100 ; Liepard
+	db   1,  24 ; Pansage
+	db  25, 100 ; Simisage
 	db   1,  19 ; Munna
 	db  20, 100 ; Musharna
 	db   1,  20 ; Pidove
@@ -257,10 +259,10 @@ endc
 	db  30, 100 ; Zoroark
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
-	db  41, 100 ; Gothitelle
-	db   1,  31 ; Solosis
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  41, 100 ; Gothitelle
+	db   1,  31 ; Solosis
 	db  32,  40 ; Duosion
 	db  41, 100 ; Reuniclus
 	db   1,  34 ; Ducklett

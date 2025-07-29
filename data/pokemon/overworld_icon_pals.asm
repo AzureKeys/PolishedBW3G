@@ -199,6 +199,8 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; STOUTLAND
 	iconpal PURPLE, BLUE ; PURRLOIN
 	iconpal PURPLE, RED ; LIEPARD
+	iconpal GREEN, BROWN ; PANSAGE
+	iconpal GREEN, BROWN ; SIMISAGE
 	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA
 	iconpal GRAY, BLUE ; PIDOVE
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
-	iconpal BLACK, PURPLE ; GOTHITELLE
-	iconpal GREEN, BLUE ; SOLOSIS
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal BLACK, PURPLE ; GOTHITELLE
+	iconpal GREEN, BLUE ; SOLOSIS
 	iconpal GREEN, TEAL ; DUOSION
 	iconpal GREEN, AZURE ; REUNICLUS
 	iconpal AZURE, PINK ; DUCKLETT

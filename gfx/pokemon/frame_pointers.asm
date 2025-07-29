@@ -195,6 +195,8 @@ FramesPointers:
 	dw StoutlandFrames
 	dw PurrloinFrames
 	dw LiepardFrames
+	dw PansageFrames
+	dw SimisageFrames
 	dw MunnaFrames
 	dw MusharnaFrames
 	dw PidoveFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw ZoroarkPlainFrames
 	dw GothitaFrames
 	dw GothoritaFrames
-	dw GothitelleFrames
-	dw SolosisFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw GothitelleFrames
+	dw SolosisFrames
 	dw DuosionFrames
 	dw ReuniclusFrames
 	dw DucklettFrames

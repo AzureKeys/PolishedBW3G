@@ -196,6 +196,8 @@ PokedexDataPointerTable:
 	dba StoutlandPokedexEntry
 	dba PurrloinPokedexEntry
 	dba LiepardPokedexEntry
+	dba PansagePokedexEntry
+	dba SimisagePokedexEntry
 	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry
 	dba PidovePokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba ZoroarkPlainPokedexEntry
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
-	dba GothitellePokedexEntry
-	dba SolosisPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
+	dba GothitellePokedexEntry
+	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry
 	dba DucklettPokedexEntry
