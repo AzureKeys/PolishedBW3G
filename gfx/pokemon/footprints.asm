@@ -135,6 +135,8 @@ CryogonalFootprint::
 ShelmetFootprint::
 AccelgorFootprint::
 StunfiskFootprint::
+MienfooFootprint::
+MienshaoFootprint::
 GolettFootprint::
 GolurkFootprint::
 PawniardFootprint::

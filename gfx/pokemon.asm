@@ -1537,6 +1537,14 @@ SECTION "StunfiskPlain Pics", ROMX
 StunfiskPlainFrontpic: INCBIN "gfx/pokemon/stunfisk_plain/front.animated.2bpp.lz"
 StunfiskPlainBackpic:  INCBIN "gfx/pokemon/stunfisk_plain/back.2bpp.lz"
 
+SECTION "Mienfoo Pics", ROMX
+MienfooFrontpic: INCBIN "gfx/pokemon/mienfoo/front.animated.2bpp.lz"
+MienfooBackpic:  INCBIN "gfx/pokemon/mienfoo/back.2bpp.lz"
+
+SECTION "Mienshao Pics", ROMX
+MienshaoFrontpic: INCBIN "gfx/pokemon/mienshao/front.animated.2bpp.lz"
+MienshaoBackpic:  INCBIN "gfx/pokemon/mienshao/back.2bpp.lz"
+
 SECTION "Golett Pics", ROMX
 GolettFrontpic: INCBIN "gfx/pokemon/golett/front.animated.2bpp.lz"
 GolettBackpic:  INCBIN "gfx/pokemon/golett/back.2bpp.lz"

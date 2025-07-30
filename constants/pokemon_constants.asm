@@ -327,6 +327,8 @@
 	const SHELMET    ; 16d
 	const ACCELGOR   ; 16e
 	const STUNFISK   ; 16f
+	const MIENFOO    ; 170
+	const MIENSHAO   ; 171
 	const GOLETT     ; 173
 	const GOLURK     ; 174
 	const PAWNIARD   ; 175

@@ -2997,6 +2997,26 @@ StunfiskPlainPokedexEntry::
 	next "touch it, it uses"
 	next "electric shocks.@"
 
+SECTION "MienfooPokedexEntry", ROMX
+MienfooPokedexEntry::
+	db "MartialArts@"
+	db "They have mastered"
+	next "elegant combos."
+	next "As they focus,"
+	page "their battle moves"
+	next "become even more"
+	next "precise.@"
+
+SECTION "MienshaoPokedexEntry", ROMX
+MienshaoPokedexEntry::
+	db "MartialArts@"
+	db "It wields the fur"
+	next "on its arms like"
+	next "a whip. Its arm"
+	page "attacks are so"
+	next "rapid they can't"
+	next "be seen.@"
+
 SECTION "GolettPokedexEntry", ROMX
 GolettPokedexEntry::
 	db "Automaton@"

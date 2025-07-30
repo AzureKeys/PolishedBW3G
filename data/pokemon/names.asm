@@ -304,6 +304,8 @@ PokemonNames::
 	rawchar "Shelmet@@@"
 	rawchar "Accelgor@@"
 	rawchar "Stunfisk@@"
+	rawchar "Mienfoo@@@"
+	rawchar "Mienshao@@"
 	rawchar "Golett@@@@"
 	rawchar "Golurk@@@@"
 	rawchar "Pawniard@@"

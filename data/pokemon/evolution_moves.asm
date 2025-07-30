@@ -307,6 +307,8 @@ endc
 	db NO_MOVE      ; SHELMET
 	db NO_MOVE      ; ACCELGOR
 	db NO_MOVE      ; STUNFISK
+	db NO_MOVE      ; MIENFOO
+	db NO_MOVE      ; MIENSHAO
 	db NO_MOVE      ; GOLETT
 	db NO_MOVE      ; GOLURK
 	db NO_MOVE      ; PAWNIARD

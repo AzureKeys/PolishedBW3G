@@ -307,6 +307,8 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; SHELMET
 	iconpal BLUE, YELLOW ; ACCELGOR
 	iconpal BROWN, BLUE ; STUNFISK
+	iconpal RED, BLUE ; MIENFOO
+	iconpal PURPLE, PINK ; MIENSHAO
 	iconpal TEAL, BLUE ; GOLETT
 	iconpal TEAL, GRAY ; GOLURK
 	iconpal RED, BLUE ; PAWNIARD

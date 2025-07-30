@@ -126,6 +126,8 @@ NewPokedexOrder:
 	dp SHELMET
 	dp ACCELGOR
 	dp STUNFISK
+	dp MIENFOO
+	dp MIENSHAO
 	dp GOLETT
 	dp GOLURK
 	dp PAWNIARD

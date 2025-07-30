@@ -304,6 +304,8 @@ PokedexDataPointerTable:
 	dba ShelmetPokedexEntry
 	dba AccelgorPokedexEntry
 	dba StunfiskPlainPokedexEntry
+	dba MienfooPokedexEntry
+	dba MienshaoPokedexEntry
 	dba GolettPokedexEntry
 	dba GolurkPokedexEntry
 	dba PawniardPokedexEntry

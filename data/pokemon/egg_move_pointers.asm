@@ -303,6 +303,8 @@ EggSpeciesMovesPointers::
 	dw ShelmetEggSpeciesMoves           ; Shelmet
 	dw ShelmetEggSpeciesMoves           ; Accelgor
 	dw StunfiskPlainEggSpeciesMoves     ; Stunfisk
+	dw MienfooEggSpeciesMoves           ; Mienfoo
+	dw MienfooEggSpeciesMoves           ; Mienshao
 	dw GolettEggSpeciesMoves            ; Golett
 	dw GolettEggSpeciesMoves            ; Golurk
 	dw PawniardEggSpeciesMoves          ; Pawniard

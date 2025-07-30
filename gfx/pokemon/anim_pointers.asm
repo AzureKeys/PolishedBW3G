@@ -303,6 +303,8 @@ AnimationPointers:
 	dw ShelmetAnimation
 	dw AccelgorAnimation
 	dw StunfiskPlainAnimation
+	dw MienfooAnimation
+	dw MienshaoAnimation
 	dw GolettAnimation
 	dw GolurkAnimation
 	dw PawniardAnimation

@@ -307,6 +307,8 @@ PokemonPicPointers::
 	pics Shelmet
 	pics Accelgor
 	pics StunfiskPlain
+	pics Mienfoo
+	pics Mienshao
 	pics Golett
 	pics Golurk
 	pics Pawniard

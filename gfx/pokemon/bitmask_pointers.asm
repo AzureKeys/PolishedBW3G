@@ -303,6 +303,8 @@ BitmasksPointers:
 	dw ShelmetBitmasks
 	dw AccelgorBitmasks
 	dw StunfiskPlainBitmasks
+	dw MienfooBitmasks
+	dw MienshaoBitmasks
 	dw GolettBitmasks
 	dw GolurkBitmasks
 	dw PawniardBitmasks

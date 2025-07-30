@@ -308,6 +308,8 @@ endc
 	db   1,  29 ; Shelmet
 	db  30, 100 ; Accelgor
 	db  20, 100 ; Stunfisk
+	db   1,  49 ; Mienfoo
+	db  50, 100 ; Mienshao
 	db   1,  42 ; Golett
 	db  43, 100 ; Golurk
 	db   1,  51 ; Pawniard

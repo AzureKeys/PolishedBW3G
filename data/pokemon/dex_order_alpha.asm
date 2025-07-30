@@ -173,6 +173,8 @@ AlphabeticalPokedexOrder:
 	dp MEOWTH
 	dp MEW
 	dp MEWTWO
+	dp MIENFOO
+	dp MIENSHAO
 	dp MIME_JR_
 	dp MINCCINO
 	dp MISDREAVUS
