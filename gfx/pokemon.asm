@@ -1613,6 +1613,18 @@ SECTION "Volcarona Pics", ROMX
 VolcaronaFrontpic: INCBIN "gfx/pokemon/volcarona/front.animated.2bpp.lz"
 VolcaronaBackpic:  INCBIN "gfx/pokemon/volcarona/back.2bpp.lz"
 
+SECTION "Cobalion Pics", ROMX
+CobalionFrontpic: INCBIN "gfx/pokemon/cobalion/front.animated.2bpp.lz"
+CobalionBackpic:  INCBIN "gfx/pokemon/cobalion/back.2bpp.lz"
+
+SECTION "Terrakion Pics", ROMX
+TerrakionFrontpic: INCBIN "gfx/pokemon/terrakion/front.animated.2bpp.lz"
+TerrakionBackpic:  INCBIN "gfx/pokemon/terrakion/back.2bpp.lz"
+
+SECTION "Virizion Pics", ROMX
+VirizionFrontpic: INCBIN "gfx/pokemon/virizion/front.animated.2bpp.lz"
+VirizionBackpic:  INCBIN "gfx/pokemon/virizion/back.2bpp.lz"
+
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"

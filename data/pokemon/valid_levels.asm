@@ -327,5 +327,8 @@ endc
 	db  64, 100 ; Hydreigon
 	db   1,  58 ; Larvesta
 	db  59, 100 ; Volcarona
+	db 255, 255 ; Cobalion
+	db 255, 255 ; Terrakion
+	db 255, 255 ; Virizion
 	db 255, 255 ; Genesect
 	assert_table_length NUM_SPECIES

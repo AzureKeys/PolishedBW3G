@@ -1612,6 +1612,21 @@ VolcaronaMini::     INCBIN "gfx/minis/volcarona.2bpp.lz"
 VolcaronaMiniMask:: INCBIN "gfx/minis/volcarona_mask.1bpp.lz"
 VolcaronaIcon::     INCBIN "gfx/icons/volcarona.2bpp.lz"
 
+SECTION "Cobalion Mini Icon", ROMX
+CobalionMini::     INCBIN "gfx/minis/cobalion.2bpp.lz"
+CobalionMiniMask:: INCBIN "gfx/minis/cobalion_mask.1bpp.lz"
+CobalionIcon::     INCBIN "gfx/icons/cobalion.2bpp.lz"
+
+SECTION "Terrakion Mini Icon", ROMX
+TerrakionMini::     INCBIN "gfx/minis/terrakion.2bpp.lz"
+TerrakionMiniMask:: INCBIN "gfx/minis/terrakion_mask.1bpp.lz"
+TerrakionIcon::     INCBIN "gfx/icons/terrakion.2bpp.lz"
+
+SECTION "Virizion Mini Icon", ROMX
+VirizionMini::     INCBIN "gfx/minis/virizion.2bpp.lz"
+VirizionMiniMask:: INCBIN "gfx/minis/virizion_mask.1bpp.lz"
+VirizionIcon::     INCBIN "gfx/icons/virizion.2bpp.lz"
+
 SECTION "Genesect Mini Icon", ROMX
 GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"

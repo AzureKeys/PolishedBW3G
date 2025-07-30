@@ -154,6 +154,9 @@ ZweilousFootprint::
 HydreigonFootprint::
 LarvestaFootprint::
 VolcaronaFootprint::
+CobalionFootprint::
+TerrakionFootprint::
+VirizionFootprint::
 GenesectFootprint::
 ChinchouFootprint::
 CrobatFootprint::

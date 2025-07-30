@@ -326,6 +326,9 @@ PokemonPicPointers::
 	pics Hydreigon
 	pics Larvesta
 	pics Volcarona
+	pics Cobalion
+	pics Terrakion
+	pics Virizion
 	pics Genesect
 	assert_table_length NUM_SPECIES
 

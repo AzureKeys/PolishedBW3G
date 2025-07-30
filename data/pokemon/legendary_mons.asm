@@ -1,5 +1,8 @@
 LegendaryMons::
 ;
+	dp COBALION
+	dp TERRAKION
+	dp VIRIZION
 UberMons::
 ; banned from Battle Tower
 	dp MEWTWO

@@ -322,6 +322,9 @@ EggSpeciesMovesPointers::
 	dw DeinoEggSpeciesMoves             ; Hydreigon
 	dw LarvestaEggSpeciesMoves          ; Larvesta
 	dw LarvestaEggSpeciesMoves          ; Volcarona
+	dw NoEggSpeciesMoves                ; Cobalion
+	dw NoEggSpeciesMoves                ; Terrakion
+	dw NoEggSpeciesMoves                ; Virizion
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
 

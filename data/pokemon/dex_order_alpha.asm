@@ -38,6 +38,7 @@ AlphabeticalPokedexOrder:
 	dp CLEFABLE
 	dp CLEFAIRY
 	dp CLEFFA
+	dp COBALION
 	dp COFAGRIGUS
 	dp CONKELDURR
 	dp CORSOLA
@@ -282,6 +283,7 @@ AlphabeticalPokedexOrder:
 	dp TANGELA
 	dp TANGROWTH
 	dp TEPIG
+	dp TERRAKION
 	dp THROH
 	dp TIMBURR
 	dp TIRTOUGA
@@ -304,6 +306,7 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENIPEDE
 	dp VENUSAUR
+	dp VIRIZION
 	dp VOLCARONA
 	dp VULLABY
 	dp VULPIX

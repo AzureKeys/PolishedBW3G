@@ -322,6 +322,9 @@ BitmasksPointers:
 	dw HydreigonBitmasks
 	dw LarvestaBitmasks
 	dw VolcaronaBitmasks
+	dw CobalionBitmasks
+	dw TerrakionBitmasks
+	dw VirizionBitmasks
 	dw GenesectBitmasks
 	assert_table_length NUM_SPECIES
 

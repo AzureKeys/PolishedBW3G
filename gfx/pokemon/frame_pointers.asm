@@ -322,6 +322,9 @@ FramesPointers:
 	dw HydreigonFrames
 	dw LarvestaFrames
 	dw VolcaronaFrames
+	dw CobalionFrames
+	dw TerrakionFrames
+	dw VirizionFrames
 	dw GenesectFrames
 	assert_table_length NUM_SPECIES
 

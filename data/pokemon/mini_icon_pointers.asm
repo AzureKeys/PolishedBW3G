@@ -326,6 +326,9 @@ MiniIconPointers:
 	mini_icon Hydreigon
 	mini_icon Larvesta
 	mini_icon Volcarona
+	mini_icon Cobalion
+	mini_icon Terrakion
+	mini_icon Virizion
 	mini_icon Genesect
 	assert_table_length NUM_SPECIES
 

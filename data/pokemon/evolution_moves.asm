@@ -326,6 +326,9 @@ endc
 	db TRI_ATTACK   ; HYDREIGON
 	db NO_MOVE      ; LARVESTA
 	db NO_MOVE      ; VOLCARONA
+	db NO_MOVE      ; COBALION
+	db NO_MOVE      ; TERRAKION
+	db NO_MOVE      ; VIRIZION
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
 

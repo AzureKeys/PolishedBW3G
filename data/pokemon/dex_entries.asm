@@ -3186,6 +3186,35 @@ VolcaronaPokedexEntry::
 	next "to scatter fiery"
 	next "scales.@"
 
+SECTION "CobalionPokedexEntry", ROMX
+CobalionPokedexEntry::
+	db "Iron Will@"
+	db "It has a heart"
+	next "and body of."
+	next "steel. Its glare"
+	page "will make even an"
+	next "unruly #mon"
+	next "obey it.@"
+
+SECTION "TerrakionPokedexEntry", ROMX
+TerrakionPokedexEntry::
+	db "Cavern@"
+	db "Its charge is"
+	next "strong enough to"
+	next "break through a"
+	page "castle wall in"
+	next "one blow.@"
+
+SECTION "VirizionPokedexEntry", ROMX
+VirizionPokedexEntry::
+	db "Grassland@"
+	db "Its head sprouts"
+	next "horns as sharp as"
+	next "blades. Using"
+	page "spinning moves,"
+	next "it swiftly cuts"
+	next "opponents.@"
+
 SECTION "GenesectPokedexEntry", ROMX
 GenesectPokedexEntry::
 	db "Paleozoic@"

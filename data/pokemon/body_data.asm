@@ -329,6 +329,9 @@ PokemonBodyData:
 	body_data  18, 1600, BIPEDAL_TAIL, BLUE   ; HYDREIGON
 	body_data  11,  288, INSECTOID,    WHITE  ; LARVESTA
 	body_data  16,  460, MULTIWINGS,   WHITE  ; VOLCARONA
+	body_data  21, 2500, QUADRUPED,    BLUE   ; COBALION
+	body_data  19, 2600, QUADRUPED,    GRAY   ; TERRAKION
+	body_data  20, 2000, QUADRUPED,    GREEN  ; VIRIZION
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES
 

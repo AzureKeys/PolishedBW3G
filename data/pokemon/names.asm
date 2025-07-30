@@ -323,5 +323,8 @@ PokemonNames::
 	rawchar "Hydreigon@"
 	rawchar "Larvesta@@"
 	rawchar "Volcarona@"
+	rawchar "Cobalion@@"
+	rawchar "Terrakion@"
+	rawchar "Virizion@@"
 	rawchar "Genesect@@"
 	assert_table_length NUM_SPECIES + 1

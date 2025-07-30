@@ -322,6 +322,9 @@ AnimationExtraPointers:
 	dw HydreigonAnimationExtra
 	dw LarvestaAnimationExtra
 	dw VolcaronaAnimationExtra
+	dw CobalionAnimationExtra
+	dw TerrakionAnimationExtra
+	dw VirizionAnimationExtra
 	dw GenesectAnimationExtra
 	assert_table_length NUM_SPECIES
 
