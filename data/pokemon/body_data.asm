@@ -285,6 +285,7 @@ PokemonBodyData:
 	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	body_data  12,  330, TENTACLES,    WHITE  ; FRILLISH
 	body_data  22, 1350, TENTACLES,    WHITE  ; JELLICENT
+	body_data  12,  316, FINS,         PINK   ; ALOMOMOLA
 	body_data   1,    6, INSECTOID,    YELLOW ; JOLTIK
 	body_data   8,  143, INSECTOID,    YELLOW ; GALVANTULA
 	body_data   6,  188, HEAD,         GRAY   ; FERROSEED

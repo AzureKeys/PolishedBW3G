@@ -279,6 +279,7 @@ PokedexDataPointerTable:
 	dba AmoongussPokedexEntry
 	dba FrillishPokedexEntry
 	dba JellicentPokedexEntry
+	dba AlomomolaPokedexEntry
 	dba JoltikPokedexEntry
 	dba GalvantulaPokedexEntry
 	dba FerroseedPokedexEntry

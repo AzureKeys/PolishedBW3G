@@ -283,6 +283,7 @@ endc
 	db  39, 100 ; Amoonguss
 	db   1,  39 ; Frillish
 	db  40, 100 ; Jellicent
+	db  20, 100 ; Alomomola
 	db   1,  35 ; Joltik
 	db  36, 100 ; Galvantula
 	db   1,  39 ; Ferroseed

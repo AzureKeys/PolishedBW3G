@@ -282,6 +282,7 @@ PokemonPicPointers::
 	pics Amoonguss
 	pics FrillishMale
 	pics JellicentMale
+	pics Alomomola
 	pics Joltik
 	pics Galvantula
 	pics Ferroseed

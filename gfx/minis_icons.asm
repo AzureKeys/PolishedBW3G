@@ -1392,6 +1392,11 @@ JellicentMaleMini::     INCBIN "gfx/minis/jellicent_male.2bpp.lz"
 JellicentMaleMiniMask:: INCBIN "gfx/minis/jellicent_male_mask.1bpp.lz"
 JellicentMaleIcon::     INCBIN "gfx/icons/jellicent_male.2bpp.lz"
 
+SECTION "Alomomola Mini Icon", ROMX
+AlomomolaMini::     INCBIN "gfx/minis/alomomola.2bpp.lz"
+AlomomolaMiniMask:: INCBIN "gfx/minis/alomomola_mask.1bpp.lz"
+AlomomolaIcon::     INCBIN "gfx/icons/alomomola.2bpp.lz"
+
 SECTION "Joltik Mini Icon", ROMX
 JoltikMini::     INCBIN "gfx/minis/joltik.2bpp.lz"
 JoltikMiniMask:: INCBIN "gfx/minis/joltik_mask.1bpp.lz"

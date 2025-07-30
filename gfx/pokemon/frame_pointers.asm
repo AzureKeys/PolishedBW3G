@@ -278,6 +278,7 @@ FramesPointers:
 	dw AmoongussFrames
 	dw FrillishMaleFrames
 	dw JellicentMaleFrames
+	dw AlomomolaFrames
 	dw JoltikFrames
 	dw GalvantulaFrames
 	dw FerroseedFrames

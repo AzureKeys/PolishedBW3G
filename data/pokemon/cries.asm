@@ -284,6 +284,7 @@ PokemonCries::
 	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	mon_cry CRY_RAIKOU,      $083,  $130 ; Frillish
 	mon_cry CRY_RAIKOU,     -$18d,  $130 ; Jellicent
+	mon_cry CRY_LAPRAS,      $000,  $100 ; ALOMOMOLA*
 	mon_cry CRY_PIDGEY,      $16a,  $0d4 ; Joltik
 	mon_cry CRY_NIDOQUEEN,   $035,  $0b6 ; Galvantula
 	mon_cry CRY_MANTINE,     $032,  $080 ; Ferroseed

@@ -5482,6 +5482,23 @@ endc
 	learnset 53, HYDRO_PUMP
 	learnset 61, GIGA_DRAIN ; Wring Out
 	
+	evos_attacks Alomomola
+	learnset 1, GIGA_DRAIN ; Wring Out
+	learnset 1, WATER_GUN ; Bubble
+	learnset 1, ABSORB
+	learnset 1, NIGHT_SHADE
+	learnset 5, ABSORB
+	learnset 9, NIGHT_SHADE
+	learnset 13, BUBBLE_BEAM
+	learnset 17, RECOVER
+	learnset 22, WATER_PULSE
+	learnset 27, HEX ; Ominous Wind
+	learnset 32, SCALD ; Brine
+	learnset 37, RAIN_DANCE
+	learnset 45, SHADOW_BALL ; Hex
+	learnset 53, HYDRO_PUMP
+	learnset 61, GIGA_DRAIN ; Wring Out
+	
 	evos_attacks Joltik
 	evo_data EVOLVE_LEVEL, 36, GALVANTULA
 	learnset 1, ABSORB

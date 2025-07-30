@@ -278,6 +278,7 @@ FootprintPointers::
 	dw AmoongussFootprint
 	dw FrillishFootprint
 	dw JellicentFootprint
+	dw AlomomolaFootprint
 	dw JoltikFootprint
 	dw GalvantulaFootprint
 	dw FerroseedFootprint

@@ -279,6 +279,7 @@ PokemonNames::
 	rawchar "Amoonguss@"
 	rawchar "Frillish@@"
 	rawchar "Jellicent@"
+	rawchar "Alomomola@"
 	rawchar "Joltik@@@@"
 	rawchar "Galvantula"
 	rawchar "Ferroseed@"

@@ -278,6 +278,7 @@ BitmasksPointers:
 	dw AmoongussBitmasks
 	dw FrillishMaleBitmasks
 	dw JellicentMaleBitmasks
+	dw AlomomolaBitmasks
 	dw JoltikBitmasks
 	dw GalvantulaBitmasks
 	dw FerroseedBitmasks

@@ -282,6 +282,7 @@ MiniIconPointers:
 	mini_icon Amoonguss
 	mini_icon FrillishMale
 	mini_icon JellicentMale
+	mini_icon Alomomola
 	mini_icon Joltik
 	mini_icon Galvantula
 	mini_icon Ferroseed

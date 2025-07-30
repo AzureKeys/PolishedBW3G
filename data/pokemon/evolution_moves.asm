@@ -282,6 +282,7 @@ endc
 	db NO_MOVE      ; AMOONGUSS
 	db NO_MOVE      ; FRILLISH
 	db NO_MOVE      ; JELLICENT
+	db NO_MOVE      ; ALOMOMOLA
 	db NO_MOVE      ; JOLTIK
 	db NO_MOVE      ; GALVANTULA
 	db NO_MOVE      ; FERROSEED

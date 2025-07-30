@@ -278,6 +278,7 @@ EggSpeciesMovesPointers::
 	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw FrillishEggSpeciesMoves          ; Frillish
 	dw FrillishEggSpeciesMoves          ; Jellicent
+	dw AlomomolaEggSpeciesMoves         ; Alomomola
 	dw JoltikEggSpeciesMoves            ; Joltik
 	dw JoltikEggSpeciesMoves            ; Galvantula
 	dw FerroseedEggSpeciesMoves         ; Ferroseed

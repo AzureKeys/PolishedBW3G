@@ -278,6 +278,7 @@ AnimationPointers:
 	dw AmoongussAnimation
 	dw FrillishMaleAnimation
 	dw JellicentMaleAnimation
+	dw AlomomolaAnimation
 	dw JoltikAnimation
 	dw GalvantulaAnimation
 	dw FerroseedAnimation

@@ -110,6 +110,7 @@ FoongusFootprint::
 AmoongussFootprint::
 FrillishFootprint::
 JellicentFootprint::
+AlomomolaFootprint::
 JoltikFootprint::
 GalvantulaFootprint::
 FerroseedFootprint::

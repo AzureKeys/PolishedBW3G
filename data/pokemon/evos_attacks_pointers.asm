@@ -282,6 +282,7 @@ EvosAttacksPointers::
 	dw AmoongussEvosAttacks
 	dw FrillishEvosAttacks
 	dw JellicentEvosAttacks
+	dw AlomomolaEvosAttacks
 	dw JoltikEvosAttacks
 	dw GalvantulaEvosAttacks
 	dw FerroseedEvosAttacks

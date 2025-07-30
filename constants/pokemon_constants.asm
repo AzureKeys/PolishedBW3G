@@ -302,6 +302,7 @@
 	const AMOONGUSS  ; 154
 	const FRILLISH   ; 155
 	const JELLICENT  ; 156
+	const ALOMOMOLA  ; 157
 	const JOLTIK     ; 158
 	const GALVANTULA ; 159
 	const FERROSEED  ; 15a

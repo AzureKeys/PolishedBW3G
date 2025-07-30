@@ -1139,6 +1139,10 @@ FrillishEggSpeciesMoves:
 	db RECOVER
 	db $ff
 
+AlomomolaEggSpeciesMoves:
+	dp ALOMOMOLA, PLAIN_FORM
+	db $ff
+
 JoltikEggSpeciesMoves:
 	dp JOLTIK, PLAIN_FORM
 	;db CROSS_POISON

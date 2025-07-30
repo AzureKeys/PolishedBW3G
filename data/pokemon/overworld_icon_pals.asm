@@ -282,6 +282,7 @@ OverworldMonIconColors::
 	iconpal RED, PURPLE ; AMOONGUSS
 	iconpal AZURE, TEAL ; FRILLISH
 	iconpal AZURE, TEAL ; JELLICENT
+	iconpal PINK, PURPLE ; ALOMOMOLA
 	iconpal ORANGE, YELLOW ; JOLTIK
 	iconpal BLUE, ORANGE ; GALVANTULA
 	iconpal GREEN, BLUE ; FERROSEED

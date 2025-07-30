@@ -3,6 +3,7 @@
 AlphabeticalPokedexOrder:
 	table_width 2
 	dp ACCELGOR
+	dp ALOMOMOLA
 	dp AMOONGUSS
 	dp AMPHAROS
 	dp ANNIHILAPE

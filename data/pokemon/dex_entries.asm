@@ -2747,6 +2747,16 @@ JellicentPokedexEntry::
 	next "favorite food is"
 	next "life energy.@"
 
+SECTION "AlomomolaPokedexEntry", ROMX
+AlomomolaPokedexEntry::
+	db "Caring@"
+	db "When they find a"
+	next "wounded #mon,"
+	next "they embrace it"
+	page "with their fins"
+	next "and bring it to"
+	next "to shore.@"
+
 SECTION "JoltikPokedexEntry", ROMX
 JoltikPokedexEntry::
 	db "Attaching@"
