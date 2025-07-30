@@ -296,6 +296,8 @@ PokemonBodyData:
 	body_data   2,    3, FINS,         WHITE  ; TYNAMO
 	body_data  12,  220, FINS,         BLUE   ; EELEKTRIK
 	body_data  21,  805, FINS,         BLUE   ; EELEKTROSS
+	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; ELGYEM
+	body_data  10,  345, BIPEDAL,      BROWN  ; BEHEEYEM
 	body_data   3,   31, HEAD_BASE,    WHITE  ; LITWICK
 	body_data   6,  130, HEAD_ARMS,    BLACK  ; LAMPENT
 	body_data  10,  343, HEAD_ARMS,    BLACK  ; CHANDELURE

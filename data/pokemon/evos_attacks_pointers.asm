@@ -293,6 +293,8 @@ EvosAttacksPointers::
 	dw TynamoEvosAttacks
 	dw EelektrikEvosAttacks
 	dw EelektrossEvosAttacks
+	dw ElgyemEvosAttacks
+	dw BeheeyemEvosAttacks
 	dw LitwickEvosAttacks
 	dw LampentEvosAttacks
 	dw ChandelureEvosAttacks

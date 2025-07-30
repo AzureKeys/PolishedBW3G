@@ -2857,6 +2857,26 @@ EelektrossPokedexEntry::
 	next "drag it back into"
 	next "the ocean.@"
 
+SECTION "ElgyemPokedexEntry", ROMX
+ElgyemPokedexEntry::
+	db "Cerebral@"
+	db "It uses strong"
+	next "psychic power to"
+	next "squeeze its"
+	page "opponents' brain,"
+	next "causing horrible"
+	next "headaches.@"
+
+SECTION "BeheeyemPokedexEntry", ROMX
+BeheeyemPokedexEntry::
+	db "Cerebral@"
+	db "It uses psychic"
+	next "power to control"
+	next "an opponent's"
+	page "brain and tamper"
+	next "with its"
+	next "memories.@"
+
 SECTION "LitwickPokedexEntry", ROMX
 LitwickPokedexEntry::
 	db "Candle@"

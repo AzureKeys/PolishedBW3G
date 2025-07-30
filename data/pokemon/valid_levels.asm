@@ -294,6 +294,8 @@ endc
 	db   1,  38 ; Tynamo
 	db  39,  49 ; Eelektrik
 	db  50, 100 ; Eelektross
+	db   1,  41 ; Elgyem
+	db  42, 100 ; Beheeyem
 	db   1,  40 ; Litwick
 	db  41,  51 ; Lampent
 	db  52, 100 ; Chandelure

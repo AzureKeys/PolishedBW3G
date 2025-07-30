@@ -112,6 +112,8 @@ NewPokedexOrder:
 	dp TYNAMO
 	dp EELEKTRIK
 	dp EELEKTROSS
+	dp ELGYEM
+	dp BEHEEYEM
 	dp LITWICK
 	dp LAMPENT
 	dp CHANDELURE

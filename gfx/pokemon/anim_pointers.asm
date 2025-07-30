@@ -289,6 +289,8 @@ AnimationPointers:
 	dw TynamoAnimation
 	dw EelektrikAnimation
 	dw EelektrossAnimation
+	dw ElgyemAnimation
+	dw BeheeyemAnimation
 	dw LitwickAnimation
 	dw LampentAnimation
 	dw ChandelureAnimation

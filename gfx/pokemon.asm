@@ -1481,6 +1481,14 @@ SECTION "Eelektross Pics", ROMX
 EelektrossFrontpic: INCBIN "gfx/pokemon/eelektross/front.animated.2bpp.lz"
 EelektrossBackpic:  INCBIN "gfx/pokemon/eelektross/back.2bpp.lz"
 
+SECTION "Elgyem Pics", ROMX
+ElgyemFrontpic: INCBIN "gfx/pokemon/elgyem/front.animated.2bpp.lz"
+ElgyemBackpic:  INCBIN "gfx/pokemon/elgyem/back.2bpp.lz"
+
+SECTION "Beheeyem Pics", ROMX
+BeheeyemFrontpic: INCBIN "gfx/pokemon/beheeyem/front.animated.2bpp.lz"
+BeheeyemBackpic:  INCBIN "gfx/pokemon/beheeyem/back.2bpp.lz"
+
 SECTION "Litwick Pics", ROMX
 LitwickFrontpic: INCBIN "gfx/pokemon/litwick/front.animated.2bpp.lz"
 LitwickBackpic:  INCBIN "gfx/pokemon/litwick/back.2bpp.lz"

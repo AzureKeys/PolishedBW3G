@@ -121,6 +121,8 @@ KlinklangFootprint::
 TynamoFootprint::
 EelektrikFootprint::
 EelektrossFootprint::
+ElgyemFootprint::
+BeheeyemFootprint::
 LitwickFootprint::
 LampentFootprint::
 ChandelureFootprint::

@@ -290,6 +290,8 @@ PokedexDataPointerTable:
 	dba TynamoPokedexEntry
 	dba EelektrikPokedexEntry
 	dba EelektrossPokedexEntry
+	dba ElgyemPokedexEntry
+	dba BeheeyemPokedexEntry
 	dba LitwickPokedexEntry
 	dba LampentPokedexEntry
 	dba ChandelurePokedexEntry

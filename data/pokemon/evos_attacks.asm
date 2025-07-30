@@ -5666,6 +5666,43 @@ endc
 	learnset 1, ACID
 	;learnset 1, DISCHARGE
 	
+	evos_attacks Elgyem
+	evo_data EVOLVE_LEVEL, 42, BEHEEYEM
+	learnset 1, ABSORB
+	learnset 1, STRING_SHOT
+	learnset 4, THUNDER_WAVE
+	learnset 7, SCREECH
+	;learnset 12, FURY_CUTTER
+	;learnset 15, ELECTROWEB
+	learnset 18, BUG_BITE
+	learnset 23, ACID ; Gastro Acid
+	learnset 26, SLASH
+	;learnset 29, ELECTRO_BALL
+	;learnset 34, SIGNAL_BEAM
+	learnset 37, AGILITY
+	learnset 40, SUCKER_PUNCH
+	;learnset 45, DISCHARGE
+	learnset 48, BUG_BUZZ
+	
+	evos_attacks Beheeyem
+	learnset 1, ABSORB
+	learnset 1, STRING_SHOT
+	learnset 1, THUNDER_WAVE
+	learnset 1, SCREECH
+	learnset 4, THUNDER_WAVE
+	learnset 7, SCREECH
+	;learnset 12, FURY_CUTTER
+	;learnset 15, ELECTROWEB
+	learnset 18, BUG_BITE
+	learnset 23, ACID ; Gastro Acid
+	learnset 26, SLASH
+	;learnset 29, ELECTRO_BALL
+	;learnset 34, SIGNAL_BEAM
+	learnset 40, AGILITY
+	learnset 46, SUCKER_PUNCH
+	;learnset 54, DISCHARGE
+	learnset 60, BUG_BUZZ
+	
 	evos_attacks Litwick
 	evo_data EVOLVE_LEVEL, 41, LAMPENT
 	learnset 1, EMBER

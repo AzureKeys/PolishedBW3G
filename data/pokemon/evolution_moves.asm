@@ -293,6 +293,8 @@ endc
 	db NO_MOVE      ; TYNAMO
 	db CRUNCH       ; EELEKTRIK
 	db THUNDERPUNCH ; EELEKTROSS
+	db NO_MOVE      ; ELGYEM
+	db NO_MOVE      ; BEHEEYEM
 	db NO_MOVE      ; LITWICK
 	db NO_MOVE      ; LAMPENT
 	db NO_MOVE      ; CHANDELURE

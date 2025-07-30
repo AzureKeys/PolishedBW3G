@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	dp BASCULIN
 	dp BAYLEEF
 	dp BEARTIC
+	dp BEHEEYEM
 	dp BISHARP
 	dp BLASTOISE
 	dp BLITZLE
@@ -72,6 +73,7 @@ AlphabeticalPokedexOrder:
 	dp ELECTABUZZ
 	dp ELECTIVIRE
 	dp ELEKID
+	dp ELGYEM
 	dp EMBOAR
 	dp EMOLGA
 	dp ESCAVALIER

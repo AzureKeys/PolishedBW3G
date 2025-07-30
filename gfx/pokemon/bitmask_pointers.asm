@@ -289,6 +289,8 @@ BitmasksPointers:
 	dw TynamoBitmasks
 	dw EelektrikBitmasks
 	dw EelektrossBitmasks
+	dw ElgyemBitmasks
+	dw BeheeyemBitmasks
 	dw LitwickBitmasks
 	dw LampentBitmasks
 	dw ChandelureBitmasks

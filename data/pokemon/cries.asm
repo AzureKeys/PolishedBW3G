@@ -295,6 +295,8 @@ PokemonCries::
 	mon_cry CRY_SENTRET,     $03a,  $2a8 ; Tynamo
 	mon_cry CRY_LAPRAS,     -$159,  $145 ; Eelektrik
 	mon_cry CRY_BLASTOISE,   $06f,  $148 ; Eelektross
+	mon_cry CRY_GRIMER,      $000,  $100 ; ELGYEM*
+	mon_cry CRY_MUK,         $0ef,  $17f ; BEHEEYEM*
 	mon_cry CRY_WOOPER,      $030,  $0d0 ; Litwick
 	mon_cry CRY_CLEFAIRY,   -$02e,  $1dd ; Lampent
 	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; Chandelure

@@ -313,6 +313,8 @@
 	const TYNAMO     ; 15f
 	const EELEKTRIK  ; 160
 	const EELEKTROSS ; 161
+	const ELGYEM     ; 162
+	const BEHEEYEM   ; 163
 	const LITWICK    ; 164
 	const LAMPENT    ; 165
 	const CHANDELURE ; 166

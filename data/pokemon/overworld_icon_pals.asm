@@ -293,6 +293,8 @@ OverworldMonIconColors::
 	iconpal WHITE, AZURE ; TYNAMO
 	iconpal BLUE, AZURE ; EELEKTRIK
 	iconpal BLUE, TEAL ; EELEKTROSS
+	iconpal TEAL, BLUE ; ELGYEM
+	iconpal BROWN, GRAY ; BEHEEYEM
 	iconpal PURPLE, AZURE ; LITWICK
 	iconpal BLACK, PURPLE ; LAMPENT
 	iconpal PURPLE, ORANGE ; CHANDELURE

@@ -289,6 +289,8 @@ AnimationExtraPointers:
 	dw TynamoAnimationExtra
 	dw EelektrikAnimationExtra
 	dw EelektrossAnimationExtra
+	dw ElgyemAnimationExtra
+	dw BeheeyemAnimationExtra
 	dw LitwickAnimationExtra
 	dw LampentAnimationExtra
 	dw ChandelureAnimationExtra

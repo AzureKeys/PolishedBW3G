@@ -290,6 +290,8 @@ PokemonNames::
 	rawchar "Tynamo@@@@"
 	rawchar "Eelektrik@"
 	rawchar "Eelektross"
+	rawchar "Elgyem@@@@"
+	rawchar "Beheeyem@@"
 	rawchar "Litwick@@@"
 	rawchar "Lampent@@@"
 	rawchar "Chandelure"

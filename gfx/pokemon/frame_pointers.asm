@@ -289,6 +289,8 @@ FramesPointers:
 	dw TynamoFrames
 	dw EelektrikFrames
 	dw EelektrossFrames
+	dw ElgyemFrames
+	dw BeheeyemFrames
 	dw LitwickFrames
 	dw LampentFrames
 	dw ChandelureFrames

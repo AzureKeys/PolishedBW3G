@@ -289,6 +289,8 @@ FootprintPointers::
 	dw TynamoFootprint
 	dw EelektrikFootprint
 	dw EelektrossFootprint
+	dw ElgyemFootprint
+	dw BeheeyemFootprint
 	dw LitwickFootprint
 	dw LampentFootprint
 	dw ChandelureFootprint

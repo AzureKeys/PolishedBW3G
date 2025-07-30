@@ -1447,6 +1447,16 @@ EelektrossMini::     INCBIN "gfx/minis/eelektross.2bpp.lz"
 EelektrossMiniMask:: INCBIN "gfx/minis/eelektross_mask.1bpp.lz"
 EelektrossIcon::     INCBIN "gfx/icons/eelektross.2bpp.lz"
 
+SECTION "Elgyem Mini Icon", ROMX
+ElgyemMini::     INCBIN "gfx/minis/elgyem.2bpp.lz"
+ElgyemMiniMask:: INCBIN "gfx/minis/elgyem_mask.1bpp.lz"
+ElgyemIcon::     INCBIN "gfx/icons/elgyem.2bpp.lz"
+
+SECTION "Beheeyem Mini Icon", ROMX
+BeheeyemMini::     INCBIN "gfx/minis/beheeyem.2bpp.lz"
+BeheeyemMiniMask:: INCBIN "gfx/minis/beheeyem_mask.1bpp.lz"
+BeheeyemIcon::     INCBIN "gfx/icons/beheeyem.2bpp.lz"
+
 SECTION "Litwick Mini Icon", ROMX
 LitwickMini::     INCBIN "gfx/minis/litwick.2bpp.lz"
 LitwickMiniMask:: INCBIN "gfx/minis/litwick_mask.1bpp.lz"

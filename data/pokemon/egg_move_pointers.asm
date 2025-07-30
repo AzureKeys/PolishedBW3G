@@ -289,6 +289,8 @@ EggSpeciesMovesPointers::
 	dw TynamoEggSpeciesMoves            ; Tynamo
 	dw TynamoEggSpeciesMoves            ; Eelektrik
 	dw TynamoEggSpeciesMoves            ; Eelektross
+	dw ElgyemEggSpeciesMoves            ; Elgyem
+	dw ElgyemEggSpeciesMoves            ; Beheeyem
 	dw LitwickEggSpeciesMoves           ; Litwick
 	dw LitwickEggSpeciesMoves           ; Lampent
 	dw LitwickEggSpeciesMoves           ; Chandelure

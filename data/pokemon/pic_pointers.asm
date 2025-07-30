@@ -293,6 +293,8 @@ PokemonPicPointers::
 	pics Tynamo
 	pics Eelektrik
 	pics Eelektross
+	pics Elgyem
+	pics Beheeyem
 	pics Litwick
 	pics Lampent
 	pics Chandelure
