@@ -1282,6 +1282,16 @@ ZoroarkMini::     INCBIN "gfx/minis/zoroark.2bpp.lz"
 ZoroarkMiniMask:: INCBIN "gfx/minis/zoroark_mask.1bpp.lz"
 ZoroarkIcon::     INCBIN "gfx/icons/zoroark.2bpp.lz"
 
+SECTION "Minccino Mini Icon", ROMX
+MinccinoMini::     INCBIN "gfx/minis/minccino.2bpp.lz"
+MinccinoMiniMask:: INCBIN "gfx/minis/minccino_mask.1bpp.lz"
+MinccinoIcon::     INCBIN "gfx/icons/minccino.2bpp.lz"
+
+SECTION "Cinccino Mini Icon", ROMX
+CinccinoMini::     INCBIN "gfx/minis/cinccino.2bpp.lz"
+CinccinoMiniMask:: INCBIN "gfx/minis/cinccino_mask.1bpp.lz"
+CinccinoIcon::     INCBIN "gfx/icons/cinccino.2bpp.lz"
+
 SECTION "Gothita Mini Icon", ROMX
 GothitaMini::     INCBIN "gfx/minis/gothita.2bpp.lz"
 GothitaMiniMask:: INCBIN "gfx/minis/gothita_mask.1bpp.lz"

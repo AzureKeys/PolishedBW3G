@@ -256,6 +256,8 @@ AnimationExtraPointers:
 	dw ZoroarkPlainAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw MinccinoAnimationExtra
+	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra

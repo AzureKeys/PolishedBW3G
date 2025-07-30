@@ -256,6 +256,8 @@ EggSpeciesMovesPointers::
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw MinccinoEggSpeciesMoves          ; Minccino
+	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle

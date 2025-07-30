@@ -261,6 +261,8 @@ endc
 	db  30, 100 ; Zoroark
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  29 ; Minccino
+	db  30, 100 ; Cinccino
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle

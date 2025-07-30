@@ -2528,6 +2528,26 @@ ZoroarkPlainPokedexEntry::
     page "trapped in an"
     next "illusion.@"
 
+SECTION "MinccinoPokedexEntry", ROMX
+MinccinoPokedexEntry::
+	db "Chinchilla@"
+	db "Minccino greet"
+    next "each other by"
+    next "rubbing their"
+    page "tails together."
+    next "They always keep"
+    next "them clean.@"
+
+SECTION "CinccinoPokedexEntry", ROMX
+CinccinoPokedexEntry::
+	db "Scarf@"
+	db "Cinccino's fur is"
+    next "covered in an oil"
+    next "that makes it easy"
+    page "to repel attacks."
+    next "Their fur is"
+    next "amazingly soft.@"
+
 SECTION "GothitaPokedexEntry", ROMX
 GothitaPokedexEntry::
 	db "Fixation@"

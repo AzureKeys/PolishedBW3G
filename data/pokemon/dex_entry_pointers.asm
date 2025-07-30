@@ -257,6 +257,8 @@ PokedexDataPointerTable:
 	dba ZoroarkPlainPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
+	dba MinccinoPokedexEntry
+	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry

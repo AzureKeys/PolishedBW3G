@@ -32,6 +32,7 @@ AlphabeticalPokedexOrder:
 	dp CHARMELEON
 	dp CHIKORITA
 	dp CHINCHOU
+	dp CINCCINO
 	dp CLEFABLE
 	dp CLEFAIRY
 	dp CLEFFA
@@ -170,6 +171,7 @@ AlphabeticalPokedexOrder:
 	dp MEW
 	dp MEWTWO
 	dp MIME_JR_
+	dp MINCCINO
 	dp MISDREAVUS
 	dp MISMAGIUS
 	dp MR__MIME

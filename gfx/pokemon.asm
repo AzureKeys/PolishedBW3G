@@ -1349,6 +1349,14 @@ SECTION "ZoroarkPlain Pics", ROMX
 ZoroarkPlainFrontpic: INCBIN "gfx/pokemon/zoroark_plain/front.animated.2bpp.lz"
 ZoroarkPlainBackpic:  INCBIN "gfx/pokemon/zoroark_plain/back.2bpp.lz"
 
+SECTION "Minccino Pics", ROMX
+MinccinoFrontpic: INCBIN "gfx/pokemon/minccino/front.animated.2bpp.lz"
+MinccinoBackpic:  INCBIN "gfx/pokemon/minccino/back.2bpp.lz"
+
+SECTION "Cinccino Pics", ROMX
+CinccinoFrontpic: INCBIN "gfx/pokemon/cinccino/front.animated.2bpp.lz"
+CinccinoBackpic:  INCBIN "gfx/pokemon/cinccino/back.2bpp.lz"
+
 SECTION "Gothita Pics", ROMX
 GothitaFrontpic: INCBIN "gfx/pokemon/gothita/front.animated.2bpp.lz"
 GothitaBackpic:  INCBIN "gfx/pokemon/gothita/back.2bpp.lz"

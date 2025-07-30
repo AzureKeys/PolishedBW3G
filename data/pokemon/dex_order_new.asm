@@ -79,6 +79,8 @@ NewPokedexOrder:
 	dp GARBODOR
 	dp ZORUA
 	dp ZOROARK
+	dp MINCCINO
+	dp CINCCINO
 	dp GOTHITA
 	dp GOTHORITA
 	dp GOTHITELLE

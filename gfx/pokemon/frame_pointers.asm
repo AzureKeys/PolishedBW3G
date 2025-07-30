@@ -256,6 +256,8 @@ FramesPointers:
 	dw ZoroarkPlainFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw MinccinoFrames
+	dw CinccinoFrames
 	dw GothitaFrames
 	dw GothoritaFrames
 	dw GothitelleFrames

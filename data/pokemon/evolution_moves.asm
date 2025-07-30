@@ -260,6 +260,8 @@ endc
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; MINCCINO
+	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE

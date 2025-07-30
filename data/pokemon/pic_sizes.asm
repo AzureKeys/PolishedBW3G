@@ -275,6 +275,8 @@ INCLUDE "gfx/pokemon/zorua_plain/front.dimensions"
 INCLUDE "gfx/pokemon/zoroark_plain/front.dimensions"
 INCLUDE "gfx/pokemon/egg/front.dimensions"
 INCLUDE "gfx/pokemon/egg/front.dimensions" ; $100
+INCLUDE "gfx/pokemon/minccino/front.dimensions"
+INCLUDE "gfx/pokemon/cinccino/front.dimensions"
 INCLUDE "gfx/pokemon/gothita/front.dimensions"
 INCLUDE "gfx/pokemon/gothorita/front.dimensions"
 INCLUDE "gfx/pokemon/gothitelle/front.dimensions"

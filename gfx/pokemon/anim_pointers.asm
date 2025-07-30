@@ -256,6 +256,8 @@ AnimationPointers:
 	dw ZoroarkPlainAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw MinccinoAnimation
+	dw CinccinoAnimation
 	dw GothitaAnimation
 	dw GothoritaAnimation
 	dw GothitelleAnimation

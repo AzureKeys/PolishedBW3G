@@ -256,6 +256,8 @@ BitmasksPointers:
 	dw ZoroarkPlainBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw MinccinoBitmasks
+	dw CinccinoBitmasks
 	dw GothitaBitmasks
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks

@@ -257,6 +257,8 @@ PokemonNames::
 	rawchar "Zoroark@@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Minccino@@"
+	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"

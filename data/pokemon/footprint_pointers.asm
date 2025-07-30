@@ -256,6 +256,8 @@ FootprintPointers::
 	dw ZoroarkFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw MinccinoFootprint
+	dw CinccinoFootprint
 	dw GothitaFootprint
 	dw GothoritaFootprint
 	dw GothitelleFootprint

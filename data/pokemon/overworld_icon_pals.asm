@@ -260,6 +260,8 @@ OverworldMonIconColors::
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal GRAY, PINK ; MINCCINO
+	iconpal GRAY, BROWN ; CINCCINO
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE

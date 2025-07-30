@@ -263,6 +263,8 @@ PokemonBodyData:
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   4,   58, QUADRUPED,    GRAY   ; MINCCINO
+	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE

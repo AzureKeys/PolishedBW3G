@@ -1060,6 +1060,10 @@ ZoruaPlainEggSpeciesMoves:
 	db SUCKER_PUNCH
 	db $ff
 
+MinccinoEggSpeciesMoves:
+	dp MINCCINO, PLAIN_FORM
+	db $ff
+
 GothitaEggSpeciesMoves:
 	dp GOTHITA, PLAIN_FORM
 	db DARK_PULSE

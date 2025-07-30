@@ -260,6 +260,8 @@ EvosAttacksPointers::
 	dw ZoroarkPlainEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw MinccinoEvosAttacks
+	dw CinccinoEvosAttacks
 	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks

@@ -280,6 +280,8 @@
 	const ZOROARK    ; 140
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const MINCCINO   ; 141
+	const CINCCINO   ; 142
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145

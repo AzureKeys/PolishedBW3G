@@ -260,6 +260,8 @@ MiniIconPointers:
 	mini_icon Zoroark
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Minccino
+	mini_icon Cinccino
 	mini_icon Gothita
 	mini_icon Gothorita
 	mini_icon Gothitelle

@@ -291,6 +291,8 @@ INCLUDE "data/pokemon/base_stats/zorua_plain.asm"
 INCLUDE "data/pokemon/base_stats/zoroark_plain.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm" ; 100
+INCLUDE "data/pokemon/base_stats/minccino.asm"
+INCLUDE "data/pokemon/base_stats/cinccino.asm"
 INCLUDE "data/pokemon/base_stats/gothita.asm"
 INCLUDE "data/pokemon/base_stats/gothorita.asm"
 INCLUDE "data/pokemon/base_stats/gothitelle.asm"

@@ -88,6 +88,8 @@ TrubbishFootprint::
 GarbodorFootprint::
 ZoruaFootprint::
 ZoroarkFootprint::
+MinccinoFootprint::
+CinccinoFootprint::
 GothitaFootprint::
 GothoritaFootprint::
 GothitelleFootprint::

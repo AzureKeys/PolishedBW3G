@@ -260,6 +260,8 @@ PokemonPicPointers::
 	pics ZoroarkPlain
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Minccino
+	pics Cinccino
 	pics Gothita
 	pics Gothorita
 	pics Gothitelle
