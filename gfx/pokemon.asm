@@ -1545,6 +1545,10 @@ SECTION "Mienshao Pics", ROMX
 MienshaoFrontpic: INCBIN "gfx/pokemon/mienshao/front.animated.2bpp.lz"
 MienshaoBackpic:  INCBIN "gfx/pokemon/mienshao/back.2bpp.lz"
 
+SECTION "Druddigon Pics", ROMX
+DruddigonFrontpic: INCBIN "gfx/pokemon/druddigon/front.animated.2bpp.lz"
+DruddigonBackpic:  INCBIN "gfx/pokemon/druddigon/back.2bpp.lz"
+
 SECTION "Golett Pics", ROMX
 GolettFrontpic: INCBIN "gfx/pokemon/golett/front.animated.2bpp.lz"
 GolettBackpic:  INCBIN "gfx/pokemon/golett/back.2bpp.lz"

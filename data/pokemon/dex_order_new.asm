@@ -128,6 +128,7 @@ NewPokedexOrder:
 	dp STUNFISK
 	dp MIENFOO
 	dp MIENSHAO
+	dp DRUDDIGON
 	dp GOLETT
 	dp GOLURK
 	dp PAWNIARD

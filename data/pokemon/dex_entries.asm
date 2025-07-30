@@ -3017,6 +3017,16 @@ MienshaoPokedexEntry::
 	next "rapid they can't"
 	next "be seen.@"
 
+SECTION "DruddigonPokedexEntry", ROMX
+DruddigonPokedexEntry::
+	db "Cave@"
+	db "It races through"
+	next "narrow caves,"
+	next "using its sharp"
+	page "claws to catch"
+	next "prey. Its head is"
+	next "harder than rock.@"
+
 SECTION "GolettPokedexEntry", ROMX
 GolettPokedexEntry::
 	db "Automaton@"

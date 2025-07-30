@@ -310,6 +310,7 @@ endc
 	db  20, 100 ; Stunfisk
 	db   1,  49 ; Mienfoo
 	db  50, 100 ; Mienshao
+	db  30, 100 ; Druddigon
 	db   1,  42 ; Golett
 	db  43, 100 ; Golurk
 	db   1,  51 ; Pawniard

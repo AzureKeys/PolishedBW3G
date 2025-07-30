@@ -137,6 +137,7 @@ AccelgorFootprint::
 StunfiskFootprint::
 MienfooFootprint::
 MienshaoFootprint::
+DruddigonFootprint::
 GolettFootprint::
 GolurkFootprint::
 PawniardFootprint::

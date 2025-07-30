@@ -306,6 +306,7 @@ PokemonNames::
 	rawchar "Stunfisk@@"
 	rawchar "Mienfoo@@@"
 	rawchar "Mienshao@@"
+	rawchar "Druddigon@"
 	rawchar "Golett@@@@"
 	rawchar "Golurk@@@@"
 	rawchar "Pawniard@@"

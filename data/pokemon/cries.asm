@@ -311,6 +311,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $2d1,  $0e0 ; Stunfisk
 	mon_cry CRY_WEEPINBELL,  $000,  $100 ; MIENFOO*
 	mon_cry CRY_WEEPINBELL,  $020,  $140 ; MIENSHAO*
+	mon_cry CRY_DUNSPARCE,   $000,  $180 ; DRUDDIGON*
 	mon_cry CRY_CATERPIE,    $0fa,  $129 ; Golett
 	mon_cry CRY_TYPHLOSION,  $111,  $0fa ; Golurk
 	mon_cry CRY_GROWLITHE,   $1d0,  $0b0 ; Pawniard

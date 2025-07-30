@@ -61,6 +61,7 @@ AlphabeticalPokedexOrder:
 	dp DRAGONITE
 	dp DRATINI
 	dp DRILBUR
+	dp DRUDDIGON
 	dp DUCKLETT
 	dp DUDUNSPARCE
 	dp DUNSPARCE

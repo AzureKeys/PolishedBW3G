@@ -1226,6 +1226,10 @@ MienfooEggSpeciesMoves:
 	dp MIENFOO, PLAIN_FORM
 	db $ff
 
+DruddigonEggSpeciesMoves:
+	dp DRUDDIGON, PLAIN_FORM
+	db $ff
+
 GolettEggSpeciesMoves:
 	dp GOLETT, PLAIN_FORM
 	db $ff

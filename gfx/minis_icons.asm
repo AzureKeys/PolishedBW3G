@@ -1527,6 +1527,11 @@ MienshaoMini::     INCBIN "gfx/minis/mienshao.2bpp.lz"
 MienshaoMiniMask:: INCBIN "gfx/minis/mienshao_mask.1bpp.lz"
 MienshaoIcon::     INCBIN "gfx/icons/mienshao.2bpp.lz"
 
+SECTION "Druddigon Mini Icon", ROMX
+DruddigonMini::     INCBIN "gfx/minis/druddigon.2bpp.lz"
+DruddigonMiniMask:: INCBIN "gfx/minis/druddigon_mask.1bpp.lz"
+DruddigonIcon::     INCBIN "gfx/icons/druddigon.2bpp.lz"
+
 SECTION "Golett Mini Icon", ROMX
 GolettMini::     INCBIN "gfx/minis/golett.2bpp.lz"
 GolettMiniMask:: INCBIN "gfx/minis/golett_mask.1bpp.lz"

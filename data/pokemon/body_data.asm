@@ -312,6 +312,7 @@ PokemonBodyData:
 	body_data   7,  110, FINS,         BROWN  ; STUNFISK
 	body_data   9,  200, BIPEDAL_TAIL, YELLOW ; MIENFOO
 	body_data  14,  355, BIPEDAL_TAIL, PURPLE ; MIENSHAO
+	body_data  16, 1390, BIPEDAL_TAIL, RED    ; DRUDDIGON
 	body_data  10,  920, BIPEDAL,      GREEN  ; GOLETT
 	body_data  28, 3300, BIPEDAL,      GREEN  ; GOLURK
 	body_data   5,  102, BIPEDAL,      RED    ; PAWNIARD

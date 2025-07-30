@@ -305,6 +305,7 @@ AnimationPointers:
 	dw StunfiskPlainAnimation
 	dw MienfooAnimation
 	dw MienshaoAnimation
+	dw DruddigonAnimation
 	dw GolettAnimation
 	dw GolurkAnimation
 	dw PawniardAnimation

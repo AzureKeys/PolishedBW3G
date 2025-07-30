@@ -309,6 +309,7 @@ MiniIconPointers:
 	mini_icon Stunfisk
 	mini_icon Mienfoo
 	mini_icon Mienshao
+	mini_icon Druddigon
 	mini_icon Golett
 	mini_icon Golurk
 	mini_icon Pawniard

@@ -305,6 +305,7 @@ EggSpeciesMovesPointers::
 	dw StunfiskPlainEggSpeciesMoves     ; Stunfisk
 	dw MienfooEggSpeciesMoves           ; Mienfoo
 	dw MienfooEggSpeciesMoves           ; Mienshao
+	dw DruddigonEggSpeciesMoves         ; Druddigon
 	dw GolettEggSpeciesMoves            ; Golett
 	dw GolettEggSpeciesMoves            ; Golurk
 	dw PawniardEggSpeciesMoves          ; Pawniard

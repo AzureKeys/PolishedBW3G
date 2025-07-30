@@ -309,6 +309,7 @@ EvosAttacksPointers::
 	dw StunfiskPlainEvosAttacks
 	dw MienfooEvosAttacks
 	dw MienshaoEvosAttacks
+	dw DruddigonEvosAttacks
 	dw GolettEvosAttacks
 	dw GolurkEvosAttacks
 	dw PawniardEvosAttacks

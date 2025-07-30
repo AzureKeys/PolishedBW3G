@@ -309,6 +309,7 @@ PokemonPicPointers::
 	pics StunfiskPlain
 	pics Mienfoo
 	pics Mienshao
+	pics Druddigon
 	pics Golett
 	pics Golurk
 	pics Pawniard

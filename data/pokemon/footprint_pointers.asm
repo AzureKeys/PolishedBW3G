@@ -305,6 +305,7 @@ FootprintPointers::
 	dw StunfiskFootprint
 	dw MienfooFootprint
 	dw MienshaoFootprint
+	dw DruddigonFootprint
 	dw GolettFootprint
 	dw GolurkFootprint
 	dw PawniardFootprint

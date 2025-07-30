@@ -305,6 +305,7 @@ FramesPointers:
 	dw StunfiskPlainFrames
 	dw MienfooFrames
 	dw MienshaoFrames
+	dw DruddigonFrames
 	dw GolettFrames
 	dw GolurkFrames
 	dw PawniardFrames
