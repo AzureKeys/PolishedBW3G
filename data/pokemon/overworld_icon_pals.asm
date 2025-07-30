@@ -15,8 +15,6 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; BLASTOISE
 	iconpal PURPLE, GRAY ; RATTATA
 	iconpal BROWN, RED ; RATICATE
-	iconpal PURPLE, BROWN ; EKANS
-	iconpal PURPLE, BROWN ; ARBOK
 	iconpal RED, AZURE ; PIKACHU
 	iconpal ORANGE, AZURE ; RAICHU
 	iconpal BROWN, TEAL ; SANDSHREW
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE
@@ -325,10 +323,6 @@ OverworldMonIconColors::
 
 rept NUM_UNOWN - 1
 	iconpal GRAY, BLUE
-endr
-
-rept NUM_ARBOK - 1
-	iconpal PURPLE, BROWN
 endr
 
 rept NUM_PIKACHU - 1

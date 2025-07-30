@@ -11,8 +11,6 @@ FootprintPointers::
 	dw BlastoiseFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
-	dw EkansFootprint
-	dw ArbokFootprint
 	dw PikachuFootprint
 	dw RaichuFootprint
 	dw SandshrewFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
 	dw GarbodorFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw GothitaFootprint
 	dw GothoritaFootprint
 	dw GothitelleFootprint

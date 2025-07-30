@@ -297,42 +297,6 @@ endc
 	learnset 39, DOUBLE_EDGE
 	learnset 44, COUNTER ; Endeavor → egg move
 
-	evos_attacks Ekans
-	evo_data EVOLVE_LEVEL, 22, ARBOK, NO_FORM ; preserve pre-evo form
-	learnset 1, WRAP
-	learnset 1, LEER
-	learnset 4, POISON_STING
-	learnset 9, BITE
-	learnset 12, GLARE
-	learnset 17, SCREECH
-	learnset 20, ACID
-	learnset 25, DISABLE ; Stockpile + Spit Up + Swallow → egg move
-	learnset 28, PURSUIT ; Acid Spray → egg move
-	learnset 35, POISON_JAB ; Mud Bomb → TM move
-	learnset 36, LEECH_LIFE ; Gastro Acid → TM move
-	learnset 38, IRON_TAIL ; Belch → TM move
-	learnset 41, HAZE
-	learnset 44, BULK_UP ; Coil → TM move
-	learnset 49, GUNK_SHOT
-
-	evos_attacks Arbok
-	learnset 1, WRAP
-	learnset 1, LEER
-	learnset 1, CRUNCH ; evolution move
-	learnset 4, POISON_STING
-	learnset 9, BITE
-	learnset 12, GLARE
-	learnset 17, SCREECH
-	learnset 20, ACID
-	learnset 27, DISABLE ; Stockpile + Spit Up + Swallow → egg move
-	learnset 32, PURSUIT ; Acid Spray → egg move
-	learnset 39, POISON_JAB ; Mud Bomb → TM move
-	learnset 44, LEECH_LIFE ; Gastro Acid → TM move
-	learnset 48, IRON_TAIL ; Belch → TM move
-	learnset 51, HAZE
-	learnset 56, BULK_UP ; Coil → TM move
-	learnset 63, GUNK_SHOT
-
 	evos_attacks Pikachu
 	evo_data EVOLVE_ITEM, THUNDERSTONE, RAICHU, PLAIN_FORM
 	evo_data EVOLVE_ITEM, ODD_SOUVENIR, RAICHU, ALOLAN_FORM

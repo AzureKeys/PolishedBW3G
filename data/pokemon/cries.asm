@@ -17,8 +17,6 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   $000,  $100 ; Blastoise
 	mon_cry CRY_RATTATA,     $000,  $100 ; Rattata
 	mon_cry CRY_RATTATA,     $020,  $17f ; Raticate
-	mon_cry CRY_EKANS,       $012,  $0c0 ; Ekans
-	mon_cry CRY_EKANS,       $0e0,  $090 ; Arbok
 	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; Pikachu
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; Raichu
 	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; Sandshrew
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
 	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
 	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_PARAS,       $002,  $0a0 ; GOTHITA*
 	mon_cry CRY_PARAS,       $000,  $100 ; GOTHORITA*
 	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle

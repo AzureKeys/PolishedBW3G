@@ -4,9 +4,6 @@ InvalidVariants: ; for Wonder Trade and invalid inherited forms
 ; Surfing Pikachu and Red Gyarados) are conveniently already here, and
 ; none of these other pokemon are obtainable or breedable. If these lists
 ; ever diverge, you'll have to separate them, but for now it's fiiiiine - darsh
-	dp ARBOK,      ARBOK_KOGA_FORM
-	dp ARBOK,      ARBOK_AGATHA_FORM
-	dp ARBOK,      ARBOK_ARIANA_FORM
 	dp PIKACHU,    PIKACHU_FLY_FORM
 	dp PIKACHU,    PIKACHU_SURF_FORM
 	dp PIKACHU,    PIKACHU_RED_FORM

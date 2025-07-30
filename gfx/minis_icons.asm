@@ -56,16 +56,6 @@ RaticateMini::     INCBIN "gfx/minis/raticate.2bpp.lz"
 RaticateMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lz"
 RaticateIcon::     INCBIN "gfx/icons/raticate.2bpp.lz"
 
-SECTION "Ekans Mini Icon", ROMX
-EkansMini::     INCBIN "gfx/minis/ekans.2bpp.lz"
-EkansMiniMask:: INCBIN "gfx/minis/ekans_mask.1bpp.lz"
-EkansIcon::     INCBIN "gfx/icons/ekans.2bpp.lz"
-
-SECTION "Arbok Mini Icon", ROMX
-ArbokMini::     INCBIN "gfx/minis/arbok.2bpp.lz"
-ArbokMiniMask:: INCBIN "gfx/minis/arbok_mask.1bpp.lz"
-ArbokIcon::     INCBIN "gfx/icons/arbok.2bpp.lz"
-
 SECTION "Pikachu Mini Icon", ROMX
 PikachuMini::         INCBIN "gfx/minis/pikachu.2bpp.lz"
 PikachuFlyMini::      INCBIN "gfx/minis/pikachu_fly.2bpp.lz"

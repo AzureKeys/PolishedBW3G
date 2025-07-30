@@ -12,8 +12,6 @@ PokedexDataPointerTable:
 	dba BlastoisePokedexEntry
 	dba RattataPlainPokedexEntry
 	dba RaticatePlainPokedexEntry
-	dba EkansPokedexEntry
-	dba ArbokPokedexEntry
 	dba PikachuPokedexEntry
 	dba RaichuPlainPokedexEntry
 	dba SandshrewPlainPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry

@@ -15,8 +15,6 @@ MiniIconPointers:
 	mini_icon Blastoise
 	mini_icon Rattata
 	mini_icon Raticate
-	mini_icon Ekans
-	mini_icon Arbok
 	mini_icon Pikachu
 	mini_icon Raichu
 	mini_icon Sandshrew
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Archeops
 	mini_icon Trubbish
 	mini_icon Garbodor
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Zorua
 	mini_icon Zoroark
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Gothita
 	mini_icon Gothorita
 	mini_icon Gothitelle
@@ -350,11 +348,6 @@ MiniIconPointers:
 	mini_icon UnownZ
 	mini_icon UnownExclamation
 	mini_icon UnownQuestion
-
-	mini_icon Arbok ; Kanto
-	mini_icon Arbok ; Koga
-	mini_icon Arbok ; Agatha
-	mini_icon Arbok ; Ariana
 
 	mini_icon PikachuFly ; Fly
 	mini_icon PikachuSurf ; Surf

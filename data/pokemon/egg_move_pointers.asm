@@ -11,8 +11,6 @@ EggSpeciesMovesPointers::
 	dw SquirtleEggSpeciesMoves          ; Blastoise
 	dw RattataPlainEggSpeciesMoves      ; Rattata
 	dw RattataPlainEggSpeciesMoves      ; Raticate
-	dw EkansEggSpeciesMoves             ; Ekans
-	dw EkansEggSpeciesMoves             ; Arbok
 	dw PichuEggSpeciesMoves             ; Pikachu
 	dw PichuEggSpeciesMoves             ; Raichu
 	dw SandshrewPlainEggSpeciesMoves    ; Sandshrew
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle

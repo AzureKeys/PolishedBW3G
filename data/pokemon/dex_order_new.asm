@@ -169,8 +169,6 @@ NewPokedexOrder:
 	dp TOGEKISS
 	dp SANDSHREW
 	dp SANDSLASH
-	dp EKANS
-	dp ARBOK
 	dp DUNSPARCE
 	dp DUDUNSPARCE
 	dp MAREEP

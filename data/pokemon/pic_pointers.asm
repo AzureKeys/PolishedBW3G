@@ -15,8 +15,6 @@ PokemonPicPointers::
 	pics Blastoise
 	pics RattataPlain
 	pics RaticatePlain
-	pics Ekans
-	pics ArbokJohto
 	pics PikachuPlain
 	pics RaichuPlain
 	pics SandshrewPlain
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Archeops
 	pics Trubbish
 	pics Garbodor
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics ZoruaPlain
 	pics ZoroarkPlain
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Gothita
 	pics Gothorita
 	pics Gothitelle
@@ -350,11 +348,6 @@ PokemonPicPointers::
 	pics UnownZ
 	pics UnownExclamation
 	pics UnownQuestion
-
-	pics ArbokKanto
-	pics ArbokKoga
-	pics ArbokAgatha
-	pics ArbokAriana
 
 	pics PikachuFly
 	pics PikachuSurf

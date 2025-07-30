@@ -11,8 +11,6 @@ AnimationExtraPointers:
 	dw BlastoiseAnimationExtra
 	dw RattataPlainAnimationExtra
 	dw RaticatePlainAnimationExtra
-	dw EkansAnimationExtra
-	dw ArbokJohtoAnimationExtra
 	dw PikachuPlainAnimationExtra
 	dw RaichuPlainAnimationExtra
 	dw SandshrewPlainAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
@@ -346,11 +344,6 @@ AnimationExtraPointers:
 	dw UnownZAnimationExtra
 	dw UnownExclamationAnimationExtra
 	dw UnownQuestionAnimationExtra
-
-	dw ArbokKantoAnimationExtra
-	dw ArbokKogaAnimationExtra
-	dw ArbokAgathaAnimationExtra
-	dw ArbokArianaAnimationExtra
 
 	dw PikachuFlyAnimationExtra
 	dw PikachuSurfAnimationExtra

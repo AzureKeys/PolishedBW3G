@@ -511,7 +511,7 @@ KogaGroup:
 		tr_moves POWER_WHIP, ICE_BEAM, SURF, SLUDGE_BOMB
 	tr_mon 71, RATTATA @ SILK_SCARF, MALE
 		tr_moves PROTECT, TOXIC, EXPLOSION, SPIKES
-	tr_mon 69, ARBOK @ SOFT_SAND, MALE | ARBOK_KOGA_FORM
+	tr_mon 69, RATTATA @ SOFT_SAND, MALE
 		tr_moves SLUDGE_BOMB, GLARE, EARTHQUAKE, SCREECH
 	tr_mon 70, MUK @ BRIGHTPOWDER, MALE
 		tr_moves MINIMIZE, FIRE_BLAST, GUNK_SHOT, TOXIC
@@ -1631,7 +1631,7 @@ YoungsterGroup:
 
 	def_trainer JIMMY, "Jimmy"
 	tr_mon 60, RATICATE
-	tr_mon 60, ARBOK
+	tr_mon 60, RATTATA
 	tr_mon 60, PARASECT
 	end_trainer
 
@@ -2945,7 +2945,7 @@ GruntMGroup:
 	def_trainer 30, "Grunt"
 	tr_mon 25, GOLBAT
 	tr_mon 25, GOLBAT
-	tr_mon 30, ARBOK
+	tr_mon 30, RATTATA
 	end_trainer
 
 	def_trainer 31, "Grunt"
@@ -2961,11 +2961,11 @@ GruntFGroup:
 	def_trainer_class GRUNTF
 	def_trainer 1, "Grunt"
 	tr_mon 10, ZUBAT
-	tr_mon 12, EKANS
+	tr_mon 12, RATTATA
 	end_trainer
 
 	def_trainer 2, "Grunt"
-	tr_mon 35, ARBOK
+	tr_mon 35, RATTATA
 	end_trainer
 
 	def_trainer 3, "Grunt"
@@ -2974,14 +2974,14 @@ GruntFGroup:
 	end_trainer
 
 	def_trainer 4, "Grunt"
-	tr_mon 33, EKANS
+	tr_mon 33, RATTATA
 	tr_mon 34, RATTATA
-	tr_mon 35, ARBOK
+	tr_mon 35, RATTATA
 	tr_mon 36, RATTATA
 	end_trainer
 
 	def_trainer 5, "Grunt"
-	tr_mon 29, ARBOK
+	tr_mon 29, RATTATA
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
 	tr_mon 28, RATTATA
 		tr_moves DEFENSE_CURL, MINIMIZE, WATER_GUN, ROLLOUT
@@ -2990,8 +2990,8 @@ GruntFGroup:
 	end_trainer
 
 	def_trainer 6, "Grunt"
-	tr_mon 22, EKANS
-	tr_mon 23, ARBOK
+	tr_mon 22, RATTATA
+	tr_mon 23, RATTATA
 	tr_mon 23, RATTATA
 	end_trainer
 
@@ -3446,7 +3446,7 @@ endc
 
 	def_trainer AMANDA, "Amanda"
 	tr_mon 57, RATTATA
-	tr_mon 60, ARBOK
+	tr_mon 60, RATTATA
 	tr_mon 57, RATTATA
 	end_trainer
 
@@ -5801,7 +5801,7 @@ BikerGroup:
 	end_trainer
 
 	def_trainer TEDDY, "Teddy"
-	tr_mon 58, ARBOK
+	tr_mon 58, RATTATA
 	end_trainer
 
 	def_trainer TYRONE, "Tyrone"
@@ -5828,7 +5828,7 @@ RoughneckGroup:
 	end_trainer
 
 	def_trainer MARKEY, "Markey"
-	tr_mon 57, ARBOK
+	tr_mon 57, RATTATA
 	tr_mon 56, HOUNDOOM
 	end_trainer
 
@@ -5838,7 +5838,7 @@ TamerGroup:
 
 	def_trainer_class TAMER
 	def_trainer BRETT, "Brett"
-	tr_mon LEVEL_FROM_BADGES + 8, ARBOK
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
@@ -6738,7 +6738,7 @@ ArianaGroup:
 
 	def_trainer_class ARIANA
 	def_trainer ARIANA1, "Ariana"
-	tr_mon 40, ARBOK @ POISON_BARB, FEMALE | ARBOK_ARIANA_FORM
+	tr_mon 40, RATTATA @ POISON_BARB, FEMALE
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
 	tr_mon 41, RATTATA @ MIRACLE_SEED, FEMALE
 		tr_moves LEECH_SEED, ACID, SLEEP_POWDER, GIGA_DRAIN
@@ -6747,7 +6747,7 @@ ArianaGroup:
 	end_trainer
 
 	def_trainer ARIANA2, "Ariana"
-	tr_mon 35, ARBOK @ BLACKGLASSES, FEMALE | ARBOK_ARIANA_FORM
+	tr_mon 35, RATTATA @ BLACKGLASSES, FEMALE
 		tr_moves WRAP, ACID, CRUNCH, GLARE
 	tr_mon 36, RATTATA @ MIRACLE_SEED, FEMALE
 		tr_moves MEGA_DRAIN, GROWTH, SLEEP_POWDER, ACID
@@ -6955,7 +6955,7 @@ JessieJamesGroup:
 	def_trainer_class JESSIE_JAMES
 	def_trainer 1, "& James"
 	tr_mon 26, WEEZING, MALE
-	tr_mon 26, ARBOK, FEMALE | ARBOK_KANTO_FORM
+	tr_mon 26, RATTATA, FEMALE
 	tr_mon 24, RATTATA, FEMALE
 	tr_mon 24, RATTATA, MALE
 	tr_mon 28, MEOWTH, MALE
@@ -7047,7 +7047,7 @@ else
 		tr_evs 108 Atk, 252 Spe
 		tr_moves SWORDS_DANCE, BONEMERANG, FIRE_PUNCH, SHADOW_CLAW
 endc
-	tr_mon 63, ARBOK @ KINGS_ROCK, FEMALE | ARBOK_AGATHA_FORM
+	tr_mon 63, RATTATA @ KINGS_ROCK, FEMALE
 		tr_evs 108 SAt, 252 Spe
 		tr_moves SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
 	tr_mon 65, GENGAR @ QUICK_CLAW, FEMALE
@@ -7069,7 +7069,7 @@ else
 	tr_mon 72, RATTATA @ THICK_CLUB, FEMALE | ALOLAN_FORM
 		tr_moves SWORDS_DANCE, BONEMERANG, ROCK_SMASH, SHADOW_CLAW
 endc
-	tr_mon 74, ARBOK @ KINGS_ROCK, FEMALE | ARBOK_AGATHA_FORM
+	tr_mon 74, RATTATA @ KINGS_ROCK, FEMALE
 		tr_moves SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
 	tr_mon 75, GENGAR @ WISE_GLASSES, FEMALE
 		tr_moves SHADOW_BALL, THUNDERBOLT, WILL_O_WISP, DESTINY_BOND

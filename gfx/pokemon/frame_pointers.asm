@@ -11,8 +11,6 @@ FramesPointers:
 	dw BlastoiseFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
-	dw EkansFrames
-	dw ArbokJohtoFrames
 	dw PikachuPlainFrames
 	dw RaichuPlainFrames
 	dw SandshrewPlainFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw GothitaFrames
 	dw GothoritaFrames
 	dw GothitelleFrames
@@ -346,11 +344,6 @@ FramesPointers:
 	dw UnownZFrames
 	dw UnownExclamationFrames
 	dw UnownQuestionFrames
-
-	dw ArbokKantoFrames
-	dw ArbokKogaFrames
-	dw ArbokAgathaFrames
-	dw ArbokArianaFrames
 
 	dw PikachuFlyFrames
 	dw PikachuSurfFrames

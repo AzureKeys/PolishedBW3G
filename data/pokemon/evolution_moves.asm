@@ -11,8 +11,6 @@ EvolutionMoves::
 	db FLASH_CANNON ; BLASTOISE
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
-	db NO_MOVE      ; EKANS
-	db CRUNCH       ; ARBOK
 	db NO_MOVE      ; PIKACHU
 	db THUNDERBOLT  ; RAICHU
 	db NO_MOVE      ; SANDSHREW
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE

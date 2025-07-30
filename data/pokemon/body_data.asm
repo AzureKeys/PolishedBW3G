@@ -18,8 +18,6 @@ PokemonBodyData:
 	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; BLASTOISE
 	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
-	body_data  20,   69, SERPENTINE,   PURPLE ; EKANS
-	body_data  35,  650, SERPENTINE,   PURPLE ; ARBOK
 	body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU
 	body_data   8,  300, BIPEDAL_TAIL, YELLOW ; RAICHU
 	body_data   6,  120, BIPEDAL_TAIL, YELLOW ; SANDSHREW
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE

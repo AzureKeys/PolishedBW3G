@@ -12,8 +12,6 @@ PokemonNames::
 	rawchar "Blastoise@"
 	rawchar "Rattata@@@"
 	rawchar "Raticate@@"
-	rawchar "Ekans@@@@@"
-	rawchar "Arbok@@@@@"
 	rawchar "Pikachu@@@"
 	rawchar "Raichu@@@@"
 	rawchar "Sandshrew@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Archeops@@"
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Gothita@@@"
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"

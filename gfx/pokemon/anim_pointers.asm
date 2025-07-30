@@ -11,8 +11,6 @@ AnimationPointers:
 	dw BlastoiseAnimation
 	dw RattataPlainAnimation
 	dw RaticatePlainAnimation
-	dw EkansAnimation
-	dw ArbokJohtoAnimation
 	dw PikachuPlainAnimation
 	dw RaichuPlainAnimation
 	dw SandshrewPlainAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw ArcheopsAnimation
 	dw TrubbishAnimation
 	dw GarbodorAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw GothitaAnimation
 	dw GothoritaAnimation
 	dw GothitelleAnimation
@@ -346,11 +344,6 @@ AnimationPointers:
 	dw UnownZAnimation
 	dw UnownExclamationAnimation
 	dw UnownQuestionAnimation
-
-	dw ArbokKantoAnimation
-	dw ArbokKogaAnimation
-	dw ArbokAgathaAnimation
-	dw ArbokArianaAnimation
 
 	dw PikachuFlyAnimation
 	dw PikachuSurfAnimation

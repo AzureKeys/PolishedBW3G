@@ -1431,7 +1431,7 @@
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, EKANS, ARBOK_JOHTO_FORM
+	wildmon 5, RATTATA
 	wildmon 6, RATTATA
 	wildmon 8, RATTATA
 	wildmon 7, MAREEP
@@ -1439,7 +1439,7 @@
 	wildmon 7, RATTATA
 	wildmon 8, RATTATA
 	; day
-	wildmon 5, EKANS, ARBOK_JOHTO_FORM
+	wildmon 5, RATTATA
 	wildmon 6, RATTATA
 	wildmon 8, RATTATA
 	wildmon 7, MAREEP
@@ -1463,7 +1463,7 @@
 	wildmon 9, RATTATA
 	wildmon 9, GEODUDE
 	wildmon 10, RATTATA
-	wildmon 10, EKANS, ARBOK_JOHTO_FORM
+	wildmon 10, RATTATA
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
 	; day
@@ -1471,7 +1471,7 @@
 	wildmon 9, RATTATA
 	wildmon 9, GEODUDE
 	wildmon 10, RATTATA
-	wildmon 10, EKANS, ARBOK_JOHTO_FORM
+	wildmon 10, RATTATA
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
 	; nite
@@ -1655,20 +1655,20 @@
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, EKANS, ARBOK_JOHTO_FORM
+	wildmon 20, RATTATA
 	wildmon 22, MANKEY
 	wildmon 22, RATTATA
 	wildmon 23, RATICATE
 	wildmon 21, RATTATA
-	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
+	wildmon 24, RATTATA
 	wildmon 24, PRIMEAPE
 	; day
-	wildmon 20, EKANS, ARBOK_JOHTO_FORM
+	wildmon 20, RATTATA
 	wildmon 22, MANKEY
 	wildmon 22, RATTATA
 	wildmon 23, RATICATE
 	wildmon 21, RATTATA
-	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
+	wildmon 24, RATTATA
 	wildmon 24, PRIMEAPE
 	; nite
 	wildmon 20, RATTATA
@@ -1881,7 +1881,7 @@
 	; morn
 	wildmon 69, TANGELA
 	wildmon 70, PONYTA
-	wildmon 71, ARBOK ; randomly Kanto or Johto form
+	wildmon 71, RATTATA ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
 	wildmon 73, RATTATA
 	wildmon 75, SKARMORY
@@ -1889,7 +1889,7 @@
 	; day
 	wildmon 69, TANGELA
 	wildmon 70, PONYTA
-	wildmon 71, ARBOK ; randomly Kanto or Johto form
+	wildmon 71, RATTATA ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
 	wildmon 73, RATTATA
 	wildmon 75, SKARMORY
@@ -1935,7 +1935,7 @@
 	def_grass_wildmons CHERRYGROVE_BAY
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
@@ -1943,7 +1943,7 @@
 	wildmon LEVEL_FROM_BADGES + 0, SUNKERN
 	wildmon LEVEL_FROM_BADGES + 1, SUNKERN
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
@@ -1963,7 +1963,7 @@
 	def_grass_wildmons ROUTE_32_COAST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
@@ -1971,7 +1971,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
 	wildmon LEVEL_FROM_BADGES + 3, RATTATA
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
@@ -2132,7 +2132,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA
@@ -2140,7 +2140,7 @@
 	wildmon LEVEL_FROM_BADGES + 3, YANMA
 	; day
 	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES + 1, RATICATE
 	wildmon LEVEL_FROM_BADGES + 1, RATTATA

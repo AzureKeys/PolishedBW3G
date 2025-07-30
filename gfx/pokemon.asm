@@ -52,10 +52,6 @@ SECTION "Azumarill Pics", ROMX
 AzumarillFrontpic: INCBIN "gfx/pokemon/azumarill/front.animated.2bpp.lz"
 AzumarillBackpic:  INCBIN "gfx/pokemon/azumarill/back.2bpp.lz"
 
-SECTION "Ekans Pics", ROMX
-EkansFrontpic: INCBIN "gfx/pokemon/ekans/front.animated.2bpp.lz"
-EkansBackpic:  INCBIN "gfx/pokemon/ekans/back.2bpp.lz"
-
 SECTION "NidoranF Pics", ROMX
 NidoranFFrontpic: INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
 NidoranFBackpic:  INCBIN "gfx/pokemon/nidoran_f/back.2bpp.lz"
@@ -704,18 +700,6 @@ PichuPlainBackpic:  INCBIN "gfx/pokemon/pichu_plain/back.2bpp.lz"
 SECTION "PichuSpiky Pics", ROMX
 PichuSpikyFrontpic: INCBIN "gfx/pokemon/pichu_spiky/front.animated.2bpp.lz"
 PichuSpikyBackpic:  INCBIN "gfx/pokemon/pichu_spiky/back.2bpp.lz"
-
-SECTION "Arbok Pics", ROMX
-ArbokJohtoFrontpic:  INCBIN "gfx/pokemon/arbok_johto/front.animated.2bpp.lz"
-ArbokKantoFrontpic:  INCBIN "gfx/pokemon/arbok_kanto/front.animated.2bpp.lz"
-ArbokKogaFrontpic:   INCBIN "gfx/pokemon/arbok_koga/front.animated.2bpp.lz"
-ArbokAgathaFrontpic: INCBIN "gfx/pokemon/arbok_agatha/front.animated.2bpp.lz"
-ArbokArianaFrontpic: INCBIN "gfx/pokemon/arbok_ariana/front.animated.2bpp.lz"
-ArbokJohtoBackpic:
-ArbokKantoBackpic:
-ArbokKogaBackpic:
-ArbokAgathaBackpic:
-ArbokArianaBackpic:  INCBIN "gfx/pokemon/arbok/back.2bpp.lz"
 
 SECTION "MagikarpPlain Pics", ROMX
 MagikarpPlainFrontpic: INCBIN "gfx/pokemon/magikarp_plain/front.animated.2bpp.lz"

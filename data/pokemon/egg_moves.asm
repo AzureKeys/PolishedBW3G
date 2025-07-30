@@ -53,14 +53,6 @@ RattataAlolanEggSpeciesMoves:
 	db COUNTER
 	db $ff
 
-EkansEggSpeciesMoves:
-	dp EKANS, NO_FORM
-	db CRUNCH
-	db DISABLE
-	db PURSUIT
-	db SCARY_FACE
-	db $ff
-
 SandshrewPlainEggSpeciesMoves:
 	dp SANDSHREW, PLAIN_FORM
 	db METAL_CLAW

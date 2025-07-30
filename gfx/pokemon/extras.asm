@@ -7,7 +7,6 @@ CharizardAnimationExtra:  INCLUDE "gfx/pokemon/charizard/anim_idle.asm"
 SquirtleAnimationExtra:   INCLUDE "gfx/pokemon/squirtle/anim_idle.asm"
 WartortleAnimationExtra:  INCLUDE "gfx/pokemon/wartortle/anim_idle.asm"
 BlastoiseAnimationExtra:  INCLUDE "gfx/pokemon/blastoise/anim_idle.asm"
-EkansAnimationExtra:      INCLUDE "gfx/pokemon/ekans/anim_idle.asm"
 NidoranFAnimationExtra:   INCLUDE "gfx/pokemon/nidoran_f/anim_idle.asm"
 NidorinaAnimationExtra:   INCLUDE "gfx/pokemon/nidorina/anim_idle.asm"
 NidoqueenAnimationExtra:  INCLUDE "gfx/pokemon/nidoqueen/anim_idle.asm"
@@ -304,12 +303,6 @@ PikachuFlyAnimationExtra:    INCLUDE "gfx/pokemon/pikachu_fly/anim_idle.asm"
 PikachuSurfAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_surf/anim_idle.asm"
 PikachuPikaAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_pika/anim_idle.asm"
 PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
-
-ArbokJohtoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_johto/anim_idle.asm"
-ArbokKantoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_kanto/anim_idle.asm"
-ArbokKogaAnimationExtra:   INCLUDE "gfx/pokemon/arbok_koga/anim_idle.asm"
-ArbokAgathaAnimationExtra: INCLUDE "gfx/pokemon/arbok_agatha/anim_idle.asm"
-ArbokArianaAnimationExtra: INCLUDE "gfx/pokemon/arbok_ariana/anim_idle.asm"
 
 MagikarpPlainAnimationExtra:
 MagikarpSkellyAnimationExtra:

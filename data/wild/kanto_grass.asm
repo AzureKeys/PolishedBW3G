@@ -425,17 +425,17 @@
 	; morn
 	wildmon 52, RATTATA
 	wildmon 52, RATICATE
-	wildmon 54, ARBOK, ARBOK_KANTO_FORM
+	wildmon 54, RATTATA
 	wildmon 55, SANDSLASH
-	wildmon 55, ARBOK, ARBOK_KANTO_FORM
+	wildmon 55, RATTATA
 	wildmon 57, JIGGLYPUFF
 	wildmon 55, WIGGLYTUFF
 	; day
 	wildmon 52, RATTATA
 	wildmon 52, RATICATE
-	wildmon 54, ARBOK, ARBOK_KANTO_FORM
+	wildmon 54, RATTATA
 	wildmon 55, SANDSLASH
-	wildmon 55, ARBOK, ARBOK_KANTO_FORM
+	wildmon 55, RATTATA
 	wildmon 57, JIGGLYPUFF
 	wildmon 55, WIGGLYTUFF
 	; nite
@@ -453,17 +453,17 @@
 	; morn
 	wildmon 54, RATTATA
 	wildmon 54, RATICATE
-	wildmon 56, ARBOK, ARBOK_KANTO_FORM
+	wildmon 56, RATTATA
 	wildmon 57, SANDSLASH
-	wildmon 57, ARBOK, ARBOK_KANTO_FORM
+	wildmon 57, RATTATA
 	wildmon 58, PRIMEAPE
 	wildmon 59, PRIMEAPE
 	; day
 	wildmon 54, RATTATA
 	wildmon 54, RATICATE
-	wildmon 56, ARBOK, ARBOK_KANTO_FORM
+	wildmon 56, RATTATA
 	wildmon 57, SANDSLASH
-	wildmon 57, ARBOK, ARBOK_KANTO_FORM
+	wildmon 57, RATTATA
 	wildmon 58, PRIMEAPE
 	wildmon 59, PRIMEAPE
 	; nite
@@ -564,7 +564,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 48, RATTATA
-	wildmon 51, ARBOK, ARBOK_KANTO_FORM
+	wildmon 51, RATTATA
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
@@ -572,7 +572,7 @@
 	wildmon 50, RATTATA
 	; day
 	wildmon 48, RATTATA
-	wildmon 51, ARBOK, ARBOK_KANTO_FORM
+	wildmon 51, RATTATA
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
@@ -1013,7 +1013,7 @@
 	; morn
 	wildmon 37, RATTATA
 	wildmon 38, SANDSLASH
-	wildmon 38, ARBOK, ARBOK_KANTO_FORM
+	wildmon 38, RATTATA
 	wildmon 39, PRIMEAPE
 	wildmon 39, SANDSLASH
 	wildmon 40, SANDSLASH
@@ -1021,7 +1021,7 @@
 	; day
 	wildmon 37, RATTATA
 	wildmon 38, SANDSLASH
-	wildmon 38, ARBOK, ARBOK_KANTO_FORM
+	wildmon 38, RATTATA
 	wildmon 39, PRIMEAPE
 	wildmon 39, SANDSLASH
 	wildmon 40, SANDSLASH
@@ -1100,16 +1100,16 @@
 	wildmon 41, PONYTA
 	wildmon 40, RATICATE
 	wildmon 39, RATTATA
-	wildmon 40, ARBOK, ARBOK_KANTO_FORM
-	wildmon 41, ARBOK, ARBOK_KANTO_FORM
+	wildmon 40, RATTATA
+	wildmon 41, RATTATA
 	; day
 	wildmon 38, RATTATA
 	wildmon 38, SANDSLASH
 	wildmon 41, PONYTA
 	wildmon 40, RATICATE
 	wildmon 39, RATTATA
-	wildmon 40, ARBOK, ARBOK_KANTO_FORM
-	wildmon 41, ARBOK, ARBOK_KANTO_FORM
+	wildmon 40, RATTATA
+	wildmon 41, RATTATA
 	; nite
 	wildmon 38, RATTATA
 	wildmon 38, RATICATE
@@ -1124,7 +1124,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 37, RATTATA
-	wildmon 37, ARBOK, ARBOK_KANTO_FORM
+	wildmon 37, RATTATA
 	wildmon 39, RATICATE
 	wildmon 39, RATTATA
 	wildmon 41, PONYTA
@@ -1132,7 +1132,7 @@
 	wildmon 40, RATTATA
 	; day
 	wildmon 37, RATTATA
-	wildmon 37, ARBOK, ARBOK_KANTO_FORM
+	wildmon 37, RATTATA
 	wildmon 39, RATICATE
 	wildmon 39, RATTATA
 	wildmon 41, PONYTA
@@ -1153,7 +1153,7 @@
 	; morn
 	wildmon 66, TANGELA
 	wildmon 67, PONYTA
-	wildmon 67, ARBOK ; randomly Kanto or Johto form
+	wildmon 67, RATTATA ; randomly Kanto or Johto form
 	wildmon 70, RAPIDASH
 	wildmon 68, RATTATA
 	wildmon 71, SKARMORY
@@ -1161,7 +1161,7 @@
 	; day
 	wildmon 66, TANGELA
 	wildmon 67, PONYTA
-	wildmon 67, ARBOK ; randomly Kanto or Johto form
+	wildmon 67, RATTATA ; randomly Kanto or Johto form
 	wildmon 70, RAPIDASH
 	wildmon 68, RATTATA
 	wildmon 71, SKARMORY

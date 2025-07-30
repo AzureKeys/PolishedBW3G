@@ -11,8 +11,6 @@ BitmasksPointers:
 	dw BlastoiseBitmasks
 	dw RattataPlainBitmasks
 	dw RaticatePlainBitmasks
-	dw EkansBitmasks
-	dw ArbokJohtoBitmasks
 	dw PikachuPlainBitmasks
 	dw RaichuPlainBitmasks
 	dw SandshrewPlainBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw ArcheopsBitmasks
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw GothitaBitmasks
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
@@ -346,11 +344,6 @@ BitmasksPointers:
 	dw UnownZBitmasks
 	dw UnownExclamationBitmasks
 	dw UnownQuestionBitmasks
-
-	dw ArbokKantoBitmasks
-	dw ArbokKogaBitmasks
-	dw ArbokAgathaBitmasks
-	dw ArbokArianaBitmasks
 
 	dw PikachuFlyBitmasks
 	dw PikachuSurfBitmasks

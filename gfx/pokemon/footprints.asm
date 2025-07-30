@@ -147,7 +147,6 @@ HydreigonFootprint::
 LarvestaFootprint::
 VolcaronaFootprint::
 GenesectFootprint::
-ArbokFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::
@@ -156,7 +155,6 @@ DragonairFootprint::
 DratiniFootprint::
 DudunsparceFootprint::
 DunsparceFootprint::
-EkansFootprint::
 ExeggcuteFootprint::
 GastlyFootprint::
 GeodudeFootprint::

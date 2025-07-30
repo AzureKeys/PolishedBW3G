@@ -12,8 +12,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  36, 100 ; Blastoise
 	db   1,  19 ; Rattata
 	db  20, 100 ; Raticate
-	db   1,  21 ; Ekans
-	db  22, 100 ; Arbok
 	db   1,  19 ; Pikachu
 	db  20, 100 ; Raichu
 	db   1,  21 ; Sandshrew
@@ -259,10 +257,10 @@ endc
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle

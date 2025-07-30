@@ -15,8 +15,6 @@ EvosAttacksPointers::
 	dw BlastoiseEvosAttacks
 	dw RattataPlainEvosAttacks
 	dw RaticatePlainEvosAttacks
-	dw EkansEvosAttacks
-	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuPlainEvosAttacks
 	dw SandshrewPlainEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks

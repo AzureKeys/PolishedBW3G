@@ -35,8 +35,6 @@
 	const BLASTOISE  ; xx
 	const RATTATA    ; 01
 	const RATICATE   ; 02
-	const EKANS      ; xx
-	const ARBOK      ; xx
 	const PIKACHU    ; 03
 	const RAICHU     ; 04
 	const SANDSHREW  ; 05
@@ -278,10 +276,10 @@
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
@@ -404,14 +402,6 @@ DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 124
 	ext_const UNOWN_EXCLAMATION_FORM ; 13d (1b)
 	ext_const UNOWN_QUESTION_FORM    ; 13e (1c)
 DEF NUM_UNOWN EQU ext_const_value - 1
-
-; arbok
-	ext_const_def 1, ARBOK_JOHTO_FORM ; (1)
-	ext_const ARBOK_KANTO_FORM    ; 13f (2)
-	ext_const ARBOK_KOGA_FORM     ; 140 (3)
-	ext_const ARBOK_AGATHA_FORM   ; 141 (4)
-	ext_const ARBOK_ARIANA_FORM   ; 142 (5)
-DEF NUM_ARBOK EQU ext_const_value - 1
 
 ; pikachu
 	ext_const_def 2

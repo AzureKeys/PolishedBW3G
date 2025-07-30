@@ -112,26 +112,6 @@ RaticatePlainPokedexEntry::
 	next "es wide areas for"
 	next "food.@"
 
-SECTION "EkansPokedexEntry", ROMX
-EkansPokedexEntry::
-	db "Snake@"
-	db   "It flutters the"
-	next "tip of its tongue"
-	next "to seek out the"
-	page "scent of prey,"
-	next "then swallows the"
-	next "prey whole.@"
-
-SECTION "ArbokPokedexEntry", ROMX
-ArbokPokedexEntry::
-	db "Cobra@"
-	db   "To intimidate"
-	next "foes, it spreads"
-	next "its chest wide and"
-	page "makes eerie sounds"
-	next "by expelling air"
-	next "from its mouth.@"
-
 SECTION "PikachuPokedexEntry", ROMX
 PikachuPokedexEntry::
 	db "Mouse@"

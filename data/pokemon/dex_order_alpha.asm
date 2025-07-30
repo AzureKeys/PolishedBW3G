@@ -6,7 +6,6 @@ AlphabeticalPokedexOrder:
 	dp AMOONGUSS
 	dp AMPHAROS
 	dp ANNIHILAPE
-	dp ARBOK
 	dp ARCANINE
 	dp ARCHEN
 	dp ARCHEOPS
@@ -68,7 +67,6 @@ AlphabeticalPokedexOrder:
 	dp EELEKTRIK
 	dp EELEKTROSS
 	dp EEVEE
-	dp EKANS
 	dp ELECTABUZZ
 	dp ELECTIVIRE
 	dp ELEKID
