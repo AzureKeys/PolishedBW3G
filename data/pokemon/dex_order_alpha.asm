@@ -143,6 +143,7 @@ AlphabeticalPokedexOrder:
 	dp KROKOROK
 	dp KROOKODILE
 	dp LAMPENT
+	dp LANDORUS
 	dp LANTURN
 	dp LAPRAS
 	dp LARVESTA
@@ -285,11 +286,13 @@ AlphabeticalPokedexOrder:
 	dp TEPIG
 	dp TERRAKION
 	dp THROH
+	dp THUNDURUS
 	dp TIMBURR
 	dp TIRTOUGA
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC
+	dp TORNADUS
 	dp TOTODILE
 	dp TRANQUILL
 	dp TRUBBISH

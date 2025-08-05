@@ -3215,6 +3215,36 @@ VirizionPokedexEntry::
 	next "it swiftly cuts"
 	next "opponents.@"
 
+SECTION "TornadusPokedexEntry", ROMX
+TornadusPokedexEntry::
+	db "Cyclone@"
+	db "Tornadus expels"
+	next "massive energy"
+	next "from its tail,"
+	page "causing severe"
+	next "storms. It can"
+	next "blow houses away.@"
+
+SECTION "ThundurusPokedexEntry", ROMX
+ThundurusPokedexEntry::
+	db "Bolt Strike@"
+	db "The spikes on its"
+	next "tail discharge"
+	next "immense bolts of"
+	page "electricity. It"
+	next "flies around,"
+	next "firing lightning.@"
+
+SECTION "LandorusPokedexEntry", ROMX
+LandorusPokedexEntry::
+	db "Abundance@"
+	db "From the forces of"
+	next "lightning and"
+	next "wind, it creates"
+	page "energy to give"
+	next "nutrients to the"
+	next "soil.@"
+
 SECTION "GenesectPokedexEntry", ROMX
 GenesectPokedexEntry::
 	db "Paleozoic@"

@@ -326,5 +326,8 @@ PokemonNames::
 	rawchar "Cobalion@@"
 	rawchar "Terrakion@"
 	rawchar "Virizion@@"
+	rawchar "Tornadus@@"
+	rawchar "Thundurus@"
+	rawchar "Landorus@@"
 	rawchar "Genesect@@"
 	assert_table_length NUM_SPECIES + 1

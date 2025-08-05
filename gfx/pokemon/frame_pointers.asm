@@ -325,6 +325,9 @@ FramesPointers:
 	dw CobalionFrames
 	dw TerrakionFrames
 	dw VirizionFrames
+	dw TornadusPlainFrames
+	dw ThundurusPlainFrames
+	dw LandorusPlainFrames
 	dw GenesectFrames
 	assert_table_length NUM_SPECIES
 

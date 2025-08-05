@@ -325,6 +325,9 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Cobalion
 	dw NoEggSpeciesMoves                ; Terrakion
 	dw NoEggSpeciesMoves                ; Virizion
+	dw NoEggSpeciesMoves                ; Tornadus
+	dw NoEggSpeciesMoves                ; Thundurus
+	dw NoEggSpeciesMoves                ; Landorus
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
 

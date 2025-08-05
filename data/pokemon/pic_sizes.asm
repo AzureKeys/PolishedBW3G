@@ -344,6 +344,9 @@ INCLUDE "gfx/pokemon/volcarona/front.dimensions"
 INCLUDE "gfx/pokemon/cobalion/front.dimensions"
 INCLUDE "gfx/pokemon/terrakion/front.dimensions"
 INCLUDE "gfx/pokemon/virizion/front.dimensions"
+INCLUDE "gfx/pokemon/tornadus_plain/front.dimensions"
+INCLUDE "gfx/pokemon/thundurus_plain/front.dimensions"
+INCLUDE "gfx/pokemon/landorus_plain/front.dimensions"
 INCLUDE "gfx/pokemon/genesect/front.dimensions"
 	assert_list_length NUM_SPECIES
 

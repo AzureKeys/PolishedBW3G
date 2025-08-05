@@ -329,6 +329,9 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; COBALION
 	iconpal GRAY, BROWN ; TERRAKION
 	iconpal GREEN, PINK ; VIRIZION
+	iconpal GREEN, BLUE ; TORNADUS
+	iconpal AZURE, PURPLE ; THUNDURUS
+	iconpal ORANGE, BROWN ; LANDORUS
 	iconpal PURPLE, RED ; GENESECT
 	assert_table_length NUM_SPECIES
 

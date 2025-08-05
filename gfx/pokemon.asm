@@ -1625,6 +1625,18 @@ SECTION "Virizion Pics", ROMX
 VirizionFrontpic: INCBIN "gfx/pokemon/virizion/front.animated.2bpp.lz"
 VirizionBackpic:  INCBIN "gfx/pokemon/virizion/back.2bpp.lz"
 
+SECTION "TornadusPlain Pics", ROMX
+TornadusPlainFrontpic: INCBIN "gfx/pokemon/tornadus_plain/front.animated.2bpp.lz"
+TornadusPlainBackpic:  INCBIN "gfx/pokemon/tornadus_plain/back.2bpp.lz"
+
+SECTION "ThundurusPlain Pics", ROMX
+ThundurusPlainFrontpic: INCBIN "gfx/pokemon/thundurus_plain/front.animated.2bpp.lz"
+ThundurusPlainBackpic:  INCBIN "gfx/pokemon/thundurus_plain/back.2bpp.lz"
+
+SECTION "LandorusPlain Pics", ROMX
+LandorusPlainFrontpic: INCBIN "gfx/pokemon/landorus_plain/front.animated.2bpp.lz"
+LandorusPlainBackpic:  INCBIN "gfx/pokemon/landorus_plain/back.2bpp.lz"
+
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"

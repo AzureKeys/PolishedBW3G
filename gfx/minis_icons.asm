@@ -1627,6 +1627,21 @@ VirizionMini::     INCBIN "gfx/minis/virizion.2bpp.lz"
 VirizionMiniMask:: INCBIN "gfx/minis/virizion_mask.1bpp.lz"
 VirizionIcon::     INCBIN "gfx/icons/virizion.2bpp.lz"
 
+SECTION "Tornadus Mini Icon", ROMX
+TornadusMini::     INCBIN "gfx/minis/tornadus.2bpp.lz"
+TornadusMiniMask:: INCBIN "gfx/minis/tornadus_mask.1bpp.lz"
+TornadusIcon::     INCBIN "gfx/icons/tornadus.2bpp.lz"
+
+SECTION "Thundurus Mini Icon", ROMX
+ThundurusMini::     INCBIN "gfx/minis/thundurus.2bpp.lz"
+ThundurusMiniMask:: INCBIN "gfx/minis/thundurus_mask.1bpp.lz"
+ThundurusIcon::     INCBIN "gfx/icons/thundurus.2bpp.lz"
+
+SECTION "Landorus Mini Icon", ROMX
+LandorusMini::     INCBIN "gfx/minis/landorus.2bpp.lz"
+LandorusMiniMask:: INCBIN "gfx/minis/landorus_mask.1bpp.lz"
+LandorusIcon::     INCBIN "gfx/icons/landorus.2bpp.lz"
+
 SECTION "Genesect Mini Icon", ROMX
 GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"

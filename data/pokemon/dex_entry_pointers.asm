@@ -326,6 +326,9 @@ PokedexDataPointerTable:
 	dba CobalionPokedexEntry
 	dba TerrakionPokedexEntry
 	dba VirizionPokedexEntry
+	dba TornadusPokedexEntry
+	dba ThundurusPokedexEntry
+	dba LandorusPokedexEntry
 	dba GenesectPokedexEntry
 	assert_table_length NUM_SPECIES
 

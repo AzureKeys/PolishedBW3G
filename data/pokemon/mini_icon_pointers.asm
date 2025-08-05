@@ -329,6 +329,9 @@ MiniIconPointers:
 	mini_icon Cobalion
 	mini_icon Terrakion
 	mini_icon Virizion
+	mini_icon Tornadus
+	mini_icon Thundurus
+	mini_icon Landorus
 	mini_icon Genesect
 	assert_table_length NUM_SPECIES
 

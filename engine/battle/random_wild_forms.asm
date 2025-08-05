@@ -31,6 +31,7 @@ GenerateWildForm:
 .ok
 	call IndirectHL
 .done
+	or b
 	ld [wCurForm], a
 	jmp PopBCDEHL
 

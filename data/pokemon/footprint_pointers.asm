@@ -325,6 +325,9 @@ FootprintPointers::
 	dw CobalionFootprint
 	dw TerrakionFootprint
 	dw VirizionFootprint
+	dw TornadusFootprint
+	dw ThundurusFootprint
+	dw LandorusFootprint
 	dw GenesectFootprint
 	assert_table_length NUM_SPECIES
 

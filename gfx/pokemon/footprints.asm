@@ -157,6 +157,9 @@ VolcaronaFootprint::
 CobalionFootprint::
 TerrakionFootprint::
 VirizionFootprint::
+TornadusFootprint::
+ThundurusFootprint::
+LandorusFootprint::
 GenesectFootprint::
 ChinchouFootprint::
 CrobatFootprint::

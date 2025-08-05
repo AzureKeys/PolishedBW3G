@@ -325,6 +325,9 @@ AnimationExtraPointers:
 	dw CobalionAnimationExtra
 	dw TerrakionAnimationExtra
 	dw VirizionAnimationExtra
+	dw TornadusPlainAnimationExtra
+	dw ThundurusPlainAnimationExtra
+	dw LandorusPlainAnimationExtra
 	dw GenesectAnimationExtra
 	assert_table_length NUM_SPECIES
 

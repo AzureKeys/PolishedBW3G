@@ -349,6 +349,9 @@
 	const COBALION   ; 183
 	const TERRAKION  ; 184
 	const VIRIZION   ; 185
+	const TORNADUS   ; 186
+	const THUNDURUS  ; 187
+	const LANDORUS   ; 18a
 	const GENESECT   ; 18e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121

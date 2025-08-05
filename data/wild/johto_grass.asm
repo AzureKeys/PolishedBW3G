@@ -1495,13 +1495,13 @@
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; day
-	wildmon 12, UNFEZANT
-	wildmon 12, TRANQUILL
-	wildmon 13, UNFEZANT
-	wildmon 31, TRANQUILL
-	wildmon 13, JIGGLYPUFF
-	wildmon 10, DITTO
-	wildmon 10, DITTO
+	wildmon 33, DEERLING
+	wildmon 33, DEERLING
+	wildmon 33, DEERLING
+	wildmon 33, DEERLING
+	wildmon 33, DEERLING
+	wildmon 33, DEERLING
+	wildmon 33, DEERLING
 	; nite
 	wildmon 12, UNFEZANT
 	wildmon 12, TRANQUILL

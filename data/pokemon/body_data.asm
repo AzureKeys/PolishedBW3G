@@ -332,6 +332,9 @@ PokemonBodyData:
 	body_data  21, 2500, QUADRUPED,    BLUE   ; COBALION
 	body_data  19, 2600, QUADRUPED,    GRAY   ; TERRAKION
 	body_data  20, 2000, QUADRUPED,    GREEN  ; VIRIZION
+	body_data  15,  630, HEAD_ARMS,    GREEN  ; TORNADUS
+	body_data  15,  610, HEAD_ARMS,    BLUE   ; THUNDURUS
+	body_data  15,  680, HEAD_ARMS,    BROWN  ; LANDORUS
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES
 

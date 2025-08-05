@@ -329,6 +329,9 @@ endc
 	db NO_MOVE      ; COBALION
 	db NO_MOVE      ; TERRAKION
 	db NO_MOVE      ; VIRIZION
+	db NO_MOVE      ; TORNADUS
+	db NO_MOVE      ; THUNDURUS
+	db NO_MOVE      ; LANDORUS
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
 

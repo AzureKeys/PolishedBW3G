@@ -329,6 +329,9 @@ PokemonPicPointers::
 	pics Cobalion
 	pics Terrakion
 	pics Virizion
+	pics TornadusPlain
+	pics ThundurusPlain
+	pics LandorusPlain
 	pics Genesect
 	assert_table_length NUM_SPECIES
 

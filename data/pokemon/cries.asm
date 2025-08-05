@@ -331,5 +331,8 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; COBALION*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; TERRAKION*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; VIRIZION*
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; TORNADUS*
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; THUNDURUS*
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; LANDORUS*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; Genesect
 	assert_table_length NUM_SPECIES

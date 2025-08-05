@@ -465,3 +465,9 @@ JellicentFemaleAnimation: INCLUDE "gfx/pokemon/jellicent_female/anim.asm"
 StunfiskPlainAnimation: INCLUDE "gfx/pokemon/stunfisk_plain/anim.asm"
 
 BraviaryPlainAnimation: INCLUDE "gfx/pokemon/braviary_plain/anim.asm"
+
+TornadusPlainAnimation: INCLUDE "gfx/pokemon/tornadus_plain/anim.asm"
+
+ThundurusPlainAnimation: INCLUDE "gfx/pokemon/thundurus_plain/anim.asm"
+
+LandorusPlainAnimation: INCLUDE "gfx/pokemon/landorus_plain/anim.asm"
