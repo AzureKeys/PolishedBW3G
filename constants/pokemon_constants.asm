@@ -534,6 +534,18 @@ DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
 ; jellicent
 	ext_const_def 1, JELLICENT_MALE_FORM ; (1)
 	ext_const JELLICENT_FEMALE_FORM      ; 13f (2)
+	
+; tornadus
+	ext_const_def 2
+	ext_const TORNADUS_THERIAN_FORM ; 15d (2)
+	
+; thundurus
+	ext_const_def 2
+	ext_const THUNDURUS_THERIAN_FORM ; 15d (2)
+	
+; landorus
+	ext_const_def 2
+	ext_const LANDORUS_THERIAN_FORM ; 15d (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 

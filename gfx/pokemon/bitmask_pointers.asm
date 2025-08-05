@@ -437,7 +437,10 @@ BitmasksPointers:
 	dw SawsbuckWinterBitmasks
 	
 	dw FrillishFemaleBitmasks
-	
 	dw JellicentFemaleBitmasks
+	
+	dw TornadusTherianBitmasks
+	dw ThundurusTherianBitmasks
+	dw LandorusTherianBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

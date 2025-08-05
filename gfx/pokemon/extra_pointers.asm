@@ -437,7 +437,10 @@ AnimationExtraPointers:
 	dw SawsbuckWinterAnimationExtra
 	
 	dw FrillishFemaleAnimationExtra
-	
 	dw JellicentFemaleAnimationExtra
+	
+	dw TornadusTherianAnimationExtra
+	dw ThundurusTherianAnimationExtra
+	dw LandorusTherianAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

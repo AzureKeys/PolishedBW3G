@@ -760,9 +760,15 @@ INCLUDE "gfx/pokemon/sawsbuck_winter/shiny.pal"
 
 INCLUDE "gfx/pokemon/frillish_female/normal.pal"
 INCLUDE "gfx/pokemon/frillish_female/shiny.pal"
-
 INCLUDE "gfx/pokemon/jellicent_female/normal.pal"
 INCLUDE "gfx/pokemon/jellicent_female/shiny.pal"
+
+INCLUDE "gfx/pokemon/tornadus_therian/normal.pal"
+INCLUDE "gfx/pokemon/tornadus_therian/shiny.pal"
+INCLUDE "gfx/pokemon/thundurus_therian/normal.pal"
+INCLUDE "gfx/pokemon/thundurus_therian/shiny.pal"
+INCLUDE "gfx/pokemon/landorus_therian/normal.pal"
+INCLUDE "gfx/pokemon/landorus_therian/shiny.pal"
 
 	assert_table_length NUM_EXT_POKEMON + 1
 

@@ -425,7 +425,10 @@ endr
 	mini_icon SawsbuckWinter
 
 	mini_icon FrillishFemale
-
 	mini_icon JellicentFemale
+	
+	mini_icon TornadusTherian
+	mini_icon ThundurusTherian
+	mini_icon LandorusTherian
 
 	assert_table_length NUM_UNIQUE_POKEMON

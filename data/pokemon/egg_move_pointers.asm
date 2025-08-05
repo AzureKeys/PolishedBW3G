@@ -379,7 +379,10 @@ EggSpeciesMovesPointers::
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Winter)
 	
 	dw FrillishEggSpeciesMoves          ; Frillish (Female)
-	
 	dw FrillishEggSpeciesMoves          ; Jellicent (Female)
+	
+	dw NoEggSpeciesMoves                ; Tornadus (Therian)
+	dw NoEggSpeciesMoves                ; Thundurus (Therian)
+	dw NoEggSpeciesMoves                ; Landorus (Therian)
 
 	assert_table_length NUM_EXT_POKEMON

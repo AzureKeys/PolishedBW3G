@@ -380,7 +380,10 @@ PokedexDataPointerTable:
 	dba SawsbuckPokedexEntry
 	
 	dba FrillishPokedexEntry
-	
 	dba JellicentPokedexEntry
+	
+	dba TornadusPokedexEntry
+	dba ThundurusPokedexEntry
+	dba LandorusPokedexEntry
 
 	assert_table_length NUM_EXT_POKEMON

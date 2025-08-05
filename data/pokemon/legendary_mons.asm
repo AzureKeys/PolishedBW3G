@@ -3,6 +3,9 @@ LegendaryMons::
 	dp COBALION
 	dp TERRAKION
 	dp VIRIZION
+	dp TORNADUS
+	dp THUNDURUS
+	dp LANDORUS
 UberMons::
 ; banned from Battle Tower
 	dp MEWTWO

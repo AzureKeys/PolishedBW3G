@@ -437,7 +437,10 @@ FramesPointers:
 	dw SawsbuckWinterFrames
 	
 	dw FrillishFemaleFrames
-	
 	dw JellicentFemaleFrames
+	
+	dw TornadusTherianFrames
+	dw ThundurusTherianFrames
+	dw LandorusTherianFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

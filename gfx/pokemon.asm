@@ -1676,3 +1676,15 @@ FrillishFemaleBackpic:  INCBIN "gfx/pokemon/frillish_female/back.2bpp.lz"
 SECTION "JellicentFemale Pics", ROMX
 JellicentFemaleFrontpic: INCBIN "gfx/pokemon/jellicent_female/front.animated.2bpp.lz"
 JellicentFemaleBackpic:  INCBIN "gfx/pokemon/jellicent_female/back.2bpp.lz"
+
+SECTION "TornadusTherian Pics", ROMX
+TornadusTherianFrontpic: INCBIN "gfx/pokemon/tornadus_therian/front.animated.2bpp.lz"
+TornadusTherianBackpic:  INCBIN "gfx/pokemon/tornadus_therian/back.2bpp.lz"
+
+SECTION "ThundurusTherian Pics", ROMX
+ThundurusTherianFrontpic: INCBIN "gfx/pokemon/thundurus_therian/front.animated.2bpp.lz"
+ThundurusTherianBackpic:  INCBIN "gfx/pokemon/thundurus_therian/back.2bpp.lz"
+
+SECTION "LandorusTherian Pics", ROMX
+LandorusTherianFrontpic: INCBIN "gfx/pokemon/landorus_therian/front.animated.2bpp.lz"
+LandorusTherianBackpic:  INCBIN "gfx/pokemon/landorus_therian/back.2bpp.lz"

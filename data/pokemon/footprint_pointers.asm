@@ -379,7 +379,10 @@ FootprintPointers::
 	dw SawsbuckFootprint
 	
 	dw FrillishFootprint
-	
 	dw JellicentFootprint
+	
+	dw TornadusFootprint
+	dw ThundurusFootprint
+	dw LandorusFootprint
 
 	assert_table_length NUM_EXT_POKEMON

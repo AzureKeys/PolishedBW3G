@@ -1961,3 +1961,18 @@ SECTION "JellicentFemale Mini Icon", ROMX
 JellicentFemaleMini::     INCBIN "gfx/minis/jellicent_female.2bpp.lz"
 JellicentFemaleMiniMask:: INCBIN "gfx/minis/jellicent_female_mask.1bpp.lz"
 JellicentFemaleIcon::     INCBIN "gfx/icons/jellicent_female.2bpp.lz"
+
+SECTION "TornadusTherian Mini Icon", ROMX
+TornadusTherianMini::     INCBIN "gfx/minis/tornadus_therian.2bpp.lz"
+TornadusTherianMiniMask:: INCBIN "gfx/minis/tornadus_therian_mask.1bpp.lz"
+TornadusTherianIcon::     INCBIN "gfx/icons/tornadus_therian.2bpp.lz"
+
+SECTION "ThundurusTherian Mini Icon", ROMX
+ThundurusTherianMini::     INCBIN "gfx/minis/thundurus_therian.2bpp.lz"
+ThundurusTherianMiniMask:: INCBIN "gfx/minis/thundurus_therian_mask.1bpp.lz"
+ThundurusTherianIcon::     INCBIN "gfx/icons/thundurus_therian.2bpp.lz"
+
+SECTION "LandorusTherian Mini Icon", ROMX
+LandorusTherianMini::     INCBIN "gfx/minis/landorus_therian.2bpp.lz"
+LandorusTherianMiniMask:: INCBIN "gfx/minis/landorus_therian_mask.1bpp.lz"
+LandorusTherianIcon::     INCBIN "gfx/icons/landorus_therian.2bpp.lz"

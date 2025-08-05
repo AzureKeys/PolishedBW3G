@@ -466,8 +466,11 @@ StunfiskPlainBitmasks: INCLUDE "gfx/pokemon/stunfisk_plain/bitmask.asm"
 
 BraviaryPlainBitmasks: INCLUDE "gfx/pokemon/braviary_plain/bitmask.asm"
 
-TornadusPlainBitmasks: INCLUDE "gfx/pokemon/tornadus_plain/bitmask.asm"
+TornadusPlainBitmasks:   INCLUDE "gfx/pokemon/tornadus_plain/bitmask.asm"
+TornadusTherianBitmasks: INCLUDE "gfx/pokemon/tornadus_therian/bitmask.asm"
 
-ThundurusPlainBitmasks: INCLUDE "gfx/pokemon/thundurus_plain/bitmask.asm"
+ThundurusPlainBitmasks:   INCLUDE "gfx/pokemon/thundurus_plain/bitmask.asm"
+ThundurusTherianBitmasks: INCLUDE "gfx/pokemon/thundurus_therian/bitmask.asm"
 
-LandorusPlainBitmasks: INCLUDE "gfx/pokemon/landorus_plain/bitmask.asm"
+LandorusPlainBitmasks:   INCLUDE "gfx/pokemon/landorus_plain/bitmask.asm"
+LandorusTherianBitmasks: INCLUDE "gfx/pokemon/landorus_therian/bitmask.asm"

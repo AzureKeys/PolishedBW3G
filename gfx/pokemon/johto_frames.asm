@@ -302,8 +302,11 @@ StunfiskPlainFrames: INCLUDE "gfx/pokemon/stunfisk_plain/frames.asm"
 
 BraviaryPlainFrames: INCLUDE "gfx/pokemon/braviary_plain/frames.asm"
 
-TornadusPlainFrames: INCLUDE "gfx/pokemon/tornadus_plain/frames.asm"
+TornadusPlainFrames:   INCLUDE "gfx/pokemon/tornadus_plain/frames.asm"
+TornadusTherianFrames: INCLUDE "gfx/pokemon/tornadus_therian/frames.asm"
 
-ThundurusPlainFrames: INCLUDE "gfx/pokemon/thundurus_plain/frames.asm"
+ThundurusPlainFrames:   INCLUDE "gfx/pokemon/thundurus_plain/frames.asm"
+ThundurusTherianFrames: INCLUDE "gfx/pokemon/thundurus_therian/frames.asm"
 
-LandorusPlainFrames: INCLUDE "gfx/pokemon/landorus_plain/frames.asm"
+LandorusPlainFrames:   INCLUDE "gfx/pokemon/landorus_plain/frames.asm"
+LandorusTherianFrames: INCLUDE "gfx/pokemon/landorus_therian/frames.asm"
