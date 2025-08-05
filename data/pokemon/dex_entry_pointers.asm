@@ -328,6 +328,8 @@ PokedexDataPointerTable:
 	dba VirizionPokedexEntry
 	dba TornadusPokedexEntry
 	dba ThundurusPokedexEntry
+	dba ReshiramPokedexEntry
+	dba ZekromPokedexEntry
 	dba LandorusPokedexEntry
 	dba GenesectPokedexEntry
 	assert_table_length NUM_SPECIES

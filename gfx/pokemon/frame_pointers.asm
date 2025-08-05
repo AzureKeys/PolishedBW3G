@@ -327,6 +327,8 @@ FramesPointers:
 	dw VirizionFrames
 	dw TornadusPlainFrames
 	dw ThundurusPlainFrames
+	dw ReshiramFrames
+	dw ZekromFrames
 	dw LandorusPlainFrames
 	dw GenesectFrames
 	assert_table_length NUM_SPECIES

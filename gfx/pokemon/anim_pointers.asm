@@ -327,6 +327,8 @@ AnimationPointers:
 	dw VirizionAnimation
 	dw TornadusPlainAnimation
 	dw ThundurusPlainAnimation
+	dw ReshiramAnimation
+	dw ZekromAnimation
 	dw LandorusPlainAnimation
 	dw GenesectAnimation
 	assert_table_length NUM_SPECIES

@@ -3235,6 +3235,26 @@ ThundurusPokedexEntry::
 	next "flies around,"
 	next "firing lightning.@"
 
+SECTION "ReshiramPokedexEntry", ROMX
+ReshiramPokedexEntry::
+	db "Vast White@"
+	db "This #mon is"
+	next "from legends. It"
+	next "sends flames into"
+	page "the air from its"
+	next "tail, burning up"
+	next "everything.@"
+
+SECTION "ZekromPokedexEntry", ROMX
+ZekromPokedexEntry::
+	db "Deep Black@"
+	db "Concealed in"
+	next "lightning clouds,"
+	next "it flies through"
+	page "the skies. It"
+	next "creates lightning"
+	next "in its tail.@"
+
 SECTION "LandorusPokedexEntry", ROMX
 LandorusPokedexEntry::
 	db "Abundance@"

@@ -159,6 +159,8 @@ TerrakionFootprint::
 VirizionFootprint::
 TornadusFootprint::
 ThundurusFootprint::
+ReshiramFootprint::
+ZekromFootprint::
 LandorusFootprint::
 GenesectFootprint::
 ChinchouFootprint::

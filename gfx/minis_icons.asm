@@ -1637,6 +1637,16 @@ ThundurusMini::     INCBIN "gfx/minis/thundurus.2bpp.lz"
 ThundurusMiniMask:: INCBIN "gfx/minis/thundurus_mask.1bpp.lz"
 ThundurusIcon::     INCBIN "gfx/icons/thundurus.2bpp.lz"
 
+SECTION "Reshiram Mini Icon", ROMX
+ReshiramMini::     INCBIN "gfx/minis/reshiram.2bpp.lz"
+ReshiramMiniMask:: INCBIN "gfx/minis/reshiram_mask.1bpp.lz"
+ReshiramIcon::     INCBIN "gfx/icons/reshiram.2bpp.lz"
+
+SECTION "Zekrom Mini Icon", ROMX
+ZekromMini::     INCBIN "gfx/minis/zekrom.2bpp.lz"
+ZekromMiniMask:: INCBIN "gfx/minis/zekrom_mask.1bpp.lz"
+ZekromIcon::     INCBIN "gfx/icons/zekrom.2bpp.lz"
+
 SECTION "Landorus Mini Icon", ROMX
 LandorusMini::     INCBIN "gfx/minis/landorus.2bpp.lz"
 LandorusMiniMask:: INCBIN "gfx/minis/landorus_mask.1bpp.lz"

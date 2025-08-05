@@ -327,6 +327,8 @@ FootprintPointers::
 	dw VirizionFootprint
 	dw TornadusFootprint
 	dw ThundurusFootprint
+	dw ReshiramFootprint
+	dw ZekromFootprint
 	dw LandorusFootprint
 	dw GenesectFootprint
 	assert_table_length NUM_SPECIES

@@ -332,6 +332,8 @@ endc
 	db 255, 255 ; Virizion
 	db 255, 255 ; Tornadus
 	db 255, 255 ; Thundurus
+	db 255, 255 ; Reshiram
+	db 255, 255 ; Zekrom
 	db 255, 255 ; Landorus
 	db 255, 255 ; Genesect
 	assert_table_length NUM_SPECIES

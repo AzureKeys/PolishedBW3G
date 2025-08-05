@@ -1633,6 +1633,14 @@ SECTION "ThundurusPlain Pics", ROMX
 ThundurusPlainFrontpic: INCBIN "gfx/pokemon/thundurus_plain/front.animated.2bpp.lz"
 ThundurusPlainBackpic:  INCBIN "gfx/pokemon/thundurus_plain/back.2bpp.lz"
 
+SECTION "Reshiram Pics", ROMX
+ReshiramFrontpic: INCBIN "gfx/pokemon/reshiram/front.animated.2bpp.lz"
+ReshiramBackpic:  INCBIN "gfx/pokemon/reshiram/back.2bpp.lz"
+
+SECTION "Zekrom Pics", ROMX
+ZekromFrontpic: INCBIN "gfx/pokemon/zekrom/front.animated.2bpp.lz"
+ZekromBackpic:  INCBIN "gfx/pokemon/zekrom/back.2bpp.lz"
+
 SECTION "LandorusPlain Pics", ROMX
 LandorusPlainFrontpic: INCBIN "gfx/pokemon/landorus_plain/front.animated.2bpp.lz"
 LandorusPlainBackpic:  INCBIN "gfx/pokemon/landorus_plain/back.2bpp.lz"

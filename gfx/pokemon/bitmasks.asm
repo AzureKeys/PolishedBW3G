@@ -272,6 +272,8 @@ VolcaronaBitmasks:  INCLUDE "gfx/pokemon/volcarona/bitmask.asm"
 CobalionBitmasks:   INCLUDE "gfx/pokemon/cobalion/bitmask.asm"
 TerrakionBitmasks:  INCLUDE "gfx/pokemon/terrakion/bitmask.asm"
 VirizionBitmasks:   INCLUDE "gfx/pokemon/virizion/bitmask.asm"
+ReshiramBitmasks:   INCLUDE "gfx/pokemon/reshiram/bitmask.asm"
+ZekromBitmasks:     INCLUDE "gfx/pokemon/zekrom/bitmask.asm"
 GenesectBitmasks:   INCLUDE "gfx/pokemon/genesect/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"

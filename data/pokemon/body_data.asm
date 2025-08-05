@@ -334,6 +334,8 @@ PokemonBodyData:
 	body_data  20, 2000, QUADRUPED,    GREEN  ; VIRIZION
 	body_data  15,  630, HEAD_ARMS,    GREEN  ; TORNADUS
 	body_data  15,  610, HEAD_ARMS,    BLUE   ; THUNDURUS
+	body_data  32, 3300, WINGS,        WHITE  ; RESHIRAM
+	body_data  29, 3450, BIPEDAL_TAIL, BLACK  ; ZEKROM
 	body_data  15,  680, HEAD_ARMS,    BROWN  ; LANDORUS
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES

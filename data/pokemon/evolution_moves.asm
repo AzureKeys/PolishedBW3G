@@ -331,6 +331,8 @@ endc
 	db NO_MOVE      ; VIRIZION
 	db NO_MOVE      ; TORNADUS
 	db NO_MOVE      ; THUNDURUS
+	db NO_MOVE      ; RESHIRAM
+	db NO_MOVE      ; ZEKROM
 	db NO_MOVE      ; LANDORUS
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES

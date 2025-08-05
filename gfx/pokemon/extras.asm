@@ -272,6 +272,8 @@ VolcaronaAnimationExtra:  INCLUDE "gfx/pokemon/volcarona/anim_idle.asm"
 CobalionAnimationExtra:   INCLUDE "gfx/pokemon/cobalion/anim_idle.asm"
 TerrakionAnimationExtra:  INCLUDE "gfx/pokemon/terrakion/anim_idle.asm"
 VirizionAnimationExtra:   INCLUDE "gfx/pokemon/virizion/anim_idle.asm"
+ReshiramAnimationExtra:   INCLUDE "gfx/pokemon/reshiram/anim_idle.asm"
+ZekromAnimationExtra:     INCLUDE "gfx/pokemon/zekrom/anim_idle.asm"
 GenesectAnimationExtra:   INCLUDE "gfx/pokemon/genesect/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"

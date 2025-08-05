@@ -272,6 +272,8 @@ VolcaronaAnimation:  INCLUDE "gfx/pokemon/volcarona/anim.asm"
 CobalionAnimation:   INCLUDE "gfx/pokemon/cobalion/anim.asm"
 TerrakionAnimation:  INCLUDE "gfx/pokemon/terrakion/anim.asm"
 VirizionAnimation:   INCLUDE "gfx/pokemon/virizion/anim.asm"
+ReshiramAnimation:   INCLUDE "gfx/pokemon/reshiram/anim.asm"
+ZekromAnimation:     INCLUDE "gfx/pokemon/zekrom/anim.asm"
 GenesectAnimation:   INCLUDE "gfx/pokemon/genesect/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"

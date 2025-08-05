@@ -328,6 +328,8 @@ PokemonNames::
 	rawchar "Virizion@@"
 	rawchar "Tornadus@@"
 	rawchar "Thundurus@"
+	rawchar "Reshiram@@"
+	rawchar "Zekrom@@@@"
 	rawchar "Landorus@@"
 	rawchar "Genesect@@"
 	assert_table_length NUM_SPECIES + 1

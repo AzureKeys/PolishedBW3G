@@ -13,5 +13,7 @@ UberMons::
 	dp LUGIA
 	dp HO_OH
 	dp CELEBI
+	dp RESHIRAM
+	dp ZEKROM
 	dp GENESECT
 	db 0

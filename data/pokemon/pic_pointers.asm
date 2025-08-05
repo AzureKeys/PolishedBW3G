@@ -331,6 +331,8 @@ PokemonPicPointers::
 	pics Virizion
 	pics TornadusPlain
 	pics ThundurusPlain
+	pics Reshiram
+	pics Zekrom
 	pics LandorusPlain
 	pics Genesect
 	assert_table_length NUM_SPECIES

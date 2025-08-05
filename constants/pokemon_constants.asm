@@ -351,6 +351,8 @@
 	const VIRIZION   ; 185
 	const TORNADUS   ; 186
 	const THUNDURUS  ; 187
+	const RESHIRAM   ; 188
+	const ZEKROM     ; 189
 	const LANDORUS   ; 18a
 	const GENESECT   ; 18e
 DEF NUM_SPECIES EQU const_value - 1 ; 123

@@ -362,6 +362,8 @@ INCLUDE "data/pokemon/base_stats/terrakion.asm"
 INCLUDE "data/pokemon/base_stats/virizion.asm"
 INCLUDE "data/pokemon/base_stats/tornadus_plain.asm"
 INCLUDE "data/pokemon/base_stats/thundurus_plain.asm"
+INCLUDE "data/pokemon/base_stats/reshiram.asm"
+INCLUDE "data/pokemon/base_stats/zekrom.asm"
 INCLUDE "data/pokemon/base_stats/landorus_plain.asm"
 INCLUDE "data/pokemon/base_stats/genesect.asm"
 	assert_table_length NUM_SPECIES

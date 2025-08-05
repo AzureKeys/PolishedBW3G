@@ -6389,6 +6389,44 @@ endc
 	learnset 73, HYPER_BEAM
 	learnset 77, EXPLOSION ; SelfDestruct
 	
+	evos_attacks Reshiram
+	learnset 1, QUICK_ATTACK
+	learnset 1, METAL_CLAW
+	learnset 1, SCREECH
+	;learnset 7, FURY_CUTTER
+	;learnset 11, LOCK_ON
+	;learnset 18, FLAME_WHEEL
+	learnset 22, ROAR ; Magnet Bomb
+	learnset 29, SLASH
+	learnset 33, BODY_SLAM ; Metal Sound
+	;learnset 40, SIGNAL_BEAM
+	learnset 44, TRI_ATTACK
+	learnset 51, X_SCISSOR
+	learnset 55, BUG_BUZZ
+	learnset 62, SCARY_FACE ; Simple Beam
+	learnset 66, ZAP_CANNON
+	learnset 73, HYPER_BEAM
+	learnset 77, EXPLOSION ; SelfDestruct
+	
+	evos_attacks Zekrom
+	learnset 1, QUICK_ATTACK
+	learnset 1, METAL_CLAW
+	learnset 1, SCREECH
+	;learnset 7, FURY_CUTTER
+	;learnset 11, LOCK_ON
+	;learnset 18, FLAME_WHEEL
+	learnset 22, ROAR ; Magnet Bomb
+	learnset 29, SLASH
+	learnset 33, BODY_SLAM ; Metal Sound
+	;learnset 40, SIGNAL_BEAM
+	learnset 44, TRI_ATTACK
+	learnset 51, X_SCISSOR
+	learnset 55, BUG_BUZZ
+	learnset 62, SCARY_FACE ; Simple Beam
+	learnset 66, ZAP_CANNON
+	learnset 73, HYPER_BEAM
+	learnset 77, EXPLOSION ; SelfDestruct
+	
 	evos_attacks Landorus
 	learnset 1, QUICK_ATTACK
 	learnset 1, METAL_CLAW

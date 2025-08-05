@@ -231,6 +231,7 @@ AlphabeticalPokedexOrder:
 	dp RATICATE
 	dp RATTATA
 	dp REMORAID
+	dp RESHIRAM
 	dp REUNICLUS
 	dp ROGGENROLA
 	dp RUFFLET
@@ -325,6 +326,7 @@ AlphabeticalPokedexOrder:
 	dp YANMA
 	dp YANMEGA
 	dp ZEBSTRIKA
+	dp ZEKROM
 	dp ZOROARK
 	dp ZORUA
 	dp ZUBAT
