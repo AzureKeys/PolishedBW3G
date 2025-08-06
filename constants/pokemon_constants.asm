@@ -356,6 +356,7 @@
 	const LANDORUS   ; 18a
 	const KYUREM     ; 18b
 	const KELDEO     ; 18c
+	const MELOETTA   ; 18d
 	const GENESECT   ; 18e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
@@ -555,6 +556,10 @@ DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
 	ext_const_def 2
 	ext_const KYUREM_WHITE_FORM ; 15d (2)
 	ext_const KYUREM_BLACK_FORM ; 15d (3)
+	
+; meloetta
+	ext_const_def 1, MELOETTA_ARIA_FORM ; (1)
+	ext_const MELOETTA_PIROUETTE_FORM   ; 13f (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 

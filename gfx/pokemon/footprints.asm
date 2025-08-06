@@ -163,6 +163,7 @@ ReshiramFootprint::
 ZekromFootprint::
 KyuremFootprint::
 KeldeoFootprint::
+MeloettaFootprint::
 LandorusFootprint::
 GenesectFootprint::
 ChinchouFootprint::

@@ -336,6 +336,7 @@ OverworldMonIconColors::
 	iconpal ORANGE, BROWN ; LANDORUS
 	iconpal AZURE, BLUE ; KYUREM
 	iconpal AZURE, TEAL ; KELDEO
+	iconpal GREEN, TEAL ; MELOETTA
 	iconpal PURPLE, RED ; GENESECT
 	assert_table_length NUM_SPECIES
 
@@ -412,5 +413,6 @@ endr
 	iconpal TEAL, GRAY ; KYUREM, KYUREM_WHITE_FORM
 	iconpal TEAL, GRAY ; KYUREM, KYUREM_BLACK_FORM
 	
+	iconpal ORANGE, PINK ; MELOETTA, MELOETTA_PIROUETTE_FORM
 
 	assert_table_length NUM_UNIQUE_POKEMON

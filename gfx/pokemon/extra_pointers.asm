@@ -332,6 +332,7 @@ AnimationExtraPointers:
 	dw LandorusPlainAnimationExtra
 	dw KyuremPlainAnimationExtra
 	dw KeldeoAnimationExtra
+	dw MeloettaPlainAnimationExtra
 	dw GenesectAnimationExtra
 	assert_table_length NUM_SPECIES
 
@@ -449,5 +450,7 @@ AnimationExtraPointers:
 	
 	dw KyuremWhiteAnimationExtra
 	dw KyuremBlackAnimationExtra
+	
+	dw MeloettaPirouetteAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

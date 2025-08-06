@@ -481,3 +481,6 @@ LandorusTherianAnimation: INCLUDE "gfx/pokemon/landorus_therian/anim.asm"
 KyuremPlainAnimation: INCLUDE "gfx/pokemon/kyurem_plain/anim.asm"
 KyuremWhiteAnimation: INCLUDE "gfx/pokemon/kyurem_white/anim.asm"
 KyuremBlackAnimation: INCLUDE "gfx/pokemon/kyurem_black/anim.asm"
+
+MeloettaPlainAnimation:     INCLUDE "gfx/pokemon/meloetta_plain/anim.asm"
+MeloettaPirouetteAnimation: INCLUDE "gfx/pokemon/meloetta_pirouette/anim.asm"

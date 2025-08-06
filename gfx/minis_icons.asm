@@ -1662,6 +1662,11 @@ KeldeoMini::     INCBIN "gfx/minis/keldeo.2bpp.lz"
 KeldeoMiniMask:: INCBIN "gfx/minis/keldeo_mask.1bpp.lz"
 KeldeoIcon::     INCBIN "gfx/icons/keldeo.2bpp.lz"
 
+SECTION "Meloetta Mini Icon", ROMX
+MeloettaMini::     INCBIN "gfx/minis/meloetta.2bpp.lz"
+MeloettaMiniMask:: INCBIN "gfx/minis/meloetta_mask.1bpp.lz"
+MeloettaIcon::     INCBIN "gfx/icons/meloetta.2bpp.lz"
+
 SECTION "Genesect Mini Icon", ROMX
 GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"
@@ -2006,3 +2011,8 @@ SECTION "KyuremBlack Mini Icon", ROMX
 KyuremBlackMini::     INCBIN "gfx/minis/kyurem_black.2bpp.lz"
 KyuremBlackMiniMask:: INCBIN "gfx/minis/kyurem_black_mask.1bpp.lz"
 KyuremBlackIcon::     INCBIN "gfx/icons/kyurem_black.2bpp.lz"
+
+SECTION "MeloettaPirouette Mini Icon", ROMX
+MeloettaPirouetteMini::     INCBIN "gfx/minis/meloetta_pirouette.2bpp.lz"
+MeloettaPirouetteMiniMask:: INCBIN "gfx/minis/meloetta_pirouette_mask.1bpp.lz"
+MeloettaPirouetteIcon::     INCBIN "gfx/icons/meloetta_pirouette.2bpp.lz"

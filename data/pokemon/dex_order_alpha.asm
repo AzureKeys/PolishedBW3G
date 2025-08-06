@@ -175,6 +175,7 @@ AlphabeticalPokedexOrder:
 	dp MAREEP
 	dp MARILL
 	dp MEGANIUM
+	dp MELOETTA
 	dp MEOWTH
 	dp MEW
 	dp MEWTWO

@@ -339,6 +339,7 @@ PokemonBodyData:
 	body_data  15,  680, HEAD_ARMS,    BROWN  ; LANDORUS
 	body_data  30, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM
 	body_data  14,  485, QUADRUPED,    YELLOW ; KELDEO
+	body_data   6,   65, BIPEDAL,      WHITE  ; MELOETTA
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES
 
@@ -398,5 +399,7 @@ PokemonBodyData:
 	
 	body_data  36, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM (KYUREM_WHITE_FORM)
 	body_data  33, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM (KYUREM_BLACK_FORM)
+	
+	body_data   6,   65, BIPEDAL,      WHITE  ; MELOETTA (MELOETTA_PIROUETTE_FORM)
 
 	assert_table_length NUM_EXT_POKEMON

@@ -6,6 +6,7 @@ LegendaryMons::
 	dp TORNADUS
 	dp THUNDURUS
 	dp LANDORUS
+	dp KELDEO
 UberMons::
 ; banned from Battle Tower
 	dp MEWTWO
@@ -16,5 +17,6 @@ UberMons::
 	dp RESHIRAM
 	dp ZEKROM
 	dp KYUREM
+	dp MELOETTA
 	dp GENESECT
 	db 0

@@ -3285,6 +3285,16 @@ KeldeoPokedexEntry::
 	next "excels at kicking"
 	next "techniques.@"
 
+SECTION "MeloettaPokedexEntry", ROMX
+MeloettaPokedexEntry::
+	db "Melody@"
+	db "Its melodies are"
+	next "sung with a method"
+	next "that can control"
+	page "the feelings of"
+	next "those who hear"
+	next "it.@"
+
 SECTION "GenesectPokedexEntry", ROMX
 GenesectPokedexEntry::
 	db "Paleozoic@"

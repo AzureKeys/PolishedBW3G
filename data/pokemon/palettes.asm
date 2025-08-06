@@ -677,6 +677,8 @@ INCLUDE "gfx/pokemon/kyurem_plain/normal.pal"
 INCLUDE "gfx/pokemon/kyurem_plain/shiny.pal"
 INCLUDE "gfx/pokemon/keldeo/normal.pal"
 INCLUDE "gfx/pokemon/keldeo/shiny.pal"
+INCLUDE "gfx/pokemon/meloetta_plain/normal.pal"
+INCLUDE "gfx/pokemon/meloetta_plain/shiny.pal"
 INCLUDE "gfx/pokemon/genesect/normal.pal"
 INCLUDE "gfx/pokemon/genesect/shiny.pal"
 	assert_table_length NUM_SPECIES + 1
@@ -782,6 +784,9 @@ INCLUDE "gfx/pokemon/kyurem_white/normal.pal"
 INCLUDE "gfx/pokemon/kyurem_white/shiny.pal"
 INCLUDE "gfx/pokemon/kyurem_black/normal.pal"
 INCLUDE "gfx/pokemon/kyurem_black/shiny.pal"
+
+INCLUDE "gfx/pokemon/meloetta_pirouette/normal.pal"
+INCLUDE "gfx/pokemon/meloetta_pirouette/shiny.pal"
 
 	assert_table_length NUM_EXT_POKEMON + 1
 

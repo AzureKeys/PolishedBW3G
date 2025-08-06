@@ -337,5 +337,6 @@ endc
 	db 255, 255 ; Landorus
 	db 255, 255 ; Kyurem
 	db 255, 255 ; Keldeo
+	db 255, 255 ; Meloetta
 	db 255, 255 ; Genesect
 	assert_table_length NUM_SPECIES

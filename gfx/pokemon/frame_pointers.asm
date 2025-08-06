@@ -332,6 +332,7 @@ FramesPointers:
 	dw LandorusPlainFrames
 	dw KyuremPlainFrames
 	dw KeldeoFrames
+	dw MeloettaPlainFrames
 	dw GenesectFrames
 	assert_table_length NUM_SPECIES
 
@@ -449,5 +450,7 @@ FramesPointers:
 	
 	dw KyuremWhiteFrames
 	dw KyuremBlackFrames
+	
+	dw MeloettaPirouetteFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

@@ -481,3 +481,6 @@ LandorusTherianBitmasks: INCLUDE "gfx/pokemon/landorus_therian/bitmask.asm"
 KyuremPlainBitmasks: INCLUDE "gfx/pokemon/kyurem_plain/bitmask.asm"
 KyuremWhiteBitmasks: INCLUDE "gfx/pokemon/kyurem_white/bitmask.asm"
 KyuremBlackBitmasks: INCLUDE "gfx/pokemon/kyurem_black/bitmask.asm"
+
+MeloettaPlainBitmasks:     INCLUDE "gfx/pokemon/meloetta_plain/bitmask.asm"
+MeloettaPirouetteBitmasks: INCLUDE "gfx/pokemon/meloetta_pirouette/bitmask.asm"

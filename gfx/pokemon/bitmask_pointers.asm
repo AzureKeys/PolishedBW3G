@@ -332,6 +332,7 @@ BitmasksPointers:
 	dw LandorusPlainBitmasks
 	dw KyuremPlainBitmasks
 	dw KeldeoBitmasks
+	dw MeloettaPlainBitmasks
 	dw GenesectBitmasks
 	assert_table_length NUM_SPECIES
 
@@ -449,5 +450,7 @@ BitmasksPointers:
 	
 	dw KyuremWhiteBitmasks
 	dw KyuremBlackBitmasks
+	
+	dw MeloettaPirouetteBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

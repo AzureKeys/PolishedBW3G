@@ -336,6 +336,7 @@ endc
 	db NO_MOVE      ; LANDORUS
 	db NO_MOVE      ; KYUREM
 	db NO_MOVE      ; KELDEO
+	db NO_MOVE      ; MELOETTA
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
 
@@ -395,5 +396,7 @@ endc
 	
 	db NO_MOVE      ; KYUREM, KYUREM_WHITE_FORM
 	db NO_MOVE      ; KYUREM, KYUREM_BLACK_FORM
+	
+	db NO_MOVE      ; MELOETTA, MELOETTA_PIROUETTE_FORM
 
 	assert_table_length NUM_EXT_POKEMON

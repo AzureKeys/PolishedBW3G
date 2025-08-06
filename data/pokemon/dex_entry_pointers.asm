@@ -333,6 +333,7 @@ PokedexDataPointerTable:
 	dba LandorusPokedexEntry
 	dba KyuremPokedexEntry
 	dba KeldeoPokedexEntry
+	dba MeloettaPokedexEntry
 	dba GenesectPokedexEntry
 	assert_table_length NUM_SPECIES
 
@@ -392,5 +393,7 @@ PokedexDataPointerTable:
 	
 	dba KyuremPokedexEntry
 	dba KyuremPokedexEntry
+	
+	dba MeloettaPokedexEntry
 
 	assert_table_length NUM_EXT_POKEMON

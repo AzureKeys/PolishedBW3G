@@ -336,6 +336,7 @@ PokemonPicPointers::
 	pics LandorusPlain
 	pics KyuremPlain
 	pics Keldeo
+	pics MeloettaPlain
 	pics Genesect
 	assert_table_length NUM_SPECIES
 
@@ -453,5 +454,7 @@ PokemonPicPointers::
 	
 	pics KyuremWhite
 	pics KyuremBlack
+	
+	pics MeloettaPirouette
 
 	assert_table_length NUM_UNIQUE_POKEMON

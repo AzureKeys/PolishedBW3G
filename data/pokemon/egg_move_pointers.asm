@@ -332,6 +332,7 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Landorus
 	dw NoEggSpeciesMoves                ; Kyurem
 	dw NoEggSpeciesMoves                ; Keldeo
+	dw NoEggSpeciesMoves                ; Meloetta
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
 
@@ -391,5 +392,7 @@ EggSpeciesMovesPointers::
 	
 	dw NoEggSpeciesMoves                ; Kyurem (White)
 	dw NoEggSpeciesMoves                ; Kyurem (Black)
+	
+	dw NoEggSpeciesMoves                ; Meloetta (Pirouette)
 
 	assert_table_length NUM_EXT_POKEMON

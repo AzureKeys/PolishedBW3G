@@ -1653,6 +1653,10 @@ SECTION "Keldeo Pics", ROMX
 KeldeoFrontpic: INCBIN "gfx/pokemon/keldeo/front.animated.2bpp.lz"
 KeldeoBackpic:  INCBIN "gfx/pokemon/keldeo/back.2bpp.lz"
 
+SECTION "MeloettaPlain Pics", ROMX
+MeloettaPlainFrontpic: INCBIN "gfx/pokemon/meloetta_plain/front.animated.2bpp.lz"
+MeloettaPlainBackpic:  INCBIN "gfx/pokemon/meloetta_plain/back.2bpp.lz"
+
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"
@@ -1712,3 +1716,7 @@ KyuremWhiteBackpic:  INCBIN "gfx/pokemon/kyurem_white/back.2bpp.lz"
 SECTION "KyuremBlack Pics", ROMX
 KyuremBlackFrontpic: INCBIN "gfx/pokemon/kyurem_black/front.animated.2bpp.lz"
 KyuremBlackBackpic:  INCBIN "gfx/pokemon/kyurem_black/back.2bpp.lz"
+
+SECTION "MeloettaPirouette Pics", ROMX
+MeloettaPirouetteFrontpic: INCBIN "gfx/pokemon/meloetta_pirouette/front.animated.2bpp.lz"
+MeloettaPirouetteBackpic:  INCBIN "gfx/pokemon/meloetta_pirouette/back.2bpp.lz"

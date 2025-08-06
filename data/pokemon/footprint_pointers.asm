@@ -332,6 +332,7 @@ FootprintPointers::
 	dw LandorusFootprint
 	dw KyuremFootprint
 	dw KeldeoFootprint
+	dw MeloettaFootprint
 	dw GenesectFootprint
 	assert_table_length NUM_SPECIES
 
@@ -391,5 +392,7 @@ FootprintPointers::
 	
 	dw KyuremFootprint
 	dw KyuremFootprint
+	
+	dw MeloettaFootprint
 
 	assert_table_length NUM_EXT_POKEMON
