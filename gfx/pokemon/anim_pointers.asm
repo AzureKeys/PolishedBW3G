@@ -177,6 +177,7 @@ AnimationPointers:
 	dw SneaslerAnimation
 	dw DudunsparceTwoSegmentAnimation
 	dw AnnihilapeAnimation
+	dw VictiniAnimation
 	dw SnivyAnimation
 	dw ServineAnimation
 	dw SerperiorAnimation
@@ -253,9 +254,9 @@ AnimationPointers:
 	dw TrubbishAnimation
 	dw GarbodorAnimation
 	dw ZoruaPlainAnimation
-	dw ZoroarkPlainAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ZoroarkPlainAnimation
 	dw MinccinoAnimation
 	dw CinccinoAnimation
 	dw GothitaAnimation

@@ -177,6 +177,7 @@ FootprintPointers::
 	dw SneaslerFootprint
 	dw DudunsparceFootprint
 	dw AnnihilapeFootprint
+	dw VictiniFootprint
 	dw SnivyFootprint
 	dw ServineFootprint
 	dw SerperiorFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw TrubbishFootprint
 	dw GarbodorFootprint
 	dw ZoruaFootprint
-	dw ZoroarkFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw ZoroarkFootprint
 	dw MinccinoFootprint
 	dw CinccinoFootprint
 	dw GothitaFootprint

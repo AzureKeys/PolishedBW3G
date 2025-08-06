@@ -181,6 +181,7 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; SNEASLER
 	iconpal AZURE, RED ; DUDUNSPARCE
 	iconpal BROWN, BLUE ; ANNIHILAPE
+	iconpal ORANGE, RED ; VICTINI
 	iconpal GREEN, BLUE ; SNIVY
 	iconpal GREEN, BLUE ; SERVINE
 	iconpal GREEN, BLUE ; SERPERIOR
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
 	iconpal GRAY, AZURE ; ZORUA
-	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal GRAY, PINK ; MINCCINO
 	iconpal GRAY, BROWN ; CINCCINO
 	iconpal BLACK, PURPLE ; GOTHITA

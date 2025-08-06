@@ -177,6 +177,7 @@ EggSpeciesMovesPointers::
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	dw MankeyEggSpeciesMoves            ; Annihilape
+	dw NoEggSpeciesMoves                ; Victini
 	dw SnivyEggSpeciesMoves             ; Snivy
 	dw SnivyEggSpeciesMoves             ; Servine
 	dw SnivyEggSpeciesMoves             ; Serperior
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
-	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw MinccinoEggSpeciesMoves          ; Minccino
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita

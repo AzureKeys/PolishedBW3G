@@ -11,6 +11,7 @@ CorsolaFootprint::
 CursolaFootprint:: INCBIN "gfx/footprints/corsola_cursola.1bpp.lz"
 
 BlankFootprint::
+VictiniFootprint::
 SnivyFootprint::
 ServineFootprint::
 SerperiorFootprint::

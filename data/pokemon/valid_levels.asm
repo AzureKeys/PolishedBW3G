@@ -182,6 +182,7 @@ endc
 	db  40, 100 ; Sneasler
 	db  32, 100 ; Dudunsparce
 	db  56, 100 ; Annihilape
+	db 255, 255 ; Victini
 	db   1,  16 ; Snivy
 	db  17,  35 ; Servine
 	db  36, 100 ; Serperior
@@ -258,9 +259,9 @@ endc
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
 	db   1,  29 ; Zorua
-	db  30, 100 ; Zoroark
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  30, 100 ; Zoroark
 	db   1,  29 ; Minccino
 	db  30, 100 ; Cinccino
 	db   1,  31 ; Gothita

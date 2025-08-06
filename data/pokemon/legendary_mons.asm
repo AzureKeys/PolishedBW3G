@@ -14,6 +14,7 @@ UberMons::
 	dp LUGIA
 	dp HO_OH
 	dp CELEBI
+	dp VICTINI
 	dp RESHIRAM
 	dp ZEKROM
 	dp KYUREM

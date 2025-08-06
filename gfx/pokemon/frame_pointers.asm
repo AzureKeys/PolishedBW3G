@@ -177,6 +177,7 @@ FramesPointers:
 	dw SneaslerFrames
 	dw DudunsparceTwoSegmentFrames
 	dw AnnihilapeFrames
+	dw VictiniFrames
 	dw SnivyFrames
 	dw ServineFrames
 	dw SerperiorFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw TrubbishFrames
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
-	dw ZoroarkPlainFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ZoroarkPlainFrames
 	dw MinccinoFrames
 	dw CinccinoFrames
 	dw GothitaFrames

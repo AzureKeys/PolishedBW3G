@@ -1041,6 +1041,10 @@ SECTION "Sneasler Pics", ROMX
 SneaslerFrontpic: INCBIN "gfx/pokemon/sneasler/front.animated.2bpp.lz"
 SneaslerBackpic:  INCBIN "gfx/pokemon/sneasler/back.2bpp.lz"
 
+SECTION "Victini Pics", ROMX
+VictiniFrontpic: INCBIN "gfx/pokemon/victini/front.animated.2bpp.lz"
+VictiniBackpic:  INCBIN "gfx/pokemon/victini/back.2bpp.lz"
+
 SECTION "Snivy Pics", ROMX
 SnivyFrontpic: INCBIN "gfx/pokemon/snivy/front.animated.2bpp.lz"
 SnivyBackpic:  INCBIN "gfx/pokemon/snivy/back.2bpp.lz"

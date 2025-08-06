@@ -178,6 +178,7 @@ PokemonNames::
 	rawchar "Sneasler@@"
 	rawchar "D'dunsparce"
 	rawchar "Annihilape"
+	rawchar "Victini@@@"
 	rawchar "Snivy@@@@@"
 	rawchar "Servine@@@"
 	rawchar "Serperior@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
-	rawchar "Zoroark@@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Zoroark@@@"
 	rawchar "Minccino@@"
 	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"

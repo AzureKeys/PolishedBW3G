@@ -1776,6 +1776,16 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
+SECTION "VictiniPokedexEntry", ROMX
+VictiniPokedexEntry::
+	db "Victory@"
+	db "It creates an"
+	next "unlimited supply"
+	next "of energy inside"
+	page "its body, which it"
+	next "shares with those"
+	next "it touches.@"
+
 SECTION "SnivyPokedexEntry", ROMX
 SnivyPokedexEntry::
 	db "Grass Snake@"

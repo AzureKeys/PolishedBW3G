@@ -178,6 +178,7 @@ PokedexDataPointerTable:
 	dba SneaslerPokedexEntry
 	dba DudunsparcePokedexEntry
 	dba AnnihilapePokedexEntry
+	dba VictiniPokedexEntry
 	dba SnivyPokedexEntry
 	dba ServinePokedexEntry
 	dba SerperiorPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
-	dba ZoroarkPlainPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
+	dba ZoroarkPlainPokedexEntry
 	dba MinccinoPokedexEntry
 	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry

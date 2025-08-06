@@ -181,6 +181,7 @@ PokemonPicPointers::
 	pics Sneasler
 	pics DudunsparceTwoSegment
 	pics Annihilape
+	pics Victini
 	pics Snivy
 	pics Servine
 	pics Serperior
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Trubbish
 	pics Garbodor
 	pics ZoruaPlain
-	pics ZoroarkPlain
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics ZoroarkPlain
 	pics Minccino
 	pics Cinccino
 	pics Gothita

@@ -2,6 +2,7 @@
 
 NewPokedexOrder:
 	table_width 2
+	dp VICTINI
 	dp SNIVY
 	dp SERVINE
 	dp SERPERIOR

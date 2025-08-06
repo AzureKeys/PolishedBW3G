@@ -177,6 +177,7 @@ BitmasksPointers:
 	dw SneaslerBitmasks
 	dw DudunsparceTwoSegmentBitmasks
 	dw AnnihilapeBitmasks
+	dw VictiniBitmasks
 	dw SnivyBitmasks
 	dw ServineBitmasks
 	dw SerperiorBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
-	dw ZoroarkPlainBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw ZoroarkPlainBitmasks
 	dw MinccinoBitmasks
 	dw CinccinoBitmasks
 	dw GothitaBitmasks

@@ -897,6 +897,11 @@ AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
 AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
 AnnihilapeIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
 
+SECTION "Victini Mini Icon", ROMX
+VictiniMini::     INCBIN "gfx/minis/victini.2bpp.lz"
+VictiniMiniMask:: INCBIN "gfx/minis/victini_mask.1bpp.lz"
+VictiniIcon::     INCBIN "gfx/icons/victini.2bpp.lz"
+
 SECTION "Snivy Mini Icon", ROMX
 SnivyMini::     INCBIN "gfx/minis/snivy.2bpp.lz"
 SnivyMiniMask:: INCBIN "gfx/minis/snivy_mask.1bpp.lz"

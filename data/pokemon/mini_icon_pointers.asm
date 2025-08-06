@@ -181,6 +181,7 @@ MiniIconPointers:
 	mini_icon Sneasler
 	mini_icon DudunsparceTwoSegment
 	mini_icon Annihilape
+	mini_icon Victini
 	mini_icon Snivy
 	mini_icon Servine
 	mini_icon Serperior
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Trubbish
 	mini_icon Garbodor
 	mini_icon Zorua
-	mini_icon Zoroark
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Zoroark
 	mini_icon Minccino
 	mini_icon Cinccino
 	mini_icon Gothita

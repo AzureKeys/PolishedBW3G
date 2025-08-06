@@ -183,6 +183,7 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; VICTINI*
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
 	mon_cry CRY_METAPOD,    -$09a,  $0d0 ; Serperior
@@ -259,9 +260,9 @@ PokemonCries::
 	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
-	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_VULPIX,      $04f,  $090 ; MINCCINO*
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; CINCCINO*
 	mon_cry CRY_PARAS,       $002,  $0a0 ; GOTHITA*

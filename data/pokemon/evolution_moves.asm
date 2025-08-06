@@ -181,6 +181,7 @@ endc
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; DUDUNSPARCE
 	db SHADOW_CLAW  ; ANNIHILAPE
+	db NO_MOVE      ; VICTINI
 	db NO_MOVE      ; SNIVY
 	db NO_MOVE      ; SERVINE
 	db NO_MOVE      ; SERPERIOR
@@ -257,9 +258,9 @@ endc
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
-	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; MINCCINO
 	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA

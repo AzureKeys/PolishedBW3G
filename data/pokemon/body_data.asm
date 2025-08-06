@@ -184,6 +184,7 @@ PokemonBodyData:
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
+	body_data   4,   40, BIPEDAL,      YELLOW ; VICTINI
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
 	body_data  33,  630, SERPENTINE,   GREEN  ; SERPERIOR
@@ -260,9 +261,9 @@ PokemonBodyData:
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
-	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   4,   58, QUADRUPED,    GRAY   ; MINCCINO
 	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA

@@ -201,6 +201,7 @@
 	const SNEASLER   ; 11e
 	const DUDUNSPARCE ; 120
 	const ANNIHILAPE ; 123
+	const VICTINI    ; f1
 	const SNIVY      ; f2
 	const SERVINE    ; f3
 	const SERPERIOR  ; f4
@@ -277,9 +278,9 @@
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f
-	const ZOROARK    ; 140
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const ZOROARK    ; 140
 	const MINCCINO   ; 141
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143

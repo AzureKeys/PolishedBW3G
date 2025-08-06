@@ -181,6 +181,7 @@ EvosAttacksPointers::
 	dw SneaslerEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw AnnihilapeEvosAttacks
+	dw VictiniEvosAttacks
 	dw SnivyEvosAttacks
 	dw ServineEvosAttacks
 	dw SerperiorEvosAttacks
@@ -257,9 +258,9 @@ EvosAttacksPointers::
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
 	dw ZoruaPlainEvosAttacks
-	dw ZoroarkPlainEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw ZoroarkPlainEvosAttacks
 	dw MinccinoEvosAttacks
 	dw CinccinoEvosAttacks
 	dw GothitaEvosAttacks

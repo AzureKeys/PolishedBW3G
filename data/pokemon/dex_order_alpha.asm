@@ -313,6 +313,7 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENIPEDE
 	dp VENUSAUR
+	dp VICTINI
 	dp VIRIZION
 	dp VOLCARONA
 	dp VULLABY
