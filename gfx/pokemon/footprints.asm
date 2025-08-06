@@ -162,11 +162,14 @@ TornadusFootprint::
 ThundurusFootprint::
 ReshiramFootprint::
 ZekromFootprint::
+LandorusFootprint::
 KyuremFootprint::
 KeldeoFootprint::
 MeloettaFootprint::
-LandorusFootprint::
 GenesectFootprint::
+RaltsFootprint::
+KirliaFootprint::
+GardevoirFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

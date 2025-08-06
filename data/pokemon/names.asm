@@ -151,6 +151,9 @@ PokemonNames::
 	rawchar "Lugia@@@@@"
 	rawchar "Ho-Oh@@@@@"
 	rawchar "Celebi@@@@"
+	rawchar "Ralts@@@@@"
+	rawchar "Kirlia@@@@"
+	rawchar "Gardevoir@"
 	rawchar "Azurill@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Carracosta"
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Zoroark@@@"
 	rawchar "Minccino@@"
 	rawchar "Cinccino@@"

@@ -154,6 +154,9 @@ MiniIconPointers:
 	mini_icon Lugia
 	mini_icon HoOh
 	mini_icon Celebi
+	mini_icon Ralts
+	mini_icon Kirlia
+	mini_icon Gardevoir
 	mini_icon Azurill
 	mini_icon Mismagius
 	mini_icon Honchkrow
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Carracosta
 	mini_icon Archen
 	mini_icon Archeops
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Trubbish
 	mini_icon Garbodor
 	mini_icon Zorua
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Zoroark
 	mini_icon Minccino
 	mini_icon Cinccino

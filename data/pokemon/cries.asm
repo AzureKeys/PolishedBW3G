@@ -156,6 +156,9 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; Lugia
 	mon_cry CRY_TYROGUE,     $000,  $180 ; HoOh
 	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
+	mon_cry CRY_GLIGAR,      $ffc,  $110 ; Ralts
+	mon_cry CRY_VILEPLUME,   $008,  $100 ; Kirlia
+	mon_cry CRY_VILEPLUME,   $f22,  $163 ; Gardevoir
 	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Mismagius
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
@@ -257,11 +260,11 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; CARRACOSTA*
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; ARCHEOPS*
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GRIMER,      $000,  $100 ; TRUBBISH*
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_VULPIX,      $04f,  $090 ; MINCCINO*
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; CINCCINO*

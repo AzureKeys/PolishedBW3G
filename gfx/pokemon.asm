@@ -528,6 +528,18 @@ SECTION "Celebi Pics", ROMX
 CelebiFrontpic: INCBIN "gfx/pokemon/celebi/front.animated.2bpp.lz"
 CelebiBackpic:  INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
 
+SECTION "Ralts Pics", ROMX
+RaltsFrontpic: INCBIN "gfx/pokemon/ralts/front.animated.2bpp.lz"
+RaltsBackpic:  INCBIN "gfx/pokemon/ralts/back.2bpp.lz"
+
+SECTION "Kirlia Pics", ROMX
+KirliaFrontpic: INCBIN "gfx/pokemon/kirlia/front.animated.2bpp.lz"
+KirliaBackpic:  INCBIN "gfx/pokemon/kirlia/back.2bpp.lz"
+
+SECTION "Gardevoir Pics", ROMX
+GardevoirFrontpic: INCBIN "gfx/pokemon/gardevoir/front.animated.2bpp.lz"
+GardevoirBackpic:  INCBIN "gfx/pokemon/gardevoir/back.2bpp.lz"
+
 SECTION "Azurill Pics", ROMX
 AzurillFrontpic: INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
 AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"

@@ -151,6 +151,9 @@ PokedexDataPointerTable:
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
+	dba RaltsPokedexEntry
+	dba KirliaPokedexEntry
+	dba GardevoirPokedexEntry
 	dba AzurillPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba ZoroarkPlainPokedexEntry
 	dba MinccinoPokedexEntry
 	dba CinccinoPokedexEntry

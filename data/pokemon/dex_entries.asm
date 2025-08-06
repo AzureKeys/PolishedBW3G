@@ -1506,6 +1506,36 @@ CelebiPokedexEntry::
 	next "beautiful forests"
 	next "exist.@"
 
+SECTION "RaltsPokedexEntry", ROMX
+RaltsPokedexEntry::
+	db "Feeling@"
+	db "Ralts senses the"
+	next "emotions of people"
+	next "around it. If its"
+	page "trainer is a good"
+	next "mood, it becomes"
+	next "cheerful.@"
+
+SECTION "KirliaPokedexEntry", ROMX
+KirliaPokedexEntry::
+	db "Emotion@"
+	db "It uses its horns"
+	next "to amplify its"
+	next "psychic power."
+	page "When it uses its"
+	next "power, it creates"
+	next "mirages.@"
+
+SECTION "GardevoirPokedexEntry", ROMX
+GardevoirPokedexEntry::
+	db "Embrace@"
+	db "It has the ability"
+	next "to see the future."
+	next "If it senses"
+	page "danger, it will"
+	next "unleash its full"
+	next "power.@"
+
 SECTION "AzurillPokedexEntry", ROMX
 AzurillPokedexEntry::
 	db "Polka Dot@"

@@ -737,6 +737,16 @@ LarvitarEggSpeciesMoves:
 	db IRON_HEAD
 	db $ff
 
+RaltsEggSpeciesMoves:
+	dp RALTS, PLAIN_FORM
+	db CONFUSE_RAY
+	db DESTINY_BOND
+	db DISABLE
+	db ENCORE
+	db MEAN_LOOK
+	;db SHADOW_SNEAK
+	db $ff
+
 AzurillEggSpeciesMoves:
 	dp AZURILL, PLAIN_FORM
 	db BELLY_DRUM

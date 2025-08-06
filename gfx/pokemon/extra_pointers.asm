@@ -150,6 +150,9 @@ AnimationExtraPointers:
 	dw LugiaAnimationExtra
 	dw HoOhAnimationExtra
 	dw CelebiAnimationExtra
+	dw RaltsAnimationExtra
+	dw KirliaAnimationExtra
+	dw GardevoirAnimationExtra
 	dw AzurillAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw CarracostaAnimationExtra
 	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ZoroarkPlainAnimationExtra
 	dw MinccinoAnimationExtra
 	dw CinccinoAnimationExtra

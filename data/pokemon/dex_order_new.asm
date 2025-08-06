@@ -158,6 +158,9 @@ NewPokedexOrder:
 	dp KELDEO
 	dp MELOETTA
 	dp GENESECT
+	dp RALTS
+	dp KIRLIA
+	dp GARDEVOIR
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

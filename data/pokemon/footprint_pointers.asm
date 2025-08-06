@@ -150,6 +150,9 @@ FootprintPointers::
 	dw LugiaFootprint
 	dw HoOhFootprint
 	dw CelebiFootprint
+	dw RaltsFootprint
+	dw KirliaFootprint
+	dw GardevoirFootprint
 	dw AzurillFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw CarracostaFootprint
 	dw ArchenFootprint
 	dw ArcheopsFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw TrubbishFootprint
 	dw GarbodorFootprint
 	dw ZoruaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ZoroarkFootprint
 	dw MinccinoFootprint
 	dw CinccinoFootprint

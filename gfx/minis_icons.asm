@@ -762,6 +762,21 @@ AzurillMini::     INCBIN "gfx/minis/azurill.2bpp.lz"
 AzurillMiniMask:: INCBIN "gfx/minis/azurill_mask.1bpp.lz"
 AzurillIcon::     INCBIN "gfx/icons/azurill.2bpp.lz"
 
+SECTION "Ralts Mini Icon", ROMX
+RaltsMini::     INCBIN "gfx/minis/ralts.2bpp.lz"
+RaltsMiniMask:: INCBIN "gfx/minis/ralts_mask.1bpp.lz"
+RaltsIcon::     INCBIN "gfx/icons/ralts.2bpp.lz"
+
+SECTION "Kirlia Mini Icon", ROMX
+KirliaMini::     INCBIN "gfx/minis/kirlia.2bpp.lz"
+KirliaMiniMask:: INCBIN "gfx/minis/kirlia_mask.1bpp.lz"
+KirliaIcon::     INCBIN "gfx/icons/kirlia.2bpp.lz"
+
+SECTION "Gardevoir Mini Icon", ROMX
+GardevoirMini::     INCBIN "gfx/minis/gardevoir.2bpp.lz"
+GardevoirMiniMask:: INCBIN "gfx/minis/gardevoir_mask.1bpp.lz"
+GardevoirIcon::     INCBIN "gfx/icons/gardevoir.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

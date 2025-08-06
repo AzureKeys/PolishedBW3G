@@ -150,6 +150,9 @@ AnimationPointers:
 	dw LugiaAnimation
 	dw HoOhAnimation
 	dw CelebiAnimation
+	dw RaltsAnimation
+	dw KirliaAnimation
+	dw GardevoirAnimation
 	dw AzurillAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw CarracostaAnimation
 	dw ArchenAnimation
 	dw ArcheopsAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw TrubbishAnimation
 	dw GarbodorAnimation
 	dw ZoruaPlainAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ZoroarkPlainAnimation
 	dw MinccinoAnimation
 	dw CinccinoAnimation

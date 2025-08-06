@@ -154,6 +154,9 @@ endc
 	db NO_MOVE      ; LUGIA
 	db NO_MOVE      ; HO_OH
 	db NO_MOVE      ; CELEBI
+	db NO_MOVE      ; RALTS
+	db NO_MOVE      ; KIRLIA
+	db NO_MOVE      ; GARDEVOIR
 	db NO_MOVE      ; AZURILL
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
@@ -255,11 +258,11 @@ endc
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; MINCCINO
 	db NO_MOVE      ; CINCCINO

@@ -150,6 +150,9 @@ FramesPointers:
 	dw LugiaFrames
 	dw HoOhFrames
 	dw CelebiFrames
+	dw RaltsFrames
+	dw KirliaFrames
+	dw GardevoirFrames
 	dw AzurillFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw CarracostaFrames
 	dw ArchenFrames
 	dw ArcheopsFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw TrubbishFrames
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ZoroarkPlainFrames
 	dw MinccinoFrames
 	dw CinccinoFrames

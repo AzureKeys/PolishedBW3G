@@ -93,6 +93,7 @@ AlphabeticalPokedexOrder:
 	dp FRILLISH
 	dp GALVANTULA
 	dp GARBODOR
+	dp GARDEVOIR
 	dp GASTLY
 	dp GENESECT
 	dp GENGAR
@@ -136,6 +137,7 @@ AlphabeticalPokedexOrder:
 	dp KARRABLAST
 	dp KELDEO
 	dp KINGDRA
+	dp KIRLIA
 	dp KLANG
 	dp KLEAVOR
 	dp KLINK
@@ -230,6 +232,7 @@ AlphabeticalPokedexOrder:
 	dp PURRLOIN
 	dp QUILAVA
 	dp RAICHU
+	dp RALTS
 	dp RAPIDASH
 	dp RATICATE
 	dp RATTATA

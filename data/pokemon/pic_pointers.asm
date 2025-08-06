@@ -154,6 +154,9 @@ PokemonPicPointers::
 	pics Lugia
 	pics HoOh
 	pics Celebi
+	pics Ralts
+	pics Kirlia
+	pics Gardevoir
 	pics Azurill
 	pics Mismagius
 	pics Honchkrow
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Carracosta
 	pics Archen
 	pics Archeops
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Trubbish
 	pics Garbodor
 	pics ZoruaPlain
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics ZoroarkPlain
 	pics Minccino
 	pics Cinccino

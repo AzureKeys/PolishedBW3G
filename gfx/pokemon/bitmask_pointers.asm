@@ -150,6 +150,9 @@ BitmasksPointers:
 	dw LugiaBitmasks
 	dw HoOhBitmasks
 	dw CelebiBitmasks
+	dw RaltsBitmasks
+	dw KirliaBitmasks
+	dw GardevoirBitmasks
 	dw AzurillBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw CarracostaBitmasks
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw TrubbishBitmasks
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ZoroarkPlainBitmasks
 	dw MinccinoBitmasks
 	dw CinccinoBitmasks
