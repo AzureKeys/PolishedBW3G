@@ -330,6 +330,7 @@ AnimationExtraPointers:
 	dw ReshiramAnimationExtra
 	dw ZekromAnimationExtra
 	dw LandorusPlainAnimationExtra
+	dw KyuremPlainAnimationExtra
 	dw GenesectAnimationExtra
 	assert_table_length NUM_SPECIES
 
@@ -444,5 +445,8 @@ AnimationExtraPointers:
 	dw TornadusTherianAnimationExtra
 	dw ThundurusTherianAnimationExtra
 	dw LandorusTherianAnimationExtra
+	
+	dw KyuremWhiteAnimationExtra
+	dw KyuremBlackAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

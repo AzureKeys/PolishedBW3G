@@ -15,5 +15,6 @@ UberMons::
 	dp CELEBI
 	dp RESHIRAM
 	dp ZEKROM
+	dp KYUREM
 	dp GENESECT
 	db 0

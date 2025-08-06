@@ -337,6 +337,7 @@ PokemonBodyData:
 	body_data  32, 3300, WINGS,        WHITE  ; RESHIRAM
 	body_data  29, 3450, BIPEDAL_TAIL, BLACK  ; ZEKROM
 	body_data  15,  680, HEAD_ARMS,    BROWN  ; LANDORUS
+	body_data  30, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES
 
@@ -393,5 +394,8 @@ PokemonBodyData:
 	body_data  14,  630, WINGS,        GREEN  ; TORNADUS (TORNADUS_THERIAN_FORM)
 	body_data  30,  610, BIPEDAL_TAIL, BLUE   ; THUNDURUS (THUNDURUS_THERIAN_FORM)
 	body_data  13,  680, QUADRUPED,    BROWN  ; LANDORUS (LANDORUS_THERIAN_FORM)
+	
+	body_data  36, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM (KYUREM_WHITE_FORM)
+	body_data  33, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM (KYUREM_BLACK_FORM)
 
 	assert_table_length NUM_EXT_POKEMON

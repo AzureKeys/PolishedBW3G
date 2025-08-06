@@ -334,6 +334,7 @@ EvosAttacksPointers::
 	dw ReshiramEvosAttacks
 	dw ZekromEvosAttacks
 	dw LandorusEvosAttacks
+	dw KyuremEvosAttacks
 	dw GenesectEvosAttacks
 	assert_table_length NUM_SPECIES
 
@@ -390,5 +391,8 @@ EvosAttacksPointers::
 	dw TornadusEvosAttacks
 	dw ThundurusEvosAttacks
 	dw LandorusEvosAttacks
+	
+	dw KyuremEvosAttacks
+	dw KyuremEvosAttacks
 
 	assert_table_length NUM_EXT_POKEMON

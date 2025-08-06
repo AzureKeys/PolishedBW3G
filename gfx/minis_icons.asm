@@ -1652,6 +1652,11 @@ LandorusMini::     INCBIN "gfx/minis/landorus.2bpp.lz"
 LandorusMiniMask:: INCBIN "gfx/minis/landorus_mask.1bpp.lz"
 LandorusIcon::     INCBIN "gfx/icons/landorus.2bpp.lz"
 
+SECTION "Kyurem Mini Icon", ROMX
+KyuremMini::     INCBIN "gfx/minis/kyurem.2bpp.lz"
+KyuremMiniMask:: INCBIN "gfx/minis/kyurem_mask.1bpp.lz"
+KyuremIcon::     INCBIN "gfx/icons/kyurem.2bpp.lz"
+
 SECTION "Genesect Mini Icon", ROMX
 GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"
@@ -1986,3 +1991,13 @@ SECTION "LandorusTherian Mini Icon", ROMX
 LandorusTherianMini::     INCBIN "gfx/minis/landorus_therian.2bpp.lz"
 LandorusTherianMiniMask:: INCBIN "gfx/minis/landorus_therian_mask.1bpp.lz"
 LandorusTherianIcon::     INCBIN "gfx/icons/landorus_therian.2bpp.lz"
+
+SECTION "KyuremWhite Mini Icon", ROMX
+KyuremWhiteMini::     INCBIN "gfx/minis/kyurem_white.2bpp.lz"
+KyuremWhiteMiniMask:: INCBIN "gfx/minis/kyurem_white_mask.1bpp.lz"
+KyuremWhiteIcon::     INCBIN "gfx/icons/kyurem_white.2bpp.lz"
+
+SECTION "KyuremBlack Mini Icon", ROMX
+KyuremBlackMini::     INCBIN "gfx/minis/kyurem_black.2bpp.lz"
+KyuremBlackMiniMask:: INCBIN "gfx/minis/kyurem_black_mask.1bpp.lz"
+KyuremBlackIcon::     INCBIN "gfx/icons/kyurem_black.2bpp.lz"

@@ -334,6 +334,7 @@ PokemonPicPointers::
 	pics Reshiram
 	pics Zekrom
 	pics LandorusPlain
+	pics KyuremPlain
 	pics Genesect
 	assert_table_length NUM_SPECIES
 
@@ -448,5 +449,8 @@ PokemonPicPointers::
 	pics TornadusTherian
 	pics ThundurusTherian
 	pics LandorusTherian
+	
+	pics KyuremWhite
+	pics KyuremBlack
 
 	assert_table_length NUM_UNIQUE_POKEMON

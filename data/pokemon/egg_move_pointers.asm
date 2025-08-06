@@ -330,6 +330,7 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Reshiram
 	dw NoEggSpeciesMoves                ; Zekrom
 	dw NoEggSpeciesMoves                ; Landorus
+	dw NoEggSpeciesMoves                ; Kyurem
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
 
@@ -386,5 +387,8 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Tornadus (Therian)
 	dw NoEggSpeciesMoves                ; Thundurus (Therian)
 	dw NoEggSpeciesMoves                ; Landorus (Therian)
+	
+	dw NoEggSpeciesMoves                ; Kyurem (White)
+	dw NoEggSpeciesMoves                ; Kyurem (Black)
 
 	assert_table_length NUM_EXT_POKEMON

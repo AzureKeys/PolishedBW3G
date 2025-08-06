@@ -330,6 +330,7 @@ BitmasksPointers:
 	dw ReshiramBitmasks
 	dw ZekromBitmasks
 	dw LandorusPlainBitmasks
+	dw KyuremPlainBitmasks
 	dw GenesectBitmasks
 	assert_table_length NUM_SPECIES
 
@@ -444,5 +445,8 @@ BitmasksPointers:
 	dw TornadusTherianBitmasks
 	dw ThundurusTherianBitmasks
 	dw LandorusTherianBitmasks
+	
+	dw KyuremWhiteBitmasks
+	dw KyuremBlackBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

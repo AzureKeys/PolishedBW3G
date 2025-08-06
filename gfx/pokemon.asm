@@ -1645,6 +1645,10 @@ SECTION "LandorusPlain Pics", ROMX
 LandorusPlainFrontpic: INCBIN "gfx/pokemon/landorus_plain/front.animated.2bpp.lz"
 LandorusPlainBackpic:  INCBIN "gfx/pokemon/landorus_plain/back.2bpp.lz"
 
+SECTION "KyuremPlain Pics", ROMX
+KyuremPlainFrontpic: INCBIN "gfx/pokemon/kyurem_plain/front.animated.2bpp.lz"
+KyuremPlainBackpic:  INCBIN "gfx/pokemon/kyurem_plain/back.2bpp.lz"
+
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"
@@ -1696,3 +1700,11 @@ ThundurusTherianBackpic:  INCBIN "gfx/pokemon/thundurus_therian/back.2bpp.lz"
 SECTION "LandorusTherian Pics", ROMX
 LandorusTherianFrontpic: INCBIN "gfx/pokemon/landorus_therian/front.animated.2bpp.lz"
 LandorusTherianBackpic:  INCBIN "gfx/pokemon/landorus_therian/back.2bpp.lz"
+
+SECTION "KyuremWhite Pics", ROMX
+KyuremWhiteFrontpic: INCBIN "gfx/pokemon/kyurem_white/front.animated.2bpp.lz"
+KyuremWhiteBackpic:  INCBIN "gfx/pokemon/kyurem_white/back.2bpp.lz"
+
+SECTION "KyuremBlack Pics", ROMX
+KyuremBlackFrontpic: INCBIN "gfx/pokemon/kyurem_black/front.animated.2bpp.lz"
+KyuremBlackBackpic:  INCBIN "gfx/pokemon/kyurem_black/back.2bpp.lz"

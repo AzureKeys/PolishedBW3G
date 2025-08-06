@@ -476,3 +476,7 @@ ThundurusTherianAnimation: INCLUDE "gfx/pokemon/thundurus_therian/anim.asm"
 
 LandorusPlainAnimation:   INCLUDE "gfx/pokemon/landorus_plain/anim.asm"
 LandorusTherianAnimation: INCLUDE "gfx/pokemon/landorus_therian/anim.asm"
+
+KyuremPlainAnimation: INCLUDE "gfx/pokemon/kyurem_plain/anim.asm"
+KyuremWhiteAnimation: INCLUDE "gfx/pokemon/kyurem_white/anim.asm"
+KyuremBlackAnimation: INCLUDE "gfx/pokemon/kyurem_black/anim.asm"

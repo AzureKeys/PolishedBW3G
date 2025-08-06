@@ -153,6 +153,7 @@ NewPokedexOrder:
 	dp RESHIRAM
 	dp ZEKROM
 	dp LANDORUS
+	dp KYUREM
 	dp GENESECT
 	dp CHIKORITA
 	dp BAYLEEF

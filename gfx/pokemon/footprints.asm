@@ -161,6 +161,7 @@ TornadusFootprint::
 ThundurusFootprint::
 ReshiramFootprint::
 ZekromFootprint::
+KyuremFootprint::
 LandorusFootprint::
 GenesectFootprint::
 ChinchouFootprint::

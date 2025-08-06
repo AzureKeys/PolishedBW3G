@@ -334,6 +334,7 @@ endc
 	db NO_MOVE      ; RESHIRAM
 	db NO_MOVE      ; ZEKROM
 	db NO_MOVE      ; LANDORUS
+	db NO_MOVE      ; KYUREM
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
 
@@ -390,5 +391,8 @@ endc
 	db NO_MOVE      ; TORNADUS, TORNADUS_THERIAN_FORM
 	db NO_MOVE      ; THUNDURUS, THUNDURUS_THERIAN_FORM
 	db NO_MOVE      ; LANDORUS, LANDORUS_THERIAN_FORM
+	
+	db NO_MOVE      ; KYUREM, KYUREM_WHITE_FORM
+	db NO_MOVE      ; KYUREM, KYUREM_BLACK_FORM
 
 	assert_table_length NUM_EXT_POKEMON

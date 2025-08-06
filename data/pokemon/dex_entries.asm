@@ -3265,6 +3265,16 @@ LandorusPokedexEntry::
 	next "nutrients to the"
 	next "soil.@"
 
+SECTION "KyuremPokedexEntry", ROMX
+KyuremPokedexEntry::
+	db "Boundary@"
+	db "It generates a"
+	next "powerful freezing"
+	next "energy inside"
+	page "itself. It can"
+	next "produce ultracold"
+	next "air.@"
+
 SECTION "GenesectPokedexEntry", ROMX
 GenesectPokedexEntry::
 	db "Paleozoic@"

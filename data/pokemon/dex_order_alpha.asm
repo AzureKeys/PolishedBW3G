@@ -142,6 +142,7 @@ AlphabeticalPokedexOrder:
 	dp KOFFING
 	dp KROKOROK
 	dp KROOKODILE
+	dp KYUREM
 	dp LAMPENT
 	dp LANDORUS
 	dp LANTURN

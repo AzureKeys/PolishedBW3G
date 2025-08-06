@@ -330,6 +330,7 @@ FramesPointers:
 	dw ReshiramFrames
 	dw ZekromFrames
 	dw LandorusPlainFrames
+	dw KyuremPlainFrames
 	dw GenesectFrames
 	assert_table_length NUM_SPECIES
 
@@ -444,5 +445,8 @@ FramesPointers:
 	dw TornadusTherianFrames
 	dw ThundurusTherianFrames
 	dw LandorusTherianFrames
+	
+	dw KyuremWhiteFrames
+	dw KyuremBlackFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

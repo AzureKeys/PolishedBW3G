@@ -349,6 +349,7 @@ INCLUDE "gfx/pokemon/thundurus_plain/front.dimensions"
 INCLUDE "gfx/pokemon/reshiram/front.dimensions"
 INCLUDE "gfx/pokemon/zekrom/front.dimensions"
 INCLUDE "gfx/pokemon/landorus_plain/front.dimensions"
+INCLUDE "gfx/pokemon/kyurem_plain/front.dimensions"
 INCLUDE "gfx/pokemon/genesect/front.dimensions"
 	assert_list_length NUM_SPECIES
 
@@ -463,6 +464,9 @@ INCLUDE "gfx/pokemon/jellicent_female/front.dimensions"
 INCLUDE "gfx/pokemon/tornadus_therian/front.dimensions"
 INCLUDE "gfx/pokemon/thundurus_therian/front.dimensions"
 INCLUDE "gfx/pokemon/landorus_therian/front.dimensions"
+
+INCLUDE "gfx/pokemon/kyurem_white/front.dimensions"
+INCLUDE "gfx/pokemon/kyurem_black/front.dimensions"
 
 	if list_index % 2
 		db size_value << 4

@@ -312,3 +312,7 @@ ThundurusTherianFrames: INCLUDE "gfx/pokemon/thundurus_therian/frames.asm"
 
 LandorusPlainFrames:   INCLUDE "gfx/pokemon/landorus_plain/frames.asm"
 LandorusTherianFrames: INCLUDE "gfx/pokemon/landorus_therian/frames.asm"
+
+KyuremPlainFrames: INCLUDE "gfx/pokemon/kyurem_plain/frames.asm"
+KyuremWhiteFrames: INCLUDE "gfx/pokemon/kyurem_white/frames.asm"
+KyuremBlackFrames: INCLUDE "gfx/pokemon/kyurem_black/frames.asm"

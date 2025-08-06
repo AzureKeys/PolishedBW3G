@@ -365,6 +365,7 @@ INCLUDE "data/pokemon/base_stats/thundurus_plain.asm"
 INCLUDE "data/pokemon/base_stats/reshiram.asm"
 INCLUDE "data/pokemon/base_stats/zekrom.asm"
 INCLUDE "data/pokemon/base_stats/landorus_plain.asm"
+INCLUDE "data/pokemon/base_stats/kyurem_plain.asm"
 INCLUDE "data/pokemon/base_stats/genesect.asm"
 	assert_table_length NUM_SPECIES
 
@@ -421,5 +422,8 @@ INCLUDE "data/pokemon/base_stats/jellicent.asm" ; female
 INCLUDE "data/pokemon/base_stats/tornadus_therian.asm"
 INCLUDE "data/pokemon/base_stats/thundurus_therian.asm"
 INCLUDE "data/pokemon/base_stats/landorus_therian.asm"
+
+INCLUDE "data/pokemon/base_stats/kyurem_white.asm"
+INCLUDE "data/pokemon/base_stats/kyurem_black.asm"
 
 	assert_table_length NUM_EXT_POKEMON

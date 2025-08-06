@@ -354,6 +354,7 @@
 	const RESHIRAM   ; 188
 	const ZEKROM     ; 189
 	const LANDORUS   ; 18a
+	const KYUREM     ; 18b
 	const GENESECT   ; 18e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
@@ -548,6 +549,11 @@ DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
 ; landorus
 	ext_const_def 2
 	ext_const LANDORUS_THERIAN_FORM ; 15d (2)
+	
+; kyurem
+	ext_const_def 2
+	ext_const KYUREM_WHITE_FORM ; 15d (2)
+	ext_const KYUREM_BLACK_FORM ; 15d (3)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 
