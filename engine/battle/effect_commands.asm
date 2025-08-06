@@ -4027,6 +4027,7 @@ GetOpponentActiveScreens:
 	; Set move anim param to notify that we are breaking screens.
 	call .GetScreen
 	ld [wBattleAnimParam], a
+.ret_z
 	xor a
 	ret
 
@@ -4036,7 +4037,7 @@ GetOpponentActiveScreens:
 	ret z
 
 	call CheckCrit
-	ret nz
+	jr nz, .ret_z
 	; fallthrough
 .GetScreen:
 	ldh a, [hBattleTurn]
