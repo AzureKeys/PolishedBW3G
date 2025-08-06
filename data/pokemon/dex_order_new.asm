@@ -154,6 +154,7 @@ NewPokedexOrder:
 	dp ZEKROM
 	dp LANDORUS
 	dp KYUREM
+	dp KELDEO
 	dp GENESECT
 	dp CHIKORITA
 	dp BAYLEEF

@@ -1649,6 +1649,10 @@ SECTION "KyuremPlain Pics", ROMX
 KyuremPlainFrontpic: INCBIN "gfx/pokemon/kyurem_plain/front.animated.2bpp.lz"
 KyuremPlainBackpic:  INCBIN "gfx/pokemon/kyurem_plain/back.2bpp.lz"
 
+SECTION "Keldeo Pics", ROMX
+KeldeoFrontpic: INCBIN "gfx/pokemon/keldeo/front.animated.2bpp.lz"
+KeldeoBackpic:  INCBIN "gfx/pokemon/keldeo/back.2bpp.lz"
+
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"

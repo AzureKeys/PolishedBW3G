@@ -337,5 +337,6 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; ZEKROM*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; LANDORUS*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; KYUREM*
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; KELDEO*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; Genesect
 	assert_table_length NUM_SPECIES

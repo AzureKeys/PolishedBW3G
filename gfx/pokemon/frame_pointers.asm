@@ -331,6 +331,7 @@ FramesPointers:
 	dw ZekromFrames
 	dw LandorusPlainFrames
 	dw KyuremPlainFrames
+	dw KeldeoFrames
 	dw GenesectFrames
 	assert_table_length NUM_SPECIES
 

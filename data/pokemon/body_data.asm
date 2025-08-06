@@ -338,6 +338,7 @@ PokemonBodyData:
 	body_data  29, 3450, BIPEDAL_TAIL, BLACK  ; ZEKROM
 	body_data  15,  680, HEAD_ARMS,    BROWN  ; LANDORUS
 	body_data  30, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM
+	body_data  14,  485, QUADRUPED,    YELLOW ; KELDEO
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES
 

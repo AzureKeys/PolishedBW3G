@@ -335,6 +335,7 @@ endc
 	db NO_MOVE      ; ZEKROM
 	db NO_MOVE      ; LANDORUS
 	db NO_MOVE      ; KYUREM
+	db NO_MOVE      ; KELDEO
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
 

@@ -332,5 +332,6 @@ PokemonNames::
 	rawchar "Zekrom@@@@"
 	rawchar "Landorus@@"
 	rawchar "Kyurem@@@@"
+	rawchar "Keldeo@@@@"
 	rawchar "Genesect@@"
 	assert_table_length NUM_SPECIES + 1

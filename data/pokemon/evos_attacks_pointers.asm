@@ -335,6 +335,7 @@ EvosAttacksPointers::
 	dw ZekromEvosAttacks
 	dw LandorusEvosAttacks
 	dw KyuremEvosAttacks
+	dw KeldeoEvosAttacks
 	dw GenesectEvosAttacks
 	assert_table_length NUM_SPECIES
 

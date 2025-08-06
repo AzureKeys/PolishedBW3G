@@ -335,6 +335,7 @@ PokemonPicPointers::
 	pics Zekrom
 	pics LandorusPlain
 	pics KyuremPlain
+	pics Keldeo
 	pics Genesect
 	assert_table_length NUM_SPECIES
 

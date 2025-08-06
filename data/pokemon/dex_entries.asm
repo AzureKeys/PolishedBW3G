@@ -3275,6 +3275,16 @@ KyuremPokedexEntry::
 	next "produce ultracold"
 	next "air.@"
 
+SECTION "KeldeoPokedexEntry", ROMX
+KeldeoPokedexEntry::
+	db "Colt@"
+	db "By blasting water"
+	next "from its hooves,"
+	next "it can glide"
+	page "across water. It"
+	next "excels at kicking"
+	next "techniques.@"
+
 SECTION "GenesectPokedexEntry", ROMX
 GenesectPokedexEntry::
 	db "Paleozoic@"

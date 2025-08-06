@@ -331,6 +331,7 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Zekrom
 	dw NoEggSpeciesMoves                ; Landorus
 	dw NoEggSpeciesMoves                ; Kyurem
+	dw NoEggSpeciesMoves                ; Keldeo
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
 

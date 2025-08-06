@@ -214,6 +214,7 @@ TerrakionFrames:  INCLUDE "gfx/pokemon/terrakion/frames.asm"
 VirizionFrames:   INCLUDE "gfx/pokemon/virizion/frames.asm"
 ReshiramFrames:   INCLUDE "gfx/pokemon/reshiram/frames.asm"
 ZekromFrames:     INCLUDE "gfx/pokemon/zekrom/frames.asm"
+KeldeoFrames:     INCLUDE "gfx/pokemon/keldeo/frames.asm"
 GenesectFrames:   INCLUDE "gfx/pokemon/genesect/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"

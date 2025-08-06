@@ -331,6 +331,7 @@ AnimationPointers:
 	dw ZekromAnimation
 	dw LandorusPlainAnimation
 	dw KyuremPlainAnimation
+	dw KeldeoAnimation
 	dw GenesectAnimation
 	assert_table_length NUM_SPECIES
 

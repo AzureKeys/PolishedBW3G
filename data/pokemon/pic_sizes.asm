@@ -350,6 +350,7 @@ INCLUDE "gfx/pokemon/reshiram/front.dimensions"
 INCLUDE "gfx/pokemon/zekrom/front.dimensions"
 INCLUDE "gfx/pokemon/landorus_plain/front.dimensions"
 INCLUDE "gfx/pokemon/kyurem_plain/front.dimensions"
+INCLUDE "gfx/pokemon/keldeo/front.dimensions"
 INCLUDE "gfx/pokemon/genesect/front.dimensions"
 	assert_list_length NUM_SPECIES
 

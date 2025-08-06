@@ -366,6 +366,7 @@ INCLUDE "data/pokemon/base_stats/reshiram.asm"
 INCLUDE "data/pokemon/base_stats/zekrom.asm"
 INCLUDE "data/pokemon/base_stats/landorus_plain.asm"
 INCLUDE "data/pokemon/base_stats/kyurem_plain.asm"
+INCLUDE "data/pokemon/base_stats/keldeo.asm"
 INCLUDE "data/pokemon/base_stats/genesect.asm"
 	assert_table_length NUM_SPECIES
 

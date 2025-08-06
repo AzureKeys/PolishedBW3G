@@ -335,6 +335,7 @@ OverworldMonIconColors::
 	iconpal BLACK, GRAY ; ZEKROM
 	iconpal ORANGE, BROWN ; LANDORUS
 	iconpal AZURE, BLUE ; KYUREM
+	iconpal AZURE, TEAL ; KELDEO
 	iconpal PURPLE, RED ; GENESECT
 	assert_table_length NUM_SPECIES
 

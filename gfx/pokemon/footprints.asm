@@ -162,6 +162,7 @@ ThundurusFootprint::
 ReshiramFootprint::
 ZekromFootprint::
 KyuremFootprint::
+KeldeoFootprint::
 LandorusFootprint::
 GenesectFootprint::
 ChinchouFootprint::

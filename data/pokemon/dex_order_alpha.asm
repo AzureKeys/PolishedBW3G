@@ -134,6 +134,7 @@ AlphabeticalPokedexOrder:
 	dp JOLTIK
 	dp KANGASKHAN
 	dp KARRABLAST
+	dp KELDEO
 	dp KINGDRA
 	dp KLANG
 	dp KLEAVOR

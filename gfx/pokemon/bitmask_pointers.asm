@@ -331,6 +331,7 @@ BitmasksPointers:
 	dw ZekromBitmasks
 	dw LandorusPlainBitmasks
 	dw KyuremPlainBitmasks
+	dw KeldeoBitmasks
 	dw GenesectBitmasks
 	assert_table_length NUM_SPECIES
 

@@ -355,6 +355,7 @@
 	const ZEKROM     ; 189
 	const LANDORUS   ; 18a
 	const KYUREM     ; 18b
+	const KELDEO     ; 18c
 	const GENESECT   ; 18e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121

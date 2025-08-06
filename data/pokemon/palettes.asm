@@ -675,6 +675,8 @@ INCLUDE "gfx/pokemon/landorus_plain/normal.pal"
 INCLUDE "gfx/pokemon/landorus_plain/shiny.pal"
 INCLUDE "gfx/pokemon/kyurem_plain/normal.pal"
 INCLUDE "gfx/pokemon/kyurem_plain/shiny.pal"
+INCLUDE "gfx/pokemon/keldeo/normal.pal"
+INCLUDE "gfx/pokemon/keldeo/shiny.pal"
 INCLUDE "gfx/pokemon/genesect/normal.pal"
 INCLUDE "gfx/pokemon/genesect/shiny.pal"
 	assert_table_length NUM_SPECIES + 1

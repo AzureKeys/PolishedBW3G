@@ -331,6 +331,7 @@ FootprintPointers::
 	dw ZekromFootprint
 	dw LandorusFootprint
 	dw KyuremFootprint
+	dw KeldeoFootprint
 	dw GenesectFootprint
 	assert_table_length NUM_SPECIES
 

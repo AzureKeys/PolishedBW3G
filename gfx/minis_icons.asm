@@ -1657,6 +1657,11 @@ KyuremMini::     INCBIN "gfx/minis/kyurem.2bpp.lz"
 KyuremMiniMask:: INCBIN "gfx/minis/kyurem_mask.1bpp.lz"
 KyuremIcon::     INCBIN "gfx/icons/kyurem.2bpp.lz"
 
+SECTION "Keldeo Mini Icon", ROMX
+KeldeoMini::     INCBIN "gfx/minis/keldeo.2bpp.lz"
+KeldeoMiniMask:: INCBIN "gfx/minis/keldeo_mask.1bpp.lz"
+KeldeoIcon::     INCBIN "gfx/icons/keldeo.2bpp.lz"
+
 SECTION "Genesect Mini Icon", ROMX
 GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"

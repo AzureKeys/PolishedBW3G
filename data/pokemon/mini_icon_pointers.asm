@@ -335,6 +335,7 @@ MiniIconPointers:
 	mini_icon Zekrom
 	mini_icon Landorus
 	mini_icon Kyurem
+	mini_icon Keldeo
 	mini_icon Genesect
 	assert_table_length NUM_SPECIES
 
