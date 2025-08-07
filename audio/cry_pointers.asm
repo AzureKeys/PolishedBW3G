@@ -70,4 +70,18 @@ Cries:
 	fardw Cry_Tyrogue
 	fardw Cry_Dunsparce
 	fardw Cry_Donphan
+	fardw Cry_Patrat
+	fardw Cry_Meditite
+	fardw Cry_Yamask
+	fardw Cry_Whimsicott
+	fardw Cry_Trubbish
+	fardw Cry_Karrablast
+	fardw Cry_Shelmet
+	fardw Cry_Tirtouga
+	fardw Cry_Cubchoo
+	fardw Cry_Hydreigon
+	fardw Cry_Deerling
+	fardw Cry_Mudkip
+	fardw Cry_Stoutland
+	fardw Cry_Magnezone
 	assert_table_length NUM_CRIES

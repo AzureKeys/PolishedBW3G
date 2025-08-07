@@ -72,5 +72,21 @@
 	const CRY_TYROGUE
 	const CRY_DUNSPARCE
 	const CRY_DONPHAN
+	
+; custom
+	const CRY_PATRAT
+	const CRY_MEDITITE
+	const CRY_YAMASK
+	const CRY_WHIMSICOTT
+	const CRY_TRUBBISH
+	const CRY_KARRABLAST
+	const CRY_SHELMET
+	const CRY_TIRTOUGA
+	const CRY_CUBCHOO
+	const CRY_HYDREIGON
+	const CRY_DEERLING
+	const CRY_MUDKIP
+	const CRY_STOUTLAND
+	const CRY_MAGNEZONE
 
 DEF NUM_CRIES EQU const_value
