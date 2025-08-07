@@ -437,17 +437,6 @@ DratiniEggSpeciesMoves:
 	db AQUA_JET
 	db $ff
 
-ChikoritaEggSpeciesMoves:
-	dp CHIKORITA, PLAIN_FORM
-	db LEECH_SEED
-	db VINE_WHIP
-	db ANCIENTPOWER
-	db COUNTER
-	db SWORDS_DANCE
-	db CHARM
-	db HEAL_BELL
-	db $ff
-
 ChinchouEggSpeciesMoves:
 	dp CHINCHOU, PLAIN_FORM
 	db AGILITY

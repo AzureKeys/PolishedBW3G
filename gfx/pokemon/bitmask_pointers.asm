@@ -89,9 +89,6 @@ BitmasksPointers:
 	dw DragoniteBitmasks
 	dw MewtwoPlainBitmasks
 	dw MewBitmasks
-	dw ChikoritaBitmasks
-	dw BayleefBitmasks
-	dw MeganiumBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw MinccinoBitmasks
 	dw CinccinoBitmasks
 	dw GothitaBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
 	dw SolosisBitmasks

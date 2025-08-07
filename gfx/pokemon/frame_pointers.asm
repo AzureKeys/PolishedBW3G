@@ -89,9 +89,6 @@ FramesPointers:
 	dw DragoniteFrames
 	dw MewtwoPlainFrames
 	dw MewFrames
-	dw ChikoritaFrames
-	dw BayleefFrames
-	dw MeganiumFrames
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw MinccinoFrames
 	dw CinccinoFrames
 	dw GothitaFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw GothoritaFrames
 	dw GothitelleFrames
 	dw SolosisFrames

@@ -90,9 +90,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  55, 100 ; Dragonite
 	db 255, 255 ; Mewtwo
 	db 255, 255 ; Mew
-	db   1,  15 ; Chikorita
-	db  16,  31 ; Bayleef
-	db  32, 100 ; Meganium
 	db  32, 100 ; Crobat
 	db   1,  26 ; Chinchou
 	db  27, 100 ; Lanturn
@@ -259,11 +256,11 @@ endc
 	db  36, 100 ; Garbodor
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  29 ; Minccino
 	db  30, 100 ; Cinccino
 	db   1,  31 ; Gothita
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle
 	db   1,  31 ; Solosis

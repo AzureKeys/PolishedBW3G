@@ -89,9 +89,6 @@ EvolutionMoves::
 	db WING_ATTACK  ; DRAGONITE
 	db NO_MOVE      ; MEWTWO
 	db NO_MOVE      ; MEW
-	db NO_MOVE      ; CHIKORITA
-	db NO_MOVE      ; BAYLEEF
-	db PETAL_DANCE  ; MEGANIUM
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; MINCCINO
 	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS

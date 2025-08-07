@@ -452,21 +452,6 @@ MewMini::     INCBIN "gfx/minis/mew.2bpp.lz"
 MewMiniMask:: INCBIN "gfx/minis/mew_mask.1bpp.lz"
 MewIcon::     INCBIN "gfx/icons/mew.2bpp.lz"
 
-SECTION "Chikorita Mini Icon", ROMX
-ChikoritaMini::     INCBIN "gfx/minis/chikorita.2bpp.lz"
-ChikoritaMiniMask:: INCBIN "gfx/minis/chikorita_mask.1bpp.lz"
-ChikoritaIcon::     INCBIN "gfx/icons/chikorita.2bpp.lz"
-
-SECTION "Bayleef Mini Icon", ROMX
-BayleefMini::     INCBIN "gfx/minis/bayleef.2bpp.lz"
-BayleefMiniMask:: INCBIN "gfx/minis/bayleef_mask.1bpp.lz"
-BayleefIcon::     INCBIN "gfx/icons/bayleef.2bpp.lz"
-
-SECTION "Meganium Mini Icon", ROMX
-MeganiumMini::     INCBIN "gfx/minis/meganium.2bpp.lz"
-MeganiumMiniMask:: INCBIN "gfx/minis/meganium_mask.1bpp.lz"
-MeganiumIcon::     INCBIN "gfx/icons/meganium.2bpp.lz"
-
 SECTION "Crobat Mini Icon", ROMX
 CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lz"
 CrobatMiniMask:: INCBIN "gfx/minis/crobat_mask.1bpp.lz"

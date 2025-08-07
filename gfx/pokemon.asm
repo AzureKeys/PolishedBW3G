@@ -276,18 +276,6 @@ SECTION "Mew Pics", ROMX
 MewFrontpic: INCBIN "gfx/pokemon/mew/front.animated.2bpp.lz"
 MewBackpic:  INCBIN "gfx/pokemon/mew/back.2bpp.lz"
 
-SECTION "Chikorita Pics", ROMX
-ChikoritaFrontpic: INCBIN "gfx/pokemon/chikorita/front.animated.2bpp.lz"
-ChikoritaBackpic:  INCBIN "gfx/pokemon/chikorita/back.2bpp.lz"
-
-SECTION "Bayleef Pics", ROMX
-BayleefFrontpic: INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz"
-BayleefBackpic:  INCBIN "gfx/pokemon/bayleef/back.2bpp.lz"
-
-SECTION "Meganium Pics", ROMX
-MeganiumFrontpic: INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
-MeganiumBackpic:  INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
-
 SECTION "Crobat Pics", ROMX
 CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 CrobatBackpic:  INCBIN "gfx/pokemon/crobat/back.2bpp.lz"

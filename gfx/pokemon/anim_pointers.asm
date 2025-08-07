@@ -89,9 +89,6 @@ AnimationPointers:
 	dw DragoniteAnimation
 	dw MewtwoPlainAnimation
 	dw MewAnimation
-	dw ChikoritaAnimation
-	dw BayleefAnimation
-	dw MeganiumAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw GarbodorAnimation
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw MinccinoAnimation
 	dw CinccinoAnimation
 	dw GothitaAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw GothoritaAnimation
 	dw GothitelleAnimation
 	dw SolosisAnimation

@@ -89,9 +89,6 @@ EggSpeciesMovesPointers::
 	dw DratiniEggSpeciesMoves           ; Dragonite
 	dw NoEggSpeciesMoves                ; Mewtwo
 	dw NoEggSpeciesMoves                ; Mew
-	dw ChikoritaEggSpeciesMoves         ; Chikorita
-	dw ChikoritaEggSpeciesMoves         ; Bayleef
-	dw ChikoritaEggSpeciesMoves         ; Meganium
 	dw ZubatEggSpeciesMoves             ; Crobat
 	dw ChinchouEggSpeciesMoves          ; Chinchou
 	dw ChinchouEggSpeciesMoves          ; Lanturn
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw MinccinoEggSpeciesMoves          ; Minccino
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis

@@ -15,7 +15,6 @@ AlphabeticalPokedexOrder:
 	dp AZUMARILL
 	dp AZURILL
 	dp BASCULIN
-	dp BAYLEEF
 	dp BEARTIC
 	dp BEHEEYEM
 	dp BISHARP
@@ -33,7 +32,6 @@ AlphabeticalPokedexOrder:
 	dp CHARIZARD
 	dp CHARMANDER
 	dp CHARMELEON
-	dp CHIKORITA
 	dp CHINCHOU
 	dp CINCCINO
 	dp CLEFABLE
@@ -174,7 +172,6 @@ AlphabeticalPokedexOrder:
 	dp MARACTUS
 	dp MAREEP
 	dp MARILL
-	dp MEGANIUM
 	dp MELOETTA
 	dp MEOWTH
 	dp MEW

@@ -90,9 +90,6 @@ PokedexDataPointerTable:
 	dba DragonitePokedexEntry
 	dba MewtwoPlainPokedexEntry
 	dba MewPokedexEntry
-	dba ChikoritaPokedexEntry
-	dba BayleefPokedexEntry
-	dba MeganiumPokedexEntry
 	dba CrobatPokedexEntry
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba MinccinoPokedexEntry
 	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry

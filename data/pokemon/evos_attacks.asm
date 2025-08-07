@@ -1999,69 +1999,6 @@ endc
 	learnset 90, NASTY_PLOT
 	learnset 100, AURA_SPHERE
 
-	evos_attacks Chikorita
-	evo_data EVOLVE_LEVEL, 16, BAYLEEF
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 6, RAZOR_LEAF
-	learnset 9, POISONPOWDER
-	learnset 12, HEALINGLIGHT ; Synthesis → similar move
-	learnset 17, REFLECT
-	learnset 17, LIGHT_SCREEN
-	learnset 20, DISARM_VOICE ; Magical Leaf → new move
-	learnset 23, ENERGY_BALL ; Natural Gift → tutor move
-	learnset 28, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	learnset 31, DAZZLINGLEAM ; Light Screen → TM move
-	learnset 34, BODY_SLAM
-	learnset 39, SAFEGUARD
-	learnset 42, PLAY_ROUGH ; Aromatherapy → new move
-	learnset 45, SOLAR_BEAM
-	learnset 48, HEAL_BELL ; Aromatherapy → similar move
-	learnset 51, OUTRAGE ; HGSS tutor move
-	learnset 56, MOONBLAST ; new move
-
-	evos_attacks Bayleef
-	evo_data EVOLVE_LEVEL, 32, MEGANIUM
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 6, RAZOR_LEAF
-	learnset 9, POISONPOWDER
-	learnset 12, HEALINGLIGHT ; Synthesis → similar move
-	learnset 18, REFLECT
-	learnset 18, LIGHT_SCREEN
-	learnset 22, DISARM_VOICE ; Magical Leaf → new move
-	learnset 26, ENERGY_BALL ; Natural Gift → tutor move
-	learnset 32, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	learnset 36, DAZZLINGLEAM ; Light Screen → TM move
-	learnset 40, BODY_SLAM
-	learnset 43, SAFEGUARD
-	learnset 47, PLAY_ROUGH ; Aromatherapy → new move
-	learnset 51, SOLAR_BEAM
-	learnset 54, HEAL_BELL ; Aromatherapy → similar move
-	learnset 58, OUTRAGE ; HGSS tutor move
-	learnset 64, MOONBLAST ; new move
-
-	evos_attacks Meganium
-	learnset 1, PETAL_DANCE ; evolution move
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 6, RAZOR_LEAF
-	learnset 9, POISONPOWDER
-	learnset 12, HEALINGLIGHT ; Synthesis → similar move
-	learnset 18, REFLECT
-	learnset 18, LIGHT_SCREEN
-	learnset 22, DISARM_VOICE ; Magical Leaf → new move
-	learnset 26, ENERGY_BALL ; Natural Gift → tutor move
-	learnset 34, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	learnset 40, DAZZLINGLEAM ; Light Screen → TM move
-	learnset 46, BODY_SLAM
-	learnset 50, SAFEGUARD
-	learnset 56, PLAY_ROUGH ; Aromatherapy → new move
-	learnset 62, SOLAR_BEAM
-	learnset 66, HEAL_BELL ; Aromatherapy → similar move
-	learnset 72, OUTRAGE ; HGSS tutor move
-	learnset 80, MOONBLAST ; new move
-
 	evos_attacks Crobat
 	learnset 1, X_SCISSOR ; evolution move
 	learnset 1, SCREECH

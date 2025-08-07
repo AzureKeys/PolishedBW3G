@@ -163,9 +163,6 @@ NewPokedexOrder:
 	dp GARDEVOIR
 	dp SHROOMISH
 	dp BRELOOM
-	dp CHIKORITA
-	dp BAYLEEF
-	dp MEGANIUM
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

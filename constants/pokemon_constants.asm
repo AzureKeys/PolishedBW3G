@@ -113,9 +113,6 @@
 	const DRAGONITE  ; 4c
 	const MEWTWO     ; xx
 	const MEW        ; xx
-	const CHIKORITA  ; xx
-	const BAYLEEF    ; xx
-	const MEGANIUM   ; xx
 	const CROBAT     ; 4d
 	const CHINCHOU   ; 4e
 	const LANTURN    ; 4f
@@ -278,11 +275,11 @@
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const MINCCINO   ; 141
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146

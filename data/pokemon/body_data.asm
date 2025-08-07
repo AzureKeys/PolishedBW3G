@@ -96,9 +96,6 @@ PokemonBodyData:
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
 	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; MEWTWO
 	body_data   4,   40, BIPEDAL_TAIL, PINK   ; MEW
-	body_data   9,   64, QUADRUPED,    GREEN  ; CHIKORITA
-	body_data  12,  158, QUADRUPED,    GREEN  ; BAYLEEF
-	body_data  18, 1005, QUADRUPED,    GREEN  ; MEGANIUM
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
 	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
 	body_data  12,  225, FINS,         BLUE   ; LANTURN
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   58, QUADRUPED,    GRAY   ; MINCCINO
 	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS

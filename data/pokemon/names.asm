@@ -90,9 +90,6 @@ PokemonNames::
 	rawchar "Dragonite@"
 	rawchar "Mewtwo@@@@"
 	rawchar "Mew@@@@@@@"
-	rawchar "Chikorita@"
-	rawchar "Bayleef@@@"
-	rawchar "Meganium@@"
 	rawchar "Crobat@@@@"
 	rawchar "Chinchou@@"
 	rawchar "Lanturn@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Minccino@@"
 	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"
 	rawchar "Solosis@@@"

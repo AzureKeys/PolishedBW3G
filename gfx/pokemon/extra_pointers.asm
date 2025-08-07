@@ -89,9 +89,6 @@ AnimationExtraPointers:
 	dw DragoniteAnimationExtra
 	dw MewtwoPlainAnimationExtra
 	dw MewAnimationExtra
-	dw ChikoritaAnimationExtra
-	dw BayleefAnimationExtra
-	dw MeganiumAnimationExtra
 	dw CrobatAnimationExtra
 	dw ChinchouAnimationExtra
 	dw LanturnAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw MinccinoAnimationExtra
 	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra

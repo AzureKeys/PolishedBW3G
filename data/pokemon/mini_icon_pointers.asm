@@ -93,9 +93,6 @@ MiniIconPointers:
 	mini_icon Dragonite
 	mini_icon Mewtwo
 	mini_icon Mew
-	mini_icon Chikorita
-	mini_icon Bayleef
-	mini_icon Meganium
 	mini_icon Crobat
 	mini_icon Chinchou
 	mini_icon Lanturn
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Garbodor
 	mini_icon Zorua
 	mini_icon Zoroark
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Minccino
 	mini_icon Cinccino
 	mini_icon Gothita
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Gothorita
 	mini_icon Gothitelle
 	mini_icon Solosis

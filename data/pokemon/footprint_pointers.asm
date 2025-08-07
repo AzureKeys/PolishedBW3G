@@ -89,9 +89,6 @@ FootprintPointers::
 	dw DragoniteFootprint
 	dw MewtwoFootprint
 	dw MewFootprint
-	dw ChikoritaFootprint
-	dw BayleefFootprint
-	dw MeganiumFootprint
 	dw CrobatFootprint
 	dw ChinchouFootprint
 	dw LanturnFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw GarbodorFootprint
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw MinccinoFootprint
 	dw CinccinoFootprint
 	dw GothitaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw GothoritaFootprint
 	dw GothitelleFootprint
 	dw SolosisFootprint

@@ -93,9 +93,6 @@ PokemonPicPointers::
 	pics Dragonite
 	pics MewtwoPlain
 	pics Mew
-	pics Chikorita
-	pics Bayleef
-	pics Meganium
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Garbodor
 	pics ZoruaPlain
 	pics ZoroarkPlain
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Minccino
 	pics Cinccino
 	pics Gothita
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Gothorita
 	pics Gothitelle
 	pics Solosis

@@ -22,7 +22,7 @@ CarrieGroup:
 
 	def_trainer_class CARRIE
 	def_trainer 1, "Carrie"
-	tr_mon 60, MEGANIUM @ SITRUS_BERRY
+	tr_mon 60, RATTATA @ SITRUS_BERRY
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
 	tr_mon 60, RATTATA @ QUICK_CLAW
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
@@ -44,7 +44,7 @@ CalGroup:
 	def_trainer 1, "Cal"
 	tr_mon 60, RATTATA @ QUICK_CLAW
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
-	tr_mon 60, MEGANIUM @ SITRUS_BERRY
+	tr_mon 60, RATTATA @ SITRUS_BERRY
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
 	tr_mon 60, RATTATA @ LUM_BERRY
 		tr_moves SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
@@ -64,7 +64,7 @@ JackyGroup:
 	def_trainer 1, "Jacky"
 	tr_mon 60, RATTATA @ LUM_BERRY
 		tr_moves SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
-	tr_mon 60, MEGANIUM @ SITRUS_BERRY
+	tr_mon 60, RATTATA @ SITRUS_BERRY
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
 	tr_mon 60, RATTATA @ QUICK_CLAW
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
@@ -1074,7 +1074,7 @@ Rival0Group:
 	def_trainer_class RIVAL0
 	def_trainer 1, "boy"
 	tr_mon 4, RATTATA
-	tr_mon 5, CHIKORITA @ ORAN_BERRY
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
 	def_trainer 2, "boy"
@@ -1103,7 +1103,7 @@ Rival1Group:
 	tr_mon 15, GEODUDE
 		tr_evs 72 HP
 		tr_moves MUD_SLAP, RAPID_SPIN, ROLLOUT, MAGNITUDE ; default for level
-	tr_mon 18, BAYLEEF @ ORAN_BERRY
+	tr_mon 18, RATTATA @ ORAN_BERRY
 		tr_evs 72 Atk
 		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
 	end_trainer
@@ -1143,7 +1143,7 @@ Rival1Group:
 	tr_mon 20, ZUBAT
 		tr_evs 104 Spe
 		tr_moves LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	tr_mon 22, BAYLEEF @ ORAN_BERRY
+	tr_mon 22, RATTATA @ ORAN_BERRY
 		tr_evs 72 Atk, 32 SAt
 		tr_moves REFLECT, RAZOR_LEAF, POISONPOWDER, DISARM_VOICE
 	end_trainer
@@ -1197,7 +1197,7 @@ Rival1Group:
 	tr_mon 41, SNEASEL
 		tr_evs 232 Atk
 		tr_moves SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	tr_mon 43, MEGANIUM @ SITRUS_BERRY
+	tr_mon 43, RATTATA @ SITRUS_BERRY
 		tr_evs 72 Atk, 160 SAt ; Still has some Atk EVs for continuity
 		tr_moves REFLECT, LIGHT_SCREEN, PETAL_DANCE, ANCIENTPOWER
 	end_trainer
@@ -1249,7 +1249,7 @@ Rival1Group:
 		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
 	tr_mon 46, RATTATA @ BRIGHTPOWDER
 		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	tr_mon 49, MEGANIUM @ SITRUS_BERRY
+	tr_mon 49, RATTATA @ SITRUS_BERRY
 		tr_moves REFLECT, LIGHT_SCREEN, ENERGY_BALL, ANCIENTPOWER
 	end_trainer
 
@@ -1304,7 +1304,7 @@ Rival2Group:
 	tr_mon 63, RATTATA @ BRIGHTPOWDER
 		tr_evs 252 SAt, 204 Spe
 		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	tr_mon 65, MEGANIUM @ MIRACLE_SEED
+	tr_mon 65, RATTATA @ MIRACLE_SEED
 		tr_evs 252 Atk, 204 Spe
 		tr_moves SEED_BOMB, POISONPOWDER, BODY_SLAM, LIGHT_SCREEN
 	end_trainer
@@ -1362,7 +1362,7 @@ Rival2Group:
 		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
 	tr_mon 70, RATTATA @ BRIGHTPOWDER
 		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	tr_mon 72, MEGANIUM @ LEFTOVERS
+	tr_mon 72, RATTATA @ LEFTOVERS
 		tr_moves PETAL_DANCE, MOONBLAST, LIGHT_SCREEN, ANCIENTPOWER
 	end_trainer
 
@@ -1404,7 +1404,7 @@ Lyra1Group:
 
 	def_trainer_class LYRA1
 	def_trainer LYRA1_1, "Lyra"
-	tr_mon 5, "Chicory", CHIKORITA
+	tr_mon 5, "Chicory", RATTATA
 	end_trainer
 
 	def_trainer LYRA1_2, "Lyra"
@@ -1425,7 +1425,7 @@ Lyra1Group:
 	tr_mon 15, MAREEP
 		tr_evs 36 HP, 36 SAt
 		tr_moves THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP, SPARK ; default for level
-	tr_mon 18, "Chicory", BAYLEEF @ ORAN_BERRY
+	tr_mon 18, "Chicory", RATTATA @ ORAN_BERRY
 		tr_evs 72 HP
 		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
 	end_trainer
@@ -1461,7 +1461,7 @@ Lyra1Group:
 		tr_evs 200 Atk
 	tr_mon 32, FLAAFFY
 		tr_evs 100 HP, 100 SAt
-	tr_mon 37, "Chicory", BAYLEEF @ ORAN_BERRY
+	tr_mon 37, "Chicory", RATTATA @ ORAN_BERRY
 		tr_evs 200 HP
 	end_trainer
 
@@ -1502,7 +1502,7 @@ Lyra1Group:
 		tr_evs 252 Atk, 12 Spe
 	tr_mon 46, AMPHAROS
 		tr_evs 132 HP, 132 SAt
-	tr_mon 47, "Chicory", MEGANIUM @ SITRUS_BERRY
+	tr_mon 47, "Chicory", RATTATA @ SITRUS_BERRY
 		tr_evs 252 HP, 12 SAt
 	end_trainer
 
@@ -1547,7 +1547,7 @@ Lyra2Group:
 	tr_mon 70, AZUMARILL
 	tr_mon 71, AMPHAROS
 	tr_mon 68, RATTATA
-	tr_mon 72, "Chicory", MEGANIUM @ SITRUS_BERRY
+	tr_mon 72, "Chicory", RATTATA @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer 2, "Lyra"
@@ -5911,9 +5911,9 @@ AromaLadyGroup:
 	end_trainer
 
 	def_trainer HEATHER, "Heather"
-	tr_mon 35, CHIKORITA
-	tr_mon 45, BAYLEEF
-	tr_mon 55, MEGANIUM
+	tr_mon 35, RATTATA
+	tr_mon 45, RATTATA
+	tr_mon 55, RATTATA
 	end_trainer
 
 	def_trainer HOLLY, "Holly"
@@ -6836,7 +6836,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, CHIKORITA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
@@ -6844,7 +6844,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, BAYLEEF
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
@@ -6852,7 +6852,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 6, MEGANIUM
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
@@ -6861,7 +6861,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS
 	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, MEGANIUM
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer
 

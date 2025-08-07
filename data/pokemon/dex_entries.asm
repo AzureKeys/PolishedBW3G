@@ -896,36 +896,6 @@ MewPokedexEntry::
 	next "it is the ancestor"
 	next "of all #mon.@"
 
-SECTION "ChikoritaPokedexEntry", ROMX
-ChikoritaPokedexEntry::
-	db "Leaf@"
-	db   "It loves to bask"
-	next "in the sunlight."
-	next "It uses the leaf"
-	page "on its head to"
-	next "seek out warm"
-	next "places.@"
-
-SECTION "BayleefPokedexEntry", ROMX
-BayleefPokedexEntry::
-	db "Leaf@"
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
-
-SECTION "MeganiumPokedexEntry", ROMX
-MeganiumPokedexEntry::
-	db "Herb@"
-	db   "Anyone who stands"
-	next "beside it becomes"
-	next "refreshed, just as"
-	page "if they were"
-	next "relaxing in a"
-	next "sunny forest.@"
-
 SECTION "CrobatPokedexEntry", ROMX
 CrobatPokedexEntry::
 	db "Bat@"

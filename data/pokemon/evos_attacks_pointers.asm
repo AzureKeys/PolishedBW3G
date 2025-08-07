@@ -93,9 +93,6 @@ EvosAttacksPointers::
 	dw DragoniteEvosAttacks
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
-	dw ChikoritaEvosAttacks
-	dw BayleefEvosAttacks
-	dw MeganiumEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw GarbodorEvosAttacks
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw MinccinoEvosAttacks
 	dw CinccinoEvosAttacks
 	dw GothitaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks
