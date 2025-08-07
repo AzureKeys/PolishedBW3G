@@ -96,9 +96,6 @@ PokemonPicPointers::
 	pics Chikorita
 	pics Bayleef
 	pics Meganium
-	pics Cyndaquil
-	pics Quilava
-	pics TyphlosionPlain
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Archen
 	pics Archeops
 	pics Trubbish
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Garbodor
 	pics ZoruaPlain
 	pics ZoroarkPlain
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Minccino
 	pics Cinccino
 	pics Gothita
@@ -435,7 +432,6 @@ PokemonPicPointers::
 
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
-	pics TyphlosionHisuian
 	pics SneaselHisuian
 	
 	pics UnfezantFemale

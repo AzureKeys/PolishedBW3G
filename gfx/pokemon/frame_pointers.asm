@@ -92,9 +92,6 @@ FramesPointers:
 	dw ChikoritaFrames
 	dw BayleefFrames
 	dw MeganiumFrames
-	dw CyndaquilFrames
-	dw QuilavaFrames
-	dw TyphlosionPlainFrames
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw ArchenFrames
 	dw ArcheopsFrames
 	dw TrubbishFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw MinccinoFrames
 	dw CinccinoFrames
 	dw GothitaFrames
@@ -431,7 +428,6 @@ FramesPointers:
 
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames
-	dw TyphlosionHisuianFrames
 	dw SneaselHisuianFrames
 	
 	dw UnfezantFemaleFrames

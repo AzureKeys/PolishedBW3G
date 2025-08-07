@@ -93,9 +93,6 @@ PokedexDataPointerTable:
 	dba ChikoritaPokedexEntry
 	dba BayleefPokedexEntry
 	dba MeganiumPokedexEntry
-	dba CyndaquilPokedexEntry
-	dba QuilavaPokedexEntry
-	dba TyphlosionPlainPokedexEntry
 	dba CrobatPokedexEntry
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba MinccinoPokedexEntry
 	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry
@@ -374,7 +371,6 @@ PokedexDataPointerTable:
 
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry
-	dba TyphlosionHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
 	
 	dba UnfezantPokedexEntry

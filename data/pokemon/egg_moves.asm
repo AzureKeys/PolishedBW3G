@@ -448,19 +448,6 @@ ChikoritaEggSpeciesMoves:
 	db HEAL_BELL
 	db $ff
 
-CyndaquilEggSpeciesMoves:
-	dp CYNDAQUIL, PLAIN_FORM
-	db DOUBLE_KICK
-	db EXTRASENSORY
-	db FLARE_BLITZ
-	db FORESIGHT
-	db FURY_STRIKES
-	db REVERSAL
-	db CLOSE_COMBAT
-	db THRASH
-	db QUICK_ATTACK
-	db $ff
-
 ChinchouEggSpeciesMoves:
 	dp CHINCHOU, PLAIN_FORM
 	db AGILITY

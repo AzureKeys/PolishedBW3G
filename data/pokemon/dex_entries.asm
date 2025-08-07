@@ -926,36 +926,6 @@ MeganiumPokedexEntry::
 	next "relaxing in a"
 	next "sunny forest.@"
 
-SECTION "CyndaquilPokedexEntry", ROMX
-CyndaquilPokedexEntry::
-	db "Fire Mouse@"
-	db   "The fire that"
-	next "spouts from its"
-	next "back burns hottest"
-	page "when it is angry."
-	next "The flaring flames"
-	next "intimidate foes.@"
-
-SECTION "QuilavaPokedexEntry", ROMX
-QuilavaPokedexEntry::
-	db "Volcano@"
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
-
-SECTION "TyphlosionPlainPokedexEntry", ROMX
-TyphlosionPlainPokedexEntry::
-	db "Volcano@"
-	db   "When heat from its"
-	next "body causes the"
-	next "air around it to"
-	page "shimmer, this is a"
-	next "sign that it is"
-	next "ready to battle.@"
-
 SECTION "CrobatPokedexEntry", ROMX
 CrobatPokedexEntry::
 	db "Bat@"
@@ -3617,16 +3587,6 @@ ArcanineHisuianPokedexEntry::
 	page "leading opponents"
 	next "on a chase as it"
 	next "dances past them.@"
-
-SECTION "TyphlosionHisuianPokedexEntry", ROMX
-TyphlosionHisuianPokedexEntry::
-	db "Ghost Flame@"
-	db   "Said to purify"
-	next "lost, forsaken"
-	next "souls with its"
-	page "flames and guide"
-	next "them to the"
-	next "afterlife.@"
 
 SECTION "SneaselHisuianPokedexEntry", ROMX
 SneaselHisuianPokedexEntry::

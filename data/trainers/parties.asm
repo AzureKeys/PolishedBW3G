@@ -24,7 +24,7 @@ CarrieGroup:
 	def_trainer 1, "Carrie"
 	tr_mon 60, MEGANIUM @ SITRUS_BERRY
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
-	tr_mon 60, TYPHLOSION @ QUICK_CLAW
+	tr_mon 60, RATTATA @ QUICK_CLAW
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
 	tr_mon 60, RATTATA @ LUM_BERRY
 		tr_moves SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
@@ -42,7 +42,7 @@ CalGroup:
 
 	def_trainer_class CAL
 	def_trainer 1, "Cal"
-	tr_mon 60, TYPHLOSION @ QUICK_CLAW
+	tr_mon 60, RATTATA @ QUICK_CLAW
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
 	tr_mon 60, MEGANIUM @ SITRUS_BERRY
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
@@ -66,7 +66,7 @@ JackyGroup:
 		tr_moves SURF, CRUNCH, ICE_PUNCH, ROCK_SLIDE
 	tr_mon 60, MEGANIUM @ SITRUS_BERRY
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
-	tr_mon 60, TYPHLOSION @ QUICK_CLAW
+	tr_mon 60, RATTATA @ QUICK_CLAW
 		tr_moves SUNNY_DAY, THUNDERPUNCH, FLAMETHROWER, SUBSTITUTE
 	tr_mon 60, MAGNETON @ EVIOLITE
 		tr_moves THUNDERBOLT, FLASH_CANNON, THUNDER_WAVE, LIGHT_SCREEN
@@ -960,7 +960,7 @@ BlaineGroup:
 		tr_moves CRUNCH, FLAME_CHARGE, FLARE_BLITZ, EXTREMESPEED
 	tr_mon 74, FLAREON @ CHARCOAL
 		tr_moves WILL_O_WISP, FLARE_BLITZ, DOUBLE_EDGE, SCARY_FACE
-	tr_mon 72, TYPHLOSION @ LEFTOVERS
+	tr_mon 72, RATTATA @ LEFTOVERS
 		tr_moves FIRE_BLAST, FOCUS_BLAST, EARTH_POWER, HIDDEN_POWER
 	tr_mon 75, RAPIDASH @ POISON_BARB
 		tr_moves MEGAHORN, POISON_JAB, FLARE_BLITZ, WILD_CHARGE
@@ -1079,7 +1079,7 @@ Rival0Group:
 
 	def_trainer 2, "boy"
 	tr_mon 4, RATTATA
-	tr_mon 5, CYNDAQUIL @ ORAN_BERRY
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
 	def_trainer 3, "boy"
@@ -1115,7 +1115,7 @@ Rival1Group:
 		tr_evs 72 Spe
 	tr_mon 15, GEODUDE
 		tr_evs 72 HP
-	tr_mon 18, QUILAVA @ ORAN_BERRY
+	tr_mon 18, RATTATA @ ORAN_BERRY
 		tr_evs 72 SAt
 	end_trainer
 
@@ -1161,7 +1161,7 @@ Rival1Group:
 	tr_mon 20, ZUBAT
 		tr_evs 104 Spe
 		tr_moves LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	tr_mon 22, QUILAVA @ ORAN_BERRY
+	tr_mon 22, RATTATA @ ORAN_BERRY
 		tr_evs 72 SAt, 32 Spe
 		tr_moves LEER, SMOKESCREEN, EMBER, QUICK_ATTACK
 	end_trainer
@@ -1215,7 +1215,7 @@ Rival1Group:
 	tr_mon 41, SNEASEL
 		tr_evs 232 Atk
 		tr_moves SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	tr_mon 43, TYPHLOSION @ SITRUS_BERRY
+	tr_mon 43, RATTATA @ SITRUS_BERRY
 		tr_evs 88 Atk, 72 SAt, 72 Spe
 		tr_moves SMOKESCREEN, FLAME_CHARGE, DIG, SWIFT
 	end_trainer
@@ -1264,7 +1264,7 @@ Rival1Group:
 		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
 	tr_mon 46, RATTATA @ BRIGHTPOWDER
 		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	tr_mon 49, TYPHLOSION @ SITRUS_BERRY
+	tr_mon 49, RATTATA @ SITRUS_BERRY
 		tr_moves SMOKESCREEN, QUICK_ATTACK, DIG, FLAMETHROWER
 	end_trainer
 
@@ -1325,7 +1325,7 @@ Rival2Group:
 	tr_mon 63, RATTATA @ BRIGHTPOWDER
 		tr_evs 252 SAt, 204 Spe
 		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	tr_mon 65, TYPHLOSION @ CHARCOAL
+	tr_mon 65, RATTATA @ CHARCOAL
 		tr_evs 204 Atk, 252 SAt
 		tr_moves FLAMETHROWER, EARTH_POWER, THUNDERPUNCH, SMOKESCREEN
 	end_trainer
@@ -1377,7 +1377,7 @@ Rival2Group:
 		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
 	tr_mon 70, RATTATA @ BRIGHTPOWDER
 		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	tr_mon 72, TYPHLOSION @ LEFTOVERS
+	tr_mon 72, RATTATA @ LEFTOVERS
 		tr_moves FIRE_BLAST, FOCUS_BLAST, EARTH_POWER, SMOKESCREEN
 	end_trainer
 
@@ -1408,7 +1408,7 @@ Lyra1Group:
 	end_trainer
 
 	def_trainer LYRA1_2, "Lyra"
-	tr_mon 5, "Cinder", CYNDAQUIL
+	tr_mon 5, "Cinder", RATTATA
 	end_trainer
 
 	def_trainer LYRA1_3, "Lyra"
@@ -1437,7 +1437,7 @@ Lyra1Group:
 		tr_evs 36 SAt, 36 Spe
 	tr_mon 15, MAREEP
 		tr_evs 36 HP, 36 SAt
-	tr_mon 18, "Cinder", QUILAVA @ ORAN_BERRY
+	tr_mon 18, "Cinder", RATTATA @ ORAN_BERRY
 		tr_evs 72 Spe
 	end_trainer
 
@@ -1474,7 +1474,7 @@ Lyra1Group:
 		tr_evs 200 Atk
 	tr_mon 32, FLAAFFY
 		tr_evs 100 HP, 100 SAt
-	tr_mon 37, "Cinder", QUILAVA @ ORAN_BERRY
+	tr_mon 37, "Cinder", RATTATA @ ORAN_BERRY
 		tr_evs 200 Spe
 	end_trainer
 
@@ -1517,7 +1517,7 @@ Lyra1Group:
 		tr_evs 252 Atk, 12 Spe
 	tr_mon 46, AMPHAROS
 		tr_evs 132 HP, 132 SAt
-	tr_mon 47, "Cinder", TYPHLOSION @ SITRUS_BERRY
+	tr_mon 47, "Cinder", RATTATA @ SITRUS_BERRY
 		tr_evs 12 Atk, 252 Spe
 	end_trainer
 
@@ -1556,7 +1556,7 @@ Lyra2Group:
 	tr_mon 70, AZUMARILL
 	tr_mon 71, AMPHAROS
 	tr_mon 68, RATTATA
-	tr_mon 72, "Cinder", TYPHLOSION @ SITRUS_BERRY
+	tr_mon 72, "Cinder", RATTATA @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer 3, "Lyra"
@@ -1904,7 +1904,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer CLARK, "Clark"
-	tr_mon 56, "Campfire", QUILAVA
+	tr_mon 56, "Campfire", RATTATA
 	end_trainer
 
 	def_trainer PEDRO, "Pedro"
@@ -5484,7 +5484,7 @@ BattleGirlGroup:
 
 	def_trainer SASHA, "Sasha"
 	tr_mon 52, PRIMEAPE
-	tr_mon 55, TYPHLOSION
+	tr_mon 55, RATTATA
 	tr_mon 54, RAPIDASH
 	end_trainer
 
@@ -6592,7 +6592,7 @@ VeteranFGroup:
 	end_trainer
 
 	def_trainer JONET, "Jonet"
-	tr_mon 41, TYPHLOSION @ CHARCOAL
+	tr_mon 41, RATTATA @ CHARCOAL
 		tr_moves FLAME_CHARGE, THUNDERPUNCH, DIG, STRENGTH
 	tr_mon 40, ESPEON @ NEVERMELTICE
 		tr_moves PSYCHIC_M, REFLECT, SHADOW_BALL, QUICK_ATTACK
@@ -6835,7 +6835,7 @@ ProfElmGroup:
 	def_trainer 1, "Elm"
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
-	tr_mon LEVEL_FROM_BADGES + 5, CYNDAQUIL
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, CHIKORITA
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
@@ -6843,7 +6843,7 @@ ProfElmGroup:
 	def_trainer 2, "Elm"
 	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
-	tr_mon LEVEL_FROM_BADGES + 5, QUILAVA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, BAYLEEF
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
@@ -6851,7 +6851,7 @@ ProfElmGroup:
 	def_trainer 3, "Elm"
 	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
-	tr_mon LEVEL_FROM_BADGES + 6, TYPHLOSION
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 6, MEGANIUM
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
@@ -6860,7 +6860,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS
-	tr_mon LEVEL_FROM_BADGES + 9, TYPHLOSION
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 9, MEGANIUM
 	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
 	end_trainer

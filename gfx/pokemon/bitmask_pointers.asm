@@ -92,9 +92,6 @@ BitmasksPointers:
 	dw ChikoritaBitmasks
 	dw BayleefBitmasks
 	dw MeganiumBitmasks
-	dw CyndaquilBitmasks
-	dw QuilavaBitmasks
-	dw TyphlosionPlainBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks
 	dw TrubbishBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw MinccinoBitmasks
 	dw CinccinoBitmasks
 	dw GothitaBitmasks
@@ -431,7 +428,6 @@ BitmasksPointers:
 
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks
-	dw TyphlosionHisuianBitmasks
 	dw SneaselHisuianBitmasks
 	
 	dw UnfezantFemaleBitmasks

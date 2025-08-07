@@ -93,9 +93,6 @@ PokemonNames::
 	rawchar "Chikorita@"
 	rawchar "Bayleef@@@"
 	rawchar "Meganium@@"
-	rawchar "Cyndaquil@"
-	rawchar "Quilava@@@"
-	rawchar "Typhlosion"
 	rawchar "Crobat@@@@"
 	rawchar "Chinchou@@"
 	rawchar "Lanturn@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"
 	rawchar "Trubbish@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Minccino@@"
 	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"

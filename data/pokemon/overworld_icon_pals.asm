@@ -96,9 +96,6 @@ OverworldMonIconColors::
 	iconpal GREEN, RED ; CHIKORITA
 	iconpal GREEN, RED ; BAYLEEF
 	iconpal GREEN, RED ; MEGANIUM
-	iconpal RED, PINK ; CYNDAQUIL
-	iconpal RED, PINK ; QUILAVA
-	iconpal RED, PINK ; TYPHLOSION
 	iconpal PURPLE, RED ; CROBAT
 	iconpal BLUE, TEAL ; CHINCHOU
 	iconpal BLUE, TEAL ; LANTURN
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, TEAL ; GARBODOR
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, PINK ; MINCCINO
 	iconpal GRAY, BROWN ; CINCCINO
 	iconpal BLACK, PURPLE ; GOTHITA
@@ -393,7 +390,6 @@ endr
 
 	iconpal RED, BROWN ; GROWLITHE, HISUIAN_FORM
 	iconpal ORANGE, BROWN ; ARCANINE, HISUIAN_FORM
-	iconpal PURPLE, BLUE ; TYPHLOSION, HISUIAN_FORM
 	iconpal PURPLE, BROWN ; SNEASEL, HISUIAN_FORM
 
 	iconpal GRAY, PINK ; UNFEZANT, UNFEZANT_FEMALE_FORM

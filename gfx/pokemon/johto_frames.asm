@@ -3,8 +3,6 @@ JohtoFrames:
 ChikoritaFrames:  INCLUDE "gfx/pokemon/chikorita/frames.asm"
 BayleefFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm"
 MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
-CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
-QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 CrobatFrames:     INCLUDE "gfx/pokemon/crobat/frames.asm"
 ChinchouFrames:   INCLUDE "gfx/pokemon/chinchou/frames.asm"
 LanturnFrames:    INCLUDE "gfx/pokemon/lanturn/frames.asm"
@@ -259,9 +257,6 @@ SlowkingGalarianFrames: INCLUDE "gfx/pokemon/slowking_galarian/frames.asm"
 
 CorsolaPlainFrames:    INCLUDE "gfx/pokemon/corsola_plain/frames.asm"
 CorsolaGalarianFrames: INCLUDE "gfx/pokemon/corsola_galarian/frames.asm"
-
-TyphlosionPlainFrames:   INCLUDE "gfx/pokemon/typhlosion_plain/frames.asm"
-TyphlosionHisuianFrames: INCLUDE "gfx/pokemon/typhlosion_hisuian/frames.asm"
 
 SneaselPlainFrames:   INCLUDE "gfx/pokemon/sneasel_plain/frames.asm"
 SneaselHisuianFrames: INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"

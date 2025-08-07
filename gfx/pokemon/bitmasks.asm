@@ -63,8 +63,6 @@ MewBitmasks:        INCLUDE "gfx/pokemon/mew/bitmask.asm"
 ChikoritaBitmasks:  INCLUDE "gfx/pokemon/chikorita/bitmask.asm"
 BayleefBitmasks:    INCLUDE "gfx/pokemon/bayleef/bitmask.asm"
 MeganiumBitmasks:   INCLUDE "gfx/pokemon/meganium/bitmask.asm"
-CyndaquilBitmasks:  INCLUDE "gfx/pokemon/cyndaquil/bitmask.asm"
-QuilavaBitmasks:    INCLUDE "gfx/pokemon/quilava/bitmask.asm"
 CrobatBitmasks:     INCLUDE "gfx/pokemon/crobat/bitmask.asm"
 ChinchouBitmasks:   INCLUDE "gfx/pokemon/chinchou/bitmask.asm"
 LanturnBitmasks:    INCLUDE "gfx/pokemon/lanturn/bitmask.asm"
@@ -426,9 +424,6 @@ GrowlitheHisuianBitmasks: INCLUDE "gfx/pokemon/growlithe_hisuian/bitmask.asm"
 
 ArcaninePlainBitmasks:   INCLUDE "gfx/pokemon/arcanine_plain/bitmask.asm"
 ArcanineHisuianBitmasks: INCLUDE "gfx/pokemon/arcanine_hisuian/bitmask.asm"
-
-TyphlosionPlainBitmasks:   INCLUDE "gfx/pokemon/typhlosion_plain/bitmask.asm"
-TyphlosionHisuianBitmasks: INCLUDE "gfx/pokemon/typhlosion_hisuian/bitmask.asm"
 
 SneaselPlainBitmasks:   INCLUDE "gfx/pokemon/sneasel_plain/bitmask.asm"
 SneaselHisuianBitmasks: INCLUDE "gfx/pokemon/sneasel_hisuian/bitmask.asm"

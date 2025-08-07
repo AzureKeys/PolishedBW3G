@@ -50,7 +50,7 @@ VioletOutskirtsGhostBattleScript:
 	waitbutton
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GHOST
-	loadwildmon TYPHLOSION, HISUIAN_FORM, 60
+	loadwildmon RATTATA, ALOLAN_FORM, 60
 	startbattle
 	special CheckBattleCaughtResult
 	iftruefwd .CaughtHisuianTyphlosion

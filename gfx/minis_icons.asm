@@ -467,21 +467,6 @@ MeganiumMini::     INCBIN "gfx/minis/meganium.2bpp.lz"
 MeganiumMiniMask:: INCBIN "gfx/minis/meganium_mask.1bpp.lz"
 MeganiumIcon::     INCBIN "gfx/icons/meganium.2bpp.lz"
 
-SECTION "Cyndaquil Mini Icon", ROMX
-CyndaquilMini::     INCBIN "gfx/minis/cyndaquil.2bpp.lz"
-CyndaquilMiniMask:: INCBIN "gfx/minis/cyndaquil_mask.1bpp.lz"
-CyndaquilIcon::     INCBIN "gfx/icons/cyndaquil.2bpp.lz"
-
-SECTION "Quilava Mini Icon", ROMX
-QuilavaMini::     INCBIN "gfx/minis/quilava.2bpp.lz"
-QuilavaMiniMask:: INCBIN "gfx/minis/quilava_mask.1bpp.lz"
-QuilavaIcon::     INCBIN "gfx/icons/quilava.2bpp.lz"
-
-SECTION "Typhlosion Mini Icon", ROMX
-TyphlosionMini::     INCBIN "gfx/minis/typhlosion.2bpp.lz"
-TyphlosionMiniMask:: INCBIN "gfx/minis/typhlosion_mask.1bpp.lz"
-TyphlosionIcon::     INCBIN "gfx/icons/typhlosion.2bpp.lz"
-
 SECTION "Crobat Mini Icon", ROMX
 CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lz"
 CrobatMiniMask:: INCBIN "gfx/minis/crobat_mask.1bpp.lz"
@@ -1961,11 +1946,6 @@ SECTION "ArcanineHisuian Mini Icon", ROMX
 ArcanineHisuianMini::     INCBIN "gfx/minis/arcanine_hisuian.2bpp.lz"
 ArcanineHisuianMiniMask:: INCBIN "gfx/minis/arcanine_hisuian_mask.1bpp.lz"
 ArcanineHisuianIcon::     INCBIN "gfx/icons/arcanine_hisuian.2bpp.lz"
-
-SECTION "TyphlosionHisuian Mini Icon", ROMX
-TyphlosionHisuianMini::     INCBIN "gfx/minis/typhlosion_hisuian.2bpp.lz"
-TyphlosionHisuianMiniMask:: INCBIN "gfx/minis/typhlosion_hisuian_mask.1bpp.lz"
-TyphlosionHisuianIcon::     INCBIN "gfx/icons/typhlosion_hisuian.2bpp.lz"
 
 SECTION "SneaselHisuian Mini Icon", ROMX
 SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"

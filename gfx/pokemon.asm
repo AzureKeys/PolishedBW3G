@@ -288,22 +288,6 @@ SECTION "Meganium Pics", ROMX
 MeganiumFrontpic: INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
 MeganiumBackpic:  INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
 
-SECTION "Cyndaquil Pics", ROMX
-CyndaquilFrontpic: INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"
-CyndaquilBackpic:  INCBIN "gfx/pokemon/cyndaquil/back.2bpp.lz"
-
-SECTION "Quilava Pics", ROMX
-QuilavaFrontpic: INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
-QuilavaBackpic:  INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
-
-SECTION "TyphlosionPlain Pics", ROMX
-TyphlosionPlainFrontpic: INCBIN "gfx/pokemon/typhlosion_plain/front.animated.2bpp.lz"
-TyphlosionPlainBackpic:  INCBIN "gfx/pokemon/typhlosion_plain/back.2bpp.lz"
-
-SECTION "TyphlosionHisuian Pics", ROMX
-TyphlosionHisuianFrontpic: INCBIN "gfx/pokemon/typhlosion_hisuian/front.animated.2bpp.lz"
-TyphlosionHisuianBackpic:  INCBIN "gfx/pokemon/typhlosion_hisuian/back.2bpp.lz"
-
 SECTION "Crobat Pics", ROMX
 CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 CrobatBackpic:  INCBIN "gfx/pokemon/crobat/back.2bpp.lz"

@@ -122,11 +122,11 @@ DayCareLadyScript:
 	iftruefwd .GiveCyndaquilEgg
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftruefwd .GiveTotodileEgg
-	giveegg CHIKORITA
+	giveegg SNIVY
 	sjumpfwd .GotLyrasEgg
 
 .GiveCyndaquilEgg:
-	giveegg CYNDAQUIL
+	giveegg TEPIG
 	sjumpfwd .GotLyrasEgg
 
 .GiveTotodileEgg:

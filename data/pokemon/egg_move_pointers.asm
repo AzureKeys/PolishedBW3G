@@ -92,9 +92,6 @@ EggSpeciesMovesPointers::
 	dw ChikoritaEggSpeciesMoves         ; Chikorita
 	dw ChikoritaEggSpeciesMoves         ; Bayleef
 	dw ChikoritaEggSpeciesMoves         ; Meganium
-	dw CyndaquilEggSpeciesMoves         ; Cyndaquil
-	dw CyndaquilEggSpeciesMoves         ; Quilava
-	dw CyndaquilEggSpeciesMoves         ; Typhlosion
 	dw ZubatEggSpeciesMoves             ; Crobat
 	dw ChinchouEggSpeciesMoves          ; Chinchou
 	dw ChinchouEggSpeciesMoves          ; Lanturn
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw MinccinoEggSpeciesMoves          ; Minccino
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
@@ -373,7 +370,6 @@ EggSpeciesMovesPointers::
 
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
-	dw CyndaquilEggSpeciesMoves         ; Typhlosion (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
 	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)

@@ -96,9 +96,6 @@ EvosAttacksPointers::
 	dw ChikoritaEvosAttacks
 	dw BayleefEvosAttacks
 	dw MeganiumEvosAttacks
-	dw CyndaquilEvosAttacks
-	dw QuilavaEvosAttacks
-	dw TyphlosionPlainEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw ArchenEvosAttacks
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw GarbodorEvosAttacks
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw MinccinoEvosAttacks
 	dw CinccinoEvosAttacks
 	dw GothitaEvosAttacks
@@ -377,7 +374,6 @@ EvosAttacksPointers::
 
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks
-	dw TyphlosionHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks
 	
 	dw UnfezantEvosAttacks

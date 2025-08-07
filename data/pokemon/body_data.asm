@@ -99,9 +99,6 @@ PokemonBodyData:
 	body_data   9,   64, QUADRUPED,    GREEN  ; CHIKORITA
 	body_data  12,  158, QUADRUPED,    GREEN  ; BAYLEEF
 	body_data  18, 1005, QUADRUPED,    GREEN  ; MEGANIUM
-	body_data   5,   79, BIPEDAL,      YELLOW ; CYNDAQUIL
-	body_data   9,  190, QUADRUPED,    YELLOW ; QUILAVA
-	body_data  17,  795, QUADRUPED,    YELLOW ; TYPHLOSION
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
 	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
 	body_data  12,  225, FINS,         BLUE   ; LANTURN
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   58, QUADRUPED,    GRAY   ; MINCCINO
 	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
@@ -380,7 +377,6 @@ PokemonBodyData:
 
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
-	body_data  16,  698, QUADRUPED,    YELLOW ; TYPHLOSION (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
 	
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT (UNFEZANT_FEMALE_FORM)

@@ -98,9 +98,6 @@ PokemonCries::
 	mon_cry CRY_CHIKORITA,  -$010,  $0b0 ; Chikorita
 	mon_cry CRY_CHIKORITA,  -$022,  $120 ; Bayleef
 	mon_cry CRY_CHIKORITA,  -$0b7,  $200 ; Meganium
-	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; Cyndaquil
-	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; Quilava
-	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; Typhlosion
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; Crobat
 	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Chinchou
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_WHIMSICOTT,  $05b,  $0b7 ; Archeops
 	mon_cry CRY_TRUBBISH,   -$016,  $150 ; Trubbish
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
 	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VULPIX,      $04f,  $090 ; MINCCINO*
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; CINCCINO*
 	mon_cry CRY_TRUBBISH,    $07d,  $0c8 ; Gothita

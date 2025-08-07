@@ -25,7 +25,7 @@ BuenasPasswordTable:
 	assert_table_length NUM_PASSWORD_CATEGORIES
 
                 ; string type, points, option 1, option 2, option 3
-.JohtoStarters: password_group BUENA_MON,    10, CYNDAQUIL, OSHAWOTT, CHIKORITA
+.JohtoStarters: password_group BUENA_MON,    10, TEPIG, OSHAWOTT, SNIVY
 .Beverages:     password_group BUENA_ITEM,   12, FRESH_WATER, SODA_POP, LEMONADE
 .HealingItems:  password_group BUENA_ITEM,   12, POTION, ANTIDOTE, PARALYZEHEAL
 .Balls:         password_group BUENA_ITEM,   12, POKE_BALL, GREAT_BALL, ULTRA_BALL

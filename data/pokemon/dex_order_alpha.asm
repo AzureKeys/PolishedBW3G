@@ -49,7 +49,6 @@ AlphabeticalPokedexOrder:
 	dp CRYOGONAL
 	dp CUBCHOO
 	dp CURSOLA
-	dp CYNDAQUIL
 	dp DARMANITAN
 	dp DARUMAKA
 	dp DEERLING
@@ -229,7 +228,6 @@ AlphabeticalPokedexOrder:
 	dp PSYDUCK
 	dp PUPITAR
 	dp PURRLOIN
-	dp QUILAVA
 	dp RAICHU
 	dp RALTS
 	dp RAPIDASH
@@ -304,7 +302,6 @@ AlphabeticalPokedexOrder:
 	dp TRUBBISH
 	dp TYMPOLE
 	dp TYNAMO
-	dp TYPHLOSION
 	dp TYRANITAR
 	dp UMBREON
 	dp UNFEZANT

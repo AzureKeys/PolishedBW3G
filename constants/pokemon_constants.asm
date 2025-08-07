@@ -116,9 +116,6 @@
 	const CHIKORITA  ; xx
 	const BAYLEEF    ; xx
 	const MEGANIUM   ; xx
-	const CYNDAQUIL  ; xx
-	const QUILAVA    ; xx
-	const TYPHLOSION ; xx
 	const CROBAT     ; 4d
 	const CHINCHOU   ; 4e
 	const LANTURN    ; 4f
@@ -278,11 +275,11 @@
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const MINCCINO   ; 141
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143
@@ -511,7 +508,6 @@ DEF GALARIAN_FORM EQU 3
 DEF HISUIAN_FORM EQU 4
 	const_skip ; 17e growlithe
 	const_skip ; 17f arcanine
-	const_skip ; 182 typhlosion
 	const_skip ; 184 sneasel
 
 ; paldean forms

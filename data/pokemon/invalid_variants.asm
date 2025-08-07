@@ -11,5 +11,4 @@ InvalidVariants: ; for Wonder Trade and invalid inherited forms
 	dp PIKACHU,    PIKACHU_SPARK_FORM
 	dp PICHU,      PICHU_SPIKY_EARED_FORM ; The event one-off is special cased
 	dp GYARADOS,   GYARADOS_RED_FORM
-	dp TYPHLOSION, HISUIAN_FORM
 	db 0

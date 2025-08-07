@@ -96,9 +96,6 @@ MiniIconPointers:
 	mini_icon Chikorita
 	mini_icon Bayleef
 	mini_icon Meganium
-	mini_icon Cyndaquil
-	mini_icon Quilava
-	mini_icon Typhlosion
 	mini_icon Crobat
 	mini_icon Chinchou
 	mini_icon Lanturn
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Archen
 	mini_icon Archeops
 	mini_icon Trubbish
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Garbodor
 	mini_icon Zorua
 	mini_icon Zoroark
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Minccino
 	mini_icon Cinccino
 	mini_icon Gothita
@@ -419,7 +416,6 @@ endr
 
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
-	mini_icon TyphlosionHisuian
 	mini_icon SneaselHisuian
 
 	mini_icon UnfezantFemale

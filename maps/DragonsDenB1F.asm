@@ -151,11 +151,11 @@ DragonsDenB1FRivalScript:
 	sjumpfwd .GotRivalsEgg
 
 .GiveChikoritaEgg:
-	giveegg CHIKORITA
+	giveegg SNIVY
 	sjumpfwd .GotRivalsEgg
 
 .GiveCyndaquilEgg:
-	giveegg CYNDAQUIL
+	giveegg TEPIG
 .GotRivalsEgg
 	iffalsefwd .PartyAndBoxFull
 	writetext .DescribeEggText

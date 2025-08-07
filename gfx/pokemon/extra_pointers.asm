@@ -92,9 +92,6 @@ AnimationExtraPointers:
 	dw ChikoritaAnimationExtra
 	dw BayleefAnimationExtra
 	dw MeganiumAnimationExtra
-	dw CyndaquilAnimationExtra
-	dw QuilavaAnimationExtra
-	dw TyphlosionPlainAnimationExtra
 	dw CrobatAnimationExtra
 	dw ChinchouAnimationExtra
 	dw LanturnAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw MinccinoAnimationExtra
 	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
@@ -431,7 +428,6 @@ AnimationExtraPointers:
 
 	dw GrowlitheHisuianAnimationExtra
 	dw ArcanineHisuianAnimationExtra
-	dw TyphlosionHisuianAnimationExtra
 	dw SneaselHisuianAnimationExtra
 	
 	dw UnfezantFemaleAnimationExtra

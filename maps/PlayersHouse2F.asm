@@ -246,16 +246,16 @@ endr
 	loadmem wPartyMon2PP+3, 10
 	loadmem wPartyMon2PokerusStatus, 1
 	; variant form test
-	givepoke TYPHLOSION, HISUIAN_FORM, 50
+	givepoke UNFEZANT, UNFEZANT_FEMALE_FORM, 50
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
 	; ext species test
 	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
 	; evolve during battle
 	givepoke PUPITAR, 54
-	loadmem wPartyMon6Exp+2, LOW(207967)
-	loadmem wPartyMon6Exp+1, HIGH(207967)
-	loadmem wPartyMon6Exp+0, 207967 >> 16
+	loadmem wPartyMon5Exp+2, LOW(207967)
+	loadmem wPartyMon5Exp+1, HIGH(207967)
+	loadmem wPartyMon5Exp+0, 207967 >> 16
 	; fill pokedex
 	callasm FillPokedex
 ;	; new bark events

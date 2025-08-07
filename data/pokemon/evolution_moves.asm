@@ -92,9 +92,6 @@ EvolutionMoves::
 	db NO_MOVE      ; CHIKORITA
 	db NO_MOVE      ; BAYLEEF
 	db PETAL_DANCE  ; MEGANIUM
-	db NO_MOVE      ; CYNDAQUIL
-	db NO_MOVE      ; QUILAVA
-	db FIRE_PUNCH   ; TYPHLOSION
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; MINCCINO
 	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA
@@ -377,7 +374,6 @@ endc
 
 	db NO_MOVE      ; GROWLITHE, HISUIAN_FORM
 	db EXTREMESPEED ; ARCANINE, HISUIAN_FORM
-	db SHADOW_CLAW  ; TYPHLOSION, HISUIAN_FORM
 	db NO_MOVE      ; SNEASEL, HISUIAN_FORM
 	
 	db NO_MOVE      ; UNFEZANT, UNFEZANT_FEMALE_FORM

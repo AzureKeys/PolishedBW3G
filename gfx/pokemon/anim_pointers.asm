@@ -92,9 +92,6 @@ AnimationPointers:
 	dw ChikoritaAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
-	dw CyndaquilAnimation
-	dw QuilavaAnimation
-	dw TyphlosionPlainAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw ArchenAnimation
 	dw ArcheopsAnimation
 	dw TrubbishAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw GarbodorAnimation
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw MinccinoAnimation
 	dw CinccinoAnimation
 	dw GothitaAnimation
@@ -431,7 +428,6 @@ AnimationPointers:
 
 	dw GrowlitheHisuianAnimation
 	dw ArcanineHisuianAnimation
-	dw TyphlosionHisuianAnimation
 	dw SneaselHisuianAnimation
 	
 	dw UnfezantFemaleAnimation

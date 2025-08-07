@@ -92,9 +92,6 @@ FootprintPointers::
 	dw ChikoritaFootprint
 	dw BayleefFootprint
 	dw MeganiumFootprint
-	dw CyndaquilFootprint
-	dw QuilavaFootprint
-	dw TyphlosionFootprint
 	dw CrobatFootprint
 	dw ChinchouFootprint
 	dw LanturnFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw ArchenFootprint
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw GarbodorFootprint
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw MinccinoFootprint
 	dw CinccinoFootprint
 	dw GothitaFootprint
@@ -373,7 +370,6 @@ FootprintPointers::
 
 	dw GrowlitheFootprint
 	dw ArcanineFootprint
-	dw TyphlosionFootprint
 	dw SneaselFootprint
 	
 	dw UnfezantFootprint

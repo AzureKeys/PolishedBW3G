@@ -63,8 +63,6 @@ MewAnimation:        INCLUDE "gfx/pokemon/mew/anim.asm"
 ChikoritaAnimation:  INCLUDE "gfx/pokemon/chikorita/anim.asm"
 BayleefAnimation:    INCLUDE "gfx/pokemon/bayleef/anim.asm"
 MeganiumAnimation:   INCLUDE "gfx/pokemon/meganium/anim.asm"
-CyndaquilAnimation:  INCLUDE "gfx/pokemon/cyndaquil/anim.asm"
-QuilavaAnimation:    INCLUDE "gfx/pokemon/quilava/anim.asm"
 CrobatAnimation:     INCLUDE "gfx/pokemon/crobat/anim.asm"
 ChinchouAnimation:   INCLUDE "gfx/pokemon/chinchou/anim.asm"
 LanturnAnimation:    INCLUDE "gfx/pokemon/lanturn/anim.asm"
@@ -426,9 +424,6 @@ GrowlitheHisuianAnimation: INCLUDE "gfx/pokemon/growlithe_hisuian/anim.asm"
 
 ArcaninePlainAnimation:   INCLUDE "gfx/pokemon/arcanine_plain/anim.asm"
 ArcanineHisuianAnimation: INCLUDE "gfx/pokemon/arcanine_hisuian/anim.asm"
-
-TyphlosionPlainAnimation:   INCLUDE "gfx/pokemon/typhlosion_plain/anim.asm"
-TyphlosionHisuianAnimation: INCLUDE "gfx/pokemon/typhlosion_hisuian/anim.asm"
 
 SneaselPlainAnimation:   INCLUDE "gfx/pokemon/sneasel_plain/anim.asm"
 SneaselHisuianAnimation: INCLUDE "gfx/pokemon/sneasel_hisuian/anim.asm"
