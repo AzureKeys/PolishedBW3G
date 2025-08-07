@@ -80,7 +80,6 @@ PokemonPicPointers::
 	pics Magmar
 	pics Pinsir
 	pics MagikarpPlain
-	pics GyaradosPlain
 	pics Lapras
 	pics Ditto
 	pics Eevee
@@ -258,9 +257,9 @@ PokemonPicPointers::
 	pics Minccino
 	pics Cinccino
 	pics Gothita
+	pics Gothorita
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Gothorita
 	pics Gothitelle
 	pics Solosis
 	pics Duosion
@@ -394,8 +393,6 @@ PokemonPicPointers::
 	pics MagikarpRaindrop
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	pics GyaradosRed
 
 	pics MewtwoArmored
 

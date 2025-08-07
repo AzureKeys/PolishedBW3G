@@ -130,7 +130,7 @@
 	db 6 percent ; encounter rate
 	wildmon  35, RATTATA
 	wildmon  35, RATTATA
-	wildmon  35, GYARADOS
+	wildmon  35, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
@@ -263,14 +263,14 @@
 	db 6 percent ; encounter rate
 	wildmon  60, SLOWBRO
 	wildmon  63, GOLDUCK
-	wildmon  66, GYARADOS
+	wildmon  66, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAVE_B1F
 	db 6 percent ; encounter rate
 	wildmon  60, SLOWKING
 	wildmon  63, GOLDUCK
-	wildmon  66, GYARADOS
+	wildmon  66, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_HUB

@@ -769,12 +769,6 @@ SECTION "MewtwoArmored Pics", ROMX
 MewtwoArmoredFrontpic: INCBIN "gfx/pokemon/mewtwo_armored/front.animated.2bpp.lz"
 MewtwoArmoredBackpic:  INCBIN "gfx/pokemon/mewtwo_armored/back.2bpp.lz"
 
-SECTION "Gyarados Pics", ROMX
-GyaradosPlainFrontpic: INCBIN "gfx/pokemon/gyarados_plain/front.animated.2bpp.lz"
-GyaradosRedFrontpic:   INCBIN "gfx/pokemon/gyarados_red/front.animated.2bpp.lz"
-GyaradosPlainBackpic:
-GyaradosRedBackpic:    INCBIN "gfx/pokemon/gyarados/back.2bpp.lz"
-
 SECTION "RattataPlain Pics", ROMX
 RattataPlainFrontpic: INCBIN "gfx/pokemon/rattata_plain/front.animated.2bpp.lz"
 RattataPlainBackpic:  INCBIN "gfx/pokemon/rattata_plain/back.2bpp.lz"

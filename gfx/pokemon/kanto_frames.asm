@@ -91,9 +91,6 @@ MagikarpMask2Frames:     INCLUDE "gfx/pokemon/magikarp_mask2/frames.asm"
 MagikarpSaucyFrames:     INCLUDE "gfx/pokemon/magikarp_saucy/frames.asm"
 MagikarpRaindropFrames:  INCLUDE "gfx/pokemon/magikarp_raindrop/frames.asm"
 
-GyaradosPlainFrames: INCLUDE "gfx/pokemon/gyarados_plain/frames.asm"
-GyaradosRedFrames:   INCLUDE "gfx/pokemon/gyarados_red/frames.asm"
-
 MewtwoPlainFrames:   INCLUDE "gfx/pokemon/mewtwo_plain/frames.asm"
 MewtwoArmoredFrames: INCLUDE "gfx/pokemon/mewtwo_armored/frames.asm"
 

@@ -94,7 +94,6 @@ INCLUDE "gfx/pokemon/electabuzz/front.dimensions"
 INCLUDE "gfx/pokemon/magmar/front.dimensions"
 INCLUDE "gfx/pokemon/pinsir/front.dimensions"
 INCLUDE "gfx/pokemon/magikarp_plain/front.dimensions"
-INCLUDE "gfx/pokemon/gyarados_plain/front.dimensions"
 INCLUDE "gfx/pokemon/lapras/front.dimensions"
 INCLUDE "gfx/pokemon/ditto/front.dimensions"
 INCLUDE "gfx/pokemon/eevee/front.dimensions"
@@ -273,9 +272,9 @@ INCLUDE "gfx/pokemon/zoroark_plain/front.dimensions"
 INCLUDE "gfx/pokemon/minccino/front.dimensions"
 INCLUDE "gfx/pokemon/cinccino/front.dimensions"
 INCLUDE "gfx/pokemon/gothita/front.dimensions"
+INCLUDE "gfx/pokemon/gothorita/front.dimensions"
 INCLUDE "gfx/pokemon/egg/front.dimensions"
 INCLUDE "gfx/pokemon/egg/front.dimensions" ; $100
-INCLUDE "gfx/pokemon/gothorita/front.dimensions"
 INCLUDE "gfx/pokemon/gothitelle/front.dimensions"
 INCLUDE "gfx/pokemon/solosis/front.dimensions"
 INCLUDE "gfx/pokemon/duosion/front.dimensions"
@@ -409,8 +408,6 @@ INCLUDE "gfx/pokemon/magikarp_saucy/front.dimensions"
 INCLUDE "gfx/pokemon/magikarp_raindrop/front.dimensions"
 
 	assert_list_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-INCLUDE "gfx/pokemon/gyarados_red/front.dimensions"
 
 INCLUDE "gfx/pokemon/mewtwo_armored/front.dimensions"
 

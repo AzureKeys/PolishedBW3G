@@ -77,7 +77,6 @@ PokedexDataPointerTable:
 	dba MagmarPokedexEntry
 	dba PinsirPokedexEntry
 	dba MagikarpPokedexEntry
-	dba GyaradosPlainPokedexEntry
 	dba LaprasPokedexEntry
 	dba DittoPokedexEntry
 	dba EeveePokedexEntry
@@ -255,9 +254,9 @@ PokedexDataPointerTable:
 	dba MinccinoPokedexEntry
 	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry
+	dba GothoritaPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
-	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
@@ -333,8 +332,6 @@ PokedexDataPointerTable:
 	dba MeloettaPokedexEntry
 	dba GenesectPokedexEntry
 	assert_table_length NUM_SPECIES
-
-	dba GyaradosRedPokedexEntry
 
 	dba MewtwoArmoredPokedexEntry
 

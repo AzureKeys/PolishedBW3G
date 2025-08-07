@@ -76,7 +76,6 @@ AnimationExtraPointers:
 	dw MagmarAnimationExtra
 	dw PinsirAnimationExtra
 	dw MagikarpPlainAnimationExtra
-	dw GyaradosPlainAnimationExtra
 	dw LaprasAnimationExtra
 	dw DittoAnimationExtra
 	dw EeveeAnimationExtra
@@ -254,9 +253,9 @@ AnimationExtraPointers:
 	dw MinccinoAnimationExtra
 	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
+	dw GothoritaAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
-	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra
@@ -390,8 +389,6 @@ AnimationExtraPointers:
 	dw MagikarpRaindropAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw GyaradosRedAnimationExtra
 
 	dw MewtwoArmoredAnimationExtra
 

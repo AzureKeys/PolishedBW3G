@@ -291,7 +291,7 @@
 	db 6 percent ; encounter rate
 	wildmon 25, MAGIKARP
 	wildmon 20, MAGIKARP
-	wildmon 25, GYARADOS
+	wildmon 25, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY

@@ -77,7 +77,6 @@ PokemonNames::
 	rawchar "Magmar@@@@"
 	rawchar "Pinsir@@@@"
 	rawchar "Magikarp@@"
-	rawchar "Gyarados@@"
 	rawchar "Lapras@@@@"
 	rawchar "Ditto@@@@@"
 	rawchar "Eevee@@@@@"
@@ -255,9 +254,9 @@ PokemonNames::
 	rawchar "Minccino@@"
 	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"
+	rawchar "Gothorita@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
-	rawchar "Gothorita@"
 	rawchar "Gothitelle"
 	rawchar "Solosis@@@"
 	rawchar "Duosion@@@"

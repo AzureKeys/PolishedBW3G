@@ -100,7 +100,6 @@
 	const MAGMAR     ; 41
 	const PINSIR     ; 42
 	const MAGIKARP   ; xx
-	const GYARADOS   ; xx
 	const LAPRAS     ; 43
 	const DITTO      ; 44
 	const EEVEE      ; 45
@@ -278,9 +277,9 @@
 	const MINCCINO   ; 141
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143
+	const GOTHORITA  ; 144
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
@@ -458,10 +457,6 @@ DEF NUM_MAGIKARP EQU ext_const_value - 1 ; 14
 DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 
 DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
-
-; gyarados
-	ext_const_def NUM_MAGIKARP + 1
-	ext_const GYARADOS_RED_FORM ; 15c (15)
 
 ; mewtwo
 	ext_const_def 2

@@ -76,7 +76,6 @@ FramesPointers:
 	dw MagmarFrames
 	dw PinsirFrames
 	dw MagikarpPlainFrames
-	dw GyaradosPlainFrames
 	dw LaprasFrames
 	dw DittoFrames
 	dw EeveeFrames
@@ -254,9 +253,9 @@ FramesPointers:
 	dw MinccinoFrames
 	dw CinccinoFrames
 	dw GothitaFrames
+	dw GothoritaFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw GothoritaFrames
 	dw GothitelleFrames
 	dw SolosisFrames
 	dw DuosionFrames
@@ -390,8 +389,6 @@ FramesPointers:
 	dw MagikarpRaindropFrames
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw GyaradosRedFrames
 
 	dw MewtwoArmoredFrames
 

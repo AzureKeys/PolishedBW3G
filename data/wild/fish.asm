@@ -160,10 +160,10 @@ ENDM
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     MAGIKARP,   20
 	fishentry  90 percent + 1, MAGIKARP,   20
-	fishentry 100 percent,     GYARADOS,   20
+	fishentry 100 percent,     RATTATA,   20
 .Gyarados_Super:
 	fishentry  40 percent,     MAGIKARP,   40
-	fishentry  70 percent,     GYARADOS,   40
+	fishentry  70 percent,     RATTATA,   40
 	fishentry  90 percent + 1, MAGIKARP,   40
 	fishentry 100 percent,     MAGIKARP,   40
 

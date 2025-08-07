@@ -76,7 +76,6 @@ EggSpeciesMovesPointers::
 	dw MagbyEggSpeciesMoves             ; Magmar
 	dw PinsirEggSpeciesMoves            ; Pinsir
 	dw MagikarpEggSpeciesMoves          ; Magikarp
-	dw MagikarpEggSpeciesMoves          ; Gyarados
 	dw LaprasEggSpeciesMoves            ; Lapras
 	dw NoEggSpeciesMoves                ; Ditto
 	dw EeveeEggSpeciesMoves             ; Eevee
@@ -254,9 +253,9 @@ EggSpeciesMovesPointers::
 	dw MinccinoEggSpeciesMoves          ; Minccino
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
+	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
-	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
@@ -332,8 +331,6 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Meloetta
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
-
-	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
 
 	dw NoEggSpeciesMoves                ; Mewtwo (Armored Form)
 

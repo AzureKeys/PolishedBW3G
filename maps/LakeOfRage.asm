@@ -233,10 +233,10 @@ LakeOfRageEngineerText:
 LakeOfRageRedGyaradosScript:
 	opentext
 	writetext .GyaradosText
-	cry GYARADOS
+	cry RATTATA
 	pause 15
 	closetext
-	loadwildmon GYARADOS, GYARADOS_RED_FORM, 35
+	loadwildmon RATTATA, 35
 	loadvar VAR_BATTLETYPE, BATTLETYPE_NEVER_SHINY
 	startbattle
 	ifequalfwd $1, .Continue

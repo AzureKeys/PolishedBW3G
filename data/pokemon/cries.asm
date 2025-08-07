@@ -82,7 +82,6 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,  $0ff,  $0b0 ; Magmar
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; Pinsir
 	mon_cry CRY_EKANS,       $080,  $080 ; Magikarp
-	mon_cry CRY_EKANS,       $000,  $100 ; Gyarados
 	mon_cry CRY_LAPRAS,      $000,  $100 ; Lapras
 	mon_cry CRY_PIDGEY,      $0ff,  $17f ; Ditto
 	mon_cry CRY_VENONAT,     $088,  $0e0 ; Eevee
@@ -260,9 +259,9 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      $04f,  $090 ; MINCCINO*
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; CINCCINO*
 	mon_cry CRY_TRUBBISH,    $07d,  $0c8 ; Gothita
+	mon_cry CRY_PATRAT,      $17a,  $095 ; Gothorita
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
-	mon_cry CRY_PATRAT,      $17a,  $095 ; Gothorita
 	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle
 	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
 	mon_cry CRY_AMPHAROS,    $185,  $184 ; Duosion

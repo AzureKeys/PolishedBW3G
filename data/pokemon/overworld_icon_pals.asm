@@ -80,7 +80,6 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; MAGMAR
 	iconpal BROWN, BLUE ; PINSIR
 	iconpal ORANGE, BROWN ; MAGIKARP
-	iconpal BLUE, BROWN ; GYARADOS
 	iconpal BLUE, RED ; LAPRAS
 	iconpal PURPLE, AZURE ; DITTO
 	iconpal BROWN, GRAY ; EEVEE
@@ -258,9 +257,9 @@ OverworldMonIconColors::
 	iconpal GRAY, PINK ; MINCCINO
 	iconpal GRAY, BROWN ; CINCCINO
 	iconpal BLACK, PURPLE ; GOTHITA
+	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE
 	iconpal GREEN, BLUE ; SOLOSIS
 	iconpal GREEN, TEAL ; DUOSION
@@ -352,8 +351,6 @@ rept NUM_MAGIKARP - 1
 endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	iconpal RED, RED ; GYARADOS, GYARADOS_RED_FORM
 
 	iconpal GRAY, BLACK ; MEWTWO, MEWTWO_ARMORED_FORM
 

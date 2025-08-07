@@ -76,7 +76,6 @@ EvolutionMoves::
 	db NO_MOVE      ; MAGMAR
 	db NO_MOVE      ; PINSIR
 	db NO_MOVE      ; MAGIKARP
-	db BITE         ; GYARADOS
 	db NO_MOVE      ; LAPRAS
 	db NO_MOVE      ; DITTO
 	db NO_MOVE      ; EEVEE
@@ -258,9 +257,9 @@ endc
 	db NO_MOVE      ; MINCCINO
 	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA
+	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
@@ -336,8 +335,6 @@ endc
 	db NO_MOVE      ; MELOETTA
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
-
-	db BITE         ; GYARADOS, GYARADOS_RED_FORM
 
 	db NO_MOVE      ; MEWTWO, MEWTWO_ARMORED_FORM
 

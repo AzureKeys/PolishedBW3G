@@ -111,7 +111,6 @@ INCLUDE "data/pokemon/base_stats/electabuzz.asm"
 INCLUDE "data/pokemon/base_stats/magmar.asm"
 INCLUDE "data/pokemon/base_stats/pinsir.asm"
 INCLUDE "data/pokemon/base_stats/magikarp.asm"
-INCLUDE "data/pokemon/base_stats/gyarados.asm"
 INCLUDE "data/pokemon/base_stats/lapras.asm"
 INCLUDE "data/pokemon/base_stats/ditto.asm"
 INCLUDE "data/pokemon/base_stats/eevee.asm"
@@ -289,9 +288,9 @@ INCLUDE "data/pokemon/base_stats/zoroark_plain.asm"
 INCLUDE "data/pokemon/base_stats/minccino.asm"
 INCLUDE "data/pokemon/base_stats/cinccino.asm"
 INCLUDE "data/pokemon/base_stats/gothita.asm"
+INCLUDE "data/pokemon/base_stats/gothorita.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm" ; 100
-INCLUDE "data/pokemon/base_stats/gothorita.asm"
 INCLUDE "data/pokemon/base_stats/gothitelle.asm"
 INCLUDE "data/pokemon/base_stats/solosis.asm"
 INCLUDE "data/pokemon/base_stats/duosion.asm"
@@ -367,8 +366,6 @@ INCLUDE "data/pokemon/base_stats/keldeo.asm"
 INCLUDE "data/pokemon/base_stats/meloetta_plain.asm"
 INCLUDE "data/pokemon/base_stats/genesect.asm"
 	assert_table_length NUM_SPECIES
-
-INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red
 
 INCLUDE "data/pokemon/base_stats/mewtwo_armored.asm"
 

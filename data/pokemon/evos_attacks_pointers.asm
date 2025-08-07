@@ -80,7 +80,6 @@ EvosAttacksPointers::
 	dw MagmarEvosAttacks
 	dw PinsirEvosAttacks
 	dw MagikarpEvosAttacks
-	dw GyaradosEvosAttacks
 	dw LaprasEvosAttacks
 	dw DittoEvosAttacks
 	dw EeveeEvosAttacks
@@ -258,9 +257,9 @@ EvosAttacksPointers::
 	dw MinccinoEvosAttacks
 	dw CinccinoEvosAttacks
 	dw GothitaEvosAttacks
+	dw GothoritaEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
-	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
@@ -336,8 +335,6 @@ EvosAttacksPointers::
 	dw MeloettaEvosAttacks
 	dw GenesectEvosAttacks
 	assert_table_length NUM_SPECIES
-
-	dw GyaradosEvosAttacks
 
 	dw MewtwoEvosAttacks
 

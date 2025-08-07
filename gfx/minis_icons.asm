@@ -387,11 +387,6 @@ MagikarpMini::     INCBIN "gfx/minis/magikarp.2bpp.lz"
 MagikarpMiniMask:: INCBIN "gfx/minis/magikarp_mask.1bpp.lz"
 MagikarpIcon::     INCBIN "gfx/icons/magikarp.2bpp.lz"
 
-SECTION "Gyarados Mini Icon", ROMX
-GyaradosMini::     INCBIN "gfx/minis/gyarados.2bpp.lz"
-GyaradosMiniMask:: INCBIN "gfx/minis/gyarados_mask.1bpp.lz"
-GyaradosIcon::     INCBIN "gfx/icons/gyarados.2bpp.lz"
-
 SECTION "Lapras Mini Icon", ROMX
 LaprasMini::     INCBIN "gfx/minis/lapras.2bpp.lz"
 LaprasMiniMask:: INCBIN "gfx/minis/lapras_mask.1bpp.lz"

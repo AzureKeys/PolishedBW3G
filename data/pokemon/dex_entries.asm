@@ -766,16 +766,6 @@ MagikarpPokedexEntry::
 	next "there are strong"
 	next "currents.@"
 
-SECTION "GyaradosPlainPokedexEntry", ROMX
-GyaradosPlainPokedexEntry::
-	db "Atrocious@"
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
-
 SECTION "LaprasPokedexEntry", ROMX
 LaprasPokedexEntry::
 	db "Transport@"
@@ -3273,16 +3263,6 @@ GenesectPokedexEntry::
 	next "feared as the"
 	page "strongest of"
 	next "hunters.@"
-
-SECTION "GyaradosRedPokedexEntry", ROMX
-GyaradosRedPokedexEntry::
-	db "Atrocious@"
-	db   "Due to how rapidly"
-	next "it was forced to"
-	next "undergo evolution,"
-	page "this Gyarados re-"
-	next "tained its red"
-	next "Magikarp scales.@"
 
 SECTION "MewtwoArmoredPokedexEntry", ROMX
 MewtwoArmoredPokedexEntry::

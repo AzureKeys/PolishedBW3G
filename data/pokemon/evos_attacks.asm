@@ -1759,30 +1759,9 @@ endc
 	learnset 50, MEGAHORN ; Guillotine → new move
 
 	evos_attacks Magikarp
-	evo_data EVOLVE_LEVEL, 20, GYARADOS, NO_FORM ; preserve pre-evo form
 	learnset 1, SPLASH
 	learnset 15, TACKLE
 	learnset 30, REVERSAL ; Flail → event move
-
-	evos_attacks Gyarados
-	learnset 1, WATERFALL ; HM move
-	learnset 1, BITE ; evolution move
-	learnset 1, THRASH
-	learnset 1, DRAGON_RAGE
-	learnset 1, WRAP ; Bind → similar move
-	learnset 21, LEER
-	learnset 24, GUST ; Twister → new move
-	learnset 27, DRAGON_RAGE ; Ice Fang → Dragon Rage
-	learnset 30, AQUA_TAIL
-	learnset 33, SCARY_FACE
-	learnset 36, DRAGONBREATH ; Dragon Rage → GSC TM move
-	learnset 39, CRUNCH
-	learnset 42, HYDRO_PUMP
-	learnset 45, DRAGON_DANCE
-	learnset 48, HURRICANE
-	learnset 51, RAIN_DANCE
-	learnset 54, HYPER_BEAM
-	learnset 57, OUTRAGE ; HGSS tutor move
 
 	evos_attacks Lapras
 	learnset 1, ANCIENTPOWER ; HGSS tutor move

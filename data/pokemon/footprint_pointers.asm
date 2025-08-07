@@ -76,7 +76,6 @@ FootprintPointers::
 	dw MagmarFootprint
 	dw PinsirFootprint
 	dw MagikarpFootprint
-	dw GyaradosFootprint
 	dw LaprasFootprint
 	dw DittoFootprint
 	dw EeveeFootprint
@@ -254,9 +253,9 @@ FootprintPointers::
 	dw MinccinoFootprint
 	dw CinccinoFootprint
 	dw GothitaFootprint
+	dw GothoritaFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
-	dw GothoritaFootprint
 	dw GothitelleFootprint
 	dw SolosisFootprint
 	dw DuosionFootprint
@@ -332,8 +331,6 @@ FootprintPointers::
 	dw MeloettaFootprint
 	dw GenesectFootprint
 	assert_table_length NUM_SPECIES
-
-	dw GyaradosFootprint
 
 	dw MewtwoFootprint
 

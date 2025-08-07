@@ -340,9 +340,6 @@ MagikarpRaindropBitmasks:  INCLUDE "gfx/pokemon/magikarp_raindrop/bitmask.asm"
 DudunsparceTwoSegmentBitmasks:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/bitmask.asm"
 DudunsparceThreeSegmentBitmasks: INCLUDE "gfx/pokemon/dudunsparce_three_segment/bitmask.asm"
 
-GyaradosPlainBitmasks: INCLUDE "gfx/pokemon/gyarados_plain/bitmask.asm"
-GyaradosRedBitmasks:   INCLUDE "gfx/pokemon/gyarados_red/bitmask.asm"
-
 MewtwoPlainBitmasks:   INCLUDE "gfx/pokemon/mewtwo_plain/bitmask.asm"
 MewtwoArmoredBitmasks: INCLUDE "gfx/pokemon/mewtwo_armored/bitmask.asm"
 

@@ -340,9 +340,6 @@ MagikarpRaindropAnimation: INCLUDE "gfx/pokemon/magikarp/anim.asm"
 DudunsparceTwoSegmentAnimation:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim.asm"
 DudunsparceThreeSegmentAnimation: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim.asm"
 
-GyaradosPlainAnimation: INCLUDE "gfx/pokemon/gyarados_plain/anim.asm"
-GyaradosRedAnimation:   INCLUDE "gfx/pokemon/gyarados_red/anim.asm"
-
 MewtwoPlainAnimation:   INCLUDE "gfx/pokemon/mewtwo_plain/anim.asm"
 MewtwoArmoredAnimation: INCLUDE "gfx/pokemon/mewtwo_armored/anim.asm"
 

@@ -111,7 +111,6 @@ AlphabeticalPokedexOrder:
 	dp GRIMER
 	dp GROWLITHE
 	dp GURDURR
-	dp GYARADOS
 	dp HAUNTER
 	dp HAXORUS
 	dp HEATMOR

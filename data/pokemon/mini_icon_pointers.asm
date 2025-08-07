@@ -80,7 +80,6 @@ MiniIconPointers:
 	mini_icon Magmar
 	mini_icon Pinsir
 	mini_icon Magikarp
-	mini_icon Gyarados
 	mini_icon Lapras
 	mini_icon Ditto
 	mini_icon Eevee
@@ -258,9 +257,9 @@ MiniIconPointers:
 	mini_icon Minccino
 	mini_icon Cinccino
 	mini_icon Gothita
+	mini_icon Gothorita
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Gothorita
 	mini_icon Gothitelle
 	mini_icon Solosis
 	mini_icon Duosion
@@ -378,8 +377,6 @@ rept NUM_MAGIKARP - 1
 endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	mini_icon Gyarados ; Red
 
 	mini_icon MewtwoArmored
 

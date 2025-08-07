@@ -389,7 +389,7 @@ ClairGroup:
 
 	def_trainer_class CLAIR
 	def_trainer 1, "Clair"
-	tr_mon 43, GYARADOS, FEMALE
+	tr_mon 43, RATTATA, FEMALE
 		tr_evs 4 Atk, 252 Spe
 		tr_moves CRUNCH, THRASH, DRAGON_PULSE, AQUA_TAIL
 	tr_mon 45, YANMEGA, FEMALE
@@ -418,7 +418,7 @@ endc
 	end_trainer
 
 	def_trainer 2, "Clair"
-	tr_mon 72, GYARADOS @ BRIGHTPOWDER, FEMALE
+	tr_mon 72, RATTATA @ BRIGHTPOWDER, FEMALE
 		tr_moves DRAGON_DANCE, WATERFALL, FLY, EARTHQUAKE
 	tr_mon 74, EXEGGUTOR @ LUM_BERRY, FEMALE | ALOLAN_FORM
 		tr_extra HARVEST
@@ -609,8 +609,8 @@ ChampionGroup:
 
 	def_trainer_class CHAMPION
 	def_trainer LANCE, "Lance"
-	tr_mon 57, GYARADOS @ MUSCLE_BAND, MALE
-		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
 		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	tr_mon 58, DRAGONITE @ WIDE_LENS, MALE
@@ -640,7 +640,7 @@ endc
 	end_trainer
 
 	def_trainer LANCE2, "Lance"
-	tr_mon 75, GYARADOS @ LIFE_ORB, MALE
+	tr_mon 75, RATTATA @ LIFE_ORB, MALE
 		tr_extra SPE_UP_SATK_DOWN
 		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	tr_mon 77, EXEGGUTOR @ LUM_BERRY, MALE | ALOLAN_FORM
@@ -1023,8 +1023,8 @@ RedGroup:
 	tr_mon 87, RATTATA @ WISE_GLASSES, MALE
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_moves SURF, ANCIENTPOWER, EARTH_POWER, ICE_BEAM
-	tr_mon 87, GYARADOS @ QUICK_CLAW, MALE
-		tr_extra MOXIE, ATK_UP_SATK_DOWN, SHINY
+	tr_mon 87, RATTATA @ QUICK_CLAW, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN, SHINY
 		tr_moves DRAGON_DANCE, WATERFALL, EARTHQUAKE, CRUNCH
 	tr_mon 88, CHARIZARD @ MUSCLE_BAND, MALE
 if DEF(FAITHFUL)
@@ -2281,11 +2281,11 @@ FisherGroup:
 	def_trainer MARVIN, "Marvin"
 	tr_mon 20, MAGIKARP, MALE | MAGIKARP_CALICO1_FORM
 	tr_mon 25, MAGIKARP, MALE | MAGIKARP_CALICO2_FORM
-	tr_mon 30, GYARADOS, MALE
+	tr_mon 30, RATTATA, MALE
 	end_trainer
 
 	def_trainer ANDRE, "Andre"
-	tr_mon 32, GYARADOS
+	tr_mon 32, RATTATA
 	end_trainer
 
 
@@ -2327,9 +2327,9 @@ FisherGroup:
 	end_trainer
 
 	def_trainer BARNEY, "Barney"
-	tr_mon 57, GYARADOS
-	tr_mon 56, GYARADOS
-	tr_mon 56, GYARADOS
+	tr_mon 57, RATTATA
+	tr_mon 56, RATTATA
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer SCOTT, "Scott"
@@ -2395,7 +2395,7 @@ FisherGroup:
 	def_trainer DALLAS, "Dallas"
 	tr_mon 61, RATTATA
 	tr_mon 63, LANTURN
-	tr_mon 65, GYARADOS
+	tr_mon 65, RATTATA
 	end_trainer
 
 
@@ -4840,8 +4840,8 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer KIRK, "Kirk"
-	tr_mon 20, GYARADOS
-	tr_mon 20, GYARADOS
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
 	end_trainer
 
 	def_trainer MATHEW, "Mathew"
@@ -5016,7 +5016,7 @@ SwimmerFGroup:
 	end_trainer
 
 	def_trainer MARY, "Mary"
-	tr_mon 20, GYARADOS
+	tr_mon 20, RATTATA
 	end_trainer
 
 	def_trainer DAWN, "Debbie" ; MISMATCH
@@ -5136,7 +5136,7 @@ SwimmerFGroup:
 	def_trainer MARINA, "Marina"
 	tr_mon 63, GOLDUCK
 	tr_mon 63, LANTURN
-	tr_mon 63, GYARADOS
+	tr_mon 63, RATTATA
 	end_trainer
 
 
@@ -6215,7 +6215,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer FERGUS, "Fergus"
-	tr_mon 63, GYARADOS @ BRIGHTPOWDER
+	tr_mon 63, RATTATA @ BRIGHTPOWDER
 		tr_evs 132 SAt, 252 Spe
 	tr_mon 62, GOLDUCK @ TWISTEDSPOON
 		tr_evs 132 HP, 252 SAt
@@ -6876,7 +6876,7 @@ ProfIvyGroup:
 	tr_mon 64, RATTATA
 	tr_mon 63, RATTATA
 	tr_mon 63, NIDOQUEEN
-	tr_mon 66, GYARADOS
+	tr_mon 66, RATTATA
 	end_trainer
 
 
@@ -6923,7 +6923,7 @@ TowerTycoonGroup:
 	end_trainer
 
 	def_trainer 2, "Palmer"
-	tr_mon 74, GYARADOS @ MUSCLE_BAND
+	tr_mon 74, RATTATA @ MUSCLE_BAND
 		tr_moves DRAGON_DANCE, WATERFALL, CRUNCH, OUTRAGE
 	tr_mon 74, RATTATA @ KINGS_ROCK
 		tr_moves EARTHQUAKE, ROCK_SLIDE, MEGAHORN, AVALANCHE

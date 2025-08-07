@@ -203,7 +203,6 @@ NewPokedexOrder:
 	dp POLIWRATH
 	dp POLITOED
 	dp MAGIKARP
-	dp GYARADOS
 	dp SLOWPOKE
 	dp SLOWBRO
 	dp SLOWKING

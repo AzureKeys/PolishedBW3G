@@ -76,7 +76,6 @@ BitmasksPointers:
 	dw MagmarBitmasks
 	dw PinsirBitmasks
 	dw MagikarpPlainBitmasks
-	dw GyaradosPlainBitmasks
 	dw LaprasBitmasks
 	dw DittoBitmasks
 	dw EeveeBitmasks
@@ -254,9 +253,9 @@ BitmasksPointers:
 	dw MinccinoBitmasks
 	dw CinccinoBitmasks
 	dw GothitaBitmasks
+	dw GothoritaBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
-	dw GothoritaBitmasks
 	dw GothitelleBitmasks
 	dw SolosisBitmasks
 	dw DuosionBitmasks
@@ -390,8 +389,6 @@ BitmasksPointers:
 	dw MagikarpRaindropBitmasks
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw GyaradosRedBitmasks
 
 	dw MewtwoArmoredBitmasks
 

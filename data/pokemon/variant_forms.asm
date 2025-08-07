@@ -60,7 +60,6 @@ CosmeticSpeciesAndFormTable:
 
 VariantSpeciesAndFormTable:
 	table_width 2
-	dp GYARADOS,   GYARADOS_RED_FORM
 	dp MEWTWO,     MEWTWO_ARMORED_FORM
 	dp DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
 	dp RATTATA,    ALOLAN_FORM

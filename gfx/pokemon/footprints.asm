@@ -184,7 +184,6 @@ ExeggcuteFootprint::
 GastlyFootprint::
 GeodudeFootprint::
 GrimerFootprint::
-GyaradosFootprint::
 HaunterFootprint::
 HorseaFootprint::
 KingdraFootprint::
