@@ -95,9 +95,6 @@ AnimationExtraPointers:
 	dw CyndaquilAnimationExtra
 	dw QuilavaAnimationExtra
 	dw TyphlosionPlainAnimationExtra
-	dw TotodileAnimationExtra
-	dw CroconawAnimationExtra
-	dw FeraligatrAnimationExtra
 	dw CrobatAnimationExtra
 	dw ChinchouAnimationExtra
 	dw LanturnAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw CofagrigusAnimationExtra
 	dw TirtougaAnimationExtra
 	dw CarracostaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw GarbodorAnimationExtra
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra

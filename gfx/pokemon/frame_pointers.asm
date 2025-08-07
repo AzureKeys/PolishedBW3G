@@ -95,9 +95,6 @@ FramesPointers:
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionPlainFrames
-	dw TotodileFrames
-	dw CroconawFrames
-	dw FeraligatrFrames
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw CofagrigusFrames
 	dw TirtougaFrames
 	dw CarracostaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ArchenFrames
 	dw ArcheopsFrames
 	dw TrubbishFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw GarbodorFrames
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames

@@ -99,9 +99,6 @@ EvosAttacksPointers::
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionPlainEvosAttacks
-	dw TotodileEvosAttacks
-	dw CroconawEvosAttacks
-	dw FeraligatrEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw CofagrigusEvosAttacks
 	dw TirtougaEvosAttacks
 	dw CarracostaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ArchenEvosAttacks
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw GarbodorEvosAttacks
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks

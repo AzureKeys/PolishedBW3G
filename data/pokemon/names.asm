@@ -96,9 +96,6 @@ PokemonNames::
 	rawchar "Cyndaquil@"
 	rawchar "Quilava@@@"
 	rawchar "Typhlosion"
-	rawchar "Totodile@@"
-	rawchar "Croconaw@@"
-	rawchar "Feraligatr"
 	rawchar "Crobat@@@@"
 	rawchar "Chinchou@@"
 	rawchar "Lanturn@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Cofagrigus"
 	rawchar "Tirtouga@@"
 	rawchar "Carracosta"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"
 	rawchar "Trubbish@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Garbodor@@"
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"

@@ -102,9 +102,6 @@ PokemonBodyData:
 	body_data   5,   79, BIPEDAL,      YELLOW ; CYNDAQUIL
 	body_data   9,  190, QUADRUPED,    YELLOW ; QUILAVA
 	body_data  17,  795, QUADRUPED,    YELLOW ; TYPHLOSION
-	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; TOTODILE
-	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; CROCONAW
-	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; FERALIGATR
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
 	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
 	body_data  12,  225, FINS,         BLUE   ; LANTURN
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK

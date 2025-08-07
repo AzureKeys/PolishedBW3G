@@ -99,9 +99,6 @@ PokemonPicPointers::
 	pics Cyndaquil
 	pics Quilava
 	pics TyphlosionPlain
-	pics Totodile
-	pics Croconaw
-	pics Feraligatr
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Cofagrigus
 	pics Tirtouga
 	pics Carracosta
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Archen
 	pics Archeops
 	pics Trubbish
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Garbodor
 	pics ZoruaPlain
 	pics ZoroarkPlain

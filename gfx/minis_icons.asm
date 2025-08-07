@@ -482,21 +482,6 @@ TyphlosionMini::     INCBIN "gfx/minis/typhlosion.2bpp.lz"
 TyphlosionMiniMask:: INCBIN "gfx/minis/typhlosion_mask.1bpp.lz"
 TyphlosionIcon::     INCBIN "gfx/icons/typhlosion.2bpp.lz"
 
-SECTION "Totodile Mini Icon", ROMX
-TotodileMini::     INCBIN "gfx/minis/totodile.2bpp.lz"
-TotodileMiniMask:: INCBIN "gfx/minis/totodile_mask.1bpp.lz"
-TotodileIcon::     INCBIN "gfx/icons/totodile.2bpp.lz"
-
-SECTION "Croconaw Mini Icon", ROMX
-CroconawMini::     INCBIN "gfx/minis/croconaw.2bpp.lz"
-CroconawMiniMask:: INCBIN "gfx/minis/croconaw_mask.1bpp.lz"
-CroconawIcon::     INCBIN "gfx/icons/croconaw.2bpp.lz"
-
-SECTION "Feraligatr Mini Icon", ROMX
-FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lz"
-FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lz"
-FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lz"
-
 SECTION "Crobat Mini Icon", ROMX
 CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lz"
 CrobatMiniMask:: INCBIN "gfx/minis/crobat_mask.1bpp.lz"

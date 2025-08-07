@@ -95,9 +95,6 @@ EvolutionMoves::
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA
 	db FIRE_PUNCH   ; TYPHLOSION
-	db NO_MOVE      ; TOTODILE
-	db NO_MOVE      ; CROCONAW
-	db NIGHT_SLASH  ; FERALIGATR
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
@@ -258,11 +255,11 @@ endc
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
 	db NO_MOVE      ; CARRACOSTA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK

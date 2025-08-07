@@ -99,9 +99,6 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; CYNDAQUIL
 	iconpal RED, PINK ; QUILAVA
 	iconpal RED, PINK ; TYPHLOSION
-	iconpal AZURE, TEAL ; TOTODILE
-	iconpal AZURE, TEAL ; CROCONAW
-	iconpal AZURE, TEAL ; FERALIGATR
 	iconpal PURPLE, RED ; CROBAT
 	iconpal BLUE, TEAL ; CHINCHOU
 	iconpal BLUE, TEAL ; LANTURN
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
 	iconpal BLUE, AZURE ; CARRACOSTA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, TEAL ; GARBODOR
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK

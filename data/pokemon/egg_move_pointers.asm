@@ -95,9 +95,6 @@ EggSpeciesMovesPointers::
 	dw CyndaquilEggSpeciesMoves         ; Cyndaquil
 	dw CyndaquilEggSpeciesMoves         ; Quilava
 	dw CyndaquilEggSpeciesMoves         ; Typhlosion
-	dw TotodileEggSpeciesMoves          ; Totodile
-	dw TotodileEggSpeciesMoves          ; Croconaw
-	dw TotodileEggSpeciesMoves          ; Feraligatr
 	dw ZubatEggSpeciesMoves             ; Crobat
 	dw ChinchouEggSpeciesMoves          ; Chinchou
 	dw ChinchouEggSpeciesMoves          ; Lanturn
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
 	dw TirtougaEggSpeciesMoves          ; Carracosta
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark

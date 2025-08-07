@@ -461,19 +461,6 @@ CyndaquilEggSpeciesMoves:
 	db QUICK_ATTACK
 	db $ff
 
-TotodileEggSpeciesMoves:
-	dp TOTODILE, PLAIN_FORM
-	db DRAGON_DANCE
-	db METAL_CLAW
-	db CRUNCH
-	db THRASH
-	db HYDRO_PUMP
-	db ANCIENTPOWER
-	db ROCK_SLIDE
-	db WATER_PULSE
-	db AQUA_JET
-	db $ff
-
 ChinchouEggSpeciesMoves:
 	dp CHINCHOU, PLAIN_FORM
 	db AGILITY

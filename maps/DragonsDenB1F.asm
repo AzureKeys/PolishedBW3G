@@ -147,7 +147,7 @@ DragonsDenB1FRivalScript:
 	iftruefwd .GiveChikoritaEgg
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftruefwd .GiveCyndaquilEgg
-	giveegg TOTODILE
+	giveegg OSHAWOTT
 	sjumpfwd .GotRivalsEgg
 
 .GiveChikoritaEgg:

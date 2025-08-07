@@ -119,9 +119,6 @@
 	const CYNDAQUIL  ; xx
 	const QUILAVA    ; xx
 	const TYPHLOSION ; xx
-	const TOTODILE   ; xx
-	const CROCONAW   ; xx
-	const FERALIGATR ; xx
 	const CROBAT     ; 4d
 	const CHINCHOU   ; 4e
 	const LANTURN    ; 4f
@@ -278,11 +275,11 @@
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
 	const CARRACOSTA ; 13a
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140

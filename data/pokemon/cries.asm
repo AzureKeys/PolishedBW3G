@@ -101,9 +101,6 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; Cyndaquil
 	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; Quilava
 	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; Typhlosion
-	mon_cry CRY_TOTODILE,    $46c,  $0e8 ; Totodile
-	mon_cry CRY_TOTODILE,    $440,  $110 ; Croconaw
-	mon_cry CRY_TOTODILE,    $3fc,  $180 ; Feraligatr
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; Crobat
 	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Chinchou
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_YAMASK,     -$320,  $15a ; Cofagrigus
 	mon_cry CRY_TIRTOUGA,    $056,  $0c4 ; Tirtouga
 	mon_cry CRY_WHIMSICOTT, -$1f9,  $130 ; Carracosta
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_WHIMSICOTT,  $05b,  $0b7 ; Archeops
 	mon_cry CRY_TRUBBISH,   -$016,  $150 ; Trubbish
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
 	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark

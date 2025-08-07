@@ -96,9 +96,6 @@ PokedexDataPointerTable:
 	dba CyndaquilPokedexEntry
 	dba QuilavaPokedexEntry
 	dba TyphlosionPlainPokedexEntry
-	dba TotodilePokedexEntry
-	dba CroconawPokedexEntry
-	dba FeraligatrPokedexEntry
 	dba CrobatPokedexEntry
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
 	dba CarracostaPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry

@@ -99,9 +99,6 @@ MiniIconPointers:
 	mini_icon Cyndaquil
 	mini_icon Quilava
 	mini_icon Typhlosion
-	mini_icon Totodile
-	mini_icon Croconaw
-	mini_icon Feraligatr
 	mini_icon Crobat
 	mini_icon Chinchou
 	mini_icon Lanturn
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
 	mini_icon Carracosta
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Archen
 	mini_icon Archeops
 	mini_icon Trubbish
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Garbodor
 	mini_icon Zorua
 	mini_icon Zoroark

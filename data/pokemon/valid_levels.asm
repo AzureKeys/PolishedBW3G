@@ -96,9 +96,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  13 ; Cyndaquil
 	db  14,  35 ; Quilava
 	db  36, 100 ; Typhlosion
-	db   1,  17 ; Totodile
-	db  18,  29 ; Croconaw
-	db  30, 100 ; Feraligatr
 	db  32, 100 ; Crobat
 	db   1,  26 ; Chinchou
 	db  27, 100 ; Lanturn
@@ -259,11 +256,11 @@ endc
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
 	db  37, 100 ; Carracosta
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  36 ; Archen
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  36, 100 ; Garbodor
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark

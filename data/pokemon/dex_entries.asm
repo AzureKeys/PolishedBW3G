@@ -956,36 +956,6 @@ TyphlosionPlainPokedexEntry::
 	next "sign that it is"
 	next "ready to battle.@"
 
-SECTION "TotodilePokedexEntry", ROMX
-TotodilePokedexEntry::
-	db "Big Jaw@"
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
-
-SECTION "CroconawPokedexEntry", ROMX
-CroconawPokedexEntry::
-	db "Big Jaw@"
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
-
-SECTION "FeraligatrPokedexEntry", ROMX
-FeraligatrPokedexEntry::
-	db "Big Jaw@"
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
-
 SECTION "CrobatPokedexEntry", ROMX
 CrobatPokedexEntry::
 	db "Bat@"

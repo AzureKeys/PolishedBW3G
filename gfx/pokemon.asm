@@ -304,18 +304,6 @@ SECTION "TyphlosionHisuian Pics", ROMX
 TyphlosionHisuianFrontpic: INCBIN "gfx/pokemon/typhlosion_hisuian/front.animated.2bpp.lz"
 TyphlosionHisuianBackpic:  INCBIN "gfx/pokemon/typhlosion_hisuian/back.2bpp.lz"
 
-SECTION "Totodile Pics", ROMX
-TotodileFrontpic: INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"
-TotodileBackpic:  INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
-
-SECTION "Croconaw Pics", ROMX
-CroconawFrontpic: INCBIN "gfx/pokemon/croconaw/front.animated.2bpp.lz"
-CroconawBackpic:  INCBIN "gfx/pokemon/croconaw/back.2bpp.lz"
-
-SECTION "Feraligatr Pics", ROMX
-FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
-FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
-
 SECTION "Crobat Pics", ROMX
 CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 CrobatBackpic:  INCBIN "gfx/pokemon/crobat/back.2bpp.lz"

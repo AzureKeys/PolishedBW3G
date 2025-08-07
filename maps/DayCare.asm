@@ -130,7 +130,7 @@ DayCareLadyScript:
 	sjumpfwd .GotLyrasEgg
 
 .GiveTotodileEgg:
-	giveegg TOTODILE
+	giveegg OSHAWOTT
 .GotLyrasEgg
 	iffalse_jumpopenedtext DayCareText_PartyAndBoxFull
 	writetext DayCareLadyText_DescribeLyrasEgg

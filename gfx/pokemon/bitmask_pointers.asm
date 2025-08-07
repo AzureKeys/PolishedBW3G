@@ -95,9 +95,6 @@ BitmasksPointers:
 	dw CyndaquilBitmasks
 	dw QuilavaBitmasks
 	dw TyphlosionPlainBitmasks
-	dw TotodileBitmasks
-	dw CroconawBitmasks
-	dw FeraligatrBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw CofagrigusBitmasks
 	dw TirtougaBitmasks
 	dw CarracostaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks
 	dw TrubbishBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw GarbodorBitmasks
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks

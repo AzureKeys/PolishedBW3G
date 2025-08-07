@@ -45,7 +45,6 @@ AlphabeticalPokedexOrder:
 	dp CORSOLA
 	dp COTTONEE
 	dp CROBAT
-	dp CROCONAW
 	dp CRUSTLE
 	dp CRYOGONAL
 	dp CUBCHOO
@@ -84,7 +83,6 @@ AlphabeticalPokedexOrder:
 	dp EXCADRILL
 	dp EXEGGCUTE
 	dp EXEGGUTOR
-	dp FERALIGATR
 	dp FERROSEED
 	dp FERROTHORN
 	dp FLAAFFY
@@ -302,7 +300,6 @@ AlphabeticalPokedexOrder:
 	dp TOGEPI
 	dp TOGETIC
 	dp TORNADUS
-	dp TOTODILE
 	dp TRANQUILL
 	dp TRUBBISH
 	dp TYMPOLE

@@ -2139,67 +2139,6 @@ endc
 	learnset 74, DARK_PULSE ; Infernal Parade → new move
 	learnset 81, FLARE_BLITZ ; Eruption → egg move
 
-	evos_attacks Totodile
-	evo_data EVOLVE_LEVEL, 18, CROCONAW
-	learnset 1, SCRATCH
-	learnset 1, LEER
-	learnset 6, WATER_GUN
-	learnset 8, RAGE
-	learnset 13, BITE
-	learnset 15, SCARY_FACE
-	learnset 20, METAL_CLAW ; Ice Fang → egg move
-	learnset 22, REVERSAL ; Flail → similar move
-	learnset 27, AGILITY ; Feraligatr move
-	learnset 29, CRUNCH
-	learnset 34, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 36, SLASH
-	learnset 41, SCREECH
-	learnset 43, THRASH
-	learnset 48, AQUA_TAIL
-	learnset 50, CLOSE_COMBAT ; Superpower → similar move
-	learnset 56, HYDRO_PUMP
-
-	evos_attacks Croconaw
-	evo_data EVOLVE_LEVEL, 30, FERALIGATR
-	learnset 1, SCRATCH
-	learnset 1, LEER
-	learnset 6, WATER_GUN
-	learnset 8, RAGE
-	learnset 13, BITE
-	learnset 15, SCARY_FACE
-	learnset 21, METAL_CLAW ; Ice Fang → egg move
-	learnset 24, REVERSAL ; Flail → similar move
-	learnset 30, AGILITY ; Feraligatr move
-	learnset 33, CRUNCH
-	learnset 39, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 42, SLASH
-	learnset 48, SCREECH
-	learnset 51, THRASH
-	learnset 57, AQUA_TAIL
-	learnset 60, CLOSE_COMBAT ; Superpower → similar move
-	learnset 66, HYDRO_PUMP
-
-	evos_attacks Feraligatr
-	learnset 1, NIGHT_SLASH ; evolution move
-	learnset 1, SCRATCH
-	learnset 1, LEER
-	learnset 6, WATER_GUN
-	learnset 8, RAGE
-	learnset 13, BITE
-	learnset 15, SCARY_FACE
-	learnset 21, METAL_CLAW ; Ice Fang → egg move
-	learnset 24, REVERSAL ; Flail → similar move
-	learnset 32, AGILITY
-	learnset 37, CRUNCH
-	learnset 45, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 50, SLASH
-	learnset 56, SCREECH
-	learnset 62, THRASH
-	learnset 68, OUTRAGE ; HGSS tutor move
-	learnset 73, AQUA_TAIL
-	learnset 78, CLOSE_COMBAT ; Superpower → similar move
-	learnset 84, HYDRO_PUMP
-
 	evos_attacks Crobat
 	learnset 1, X_SCISSOR ; evolution move
 	learnset 1, SCREECH

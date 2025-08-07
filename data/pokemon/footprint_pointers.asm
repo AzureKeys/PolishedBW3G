@@ -95,9 +95,6 @@ FootprintPointers::
 	dw CyndaquilFootprint
 	dw QuilavaFootprint
 	dw TyphlosionFootprint
-	dw TotodileFootprint
-	dw CroconawFootprint
-	dw FeraligatrFootprint
 	dw CrobatFootprint
 	dw ChinchouFootprint
 	dw LanturnFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
 	dw CarracostaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ArchenFootprint
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw GarbodorFootprint
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
