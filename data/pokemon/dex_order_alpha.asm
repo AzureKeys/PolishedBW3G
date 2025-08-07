@@ -25,6 +25,7 @@ AlphabeticalPokedexOrder:
 	dp BONSLY
 	dp BOUFFALANT
 	dp BRAVIARY
+	dp BRELOOM
 	dp BULBASAUR
 	dp CARRACOSTA
 	dp CELEBI
@@ -259,6 +260,7 @@ AlphabeticalPokedexOrder:
 	dp SERVINE
 	dp SEWADDLE
 	dp SHELMET
+	dp SHROOMISH
 	dp SHUCKLE
 	dp SIGILYPH
 	dp SIMIPOUR

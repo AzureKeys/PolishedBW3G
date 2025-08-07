@@ -777,6 +777,16 @@ GardevoirMini::     INCBIN "gfx/minis/gardevoir.2bpp.lz"
 GardevoirMiniMask:: INCBIN "gfx/minis/gardevoir_mask.1bpp.lz"
 GardevoirIcon::     INCBIN "gfx/icons/gardevoir.2bpp.lz"
 
+SECTION "Shroomish Mini Icon", ROMX
+ShroomishMini::     INCBIN "gfx/minis/shroomish.2bpp.lz"
+ShroomishMiniMask:: INCBIN "gfx/minis/shroomish_mask.1bpp.lz"
+ShroomishIcon::     INCBIN "gfx/icons/shroomish.2bpp.lz"
+
+SECTION "Breloom Mini Icon", ROMX
+BreloomMini::     INCBIN "gfx/minis/breloom.2bpp.lz"
+BreloomMiniMask:: INCBIN "gfx/minis/breloom_mask.1bpp.lz"
+BreloomIcon::     INCBIN "gfx/icons/breloom.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

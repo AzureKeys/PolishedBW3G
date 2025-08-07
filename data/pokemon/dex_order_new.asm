@@ -161,6 +161,8 @@ NewPokedexOrder:
 	dp RALTS
 	dp KIRLIA
 	dp GARDEVOIR
+	dp SHROOMISH
+	dp BRELOOM
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM

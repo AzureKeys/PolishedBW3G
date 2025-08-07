@@ -160,6 +160,8 @@ PokemonBodyData:
 	body_data   4,   66, BIPEDAL,      WHITE  ; RALTS
 	body_data   8,  202, BIPEDAL,      WHITE  ; KIRLIA
 	body_data  16,  484, BIPEDAL,      WHITE  ; GARDEVOIR
+	body_data   4,   45, HEAD_LEGS,    BROWN  ; SHROOMISH
+	body_data  12,  392, BIPEDAL_TAIL, GREEN  ; BRELOOM
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
-	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
-	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
+	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS
 	body_data   6,  310, BIPEDAL,      GREEN  ; TRUBBISH
 	body_data  19, 1073, BIPEDAL,      GREEN  ; GARBODOR
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA

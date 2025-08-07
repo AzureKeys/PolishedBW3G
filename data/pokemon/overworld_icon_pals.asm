@@ -157,6 +157,8 @@ OverworldMonIconColors::
 	iconpal GREEN, AZURE ; RALTS
 	iconpal GREEN, AZURE ; KIRLIA
 	iconpal GREEN, AZURE ; GARDEVOIR
+	iconpal GREEN, ORANGE ; SHROOMISH
+	iconpal GREEN, ORANGE ; BRELOOM
 	iconpal BLUE, GREEN ; AZURILL
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
 	iconpal BLUE, AZURE ; CARRACOSTA
-	iconpal BROWN, TEAL ; ARCHEN
-	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal BROWN, TEAL ; ARCHEN
+	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
 	iconpal GRAY, AZURE ; ZORUA

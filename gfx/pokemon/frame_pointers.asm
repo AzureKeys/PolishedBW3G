@@ -153,6 +153,8 @@ FramesPointers:
 	dw RaltsFrames
 	dw KirliaFrames
 	dw GardevoirFrames
+	dw ShroomishFrames
+	dw BreloomFrames
 	dw AzurillFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw CofagrigusFrames
 	dw TirtougaFrames
 	dw CarracostaFrames
-	dw ArchenFrames
-	dw ArcheopsFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ArchenFrames
+	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames
 	dw ZoruaPlainFrames

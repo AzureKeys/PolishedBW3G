@@ -747,6 +747,13 @@ RaltsEggSpeciesMoves:
 	;db SHADOW_SNEAK
 	db $ff
 
+ShroomishEggSpeciesMoves:
+	dp SHROOMISH, PLAIN_FORM
+	db CHARM
+	db DRAIN_PUNCH
+	db SEED_BOMB
+	db $ff
+
 AzurillEggSpeciesMoves:
 	dp AZURILL, PLAIN_FORM
 	db BELLY_DRUM

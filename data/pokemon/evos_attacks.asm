@@ -3276,6 +3276,41 @@ endc
 	learnset 53, DREAM_EATER
 	learnset 58, MOONBLAST ; Stored Power
 
+	evos_attacks Shroomish
+	evo_data EVOLVE_LEVEL, 23, BRELOOM
+	learnset 1, ABSORB
+	learnset 1, TACKLE
+	learnset 5, STUN_SPORE
+	learnset 8, LEECH_SEED
+	learnset 12, MEGA_DRAIN
+	learnset 15, HEADBUTT
+	learnset 19, POISONPOWDER
+	learnset 22, SLEEP_POWDER ; Worry Seed
+	learnset 26, GIGA_DRAIN
+	learnset 29, GROWTH
+	learnset 33, TOXIC
+	learnset 36, SEED_BOMB
+	learnset 40, SPORE
+
+	evos_attacks Breloom
+	learnset 1, MACH_PUNCH
+	learnset 1, ABSORB
+	learnset 1, TACKLE
+	learnset 1, STUN_SPORE
+	learnset 1, LEECH_SEED
+	learnset 5, STUN_SPORE
+	learnset 8, LEECH_SEED
+	learnset 12, MEGA_DRAIN
+	learnset 15, HEADBUTT
+	learnset 19, POISONPOWDER ; Feint
+	learnset 22, COUNTER
+	learnset 22, MACH_PUNCH
+	learnset 28, KARATE_CHOP ; Force Palm
+	;learnset 33, MIND_READER
+	learnset 39, DRAIN_PUNCH ; Sky Uppercut
+	learnset 44, SEED_BOMB
+	learnset 50, DYNAMICPUNCH
+
 	evos_attacks Azurill
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
 	learnset 1, SPLASH

@@ -177,6 +177,8 @@
 	const RALTS      ; 85
 	const KIRLIA     ; 86
 	const GARDEVOIR  ; 87
+	const SHROOMISH  ; 88
+	const BRELOOM    ; 89
 	const AZURILL    ; 8d
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
@@ -276,10 +278,10 @@
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
 	const CARRACOSTA ; 13a
-	const ARCHEN     ; 13b
-	const ARCHEOPS   ; 13c
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const ARCHEN     ; 13b
+	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
 	const ZORUA      ; 13f

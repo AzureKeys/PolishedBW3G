@@ -157,6 +157,8 @@ EvosAttacksPointers::
 	dw RaltsEvosAttacks
 	dw KirliaEvosAttacks
 	dw GardevoirEvosAttacks
+	dw ShroomishEvosAttacks
+	dw BreloomEvosAttacks
 	dw AzurillEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw CofagrigusEvosAttacks
 	dw TirtougaEvosAttacks
 	dw CarracostaEvosAttacks
-	dw ArchenEvosAttacks
-	dw ArcheopsEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw ArchenEvosAttacks
+	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
 	dw ZoruaPlainEvosAttacks

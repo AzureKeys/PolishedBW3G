@@ -157,6 +157,8 @@ PokemonPicPointers::
 	pics Ralts
 	pics Kirlia
 	pics Gardevoir
+	pics Shroomish
+	pics Breloom
 	pics Azurill
 	pics Mismagius
 	pics Honchkrow
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Cofagrigus
 	pics Tirtouga
 	pics Carracosta
-	pics Archen
-	pics Archeops
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Archen
+	pics Archeops
 	pics Trubbish
 	pics Garbodor
 	pics ZoruaPlain

@@ -153,6 +153,8 @@ FootprintPointers::
 	dw RaltsFootprint
 	dw KirliaFootprint
 	dw GardevoirFootprint
+	dw ShroomishFootprint
+	dw BreloomFootprint
 	dw AzurillFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
 	dw CarracostaFootprint
-	dw ArchenFootprint
-	dw ArcheopsFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw ArchenFootprint
+	dw ArcheopsFootprint
 	dw TrubbishFootprint
 	dw GarbodorFootprint
 	dw ZoruaFootprint

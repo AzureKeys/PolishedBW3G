@@ -540,6 +540,14 @@ SECTION "Gardevoir Pics", ROMX
 GardevoirFrontpic: INCBIN "gfx/pokemon/gardevoir/front.animated.2bpp.lz"
 GardevoirBackpic:  INCBIN "gfx/pokemon/gardevoir/back.2bpp.lz"
 
+SECTION "Shroomish Pics", ROMX
+ShroomishFrontpic: INCBIN "gfx/pokemon/shroomish/front.animated.2bpp.lz"
+ShroomishBackpic:  INCBIN "gfx/pokemon/shroomish/back.2bpp.lz"
+
+SECTION "Breloom Pics", ROMX
+BreloomFrontpic: INCBIN "gfx/pokemon/breloom/front.animated.2bpp.lz"
+BreloomBackpic:  INCBIN "gfx/pokemon/breloom/back.2bpp.lz"
+
 SECTION "Azurill Pics", ROMX
 AzurillFrontpic: INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
 AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"

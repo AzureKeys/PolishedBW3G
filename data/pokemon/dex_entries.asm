@@ -1536,6 +1536,26 @@ GardevoirPokedexEntry::
 	next "unleash its full"
 	next "power.@"
 
+SECTION "ShroomishPokedexEntry", ROMX
+ShroomishPokedexEntry::
+	db "Mushroom@"
+	db "Shroomish live in"
+	next "damp soil in the"
+	next "depths of forests."
+	page "They feed on"
+	next "compost made of"
+	next "fallen leaves.@"
+
+SECTION "BreloomPokedexEntry", ROMX
+BreloomPokedexEntry::
+	db "Mushroom@"
+	db "It closes in on"
+	next "foes and throws"
+	next "punches with its"
+	page "stretchy arms. Its"
+	next "technique puts"
+	next "boxers to shame.@"
+
 SECTION "AzurillPokedexEntry", ROMX
 AzurillPokedexEntry::
 	db "Polka Dot@"

@@ -157,6 +157,8 @@ endc
 	db NO_MOVE      ; RALTS
 	db NO_MOVE      ; KIRLIA
 	db NO_MOVE      ; GARDEVOIR
+	db NO_MOVE      ; SHROOMISH
+	db MACH_PUNCH   ; BRELOOM
 	db NO_MOVE      ; AZURILL
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
@@ -256,10 +258,10 @@ endc
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
 	db NO_MOVE      ; CARRACOSTA
-	db NO_MOVE      ; ARCHEN
-	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; ARCHEN
+	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
 	db NO_MOVE      ; ZORUA

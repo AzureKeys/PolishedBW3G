@@ -153,6 +153,8 @@ AnimationPointers:
 	dw RaltsAnimation
 	dw KirliaAnimation
 	dw GardevoirAnimation
+	dw ShroomishAnimation
+	dw BreloomAnimation
 	dw AzurillAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw CofagrigusAnimation
 	dw TirtougaAnimation
 	dw CarracostaAnimation
-	dw ArchenAnimation
-	dw ArcheopsAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ArchenAnimation
+	dw ArcheopsAnimation
 	dw TrubbishAnimation
 	dw GarbodorAnimation
 	dw ZoruaPlainAnimation

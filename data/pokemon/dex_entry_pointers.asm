@@ -154,6 +154,8 @@ PokedexDataPointerTable:
 	dba RaltsPokedexEntry
 	dba KirliaPokedexEntry
 	dba GardevoirPokedexEntry
+	dba ShroomishPokedexEntry
+	dba BreloomPokedexEntry
 	dba AzurillPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
 	dba CarracostaPokedexEntry
-	dba ArchenPokedexEntry
-	dba ArcheopsPokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
+	dba ArchenPokedexEntry
+	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
 	dba ZoruaPlainPokedexEntry

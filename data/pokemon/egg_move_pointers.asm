@@ -153,6 +153,8 @@ EggSpeciesMovesPointers::
 	dw RaltsEggSpeciesMoves             ; Ralts
 	dw RaltsEggSpeciesMoves             ; Kirlia
 	dw RaltsEggSpeciesMoves             ; Gardevoir
+	dw ShroomishEggSpeciesMoves         ; Shroomish
+	dw ShroomishEggSpeciesMoves         ; Breloom
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
 	dw TirtougaEggSpeciesMoves          ; Carracosta
-	dw ArchenEggSpeciesMoves            ; Archen
-	dw ArchenEggSpeciesMoves            ; Archeops
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw ArchenEggSpeciesMoves            ; Archen
+	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua

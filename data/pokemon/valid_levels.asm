@@ -158,6 +158,8 @@ endc
 	db   1,  19 ; Ralts
 	db  20,  29 ; Kirlia
 	db  30, 100 ; Gardevoir
+	db   1,  22 ; Shroomish
+	db  23, 100 ; Breloom
 	db   1,  19 ; Azurill
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
@@ -257,10 +259,10 @@ endc
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
 	db  37, 100 ; Carracosta
-	db   1,  36 ; Archen
-	db  37, 100 ; Archeops
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  36 ; Archen
+	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
 	db   1,  29 ; Zorua

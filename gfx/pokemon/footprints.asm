@@ -170,6 +170,8 @@ GenesectFootprint::
 RaltsFootprint::
 KirliaFootprint::
 GardevoirFootprint::
+ShroomishFootprint::
+BreloomFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::
