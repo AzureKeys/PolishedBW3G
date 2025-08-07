@@ -79,7 +79,6 @@ MiniIconPointers:
 	mini_icon Electabuzz
 	mini_icon Magmar
 	mini_icon Pinsir
-	mini_icon Magikarp
 	mini_icon Lapras
 	mini_icon Ditto
 	mini_icon Eevee
@@ -258,9 +257,9 @@ MiniIconPointers:
 	mini_icon Cinccino
 	mini_icon Gothita
 	mini_icon Gothorita
+	mini_icon Gothitelle
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Gothitelle
 	mini_icon Solosis
 	mini_icon Duosion
 	mini_icon Reuniclus
@@ -371,10 +370,6 @@ MiniIconPointers:
 	mini_icon Pikachu ; Spark
 
 	mini_icon Pichu ; Spiky
-
-rept NUM_MAGIKARP - 1
-	mini_icon Magikarp
-endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

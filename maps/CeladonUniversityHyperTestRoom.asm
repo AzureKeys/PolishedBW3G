@@ -133,7 +133,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .CongratulationsText
 	waitbutton
 
-	givepoke MAGIKARP, MAGIKARP_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, DRAGON_RAGE
+	givepoke RATTATA, ALOLAN_FORM, 10, EVIOLITE, ULTRA_BALL, DRAGON_RAGE
 	iffalse_jumpopenedtext .PartyAndBoxFullText
 	setevent EVENT_GOT_DRAGON_RAGE_MAGIKARP
 	jumpopenedtext .TestOverText
@@ -409,8 +409,8 @@ CeladonUniversityHyperTestRoomTwin2Text:
 
 CeladonUniversityHyperTestRoomMagikarpSign:
 	reanchormap
-	pokepic MAGIKARP, MAGIKARP_MASK1_FORM
-	cry MAGIKARP
+	pokepic RATTATA, ALOLAN_FORM
+	cry RATTATA
 	waitbutton
 	closepokepic
 	jumpthistext

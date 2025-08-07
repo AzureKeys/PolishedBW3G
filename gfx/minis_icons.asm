@@ -382,11 +382,6 @@ PinsirMini::     INCBIN "gfx/minis/pinsir.2bpp.lz"
 PinsirMiniMask:: INCBIN "gfx/minis/pinsir_mask.1bpp.lz"
 PinsirIcon::     INCBIN "gfx/icons/pinsir.2bpp.lz"
 
-SECTION "Magikarp Mini Icon", ROMX
-MagikarpMini::     INCBIN "gfx/minis/magikarp.2bpp.lz"
-MagikarpMiniMask:: INCBIN "gfx/minis/magikarp_mask.1bpp.lz"
-MagikarpIcon::     INCBIN "gfx/icons/magikarp.2bpp.lz"
-
 SECTION "Lapras Mini Icon", ROMX
 LaprasMini::     INCBIN "gfx/minis/lapras.2bpp.lz"
 LaprasMiniMask:: INCBIN "gfx/minis/lapras_mask.1bpp.lz"

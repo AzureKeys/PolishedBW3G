@@ -82,7 +82,6 @@ PokemonBodyData:
 	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; ELECTABUZZ
 	body_data  13,  445, BIPEDAL_TAIL, RED    ; MAGMAR
 	body_data  15,  550, BIPEDAL,      BROWN  ; PINSIR
-	body_data   9,  100, FINS,         RED    ; MAGIKARP
 	body_data  25, 2200, FINS,         BLUE   ; LAPRAS
 	body_data   3,   40, HEAD,         PURPLE ; DITTO
 	body_data   3,   65, QUADRUPED,    BROWN  ; EEVEE
@@ -261,9 +260,9 @@ PokemonBodyData:
 	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
+	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
-	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
 	body_data   6,   80, HEAD,         GREEN  ; DUOSION
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS

@@ -76,7 +76,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20,  46 ; Electabuzz
 	db  20,  46 ; Magmar
 	db  10, 100 ; Pinsir
-	db   1,  19 ; Magikarp
 	db  20, 100 ; Lapras
 	db   1, 100 ; Ditto
 	db   1,  19 ; Eevee
@@ -259,9 +258,9 @@ endc
 	db  30, 100 ; Cinccino
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
+	db  41, 100 ; Gothitelle
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
-	db  41, 100 ; Gothitelle
 	db   1,  31 ; Solosis
 	db  32,  40 ; Duosion
 	db  41, 100 ; Reuniclus

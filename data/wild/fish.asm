@@ -37,11 +37,11 @@ MACRO fishentry
 ENDM
 
 .Shore_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,     10
 .Shore_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,     20
 	fishentry  90 percent + 1, RATTATA,     20
 	fishentry 100 percent,     0,          20 ; corsola morn/day, staryu eve/night
@@ -52,11 +52,11 @@ ENDM
 	fishentry 100 percent,     RATTATA,    40
 
 .Ocean_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,  10
 .Ocean_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,  20
 	fishentry  90 percent + 1, CHINCHOU,   20
 	fishentry 100 percent,     RATTATA,   20
@@ -69,13 +69,13 @@ ENDM
 .Lake_Old:
 .River_Old:
 .Well_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,    20
 	fishentry  90 percent + 1, RATTATA,    20
 	fishentry 100 percent,     RATTATA,    20
@@ -83,7 +83,7 @@ ENDM
 .River_Super:
 	fishentry  40 percent,     RATTATA,    40
 	fishentry  70 percent,     RATTATA,    40
-	fishentry  90 percent + 1, MAGIKARP,   40
+	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     RATTATA,    40
 
 .Well_Super:
@@ -93,41 +93,41 @@ ENDM
 	fishentry 100 percent,     RATTATA,    40
 
 .Pond_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     POLIWAG,    10
 .Pond_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     POLIWAG,    20
 	fishentry  90 percent + 1, POLIWAG,    20
 	fishentry 100 percent,     POLIWAG,    20
 .Pond_Super:
 	fishentry  40 percent,     POLIWAG,    40
 	fishentry  70 percent,     POLIWAG,    40
-	fishentry  90 percent + 1, MAGIKARP,   40
+	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     POLIWAG,    40
 
 .Dratini_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
+	fishentry 100 percent,     RATTATA,   10
 .Dratini_Good:
-	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     MAGIKARP,   20
-	fishentry  90 percent + 1, MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
+	fishentry  70 percent,     RATTATA,   20
+	fishentry  90 percent + 1, RATTATA,   20
 	fishentry 100 percent,     DRATINI,    20
 .Dratini_Super:
-	fishentry  40 percent,     MAGIKARP,   40
+	fishentry  40 percent,     RATTATA,   40
 	fishentry  70 percent,     DRATINI,    40
-	fishentry  90 percent + 1, MAGIKARP,   40
+	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     DRAGONAIR,  40
 
 .Qwilfish_Swarm_Old:
-	fishentry  70 percent + 1, MAGIKARP,   5
-	fishentry  85 percent + 1, MAGIKARP,   5
+	fishentry  70 percent + 1, RATTATA,   5
+	fishentry  85 percent + 1, RATTATA,   5
 	fishentry 100 percent,     RATTATA,   5
 .Qwilfish_Swarm_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,   20
 	fishentry  90 percent + 1, RATTATA,   20
 	fishentry 100 percent,     RATTATA,   20
@@ -138,11 +138,11 @@ ENDM
 	fishentry 100 percent,     RATTATA,   40
 
 .Remoraid_Swarm_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     REMORAID,   10
 .Remoraid_Swarm_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     REMORAID,   20
 	fishentry  90 percent + 1, REMORAID,   20
 	fishentry 100 percent,     REMORAID,   20
@@ -153,41 +153,41 @@ ENDM
 	fishentry 100 percent,     REMORAID,   40
 
 .Gyarados_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
+	fishentry 100 percent,     RATTATA,   10
 .Gyarados_Good:
-	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     MAGIKARP,   20
-	fishentry  90 percent + 1, MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
+	fishentry  70 percent,     RATTATA,   20
+	fishentry  90 percent + 1, RATTATA,   20
 	fishentry 100 percent,     RATTATA,   20
 .Gyarados_Super:
-	fishentry  40 percent,     MAGIKARP,   40
+	fishentry  40 percent,     RATTATA,   40
 	fishentry  70 percent,     RATTATA,   40
-	fishentry  90 percent + 1, MAGIKARP,   40
-	fishentry 100 percent,     MAGIKARP,   40
+	fishentry  90 percent + 1, RATTATA,   40
+	fishentry 100 percent,     RATTATA,   40
 
 .Dratini_2_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
+	fishentry 100 percent,     RATTATA,   10
 .Dratini_2_Good:
-	fishentry  35 percent,     MAGIKARP,   10
-	fishentry  70 percent,     MAGIKARP,   10
-	fishentry  90 percent + 1, MAGIKARP,   10
+	fishentry  35 percent,     RATTATA,   10
+	fishentry  70 percent,     RATTATA,   10
+	fishentry  90 percent + 1, RATTATA,   10
 	fishentry 100 percent,     DRATINI,    10
 .Dratini_2_Super:
-	fishentry  40 percent,     MAGIKARP,   10
+	fishentry  40 percent,     RATTATA,   10
 	fishentry  70 percent,     DRATINI,    10
-	fishentry  90 percent + 1, MAGIKARP,   10
+	fishentry  90 percent + 1, RATTATA,   10
 	fishentry 100 percent,     DRAGONAIR,  10
 
 .WhirlIslands_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,     10
 .WhirlIslands_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,     20
 	fishentry  90 percent + 1, RATTATA,     20
 	fishentry 100 percent,     HORSEA,     20
@@ -198,41 +198,41 @@ ENDM
 	fishentry 100 percent,     SEADRA,     40
 
 .Qwilfish_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,  10
 .Qwilfish_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,  20
 	fishentry  90 percent + 1, RATTATA,  20
 	fishentry 100 percent,     RATTATA,  20
 .Qwilfish_Super:
 	fishentry  40 percent,     RATTATA,  40
 	fishentry  70 percent,     RATTATA,  40
-	fishentry  90 percent + 1, MAGIKARP,   40
+	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     RATTATA,   40
 
 .Remoraid_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     POLIWAG,    10
 .Remoraid_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     POLIWAG,    20
 	fishentry  90 percent + 1, POLIWAG,    20
 	fishentry 100 percent,     POLIWAG,    20
 .Remoraid_Super:
 	fishentry  40 percent,     POLIWAG,    40
 	fishentry  70 percent,     POLIWAG,    40
-	fishentry  90 percent + 1, MAGIKARP,   40
+	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     REMORAID,   40
 
 .Hisuian_Qwilfish_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, RATTATA,   10
+	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,  10
 .Hisuian_Qwilfish_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,  20
 	fishentry  90 percent + 1, HORSEA,     20
 	fishentry 100 percent,     RATTATA,   HISUIAN_FORM,   20

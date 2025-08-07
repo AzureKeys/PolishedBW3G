@@ -188,8 +188,8 @@ CeladonUniversity2FWestwoodsOfficeSignText:
 
 CeladonUniversity2FMagikarpSign:
 	reanchormap
-	pokepic MAGIKARP, MAGIKARP_ORCA_FORM
-	cry MAGIKARP
+	pokepic RATTATA
+	cry RATTATA
 	waitbutton
 	closepokepic
 	jumpthistext

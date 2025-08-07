@@ -756,16 +756,6 @@ PinsirPokedexEntry::
 	next "among roots where"
 	next "it is well hidden.@"
 
-SECTION "MagikarpPokedexEntry", ROMX
-MagikarpPokedexEntry::
-	db "Fish@"
-	db   "This weak and"
-	next "pathetic #mon"
-	next "gets easily pushed"
-	page "along rivers when"
-	next "there are strong"
-	next "currents.@"
-
 SECTION "LaprasPokedexEntry", ROMX
 LaprasPokedexEntry::
 	db "Transport@"

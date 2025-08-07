@@ -75,7 +75,6 @@ AnimationExtraPointers:
 	dw ElectabuzzAnimationExtra
 	dw MagmarAnimationExtra
 	dw PinsirAnimationExtra
-	dw MagikarpPlainAnimationExtra
 	dw LaprasAnimationExtra
 	dw DittoAnimationExtra
 	dw EeveeAnimationExtra
@@ -254,9 +253,9 @@ AnimationExtraPointers:
 	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra
+	dw GothitelleAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
-	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra
 	dw ReuniclusAnimationExtra
@@ -367,26 +366,6 @@ AnimationExtraPointers:
 	dw PikachuSparkAnimationExtra
 
 	dw PichuSpikyAnimationExtra
-
-	dw MagikarpSkellyAnimationExtra
-	dw MagikarpCalico1AnimationExtra
-	dw MagikarpCalico2AnimationExtra
-	dw MagikarpCalico3AnimationExtra
-	dw MagikarpTwoToneAnimationExtra
-	dw MagikarpOrcaAnimationExtra
-	dw MagikarpDapplesAnimationExtra
-	dw MagikarpTigerAnimationExtra
-	dw MagikarpZebraAnimationExtra
-	dw MagikarpStripeAnimationExtra
-	dw MagikarpBubblesAnimationExtra
-	dw MagikarpDiamondsAnimationExtra
-	dw MagikarpPatchesAnimationExtra
-	dw MagikarpForehead1AnimationExtra
-	dw MagikarpMask1AnimationExtra
-	dw MagikarpForehead2AnimationExtra
-	dw MagikarpMask2AnimationExtra
-	dw MagikarpSaucyAnimationExtra
-	dw MagikarpRaindropAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

@@ -75,7 +75,6 @@ AnimationPointers:
 	dw ElectabuzzAnimation
 	dw MagmarAnimation
 	dw PinsirAnimation
-	dw MagikarpPlainAnimation
 	dw LaprasAnimation
 	dw DittoAnimation
 	dw EeveeAnimation
@@ -254,9 +253,9 @@ AnimationPointers:
 	dw CinccinoAnimation
 	dw GothitaAnimation
 	dw GothoritaAnimation
+	dw GothitelleAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
-	dw GothitelleAnimation
 	dw SolosisAnimation
 	dw DuosionAnimation
 	dw ReuniclusAnimation
@@ -367,26 +366,6 @@ AnimationPointers:
 	dw PikachuSparkAnimation
 
 	dw PichuSpikyAnimation
-
-	dw MagikarpSkellyAnimation
-	dw MagikarpCalico1Animation
-	dw MagikarpCalico2Animation
-	dw MagikarpCalico3Animation
-	dw MagikarpTwoToneAnimation
-	dw MagikarpOrcaAnimation
-	dw MagikarpDapplesAnimation
-	dw MagikarpTigerAnimation
-	dw MagikarpZebraAnimation
-	dw MagikarpStripeAnimation
-	dw MagikarpBubblesAnimation
-	dw MagikarpDiamondsAnimation
-	dw MagikarpPatchesAnimation
-	dw MagikarpForehead1Animation
-	dw MagikarpMask1Animation
-	dw MagikarpForehead2Animation
-	dw MagikarpMask2Animation
-	dw MagikarpSaucyAnimation
-	dw MagikarpRaindropAnimation
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

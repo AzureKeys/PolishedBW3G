@@ -107,16 +107,16 @@
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 15, RATTATA
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 2 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 15, RATTATA
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_HARBOR
@@ -128,8 +128,8 @@
 
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 30, MAGIKARP
+	wildmon 25, RATTATA
+	wildmon 30, RATTATA
 	wildmon 20, DRATINI
 	end_water_wildmons
 
@@ -198,9 +198,9 @@
 
 	def_water_wildmons ROUTE_43
 	db 2 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 20, MAGIKARP
-	wildmon 10, MAGIKARP
+	wildmon 25, RATTATA
+	wildmon 20, RATTATA
+	wildmon 10, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_44
@@ -212,9 +212,9 @@
 
 	def_water_wildmons ROUTE_45
 	db 2 percent ; encounter rate
-	wildmon 20, MAGIKARP
-	wildmon 15, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 20, RATTATA
+	wildmon 15, RATTATA
+	wildmon 5, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_47
@@ -289,16 +289,16 @@
 
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 20, MAGIKARP
+	wildmon 25, RATTATA
+	wildmon 20, RATTATA
 	wildmon 25, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY
 	db 4 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 15, RATTATA
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
@@ -359,22 +359,22 @@
 
 	def_water_wildmons QUIET_CAVE_B1F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
+	wildmon LEVEL_FROM_BADGES - 10, RATTATA
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B2F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
+	wildmon LEVEL_FROM_BADGES - 10, RATTATA
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B3F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
+	wildmon LEVEL_FROM_BADGES - 10, RATTATA
+	wildmon LEVEL_FROM_BADGES - 5, RATTATA
 	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 

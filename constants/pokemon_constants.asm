@@ -99,7 +99,6 @@
 	const ELECTABUZZ ; 40
 	const MAGMAR     ; 41
 	const PINSIR     ; 42
-	const MAGIKARP   ; xx
 	const LAPRAS     ; 43
 	const DITTO      ; 44
 	const EEVEE      ; 45
@@ -278,9 +277,9 @@
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
+	const GOTHITELLE ; 145
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148
@@ -430,29 +429,6 @@ DEF NUM_PIKACHU EQU ext_const_value - 1
 ; pichu
 	ext_const_def 2
 	ext_const PICHU_SPIKY_EARED_FORM ; 148 (2)
-
-; magikarp
-	ext_const_def 2
-	ext_const MAGIKARP_SKELLY_FORM    ; 149 (02)
-	ext_const MAGIKARP_CALICO1_FORM   ; 14a (03)
-	ext_const MAGIKARP_CALICO2_FORM   ; 14b (04)
-	ext_const MAGIKARP_CALICO3_FORM   ; 14c (05)
-	ext_const MAGIKARP_TWO_TONE_FORM  ; 14d (06)
-	ext_const MAGIKARP_ORCA_FORM      ; 14e (07)
-	ext_const MAGIKARP_DAPPLES_FORM   ; 14f (08)
-	ext_const MAGIKARP_TIGER_FORM     ; 150 (09)
-	ext_const MAGIKARP_ZEBRA_FORM     ; 151 (0a)
-	ext_const MAGIKARP_STRIPE_FORM    ; 152 (0b)
-	ext_const MAGIKARP_BUBBLES_FORM   ; 153 (0c)
-	ext_const MAGIKARP_DIAMONDS_FORM  ; 154 (0d)
-	ext_const MAGIKARP_PATCHES_FORM   ; 155 (0e)
-	ext_const MAGIKARP_FOREHEAD1_FORM ; 156 (0f)
-	ext_const MAGIKARP_MASK1_FORM     ; 157 (10)
-	ext_const MAGIKARP_FOREHEAD2_FORM ; 158 (11)
-	ext_const MAGIKARP_MASK2_FORM     ; 159 (12)
-	ext_const MAGIKARP_SAUCY_FORM     ; 15a (13)
-	ext_const MAGIKARP_RAINDROP_FORM  ; 15b (14)
-DEF NUM_MAGIKARP EQU ext_const_value - 1 ; 14
 
 DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 

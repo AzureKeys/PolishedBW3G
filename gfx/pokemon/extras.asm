@@ -316,27 +316,6 @@ PikachuSurfAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_surf/anim_idle.asm"
 PikachuPikaAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_pika/anim_idle.asm"
 PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
 
-MagikarpPlainAnimationExtra:
-MagikarpSkellyAnimationExtra:
-MagikarpCalico1AnimationExtra:
-MagikarpCalico2AnimationExtra:
-MagikarpCalico3AnimationExtra:
-MagikarpTwoToneAnimationExtra:
-MagikarpOrcaAnimationExtra:
-MagikarpDapplesAnimationExtra:
-MagikarpTigerAnimationExtra:
-MagikarpZebraAnimationExtra:
-MagikarpStripeAnimationExtra:
-MagikarpBubblesAnimationExtra:
-MagikarpDiamondsAnimationExtra:
-MagikarpPatchesAnimationExtra:
-MagikarpForehead1AnimationExtra:
-MagikarpMask1AnimationExtra:
-MagikarpForehead2AnimationExtra:
-MagikarpMask2AnimationExtra:
-MagikarpSaucyAnimationExtra:
-MagikarpRaindropAnimationExtra: INCLUDE "gfx/pokemon/magikarp/anim_idle.asm"
-
 DudunsparceTwoSegmentAnimationExtra:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim_idle.asm"
 DudunsparceThreeSegmentAnimationExtra: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim_idle.asm"
 

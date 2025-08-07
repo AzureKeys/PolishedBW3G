@@ -190,7 +190,6 @@ KingdraFootprint::
 KoffingFootprint::
 LanturnFootprint::
 LaprasFootprint::
-MagikarpFootprint::
 MagnezoneFootprint::
 MantineFootprint::
 MantykeFootprint::

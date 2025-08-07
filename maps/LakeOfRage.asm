@@ -107,7 +107,6 @@ LakeOfRageFishingGuruSign:
 
 .Continue:
 	promptbutton
-	special Special_MagikarpHouseSign
 	endtext
 
 .Text:

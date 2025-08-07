@@ -410,10 +410,6 @@ PinsirEggSpeciesMoves:
 	db CLOSE_COMBAT
 	db $ff
 
-MagikarpEggSpeciesMoves:
-	dp MAGIKARP, NO_FORM
-	db $ff
-
 LaprasEggSpeciesMoves:
 	dp LAPRAS, PLAIN_FORM
 	db AURORA_BEAM

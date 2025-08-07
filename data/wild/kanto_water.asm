@@ -121,7 +121,7 @@
 
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
-	wildmon  54, MAGIKARP
+	wildmon  54, RATTATA
 	wildmon  56, POLIWAG
 	wildmon  58, POLIWHIRL
 	end_water_wildmons
@@ -135,14 +135,14 @@
 
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
+	wildmon  48, RATTATA
 	wildmon  50, RATTATA
 	wildmon  52, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
+	wildmon  48, RATTATA
 	wildmon  50, RATTATA
 	wildmon  52, RATTATA
 	end_water_wildmons
@@ -205,9 +205,9 @@
 
 	def_water_wildmons FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	wildmon  55, MAGIKARP
-	wildmon  50, MAGIKARP
-	wildmon  55, MAGIKARP
+	wildmon  55, RATTATA
+	wildmon  50, RATTATA
+	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND
@@ -219,7 +219,7 @@
 
 	def_water_wildmons CERULEAN_CAPE
 	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
+	wildmon  48, RATTATA
 	wildmon  52, POLIWHIRL
 	wildmon  54, RATTATA
 	end_water_wildmons

@@ -79,7 +79,6 @@ EvosAttacksPointers::
 	dw ElectabuzzEvosAttacks
 	dw MagmarEvosAttacks
 	dw PinsirEvosAttacks
-	dw MagikarpEvosAttacks
 	dw LaprasEvosAttacks
 	dw DittoEvosAttacks
 	dw EeveeEvosAttacks
@@ -258,9 +257,9 @@ EvosAttacksPointers::
 	dw CinccinoEvosAttacks
 	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
+	dw GothitelleEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
-	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
 	dw ReuniclusEvosAttacks

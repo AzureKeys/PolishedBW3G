@@ -5915,9 +5915,6 @@ LoadEnemyWildmon:
 	call GenerateWildForm
 
 	predef TryAddMonToParty
-
-	call CheckValidMagikarpLength
-	jr c, LoadEnemyWildmon
 	
 	; Gender based form must be set after TryAddMonToParty sets gender flag
 	;call GenerateGenderForm
@@ -6148,66 +6145,6 @@ CheckSleepingTreeMon:
 INCLUDE "data/wild/treemons_asleep.asm"
 
 INCLUDE "engine/battle/random_wild_forms.asm"
-
-CheckValidMagikarpLength:
-; Return carry if the Magikarp length is invalid for the current area
-
-	ld a, [wTempEnemyMonSpecies]
-	cp MAGIKARP
-	jr nz, .okay
-
-; Get Magikarp's length
-	ld de, wOTPartyMon1DVs
-	ld bc, wPlayerID
-	farcall CalcMagikarpLength
-
-; No reason to keep going if length > 1536 mm (i.e. if HIGH(length) > 5 feet)
-	ld a, [wMagikarpLengthMmHi]
-	cp HIGH(1536)
-	jr nz, .CheckMagikarpArea
-
-; 5% chance of skipping both size checks
-	call Random
-	cp 5 percent
-	jr c, .CheckMagikarpArea
-; Try again if length >= 1616 mm (i.e. if LOW(length) >= 4 inches)
-	ld a, [wMagikarpLengthMmLo]
-	cp LOW(1616)
-	jr nc, .redo
-
-; 20% chance of skipping this check
-	call Random
-	cp 20 percent - 1
-	jr c, .CheckMagikarpArea
-; Try again if length >= 1600 mm (i.e. if LOW(length) >= 3 inches)
-	ld a, [wMagikarpLengthMmLo]
-	cp LOW(1600)
-	jr nc, .redo
-
-.CheckMagikarpArea:
-	ld a, [wMapGroup]
-	cp GROUP_LAKE_OF_RAGE
-	jr nz, .okay
-	ld a, [wMapNumber]
-	cp MAP_LAKE_OF_RAGE
-	jr nz, .okay
-.LakeOfRageMagikarp
-; 40% chance of not flooring
-	call Random
-	cp 40 percent - 2
-	jr c, .okay
-; Try again if length < 1024 mm (i.e. if HIGH(length) < 3 feet)
-	ld a, [wMagikarpLengthMmHi]
-	cp HIGH(1024)
-	jr c, .redo
-
-.okay:
-	and a
-	ret
-
-.redo:
-	scf
-	ret
 
 FinalPkmnSlideInEnemyMonFrontpic:
 	call FinishBattleAnim

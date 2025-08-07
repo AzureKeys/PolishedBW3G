@@ -316,27 +316,6 @@ PikachuPikaAnimation:   INCLUDE "gfx/pokemon/pikachu_pika/anim.asm"
 PikachuChuchuAnimation: INCLUDE "gfx/pokemon/pikachu_chuchu/anim.asm"
 PikachuSparkAnimation:  INCLUDE "gfx/pokemon/pikachu_spark/anim.asm"
 
-MagikarpPlainAnimation:
-MagikarpSkellyAnimation:
-MagikarpCalico1Animation:
-MagikarpCalico2Animation:
-MagikarpCalico3Animation:
-MagikarpTwoToneAnimation:
-MagikarpOrcaAnimation:
-MagikarpDapplesAnimation:
-MagikarpTigerAnimation:
-MagikarpZebraAnimation:
-MagikarpStripeAnimation:
-MagikarpBubblesAnimation:
-MagikarpDiamondsAnimation:
-MagikarpPatchesAnimation:
-MagikarpForehead1Animation:
-MagikarpMask1Animation:
-MagikarpForehead2Animation:
-MagikarpMask2Animation:
-MagikarpSaucyAnimation:
-MagikarpRaindropAnimation: INCLUDE "gfx/pokemon/magikarp/anim.asm"
-
 DudunsparceTwoSegmentAnimation:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim.asm"
 DudunsparceThreeSegmentAnimation: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim.asm"
 

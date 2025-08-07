@@ -79,7 +79,6 @@ PokemonPicPointers::
 	pics Electabuzz
 	pics Magmar
 	pics Pinsir
-	pics MagikarpPlain
 	pics Lapras
 	pics Ditto
 	pics Eevee
@@ -258,9 +257,9 @@ PokemonPicPointers::
 	pics Cinccino
 	pics Gothita
 	pics Gothorita
+	pics Gothitelle
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Gothitelle
 	pics Solosis
 	pics Duosion
 	pics Reuniclus
@@ -371,26 +370,6 @@ PokemonPicPointers::
 	pics PikachuSpark
 
 	pics PichuSpiky
-
-	pics MagikarpSkelly
-	pics MagikarpCalico1
-	pics MagikarpCalico2
-	pics MagikarpCalico3
-	pics MagikarpTwoTone
-	pics MagikarpOrca
-	pics MagikarpDapples
-	pics MagikarpTiger
-	pics MagikarpZebra
-	pics MagikarpStripe
-	pics MagikarpBubbles
-	pics MagikarpDiamonds
-	pics MagikarpPatches
-	pics MagikarpForehead1
-	pics MagikarpMask1
-	pics MagikarpForehead2
-	pics MagikarpMask2
-	pics MagikarpSaucy
-	pics MagikarpRaindrop
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

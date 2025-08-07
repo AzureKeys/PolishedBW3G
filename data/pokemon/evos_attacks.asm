@@ -1758,11 +1758,6 @@ endc
 	learnset 47, CLOSE_COMBAT ; Superpower → similar move
 	learnset 50, MEGAHORN ; Guillotine → new move
 
-	evos_attacks Magikarp
-	learnset 1, SPLASH
-	learnset 15, TACKLE
-	learnset 30, REVERSAL ; Flail → event move
-
 	evos_attacks Lapras
 	learnset 1, ANCIENTPOWER ; HGSS tutor move
 	learnset 1, DRAGON_RAGE ; RBY TM move

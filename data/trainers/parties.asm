@@ -2252,13 +2252,13 @@ FisherGroup:
 	end_trainer
 
 	def_trainer JUSTIN, "Justin"
-	tr_mon 5, MAGIKARP, MALE | PLAIN_FORM
+	tr_mon 5, RATTATA, MALE | PLAIN_FORM
 		tr_dvs 8 HP, 7 Atk, 7 Def, 8 Spe, 7 SAt, 7 SDf
-	tr_mon 5, MAGIKARP, MALE | MAGIKARP_FOREHEAD1_FORM
+	tr_mon 5, RATTATA, MALE
 		tr_dvs 8 HP, 8 Atk, 11 Def, 8 Spe, 8 SAt, 11 SDf
-	tr_mon 15, MAGIKARP, MALE | MAGIKARP_CALICO3_FORM
+	tr_mon 15, RATTATA, MALE
 		tr_dvs 10 HP, 2 Atk, 10 Def, 10 Spe, 2 SAt, 10 SDf
-	tr_mon 5, MAGIKARP, MALE | MAGIKARP_ORCA_FORM
+	tr_mon 5, RATTATA, MALE
 		tr_dvs 3 HP, 9 Atk, 9 Def, 3 Spe, 9 SAt, 9 SDf
 	end_trainer
 
@@ -2279,8 +2279,8 @@ FisherGroup:
 
 
 	def_trainer MARVIN, "Marvin"
-	tr_mon 20, MAGIKARP, MALE | MAGIKARP_CALICO1_FORM
-	tr_mon 25, MAGIKARP, MALE | MAGIKARP_CALICO2_FORM
+	tr_mon 20, RATTATA, MALE
+	tr_mon 25, RATTATA, MALE
 	tr_mon 30, RATTATA, MALE
 	end_trainer
 
@@ -2290,13 +2290,13 @@ FisherGroup:
 
 
 	def_trainer RAYMOND, "Raymond"
-	tr_mon 30, MAGIKARP, MALE | MAGIKARP_CALICO2_FORM
+	tr_mon 30, RATTATA, MALE
 		tr_moves SPLASH, TACKLE, REVERSAL, DRAGON_RAGE
-	tr_mon 30, MAGIKARP, MALE | MAGIKARP_CALICO3_FORM
+	tr_mon 30, RATTATA, MALE
 		tr_moves SPLASH, TACKLE, REVERSAL, DRAGON_RAGE
-	tr_mon 30, MAGIKARP, MALE | MAGIKARP_TWO_TONE_FORM
+	tr_mon 30, RATTATA, MALE
 		tr_moves SPLASH, TACKLE, REVERSAL, DRAGON_RAGE
-	tr_mon 30, MAGIKARP, MALE | MAGIKARP_ORCA_FORM
+	tr_mon 30, RATTATA, MALE
 		tr_moves SPLASH, TACKLE, REVERSAL, DRAGON_RAGE
 	end_trainer
 
@@ -2320,7 +2320,7 @@ FisherGroup:
 	end_trainer
 
 	def_trainer STEPHEN, "Stephen"
-	tr_mon 60, MAGIKARP
+	tr_mon 60, RATTATA
 	tr_mon 58, RATTATA
 	tr_mon 55, RATTATA
 	tr_mon 55, RATTATA
@@ -2344,9 +2344,9 @@ FisherGroup:
 	end_trainer
 
 	def_trainer KILEY, "Kiley"
-	tr_mon LEVEL_FROM_BADGES + 5, MAGIKARP, MALE | PLAIN_FORM
-	tr_mon LEVEL_FROM_BADGES + 5, MAGIKARP, MALE | MAGIKARP_DAPPLES_FORM
-	tr_mon LEVEL_FROM_BADGES + 5, MAGIKARP, MALE | MAGIKARP_TIGER_FORM
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA, MALE | PLAIN_FORM
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA, MALE
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA, MALE
 	tr_mon LEVEL_FROM_BADGES + 5, MANTINE, MALE
 	end_trainer
 
@@ -2357,18 +2357,18 @@ FisherGroup:
 	end_trainer
 
 	def_trainer LEROY, "Virgil" ; MISMATCH
-	tr_mon 51, MAGIKARP, MALE | MAGIKARP_MASK1_FORM
-	tr_mon 52, MAGIKARP, MALE | MAGIKARP_CALICO1_FORM
-	tr_mon 53, MAGIKARP, MALE | MAGIKARP_CALICO2_FORM
-	tr_mon 54, MAGIKARP, MALE | MAGIKARP_CALICO3_FORM
-	tr_mon 55, MAGIKARP, MALE | MAGIKARP_TWO_TONE_FORM
-	tr_mon 56, MAGIKARP, MALE | MAGIKARP_ORCA_FORM
+	tr_mon 51, RATTATA, MALE
+	tr_mon 52, RATTATA, MALE
+	tr_mon 53, RATTATA, MALE
+	tr_mon 54, RATTATA, MALE
+	tr_mon 55, RATTATA, MALE
+	tr_mon 56, RATTATA, MALE
 	end_trainer
 
 	def_trainer KYLER, "Kyler"
-	tr_mon 48, MAGIKARP, MALE | PLAIN_FORM
-	tr_mon 48, MAGIKARP, MALE | MAGIKARP_BUBBLES_FORM
-	tr_mon 48, MAGIKARP, MALE | MAGIKARP_CALICO3_FORM
+	tr_mon 48, RATTATA, MALE | PLAIN_FORM
+	tr_mon 48, RATTATA, MALE
+	tr_mon 48, RATTATA, MALE
 	end_trainer
 
 	def_trainer MURPHY, "Murphy"

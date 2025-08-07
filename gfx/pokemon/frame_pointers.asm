@@ -75,7 +75,6 @@ FramesPointers:
 	dw ElectabuzzFrames
 	dw MagmarFrames
 	dw PinsirFrames
-	dw MagikarpPlainFrames
 	dw LaprasFrames
 	dw DittoFrames
 	dw EeveeFrames
@@ -254,9 +253,9 @@ FramesPointers:
 	dw CinccinoFrames
 	dw GothitaFrames
 	dw GothoritaFrames
+	dw GothitelleFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw GothitelleFrames
 	dw SolosisFrames
 	dw DuosionFrames
 	dw ReuniclusFrames
@@ -367,26 +366,6 @@ FramesPointers:
 	dw PikachuSparkFrames
 
 	dw PichuSpikyFrames
-
-	dw MagikarpSkellyFrames
-	dw MagikarpCalico1Frames
-	dw MagikarpCalico2Frames
-	dw MagikarpCalico3Frames
-	dw MagikarpTwoToneFrames
-	dw MagikarpOrcaFrames
-	dw MagikarpDapplesFrames
-	dw MagikarpTigerFrames
-	dw MagikarpZebraFrames
-	dw MagikarpStripeFrames
-	dw MagikarpBubblesFrames
-	dw MagikarpDiamondsFrames
-	dw MagikarpPatchesFrames
-	dw MagikarpForehead1Frames
-	dw MagikarpMask1Frames
-	dw MagikarpForehead2Frames
-	dw MagikarpMask2Frames
-	dw MagikarpSaucyFrames
-	dw MagikarpRaindropFrames
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

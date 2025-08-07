@@ -79,7 +79,6 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; ELECTABUZZ
 	iconpal RED, BROWN ; MAGMAR
 	iconpal BROWN, BLUE ; PINSIR
-	iconpal ORANGE, BROWN ; MAGIKARP
 	iconpal BLUE, RED ; LAPRAS
 	iconpal PURPLE, AZURE ; DITTO
 	iconpal BROWN, GRAY ; EEVEE
@@ -258,9 +257,9 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; CINCCINO
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
+	iconpal BLACK, PURPLE ; GOTHITELLE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal BLACK, PURPLE ; GOTHITELLE
 	iconpal GREEN, BLUE ; SOLOSIS
 	iconpal GREEN, TEAL ; DUOSION
 	iconpal GREEN, AZURE ; REUNICLUS
@@ -345,10 +344,6 @@ rept NUM_PIKACHU - 1
 endr
 
 	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
-
-rept NUM_MAGIKARP - 1
-	iconpal RED, BROWN
-endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

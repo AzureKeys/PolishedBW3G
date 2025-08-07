@@ -202,7 +202,6 @@ NewPokedexOrder:
 	dp POLIWHIRL
 	dp POLIWRATH
 	dp POLITOED
-	dp MAGIKARP
 	dp SLOWPOKE
 	dp SLOWBRO
 	dp SLOWKING

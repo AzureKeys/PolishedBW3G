@@ -33,7 +33,6 @@ UniqueWildMoves:
 	unique_moves CLIFF_CAVE,       0,          0
 	unique_moves QUIET_CAVE,       MUNCHLAX,   GIGA_IMPACT  ; Snorlax move
 	unique_moves MT_MORTAR,        0,          0
-	unique_moves LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Pokéwalker move
 	unique_moves ICE_PATH,         0,          0
 	unique_moves DRAGONS_DEN,      0,          0
 	unique_moves DARK_CAVE,        0,          0

@@ -157,7 +157,6 @@ AlphabeticalPokedexOrder:
 	dp LITWICK
 	dp LUGIA
 	dp MAGBY
-	dp MAGIKARP
 	dp MAGMAR
 	dp MAGMORTAR
 	dp MAGNEMITE

@@ -76,7 +76,6 @@ PokedexDataPointerTable:
 	dba ElectabuzzPokedexEntry
 	dba MagmarPokedexEntry
 	dba PinsirPokedexEntry
-	dba MagikarpPokedexEntry
 	dba LaprasPokedexEntry
 	dba DittoPokedexEntry
 	dba EeveePokedexEntry
@@ -255,9 +254,9 @@ PokedexDataPointerTable:
 	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
+	dba GothitellePokedexEntry
 	dba BulbasaurPokedexEntry ; EGG
 	dba BulbasaurPokedexEntry ; $100
-	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry

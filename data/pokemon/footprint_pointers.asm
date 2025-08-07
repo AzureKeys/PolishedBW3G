@@ -75,7 +75,6 @@ FootprintPointers::
 	dw ElectabuzzFootprint
 	dw MagmarFootprint
 	dw PinsirFootprint
-	dw MagikarpFootprint
 	dw LaprasFootprint
 	dw DittoFootprint
 	dw EeveeFootprint
@@ -254,9 +253,9 @@ FootprintPointers::
 	dw CinccinoFootprint
 	dw GothitaFootprint
 	dw GothoritaFootprint
+	dw GothitelleFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
-	dw GothitelleFootprint
 	dw SolosisFootprint
 	dw DuosionFootprint
 	dw ReuniclusFootprint

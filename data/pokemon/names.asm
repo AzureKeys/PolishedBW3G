@@ -76,7 +76,6 @@ PokemonNames::
 	rawchar "Electabuzz"
 	rawchar "Magmar@@@@"
 	rawchar "Pinsir@@@@"
-	rawchar "Magikarp@@"
 	rawchar "Lapras@@@@"
 	rawchar "Ditto@@@@@"
 	rawchar "Eevee@@@@@"
@@ -255,9 +254,9 @@ PokemonNames::
 	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"
 	rawchar "Gothorita@"
+	rawchar "Gothitelle"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
-	rawchar "Gothitelle"
 	rawchar "Solosis@@@"
 	rawchar "Duosion@@@"
 	rawchar "Reuniclus@"

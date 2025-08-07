@@ -75,7 +75,6 @@ BitmasksPointers:
 	dw ElectabuzzBitmasks
 	dw MagmarBitmasks
 	dw PinsirBitmasks
-	dw MagikarpPlainBitmasks
 	dw LaprasBitmasks
 	dw DittoBitmasks
 	dw EeveeBitmasks
@@ -254,9 +253,9 @@ BitmasksPointers:
 	dw CinccinoBitmasks
 	dw GothitaBitmasks
 	dw GothoritaBitmasks
+	dw GothitelleBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
-	dw GothitelleBitmasks
 	dw SolosisBitmasks
 	dw DuosionBitmasks
 	dw ReuniclusBitmasks
@@ -367,26 +366,6 @@ BitmasksPointers:
 	dw PikachuSparkBitmasks
 
 	dw PichuSpikyBitmasks
-
-	dw MagikarpSkellyBitmasks
-	dw MagikarpCalico1Bitmasks
-	dw MagikarpCalico2Bitmasks
-	dw MagikarpCalico3Bitmasks
-	dw MagikarpTwoToneBitmasks
-	dw MagikarpOrcaBitmasks
-	dw MagikarpDapplesBitmasks
-	dw MagikarpTigerBitmasks
-	dw MagikarpZebraBitmasks
-	dw MagikarpStripeBitmasks
-	dw MagikarpBubblesBitmasks
-	dw MagikarpDiamondsBitmasks
-	dw MagikarpPatchesBitmasks
-	dw MagikarpForehead1Bitmasks
-	dw MagikarpMask1Bitmasks
-	dw MagikarpForehead2Bitmasks
-	dw MagikarpMask2Bitmasks
-	dw MagikarpSaucyBitmasks
-	dw MagikarpRaindropBitmasks
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

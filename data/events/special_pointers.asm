@@ -26,8 +26,8 @@ SpecialsPointers::
 	add_special ContestDropOffMons
 	add_special ContestReturnMons
 	add_special Special_GiveParkBalls
-	add_special CheckMagikarpLength
-	add_special Special_MagikarpHouseSign
+	;add_special CheckMagikarpLength
+	;add_special Special_MagikarpHouseSign
 	add_special HealParty
 	add_special PokemonCenterPC
 	add_special Special_PlayersHousePC

@@ -75,7 +75,6 @@ EggSpeciesMovesPointers::
 	dw ElekidEggSpeciesMoves            ; Electabuzz
 	dw MagbyEggSpeciesMoves             ; Magmar
 	dw PinsirEggSpeciesMoves            ; Pinsir
-	dw MagikarpEggSpeciesMoves          ; Magikarp
 	dw LaprasEggSpeciesMoves            ; Lapras
 	dw NoEggSpeciesMoves                ; Ditto
 	dw EeveeEggSpeciesMoves             ; Eevee
@@ -254,9 +253,9 @@ EggSpeciesMovesPointers::
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
+	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
-	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus

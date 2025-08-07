@@ -75,7 +75,6 @@ EvolutionMoves::
 	db NO_MOVE      ; ELECTABUZZ
 	db NO_MOVE      ; MAGMAR
 	db NO_MOVE      ; PINSIR
-	db NO_MOVE      ; MAGIKARP
 	db NO_MOVE      ; LAPRAS
 	db NO_MOVE      ; DITTO
 	db NO_MOVE      ; EEVEE
@@ -258,9 +257,9 @@ endc
 	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
+	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
 	db DIZZY_PUNCH  ; REUNICLUS

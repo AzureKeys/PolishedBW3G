@@ -47,7 +47,6 @@ ENDM
 
 RandomWildSpeciesForms:
 	random_wild_form UNOWN,       .Unown
-	random_wild_form MAGIKARP,    .Magikarp
 	random_wild_form DUNSPARCE,   .Dudunsparce
 	random_wild_form DUDUNSPARCE, .Dudunsparce
 	random_wild_form DEERLING,    .Deerling
@@ -62,11 +61,6 @@ RandomWildSpeciesForms:
 	call CheckUnownLetter
 	jr nc, .Unown ; re-roll
 	ret
-
-.Magikarp:
-	; Random Magikarp pattern
-	ld a, NUM_MAGIKARP
-	jr .RandomForm
 
 .Deerling:
 	; Random Deerling/Sawsbuck form

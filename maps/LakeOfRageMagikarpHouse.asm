@@ -40,12 +40,11 @@ MagikarpLengthRaterScript:
 	end
 
 .AskedForMagikarp:
-	setmonval MAGIKARP
+	setmonval RATTATA
 	special Special_FindThatSpecies
 	iffalse .ClearedRocketHideout
 	writetext MagikarpLengthRaterText_YouHaveAMagikarp
 	waitbutton
-	special CheckMagikarpLength
 	iffalse_jumpopenedtext MagikarpLengthRaterText_NotMagikarp
 	ifequalfwd $1, .Refused
 	ifequalfwd $2, .TooShort
