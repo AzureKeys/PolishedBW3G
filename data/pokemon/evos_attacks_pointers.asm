@@ -7,9 +7,6 @@ EvosAttacksPointers::
 	dw BulbasaurEvosAttacks
 	dw IvysaurEvosAttacks
 	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
 	dw RattataPlainEvosAttacks
 	dw RaticatePlainEvosAttacks
 	dw PikachuEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
 	dw ReuniclusEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw DucklettEvosAttacks
 	dw SwannaEvosAttacks
 	dw VanilliteEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw VanillishEvosAttacks
 	dw VanilluxeEvosAttacks
 	dw DeerlingEvosAttacks

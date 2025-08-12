@@ -20,18 +20,6 @@ SECTION "Venusaur Pics", ROMX
 VenusaurFrontpic: INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 VenusaurBackpic:  INCBIN "gfx/pokemon/venusaur/back.2bpp.lz"
 
-SECTION "Charmander Pics", ROMX
-CharmanderFrontpic: INCBIN "gfx/pokemon/charmander/front.animated.2bpp.lz"
-CharmanderBackpic:  INCBIN "gfx/pokemon/charmander/back.2bpp.lz"
-
-SECTION "Charmeleon Pics", ROMX
-CharmeleonFrontpic: INCBIN "gfx/pokemon/charmeleon/front.animated.2bpp.lz"
-CharmeleonBackpic:  INCBIN "gfx/pokemon/charmeleon/back.2bpp.lz"
-
-SECTION "Charizard Pics", ROMX
-CharizardFrontpic: INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
-CharizardBackpic:  INCBIN "gfx/pokemon/charizard/back.2bpp.lz"
-
 SECTION "Marill Pics", ROMX
 MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
 MarillBackpic:  INCBIN "gfx/pokemon/marill/back.2bpp.lz"

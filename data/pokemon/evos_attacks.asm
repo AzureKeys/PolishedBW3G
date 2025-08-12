@@ -133,61 +133,6 @@ EvosAttacks::
 	learnset 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
 	learnset 60, SOLAR_BEAM
 
-	evos_attacks Charmander
-	evo_data EVOLVE_LEVEL, 16, CHARMELEON
-	learnset 1, SCRATCH
-	learnset 1, GROWL
-	learnset 7, EMBER
-	learnset 10, SMOKESCREEN
-	learnset 16, METAL_CLAW ; Dragon Rage → TM move
-	learnset 19, DRAGON_RAGE ; Scary Face → Dragon Rage
-	learnset 25, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 28, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 34, SLASH
-	learnset 37, FLAMETHROWER
-	learnset 43, FIRE_SPIN
-	learnset 46, CRUNCH
-	learnset 52, FLARE_BLITZ ; Sw/Sh move
-
-	evos_attacks Charmeleon
-	evo_data EVOLVE_LEVEL, 36, CHARIZARD
-	learnset 1, SCRATCH
-	learnset 1, GROWL
-	learnset 7, EMBER
-	learnset 10, SMOKESCREEN
-	learnset 17, METAL_CLAW ; Dragon Rage → TM move
-	learnset 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	learnset 28, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 32, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 39, SLASH
-	learnset 43, FLAMETHROWER
-	learnset 50, FIRE_SPIN
-	learnset 54, CRUNCH
-	learnset 61, FLARE_BLITZ ; Sw/Sh move
-
-	evos_attacks Charizard
-	learnset 1, WING_ATTACK ; evolution move
-	learnset 1, FLARE_BLITZ
-	learnset 1, DRAGONBREATH
-	learnset 1, DRAGON_CLAW
-	learnset 1, SHADOW_CLAW
-	learnset 1, AIR_SLASH
-	learnset 1, OUTRAGE ; HGSS tutor move
-	learnset 1, SCRATCH
-	learnset 1, GROWL
-	learnset 7, EMBER
-	learnset 10, SMOKESCREEN
-	learnset 17, METAL_CLAW ; Dragon Rage → TM move
-	learnset 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	learnset 28, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 32, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 41, SLASH
-	learnset 47, FLAMETHROWER
-	learnset 56, FIRE_SPIN
-	learnset 62, CRUNCH
-	learnset 71, FLARE_BLITZ
-	learnset 77, HURRICANE ; Sw/Sh move
-
 	evos_attacks RattataPlain
 	evo_data EVOLVE_LEVEL, 20, RATICATE
 	learnset 1, TACKLE

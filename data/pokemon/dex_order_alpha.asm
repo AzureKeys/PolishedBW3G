@@ -28,9 +28,6 @@ AlphabeticalPokedexOrder:
 	dp CARRACOSTA
 	dp CELEBI
 	dp CHANDELURE
-	dp CHARIZARD
-	dp CHARMANDER
-	dp CHARMELEON
 	dp CHINCHOU
 	dp CINCCINO
 	dp CLEFABLE

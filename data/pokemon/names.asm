@@ -4,9 +4,6 @@ PokemonNames::
 	rawchar "Bulbasaur@"
 	rawchar "Ivysaur@@@"
 	rawchar "Venusaur@@"
-	rawchar "Charmander"
-	rawchar "Charmeleon"
-	rawchar "Charizard@"
 	rawchar "Rattata@@@"
 	rawchar "Raticate@@"
 	rawchar "Pikachu@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Solosis@@@"
 	rawchar "Duosion@@@"
 	rawchar "Reuniclus@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Ducklett@@"
 	rawchar "Swanna@@@@"
 	rawchar "Vanillite@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Vanillish@"
 	rawchar "Vanilluxe@"
 	rawchar "Deerling@@"

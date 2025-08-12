@@ -7,9 +7,6 @@ PokemonPicPointers::
 	pics Bulbasaur
 	pics Ivysaur
 	pics Venusaur
-	pics Charmander
-	pics Charmeleon
-	pics Charizard
 	pics RattataPlain
 	pics RaticatePlain
 	pics PikachuPlain
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Solosis
 	pics Duosion
 	pics Reuniclus
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Ducklett
 	pics Swanna
 	pics Vanillite
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Vanillish
 	pics Vanilluxe
 	pics DeerlingSpring

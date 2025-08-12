@@ -7,9 +7,6 @@ MiniIconPointers:
 	mini_icon Bulbasaur
 	mini_icon Ivysaur
 	mini_icon Venusaur
-	mini_icon Charmander
-	mini_icon Charmeleon
-	mini_icon Charizard
 	mini_icon Rattata
 	mini_icon Raticate
 	mini_icon Pikachu
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Solosis
 	mini_icon Duosion
 	mini_icon Reuniclus
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Ducklett
 	mini_icon Swanna
 	mini_icon Vanillite
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Vanillish
 	mini_icon Vanilluxe
 	mini_icon Deerling

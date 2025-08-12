@@ -4,9 +4,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; Bulbasaur
 	db  16,  31 ; Ivysaur
 	db  32, 100 ; Venusaur
-	db   1,  15 ; Charmander
-	db  16,  35 ; Charmeleon
-	db  36, 100 ; Charizard
 	db   1,  19 ; Rattata
 	db  20, 100 ; Raticate
 	db   1,  19 ; Pikachu
@@ -259,11 +256,11 @@ endc
 	db   1,  31 ; Solosis
 	db  32,  40 ; Duosion
 	db  41, 100 ; Reuniclus
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  34 ; Ducklett
 	db  35, 100 ; Swanna
 	db   1,  34 ; Vanillite
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  35,  46 ; Vanillish
 	db  47, 100 ; Vanilluxe
 	db   1,  33 ; Deerling

@@ -3,9 +3,6 @@ EggSpeciesMovesPointers::
 	dw BulbasaurEggSpeciesMoves         ; Bulbasaur
 	dw BulbasaurEggSpeciesMoves         ; Ivysaur
 	dw BulbasaurEggSpeciesMoves         ; Venusaur
-	dw CharmanderEggSpeciesMoves        ; Charmander
-	dw CharmanderEggSpeciesMoves        ; Charmeleon
-	dw CharmanderEggSpeciesMoves        ; Charizard
 	dw RattataPlainEggSpeciesMoves      ; Rattata
 	dw RattataPlainEggSpeciesMoves      ; Raticate
 	dw PichuEggSpeciesMoves             ; Pikachu
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw DucklettEggSpeciesMoves          ; Ducklett
 	dw DucklettEggSpeciesMoves          ; Swanna
 	dw VanilliteEggSpeciesMoves         ; Vanillite
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw VanilliteEggSpeciesMoves         ; Vanillish
 	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	dw DeerlingEggSpeciesMoves          ; Deerling

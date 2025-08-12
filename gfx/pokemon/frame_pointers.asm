@@ -3,9 +3,6 @@ FramesPointers:
 	dw BulbasaurFrames
 	dw IvysaurFrames
 	dw VenusaurFrames
-	dw CharmanderFrames
-	dw CharmeleonFrames
-	dw CharizardFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
 	dw PikachuPlainFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw SolosisFrames
 	dw DuosionFrames
 	dw ReuniclusFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw DucklettFrames
 	dw SwannaFrames
 	dw VanilliteFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw VanillishFrames
 	dw VanilluxeFrames
 	dw DeerlingSpringFrames

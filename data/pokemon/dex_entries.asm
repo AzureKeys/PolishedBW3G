@@ -28,36 +28,6 @@ VenusaurPokedexEntry::
 	next "release a pleasant"
 	next "fragrance.@"
 
-SECTION "CharmanderPokedexEntry", ROMX
-CharmanderPokedexEntry::
-	db "Lizard@"
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
-
-SECTION "CharmeleonPokedexEntry", ROMX
-CharmeleonPokedexEntry::
-	db "Flame@"
-	db   "If it becomes"
-	next "agitated during"
-	next "battle, it spouts"
-	page "intense flames,"
-	next "incinerating its"
-	next "surroundings.@"
-
-SECTION "CharizardPokedexEntry", ROMX
-CharizardPokedexEntry::
-	db "Flame@"
-	db   "It uses its wings"
-	next "to fly high. The"
-	next "temperature of its"
-	page "fire increases as"
-	next "it gains exper-"
-	next "ience in battle.@"
-
 SECTION "RattataPlainPokedexEntry", ROMX
 RattataPlainPokedexEntry::
 	db "Rat@"

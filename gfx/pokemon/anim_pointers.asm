@@ -3,9 +3,6 @@ AnimationPointers:
 	dw BulbasaurAnimation
 	dw IvysaurAnimation
 	dw VenusaurAnimation
-	dw CharmanderAnimation
-	dw CharmeleonAnimation
-	dw CharizardAnimation
 	dw RattataPlainAnimation
 	dw RaticatePlainAnimation
 	dw PikachuPlainAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw SolosisAnimation
 	dw DuosionAnimation
 	dw ReuniclusAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw DucklettAnimation
 	dw SwannaAnimation
 	dw VanilliteAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw VanillishAnimation
 	dw VanilluxeAnimation
 	dw DeerlingSpringAnimation

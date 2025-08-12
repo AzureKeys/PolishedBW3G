@@ -3,9 +3,6 @@ EvolutionMoves::
 	db NO_MOVE      ; BULBASAUR
 	db NO_MOVE      ; IVYSAUR
 	db PETAL_DANCE  ; VENUSAUR
-	db NO_MOVE      ; CHARMANDER
-	db NO_MOVE      ; CHARMELEON
-	db WING_ATTACK  ; CHARIZARD
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; PIKACHU
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
 	db DIZZY_PUNCH  ; REUNICLUS
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
 	db NO_MOVE      ; VANILLITE
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; VANILLUXE
 	db NO_MOVE      ; DEERLING

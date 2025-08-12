@@ -16,21 +16,6 @@ VenusaurMini::     INCBIN "gfx/minis/venusaur.2bpp.lz"
 VenusaurMiniMask:: INCBIN "gfx/minis/venusaur_mask.1bpp.lz"
 VenusaurIcon::     INCBIN "gfx/icons/venusaur.2bpp.lz"
 
-SECTION "Charmander Mini Icon", ROMX
-CharmanderMini::     INCBIN "gfx/minis/charmander.2bpp.lz"
-CharmanderMiniMask:: INCBIN "gfx/minis/charmander_mask.1bpp.lz"
-CharmanderIcon::     INCBIN "gfx/icons/charmander.2bpp.lz"
-
-SECTION "Charmeleon Mini Icon", ROMX
-CharmeleonMini::     INCBIN "gfx/minis/charmeleon.2bpp.lz"
-CharmeleonMiniMask:: INCBIN "gfx/minis/charmeleon_mask.1bpp.lz"
-CharmeleonIcon::     INCBIN "gfx/icons/charmeleon.2bpp.lz"
-
-SECTION "Charizard Mini Icon", ROMX
-CharizardMini::     INCBIN "gfx/minis/charizard.2bpp.lz"
-CharizardMiniMask:: INCBIN "gfx/minis/charizard_mask.1bpp.lz"
-CharizardIcon::     INCBIN "gfx/icons/charizard.2bpp.lz"
-
 SECTION "Rattata Mini Icon", ROMX
 RattataMini::     INCBIN "gfx/minis/rattata.2bpp.lz"
 RattataMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"

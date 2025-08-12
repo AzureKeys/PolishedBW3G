@@ -13,18 +13,6 @@ BulbasaurEggSpeciesMoves:
 	db POWER_WHIP
 	db $ff
 
-CharmanderEggSpeciesMoves:
-	dp CHARMANDER, PLAIN_FORM
-	db ANCIENTPOWER
-	db BELLY_DRUM
-	db BITE
-	db CRUNCH
-	db DRAGON_DANCE
-	db DRAGONBREATH
-	db FLARE_BLITZ
-	db OUTRAGE
-	db $ff
-
 RattataPlainEggSpeciesMoves:
 	dp RATTATA, PLAIN_FORM
 	db FURY_STRIKES

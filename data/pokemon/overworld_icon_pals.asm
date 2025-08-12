@@ -7,9 +7,6 @@ OverworldMonIconColors::
 	iconpal TEAL, GREEN ; BULBASAUR
 	iconpal TEAL, GREEN ; IVYSAUR
 	iconpal TEAL, GREEN ; VENUSAUR
-	iconpal ORANGE, PINK ; CHARMANDER
-	iconpal RED, PINK ; CHARMELEON
-	iconpal ORANGE, BLACK ; CHARIZARD
 	iconpal PURPLE, GRAY ; RATTATA
 	iconpal BROWN, RED ; RATICATE
 	iconpal RED, AZURE ; PIKACHU
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; SOLOSIS
 	iconpal GREEN, TEAL ; DUOSION
 	iconpal GREEN, AZURE ; REUNICLUS
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal AZURE, PINK ; DUCKLETT
 	iconpal WHITE, PURPLE ; SWANNA
 	iconpal AZURE, PINK ; VANILLITE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal AZURE, PURPLE ; VANILLISH
 	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal BROWN, PINK ; DEERLING

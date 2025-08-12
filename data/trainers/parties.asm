@@ -625,8 +625,8 @@ ChampionGroup:
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
 		tr_moves AERIAL_ACE, ANCIENTPOWER, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 57, CHARIZARD @ WISE_GLASSES, MALE
-		tr_extra SOLAR_POWER, SATK_UP_ATK_DOWN
+	tr_mon 57, RATTATA @ WISE_GLASSES, MALE
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 if DEF(FAITHFUL)
 		tr_moves FLAMETHROWER, HYPER_BEAM, FOCUS_BLAST, AIR_SLASH
@@ -652,12 +652,12 @@ endc
 	tr_mon 76, RATTATA @ CHOICE_BAND, MALE
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves STONE_EDGE, BRAVE_BIRD, IRON_HEAD, CRUNCH
-	tr_mon 75, CHARIZARD @ LEFTOVERS, MALE
+	tr_mon 75, RATTATA @ LEFTOVERS, MALE
 if DEF(FAITHFUL)
-		tr_extra DROUGHT, SATK_UP_ATK_DOWN
+		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_moves FIRE_BLAST, SOLAR_BEAM, FOCUS_BLAST, AIR_SLASH
 else
-		tr_extra TOUGH_CLAWS, ATK_UP_SATK_DOWN
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves DRAGON_DANCE, OUTRAGE, FLARE_BLITZ, ROOST
 endc
 	tr_mon 80, DRAGONITE @ WEAK_POLICY, MALE
@@ -1026,12 +1026,12 @@ RedGroup:
 	tr_mon 87, RATTATA @ QUICK_CLAW, MALE
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN, SHINY
 		tr_moves DRAGON_DANCE, WATERFALL, EARTHQUAKE, CRUNCH
-	tr_mon 88, CHARIZARD @ MUSCLE_BAND, MALE
+	tr_mon 88, RATTATA @ MUSCLE_BAND, MALE
 if DEF(FAITHFUL)
-		tr_extra DROUGHT, ATK_UP_SATK_DOWN
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves FLARE_BLITZ, SWORDS_DANCE, EARTHQUAKE, AERIAL_ACE
 else
-		tr_extra TOUGH_CLAWS, ATK_UP_SATK_DOWN
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves FLARE_BLITZ, SWORDS_DANCE, EARTHQUAKE, DRAGON_CLAW
 endc
 	end_trainer
@@ -1896,7 +1896,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer FELIX, "Felix"
-	tr_mon LEVEL_FROM_BADGES + 8, CHARMELEON
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
 	end_trainer
 
 	def_trainer TANNER, "Tanner"
@@ -3031,7 +3031,7 @@ PokefanMGroup:
 
 	def_trainer CARTER, "Carter"
 	tr_mon 59, BULBASAUR @ SITRUS_BERRY
-	tr_mon 59, CHARMANDER @ SITRUS_BERRY
+	tr_mon 59, RATTATA @ SITRUS_BERRY
 	tr_mon 59, RATTATA @ SITRUS_BERRY
 	end_trainer
 
@@ -3343,7 +3343,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer WALDO, "Waldo"
-	tr_mon 65, CHARIZARD
+	tr_mon 65, RATTATA
 	end_trainer
 
 	def_trainer MERLE, "Merle"
@@ -3391,7 +3391,7 @@ SuperNerdGroup:
 	def_trainer KOUTA, "Kouta"
 	tr_mon 54, CROBAT
 	tr_mon 53, POLITOED
-	tr_mon 56, CHARIZARD
+	tr_mon 56, RATTATA
 	end_trainer
 
 
@@ -3774,9 +3774,9 @@ FirebreatherGroup:
 	end_trainer
 
 	def_trainer DICK, "Dick"
-	tr_mon 53, CHARMANDER
-	tr_mon 55, CHARMELEON
-	tr_mon 57, CHARIZARD
+	tr_mon 53, RATTATA
+	tr_mon 55, RATTATA
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer NED, "Ned"
@@ -4055,7 +4055,7 @@ SchoolgirlGroup:
 	end_trainer
 
 	def_trainer SARAH, "Sarah"
-	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", CHARMANDER
+	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", RATTATA
 	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 1, MARILL
 	end_trainer
@@ -5163,7 +5163,7 @@ BurglarGroup:
 	end_trainer
 
 	def_trainer PETE, "Pete"
-	tr_mon 59, CHARMELEON
+	tr_mon 59, RATTATA
 	tr_mon 62, MAGMAR
 	end_trainer
 
@@ -5502,7 +5502,7 @@ DragonTamerGroup:
 	def_trainer DARIN, "Darin"
 	tr_mon 38, DRAGONAIR
 		tr_moves BODY_SLAM, SURF, DRAGON_PULSE, AQUA_TAIL
-	tr_mon 38, CHARIZARD
+	tr_mon 38, RATTATA
 		tr_moves SLASH, FLY, DRAGON_CLAW, FLAME_CHARGE
 	end_trainer
 
@@ -5545,8 +5545,8 @@ endc
 		tr_extra SNIPER, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 12 Spe
 		tr_moves DOUBLE_TEAM, DRAGON_PULSE, SURF, ICE_BEAM
-	tr_mon LEVEL_FROM_BADGES + 8, CHARIZARD @ FOCUS_SASH, MALE
-		tr_extra BLAZE, ATK_UP_SATK_DOWN
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA @ FOCUS_SASH, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_evs 132 Atk, 132 Spe
 		tr_moves DRAGON_DANCE, DRAGON_CLAW, EARTHQUAKE, FLARE_BLITZ
 	end_trainer
@@ -5760,7 +5760,7 @@ BikerGroup:
 
 	def_trainer CHARLES, "Charles"
 	tr_mon 54, KOFFING
-	tr_mon 54, CHARMELEON
+	tr_mon 54, RATTATA
 	tr_mon 57, WEEZING
 	end_trainer
 
@@ -6065,7 +6065,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer NICK, "Nick"
-	tr_mon 26, CHARMANDER
+	tr_mon 26, RATTATA
 		tr_moves EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	tr_mon 26, RATTATA
 		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
@@ -6075,7 +6075,7 @@ CooltrainerMGroup:
 
 	def_trainer AARON, "Aaron"
 	tr_mon 28, IVYSAUR
-	tr_mon 28, CHARMELEON
+	tr_mon 28, RATTATA
 	tr_mon 28, RATTATA
 	end_trainer
 
@@ -6107,7 +6107,7 @@ CooltrainerMGroup:
 
 	def_trainer ANDY, "Andy"
 	tr_mon 10, BULBASAUR
-	tr_mon 10, CHARMANDER
+	tr_mon 10, RATTATA
 	tr_mon 10, RATTATA
 	end_trainer
 
@@ -6119,12 +6119,12 @@ CooltrainerMGroup:
 
 	def_trainer KEVIN, "Kevin"
 	tr_mon 54, RATTATA
-	tr_mon 56, CHARIZARD
+	tr_mon 56, RATTATA
 	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer ALLEN, "Allen"
-	tr_mon 36, CHARMELEON
+	tr_mon 36, RATTATA
 		tr_moves SMOKESCREEN, METAL_CLAW, DRAGON_RAGE, FLAME_CHARGE
 	tr_mon 35, MAGNETON
 		tr_moves THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK, FLASH_CANNON
@@ -6136,7 +6136,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer HENRI, "Henri"
-	tr_mon LEVEL_FROM_BADGES + 5, CHARMELEON
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, IVYSAUR
 	end_trainer
@@ -6210,7 +6210,7 @@ CooltrainerMGroup:
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 63, RATTATA @ FOCUS_BAND
 		tr_evs 132 HP, 252 Atk
-	tr_mon 64, "Firebrand", CHARIZARD @ LEFTOVERS
+	tr_mon 64, "Firebrand", RATTATA @ LEFTOVERS
 		tr_evs 192 Atk, 192 SAt
 	end_trainer
 
@@ -6306,7 +6306,7 @@ endc
 if DEF(FAITHFUL)
 	tr_mon 39, SEADRA
 else
-	tr_mon 39, CHARIZARD
+	tr_mon 39, RATTATA
 endc
 	end_trainer
 
@@ -6385,7 +6385,7 @@ endc
 	end_trainer
 
 	def_trainer SERA, "Sera"
-	tr_mon 63, CHARMELEON @ EVIOLITE
+	tr_mon 63, RATTATA @ EVIOLITE
 	tr_mon 61, AMPHAROS @ MAGNET
 	tr_mon 61, RATTATA @ TWISTEDSPOON
 	end_trainer
@@ -6414,8 +6414,8 @@ endc
 		tr_extra SAP_SIPPER, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves WHIRLPOOL, PERISH_SONG, AQUA_TAIL, PROTECT
-	tr_mon LEVEL_FROM_BADGES + 5, CHARMELEON @ BINDING_BAND, FEMALE
-		tr_extra SOLAR_POWER, SPE_UP_DEF_DOWN
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA @ BINDING_BAND, FEMALE
+		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves FIRE_SPIN, DRAGON_RAGE, SMOKESCREEN, PROTECT
 	end_trainer
@@ -7377,7 +7377,7 @@ CandelaGroup:
 	def_trainer 1, "Candela"
 	tr_mon 63, FLAREON
 	tr_mon 62, MAGMAR
-	tr_mon 63, CHARIZARD
+	tr_mon 63, RATTATA
 	tr_mon 61, DRAGONITE
 	tr_mon 62, ARCANINE
 	tr_mon 65, RATTATA @ CHARCOAL
@@ -7773,7 +7773,7 @@ WalkerGroup:
 		tr_moves ROOST, EXTREMESPEED, HURRICANE, ROAR
 	tr_mon 73, RATTATA @ MUSCLE_BAND
 		tr_moves ROCK_SLIDE, CRUNCH, IRON_HEAD, FLY
-	tr_mon 73, CHARIZARD @ CHARCOAL
+	tr_mon 73, RATTATA @ CHARCOAL
 if DEF(FAITHFUL)
 		tr_moves SWORDS_DANCE, FIRE_BLAST, ROCK_SLIDE, AERIAL_ACE
 else
@@ -7805,7 +7805,7 @@ LawrenceGroup:
 	def_trainer 1, "Lawrence"
 	tr_mon 70, RATTATA @ BRIGHTPOWDER, MALE
 		tr_moves ICE_BEAM, AIR_SLASH, ANCIENTPOWER, REFLECT
-	tr_mon 66, CHARIZARD @ DRAGON_FANG, MALE
+	tr_mon 66, RATTATA @ DRAGON_FANG, MALE
 		tr_extra ATK_UP_SATK_DOWN, SHINY
 if DEF(FAITHFUL)
 		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, AERIAL_ACE
@@ -7825,7 +7825,7 @@ endc
 	def_trainer 2, "Lawrence"
 	tr_mon 75, RATTATA @ BRIGHTPOWDER, MALE
 		tr_moves ICE_BEAM, AIR_SLASH, ANCIENTPOWER, REFLECT
-	tr_mon 71, CHARIZARD @ DRAGON_FANG, MALE
+	tr_mon 71, RATTATA @ DRAGON_FANG, MALE
 		tr_extra ATK_UP_SATK_DOWN, SHINY
 if DEF(FAITHFUL)
 		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, AERIAL_ACE

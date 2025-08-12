@@ -9,9 +9,6 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,   $080,  $081 ; Bulbasaur
 	mon_cry CRY_BULBASAUR,   $020,  $100 ; Ivysaur
 	mon_cry CRY_BULBASAUR,   $000,  $140 ; Venusaur
-	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; Charmander
-	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; Charmeleon
-	mon_cry CRY_CHARMANDER,  $000,  $100 ; Charizard
 	mon_cry CRY_RATTATA,     $000,  $100 ; Rattata
 	mon_cry CRY_RATTATA,     $020,  $17f ; Raticate
 	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; Pikachu
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
 	mon_cry CRY_AMPHAROS,    $185,  $184 ; Duosion
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; Ducklett
 	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; Swanna
 	mon_cry CRY_MANTINE,     $030,  $0ea ; Vanillite
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
 	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
 	mon_cry CRY_DEERLING,    $85d,  $0d4 ; Deerling

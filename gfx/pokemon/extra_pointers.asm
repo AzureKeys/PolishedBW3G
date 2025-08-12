@@ -3,9 +3,6 @@ AnimationExtraPointers:
 	dw BulbasaurAnimationExtra
 	dw IvysaurAnimationExtra
 	dw VenusaurAnimationExtra
-	dw CharmanderAnimationExtra
-	dw CharmeleonAnimationExtra
-	dw CharizardAnimationExtra
 	dw RattataPlainAnimationExtra
 	dw RaticatePlainAnimationExtra
 	dw PikachuPlainAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra
 	dw ReuniclusAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw DucklettAnimationExtra
 	dw SwannaAnimationExtra
 	dw VanilliteAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw VanillishAnimationExtra
 	dw VanilluxeAnimationExtra
 	dw DeerlingSpringAnimationExtra

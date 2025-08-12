@@ -3,9 +3,6 @@ FootprintPointers::
 	dw BulbasaurFootprint
 	dw IvysaurFootprint
 	dw VenusaurFootprint
-	dw CharmanderFootprint
-	dw CharmeleonFootprint
-	dw CharizardFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
 	dw PikachuFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw SolosisFootprint
 	dw DuosionFootprint
 	dw ReuniclusFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw DucklettFootprint
 	dw SwannaFootprint
 	dw VanilliteFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw VanillishFootprint
 	dw VanilluxeFootprint
 	dw DeerlingFootprint

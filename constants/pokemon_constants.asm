@@ -27,9 +27,6 @@
 	const BULBASAUR  ; xx
 	const IVYSAUR    ; xx
 	const VENUSAUR   ; xx
-	const CHARMANDER ; xx
-	const CHARMELEON ; xx
-	const CHARIZARD  ; xx
 	const RATTATA    ; 01
 	const RATICATE   ; 02
 	const PIKACHU    ; 03
@@ -278,11 +275,11 @@
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const DUCKLETT   ; 149
 	const SWANNA     ; 14a
 	const VANILLITE  ; 14b
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const VANILLISH  ; 14c
 	const VANILLUXE  ; 14d
 	const DEERLING   ; 14e

@@ -10,9 +10,6 @@ PokemonBodyData:
 	body_data   7,   69, QUADRUPED,    GREEN  ; BULBASAUR
 	body_data  10,  130, QUADRUPED,    GREEN  ; IVYSAUR
 	body_data  20, 1000, QUADRUPED,    GREEN  ; VENUSAUR
-	body_data   6,   85, BIPEDAL_TAIL, RED    ; CHARMANDER
-	body_data  11,  190, BIPEDAL_TAIL, RED    ; CHARMELEON
-	body_data  17,  905, BIPEDAL_TAIL, RED    ; CHARIZARD
 	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
 	body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
 	body_data   6,   80, HEAD,         GREEN  ; DUOSION
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT
 	body_data  13,  242, WINGS,        WHITE  ; SWANNA
 	body_data   4,   57, HEAD_BASE,    WHITE  ; VANILLITE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  11,  410, HEAD_BASE,    WHITE  ; VANILLISH
 	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
