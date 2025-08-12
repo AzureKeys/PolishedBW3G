@@ -1159,9 +1159,9 @@ SECTION "LilligantPlain Pics", ROMX
 LilligantPlainFrontpic: INCBIN "gfx/pokemon/lilligant_plain/front.animated.2bpp.lz"
 LilligantPlainBackpic:  INCBIN "gfx/pokemon/lilligant_plain/back.2bpp.lz"
 
-SECTION "BasculinRed Pics", ROMX
-BasculinRedFrontpic: INCBIN "gfx/pokemon/basculin_red/front.animated.2bpp.lz"
-BasculinRedBackpic:  INCBIN "gfx/pokemon/basculin_red/back.2bpp.lz"
+SECTION "BasculinWhite Pics", ROMX
+BasculinWhiteFrontpic: INCBIN "gfx/pokemon/basculin_white/front.animated.2bpp.lz"
+BasculinWhiteBackpic:  INCBIN "gfx/pokemon/basculin_white/back.2bpp.lz"
 
 SECTION "Sandile Pics", ROMX
 SandileFrontpic: INCBIN "gfx/pokemon/sandile/front.animated.2bpp.lz"
@@ -1562,6 +1562,14 @@ GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"
 SECTION "UnfezantFemale Pics", ROMX
 UnfezantFemaleFrontpic: INCBIN "gfx/pokemon/unfezant_female/front.animated.2bpp.lz"
 UnfezantFemaleBackpic:  INCBIN "gfx/pokemon/unfezant_female/back.2bpp.lz"
+
+SECTION "BasculinRed Pics", ROMX
+BasculinRedFrontpic: INCBIN "gfx/pokemon/basculin_red/front.animated.2bpp.lz"
+BasculinRedBackpic:  INCBIN "gfx/pokemon/basculin_red/back.2bpp.lz"
+
+SECTION "BasculinBlue Pics", ROMX
+BasculinBlueFrontpic: INCBIN "gfx/pokemon/basculin_blue/front.animated.2bpp.lz"
+BasculinBlueBackpic:  INCBIN "gfx/pokemon/basculin_blue/back.2bpp.lz"
 
 SECTION "DeerlingSummer Pics", ROMX
 DeerlingSummerFrontpic: INCBIN "gfx/pokemon/deerling_summer/front.animated.2bpp.lz"

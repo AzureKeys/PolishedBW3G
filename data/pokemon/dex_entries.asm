@@ -2270,6 +2270,16 @@ LilligantPlainPokedexEntry::
 	next "beautiful flower"
 	next "to bloom.@"
 
+SECTION "BasculinWhitePokedexEntry", ROMX
+BasculinWhitePokedexEntry::
+	db "Mellow@"
+	db "Basculin get"
+	next "along so poorly,"
+	next "they'll start to"
+	page "fight instantly."
+	next "These #mon are"
+	next "very hostile.@"
+
 SECTION "SandilePokedexEntry", ROMX
 SandilePokedexEntry::
 	db "Desert Croc@"
@@ -3540,6 +3550,16 @@ SneaselHisuianPokedexEntry::
 
 SECTION "BasculinRedPokedexEntry", ROMX
 BasculinRedPokedexEntry::
+	db "Hostile@"
+	db "Basculin get"
+	next "along so poorly,"
+	next "they'll start to"
+	page "fight instantly."
+	next "These #mon are"
+	next "very hostile.@"
+
+SECTION "BasculinBluePokedexEntry", ROMX
+BasculinBluePokedexEntry::
 	db "Hostile@"
 	db "Basculin get"
 	next "along so poorly,"

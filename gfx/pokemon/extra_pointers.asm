@@ -227,7 +227,7 @@ AnimationExtraPointers:
 	dw WhimsicottAnimationExtra
 	dw PetililAnimationExtra
 	dw LilligantPlainAnimationExtra
-	dw BasculinRedAnimationExtra ; BasculinWhiteAnimationExtra
+	dw BasculinWhiteAnimationExtra
 	dw SandileAnimationExtra
 	dw KrokorokAnimationExtra
 	dw KrookodileAnimationExtra
@@ -404,6 +404,9 @@ AnimationExtraPointers:
 	dw SneaselHisuianAnimationExtra
 	
 	dw UnfezantFemaleAnimationExtra
+	
+	dw BasculinRedAnimationExtra
+	dw BasculinBlueAnimationExtra
 	
 	dw DeerlingSummerAnimationExtra
 	dw DeerlingAutumnAnimationExtra

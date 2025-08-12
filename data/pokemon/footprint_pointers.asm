@@ -367,6 +367,9 @@ FootprintPointers::
 	
 	dw UnfezantFootprint
 	
+	dw BasculinFootprint
+	dw BasculinFootprint
+	
 	dw DeerlingFootprint
 	dw DeerlingFootprint
 	dw DeerlingFootprint

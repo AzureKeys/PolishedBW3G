@@ -484,6 +484,11 @@ DEF PALDEAN_FORM EQU 5
 ; unfezant
 	ext_const_def 1, UNFEZANT_MALE_FORM ; (1)
 	ext_const UNFEZANT_FEMALE_FORM      ; 13f (2)
+
+; basculin
+	ext_const_def 1, BASCULIN_WHITE_FORM ; (1)
+	ext_const BASCULIN_RED_FORM          ; 13f (2)
+	ext_const BASCULIN_BLUE_FORM         ; 13f (3)
 	
 ; deerling
 	ext_const_def 1, DEERLING_SPRING_FORM ; (1)

@@ -408,7 +408,9 @@ SamurottPlainAnimationExtra: INCLUDE "gfx/pokemon/samurott_plain/anim_idle.asm"
 
 LilligantPlainAnimationExtra: INCLUDE "gfx/pokemon/lilligant_plain/anim_idle.asm"
 
-BasculinRedAnimationExtra: INCLUDE "gfx/pokemon/basculin_red/anim_idle.asm"
+BasculinRedAnimationExtra:   INCLUDE "gfx/pokemon/basculin_red/anim_idle.asm"
+BasculinBlueAnimationExtra:  INCLUDE "gfx/pokemon/basculin_blue/anim_idle.asm"
+BasculinWhiteAnimationExtra: INCLUDE "gfx/pokemon/basculin_white/anim_idle.asm"
 
 DarumakaPlainAnimationExtra: INCLUDE "gfx/pokemon/darumaka_plain/anim_idle.asm"
 

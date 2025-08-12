@@ -227,7 +227,7 @@ FramesPointers:
 	dw WhimsicottFrames
 	dw PetililFrames
 	dw LilligantPlainFrames
-	dw BasculinRedFrames ; BasculinWhiteFrames
+	dw BasculinWhiteFrames
 	dw SandileFrames
 	dw KrokorokFrames
 	dw KrookodileFrames
@@ -404,6 +404,9 @@ FramesPointers:
 	dw SneaselHisuianFrames
 	
 	dw UnfezantFemaleFrames
+	
+	dw BasculinRedFrames
+	dw BasculinBlueFrames
 	
 	dw DeerlingSummerFrames
 	dw DeerlingAutumnFrames

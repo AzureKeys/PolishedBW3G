@@ -231,7 +231,7 @@ PokemonPicPointers::
 	pics Whimsicott
 	pics Petilil
 	pics LilligantPlain
-	pics BasculinRed ; BasculinWhite
+	pics BasculinWhite
 	pics Sandile
 	pics Krokorok
 	pics Krookodile
@@ -408,6 +408,9 @@ PokemonPicPointers::
 	pics SneaselHisuian
 	
 	pics UnfezantFemale
+	
+	pics BasculinRed
+	pics BasculinBlue
 	
 	pics DeerlingSummer
 	pics DeerlingAutumn

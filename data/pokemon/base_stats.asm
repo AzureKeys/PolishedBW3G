@@ -402,6 +402,9 @@ INCLUDE "data/pokemon/base_stats/sneasel_hisuian.asm"
 
 INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
 
+INCLUDE "data/pokemon/base_stats/basculin_red.asm"
+INCLUDE "data/pokemon/base_stats/basculin_blue.asm"
+
 INCLUDE "data/pokemon/base_stats/deerling.asm" ; summer
 INCLUDE "data/pokemon/base_stats/deerling.asm" ; autumn
 INCLUDE "data/pokemon/base_stats/deerling.asm" ; winter

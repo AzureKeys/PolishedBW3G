@@ -409,6 +409,9 @@ MiniIconPointers:
 
 	mini_icon UnfezantFemale
 	
+	mini_icon Basculin
+	mini_icon Basculin
+	
 	mini_icon Deerling
 	mini_icon Deerling
 	mini_icon Deerling

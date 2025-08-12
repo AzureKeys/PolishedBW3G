@@ -227,7 +227,7 @@ BitmasksPointers:
 	dw WhimsicottBitmasks
 	dw PetililBitmasks
 	dw LilligantPlainBitmasks
-	dw BasculinRedBitmasks ; BasculinWhiteBitmasks
+	dw BasculinWhiteBitmasks
 	dw SandileBitmasks
 	dw KrokorokBitmasks
 	dw KrookodileBitmasks
@@ -404,6 +404,9 @@ BitmasksPointers:
 	dw SneaselHisuianBitmasks
 	
 	dw UnfezantFemaleBitmasks
+	
+	dw BasculinRedBitmasks
+	dw BasculinBlueBitmasks
 	
 	dw DeerlingSummerBitmasks
 	dw DeerlingAutumnBitmasks

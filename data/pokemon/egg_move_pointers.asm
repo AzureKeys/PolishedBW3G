@@ -367,6 +367,9 @@ EggSpeciesMovesPointers::
 	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
 	
+	dw BasculinEggSpeciesMoves          ; Basculin (Red)
+	dw BasculinEggSpeciesMoves          ; Basculin (Blue)
+	
 	dw DeerlingEggSpeciesMoves          ; Deerling (Summer)
 	dw DeerlingEggSpeciesMoves          ; Deerling (Autumn)
 	dw DeerlingEggSpeciesMoves          ; Deerling (Winter)

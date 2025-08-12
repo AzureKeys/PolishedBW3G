@@ -228,7 +228,7 @@ PokedexDataPointerTable:
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
 	dba LilligantPlainPokedexEntry
-	dba BasculinRedPokedexEntry ; BasculinWhitePokedexEntry
+	dba BasculinWhitePokedexEntry
 	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
 	dba KrookodilePokedexEntry
@@ -367,6 +367,9 @@ PokedexDataPointerTable:
 	dba SneaselHisuianPokedexEntry
 	
 	dba UnfezantPokedexEntry
+	
+	dba BasculinRedPokedexEntry
+	dba BasculinBluePokedexEntry
 	
 	dba DeerlingPokedexEntry
 	dba DeerlingPokedexEntry

@@ -371,6 +371,9 @@ EvosAttacksPointers::
 	
 	dw UnfezantEvosAttacks
 	
+	dw BasculinEvosAttacks
+	dw BasculinEvosAttacks
+	
 	dw DeerlingEvosAttacks
 	dw DeerlingEvosAttacks
 	dw DeerlingEvosAttacks
