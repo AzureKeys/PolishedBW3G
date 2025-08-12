@@ -30,9 +30,6 @@
 	const CHARMANDER ; xx
 	const CHARMELEON ; xx
 	const CHARIZARD  ; xx
-	const SQUIRTLE   ; xx
-	const WARTORTLE  ; xx
-	const BLASTOISE  ; xx
 	const RATTATA    ; 01
 	const RATICATE   ; 02
 	const PIKACHU    ; 03
@@ -278,11 +275,11 @@
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const DUCKLETT   ; 149
 	const SWANNA     ; 14a
 	const VANILLITE  ; 14b

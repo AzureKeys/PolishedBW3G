@@ -10,9 +10,6 @@ MiniIconPointers:
 	mini_icon Charmander
 	mini_icon Charmeleon
 	mini_icon Charizard
-	mini_icon Squirtle
-	mini_icon Wartortle
-	mini_icon Blastoise
 	mini_icon Rattata
 	mini_icon Raticate
 	mini_icon Pikachu
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Gothita
 	mini_icon Gothorita
 	mini_icon Gothitelle
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Solosis
 	mini_icon Duosion
 	mini_icon Reuniclus
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Ducklett
 	mini_icon Swanna
 	mini_icon Vanillite

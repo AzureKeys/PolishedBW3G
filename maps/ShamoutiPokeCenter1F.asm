@@ -65,9 +65,9 @@ ShamoutiPokeCenter1FIvyScript:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke RATTATA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
-	getmonname BULBASAUR, STRING_BUFFER_3
+	getmonname RATTATA, STRING_BUFFER_3
 	setevent EVENT_GOT_BULBASAUR_FROM_IVY
 	sjumpfwd .Finish
 
@@ -75,9 +75,9 @@ ShamoutiPokeCenter1FIvyScript:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke RATTATA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
-	getmonname CHARMANDER, STRING_BUFFER_3
+	getmonname RATTATA, STRING_BUFFER_3
 	setevent EVENT_GOT_CHARMANDER_FROM_IVY
 	sjumpfwd .Finish
 
@@ -85,9 +85,9 @@ ShamoutiPokeCenter1FIvyScript:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke RATTATA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
-	getmonname SQUIRTLE, STRING_BUFFER_3
+	getmonname RATTATA, STRING_BUFFER_3
 	setevent EVENT_GOT_SQUIRTLE_FROM_IVY
 .Finish:
 	writetext .GoodbyeText

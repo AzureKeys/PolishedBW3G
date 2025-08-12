@@ -7,9 +7,6 @@ PokedexDataPointerTable:
 	dba CharmanderPokedexEntry
 	dba CharmeleonPokedexEntry
 	dba CharizardPokedexEntry
-	dba SquirtlePokedexEntry
-	dba WartortlePokedexEntry
-	dba BlastoisePokedexEntry
 	dba RattataPlainPokedexEntry
 	dba RaticatePlainPokedexEntry
 	dba PikachuPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry
+	dba BulbasaurPokedexEntry ; EGG
+	dba BulbasaurPokedexEntry ; $100
 	dba DucklettPokedexEntry
 	dba SwannaPokedexEntry
 	dba VanillitePokedexEntry

@@ -6,9 +6,6 @@ AnimationExtraPointers:
 	dw CharmanderAnimationExtra
 	dw CharmeleonAnimationExtra
 	dw CharizardAnimationExtra
-	dw SquirtleAnimationExtra
-	dw WartortleAnimationExtra
-	dw BlastoiseAnimationExtra
 	dw RattataPlainAnimationExtra
 	dw RaticatePlainAnimationExtra
 	dw PikachuPlainAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra
 	dw ReuniclusAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw DucklettAnimationExtra
 	dw SwannaAnimationExtra
 	dw VanilliteAnimationExtra

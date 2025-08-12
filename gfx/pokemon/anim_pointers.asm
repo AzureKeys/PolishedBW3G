@@ -6,9 +6,6 @@ AnimationPointers:
 	dw CharmanderAnimation
 	dw CharmeleonAnimation
 	dw CharizardAnimation
-	dw SquirtleAnimation
-	dw WartortleAnimation
-	dw BlastoiseAnimation
 	dw RattataPlainAnimation
 	dw RaticatePlainAnimation
 	dw PikachuPlainAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw GothitaAnimation
 	dw GothoritaAnimation
 	dw GothitelleAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SolosisAnimation
 	dw DuosionAnimation
 	dw ReuniclusAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw DucklettAnimation
 	dw SwannaAnimation
 	dw VanilliteAnimation

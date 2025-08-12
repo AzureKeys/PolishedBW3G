@@ -6,9 +6,6 @@ FramesPointers:
 	dw CharmanderFrames
 	dw CharmeleonFrames
 	dw CharizardFrames
-	dw SquirtleFrames
-	dw WartortleFrames
-	dw BlastoiseFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
 	dw PikachuPlainFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw GothitaFrames
 	dw GothoritaFrames
 	dw GothitelleFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SolosisFrames
 	dw DuosionFrames
 	dw ReuniclusFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw DucklettFrames
 	dw SwannaFrames
 	dw VanilliteFrames

@@ -31,21 +31,6 @@ CharizardMini::     INCBIN "gfx/minis/charizard.2bpp.lz"
 CharizardMiniMask:: INCBIN "gfx/minis/charizard_mask.1bpp.lz"
 CharizardIcon::     INCBIN "gfx/icons/charizard.2bpp.lz"
 
-SECTION "Squirtle Mini Icon", ROMX
-SquirtleMini::     INCBIN "gfx/minis/squirtle.2bpp.lz"
-SquirtleMiniMask:: INCBIN "gfx/minis/squirtle_mask.1bpp.lz"
-SquirtleIcon::     INCBIN "gfx/icons/squirtle.2bpp.lz"
-
-SECTION "Wartortle Mini Icon", ROMX
-WartortleMini::     INCBIN "gfx/minis/wartortle.2bpp.lz"
-WartortleMiniMask:: INCBIN "gfx/minis/wartortle_mask.1bpp.lz"
-WartortleIcon::     INCBIN "gfx/icons/wartortle.2bpp.lz"
-
-SECTION "Blastoise Mini Icon", ROMX
-BlastoiseMini::     INCBIN "gfx/minis/blastoise.2bpp.lz"
-BlastoiseMiniMask:: INCBIN "gfx/minis/blastoise_mask.1bpp.lz"
-BlastoiseIcon::     INCBIN "gfx/icons/blastoise.2bpp.lz"
-
 SECTION "Rattata Mini Icon", ROMX
 RattataMini::     INCBIN "gfx/minis/rattata.2bpp.lz"
 RattataMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"

@@ -7,9 +7,6 @@ PokemonNames::
 	rawchar "Charmander"
 	rawchar "Charmeleon"
 	rawchar "Charizard@"
-	rawchar "Squirtle@@"
-	rawchar "Wartortle@"
-	rawchar "Blastoise@"
 	rawchar "Rattata@@@"
 	rawchar "Raticate@@"
 	rawchar "Pikachu@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Gothita@@@"
 	rawchar "Gothorita@"
 	rawchar "Gothitelle"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Solosis@@@"
 	rawchar "Duosion@@@"
 	rawchar "Reuniclus@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Ducklett@@"
 	rawchar "Swanna@@@@"
 	rawchar "Vanillite@"

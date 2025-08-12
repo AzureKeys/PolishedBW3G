@@ -6,9 +6,6 @@ EggSpeciesMovesPointers::
 	dw CharmanderEggSpeciesMoves        ; Charmander
 	dw CharmanderEggSpeciesMoves        ; Charmeleon
 	dw CharmanderEggSpeciesMoves        ; Charizard
-	dw SquirtleEggSpeciesMoves          ; Squirtle
-	dw SquirtleEggSpeciesMoves          ; Wartortle
-	dw SquirtleEggSpeciesMoves          ; Blastoise
 	dw RattataPlainEggSpeciesMoves      ; Rattata
 	dw RattataPlainEggSpeciesMoves      ; Raticate
 	dw PichuEggSpeciesMoves             ; Pikachu
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw DucklettEggSpeciesMoves          ; Ducklett
 	dw DucklettEggSpeciesMoves          ; Swanna
 	dw VanilliteEggSpeciesMoves         ; Vanillite

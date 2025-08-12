@@ -6,9 +6,6 @@ BitmasksPointers:
 	dw CharmanderBitmasks
 	dw CharmeleonBitmasks
 	dw CharizardBitmasks
-	dw SquirtleBitmasks
-	dw WartortleBitmasks
-	dw BlastoiseBitmasks
 	dw RattataPlainBitmasks
 	dw RaticatePlainBitmasks
 	dw PikachuPlainBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw GothitaBitmasks
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw SolosisBitmasks
 	dw DuosionBitmasks
 	dw ReuniclusBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw DucklettBitmasks
 	dw SwannaBitmasks
 	dw VanilliteBitmasks

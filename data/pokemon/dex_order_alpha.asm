@@ -18,7 +18,6 @@ AlphabeticalPokedexOrder:
 	dp BEARTIC
 	dp BEHEEYEM
 	dp BISHARP
-	dp BLASTOISE
 	dp BLITZLE
 	dp BOLDORE
 	dp BONSLY
@@ -267,7 +266,6 @@ AlphabeticalPokedexOrder:
 	dp SNORLAX
 	dp SNUBBULL
 	dp SOLOSIS
-	dp SQUIRTLE
 	dp STARMIE
 	dp STARYU
 	dp STEELIX
@@ -312,7 +310,6 @@ AlphabeticalPokedexOrder:
 	dp VOLCARONA
 	dp VULLABY
 	dp VULPIX
-	dp WARTORTLE
 	dp WATCHOG
 	dp WEAVILE
 	dp WEEZING

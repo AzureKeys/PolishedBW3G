@@ -32,18 +32,6 @@ SECTION "Charizard Pics", ROMX
 CharizardFrontpic: INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 CharizardBackpic:  INCBIN "gfx/pokemon/charizard/back.2bpp.lz"
 
-SECTION "Squirtle Pics", ROMX
-SquirtleFrontpic: INCBIN "gfx/pokemon/squirtle/front.animated.2bpp.lz"
-SquirtleBackpic:  INCBIN "gfx/pokemon/squirtle/back.2bpp.lz"
-
-SECTION "Wartortle Pics", ROMX
-WartortleFrontpic: INCBIN "gfx/pokemon/wartortle/front.animated.2bpp.lz"
-WartortleBackpic:  INCBIN "gfx/pokemon/wartortle/back.2bpp.lz"
-
-SECTION "Blastoise Pics", ROMX
-BlastoiseFrontpic: INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
-BlastoiseBackpic:  INCBIN "gfx/pokemon/blastoise/back.2bpp.lz"
-
 SECTION "Marill Pics", ROMX
 MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
 MarillBackpic:  INCBIN "gfx/pokemon/marill/back.2bpp.lz"

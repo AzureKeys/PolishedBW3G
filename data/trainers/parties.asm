@@ -982,7 +982,7 @@ BlueGroup:
 		tr_moves SLASH, SURF, STONE_EDGE, GIGA_DRAIN
 	tr_mon 68, ARCANINE @ CHARCOAL
 		tr_moves ROAR, FLAME_CHARGE, FLAMETHROWER, EXTREMESPEED
-	tr_mon 70, BLASTOISE @ MYSTIC_WATER
+	tr_mon 70, RATTATA @ MYSTIC_WATER
 if DEF(FAITHFUL)
 		tr_moves SURF, ICE_BEAM, BODY_SLAM, EARTHQUAKE
 else
@@ -1001,7 +1001,7 @@ endc
 		tr_moves PSYCHIC_M, LEECH_SEED, SEED_BOMB, GIGA_DRAIN
 	tr_mon 74, ARCANINE @ CHARCOAL
 		tr_moves ROAR, OUTRAGE, FLARE_BLITZ, EXTREMESPEED
-	tr_mon 75, BLASTOISE @ LEFTOVERS
+	tr_mon 75, RATTATA @ LEFTOVERS
 		tr_moves SURF, ICE_BEAM, REST, SLEEP_TALK
 	end_trainer
 
@@ -3032,7 +3032,7 @@ PokefanMGroup:
 	def_trainer CARTER, "Carter"
 	tr_mon 59, BULBASAUR @ SITRUS_BERRY
 	tr_mon 59, CHARMANDER @ SITRUS_BERRY
-	tr_mon 59, SQUIRTLE @ SITRUS_BERRY
+	tr_mon 59, RATTATA @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer TREVOR, "Trevor"
@@ -3134,7 +3134,7 @@ OfficerFGroup:
 	def_trainer JAMIE, "Jamie"
 	tr_mon 54, GROWLITHE
 	tr_mon 58, ARCANINE
-	tr_mon 57, BLASTOISE
+	tr_mon 57, RATTATA
 	end_trainer
 
 	def_trainer MARA, "Mara"
@@ -3142,10 +3142,10 @@ OfficerFGroup:
 	end_trainer
 
 	def_trainer JENNY, "Jenny"
-	tr_mon 53, SQUIRTLE
-	tr_mon 53, SQUIRTLE
-	tr_mon 53, SQUIRTLE
-	tr_mon 53, SQUIRTLE
+	tr_mon 53, RATTATA
+	tr_mon 53, RATTATA
+	tr_mon 53, RATTATA
+	tr_mon 53, RATTATA
 	end_trainer
 
 
@@ -4061,7 +4061,7 @@ SchoolgirlGroup:
 	end_trainer
 
 	def_trainer ISABEL, "Isabel"
-	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", SQUIRTLE
+	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", RATTATA
 	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 1, PIKACHU
 	end_trainer
@@ -4390,7 +4390,7 @@ ElderGroup:
 	def_trainer MASA, "Masa"
 	tr_mon 37, RATTATA
 	tr_mon 38, JOLTEON
-	tr_mon 38, WARTORTLE
+	tr_mon 38, RATTATA
 	end_trainer
 
 	def_trainer KOJI, "Koji"
@@ -4816,7 +4816,7 @@ SwimmerMGroup:
 
 	def_trainer RANDALL, "Randall"
 	tr_mon 18, RATTATA
-	tr_mon 20, WARTORTLE
+	tr_mon 20, RATTATA
 	tr_mon 18, RATTATA
 	end_trainer
 
@@ -4940,7 +4940,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer THOMAS, "Thomas"
-	tr_mon LEVEL_FROM_BADGES + 5, WARTORTLE
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 		tr_moves DEFENSE_CURL, BITE, SURF, RAPID_SPIN
 	end_trainer
 
@@ -6067,7 +6067,7 @@ CooltrainerMGroup:
 	def_trainer NICK, "Nick"
 	tr_mon 26, CHARMANDER
 		tr_moves EMBER, SMOKESCREEN, RAGE, SCARY_FACE
-	tr_mon 26, SQUIRTLE
+	tr_mon 26, RATTATA
 		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
 	tr_mon 26, BULBASAUR
 		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
@@ -6076,7 +6076,7 @@ CooltrainerMGroup:
 	def_trainer AARON, "Aaron"
 	tr_mon 28, IVYSAUR
 	tr_mon 28, CHARMELEON
-	tr_mon 28, WARTORTLE
+	tr_mon 28, RATTATA
 	end_trainer
 
 	def_trainer CODY, "Cody"
@@ -6108,7 +6108,7 @@ CooltrainerMGroup:
 	def_trainer ANDY, "Andy"
 	tr_mon 10, BULBASAUR
 	tr_mon 10, CHARMANDER
-	tr_mon 10, SQUIRTLE
+	tr_mon 10, RATTATA
 	end_trainer
 
 	def_trainer SEAN, "Sean"
@@ -6120,7 +6120,7 @@ CooltrainerMGroup:
 	def_trainer KEVIN, "Kevin"
 	tr_mon 54, RATTATA
 	tr_mon 56, CHARIZARD
-	tr_mon 56, BLASTOISE
+	tr_mon 56, RATTATA
 	end_trainer
 
 	def_trainer ALLEN, "Allen"
@@ -6137,14 +6137,14 @@ CooltrainerMGroup:
 
 	def_trainer HENRI, "Henri"
 	tr_mon LEVEL_FROM_BADGES + 5, CHARMELEON
-	tr_mon LEVEL_FROM_BADGES + 5, WARTORTLE
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, IVYSAUR
 	end_trainer
 
 	def_trainer CONNOR, "Connor"
 	tr_mon 63, SCYTHER
 	tr_mon 62, RATTATA
-	tr_mon 62, WARTORTLE
+	tr_mon 62, RATTATA
 	end_trainer
 
 	def_trainer KIERAN, "Kieran"
@@ -6327,14 +6327,14 @@ endc
 
 	def_trainer KELLY, "Kelly"
 	tr_mon 37, MARILL
-	tr_mon 35, WARTORTLE
+	tr_mon 35, RATTATA
 	tr_mon 35, RATTATA
 	end_trainer
 
 	def_trainer JOYCE, "Joyce"
 	tr_mon 37, PIKACHU
 		tr_moves QUICK_ATTACK, DOUBLE_TEAM, THUNDERBOLT, THUNDER
-	tr_mon 38, BLASTOISE
+	tr_mon 38, RATTATA
 		tr_moves BITE, CURSE, SURF, RAIN_DANCE
 	end_trainer
 
@@ -6401,7 +6401,7 @@ endc
 		tr_evs 132 SAt, 252 Spe
 	tr_mon 63, NINETALES @ CHARCOAL
 		tr_evs 132 SAt, 252 Spe
-	tr_mon 63, "Shellshock", BLASTOISE @ LEFTOVERS
+	tr_mon 63, "Shellshock", RATTATA @ LEFTOVERS
 		tr_evs 132 HP, 252 Spe
 	end_trainer
 
@@ -6514,7 +6514,7 @@ VeteranMGroup:
 	end_trainer
 
 	def_trainer REMY, "Remy"
-	tr_mon 42, BLASTOISE @ MYSTIC_WATER
+	tr_mon 42, RATTATA @ MYSTIC_WATER
 if DEF(FAITHFUL)
 		tr_moves SURF, AQUA_TAIL, ICE_BEAM, BODY_SLAM
 else
@@ -6809,18 +6809,18 @@ ProfOakGroup:
 	tr_mon 76, RATTATA @ BERSERK_GENE, FEMALE
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_moves BRAVE_BIRD, HI_JUMP_KICK, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 80, VENUSAUR @ BIG_ROOT, FEMALE
-		tr_extra THICK_FAT, SDEF_UP_ATK_DOWN
+	tr_mon 80, RATTATA @ BIG_ROOT, FEMALE
+		tr_extra HUSTLE, SDEF_UP_ATK_DOWN
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
-	tr_mon 80, CHARIZARD @ LIFE_ORB, MALE
+	tr_mon 80, RATTATA @ LIFE_ORB, MALE
 if !DEF(FAITHFUL)
-		tr_extra TOUGH_CLAWS, SPE_UP_SATK_DOWN
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 else
-		tr_extra DROUGHT, SPE_UP_SATK_DOWN
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 endc
 		tr_moves FLARE_BLITZ, DRAGON_CLAW, CRUNCH, DRAGON_DANCE
-	tr_mon 80, BLASTOISE @ WHITE_HERB, MALE
-		tr_extra TORRENT, SDEF_UP_SATK_DOWN
+	tr_mon 80, RATTATA @ WHITE_HERB, MALE
+		tr_extra HUSTLE, SDEF_UP_SATK_DOWN
 		tr_moves WATERFALL, IRON_HEAD, CLOSE_COMBAT, SHELL_SMASH
 	tr_mon 82, NIDOKING @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
@@ -7089,7 +7089,7 @@ if DEF(FAITHFUL)
 	tr_mon 58, MAGNEZONE @ WISE_GLASSES, MALE
 		tr_moves THUNDERBOLT, FLASH_CANNON, TRI_ATTACK, EXPLOSION
 else
-	tr_mon 58, BLASTOISE @ WISE_GLASSES, MALE
+	tr_mon 58, RATTATA @ WISE_GLASSES, MALE
 		tr_moves SURF, BLIZZARD, FLASH_CANNON, AURA_SPHERE
 endc
 	tr_mon 58, SANDSLASH @ NEVERMELTICE, MALE | ALOLAN_FORM
@@ -7330,7 +7330,7 @@ AnabelGroup:
 	def_trainer 2, "Anabel"
 	tr_mon 74, SNORLAX
 	tr_mon 75, SLOWKING
-	tr_mon 73, BLASTOISE
+	tr_mon 73, RATTATA
 	tr_mon 71, RATTATA
 	tr_mon 72, POLITOED
 	tr_mon 73, MR__MIME
@@ -7348,7 +7348,7 @@ if DEF(FAITHFUL)
 	tr_mon 57, RATTATA
 	tr_mon 56, SKARMORY
 else
-	tr_mon 57, BLASTOISE
+	tr_mon 57, RATTATA
 	tr_mon 56, RATTATA
 endc
 	tr_mon 58, MISMAGIUS
@@ -7391,7 +7391,7 @@ BlancheGroup:
 	def_trainer 1, "Blanche"
 	tr_mon 63, VAPOREON
 	tr_mon 62, LAPRAS
-	tr_mon 63, BLASTOISE
+	tr_mon 63, RATTATA
 	tr_mon 61, RATTATA
 	tr_mon 62, STARMIE
 	tr_mon 65, RATTATA @ NEVERMELTICE
@@ -7491,7 +7491,7 @@ MarlonGroup:
 		tr_evs 200 SDf
 	tr_mon 37, RATTATA
 		tr_evs 200 Spe
-	tr_mon 34, BLASTOISE
+	tr_mon 34, RATTATA
 		tr_evs 200 HP
 	tr_mon 35, MANTINE
 		tr_evs 200 Def
@@ -7504,7 +7504,7 @@ MarlonGroup:
 		tr_evs 68 HP, 252 SDf
 	tr_mon 60, RATTATA
 		tr_evs 68 SAt, 252 Spe
-	tr_mon 58, BLASTOISE
+	tr_mon 58, RATTATA
 		tr_evs 252 HP, 68 SAt
 	tr_mon 59, MANTINE
 		tr_evs 68 HP, 252 Def
@@ -7517,7 +7517,7 @@ MarlonGroup:
 	def_trainer 3, "Marlon"
 	tr_mon 72, RATTATA
 	tr_mon 75, RATTATA
-	tr_mon 73, BLASTOISE
+	tr_mon 73, RATTATA
 	tr_mon 74, MANTINE
 	tr_mon 73, STARMIE
 	tr_mon 72, RATTATA

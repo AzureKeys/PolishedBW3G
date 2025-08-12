@@ -188,66 +188,6 @@ EvosAttacks::
 	learnset 71, FLARE_BLITZ
 	learnset 77, HURRICANE ; Sw/Sh move
 
-	evos_attacks Squirtle
-	evo_data EVOLVE_LEVEL, 16, WARTORTLE
-	learnset 1, TACKLE
-	learnset 4, LEER ; Tail Whip → similar move
-	learnset 7, WATER_GUN
-	learnset 10, DEFENSE_CURL ; Withdraw → similar move
-	learnset 13, AQUA_JET ; Bubble → egg move
-	learnset 16, BITE
-	learnset 19, RAPID_SPIN
-	learnset 22, PROTECT
-	learnset 25, WATER_PULSE
-	learnset 28, AQUA_TAIL
-	learnset 31, CLOSE_COMBAT ; Skull Bash → new move
-	learnset 34, MIRROR_COAT ; Iron Defense → egg move
-	learnset 37, RAIN_DANCE
-	learnset 40, HYDRO_PUMP
-	learnset 43, SHELL_SMASH ; Sw/Sw move
-
-	evos_attacks Wartortle
-	evo_data EVOLVE_LEVEL, 36, BLASTOISE
-	learnset 1, TACKLE
-	learnset 4, LEER ; Tail Whip → similar move
-	learnset 7, WATER_GUN
-	learnset 10, DEFENSE_CURL ; Withdraw → similar move
-	learnset 13, AQUA_JET ; Bubble → egg move
-	learnset 16, BITE
-	learnset 20, RAPID_SPIN
-	learnset 24, PROTECT
-	learnset 28, WATER_PULSE
-	learnset 32, AQUA_TAIL
-	learnset 36, CLOSE_COMBAT ; Skull Bash → new move
-	learnset 40, MIRROR_COAT ; Iron Defense → egg move
-	learnset 44, RAIN_DANCE
-	learnset 48, HYDRO_PUMP
-	learnset 52, SHELL_SMASH ; Sw/Sw move
-
-	evos_attacks Blastoise
-	learnset 1, FLASH_CANNON ; evolution move
-	learnset 1, AURA_SPHERE ; new move
-	learnset 1, ZAP_CANNON ; event move
-	learnset 1, OUTRAGE ; HGSS tutor move
-	learnset 1, TACKLE
-	learnset 4, LEER ; Tail Whip → similar move
-	learnset 7, WATER_GUN
-	learnset 10, DEFENSE_CURL ; Withdraw → similar move
-	learnset 13, AQUA_JET ; Bubble → egg move
-	learnset 16, BITE
-	learnset 20, RAPID_SPIN
-	learnset 24, PROTECT
-	learnset 28, WATER_PULSE
-	learnset 32, AQUA_TAIL
-	learnset 39, CLOSE_COMBAT ; Skull Bash → new move
-	learnset 46, MIRROR_COAT ; Iron Defense → egg move
-	learnset 53, RAIN_DANCE
-	learnset 60, HYDRO_PUMP
-	learnset 67, SHELL_SMASH ; Sw/Sw move
-if !DEF(FAITHFUL)
-	learnset 75, IRON_HEAD ; TM move
-endc
-
 	evos_attacks RattataPlain
 	evo_data EVOLVE_LEVEL, 20, RATICATE
 	learnset 1, TACKLE

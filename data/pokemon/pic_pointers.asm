@@ -10,9 +10,6 @@ PokemonPicPointers::
 	pics Charmander
 	pics Charmeleon
 	pics Charizard
-	pics Squirtle
-	pics Wartortle
-	pics Blastoise
 	pics RattataPlain
 	pics RaticatePlain
 	pics PikachuPlain
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Gothita
 	pics Gothorita
 	pics Gothitelle
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Solosis
 	pics Duosion
 	pics Reuniclus
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Ducklett
 	pics Swanna
 	pics Vanillite

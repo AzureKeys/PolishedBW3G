@@ -25,16 +25,6 @@ CharmanderEggSpeciesMoves:
 	db OUTRAGE
 	db $ff
 
-SquirtleEggSpeciesMoves:
-	dp SQUIRTLE, PLAIN_FORM
-	db CONFUSION
-	db CRUNCH
-	db FORESIGHT
-	db HAZE
-	db MIRROR_COAT
-	db AQUA_JET
-	db $ff
-
 RattataPlainEggSpeciesMoves:
 	dp RATTATA, PLAIN_FORM
 	db FURY_STRIKES

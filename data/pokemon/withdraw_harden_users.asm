@@ -2,9 +2,6 @@
 
 WithdrawUsers:
 ; Defense Curl += Withdraw
-	dp SQUIRTLE
-	dp WARTORTLE
-	dp BLASTOISE
 	dp SLOWBRO
 	dp DWEBBLE
 	dp CRUSTLE

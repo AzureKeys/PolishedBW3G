@@ -58,40 +58,6 @@ CharizardPokedexEntry::
 	next "it gains exper-"
 	next "ience in battle.@"
 
-SECTION "SquirtlePokedexEntry", ROMX
-SquirtlePokedexEntry::
-	db "Tiny Turtle@"
-	db   "When it feels"
-	next "threatened, it"
-	next "draws its legs"
-	page "inside its shell"
-	next "and sprays water"
-	next "from its mouth.@"
-
-SECTION "WartortlePokedexEntry", ROMX
-WartortlePokedexEntry::
-	db "Turtle@"
-	db   "Its long, furry"
-	next "tail is a symbol"
-	next "of longevity,"
-	page "making it quite"
-	next "popular among"
-	next "older people.@"
-
-SECTION "BlastoisePokedexEntry", ROMX
-BlastoisePokedexEntry::
-if DEF(FAITHFUL)
-	db "Shellfish@"
-else
-	db "Shell@"
-endc
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"
-
 SECTION "RattataPlainPokedexEntry", ROMX
 RattataPlainPokedexEntry::
 	db "Rat@"

@@ -6,9 +6,6 @@ EvolutionMoves::
 	db NO_MOVE      ; CHARMANDER
 	db NO_MOVE      ; CHARMELEON
 	db WING_ATTACK  ; CHARIZARD
-	db NO_MOVE      ; SQUIRTLE
-	db NO_MOVE      ; WARTORTLE
-	db FLASH_CANNON ; BLASTOISE
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; PIKACHU
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
 	db DIZZY_PUNCH  ; REUNICLUS
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
 	db NO_MOVE      ; VANILLITE
