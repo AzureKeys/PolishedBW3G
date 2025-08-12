@@ -1,33 +1,3 @@
-SECTION "BulbasaurPokedexEntry", ROMX
-BulbasaurPokedexEntry::
-	db "Seed@"
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
-
-SECTION "IvysaurPokedexEntry", ROMX
-IvysaurPokedexEntry::
-	db "Seed@"
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
-
-SECTION "VenusaurPokedexEntry", ROMX
-VenusaurPokedexEntry::
-	db "Seed@"
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
-
 SECTION "RattataPlainPokedexEntry", ROMX
 RattataPlainPokedexEntry::
 	db "Rat@"

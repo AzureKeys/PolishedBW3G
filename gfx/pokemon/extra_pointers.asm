@@ -1,8 +1,5 @@
 AnimationExtraPointers:
 	table_width 2
-	dw BulbasaurAnimationExtra
-	dw IvysaurAnimationExtra
-	dw VenusaurAnimationExtra
 	dw RattataPlainAnimationExtra
 	dw RaticatePlainAnimationExtra
 	dw PikachuPlainAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw DucklettAnimationExtra
 	dw SwannaAnimationExtra
 	dw VanilliteAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw VanillishAnimationExtra
 	dw VanilluxeAnimationExtra
 	dw DeerlingSpringAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw SawsbuckSpringAnimationExtra
 	dw EmolgaAnimationExtra
 	dw KarrablastAnimationExtra

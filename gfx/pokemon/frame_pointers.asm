@@ -1,8 +1,5 @@
 FramesPointers:
 	table_width 2
-	dw BulbasaurFrames
-	dw IvysaurFrames
-	dw VenusaurFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
 	dw PikachuPlainFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw DucklettFrames
 	dw SwannaFrames
 	dw VanilliteFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw VanillishFrames
 	dw VanilluxeFrames
 	dw DeerlingSpringFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SawsbuckSpringFrames
 	dw EmolgaFrames
 	dw KarrablastFrames

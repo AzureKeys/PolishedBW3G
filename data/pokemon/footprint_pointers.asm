@@ -1,8 +1,5 @@
 FootprintPointers::
 	table_width 2
-	dw BulbasaurFootprint
-	dw IvysaurFootprint
-	dw VenusaurFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
 	dw PikachuFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw DucklettFootprint
 	dw SwannaFootprint
 	dw VanilliteFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw VanillishFootprint
 	dw VanilluxeFootprint
 	dw DeerlingFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SawsbuckFootprint
 	dw EmolgaFootprint
 	dw KarrablastFootprint

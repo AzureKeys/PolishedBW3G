@@ -1,8 +1,5 @@
 KantoFrames:
 
-BulbasaurFrames:  INCLUDE "gfx/pokemon/bulbasaur/frames.asm"
-IvysaurFrames:    INCLUDE "gfx/pokemon/ivysaur/frames.asm"
-VenusaurFrames:   INCLUDE "gfx/pokemon/venusaur/frames.asm"
 NidoranFFrames:   INCLUDE "gfx/pokemon/nidoran_f/frames.asm"
 NidorinaFrames:   INCLUDE "gfx/pokemon/nidorina/frames.asm"
 NidoqueenFrames:  INCLUDE "gfx/pokemon/nidoqueen/frames.asm"

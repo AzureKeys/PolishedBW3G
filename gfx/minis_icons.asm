@@ -1,21 +1,6 @@
 ; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, Pikachu253, and Ryta
 ; http://www.pokecommunity.com/showthread.php?t=338470
 
-SECTION "Bulbasaur Mini Icon", ROMX
-BulbasaurMini::     INCBIN "gfx/minis/bulbasaur.2bpp.lz"
-BulbasaurMiniMask:: INCBIN "gfx/minis/bulbasaur_mask.1bpp.lz"
-BulbasaurIcon::     INCBIN "gfx/icons/bulbasaur.2bpp.lz"
-
-SECTION "Ivysaur Mini Icon", ROMX
-IvysaurMini::     INCBIN "gfx/minis/ivysaur.2bpp.lz"
-IvysaurMiniMask:: INCBIN "gfx/minis/ivysaur_mask.1bpp.lz"
-IvysaurIcon::     INCBIN "gfx/icons/ivysaur.2bpp.lz"
-
-SECTION "Venusaur Mini Icon", ROMX
-VenusaurMini::     INCBIN "gfx/minis/venusaur.2bpp.lz"
-VenusaurMiniMask:: INCBIN "gfx/minis/venusaur_mask.1bpp.lz"
-VenusaurIcon::     INCBIN "gfx/icons/venusaur.2bpp.lz"
-
 SECTION "Rattata Mini Icon", ROMX
 RattataMini::     INCBIN "gfx/minis/rattata.2bpp.lz"
 RattataMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"

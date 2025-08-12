@@ -4,9 +4,6 @@
 
 EvosAttacksPointers::
 	table_width 2
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
 	dw RattataPlainEvosAttacks
 	dw RaticatePlainEvosAttacks
 	dw PikachuEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw DucklettEvosAttacks
 	dw SwannaEvosAttacks
 	dw VanilliteEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw VanillishEvosAttacks
 	dw VanilluxeEvosAttacks
 	dw DeerlingEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SawsbuckEvosAttacks
 	dw EmolgaEvosAttacks
 	dw KarrablastEvosAttacks

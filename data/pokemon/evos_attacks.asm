@@ -77,62 +77,6 @@ INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
 EvosAttacks::
 
-	evos_attacks Bulbasaur
-	evo_data EVOLVE_LEVEL, 16, IVYSAUR
-	learnset 1, TACKLE
-	learnset 3, GROWL
-	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
-	learnset 13, POISONPOWDER
-	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
-	learnset 19, RAZOR_LEAF
-	learnset 21, TAKE_DOWN ; Sweet Scent → Take Down
-	learnset 25, GROWTH
-	learnset 27, DOUBLE_EDGE
-	learnset 31, ANCIENTPOWER ; Worry Seed → event move
-	learnset 33, HEALINGLIGHT ; Synthesis → similar move
-	learnset 37, SEED_BOMB
-	learnset 43, SLUDGE_BOMB ; TM move
-
-	evos_attacks Ivysaur
-	evo_data EVOLVE_LEVEL, 32, VENUSAUR
-	learnset 1, TACKLE
-	learnset 3, GROWL
-	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
-	learnset 13, POISONPOWDER
-	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
-	learnset 20, RAZOR_LEAF
-	learnset 23, TAKE_DOWN ; Sweet Scent → Take Down
-	learnset 28, GROWTH
-	learnset 31, DOUBLE_EDGE
-	learnset 36, ANCIENTPOWER ; Worry Seed → event move
-	learnset 39, HEALINGLIGHT ; Synthesis → similar move
-	learnset 44, SEED_BOMB
-	learnset 50, SLUDGE_BOMB ; TM move
-
-	evos_attacks Venusaur
-	learnset 1, PETAL_DANCE ; evolution move
-	learnset 1, OUTRAGE ; HGSS tutor move
-	learnset 1, TACKLE
-	learnset 3, GROWL
-	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
-	learnset 13, POISONPOWDER
-	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
-	learnset 20, RAZOR_LEAF
-	learnset 23, TAKE_DOWN ; Sweet Scent → Take Down
-	learnset 28, GROWTH
-	learnset 31, DOUBLE_EDGE
-	learnset 39, ANCIENTPOWER ; Worry Seed → event move
-	learnset 45, HEALINGLIGHT ; Synthesis → similar move
-	learnset 50, SEED_BOMB
-	learnset 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
-	learnset 60, SOLAR_BEAM
-
 	evos_attacks RattataPlain
 	evo_data EVOLVE_LEVEL, 20, RATICATE
 	learnset 1, TACKLE

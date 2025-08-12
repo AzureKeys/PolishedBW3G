@@ -8,17 +8,6 @@ SECTION "Pokemon Pic Sizes", ROMX
 INCLUDE "data/pokemon/pic_sizes.asm"
 
 
-SECTION "Bulbasaur Pics", ROMX
-BulbasaurFrontpic: INCBIN "gfx/pokemon/bulbasaur/front.animated.2bpp.lz"
-BulbasaurBackpic:  INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"
-
-SECTION "Ivysaur Pics", ROMX
-IvysaurFrontpic: INCBIN "gfx/pokemon/ivysaur/front.animated.2bpp.lz"
-IvysaurBackpic:  INCBIN "gfx/pokemon/ivysaur/back.2bpp.lz"
-
-SECTION "Venusaur Pics", ROMX
-VenusaurFrontpic: INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
-VenusaurBackpic:  INCBIN "gfx/pokemon/venusaur/back.2bpp.lz"
 
 SECTION "Marill Pics", ROMX
 MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"

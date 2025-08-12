@@ -207,9 +207,6 @@ UnownFootprint::
 WeezingFootprint::
 ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
-BulbasaurFootprint:: INCBIN "gfx/footprints/bulbasaur.1bpp.lz"
-IvysaurFootprint:: INCBIN "gfx/footprints/ivysaur.1bpp.lz"
-VenusaurFootprint:: INCBIN "gfx/footprints/venusaur.1bpp.lz"
 RattataFootprint:: INCBIN "gfx/footprints/rattata.1bpp.lz"
 RaticateFootprint:: INCBIN "gfx/footprints/raticate.1bpp.lz"
 PikachuFootprint:: INCBIN "gfx/footprints/pikachu.1bpp.lz"

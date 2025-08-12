@@ -1,8 +1,5 @@
 BitmasksPointers:
 	table_width 2
-	dw BulbasaurBitmasks
-	dw IvysaurBitmasks
-	dw VenusaurBitmasks
 	dw RattataPlainBitmasks
 	dw RaticatePlainBitmasks
 	dw PikachuPlainBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw DucklettBitmasks
 	dw SwannaBitmasks
 	dw VanilliteBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw VanillishBitmasks
 	dw VanilluxeBitmasks
 	dw DeerlingSpringBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw SawsbuckSpringBitmasks
 	dw EmolgaBitmasks
 	dw KarrablastBitmasks

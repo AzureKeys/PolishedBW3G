@@ -1045,8 +1045,8 @@ LeafGroup:
 	tr_mon 96, LAPRAS @ LEFTOVERS, FEMALE
 		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
 		tr_moves ICE_BEAM, THUNDERBOLT, REST, SLEEP_TALK
-	tr_mon 100, VENUSAUR @ MIRACLE_SEED, FEMALE
-		tr_extra THICK_FAT, SPE_UP_DEF_DOWN
+	tr_mon 100, RATTATA @ MIRACLE_SEED, FEMALE
+		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_moves GROWTH, GIGA_DRAIN, SLUDGE_BOMB, SLEEP_POWDER
 	tr_mon 98, RATTATA @ CHARCOAL, FEMALE
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
@@ -1956,25 +1956,25 @@ PicnickerGroup:
 	def_trainer GINA1, "Gina"
 	tr_mon 9, UNFEZANT
 	tr_mon 9, RATTATA
-	tr_mon 12, BULBASAUR
+	tr_mon 12, RATTATA
 	end_trainer
 
 	def_trainer GINA2, "Gina"
 	tr_mon 14, SUNKERN
 	tr_mon 14, RATTATA
-	tr_mon 17, IVYSAUR
+	tr_mon 17, RATTATA
 	end_trainer
 
 	def_trainer GINA3, "Gina"
 	tr_mon 26, SUNFLORA
 	tr_mon 27, RATTATA
-	tr_mon 29, IVYSAUR
+	tr_mon 29, RATTATA
 	end_trainer
 
 	def_trainer GINA4, "Gina"
 	tr_mon 30, SUNFLORA
 	tr_mon 31, RATTATA
-	tr_mon 32, IVYSAUR
+	tr_mon 32, RATTATA
 	end_trainer
 
 	def_trainer GINA5, "Gina"
@@ -1986,7 +1986,7 @@ else
 endc
 	tr_mon 34, RATTATA
 		tr_moves ACROBATICS, SLEEP_POWDER, STUN_SPORE, MEGA_DRAIN
-	tr_mon 38, VENUSAUR
+	tr_mon 38, RATTATA
 		tr_moves SOLAR_BEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
 	end_trainer
 
@@ -3030,7 +3030,7 @@ PokefanMGroup:
 	end_trainer
 
 	def_trainer CARTER, "Carter"
-	tr_mon 59, BULBASAUR @ SITRUS_BERRY
+	tr_mon 59, RATTATA @ SITRUS_BERRY
 	tr_mon 59, RATTATA @ SITRUS_BERRY
 	tr_mon 59, RATTATA @ SITRUS_BERRY
 	end_trainer
@@ -3461,9 +3461,9 @@ endc
 	end_trainer
 
 	def_trainer LINDA, "Linda"
-	tr_mon 57, BULBASAUR
-	tr_mon 59, IVYSAUR
-	tr_mon 61, VENUSAUR
+	tr_mon 57, RATTATA
+	tr_mon 59, RATTATA
+	tr_mon 61, RATTATA
 	end_trainer
 
 	def_trainer LAURA, "Laura"
@@ -4067,7 +4067,7 @@ SchoolgirlGroup:
 	end_trainer
 
 	def_trainer IMOGEN, "Imogen"
-	tr_mon 13, "Garlic", BULBASAUR
+	tr_mon 13, "Garlic", RATTATA
 	tr_mon 11, POLIWAG
 	end_trainer
 
@@ -4425,13 +4425,13 @@ SrAndJrGroup:
 	end_trainer
 
 	def_trainer BEAANDMAY1, "Bea & May"
-	tr_mon LEVEL_FROM_BADGES + 4, IVYSAUR
-	tr_mon LEVEL_FROM_BADGES + 0, BULBASAUR
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	end_trainer
 
 	def_trainer BEAANDMAY2, "Bea & May"
-	tr_mon LEVEL_FROM_BADGES + 0, BULBASAUR
-	tr_mon LEVEL_FROM_BADGES + 4, IVYSAUR
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	end_trainer
 
 
@@ -5700,7 +5700,7 @@ GuitaristMGroup:
 	end_trainer
 
 	def_trainer GEDDY, "Geddy"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 
@@ -5855,7 +5855,7 @@ TamerGroup:
 	end_trainer
 
 	def_trainer JORDAN, "Jordan"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 
@@ -5922,7 +5922,7 @@ AromaLadyGroup:
 	end_trainer
 
 	def_trainer PEONY, "Peony"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 
@@ -5949,23 +5949,23 @@ SightseerMGroup:
 
 	def_trainer_class SIGHTSEERM
 	def_trainer JASKA, "Jaska"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer BLAISE, "Blaise"
-	tr_mon 50, "Bulbasaur", BULBASAUR, MALE
+	tr_mon 50, "RATTATA", RATTATA, MALE
 	end_trainer
 
 	def_trainer GARETH, "Gareth"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer CHESTER, "Chester"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer HARI, "Hari"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 
@@ -5974,15 +5974,15 @@ SightseerFGroup:
 
 	def_trainer_class SIGHTSEERF
 	def_trainer ROSIE, "Rosie"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer KAMILA, "Kamila"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer NOELLE, "Noelle"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, RATTATA
 	end_trainer
 
 	def_trainer PILAR, "Pilar"
@@ -6069,12 +6069,12 @@ CooltrainerMGroup:
 		tr_moves EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	tr_mon 26, RATTATA
 		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
-	tr_mon 26, BULBASAUR
+	tr_mon 26, RATTATA
 		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
 	end_trainer
 
 	def_trainer AARON, "Aaron"
-	tr_mon 28, IVYSAUR
+	tr_mon 28, RATTATA
 	tr_mon 28, RATTATA
 	tr_mon 28, RATTATA
 	end_trainer
@@ -6106,7 +6106,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer ANDY, "Andy"
-	tr_mon 10, BULBASAUR
+	tr_mon 10, RATTATA
 	tr_mon 10, RATTATA
 	tr_mon 10, RATTATA
 	end_trainer
@@ -6138,7 +6138,7 @@ CooltrainerMGroup:
 	def_trainer HENRI, "Henri"
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, IVYSAUR
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
 	def_trainer CONNOR, "Connor"
@@ -6177,8 +6177,8 @@ CooltrainerMGroup:
 		tr_dvs 14 All
 		tr_evs 20 HP
 		tr_moves GUST, ABSORB, ASTONISH, BITE
-	tr_mon LEVEL_FROM_BADGES + 6, BULBASAUR @ MIRACLE_SEED, MALE
-		tr_extra CHLOROPHYLL, SPE_UP_DEF_DOWN
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA @ MIRACLE_SEED, MALE
+		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_dvs 14 All
 		tr_evs 20 HP
 		tr_moves LEECH_SEED, VINE_WHIP, SLEEP_POWDER, MUD_SLAP
@@ -6195,7 +6195,7 @@ CooltrainerMGroup:
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 63, SANDSLASH @ KINGS_ROCK
 		tr_evs 132 HP, 252 Atk ; has Gyro Ball, so no Speed.
-	tr_mon 64, "Bruteroot", VENUSAUR @ LEFTOVERS
+	tr_mon 64, "Bruteroot", RATTATA @ LEFTOVERS
 		tr_evs 252 HP, 132 SAt
 	end_trainer
 
@@ -6339,11 +6339,11 @@ endc
 	end_trainer
 
 	def_trainer MEGAN, "Megan"
-	tr_mon 35, BULBASAUR
+	tr_mon 35, RATTATA
 		tr_moves GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	tr_mon 36, IVYSAUR
+	tr_mon 36, RATTATA
 		tr_moves GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	tr_mon 37, VENUSAUR
+	tr_mon 37, RATTATA
 		tr_moves BODY_SLAM, SLEEP_POWDER, RAZOR_LEAF, GROWTH
 	end_trainer
 
@@ -6354,7 +6354,7 @@ endc
 	end_trainer
 
 	def_trainer QUINN, "Quinn"
-	tr_mon 63, VENUSAUR
+	tr_mon 63, RATTATA
 	tr_mon 62, STARMIE
 	end_trainer
 
@@ -6577,7 +6577,7 @@ VeteranFGroup:
 
 	def_trainer_class VETERANF
 	def_trainer JOANNE, "Joanne"
-	tr_mon 41, VENUSAUR @ MIRACLE_SEED
+	tr_mon 41, RATTATA @ MIRACLE_SEED
 		tr_moves GROWTH, SLUDGE_BOMB, PETAL_DANCE, SLEEP_POWDER
 	tr_mon 38, RATTATA @ QUICK_CLAW
 		tr_moves ROOST, FLY, SWIFT, ROAR
@@ -7405,7 +7405,7 @@ SparkGroup:
 	def_trainer 1, "Spark"
 	tr_mon 63, JOLTEON, MALE
 	tr_mon 62, ELECTABUZZ, MALE
-	tr_mon 63, VENUSAUR, MALE
+	tr_mon 63, RATTATA, MALE
 	tr_mon 61, SNORLAX, MALE
 	tr_mon 64, PIKACHU @ LIGHT_BALL, MALE | PIKACHU_SPARK_FORM
 	tr_mon 65, RATTATA @ MAGNET, MALE

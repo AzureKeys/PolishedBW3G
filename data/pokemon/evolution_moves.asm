@@ -1,8 +1,5 @@
 EvolutionMoves::
 	table_width 1
-	db NO_MOVE      ; BULBASAUR
-	db NO_MOVE      ; IVYSAUR
-	db PETAL_DANCE  ; VENUSAUR
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; PIKACHU
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
 	db NO_MOVE      ; VANILLITE
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; VANILLUXE
 	db NO_MOVE      ; DEERLING
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db MEGAHORN     ; SAWSBUCK
 	db NO_MOVE      ; EMOLGA
 	db NO_MOVE      ; KARRABLAST

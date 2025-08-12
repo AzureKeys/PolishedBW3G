@@ -4,15 +4,6 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 EggSpeciesMoves::
 
-BulbasaurEggSpeciesMoves:
-	dp BULBASAUR, PLAIN_FORM
-	db CHARM
-	db PETAL_DANCE
-	db LIGHT_SCREEN
-	db SAFEGUARD
-	db POWER_WHIP
-	db $ff
-
 RattataPlainEggSpeciesMoves:
 	dp RATTATA, PLAIN_FORM
 	db FURY_STRIKES

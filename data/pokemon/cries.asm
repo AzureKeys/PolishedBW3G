@@ -6,9 +6,6 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH
-	mon_cry CRY_BULBASAUR,   $080,  $081 ; Bulbasaur
-	mon_cry CRY_BULBASAUR,   $020,  $100 ; Ivysaur
-	mon_cry CRY_BULBASAUR,   $000,  $140 ; Venusaur
 	mon_cry CRY_RATTATA,     $000,  $100 ; Rattata
 	mon_cry CRY_RATTATA,     $020,  $17f ; Raticate
 	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; Pikachu
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; Ducklett
 	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; Swanna
 	mon_cry CRY_MANTINE,     $030,  $0ea ; Vanillite
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
 	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
 	mon_cry CRY_DEERLING,    $85d,  $0d4 ; Deerling
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck
 	mon_cry CRY_TIRTOUGA,    $07e,  $086 ; Emolga
 	mon_cry CRY_KARRABLAST,  $00e,  $0d7 ; Karrablast

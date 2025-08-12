@@ -4,9 +4,6 @@ ENDM
 
 PokemonPicPointers::
 	table_width 5
-	pics Bulbasaur
-	pics Ivysaur
-	pics Venusaur
 	pics RattataPlain
 	pics RaticatePlain
 	pics PikachuPlain
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics Ducklett
 	pics Swanna
 	pics Vanillite
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Vanillish
 	pics Vanilluxe
 	pics DeerlingSpring
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics SawsbuckSpring
 	pics Emolga
 	pics Karrablast

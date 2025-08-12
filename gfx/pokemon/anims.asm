@@ -1,6 +1,3 @@
-BulbasaurAnimation:  INCLUDE "gfx/pokemon/bulbasaur/anim.asm"
-IvysaurAnimation:    INCLUDE "gfx/pokemon/ivysaur/anim.asm"
-VenusaurAnimation:   INCLUDE "gfx/pokemon/venusaur/anim.asm"
 NidoranFAnimation:   INCLUDE "gfx/pokemon/nidoran_f/anim.asm"
 NidorinaAnimation:   INCLUDE "gfx/pokemon/nidorina/anim.asm"
 NidoqueenAnimation:  INCLUDE "gfx/pokemon/nidoqueen/anim.asm"

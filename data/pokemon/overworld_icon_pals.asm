@@ -4,9 +4,6 @@ ENDM
 
 OverworldMonIconColors::
 	table_width 1
-	iconpal TEAL, GREEN ; BULBASAUR
-	iconpal TEAL, GREEN ; IVYSAUR
-	iconpal TEAL, GREEN ; VENUSAUR
 	iconpal PURPLE, GRAY ; RATTATA
 	iconpal BROWN, RED ; RATICATE
 	iconpal RED, AZURE ; PIKACHU
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal AZURE, PINK ; DUCKLETT
 	iconpal WHITE, PURPLE ; SWANNA
 	iconpal AZURE, PINK ; VANILLITE
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal AZURE, PURPLE ; VANILLISH
 	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal BROWN, PINK ; DEERLING
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, ORANGE ; SAWSBUCK
 	iconpal YELLOW, BROWN ; EMOLGA
 	iconpal BLUE, TEAL ; KARRABLAST

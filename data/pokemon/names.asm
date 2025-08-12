@@ -1,9 +1,6 @@
 PokemonNames::
 	table_width MON_NAME_LENGTH - 1
 	rawchar "?000?@@@@@"
-	rawchar "Bulbasaur@"
-	rawchar "Ivysaur@@@"
-	rawchar "Venusaur@@"
 	rawchar "Rattata@@@"
 	rawchar "Raticate@@"
 	rawchar "Pikachu@@@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Ducklett@@"
 	rawchar "Swanna@@@@"
 	rawchar "Vanillite@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Vanillish@"
 	rawchar "Vanilluxe@"
 	rawchar "Deerling@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Sawsbuck@@"
 	rawchar "Emolga@@@@"
 	rawchar "Karrablast"

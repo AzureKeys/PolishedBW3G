@@ -7,9 +7,6 @@ ENDM
 PokemonBodyData:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width BODY_DATA_SIZE
-	body_data   7,   69, QUADRUPED,    GREEN  ; BULBASAUR
-	body_data  10,  130, QUADRUPED,    GREEN  ; IVYSAUR
-	body_data  20, 1000, QUADRUPED,    GREEN  ; VENUSAUR
 	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
 	body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT
 	body_data  13,  242, WINGS,        WHITE  ; SWANNA
 	body_data   4,   57, HEAD_BASE,    WHITE  ; VANILLITE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  11,  410, HEAD_BASE,    WHITE  ; VANILLISH
 	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
 	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
 	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST

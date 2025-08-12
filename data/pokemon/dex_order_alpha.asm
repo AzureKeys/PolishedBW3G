@@ -24,7 +24,6 @@ AlphabeticalPokedexOrder:
 	dp BOUFFALANT
 	dp BRAVIARY
 	dp BRELOOM
-	dp BULBASAUR
 	dp CARRACOSTA
 	dp CELEBI
 	dp CHANDELURE
@@ -119,7 +118,6 @@ AlphabeticalPokedexOrder:
 	dp HOUNDOUR
 	dp HYDREIGON
 	dp IGGLYBUFF
-	dp IVYSAUR
 	dp JELLICENT
 	dp JIGGLYPUFF
 	dp JOLTEON
@@ -301,7 +299,6 @@ AlphabeticalPokedexOrder:
 	dp VANILLUXE
 	dp VAPOREON
 	dp VENIPEDE
-	dp VENUSAUR
 	dp VICTINI
 	dp VIRIZION
 	dp VOLCARONA

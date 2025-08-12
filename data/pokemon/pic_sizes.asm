@@ -18,9 +18,6 @@ ENDM
 PokemonPicSizes::
 	list_start
 	DEF size_value = 0
-INCLUDE "gfx/pokemon/bulbasaur/front.dimensions"
-INCLUDE "gfx/pokemon/ivysaur/front.dimensions"
-INCLUDE "gfx/pokemon/venusaur/front.dimensions"
 INCLUDE "gfx/pokemon/rattata_plain/front.dimensions"
 INCLUDE "gfx/pokemon/raticate_plain/front.dimensions"
 INCLUDE "gfx/pokemon/pikachu_plain/front.dimensions"
@@ -272,11 +269,11 @@ INCLUDE "gfx/pokemon/reuniclus/front.dimensions"
 INCLUDE "gfx/pokemon/ducklett/front.dimensions"
 INCLUDE "gfx/pokemon/swanna/front.dimensions"
 INCLUDE "gfx/pokemon/vanillite/front.dimensions"
-INCLUDE "gfx/pokemon/egg/front.dimensions"
-INCLUDE "gfx/pokemon/egg/front.dimensions" ; $100
 INCLUDE "gfx/pokemon/vanillish/front.dimensions"
 INCLUDE "gfx/pokemon/vanilluxe/front.dimensions"
 INCLUDE "gfx/pokemon/deerling_spring/front.dimensions"
+INCLUDE "gfx/pokemon/egg/front.dimensions"
+INCLUDE "gfx/pokemon/egg/front.dimensions" ; $100
 INCLUDE "gfx/pokemon/sawsbuck_spring/front.dimensions"
 INCLUDE "gfx/pokemon/emolga/front.dimensions"
 INCLUDE "gfx/pokemon/karrablast/front.dimensions"

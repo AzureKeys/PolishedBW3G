@@ -24,9 +24,6 @@
 ; - BitmasksPointers (see gfx/pokemon/bitmask_pointers.asm)
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 	const_def 1
-	const BULBASAUR  ; xx
-	const IVYSAUR    ; xx
-	const VENUSAUR   ; xx
 	const RATTATA    ; 01
 	const RATICATE   ; 02
 	const PIKACHU    ; 03
@@ -278,11 +275,11 @@
 	const DUCKLETT   ; 149
 	const SWANNA     ; 14a
 	const VANILLITE  ; 14b
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const VANILLISH  ; 14c
 	const VANILLUXE  ; 14d
 	const DEERLING   ; 14e
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SAWSBUCK   ; 14f
 	const EMOLGA     ; 150
 	const KARRABLAST ; 151

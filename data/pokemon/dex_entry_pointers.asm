@@ -1,9 +1,6 @@
 PokedexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width 3
-	dba BulbasaurPokedexEntry
-	dba IvysaurPokedexEntry
-	dba VenusaurPokedexEntry
 	dba RattataPlainPokedexEntry
 	dba RaticatePlainPokedexEntry
 	dba PikachuPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba DucklettPokedexEntry
 	dba SwannaPokedexEntry
 	dba VanillitePokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
 	dba VanillishPokedexEntry
 	dba VanilluxePokedexEntry
 	dba DeerlingPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba SawsbuckPokedexEntry
 	dba EmolgaPokedexEntry
 	dba KarrablastPokedexEntry

@@ -1,8 +1,5 @@
 EggSpeciesMovesPointers::
 	table_width 2
-	dw BulbasaurEggSpeciesMoves         ; Bulbasaur
-	dw BulbasaurEggSpeciesMoves         ; Ivysaur
-	dw BulbasaurEggSpeciesMoves         ; Venusaur
 	dw RattataPlainEggSpeciesMoves      ; Rattata
 	dw RattataPlainEggSpeciesMoves      ; Raticate
 	dw PichuEggSpeciesMoves             ; Pikachu
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw DucklettEggSpeciesMoves          ; Ducklett
 	dw DucklettEggSpeciesMoves          ; Swanna
 	dw VanilliteEggSpeciesMoves         ; Vanillite
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw VanilliteEggSpeciesMoves         ; Vanillish
 	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	dw DeerlingEggSpeciesMoves          ; Deerling
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck
 	dw EmolgaEggSpeciesMoves            ; Emolga
 	dw KarrablastEggSpeciesMoves        ; Karrablast
