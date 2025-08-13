@@ -982,6 +982,13 @@ YamaskPlainEggSpeciesMoves:
 	db NASTY_PLOT
 	db $ff
 
+YamaskGalarianEggSpeciesMoves:
+	dp YAMASK, GALARIAN_FORM
+	db DISABLE
+	db ENDURE
+	db NASTY_PLOT
+	db $ff
+
 TirtougaEggSpeciesMoves:
 	dp TIRTOUGA, PLAIN_FORM
 	db BODY_SLAM

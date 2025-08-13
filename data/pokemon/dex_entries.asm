@@ -3150,6 +3150,16 @@ GenesectPokedexEntry::
 	page "strongest of"
 	next "hunters.@"
 
+SECTION "RunerigusPokedexEntry", ROMX
+RunerigusPokedexEntry::
+	db "Grudge@"
+	db "They swallow grave"
+    next "robbers who get"
+    next "too close and turn"
+    page "them into mummies."
+    next "They are covered"
+    next "in gold.@"
+
 SECTION "RattataAlolanPokedexEntry", ROMX
 RattataAlolanPokedexEntry::
 	db "Mouse@"
@@ -3413,6 +3423,16 @@ DarmanitanGalarianPokedexEntry::
 	page "destroy a dump"
 	next "truck with just"
 	next "one punch.@"
+
+SECTION "YamaskGalarianPokedexEntry", ROMX
+YamaskGalarianPokedexEntry::
+	db "Spirit@"
+	db "It carries a mask"
+    next "that used to be"
+    next "its face when it"
+    page "was alive. It"
+    next "cries sometimes"
+    next "looking at it.@"
 
 SECTION "GrowlitheHisuianPokedexEntry", ROMX
 GrowlitheHisuianPokedexEntry::

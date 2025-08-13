@@ -225,6 +225,7 @@ AlphabeticalPokedexOrder:
 	dp REUNICLUS
 	dp ROGGENROLA
 	dp RUFFLET
+	dp RUNERIGUS
 	dp SAMUROTT
 	dp SANDILE
 	dp SANDSHREW

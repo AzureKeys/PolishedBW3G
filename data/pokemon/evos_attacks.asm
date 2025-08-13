@@ -4636,6 +4636,23 @@ endc
 	learnset 45, MEAN_LOOK
 	learnset 49, DESTINY_BOND
 	
+	evos_attacks YamaskGalarian
+	evo_data EVOLVE_LEVEL, 34, RUNERIGUS
+	learnset 1, ASTONISH
+	learnset 1, PROTECT
+	learnset 5, DISABLE
+	learnset 9, HAZE
+	learnset 13, NIGHT_SHADE
+	learnset 17, HEX
+	learnset 21, WILL_O_WISP
+	;learnset 25, OMINOUS_WIND
+	learnset 29, CURSE
+	learnset 33, PAIN_SPLIT ; Power Split / Guard Split
+	learnset 37, SHADOW_BALL
+	learnset 41, CONFUSE_RAY ; Grudge
+	learnset 45, MEAN_LOOK
+	learnset 49, DESTINY_BOND
+	
 	evos_attacks Cofagrigus
 	learnset 1, SCARY_FACE
 	learnset 1, ASTONISH
@@ -6249,6 +6266,26 @@ endc
 	learnset 66, ZAP_CANNON
 	learnset 73, HYPER_BEAM
 	learnset 77, EXPLOSION ; SelfDestruct
+	
+	evos_attacks Runerigus
+	learnset 1, SCARY_FACE
+	learnset 1, ASTONISH
+	learnset 1, PROTECT
+	learnset 1, DISABLE
+	learnset 1, HAZE
+	learnset 5, DISABLE
+	learnset 9, HAZE
+	learnset 13, NIGHT_SHADE
+	learnset 17, HEX
+	learnset 21, WILL_O_WISP
+	;learnset 25, OMINOUS_WIND
+	learnset 29, CURSE
+	learnset 33, PAIN_SPLIT ; Power Split / Guard Split
+	learnset 33, SCARY_FACE
+	learnset 39, SHADOW_BALL
+	learnset 45, CONFUSE_RAY ; Grudge
+	learnset 51, MEAN_LOOK
+	learnset 57, DESTINY_BOND
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

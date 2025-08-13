@@ -647,6 +647,8 @@ INCLUDE "gfx/pokemon/meloetta_plain/normal.pal"
 INCLUDE "gfx/pokemon/meloetta_plain/shiny.pal"
 INCLUDE "gfx/pokemon/genesect/normal.pal"
 INCLUDE "gfx/pokemon/genesect/shiny.pal"
+INCLUDE "gfx/pokemon/runerigus/normal.pal"
+INCLUDE "gfx/pokemon/runerigus/shiny.pal"
 	assert_table_length NUM_SPECIES + 1
 
 INCLUDE "gfx/pokemon/dudunsparce/normal.pal"
@@ -705,6 +707,8 @@ INCLUDE "gfx/pokemon/darumaka_galarian/normal.pal"
 INCLUDE "gfx/pokemon/darumaka_galarian/shiny.pal"
 INCLUDE "gfx/pokemon/darmanitan_galarian/normal.pal"
 INCLUDE "gfx/pokemon/darmanitan_galarian/shiny.pal"
+INCLUDE "gfx/pokemon/yamask_galarian/normal.pal"
+INCLUDE "gfx/pokemon/yamask_galarian/shiny.pal"
 
 INCLUDE "gfx/pokemon/growlithe_hisuian/normal.pal"
 INCLUDE "gfx/pokemon/growlithe_hisuian/shiny.pal"

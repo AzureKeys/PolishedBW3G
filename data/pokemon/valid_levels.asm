@@ -323,4 +323,5 @@ endc
 	db 255, 255 ; Keldeo
 	db 255, 255 ; Meloetta
 	db 255, 255 ; Genesect
+	db  34, 100 ; Runerigus
 	assert_table_length NUM_SPECIES

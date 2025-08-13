@@ -336,6 +336,7 @@ INCLUDE "gfx/pokemon/kyurem_plain/front.dimensions"
 INCLUDE "gfx/pokemon/keldeo/front.dimensions"
 INCLUDE "gfx/pokemon/meloetta_plain/front.dimensions"
 INCLUDE "gfx/pokemon/genesect/front.dimensions"
+INCLUDE "gfx/pokemon/runerigus/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"
@@ -405,6 +406,7 @@ INCLUDE "gfx/pokemon/slowking_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/corsola_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/darumaka_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/darmanitan_galarian/front.dimensions"
+INCLUDE "gfx/pokemon/yamask_galarian/front.dimensions"
 
 INCLUDE "gfx/pokemon/growlithe_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/arcanine_hisuian/front.dimensions"

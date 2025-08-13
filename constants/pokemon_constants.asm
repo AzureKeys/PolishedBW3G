@@ -342,6 +342,7 @@
 	const KELDEO     ; 18c
 	const MELOETTA   ; 18d
 	const GENESECT   ; 18e
+	const RUNERIGUS   ; 18e
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -458,6 +459,7 @@ DEF GALARIAN_FORM EQU 3
 	const_skip ; 17d corsola
 	const_skip ; 17d darumaka
 	const_skip ; 17d darmanitan
+	const_skip ; 17d yamask
 
 ; hisuian forms
 DEF HISUIAN_FORM EQU 4

@@ -318,6 +318,7 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Keldeo
 	dw NoEggSpeciesMoves                ; Meloetta
 	dw NoEggSpeciesMoves                ; Genesect
+	dw YamaskGalarianEggSpeciesMoves    ; Runerigus
 	assert_table_length NUM_SPECIES
 
 	dw DunsparceEggSpeciesMoves         ; Dundunsparse (Three Segment Form)
@@ -349,6 +350,7 @@ EggSpeciesMovesPointers::
 	dw CorsolaGalarianEggSpeciesMoves   ; Corsola (Galarian Form)
 	dw DarumakaGalarianEggSpeciesMoves  ; Darumaka (Galarian Form)
 	dw DarumakaGalarianEggSpeciesMoves  ; Darmanitan (Galarian Form)
+	dw YamaskGalarianEggSpeciesMoves    ; Yamask (Galarian Form)
 
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)

@@ -353,6 +353,7 @@ INCLUDE "data/pokemon/base_stats/kyurem_plain.asm"
 INCLUDE "data/pokemon/base_stats/keldeo.asm"
 INCLUDE "data/pokemon/base_stats/meloetta_plain.asm"
 INCLUDE "data/pokemon/base_stats/genesect.asm"
+INCLUDE "data/pokemon/base_stats/runerigus.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/dudunsparce.asm" ; three segment
@@ -384,6 +385,7 @@ INCLUDE "data/pokemon/base_stats/slowking_galarian.asm"
 INCLUDE "data/pokemon/base_stats/corsola_galarian.asm"
 INCLUDE "data/pokemon/base_stats/darumaka_galarian.asm"
 INCLUDE "data/pokemon/base_stats/darmanitan_galarian.asm"
+INCLUDE "data/pokemon/base_stats/yamask_galarian.asm"
 
 INCLUDE "data/pokemon/base_stats/growlithe_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/arcanine_hisuian.asm"

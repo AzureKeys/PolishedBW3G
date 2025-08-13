@@ -318,6 +318,7 @@ BitmasksPointers:
 	dw KeldeoBitmasks
 	dw MeloettaPlainBitmasks
 	dw GenesectBitmasks
+	dw RunerigusBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -387,6 +388,7 @@ BitmasksPointers:
 	dw CorsolaGalarianBitmasks
 	dw DarumakaGalarianBitmasks
 	dw DarmanitanGalarianBitmasks
+	dw YamaskGalarianBitmasks
 
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks

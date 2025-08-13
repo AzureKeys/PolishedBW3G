@@ -322,6 +322,7 @@ MiniIconPointers:
 	mini_icon Keldeo
 	mini_icon Meloetta
 	mini_icon Genesect
+	mini_icon Runerigus
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -391,6 +392,7 @@ MiniIconPointers:
 	mini_icon CorsolaGalarian
 	mini_icon DarumakaGalarian
 	mini_icon DarmanitanGalarian
+	mini_icon YamaskGalarian
 
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian

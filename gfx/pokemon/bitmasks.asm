@@ -264,6 +264,7 @@ ReshiramBitmasks:   INCLUDE "gfx/pokemon/reshiram/bitmask.asm"
 ZekromBitmasks:     INCLUDE "gfx/pokemon/zekrom/bitmask.asm"
 KeldeoBitmasks:     INCLUDE "gfx/pokemon/keldeo/bitmask.asm"
 GenesectBitmasks:   INCLUDE "gfx/pokemon/genesect/bitmask.asm"
+RunerigusBitmasks:  INCLUDE "gfx/pokemon/runerigus/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -405,7 +406,8 @@ DarumakaGalarianBitmasks: INCLUDE "gfx/pokemon/darumaka_galarian/bitmask.asm"
 DarmanitanPlainBitmasks:    INCLUDE "gfx/pokemon/darmanitan_plain/bitmask.asm"
 DarmanitanGalarianBitmasks: INCLUDE "gfx/pokemon/darmanitan_galarian/bitmask.asm"
 
-YamaskPlainBitmasks: INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"
+YamaskPlainBitmasks:    INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"
+YamaskGalarianBitmasks: INCLUDE "gfx/pokemon/yamask_galarian/bitmask.asm"
 
 ZoruaPlainBitmasks: INCLUDE "gfx/pokemon/zorua_plain/bitmask.asm"
 

@@ -318,6 +318,7 @@ FramesPointers:
 	dw KeldeoFrames
 	dw MeloettaPlainFrames
 	dw GenesectFrames
+	dw RunerigusFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -387,6 +388,7 @@ FramesPointers:
 	dw CorsolaGalarianFrames
 	dw DarumakaGalarianFrames
 	dw DarmanitanGalarianFrames
+	dw YamaskGalarianFrames
 
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames

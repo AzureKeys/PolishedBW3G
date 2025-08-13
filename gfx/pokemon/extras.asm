@@ -264,6 +264,7 @@ ReshiramAnimationExtra:   INCLUDE "gfx/pokemon/reshiram/anim_idle.asm"
 ZekromAnimationExtra:     INCLUDE "gfx/pokemon/zekrom/anim_idle.asm"
 KeldeoAnimationExtra:     INCLUDE "gfx/pokemon/keldeo/anim_idle.asm"
 GenesectAnimationExtra:   INCLUDE "gfx/pokemon/genesect/anim_idle.asm"
+RunerigusAnimationExtra:  INCLUDE "gfx/pokemon/runerigus/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -405,7 +406,8 @@ DarumakaGalarianAnimationExtra: INCLUDE "gfx/pokemon/darumaka_galarian/anim_idle
 DarmanitanPlainAnimationExtra:    INCLUDE "gfx/pokemon/darmanitan_plain/anim_idle.asm"
 DarmanitanGalarianAnimationExtra: INCLUDE "gfx/pokemon/darmanitan_galarian/anim_idle.asm"
 
-YamaskPlainAnimationExtra: INCLUDE "gfx/pokemon/yamask_plain/anim_idle.asm"
+YamaskPlainAnimationExtra:    INCLUDE "gfx/pokemon/yamask_plain/anim_idle.asm"
+YamaskGalarianAnimationExtra: INCLUDE "gfx/pokemon/yamask_galarian/anim_idle.asm"
 
 ZoruaPlainAnimationExtra: INCLUDE "gfx/pokemon/zorua_plain/anim_idle.asm"
 

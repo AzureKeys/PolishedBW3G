@@ -167,6 +167,7 @@ KyuremFootprint::
 KeldeoFootprint::
 MeloettaFootprint::
 GenesectFootprint::
+RunerigusFootprint::
 RaltsFootprint::
 KirliaFootprint::
 GardevoirFootprint::

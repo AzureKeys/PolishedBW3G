@@ -325,6 +325,7 @@ PokemonBodyData:
 	body_data  14,  485, QUADRUPED,    YELLOW ; KELDEO
 	body_data   6,   65, BIPEDAL,      WHITE  ; MELOETTA
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
+	body_data  16,  666, HEAD_BASE,    GRAY   ; RUNERIGUS
 	assert_table_length NUM_SPECIES
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
@@ -356,6 +357,7 @@ PokemonBodyData:
 	body_data   6,    5, INSECTOID,    WHITE  ; CORSOLA (GALARIAN_FORM)
 	body_data   7,  400, BIPEDAL,      WHITE  ; DARUMAKA (GALARIAN_FORM)
 	body_data  17, 1200, QUADRUPED,    WHITE  ; DARMANITAN (GALARIAN_FORM)
+	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK (GALARIAN_FORM)
 
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)

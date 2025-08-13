@@ -1370,6 +1370,10 @@ SECTION "MrRime Pics", ROMX
 MrRimeFrontpic: INCBIN "gfx/pokemon/mr__rime/front.animated.2bpp.lz"
 MrRimeBackpic:  INCBIN "gfx/pokemon/mr__rime/back.2bpp.lz"
 
+SECTION "Runerigus Pics", ROMX
+RunerigusFrontpic: INCBIN "gfx/pokemon/runerigus/front.animated.2bpp.lz"
+RunerigusBackpic:  INCBIN "gfx/pokemon/runerigus/back.2bpp.lz"
+
 SECTION "Kleavor Pics", ROMX
 KleavorFrontpic: INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"
 KleavorBackpic:  INCBIN "gfx/pokemon/kleavor/back.2bpp.lz"
@@ -1503,6 +1507,10 @@ DarumakaGalarianBackpic:  INCBIN "gfx/pokemon/darumaka_galarian/back.2bpp.lz"
 SECTION "DarmanitanGalarian Pics", ROMX
 DarmanitanGalarianFrontpic: INCBIN "gfx/pokemon/darmanitan_galarian/front.animated.2bpp.lz"
 DarmanitanGalarianBackpic:  INCBIN "gfx/pokemon/darmanitan_galarian/back.2bpp.lz"
+
+SECTION "YamaskGalarian Pics", ROMX
+YamaskGalarianFrontpic: INCBIN "gfx/pokemon/yamask_galarian/front.animated.2bpp.lz"
+YamaskGalarianBackpic:  INCBIN "gfx/pokemon/yamask_galarian/back.2bpp.lz"
 
 SECTION "GrowlitheHisuian Pics", ROMX
 GrowlitheHisuianFrontpic: INCBIN "gfx/pokemon/growlithe_hisuian/front.animated.2bpp.lz"

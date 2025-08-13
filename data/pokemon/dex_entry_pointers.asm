@@ -319,6 +319,7 @@ PokedexDataPointerTable:
 	dba KeldeoPokedexEntry
 	dba MeloettaPokedexEntry
 	dba GenesectPokedexEntry
+	dba RunerigusPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba DudunsparcePokedexEntry
@@ -350,6 +351,7 @@ PokedexDataPointerTable:
 	dba CorsolaGalarianPokedexEntry
 	dba DarumakaGalarianPokedexEntry
 	dba DarmanitanGalarianPokedexEntry
+	dba YamaskGalarianPokedexEntry
 
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry

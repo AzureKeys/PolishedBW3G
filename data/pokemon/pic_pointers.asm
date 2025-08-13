@@ -322,6 +322,7 @@ PokemonPicPointers::
 	pics Keldeo
 	pics MeloettaPlain
 	pics Genesect
+	pics Runerigus
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -391,6 +392,7 @@ PokemonPicPointers::
 	pics CorsolaGalarian
 	pics DarumakaGalarian
 	pics DarmanitanGalarian
+	pics YamaskGalarian
 
 	pics GrowlitheHisuian
 	pics ArcanineHisuian

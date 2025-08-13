@@ -264,6 +264,7 @@ ReshiramAnimation:   INCLUDE "gfx/pokemon/reshiram/anim.asm"
 ZekromAnimation:     INCLUDE "gfx/pokemon/zekrom/anim.asm"
 KeldeoAnimation:     INCLUDE "gfx/pokemon/keldeo/anim.asm"
 GenesectAnimation:   INCLUDE "gfx/pokemon/genesect/anim.asm"
+RunerigusAnimation:  INCLUDE "gfx/pokemon/runerigus/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -405,7 +406,8 @@ DarumakaGalarianAnimation: INCLUDE "gfx/pokemon/darumaka_galarian/anim.asm"
 DarmanitanPlainAnimation:    INCLUDE "gfx/pokemon/darmanitan_plain/anim.asm"
 DarmanitanGalarianAnimation: INCLUDE "gfx/pokemon/darmanitan_galarian/anim.asm"
 
-YamaskPlainAnimation: INCLUDE "gfx/pokemon/yamask_plain/anim.asm"
+YamaskPlainAnimation:    INCLUDE "gfx/pokemon/yamask_plain/anim.asm"
+YamaskGalarianAnimation: INCLUDE "gfx/pokemon/yamask_galarian/anim.asm"
 
 ZoruaPlainAnimation: INCLUDE "gfx/pokemon/zorua_plain/anim.asm"
 

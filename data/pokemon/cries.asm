@@ -324,4 +324,5 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; KELDEO*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; MELOETTA*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; Genesect
+	mon_cry CRY_YAMASK,     -$320,  $15a ; RUNERIGUS*
 	assert_table_length NUM_SPECIES

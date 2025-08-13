@@ -158,6 +158,7 @@ NewPokedexOrder:
 	dp KELDEO
 	dp MELOETTA
 	dp GENESECT
+	dp RUNERIGUS
 	dp RALTS
 	dp KIRLIA
 	dp GARDEVOIR

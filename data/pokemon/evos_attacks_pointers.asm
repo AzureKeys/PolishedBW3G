@@ -322,6 +322,7 @@ EvosAttacksPointers::
 	dw KeldeoEvosAttacks
 	dw MeloettaEvosAttacks
 	dw GenesectEvosAttacks
+	dw RunerigusEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw DudunsparceEvosAttacks
@@ -353,6 +354,7 @@ EvosAttacksPointers::
 	dw CorsolaGalarianEvosAttacks
 	dw DarumakaGalarianEvosAttacks
 	dw DarmanitanGalarianEvosAttacks
+	dw YamaskGalarianEvosAttacks
 
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks

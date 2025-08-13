@@ -318,6 +318,7 @@ AnimationPointers:
 	dw KeldeoAnimation
 	dw MeloettaPlainAnimation
 	dw GenesectAnimation
+	dw RunerigusAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
@@ -387,6 +388,7 @@ AnimationPointers:
 	dw CorsolaGalarianAnimation
 	dw DarumakaGalarianAnimation
 	dw DarmanitanGalarianAnimation
+	dw YamaskGalarianAnimation
 
 	dw GrowlitheHisuianAnimation
 	dw ArcanineHisuianAnimation

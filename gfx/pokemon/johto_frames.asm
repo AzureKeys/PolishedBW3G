@@ -214,6 +214,7 @@ ReshiramFrames:   INCLUDE "gfx/pokemon/reshiram/frames.asm"
 ZekromFrames:     INCLUDE "gfx/pokemon/zekrom/frames.asm"
 KeldeoFrames:     INCLUDE "gfx/pokemon/keldeo/frames.asm"
 GenesectFrames:   INCLUDE "gfx/pokemon/genesect/frames.asm"
+RunerigusFrames:  INCLUDE "gfx/pokemon/runerigus/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -278,7 +279,8 @@ DarumakaGalarianFrames: INCLUDE "gfx/pokemon/darumaka_galarian/frames.asm"
 DarmanitanPlainFrames:    INCLUDE "gfx/pokemon/darmanitan_plain/frames.asm"
 DarmanitanGalarianFrames: INCLUDE "gfx/pokemon/darmanitan_galarian/frames.asm"
 
-YamaskPlainFrames: INCLUDE "gfx/pokemon/yamask_plain/frames.asm"
+YamaskPlainFrames:    INCLUDE "gfx/pokemon/yamask_plain/frames.asm"
+YamaskGalarianFrames: INCLUDE "gfx/pokemon/yamask_galarian/frames.asm"
 
 ZoruaPlainFrames: INCLUDE "gfx/pokemon/zorua_plain/frames.asm"
 

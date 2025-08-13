@@ -1592,6 +1592,11 @@ GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"
 GenesectIcon::     INCBIN "gfx/icons/genesect.2bpp.lz"
 
+SECTION "Runerigus Mini Icon", ROMX
+RunerigusMini::     INCBIN "gfx/minis/runerigus.2bpp.lz"
+RunerigusMiniMask:: INCBIN "gfx/minis/runerigus_mask.1bpp.lz"
+RunerigusIcon::     INCBIN "gfx/icons/runerigus.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"
@@ -1861,6 +1866,11 @@ SECTION "DarmanitanGalarian Mini Icon", ROMX
 DarmanitanGalarianMini::     INCBIN "gfx/minis/darmanitan_galarian.2bpp.lz"
 DarmanitanGalarianMiniMask:: INCBIN "gfx/minis/darmanitan_galarian_mask.1bpp.lz"
 DarmanitanGalarianIcon::     INCBIN "gfx/icons/darmanitan_galarian.2bpp.lz"
+
+SECTION "YamaskGalarian Mini Icon", ROMX
+YamaskGalarianMini::     INCBIN "gfx/minis/yamask_galarian.2bpp.lz"
+YamaskGalarianMiniMask:: INCBIN "gfx/minis/yamask_galarian_mask.1bpp.lz"
+YamaskGalarianIcon::     INCBIN "gfx/icons/yamask_galarian.2bpp.lz"
 
 SECTION "GrowlitheHisuian Mini Icon", ROMX
 GrowlitheHisuianMini::     INCBIN "gfx/minis/growlithe_hisuian.2bpp.lz"

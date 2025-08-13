@@ -318,6 +318,7 @@ FootprintPointers::
 	dw KeldeoFootprint
 	dw MeloettaFootprint
 	dw GenesectFootprint
+	dw RunerigusFootprint
 	assert_table_length NUM_SPECIES
 
 	dw DudunsparceFootprint
@@ -349,6 +350,7 @@ FootprintPointers::
 	dw CorsolaFootprint
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
+	dw YamaskFootprint
 
 	dw GrowlitheFootprint
 	dw ArcanineFootprint

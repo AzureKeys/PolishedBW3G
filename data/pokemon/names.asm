@@ -319,4 +319,5 @@ PokemonNames::
 	rawchar "Keldeo@@@@"
 	rawchar "Meloetta@@"
 	rawchar "Genesect@@"
+	rawchar "Runerigus@"
 	assert_table_length NUM_SPECIES + 1
