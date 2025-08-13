@@ -385,6 +385,8 @@ BitmasksPointers:
 	dw MrMimeGalarianBitmasks
 	dw SlowkingGalarianBitmasks
 	dw CorsolaGalarianBitmasks
+	dw DarumakaGalarianBitmasks
+	dw DarmanitanGalarianBitmasks
 
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks

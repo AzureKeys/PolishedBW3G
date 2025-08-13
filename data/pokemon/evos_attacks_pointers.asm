@@ -351,6 +351,8 @@ EvosAttacksPointers::
 	dw MrMimeGalarianEvosAttacks
 	dw SlowkingGalarianEvosAttacks
 	dw CorsolaGalarianEvosAttacks
+	dw DarumakaGalarianEvosAttacks
+	dw DarmanitanGalarianEvosAttacks
 
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks

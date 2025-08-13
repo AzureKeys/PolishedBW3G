@@ -347,6 +347,8 @@ EggSpeciesMovesPointers::
 	dw MimeJrEggSpeciesMoves            ; Mr.Mime (Galarian Form)
 	dw SlowpokeGalarianEggSpeciesMoves  ; Slowking (Galarian Form)
 	dw CorsolaGalarianEggSpeciesMoves   ; Corsola (Galarian Form)
+	dw DarumakaGalarianEggSpeciesMoves  ; Darumaka (Galarian Form)
+	dw DarumakaGalarianEggSpeciesMoves  ; Darmanitan (Galarian Form)
 
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)

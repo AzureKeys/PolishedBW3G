@@ -399,9 +399,11 @@ BasculinRedBitmasks:   INCLUDE "gfx/pokemon/basculin_red/bitmask.asm"
 BasculinBlueBitmasks:  INCLUDE "gfx/pokemon/basculin_blue/bitmask.asm"
 BasculinWhiteBitmasks: INCLUDE "gfx/pokemon/basculin_white/bitmask.asm"
 
-DarumakaPlainBitmasks: INCLUDE "gfx/pokemon/darumaka_plain/bitmask.asm"
+DarumakaPlainBitmasks:    INCLUDE "gfx/pokemon/darumaka_plain/bitmask.asm"
+DarumakaGalarianBitmasks: INCLUDE "gfx/pokemon/darumaka_galarian/bitmask.asm"
 
-DarmanitanPlainBitmasks: INCLUDE "gfx/pokemon/darmanitan_plain/bitmask.asm"
+DarmanitanPlainBitmasks:    INCLUDE "gfx/pokemon/darmanitan_plain/bitmask.asm"
+DarmanitanGalarianBitmasks: INCLUDE "gfx/pokemon/darmanitan_galarian/bitmask.asm"
 
 YamaskPlainBitmasks: INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"
 

@@ -385,6 +385,8 @@ AnimationPointers:
 	dw MrMimeGalarianAnimation
 	dw SlowkingGalarianAnimation
 	dw CorsolaGalarianAnimation
+	dw DarumakaGalarianAnimation
+	dw DarmanitanGalarianAnimation
 
 	dw GrowlitheHisuianAnimation
 	dw ArcanineHisuianAnimation

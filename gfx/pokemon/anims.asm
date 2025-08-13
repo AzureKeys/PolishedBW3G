@@ -399,9 +399,11 @@ BasculinRedAnimation:   INCLUDE "gfx/pokemon/basculin_red/anim.asm"
 BasculinBlueAnimation:  INCLUDE "gfx/pokemon/basculin_blue/anim.asm"
 BasculinWhiteAnimation: INCLUDE "gfx/pokemon/basculin_white/anim.asm"
 
-DarumakaPlainAnimation: INCLUDE "gfx/pokemon/darumaka_plain/anim.asm"
+DarumakaPlainAnimation:    INCLUDE "gfx/pokemon/darumaka_plain/anim.asm"
+DarumakaGalarianAnimation: INCLUDE "gfx/pokemon/darumaka_galarian/anim.asm"
 
-DarmanitanPlainAnimation: INCLUDE "gfx/pokemon/darmanitan_plain/anim.asm"
+DarmanitanPlainAnimation:    INCLUDE "gfx/pokemon/darmanitan_plain/anim.asm"
+DarmanitanGalarianAnimation: INCLUDE "gfx/pokemon/darmanitan_galarian/anim.asm"
 
 YamaskPlainAnimation: INCLUDE "gfx/pokemon/yamask_plain/anim.asm"
 

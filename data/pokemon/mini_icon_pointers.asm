@@ -389,6 +389,8 @@ MiniIconPointers:
 	mini_icon MrMimeGalarian
 	mini_icon SlowkingGalarian
 	mini_icon CorsolaGalarian
+	mini_icon DarumakaGalarian
+	mini_icon DarmanitanGalarian
 
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian

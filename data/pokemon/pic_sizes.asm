@@ -403,6 +403,8 @@ INCLUDE "gfx/pokemon/weezing_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/mr__mime_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/slowking_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/corsola_galarian/front.dimensions"
+INCLUDE "gfx/pokemon/darumaka_galarian/front.dimensions"
+INCLUDE "gfx/pokemon/darmanitan_galarian/front.dimensions"
 
 INCLUDE "gfx/pokemon/growlithe_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/arcanine_hisuian/front.dimensions"

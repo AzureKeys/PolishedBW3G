@@ -456,6 +456,8 @@ DEF GALARIAN_FORM EQU 3
 	const_skip ; 178 mr. mime
 	const_skip ; 17c slowking
 	const_skip ; 17d corsola
+	const_skip ; 17d darumaka
+	const_skip ; 17d darmanitan
 
 ; hisuian forms
 DEF HISUIAN_FORM EQU 4

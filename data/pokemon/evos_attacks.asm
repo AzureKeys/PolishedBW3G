@@ -4426,6 +4426,30 @@ endc
 	learnset 36, SWAGGER ; Taunt
 	learnset 39, CROSS_CHOP ; Superpower
 	;learnset 42, OVERHEAT
+
+	evos_attacks DarumakaGalarian
+	evo_data EVOLVE_ITEM, ICE_STONE, DARMANITAN, GALARIAN_FORM
+	learnset 1, ICY_WIND ; Powder Snow → similar move
+	learnset 4, GROWL ; Tail Whip → new move
+	learnset 7, ROAR
+	learnset 9, CHARM ; Baby-Doll Eyes → similar move
+	learnset 10, ICE_SHARD
+	learnset 12, CONFUSE_RAY
+	learnset 15, DISARM_VOICE ; Icy Wind → new move
+	learnset 18, NIGHT_SHADE ; Payback → new move
+	learnset 20, HAIL ; Mist → TM move
+	learnset 23, FEINT_ATTACK
+	learnset 26, HEX
+	learnset 28, AURORA_BEAM
+	learnset 31, EXTRASENSORY
+	learnset 34, SAFEGUARD
+	learnset 36, ICE_BEAM
+	learnset 39, HYPNOSIS ; Imprison → egg move
+	learnset 42, BLIZZARD
+	learnset 44, SHADOW_BALL ; Grudge → TM move
+	learnset 47, DISABLE ; Captivate → egg move
+	learnset 50, MOONBLAST ; Sheer Cold → egg move
+	learnset 53, HEALINGLIGHT ; new move
 	
 	evos_attacks DarmanitanPlain
 	;learnset 1, HAMMER_ARM
@@ -4449,6 +4473,29 @@ endc
 	learnset 39, SWAGGER ; Taunt
 	learnset 47, CROSS_CHOP ; Superpower
 	;learnset 54, OVERHEAT
+
+	evos_attacks DarmanitanGalarian
+	learnset 1, ICY_WIND ; Powder Snow → similar move
+	learnset 4, GROWL ; Tail Whip → new move
+	learnset 7, ROAR
+	learnset 9, CHARM ; Baby-Doll Eyes → similar move
+	learnset 10, ICE_SHARD
+	learnset 12, CONFUSE_RAY
+	learnset 15, DISARM_VOICE ; Icy Wind → new move
+	learnset 18, NIGHT_SHADE ; Payback → new move
+	learnset 20, HAIL ; Mist → TM move
+	learnset 23, FEINT_ATTACK
+	learnset 26, HEX
+	learnset 28, AURORA_BEAM
+	learnset 31, EXTRASENSORY
+	learnset 34, SAFEGUARD
+	learnset 36, ICE_BEAM
+	learnset 39, HYPNOSIS ; Imprison → egg move
+	learnset 42, BLIZZARD
+	learnset 44, SHADOW_BALL ; Grudge → TM move
+	learnset 47, DISABLE ; Captivate → egg move
+	learnset 50, MOONBLAST ; Sheer Cold → egg move
+	learnset 53, HEALINGLIGHT ; new move
 	
 	evos_attacks Maractus
 	learnset 1, BARRIER ; Iron Defense

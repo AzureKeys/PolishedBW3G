@@ -385,6 +385,8 @@ FramesPointers:
 	dw MrMimeGalarianFrames
 	dw SlowkingGalarianFrames
 	dw CorsolaGalarianFrames
+	dw DarumakaGalarianFrames
+	dw DarmanitanGalarianFrames
 
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames

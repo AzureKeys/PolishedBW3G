@@ -348,6 +348,8 @@ PokedexDataPointerTable:
 	dba MrMimeGalarianPokedexEntry
 	dba SlowkingGalarianPokedexEntry
 	dba CorsolaGalarianPokedexEntry
+	dba DarumakaGalarianPokedexEntry
+	dba DarmanitanGalarianPokedexEntry
 
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry

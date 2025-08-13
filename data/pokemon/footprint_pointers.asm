@@ -347,6 +347,8 @@ FootprintPointers::
 	dw MrMimeFootprint
 	dw SlowkingFootprint
 	dw CorsolaFootprint
+	dw DarumakaFootprint
+	dw DarmanitanFootprint
 
 	dw GrowlitheFootprint
 	dw ArcanineFootprint

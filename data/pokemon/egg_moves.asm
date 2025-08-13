@@ -929,6 +929,17 @@ DarumakaPlainEggSpeciesMoves:
 	db TAKE_DOWN
 	db $ff
 
+DarumakaGalarianEggSpeciesMoves:
+	dp DARUMAKA, GALARIAN_FORM
+	db ENCORE
+	db ENDURE
+	db EXTRASENSORY
+	;db FLAME_WHEEL
+	db FOCUS_ENERGY
+	;db HAMMER_ARM
+	db TAKE_DOWN
+	db $ff
+
 MaractusEggSpeciesMoves:
 	dp MARACTUS, PLAIN_FORM
 	db LEECH_SEED

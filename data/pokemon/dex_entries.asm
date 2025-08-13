@@ -3394,6 +3394,26 @@ CorsolaGalarianPokedexEntry::
 	next "life-force through"
 	next "its branches.@"
 
+SECTION "DarumakaGalarianPokedexEntry", ROMX
+DarumakaGalarianPokedexEntry::
+	db "Zen Charm@"
+	db "It can't calm down"
+	next "when its internal"
+	next "fire is burning,"
+	page "it runs around. It"
+	next "falls asleep if"
+	next "the fire slows.@"
+
+SECTION "DarmanitanGalarianPokedexEntry", ROMX
+DarmanitanGalarianPokedexEntry::
+	db "Zen Charm@"
+	db "Its internal fire"
+	next "burns with enough"
+	next "power that it can"
+	page "destroy a dump"
+	next "truck with just"
+	next "one punch.@"
+
 SECTION "GrowlitheHisuianPokedexEntry", ROMX
 GrowlitheHisuianPokedexEntry::
 	db "Scout@"

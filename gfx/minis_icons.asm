@@ -1852,6 +1852,16 @@ CorsolaGalarianMini::     INCBIN "gfx/minis/corsola_galarian.2bpp.lz"
 CorsolaGalarianMiniMask:: INCBIN "gfx/minis/corsola_galarian_mask.1bpp.lz"
 CorsolaGalarianIcon::     INCBIN "gfx/icons/corsola_galarian.2bpp.lz"
 
+SECTION "DarumakaGalarian Mini Icon", ROMX
+DarumakaGalarianMini::     INCBIN "gfx/minis/darumaka_galarian.2bpp.lz"
+DarumakaGalarianMiniMask:: INCBIN "gfx/minis/darumaka_galarian_mask.1bpp.lz"
+DarumakaGalarianIcon::     INCBIN "gfx/icons/darumaka_galarian.2bpp.lz"
+
+SECTION "DarmanitanGalarian Mini Icon", ROMX
+DarmanitanGalarianMini::     INCBIN "gfx/minis/darmanitan_galarian.2bpp.lz"
+DarmanitanGalarianMiniMask:: INCBIN "gfx/minis/darmanitan_galarian_mask.1bpp.lz"
+DarmanitanGalarianIcon::     INCBIN "gfx/icons/darmanitan_galarian.2bpp.lz"
+
 SECTION "GrowlitheHisuian Mini Icon", ROMX
 GrowlitheHisuianMini::     INCBIN "gfx/minis/growlithe_hisuian.2bpp.lz"
 GrowlitheHisuianMiniMask:: INCBIN "gfx/minis/growlithe_hisuian_mask.1bpp.lz"

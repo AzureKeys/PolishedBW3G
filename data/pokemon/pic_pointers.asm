@@ -389,6 +389,8 @@ PokemonPicPointers::
 	pics MrMimeGalarian
 	pics SlowkingGalarian
 	pics CorsolaGalarian
+	pics DarumakaGalarian
+	pics DarmanitanGalarian
 
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
