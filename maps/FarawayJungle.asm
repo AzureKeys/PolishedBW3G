@@ -21,10 +21,10 @@ FarawayJungleMew:
 	faceplayer
 	opentext
 	writetext MewText
-	cry MEW
+	cry RATTATA
 	pause 15
 	closetext
-	loadwildmon MEW, 30
+	loadwildmon RATTATA, 30
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	disappear FARAWAYJUNGLE_MEW

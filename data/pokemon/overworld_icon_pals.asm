@@ -80,8 +80,6 @@ OverworldMonIconColors::
 	iconpal AZURE, PINK ; DRATINI
 	iconpal BLUE, RED ; DRAGONAIR
 	iconpal ORANGE, BLUE ; DRAGONITE
-	iconpal PURPLE, GREEN ; MEWTWO
-	iconpal PINK, AZURE ; MEW
 	iconpal PURPLE, RED ; CROBAT
 	iconpal BLUE, TEAL ; CHINCHOU
 	iconpal BLUE, TEAL ; LANTURN
@@ -258,10 +256,10 @@ OverworldMonIconColors::
 	iconpal AZURE, PURPLE ; VANILLISH
 	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal BROWN, PINK ; DEERLING
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, ORANGE ; SAWSBUCK
 	iconpal YELLOW, BROWN ; EMOLGA
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, TEAL ; KARRABLAST
 	iconpal GRAY, PINK ; ESCAVALIER
 	iconpal RED, PURPLE ; FOONGUS
@@ -337,8 +335,6 @@ endr
 	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	iconpal GRAY, BLACK ; MEWTWO, MEWTWO_ARMORED_FORM
 
 	iconpal AZURE, RED ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
 

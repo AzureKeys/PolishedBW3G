@@ -1634,21 +1634,7 @@ LinkTrade:
 ; illicit trade machines, but it doesn't seem like a very effective one.
 ; Removing this code breaks link compatibility with the vanilla gen2 games, but
 ; has otherwise no consequence.
-	ld b, 1
-	pop af
-	ld c, a
-	cp MEW
-	jr z, .send_checkbyte
-	ld a, [wCurPartySpecies]
-	cp MEW
-	jr z, .send_checkbyte
-	ld b, 2
-	ld a, c
-	cp CELEBI
-	jr z, .send_checkbyte
-	ld a, [wCurPartySpecies]
-	cp CELEBI
-	jr z, .send_checkbyte
+
 
 ; Send the byte in a loop until the desired byte has been received.
 	ld b, 0

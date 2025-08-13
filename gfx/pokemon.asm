@@ -9,14 +9,6 @@ INCLUDE "data/pokemon/pic_sizes.asm"
 
 
 
-SECTION "Marill Pics", ROMX
-MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
-MarillBackpic:  INCBIN "gfx/pokemon/marill/back.2bpp.lz"
-
-SECTION "Azumarill Pics", ROMX
-AzumarillFrontpic: INCBIN "gfx/pokemon/azumarill/front.animated.2bpp.lz"
-AzumarillBackpic:  INCBIN "gfx/pokemon/azumarill/back.2bpp.lz"
-
 SECTION "NidoranF Pics", ROMX
 NidoranFFrontpic: INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
 NidoranFBackpic:  INCBIN "gfx/pokemon/nidoran_f/back.2bpp.lz"
@@ -237,10 +229,6 @@ SECTION "Dragonite Pics", ROMX
 DragoniteFrontpic: INCBIN "gfx/pokemon/dragonite/front.animated.2bpp.lz"
 DragoniteBackpic:  INCBIN "gfx/pokemon/dragonite/back.2bpp.lz"
 
-SECTION "Mew Pics", ROMX
-MewFrontpic: INCBIN "gfx/pokemon/mew/front.animated.2bpp.lz"
-MewBackpic:  INCBIN "gfx/pokemon/mew/back.2bpp.lz"
-
 SECTION "Crobat Pics", ROMX
 CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 CrobatBackpic:  INCBIN "gfx/pokemon/crobat/back.2bpp.lz"
@@ -280,6 +268,14 @@ FlaaffyBackpic:  INCBIN "gfx/pokemon/flaaffy/back.2bpp.lz"
 SECTION "Ampharos Pics", ROMX
 AmpharosFrontpic: INCBIN "gfx/pokemon/ampharos/front.animated.2bpp.lz"
 AmpharosBackpic:  INCBIN "gfx/pokemon/ampharos/back.2bpp.lz"
+
+SECTION "Marill Pics", ROMX
+MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
+MarillBackpic:  INCBIN "gfx/pokemon/marill/back.2bpp.lz"
+
+SECTION "Azumarill Pics", ROMX
+AzumarillFrontpic: INCBIN "gfx/pokemon/azumarill/front.animated.2bpp.lz"
+AzumarillBackpic:  INCBIN "gfx/pokemon/azumarill/back.2bpp.lz"
 
 SECTION "Sudowoodo Pics", ROMX
 SudowoodoFrontpic: INCBIN "gfx/pokemon/sudowoodo/front.animated.2bpp.lz"
@@ -645,14 +641,6 @@ PichuPlainBackpic:  INCBIN "gfx/pokemon/pichu_plain/back.2bpp.lz"
 SECTION "PichuSpiky Pics", ROMX
 PichuSpikyFrontpic: INCBIN "gfx/pokemon/pichu_spiky/front.animated.2bpp.lz"
 PichuSpikyBackpic:  INCBIN "gfx/pokemon/pichu_spiky/back.2bpp.lz"
-
-SECTION "MewtwoPlain Pics", ROMX
-MewtwoPlainFrontpic: INCBIN "gfx/pokemon/mewtwo_plain/front.animated.2bpp.lz"
-MewtwoPlainBackpic:  INCBIN "gfx/pokemon/mewtwo_plain/back.2bpp.lz"
-
-SECTION "MewtwoArmored Pics", ROMX
-MewtwoArmoredFrontpic: INCBIN "gfx/pokemon/mewtwo_armored/front.animated.2bpp.lz"
-MewtwoArmoredBackpic:  INCBIN "gfx/pokemon/mewtwo_armored/back.2bpp.lz"
 
 SECTION "RattataPlain Pics", ROMX
 RattataPlainFrontpic: INCBIN "gfx/pokemon/rattata_plain/front.animated.2bpp.lz"

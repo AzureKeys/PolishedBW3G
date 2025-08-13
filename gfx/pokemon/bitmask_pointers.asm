@@ -76,8 +76,6 @@ BitmasksPointers:
 	dw DratiniBitmasks
 	dw DragonairBitmasks
 	dw DragoniteBitmasks
-	dw MewtwoPlainBitmasks
-	dw MewBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
@@ -254,10 +252,10 @@ BitmasksPointers:
 	dw VanillishBitmasks
 	dw VanilluxeBitmasks
 	dw DeerlingSpringBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw SawsbuckSpringBitmasks
 	dw EmolgaBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw KarrablastBitmasks
 	dw EscavalierBitmasks
 	dw FoongusBitmasks
@@ -359,8 +357,6 @@ BitmasksPointers:
 	dw PichuSpikyBitmasks
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw MewtwoArmoredBitmasks
 
 	dw DudunsparceThreeSegmentBitmasks
 

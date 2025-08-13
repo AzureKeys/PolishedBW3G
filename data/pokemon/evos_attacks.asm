@@ -1767,41 +1767,6 @@ EvosAttacks::
 	learnset 75, HYPER_BEAM
 	learnset 81, HURRICANE
 
-	evos_attacks Mewtwo
-	learnset 1, TELEPORT ; Psywave → RBY TM move
-	learnset 1, AGILITY ; Sw/Sh move
-	learnset 1, FOCUS_ENERGY ; Laser Focus → similar move
-	learnset 1, CONFUSION
-	learnset 1, DISABLE
-	learnset 10, SAFEGUARD
-	learnset 19, SWIFT
-	learnset 28, FUTURE_SIGHT
-	learnset 37, BARRIER ; Psych Up → Barrier
-	learnset 46, RECOVER
-	learnset 55, PSYCHIC_M
-	learnset 64, POWER_GEM ; Barrier → SV TM move
-	learnset 73, AURA_SPHERE
-	learnset 82, AMNESIA
-	learnset 91, NASTY_PLOT ; Mist → Mew move
-	learnset 100, PSYSTRIKE
-
-	evos_attacks Mew
-	learnset 1, SKETCH ; Reflect Type → new move
-	learnset 1, TELEPORT ; event move
-	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, TRANSFORM
-	learnset 1, CONFUSION ; LGPE move
-	learnset 10, HEADBUTT ; Mega Punch → TM move
-	learnset 20, METRONOME
-	learnset 30, PSYCHIC_M
-	learnset 40, BARRIER
-	learnset 50, ANCIENTPOWER
-	learnset 60, BATON_PASS ; Amnesia → Baton Pass
-	learnset 70, SAFEGUARD ; Me First → Mewtwo move
-	learnset 80, AMNESIA ; Baton Pass → Amnesia
-	learnset 90, NASTY_PLOT
-	learnset 100, AURA_SPHERE
-
 	evos_attacks Crobat
 	learnset 1, X_SCISSOR ; evolution move
 	learnset 1, SCREECH

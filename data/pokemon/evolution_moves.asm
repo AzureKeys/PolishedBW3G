@@ -76,8 +76,6 @@ EvolutionMoves::
 	db NO_MOVE      ; DRATINI
 	db NO_MOVE      ; DRAGONAIR
 	db WING_ATTACK  ; DRAGONITE
-	db NO_MOVE      ; MEWTWO
-	db NO_MOVE      ; MEW
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
@@ -258,10 +256,10 @@ endc
 	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; VANILLUXE
 	db NO_MOVE      ; DEERLING
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db MEGAHORN     ; SAWSBUCK
 	db NO_MOVE      ; EMOLGA
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; KARRABLAST
 	db NO_MOVE      ; ESCAVALIER
 	db NO_MOVE      ; FOONGUS
@@ -325,8 +323,6 @@ endc
 	db NO_MOVE      ; MELOETTA
 	db NO_MOVE      ; GENESECT
 	assert_table_length NUM_SPECIES
-
-	db NO_MOVE      ; MEWTWO, MEWTWO_ARMORED_FORM
 
 	db NO_MOVE      ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
 

@@ -387,16 +387,6 @@ DragoniteMini::     INCBIN "gfx/minis/dragonite.2bpp.lz"
 DragoniteMiniMask:: INCBIN "gfx/minis/dragonite_mask.1bpp.lz"
 DragoniteIcon::     INCBIN "gfx/icons/dragonite.2bpp.lz"
 
-SECTION "Mewtwo Mini Icon", ROMX
-MewtwoMini::     INCBIN "gfx/minis/mewtwo.2bpp.lz"
-MewtwoMiniMask:: INCBIN "gfx/minis/mewtwo_mask.1bpp.lz"
-MewtwoIcon::     INCBIN "gfx/icons/mewtwo.2bpp.lz"
-
-SECTION "Mew Mini Icon", ROMX
-MewMini::     INCBIN "gfx/minis/mew.2bpp.lz"
-MewMiniMask:: INCBIN "gfx/minis/mew_mask.1bpp.lz"
-MewIcon::     INCBIN "gfx/icons/mew.2bpp.lz"
-
 SECTION "Crobat Mini Icon", ROMX
 CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lz"
 CrobatMiniMask:: INCBIN "gfx/minis/crobat_mask.1bpp.lz"
@@ -1741,11 +1731,6 @@ SECTION "DudunsparceThreeSegment Mini Icon", ROMX
 DudunsparceThreeSegmentMini::     INCBIN "gfx/minis/dudunsparce_three_segment.2bpp.lz"
 DudunsparceThreeSegmentMiniMask:: INCBIN "gfx/minis/dudunsparce_three_segment_mask.1bpp.lz"
 DudunsparceThreeSegmentIcon::     INCBIN "gfx/icons/dudunsparce_three_segment.2bpp.lz"
-
-SECTION "MewtwoArmored Mini Icon", ROMX
-MewtwoArmoredMini::     INCBIN "gfx/minis/mewtwo_armored.2bpp.lz"
-MewtwoArmoredMiniMask:: INCBIN "gfx/minis/mewtwo_armored_mask.1bpp.lz"
-MewtwoArmoredIcon::     INCBIN "gfx/icons/mewtwo_armored.2bpp.lz"
 
 SECTION "RattataAlolan Mini Icon", ROMX
 RattataAlolanMini::     INCBIN "gfx/minis/rattata_alolan.2bpp.lz"

@@ -80,8 +80,6 @@ EvosAttacksPointers::
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
-	dw MewtwoEvosAttacks
-	dw MewEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -258,10 +256,10 @@ EvosAttacksPointers::
 	dw VanillishEvosAttacks
 	dw VanilluxeEvosAttacks
 	dw DeerlingEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw SawsbuckEvosAttacks
 	dw EmolgaEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw KarrablastEvosAttacks
 	dw EscavalierEvosAttacks
 	dw FoongusEvosAttacks
@@ -325,8 +323,6 @@ EvosAttacksPointers::
 	dw MeloettaEvosAttacks
 	dw GenesectEvosAttacks
 	assert_table_length NUM_SPECIES
-
-	dw MewtwoEvosAttacks
 
 	dw DudunsparceEvosAttacks
 

@@ -50,7 +50,6 @@ SnorlaxAnimationExtra:    INCLUDE "gfx/pokemon/snorlax/anim_idle.asm"
 DratiniAnimationExtra:    INCLUDE "gfx/pokemon/dratini/anim_idle.asm"
 DragonairAnimationExtra:  INCLUDE "gfx/pokemon/dragonair/anim_idle.asm"
 DragoniteAnimationExtra:  INCLUDE "gfx/pokemon/dragonite/anim_idle.asm"
-MewAnimationExtra:        INCLUDE "gfx/pokemon/mew/anim_idle.asm"
 CrobatAnimationExtra:     INCLUDE "gfx/pokemon/crobat/anim_idle.asm"
 ChinchouAnimationExtra:   INCLUDE "gfx/pokemon/chinchou/anim_idle.asm"
 LanturnAnimationExtra:    INCLUDE "gfx/pokemon/lanturn/anim_idle.asm"
@@ -309,9 +308,6 @@ PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
 
 DudunsparceTwoSegmentAnimationExtra:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim_idle.asm"
 DudunsparceThreeSegmentAnimationExtra: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim_idle.asm"
-
-MewtwoPlainAnimationExtra:   INCLUDE "gfx/pokemon/mewtwo_plain/anim_idle.asm"
-MewtwoArmoredAnimationExtra: INCLUDE "gfx/pokemon/mewtwo_armored/anim_idle.asm"
 
 RattataPlainAnimationExtra:  INCLUDE "gfx/pokemon/rattata_plain/anim_idle.asm"
 RattataAlolanAnimationExtra: INCLUDE "gfx/pokemon/rattata_alolan/anim_idle.asm"

@@ -166,8 +166,6 @@ AlphabeticalPokedexOrder:
 	dp MARILL
 	dp MELOETTA
 	dp MEOWTH
-	dp MEW
-	dp MEWTWO
 	dp MIENFOO
 	dp MIENSHAO
 	dp MIME_JR_

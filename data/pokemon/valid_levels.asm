@@ -77,8 +77,6 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20,  29 ; Dratini
 	db  30,  54 ; Dragonair
 	db  55, 100 ; Dragonite
-	db 255, 255 ; Mewtwo
-	db 255, 255 ; Mew
 	db  32, 100 ; Crobat
 	db   1,  26 ; Chinchou
 	db  27, 100 ; Lanturn
@@ -259,10 +257,10 @@ endc
 	db  35,  46 ; Vanillish
 	db  47, 100 ; Vanilluxe
 	db   1,  33 ; Deerling
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  34, 100 ; Sawsbuck
 	db  20, 100 ; Emolga
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  29 ; Karrablast
 	db  30, 100 ; Escavalier
 	db   1,  38 ; Foongus

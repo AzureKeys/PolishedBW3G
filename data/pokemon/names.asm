@@ -77,8 +77,6 @@ PokemonNames::
 	rawchar "Dratini@@@"
 	rawchar "Dragonair@"
 	rawchar "Dragonite@"
-	rawchar "Mewtwo@@@@"
-	rawchar "Mew@@@@@@@"
 	rawchar "Crobat@@@@"
 	rawchar "Chinchou@@"
 	rawchar "Lanturn@@@"
@@ -255,10 +253,10 @@ PokemonNames::
 	rawchar "Vanillish@"
 	rawchar "Vanilluxe@"
 	rawchar "Deerling@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Sawsbuck@@"
 	rawchar "Emolga@@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Karrablast"
 	rawchar "Escavalier"
 	rawchar "Foongus@@@"

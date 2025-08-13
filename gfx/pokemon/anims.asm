@@ -50,7 +50,6 @@ SnorlaxAnimation:    INCLUDE "gfx/pokemon/snorlax/anim.asm"
 DratiniAnimation:    INCLUDE "gfx/pokemon/dratini/anim.asm"
 DragonairAnimation:  INCLUDE "gfx/pokemon/dragonair/anim.asm"
 DragoniteAnimation:  INCLUDE "gfx/pokemon/dragonite/anim.asm"
-MewAnimation:        INCLUDE "gfx/pokemon/mew/anim.asm"
 CrobatAnimation:     INCLUDE "gfx/pokemon/crobat/anim.asm"
 ChinchouAnimation:   INCLUDE "gfx/pokemon/chinchou/anim.asm"
 LanturnAnimation:    INCLUDE "gfx/pokemon/lanturn/anim.asm"
@@ -309,9 +308,6 @@ PikachuSparkAnimation:  INCLUDE "gfx/pokemon/pikachu_spark/anim.asm"
 
 DudunsparceTwoSegmentAnimation:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim.asm"
 DudunsparceThreeSegmentAnimation: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim.asm"
-
-MewtwoPlainAnimation:   INCLUDE "gfx/pokemon/mewtwo_plain/anim.asm"
-MewtwoArmoredAnimation: INCLUDE "gfx/pokemon/mewtwo_armored/anim.asm"
 
 RattataPlainAnimation:  INCLUDE "gfx/pokemon/rattata_plain/anim.asm"
 RattataAlolanAnimation: INCLUDE "gfx/pokemon/rattata_alolan/anim.asm"

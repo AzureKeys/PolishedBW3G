@@ -1436,7 +1436,7 @@ UserCanLoseItem:
 	jmp CompareSpeciesForm
 
 .EssentialItemTable:
-	species_battle_item ARMOR_SUIT, MEWTWO, MEWTWO_ARMORED_FORM
+	;species_battle_item ARMOR_SUIT, MEWTWO, MEWTWO_ARMORED_FORM
 	db 0
 
 CheckAirBalloon:

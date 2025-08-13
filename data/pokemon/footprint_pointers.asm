@@ -76,8 +76,6 @@ FootprintPointers::
 	dw DratiniFootprint
 	dw DragonairFootprint
 	dw DragoniteFootprint
-	dw MewtwoFootprint
-	dw MewFootprint
 	dw CrobatFootprint
 	dw ChinchouFootprint
 	dw LanturnFootprint
@@ -254,10 +252,10 @@ FootprintPointers::
 	dw VanillishFootprint
 	dw VanilluxeFootprint
 	dw DeerlingFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SawsbuckFootprint
 	dw EmolgaFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw KarrablastFootprint
 	dw EscavalierFootprint
 	dw FoongusFootprint
@@ -321,8 +319,6 @@ FootprintPointers::
 	dw MeloettaFootprint
 	dw GenesectFootprint
 	assert_table_length NUM_SPECIES
-
-	dw MewtwoFootprint
 
 	dw DudunsparceFootprint
 

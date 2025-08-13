@@ -52,7 +52,6 @@ SnorlaxFrames:    INCLUDE "gfx/pokemon/snorlax/frames.asm"
 DratiniFrames:    INCLUDE "gfx/pokemon/dratini/frames.asm"
 DragonairFrames:  INCLUDE "gfx/pokemon/dragonair/frames.asm"
 DragoniteFrames:  INCLUDE "gfx/pokemon/dragonite/frames.asm"
-MewFrames:        INCLUDE "gfx/pokemon/mew/frames.asm"
 
 PikachuPlainFrames:  INCLUDE "gfx/pokemon/pikachu_plain/frames.asm"
 PikachuFlyFrames:    INCLUDE "gfx/pokemon/pikachu_fly/frames.asm"
@@ -60,9 +59,6 @@ PikachuSurfFrames:   INCLUDE "gfx/pokemon/pikachu_surf/frames.asm"
 PikachuPikaFrames:   INCLUDE "gfx/pokemon/pikachu_pika/frames.asm"
 PikachuChuchuFrames: INCLUDE "gfx/pokemon/pikachu_chuchu/frames.asm"
 PikachuSparkFrames:  INCLUDE "gfx/pokemon/pikachu_spark/frames.asm"
-
-MewtwoPlainFrames:   INCLUDE "gfx/pokemon/mewtwo_plain/frames.asm"
-MewtwoArmoredFrames: INCLUDE "gfx/pokemon/mewtwo_armored/frames.asm"
 
 RattataPlainFrames:  INCLUDE "gfx/pokemon/rattata_plain/frames.asm"
 RattataAlolanFrames: INCLUDE "gfx/pokemon/rattata_alolan/frames.asm"

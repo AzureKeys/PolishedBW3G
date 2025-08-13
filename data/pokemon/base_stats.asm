@@ -111,8 +111,6 @@ INCLUDE "data/pokemon/base_stats/snorlax.asm"
 INCLUDE "data/pokemon/base_stats/dratini.asm"
 INCLUDE "data/pokemon/base_stats/dragonair.asm"
 INCLUDE "data/pokemon/base_stats/dragonite.asm"
-INCLUDE "data/pokemon/base_stats/mewtwo_plain.asm"
-INCLUDE "data/pokemon/base_stats/mew.asm"
 INCLUDE "data/pokemon/base_stats/crobat.asm"
 INCLUDE "data/pokemon/base_stats/chinchou.asm"
 INCLUDE "data/pokemon/base_stats/lanturn.asm"
@@ -289,10 +287,10 @@ INCLUDE "data/pokemon/base_stats/vanillite.asm"
 INCLUDE "data/pokemon/base_stats/vanillish.asm"
 INCLUDE "data/pokemon/base_stats/vanilluxe.asm"
 INCLUDE "data/pokemon/base_stats/deerling.asm"
-INCLUDE "data/pokemon/base_stats/egg.asm"
-INCLUDE "data/pokemon/base_stats/egg.asm" ; 100
 INCLUDE "data/pokemon/base_stats/sawsbuck.asm"
 INCLUDE "data/pokemon/base_stats/emolga.asm"
+INCLUDE "data/pokemon/base_stats/egg.asm"
+INCLUDE "data/pokemon/base_stats/egg.asm" ; 100
 INCLUDE "data/pokemon/base_stats/karrablast.asm"
 INCLUDE "data/pokemon/base_stats/escavalier.asm"
 INCLUDE "data/pokemon/base_stats/foongus.asm"
@@ -356,8 +354,6 @@ INCLUDE "data/pokemon/base_stats/keldeo.asm"
 INCLUDE "data/pokemon/base_stats/meloetta_plain.asm"
 INCLUDE "data/pokemon/base_stats/genesect.asm"
 	assert_table_length NUM_SPECIES
-
-INCLUDE "data/pokemon/base_stats/mewtwo_armored.asm"
 
 INCLUDE "data/pokemon/base_stats/dudunsparce.asm" ; three segment
 

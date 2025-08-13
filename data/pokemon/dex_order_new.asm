@@ -317,7 +317,5 @@ NewPokedexOrder:
 	dp TYRANITAR
 	dp LUGIA
 	dp HO_OH
-	dp MEWTWO
-	dp MEW
 	dp CELEBI
 	assert_table_length NUM_POKEMON

@@ -76,8 +76,6 @@ AnimationPointers:
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation
-	dw MewtwoPlainAnimation
-	dw MewAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
@@ -254,10 +252,10 @@ AnimationPointers:
 	dw VanillishAnimation
 	dw VanilluxeAnimation
 	dw DeerlingSpringAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SawsbuckSpringAnimation
 	dw EmolgaAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw KarrablastAnimation
 	dw EscavalierAnimation
 	dw FoongusAnimation
@@ -359,8 +357,6 @@ AnimationPointers:
 	dw PichuSpikyAnimation
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw MewtwoArmoredAnimation
 
 	dw DudunsparceThreeSegmentAnimation
 

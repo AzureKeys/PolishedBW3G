@@ -100,8 +100,6 @@
 	const DRATINI    ; 4a
 	const DRAGONAIR  ; 4b
 	const DRAGONITE  ; 4c
-	const MEWTWO     ; xx
-	const MEW        ; xx
 	const CROBAT     ; 4d
 	const CHINCHOU   ; 4e
 	const LANTURN    ; 4f
@@ -278,10 +276,10 @@
 	const VANILLISH  ; 14c
 	const VANILLUXE  ; 14d
 	const DEERLING   ; 14e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SAWSBUCK   ; 14f
 	const EMOLGA     ; 150
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const KARRABLAST ; 151
 	const ESCAVALIER ; 152
 	const FOONGUS    ; 153
@@ -424,10 +422,6 @@ DEF NUM_PIKACHU EQU ext_const_value - 1
 DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 
 DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
-
-; mewtwo
-	ext_const_def 2
-	ext_const MEWTWO_ARMORED_FORM ; 15d (2)
 
 ; dudunsparce
 	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)

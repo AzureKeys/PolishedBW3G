@@ -82,8 +82,6 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; Dratini
 	mon_cry CRY_BULBASAUR,   $040,  $100 ; Dragonair
 	mon_cry CRY_BULBASAUR,   $03c,  $140 ; Dragonite
-	mon_cry CRY_PARAS,       $099,  $17f ; Mewtwo
-	mon_cry CRY_PARAS,       $0ee,  $17f ; Mew
 	mon_cry CRY_SQUIRTLE,   -$010,  $140 ; Crobat
 	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Chinchou
 	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
@@ -260,10 +258,10 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
 	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
 	mon_cry CRY_DEERLING,    $85d,  $0d4 ; Deerling
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck
 	mon_cry CRY_TIRTOUGA,    $07e,  $086 ; Emolga
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_KARRABLAST,  $00e,  $0d7 ; Karrablast
 	mon_cry CRY_CUBCHOO,    -$047,  $160 ; Escavalier
 	mon_cry CRY_GRIMER,      $2d0,  $0a0 ; Foongus

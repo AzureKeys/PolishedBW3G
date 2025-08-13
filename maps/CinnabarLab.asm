@@ -25,7 +25,7 @@ CinnabarLab_MapScriptHeader:
 	object_event 11,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 20,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST1
 	object_event 11,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST2
-	pokemon_event 15,  7, MEWTWO, SPRITEMOVEDATA_STILL, -1, PAL_NPC_PURPLE, ClearText, EVENT_CINNABAR_LAB_MEWTWO
+	pokemon_event 15,  7, RATTATA, SPRITEMOVEDATA_STILL, -1, PAL_NPC_PURPLE, ClearText, EVENT_CINNABAR_LAB_MEWTWO
 	object_event 14,  8, SPRITE_CELEBI, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CELEBI
 	object_event 15,  8, SPRITE_CHRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CHRIS
 	object_event 15,  8, SPRITE_KRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_KRIS
@@ -86,7 +86,7 @@ CinnabarLabCelebiEventScript:
 	applyonemovement PLAYER, slow_step_up
 	opentext
 	writetext CinnabarLabGiovanniAttackText
-	cry MEWTWO
+	cry RATTATA
 	waitsfx
 	closetext
 	clearevent EVENT_TIME_TRAVELING
@@ -103,7 +103,7 @@ CinnabarLabCelebiEventScript:
 	showemote EMOTE_SHOCK, CINNABARLAB_ARMORED_MEWTWO, 15
 	opentext
 	writetext CinnabarLabMewtwoText
-	cry MEWTWO
+	cry RATTATA
 	waitsfx
 	closetext
 	playmusic MUSIC_KANTO_LEGEND_BATTLE_XY
@@ -130,7 +130,7 @@ CinnabarLabCelebiEventScript:
 	scall CinnabarLabHidePlayer
 	waitsfx
 	showemote EMOTE_SHOCK, CINNABARLAB_GIOVANNI, 10
-	cry MEWTWO
+	cry RATTATA
 	waitsfx
 	turnobject CINNABARLAB_ARMORED_MEWTWO, LEFT
 	applymovement PLAYER, CinnabarLabPan1MovementData
@@ -178,7 +178,7 @@ CinnabarLabCelebiEventScript:
 	special FadeInPalettes_EnableDynNoApply
 	opentext
 	writetext CinnabarLabMewtwoText
-	cry MEWTWO
+	cry RATTATA
 	waitsfx
 	closetext
 	playsound SFX_GAME_FREAK_LOGO_GS

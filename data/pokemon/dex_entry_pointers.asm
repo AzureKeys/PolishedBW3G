@@ -77,8 +77,6 @@ PokedexDataPointerTable:
 	dba DratiniPokedexEntry
 	dba DragonairPokedexEntry
 	dba DragonitePokedexEntry
-	dba MewtwoPlainPokedexEntry
-	dba MewPokedexEntry
 	dba CrobatPokedexEntry
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
@@ -255,10 +253,10 @@ PokedexDataPointerTable:
 	dba VanillishPokedexEntry
 	dba VanilluxePokedexEntry
 	dba DeerlingPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba SawsbuckPokedexEntry
 	dba EmolgaPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba KarrablastPokedexEntry
 	dba EscavalierPokedexEntry
 	dba FoongusPokedexEntry
@@ -322,8 +320,6 @@ PokedexDataPointerTable:
 	dba MeloettaPokedexEntry
 	dba GenesectPokedexEntry
 	assert_table_length NUM_SPECIES
-
-	dba MewtwoArmoredPokedexEntry
 
 	dba DudunsparcePokedexEntry
 

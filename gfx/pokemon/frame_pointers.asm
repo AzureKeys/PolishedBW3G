@@ -76,8 +76,6 @@ FramesPointers:
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames
-	dw MewtwoPlainFrames
-	dw MewFrames
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
@@ -254,10 +252,10 @@ FramesPointers:
 	dw VanillishFrames
 	dw VanilluxeFrames
 	dw DeerlingSpringFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SawsbuckSpringFrames
 	dw EmolgaFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw KarrablastFrames
 	dw EscavalierFrames
 	dw FoongusFrames
@@ -359,8 +357,6 @@ FramesPointers:
 	dw PichuSpikyFrames
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw MewtwoArmoredFrames
 
 	dw DudunsparceThreeSegmentFrames
 

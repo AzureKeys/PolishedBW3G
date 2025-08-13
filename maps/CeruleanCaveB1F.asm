@@ -13,7 +13,7 @@ CeruleanCaveB1F_MapScriptHeader:
 	bg_event 24, 11, BGEVENT_ITEM + ULTRA_BALL, EVENT_CERULEAN_CAVE_B1F_HIDDEN_ULTRA_BALL
 
 	def_object_events
-	object_event  7, 13, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MEWTWO, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, PLAIN_FORM, CeruleanCaveMewtwo, EVENT_CERULEAN_CAVE_MEWTWO
+	object_event  7, 13, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, RATTATA, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, PLAIN_FORM, CeruleanCaveMewtwo, EVENT_CERULEAN_CAVE_MEWTWO
 	itemball_event 26,  9, MAX_ELIXIR, 1, EVENT_CERULEAN_CAVE_B1F_MAX_ELIXIR
 	itemball_event 26,  3, ULTRA_BALL, 1, EVENT_CERULEAN_CAVE_B1F_ULTRA_BALL
 
@@ -24,10 +24,10 @@ CeruleanCaveMewtwo:
 	faceplayer
 	opentext
 	writetext MewtwoText
-	cry MEWTWO
+	cry RATTATA
 	pause 15
 	closetext
-	loadwildmon MEWTWO, 80
+	loadwildmon RATTATA, 80
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	disappear CERULEANCAVEB1F_MEWTWO

@@ -83,8 +83,6 @@ PokemonBodyData:
 	body_data  18,   33, SERPENTINE,   BLUE   ; DRATINI
 	body_data  40,  165, SERPENTINE,   BLUE   ; DRAGONAIR
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
-	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; MEWTWO
-	body_data   4,   40, BIPEDAL_TAIL, PINK   ; MEW
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
 	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
 	body_data  12,  225, FINS,         BLUE   ; LANTURN
@@ -261,10 +259,10 @@ PokemonBodyData:
 	body_data  11,  410, HEAD_BASE,    WHITE  ; VANILLISH
 	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
 	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST
 	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
 	body_data   2,   10, HEAD_ARMS,    WHITE  ; FOONGUS
@@ -328,8 +326,6 @@ PokemonBodyData:
 	body_data   6,   65, BIPEDAL,      WHITE  ; MELOETTA
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
 	assert_table_length NUM_SPECIES
-
-	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; MEWTWO (MEWTWO_ARMORED_FORM)
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
 

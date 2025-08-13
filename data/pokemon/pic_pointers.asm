@@ -80,8 +80,6 @@ PokemonPicPointers::
 	pics Dratini
 	pics Dragonair
 	pics Dragonite
-	pics MewtwoPlain
-	pics Mew
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
@@ -258,10 +256,10 @@ PokemonPicPointers::
 	pics Vanillish
 	pics Vanilluxe
 	pics DeerlingSpring
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics SawsbuckSpring
 	pics Emolga
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Karrablast
 	pics Escavalier
 	pics Foongus
@@ -363,8 +361,6 @@ PokemonPicPointers::
 	pics PichuSpiky
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	pics MewtwoArmored
 
 	pics DudunsparceThreeSegment
 

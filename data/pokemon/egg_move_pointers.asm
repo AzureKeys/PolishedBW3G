@@ -76,8 +76,6 @@ EggSpeciesMovesPointers::
 	dw DratiniEggSpeciesMoves           ; Dratini
 	dw DratiniEggSpeciesMoves           ; Dragonair
 	dw DratiniEggSpeciesMoves           ; Dragonite
-	dw NoEggSpeciesMoves                ; Mewtwo
-	dw NoEggSpeciesMoves                ; Mew
 	dw ZubatEggSpeciesMoves             ; Crobat
 	dw ChinchouEggSpeciesMoves          ; Chinchou
 	dw ChinchouEggSpeciesMoves          ; Lanturn
@@ -254,10 +252,10 @@ EggSpeciesMovesPointers::
 	dw VanilliteEggSpeciesMoves         ; Vanillish
 	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	dw DeerlingEggSpeciesMoves          ; Deerling
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck
 	dw EmolgaEggSpeciesMoves            ; Emolga
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw KarrablastEggSpeciesMoves        ; Karrablast
 	dw KarrablastEggSpeciesMoves        ; Escavalier
 	dw FoongusEggSpeciesMoves           ; Foongus
@@ -321,8 +319,6 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Meloetta
 	dw NoEggSpeciesMoves                ; Genesect
 	assert_table_length NUM_SPECIES
-
-	dw NoEggSpeciesMoves                ; Mewtwo (Armored Form)
 
 	dw DunsparceEggSpeciesMoves         ; Dundunsparse (Three Segment Form)
 

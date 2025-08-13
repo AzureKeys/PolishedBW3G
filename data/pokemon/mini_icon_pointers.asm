@@ -80,8 +80,6 @@ MiniIconPointers:
 	mini_icon Dratini
 	mini_icon Dragonair
 	mini_icon Dragonite
-	mini_icon Mewtwo
-	mini_icon Mew
 	mini_icon Crobat
 	mini_icon Chinchou
 	mini_icon Lanturn
@@ -258,10 +256,10 @@ MiniIconPointers:
 	mini_icon Vanillish
 	mini_icon Vanilluxe
 	mini_icon Deerling
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon SawsbuckSpring
 	mini_icon Emolga
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Karrablast
 	mini_icon Escavalier
 	mini_icon Foongus
@@ -363,8 +361,6 @@ MiniIconPointers:
 	mini_icon Pichu ; Spiky
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	mini_icon MewtwoArmored
 
 	mini_icon DudunsparceThreeSegment
 

@@ -762,26 +762,6 @@ DragonitePokedexEntry::
 	next "gather. Only they"
 	next "live there.@"
 
-SECTION "MewtwoPlainPokedexEntry", ROMX
-MewtwoPlainPokedexEntry::
-	db "Genetic@"
-	db   "Said to rest"
-	next "quietly in an"
-	next "undiscovered cave,"
-	page "this #mon was"
-	next "created solely for"
-	next "battling.@"
-
-SECTION "MewPokedexEntry", ROMX
-MewPokedexEntry::
-	db "New Species@"
-	db   "Because it can"
-	next "learn any move,"
-	next "some people began"
-	page "research to see if"
-	next "it is the ancestor"
-	next "of all #mon.@"
-
 SECTION "CrobatPokedexEntry", ROMX
 CrobatPokedexEntry::
 	db "Bat@"
@@ -3169,16 +3149,6 @@ GenesectPokedexEntry::
 	next "feared as the"
 	page "strongest of"
 	next "hunters.@"
-
-SECTION "MewtwoArmoredPokedexEntry", ROMX
-MewtwoArmoredPokedexEntry::
-	db "Genetic@"
-	db   "With its defenses"
-	next "bolstered and its"
-	next "psychic attacks"
-	page "amplified by its"
-	next "armor, Mewtwo's pow-"
-	next "er is unstoppable.@"
 
 SECTION "RattataAlolanPokedexEntry", ROMX
 RattataAlolanPokedexEntry::

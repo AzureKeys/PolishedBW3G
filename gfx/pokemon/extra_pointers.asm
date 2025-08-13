@@ -76,8 +76,6 @@ AnimationExtraPointers:
 	dw DratiniAnimationExtra
 	dw DragonairAnimationExtra
 	dw DragoniteAnimationExtra
-	dw MewtwoPlainAnimationExtra
-	dw MewAnimationExtra
 	dw CrobatAnimationExtra
 	dw ChinchouAnimationExtra
 	dw LanturnAnimationExtra
@@ -254,10 +252,10 @@ AnimationExtraPointers:
 	dw VanillishAnimationExtra
 	dw VanilluxeAnimationExtra
 	dw DeerlingSpringAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw SawsbuckSpringAnimationExtra
 	dw EmolgaAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw KarrablastAnimationExtra
 	dw EscavalierAnimationExtra
 	dw FoongusAnimationExtra
@@ -359,8 +357,6 @@ AnimationExtraPointers:
 	dw PichuSpikyAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-	dw MewtwoArmoredAnimationExtra
 
 	dw DudunsparceThreeSegmentAnimationExtra
 

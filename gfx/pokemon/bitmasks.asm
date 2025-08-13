@@ -50,7 +50,6 @@ SnorlaxBitmasks:    INCLUDE "gfx/pokemon/snorlax/bitmask.asm"
 DratiniBitmasks:    INCLUDE "gfx/pokemon/dratini/bitmask.asm"
 DragonairBitmasks:  INCLUDE "gfx/pokemon/dragonair/bitmask.asm"
 DragoniteBitmasks:  INCLUDE "gfx/pokemon/dragonite/bitmask.asm"
-MewBitmasks:        INCLUDE "gfx/pokemon/mew/bitmask.asm"
 CrobatBitmasks:     INCLUDE "gfx/pokemon/crobat/bitmask.asm"
 ChinchouBitmasks:   INCLUDE "gfx/pokemon/chinchou/bitmask.asm"
 LanturnBitmasks:    INCLUDE "gfx/pokemon/lanturn/bitmask.asm"
@@ -309,9 +308,6 @@ PikachuSparkBitmasks:  INCLUDE "gfx/pokemon/pikachu_spark/bitmask.asm"
 
 DudunsparceTwoSegmentBitmasks:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/bitmask.asm"
 DudunsparceThreeSegmentBitmasks: INCLUDE "gfx/pokemon/dudunsparce_three_segment/bitmask.asm"
-
-MewtwoPlainBitmasks:   INCLUDE "gfx/pokemon/mewtwo_plain/bitmask.asm"
-MewtwoArmoredBitmasks: INCLUDE "gfx/pokemon/mewtwo_armored/bitmask.asm"
 
 RattataPlainBitmasks:  INCLUDE "gfx/pokemon/rattata_plain/bitmask.asm"
 RattataAlolanBitmasks: INCLUDE "gfx/pokemon/rattata_alolan/bitmask.asm"

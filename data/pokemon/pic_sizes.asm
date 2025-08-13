@@ -94,8 +94,6 @@ INCLUDE "gfx/pokemon/snorlax/front.dimensions"
 INCLUDE "gfx/pokemon/dratini/front.dimensions"
 INCLUDE "gfx/pokemon/dragonair/front.dimensions"
 INCLUDE "gfx/pokemon/dragonite/front.dimensions"
-INCLUDE "gfx/pokemon/mewtwo_plain/front.dimensions"
-INCLUDE "gfx/pokemon/mew/front.dimensions"
 INCLUDE "gfx/pokemon/crobat/front.dimensions"
 INCLUDE "gfx/pokemon/chinchou/front.dimensions"
 INCLUDE "gfx/pokemon/lanturn/front.dimensions"
@@ -272,10 +270,10 @@ INCLUDE "gfx/pokemon/vanillite/front.dimensions"
 INCLUDE "gfx/pokemon/vanillish/front.dimensions"
 INCLUDE "gfx/pokemon/vanilluxe/front.dimensions"
 INCLUDE "gfx/pokemon/deerling_spring/front.dimensions"
-INCLUDE "gfx/pokemon/egg/front.dimensions"
-INCLUDE "gfx/pokemon/egg/front.dimensions" ; $100
 INCLUDE "gfx/pokemon/sawsbuck_spring/front.dimensions"
 INCLUDE "gfx/pokemon/emolga/front.dimensions"
+INCLUDE "gfx/pokemon/egg/front.dimensions"
+INCLUDE "gfx/pokemon/egg/front.dimensions" ; $100
 INCLUDE "gfx/pokemon/karrablast/front.dimensions"
 INCLUDE "gfx/pokemon/escavalier/front.dimensions"
 INCLUDE "gfx/pokemon/foongus/front.dimensions"
@@ -377,8 +375,6 @@ INCLUDE "gfx/pokemon/pikachu_spark/front.dimensions"
 INCLUDE "gfx/pokemon/pichu_spiky/front.dimensions"
 
 	assert_list_length NUM_SPECIES + NUM_COSMETIC_FORMS
-
-INCLUDE "gfx/pokemon/mewtwo_armored/front.dimensions"
 
 INCLUDE "gfx/pokemon/dudunsparce_three_segment/front.dimensions"
 
