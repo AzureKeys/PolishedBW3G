@@ -403,6 +403,9 @@ PokemonPicPointers::
 	pics BasculinRed
 	pics BasculinBlue
 	
+	pics DarmanitanZen
+	pics DarmanitanGalarianZen
+	
 	pics DeerlingSummer
 	pics DeerlingAutumn
 	pics DeerlingWinter

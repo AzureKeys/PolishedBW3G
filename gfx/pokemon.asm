@@ -1536,6 +1536,14 @@ SECTION "BasculinBlue Pics", ROMX
 BasculinBlueFrontpic: INCBIN "gfx/pokemon/basculin_blue/front.animated.2bpp.lz"
 BasculinBlueBackpic:  INCBIN "gfx/pokemon/basculin_blue/back.2bpp.lz"
 
+SECTION "DarmanitanZen Pics", ROMX
+DarmanitanZenFrontpic: INCBIN "gfx/pokemon/darmanitan_zen/front.animated.2bpp.lz"
+DarmanitanZenBackpic:  INCBIN "gfx/pokemon/darmanitan_zen/back.2bpp.lz"
+
+SECTION "DarmanitanGalarianZen Pics", ROMX
+DarmanitanGalarianZenFrontpic: INCBIN "gfx/pokemon/darmanitan_galarian_zen/front.animated.2bpp.lz"
+DarmanitanGalarianZenBackpic:  INCBIN "gfx/pokemon/darmanitan_galarian_zen/back.2bpp.lz"
+
 SECTION "DeerlingSummer Pics", ROMX
 DeerlingSummerFrontpic: INCBIN "gfx/pokemon/deerling_summer/front.animated.2bpp.lz"
 DeerlingSummerBackpic:  INCBIN "gfx/pokemon/deerling_summer/back.2bpp.lz"

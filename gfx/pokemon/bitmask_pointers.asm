@@ -399,6 +399,9 @@ BitmasksPointers:
 	dw BasculinRedBitmasks
 	dw BasculinBlueBitmasks
 	
+	dw DarmanitanZenBitmasks
+	dw DarmanitanGalarianZenBitmasks
+	
 	dw DeerlingSummerBitmasks
 	dw DeerlingAutumnBitmasks
 	dw DeerlingWinterBitmasks

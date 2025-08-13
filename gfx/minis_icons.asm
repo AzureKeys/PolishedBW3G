@@ -1892,6 +1892,16 @@ UnfezantFemaleMini::     INCBIN "gfx/minis/unfezant_female.2bpp.lz"
 UnfezantFemaleMiniMask:: INCBIN "gfx/minis/unfezant_female_mask.1bpp.lz"
 UnfezantFemaleIcon::     INCBIN "gfx/icons/unfezant_female.2bpp.lz"
 
+SECTION "DarmanitanZen Mini Icon", ROMX
+DarmanitanZenMini::     INCBIN "gfx/minis/darmanitan_zen.2bpp.lz"
+DarmanitanZenMiniMask:: INCBIN "gfx/minis/darmanitan_zen_mask.1bpp.lz"
+DarmanitanZenIcon::     INCBIN "gfx/icons/darmanitan_zen.2bpp.lz"
+
+SECTION "DarmanitanGalarianZen Mini Icon", ROMX
+DarmanitanGalarianZenMini::     INCBIN "gfx/minis/darmanitan_galarian_zen.2bpp.lz"
+DarmanitanGalarianZenMiniMask:: INCBIN "gfx/minis/darmanitan_galarian_zen_mask.1bpp.lz"
+DarmanitanGalarianZenIcon::     INCBIN "gfx/icons/darmanitan_galarian_zen.2bpp.lz"
+
 SECTION "SawsbuckSummer Mini Icon", ROMX
 SawsbuckSummerMini::     INCBIN "gfx/minis/sawsbuck_summer.2bpp.lz"
 SawsbuckSummerMiniMask:: INCBIN "gfx/minis/sawsbuck_summer_mask.1bpp.lz"

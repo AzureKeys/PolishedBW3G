@@ -399,6 +399,9 @@ FramesPointers:
 	dw BasculinRedFrames
 	dw BasculinBlueFrames
 	
+	dw DarmanitanZenFrames
+	dw DarmanitanGalarianZenFrames
+	
 	dw DeerlingSummerFrames
 	dw DeerlingAutumnFrames
 	dw DeerlingWinterFrames

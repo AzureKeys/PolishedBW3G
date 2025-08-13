@@ -399,6 +399,9 @@ AnimationPointers:
 	dw BasculinRedAnimation
 	dw BasculinBlueAnimation
 	
+	dw DarmanitanZenAnimation
+	dw DarmanitanGalarianZenAnimation
+	
 	dw DeerlingSummerAnimation
 	dw DeerlingAutumnAnimation
 	dw DeerlingWinterAnimation

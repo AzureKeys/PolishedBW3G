@@ -276,8 +276,10 @@ BasculinWhiteFrames: INCLUDE "gfx/pokemon/basculin_white/frames.asm"
 DarumakaPlainFrames:    INCLUDE "gfx/pokemon/darumaka_plain/frames.asm"
 DarumakaGalarianFrames: INCLUDE "gfx/pokemon/darumaka_galarian/frames.asm"
 
-DarmanitanPlainFrames:    INCLUDE "gfx/pokemon/darmanitan_plain/frames.asm"
-DarmanitanGalarianFrames: INCLUDE "gfx/pokemon/darmanitan_galarian/frames.asm"
+DarmanitanPlainFrames:       INCLUDE "gfx/pokemon/darmanitan_plain/frames.asm"
+DarmanitanZenFrames:         INCLUDE "gfx/pokemon/darmanitan_zen/frames.asm"
+DarmanitanGalarianFrames:    INCLUDE "gfx/pokemon/darmanitan_galarian/frames.asm"
+DarmanitanGalarianZenFrames: INCLUDE "gfx/pokemon/darmanitan_galarian_zen/frames.asm"
 
 YamaskPlainFrames:    INCLUDE "gfx/pokemon/yamask_plain/frames.asm"
 YamaskGalarianFrames: INCLUDE "gfx/pokemon/yamask_galarian/frames.asm"

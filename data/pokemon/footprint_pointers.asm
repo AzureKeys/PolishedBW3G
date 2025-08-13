@@ -361,6 +361,9 @@ FootprintPointers::
 	dw BasculinFootprint
 	dw BasculinFootprint
 	
+	dw DarmanitanFootprint
+	dw DarmanitanFootprint
+	
 	dw DeerlingFootprint
 	dw DeerlingFootprint
 	dw DeerlingFootprint

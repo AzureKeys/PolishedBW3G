@@ -403,6 +403,9 @@ MiniIconPointers:
 	mini_icon Basculin
 	mini_icon Basculin
 	
+	mini_icon DarmanitanZen
+	mini_icon DarmanitanGalarianZen
+	
 	mini_icon Deerling
 	mini_icon Deerling
 	mini_icon Deerling

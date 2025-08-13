@@ -365,6 +365,9 @@ EvosAttacksPointers::
 	dw BasculinEvosAttacks
 	dw BasculinEvosAttacks
 	
+	dw DarmanitanPlainEvosAttacks
+	dw DarmanitanGalarianEvosAttacks
+	
 	dw DeerlingEvosAttacks
 	dw DeerlingEvosAttacks
 	dw DeerlingEvosAttacks

@@ -396,6 +396,9 @@ INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
 INCLUDE "data/pokemon/base_stats/basculin_red.asm"
 INCLUDE "data/pokemon/base_stats/basculin_blue.asm"
 
+INCLUDE "data/pokemon/base_stats/darmanitan_zen.asm"
+INCLUDE "data/pokemon/base_stats/darmanitan_galarian_zen.asm"
+
 INCLUDE "data/pokemon/base_stats/deerling.asm" ; summer
 INCLUDE "data/pokemon/base_stats/deerling.asm" ; autumn
 INCLUDE "data/pokemon/base_stats/deerling.asm" ; winter

@@ -417,6 +417,9 @@ INCLUDE "gfx/pokemon/unfezant_female/front.dimensions"
 INCLUDE "gfx/pokemon/basculin_red/front.dimensions"
 INCLUDE "gfx/pokemon/basculin_blue/front.dimensions"
 
+INCLUDE "gfx/pokemon/darmanitan_zen/front.dimensions"
+INCLUDE "gfx/pokemon/darmanitan_galarian_zen/front.dimensions"
+
 INCLUDE "gfx/pokemon/deerling_summer/front.dimensions"
 INCLUDE "gfx/pokemon/deerling_autumn/front.dimensions"
 INCLUDE "gfx/pokemon/deerling_winter/front.dimensions"

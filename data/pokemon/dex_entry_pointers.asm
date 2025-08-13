@@ -362,6 +362,9 @@ PokedexDataPointerTable:
 	dba BasculinRedPokedexEntry
 	dba BasculinBluePokedexEntry
 	
+	dba DarmanitanZenPokedexEntry
+	dba DarmanitanGalarianZenPokedexEntry
+	
 	dba DeerlingPokedexEntry
 	dba DeerlingPokedexEntry
 	dba DeerlingPokedexEntry

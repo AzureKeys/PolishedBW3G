@@ -3483,3 +3483,23 @@ BasculinBluePokedexEntry::
 	page "fight instantly."
 	next "These #mon are"
 	next "very hostile.@"
+
+SECTION "DarmanitanZenPokedexEntry", ROMX
+DarmanitanZenPokedexEntry::
+	db "Blazing@"
+	db "Its internal fire"
+	next "burns with enough"
+	next "power that it can"
+	page "destroy a dump"
+	next "truck with just"
+	next "one punch.@"
+
+SECTION "DarmanitanGalarianZenPokedexEntry", ROMX
+DarmanitanGalarianZenPokedexEntry::
+	db "Blazing@"
+	db "Its internal fire"
+	next "burns with enough"
+	next "power that it can"
+	page "destroy a dump"
+	next "truck with just"
+	next "one punch.@"

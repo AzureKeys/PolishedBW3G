@@ -479,6 +479,12 @@ DEF PALDEAN_FORM EQU 5
 	ext_const BASCULIN_RED_FORM          ; 13f (2)
 	ext_const BASCULIN_BLUE_FORM         ; 13f (3)
 	
+; darmanitan
+	ext_const_def 2
+	ext_const DARMANITAN_ZEN_FORM ; 15d (2)
+	ext_const_def 4 ; Form 3 = GALARIAN_FORM
+	ext_const DARMANITAN_GALARIAN_ZEN_FORM ; 15d (4)
+	
 ; deerling
 	ext_const_def 1, DEERLING_SPRING_FORM ; (1)
 	ext_const DEERLING_SUMMER_FORM        ; 13f (2)

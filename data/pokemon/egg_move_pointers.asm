@@ -361,6 +361,9 @@ EggSpeciesMovesPointers::
 	dw BasculinEggSpeciesMoves          ; Basculin (Red)
 	dw BasculinEggSpeciesMoves          ; Basculin (Blue)
 	
+	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan (Zen)
+	dw DarumakaGalarianEggSpeciesMoves  ; Darmanitan (Galarian Zen)
+	
 	dw DeerlingEggSpeciesMoves          ; Deerling (Summer)
 	dw DeerlingEggSpeciesMoves          ; Deerling (Autumn)
 	dw DeerlingEggSpeciesMoves          ; Deerling (Winter)

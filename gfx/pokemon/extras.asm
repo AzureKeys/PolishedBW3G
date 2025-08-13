@@ -403,8 +403,10 @@ BasculinWhiteAnimationExtra: INCLUDE "gfx/pokemon/basculin_white/anim_idle.asm"
 DarumakaPlainAnimationExtra:    INCLUDE "gfx/pokemon/darumaka_plain/anim_idle.asm"
 DarumakaGalarianAnimationExtra: INCLUDE "gfx/pokemon/darumaka_galarian/anim_idle.asm"
 
-DarmanitanPlainAnimationExtra:    INCLUDE "gfx/pokemon/darmanitan_plain/anim_idle.asm"
-DarmanitanGalarianAnimationExtra: INCLUDE "gfx/pokemon/darmanitan_galarian/anim_idle.asm"
+DarmanitanPlainAnimationExtra:       INCLUDE "gfx/pokemon/darmanitan_plain/anim_idle.asm"
+DarmanitanZenAnimationExtra:         INCLUDE "gfx/pokemon/darmanitan_zen/anim_idle.asm"
+DarmanitanGalarianAnimationExtra:    INCLUDE "gfx/pokemon/darmanitan_galarian/anim_idle.asm"
+DarmanitanGalarianZenAnimationExtra: INCLUDE "gfx/pokemon/darmanitan_galarian_zen/anim_idle.asm"
 
 YamaskPlainAnimationExtra:    INCLUDE "gfx/pokemon/yamask_plain/anim_idle.asm"
 YamaskGalarianAnimationExtra: INCLUDE "gfx/pokemon/yamask_galarian/anim_idle.asm"

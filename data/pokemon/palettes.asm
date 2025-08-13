@@ -725,6 +725,11 @@ INCLUDE "gfx/pokemon/basculin_red/shiny.pal"
 INCLUDE "gfx/pokemon/basculin_blue/normal.pal"
 INCLUDE "gfx/pokemon/basculin_blue/shiny.pal"
 
+INCLUDE "gfx/pokemon/darmanitan_zen/normal.pal"
+INCLUDE "gfx/pokemon/darmanitan_zen/shiny.pal"
+INCLUDE "gfx/pokemon/darmanitan_galarian_zen/normal.pal"
+INCLUDE "gfx/pokemon/darmanitan_galarian_zen/shiny.pal"
+
 INCLUDE "gfx/pokemon/deerling_summer/normal.pal"
 INCLUDE "gfx/pokemon/deerling_summer/shiny.pal"
 INCLUDE "gfx/pokemon/deerling_autumn/normal.pal"
