@@ -99,7 +99,6 @@ FootprintPointers::
 	dw MurkrowFootprint
 	dw SlowkingFootprint
 	dw MisdreavusFootprint
-	dw UnownFootprint
 	dw DunsparceFootprint
 	dw GligarFootprint
 	dw SteelixFootprint
@@ -254,9 +253,9 @@ FootprintPointers::
 	dw KarrablastFootprint
 	dw EscavalierFootprint
 	dw FoongusFootprint
+	dw AmoongussFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
-	dw AmoongussFootprint
 	dw FrillishFootprint
 	dw JellicentFootprint
 	dw AlomomolaFootprint

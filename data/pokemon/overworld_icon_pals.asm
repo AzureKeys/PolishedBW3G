@@ -103,7 +103,6 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; MURKROW
 	iconpal PINK, PURPLE ; SLOWKING
 	iconpal PURPLE, BROWN ; MISDREAVUS
-	iconpal BLACK, BLUE ; UNOWN
 	iconpal AZURE, RED ; DUNSPARCE
 	iconpal PURPLE, GRAY ; GLIGAR
 	iconpal GRAY, BROWN ; STEELIX
@@ -258,9 +257,9 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; KARRABLAST
 	iconpal GRAY, PINK ; ESCAVALIER
 	iconpal RED, PURPLE ; FOONGUS
+	iconpal RED, PURPLE ; AMOONGUSS
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal RED, PURPLE ; AMOONGUSS
 	iconpal AZURE, TEAL ; FRILLISH
 	iconpal AZURE, TEAL ; JELLICENT
 	iconpal PINK, PURPLE ; ALOMOMOLA
@@ -321,10 +320,6 @@ OverworldMonIconColors::
 	iconpal PURPLE, RED ; GENESECT
 	iconpal RED, PINK ; RUNERIGUS
 	assert_table_length NUM_SPECIES
-
-rept NUM_UNOWN - 1
-	iconpal GRAY, BLUE
-endr
 
 rept NUM_PIKACHU - 1
 	iconpal RED, BLUE

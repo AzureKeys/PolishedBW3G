@@ -99,7 +99,6 @@ EggSpeciesMovesPointers::
 	dw MurkrowEggSpeciesMoves           ; Murkrow
 	dw SlowpokePlainEggSpeciesMoves     ; Slowking
 	dw MisdreavusEggSpeciesMoves        ; Misdreavus
-	dw NoEggSpeciesMoves                ; Unown
 	dw DunsparceEggSpeciesMoves         ; Dunsparce
 	dw GligarEggSpeciesMoves            ; Gligar
 	dw OnixEggSpeciesMoves              ; Steelix
@@ -254,9 +253,9 @@ EggSpeciesMovesPointers::
 	dw KarrablastEggSpeciesMoves        ; Karrablast
 	dw KarrablastEggSpeciesMoves        ; Escavalier
 	dw FoongusEggSpeciesMoves           ; Foongus
+	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
-	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw FrillishEggSpeciesMoves          ; Frillish
 	dw FrillishEggSpeciesMoves          ; Jellicent
 	dw AlomomolaEggSpeciesMoves         ; Alomomola

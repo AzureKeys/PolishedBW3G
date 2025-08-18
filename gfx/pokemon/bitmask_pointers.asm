@@ -99,7 +99,6 @@ BitmasksPointers:
 	dw MurkrowBitmasks
 	dw SlowkingPlainBitmasks
 	dw MisdreavusBitmasks
-	dw UnownABitmasks
 	dw DunsparceBitmasks
 	dw GligarBitmasks
 	dw SteelixBitmasks
@@ -254,9 +253,9 @@ BitmasksPointers:
 	dw KarrablastBitmasks
 	dw EscavalierBitmasks
 	dw FoongusBitmasks
+	dw AmoongussBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
-	dw AmoongussBitmasks
 	dw FrillishMaleBitmasks
 	dw JellicentMaleBitmasks
 	dw AlomomolaBitmasks
@@ -317,34 +316,6 @@ BitmasksPointers:
 	dw GenesectBitmasks
 	dw RunerigusBitmasks
 	assert_table_length NUM_SPECIES
-
-	dw UnownBBitmasks
-	dw UnownCBitmasks
-	dw UnownDBitmasks
-	dw UnownEBitmasks
-	dw UnownFBitmasks
-	dw UnownGBitmasks
-	dw UnownHBitmasks
-	dw UnownIBitmasks
-	dw UnownJBitmasks
-	dw UnownKBitmasks
-	dw UnownLBitmasks
-	dw UnownMBitmasks
-	dw UnownNBitmasks
-	dw UnownOBitmasks
-	dw UnownPBitmasks
-	dw UnownQBitmasks
-	dw UnownRBitmasks
-	dw UnownSBitmasks
-	dw UnownTBitmasks
-	dw UnownUBitmasks
-	dw UnownVBitmasks
-	dw UnownWBitmasks
-	dw UnownXBitmasks
-	dw UnownYBitmasks
-	dw UnownZBitmasks
-	dw UnownExclamationBitmasks
-	dw UnownQuestionBitmasks
 
 	dw PikachuFlyBitmasks
 	dw PikachuSurfBitmasks

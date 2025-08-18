@@ -204,7 +204,6 @@ SeadraFootprint::
 SeelFootprint::
 SteelixFootprint::
 SunkernFootprint::
-UnownFootprint::
 WeezingFootprint::
 ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 

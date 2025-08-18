@@ -104,7 +104,6 @@ endc
 	db   1,  39 ; Murkrow
 	db  37, 100 ; Slowking
 	db   1,  39 ; Misdreavus
-	db 255, 255 ; Unown
 	db   1,  31 ; Dunsparce
 	db   1,  19 ; Gligar
 	db  20, 100 ; Steelix
@@ -259,9 +258,9 @@ endc
 	db   1,  29 ; Karrablast
 	db  30, 100 ; Escavalier
 	db   1,  38 ; Foongus
+	db  39, 100 ; Amoonguss
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
-	db  39, 100 ; Amoonguss
 	db   1,  39 ; Frillish
 	db  40, 100 ; Jellicent
 	db  20, 100 ; Alomomola

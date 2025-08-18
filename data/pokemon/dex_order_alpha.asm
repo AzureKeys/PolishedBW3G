@@ -289,7 +289,6 @@ AlphabeticalPokedexOrder:
 	dp TYRANITAR
 	dp UMBREON
 	dp UNFEZANT
-	dp UNOWN
 	dp VANILLISH
 	dp VANILLITE
 	dp VANILLUXE

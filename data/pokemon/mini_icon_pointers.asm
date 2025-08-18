@@ -103,7 +103,6 @@ MiniIconPointers:
 	mini_icon Murkrow
 	mini_icon Slowking
 	mini_icon Misdreavus
-	mini_icon UnownA
 	mini_icon Dunsparce
 	mini_icon Gligar
 	mini_icon Steelix
@@ -258,9 +257,9 @@ MiniIconPointers:
 	mini_icon Karrablast
 	mini_icon Escavalier
 	mini_icon Foongus
+	mini_icon Amoonguss
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Amoonguss
 	mini_icon FrillishMale
 	mini_icon JellicentMale
 	mini_icon Alomomola
@@ -321,34 +320,6 @@ MiniIconPointers:
 	mini_icon Genesect
 	mini_icon Runerigus
 	assert_table_length NUM_SPECIES
-
-	mini_icon UnownB
-	mini_icon UnownC
-	mini_icon UnownD
-	mini_icon UnownE
-	mini_icon UnownF
-	mini_icon UnownG
-	mini_icon UnownH
-	mini_icon UnownI
-	mini_icon UnownJ
-	mini_icon UnownK
-	mini_icon UnownL
-	mini_icon UnownM
-	mini_icon UnownN
-	mini_icon UnownO
-	mini_icon UnownP
-	mini_icon UnownQ
-	mini_icon UnownR
-	mini_icon UnownS
-	mini_icon UnownT
-	mini_icon UnownU
-	mini_icon UnownV
-	mini_icon UnownW
-	mini_icon UnownX
-	mini_icon UnownY
-	mini_icon UnownZ
-	mini_icon UnownExclamation
-	mini_icon UnownQuestion
 
 	mini_icon PikachuFly ; Fly
 	mini_icon PikachuSurf ; Surf

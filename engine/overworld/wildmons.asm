@@ -372,23 +372,6 @@ _ChooseWildEncounter:
 	ld b, [hl]
 	pop hl
 
-	push af
-	cp UNOWN
-	jr nz, .unown_check_done
-
-	; verify that it is actually unown
-	bit MON_EXTSPECIES_F, b
-	jr nz, .unown_check_done
-
-	ld a, [wUnlockedUnowns]
-	and a
-	jr nz, .unown_check_done
-	pop af
-	jr .nowildbattle
-
-.unown_check_done
-	pop af
-
 	; Check if we're forcing type
 	ld [wCurSpecies], a
 	ld a, b

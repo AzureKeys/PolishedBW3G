@@ -2201,9 +2201,6 @@ endc
 	learnset 55, POWER_GEM
 	learnset 62, NASTY_PLOT ; egg move
 
-	evos_attacks Unown
-	learnset 1, HIDDEN_POWER
-
 	evos_attacks Dunsparce
 	evo_data EVOLVE_LEVEL, 32, DUDUNSPARCE, NO_FORM ; preserve pre-evo form
 	learnset 1, RAGE

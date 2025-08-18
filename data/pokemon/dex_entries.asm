@@ -992,16 +992,6 @@ MisdreavusPokedexEntry::
 	next "ly or appearing"
 	next "suddenly.@"
 
-SECTION "UnownPokedexEntry", ROMX
-UnownPokedexEntry::
-	db "Symbol@"
-	db   "Because different"
-	next "types of Unown"
-	next "exist, it is said"
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
-
 SECTION "DunsparcePokedexEntry", ROMX
 DunsparcePokedexEntry::
 	db "Land Snake@"

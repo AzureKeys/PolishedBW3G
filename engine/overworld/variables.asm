@@ -79,8 +79,7 @@ Var_UnownCaught:
 	push de
 	push bc
 
-	assert !HIGH(UNOWN)
-	lb bc, NUM_UNOWN, UNOWN
+	lb bc, NUM_PIKACHU, PIKACHU
 	ld d, 0
 .loop
 	push de

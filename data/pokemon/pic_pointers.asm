@@ -103,7 +103,6 @@ PokemonPicPointers::
 	pics Murkrow
 	pics SlowkingPlain
 	pics Misdreavus
-	pics UnownA
 	pics Dunsparce
 	pics Gligar
 	pics Steelix
@@ -258,9 +257,9 @@ PokemonPicPointers::
 	pics Karrablast
 	pics Escavalier
 	pics Foongus
+	pics Amoonguss
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Amoonguss
 	pics FrillishMale
 	pics JellicentMale
 	pics Alomomola
@@ -321,34 +320,6 @@ PokemonPicPointers::
 	pics Genesect
 	pics Runerigus
 	assert_table_length NUM_SPECIES
-
-	pics UnownB
-	pics UnownC
-	pics UnownD
-	pics UnownE
-	pics UnownF
-	pics UnownG
-	pics UnownH
-	pics UnownI
-	pics UnownJ
-	pics UnownK
-	pics UnownL
-	pics UnownM
-	pics UnownN
-	pics UnownO
-	pics UnownP
-	pics UnownQ
-	pics UnownR
-	pics UnownS
-	pics UnownT
-	pics UnownU
-	pics UnownV
-	pics UnownW
-	pics UnownX
-	pics UnownY
-	pics UnownZ
-	pics UnownExclamation
-	pics UnownQuestion
 
 	pics PikachuFly
 	pics PikachuSurf

@@ -103,7 +103,6 @@ EvosAttacksPointers::
 	dw MurkrowEvosAttacks
 	dw SlowkingPlainEvosAttacks
 	dw MisdreavusEvosAttacks
-	dw UnownEvosAttacks
 	dw DunsparceEvosAttacks
 	dw GligarEvosAttacks
 	dw SteelixEvosAttacks
@@ -258,9 +257,9 @@ EvosAttacksPointers::
 	dw KarrablastEvosAttacks
 	dw EscavalierEvosAttacks
 	dw FoongusEvosAttacks
+	dw AmoongussEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
-	dw AmoongussEvosAttacks
 	dw FrillishEvosAttacks
 	dw JellicentEvosAttacks
 	dw AlomomolaEvosAttacks

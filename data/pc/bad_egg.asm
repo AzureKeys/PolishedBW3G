@@ -1,10 +1,10 @@
 BadEggRLE:
-	db UNOWN, 1 ; $c6
+	db SNIVY, 1 ; $c6
 	db $00, 1
 	db HIDDEN_POWER, 1 ; $ed
 	db $00, 17
 	db ABILITY_1 | QUIRKY, 1 ; $38
-	db MALE | IS_EGG_MASK | UNOWN_QUESTION_FORM, 1 ; $68
+	db MALE | IS_EGG_MASK, 1 ; $68
 	db $00, 9
 	db EGG_LEVEL, 1 ; $01
 	db $00, 16

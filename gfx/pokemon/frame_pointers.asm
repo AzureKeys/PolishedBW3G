@@ -99,7 +99,6 @@ FramesPointers:
 	dw MurkrowFrames
 	dw SlowkingPlainFrames
 	dw MisdreavusFrames
-	dw UnownAFrames
 	dw DunsparceFrames
 	dw GligarFrames
 	dw SteelixFrames
@@ -254,9 +253,9 @@ FramesPointers:
 	dw KarrablastFrames
 	dw EscavalierFrames
 	dw FoongusFrames
+	dw AmoongussFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw AmoongussFrames
 	dw FrillishMaleFrames
 	dw JellicentMaleFrames
 	dw AlomomolaFrames
@@ -317,34 +316,6 @@ FramesPointers:
 	dw GenesectFrames
 	dw RunerigusFrames
 	assert_table_length NUM_SPECIES
-
-	dw UnownBFrames
-	dw UnownCFrames
-	dw UnownDFrames
-	dw UnownEFrames
-	dw UnownFFrames
-	dw UnownGFrames
-	dw UnownHFrames
-	dw UnownIFrames
-	dw UnownJFrames
-	dw UnownKFrames
-	dw UnownLFrames
-	dw UnownMFrames
-	dw UnownNFrames
-	dw UnownOFrames
-	dw UnownPFrames
-	dw UnownQFrames
-	dw UnownRFrames
-	dw UnownSFrames
-	dw UnownTFrames
-	dw UnownUFrames
-	dw UnownVFrames
-	dw UnownWFrames
-	dw UnownXFrames
-	dw UnownYFrames
-	dw UnownZFrames
-	dw UnownExclamationFrames
-	dw UnownQuestionFrames
 
 	dw PikachuFlyFrames
 	dw PikachuSurfFrames

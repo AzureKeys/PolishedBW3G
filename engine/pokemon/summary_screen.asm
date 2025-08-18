@@ -981,16 +981,10 @@ SummaryScreen_PlaceFrontpic:
 	set SUMMARY_FLAGS_FINISH_ANIM_F, [hl]
 	hlcoord 0, 1
 	ld a, [wCurPartySpecies]
-	cp UNOWN
-	jmp z, PrepMonFrontpicFlipped
 	jmp PrepMonFrontpic
 
 .Animate:
-	ld a, [wCurPartySpecies]
-	sub UNOWN
-	jr z, .got_align
 	ld a, TRUE
-.got_align
 	ld [wBoxAlignment], a
 	ld a, [wCurPartySpecies]
 	call IsAPokemon

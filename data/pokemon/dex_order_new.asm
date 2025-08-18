@@ -194,7 +194,6 @@ NewPokedexOrder:
 	dp GASTLY
 	dp HAUNTER
 	dp GENGAR
-	dp UNOWN
 	dp ONIX
 	dp STEELIX
 	dp PARAS

@@ -89,7 +89,7 @@ MapRuinsofAlphKabutoChamberSignpost2Script:
 
 RuinsOfAlphKabutoChamberScientistScript:
 	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .AllUnownCaught
+	ifequalfwd 0, .AllUnownCaught
 	checkevent EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
 	iftrue_jumptextfaceplayer RuinsOfAlphKabutoChamberScientistHoleText
 	faceplayer

@@ -423,57 +423,57 @@
 	def_grass_wildmons RUINS_OF_ALPH_ENTRANCE_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, UNOWN
-	wildmon 5, UNOWN
-	wildmon 5, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
 	; day
-	wildmon 10, UNOWN
-	wildmon 5, UNOWN
-	wildmon 5, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 15, UNOWN
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 15, RATTATA
 	; nite
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 15, UNOWN
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 15, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, UNOWN
-	wildmon 5, UNOWN
-	wildmon 5, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
 	; day
-	wildmon 10, UNOWN
-	wildmon 5, UNOWN
-	wildmon 5, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 15, UNOWN
+	wildmon 10, RATTATA
+	wildmon 5, RATTATA
+	wildmon 5, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 15, RATTATA
 	; nite
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 10, UNOWN
-	wildmon 15, UNOWN
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 10, RATTATA
+	wildmon 15, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F

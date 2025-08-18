@@ -99,7 +99,6 @@ AnimationPointers:
 	dw MurkrowAnimation
 	dw SlowkingPlainAnimation
 	dw MisdreavusAnimation
-	dw UnownAAnimation
 	dw DunsparceAnimation
 	dw GligarAnimation
 	dw SteelixAnimation
@@ -254,9 +253,9 @@ AnimationPointers:
 	dw KarrablastAnimation
 	dw EscavalierAnimation
 	dw FoongusAnimation
+	dw AmoongussAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
-	dw AmoongussAnimation
 	dw FrillishMaleAnimation
 	dw JellicentMaleAnimation
 	dw AlomomolaAnimation
@@ -317,34 +316,6 @@ AnimationPointers:
 	dw GenesectAnimation
 	dw RunerigusAnimation
 	assert_table_length NUM_SPECIES
-
-	dw UnownBAnimation
-	dw UnownCAnimation
-	dw UnownDAnimation
-	dw UnownEAnimation
-	dw UnownFAnimation
-	dw UnownGAnimation
-	dw UnownHAnimation
-	dw UnownIAnimation
-	dw UnownJAnimation
-	dw UnownKAnimation
-	dw UnownLAnimation
-	dw UnownMAnimation
-	dw UnownNAnimation
-	dw UnownOAnimation
-	dw UnownPAnimation
-	dw UnownQAnimation
-	dw UnownRAnimation
-	dw UnownSAnimation
-	dw UnownTAnimation
-	dw UnownUAnimation
-	dw UnownVAnimation
-	dw UnownWAnimation
-	dw UnownXAnimation
-	dw UnownYAnimation
-	dw UnownZAnimation
-	dw UnownExclamationAnimation
-	dw UnownQuestionAnimation
 
 	dw PikachuFlyAnimation
 	dw PikachuSurfAnimation

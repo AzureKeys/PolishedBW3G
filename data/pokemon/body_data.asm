@@ -106,7 +106,6 @@ PokemonBodyData:
 	body_data   5,   21, WINGS,        BLACK  ; MURKROW
 	body_data  20,  795, BIPEDAL_TAIL, PINK   ; SLOWKING
 	body_data   7,   10, HEAD,         GRAY   ; MISDREAVUS
-	body_data   5,   50, HEAD,         BLACK  ; UNOWN
 	body_data  15,  140, SERPENTINE,   YELLOW ; DUNSPARCE
 	body_data  11,  648, WINGS,        PURPLE ; GLIGAR
 	body_data  92, 4000, SERPENTINE,   GRAY   ; STEELIX
@@ -261,9 +260,9 @@ PokemonBodyData:
 	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST
 	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
 	body_data   2,   10, HEAD_ARMS,    WHITE  ; FOONGUS
+	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
-	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	body_data  12,  330, TENTACLES,    WHITE  ; FRILLISH
 	body_data  22, 1350, TENTACLES,    WHITE  ; JELLICENT
 	body_data  12,  316, FINS,         PINK   ; ALOMOMOLA

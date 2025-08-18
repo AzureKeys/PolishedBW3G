@@ -75,7 +75,7 @@ RuinsOfAlphResearchCenterScientist3Script:
 	checkevent EVENT_RUINS_OF_ALPH_CLIMAX_DONE
 	iftruefwd .Conclusion
 	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .PrinterAvailable
+	ifequalfwd 0, .PrinterAvailable
 	jumpopenedtext RuinsOfAlphResearchCenterScientist3Text
 
 .Conclusion:
@@ -146,7 +146,7 @@ RuinsOfAlphResearchCenterScientist1Script:
 	faceplayer
 	opentext
 	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .GotAllUnown
+	ifequalfwd 0, .GotAllUnown
 	checkflag ENGINE_UNOWN_DEX
 	iftruefwd .GotUnownDex
 	checkevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
@@ -180,7 +180,7 @@ RuinsOfAlphResearchCenterScientist2Script:
 
 .GotAllUnown:
 	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .ResearchComplete
+	ifequalfwd 0, .ResearchComplete
 	readvar VAR_UNOWNCOUNT
 	ifgreater 10, .ResearchOngoing
 	jumpopenedtext RuinsOfAlphResearchCenterScientist2Text_GotAllUnown

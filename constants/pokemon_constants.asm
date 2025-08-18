@@ -123,7 +123,6 @@
 	const MURKROW    ; 61
 	const SLOWKING   ; 62
 	const MISDREAVUS ; 63
-	const UNOWN      ; xx
 	const DUNSPARCE  ; 64
 	const GLIGAR     ; 65
 	const STEELIX    ; 66
@@ -278,9 +277,9 @@
 	const KARRABLAST ; 151
 	const ESCAVALIER ; 152
 	const FOONGUS    ; 153
+	const AMOONGUSS  ; 154
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const AMOONGUSS  ; 154
 	const FRILLISH   ; 155
 	const JELLICENT  ; 156
 	const ALOMOMOLA  ; 157
@@ -372,37 +371,6 @@ DEF NO_FORM EQU 0
 DEF PLAIN_FORM EQU 1
 
 DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 124
-
-; unown
-	ext_const_def 1, UNOWN_A_FORM    ;     (01)
-	ext_const UNOWN_B_FORM           ; 124 (02)
-	ext_const UNOWN_C_FORM           ; 125 (03)
-	ext_const UNOWN_D_FORM           ; 126 (04)
-	ext_const UNOWN_E_FORM           ; 127 (05)
-	ext_const UNOWN_F_FORM           ; 128 (06)
-	ext_const UNOWN_G_FORM           ; 129 (07)
-	ext_const UNOWN_H_FORM           ; 12a (08)
-	ext_const UNOWN_I_FORM           ; 12b (09)
-	ext_const UNOWN_J_FORM           ; 12c (0a)
-	ext_const UNOWN_K_FORM           ; 12d (0b)
-	ext_const UNOWN_L_FORM           ; 12e (0c)
-	ext_const UNOWN_M_FORM           ; 12f (0d)
-	ext_const UNOWN_N_FORM           ; 130 (0e)
-	ext_const UNOWN_O_FORM           ; 131 (0f)
-	ext_const UNOWN_P_FORM           ; 132 (10)
-	ext_const UNOWN_Q_FORM           ; 133 (11)
-	ext_const UNOWN_R_FORM           ; 134 (12)
-	ext_const UNOWN_S_FORM           ; 135 (13)
-	ext_const UNOWN_T_FORM           ; 136 (14)
-	ext_const UNOWN_U_FORM           ; 137 (15)
-	ext_const UNOWN_V_FORM           ; 138 (16)
-	ext_const UNOWN_W_FORM           ; 139 (17)
-	ext_const UNOWN_X_FORM           ; 13a (18)
-	ext_const UNOWN_Y_FORM           ; 13b (19)
-	ext_const UNOWN_Z_FORM           ; 13c (1a)
-	ext_const UNOWN_EXCLAMATION_FORM ; 13d (1b)
-	ext_const UNOWN_QUESTION_FORM    ; 13e (1c)
-DEF NUM_UNOWN EQU ext_const_value - 1
 
 ; pikachu
 	ext_const_def 2

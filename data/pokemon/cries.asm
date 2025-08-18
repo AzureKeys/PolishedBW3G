@@ -105,7 +105,6 @@ PokemonCries::
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Murkrow
 	mon_cry CRY_SLOWKING,    $104,  $200 ; Slowking
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Misdreavus
-	mon_cry CRY_HOOTHOOT,    $162,  $100 ; Unown
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dunsparce
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gligar
 	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; Steelix
@@ -260,9 +259,9 @@ PokemonCries::
 	mon_cry CRY_KARRABLAST,  $00e,  $0d7 ; Karrablast
 	mon_cry CRY_CUBCHOO,    -$047,  $160 ; Escavalier
 	mon_cry CRY_GRIMER,      $2d0,  $0a0 ; Foongus
+	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
-	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	mon_cry CRY_RAIKOU,      $083,  $130 ; Frillish
 	mon_cry CRY_RAIKOU,     -$18d,  $130 ; Jellicent
 	mon_cry CRY_LAPRAS,      $000,  $100 ; ALOMOMOLA*

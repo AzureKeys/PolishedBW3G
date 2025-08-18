@@ -103,7 +103,6 @@ endc
 	db NO_MOVE      ; MURKROW
 	db NO_MOVE      ; SLOWKING
 	db NO_MOVE      ; MISDREAVUS
-	db NO_MOVE      ; UNOWN
 	db NO_MOVE      ; DUNSPARCE
 	db NO_MOVE      ; GLIGAR
 	db IRON_TAIL    ; STEELIX
@@ -258,9 +257,9 @@ endc
 	db NO_MOVE      ; KARRABLAST
 	db NO_MOVE      ; ESCAVALIER
 	db NO_MOVE      ; FOONGUS
+	db NO_MOVE      ; AMOONGUSS
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
-	db NO_MOVE      ; AMOONGUSS
 	db NO_MOVE      ; FRILLISH
 	db NO_MOVE      ; JELLICENT
 	db NO_MOVE      ; ALOMOMOLA

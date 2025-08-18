@@ -100,7 +100,6 @@ PokemonNames::
 	rawchar "Murkrow@@@"
 	rawchar "Slowking@@"
 	rawchar "Misdreavus"
-	rawchar "Unown@@@@@"
 	rawchar "Dunsparce@"
 	rawchar "Gligar@@@@"
 	rawchar "Steelix@@@"
@@ -255,9 +254,9 @@ PokemonNames::
 	rawchar "Karrablast"
 	rawchar "Escavalier"
 	rawchar "Foongus@@@"
+	rawchar "Amoonguss@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
-	rawchar "Amoonguss@"
 	rawchar "Frillish@@"
 	rawchar "Jellicent@"
 	rawchar "Alomomola@"
