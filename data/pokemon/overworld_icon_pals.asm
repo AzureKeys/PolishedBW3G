@@ -129,9 +129,6 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; LARVITAR
 	iconpal GRAY, PURPLE ; PUPITAR
 	iconpal GREEN, GRAY ; TYRANITAR
-	iconpal BLUE, RED ; LUGIA
-	iconpal RED, GREEN ; HO_OH
-	iconpal GREEN, RED ; CELEBI
 	iconpal GREEN, AZURE ; RALTS
 	iconpal GREEN, AZURE ; KIRLIA
 	iconpal GREEN, AZURE ; GARDEVOIR
@@ -258,11 +255,11 @@ OverworldMonIconColors::
 	iconpal BROWN, PINK ; DEERLING
 	iconpal BROWN, ORANGE ; SAWSBUCK
 	iconpal YELLOW, BROWN ; EMOLGA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, TEAL ; KARRABLAST
 	iconpal GRAY, PINK ; ESCAVALIER
 	iconpal RED, PURPLE ; FOONGUS
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal RED, PURPLE ; AMOONGUSS
 	iconpal AZURE, TEAL ; FRILLISH
 	iconpal AZURE, TEAL ; JELLICENT

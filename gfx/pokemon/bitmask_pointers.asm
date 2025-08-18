@@ -125,9 +125,6 @@ BitmasksPointers:
 	dw LarvitarBitmasks
 	dw PupitarBitmasks
 	dw TyranitarBitmasks
-	dw LugiaBitmasks
-	dw HoOhBitmasks
-	dw CelebiBitmasks
 	dw RaltsBitmasks
 	dw KirliaBitmasks
 	dw GardevoirBitmasks
@@ -254,11 +251,11 @@ BitmasksPointers:
 	dw DeerlingSpringBitmasks
 	dw SawsbuckSpringBitmasks
 	dw EmolgaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw KarrablastBitmasks
 	dw EscavalierBitmasks
 	dw FoongusBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw AmoongussBitmasks
 	dw FrillishMaleBitmasks
 	dw JellicentMaleBitmasks

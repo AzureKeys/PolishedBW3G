@@ -316,7 +316,4 @@ NewPokedexOrder:
 	dp LARVITAR
 	dp PUPITAR
 	dp TYRANITAR
-	dp LUGIA
-	dp HO_OH
-	dp CELEBI
 	assert_table_length NUM_POKEMON

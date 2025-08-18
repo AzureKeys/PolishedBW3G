@@ -125,9 +125,6 @@ EggSpeciesMovesPointers::
 	dw LarvitarEggSpeciesMoves          ; Larvitar
 	dw LarvitarEggSpeciesMoves          ; Pupitar
 	dw LarvitarEggSpeciesMoves          ; Tyranitar
-	dw NoEggSpeciesMoves                ; Lugia
-	dw NoEggSpeciesMoves                ; HoOh
-	dw NoEggSpeciesMoves                ; Celebi
 	dw RaltsEggSpeciesMoves             ; Ralts
 	dw RaltsEggSpeciesMoves             ; Kirlia
 	dw RaltsEggSpeciesMoves             ; Gardevoir
@@ -254,11 +251,11 @@ EggSpeciesMovesPointers::
 	dw DeerlingEggSpeciesMoves          ; Deerling
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck
 	dw EmolgaEggSpeciesMoves            ; Emolga
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw KarrablastEggSpeciesMoves        ; Karrablast
 	dw KarrablastEggSpeciesMoves        ; Escavalier
 	dw FoongusEggSpeciesMoves           ; Foongus
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw FrillishEggSpeciesMoves          ; Frillish
 	dw FrillishEggSpeciesMoves          ; Jellicent

@@ -125,9 +125,6 @@ AnimationExtraPointers:
 	dw LarvitarAnimationExtra
 	dw PupitarAnimationExtra
 	dw TyranitarAnimationExtra
-	dw LugiaAnimationExtra
-	dw HoOhAnimationExtra
-	dw CelebiAnimationExtra
 	dw RaltsAnimationExtra
 	dw KirliaAnimationExtra
 	dw GardevoirAnimationExtra
@@ -254,11 +251,11 @@ AnimationExtraPointers:
 	dw DeerlingSpringAnimationExtra
 	dw SawsbuckSpringAnimationExtra
 	dw EmolgaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw KarrablastAnimationExtra
 	dw EscavalierAnimationExtra
 	dw FoongusAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw AmoongussAnimationExtra
 	dw FrillishMaleAnimationExtra
 	dw JellicentMaleAnimationExtra

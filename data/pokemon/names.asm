@@ -126,9 +126,6 @@ PokemonNames::
 	rawchar "Larvitar@@"
 	rawchar "Pupitar@@@"
 	rawchar "Tyranitar@"
-	rawchar "Lugia@@@@@"
-	rawchar "Ho-Oh@@@@@"
-	rawchar "Celebi@@@@"
 	rawchar "Ralts@@@@@"
 	rawchar "Kirlia@@@@"
 	rawchar "Gardevoir@"
@@ -255,11 +252,11 @@ PokemonNames::
 	rawchar "Deerling@@"
 	rawchar "Sawsbuck@@"
 	rawchar "Emolga@@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Karrablast"
 	rawchar "Escavalier"
 	rawchar "Foongus@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Amoonguss@"
 	rawchar "Frillish@@"
 	rawchar "Jellicent@"

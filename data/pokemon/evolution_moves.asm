@@ -129,9 +129,6 @@ endc
 	db NO_MOVE      ; LARVITAR
 	db DEFENSE_CURL ; PUPITAR
 	db STOMP        ; TYRANITAR
-	db NO_MOVE      ; LUGIA
-	db NO_MOVE      ; HO_OH
-	db NO_MOVE      ; CELEBI
 	db NO_MOVE      ; RALTS
 	db NO_MOVE      ; KIRLIA
 	db NO_MOVE      ; GARDEVOIR
@@ -258,11 +255,11 @@ endc
 	db NO_MOVE      ; DEERLING
 	db MEGAHORN     ; SAWSBUCK
 	db NO_MOVE      ; EMOLGA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; KARRABLAST
 	db NO_MOVE      ; ESCAVALIER
 	db NO_MOVE      ; FOONGUS
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; AMOONGUSS
 	db NO_MOVE      ; FRILLISH
 	db NO_MOVE      ; JELLICENT

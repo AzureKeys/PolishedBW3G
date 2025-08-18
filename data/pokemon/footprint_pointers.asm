@@ -125,9 +125,6 @@ FootprintPointers::
 	dw LarvitarFootprint
 	dw PupitarFootprint
 	dw TyranitarFootprint
-	dw LugiaFootprint
-	dw HoOhFootprint
-	dw CelebiFootprint
 	dw RaltsFootprint
 	dw KirliaFootprint
 	dw GardevoirFootprint
@@ -254,11 +251,11 @@ FootprintPointers::
 	dw DeerlingFootprint
 	dw SawsbuckFootprint
 	dw EmolgaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw KarrablastFootprint
 	dw EscavalierFootprint
 	dw FoongusFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw AmoongussFootprint
 	dw FrillishFootprint
 	dw JellicentFootprint

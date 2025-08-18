@@ -126,9 +126,6 @@ PokedexDataPointerTable:
 	dba LarvitarPokedexEntry
 	dba PupitarPokedexEntry
 	dba TyranitarPokedexEntry
-	dba LugiaPokedexEntry
-	dba HoOhPokedexEntry
-	dba CelebiPokedexEntry
 	dba RaltsPokedexEntry
 	dba KirliaPokedexEntry
 	dba GardevoirPokedexEntry
@@ -255,11 +252,11 @@ PokedexDataPointerTable:
 	dba DeerlingPokedexEntry
 	dba SawsbuckPokedexEntry
 	dba EmolgaPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba KarrablastPokedexEntry
 	dba EscavalierPokedexEntry
 	dba FoongusPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba AmoongussPokedexEntry
 	dba FrillishPokedexEntry
 	dba JellicentPokedexEntry

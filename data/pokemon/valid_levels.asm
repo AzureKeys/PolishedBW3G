@@ -130,9 +130,6 @@ endc
 	db   1,  29 ; Larvitar
 	db  30,  54 ; Pupitar
 	db  55, 100 ; Tyranitar
-	db 255, 255 ; Lugia
-	db 255, 255 ; Ho-Oh
-	db 255, 255 ; Celebi
 	db   1,  19 ; Ralts
 	db  20,  29 ; Kirlia
 	db  30, 100 ; Gardevoir
@@ -259,11 +256,11 @@ endc
 	db   1,  33 ; Deerling
 	db  34, 100 ; Sawsbuck
 	db  20, 100 ; Emolga
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  29 ; Karrablast
 	db  30, 100 ; Escavalier
 	db   1,  38 ; Foongus
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  39, 100 ; Amoonguss
 	db   1,  39 ; Frillish
 	db  40, 100 ; Jellicent

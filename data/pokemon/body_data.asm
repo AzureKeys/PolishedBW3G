@@ -132,9 +132,6 @@ PokemonBodyData:
 	body_data   6,  720, BIPEDAL_TAIL, GREEN  ; LARVITAR
 	body_data  12, 1520, SERPENTINE,   GRAY   ; PUPITAR
 	body_data  20, 2020, BIPEDAL_TAIL, GREEN  ; TYRANITAR
-	body_data  52, 2160, WINGS,        WHITE  ; LUGIA
-	body_data  38, 1990, WINGS,        RED    ; HO_OH
-	body_data   6,   50, BIPEDAL,      GREEN  ; CELEBI
 	body_data   4,   66, BIPEDAL,      WHITE  ; RALTS
 	body_data   8,  202, BIPEDAL,      WHITE  ; KIRLIA
 	body_data  16,  484, BIPEDAL,      WHITE  ; GARDEVOIR
@@ -261,11 +258,11 @@ PokemonBodyData:
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
 	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST
 	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
 	body_data   2,   10, HEAD_ARMS,    WHITE  ; FOONGUS
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	body_data  12,  330, TENTACLES,    WHITE  ; FRILLISH
 	body_data  22, 1350, TENTACLES,    WHITE  ; JELLICENT

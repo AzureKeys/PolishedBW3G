@@ -12,7 +12,7 @@ TinTowerRoof_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  7,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, HO_OH, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, TinTowerHoOh, EVENT_TIN_TOWER_ROOF_HO_OH
+	object_event  7,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, RATTATA, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, TinTowerHoOh, EVENT_TIN_TOWER_ROOF_HO_OH
 
 	object_const_def
 	const TINTOWERROOF_HO_OH
@@ -36,12 +36,12 @@ TinTowerHoOh:
 	faceplayer
 	opentext
 	writetext HoOhText
-	cry HO_OH
+	cry RATTATA
 	pause 15
 	closetext
 	setevent EVENT_FOUGHT_HO_OH
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
-	loadwildmon HO_OH, 75
+	loadwildmon RATTATA, 75
 	startbattle
 	disappear TINTOWERROOF_HO_OH
 	reloadmapafterbattle

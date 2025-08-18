@@ -129,9 +129,6 @@ MiniIconPointers:
 	mini_icon Larvitar
 	mini_icon Pupitar
 	mini_icon Tyranitar
-	mini_icon Lugia
-	mini_icon HoOh
-	mini_icon Celebi
 	mini_icon Ralts
 	mini_icon Kirlia
 	mini_icon Gardevoir
@@ -258,11 +255,11 @@ MiniIconPointers:
 	mini_icon Deerling
 	mini_icon SawsbuckSpring
 	mini_icon Emolga
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Karrablast
 	mini_icon Escavalier
 	mini_icon Foongus
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Amoonguss
 	mini_icon FrillishMale
 	mini_icon JellicentMale

@@ -125,9 +125,6 @@ AnimationPointers:
 	dw LarvitarAnimation
 	dw PupitarAnimation
 	dw TyranitarAnimation
-	dw LugiaAnimation
-	dw HoOhAnimation
-	dw CelebiAnimation
 	dw RaltsAnimation
 	dw KirliaAnimation
 	dw GardevoirAnimation
@@ -254,11 +251,11 @@ AnimationPointers:
 	dw DeerlingSpringAnimation
 	dw SawsbuckSpringAnimation
 	dw EmolgaAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw KarrablastAnimation
 	dw EscavalierAnimation
 	dw FoongusAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw AmoongussAnimation
 	dw FrillishMaleAnimation
 	dw JellicentMaleAnimation

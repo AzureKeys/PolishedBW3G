@@ -125,9 +125,6 @@ FramesPointers:
 	dw LarvitarFrames
 	dw PupitarFrames
 	dw TyranitarFrames
-	dw LugiaFrames
-	dw HoOhFrames
-	dw CelebiFrames
 	dw RaltsFrames
 	dw KirliaFrames
 	dw GardevoirFrames
@@ -254,11 +251,11 @@ FramesPointers:
 	dw DeerlingSpringFrames
 	dw SawsbuckSpringFrames
 	dw EmolgaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw KarrablastFrames
 	dw EscavalierFrames
 	dw FoongusFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw AmoongussFrames
 	dw FrillishMaleFrames
 	dw JellicentMaleFrames

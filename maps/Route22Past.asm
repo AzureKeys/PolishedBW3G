@@ -74,7 +74,7 @@ Route22PastCelebiEventScript:
 	special RestartMapMusic
 	applymovement ROUTE22PAST_LYRA, Route22Past_LyraMeetsPlayerMovementData
 	showtext Route22PastLyraConclusionText
-	cry CELEBI
+	cry RATTATA
 	applymovement ROUTE22PAST_CELEBI, Route22Past_CelebiHopsMovementData
 	waitsfx
 	playsound SFX_GAME_FREAK_LOGO_GS

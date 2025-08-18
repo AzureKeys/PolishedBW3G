@@ -129,9 +129,6 @@ EvosAttacksPointers::
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks
-	dw LugiaEvosAttacks
-	dw HoOhEvosAttacks
-	dw CelebiEvosAttacks
 	dw RaltsEvosAttacks
 	dw KirliaEvosAttacks
 	dw GardevoirEvosAttacks
@@ -258,11 +255,11 @@ EvosAttacksPointers::
 	dw DeerlingEvosAttacks
 	dw SawsbuckEvosAttacks
 	dw EmolgaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw KarrablastEvosAttacks
 	dw EscavalierEvosAttacks
 	dw FoongusEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw AmoongussEvosAttacks
 	dw FrillishEvosAttacks
 	dw JellicentEvosAttacks

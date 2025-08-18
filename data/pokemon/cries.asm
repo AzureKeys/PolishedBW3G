@@ -131,9 +131,6 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
 	mon_cry CRY_SPINARAK,   -$1db,  $150 ; Pupitar
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar
-	mon_cry CRY_TYPHLOSION,  $000,  $100 ; Lugia
-	mon_cry CRY_TYROGUE,     $000,  $180 ; HoOh
-	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
 	mon_cry CRY_GLIGAR,      $ffc,  $110 ; Ralts
 	mon_cry CRY_VILEPLUME,   $008,  $100 ; Kirlia
 	mon_cry CRY_VILEPLUME,   $f22,  $163 ; Gardevoir
@@ -260,11 +257,11 @@ PokemonCries::
 	mon_cry CRY_DEERLING,    $85d,  $0d4 ; Deerling
 	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck
 	mon_cry CRY_TIRTOUGA,    $07e,  $086 ; Emolga
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_KARRABLAST,  $00e,  $0d7 ; Karrablast
 	mon_cry CRY_CUBCHOO,    -$047,  $160 ; Escavalier
 	mon_cry CRY_GRIMER,      $2d0,  $0a0 ; Foongus
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	mon_cry CRY_RAIKOU,      $083,  $130 ; Frillish
 	mon_cry CRY_RAIKOU,     -$18d,  $130 ; Jellicent

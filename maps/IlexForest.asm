@@ -424,7 +424,7 @@ IlexForestShrineScript:
 .DontDoCelebiEvent:
 	checkevent EVENT_TIME_TRAVEL_FINISHED
 	iftruefwd .DontDoGiovanniEvent
-	checkpoke CELEBI
+	checkpoke RATTATA
 	iftruefwd .StartGiovanniEvent
 .DontDoGiovanniEvent
 	jumptext Text_IlexForestShrine
@@ -454,7 +454,7 @@ IlexForestShrineScript:
 	pause 20
 	clearflag ENGINE_HAVE_EXAMINED_GS_BALL
 	special Special_CelebiShrineEvent
-	loadwildmon CELEBI, 30
+	loadwildmon RATTATA, 30
 	startbattle
 	reloadmapafterbattle
 	pause 20
@@ -476,7 +476,7 @@ IlexForestShrineScript:
 	turnobject PLAYER, DOWN
 	waitsfx
 	pause 15
-	cry CELEBI
+	cry RATTATA
 	waitsfx
 	pause 15
 	applymovement ILEXFOREST_CELEBI, MovementData_CelebiDance
@@ -511,7 +511,7 @@ IlexForestShrineScript:
 	turnobject ILEXFOREST_LYRA, RIGHT
 	turnobject PLAYER, LEFT
 	showtext Text_IlexForestLyraWhatWasThat
-	cry CELEBI
+	cry RATTATA
 	showemote EMOTE_SHOCK, PLAYER, 15
 	applymovement PLAYER, MovementData_PlayerStepBack
 	waitsfx

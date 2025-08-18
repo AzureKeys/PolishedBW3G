@@ -510,18 +510,6 @@ SECTION "Tyranitar Pics", ROMX
 TyranitarFrontpic: INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
 TyranitarBackpic:  INCBIN "gfx/pokemon/tyranitar/back.2bpp.lz"
 
-SECTION "Lugia Pics", ROMX
-LugiaFrontpic: INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
-LugiaBackpic:  INCBIN "gfx/pokemon/lugia/back.2bpp.lz"
-
-SECTION "HoOh Pics", ROMX
-HoOhFrontpic: INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
-HoOhBackpic:  INCBIN "gfx/pokemon/ho_oh/back.2bpp.lz"
-
-SECTION "Celebi Pics", ROMX
-CelebiFrontpic: INCBIN "gfx/pokemon/celebi/front.animated.2bpp.lz"
-CelebiBackpic:  INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
-
 SECTION "Ralts Pics", ROMX
 RaltsFrontpic: INCBIN "gfx/pokemon/ralts/front.animated.2bpp.lz"
 RaltsBackpic:  INCBIN "gfx/pokemon/ralts/back.2bpp.lz"

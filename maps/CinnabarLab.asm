@@ -190,7 +190,7 @@ CinnabarLabCelebiEventScript:
 	waitsfx
 	opentext
 	writetext CinnabarLabCelebiText
-	cry CELEBI
+	cry RATTATA
 	waitsfx
 	closetext
 	turnobject PLAYER, LEFT

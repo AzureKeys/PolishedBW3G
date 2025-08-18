@@ -149,9 +149,6 @@
 	const LARVITAR   ; 7a
 	const PUPITAR    ; 7b
 	const TYRANITAR  ; 7c
-	const LUGIA      ; xx
-	const HO_OH      ; xx
-	const CELEBI     ; xx
 	const RALTS      ; 85
 	const KIRLIA     ; 86
 	const GARDEVOIR  ; 87
@@ -278,11 +275,11 @@
 	const DEERLING   ; 14e
 	const SAWSBUCK   ; 14f
 	const EMOLGA     ; 150
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const KARRABLAST ; 151
 	const ESCAVALIER ; 152
 	const FOONGUS    ; 153
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const AMOONGUSS  ; 154
 	const FRILLISH   ; 155
 	const JELLICENT  ; 156

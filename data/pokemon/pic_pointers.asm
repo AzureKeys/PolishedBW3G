@@ -129,9 +129,6 @@ PokemonPicPointers::
 	pics Larvitar
 	pics Pupitar
 	pics Tyranitar
-	pics Lugia
-	pics HoOh
-	pics Celebi
 	pics Ralts
 	pics Kirlia
 	pics Gardevoir
@@ -258,11 +255,11 @@ PokemonPicPointers::
 	pics DeerlingSpring
 	pics SawsbuckSpring
 	pics Emolga
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Karrablast
 	pics Escavalier
 	pics Foongus
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Amoonguss
 	pics FrillishMale
 	pics JellicentMale

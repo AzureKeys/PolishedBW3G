@@ -632,21 +632,6 @@ TyranitarMini::     INCBIN "gfx/minis/tyranitar.2bpp.lz"
 TyranitarMiniMask:: INCBIN "gfx/minis/tyranitar_mask.1bpp.lz"
 TyranitarIcon::     INCBIN "gfx/icons/tyranitar.2bpp.lz"
 
-SECTION "Lugia Mini Icon", ROMX
-LugiaMini::     INCBIN "gfx/minis/lugia.2bpp.lz"
-LugiaMiniMask:: INCBIN "gfx/minis/lugia_mask.1bpp.lz"
-LugiaIcon::     INCBIN "gfx/icons/lugia.2bpp.lz"
-
-SECTION "HoOh Mini Icon", ROMX
-HoOhMini::     INCBIN "gfx/minis/ho_oh.2bpp.lz"
-HoOhMiniMask:: INCBIN "gfx/minis/ho_oh_mask.1bpp.lz"
-HoOhIcon::     INCBIN "gfx/icons/ho_oh.2bpp.lz"
-
-SECTION "Celebi Mini Icon", ROMX
-CelebiMini::     INCBIN "gfx/minis/celebi.2bpp.lz"
-CelebiMiniMask:: INCBIN "gfx/minis/celebi_mask.1bpp.lz"
-CelebiIcon::     INCBIN "gfx/icons/celebi.2bpp.lz"
-
 SECTION "Azurill Mini Icon", ROMX
 AzurillMini::     INCBIN "gfx/minis/azurill.2bpp.lz"
 AzurillMiniMask:: INCBIN "gfx/minis/azurill_mask.1bpp.lz"

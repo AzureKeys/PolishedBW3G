@@ -54,9 +54,7 @@ BattleMusic_Trainers:
 	db -1
 
 BattleMusic_Legendaries:
-	music_legendary HO_OH,    PLAIN_FORM,    MUSIC_HO_OH_BATTLE_HGSS
-	music_legendary LUGIA,    PLAIN_FORM,    MUSIC_LUGIA_BATTLE_HGSS
-	music_legendary CELEBI,   PLAIN_FORM,    MUSIC_SUICUNE_BATTLE
+	;music_legendary HO_OH,    PLAIN_FORM,    MUSIC_HO_OH_BATTLE_HGSS
 	dw -1
 
 BattleMusic_RegionalTrainers:

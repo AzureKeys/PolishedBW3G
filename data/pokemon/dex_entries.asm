@@ -1252,36 +1252,6 @@ TyranitarPokedexEntry::
 	next "shake and moun-"
 	next "tains crumble.@"
 
-SECTION "LugiaPokedexEntry", ROMX
-LugiaPokedexEntry::
-	db "Diving@"
-	db   "It has an incred-"
-	next "ible ability to"
-	next "calm raging sto-"
-	page "rms. It is said"
-	next "that Lugia appears"
-	next "when storms start.@"
-
-SECTION "HoOhPokedexEntry", ROMX
-HoOhPokedexEntry::
-	db "Rainbow@"
-	db   "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings.@"
-
-SECTION "CelebiPokedexEntry", ROMX
-CelebiPokedexEntry::
-	db "Time Travel@"
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, Celebi"
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
-
 SECTION "RaltsPokedexEntry", ROMX
 RaltsPokedexEntry::
 	db "Feeling@"

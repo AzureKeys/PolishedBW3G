@@ -25,7 +25,6 @@ AlphabeticalPokedexOrder:
 	dp BRAVIARY
 	dp BRELOOM
 	dp CARRACOSTA
-	dp CELEBI
 	dp CHANDELURE
 	dp CHINCHOU
 	dp CINCCINO
@@ -111,7 +110,6 @@ AlphabeticalPokedexOrder:
 	dp HEATMOR
 	dp HERACROSS
 	dp HERDIER
-	dp HO_OH
 	dp HONCHKROW
 	dp HORSEA
 	dp HOUNDOOM
@@ -149,7 +147,6 @@ AlphabeticalPokedexOrder:
 	dp LILLIGANT
 	dp LILLIPUP
 	dp LITWICK
-	dp LUGIA
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR

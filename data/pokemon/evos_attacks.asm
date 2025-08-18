@@ -2732,57 +2732,6 @@ endc
 	learnset 82, HYPER_BEAM
 	learnset 92, CLOSE_COMBAT ; new move
 
-	evos_attacks Lugia
-	learnset 1, ROAR ; Whirlwind → similar move
-	learnset 9, GUST
-	learnset 15, DRAGONBREATH ; Dragon Rush → GSC TM move
-	learnset 23, EXTRASENSORY
-	learnset 29, RAIN_DANCE
-	learnset 37, HYDRO_PUMP
-	learnset 43, DRAGON_PULSE ; Aeroblast → TM move
-	learnset 50, AEROBLAST ; Punishment → Aeroblast
-	learnset 57, ANCIENTPOWER
-	learnset 65, SAFEGUARD
-	learnset 71, RECOVER
-	learnset 79, FUTURE_SIGHT
-	learnset 85, REFLECT ; Natural Gift → TM move
-	learnset 93, CALM_MIND
-	learnset 99, HURRICANE ; Sky Attack → new move
-
-	evos_attacks HoOh
-	learnset 1, ROAR ; Whirlwind → similar move
-	learnset 9, GUST
-	learnset 15, DRAGONBREATH ; Brave Bird → GSC TM move
-	learnset 23, EXTRASENSORY
-	learnset 29, SUNNY_DAY
-	learnset 37, FIRE_BLAST
-	learnset 43, SOLAR_BEAM ; Sacred Fire → Solar Beam
-	learnset 50, SACRED_FIRE ; Punishment → Sacred Fire
-	learnset 57, ANCIENTPOWER
-	learnset 65, SAFEGUARD
-	learnset 71, RECOVER
-	learnset 79, FUTURE_SIGHT
-	learnset 85, LIGHT_SCREEN ; Natural Gift → TM move
-	learnset 93, CALM_MIND
-	learnset 99, BRAVE_BIRD ; Sky Attack → Brave Bird
-
-	evos_attacks Celebi
-	learnset 1, LEECH_SEED
-	learnset 1, CONFUSION
-	learnset 1, RECOVER
-	learnset 1, METRONOME ; Heal Bell → new move
-	learnset 10, SAFEGUARD
-	learnset 19, ENERGY_BALL ; Magical Leaf → TM move
-	learnset 28, ANCIENTPOWER
-	learnset 37, BATON_PASS
-	learnset 46, MOONBLAST ; Natural Gift → new move
-	learnset 55, LIGHT_SCREEN ; Heal Block → TM move
-	learnset 64, FUTURE_SIGHT
-	learnset 73, HEAL_BELL ; Healing Wish → Heal Bell
-	learnset 82, NASTY_PLOT ; Leaf Storm → event move
-	learnset 91, PERISH_SONG
-	learnset 100, AURA_SPHERE ; Sw/Sh move
-
 	evos_attacks Ralts
 	evo_data EVOLVE_LEVEL, 20, KIRLIA
 	learnset 1, GROWL
