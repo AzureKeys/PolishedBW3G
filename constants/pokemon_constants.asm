@@ -159,6 +159,8 @@
 	const ARON       ; 93
 	const LAIRON     ; 94
 	const AGGRON     ; 95
+	const MEDITITE   ; 96
+	const MEDICHAM   ; 97
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const VANILLITE  ; 14b
 	const VANILLISH  ; 14c
 	const VANILLUXE  ; 14d
-	const DEERLING   ; 14e
-	const SAWSBUCK   ; 14f
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const DEERLING   ; 14e
+	const SAWSBUCK   ; 14f
 	const EMOLGA     ; 150
 	const KARRABLAST ; 151
 	const ESCAVALIER ; 152

@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MEDITITE, PURE_POWER, PURE_POWER, PURE_POWER
+	abilities_for MEDITITE, HUGE_POWER, HUGE_POWER, HUGE_POWER
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

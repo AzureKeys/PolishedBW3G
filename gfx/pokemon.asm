@@ -554,6 +554,14 @@ SECTION "Aggron Pics", ROMX
 AggronFrontpic: INCBIN "gfx/pokemon/aggron/front.animated.2bpp.lz"
 AggronBackpic:  INCBIN "gfx/pokemon/aggron/back.2bpp.lz"
 
+SECTION "Meditite Pics", ROMX
+MedititeFrontpic: INCBIN "gfx/pokemon/meditite/front.animated.2bpp.lz"
+MedititeBackpic:  INCBIN "gfx/pokemon/meditite/back.2bpp.lz"
+
+SECTION "Medicham Pics", ROMX
+MedichamFrontpic: INCBIN "gfx/pokemon/medicham/front.animated.2bpp.lz"
+MedichamBackpic:  INCBIN "gfx/pokemon/medicham/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

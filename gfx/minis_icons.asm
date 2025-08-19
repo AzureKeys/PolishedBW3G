@@ -682,6 +682,16 @@ AggronMini::     INCBIN "gfx/minis/aggron.2bpp.lz"
 AggronMiniMask:: INCBIN "gfx/minis/aggron_mask.1bpp.lz"
 AggronIcon::     INCBIN "gfx/icons/aggron.2bpp.lz"
 
+SECTION "Meditite Mini Icon", ROMX
+MedititeMini::     INCBIN "gfx/minis/meditite.2bpp.lz"
+MedititeMiniMask:: INCBIN "gfx/minis/meditite_mask.1bpp.lz"
+MedititeIcon::     INCBIN "gfx/icons/meditite.2bpp.lz"
+
+SECTION "Medicham Mini Icon", ROMX
+MedichamMini::     INCBIN "gfx/minis/medicham.2bpp.lz"
+MedichamMiniMask:: INCBIN "gfx/minis/medicham_mask.1bpp.lz"
+MedichamIcon::     INCBIN "gfx/icons/medicham.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

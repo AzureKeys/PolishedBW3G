@@ -178,6 +178,8 @@ MawileFootprint::
 AronFootprint::
 LaironFootprint::
 AggronFootprint::
+MedititeFootprint::
+MedichamFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -135,6 +135,8 @@ AnimationExtraPointers:
 	dw AronAnimationExtra
 	dw LaironAnimationExtra
 	dw AggronAnimationExtra
+	dw MedititeAnimationExtra
+	dw MedichamAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw VanilliteAnimationExtra
 	dw VanillishAnimationExtra
 	dw VanilluxeAnimationExtra
-	dw DeerlingSpringAnimationExtra
-	dw SawsbuckSpringAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw DeerlingSpringAnimationExtra
+	dw SawsbuckSpringAnimationExtra
 	dw EmolgaAnimationExtra
 	dw KarrablastAnimationExtra
 	dw EscavalierAnimationExtra

@@ -165,6 +165,8 @@ AlphabeticalPokedexOrder:
 	dp MAREEP
 	dp MARILL
 	dp MAWILE
+	dp MEDICHAM
+	dp MEDITITE
 	dp MELOETTA
 	dp MEOWTH
 	dp MIENFOO

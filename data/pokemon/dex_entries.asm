@@ -1352,6 +1352,26 @@ AggronPokedexEntry::
 	next "It proudly wears"
 	next "its armor's cuts.@"
 
+SECTION "MedititePokedexEntry", ROMX
+MedititePokedexEntry::
+	db "Meditate@"
+	db "It heightens its"
+	next "energy through"
+	next "meditation. It can"
+	page "survive on only"
+	next "one Berry a day,"
+	next "due to this.@"
+
+SECTION "MedichamPokedexEntry", ROMX
+MedichamPokedexEntry::
+	db "Meditate@"
+	db "Through the power"
+	next "of meditation, it"
+	next "gained a sixth"
+	page "sense. It has the"
+	next "ability to use"
+	next "psychic powers.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

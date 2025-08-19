@@ -139,6 +139,8 @@ MiniIconPointers:
 	mini_icon Aron
 	mini_icon Lairon
 	mini_icon Aggron
+	mini_icon Meditite
+	mini_icon Medicham
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Vanillite
 	mini_icon Vanillish
 	mini_icon Vanilluxe
-	mini_icon Deerling
-	mini_icon SawsbuckSpring
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Deerling
+	mini_icon SawsbuckSpring
 	mini_icon Emolga
 	mini_icon Karrablast
 	mini_icon Escavalier

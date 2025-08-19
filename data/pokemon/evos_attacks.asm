@@ -2936,6 +2936,52 @@ endc
 	learnset 51, AGILITY ; Autotomize
 	;learnset 57, HEAVY_SLAM
 
+	evos_attacks Meditite
+	evo_data EVOLVE_LEVEL, 37, MEDICHAM
+	learnset 1, DEFENSE_CURL ; Bide
+	learnset 4, DOUBLE_SLAP ; Meditite
+	learnset 7, CONFUSION
+	learnset 9, PROTECT ; Detect
+	learnset 12, ENDURE
+	learnset 15, MACH_PUNCH ; Feint
+	learnset 17, KARATE_CHOP ; Force Palm
+	learnset 20, HIDDEN_POWER
+	learnset 23, CALM_MIND
+	;learnset 25, MIND_READER
+	learnset 28, HI_JUMP_KICK
+	;learnset 31, PSYCH_UP
+	learnset 33, SWORDS_DANCE ; Acupressure
+	learnset 36, ZEN_HEADBUTT ; Power Trick
+	learnset 39, REVERSAL
+	learnset 41, RECOVER
+	learnset 44, COUNTER
+
+	evos_attacks Medicham
+	learnset 1, ZEN_HEADBUTT
+	learnset 1, FIRE_PUNCH
+	learnset 1, ICE_PUNCH
+	learnset 1, THUNDERPUNCH
+	learnset 1, DEFENSE_CURL ; Bide
+	learnset 1, DOUBLE_SLAP ; Meditite
+	learnset 1, CONFUSION
+	learnset 1, PROTECT ; Detect
+	learnset 4, DOUBLE_SLAP ; Meditite
+	learnset 7, CONFUSION
+	learnset 9, PROTECT ; Detect
+	learnset 12, ENDURE
+	learnset 15, MACH_PUNCH ; Feint
+	learnset 17, KARATE_CHOP ; Force Palm
+	learnset 20, HIDDEN_POWER
+	learnset 23, CALM_MIND
+	;learnset 25, MIND_READER
+	learnset 28, HI_JUMP_KICK
+	;learnset 31, PSYCH_UP
+	learnset 33, SWORDS_DANCE ; Acupressure
+	learnset 36, ZEN_HEADBUTT ; Power Trick
+	learnset 42, REVERSAL
+	learnset 47, RECOVER
+	learnset 53, COUNTER
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

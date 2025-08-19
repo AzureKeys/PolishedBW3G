@@ -721,6 +721,18 @@ AronEggSpeciesMoves:
 	db SCREECH
 	db $ff
 
+MedititeEggSpeciesMoves:
+	dp MEDITITE, PLAIN_FORM
+	db BULLET_PUNCH
+	db DRAIN_PUNCH
+	db DYNAMICPUNCH
+	db FIRE_PUNCH
+	db FORESIGHT
+	db ICE_PUNCH
+	;db PSYCHO_CUT
+	db THUNDERPUNCH
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

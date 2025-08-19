@@ -139,6 +139,8 @@ PokemonPicPointers::
 	pics Aron
 	pics Lairon
 	pics Aggron
+	pics Meditite
+	pics Medicham
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Vanillite
 	pics Vanillish
 	pics Vanilluxe
-	pics DeerlingSpring
-	pics SawsbuckSpring
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics DeerlingSpring
+	pics SawsbuckSpring
 	pics Emolga
 	pics Karrablast
 	pics Escavalier

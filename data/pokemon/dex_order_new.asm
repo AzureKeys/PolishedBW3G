@@ -169,6 +169,8 @@ NewPokedexOrder:
 	dp ARON
 	dp LAIRON
 	dp AGGRON
+	dp MEDITITE
+	dp MEDICHAM
 	dp RATTATA
 	dp RATICATE
 	dp PICHU
