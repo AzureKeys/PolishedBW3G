@@ -228,6 +228,7 @@ AlphabeticalPokedexOrder:
 	dp RESHIRAM
 	dp REUNICLUS
 	dp ROGGENROLA
+	dp ROSELIA
 	dp RUFFLET
 	dp RUNERIGUS
 	dp SAMUROTT

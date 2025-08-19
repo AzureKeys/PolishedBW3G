@@ -180,6 +180,7 @@ LaironFootprint::
 AggronFootprint::
 MedititeFootprint::
 MedichamFootprint::
+RoseliaFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -141,6 +141,7 @@ EvosAttacksPointers::
 	dw AggronEvosAttacks
 	dw MedititeEvosAttacks
 	dw MedichamEvosAttacks
+	dw RoseliaEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -257,9 +258,9 @@ EvosAttacksPointers::
 	dw SwannaEvosAttacks
 	dw VanilliteEvosAttacks
 	dw VanillishEvosAttacks
-	dw VanilluxeEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw VanilluxeEvosAttacks
 	dw DeerlingEvosAttacks
 	dw SawsbuckEvosAttacks
 	dw EmolgaEvosAttacks

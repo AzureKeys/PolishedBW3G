@@ -692,6 +692,11 @@ MedichamMini::     INCBIN "gfx/minis/medicham.2bpp.lz"
 MedichamMiniMask:: INCBIN "gfx/minis/medicham_mask.1bpp.lz"
 MedichamIcon::     INCBIN "gfx/icons/medicham.2bpp.lz"
 
+SECTION "Roselia Mini Icon", ROMX
+RoseliaMini::     INCBIN "gfx/minis/roselia.2bpp.lz"
+RoseliaMiniMask:: INCBIN "gfx/minis/roselia_mask.1bpp.lz"
+RoseliaIcon::     INCBIN "gfx/icons/roselia.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

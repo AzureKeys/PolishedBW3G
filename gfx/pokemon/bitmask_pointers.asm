@@ -137,6 +137,7 @@ BitmasksPointers:
 	dw AggronBitmasks
 	dw MedititeBitmasks
 	dw MedichamBitmasks
+	dw RoseliaBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw SwannaBitmasks
 	dw VanilliteBitmasks
 	dw VanillishBitmasks
-	dw VanilluxeBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw VanilluxeBitmasks
 	dw DeerlingSpringBitmasks
 	dw SawsbuckSpringBitmasks
 	dw EmolgaBitmasks

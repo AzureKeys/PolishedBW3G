@@ -138,6 +138,7 @@ PokedexDataPointerTable:
 	dba AggronPokedexEntry
 	dba MedititePokedexEntry
 	dba MedichamPokedexEntry
+	dba RoseliaPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba SwannaPokedexEntry
 	dba VanillitePokedexEntry
 	dba VanillishPokedexEntry
-	dba VanilluxePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba VanilluxePokedexEntry
 	dba DeerlingPokedexEntry
 	dba SawsbuckPokedexEntry
 	dba EmolgaPokedexEntry

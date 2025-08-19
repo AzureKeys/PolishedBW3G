@@ -137,6 +137,7 @@ AnimationExtraPointers:
 	dw AggronAnimationExtra
 	dw MedititeAnimationExtra
 	dw MedichamAnimationExtra
+	dw RoseliaAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw SwannaAnimationExtra
 	dw VanilliteAnimationExtra
 	dw VanillishAnimationExtra
-	dw VanilluxeAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw VanilluxeAnimationExtra
 	dw DeerlingSpringAnimationExtra
 	dw SawsbuckSpringAnimationExtra
 	dw EmolgaAnimationExtra

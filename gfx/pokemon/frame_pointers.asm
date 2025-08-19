@@ -137,6 +137,7 @@ FramesPointers:
 	dw AggronFrames
 	dw MedititeFrames
 	dw MedichamFrames
+	dw RoseliaFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw SwannaFrames
 	dw VanilliteFrames
 	dw VanillishFrames
-	dw VanilluxeFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw VanilluxeFrames
 	dw DeerlingSpringFrames
 	dw SawsbuckSpringFrames
 	dw EmolgaFrames

@@ -141,6 +141,7 @@ OverworldMonIconColors::
 	iconpal GRAY, TEAL ; AGGRON
 	iconpal BLUE, ORANGE ; MEDITITE
 	iconpal RED, BLUE ; MEDICHAM
+	iconpal GREEN, YELLOW ; ROSELIA
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal WHITE, PURPLE ; SWANNA
 	iconpal AZURE, PINK ; VANILLITE
 	iconpal AZURE, PURPLE ; VANILLISH
-	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal BROWN, PINK ; DEERLING
 	iconpal BROWN, ORANGE ; SAWSBUCK
 	iconpal YELLOW, BROWN ; EMOLGA

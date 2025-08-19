@@ -137,6 +137,7 @@ FootprintPointers::
 	dw AggronFootprint
 	dw MedititeFootprint
 	dw MedichamFootprint
+	dw RoseliaFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw SwannaFootprint
 	dw VanilliteFootprint
 	dw VanillishFootprint
-	dw VanilluxeFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw VanilluxeFootprint
 	dw DeerlingFootprint
 	dw SawsbuckFootprint
 	dw EmolgaFootprint

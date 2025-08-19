@@ -138,6 +138,7 @@ PokemonNames::
 	rawchar "Aggron@@@@"
 	rawchar "Meditite@@"
 	rawchar "Medicham@@"
+	rawchar "Roselia@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Swanna@@@@"
 	rawchar "Vanillite@"
 	rawchar "Vanillish@"
-	rawchar "Vanilluxe@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Vanilluxe@"
 	rawchar "Deerling@@"
 	rawchar "Sawsbuck@@"
 	rawchar "Emolga@@@@"

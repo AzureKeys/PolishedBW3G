@@ -733,6 +733,19 @@ MedititeEggSpeciesMoves:
 	db THUNDERPUNCH
 	db $ff
 
+BudewEggSpeciesMoves:
+	;dp BUDEW, PLAIN_FORM
+	dp ROSELIA, PLAIN_FORM
+	db EXTRASENSORY
+	db GIGA_DRAIN
+	;db LOCK_ON
+	db PIN_MISSILE
+	db RAZOR_LEAF
+	db SEED_BOMB
+	db SLEEP_POWDER
+	;db SYNTHESIS
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

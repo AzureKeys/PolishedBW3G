@@ -137,6 +137,7 @@ EggSpeciesMovesPointers::
 	dw AronEggSpeciesMoves              ; Aggron
 	dw MedititeEggSpeciesMoves          ; Meditite
 	dw MedititeEggSpeciesMoves          ; Medicham
+	dw BudewEggSpeciesMoves             ; Roselia
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw DucklettEggSpeciesMoves          ; Swanna
 	dw VanilliteEggSpeciesMoves         ; Vanillite
 	dw VanilliteEggSpeciesMoves         ; Vanillish
-	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	dw DeerlingEggSpeciesMoves          ; Deerling
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck
 	dw EmolgaEggSpeciesMoves            ; Emolga

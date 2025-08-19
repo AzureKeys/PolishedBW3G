@@ -1372,6 +1372,16 @@ MedichamPokedexEntry::
 	next "ability to use"
 	next "psychic powers.@"
 
+SECTION "RoseliaPokedexEntry", ROMX
+RoseliaPokedexEntry::
+	db "Thorn@"
+	db "It shoots sharp"
+	next "thorns at anyone"
+	next "who tries to steal"
+	page "the flowers from"
+	next "its arms. Its"
+	next "aroma is sweet.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

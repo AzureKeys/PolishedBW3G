@@ -171,6 +171,7 @@ NewPokedexOrder:
 	dp AGGRON
 	dp MEDITITE
 	dp MEDICHAM
+	dp ROSELIA
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

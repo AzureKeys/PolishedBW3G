@@ -141,6 +141,7 @@ MiniIconPointers:
 	mini_icon Aggron
 	mini_icon Meditite
 	mini_icon Medicham
+	mini_icon Roselia
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Swanna
 	mini_icon Vanillite
 	mini_icon Vanillish
-	mini_icon Vanilluxe
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Vanilluxe
 	mini_icon Deerling
 	mini_icon SawsbuckSpring
 	mini_icon Emolga
