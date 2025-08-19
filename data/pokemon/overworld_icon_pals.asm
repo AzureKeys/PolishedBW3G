@@ -136,6 +136,9 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; AZURILL
 	iconpal BLUE, BROWN ; NOSEPASS
 	iconpal YELLOW, PINK ; MAWILE
+	iconpal GRAY, TEAL ; ARON
+	iconpal GRAY, TEAL ; LAIRON
+	iconpal GRAY, TEAL ; AGGRON
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal AZURE, PURPLE ; VANILLUXE
 	iconpal BROWN, PINK ; DEERLING
 	iconpal BROWN, ORANGE ; SAWSBUCK
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal YELLOW, BROWN ; EMOLGA
 	iconpal BLUE, TEAL ; KARRABLAST
 	iconpal GRAY, PINK ; ESCAVALIER
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, PURPLE ; FOONGUS
 	iconpal RED, PURPLE ; AMOONGUSS
 	iconpal AZURE, TEAL ; FRILLISH

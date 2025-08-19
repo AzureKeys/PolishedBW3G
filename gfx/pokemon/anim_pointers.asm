@@ -132,6 +132,9 @@ AnimationPointers:
 	dw AzurillAnimation
 	dw NosepassAnimation
 	dw MawileAnimation
+	dw AronAnimation
+	dw LaironAnimation
+	dw AggronAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw VanilluxeAnimation
 	dw DeerlingSpringAnimation
 	dw SawsbuckSpringAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw EmolgaAnimation
 	dw KarrablastAnimation
 	dw EscavalierAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw FoongusAnimation
 	dw AmoongussAnimation
 	dw FrillishMaleAnimation

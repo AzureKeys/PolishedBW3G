@@ -139,6 +139,9 @@ PokemonBodyData:
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
 	body_data  10,  970, BIPEDAL,      GRAY   ; NOSEPASS
 	body_data   6,  115, BIPEDAL,      BLACK  ; MAWILE
+	body_data   4,  600, QUADRUPED,    GRAY   ; ARON
+	body_data   9, 1200, QUADRUPED,    GRAY   ; LAIRON
+	body_data  21, 3600, BIPEDAL_TAIL, GRAY   ; AGGRON
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -258,11 +261,11 @@ PokemonBodyData:
 	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   4,   50, QUADRUPED,    WHITE  ; EMOLGA
 	body_data   5,   59, BIPEDAL,      BLUE   ; KARRABLAST
 	body_data  10,  330, HEAD_ARMS,    GRAY   ; ESCAVALIER
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   2,   10, HEAD_ARMS,    WHITE  ; FOONGUS
 	body_data   6,  105, HEAD_ARMS,    WHITE  ; AMOONGUSS
 	body_data  12,  330, TENTACLES,    WHITE  ; FRILLISH

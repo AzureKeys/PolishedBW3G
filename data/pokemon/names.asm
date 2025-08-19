@@ -133,6 +133,9 @@ PokemonNames::
 	rawchar "Azurill@@@"
 	rawchar "Nosepass@@"
 	rawchar "Mawile@@@@"
+	rawchar "Aron@@@@@@"
+	rawchar "Lairon@@@@"
+	rawchar "Aggron@@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Vanilluxe@"
 	rawchar "Deerling@@"
 	rawchar "Sawsbuck@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Emolga@@@@"
 	rawchar "Karrablast"
 	rawchar "Escavalier"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Foongus@@@"
 	rawchar "Amoonguss@"
 	rawchar "Frillish@@"

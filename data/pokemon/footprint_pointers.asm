@@ -132,6 +132,9 @@ FootprintPointers::
 	dw AzurillFootprint
 	dw NosepassFootprint
 	dw MawileFootprint
+	dw AronFootprint
+	dw LaironFootprint
+	dw AggronFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw VanilluxeFootprint
 	dw DeerlingFootprint
 	dw SawsbuckFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw EmolgaFootprint
 	dw KarrablastFootprint
 	dw EscavalierFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw FoongusFootprint
 	dw AmoongussFootprint
 	dw FrillishFootprint

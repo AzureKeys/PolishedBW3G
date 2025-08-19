@@ -132,6 +132,9 @@ AnimationExtraPointers:
 	dw AzurillAnimationExtra
 	dw NosepassAnimationExtra
 	dw MawileAnimationExtra
+	dw AronAnimationExtra
+	dw LaironAnimationExtra
+	dw AggronAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw VanilluxeAnimationExtra
 	dw DeerlingSpringAnimationExtra
 	dw SawsbuckSpringAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw EmolgaAnimationExtra
 	dw KarrablastAnimationExtra
 	dw EscavalierAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw FoongusAnimationExtra
 	dw AmoongussAnimationExtra
 	dw FrillishMaleAnimationExtra

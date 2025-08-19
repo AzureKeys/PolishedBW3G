@@ -712,6 +712,15 @@ MawileEggSpeciesMoves:
 	;db THUNDER_FANG
 	db $ff
 
+AronEggSpeciesMoves:
+	dp ARON, PLAIN_FORM
+	db BODY_SLAM
+	db CURSE
+	db IRON_HEAD
+	db REVERSAL
+	db SCREECH
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

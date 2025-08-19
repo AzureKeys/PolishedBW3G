@@ -667,6 +667,21 @@ MawileMini::     INCBIN "gfx/minis/mawile.2bpp.lz"
 MawileMiniMask:: INCBIN "gfx/minis/mawile_mask.1bpp.lz"
 MawileIcon::     INCBIN "gfx/icons/mawile.2bpp.lz"
 
+SECTION "Aron Mini Icon", ROMX
+AronMini::     INCBIN "gfx/minis/aron.2bpp.lz"
+AronMiniMask:: INCBIN "gfx/minis/aron_mask.1bpp.lz"
+AronIcon::     INCBIN "gfx/icons/aron.2bpp.lz"
+
+SECTION "Lairon Mini Icon", ROMX
+LaironMini::     INCBIN "gfx/minis/lairon.2bpp.lz"
+LaironMiniMask:: INCBIN "gfx/minis/lairon_mask.1bpp.lz"
+LaironIcon::     INCBIN "gfx/icons/lairon.2bpp.lz"
+
+SECTION "Aggron Mini Icon", ROMX
+AggronMini::     INCBIN "gfx/minis/aggron.2bpp.lz"
+AggronMiniMask:: INCBIN "gfx/minis/aggron_mask.1bpp.lz"
+AggronIcon::     INCBIN "gfx/icons/aggron.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

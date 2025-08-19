@@ -1322,6 +1322,36 @@ MawilePokedexEntry::
 	next "in prey with its"
 	next "cute face.@"
 
+SECTION "AronPokedexEntry", ROMX
+AronPokedexEntry::
+	db "Iron Armor@"
+	db "It has a body made"
+	next "of steel. To make"
+	next "its steel armor,"
+	page "it feeds on iron"
+	next "ore it digs up"
+	next "from mountains.@"
+
+SECTION "LaironPokedexEntry", ROMX
+LaironPokedexEntry::
+	db "Iron Armor@"
+	db "It tempers its"
+	next "steel body by"
+	next "drinking mineral"
+	page "springwater. It"
+	next "makes its nest"
+	next "near iron ore.@"
+
+SECTION "AggronPokedexEntry", ROMX
+AggronPokedexEntry::
+	db "Iron Armor@"
+	db "Its iron horns"
+	next "grow longer. They"
+	next "can be used to"
+	page "determine its age."
+	next "It proudly wears"
+	next "its armor's cuts.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

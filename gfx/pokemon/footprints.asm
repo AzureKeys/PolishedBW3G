@@ -175,6 +175,9 @@ ShroomishFootprint::
 BreloomFootprint::
 NosepassFootprint::
 MawileFootprint::
+AronFootprint::
+LaironFootprint::
+AggronFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

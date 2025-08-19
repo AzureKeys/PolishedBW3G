@@ -2875,6 +2875,67 @@ endc
 	learnset 45, IRON_HEAD
 	learnset 49, PLAY_ROUGH
 
+	evos_attacks Aron
+	evo_data EVOLVE_LEVEL, 32, LAIRON
+	learnset 1, TACKLE
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 4, MUD_SLAP
+	learnset 7, HEADBUTT
+	learnset 10, METAL_CLAW
+	;learnset 13, ROCK_TOMB
+	learnset 16, PROTECT
+	learnset 19, ROAR
+	learnset 22, IRON_HEAD
+	learnset 25, ROCK_SLIDE
+	learnset 28, TAKE_DOWN
+	learnset 31, SCREECH ; Metal Sound
+	learnset 34, IRON_TAIL
+	learnset 37, BARRIER ; Iron Defense
+	learnset 40, DOUBLE_EDGE
+	learnset 43, AGILITY ; Autotomize
+	;learnset 46, HEAVY_SLAM
+
+	evos_attacks Lairon
+	evo_data EVOLVE_LEVEL, 42, AGGRON
+	learnset 1, TACKLE
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 4, MUD_SLAP
+	learnset 7, HEADBUTT
+	learnset 10, METAL_CLAW
+	;learnset 13, ROCK_TOMB
+	learnset 16, PROTECT
+	learnset 19, ROAR
+	learnset 22, IRON_HEAD
+	learnset 25, ROCK_SLIDE
+	learnset 28, TAKE_DOWN
+	learnset 31, SCREECH ; Metal Sound
+	learnset 35, IRON_TAIL
+	learnset 39, BARRIER ; Iron Defense
+	learnset 43, DOUBLE_EDGE
+	learnset 47, AGILITY ; Autotomize
+	;learnset 51, HEAVY_SLAM
+
+	evos_attacks Aggron
+	learnset 1, TACKLE
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 1, MUD_SLAP
+	learnset 1, HEADBUTT
+	learnset 4, MUD_SLAP
+	learnset 7, HEADBUTT
+	learnset 10, METAL_CLAW
+	;learnset 13, ROCK_TOMB
+	learnset 16, PROTECT
+	learnset 19, ROAR
+	learnset 22, IRON_HEAD
+	learnset 25, ROCK_SLIDE
+	learnset 28, TAKE_DOWN
+	learnset 31, SCREECH ; Metal Sound
+	learnset 35, IRON_TAIL
+	learnset 39, BARRIER ; Iron Defense
+	learnset 45, DOUBLE_EDGE
+	learnset 51, AGILITY ; Autotomize
+	;learnset 57, HEAVY_SLAM
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

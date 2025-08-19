@@ -137,6 +137,9 @@ endc
 	db   1,  19 ; Azurill
 	db   1,  29 ; Nosepass
 	db   1, 100 ; Mawile
+	db   1,  31 ; Aron
+	db  32,  41 ; Lairon
+	db  42, 100 ; Aggron
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -256,11 +259,11 @@ endc
 	db  47, 100 ; Vanilluxe
 	db   1,  33 ; Deerling
 	db  34, 100 ; Sawsbuck
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  20, 100 ; Emolga
 	db   1,  29 ; Karrablast
 	db  30, 100 ; Escavalier
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  38 ; Foongus
 	db  39, 100 ; Amoonguss
 	db   1,  39 ; Frillish

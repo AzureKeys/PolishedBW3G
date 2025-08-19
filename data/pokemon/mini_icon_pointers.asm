@@ -136,6 +136,9 @@ MiniIconPointers:
 	mini_icon Azurill
 	mini_icon Nosepass
 	mini_icon Mawile
+	mini_icon Aron
+	mini_icon Lairon
+	mini_icon Aggron
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Vanilluxe
 	mini_icon Deerling
 	mini_icon SawsbuckSpring
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Emolga
 	mini_icon Karrablast
 	mini_icon Escavalier
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Foongus
 	mini_icon Amoonguss
 	mini_icon FrillishMale

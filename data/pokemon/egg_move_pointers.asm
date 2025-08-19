@@ -132,6 +132,9 @@ EggSpeciesMovesPointers::
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw NosepassEggSpeciesMoves          ; Nosepass
 	dw MawileEggSpeciesMoves            ; Mawile
+	dw AronEggSpeciesMoves              ; Aron
+	dw AronEggSpeciesMoves              ; Lairon
+	dw AronEggSpeciesMoves              ; Aggron
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw VanilliteEggSpeciesMoves         ; Vanilluxe
 	dw DeerlingEggSpeciesMoves          ; Deerling
 	dw DeerlingEggSpeciesMoves          ; Sawsbuck
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw EmolgaEggSpeciesMoves            ; Emolga
 	dw KarrablastEggSpeciesMoves        ; Karrablast
 	dw KarrablastEggSpeciesMoves        ; Escavalier
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw FoongusEggSpeciesMoves           ; Foongus
 	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw FrillishEggSpeciesMoves          ; Frillish

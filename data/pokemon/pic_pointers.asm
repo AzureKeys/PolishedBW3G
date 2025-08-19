@@ -136,6 +136,9 @@ PokemonPicPointers::
 	pics Azurill
 	pics Nosepass
 	pics Mawile
+	pics Aron
+	pics Lairon
+	pics Aggron
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Vanilluxe
 	pics DeerlingSpring
 	pics SawsbuckSpring
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Emolga
 	pics Karrablast
 	pics Escavalier
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Foongus
 	pics Amoonguss
 	pics FrillishMale

@@ -7,7 +7,8 @@
 	db HARD_STONE, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for LAIRON, STURDY, ROCK_HEAD, HEAVY_METAL
+	;abilities_for LAIRON, STURDY, ROCK_HEAD, HEAVY_METAL
+	abilities_for LAIRON, STURDY, ROCK_HEAD, ROCK_HEAD
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

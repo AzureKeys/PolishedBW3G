@@ -156,6 +156,9 @@
 	const AZURILL    ; 8d
 	const NOSEPASS   ; 8e
 	const MAWILE     ; 92
+	const ARON       ; 93
+	const LAIRON     ; 94
+	const AGGRON     ; 95
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const VANILLUXE  ; 14d
 	const DEERLING   ; 14e
 	const SAWSBUCK   ; 14f
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const EMOLGA     ; 150
 	const KARRABLAST ; 151
 	const ESCAVALIER ; 152
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const FOONGUS    ; 153
 	const AMOONGUSS  ; 154
 	const FRILLISH   ; 155

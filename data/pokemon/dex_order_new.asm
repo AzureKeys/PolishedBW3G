@@ -166,6 +166,9 @@ NewPokedexOrder:
 	dp BRELOOM
 	dp NOSEPASS
 	dp MAWILE
+	dp ARON
+	dp LAIRON
+	dp AGGRON
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

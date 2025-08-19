@@ -542,6 +542,18 @@ SECTION "Mawile Pics", ROMX
 MawileFrontpic: INCBIN "gfx/pokemon/mawile/front.animated.2bpp.lz"
 MawileBackpic:  INCBIN "gfx/pokemon/mawile/back.2bpp.lz"
 
+SECTION "Aron Pics", ROMX
+AronFrontpic: INCBIN "gfx/pokemon/aron/front.animated.2bpp.lz"
+AronBackpic:  INCBIN "gfx/pokemon/aron/back.2bpp.lz"
+
+SECTION "Lairon Pics", ROMX
+LaironFrontpic: INCBIN "gfx/pokemon/lairon/front.animated.2bpp.lz"
+LaironBackpic:  INCBIN "gfx/pokemon/lairon/back.2bpp.lz"
+
+SECTION "Aggron Pics", ROMX
+AggronFrontpic: INCBIN "gfx/pokemon/aggron/front.animated.2bpp.lz"
+AggronBackpic:  INCBIN "gfx/pokemon/aggron/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

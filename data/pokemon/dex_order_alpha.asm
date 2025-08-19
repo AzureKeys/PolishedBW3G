@@ -3,6 +3,7 @@
 AlphabeticalPokedexOrder:
 	table_width 2
 	dp ACCELGOR
+	dp AGGRON
 	dp ALOMOMOLA
 	dp AMOONGUSS
 	dp AMPHAROS
@@ -10,6 +11,7 @@ AlphabeticalPokedexOrder:
 	dp ARCANINE
 	dp ARCHEN
 	dp ARCHEOPS
+	dp ARON
 	dp AUDINO
 	dp AXEW
 	dp AZUMARILL
@@ -133,6 +135,7 @@ AlphabeticalPokedexOrder:
 	dp KROKOROK
 	dp KROOKODILE
 	dp KYUREM
+	dp LAIRON
 	dp LAMPENT
 	dp LANDORUS
 	dp LANTURN
