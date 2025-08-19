@@ -124,6 +124,9 @@ EggSpeciesMovesPointers::
 	dw LarvitarEggSpeciesMoves          ; Larvitar
 	dw LarvitarEggSpeciesMoves          ; Pupitar
 	dw LarvitarEggSpeciesMoves          ; Tyranitar
+	dw LotadEggSpeciesMoves             ; Lotad
+	dw LotadEggSpeciesMoves             ; Lombre
+	dw LotadEggSpeciesMoves             ; Ludicolo
 	dw RaltsEggSpeciesMoves             ; Ralts
 	dw RaltsEggSpeciesMoves             ; Kirlia
 	dw RaltsEggSpeciesMoves             ; Gardevoir
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw MinccinoEggSpeciesMoves          ; Minccino
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita

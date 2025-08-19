@@ -157,6 +157,9 @@ AlphabeticalPokedexOrder:
 	dp LILLIGANT
 	dp LILLIPUP
 	dp LITWICK
+	dp LOMBRE
+	dp LOTAD
+	dp LUDICOLO
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR

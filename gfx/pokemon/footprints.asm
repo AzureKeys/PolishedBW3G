@@ -168,6 +168,9 @@ KeldeoFootprint::
 MeloettaFootprint::
 GenesectFootprint::
 RunerigusFootprint::
+LotadFootprint::
+LombreFootprint::
+LudicoloFootprint::
 RaltsFootprint::
 KirliaFootprint::
 GardevoirFootprint::

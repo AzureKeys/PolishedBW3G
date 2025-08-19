@@ -124,6 +124,9 @@ AnimationExtraPointers:
 	dw LarvitarAnimationExtra
 	dw PupitarAnimationExtra
 	dw TyranitarAnimationExtra
+	dw LotadAnimationExtra
+	dw LombreAnimationExtra
+	dw LudicoloAnimationExtra
 	dw RaltsAnimationExtra
 	dw KirliaAnimationExtra
 	dw GardevoirAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
 	dw MinccinoAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra

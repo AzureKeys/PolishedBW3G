@@ -125,6 +125,9 @@ PokemonNames::
 	rawchar "Larvitar@@"
 	rawchar "Pupitar@@@"
 	rawchar "Tyranitar@"
+	rawchar "Lotad@@@@@"
+	rawchar "Lombre@@@@"
+	rawchar "Ludicolo@@"
 	rawchar "Ralts@@@@@"
 	rawchar "Kirlia@@@@"
 	rawchar "Gardevoir@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Archeops@@"
 	rawchar "Trubbish@@"
 	rawchar "Garbodor@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Zorua@@@@@"
 	rawchar "Zoroark@@@"
 	rawchar "Minccino@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Cinccino@@"
 	rawchar "Gothita@@@"
 	rawchar "Gothorita@"

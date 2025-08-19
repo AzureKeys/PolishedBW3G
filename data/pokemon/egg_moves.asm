@@ -665,6 +665,10 @@ LarvitarEggSpeciesMoves:
 	db IRON_HEAD
 	db $ff
 
+LotadEggSpeciesMoves:
+	dp LOTAD, PLAIN_FORM
+	db $ff
+
 RaltsEggSpeciesMoves:
 	dp RALTS, PLAIN_FORM
 	db CONFUSE_RAY

@@ -128,6 +128,9 @@ PokemonPicPointers::
 	pics Larvitar
 	pics Pupitar
 	pics Tyranitar
+	pics Lotad
+	pics Lombre
+	pics Ludicolo
 	pics Ralts
 	pics Kirlia
 	pics Gardevoir
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Archeops
 	pics Trubbish
 	pics Garbodor
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics ZoruaPlain
 	pics ZoroarkPlain
 	pics Minccino
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Cinccino
 	pics Gothita
 	pics Gothorita

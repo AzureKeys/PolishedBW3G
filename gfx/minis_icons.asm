@@ -627,10 +627,20 @@ TyranitarMini::     INCBIN "gfx/minis/tyranitar.2bpp.lz"
 TyranitarMiniMask:: INCBIN "gfx/minis/tyranitar_mask.1bpp.lz"
 TyranitarIcon::     INCBIN "gfx/icons/tyranitar.2bpp.lz"
 
-SECTION "Azurill Mini Icon", ROMX
-AzurillMini::     INCBIN "gfx/minis/azurill.2bpp.lz"
-AzurillMiniMask:: INCBIN "gfx/minis/azurill_mask.1bpp.lz"
-AzurillIcon::     INCBIN "gfx/icons/azurill.2bpp.lz"
+SECTION "Lotad Mini Icon", ROMX
+LotadMini::     INCBIN "gfx/minis/lotad.2bpp.lz"
+LotadMiniMask:: INCBIN "gfx/minis/lotad_mask.1bpp.lz"
+LotadIcon::     INCBIN "gfx/icons/lotad.2bpp.lz"
+
+SECTION "Lombre Mini Icon", ROMX
+LombreMini::     INCBIN "gfx/minis/lombre.2bpp.lz"
+LombreMiniMask:: INCBIN "gfx/minis/lombre_mask.1bpp.lz"
+LombreIcon::     INCBIN "gfx/icons/lombre.2bpp.lz"
+
+SECTION "Ludicolo Mini Icon", ROMX
+LudicoloMini::     INCBIN "gfx/minis/ludicolo.2bpp.lz"
+LudicoloMiniMask:: INCBIN "gfx/minis/ludicolo_mask.1bpp.lz"
+LudicoloIcon::     INCBIN "gfx/icons/ludicolo.2bpp.lz"
 
 SECTION "Ralts Mini Icon", ROMX
 RaltsMini::     INCBIN "gfx/minis/ralts.2bpp.lz"
@@ -656,6 +666,11 @@ SECTION "Breloom Mini Icon", ROMX
 BreloomMini::     INCBIN "gfx/minis/breloom.2bpp.lz"
 BreloomMiniMask:: INCBIN "gfx/minis/breloom_mask.1bpp.lz"
 BreloomIcon::     INCBIN "gfx/icons/breloom.2bpp.lz"
+
+SECTION "Azurill Mini Icon", ROMX
+AzurillMini::     INCBIN "gfx/minis/azurill.2bpp.lz"
+AzurillMiniMask:: INCBIN "gfx/minis/azurill_mask.1bpp.lz"
+AzurillIcon::     INCBIN "gfx/icons/azurill.2bpp.lz"
 
 SECTION "Nosepass Mini Icon", ROMX
 NosepassMini::     INCBIN "gfx/minis/nosepass.2bpp.lz"

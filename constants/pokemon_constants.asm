@@ -148,6 +148,9 @@
 	const LARVITAR   ; 7a
 	const PUPITAR    ; 7b
 	const TYRANITAR  ; 7c
+	const LOTAD      ; 7d
+	const LOMBRE     ; 7e
+	const LUDICOLO   ; 7f
 	const RALTS      ; 85
 	const KIRLIA     ; 86
 	const GARDEVOIR  ; 87
@@ -275,11 +278,11 @@
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const MINCCINO   ; 141
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144

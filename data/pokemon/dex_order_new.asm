@@ -159,6 +159,9 @@ NewPokedexOrder:
 	dp MELOETTA
 	dp GENESECT
 	dp RUNERIGUS
+	dp LOTAD
+	dp LOMBRE
+	dp LUDICOLO
 	dp RALTS
 	dp KIRLIA
 	dp GARDEVOIR

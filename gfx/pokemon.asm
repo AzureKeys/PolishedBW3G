@@ -510,6 +510,18 @@ SECTION "Tyranitar Pics", ROMX
 TyranitarFrontpic: INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
 TyranitarBackpic:  INCBIN "gfx/pokemon/tyranitar/back.2bpp.lz"
 
+SECTION "Lotad Pics", ROMX
+LotadFrontpic: INCBIN "gfx/pokemon/lotad/front.animated.2bpp.lz"
+LotadBackpic:  INCBIN "gfx/pokemon/lotad/back.2bpp.lz"
+
+SECTION "Lombre Pics", ROMX
+LombreFrontpic: INCBIN "gfx/pokemon/lombre/front.animated.2bpp.lz"
+LombreBackpic:  INCBIN "gfx/pokemon/lombre/back.2bpp.lz"
+
+SECTION "Ludicolo Pics", ROMX
+LudicoloFrontpic: INCBIN "gfx/pokemon/ludicolo/front.animated.2bpp.lz"
+LudicoloBackpic:  INCBIN "gfx/pokemon/ludicolo/back.2bpp.lz"
+
 SECTION "Ralts Pics", ROMX
 RaltsFrontpic: INCBIN "gfx/pokemon/ralts/front.animated.2bpp.lz"
 RaltsBackpic:  INCBIN "gfx/pokemon/ralts/back.2bpp.lz"

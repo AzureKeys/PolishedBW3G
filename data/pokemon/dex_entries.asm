@@ -1242,6 +1242,36 @@ TyranitarPokedexEntry::
 	next "shake and moun-"
 	next "tains crumble.@"
 
+SECTION "LotadPokedexEntry", ROMX
+LotadPokedexEntry::
+	db "Water Weed@"
+	db "The leaf on its"
+	next "head repels dirt."
+	next "It will stay clean"
+	page "even after moving"
+	next "#mon that are"
+	next "covered in mud.@"
+
+SECTION "LombrePokedexEntry", ROMX
+LombrePokedexEntry::
+	db "Jolly@"
+	db "It prefers water-"
+	next "fronts with lots"
+	next "of food. It became"
+	page "nocturnal to avoid"
+	next "competing with"
+	next "bird #mon.@"
+
+SECTION "LudicoloPokedexEntry", ROMX
+LudicoloPokedexEntry::
+	db "Carefree@"
+	db "Dancing with an"
+	next "upbeat rhythm"
+	next "emboldens it,"
+	page "letting it face"
+	next "any foe without"
+	next "fear.@"
+
 SECTION "RaltsPokedexEntry", ROMX
 RaltsPokedexEntry::
 	db "Feeling@"

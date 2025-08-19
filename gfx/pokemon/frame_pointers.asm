@@ -124,6 +124,9 @@ FramesPointers:
 	dw LarvitarFrames
 	dw PupitarFrames
 	dw TyranitarFrames
+	dw LotadFrames
+	dw LombreFrames
+	dw LudicoloFrames
 	dw RaltsFrames
 	dw KirliaFrames
 	dw GardevoirFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
 	dw MinccinoFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw CinccinoFrames
 	dw GothitaFrames
 	dw GothoritaFrames

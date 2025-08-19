@@ -2728,6 +2728,41 @@ endc
 	learnset 73, OUTRAGE ; Hyper Beam → HGSS tutor move
 	learnset 82, HYPER_BEAM
 	learnset 92, CLOSE_COMBAT ; new move
+	
+	evos_attacks Lotad
+	evo_data EVOLVE_LEVEL, 14, LOMBRE
+	learnset 1, TACKLE
+	learnset 1, THUNDER_WAVE
+	learnset 1, SPARK
+	learnset 1, ACID ; Charge Beam
+	learnset 9, WRAP ; Bind
+	;learnset 29, THUNDER_FANG
+
+	evos_attacks Lombre
+	evo_data EVOLVE_ITEM, WATER_STONE, LUDICOLO
+	learnset 1, HEADBUTT
+	learnset 1, THUNDER_WAVE
+	learnset 1, SPARK
+	learnset 9, WRAP ; Bind
+	learnset 19, ACID
+	;learnset 29, THUNDER_FANG ; Added from Tynamo's moves
+	;learnset 29, DISCHARGE
+	learnset 38, CRUNCH
+	learnset 44, THUNDERBOLT
+	learnset 49, GUNK_SHOT ; Acid Spray
+	learnset 54, GLARE ; Coil
+	learnset 59, WILD_CHARGE
+	; Skipped Gastro Acid
+	learnset 64, ZAP_CANNON
+
+	evos_attacks Ludicolo
+	learnset 1, CRUNCH
+	learnset 1, ZAP_CANNON
+	learnset 1, GLARE ; Coil
+	learnset 1, SLASH ; Crush Claw
+	learnset 1, HEADBUTT
+	learnset 1, ACID
+	;learnset 1, DISCHARGE
 
 	evos_attacks Ralts
 	evo_data EVOLVE_LEVEL, 20, KIRLIA

@@ -130,6 +130,9 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
 	mon_cry CRY_SPINARAK,   -$1db,  $150 ; Pupitar
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar
+	mon_cry CRY_REMORAID,    $148,  $000 ; Lotad
+	mon_cry CRY_SHELLDER,    $680,  $090 ; Lombre
+	mon_cry CRY_DIGLETT,     $6b0,  $111 ; Ludicolo
 	mon_cry CRY_GLIGAR,      $ffc,  $110 ; Ralts
 	mon_cry CRY_VILEPLUME,   $008,  $100 ; Kirlia
 	mon_cry CRY_VILEPLUME,   $f22,  $163 ; Gardevoir
@@ -257,11 +260,11 @@ PokemonCries::
 	mon_cry CRY_WHIMSICOTT,  $05b,  $0b7 ; Archeops
 	mon_cry CRY_TRUBBISH,   -$016,  $150 ; Trubbish
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_REMORAID,   -$089,  $0eb ; Zorua
 	mon_cry CRY_SPINARAK,   -$078,  $320 ; Zoroark
 	mon_cry CRY_VULPIX,      $04f,  $090 ; MINCCINO*
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; CINCCINO*
 	mon_cry CRY_TRUBBISH,    $07d,  $0c8 ; Gothita
 	mon_cry CRY_PATRAT,      $17a,  $095 ; Gothorita

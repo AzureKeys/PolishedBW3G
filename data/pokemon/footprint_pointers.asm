@@ -124,6 +124,9 @@ FootprintPointers::
 	dw LarvitarFootprint
 	dw PupitarFootprint
 	dw TyranitarFootprint
+	dw LotadFootprint
+	dw LombreFootprint
+	dw LudicoloFootprint
 	dw RaltsFootprint
 	dw KirliaFootprint
 	dw GardevoirFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
 	dw GarbodorFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
 	dw MinccinoFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw CinccinoFootprint
 	dw GothitaFootprint
 	dw GothoritaFootprint

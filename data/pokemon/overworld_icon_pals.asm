@@ -128,6 +128,9 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; LARVITAR
 	iconpal GRAY, PURPLE ; PUPITAR
 	iconpal GREEN, GRAY ; TYRANITAR
+	iconpal GREEN, TEAL ; LOTAD
+	iconpal GREEN, TEAL ; LOMBRE
+	iconpal GREEN, TEAL ; LUDICOLO
 	iconpal GREEN, AZURE ; RALTS
 	iconpal GREEN, AZURE ; KIRLIA
 	iconpal GREEN, AZURE ; GARDEVOIR
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal GRAY, PINK ; MINCCINO
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, BROWN ; CINCCINO
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
