@@ -171,6 +171,8 @@
 	const ALTARIA    ; a4
 	const CORPHISH   ; a9
 	const CRAWDAUNT  ; aa
+	const BALTOY     ; ab
+	const CLAYDOL    ; ac
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const MINCCINO   ; 141
-	const CINCCINO   ; 142
-	const GOTHITA    ; 143
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const CINCCINO   ; 142
+	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146

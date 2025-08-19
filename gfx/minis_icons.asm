@@ -742,6 +742,16 @@ CrawdauntMini::     INCBIN "gfx/minis/crawdaunt.2bpp.lz"
 CrawdauntMiniMask:: INCBIN "gfx/minis/crawdaunt_mask.1bpp.lz"
 CrawdauntIcon::     INCBIN "gfx/icons/crawdaunt.2bpp.lz"
 
+SECTION "Baltoy Mini Icon", ROMX
+BaltoyMini::     INCBIN "gfx/minis/baltoy.2bpp.lz"
+BaltoyMiniMask:: INCBIN "gfx/minis/baltoy_mask.1bpp.lz"
+BaltoyIcon::     INCBIN "gfx/icons/baltoy.2bpp.lz"
+
+SECTION "Claydol Mini Icon", ROMX
+ClaydolMini::     INCBIN "gfx/minis/claydol.2bpp.lz"
+ClaydolMiniMask:: INCBIN "gfx/minis/claydol_mask.1bpp.lz"
+ClaydolIcon::     INCBIN "gfx/icons/claydol.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

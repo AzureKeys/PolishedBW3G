@@ -148,6 +148,8 @@ PokedexDataPointerTable:
 	dba AltariaPokedexEntry
 	dba CorphishPokedexEntry
 	dba CrawdauntPokedexEntry
+	dba BaltoyPokedexEntry
+	dba ClaydolPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
 	dba MinccinoPokedexEntry
-	dba CinccinoPokedexEntry
-	dba GothitaPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba CinccinoPokedexEntry
+	dba GothitaPokedexEntry
 	dba GothoritaPokedexEntry
 	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry

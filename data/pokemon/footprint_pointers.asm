@@ -147,6 +147,8 @@ FootprintPointers::
 	dw AltariaFootprint
 	dw CorphishFootprint
 	dw CrawdauntFootprint
+	dw BaltoyFootprint
+	dw ClaydolFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw ZoruaFootprint
 	dw ZoroarkFootprint
 	dw MinccinoFootprint
-	dw CinccinoFootprint
-	dw GothitaFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw CinccinoFootprint
+	dw GothitaFootprint
 	dw GothoritaFootprint
 	dw GothitelleFootprint
 	dw SolosisFootprint

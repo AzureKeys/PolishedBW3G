@@ -3183,6 +3183,45 @@ endc
 	learnset 48, AQUA_TAIL ; Crabhammer
 	learnset 54, DRAGON_DANCE ; Guillotine
 
+	evos_attacks Baltoy
+	evo_data EVOLVE_LEVEL, 36, CLAYDOL
+	learnset 1, CONFUSION
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 7, MUD_SLAP
+	learnset 10, HYPNOSIS ; Heal Block
+	;learnset 13, ROCK_TOMB
+	learnset 16, PSYBEAM
+	learnset 19, ANCIENTPOWER
+	learnset 22, CALM_MIND ; Cosmic Power
+	;learnset 28, SELFDESTRUCT
+	learnset 31, EXTRASENSORY
+	learnset 34, PAIN_SPLIT ; Guard Split / Power Split
+	learnset 37, EARTH_POWER
+	learnset 40, SANDSTORM
+	learnset 43, MEAN_LOOK ; Imprison
+	learnset 46, EXPLOSION
+
+	evos_attacks Claydol
+	learnset 1, HYPER_BEAM
+	learnset 1, CONFUSION
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 1, MUD_SLAP
+	learnset 1, HYPNOSIS ; Heal Block
+	learnset 7, MUD_SLAP
+	learnset 10, HYPNOSIS ; Heal Block
+	;learnset 13, ROCK_TOMB
+	learnset 16, PSYBEAM
+	learnset 19, ANCIENTPOWER
+	learnset 22, CALM_MIND ; Cosmic Power
+	;learnset 28, SELFDESTRUCT
+	learnset 31, EXTRASENSORY
+	learnset 34, PAIN_SPLIT ; Guard Split / Power Split
+	learnset 35, HYPER_BEAM
+	learnset 39, EARTH_POWER
+	learnset 46, SANDSTORM
+	learnset 52, MEAN_LOOK ; Imprison
+	learnset 58, EXPLOSION
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

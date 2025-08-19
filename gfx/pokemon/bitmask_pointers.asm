@@ -147,6 +147,8 @@ BitmasksPointers:
 	dw AltariaBitmasks
 	dw CorphishBitmasks
 	dw CrawdauntBitmasks
+	dw BaltoyBitmasks
+	dw ClaydolBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw ZoruaPlainBitmasks
 	dw ZoroarkPlainBitmasks
 	dw MinccinoBitmasks
-	dw CinccinoBitmasks
-	dw GothitaBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw CinccinoBitmasks
+	dw GothitaBitmasks
 	dw GothoritaBitmasks
 	dw GothitelleBitmasks
 	dw SolosisBitmasks

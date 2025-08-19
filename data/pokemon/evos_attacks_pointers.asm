@@ -151,6 +151,8 @@ EvosAttacksPointers::
 	dw AltariaEvosAttacks
 	dw CorphishEvosAttacks
 	dw CrawdauntEvosAttacks
+	dw BaltoyEvosAttacks
+	dw ClaydolEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
 	dw MinccinoEvosAttacks
-	dw CinccinoEvosAttacks
-	dw GothitaEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw CinccinoEvosAttacks
+	dw GothitaEvosAttacks
 	dw GothoritaEvosAttacks
 	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks

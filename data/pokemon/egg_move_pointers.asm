@@ -147,6 +147,8 @@ EggSpeciesMovesPointers::
 	dw SwabluEggSpeciesMoves            ; Altaria
 	dw CorphishEggSpeciesMoves          ; Corphish
 	dw CorphishEggSpeciesMoves          ; Crawdaunt
+	dw BaltoyEggSpeciesMoves            ; Baltoy
+	dw BaltoyEggSpeciesMoves            ; Claydol
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw ZoruaPlainEggSpeciesMoves        ; Zorua
 	dw ZoruaPlainEggSpeciesMoves        ; Zoroark
 	dw MinccinoEggSpeciesMoves          ; Minccino
-	dw MinccinoEggSpeciesMoves          ; Cinccino
-	dw GothitaEggSpeciesMoves           ; Gothita
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw MinccinoEggSpeciesMoves          ; Cinccino
+	dw GothitaEggSpeciesMoves           ; Gothita
 	dw GothitaEggSpeciesMoves           ; Gothorita
 	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis

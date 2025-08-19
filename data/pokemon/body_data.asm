@@ -154,6 +154,8 @@ PokemonBodyData:
 	body_data  11,  206, WINGS,        BLUE   ; ALTARIA
 	body_data   6,  115, INSECTOID,    RED    ; CORPHISH
 	body_data  11,  328, INSECTOID,    RED    ; CRAWDAUNT
+	body_data   5,  215, HEAD_ARMS,    BROWN  ; BALTOY
+	body_data  15, 1080, HEAD_ARMS,    BLACK  ; CLAYDOL
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   7,  125, QUADRUPED,    GRAY   ; ZORUA
 	body_data  16,  811, BIPEDAL_TAIL, GRAY   ; ZOROARK
 	body_data   4,   58, QUADRUPED,    GRAY   ; MINCCINO
-	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
-	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   5,   75, QUADRUPED,    GRAY   ; CINCCINO
+	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
 	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS

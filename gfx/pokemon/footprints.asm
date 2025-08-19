@@ -190,6 +190,8 @@ SwabluFootprint::
 AltariaFootprint::
 CorphishFootprint::
 CrawdauntFootprint::
+BaltoyFootprint::
+ClaydolFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

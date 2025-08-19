@@ -147,6 +147,8 @@ AnimationExtraPointers:
 	dw AltariaAnimationExtra
 	dw CorphishAnimationExtra
 	dw CrawdauntAnimationExtra
+	dw BaltoyAnimationExtra
+	dw ClaydolAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
 	dw MinccinoAnimationExtra
-	dw CinccinoAnimationExtra
-	dw GothitaAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw CinccinoAnimationExtra
+	dw GothitaAnimationExtra
 	dw GothoritaAnimationExtra
 	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra

@@ -602,6 +602,14 @@ SECTION "Crawdaunt Pics", ROMX
 CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
 CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
 
+SECTION "Baltoy Pics", ROMX
+BaltoyFrontpic: INCBIN "gfx/pokemon/baltoy/front.animated.2bpp.lz"
+BaltoyBackpic:  INCBIN "gfx/pokemon/baltoy/back.2bpp.lz"
+
+SECTION "Claydol Pics", ROMX
+ClaydolFrontpic: INCBIN "gfx/pokemon/claydol/front.animated.2bpp.lz"
+ClaydolBackpic:  INCBIN "gfx/pokemon/claydol/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

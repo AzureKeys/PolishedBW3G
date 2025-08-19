@@ -151,6 +151,8 @@ PokemonPicPointers::
 	pics Altaria
 	pics Corphish
 	pics Crawdaunt
+	pics Baltoy
+	pics Claydol
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics ZoruaPlain
 	pics ZoroarkPlain
 	pics Minccino
-	pics Cinccino
-	pics Gothita
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Cinccino
+	pics Gothita
 	pics Gothorita
 	pics Gothitelle
 	pics Solosis

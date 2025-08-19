@@ -792,6 +792,10 @@ CorphishEggSpeciesMoves:
 	db METAL_CLAW
 	db $ff
 
+BaltoyEggSpeciesMoves:
+	dp BALTOY, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

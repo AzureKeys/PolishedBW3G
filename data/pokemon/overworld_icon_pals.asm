@@ -151,6 +151,8 @@ OverworldMonIconColors::
 	iconpal BLUE, BROWN ; ALTARIA
 	iconpal RED, PINK ; CORPHISH
 	iconpal RED, ORANGE ; CRAWDAUNT
+	iconpal BROWN, GREEN ; BALTOY
+	iconpal BLACK, BROWN ; CLAYDOL
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal GRAY, PINK ; MINCCINO
-	iconpal GRAY, BROWN ; CINCCINO
-	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal GRAY, BROWN ; CINCCINO
+	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE
 	iconpal GREEN, BLUE ; SOLOSIS

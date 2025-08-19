@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	dp AXEW
 	dp AZUMARILL
 	dp AZURILL
+	dp BALTOY
 	dp BASCULIN
 	dp BEARTIC
 	dp BEHEEYEM
@@ -32,6 +33,7 @@ AlphabeticalPokedexOrder:
 	dp CHANDELURE
 	dp CHINCHOU
 	dp CINCCINO
+	dp CLAYDOL
 	dp CLEFABLE
 	dp CLEFAIRY
 	dp CLEFFA

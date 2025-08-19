@@ -181,6 +181,8 @@ NewPokedexOrder:
 	dp ALTARIA
 	dp CORPHISH
 	dp CRAWDAUNT
+	dp BALTOY
+	dp CLAYDOL
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

@@ -1472,6 +1472,26 @@ CrawdauntPokedexEntry::
 	next "to battle with its"
 	next "giant claws.@"
 
+SECTION "BaltoyPokedexEntry", ROMX
+BaltoyPokedexEntry::
+	db "Clay Doll@"
+	db "Baltoy moves by"
+	next "spinning on its"
+	next "One foot. Ancient"
+	page "cave paintings"
+	next "depicting it have"
+	next "been discovered.@"
+
+SECTION "ClaydolPokedexEntry", ROMX
+ClaydolPokedexEntry::
+	db "Clay Doll@"
+	db "Claydol are said"
+	next "to be mud dolls,"
+	next "brought to life by"
+	page "a mysterious ray."
+	next "They move around"
+	next "by levitating.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

@@ -151,6 +151,8 @@ MiniIconPointers:
 	mini_icon Altaria
 	mini_icon Corphish
 	mini_icon Crawdaunt
+	mini_icon Baltoy
+	mini_icon Claydol
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Zorua
 	mini_icon Zoroark
 	mini_icon Minccino
-	mini_icon Cinccino
-	mini_icon Gothita
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Cinccino
+	mini_icon Gothita
 	mini_icon Gothorita
 	mini_icon Gothitelle
 	mini_icon Solosis

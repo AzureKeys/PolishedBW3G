@@ -147,6 +147,8 @@ FramesPointers:
 	dw AltariaFrames
 	dw CorphishFrames
 	dw CrawdauntFrames
+	dw BaltoyFrames
+	dw ClaydolFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
 	dw MinccinoFrames
-	dw CinccinoFrames
-	dw GothitaFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw CinccinoFrames
+	dw GothitaFrames
 	dw GothoritaFrames
 	dw GothitelleFrames
 	dw SolosisFrames
