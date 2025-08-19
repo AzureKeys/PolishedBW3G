@@ -174,6 +174,7 @@ GardevoirFootprint::
 ShroomishFootprint::
 BreloomFootprint::
 NosepassFootprint::
+MawileFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

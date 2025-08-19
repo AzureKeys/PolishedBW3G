@@ -131,6 +131,7 @@ AnimationPointers:
 	dw BreloomAnimation
 	dw AzurillAnimation
 	dw NosepassAnimation
+	dw MawileAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -253,9 +254,9 @@ AnimationPointers:
 	dw EmolgaAnimation
 	dw KarrablastAnimation
 	dw EscavalierAnimation
-	dw FoongusAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw FoongusAnimation
 	dw AmoongussAnimation
 	dw FrillishMaleAnimation
 	dw JellicentMaleAnimation

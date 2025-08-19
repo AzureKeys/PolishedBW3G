@@ -538,6 +538,10 @@ SECTION "Nosepass Pics", ROMX
 NosepassFrontpic: INCBIN "gfx/pokemon/nosepass/front.animated.2bpp.lz"
 NosepassBackpic:  INCBIN "gfx/pokemon/nosepass/back.2bpp.lz"
 
+SECTION "Mawile Pics", ROMX
+MawileFrontpic: INCBIN "gfx/pokemon/mawile/front.animated.2bpp.lz"
+MawileBackpic:  INCBIN "gfx/pokemon/mawile/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

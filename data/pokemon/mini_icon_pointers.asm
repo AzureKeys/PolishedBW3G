@@ -135,6 +135,7 @@ MiniIconPointers:
 	mini_icon Breloom
 	mini_icon Azurill
 	mini_icon Nosepass
+	mini_icon Mawile
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Emolga
 	mini_icon Karrablast
 	mini_icon Escavalier
-	mini_icon Foongus
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Foongus
 	mini_icon Amoonguss
 	mini_icon FrillishMale
 	mini_icon JellicentMale

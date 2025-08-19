@@ -132,6 +132,7 @@ PokedexDataPointerTable:
 	dba BreloomPokedexEntry
 	dba AzurillPokedexEntry
 	dba NosepassPokedexEntry
+	dba MawilePokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba EmolgaPokedexEntry
 	dba KarrablastPokedexEntry
 	dba EscavalierPokedexEntry
-	dba FoongusPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba FoongusPokedexEntry
 	dba AmoongussPokedexEntry
 	dba FrillishPokedexEntry
 	dba JellicentPokedexEntry

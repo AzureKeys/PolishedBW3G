@@ -165,6 +165,7 @@ NewPokedexOrder:
 	dp SHROOMISH
 	dp BRELOOM
 	dp NOSEPASS
+	dp MAWILE
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

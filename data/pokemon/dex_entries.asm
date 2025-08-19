@@ -1312,6 +1312,16 @@ NosepassPokedexEntry::
 	next "potent in colder"
 	next "seasons.@"
 
+SECTION "MawilePokedexEntry", ROMX
+MawilePokedexEntry::
+	db "Deceiver@"
+	db "Its huge jaw is"
+	next "made of steel"
+	next "horns that have"
+	page "deformed. It draws"
+	next "in prey with its"
+	next "cute face.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

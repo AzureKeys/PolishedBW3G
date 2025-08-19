@@ -161,6 +161,7 @@ AlphabeticalPokedexOrder:
 	dp MARACTUS
 	dp MAREEP
 	dp MARILL
+	dp MAWILE
 	dp MELOETTA
 	dp MEOWTH
 	dp MIENFOO

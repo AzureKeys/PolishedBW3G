@@ -131,6 +131,7 @@ EggSpeciesMovesPointers::
 	dw ShroomishEggSpeciesMoves         ; Breloom
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw NosepassEggSpeciesMoves          ; Nosepass
+	dw MawileEggSpeciesMoves            ; Mawile
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw EmolgaEggSpeciesMoves            ; Emolga
 	dw KarrablastEggSpeciesMoves        ; Karrablast
 	dw KarrablastEggSpeciesMoves        ; Escavalier
-	dw FoongusEggSpeciesMoves           ; Foongus
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw FoongusEggSpeciesMoves           ; Foongus
 	dw FoongusEggSpeciesMoves           ; Amoonguss
 	dw FrillishEggSpeciesMoves          ; Frillish
 	dw FrillishEggSpeciesMoves          ; Jellicent

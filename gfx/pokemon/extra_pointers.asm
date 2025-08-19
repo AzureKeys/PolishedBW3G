@@ -131,6 +131,7 @@ AnimationExtraPointers:
 	dw BreloomAnimationExtra
 	dw AzurillAnimationExtra
 	dw NosepassAnimationExtra
+	dw MawileAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw EmolgaAnimationExtra
 	dw KarrablastAnimationExtra
 	dw EscavalierAnimationExtra
-	dw FoongusAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw FoongusAnimationExtra
 	dw AmoongussAnimationExtra
 	dw FrillishMaleAnimationExtra
 	dw JellicentMaleAnimationExtra

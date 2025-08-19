@@ -131,6 +131,7 @@ BitmasksPointers:
 	dw BreloomBitmasks
 	dw AzurillBitmasks
 	dw NosepassBitmasks
+	dw MawileBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw EmolgaBitmasks
 	dw KarrablastBitmasks
 	dw EscavalierBitmasks
-	dw FoongusBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw FoongusBitmasks
 	dw AmoongussBitmasks
 	dw FrillishMaleBitmasks
 	dw JellicentMaleBitmasks

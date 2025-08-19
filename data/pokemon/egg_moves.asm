@@ -702,6 +702,16 @@ NosepassEggSpeciesMoves:
 	db ROLLOUT
 	db $ff
 
+MawileEggSpeciesMoves:
+	dp MAWILE, PLAIN_FORM
+	db ANCIENTPOWER
+	;db FIRE_FANG
+	;db ICE_FANG
+	;db POISON_FANG
+	db SUCKER_PUNCH
+	;db THUNDER_FANG
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

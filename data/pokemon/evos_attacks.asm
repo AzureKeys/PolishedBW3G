@@ -2856,6 +2856,25 @@ endc
 	;learnset 43, LOCK_ON
 	learnset 43, ZAP_CANNON
 
+	evos_attacks Mawile
+	learnset 1, PLAY_ROUGH
+	learnset 1, IRON_HEAD
+	learnset 1, LEER ; Taunt
+	learnset 1, LICK ; Astonish
+	;learnset 1, FAIRY_WIND
+	learnset 1, GROWL
+	learnset 9, BITE
+	;learnset 13, SWEET_SCENT
+	;learnset 17, VICE_GRIP
+	learnset 21, FEINT_ATTACK
+	learnset 25, BATON_PASS
+	learnset 29, CRUNCH
+	learnset 33, BARRIER ; Iron Defense
+	learnset 37, SUCKER_PUNCH
+	learnset 41, BULLET_PUNCH ; Stockpile / Swallow / Spit Up
+	learnset 45, IRON_HEAD
+	learnset 49, PLAY_ROUGH
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

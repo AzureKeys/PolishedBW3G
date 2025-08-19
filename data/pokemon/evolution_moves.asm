@@ -135,6 +135,7 @@ endc
 	db MACH_PUNCH   ; BRELOOM
 	db NO_MOVE      ; AZURILL
 	db NO_MOVE      ; NOSEPASS
+	db NO_MOVE      ; MAWILE
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -257,9 +258,9 @@ endc
 	db NO_MOVE      ; EMOLGA
 	db NO_MOVE      ; KARRABLAST
 	db NO_MOVE      ; ESCAVALIER
-	db NO_MOVE      ; FOONGUS
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; FOONGUS
 	db NO_MOVE      ; AMOONGUSS
 	db NO_MOVE      ; FRILLISH
 	db NO_MOVE      ; JELLICENT

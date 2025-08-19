@@ -662,6 +662,11 @@ NosepassMini::     INCBIN "gfx/minis/nosepass.2bpp.lz"
 NosepassMiniMask:: INCBIN "gfx/minis/nosepass_mask.1bpp.lz"
 NosepassIcon::     INCBIN "gfx/icons/nosepass.2bpp.lz"
 
+SECTION "Mawile Mini Icon", ROMX
+MawileMini::     INCBIN "gfx/minis/mawile.2bpp.lz"
+MawileMiniMask:: INCBIN "gfx/minis/mawile_mask.1bpp.lz"
+MawileIcon::     INCBIN "gfx/icons/mawile.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

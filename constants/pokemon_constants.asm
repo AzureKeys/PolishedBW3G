@@ -155,6 +155,7 @@
 	const BRELOOM    ; 89
 	const AZURILL    ; 8d
 	const NOSEPASS   ; 8e
+	const MAWILE     ; 92
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -277,9 +278,9 @@
 	const EMOLGA     ; 150
 	const KARRABLAST ; 151
 	const ESCAVALIER ; 152
-	const FOONGUS    ; 153
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const FOONGUS    ; 153
 	const AMOONGUSS  ; 154
 	const FRILLISH   ; 155
 	const JELLICENT  ; 156
