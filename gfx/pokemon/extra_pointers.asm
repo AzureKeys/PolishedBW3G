@@ -145,6 +145,8 @@ AnimationExtraPointers:
 	dw FlygonAnimationExtra
 	dw SwabluAnimationExtra
 	dw AltariaAnimationExtra
+	dw CorphishAnimationExtra
+	dw CrawdauntAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw MinccinoAnimationExtra
 	dw CinccinoAnimationExtra
 	dw GothitaAnimationExtra
-	dw GothoritaAnimationExtra
-	dw GothitelleAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw GothoritaAnimationExtra
+	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra
 	dw ReuniclusAnimationExtra

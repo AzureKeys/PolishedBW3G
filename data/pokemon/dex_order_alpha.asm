@@ -38,8 +38,10 @@ AlphabeticalPokedexOrder:
 	dp COBALION
 	dp COFAGRIGUS
 	dp CONKELDURR
+	dp CORPHISH
 	dp CORSOLA
 	dp COTTONEE
+	dp CRAWDAUNT
 	dp CROBAT
 	dp CRUSTLE
 	dp CRYOGONAL

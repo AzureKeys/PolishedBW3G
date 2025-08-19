@@ -3143,6 +3143,46 @@ endc
 	learnset 52, MOONBLAST
 	learnset 59, HURRICANE ; Sky attack
 
+	evos_attacks Corphish
+	evo_data EVOLVE_LEVEL, 30, CRAWDAUNT
+	learnset 1, WATER_GUN ; Bubble
+	learnset 5, DEFENSE_CURL ; Harden
+	;learnset 7, VICE_GRIP
+	learnset 10, LEER
+	learnset 14, BUBBLE_BEAM
+	learnset 17, PROTECT
+	;learnset 20, DOUBLE_HIT
+	learnset 23, KNOCK_OFF
+	learnset 26, NIGHT_SLASH
+	learnset 31, AQUA_JET ; Razor Shell
+	learnset 34, SWAGGER ; Taunt
+	learnset 37, SWORDS_DANCE
+	learnset 39, CRUNCH
+	learnset 43, AQUA_TAIL ; Crabhammer
+	learnset 48, DRAGON_DANCE ; Guillotine
+
+	evos_attacks Crawdaunt
+	learnset 1, SWIFT
+	learnset 1, WATER_GUN ; Bubble
+	learnset 1, DEFENSE_CURL ; Harden
+	;learnset 1, VICE_GRIP
+	learnset 1, LEER
+	learnset 5, DEFENSE_CURL ; Harden
+	;learnset 7, VICE_GRIP
+	learnset 10, LEER
+	learnset 14, BUBBLE_BEAM
+	learnset 17, PROTECT
+	;learnset 20, DOUBLE_HIT
+	learnset 23, KNOCK_OFF
+	learnset 26, NIGHT_SLASH
+	learnset 29, SWIFT
+	learnset 32, AQUA_JET ; Razor Shell
+	learnset 36, SWAGGER ; Taunt
+	learnset 40, SWORDS_DANCE
+	learnset 43, CRUNCH
+	learnset 48, AQUA_TAIL ; Crabhammer
+	learnset 54, DRAGON_DANCE ; Guillotine
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

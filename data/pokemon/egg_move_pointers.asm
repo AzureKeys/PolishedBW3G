@@ -145,6 +145,8 @@ EggSpeciesMovesPointers::
 	dw TrapinchEggSpeciesMoves          ; Flygon
 	dw SwabluEggSpeciesMoves            ; Swablu
 	dw SwabluEggSpeciesMoves            ; Altaria
+	dw CorphishEggSpeciesMoves          ; Corphish
+	dw CorphishEggSpeciesMoves          ; Crawdaunt
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw MinccinoEggSpeciesMoves          ; Minccino
 	dw MinccinoEggSpeciesMoves          ; Cinccino
 	dw GothitaEggSpeciesMoves           ; Gothita
-	dw GothitaEggSpeciesMoves           ; Gothorita
-	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw GothitaEggSpeciesMoves           ; Gothorita
+	dw GothitaEggSpeciesMoves           ; Gothitelle
 	dw SolosisEggSpeciesMoves           ; Solosis
 	dw SolosisEggSpeciesMoves           ; Duosion
 	dw SolosisEggSpeciesMoves           ; Reuniclus

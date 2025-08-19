@@ -594,6 +594,14 @@ SECTION "Altaria Pics", ROMX
 AltariaFrontpic: INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
 AltariaBackpic:  INCBIN "gfx/pokemon/altaria/back.2bpp.lz"
 
+SECTION "Corphish Pics", ROMX
+CorphishFrontpic: INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
+CorphishBackpic:  INCBIN "gfx/pokemon/corphish/back.2bpp.lz"
+
+SECTION "Crawdaunt Pics", ROMX
+CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lz"
+CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

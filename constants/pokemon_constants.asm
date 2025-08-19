@@ -169,6 +169,8 @@
 	const FLYGON     ; a2
 	const SWABLU     ; a3
 	const ALTARIA    ; a4
+	const CORPHISH   ; a9
+	const CRAWDAUNT  ; aa
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const MINCCINO   ; 141
 	const CINCCINO   ; 142
 	const GOTHITA    ; 143
-	const GOTHORITA  ; 144
-	const GOTHITELLE ; 145
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const GOTHORITA  ; 144
+	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
 	const REUNICLUS  ; 148

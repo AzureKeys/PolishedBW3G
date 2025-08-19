@@ -188,6 +188,8 @@ VibravaFootprint::
 FlygonFootprint::
 SwabluFootprint::
 AltariaFootprint::
+CorphishFootprint::
+CrawdauntFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

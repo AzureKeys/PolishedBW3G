@@ -145,6 +145,8 @@ FootprintPointers::
 	dw FlygonFootprint
 	dw SwabluFootprint
 	dw AltariaFootprint
+	dw CorphishFootprint
+	dw CrawdauntFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw MinccinoFootprint
 	dw CinccinoFootprint
 	dw GothitaFootprint
-	dw GothoritaFootprint
-	dw GothitelleFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw GothoritaFootprint
+	dw GothitelleFootprint
 	dw SolosisFootprint
 	dw DuosionFootprint
 	dw ReuniclusFootprint

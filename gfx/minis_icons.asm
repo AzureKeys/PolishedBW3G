@@ -732,6 +732,16 @@ AltariaMini::     INCBIN "gfx/minis/altaria.2bpp.lz"
 AltariaMiniMask:: INCBIN "gfx/minis/altaria_mask.1bpp.lz"
 AltariaIcon::     INCBIN "gfx/icons/altaria.2bpp.lz"
 
+SECTION "Corphish Mini Icon", ROMX
+CorphishMini::     INCBIN "gfx/minis/corphish.2bpp.lz"
+CorphishMiniMask:: INCBIN "gfx/minis/corphish_mask.1bpp.lz"
+CorphishIcon::     INCBIN "gfx/icons/corphish.2bpp.lz"
+
+SECTION "Crawdaunt Mini Icon", ROMX
+CrawdauntMini::     INCBIN "gfx/minis/crawdaunt.2bpp.lz"
+CrawdauntMiniMask:: INCBIN "gfx/minis/crawdaunt_mask.1bpp.lz"
+CrawdauntIcon::     INCBIN "gfx/icons/crawdaunt.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

@@ -1452,6 +1452,26 @@ AltariaPokedexEntry::
 	next "the singing of"
 	next "an Altaria.@"
 
+SECTION "CorphishPokedexEntry", ROMX
+CorphishPokedexEntry::
+	db "Ruffian@"
+	db "It catches prey"
+	next "with its sharp"
+	next "claws. This #-"
+	page "mon has no trouble"
+	next "living in filthy"
+	next "water.@"
+
+SECTION "CrawdauntPokedexEntry", ROMX
+CrawdauntPokedexEntry::
+	db "Rogue@"
+	db "This #mon has"
+	next "an extremely"
+	next "violent nature. It"
+	page "challenges others"
+	next "to battle with its"
+	next "giant claws.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

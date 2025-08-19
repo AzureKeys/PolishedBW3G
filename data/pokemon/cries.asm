@@ -151,6 +151,8 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      $cda,  $132 ; Flygon
 	mon_cry CRY_TOGETIC,     $010,  $017 ; Swablu
 	mon_cry CRY_NIDORAN_M,   $045,  $155 ; Altaria
+	mon_cry CRY_MANTINE,    -$336,  $0ca ; Corphish
+	mon_cry CRY_MANTINE,    -$67b,  $0f7 ; Crawdaunt
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_VULPIX,      $04f,  $090 ; MINCCINO*
 	mon_cry CRY_VULPIX,      $088,  $0e0 ; CINCCINO*
 	mon_cry CRY_TRUBBISH,    $07d,  $0c8 ; Gothita
-	mon_cry CRY_PATRAT,      $17a,  $095 ; Gothorita
-	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_PATRAT,      $17a,  $095 ; Gothorita
+	mon_cry CRY_SPINARAK,    $005,  $450 ; Gothitelle
 	mon_cry CRY_EKANS,       $200,  $090 ; Solosis
 	mon_cry CRY_AMPHAROS,    $185,  $184 ; Duosion
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus

@@ -782,6 +782,16 @@ SwabluEggSpeciesMoves:
 	db STEEL_WING
 	db $ff
 
+CorphishEggSpeciesMoves:
+	dp CORPHISH, PLAIN_FORM
+	db ANCIENTPOWER
+	db AQUA_JET
+	db BODY_SLAM
+	db DOUBLE_EDGE
+	db DRAGON_DANCE
+	db METAL_CLAW
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

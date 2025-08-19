@@ -149,6 +149,8 @@ PokemonPicPointers::
 	pics Flygon
 	pics Swablu
 	pics Altaria
+	pics Corphish
+	pics Crawdaunt
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Minccino
 	pics Cinccino
 	pics Gothita
-	pics Gothorita
-	pics Gothitelle
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Gothorita
+	pics Gothitelle
 	pics Solosis
 	pics Duosion
 	pics Reuniclus

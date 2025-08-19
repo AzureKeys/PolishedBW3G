@@ -145,6 +145,8 @@ FramesPointers:
 	dw FlygonFrames
 	dw SwabluFrames
 	dw AltariaFrames
+	dw CorphishFrames
+	dw CrawdauntFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw MinccinoFrames
 	dw CinccinoFrames
 	dw GothitaFrames
-	dw GothoritaFrames
-	dw GothitelleFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw GothoritaFrames
+	dw GothitelleFrames
 	dw SolosisFrames
 	dw DuosionFrames
 	dw ReuniclusFrames

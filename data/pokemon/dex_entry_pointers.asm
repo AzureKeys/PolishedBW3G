@@ -146,6 +146,8 @@ PokedexDataPointerTable:
 	dba FlygonPokedexEntry
 	dba SwabluPokedexEntry
 	dba AltariaPokedexEntry
+	dba CorphishPokedexEntry
+	dba CrawdauntPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba MinccinoPokedexEntry
 	dba CinccinoPokedexEntry
 	dba GothitaPokedexEntry
-	dba GothoritaPokedexEntry
-	dba GothitellePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba GothoritaPokedexEntry
+	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
 	dba ReuniclusPokedexEntry

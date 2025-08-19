@@ -149,6 +149,8 @@ endc
 	db DRAGON_CLAW  ; FLYGON
 	db NO_MOVE      ; SWABLU
 	db DRAGONBREATH ; ALTARIA
+	db NO_MOVE      ; CORPHISH
+	db SWIFT        ; CRAWDAUNT
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; MINCCINO
 	db NO_MOVE      ; CINCCINO
 	db NO_MOVE      ; GOTHITA
-	db NO_MOVE      ; GOTHORITA
-	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; GOTHORITA
+	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
 	db DIZZY_PUNCH  ; REUNICLUS

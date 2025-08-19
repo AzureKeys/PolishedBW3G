@@ -179,6 +179,8 @@ NewPokedexOrder:
 	dp FLYGON
 	dp SWABLU
 	dp ALTARIA
+	dp CORPHISH
+	dp CRAWDAUNT
 	dp RATTATA
 	dp RATICATE
 	dp PICHU
