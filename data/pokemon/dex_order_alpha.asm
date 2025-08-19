@@ -183,6 +183,7 @@ AlphabeticalPokedexOrder:
 	dp NIDORINA
 	dp NIDORINO
 	dp NINETALES
+	dp NOSEPASS
 	dp OCTILLERY
 	dp ONIX
 	dp OSHAWOTT

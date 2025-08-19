@@ -173,6 +173,7 @@ KirliaFootprint::
 GardevoirFootprint::
 ShroomishFootprint::
 BreloomFootprint::
+NosepassFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

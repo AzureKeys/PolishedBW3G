@@ -164,6 +164,7 @@ NewPokedexOrder:
 	dp GARDEVOIR
 	dp SHROOMISH
 	dp BRELOOM
+	dp NOSEPASS
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

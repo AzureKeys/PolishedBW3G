@@ -134,6 +134,7 @@ PokemonPicPointers::
 	pics Shroomish
 	pics Breloom
 	pics Azurill
+	pics Nosepass
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Karrablast
 	pics Escavalier
 	pics Foongus
-	pics Amoonguss
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Amoonguss
 	pics FrillishMale
 	pics JellicentMale
 	pics Alomomola

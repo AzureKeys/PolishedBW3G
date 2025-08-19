@@ -1302,6 +1302,16 @@ AzurillPokedexEntry::
 	next "by bouncing on its"
 	next "tail.@"
 
+SECTION "NosepassPokedexEntry", ROMX
+NosepassPokedexEntry::
+	db "Compass@"
+	db "Its body emits a"
+	next "powerful magnetism"
+	next "that draws in its"
+	page "prey. It is more"
+	next "potent in colder"
+	next "seasons.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

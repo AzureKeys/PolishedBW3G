@@ -130,6 +130,7 @@ FramesPointers:
 	dw ShroomishFrames
 	dw BreloomFrames
 	dw AzurillFrames
+	dw NosepassFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw KarrablastFrames
 	dw EscavalierFrames
 	dw FoongusFrames
-	dw AmoongussFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw AmoongussFrames
 	dw FrillishMaleFrames
 	dw JellicentMaleFrames
 	dw AlomomolaFrames

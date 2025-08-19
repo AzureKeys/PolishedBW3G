@@ -694,6 +694,14 @@ AzurillEggSpeciesMoves:
 	db CALM_MIND
 	db $ff
 
+NosepassEggSpeciesMoves:
+	dp NOSEPASS, PLAIN_FORM
+	db DOUBLE_EDGE
+	db ENDURE
+	db MAGNITUDE
+	db ROLLOUT
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

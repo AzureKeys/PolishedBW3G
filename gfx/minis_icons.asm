@@ -657,6 +657,11 @@ BreloomMini::     INCBIN "gfx/minis/breloom.2bpp.lz"
 BreloomMiniMask:: INCBIN "gfx/minis/breloom_mask.1bpp.lz"
 BreloomIcon::     INCBIN "gfx/icons/breloom.2bpp.lz"
 
+SECTION "Nosepass Mini Icon", ROMX
+NosepassMini::     INCBIN "gfx/minis/nosepass.2bpp.lz"
+NosepassMiniMask:: INCBIN "gfx/minis/nosepass_mask.1bpp.lz"
+NosepassIcon::     INCBIN "gfx/icons/nosepass.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

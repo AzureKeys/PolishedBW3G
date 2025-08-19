@@ -136,6 +136,7 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,  $120,  $090 ; Shroomish
 	mon_cry CRY_BELLOSSOM,   $760,  $0a0 ; Breloom
 	mon_cry CRY_MARILL,      $124,  $0d0 ; Azurill
+	mon_cry CRY_MUDKIP,      $125,  $1c4 ; Nosepass
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -259,9 +260,9 @@ PokemonCries::
 	mon_cry CRY_KARRABLAST,  $00e,  $0d7 ; Karrablast
 	mon_cry CRY_CUBCHOO,    -$047,  $160 ; Escavalier
 	mon_cry CRY_GRIMER,      $2d0,  $0a0 ; Foongus
-	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_GRIMER,      $290,  $160 ; Amoonguss
 	mon_cry CRY_RAIKOU,      $083,  $130 ; Frillish
 	mon_cry CRY_RAIKOU,     -$18d,  $130 ; Jellicent
 	mon_cry CRY_LAPRAS,      $000,  $100 ; ALOMOMOLA*

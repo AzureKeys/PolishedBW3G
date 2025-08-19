@@ -534,6 +534,10 @@ SECTION "Azurill Pics", ROMX
 AzurillFrontpic: INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
 AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
 
+SECTION "Nosepass Pics", ROMX
+NosepassFrontpic: INCBIN "gfx/pokemon/nosepass/front.animated.2bpp.lz"
+NosepassBackpic:  INCBIN "gfx/pokemon/nosepass/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

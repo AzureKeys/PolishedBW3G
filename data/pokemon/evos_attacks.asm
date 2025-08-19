@@ -2837,6 +2837,25 @@ endc
 	learnset 20, ROLLOUT ; Slam → tutor move
 	learnset 23, BODY_SLAM ; Bounce → egg move
 
+	evos_attacks Nosepass
+	;evo_data EVOLVE_LOCATION, MAGNET_TUNNEL, PROBOPASS
+	learnset 1, TACKLE
+	learnset 4, DEFENSE_CURL ; Harden
+	learnset 7, MEAN_LOOK ; Block
+	learnset 10, ROCK_THROW
+	learnset 13, THUNDER_WAVE
+	learnset 16, REST
+	learnset 19, SPARK
+	learnset 22, ROCK_SLIDE
+	learnset 25, POWER_GEM
+	learnset 28, ROCK_BLAST
+	;learnset 31, DISCHARGE
+	learnset 34, SANDSTORM
+	learnset 37, EARTH_POWER
+	learnset 40, STONE_EDGE
+	;learnset 43, LOCK_ON
+	learnset 43, ZAP_CANNON
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

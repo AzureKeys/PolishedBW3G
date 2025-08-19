@@ -131,6 +131,7 @@ PokemonNames::
 	rawchar "Shroomish@"
 	rawchar "Breloom@@@"
 	rawchar "Azurill@@@"
+	rawchar "Nosepass@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Karrablast"
 	rawchar "Escavalier"
 	rawchar "Foongus@@@"
-	rawchar "Amoonguss@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Amoonguss@"
 	rawchar "Frillish@@"
 	rawchar "Jellicent@"
 	rawchar "Alomomola@"

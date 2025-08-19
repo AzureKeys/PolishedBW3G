@@ -134,6 +134,7 @@ EvosAttacksPointers::
 	dw ShroomishEvosAttacks
 	dw BreloomEvosAttacks
 	dw AzurillEvosAttacks
+	dw NosepassEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -257,9 +258,9 @@ EvosAttacksPointers::
 	dw KarrablastEvosAttacks
 	dw EscavalierEvosAttacks
 	dw FoongusEvosAttacks
-	dw AmoongussEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw AmoongussEvosAttacks
 	dw FrillishEvosAttacks
 	dw JellicentEvosAttacks
 	dw AlomomolaEvosAttacks
