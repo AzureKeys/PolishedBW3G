@@ -171,6 +171,9 @@ RunerigusFootprint::
 LotadFootprint::
 LombreFootprint::
 LudicoloFootprint::
+SeedotFootprint::
+NuzleafFootprint::
+ShiftryFootprint::
 RaltsFootprint::
 KirliaFootprint::
 GardevoirFootprint::

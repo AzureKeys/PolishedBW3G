@@ -128,6 +128,9 @@ PokedexDataPointerTable:
 	dba LotadPokedexEntry
 	dba LombrePokedexEntry
 	dba LudicoloPokedexEntry
+	dba SeedotPokedexEntry
+	dba NuzleafPokedexEntry
+	dba ShiftryPokedexEntry
 	dba RaltsPokedexEntry
 	dba KirliaPokedexEntry
 	dba GardevoirPokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba TirtougaPokedexEntry
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba ArcheopsPokedexEntry
 	dba TrubbishPokedexEntry
 	dba GarbodorPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba ZoruaPlainPokedexEntry
 	dba ZoroarkPlainPokedexEntry
 	dba MinccinoPokedexEntry

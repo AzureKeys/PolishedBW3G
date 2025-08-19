@@ -131,6 +131,9 @@ EvosAttacksPointers::
 	dw LotadEvosAttacks
 	dw LombreEvosAttacks
 	dw LudicoloEvosAttacks
+	dw SeedotEvosAttacks
+	dw NuzleafEvosAttacks
+	dw ShiftryEvosAttacks
 	dw RaltsEvosAttacks
 	dw KirliaEvosAttacks
 	dw GardevoirEvosAttacks
@@ -255,11 +258,11 @@ EvosAttacksPointers::
 	dw TirtougaEvosAttacks
 	dw CarracostaEvosAttacks
 	dw ArchenEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw ArcheopsEvosAttacks
 	dw TrubbishEvosAttacks
 	dw GarbodorEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ZoruaPlainEvosAttacks
 	dw ZoroarkPlainEvosAttacks
 	dw MinccinoEvosAttacks

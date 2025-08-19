@@ -131,6 +131,9 @@ endc
 	db NO_MOVE      ; LOTAD
 	db NO_MOVE      ; LOMBRE
 	db NO_MOVE      ; LUDICOLO
+	db NO_MOVE      ; SEEDOT
+	db NO_MOVE      ; NUZLEAF
+	db NO_MOVE      ; SHIFTRY
 	db NO_MOVE      ; RALTS
 	db NO_MOVE      ; KIRLIA
 	db NO_MOVE      ; GARDEVOIR
@@ -255,11 +258,11 @@ endc
 	db NO_MOVE      ; TIRTOUGA
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
 	db NO_MOVE      ; GARBODOR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; MINCCINO

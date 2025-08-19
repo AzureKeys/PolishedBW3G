@@ -151,6 +151,9 @@
 	const LOTAD      ; 7d
 	const LOMBRE     ; 7e
 	const LUDICOLO   ; 7f
+	const SEEDOT     ; 80
+	const NUZLEAF    ; 81
+	const SHIFTRY    ; 82
 	const RALTS      ; 85
 	const KIRLIA     ; 86
 	const GARDEVOIR  ; 87

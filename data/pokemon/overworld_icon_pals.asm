@@ -131,6 +131,9 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; LOTAD
 	iconpal GREEN, TEAL ; LOMBRE
 	iconpal GREEN, TEAL ; LUDICOLO
+	iconpal BROWN, RED ; SEEDOT
+	iconpal BROWN, ORANGE ; NUZLEAF
+	iconpal BROWN, ORANGE ; SHIFTRY
 	iconpal GREEN, AZURE ; RALTS
 	iconpal GREEN, AZURE ; KIRLIA
 	iconpal GREEN, AZURE ; GARDEVOIR
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; TIRTOUGA
 	iconpal BLUE, AZURE ; CARRACOSTA
 	iconpal BROWN, TEAL ; ARCHEN
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BROWN, TEAL ; ARCHEOPS
 	iconpal GREEN, BLUE ; TRUBBISH
 	iconpal GREEN, TEAL ; GARBODOR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GRAY, AZURE ; ZORUA
 	iconpal GRAY, PURPLE ; ZOROARK
 	iconpal GRAY, PINK ; MINCCINO

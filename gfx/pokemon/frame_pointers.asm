@@ -127,6 +127,9 @@ FramesPointers:
 	dw LotadFrames
 	dw LombreFrames
 	dw LudicoloFrames
+	dw SeedotFrames
+	dw NuzleafFrames
+	dw ShiftryFrames
 	dw RaltsFrames
 	dw KirliaFrames
 	dw GardevoirFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw TirtougaFrames
 	dw CarracostaFrames
 	dw ArchenFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ZoruaPlainFrames
 	dw ZoroarkPlainFrames
 	dw MinccinoFrames

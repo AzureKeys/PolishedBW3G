@@ -1272,6 +1272,36 @@ LudicoloPokedexEntry::
 	next "any foe without"
 	next "fear.@"
 
+SECTION "SeedotPokedexEntry", ROMX
+SeedotPokedexEntry::
+	db "Acorn@"
+	db "Seedot live in"
+	next "trees, hanging"
+	next "from branches and"
+	page "leeching moisture."
+	next "Rows of them can"
+	next "be found dangling.@"
+
+SECTION "NuzleafPokedexEntry", ROMX
+NuzleafPokedexEntry::
+	db "Wily@"
+	db "It lives a quiet"
+	next "life deep in the"
+	next "forest. If any-"
+	page "thing wanders near"
+	next "it, Nuzleaf will"
+	next "sound its flute.@"
+
+SECTION "ShiftryPokedexEntry", ROMX
+ShiftryPokedexEntry::
+	db "Wicked@"
+	db "It's said that when"
+	next "Shiftry flaps its"
+	next "fans atop ancient"
+	page "trees, chilly wind"
+	next "blows and weather"
+	next "turns cold.@"
+
 SECTION "RaltsPokedexEntry", ROMX
 RaltsPokedexEntry::
 	db "Feeling@"

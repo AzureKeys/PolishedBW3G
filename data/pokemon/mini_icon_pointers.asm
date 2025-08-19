@@ -131,6 +131,9 @@ MiniIconPointers:
 	mini_icon Lotad
 	mini_icon Lombre
 	mini_icon Ludicolo
+	mini_icon Seedot
+	mini_icon Nuzleaf
+	mini_icon Shiftry
 	mini_icon Ralts
 	mini_icon Kirlia
 	mini_icon Gardevoir
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Tirtouga
 	mini_icon Carracosta
 	mini_icon Archen
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Archeops
 	mini_icon Trubbish
 	mini_icon Garbodor
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Zorua
 	mini_icon Zoroark
 	mini_icon Minccino

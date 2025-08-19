@@ -132,6 +132,9 @@ endc
 	db   1,  13 ; Lotad
 	db  14,  34 ; Lombre
 	db  35, 100 ; Ludicolo
+	db   1,  13 ; Seedot
+	db  14,  34 ; Nuzleaf
+	db  35, 100 ; Shiftry
 	db   1,  19 ; Ralts
 	db  20,  29 ; Kirlia
 	db  30, 100 ; Gardevoir
@@ -256,11 +259,11 @@ endc
 	db   1,  36 ; Tirtouga
 	db  37, 100 ; Carracosta
 	db   1,  36 ; Archen
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  29 ; Zorua
 	db  30, 100 ; Zoroark
 	db   1,  29 ; Minccino

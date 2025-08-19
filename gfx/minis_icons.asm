@@ -642,6 +642,21 @@ LudicoloMini::     INCBIN "gfx/minis/ludicolo.2bpp.lz"
 LudicoloMiniMask:: INCBIN "gfx/minis/ludicolo_mask.1bpp.lz"
 LudicoloIcon::     INCBIN "gfx/icons/ludicolo.2bpp.lz"
 
+SECTION "Seedot Mini Icon", ROMX
+SeedotMini::     INCBIN "gfx/minis/seedot.2bpp.lz"
+SeedotMiniMask:: INCBIN "gfx/minis/seedot_mask.1bpp.lz"
+SeedotIcon::     INCBIN "gfx/icons/seedot.2bpp.lz"
+
+SECTION "Nuzleaf Mini Icon", ROMX
+NuzleafMini::     INCBIN "gfx/minis/nuzleaf.2bpp.lz"
+NuzleafMiniMask:: INCBIN "gfx/minis/nuzleaf_mask.1bpp.lz"
+NuzleafIcon::     INCBIN "gfx/icons/nuzleaf.2bpp.lz"
+
+SECTION "Shiftry Mini Icon", ROMX
+ShiftryMini::     INCBIN "gfx/minis/shiftry.2bpp.lz"
+ShiftryMiniMask:: INCBIN "gfx/minis/shiftry_mask.1bpp.lz"
+ShiftryIcon::     INCBIN "gfx/icons/shiftry.2bpp.lz"
+
 SECTION "Ralts Mini Icon", ROMX
 RaltsMini::     INCBIN "gfx/minis/ralts.2bpp.lz"
 RaltsMiniMask:: INCBIN "gfx/minis/ralts_mask.1bpp.lz"

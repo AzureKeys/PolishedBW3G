@@ -201,6 +201,7 @@ AlphabeticalPokedexOrder:
 	dp NINETALES
 	dp NOSEPASS
 	dp NUMEL
+	dp NUZLEAF
 	dp OCTILLERY
 	dp ONIX
 	dp OSHAWOTT
@@ -254,12 +255,14 @@ AlphabeticalPokedexOrder:
 	dp SCRAGGY
 	dp SCYTHER
 	dp SEADRA
+	dp SEEDOT
 	dp SEEL
 	dp SEISMITOAD
 	dp SERPERIOR
 	dp SERVINE
 	dp SEWADDLE
 	dp SHELMET
+	dp SHIFTRY
 	dp SHROOMISH
 	dp SHUCKLE
 	dp SIGILYPH

@@ -127,6 +127,9 @@ AnimationPointers:
 	dw LotadAnimation
 	dw LombreAnimation
 	dw LudicoloAnimation
+	dw SeedotAnimation
+	dw NuzleafAnimation
+	dw ShiftryAnimation
 	dw RaltsAnimation
 	dw KirliaAnimation
 	dw GardevoirAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw TirtougaAnimation
 	dw CarracostaAnimation
 	dw ArchenAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ArcheopsAnimation
 	dw TrubbishAnimation
 	dw GarbodorAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ZoruaPlainAnimation
 	dw ZoroarkPlainAnimation
 	dw MinccinoAnimation

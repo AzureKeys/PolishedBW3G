@@ -162,6 +162,9 @@ NewPokedexOrder:
 	dp LOTAD
 	dp LOMBRE
 	dp LUDICOLO
+	dp SEEDOT
+	dp NUZLEAF
+	dp SHIFTRY
 	dp RALTS
 	dp KIRLIA
 	dp GARDEVOIR

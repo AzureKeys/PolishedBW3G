@@ -131,6 +131,9 @@ PokemonPicPointers::
 	pics Lotad
 	pics Lombre
 	pics Ludicolo
+	pics Seedot
+	pics Nuzleaf
+	pics Shiftry
 	pics Ralts
 	pics Kirlia
 	pics Gardevoir
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Tirtouga
 	pics Carracosta
 	pics Archen
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Archeops
 	pics Trubbish
 	pics Garbodor
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics ZoruaPlain
 	pics ZoroarkPlain
 	pics Minccino

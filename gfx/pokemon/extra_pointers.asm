@@ -127,6 +127,9 @@ AnimationExtraPointers:
 	dw LotadAnimationExtra
 	dw LombreAnimationExtra
 	dw LudicoloAnimationExtra
+	dw SeedotAnimationExtra
+	dw NuzleafAnimationExtra
+	dw ShiftryAnimationExtra
 	dw RaltsAnimationExtra
 	dw KirliaAnimationExtra
 	dw GardevoirAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw TirtougaAnimationExtra
 	dw CarracostaAnimationExtra
 	dw ArchenAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ZoruaPlainAnimationExtra
 	dw ZoroarkPlainAnimationExtra
 	dw MinccinoAnimationExtra
