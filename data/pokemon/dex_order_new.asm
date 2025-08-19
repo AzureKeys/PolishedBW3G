@@ -177,6 +177,8 @@ NewPokedexOrder:
 	dp TRAPINCH
 	dp VIBRAVA
 	dp FLYGON
+	dp SWABLU
+	dp ALTARIA
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

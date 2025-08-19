@@ -772,6 +772,16 @@ TrapinchEggSpeciesMoves:
 	;db SIGNAL_BEAM
 	db $ff
 
+SwabluEggSpeciesMoves:
+	dp SWABLU, PLAIN_FORM
+	db AGILITY
+	db HAZE
+	db HYPER_VOICE
+	db PLAY_ROUGH
+	db PURSUIT
+	db STEEL_WING
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

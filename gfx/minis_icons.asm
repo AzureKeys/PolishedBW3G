@@ -722,6 +722,16 @@ FlygonMini::     INCBIN "gfx/minis/flygon.2bpp.lz"
 FlygonMiniMask:: INCBIN "gfx/minis/flygon_mask.1bpp.lz"
 FlygonIcon::     INCBIN "gfx/icons/flygon.2bpp.lz"
 
+SECTION "Swablu Mini Icon", ROMX
+SwabluMini::     INCBIN "gfx/minis/swablu.2bpp.lz"
+SwabluMiniMask:: INCBIN "gfx/minis/swablu_mask.1bpp.lz"
+SwabluIcon::     INCBIN "gfx/icons/swablu.2bpp.lz"
+
+SECTION "Altaria Mini Icon", ROMX
+AltariaMini::     INCBIN "gfx/minis/altaria.2bpp.lz"
+AltariaMiniMask:: INCBIN "gfx/minis/altaria_mask.1bpp.lz"
+AltariaIcon::     INCBIN "gfx/icons/altaria.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

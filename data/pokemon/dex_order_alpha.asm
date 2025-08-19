@@ -5,6 +5,7 @@ AlphabeticalPokedexOrder:
 	dp ACCELGOR
 	dp AGGRON
 	dp ALOMOMOLA
+	dp ALTARIA
 	dp AMOONGUSS
 	dp AMPHAROS
 	dp ANNIHILAPE
@@ -276,6 +277,7 @@ AlphabeticalPokedexOrder:
 	dp SUDOWOODO
 	dp SUNFLORA
 	dp SUNKERN
+	dp SWABLU
 	dp SWADLOON
 	dp SWANNA
 	dp SWINUB

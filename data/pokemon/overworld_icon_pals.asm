@@ -147,6 +147,8 @@ OverworldMonIconColors::
 	iconpal ORANGE, GRAY ; TRAPINCH
 	iconpal GREEN, ORANGE ; VIBRAVA
 	iconpal GREEN, BLUE ; FLYGON
+	iconpal BLUE, BROWN ; SWABLU
+	iconpal BLUE, BROWN ; ALTARIA
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal BLACK, PURPLE ; GOTHITA
 	iconpal BLACK, PURPLE ; GOTHORITA
 	iconpal BLACK, PURPLE ; GOTHITELLE
-	iconpal GREEN, BLUE ; SOLOSIS
-	iconpal GREEN, TEAL ; DUOSION
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal GREEN, BLUE ; SOLOSIS
+	iconpal GREEN, TEAL ; DUOSION
 	iconpal GREEN, AZURE ; REUNICLUS
 	iconpal AZURE, PINK ; DUCKLETT
 	iconpal WHITE, PURPLE ; SWANNA

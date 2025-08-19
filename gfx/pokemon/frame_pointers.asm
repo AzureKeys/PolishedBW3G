@@ -143,6 +143,8 @@ FramesPointers:
 	dw TrapinchFrames
 	dw VibravaFrames
 	dw FlygonFrames
+	dw SwabluFrames
+	dw AltariaFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw GothitaFrames
 	dw GothoritaFrames
 	dw GothitelleFrames
-	dw SolosisFrames
-	dw DuosionFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw SolosisFrames
+	dw DuosionFrames
 	dw ReuniclusFrames
 	dw DucklettFrames
 	dw SwannaFrames

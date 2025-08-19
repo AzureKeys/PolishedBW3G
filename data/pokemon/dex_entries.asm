@@ -1432,6 +1432,26 @@ FlygonPokedexEntry::
 	next "a sound similar"
 	next "to singing.@"
 
+SECTION "SwabluPokedexEntry", ROMX
+SwabluPokedexEntry::
+	db "Cotton Bird@"
+	db "Swablu has light"
+	next "and fluffy wings"
+	next "like clouds. It"
+	page "likes to perch on"
+	next "people's heads"
+	next "like a hat.@"
+
+SECTION "AltariaPokedexEntry", ROMX
+AltariaPokedexEntry::
+	db "Humming@"
+	db "If you hear a"
+	next "beautiful melody"
+	next "from deep in the"
+	page "mountains, it is"
+	next "the singing of"
+	next "an Altaria.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

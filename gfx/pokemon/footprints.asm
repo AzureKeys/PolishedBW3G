@@ -186,6 +186,8 @@ CameruptFootprint::
 TrapinchFootprint::
 VibravaFootprint::
 FlygonFootprint::
+SwabluFootprint::
+AltariaFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

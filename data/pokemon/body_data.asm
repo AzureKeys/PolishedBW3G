@@ -150,6 +150,8 @@ PokemonBodyData:
 	body_data   7,  150, INSECTOID,    BROWN  ; TRAPINCH
 	body_data  11,  153, WINGS,        GREEN  ; VIBRAVA
 	body_data  20,  820, WINGS,        GREEN  ; FLYGON
+	body_data   4,   12, WINGS,        BLUE   ; SWABLU
+	body_data  11,  206, WINGS,        BLUE   ; ALTARIA
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   4,   58, BIPEDAL,      PURPLE ; GOTHITA
 	body_data   7,  180, BIPEDAL,      PURPLE ; GOTHORITA
 	body_data  15,  440, BIPEDAL,      PURPLE ; GOTHITELLE
-	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
-	body_data   6,   80, HEAD,         GREEN  ; DUOSION
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   3,   10, HEAD,         GREEN  ; SOLOSIS
+	body_data   6,   80, HEAD,         GREEN  ; DUOSION
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
 	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT
 	body_data  13,  242, WINGS,        WHITE  ; SWANNA

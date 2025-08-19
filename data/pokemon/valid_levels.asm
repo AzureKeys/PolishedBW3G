@@ -148,6 +148,8 @@ endc
 	db   1,  34 ; Trapinch
 	db  35,  44 ; Vibrava
 	db  45, 100 ; Flygon
+	db   1,  34 ; Swablu
+	db  35, 100 ; Altaria
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -257,10 +259,10 @@ endc
 	db   1,  31 ; Gothita
 	db  32,  40 ; Gothorita
 	db  41, 100 ; Gothitelle
-	db   1,  31 ; Solosis
-	db  32,  40 ; Duosion
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  31 ; Solosis
+	db  32,  40 ; Duosion
 	db  41, 100 ; Reuniclus
 	db   1,  34 ; Ducklett
 	db  35, 100 ; Swanna

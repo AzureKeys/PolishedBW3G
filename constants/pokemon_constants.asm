@@ -167,6 +167,8 @@
 	const TRAPINCH   ; a0
 	const VIBRAVA    ; a1
 	const FLYGON     ; a2
+	const SWABLU     ; a3
+	const ALTARIA    ; a4
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const GOTHITA    ; 143
 	const GOTHORITA  ; 144
 	const GOTHITELLE ; 145
-	const SOLOSIS    ; 146
-	const DUOSION    ; 147
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const SOLOSIS    ; 146
+	const DUOSION    ; 147
 	const REUNICLUS  ; 148
 	const DUCKLETT   ; 149
 	const SWANNA     ; 14a

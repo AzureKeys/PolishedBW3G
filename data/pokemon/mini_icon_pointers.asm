@@ -147,6 +147,8 @@ MiniIconPointers:
 	mini_icon Trapinch
 	mini_icon Vibrava
 	mini_icon Flygon
+	mini_icon Swablu
+	mini_icon Altaria
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Gothita
 	mini_icon Gothorita
 	mini_icon Gothitelle
-	mini_icon Solosis
-	mini_icon Duosion
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Solosis
+	mini_icon Duosion
 	mini_icon Reuniclus
 	mini_icon Ducklett
 	mini_icon Swanna

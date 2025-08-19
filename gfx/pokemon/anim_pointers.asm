@@ -143,6 +143,8 @@ AnimationPointers:
 	dw TrapinchAnimation
 	dw VibravaAnimation
 	dw FlygonAnimation
+	dw SwabluAnimation
+	dw AltariaAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw GothitaAnimation
 	dw GothoritaAnimation
 	dw GothitelleAnimation
-	dw SolosisAnimation
-	dw DuosionAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw SolosisAnimation
+	dw DuosionAnimation
 	dw ReuniclusAnimation
 	dw DucklettAnimation
 	dw SwannaAnimation

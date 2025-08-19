@@ -147,6 +147,8 @@ PokemonPicPointers::
 	pics Trapinch
 	pics Vibrava
 	pics Flygon
+	pics Swablu
+	pics Altaria
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Gothita
 	pics Gothorita
 	pics Gothitelle
-	pics Solosis
-	pics Duosion
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Solosis
+	pics Duosion
 	pics Reuniclus
 	pics Ducklett
 	pics Swanna
