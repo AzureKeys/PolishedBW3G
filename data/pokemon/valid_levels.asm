@@ -135,6 +135,8 @@ endc
 	db   1,  13 ; Seedot
 	db  14,  34 ; Nuzleaf
 	db  35, 100 ; Shiftry
+	db   1,  24 ; Wingull
+	db  25, 100 ; Pelipper
 	db   1,  19 ; Ralts
 	db  20,  29 ; Kirlia
 	db  30, 100 ; Gardevoir
@@ -257,10 +259,10 @@ endc
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
-	db  37, 100 ; Carracosta
-	db   1,  36 ; Archen
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  37, 100 ; Carracosta
+	db   1,  36 ; Archen
 	db  37, 100 ; Archeops
 	db   1,  35 ; Trubbish
 	db  36, 100 ; Garbodor

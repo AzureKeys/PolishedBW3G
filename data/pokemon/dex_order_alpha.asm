@@ -213,6 +213,7 @@ AlphabeticalPokedexOrder:
 	dp PARASECT
 	dp PATRAT
 	dp PAWNIARD
+	dp PELIPPER
 	dp PERRSERKER
 	dp PERSIAN
 	dp PETILIL
@@ -330,6 +331,7 @@ AlphabeticalPokedexOrder:
 	dp WHIMSICOTT
 	dp WHIRLIPEDE
 	dp WIGGLYTUFF
+	dp WINGULL
 	dp WOOBAT
 	dp YAMASK
 	dp YANMA

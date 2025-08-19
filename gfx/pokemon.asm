@@ -534,6 +534,14 @@ SECTION "Shiftry Pics", ROMX
 ShiftryFrontpic: INCBIN "gfx/pokemon/shiftry/front.animated.2bpp.lz"
 ShiftryBackpic:  INCBIN "gfx/pokemon/shiftry/back.2bpp.lz"
 
+SECTION "Wingull Pics", ROMX
+WingullFrontpic: INCBIN "gfx/pokemon/wingull/front.animated.2bpp.lz"
+WingullBackpic:  INCBIN "gfx/pokemon/wingull/back.2bpp.lz"
+
+SECTION "Pelipper Pics", ROMX
+PelipperFrontpic: INCBIN "gfx/pokemon/pelipper/front.animated.2bpp.lz"
+PelipperBackpic:  INCBIN "gfx/pokemon/pelipper/back.2bpp.lz"
+
 SECTION "Ralts Pics", ROMX
 RaltsFrontpic: INCBIN "gfx/pokemon/ralts/front.animated.2bpp.lz"
 RaltsBackpic:  INCBIN "gfx/pokemon/ralts/back.2bpp.lz"

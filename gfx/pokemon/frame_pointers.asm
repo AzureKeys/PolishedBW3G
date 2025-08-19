@@ -130,6 +130,8 @@ FramesPointers:
 	dw SeedotFrames
 	dw NuzleafFrames
 	dw ShiftryFrames
+	dw WingullFrames
+	dw PelipperFrames
 	dw RaltsFrames
 	dw KirliaFrames
 	dw GardevoirFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
 	dw TirtougaFrames
-	dw CarracostaFrames
-	dw ArchenFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw CarracostaFrames
+	dw ArchenFrames
 	dw ArcheopsFrames
 	dw TrubbishFrames
 	dw GarbodorFrames

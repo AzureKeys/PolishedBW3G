@@ -134,6 +134,8 @@ PokemonPicPointers::
 	pics Seedot
 	pics Nuzleaf
 	pics Shiftry
+	pics Wingull
+	pics Pelipper
 	pics Ralts
 	pics Kirlia
 	pics Gardevoir
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics YamaskPlain
 	pics Cofagrigus
 	pics Tirtouga
-	pics Carracosta
-	pics Archen
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Carracosta
+	pics Archen
 	pics Archeops
 	pics Trubbish
 	pics Garbodor

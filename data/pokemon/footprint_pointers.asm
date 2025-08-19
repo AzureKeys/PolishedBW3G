@@ -130,6 +130,8 @@ FootprintPointers::
 	dw SeedotFootprint
 	dw NuzleafFootprint
 	dw ShiftryFootprint
+	dw WingullFootprint
+	dw PelipperFootprint
 	dw RaltsFootprint
 	dw KirliaFootprint
 	dw GardevoirFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw YamaskFootprint
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
-	dw CarracostaFootprint
-	dw ArchenFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw CarracostaFootprint
+	dw ArchenFootprint
 	dw ArcheopsFootprint
 	dw TrubbishFootprint
 	dw GarbodorFootprint

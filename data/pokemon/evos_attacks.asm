@@ -2799,6 +2799,43 @@ endc
 	learnset 1, ACID
 	;learnset 1, DISCHARGE
 
+	evos_attacks Wingull
+	evo_data EVOLVE_LEVEL, 25, PELIPPER
+	learnset 1, GROWL
+	learnset 4, CONFUSION
+	learnset 6, DOUBLE_TEAM
+	learnset 11, DISARM_VOICE
+	learnset 14, SUPERSONIC ; Lucky Chant
+	;learnset 17, MAGICAL_LEAF
+	learnset 19, RECOVER ; Heal Pulse
+	learnset 22, DRAINING_KISS
+	learnset 24, CALM_MIND
+	learnset 27, PSYCHIC_M
+	learnset 29, BARRIER ; Imprison
+	learnset 32, FUTURE_SIGHT
+	learnset 34, CHARM
+	learnset 37, HYPNOSIS
+	learnset 39, DREAM_EATER
+	learnset 42, MOONBLAST ; Stored Power
+
+	evos_attacks Pelipper
+	learnset 1, GROWL
+	learnset 4, CONFUSION
+	learnset 6, DOUBLE_TEAM
+	learnset 11, DISARM_VOICE
+	learnset 14, SUPERSONIC ; Lucky Chant
+	;learnset 17, MAGICAL_LEAF
+	learnset 19, RECOVER ; Heal Pulse
+	learnset 22, DRAINING_KISS
+	learnset 24, CALM_MIND
+	learnset 27, PSYCHIC_M
+	learnset 29, BARRIER ; Imprison
+	learnset 32, FUTURE_SIGHT
+	learnset 34, CHARM
+	learnset 37, HYPNOSIS
+	learnset 39, DREAM_EATER
+	learnset 42, MOONBLAST ; Stored Power
+
 	evos_attacks Ralts
 	evo_data EVOLVE_LEVEL, 20, KIRLIA
 	learnset 1, GROWL

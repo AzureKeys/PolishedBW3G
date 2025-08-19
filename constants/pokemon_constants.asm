@@ -154,6 +154,8 @@
 	const SEEDOT     ; 80
 	const NUZLEAF    ; 81
 	const SHIFTRY    ; 82
+	const WINGULL    ; 83
+	const PELIPPER   ; 84
 	const RALTS      ; 85
 	const KIRLIA     ; 86
 	const GARDEVOIR  ; 87
@@ -276,13 +278,13 @@
 	const YAMASK     ; 137
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const CARRACOSTA ; 13a
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c
 	const TRUBBISH   ; 13d
 	const GARBODOR   ; 13e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ZORUA      ; 13f
 	const ZOROARK    ; 140
 	const MINCCINO   ; 141

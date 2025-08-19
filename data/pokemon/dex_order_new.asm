@@ -165,6 +165,8 @@ NewPokedexOrder:
 	dp SEEDOT
 	dp NUZLEAF
 	dp SHIFTRY
+	dp WINGULL
+	dp PELIPPER
 	dp RALTS
 	dp KIRLIA
 	dp GARDEVOIR

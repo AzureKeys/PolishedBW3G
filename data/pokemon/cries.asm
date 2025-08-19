@@ -136,6 +136,8 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $0cd,  $090 ; Seedot
 	mon_cry CRY_KRABBY,      $048,  $0a0 ; Nuzleaf
 	mon_cry CRY_DIGLETT,     $499,  $110 ; Shiftry
+	mon_cry CRY_GRIMER,      $100,  $1b5 ; Wingull
+	mon_cry CRY_SLOWPOKE,    $740,  $210 ; Pelipper
 	mon_cry CRY_GLIGAR,      $ffc,  $110 ; Ralts
 	mon_cry CRY_VILEPLUME,   $008,  $100 ; Kirlia
 	mon_cry CRY_VILEPLUME,   $f22,  $163 ; Gardevoir
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_YAMASK,      $010,  $128 ; Yamask
 	mon_cry CRY_YAMASK,     -$320,  $15a ; Cofagrigus
 	mon_cry CRY_TIRTOUGA,    $056,  $0c4 ; Tirtouga
-	mon_cry CRY_WHIMSICOTT, -$1f9,  $130 ; Carracosta
-	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_WHIMSICOTT, -$1f9,  $130 ; Carracosta
+	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_WHIMSICOTT,  $05b,  $0b7 ; Archeops
 	mon_cry CRY_TRUBBISH,   -$016,  $150 ; Trubbish
 	mon_cry CRY_HOOTHOOT,   -$06a,  $286 ; Garbodor

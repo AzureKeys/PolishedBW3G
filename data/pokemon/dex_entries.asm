@@ -1302,6 +1302,26 @@ ShiftryPokedexEntry::
 	next "blows and weather"
 	next "turns cold.@"
 
+SECTION "WingullPokedexEntry", ROMX
+WingullPokedexEntry::
+	db "Seagull@"
+	db "It rides on ocean"
+	next "winds as if it"
+	next "were a glider. In"
+	page "winter, it hides"
+	next "food around its"
+	next "nest.@"
+
+SECTION "PelipperPokedexEntry", ROMX
+PelipperPokedexEntry::
+	db "Water Bird@"
+	db "It protects its"
+	next "young in its beak."
+	next "It bobs on waves,"
+	page "resting on them on"
+	next "days when the"
+	next "waters are calm.@"
+
 SECTION "RaltsPokedexEntry", ROMX
 RaltsPokedexEntry::
 	db "Feeling@"

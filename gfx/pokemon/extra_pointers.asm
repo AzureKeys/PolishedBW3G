@@ -130,6 +130,8 @@ AnimationExtraPointers:
 	dw SeedotAnimationExtra
 	dw NuzleafAnimationExtra
 	dw ShiftryAnimationExtra
+	dw WingullAnimationExtra
+	dw PelipperAnimationExtra
 	dw RaltsAnimationExtra
 	dw KirliaAnimationExtra
 	dw GardevoirAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw YamaskPlainAnimationExtra
 	dw CofagrigusAnimationExtra
 	dw TirtougaAnimationExtra
-	dw CarracostaAnimationExtra
-	dw ArchenAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw CarracostaAnimationExtra
+	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra
 	dw TrubbishAnimationExtra
 	dw GarbodorAnimationExtra

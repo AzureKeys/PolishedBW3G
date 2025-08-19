@@ -174,6 +174,8 @@ LudicoloFootprint::
 SeedotFootprint::
 NuzleafFootprint::
 ShiftryFootprint::
+WingullFootprint::
+PelipperFootprint::
 RaltsFootprint::
 KirliaFootprint::
 GardevoirFootprint::

@@ -130,6 +130,8 @@ EggSpeciesMovesPointers::
 	dw SeedotEggSpeciesMoves            ; Seedot
 	dw SeedotEggSpeciesMoves            ; Nuzleaf
 	dw SeedotEggSpeciesMoves            ; Shiftry
+	dw WingullEggSpeciesMoves           ; Wingull
+	dw WingullEggSpeciesMoves           ; Pelipper
 	dw RaltsEggSpeciesMoves             ; Ralts
 	dw RaltsEggSpeciesMoves             ; Kirlia
 	dw RaltsEggSpeciesMoves             ; Gardevoir
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
-	dw TirtougaEggSpeciesMoves          ; Carracosta
-	dw ArchenEggSpeciesMoves            ; Archen
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw TirtougaEggSpeciesMoves          ; Carracosta
+	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops
 	dw TrubbishEggSpeciesMoves          ; Trubbish
 	dw TrubbishEggSpeciesMoves          ; Garbodor

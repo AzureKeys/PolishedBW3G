@@ -134,6 +134,8 @@ MiniIconPointers:
 	mini_icon Seedot
 	mini_icon Nuzleaf
 	mini_icon Shiftry
+	mini_icon Wingull
+	mini_icon Pelipper
 	mini_icon Ralts
 	mini_icon Kirlia
 	mini_icon Gardevoir
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Yamask
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
-	mini_icon Carracosta
-	mini_icon Archen
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Carracosta
+	mini_icon Archen
 	mini_icon Archeops
 	mini_icon Trubbish
 	mini_icon Garbodor

@@ -673,6 +673,10 @@ SeedotEggSpeciesMoves:
 	dp SEEDOT, PLAIN_FORM
 	db $ff
 
+WingullEggSpeciesMoves:
+	dp WINGULL, PLAIN_FORM
+	db $ff
+
 RaltsEggSpeciesMoves:
 	dp RALTS, PLAIN_FORM
 	db CONFUSE_RAY
