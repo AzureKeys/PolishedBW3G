@@ -172,6 +172,8 @@ NewPokedexOrder:
 	dp MEDITITE
 	dp MEDICHAM
 	dp ROSELIA
+	dp NUMEL
+	dp CAMERUPT
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

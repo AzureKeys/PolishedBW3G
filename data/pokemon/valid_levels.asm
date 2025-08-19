@@ -143,6 +143,8 @@ endc
 	db   1,  36 ; Meditite
 	db  37, 100 ; Medicham
 	db  20,  34 ; Roselia
+	db   1,  32 ; Numel
+	db  33, 100 ; Camerupt
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -257,10 +259,10 @@ endc
 	db  41, 100 ; Reuniclus
 	db   1,  34 ; Ducklett
 	db  35, 100 ; Swanna
-	db   1,  34 ; Vanillite
-	db  35,  46 ; Vanillish
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  34 ; Vanillite
+	db  35,  46 ; Vanillish
 	db  47, 100 ; Vanilluxe
 	db   1,  33 ; Deerling
 	db  34, 100 ; Sawsbuck

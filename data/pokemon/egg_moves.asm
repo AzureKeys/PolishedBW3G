@@ -746,6 +746,18 @@ BudewEggSpeciesMoves:
 	;db SYNTHESIS
 	db $ff
 
+NumelEggSpeciesMoves:
+	dp NUMEL, PLAIN_FORM
+	db ANCIENTPOWER
+	db BODY_SLAM
+	db DEFENSE_CURL
+	db ENDURE
+	db GROWTH
+	db IRON_HEAD
+	db ROLLOUT
+	db SCARY_FACE
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

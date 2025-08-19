@@ -1382,6 +1382,26 @@ RoseliaPokedexEntry::
 	next "its arms. Its"
 	next "aroma is sweet.@"
 
+SECTION "NumelPokedexEntry", ROMX
+NumelPokedexEntry::
+	db "Numb@"
+	db "Numel is extremely"
+	next "dull witted. It"
+	next "won't even notice"
+	page "being hit. Though"
+	next "it can't stand"
+	next "hunger at all.@"
+
+SECTION "CameruptPokedexEntry", ROMX
+CameruptPokedexEntry::
+	db "Eruption@"
+	db "The humps on its"
+	next "back are formed by"
+	next "a transformation"
+	page "of bones. They can"
+	next "sometimes blast"
+	next "out molten magma.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

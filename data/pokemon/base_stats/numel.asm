@@ -7,7 +7,8 @@
 	db RAWST_BERRY, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for NUMEL, OBLIVIOUS, SIMPLE, OWN_TEMPO
+	;abilities_for NUMEL, OBLIVIOUS, SIMPLE, OWN_TEMPO
+	abilities_for NUMEL, OBLIVIOUS, OBLIVIOUS, OWN_TEMPO
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

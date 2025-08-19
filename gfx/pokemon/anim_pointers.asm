@@ -138,6 +138,8 @@ AnimationPointers:
 	dw MedititeAnimation
 	dw MedichamAnimation
 	dw RoseliaAnimation
+	dw NumelAnimation
+	dw CameruptAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw ReuniclusAnimation
 	dw DucklettAnimation
 	dw SwannaAnimation
-	dw VanilliteAnimation
-	dw VanillishAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw VanilliteAnimation
+	dw VanillishAnimation
 	dw VanilluxeAnimation
 	dw DeerlingSpringAnimation
 	dw SawsbuckSpringAnimation

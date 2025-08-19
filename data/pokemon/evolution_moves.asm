@@ -142,6 +142,8 @@ endc
 	db NO_MOVE      ; MEDITITE
 	db NO_MOVE      ; MEDICHAM
 	db NO_MOVE      ; ROSELIA
+	db NO_MOVE      ; NUMEL
+	db ROCK_SLIDE   ; CAMERUPT
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db DIZZY_PUNCH  ; REUNICLUS
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
-	db NO_MOVE      ; VANILLITE
-	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; VANILLITE
+	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; VANILLUXE
 	db NO_MOVE      ; DEERLING
 	db MEGAHORN     ; SAWSBUCK

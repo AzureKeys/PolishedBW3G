@@ -138,6 +138,8 @@ FootprintPointers::
 	dw MedititeFootprint
 	dw MedichamFootprint
 	dw RoseliaFootprint
+	dw NumelFootprint
+	dw CameruptFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw ReuniclusFootprint
 	dw DucklettFootprint
 	dw SwannaFootprint
-	dw VanilliteFootprint
-	dw VanillishFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw VanilliteFootprint
+	dw VanillishFootprint
 	dw VanilluxeFootprint
 	dw DeerlingFootprint
 	dw SawsbuckFootprint

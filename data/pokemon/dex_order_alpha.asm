@@ -26,6 +26,7 @@ AlphabeticalPokedexOrder:
 	dp BOUFFALANT
 	dp BRAVIARY
 	dp BRELOOM
+	dp CAMERUPT
 	dp CARRACOSTA
 	dp CHANDELURE
 	dp CHINCHOU
@@ -190,6 +191,7 @@ AlphabeticalPokedexOrder:
 	dp NIDORINO
 	dp NINETALES
 	dp NOSEPASS
+	dp NUMEL
 	dp OCTILLERY
 	dp ONIX
 	dp OSHAWOTT

@@ -144,6 +144,8 @@ PokemonCries::
 	mon_cry CRY_MEDITITE,    $233,  $080 ; Meditite
 	mon_cry CRY_MEDITITE,    $083,  $100 ; Medicham
 	mon_cry CRY_TYROGUE,     $041,  $0ae ; Roselia
+	mon_cry CRY_PSYDUCK,    -$13a,  $0d0 ; Numel
+	mon_cry CRY_RHYDON,     -$2c0,  $190 ; Camerupt
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    $233,  $190 ; Reuniclus
 	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; Ducklett
 	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; Swanna
-	mon_cry CRY_MANTINE,     $030,  $0ea ; Vanillite
-	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_MANTINE,     $030,  $0ea ; Vanillite
+	mon_cry CRY_DUNSPARCE,   $365,  $0b4 ; Vanillish
 	mon_cry CRY_VENONAT,     $0bd,  $123 ; Vanilluxe
 	mon_cry CRY_DEERLING,    $85d,  $0d4 ; Deerling
 	mon_cry CRY_GLIGAR,     -$0d6,  $250 ; Sawsbuck

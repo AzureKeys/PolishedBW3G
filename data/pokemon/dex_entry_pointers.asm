@@ -139,6 +139,8 @@ PokedexDataPointerTable:
 	dba MedititePokedexEntry
 	dba MedichamPokedexEntry
 	dba RoseliaPokedexEntry
+	dba NumelPokedexEntry
+	dba CameruptPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba ReuniclusPokedexEntry
 	dba DucklettPokedexEntry
 	dba SwannaPokedexEntry
-	dba VanillitePokedexEntry
-	dba VanillishPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba VanillitePokedexEntry
+	dba VanillishPokedexEntry
 	dba VanilluxePokedexEntry
 	dba DeerlingPokedexEntry
 	dba SawsbuckPokedexEntry

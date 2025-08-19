@@ -566,6 +566,14 @@ SECTION "Roselia Pics", ROMX
 RoseliaFrontpic: INCBIN "gfx/pokemon/roselia/front.animated.2bpp.lz"
 RoseliaBackpic:  INCBIN "gfx/pokemon/roselia/back.2bpp.lz"
 
+SECTION "Numel Pics", ROMX
+NumelFrontpic: INCBIN "gfx/pokemon/numel/front.animated.2bpp.lz"
+NumelBackpic:  INCBIN "gfx/pokemon/numel/back.2bpp.lz"
+
+SECTION "Camerupt Pics", ROMX
+CameruptFrontpic: INCBIN "gfx/pokemon/camerupt/front.animated.2bpp.lz"
+CameruptBackpic:  INCBIN "gfx/pokemon/camerupt/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

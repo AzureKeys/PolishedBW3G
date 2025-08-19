@@ -142,6 +142,8 @@ PokemonPicPointers::
 	pics Meditite
 	pics Medicham
 	pics Roselia
+	pics Numel
+	pics Camerupt
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Reuniclus
 	pics Ducklett
 	pics Swanna
-	pics Vanillite
-	pics Vanillish
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Vanillite
+	pics Vanillish
 	pics Vanilluxe
 	pics DeerlingSpring
 	pics SawsbuckSpring

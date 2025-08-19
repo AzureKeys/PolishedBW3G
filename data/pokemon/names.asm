@@ -139,6 +139,8 @@ PokemonNames::
 	rawchar "Meditite@@"
 	rawchar "Medicham@@"
 	rawchar "Roselia@@@"
+	rawchar "Numel@@@@@"
+	rawchar "Camerupt@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -252,11 +254,11 @@ PokemonNames::
 	rawchar "Duosion@@@"
 	rawchar "Reuniclus@"
 	rawchar "Ducklett@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Swanna@@@@"
 	rawchar "Vanillite@"
 	rawchar "Vanillish@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Vanilluxe@"
 	rawchar "Deerling@@"
 	rawchar "Sawsbuck@@"

@@ -181,6 +181,8 @@ AggronFootprint::
 MedititeFootprint::
 MedichamFootprint::
 RoseliaFootprint::
+NumelFootprint::
+CameruptFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

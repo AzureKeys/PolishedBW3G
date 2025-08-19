@@ -697,6 +697,16 @@ RoseliaMini::     INCBIN "gfx/minis/roselia.2bpp.lz"
 RoseliaMiniMask:: INCBIN "gfx/minis/roselia_mask.1bpp.lz"
 RoseliaIcon::     INCBIN "gfx/icons/roselia.2bpp.lz"
 
+SECTION "Numel Mini Icon", ROMX
+NumelMini::     INCBIN "gfx/minis/numel.2bpp.lz"
+NumelMiniMask:: INCBIN "gfx/minis/numel_mask.1bpp.lz"
+NumelIcon::     INCBIN "gfx/icons/numel.2bpp.lz"
+
+SECTION "Camerupt Mini Icon", ROMX
+CameruptMini::     INCBIN "gfx/minis/camerupt.2bpp.lz"
+CameruptMiniMask:: INCBIN "gfx/minis/camerupt_mask.1bpp.lz"
+CameruptIcon::     INCBIN "gfx/icons/camerupt.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

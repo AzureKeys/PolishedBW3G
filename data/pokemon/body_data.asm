@@ -145,6 +145,8 @@ PokemonBodyData:
 	body_data   6,  112, BIPEDAL,      BLUE   ; MEDITITE
 	body_data  13,  315, BIPEDAL,      RED    ; MEDICHAM
 	body_data   3,   20, BIPEDAL,      GREEN  ; ROSELIA
+	body_data   7,  240, QUADRUPED,    YELLOW ; NUMEL
+	body_data  19, 2200, QUADRUPED,    RED    ; CAMERUPT
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data  10,  201, HEAD_ARMS,    GREEN  ; REUNICLUS
 	body_data   5,   55, WINGS,        BLUE   ; DUCKLETT
 	body_data  13,  242, WINGS,        WHITE  ; SWANNA
-	body_data   4,   57, HEAD_BASE,    WHITE  ; VANILLITE
-	body_data  11,  410, HEAD_BASE,    WHITE  ; VANILLISH
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   4,   57, HEAD_BASE,    WHITE  ; VANILLITE
+	body_data  11,  410, HEAD_BASE,    WHITE  ; VANILLISH
 	body_data  13,  575, MULTIBODY,    WHITE  ; VANILLUXE
 	body_data   6,  195, QUADRUPED,    PINK   ; DEERLING
 	body_data  19,  925, QUADRUPED,    BROWN  ; SAWSBUCK
