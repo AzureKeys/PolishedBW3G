@@ -174,6 +174,9 @@ NewPokedexOrder:
 	dp ROSELIA
 	dp NUMEL
 	dp CAMERUPT
+	dp TRAPINCH
+	dp VIBRAVA
+	dp FLYGON
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

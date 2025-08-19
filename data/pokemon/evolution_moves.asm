@@ -144,6 +144,9 @@ endc
 	db NO_MOVE      ; ROSELIA
 	db NO_MOVE      ; NUMEL
 	db ROCK_SLIDE   ; CAMERUPT
+	db NO_MOVE      ; TRAPINCH
+	db DRAGONBREATH ; VIBRAVA
+	db DRAGON_CLAW  ; FLYGON
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -255,11 +258,11 @@ endc
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db DIZZY_PUNCH  ; REUNICLUS
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; VANILLITE
 	db NO_MOVE      ; VANILLISH
 	db NO_MOVE      ; VANILLUXE

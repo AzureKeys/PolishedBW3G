@@ -140,6 +140,9 @@ BitmasksPointers:
 	dw RoseliaBitmasks
 	dw NumelBitmasks
 	dw CameruptBitmasks
+	dw TrapinchBitmasks
+	dw VibravaBitmasks
+	dw FlygonBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw GothitelleBitmasks
 	dw SolosisBitmasks
 	dw DuosionBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw ReuniclusBitmasks
 	dw DucklettBitmasks
 	dw SwannaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw VanilliteBitmasks
 	dw VanillishBitmasks
 	dw VanilluxeBitmasks

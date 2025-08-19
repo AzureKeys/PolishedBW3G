@@ -140,6 +140,9 @@ AnimationExtraPointers:
 	dw RoseliaAnimationExtra
 	dw NumelAnimationExtra
 	dw CameruptAnimationExtra
+	dw TrapinchAnimationExtra
+	dw VibravaAnimationExtra
+	dw FlygonAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw GothitelleAnimationExtra
 	dw SolosisAnimationExtra
 	dw DuosionAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw ReuniclusAnimationExtra
 	dw DucklettAnimationExtra
 	dw SwannaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw VanilliteAnimationExtra
 	dw VanillishAnimationExtra
 	dw VanilluxeAnimationExtra

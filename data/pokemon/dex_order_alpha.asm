@@ -81,6 +81,7 @@ AlphabeticalPokedexOrder:
 	dp FERROTHORN
 	dp FLAAFFY
 	dp FLAREON
+	dp FLYGON
 	dp FOONGUS
 	dp FRAXURE
 	dp FRILLISH
@@ -293,6 +294,7 @@ AlphabeticalPokedexOrder:
 	dp TOGETIC
 	dp TORNADUS
 	dp TRANQUILL
+	dp TRAPINCH
 	dp TRUBBISH
 	dp TYMPOLE
 	dp TYNAMO
@@ -304,6 +306,7 @@ AlphabeticalPokedexOrder:
 	dp VANILLUXE
 	dp VAPOREON
 	dp VENIPEDE
+	dp VIBRAVA
 	dp VICTINI
 	dp VIRIZION
 	dp VOLCARONA

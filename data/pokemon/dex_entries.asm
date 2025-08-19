@@ -1402,6 +1402,36 @@ CameruptPokedexEntry::
 	next "sometimes blast"
 	next "out molten magma.@"
 
+SECTION "TrapinchPokedexEntry", ROMX
+TrapinchPokedexEntry::
+	db "Ant Pit@"
+	db "This #mon waits"
+	next "patiently for prey"
+	next "to fall into its"
+	page "pit. Its jaws are"
+	next "strong enough to"
+	next "crush boulders.@"
+
+SECTION "VibravaPokedexEntry", ROMX
+VibravaPokedexEntry::
+	db "Vibration@"
+	db "Vibrava generates"
+	next "ultrasonic waves"
+	next "by vibrating its"
+	page "wings. They can"
+	next "even cause head-"
+	next "aches in people.@"
+
+SECTION "FlygonPokedexEntry", ROMX
+FlygonPokedexEntry::
+	db "Mystic@"
+	db "It whips up a"
+	next "sandstorm by"
+	next "flapping its"
+	page "wings. This makes"
+	next "a sound similar"
+	next "to singing.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

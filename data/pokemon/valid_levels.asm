@@ -145,6 +145,9 @@ endc
 	db  20,  34 ; Roselia
 	db   1,  32 ; Numel
 	db  33, 100 ; Camerupt
+	db   1,  34 ; Trapinch
+	db  35,  44 ; Vibrava
+	db  45, 100 ; Flygon
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -256,11 +259,11 @@ endc
 	db  41, 100 ; Gothitelle
 	db   1,  31 ; Solosis
 	db  32,  40 ; Duosion
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  41, 100 ; Reuniclus
 	db   1,  34 ; Ducklett
 	db  35, 100 ; Swanna
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  34 ; Vanillite
 	db  35,  46 ; Vanillish
 	db  47, 100 ; Vanilluxe

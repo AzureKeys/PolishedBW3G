@@ -183,6 +183,9 @@ MedichamFootprint::
 RoseliaFootprint::
 NumelFootprint::
 CameruptFootprint::
+TrapinchFootprint::
+VibravaFootprint::
+FlygonFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

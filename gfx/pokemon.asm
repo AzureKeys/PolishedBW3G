@@ -574,6 +574,18 @@ SECTION "Camerupt Pics", ROMX
 CameruptFrontpic: INCBIN "gfx/pokemon/camerupt/front.animated.2bpp.lz"
 CameruptBackpic:  INCBIN "gfx/pokemon/camerupt/back.2bpp.lz"
 
+SECTION "Trapinch Pics", ROMX
+TrapinchFrontpic: INCBIN "gfx/pokemon/trapinch/front.animated.2bpp.lz"
+TrapinchBackpic:  INCBIN "gfx/pokemon/trapinch/back.2bpp.lz"
+
+SECTION "Vibrava Pics", ROMX
+VibravaFrontpic: INCBIN "gfx/pokemon/vibrava/front.animated.2bpp.lz"
+VibravaBackpic:  INCBIN "gfx/pokemon/vibrava/back.2bpp.lz"
+
+SECTION "Flygon Pics", ROMX
+FlygonFrontpic: INCBIN "gfx/pokemon/flygon/front.animated.2bpp.lz"
+FlygonBackpic:  INCBIN "gfx/pokemon/flygon/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

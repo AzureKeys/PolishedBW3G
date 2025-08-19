@@ -141,6 +141,9 @@ PokedexDataPointerTable:
 	dba RoseliaPokedexEntry
 	dba NumelPokedexEntry
 	dba CameruptPokedexEntry
+	dba TrapinchPokedexEntry
+	dba VibravaPokedexEntry
+	dba FlygonPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba GothitellePokedexEntry
 	dba SolosisPokedexEntry
 	dba DuosionPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba ReuniclusPokedexEntry
 	dba DucklettPokedexEntry
 	dba SwannaPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba VanillitePokedexEntry
 	dba VanillishPokedexEntry
 	dba VanilluxePokedexEntry

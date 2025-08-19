@@ -3042,6 +3042,64 @@ endc
 	learnset 52, FLAMETHROWER ; Eruption
 	learnset 59, FLARE_BLITZ ; Fissure
 
+	evos_attacks Trapinch
+	evo_data EVOLVE_LEVEL, 35, VIBRAVA
+	learnset 1, BITE
+	learnset 1, FEINT_ATTACK
+	learnset 5, MUD_SLAP
+	learnset 8, BULLDOZE
+	learnset 12, MAGNITUDE ; Sand Tomb
+	learnset 15, ROCK_SLIDE
+	learnset 19, DIG
+	learnset 22, CRUNCH
+	learnset 26, EARTH_POWER
+	learnset 29, X_SCISSOR ; Feint
+	learnset 33, EARTHQUAKE
+	learnset 36, SANDSTORM
+	learnset 40, CLOSE_COMBAT ; Superpower
+	learnset 43, HYPER_BEAM
+
+	evos_attacks Vibrava
+	evo_data EVOLVE_LEVEL, 45, FLYGON
+	learnset 1, BITE
+	learnset 1, FEINT_ATTACK
+	learnset 5, MUD_SLAP
+	learnset 8, BULLDOZE
+	learnset 12, MAGNITUDE ; Sand Tomb
+	learnset 15, ROCK_SLIDE
+	learnset 19, SUPERSONIC
+	learnset 22, SCREECH
+	learnset 26, EARTH_POWER
+	learnset 29, BUG_BUZZ
+	learnset 33, EARTHQUAKE
+	learnset 34, DRAGONBREATH
+	learnset 36, SANDSTORM
+	learnset 40, HYPER_VOICE ; Uproar
+	learnset 43, HYPER_BEAM
+
+	evos_attacks Flygon
+	learnset 1, DRAGON_CLAW
+	learnset 1, DRAGONBREATH
+	learnset 1, DRAGON_DANCE
+	learnset 1, SONIC_BOOM
+	learnset 1, BITE
+	learnset 1, FEINT_ATTACK
+	learnset 5, MUD_SLAP
+	learnset 8, BULLDOZE
+	learnset 12, MAGNITUDE ; Sand Tomb
+	learnset 15, ROCK_SLIDE
+	learnset 19, SUPERSONIC
+	learnset 22, SCREECH
+	learnset 26, EARTH_POWER
+	learnset 29, BUG_BUZZ
+	learnset 33, EARTHQUAKE
+	learnset 34, DRAGONBREATH
+	learnset 36, SANDSTORM
+	learnset 40, HYPER_VOICE ; Uproar
+	learnset 43, HYPER_BEAM
+	learnset 44, DRAGON_CLAW
+	learnset 47, OUTRAGE ; Dragon Rush
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

@@ -140,6 +140,9 @@ FramesPointers:
 	dw RoseliaFrames
 	dw NumelFrames
 	dw CameruptFrames
+	dw TrapinchFrames
+	dw VibravaFrames
+	dw FlygonFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw GothitelleFrames
 	dw SolosisFrames
 	dw DuosionFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ReuniclusFrames
 	dw DucklettFrames
 	dw SwannaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw VanilliteFrames
 	dw VanillishFrames
 	dw VanilluxeFrames

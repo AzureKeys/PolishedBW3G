@@ -144,6 +144,9 @@ EvosAttacksPointers::
 	dw RoseliaEvosAttacks
 	dw NumelEvosAttacks
 	dw CameruptEvosAttacks
+	dw TrapinchEvosAttacks
+	dw VibravaEvosAttacks
+	dw FlygonEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -255,11 +258,11 @@ EvosAttacksPointers::
 	dw GothitelleEvosAttacks
 	dw SolosisEvosAttacks
 	dw DuosionEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw ReuniclusEvosAttacks
 	dw DucklettEvosAttacks
 	dw SwannaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw VanilliteEvosAttacks
 	dw VanillishEvosAttacks
 	dw VanilluxeEvosAttacks

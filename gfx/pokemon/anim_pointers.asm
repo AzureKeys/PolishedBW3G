@@ -140,6 +140,9 @@ AnimationPointers:
 	dw RoseliaAnimation
 	dw NumelAnimation
 	dw CameruptAnimation
+	dw TrapinchAnimation
+	dw VibravaAnimation
+	dw FlygonAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw GothitelleAnimation
 	dw SolosisAnimation
 	dw DuosionAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ReuniclusAnimation
 	dw DucklettAnimation
 	dw SwannaAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw VanilliteAnimation
 	dw VanillishAnimation
 	dw VanilluxeAnimation

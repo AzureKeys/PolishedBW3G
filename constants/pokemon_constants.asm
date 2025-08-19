@@ -164,6 +164,9 @@
 	const ROSELIA    ; 98
 	const NUMEL      ; 9b
 	const CAMERUPT   ; 9c
+	const TRAPINCH   ; a0
+	const VIBRAVA    ; a1
+	const FLYGON     ; a2
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const GOTHITELLE ; 145
 	const SOLOSIS    ; 146
 	const DUOSION    ; 147
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const REUNICLUS  ; 148
 	const DUCKLETT   ; 149
 	const SWANNA     ; 14a
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const VANILLITE  ; 14b
 	const VANILLISH  ; 14c
 	const VANILLUXE  ; 14d

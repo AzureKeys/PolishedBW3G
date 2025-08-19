@@ -758,6 +758,20 @@ NumelEggSpeciesMoves:
 	db SCARY_FACE
 	db $ff
 
+TrapinchEggSpeciesMoves:
+	dp TRAPINCH, PLAIN_FORM
+	db BUG_BITE
+	db EARTH_POWER
+	db ENDURE
+	;db FLAIL
+	db FOCUS_ENERGY
+	;db FURY_CUTTER
+	db GUST
+	;db MUD_SHOT
+	db QUICK_ATTACK
+	;db SIGNAL_BEAM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

@@ -140,6 +140,9 @@ FootprintPointers::
 	dw RoseliaFootprint
 	dw NumelFootprint
 	dw CameruptFootprint
+	dw TrapinchFootprint
+	dw VibravaFootprint
+	dw FlygonFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw GothitelleFootprint
 	dw SolosisFootprint
 	dw DuosionFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ReuniclusFootprint
 	dw DucklettFootprint
 	dw SwannaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw VanilliteFootprint
 	dw VanillishFootprint
 	dw VanilluxeFootprint

@@ -144,6 +144,9 @@ PokemonPicPointers::
 	pics Roselia
 	pics Numel
 	pics Camerupt
+	pics Trapinch
+	pics Vibrava
+	pics Flygon
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Gothitelle
 	pics Solosis
 	pics Duosion
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Reuniclus
 	pics Ducklett
 	pics Swanna
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Vanillite
 	pics Vanillish
 	pics Vanilluxe

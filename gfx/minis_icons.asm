@@ -707,6 +707,21 @@ CameruptMini::     INCBIN "gfx/minis/camerupt.2bpp.lz"
 CameruptMiniMask:: INCBIN "gfx/minis/camerupt_mask.1bpp.lz"
 CameruptIcon::     INCBIN "gfx/icons/camerupt.2bpp.lz"
 
+SECTION "Trapinch Mini Icon", ROMX
+TrapinchMini::     INCBIN "gfx/minis/trapinch.2bpp.lz"
+TrapinchMiniMask:: INCBIN "gfx/minis/trapinch_mask.1bpp.lz"
+TrapinchIcon::     INCBIN "gfx/icons/trapinch.2bpp.lz"
+
+SECTION "Vibrava Mini Icon", ROMX
+VibravaMini::     INCBIN "gfx/minis/vibrava.2bpp.lz"
+VibravaMiniMask:: INCBIN "gfx/minis/vibrava_mask.1bpp.lz"
+VibravaIcon::     INCBIN "gfx/icons/vibrava.2bpp.lz"
+
+SECTION "Flygon Mini Icon", ROMX
+FlygonMini::     INCBIN "gfx/minis/flygon.2bpp.lz"
+FlygonMiniMask:: INCBIN "gfx/minis/flygon_mask.1bpp.lz"
+FlygonIcon::     INCBIN "gfx/icons/flygon.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
