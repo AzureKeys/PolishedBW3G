@@ -7,7 +7,8 @@
 	db PECHA_BERRY, LEPPA_BERRY ; held items
 	dn GENDER_F75, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for SKITTY, CUTE_CHARM, NORMALIZE, WONDER_SKIN
+	;abilities_for SKITTY, CUTE_CHARM, NORMALIZE, WONDER_SKIN
+	abilities_for SKITTY, CUTE_CHARM, CUTE_CHARM, WONDER_SKIN
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 

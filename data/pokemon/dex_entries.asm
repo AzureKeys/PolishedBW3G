@@ -1421,6 +1421,26 @@ NosepassPokedexEntry::
 	next "potent in colder"
 	next "seasons.@"
 
+SECTION "SkittyPokedexEntry", ROMX
+SkittyPokedexEntry::
+	db "Kitten@"
+	db "It can't stop"
+	next "from chasing"
+	next "moving things, and"
+	page "it runs in circles"
+	next "while chasing its"
+	next "own tail.@"
+
+SECTION "DelcattyPokedexEntry", ROMX
+DelcattyPokedexEntry::
+	db "Prim@"
+	db "It is highly"
+	next "popular among"
+	next "trainers for its"
+	page "sublime fur. It"
+	next "does not keep a"
+	next "nest.@"
+
 SECTION "MawilePokedexEntry", ROMX
 MawilePokedexEntry::
 	db "Deceiver@"

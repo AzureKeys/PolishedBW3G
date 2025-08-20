@@ -582,6 +582,14 @@ SECTION "Nosepass Pics", ROMX
 NosepassFrontpic: INCBIN "gfx/pokemon/nosepass/front.animated.2bpp.lz"
 NosepassBackpic:  INCBIN "gfx/pokemon/nosepass/back.2bpp.lz"
 
+SECTION "Skitty Pics", ROMX
+SkittyFrontpic: INCBIN "gfx/pokemon/skitty/front.animated.2bpp.lz"
+SkittyBackpic:  INCBIN "gfx/pokemon/skitty/back.2bpp.lz"
+
+SECTION "Delcatty Pics", ROMX
+DelcattyFrontpic: INCBIN "gfx/pokemon/delcatty/front.animated.2bpp.lz"
+DelcattyBackpic:  INCBIN "gfx/pokemon/delcatty/back.2bpp.lz"
+
 SECTION "Mawile Pics", ROMX
 MawileFrontpic: INCBIN "gfx/pokemon/mawile/front.animated.2bpp.lz"
 MawileBackpic:  INCBIN "gfx/pokemon/mawile/back.2bpp.lz"

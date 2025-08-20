@@ -146,6 +146,8 @@ EvosAttacksPointers::
 	dw SlakingEvosAttacks
 	dw AzurillEvosAttacks
 	dw NosepassEvosAttacks
+	dw SkittyEvosAttacks
+	dw DelcattyEvosAttacks
 	dw MawileEvosAttacks
 	dw AronEvosAttacks
 	dw LaironEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw DwebbleEvosAttacks
 	dw CrustleEvosAttacks
 	dw ScraggyEvosAttacks
-	dw ScraftyEvosAttacks
-	dw SigilyphEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw ScraftyEvosAttacks
+	dw SigilyphEvosAttacks
 	dw YamaskPlainEvosAttacks
 	dw CofagrigusEvosAttacks
 	dw TirtougaEvosAttacks

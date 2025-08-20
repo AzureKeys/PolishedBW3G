@@ -185,6 +185,8 @@ SlakothFootprint::
 VigorothFootprint::
 SlakingFootprint::
 NosepassFootprint::
+SkittyFootprint::
+DelcattyFootprint::
 MawileFootprint::
 AronFootprint::
 LaironFootprint::

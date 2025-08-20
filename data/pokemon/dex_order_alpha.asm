@@ -53,6 +53,7 @@ AlphabeticalPokedexOrder:
 	dp DARUMAKA
 	dp DEERLING
 	dp DEINO
+	dp DELCATTY
 	dp DELIBIRD
 	dp DEWGONG
 	dp DEWOTT
@@ -271,6 +272,7 @@ AlphabeticalPokedexOrder:
 	dp SIMISAGE
 	dp SIMISEAR
 	dp SKARMORY
+	dp SKITTY
 	dp SLAKING
 	dp SLAKOTH
 	dp SLOWBRO

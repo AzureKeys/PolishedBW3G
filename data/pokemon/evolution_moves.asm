@@ -146,6 +146,8 @@ endc
 	db NO_MOVE      ; SLAKING
 	db NO_MOVE      ; AZURILL
 	db NO_MOVE      ; NOSEPASS
+	db NO_MOVE      ; SKITTY
+	db NO_MOVE      ; DELCATTY
 	db NO_MOVE      ; MAWILE
 	db NO_MOVE      ; ARON
 	db NO_MOVE      ; LAIRON
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
 	db NO_MOVE      ; SCRAGGY
-	db NO_MOVE      ; SCRAFTY
-	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; SCRAFTY
+	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA

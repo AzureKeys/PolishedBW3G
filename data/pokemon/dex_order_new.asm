@@ -176,6 +176,8 @@ NewPokedexOrder:
 	dp VIGOROTH
 	dp SLAKING
 	dp NOSEPASS
+	dp SKITTY
+	dp DELCATTY
 	dp MAWILE
 	dp ARON
 	dp LAIRON

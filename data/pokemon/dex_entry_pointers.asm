@@ -143,6 +143,8 @@ PokedexDataPointerTable:
 	dba SlakingPokedexEntry
 	dba AzurillPokedexEntry
 	dba NosepassPokedexEntry
+	dba SkittyPokedexEntry
+	dba DelcattyPokedexEntry
 	dba MawilePokedexEntry
 	dba AronPokedexEntry
 	dba LaironPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry
 	dba ScraggyPokedexEntry
-	dba ScraftyPokedexEntry
-	dba SigilyphPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba ScraftyPokedexEntry
+	dba SigilyphPokedexEntry
 	dba YamaskPlainPokedexEntry
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry

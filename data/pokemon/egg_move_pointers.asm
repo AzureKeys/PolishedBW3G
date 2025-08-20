@@ -142,6 +142,8 @@ EggSpeciesMovesPointers::
 	dw SlakothEggSpeciesMoves           ; Slaking
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw NosepassEggSpeciesMoves          ; Nosepass
+	dw SkittyEggSpeciesMoves            ; Skitty
+	dw SkittyEggSpeciesMoves            ; Delcatty
 	dw MawileEggSpeciesMoves            ; Mawile
 	dw AronEggSpeciesMoves              ; Aron
 	dw AronEggSpeciesMoves              ; Lairon
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
 	dw ScraggyEggSpeciesMoves           ; Scraggy
-	dw ScraggyEggSpeciesMoves           ; Scrafty
-	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw ScraggyEggSpeciesMoves           ; Scrafty
+	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga

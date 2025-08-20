@@ -142,6 +142,8 @@ FramesPointers:
 	dw SlakingFrames
 	dw AzurillFrames
 	dw NosepassFrames
+	dw SkittyFrames
+	dw DelcattyFrames
 	dw MawileFrames
 	dw AronFrames
 	dw LaironFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw DwebbleFrames
 	dw CrustleFrames
 	dw ScraggyFrames
-	dw ScraftyFrames
-	dw SigilyphFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ScraftyFrames
+	dw SigilyphFrames
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
 	dw TirtougaFrames

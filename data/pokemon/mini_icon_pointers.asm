@@ -146,6 +146,8 @@ MiniIconPointers:
 	mini_icon Slaking
 	mini_icon Azurill
 	mini_icon Nosepass
+	mini_icon Skitty
+	mini_icon Delcatty
 	mini_icon Mawile
 	mini_icon Aron
 	mini_icon Lairon
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Dwebble
 	mini_icon Crustle
 	mini_icon Scraggy
-	mini_icon Scrafty
-	mini_icon Sigilyph
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Scrafty
+	mini_icon Sigilyph
 	mini_icon Yamask
 	mini_icon Cofagrigus
 	mini_icon Tirtouga

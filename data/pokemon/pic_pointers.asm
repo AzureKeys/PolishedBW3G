@@ -146,6 +146,8 @@ PokemonPicPointers::
 	pics Slaking
 	pics Azurill
 	pics Nosepass
+	pics Skitty
+	pics Delcatty
 	pics Mawile
 	pics Aron
 	pics Lairon
@@ -256,13 +258,13 @@ PokemonPicPointers::
 	pics Dwebble
 	pics Crustle
 	pics Scraggy
-	pics Scrafty
-	pics Sigilyph
-	pics Tirtouga
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Scrafty
+	pics Sigilyph
 	pics YamaskPlain
 	pics Cofagrigus
+	pics Tirtouga
 	pics Carracosta
 	pics Archen
 	pics Archeops

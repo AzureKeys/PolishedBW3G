@@ -142,6 +142,8 @@ AnimationPointers:
 	dw SlakingAnimation
 	dw AzurillAnimation
 	dw NosepassAnimation
+	dw SkittyAnimation
+	dw DelcattyAnimation
 	dw MawileAnimation
 	dw AronAnimation
 	dw LaironAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw DwebbleAnimation
 	dw CrustleAnimation
 	dw ScraggyAnimation
-	dw ScraftyAnimation
-	dw SigilyphAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ScraftyAnimation
+	dw SigilyphAnimation
 	dw YamaskPlainAnimation
 	dw CofagrigusAnimation
 	dw TirtougaAnimation

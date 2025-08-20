@@ -149,6 +149,8 @@ PokemonBodyData:
 	body_data  20, 1305, BIPEDAL,      BROWN  ; SLAKING
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
 	body_data  10,  970, BIPEDAL,      GRAY   ; NOSEPASS
+	body_data   6,  110, QUADRUPED,    PINK   ; SKITTY
+	body_data  11,  326, QUADRUPED,    PURPLE ; DELCATTY
 	body_data   6,  115, BIPEDAL,      BLACK  ; MAWILE
 	body_data   4,  600, QUADRUPED,    GRAY   ; ARON
 	body_data   9, 1200, QUADRUPED,    GRAY   ; LAIRON
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
-	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
-	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
+	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA

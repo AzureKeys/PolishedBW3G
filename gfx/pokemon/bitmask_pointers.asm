@@ -142,6 +142,8 @@ BitmasksPointers:
 	dw SlakingBitmasks
 	dw AzurillBitmasks
 	dw NosepassBitmasks
+	dw SkittyBitmasks
+	dw DelcattyBitmasks
 	dw MawileBitmasks
 	dw AronBitmasks
 	dw LaironBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw DwebbleBitmasks
 	dw CrustleBitmasks
 	dw ScraggyBitmasks
-	dw ScraftyBitmasks
-	dw SigilyphBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw ScraftyBitmasks
+	dw SigilyphBitmasks
 	dw YamaskPlainBitmasks
 	dw CofagrigusBitmasks
 	dw TirtougaBitmasks

@@ -718,6 +718,10 @@ NosepassEggSpeciesMoves:
 	db ROLLOUT
 	db $ff
 
+SkittyEggSpeciesMoves:
+	dp SKITTY, PLAIN_FORM
+	db $ff
+
 MawileEggSpeciesMoves:
 	dp MAWILE, PLAIN_FORM
 	db ANCIENTPOWER

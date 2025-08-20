@@ -3023,6 +3023,31 @@ endc
 	;learnset 43, LOCK_ON
 	learnset 43, ZAP_CANNON
 
+	evos_attacks Skitty
+	evo_data EVOLVE_ITEM, MOON_STONE, DELCATTY
+	learnset 1, CONFUSION ; Psywave
+	learnset 1, DEFENSE_CURL
+	learnset 5, SAFEGUARD ; Lucky Chant
+	learnset 7, REST ; Yawn
+	learnset 11, PSYBEAM
+	learnset 13, REFLECT ; Imprison
+	learnset 17, HEALINGLIGHT ; Moonlight
+	learnset 19, HYPNOSIS
+	learnset 23, ZEN_HEADBUTT
+	learnset 25, EXTRASENSORY ; Synchronoise
+	learnset 29, CURSE ; Nightmare
+	learnset 31, FUTURE_SIGHT
+	learnset 35, CALM_MIND
+	learnset 37, PSYCHIC_M
+	learnset 41, DREAM_EATER
+
+	evos_attacks Delcatty
+	learnset 1, DEFENSE_CURL
+	learnset 1, SAFEGUARD ; Lucky Chant
+	learnset 1, PSYBEAM
+	learnset 1, HYPNOSIS
+	learnset 13, REFLECT ; Imprison
+
 	evos_attacks Mawile
 	learnset 1, PLAY_ROUGH
 	learnset 1, IRON_HEAD

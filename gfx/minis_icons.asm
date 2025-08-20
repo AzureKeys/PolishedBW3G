@@ -717,6 +717,16 @@ NosepassMini::     INCBIN "gfx/minis/nosepass.2bpp.lz"
 NosepassMiniMask:: INCBIN "gfx/minis/nosepass_mask.1bpp.lz"
 NosepassIcon::     INCBIN "gfx/icons/nosepass.2bpp.lz"
 
+SECTION "Skitty Mini Icon", ROMX
+SkittyMini::     INCBIN "gfx/minis/skitty.2bpp.lz"
+SkittyMiniMask:: INCBIN "gfx/minis/skitty_mask.1bpp.lz"
+SkittyIcon::     INCBIN "gfx/icons/skitty.2bpp.lz"
+
+SECTION "Delcatty Mini Icon", ROMX
+DelcattyMini::     INCBIN "gfx/minis/delcatty.2bpp.lz"
+DelcattyMiniMask:: INCBIN "gfx/minis/delcatty_mask.1bpp.lz"
+DelcattyIcon::     INCBIN "gfx/icons/delcatty.2bpp.lz"
+
 SECTION "Mawile Mini Icon", ROMX
 MawileMini::     INCBIN "gfx/minis/mawile.2bpp.lz"
 MawileMiniMask:: INCBIN "gfx/minis/mawile_mask.1bpp.lz"

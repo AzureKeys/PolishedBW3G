@@ -142,6 +142,8 @@ FootprintPointers::
 	dw SlakingFootprint
 	dw AzurillFootprint
 	dw NosepassFootprint
+	dw SkittyFootprint
+	dw DelcattyFootprint
 	dw MawileFootprint
 	dw AronFootprint
 	dw LaironFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw DwebbleFootprint
 	dw CrustleFootprint
 	dw ScraggyFootprint
-	dw ScraftyFootprint
-	dw SigilyphFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw ScraftyFootprint
+	dw SigilyphFootprint
 	dw YamaskFootprint
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
