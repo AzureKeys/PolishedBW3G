@@ -142,6 +142,9 @@ endc
 	db  30, 100 ; Gardevoir
 	db   1,  22 ; Shroomish
 	db  23, 100 ; Breloom
+	db   1,  17 ; Slakoth
+	db  18,  35 ; Vigoroth
+	db  36, 100 ; Slaking
 	db   1,  19 ; Azurill
 	db   1,  29 ; Nosepass
 	db   1, 100 ; Mawile
@@ -256,11 +259,11 @@ endc
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
 	db  20, 100 ; Sigilyph
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  33 ; Yamask
 	db  34, 100 ; Cofagrigus
 	db   1,  36 ; Tirtouga
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  37, 100 ; Carracosta
 	db   1,  36 ; Archen
 	db  37, 100 ; Archeops

@@ -692,6 +692,21 @@ BreloomMini::     INCBIN "gfx/minis/breloom.2bpp.lz"
 BreloomMiniMask:: INCBIN "gfx/minis/breloom_mask.1bpp.lz"
 BreloomIcon::     INCBIN "gfx/icons/breloom.2bpp.lz"
 
+SECTION "Slakoth Mini Icon", ROMX
+SlakothMini::     INCBIN "gfx/minis/slakoth.2bpp.lz"
+SlakothMiniMask:: INCBIN "gfx/minis/slakoth_mask.1bpp.lz"
+SlakothIcon::     INCBIN "gfx/icons/slakoth.2bpp.lz"
+
+SECTION "Vigoroth Mini Icon", ROMX
+VigorothMini::     INCBIN "gfx/minis/vigoroth.2bpp.lz"
+VigorothMiniMask:: INCBIN "gfx/minis/vigoroth_mask.1bpp.lz"
+VigorothIcon::     INCBIN "gfx/icons/vigoroth.2bpp.lz"
+
+SECTION "Slaking Mini Icon", ROMX
+SlakingMini::     INCBIN "gfx/minis/slaking.2bpp.lz"
+SlakingMiniMask:: INCBIN "gfx/minis/slaking_mask.1bpp.lz"
+SlakingIcon::     INCBIN "gfx/icons/slaking.2bpp.lz"
+
 SECTION "Azurill Mini Icon", ROMX
 AzurillMini::     INCBIN "gfx/minis/azurill.2bpp.lz"
 AzurillMiniMask:: INCBIN "gfx/minis/azurill_mask.1bpp.lz"

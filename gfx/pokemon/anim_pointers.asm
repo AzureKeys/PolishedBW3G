@@ -137,6 +137,9 @@ AnimationPointers:
 	dw GardevoirAnimation
 	dw ShroomishAnimation
 	dw BreloomAnimation
+	dw SlakothAnimation
+	dw VigorothAnimation
+	dw SlakingAnimation
 	dw AzurillAnimation
 	dw NosepassAnimation
 	dw MawileAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw ScraggyAnimation
 	dw ScraftyAnimation
 	dw SigilyphAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw YamaskPlainAnimation
 	dw CofagrigusAnimation
 	dw TirtougaAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw CarracostaAnimation
 	dw ArchenAnimation
 	dw ArcheopsAnimation

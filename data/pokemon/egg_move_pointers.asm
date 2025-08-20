@@ -137,6 +137,9 @@ EggSpeciesMovesPointers::
 	dw RaltsEggSpeciesMoves             ; Gardevoir
 	dw ShroomishEggSpeciesMoves         ; Shroomish
 	dw ShroomishEggSpeciesMoves         ; Breloom
+	dw SlakothEggSpeciesMoves           ; Slakoth
+	dw SlakothEggSpeciesMoves           ; Vigoroth
+	dw SlakothEggSpeciesMoves           ; Slaking
 	dw AzurillEggSpeciesMoves           ; Azurill
 	dw NosepassEggSpeciesMoves          ; Nosepass
 	dw MawileEggSpeciesMoves            ; Mawile
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw YamaskPlainEggSpeciesMoves       ; Yamask
 	dw YamaskPlainEggSpeciesMoves       ; Cofagrigus
 	dw TirtougaEggSpeciesMoves          ; Tirtouga
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TirtougaEggSpeciesMoves          ; Carracosta
 	dw ArchenEggSpeciesMoves            ; Archen
 	dw ArchenEggSpeciesMoves            ; Archeops

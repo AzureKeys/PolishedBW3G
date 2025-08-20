@@ -141,6 +141,9 @@ OverworldMonIconColors::
 	iconpal GREEN, AZURE ; GARDEVOIR
 	iconpal GREEN, ORANGE ; SHROOMISH
 	iconpal GREEN, ORANGE ; BRELOOM
+	iconpal BROWN, PINK ; SLAKOTH
+	iconpal WHITE, BROWN ; VIGOROTH
+	iconpal BROWN, ORANGE ; SLAKING
 	iconpal BLUE, GREEN ; AZURILL
 	iconpal BLUE, BROWN ; NOSEPASS
 	iconpal YELLOW, PINK ; MAWILE
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
 	iconpal YELLOW, GREEN ; SIGILYPH
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal YELLOW, GRAY ; YAMASK
 	iconpal YELLOW, GRAY ; COFAGRIGUS
 	iconpal BLUE, TEAL ; TIRTOUGA
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, AZURE ; CARRACOSTA
 	iconpal BROWN, TEAL ; ARCHEN
 	iconpal BROWN, TEAL ; ARCHEOPS

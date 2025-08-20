@@ -181,6 +181,9 @@ KirliaFootprint::
 GardevoirFootprint::
 ShroomishFootprint::
 BreloomFootprint::
+SlakothFootprint::
+VigorothFootprint::
+SlakingFootprint::
 NosepassFootprint::
 MawileFootprint::
 AronFootprint::

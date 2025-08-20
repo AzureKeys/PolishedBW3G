@@ -1372,6 +1372,35 @@ BreloomPokedexEntry::
 	next "technique puts"
 	next "boxers to shame.@"
 
+SECTION "SlakothPokedexEntry", ROMX
+SlakothPokedexEntry::
+	db "Slacker@"
+	db "The way Slakoth"
+	next "lolls around makes"
+	next "anyone who watches"
+	page "it feel like doing"
+	next "the same.@"
+
+SECTION "VigorothPokedexEntry", ROMX
+VigorothPokedexEntry::
+	db "Wild Monkey@"
+	db "It is always"
+	next "hungry because it"
+	next "won't stop raging."
+	page "Even while it is"
+	next "eating, it can't"
+	next "keep still.@"
+
+SECTION "SlakingPokedexEntry", ROMX
+SlakingPokedexEntry::
+	db "Lazy@"
+	db "It is the world's"
+	next "most slothful"
+	next "#mon. However,"
+	page "it can exert"
+	next "horrifying power"
+	next "when it wants.@"
+
 SECTION "AzurillPokedexEntry", ROMX
 AzurillPokedexEntry::
 	db "Polka Dot@"

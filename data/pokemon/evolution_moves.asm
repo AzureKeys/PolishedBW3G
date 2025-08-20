@@ -141,6 +141,9 @@ endc
 	db NO_MOVE      ; GARDEVOIR
 	db NO_MOVE      ; SHROOMISH
 	db MACH_PUNCH   ; BRELOOM
+	db NO_MOVE      ; SLAKOTH
+	db NO_MOVE      ; VIGOROTH
+	db NO_MOVE      ; SLAKING
 	db NO_MOVE      ; AZURILL
 	db NO_MOVE      ; NOSEPASS
 	db NO_MOVE      ; MAWILE
@@ -255,11 +258,11 @@ endc
 	db NO_MOVE      ; SCRAGGY
 	db NO_MOVE      ; SCRAFTY
 	db NO_MOVE      ; SIGILYPH
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; YAMASK
 	db SCARY_FACE   ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS

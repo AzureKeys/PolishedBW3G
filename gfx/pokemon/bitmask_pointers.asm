@@ -137,6 +137,9 @@ BitmasksPointers:
 	dw GardevoirBitmasks
 	dw ShroomishBitmasks
 	dw BreloomBitmasks
+	dw SlakothBitmasks
+	dw VigorothBitmasks
+	dw SlakingBitmasks
 	dw AzurillBitmasks
 	dw NosepassBitmasks
 	dw MawileBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw ScraggyBitmasks
 	dw ScraftyBitmasks
 	dw SigilyphBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw YamaskPlainBitmasks
 	dw CofagrigusBitmasks
 	dw TirtougaBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw CarracostaBitmasks
 	dw ArchenBitmasks
 	dw ArcheopsBitmasks

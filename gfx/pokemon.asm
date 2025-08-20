@@ -562,6 +562,18 @@ SECTION "Breloom Pics", ROMX
 BreloomFrontpic: INCBIN "gfx/pokemon/breloom/front.animated.2bpp.lz"
 BreloomBackpic:  INCBIN "gfx/pokemon/breloom/back.2bpp.lz"
 
+SECTION "Slakoth Pics", ROMX
+SlakothFrontpic: INCBIN "gfx/pokemon/slakoth/front.animated.2bpp.lz"
+SlakothBackpic:  INCBIN "gfx/pokemon/slakoth/back.2bpp.lz"
+
+SECTION "Vigoroth Pics", ROMX
+VigorothFrontpic: INCBIN "gfx/pokemon/vigoroth/front.animated.2bpp.lz"
+VigorothBackpic:  INCBIN "gfx/pokemon/vigoroth/back.2bpp.lz"
+
+SECTION "Slaking Pics", ROMX
+SlakingFrontpic: INCBIN "gfx/pokemon/slaking/front.animated.2bpp.lz"
+SlakingBackpic:  INCBIN "gfx/pokemon/slaking/back.2bpp.lz"
+
 SECTION "Azurill Pics", ROMX
 AzurillFrontpic: INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
 AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"

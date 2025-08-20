@@ -144,6 +144,9 @@ PokemonBodyData:
 	body_data  16,  484, BIPEDAL,      WHITE  ; GARDEVOIR
 	body_data   4,   45, HEAD_LEGS,    BROWN  ; SHROOMISH
 	body_data  12,  392, BIPEDAL_TAIL, GREEN  ; BRELOOM
+	body_data   8,  240, QUADRUPED,    BROWN  ; SLAKOTH
+	body_data  14,  465, BIPEDAL_TAIL, WHITE  ; VIGOROTH
+	body_data  20, 1305, BIPEDAL,      BROWN  ; SLAKING
 	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
 	body_data  10,  970, BIPEDAL,      GRAY   ; NOSEPASS
 	body_data   6,  115, BIPEDAL,      BLACK  ; MAWILE
@@ -258,11 +261,11 @@ PokemonBodyData:
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY
 	body_data  11,  300, BIPEDAL_TAIL, RED    ; SCRAFTY
 	body_data  14,  140, WINGS,        BLACK  ; SIGILYPH
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK
 	body_data  17,  765, HEAD_BASE,    YELLOW ; COFAGRIGUS
 	body_data   7,  165, QUADRUPED,    BLUE   ; TIRTOUGA
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  810, BIPEDAL_TAIL, BLUE   ; CARRACOSTA
 	body_data   5,   95, WINGS,        YELLOW ; ARCHEN
 	body_data  14,  320, WINGS,        YELLOW ; ARCHEOPS

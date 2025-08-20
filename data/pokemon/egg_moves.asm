@@ -694,6 +694,10 @@ ShroomishEggSpeciesMoves:
 	db SEED_BOMB
 	db $ff
 
+SlakothEggSpeciesMoves:
+	dp SLAKOTH, PLAIN_FORM
+	db $ff
+
 AzurillEggSpeciesMoves:
 	dp AZURILL, PLAIN_FORM
 	db BELLY_DRUM

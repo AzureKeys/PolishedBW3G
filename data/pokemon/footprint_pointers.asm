@@ -137,6 +137,9 @@ FootprintPointers::
 	dw GardevoirFootprint
 	dw ShroomishFootprint
 	dw BreloomFootprint
+	dw SlakothFootprint
+	dw VigorothFootprint
+	dw SlakingFootprint
 	dw AzurillFootprint
 	dw NosepassFootprint
 	dw MawileFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw ScraggyFootprint
 	dw ScraftyFootprint
 	dw SigilyphFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw YamaskFootprint
 	dw CofagrigusFootprint
 	dw TirtougaFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw CarracostaFootprint
 	dw ArchenFootprint
 	dw ArcheopsFootprint

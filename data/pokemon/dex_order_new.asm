@@ -172,6 +172,9 @@ NewPokedexOrder:
 	dp GARDEVOIR
 	dp SHROOMISH
 	dp BRELOOM
+	dp SLAKOTH
+	dp VIGOROTH
+	dp SLAKING
 	dp NOSEPASS
 	dp MAWILE
 	dp ARON

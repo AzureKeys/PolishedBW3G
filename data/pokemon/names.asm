@@ -138,6 +138,9 @@ PokemonNames::
 	rawchar "Gardevoir@"
 	rawchar "Shroomish@"
 	rawchar "Breloom@@@"
+	rawchar "Slakoth@@@"
+	rawchar "Vigoroth@@"
+	rawchar "Slaking@@@"
 	rawchar "Azurill@@@"
 	rawchar "Nosepass@@"
 	rawchar "Mawile@@@@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Scraggy@@@"
 	rawchar "Scrafty@@@"
 	rawchar "Sigilyph@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Yamask@@@@"
 	rawchar "Cofagrigus"
 	rawchar "Tirtouga@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Carracosta"
 	rawchar "Archen@@@@"
 	rawchar "Archeops@@"

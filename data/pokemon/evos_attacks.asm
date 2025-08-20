@@ -2931,6 +2931,66 @@ endc
 	learnset 44, SEED_BOMB
 	learnset 50, DYNAMICPUNCH
 
+	evos_attacks Slakoth
+	evo_data EVOLVE_LEVEL, 18, VIGOROTH
+	learnset 1, GROWL
+	learnset 4, CONFUSION
+	learnset 6, DOUBLE_TEAM
+	learnset 11, DISARM_VOICE
+	learnset 14, SUPERSONIC ; Lucky Chant
+	;learnset 17, MAGICAL_LEAF
+	learnset 19, RECOVER ; Heal Pulse
+	learnset 22, DRAINING_KISS
+	learnset 24, CALM_MIND
+	learnset 27, PSYCHIC_M
+	learnset 29, BARRIER ; Imprison
+	learnset 32, FUTURE_SIGHT
+	learnset 34, CHARM
+	learnset 37, HYPNOSIS
+	learnset 39, DREAM_EATER
+	learnset 42, MOONBLAST ; Stored Power
+
+	evos_attacks Vigoroth
+	evo_data EVOLVE_LEVEL, 36, SLAKING
+	learnset 1, GROWL
+	learnset 4, CONFUSION
+	learnset 6, DOUBLE_TEAM
+	learnset 11, DISARM_VOICE
+	learnset 14, SUPERSONIC ; Lucky Chant
+	;learnset 17, MAGICAL_LEAF
+	learnset 19, RECOVER ; Heal Pulse
+	learnset 23, DRAINING_KISS
+	learnset 26, CALM_MIND
+	learnset 30, PSYCHIC_M
+	learnset 33, BARRIER ; Imprison
+	learnset 37, FUTURE_SIGHT
+	learnset 40, CHARM
+	learnset 44, HYPNOSIS
+	learnset 47, DREAM_EATER
+	learnset 51, MOONBLAST ; Stored Power
+
+	evos_attacks Slaking
+	learnset 1, MOONBLAST
+	learnset 1, GROWL
+	learnset 1, CONFUSION
+	learnset 1, DOUBLE_TEAM
+	learnset 1, DISARM_VOICE
+	learnset 4, CONFUSION
+	learnset 6, DOUBLE_TEAM
+	learnset 11, DISARM_VOICE
+	learnset 14, SUPERSONIC ; Lucky Chant
+	;learnset 17, MAGICAL_LEAF
+	learnset 19, RECOVER ; Heal Pulse
+	learnset 23, DRAINING_KISS
+	learnset 26, CALM_MIND
+	learnset 30, PSYCHIC_M
+	learnset 35, BARRIER ; Imprison
+	learnset 40, FUTURE_SIGHT
+	learnset 44, CHARM
+	learnset 49, HYPNOSIS
+	learnset 53, DREAM_EATER
+	learnset 58, MOONBLAST ; Stored Power
+
 	evos_attacks Azurill
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
 	learnset 1, SPLASH

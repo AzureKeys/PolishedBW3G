@@ -141,6 +141,9 @@ EvosAttacksPointers::
 	dw GardevoirEvosAttacks
 	dw ShroomishEvosAttacks
 	dw BreloomEvosAttacks
+	dw SlakothEvosAttacks
+	dw VigorothEvosAttacks
+	dw SlakingEvosAttacks
 	dw AzurillEvosAttacks
 	dw NosepassEvosAttacks
 	dw MawileEvosAttacks
@@ -255,11 +258,11 @@ EvosAttacksPointers::
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw SigilyphEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw YamaskPlainEvosAttacks
 	dw CofagrigusEvosAttacks
 	dw TirtougaEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw CarracostaEvosAttacks
 	dw ArchenEvosAttacks
 	dw ArcheopsEvosAttacks

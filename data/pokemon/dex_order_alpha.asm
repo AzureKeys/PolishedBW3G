@@ -271,6 +271,8 @@ AlphabeticalPokedexOrder:
 	dp SIMISAGE
 	dp SIMISEAR
 	dp SKARMORY
+	dp SLAKING
+	dp SLAKOTH
 	dp SLOWBRO
 	dp SLOWKING
 	dp SLOWPOKE
@@ -321,6 +323,7 @@ AlphabeticalPokedexOrder:
 	dp VENIPEDE
 	dp VIBRAVA
 	dp VICTINI
+	dp VIGOROTH
 	dp VIRIZION
 	dp VOLCARONA
 	dp VULLABY

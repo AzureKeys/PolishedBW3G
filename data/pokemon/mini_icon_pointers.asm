@@ -141,6 +141,9 @@ MiniIconPointers:
 	mini_icon Gardevoir
 	mini_icon Shroomish
 	mini_icon Breloom
+	mini_icon Slakoth
+	mini_icon Vigoroth
+	mini_icon Slaking
 	mini_icon Azurill
 	mini_icon Nosepass
 	mini_icon Mawile
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Scraggy
 	mini_icon Scrafty
 	mini_icon Sigilyph
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Yamask
 	mini_icon Cofagrigus
 	mini_icon Tirtouga
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Carracosta
 	mini_icon Archen
 	mini_icon Archeops

@@ -137,6 +137,9 @@ FramesPointers:
 	dw GardevoirFrames
 	dw ShroomishFrames
 	dw BreloomFrames
+	dw SlakothFrames
+	dw VigorothFrames
+	dw SlakingFrames
 	dw AzurillFrames
 	dw NosepassFrames
 	dw MawileFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw ScraggyFrames
 	dw ScraftyFrames
 	dw SigilyphFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw YamaskPlainFrames
 	dw CofagrigusFrames
 	dw TirtougaFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw CarracostaFrames
 	dw ArchenFrames
 	dw ArcheopsFrames

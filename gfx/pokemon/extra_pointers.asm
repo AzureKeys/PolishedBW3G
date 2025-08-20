@@ -137,6 +137,9 @@ AnimationExtraPointers:
 	dw GardevoirAnimationExtra
 	dw ShroomishAnimationExtra
 	dw BreloomAnimationExtra
+	dw SlakothAnimationExtra
+	dw VigorothAnimationExtra
+	dw SlakingAnimationExtra
 	dw AzurillAnimationExtra
 	dw NosepassAnimationExtra
 	dw MawileAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw ScraggyAnimationExtra
 	dw ScraftyAnimationExtra
 	dw SigilyphAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw YamaskPlainAnimationExtra
 	dw CofagrigusAnimationExtra
 	dw TirtougaAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw CarracostaAnimationExtra
 	dw ArchenAnimationExtra
 	dw ArcheopsAnimationExtra

@@ -141,6 +141,9 @@ PokemonPicPointers::
 	pics Gardevoir
 	pics Shroomish
 	pics Breloom
+	pics Slakoth
+	pics Vigoroth
+	pics Slaking
 	pics Azurill
 	pics Nosepass
 	pics Mawile
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Scraggy
 	pics Scrafty
 	pics Sigilyph
-	pics YamaskPlain
-	pics Cofagrigus
 	pics Tirtouga
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics YamaskPlain
+	pics Cofagrigus
 	pics Carracosta
 	pics Archen
 	pics Archeops

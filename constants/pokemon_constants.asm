@@ -161,6 +161,9 @@
 	const GARDEVOIR  ; 87
 	const SHROOMISH  ; 88
 	const BRELOOM    ; 89
+	const SLAKOTH    ; 8a
+	const VIGOROTH   ; 8b
+	const SLAKING    ; 8c
 	const AZURILL    ; 8d
 	const NOSEPASS   ; 8e
 	const MAWILE     ; 92
@@ -275,11 +278,11 @@
 	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
 	const SIGILYPH   ; 136
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const YAMASK     ; 137
 	const COFAGRIGUS ; 138
 	const TIRTOUGA   ; 139
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const CARRACOSTA ; 13a
 	const ARCHEN     ; 13b
 	const ARCHEOPS   ; 13c

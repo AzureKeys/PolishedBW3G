@@ -143,6 +143,9 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,   $f22,  $163 ; Gardevoir
 	mon_cry CRY_CHARMANDER,  $120,  $090 ; Shroomish
 	mon_cry CRY_BELLOSSOM,   $760,  $0a0 ; Breloom
+	mon_cry CRY_GLIGAR,      $550,  $090 ; Slakoth
+	mon_cry CRY_EKANS,       $f12,  $0d0 ; Vigoroth
+	mon_cry CRY_BELLOSSOM,   $c5d,  $138 ; Slaking
 	mon_cry CRY_MARILL,      $124,  $0d0 ; Azurill
 	mon_cry CRY_MUDKIP,      $125,  $1c4 ; Nosepass
 	mon_cry CRY_KRABBY,     -$2c4,  $0a0 ; Mawile
@@ -257,11 +260,11 @@ PokemonCries::
 	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; Scraggy
 	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; Scrafty
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_YAMASK,      $010,  $128 ; Yamask
 	mon_cry CRY_YAMASK,     -$320,  $15a ; Cofagrigus
 	mon_cry CRY_TIRTOUGA,    $056,  $0c4 ; Tirtouga
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_WHIMSICOTT, -$1f9,  $130 ; Carracosta
 	mon_cry CRY_NIDORAN_M,   $017,  $0d0 ; Archen
 	mon_cry CRY_WHIMSICOTT,  $05b,  $0b7 ; Archeops

@@ -138,6 +138,9 @@ PokedexDataPointerTable:
 	dba GardevoirPokedexEntry
 	dba ShroomishPokedexEntry
 	dba BreloomPokedexEntry
+	dba SlakothPokedexEntry
+	dba VigorothPokedexEntry
+	dba SlakingPokedexEntry
 	dba AzurillPokedexEntry
 	dba NosepassPokedexEntry
 	dba MawilePokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
 	dba SigilyphPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba YamaskPlainPokedexEntry
 	dba CofagrigusPokedexEntry
 	dba TirtougaPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba CarracostaPokedexEntry
 	dba ArchenPokedexEntry
 	dba ArcheopsPokedexEntry
