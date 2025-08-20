@@ -207,6 +207,8 @@ VibravaFootprint::
 FlygonFootprint::
 SwabluFootprint::
 AltariaFootprint::
+ZangooseFootprint::
+SeviperFootprint::
 CorphishFootprint::
 CrawdauntFootprint::
 BaltoyFootprint::

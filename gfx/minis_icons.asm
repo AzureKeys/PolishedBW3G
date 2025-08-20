@@ -827,6 +827,16 @@ AltariaMini::     INCBIN "gfx/minis/altaria.2bpp.lz"
 AltariaMiniMask:: INCBIN "gfx/minis/altaria_mask.1bpp.lz"
 AltariaIcon::     INCBIN "gfx/icons/altaria.2bpp.lz"
 
+SECTION "Zangoose Mini Icon", ROMX
+ZangooseMini::     INCBIN "gfx/minis/zangoose.2bpp.lz"
+ZangooseMiniMask:: INCBIN "gfx/minis/zangoose_mask.1bpp.lz"
+ZangooseIcon::     INCBIN "gfx/icons/zangoose.2bpp.lz"
+
+SECTION "Seviper Mini Icon", ROMX
+SeviperMini::     INCBIN "gfx/minis/seviper.2bpp.lz"
+SeviperMiniMask:: INCBIN "gfx/minis/seviper_mask.1bpp.lz"
+SeviperIcon::     INCBIN "gfx/icons/seviper.2bpp.lz"
+
 SECTION "Corphish Mini Icon", ROMX
 CorphishMini::     INCBIN "gfx/minis/corphish.2bpp.lz"
 CorphishMiniMask:: INCBIN "gfx/minis/corphish_mask.1bpp.lz"

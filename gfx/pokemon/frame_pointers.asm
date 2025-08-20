@@ -164,6 +164,8 @@ FramesPointers:
 	dw FlygonFrames
 	dw SwabluFrames
 	dw AltariaFrames
+	dw ZangooseFrames
+	dw SeviperFrames
 	dw CorphishFrames
 	dw CrawdauntFrames
 	dw BaltoyFrames
@@ -252,9 +254,9 @@ FramesPointers:
 	dw LilligantPlainFrames
 	dw BasculinWhiteFrames
 	dw SandileFrames
-	dw KrokorokFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw KrokorokFrames
 	dw KrookodileFrames
 	dw DarumakaPlainFrames
 	dw DarmanitanPlainFrames

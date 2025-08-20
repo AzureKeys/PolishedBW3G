@@ -164,6 +164,8 @@ FootprintPointers::
 	dw FlygonFootprint
 	dw SwabluFootprint
 	dw AltariaFootprint
+	dw ZangooseFootprint
+	dw SeviperFootprint
 	dw CorphishFootprint
 	dw CrawdauntFootprint
 	dw BaltoyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw LilligantFootprint
 	dw BasculinFootprint
 	dw SandileFootprint
-	dw KrokorokFootprint
-	dw KrookodileFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw KrokorokFootprint
+	dw KrookodileFootprint
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
 	dw MaractusFootprint

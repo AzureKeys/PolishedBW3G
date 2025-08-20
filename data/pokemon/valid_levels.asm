@@ -169,6 +169,8 @@ endc
 	db  45, 100 ; Flygon
 	db   1,  34 ; Swablu
 	db  35, 100 ; Altaria
+	db  30, 100 ; Zangoose
+	db  30, 100 ; Seviper
 	db   1,  29 ; Corphish
 	db  30, 100 ; Crawdaunt
 	db   1,  35 ; Baltoy
@@ -257,10 +259,10 @@ endc
 	db  30, 100 ; Lilligant
 	db  15, 100 ; Basculin
 	db   1,  28 ; Sandile
-	db  29,  39 ; Krokorok
-	db  40, 100 ; Krookodile
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  29,  39 ; Krokorok
+	db  40, 100 ; Krookodile
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus

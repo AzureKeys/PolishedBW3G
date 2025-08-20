@@ -165,6 +165,8 @@ PokedexDataPointerTable:
 	dba FlygonPokedexEntry
 	dba SwabluPokedexEntry
 	dba AltariaPokedexEntry
+	dba ZangoosePokedexEntry
+	dba SeviperPokedexEntry
 	dba CorphishPokedexEntry
 	dba CrawdauntPokedexEntry
 	dba BaltoyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba LilligantPlainPokedexEntry
 	dba BasculinWhitePokedexEntry
 	dba SandilePokedexEntry
-	dba KrokorokPokedexEntry
-	dba KrookodilePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba KrokorokPokedexEntry
+	dba KrookodilePokedexEntry
 	dba DarumakaPlainPokedexEntry
 	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry

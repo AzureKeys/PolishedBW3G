@@ -168,6 +168,8 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; FLYGON
 	iconpal BLUE, BROWN ; SWABLU
 	iconpal BLUE, BROWN ; ALTARIA
+	iconpal RED, BLUE ; ZANGOOSE
+	iconpal YELLOW, GREEN ; SEVIPER
 	iconpal RED, PINK ; CORPHISH
 	iconpal RED, ORANGE ; CRAWDAUNT
 	iconpal BROWN, GREEN ; BALTOY
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal GREEN, TEAL ; LILLIGANT
 	iconpal GREEN, TEAL ; BASCULIN
 	iconpal BROWN, YELLOW ; SANDILE
-	iconpal BROWN, YELLOW ; KROKOROK
-	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal BROWN, YELLOW ; KROKOROK
+	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN
 	iconpal GREEN, BROWN ; MARACTUS

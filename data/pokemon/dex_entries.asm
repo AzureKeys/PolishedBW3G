@@ -1640,6 +1640,26 @@ AltariaPokedexEntry::
 	next "the singing of"
 	next "an Altaria.@"
 
+SECTION "ZangoosePokedexEntry", ROMX
+ZangoosePokedexEntry::
+	db "Cat Ferret@"
+	db "It's Seviper's arch"
+	next "rival. It fans out"
+	next "the claws on its"
+	page "front paws to"
+	next "threaten those it"
+	next "encounters.@"
+
+SECTION "SeviperPokedexEntry", ROMX
+SeviperPokedexEntry::
+	db "Fang Snake@"
+	db "Constant polishing"
+	next "makes the edge of"
+	next "the blade on its"
+	page "tail extremely"
+	next "sharp. It is"
+	next "Zangoose's rival.@"
+
 SECTION "CorphishPokedexEntry", ROMX
 CorphishPokedexEntry::
 	db "Ruffian@"

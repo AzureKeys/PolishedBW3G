@@ -670,6 +670,14 @@ SECTION "Altaria Pics", ROMX
 AltariaFrontpic: INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
 AltariaBackpic:  INCBIN "gfx/pokemon/altaria/back.2bpp.lz"
 
+SECTION "Zangoose Pics", ROMX
+ZangooseFrontpic: INCBIN "gfx/pokemon/zangoose/front.animated.2bpp.lz"
+ZangooseBackpic:  INCBIN "gfx/pokemon/zangoose/back.2bpp.lz"
+
+SECTION "Seviper Pics", ROMX
+SeviperFrontpic: INCBIN "gfx/pokemon/seviper/front.animated.2bpp.lz"
+SeviperBackpic:  INCBIN "gfx/pokemon/seviper/back.2bpp.lz"
+
 SECTION "Corphish Pics", ROMX
 CorphishFrontpic: INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
 CorphishBackpic:  INCBIN "gfx/pokemon/corphish/back.2bpp.lz"

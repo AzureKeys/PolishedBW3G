@@ -264,6 +264,7 @@ AlphabeticalPokedexOrder:
 	dp SEISMITOAD
 	dp SERPERIOR
 	dp SERVINE
+	dp SEVIPER
 	dp SEWADDLE
 	dp SHELMET
 	dp SHIFTRY
@@ -347,6 +348,7 @@ AlphabeticalPokedexOrder:
 	dp YAMASK
 	dp YANMA
 	dp YANMEGA
+	dp ZANGOOSE
 	dp ZEBSTRIKA
 	dp ZEKROM
 	dp ZOROARK

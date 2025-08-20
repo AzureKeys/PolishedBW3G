@@ -198,6 +198,8 @@ NewPokedexOrder:
 	dp FLYGON
 	dp SWABLU
 	dp ALTARIA
+	dp ZANGOOSE
+	dp SEVIPER
 	dp CORPHISH
 	dp CRAWDAUNT
 	dp BALTOY

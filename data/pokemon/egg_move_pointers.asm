@@ -164,6 +164,8 @@ EggSpeciesMovesPointers::
 	dw TrapinchEggSpeciesMoves          ; Flygon
 	dw SwabluEggSpeciesMoves            ; Swablu
 	dw SwabluEggSpeciesMoves            ; Altaria
+	dw ZangooseEggSpeciesMoves          ; Zangoose
+	dw SeviperEggSpeciesMoves           ; Seviper
 	dw CorphishEggSpeciesMoves          ; Corphish
 	dw CorphishEggSpeciesMoves          ; Crawdaunt
 	dw BaltoyEggSpeciesMoves            ; Baltoy
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw PetililEggSpeciesMoves           ; Lilligant
 	dw BasculinEggSpeciesMoves          ; Basculin
 	dw SandileEggSpeciesMoves           ; Sandile
-	dw SandileEggSpeciesMoves           ; Krokorok
-	dw SandileEggSpeciesMoves           ; Krookodile
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw SandileEggSpeciesMoves           ; Krokorok
+	dw SandileEggSpeciesMoves           ; Krookodile
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
 	dw MaractusEggSpeciesMoves          ; Maractus

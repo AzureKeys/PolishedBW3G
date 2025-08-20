@@ -168,6 +168,8 @@ PokemonPicPointers::
 	pics Flygon
 	pics Swablu
 	pics Altaria
+	pics Zangoose
+	pics Seviper
 	pics Corphish
 	pics Crawdaunt
 	pics Baltoy
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics LilligantPlain
 	pics BasculinWhite
 	pics Sandile
-	pics Krokorok
-	pics Krookodile
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Krokorok
+	pics Krookodile
 	pics DarumakaPlain
 	pics DarmanitanPlain
 	pics Maractus

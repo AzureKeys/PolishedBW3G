@@ -188,6 +188,8 @@
 	const FLYGON     ; a2
 	const SWABLU     ; a3
 	const ALTARIA    ; a4
+	const ZANGOOSE   ; a5
+	const SEVIPER    ; a6
 	const CORPHISH   ; a9
 	const CRAWDAUNT  ; aa
 	const BALTOY     ; ab

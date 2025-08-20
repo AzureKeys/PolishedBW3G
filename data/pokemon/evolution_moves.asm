@@ -168,6 +168,8 @@ endc
 	db DRAGON_CLAW  ; FLYGON
 	db NO_MOVE      ; SWABLU
 	db DRAGONBREATH ; ALTARIA
+	db NO_MOVE      ; ZANGOOSE
+	db NO_MOVE      ; SEVIPER
 	db NO_MOVE      ; CORPHISH
 	db SWIFT        ; CRAWDAUNT
 	db NO_MOVE      ; BALTOY
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
 	db NO_MOVE      ; SANDILE
-	db NO_MOVE      ; KROKOROK
-	db NO_MOVE      ; KROOKODILE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; KROKOROK
+	db NO_MOVE      ; KROOKODILE
 	db NO_MOVE      ; DARUMAKA
 	db NO_MOVE      ; DARMANITAN
 	db NO_MOVE      ; MARACTUS

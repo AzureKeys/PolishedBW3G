@@ -818,6 +818,14 @@ SwabluEggSpeciesMoves:
 	db STEEL_WING
 	db $ff
 
+ZangooseEggSpeciesMoves:
+	dp ZANGOOSE, PLAIN_FORM
+	db $ff
+
+SeviperEggSpeciesMoves:
+	dp SEVIPER, PLAIN_FORM
+	db $ff
+
 CorphishEggSpeciesMoves:
 	dp CORPHISH, PLAIN_FORM
 	db ANCIENTPOWER

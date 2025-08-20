@@ -168,6 +168,8 @@ MiniIconPointers:
 	mini_icon Flygon
 	mini_icon Swablu
 	mini_icon Altaria
+	mini_icon Zangoose
+	mini_icon Seviper
 	mini_icon Corphish
 	mini_icon Crawdaunt
 	mini_icon Baltoy
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Lilligant
 	mini_icon Basculin
 	mini_icon Sandile
-	mini_icon Krokorok
-	mini_icon Krookodile
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Krokorok
+	mini_icon Krookodile
 	mini_icon Darumaka
 	mini_icon Darmanitan
 	mini_icon Maractus

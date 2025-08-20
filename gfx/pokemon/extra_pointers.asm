@@ -164,6 +164,8 @@ AnimationExtraPointers:
 	dw FlygonAnimationExtra
 	dw SwabluAnimationExtra
 	dw AltariaAnimationExtra
+	dw ZangooseAnimationExtra
+	dw SeviperAnimationExtra
 	dw CorphishAnimationExtra
 	dw CrawdauntAnimationExtra
 	dw BaltoyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw LilligantPlainAnimationExtra
 	dw BasculinWhiteAnimationExtra
 	dw SandileAnimationExtra
-	dw KrokorokAnimationExtra
-	dw KrookodileAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw KrokorokAnimationExtra
+	dw KrookodileAnimationExtra
 	dw DarumakaPlainAnimationExtra
 	dw DarmanitanPlainAnimationExtra
 	dw MaractusAnimationExtra
