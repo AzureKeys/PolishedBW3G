@@ -157,6 +157,7 @@ PokedexDataPointerTable:
 	dba WailordPokedexEntry
 	dba NumelPokedexEntry
 	dba CameruptPokedexEntry
+	dba TorkoalPokedexEntry
 	dba TrapinchPokedexEntry
 	dba VibravaPokedexEntry
 	dba FlygonPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba KrookodilePokedexEntry
 	dba DarumakaPlainPokedexEntry
 	dba DarmanitanPlainPokedexEntry
-	dba MaractusPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba MaractusPokedexEntry
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry
 	dba ScraggyPokedexEntry

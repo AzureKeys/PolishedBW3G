@@ -160,6 +160,7 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; WAILORD
 	iconpal GREEN, AZURE ; NUMEL
 	iconpal RED, YELLOW ; CAMERUPT
+	iconpal RED, ORANGE ; TORKOAL
 	iconpal ORANGE, GRAY ; TRAPINCH
 	iconpal GREEN, ORANGE ; VIBRAVA
 	iconpal GREEN, BLUE ; FLYGON
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; KROOKODILE
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN
-	iconpal GREEN, BROWN ; MARACTUS
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal GREEN, BROWN ; MARACTUS
 	iconpal ORANGE, RED ; DWEBBLE
 	iconpal ORANGE, GREEN ; CRUSTLE
 	iconpal ORANGE, RED ; SCRAGGY

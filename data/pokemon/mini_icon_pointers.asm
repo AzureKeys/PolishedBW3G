@@ -160,6 +160,7 @@ MiniIconPointers:
 	mini_icon Wailord
 	mini_icon Numel
 	mini_icon Camerupt
+	mini_icon Torkoal
 	mini_icon Trapinch
 	mini_icon Vibrava
 	mini_icon Flygon
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Krookodile
 	mini_icon Darumaka
 	mini_icon Darmanitan
-	mini_icon Maractus
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Maractus
 	mini_icon Dwebble
 	mini_icon Crustle
 	mini_icon Scraggy

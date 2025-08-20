@@ -156,6 +156,7 @@ EggSpeciesMovesPointers::
 	dw WailmerEggSpeciesMoves           ; Wailord
 	dw NumelEggSpeciesMoves             ; Numel
 	dw NumelEggSpeciesMoves             ; Camerupt
+	dw TorkoalEggSpeciesMoves           ; Torkoal
 	dw TrapinchEggSpeciesMoves          ; Trapinch
 	dw TrapinchEggSpeciesMoves          ; Vibrava
 	dw TrapinchEggSpeciesMoves          ; Flygon
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw SandileEggSpeciesMoves           ; Krookodile
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
-	dw MaractusEggSpeciesMoves          ; Maractus
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw MaractusEggSpeciesMoves          ; Maractus
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
 	dw ScraggyEggSpeciesMoves           ; Scraggy

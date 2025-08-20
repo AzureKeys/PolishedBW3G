@@ -1561,6 +1561,16 @@ CameruptPokedexEntry::
 	next "sometimes blast"
 	next "out molten magma.@"
 
+SECTION "TorkoalPokedexEntry", ROMX
+TorkoalPokedexEntry::
+	db "Coal@"
+	db "It burns coal"
+	next "inside its shell"
+	next "for energy. It"
+	page "blows out black"
+	next "soot if it is"
+	next "endangered.@"
+
 SECTION "TrapinchPokedexEntry", ROMX
 TrapinchPokedexEntry::
 	db "Ant Pit@"

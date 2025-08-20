@@ -787,6 +787,11 @@ CameruptMini::     INCBIN "gfx/minis/camerupt.2bpp.lz"
 CameruptMiniMask:: INCBIN "gfx/minis/camerupt_mask.1bpp.lz"
 CameruptIcon::     INCBIN "gfx/icons/camerupt.2bpp.lz"
 
+SECTION "Torkoal Mini Icon", ROMX
+TorkoalMini::     INCBIN "gfx/minis/torkoal.2bpp.lz"
+TorkoalMiniMask:: INCBIN "gfx/minis/torkoal_mask.1bpp.lz"
+TorkoalIcon::     INCBIN "gfx/icons/torkoal.2bpp.lz"
+
 SECTION "Trapinch Mini Icon", ROMX
 TrapinchMini::     INCBIN "gfx/minis/trapinch.2bpp.lz"
 TrapinchMiniMask:: INCBIN "gfx/minis/trapinch_mask.1bpp.lz"

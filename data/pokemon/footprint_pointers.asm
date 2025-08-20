@@ -156,6 +156,7 @@ FootprintPointers::
 	dw WailordFootprint
 	dw NumelFootprint
 	dw CameruptFootprint
+	dw TorkoalFootprint
 	dw TrapinchFootprint
 	dw VibravaFootprint
 	dw FlygonFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw KrookodileFootprint
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
-	dw MaractusFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw MaractusFootprint
 	dw DwebbleFootprint
 	dw CrustleFootprint
 	dw ScraggyFootprint

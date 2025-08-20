@@ -638,6 +638,10 @@ SECTION "Camerupt Pics", ROMX
 CameruptFrontpic: INCBIN "gfx/pokemon/camerupt/front.animated.2bpp.lz"
 CameruptBackpic:  INCBIN "gfx/pokemon/camerupt/back.2bpp.lz"
 
+SECTION "Torkoal Pics", ROMX
+TorkoalFrontpic: INCBIN "gfx/pokemon/torkoal/front.animated.2bpp.lz"
+TorkoalBackpic:  INCBIN "gfx/pokemon/torkoal/back.2bpp.lz"
+
 SECTION "Trapinch Pics", ROMX
 TrapinchFrontpic: INCBIN "gfx/pokemon/trapinch/front.animated.2bpp.lz"
 TrapinchBackpic:  INCBIN "gfx/pokemon/trapinch/back.2bpp.lz"

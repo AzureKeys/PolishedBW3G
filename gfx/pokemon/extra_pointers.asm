@@ -156,6 +156,7 @@ AnimationExtraPointers:
 	dw WailordAnimationExtra
 	dw NumelAnimationExtra
 	dw CameruptAnimationExtra
+	dw TorkoalAnimationExtra
 	dw TrapinchAnimationExtra
 	dw VibravaAnimationExtra
 	dw FlygonAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw KrookodileAnimationExtra
 	dw DarumakaPlainAnimationExtra
 	dw DarmanitanPlainAnimationExtra
-	dw MaractusAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw MaractusAnimationExtra
 	dw DwebbleAnimationExtra
 	dw CrustleAnimationExtra
 	dw ScraggyAnimationExtra

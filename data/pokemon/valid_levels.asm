@@ -149,8 +149,8 @@ endc
 	db   1,  29 ; Nosepass
 	db   1,  19 ; Skitty
 	db  20, 100 ; Delcatty
-	db  15, 100 ; Sableye
-	db  15, 100 ; Mawile
+	db  20, 100 ; Sableye
+	db  20, 100 ; Mawile
 	db   1,  31 ; Aron
 	db  32,  41 ; Lairon
 	db  42, 100 ; Aggron
@@ -161,6 +161,7 @@ endc
 	db  40, 100 ; Wailord
 	db   1,  32 ; Numel
 	db  33, 100 ; Camerupt
+	db  30, 100 ; Torkoal
 	db   1,  34 ; Trapinch
 	db  35,  44 ; Vibrava
 	db  45, 100 ; Flygon
@@ -258,9 +259,9 @@ endc
 	db  40, 100 ; Krookodile
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan
-	db  15, 100 ; Maractus
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  15, 100 ; Maractus
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle
 	db   1,  38 ; Scraggy

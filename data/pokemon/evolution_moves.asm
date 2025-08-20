@@ -160,6 +160,7 @@ endc
 	db NO_MOVE      ; WAILORD
 	db NO_MOVE      ; NUMEL
 	db ROCK_SLIDE   ; CAMERUPT
+	db NO_MOVE      ; TORKOAL
 	db NO_MOVE      ; TRAPINCH
 	db DRAGONBREATH ; VIBRAVA
 	db DRAGON_CLAW  ; FLYGON
@@ -257,9 +258,9 @@ endc
 	db NO_MOVE      ; KROOKODILE
 	db NO_MOVE      ; DARUMAKA
 	db NO_MOVE      ; DARMANITAN
-	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
 	db NO_MOVE      ; SCRAGGY

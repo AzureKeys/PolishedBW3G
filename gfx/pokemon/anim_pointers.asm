@@ -156,6 +156,7 @@ AnimationPointers:
 	dw WailordAnimation
 	dw NumelAnimation
 	dw CameruptAnimation
+	dw TorkoalAnimation
 	dw TrapinchAnimation
 	dw VibravaAnimation
 	dw FlygonAnimation
@@ -253,9 +254,9 @@ AnimationPointers:
 	dw KrookodileAnimation
 	dw DarumakaPlainAnimation
 	dw DarmanitanPlainAnimation
-	dw MaractusAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw MaractusAnimation
 	dw DwebbleAnimation
 	dw CrustleAnimation
 	dw ScraggyAnimation

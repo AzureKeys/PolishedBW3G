@@ -199,6 +199,7 @@ WailmerFootprint::
 WailordFootprint::
 NumelFootprint::
 CameruptFootprint::
+TorkoalFootprint::
 TrapinchFootprint::
 VibravaFootprint::
 FlygonFootprint::

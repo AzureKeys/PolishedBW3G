@@ -786,6 +786,10 @@ NumelEggSpeciesMoves:
 	db SCARY_FACE
 	db $ff
 
+TorkoalEggSpeciesMoves:
+	dp TORKOAL, PLAIN_FORM
+	db $ff
+
 TrapinchEggSpeciesMoves:
 	dp TRAPINCH, PLAIN_FORM
 	db BUG_BITE

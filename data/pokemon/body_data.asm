@@ -163,6 +163,7 @@ PokemonBodyData:
 	body_data 145, 3980, FINS,         BLUE   ; WAILORD
 	body_data   7,  240, QUADRUPED,    YELLOW ; NUMEL
 	body_data  19, 2200, QUADRUPED,    RED    ; CAMERUPT
+	body_data   5,  804, QUADRUPED,    BROWN  ; TORKOAL
 	body_data   7,  150, INSECTOID,    BROWN  ; TRAPINCH
 	body_data  11,  153, WINGS,        GREEN  ; VIBRAVA
 	body_data  20,  820, WINGS,        GREEN  ; FLYGON
@@ -260,9 +261,9 @@ PokemonBodyData:
 	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA
 	body_data  13,  929, QUADRUPED,    RED    ; DARMANITAN
-	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  10,  280, HEAD_BASE,    GREEN  ; MARACTUS
 	body_data   3,  145, INSECTOID,    RED    ; DWEBBLE
 	body_data  14, 2000, INSECTOID,    RED    ; CRUSTLE
 	body_data   6,  118, BIPEDAL_TAIL, YELLOW ; SCRAGGY

@@ -310,6 +310,7 @@ AlphabeticalPokedexOrder:
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC
+	dp TORKOAL
 	dp TORNADUS
 	dp TRANQUILL
 	dp TRAPINCH

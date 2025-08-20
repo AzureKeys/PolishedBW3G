@@ -180,6 +180,7 @@
 	const WAILORD    ; 9a
 	const NUMEL      ; 9b
 	const CAMERUPT   ; 9c
+	const TORKOAL    ; 9d
 	const TRAPINCH   ; a0
 	const VIBRAVA    ; a1
 	const FLYGON     ; a2
@@ -277,9 +278,9 @@
 	const KROOKODILE ; 12e
 	const DARUMAKA   ; 12f
 	const DARMANITAN ; 130
-	const MARACTUS   ; 131
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const MARACTUS   ; 131
 	const DWEBBLE    ; 132
 	const CRUSTLE    ; 133
 	const SCRAGGY    ; 134

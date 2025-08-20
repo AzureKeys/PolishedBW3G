@@ -160,6 +160,7 @@ EvosAttacksPointers::
 	dw WailordEvosAttacks
 	dw NumelEvosAttacks
 	dw CameruptEvosAttacks
+	dw TorkoalEvosAttacks
 	dw TrapinchEvosAttacks
 	dw VibravaEvosAttacks
 	dw FlygonEvosAttacks
@@ -257,9 +258,9 @@ EvosAttacksPointers::
 	dw KrookodileEvosAttacks
 	dw DarumakaPlainEvosAttacks
 	dw DarmanitanPlainEvosAttacks
-	dw MaractusEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw MaractusEvosAttacks
 	dw DwebbleEvosAttacks
 	dw CrustleEvosAttacks
 	dw ScraggyEvosAttacks

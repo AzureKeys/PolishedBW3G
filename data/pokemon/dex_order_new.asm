@@ -190,6 +190,7 @@ NewPokedexOrder:
 	dp WAILORD
 	dp NUMEL
 	dp CAMERUPT
+	dp TORKOAL
 	dp TRAPINCH
 	dp VIBRAVA
 	dp FLYGON

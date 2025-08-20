@@ -157,6 +157,7 @@ PokemonNames::
 	rawchar "Wailord@@@"
 	rawchar "Numel@@@@@"
 	rawchar "Camerupt@@"
+	rawchar "Torkoal@@@"
 	rawchar "Trapinch@@"
 	rawchar "Vibrava@@@"
 	rawchar "Flygon@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Krookodile"
 	rawchar "Darumaka@@"
 	rawchar "Darmanitan"
-	rawchar "Maractus@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Maractus@@"
 	rawchar "Dwebble@@@"
 	rawchar "Crustle@@@"
 	rawchar "Scraggy@@@"
