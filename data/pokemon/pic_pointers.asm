@@ -156,6 +156,8 @@ PokemonPicPointers::
 	pics Meditite
 	pics Medicham
 	pics Roselia
+	pics Wailmer
+	pics Wailord
 	pics Numel
 	pics Camerupt
 	pics Trapinch
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics DarumakaPlain
 	pics DarmanitanPlain
 	pics Maractus
-	pics Dwebble
-	pics Crustle
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Dwebble
+	pics Crustle
 	pics Scraggy
 	pics Scrafty
 	pics Sigilyph

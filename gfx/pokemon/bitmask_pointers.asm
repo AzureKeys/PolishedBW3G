@@ -152,6 +152,8 @@ BitmasksPointers:
 	dw MedititeBitmasks
 	dw MedichamBitmasks
 	dw RoseliaBitmasks
+	dw WailmerBitmasks
+	dw WailordBitmasks
 	dw NumelBitmasks
 	dw CameruptBitmasks
 	dw TrapinchBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw DarumakaPlainBitmasks
 	dw DarmanitanPlainBitmasks
 	dw MaractusBitmasks
-	dw DwebbleBitmasks
-	dw CrustleBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw DwebbleBitmasks
+	dw CrustleBitmasks
 	dw ScraggyBitmasks
 	dw ScraftyBitmasks
 	dw SigilyphBitmasks

@@ -770,6 +770,10 @@ BudewEggSpeciesMoves:
 	;db SYNTHESIS
 	db $ff
 
+WailmerEggSpeciesMoves:
+	dp WAILMER, PLAIN_FORM
+	db $ff
+
 NumelEggSpeciesMoves:
 	dp NUMEL, PLAIN_FORM
 	db ANCIENTPOWER

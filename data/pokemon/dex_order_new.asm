@@ -186,6 +186,8 @@ NewPokedexOrder:
 	dp MEDITITE
 	dp MEDICHAM
 	dp ROSELIA
+	dp WAILMER
+	dp WAILORD
 	dp NUMEL
 	dp CAMERUPT
 	dp TRAPINCH

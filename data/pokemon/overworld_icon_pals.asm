@@ -156,6 +156,8 @@ OverworldMonIconColors::
 	iconpal BLUE, ORANGE ; MEDITITE
 	iconpal RED, BLUE ; MEDICHAM
 	iconpal GREEN, YELLOW ; ROSELIA
+	iconpal BLUE, PURPLE ; WAILMER
+	iconpal BLUE, PURPLE ; WAILORD
 	iconpal GREEN, AZURE ; NUMEL
 	iconpal RED, YELLOW ; CAMERUPT
 	iconpal ORANGE, GRAY ; TRAPINCH
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; DARUMAKA
 	iconpal RED, PURPLE ; DARMANITAN
 	iconpal GREEN, BROWN ; MARACTUS
-	iconpal ORANGE, RED ; DWEBBLE
-	iconpal ORANGE, GREEN ; CRUSTLE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal ORANGE, RED ; DWEBBLE
+	iconpal ORANGE, GREEN ; CRUSTLE
 	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
 	iconpal YELLOW, GREEN ; SIGILYPH

@@ -156,6 +156,8 @@ MiniIconPointers:
 	mini_icon Meditite
 	mini_icon Medicham
 	mini_icon Roselia
+	mini_icon Wailmer
+	mini_icon Wailord
 	mini_icon Numel
 	mini_icon Camerupt
 	mini_icon Trapinch
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Darumaka
 	mini_icon Darmanitan
 	mini_icon Maractus
-	mini_icon Dwebble
-	mini_icon Crustle
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Dwebble
+	mini_icon Crustle
 	mini_icon Scraggy
 	mini_icon Scrafty
 	mini_icon Sigilyph

@@ -767,6 +767,16 @@ RoseliaMini::     INCBIN "gfx/minis/roselia.2bpp.lz"
 RoseliaMiniMask:: INCBIN "gfx/minis/roselia_mask.1bpp.lz"
 RoseliaIcon::     INCBIN "gfx/icons/roselia.2bpp.lz"
 
+SECTION "Wailmer Mini Icon", ROMX
+WailmerMini::     INCBIN "gfx/minis/wailmer.2bpp.lz"
+WailmerMiniMask:: INCBIN "gfx/minis/wailmer_mask.1bpp.lz"
+WailmerIcon::     INCBIN "gfx/icons/wailmer.2bpp.lz"
+
+SECTION "Wailord Mini Icon", ROMX
+WailordMini::     INCBIN "gfx/minis/wailord.2bpp.lz"
+WailordMiniMask:: INCBIN "gfx/minis/wailord_mask.1bpp.lz"
+WailordIcon::     INCBIN "gfx/icons/wailord.2bpp.lz"
+
 SECTION "Numel Mini Icon", ROMX
 NumelMini::     INCBIN "gfx/minis/numel.2bpp.lz"
 NumelMiniMask:: INCBIN "gfx/minis/numel_mask.1bpp.lz"

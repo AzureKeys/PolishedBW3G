@@ -152,6 +152,8 @@ EggSpeciesMovesPointers::
 	dw MedititeEggSpeciesMoves          ; Meditite
 	dw MedititeEggSpeciesMoves          ; Medicham
 	dw BudewEggSpeciesMoves             ; Roselia
+	dw WailmerEggSpeciesMoves           ; Wailmer
+	dw WailmerEggSpeciesMoves           ; Wailord
 	dw NumelEggSpeciesMoves             ; Numel
 	dw NumelEggSpeciesMoves             ; Camerupt
 	dw TrapinchEggSpeciesMoves          ; Trapinch
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw DarumakaPlainEggSpeciesMoves     ; Darumaka
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan
 	dw MaractusEggSpeciesMoves          ; Maractus
-	dw DwebbleEggSpeciesMoves           ; Dwebble
-	dw DwebbleEggSpeciesMoves           ; Crustle
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw DwebbleEggSpeciesMoves           ; Dwebble
+	dw DwebbleEggSpeciesMoves           ; Crustle
 	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
 	dw SigilyphEggSpeciesMoves          ; Sigilyph

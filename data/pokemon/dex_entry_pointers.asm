@@ -153,6 +153,8 @@ PokedexDataPointerTable:
 	dba MedititePokedexEntry
 	dba MedichamPokedexEntry
 	dba RoseliaPokedexEntry
+	dba WailmerPokedexEntry
+	dba WailordPokedexEntry
 	dba NumelPokedexEntry
 	dba CameruptPokedexEntry
 	dba TrapinchPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba DarumakaPlainPokedexEntry
 	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry
-	dba DwebblePokedexEntry
-	dba CrustlePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba DwebblePokedexEntry
+	dba CrustlePokedexEntry
 	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
 	dba SigilyphPokedexEntry

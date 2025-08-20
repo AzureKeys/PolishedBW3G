@@ -176,6 +176,8 @@
 	const MEDITITE   ; 96
 	const MEDICHAM   ; 97
 	const ROSELIA    ; 98
+	const WAILMER    ; 99
+	const WAILORD    ; 9a
 	const NUMEL      ; 9b
 	const CAMERUPT   ; 9c
 	const TRAPINCH   ; a0
@@ -276,10 +278,10 @@
 	const DARUMAKA   ; 12f
 	const DARMANITAN ; 130
 	const MARACTUS   ; 131
-	const DWEBBLE    ; 132
-	const CRUSTLE    ; 133
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const DWEBBLE    ; 132
+	const CRUSTLE    ; 133
 	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
 	const SIGILYPH   ; 136

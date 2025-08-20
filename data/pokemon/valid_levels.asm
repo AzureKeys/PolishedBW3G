@@ -157,6 +157,8 @@ endc
 	db   1,  36 ; Meditite
 	db  37, 100 ; Medicham
 	db  20,  34 ; Roselia
+	db   1,  39 ; Wailmer
+	db  40, 100 ; Wailord
 	db   1,  32 ; Numel
 	db  33, 100 ; Camerupt
 	db   1,  34 ; Trapinch
@@ -257,10 +259,10 @@ endc
 	db   1,  34 ; Darumaka
 	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus
-	db   1,  33 ; Dwebble
-	db  34, 100 ; Crustle
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  33 ; Dwebble
+	db  34, 100 ; Crustle
 	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
 	db  20, 100 ; Sigilyph

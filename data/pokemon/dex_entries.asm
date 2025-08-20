@@ -1521,6 +1521,26 @@ RoseliaPokedexEntry::
 	next "its arms. Its"
 	next "aroma is sweet.@"
 
+SECTION "WailmerPokedexEntry", ROMX
+WailmerPokedexEntry::
+	db "Ball Whale@"
+	db "On sunny days, it"
+	next "lands on beaches"
+	next "to bounce like a"
+	page "ball and play. It"
+	next "spouts water from"
+	next "its nostrils.@"
+
+SECTION "WailordPokedexEntry", ROMX
+WailordPokedexEntry::
+	db "Float Whale@"
+	db "It's the biggest of"
+	next "all #mon. It"
+	next "can dive to a"
+	page "depth of almost"
+	next "10,000 feet on"
+	next "only one breath.@"
+
 SECTION "NumelPokedexEntry", ROMX
 NumelPokedexEntry::
 	db "Numb@"

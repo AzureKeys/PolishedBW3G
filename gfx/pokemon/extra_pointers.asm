@@ -152,6 +152,8 @@ AnimationExtraPointers:
 	dw MedititeAnimationExtra
 	dw MedichamAnimationExtra
 	dw RoseliaAnimationExtra
+	dw WailmerAnimationExtra
+	dw WailordAnimationExtra
 	dw NumelAnimationExtra
 	dw CameruptAnimationExtra
 	dw TrapinchAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw DarumakaPlainAnimationExtra
 	dw DarmanitanPlainAnimationExtra
 	dw MaractusAnimationExtra
-	dw DwebbleAnimationExtra
-	dw CrustleAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw DwebbleAnimationExtra
+	dw CrustleAnimationExtra
 	dw ScraggyAnimationExtra
 	dw ScraftyAnimationExtra
 	dw SigilyphAnimationExtra

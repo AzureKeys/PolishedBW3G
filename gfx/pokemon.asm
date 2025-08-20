@@ -622,6 +622,14 @@ SECTION "Roselia Pics", ROMX
 RoseliaFrontpic: INCBIN "gfx/pokemon/roselia/front.animated.2bpp.lz"
 RoseliaBackpic:  INCBIN "gfx/pokemon/roselia/back.2bpp.lz"
 
+SECTION "Wailmer Pics", ROMX
+WailmerFrontpic: INCBIN "gfx/pokemon/wailmer/front.animated.2bpp.lz"
+WailmerBackpic:  INCBIN "gfx/pokemon/wailmer/back.2bpp.lz"
+
+SECTION "Wailord Pics", ROMX
+WailordFrontpic: INCBIN "gfx/pokemon/wailord/front.animated.2bpp.lz"
+WailordBackpic:  INCBIN "gfx/pokemon/wailord/back.2bpp.lz"
+
 SECTION "Numel Pics", ROMX
 NumelFrontpic: INCBIN "gfx/pokemon/numel/front.animated.2bpp.lz"
 NumelBackpic:  INCBIN "gfx/pokemon/numel/back.2bpp.lz"

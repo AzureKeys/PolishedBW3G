@@ -156,6 +156,8 @@ endc
 	db NO_MOVE      ; MEDITITE
 	db NO_MOVE      ; MEDICHAM
 	db NO_MOVE      ; ROSELIA
+	db NO_MOVE      ; WAILMER
+	db NO_MOVE      ; WAILORD
 	db NO_MOVE      ; NUMEL
 	db ROCK_SLIDE   ; CAMERUPT
 	db NO_MOVE      ; TRAPINCH
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; DARUMAKA
 	db NO_MOVE      ; DARMANITAN
 	db NO_MOVE      ; MARACTUS
-	db NO_MOVE      ; DWEBBLE
-	db NO_MOVE      ; CRUSTLE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; DWEBBLE
+	db NO_MOVE      ; CRUSTLE
 	db NO_MOVE      ; SCRAGGY
 	db NO_MOVE      ; SCRAFTY
 	db NO_MOVE      ; SIGILYPH

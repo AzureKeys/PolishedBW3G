@@ -152,6 +152,8 @@ FramesPointers:
 	dw MedititeFrames
 	dw MedichamFrames
 	dw RoseliaFrames
+	dw WailmerFrames
+	dw WailordFrames
 	dw NumelFrames
 	dw CameruptFrames
 	dw TrapinchFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw DarumakaPlainFrames
 	dw DarmanitanPlainFrames
 	dw MaractusFrames
-	dw DwebbleFrames
-	dw CrustleFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw DwebbleFrames
+	dw CrustleFrames
 	dw ScraggyFrames
 	dw ScraftyFrames
 	dw SigilyphFrames

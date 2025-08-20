@@ -158,6 +158,8 @@ PokemonCries::
 	mon_cry CRY_MEDITITE,    $233,  $080 ; Meditite
 	mon_cry CRY_MEDITITE,    $083,  $100 ; Medicham
 	mon_cry CRY_TYROGUE,     $041,  $0ae ; Roselia
+	mon_cry CRY_TYPHLOSION,  $f12,  $0c0 ; Wailmer
+	mon_cry CRY_VILEPLUME,   $d22,  $200 ; Wailord
 	mon_cry CRY_PSYDUCK,    -$13a,  $0d0 ; Numel
 	mon_cry CRY_RHYDON,     -$2c0,  $190 ; Camerupt
 	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; Trapinch
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
 	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
-	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
-	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
+	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
 	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; Scraggy
 	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; Scrafty
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph

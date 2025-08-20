@@ -331,6 +331,8 @@ AlphabeticalPokedexOrder:
 	dp VOLCARONA
 	dp VULLABY
 	dp VULPIX
+	dp WAILMER
+	dp WAILORD
 	dp WATCHOG
 	dp WEAVILE
 	dp WEEZING

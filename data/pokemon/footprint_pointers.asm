@@ -152,6 +152,8 @@ FootprintPointers::
 	dw MedititeFootprint
 	dw MedichamFootprint
 	dw RoseliaFootprint
+	dw WailmerFootprint
+	dw WailordFootprint
 	dw NumelFootprint
 	dw CameruptFootprint
 	dw TrapinchFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
 	dw MaractusFootprint
-	dw DwebbleFootprint
-	dw CrustleFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw DwebbleFootprint
+	dw CrustleFootprint
 	dw ScraggyFootprint
 	dw ScraftyFootprint
 	dw SigilyphFootprint

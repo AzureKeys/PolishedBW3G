@@ -156,6 +156,8 @@ EvosAttacksPointers::
 	dw MedititeEvosAttacks
 	dw MedichamEvosAttacks
 	dw RoseliaEvosAttacks
+	dw WailmerEvosAttacks
+	dw WailordEvosAttacks
 	dw NumelEvosAttacks
 	dw CameruptEvosAttacks
 	dw TrapinchEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw DarumakaPlainEvosAttacks
 	dw DarmanitanPlainEvosAttacks
 	dw MaractusEvosAttacks
-	dw DwebbleEvosAttacks
-	dw CrustleEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw DwebbleEvosAttacks
+	dw CrustleEvosAttacks
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw SigilyphEvosAttacks

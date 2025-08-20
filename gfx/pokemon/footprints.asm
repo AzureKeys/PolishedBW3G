@@ -195,6 +195,8 @@ AggronFootprint::
 MedititeFootprint::
 MedichamFootprint::
 RoseliaFootprint::
+WailmerFootprint::
+WailordFootprint::
 NumelFootprint::
 CameruptFootprint::
 TrapinchFootprint::
