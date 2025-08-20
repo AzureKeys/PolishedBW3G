@@ -790,6 +790,10 @@ TorkoalEggSpeciesMoves:
 	dp TORKOAL, PLAIN_FORM
 	db $ff
 
+SpoinkEggSpeciesMoves:
+	dp SPOINK, PLAIN_FORM
+	db $ff
+
 TrapinchEggSpeciesMoves:
 	dp TRAPINCH, PLAIN_FORM
 	db BUG_BITE

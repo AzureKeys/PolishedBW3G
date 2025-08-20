@@ -157,6 +157,8 @@ BitmasksPointers:
 	dw NumelBitmasks
 	dw CameruptBitmasks
 	dw TorkoalBitmasks
+	dw SpoinkBitmasks
+	dw GrumpigBitmasks
 	dw TrapinchBitmasks
 	dw VibravaBitmasks
 	dw FlygonBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw SandileBitmasks
 	dw KrokorokBitmasks
 	dw KrookodileBitmasks
-	dw DarumakaPlainBitmasks
-	dw DarmanitanPlainBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw DarumakaPlainBitmasks
+	dw DarmanitanPlainBitmasks
 	dw MaractusBitmasks
 	dw DwebbleBitmasks
 	dw CrustleBitmasks

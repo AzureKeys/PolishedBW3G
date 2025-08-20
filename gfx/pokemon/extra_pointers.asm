@@ -157,6 +157,8 @@ AnimationExtraPointers:
 	dw NumelAnimationExtra
 	dw CameruptAnimationExtra
 	dw TorkoalAnimationExtra
+	dw SpoinkAnimationExtra
+	dw GrumpigAnimationExtra
 	dw TrapinchAnimationExtra
 	dw VibravaAnimationExtra
 	dw FlygonAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw SandileAnimationExtra
 	dw KrokorokAnimationExtra
 	dw KrookodileAnimationExtra
-	dw DarumakaPlainAnimationExtra
-	dw DarmanitanPlainAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw DarumakaPlainAnimationExtra
+	dw DarmanitanPlainAnimationExtra
 	dw MaractusAnimationExtra
 	dw DwebbleAnimationExtra
 	dw CrustleAnimationExtra

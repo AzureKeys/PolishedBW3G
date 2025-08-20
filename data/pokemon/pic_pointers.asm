@@ -161,6 +161,8 @@ PokemonPicPointers::
 	pics Numel
 	pics Camerupt
 	pics Torkoal
+	pics Spoink
+	pics Grumpig
 	pics Trapinch
 	pics Vibrava
 	pics Flygon
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Sandile
 	pics Krokorok
 	pics Krookodile
-	pics DarumakaPlain
-	pics DarmanitanPlain
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics DarumakaPlain
+	pics DarmanitanPlain
 	pics Maractus
 	pics Dwebble
 	pics Crustle

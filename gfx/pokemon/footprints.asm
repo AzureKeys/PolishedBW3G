@@ -200,6 +200,8 @@ WailordFootprint::
 NumelFootprint::
 CameruptFootprint::
 TorkoalFootprint::
+SpoinkFootprint::
+GrumpigFootprint::
 TrapinchFootprint::
 VibravaFootprint::
 FlygonFootprint::

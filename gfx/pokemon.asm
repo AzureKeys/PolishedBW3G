@@ -642,6 +642,14 @@ SECTION "Torkoal Pics", ROMX
 TorkoalFrontpic: INCBIN "gfx/pokemon/torkoal/front.animated.2bpp.lz"
 TorkoalBackpic:  INCBIN "gfx/pokemon/torkoal/back.2bpp.lz"
 
+SECTION "Spoink Pics", ROMX
+SpoinkFrontpic: INCBIN "gfx/pokemon/spoink/front.animated.2bpp.lz"
+SpoinkBackpic:  INCBIN "gfx/pokemon/spoink/back.2bpp.lz"
+
+SECTION "Grumpig Pics", ROMX
+GrumpigFrontpic: INCBIN "gfx/pokemon/grumpig/front.animated.2bpp.lz"
+GrumpigBackpic:  INCBIN "gfx/pokemon/grumpig/back.2bpp.lz"
+
 SECTION "Trapinch Pics", ROMX
 TrapinchFrontpic: INCBIN "gfx/pokemon/trapinch/front.animated.2bpp.lz"
 TrapinchBackpic:  INCBIN "gfx/pokemon/trapinch/back.2bpp.lz"

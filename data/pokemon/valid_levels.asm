@@ -162,6 +162,8 @@ endc
 	db   1,  32 ; Numel
 	db  33, 100 ; Camerupt
 	db  30, 100 ; Torkoal
+	db   1,  31 ; Spoink
+	db  32, 100 ; Grumpig
 	db   1,  34 ; Trapinch
 	db  35,  44 ; Vibrava
 	db  45, 100 ; Flygon
@@ -257,10 +259,10 @@ endc
 	db   1,  28 ; Sandile
 	db  29,  39 ; Krokorok
 	db  40, 100 ; Krookodile
-	db   1,  34 ; Darumaka
-	db  35, 100 ; Darmanitan
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  34 ; Darumaka
+	db  35, 100 ; Darmanitan
 	db  15, 100 ; Maractus
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle

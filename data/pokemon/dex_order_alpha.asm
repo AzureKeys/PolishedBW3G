@@ -114,6 +114,7 @@ AlphabeticalPokedexOrder:
 	dp GRAVELER
 	dp GRIMER
 	dp GROWLITHE
+	dp GRUMPIG
 	dp GURDURR
 	dp HAUNTER
 	dp HAXORUS
@@ -285,6 +286,7 @@ AlphabeticalPokedexOrder:
 	dp SNORLAX
 	dp SNUBBULL
 	dp SOLOSIS
+	dp SPOINK
 	dp STARMIE
 	dp STARYU
 	dp STEELIX

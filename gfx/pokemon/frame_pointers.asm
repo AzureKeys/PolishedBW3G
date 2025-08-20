@@ -157,6 +157,8 @@ FramesPointers:
 	dw NumelFrames
 	dw CameruptFrames
 	dw TorkoalFrames
+	dw SpoinkFrames
+	dw GrumpigFrames
 	dw TrapinchFrames
 	dw VibravaFrames
 	dw FlygonFrames
@@ -251,11 +253,11 @@ FramesPointers:
 	dw BasculinWhiteFrames
 	dw SandileFrames
 	dw KrokorokFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw KrookodileFrames
 	dw DarumakaPlainFrames
 	dw DarmanitanPlainFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw MaractusFrames
 	dw DwebbleFrames
 	dw CrustleFrames

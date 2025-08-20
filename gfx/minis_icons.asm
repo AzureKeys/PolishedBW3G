@@ -792,6 +792,16 @@ TorkoalMini::     INCBIN "gfx/minis/torkoal.2bpp.lz"
 TorkoalMiniMask:: INCBIN "gfx/minis/torkoal_mask.1bpp.lz"
 TorkoalIcon::     INCBIN "gfx/icons/torkoal.2bpp.lz"
 
+SECTION "Spoink Mini Icon", ROMX
+SpoinkMini::     INCBIN "gfx/minis/spoink.2bpp.lz"
+SpoinkMiniMask:: INCBIN "gfx/minis/spoink_mask.1bpp.lz"
+SpoinkIcon::     INCBIN "gfx/icons/spoink.2bpp.lz"
+
+SECTION "Grumpig Mini Icon", ROMX
+GrumpigMini::     INCBIN "gfx/minis/grumpig.2bpp.lz"
+GrumpigMiniMask:: INCBIN "gfx/minis/grumpig_mask.1bpp.lz"
+GrumpigIcon::     INCBIN "gfx/icons/grumpig.2bpp.lz"
+
 SECTION "Trapinch Mini Icon", ROMX
 TrapinchMini::     INCBIN "gfx/minis/trapinch.2bpp.lz"
 TrapinchMiniMask:: INCBIN "gfx/minis/trapinch_mask.1bpp.lz"

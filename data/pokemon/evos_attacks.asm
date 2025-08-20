@@ -3315,6 +3315,46 @@ endc
 	learnset 52, FLAMETHROWER ; Eruption
 	learnset 59, FLARE_BLITZ ; Fissure
 
+	evos_attacks Spoink
+	evo_data EVOLVE_LEVEL, 32, GRUMPIG
+	learnset 1, TACKLE
+	learnset 1, GROWL
+	learnset 5, EMBER
+	learnset 8, FOCUS_ENERGY
+	learnset 12, MAGNITUDE
+	;learnset 15, FLAME_BURST
+	learnset 19, AMNESIA
+	;learnset 22, LAVA_PLUME
+	learnset 26, EARTH_POWER
+	learnset 29, CURSE
+	learnset 31, TAKE_DOWN
+	learnset 36, REST ; Yawn
+	learnset 40, EARTHQUAKE
+	learnset 43, FLAMETHROWER
+	learnset 47, DOUBLE_EDGE
+
+	evos_attacks Grumpig
+	learnset 1, ROCK_SLIDE
+	learnset 1, FLAMETHROWER ; Eruption
+	learnset 1, FLARE_BLITZ ; Fissure
+	learnset 1, TACKLE
+	learnset 1, GROWL
+	learnset 1, EMBER
+	learnset 1, FOCUS_ENERGY
+	learnset 5, EMBER
+	learnset 8, FOCUS_ENERGY
+	learnset 12, MAGNITUDE
+	;learnset 15, FLAME_BURST
+	learnset 19, AMNESIA
+	;learnset 22, LAVA_PLUME
+	learnset 26, EARTH_POWER
+	learnset 29, CURSE
+	learnset 31, TAKE_DOWN
+	learnset 39, REST ; Yawn
+	learnset 46, EARTHQUAKE
+	learnset 52, FLAMETHROWER ; Eruption
+	learnset 59, FLARE_BLITZ ; Fissure
+
 	evos_attacks Trapinch
 	evo_data EVOLVE_LEVEL, 35, VIBRAVA
 	learnset 1, BITE

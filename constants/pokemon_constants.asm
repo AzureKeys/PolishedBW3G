@@ -181,6 +181,8 @@
 	const NUMEL      ; 9b
 	const CAMERUPT   ; 9c
 	const TORKOAL    ; 9d
+	const SPOINK     ; 9e
+	const GRUMPIG    ; 9f
 	const TRAPINCH   ; a0
 	const VIBRAVA    ; a1
 	const FLYGON     ; a2
@@ -276,10 +278,10 @@
 	const SANDILE    ; 12c
 	const KROKOROK   ; 12d
 	const KROOKODILE ; 12e
-	const DARUMAKA   ; 12f
-	const DARMANITAN ; 130
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const DARUMAKA   ; 12f
+	const DARMANITAN ; 130
 	const MARACTUS   ; 131
 	const DWEBBLE    ; 132
 	const CRUSTLE    ; 133

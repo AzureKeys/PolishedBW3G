@@ -163,6 +163,8 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,    -$13a,  $0d0 ; Numel
 	mon_cry CRY_RHYDON,     -$2c0,  $190 ; Camerupt
 	mon_cry CRY_ENTEI,       $060,  $071 ; Torkoal
+	mon_cry CRY_PIDGEOTTO,   $d00,  $07f ; Spoink
+	mon_cry CRY_METAPOD,     $06c,  $071 ; Grumpig
 	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; Trapinch
 	mon_cry CRY_SLUGMA,      $2c2,  $0f3 ; Vibrava
 	mon_cry CRY_KRABBY,      $cda,  $132 ; Flygon
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
 	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
-	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
-	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka
+	mon_cry CRY_AMPHAROS,   -$1d3,  $1f0 ; Darmanitan
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
 	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
 	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle

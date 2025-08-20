@@ -158,6 +158,8 @@ PokedexDataPointerTable:
 	dba NumelPokedexEntry
 	dba CameruptPokedexEntry
 	dba TorkoalPokedexEntry
+	dba SpoinkPokedexEntry
+	dba GrumpigPokedexEntry
 	dba TrapinchPokedexEntry
 	dba VibravaPokedexEntry
 	dba FlygonPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
 	dba KrookodilePokedexEntry
-	dba DarumakaPlainPokedexEntry
-	dba DarmanitanPlainPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba DarumakaPlainPokedexEntry
+	dba DarmanitanPlainPokedexEntry
 	dba MaractusPokedexEntry
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry

@@ -191,6 +191,8 @@ NewPokedexOrder:
 	dp NUMEL
 	dp CAMERUPT
 	dp TORKOAL
+	dp SPOINK
+	dp GRUMPIG
 	dp TRAPINCH
 	dp VIBRAVA
 	dp FLYGON

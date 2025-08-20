@@ -1571,6 +1571,25 @@ TorkoalPokedexEntry::
 	next "soot if it is"
 	next "endangered.@"
 
+SECTION "SpoinkPokedexEntry", ROMX
+SpoinkPokedexEntry::
+	db "Bounce@"
+	db "Spoink will die if"
+	next "it stops bouncing."
+	next "The pearl on its"
+	page "head amplifies its"
+	next "psychic powers.@"
+
+SECTION "GrumpigPokedexEntry", ROMX
+GrumpigPokedexEntry::
+	db "Manipulate@"
+	db "It uses pearls to"
+	next "amplify its"
+	next "psychic powers. It"
+	page "does a strange"
+	next "dance to control"
+	next "foes' minds.@"
+
 SECTION "TrapinchPokedexEntry", ROMX
 TrapinchPokedexEntry::
 	db "Ant Pit@"
