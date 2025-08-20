@@ -727,6 +727,11 @@ DelcattyMini::     INCBIN "gfx/minis/delcatty.2bpp.lz"
 DelcattyMiniMask:: INCBIN "gfx/minis/delcatty_mask.1bpp.lz"
 DelcattyIcon::     INCBIN "gfx/icons/delcatty.2bpp.lz"
 
+SECTION "Sableye Mini Icon", ROMX
+SableyeMini::     INCBIN "gfx/minis/sableye.2bpp.lz"
+SableyeMiniMask:: INCBIN "gfx/minis/sableye_mask.1bpp.lz"
+SableyeIcon::     INCBIN "gfx/icons/sableye.2bpp.lz"
+
 SECTION "Mawile Mini Icon", ROMX
 MawileMini::     INCBIN "gfx/minis/mawile.2bpp.lz"
 MawileMiniMask:: INCBIN "gfx/minis/mawile_mask.1bpp.lz"

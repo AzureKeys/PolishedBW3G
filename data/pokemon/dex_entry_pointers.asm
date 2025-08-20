@@ -145,6 +145,7 @@ PokedexDataPointerTable:
 	dba NosepassPokedexEntry
 	dba SkittyPokedexEntry
 	dba DelcattyPokedexEntry
+	dba SableyePokedexEntry
 	dba MawilePokedexEntry
 	dba AronPokedexEntry
 	dba LaironPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba MaractusPokedexEntry
 	dba DwebblePokedexEntry
 	dba CrustlePokedexEntry
-	dba ScraggyPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba ScraggyPokedexEntry
 	dba ScraftyPokedexEntry
 	dba SigilyphPokedexEntry
 	dba YamaskPlainPokedexEntry

@@ -168,6 +168,7 @@
 	const NOSEPASS   ; 8e
 	const SKITTY     ; 8f
 	const DELCATTY   ; 90
+	const SABLEYE    ; 91
 	const MAWILE     ; 92
 	const ARON       ; 93
 	const LAIRON     ; 94
@@ -277,9 +278,9 @@
 	const MARACTUS   ; 131
 	const DWEBBLE    ; 132
 	const CRUSTLE    ; 133
-	const SCRAGGY    ; 134
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const SCRAGGY    ; 134
 	const SCRAFTY    ; 135
 	const SIGILYPH   ; 136
 	const YAMASK     ; 137

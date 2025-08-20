@@ -1441,6 +1441,16 @@ DelcattyPokedexEntry::
 	next "does not keep a"
 	next "nest.@"
 
+SECTION "SableyePokedexEntry", ROMX
+SableyePokedexEntry::
+	db "Darkness@"
+	db "It dwells in the"
+	next "darkness of caves."
+	next "It uses its sharp"
+	page "claws to dig up"
+	next "gems to nourish"
+	next "itself.@"
+
 SECTION "MawilePokedexEntry", ROMX
 MawilePokedexEntry::
 	db "Deceiver@"

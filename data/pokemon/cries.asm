@@ -150,6 +150,7 @@ PokemonCries::
 	mon_cry CRY_MUDKIP,      $125,  $1c4 ; Nosepass
 	mon_cry CRY_GIRAFARIG,   $866,  $0e0 ; Skitty
 	mon_cry CRY_SQUIRTLE,    $0b0,  $110 ; Delcatty
+	mon_cry CRY_CATERPIE,    $ef3,  $120 ; Sableye
 	mon_cry CRY_KRABBY,     -$2c4,  $0a0 ; Mawile
 	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; Aron
 	mon_cry CRY_WEEDLE,      $040,  $090 ; Lairon
@@ -259,9 +260,9 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    $190,  $198 ; Maractus
 	mon_cry CRY_DIGLETT,     $0ba,  $100 ; Dwebble
 	mon_cry CRY_METAPOD,     $193,  $150 ; Crustle
-	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; Scraggy
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; Scraggy
 	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; Scrafty
 	mon_cry CRY_TYPHLOSION,  $03c,  $100 ; Sigilyph
 	mon_cry CRY_YAMASK,      $010,  $128 ; Yamask

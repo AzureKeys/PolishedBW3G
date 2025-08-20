@@ -178,6 +178,7 @@ NewPokedexOrder:
 	dp NOSEPASS
 	dp SKITTY
 	dp DELCATTY
+	dp SABLEYE
 	dp MAWILE
 	dp ARON
 	dp LAIRON

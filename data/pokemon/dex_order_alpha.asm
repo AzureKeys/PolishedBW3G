@@ -245,6 +245,7 @@ AlphabeticalPokedexOrder:
 	dp ROSELIA
 	dp RUFFLET
 	dp RUNERIGUS
+	dp SABLEYE
 	dp SAMUROTT
 	dp SANDILE
 	dp SANDSHREW

@@ -148,6 +148,7 @@ OverworldMonIconColors::
 	iconpal BLUE, BROWN ; NOSEPASS
 	iconpal PINK, RED ; SKITTY
 	iconpal PURPLE, RED ; DELCATTY
+	iconpal PURPLE, BROWN ; SABLEYE
 	iconpal YELLOW, PINK ; MAWILE
 	iconpal GRAY, TEAL ; ARON
 	iconpal GRAY, TEAL ; LAIRON
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; MARACTUS
 	iconpal ORANGE, RED ; DWEBBLE
 	iconpal ORANGE, GREEN ; CRUSTLE
-	iconpal ORANGE, RED ; SCRAGGY
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal ORANGE, RED ; SCRAGGY
 	iconpal ORANGE, GREEN ; SCRAFTY
 	iconpal YELLOW, GREEN ; SIGILYPH
 	iconpal YELLOW, GRAY ; YAMASK

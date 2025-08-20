@@ -149,6 +149,7 @@ endc
 	db   1,  29 ; Nosepass
 	db   1,  19 ; Skitty
 	db  20, 100 ; Delcatty
+	db  15, 100 ; Sableye
 	db  15, 100 ; Mawile
 	db   1,  31 ; Aron
 	db  32,  41 ; Lairon
@@ -258,9 +259,9 @@ endc
 	db  15, 100 ; Maractus
 	db   1,  33 ; Dwebble
 	db  34, 100 ; Crustle
-	db   1,  38 ; Scraggy
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  38 ; Scraggy
 	db  39, 100 ; Scrafty
 	db  20, 100 ; Sigilyph
 	db   1,  33 ; Yamask

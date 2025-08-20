@@ -148,6 +148,7 @@ PokemonPicPointers::
 	pics Nosepass
 	pics Skitty
 	pics Delcatty
+	pics Sableye
 	pics Mawile
 	pics Aron
 	pics Lairon
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Maractus
 	pics Dwebble
 	pics Crustle
-	pics Scraggy
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Scraggy
 	pics Scrafty
 	pics Sigilyph
 	pics YamaskPlain

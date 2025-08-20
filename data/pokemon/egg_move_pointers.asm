@@ -144,6 +144,7 @@ EggSpeciesMovesPointers::
 	dw NosepassEggSpeciesMoves          ; Nosepass
 	dw SkittyEggSpeciesMoves            ; Skitty
 	dw SkittyEggSpeciesMoves            ; Delcatty
+	dw SableyeEggSpeciesMoves           ; Sableye
 	dw MawileEggSpeciesMoves            ; Mawile
 	dw AronEggSpeciesMoves              ; Aron
 	dw AronEggSpeciesMoves              ; Lairon
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw MaractusEggSpeciesMoves          ; Maractus
 	dw DwebbleEggSpeciesMoves           ; Dwebble
 	dw DwebbleEggSpeciesMoves           ; Crustle
-	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw ScraggyEggSpeciesMoves           ; Scraggy
 	dw ScraggyEggSpeciesMoves           ; Scrafty
 	dw SigilyphEggSpeciesMoves          ; Sigilyph
 	dw YamaskPlainEggSpeciesMoves       ; Yamask

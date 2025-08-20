@@ -144,6 +144,7 @@ AnimationExtraPointers:
 	dw NosepassAnimationExtra
 	dw SkittyAnimationExtra
 	dw DelcattyAnimationExtra
+	dw SableyeAnimationExtra
 	dw MawileAnimationExtra
 	dw AronAnimationExtra
 	dw LaironAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw MaractusAnimationExtra
 	dw DwebbleAnimationExtra
 	dw CrustleAnimationExtra
-	dw ScraggyAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw ScraggyAnimationExtra
 	dw ScraftyAnimationExtra
 	dw SigilyphAnimationExtra
 	dw YamaskPlainAnimationExtra

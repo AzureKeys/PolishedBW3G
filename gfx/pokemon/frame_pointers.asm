@@ -144,6 +144,7 @@ FramesPointers:
 	dw NosepassFrames
 	dw SkittyFrames
 	dw DelcattyFrames
+	dw SableyeFrames
 	dw MawileFrames
 	dw AronFrames
 	dw LaironFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw MaractusFrames
 	dw DwebbleFrames
 	dw CrustleFrames
-	dw ScraggyFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ScraggyFrames
 	dw ScraftyFrames
 	dw SigilyphFrames
 	dw YamaskPlainFrames

@@ -145,6 +145,7 @@ PokemonNames::
 	rawchar "Nosepass@@"
 	rawchar "Skitty@@@@"
 	rawchar "Delcatty@@"
+	rawchar "Sableye@@@"
 	rawchar "Mawile@@@@"
 	rawchar "Aron@@@@@@"
 	rawchar "Lairon@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Maractus@@"
 	rawchar "Dwebble@@@"
 	rawchar "Crustle@@@"
-	rawchar "Scraggy@@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Scraggy@@@"
 	rawchar "Scrafty@@@"
 	rawchar "Sigilyph@@"
 	rawchar "Yamask@@@@"

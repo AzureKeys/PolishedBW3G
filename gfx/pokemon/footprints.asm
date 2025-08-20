@@ -187,6 +187,7 @@ SlakingFootprint::
 NosepassFootprint::
 SkittyFootprint::
 DelcattyFootprint::
+SableyeFootprint::
 MawileFootprint::
 AronFootprint::
 LaironFootprint::

@@ -590,6 +590,10 @@ SECTION "Delcatty Pics", ROMX
 DelcattyFrontpic: INCBIN "gfx/pokemon/delcatty/front.animated.2bpp.lz"
 DelcattyBackpic:  INCBIN "gfx/pokemon/delcatty/back.2bpp.lz"
 
+SECTION "Sableye Pics", ROMX
+SableyeFrontpic: INCBIN "gfx/pokemon/sableye/front.animated.2bpp.lz"
+SableyeBackpic:  INCBIN "gfx/pokemon/sableye/back.2bpp.lz"
+
 SECTION "Mawile Pics", ROMX
 MawileFrontpic: INCBIN "gfx/pokemon/mawile/front.animated.2bpp.lz"
 MawileBackpic:  INCBIN "gfx/pokemon/mawile/back.2bpp.lz"

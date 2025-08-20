@@ -722,6 +722,10 @@ SkittyEggSpeciesMoves:
 	dp SKITTY, PLAIN_FORM
 	db $ff
 
+SableyeEggSpeciesMoves:
+	dp SABLEYE, PLAIN_FORM
+	db $ff
+
 MawileEggSpeciesMoves:
 	dp MAWILE, PLAIN_FORM
 	db ANCIENTPOWER
