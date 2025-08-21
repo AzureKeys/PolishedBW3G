@@ -170,6 +170,8 @@ EvosAttacksPointers::
 	dw AltariaEvosAttacks
 	dw ZangooseEvosAttacks
 	dw SeviperEvosAttacks
+	dw LunatoneEvosAttacks
+	dw SolrockEvosAttacks
 	dw CorphishEvosAttacks
 	dw CrawdauntEvosAttacks
 	dw BaltoyEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
 	dw LilligantPlainEvosAttacks
-	dw BasculinEvosAttacks
-	dw SandileEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw BasculinEvosAttacks
+	dw SandileEvosAttacks
 	dw KrokorokEvosAttacks
 	dw KrookodileEvosAttacks
 	dw DarumakaPlainEvosAttacks

@@ -837,6 +837,16 @@ SeviperMini::     INCBIN "gfx/minis/seviper.2bpp.lz"
 SeviperMiniMask:: INCBIN "gfx/minis/seviper_mask.1bpp.lz"
 SeviperIcon::     INCBIN "gfx/icons/seviper.2bpp.lz"
 
+SECTION "Lunatone Mini Icon", ROMX
+LunatoneMini::     INCBIN "gfx/minis/lunatone.2bpp.lz"
+LunatoneMiniMask:: INCBIN "gfx/minis/lunatone_mask.1bpp.lz"
+LunatoneIcon::     INCBIN "gfx/icons/lunatone.2bpp.lz"
+
+SECTION "Solrock Mini Icon", ROMX
+SolrockMini::     INCBIN "gfx/minis/solrock.2bpp.lz"
+SolrockMiniMask:: INCBIN "gfx/minis/solrock_mask.1bpp.lz"
+SolrockIcon::     INCBIN "gfx/icons/solrock.2bpp.lz"
+
 SECTION "Corphish Mini Icon", ROMX
 CorphishMini::     INCBIN "gfx/minis/corphish.2bpp.lz"
 CorphishMiniMask:: INCBIN "gfx/minis/corphish_mask.1bpp.lz"

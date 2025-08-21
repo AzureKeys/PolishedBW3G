@@ -172,6 +172,8 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,   $045,  $155 ; Altaria
 	mon_cry CRY_RAICHU,      $e00,  $070 ; Zangoose
 	mon_cry CRY_REMORAID,    $04c,  $180 ; Seviper
+	mon_cry CRY_TYPHLOSION,  $ef0,  $0c0 ; Lunatone
+	mon_cry CRY_PSYDUCK,     $020,  $100 ; Solrock
 	mon_cry CRY_MANTINE,    -$336,  $0ca ; Corphish
 	mon_cry CRY_MANTINE,    -$67b,  $0f7 ; Crawdaunt
 	mon_cry CRY_MEDITITE,    $2b0,  $0d6 ; Baltoy
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_WHIMSICOTT,  $0fa,  $100 ; Whimsicott
 	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
 	mon_cry CRY_HYDREIGON,   $172,  $0b2 ; Lilligant
-	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
-	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
+	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile
 	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; Krokorok
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; Krookodile
 	mon_cry CRY_TOTODILE,   -$05e,  $140 ; Darumaka

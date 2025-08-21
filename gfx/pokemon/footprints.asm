@@ -209,6 +209,8 @@ SwabluFootprint::
 AltariaFootprint::
 ZangooseFootprint::
 SeviperFootprint::
+LunatoneFootprint::
+SolrockFootprint::
 CorphishFootprint::
 CrawdauntFootprint::
 BaltoyFootprint::

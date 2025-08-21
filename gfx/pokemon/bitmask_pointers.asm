@@ -166,6 +166,8 @@ BitmasksPointers:
 	dw AltariaBitmasks
 	dw ZangooseBitmasks
 	dw SeviperBitmasks
+	dw LunatoneBitmasks
+	dw SolrockBitmasks
 	dw CorphishBitmasks
 	dw CrawdauntBitmasks
 	dw BaltoyBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw WhimsicottBitmasks
 	dw PetililBitmasks
 	dw LilligantPlainBitmasks
-	dw BasculinWhiteBitmasks
-	dw SandileBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw BasculinWhiteBitmasks
+	dw SandileBitmasks
 	dw KrokorokBitmasks
 	dw KrookodileBitmasks
 	dw DarumakaPlainBitmasks

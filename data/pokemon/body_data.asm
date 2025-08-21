@@ -173,6 +173,8 @@ PokemonBodyData:
 	body_data  11,  206, WINGS,        BLUE   ; ALTARIA
 	body_data  13,  403, BIPEDAL_TAIL, WHITE  ; ZANGOOSE
 	body_data  27,  525, SERPENTINE,   BLACK  ; SEVIPER
+	body_data  10, 1680, HEAD,         YELLOW ; LUNATONE
+	body_data  12, 1540, HEAD,         RED    ; SOLROCK
 	body_data   6,  115, INSECTOID,    RED    ; CORPHISH
 	body_data  11,  328, INSECTOID,    RED    ; CRAWDAUNT
 	body_data   5,  215, HEAD_ARMS,    BROWN  ; BALTOY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
 	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
 	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
-	body_data  10,  180, FINS,         GREEN  ; BASCULIN
-	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  10,  180, FINS,         GREEN  ; BASCULIN
+	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE
 	body_data  10,  334, QUADRUPED,    BROWN  ; KROKOROK
 	body_data  15,  963, BIPEDAL_TAIL, RED    ; KROOKODILE
 	body_data   6,  375, BIPEDAL,      RED    ; DARUMAKA

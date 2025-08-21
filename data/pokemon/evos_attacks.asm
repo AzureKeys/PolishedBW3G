@@ -3504,6 +3504,54 @@ endc
 	learnset 52, MOONBLAST
 	learnset 59, HURRICANE ; Sky attack
 
+	evos_attacks Lunatone
+	learnset 1, DRAGONBREATH
+	learnset 1, HURRICANE
+	learnset 1, PECK
+	learnset 1, GROWL
+	learnset 1, SING
+	learnset 1, FURY_STRIKES ; Fury Attack
+	learnset 5, SING
+	learnset 7, FURY_STRIKES ; Fury Attack
+	learnset 9, SAFEGUARD
+	learnset 11, DISARM_VOICE
+	;learnset 14, MIST
+	learnset 17, SWIFT ; Round
+	learnset 20, SONIC_BOOM ; Natural Gift
+	learnset 23, TAKE_DOWN
+	learnset 26, RECOVER ; Refresh
+	learnset 30, DRAGON_DANCE ; Mirror Move
+	learnset 34, BARRIER ; Cotton Guard
+	learnset 34, DRAGONBREATH
+	learnset 40, DRAGON_PULSE
+	learnset 46, PERISH_SONG
+	learnset 52, MOONBLAST
+	learnset 59, HURRICANE ; Sky attack
+
+	evos_attacks Solrock
+	learnset 1, DRAGONBREATH
+	learnset 1, HURRICANE
+	learnset 1, PECK
+	learnset 1, GROWL
+	learnset 1, SING
+	learnset 1, FURY_STRIKES ; Fury Attack
+	learnset 5, SING
+	learnset 7, FURY_STRIKES ; Fury Attack
+	learnset 9, SAFEGUARD
+	learnset 11, DISARM_VOICE
+	;learnset 14, MIST
+	learnset 17, SWIFT ; Round
+	learnset 20, SONIC_BOOM ; Natural Gift
+	learnset 23, TAKE_DOWN
+	learnset 26, RECOVER ; Refresh
+	learnset 30, DRAGON_DANCE ; Mirror Move
+	learnset 34, BARRIER ; Cotton Guard
+	learnset 34, DRAGONBREATH
+	learnset 40, DRAGON_PULSE
+	learnset 46, PERISH_SONG
+	learnset 52, MOONBLAST
+	learnset 59, HURRICANE ; Sky attack
+
 	evos_attacks Corphish
 	evo_data EVOLVE_LEVEL, 30, CRAWDAUNT
 	learnset 1, WATER_GUN ; Bubble

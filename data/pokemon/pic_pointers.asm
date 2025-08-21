@@ -170,6 +170,8 @@ PokemonPicPointers::
 	pics Altaria
 	pics Zangoose
 	pics Seviper
+	pics Lunatone
+	pics Solrock
 	pics Corphish
 	pics Crawdaunt
 	pics Baltoy
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Whimsicott
 	pics Petilil
 	pics LilligantPlain
-	pics BasculinWhite
-	pics Sandile
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics BasculinWhite
+	pics Sandile
 	pics Krokorok
 	pics Krookodile
 	pics DarumakaPlain

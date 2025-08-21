@@ -1660,6 +1660,26 @@ SeviperPokedexEntry::
 	next "sharp. It is"
 	next "Zangoose's rival.@"
 
+SECTION "LunatonePokedexEntry", ROMX
+LunatonePokedexEntry::
+	db "Meteorite@"
+	db "It becomes active"
+	next "on nights with a"
+	next "full moon, so it"
+	page "is said to have"
+	next "some link to the"
+	next "lunar phases.@"
+
+SECTION "SolrockPokedexEntry", ROMX
+SolrockPokedexEntry::
+	db "Meteorite@"
+	db "This #mon"
+	next "species is said to"
+	next "be an avatar of"
+	page "the sun. It gives"
+	next "off light while"
+	next "spinning.@"
+
 SECTION "CorphishPokedexEntry", ROMX
 CorphishPokedexEntry::
 	db "Ruffian@"

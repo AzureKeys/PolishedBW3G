@@ -162,6 +162,7 @@ AlphabeticalPokedexOrder:
 	dp LOMBRE
 	dp LOTAD
 	dp LUDICOLO
+	dp LUNATONE
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR
@@ -287,6 +288,7 @@ AlphabeticalPokedexOrder:
 	dp SNORLAX
 	dp SNUBBULL
 	dp SOLOSIS
+	dp SOLROCK
 	dp SPOINK
 	dp STARMIE
 	dp STARYU

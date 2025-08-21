@@ -678,6 +678,14 @@ SECTION "Seviper Pics", ROMX
 SeviperFrontpic: INCBIN "gfx/pokemon/seviper/front.animated.2bpp.lz"
 SeviperBackpic:  INCBIN "gfx/pokemon/seviper/back.2bpp.lz"
 
+SECTION "Lunatone Pics", ROMX
+LunatoneFrontpic: INCBIN "gfx/pokemon/lunatone/front.animated.2bpp.lz"
+LunatoneBackpic:  INCBIN "gfx/pokemon/lunatone/back.2bpp.lz"
+
+SECTION "Solrock Pics", ROMX
+SolrockFrontpic: INCBIN "gfx/pokemon/solrock/front.animated.2bpp.lz"
+SolrockBackpic:  INCBIN "gfx/pokemon/solrock/back.2bpp.lz"
+
 SECTION "Corphish Pics", ROMX
 CorphishFrontpic: INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lz"
 CorphishBackpic:  INCBIN "gfx/pokemon/corphish/back.2bpp.lz"

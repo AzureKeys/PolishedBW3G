@@ -200,6 +200,8 @@ NewPokedexOrder:
 	dp ALTARIA
 	dp ZANGOOSE
 	dp SEVIPER
+	dp LUNATONE
+	dp SOLROCK
 	dp CORPHISH
 	dp CRAWDAUNT
 	dp BALTOY

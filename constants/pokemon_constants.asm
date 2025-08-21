@@ -190,6 +190,8 @@
 	const ALTARIA    ; a4
 	const ZANGOOSE   ; a5
 	const SEVIPER    ; a6
+	const LUNATONE   ; a7
+	const SOLROCK    ; a8
 	const CORPHISH   ; a9
 	const CRAWDAUNT  ; aa
 	const BALTOY     ; ab
@@ -276,12 +278,12 @@
 	const WHIMSICOTT ; 128
 	const PETILIL    ; 129
 	const LILLIGANT  ; 12a
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const BASCULIN   ; 12b
 	const SANDILE    ; 12c
 	const KROKOROK   ; 12d
 	const KROOKODILE ; 12e
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const DARUMAKA   ; 12f
 	const DARMANITAN ; 130
 	const MARACTUS   ; 131

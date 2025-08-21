@@ -826,6 +826,14 @@ SeviperEggSpeciesMoves:
 	dp SEVIPER, PLAIN_FORM
 	db $ff
 
+LunatoneEggSpeciesMoves:
+	dp LUNATONE, PLAIN_FORM
+	db $ff
+
+SolrockEggSpeciesMoves:
+	dp SOLROCK, PLAIN_FORM
+	db $ff
+
 CorphishEggSpeciesMoves:
 	dp CORPHISH, PLAIN_FORM
 	db ANCIENTPOWER
