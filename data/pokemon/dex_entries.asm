@@ -1325,52 +1325,52 @@ PelipperPokedexEntry::
 SECTION "RaltsPokedexEntry", ROMX
 RaltsPokedexEntry::
 	db "Feeling@"
-	db "Ralts senses the"
-	next "emotions of people"
-	next "around it. If its"
-	page "trainer is a good"
-	next "mood, it becomes"
-	next "cheerful.@"
+	db "The horns on its"
+	next "head provide a"
+	next "strong power that"
+	page "enables it to"
+	next "sense people's"
+	next "emotions.@"
 
 SECTION "KirliaPokedexEntry", ROMX
 KirliaPokedexEntry::
 	db "Emotion@"
-	db "It uses its horns"
-	next "to amplify its"
-	next "psychic power."
-	page "When it uses its"
-	next "power, it creates"
-	next "mirages.@"
+	db "It has a psychic"
+	next "power that enables"
+	next "it to distort the"
+	page "space around it"
+	next "and see into the"
+	next "future.@"
 
 SECTION "GardevoirPokedexEntry", ROMX
 GardevoirPokedexEntry::
 	db "Embrace@"
-	db "It has the ability"
-	next "to see the future."
-	next "If it senses"
-	page "danger, it will"
-	next "unleash its full"
-	next "power.@"
+	db "To protect its"
+	next "trainer, it will"
+	next "expend all its"
+	page "psychic power to"
+	next "create a small"
+	next "black hole.@"
 
 SECTION "ShroomishPokedexEntry", ROMX
 ShroomishPokedexEntry::
 	db "Mushroom@"
-	db "Shroomish live in"
-	next "damp soil in the"
-	next "depths of forests."
-	page "They feed on"
-	next "compost made of"
-	next "fallen leaves.@"
+	db "If it senses"
+	next "danger, it scat-"
+	next "ters spores from"
+	page "the top of its"
+	next "head to protect"
+	next "itself.@"
 
 SECTION "BreloomPokedexEntry", ROMX
 BreloomPokedexEntry::
 	db "Mushroom@"
-	db "It closes in on"
-	next "foes and throws"
-	next "punches with its"
-	page "stretchy arms. Its"
-	next "technique puts"
-	next "boxers to shame.@"
+	db "The seeds on its"
+	next "tail are made of"
+	next "toxic spores. It"
+	page "knocks out foes"
+	next "with quick, almost"
+	next "invisible punches.@"
 
 SECTION "SlakothPokedexEntry", ROMX
 SlakothPokedexEntry::
@@ -1414,12 +1414,12 @@ AzurillPokedexEntry::
 SECTION "NosepassPokedexEntry", ROMX
 NosepassPokedexEntry::
 	db "Compass@"
-	db "Its body emits a"
-	next "powerful magnetism"
-	next "that draws in its"
-	page "prey. It is more"
-	next "potent in colder"
-	next "seasons.@"
+	db "When endangered,"
+	next "it may protect it-"
+	next "self by increasing"
+	page "its magnetism and"
+	next "drawing in nearby"
+	next "iron objects.@"
 
 SECTION "SkittyPokedexEntry", ROMX
 SkittyPokedexEntry::
@@ -1454,72 +1454,71 @@ SableyePokedexEntry::
 SECTION "MawilePokedexEntry", ROMX
 MawilePokedexEntry::
 	db "Deceiver@"
-	db "Its huge jaw is"
-	next "made of steel"
-	next "horns that have"
-	page "deformed. It draws"
-	next "in prey with its"
-	next "cute face.@"
+	db "Attached to its"
+	next "mhead is a huge set"
+	next "of jaws formed by"
+	page "horns. It can"
+	next "chew through iron"
+	next "beams.@"
 
 SECTION "AronPokedexEntry", ROMX
 AronPokedexEntry::
 	db "Iron Armor@"
-	db "It has a body made"
-	next "of steel. To make"
-	next "its steel armor,"
-	page "it feeds on iron"
-	next "ore it digs up"
-	next "from mountains.@"
+	db "It usually lives"
+	next "deep in mountains."
+	next "When it's hungry,"
+	page "it comes down from"
+	next "the mountain and"
+	next "eats train tracks.@"
 
 SECTION "LaironPokedexEntry", ROMX
 LaironPokedexEntry::
 	db "Iron Armor@"
-	db "It tempers its"
-	next "steel body by"
-	next "drinking mineral"
-	page "springwater. It"
-	next "makes its nest"
-	next "near iron ore.@"
+	db "For food, it digs"
+	next "up iron ore. It"
+	next "smashes its steely"
+	page "body against"
+	next "others to fight"
+	next "over territory.@"
 
 SECTION "AggronPokedexEntry", ROMX
 AggronPokedexEntry::
 	db "Iron Armor@"
-	db "Its iron horns"
-	next "grow longer. They"
-	next "can be used to"
-	page "determine its age."
-	next "It proudly wears"
-	next "its armor's cuts.@"
+	db "While seeking iron"
+	next "for food, it digs"
+	next "tunnels by"
+	page "breaking through"
+	next "bedrock with its"
+	next "steel horns.@"
 
 SECTION "MedititePokedexEntry", ROMX
 MedititePokedexEntry::
 	db "Meditate@"
-	db "It heightens its"
-	next "energy through"
-	next "meditation. It can"
-	page "survive on only"
-	next "one Berry a day,"
-	next "due to this.@"
+	db "It never skips its"
+	next "daily yoga"
+	next "training. It"
+	page "heightens its"
+	next "inner strength"
+	next "by meditating.@"
 
 SECTION "MedichamPokedexEntry", ROMX
 MedichamPokedexEntry::
 	db "Meditate@"
-	db "Through the power"
-	next "of meditation, it"
-	next "gained a sixth"
-	page "sense. It has the"
-	next "ability to use"
-	next "psychic powers.@"
+	db "It avoids attacks"
+	next "with dance-like"
+	next "steps, then"
+	page "launches a devas-"
+	next "tating blow in the"
+	next "same motion.@"
 
 SECTION "RoseliaPokedexEntry", ROMX
 RoseliaPokedexEntry::
 	db "Thorn@"
-	db "It shoots sharp"
-	next "thorns at anyone"
-	next "who tries to steal"
-	page "the flowers from"
-	next "its arms. Its"
-	next "aroma is sweet.@"
+	db "Roselia raised on"
+	next "clean drinking"
+	next "water are known to"
+	page "grow vividly"
+	next "colored flowers.@"
 
 SECTION "WailmerPokedexEntry", ROMX
 WailmerPokedexEntry::
@@ -1544,22 +1543,22 @@ WailordPokedexEntry::
 SECTION "NumelPokedexEntry", ROMX
 NumelPokedexEntry::
 	db "Numb@"
-	db "Numel is extremely"
-	next "dull witted. It"
-	next "won't even notice"
-	page "being hit. Though"
-	next "it can't stand"
-	next "hunger at all.@"
+	db "The flaming magma"
+	next "it stored in the"
+	next "hump on its back"
+	page "is the source of"
+	next "its tremendous"
+	next "power.@"
 
 SECTION "CameruptPokedexEntry", ROMX
 CameruptPokedexEntry::
 	db "Eruption@"
-	db "The humps on its"
-	next "back are formed by"
-	next "a transformation"
-	page "of bones. They can"
-	next "sometimes blast"
-	next "out molten magma.@"
+	db "If angered, the"
+	next "humps on its back"
+	next "erupt in a shower"
+	page "of molten lava. It"
+	next "lives in craters"
+	next "of volcanoes.@"
 
 SECTION "TorkoalPokedexEntry", ROMX
 TorkoalPokedexEntry::
@@ -1593,52 +1592,52 @@ GrumpigPokedexEntry::
 SECTION "TrapinchPokedexEntry", ROMX
 TrapinchPokedexEntry::
 	db "Ant Pit@"
-	db "This #mon waits"
-	next "patiently for prey"
-	next "to fall into its"
-	page "pit. Its jaws are"
-	next "strong enough to"
-	next "crush boulders.@"
+	db "This #mon lives"
+	next "in arid deserts."
+	next "It patiently waits"
+	page "for prey inside"
+	next "its funnel-shaped"
+	next "nest.@"
 
 SECTION "VibravaPokedexEntry", ROMX
 VibravaPokedexEntry::
 	db "Vibration@"
-	db "Vibrava generates"
-	next "ultrasonic waves"
-	next "by vibrating its"
-	page "wings. They can"
-	next "even cause head-"
-	next "aches in people.@"
+	db "It creates ultra-"
+	next "sonic waves by"
+	next "quickly vibrating"
+	page "its wings. It"
+	next "uses this to stun"
+	next "its prey.@"
 
 SECTION "FlygonPokedexEntry", ROMX
 FlygonPokedexEntry::
 	db "Mystic@"
-	db "It whips up a"
-	next "sandstorm by"
-	next "flapping its"
-	page "wings. This makes"
-	next "a sound similar"
-	next "to singing.@"
+	db "Known as the"
+	next "Desert Spirit,"
+	next "this #mon hides"
+	page "in the sandstorms"
+	next "it causes by"
+	next "beating its wings.@"
 
 SECTION "SwabluPokedexEntry", ROMX
 SwabluPokedexEntry::
 	db "Cotton Bird@"
-	db "Swablu has light"
-	next "and fluffy wings"
-	next "like clouds. It"
-	page "likes to perch on"
-	next "people's heads"
-	next "like a hat.@"
+	db "It constantly"
+	next "grooms its cotton-"
+	next "like wings. It"
+	page "takes a shower to"
+	next "clean itself if it"
+	next "becomes dirty.@"
 
 SECTION "AltariaPokedexEntry", ROMX
 AltariaPokedexEntry::
 	db "Humming@"
-	db "If you hear a"
-	next "beautiful melody"
-	next "from deep in the"
-	page "mountains, it is"
-	next "the singing of"
-	next "an Altaria.@"
+	db "On sunny days, it"
+	next "flies freely"
+	next "through the sky"
+	page "and blends into"
+	next "the clouds. It can"
+	next "sing beautifully.@"
 
 SECTION "ZangoosePokedexEntry", ROMX
 ZangoosePokedexEntry::
@@ -1683,42 +1682,42 @@ SolrockPokedexEntry::
 SECTION "CorphishPokedexEntry", ROMX
 CorphishPokedexEntry::
 	db "Ruffian@"
-	db "It catches prey"
-	next "with its sharp"
-	next "claws. This #-"
-	page "mon has no trouble"
-	next "living in filthy"
-	next "water.@"
+	db "It can live in"
+	next "impure water where"
+	next "it doesn't need to"
+	page "compete with other"
+	next "#mon for food,"
+	next "so it thrives.@"
 
 SECTION "CrawdauntPokedexEntry", ROMX
 CrawdauntPokedexEntry::
 	db "Rogue@"
-	db "This #mon has"
-	next "an extremely"
-	next "violent nature. It"
-	page "challenges others"
-	next "to battle with its"
-	next "giant claws.@"
+	db "A rough customer"
+	next "that wildly flails"
+	next "its giant claws."
+	page "It is said to be"
+	next "extremely hard to"
+	next "raise.@"
 
 SECTION "BaltoyPokedexEntry", ROMX
 BaltoyPokedexEntry::
 	db "Clay Doll@"
-	db "Baltoy moves by"
+	db "It moves by"
 	next "spinning on its"
-	next "One foot. Ancient"
-	page "cave paintings"
-	next "depicting it have"
-	next "been discovered.@"
+	next "foot. It is a rare"
+	page "#mon that was"
+	next "discovered in"
+	next "ancient ruins.@"
 
 SECTION "ClaydolPokedexEntry", ROMX
 ClaydolPokedexEntry::
 	db "Clay Doll@"
-	db "Claydol are said"
-	next "to be mud dolls,"
-	next "brought to life by"
-	page "a mysterious ray."
-	next "They move around"
-	next "by levitating.@"
+	db "An ancient clay"
+	next "figurine was"
+	next "exposed to a"
+	page "mysterious ray of"
+	next "light, and it came"
+	next "to life.@"
 
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
@@ -1983,42 +1982,42 @@ AnnihilapePokedexEntry::
 SECTION "VictiniPokedexEntry", ROMX
 VictiniPokedexEntry::
 	db "Victory@"
-	db "It creates an"
-	next "unlimited supply"
-	next "of energy inside"
-	page "its body, which it"
-	next "shares with those"
-	next "it touches.@"
+	db "When it shares the"
+	next "infinite energy it"
+	next "creates, that"
+	page "being's entire body"
+	next "will be overflow-"
+	next "ing with power.@"
 
 SECTION "SnivyPokedexEntry", ROMX
 SnivyPokedexEntry::
 	db "Grass Snake@"
-	db "They photosynthe"
-	next "by bathing their"
-	next "tails in light."
-	page "It uses vines"
-	next "more adeptly"
-	next "than its hands.@"
+	db "The leaf on its"
+	next "tail generates"
+	next "energy when"
+	page "exposed to sun-"
+	next "light, making it"
+	next "swifter.@"
 
 SECTION "ServinePokedexEntry", ROMX
 ServinePokedexEntry::
 	db "Grass Snake@"
-	db "It moves along"
-	next "the ground as if"
-	next "sliding. It "
-	page "confuses its foe"
-	next "and attacks with"
-	next "a vine whip.@"
+	db "It runs low to the"
+	next "ground, weaving"
+	next "through the grass,"
+	page "then pummels its"
+	next "target by whipping"
+	next "it with its vines.@"
 
 SECTION "SerperiorPokedexEntry", ROMX
 SerperiorPokedexEntry::
 	db "Regal@"
-	db "It can stop its"
-	next "enemy's moves"
-	next "with a glare. It"
-	page "taken in solar"
-	next "energy and"
-	next "boosts it.@"
+	db "It stores energy"
+	next "from sunlight,"
+	next "then amplifies it"
+	page "dozens of times"
+	next "within its long"
+	next "body.@"
 
 SECTION "TepigPokedexEntry", ROMX
 TepigPokedexEntry::
