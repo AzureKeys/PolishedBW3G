@@ -175,6 +175,7 @@ BitmasksPointers:
 	dw CastformPlainBitmasks
 	dw ShuppetBitmasks
 	dw BanetteBitmasks
+	dw TropiusBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
 	dw ScolipedeBitmasks
-	dw CottoneeBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw CottoneeBitmasks
 	dw WhimsicottBitmasks
 	dw PetililBitmasks
 	dw LilligantPlainBitmasks

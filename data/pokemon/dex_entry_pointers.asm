@@ -176,6 +176,7 @@ PokedexDataPointerTable:
 	dba CastformPokedexEntry
 	dba ShuppetPokedexEntry
 	dba BanettePokedexEntry
+	dba TropiusPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
 	dba ScolipedePokedexEntry
-	dba CottoneePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba CottoneePokedexEntry
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
 	dba LilligantPlainPokedexEntry

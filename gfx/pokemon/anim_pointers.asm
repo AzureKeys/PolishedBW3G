@@ -175,6 +175,7 @@ AnimationPointers:
 	dw CastformPlainAnimation
 	dw ShuppetAnimation
 	dw BanetteAnimation
+	dw TropiusAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -253,9 +254,9 @@ AnimationPointers:
 	dw VenipedeAnimation
 	dw WhirlipedeAnimation
 	dw ScolipedeAnimation
-	dw CottoneeAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw CottoneeAnimation
 	dw WhimsicottAnimation
 	dw PetililAnimation
 	dw LilligantPlainAnimation

@@ -218,6 +218,7 @@ ClaydolFootprint::
 CastformFootprint::
 ShuppetFootprint::
 BanetteFootprint::
+TropiusFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

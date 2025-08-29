@@ -209,6 +209,7 @@ NewPokedexOrder:
 	dp CASTFORM
 	dp SHUPPET
 	dp BANETTE
+	dp TROPIUS
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

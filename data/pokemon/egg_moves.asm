@@ -856,6 +856,10 @@ ShuppetEggSpeciesMoves:
 	dp SHUPPET, PLAIN_FORM
 	db $ff
 
+TropiusEggSpeciesMoves:
+	dp TROPIUS, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

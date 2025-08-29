@@ -176,6 +176,7 @@ PokemonNames::
 	rawchar "Castform@@"
 	rawchar "Shuppet@@@"
 	rawchar "Banette@@@"
+	rawchar "Tropius@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
 	rawchar "Scolipede@"
-	rawchar "Cottonee@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Cottonee@@"
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"
 	rawchar "Lilligant@"

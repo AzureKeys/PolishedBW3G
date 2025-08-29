@@ -179,6 +179,7 @@ PokemonPicPointers::
 	pics CastformPlain
 	pics Shuppet
 	pics Banette
+	pics Tropius
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Venipede
 	pics Whirlipede
 	pics Scolipede
-	pics Cottonee
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Cottonee
 	pics Whimsicott
 	pics Petilil
 	pics LilligantPlain

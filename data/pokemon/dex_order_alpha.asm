@@ -322,6 +322,7 @@ AlphabeticalPokedexOrder:
 	dp TORNADUS
 	dp TRANQUILL
 	dp TRAPINCH
+	dp TROPIUS
 	dp TRUBBISH
 	dp TYMPOLE
 	dp TYNAMO

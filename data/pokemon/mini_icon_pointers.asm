@@ -179,6 +179,7 @@ MiniIconPointers:
 	mini_icon Castform
 	mini_icon Shuppet
 	mini_icon Banette
+	mini_icon Tropius
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Venipede
 	mini_icon Whirlipede
 	mini_icon Scolipede
-	mini_icon Cottonee
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Cottonee
 	mini_icon Whimsicott
 	mini_icon Petilil
 	mini_icon Lilligant

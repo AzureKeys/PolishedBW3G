@@ -175,6 +175,7 @@ FootprintPointers::
 	dw CastformFootprint
 	dw ShuppetFootprint
 	dw BanetteFootprint
+	dw TropiusFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
 	dw ScolipedeFootprint
-	dw CottoneeFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw CottoneeFootprint
 	dw WhimsicottFootprint
 	dw PetililFootprint
 	dw LilligantFootprint

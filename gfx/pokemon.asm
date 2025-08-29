@@ -714,6 +714,10 @@ SECTION "Banette Pics", ROMX
 BanetteFrontpic: INCBIN "gfx/pokemon/banette/front.animated.2bpp.lz"
 BanetteBackpic:  INCBIN "gfx/pokemon/banette/back.2bpp.lz"
 
+SECTION "Tropius Pics", ROMX
+TropiusFrontpic: INCBIN "gfx/pokemon/tropius/front.animated.2bpp.lz"
+TropiusBackpic:  INCBIN "gfx/pokemon/tropius/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

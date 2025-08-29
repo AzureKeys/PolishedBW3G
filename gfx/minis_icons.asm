@@ -882,6 +882,11 @@ BanetteMini::     INCBIN "gfx/minis/banette.2bpp.lz"
 BanetteMiniMask:: INCBIN "gfx/minis/banette_mask.1bpp.lz"
 BanetteIcon::     INCBIN "gfx/icons/banette.2bpp.lz"
 
+SECTION "Tropius Mini Icon", ROMX
+TropiusMini::     INCBIN "gfx/minis/tropius.2bpp.lz"
+TropiusMiniMask:: INCBIN "gfx/minis/tropius_mask.1bpp.lz"
+TropiusIcon::     INCBIN "gfx/icons/tropius.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
