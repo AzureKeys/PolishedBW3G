@@ -399,6 +399,11 @@ ArcanineHisuianAnimationExtra: INCLUDE "gfx/pokemon/arcanine_hisuian/anim_idle.a
 SneaselPlainAnimationExtra:   INCLUDE "gfx/pokemon/sneasel_plain/anim_idle.asm"
 SneaselHisuianAnimationExtra: INCLUDE "gfx/pokemon/sneasel_hisuian/anim_idle.asm"
 
+CastformPlainAnimationExtra: INCLUDE "gfx/pokemon/castform_plain/anim_idle.asm"
+CastformSunAnimationExtra:   INCLUDE "gfx/pokemon/castform_sun/anim_idle.asm"
+CastformRainAnimationExtra:  INCLUDE "gfx/pokemon/castform_rain/anim_idle.asm"
+CastformHailAnimationExtra:  INCLUDE "gfx/pokemon/castform_hail/anim_idle.asm"
+
 UnfezantMaleAnimationExtra:   INCLUDE "gfx/pokemon/unfezant_male/anim_idle.asm"
 UnfezantFemaleAnimationExtra: INCLUDE "gfx/pokemon/unfezant_female/anim_idle.asm"
 

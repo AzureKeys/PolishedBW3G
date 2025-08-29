@@ -172,6 +172,7 @@ FramesPointers:
 	dw CrawdauntFrames
 	dw BaltoyFrames
 	dw ClaydolFrames
+	dw CastformPlainFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw CottoneeFrames
 	dw WhimsicottFrames
 	dw PetililFrames
-	dw LilligantPlainFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw LilligantPlainFrames
 	dw BasculinWhiteFrames
 	dw SandileFrames
 	dw KrokorokFrames
@@ -403,6 +404,10 @@ FramesPointers:
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames
 	dw SneaselHisuianFrames
+	
+	dw CastformSunFrames
+	dw CastformRainFrames
+	dw CastformHailFrames
 	
 	dw UnfezantFemaleFrames
 	

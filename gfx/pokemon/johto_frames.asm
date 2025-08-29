@@ -272,6 +272,11 @@ SneaselHisuianFrames: INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"
 DudunsparceTwoSegmentFrames:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/frames.asm"
 DudunsparceThreeSegmentFrames: INCLUDE "gfx/pokemon/dudunsparce_three_segment/frames.asm"
 
+CastformPlainFrames: INCLUDE "gfx/pokemon/castform_plain/frames.asm"
+CastformSunFrames:   INCLUDE "gfx/pokemon/castform_sun/frames.asm"
+CastformRainFrames:  INCLUDE "gfx/pokemon/castform_rain/frames.asm"
+CastformHailFrames:  INCLUDE "gfx/pokemon/castform_hail/frames.asm"
+
 UnfezantMaleFrames:   INCLUDE "gfx/pokemon/unfezant_male/frames.asm"
 UnfezantFemaleFrames: INCLUDE "gfx/pokemon/unfezant_female/frames.asm"
 

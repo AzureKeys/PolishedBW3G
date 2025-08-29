@@ -172,6 +172,7 @@ AnimationExtraPointers:
 	dw CrawdauntAnimationExtra
 	dw BaltoyAnimationExtra
 	dw ClaydolAnimationExtra
+	dw CastformPlainAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw CottoneeAnimationExtra
 	dw WhimsicottAnimationExtra
 	dw PetililAnimationExtra
-	dw LilligantPlainAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw LilligantPlainAnimationExtra
 	dw BasculinWhiteAnimationExtra
 	dw SandileAnimationExtra
 	dw KrokorokAnimationExtra
@@ -403,6 +404,10 @@ AnimationExtraPointers:
 	dw GrowlitheHisuianAnimationExtra
 	dw ArcanineHisuianAnimationExtra
 	dw SneaselHisuianAnimationExtra
+	
+	dw CastformSunAnimationExtra
+	dw CastformRainAnimationExtra
+	dw CastformHailAnimationExtra
 	
 	dw UnfezantFemaleAnimationExtra
 	

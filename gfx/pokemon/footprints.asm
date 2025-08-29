@@ -215,6 +215,7 @@ CorphishFootprint::
 CrawdauntFootprint::
 BaltoyFootprint::
 ClaydolFootprint::
+CastformFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

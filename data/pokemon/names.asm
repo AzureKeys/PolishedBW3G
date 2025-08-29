@@ -173,6 +173,7 @@ PokemonNames::
 	rawchar "Crawdaunt@"
 	rawchar "Baltoy@@@@"
 	rawchar "Claydol@@@"
+	rawchar "Castform@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Cottonee@@"
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"
-	rawchar "Lilligant@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Lilligant@"
 	rawchar "Basculin@@"
 	rawchar "Sandile@@@"
 	rawchar "Krokorok@@"

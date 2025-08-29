@@ -867,6 +867,11 @@ ClaydolMini::     INCBIN "gfx/minis/claydol.2bpp.lz"
 ClaydolMiniMask:: INCBIN "gfx/minis/claydol_mask.1bpp.lz"
 ClaydolIcon::     INCBIN "gfx/icons/claydol.2bpp.lz"
 
+SECTION "Castform Mini Icon", ROMX
+CastformMini::     INCBIN "gfx/minis/castform.2bpp.lz"
+CastformMiniMask:: INCBIN "gfx/minis/castform_mask.1bpp.lz"
+CastformIcon::     INCBIN "gfx/icons/castform.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
@@ -1941,6 +1946,21 @@ SECTION "SneaselHisuian Mini Icon", ROMX
 SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"
 SneaselHisuianMiniMask:: INCBIN "gfx/minis/sneasel_hisuian_mask.1bpp.lz"
 SneaselHisuianIcon::     INCBIN "gfx/icons/sneasel_hisuian.2bpp.lz"
+
+SECTION "CastformSun Mini Icon", ROMX
+CastformSunMini::     INCBIN "gfx/minis/castform_sun.2bpp.lz"
+CastformSunMiniMask:: INCBIN "gfx/minis/castform_sun_mask.1bpp.lz"
+CastformSunIcon::     INCBIN "gfx/icons/castform_sun.2bpp.lz"
+
+SECTION "CastformRain Mini Icon", ROMX
+CastformRainMini::     INCBIN "gfx/minis/castform_rain.2bpp.lz"
+CastformRainMiniMask:: INCBIN "gfx/minis/castform_rain_mask.1bpp.lz"
+CastformRainIcon::     INCBIN "gfx/icons/castform_rain.2bpp.lz"
+
+SECTION "CastformHail Mini Icon", ROMX
+CastformHailMini::     INCBIN "gfx/minis/castform_hail.2bpp.lz"
+CastformHailMiniMask:: INCBIN "gfx/minis/castform_hail_mask.1bpp.lz"
+CastformHailIcon::     INCBIN "gfx/icons/castform_hail.2bpp.lz"
 
 SECTION "UnfezantFemale Mini Icon", ROMX
 UnfezantFemaleMini::     INCBIN "gfx/minis/unfezant_female.2bpp.lz"

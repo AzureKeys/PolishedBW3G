@@ -176,6 +176,7 @@ PokemonPicPointers::
 	pics Crawdaunt
 	pics Baltoy
 	pics Claydol
+	pics CastformPlain
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Cottonee
 	pics Whimsicott
 	pics Petilil
-	pics LilligantPlain
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics LilligantPlain
 	pics BasculinWhite
 	pics Sandile
 	pics Krokorok
@@ -407,6 +408,10 @@ PokemonPicPointers::
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
 	pics SneaselHisuian
+	
+	pics CastformSun
+	pics CastformRain
+	pics CastformHail
 	
 	pics UnfezantFemale
 	

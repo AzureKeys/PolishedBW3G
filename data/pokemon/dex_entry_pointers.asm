@@ -173,6 +173,7 @@ PokedexDataPointerTable:
 	dba CrawdauntPokedexEntry
 	dba BaltoyPokedexEntry
 	dba ClaydolPokedexEntry
+	dba CastformPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba CottoneePokedexEntry
 	dba WhimsicottPokedexEntry
 	dba PetililPokedexEntry
-	dba LilligantPlainPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba LilligantPlainPokedexEntry
 	dba BasculinWhitePokedexEntry
 	dba SandilePokedexEntry
 	dba KrokorokPokedexEntry
@@ -394,6 +395,10 @@ PokedexDataPointerTable:
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
+	
+	dba CastformPokedexEntry
+	dba CastformPokedexEntry
+	dba CastformPokedexEntry
 	
 	dba UnfezantPokedexEntry
 	

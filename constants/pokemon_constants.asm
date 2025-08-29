@@ -196,6 +196,7 @@
 	const CRAWDAUNT  ; aa
 	const BALTOY     ; ab
 	const CLAYDOL    ; ac
+	const CASTFORM   ; ad
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -277,9 +278,9 @@
 	const COTTONEE   ; 127
 	const WHIMSICOTT ; 128
 	const PETILIL    ; 129
-	const LILLIGANT  ; 12a
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const LILLIGANT  ; 12a
 	const BASCULIN   ; 12b
 	const SANDILE    ; 12c
 	const KROKOROK   ; 12d
@@ -476,6 +477,12 @@ DEF HISUIAN_FORM EQU 4
 
 ; paldean forms
 DEF PALDEAN_FORM EQU 5
+	
+; castform
+	ext_const_def 2
+	ext_const CASTFORM_SUN_FORM  ; 15d (2)
+	ext_const CASTFORM_RAIN_FORM ; 15d (3)
+	ext_const CASTFORM_HAIL_FORM ; 15d (4)
 
 ; unfezant
 	ext_const_def 1, UNFEZANT_MALE_FORM ; (1)

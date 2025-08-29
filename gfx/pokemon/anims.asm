@@ -399,6 +399,11 @@ ArcanineHisuianAnimation: INCLUDE "gfx/pokemon/arcanine_hisuian/anim.asm"
 SneaselPlainAnimation:   INCLUDE "gfx/pokemon/sneasel_plain/anim.asm"
 SneaselHisuianAnimation: INCLUDE "gfx/pokemon/sneasel_hisuian/anim.asm"
 
+CastformPlainAnimation: INCLUDE "gfx/pokemon/castform_plain/anim.asm"
+CastformSunAnimation:   INCLUDE "gfx/pokemon/castform_sun/anim.asm"
+CastformRainAnimation:  INCLUDE "gfx/pokemon/castform_rain/anim.asm"
+CastformHailAnimation:  INCLUDE "gfx/pokemon/castform_hail/anim.asm"
+
 UnfezantMaleAnimation:   INCLUDE "gfx/pokemon/unfezant_male/anim.asm"
 UnfezantFemaleAnimation: INCLUDE "gfx/pokemon/unfezant_female/anim.asm"
 

@@ -172,6 +172,7 @@ FootprintPointers::
 	dw CrawdauntFootprint
 	dw BaltoyFootprint
 	dw ClaydolFootprint
+	dw CastformFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw CottoneeFootprint
 	dw WhimsicottFootprint
 	dw PetililFootprint
-	dw LilligantFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw LilligantFootprint
 	dw BasculinFootprint
 	dw SandileFootprint
 	dw KrokorokFootprint
@@ -393,6 +394,10 @@ FootprintPointers::
 	dw GrowlitheFootprint
 	dw ArcanineFootprint
 	dw SneaselFootprint
+	
+	dw CastformFootprint
+	dw CastformFootprint
+	dw CastformFootprint
 	
 	dw UnfezantFootprint
 	

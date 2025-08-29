@@ -172,6 +172,7 @@ EggSpeciesMovesPointers::
 	dw CorphishEggSpeciesMoves          ; Crawdaunt
 	dw BaltoyEggSpeciesMoves            ; Baltoy
 	dw BaltoyEggSpeciesMoves            ; Claydol
+	dw CastformEggSpeciesMoves          ; Castform
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw CottoneeEggSpeciesMoves          ; Cottonee
 	dw CottoneeEggSpeciesMoves          ; Whimsicott
 	dw PetililEggSpeciesMoves           ; Petilil
-	dw PetililEggSpeciesMoves           ; Lilligant
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw PetililEggSpeciesMoves           ; Lilligant
 	dw BasculinEggSpeciesMoves          ; Basculin
 	dw SandileEggSpeciesMoves           ; Sandile
 	dw SandileEggSpeciesMoves           ; Krokorok
@@ -393,6 +394,10 @@ EggSpeciesMovesPointers::
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
+	
+	dw CastformEggSpeciesMoves          ; Castform (Sun Form)
+	dw CastformEggSpeciesMoves          ; Castform (Rain Form)
+	dw CastformEggSpeciesMoves          ; Castform (Hail Form)
 	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
 	

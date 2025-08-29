@@ -848,6 +848,10 @@ BaltoyEggSpeciesMoves:
 	dp BALTOY, PLAIN_FORM
 	db $ff
 
+CastformEggSpeciesMoves:
+	dp CASTFORM, NO_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

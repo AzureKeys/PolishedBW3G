@@ -399,6 +399,11 @@ ArcanineHisuianBitmasks: INCLUDE "gfx/pokemon/arcanine_hisuian/bitmask.asm"
 SneaselPlainBitmasks:   INCLUDE "gfx/pokemon/sneasel_plain/bitmask.asm"
 SneaselHisuianBitmasks: INCLUDE "gfx/pokemon/sneasel_hisuian/bitmask.asm"
 
+CastformPlainBitmasks: INCLUDE "gfx/pokemon/castform_plain/bitmask.asm"
+CastformSunBitmasks:   INCLUDE "gfx/pokemon/castform_sun/bitmask.asm"
+CastformRainBitmasks:  INCLUDE "gfx/pokemon/castform_rain/bitmask.asm"
+CastformHailBitmasks:  INCLUDE "gfx/pokemon/castform_hail/bitmask.asm"
+
 UnfezantMaleBitmasks:   INCLUDE "gfx/pokemon/unfezant_male/bitmask.asm"
 UnfezantFemaleBitmasks: INCLUDE "gfx/pokemon/unfezant_female/bitmask.asm"
 

@@ -206,6 +206,7 @@ NewPokedexOrder:
 	dp CRAWDAUNT
 	dp BALTOY
 	dp CLAYDOL
+	dp CASTFORM
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

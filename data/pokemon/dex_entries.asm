@@ -1719,6 +1719,16 @@ ClaydolPokedexEntry::
 	next "light, and it came"
 	next "to life.@"
 
+SECTION "CastformPokedexEntry", ROMX
+CastformPokedexEntry::
+	db "Weather@"
+	db "Its appearance"
+	next "changes with the"
+	next "weather. Recently,"
+	page "its molecules were"
+	next "found to be just"
+	next "like water.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

@@ -179,6 +179,7 @@ PokemonBodyData:
 	body_data  11,  328, INSECTOID,    RED    ; CRAWDAUNT
 	body_data   5,  215, HEAD_ARMS,    BROWN  ; BALTOY
 	body_data  15, 1080, HEAD_ARMS,    BLACK  ; CLAYDOL
+	body_data   3,    8, HEAD,         GRAY   ; CASTFORM
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -260,9 +261,9 @@ PokemonBodyData:
 	body_data   3,    6, HEAD,         GREEN  ; COTTONEE
 	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
 	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
-	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
 	body_data  10,  180, FINS,         GREEN  ; BASCULIN
 	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE
 	body_data  10,  334, QUADRUPED,    BROWN  ; KROKOROK
@@ -400,6 +401,10 @@ PokemonBodyData:
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
+	
+	body_data   3,    8, HEAD,         RED    ; CASTFORM (CASTFORM_SUN_FORM)
+	body_data   3,    8, HEAD,         BLUE   ; CASTFORM (CASTFORM_RAIN_FORM)
+	body_data   3,    8, HEAD,         WHITE  ; CASTFORM (CASTFORM_HAIL_FORM)
 	
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT (UNFEZANT_FEMALE_FORM)
 	

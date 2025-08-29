@@ -30,6 +30,7 @@ AlphabeticalPokedexOrder:
 	dp BRELOOM
 	dp CAMERUPT
 	dp CARRACOSTA
+	dp CASTFORM
 	dp CHANDELURE
 	dp CHINCHOU
 	dp CINCCINO

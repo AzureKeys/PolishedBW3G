@@ -176,6 +176,7 @@ MiniIconPointers:
 	mini_icon Crawdaunt
 	mini_icon Baltoy
 	mini_icon Claydol
+	mini_icon Castform
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Cottonee
 	mini_icon Whimsicott
 	mini_icon Petilil
-	mini_icon Lilligant
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Lilligant
 	mini_icon Basculin
 	mini_icon Sandile
 	mini_icon Krokorok
@@ -407,6 +408,10 @@ MiniIconPointers:
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
 	mini_icon SneaselHisuian
+	
+	mini_icon CastformSun
+	mini_icon CastformRain
+	mini_icon CastformHail
 
 	mini_icon UnfezantFemale
 	

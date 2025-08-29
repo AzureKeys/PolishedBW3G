@@ -176,6 +176,7 @@ EvosAttacksPointers::
 	dw CrawdauntEvosAttacks
 	dw BaltoyEvosAttacks
 	dw ClaydolEvosAttacks
+	dw CastformEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -257,9 +258,9 @@ EvosAttacksPointers::
 	dw CottoneeEvosAttacks
 	dw WhimsicottEvosAttacks
 	dw PetililEvosAttacks
-	dw LilligantPlainEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw LilligantPlainEvosAttacks
 	dw BasculinEvosAttacks
 	dw SandileEvosAttacks
 	dw KrokorokEvosAttacks
@@ -397,6 +398,10 @@ EvosAttacksPointers::
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks
+	
+	dw CastformEvosAttacks
+	dw CastformEvosAttacks
+	dw CastformEvosAttacks
 	
 	dw UnfezantEvosAttacks
 	

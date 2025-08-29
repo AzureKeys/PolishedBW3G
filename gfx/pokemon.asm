@@ -702,6 +702,10 @@ SECTION "Claydol Pics", ROMX
 ClaydolFrontpic: INCBIN "gfx/pokemon/claydol/front.animated.2bpp.lz"
 ClaydolBackpic:  INCBIN "gfx/pokemon/claydol/back.2bpp.lz"
 
+SECTION "CastformPlain Pics", ROMX
+CastformPlainFrontpic: INCBIN "gfx/pokemon/castform_plain/front.animated.2bpp.lz"
+CastformPlainBackpic:  INCBIN "gfx/pokemon/castform_plain/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"
@@ -1567,6 +1571,18 @@ ArcanineHisuianBackpic:  INCBIN "gfx/pokemon/arcanine_hisuian/back.2bpp.lz"
 SECTION "SneaselHisuian Pics", ROMX
 SneaselHisuianFrontpic: INCBIN "gfx/pokemon/sneasel_hisuian/front.animated.2bpp.lz"
 SneaselHisuianBackpic:  INCBIN "gfx/pokemon/sneasel_hisuian/back.2bpp.lz"
+
+SECTION "CastformSun Pics", ROMX
+CastformSunFrontpic: INCBIN "gfx/pokemon/castform_sun/front.animated.2bpp.lz"
+CastformSunBackpic:  INCBIN "gfx/pokemon/castform_sun/back.2bpp.lz"
+
+SECTION "CastformRain Pics", ROMX
+CastformRainFrontpic: INCBIN "gfx/pokemon/castform_rain/front.animated.2bpp.lz"
+CastformRainBackpic:  INCBIN "gfx/pokemon/castform_rain/back.2bpp.lz"
+
+SECTION "CastformHail Pics", ROMX
+CastformHailFrontpic: INCBIN "gfx/pokemon/castform_hail/front.animated.2bpp.lz"
+CastformHailBackpic:  INCBIN "gfx/pokemon/castform_hail/back.2bpp.lz"
 
 SECTION "UnfezantFemale Pics", ROMX
 UnfezantFemaleFrontpic: INCBIN "gfx/pokemon/unfezant_female/front.animated.2bpp.lz"
