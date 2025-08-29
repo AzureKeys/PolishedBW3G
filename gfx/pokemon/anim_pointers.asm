@@ -173,6 +173,8 @@ AnimationPointers:
 	dw BaltoyAnimation
 	dw ClaydolAnimation
 	dw CastformPlainAnimation
+	dw ShuppetAnimation
+	dw BanetteAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw WhirlipedeAnimation
 	dw ScolipedeAnimation
 	dw CottoneeAnimation
-	dw WhimsicottAnimation
-	dw PetililAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw WhimsicottAnimation
+	dw PetililAnimation
 	dw LilligantPlainAnimation
 	dw BasculinWhiteAnimation
 	dw SandileAnimation

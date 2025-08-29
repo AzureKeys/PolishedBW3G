@@ -852,6 +852,10 @@ CastformEggSpeciesMoves:
 	dp CASTFORM, NO_FORM
 	db $ff
 
+ShuppetEggSpeciesMoves:
+	dp SHUPPET, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

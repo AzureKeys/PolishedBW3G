@@ -207,6 +207,8 @@ NewPokedexOrder:
 	dp BALTOY
 	dp CLAYDOL
 	dp CASTFORM
+	dp SHUPPET
+	dp BANETTE
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

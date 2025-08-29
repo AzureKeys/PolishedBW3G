@@ -177,6 +177,8 @@ EvosAttacksPointers::
 	dw BaltoyEvosAttacks
 	dw ClaydolEvosAttacks
 	dw CastformEvosAttacks
+	dw ShuppetEvosAttacks
+	dw BanetteEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw WhirlipedeEvosAttacks
 	dw ScolipedeEvosAttacks
 	dw CottoneeEvosAttacks
-	dw WhimsicottEvosAttacks
-	dw PetililEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw WhimsicottEvosAttacks
+	dw PetililEvosAttacks
 	dw LilligantPlainEvosAttacks
 	dw BasculinEvosAttacks
 	dw SandileEvosAttacks

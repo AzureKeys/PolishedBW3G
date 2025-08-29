@@ -177,6 +177,8 @@ PokemonPicPointers::
 	pics Baltoy
 	pics Claydol
 	pics CastformPlain
+	pics Shuppet
+	pics Banette
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Whirlipede
 	pics Scolipede
 	pics Cottonee
-	pics Whimsicott
-	pics Petilil
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Whimsicott
+	pics Petilil
 	pics LilligantPlain
 	pics BasculinWhite
 	pics Sandile

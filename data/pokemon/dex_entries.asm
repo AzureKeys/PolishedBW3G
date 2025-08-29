@@ -1729,6 +1729,26 @@ CastformPokedexEntry::
 	next "found to be just"
 	next "like water.@"
 
+SECTION "ShuppetPokedexEntry", ROMX
+ShuppetPokedexEntry::
+	db "Puppet@"
+	db "It feeds on the"
+	next "dark emotions of"
+	next "sadness and"
+	page "hatred which make"
+	next "it grow steadily"
+	next "stronger.@"
+
+SECTION "BanettePokedexEntry", ROMX
+BanettePokedexEntry::
+	db "Marionette@"
+	db "This #mon dev-"
+	next "eloped from an"
+	next "abandoned doll"
+	page "that amassed a"
+	next "grudge. It is seen"
+	next "in dark alleys.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

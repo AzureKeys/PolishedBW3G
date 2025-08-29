@@ -197,6 +197,8 @@
 	const BALTOY     ; ab
 	const CLAYDOL    ; ac
 	const CASTFORM   ; ad
+	const SHUPPET    ; ae
+	const BANETTE    ; af
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const WHIRLIPEDE ; 125
 	const SCOLIPEDE  ; 126
 	const COTTONEE   ; 127
-	const WHIMSICOTT ; 128
-	const PETILIL    ; 129
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const WHIMSICOTT ; 128
+	const PETILIL    ; 129
 	const LILLIGANT  ; 12a
 	const BASCULIN   ; 12b
 	const SANDILE    ; 12c

@@ -18,6 +18,7 @@ AlphabeticalPokedexOrder:
 	dp AZUMARILL
 	dp AZURILL
 	dp BALTOY
+	dp BANETTE
 	dp BASCULIN
 	dp BEARTIC
 	dp BEHEEYEM
@@ -272,6 +273,7 @@ AlphabeticalPokedexOrder:
 	dp SHIFTRY
 	dp SHROOMISH
 	dp SHUCKLE
+	dp SHUPPET
 	dp SIGILYPH
 	dp SIMIPOUR
 	dp SIMISAGE

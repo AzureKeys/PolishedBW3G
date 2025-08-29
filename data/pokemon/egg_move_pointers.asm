@@ -173,6 +173,8 @@ EggSpeciesMovesPointers::
 	dw BaltoyEggSpeciesMoves            ; Baltoy
 	dw BaltoyEggSpeciesMoves            ; Claydol
 	dw CastformEggSpeciesMoves          ; Castform
+	dw ShuppetEggSpeciesMoves           ; Shuppet
+	dw ShuppetEggSpeciesMoves           ; Banette
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw VenipedeEggSpeciesMoves          ; Whirlipede
 	dw VenipedeEggSpeciesMoves          ; Scolipede
 	dw CottoneeEggSpeciesMoves          ; Cottonee
-	dw CottoneeEggSpeciesMoves          ; Whimsicott
-	dw PetililEggSpeciesMoves           ; Petilil
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw CottoneeEggSpeciesMoves          ; Whimsicott
+	dw PetililEggSpeciesMoves           ; Petilil
 	dw PetililEggSpeciesMoves           ; Lilligant
 	dw BasculinEggSpeciesMoves          ; Basculin
 	dw SandileEggSpeciesMoves           ; Sandile

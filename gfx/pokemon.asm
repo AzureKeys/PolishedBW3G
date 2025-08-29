@@ -706,6 +706,14 @@ SECTION "CastformPlain Pics", ROMX
 CastformPlainFrontpic: INCBIN "gfx/pokemon/castform_plain/front.animated.2bpp.lz"
 CastformPlainBackpic:  INCBIN "gfx/pokemon/castform_plain/back.2bpp.lz"
 
+SECTION "Shuppet Pics", ROMX
+ShuppetFrontpic: INCBIN "gfx/pokemon/shuppet/front.animated.2bpp.lz"
+ShuppetBackpic:  INCBIN "gfx/pokemon/shuppet/back.2bpp.lz"
+
+SECTION "Banette Pics", ROMX
+BanetteFrontpic: INCBIN "gfx/pokemon/banette/front.animated.2bpp.lz"
+BanetteBackpic:  INCBIN "gfx/pokemon/banette/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

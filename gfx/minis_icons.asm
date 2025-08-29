@@ -872,6 +872,16 @@ CastformMini::     INCBIN "gfx/minis/castform.2bpp.lz"
 CastformMiniMask:: INCBIN "gfx/minis/castform_mask.1bpp.lz"
 CastformIcon::     INCBIN "gfx/icons/castform.2bpp.lz"
 
+SECTION "Shuppet Mini Icon", ROMX
+ShuppetMini::     INCBIN "gfx/minis/shuppet.2bpp.lz"
+ShuppetMiniMask:: INCBIN "gfx/minis/shuppet_mask.1bpp.lz"
+ShuppetIcon::     INCBIN "gfx/icons/shuppet.2bpp.lz"
+
+SECTION "Banette Mini Icon", ROMX
+BanetteMini::     INCBIN "gfx/minis/banette.2bpp.lz"
+BanetteMiniMask:: INCBIN "gfx/minis/banette_mask.1bpp.lz"
+BanetteIcon::     INCBIN "gfx/icons/banette.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

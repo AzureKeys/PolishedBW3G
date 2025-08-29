@@ -216,6 +216,8 @@ CrawdauntFootprint::
 BaltoyFootprint::
 ClaydolFootprint::
 CastformFootprint::
+ShuppetFootprint::
+BanetteFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

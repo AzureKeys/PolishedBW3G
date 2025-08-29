@@ -180,6 +180,8 @@ PokemonBodyData:
 	body_data   5,  215, HEAD_ARMS,    BROWN  ; BALTOY
 	body_data  15, 1080, HEAD_ARMS,    BLACK  ; CLAYDOL
 	body_data   3,    8, HEAD,         GRAY   ; CASTFORM
+	body_data   6,   23, HEAD,         BLACK  ; SHUPPET
+	body_data  11,  125, BIPEDAL_TAIL, BLACK  ; BANETTE
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data  12,  585, HEAD,         GRAY   ; WHIRLIPEDE
 	body_data  25, 2005, INSECTOID,    RED    ; SCOLIPEDE
 	body_data   3,    6, HEAD,         GREEN  ; COTTONEE
-	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
-	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   7,   66, BIPEDAL,      GREEN  ; WHIMSICOTT
+	body_data   5,   66, HEAD_BASE,    GREEN  ; PETILIL
 	body_data  11,  163, HEAD_BASE,    GREEN  ; LILLIGANT
 	body_data  10,  180, FINS,         GREEN  ; BASCULIN
 	body_data   7,  152, QUADRUPED,    BROWN  ; SANDILE

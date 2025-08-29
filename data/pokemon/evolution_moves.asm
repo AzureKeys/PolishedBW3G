@@ -177,6 +177,8 @@ endc
 	db NO_MOVE      ; BALTOY
 	db HYPER_BEAM   ; CLAYDOL
 	db NO_MOVE      ; CASTFORM
+	db NO_MOVE      ; SHUPPET
+	db NO_MOVE      ; BANETTE
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
-	db NO_MOVE      ; WHIMSICOTT
-	db NO_MOVE      ; PETILIL
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; WHIMSICOTT
+	db NO_MOVE      ; PETILIL
 	db NO_MOVE      ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
 	db NO_MOVE      ; SANDILE

@@ -178,6 +178,8 @@ endc
 	db   1,  35 ; Baltoy
 	db  36, 100 ; Claydol
 	db   1, 100 ; Castform
+	db   1,  36 ; Shuppet
+	db  37, 100 ; Banette
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -257,10 +259,10 @@ endc
 	db  22,  29 ; Whirlipede
 	db  30, 100 ; Scolipede
 	db   1,  29 ; Cottonee
-	db  30, 100 ; Whimsicott
-	db   1,  29 ; Petilil
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  30, 100 ; Whimsicott
+	db   1,  29 ; Petilil
 	db  30, 100 ; Lilligant
 	db  15, 100 ; Basculin
 	db   1,  28 ; Sandile

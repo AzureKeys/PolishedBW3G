@@ -173,6 +173,8 @@ AnimationExtraPointers:
 	dw BaltoyAnimationExtra
 	dw ClaydolAnimationExtra
 	dw CastformPlainAnimationExtra
+	dw ShuppetAnimationExtra
+	dw BanetteAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw WhirlipedeAnimationExtra
 	dw ScolipedeAnimationExtra
 	dw CottoneeAnimationExtra
-	dw WhimsicottAnimationExtra
-	dw PetililAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw WhimsicottAnimationExtra
+	dw PetililAnimationExtra
 	dw LilligantPlainAnimationExtra
 	dw BasculinWhiteAnimationExtra
 	dw SandileAnimationExtra

@@ -179,6 +179,8 @@ PokemonCries::
 	mon_cry CRY_MEDITITE,    $2b0,  $0d6 ; Baltoy
 	mon_cry CRY_TEDDIURSA,  -$147,  $088 ; Claydol
 	mon_cry CRY_DIGLETT,     $016,  $08c ; Castform
+	mon_cry CRY_REMORAID,    $820,  $070 ; Shuppet
+	mon_cry CRY_DROWZEE,     $180,  $05f ; Banette
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
 	mon_cry CRY_TYPHLOSION,  $210,  $095 ; Scolipede
 	mon_cry CRY_MARILL,      $0d7,  $140 ; Cottonee
-	mon_cry CRY_WHIMSICOTT,  $0fa,  $100 ; Whimsicott
-	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_WHIMSICOTT,  $0fa,  $100 ; Whimsicott
+	mon_cry CRY_REMORAID,   -$047,  $0b4 ; Petilil
 	mon_cry CRY_HYDREIGON,   $172,  $0b2 ; Lilligant
 	mon_cry CRY_REMORAID,    $122,  $110 ; Basculin
 	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; Sandile

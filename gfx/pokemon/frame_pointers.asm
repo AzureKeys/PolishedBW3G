@@ -173,6 +173,8 @@ FramesPointers:
 	dw BaltoyFrames
 	dw ClaydolFrames
 	dw CastformPlainFrames
+	dw ShuppetFrames
+	dw BanetteFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw WhirlipedeFrames
 	dw ScolipedeFrames
 	dw CottoneeFrames
-	dw WhimsicottFrames
-	dw PetililFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw WhimsicottFrames
+	dw PetililFrames
 	dw LilligantPlainFrames
 	dw BasculinWhiteFrames
 	dw SandileFrames
