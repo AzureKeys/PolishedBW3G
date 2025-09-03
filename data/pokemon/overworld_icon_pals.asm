@@ -180,6 +180,7 @@ OverworldMonIconColors::
 	iconpal PURPLE, TEAL ; SHUPPET
 	iconpal BLACK, BLUE ; BANETTE
 	iconpal GREEN, BROWN ; TROPIUS
+	iconpal WHITE, RED ; ABSOL
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; LEAVANNY
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
-	iconpal RED, ORANGE ; SCOLIPEDE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal RED, ORANGE ; SCOLIPEDE
 	iconpal GREEN, ORANGE ; COTTONEE
 	iconpal BROWN, GRAY ; WHIMSICOTT
 	iconpal GREEN, BROWN ; PETILIL

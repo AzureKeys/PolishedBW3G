@@ -887,6 +887,11 @@ TropiusMini::     INCBIN "gfx/minis/tropius.2bpp.lz"
 TropiusMiniMask:: INCBIN "gfx/minis/tropius_mask.1bpp.lz"
 TropiusIcon::     INCBIN "gfx/icons/tropius.2bpp.lz"
 
+SECTION "Absol Mini Icon", ROMX
+AbsolMini::     INCBIN "gfx/minis/absol.2bpp.lz"
+AbsolMiniMask:: INCBIN "gfx/minis/absol_mask.1bpp.lz"
+AbsolIcon::     INCBIN "gfx/icons/absol.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

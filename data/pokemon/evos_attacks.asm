@@ -3692,6 +3692,17 @@ endc
 	learnset 1, CONFUSION ; Spite → new move
 	learnset 1, ASTONISH
 
+	evos_attacks Absol
+	learnset 1, POWER_GEM
+	learnset 1, SHADOW_BALL ; Phantom Force → TM move
+	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
+	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
+	learnset 1, GROWL
+	learnset 1, TELEPORT ; Psywave → new move
+	learnset 1, DISARM_VOICE ; new move
+	learnset 1, CONFUSION ; Spite → new move
+	learnset 1, ASTONISH
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

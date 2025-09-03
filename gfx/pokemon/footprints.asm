@@ -219,6 +219,7 @@ CastformFootprint::
 ShuppetFootprint::
 BanetteFootprint::
 TropiusFootprint::
+AbsolFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

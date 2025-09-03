@@ -176,6 +176,7 @@ AnimationExtraPointers:
 	dw ShuppetAnimationExtra
 	dw BanetteAnimationExtra
 	dw TropiusAnimationExtra
+	dw AbsolAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw LeavannyAnimationExtra
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra
-	dw ScolipedeAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw ScolipedeAnimationExtra
 	dw CottoneeAnimationExtra
 	dw WhimsicottAnimationExtra
 	dw PetililAnimationExtra

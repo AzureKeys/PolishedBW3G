@@ -1759,6 +1759,16 @@ TropiusPokedexEntry::
 	next "ate the same kind"
 	next "of fruit.@"
 
+SECTION "AbsolPokedexEntry", ROMX
+AbsolPokedexEntry::
+	db "Disaster@"
+	db "It senses coming"
+	next "disaster and"
+	next "appears before"
+	page "people only to"
+	next "warn them of"
+	next "impending danger.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

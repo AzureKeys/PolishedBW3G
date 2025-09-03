@@ -181,6 +181,7 @@ endc
 	db   1,  36 ; Shuppet
 	db  37, 100 ; Banette
 	db  20, 100 ; Tropius
+	db  25, 100 ; Absol
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -258,9 +259,9 @@ endc
 	db  30, 100 ; Leavanny
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
-	db  30, 100 ; Scolipede
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  30, 100 ; Scolipede
 	db   1,  29 ; Cottonee
 	db  30, 100 ; Whimsicott
 	db   1,  29 ; Petilil

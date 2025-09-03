@@ -177,6 +177,7 @@ PokemonNames::
 	rawchar "Shuppet@@@"
 	rawchar "Banette@@@"
 	rawchar "Tropius@@@"
+	rawchar "Absol@@@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Leavanny@@"
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
-	rawchar "Scolipede@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Scolipede@"
 	rawchar "Cottonee@@"
 	rawchar "Whimsicott"
 	rawchar "Petilil@@@"

@@ -210,6 +210,7 @@ NewPokedexOrder:
 	dp SHUPPET
 	dp BANETTE
 	dp TROPIUS
+	dp ABSOL
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

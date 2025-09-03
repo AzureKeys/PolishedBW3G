@@ -2,6 +2,7 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
+	dp ABSOL
 	dp ACCELGOR
 	dp AGGRON
 	dp ALOMOMOLA

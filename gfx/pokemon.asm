@@ -718,6 +718,10 @@ SECTION "Tropius Pics", ROMX
 TropiusFrontpic: INCBIN "gfx/pokemon/tropius/front.animated.2bpp.lz"
 TropiusBackpic:  INCBIN "gfx/pokemon/tropius/back.2bpp.lz"
 
+SECTION "Absol Pics", ROMX
+AbsolFrontpic: INCBIN "gfx/pokemon/absol/front.animated.2bpp.lz"
+AbsolBackpic:  INCBIN "gfx/pokemon/absol/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"
