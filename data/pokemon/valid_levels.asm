@@ -211,14 +211,6 @@ endc
 	db  20, 100 ; Glaceon
 	db  20, 100 ; Gliscor
 	db  45, 100 ; Mamoswine
-	db  20, 100 ; Sylveon
-	db  28, 100 ; Perrserker
-	db  38, 100 ; Cursola
-	db  42, 100 ; Mr. Rime
-	db  20, 100 ; Kleavor
-	db  40, 100 ; Sneasler
-	db  32, 100 ; Dudunsparce
-	db  56, 100 ; Annihilape
 	db 255, 255 ; Victini
 	db   1,  16 ; Snivy
 	db  17,  35 ; Servine
@@ -259,8 +251,6 @@ endc
 	db  20, 100 ; Audino
 	db   1,  24 ; Timburr
 	db  25,  39 ; Gurdurr
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
@@ -269,6 +259,8 @@ endc
 	db  20, 100 ; Sawk
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  30, 100 ; Leavanny
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
@@ -377,5 +369,13 @@ endc
 	db 255, 255 ; Keldeo
 	db 255, 255 ; Meloetta
 	db 255, 255 ; Genesect
+	db  20, 100 ; Sylveon
+	db  28, 100 ; Perrserker
+	db  38, 100 ; Cursola
+	db  42, 100 ; Mr. Rime
 	db  34, 100 ; Runerigus
+	db  20, 100 ; Kleavor
+	db  40, 100 ; Sneasler
+	db  56, 100 ; Annihilape
+	db  32, 100 ; Dudunsparce
 	assert_table_length NUM_SPECIES

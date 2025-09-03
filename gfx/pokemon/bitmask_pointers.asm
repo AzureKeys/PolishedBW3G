@@ -206,14 +206,6 @@ BitmasksPointers:
 	dw GlaceonBitmasks
 	dw GliscorBitmasks
 	dw MamoswineBitmasks
-	dw SylveonBitmasks
-	dw PerrserkerBitmasks
-	dw CursolaBitmasks
-	dw MrRimeBitmasks
-	dw KleavorBitmasks
-	dw SneaslerBitmasks
-	dw DudunsparceTwoSegmentBitmasks
-	dw AnnihilapeBitmasks
 	dw VictiniBitmasks
 	dw SnivyBitmasks
 	dw ServineBitmasks
@@ -254,8 +246,6 @@ BitmasksPointers:
 	dw AudinoBitmasks
 	dw TimburrBitmasks
 	dw GurdurrBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ConkeldurrBitmasks
 	dw TympoleBitmasks
 	dw PalpitoadBitmasks
@@ -264,6 +254,8 @@ BitmasksPointers:
 	dw SawkBitmasks
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw LeavannyBitmasks
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
@@ -372,7 +364,15 @@ BitmasksPointers:
 	dw KeldeoBitmasks
 	dw MeloettaPlainBitmasks
 	dw GenesectBitmasks
+	dw SylveonBitmasks
+	dw PerrserkerBitmasks
+	dw CursolaBitmasks
+	dw MrRimeBitmasks
 	dw RunerigusBitmasks
+	dw KleavorBitmasks
+	dw SneaslerBitmasks
+	dw AnnihilapeBitmasks
+	dw DudunsparceTwoSegmentBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw PikachuFlyBitmasks

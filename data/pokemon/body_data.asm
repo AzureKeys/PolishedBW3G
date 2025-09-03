@@ -213,14 +213,6 @@ PokemonBodyData:
 	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
 	body_data  20,  425, WINGS,        PURPLE ; GLISCOR
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
-	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
-	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
-	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
-	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
-	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
-	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
-	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
-	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   4,   40, BIPEDAL,      YELLOW ; VICTINI
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
@@ -261,8 +253,6 @@ PokemonBodyData:
 	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
 	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
@@ -271,6 +261,8 @@ PokemonBodyData:
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY
 	body_data   4,   53, INSECTOID,    RED    ; VENIPEDE
 	body_data  12,  585, HEAD,         GRAY   ; WHIRLIPEDE
@@ -379,7 +371,15 @@ PokemonBodyData:
 	body_data  14,  485, QUADRUPED,    YELLOW ; KELDEO
 	body_data   6,   65, BIPEDAL,      WHITE  ; MELOETTA
 	body_data  15,  825, BIPEDAL,      PURPLE ; GENESECT
+	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
+	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
+	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
+	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
 	body_data  16,  666, HEAD_BASE,    GRAY   ; RUNERIGUS
+	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
+	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
+	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
 	assert_table_length NUM_SPECIES
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)

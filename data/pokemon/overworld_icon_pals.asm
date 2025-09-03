@@ -210,14 +210,6 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; GLACEON
 	iconpal PURPLE, GRAY ; GLISCOR
 	iconpal BROWN, GREEN ; MAMOSWINE
-	iconpal PINK, AZURE ; SYLVEON
-	iconpal GRAY, BROWN ; PERRSERKER
-	iconpal GRAY, PINK ; CURSOLA
-	iconpal BLUE, GRAY ; MR__RIME
-	iconpal BROWN, GREEN ; KLEAVOR
-	iconpal RED, BROWN ; SNEASLER
-	iconpal AZURE, RED ; DUDUNSPARCE
-	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal ORANGE, RED ; VICTINI
 	iconpal GREEN, BLUE ; SNIVY
 	iconpal GREEN, BLUE ; SERVINE
@@ -258,8 +250,6 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; AUDINO
 	iconpal GRAY, BROWN ; TIMBURR
 	iconpal GRAY, BROWN ; GURDURR
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BROWN, ORANGE ; CONKELDURR
 	iconpal BLUE, YELLOW ; TYMPOLE
 	iconpal BLUE, TEAL ; PALPITOAD
@@ -268,6 +258,8 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; SAWK
 	iconpal GREEN, TEAL ; SEWADDLE
 	iconpal GREEN, GRAY ; SWADLOON
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, BROWN ; LEAVANNY
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
@@ -376,7 +368,15 @@ OverworldMonIconColors::
 	iconpal AZURE, TEAL ; KELDEO
 	iconpal GREEN, TEAL ; MELOETTA
 	iconpal PURPLE, RED ; GENESECT
+	iconpal PINK, AZURE ; SYLVEON
+	iconpal GRAY, BROWN ; PERRSERKER
+	iconpal GRAY, PINK ; CURSOLA
+	iconpal BLUE, GRAY ; MR__RIME
 	iconpal RED, PINK ; RUNERIGUS
+	iconpal BROWN, GREEN ; KLEAVOR
+	iconpal RED, BROWN ; SNEASLER
+	iconpal BROWN, BLUE ; ANNIHILAPE
+	iconpal AZURE, RED ; DUDUNSPARCE
 	assert_table_length NUM_SPECIES
 
 rept NUM_PIKACHU - 1

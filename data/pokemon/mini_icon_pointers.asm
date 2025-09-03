@@ -210,14 +210,6 @@ MiniIconPointers:
 	mini_icon Glaceon
 	mini_icon Gliscor
 	mini_icon Mamoswine
-	mini_icon Sylveon
-	mini_icon Perrserker
-	mini_icon Cursola
-	mini_icon MrRime
-	mini_icon Kleavor
-	mini_icon Sneasler
-	mini_icon DudunsparceTwoSegment
-	mini_icon Annihilape
 	mini_icon Victini
 	mini_icon Snivy
 	mini_icon Servine
@@ -258,8 +250,6 @@ MiniIconPointers:
 	mini_icon Audino
 	mini_icon Timburr
 	mini_icon Gurdurr
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Conkeldurr
 	mini_icon Tympole
 	mini_icon Palpitoad
@@ -268,6 +258,8 @@ MiniIconPointers:
 	mini_icon Sawk
 	mini_icon Sewaddle
 	mini_icon Swadloon
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Leavanny
 	mini_icon Venipede
 	mini_icon Whirlipede
@@ -376,7 +368,15 @@ MiniIconPointers:
 	mini_icon Keldeo
 	mini_icon Meloetta
 	mini_icon Genesect
+	mini_icon Sylveon
+	mini_icon Perrserker
+	mini_icon Cursola
+	mini_icon MrRime
 	mini_icon Runerigus
+	mini_icon Kleavor
+	mini_icon Sneasler
+	mini_icon Annihilape
+	mini_icon DudunsparceTwoSegment
 	assert_table_length NUM_SPECIES
 
 	mini_icon PikachuFly ; Fly

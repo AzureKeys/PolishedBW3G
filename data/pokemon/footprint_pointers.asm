@@ -206,14 +206,6 @@ FootprintPointers::
 	dw GlaceonFootprint
 	dw GliscorFootprint
 	dw MamoswineFootprint
-	dw SylveonFootprint
-	dw PerrserkerFootprint
-	dw CursolaFootprint
-	dw MrRimeFootprint
-	dw KleavorFootprint
-	dw SneaslerFootprint
-	dw DudunsparceFootprint
-	dw AnnihilapeFootprint
 	dw VictiniFootprint
 	dw SnivyFootprint
 	dw ServineFootprint
@@ -254,8 +246,6 @@ FootprintPointers::
 	dw AudinoFootprint
 	dw TimburrFootprint
 	dw GurdurrFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ConkeldurrFootprint
 	dw TympoleFootprint
 	dw PalpitoadFootprint
@@ -264,6 +254,8 @@ FootprintPointers::
 	dw SawkFootprint
 	dw SewaddleFootprint
 	dw SwadloonFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw LeavannyFootprint
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
@@ -372,7 +364,15 @@ FootprintPointers::
 	dw KeldeoFootprint
 	dw MeloettaFootprint
 	dw GenesectFootprint
+	dw SylveonFootprint
+	dw PerrserkerFootprint
+	dw CursolaFootprint
+	dw MrRimeFootprint
 	dw RunerigusFootprint
+	dw KleavorFootprint
+	dw SneaslerFootprint
+	dw AnnihilapeFootprint
+	dw DudunsparceFootprint
 	assert_table_length NUM_SPECIES
 
 	dw DudunsparceFootprint

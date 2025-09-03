@@ -210,14 +210,6 @@ EvosAttacksPointers::
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
 	dw MamoswineEvosAttacks
-	dw SylveonEvosAttacks
-	dw PerrserkerEvosAttacks
-	dw CursolaEvosAttacks
-	dw MrRimeEvosAttacks
-	dw KleavorEvosAttacks
-	dw SneaslerEvosAttacks
-	dw DudunsparceEvosAttacks
-	dw AnnihilapeEvosAttacks
 	dw VictiniEvosAttacks
 	dw SnivyEvosAttacks
 	dw ServineEvosAttacks
@@ -258,8 +250,6 @@ EvosAttacksPointers::
 	dw AudinoEvosAttacks
 	dw TimburrEvosAttacks
 	dw GurdurrEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw ConkeldurrEvosAttacks
 	dw TympoleEvosAttacks
 	dw PalpitoadEvosAttacks
@@ -268,6 +258,8 @@ EvosAttacksPointers::
 	dw SawkEvosAttacks
 	dw SewaddleEvosAttacks
 	dw SwadloonEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw LeavannyEvosAttacks
 	dw VenipedeEvosAttacks
 	dw WhirlipedeEvosAttacks
@@ -376,7 +368,15 @@ EvosAttacksPointers::
 	dw KeldeoEvosAttacks
 	dw MeloettaEvosAttacks
 	dw GenesectEvosAttacks
+	dw SylveonEvosAttacks
+	dw PerrserkerEvosAttacks
+	dw CursolaEvosAttacks
+	dw MrRimeEvosAttacks
 	dw RunerigusEvosAttacks
+	dw KleavorEvosAttacks
+	dw SneaslerEvosAttacks
+	dw AnnihilapeEvosAttacks
+	dw DudunsparceEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw DudunsparceEvosAttacks

@@ -206,14 +206,6 @@ AnimationExtraPointers:
 	dw GlaceonAnimationExtra
 	dw GliscorAnimationExtra
 	dw MamoswineAnimationExtra
-	dw SylveonAnimationExtra
-	dw PerrserkerAnimationExtra
-	dw CursolaAnimationExtra
-	dw MrRimeAnimationExtra
-	dw KleavorAnimationExtra
-	dw SneaslerAnimationExtra
-	dw DudunsparceTwoSegmentAnimationExtra
-	dw AnnihilapeAnimationExtra
 	dw VictiniAnimationExtra
 	dw SnivyAnimationExtra
 	dw ServineAnimationExtra
@@ -254,8 +246,6 @@ AnimationExtraPointers:
 	dw AudinoAnimationExtra
 	dw TimburrAnimationExtra
 	dw GurdurrAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ConkeldurrAnimationExtra
 	dw TympoleAnimationExtra
 	dw PalpitoadAnimationExtra
@@ -264,6 +254,8 @@ AnimationExtraPointers:
 	dw SawkAnimationExtra
 	dw SewaddleAnimationExtra
 	dw SwadloonAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw LeavannyAnimationExtra
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra
@@ -372,7 +364,15 @@ AnimationExtraPointers:
 	dw KeldeoAnimationExtra
 	dw MeloettaPlainAnimationExtra
 	dw GenesectAnimationExtra
+	dw SylveonAnimationExtra
+	dw PerrserkerAnimationExtra
+	dw CursolaAnimationExtra
+	dw MrRimeAnimationExtra
 	dw RunerigusAnimationExtra
+	dw KleavorAnimationExtra
+	dw SneaslerAnimationExtra
+	dw AnnihilapeAnimationExtra
+	dw DudunsparceTwoSegmentAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw PikachuFlyAnimationExtra

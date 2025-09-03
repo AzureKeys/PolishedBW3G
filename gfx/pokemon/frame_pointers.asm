@@ -206,14 +206,6 @@ FramesPointers:
 	dw GlaceonFrames
 	dw GliscorFrames
 	dw MamoswineFrames
-	dw SylveonFrames
-	dw PerrserkerFrames
-	dw CursolaFrames
-	dw MrRimeFrames
-	dw KleavorFrames
-	dw SneaslerFrames
-	dw DudunsparceTwoSegmentFrames
-	dw AnnihilapeFrames
 	dw VictiniFrames
 	dw SnivyFrames
 	dw ServineFrames
@@ -254,8 +246,6 @@ FramesPointers:
 	dw AudinoFrames
 	dw TimburrFrames
 	dw GurdurrFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ConkeldurrFrames
 	dw TympoleFrames
 	dw PalpitoadFrames
@@ -264,6 +254,8 @@ FramesPointers:
 	dw SawkFrames
 	dw SewaddleFrames
 	dw SwadloonFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw LeavannyFrames
 	dw VenipedeFrames
 	dw WhirlipedeFrames
@@ -372,7 +364,15 @@ FramesPointers:
 	dw KeldeoFrames
 	dw MeloettaPlainFrames
 	dw GenesectFrames
+	dw SylveonFrames
+	dw PerrserkerFrames
+	dw CursolaFrames
+	dw MrRimeFrames
 	dw RunerigusFrames
+	dw KleavorFrames
+	dw SneaslerFrames
+	dw AnnihilapeFrames
+	dw DudunsparceTwoSegmentFrames
 	assert_table_length NUM_SPECIES
 
 	dw PikachuFlyFrames

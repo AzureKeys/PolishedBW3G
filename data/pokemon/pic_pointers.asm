@@ -210,14 +210,6 @@ PokemonPicPointers::
 	pics Glaceon
 	pics Gliscor
 	pics Mamoswine
-	pics Sylveon
-	pics Perrserker
-	pics Cursola
-	pics MrRime
-	pics Kleavor
-	pics Sneasler
-	pics DudunsparceTwoSegment
-	pics Annihilape
 	pics Victini
 	pics Snivy
 	pics Servine
@@ -258,8 +250,6 @@ PokemonPicPointers::
 	pics Audino
 	pics Timburr
 	pics Gurdurr
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
@@ -268,6 +258,8 @@ PokemonPicPointers::
 	pics Sawk
 	pics Sewaddle
 	pics Swadloon
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Leavanny
 	pics Venipede
 	pics Whirlipede
@@ -376,7 +368,15 @@ PokemonPicPointers::
 	pics Keldeo
 	pics MeloettaPlain
 	pics Genesect
+	pics Sylveon
+	pics Perrserker
+	pics Cursola
+	pics MrRime
 	pics Runerigus
+	pics Kleavor
+	pics Sneasler
+	pics Annihilape
+	pics DudunsparceTwoSegment
 	assert_table_length NUM_SPECIES
 
 	pics PikachuFly

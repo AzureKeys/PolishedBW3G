@@ -230,14 +230,6 @@
 	const GLACEON    ; eb
 	const GLISCOR    ; ec
 	const MAMOSWINE  ; ed
-	const SYLVEON    ; 116
-	const PERRSERKER ; 117
-	const CURSOLA    ; 118
-	const MR__RIME   ; 11a
-	const KLEAVOR    ; 11c
-	const SNEASLER   ; 11e
-	const DUDUNSPARCE ; 120
-	const ANNIHILAPE ; 123
 	const VICTINI    ; f1
 	const SNIVY      ; f2
 	const SERVINE    ; f3
@@ -278,8 +270,6 @@
 	const AUDINO     ; 118
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
@@ -288,6 +278,8 @@
 	const SAWK       ; 120
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const LEAVANNY   ; 123
 	const VENIPEDE   ; 124
 	const WHIRLIPEDE ; 125
@@ -396,9 +388,17 @@
 	const KELDEO     ; 18c
 	const MELOETTA   ; 18d
 	const GENESECT   ; 18e
-	const RUNERIGUS   ; 18e
-DEF NUM_SPECIES EQU const_value - 1 ; 123
-DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
+	const SYLVEON    ; 18f
+	const PERRSERKER ; 190
+	const CURSOLA    ; 191
+	const MR__RIME   ; 192
+	const RUNERIGUS  ; 193
+	const KLEAVOR    ; 194
+	const SNEASLER   ; 196
+	const ANNIHILAPE ; 198
+	const DUDUNSPARCE ; 199
+DEF NUM_SPECIES EQU const_value - 1 ; 19a
+DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 198
 
 DEF CANCEL EQU -1
 
@@ -428,61 +428,61 @@ ENDM
 DEF NO_FORM EQU 0
 DEF PLAIN_FORM EQU 1
 
-DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 124
+DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 19b
 
 ; pikachu
 	ext_const_def 2
-	ext_const PIKACHU_FLY_FORM    ; 143 (2)
-	ext_const PIKACHU_SURF_FORM   ; 144 (3)
-	ext_const PIKACHU_RED_FORM    ; 145 (4)
-	ext_const PIKACHU_YELLOW_FORM ; 146 (5)
-	ext_const PIKACHU_SPARK_FORM  ; 147 (6)
+	ext_const PIKACHU_FLY_FORM    ; 19b (2)
+	ext_const PIKACHU_SURF_FORM   ; 19c (3)
+	ext_const PIKACHU_RED_FORM    ; 19d (4)
+	ext_const PIKACHU_YELLOW_FORM ; 19e (5)
+	ext_const PIKACHU_SPARK_FORM  ; 19f (6)
 DEF NUM_PIKACHU EQU ext_const_value - 1
 
 ; pichu
 	ext_const_def 2
-	ext_const PICHU_SPIKY_EARED_FORM ; 148 (2)
+	ext_const PICHU_SPIKY_EARED_FORM ; 1a0 (2)
 
-DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
+DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 6
 
-DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
+DEF FIRST_VARIANT_FORM_MON EQU const_value ; 1a1
 
 ; dudunsparce
 	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)
-	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 15e (2)
+	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 1a1 (2)
 
 ; alolan forms
 DEF ALOLAN_FORM EQU 2
-	const_skip ; 15f rattata
-	const_skip ; 160 raticate
-	const_skip ; 161 raichu
-	const_skip ; 162 sandshrew
-	const_skip ; 163 sandslash
-	const_skip ; 164 vulpix
-	const_skip ; 165 ninetales
-	const_skip ; 168 meowth
-	const_skip ; 169 persian
-	const_skip ; 16a geodude
-	const_skip ; 16b graveler
-	const_skip ; 16c golem
-	const_skip ; 16d grimer
-	const_skip ; 16e muk
-	const_skip ; 16f exeggutor
+	const_skip ; 1a2 rattata
+	const_skip ; 1a3 raticate
+	const_skip ; 1a4 raichu
+	const_skip ; 1a5 sandshrew
+	const_skip ; 1a6 sandslash
+	const_skip ; 1a7 vulpix
+	const_skip ; 1a8 ninetales
+	const_skip ; 1a9 meowth
+	const_skip ; 1aa persian
+	const_skip ; 1ab geodude
+	const_skip ; 1ac graveler
+	const_skip ; 1ad golem
+	const_skip ; 1ae grimer
+	const_skip ; 1af muk
+	const_skip ; 1b0 exeggutor
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3
-	const_skip ; 171 meowth
-	const_skip ; 172 ponyta
-	const_skip ; 173 rapidash
-	const_skip ; 174 slowpoke
-	const_skip ; 175 slowbro
-	const_skip ; 177 weezing
-	const_skip ; 178 mr. mime
-	const_skip ; 17c slowking
-	const_skip ; 17d corsola
-	const_skip ; 17d darumaka
-	const_skip ; 17d darmanitan
-	const_skip ; 17d yamask
+	const_skip ; 1b1 meowth
+	const_skip ; 1b2 ponyta
+	const_skip ; 1b3 rapidash
+	const_skip ; 1b4 slowpoke
+	const_skip ; 1b5 slowbro
+	const_skip ; 1b6 weezing
+	const_skip ; 1b7 mr. mime
+	const_skip ; 1b8 slowking
+	const_skip ; 1b9 corsola
+	const_skip ; 1ba darumaka
+	const_skip ; 1bb darmanitan
+	const_skip ; 1bc yamask
 
 ; hisuian forms
 DEF HISUIAN_FORM EQU 4

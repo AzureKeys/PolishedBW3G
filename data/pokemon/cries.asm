@@ -212,14 +212,6 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $fc6,  $1aa ; Glaceon
 	mon_cry CRY_NIDOQUEEN,   $73d,  $1b0 ; Gliscor
 	mon_cry CRY_TYPHLOSION, -$160,  $0d3 ; Mamoswine
-	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
-	mon_cry CRY_CLEFAIRY,    $077,  $090 ; PERRSERKER*
-	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CURSOLA*
-	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR. RIME*
-	mon_cry CRY_CATERPIE,    $000,  $100 ; KLEAVOR*
-	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASLER*
-	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUDUNSPARCE*
-	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; ANNIHILAPE*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; VICTINI*
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
@@ -260,8 +252,6 @@ PokemonCries::
 	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
 	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr
 	mon_cry CRY_AMPHAROS,   -$154,  $160 ; Gurdurr
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
 	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
 	mon_cry CRY_MEDITITE,    $3a9,  $0e0 ; Palpitoad
@@ -270,6 +260,8 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny
 	mon_cry CRY_SPINARAK,   -$1c7,  $1b0 ; Venipede
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede
@@ -378,5 +370,13 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; KELDEO*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; MELOETTA*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; Genesect
+	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
+	mon_cry CRY_CLEFAIRY,    $077,  $090 ; PERRSERKER*
+	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CURSOLA*
+	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR. RIME*
 	mon_cry CRY_YAMASK,     -$320,  $15a ; RUNERIGUS*
+	mon_cry CRY_CATERPIE,    $000,  $100 ; KLEAVOR*
+	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASLER*
+	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; ANNIHILAPE*
+	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUDUNSPARCE*
 	assert_table_length NUM_SPECIES

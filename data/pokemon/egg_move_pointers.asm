@@ -206,14 +206,6 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Glaceon
 	dw GligarEggSpeciesMoves            ; Gliscor
 	dw SwinubEggSpeciesMoves            ; Mamoswine
-	dw EeveeEggSpeciesMoves             ; Sylveon
-	dw MeowthGalarianEggSpeciesMoves    ; Perrserker
-	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
-	dw MimeJrEggSpeciesMoves            ; Mr.Rime
-	dw ScytherEggSpeciesMoves           ; Kleavor
-	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
-	dw DunsparceEggSpeciesMoves         ; Dudunsparce
-	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw NoEggSpeciesMoves                ; Victini
 	dw SnivyEggSpeciesMoves             ; Snivy
 	dw SnivyEggSpeciesMoves             ; Servine
@@ -254,8 +246,6 @@ EggSpeciesMovesPointers::
 	dw AudinoEggSpeciesMoves            ; Audino
 	dw TimburrEggSpeciesMoves           ; Timburr
 	dw TimburrEggSpeciesMoves           ; Gurdurr
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
@@ -264,6 +254,8 @@ EggSpeciesMovesPointers::
 	dw SawkEggSpeciesMoves              ; Sawk
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SewaddleEggSpeciesMoves          ; Leavanny
 	dw VenipedeEggSpeciesMoves          ; Venipede
 	dw VenipedeEggSpeciesMoves          ; Whirlipede
@@ -372,7 +364,15 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Keldeo
 	dw NoEggSpeciesMoves                ; Meloetta
 	dw NoEggSpeciesMoves                ; Genesect
+	dw EeveeEggSpeciesMoves             ; Sylveon
+	dw MeowthGalarianEggSpeciesMoves    ; Perrserker
+	dw CorsolaGalarianEggSpeciesMoves   ; Cursola
+	dw MimeJrEggSpeciesMoves            ; Mr.Rime
 	dw YamaskGalarianEggSpeciesMoves    ; Runerigus
+	dw ScytherEggSpeciesMoves           ; Kleavor
+	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
+	dw MankeyEggSpeciesMoves            ; Annihilape
+	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	assert_table_length NUM_SPECIES
 
 	dw DunsparceEggSpeciesMoves         ; Dundunsparse (Three Segment Form)

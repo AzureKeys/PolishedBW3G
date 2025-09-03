@@ -207,14 +207,6 @@ PokedexDataPointerTable:
 	dba GlaceonPokedexEntry
 	dba GliscorPokedexEntry
 	dba MamoswinePokedexEntry
-	dba SylveonPokedexEntry
-	dba PerrserkerPokedexEntry
-	dba CursolaPokedexEntry
-	dba MrRimePokedexEntry
-	dba KleavorPokedexEntry
-	dba SneaslerPokedexEntry
-	dba DudunsparcePokedexEntry
-	dba AnnihilapePokedexEntry
 	dba VictiniPokedexEntry
 	dba SnivyPokedexEntry
 	dba ServinePokedexEntry
@@ -255,8 +247,6 @@ PokedexDataPointerTable:
 	dba AudinoPokedexEntry
 	dba TimburrPokedexEntry
 	dba GurdurrPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
@@ -265,6 +255,8 @@ PokedexDataPointerTable:
 	dba SawkPokedexEntry
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba LeavannyPokedexEntry
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
@@ -373,7 +365,15 @@ PokedexDataPointerTable:
 	dba KeldeoPokedexEntry
 	dba MeloettaPokedexEntry
 	dba GenesectPokedexEntry
+	dba SylveonPokedexEntry
+	dba PerrserkerPokedexEntry
+	dba CursolaPokedexEntry
+	dba MrRimePokedexEntry
 	dba RunerigusPokedexEntry
+	dba KleavorPokedexEntry
+	dba SneaslerPokedexEntry
+	dba AnnihilapePokedexEntry
+	dba DudunsparcePokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba DudunsparcePokedexEntry

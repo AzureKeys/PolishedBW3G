@@ -210,14 +210,6 @@ endc
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR
 	db NO_MOVE      ; MAMOSWINE
-	db DISARM_VOICE ; SYLVEON
-	db IRON_HEAD    ; PERRSERKER
-	db NO_MOVE      ; CURSOLA
-	db NO_MOVE      ; MR__RIME
-	db ROCK_THROW   ; KLEAVOR
-	db NO_MOVE      ; SNEASLER
-	db NO_MOVE      ; DUDUNSPARCE
-	db SHADOW_CLAW  ; ANNIHILAPE
 	db NO_MOVE      ; VICTINI
 	db NO_MOVE      ; SNIVY
 	db NO_MOVE      ; SERVINE
@@ -258,8 +250,6 @@ endc
 	db NO_MOVE      ; AUDINO
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; CONKELDURR
 	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
@@ -268,6 +258,8 @@ endc
 	db NO_MOVE      ; SAWK
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db SLASH        ; LEAVANNY
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE
@@ -376,7 +368,15 @@ endc
 	db NO_MOVE      ; KELDEO
 	db NO_MOVE      ; MELOETTA
 	db NO_MOVE      ; GENESECT
+	db DISARM_VOICE ; SYLVEON
+	db IRON_HEAD    ; PERRSERKER
+	db NO_MOVE      ; CURSOLA
+	db NO_MOVE      ; MR__RIME
 	db NO_MOVE      ; RUNERIGUS
+	db ROCK_THROW   ; KLEAVOR
+	db NO_MOVE      ; SNEASLER
+	db SHADOW_CLAW  ; ANNIHILAPE
+	db NO_MOVE      ; DUDUNSPARCE
 	assert_table_length NUM_SPECIES
 
 	db NO_MOVE      ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
