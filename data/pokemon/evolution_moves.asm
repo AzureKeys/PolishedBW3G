@@ -183,6 +183,9 @@ endc
 	db NO_MOVE      ; ABSOL
 	db NO_MOVE      ; SNORUNT
 	db NO_MOVE      ; GLALIE
+	db NO_MOVE      ; SPHEAL
+	db NO_MOVE      ; SEALEO
+	db NO_MOVE      ; WALREIN
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -255,11 +258,11 @@ endc
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH
 	db NO_MOVE      ; SAWK
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; SCOLIPEDE

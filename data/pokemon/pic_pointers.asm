@@ -183,6 +183,9 @@ PokemonPicPointers::
 	pics Absol
 	pics Snorunt
 	pics Glalie
+	pics Spheal
+	pics Sealeo
+	pics Walrein
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Seismitoad
 	pics Throh
 	pics Sawk
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Sewaddle
 	pics Swadloon
 	pics Leavanny
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Venipede
 	pics Whirlipede
 	pics Scolipede

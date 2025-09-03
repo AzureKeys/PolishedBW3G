@@ -203,6 +203,9 @@
 	const ABSOL      ; b1
 	const SNORUNT    ; b2
 	const GLALIE     ; b3
+	const SPHEAL     ; b4
+	const SEALEO     ; b5
+	const WALREIN    ; b6
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
 	const SAWK       ; 120
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122
 	const LEAVANNY   ; 123
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const VENIPEDE   ; 124
 	const WHIRLIPEDE ; 125
 	const SCOLIPEDE  ; 126

@@ -183,6 +183,9 @@ OverworldMonIconColors::
 	iconpal WHITE, RED ; ABSOL
 	iconpal BROWN, AZURE ; SNORUNT
 	iconpal GRAY, WHITE ; GLALIE
+	iconpal BLUE, PINK ; SPHEAL
+	iconpal BLUE, PINK ; SEALEO
+	iconpal BLUE, PINK ; WALREIN
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH
 	iconpal BLUE, PURPLE ; SAWK
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal GREEN, TEAL ; SEWADDLE
 	iconpal GREEN, GRAY ; SWADLOON
 	iconpal GREEN, BROWN ; LEAVANNY
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE
 	iconpal RED, ORANGE ; SCOLIPEDE

@@ -902,6 +902,21 @@ GlalieMini::     INCBIN "gfx/minis/glalie.2bpp.lz"
 GlalieMiniMask:: INCBIN "gfx/minis/glalie_mask.1bpp.lz"
 GlalieIcon::     INCBIN "gfx/icons/glalie.2bpp.lz"
 
+SECTION "Spheal Mini Icon", ROMX
+SphealMini::     INCBIN "gfx/minis/spheal.2bpp.lz"
+SphealMiniMask:: INCBIN "gfx/minis/spheal_mask.1bpp.lz"
+SphealIcon::     INCBIN "gfx/icons/spheal.2bpp.lz"
+
+SECTION "Sealeo Mini Icon", ROMX
+SealeoMini::     INCBIN "gfx/minis/sealeo.2bpp.lz"
+SealeoMiniMask:: INCBIN "gfx/minis/sealeo_mask.1bpp.lz"
+SealeoIcon::     INCBIN "gfx/icons/sealeo.2bpp.lz"
+
+SECTION "Walrein Mini Icon", ROMX
+WalreinMini::     INCBIN "gfx/minis/walrein.2bpp.lz"
+WalreinMiniMask:: INCBIN "gfx/minis/walrein_mask.1bpp.lz"
+WalreinIcon::     INCBIN "gfx/icons/walrein.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

@@ -183,6 +183,9 @@ MiniIconPointers:
 	mini_icon Absol
 	mini_icon Snorunt
 	mini_icon Glalie
+	mini_icon Spheal
+	mini_icon Sealeo
+	mini_icon Walrein
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Seismitoad
 	mini_icon Throh
 	mini_icon Sawk
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Sewaddle
 	mini_icon Swadloon
 	mini_icon Leavanny
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Venipede
 	mini_icon Whirlipede
 	mini_icon Scolipede

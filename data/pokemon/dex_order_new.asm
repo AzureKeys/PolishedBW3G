@@ -213,6 +213,9 @@ NewPokedexOrder:
 	dp ABSOL
 	dp SNORUNT
 	dp GLALIE
+	dp SPHEAL
+	dp SEALEO
+	dp WALREIN
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

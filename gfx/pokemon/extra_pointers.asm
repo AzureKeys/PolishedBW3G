@@ -179,6 +179,9 @@ AnimationExtraPointers:
 	dw AbsolAnimationExtra
 	dw SnoruntAnimationExtra
 	dw GlalieAnimationExtra
+	dw SphealAnimationExtra
+	dw SealeoAnimationExtra
+	dw WalreinAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw SeismitoadAnimationExtra
 	dw ThrohAnimationExtra
 	dw SawkAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw SewaddleAnimationExtra
 	dw SwadloonAnimationExtra
 	dw LeavannyAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra
 	dw ScolipedeAnimationExtra

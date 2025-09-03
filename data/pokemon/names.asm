@@ -180,6 +180,9 @@ PokemonNames::
 	rawchar "Absol@@@@@"
 	rawchar "Snorunt@@@"
 	rawchar "Glalie@@@@"
+	rawchar "Spheal@@@@"
+	rawchar "Sealeo@@@@"
+	rawchar "Walrein@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Seismitoad"
 	rawchar "Throh@@@@@"
 	rawchar "Sawk@@@@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Sewaddle@@"
 	rawchar "Swadloon@@"
 	rawchar "Leavanny@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"
 	rawchar "Scolipede@"

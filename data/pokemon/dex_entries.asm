@@ -1788,6 +1788,36 @@ GlaliePokedexEntry::
 	page "freezing moisture"
 	next "in the air.@"
 
+SECTION "SphealPokedexEntry", ROMX
+SphealPokedexEntry::
+	db "Clap@"
+	db "It rolls across"
+	next "ice floes to reach"
+	next "shore because its"
+	page "body is poorly"
+	next "shaped for"
+	next "swimming.@"
+
+SECTION "SealeoPokedexEntry", ROMX
+SealeoPokedexEntry::
+	db "Ball Roll@"
+	db "It habitually"
+	next "spins things on"
+	next "its nose. By doing"
+	page "so, it learns"
+	next "textures and"
+	next "odors.@"
+
+SECTION "WalreinPokedexEntry", ROMX
+WalreinPokedexEntry::
+	db "Ice Break@"
+	db "It shatters ice"
+	next "with its big"
+	next "tusks. Its thick"
+	page "blubber repels not"
+	next "only the cold, but"
+	next "also attacks.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

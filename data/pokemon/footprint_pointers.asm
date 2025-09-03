@@ -179,6 +179,9 @@ FootprintPointers::
 	dw AbsolFootprint
 	dw SnoruntFootprint
 	dw GlalieFootprint
+	dw SphealFootprint
+	dw SealeoFootprint
+	dw WalreinFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw SeismitoadFootprint
 	dw ThrohFootprint
 	dw SawkFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SewaddleFootprint
 	dw SwadloonFootprint
 	dw LeavannyFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint
 	dw ScolipedeFootprint

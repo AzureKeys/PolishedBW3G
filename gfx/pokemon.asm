@@ -730,6 +730,18 @@ SECTION "Glalie Pics", ROMX
 GlalieFrontpic: INCBIN "gfx/pokemon/glalie/front.animated.2bpp.lz"
 GlalieBackpic:  INCBIN "gfx/pokemon/glalie/back.2bpp.lz"
 
+SECTION "Spheal Pics", ROMX
+SphealFrontpic: INCBIN "gfx/pokemon/spheal/front.animated.2bpp.lz"
+SphealBackpic:  INCBIN "gfx/pokemon/spheal/back.2bpp.lz"
+
+SECTION "Sealeo Pics", ROMX
+SealeoFrontpic: INCBIN "gfx/pokemon/sealeo/front.animated.2bpp.lz"
+SealeoBackpic:  INCBIN "gfx/pokemon/sealeo/back.2bpp.lz"
+
+SECTION "Walrein Pics", ROMX
+WalreinFrontpic: INCBIN "gfx/pokemon/walrein/front.animated.2bpp.lz"
+WalreinBackpic:  INCBIN "gfx/pokemon/walrein/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

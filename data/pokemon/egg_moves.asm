@@ -868,6 +868,10 @@ SnoruntEggSpeciesMoves:
 	dp SNORUNT, PLAIN_FORM
 	db $ff
 
+SphealEggSpeciesMoves:
+	dp SPHEAL, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

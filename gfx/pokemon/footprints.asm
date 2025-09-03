@@ -222,6 +222,9 @@ TropiusFootprint::
 AbsolFootprint::
 SnoruntFootprint::
 GlalieFootprint::
+SphealFootprint::
+SealeoFootprint::
+WalreinFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -264,6 +264,7 @@ AlphabeticalPokedexOrder:
 	dp SCRAGGY
 	dp SCYTHER
 	dp SEADRA
+	dp SEALEO
 	dp SEEDOT
 	dp SEEL
 	dp SEISMITOAD
@@ -295,6 +296,7 @@ AlphabeticalPokedexOrder:
 	dp SNUBBULL
 	dp SOLOSIS
 	dp SOLROCK
+	dp SPHEAL
 	dp SPOINK
 	dp STARMIE
 	dp STARYU
@@ -346,6 +348,7 @@ AlphabeticalPokedexOrder:
 	dp VULPIX
 	dp WAILMER
 	dp WAILORD
+	dp WALREIN
 	dp WATCHOG
 	dp WEAVILE
 	dp WEEZING

@@ -179,6 +179,9 @@ BitmasksPointers:
 	dw AbsolBitmasks
 	dw SnoruntBitmasks
 	dw GlalieBitmasks
+	dw SphealBitmasks
+	dw SealeoBitmasks
+	dw WalreinBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw SeismitoadBitmasks
 	dw ThrohBitmasks
 	dw SawkBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks
 	dw LeavannyBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks
 	dw ScolipedeBitmasks

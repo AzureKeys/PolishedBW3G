@@ -184,6 +184,9 @@ endc
 	db  25, 100 ; Absol
 	db   1,  41 ; Snorunt
 	db  42, 100 ; Glalie
+	db   1,  31 ; Spheal
+	db  32,  43 ; Sealeo
+	db  44, 100 ; Walrein
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -256,11 +259,11 @@ endc
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
 	db  20, 100 ; Sawk
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon
 	db  30, 100 ; Leavanny
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  21 ; Venipede
 	db  22,  29 ; Whirlipede
 	db  30, 100 ; Scolipede
