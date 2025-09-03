@@ -181,6 +181,8 @@ endc
 	db NO_MOVE      ; BANETTE
 	db NO_MOVE      ; TROPIUS
 	db NO_MOVE      ; ABSOL
+	db NO_MOVE      ; SNORUNT
+	db NO_MOVE      ; GLALIE
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
-	db NO_MOVE      ; VENIPEDE
-	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; VENIPEDE
+	db BARRIER      ; WHIRLIPEDE
 	db NO_MOVE      ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
 	db NO_MOVE      ; WHIMSICOTT

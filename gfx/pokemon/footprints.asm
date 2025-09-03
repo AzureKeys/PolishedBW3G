@@ -220,6 +220,8 @@ ShuppetFootprint::
 BanetteFootprint::
 TropiusFootprint::
 AbsolFootprint::
+SnoruntFootprint::
+GlalieFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

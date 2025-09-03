@@ -181,6 +181,8 @@ PokemonPicPointers::
 	pics Banette
 	pics Tropius
 	pics Absol
+	pics Snorunt
+	pics Glalie
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Sewaddle
 	pics Swadloon
 	pics Leavanny
-	pics Venipede
-	pics Whirlipede
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Venipede
+	pics Whirlipede
 	pics Scolipede
 	pics Cottonee
 	pics Whimsicott

@@ -177,6 +177,8 @@ AnimationPointers:
 	dw BanetteAnimation
 	dw TropiusAnimation
 	dw AbsolAnimation
+	dw SnoruntAnimation
+	dw GlalieAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw SewaddleAnimation
 	dw SwadloonAnimation
 	dw LeavannyAnimation
-	dw VenipedeAnimation
-	dw WhirlipedeAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw VenipedeAnimation
+	dw WhirlipedeAnimation
 	dw ScolipedeAnimation
 	dw CottoneeAnimation
 	dw WhimsicottAnimation

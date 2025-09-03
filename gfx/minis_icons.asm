@@ -892,6 +892,16 @@ AbsolMini::     INCBIN "gfx/minis/absol.2bpp.lz"
 AbsolMiniMask:: INCBIN "gfx/minis/absol_mask.1bpp.lz"
 AbsolIcon::     INCBIN "gfx/icons/absol.2bpp.lz"
 
+SECTION "Snorunt Mini Icon", ROMX
+SnoruntMini::     INCBIN "gfx/minis/snorunt.2bpp.lz"
+SnoruntMiniMask:: INCBIN "gfx/minis/snorunt_mask.1bpp.lz"
+SnoruntIcon::     INCBIN "gfx/icons/snorunt.2bpp.lz"
+
+SECTION "Glalie Mini Icon", ROMX
+GlalieMini::     INCBIN "gfx/minis/glalie.2bpp.lz"
+GlalieMiniMask:: INCBIN "gfx/minis/glalie_mask.1bpp.lz"
+GlalieIcon::     INCBIN "gfx/icons/glalie.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

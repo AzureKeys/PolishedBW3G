@@ -201,6 +201,8 @@
 	const BANETTE    ; af
 	const TROPIUS    ; b0
 	const ABSOL      ; b1
+	const SNORUNT    ; b2
+	const GLALIE     ; b3
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122
 	const LEAVANNY   ; 123
-	const VENIPEDE   ; 124
-	const WHIRLIPEDE ; 125
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const VENIPEDE   ; 124
+	const WHIRLIPEDE ; 125
 	const SCOLIPEDE  ; 126
 	const COTTONEE   ; 127
 	const WHIMSICOTT ; 128

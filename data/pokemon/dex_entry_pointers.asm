@@ -178,6 +178,8 @@ PokedexDataPointerTable:
 	dba BanettePokedexEntry
 	dba TropiusPokedexEntry
 	dba AbsolPokedexEntry
+	dba SnoruntPokedexEntry
+	dba GlaliePokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry
-	dba VenipedePokedexEntry
-	dba WhirlipedePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba VenipedePokedexEntry
+	dba WhirlipedePokedexEntry
 	dba ScolipedePokedexEntry
 	dba CottoneePokedexEntry
 	dba WhimsicottPokedexEntry

@@ -177,6 +177,8 @@ FootprintPointers::
 	dw BanetteFootprint
 	dw TropiusFootprint
 	dw AbsolFootprint
+	dw SnoruntFootprint
+	dw GlalieFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw SewaddleFootprint
 	dw SwadloonFootprint
 	dw LeavannyFootprint
-	dw VenipedeFootprint
-	dw WhirlipedeFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw VenipedeFootprint
+	dw WhirlipedeFootprint
 	dw ScolipedeFootprint
 	dw CottoneeFootprint
 	dw WhimsicottFootprint

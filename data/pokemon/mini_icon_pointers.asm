@@ -181,6 +181,8 @@ MiniIconPointers:
 	mini_icon Banette
 	mini_icon Tropius
 	mini_icon Absol
+	mini_icon Snorunt
+	mini_icon Glalie
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Sewaddle
 	mini_icon Swadloon
 	mini_icon Leavanny
-	mini_icon Venipede
-	mini_icon Whirlipede
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Venipede
+	mini_icon Whirlipede
 	mini_icon Scolipede
 	mini_icon Cottonee
 	mini_icon Whimsicott

@@ -177,6 +177,8 @@ FramesPointers:
 	dw BanetteFrames
 	dw TropiusFrames
 	dw AbsolFrames
+	dw SnoruntFrames
+	dw GlalieFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw SewaddleFrames
 	dw SwadloonFrames
 	dw LeavannyFrames
-	dw VenipedeFrames
-	dw WhirlipedeFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw VenipedeFrames
+	dw WhirlipedeFrames
 	dw ScolipedeFrames
 	dw CottoneeFrames
 	dw WhimsicottFrames

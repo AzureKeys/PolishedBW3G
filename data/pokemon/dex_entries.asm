@@ -1769,6 +1769,25 @@ AbsolPokedexEntry::
 	next "warn them of"
 	next "impending danger.@"
 
+SECTION "SnoruntPokedexEntry", ROMX
+SnoruntPokedexEntry::
+	db "Snow Hat@"
+	db "It is said that"
+	next "several Snorunt"
+	next "gather under giant"
+	page "leaves and live"
+	next "together in"
+	next "harmony.@"
+
+SECTION "GlaliePokedexEntry", ROMX
+GlaliePokedexEntry::
+	db "Face@"
+	db "It prevents prey"
+	next "from escaping by"
+	next "instantaneously"
+	page "freezing moisture"
+	next "in the air.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

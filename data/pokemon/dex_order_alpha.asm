@@ -103,6 +103,7 @@ AlphabeticalPokedexOrder:
 	dp GEODUDE
 	dp GIGALITH
 	dp GLACEON
+	dp GLALIE
 	dp GLIGAR
 	dp GLISCOR
 	dp GOLBAT
@@ -290,6 +291,7 @@ AlphabeticalPokedexOrder:
 	dp SNEASLER
 	dp SNIVY
 	dp SNORLAX
+	dp SNORUNT
 	dp SNUBBULL
 	dp SOLOSIS
 	dp SOLROCK

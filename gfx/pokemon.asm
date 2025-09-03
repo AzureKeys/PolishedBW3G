@@ -722,6 +722,14 @@ SECTION "Absol Pics", ROMX
 AbsolFrontpic: INCBIN "gfx/pokemon/absol/front.animated.2bpp.lz"
 AbsolBackpic:  INCBIN "gfx/pokemon/absol/back.2bpp.lz"
 
+SECTION "Snorunt Pics", ROMX
+SnoruntFrontpic: INCBIN "gfx/pokemon/snorunt/front.animated.2bpp.lz"
+SnoruntBackpic:  INCBIN "gfx/pokemon/snorunt/back.2bpp.lz"
+
+SECTION "Glalie Pics", ROMX
+GlalieFrontpic: INCBIN "gfx/pokemon/glalie/front.animated.2bpp.lz"
+GlalieBackpic:  INCBIN "gfx/pokemon/glalie/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

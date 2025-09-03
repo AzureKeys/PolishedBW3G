@@ -177,6 +177,8 @@ EggSpeciesMovesPointers::
 	dw ShuppetEggSpeciesMoves           ; Banette
 	dw TropiusEggSpeciesMoves           ; Tropius
 	dw AbsolEggSpeciesMoves             ; Absol
+	dw SnoruntEggSpeciesMoves           ; Snorunt
+	dw SnoruntEggSpeciesMoves           ; Glalie
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon
 	dw SewaddleEggSpeciesMoves          ; Leavanny
-	dw VenipedeEggSpeciesMoves          ; Venipede
-	dw VenipedeEggSpeciesMoves          ; Whirlipede
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw VenipedeEggSpeciesMoves          ; Venipede
+	dw VenipedeEggSpeciesMoves          ; Whirlipede
 	dw VenipedeEggSpeciesMoves          ; Scolipede
 	dw CottoneeEggSpeciesMoves          ; Cottonee
 	dw CottoneeEggSpeciesMoves          ; Whimsicott

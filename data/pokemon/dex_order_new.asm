@@ -211,6 +211,8 @@ NewPokedexOrder:
 	dp BANETTE
 	dp TROPIUS
 	dp ABSOL
+	dp SNORUNT
+	dp GLALIE
 	dp RATTATA
 	dp RATICATE
 	dp PICHU
