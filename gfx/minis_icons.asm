@@ -932,6 +932,21 @@ SalamenceMini::     INCBIN "gfx/minis/salamence.2bpp.lz"
 SalamenceMiniMask:: INCBIN "gfx/minis/salamence_mask.1bpp.lz"
 SalamenceIcon::     INCBIN "gfx/icons/salamence.2bpp.lz"
 
+SECTION "Beldum Mini Icon", ROMX
+BeldumMini::     INCBIN "gfx/minis/beldum.2bpp.lz"
+BeldumMiniMask:: INCBIN "gfx/minis/beldum_mask.1bpp.lz"
+BeldumIcon::     INCBIN "gfx/icons/beldum.2bpp.lz"
+
+SECTION "Metang Mini Icon", ROMX
+MetangMini::     INCBIN "gfx/minis/metang.2bpp.lz"
+MetangMiniMask:: INCBIN "gfx/minis/metang_mask.1bpp.lz"
+MetangIcon::     INCBIN "gfx/icons/metang.2bpp.lz"
+
+SECTION "Metagross Mini Icon", ROMX
+MetagrossMini::     INCBIN "gfx/minis/metagross.2bpp.lz"
+MetagrossMiniMask:: INCBIN "gfx/minis/metagross_mask.1bpp.lz"
+MetagrossIcon::     INCBIN "gfx/icons/metagross.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

@@ -186,6 +186,9 @@ PokedexDataPointerTable:
 	dba BagonPokedexEntry
 	dba ShelgonPokedexEntry
 	dba SalamencePokedexEntry
+	dba BeldumPokedexEntry
+	dba MetangPokedexEntry
+	dba MetagrossPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba AudinoPokedexEntry
 	dba TimburrPokedexEntry
 	dba GurdurrPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry
 	dba SawkPokedexEntry

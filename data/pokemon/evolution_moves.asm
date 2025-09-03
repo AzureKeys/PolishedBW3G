@@ -189,6 +189,9 @@ endc
 	db NO_MOVE      ; BAGON
 	db NO_MOVE      ; SHELGON
 	db NO_MOVE      ; SALAMENCE
+	db NO_MOVE      ; BELDUM
+	db NO_MOVE      ; METANG
+	db NO_MOVE      ; METAGROSS
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -255,11 +258,11 @@ endc
 	db NO_MOVE      ; AUDINO
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; CONKELDURR
 	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH
 	db NO_MOVE      ; SAWK

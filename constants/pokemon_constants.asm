@@ -209,6 +209,9 @@
 	const BAGON      ; b7
 	const SHELGON    ; b8
 	const SALAMENCE  ; b9
+	const BELDUM     ; ba
+	const METANG     ; bb
+	const METAGROSS  ; bc
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const AUDINO     ; 118
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
 	const SAWK       ; 120

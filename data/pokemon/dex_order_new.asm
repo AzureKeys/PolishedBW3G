@@ -219,6 +219,9 @@ NewPokedexOrder:
 	dp BAGON
 	dp SHELGON
 	dp SALAMENCE
+	dp BELDUM
+	dp METANG
+	dp METAGROSS
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

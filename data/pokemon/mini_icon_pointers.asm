@@ -189,6 +189,9 @@ MiniIconPointers:
 	mini_icon Bagon
 	mini_icon Shelgon
 	mini_icon Salamence
+	mini_icon Beldum
+	mini_icon Metang
+	mini_icon Metagross
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Audino
 	mini_icon Timburr
 	mini_icon Gurdurr
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Conkeldurr
 	mini_icon Tympole
 	mini_icon Palpitoad
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Seismitoad
 	mini_icon Throh
 	mini_icon Sawk

@@ -185,6 +185,9 @@ BitmasksPointers:
 	dw BagonBitmasks
 	dw ShelgonBitmasks
 	dw SalamenceBitmasks
+	dw BeldumBitmasks
+	dw MetangBitmasks
+	dw MetagrossBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw AudinoBitmasks
 	dw TimburrBitmasks
 	dw GurdurrBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw ConkeldurrBitmasks
 	dw TympoleBitmasks
 	dw PalpitoadBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw SeismitoadBitmasks
 	dw ThrohBitmasks
 	dw SawkBitmasks

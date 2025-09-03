@@ -190,6 +190,9 @@ endc
 	db   1,  29 ; Bagon
 	db  30,  49 ; Shelgon
 	db  50, 100 ; Salamence
+	db   1,  19 ; Beldum
+	db  20,  44 ; Metang
+	db  45, 100 ; Metagross
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -256,11 +259,11 @@ endc
 	db  20, 100 ; Audino
 	db   1,  24 ; Timburr
 	db  25,  39 ; Gurdurr
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
 	db  20, 100 ; Sawk

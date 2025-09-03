@@ -185,6 +185,9 @@ FramesPointers:
 	dw BagonFrames
 	dw ShelgonFrames
 	dw SalamenceFrames
+	dw BeldumFrames
+	dw MetangFrames
+	dw MetagrossFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw AudinoFrames
 	dw TimburrFrames
 	dw GurdurrFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw ConkeldurrFrames
 	dw TympoleFrames
 	dw PalpitoadFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SeismitoadFrames
 	dw ThrohFrames
 	dw SawkFrames

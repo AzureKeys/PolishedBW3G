@@ -185,6 +185,9 @@ EggSpeciesMovesPointers::
 	dw BagonEggSpeciesMoves             ; Bagon
 	dw BagonEggSpeciesMoves             ; Shelgon
 	dw BagonEggSpeciesMoves             ; Salamence
+	dw BeldumEggSpeciesMoves            ; Beldum
+	dw BeldumEggSpeciesMoves            ; Metang
+	dw BeldumEggSpeciesMoves            ; Metagross
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw AudinoEggSpeciesMoves            ; Audino
 	dw TimburrEggSpeciesMoves           ; Timburr
 	dw TimburrEggSpeciesMoves           ; Gurdurr
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
 	dw SawkEggSpeciesMoves              ; Sawk

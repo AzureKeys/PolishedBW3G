@@ -24,6 +24,7 @@ AlphabeticalPokedexOrder:
 	dp BASCULIN
 	dp BEARTIC
 	dp BEHEEYEM
+	dp BELDUM
 	dp BISHARP
 	dp BLITZLE
 	dp BOLDORE
@@ -187,6 +188,8 @@ AlphabeticalPokedexOrder:
 	dp MEDITITE
 	dp MELOETTA
 	dp MEOWTH
+	dp METAGROSS
+	dp METANG
 	dp MIENFOO
 	dp MIENSHAO
 	dp MIME_JR_

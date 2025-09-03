@@ -754,6 +754,18 @@ SECTION "Salamence Pics", ROMX
 SalamenceFrontpic: INCBIN "gfx/pokemon/salamence/front.animated.2bpp.lz"
 SalamenceBackpic:  INCBIN "gfx/pokemon/salamence/back.2bpp.lz"
 
+SECTION "Beldum Pics", ROMX
+BeldumFrontpic: INCBIN "gfx/pokemon/beldum/front.animated.2bpp.lz"
+BeldumBackpic:  INCBIN "gfx/pokemon/beldum/back.2bpp.lz"
+
+SECTION "Metang Pics", ROMX
+MetangFrontpic: INCBIN "gfx/pokemon/metang/front.animated.2bpp.lz"
+MetangBackpic:  INCBIN "gfx/pokemon/metang/back.2bpp.lz"
+
+SECTION "Metagross Pics", ROMX
+MetagrossFrontpic: INCBIN "gfx/pokemon/metagross/front.animated.2bpp.lz"
+MetagrossBackpic:  INCBIN "gfx/pokemon/metagross/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

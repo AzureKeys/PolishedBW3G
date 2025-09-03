@@ -185,6 +185,9 @@ AnimationPointers:
 	dw BagonAnimation
 	dw ShelgonAnimation
 	dw SalamenceAnimation
+	dw BeldumAnimation
+	dw MetangAnimation
+	dw MetagrossAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw AudinoAnimation
 	dw TimburrAnimation
 	dw GurdurrAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw ConkeldurrAnimation
 	dw TympoleAnimation
 	dw PalpitoadAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SeismitoadAnimation
 	dw ThrohAnimation
 	dw SawkAnimation

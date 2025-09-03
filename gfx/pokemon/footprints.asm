@@ -228,6 +228,9 @@ WalreinFootprint::
 BagonFootprint::
 ShelgonFootprint::
 SalamenceFootprint::
+BeldumFootprint::
+MetangFootprint::
+MetagrossFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

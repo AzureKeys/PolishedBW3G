@@ -185,6 +185,9 @@ FootprintPointers::
 	dw BagonFootprint
 	dw ShelgonFootprint
 	dw SalamenceFootprint
+	dw BeldumFootprint
+	dw MetangFootprint
+	dw MetagrossFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw AudinoFootprint
 	dw TimburrFootprint
 	dw GurdurrFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw ConkeldurrFootprint
 	dw TympoleFootprint
 	dw PalpitoadFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SeismitoadFootprint
 	dw ThrohFootprint
 	dw SawkFootprint

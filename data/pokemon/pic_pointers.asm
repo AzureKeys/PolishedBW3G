@@ -189,6 +189,9 @@ PokemonPicPointers::
 	pics Bagon
 	pics Shelgon
 	pics Salamence
+	pics Beldum
+	pics Metang
+	pics Metagross
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Audino
 	pics Timburr
 	pics Gurdurr
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Seismitoad
 	pics Throh
 	pics Sawk
