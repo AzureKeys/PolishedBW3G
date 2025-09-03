@@ -188,6 +188,9 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $130,  $060 ; Spheal
 	mon_cry CRY_BELLOSSOM,   $e88,  $140 ; Sealeo
 	mon_cry CRY_WOOPER,      $e82,  $320 ; Walrein
+	mon_cry CRY_WEEDLE,      $021,  $070 ; Bagon
+	mon_cry CRY_METAPOD,     $0a3,  $070 ; Shelgon
+	mon_cry CRY_SQUIRTLE,    $e2f,  $150 ; Salamence
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -257,11 +260,11 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
 	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
 	mon_cry CRY_MEDITITE,    $3a9,  $0e0 ; Palpitoad
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny

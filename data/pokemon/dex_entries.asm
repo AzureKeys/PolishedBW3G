@@ -1818,6 +1818,36 @@ WalreinPokedexEntry::
 	next "only the cold, but"
 	next "also attacks.@"
 
+SECTION "BagonPokedexEntry", ROMX
+BagonPokedexEntry::
+	db "Rock Head@"
+	db "Its steel-hard"
+	next "head can shatter"
+	next "boulders. It"
+	page "longingly hopes"
+	next "for wings to grow"
+	next "so it can fly.@"
+
+SECTION "ShelgonPokedexEntry", ROMX
+ShelgonPokedexEntry::
+	db "Endurance@"
+	db "The cells within"
+	next "its shell"
+	next "transform with"
+	page "explosive speed,"
+	next "preparing it for"
+	next "evolution.@"
+
+SECTION "SalamencePokedexEntry", ROMX
+SalamencePokedexEntry::
+	db "Dragon@"
+	db "It becomes un-"
+	next "controllable if it"
+	next "is enraged. It"
+	page "destroys every-"
+	next "thing with its"
+	next "claws and fire.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

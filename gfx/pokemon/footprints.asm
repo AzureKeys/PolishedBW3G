@@ -225,6 +225,9 @@ GlalieFootprint::
 SphealFootprint::
 SealeoFootprint::
 WalreinFootprint::
+BagonFootprint::
+ShelgonFootprint::
+SalamenceFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

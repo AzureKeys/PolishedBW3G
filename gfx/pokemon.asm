@@ -742,6 +742,18 @@ SECTION "Walrein Pics", ROMX
 WalreinFrontpic: INCBIN "gfx/pokemon/walrein/front.animated.2bpp.lz"
 WalreinBackpic:  INCBIN "gfx/pokemon/walrein/back.2bpp.lz"
 
+SECTION "Bagon Pics", ROMX
+BagonFrontpic: INCBIN "gfx/pokemon/bagon/front.animated.2bpp.lz"
+BagonBackpic:  INCBIN "gfx/pokemon/bagon/back.2bpp.lz"
+
+SECTION "Shelgon Pics", ROMX
+ShelgonFrontpic: INCBIN "gfx/pokemon/shelgon/front.animated.2bpp.lz"
+ShelgonBackpic:  INCBIN "gfx/pokemon/shelgon/back.2bpp.lz"
+
+SECTION "Salamence Pics", ROMX
+SalamenceFrontpic: INCBIN "gfx/pokemon/salamence/front.animated.2bpp.lz"
+SalamenceBackpic:  INCBIN "gfx/pokemon/salamence/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

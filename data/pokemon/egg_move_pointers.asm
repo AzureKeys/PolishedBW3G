@@ -182,6 +182,9 @@ EggSpeciesMovesPointers::
 	dw SphealEggSpeciesMoves            ; Spheal
 	dw SphealEggSpeciesMoves            ; Sealeo
 	dw SphealEggSpeciesMoves            ; Walrein
+	dw BagonEggSpeciesMoves             ; Bagon
+	dw BagonEggSpeciesMoves             ; Shelgon
+	dw BagonEggSpeciesMoves             ; Salamence
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
 	dw SawkEggSpeciesMoves              ; Sawk
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon
 	dw SewaddleEggSpeciesMoves          ; Leavanny

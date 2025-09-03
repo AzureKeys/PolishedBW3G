@@ -182,6 +182,9 @@ AnimationPointers:
 	dw SphealAnimation
 	dw SealeoAnimation
 	dw WalreinAnimation
+	dw BagonAnimation
+	dw ShelgonAnimation
+	dw SalamenceAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw ConkeldurrAnimation
 	dw TympoleAnimation
 	dw PalpitoadAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw SeismitoadAnimation
 	dw ThrohAnimation
 	dw SawkAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SewaddleAnimation
 	dw SwadloonAnimation
 	dw LeavannyAnimation

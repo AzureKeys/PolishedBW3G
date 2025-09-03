@@ -187,6 +187,9 @@ endc
 	db   1,  31 ; Spheal
 	db  32,  43 ; Sealeo
 	db  44, 100 ; Walrein
+	db   1,  29 ; Bagon
+	db  30,  49 ; Shelgon
+	db  50, 100 ; Salamence
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -256,11 +259,11 @@ endc
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
 	db  20, 100 ; Sawk
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon
 	db  30, 100 ; Leavanny

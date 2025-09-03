@@ -917,6 +917,21 @@ WalreinMini::     INCBIN "gfx/minis/walrein.2bpp.lz"
 WalreinMiniMask:: INCBIN "gfx/minis/walrein_mask.1bpp.lz"
 WalreinIcon::     INCBIN "gfx/icons/walrein.2bpp.lz"
 
+SECTION "Bagon Mini Icon", ROMX
+BagonMini::     INCBIN "gfx/minis/bagon.2bpp.lz"
+BagonMiniMask:: INCBIN "gfx/minis/bagon_mask.1bpp.lz"
+BagonIcon::     INCBIN "gfx/icons/bagon.2bpp.lz"
+
+SECTION "Shelgon Mini Icon", ROMX
+ShelgonMini::     INCBIN "gfx/minis/shelgon.2bpp.lz"
+ShelgonMiniMask:: INCBIN "gfx/minis/shelgon_mask.1bpp.lz"
+ShelgonIcon::     INCBIN "gfx/icons/shelgon.2bpp.lz"
+
+SECTION "Salamence Mini Icon", ROMX
+SalamenceMini::     INCBIN "gfx/minis/salamence.2bpp.lz"
+SalamenceMiniMask:: INCBIN "gfx/minis/salamence_mask.1bpp.lz"
+SalamenceIcon::     INCBIN "gfx/icons/salamence.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

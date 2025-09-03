@@ -206,6 +206,9 @@
 	const SPHEAL     ; b4
 	const SEALEO     ; b5
 	const WALREIN    ; b6
+	const BAGON      ; b7
+	const SHELGON    ; b8
+	const SALAMENCE  ; b9
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
 	const SAWK       ; 120
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122
 	const LEAVANNY   ; 123

@@ -183,6 +183,9 @@ PokedexDataPointerTable:
 	dba SphealPokedexEntry
 	dba SealeoPokedexEntry
 	dba WalreinPokedexEntry
+	dba BagonPokedexEntry
+	dba ShelgonPokedexEntry
+	dba SalamencePokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry
 	dba SawkPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry
 	dba LeavannyPokedexEntry

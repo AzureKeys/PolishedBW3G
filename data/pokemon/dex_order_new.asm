@@ -216,6 +216,9 @@ NewPokedexOrder:
 	dp SPHEAL
 	dp SEALEO
 	dp WALREIN
+	dp BAGON
+	dp SHELGON
+	dp SALAMENCE
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

@@ -186,6 +186,9 @@ PokemonPicPointers::
 	pics Spheal
 	pics Sealeo
 	pics Walrein
+	pics Bagon
+	pics Shelgon
+	pics Salamence
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Seismitoad
 	pics Throh
 	pics Sawk
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Sewaddle
 	pics Swadloon
 	pics Leavanny

@@ -872,6 +872,10 @@ SphealEggSpeciesMoves:
 	dp SPHEAL, PLAIN_FORM
 	db $ff
 
+BagonEggSpeciesMoves:
+	dp BAGON, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

@@ -189,6 +189,9 @@ PokemonBodyData:
 	body_data   8,  395, FINS,         BLUE   ; SPHEAL
 	body_data  11,  876, FINS,         BLUE   ; SEALEO
 	body_data  14, 1506, QUADRUPED,    BLUE   ; WALREIN
+	body_data   6,  421, BIPEDAL,      BLUE   ; BAGON
+	body_data  11, 1105, QUADRUPED,    WHITE  ; SHELGON
+	body_data  15, 1026, QUADRUPED,    BLUE   ; SALAMENCE
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -258,11 +261,11 @@ PokemonBodyData:
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	body_data  13,  555, BIPEDAL,      RED    ; THROH
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON
 	body_data  12,  205, BIPEDAL,      YELLOW ; LEAVANNY

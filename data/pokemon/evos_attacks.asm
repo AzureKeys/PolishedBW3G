@@ -3799,6 +3799,63 @@ endc
 	learnset 52, MEAN_LOOK ; Imprison
 	learnset 58, EXPLOSION
 
+	evos_attacks Bagon
+	evo_data EVOLVE_LEVEL, 30, SHELGON
+	learnset 1, CONFUSION
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 7, MUD_SLAP
+	learnset 10, HYPNOSIS ; Heal Block
+	;learnset 13, ROCK_TOMB
+	learnset 16, PSYBEAM
+	learnset 19, ANCIENTPOWER
+	learnset 22, CALM_MIND ; Cosmic Power
+	;learnset 28, SELFDESTRUCT
+	learnset 31, EXTRASENSORY
+	learnset 34, PAIN_SPLIT ; Guard Split / Power Split
+	learnset 37, EARTH_POWER
+	learnset 40, SANDSTORM
+	learnset 43, MEAN_LOOK ; Imprison
+	learnset 46, EXPLOSION
+
+	evos_attacks Shelgon
+	evo_data EVOLVE_LEVEL, 50, SALAMENCE
+	learnset 1, CONFUSION
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 7, MUD_SLAP
+	learnset 10, HYPNOSIS ; Heal Block
+	;learnset 13, ROCK_TOMB
+	learnset 16, PSYBEAM
+	learnset 19, ANCIENTPOWER
+	learnset 22, CALM_MIND ; Cosmic Power
+	;learnset 28, SELFDESTRUCT
+	learnset 31, EXTRASENSORY
+	learnset 34, PAIN_SPLIT ; Guard Split / Power Split
+	learnset 37, EARTH_POWER
+	learnset 40, SANDSTORM
+	learnset 43, MEAN_LOOK ; Imprison
+	learnset 46, EXPLOSION
+
+	evos_attacks Salamence
+	learnset 1, HYPER_BEAM
+	learnset 1, CONFUSION
+	learnset 1, DEFENSE_CURL ; Harden
+	learnset 1, MUD_SLAP
+	learnset 1, HYPNOSIS ; Heal Block
+	learnset 7, MUD_SLAP
+	learnset 10, HYPNOSIS ; Heal Block
+	;learnset 13, ROCK_TOMB
+	learnset 16, PSYBEAM
+	learnset 19, ANCIENTPOWER
+	learnset 22, CALM_MIND ; Cosmic Power
+	;learnset 28, SELFDESTRUCT
+	learnset 31, EXTRASENSORY
+	learnset 34, PAIN_SPLIT ; Guard Split / Power Split
+	learnset 35, HYPER_BEAM
+	learnset 39, EARTH_POWER
+	learnset 46, SANDSTORM
+	learnset 52, MEAN_LOOK ; Imprison
+	learnset 58, EXPLOSION
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

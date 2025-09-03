@@ -18,6 +18,7 @@ AlphabeticalPokedexOrder:
 	dp AXEW
 	dp AZUMARILL
 	dp AZURILL
+	dp BAGON
 	dp BALTOY
 	dp BANETTE
 	dp BASCULIN
@@ -252,6 +253,7 @@ AlphabeticalPokedexOrder:
 	dp RUFFLET
 	dp RUNERIGUS
 	dp SABLEYE
+	dp SALAMENCE
 	dp SAMUROTT
 	dp SANDILE
 	dp SANDSHREW
@@ -272,6 +274,7 @@ AlphabeticalPokedexOrder:
 	dp SERVINE
 	dp SEVIPER
 	dp SEWADDLE
+	dp SHELGON
 	dp SHELMET
 	dp SHIFTRY
 	dp SHROOMISH

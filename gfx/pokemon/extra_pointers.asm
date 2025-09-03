@@ -182,6 +182,9 @@ AnimationExtraPointers:
 	dw SphealAnimationExtra
 	dw SealeoAnimationExtra
 	dw WalreinAnimationExtra
+	dw BagonAnimationExtra
+	dw ShelgonAnimationExtra
+	dw SalamenceAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw ConkeldurrAnimationExtra
 	dw TympoleAnimationExtra
 	dw PalpitoadAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw SeismitoadAnimationExtra
 	dw ThrohAnimationExtra
 	dw SawkAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw SewaddleAnimationExtra
 	dw SwadloonAnimationExtra
 	dw LeavannyAnimationExtra

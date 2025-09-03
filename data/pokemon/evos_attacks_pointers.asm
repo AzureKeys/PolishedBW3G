@@ -186,6 +186,9 @@ EvosAttacksPointers::
 	dw SphealEvosAttacks
 	dw SealeoEvosAttacks
 	dw WalreinEvosAttacks
+	dw BagonEvosAttacks
+	dw ShelgonEvosAttacks
+	dw SalamenceEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -255,11 +258,11 @@ EvosAttacksPointers::
 	dw ConkeldurrEvosAttacks
 	dw TympoleEvosAttacks
 	dw PalpitoadEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SeismitoadEvosAttacks
 	dw ThrohEvosAttacks
 	dw SawkEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw SewaddleEvosAttacks
 	dw SwadloonEvosAttacks
 	dw LeavannyEvosAttacks
