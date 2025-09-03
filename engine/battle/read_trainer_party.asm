@@ -329,27 +329,7 @@ SetDynamicForm:
 	; First, set b to base form in case no special case applies.
 	inc b ; ld b, PLAIN_FORM ; (don't overwrite other parts of b)
 
-	; Check for Arbok.
-	assert !HIGH(ARBOK)
-	bit MON_EXTSPECIES_F, b
-	ret nz
-	ld a, c
-	cp LOW(ARBOK)
-	ret nz
-
-	push bc
-	call RegionCheck
-	ld a, e
-	pop bc
-
-	and a
-	assert ARBOK_JOHTO_FORM == ARBOK_KANTO_FORM - 1
-	ld a, ARBOK_KANTO_FORM
-	jr nz, .got_arbok_form
-	dec a
-.got_arbok_form
-	or b
-	ld b, a
+	; Insert form checks here
 	ret
 
 Battle_GetTrainerName::
