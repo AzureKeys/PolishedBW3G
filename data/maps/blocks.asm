@@ -572,14 +572,6 @@ SECTION "WiseTriosRoom_BlockData", ROMX
 WiseTriosRoom_BlockData:
 	INCBIN "maps/WiseTriosRoom.ablk.lz"
 
-SECTION "EcruteakShrineOutside_BlockData", ROMX
-EcruteakShrineOutside_BlockData:
-	INCBIN "maps/EcruteakShrineOutside.ablk.lz"
-
-SECTION "EcruteakShrineInside_BlockData", ROMX
-EcruteakShrineInside_BlockData:
-	INCBIN "maps/EcruteakShrineInside.ablk.lz"
-
 SECTION "BellchimeTrail_BlockData", ROMX
 BellchimeTrail_BlockData:
 	INCBIN "maps/BellchimeTrail.ablk.lz"
