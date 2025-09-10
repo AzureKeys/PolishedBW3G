@@ -70,8 +70,6 @@ Landmarks:
 	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
 	landmark 102, 124, FastShipName
-	landmark 120,  28, SinjohRuinsName
-	landmark 120,  28, MystriStageName
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  88, Route1Name
@@ -289,7 +287,5 @@ Route49Name:           rawchar "Route 49@"
 ValenciaIslandName:    rawchar "Valencia¯Island@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"
-SinjohRuinsName:       rawchar "Sinjoh¯Ruins@"
-MystriStageName:       rawchar "Mystri¯Stage@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
 SpecialMapName:        rawchar "?@"

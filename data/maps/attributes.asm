@@ -573,10 +573,6 @@ ENDM
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
 	map_attributes Route43Gate, ROUTE_43_GATE, $0, 0
-	map_attributes SinjohRuins, SINJOH_RUINS, $d5, 0
-	map_attributes SinjohRuinsHouse, SINJOH_RUINS_HOUSE, $0, 0
-	map_attributes MystriStage, MYSTRI_STAGE, $0, 0
-	map_attributes EmbeddedTower, EMBEDDED_TOWER, $0, 0
 	map_attributes VioletMart, VIOLET_MART, $0, 0
 	map_attributes VioletGym, VIOLET_GYM, $0, 0
 	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $0, 0

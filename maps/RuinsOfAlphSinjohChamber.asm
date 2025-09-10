@@ -81,11 +81,9 @@ RuinsofAlphSinjohChamberSignpost:
 	disappear RUINSOFALPHSINJOHCHAMBER_UNOWN_P
 	checkevent EVENT_LISTENED_TO_CYNTHIA_INTRO
 	iftruefwd .HeardIntro
-	setmapscene MYSTRI_STAGE, $1
 	setevent EVENT_MYSTRI_STAGE_CYNTHIA
 	setevent EVENT_MYSTRI_STAGE_EGG
 .HeardIntro
-	warp MYSTRI_STAGE, 6, 15
 	end
 
 .PlayUnownSound1:

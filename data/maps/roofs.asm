@@ -36,5 +36,4 @@ MapGroupRoofs:
 	db -1            ; 31
 	db -1            ; 32
 	db -1            ; 33
-	db ROOF_AZALEA   ; 34 (Sinjoh Ruins)
 	assert_table_length NUM_MAP_GROUPS + 1

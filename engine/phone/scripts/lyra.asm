@@ -146,8 +146,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route46
 	dw .SilverCave
 	dw .FastShip
-	dw .SinjohRuins ; no calls
-	dw .MystriStage ; no calls
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:

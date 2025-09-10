@@ -683,10 +683,4 @@ ENDM
 	map_const VALENCIA_HOUSE,                              4,  4 ;  5
 	map_const VALENCIA_PORT,                              11,  9 ;  6
 
-	newgroup                                                     ; 34
-	map_const SINJOH_RUINS,                                9, 13 ;  1
-	map_const SINJOH_RUINS_HOUSE,                          4,  4 ;  2
-	map_const MYSTRI_STAGE,                                7, 10 ;  3
-	map_const EMBEDDED_TOWER,                              7, 12 ;  4
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37

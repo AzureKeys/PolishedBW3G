@@ -152,13 +152,6 @@ INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
 
 
-SECTION "Sinjoh Ruins Scripts", ROMX
-
-INCLUDE "maps/SinjohRuins.asm"
-INCLUDE "maps/SinjohRuinsHouse.asm"
-INCLUDE "maps/MystriStage.asm"
-
-
 SECTION "Union Cave Scripts", ROMX
 
 INCLUDE "maps/UnionCave1F.asm"
@@ -366,7 +359,6 @@ INCLUDE "maps/QuietCave1F.asm"
 INCLUDE "maps/QuietCaveB1F.asm"
 INCLUDE "maps/QuietCaveB2F.asm"
 INCLUDE "maps/QuietCaveB3F.asm"
-INCLUDE "maps/EmbeddedTower.asm"
 
 
 SECTION "Mount Mortar Scripts", ROMX

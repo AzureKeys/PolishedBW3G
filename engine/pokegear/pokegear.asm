@@ -131,11 +131,6 @@ Pokegear_LoadGFX:
 	ld hl, FastShipGFX
 	cp FAST_SHIP
 	jr z, .load_alt_sprite
-	ld hl, SinjohRuinsArrowGFX
-	cp SINJOH_RUINS
-	jr z, .load_alt_sprite
-	cp MYSTRI_STAGE
-	jr z, .load_alt_sprite
 	farcall GetPlayerIcon
 	ldh a, [rWBK]
 	push af

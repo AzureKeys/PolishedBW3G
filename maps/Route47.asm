@@ -10,7 +10,6 @@ Route47_MapScriptHeader:
 	warp_event 52, 17, CLIFF_CAVE, 2
 	warp_event 53, 29, CLIFF_CAVE, 3
 	warp_event 11, 23, QUIET_CAVE_1F, 1
-	warp_event  8, 23, EMBEDDED_TOWER, 1
 	warp_event  8,  4, HIDDEN_CAVE_GROTTO, 1
 
 	def_coord_events

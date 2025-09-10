@@ -52,7 +52,6 @@ MapScenes::
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
 	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID
-	scene_var MYSTRI_STAGE,                           wMystriStageSceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var OLIVINE_CITY,                           wOlivineCitySceneID
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
