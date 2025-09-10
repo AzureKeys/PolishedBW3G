@@ -385,11 +385,4 @@
 	wildmon LEVEL_FROM_BADGES + 5, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons RUGGED_ROAD_SOUTH
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 5, RATTATA, HISUIAN_FORM
-	end_water_wildmons
-
 	db -1 ; end

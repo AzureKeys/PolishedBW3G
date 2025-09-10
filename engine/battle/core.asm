@@ -8803,21 +8803,21 @@ AutomaticBattleWeather:
 	ld a, [wInBattleTowerBattle]
 	and a
 	ret nz
-
+; Leaving layout commented for adding future maps
 	ld a, [wMapGroup]
-	cp GROUP_SNOWTOP_MOUNTAIN_INSIDE ; aka GROUP_RUGGED_ROAD_SOUTH
-	jr nz, .not_rugged_road_or_snowtop_mountain
-	ld a, [wMapNumber]
+	;cp GROUP_SNOWTOP_MOUNTAIN_INSIDE ; aka GROUP_RUGGED_ROAD_SOUTH
+	;jr nz, .not_rugged_road_or_snowtop_mountain
+	;ld a, [wMapNumber]
 	; Automatic hail on Snowtop Mountain
-	cp MAP_SNOWTOP_MOUNTAIN_INSIDE
-	lb de, WEATHER_HAIL, HAIL
-	ld hl, HailStartedText
-	jr z, .got_weather
+	;cp MAP_SNOWTOP_MOUNTAIN_INSIDE
+	;lb de, WEATHER_HAIL, HAIL
+	;ld hl, HailStartedText
+	;jr z, .got_weather
 	; Automatic sandstorm on Rugged Road
-	cp MAP_RUGGED_ROAD_SOUTH
-	lb de, WEATHER_SANDSTORM, SANDSTORM
-	ld hl, SandstormBrewedText
-	jr z, .got_weather
+	;cp MAP_RUGGED_ROAD_SOUTH
+	;lb de, WEATHER_SANDSTORM, SANDSTORM
+	;ld hl, SandstormBrewedText
+	;jr z, .got_weather
 .not_rugged_road_or_snowtop_mountain
 	; Automatic rain on overcast maps
 	farcall GetOvercastIndex

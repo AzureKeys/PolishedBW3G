@@ -859,8 +859,8 @@ CheckMenuOW:
 	ldh [hMenuReturn + 1], a
 
 	ld a, [wPanningAroundTinyMap]
-	and a
-	jr nz, .PanningAroundSnowtopMountain
+	;and a
+	;jr nz, .PanningAroundSnowtopMountain
 
 	ldh a, [hJoyPressed]
 	bit B_PAD_SELECT, a
@@ -885,15 +885,15 @@ CheckMenuOW:
 	scf
 	ret
 
-.PanningAroundSnowtopMountain:
-	ldh a, [hJoyPressed]
-	and PAD_B
-	ret z
-	ld a, BANK(SnowtopMountainOutsideStopPanningScript)
-	ld hl, SnowtopMountainOutsideStopPanningScript
-	call CallScript
-	scf
-	ret
+; .PanningAroundSnowtopMountain:
+	; ldh a, [hJoyPressed]
+	; and PAD_B
+	; ret z
+	; ld a, BANK(SnowtopMountainOutsideStopPanningScript)
+	; ld hl, SnowtopMountainOutsideStopPanningScript
+	; call CallScript
+	; scf
+	; ret
 
 StartMenuScript:
 	callasm StartMenu

@@ -6,7 +6,6 @@ Route39_MapScriptHeader:
 	def_warp_events
 	warp_event  1, 17, ROUTE_39_BARN, 1
 	warp_event  5, 17, ROUTE_39_FARMHOUSE, 1
-	warp_event  9,  5, ROUTE_39_RUGGED_ROAD_GATE, 3
 
 	def_coord_events
 

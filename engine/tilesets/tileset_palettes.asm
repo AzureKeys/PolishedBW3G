@@ -86,8 +86,8 @@ PokeCenterSpecialCase:
 	jr z, .got_roof_pal
 	; Snowtop Mountain has brown floors
 	call GetWorldMapLocation
-	cp SNOWTOP_MOUNTAIN
-	ld hl, wBGPals1 palette PAL_BG_BROWN
+	;cp SNOWTOP_MOUNTAIN
+	;ld hl, wBGPals1 palette PAL_BG_BROWN
 	jr z, .got_roof_pal
 	; Johto has red floors
 	ld hl, wBGPals1 palette PAL_BG_RED

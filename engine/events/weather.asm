@@ -54,30 +54,30 @@ SetCurrentWeather::
 	ret
 
 .not_overcast
-	ld a, [wMapGroup]
-	cp GROUP_SNOWTOP_MOUNTAIN_OUTSIDE
-	jr nz, .not_snowing
-	ld a, [wMapNumber]
-	cp MAP_SNOWTOP_MOUNTAIN_OUTSIDE
-	jr z, .snowing
-	cp MAP_SNOWTOP_MOUNTAIN_INSIDE
-	jr nz, .not_snowing
-.snowing
-	ld a, OW_WEATHER_SNOW
-	jr .set_weather
+	; ld a, [wMapGroup]
+	; cp GROUP_SNOWTOP_MOUNTAIN_OUTSIDE
+	; jr nz, .not_snowing
+	; ld a, [wMapNumber]
+	; cp MAP_SNOWTOP_MOUNTAIN_OUTSIDE
+	; jr z, .snowing
+	; cp MAP_SNOWTOP_MOUNTAIN_INSIDE
+	; jr nz, .not_snowing
+; .snowing
+	; ld a, OW_WEATHER_SNOW
+	; jr .set_weather
 
-.not_snowing
-	ld a, [wMapGroup]
-	cp GROUP_RUGGED_ROAD_NORTH
-	jr nz, .no_weather
-	ld a, [wMapNumber]
-	cp MAP_RUGGED_ROAD_NORTH
-	jr z, .sandstorm
-	cp MAP_RUGGED_ROAD_SOUTH
-	jr nz, .no_weather
-.sandstorm
-	ld a, OW_WEATHER_SANDSTORM
-	jr .set_weather
+; .not_snowing
+	; ld a, [wMapGroup]
+	; cp GROUP_RUGGED_ROAD_NORTH
+	; jr nz, .no_weather
+	; ld a, [wMapNumber]
+	; cp MAP_RUGGED_ROAD_NORTH
+	; jr z, .sandstorm
+	; cp MAP_RUGGED_ROAD_SOUTH
+	; jr nz, .no_weather
+; .sandstorm
+	; ld a, OW_WEATHER_SANDSTORM
+	; jr .set_weather
 
 .no_weather
 	ld a, OW_WEATHER_NONE

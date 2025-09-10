@@ -38,8 +38,6 @@
 	const BURNED_TOWER       ; 22
 	const ROUTE_38           ; 23
 	const ROUTE_39           ; 24
-	const RUGGED_ROAD        ; 25
-	const SNOWTOP_MOUNTAIN   ; 26
 	const OLIVINE_CITY       ; 27
 	const LIGHTHOUSE         ; 28
 	const ROUTE_40           ; 29
