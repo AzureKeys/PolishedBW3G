@@ -35,13 +35,6 @@
 	wildmon LEVEL_FROM_BADGES + 2, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons SHAMOUTI_SHRINE_RUINS
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons NAVEL_ROCK_OUTSIDE
 	db 6 percent ; encounter rate
 	wildmon 80, RATTATA

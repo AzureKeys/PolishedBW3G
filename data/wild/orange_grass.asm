@@ -168,34 +168,6 @@
 	wildmon LEVEL_FROM_BADGES + 2, YANMA
 	end_grass_wildmons
 
-	def_grass_wildmons SHAMOUTI_SHRINE_RUINS
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, PONYTA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, PONYTA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, RAPIDASH, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RAPIDASH, GALARIAN_FORM
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, PONYTA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, PONYTA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, RAPIDASH, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RAPIDASH, GALARIAN_FORM
-	; nite
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, PONYTA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, PONYTA, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, RAPIDASH, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RAPIDASH, GALARIAN_FORM
-	end_grass_wildmons
-
 	def_grass_wildmons FIRE_ISLAND
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

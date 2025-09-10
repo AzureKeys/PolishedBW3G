@@ -99,7 +99,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const SOUL_HOUSE         ; 60
 	const CELADON_CITY       ; 61
 	const CELADON_UNIVERSITY ; 62
-	const SAFFRON_CITY       ; 63
 	const ROUTE_11           ; 64
 	const ROUTE_12           ; 65
 	const ROUTE_13           ; 66

@@ -257,9 +257,8 @@ ENDM
 	connection west, Route16Northeast, ROUTE_16_NORTHEAST, 10
 	connection east, Route7, ROUTE_7, 5
 
-	map_attributes Route7, ROUTE_7, $f, WEST | EAST
+	map_attributes Route7, ROUTE_7, $f, WEST
 	connection west, CeladonCity, CELADON_CITY, -5
-	connection east, SaffronCity, SAFFRON_CITY, -6
 
 	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
 	connection north, Route13East, ROUTE_13_EAST, 0
@@ -305,19 +304,11 @@ ENDM
 	connection north, Route6, ROUTE_6, 3
 	connection east, Route11, ROUTE_11, 5
 
-	map_attributes Route6, ROUTE_6, $f, NORTH | SOUTH
-	connection north, SaffronCity, SAFFRON_CITY, -3
+	map_attributes Route6, ROUTE_6, $f, SOUTH
 	connection south, VermilionCity, VERMILION_CITY, -3
 
-	map_attributes SaffronCity, SAFFRON_CITY, $f, NORTH | SOUTH | WEST | EAST
-	connection north, Route5, ROUTE_5, 5
-	connection south, Route6, ROUTE_6, 3
-	connection west, Route7, ROUTE_7, 6
-	connection east, Route8, ROUTE_8, 4
-
-	map_attributes Route5, ROUTE_5, $f, NORTH | SOUTH
+	map_attributes Route5, ROUTE_5, $f, NORTH
 	connection north, CeruleanCity, CERULEAN_CITY, -5
-	connection south, SaffronCity, SAFFRON_CITY, -5
 
 	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST | EAST
 	connection north, Route24, ROUTE_24, 0
@@ -342,8 +333,7 @@ ENDM
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
 
-	map_attributes Route8, ROUTE_8, $2c, WEST | EAST
-	connection west, SaffronCity, SAFFRON_CITY, -4
+	map_attributes Route8, ROUTE_8, $2c, EAST
 	connection east, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route9, ROUTE_9, $2c, WEST | EAST
@@ -886,7 +876,6 @@ ENDM
 	map_attributes Route19BeachHouse, ROUTE_19_BEACH_HOUSE, $0, 0
 	map_attributes ShamoutiTunnel, SHAMOUTI_TUNNEL, $9, 0
 	map_attributes NoisyForest, NOISY_FOREST, $0, 0
-	map_attributes ShamoutiShrineRuins, SHAMOUTI_SHRINE_RUINS, $37, 0
 	map_attributes ShamoutiPokeCenter1F, SHAMOUTI_POKECENTER_1F, $0, 0
 	map_attributes ShamoutiHotel1F, SHAMOUTI_HOTEL_1F, $0, 0
 	map_attributes ShamoutiHotel2F, SHAMOUTI_HOTEL_2F, $0, 0

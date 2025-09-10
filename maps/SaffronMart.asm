@@ -4,8 +4,6 @@ SaffronMart_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, SAFFRON_CITY, 3
-	warp_event  3,  7, SAFFRON_CITY, 3
 
 	def_coord_events
 

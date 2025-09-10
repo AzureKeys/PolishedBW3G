@@ -4,8 +4,6 @@ SaffronPokeCenter1F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  5,  7, SAFFRON_CITY, 4
-	warp_event  6,  7, SAFFRON_CITY, 4
 	warp_event  0,  7, POKECENTER_2F, 1
 
 	def_coord_events

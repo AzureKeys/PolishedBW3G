@@ -1337,10 +1337,6 @@ SECTION "SaffronGym_BlockData", ROMX
 SaffronGym_BlockData:
 	INCBIN "maps/SaffronGym.ablk.lz"
 
-SECTION "SaffronCity_BlockData", ROMX
-SaffronCity_BlockData:
-	INCBIN "maps/SaffronCity.ablk.lz"
-
 SECTION "SaffronBookSpeechHouse_BlockData", ROMX
 SaffronBookSpeechHouse_BlockData:
 	INCBIN "maps/SaffronBookSpeechHouse.ablk.lz"
@@ -1518,10 +1514,6 @@ ShamoutiIsland_BlockData:
 SECTION "NoisyForest_BlockData", ROMX
 NoisyForest_BlockData:
 	INCBIN "maps/NoisyForest.ablk.lz"
-
-SECTION "ShamoutiShrineRuins_BlockData", ROMX
-ShamoutiShrineRuins_BlockData:
-	INCBIN "maps/ShamoutiShrineRuins.ablk.lz"
 
 SECTION "ShamoutiTunnel_BlockData", ROMX
 ShamoutiTunnel_BlockData:

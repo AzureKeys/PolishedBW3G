@@ -4,8 +4,6 @@ CopycatsHouse1F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, SAFFRON_CITY, 8
-	warp_event  3,  7, SAFFRON_CITY, 8
 	warp_event  3,  0, COPYCATS_HOUSE_2F, 1
 
 	def_coord_events

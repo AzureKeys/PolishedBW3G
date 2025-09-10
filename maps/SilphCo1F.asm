@@ -5,8 +5,6 @@ SilphCo1F_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, .SilphCo1FMoveOfficerCallback
 
 	def_warp_events
-	warp_event  2,  7, SAFFRON_CITY, 7
-	warp_event  3,  7, SAFFRON_CITY, 7
 	warp_event 13,  0, SILPH_CO_2F, 1
 
 	def_coord_events

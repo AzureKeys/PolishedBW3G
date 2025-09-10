@@ -4,8 +4,6 @@ PokemonTrainerFanClub_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  6, 17, SAFFRON_CITY, 16
-	warp_event  7, 17, SAFFRON_CITY, 16
 
 	def_coord_events
 

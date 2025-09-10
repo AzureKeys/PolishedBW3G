@@ -689,8 +689,4 @@ ENDM
 	map_const MYSTRI_STAGE,                                7, 10 ;  3
 	map_const EMBEDDED_TOWER,                              7, 12 ;  4
 
-	newgroup                                                     ; 35
-	map_const SAFFRON_CITY,                               20, 19 ;  1
-	map_const SHAMOUTI_SHRINE_RUINS,                      12, 17 ;  2
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37
