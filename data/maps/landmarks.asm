@@ -132,12 +132,9 @@ Landmarks:
 	landmark  16,  76, Route28Name
 	landmark  54, 134, CinnabarLabName
 	landmark  68,  52, ShamoutiIslandName
-	landmark  84,  60, BeautifulBeachName
-	landmark  68,  40, RockyBeachName
 	landmark  76,  40, NoisyForestName
 	landmark  84,  44, ShrineRuinsName
 	landmark  52,  52, ShamoutiTunnelName
-	landmark  52,  60, WarmBeachName
 	landmark  52,  72, ShamoutiCoastName
 	landmark 132, 100, NavelRockName
 	landmark  24, 120, FarawayIslandName
@@ -266,12 +263,9 @@ ScaryCaveName:         rawchar "Scary¯Cave@"
 DimCaveName:           rawchar "Dim Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
 ShamoutiIslandName:    rawchar "Shamouti¯Island@"
-BeautifulBeachName:    rawchar "Beautiful¯Beach@"
-RockyBeachName:        rawchar "Rocky¯Beach@"
 NoisyForestName:       rawchar "Noisy¯Forest@"
 ShrineRuinsName:       rawchar "Shrine¯Ruins@"
 ShamoutiTunnelName:    rawchar "Shamouti¯Tunnel@"
-WarmBeachName:         rawchar "Warm Beach@"
 ShamoutiCoastName:     rawchar "Shamouti¯Coast@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"

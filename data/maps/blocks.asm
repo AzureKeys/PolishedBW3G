@@ -111,8 +111,6 @@ ShamoutiHotel_BlockData:
 ShamoutiTouristCenter_BlockData:
 ShamoutiMerchant_BlockData:
 ShamoutiHouse_BlockData:
-WarmBeachHouse_BlockData:
-RockyBeachHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
 GoldenrodHappinessRater_BlockData:
@@ -1496,26 +1494,6 @@ ShamoutiHotel3F_BlockData:
 SECTION "ShamoutiHotelRestaurant_BlockData", ROMX
 ShamoutiHotelRestaurant_BlockData:
 	INCBIN "maps/ShamoutiHotelRestaurant.ablk.lz"
-
-SECTION "BeautifulBeach_BlockData", ROMX
-BeautifulBeach_BlockData:
-	INCBIN "maps/BeautifulBeach.ablk.lz"
-
-SECTION "BeautifulBeachVilla_BlockData", ROMX
-BeautifulBeachVilla_BlockData:
-	INCBIN "maps/BeautifulBeachVilla.ablk.lz"
-
-SECTION "WarmBeach_BlockData", ROMX
-WarmBeach_BlockData:
-	INCBIN "maps/WarmBeach.ablk.lz"
-
-SECTION "WarmBeachShack_BlockData", ROMX
-WarmBeachShack_BlockData:
-	INCBIN "maps/WarmBeachShack.ablk.lz"
-
-SECTION "RockyBeach_BlockData", ROMX
-RockyBeach_BlockData:
-	INCBIN "maps/RockyBeach.ablk.lz"
 
 SECTION "NavelRockOutside_BlockData", ROMX
 NavelRockOutside_BlockData:

@@ -635,10 +635,7 @@ ENDM
 
 	newgroup                                                     ; 31
 	map_const SHAMOUTI_ISLAND,                            18, 15 ;  1
-	map_const BEAUTIFUL_BEACH,                            21, 15 ;  2
-	map_const WARM_BEACH,                                 12, 13 ;  3
 	map_const SHAMOUTI_COAST,                             48, 10 ;  4
-	map_const ROCKY_BEACH,                                20, 15 ;  5
 	map_const SHAMOUTI_TUNNEL,                            18, 10 ;  6
 	map_const NOISY_FOREST,                               22, 20 ;  7
 	map_const SHAMOUTI_POKECENTER_1F,                      6,  4 ;  8
@@ -653,9 +650,5 @@ ENDM
 	map_const SHAMOUTI_TOURIST_CENTER,                     4,  4 ; 17
 	map_const SHAMOUTI_MERCHANT,                           4,  4 ; 18
 	map_const SHAMOUTI_HOUSE,                              4,  4 ; 19
-	map_const BEAUTIFUL_BEACH_VILLA,                       6,  4 ; 20
-	map_const WARM_BEACH_SHACK,                            4,  4 ; 21
-	map_const WARM_BEACH_HOUSE,                            4,  4 ; 22
-	map_const ROCKY_BEACH_HOUSE,                           4,  4 ; 23
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

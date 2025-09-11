@@ -4,8 +4,6 @@ NoisyForest_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  6,  4, ROCKY_BEACH, 2
-	warp_event  6,  5, ROCKY_BEACH, 3
 
 	def_coord_events
 

@@ -128,12 +128,9 @@ DEF KANTO_LANDMARK EQU const_value
 	const CINNABAR_LAB       ; 81
 DEF SHAMOUTI_LANDMARK EQU const_value
 	const SHAMOUTI_ISLAND    ; 82
-	const BEAUTIFUL_BEACH    ; 83
-	const ROCKY_BEACH        ; 84
 	const NOISY_FOREST       ; 85
 	const SHRINE_RUINS       ; 86
 	const SHAMOUTI_TUNNEL    ; 87
-	const WARM_BEACH         ; 88
 	const SHAMOUTI_COAST     ; 89
 	const NAVEL_ROCK         ; 8f
 	const FARAWAY_ISLAND     ; 90

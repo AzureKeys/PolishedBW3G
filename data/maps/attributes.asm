@@ -386,21 +386,9 @@ ENDM
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $2c, SOUTH
 	connection south, Route23, ROUTE_23, 0
 
-	map_attributes ShamoutiIsland, SHAMOUTI_ISLAND, $35, NORTH | EAST
-	connection north, RockyBeach, ROCKY_BEACH, 0
-	connection east, BeautifulBeach, BEAUTIFUL_BEACH, 0
+	map_attributes ShamoutiIsland, SHAMOUTI_ISLAND, $35, 0
 
-	map_attributes BeautifulBeach, BEAUTIFUL_BEACH, $35, WEST
-	connection west, ShamoutiIsland, SHAMOUTI_ISLAND, 0
-
-	map_attributes WarmBeach, WARM_BEACH, $35, SOUTH
-	connection south, ShamoutiCoast, SHAMOUTI_COAST, 0
-
-	map_attributes ShamoutiCoast, SHAMOUTI_COAST, $35, NORTH
-	connection north, WarmBeach, WARM_BEACH, 0
-
-	map_attributes RockyBeach, ROCKY_BEACH, $35, SOUTH
-	connection south, ShamoutiIsland, SHAMOUTI_ISLAND, 0
+	map_attributes ShamoutiCoast, SHAMOUTI_COAST, $35, 0
 
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
@@ -869,7 +857,3 @@ ENDM
 	map_attributes ShamoutiTouristCenter, SHAMOUTI_TOURIST_CENTER, $0, 0
 	map_attributes ShamoutiMerchant, SHAMOUTI_MERCHANT, $0, 0
 	map_attributes ShamoutiHouse, SHAMOUTI_HOUSE, $0, 0
-	map_attributes BeautifulBeachVilla, BEAUTIFUL_BEACH_VILLA, $0, 0
-	map_attributes WarmBeachShack, WARM_BEACH_SHACK, $0, 0
-	map_attributes WarmBeachHouse, WARM_BEACH_HOUSE, $0, 0
-	map_attributes RockyBeachHouse, ROCKY_BEACH_HOUSE, $0, 0
