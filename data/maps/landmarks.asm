@@ -139,9 +139,6 @@ Landmarks:
 	landmark  52,  52, ShamoutiTunnelName
 	landmark  52,  60, WarmBeachName
 	landmark  52,  72, ShamoutiCoastName
-	landmark  60,  76, FireIslandName
-	landmark  76,  76, IceIslandName
-	landmark  92,  76, LightningIslandName
 	landmark 132, 100, NavelRockName
 	landmark  24, 120, FarawayIslandName
 	assert_table_length NUM_LANDMARKS
@@ -276,9 +273,6 @@ ShrineRuinsName:       rawchar "Shrine¯Ruins@"
 ShamoutiTunnelName:    rawchar "Shamouti¯Tunnel@"
 WarmBeachName:         rawchar "Warm Beach@"
 ShamoutiCoastName:     rawchar "Shamouti¯Coast@"
-FireIslandName:        rawchar "Fire¯Island@"
-IceIslandName:         rawchar "Ice Island@"
-LightningIslandName:   rawchar "Lightning¯Island@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"

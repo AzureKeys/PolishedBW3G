@@ -657,11 +657,5 @@ ENDM
 	map_const WARM_BEACH_SHACK,                            4,  4 ; 21
 	map_const WARM_BEACH_HOUSE,                            4,  4 ; 22
 	map_const ROCKY_BEACH_HOUSE,                           4,  4 ; 23
-	map_const FIRE_ISLAND,                                13, 16 ; 24
-	map_const FIRE_ISLAND_ROOF,                            6,  6 ; 25
-	map_const ICE_ISLAND,                                 13, 16 ; 26
-	map_const ICE_ISLAND_ROOF,                             6,  6 ; 27
-	map_const LIGHTNING_ISLAND,                           13, 16 ; 28
-	map_const LIGHTNING_ISLAND_ROOF,                       6,  6 ; 29
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

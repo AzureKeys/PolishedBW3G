@@ -873,9 +873,3 @@ ENDM
 	map_attributes WarmBeachShack, WARM_BEACH_SHACK, $0, 0
 	map_attributes WarmBeachHouse, WARM_BEACH_HOUSE, $0, 0
 	map_attributes RockyBeachHouse, ROCKY_BEACH_HOUSE, $0, 0
-	map_attributes FireIsland, FIRE_ISLAND, $9, 0
-	map_attributes FireIslandRoof, FIRE_ISLAND_ROOF, $35, 0
-	map_attributes IceIsland, ICE_ISLAND, $9, 0
-	map_attributes IceIslandRoof, ICE_ISLAND_ROOF, $35, 0
-	map_attributes LightningIsland, LIGHTNING_ISLAND, $9, 0
-	map_attributes LightningIslandRoof, LIGHTNING_ISLAND_ROOF, $35, 0

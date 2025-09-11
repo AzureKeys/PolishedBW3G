@@ -1517,24 +1517,6 @@ SECTION "RockyBeach_BlockData", ROMX
 RockyBeach_BlockData:
 	INCBIN "maps/RockyBeach.ablk.lz"
 
-SECTION "FireIsland_BlockData", ROMX
-FireIsland_BlockData:
-	INCBIN "maps/FireIsland.ablk.lz"
-
-SECTION "IceIsland_BlockData", ROMX
-IceIsland_BlockData:
-	INCBIN "maps/IceIsland.ablk.lz"
-
-SECTION "LightningIsland_BlockData", ROMX
-LightningIsland_BlockData:
-	INCBIN "maps/LightningIsland.ablk.lz"
-
-SECTION "FireIslandRoof_BlockData", ROMX
-FireIslandRoof_BlockData:
-IceIslandRoof_BlockData:
-LightningIslandRoof_BlockData:
-	INCBIN "maps/ElementalIsland.ablk.lz"
-
 SECTION "NavelRockOutside_BlockData", ROMX
 NavelRockOutside_BlockData:
 	INCBIN "maps/NavelRockOutside.ablk.lz"

@@ -59,8 +59,6 @@ UniqueWildMoves:
 	unique_moves SHAMOUTI_TUNNEL,  GOLBAT,     OUTRAGE      ; Prism tutor move
 	unique_moves WARM_BEACH,       SEADRA,     FLAMETHROWER ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0
-	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
-	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	unique_moves YELLOW_FOREST,    PIKACHU,    PLAIN_FORM,        FLY  ; Yellow special move, assumed only Pikachu can learn Fly
 	unique_moves YELLOW_FOREST,    PIKACHU,    PIKACHU_SURF_FORM, SURF ; Yellow special move, assumed only Pikachu can learn Surf

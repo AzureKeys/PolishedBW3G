@@ -844,16 +844,6 @@ INCLUDE "maps/WarmBeachHouse.asm"
 INCLUDE "maps/WarmBeachShack.asm"
 
 
-SECTION "Elemental Island Scripts", ROMX
-
-INCLUDE "maps/FireIsland.asm"
-INCLUDE "maps/IceIsland.asm"
-INCLUDE "maps/LightningIsland.asm"
-INCLUDE "maps/FireIslandRoof.asm"
-INCLUDE "maps/IceIslandRoof.asm"
-INCLUDE "maps/LightningIslandRoof.asm"
-
-
 SECTION "Navel Rock Scripts", ROMX
 
 INCLUDE "maps/NavelRockOutside.asm"
