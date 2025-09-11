@@ -281,56 +281,6 @@ SECTION "VioletOutskirts_BlockData", ROMX
 VioletOutskirts_BlockData:
 	INCBIN "maps/VioletOutskirts.ablk.lz"
 
-SECTION "RuinsOfAlphOutside_BlockData", ROMX
-RuinsOfAlphOutside_BlockData:
-	INCBIN "maps/RuinsOfAlphOutside.ablk.lz"
-
-SECTION "RuinsOfAlphResearchCenter_BlockData", ROMX
-RuinsOfAlphResearchCenter_BlockData:
-	INCBIN "maps/RuinsOfAlphResearchCenter.ablk.lz"
-
-SECTION "RuinsOfAlphEntranceChamber_BlockData", ROMX
-RuinsOfAlphEntranceChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphEntranceChamber.ablk.lz"
-
-SECTION "RuinsOfAlphInnerChamber_BlockData", ROMX
-RuinsOfAlphInnerChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphInnerChamber.ablk.lz"
-
-SECTION "RuinsOfAlphSinjohChamber_BlockData", ROMX
-RuinsOfAlphSinjohChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphSinjohChamber.ablk.lz"
-
-SECTION "RuinsOfAlphAerodactylChamber_BlockData", ROMX
-RuinsOfAlphAerodactylChamber_BlockData:
-RuinsOfAlphHoOhChamber_BlockData:
-RuinsOfAlphKabutoChamber_BlockData:
-RuinsOfAlphOmanyteChamber_BlockData:
-	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
-
-SECTION "RuinsOfAlphAerodactylItemRoom_BlockData", ROMX
-RuinsOfAlphAerodactylItemRoom_BlockData:
-RuinsOfAlphHoOhItemRoom_BlockData:
-RuinsOfAlphKabutoItemRoom_BlockData:
-RuinsOfAlphOmanyteItemRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
-
-SECTION "RuinsOfAlphAerodactylWordRoom_BlockData", ROMX
-RuinsOfAlphAerodactylWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphAerodactylWordRoom.ablk.lz"
-
-SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
-RuinsOfAlphHoOhWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphHoOhWordRoom.ablk.lz"
-
-SECTION "RuinsOfAlphKabutoWordRoom_BlockData", ROMX
-RuinsOfAlphKabutoWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphKabutoWordRoom.ablk.lz"
-
-SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
-RuinsOfAlphOmanyteWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphOmanyteWordRoom.ablk.lz"
-
 SECTION "UnionCave1F_BlockData", ROMX
 UnionCave1F_BlockData:
 GiovannisCave_BlockData:
@@ -1595,10 +1545,6 @@ Route21_BlockData:
 SECTION "Route22_BlockData", ROMX
 Route22_BlockData:
 	INCBIN "maps/Route22.ablk.lz"
-
-SECTION "Route22Past_BlockData", ROMX
-Route22Past_BlockData:
-	INCBIN "maps/Route22Past.ablk.lz"
 
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:

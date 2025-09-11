@@ -987,10 +987,7 @@ RadioChannels:
 	jmp LoadStation_BuenasPassword
 
 .RuinsOfAlphRadio:
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp RUINS_OF_ALPH
-	jr nz, NoRadioStation
-	jmp LoadStation_UnownRadio
+	jr NoRadioStation
 
 .PlacesAndPeople:
 	call .InJohto

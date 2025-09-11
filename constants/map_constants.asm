@@ -613,24 +613,4 @@ ENDM
 	map_const GOLDENROD_HARBOR,                           24, 18 ;  1
 	map_const GOLDENROD_HARBOR_GATE,                       5,  4 ;  2
 
-	newgroup                                                     ; 30
-	map_const RUINS_OF_ALPH_OUTSIDE,                      11, 21 ;  1
-	map_const RUINS_OF_ALPH_HO_OH_CHAMBER,                 4,  5 ;  2
-	map_const RUINS_OF_ALPH_KABUTO_CHAMBER,                4,  5 ;  3
-	map_const RUINS_OF_ALPH_OMANYTE_CHAMBER,               4,  5 ;  4
-	map_const RUINS_OF_ALPH_AERODACTYL_CHAMBER,            4,  5 ;  5
-	map_const RUINS_OF_ALPH_ENTRANCE_CHAMBER,              4,  4 ;  6
-	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 14 ;  7
-	map_const RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ;  8
-	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               4,  5 ;  9
-	map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM,              4,  5 ; 10
-	map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM,             4,  5 ; 11
-	map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM,          4,  5 ; 12
-	map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,              10, 12 ; 13
-	map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,             10,  7 ; 14
-	map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,            10,  8 ; 15
-	map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,         10,  7 ; 16
-	map_const RUINS_OF_ALPH_SINJOH_CHAMBER,                5,  5 ; 17
-	map_const ROUTE_22_PAST,                               6,  6 ; 18
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37

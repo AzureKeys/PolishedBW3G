@@ -1118,13 +1118,6 @@ wRoute42SceneID:: db
 wRoute43GateSceneID:: db
 wRoute47SceneID:: db
 wRoute48SceneID:: db
-wRuinsOfAlphAerodactylChamberSceneID:: db
-wRuinsOfAlphHoOhChamberSceneID:: db
-wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphKabutoChamberSceneID:: db
-wRuinsOfAlphOmanyteChamberSceneID:: db
-wRuinsOfAlphOutsideSceneID:: db
-wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
@@ -1187,7 +1180,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 65 ; unused
+	ds 72 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

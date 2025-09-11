@@ -92,7 +92,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .VioletCity
 	dw .SproutTower
 	dw .VioletOutskirts
-	dw .RuinsOfAlph
 	dw .Route32
 	dw .Route32Coast
 	dw .UnionCave ; no calls
@@ -157,7 +156,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .VioletCity:
 .SproutTower:
 .VioletOutskirts:
-.RuinsOfAlph:
 .Route32:
 .Route32Coast:
 .UnionCave:

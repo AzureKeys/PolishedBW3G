@@ -1,12 +1,5 @@
 ; Johto Pokémon in water
 
-	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons UNION_CAVE_1F
 	db 2 percent ; encounter rate
 	wildmon 15, RATTATA

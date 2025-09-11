@@ -525,7 +525,6 @@ IlexForestShrineScript:
 	disappear ILEXFOREST_CELEBI
 	disappear ILEXFOREST_LYRA
 	setevent EVENT_TIME_TRAVELING
-	warp ROUTE_22_PAST, 6, 7
 	end
 
 MovementData_Farfetchd_Pos1_Pos2:

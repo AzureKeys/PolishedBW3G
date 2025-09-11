@@ -126,31 +126,6 @@ INCLUDE "maps/VioletOutskirts.asm"
 INCLUDE "maps/VioletOutskirtsHouse.asm"
 
 
-SECTION "Ruins of Alph Scripts", ROMX
-
-INCLUDE "maps/RuinsOfAlphOutside.asm"
-
-
-SECTION "Ruins of Alph Scripts 2", ROMX
-
-INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphKabutoChamber.asm
-INCLUDE "maps/RuinsOfAlphEntranceChamber.asm"
-INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
-INCLUDE "maps/RuinsOfAlphSinjohChamber.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylChamber.asm"
-INCLUDE "maps/RuinsOfAlphHoOhChamber.asm"
-INCLUDE "maps/RuinsOfAlphKabutoChamber.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteChamber.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphHoOhItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphKabutoItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphHoOhWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
-
-
 SECTION "Union Cave Scripts", ROMX
 
 INCLUDE "maps/UnionCave1F.asm"
@@ -898,7 +873,6 @@ SECTION "Routes 21-23 Scripts", ROMX
 
 INCLUDE "maps/Route21.asm"
 INCLUDE "maps/Route22.asm"
-INCLUDE "maps/Route22Past.asm"
 INCLUDE "maps/Route23.asm"
 
 
