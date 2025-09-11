@@ -4,8 +4,6 @@ SafariZoneFuchsiaGate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  0, SAFARI_ZONE_HUB, 1
-	warp_event  5,  0, SAFARI_ZONE_HUB, 2
 	warp_event  4,  7, FUCHSIA_CITY, 6
 	warp_event  5,  7, FUCHSIA_CITY, 6
 

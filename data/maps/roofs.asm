@@ -34,5 +34,4 @@ MapGroupRoofs:
 	db ROOF_OLIVINE  ; 29 (Goldenrod Harbor)
 	db ROOF_NEW_BARK ; 30 (Ruins of Alph)
 	db -1            ; 31
-	db -1            ; 32
 	assert_table_length NUM_MAP_GROUPS + 1

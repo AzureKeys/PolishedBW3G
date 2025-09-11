@@ -112,7 +112,6 @@ Landmarks:
 	landmark  76,  88, Route17Name
 	landmark  80, 108, Route18Name
 	landmark  92, 108, FuchsiaCityName
-	landmark  92, 100, SafariZoneName
 	landmark  64, 108, UragaChannelName
 	landmark  60, 116, ScaryCaveName
 	landmark  92, 120, Route19Name
@@ -191,7 +190,6 @@ RockTunnelName:        rawchar "Rock Tunnel@"
 LavRadioTowerName:     rawchar "Lav.Radio¯Tower@"
 SoulHouseName:         rawchar "House of¯Souls@"
 CeladonUniversityName: rawchar "Celadon¯University@"
-SafariZoneName:        rawchar "Safari Zone@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"

@@ -47,9 +47,6 @@ UniqueWildMoves:
 	unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
 	unique_moves LUCKY_ISLAND,     TOGETIC,    0
-	unique_moves SAFARI_ZONE,      TANGELA,    LEECH_SEED   ; Dream World move (hub)
-	unique_moves SAFARI_ZONE,      PINSIR,     SLASH        ; RBY move (north)
-	unique_moves SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
 	unique_moves SCARY_CAVE,       GOLBAT,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves POKEMON_MANSION,  WEEZING,    CRUNCH       ; Prism tutor move

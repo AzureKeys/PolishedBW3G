@@ -107,7 +107,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_17           ; 6b
 	const ROUTE_18           ; 6c
 	const FUCHSIA_CITY       ; 6d
-	const SAFARI_ZONE        ; 6e
 	const URAGA_CHANNEL      ; 6f
 	const SCARY_CAVE         ; 70
 	const ROUTE_19           ; 71

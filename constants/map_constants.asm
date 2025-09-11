@@ -664,15 +664,4 @@ ENDM
 	map_const LIGHTNING_ISLAND,                           13, 16 ; 28
 	map_const LIGHTNING_ISLAND_ROOF,                       6,  6 ; 29
 
-	newgroup                                                     ; 32
-	map_const SAFARI_ZONE_HUB,                            17, 16 ;  1
-	map_const SAFARI_ZONE_EAST,                           17, 15 ;  2
-	map_const SAFARI_ZONE_NORTH,                          22, 20 ;  3
-	map_const SAFARI_ZONE_WEST,                           17, 15 ;  4
-	map_const SAFARI_ZONE_HUB_REST_HOUSE,                  4,  4 ;  5
-	map_const SAFARI_ZONE_EAST_REST_HOUSE,                 4,  4 ;  6
-	map_const SAFARI_ZONE_NORTH_REST_HOUSE,                4,  4 ;  7
-	map_const SAFARI_ZONE_WEST_REST_HOUSE_1,               4,  4 ;  8
-	map_const SAFARI_ZONE_WEST_REST_HOUSE_2,               4,  4 ;  9
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37

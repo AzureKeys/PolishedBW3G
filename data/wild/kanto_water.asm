@@ -273,27 +273,6 @@
 	wildmon  66, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons SAFARI_ZONE_HUB
-	db 6 percent ; encounter rate
-	wildmon  55, SLOWBRO
-	wildmon  55, GOLDUCK
-	wildmon  55, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons SAFARI_ZONE_EAST
-	db 6 percent ; encounter rate
-	wildmon  55, SLOWBRO
-	wildmon  55, GOLDUCK
-	wildmon  55, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons SAFARI_ZONE_NORTH
-	db 6 percent ; encounter rate
-	wildmon  55, SLOWBRO
-	wildmon  55, GOLDUCK
-	wildmon  40, DRAGONAIR
-	end_water_wildmons
-
 	def_water_wildmons SEAFOAM_ISLANDS_B4F
 	db 6 percent ; encounter rate
 	wildmon  55, SEEL

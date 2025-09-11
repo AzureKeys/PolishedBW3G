@@ -1375,30 +1375,6 @@ SECTION "LuckyIslandHidden_BlockData", ROMX
 LuckyIslandHidden_BlockData:
 	INCBIN "maps/LuckyIslandHidden.ablk.lz"
 
-SECTION "SafariZoneHub_BlockData", ROMX
-SafariZoneHub_BlockData:
-	INCBIN "maps/SafariZoneHub.ablk.lz"
-
-SECTION "SafariZoneNorth_BlockData", ROMX
-SafariZoneNorth_BlockData:
-	INCBIN "maps/SafariZoneNorth.ablk.lz"
-
-SECTION "SafariZoneEast_BlockData", ROMX
-SafariZoneEast_BlockData:
-	INCBIN "maps/SafariZoneEast.ablk.lz"
-
-SECTION "SafariZoneWest_BlockData", ROMX
-SafariZoneWest_BlockData:
-	INCBIN "maps/SafariZoneWest.ablk.lz"
-
-SECTION "SafariZoneHubRestHouse_BlockData", ROMX
-SafariZoneHubRestHouse_BlockData:
-SafariZoneNorthRestHouse_BlockData:
-SafariZoneEastRestHouse_BlockData:
-SafariZoneWestRestHouse1_BlockData:
-SafariZoneWestRestHouse2_BlockData:
-	INCBIN "maps/SafariZoneRestHouse.ablk.lz"
-
 SECTION "UragaChannelEast_BlockData", ROMX
 UragaChannelEast_BlockData:
 	INCBIN "maps/UragaChannelEast.ablk.lz"
