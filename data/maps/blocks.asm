@@ -658,30 +658,6 @@ SECTION "YellowForest_BlockData", ROMX
 YellowForest_BlockData:
 	INCBIN "maps/YellowForest.ablk.lz"
 
-SECTION "CliffCave_BlockData", ROMX
-CliffCave_BlockData:
-	INCBIN "maps/CliffCave.ablk.lz"
-
-SECTION "CliffEdgeGate_BlockData", ROMX
-CliffEdgeGate_BlockData:
-	INCBIN "maps/CliffEdgeGate.ablk.lz"
-
-SECTION "QuietCave1F_BlockData", ROMX
-QuietCave1F_BlockData:
-	INCBIN "maps/QuietCave1F.ablk.lz"
-
-SECTION "QuietCaveB1F_BlockData", ROMX
-QuietCaveB1F_BlockData:
-	INCBIN "maps/QuietCaveB1F.ablk.lz"
-
-SECTION "QuietCaveB2F_BlockData", ROMX
-QuietCaveB2F_BlockData:
-	INCBIN "maps/QuietCaveB2F.ablk.lz"
-
-SECTION "QuietCaveB3F_BlockData", ROMX
-QuietCaveB3F_BlockData:
-	INCBIN "maps/QuietCaveB3F.ablk.lz"
-
 SECTION "MountMortar1FOutside_BlockData", ROMX
 MountMortar1FOutside_BlockData:
 	INCBIN "maps/MountMortar1FOutside.ablk.lz"
@@ -1646,14 +1622,6 @@ Route45_BlockData:
 SECTION "Route46_BlockData", ROMX
 Route46_BlockData:
 	INCBIN "maps/Route46.ablk.lz"
-
-SECTION "Route47_BlockData", ROMX
-Route47_BlockData:
-	INCBIN "maps/Route47.ablk.lz"
-
-SECTION "Route48_BlockData", ROMX
-Route48_BlockData:
-	INCBIN "maps/Route48.ablk.lz"
 
 SECTION "BattleFactory1F_BlockData", ROMX
 BattleFactory1F_BlockData:

@@ -51,7 +51,6 @@ YellowForest_MapScriptHeader:
 	const YELLOWFOREST_POKE_BALL5
 
 YellowForestFlyPoint:
-	setflag ENGINE_FLYPOINT_YELLOW_FOREST
 	endcallback
 
 YellowForestTileScript:

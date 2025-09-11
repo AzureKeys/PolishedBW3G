@@ -48,12 +48,7 @@ Landmarks:
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
 	landmark  20, 100, CianwoodCityName
-	landmark  18,  98, CliffEdgeGateName
-	landmark  12, 100, Route47Name
-	landmark  12,  96, CliffCaveName
-	landmark  12,  92, Route48Name
 	landmark  12,  84, YellowForestName
-	landmark  12, 108, QuietCaveName
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
 	landmark 108,  44, MahoganyTownName
@@ -225,8 +220,6 @@ Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
 Route45Name:           rawchar "Route 45@"
 Route46Name:           rawchar "Route 46@"
-Route47Name:           rawchar "Route 47@"
-Route48Name:           rawchar "Route 48@"
 DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
@@ -236,10 +229,7 @@ DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
-CliffEdgeGateName:     rawchar "Cliff Edge¯Gate@"
-CliffCaveName:         rawchar "Cliff Cave@"
 YellowForestName:      rawchar "Yellow¯Forest@"
-QuietCaveName:         rawchar "Quiet Cave@"
 CherrygroveBayName:    rawchar "Cherrygrove¯Bay@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"

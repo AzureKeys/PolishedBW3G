@@ -12,7 +12,6 @@ CianwoodCity_MapScriptHeader:
 	warp_event  9, 31, CIANWOOD_CITY_PHOTO_STUDIO, 1
 	warp_event 15, 37, CIANWOOD_LUGIA_SPEECH_HOUSE, 1
 	warp_event  5, 17, MOVE_MANIACS_HOUSE, 1
-	warp_event  4, 25, CLIFF_EDGE_GATE, 1
 
 	def_coord_events
 	coord_event 11, 16, 1, CianwoodCitySuicuneAndEusine

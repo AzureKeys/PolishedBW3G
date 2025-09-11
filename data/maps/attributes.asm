@@ -336,12 +336,6 @@ ENDM
 	map_attributes Route10South, ROUTE_10_SOUTH, $2c, SOUTH
 	connection south, LavenderTown, LAVENDER_TOWN, 0
 
-	map_attributes Route47, ROUTE_47, $35, NORTH
-	connection north, Route48, ROUTE_48, 0
-
-	map_attributes Route48, ROUTE_48, $35, SOUTH
-	connection south, Route47, ROUTE_47, 0
-
 	map_attributes CherrygroveBay, CHERRYGROVE_BAY, $35, SOUTH | WEST | EAST
 	connection south, Route32Coast, ROUTE_32_COAST, 0
 	connection west, Route32, ROUTE_32, -12
@@ -711,8 +705,6 @@ ENDM
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $0, 0
 	map_attributes Route40BattleTowerGate, ROUTE_40_BATTLE_TOWER_GATE, $0, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $5, 0
-	map_attributes CliffEdgeGate, CLIFF_EDGE_GATE, $9, 0
-	map_attributes CliffCave, CLIFF_CAVE, $9, 0
 	map_attributes ViridianGym, VIRIDIAN_GYM, $0, 0
 	map_attributes ViridianNicknameSpeechHouse, VIRIDIAN_NICKNAME_SPEECH_HOUSE, $0, 0
 	map_attributes ViridianSchoolHouse, VIRIDIAN_SCHOOL_HOUSE, $0, 0
@@ -773,10 +765,6 @@ ENDM
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0
 	map_attributes YellowForestGate, YELLOW_FOREST_GATE, $0, 0
 	map_attributes YellowForest, YELLOW_FOREST, $55, 0
-	map_attributes QuietCave1F, QUIET_CAVE_1F, $9, 0
-	map_attributes QuietCaveB1F, QUIET_CAVE_B1F, $9, 0
-	map_attributes QuietCaveB2F, QUIET_CAVE_B2F, $9, 0
-	map_attributes QuietCaveB3F, QUIET_CAVE_B3F, $9, 0
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0

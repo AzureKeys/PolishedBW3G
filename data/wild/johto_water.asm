@@ -203,20 +203,6 @@
 	wildmon 5, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_47
-	db 3 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 20, SEEL
-	wildmon 25, STARYU
-	end_water_wildmons
-
-	def_water_wildmons CLIFF_EDGE_GATE
-	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
 	wildmon 20, RATTATA
@@ -334,27 +320,6 @@
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
 	wildmon LEVEL_FROM_BADGES - 4, PIKACHU, PIKACHU_SURF_FORM
 	wildmon LEVEL_FROM_BADGES - 4, PSYDUCK
-	end_water_wildmons
-
-	def_water_wildmons QUIET_CAVE_B1F
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, RATTATA
-	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
-	end_water_wildmons
-
-	def_water_wildmons QUIET_CAVE_B2F
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, RATTATA
-	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
-	end_water_wildmons
-
-	def_water_wildmons QUIET_CAVE_B3F
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, RATTATA
-	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons MURKY_SWAMP

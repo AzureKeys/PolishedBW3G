@@ -6,8 +6,6 @@ YellowForestGate_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  0, YELLOW_FOREST, 1
 	warp_event  5,  0, YELLOW_FOREST, 2
-	warp_event  4,  7, ROUTE_48, 1
-	warp_event  5,  7, ROUTE_48, 1
 
 	def_coord_events
 

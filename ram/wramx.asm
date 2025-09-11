@@ -1115,8 +1115,6 @@ wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
 wRoute42SceneID:: db
 wRoute43GateSceneID:: db
-wRoute47SceneID:: db
-wRoute48SceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
@@ -1179,7 +1177,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 73 ; unused
+	ds 75 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

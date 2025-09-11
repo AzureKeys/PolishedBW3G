@@ -28,8 +28,6 @@ UniqueWildMoves:
 	unique_moves TIN_TOWER,        0,          0
 	unique_moves BURNED_TOWER,     0,          0
 	unique_moves WHIRL_ISLANDS,    0,          0
-	unique_moves CLIFF_CAVE,       0,          0
-	unique_moves QUIET_CAVE,       MUNCHLAX,   GIGA_IMPACT  ; Snorlax move
 	unique_moves MT_MORTAR,        0,          0
 	unique_moves ICE_PATH,         0,          0
 	unique_moves DRAGONS_DEN,      0,          0

@@ -9,10 +9,6 @@ ENDM
 SpecialMusicMaps:
 	music_map ROUTE_23,                    GetMapMusic
 	music_map INDIGO_PLATEAU,              GetMapMusic
-	music_map QUIET_CAVE_1F,               GetMapMusic
-	music_map QUIET_CAVE_B1F,              GetMapMusic
-	music_map QUIET_CAVE_B2F,              GetMapMusic
-	music_map QUIET_CAVE_B3F,              GetMapMusic
 	music_map SCARY_CAVE_SHIPWRECK,        GetMapMusic
 	music_map WHIRL_ISLAND_LUGIA_CHAMBER,  GetMapMusic
 	music_map TIN_TOWER_ROOF,              GetMapMusic
