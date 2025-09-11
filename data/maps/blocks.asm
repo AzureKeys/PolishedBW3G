@@ -10,7 +10,6 @@ CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
-ShamoutiPokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -107,10 +106,6 @@ CianwoodCityPhotoStudio_BlockData:
 CherrygroveGymSpeechHouse_BlockData:
 CherrygroveEvolutionSpeechHouse_BlockData:
 Route32CoastHouse_BlockData:
-ShamoutiHotel_BlockData:
-ShamoutiTouristCenter_BlockData:
-ShamoutiMerchant_BlockData:
-ShamoutiHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
 GoldenrodHappinessRater_BlockData:
@@ -1256,10 +1251,6 @@ SECTION "CeladonHotelRoom1_BlockData", ROMX
 CeladonHotelRoom1_BlockData:
 CeladonHotelRoom2_BlockData:
 CeladonHotelRoom3_BlockData:
-ShamoutiHotelRoom2A_BlockData:
-ShamoutiHotelRoom2B_BlockData:
-ShamoutiHotelRoom3B_BlockData:
-ShamoutiHotelRoom3C_BlockData:
 	INCBIN "maps/HotelRoom.ablk.lz"
 
 SECTION "CeladonUniversityWestwoodsOffice_BlockData", ROMX
@@ -1462,38 +1453,6 @@ SeagallopFerryVermilionGate_BlockData:
 SeagallopFerryShamoutiGate_BlockData:
 SeagallopFerryNavelGate_BlockData:
 	INCBIN "maps/SeagallopFerryGate.ablk.lz"
-
-SECTION "ShamoutiIsland_BlockData", ROMX
-ShamoutiIsland_BlockData:
-	INCBIN "maps/ShamoutiIsland.ablk.lz"
-
-SECTION "NoisyForest_BlockData", ROMX
-NoisyForest_BlockData:
-	INCBIN "maps/NoisyForest.ablk.lz"
-
-SECTION "ShamoutiTunnel_BlockData", ROMX
-ShamoutiTunnel_BlockData:
-	INCBIN "maps/ShamoutiTunnel.ablk.lz"
-
-SECTION "ShamoutiCoast_BlockData", ROMX
-ShamoutiCoast_BlockData:
-	INCBIN "maps/ShamoutiCoast.ablk.lz"
-
-SECTION "ShamoutiHotel1F_BlockData", ROMX
-ShamoutiHotel1F_BlockData:
-	INCBIN "maps/ShamoutiHotel1F.ablk.lz"
-
-SECTION "ShamoutiHotel2F_BlockData", ROMX
-ShamoutiHotel2F_BlockData:
-	INCBIN "maps/ShamoutiHotel2F.ablk.lz"
-
-SECTION "ShamoutiHotel3F_BlockData", ROMX
-ShamoutiHotel3F_BlockData:
-	INCBIN "maps/ShamoutiHotel3F.ablk.lz"
-
-SECTION "ShamoutiHotelRestaurant_BlockData", ROMX
-ShamoutiHotelRestaurant_BlockData:
-	INCBIN "maps/ShamoutiHotelRestaurant.ablk.lz"
 
 SECTION "NavelRockOutside_BlockData", ROMX
 NavelRockOutside_BlockData:

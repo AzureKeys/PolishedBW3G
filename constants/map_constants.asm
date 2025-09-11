@@ -633,22 +633,4 @@ ENDM
 	map_const RUINS_OF_ALPH_SINJOH_CHAMBER,                5,  5 ; 17
 	map_const ROUTE_22_PAST,                               6,  6 ; 18
 
-	newgroup                                                     ; 31
-	map_const SHAMOUTI_ISLAND,                            18, 15 ;  1
-	map_const SHAMOUTI_COAST,                             48, 10 ;  4
-	map_const SHAMOUTI_TUNNEL,                            18, 10 ;  6
-	map_const NOISY_FOREST,                               22, 20 ;  7
-	map_const SHAMOUTI_POKECENTER_1F,                      6,  4 ;  8
-	map_const SHAMOUTI_HOTEL_1F,                           9,  4 ;  9
-	map_const SHAMOUTI_HOTEL_2F,                           9,  2 ; 10
-	map_const SHAMOUTI_HOTEL_3F,                           9,  2 ; 11
-	map_const SHAMOUTI_HOTEL_ROOM_2A,                      3,  3 ; 12
-	map_const SHAMOUTI_HOTEL_ROOM_2B,                      3,  3 ; 13
-	map_const SHAMOUTI_HOTEL_ROOM_3B,                      3,  3 ; 14
-	map_const SHAMOUTI_HOTEL_ROOM_3C,                      3,  3 ; 15
-	map_const SHAMOUTI_HOTEL_RESTAURANT,                   9,  4 ; 16
-	map_const SHAMOUTI_TOURIST_CENTER,                     4,  4 ; 17
-	map_const SHAMOUTI_MERCHANT,                           4,  4 ; 18
-	map_const SHAMOUTI_HOUSE,                              4,  4 ; 19
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37

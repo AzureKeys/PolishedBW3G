@@ -131,11 +131,6 @@ Landmarks:
 	landmark  28,  36, IndigoPlateauName
 	landmark  16,  76, Route28Name
 	landmark  54, 134, CinnabarLabName
-	landmark  68,  52, ShamoutiIslandName
-	landmark  76,  40, NoisyForestName
-	landmark  84,  44, ShrineRuinsName
-	landmark  52,  52, ShamoutiTunnelName
-	landmark  52,  72, ShamoutiCoastName
 	landmark 132, 100, NavelRockName
 	landmark  24, 120, FarawayIslandName
 	assert_table_length NUM_LANDMARKS
@@ -262,11 +257,6 @@ MurkySwampName:        rawchar "Murky¯Swamp@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
 DimCaveName:           rawchar "Dim Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
-ShamoutiIslandName:    rawchar "Shamouti¯Island@"
-NoisyForestName:       rawchar "Noisy¯Forest@"
-ShrineRuinsName:       rawchar "Shrine¯Ruins@"
-ShamoutiTunnelName:    rawchar "Shamouti¯Tunnel@"
-ShamoutiCoastName:     rawchar "Shamouti¯Coast@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"

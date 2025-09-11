@@ -15,10 +15,6 @@ ShakeHeadbuttTree:
 	farcall CancelOWFadePalettes
 	farcall CopyBGGreenToOBPal7
 	call ClearSpriteAnims
-	call GetCurrentLandmark
-	cp NOISY_FOREST
-	ld hl, HeadbuttTree2GFX
-	jr z, .got_gfx
 	ld hl, HeadbuttTreeGFX
 .got_gfx
 	ld de, vTiles0 tile $61

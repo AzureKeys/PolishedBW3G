@@ -386,10 +386,6 @@ ENDM
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $2c, SOUTH
 	connection south, Route23, ROUTE_23, 0
 
-	map_attributes ShamoutiIsland, SHAMOUTI_ISLAND, $35, 0
-
-	map_attributes ShamoutiCoast, SHAMOUTI_COAST, $35, 0
-
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
 	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0
@@ -843,17 +839,3 @@ ENDM
 	map_attributes ScaryCaveB1F, SCARY_CAVE_B1F, $9, 0
 	map_attributes ScaryCaveShipwreck, SCARY_CAVE_SHIPWRECK, $9, 0
 	map_attributes Route19BeachHouse, ROUTE_19_BEACH_HOUSE, $0, 0
-	map_attributes ShamoutiTunnel, SHAMOUTI_TUNNEL, $9, 0
-	map_attributes NoisyForest, NOISY_FOREST, $0, 0
-	map_attributes ShamoutiPokeCenter1F, SHAMOUTI_POKECENTER_1F, $0, 0
-	map_attributes ShamoutiHotel1F, SHAMOUTI_HOTEL_1F, $0, 0
-	map_attributes ShamoutiHotel2F, SHAMOUTI_HOTEL_2F, $0, 0
-	map_attributes ShamoutiHotel3F, SHAMOUTI_HOTEL_3F, $0, 0
-	map_attributes ShamoutiHotelRoom2A, SHAMOUTI_HOTEL_ROOM_2A, $0, 0
-	map_attributes ShamoutiHotelRoom2B, SHAMOUTI_HOTEL_ROOM_2B, $0, 0
-	map_attributes ShamoutiHotelRoom3B, SHAMOUTI_HOTEL_ROOM_3B, $0, 0
-	map_attributes ShamoutiHotelRoom3C, SHAMOUTI_HOTEL_ROOM_3C, $0, 0
-	map_attributes ShamoutiHotelRestaurant, SHAMOUTI_HOTEL_RESTAURANT, $0, 0
-	map_attributes ShamoutiTouristCenter, SHAMOUTI_TOURIST_CENTER, $0, 0
-	map_attributes ShamoutiMerchant, SHAMOUTI_MERCHANT, $0, 0
-	map_attributes ShamoutiHouse, SHAMOUTI_HOUSE, $0, 0

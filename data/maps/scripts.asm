@@ -31,7 +31,6 @@ INCLUDE "maps/CinnabarPokeCenter1F.asm"
 SECTION "Pokemon Center Scripts 4", ROMX
 
 INCLUDE "maps/SilverCavePokeCenter1F.asm"
-INCLUDE "maps/ShamoutiPokeCenter1F.asm"
 INCLUDE "maps/Route3PokeCenter1F.asm"
 INCLUDE "maps/Route10PokeCenter1F.asm"
 INCLUDE "maps/Route32PokeCenter1F.asm"
@@ -804,33 +803,6 @@ SECTION "Seagallop Ferry Scripts", ROMX
 INCLUDE "maps/SeagallopFerryVermilionGate.asm"
 INCLUDE "maps/SeagallopFerryShamoutiGate.asm"
 INCLUDE "maps/SeagallopFerryNavelGate.asm"
-
-
-SECTION "Shamouti Scripts", ROMX
-
-INCLUDE "maps/ShamoutiIsland.asm"
-INCLUDE "maps/ShamoutiHouse.asm"
-INCLUDE "maps/ShamoutiMerchant.asm"
-INCLUDE "maps/ShamoutiTouristCenter.asm"
-
-
-SECTION "Shamouti Scripts 2", ROMX
-
-INCLUDE "maps/NoisyForest.asm"
-INCLUDE "maps/ShamoutiTunnel.asm"
-INCLUDE "maps/ShamoutiCoast.asm"
-
-
-SECTION "Shamouti Hotel Scripts", ROMX
-
-INCLUDE "maps/ShamoutiHotel1F.asm"
-INCLUDE "maps/ShamoutiHotel2F.asm"
-INCLUDE "maps/ShamoutiHotel3F.asm"
-INCLUDE "maps/ShamoutiHotelRestaurant.asm"
-INCLUDE "maps/ShamoutiHotelRoom2A.asm"
-INCLUDE "maps/ShamoutiHotelRoom2B.asm"
-INCLUDE "maps/ShamoutiHotelRoom3B.asm"
-INCLUDE "maps/ShamoutiHotelRoom3C.asm"
 
 
 SECTION "Navel Rock Scripts", ROMX

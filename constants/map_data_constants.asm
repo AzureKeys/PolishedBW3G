@@ -116,7 +116,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_MT_SILVER
 	const SPAWN_FAST_SHIP
 ; orange
-	const SPAWN_SHAMOUTI
 	const SPAWN_NAVEL
 DEF NUM_SPAWNS EQU const_value
 

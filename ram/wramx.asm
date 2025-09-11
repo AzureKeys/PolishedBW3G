@@ -1128,7 +1128,6 @@ wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
-wShamoutiHotelRestaurantSceneID:: db
 wSproutTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
@@ -1188,7 +1187,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 64 ; unused
+	ds 65 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

@@ -529,7 +529,6 @@ PokegearMap_KantoMap:
 	jr PokegearMap_ContinueMap
 
 PokegearMap_OrangeMap:
-	call TownMap_GetOrangeLandmarkLimits
 PokegearMap_ContinueMap:
 	ld hl, hJoyLast
 	ld a, [hl]
@@ -634,10 +633,6 @@ SkipHiddenOrangeIslandsUp:
 	jr nz, .not_after_faraway_island
 	inc [hl]
 .not_after_faraway_island
-	ld a, [hl]
-	cp FARAWAY_ISLAND + 1
-	ret nz
-	ld [hl], SHAMOUTI_ISLAND
 	ret
 
 SkipHiddenOrangeIslandsDown:
@@ -763,10 +758,6 @@ TownMap_GetKantoLandmarkLimits:
 	bit STATUSFLAGS_HALL_OF_FAME_F, a
 	ret z
 	ld e, PALLET_TOWN
-	ret
-
-TownMap_GetOrangeLandmarkLimits:
-	lb de, FARAWAY_ISLAND, SHAMOUTI_ISLAND
 	ret
 
 PokegearRadio_Init:
@@ -1235,17 +1226,12 @@ _TownMap:
 	call DelayFrame
 
 	ld a, [wTownMapPlayerIconLandmark]
-	cp SHAMOUTI_LANDMARK
-	jr nc, .orange
 	cp KANTO_LANDMARK
 	jr nc, .kanto
 	call TownMap_GetJohtoLandmarkLimits
 	jr .resume
 .kanto
 	call TownMap_GetKantoLandmarkLimits
-	jr .resume
-.orange
-	call TownMap_GetOrangeLandmarkLimits
 
 .resume
 	call .loop
