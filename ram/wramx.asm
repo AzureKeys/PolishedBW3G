@@ -1104,7 +1104,6 @@ wPokecenter2FSceneID:: db
 wPokemonLeagueGateSceneID:: db
 wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
-wRoute10NorthSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
 wRoute27SceneID:: db
@@ -1180,7 +1179,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 72 ; unused
+	ds 73 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

@@ -600,13 +600,4 @@ ENDM
 	map_const QUIET_CAVE_B2F,                             18, 18 ;  7
 	map_const QUIET_CAVE_B3F,                             18, 18 ;  8
 
-	newgroup                                                     ; 28
-	map_const ROUTE_9,                                    26,  9 ;  1
-	map_const ROUTE_10_NORTH,                             10, 29 ;  2
-	map_const DIM_CAVE_1F,                                17, 18 ;  3
-	map_const DIM_CAVE_2F,                                17, 18 ;  4
-	map_const DIM_CAVE_3F,                                16, 17 ;  5
-	map_const DIM_CAVE_4F,                                16, 16 ;  6
-	map_const DIM_CAVE_5F,                                17, 17 ;  7
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -66,7 +66,6 @@ ENDM
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, CERULEAN_CAVE,               PAL_SINGLE,    CeruleanCavePalette
-	special_bg_pal landmark, DIM_CAVE,                    PAL_SINGLE,    DimCavePalette
 	special_bg_pal landmark, SCARY_CAVE,                  PAL_SINGLE,    ScaryCavePalette
 	special_bg_pal landmark, CINNABAR_VOLCANO,            PAL_SINGLE,    CinnabarVolcanoPalette
 	special_bg_pal tileset,  TILESET_FARAWAY_ISLAND,      PAL_TIMEOFDAY, FarawayIslandPalette
@@ -937,25 +936,6 @@ else
 rept 7
 	MONOCHROME_RGB_FOUR_NIGHT
 endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-DimCavePalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/dim_cave.pal"
-else
-rept 4
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_DARK

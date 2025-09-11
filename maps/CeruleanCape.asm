@@ -6,7 +6,6 @@ CeruleanCape_MapScriptHeader:
 
 	def_warp_events
 	warp_event  9,  5, BILLS_HOUSE, 1
-	warp_event 38, 29, DIM_CAVE_2F, 1
 
 	def_coord_events
 	coord_event  4,  6, 1, CeruleanCapeDateInterruptedTrigger1

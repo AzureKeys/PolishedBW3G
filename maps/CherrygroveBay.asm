@@ -51,7 +51,6 @@ CherrygroveBayGalarianBirdsScript:
 	iftruefwd .NothingHappens
 	closetext
 	opentext
-	farwritetext MoltresText
 	cry RATTATA
 	pause 15
 	closetext
@@ -71,7 +70,6 @@ CherrygroveBayGalarianBirdsScript:
 	iftruefwd .NothingHappens
 	closetext
 	opentext
-	farwritetext ArticunoText
 	cry RATTATA
 	pause 15
 	closetext
@@ -91,7 +89,6 @@ CherrygroveBayGalarianBirdsScript:
 	iftruefwd .NothingHappens
 	closetext
 	opentext
-	farwritetext ZapdosText
 	cry RATTATA
 	pause 15
 	closetext

@@ -308,11 +308,10 @@ ENDM
 	map_attributes Route5, ROUTE_5, $f, NORTH
 	connection north, CeruleanCity, CERULEAN_CITY, -5
 
-	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST | EAST
+	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST
 	connection north, Route24, ROUTE_24, 0
 	connection south, Route5, ROUTE_5, 5
 	connection west, Route4, ROUTE_4, 2
-	connection east, Route9, ROUTE_9, 4
 
 	map_attributes Route24, ROUTE_24, $2c, SOUTH | EAST
 	connection south, CeruleanCity, CERULEAN_CITY, 0
@@ -334,16 +333,7 @@ ENDM
 	map_attributes Route8, ROUTE_8, $2c, EAST
 	connection east, LavenderTown, LAVENDER_TOWN, 0
 
-	map_attributes Route9, ROUTE_9, $2c, WEST | EAST
-	connection west, CeruleanCity, CERULEAN_CITY, -4
-	connection east, Route10North, ROUTE_10_NORTH, -6
-
-	map_attributes Route10North, ROUTE_10_NORTH, $2c, SOUTH | WEST
-	connection south, Route10South, ROUTE_10_SOUTH, 0
-	connection west, Route9, ROUTE_9, 6
-
-	map_attributes Route10South, ROUTE_10_SOUTH, $2c, NORTH | SOUTH
-	connection north, Route10North, ROUTE_10_NORTH, 0
+	map_attributes Route10South, ROUTE_10_SOUTH, $2c, SOUTH
 	connection south, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route47, ROUTE_47, $35, NORTH
@@ -787,11 +777,6 @@ ENDM
 	map_attributes QuietCaveB1F, QUIET_CAVE_B1F, $9, 0
 	map_attributes QuietCaveB2F, QUIET_CAVE_B2F, $9, 0
 	map_attributes QuietCaveB3F, QUIET_CAVE_B3F, $9, 0
-	map_attributes DimCave1F, DIM_CAVE_1F, $9, 0
-	map_attributes DimCave2F, DIM_CAVE_2F, $9, 0
-	map_attributes DimCave3F, DIM_CAVE_3F, $9, 0
-	map_attributes DimCave4F, DIM_CAVE_4F, $9, 0
-	map_attributes DimCave5F, DIM_CAVE_5F, $9, 0
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0

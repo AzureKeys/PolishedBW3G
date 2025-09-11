@@ -90,11 +90,9 @@ Landmarks:
 	landmark 116,  68, DiglettsCaveName
 	landmark  96,  60, Route7Name
 	landmark 124,  60, Route8Name
-	landmark 124,  44, Route9Name
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
 	landmark 148,  52, PowerPlantName
-	landmark 148,  44, DimCaveName
 	landmark 140,  60, LavenderTownName
 	landmark 142,  58, LavRadioTowerName
 	landmark 142,  62, SoulHouseName
@@ -190,7 +188,6 @@ Route5Name:            rawchar "Route 5@"
 Route6Name:            rawchar "Route 6@"
 Route7Name:            rawchar "Route 7@"
 Route8Name:            rawchar "Route 8@"
-Route9Name:            rawchar "Route 9@"
 Route10Name:           rawchar "Route 10@"
 Route11Name:           rawchar "Route 11@"
 Route12Name:           rawchar "Route 12@"
@@ -251,7 +248,6 @@ Route35CoastName:      rawchar "Route 35¯Coast@"
 StormyBeachName:       rawchar "Stormy¯Beach@"
 MurkySwampName:        rawchar "Murky¯Swamp@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
-DimCaveName:           rawchar "Dim Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
 NavelRockName:         rawchar "Navel Rock@"
 FarawayIslandName:     rawchar "Faraway¯Island@"

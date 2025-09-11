@@ -35,20 +35,6 @@
 	wildmon  45, PSYDUCK
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_9
-	db 4 percent ; encounter rate
-	wildmon  47, RATTATA
-	wildmon  42, RATTATA
-	wildmon  47, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_10_NORTH
-	db 4 percent ; encounter rate
-	wildmon  47, RATTATA
-	wildmon  47, RATTATA
-	wildmon  52, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_12_NORTH
 	db 6 percent ; encounter rate
 	wildmon  48, RATTATA

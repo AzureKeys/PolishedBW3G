@@ -1077,8 +1077,6 @@ EvosAttacks::
 
 	evos_attacks Magneton
 	evo_data EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
-	evo_data EVOLVE_LOCATION, MAGNET_TUNNEL, MAGNEZONE
-	evo_data EVOLVE_LOCATION, DIM_CAVE, MAGNEZONE
 	learnset 1, TRI_ATTACK ; evolution move
 	learnset 1, SUPERSONIC
 	learnset 1, TACKLE
