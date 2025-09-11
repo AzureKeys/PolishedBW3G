@@ -113,7 +113,6 @@ ShamoutiMerchant_BlockData:
 ShamoutiHouse_BlockData:
 WarmBeachHouse_BlockData:
 RockyBeachHouse_BlockData:
-IvysHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
 GoldenrodHappinessRater_BlockData:
@@ -149,7 +148,6 @@ LakeOfRageHiddenPowerHouse_BlockData:
 Route28FamousSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
 Route30BerrySpeechHouse_BlockData:
-ValenciaHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
 EcruteakLugiaSpeechHouse_BlockData:
@@ -1561,18 +1559,6 @@ IceIslandRoof_BlockData:
 LightningIslandRoof_BlockData:
 	INCBIN "maps/ElementalIsland.ablk.lz"
 
-SECTION "ValenciaIsland_BlockData", ROMX
-ValenciaIsland_BlockData:
-	INCBIN "maps/ValenciaIsland.ablk.lz"
-
-SECTION "ValenciaPort_BlockData", ROMX
-ValenciaPort_BlockData:
-	INCBIN "maps/ValenciaPort.ablk.lz"
-
-SECTION "IvysLab_BlockData", ROMX
-IvysLab_BlockData:
-	INCBIN "maps/IvysLab.ablk.lz"
-
 SECTION "NavelRockOutside_BlockData", ROMX
 NavelRockOutside_BlockData:
 	INCBIN "maps/NavelRockOutside.ablk.lz"
@@ -1854,10 +1840,6 @@ Route47_BlockData:
 SECTION "Route48_BlockData", ROMX
 Route48_BlockData:
 	INCBIN "maps/Route48.ablk.lz"
-
-SECTION "Route49_BlockData", ROMX
-Route49_BlockData:
-	INCBIN "maps/Route49.ablk.lz"
 
 SECTION "BattleFactory1F_BlockData", ROMX
 BattleFactory1F_BlockData:

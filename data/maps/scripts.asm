@@ -863,15 +863,6 @@ INCLUDE "maps/IceIslandRoof.asm"
 INCLUDE "maps/LightningIslandRoof.asm"
 
 
-SECTION "Valencia Scripts", ROMX
-
-INCLUDE "maps/ValenciaIsland.asm"
-INCLUDE "maps/ValenciaHouse.asm"
-INCLUDE "maps/ValenciaPort.asm"
-INCLUDE "maps/IvysLab.asm"
-INCLUDE "maps/IvysHouse.asm"
-
-
 SECTION "Navel Rock Scripts", ROMX
 
 INCLUDE "maps/NavelRockOutside.asm"
@@ -1050,6 +1041,5 @@ INCLUDE "maps/Route47.asm"
 SECTION "Routes 48-49 Scripts", ROMX
 
 INCLUDE "maps/Route48.asm"
-INCLUDE "maps/Route49.asm"
 
 ENDSECTION

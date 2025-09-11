@@ -58,7 +58,6 @@ SeagallopFerryShamoutiGateSailorScript:
 
 .ToValencia:
 	scall SeagallopFerryShamoutiDepartureScript
-	warp VALENCIA_PORT, 11, 5
 	end
 
 .RefuseFerry

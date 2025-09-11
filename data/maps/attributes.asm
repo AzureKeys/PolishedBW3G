@@ -402,12 +402,6 @@ ENDM
 	map_attributes RockyBeach, ROCKY_BEACH, $35, SOUTH
 	connection south, ShamoutiIsland, SHAMOUTI_ISLAND, 0
 
-	map_attributes ValenciaIsland, VALENCIA_ISLAND, $0, WEST
-	connection west, Route49, ROUTE_49, -2
-
-	map_attributes Route49, ROUTE_49, $0, EAST
-	connection east, ValenciaIsland, VALENCIA_ISLAND, 2
-
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
 	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0
@@ -894,7 +888,3 @@ ENDM
 	map_attributes IceIslandRoof, ICE_ISLAND_ROOF, $35, 0
 	map_attributes LightningIsland, LIGHTNING_ISLAND, $9, 0
 	map_attributes LightningIslandRoof, LIGHTNING_ISLAND_ROOF, $35, 0
-	map_attributes IvysLab, IVYS_LAB, $0, 0
-	map_attributes IvysHouse, IVYS_HOUSE, $0, 0
-	map_attributes ValenciaHouse, VALENCIA_HOUSE, $0, 0
-	map_attributes ValenciaPort, VALENCIA_PORT, $0, 0

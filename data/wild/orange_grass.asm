@@ -1,33 +1,5 @@
 ; Orange Pokémon in grass
 
-	def_grass_wildmons ROUTE_49
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
-	wildmon LEVEL_FROM_BADGES + 0, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 3, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
-	wildmon LEVEL_FROM_BADGES + 0, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 3, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	; nite
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, PARASECT
-	wildmon LEVEL_FROM_BADGES + 0, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 2, EXEGGCUTE
-	wildmon LEVEL_FROM_BADGES + 3, PARASECT
-	wildmon LEVEL_FROM_BADGES + 1, PARASECT
-	end_grass_wildmons
-
 	def_grass_wildmons BEAUTIFUL_BEACH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
