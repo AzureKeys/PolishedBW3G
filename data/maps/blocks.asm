@@ -74,7 +74,6 @@ Route31VioletGate_BlockData:
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
-GoldenrodHarborGate_BlockData:
 Route38EcruteakGate_BlockData:
 Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
@@ -381,10 +380,6 @@ GoldenrodMagnetTrainStation_BlockData:
 SECTION "DayCare_BlockData", ROMX
 DayCare_BlockData:
 	INCBIN "maps/DayCare.ablk.lz"
-
-SECTION "GoldenrodHarbor_BlockData", ROMX
-GoldenrodHarbor_BlockData:
-	INCBIN "maps/GoldenrodHarbor.ablk.lz"
 
 SECTION "GoldenrodDeptStore1F_BlockData", ROMX
 GoldenrodDeptStore1F_BlockData:

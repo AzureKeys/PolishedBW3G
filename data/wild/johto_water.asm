@@ -112,13 +112,6 @@
 	wildmon 5, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons GOLDENROD_HARBOR
-	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, GOLDUCK
-	end_water_wildmons
-
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
 	wildmon 25, RATTATA

@@ -113,10 +113,9 @@ ENDM
 	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, -15
 	connection west, OlivineCity, OLIVINE_CITY, -3
 
-	map_attributes Route35CoastSouth, ROUTE_35_COAST_SOUTH, $35, NORTH | SOUTH
+	map_attributes Route35CoastSouth, ROUTE_35_COAST_SOUTH, $35, NORTH
 	connection north, OlivineCityRoute35CoastDual, OLIVINE_CITY_ROUTE_35_COAST_DUAL, 0
-	connection south, GoldenrodHarbor, GOLDENROD_HARBOR, 0
-
+	
 	map_attributes OlivineCityRoute35CoastDual, OLIVINE_CITY_ROUTE_35_COAST_DUAL, $35, SOUTH
 	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
 
@@ -141,10 +140,9 @@ ENDM
 	connection south, Route41, ROUTE_41, -15
 	connection east, OlivineCity, OLIVINE_CITY, -7
 
-	map_attributes Route41, ROUTE_41, $35, NORTH | WEST | EAST
+	map_attributes Route41, ROUTE_41, $35, NORTH | WEST
 	connection north, Route40, ROUTE_40, 15
 	connection west, CianwoodCity, CIANWOOD_CITY, 0
-	connection east, GoldenrodHarbor, GOLDENROD_HARBOR, 3
 
 	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
 	connection south, VioletOutskirts, VIOLET_OUTSKIRTS, 5
@@ -366,10 +364,6 @@ ENDM
 	connection north, Route42, ROUTE_42, -5
 	connection south, VioletCity, VIOLET_CITY, 0
 
-	map_attributes GoldenrodHarbor, GOLDENROD_HARBOR, $35, NORTH | WEST
-	connection north, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
-	connection west, Route41, ROUTE_41, -3
-
 	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, EAST
 	connection east, Route32, ROUTE_32, -9
 
@@ -564,7 +558,6 @@ ENDM
 	map_attributes GoldenrodGameCorner, GOLDENROD_GAME_CORNER, $0, 0
 	map_attributes GoldenrodPokecomCenter1F, GOLDENROD_POKECOM_CENTER_1F, $0, 0
 	map_attributes GoldenrodPokecomCenterOffice, GOLDENROD_POKECOM_CENTER_OFFICE, $0, 0
-	map_attributes GoldenrodHarborGate, GOLDENROD_HARBOR_GATE, $0, 0
 	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $0, 0
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $0, 0
 	map_attributes DayCare, DAYCARE, $0, 0

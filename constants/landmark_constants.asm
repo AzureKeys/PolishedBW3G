@@ -24,7 +24,6 @@
 	const MURKY_SWAMP        ; 15
 	const GOLDENROD_CITY     ; 16
 	const RADIO_TOWER        ; 17
-	const GOLDENROD_HARBOR   ; 18
 	const MAGNET_TUNNEL      ; 19
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b

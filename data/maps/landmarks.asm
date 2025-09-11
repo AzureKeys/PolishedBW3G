@@ -29,7 +29,6 @@ Landmarks:
 	landmark  52, 132, MurkySwampName
 	landmark  52,  92, GoldenrodCityName
 	landmark  50,  92, RadioTowerName
-	landmark  44,  92, GoldenrodHarborName
 	landmark  68,  92, MagnetTunnelName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
@@ -245,7 +244,6 @@ CliffCaveName:         rawchar "Cliff Cave@"
 YellowForestName:      rawchar "Yellow¯Forest@"
 QuietCaveName:         rawchar "Quiet Cave@"
 CherrygroveBayName:    rawchar "Cherrygrove¯Bay@"
-GoldenrodHarborName:   rawchar "Goldenrod¯Harbor@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"
 Route34CoastName:      rawchar "Route 34¯Coast@"
