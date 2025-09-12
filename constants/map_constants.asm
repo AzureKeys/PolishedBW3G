@@ -554,10 +554,4 @@ ENDM
 	map_const ROUTE_27_REST_HOUSE,                         4,  4 ; 14
 	map_const ROUTE_29_46_GATE,                            5,  4 ; 15
 
-	newgroup                                                     ; 25
-	map_const ROUTE_5,                                    10, 17 ; 12
-	map_const ROUTE_5_UNDERGROUND_ENTRANCE,                4,  4 ; 13
-	map_const ROUTE_5_SAFFRON_CITY_GATE,                   5,  4 ; 14
-	map_const ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE,            4,  4 ; 15
-
 DEF NUM_MAP_GROUPS EQU const_value ; 37

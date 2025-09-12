@@ -289,12 +289,8 @@ ENDM
 	map_attributes Route6, ROUTE_6, $f, SOUTH
 	connection south, VermilionCity, VERMILION_CITY, -3
 
-	map_attributes Route5, ROUTE_5, $f, NORTH
-	connection north, CeruleanCity, CERULEAN_CITY, -5
-
-	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | SOUTH | WEST
+	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | WEST
 	connection north, Route24, ROUTE_24, 0
-	connection south, Route5, ROUTE_5, 5
 	connection west, Route4, ROUTE_4, 2
 
 	map_attributes Route24, ROUTE_24, $2c, SOUTH | EAST
@@ -704,9 +700,6 @@ ENDM
 	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
 	map_attributes Route2946Gate, ROUTE_29_46_GATE, $0, 0
-	map_attributes Route5UndergroundEntrance, ROUTE_5_UNDERGROUND_ENTRANCE, $0, 0
-	map_attributes Route5SaffronCityGate, ROUTE_5_SAFFRON_CITY_GATE, $0, 0
-	map_attributes Route5CleanseTagSpeechHouse, ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0
 	map_attributes PewterMuseumOfScience2F, PEWTER_MUSEUM_OF_SCIENCE_2F, $0, 0

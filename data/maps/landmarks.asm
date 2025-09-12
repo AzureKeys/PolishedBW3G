@@ -74,7 +74,6 @@ Landmarks:
 	landmark 108,  36, Route24Name
 	landmark 124,  28, Route25Name
 	landmark 140,  28, CeruleanCapeName
-	landmark 108,  52, Route5Name
 	landmark 114,  66, UndergroundName
 	landmark 108,  68, Route6Name
 	landmark 108,  76, VermilionCityName
@@ -174,7 +173,6 @@ Route1Name:            rawchar "Route 1@"
 Route2Name:            rawchar "Route 2@"
 Route3Name:            rawchar "Route 3@"
 Route4Name:            rawchar "Route 4@"
-Route5Name:            rawchar "Route 5@"
 Route6Name:            rawchar "Route 6@"
 Route7Name:            rawchar "Route 7@"
 Route8Name:            rawchar "Route 8@"

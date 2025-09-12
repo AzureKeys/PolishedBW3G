@@ -476,34 +476,6 @@
 	wildmon 59, CLEFABLE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_5
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 46, RATTATA
-	wildmon 46, GRANBULL
-	wildmon 51, RATTATA
-	wildmon 47, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, JIGGLYPUFF
-	wildmon 47, WIGGLYTUFF
-	; day
-	wildmon 46, RATTATA
-	wildmon 46, GRANBULL
-	wildmon 51, RATTATA
-	wildmon 47, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, JIGGLYPUFF
-	wildmon 47, WIGGLYTUFF
-	; nite
-	wildmon 46, RATTATA
-	wildmon 46, PERSIAN
-	wildmon 51, RATTATA
-	wildmon 47, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, JIGGLYPUFF
-	wildmon 47, WIGGLYTUFF
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

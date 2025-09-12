@@ -57,7 +57,6 @@ Route1ViridianGate_BlockData:
 Route2Gate_BlockData:
 ViridianForestViridianGate_BlockData:
 ViridianForestPewterGate_BlockData:
-Route5SaffronCityGate_BlockData:
 Route6SaffronGate_BlockData:
 Route19FuchsiaGate_BlockData:
 SafariZoneFuchsiaGate_BlockData:
@@ -170,7 +169,6 @@ Route12SuperRodHouse_BlockData:
 Route16FuchsiaSpeechHouse_BlockData:
 Route2NuggetSpeechHouse_BlockData:
 Route27RestHouse_BlockData:
-Route5CleanseTagSpeechHouse_BlockData:
 EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
@@ -1339,16 +1337,11 @@ SECTION "Route4_BlockData", ROMX
 Route4_BlockData:
 	INCBIN "maps/Route4.ablk.lz"
 
-SECTION "Route5_BlockData", ROMX
-Route5_BlockData:
-	INCBIN "maps/Route5.ablk.lz"
-
 SECTION "Route6_BlockData", ROMX
 Route6_BlockData:
 	INCBIN "maps/Route6.ablk.lz"
 
 SECTION "Route5UndergroundEntrance_BlockData", ROMX
-Route5UndergroundEntrance_BlockData:
 Route6UndergroundEntrance_BlockData:
 	INCBIN "maps/UndergroundPathEntrance.ablk.lz"
 
