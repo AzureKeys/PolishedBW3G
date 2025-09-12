@@ -73,7 +73,6 @@ MapScenes::
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
 	scene_var ROUTE_42,                               wRoute42SceneID
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
-	scene_var SAFFRON_TRAIN_STATION,                  wAlways0SceneID
 	scene_var SEAGALLOP_FERRY_NAVEL_GATE,             wSeagallopFerryNavelGateSceneID
 	scene_var SEAGALLOP_FERRY_SHAMOUTI_GATE,          wSeagallopFerryShamoutiGateSceneID
 	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID

@@ -555,25 +555,9 @@ ENDM
 	map_const ROUTE_29_46_GATE,                            5,  4 ; 15
 
 	newgroup                                                     ; 25
-	map_const FIGHTING_DOJO,                               5,  6 ;  1
-	map_const SAFFRON_GYM,                                10,  9 ;  2
-	map_const SAFFRON_MART,                                6,  4 ;  3
-	map_const SAFFRON_POKECENTER_1F,                       6,  4 ;  4
-	map_const MR_PSYCHICS_HOUSE,                           4,  4 ;  5
-	map_const SAFFRON_TRAIN_STATION,                      10,  9 ;  6
-	map_const SILPH_CO_1F,                                 8,  4 ;  7
-	map_const SILPH_CO_2F,                                 8,  4 ;  8
-	map_const SILPH_CO_3F,                                 8,  4 ;  9
-	map_const COPYCATS_HOUSE_1F,                           4,  4 ; 10
-	map_const COPYCATS_HOUSE_2F,                           4,  3 ; 11
 	map_const ROUTE_5,                                    10, 17 ; 12
 	map_const ROUTE_5_UNDERGROUND_ENTRANCE,                4,  4 ; 13
 	map_const ROUTE_5_SAFFRON_CITY_GATE,                   5,  4 ; 14
 	map_const ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE,            4,  4 ; 15
-	map_const POKEMON_TRAINER_FAN_CLUB,                    6,  9 ; 16
-	map_const SAFFRON_HITMONTOP_KID_HOUSE,                 4,  4 ; 17
-	map_const SAFFRON_BOOK_SPEECH_HOUSE,                   4,  4 ; 18
-	map_const SAFFRON_ORRE_SPEECH_HOUSE,                   4,  4 ; 19
-	map_const SAFFRON_RICH_SPEECH_HOUSE,                   4,  4 ; 20
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

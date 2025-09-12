@@ -22,7 +22,6 @@ SECTION "Pokemon Center Scripts 3", ROMX
 INCLUDE "maps/VermilionPokeCenter1F.asm"
 INCLUDE "maps/LavenderPokeCenter1F.asm"
 INCLUDE "maps/CeladonPokeCenter1F.asm"
-INCLUDE "maps/SaffronPokeCenter1F.asm"
 INCLUDE "maps/FuchsiaPokeCenter1F.asm"
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
@@ -640,36 +639,9 @@ INCLUDE "maps/RocketHideoutB4F.asm"
 INCLUDE "maps/RocketHideoutElevator.asm"
 
 
-SECTION "Saffron Scripts", ROMX
-
-INCLUDE "maps/SaffronMart.asm"
-INCLUDE "maps/SaffronGym.asm"
-INCLUDE "maps/SaffronBookSpeechHouse.asm"
-INCLUDE "maps/SaffronHitmontopKidHouse.asm"
-INCLUDE "maps/SaffronOrreSpeechHouse.asm"
-INCLUDE "maps/SaffronRichSpeechHouse.asm"
-INCLUDE "maps/SaffronTrainStation.asm"
-
-
 SECTION "Saffron Scripts 2", ROMX
 
-INCLUDE "maps/FightingDojo.asm"
-INCLUDE "maps/CopycatsHouse1F.asm"
-INCLUDE "maps/CopycatsHouse2F.asm"
-INCLUDE "maps/MrPsychicsHouse.asm"
 INCLUDE "maps/Underground.asm"
-
-
-SECTION "Silph Co Scripts", ROMX
-
-INCLUDE "maps/SilphCo1F.asm"
-INCLUDE "maps/SilphCo2F.asm"
-INCLUDE "maps/SilphCo3F.asm"
-
-
-SECTION "Pokemon Trainer Fan Club Scripts", ROMX
-
-INCLUDE "maps/PokemonTrainerFanClub.asm"
 
 
 SECTION "Fuchsia Scripts", ROMX

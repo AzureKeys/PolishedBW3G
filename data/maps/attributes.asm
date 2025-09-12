@@ -704,25 +704,9 @@ ENDM
 	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
 	map_attributes Route2946Gate, ROUTE_29_46_GATE, $0, 0
-	map_attributes FightingDojo, FIGHTING_DOJO, $0, 0
-	map_attributes SaffronGym, SAFFRON_GYM, $0, 0
-	map_attributes SaffronMart, SAFFRON_MART, $0, 0
-	map_attributes SaffronPokeCenter1F, SAFFRON_POKECENTER_1F, $0, 0
-	map_attributes MrPsychicsHouse, MR_PSYCHICS_HOUSE, $0, 0
-	map_attributes SaffronTrainStation, SAFFRON_TRAIN_STATION, $0, 0
-	map_attributes SilphCo1F, SILPH_CO_1F, $0, 0
-	map_attributes SilphCo2F, SILPH_CO_2F, $0, 0
-	map_attributes SilphCo3F, SILPH_CO_3F, $0, 0
-	map_attributes CopycatsHouse1F, COPYCATS_HOUSE_1F, $0, 0
-	map_attributes CopycatsHouse2F, COPYCATS_HOUSE_2F, $0, 0
 	map_attributes Route5UndergroundEntrance, ROUTE_5_UNDERGROUND_ENTRANCE, $0, 0
 	map_attributes Route5SaffronCityGate, ROUTE_5_SAFFRON_CITY_GATE, $0, 0
 	map_attributes Route5CleanseTagSpeechHouse, ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE, $0, 0
-	map_attributes PokemonTrainerFanClub, POKEMON_TRAINER_FAN_CLUB, $0, 0
-	map_attributes SaffronHitmontopKidHouse, SAFFRON_HITMONTOP_KID_HOUSE, $0, 0
-	map_attributes SaffronBookSpeechHouse, SAFFRON_BOOK_SPEECH_HOUSE, $0, 0
-	map_attributes SaffronOrreSpeechHouse, SAFFRON_ORRE_SPEECH_HOUSE, $0, 0
-	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0
 	map_attributes PewterMuseumOfScience2F, PEWTER_MUSEUM_OF_SCIENCE_2F, $0, 0

@@ -22,7 +22,6 @@ VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
 LavenderPokeCenter1F_BlockData:
 CeladonPokeCenter1F_BlockData:
-SaffronPokeCenter1F_BlockData:
 FuchsiaPokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
@@ -40,7 +39,6 @@ PewterMart_BlockData:
 CeruleanMart_BlockData:
 VermilionMart_BlockData:
 LavenderMart_BlockData:
-SaffronMart_BlockData:
 FuchsiaMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
@@ -110,7 +108,6 @@ CeruleanTradeSpeechHouse_BlockData:
 CeruleanCoupleHouse_BlockData:
 FuchsiaBillSpeechHouse_BlockData:
 FuchsiaSafariBallHouse_BlockData:
-SaffronRichSpeechHouse_BlockData:
 LavenderTownSpeechHouse_BlockData:
 ViridianNicknameSpeechHouse_BlockData:
 CeladonOldManSpeechHouse_BlockData:
@@ -154,7 +151,6 @@ CeruleanWaterShowSpeechHouse_BlockData:
 CeladonMansionRoofHouse_BlockData:
 VermilionHouseFishingSpeechHouse_BlockData:
 VermilionPollutionSpeechHouse_BlockData:
-MrPsychicsHouse_BlockData:
 PsychicInversHouse_BlockData:
 	INCBIN "maps/KantoHouse1.ablk.lz"
 
@@ -164,8 +160,6 @@ VermilionMagnetTrainSpeechHouse_BlockData:
 VermilionHouseDiglettsCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
 LavenderNameRater_BlockData:
-SaffronHitmontopKidHouse_BlockData:
-SaffronOrreSpeechHouse_BlockData:
 Route19BeachHouse_BlockData:
 	INCBIN "maps/KantoHouse3.ablk.lz"
 
@@ -1192,49 +1186,9 @@ SECTION "RocketHideoutElevator_BlockData", ROMX
 RocketHideoutElevator_BlockData:
 	INCBIN "maps/RocketHideoutElevator.ablk.lz"
 
-SECTION "SaffronGym_BlockData", ROMX
-SaffronGym_BlockData:
-	INCBIN "maps/SaffronGym.ablk.lz"
-
-SECTION "SaffronBookSpeechHouse_BlockData", ROMX
-SaffronBookSpeechHouse_BlockData:
-	INCBIN "maps/SaffronBookSpeechHouse.ablk.lz"
-
-SECTION "SaffronTrainStation_BlockData", ROMX
-SaffronTrainStation_BlockData:
-	INCBIN "maps/SaffronTrainStation.ablk.lz"
-
-SECTION "FightingDojo_BlockData", ROMX
-FightingDojo_BlockData:
-	INCBIN "maps/FightingDojo.ablk.lz"
-
-SECTION "CopycatsHouse1F_BlockData", ROMX
-CopycatsHouse1F_BlockData:
-	INCBIN "maps/CopycatsHouse1F.ablk.lz"
-
-SECTION "CopycatsHouse2F_BlockData", ROMX
-CopycatsHouse2F_BlockData:
-	INCBIN "maps/CopycatsHouse2F.ablk.lz"
-
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"
-
-SECTION "PokemonTrainerFanClub_BlockData", ROMX
-PokemonTrainerFanClub_BlockData:
-	INCBIN "maps/PokemonTrainerFanClub.ablk.lz"
-
-SECTION "SilphCo1F_BlockData", ROMX
-SilphCo1F_BlockData:
-	INCBIN "maps/SilphCo1F.ablk.lz"
-
-SECTION "SilphCo2F_BlockData", ROMX
-SilphCo2F_BlockData:
-	INCBIN "maps/SilphCo2F.ablk.lz"
-
-SECTION "SilphCo3F_BlockData", ROMX
-SilphCo3F_BlockData:
-	INCBIN "maps/SilphCo3F.ablk.lz"
 
 SECTION "FuchsiaGym_BlockData", ROMX
 FuchsiaGym_BlockData:

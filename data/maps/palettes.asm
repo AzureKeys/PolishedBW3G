@@ -61,7 +61,6 @@ ENDM
 	special_bg_pal map,      CELADON_MANSION_ROOF,        PAL_TIMEOFDAY, CeladonMansionRoofPalette
 	special_bg_pal map,      CELADON_HOME_DECOR_STORE_4F, PAL_SINGLE,    CeladonHomeDecorStore4FPalette
 	special_bg_pal map,      VIRIDIAN_GYM,                PAL_SINGLE,    ViridianGymPalette
-	special_bg_pal map,      SAFFRON_GYM,                 PAL_SINGLE,    SaffronGymPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
@@ -379,19 +378,6 @@ endc
 CeruleanGymPalette:
 if !DEF(MONOCHROME)
 INCLUDE "maps/CeruleanGym.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-SaffronGymPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/SaffronGym.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR
