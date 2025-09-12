@@ -9,10 +9,6 @@ Landmarks:
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
 	landmark 120, 100, Route29Name
-	landmark 100, 100, CherrygroveCityName
-	landmark  92, 100, CherrygroveBayName
-	landmark 100,  80, Route30Name
-	landmark  96,  60, Route31Name
 	landmark  84,  60, VioletCityName
 	landmark  86,  58, SproutTowerName
 	landmark  84,  52, VioletOutskirtsName
@@ -127,7 +123,6 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 NewBarkTownName:       rawchar "New Bark¯Town@"
-CherrygroveCityName:   rawchar "Cherrygrove¯City@"
 VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"
@@ -203,8 +198,6 @@ Route26Name:           rawchar "Route 26@"
 Route27Name:           rawchar "Route 27@"
 Route28Name:           rawchar "Route 28@"
 Route29Name:           rawchar "Route 29@"
-Route30Name:           rawchar "Route 30@"
-Route31Name:           rawchar "Route 31@"
 Route32Name:           rawchar "Route 32@"
 Route33Name:           rawchar "Route 33@"
 Route34Name:           rawchar "Route 34@"
@@ -230,7 +223,6 @@ TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 YellowForestName:      rawchar "Yellow¯Forest@"
-CherrygroveBayName:    rawchar "Cherrygrove¯Bay@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"
 Route34CoastName:      rawchar "Route 34¯Coast@"

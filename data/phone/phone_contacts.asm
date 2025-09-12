@@ -25,8 +25,6 @@ PhoneContacts:
 	phone COOLTRAINERF, BETH1,                 ROUTE_26,                  %1111, BethPhoneScript1,    %1111, BethPhoneScript2
 	phone BIRD_KEEPER,  JOSE1,                 ROUTE_27,                  %1111, JosePhoneScript1,    %1111, JosePhoneScript2
 	phone COOLTRAINERF, REENA1,                ROUTE_27,                  %1111, ReenaPhoneScript1,   %1111, ReenaPhoneScript2
-	phone YOUNGSTER,    JOEY1,                 ROUTE_30,                  %1111, JoeyPhoneScript1,    %1111, JoeyPhoneScript2
-	phone BUG_CATCHER,  WADE1,                 ROUTE_31,                  %1111, WadePhoneScript1,    %1111, WadePhoneScript2
 	phone FISHER,       RALPH1,                ROUTE_32,                  %1111, RalphPhoneScript1,   %1111, RalphPhoneScript2
 	phone PICNICKER,    LIZ1,                  ROUTE_32,                  %1111, LizPhoneScript1,     %1111, LizPhoneScript2
 	phone HIKER,        ANTHONY1,              ROUTE_33,                  %1111, AnthonyPhoneScript1, %1111, AnthonyPhoneScript2

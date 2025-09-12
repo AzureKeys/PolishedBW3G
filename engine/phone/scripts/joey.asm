@@ -17,7 +17,6 @@ JoeyPhoneScript1:
 	farsjump PhoneScript_HangupText_Male
 
 .WantsBattle:
-	getlandmarkname ROUTE_30, STRING_BUFFER_5
 	farsjump JoeyReminderScript
 
 JoeyPhoneScript2:
@@ -38,6 +37,5 @@ JoeyMondayAfternoon:
 	setflag ENGINE_JOEY_MONDAY_AFTERNOON
 
 JoeyWantsBattle:
-	getlandmarkname ROUTE_30, STRING_BUFFER_5
 	setflag ENGINE_JOEY_READY_FOR_REMATCH
 	farsjump PhoneScript_WantsToBattle_Male

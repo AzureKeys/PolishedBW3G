@@ -16,7 +16,6 @@ UniqueWildMoves:
 	unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
-	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
 	unique_moves SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0

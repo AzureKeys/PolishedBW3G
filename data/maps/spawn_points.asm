@@ -24,7 +24,6 @@ SpawnPoints:
 	spawn INDIGO_PLATEAU,             11,  6
 
 	spawn NEW_BARK_TOWN,              15,  6
-	spawn CHERRYGROVE_CITY,           29,  4
 	spawn VIOLET_CITY,                31, 26
 	spawn ROUTE_32,                   11, 74
 	spawn AZALEA_TOWN,                15, 10

@@ -85,10 +85,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Generic
 	dw .NewBarkTown
 	dw .Route29
-	dw .CherrygroveCity
-	dw .CherrygroveBay
-	dw .Route30
-	dw .Route31
 	dw .VioletCity
 	dw .SproutTower
 	dw .VioletOutskirts
@@ -143,10 +139,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Generic:
 .NewBarkTown:
 .Route29:
-.CherrygroveCity:
-.CherrygroveBay:
-.Route30:
-.Route31:
 .VioletCity:
 .SproutTower:
 .VioletOutskirts:

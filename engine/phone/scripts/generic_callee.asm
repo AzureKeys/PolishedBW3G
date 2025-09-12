@@ -28,8 +28,6 @@ PhoneScript_AnswerPhone_Male:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -151,8 +149,6 @@ PhoneScript_AnswerPhone_Male_Day:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -274,8 +270,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -558,8 +552,6 @@ PhoneScript_GreetPhone_Male:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -681,8 +673,6 @@ PhoneScript_GreetPhone_Male_Day:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -804,8 +794,6 @@ PhoneScript_GreetPhone_Male_Nite:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -1083,8 +1071,6 @@ PhoneScript_Generic_Male:
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd

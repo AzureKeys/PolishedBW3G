@@ -28,5 +28,4 @@ MapGroupRoofs:
 	db -1            ; 23
 	db ROOF_NEW_BARK ; 24 (New Bark Town)
 	db -1            ; 25
-	db ROOF_NEW_BARK ; 26 (Cherrygrove City)
 	assert_table_length NUM_MAP_GROUPS + 1

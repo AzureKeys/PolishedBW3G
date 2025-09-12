@@ -4,10 +4,6 @@
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
 	const ROUTE_29           ; 02
-	const CHERRYGROVE_CITY   ; 03
-	const CHERRYGROVE_BAY    ; 04
-	const ROUTE_30           ; 05
-	const ROUTE_31           ; 06
 	const VIOLET_CITY        ; 07
 	const SPROUT_TOWER       ; 08
 	const VIOLET_OUTSKIRTS   ; 09

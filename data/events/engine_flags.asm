@@ -94,7 +94,6 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_CINNABAR
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
 	engine_flag wVisitedSpawns, SPAWN_NEW_BARK
-	engine_flag wVisitedSpawns, SPAWN_CHERRYGROVE
 	engine_flag wVisitedSpawns, SPAWN_VIOLET
 	engine_flag wVisitedSpawns, SPAWN_UNION_CAVE
 	engine_flag wVisitedSpawns, SPAWN_AZALEA

@@ -22,7 +22,6 @@ MapScenes::
 	scene_var CERULEAN_CAPE,                          wCeruleanCapeSceneID
 	scene_var CERULEAN_CAVE_1F,                       wCeruleanCave1FSceneID
 	scene_var CERULEAN_GYM,                           wCeruleanGymSceneID
-	scene_var CHERRYGROVE_CITY,                       wCherrygroveCitySceneID
 	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
@@ -51,7 +50,6 @@ MapScenes::
 	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
-	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var OLIVINE_CITY,                           wOlivineCitySceneID
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID

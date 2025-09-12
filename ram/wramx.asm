@@ -1066,7 +1066,6 @@ wBurnedTowerB1FSceneID:: db
 wCeruleanCapeSceneID:: db
 wCeruleanCave1FSceneID:: db
 wCeruleanGymSceneID:: db
-wCherrygroveCitySceneID:: db
 wCianwoodCitySceneID:: db
 wCinnabarLabSceneID:: db
 wColosseumSceneID:: db
@@ -1095,7 +1094,6 @@ wLavenderTownSceneID:: db
 wMahoganyMart1FSceneID:: db
 wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
-wMrPokemonsHouseSceneID:: db
 wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
 wOlivineCitySceneID:: db
@@ -1177,7 +1175,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 75 ; unused
+	ds 77 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

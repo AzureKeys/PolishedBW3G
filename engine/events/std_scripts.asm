@@ -499,8 +499,6 @@ AskNumber1MScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -584,8 +582,6 @@ AskNumber2MScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -675,8 +671,6 @@ NumberAcceptedMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -778,8 +772,6 @@ NumberDeclinedMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -881,8 +873,6 @@ PhoneFullMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -984,8 +974,6 @@ RematchMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -1069,7 +1057,6 @@ RematchMScript:
 GiftMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
@@ -1109,8 +1096,6 @@ PackFullMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
@@ -1167,7 +1152,6 @@ RematchGiftMScript:
 	opentext
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 

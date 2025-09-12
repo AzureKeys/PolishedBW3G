@@ -59,8 +59,6 @@ Phone_WhosBragging_Male:
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -215,8 +213,6 @@ Phone_WhoDefeatedMon_Male:
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -371,8 +367,6 @@ Phone_WhoLostAMon_Male:
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -536,8 +530,6 @@ PhoneScript_RematchText_Male:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -694,8 +686,6 @@ PhoneScript_HangupText_Male:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
@@ -856,7 +846,6 @@ PhoneScriptRareWildMon:
 
 PhoneScript_BugCatchingContest:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 
 .Wade:
@@ -897,7 +886,6 @@ AnthonySwarmScript:
 PhoneScript_FoundItem_Male:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully

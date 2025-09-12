@@ -126,20 +126,6 @@
 	wildmon 20, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_30
-	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_31
-	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
 	wildmon 15, RATTATA
@@ -210,13 +196,6 @@
 	wildmon 20, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons CHERRYGROVE_CITY
-	db 6 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
 	wildmon 20, POLIWAG
@@ -271,13 +250,6 @@
 	wildmon 70, POLIWHIRL
 	wildmon 75, POLIWRATH
 	wildmon 70, POLIWHIRL
-	end_water_wildmons
-
-	def_water_wildmons CHERRYGROVE_BAY
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32_COAST
