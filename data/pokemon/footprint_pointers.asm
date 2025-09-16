@@ -188,6 +188,9 @@ FootprintPointers::
 	dw BeldumFootprint
 	dw MetangFootprint
 	dw MetagrossFootprint
+	dw StarlyFootprint
+	dw StaraviaFootprint
+	dw StaraptorFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw PalpitoadFootprint
 	dw SeismitoadFootprint
 	dw ThrohFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw SawkFootprint
 	dw SewaddleFootprint
 	dw SwadloonFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw LeavannyFootprint
 	dw VenipedeFootprint
 	dw WhirlipedeFootprint

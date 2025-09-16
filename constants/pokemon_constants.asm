@@ -212,6 +212,9 @@
 	const BELDUM     ; ba
 	const METANG     ; bb
 	const METAGROSS  ; bc
+	const STARLY     ; bd
+	const STARAVIA   ; be
+	const STARAPTOR  ; bf
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const PALPITOAD  ; 11d
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const SAWK       ; 120
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const LEAVANNY   ; 123
 	const VENIPEDE   ; 124
 	const WHIRLIPEDE ; 125

@@ -188,6 +188,9 @@ AnimationPointers:
 	dw BeldumAnimation
 	dw MetangAnimation
 	dw MetagrossAnimation
+	dw StarlyAnimation
+	dw StaraviaAnimation
+	dw StaraptorAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw PalpitoadAnimation
 	dw SeismitoadAnimation
 	dw ThrohAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw SawkAnimation
 	dw SewaddleAnimation
 	dw SwadloonAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw LeavannyAnimation
 	dw VenipedeAnimation
 	dw WhirlipedeAnimation

@@ -188,6 +188,9 @@ EggSpeciesMovesPointers::
 	dw BeldumEggSpeciesMoves            ; Beldum
 	dw BeldumEggSpeciesMoves            ; Metang
 	dw BeldumEggSpeciesMoves            ; Metagross
+	dw StarlyEggSpeciesMoves            ; Starly
+	dw StarlyEggSpeciesMoves            ; Staravia
+	dw StarlyEggSpeciesMoves            ; Staraptor
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw TympoleEggSpeciesMoves           ; Palpitoad
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw SawkEggSpeciesMoves              ; Sawk
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SewaddleEggSpeciesMoves          ; Leavanny
 	dw VenipedeEggSpeciesMoves          ; Venipede
 	dw VenipedeEggSpeciesMoves          ; Whirlipede

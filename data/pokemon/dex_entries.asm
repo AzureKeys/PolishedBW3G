@@ -1878,6 +1878,36 @@ MetagrossPokedexEntry::
 	next "superior to a"
 	next "supercomputer.@"
 
+SECTION "StarlyPokedexEntry", ROMX
+StarlyPokedexEntry::
+	db "Starling@"
+	db "They flock around"
+	next "mountains and"
+	next "fields, chasing"
+	page "after bug #mon."
+	next "Their singing is"
+	next "quite noisy.@"
+
+SECTION "StaraviaPokedexEntry", ROMX
+StaraviaPokedexEntry::
+	db "Starling@"
+	db "Recognizing their"
+	next "own weakness, they"
+	next "always live in a"
+	page "group. When alone,"
+	next "a Staravia cries"
+	next "noisily.@"
+
+SECTION "StaraptorPokedexEntry", ROMX
+StaraptorPokedexEntry::
+	db "Predator@"
+	db "It never stops"
+	next "attacking, even if"
+	next "it is injured. It"
+	page "fusses over the"
+	next "shape of its"
+	next "comb.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

@@ -188,6 +188,9 @@ FramesPointers:
 	dw BeldumFrames
 	dw MetangFrames
 	dw MetagrossFrames
+	dw StarlyFrames
+	dw StaraviaFrames
+	dw StaraptorFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw PalpitoadFrames
 	dw SeismitoadFrames
 	dw ThrohFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw SawkFrames
 	dw SewaddleFrames
 	dw SwadloonFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw LeavannyFrames
 	dw VenipedeFrames
 	dw WhirlipedeFrames

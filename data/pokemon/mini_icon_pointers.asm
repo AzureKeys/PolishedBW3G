@@ -192,6 +192,9 @@ MiniIconPointers:
 	mini_icon Beldum
 	mini_icon Metang
 	mini_icon Metagross
+	mini_icon Starly
+	mini_icon Staravia
+	mini_icon Staraptor
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Palpitoad
 	mini_icon Seismitoad
 	mini_icon Throh
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Sawk
 	mini_icon Sewaddle
 	mini_icon Swadloon
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Leavanny
 	mini_icon Venipede
 	mini_icon Whirlipede

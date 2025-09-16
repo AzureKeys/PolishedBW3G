@@ -947,6 +947,21 @@ MetagrossMini::     INCBIN "gfx/minis/metagross.2bpp.lz"
 MetagrossMiniMask:: INCBIN "gfx/minis/metagross_mask.1bpp.lz"
 MetagrossIcon::     INCBIN "gfx/icons/metagross.2bpp.lz"
 
+SECTION "Starly Mini Icon", ROMX
+StarlyMini::     INCBIN "gfx/minis/starly.2bpp.lz"
+StarlyMiniMask:: INCBIN "gfx/minis/starly_mask.1bpp.lz"
+StarlyIcon::     INCBIN "gfx/icons/starly.2bpp.lz"
+
+SECTION "Staravia Mini Icon", ROMX
+StaraviaMini::     INCBIN "gfx/minis/staravia.2bpp.lz"
+StaraviaMiniMask:: INCBIN "gfx/minis/staravia_mask.1bpp.lz"
+StaraviaIcon::     INCBIN "gfx/icons/staravia.2bpp.lz"
+
+SECTION "Staraptor Mini Icon", ROMX
+StaraptorMini::     INCBIN "gfx/minis/staraptor.2bpp.lz"
+StaraptorMiniMask:: INCBIN "gfx/minis/staraptor_mask.1bpp.lz"
+StaraptorIcon::     INCBIN "gfx/icons/staraptor.2bpp.lz"
+
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
 EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"

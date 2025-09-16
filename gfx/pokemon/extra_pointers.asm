@@ -188,6 +188,9 @@ AnimationExtraPointers:
 	dw BeldumAnimationExtra
 	dw MetangAnimationExtra
 	dw MetagrossAnimationExtra
+	dw StarlyAnimationExtra
+	dw StaraviaAnimationExtra
+	dw StaraptorAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw PalpitoadAnimationExtra
 	dw SeismitoadAnimationExtra
 	dw ThrohAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw SawkAnimationExtra
 	dw SewaddleAnimationExtra
 	dw SwadloonAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw LeavannyAnimationExtra
 	dw VenipedeAnimationExtra
 	dw WhirlipedeAnimationExtra

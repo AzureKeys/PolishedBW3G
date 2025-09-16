@@ -192,6 +192,9 @@ OverworldMonIconColors::
 	iconpal BLUE, GRAY ; BELDUM
 	iconpal BLUE, GRAY ; METANG
 	iconpal BLUE, GRAY ; METAGROSS
+	iconpal GRAY, BROWN ; STARLY
+	iconpal GRAY, BROWN ; STARAVIA
+	iconpal GRAY, BROWN ; STARAPTOR
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; PALPITOAD
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, PURPLE ; SAWK
 	iconpal GREEN, TEAL ; SEWADDLE
 	iconpal GREEN, GRAY ; SWADLOON
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal GREEN, BROWN ; LEAVANNY
 	iconpal RED, BROWN ; VENIPEDE
 	iconpal GRAY, PURPLE ; WHIRLIPEDE

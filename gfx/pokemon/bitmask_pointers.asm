@@ -188,6 +188,9 @@ BitmasksPointers:
 	dw BeldumBitmasks
 	dw MetangBitmasks
 	dw MetagrossBitmasks
+	dw StarlyBitmasks
+	dw StaraviaBitmasks
+	dw StaraptorBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw PalpitoadBitmasks
 	dw SeismitoadBitmasks
 	dw ThrohBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw SawkBitmasks
 	dw SewaddleBitmasks
 	dw SwadloonBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw LeavannyBitmasks
 	dw VenipedeBitmasks
 	dw WhirlipedeBitmasks

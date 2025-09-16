@@ -304,6 +304,9 @@ AlphabeticalPokedexOrder:
 	dp SOLROCK
 	dp SPHEAL
 	dp SPOINK
+	dp STARAPTOR
+	dp STARAVIA
+	dp STARLY
 	dp STARMIE
 	dp STARYU
 	dp STEELIX

@@ -194,6 +194,9 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   $40c,  $140 ; Beldum
 	mon_cry CRY_SLOWKING,    $6af,  $17a ; Metang
 	mon_cry CRY_METAPOD,     $def,  $1aa ; Metagross
+	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; STARLY*
+	mon_cry CRY_PIDGEY,      $1c0,  $184 ; STARAVIA*
+	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; STARAPTOR*
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -257,11 +260,11 @@ PokemonCries::
 	mon_cry CRY_MEDITITE,    $3a9,  $0e0 ; Palpitoad
 	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_HOOTHOOT,    $128,  $160 ; Leavanny
 	mon_cry CRY_SPINARAK,   -$1c7,  $1b0 ; Venipede
 	mon_cry CRY_TYPHLOSION,  $301,  $095 ; Whirlipede

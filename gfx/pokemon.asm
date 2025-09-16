@@ -766,6 +766,18 @@ SECTION "Metagross Pics", ROMX
 MetagrossFrontpic: INCBIN "gfx/pokemon/metagross/front.animated.2bpp.lz"
 MetagrossBackpic:  INCBIN "gfx/pokemon/metagross/back.2bpp.lz"
 
+SECTION "Starly Pics", ROMX
+StarlyFrontpic: INCBIN "gfx/pokemon/starly/front.animated.2bpp.lz"
+StarlyBackpic:  INCBIN "gfx/pokemon/starly/back.2bpp.lz"
+
+SECTION "Staravia Pics", ROMX
+StaraviaFrontpic: INCBIN "gfx/pokemon/staravia/front.animated.2bpp.lz"
+StaraviaBackpic:  INCBIN "gfx/pokemon/staravia/back.2bpp.lz"
+
+SECTION "Staraptor Pics", ROMX
+StaraptorFrontpic: INCBIN "gfx/pokemon/staraptor/front.animated.2bpp.lz"
+StaraptorBackpic:  INCBIN "gfx/pokemon/staraptor/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

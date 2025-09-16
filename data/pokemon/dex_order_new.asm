@@ -222,6 +222,9 @@ NewPokedexOrder:
 	dp BELDUM
 	dp METANG
 	dp METAGROSS
+	dp STARLY
+	dp STARAVIA
+	dp STARAPTOR
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

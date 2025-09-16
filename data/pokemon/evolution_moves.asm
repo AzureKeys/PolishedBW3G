@@ -192,6 +192,9 @@ endc
 	db NO_MOVE      ; BELDUM
 	db NO_MOVE      ; METANG
 	db NO_MOVE      ; METAGROSS
+	db NO_MOVE      ; STARLY
+	db NO_MOVE      ; STARAVIA
+	db NO_MOVE      ; STARAPTOR
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -255,11 +258,11 @@ endc
 	db NO_MOVE      ; PALPITOAD
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH
+	db NO_MOVE      ; EGG
+	db NO_MOVE      ; $100
 	db NO_MOVE      ; SAWK
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
-	db NO_MOVE      ; EGG
-	db NO_MOVE      ; $100
 	db SLASH        ; LEAVANNY
 	db NO_MOVE      ; VENIPEDE
 	db BARRIER      ; WHIRLIPEDE

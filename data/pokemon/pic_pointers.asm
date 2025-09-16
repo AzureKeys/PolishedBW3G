@@ -192,6 +192,9 @@ PokemonPicPointers::
 	pics Beldum
 	pics Metang
 	pics Metagross
+	pics Starly
+	pics Staravia
+	pics Staraptor
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Palpitoad
 	pics Seismitoad
 	pics Throh
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Sawk
 	pics Sewaddle
 	pics Swadloon
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Leavanny
 	pics Venipede
 	pics Whirlipede

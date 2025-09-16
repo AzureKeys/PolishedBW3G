@@ -231,6 +231,9 @@ SalamenceFootprint::
 BeldumFootprint::
 MetangFootprint::
 MetagrossFootprint::
+StarlyFootprint::
+StaraviaFootprint::
+StaraptorFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -189,6 +189,9 @@ PokemonNames::
 	rawchar "Beldum@@@@"
 	rawchar "Metang@@@@"
 	rawchar "Metagross@"
+	rawchar "Starly@@@@"
+	rawchar "Staravia@@"
+	rawchar "Staraptor@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Palpitoad@"
 	rawchar "Seismitoad"
 	rawchar "Throh@@@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Sawk@@@@@@"
 	rawchar "Sewaddle@@"
 	rawchar "Swadloon@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Leavanny@@"
 	rawchar "Venipede@@"
 	rawchar "Whirlipede"

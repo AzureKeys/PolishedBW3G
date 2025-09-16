@@ -192,6 +192,9 @@ EvosAttacksPointers::
 	dw BeldumEvosAttacks
 	dw MetangEvosAttacks
 	dw MetagrossEvosAttacks
+	dw StarlyEvosAttacks
+	dw StaraviaEvosAttacks
+	dw StaraptorEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -255,11 +258,11 @@ EvosAttacksPointers::
 	dw PalpitoadEvosAttacks
 	dw SeismitoadEvosAttacks
 	dw ThrohEvosAttacks
+	dw EggEvosAttacks
+	dw EggEvosAttacks ; $100
 	dw SawkEvosAttacks
 	dw SewaddleEvosAttacks
 	dw SwadloonEvosAttacks
-	dw EggEvosAttacks
-	dw EggEvosAttacks ; $100
 	dw LeavannyEvosAttacks
 	dw VenipedeEvosAttacks
 	dw WhirlipedeEvosAttacks
