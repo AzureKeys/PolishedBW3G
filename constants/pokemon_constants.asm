@@ -215,6 +215,9 @@
 	const STARLY     ; bd
 	const STARAVIA   ; be
 	const STARAPTOR  ; bf
+	const SHINX      ; c0
+	const LUXIO      ; c1
+	const LUXRAY     ; c2
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -275,11 +278,11 @@
 	const GURDURR    ; 11a
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const PALPITOAD  ; 11d
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const SAWK       ; 120
 	const SEWADDLE   ; 121
 	const SWADLOON   ; 122

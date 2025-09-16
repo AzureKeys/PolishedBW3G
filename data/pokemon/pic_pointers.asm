@@ -195,6 +195,9 @@ PokemonPicPointers::
 	pics Starly
 	pics Staravia
 	pics Staraptor
+	pics Shinx
+	pics Luxio
+	pics Luxray
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Gurdurr
 	pics Conkeldurr
 	pics Tympole
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Palpitoad
 	pics Seismitoad
 	pics Throh
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Sawk
 	pics Sewaddle
 	pics Swadloon

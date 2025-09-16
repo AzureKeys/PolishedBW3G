@@ -191,6 +191,9 @@ FootprintPointers::
 	dw StarlyFootprint
 	dw StaraviaFootprint
 	dw StaraptorFootprint
+	dw ShinxFootprint
+	dw LuxioFootprint
+	dw LuxrayFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw GurdurrFootprint
 	dw ConkeldurrFootprint
 	dw TympoleFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw PalpitoadFootprint
 	dw SeismitoadFootprint
 	dw ThrohFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw SawkFootprint
 	dw SewaddleFootprint
 	dw SwadloonFootprint

@@ -884,6 +884,10 @@ StarlyEggSpeciesMoves:
 	dp STARLY, PLAIN_FORM
 	db $ff
 
+ShinxEggSpeciesMoves:
+	dp SHINX, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

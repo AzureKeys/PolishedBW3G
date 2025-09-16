@@ -196,6 +196,9 @@ endc
 	db   1,  13 ; Starly
 	db  14,  33 ; Staravia
 	db  34, 100 ; Staraptor
+	db   1,  14 ; Shinx
+	db  15,  29 ; Luxio
+	db  30, 100 ; Luxray
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -256,11 +259,11 @@ endc
 	db  25,  39 ; Gurdurr
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
+	db 255, 255 ; Egg
+	db 255, 255 ; $100
 	db  25,  35 ; Palpitoad
 	db  36, 100 ; Seismtioad
 	db  20, 100 ; Throh
-	db 255, 255 ; Egg
-	db 255, 255 ; $100
 	db  20, 100 ; Sawk
 	db   1,  19 ; Sewaddle
 	db  20,  29 ; Swadloon

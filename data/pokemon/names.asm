@@ -192,6 +192,9 @@ PokemonNames::
 	rawchar "Starly@@@@"
 	rawchar "Staravia@@"
 	rawchar "Staraptor@"
+	rawchar "Shinx@@@@@"
+	rawchar "Luxio@@@@@"
+	rawchar "Luxray@@@@"
 	rawchar "Mismagius@"
 	rawchar "Honchkrow@"
 	rawchar "Bonsly@@@@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Gurdurr@@@"
 	rawchar "Conkeldurr"
 	rawchar "Tympole@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Palpitoad@"
 	rawchar "Seismitoad"
 	rawchar "Throh@@@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Sawk@@@@@@"
 	rawchar "Sewaddle@@"
 	rawchar "Swadloon@@"

@@ -1,17 +1,17 @@
-	db  60,  85,  49,  60,  60,  49 ; 310 BST
+	db  70,  80, 102,  40,  80, 102 ; 310 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
-	db 120 ; catch rate
-	db 127 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db BUG, FLYING ; type
+	db 45 ; catch rate
+	db 166 ; base exp
+	db POISON_BARB, NO_ITEM ; held items
+	dn GENDER_F100, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for LUXIO, RIVALRY, INTIMIDATE, GUTS
+	abilities_for VESPIQUEN, PRESSURE, PRESSURE, UNNERVE
 	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	dn EGG_BUG, EGG_BUG ; egg groups
 
-	ev_yield 2 Atk
+	ev_yield 1 Def, 1 SDf
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, IRON_TAIL, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DAZZLINGLEAM, ENERGY_BALL, DRAIN_PUNCH, FLASH, THUNDER_WAVE, BODY_SLAM, COUNTER, DOUBLE_EDGE, DREAM_EATER, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, KNOCK_OFF, SEISMIC_TOSS, SKILL_SWAP, SLEEP_TALK, SWAGGER, THUNDERPUNCH, TRICK, TRICK_ROOM, ZAP_CANNON, ZEN_HEADBUTT

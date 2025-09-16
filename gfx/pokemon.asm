@@ -778,6 +778,18 @@ SECTION "Staraptor Pics", ROMX
 StaraptorFrontpic: INCBIN "gfx/pokemon/staraptor/front.animated.2bpp.lz"
 StaraptorBackpic:  INCBIN "gfx/pokemon/staraptor/back.2bpp.lz"
 
+SECTION "Shinx Pics", ROMX
+ShinxFrontpic: INCBIN "gfx/pokemon/shinx/front.animated.2bpp.lz"
+ShinxBackpic:  INCBIN "gfx/pokemon/shinx/back.2bpp.lz"
+
+SECTION "Luxio Pics", ROMX
+LuxioFrontpic: INCBIN "gfx/pokemon/luxio/front.animated.2bpp.lz"
+LuxioBackpic:  INCBIN "gfx/pokemon/luxio/back.2bpp.lz"
+
+SECTION "Luxray Pics", ROMX
+LuxrayFrontpic: INCBIN "gfx/pokemon/luxray/front.animated.2bpp.lz"
+LuxrayBackpic:  INCBIN "gfx/pokemon/luxray/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

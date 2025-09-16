@@ -1,15 +1,15 @@
-	db  60,  85,  49,  60,  60,  49 ; 310 BST
+	db  74, 100,  72,  46,  90,  72 ; 310 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
-	db 120 ; catch rate
-	db 127 ; base exp
+	db GRASS, GRASS ; type
+	db 200 ; catch rate
+	db 159 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for LUXIO, RIVALRY, INTIMIDATE, GUTS
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for CARNIVINE, LEVITATE, LEVITATE, LEVITATE
+	db GROWTH_SLOW ; growth rate
+	dn EGG_GRASS, EGG_GRASS ; egg groups
 
 	ev_yield 2 Atk
 

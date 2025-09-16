@@ -195,6 +195,9 @@ MiniIconPointers:
 	mini_icon Starly
 	mini_icon Staravia
 	mini_icon Staraptor
+	mini_icon Shinx
+	mini_icon Luxio
+	mini_icon Luxray
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Gurdurr
 	mini_icon Conkeldurr
 	mini_icon Tympole
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Palpitoad
 	mini_icon Seismitoad
 	mini_icon Throh
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Sawk
 	mini_icon Sewaddle
 	mini_icon Swadloon

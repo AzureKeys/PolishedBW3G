@@ -191,6 +191,9 @@ EggSpeciesMovesPointers::
 	dw StarlyEggSpeciesMoves            ; Starly
 	dw StarlyEggSpeciesMoves            ; Staravia
 	dw StarlyEggSpeciesMoves            ; Staraptor
+	dw ShinxEggSpeciesMoves             ; Shinx
+	dw ShinxEggSpeciesMoves             ; Luxio
+	dw ShinxEggSpeciesMoves             ; Luxray
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw TimburrEggSpeciesMoves           ; Gurdurr
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw TympoleEggSpeciesMoves           ; Palpitoad
 	dw TympoleEggSpeciesMoves           ; Seismitoad
 	dw ThrohEggSpeciesMoves             ; Throh
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw SawkEggSpeciesMoves              ; Sawk
 	dw SewaddleEggSpeciesMoves          ; Sewaddle
 	dw SewaddleEggSpeciesMoves          ; Swadloon

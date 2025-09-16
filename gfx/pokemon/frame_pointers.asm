@@ -191,6 +191,9 @@ FramesPointers:
 	dw StarlyFrames
 	dw StaraviaFrames
 	dw StaraptorFrames
+	dw ShinxFrames
+	dw LuxioFrames
+	dw LuxrayFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw GurdurrFrames
 	dw ConkeldurrFrames
 	dw TympoleFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw PalpitoadFrames
 	dw SeismitoadFrames
 	dw ThrohFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw SawkFrames
 	dw SewaddleFrames
 	dw SwadloonFrames

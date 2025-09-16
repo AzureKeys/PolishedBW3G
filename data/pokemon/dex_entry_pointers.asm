@@ -191,6 +191,9 @@ PokedexDataPointerTable:
 	dba MetagrossPokedexEntry
 	dba StarlyPokedexEntry
 	dba StaraviaPokedexEntry
+	dba ShinxPokedexEntry
+	dba LuxioPokedexEntry
+	dba LuxrayPokedexEntry
 	dba StaraptorPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
@@ -252,11 +255,11 @@ PokedexDataPointerTable:
 	dba GurdurrPokedexEntry
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
+	dba SnivyPokedexEntry ; EGG
+	dba SnivyPokedexEntry ; $100
 	dba PalpitoadPokedexEntry
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry
-	dba SnivyPokedexEntry ; EGG
-	dba SnivyPokedexEntry ; $100
 	dba SawkPokedexEntry
 	dba SewaddlePokedexEntry
 	dba SwadloonPokedexEntry

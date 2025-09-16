@@ -1908,6 +1908,35 @@ StaraptorPokedexEntry::
 	next "shape of its"
 	next "comb.@"
 
+SECTION "ShinxPokedexEntry", ROMX
+ShinxPokedexEntry::
+	db "Flash@"
+	db "The extension and"
+	next "contraction of its"
+	next "muscles generates"
+	page "electricity. Its"
+	next "fur glows when"
+	next "it's in trouble.@"
+
+SECTION "LuxioPokedexEntry", ROMX
+LuxioPokedexEntry::
+	db "Spark@"
+	db "Strong electricity"
+	next "courses through"
+	next "the tips of its"
+	page "sharp claws. A"
+	next "light scratch can"
+	next "cause fainting.@"
+
+SECTION "LuxrayPokedexEntry", ROMX
+LuxrayPokedexEntry::
+	db "Gleam Eyes@"
+	db "It can see clearly"
+	next "through walls to"
+	next "track down its"
+	page "prey and seek its"
+	next "lost young.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

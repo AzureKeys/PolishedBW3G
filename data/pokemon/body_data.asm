@@ -198,6 +198,9 @@ PokemonBodyData:
 	body_data   3,   20, WINGS,        BROWN  ; STARLY
 	body_data   6,  155, WINGS,        BROWN  ; STARAVIA
 	body_data  12,  249, WINGS,        BROWN  ; STARAPTOR
+	body_data   5,   95, QUADRUPED,    BLUE   ; SHINX
+	body_data   9,  305, QUADRUPED,    BLUE   ; LUXIO
+	body_data  14,  420, QUADRUPED,    BLUE   ; LUXRAY
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -258,11 +261,11 @@ PokemonBodyData:
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	body_data  13,  555, BIPEDAL,      RED    ; THROH
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  14,  510, BIPEDAL,      BLUE   ; SAWK
 	body_data   3,   25, INSECTOID,    YELLOW ; SEWADDLE
 	body_data   5,   73, HEAD_ARMS,    GREEN  ; SWADLOON

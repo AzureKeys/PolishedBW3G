@@ -225,6 +225,9 @@ NewPokedexOrder:
 	dp STARLY
 	dp STARAVIA
 	dp STARAPTOR
+	dp SHINX
+	dp LUXIO
+	dp LUXRAY
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

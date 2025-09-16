@@ -191,6 +191,9 @@ AnimationPointers:
 	dw StarlyAnimation
 	dw StaraviaAnimation
 	dw StaraptorAnimation
+	dw ShinxAnimation
+	dw LuxioAnimation
+	dw LuxrayAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw GurdurrAnimation
 	dw ConkeldurrAnimation
 	dw TympoleAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw PalpitoadAnimation
 	dw SeismitoadAnimation
 	dw ThrohAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw SawkAnimation
 	dw SewaddleAnimation
 	dw SwadloonAnimation

@@ -197,6 +197,9 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; STARLY*
 	mon_cry CRY_PIDGEY,      $1c0,  $184 ; STARAVIA*
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; STARAPTOR*
+	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; SHINX*
+	mon_cry CRY_WEEDLE,      $040,  $090 ; LUXIO*
+	mon_cry CRY_SLOWKING,    $1e3,  $1e2 ; LUXRAY*
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -257,11 +260,11 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,   -$154,  $160 ; Gurdurr
 	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
 	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
+	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
+	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_MEDITITE,    $3a9,  $0e0 ; Palpitoad
 	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
 	mon_cry CRY_DUNSPARCE,   $27c,  $0eb ; Sawk
 	mon_cry CRY_GROWLITHE,   $0b2,  $0d0 ; Sewaddle
 	mon_cry CRY_GOLEM,       $2e0,  $0a0 ; Swadloon

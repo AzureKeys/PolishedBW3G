@@ -962,10 +962,20 @@ StaraptorMini::     INCBIN "gfx/minis/staraptor.2bpp.lz"
 StaraptorMiniMask:: INCBIN "gfx/minis/staraptor_mask.1bpp.lz"
 StaraptorIcon::     INCBIN "gfx/icons/staraptor.2bpp.lz"
 
-SECTION "Egg Mini Icon", ROMX
-EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
-EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
-EggIcon::     INCBIN "gfx/icons/egg.2bpp.lz"
+SECTION "Shinx Mini Icon", ROMX
+ShinxMini::     INCBIN "gfx/minis/shinx.2bpp.lz"
+ShinxMiniMask:: INCBIN "gfx/minis/shinx_mask.1bpp.lz"
+ShinxIcon::     INCBIN "gfx/icons/shinx.2bpp.lz"
+
+SECTION "Luxio Mini Icon", ROMX
+LuxioMini::     INCBIN "gfx/minis/luxio.2bpp.lz"
+LuxioMiniMask:: INCBIN "gfx/minis/luxio_mask.1bpp.lz"
+LuxioIcon::     INCBIN "gfx/icons/luxio.2bpp.lz"
+
+SECTION "Luxray Mini Icon", ROMX
+LuxrayMini::     INCBIN "gfx/minis/luxray.2bpp.lz"
+LuxrayMiniMask:: INCBIN "gfx/minis/luxray_mask.1bpp.lz"
+LuxrayIcon::     INCBIN "gfx/icons/luxray.2bpp.lz"
 
 SECTION "Mismagius Mini Icon", ROMX
 MismagiusMini::     INCBIN "gfx/minis/mismagius.2bpp.lz"
@@ -2121,3 +2131,8 @@ SECTION "MeloettaPirouette Mini Icon", ROMX
 MeloettaPirouetteMini::     INCBIN "gfx/minis/meloetta_pirouette.2bpp.lz"
 MeloettaPirouetteMiniMask:: INCBIN "gfx/minis/meloetta_pirouette_mask.1bpp.lz"
 MeloettaPirouetteIcon::     INCBIN "gfx/icons/meloetta_pirouette.2bpp.lz"
+
+SECTION "Egg Mini Icon", ROMX
+EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"
+EggMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
+EggIcon::     INCBIN "gfx/icons/egg.2bpp.lz"

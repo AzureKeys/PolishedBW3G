@@ -169,6 +169,8 @@ AlphabeticalPokedexOrder:
 	dp LOTAD
 	dp LUDICOLO
 	dp LUNATONE
+	dp LUXIO
+	dp LUXRAY
 	dp MAGBY
 	dp MAGMAR
 	dp MAGMORTAR
@@ -280,6 +282,7 @@ AlphabeticalPokedexOrder:
 	dp SHELGON
 	dp SHELMET
 	dp SHIFTRY
+	dp SHINX
 	dp SHROOMISH
 	dp SHUCKLE
 	dp SHUPPET

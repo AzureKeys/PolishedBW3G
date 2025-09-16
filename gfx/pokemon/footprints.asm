@@ -234,6 +234,9 @@ MetagrossFootprint::
 StarlyFootprint::
 StaraviaFootprint::
 StaraptorFootprint::
+ShinxFootprint::
+LuxioFootprint::
+LuxrayFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

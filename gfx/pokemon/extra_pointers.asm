@@ -191,6 +191,9 @@ AnimationExtraPointers:
 	dw StarlyAnimationExtra
 	dw StaraviaAnimationExtra
 	dw StaraptorAnimationExtra
+	dw ShinxAnimationExtra
+	dw LuxioAnimationExtra
+	dw LuxrayAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw GurdurrAnimationExtra
 	dw ConkeldurrAnimationExtra
 	dw TympoleAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw PalpitoadAnimationExtra
 	dw SeismitoadAnimationExtra
 	dw ThrohAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw SawkAnimationExtra
 	dw SewaddleAnimationExtra
 	dw SwadloonAnimationExtra

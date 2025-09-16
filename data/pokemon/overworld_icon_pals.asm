@@ -195,6 +195,9 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; STARLY
 	iconpal GRAY, BROWN ; STARAVIA
 	iconpal GRAY, BROWN ; STARAPTOR
+	iconpal BLUE, BROWN ; SHINX
+	iconpal BLUE, YELLOW ; LUXIO
+	iconpal BLUE, YELLOW ; LUXRAY
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -255,11 +258,11 @@ OverworldMonIconColors::
 	iconpal GRAY, BROWN ; GURDURR
 	iconpal BROWN, ORANGE ; CONKELDURR
 	iconpal BLUE, YELLOW ; TYMPOLE
+	iconpal RED, BLUE ; EGG
+	iconpal RED, BLUE ; $100
 	iconpal BLUE, TEAL ; PALPITOAD
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH
-	iconpal RED, BLUE ; EGG
-	iconpal RED, BLUE ; $100
 	iconpal BLUE, PURPLE ; SAWK
 	iconpal GREEN, TEAL ; SEWADDLE
 	iconpal GREEN, GRAY ; SWADLOON
