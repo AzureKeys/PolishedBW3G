@@ -200,6 +200,8 @@ AnimationPointers:
 	dw VespiquenAnimation
 	dw BuizelAnimation
 	dw FloatzelAnimation
+	dw DrifloonAnimation
+	dw DrifblimAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw BoldoreAnimation
 	dw GigalithAnimation
 	dw WoobatAnimation
-	dw SwoobatAnimation
-	dw DrilburAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw SwoobatAnimation
+	dw DrilburAnimation
 	dw ExcadrillAnimation
 	dw AudinoAnimation
 	dw TimburrAnimation

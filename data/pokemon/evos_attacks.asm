@@ -4128,6 +4128,47 @@ endc
 	learnset 65, HAIL
 	learnset 69, MEGAHORN ; LGPE move
 
+	evos_attacks Drifloon
+	evo_data EVOLVE_LEVEL, 28, DRIFBLIM
+	learnset 1, HEADBUTT
+	learnset 3, GROWL
+	learnset 7, WATER_GUN ; Water Sport → RBY TM move
+	learnset 11, ICY_WIND
+	learnset 13, ENCORE
+	learnset 17, ICE_SHARD
+	learnset 21, REST
+	learnset 23, SLEEP_TALK ; Aqua Ring → TM move
+	learnset 27, AURORA_BEAM
+	learnset 31, AQUA_JET
+	learnset 33, BUBBLE_BEAM ; Brine → RBY TM move
+	learnset 37, TAKE_DOWN
+	learnset 41, PERISH_SONG ; Dive →  new move
+	learnset 43, AQUA_TAIL
+	learnset 47, ICE_BEAM
+	learnset 51, SAFEGUARD
+	learnset 53, HAIL
+
+	evos_attacks Drifblim
+	learnset 1, ICICLE_SPEAR ; Sheer Cold → egg move ; evolution move
+	learnset 1, HEADBUTT
+	learnset 3, GROWL
+	learnset 7, WATER_GUN ; Signal Beam → RBY TM move
+	learnset 11, ICY_WIND
+	learnset 13, ENCORE
+	learnset 17, ICE_SHARD
+	learnset 21, REST
+	learnset 23, SLEEP_TALK ; Aqua Ring → TM move
+	learnset 27, AURORA_BEAM
+	learnset 31, AQUA_JET
+	learnset 33, BUBBLE_BEAM ; Brine → RBY TM move
+	learnset 39, TAKE_DOWN
+	learnset 45, PERISH_SONG ; Dive → new move
+	learnset 49, AQUA_TAIL
+	learnset 55, ICE_BEAM
+	learnset 61, SAFEGUARD
+	learnset 65, HAIL
+	learnset 69, MEGAHORN ; LGPE move
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

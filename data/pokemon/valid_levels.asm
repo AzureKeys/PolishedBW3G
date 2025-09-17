@@ -205,6 +205,8 @@ endc
 	db  21, 100 ; Vespiquen
 	db   1,  25 ; Buizel
 	db  26, 100 ; Floatzel
+	db   1,  27 ; Drifloon
+	db  28, 100 ; Drifblim
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -257,10 +259,10 @@ endc
 	db  25,  39 ; Boldore
 	db  40, 100 ; Gigalith
 	db   1,  22 ; Woobat
-	db  23, 100 ; Swoobat
-	db   1,  30 ; Drilbur
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  23, 100 ; Swoobat
+	db   1,  30 ; Drilbur
 	db  31, 100 ; Excadrill
 	db  20, 100 ; Audino
 	db   1,  24 ; Timburr

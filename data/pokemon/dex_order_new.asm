@@ -234,6 +234,8 @@ NewPokedexOrder:
 	dp VESPIQUEN
 	dp BUIZEL
 	dp FLOATZEL
+	dp DRIFLOON
+	dp DRIFBLIM
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

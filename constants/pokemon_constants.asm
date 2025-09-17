@@ -224,6 +224,8 @@
 	const VESPIQUEN  ; c6
 	const BUIZEL     ; c7
 	const FLOATZEL   ; c8
+	const DRIFLOON   ; c9
+	const DRIFBLIM   ; ca
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const BOLDORE    ; 112
 	const GIGALITH   ; 113
 	const WOOBAT     ; 114
-	const SWOOBAT    ; 115
-	const DRILBUR    ; 116
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const SWOOBAT    ; 115
+	const DRILBUR    ; 116
 	const EXCADRILL  ; 117
 	const AUDINO     ; 118
 	const TIMBURR    ; 119

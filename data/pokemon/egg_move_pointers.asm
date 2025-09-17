@@ -200,6 +200,8 @@ EggSpeciesMovesPointers::
 	dw CombeeEggSpeciesMoves            ; Vespiquen
 	dw BuizelEggSpeciesMoves            ; Buizel
 	dw BuizelEggSpeciesMoves            ; Floatzel
+	dw DrifloonEggSpeciesMoves          ; Drifloon
+	dw DrifloonEggSpeciesMoves          ; Drifblim
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw RoggenrolaEggSpeciesMoves        ; Boldore
 	dw RoggenrolaEggSpeciesMoves        ; Gigalith
 	dw WoobatEggSpeciesMoves            ; Woobat
-	dw WoobatEggSpeciesMoves            ; Swoobat
-	dw DrilburEggSpeciesMoves           ; Drilbur
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw WoobatEggSpeciesMoves            ; Swoobat
+	dw DrilburEggSpeciesMoves           ; Drilbur
 	dw DrilburEggSpeciesMoves           ; Excadrill
 	dw AudinoEggSpeciesMoves            ; Audino
 	dw TimburrEggSpeciesMoves           ; Timburr

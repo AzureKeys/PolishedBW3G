@@ -206,6 +206,8 @@ PokemonCries::
 	mon_cry CRY_PICHU,      -$047,  $266 ; VESPIQUEN*
 	mon_cry CRY_SEEL,        $088,  $140 ; BUIZEL*
 	mon_cry CRY_SEEL,        $023,  $17f ; FLOATZEL*
+	mon_cry CRY_RAICHU,     -$056,  $126 ; Drifloon
+	mon_cry CRY_DROWZEE,    -$21c,  $100 ; Drifblim
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $4bf,  $100 ; Boldore
 	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; Gigalith
 	mon_cry CRY_MANTINE,    -$03a,  $0ea ; Woobat
-	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
-	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat
+	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; Drilbur
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; Excadrill
 	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
 	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr

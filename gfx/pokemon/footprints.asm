@@ -243,6 +243,8 @@ CombeeFootprint::
 VespiquenFootprint::
 BuizelFootprint::
 FloatzelFootprint::
+DrifloonFootprint::
+DrifblimFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -69,6 +69,8 @@ AlphabeticalPokedexOrder:
 	dp DRAGONAIR
 	dp DRAGONITE
 	dp DRATINI
+	dp DRIFBLIM
+	dp DRIFLOON
 	dp DRILBUR
 	dp DRUDDIGON
 	dp DUCKLETT

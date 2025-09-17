@@ -895,6 +895,10 @@ BuizelEggSpeciesMoves:
 	dp BUIZEL, PLAIN_FORM
 	db $ff
 
+DrifloonEggSpeciesMoves:
+	dp DRIFLOON, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

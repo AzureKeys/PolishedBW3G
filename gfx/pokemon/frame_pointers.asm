@@ -200,6 +200,8 @@ FramesPointers:
 	dw VespiquenFrames
 	dw BuizelFrames
 	dw FloatzelFrames
+	dw DrifloonFrames
+	dw DrifblimFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw BoldoreFrames
 	dw GigalithFrames
 	dw WoobatFrames
-	dw SwoobatFrames
-	dw DrilburFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw SwoobatFrames
+	dw DrilburFrames
 	dw ExcadrillFrames
 	dw AudinoFrames
 	dw TimburrFrames

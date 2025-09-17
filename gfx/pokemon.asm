@@ -816,6 +816,14 @@ SECTION "Floatzel Pics", ROMX
 FloatzelFrontpic: INCBIN "gfx/pokemon/floatzel/front.animated.2bpp.lz"
 FloatzelBackpic:  INCBIN "gfx/pokemon/floatzel/back.2bpp.lz"
 
+SECTION "Drifloon Pics", ROMX
+DrifloonFrontpic: INCBIN "gfx/pokemon/drifloon/front.animated.2bpp.lz"
+DrifloonBackpic:  INCBIN "gfx/pokemon/drifloon/back.2bpp.lz"
+
+SECTION "Drifblim Pics", ROMX
+DrifblimFrontpic: INCBIN "gfx/pokemon/drifblim/front.animated.2bpp.lz"
+DrifblimBackpic:  INCBIN "gfx/pokemon/drifblim/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

@@ -1997,6 +1997,26 @@ FloatzelPokedexEntry::
 	next "back. It deflates"
 	next "before it dives.@"
 
+SECTION "DrifloonPokedexEntry", ROMX
+DrifloonPokedexEntry::
+	db "Balloon@"
+	db "Because of the way"
+	next "it floats aimless-"
+	next "ly, an old folk"
+	page "tale calls it a"
+	next "signpost for"
+	next "wandering spirits.@"
+
+SECTION "DrifblimPokedexEntry", ROMX
+DrifblimPokedexEntry::
+	db "Blimp@"
+	db "They carry people"
+	next "and #mon, but"
+	next "the wind can catch"
+	page "them, so there"
+	next "can't be a fixed"
+	next "destination.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

@@ -204,6 +204,8 @@ endc
 	db NO_MOVE      ; VESPIQUEN
 	db NO_MOVE      ; BUIZEL
 	db NO_MOVE      ; FLOATZEL
+	db NO_MOVE      ; DRIFLOON
+	db NO_MOVE      ; DRIFBLIM
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db POWER_GEM    ; BOLDORE
 	db NO_MOVE      ; GIGALITH
 	db NO_MOVE      ; WOOBAT
-	db NO_MOVE      ; SWOOBAT
-	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; SWOOBAT
+	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EXCADRILL
 	db NO_MOVE      ; AUDINO
 	db NO_MOVE      ; TIMBURR

@@ -7,7 +7,8 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for DRIFBLIM, AFTERMATH, UNBURDEN, FLARE_BOOST
+	;abilities_for DRIFBLIM, AFTERMATH, UNBURDEN, FLARE_BOOST
+	abilities_for DRIFBLIM, AFTERMATH, UNBURDEN, UNBURDEN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 

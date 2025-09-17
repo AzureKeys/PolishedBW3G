@@ -200,6 +200,8 @@ AnimationExtraPointers:
 	dw VespiquenAnimationExtra
 	dw BuizelAnimationExtra
 	dw FloatzelAnimationExtra
+	dw DrifloonAnimationExtra
+	dw DrifblimAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw BoldoreAnimationExtra
 	dw GigalithAnimationExtra
 	dw WoobatAnimationExtra
-	dw SwoobatAnimationExtra
-	dw DrilburAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw SwoobatAnimationExtra
+	dw DrilburAnimationExtra
 	dw ExcadrillAnimationExtra
 	dw AudinoAnimationExtra
 	dw TimburrAnimationExtra

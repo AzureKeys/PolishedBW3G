@@ -1007,6 +1007,16 @@ FloatzelMini::     INCBIN "gfx/minis/floatzel.2bpp.lz"
 FloatzelMiniMask:: INCBIN "gfx/minis/floatzel_mask.1bpp.lz"
 FloatzelIcon::     INCBIN "gfx/icons/floatzel.2bpp.lz"
 
+SECTION "Drifloon Mini Icon", ROMX
+DrifloonMini::     INCBIN "gfx/minis/drifloon.2bpp.lz"
+DrifloonMiniMask:: INCBIN "gfx/minis/drifloon_mask.1bpp.lz"
+DrifloonIcon::     INCBIN "gfx/icons/drifloon.2bpp.lz"
+
+SECTION "Drifblim Mini Icon", ROMX
+DrifblimMini::     INCBIN "gfx/minis/drifblim.2bpp.lz"
+DrifblimMiniMask:: INCBIN "gfx/minis/drifblim_mask.1bpp.lz"
+DrifblimIcon::     INCBIN "gfx/icons/drifblim.2bpp.lz"
+
 SECTION "Mismagius Mini Icon", ROMX
 MismagiusMini::     INCBIN "gfx/minis/mismagius.2bpp.lz"
 MismagiusMiniMask:: INCBIN "gfx/minis/mismagius_mask.1bpp.lz"

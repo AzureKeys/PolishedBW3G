@@ -204,6 +204,8 @@ OverworldMonIconColors::
 	iconpal BROWN, ORANGE ; VESPIQUEN
 	iconpal ORANGE, BROWN ; BUIZEL
 	iconpal ORANGE, BROWN ; FLOATZEL
+	iconpal PURPLE, BROWN ; DRIFLOON
+	iconpal PURPLE, BROWN ; DRIFBLIM
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal BLUE, PURPLE ; BOLDORE
 	iconpal BLUE, PURPLE ; GIGALITH
 	iconpal AZURE, GREEN ; WOOBAT
-	iconpal AZURE, ORANGE ; SWOOBAT
-	iconpal GRAY, RED ; DRILBUR
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal AZURE, ORANGE ; SWOOBAT
+	iconpal GRAY, RED ; DRILBUR
 	iconpal BROWN, RED ; EXCADRILL
 	iconpal PINK, PURPLE ; AUDINO
 	iconpal GRAY, BROWN ; TIMBURR
