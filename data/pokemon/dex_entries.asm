@@ -1977,6 +1977,26 @@ VespiquenPokedexEntry::
 	next "mones to control"
 	next "Combee.@"
 
+SECTION "BuizelPokedexEntry", ROMX
+BuizelPokedexEntry::
+	db "Sea Weasel@"
+	db "It inflates its"
+	next "floatation sac,"
+	next "keeping its face"
+	page "above water in"
+	next "order to watch for"
+	next "prey movement.@"
+
+SECTION "FloatzelPokedexEntry", ROMX
+FloatzelPokedexEntry::
+	db "Sea Weasel@"
+	db "With its floata-"
+	next "tion sac inflated,"
+	next "it can carry"
+	page "people on its"
+	next "back. It deflates"
+	next "before it dives.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

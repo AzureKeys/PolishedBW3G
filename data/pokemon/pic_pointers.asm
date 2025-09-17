@@ -202,6 +202,8 @@ PokemonPicPointers::
 	pics Roserade
 	pics CombeeFemale
 	pics Vespiquen
+	pics Buizel
+	pics Floatzel
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Woobat
 	pics Swoobat
 	pics Drilbur
-	pics Excadrill
-	pics Audino
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Excadrill
+	pics Audino
 	pics Timburr
 	pics Gurdurr
 	pics Conkeldurr

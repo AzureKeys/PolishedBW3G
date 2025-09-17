@@ -198,6 +198,8 @@ FootprintPointers::
 	dw RoseradeFootprint
 	dw CombeeFootprint
 	dw VespiquenFootprint
+	dw BuizelFootprint
+	dw FloatzelFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw WoobatFootprint
 	dw SwoobatFootprint
 	dw DrilburFootprint
-	dw ExcadrillFootprint
-	dw AudinoFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw ExcadrillFootprint
+	dw AudinoFootprint
 	dw TimburrFootprint
 	dw GurdurrFootprint
 	dw ConkeldurrFootprint

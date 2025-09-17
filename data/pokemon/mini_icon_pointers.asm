@@ -202,6 +202,8 @@ MiniIconPointers:
 	mini_icon Roserade
 	mini_icon Combee
 	mini_icon Vespiquen
+	mini_icon Buizel
+	mini_icon Floatzel
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Woobat
 	mini_icon Swoobat
 	mini_icon Drilbur
-	mini_icon Excadrill
-	mini_icon Audino
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Excadrill
+	mini_icon Audino
 	mini_icon Timburr
 	mini_icon Gurdurr
 	mini_icon Conkeldurr

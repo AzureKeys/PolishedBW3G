@@ -33,6 +33,7 @@ AlphabeticalPokedexOrder:
 	dp BRAVIARY
 	dp BRELOOM
 	dp BUDEW
+	dp BUIZEL
 	dp CAMERUPT
 	dp CARRACOSTA
 	dp CASTFORM
@@ -94,6 +95,7 @@ AlphabeticalPokedexOrder:
 	dp FERROTHORN
 	dp FLAAFFY
 	dp FLAREON
+	dp FLOATZEL
 	dp FLYGON
 	dp FOONGUS
 	dp FRAXURE

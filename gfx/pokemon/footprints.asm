@@ -241,6 +241,8 @@ BudewFootprint::
 RoseradeFootprint::
 CombeeFootprint::
 VespiquenFootprint::
+BuizelFootprint::
+FloatzelFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -891,6 +891,10 @@ CombeeEggSpeciesMoves:
 	dp COMBEE, NO_FORM
 	db $ff
 
+BuizelEggSpeciesMoves:
+	dp BUIZEL, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

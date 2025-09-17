@@ -222,6 +222,8 @@
 	const ROSERADE   ; c4
 	const COMBEE     ; c5
 	const VESPIQUEN  ; c6
+	const BUIZEL     ; c7
+	const FLOATZEL   ; c8
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const WOOBAT     ; 114
 	const SWOOBAT    ; 115
 	const DRILBUR    ; 116
-	const EXCADRILL  ; 117
-	const AUDINO     ; 118
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const EXCADRILL  ; 117
+	const AUDINO     ; 118
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
 	const CONKELDURR ; 11b

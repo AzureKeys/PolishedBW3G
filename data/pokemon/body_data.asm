@@ -205,6 +205,8 @@ PokemonBodyData:
 	body_data   9,  145, BIPEDAL,      GREEN  ; ROSERADE
 	body_data   3,   55, MULTIBODY,    YELLOW ; COMBEE
 	body_data  12,  385, MULTIWINGS,   YELLOW ; VESPIQUEN
+	body_data   7,  295, QUADRUPED,    BROWN  ; BUIZEL
+	body_data  11,  335, QUADRUPED,    BROWN  ; FLOATZEL
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   4,   21, WINGS,        BLUE   ; WOOBAT
 	body_data   9,  105, WINGS,        BLUE   ; SWOOBAT
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
-	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
-	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
+	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
 	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR

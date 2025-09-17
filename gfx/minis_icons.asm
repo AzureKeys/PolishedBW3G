@@ -997,6 +997,16 @@ VespiquenMini::     INCBIN "gfx/minis/vespiquen.2bpp.lz"
 VespiquenMiniMask:: INCBIN "gfx/minis/vespiquen_mask.1bpp.lz"
 VespiquenIcon::     INCBIN "gfx/icons/vespiquen.2bpp.lz"
 
+SECTION "Buizel Mini Icon", ROMX
+BuizelMini::     INCBIN "gfx/minis/buizel.2bpp.lz"
+BuizelMiniMask:: INCBIN "gfx/minis/buizel_mask.1bpp.lz"
+BuizelIcon::     INCBIN "gfx/icons/buizel.2bpp.lz"
+
+SECTION "Floatzel Mini Icon", ROMX
+FloatzelMini::     INCBIN "gfx/minis/floatzel.2bpp.lz"
+FloatzelMiniMask:: INCBIN "gfx/minis/floatzel_mask.1bpp.lz"
+FloatzelIcon::     INCBIN "gfx/icons/floatzel.2bpp.lz"
+
 SECTION "Mismagius Mini Icon", ROMX
 MismagiusMini::     INCBIN "gfx/minis/mismagius.2bpp.lz"
 MismagiusMiniMask:: INCBIN "gfx/minis/mismagius_mask.1bpp.lz"

@@ -198,6 +198,8 @@ FramesPointers:
 	dw RoseradeFrames
 	dw CombeeFemaleFrames
 	dw VespiquenFrames
+	dw BuizelFrames
+	dw FloatzelFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw WoobatFrames
 	dw SwoobatFrames
 	dw DrilburFrames
-	dw ExcadrillFrames
-	dw AudinoFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ExcadrillFrames
+	dw AudinoFrames
 	dw TimburrFrames
 	dw GurdurrFrames
 	dw ConkeldurrFrames

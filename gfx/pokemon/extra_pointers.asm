@@ -198,6 +198,8 @@ AnimationExtraPointers:
 	dw RoseradeAnimationExtra
 	dw CombeeFemaleAnimationExtra
 	dw VespiquenAnimationExtra
+	dw BuizelAnimationExtra
+	dw FloatzelAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw WoobatAnimationExtra
 	dw SwoobatAnimationExtra
 	dw DrilburAnimationExtra
-	dw ExcadrillAnimationExtra
-	dw AudinoAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw ExcadrillAnimationExtra
+	dw AudinoAnimationExtra
 	dw TimburrAnimationExtra
 	dw GurdurrAnimationExtra
 	dw ConkeldurrAnimationExtra

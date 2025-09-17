@@ -198,6 +198,8 @@ BitmasksPointers:
 	dw RoseradeBitmasks
 	dw CombeeFemaleBitmasks
 	dw VespiquenBitmasks
+	dw BuizelBitmasks
+	dw FloatzelBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw WoobatBitmasks
 	dw SwoobatBitmasks
 	dw DrilburBitmasks
-	dw ExcadrillBitmasks
-	dw AudinoBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw ExcadrillBitmasks
+	dw AudinoBitmasks
 	dw TimburrBitmasks
 	dw GurdurrBitmasks
 	dw ConkeldurrBitmasks

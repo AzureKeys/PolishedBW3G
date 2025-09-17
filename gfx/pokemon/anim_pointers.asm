@@ -198,6 +198,8 @@ AnimationPointers:
 	dw RoseradeAnimation
 	dw CombeeFemaleAnimation
 	dw VespiquenAnimation
+	dw BuizelAnimation
+	dw FloatzelAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw WoobatAnimation
 	dw SwoobatAnimation
 	dw DrilburAnimation
-	dw ExcadrillAnimation
-	dw AudinoAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ExcadrillAnimation
+	dw AudinoAnimation
 	dw TimburrAnimation
 	dw GurdurrAnimation
 	dw ConkeldurrAnimation

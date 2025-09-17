@@ -808,6 +808,14 @@ SECTION "Vespiquen Pics", ROMX
 VespiquenFrontpic: INCBIN "gfx/pokemon/vespiquen/front.animated.2bpp.lz"
 VespiquenBackpic:  INCBIN "gfx/pokemon/vespiquen/back.2bpp.lz"
 
+SECTION "Buizel Pics", ROMX
+BuizelFrontpic: INCBIN "gfx/pokemon/buizel/front.animated.2bpp.lz"
+BuizelBackpic:  INCBIN "gfx/pokemon/buizel/back.2bpp.lz"
+
+SECTION "Floatzel Pics", ROMX
+FloatzelFrontpic: INCBIN "gfx/pokemon/floatzel/front.animated.2bpp.lz"
+FloatzelBackpic:  INCBIN "gfx/pokemon/floatzel/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

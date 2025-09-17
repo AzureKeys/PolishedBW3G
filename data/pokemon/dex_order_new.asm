@@ -232,6 +232,8 @@ NewPokedexOrder:
 	dp ROSERADE
 	dp COMBEE
 	dp VESPIQUEN
+	dp BUIZEL
+	dp FLOATZEL
 	dp RATTATA
 	dp RATICATE
 	dp PICHU
