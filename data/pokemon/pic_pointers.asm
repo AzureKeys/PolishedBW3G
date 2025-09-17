@@ -206,6 +206,8 @@ PokemonPicPointers::
 	pics Floatzel
 	pics Drifloon
 	pics Drifblim
+	pics Buneary
+	pics Lopunny
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Zebstrika
 	pics Roggenrola
 	pics Boldore
-	pics Gigalith
-	pics Woobat
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Gigalith
+	pics Woobat
 	pics Swoobat
 	pics Drilbur
 	pics Excadrill

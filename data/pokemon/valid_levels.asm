@@ -207,6 +207,8 @@ endc
 	db  26, 100 ; Floatzel
 	db   1,  27 ; Drifloon
 	db  28, 100 ; Drifblim
+	db   1,  29 ; Buneary
+	db  30, 100 ; Lopunny
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -257,10 +259,10 @@ endc
 	db  27, 100 ; Zebstrika
 	db   1,  24 ; Roggenrola
 	db  25,  39 ; Boldore
-	db  40, 100 ; Gigalith
-	db   1,  22 ; Woobat
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  40, 100 ; Gigalith
+	db   1,  22 ; Woobat
 	db  23, 100 ; Swoobat
 	db   1,  30 ; Drilbur
 	db  31, 100 ; Excadrill

@@ -824,6 +824,14 @@ SECTION "Drifblim Pics", ROMX
 DrifblimFrontpic: INCBIN "gfx/pokemon/drifblim/front.animated.2bpp.lz"
 DrifblimBackpic:  INCBIN "gfx/pokemon/drifblim/back.2bpp.lz"
 
+SECTION "Buneary Pics", ROMX
+BunearyFrontpic: INCBIN "gfx/pokemon/buneary/front.animated.2bpp.lz"
+BunearyBackpic:  INCBIN "gfx/pokemon/buneary/back.2bpp.lz"
+
+SECTION "Lopunny Pics", ROMX
+LopunnyFrontpic: INCBIN "gfx/pokemon/lopunny/front.animated.2bpp.lz"
+LopunnyBackpic:  INCBIN "gfx/pokemon/lopunny/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

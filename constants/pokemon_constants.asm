@@ -226,6 +226,8 @@
 	const FLOATZEL   ; c8
 	const DRIFLOON   ; c9
 	const DRIFBLIM   ; ca
+	const BUNEARY    ; cb
+	const LOPUNNY    ; cc
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const ZEBSTRIKA  ; 110
 	const ROGGENROLA ; 111
 	const BOLDORE    ; 112
-	const GIGALITH   ; 113
-	const WOOBAT     ; 114
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const GIGALITH   ; 113
+	const WOOBAT     ; 114
 	const SWOOBAT    ; 115
 	const DRILBUR    ; 116
 	const EXCADRILL  ; 117

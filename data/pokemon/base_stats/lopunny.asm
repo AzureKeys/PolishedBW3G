@@ -7,7 +7,8 @@
 	db PECHA_BERRY, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for LOPUNNY, CUTE_CHARM, KLUTZ, LIMBER
+	;abilities_for LOPUNNY, CUTE_CHARM, KLUTZ, LIMBER
+	abilities_for LOPUNNY, CUTE_CHARM, CUTE_CHARM, LIMBER
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_GROUND ; egg groups
 

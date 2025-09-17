@@ -202,6 +202,8 @@ AnimationPointers:
 	dw FloatzelAnimation
 	dw DrifloonAnimation
 	dw DrifblimAnimation
+	dw BunearyAnimation
+	dw LopunnyAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw ZebstrikaAnimation
 	dw RoggenrolaAnimation
 	dw BoldoreAnimation
-	dw GigalithAnimation
-	dw WoobatAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw GigalithAnimation
+	dw WoobatAnimation
 	dw SwoobatAnimation
 	dw DrilburAnimation
 	dw ExcadrillAnimation

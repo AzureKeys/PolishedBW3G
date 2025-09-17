@@ -202,6 +202,8 @@ FootprintPointers::
 	dw FloatzelFootprint
 	dw DrifloonFootprint
 	dw DrifblimFootprint
+	dw BunearyFootprint
+	dw LopunnyFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw ZebstrikaFootprint
 	dw RoggenrolaFootprint
 	dw BoldoreFootprint
-	dw GigalithFootprint
-	dw WoobatFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw GigalithFootprint
+	dw WoobatFootprint
 	dw SwoobatFootprint
 	dw DrilburFootprint
 	dw ExcadrillFootprint

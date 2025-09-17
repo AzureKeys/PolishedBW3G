@@ -1017,6 +1017,16 @@ DrifblimMini::     INCBIN "gfx/minis/drifblim.2bpp.lz"
 DrifblimMiniMask:: INCBIN "gfx/minis/drifblim_mask.1bpp.lz"
 DrifblimIcon::     INCBIN "gfx/icons/drifblim.2bpp.lz"
 
+SECTION "Buneary Mini Icon", ROMX
+BunearyMini::     INCBIN "gfx/minis/buneary.2bpp.lz"
+BunearyMiniMask:: INCBIN "gfx/minis/buneary_mask.1bpp.lz"
+BunearyIcon::     INCBIN "gfx/icons/buneary.2bpp.lz"
+
+SECTION "Lopunny Mini Icon", ROMX
+LopunnyMini::     INCBIN "gfx/minis/lopunny.2bpp.lz"
+LopunnyMiniMask:: INCBIN "gfx/minis/lopunny_mask.1bpp.lz"
+LopunnyIcon::     INCBIN "gfx/icons/lopunny.2bpp.lz"
+
 SECTION "Mismagius Mini Icon", ROMX
 MismagiusMini::     INCBIN "gfx/minis/mismagius.2bpp.lz"
 MismagiusMiniMask:: INCBIN "gfx/minis/mismagius_mask.1bpp.lz"

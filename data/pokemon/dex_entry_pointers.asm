@@ -203,6 +203,8 @@ PokedexDataPointerTable:
 	dba FloatzelPokedexEntry
 	dba DrifloonPokedexEntry
 	dba DrifblimPokedexEntry
+	dba BunearyPokedexEntry
+	dba LopunnyPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba ZebstrikaPokedexEntry
 	dba RoggenrolaPokedexEntry
 	dba BoldorePokedexEntry
-	dba GigalithPokedexEntry
-	dba WoobatPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba GigalithPokedexEntry
+	dba WoobatPokedexEntry
 	dba SwoobatPokedexEntry
 	dba DrilburPokedexEntry
 	dba ExcadrillPokedexEntry

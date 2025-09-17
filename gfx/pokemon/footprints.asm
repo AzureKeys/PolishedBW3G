@@ -245,6 +245,8 @@ BuizelFootprint::
 FloatzelFootprint::
 DrifloonFootprint::
 DrifblimFootprint::
+BunearyFootprint::
+LopunnyFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

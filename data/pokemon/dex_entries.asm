@@ -2017,6 +2017,26 @@ DrifblimPokedexEntry::
 	next "can't be a fixed"
 	next "destination.@"
 
+SECTION "BunearyPokedexEntry", ROMX
+BunearyPokedexEntry::
+	db "Rabbit@"
+	db "When it senses"
+	next "danger, it perks"
+	next "up its ears. On"
+	page "cold nights, it"
+	next "sleeps with its"
+	next "head in its fur.@"
+
+SECTION "LopunnyPokedexEntry", ROMX
+LopunnyPokedexEntry::
+	db "Rabbit@"
+	db "It likes to keep"
+	next "itself clean and"
+	next "never fails to"
+	page "groom its ears."
+	next "It runs with"
+	next "sprightly jumps.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

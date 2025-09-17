@@ -236,6 +236,8 @@ NewPokedexOrder:
 	dp FLOATZEL
 	dp DRIFLOON
 	dp DRIFBLIM
+	dp BUNEARY
+	dp LOPUNNY
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

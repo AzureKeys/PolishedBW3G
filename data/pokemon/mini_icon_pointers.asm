@@ -206,6 +206,8 @@ MiniIconPointers:
 	mini_icon Floatzel
 	mini_icon Drifloon
 	mini_icon Drifblim
+	mini_icon Buneary
+	mini_icon Lopunny
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Zebstrika
 	mini_icon Roggenrola
 	mini_icon Boldore
-	mini_icon Gigalith
-	mini_icon Woobat
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Gigalith
+	mini_icon Woobat
 	mini_icon Swoobat
 	mini_icon Drilbur
 	mini_icon Excadrill

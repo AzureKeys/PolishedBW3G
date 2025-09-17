@@ -34,6 +34,7 @@ AlphabeticalPokedexOrder:
 	dp BRELOOM
 	dp BUDEW
 	dp BUIZEL
+	dp BUNEARY
 	dp CAMERUPT
 	dp CARRACOSTA
 	dp CASTFORM
@@ -172,6 +173,7 @@ AlphabeticalPokedexOrder:
 	dp LILLIPUP
 	dp LITWICK
 	dp LOMBRE
+	dp LOPUNNY
 	dp LOTAD
 	dp LUDICOLO
 	dp LUNATONE
