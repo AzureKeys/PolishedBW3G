@@ -198,6 +198,8 @@ EvosAttacksPointers::
 	dw ShinxEvosAttacks
 	dw LuxioEvosAttacks
 	dw LuxrayEvosAttacks
+	dw BudewEvosAttacks
+	dw RoseradeEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw AudinoEvosAttacks
 	dw TimburrEvosAttacks
 	dw GurdurrEvosAttacks
-	dw ConkeldurrEvosAttacks
-	dw TympoleEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw ConkeldurrEvosAttacks
+	dw TympoleEvosAttacks
 	dw PalpitoadEvosAttacks
 	dw SeismitoadEvosAttacks
 	dw ThrohEvosAttacks

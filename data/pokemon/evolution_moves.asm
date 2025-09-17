@@ -198,6 +198,8 @@ endc
 	db NO_MOVE      ; SHINX
 	db NO_MOVE      ; LUXIO
 	db NO_MOVE      ; LUXRAY
+	db NO_MOVE      ; BUDEW
+	db NO_MOVE      ; ROSERADE
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; AUDINO
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
-	db NO_MOVE      ; CONKELDURR
-	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; CONKELDURR
+	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
 	db ACID         ; SEISMITOAD
 	db NO_MOVE      ; THROH

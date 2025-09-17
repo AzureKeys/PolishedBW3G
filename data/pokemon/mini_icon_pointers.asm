@@ -198,6 +198,8 @@ MiniIconPointers:
 	mini_icon Shinx
 	mini_icon Luxio
 	mini_icon Luxray
+	mini_icon Budew
+	mini_icon Roserade
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Audino
 	mini_icon Timburr
 	mini_icon Gurdurr
-	mini_icon Conkeldurr
-	mini_icon Tympole
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Conkeldurr
+	mini_icon Tympole
 	mini_icon Palpitoad
 	mini_icon Seismitoad
 	mini_icon Throh

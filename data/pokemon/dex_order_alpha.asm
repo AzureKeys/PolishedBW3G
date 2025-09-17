@@ -32,6 +32,7 @@ AlphabeticalPokedexOrder:
 	dp BOUFFALANT
 	dp BRAVIARY
 	dp BRELOOM
+	dp BUDEW
 	dp CAMERUPT
 	dp CARRACOSTA
 	dp CASTFORM
@@ -255,6 +256,7 @@ AlphabeticalPokedexOrder:
 	dp REUNICLUS
 	dp ROGGENROLA
 	dp ROSELIA
+	dp ROSERADE
 	dp RUFFLET
 	dp RUNERIGUS
 	dp SABLEYE

@@ -194,6 +194,8 @@ FootprintPointers::
 	dw ShinxFootprint
 	dw LuxioFootprint
 	dw LuxrayFootprint
+	dw BudewFootprint
+	dw RoseradeFootprint
 	dw MismagiusFootprint
 	dw HonchkrowFootprint
 	dw BonslyFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw AudinoFootprint
 	dw TimburrFootprint
 	dw GurdurrFootprint
-	dw ConkeldurrFootprint
-	dw TympoleFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw ConkeldurrFootprint
+	dw TympoleFootprint
 	dw PalpitoadFootprint
 	dw SeismitoadFootprint
 	dw ThrohFootprint

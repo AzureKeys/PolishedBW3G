@@ -194,6 +194,8 @@ AnimationPointers:
 	dw ShinxAnimation
 	dw LuxioAnimation
 	dw LuxrayAnimation
+	dw BudewAnimation
+	dw RoseradeAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw AudinoAnimation
 	dw TimburrAnimation
 	dw GurdurrAnimation
-	dw ConkeldurrAnimation
-	dw TympoleAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ConkeldurrAnimation
+	dw TympoleAnimation
 	dw PalpitoadAnimation
 	dw SeismitoadAnimation
 	dw ThrohAnimation

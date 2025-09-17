@@ -201,6 +201,8 @@ PokemonBodyData:
 	body_data   5,   95, QUADRUPED,    BLUE   ; SHINX
 	body_data   9,  305, QUADRUPED,    BLUE   ; LUXIO
 	body_data  14,  420, QUADRUPED,    BLUE   ; LUXRAY
+	body_data   2,   12, BIPEDAL,      GREEN  ; BUDEW
+	body_data   9,  145, BIPEDAL,      GREEN  ; ROSERADE
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
 	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
 	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
-	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
-	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
+	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
 	body_data  15,  620, BIPEDAL,      BLUE   ; SEISMITOAD
 	body_data  13,  555, BIPEDAL,      RED    ; THROH

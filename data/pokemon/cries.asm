@@ -200,6 +200,8 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; SHINX*
 	mon_cry CRY_WEEDLE,      $040,  $090 ; LUXIO*
 	mon_cry CRY_SLOWKING,    $1e3,  $1e2 ; LUXRAY*
+	mon_cry CRY_VENONAT,     $09e,  $0cd ; Budew
+	mon_cry CRY_PICHU,      -$047,  $266 ; Roserade
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_MANTINE,    -$025,  $0d7 ; Audino
 	mon_cry CRY_FARFETCH_D, -$080,  $0ac ; Timburr
 	mon_cry CRY_AMPHAROS,   -$154,  $160 ; Gurdurr
-	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
-	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_AMPHAROS,   -$437,  $1e5 ; Conkeldurr
+	mon_cry CRY_SPINARAK,    $13c,  $160 ; Tympole
 	mon_cry CRY_MEDITITE,    $3a9,  $0e0 ; Palpitoad
 	mon_cry CRY_GLIGAR,     -$218,  $1a0 ; Seismitoad
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; Throh

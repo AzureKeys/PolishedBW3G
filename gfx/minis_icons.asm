@@ -977,6 +977,16 @@ LuxrayMini::     INCBIN "gfx/minis/luxray.2bpp.lz"
 LuxrayMiniMask:: INCBIN "gfx/minis/luxray_mask.1bpp.lz"
 LuxrayIcon::     INCBIN "gfx/icons/luxray.2bpp.lz"
 
+SECTION "Budew Mini Icon", ROMX
+BudewMini::     INCBIN "gfx/minis/budew.2bpp.lz"
+BudewMiniMask:: INCBIN "gfx/minis/budew_mask.1bpp.lz"
+BudewIcon::     INCBIN "gfx/icons/budew.2bpp.lz"
+
+SECTION "Roserade Mini Icon", ROMX
+RoseradeMini::     INCBIN "gfx/minis/roserade.2bpp.lz"
+RoseradeMiniMask:: INCBIN "gfx/minis/roserade_mask.1bpp.lz"
+RoseradeIcon::     INCBIN "gfx/icons/roserade.2bpp.lz"
+
 SECTION "Mismagius Mini Icon", ROMX
 MismagiusMini::     INCBIN "gfx/minis/mismagius.2bpp.lz"
 MismagiusMiniMask:: INCBIN "gfx/minis/mismagius_mask.1bpp.lz"

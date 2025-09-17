@@ -3192,7 +3192,7 @@ endc
 	learnset 53, COUNTER
 
 	evos_attacks Roselia
-	;evo_data EVOLVE_ITEM, SHINY_STONE, ROSERADE
+	evo_data EVOLVE_ITEM, LEAF_STONE, ROSERADE
 	learnset 1, ABSORB
 	learnset 4, GROWTH
 	learnset 7, POISON_STING
@@ -4008,6 +4008,45 @@ endc
 	learnset 55, FACADE
 	; Skipped Tailwind
 	learnset 60, BRAVE_BIRD ; Sky Attack
+
+	evos_attacks Budew
+	evo_data EVOLVE_HAPPINESS, TR_MORNDAY, ROSELIA
+	learnset 1, ABSORB
+	learnset 4, GROWTH
+	learnset 7, POISON_STING
+	learnset 10, STUN_SPORE
+	learnset 13, MEGA_DRAIN
+	learnset 16, LEECH_SEED
+	;learnset 19, MAGICAL_LEAF
+	learnset 22, SING ; GrassWhistle
+	learnset 25, GIGA_DRAIN
+	learnset 28, TOXIC_SPIKES
+	;learnset 31, SWEET_SCENT
+	learnset 34, VENOSHOCK ; Ingrain
+	;learnset 37, PETAL_BLIZZARD
+	learnset 40, TOXIC
+	; Skipped Aromatherapy
+	learnset 43, HEALINGLIGHT ; Synthesis
+	learnset 46, PETAL_DANCE
+
+	evos_attacks Roserade
+	learnset 1, ABSORB
+	learnset 4, GROWTH
+	learnset 7, POISON_STING
+	learnset 10, STUN_SPORE
+	learnset 13, MEGA_DRAIN
+	learnset 16, LEECH_SEED
+	;learnset 19, MAGICAL_LEAF
+	learnset 22, SING ; GrassWhistle
+	learnset 25, GIGA_DRAIN
+	learnset 28, TOXIC_SPIKES
+	;learnset 31, SWEET_SCENT
+	learnset 34, VENOSHOCK ; Ingrain
+	;learnset 37, PETAL_BLIZZARD
+	learnset 40, TOXIC
+	; Skipped Aromatherapy
+	learnset 43, HEALINGLIGHT ; Synthesis
+	learnset 46, PETAL_DANCE
 
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM

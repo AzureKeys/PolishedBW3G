@@ -790,6 +790,14 @@ SECTION "Luxray Pics", ROMX
 LuxrayFrontpic: INCBIN "gfx/pokemon/luxray/front.animated.2bpp.lz"
 LuxrayBackpic:  INCBIN "gfx/pokemon/luxray/back.2bpp.lz"
 
+SECTION "Budew Pics", ROMX
+BudewFrontpic: INCBIN "gfx/pokemon/budew/front.animated.2bpp.lz"
+BudewBackpic:  INCBIN "gfx/pokemon/budew/back.2bpp.lz"
+
+SECTION "Roserade Pics", ROMX
+RoseradeFrontpic: INCBIN "gfx/pokemon/roserade/front.animated.2bpp.lz"
+RoseradeBackpic:  INCBIN "gfx/pokemon/roserade/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

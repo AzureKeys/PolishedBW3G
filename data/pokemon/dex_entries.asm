@@ -1937,6 +1937,26 @@ LuxrayPokedexEntry::
 	page "prey and seek its"
 	next "lost young.@"
 
+SECTION "BudewPokedexEntry", ROMX
+BudewPokedexEntry::
+	db "Bud@"
+	db "Over the winter,"
+	next "it closes its bud"
+	next "and endures the"
+	page "cold. In spring,"
+	next "the bud opens and"
+	next "releases pollen.@"
+
+SECTION "RoseradePokedexEntry", ROMX
+RoseradePokedexEntry::
+	db "Bouquet@"
+	db "With the movements"
+	next "of a dancer, it"
+	next "strikes with whips"
+	page "that are densely"
+	next "lined with poison"
+	next "thorns.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

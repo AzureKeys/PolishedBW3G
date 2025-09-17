@@ -218,6 +218,8 @@
 	const SHINX      ; c0
 	const LUXIO      ; c1
 	const LUXRAY     ; c2
+	const BUDEW      ; c3
+	const ROSERADE   ; c4
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const AUDINO     ; 118
 	const TIMBURR    ; 119
 	const GURDURR    ; 11a
-	const CONKELDURR ; 11b
-	const TYMPOLE    ; 11c
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const CONKELDURR ; 11b
+	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
 	const SEISMITOAD ; 11e
 	const THROH      ; 11f

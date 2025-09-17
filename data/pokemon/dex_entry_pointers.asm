@@ -194,6 +194,8 @@ PokedexDataPointerTable:
 	dba ShinxPokedexEntry
 	dba LuxioPokedexEntry
 	dba LuxrayPokedexEntry
+	dba BudewPokedexEntry
+	dba RoseradePokedexEntry
 	dba StaraptorPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba AudinoPokedexEntry
 	dba TimburrPokedexEntry
 	dba GurdurrPokedexEntry
-	dba ConkeldurrPokedexEntry
-	dba TympolePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba ConkeldurrPokedexEntry
+	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
 	dba SeismitoadPokedexEntry
 	dba ThrohPokedexEntry

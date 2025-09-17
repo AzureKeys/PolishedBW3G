@@ -194,6 +194,8 @@ BitmasksPointers:
 	dw ShinxBitmasks
 	dw LuxioBitmasks
 	dw LuxrayBitmasks
+	dw BudewBitmasks
+	dw RoseradeBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw AudinoBitmasks
 	dw TimburrBitmasks
 	dw GurdurrBitmasks
-	dw ConkeldurrBitmasks
-	dw TympoleBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw ConkeldurrBitmasks
+	dw TympoleBitmasks
 	dw PalpitoadBitmasks
 	dw SeismitoadBitmasks
 	dw ThrohBitmasks

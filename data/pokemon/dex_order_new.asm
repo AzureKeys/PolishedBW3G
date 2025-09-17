@@ -228,6 +228,8 @@ NewPokedexOrder:
 	dp SHINX
 	dp LUXIO
 	dp LUXRAY
+	dp BUDEW
+	dp ROSERADE
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

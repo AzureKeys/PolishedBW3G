@@ -194,6 +194,8 @@ FramesPointers:
 	dw ShinxFrames
 	dw LuxioFrames
 	dw LuxrayFrames
+	dw BudewFrames
+	dw RoseradeFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw AudinoFrames
 	dw TimburrFrames
 	dw GurdurrFrames
-	dw ConkeldurrFrames
-	dw TympoleFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ConkeldurrFrames
+	dw TympoleFrames
 	dw PalpitoadFrames
 	dw SeismitoadFrames
 	dw ThrohFrames

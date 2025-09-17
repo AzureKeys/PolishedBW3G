@@ -237,6 +237,8 @@ StaraptorFootprint::
 ShinxFootprint::
 LuxioFootprint::
 LuxrayFootprint::
+BudewFootprint::
+RoseradeFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

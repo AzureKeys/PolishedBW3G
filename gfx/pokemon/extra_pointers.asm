@@ -194,6 +194,8 @@ AnimationExtraPointers:
 	dw ShinxAnimationExtra
 	dw LuxioAnimationExtra
 	dw LuxrayAnimationExtra
+	dw BudewAnimationExtra
+	dw RoseradeAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw AudinoAnimationExtra
 	dw TimburrAnimationExtra
 	dw GurdurrAnimationExtra
-	dw ConkeldurrAnimationExtra
-	dw TympoleAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw ConkeldurrAnimationExtra
+	dw TympoleAnimationExtra
 	dw PalpitoadAnimationExtra
 	dw SeismitoadAnimationExtra
 	dw ThrohAnimationExtra

@@ -198,6 +198,8 @@ OverworldMonIconColors::
 	iconpal BLUE, BROWN ; SHINX
 	iconpal BLUE, YELLOW ; LUXIO
 	iconpal BLUE, YELLOW ; LUXRAY
+	iconpal GREEN, PURPLE ; BUDEW
+	iconpal GREEN, YELLOW ; ROSERADE
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
 	iconpal GREEN, RED ; BONSLY
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; AUDINO
 	iconpal GRAY, BROWN ; TIMBURR
 	iconpal GRAY, BROWN ; GURDURR
-	iconpal BROWN, ORANGE ; CONKELDURR
-	iconpal BLUE, YELLOW ; TYMPOLE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal BROWN, ORANGE ; CONKELDURR
+	iconpal BLUE, YELLOW ; TYMPOLE
 	iconpal BLUE, TEAL ; PALPITOAD
 	iconpal BLUE, TEAL ; SEISMITOAD
 	iconpal RED, ORANGE ; THROH

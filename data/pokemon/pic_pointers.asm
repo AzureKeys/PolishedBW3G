@@ -198,6 +198,8 @@ PokemonPicPointers::
 	pics Shinx
 	pics Luxio
 	pics Luxray
+	pics Budew
+	pics Roserade
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Audino
 	pics Timburr
 	pics Gurdurr
-	pics Conkeldurr
-	pics Tympole
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Conkeldurr
+	pics Tympole
 	pics Palpitoad
 	pics Seismitoad
 	pics Throh
