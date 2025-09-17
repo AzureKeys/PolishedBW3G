@@ -200,6 +200,8 @@ MiniIconPointers:
 	mini_icon Luxray
 	mini_icon Budew
 	mini_icon Roserade
+	mini_icon Combee
+	mini_icon Vespiquen
 	mini_icon Mismagius
 	mini_icon Honchkrow
 	mini_icon Bonsly
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Drilbur
 	mini_icon Excadrill
 	mini_icon Audino
-	mini_icon Timburr
-	mini_icon Gurdurr
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Timburr
+	mini_icon Gurdurr
 	mini_icon Conkeldurr
 	mini_icon Tympole
 	mini_icon Palpitoad
@@ -435,6 +437,8 @@ MiniIconPointers:
 	mini_icon CastformSun
 	mini_icon CastformRain
 	mini_icon CastformHail
+
+	mini_icon Combee
 
 	mini_icon UnfezantFemale
 	

@@ -230,6 +230,8 @@ NewPokedexOrder:
 	dp LUXRAY
 	dp BUDEW
 	dp ROSERADE
+	dp COMBEE
+	dp VESPIQUEN
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

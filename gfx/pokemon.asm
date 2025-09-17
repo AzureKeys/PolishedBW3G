@@ -798,6 +798,16 @@ SECTION "Roserade Pics", ROMX
 RoseradeFrontpic: INCBIN "gfx/pokemon/roserade/front.animated.2bpp.lz"
 RoseradeBackpic:  INCBIN "gfx/pokemon/roserade/back.2bpp.lz"
 
+SECTION "Combee Pics", ROMX
+CombeeMaleFrontpic: INCBIN "gfx/pokemon/combee_male/front.animated.2bpp.lz"
+CombeeFemaleFrontpic: INCBIN "gfx/pokemon/combee_female/front.animated.2bpp.lz"
+CombeeMaleBackpic:
+CombeeFemaleBackpic:  INCBIN "gfx/pokemon/combee_female/back.2bpp.lz"
+
+SECTION "Vespiquen Pics", ROMX
+VespiquenFrontpic: INCBIN "gfx/pokemon/vespiquen/front.animated.2bpp.lz"
+VespiquenBackpic:  INCBIN "gfx/pokemon/vespiquen/back.2bpp.lz"
+
 SECTION "Mismagius Pics", ROMX
 MismagiusFrontpic: INCBIN "gfx/pokemon/mismagius/front.animated.2bpp.lz"
 MismagiusBackpic:  INCBIN "gfx/pokemon/mismagius/back.2bpp.lz"

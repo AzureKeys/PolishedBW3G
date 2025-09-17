@@ -200,6 +200,8 @@ PokemonPicPointers::
 	pics Luxray
 	pics Budew
 	pics Roserade
+	pics CombeeFemale
+	pics Vespiquen
 	pics Mismagius
 	pics Honchkrow
 	pics Bonsly
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Drilbur
 	pics Excadrill
 	pics Audino
-	pics Timburr
-	pics Gurdurr
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Timburr
+	pics Gurdurr
 	pics Conkeldurr
 	pics Tympole
 	pics Palpitoad
@@ -435,6 +437,8 @@ PokemonPicPointers::
 	pics CastformSun
 	pics CastformRain
 	pics CastformHail
+	
+	pics CombeeMale
 	
 	pics UnfezantFemale
 	

@@ -4048,6 +4048,45 @@ endc
 	learnset 43, HEALINGLIGHT ; Synthesis
 	learnset 46, PETAL_DANCE
 
+	evos_attacks Combee
+	evo_data EVOLVE_LEVEL, 21, VESPIQUEN, COMBEE_FEMALE_FORM
+	learnset 1, ABSORB
+	learnset 4, GROWTH
+	learnset 7, POISON_STING
+	learnset 10, STUN_SPORE
+	learnset 13, MEGA_DRAIN
+	learnset 16, LEECH_SEED
+	;learnset 19, MAGICAL_LEAF
+	learnset 22, SING ; GrassWhistle
+	learnset 25, GIGA_DRAIN
+	learnset 28, TOXIC_SPIKES
+	;learnset 31, SWEET_SCENT
+	learnset 34, VENOSHOCK ; Ingrain
+	;learnset 37, PETAL_BLIZZARD
+	learnset 40, TOXIC
+	; Skipped Aromatherapy
+	learnset 43, HEALINGLIGHT ; Synthesis
+	learnset 46, PETAL_DANCE
+
+	evos_attacks Vespiquen
+	learnset 1, ABSORB
+	learnset 4, GROWTH
+	learnset 7, POISON_STING
+	learnset 10, STUN_SPORE
+	learnset 13, MEGA_DRAIN
+	learnset 16, LEECH_SEED
+	;learnset 19, MAGICAL_LEAF
+	learnset 22, SING ; GrassWhistle
+	learnset 25, GIGA_DRAIN
+	learnset 28, TOXIC_SPIKES
+	;learnset 31, SWEET_SCENT
+	learnset 34, VENOSHOCK ; Ingrain
+	;learnset 37, PETAL_BLIZZARD
+	learnset 40, TOXIC
+	; Skipped Aromatherapy
+	learnset 43, HEALINGLIGHT ; Synthesis
+	learnset 46, PETAL_DANCE
+
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
 	learnset 1, SHADOW_BALL ; Phantom Force → TM move

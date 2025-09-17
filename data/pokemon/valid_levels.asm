@@ -201,6 +201,8 @@ endc
 	db  30, 100 ; Luxray
 	db   1,  19 ; Budew
 	db  35, 100 ; Roserade
+	db   1,  20 ; Combee
+	db  21, 100 ; Vespiquen
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
@@ -257,10 +259,10 @@ endc
 	db   1,  30 ; Drilbur
 	db  31, 100 ; Excadrill
 	db  20, 100 ; Audino
-	db   1,  24 ; Timburr
-	db  25,  39 ; Gurdurr
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  24 ; Timburr
+	db  25,  39 ; Gurdurr
 	db  40, 100 ; Conkeldurr
 	db   1,  24 ; Tympole
 	db  25,  35 ; Palpitoad

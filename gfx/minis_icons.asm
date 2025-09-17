@@ -987,6 +987,16 @@ RoseradeMini::     INCBIN "gfx/minis/roserade.2bpp.lz"
 RoseradeMiniMask:: INCBIN "gfx/minis/roserade_mask.1bpp.lz"
 RoseradeIcon::     INCBIN "gfx/icons/roserade.2bpp.lz"
 
+SECTION "Combee Mini Icon", ROMX
+CombeeMini::     INCBIN "gfx/minis/combee.2bpp.lz"
+CombeeMiniMask:: INCBIN "gfx/minis/combee_mask.1bpp.lz"
+CombeeIcon::     INCBIN "gfx/icons/combee.2bpp.lz"
+
+SECTION "Vespiquen Mini Icon", ROMX
+VespiquenMini::     INCBIN "gfx/minis/vespiquen.2bpp.lz"
+VespiquenMiniMask:: INCBIN "gfx/minis/vespiquen_mask.1bpp.lz"
+VespiquenIcon::     INCBIN "gfx/icons/vespiquen.2bpp.lz"
+
 SECTION "Mismagius Mini Icon", ROMX
 MismagiusMini::     INCBIN "gfx/minis/mismagius.2bpp.lz"
 MismagiusMiniMask:: INCBIN "gfx/minis/mismagius_mask.1bpp.lz"

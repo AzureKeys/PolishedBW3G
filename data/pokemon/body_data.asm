@@ -203,6 +203,8 @@ PokemonBodyData:
 	body_data  14,  420, QUADRUPED,    BLUE   ; LUXRAY
 	body_data   2,   12, BIPEDAL,      GREEN  ; BUDEW
 	body_data   9,  145, BIPEDAL,      GREEN  ; ROSERADE
+	body_data   3,   55, MULTIBODY,    YELLOW ; COMBEE
+	body_data  12,  385, MULTIWINGS,   YELLOW ; VESPIQUEN
 	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   3,   85, BIPEDAL_TAIL, GRAY   ; DRILBUR
 	body_data   7,  404, BIPEDAL,      GRAY   ; EXCADRILL
 	body_data  11,  310, BIPEDAL_TAIL, PINK   ; AUDINO
-	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
-	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   6,  125, BIPEDAL,      GRAY   ; TIMBURR
+	body_data  12,  400, BIPEDAL,      GRAY   ; GURDURR
 	body_data  14,  870, BIPEDAL,      BROWN  ; CONKELDURR
 	body_data   5,   45, FINS,         BLUE   ; TYMPOLE
 	body_data   8,  170, BIPEDAL_TAIL, BLUE   ; PALPITOAD
@@ -428,6 +430,8 @@ PokemonBodyData:
 	body_data   3,    8, HEAD,         RED    ; CASTFORM (CASTFORM_SUN_FORM)
 	body_data   3,    8, HEAD,         BLUE   ; CASTFORM (CASTFORM_RAIN_FORM)
 	body_data   3,    8, HEAD,         WHITE  ; CASTFORM (CASTFORM_HAIL_FORM)
+	
+	body_data   3,   55, MULTIBODY,    YELLOW ; COMBEE (COMBEE_MALE_FORM)
 	
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT (UNFEZANT_FEMALE_FORM)
 	

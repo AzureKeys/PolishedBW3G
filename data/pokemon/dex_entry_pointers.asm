@@ -196,6 +196,8 @@ PokedexDataPointerTable:
 	dba LuxrayPokedexEntry
 	dba BudewPokedexEntry
 	dba RoseradePokedexEntry
+	dba CombeePokedexEntry
+	dba VespiquenPokedexEntry
 	dba StaraptorPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba DrilburPokedexEntry
 	dba ExcadrillPokedexEntry
 	dba AudinoPokedexEntry
-	dba TimburrPokedexEntry
-	dba GurdurrPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba TimburrPokedexEntry
+	dba GurdurrPokedexEntry
 	dba ConkeldurrPokedexEntry
 	dba TympolePokedexEntry
 	dba PalpitoadPokedexEntry
@@ -422,6 +424,8 @@ PokedexDataPointerTable:
 	dba CastformPokedexEntry
 	dba CastformPokedexEntry
 	dba CastformPokedexEntry
+	
+	dba CombeePokedexEntry
 	
 	dba UnfezantPokedexEntry
 	

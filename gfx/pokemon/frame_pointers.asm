@@ -196,6 +196,8 @@ FramesPointers:
 	dw LuxrayFrames
 	dw BudewFrames
 	dw RoseradeFrames
+	dw CombeeFemaleFrames
+	dw VespiquenFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
 	dw BonslyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw DrilburFrames
 	dw ExcadrillFrames
 	dw AudinoFrames
-	dw TimburrFrames
-	dw GurdurrFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw TimburrFrames
+	dw GurdurrFrames
 	dw ConkeldurrFrames
 	dw TympoleFrames
 	dw PalpitoadFrames
@@ -431,6 +433,8 @@ FramesPointers:
 	dw CastformSunFrames
 	dw CastformRainFrames
 	dw CastformHailFrames
+	
+	dw CombeeMaleFrames
 	
 	dw UnfezantFemaleFrames
 	

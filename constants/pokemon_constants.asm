@@ -220,6 +220,8 @@
 	const LUXRAY     ; c2
 	const BUDEW      ; c3
 	const ROSERADE   ; c4
+	const COMBEE     ; c5
+	const VESPIQUEN  ; c6
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
 	const BONSLY     ; d1
@@ -276,10 +278,10 @@
 	const DRILBUR    ; 116
 	const EXCADRILL  ; 117
 	const AUDINO     ; 118
-	const TIMBURR    ; 119
-	const GURDURR    ; 11a
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const TIMBURR    ; 119
+	const GURDURR    ; 11a
 	const CONKELDURR ; 11b
 	const TYMPOLE    ; 11c
 	const PALPITOAD  ; 11d
@@ -506,6 +508,10 @@ DEF PALDEAN_FORM EQU 5
 	ext_const CASTFORM_SUN_FORM  ; 15d (2)
 	ext_const CASTFORM_RAIN_FORM ; 15d (3)
 	ext_const CASTFORM_HAIL_FORM ; 15d (4)
+
+; combee
+	ext_const_def 1, COMBEE_FEMALE_FORM ; (1)
+	ext_const COMBEE_MALE_FORM      ; 13f (2)
 
 ; unfezant
 	ext_const_def 1, UNFEZANT_MALE_FORM ; (1)

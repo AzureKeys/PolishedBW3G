@@ -1957,6 +1957,26 @@ RoseradePokedexEntry::
 	next "lined with poison"
 	next "thorns.@"
 
+SECTION "CombeePokedexEntry", ROMX
+CombeePokedexEntry::
+	db "Tiny Bee@"
+	db "At night, Combee"
+	next "sleep in a group"
+	next "of around 100,"
+	page "packed closely"
+	next "together in a"
+	next "lump.@"
+
+SECTION "VespiquenPokedexEntry", ROMX
+VespiquenPokedexEntry::
+	db "Beehive@"
+	db "It raises grubs"
+	next "inside the holes"
+	next "in its body. It"
+	page "secretes phero-"
+	next "mones to control"
+	next "Combee.@"
+
 SECTION "MismagiusPokedexEntry", ROMX
 MismagiusPokedexEntry::
 	db "Magical@"

@@ -200,6 +200,8 @@ EvosAttacksPointers::
 	dw LuxrayEvosAttacks
 	dw BudewEvosAttacks
 	dw RoseradeEvosAttacks
+	dw CombeeEvosAttacks
+	dw VespiquenEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw DrilburEvosAttacks
 	dw ExcadrillEvosAttacks
 	dw AudinoEvosAttacks
-	dw TimburrEvosAttacks
-	dw GurdurrEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw TimburrEvosAttacks
+	dw GurdurrEvosAttacks
 	dw ConkeldurrEvosAttacks
 	dw TympoleEvosAttacks
 	dw PalpitoadEvosAttacks
@@ -425,6 +427,8 @@ EvosAttacksPointers::
 	dw CastformEvosAttacks
 	dw CastformEvosAttacks
 	dw CastformEvosAttacks
+	
+	dw CombeeEvosAttacks
 	
 	dw UnfezantEvosAttacks
 	

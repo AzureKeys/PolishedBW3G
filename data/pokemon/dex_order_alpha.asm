@@ -45,6 +45,7 @@ AlphabeticalPokedexOrder:
 	dp CLEFFA
 	dp COBALION
 	dp COFAGRIGUS
+	dp COMBEE
 	dp CONKELDURR
 	dp CORPHISH
 	dp CORSOLA
@@ -353,6 +354,7 @@ AlphabeticalPokedexOrder:
 	dp VANILLUXE
 	dp VAPOREON
 	dp VENIPEDE
+	dp VESPIQUEN
 	dp VIBRAVA
 	dp VICTINI
 	dp VIGOROTH

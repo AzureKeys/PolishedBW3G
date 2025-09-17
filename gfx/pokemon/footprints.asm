@@ -239,6 +239,8 @@ LuxioFootprint::
 LuxrayFootprint::
 BudewFootprint::
 RoseradeFootprint::
+CombeeFootprint::
+VespiquenFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

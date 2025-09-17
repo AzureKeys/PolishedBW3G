@@ -231,6 +231,8 @@ INCLUDE "data/pokemon/base_stats/luxio.asm"
 INCLUDE "data/pokemon/base_stats/luxray.asm"
 INCLUDE "data/pokemon/base_stats/budew.asm"
 INCLUDE "data/pokemon/base_stats/roserade.asm"
+INCLUDE "data/pokemon/base_stats/combee.asm"
+INCLUDE "data/pokemon/base_stats/vespiquen.asm"
 INCLUDE "data/pokemon/base_stats/mismagius.asm"
 INCLUDE "data/pokemon/base_stats/honchkrow.asm"
 INCLUDE "data/pokemon/base_stats/bonsly.asm"
@@ -287,10 +289,10 @@ INCLUDE "data/pokemon/base_stats/swoobat.asm"
 INCLUDE "data/pokemon/base_stats/drilbur.asm"
 INCLUDE "data/pokemon/base_stats/excadrill.asm"
 INCLUDE "data/pokemon/base_stats/audino.asm"
-INCLUDE "data/pokemon/base_stats/timburr.asm"
-INCLUDE "data/pokemon/base_stats/gurdurr.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm"
 INCLUDE "data/pokemon/base_stats/egg.asm" ; 100
+INCLUDE "data/pokemon/base_stats/timburr.asm"
+INCLUDE "data/pokemon/base_stats/gurdurr.asm"
 INCLUDE "data/pokemon/base_stats/conkeldurr.asm"
 INCLUDE "data/pokemon/base_stats/tympole.asm"
 INCLUDE "data/pokemon/base_stats/palpitoad.asm"
@@ -456,6 +458,8 @@ INCLUDE "data/pokemon/base_stats/sneasel_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/castform_sun.asm"
 INCLUDE "data/pokemon/base_stats/castform_rain.asm"
 INCLUDE "data/pokemon/base_stats/castform_hail.asm"
+
+INCLUDE "data/pokemon/base_stats/combee.asm" ; male
 
 INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
 

@@ -196,6 +196,8 @@ AnimationPointers:
 	dw LuxrayAnimation
 	dw BudewAnimation
 	dw RoseradeAnimation
+	dw CombeeFemaleAnimation
+	dw VespiquenAnimation
 	dw MismagiusAnimation
 	dw HonchkrowAnimation
 	dw BonslyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw DrilburAnimation
 	dw ExcadrillAnimation
 	dw AudinoAnimation
-	dw TimburrAnimation
-	dw GurdurrAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw TimburrAnimation
+	dw GurdurrAnimation
 	dw ConkeldurrAnimation
 	dw TympoleAnimation
 	dw PalpitoadAnimation
@@ -431,6 +433,8 @@ AnimationPointers:
 	dw CastformSunAnimation
 	dw CastformRainAnimation
 	dw CastformHailAnimation
+	
+	dw CombeeMaleAnimation
 	
 	dw UnfezantFemaleAnimation
 	

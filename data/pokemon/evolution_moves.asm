@@ -200,6 +200,8 @@ endc
 	db NO_MOVE      ; LUXRAY
 	db NO_MOVE      ; BUDEW
 	db NO_MOVE      ; ROSERADE
+	db NO_MOVE      ; COMBEE
+	db NO_MOVE      ; VESPIQUEN
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; DRILBUR
 	db NO_MOVE      ; EXCADRILL
 	db NO_MOVE      ; AUDINO
-	db NO_MOVE      ; TIMBURR
-	db NO_MOVE      ; GURDURR
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; TIMBURR
+	db NO_MOVE      ; GURDURR
 	db NO_MOVE      ; CONKELDURR
 	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
@@ -425,6 +427,8 @@ endc
 	db NO_MOVE      ; CASTFORM, CASTFORM_SUN_FORM
 	db NO_MOVE      ; CASTFORM, CASTFORM_RAIN_FORM
 	db NO_MOVE      ; CASTFORM, CASTFORM_HAIL_FORM
+	
+	db NO_MOVE      ; COMBEE, COMBEE_MALE_FORM
 	
 	db NO_MOVE      ; UNFEZANT, UNFEZANT_FEMALE_FORM
 	

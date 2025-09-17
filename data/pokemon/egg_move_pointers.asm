@@ -196,6 +196,8 @@ EggSpeciesMovesPointers::
 	dw ShinxEggSpeciesMoves             ; Luxray
 	dw BudewEggSpeciesMoves             ; Budew
 	dw BudewEggSpeciesMoves             ; Roserade
+	dw CombeeEggSpeciesMoves            ; Combee
+	dw CombeeEggSpeciesMoves            ; Vespiquen
 	dw MisdreavusEggSpeciesMoves        ; Mismagius
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw DrilburEggSpeciesMoves           ; Drilbur
 	dw DrilburEggSpeciesMoves           ; Excadrill
 	dw AudinoEggSpeciesMoves            ; Audino
-	dw TimburrEggSpeciesMoves           ; Timburr
-	dw TimburrEggSpeciesMoves           ; Gurdurr
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw TimburrEggSpeciesMoves           ; Timburr
+	dw TimburrEggSpeciesMoves           ; Gurdurr
 	dw TimburrEggSpeciesMoves           ; Conkeldurr
 	dw TympoleEggSpeciesMoves           ; Tympole
 	dw TympoleEggSpeciesMoves           ; Palpitoad
@@ -421,6 +423,8 @@ EggSpeciesMovesPointers::
 	dw CastformEggSpeciesMoves          ; Castform (Sun Form)
 	dw CastformEggSpeciesMoves          ; Castform (Rain Form)
 	dw CastformEggSpeciesMoves          ; Castform (Hail Form)
+	
+	dw CombeeEggSpeciesMoves            ; Combee (Male)
 	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
 	
