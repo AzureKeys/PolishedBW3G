@@ -926,6 +926,10 @@ SpiritombEggSpeciesMoves:
 	dp SPIRITOMB, PLAIN_FORM
 	db $ff
 
+GibleEggSpeciesMoves:
+	dp GIBLE, PLAIN_FORM
+	db $ff
+
 MantykeEggSpeciesMoves:
 	dp MANTYKE, PLAIN_FORM
 	db HAZE

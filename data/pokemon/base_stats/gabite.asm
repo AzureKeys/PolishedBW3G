@@ -7,7 +7,8 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for GABITE, SAND_VEIL, SAND_VEIL, ROUGH_SKIN
+	;abilities_for GABITE, SAND_VEIL, SAND_VEIL, ROUGH_SKIN
+	abilities_for GABITE, SAND_VEIL, SAND_VEIL, SAND_VEIL
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
 

@@ -2100,12 +2100,41 @@ MimeJrPokedexEntry::
 SECTION "SpiritombPokedexEntry", ROMX
 SpiritombPokedexEntry::
 	db "Forbidden@"
-	db   "It's constant"
+	db   "Its constant"
 	next "mischief and mis-"
 	next "deeds resulted in"
 	page "it being bound to"
 	next "an Odd Keystone by"
 	next "a strange spell.@"
+
+SECTION "GiblePokedexEntry", ROMX
+GiblePokedexEntry::
+	db "Land Shark@"
+	db   "It nests in small,"
+	next "horizontal holes"
+	next "in cave walls. It"
+	page "pounces to catch"
+	next "prey that stray"
+	next "too close.@"
+
+SECTION "GabitePokedexEntry", ROMX
+GabitePokedexEntry::
+	db "Cave@"
+	db   "It habitually digs"
+	next "up and hoards gems"
+	next "in its nest. Its"
+	page "loot is constantly"
+	next "targeted by"
+	next "thieves.@"
+
+SECTION "GarchompPokedexEntry", ROMX
+GarchompPokedexEntry::
+	db "Mach@"
+	db   "It flies at speeds"
+	next "equal to a jet"
+	next "fighter plane. It"
+	page "never allows its"
+	next "prey to escape.@"
 
 SECTION "MunchlaxPokedexEntry", ROMX
 MunchlaxPokedexEntry::

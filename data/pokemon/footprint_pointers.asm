@@ -211,6 +211,9 @@ FootprintPointers::
 	dw BonslyFootprint
 	dw MimeJrFootprint
 	dw SpiritombFootprint
+	dw GibleFootprint
+	dw GabiteFootprint
+	dw GarchompFootprint
 	dw MunchlaxFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint
@@ -251,11 +254,11 @@ FootprintPointers::
 	dw MunnaFootprint
 	dw MusharnaFootprint
 	dw PidoveFootprint
+	dw EggFootprint
+	dw EggFootprint ; $100
 	dw TranquillFootprint
 	dw UnfezantFootprint
 	dw BlitzleFootprint
-	dw EggFootprint
-	dw EggFootprint ; $100
 	dw ZebstrikaFootprint
 	dw RoggenrolaFootprint
 	dw BoldoreFootprint

@@ -92,10 +92,10 @@ GenerateGenderForm:
 	push bc
 	ld a, [wCurForm]
 ; All Pokemon with gender-based forms have indexes > $100
-	assert !HIGH(UNFEZANT) ; Unfezant is < $100 at the moment
+; EXCEPT COMBEE, FIX THIS LATER
+	assert HIGH(UNFEZANT)
 	and EXTSPECIES_MASK
-	;jr z, .done
-	jr nz, .done ; Unfezant is < $100 at the moment
+	jr z, .done
 	ld a, [wTempEnemyMonSpecies]
 	cp LOW(PIDOVE)
 	jr z, .Unfezant

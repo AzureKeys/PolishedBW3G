@@ -250,6 +250,9 @@ LopunnyFootprint::
 BronzorFootprint::
 BronzongFootprint::
 SpiritombFootprint::
+GibleFootprint::
+GabiteFootprint::
+GarchompFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

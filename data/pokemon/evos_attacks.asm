@@ -4204,6 +4204,17 @@ endc
 	learnset 1, DISARM_VOICE ; new move
 	learnset 1, CONFUSION ; Spite → new move
 
+	evos_attacks Gible
+	evo_data EVOLVE_LEVEL, 24, GABITE
+	learnset 1, POWER_GEM
+
+	evos_attacks Gabite
+	evo_data EVOLVE_LEVEL, 48, GARCHOMP
+	learnset 1, POWER_GEM
+
+	evos_attacks Garchomp
+	learnset 1, POWER_GEM
+
 	evos_attacks Munchlax
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
 	learnset 1, SWEET_KISS ; Recycle → event move

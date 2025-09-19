@@ -860,6 +860,18 @@ SECTION "Spiritomb Pics", ROMX
 SpiritombFrontpic: INCBIN "gfx/pokemon/spiritomb/front.animated.2bpp.lz"
 SpiritombBackpic:  INCBIN "gfx/pokemon/spiritomb/back.2bpp.lz"
 
+SECTION "Gible Pics", ROMX
+GibleFrontpic: INCBIN "gfx/pokemon/gible/front.animated.2bpp.lz"
+GibleBackpic:  INCBIN "gfx/pokemon/gible/back.2bpp.lz"
+
+SECTION "Gabite Pics", ROMX
+GabiteFrontpic: INCBIN "gfx/pokemon/gabite/front.animated.2bpp.lz"
+GabiteBackpic:  INCBIN "gfx/pokemon/gabite/back.2bpp.lz"
+
+SECTION "Garchomp Pics", ROMX
+GarchompFrontpic: INCBIN "gfx/pokemon/garchomp/front.animated.2bpp.lz"
+GarchompBackpic:  INCBIN "gfx/pokemon/garchomp/back.2bpp.lz"
+
 SECTION "Munchlax Pics", ROMX
 MunchlaxFrontpic: INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
 MunchlaxBackpic:  INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"

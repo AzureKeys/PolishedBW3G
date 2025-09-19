@@ -121,9 +121,10 @@ ReadTrainerParty:
 	;DEBUG
 	
 ; NPC trainers should display correct gender form for the following Pokemon:
-; UNFEZANT, FRILLISH, JELLICENT
-	assert !HIGH(UNFEZANT) ; Unfezant is < $100 at the moment
+; COMBEE, UNFEZANT, FRILLISH, JELLICENT
+	assert HIGH(UNFEZANT)
 ; All Pokemon with gender-based forms have indexes > $100
+; NOT COMBEE THOUGH, FIX THIS LATER
 	ld a, [wCurForm]
 	ld b, a
 	and EXTSPECIES_MASK

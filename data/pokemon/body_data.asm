@@ -218,6 +218,9 @@ PokemonBodyData:
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
 	body_data   6,  130, BIPEDAL,      PINK   ; MIME_JR_
 	body_data  10, 1080, HEAD_BASE,    PURPLE ; SPIRITOMB
+	body_data   7,  205, BIPEDAL_TAIL, BLUE   ; GIBLE
+	body_data  14,  560, BIPEDAL_TAIL, BLUE   ; GABITE
+	body_data  19,  950, BIPEDAL_TAIL, BLUE   ; GARCHOMP
 	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX
 	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
@@ -258,11 +261,11 @@ PokemonBodyData:
 	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
 	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
+	body_data   0,    0, HEAD,         RED    ; EGG
+	body_data   0,    0, HEAD,         RED    ; $100
 	body_data   6,  150, WINGS,        GRAY   ; TRANQUILL
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT
 	body_data   8,  298, QUADRUPED,    BLACK  ; BLITZLE
-	body_data   0,    0, HEAD,         RED    ; EGG
-	body_data   0,    0, HEAD,         RED    ; $100
 	body_data  16,  795, QUADRUPED,    BLACK  ; ZEBSTRIKA
 	body_data   4,  180, HEAD_LEGS,    BLUE   ; ROGGENROLA
 	body_data   9, 1020, TENTACLES,    BLUE   ; BOLDORE

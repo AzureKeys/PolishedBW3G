@@ -211,6 +211,9 @@ FramesPointers:
 	dw BonslyFrames
 	dw MimeJrFrames
 	dw SpiritombFrames
+	dw GibleFrames
+	dw GabiteFrames
+	dw GarchompFrames
 	dw MunchlaxFrames
 	dw MantykeFrames
 	dw WeavileFrames
@@ -251,11 +254,11 @@ FramesPointers:
 	dw MunnaFrames
 	dw MusharnaFrames
 	dw PidoveFrames
+	dw EggFrames
+	dw EggFrames ; $100
 	dw TranquillFrames
 	dw UnfezantMaleFrames
 	dw BlitzleFrames
-	dw EggFrames
-	dw EggFrames ; $100
 	dw ZebstrikaFrames
 	dw RoggenrolaFrames
 	dw BoldoreFrames

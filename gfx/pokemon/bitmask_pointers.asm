@@ -211,6 +211,9 @@ BitmasksPointers:
 	dw BonslyBitmasks
 	dw MimeJrBitmasks
 	dw SpiritombBitmasks
+	dw GibleBitmasks
+	dw GabiteBitmasks
+	dw GarchompBitmasks
 	dw MunchlaxBitmasks
 	dw MantykeBitmasks
 	dw WeavileBitmasks
@@ -251,11 +254,11 @@ BitmasksPointers:
 	dw MunnaBitmasks
 	dw MusharnaBitmasks
 	dw PidoveBitmasks
+	dw EggBitmasks
+	dw EggBitmasks ; $100
 	dw TranquillBitmasks
 	dw UnfezantMaleBitmasks
 	dw BlitzleBitmasks
-	dw EggBitmasks
-	dw EggBitmasks ; $100
 	dw ZebstrikaBitmasks
 	dw RoggenrolaBitmasks
 	dw BoldoreBitmasks

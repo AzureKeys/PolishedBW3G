@@ -215,6 +215,9 @@ PokemonPicPointers::
 	pics Bonsly
 	pics MimeJr
 	pics Spiritomb
+	pics Gible
+	pics Gabite
+	pics Garchomp
 	pics Munchlax
 	pics Mantyke
 	pics Weavile
@@ -255,11 +258,11 @@ PokemonPicPointers::
 	pics Munna
 	pics Musharna
 	pics Pidove
+	dbas EggPic, EggPic
+	dbas EggPic, EggPic ; $100
 	pics Tranquill
 	pics UnfezantMale
 	pics Blitzle
-	dbas EggPic, EggPic
-	dbas EggPic, EggPic ; $100
 	pics Zebstrika
 	pics Roggenrola
 	pics Boldore

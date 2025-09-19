@@ -212,6 +212,9 @@ PokemonNames::
 	rawchar "Bonsly@@@@"
 	rawchar "Mime Jr.@@"
 	rawchar "Spiritomb@"
+	rawchar "Gible@@@@@"
+	rawchar "Gabite@@@@"
+	rawchar "Garchomp@@"
 	rawchar "Munchlax@@"
 	rawchar "Mantyke@@@"
 	rawchar "Weavile@@@"
@@ -252,11 +255,11 @@ PokemonNames::
 	rawchar "Munna@@@@@"
 	rawchar "Musharna@@"
 	rawchar "Pidove@@@@"
+	rawchar "Egg@@@@@@@"
+	rawchar "?256?@@@@@" ; 100
 	rawchar "Tranquill@"
 	rawchar "Unfezant@@"
 	rawchar "Blitzle@@@"
-	rawchar "Egg@@@@@@@"
-	rawchar "?256?@@@@@" ; 100
 	rawchar "Zebstrika@"
 	rawchar "Roggenrola"
 	rawchar "Boldore@@@"

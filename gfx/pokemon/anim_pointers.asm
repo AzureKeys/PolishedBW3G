@@ -211,6 +211,9 @@ AnimationPointers:
 	dw BonslyAnimation
 	dw MimeJrAnimation
 	dw SpiritombAnimation
+	dw GibleAnimation
+	dw GabiteAnimation
+	dw GarchompAnimation
 	dw MunchlaxAnimation
 	dw MantykeAnimation
 	dw WeavileAnimation
@@ -251,11 +254,11 @@ AnimationPointers:
 	dw MunnaAnimation
 	dw MusharnaAnimation
 	dw PidoveAnimation
+	dw EggAnimation
+	dw EggAnimation ; 100
 	dw TranquillAnimation
 	dw UnfezantMaleAnimation
 	dw BlitzleAnimation
-	dw EggAnimation
-	dw EggAnimation ; 100
 	dw ZebstrikaAnimation
 	dw RoggenrolaAnimation
 	dw BoldoreAnimation

@@ -1062,6 +1062,21 @@ SpiritombMini::     INCBIN "gfx/minis/spiritomb.2bpp.lz"
 SpiritombMiniMask:: INCBIN "gfx/minis/spiritomb_mask.1bpp.lz"
 SpiritombIcon::     INCBIN "gfx/icons/spiritomb.2bpp.lz"
 
+SECTION "Gible Mini Icon", ROMX
+GibleMini::     INCBIN "gfx/minis/gible.2bpp.lz"
+GibleMiniMask:: INCBIN "gfx/minis/gible_mask.1bpp.lz"
+GibleIcon::     INCBIN "gfx/icons/gible.2bpp.lz"
+
+SECTION "Gabite Mini Icon", ROMX
+GabiteMini::     INCBIN "gfx/minis/gabite.2bpp.lz"
+GabiteMiniMask:: INCBIN "gfx/minis/gabite_mask.1bpp.lz"
+GabiteIcon::     INCBIN "gfx/icons/gabite.2bpp.lz"
+
+SECTION "Garchomp Mini Icon", ROMX
+GarchompMini::     INCBIN "gfx/minis/garchomp.2bpp.lz"
+GarchompMiniMask:: INCBIN "gfx/minis/garchomp_mask.1bpp.lz"
+GarchompIcon::     INCBIN "gfx/icons/garchomp.2bpp.lz"
+
 SECTION "Munchlax Mini Icon", ROMX
 MunchlaxMini::     INCBIN "gfx/minis/munchlax.2bpp.lz"
 MunchlaxMiniMask:: INCBIN "gfx/minis/munchlax_mask.1bpp.lz"

@@ -241,6 +241,9 @@ NewPokedexOrder:
 	dp BRONZOR
 	dp BRONZONG
 	dp SPIRITOMB
+	dp GIBLE
+	dp GABITE
+	dp GARCHOMP
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

@@ -105,13 +105,16 @@ AlphabeticalPokedexOrder:
 	dp FOONGUS
 	dp FRAXURE
 	dp FRILLISH
+	dp GABITE
 	dp GALVANTULA
 	dp GARBODOR
+	dp GARCHOMP
 	dp GARDEVOIR
 	dp GASTLY
 	dp GENESECT
 	dp GENGAR
 	dp GEODUDE
+	dp GIBLE
 	dp GIGALITH
 	dp GLACEON
 	dp GLALIE

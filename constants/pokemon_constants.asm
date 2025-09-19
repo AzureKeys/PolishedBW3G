@@ -235,6 +235,9 @@
 	const BONSLY     ; d1
 	const MIME_JR_   ; d2
 	const SPIRITOMB  ; d3
+	const GIBLE      ; d4
+	const GABITE     ; d5
+	const GARCHOMP   ; d6
 	const MUNCHLAX   ; d7
 	const MANTYKE    ; df
 	const WEAVILE    ; e2
@@ -275,11 +278,11 @@
 	const MUNNA      ; 10a
 	const MUSHARNA   ; 10b
 	const PIDOVE     ; 10c
+	const EGG        ; ff
+	const_skip       ; 100 is unused
 	const TRANQUILL  ; 10d
 	const UNFEZANT   ; 10e
 	const BLITZLE    ; 10f
-	const EGG        ; ff
-	const_skip       ; 100 is unused
 	const ZEBSTRIKA  ; 110
 	const ROGGENROLA ; 111
 	const BOLDORE    ; 112

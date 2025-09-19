@@ -211,6 +211,9 @@ EggSpeciesMovesPointers::
 	dw BonslyEggSpeciesMoves            ; Bonsly
 	dw MimeJrEggSpeciesMoves            ; Mime Jr.
 	dw SpiritombEggSpeciesMoves         ; Spiritomb
+	dw GibleEggSpeciesMoves             ; Gible
+	dw GibleEggSpeciesMoves             ; Gabite
+	dw GibleEggSpeciesMoves             ; Garchomp
 	dw MunchlaxEggSpeciesMoves          ; Munchlax
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile
@@ -251,11 +254,11 @@ EggSpeciesMovesPointers::
 	dw MunnaEggSpeciesMoves             ; Munna
 	dw MunnaEggSpeciesMoves             ; Musharna
 	dw PidoveEggSpeciesMoves            ; Pidove
+	dw NoEggSpeciesMoves                ; Egg
+	dw NoEggSpeciesMoves                ; $100
 	dw PidoveEggSpeciesMoves            ; Tranquill
 	dw PidoveEggSpeciesMoves            ; Unfezant
 	dw BlitzleEggSpeciesMoves           ; Blitzle
-	dw NoEggSpeciesMoves                ; Egg
-	dw NoEggSpeciesMoves                ; $100
 	dw BlitzleEggSpeciesMoves           ; Zebstrika
 	dw RoggenrolaEggSpeciesMoves        ; Roggenrola
 	dw RoggenrolaEggSpeciesMoves        ; Boldore

@@ -211,6 +211,9 @@ AnimationExtraPointers:
 	dw BonslyAnimationExtra
 	dw MimeJrAnimationExtra
 	dw SpiritombAnimationExtra
+	dw GibleAnimationExtra
+	dw GabiteAnimationExtra
+	dw GarchompAnimationExtra
 	dw MunchlaxAnimationExtra
 	dw MantykeAnimationExtra
 	dw WeavileAnimationExtra
@@ -251,11 +254,11 @@ AnimationExtraPointers:
 	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra
 	dw PidoveAnimationExtra
+	dw EggAnimationExtra
+	dw EggAnimationExtra ; $100
 	dw TranquillAnimationExtra
 	dw UnfezantMaleAnimationExtra
 	dw BlitzleAnimationExtra
-	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
 	dw ZebstrikaAnimationExtra
 	dw RoggenrolaAnimationExtra
 	dw BoldoreAnimationExtra

@@ -215,6 +215,9 @@ MiniIconPointers:
 	mini_icon Bonsly
 	mini_icon MimeJr
 	mini_icon Spiritomb
+	mini_icon Gible
+	mini_icon Gabite
+	mini_icon Garchomp
 	mini_icon Munchlax
 	mini_icon Mantyke
 	mini_icon Weavile
@@ -255,11 +258,11 @@ MiniIconPointers:
 	mini_icon Munna
 	mini_icon Musharna
 	mini_icon Pidove
+	mini_icon Egg
+	mini_icon Egg ; $100
 	mini_icon Tranquill
 	mini_icon UnfezantMale
 	mini_icon Blitzle
-	mini_icon Egg
-	mini_icon Egg ; $100
 	mini_icon Zebstrika
 	mini_icon Roggenrola
 	mini_icon Boldore
