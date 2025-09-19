@@ -32,6 +32,8 @@ AlphabeticalPokedexOrder:
 	dp BOUFFALANT
 	dp BRAVIARY
 	dp BRELOOM
+	dp BRONZONG
+	dp BRONZOR
 	dp BUDEW
 	dp BUIZEL
 	dp BUNEARY

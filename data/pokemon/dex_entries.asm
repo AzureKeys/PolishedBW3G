@@ -2057,6 +2057,26 @@ HonchkrowPokedexEntry::
 	next "of its Murkrow"
 	next "followers.@"
 
+SECTION "BronzorPokedexEntry", ROMX
+BronzorPokedexEntry::
+	db "Bronze@"
+	db   "Ancient people"
+	next "believed that the"
+	next "pattern on"
+	page "Bronzor's back"
+	next "contained a myst-"
+	next "erious power.@"
+
+SECTION "BronzongPokedexEntry", ROMX
+BronzongPokedexEntry::
+	db "Bronze Bell@"
+	db   "It brought rains"
+	next "by opening portals"
+	next "to another world."
+	page "It was revered as"
+	next "a bringer of plen-"
+	next "tiful harvests.@"
+
 SECTION "BonslyPokedexEntry", ROMX
 BonslyPokedexEntry::
 	db "Bonsai@"

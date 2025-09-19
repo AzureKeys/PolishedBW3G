@@ -207,6 +207,8 @@ PokedexDataPointerTable:
 	dba LopunnyPokedexEntry
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
+	dba BronzorPokedexEntry
+	dba BronzongPokedexEntry
 	dba BonslyPokedexEntry
 	dba MimeJrPokedexEntry
 	dba MunchlaxPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba UnfezantPokedexEntry
 	dba BlitzlePokedexEntry
 	dba ZebstrikaPokedexEntry
-	dba RoggenrolaPokedexEntry
-	dba BoldorePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba RoggenrolaPokedexEntry
+	dba BoldorePokedexEntry
 	dba GigalithPokedexEntry
 	dba WoobatPokedexEntry
 	dba SwoobatPokedexEntry

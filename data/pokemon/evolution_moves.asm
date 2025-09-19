@@ -210,6 +210,8 @@ endc
 	db NO_MOVE      ; LOPUNNY
 	db DAZZLINGLEAM ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
+	db NO_MOVE      ; BRONZOR
+	db NO_MOVE      ; BRONZONG
 	db NO_MOVE      ; BONSLY
 	db NO_MOVE      ; MIME_JR_
 	db NO_MOVE      ; MUNCHLAX
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; UNFEZANT
 	db NO_MOVE      ; BLITZLE
 	db NO_MOVE      ; ZEBSTRIKA
-	db NO_MOVE      ; ROGGENROLA
-	db POWER_GEM    ; BOLDORE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; ROGGENROLA
+	db POWER_GEM    ; BOLDORE
 	db NO_MOVE      ; GIGALITH
 	db NO_MOVE      ; WOOBAT
 	db NO_MOVE      ; SWOOBAT

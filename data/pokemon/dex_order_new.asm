@@ -238,6 +238,8 @@ NewPokedexOrder:
 	dp DRIFBLIM
 	dp BUNEARY
 	dp LOPUNNY
+	dp BRONZOR
+	dp BRONZONG
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

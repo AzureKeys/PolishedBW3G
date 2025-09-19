@@ -210,6 +210,8 @@ PokemonPicPointers::
 	pics Lopunny
 	pics Mismagius
 	pics Honchkrow
+	pics Bronzor
+	pics Bronzong
 	pics Bonsly
 	pics MimeJr
 	pics Munchlax
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics UnfezantMale
 	pics Blitzle
 	pics Zebstrika
-	pics Roggenrola
-	pics Boldore
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Roggenrola
+	pics Boldore
 	pics Gigalith
 	pics Woobat
 	pics Swoobat

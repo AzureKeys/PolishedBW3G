@@ -206,6 +206,8 @@ AnimationExtraPointers:
 	dw LopunnyAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
+	dw BronzorAnimationExtra
+	dw BronzongAnimationExtra
 	dw BonslyAnimationExtra
 	dw MimeJrAnimationExtra
 	dw MunchlaxAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw UnfezantMaleAnimationExtra
 	dw BlitzleAnimationExtra
 	dw ZebstrikaAnimationExtra
-	dw RoggenrolaAnimationExtra
-	dw BoldoreAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw RoggenrolaAnimationExtra
+	dw BoldoreAnimationExtra
 	dw GigalithAnimationExtra
 	dw WoobatAnimationExtra
 	dw SwoobatAnimationExtra

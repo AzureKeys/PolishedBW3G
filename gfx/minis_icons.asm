@@ -1037,6 +1037,16 @@ HonchkrowMini::     INCBIN "gfx/minis/honchkrow.2bpp.lz"
 HonchkrowMiniMask:: INCBIN "gfx/minis/honchkrow_mask.1bpp.lz"
 HonchkrowIcon::     INCBIN "gfx/icons/honchkrow.2bpp.lz"
 
+SECTION "Bronzor Mini Icon", ROMX
+BronzorMini::     INCBIN "gfx/minis/bronzor.2bpp.lz"
+BronzorMiniMask:: INCBIN "gfx/minis/bronzor_mask.1bpp.lz"
+BronzorIcon::     INCBIN "gfx/icons/bronzor.2bpp.lz"
+
+SECTION "Bronzong Mini Icon", ROMX
+BronzongMini::     INCBIN "gfx/minis/bronzong.2bpp.lz"
+BronzongMiniMask:: INCBIN "gfx/minis/bronzong_mask.1bpp.lz"
+BronzongIcon::     INCBIN "gfx/icons/bronzong.2bpp.lz"
+
 SECTION "Bonsly Mini Icon", ROMX
 BonslyMini::     INCBIN "gfx/minis/bonsly.2bpp.lz"
 BonslyMiniMask:: INCBIN "gfx/minis/bonsly_mask.1bpp.lz"

@@ -903,6 +903,10 @@ BunearyEggSpeciesMoves:
 	dp BUNEARY, PLAIN_FORM
 	db $ff
 
+BronzorEggSpeciesMoves:
+	dp BRONZOR, PLAIN_FORM
+	db $ff
+
 BonslyEggSpeciesMoves:
 	dp BONSLY, PLAIN_FORM
 	db DEFENSE_CURL

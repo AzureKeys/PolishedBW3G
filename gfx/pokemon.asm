@@ -840,6 +840,14 @@ SECTION "Honchkrow Pics", ROMX
 HonchkrowFrontpic: INCBIN "gfx/pokemon/honchkrow/front.animated.2bpp.lz"
 HonchkrowBackpic:  INCBIN "gfx/pokemon/honchkrow/back.2bpp.lz"
 
+SECTION "Bronzor Pics", ROMX
+BronzorFrontpic: INCBIN "gfx/pokemon/bronzor/front.animated.2bpp.lz"
+BronzorBackpic:  INCBIN "gfx/pokemon/bronzor/back.2bpp.lz"
+
+SECTION "Bronzong Pics", ROMX
+BronzongFrontpic: INCBIN "gfx/pokemon/bronzong/front.animated.2bpp.lz"
+BronzongBackpic:  INCBIN "gfx/pokemon/bronzong/back.2bpp.lz"
+
 SECTION "Bonsly Pics", ROMX
 BonslyFrontpic: INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lz"
 BonslyBackpic:  INCBIN "gfx/pokemon/bonsly/back.2bpp.lz"

@@ -210,6 +210,8 @@ OverworldMonIconColors::
 	iconpal BROWN, PINK ; LOPUNNY
 	iconpal PURPLE, BROWN ; MISMAGIUS
 	iconpal BLUE, PURPLE ; HONCHKROW
+	iconpal BLUE, GREEN ; BRONZOR
+	iconpal BLUE, GREEN ; BRONZONG
 	iconpal GREEN, RED ; BONSLY
 	iconpal BLUE, GREEN ; MIME_JR_
 	iconpal TEAL, BLUE ; MUNCHLAX
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal PINK, PURPLE ; UNFEZANT
 	iconpal BLACK, BLUE ; BLITZLE
 	iconpal BLACK, PURPLE ; ZEBSTRIKA
-	iconpal BLUE, PURPLE ; ROGGENROLA
-	iconpal BLUE, PURPLE ; BOLDORE
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal BLUE, PURPLE ; ROGGENROLA
+	iconpal BLUE, PURPLE ; BOLDORE
 	iconpal BLUE, PURPLE ; GIGALITH
 	iconpal AZURE, GREEN ; WOOBAT
 	iconpal AZURE, ORANGE ; SWOOBAT

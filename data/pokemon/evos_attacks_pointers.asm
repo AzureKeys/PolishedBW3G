@@ -210,6 +210,8 @@ EvosAttacksPointers::
 	dw LopunnyEvosAttacks
 	dw MismagiusEvosAttacks
 	dw HonchkrowEvosAttacks
+	dw BronzorEvosAttacks
+	dw BronzongEvosAttacks
 	dw BonslyEvosAttacks
 	dw MimeJrEvosAttacks
 	dw MunchlaxEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw UnfezantEvosAttacks
 	dw BlitzleEvosAttacks
 	dw ZebstrikaEvosAttacks
-	dw RoggenrolaEvosAttacks
-	dw BoldoreEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw RoggenrolaEvosAttacks
+	dw BoldoreEvosAttacks
 	dw GigalithEvosAttacks
 	dw WoobatEvosAttacks
 	dw SwoobatEvosAttacks

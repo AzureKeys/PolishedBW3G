@@ -230,6 +230,8 @@
 	const LOPUNNY    ; cc
 	const MISMAGIUS  ; cd
 	const HONCHKROW  ; ce
+	const BRONZOR    ; cf
+	const BRONZONG   ; d0
 	const BONSLY     ; d1
 	const MIME_JR_   ; d2
 	const MUNCHLAX   ; d7
@@ -276,10 +278,10 @@
 	const UNFEZANT   ; 10e
 	const BLITZLE    ; 10f
 	const ZEBSTRIKA  ; 110
-	const ROGGENROLA ; 111
-	const BOLDORE    ; 112
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const ROGGENROLA ; 111
+	const BOLDORE    ; 112
 	const GIGALITH   ; 113
 	const WOOBAT     ; 114
 	const SWOOBAT    ; 115

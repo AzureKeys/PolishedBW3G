@@ -210,6 +210,8 @@ MiniIconPointers:
 	mini_icon Lopunny
 	mini_icon Mismagius
 	mini_icon Honchkrow
+	mini_icon Bronzor
+	mini_icon Bronzong
 	mini_icon Bonsly
 	mini_icon MimeJr
 	mini_icon Munchlax
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon UnfezantMale
 	mini_icon Blitzle
 	mini_icon Zebstrika
-	mini_icon Roggenrola
-	mini_icon Boldore
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Roggenrola
+	mini_icon Boldore
 	mini_icon Gigalith
 	mini_icon Woobat
 	mini_icon Swoobat

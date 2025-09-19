@@ -247,6 +247,8 @@ DrifloonFootprint::
 DrifblimFootprint::
 BunearyFootprint::
 LopunnyFootprint::
+BronzorFootprint::
+BronzongFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

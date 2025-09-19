@@ -212,6 +212,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; LOPUNNY*
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; MISMAGIUS*
 	mon_cry CRY_MARILL,     -$01f,  $180 ; HONCHKROW*
+	mon_cry CRY_SQUIRTLE,    $0e4,  $0ad ; BRONZOR*
+	mon_cry CRY_SQUIRTLE,   -$01a,  $0ad ; BRONZONG*
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; BONSLY*
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MIME JR.*
 	mon_cry CRY_GRIMER,      $055,  $081 ; MUNCHLAX
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
 	mon_cry CRY_PIDGEOTTO,   $024,  $0c0 ; Blitzle
 	mon_cry CRY_NIDORAN_M,   $026,  $220 ; Zebstrika
-	mon_cry CRY_SLOWKING,   -$5a0,  $130 ; Roggenrola
-	mon_cry CRY_VOLTORB,     $4bf,  $100 ; Boldore
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_SLOWKING,   -$5a0,  $130 ; Roggenrola
+	mon_cry CRY_VOLTORB,     $4bf,  $100 ; Boldore
 	mon_cry CRY_LAPRAS,     -$2c0,  $1b0 ; Gigalith
 	mon_cry CRY_MANTINE,    -$03a,  $0ea ; Woobat
 	mon_cry CRY_PARAS,      -$07a,  $0e0 ; Swoobat

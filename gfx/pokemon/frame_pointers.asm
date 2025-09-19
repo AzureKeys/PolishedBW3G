@@ -206,6 +206,8 @@ FramesPointers:
 	dw LopunnyFrames
 	dw MismagiusFrames
 	dw HonchkrowFrames
+	dw BronzorFrames
+	dw BronzongFrames
 	dw BonslyFrames
 	dw MimeJrFrames
 	dw MunchlaxFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw UnfezantMaleFrames
 	dw BlitzleFrames
 	dw ZebstrikaFrames
-	dw RoggenrolaFrames
-	dw BoldoreFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw RoggenrolaFrames
+	dw BoldoreFrames
 	dw GigalithFrames
 	dw WoobatFrames
 	dw SwoobatFrames

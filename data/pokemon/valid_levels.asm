@@ -211,6 +211,8 @@ endc
 	db  30, 100 ; Lopunny
 	db  40, 100 ; Mismagius
 	db  40, 100 ; Honchkrow
+	db   1,  32 ; Bronzor
+	db  33, 100 ; Bronzong
 	db   1,  19 ; Bonsly
 	db   1,  19 ; Mime Jr.
 	db   1,  19 ; Munchlax
@@ -257,10 +259,10 @@ endc
 	db  32, 100 ; Unfezant
 	db   1,  26 ; Blitzle
 	db  27, 100 ; Zebstrika
-	db   1,  24 ; Roggenrola
-	db  25,  39 ; Boldore
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  24 ; Roggenrola
+	db  25,  39 ; Boldore
 	db  40, 100 ; Gigalith
 	db   1,  22 ; Woobat
 	db  23, 100 ; Swoobat

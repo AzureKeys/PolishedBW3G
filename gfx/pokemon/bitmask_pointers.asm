@@ -206,6 +206,8 @@ BitmasksPointers:
 	dw LopunnyBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
+	dw BronzorBitmasks
+	dw BronzongBitmasks
 	dw BonslyBitmasks
 	dw MimeJrBitmasks
 	dw MunchlaxBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw UnfezantMaleBitmasks
 	dw BlitzleBitmasks
 	dw ZebstrikaBitmasks
-	dw RoggenrolaBitmasks
-	dw BoldoreBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw RoggenrolaBitmasks
+	dw BoldoreBitmasks
 	dw GigalithBitmasks
 	dw WoobatBitmasks
 	dw SwoobatBitmasks
