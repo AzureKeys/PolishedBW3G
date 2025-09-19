@@ -248,6 +248,8 @@ NewPokedexOrder:
 	dp LUCARIO
 	dp SKORUPI
 	dp DRAPION
+	dp CROAGUNK
+	dp TOXICROAK
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

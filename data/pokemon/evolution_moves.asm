@@ -223,6 +223,8 @@ endc
 	db NO_MOVE      ; LUCARIO
 	db NO_MOVE      ; SKORUPI
 	db NO_MOVE      ; DRAPION
+	db NO_MOVE      ; CROAGUNK
+	db NO_MOVE      ; TOXICROAK
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; WEAVILE
 	db TRI_ATTACK   ; MAGNEZONE
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; PANSAGE
 	db NO_MOVE      ; SIMISAGE
 	db NO_MOVE      ; PANSEAR
-	db NO_MOVE      ; SIMISEAR
-	db NO_MOVE      ; PANPOUR
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; SIMISEAR
+	db NO_MOVE      ; PANPOUR
 	db NO_MOVE      ; SIMIPOUR
 	db NO_MOVE      ; MUNNA
 	db NO_MOVE      ; MUSHARNA

@@ -892,6 +892,14 @@ SECTION "Drapion Pics", ROMX
 DrapionFrontpic: INCBIN "gfx/pokemon/drapion/front.animated.2bpp.lz"
 DrapionBackpic:  INCBIN "gfx/pokemon/drapion/back.2bpp.lz"
 
+SECTION "Croagunk Pics", ROMX
+CroagunkFrontpic: INCBIN "gfx/pokemon/croagunk/front.animated.2bpp.lz"
+CroagunkBackpic:  INCBIN "gfx/pokemon/croagunk/back.2bpp.lz"
+
+SECTION "Toxicroak Pics", ROMX
+ToxicroakFrontpic: INCBIN "gfx/pokemon/toxicroak/front.animated.2bpp.lz"
+ToxicroakBackpic:  INCBIN "gfx/pokemon/toxicroak/back.2bpp.lz"
+
 SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"
 MantykeBackpic:  INCBIN "gfx/pokemon/mantyke/back.2bpp.lz"

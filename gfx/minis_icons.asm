@@ -1102,6 +1102,16 @@ DrapionMini::     INCBIN "gfx/minis/drapion.2bpp.lz"
 DrapionMiniMask:: INCBIN "gfx/minis/drapion_mask.1bpp.lz"
 DrapionIcon::     INCBIN "gfx/icons/drapion.2bpp.lz"
 
+SECTION "Croagunk Mini Icon", ROMX
+CroagunkMini::     INCBIN "gfx/minis/croagunk.2bpp.lz"
+CroagunkMiniMask:: INCBIN "gfx/minis/croagunk_mask.1bpp.lz"
+CroagunkIcon::     INCBIN "gfx/icons/croagunk.2bpp.lz"
+
+SECTION "Toxicroak Mini Icon", ROMX
+ToxicroakMini::     INCBIN "gfx/minis/toxicroak.2bpp.lz"
+ToxicroakMiniMask:: INCBIN "gfx/minis/toxicroak_mask.1bpp.lz"
+ToxicroakIcon::     INCBIN "gfx/icons/toxicroak.2bpp.lz"
+
 SECTION "Mantyke Mini Icon", ROMX
 MantykeMini::     INCBIN "gfx/minis/mantyke.2bpp.lz"
 MantykeMiniMask:: INCBIN "gfx/minis/mantyke_mask.1bpp.lz"

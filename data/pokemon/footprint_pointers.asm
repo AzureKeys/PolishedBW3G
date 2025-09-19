@@ -219,6 +219,8 @@ FootprintPointers::
 	dw LucarioFootprint
 	dw SkorupiFootprint
 	dw DrapionFootprint
+	dw CroagunkFootprint
+	dw ToxicroakFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint
 	dw MagnezoneFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw PansageFootprint
 	dw SimisageFootprint
 	dw PansearFootprint
-	dw SimisearFootprint
-	dw PanpourFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw SimisearFootprint
+	dw PanpourFootprint
 	dw SimipourFootprint
 	dw MunnaFootprint
 	dw MusharnaFootprint

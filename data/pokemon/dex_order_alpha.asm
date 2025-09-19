@@ -55,6 +55,7 @@ AlphabeticalPokedexOrder:
 	dp CORSOLA
 	dp COTTONEE
 	dp CRAWDAUNT
+	dp CROAGUNK
 	dp CROBAT
 	dp CRUSTLE
 	dp CRYOGONAL
@@ -356,6 +357,7 @@ AlphabeticalPokedexOrder:
 	dp TOGETIC
 	dp TORKOAL
 	dp TORNADUS
+	dp TOXICROAK
 	dp TRANQUILL
 	dp TRAPINCH
 	dp TROPIUS

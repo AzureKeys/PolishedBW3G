@@ -223,6 +223,8 @@ EvosAttacksPointers::
 	dw LucarioEvosAttacks
 	dw SkorupiEvosAttacks
 	dw DrapionEvosAttacks
+	dw CroagunkEvosAttacks
+	dw ToxicroakEvosAttacks
 	dw MantykeEvosAttacks
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw PansageEvosAttacks
 	dw SimisageEvosAttacks
 	dw PansearEvosAttacks
-	dw SimisearEvosAttacks
-	dw PanpourEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw SimisearEvosAttacks
+	dw PanpourEvosAttacks
 	dw SimipourEvosAttacks
 	dw MunnaEvosAttacks
 	dw MusharnaEvosAttacks

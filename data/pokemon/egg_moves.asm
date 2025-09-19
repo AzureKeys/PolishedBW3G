@@ -948,6 +948,10 @@ SkorupiEggSpeciesMoves:
 	dp SKORUPI, PLAIN_FORM
 	db $ff
 
+CroagunkEggSpeciesMoves:
+	dp CROAGUNK, PLAIN_FORM
+	db $ff
+
 MantykeEggSpeciesMoves:
 	dp MANTYKE, PLAIN_FORM
 	db HAZE

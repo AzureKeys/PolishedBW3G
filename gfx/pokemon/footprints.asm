@@ -257,6 +257,8 @@ RioluFootprint::
 LucarioFootprint::
 SkorupiFootprint::
 DrapionFootprint::
+CroagunkFootprint::
+ToxicroakFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

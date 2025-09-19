@@ -243,6 +243,8 @@
 	const LUCARIO    ; d9
 	const SKORUPI    ; da
 	const DRAPION    ; db
+	const CROAGUNK   ; dc
+	const TOXICROAK  ; dd
 	const MANTYKE    ; df
 	const WEAVILE    ; e2
 	const MAGNEZONE  ; e3
@@ -276,10 +278,10 @@
 	const PANSAGE    ; 104
 	const SIMISAGE   ; 105
 	const PANSEAR    ; 106
-	const SIMISEAR   ; 107
-	const PANPOUR    ; 108
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const SIMISEAR   ; 107
+	const PANPOUR    ; 108
 	const SIMIPOUR   ; 109
 	const MUNNA      ; 10a
 	const MUSHARNA   ; 10b

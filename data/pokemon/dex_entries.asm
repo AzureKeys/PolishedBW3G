@@ -2186,6 +2186,25 @@ DrapionPokedexEntry::
 	next "degrees, elimin-"
 	next "ating blind spots.@"
 
+SECTION "CroagunkPokedexEntry", ROMX
+CroagunkPokedexEntry::
+	db "Toxic Mouth@"
+	db   "Its cheeks hold"
+	next "poison sacs. It"
+	next "tries to catch"
+	page "foes off guard to"
+	next "jab them with"
+	next "toxic fingers.@"
+
+SECTION "ToxicroakPokedexEntry", ROMX
+ToxicroakPokedexEntry::
+	db "Toxic Mouth@"
+	db   "Its knuckle claws"
+	next "secrete a toxin so"
+	next "vile that even a"
+	page "scratch could"
+	next "prove fatal.@"
+
 SECTION "MantykePokedexEntry", ROMX
 MantykePokedexEntry::
 	db "Kite@"

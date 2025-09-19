@@ -4247,6 +4247,13 @@ endc
 	evos_attacks Drapion
 	learnset 1, POWER_GEM
 
+	evos_attacks Croagunk
+	evo_data EVOLVE_LEVEL, 37, TOXICROAK
+	learnset 1, POWER_GEM
+
+	evos_attacks Toxicroak
+	learnset 1, POWER_GEM
+
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move
