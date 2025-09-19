@@ -85,7 +85,6 @@ EvosAttacks::
 	learnset 7, FOCUS_ENERGY
 	learnset 10, BITE
 	learnset 13, PURSUIT
-	learnset 16, HYPER_FANG
 	learnset 19, SUCKER_PUNCH
 	learnset 22, CRUNCH
 	learnset 25, FEINT_ATTACK ; Assurance → similar move
@@ -101,7 +100,6 @@ EvosAttacks::
 	learnset 7, FOCUS_ENERGY
 	learnset 10, BITE
 	learnset 13, PURSUIT
-	learnset 16, HYPER_FANG
 	learnset 19, SUCKER_PUNCH
 	learnset 22, CRUNCH
 	learnset 25, FEINT_ATTACK ; Assurance → similar move
@@ -118,7 +116,6 @@ EvosAttacks::
 	learnset 7, FOCUS_ENERGY
 	learnset 10, BITE
 	learnset 13, PURSUIT
-	learnset 16, HYPER_FANG
 	learnset 19, SUCKER_PUNCH
 	learnset 24, CRUNCH
 	learnset 29, FEINT_ATTACK ; Assurance → similar move
@@ -165,7 +162,6 @@ EvosAttacks::
 
 	evos_attacks SandshrewPlain
 	evo_data EVOLVE_LEVEL, 22, SANDSLASH, PLAIN_FORM
-	learnset 1, SCRATCH
 	learnset 1, DEFENSE_CURL
 	learnset 3, MUD_SLAP ; Sand Attack → similar move
 	learnset 5, POISON_STING
@@ -185,7 +181,6 @@ EvosAttacks::
 
 	evos_attacks SandshrewAlolan
 	evo_data EVOLVE_ITEM, ICE_STONE, SANDSLASH, ALOLAN_FORM
-	learnset 1, SCRATCH
 	learnset 1, DEFENSE_CURL
 	learnset 3, FOCUS_ENERGY ; Bide → new move
 	learnset 5, ICY_WIND ; Powder Snow → similar move
@@ -204,7 +199,6 @@ EvosAttacks::
 	learnset 46, BLIZZARD
 
 	evos_attacks SandslashPlain
-	learnset 1, SCRATCH
 	learnset 1, SLASH ; Crush Claw → Slash ; evolution move
 	learnset 1, DEFENSE_CURL
 	learnset 3, MUD_SLAP ; Sand Attack → similar move
@@ -238,7 +232,6 @@ EvosAttacks::
 	evos_attacks NidoranF
 	evo_data EVOLVE_LEVEL, 16, NIDORINA
 	learnset 1, GROWL
-	learnset 1, SCRATCH
 	learnset 7, LEER ; Tail Whip → similar move
 	learnset 9, DOUBLE_KICK
 	learnset 13, POISON_STING
@@ -254,7 +247,6 @@ EvosAttacks::
 	evos_attacks Nidorina
 	evo_data EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
 	learnset 1, GROWL
-	learnset 1, SCRATCH
 	learnset 7, LEER ; Tail Whip → similar move
 	learnset 9, DOUBLE_KICK
 	learnset 13, POISON_STING
@@ -269,7 +261,6 @@ EvosAttacks::
 
 	evos_attacks Nidoqueen
 	learnset 1, CLOSE_COMBAT ; Superpower → similar move
-	learnset 1, SCRATCH
 	learnset 1, LEER ; Tail Whip → similar move
 	learnset 1, DOUBLE_KICK
 	learnset 1, POISON_STING
@@ -328,14 +319,12 @@ EvosAttacks::
 	learnset 1, GROWL
 	learnset 1, ENCORE
 	learnset 7, SING
-	learnset 10, DOUBLE_SLAP
 	learnset 13, DEFENSE_CURL
 	learnset 16, SWEET_KISS ; Follow Me → new move
 	learnset 19, DIZZY_PUNCH ; Bestow → Crystal unique move
 	learnset 22, TRI_ATTACK ; Wake-Up Slap → RBY TM move
 	learnset 25, MINIMIZE
 	learnset 28, DRAINING_KISS ; Stored Power → Sw/Sh move
-	learnset 31, METRONOME
 	learnset 34, REFLECT ; Cosmic Power → TM move
 	learnset 37, LIGHT_SCREEN ; Lucky Chant → TM move
 	learnset 40, BODY_SLAM
@@ -351,14 +340,11 @@ EvosAttacks::
 	learnset 1, PLAY_ROUGH ; LGPE TM move
 	learnset 1, SING
 	learnset 1, MINIMIZE
-	learnset 1, METRONOME
-	learnset 1, DOUBLE_SLAP
 
 	evos_attacks VulpixPlain
 	evo_data EVOLVE_ITEM, FIRE_STONE, NINETALES, PLAIN_FORM
 	learnset 1, EMBER
 	learnset 4, GROWL ; Tail Whip → new move
-	learnset 7, ASTONISH ; Roar → new move
 	learnset 9, CHARM ; Baby-Doll Eyes → similar move
 	learnset 10, QUICK_ATTACK
 	learnset 12, CONFUSE_RAY
@@ -426,7 +412,6 @@ EvosAttacks::
 	learnset 9, DIZZY_PUNCH ; Play Nice → Crystal unique move
 	learnset 11, DISARM_VOICE
 	learnset 14, DISABLE
-	learnset 17, DOUBLE_SLAP
 	learnset 20, ROLLOUT
 	learnset 22, CHARM ; Round → Igglybuff move
 	learnset 27, MEAN_LOOK ; Wake-Up Slap → new move
@@ -445,13 +430,11 @@ EvosAttacks::
 	learnset 1, SING
 	learnset 1, DEFENSE_CURL
 	learnset 1, DISABLE
-	learnset 1, DOUBLE_SLAP
 
 	evos_attacks Zubat
 	evo_data EVOLVE_LEVEL, 22, GOLBAT
 	learnset 1, ABSORB
 	learnset 5, SUPERSONIC
-	learnset 7, ASTONISH
 	learnset 11, BITE
 	learnset 13, GUST ; Wing Attack → egg move
 	learnset 17, CONFUSE_RAY
@@ -459,7 +442,6 @@ EvosAttacks::
 	learnset 23, SWIFT
 	learnset 25, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 29, MEAN_LOOK
-	learnset 31, LEECH_LIFE
 	learnset 35, HAZE
 	learnset 37, VENOSHOCK
 	learnset 41, AIR_SLASH
@@ -471,7 +453,6 @@ EvosAttacks::
 	learnset 1, ABSORB
 	learnset 1, CRUNCH ; LGPE move
 	learnset 5, SUPERSONIC
-	learnset 7, ASTONISH
 	learnset 11, BITE
 	learnset 13, GUST ; Wing Attack → egg move
 	learnset 17, CONFUSE_RAY
@@ -479,7 +460,6 @@ EvosAttacks::
 	learnset 24, SWIFT
 	learnset 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 32, MEAN_LOOK
-	learnset 35, LEECH_LIFE
 	learnset 40, HAZE
 	learnset 43, VENOSHOCK
 	learnset 48, AIR_SLASH
@@ -487,7 +467,7 @@ EvosAttacks::
 
 	evos_attacks Paras
 	evo_data EVOLVE_LEVEL, 24, PARASECT
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 2, SLEEP_POWDER ; LGPE move
 	learnset 4, STUN_SPORE
 	learnset 6, POISONPOWDER
@@ -497,13 +477,11 @@ EvosAttacks::
 	learnset 27, SLASH
 	learnset 33, GROWTH
 	learnset 38, GIGA_DRAIN
-	learnset 43, LEECH_LIFE ; Aromatherapy → TM move
 	learnset 49, HEALINGLIGHT ; Rage Powder → new move
 	learnset 54, X_SCISSOR
 
 	evos_attacks Parasect
 	learnset 1, SHADOW_CLAW ; evolution move
-	learnset 1, SCRATCH
 	learnset 2, SLEEP_POWDER ; LGPE move
 	learnset 4, STUN_SPORE
 	learnset 6, POISONPOWDER
@@ -513,21 +491,17 @@ EvosAttacks::
 	learnset 29, SLASH
 	learnset 37, GROWTH
 	learnset 44, GIGA_DRAIN
-	learnset 51, LEECH_LIFE ; Aromatherapy → TM move
 	learnset 59, HEALINGLIGHT ; Rage Powder → new move
 	learnset 66, X_SCISSOR
 
 	evos_attacks MeowthPlain
 	evo_data EVOLVE_LEVEL, 28, PERSIAN, PLAIN_FORM
-	learnset 1, SCRATCH
 	learnset 1, GROWL
 	learnset 6, BITE
-	learnset 9, ASTONISH ; Fake Out → new move
 	learnset 14, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 17, SCREECH
 	learnset 22, FEINT_ATTACK
 	learnset 25, PURSUIT ; Taunt → egg move
-	learnset 30, PAY_DAY
 	learnset 33, SLASH
 	learnset 38, NASTY_PLOT
 	learnset 41, THIEF ; Assurance → TM move
@@ -536,15 +510,12 @@ EvosAttacks::
 
 	evos_attacks MeowthAlolan
 	evo_data EVOLVE_LEVEL, 28, PERSIAN, ALOLAN_FORM
-	learnset 1, SCRATCH
 	learnset 1, GROWL
 	learnset 6, BITE
-	learnset 9, ASTONISH ; Fake Out → new move
 	learnset 14, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 17, SCREECH
 	learnset 22, FEINT_ATTACK
 	learnset 25, PURSUIT ; Taunt → egg move
-	learnset 30, PAY_DAY
 	learnset 33, SLASH
 	learnset 38, NASTY_PLOT
 	learnset 41, THIEF ; Assurance → TM move
@@ -554,11 +525,8 @@ EvosAttacks::
 
 	evos_attacks MeowthGalarian
 	evo_data EVOLVE_LEVEL, 28, PERRSERKER, PLAIN_FORM
-	learnset 1, ASTONISH ; Fake Out → new move
 	learnset 1, GROWL
 	learnset 4, HONE_CLAWS
-	learnset 8, SCRATCH
-	learnset 12, PAY_DAY
 	learnset 16, METAL_CLAW
 	learnset 20, PURSUIT ; Taunt → new move
 	learnset 24, SWAGGER
@@ -572,10 +540,8 @@ EvosAttacks::
 	learnset 1, BUBBLE_BEAM ; RBY TM move
 	learnset 1, PLAY_ROUGH
 	learnset 1, SWIFT ; evolution move
-	learnset 1, SCRATCH
 	learnset 1, GROWL
 	learnset 6, BITE
-	learnset 9, ASTONISH ; Fake Out → new move
 	learnset 14, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 17, SCREECH
 	learnset 22, FEINT_ATTACK
@@ -591,10 +557,8 @@ EvosAttacks::
 	learnset 1, BUBBLE_BEAM ; RBY TM move
 	learnset 1, PLAY_ROUGH
 	learnset 1, SWIFT ; evolution move
-	learnset 1, SCRATCH
 	learnset 1, GROWL
 	learnset 6, BITE
-	learnset 9, ASTONISH ; Fake Out → new move
 	learnset 14, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 17, SCREECH
 	learnset 22, FEINT_ATTACK
@@ -609,7 +573,7 @@ EvosAttacks::
 
 	evos_attacks Psyduck
 	evo_data EVOLVE_LEVEL, 33, GOLDUCK
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 4, LEER ; Tail Whip → similar move
 	learnset 7, WATER_GUN
 	learnset 10, CONFUSION
@@ -627,7 +591,6 @@ EvosAttacks::
 	learnset 46, PSYCHIC_M ; TM move
 
 	evos_attacks Golduck
-	learnset 1, SCRATCH
 	learnset 1, AQUA_JET
 	learnset 4, LEER ; Tail Whip → similar move
 	learnset 7, WATER_GUN
@@ -647,16 +610,13 @@ EvosAttacks::
 
 	evos_attacks Mankey
 	evo_data EVOLVE_LEVEL, 28, PRIMEAPE
-	learnset 1, SCRATCH
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 1, FOCUS_ENERGY
 	learnset 5, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 8, KARATE_CHOP
 	learnset 12, PURSUIT
 	learnset 15, SEISMIC_TOSS
 	learnset 19, SWAGGER
-	learnset 22, CROSS_CHOP
 	learnset 26, REVERSAL ; Assurance → egg move
 	learnset 29, FEINT_ATTACK ; Punishment → new move
 	learnset 33, THRASH
@@ -668,17 +628,13 @@ EvosAttacks::
 	evos_attacks Primeape
 	evo_data EVOLVE_MOVE, OUTRAGE, ANNIHILAPE
 	learnset 1, OUTRAGE
-	learnset 1, RAGE ; evolution move
-	learnset 1, SCRATCH
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 1, FOCUS_ENERGY
 	learnset 5, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 8, KARATE_CHOP
 	learnset 12, PURSUIT
 	learnset 15, SEISMIC_TOSS
 	learnset 19, SWAGGER
-	learnset 22, CROSS_CHOP
 	learnset 26, REVERSAL ; Assurance → egg move
 	learnset 30, FEINT_ATTACK ; Punishment → new move
 	learnset 35, THRASH
@@ -756,7 +712,6 @@ EvosAttacks::
 	learnset 1, SWEET_KISS ; event move
 	learnset 1, WATER_GUN ; Water Sport → Water Gun
 	learnset 5, HYPNOSIS ; Water Gun → Hypnosis
-	learnset 8, DOUBLE_SLAP ; Hypnosis → Double Slap
 	learnset 11, AQUA_JET ; Bubble → new move
 	learnset 15, MUD_SLAP ; Double Slap → TM move
 	learnset 18, RAIN_DANCE
@@ -774,7 +729,6 @@ EvosAttacks::
 	learnset 1, SWEET_KISS ; event move
 	learnset 1, WATER_GUN ; Water Sport → Water Gun
 	learnset 5, HYPNOSIS ; Water Gun → Hypnosis
-	learnset 8, DOUBLE_SLAP ; Hypnosis → Double Slap
 	learnset 11, AQUA_JET ; Bubble → new move
 	learnset 15, MUD_SLAP ; Double Slap → TM move
 	learnset 18, RAIN_DANCE
@@ -789,11 +743,9 @@ EvosAttacks::
 	evos_attacks Poliwrath
 	learnset 1, BUBBLE_BEAM
 	learnset 1, HYPNOSIS
-	learnset 1, DOUBLE_SLAP
 	learnset 1, CLOSE_COMBAT ; evolution move
 	learnset 32, DYNAMICPUNCH
 	learnset 43, EARTH_POWER ; Mind Reader → Poliwhirl move
-	learnset 53, CROSS_CHOP ; Circle Throw → similar move
 
 	evos_attacks GeodudePlain
 	evo_data EVOLVE_LEVEL, 25, GRAVELER, PLAIN_FORM
@@ -1272,7 +1224,6 @@ EvosAttacks::
 	learnset 1, WRAP ; Bind → similar move
 	learnset 4, CURSE
 	learnset 7, ROCK_THROW
-	learnset 10, RAGE
 	learnset 13, ROCK_BLAST ; Rock Tomb → egg move
 	learnset 16, BODY_SLAM ; Stealth Rock → TM move
 	learnset 19, SANDSTORM ; Rock Polish → Sandstorm
@@ -1296,7 +1247,6 @@ EvosAttacks::
 	learnset 7, REFLECT
 	learnset 11, LEECH_SEED
 	learnset 14, CONFUSION
-	learnset 17, RAGE ; Bullet Seed → RBY TM move
 	learnset 19, STUN_SPORE
 	learnset 21, POISONPOWDER
 	learnset 23, SLEEP_POWDER
@@ -1350,11 +1300,9 @@ EvosAttacks::
 	evo_data EVOLVE_LEVEL, 35, WEEZING, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 4, ACID ; Smog → new move
-	learnset 7, SMOKESCREEN
 	learnset 12, ENDURE ; Assurance → TM move
 	learnset 15, WILL_O_WISP ; Clear Smog → TM move
 	learnset 18, VENOSHOCK ; Sludge → tutor move
-	learnset 23, RAGE ; Self-Destruct → RBY TM move
 	learnset 26, HAZE
 	learnset 29, GYRO_BALL
 	learnset 34, SLUDGE_BOMB
@@ -1366,11 +1314,9 @@ EvosAttacks::
 	evos_attacks WeezingPlain
 	learnset 1, TACKLE
 	learnset 4, ACID ; Smog → new move
-	learnset 7, SMOKESCREEN
 	learnset 12, ENDURE ; Assurance → TM move
 	learnset 15, WILL_O_WISP ; Clear Smog → TM move
 	learnset 18, VENOSHOCK ; Sludge → tutor move
-	learnset 23, RAGE ; Self-Destruct → RBY TM move
 	learnset 26, HAZE
 	learnset 29, GYRO_BALL
 	learnset 34, SLUDGE_BOMB
@@ -1383,11 +1329,9 @@ EvosAttacks::
 	learnset 1, SAFEGUARD ; evolution move
 	learnset 1, TACKLE
 	learnset 4, GUST ; Smog → new move
-	learnset 7, SMOKESCREEN
 	learnset 12, ENDURE ; Assurance → TM move
 	learnset 15, WILL_O_WISP ; Clear Smog → TM move
 	learnset 18, SCREECH ; Sludge → Sw/Sh TM move
-	learnset 23, RAGE ; Self-Destruct → RBY TM move
 	learnset 26, HAZE ; Aromatherapy → Kantonian move
 	learnset 29, GYRO_BALL
 	learnset 34, PLAY_ROUGH ; Sludge Bomb → Sw/Sh TR move
@@ -1424,7 +1368,6 @@ EvosAttacks::
 	learnset 10, BITE ; Tail Whip → Bite
 	learnset 13, HEADBUTT ; Bite → tutor move
 	learnset 19, DOUBLE_KICK ; Double Hit → new move
-	learnset 22, RAGE
 	learnset 25, TAKE_DOWN ; Mega Punch → RBY TM move
 	learnset 31, STOMP ; Chip Away → egg move
 	learnset 34, MACH_PUNCH ; Dizzy Punch → new move
@@ -1437,7 +1380,6 @@ EvosAttacks::
 	evos_attacks Horsea
 	evo_data EVOLVE_LEVEL, 32, SEADRA
 	learnset 1, WATER_GUN ; Bubble → similar move
-	learnset 5, SMOKESCREEN
 	learnset 9, LEER
 	learnset 13, BUBBLE_BEAM ; Water Gun → Bubble Beam
 	learnset 17, AQUA_JET ; Twister → new move
@@ -1452,7 +1394,6 @@ EvosAttacks::
 	evos_attacks Seadra
 	evo_data EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
 	learnset 1, WATER_GUN ; Bubble → similar move
-	learnset 5, SMOKESCREEN
 	learnset 9, LEER
 	learnset 13, BUBBLE_BEAM ; Water Gun → Bubble Beam
 	learnset 17, AQUA_JET ; Twister → new move
@@ -1499,9 +1440,7 @@ EvosAttacks::
 	learnset 1, CONFUSION
 	learnset 4, HYPNOSIS ; Copycat → egg move
 	learnset 8, CALM_MIND ; Meditate → TM move
-	learnset 11, DOUBLE_SLAP
 	learnset 13, PROTECT ; Mimic → event move
-	learnset 15, METRONOME ; Psywave → RBY TM move
 	learnset 18, ENCORE
 	learnset 22, LIGHT_SCREEN
 	learnset 22, REFLECT
@@ -1543,11 +1482,9 @@ EvosAttacks::
 	learnset 12, SWIFT
 	learnset 15, BULK_UP ; Shock Wave → TM move
 	learnset 19, THUNDER_WAVE
-	learnset 22, KARATE_CHOP ; Electro Ball → egg move
 	learnset 26, LIGHT_SCREEN
 	learnset 29, THUNDERPUNCH
 	learnset 36, SCREECH ; Discharge → Screech
-	learnset 42, CROSS_CHOP ; Screech → new move
 	learnset 49, THUNDERBOLT
 	learnset 55, THUNDER
 
@@ -1556,7 +1493,6 @@ EvosAttacks::
 	learnset 1, HAZE ; Smog → new move
 	learnset 1, LEER
 	learnset 5, EMBER
-	learnset 8, SMOKESCREEN
 	learnset 12, FEINT_ATTACK
 	learnset 15, FIRE_SPIN
 	learnset 19, LOW_KICK ; Clear Smog → HGSS tutor move
@@ -1574,7 +1510,6 @@ EvosAttacks::
 	learnset 4, WRAP ; Bind → similar move
 	learnset 8, SEISMIC_TOSS
 	learnset 12, DEFENSE_CURL ; Harden → similar move
-	learnset 16, RAGE ; Revenge → RBY TM move
 	learnset 20, ROCK_THROW ; Brick Break → event move
 	learnset 26, ROCK_SMASH ; Vital Throw → TM move
 	learnset 29, X_SCISSOR
@@ -1685,7 +1620,6 @@ EvosAttacks::
 	learnset 20, FIRE_SPIN ; Fire Fang → Fire Spin
 	learnset 25, FLAME_CHARGE ; Fire Spin → TM move
 	learnset 29, SCARY_FACE
-	learnset 33, SMOKESCREEN ; Smog → new move
 	learnset 37, FLAMETHROWER ; Lava Plume → new move
 	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
 	learnset 45, FLARE_BLITZ
@@ -1695,7 +1629,6 @@ EvosAttacks::
 	learnset 4, DEFENSE_CURL
 	learnset 9, AMNESIA
 	learnset 12, LICK
-	learnset 17, RAGE ; Chip Away → RBY TM move
 	learnset 20, TAKE_DOWN ; Yawn → RBY TM move
 	learnset 25, BODY_SLAM
 	learnset 28, REST
@@ -1771,7 +1704,6 @@ EvosAttacks::
 	learnset 1, ABSORB
 	learnset 1, CRUNCH ; LGPE move
 	learnset 5, SUPERSONIC
-	learnset 7, ASTONISH
 	learnset 11, BITE
 	learnset 13, GUST ; Wing Attack → egg move
 	learnset 17, CONFUSE_RAY
@@ -1779,7 +1711,6 @@ EvosAttacks::
 	learnset 24, SWIFT
 	learnset 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 32, MEAN_LOOK
-	learnset 35, LEECH_LIFE
 	learnset 40, HAZE
 	learnset 43, VENOSHOCK
 	learnset 48, AIR_SLASH
@@ -1836,9 +1767,7 @@ EvosAttacks::
 
 	evos_attacks Cleffa
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
-	learnset 1, SPLASH
 	learnset 1, TACKLE ; Pound → similar move
-	learnset 1, METRONOME ; Copycat → egg move
 	learnset 4, SING
 	learnset 8, SWEET_KISS
 	learnset 12, DISARM_VOICE
@@ -1860,13 +1789,11 @@ EvosAttacks::
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	learnset 1, GROWL
 	learnset 1, CHARM
-	learnset 5, METRONOME
 	learnset 9, SWEET_KISS
 	learnset 13, SING ; Yawn → similar move
 	learnset 17, ENCORE
 	learnset 21, DIZZY_PUNCH ; Follow Me → new move
 	learnset 25, HEAL_BELL ; Bestow → HGSS tutor move
-	learnset 29, FRESH_SNACK ; Wish → new move
 	learnset 33, ANCIENTPOWER
 	learnset 37, SAFEGUARD
 	learnset 41, BATON_PASS
@@ -1879,13 +1806,11 @@ EvosAttacks::
 	learnset 1, GROWL
 	learnset 1, CHARM
 	learnset 1, DISARM_VOICE ; evolution move
-	learnset 5, METRONOME
 	learnset 9, SWEET_KISS
 	learnset 13, SING ; Yawn → similar move
 	learnset 17, ENCORE
 	learnset 21, DIZZY_PUNCH ; Follow Me → new move
 	learnset 25, HEAL_BELL ; Bestow → HGSS tutor move
-	learnset 29, FRESH_SNACK ; Wish → new move
 	learnset 33, ANCIENTPOWER
 	learnset 37, SAFEGUARD
 	learnset 41, BATON_PASS
@@ -2011,14 +1936,12 @@ endc
 	learnset 1, GIGA_DRAIN ; Bounce → TM move ; evolution move
 	learnset 1, BUBBLE_BEAM
 	learnset 1, HYPNOSIS
-	learnset 1, DOUBLE_SLAP
 	learnset 1, PERISH_SONG
 	learnset 27, SWAGGER
 	learnset 48, HYPER_VOICE
 
 	evos_attacks Sunkern
 	evo_data EVOLVE_ITEM, SUN_STONE, SUNFLORA
-	learnset 1, SPLASH ; Growth → Hoppip move
 	learnset 1, ABSORB
 	learnset 4, GROWTH ; Ingrain → Growth
 	learnset 7, DEFENSE_CURL ; Grass Whistle → TM move
@@ -2036,7 +1959,6 @@ endc
 	learnset 43, SEED_BOMB
 
 	evos_attacks Sunflora
-	learnset 1, SPLASH ; Growth → Hoppip move
 	learnset 1, TACKLE ; Pound → similar move
 	learnset 1, ABSORB
 if !DEF(FAITHFUL)
@@ -2126,7 +2048,6 @@ endc
 	evos_attacks Murkrow
 	evo_data EVOLVE_ITEM, DUSK_STONE, HONCHKROW
 	learnset 1, PECK
-	learnset 1, ASTONISH
 	learnset 5, PURSUIT
 	learnset 11, HAZE
 	learnset 15, WING_ATTACK
@@ -2183,10 +2104,8 @@ endc
 	evos_attacks Misdreavus
 	evo_data EVOLVE_ITEM, DUSK_STONE, MISMAGIUS
 	learnset 1, GROWL
-	learnset 1, TELEPORT ; Psywave → new move
 	learnset 1, DISARM_VOICE ; new move
 	learnset 5, CONFUSION ; Spite → new move
-	learnset 10, ASTONISH
 	learnset 14, CONFUSE_RAY
 	learnset 19, MEAN_LOOK
 	learnset 23, HEX
@@ -2201,10 +2120,8 @@ endc
 
 	evos_attacks Dunsparce
 	evo_data EVOLVE_LEVEL, 32, DUDUNSPARCE, NO_FORM ; preserve pre-evo form
-	learnset 1, RAGE
 	learnset 1, DEFENSE_CURL
 	learnset 3, ROLLOUT
-	learnset 6, ASTONISH ; Spite → egg move
 	learnset 8, PURSUIT
 	learnset 11, SCREECH
 	learnset 13, MUD_SLAP
@@ -2267,7 +2184,6 @@ endc
 	learnset 1, WRAP ; Bind → similar move
 	learnset 4, CURSE
 	learnset 7, ROCK_THROW
-	learnset 10, RAGE
 	learnset 13, ROCK_BLAST ; Rock Tomb → egg move
 	learnset 16, BODY_SLAM ; Stealth Rock → TM move
 	learnset 19, SANDSTORM ; Autotomize → Sandstorm
@@ -2293,7 +2209,6 @@ endc
 	learnset 13, LICK
 	learnset 19, HEADBUTT
 	learnset 25, ROAR
-	learnset 31, RAGE
 	learnset 37, PLAY_ROUGH
 	learnset 43, DOUBLE_EDGE ; Payback → event move
 	learnset 49, CRUNCH
@@ -2307,7 +2222,6 @@ endc
 	learnset 13, LICK
 	learnset 19, HEADBUTT
 	learnset 27, ROAR
-	learnset 35, RAGE
 	learnset 43, PLAY_ROUGH
 	learnset 51, DOUBLE_EDGE ; Payback → event move
 	learnset 59, CRUNCH
@@ -2372,7 +2286,6 @@ endc
 
 	evos_attacks SneaselPlain
 	evo_data EVOLVE_HOLDING, RAZOR_CLAW, TR_EVENITE, WEAVILE
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 1, BITE ; Taunt → egg move
 	learnset 8, QUICK_ATTACK
@@ -2391,7 +2304,6 @@ endc
 
 	evos_attacks SneaselHisuian
 	evo_data EVOLVE_HOLDING, RAZOR_CLAW, TR_MORNDAY, SNEASLER
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 1, BITE ; Taunt → egg move
 	learnset 8, QUICK_ATTACK
@@ -2471,7 +2383,6 @@ endc
 	evo_data EVOLVE_LEVEL, 38, CURSOLA, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL ; Harden → similar move
-	learnset 5, ASTONISH
 	learnset 10, DISABLE
 	learnset 15, HAZE ; Spite → egg move
 	learnset 20, ANCIENTPOWER
@@ -2502,7 +2413,6 @@ endc
 	learnset 54, HYPER_BEAM
 
 	evos_attacks Octillery
-	learnset 1, OCTAZOOKA ; evolution move
 	learnset 1, ROCK_BLAST
 	learnset 1, POWER_WHIP ; new move
 	learnset 1, WATER_GUN
@@ -2528,7 +2438,6 @@ endc
 ; based on Gen V Chatot
 	learnset 1, PECK
 	learnset 5, GROWL
-	learnset 9, PAY_DAY ; Mirror Move → new move
 	learnset 13, SING
 	learnset 17, ICY_WIND
 	learnset 21, WING_ATTACK
@@ -2583,7 +2492,6 @@ endc
 	learnset 1, LEER
 	learnset 1, EMBER
 	learnset 4, PURSUIT ; Howl → egg move
-	learnset 8, SMOKESCREEN ; Smog → new move
 	learnset 13, ROAR
 	learnset 16, BITE
 	learnset 20, FORESIGHT ; Odor Sleuth → similar move
@@ -2601,7 +2509,6 @@ endc
 	learnset 1, LEER
 	learnset 1, EMBER
 	learnset 4, PURSUIT ; Howl → egg move
-	learnset 8, SMOKESCREEN ; Smog → new move
 	learnset 13, ROAR
 	learnset 16, BITE
 	learnset 20, FORESIGHT ; Odor Sleuth → similar move
@@ -2618,7 +2525,6 @@ endc
 	evos_attacks Kingdra
 	learnset 1, DRAGONBREATH ; evolution move
 	learnset 1, WATER_GUN ; Bubble → similar move
-	learnset 5, SMOKESCREEN
 	learnset 9, LEER
 	learnset 13, BUBBLE_BEAM ; Water Gun → Bubble Beam
 	learnset 17, AQUA_JET ; Twister → new move
@@ -2639,11 +2545,9 @@ endc
 	learnset 12, SWIFT
 	learnset 15, BULK_UP ; Shock Wave → TM move
 	learnset 19, THUNDER_WAVE
-	learnset 22, KARATE_CHOP ; Electro Ball → egg move
 	learnset 26, LIGHT_SCREEN
 	learnset 29, THUNDERPUNCH
 	learnset 33, SCREECH ; Discharge → Screech
-	learnset 36, CROSS_CHOP ; Screech → new move
 	learnset 40, THUNDERBOLT
 	learnset 43, THUNDER
 
@@ -2652,7 +2556,6 @@ endc
 	learnset 1, HAZE ; Smog → new move
 	learnset 1, LEER
 	learnset 5, EMBER
-	learnset 8, SMOKESCREEN
 	learnset 12, FEINT_ATTACK
 	learnset 15, FIRE_SPIN
 	learnset 19, LOW_KICK ; Clear Smog → HGSS tutor move
@@ -2671,7 +2574,6 @@ endc
 	learnset 1, LEER
 	learnset 5, SANDSTORM
 	learnset 10, SCREECH
-	learnset 14, RAGE ; Chip Away → event move
 	learnset 19, ROCK_SLIDE
 	learnset 23, SCARY_FACE
 	learnset 28, THRASH
@@ -2692,7 +2594,6 @@ endc
 	learnset 1, LEER
 	learnset 5, SANDSTORM
 	learnset 10, SCREECH
-	learnset 14, RAGE ; Chip Away → event move
 	learnset 19, ROCK_SLIDE
 	learnset 23, SCARY_FACE
 	learnset 28, THRASH
@@ -2714,7 +2615,6 @@ endc
 	learnset 1, LEER
 	learnset 5, SANDSTORM
 	learnset 10, SCREECH
-	learnset 14, RAGE ; Chip Away → event move
 	learnset 19, ROCK_SLIDE
 	learnset 23, SCARY_FACE
 	learnset 28, THRASH
@@ -2923,7 +2823,6 @@ endc
 	learnset 19, POISONPOWDER ; Feint
 	learnset 22, COUNTER
 	learnset 22, MACH_PUNCH
-	learnset 28, KARATE_CHOP ; Force Palm
 	;learnset 33, MIND_READER
 	learnset 39, DRAIN_PUNCH ; Sky Uppercut
 	learnset 44, SEED_BOMB
@@ -2991,7 +2890,6 @@ endc
 
 	evos_attacks Azurill
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
-	learnset 1, SPLASH
 	learnset 1, WATER_GUN
 	learnset 2, GROWL ; Tail Whip → new move
 	learnset 5, FORESIGHT ; Water Sport → Marill egg move
@@ -3050,7 +2948,6 @@ endc
 	learnset 1, PLAY_ROUGH
 	learnset 1, IRON_HEAD
 	learnset 1, LEER ; Taunt
-	learnset 1, LICK ; Astonish
 	;learnset 1, FAIRY_WIND
 	learnset 1, GROWL
 	learnset 9, BITE
@@ -3069,7 +2966,6 @@ endc
 	learnset 1, PLAY_ROUGH
 	learnset 1, IRON_HEAD
 	learnset 1, LEER ; Taunt
-	learnset 1, LICK ; Astonish
 	;learnset 1, FAIRY_WIND
 	learnset 1, GROWL
 	learnset 9, BITE
@@ -3148,12 +3044,10 @@ endc
 	evos_attacks Meditite
 	evo_data EVOLVE_LEVEL, 37, MEDICHAM
 	learnset 1, DEFENSE_CURL ; Bide
-	learnset 4, DOUBLE_SLAP ; Meditite
 	learnset 7, CONFUSION
 	learnset 9, PROTECT ; Detect
 	learnset 12, ENDURE
 	learnset 15, MACH_PUNCH ; Feint
-	learnset 17, KARATE_CHOP ; Force Palm
 	learnset 20, HIDDEN_POWER
 	learnset 23, CALM_MIND
 	;learnset 25, MIND_READER
@@ -3171,15 +3065,12 @@ endc
 	learnset 1, ICE_PUNCH
 	learnset 1, THUNDERPUNCH
 	learnset 1, DEFENSE_CURL ; Bide
-	learnset 1, DOUBLE_SLAP ; Meditite
 	learnset 1, CONFUSION
 	learnset 1, PROTECT ; Detect
-	learnset 4, DOUBLE_SLAP ; Meditite
 	learnset 7, CONFUSION
 	learnset 9, PROTECT ; Detect
 	learnset 12, ENDURE
 	learnset 15, MACH_PUNCH ; Feint
-	learnset 17, KARATE_CHOP ; Force Palm
 	learnset 20, HIDDEN_POWER
 	learnset 23, CALM_MIND
 	;learnset 25, MIND_READER
@@ -3635,10 +3526,8 @@ endc
 	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
 	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
 	learnset 1, GROWL
-	learnset 1, TELEPORT ; Psywave → new move
 	learnset 1, DISARM_VOICE ; new move
 	learnset 1, CONFUSION ; Spite → new move
-	learnset 1, ASTONISH
 
 	evos_attacks Shuppet
 	evo_data EVOLVE_LEVEL, 37, BANETTE
@@ -3685,10 +3574,8 @@ endc
 	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
 	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
 	learnset 1, GROWL
-	learnset 1, TELEPORT ; Psywave → new move
 	learnset 1, DISARM_VOICE ; new move
 	learnset 1, CONFUSION ; Spite → new move
-	learnset 1, ASTONISH
 
 	evos_attacks Absol
 	learnset 1, POWER_GEM
@@ -3696,10 +3583,8 @@ endc
 	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
 	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
 	learnset 1, GROWL
-	learnset 1, TELEPORT ; Psywave → new move
 	learnset 1, DISARM_VOICE ; new move
 	learnset 1, CONFUSION ; Spite → new move
-	learnset 1, ASTONISH
 
 	evos_attacks Snorunt
 	evo_data EVOLVE_LEVEL, 42, GLALIE
@@ -4216,14 +4101,11 @@ endc
 	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
 	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
 	learnset 1, GROWL
-	learnset 1, TELEPORT ; Psywave → new move
 	learnset 1, DISARM_VOICE ; new move
 	learnset 1, CONFUSION ; Spite → new move
-	learnset 1, ASTONISH
 
 	evos_attacks Honchkrow
 	learnset 1, SUCKER_PUNCH
-	learnset 1, ASTONISH
 	learnset 1, PURSUIT
 	learnset 1, HAZE
 	learnset 1, WING_ATTACK
@@ -4300,9 +4182,7 @@ endc
 	learnset 1, TACKLE  ; Pound → similar move
 	learnset 4, HYPNOSIS ; Copycat → egg move
 	learnset 8, CALM_MIND ; Meditate → TM move
-	learnset 11, DOUBLE_SLAP
 	learnset 13, PROTECT ; Mimic → event move
-	learnset 15, METRONOME ; Psywave → RBY TM move
 	learnset 18, ENCORE
 	learnset 22, LIGHT_SCREEN
 	learnset 22, REFLECT
@@ -4315,15 +4195,22 @@ endc
 	learnset 46, BATON_PASS
 	learnset 50, SAFEGUARD
 
+	evos_attacks Spiritomb
+	learnset 1, POWER_GEM
+	learnset 1, SHADOW_BALL ; Phantom Force → TM move
+	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
+	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
+	learnset 1, GROWL
+	learnset 1, DISARM_VOICE ; new move
+	learnset 1, CONFUSION ; Spite → new move
+
 	evos_attacks Munchlax
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
 	learnset 1, SWEET_KISS ; Recycle → event move
-	learnset 1, METRONOME
 	learnset 1, TACKLE
 	learnset 4, DEFENSE_CURL
 	learnset 9, AMNESIA
 	learnset 12, LICK
-	learnset 17, RAGE ; Chip Away → RBY TM move
 	learnset 20, TAKE_DOWN ; Screech → RBY TM move
 	learnset 25, BODY_SLAM
 	learnset 28, SCREECH ; Stockpile → Screech
@@ -4355,7 +4242,6 @@ endc
 	learnset 49, HYDRO_PUMP
 
 	evos_attacks Weavile
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 1, BITE ; Taunt → egg move
 	learnset 8, QUICK_ATTACK
@@ -4443,11 +4329,9 @@ endc
 	learnset 12, SWIFT
 	learnset 15, BULK_UP ; Shock Wave → TM move
 	learnset 19, THUNDER_WAVE
-	learnset 22, KARATE_CHOP ; Electro Ball → egg move
 	learnset 26, LIGHT_SCREEN
 	learnset 29, THUNDERPUNCH
 	learnset 36, SCREECH ; Discharge → Screech
-	learnset 42, CROSS_CHOP ; Screech → new move
 	learnset 49, THUNDERBOLT
 	learnset 55, THUNDER
 	learnset 62, GIGA_IMPACT
@@ -4458,7 +4342,6 @@ endc
 	learnset 1, HAZE ; Smog → new move
 	learnset 1, LEER
 	learnset 5, EMBER
-	learnset 8, SMOKESCREEN
 	learnset 12, FEINT_ATTACK
 	learnset 15, FIRE_SPIN
 	learnset 19, LOW_KICK ; Clear Smog → HGSS tutor move
@@ -4550,7 +4433,6 @@ endc
 	learnset 14, ENDURE
 	learnset 18, MAGNITUDE ; Mud Bomb → new move
 	learnset 21, HAIL
-	learnset 24, AVALANCHE ; Ice Fang → egg move
 	learnset 28, TAKE_DOWN
 	learnset 34, ROCK_BLAST ; Double Hit → Sw/Sh move
 	learnset 37, BULLDOZE ; Mist → TM move
@@ -4580,11 +4462,8 @@ endc
 	learnset 1, IRON_HEAD ; evolution move
 	learnset 1, COUNTER ; Metal Burst → similar move
 	learnset 1, PLAY_ROUGH ; Iron Defense → TR move
-	learnset 1, ASTONISH ; Fake Out → new move
 	learnset 1, GROWL
 	learnset 1, HONE_CLAWS
-	learnset 1, SCRATCH
-	learnset 12, PAY_DAY
 	learnset 16, METAL_CLAW
 	learnset 20, PURSUIT ; Taunt → new move
 	learnset 24, SWAGGER
@@ -4599,7 +4478,6 @@ endc
 	learnset 1, PERISH_SONG
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL ; Harden → similar move
-	learnset 1, ASTONISH
 	learnset 1, DISABLE
 	learnset 15, HAZE ; Spite → egg move
 	learnset 20, ANCIENTPOWER
@@ -4626,7 +4504,6 @@ endc
 	learnset 1, BATON_PASS
 	learnset 1, ICE_SHARD
 	learnset 12, CONFUSION
-	learnset 16, METRONOME ; Ally Switch → TR move
 	learnset 20, ICY_WIND
 	learnset 24, DOUBLE_KICK
 	learnset 28, PSYBEAM
@@ -4657,7 +4534,6 @@ endc
 	learnset 57, SWORDS_DANCE
 
 	evos_attacks Sneasler
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 1, BITE ; Taunt → egg move
 	learnset 8, QUICK_ATTACK
@@ -4676,10 +4552,8 @@ endc
 	learnset 50, GUNK_SHOT ; SV TM move
 
 	evos_attacks Dudunsparce
-	learnset 1, RAGE
 	learnset 1, DEFENSE_CURL
 	learnset 3, ROLLOUT
-	learnset 6, ASTONISH ; Spite → egg move
 	learnset 8, PURSUIT
 	learnset 11, SCREECH
 	learnset 13, MUD_SLAP
@@ -4705,17 +4579,13 @@ endc
 	evos_attacks Annihilape
 	learnset 1, SHADOW_CLAW ; Shadow Punch → similar move ; evolution move
 	learnset 1, OUTRAGE
-	learnset 1, RAGE
-	learnset 1, SCRATCH
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 1, FOCUS_ENERGY
 	learnset 5, FURY_STRIKES ; Fury Swipes → similar move
-	learnset 8, KARATE_CHOP
 	learnset 12, PURSUIT
 	learnset 15, SEISMIC_TOSS
 	learnset 19, SWAGGER
-	learnset 22, CROSS_CHOP
 	learnset 26, REVERSAL ; Assurance → egg move
 	learnset 30, FEINT_ATTACK ; Punishment → new move
 	learnset 35, THRASH
@@ -4866,7 +4736,6 @@ endc
 	learnset 16, BUBBLE_BEAM ; Razor Shell
 	;learnset 19, FURY_CUTTER
 	learnset 23, WATER_PULSE
-	learnset 25, KARATE_CHOP ; Revenge
 	learnset 29, AQUA_JET
 	learnset 31, ENCORE
 	learnset 35, AQUA_TAIL
@@ -4883,7 +4752,6 @@ endc
 	learnset 16, BUBBLE_BEAM ; Razor Shell
 	;learnset 21, FURY_CUTTER
 	learnset 26, WATER_PULSE
-	learnset 29, KARATE_CHOP ; Revenge
 	learnset 34, AQUA_JET
 	learnset 37, ENCORE
 	learnset 42, AQUA_TAIL
@@ -4904,7 +4772,6 @@ endc
 	learnset 16, BUBBLE_BEAM ; Razor Shell
 	;learnset 21, FURY_CUTTER
 	learnset 26, WATER_PULSE
-	learnset 29, KARATE_CHOP ; Revenge
 	learnset 34, AQUA_JET
 	learnset 35, SLASH
 	learnset 39, ENCORE
@@ -4927,7 +4794,6 @@ endc
 	learnset 23, DISABLE ; After You
 	learnset 26, FOCUS_ENERGY
 	;learnset 28, WORK_UP
-	learnset 31, HYPER_FANG
 	learnset 33, NASTY_PLOT
 	learnset 36, MEAN_LOOK
 	learnset 38, BATON_PASS
@@ -4950,7 +4816,6 @@ endc
 	learnset 25, DISABLE ; After You
 	learnset 29, FOCUS_ENERGY
 	;learnset 32, WORK_UP
-	learnset 36, HYPER_FANG
 	learnset 39, NASTY_PLOT
 	learnset 43, MEAN_LOOK
 	learnset 46, BATON_PASS
@@ -5016,7 +4881,7 @@ endc
 	
 	evos_attacks Purrloin
 	evo_data EVOLVE_LEVEL, 20, LIEPARD
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 3, GROWL
 	learnset 6, LEER ; Assist
 	learnset 10, MUD_SLAP ; Sand-Attack
@@ -5035,7 +4900,7 @@ endc
 	learnset 49, PLAY_ROUGH
 	
 	evos_attacks Liepard
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 1, GROWL
 	learnset 1, LEER ; Assist
 	learnset 1, MUD_SLAP ; Sand-Attack
@@ -5337,7 +5202,7 @@ endc
 	
 	evos_attacks Drilbur
 	evo_data EVOLVE_LEVEL, 31, EXCADRILL
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 5, RAPID_SPIN
 	learnset 8, MUD_SLAP
 	learnset 12, FURY_STRIKES ; Fury Swipes
@@ -5352,7 +5217,7 @@ endc
 	learnset 43, IRON_HEAD ; Drill Run
 	
 	evos_attacks Excadrill
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 1, RAPID_SPIN
 	learnset 1, MUD_SLAP
 	learnset 1, FURY_STRIKES ; Fury Swipes
@@ -5378,7 +5243,6 @@ endc
 	learnset 1, DISARM_VOICE
 	learnset 9, SAFEGUARD ; Refresh
 	learnset 13, DISARM_VOICE
-	learnset 17, DOUBLE_SLAP
 	learnset 21, ATTRACT
 	learnset 25, DIZZY_PUNCH ; Secret Power
 	;learnset 29, ENTRAINMENT
@@ -5505,7 +5369,6 @@ endc
 	learnset 1, LEER
 	learnset 1, FOCUS_ENERGY
 	;learnset 9, VITAL_THROW
-	learnset 13, KARATE_CHOP ; Revenge
 	learnset 17, DRAIN_PUNCH ; Storm Throw
 	learnset 21, BODY_SLAM
 	learnset 25, BULK_UP
@@ -5516,21 +5379,12 @@ endc
 	learnset 45, REVERSAL
 	
 	evos_attacks Sawk
-if DEF(FAITHFUL)
-	learnset 1, ROCK_SMASH
-else
 	learnset 1, TACKLE ; Rock Smash
-endc
 	learnset 1, LEER
 	learnset 1, FOCUS_ENERGY
 	learnset 9, DOUBLE_KICK ; Low Sweep
 	learnset 13, COUNTER
-	learnset 17, KARATE_CHOP
-if DEF(FAITHFUL)
-	learnset 21, CROSS_CHOP ; Brick Break
-else
 	learnset 21, BRICK_BREAK
-endc
 	learnset 25, BULK_UP
 	learnset 29, HI_JUMP_KICK ; Retaliate
 	learnset 33, ENDURE
@@ -5773,7 +5627,6 @@ endc
 	learnset 1, TACKLE
 	learnset 3, ROLLOUT
 	learnset 6, EMBER ; Incinerate
-	learnset 9, RAGE
 	;learnset 11, FIRE_FANG
 	learnset 14, HEADBUTT
 	learnset 17, HYPER_VOICE ; Uproar
@@ -5784,7 +5637,6 @@ endc
 	learnset 30, BELLY_DRUM
 	learnset 33, FLARE_BLITZ
 	learnset 36, SWAGGER ; Taunt
-	learnset 39, CROSS_CHOP ; Superpower
 	;learnset 42, OVERHEAT
 
 	evos_attacks DarumakaGalarian
@@ -5816,10 +5668,8 @@ endc
 	learnset 1, TACKLE
 	learnset 1, ROLLOUT
 	learnset 1, EMBER ; Incinerate
-	learnset 1, RAGE
 	learnset 3, ROLLOUT
 	learnset 6, EMBER ; Incinerate
-	learnset 9, RAGE
 	;learnset 11, FIRE_FANG
 	learnset 14, HEADBUTT
 	learnset 17, HYPER_VOICE ; Uproar
@@ -5831,7 +5681,6 @@ endc
 	learnset 33, FLARE_BLITZ
 	;learnset 34, HAMMER_ARM
 	learnset 39, SWAGGER ; Taunt
-	learnset 47, CROSS_CHOP ; Superpower
 	;learnset 54, OVERHEAT
 
 	evos_attacks DarmanitanGalarian
@@ -5935,7 +5784,6 @@ endc
 	learnset 38, CRUNCH
 	learnset 42, FACADE
 	;learnset 45, ROCK_CLIMB
-	learnset 48, CROSS_CHOP ; Focus Punch
 	learnset 50, STONE_EDGE ; Head Smash
 	
 	evos_attacks Scrafty
@@ -5959,7 +5807,6 @@ endc
 	learnset 38, CRUNCH
 	learnset 45, FACADE
 	;learnset 51, ROCK_CLIMB
-	learnset 58, CROSS_CHOP ; Focus Punch
 	learnset 65, STONE_EDGE ; Head Smash
 	
 	evos_attacks Sigilyph
@@ -5981,7 +5828,6 @@ endc
 	
 	evos_attacks YamaskPlain
 	evo_data EVOLVE_LEVEL, 34, COFAGRIGUS
-	learnset 1, ASTONISH
 	learnset 1, PROTECT
 	learnset 5, DISABLE
 	learnset 9, HAZE
@@ -5998,7 +5844,6 @@ endc
 	
 	evos_attacks YamaskGalarian
 	evo_data EVOLVE_LEVEL, 34, RUNERIGUS
-	learnset 1, ASTONISH
 	learnset 1, PROTECT
 	learnset 5, DISABLE
 	learnset 9, HAZE
@@ -6015,7 +5860,6 @@ endc
 	
 	evos_attacks Cofagrigus
 	learnset 1, SCARY_FACE
-	learnset 1, ASTONISH
 	learnset 1, PROTECT
 	learnset 1, DISABLE
 	learnset 1, HAZE
@@ -6119,7 +5963,6 @@ endc
 	;learnset 1, POISON_GAS
 	learnset 7, TOXIC_SPIKES
 	learnset 12, ACID ; Acid Spray
-	learnset 14, DOUBLE_SLAP
 	;learnset 18, SLUDGE
 	learnset 23, BARRIER ; Stockpile / Swallow
 	learnset 25, TAKE_DOWN
@@ -6138,7 +5981,6 @@ endc
 	learnset 1, ACID ; Acid Spray
 	learnset 7, TOXIC_SPIKES
 	learnset 12, ACID ; Acid Spray
-	learnset 14, DOUBLE_SLAP
 	;learnset 18, SLUDGE
 	learnset 23, BARRIER ; Stockpile / Swallow
 	learnset 25, TAKE_DOWN
@@ -6152,7 +5994,6 @@ endc
 	
 	evos_attacks ZoruaPlain
 	evo_data EVOLVE_LEVEL, 30, ZOROARK
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 5, PURSUIT
 	learnset 9, HONE_CLAWS ; Fake Tears
@@ -6172,7 +6013,6 @@ endc
 	evos_attacks ZoroarkPlain
 	learnset 1, NIGHT_SLASH
 	learnset 1, FOCUS_BLAST ; Night Daze
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 1, PURSUIT
 	learnset 1, HONE_CLAWS ; Fake Tears
@@ -6223,7 +6063,6 @@ endc
 	learnset 3, CONFUSION
 	learnset 7, GROWL ; Play Nice
 	learnset 10, LEER ; Fake Tears
-	learnset 14, DOUBLE_SLAP
 	learnset 16, PSYBEAM
 	learnset 19, DRAINING_KISS ; Embargo
 	learnset 24, FEINT_ATTACK
@@ -6242,7 +6081,6 @@ endc
 	learnset 3, CONFUSION
 	learnset 7, GROWL ; Play Nice
 	learnset 10, LEER ; Fake Tears
-	learnset 14, DOUBLE_SLAP
 	learnset 16, PSYBEAM
 	learnset 19, DRAINING_KISS ; Embargo
 	learnset 24, FEINT_ATTACK
@@ -6263,7 +6101,6 @@ endc
 	learnset 3, CONFUSION
 	learnset 7, GROWL ; Play Nice
 	learnset 10, LEER ; Fake Tears
-	learnset 14, DOUBLE_SLAP
 	learnset 16, PSYBEAM
 	learnset 19, DRAINING_KISS ; Embargo
 	learnset 24, FEINT_ATTACK
@@ -6377,10 +6214,8 @@ endc
 	evo_data EVOLVE_LEVEL, 35, VANILLISH
 	learnset 1, ICICLE_SPEAR
 	learnset 4, DEFENSE_CURL ; Harden
-	learnset 7, ASTONISH
 	learnset 13, ICY_WIND
 	;learnset 16, MIST
-	learnset 19, AVALANCHE
 	learnset 22, SWAGGER ; Taunt
 	;learnset 26, MIRROR_SHOT
 	learnset 31, BARRIER ; Acid Armor
@@ -6393,10 +6228,8 @@ endc
 	evo_data EVOLVE_LEVEL, 47, VANILLUXE
 	learnset 1, ICICLE_SPEAR
 	learnset 4, DEFENSE_CURL ; Harden
-	learnset 7, ASTONISH
 	learnset 13, ICY_WIND
 	;learnset 16, MIST
-	learnset 19, AVALANCHE
 	learnset 22, SWAGGER ; Taunt
 	;learnset 26, MIRROR_SHOT
 	learnset 31, BARRIER ; Acid Armor
@@ -6408,13 +6241,10 @@ endc
 	evos_attacks Vanilluxe
 	learnset 1, ICICLE_SPEAR
 	learnset 1, DEFENSE_CURL ; Harden
-	learnset 1, ASTONISH
 	learnset 1, ICY_WIND
 	learnset 4, DEFENSE_CURL ; Harden
-	learnset 7, ASTONISH
 	learnset 13, ICY_WIND
 	;learnset 16, MIST
-	learnset 19, AVALANCHE
 	learnset 22, SWAGGER ; Taunt
 	;learnset 26, MIRROR_SHOT
 	learnset 31, BARRIER ; Acid Armor
@@ -6521,7 +6351,6 @@ endc
 	evo_data EVOLVE_LEVEL, 39, AMOONGUSS
 	learnset 1, ABSORB
 	learnset 6, GROWTH
-	learnset 8, ASTONISH
 	learnset 12, POISONPOWDER ; Bide
 	learnset 15, MEGA_DRAIN
 	learnset 18, SLEEP_POWDER ; Ingrain
@@ -6538,10 +6367,8 @@ endc
 	evos_attacks Amoonguss
 	learnset 1, ABSORB
 	learnset 1, GROWTH
-	learnset 1, ASTONISH
 	learnset 1, POISONPOWDER ; Bide
 	learnset 6, GROWTH
-	learnset 8, ASTONISH
 	learnset 12, POISONPOWDER ; Bide
 	learnset 15, MEGA_DRAIN
 	learnset 18, SLEEP_POWDER ; Ingrain
@@ -6811,7 +6638,6 @@ endc
 	evos_attacks Litwick
 	evo_data EVOLVE_LEVEL, 41, LAMPENT
 	learnset 1, EMBER
-	learnset 1, ASTONISH
 	learnset 3, MINIMIZE
 	learnset 7, FIRE_SPIN
 	learnset 10, CONFUSE_RAY
@@ -6830,7 +6656,6 @@ endc
 	evos_attacks Lampent
 	evo_data EVOLVE_ITEM, DUSK_STONE, CHANDELURE
 	learnset 1, EMBER
-	learnset 1, ASTONISH
 	learnset 3, MINIMIZE
 	learnset 7, FIRE_SPIN
 	learnset 10, CONFUSE_RAY
@@ -6854,7 +6679,7 @@ endc
 	
 	evos_attacks Axew
 	evo_data EVOLVE_LEVEL, 38, FRAXURE
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 4, LEER
 	learnset 7, PURSUIT ; Assurance
 	learnset 10, DRAGON_RAGE
@@ -6873,7 +6698,7 @@ endc
 	
 	evos_attacks Fraxure
 	evo_data EVOLVE_LEVEL, 48, HAXORUS
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 4, LEER
 	learnset 7, PURSUIT ; Assurance
 	learnset 10, DRAGON_RAGE
@@ -6892,7 +6717,6 @@ endc
 	
 	evos_attacks Haxorus
 	learnset 1, OUTRAGE
-	learnset 1, SCRATCH
 	learnset 1, LEER
 	learnset 1, PURSUIT ; Assurance
 	learnset 1, DRAGON_RAGE
@@ -7049,7 +6873,6 @@ endc
 	learnset 1, TACKLE ; Pound
 	learnset 1, DEFENSE_CURL
 	learnset 1, MUD_SLAP
-	learnset 1, ASTONISH
 	learnset 5, MUD_SLAP
 	learnset 9, ROLLOUT
 	;learnset 13, SHADOW_PUNCH
@@ -7069,7 +6892,6 @@ endc
 	learnset 1, TACKLE ; Pound
 	learnset 1, DEFENSE_CURL
 	learnset 1, MUD_SLAP
-	learnset 1, ASTONISH
 	learnset 5, MUD_SLAP
 	learnset 9, ROLLOUT
 	;learnset 13, SHADOW_PUNCH
@@ -7106,7 +6928,6 @@ endc
 	learnset 1, TACKLE ; Pound
 	learnset 1, DEFENSE_CURL
 	learnset 1, MUD_SLAP
-	learnset 1, ASTONISH
 	learnset 5, MUD_SLAP
 	learnset 9, ROLLOUT
 	;learnset 13, SHADOW_PUNCH
@@ -7123,7 +6944,7 @@ endc
 	
 	evos_attacks Pawniard
 	evo_data EVOLVE_LEVEL, 52, BISHARP
-	learnset 1, SCRATCH
+	learnset 1, TACKLE
 	learnset 6, LEER
 	;learnset 9, FURY_CUTTER
 	learnset 14, SWAGGER ; Torment
@@ -7143,8 +6964,7 @@ endc
 	evos_attacks Bisharp
 	;learnset 1, GUILLOTINE
 	learnset 1, IRON_HEAD
-	learnset 1, COUNTER ; Metal Burst
-	learnset 1, SCRATCH
+	learnset 1, COUNTER ; Metal Burst=
 	learnset 1, LEER
 	;learnset 1, FURY_CUTTER
 	learnset 1, SWAGGER ; Torment
@@ -7167,7 +6987,6 @@ endc
 	evos_attacks Bouffalant
 	learnset 1, PURSUIT
 	learnset 1, LEER
-	learnset 6, RAGE
 	learnset 11, FURY_STRIKES ; Fury Attack
 	learnset 16, HORN_ATTACK
 	learnset 21, SCARY_FACE
@@ -7629,7 +7448,6 @@ endc
 	
 	evos_attacks Runerigus
 	learnset 1, SCARY_FACE
-	learnset 1, ASTONISH
 	learnset 1, PROTECT
 	learnset 1, DISABLE
 	learnset 1, HAZE

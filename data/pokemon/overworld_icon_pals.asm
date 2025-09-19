@@ -214,6 +214,7 @@ OverworldMonIconColors::
 	iconpal BLUE, GREEN ; BRONZONG
 	iconpal GREEN, RED ; BONSLY
 	iconpal BLUE, GREEN ; MIME_JR_
+	iconpal PURPLE, TEAL ; SPIRITOMB
 	iconpal TEAL, BLUE ; MUNCHLAX
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal GRAY, GREEN ; TRANQUILL
 	iconpal PINK, PURPLE ; UNFEZANT
 	iconpal BLACK, BLUE ; BLITZLE
-	iconpal BLACK, PURPLE ; ZEBSTRIKA
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal BLACK, PURPLE ; ZEBSTRIKA
 	iconpal BLUE, PURPLE ; ROGGENROLA
 	iconpal BLUE, PURPLE ; BOLDORE
 	iconpal BLUE, PURPLE ; GIGALITH

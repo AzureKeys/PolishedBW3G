@@ -214,6 +214,7 @@ endc
 	db NO_MOVE      ; BRONZONG
 	db NO_MOVE      ; BONSLY
 	db NO_MOVE      ; MIME_JR_
+	db NO_MOVE      ; SPIRITOMB
 	db NO_MOVE      ; MUNCHLAX
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; WEAVILE
@@ -257,9 +258,9 @@ endc
 	db NO_MOVE      ; TRANQUILL
 	db NO_MOVE      ; UNFEZANT
 	db NO_MOVE      ; BLITZLE
-	db NO_MOVE      ; ZEBSTRIKA
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; ZEBSTRIKA
 	db NO_MOVE      ; ROGGENROLA
 	db POWER_GEM    ; BOLDORE
 	db NO_MOVE      ; GIGALITH

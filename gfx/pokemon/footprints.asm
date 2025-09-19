@@ -249,6 +249,7 @@ BunearyFootprint::
 LopunnyFootprint::
 BronzorFootprint::
 BronzongFootprint::
+SpiritombFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

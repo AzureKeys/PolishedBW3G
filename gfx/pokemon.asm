@@ -856,6 +856,10 @@ SECTION "MimeJr Pics", ROMX
 MimeJrFrontpic: INCBIN "gfx/pokemon/mime_jr_/front.animated.2bpp.lz"
 MimeJrBackpic:  INCBIN "gfx/pokemon/mime_jr_/back.2bpp.lz"
 
+SECTION "Spiritomb Pics", ROMX
+SpiritombFrontpic: INCBIN "gfx/pokemon/spiritomb/front.animated.2bpp.lz"
+SpiritombBackpic:  INCBIN "gfx/pokemon/spiritomb/back.2bpp.lz"
+
 SECTION "Munchlax Pics", ROMX
 MunchlaxFrontpic: INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
 MunchlaxBackpic:  INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"

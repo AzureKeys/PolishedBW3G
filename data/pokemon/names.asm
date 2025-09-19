@@ -211,6 +211,7 @@ PokemonNames::
 	rawchar "Bronzong@@"
 	rawchar "Bonsly@@@@"
 	rawchar "Mime Jr.@@"
+	rawchar "Spiritomb@"
 	rawchar "Munchlax@@"
 	rawchar "Mantyke@@@"
 	rawchar "Weavile@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Tranquill@"
 	rawchar "Unfezant@@"
 	rawchar "Blitzle@@@"
-	rawchar "Zebstrika@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Zebstrika@"
 	rawchar "Roggenrola"
 	rawchar "Boldore@@@"
 	rawchar "Gigalith@@"

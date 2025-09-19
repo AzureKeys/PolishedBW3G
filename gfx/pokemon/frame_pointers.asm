@@ -210,6 +210,7 @@ FramesPointers:
 	dw BronzongFrames
 	dw BonslyFrames
 	dw MimeJrFrames
+	dw SpiritombFrames
 	dw MunchlaxFrames
 	dw MantykeFrames
 	dw WeavileFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw TranquillFrames
 	dw UnfezantMaleFrames
 	dw BlitzleFrames
-	dw ZebstrikaFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw ZebstrikaFrames
 	dw RoggenrolaFrames
 	dw BoldoreFrames
 	dw GigalithFrames

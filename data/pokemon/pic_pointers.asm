@@ -214,6 +214,7 @@ PokemonPicPointers::
 	pics Bronzong
 	pics Bonsly
 	pics MimeJr
+	pics Spiritomb
 	pics Munchlax
 	pics Mantyke
 	pics Weavile
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Tranquill
 	pics UnfezantMale
 	pics Blitzle
-	pics Zebstrika
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Zebstrika
 	pics Roggenrola
 	pics Boldore
 	pics Gigalith

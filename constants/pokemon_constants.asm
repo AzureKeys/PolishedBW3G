@@ -234,6 +234,7 @@
 	const BRONZONG   ; d0
 	const BONSLY     ; d1
 	const MIME_JR_   ; d2
+	const SPIRITOMB  ; d3
 	const MUNCHLAX   ; d7
 	const MANTYKE    ; df
 	const WEAVILE    ; e2
@@ -277,9 +278,9 @@
 	const TRANQUILL  ; 10d
 	const UNFEZANT   ; 10e
 	const BLITZLE    ; 10f
-	const ZEBSTRIKA  ; 110
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const ZEBSTRIKA  ; 110
 	const ROGGENROLA ; 111
 	const BOLDORE    ; 112
 	const GIGALITH   ; 113

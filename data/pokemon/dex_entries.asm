@@ -2097,6 +2097,16 @@ MimeJrPokedexEntry::
 	next "stand the feelings"
 	next "of others.@"
 
+SECTION "SpiritombPokedexEntry", ROMX
+SpiritombPokedexEntry::
+	db "Forbidden@"
+	db   "It's constant"
+	next "mischief and mis-"
+	next "deeds resulted in"
+	page "it being bound to"
+	next "an Odd Keystone by"
+	next "a strange spell.@"
+
 SECTION "MunchlaxPokedexEntry", ROMX
 MunchlaxPokedexEntry::
 	db "Big Eater@"

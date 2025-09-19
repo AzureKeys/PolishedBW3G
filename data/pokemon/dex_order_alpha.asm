@@ -317,6 +317,7 @@ AlphabeticalPokedexOrder:
 	dp SOLOSIS
 	dp SOLROCK
 	dp SPHEAL
+	dp SPIRITOMB
 	dp SPOINK
 	dp STARAPTOR
 	dp STARAVIA

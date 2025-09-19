@@ -922,6 +922,10 @@ MimeJrEggSpeciesMoves:
 	db TRICK
 	db $ff
 
+SpiritombEggSpeciesMoves:
+	dp SPIRITOMB, PLAIN_FORM
+	db $ff
+
 MantykeEggSpeciesMoves:
 	dp MANTYKE, PLAIN_FORM
 	db HAZE

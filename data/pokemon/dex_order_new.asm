@@ -240,6 +240,7 @@ NewPokedexOrder:
 	dp LOPUNNY
 	dp BRONZOR
 	dp BRONZONG
+	dp SPIRITOMB
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

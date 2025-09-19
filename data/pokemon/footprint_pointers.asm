@@ -210,6 +210,7 @@ FootprintPointers::
 	dw BronzongFootprint
 	dw BonslyFootprint
 	dw MimeJrFootprint
+	dw SpiritombFootprint
 	dw MunchlaxFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw TranquillFootprint
 	dw UnfezantFootprint
 	dw BlitzleFootprint
-	dw ZebstrikaFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw ZebstrikaFootprint
 	dw RoggenrolaFootprint
 	dw BoldoreFootprint
 	dw GigalithFootprint

@@ -210,6 +210,7 @@ AnimationPointers:
 	dw BronzongAnimation
 	dw BonslyAnimation
 	dw MimeJrAnimation
+	dw SpiritombAnimation
 	dw MunchlaxAnimation
 	dw MantykeAnimation
 	dw WeavileAnimation
@@ -253,9 +254,9 @@ AnimationPointers:
 	dw TranquillAnimation
 	dw UnfezantMaleAnimation
 	dw BlitzleAnimation
-	dw ZebstrikaAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw ZebstrikaAnimation
 	dw RoggenrolaAnimation
 	dw BoldoreAnimation
 	dw GigalithAnimation
