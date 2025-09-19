@@ -215,6 +215,8 @@ AnimationPointers:
 	dw GabiteAnimation
 	dw GarchompAnimation
 	dw MunchlaxAnimation
+	dw RioluAnimation
+	dw LucarioAnimation
 	dw MantykeAnimation
 	dw WeavileAnimation
 	dw MagnezoneAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw PanpourAnimation
 	dw SimipourAnimation
 	dw MunnaAnimation
-	dw MusharnaAnimation
-	dw PidoveAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw MusharnaAnimation
+	dw PidoveAnimation
 	dw TranquillAnimation
 	dw UnfezantMaleAnimation
 	dw BlitzleAnimation

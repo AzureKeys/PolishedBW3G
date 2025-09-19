@@ -4233,6 +4233,13 @@ endc
 	learnset 50, GUNK_SHOT ; Snatch → egg move
 	learnset 57, DOUBLE_EDGE ; Last Resort → egg move
 
+	evos_attacks Riolu
+	evo_data EVOLVE_HAPPINESS, TR_MORNDAY, LUCARIO
+	learnset 1, SWEET_KISS ; Recycle → event move
+
+	evos_attacks Lucario
+	learnset 1, AURA_SPHERE ; Recycle → event move
+
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move

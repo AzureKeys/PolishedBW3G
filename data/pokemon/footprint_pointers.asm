@@ -215,6 +215,8 @@ FootprintPointers::
 	dw GabiteFootprint
 	dw GarchompFootprint
 	dw MunchlaxFootprint
+	dw RioluFootprint
+	dw LucarioFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint
 	dw MagnezoneFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw PanpourFootprint
 	dw SimipourFootprint
 	dw MunnaFootprint
-	dw MusharnaFootprint
-	dw PidoveFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw MusharnaFootprint
+	dw PidoveFootprint
 	dw TranquillFootprint
 	dw UnfezantFootprint
 	dw BlitzleFootprint

@@ -930,15 +930,6 @@ GibleEggSpeciesMoves:
 	dp GIBLE, PLAIN_FORM
 	db $ff
 
-MantykeEggSpeciesMoves:
-	dp MANTYKE, PLAIN_FORM
-	db HAZE
-	db MIRROR_COAT
-	db SPLASH
-	db HYDRO_PUMP
-	db GUNK_SHOT
-	db $ff
-
 MunchlaxEggSpeciesMoves:
 	dp MUNCHLAX, PLAIN_FORM
 	db CHARM
@@ -946,6 +937,19 @@ MunchlaxEggSpeciesMoves:
 	db CURSE
 	db DOUBLE_EDGE
 	db LICK
+	db GUNK_SHOT
+	db $ff
+
+RioluEggSpeciesMoves:
+	dp RIOLU, PLAIN_FORM
+	db $ff
+
+MantykeEggSpeciesMoves:
+	dp MANTYKE, PLAIN_FORM
+	db HAZE
+	db MIRROR_COAT
+	db SPLASH
+	db HYDRO_PUMP
 	db GUNK_SHOT
 	db $ff
 

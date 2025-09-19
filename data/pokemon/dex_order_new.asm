@@ -244,6 +244,8 @@ NewPokedexOrder:
 	dp GIBLE
 	dp GABITE
 	dp GARCHOMP
+	dp RIOLU
+	dp LUCARIO
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

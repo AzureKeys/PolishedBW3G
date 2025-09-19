@@ -220,6 +220,8 @@ endc
 	db  24,  47 ; Gabite
 	db  48, 100 ; Garchomp
 	db   1,  19 ; Munchlax
+	db   1,  29 ; Riolu
+	db  30, 100 ; Lucario
 	db   1,  19 ; Mantyke
 	db  40, 100 ; Weavile
 	db  50, 100 ; Magnezone
@@ -257,10 +259,10 @@ endc
 	db   1,  24 ; Panpour
 	db  25, 100 ; Simipour
 	db   1,  19 ; Munna
-	db  20, 100 ; Musharna
-	db   1,  20 ; Pidove
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db  20, 100 ; Musharna
+	db   1,  20 ; Pidove
 	db  21,  31 ; Tranquill
 	db  32, 100 ; Unfezant
 	db   1,  26 ; Blitzle

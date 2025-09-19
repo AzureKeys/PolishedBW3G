@@ -219,6 +219,8 @@ EvosAttacksPointers::
 	dw GabiteEvosAttacks
 	dw GarchompEvosAttacks
 	dw MunchlaxEvosAttacks
+	dw RioluEvosAttacks
+	dw LucarioEvosAttacks
 	dw MantykeEvosAttacks
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw PanpourEvosAttacks
 	dw SimipourEvosAttacks
 	dw MunnaEvosAttacks
-	dw MusharnaEvosAttacks
-	dw PidoveEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw MusharnaEvosAttacks
+	dw PidoveEvosAttacks
 	dw TranquillEvosAttacks
 	dw UnfezantEvosAttacks
 	dw BlitzleEvosAttacks

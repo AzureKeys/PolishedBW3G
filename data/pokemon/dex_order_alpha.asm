@@ -180,6 +180,7 @@ AlphabeticalPokedexOrder:
 	dp LOMBRE
 	dp LOPUNNY
 	dp LOTAD
+	dp LUCARIO
 	dp LUDICOLO
 	dp LUNATONE
 	dp LUXIO
@@ -266,6 +267,7 @@ AlphabeticalPokedexOrder:
 	dp REMORAID
 	dp RESHIRAM
 	dp REUNICLUS
+	dp RIOLU
 	dp ROGGENROLA
 	dp ROSELIA
 	dp ROSERADE

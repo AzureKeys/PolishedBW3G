@@ -2146,6 +2146,26 @@ MunchlaxPokedexEntry::
 	next "hidden under its"
 	next "fur.@"
 
+SECTION "RioluPokedexEntry", ROMX
+RioluPokedexEntry::
+	db "Emanation@"
+	db   "They communicate"
+	next "with one another"
+	next "using their auras."
+	page "They are able to"
+	next "run all through"
+	next "the night.@"
+
+SECTION "LucarioPokedexEntry", ROMX
+LucarioPokedexEntry::
+	db "Aura@"
+	db   "It is said that"
+	next "none can remain"
+	next "invisible to it,"
+	page "since it can"
+	next "detect auras of"
+	next "those it can't see.@"
+
 SECTION "MantykePokedexEntry", ROMX
 MantykePokedexEntry::
 	db "Kite@"

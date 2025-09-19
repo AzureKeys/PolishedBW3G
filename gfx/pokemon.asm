@@ -876,6 +876,14 @@ SECTION "Munchlax Pics", ROMX
 MunchlaxFrontpic: INCBIN "gfx/pokemon/munchlax/front.animated.2bpp.lz"
 MunchlaxBackpic:  INCBIN "gfx/pokemon/munchlax/back.2bpp.lz"
 
+SECTION "Riolu Pics", ROMX
+RioluFrontpic: INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lz"
+RioluBackpic:  INCBIN "gfx/pokemon/riolu/back.2bpp.lz"
+
+SECTION "Lucario Pics", ROMX
+LucarioFrontpic: INCBIN "gfx/pokemon/lucario/front.animated.2bpp.lz"
+LucarioBackpic:  INCBIN "gfx/pokemon/lucario/back.2bpp.lz"
+
 SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"
 MantykeBackpic:  INCBIN "gfx/pokemon/mantyke/back.2bpp.lz"

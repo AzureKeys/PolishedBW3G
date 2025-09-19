@@ -239,6 +239,8 @@
 	const GABITE     ; d5
 	const GARCHOMP   ; d6
 	const MUNCHLAX   ; d7
+	const RIOLU      ; d8
+	const LUCARIO    ; d9
 	const MANTYKE    ; df
 	const WEAVILE    ; e2
 	const MAGNEZONE  ; e3
@@ -276,10 +278,10 @@
 	const PANPOUR    ; 108
 	const SIMIPOUR   ; 109
 	const MUNNA      ; 10a
-	const MUSHARNA   ; 10b
-	const PIDOVE     ; 10c
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const MUSHARNA   ; 10b
+	const PIDOVE     ; 10c
 	const TRANQUILL  ; 10d
 	const UNFEZANT   ; 10e
 	const BLITZLE    ; 10f

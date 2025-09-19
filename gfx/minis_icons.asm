@@ -1082,6 +1082,16 @@ MunchlaxMini::     INCBIN "gfx/minis/munchlax.2bpp.lz"
 MunchlaxMiniMask:: INCBIN "gfx/minis/munchlax_mask.1bpp.lz"
 MunchlaxIcon::     INCBIN "gfx/icons/munchlax.2bpp.lz"
 
+SECTION "Riolu Mini Icon", ROMX
+RioluMini::     INCBIN "gfx/minis/riolu.2bpp.lz"
+RioluMiniMask:: INCBIN "gfx/minis/riolu_mask.1bpp.lz"
+RioluIcon::     INCBIN "gfx/icons/riolu.2bpp.lz"
+
+SECTION "Lucario Mini Icon", ROMX
+LucarioMini::     INCBIN "gfx/minis/lucario.2bpp.lz"
+LucarioMiniMask:: INCBIN "gfx/minis/lucario_mask.1bpp.lz"
+LucarioIcon::     INCBIN "gfx/icons/lucario.2bpp.lz"
+
 SECTION "Mantyke Mini Icon", ROMX
 MantykeMini::     INCBIN "gfx/minis/mantyke.2bpp.lz"
 MantykeMiniMask:: INCBIN "gfx/minis/mantyke_mask.1bpp.lz"

@@ -219,6 +219,8 @@ PokemonPicPointers::
 	pics Gabite
 	pics Garchomp
 	pics Munchlax
+	pics Riolu
+	pics Lucario
 	pics Mantyke
 	pics Weavile
 	pics Magnezone
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Panpour
 	pics Simipour
 	pics Munna
-	pics Musharna
-	pics Pidove
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Musharna
+	pics Pidove
 	pics Tranquill
 	pics UnfezantMale
 	pics Blitzle

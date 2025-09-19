@@ -215,6 +215,8 @@ EggSpeciesMovesPointers::
 	dw GibleEggSpeciesMoves             ; Gabite
 	dw GibleEggSpeciesMoves             ; Garchomp
 	dw MunchlaxEggSpeciesMoves          ; Munchlax
+	dw RioluEggSpeciesMoves             ; Riolu
+	dw RioluEggSpeciesMoves             ; Lucario
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
@@ -252,10 +254,10 @@ EggSpeciesMovesPointers::
 	dw PanpourEggSpeciesMoves           ; Panpour
 	dw PanpourEggSpeciesMoves           ; Simipour
 	dw MunnaEggSpeciesMoves             ; Munna
-	dw MunnaEggSpeciesMoves             ; Musharna
-	dw PidoveEggSpeciesMoves            ; Pidove
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw MunnaEggSpeciesMoves             ; Musharna
+	dw PidoveEggSpeciesMoves            ; Pidove
 	dw PidoveEggSpeciesMoves            ; Tranquill
 	dw PidoveEggSpeciesMoves            ; Unfezant
 	dw BlitzleEggSpeciesMoves           ; Blitzle

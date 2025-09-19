@@ -253,6 +253,8 @@ SpiritombFootprint::
 GibleFootprint::
 GabiteFootprint::
 GarchompFootprint::
+RioluFootprint::
+LucarioFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

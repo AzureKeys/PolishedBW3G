@@ -221,6 +221,8 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $0a3,  $070 ; GABITE*
 	mon_cry CRY_SQUIRTLE,    $e2f,  $150 ; GARCHOMP*
 	mon_cry CRY_GRIMER,      $055,  $081 ; MUNCHLAX*
+	mon_cry CRY_REMORAID,    $702,  $100 ; Riolu
+	mon_cry CRY_SLUGMA,     -$25c,  $0e0 ; Lucario
 	mon_cry CRY_AMPHAROS,    $054,  $0b8 ; Mantyke
 	mon_cry CRY_MAREEP,      $058,  $132 ; Weavile
 	mon_cry CRY_MAGNEZONE,   $0f6,  $0b6 ; Magnezone
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $088,  $140 ; PANPOUR*
 	mon_cry CRY_SEEL,        $023,  $17f ; SIMIPOUR*
 	mon_cry CRY_KRABBY,      $22a,  $0a3 ; Munna
-	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
-	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_METAPOD,    -$01a,  $170 ; Musharna
+	mon_cry CRY_PIDGEOTTO,  -$0c5,  $0a0 ; Pidove
 	mon_cry CRY_PIDGEY,      $1c0,  $184 ; Tranquill
 	mon_cry CRY_NIDOQUEEN,   $120,  $122 ; Unfezant
 	mon_cry CRY_PIDGEOTTO,   $024,  $0c0 ; Blitzle

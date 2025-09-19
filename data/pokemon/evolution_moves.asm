@@ -219,6 +219,8 @@ endc
 	db NO_MOVE      ; GABITE
 	db NO_MOVE      ; GARCHOMP
 	db NO_MOVE      ; MUNCHLAX
+	db NO_MOVE      ; RIOLU
+	db NO_MOVE      ; LUCARIO
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; WEAVILE
 	db TRI_ATTACK   ; MAGNEZONE
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; PANPOUR
 	db NO_MOVE      ; SIMIPOUR
 	db NO_MOVE      ; MUNNA
-	db NO_MOVE      ; MUSHARNA
-	db NO_MOVE      ; PIDOVE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; MUSHARNA
+	db NO_MOVE      ; PIDOVE
 	db NO_MOVE      ; TRANQUILL
 	db NO_MOVE      ; UNFEZANT
 	db NO_MOVE      ; BLITZLE

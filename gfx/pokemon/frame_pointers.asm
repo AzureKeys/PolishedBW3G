@@ -215,6 +215,8 @@ FramesPointers:
 	dw GabiteFrames
 	dw GarchompFrames
 	dw MunchlaxFrames
+	dw RioluFrames
+	dw LucarioFrames
 	dw MantykeFrames
 	dw WeavileFrames
 	dw MagnezoneFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw PanpourFrames
 	dw SimipourFrames
 	dw MunnaFrames
-	dw MusharnaFrames
-	dw PidoveFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw MusharnaFrames
+	dw PidoveFrames
 	dw TranquillFrames
 	dw UnfezantMaleFrames
 	dw BlitzleFrames
