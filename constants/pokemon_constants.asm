@@ -241,6 +241,8 @@
 	const MUNCHLAX   ; d7
 	const RIOLU      ; d8
 	const LUCARIO    ; d9
+	const SKORUPI    ; da
+	const DRAPION    ; db
 	const MANTYKE    ; df
 	const WEAVILE    ; e2
 	const MAGNEZONE  ; e3
@@ -276,10 +278,10 @@
 	const PANSEAR    ; 106
 	const SIMISEAR   ; 107
 	const PANPOUR    ; 108
-	const SIMIPOUR   ; 109
-	const MUNNA      ; 10a
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const SIMIPOUR   ; 109
+	const MUNNA      ; 10a
 	const MUSHARNA   ; 10b
 	const PIDOVE     ; 10c
 	const TRANQUILL  ; 10d

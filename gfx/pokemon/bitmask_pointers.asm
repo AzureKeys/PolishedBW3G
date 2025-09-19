@@ -217,6 +217,8 @@ BitmasksPointers:
 	dw MunchlaxBitmasks
 	dw RioluBitmasks
 	dw LucarioBitmasks
+	dw SkorupiBitmasks
+	dw DrapionBitmasks
 	dw MantykeBitmasks
 	dw WeavileBitmasks
 	dw MagnezoneBitmasks
@@ -252,10 +254,10 @@ BitmasksPointers:
 	dw PansearBitmasks
 	dw SimisearBitmasks
 	dw PanpourBitmasks
-	dw SimipourBitmasks
-	dw MunnaBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw SimipourBitmasks
+	dw MunnaBitmasks
 	dw MusharnaBitmasks
 	dw PidoveBitmasks
 	dw TranquillBitmasks

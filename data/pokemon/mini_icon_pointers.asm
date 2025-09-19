@@ -221,6 +221,8 @@ MiniIconPointers:
 	mini_icon Munchlax
 	mini_icon Riolu
 	mini_icon Lucario
+	mini_icon Skorupi
+	mini_icon Drapion
 	mini_icon Mantyke
 	mini_icon Weavile
 	mini_icon Magnezone
@@ -256,10 +258,10 @@ MiniIconPointers:
 	mini_icon Pansear
 	mini_icon Simisear
 	mini_icon Panpour
-	mini_icon Simipour
-	mini_icon Munna
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Simipour
+	mini_icon Munna
 	mini_icon Musharna
 	mini_icon Pidove
 	mini_icon Tranquill

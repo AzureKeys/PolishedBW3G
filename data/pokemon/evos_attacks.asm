@@ -4240,6 +4240,13 @@ endc
 	evos_attacks Lucario
 	learnset 1, AURA_SPHERE ; Recycle → event move
 
+	evos_attacks Skorupi
+	evo_data EVOLVE_LEVEL, 40, DRAPION
+	learnset 1, POWER_GEM
+
+	evos_attacks Drapion
+	learnset 1, POWER_GEM
+
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move

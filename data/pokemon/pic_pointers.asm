@@ -221,6 +221,8 @@ PokemonPicPointers::
 	pics Munchlax
 	pics Riolu
 	pics Lucario
+	pics Skorupi
+	pics Drapion
 	pics Mantyke
 	pics Weavile
 	pics Magnezone
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Pansear
 	pics Simisear
 	pics Panpour
-	pics Simipour
-	pics Munna
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Simipour
+	pics Munna
 	pics Musharna
 	pics Pidove
 	pics Tranquill

@@ -218,6 +218,8 @@ PokedexDataPointerTable:
 	dba MunchlaxPokedexEntry
 	dba RioluPokedexEntry
 	dba LucarioPokedexEntry
+	dba SkorupiPokedexEntry
+	dba DrapionPokedexEntry
 	dba MantykePokedexEntry
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba PansearPokedexEntry
 	dba SimisearPokedexEntry
 	dba PanpourPokedexEntry
-	dba SimipourPokedexEntry
-	dba MunnaPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba SimipourPokedexEntry
+	dba MunnaPokedexEntry
 	dba MusharnaPokedexEntry
 	dba PidovePokedexEntry
 	dba TranquillPokedexEntry

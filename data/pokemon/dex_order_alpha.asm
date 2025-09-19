@@ -71,6 +71,7 @@ AlphabeticalPokedexOrder:
 	dp DITTO
 	dp DRAGONAIR
 	dp DRAGONITE
+	dp DRAPION
 	dp DRATINI
 	dp DRIFBLIM
 	dp DRIFLOON
@@ -308,6 +309,7 @@ AlphabeticalPokedexOrder:
 	dp SIMISEAR
 	dp SKARMORY
 	dp SKITTY
+	dp SKORUPI
 	dp SLAKING
 	dp SLAKOTH
 	dp SLOWBRO

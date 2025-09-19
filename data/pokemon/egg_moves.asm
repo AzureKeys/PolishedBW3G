@@ -944,6 +944,10 @@ RioluEggSpeciesMoves:
 	dp RIOLU, PLAIN_FORM
 	db $ff
 
+SkorupiEggSpeciesMoves:
+	dp SKORUPI, PLAIN_FORM
+	db $ff
+
 MantykeEggSpeciesMoves:
 	dp MANTYKE, PLAIN_FORM
 	db HAZE

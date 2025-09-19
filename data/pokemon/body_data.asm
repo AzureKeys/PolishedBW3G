@@ -224,6 +224,8 @@ PokemonBodyData:
 	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX
 	body_data   7,  202, BIPEDAL_TAIL, BLUE   ; RIOLU
 	body_data  12,  540, BIPEDAL_TAIL, BLUE   ; LUCARIO
+	body_data   8,  120, INSECTOID,    PURPLE ; SKORUPI
+	body_data  13,  615, INSECTOID,    PURPLE ; DRAPION
 	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
 	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
@@ -259,10 +261,10 @@ PokemonBodyData:
 	body_data   6,  110, BIPEDAL_TAIL, RED    ; PANSEAR
 	body_data  10,  280, BIPEDAL_TAIL, RED    ; SIMISEAR
 	body_data   6,  135, BIPEDAL_TAIL, BLUE   ; PANPOUR
-	body_data  10,  290, BIPEDAL_TAIL, BLUE   ; SIMIPOUR
-	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  10,  290, BIPEDAL_TAIL, BLUE   ; SIMIPOUR
+	body_data   6,  233, QUADRUPED,    PINK   ; MUNNA
 	body_data  11,  605, BIPEDAL,      PINK   ; MUSHARNA
 	body_data   3,   21, WINGS,        GRAY   ; PIDOVE
 	body_data   6,  150, WINGS,        GRAY   ; TRANQUILL

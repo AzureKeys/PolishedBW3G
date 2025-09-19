@@ -884,6 +884,14 @@ SECTION "Lucario Pics", ROMX
 LucarioFrontpic: INCBIN "gfx/pokemon/lucario/front.animated.2bpp.lz"
 LucarioBackpic:  INCBIN "gfx/pokemon/lucario/back.2bpp.lz"
 
+SECTION "Skorupi Pics", ROMX
+SkorupiFrontpic: INCBIN "gfx/pokemon/skorupi/front.animated.2bpp.lz"
+SkorupiBackpic:  INCBIN "gfx/pokemon/skorupi/back.2bpp.lz"
+
+SECTION "Drapion Pics", ROMX
+DrapionFrontpic: INCBIN "gfx/pokemon/drapion/front.animated.2bpp.lz"
+DrapionBackpic:  INCBIN "gfx/pokemon/drapion/back.2bpp.lz"
+
 SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"
 MantykeBackpic:  INCBIN "gfx/pokemon/mantyke/back.2bpp.lz"

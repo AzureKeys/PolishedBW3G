@@ -221,6 +221,8 @@ OverworldMonIconColors::
 	iconpal TEAL, BLUE ; MUNCHLAX
 	iconpal BLUE, BROWN ; RIOLU
 	iconpal BLUE, BROWN ; LUCARIO
+	iconpal PURPLE, RED ; SKORUPI
+	iconpal PURPLE, RED ; DRAPION
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
 	iconpal GRAY, BROWN ; MAGNEZONE
@@ -256,10 +258,10 @@ OverworldMonIconColors::
 	iconpal RED, ORANGE ; PANSEAR
 	iconpal RED, ORANGE ; SIMISEAR
 	iconpal AZURE, TEAL ; PANPOUR
-	iconpal AZURE, BLUE ; SIMIPOUR
-	iconpal PINK, GREEN ; MUNNA
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal AZURE, BLUE ; SIMIPOUR
+	iconpal PINK, GREEN ; MUNNA
 	iconpal PINK, BLUE ; MUSHARNA
 	iconpal GRAY, BLUE ; PIDOVE
 	iconpal GRAY, GREEN ; TRANQUILL

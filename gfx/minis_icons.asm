@@ -1092,6 +1092,16 @@ LucarioMini::     INCBIN "gfx/minis/lucario.2bpp.lz"
 LucarioMiniMask:: INCBIN "gfx/minis/lucario_mask.1bpp.lz"
 LucarioIcon::     INCBIN "gfx/icons/lucario.2bpp.lz"
 
+SECTION "Skorupi Mini Icon", ROMX
+SkorupiMini::     INCBIN "gfx/minis/skorupi.2bpp.lz"
+SkorupiMiniMask:: INCBIN "gfx/minis/skorupi_mask.1bpp.lz"
+SkorupiIcon::     INCBIN "gfx/icons/skorupi.2bpp.lz"
+
+SECTION "Drapion Mini Icon", ROMX
+DrapionMini::     INCBIN "gfx/minis/drapion.2bpp.lz"
+DrapionMiniMask:: INCBIN "gfx/minis/drapion_mask.1bpp.lz"
+DrapionIcon::     INCBIN "gfx/icons/drapion.2bpp.lz"
+
 SECTION "Mantyke Mini Icon", ROMX
 MantykeMini::     INCBIN "gfx/minis/mantyke.2bpp.lz"
 MantykeMiniMask:: INCBIN "gfx/minis/mantyke_mask.1bpp.lz"

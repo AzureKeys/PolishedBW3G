@@ -246,6 +246,8 @@ NewPokedexOrder:
 	dp GARCHOMP
 	dp RIOLU
 	dp LUCARIO
+	dp SKORUPI
+	dp DRAPION
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

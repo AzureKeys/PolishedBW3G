@@ -217,6 +217,8 @@ AnimationExtraPointers:
 	dw MunchlaxAnimationExtra
 	dw RioluAnimationExtra
 	dw LucarioAnimationExtra
+	dw SkorupiAnimationExtra
+	dw DrapionAnimationExtra
 	dw MantykeAnimationExtra
 	dw WeavileAnimationExtra
 	dw MagnezoneAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw PansearAnimationExtra
 	dw SimisearAnimationExtra
 	dw PanpourAnimationExtra
-	dw SimipourAnimationExtra
-	dw MunnaAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw SimipourAnimationExtra
+	dw MunnaAnimationExtra
 	dw MusharnaAnimationExtra
 	dw PidoveAnimationExtra
 	dw TranquillAnimationExtra

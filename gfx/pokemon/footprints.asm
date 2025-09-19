@@ -255,6 +255,8 @@ GabiteFootprint::
 GarchompFootprint::
 RioluFootprint::
 LucarioFootprint::
+SkorupiFootprint::
+DrapionFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

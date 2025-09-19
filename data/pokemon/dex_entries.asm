@@ -2166,6 +2166,26 @@ LucarioPokedexEntry::
 	next "detect auras of"
 	next "those it can't see.@"
 
+SECTION "SkorupiPokedexEntry", ROMX
+SkorupiPokedexEntry::
+	db "Scorpion@"
+	db   "It grips prey with"
+	next "its tail and"
+	next "injects poison. It"
+	page "tenaciously hangs"
+	next "on until the"
+	next "poison takes.@"
+
+SECTION "DrapionPokedexEntry", ROMX
+DrapionPokedexEntry::
+	db "Ogre Scorp@"
+	db   "Its body is en-"
+	next "cased in a sturdy"
+	next "shell. Its head"
+	page "rotates 180"
+	next "degrees, elimin-"
+	next "ating blind spots.@"
+
 SECTION "MantykePokedexEntry", ROMX
 MantykePokedexEntry::
 	db "Kite@"
