@@ -223,6 +223,8 @@ AnimationPointers:
 	dw ToxicroakAnimation
 	dw CarnivineAnimation
 	dw MantykeAnimation
+	dw SnoverAnimation
+	dw AbomasnowAnimation
 	dw WeavileAnimation
 	dw MagnezoneAnimation
 	dw LickilickyAnimation
@@ -252,10 +254,10 @@ AnimationPointers:
 	dw StoutlandAnimation
 	dw PurrloinAnimation
 	dw LiepardAnimation
-	dw PansageAnimation
-	dw SimisageAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw PansageAnimation
+	dw SimisageAnimation
 	dw PansearAnimation
 	dw SimisearAnimation
 	dw PanpourAnimation

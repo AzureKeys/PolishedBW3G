@@ -228,6 +228,8 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,    -$133,  $125 ; Croagunk
 	mon_cry CRY_SLOWKING,    $002,  $2c6 ; Toxicroak
 	mon_cry CRY_SLOWKING,    $002,  $2c6 ; CARNIVINE*
+	mon_cry CRY_DIGLETT,    -$133,  $125 ; SNOVER*
+	mon_cry CRY_SLOWKING,    $002,  $2c6 ; ABOMASNOW*
 	mon_cry CRY_AMPHAROS,    $054,  $0b8 ; Mantyke
 	mon_cry CRY_MAREEP,      $058,  $132 ; Weavile
 	mon_cry CRY_MAGNEZONE,   $0f6,  $0b6 ; Magnezone
@@ -258,10 +260,10 @@ PokemonCries::
 	mon_cry CRY_STOUTLAND,  -$201,  $0b0 ; Stoutland
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
-	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; PANSAGE*
-	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SIMISAGE*
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; PANSAGE*
+	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SIMISAGE*
 	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; PANSAGE*
 	mon_cry CRY_WEEDLE,      $000,  $100 ; SIMISAGE*
 	mon_cry CRY_SEEL,        $088,  $140 ; PANPOUR*

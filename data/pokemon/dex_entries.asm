@@ -2225,6 +2225,26 @@ MantykePokedexEntry::
 	next "the waves with"
 	next "Remoraid.@"
 
+SECTION "SnoverPokedexEntry", ROMX
+SnoverPokedexEntry::
+	db "Frost Tree@"
+	db   "Seemingly curious"
+	next "about people, they"
+	next "gather around"
+	page "footsteps they"
+	next "find on snowy"
+	next "mountains.@"
+
+SECTION "AbomasnowPokedexEntry", ROMX
+AbomasnowPokedexEntry::
+	db "Frost Tree@"
+	db   "They appear when"
+	next "the snow flowers"
+	next "bloom. When the"
+	page "petals fall, they"
+	next "retreat to places"
+	next "unknown again.@"
+
 SECTION "WeavilePokedexEntry", ROMX
 WeavilePokedexEntry::
 	db "Sharp Claw@"

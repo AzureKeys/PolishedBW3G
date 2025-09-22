@@ -965,6 +965,10 @@ MantykeEggSpeciesMoves:
 	db GUNK_SHOT
 	db $ff
 
+SnoverEggSpeciesMoves:
+	dp SNOVER, PLAIN_FORM
+	db $ff
+
 SnivyEggSpeciesMoves:
 	dp SNIVY, PLAIN_FORM
 	db IRON_TAIL

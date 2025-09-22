@@ -908,6 +908,14 @@ SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"
 MantykeBackpic:  INCBIN "gfx/pokemon/mantyke/back.2bpp.lz"
 
+SECTION "Snover Pics", ROMX
+SnoverFrontpic: INCBIN "gfx/pokemon/snover/front.animated.2bpp.lz"
+SnoverBackpic:  INCBIN "gfx/pokemon/snover/back.2bpp.lz"
+
+SECTION "Abomasnow Pics", ROMX
+AbomasnowFrontpic: INCBIN "gfx/pokemon/abomasnow/front.animated.2bpp.lz"
+AbomasnowBackpic:  INCBIN "gfx/pokemon/abomasnow/back.2bpp.lz"
+
 SECTION "Weavile Pics", ROMX
 WeavileFrontpic: INCBIN "gfx/pokemon/weavile/front.animated.2bpp.lz"
 WeavileBackpic:  INCBIN "gfx/pokemon/weavile/back.2bpp.lz"

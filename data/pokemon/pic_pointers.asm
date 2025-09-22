@@ -227,6 +227,8 @@ PokemonPicPointers::
 	pics Toxicroak
 	pics Carnivine
 	pics Mantyke
+	pics Snover
+	pics Abomasnow
 	pics Weavile
 	pics Magnezone
 	pics Lickilicky
@@ -256,10 +258,10 @@ PokemonPicPointers::
 	pics Stoutland
 	pics Purrloin
 	pics Liepard
-	pics Pansage
-	pics Simisage
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Pansage
+	pics Simisage
 	pics Pansear
 	pics Simisear
 	pics Panpour

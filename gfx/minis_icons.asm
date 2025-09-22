@@ -1122,6 +1122,16 @@ MantykeMini::     INCBIN "gfx/minis/mantyke.2bpp.lz"
 MantykeMiniMask:: INCBIN "gfx/minis/mantyke_mask.1bpp.lz"
 MantykeIcon::     INCBIN "gfx/icons/mantyke.2bpp.lz"
 
+SECTION "Snover Mini Icon", ROMX
+SnoverMini::     INCBIN "gfx/minis/snover.2bpp.lz"
+SnoverMiniMask:: INCBIN "gfx/minis/snover_mask.1bpp.lz"
+SnoverIcon::     INCBIN "gfx/icons/snover.2bpp.lz"
+
+SECTION "Abomasnow Mini Icon", ROMX
+AbomasnowMini::     INCBIN "gfx/minis/abomasnow.2bpp.lz"
+AbomasnowMiniMask:: INCBIN "gfx/minis/abomasnow_mask.1bpp.lz"
+AbomasnowIcon::     INCBIN "gfx/icons/abomasnow.2bpp.lz"
+
 SECTION "Weavile Mini Icon", ROMX
 WeavileMini::     INCBIN "gfx/minis/weavile.2bpp.lz"
 WeavileMiniMask:: INCBIN "gfx/minis/weavile_mask.1bpp.lz"

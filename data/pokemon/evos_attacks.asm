@@ -4257,6 +4257,13 @@ endc
 	evos_attacks Carnivine
 	learnset 1, POWER_GEM
 
+	evos_attacks Snover
+	evo_data EVOLVE_LEVEL, 40, ABOMASNOW
+	learnset 1, POWER_GEM
+
+	evos_attacks Abomasnow
+	learnset 1, POWER_GEM
+
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move

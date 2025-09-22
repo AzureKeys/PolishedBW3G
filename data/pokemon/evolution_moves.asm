@@ -227,6 +227,8 @@ endc
 	db NO_MOVE      ; TOXICROAK
 	db NO_MOVE      ; CARNIVINE
 	db NO_MOVE      ; MANTYKE
+	db NO_MOVE      ; SNOVER
+	db NO_MOVE      ; ABOMASNOW
 	db NO_MOVE      ; WEAVILE
 	db TRI_ATTACK   ; MAGNEZONE
 	db NO_MOVE      ; LICKILICKY
@@ -256,10 +258,10 @@ endc
 	db NO_MOVE      ; STOUTLAND
 	db NO_MOVE      ; PURRLOIN
 	db NO_MOVE      ; LIEPARD
-	db NO_MOVE      ; PANSAGE
-	db NO_MOVE      ; SIMISAGE
 	db NO_MOVE      ; EGG
 	db NO_MOVE      ; $100
+	db NO_MOVE      ; PANSAGE
+	db NO_MOVE      ; SIMISAGE
 	db NO_MOVE      ; PANSEAR
 	db NO_MOVE      ; SIMISEAR
 	db NO_MOVE      ; PANPOUR

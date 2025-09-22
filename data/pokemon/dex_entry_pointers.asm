@@ -224,6 +224,8 @@ PokedexDataPointerTable:
 	dba ToxicroakPokedexEntry
 	dba CarnivinePokedexEntry
 	dba MantykePokedexEntry
+	dba SnoverPokedexEntry
+	dba AbomasnowPokedexEntry
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
 	dba LickilickyPokedexEntry
@@ -253,10 +255,10 @@ PokedexDataPointerTable:
 	dba StoutlandPokedexEntry
 	dba PurrloinPokedexEntry
 	dba LiepardPokedexEntry
-	dba PansagePokedexEntry
-	dba SimisagePokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba PansagePokedexEntry
+	dba SimisagePokedexEntry
 	dba PansearPokedexEntry
 	dba SimisearPokedexEntry
 	dba PanpourPokedexEntry

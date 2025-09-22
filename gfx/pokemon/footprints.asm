@@ -260,6 +260,8 @@ DrapionFootprint::
 CroagunkFootprint::
 ToxicroakFootprint::
 CarnivineFootprint::
+SnoverFootprint::
+AbomasnowFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

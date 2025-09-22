@@ -224,6 +224,8 @@ FootprintPointers::
 	dw CarnivineFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint
+	dw SnoverFootprint
+	dw AbomasnowFootprint
 	dw MagnezoneFootprint
 	dw LickilickyFootprint
 	dw TangrowthFootprint
@@ -252,10 +254,10 @@ FootprintPointers::
 	dw StoutlandFootprint
 	dw PurrloinFootprint
 	dw LiepardFootprint
-	dw PansageFootprint
-	dw SimisageFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw PansageFootprint
+	dw SimisageFootprint
 	dw PansearFootprint
 	dw SimisearFootprint
 	dw PanpourFootprint

@@ -223,6 +223,8 @@ AnimationExtraPointers:
 	dw ToxicroakAnimationExtra
 	dw CarnivineAnimationExtra
 	dw MantykeAnimationExtra
+	dw SnoverAnimationExtra
+	dw AbomasnowAnimationExtra
 	dw WeavileAnimationExtra
 	dw MagnezoneAnimationExtra
 	dw LickilickyAnimationExtra
@@ -252,10 +254,10 @@ AnimationExtraPointers:
 	dw StoutlandAnimationExtra
 	dw PurrloinAnimationExtra
 	dw LiepardAnimationExtra
-	dw PansageAnimationExtra
-	dw SimisageAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw PansageAnimationExtra
+	dw SimisageAnimationExtra
 	dw PansearAnimationExtra
 	dw SimisearAnimationExtra
 	dw PanpourAnimationExtra

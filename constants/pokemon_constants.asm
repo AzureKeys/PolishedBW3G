@@ -247,6 +247,8 @@
 	const TOXICROAK  ; dd
 	const CARNIVINE  ; de
 	const MANTYKE    ; df
+	const SNOVER     ; e0
+	const ABOMASNOW  ; e1
 	const WEAVILE    ; e2
 	const MAGNEZONE  ; e3
 	const LICKILICKY ; e4
@@ -276,10 +278,10 @@
 	const STOUTLAND  ; 101
 	const PURRLOIN   ; 102
 	const LIEPARD    ; 103
-	const PANSAGE    ; 104
-	const SIMISAGE   ; 105
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const PANSAGE    ; 104
+	const SIMISAGE   ; 105
 	const PANSEAR    ; 106
 	const SIMISEAR   ; 107
 	const PANPOUR    ; 108

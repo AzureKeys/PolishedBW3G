@@ -227,6 +227,8 @@ EvosAttacksPointers::
 	dw ToxicroakEvosAttacks
 	dw CarnivineEvosAttacks
 	dw MantykeEvosAttacks
+	dw SnoverEvosAttacks
+	dw AbomasnowEvosAttacks
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
 	dw LickilickyEvosAttacks
@@ -256,10 +258,10 @@ EvosAttacksPointers::
 	dw StoutlandEvosAttacks
 	dw PurrloinEvosAttacks
 	dw LiepardEvosAttacks
-	dw PansageEvosAttacks
-	dw SimisageEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw PansageEvosAttacks
+	dw SimisageEvosAttacks
 	dw PansearEvosAttacks
 	dw SimisearEvosAttacks
 	dw PanpourEvosAttacks

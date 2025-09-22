@@ -223,6 +223,8 @@ FramesPointers:
 	dw ToxicroakFrames
 	dw CarnivineFrames
 	dw MantykeFrames
+	dw SnoverFrames
+	dw AbomasnowFrames
 	dw WeavileFrames
 	dw MagnezoneFrames
 	dw LickilickyFrames
@@ -252,10 +254,10 @@ FramesPointers:
 	dw StoutlandFrames
 	dw PurrloinFrames
 	dw LiepardFrames
-	dw PansageFrames
-	dw SimisageFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw PansageFrames
+	dw SimisageFrames
 	dw PansearFrames
 	dw SimisearFrames
 	dw PanpourFrames

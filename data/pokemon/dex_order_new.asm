@@ -251,6 +251,8 @@ NewPokedexOrder:
 	dp CROAGUNK
 	dp TOXICROAK
 	dp CARNIVINE
+	dp SNOVER
+	dp ABOMASNOW
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

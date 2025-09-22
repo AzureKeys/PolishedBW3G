@@ -2,6 +2,7 @@
 
 AlphabeticalPokedexOrder:
 	table_width 2
+	dp ABOMASNOW
 	dp ABSOL
 	dp ACCELGOR
 	dp AGGRON
@@ -322,6 +323,7 @@ AlphabeticalPokedexOrder:
 	dp SNIVY
 	dp SNORLAX
 	dp SNORUNT
+	dp SNOVER
 	dp SNUBBULL
 	dp SOLOSIS
 	dp SOLROCK
