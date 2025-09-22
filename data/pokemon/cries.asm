@@ -245,6 +245,7 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION, -$160,  $0d3 ; Mamoswine
 	mon_cry CRY_PIDGEOTTO,  -$4fc,  $216 ; Gallade
 	mon_cry CRY_TOTODILE,    $200,  $240 ; Probopass
+	mon_cry CRY_BLASTOISE,   $12b,  $0eb ; Froslass
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; VICTINI*
 	mon_cry CRY_VENONAT,     $096,  $0cd ; Snivy
 	mon_cry CRY_VULPIX,      $097,  $0a9 ; Servine
@@ -259,9 +260,9 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,   -$026,  $0b0 ; Watchog
 	mon_cry CRY_REMORAID,   -$077,  $0e0 ; Lillipup
 	mon_cry CRY_NIDORAN_M,  -$0c9,  $0ab ; Herdier
-	mon_cry CRY_STOUTLAND,  -$201,  $0b0 ; Stoutland
 	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
 	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_STOUTLAND,  -$201,  $0b0 ; Stoutland
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
 	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; PANSAGE*

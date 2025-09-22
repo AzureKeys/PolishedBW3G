@@ -2385,85 +2385,15 @@ ProbopassPokedexEntry::
 	next "rendered useless"
 	next "when it's around.@"
 
-SECTION "SylveonPokedexEntry", ROMX
-SylveonPokedexEntry::
-	db "Intertwined@"
-	db   "It wraps its"
-	next "ribbonlike feelers"
-	next "around the arm of"
-	page "its beloved train-"
-	next "er and walks with"
-	next "them.@"
-
-SECTION "PerrserkerPokedexEntry", ROMX
-PerrserkerPokedexEntry::
-	db "Viking@"
-	db   "After many battles"
-	next "it evolved"
-	next "dangerous claws"
-	page "that come together"
-	next "to form daggers"
-	next "when extended.@"
-
-SECTION "CursolaPokedexEntry", ROMX
-CursolaPokedexEntry::
-	db "Coral@"
-	db   "Be cautious of the"
-	next "ectoplasmic body"
-	next "surrounding its"
-	page "soul. You'll become"
-	next "stiff as stone if"
-	next "you touch it.@"
-
-SECTION "MrRimePokedexEntry", ROMX
-MrRimePokedexEntry::
-	db "Comedian@"
-	db   "It's highly skilled"
-	next "at tap-dancing. It"
-	next "waves its cane of"
-	page "ice in time with"
-	next "its graceful"
-	next "movements.@"
-
-SECTION "KleavorPokedexEntry", ROMX
-KleavorPokedexEntry::
-	db "Axe@"
-	db   "A violent creature"
-	next "that fells tower-"
-	next "ing trees with its"
-	page "crude axes and"
-	next "shields itself"
-	next "with hard stone.@"
-
-SECTION "SneaslerPokedexEntry", ROMX
-SneaslerPokedexEntry::
-	db "Free Climb@"
-	db   "It has virulent"
-	next "poison and daunt-"
-	next "ing physical prow-"
-	page "ess. Preferring"
-	next "solitude, it does"
-	next "not form packs.@"
-
-SECTION "DudunsparcePokedexEntry", ROMX
-DudunsparcePokedexEntry::
-	db "Land Snake@"
-	db   "It makes its nest"
-	next "with its hard tail"
-	next "by boring holes"
-	page "into deep bedrock."
-	next "The nest can reach"
-	next "over six miles.@"
-
-SECTION "AnnihilapePokedexEntry", ROMX
-AnnihilapePokedexEntry::
-	db "Rage Monkey@"
-	db   "When its anger"
-	next "rose beyond a cri-"
-	next "tical point, it"
-	page "gained power unfe-"
-	next "ttered by its"
-	next "physical body.@"
+SECTION "FroslassPokedexEntry", ROMX
+FroslassPokedexEntry::
+	db "Snow Land@"
+	db   "It freezes prey by"
+	next "blowing its -58"
+	next "degree Fahrenheit"
+	page "breath. It is said"
+	next "to then secretly"
+	next "display its prey.@"
 
 SECTION "VictiniPokedexEntry", ROMX
 VictiniPokedexEntry::
@@ -4013,6 +3943,46 @@ GenesectPokedexEntry::
 	page "strongest of"
 	next "hunters.@"
 
+SECTION "SylveonPokedexEntry", ROMX
+SylveonPokedexEntry::
+	db "Intertwined@"
+	db   "It wraps its"
+	next "ribbonlike feelers"
+	next "around the arm of"
+	page "its beloved train-"
+	next "er and walks with"
+	next "them.@"
+
+SECTION "PerrserkerPokedexEntry", ROMX
+PerrserkerPokedexEntry::
+	db "Viking@"
+	db   "After many battles"
+	next "it evolved"
+	next "dangerous claws"
+	page "that come together"
+	next "to form daggers"
+	next "when extended.@"
+
+SECTION "CursolaPokedexEntry", ROMX
+CursolaPokedexEntry::
+	db "Coral@"
+	db   "Be cautious of the"
+	next "ectoplasmic body"
+	next "surrounding its"
+	page "soul. You'll become"
+	next "stiff as stone if"
+	next "you touch it.@"
+
+SECTION "MrRimePokedexEntry", ROMX
+MrRimePokedexEntry::
+	db "Comedian@"
+	db   "It's highly skilled"
+	next "at tap-dancing. It"
+	next "waves its cane of"
+	page "ice in time with"
+	next "its graceful"
+	next "movements.@"
+
 SECTION "RunerigusPokedexEntry", ROMX
 RunerigusPokedexEntry::
 	db "Grudge@"
@@ -4022,6 +3992,46 @@ RunerigusPokedexEntry::
     page "them into mummies."
     next "They are covered"
     next "in gold.@"
+
+SECTION "KleavorPokedexEntry", ROMX
+KleavorPokedexEntry::
+	db "Axe@"
+	db   "A violent creature"
+	next "that fells tower-"
+	next "ing trees with its"
+	page "crude axes and"
+	next "shields itself"
+	next "with hard stone.@"
+
+SECTION "SneaslerPokedexEntry", ROMX
+SneaslerPokedexEntry::
+	db "Free Climb@"
+	db   "It has virulent"
+	next "poison and daunt-"
+	next "ing physical prow-"
+	page "ess. Preferring"
+	next "solitude, it does"
+	next "not form packs.@"
+
+SECTION "AnnihilapePokedexEntry", ROMX
+AnnihilapePokedexEntry::
+	db "Rage Monkey@"
+	db   "When its anger"
+	next "rose beyond a cri-"
+	next "tical point, it"
+	page "gained power unfe-"
+	next "ttered by its"
+	next "physical body.@"
+
+SECTION "DudunsparcePokedexEntry", ROMX
+DudunsparcePokedexEntry::
+	db "Land Snake@"
+	db   "It makes its nest"
+	next "with its hard tail"
+	next "by boring holes"
+	page "into deep bedrock."
+	next "The nest can reach"
+	next "over six miles.@"
 
 SECTION "RattataAlolanPokedexEntry", ROMX
 RattataAlolanPokedexEntry::

@@ -972,6 +972,10 @@ SECTION "Probopass Pics", ROMX
 ProbopassFrontpic: INCBIN "gfx/pokemon/probopass/front.animated.2bpp.lz"
 ProbopassBackpic:  INCBIN "gfx/pokemon/probopass/back.2bpp.lz"
 
+SECTION "Froslass Pics", ROMX
+FroslassFrontpic: INCBIN "gfx/pokemon/froslass/front.animated.2bpp.lz"
+FroslassBackpic:  INCBIN "gfx/pokemon/froslass/back.2bpp.lz"
+
 SECTION "Victini Pics", ROMX
 VictiniFrontpic: INCBIN "gfx/pokemon/victini/front.animated.2bpp.lz"
 VictiniBackpic:  INCBIN "gfx/pokemon/victini/back.2bpp.lz"

@@ -215,6 +215,7 @@ NewPokedexOrder:
 	dp ABSOL
 	dp SNORUNT
 	dp GLALIE
+	dp FROSLASS
 	dp SPHEAL
 	dp SEALEO
 	dp WALREIN

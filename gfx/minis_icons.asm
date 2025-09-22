@@ -1202,45 +1202,10 @@ ProbopassMini::     INCBIN "gfx/minis/probopass.2bpp.lz"
 ProbopassMiniMask:: INCBIN "gfx/minis/probopass_mask.1bpp.lz"
 ProbopassIcon::     INCBIN "gfx/icons/probopass.2bpp.lz"
 
-SECTION "Sylveon Mini Icon", ROMX
-SylveonMini::     INCBIN "gfx/minis/sylveon.2bpp.lz"
-SylveonMiniMask:: INCBIN "gfx/minis/sylveon_mask.1bpp.lz"
-SylveonIcon::     INCBIN "gfx/icons/sylveon.2bpp.lz"
-
-SECTION "Perrserker Mini Icon", ROMX
-PerrserkerMini::     INCBIN "gfx/minis/perrserker.2bpp.lz"
-PerrserkerMiniMask:: INCBIN "gfx/minis/perrserker_mask.1bpp.lz"
-PerrserkerIcon::     INCBIN "gfx/icons/perrserker.2bpp.lz"
-
-SECTION "Cursola Mini Icon", ROMX
-CursolaMini::     INCBIN "gfx/minis/cursola.2bpp.lz"
-CursolaMiniMask:: INCBIN "gfx/minis/cursola_mask.1bpp.lz"
-CursolaIcon::     INCBIN "gfx/icons/cursola.2bpp.lz"
-
-SECTION "MrRime Mini Icon", ROMX
-MrRimeMini::     INCBIN "gfx/minis/mr__rime.2bpp.lz"
-MrRimeMiniMask:: INCBIN "gfx/minis/mr__rime_mask.1bpp.lz"
-MrRimeIcon::     INCBIN "gfx/icons/mr__rime.2bpp.lz"
-
-SECTION "Kleavor Mini Icon", ROMX
-KleavorMini::     INCBIN "gfx/minis/kleavor.2bpp.lz"
-KleavorMiniMask:: INCBIN "gfx/minis/kleavor_mask.1bpp.lz"
-KleavorIcon::     INCBIN "gfx/icons/kleavor.2bpp.lz"
-
-SECTION "Sneasler Mini Icon", ROMX
-SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
-SneaslerMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
-SneaslerIcon::     INCBIN "gfx/icons/sneasler.2bpp.lz"
-
-SECTION "DudunsparceTwoSegment Mini Icon", ROMX
-DudunsparceTwoSegmentMini::     INCBIN "gfx/minis/dudunsparce_two_segment.2bpp.lz"
-DudunsparceTwoSegmentMiniMask:: INCBIN "gfx/minis/dudunsparce_two_segment_mask.1bpp.lz"
-DudunsparceTwoSegmentIcon::     INCBIN "gfx/icons/dudunsparce_two_segment.2bpp.lz"
-
-SECTION "Annihilape Mini Icon", ROMX
-AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
-AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
-AnnihilapeIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
+SECTION "Froslass Mini Icon", ROMX
+FroslassMini::     INCBIN "gfx/minis/froslass.2bpp.lz"
+FroslassMiniMask:: INCBIN "gfx/minis/froslass_mask.1bpp.lz"
+FroslassIcon::     INCBIN "gfx/icons/froslass.2bpp.lz"
 
 SECTION "Victini Mini Icon", ROMX
 VictiniMini::     INCBIN "gfx/minis/victini.2bpp.lz"
@@ -2022,10 +1987,50 @@ GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lz"
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lz"
 GenesectIcon::     INCBIN "gfx/icons/genesect.2bpp.lz"
 
+SECTION "Sylveon Mini Icon", ROMX
+SylveonMini::     INCBIN "gfx/minis/sylveon.2bpp.lz"
+SylveonMiniMask:: INCBIN "gfx/minis/sylveon_mask.1bpp.lz"
+SylveonIcon::     INCBIN "gfx/icons/sylveon.2bpp.lz"
+
+SECTION "Perrserker Mini Icon", ROMX
+PerrserkerMini::     INCBIN "gfx/minis/perrserker.2bpp.lz"
+PerrserkerMiniMask:: INCBIN "gfx/minis/perrserker_mask.1bpp.lz"
+PerrserkerIcon::     INCBIN "gfx/icons/perrserker.2bpp.lz"
+
+SECTION "Cursola Mini Icon", ROMX
+CursolaMini::     INCBIN "gfx/minis/cursola.2bpp.lz"
+CursolaMiniMask:: INCBIN "gfx/minis/cursola_mask.1bpp.lz"
+CursolaIcon::     INCBIN "gfx/icons/cursola.2bpp.lz"
+
+SECTION "MrRime Mini Icon", ROMX
+MrRimeMini::     INCBIN "gfx/minis/mr__rime.2bpp.lz"
+MrRimeMiniMask:: INCBIN "gfx/minis/mr__rime_mask.1bpp.lz"
+MrRimeIcon::     INCBIN "gfx/icons/mr__rime.2bpp.lz"
+
 SECTION "Runerigus Mini Icon", ROMX
 RunerigusMini::     INCBIN "gfx/minis/runerigus.2bpp.lz"
 RunerigusMiniMask:: INCBIN "gfx/minis/runerigus_mask.1bpp.lz"
 RunerigusIcon::     INCBIN "gfx/icons/runerigus.2bpp.lz"
+
+SECTION "Kleavor Mini Icon", ROMX
+KleavorMini::     INCBIN "gfx/minis/kleavor.2bpp.lz"
+KleavorMiniMask:: INCBIN "gfx/minis/kleavor_mask.1bpp.lz"
+KleavorIcon::     INCBIN "gfx/icons/kleavor.2bpp.lz"
+
+SECTION "Sneasler Mini Icon", ROMX
+SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
+SneaslerMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
+SneaslerIcon::     INCBIN "gfx/icons/sneasler.2bpp.lz"
+
+SECTION "Annihilape Mini Icon", ROMX
+AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
+AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
+AnnihilapeIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
+
+SECTION "DudunsparceTwoSegment Mini Icon", ROMX
+DudunsparceTwoSegmentMini::     INCBIN "gfx/minis/dudunsparce_two_segment.2bpp.lz"
+DudunsparceTwoSegmentMiniMask:: INCBIN "gfx/minis/dudunsparce_two_segment_mask.1bpp.lz"
+DudunsparceTwoSegmentIcon::     INCBIN "gfx/icons/dudunsparce_two_segment.2bpp.lz"
 
 SECTION "DudunsparceThreeSegment Mini Icon", ROMX
 DudunsparceThreeSegmentMini::     INCBIN "gfx/minis/dudunsparce_three_segment.2bpp.lz"

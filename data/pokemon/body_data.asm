@@ -246,6 +246,7 @@ PokemonBodyData:
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
 	body_data  16,  520, BIPEDAL,      WHITE  ; GALLADE
 	body_data  14, 3400, MULTIBODY,    GRAY   ; PROBOPASS
+	body_data  13,  266, HEAD_ARMS,    WHITE  ; FROSLASS
 	body_data   4,   40, BIPEDAL,      YELLOW ; VICTINI
 	body_data   6,   81, BIPEDAL_TAIL, GREEN  ; SNIVY
 	body_data   8,  160, BIPEDAL_TAIL, GREEN  ; SERVINE
@@ -260,9 +261,9 @@ PokemonBodyData:
 	body_data  11,  270, BIPEDAL_TAIL, BROWN  ; WATCHOG
 	body_data   4,   41, QUADRUPED,    BROWN  ; LILLIPUP
 	body_data   9,  147, QUADRUPED,    GRAY   ; HERDIER
-	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data  12,  610, QUADRUPED,    GRAY   ; STOUTLAND
 	body_data   4,  101, QUADRUPED,    PURPLE ; PURRLOIN
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  105, BIPEDAL_TAIL, GREEN  ; PANSAGE

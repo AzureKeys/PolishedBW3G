@@ -4489,6 +4489,9 @@ endc
 	evos_attacks Probopass
 	learnset 1, POWER_GEM
 
+	evos_attacks Froslass
+	learnset 1, POWER_GEM
+
 	evos_attacks Sylveon
 	learnset 1, GROWL
 	learnset 1, TACKLE

@@ -243,6 +243,7 @@ PokemonPicPointers::
 	pics Mamoswine
 	pics Gallade
 	pics Probopass
+	pics Froslass
 	pics Victini
 	pics Snivy
 	pics Servine
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Watchog
 	pics Lillipup
 	pics Herdier
-	pics Stoutland
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Stoutland
 	pics Purrloin
 	pics Liepard
 	pics Pansage

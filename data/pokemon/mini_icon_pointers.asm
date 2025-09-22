@@ -243,6 +243,7 @@ MiniIconPointers:
 	mini_icon Mamoswine
 	mini_icon Gallade
 	mini_icon Probopass
+	mini_icon Froslass
 	mini_icon Victini
 	mini_icon Snivy
 	mini_icon Servine
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Watchog
 	mini_icon Lillipup
 	mini_icon Herdier
-	mini_icon Stoutland
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Stoutland
 	mini_icon Purrloin
 	mini_icon Liepard
 	mini_icon Pansage

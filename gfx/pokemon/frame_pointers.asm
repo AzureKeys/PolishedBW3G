@@ -239,6 +239,7 @@ FramesPointers:
 	dw MamoswineFrames
 	dw GalladeFrames
 	dw ProbopassFrames
+	dw FroslassFrames
 	dw VictiniFrames
 	dw SnivyFrames
 	dw ServineFrames
@@ -253,9 +254,9 @@ FramesPointers:
 	dw WatchogFrames
 	dw LillipupFrames
 	dw HerdierFrames
-	dw StoutlandFrames
 	dw EggFrames
 	dw EggFrames ; $100
+	dw StoutlandFrames
 	dw PurrloinFrames
 	dw LiepardFrames
 	dw PansageFrames

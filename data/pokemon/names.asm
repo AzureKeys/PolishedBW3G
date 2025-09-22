@@ -240,6 +240,7 @@ PokemonNames::
 	rawchar "Mamoswine@"
 	rawchar "Gallade@@@"
 	rawchar "Probopass@"
+	rawchar "Froslass@@"
 	rawchar "Victini@@@"
 	rawchar "Snivy@@@@@"
 	rawchar "Servine@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Watchog@@@"
 	rawchar "Lillipup@@"
 	rawchar "Herdier@@@"
-	rawchar "Stoutland@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Stoutland@"
 	rawchar "Purrloin@@"
 	rawchar "Liepard@@@"
 	rawchar "Pansage@@@"

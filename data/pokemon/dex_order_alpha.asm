@@ -109,6 +109,7 @@ AlphabeticalPokedexOrder:
 	dp FOONGUS
 	dp FRAXURE
 	dp FRILLISH
+	dp FROSLASS
 	dp GABITE
 	dp GALLADE
 	dp GALVANTULA

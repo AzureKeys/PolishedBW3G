@@ -264,6 +264,7 @@ SnoverFootprint::
 AbomasnowFootprint::
 GalladeFootprint::
 ProbopassFootprint::
+FroslassFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::
