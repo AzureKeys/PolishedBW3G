@@ -241,6 +241,7 @@ OverworldMonIconColors::
 	iconpal AZURE, BLUE ; GLACEON
 	iconpal PURPLE, GRAY ; GLISCOR
 	iconpal BROWN, GREEN ; MAMOSWINE
+	iconpal GREEN, BLUE ; GALLADE
 	iconpal ORANGE, RED ; VICTINI
 	iconpal GREEN, BLUE ; SNIVY
 	iconpal GREEN, BLUE ; SERVINE
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal BLUE, GRAY ; HERDIER
 	iconpal BLUE, GREEN ; STOUTLAND
 	iconpal PURPLE, BLUE ; PURRLOIN
-	iconpal PURPLE, RED ; LIEPARD
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal PURPLE, RED ; LIEPARD
 	iconpal GREEN, BROWN ; PANSAGE
 	iconpal GREEN, BROWN ; SIMISAGE
 	iconpal RED, ORANGE ; PANSEAR

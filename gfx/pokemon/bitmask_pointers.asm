@@ -237,6 +237,7 @@ BitmasksPointers:
 	dw GlaceonBitmasks
 	dw GliscorBitmasks
 	dw MamoswineBitmasks
+	dw GalladeBitmasks
 	dw VictiniBitmasks
 	dw SnivyBitmasks
 	dw ServineBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw HerdierBitmasks
 	dw StoutlandBitmasks
 	dw PurrloinBitmasks
-	dw LiepardBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw LiepardBitmasks
 	dw PansageBitmasks
 	dw SimisageBitmasks
 	dw PansearBitmasks

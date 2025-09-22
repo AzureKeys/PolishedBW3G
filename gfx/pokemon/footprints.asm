@@ -262,6 +262,7 @@ ToxicroakFootprint::
 CarnivineFootprint::
 SnoverFootprint::
 AbomasnowFootprint::
+GalladeFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

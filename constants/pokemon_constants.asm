@@ -261,6 +261,7 @@
 	const GLACEON    ; eb
 	const GLISCOR    ; ec
 	const MAMOSWINE  ; ed
+	const GALLADE    ; ee
 	const VICTINI    ; f1
 	const SNIVY      ; f2
 	const SERVINE    ; f3
@@ -277,9 +278,9 @@
 	const HERDIER    ; fe
 	const STOUTLAND  ; 101
 	const PURRLOIN   ; 102
-	const LIEPARD    ; 103
 	const EGG        ; ff
 	const_skip       ; 100 is unused
+	const LIEPARD    ; 103
 	const PANSAGE    ; 104
 	const SIMISAGE   ; 105
 	const PANSEAR    ; 106

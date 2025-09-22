@@ -170,6 +170,7 @@ NewPokedexOrder:
 	dp RALTS
 	dp KIRLIA
 	dp GARDEVOIR
+	dp GALLADE
 	dp SHROOMISH
 	dp BRELOOM
 	dp SLAKOTH

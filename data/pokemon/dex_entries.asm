@@ -2365,6 +2365,16 @@ MamoswinePokedexEntry::
 	next "it turned warm"
 	next "after the ice age.@"
 
+SECTION "GalladePokedexEntry", ROMX
+GalladePokedexEntry::
+	db "Blade@"
+	db   "When trying to"
+	next "protect someone,"
+	next "it extends its"
+	page "elbows as if they"
+	next "were swords and"
+	next "fights savagely.@"
+
 SECTION "SylveonPokedexEntry", ROMX
 SylveonPokedexEntry::
 	db "Intertwined@"

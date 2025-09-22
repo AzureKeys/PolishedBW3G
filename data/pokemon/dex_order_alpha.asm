@@ -110,6 +110,7 @@ AlphabeticalPokedexOrder:
 	dp FRAXURE
 	dp FRILLISH
 	dp GABITE
+	dp GALLADE
 	dp GALVANTULA
 	dp GARBODOR
 	dp GARCHOMP

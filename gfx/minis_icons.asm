@@ -1192,6 +1192,11 @@ MamoswineMini::     INCBIN "gfx/minis/mamoswine.2bpp.lz"
 MamoswineMiniMask:: INCBIN "gfx/minis/mamoswine_mask.1bpp.lz"
 MamoswineIcon::     INCBIN "gfx/icons/mamoswine.2bpp.lz"
 
+SECTION "Gallade Mini Icon", ROMX
+GalladeMini::     INCBIN "gfx/minis/gallade.2bpp.lz"
+GalladeMiniMask:: INCBIN "gfx/minis/gallade_mask.1bpp.lz"
+GalladeIcon::     INCBIN "gfx/icons/gallade.2bpp.lz"
+
 SECTION "Sylveon Mini Icon", ROMX
 SylveonMini::     INCBIN "gfx/minis/sylveon.2bpp.lz"
 SylveonMiniMask:: INCBIN "gfx/minis/sylveon_mask.1bpp.lz"

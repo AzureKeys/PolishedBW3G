@@ -964,6 +964,10 @@ SECTION "Mamoswine Pics", ROMX
 MamoswineFrontpic: INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
 MamoswineBackpic:  INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
 
+SECTION "Gallade Pics", ROMX
+GalladeFrontpic: INCBIN "gfx/pokemon/gallade/front.animated.2bpp.lz"
+GalladeBackpic:  INCBIN "gfx/pokemon/gallade/back.2bpp.lz"
+
 SECTION "Victini Pics", ROMX
 VictiniFrontpic: INCBIN "gfx/pokemon/victini/front.animated.2bpp.lz"
 VictiniBackpic:  INCBIN "gfx/pokemon/victini/back.2bpp.lz"

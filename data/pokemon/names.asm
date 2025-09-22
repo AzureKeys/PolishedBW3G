@@ -238,6 +238,7 @@ PokemonNames::
 	rawchar "Glaceon@@@"
 	rawchar "Gliscor@@@"
 	rawchar "Mamoswine@"
+	rawchar "Gallade@@@"
 	rawchar "Victini@@@"
 	rawchar "Snivy@@@@@"
 	rawchar "Servine@@@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Herdier@@@"
 	rawchar "Stoutland@"
 	rawchar "Purrloin@@"
-	rawchar "Liepard@@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Liepard@@@"
 	rawchar "Pansage@@@"
 	rawchar "Simisage@@"
 	rawchar "Pansear@@@"

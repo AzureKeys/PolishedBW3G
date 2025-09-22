@@ -4264,6 +4264,9 @@ endc
 	evos_attacks Abomasnow
 	learnset 1, POWER_GEM
 
+	evos_attacks Gallade
+	learnset 1, POWER_GEM
+
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move

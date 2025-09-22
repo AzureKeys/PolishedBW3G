@@ -1371,8 +1371,6 @@ wEndPokedexFlags::
 
 wUnlockedUnowns:: db
 
-	ds 2 ; unused
-
 wDayCareMan::
 ; bit 7: active
 ; bit 6: monsters are compatible
