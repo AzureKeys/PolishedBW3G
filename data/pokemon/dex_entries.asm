@@ -2375,6 +2375,16 @@ GalladePokedexEntry::
 	next "were swords and"
 	next "fights savagely.@"
 
+SECTION "ProbopassPokedexEntry", ROMX
+ProbopassPokedexEntry::
+	db "Compass@"
+	db   "It radiates such a"
+	next "powerful magnetic"
+	next "field that nearby"
+	page "appliances are"
+	next "rendered useless"
+	next "when it's around.@"
+
 SECTION "SylveonPokedexEntry", ROMX
 SylveonPokedexEntry::
 	db "Intertwined@"

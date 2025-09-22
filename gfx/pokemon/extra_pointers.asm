@@ -238,6 +238,7 @@ AnimationExtraPointers:
 	dw GliscorAnimationExtra
 	dw MamoswineAnimationExtra
 	dw GalladeAnimationExtra
+	dw ProbopassAnimationExtra
 	dw VictiniAnimationExtra
 	dw SnivyAnimationExtra
 	dw ServineAnimationExtra
@@ -253,9 +254,9 @@ AnimationExtraPointers:
 	dw LillipupAnimationExtra
 	dw HerdierAnimationExtra
 	dw StoutlandAnimationExtra
-	dw PurrloinAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
+	dw PurrloinAnimationExtra
 	dw LiepardAnimationExtra
 	dw PansageAnimationExtra
 	dw SimisageAnimationExtra

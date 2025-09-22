@@ -4264,9 +4264,6 @@ endc
 	evos_attacks Abomasnow
 	learnset 1, POWER_GEM
 
-	evos_attacks Gallade
-	learnset 1, POWER_GEM
-
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move
@@ -4485,6 +4482,12 @@ endc
 	learnset 46, EARTHQUAKE
 	learnset 52, BLIZZARD
 	learnset 58, SCARY_FACE
+
+	evos_attacks Gallade
+	learnset 1, POWER_GEM
+
+	evos_attacks Probopass
+	learnset 1, POWER_GEM
 
 	evos_attacks Sylveon
 	learnset 1, GROWL

@@ -968,6 +968,10 @@ SECTION "Gallade Pics", ROMX
 GalladeFrontpic: INCBIN "gfx/pokemon/gallade/front.animated.2bpp.lz"
 GalladeBackpic:  INCBIN "gfx/pokemon/gallade/back.2bpp.lz"
 
+SECTION "Probopass Pics", ROMX
+ProbopassFrontpic: INCBIN "gfx/pokemon/probopass/front.animated.2bpp.lz"
+ProbopassBackpic:  INCBIN "gfx/pokemon/probopass/back.2bpp.lz"
+
 SECTION "Victini Pics", ROMX
 VictiniFrontpic: INCBIN "gfx/pokemon/victini/front.animated.2bpp.lz"
 VictiniBackpic:  INCBIN "gfx/pokemon/victini/back.2bpp.lz"

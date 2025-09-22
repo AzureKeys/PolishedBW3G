@@ -238,6 +238,7 @@ BitmasksPointers:
 	dw GliscorBitmasks
 	dw MamoswineBitmasks
 	dw GalladeBitmasks
+	dw ProbopassBitmasks
 	dw VictiniBitmasks
 	dw SnivyBitmasks
 	dw ServineBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw LillipupBitmasks
 	dw HerdierBitmasks
 	dw StoutlandBitmasks
-	dw PurrloinBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw PurrloinBitmasks
 	dw LiepardBitmasks
 	dw PansageBitmasks
 	dw SimisageBitmasks

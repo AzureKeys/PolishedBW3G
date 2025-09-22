@@ -177,6 +177,7 @@ NewPokedexOrder:
 	dp VIGOROTH
 	dp SLAKING
 	dp NOSEPASS
+	dp PROBOPASS
 	dp SKITTY
 	dp DELCATTY
 	dp SABLEYE

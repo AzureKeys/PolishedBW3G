@@ -242,6 +242,7 @@ EvosAttacksPointers::
 	dw GliscorEvosAttacks
 	dw MamoswineEvosAttacks
 	dw GalladeEvosAttacks
+	dw ProbopassEvosAttacks
 	dw VictiniEvosAttacks
 	dw SnivyEvosAttacks
 	dw ServineEvosAttacks
@@ -257,9 +258,9 @@ EvosAttacksPointers::
 	dw LillipupEvosAttacks
 	dw HerdierEvosAttacks
 	dw StoutlandEvosAttacks
-	dw PurrloinEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
+	dw PurrloinEvosAttacks
 	dw LiepardEvosAttacks
 	dw PansageEvosAttacks
 	dw SimisageEvosAttacks

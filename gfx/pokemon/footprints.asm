@@ -263,6 +263,7 @@ CarnivineFootprint::
 SnoverFootprint::
 AbomasnowFootprint::
 GalladeFootprint::
+ProbopassFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -261,6 +261,7 @@ AlphabeticalPokedexOrder:
 	dp POLIWRATH
 	dp PONYTA
 	dp PRIMEAPE
+	dp PROBOPASS
 	dp PSYDUCK
 	dp PUPITAR
 	dp PURRLOIN

@@ -238,6 +238,7 @@ FootprintPointers::
 	dw GliscorFootprint
 	dw MamoswineFootprint
 	dw GalladeFootprint
+	dw ProbopassFootprint
 	dw VictiniFootprint
 	dw SnivyFootprint
 	dw ServineFootprint
@@ -253,9 +254,9 @@ FootprintPointers::
 	dw LillipupFootprint
 	dw HerdierFootprint
 	dw StoutlandFootprint
-	dw PurrloinFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
+	dw PurrloinFootprint
 	dw LiepardFootprint
 	dw PansageFootprint
 	dw SimisageFootprint

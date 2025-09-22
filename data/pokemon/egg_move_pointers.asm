@@ -238,6 +238,7 @@ EggSpeciesMovesPointers::
 	dw GligarEggSpeciesMoves            ; Gliscor
 	dw SwinubEggSpeciesMoves            ; Mamoswine
 	dw RaltsEggSpeciesMoves             ; Gallade
+	dw NosepassEggSpeciesMoves          ; Probopass
 	dw NoEggSpeciesMoves                ; Victini
 	dw SnivyEggSpeciesMoves             ; Snivy
 	dw SnivyEggSpeciesMoves             ; Servine
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw LillipupEggSpeciesMoves          ; Lillipup
 	dw LillipupEggSpeciesMoves          ; Herdier
 	dw LillipupEggSpeciesMoves          ; Stoutland
-	dw PurrloinEggSpeciesMoves          ; Purrloin
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw PurrloinEggSpeciesMoves          ; Purrloin
 	dw PurrloinEggSpeciesMoves          ; Liepard
 	dw PansageEggSpeciesMoves           ; Pansage
 	dw PansageEggSpeciesMoves           ; Simisage

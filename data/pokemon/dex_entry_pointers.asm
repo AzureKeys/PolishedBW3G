@@ -239,6 +239,7 @@ PokedexDataPointerTable:
 	dba GliscorPokedexEntry
 	dba MamoswinePokedexEntry
 	dba GalladePokedexEntry
+	dba ProbopassPokedexEntry
 	dba VictiniPokedexEntry
 	dba SnivyPokedexEntry
 	dba ServinePokedexEntry
@@ -254,9 +255,9 @@ PokedexDataPointerTable:
 	dba LillipupPokedexEntry
 	dba HerdierPokedexEntry
 	dba StoutlandPokedexEntry
-	dba PurrloinPokedexEntry
 	dba SnivyPokedexEntry ; EGG
 	dba SnivyPokedexEntry ; $100
+	dba PurrloinPokedexEntry
 	dba LiepardPokedexEntry
 	dba PansagePokedexEntry
 	dba SimisagePokedexEntry

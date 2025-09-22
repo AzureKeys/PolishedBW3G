@@ -1197,6 +1197,11 @@ GalladeMini::     INCBIN "gfx/minis/gallade.2bpp.lz"
 GalladeMiniMask:: INCBIN "gfx/minis/gallade_mask.1bpp.lz"
 GalladeIcon::     INCBIN "gfx/icons/gallade.2bpp.lz"
 
+SECTION "Probopass Mini Icon", ROMX
+ProbopassMini::     INCBIN "gfx/minis/probopass.2bpp.lz"
+ProbopassMiniMask:: INCBIN "gfx/minis/probopass_mask.1bpp.lz"
+ProbopassIcon::     INCBIN "gfx/icons/probopass.2bpp.lz"
+
 SECTION "Sylveon Mini Icon", ROMX
 SylveonMini::     INCBIN "gfx/minis/sylveon.2bpp.lz"
 SylveonMiniMask:: INCBIN "gfx/minis/sylveon_mask.1bpp.lz"

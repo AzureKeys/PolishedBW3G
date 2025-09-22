@@ -243,6 +243,7 @@ endc
 	db  20, 100 ; Gliscor
 	db  45, 100 ; Mamoswine
 	db  30, 100 ; Gallade
+	db  30, 100 ; Probopass
 	db 255, 255 ; Victini
 	db   1,  16 ; Snivy
 	db  17,  35 ; Servine
@@ -258,9 +259,9 @@ endc
 	db   1,  15 ; Lillipup
 	db  16,  31 ; Herdier
 	db  32, 100 ; Stoutland
-	db   1,  19 ; Purrloin
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  19 ; Purrloin
 	db  20, 100 ; Liepard
 	db   1,  24 ; Pansage
 	db  25, 100 ; Simisage
