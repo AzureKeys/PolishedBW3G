@@ -2205,6 +2205,16 @@ ToxicroakPokedexEntry::
 	page "scratch could"
 	next "prove fatal.@"
 
+SECTION "CarnivinePokedexEntry", ROMX
+CarnivinePokedexEntry::
+	db "Bug Catcher@"
+	db   "It attracts prey"
+	next "with its sweet-"
+	next "smelling saliva,"
+	page "then chomps down."
+	next "It takes a whole"
+	next "day to eat prey.@"
+
 SECTION "MantykePokedexEntry", ROMX
 MantykePokedexEntry::
 	db "Kite@"

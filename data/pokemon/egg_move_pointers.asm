@@ -221,6 +221,7 @@ EggSpeciesMovesPointers::
 	dw SkorupiEggSpeciesMoves           ; Drapion
 	dw CroagunkEggSpeciesMoves          ; Croagunk
 	dw CroagunkEggSpeciesMoves          ; Toxicroak
+	dw CarnivineEggSpeciesMoves         ; Carnivine
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
@@ -253,9 +254,9 @@ EggSpeciesMovesPointers::
 	dw PurrloinEggSpeciesMoves          ; Liepard
 	dw PansageEggSpeciesMoves           ; Pansage
 	dw PansageEggSpeciesMoves           ; Simisage
-	dw PansearEggSpeciesMoves           ; Pansear
 	dw NoEggSpeciesMoves                ; Egg
 	dw NoEggSpeciesMoves                ; $100
+	dw PansearEggSpeciesMoves           ; Pansear
 	dw PansearEggSpeciesMoves           ; Simisear
 	dw PanpourEggSpeciesMoves           ; Panpour
 	dw PanpourEggSpeciesMoves           ; Simipour

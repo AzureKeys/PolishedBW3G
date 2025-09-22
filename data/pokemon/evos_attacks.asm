@@ -4254,6 +4254,9 @@ endc
 	evos_attacks Toxicroak
 	learnset 1, POWER_GEM
 
+	evos_attacks Carnivine
+	learnset 1, POWER_GEM
+
 	evos_attacks Mantyke
 	evo_data EVOLVE_PARTY, REMORAID, MANTINE
 	learnset 1, GUST ; event move

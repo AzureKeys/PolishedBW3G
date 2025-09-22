@@ -9,7 +9,7 @@
 
 	abilities_for CARNIVINE, LEVITATE, LEVITATE, LEVITATE
 	db GROWTH_SLOW ; growth rate
-	dn EGG_GRASS, EGG_GRASS ; egg groups
+	dn EGG_PLANT, EGG_PLANT ; egg groups
 
 	ev_yield 2 Atk
 

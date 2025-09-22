@@ -221,6 +221,7 @@ BitmasksPointers:
 	dw DrapionBitmasks
 	dw CroagunkBitmasks
 	dw ToxicroakBitmasks
+	dw CarnivineBitmasks
 	dw MantykeBitmasks
 	dw WeavileBitmasks
 	dw MagnezoneBitmasks
@@ -253,9 +254,9 @@ BitmasksPointers:
 	dw LiepardBitmasks
 	dw PansageBitmasks
 	dw SimisageBitmasks
-	dw PansearBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
+	dw PansearBitmasks
 	dw SimisearBitmasks
 	dw PanpourBitmasks
 	dw SimipourBitmasks

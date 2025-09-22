@@ -221,6 +221,7 @@ AnimationPointers:
 	dw DrapionAnimation
 	dw CroagunkAnimation
 	dw ToxicroakAnimation
+	dw CarnivineAnimation
 	dw MantykeAnimation
 	dw WeavileAnimation
 	dw MagnezoneAnimation
@@ -253,9 +254,9 @@ AnimationPointers:
 	dw LiepardAnimation
 	dw PansageAnimation
 	dw SimisageAnimation
-	dw PansearAnimation
 	dw EggAnimation
 	dw EggAnimation ; 100
+	dw PansearAnimation
 	dw SimisearAnimation
 	dw PanpourAnimation
 	dw SimipourAnimation

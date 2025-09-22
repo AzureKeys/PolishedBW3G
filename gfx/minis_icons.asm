@@ -1112,6 +1112,11 @@ ToxicroakMini::     INCBIN "gfx/minis/toxicroak.2bpp.lz"
 ToxicroakMiniMask:: INCBIN "gfx/minis/toxicroak_mask.1bpp.lz"
 ToxicroakIcon::     INCBIN "gfx/icons/toxicroak.2bpp.lz"
 
+SECTION "Carnivine Mini Icon", ROMX
+CarnivineMini::     INCBIN "gfx/minis/carnivine.2bpp.lz"
+CarnivineMiniMask:: INCBIN "gfx/minis/carnivine_mask.1bpp.lz"
+CarnivineIcon::     INCBIN "gfx/icons/carnivine.2bpp.lz"
+
 SECTION "Mantyke Mini Icon", ROMX
 MantykeMini::     INCBIN "gfx/minis/mantyke.2bpp.lz"
 MantykeMiniMask:: INCBIN "gfx/minis/mantyke_mask.1bpp.lz"

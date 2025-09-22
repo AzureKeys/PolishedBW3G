@@ -225,6 +225,7 @@ OverworldMonIconColors::
 	iconpal PURPLE, RED ; DRAPION
 	iconpal BLUE, TEAL ; CROAGUNK
 	iconpal BLUE, TEAL ; TOXICROAK
+	iconpal GREEN, BROWN ; CARNIVINE
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
 	iconpal GRAY, BROWN ; MAGNEZONE
@@ -257,9 +258,9 @@ OverworldMonIconColors::
 	iconpal PURPLE, RED ; LIEPARD
 	iconpal GREEN, BROWN ; PANSAGE
 	iconpal GREEN, BROWN ; SIMISAGE
-	iconpal RED, ORANGE ; PANSEAR
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
+	iconpal RED, ORANGE ; PANSEAR
 	iconpal RED, ORANGE ; SIMISEAR
 	iconpal AZURE, TEAL ; PANPOUR
 	iconpal AZURE, BLUE ; SIMIPOUR

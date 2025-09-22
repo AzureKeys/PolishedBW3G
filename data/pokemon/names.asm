@@ -222,6 +222,7 @@ PokemonNames::
 	rawchar "Drapion@@@"
 	rawchar "Croagunk@@"
 	rawchar "Toxicroak@"
+	rawchar "Carnivine@"
 	rawchar "Mantyke@@@"
 	rawchar "Weavile@@@"
 	rawchar "Magnezone@"
@@ -254,9 +255,9 @@ PokemonNames::
 	rawchar "Liepard@@@"
 	rawchar "Pansage@@@"
 	rawchar "Simisage@@"
-	rawchar "Pansear@@@"
 	rawchar "Egg@@@@@@@"
 	rawchar "?256?@@@@@" ; 100
+	rawchar "Pansear@@@"
 	rawchar "Simisear@@"
 	rawchar "Panpour@@@"
 	rawchar "Simipour@@"

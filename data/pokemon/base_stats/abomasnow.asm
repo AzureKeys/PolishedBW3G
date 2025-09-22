@@ -9,7 +9,7 @@
 
 	abilities_for ABOMASNOW, SNOW_WARNING, SNOW_WARNING, SOUNDPROOF
 	db GROWTH_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_GRASS ; egg groups
+	dn EGG_MONSTER, EGG_PLANT ; egg groups
 
 	ev_yield 1 Atk, 1 SAt
 

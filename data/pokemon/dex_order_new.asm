@@ -250,6 +250,7 @@ NewPokedexOrder:
 	dp DRAPION
 	dp CROAGUNK
 	dp TOXICROAK
+	dp CARNIVINE
 	dp RATTATA
 	dp RATICATE
 	dp PICHU

@@ -38,6 +38,7 @@ AlphabeticalPokedexOrder:
 	dp BUIZEL
 	dp BUNEARY
 	dp CAMERUPT
+	dp CARNIVINE
 	dp CARRACOSTA
 	dp CASTFORM
 	dp CHANDELURE

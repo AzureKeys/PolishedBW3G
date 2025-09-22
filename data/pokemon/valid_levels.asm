@@ -226,6 +226,7 @@ endc
 	db  40, 100 ; Drapion
 	db   1,  36 ; Croagunk
 	db  37, 100 ; Toxicroak
+	db  20, 100 ; Carnivine
 	db   1,  19 ; Mantyke
 	db  40, 100 ; Weavile
 	db  50, 100 ; Magnezone
@@ -258,9 +259,9 @@ endc
 	db  20, 100 ; Liepard
 	db   1,  24 ; Pansage
 	db  25, 100 ; Simisage
-	db   1,  24 ; Pansear
 	db 255, 255 ; Egg
 	db 255, 255 ; $100
+	db   1,  24 ; Pansear
 	db  25, 100 ; Simisear
 	db   1,  24 ; Panpour
 	db  25, 100 ; Simipour

@@ -228,6 +228,7 @@ PokemonBodyData:
 	body_data  13,  615, INSECTOID,    PURPLE ; DRAPION
 	body_data   7,  230, BIPEDAL,      BLUE   ; CROAGUNK
 	body_data  13,  444, BIPEDAL,      BLUE   ; TOXICROAK
+	body_data  14,  270, TENTACLES,    GREEN  ; CARNIVINE
 	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
 	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
@@ -260,9 +261,9 @@ PokemonBodyData:
 	body_data  11,  375, QUADRUPED,    PURPLE ; LIEPARD
 	body_data   6,  105, BIPEDAL_TAIL, GREEN  ; PANSAGE
 	body_data  11,  305, BIPEDAL_TAIL, GREEN  ; SIMISAGE
-	body_data   6,  110, BIPEDAL_TAIL, RED    ; PANSEAR
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
+	body_data   6,  110, BIPEDAL_TAIL, RED    ; PANSEAR
 	body_data  10,  280, BIPEDAL_TAIL, RED    ; SIMISEAR
 	body_data   6,  135, BIPEDAL_TAIL, BLUE   ; PANPOUR
 	body_data  10,  290, BIPEDAL_TAIL, BLUE   ; SIMIPOUR

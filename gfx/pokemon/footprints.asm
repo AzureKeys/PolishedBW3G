@@ -259,6 +259,7 @@ SkorupiFootprint::
 DrapionFootprint::
 CroagunkFootprint::
 ToxicroakFootprint::
+CarnivineFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::

@@ -225,6 +225,7 @@ MiniIconPointers:
 	mini_icon Drapion
 	mini_icon Croagunk
 	mini_icon Toxicroak
+	mini_icon Carnivine
 	mini_icon Mantyke
 	mini_icon Weavile
 	mini_icon Magnezone
@@ -257,9 +258,9 @@ MiniIconPointers:
 	mini_icon Liepard
 	mini_icon Pansage
 	mini_icon Simisage
-	mini_icon Pansear
 	mini_icon Egg
 	mini_icon Egg ; $100
+	mini_icon Pansear
 	mini_icon Simisear
 	mini_icon Panpour
 	mini_icon Simipour

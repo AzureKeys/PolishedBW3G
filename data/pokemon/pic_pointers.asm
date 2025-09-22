@@ -225,6 +225,7 @@ PokemonPicPointers::
 	pics Drapion
 	pics Croagunk
 	pics Toxicroak
+	pics Carnivine
 	pics Mantyke
 	pics Weavile
 	pics Magnezone
@@ -257,9 +258,9 @@ PokemonPicPointers::
 	pics Liepard
 	pics Pansage
 	pics Simisage
-	pics Pansear
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
+	pics Pansear
 	pics Simisear
 	pics Panpour
 	pics Simipour

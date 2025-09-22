@@ -900,6 +900,10 @@ SECTION "Toxicroak Pics", ROMX
 ToxicroakFrontpic: INCBIN "gfx/pokemon/toxicroak/front.animated.2bpp.lz"
 ToxicroakBackpic:  INCBIN "gfx/pokemon/toxicroak/back.2bpp.lz"
 
+SECTION "Carnivine Pics", ROMX
+CarnivineFrontpic: INCBIN "gfx/pokemon/carnivine/front.animated.2bpp.lz"
+CarnivineBackpic:  INCBIN "gfx/pokemon/carnivine/back.2bpp.lz"
+
 SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lz"
 MantykeBackpic:  INCBIN "gfx/pokemon/mantyke/back.2bpp.lz"
