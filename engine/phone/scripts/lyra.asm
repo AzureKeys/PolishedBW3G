@@ -114,8 +114,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route40
 	dw .BattleTower
 	dw .WhirlIslands ; no calls
-	dw .Route41
-	dw .CianwoodCity
 	dw .YellowForest
 	dw .Route42
 	dw .MtMortar ; no calls
@@ -166,8 +164,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Route40:
 .BattleTower:
 .WhirlIslands:
-.Route41:
-.CianwoodCity:
 .YellowForest:
 .Route42:
 .MtMortar:

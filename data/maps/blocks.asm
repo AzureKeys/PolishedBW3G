@@ -4,7 +4,6 @@ VioletPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
-CianwoodPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
@@ -82,7 +81,6 @@ Route18Gate2F_BlockData:
 	
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
-CianwoodCityPhotoStudio_BlockData:
 Route32CoastHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
@@ -106,9 +104,6 @@ MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
-ManiasHouse_BlockData:
-CianwoodLugiaSpeechHouse_BlockData:
-MoveManiacsHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
 LakeOfRageHiddenPowerHouse_BlockData:
@@ -580,18 +575,6 @@ WhirlIslandB2F_BlockData:
 SECTION "WhirlIslandLugiaChamber_BlockData", ROMX
 WhirlIslandLugiaChamber_BlockData:
 	INCBIN "maps/WhirlIslandLugiaChamber.ablk.lz"
-
-SECTION "CianwoodGym_BlockData", ROMX
-CianwoodGym_BlockData:
-	INCBIN "maps/CianwoodGym.ablk.lz"
-
-SECTION "CianwoodCity_BlockData", ROMX
-CianwoodCity_BlockData:
-	INCBIN "maps/CianwoodCity.ablk.lz"
-
-SECTION "CianwoodPharmacy_BlockData", ROMX
-CianwoodPharmacy_BlockData:
-	INCBIN "maps/CianwoodPharmacy.ablk.lz"
 
 SECTION "YellowForest_BlockData", ROMX
 YellowForest_BlockData:
@@ -1403,10 +1386,6 @@ Route37_BlockData:
 SECTION "Route40_BlockData", ROMX
 Route40_BlockData:
 	INCBIN "maps/Route40.ablk.lz"
-
-SECTION "Route41_BlockData", ROMX
-Route41_BlockData:
-	INCBIN "maps/Route41.ablk.lz"
 
 SECTION "Route42_BlockData", ROMX
 Route42_BlockData:

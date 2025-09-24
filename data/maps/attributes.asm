@@ -19,9 +19,6 @@ ENDM
 	connection west, Route34, ROUTE_34, -18
 	connection east, Route33, ROUTE_33, 0
 
-	map_attributes CianwoodCity, CIANWOOD_CITY, $35, EAST
-	connection east, Route41, ROUTE_41, 0
-
 	map_attributes GoldenrodCity, GOLDENROD_CITY, $35, NORTH | SOUTH | EAST
 	connection north, Route35, ROUTE_35, 5
 	connection south, Route34, ROUTE_34, 7
@@ -82,12 +79,7 @@ ENDM
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
 	connection south, Route36, ROUTE_36, -12
 
-	map_attributes Route40, ROUTE_40, $35, SOUTH
-	connection south, Route41, ROUTE_41, -15
-
-	map_attributes Route41, ROUTE_41, $35, NORTH | WEST
-	connection north, Route40, ROUTE_40, 15
-	connection west, CianwoodCity, CIANWOOD_CITY, 0
+	map_attributes Route40, ROUTE_40, $35, 0
 
 	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
 	connection south, VioletOutskirts, VIOLET_OUTSKIRTS, 5
@@ -590,13 +582,6 @@ ENDM
 	map_attributes RocketHideoutB3F, ROCKET_HIDEOUT_B3F, $0, 0
 	map_attributes RocketHideoutB4F, ROCKET_HIDEOUT_B4F, $0, 0
 	map_attributes RocketHideoutElevator, ROCKET_HIDEOUT_ELEVATOR, $0, 0
-	map_attributes ManiasHouse, MANIAS_HOUSE, $0, 0
-	map_attributes CianwoodGym, CIANWOOD_GYM, $0, 0
-	map_attributes CianwoodPokeCenter1F, CIANWOOD_POKECENTER_1F, $0, 0
-	map_attributes CianwoodPharmacy, CIANWOOD_PHARMACY, $0, 0
-	map_attributes CianwoodCityPhotoStudio, CIANWOOD_CITY_PHOTO_STUDIO, $0, 0
-	map_attributes CianwoodLugiaSpeechHouse, CIANWOOD_LUGIA_SPEECH_HOUSE, $0, 0
-	map_attributes MoveManiacsHouse, MOVE_MANIACS_HOUSE, $0, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0

@@ -4,7 +4,6 @@ WhirlIslandNE_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  3, 13, ROUTE_41, 2
 	warp_event 17,  3, WHIRL_ISLAND_B1F, 2
 	warp_event 13, 11, WHIRL_ISLAND_B1F, 3
 

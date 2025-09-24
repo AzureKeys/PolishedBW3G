@@ -487,17 +487,6 @@ ENDM
 	map_const ROCKET_HIDEOUT_B4F,                         11, 12 ; 66
 	map_const ROCKET_HIDEOUT_ELEVATOR,                     2,  2 ; 67
 
-	newgroup                                                     ; 22
-	map_const ROUTE_41,                                   32, 27 ;  1
-	map_const CIANWOOD_CITY,                              15, 27 ;  2
-	map_const MANIAS_HOUSE,                                4,  4 ;  3
-	map_const CIANWOOD_GYM,                                5,  9 ;  4
-	map_const CIANWOOD_POKECENTER_1F,                      6,  4 ;  5
-	map_const CIANWOOD_PHARMACY,                           4,  4 ;  6
-	map_const CIANWOOD_CITY_PHOTO_STUDIO,                  4,  4 ;  7
-	map_const CIANWOOD_LUGIA_SPEECH_HOUSE,                 4,  4 ;  8
-	map_const MOVE_MANIACS_HOUSE,                          4,  4 ;  9
-
 	newgroup                                                     ; 24
 	map_const NEW_BARK_TOWN,                              10,  9 ;  4
 	map_const ELMS_LAB,                                    5,  6 ;  5

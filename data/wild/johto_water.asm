@@ -154,13 +154,6 @@
 	wildmon 20, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_41
-	db 3 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 20, MANTINE
-	wildmon 20, REMORAID
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_42
 	db 4 percent ; encounter rate
 	wildmon 20, RATTATA
@@ -201,13 +194,6 @@
 	wildmon 20, POLIWAG
 	wildmon 15, POLIWAG
 	wildmon 20, POLIWHIRL
-	end_water_wildmons
-
-	def_water_wildmons CIANWOOD_CITY
-	db 6 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 20, MANTINE
-	wildmon 20, REMORAID
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_CITY

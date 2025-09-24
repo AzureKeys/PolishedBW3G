@@ -241,8 +241,6 @@ TrainerCamperTodd1:
 	checkflag ENGINE_FLYPOINT_BLACKTHORN
 	iftruefwd .LoadFight2
 .Fight1:
-	checkflag ENGINE_FLYPOINT_CIANWOOD
-	iftruefwd .LoadFight1
 .LoadFight0:
 	loadtrainer CAMPER, TODD1
 	startbattle

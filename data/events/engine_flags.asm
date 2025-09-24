@@ -96,7 +96,6 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_VIOLET
 	engine_flag wVisitedSpawns, SPAWN_UNION_CAVE
 	engine_flag wVisitedSpawns, SPAWN_AZALEA
-	engine_flag wVisitedSpawns, SPAWN_CIANWOOD
 	engine_flag wVisitedSpawns, SPAWN_GOLDENROD
 	engine_flag wVisitedSpawns, SPAWN_ECRUTEAK
 	engine_flag wVisitedSpawns, SPAWN_MAHOGANY

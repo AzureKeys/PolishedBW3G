@@ -93,7 +93,6 @@ ReleaseTheBeasts:
 	setevent EVENT_RELEASED_THE_BEASTS
 	special InitRoamMons
 	setmapscene ECRUTEAK_GYM, $1
-	setmapscene CIANWOOD_CITY, $1
 	clearevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
 	setevent EVENT_ECRUTEAK_GYM_GRAMPS
 	clearevent EVENT_ECRUTEAK_CITY_GRAMPS

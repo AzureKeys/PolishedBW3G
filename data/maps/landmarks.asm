@@ -38,8 +38,6 @@ Landmarks:
 	landmark  28,  64, Route40Name
 	landmark  28,  52, BattleTowerName
 	landmark  28,  92, WhirlIslandsName
-	landmark  28, 100, Route41Name
-	landmark  20, 100, CianwoodCityName
 	landmark  12,  84, YellowForestName
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
@@ -117,7 +115,6 @@ VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
-CianwoodCityName:      rawchar "Cianwood¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
@@ -188,7 +185,6 @@ Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"
 Route40Name:           rawchar "Route 40@"
-Route41Name:           rawchar "Route 41@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"

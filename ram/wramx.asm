@@ -1066,7 +1066,6 @@ wBurnedTowerB1FSceneID:: db
 wCeruleanCapeSceneID:: db
 wCeruleanCave1FSceneID:: db
 wCeruleanGymSceneID:: db
-wCianwoodCitySceneID:: db
 wCinnabarLabSceneID:: db
 wColosseumSceneID:: db
 wDarkCaveVioletEntranceSceneID:: db
@@ -1171,7 +1170,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 81 ; unused
+	ds 82 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

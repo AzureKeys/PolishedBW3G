@@ -3,7 +3,6 @@ SECTION "Pokemon Center Scripts 1", ROMX
 INCLUDE "maps/VioletPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
-INCLUDE "maps/CianwoodPokeCenter1F.asm"
 
 
 SECTION "Pokemon Center Scripts 2", ROMX
@@ -281,17 +280,6 @@ INCLUDE "maps/WhirlIslandB1F.asm"
 INCLUDE "maps/WhirlIslandB2F.asm"
 INCLUDE "maps/WhirlIslandCave.asm"
 INCLUDE "maps/WhirlIslandLugiaChamber.asm"
-
-
-SECTION "Cianwood Scripts", ROMX
-
-INCLUDE "maps/CianwoodCity.asm"
-INCLUDE "maps/CianwoodGym.asm"
-INCLUDE "maps/CianwoodCityPhotoStudio.asm"
-INCLUDE "maps/CianwoodLugiaSpeechHouse.asm"
-INCLUDE "maps/CianwoodPharmacy.asm"
-INCLUDE "maps/ManiasHouse.asm"
-INCLUDE "maps/MoveManiacsHouse.asm"
 
 
 SECTION "Yellow Forest Scripts", ROMX
@@ -813,7 +801,6 @@ SECTION "Routes 39-41 Scripts", ROMX
 
 INCLUDE "maps/Route40.asm"
 INCLUDE "maps/Route40BattleTowerGate.asm"
-INCLUDE "maps/Route41.asm"
 
 
 SECTION "Routes 42-44 Scripts", ROMX

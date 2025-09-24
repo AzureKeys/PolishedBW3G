@@ -22,7 +22,6 @@ MapScenes::
 	scene_var CERULEAN_CAPE,                          wCeruleanCapeSceneID
 	scene_var CERULEAN_CAVE_1F,                       wCeruleanCave1FSceneID
 	scene_var CERULEAN_GYM,                           wCeruleanGymSceneID
-	scene_var CIANWOOD_CITY,                          wCianwoodCitySceneID
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var DARK_CAVE_VIOLET_ENTRANCE,              wDarkCaveVioletEntranceSceneID
