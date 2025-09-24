@@ -26,24 +26,6 @@ ENDM
 ; - scripts and events (see data/maps/scripts.asm)
 	const_def
 
-	newgroup                                                     ;  1
-	map_const OLIVINE_POKECENTER_1F,                       6,  4 ;  1
-	map_const OLIVINE_GYM,                                 5,  8 ;  2
-	map_const OLIVINE_TIMS_HOUSE,                          4,  4 ;  3
-	map_const OLIVINE_PUNISHMENT_SPEECH_HOUSE,             4,  4 ;  4
-	map_const OLIVINE_GOOD_ROD_HOUSE,                      4,  4 ;  5
-	map_const OLIVINE_CAFE,                                5,  4 ;  6
-	map_const OLIVINE_MART,                                6,  4 ;  7
-	map_const ROUTE_38_ECRUTEAK_GATE,                      5,  4 ;  8
-	map_const ROUTE_39_BARN,                               4,  4 ;  9
-	map_const ROUTE_39_FARMHOUSE,                          4,  4 ; 10
-	map_const ROUTE_38,                                   20,  9 ; 11
-	map_const ROUTE_39,                                   10, 27 ; 12
-	map_const OLIVINE_CITY,                               22, 16 ; 13
-	map_const ROUTE_35_COAST_NORTH,                       11, 13 ; 14
-	map_const ROUTE_35_COAST_SOUTH,                       26, 14 ; 15
-	map_const OLIVINE_CITY_ROUTE_35_COAST_DUAL,           26,  3 ; 16
-
 	newgroup                                                     ;  2
 	map_const MAHOGANY_RED_GYARADOS_SPEECH_HOUSE,          4,  4 ;  1
 	map_const MAHOGANY_GYM,                                5,  9 ;  2

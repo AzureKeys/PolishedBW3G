@@ -29,15 +29,8 @@ ENDM
 	connection south, Route34, ROUTE_34, 7
 	connection east, MagnetTunnelWest, MAGNET_TUNNEL_WEST, 0
 
-	map_attributes OlivineCity, OLIVINE_CITY, $35, NORTH | SOUTH | WEST | EAST
-	connection north, Route39, ROUTE_39, 5
-	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 7
-	connection west, Route40, ROUTE_40, 7
-	connection east, Route35CoastNorth, ROUTE_35_COAST_NORTH, 3
-
-	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | WEST | EAST
+	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | EAST
 	connection south, Route37, ROUTE_37, 5
-	connection west, Route38, ROUTE_38, 5
 	connection east, Route42, ROUTE_42, 9
 
 	map_attributes MahoganyTown, MAHOGANY_TOWN, $71, NORTH | WEST | EAST
@@ -93,16 +86,6 @@ ENDM
 	connection north, Route36, ROUTE_36, 0
 	connection south, GoldenrodCity, GOLDENROD_CITY, -5
 
-	map_attributes Route35CoastNorth, ROUTE_35_COAST_NORTH, $35, SOUTH | WEST
-	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, -15
-	connection west, OlivineCity, OLIVINE_CITY, -3
-
-	map_attributes Route35CoastSouth, ROUTE_35_COAST_SOUTH, $35, NORTH
-	connection north, OlivineCityRoute35CoastDual, OLIVINE_CITY_ROUTE_35_COAST_DUAL, 0
-	
-	map_attributes OlivineCityRoute35CoastDual, OLIVINE_CITY_ROUTE_35_COAST_DUAL, $35, SOUTH
-	connection south, Route35CoastSouth, ROUTE_35_COAST_SOUTH, 0
-
 	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH | EAST
 	connection north, Route37, ROUTE_37, 12
 	connection south, Route35, ROUTE_35, 0
@@ -112,17 +95,8 @@ ENDM
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
 	connection south, Route36, ROUTE_36, -12
 
-	map_attributes Route38, ROUTE_38, $5, WEST | EAST
-	connection west, Route39, ROUTE_39, -7
-	connection east, EcruteakCity, ECRUTEAK_CITY, -5
-
-	map_attributes Route39, ROUTE_39, $5, SOUTH | EAST
-	connection south, OlivineCity, OLIVINE_CITY, -5
-	connection east, Route38, ROUTE_38, 7
-
-	map_attributes Route40, ROUTE_40, $35, SOUTH | EAST
+	map_attributes Route40, ROUTE_40, $35, SOUTH
 	connection south, Route41, ROUTE_41, -15
-	connection east, OlivineCity, OLIVINE_CITY, -7
 
 	map_attributes Route41, ROUTE_41, $35, NORTH | WEST
 	connection north, Route40, ROUTE_40, 15
@@ -408,16 +382,6 @@ ENDM
 	map_attributes DragonShrine, DRAGON_SHRINE, $0, 0
 	map_attributes TohjoFalls, TOHJO_FALLS, $9, 0
 	map_attributes GiovannisCave, GIOVANNIS_CAVE, $9, 0
-	map_attributes OlivinePokeCenter1F, OLIVINE_POKECENTER_1F, $0, 0
-	map_attributes OlivineGym, OLIVINE_GYM, $0, 0
-	map_attributes OlivineTimsHouse, OLIVINE_TIMS_HOUSE, $0, 0
-	map_attributes OlivinePunishmentSpeechHouse, OLIVINE_PUNISHMENT_SPEECH_HOUSE, $0, 0
-	map_attributes OlivineGoodRodHouse, OLIVINE_GOOD_ROD_HOUSE, $0, 0
-	map_attributes OlivineCafe, OLIVINE_CAFE, $0, 0
-	map_attributes OlivineMart, OLIVINE_MART, $0, 0
-	map_attributes Route38EcruteakGate, ROUTE_38_ECRUTEAK_GATE, $0, 0
-	map_attributes Route39Barn, ROUTE_39_BARN, $0, 0
-	map_attributes Route39Farmhouse, ROUTE_39_FARMHOUSE, $0, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0

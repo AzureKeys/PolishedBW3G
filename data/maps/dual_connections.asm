@@ -45,7 +45,5 @@ DualMapConnections:
 	; When you walk north off of Route35CoastSouth, if [wXCoord] < 30,
 	; then use "connection north, OlivineCity, OLIVINE_CITY, -7";
 	; else use "connection north, Route35CoastNorth, ROUTE_35_COAST_NORTH, 15".
-	dual_connection north, ROUTE_35_COAST_SOUTH, 30, \
-		OlivineCity, OLIVINE_CITY, -7, \
-		Route35CoastNorth, ROUTE_35_COAST_NORTH, 15
+	
 	db 0 ; end

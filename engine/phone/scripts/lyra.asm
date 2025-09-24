@@ -111,9 +111,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .BellchimeTrail
 	dw .TinTower
 	dw .BurnedTower ; no calls
-	dw .Route38
-	dw .Route39
-	dw .OlivineCity
 	dw .Lighthouse
 	dw .Route40
 	dw .BattleTower
@@ -165,11 +162,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 .BellchimeTrail:
 .TinTower:
 .BurnedTower:
-.Route38:
-.Route39:
 .RuggedRoad:
 .SnowtopMountain:
-.OlivineCity:
 .Lighthouse:
 .Route40:
 .BattleTower:

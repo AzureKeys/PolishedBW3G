@@ -3,7 +3,6 @@ SECTION "Pokemon Center Scripts 1", ROMX
 INCLUDE "maps/VioletPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
-INCLUDE "maps/OlivinePokeCenter1F.asm"
 INCLUDE "maps/CianwoodPokeCenter1F.asm"
 
 
@@ -260,15 +259,7 @@ INCLUDE "maps/BurnedTowerB1F.asm"
 
 SECTION "Olivine Scripts", ROMX
 
-INCLUDE "maps/OlivineCity.asm"
-INCLUDE "maps/OlivineMart.asm"
-INCLUDE "maps/OlivineGym.asm"
-INCLUDE "maps/OlivineCafe.asm"
-INCLUDE "maps/OlivineGoodRodHouse.asm"
 INCLUDE "maps/OlivinePort.asm"
-INCLUDE "maps/OlivinePunishmentSpeechHouse.asm"
-INCLUDE "maps/OlivineTimsHouse.asm"
-INCLUDE "maps/OlivineCityRoute35CoastDual.asm"
 
 
 SECTION "Olivine Lighthouse Scripts", ROMX
@@ -839,8 +830,6 @@ SECTION "Routes 33-35 Scripts", ROMX
 INCLUDE "maps/Route33.asm"
 INCLUDE "maps/Route34.asm"
 INCLUDE "maps/Route35.asm"
-INCLUDE "maps/Route35CoastNorth.asm"
-INCLUDE "maps/Route35CoastSouth.asm"
 INCLUDE "maps/Route35GoldenrodGate.asm"
 INCLUDE "maps/Route35NationalParkGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm
@@ -852,15 +841,10 @@ INCLUDE "maps/Route36.asm"
 INCLUDE "maps/Route36RuinsOfAlphGate.asm"
 INCLUDE "maps/Route36VioletGate.asm"
 INCLUDE "maps/Route37.asm"
-INCLUDE "maps/Route38.asm"
-INCLUDE "maps/Route38EcruteakGate.asm"
 
 
 SECTION "Routes 39-41 Scripts", ROMX
 
-INCLUDE "maps/Route39.asm"
-INCLUDE "maps/Route39Barn.asm"
-INCLUDE "maps/Route39Farmhouse.asm"
 INCLUDE "maps/Route40.asm"
 INCLUDE "maps/Route40BattleTowerGate.asm"
 INCLUDE "maps/Route41.asm"

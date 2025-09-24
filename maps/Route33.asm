@@ -76,8 +76,6 @@ TrainerHikerAnthony:
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftruefwd .LoadFight2
 .Fight1:
-	checkflag ENGINE_FLYPOINT_OLIVINE
-	iftruefwd .LoadFight1
 .LoadFight0:
 	loadtrainer HIKER, ANTHONY1
 	startbattle

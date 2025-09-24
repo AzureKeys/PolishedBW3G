@@ -472,10 +472,6 @@ RespawnRoamingRaikou:
 	ld [wRoamMon1Species], a
 	ld a, 50
 	ld [wRoamMon1Level], a
-	ld a, GROUP_ROUTE_42
-	ld [wRoamMon1MapGroup], a
-	ld a, MAP_ROUTE_42
-	ld [wRoamMon1MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon1HP], a
 	ret
@@ -485,10 +481,6 @@ RespawnRoamingEntei:
 	ld [wRoamMon2Species], a
 	ld a, 50
 	ld [wRoamMon2Level], a
-	ld a, GROUP_ROUTE_37
-	ld [wRoamMon2MapGroup], a
-	ld a, MAP_ROUTE_37
-	ld [wRoamMon2MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon2HP], a
 	ret
@@ -498,10 +490,6 @@ RespawnRoamingSuicune:
 	ld [wRoamMon3Species], a
 	ld a, 50
 	ld [wRoamMon3Level], a
-	ld a, GROUP_ROUTE_38
-	ld [wRoamMon3MapGroup], a
-	ld a, MAP_ROUTE_38
-	ld [wRoamMon3MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon3HP], a
 	ret

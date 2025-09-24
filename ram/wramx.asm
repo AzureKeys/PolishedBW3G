@@ -1096,7 +1096,6 @@ wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
 wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
-wOlivineCitySceneID:: db
 wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db
 wPokemonLeagueGateSceneID:: db
@@ -1175,7 +1174,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 77 ; unused
+	ds 78 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

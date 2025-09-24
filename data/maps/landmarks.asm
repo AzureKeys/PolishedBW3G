@@ -35,9 +35,6 @@ Landmarks:
 	landmark  69,  42, BellchimeTrailName
 	landmark  70,  42, TinTowerName
 	landmark  66,  42, BurnedTowerName
-	landmark  52,  44, Route38Name
-	landmark  36,  48, Route39Name
-	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
 	landmark  28,  64, Route40Name
 	landmark  28,  52, BattleTowerName
@@ -126,7 +123,6 @@ VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
 GoldenrodCityName:     rawchar "Goldenrod¯City@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
-OlivineCityName:       rawchar "Olivine¯City@"
 CianwoodCityName:      rawchar "Cianwood¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 BlackthornCityName:    rawchar "Blackthorn¯City@"
@@ -202,8 +198,6 @@ Route34Name:           rawchar "Route 34@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"
-Route38Name:           rawchar "Route 38@"
-Route39Name:           rawchar "Route 39@"
 Route40Name:           rawchar "Route 40@"
 Route41Name:           rawchar "Route 41@"
 Route42Name:           rawchar "Route 42@"

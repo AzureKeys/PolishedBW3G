@@ -1456,62 +1456,6 @@
 	wildmon 16, HOUNDOUR
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_38
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 16, RATTATA
-	wildmon 16, RATICATE
-	wildmon 16, MAGNEMITE
-	wildmon 16, RATTATA
-	wildmon 13, RATTATA
-	wildmon 13, RATTATA
-	wildmon 13, RATTATA
-	; day
-	wildmon 16, RATTATA
-	wildmon 16, RATICATE
-	wildmon 16, MAGNEMITE
-	wildmon 16, RATTATA
-	wildmon 13, RATTATA
-	wildmon 13, RATTATA
-	wildmon 13, RATTATA
-	; nite
-	wildmon 16, MEOWTH
-	wildmon 16, RATICATE
-	wildmon 16, MAGNEMITE
-	wildmon 16, RATTATA
-	wildmon 16, MEOWTH
-	wildmon 16, MURKROW
-	wildmon 16, MURKROW
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_39
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 16, RATTATA
-	wildmon 16, RATICATE
-	wildmon 16, MAGNEMITE
-	wildmon 16, RATTATA
-	wildmon 15, RATTATA
-	wildmon 15, RATTATA
-	wildmon 15, RATTATA
-	; day
-	wildmon 16, RATTATA
-	wildmon 16, RATICATE
-	wildmon 16, MAGNEMITE
-	wildmon 16, RATTATA
-	wildmon 15, RATTATA
-	wildmon 15, RATTATA
-	wildmon 15, RATTATA
-	; nite
-	wildmon 16, MEOWTH
-	wildmon 16, RATICATE
-	wildmon 16, MAGNEMITE
-	wildmon 16, RATTATA
-	wildmon 18, MEOWTH
-	wildmon 18, MURKROW
-	wildmon 18, MURKROW
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

@@ -182,7 +182,6 @@ endr
 	setflag ENGINE_FLYPOINT_AZALEA
 	setflag ENGINE_FLYPOINT_GOLDENROD
 	setflag ENGINE_FLYPOINT_ECRUTEAK
-	setflag ENGINE_FLYPOINT_OLIVINE
 	setflag ENGINE_FLYPOINT_CIANWOOD
 	setflag ENGINE_FLYPOINT_MAHOGANY
 	setflag ENGINE_FLYPOINT_LAKE_OF_RAGE
@@ -288,9 +287,6 @@ endr
 	setevent EVENT_RIVAL_BURNED_TOWER
 	setevent EVENT_HOLE_IN_BURNED_TOWER
 	setmapscene BURNED_TOWER_1F, $2
-	; olivine events
-	setevent EVENT_RIVAL_OLIVINE_CITY
-	setmapscene OLIVINE_CITY, $1
 	; blackthorn events
 	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
 	; vermilion events

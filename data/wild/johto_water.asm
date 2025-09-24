@@ -217,13 +217,6 @@
 	wildmon 20, GOLDUCK
 	end_water_wildmons
 
-	def_water_wildmons OLIVINE_CITY
-	db 6 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
 	wildmon 20, POLIWAG
@@ -271,20 +264,6 @@
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	wildmon LEVEL_FROM_BADGES - 5, STARYU
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_35_COAST_SOUTH
-	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_35_COAST_NORTH
-	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons YELLOW_FOREST

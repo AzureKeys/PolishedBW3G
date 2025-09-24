@@ -30,9 +30,6 @@
 	const BELLCHIME_TRAIL    ; 20
 	const TIN_TOWER          ; 21
 	const BURNED_TOWER       ; 22
-	const ROUTE_38           ; 23
-	const ROUTE_39           ; 24
-	const OLIVINE_CITY       ; 27
 	const LIGHTHOUSE         ; 28
 	const ROUTE_40           ; 29
 	const BATTLE_TOWER       ; 2a

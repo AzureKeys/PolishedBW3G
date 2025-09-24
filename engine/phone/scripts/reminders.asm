@@ -58,14 +58,6 @@ AlanReminderScript:
 	farwritetext AlanReminderText
 	end
 
-DanaReminderScript:
-	farwritetext DanaReminderText
-	end
-
-ChadReminderScript:
-	farwritetext ChadReminderText
-	end
-
 TullyForwardScript:
 	farwritetext TullyForwardText
 	end

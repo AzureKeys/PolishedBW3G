@@ -34,8 +34,6 @@ PhoneScript_AnswerPhone_Male:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -103,16 +101,6 @@ PhoneScript_AnswerPhone_Male:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadAnswerPhoneText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekAnswerPhoneText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyAnswerPhoneText
 	promptbutton
@@ -155,8 +143,6 @@ PhoneScript_AnswerPhone_Male_Day:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -224,16 +210,6 @@ PhoneScript_AnswerPhone_Male_Day:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadAnswerPhoneDayText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekAnswerPhoneDayText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyAnswerPhoneDayText
 	promptbutton
@@ -276,8 +252,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -345,16 +319,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadAnswerPhoneNiteText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekAnswerPhoneNiteText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyAnswerPhoneNiteText
 	promptbutton
@@ -396,7 +360,6 @@ PhoneScript_AnswerPhone_Female:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -425,11 +388,6 @@ PhoneScript_AnswerPhone_Female:
 	promptbutton
 	end
 
-.Dana:
-	farwritetext DanaAnswerPhoneText
-	promptbutton
-	end
-
 .Tiffany:
 	farwritetext TiffanyAnswerPhoneText
 	promptbutton
@@ -447,7 +405,6 @@ PhoneScript_AnswerPhone_Female_Day:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -476,11 +433,6 @@ PhoneScript_AnswerPhone_Female_Day:
 	promptbutton
 	end
 
-.Dana:
-	farwritetext DanaAnswerPhoneDayText
-	promptbutton
-	end
-
 .Tiffany:
 	farwritetext TiffanyAnswerPhoneDayText
 	promptbutton
@@ -498,7 +450,6 @@ PhoneScript_AnswerPhone_Female_Nite:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -524,11 +475,6 @@ PhoneScript_AnswerPhone_Female_Nite:
 
 .Gina:
 	farwritetext GinaAnswerPhoneNiteText
-	promptbutton
-	end
-
-.Dana:
-	farwritetext DanaAnswerPhoneNiteText
 	promptbutton
 	end
 
@@ -558,8 +504,6 @@ PhoneScript_GreetPhone_Male:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -627,16 +571,6 @@ PhoneScript_GreetPhone_Male:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadGreetText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekGreetText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyGreetText
 	promptbutton
@@ -679,8 +613,6 @@ PhoneScript_GreetPhone_Male_Day:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -748,16 +680,6 @@ PhoneScript_GreetPhone_Male_Day:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadGreetDayText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekGreetDayText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyGreetDayText
 	promptbutton
@@ -800,8 +722,6 @@ PhoneScript_GreetPhone_Male_Nite:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -869,16 +789,6 @@ PhoneScript_GreetPhone_Male_Nite:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadGreetNiteText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekGreetNiteText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyGreetNiteText
 	promptbutton
@@ -920,7 +830,6 @@ PhoneScript_GreetPhone_Female:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -949,11 +858,6 @@ PhoneScript_GreetPhone_Female:
 	promptbutton
 	end
 
-.Dana:
-	farwritetext DanaGreetText
-	promptbutton
-	end
-
 .Tiffany:
 	farwritetext TiffanyGreetText
 	promptbutton
@@ -971,7 +875,6 @@ PhoneScript_GreetPhone_Female_Day:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1000,11 +903,6 @@ PhoneScript_GreetPhone_Female_Day:
 	promptbutton
 	end
 
-.Dana:
-	farwritetext DanaGreetDayText
-	promptbutton
-	end
-
 .Tiffany:
 	farwritetext TiffanyGreetDayText
 	promptbutton
@@ -1022,7 +920,6 @@ PhoneScript_GreetPhone_Female_Nite:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1051,11 +948,6 @@ PhoneScript_GreetPhone_Female_Nite:
 	promptbutton
 	end
 
-.Dana:
-	farwritetext DanaGreetNiteText
-	promptbutton
-	end
-
 .Tiffany:
 	farwritetext TiffanyGreetNiteText
 	promptbutton
@@ -1076,8 +968,6 @@ PhoneScript_Generic_Male:
 	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
@@ -1139,16 +1029,6 @@ PhoneScript_Generic_Male:
 	promptbutton
 	end
 
-.Chad:
-	farwritetext ChadGenericText
-	promptbutton
-	end
-
-.Derek:
-	farwritetext DerekGenericText
-	promptbutton
-	end
-
 .Tully:
 	farwritetext TullyGenericText
 	promptbutton
@@ -1181,7 +1061,6 @@ PhoneScript_Generic_Female:
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1207,11 +1086,6 @@ PhoneScript_Generic_Female:
 
 .Gina:
 	farwritetext GinaGenericText
-	promptbutton
-	end
-
-.Dana:
-	farwritetext DanaGenericText
 	promptbutton
 	end
 
