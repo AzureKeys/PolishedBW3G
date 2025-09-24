@@ -140,13 +140,6 @@
 	wildmon  45, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons CELADON_CITY
-	db 2 percent ; encounter rate
-	wildmon  55, GRIMER
-	wildmon  50, GRIMER
-	wildmon  55, MUK
-	end_water_wildmons
-
 	def_water_wildmons FUCHSIA_CITY
 	db 2 percent ; encounter rate
 	wildmon  55, RATTATA
@@ -166,13 +159,6 @@
 	wildmon  48, RATTATA
 	wildmon  52, POLIWHIRL
 	wildmon  54, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons URAGA_CHANNEL_EAST
-	db 6 percent ; encounter rate
-	wildmon  54, RATTATA
-	wildmon  56, RATTATA
-	wildmon  58, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_1F

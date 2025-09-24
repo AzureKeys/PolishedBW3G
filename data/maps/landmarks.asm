@@ -76,7 +76,6 @@ Landmarks:
 	landmark 140,  60, LavenderTownName
 	landmark 142,  58, LavRadioTowerName
 	landmark 142,  62, SoulHouseName
-	landmark  84,  60, CeladonCityName
 	landmark 124,  76, Route11Name
 	landmark 140,  76, Route12Name
 	landmark 132,  92, Route13Name
@@ -133,7 +132,6 @@ PewterCityName:        rawchar "Pewter City@"
 CeruleanCityName:      rawchar "Cerulean¯City@"
 LavenderTownName:      rawchar "Lavender¯Town@"
 VermilionCityName:     rawchar "Vermilion¯City@"
-CeladonCityName:       rawchar "Celadon¯City@"
 FuchsiaCityName:       rawchar "Fuchsia¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"

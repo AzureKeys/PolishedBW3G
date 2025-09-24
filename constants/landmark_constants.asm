@@ -71,7 +71,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const LAVENDER_TOWN      ; 5e
 	const LAV_RADIO_TOWER    ; 5f
 	const SOUL_HOUSE         ; 60
-	const CELADON_CITY       ; 61
 	const ROUTE_11           ; 64
 	const ROUTE_12           ; 65
 	const ROUTE_13           ; 66

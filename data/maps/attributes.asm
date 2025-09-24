@@ -135,16 +135,10 @@ ENDM
 	map_attributes Route18East, ROUTE_18_EAST, $43, EAST
 	connection east, FuchsiaCity, FUCHSIA_CITY, -7
 
-	map_attributes UragaChannelEast, URAGA_CHANNEL_EAST, $43, WEST
-	connection west, UragaChannelWest, URAGA_CHANNEL_WEST, 0
-
-	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST | EAST
+	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
-	connection east, UragaChannelEast, URAGA_CHANNEL_EAST, 0
 
 	map_attributes Route16West, ROUTE_16_WEST, $f, 0
-
-	map_attributes CeladonCity, CELADON_CITY, $f, 0
 
 	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
 	connection north, Route13East, ROUTE_13_EAST, 0
@@ -499,14 +493,6 @@ ENDM
 	map_attributes Colosseum, COLOSSEUM, $0, 0
 	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $35, 0
 	map_attributes HiddenCaveGrotto, HIDDEN_CAVE_GROTTO, $9, 0
-	map_attributes CeladonPokeCenter1F, CELADON_POKECENTER_1F, $0, 0
-	map_attributes CeladonGym, CELADON_GYM, $0, 0
-	map_attributes CeladonCafe, CELADON_CAFE, $0, 0
-	map_attributes CeladonChiefHouse, CELADON_CHIEF_HOUSE, $0, 0
-	map_attributes EusinesHouse, EUSINES_HOUSE, $0, 0
-	map_attributes PsychicInversHouse, PSYCHIC_INVERS_HOUSE, $0, 0
-	map_attributes CeladonOldManSpeechHouse, CELADON_OLD_MAN_SPEECH_HOUSE, $0, 0
-	map_attributes CeladonDevelopmentSpeechHouse, CELADON_DEVELOPMENT_SPEECH_HOUSE, $0, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0

@@ -18,7 +18,6 @@ SECTION "Pokemon Center Scripts 3", ROMX
 
 INCLUDE "maps/VermilionPokeCenter1F.asm"
 INCLUDE "maps/LavenderPokeCenter1F.asm"
-INCLUDE "maps/CeladonPokeCenter1F.asm"
 INCLUDE "maps/FuchsiaPokeCenter1F.asm"
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
@@ -505,22 +504,6 @@ INCLUDE "maps/HauntedRadioTower5F.asm"
 INCLUDE "maps/HauntedRadioTower6F.asm"
 
 
-SECTION "Celadon Scripts", ROMX
-
-INCLUDE "maps/CeladonCity.asm"
-INCLUDE "maps/CeladonGym.asm"
-
-
-SECTION "Celadon Scripts 2", ROMX
-
-INCLUDE "maps/CeladonCafe.asm"
-INCLUDE "maps/CeladonChiefHouse.asm"
-INCLUDE "maps/CeladonDevelopmentSpeechHouse.asm"
-INCLUDE "maps/CeladonOldManSpeechHouse.asm"
-INCLUDE "maps/EusinesHouse.asm"
-INCLUDE "maps/PsychicInversHouse.asm"
-
-
 SECTION "Saffron Scripts 2", ROMX
 
 INCLUDE "maps/Underground.asm"
@@ -544,7 +527,6 @@ INCLUDE "maps/SafariZoneFuchsiaGate.asm"
 
 SECTION "Uraga Channel Scripts", ROMX
 
-INCLUDE "maps/UragaChannelEast.asm"
 INCLUDE "maps/UragaChannelWest.asm"
 
 

@@ -4,7 +4,6 @@ Route16West_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 37,  1, PSYCHIC_INVERS_HOUSE, 1
 
 	def_coord_events
 

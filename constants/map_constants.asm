@@ -418,18 +418,6 @@ ENDM
 	map_const YELLOW_FOREST_GATE,                          5,  4 ;  6
 	map_const YELLOW_FOREST,                              29, 26 ;  7
 
-	newgroup                                                     ; 21
-	map_const URAGA_CHANNEL_EAST,                         23,  9 ;  6
-	map_const CELADON_CITY,                               22, 18 ;  7
-	map_const CELADON_POKECENTER_1F,                       6,  4 ; 20
-	map_const CELADON_GYM,                                 5,  9 ; 23
-	map_const CELADON_CAFE,                                6,  4 ; 24
-	map_const CELADON_CHIEF_HOUSE,                         4,  4 ; 25
-	map_const EUSINES_HOUSE,                               4,  4 ; 32
-	map_const PSYCHIC_INVERS_HOUSE,                        4,  4 ; 33
-	map_const CELADON_OLD_MAN_SPEECH_HOUSE,                4,  4 ; 61
-	map_const CELADON_DEVELOPMENT_SPEECH_HOUSE,            4,  4 ; 62
-
 	newgroup                                                     ; 24
 	map_const NEW_BARK_TOWN,                              10,  9 ;  4
 	map_const ELMS_LAB,                                    5,  6 ;  5

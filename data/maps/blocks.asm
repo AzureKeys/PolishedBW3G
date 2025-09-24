@@ -18,7 +18,6 @@ CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
 LavenderPokeCenter1F_BlockData:
-CeladonPokeCenter1F_BlockData:
 FuchsiaPokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
@@ -87,8 +86,6 @@ CeruleanCoupleHouse_BlockData:
 FuchsiaBillSpeechHouse_BlockData:
 FuchsiaSafariBallHouse_BlockData:
 LavenderTownSpeechHouse_BlockData:
-CeladonOldManSpeechHouse_BlockData:
-CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
@@ -123,7 +120,6 @@ CeruleanBerryPowderHouse_BlockData:
 CeruleanWaterShowSpeechHouse_BlockData:
 VermilionHouseFishingSpeechHouse_BlockData:
 VermilionPollutionSpeechHouse_BlockData:
-PsychicInversHouse_BlockData:
 	INCBIN "maps/KantoHouse1.ablk.lz"
 
 SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
@@ -138,7 +134,6 @@ SECTION "PewterNidoranSpeechHouse_BlockData", ROMX
 PewterNidoranSpeechHouse_BlockData:
 PewterSnoozeSpeechHouse_BlockData:
 Route12SuperRodHouse_BlockData:
-EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX
@@ -920,22 +915,6 @@ SECTION "HauntedRadioTower6F_BlockData", ROMX
 HauntedRadioTower6F_BlockData:
 	INCBIN "maps/HauntedRadioTower6F.ablk.lz"
 
-SECTION "CeladonGym_BlockData", ROMX
-CeladonGym_BlockData:
-	INCBIN "maps/CeladonGym.ablk.lz"
-
-SECTION "CeladonCity_BlockData", ROMX
-CeladonCity_BlockData:
-	INCBIN "maps/CeladonCity.ablk.lz"
-
-SECTION "CeladonCafe_BlockData", ROMX
-CeladonCafe_BlockData:
-	INCBIN "maps/CeladonCafe.ablk.lz"
-
-SECTION "CeladonChiefHouse_BlockData", ROMX
-CeladonChiefHouse_BlockData:
-	INCBIN "maps/CeladonChiefHouse.ablk.lz"
-
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"
@@ -955,10 +934,6 @@ LuckyIsland_BlockData:
 SECTION "LuckyIslandHidden_BlockData", ROMX
 LuckyIslandHidden_BlockData:
 	INCBIN "maps/LuckyIslandHidden.ablk.lz"
-
-SECTION "UragaChannelEast_BlockData", ROMX
-UragaChannelEast_BlockData:
-	INCBIN "maps/UragaChannelEast.ablk.lz"
 
 SECTION "UragaChannelWest_BlockData", ROMX
 UragaChannelWest_BlockData:

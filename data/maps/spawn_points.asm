@@ -17,7 +17,6 @@ SpawnPoints:
 	spawn CERULEAN_CAPE,               9,  6
 	spawn VERMILION_CITY,              9,  6
 	spawn LAVENDER_TOWN,               5,  8
-	spawn CELADON_CITY,               33, 10
 	spawn FUCHSIA_CITY,               19, 28
 	spawn CINNABAR_ISLAND,            11, 16
 	spawn INDIGO_PLATEAU,             11,  6
