@@ -5,7 +5,6 @@ CeladonCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, CeladonCityFlyPoint
 
 	def_warp_events
-	warp_event  8,  9, CELADON_DEPT_STORE_1F, 1
 	warp_event 20,  9, CELADON_MANSION_1F, 1
 	warp_event 20,  3, CELADON_MANSION_1F, 3
 	warp_event 21,  3, CELADON_MANSION_1F, 3
@@ -16,7 +15,6 @@ CeladonCity_MapScriptHeader:
 	warp_event 25, 29, CELADON_CAFE, 1
 	warp_event 29, 29, CELADON_CHIEF_HOUSE, 1
 	warp_event 35, 29, CELADON_HOTEL_1F, 1
-	warp_event 13,  9, CELADON_HOME_DECOR_STORE_1F, 1
 	warp_event 29,  9, EUSINES_HOUSE, 1
 	warp_event 33, 19, CELADON_OLD_MAN_SPEECH_HOUSE, 1
 	warp_event 37, 19, CELADON_DEVELOPMENT_SPEECH_HOUSE, 1

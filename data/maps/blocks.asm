@@ -952,34 +952,6 @@ SECTION "CeladonChiefHouse_BlockData", ROMX
 CeladonChiefHouse_BlockData:
 	INCBIN "maps/CeladonChiefHouse.ablk.lz"
 
-SECTION "CeladonDeptStore1F_BlockData", ROMX
-CeladonDeptStore1F_BlockData:
-	INCBIN "maps/CeladonDeptStore1F.ablk.lz"
-
-SECTION "CeladonDeptStore2F_BlockData", ROMX
-CeladonDeptStore2F_BlockData:
-	INCBIN "maps/CeladonDeptStore2F.ablk.lz"
-
-SECTION "CeladonDeptStore3F_BlockData", ROMX
-CeladonDeptStore3F_BlockData:
-	INCBIN "maps/CeladonDeptStore3F.ablk.lz"
-
-SECTION "CeladonDeptStore4F_BlockData", ROMX
-CeladonDeptStore4F_BlockData:
-	INCBIN "maps/CeladonDeptStore4F.ablk.lz"
-
-SECTION "CeladonDeptStore5F_BlockData", ROMX
-CeladonDeptStore5F_BlockData:
-	INCBIN "maps/CeladonDeptStore5F.ablk.lz"
-
-SECTION "CeladonDeptStore6F_BlockData", ROMX
-CeladonDeptStore6F_BlockData:
-	INCBIN "maps/CeladonDeptStore6F.ablk.lz"
-
-SECTION "CeladonDeptStoreElevator_BlockData", ROMX
-CeladonDeptStoreElevator_BlockData:
-	INCBIN "maps/CeladonDeptStoreElevator.ablk.lz"
-
 SECTION "CeladonMansion1F_BlockData", ROMX
 CeladonMansion1F_BlockData:
 	INCBIN "maps/CeladonMansion1F.ablk.lz"
@@ -995,22 +967,6 @@ CeladonMansion3F_BlockData:
 SECTION "CeladonMansionRoof_BlockData", ROMX
 CeladonMansionRoof_BlockData:
 	INCBIN "maps/CeladonMansionRoof.ablk.lz"
-
-SECTION "CeladonHomeDecorStore1F_BlockData", ROMX
-CeladonHomeDecorStore1F_BlockData:
-	INCBIN "maps/CeladonHomeDecorStore1F.ablk.lz"
-
-SECTION "CeladonHomeDecorStore2F_BlockData", ROMX
-CeladonHomeDecorStore2F_BlockData:
-	INCBIN "maps/CeladonHomeDecorStore2F.ablk.lz"
-
-SECTION "CeladonHomeDecorStore3F_BlockData", ROMX
-CeladonHomeDecorStore3F_BlockData:
-	INCBIN "maps/CeladonHomeDecorStore3F.ablk.lz"
-
-SECTION "CeladonHomeDecorStore4F_BlockData", ROMX
-CeladonHomeDecorStore4F_BlockData:
-	INCBIN "maps/CeladonHomeDecorStore4F.ablk.lz"
 
 SECTION "CeladonHotel1F_BlockData", ROMX
 CeladonHotel1F_BlockData:

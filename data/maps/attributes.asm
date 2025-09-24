@@ -522,13 +522,6 @@ ENDM
 	map_attributes Colosseum, COLOSSEUM, $0, 0
 	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $35, 0
 	map_attributes HiddenCaveGrotto, HIDDEN_CAVE_GROTTO, $9, 0
-	map_attributes CeladonDeptStore1F, CELADON_DEPT_STORE_1F, $0, 0
-	map_attributes CeladonDeptStore2F, CELADON_DEPT_STORE_2F, $0, 0
-	map_attributes CeladonDeptStore3F, CELADON_DEPT_STORE_3F, $0, 0
-	map_attributes CeladonDeptStore4F, CELADON_DEPT_STORE_4F, $0, 0
-	map_attributes CeladonDeptStore5F, CELADON_DEPT_STORE_5F, $0, 0
-	map_attributes CeladonDeptStore6F, CELADON_DEPT_STORE_6F, $0, 0
-	map_attributes CeladonDeptStoreElevator, CELADON_DEPT_STORE_ELEVATOR, $0, 0
 	map_attributes CeladonMansion1F, CELADON_MANSION_1F, $0, 0
 	map_attributes CeladonMansion2F, CELADON_MANSION_2F, $0, 0
 	map_attributes CeladonMansion3F, CELADON_MANSION_3F, $0, 0
@@ -557,10 +550,6 @@ ENDM
 	map_attributes Route7SaffronGate, ROUTE_7_SAFFRON_GATE, $0, 0
 	map_attributes Route18Gate, ROUTE_18_GATE, $0, 0
 	map_attributes Route18Gate2F, ROUTE_18_GATE_2F, $0, 0
-	map_attributes CeladonHomeDecorStore1F, CELADON_HOME_DECOR_STORE_1F, $0, 0
-	map_attributes CeladonHomeDecorStore2F, CELADON_HOME_DECOR_STORE_2F, $0, 0
-	map_attributes CeladonHomeDecorStore3F, CELADON_HOME_DECOR_STORE_3F, $0, 0
-	map_attributes CeladonHomeDecorStore4F, CELADON_HOME_DECOR_STORE_4F, $0, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0

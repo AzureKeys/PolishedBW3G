@@ -426,13 +426,6 @@ ENDM
 	map_const ROUTE_18_WEST,                              12,  9 ;  5
 	map_const URAGA_CHANNEL_EAST,                         23,  9 ;  6
 	map_const CELADON_CITY,                               22, 18 ;  7
-	map_const CELADON_DEPT_STORE_1F,                       8,  4 ;  8
-	map_const CELADON_DEPT_STORE_2F,                       8,  4 ;  9
-	map_const CELADON_DEPT_STORE_3F,                       8,  4 ; 10
-	map_const CELADON_DEPT_STORE_4F,                       8,  4 ; 11
-	map_const CELADON_DEPT_STORE_5F,                       8,  4 ; 12
-	map_const CELADON_DEPT_STORE_6F,                       8,  4 ; 13
-	map_const CELADON_DEPT_STORE_ELEVATOR,                 2,  2 ; 14
 	map_const CELADON_MANSION_1F,                          4,  5 ; 15
 	map_const CELADON_MANSION_2F,                          4,  5 ; 16
 	map_const CELADON_MANSION_3F,                          4,  5 ; 17
@@ -459,10 +452,6 @@ ENDM
 	map_const ROUTE_7_SAFFRON_GATE,                        5,  4 ; 38
 	map_const ROUTE_18_GATE,                               5,  5 ; 39
 	map_const ROUTE_18_GATE_2F,                            4,  4 ; 40
-	map_const CELADON_HOME_DECOR_STORE_1F,                 5,  4 ; 41
-	map_const CELADON_HOME_DECOR_STORE_2F,                 5,  4 ; 42
-	map_const CELADON_HOME_DECOR_STORE_3F,                 5,  4 ; 43
-	map_const CELADON_HOME_DECOR_STORE_4F,                 5,  4 ; 44
 	map_const CELADON_OLD_MAN_SPEECH_HOUSE,                4,  4 ; 61
 	map_const CELADON_DEVELOPMENT_SPEECH_HOUSE,            4,  4 ; 62
 

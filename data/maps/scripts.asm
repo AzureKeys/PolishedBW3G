@@ -523,17 +523,6 @@ INCLUDE "maps/EusinesHouse.asm"
 INCLUDE "maps/PsychicInversHouse.asm"
 
 
-SECTION "Celadon Dept Store Scripts", ROMX
-
-INCLUDE "maps/CeladonDeptStore1F.asm"
-INCLUDE "maps/CeladonDeptStore2F.asm"
-INCLUDE "maps/CeladonDeptStore3F.asm"
-INCLUDE "maps/CeladonDeptStore4F.asm"
-INCLUDE "maps/CeladonDeptStore5F.asm"
-INCLUDE "maps/CeladonDeptStore6F.asm"
-INCLUDE "maps/CeladonDeptStoreElevator.asm"
-
-
 SECTION "Celadon Mansion Scripts", ROMX
 
 INCLUDE "maps/CeladonMansion1F.asm"
@@ -541,14 +530,6 @@ INCLUDE "maps/CeladonMansion2F.asm"
 INCLUDE "maps/CeladonMansion3F.asm"
 INCLUDE "maps/CeladonMansionRoof.asm"
 INCLUDE "maps/CeladonMansionRoofHouse.asm"
-
-
-SECTION "Celadon Home Decor Store Scripts", ROMX
-
-INCLUDE "maps/CeladonHomeDecorStore1F.asm"
-INCLUDE "maps/CeladonHomeDecorStore2F.asm"
-INCLUDE "maps/CeladonHomeDecorStore3F.asm"
-INCLUDE "maps/CeladonHomeDecorStore4F.asm"
 
 
 SECTION "Celadon Hotel Scripts", ROMX
