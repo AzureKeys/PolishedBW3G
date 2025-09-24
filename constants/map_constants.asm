@@ -426,23 +426,10 @@ ENDM
 	map_const ROUTE_18_WEST,                              12,  9 ;  5
 	map_const URAGA_CHANNEL_EAST,                         23,  9 ;  6
 	map_const CELADON_CITY,                               22, 18 ;  7
-	map_const CELADON_MANSION_1F,                          4,  5 ; 15
-	map_const CELADON_MANSION_2F,                          4,  5 ; 16
-	map_const CELADON_MANSION_3F,                          4,  5 ; 17
-	map_const CELADON_MANSION_ROOF,                        4,  7 ; 18
-	map_const CELADON_MANSION_ROOF_HOUSE,                  4,  4 ; 19
 	map_const CELADON_POKECENTER_1F,                       6,  4 ; 20
-	map_const CELADON_GAME_CORNER,                        10,  7 ; 21
-	map_const CELADON_GAME_CORNER_PRIZE_ROOM,              4,  4 ; 22
 	map_const CELADON_GYM,                                 5,  9 ; 23
 	map_const CELADON_CAFE,                                6,  4 ; 24
 	map_const CELADON_CHIEF_HOUSE,                         4,  4 ; 25
-	map_const CELADON_HOTEL_1F,                            9,  4 ; 26
-	map_const CELADON_HOTEL_2F,                            9,  2 ; 27
-	map_const CELADON_HOTEL_ROOM_1,                        3,  3 ; 28
-	map_const CELADON_HOTEL_ROOM_2,                        3,  3 ; 29
-	map_const CELADON_HOTEL_ROOM_3,                        3,  3 ; 30
-	map_const CELADON_HOTEL_POOL,                          7,  4 ; 31
 	map_const EUSINES_HOUSE,                               4,  4 ; 32
 	map_const PSYCHIC_INVERS_HOUSE,                        4,  4 ; 33
 	map_const ROUTE_16_FUCHSIA_SPEECH_HOUSE,               4,  4 ; 34

@@ -127,7 +127,6 @@ SECTION "CeruleanPoliceStation_BlockData", ROMX
 CeruleanPoliceStation_BlockData:
 CeruleanBerryPowderHouse_BlockData:
 CeruleanWaterShowSpeechHouse_BlockData:
-CeladonMansionRoofHouse_BlockData:
 VermilionHouseFishingSpeechHouse_BlockData:
 VermilionPollutionSpeechHouse_BlockData:
 PsychicInversHouse_BlockData:
@@ -936,14 +935,6 @@ SECTION "CeladonCity_BlockData", ROMX
 CeladonCity_BlockData:
 	INCBIN "maps/CeladonCity.ablk.lz"
 
-SECTION "CeladonGameCorner_BlockData", ROMX
-CeladonGameCorner_BlockData:
-	INCBIN "maps/CeladonGameCorner.ablk.lz"
-
-SECTION "CeladonGameCornerPrizeRoom_BlockData", ROMX
-CeladonGameCornerPrizeRoom_BlockData:
-	INCBIN "maps/CeladonGameCornerPrizeRoom.ablk.lz"
-
 SECTION "CeladonCafe_BlockData", ROMX
 CeladonCafe_BlockData:
 	INCBIN "maps/CeladonCafe.ablk.lz"
@@ -951,40 +942,6 @@ CeladonCafe_BlockData:
 SECTION "CeladonChiefHouse_BlockData", ROMX
 CeladonChiefHouse_BlockData:
 	INCBIN "maps/CeladonChiefHouse.ablk.lz"
-
-SECTION "CeladonMansion1F_BlockData", ROMX
-CeladonMansion1F_BlockData:
-	INCBIN "maps/CeladonMansion1F.ablk.lz"
-
-SECTION "CeladonMansion2F_BlockData", ROMX
-CeladonMansion2F_BlockData:
-	INCBIN "maps/CeladonMansion2F.ablk.lz"
-
-SECTION "CeladonMansion3F_BlockData", ROMX
-CeladonMansion3F_BlockData:
-	INCBIN "maps/CeladonMansion3F.ablk.lz"
-
-SECTION "CeladonMansionRoof_BlockData", ROMX
-CeladonMansionRoof_BlockData:
-	INCBIN "maps/CeladonMansionRoof.ablk.lz"
-
-SECTION "CeladonHotel1F_BlockData", ROMX
-CeladonHotel1F_BlockData:
-	INCBIN "maps/CeladonHotel1F.ablk.lz"
-
-SECTION "CeladonHotel2F_BlockData", ROMX
-CeladonHotel2F_BlockData:
-	INCBIN "maps/CeladonHotel2F.ablk.lz"
-
-SECTION "CeladonHotelPool_BlockData", ROMX
-CeladonHotelPool_BlockData:
-	INCBIN "maps/CeladonHotelPool.ablk.lz"
-
-SECTION "CeladonHotelRoom1_BlockData", ROMX
-CeladonHotelRoom1_BlockData:
-CeladonHotelRoom2_BlockData:
-CeladonHotelRoom3_BlockData:
-	INCBIN "maps/HotelRoom.ablk.lz"
 
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:

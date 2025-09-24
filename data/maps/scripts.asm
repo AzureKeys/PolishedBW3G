@@ -509,8 +509,6 @@ SECTION "Celadon Scripts", ROMX
 
 INCLUDE "maps/CeladonCity.asm"
 INCLUDE "maps/CeladonGym.asm"
-INCLUDE "maps/CeladonGameCorner.asm"
-INCLUDE "maps/CeladonGameCornerPrizeRoom.asm"
 
 
 SECTION "Celadon Scripts 2", ROMX
@@ -521,25 +519,6 @@ INCLUDE "maps/CeladonDevelopmentSpeechHouse.asm"
 INCLUDE "maps/CeladonOldManSpeechHouse.asm"
 INCLUDE "maps/EusinesHouse.asm"
 INCLUDE "maps/PsychicInversHouse.asm"
-
-
-SECTION "Celadon Mansion Scripts", ROMX
-
-INCLUDE "maps/CeladonMansion1F.asm"
-INCLUDE "maps/CeladonMansion2F.asm"
-INCLUDE "maps/CeladonMansion3F.asm"
-INCLUDE "maps/CeladonMansionRoof.asm"
-INCLUDE "maps/CeladonMansionRoofHouse.asm"
-
-
-SECTION "Celadon Hotel Scripts", ROMX
-
-INCLUDE "maps/CeladonHotel1F.asm"
-INCLUDE "maps/CeladonHotel2F.asm"
-INCLUDE "maps/CeladonHotelPool.asm"
-INCLUDE "maps/CeladonHotelRoom1.asm"
-INCLUDE "maps/CeladonHotelRoom2.asm"
-INCLUDE "maps/CeladonHotelRoom3.asm"
 
 
 SECTION "Saffron Scripts 2", ROMX

@@ -522,23 +522,10 @@ ENDM
 	map_attributes Colosseum, COLOSSEUM, $0, 0
 	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $35, 0
 	map_attributes HiddenCaveGrotto, HIDDEN_CAVE_GROTTO, $9, 0
-	map_attributes CeladonMansion1F, CELADON_MANSION_1F, $0, 0
-	map_attributes CeladonMansion2F, CELADON_MANSION_2F, $0, 0
-	map_attributes CeladonMansion3F, CELADON_MANSION_3F, $0, 0
-	map_attributes CeladonMansionRoof, CELADON_MANSION_ROOF, $1, 0
-	map_attributes CeladonMansionRoofHouse, CELADON_MANSION_ROOF_HOUSE, $0, 0
 	map_attributes CeladonPokeCenter1F, CELADON_POKECENTER_1F, $0, 0
-	map_attributes CeladonGameCorner, CELADON_GAME_CORNER, $0, 0
-	map_attributes CeladonGameCornerPrizeRoom, CELADON_GAME_CORNER_PRIZE_ROOM, $0, 0
 	map_attributes CeladonGym, CELADON_GYM, $0, 0
 	map_attributes CeladonCafe, CELADON_CAFE, $0, 0
 	map_attributes CeladonChiefHouse, CELADON_CHIEF_HOUSE, $0, 0
-	map_attributes CeladonHotel1F, CELADON_HOTEL_1F, $0, 0
-	map_attributes CeladonHotel2F, CELADON_HOTEL_2F, $0, 0
-	map_attributes CeladonHotelRoom1, CELADON_HOTEL_ROOM_1, $0, 0
-	map_attributes CeladonHotelRoom2, CELADON_HOTEL_ROOM_2, $0, 0
-	map_attributes CeladonHotelRoom3, CELADON_HOTEL_ROOM_3, $0, 0
-	map_attributes CeladonHotelPool, CELADON_HOTEL_POOL, $0, 0
 	map_attributes EusinesHouse, EUSINES_HOUSE, $0, 0
 	map_attributes PsychicInversHouse, PSYCHIC_INVERS_HOUSE, $0, 0
 	map_attributes CeladonOldManSpeechHouse, CELADON_OLD_MAN_SPEECH_HOUSE, $0, 0
