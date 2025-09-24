@@ -69,7 +69,6 @@ Landmarks:
 	landmark 108,  68, Route6Name
 	landmark 108,  76, VermilionCityName
 	landmark 116,  68, DiglettsCaveName
-	landmark  96,  60, Route7Name
 	landmark 124,  60, Route8Name
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
@@ -84,9 +83,6 @@ Landmarks:
 	landmark 124, 100, Route14Name
 	landmark 108, 108, Route15Name
 	landmark 136, 104, LuckyIslandName
-	landmark  68,  60, Route16Name
-	landmark  76,  88, Route17Name
-	landmark  80, 108, Route18Name
 	landmark  92, 108, FuchsiaCityName
 	landmark  64, 108, UragaChannelName
 	landmark  60, 116, ScaryCaveName
@@ -157,7 +153,6 @@ Route1Name:            rawchar "Route 1@"
 Route3Name:            rawchar "Route 3@"
 Route4Name:            rawchar "Route 4@"
 Route6Name:            rawchar "Route 6@"
-Route7Name:            rawchar "Route 7@"
 Route8Name:            rawchar "Route 8@"
 Route10Name:           rawchar "Route 10@"
 Route11Name:           rawchar "Route 11@"
@@ -165,9 +160,6 @@ Route12Name:           rawchar "Route 12@"
 Route13Name:           rawchar "Route 13@"
 Route14Name:           rawchar "Route 14@"
 Route15Name:           rawchar "Route 15@"
-Route16Name:           rawchar "Route 16@"
-Route17Name:           rawchar "Route 17@"
-Route18Name:           rawchar "Route 18@"
 Route19Name:           rawchar "Route 19@"
 Route20Name:           rawchar "Route 20@"
 Route21Name:           rawchar "Route 21@"

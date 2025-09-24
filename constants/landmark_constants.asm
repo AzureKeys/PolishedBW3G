@@ -64,7 +64,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_6            ; 54
 	const VERMILION_CITY     ; 55
 	const DIGLETTS_CAVE      ; 56
-	const ROUTE_7            ; 57
 	const ROUTE_8            ; 58
 	const ROUTE_10           ; 5a
 	const ROCK_TUNNEL        ; 5b
@@ -79,9 +78,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_14           ; 67
 	const ROUTE_15           ; 68
 	const LUCKY_ISLAND       ; 69
-	const ROUTE_16           ; 6a
-	const ROUTE_17           ; 6b
-	const ROUTE_18           ; 6c
 	const FUCHSIA_CITY       ; 6d
 	const URAGA_CHANNEL      ; 6f
 	const SCARY_CAVE         ; 70

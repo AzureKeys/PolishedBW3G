@@ -132,42 +132,19 @@ ENDM
 	connection west, Route18East, ROUTE_18_EAST, 7
 	connection east, Route15, ROUTE_15, 9
 
-	map_attributes Route18East, ROUTE_18_EAST, $43, WEST | EAST
-	connection west, Route18West, ROUTE_18_WEST, 0
+	map_attributes Route18East, ROUTE_18_EAST, $43, EAST
 	connection east, FuchsiaCity, FUCHSIA_CITY, -7
 
-	map_attributes Route18West, ROUTE_18_WEST, $43, NORTH | WEST | EAST
-	connection north, Route17, ROUTE_17, 0
-	connection west, UragaChannelEast, URAGA_CHANNEL_EAST, 0
-	connection east, Route18East, ROUTE_18_EAST, 0
-
-	map_attributes UragaChannelEast, URAGA_CHANNEL_EAST, $43, WEST | EAST
+	map_attributes UragaChannelEast, URAGA_CHANNEL_EAST, $43, WEST
 	connection west, UragaChannelWest, URAGA_CHANNEL_WEST, 0
-	connection east, Route18West, ROUTE_18_WEST, 0
 
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST | EAST
 	connection west, Route21, ROUTE_21, -19
 	connection east, UragaChannelEast, URAGA_CHANNEL_EAST, 0
 
-	map_attributes Route17, ROUTE_17, $43, NORTH | SOUTH
-	connection north, Route16South, ROUTE_16_SOUTH, -3
-	connection south, Route18West, ROUTE_18_WEST, 0
-
-	map_attributes Route16South, ROUTE_16_SOUTH, $f, SOUTH
-	connection south, Route17, ROUTE_17, 3
-
-	map_attributes Route16Northeast, ROUTE_16_NORTHEAST, $f, WEST | EAST
-	connection west, Route16West, ROUTE_16_WEST, -1
-	connection east, CeladonCity, CELADON_CITY, -10
-
 	map_attributes Route16West, ROUTE_16_WEST, $f, 0
 
-	map_attributes CeladonCity, CELADON_CITY, $f, WEST | EAST
-	connection west, Route16Northeast, ROUTE_16_NORTHEAST, 10
-	connection east, Route7, ROUTE_7, 5
-
-	map_attributes Route7, ROUTE_7, $f, WEST
-	connection west, CeladonCity, CELADON_CITY, -5
+	map_attributes CeladonCity, CELADON_CITY, $f, 0
 
 	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
 	connection north, Route13East, ROUTE_13_EAST, 0
@@ -530,13 +507,6 @@ ENDM
 	map_attributes PsychicInversHouse, PSYCHIC_INVERS_HOUSE, $0, 0
 	map_attributes CeladonOldManSpeechHouse, CELADON_OLD_MAN_SPEECH_HOUSE, $0, 0
 	map_attributes CeladonDevelopmentSpeechHouse, CELADON_DEVELOPMENT_SPEECH_HOUSE, $0, 0
-	map_attributes Route16FuchsiaSpeechHouse, ROUTE_16_FUCHSIA_SPEECH_HOUSE, $0, 0
-	map_attributes Route16Gate, ROUTE_16_GATE, $0, 0
-	map_attributes Route1617Gate, ROUTE_16_17_GATE, $0, 0
-	map_attributes Route1617Gate2F, ROUTE_16_17_GATE_2F, $0, 0
-	map_attributes Route7SaffronGate, ROUTE_7_SAFFRON_GATE, $0, 0
-	map_attributes Route18Gate, ROUTE_18_GATE, $0, 0
-	map_attributes Route18Gate2F, ROUTE_18_GATE_2F, $0, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0

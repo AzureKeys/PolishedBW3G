@@ -55,9 +55,6 @@ MapScenes::
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var POWER_PLANT,                            wPowerPlantSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
-	scene_var ROUTE_16_17_GATE,                       wAlways0SceneID
-	scene_var ROUTE_18_GATE,                          wAlways0SceneID
-	scene_var ROUTE_18_WEST,                          wAlways0SceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_24,                               wRoute24SceneID
 	scene_var ROUTE_32,                               wRoute32SceneID

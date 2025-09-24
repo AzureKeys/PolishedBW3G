@@ -420,34 +420,6 @@
 	wildmon 47, WIGGLYTUFF
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_7
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 49, RATICATE
-	wildmon 49, RATTATA
-	wildmon 51, GRANBULL
-	wildmon 54, VULPIX
-	wildmon 54, JIGGLYPUFF
-	wildmon 52, RATICATE
-	wildmon 51, WIGGLYTUFF
-	; day
-	wildmon 49, RATICATE
-	wildmon 49, RATTATA
-	wildmon 51, GRANBULL
-	wildmon 54, VULPIX
-	wildmon 54, JIGGLYPUFF
-	wildmon 52, RATICATE
-	wildmon 51, WIGGLYTUFF
-	; nite
-	wildmon 49, PERSIAN
-	wildmon 49, MURKROW
-	wildmon 51, HOUNDOUR
-	wildmon 54, VULPIX
-	wildmon 54, JIGGLYPUFF
-	wildmon 52, PERSIAN
-	wildmon 51, WIGGLYTUFF
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -672,63 +644,7 @@
 	wildmon 55, MUK
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_17
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 51, RATTATA
-	wildmon 55, RATTATA
-	wildmon 55, GRIMER
-	wildmon 53, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, MUK
-	wildmon 56, MUK
-	; day
-	wildmon 51, RATTATA
-	wildmon 55, RATTATA
-	wildmon 55, GRIMER
-	wildmon 53, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, MUK
-	wildmon 56, MUK
-	; nite
-	wildmon 51, GRIMER
-	wildmon 55, GRIMER
-	wildmon 55, GRIMER
-	wildmon 53, MURKROW
-	wildmon 53, MURKROW
-	wildmon 54, MUK
-	wildmon 56, MUK
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_18_EAST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 52, RATTATA
-	wildmon 56, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 55, MUK
-	wildmon 57, MUK
-	; day
-	wildmon 52, RATTATA
-	wildmon 56, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 55, MUK
-	wildmon 57, MUK
-	; nite
-	wildmon 52, RATICATE
-	wildmon 56, RATTATA
-	wildmon 53, RATICATE
-	wildmon 54, MURKROW
-	wildmon 54, MURKROW
-	wildmon 55, MUK
-	wildmon 57, MUK
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_18_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 52, RATTATA

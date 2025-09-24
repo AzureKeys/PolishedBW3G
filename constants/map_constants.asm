@@ -419,11 +419,6 @@ ENDM
 	map_const YELLOW_FOREST,                              29, 26 ;  7
 
 	newgroup                                                     ; 21
-	map_const ROUTE_7,                                    10,  9 ;  1
-	map_const ROUTE_16_NORTHEAST,                         14, 11 ;  2
-	map_const ROUTE_16_SOUTH,                             14, 11 ;  3
-	map_const ROUTE_17,                                   10, 63 ;  4
-	map_const ROUTE_18_WEST,                              12,  9 ;  5
 	map_const URAGA_CHANNEL_EAST,                         23,  9 ;  6
 	map_const CELADON_CITY,                               22, 18 ;  7
 	map_const CELADON_POKECENTER_1F,                       6,  4 ; 20
@@ -432,13 +427,6 @@ ENDM
 	map_const CELADON_CHIEF_HOUSE,                         4,  4 ; 25
 	map_const EUSINES_HOUSE,                               4,  4 ; 32
 	map_const PSYCHIC_INVERS_HOUSE,                        4,  4 ; 33
-	map_const ROUTE_16_FUCHSIA_SPEECH_HOUSE,               4,  4 ; 34
-	map_const ROUTE_16_GATE,                               5,  4 ; 35
-	map_const ROUTE_16_17_GATE,                            5,  5 ; 36
-	map_const ROUTE_16_17_GATE_2F,                         4,  4 ; 37
-	map_const ROUTE_7_SAFFRON_GATE,                        5,  4 ; 38
-	map_const ROUTE_18_GATE,                               5,  5 ; 39
-	map_const ROUTE_18_GATE_2F,                            4,  4 ; 40
 	map_const CELADON_OLD_MAN_SPEECH_HOUSE,                4,  4 ; 61
 	map_const CELADON_DEVELOPMENT_SPEECH_HOUSE,            4,  4 ; 62
 

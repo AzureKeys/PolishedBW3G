@@ -546,7 +546,6 @@ SECTION "Uraga Channel Scripts", ROMX
 
 INCLUDE "maps/UragaChannelEast.asm"
 INCLUDE "maps/UragaChannelWest.asm"
-INCLUDE "maps/Route18West.asm" ; shares text with UragaChannelEast.asm
 
 
 SECTION "Scary Cave Scripts", ROMX
@@ -626,8 +625,6 @@ SECTION "Routes 5-8 Scripts", ROMX
 INCLUDE "maps/Route6.asm"
 INCLUDE "maps/Route6SaffronGate.asm"
 INCLUDE "maps/Route6UndergroundEntrance.asm"
-INCLUDE "maps/Route7.asm"
-INCLUDE "maps/Route7SaffronGate.asm"
 INCLUDE "maps/Route8.asm"
 INCLUDE "maps/Route8SaffronGate.asm"
 
@@ -657,21 +654,12 @@ SECTION "Routes 15-17 Scripts", ROMX
 INCLUDE "maps/Route15.asm"
 INCLUDE "maps/Route15FuchsiaGate.asm"
 INCLUDE "maps/Route15FuchsiaGate2F.asm"
-INCLUDE "maps/Route16FuchsiaSpeechHouse.asm"
-INCLUDE "maps/Route16Gate.asm"
-INCLUDE "maps/Route1617Gate.asm"
-INCLUDE "maps/Route1617Gate2F.asm"
-INCLUDE "maps/Route16Northeast.asm"
-INCLUDE "maps/Route16South.asm"
 INCLUDE "maps/Route16West.asm"
-INCLUDE "maps/Route17.asm"
 
 
 SECTION "Routes 18-20 Scripts", ROMX
 
 INCLUDE "maps/Route18East.asm"
-INCLUDE "maps/Route18Gate.asm"
-INCLUDE "maps/Route18Gate2F.asm"
 INCLUDE "maps/Route19.asm"
 INCLUDE "maps/Route19BeachHouse.asm"
 INCLUDE "maps/Route19FuchsiaGate.asm"

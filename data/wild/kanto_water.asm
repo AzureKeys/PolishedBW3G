@@ -70,13 +70,6 @@
 	wildmon  55, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_18_WEST
-	db 6 percent ; encounter rate
-	wildmon  54, RATTATA
-	wildmon  56, RATTATA
-	wildmon  58, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
 	wildmon  54, RATTATA
