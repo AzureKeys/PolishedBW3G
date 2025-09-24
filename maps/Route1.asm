@@ -4,7 +4,6 @@ Route1_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 10,  1, ROUTE_1_VIRIDIAN_GATE, 3
 
 	def_coord_events
 

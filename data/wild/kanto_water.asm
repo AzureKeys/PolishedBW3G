@@ -14,13 +14,6 @@
 	wildmon  45, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_2_SOUTH
-	db 6 percent ; encounter rate
-	wildmon  53, RATTATA
-	wildmon  55, PSYDUCK
-	wildmon  57, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
 	wildmon  55, RATTATA
@@ -105,13 +98,6 @@
 	wildmon  58, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_22
-	db 2 percent ; encounter rate
-	wildmon  54, RATTATA
-	wildmon  56, POLIWAG
-	wildmon  58, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_23
 	db 6 percent ; encounter rate
 	wildmon  35, RATTATA
@@ -145,13 +131,6 @@
 	wildmon  55, RATTATA
 	wildmon  50, RATTATA
 	wildmon  55, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons VIRIDIAN_CITY
-	db 2 percent ; encounter rate
-	wildmon  55, POLIWAG
-	wildmon  50, POLIWAG
-	wildmon  55, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CITY

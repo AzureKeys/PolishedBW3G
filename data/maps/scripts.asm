@@ -11,7 +11,6 @@ SECTION "Pokemon Center Scripts 2", ROMX
 INCLUDE "maps/MahoganyPokeCenter1F.asm"
 INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
-INCLUDE "maps/ViridianPokeCenter1F.asm"
 INCLUDE "maps/PewterPokeCenter1F.asm"
 INCLUDE "maps/CeruleanPokeCenter1F.asm"
 
@@ -380,7 +379,6 @@ INCLUDE "maps/BrunosRoom.asm"
 INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
-INCLUDE "maps/PokemonLeagueGate.asm"
 
 
 SECTION "Fast Ship Scripts", ROMX
@@ -400,24 +398,6 @@ INCLUDE "maps/RedsHouse1F.asm"
 INCLUDE "maps/RedsHouse2F.asm"
 INCLUDE "maps/BluesHouse1F.asm"
 INCLUDE "maps/BluesHouse2F.asm"
-
-
-SECTION "Viridian Scripts", ROMX
-
-INCLUDE "maps/ViridianCity.asm"
-INCLUDE "maps/ViridianMart.asm"
-INCLUDE "maps/ViridianGym.asm"
-INCLUDE "maps/ViridianNicknameSpeechHouse.asm"
-INCLUDE "maps/ViridianSchoolHouse.asm"
-INCLUDE "maps/TrainerHouse1F.asm"
-INCLUDE "maps/TrainerHouseB1F.asm"
-
-
-SECTION "Viridian Forest Scripts", ROMX
-
-INCLUDE "maps/ViridianForest.asm"
-INCLUDE "maps/ViridianForestPewterGate.asm"
-INCLUDE "maps/ViridianForestViridianGate.asm"
 
 
 SECTION "Pewter Scripts", ROMX
@@ -726,11 +706,6 @@ INCLUDE "maps/FarawayJungle.asm"
 SECTION "Routes 1-4 Scripts", ROMX
 
 INCLUDE "maps/Route1.asm"
-INCLUDE "maps/Route1ViridianGate.asm"
-INCLUDE "maps/Route2Gate.asm"
-INCLUDE "maps/Route2North.asm"
-INCLUDE "maps/Route2NuggetSpeechHouse.asm"
-INCLUDE "maps/Route2South.asm"
 INCLUDE "maps/Route3.asm"
 INCLUDE "maps/Route4.asm"
 
@@ -776,7 +751,6 @@ INCLUDE "maps/Route16Gate.asm"
 INCLUDE "maps/Route1617Gate.asm"
 INCLUDE "maps/Route1617Gate2F.asm"
 INCLUDE "maps/Route16Northeast.asm"
-INCLUDE "maps/Route16Northwest.asm"
 INCLUDE "maps/Route16South.asm"
 INCLUDE "maps/Route16West.asm"
 INCLUDE "maps/Route17.asm"
@@ -796,7 +770,6 @@ INCLUDE "maps/Route20.asm"
 SECTION "Routes 21-23 Scripts", ROMX
 
 INCLUDE "maps/Route21.asm"
-INCLUDE "maps/Route22.asm"
 INCLUDE "maps/Route23.asm"
 
 

@@ -87,7 +87,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_HOME
 ; kanto
 	const SPAWN_PALLET
-	const SPAWN_VIRIDIAN
 	const SPAWN_PEWTER
 	const SPAWN_MT_MOON
 	const SPAWN_CERULEAN

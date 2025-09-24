@@ -310,7 +310,6 @@ ENDM
 	map_const OAKS_LAB,                                    5,  6 ;  7
 
 	newgroup                                                     ; 14
-	map_const ROUTE_2_NORTH,                              10, 18 ;  1
 	map_const ROUTE_3,                                    36, 11 ;  2
 	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
 	map_const PEWTER_CITY,                                20, 18 ;  4
@@ -498,26 +497,6 @@ ENDM
 	map_const CIANWOOD_CITY_PHOTO_STUDIO,                  4,  4 ;  7
 	map_const CIANWOOD_LUGIA_SPEECH_HOUSE,                 4,  4 ;  8
 	map_const MOVE_MANIACS_HOUSE,                          4,  4 ;  9
-
-	newgroup                                                     ; 23
-	map_const ROUTE_2_SOUTH,                              12, 18 ;  1
-	map_const ROUTE_22,                                   15,  9 ;  2
-	map_const VIRIDIAN_CITY,                              20, 18 ;  3
-	map_const VIRIDIAN_GYM,                                7, 22 ;  4
-	map_const VIRIDIAN_NICKNAME_SPEECH_HOUSE,              4,  4 ;  5
-	map_const VIRIDIAN_SCHOOL_HOUSE,                       4,  5 ;  6
-	map_const TRAINER_HOUSE_1F,                            5,  6 ;  7
-	map_const TRAINER_HOUSE_B1F,                           5,  8 ;  8
-	map_const VIRIDIAN_MART,                               6,  4 ;  9
-	map_const VIRIDIAN_POKECENTER_1F,                      6,  4 ; 11
-	map_const ROUTE_2_NUGGET_SPEECH_HOUSE,                 4,  4 ; 12
-	map_const ROUTE_2_GATE,                                5,  4 ; 13
-	map_const POKEMON_LEAGUE_GATE,                        11,  9 ; 14
-	map_const VIRIDIAN_FOREST,                            19, 26 ; 15
-	map_const VIRIDIAN_FOREST_VIRIDIAN_GATE,               5,  4 ; 16
-	map_const VIRIDIAN_FOREST_PEWTER_GATE,                 5,  4 ; 17
-	map_const ROUTE_1_VIRIDIAN_GATE,                       5,  4 ; 18
-	map_const ROUTE_16_NORTHWEST,                         14, 11 ; 19
 
 	newgroup                                                     ; 24
 	map_const NEW_BARK_TOWN,                              10,  9 ;  4

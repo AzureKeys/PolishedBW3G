@@ -5,7 +5,6 @@ Route28_MapScriptHeader:
 
 	def_warp_events
 	warp_event  7,  3, ROUTE_28_FAMOUS_SPEECH_HOUSE, 1
-	warp_event 33,  5, POKEMON_LEAGUE_GATE, 7
 
 	def_coord_events
 

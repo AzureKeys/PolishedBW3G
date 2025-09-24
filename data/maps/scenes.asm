@@ -54,7 +54,6 @@ MapScenes::
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
-	scene_var POKEMON_LEAGUE_GATE,                    wPokemonLeagueGateSceneID
 	scene_var POWER_PLANT,                            wPowerPlantSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_16_17_GATE,                       wAlways0SceneID
@@ -79,7 +78,6 @@ MapScenes::
 	scene_var TEAM_ROCKET_BASE_B3F,                   wTeamRocketBaseB3FSceneID
 	scene_var TIN_TOWER_1F,                           wTinTower1FSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
-	scene_var TRAINER_HOUSE_B1F,                      wAlways0SceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
 	scene_var VERMILION_CITY,                         wVermilionCitySceneID
 	scene_var VERMILION_PORT,                         wVermilionPortSceneID

@@ -108,29 +108,10 @@ ENDM
 	map_attributes Route46, ROUTE_46, $5, EAST
 	connection east, Route45, ROUTE_45, -37
 
-	map_attributes PewterCity, PEWTER_CITY, $f, SOUTH | EAST
-	connection south, Route2North, ROUTE_2_NORTH, 5
+	map_attributes PewterCity, PEWTER_CITY, $f, EAST
 	connection east, Route3, ROUTE_3, 5
 
-	map_attributes Route2North, ROUTE_2_NORTH, $f, NORTH | SOUTH
-	connection north, PewterCity, PEWTER_CITY, -5
-	connection south, Route2South, ROUTE_2_SOUTH, -2
-
-	map_attributes Route2South, ROUTE_2_SOUTH, $f, NORTH | SOUTH | EAST
-	connection north, Route2North, ROUTE_2_NORTH, 2
-	connection south, ViridianCity, VIRIDIAN_CITY, -3
-	connection east, Route16West, ROUTE_16_WEST, 7
-
-	map_attributes ViridianCity, VIRIDIAN_CITY, $f, NORTH | SOUTH | WEST
-	connection north, Route2South, ROUTE_2_SOUTH, 3
-	connection south, Route1, ROUTE_1, 5
-	connection west, Route22, ROUTE_22, 4
-
-	map_attributes Route22, ROUTE_22, $2c, EAST
-	connection east, ViridianCity, VIRIDIAN_CITY, -4
-
-	map_attributes Route1, ROUTE_1, $f, NORTH | SOUTH
-	connection north, ViridianCity, VIRIDIAN_CITY, -5
+	map_attributes Route1, ROUTE_1, $f, SOUTH
 	connection south, PalletTown, PALLET_TOWN, 1
 
 	map_attributes PalletTown, PALLET_TOWN, $f, NORTH | SOUTH
@@ -187,13 +168,7 @@ ENDM
 	connection west, Route16West, ROUTE_16_WEST, -1
 	connection east, CeladonCity, CELADON_CITY, -10
 
-	map_attributes Route16Northwest, ROUTE_16_NORTHWEST, $f, WEST | EAST
-	connection west, Route16West, ROUTE_16_WEST, -1
-	connection east, CeladonCity, CELADON_CITY, -10
-
-	map_attributes Route16West, ROUTE_16_WEST, $f, WEST | EAST
-	connection west, Route2South, ROUTE_2_SOUTH, -7
-	connection east, Route16Northwest, ROUTE_16_NORTHWEST, 1
+	map_attributes Route16West, ROUTE_16_WEST, $f, 0
 
 	map_attributes CeladonCity, CELADON_CITY, $f, WEST | EAST
 	connection west, Route16Northeast, ROUTE_16_NORTHEAST, 10
@@ -629,16 +604,6 @@ ENDM
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $0, 0
 	map_attributes Route40BattleTowerGate, ROUTE_40_BATTLE_TOWER_GATE, $0, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $5, 0
-	map_attributes ViridianGym, VIRIDIAN_GYM, $0, 0
-	map_attributes ViridianNicknameSpeechHouse, VIRIDIAN_NICKNAME_SPEECH_HOUSE, $0, 0
-	map_attributes ViridianSchoolHouse, VIRIDIAN_SCHOOL_HOUSE, $0, 0
-	map_attributes TrainerHouse1F, TRAINER_HOUSE_1F, $0, 0
-	map_attributes TrainerHouseB1F, TRAINER_HOUSE_B1F, $0, 0
-	map_attributes ViridianMart, VIRIDIAN_MART, $0, 0
-	map_attributes ViridianPokeCenter1F, VIRIDIAN_POKECENTER_1F, $0, 0
-	map_attributes Route2NuggetSpeechHouse, ROUTE_2_NUGGET_SPEECH_HOUSE, $0, 0
-	map_attributes Route2Gate, ROUTE_2_GATE, $0, 0
-	map_attributes PokemonLeagueGate, POKEMON_LEAGUE_GATE, $0, 0
 	map_attributes ElmsLab, ELMS_LAB, $0, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -649,10 +614,6 @@ ENDM
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0
 	map_attributes PewterMuseumOfScience2F, PEWTER_MUSEUM_OF_SCIENCE_2F, $0, 0
-	map_attributes ViridianForest, VIRIDIAN_FOREST, $45, 0
-	map_attributes ViridianForestViridianGate, VIRIDIAN_FOREST_VIRIDIAN_GATE, $0, 0
-	map_attributes ViridianForestPewterGate, VIRIDIAN_FOREST_PEWTER_GATE, $0, 0
-	map_attributes Route1ViridianGate, ROUTE_1_VIRIDIAN_GATE, $0, 0
 	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
 	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0

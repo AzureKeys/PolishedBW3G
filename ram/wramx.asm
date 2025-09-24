@@ -1098,7 +1098,6 @@ wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
 wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db
-wPokemonLeagueGateSceneID:: db
 wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
@@ -1172,7 +1171,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 80 ; unused
+	ds 81 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

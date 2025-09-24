@@ -13,7 +13,6 @@ SilverCavePokeCenter1F_BlockData:
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-ViridianPokeCenter1F_BlockData:
 PewterPokeCenter1F_BlockData:
 Route3PokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
@@ -32,7 +31,6 @@ VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 BlackthornMart_BlockData:
-ViridianMart_BlockData:
 PewterMart_BlockData:
 CeruleanMart_BlockData:
 VermilionMart_BlockData:
@@ -50,10 +48,6 @@ Route43Gate_BlockData:
 Route43MahoganyGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
-Route1ViridianGate_BlockData:
-Route2Gate_BlockData:
-ViridianForestViridianGate_BlockData:
-ViridianForestPewterGate_BlockData:
 Route6SaffronGate_BlockData:
 Route19FuchsiaGate_BlockData:
 SafariZoneFuchsiaGate_BlockData:
@@ -101,7 +95,6 @@ CeruleanCoupleHouse_BlockData:
 FuchsiaBillSpeechHouse_BlockData:
 FuchsiaSafariBallHouse_BlockData:
 LavenderTownSpeechHouse_BlockData:
-ViridianNicknameSpeechHouse_BlockData:
 CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
@@ -158,7 +151,6 @@ PewterNidoranSpeechHouse_BlockData:
 PewterSnoozeSpeechHouse_BlockData:
 Route12SuperRodHouse_BlockData:
 Route16FuchsiaSpeechHouse_BlockData:
-Route2NuggetSpeechHouse_BlockData:
 EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
@@ -742,10 +734,6 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
-SECTION "PokemonLeagueGate_BlockData", ROMX
-PokemonLeagueGate_BlockData:
-	INCBIN "maps/PokemonLeagueGate.ablk.lz"
-
 SECTION "FastShip1F_BlockData", ROMX
 FastShip1F_BlockData:
 	INCBIN "maps/FastShip1F.ablk.lz"
@@ -786,30 +774,6 @@ SECTION "RedsHouse2F_BlockData", ROMX
 RedsHouse2F_BlockData:
 BluesHouse2F_BlockData:
 	INCBIN "maps/RedsHouse2F.ablk.lz"
-
-SECTION "ViridianGym_BlockData", ROMX
-ViridianGym_BlockData:
-	INCBIN "maps/ViridianGym.ablk.lz"
-
-SECTION "ViridianCity_BlockData", ROMX
-ViridianCity_BlockData:
-	INCBIN "maps/ViridianCity.ablk.lz"
-
-SECTION "ViridianSchoolHouse_BlockData", ROMX
-ViridianSchoolHouse_BlockData:
-	INCBIN "maps/ViridianSchoolHouse.ablk.lz"
-
-SECTION "TrainerHouse1F_BlockData", ROMX
-TrainerHouse1F_BlockData:
-	INCBIN "maps/TrainerHouse1F.ablk.lz"
-
-SECTION "TrainerHouseB1F_BlockData", ROMX
-TrainerHouseB1F_BlockData:
-	INCBIN "maps/TrainerHouseB1F.ablk.lz"
-
-SECTION "ViridianForest_BlockData", ROMX
-ViridianForest_BlockData:
-	INCBIN "maps/ViridianForest.ablk.lz"
 
 SECTION "PewterGym_BlockData", ROMX
 PewterGym_BlockData:
@@ -1295,14 +1259,6 @@ SECTION "Route1_BlockData", ROMX
 Route1_BlockData:
 	INCBIN "maps/Route1.ablk.lz"
 
-SECTION "Route2North_BlockData", ROMX
-Route2North_BlockData:
-	INCBIN "maps/Route2North.ablk.lz"
-
-SECTION "Route2South_BlockData", ROMX
-Route2South_BlockData:
-	INCBIN "maps/Route2South.ablk.lz"
-
 SECTION "Route3_BlockData", ROMX
 Route3_BlockData:
 	INCBIN "maps/Route3.ablk.lz"
@@ -1361,7 +1317,6 @@ Route15_BlockData:
 
 SECTION "Route16Northeast_BlockData", ROMX
 Route16Northeast_BlockData:
-Route16Northwest_BlockData:
 Route16South_BlockData:
 	INCBIN "maps/Route16.ablk.lz"
 
@@ -1392,10 +1347,6 @@ Route20_BlockData:
 SECTION "Route21_BlockData", ROMX
 Route21_BlockData:
 	INCBIN "maps/Route21.ablk.lz"
-
-SECTION "Route22_BlockData", ROMX
-Route22_BlockData:
-	INCBIN "maps/Route22.ablk.lz"
 
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:

@@ -6,7 +6,6 @@ DiglettsCave_MapScriptHeader:
 	def_warp_events
 	warp_event 37, 15, VERMILION_CITY, 10
 	warp_event 39, 13, DIGLETTS_CAVE, 5
-	warp_event 37,  5, ROUTE_2_NORTH, 4
 	warp_event 39,  3, DIGLETTS_CAVE, 6
 	warp_event 37, 31, DIGLETTS_CAVE, 2
 	warp_event  5,  5, DIGLETTS_CAVE, 4

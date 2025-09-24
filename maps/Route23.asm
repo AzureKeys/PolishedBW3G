@@ -4,8 +4,6 @@ Route23_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  9, 135, POKEMON_LEAGUE_GATE, 5
-	warp_event 10, 135, POKEMON_LEAGUE_GATE, 6
 	warp_event  6, 31, VICTORY_ROAD_1F, 1
 	warp_event 16, 31, VICTORY_ROAD_2F, 1
 

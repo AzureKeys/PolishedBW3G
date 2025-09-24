@@ -336,90 +336,6 @@
 	wildmon 60, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_2_NORTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 55, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 56, RATTATA
-	wildmon 58, RATTATA
-	wildmon 59, PIKACHU
-	; day
-	wildmon 55, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 56, RATTATA
-	wildmon 58, RATTATA
-	wildmon 59, PIKACHU
-	; nite
-	wildmon 55, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 56, RATTATA
-	wildmon 58, RATTATA
-	wildmon 59, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_2_SOUTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 55, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 56, RATTATA
-	wildmon 58, RATTATA
-	wildmon 59, PIKACHU
-	; day
-	wildmon 55, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 56, RATTATA
-	wildmon 58, RATTATA
-	wildmon 59, PIKACHU
-	; nite
-	wildmon 55, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 56, RATTATA
-	wildmon 58, RATTATA
-	wildmon 59, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons VIRIDIAN_FOREST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 55, RATTATA
-	wildmon 55, RATTATA
-	wildmon 56, RATTATA
-	wildmon 59, PIKACHU
-	wildmon 60, PIKACHU
-	; day
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 55, RATTATA
-	wildmon 55, RATTATA
-	wildmon 56, RATTATA
-	wildmon 59, PIKACHU
-	wildmon 60, PIKACHU
-	; nite
-	wildmon 57, RATTATA
-	wildmon 57, RATTATA
-	wildmon 55, RATTATA
-	wildmon 55, RATTATA
-	wildmon 56, RATTATA
-	wildmon 59, RATTATA
-	wildmon 60, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -756,34 +672,6 @@
 	wildmon 55, MUK
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_16_NORTHWEST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 53, GRIMER
-	wildmon 50, RATTATA
-	wildmon 54, RATTATA
-	wildmon 52, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, MUK
-	wildmon 55, MUK
-	; day
-	wildmon 53, GRIMER
-	wildmon 50, RATTATA
-	wildmon 54, RATTATA
-	wildmon 52, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, MUK
-	wildmon 55, MUK
-	; nite
-	wildmon 53, GRIMER
-	wildmon 50, GRIMER
-	wildmon 54, GRIMER
-	wildmon 52, MURKROW
-	wildmon 53, MURKROW
-	wildmon 54, MUK
-	wildmon 55, MUK
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_17
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -894,34 +782,6 @@
 	wildmon 58, TANGELA
 	wildmon 59, TANGELA
 	wildmon 60, TANGELA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_22
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 56, RATICATE
-	wildmon 56, RATTATA
-	wildmon 58, NIDORINO
-	wildmon 58, NIDORINA
-	wildmon 59, PONYTA
-	wildmon 59, PONYTA
-	wildmon 60, PONYTA
-	; day
-	wildmon 56, RATICATE
-	wildmon 56, RATTATA
-	wildmon 58, NIDORINO
-	wildmon 58, NIDORINA
-	wildmon 59, PONYTA
-	wildmon 59, PONYTA
-	wildmon 60, PONYTA
-	; nite
-	wildmon 56, RATICATE
-	wildmon 56, POLIWHIRL
-	wildmon 58, NIDORINO
-	wildmon 58, NIDORINA
-	wildmon 59, RATICATE
-	wildmon 59, RATICATE
-	wildmon 60, POLIWHIRL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_23
