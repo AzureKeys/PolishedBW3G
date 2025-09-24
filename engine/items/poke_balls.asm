@@ -315,8 +315,8 @@ MoonBallMultiplier:
 	pop bc
 
 	push bc
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte
+	
 	cp EVOLVE_ITEM
 	pop bc
 	ret nz
@@ -326,8 +326,8 @@ MoonBallMultiplier:
 	inc hl
 
 	push bc
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte
+	
 	cp MOON_STONE
 	pop bc
 	ret nz

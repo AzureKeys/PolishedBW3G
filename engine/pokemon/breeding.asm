@@ -554,22 +554,23 @@ InheritLevelMove:
 	; bc = index
 	predef GetEvosAttacksPointer
 .loop
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
-	inc hl
+	farcall GetNextEvoAttackByte
+	
+	
 	inc a
 	jr nz, .loop
 .loop2
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte
+	
 	inc a
 	ret z
-	inc hl
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte						 
+
+	
+	
 	cp d
 	jr z, InheritMove
-	inc hl
+
 	jr .loop2
 
 InheritEggMove:

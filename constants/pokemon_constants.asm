@@ -100,6 +100,7 @@
 	const DRATINI    ; 4a
 	const DRAGONAIR  ; 4b
 	const DRAGONITE  ; 4c
+DEF NUM_KANTO_POKEMON EQU const_value - 1
 	const CROBAT     ; 4d
 	const CHINCHOU   ; 4e
 	const LANTURN    ; 4f
@@ -148,6 +149,7 @@
 	const LARVITAR   ; 7a
 	const PUPITAR    ; 7b
 	const TYRANITAR  ; 7c
+DEF NUM_JOHTO_POKEMON EQU const_value - 1
 	const LOTAD      ; 7d
 	const LOMBRE     ; 7e
 	const LUDICOLO   ; 7f

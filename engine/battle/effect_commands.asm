@@ -3881,8 +3881,7 @@ UnevolvedEviolite:
 	ld b, a
 	; bc = index
 	predef GetEvosAttacksPointer
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte
 	inc a
 	pop bc
 	pop hl

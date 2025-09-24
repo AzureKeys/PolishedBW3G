@@ -84,7 +84,7 @@ CheckHowToEvolve:
 	pop hl
 
 .loop
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a
 	ret z ; cannot evolve
 	dec a
@@ -123,8 +123,10 @@ CheckHowToEvolve:
 	jr z, .happiness
 
 ; EVOLVE_STAT
+	call GetNextEvoAttackByte					  
+	ld c, a	
 	ld a, [wTempMonLevel]
-	cp [hl]
+	cp c
 	jmp c, .dont_evolve_1
 
 	call IsMonHoldingEverstone
@@ -184,11 +186,12 @@ CheckHowToEvolve:
 .got_tyrogue_evo
 	pop hl
 
-	inc hl
-	cp [hl]
+	ld c, a
+	call GetNextEvoAttackByte
+	cp c
 	jmp nz, .dont_evolve_2
 
-	inc hl
+
 	jmp .proceed
 
 .happiness
@@ -210,7 +213,7 @@ CheckHowToEvolve:
 	jmp z, .dont_evolve_2
 
 .not_spiky_eared_pichu
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	cp TR_ANYTIME
 	jmp z, .proceed
 	cp TR_MORNDAY
@@ -229,7 +232,7 @@ CheckHowToEvolve:
 	jmp .proceed
 
 .item
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	ld b, a
 	ld a, [wCurItem]
 	cp b
@@ -244,9 +247,9 @@ CheckHowToEvolve:
 	jmp .proceed
 
 .party
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	ld d, a ; species
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	ld e, a ; ext species + form
 	push hl
 	ld hl, wPartyMon1Species
@@ -278,12 +281,12 @@ CheckHowToEvolve:
 
 .party_ok
 	pop hl
-	jr .proceed
+	jmp .proceed
 
 .holding
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	ld b, a
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	cp TR_ANYTIME
 	jr z, .check_held_item
 	cp TR_MORNDAY
@@ -312,15 +315,15 @@ CheckHowToEvolve:
 	call GetWorldMapLocation
 	pop hl
 	ld b, a
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	cp b
-	jr nz, .dont_evolve_3
+	jmp nz, .dont_evolve_3
 	jr .proceed
 
-.move
-	ld a, [hli]
+.move 
+	call GetNextEvoAttackByte
 	push hl
-	push bc
+	push bc					  
 	ld b, a
 	ld hl, wTempMonMoves
 rept NUM_MOVES - 1
@@ -353,7 +356,7 @@ endr
 	jr .proceed
 
 .level
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	ld b, a
 	ld a, [wTempMonLevel]
 	cp b
@@ -365,9 +368,9 @@ endr
 	ld a, [wTempMonLevel]
 	ld [wCurPartyLevel], a
 
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	ld [wEvolutionNewSpecies], a
-	ld a, [hl]
+	call GetNextEvoAttackByte
 	ld c, a
 	and FORM_MASK
 	ld a, [wTempMonForm]
@@ -516,7 +519,7 @@ UpdateSpeciesNameIfNotNicknamed:
 	cp [hl]
 	inc hl
 	ret nz
-	cp '@'
+	cp "@"
 	jr nz, .loop
 
 	ld a, [wCurPartyMon]
@@ -585,9 +588,18 @@ LearnEvolutionMove:
 	call GetSpeciesAndFormIndex
 	ld hl, EvolutionMoves
 	add hl, bc
-	ld a, [hl]
+	
+	ld a, BANK(EvolutionMoves)
+	call GetFarByte
 	and a
+	
+	
+	
+	
+	
+	
 	jr z, .pop_bc_and_ret
+	
 
 	ld d, a
 	ld a, MON_MOVES
@@ -649,19 +661,24 @@ LearnLevelMoves:
 	call GetEvosAttacksPointer
 
 .skip_evos
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a
 	jr nz, .skip_evos
 
 .find_move
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a
 	ret z
 	dec a
 	ld b, a
 	ld a, [wCurPartyLevel]
 	cp b
-	ld a, [hli]
+	push af ; preserve z
+	call GetNextEvoAttackByte					  
+	
+						  
+	
+	pop af   
 	jr nz, .find_move
 
 	push hl
@@ -673,7 +690,7 @@ LearnLevelMoves:
 
 	ld b, NUM_MOVES
 .check_move
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	cp d
 	jr z, .has_move
 	dec b
@@ -702,7 +719,7 @@ FillMoves:
 	push bc
 	call GetEvosAttacksPointer
 .GoToAttacks:
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a
 	jr nz, .GoToAttacks
 	jr .GetLevel
@@ -712,7 +729,7 @@ FillMoves:
 .GetMove:
 	inc hl
 .GetLevel:
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	and a
 	jr z, .done
 	ld b, a
@@ -729,10 +746,13 @@ FillMoves:
 .CheckMove:
 	push de
 	ld c, NUM_MOVES
+	ldh a, [hTemp]		   
+	call GetFarByte			
+	ld b, a	
 .CheckRepeat:
 	ld a, [de]
 	inc de
-	cp [hl]
+	cp b
 	jr z, .NextMove
 	dec c
 	jr nz, .CheckRepeat
@@ -767,13 +787,15 @@ FillMoves:
 	pop hl
 
 .LearnMove:
-	ld a, [hl]
+	ldh a, [hTemp]
+	call GetFarByte			
+	ld b, a	
 	ld [de], a
 	ld a, [wEvolutionOldSpecies]
 	and a
 	jr z, .NextMove
 	push hl
-	ld a, [hl]
+	ld a, b
 	ld hl, MON_PP - MON_MOVES
 	add hl, de
 	push hl
@@ -808,12 +830,14 @@ GetEvosAttacksPointer:
 ; input: b = form, c = species
 ; output: bc = index, hl = pointer
 	call GetSpeciesAndFormIndex
+	inc bc										  
+_GetEvosAttacksPointer:					   
 	ld hl, EvosAttacksPointers
-	add hl, bc
-	add hl, bc
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
+	ld a, BANK(EvosAttacksPointers)
+	call LoadDoubleIndirectPointer
+	ldh [hTemp], a
+	
+	
 	ret
 
 GetEvolutionData:
@@ -838,14 +862,16 @@ GetEvolutionData:
 	ret
 .not_multiple
 	call GetEvosAttacksPointer
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a ; no evolutions?
 	ret z ; EVOLVE_NONE == 0
 	dec a
 	push af
-	ld a, [hld] ; parameter 1
+	call GetNextEvoAttackByte ; parameter 1
+	dec hl   
+	dec hl   
 	ld [wStringBuffer4], a
-	ld a, [hli] ; evolution method
+	call GetNextEvoAttackByte ; evolution method
 	cp EVOLVE_ITEM
 	jr z, .get_item_name
 	cp EVOLVE_TRADE
@@ -917,11 +943,11 @@ GetNextMove:
 .not_egg
 	call GetEvosAttacksPointer
 .skip_evos
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a
 	jr nz, .skip_evos
 .find_move
-	ld a, [hli]
+	call GetNextEvoAttackByte
 	inc a
 	jr z, .no_move
 	dec a
@@ -934,3 +960,8 @@ GetNextMove:
 .next_move
 	inc hl
 	jr .find_move
+
+GetNextEvoAttackByte:					 
+	ldh a, [hTemp]		   
+	call GetFarByte			
+	inc hl   

@@ -7331,8 +7331,7 @@ _GetNewBaseExp:
 	cp b
 	jr nz, .is_evo
 	predef GetEvosAttacksPointer
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte
 	inc a
 	ld a, 4 ; basic: *4/20 ->  *0.2
 	jr nz, .got_multiplier
@@ -7347,8 +7346,7 @@ _GetNewBaseExp:
 	predef GetEvosAttacksPointer
 	pop bc
 .evos_loop
-	ld a, BANK(EvosAttacks)
-	call GetFarByte
+	farcall GetNextEvoAttackByte
 	ld d, a
 	inc a
 	ld a, 10 ; 2nd stage: *10/20 -> *0.5
@@ -7366,8 +7364,7 @@ _GetNewBaseExp:
 	inc hl
 	inc hl
 	push hl
-	ld a, BANK(EvosAttacks)
-	call GetFarWord
+	farcall GetNextEvoAttackByte
 	ld d, l
 	ld a, h
 	pop hl

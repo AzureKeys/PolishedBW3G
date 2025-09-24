@@ -888,28 +888,28 @@ PlacePartyMonEvoStoneCompatibility:
 	ld c, e
 	; bc = index
 	predef GetEvosAttacksPointer
-; Reads up to 10 EVOLVE_ITEM entries
-	ld de, wStringBuffer3
-	ld a, BANK(EvosAttacks)
-	ld bc, 10 * 4 + 1
-	push de
-	call FarCopyBytes
-	pop hl
+
+
+
+
+
+
+
 	ld a, [wCurItem]
 	ld b, a
 	ld de, .string_not_able
 .loop2
-	ld a, b
-	cp LINKING_CORD
-	ld c, EVOLVE_TRADE + 1 ; due to "inc a"
-	jr z, .got_evolve_type
-	ld c, EVOLVE_ITEM + 1
-.got_evolve_type
-	ld a, [hli]
-	inc a
+	farcall GetNextEvoAttackByte
+	cp -1
+	
+	
+	
+	
+	
+	
 	jr z, .done
-	cp c
-	ld a, [hli]
+	cp EVOLVE_ITEM
+	farcall GetNextEvoAttackByte
 	inc hl
 	inc hl
 	jr nz, .loop2
