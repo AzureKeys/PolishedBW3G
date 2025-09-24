@@ -41,7 +41,6 @@ FuchsiaMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
-Route2946Gate_BlockData:
 Route34IlexForestGate_BlockData:
 Route35GoldenrodGate_BlockData:
 Route36RuinsOfAlphGate_BlockData:
@@ -147,7 +146,6 @@ PsychicInversHouse_BlockData:
 	INCBIN "maps/KantoHouse1.ablk.lz"
 
 SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
-Route26DayofWeekSiblingsHouse_BlockData:
 VermilionMagnetTrainSpeechHouse_BlockData:
 VermilionHouseDiglettsCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
@@ -161,7 +159,6 @@ PewterSnoozeSpeechHouse_BlockData:
 Route12SuperRodHouse_BlockData:
 Route16FuchsiaSpeechHouse_BlockData:
 Route2NuggetSpeechHouse_BlockData:
-Route27RestHouse_BlockData:
 EusinesHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
@@ -1412,25 +1409,9 @@ SECTION "Route25_BlockData", ROMX
 Route25_BlockData:
 	INCBIN "maps/Route25.ablk.lz"
 
-SECTION "Route26_BlockData", ROMX
-Route26_BlockData:
-	INCBIN "maps/Route26.ablk.lz"
-
-SECTION "Route26HealSpeechHouse_BlockData", ROMX
-Route26HealSpeechHouse_BlockData:
-	INCBIN "maps/Route26HealSpeechHouse.ablk.lz"
-
-SECTION "Route27_BlockData", ROMX
-Route27_BlockData:
-	INCBIN "maps/Route27.ablk.lz"
-
 SECTION "Route28_BlockData", ROMX
 Route28_BlockData:
 	INCBIN "maps/Route28.ablk.lz"
-
-SECTION "Route29_BlockData", ROMX
-Route29_BlockData:
-	INCBIN "maps/Route29.ablk.lz"
 
 SECTION "Route32_BlockData", ROMX
 Route32_BlockData:

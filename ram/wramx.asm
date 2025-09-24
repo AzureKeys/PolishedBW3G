@@ -1103,8 +1103,6 @@ wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
-wRoute27SceneID:: db
-wRoute29SceneID:: db
 wRoute32SceneID:: db
 wRoute34SceneID:: db
 wRoute35NationalParkGateSceneID:: db
@@ -1174,7 +1172,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 78 ; unused
+	ds 80 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

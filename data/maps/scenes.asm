@@ -62,8 +62,6 @@ MapScenes::
 	scene_var ROUTE_18_WEST,                          wAlways0SceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_24,                               wRoute24SceneID
-	scene_var ROUTE_27,                               wRoute27SceneID
-	scene_var ROUTE_29,                               wRoute29SceneID
 	scene_var ROUTE_32,                               wRoute32SceneID
 	scene_var ROUTE_34,                               wRoute34SceneID
 	scene_var ROUTE_34_ILEX_FOREST_GATE,              wAlways0SceneID

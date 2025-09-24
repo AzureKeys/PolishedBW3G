@@ -3,7 +3,6 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
-	const ROUTE_29           ; 02
 	const VIOLET_CITY        ; 07
 	const SPROUT_TOWER       ; 08
 	const VIOLET_OUTSKIRTS   ; 09
@@ -100,9 +99,7 @@ DEF KANTO_LANDMARK EQU const_value
 	const CINNABAR_VOLCANO   ; 76
 	const ROUTE_21           ; 77
 	const ROUTE_22           ; 78
-	const ROUTE_27           ; 79
 	const TOHJO_FALLS        ; 7a
-	const ROUTE_26           ; 7b
 	const POKEMON_LEAGUE     ; 7c
 	const ROUTE_23           ; 7d
 	const VICTORY_ROAD       ; 7e

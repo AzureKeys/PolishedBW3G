@@ -8,7 +8,6 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
-	landmark 120, 100, Route29Name
 	landmark  84,  60, VioletCityName
 	landmark  86,  58, SproutTowerName
 	landmark  84,  52, VioletOutskirtsName
@@ -105,9 +104,7 @@ Landmarks:
 	landmark  54, 130, CinnabarVolcanoName
 	landmark  52, 116, Route21Name
 	landmark  40,  76, Route22Name
-	landmark  20, 100, Route27Name
 	landmark  12, 100, TohjoFallsName
-	landmark  28,  92, Route26Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  64, Route23Name
 	landmark  28,  52, VictoryRoadName
@@ -188,10 +185,7 @@ Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
 Route24Name:           rawchar "Route 24@"
 Route25Name:           rawchar "Route 25@"
-Route26Name:           rawchar "Route 26@"
-Route27Name:           rawchar "Route 27@"
 Route28Name:           rawchar "Route 28@"
-Route29Name:           rawchar "Route 29@"
 Route32Name:           rawchar "Route 32@"
 Route33Name:           rawchar "Route 33@"
 Route34Name:           rawchar "Route 34@"

@@ -753,11 +753,7 @@ TownMap_GetJohtoLandmarkLimits:
 	ret
 
 TownMap_GetKantoLandmarkLimits:
-	lb de, ROUTE_28, ROUTE_27
-	ld a, [wStatusFlags]
-	bit STATUSFLAGS_HALL_OF_FAME_F, a
-	ret z
-	ld e, PALLET_TOWN
+	lb de, ROUTE_28, PALLET_TOWN
 	ret
 
 PokegearRadio_Init:

@@ -804,19 +804,12 @@ SECTION "Routes 24-26 Scripts", ROMX
 
 INCLUDE "maps/Route24.asm"
 INCLUDE "maps/Route25.asm"
-INCLUDE "maps/Route26.asm"
-INCLUDE "maps/Route26DayofWeekSiblingsHouse.asm"
-INCLUDE "maps/Route26HealSpeechHouse.asm"
 
 
 SECTION "Routes 27-29 Scripts", ROMX
 
-INCLUDE "maps/Route27.asm"
-INCLUDE "maps/Route27RestHouse.asm"
 INCLUDE "maps/Route28.asm"
 INCLUDE "maps/Route28FamousSpeechHouse.asm"
-INCLUDE "maps/Route29.asm"
-INCLUDE "maps/Route2946Gate.asm"
 
 
 SECTION "Routes 30-32 Scripts", ROMX

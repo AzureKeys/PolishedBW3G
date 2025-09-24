@@ -6,8 +6,6 @@ PokemonLeagueGate_MapScriptHeader:
 	def_warp_events
 	warp_event 19,  7, ROUTE_22, 1
 	warp_event 20,  7, ROUTE_22, 1
-	warp_event 10, 17, ROUTE_26, 1
-	warp_event 11, 17, ROUTE_26, 1
 	warp_event 10,  0, ROUTE_23, 1
 	warp_event 11,  0, ROUTE_23, 2
 	warp_event  1,  7, ROUTE_28, 2

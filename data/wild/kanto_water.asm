@@ -133,20 +133,6 @@
 	wildmon  52, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_26
-	db 6 percent ; encounter rate
-	wildmon  35, RATTATA
-	wildmon  30, RATTATA
-	wildmon  35, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_27
-	db 6 percent ; encounter rate
-	wildmon  20, RATTATA
-	wildmon  15, RATTATA
-	wildmon  20, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_28
 	db 2 percent ; encounter rate
 	wildmon  60, POLIWHIRL

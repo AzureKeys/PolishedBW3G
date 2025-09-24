@@ -1008,62 +1008,6 @@
 	wildmon 52, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_26
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 38, RATTATA
-	wildmon 38, SANDSLASH
-	wildmon 41, PONYTA
-	wildmon 40, RATICATE
-	wildmon 39, RATTATA
-	wildmon 40, RATTATA
-	wildmon 41, RATTATA
-	; day
-	wildmon 38, RATTATA
-	wildmon 38, SANDSLASH
-	wildmon 41, PONYTA
-	wildmon 40, RATICATE
-	wildmon 39, RATTATA
-	wildmon 40, RATTATA
-	wildmon 41, RATTATA
-	; nite
-	wildmon 38, RATTATA
-	wildmon 38, RATICATE
-	wildmon 41, RATTATA
-	wildmon 40, RATICATE
-	wildmon 39, RATTATA
-	wildmon 40, RATTATA
-	wildmon 41, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_27
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 37, RATTATA
-	wildmon 37, RATTATA
-	wildmon 39, RATICATE
-	wildmon 39, RATTATA
-	wildmon 41, PONYTA
-	wildmon 39, RATTATA
-	wildmon 40, RATTATA
-	; day
-	wildmon 37, RATTATA
-	wildmon 37, RATTATA
-	wildmon 39, RATICATE
-	wildmon 39, RATTATA
-	wildmon 41, PONYTA
-	wildmon 39, RATTATA
-	wildmon 40, RATTATA
-	; nite
-	wildmon 37, RATTATA
-	wildmon 37, RATTATA
-	wildmon 39, RATICATE
-	wildmon 39, RATTATA
-	wildmon 41, RATTATA
-	wildmon 39, RATTATA
-	wildmon 40, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_28
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

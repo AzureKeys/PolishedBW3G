@@ -8,9 +8,7 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, WEST | EAST
-	connection west, Route29, ROUTE_29, 0
-	connection east, Route27, ROUTE_27, 0
+	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $5, NORTH | SOUTH | WEST
 	connection north, VioletOutskirts, VIOLET_OUTSKIRTS, 0
@@ -47,19 +45,8 @@ ENDM
 	map_attributes SilverCaveOutside, SILVER_CAVE_OUTSIDE, $71, EAST
 	connection east, Route28, ROUTE_28, 6
 
-	map_attributes Route26, ROUTE_26, $5, WEST
-	connection west, Route27, ROUTE_27, 45
-
-	map_attributes Route27, ROUTE_27, $35, WEST | EAST
-	connection west, NewBarkTown, NEW_BARK_TOWN, 0
-	connection east, Route26, ROUTE_26, -45
-
 	map_attributes Route28, ROUTE_28, $71, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -6
-
-	map_attributes Route29, ROUTE_29, $5, NORTH | EAST
-	connection north, Route46, ROUTE_46, 10
-	connection east, NewBarkTown, NEW_BARK_TOWN, 0
 
 	map_attributes Route32, ROUTE_32, $5, NORTH | SOUTH | WEST
 	connection north, VioletCity, VIOLET_CITY, 0
@@ -118,8 +105,7 @@ ENDM
 	connection north, BlackthornCity, BLACKTHORN_CITY, 2
 	connection west, Route46, ROUTE_46, 37
 
-	map_attributes Route46, ROUTE_46, $5, SOUTH | EAST
-	connection south, Route29, ROUTE_29, -10
+	map_attributes Route46, ROUTE_46, $5, EAST
 	connection east, Route45, ROUTE_45, -37
 
 	map_attributes PewterCity, PEWTER_CITY, $f, SOUTH | EAST
@@ -660,10 +646,6 @@ ENDM
 	map_attributes LyrasHouse1F, LYRAS_HOUSE_1F, $0, 0
 	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
-	map_attributes Route26HealSpeechHouse, ROUTE_26_HEAL_SPEECH_HOUSE, $0, 0
-	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
-	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
-	map_attributes Route2946Gate, ROUTE_29_46_GATE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
 	map_attributes PewterMuseumOfScience1F, PEWTER_MUSEUM_OF_SCIENCE_1F, $0, 0
 	map_attributes PewterMuseumOfScience2F, PEWTER_MUSEUM_OF_SCIENCE_2F, $0, 0

@@ -84,7 +84,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2
 	dw .Generic
 	dw .NewBarkTown
-	dw .Route29
 	dw .VioletCity
 	dw .SproutTower
 	dw .VioletOutskirts
@@ -135,7 +134,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:
-.Route29:
 .VioletCity:
 .SproutTower:
 .VioletOutskirts:
