@@ -4,10 +4,6 @@ LyraPhoneScript:
 	getcurlandmarkname STRING_BUFFER_4
 	readvar VAR_LANDMARK
 	; Special-case too-long landmark names
-	ifnotequal CELADON_UNIVERSITY, .not_celadon_university
-	getstring .CeladonUniversity, STRING_BUFFER_4
-	sjumpfwd .got_landmark
-.not_celadon_university
 	ifnotequal POKEMON_LEAGUE, .got_landmark
 	getstring .PokemonLeague, STRING_BUFFER_4
 .got_landmark
@@ -45,7 +41,6 @@ LyraPhoneScript:
 	farwritetext LyraPhoneEndText
 	end
 
-.CeladonUniversity: db "Celadon U@"
 .PokemonLeague:     db "#mon League@"
 
 LyraPhone_GetFirstMonNextMove:

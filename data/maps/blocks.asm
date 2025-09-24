@@ -1024,86 +1024,11 @@ SECTION "CeladonHotelPool_BlockData", ROMX
 CeladonHotelPool_BlockData:
 	INCBIN "maps/CeladonHotelPool.ablk.lz"
 
-SECTION "CeladonUniversity1F_BlockData", ROMX
-CeladonUniversity1F_BlockData:
-	INCBIN "maps/CeladonUniversity1F.ablk.lz"
-
-SECTION "CeladonUniversity2F_BlockData", ROMX
-CeladonUniversity2F_BlockData:
-	INCBIN "maps/CeladonUniversity2F.ablk.lz"
-
-SECTION "CeladonUniversityCafeteria_BlockData", ROMX
-CeladonUniversityCafeteria_BlockData:
-	INCBIN "maps/CeladonUniversityCafeteria.ablk.lz"
-
-SECTION "CeladonUniversityPrincipalsOffice_BlockData", ROMX
-CeladonUniversityPrincipalsOffice_BlockData:
-	INCBIN "maps/CeladonUniversityPrincipalsOffice.ablk.lz"
-
-SECTION "CeladonUniversityLounge_BlockData", ROMX
-CeladonUniversityLounge_BlockData:
-	INCBIN "maps/CeladonUniversityLounge.ablk.lz"
-
-SECTION "CeladonUniversityPool_BlockData", ROMX
-CeladonUniversityPool_BlockData:
-	INCBIN "maps/CeladonUniversityPool.ablk.lz"
-
 SECTION "CeladonHotelRoom1_BlockData", ROMX
 CeladonHotelRoom1_BlockData:
 CeladonHotelRoom2_BlockData:
 CeladonHotelRoom3_BlockData:
 	INCBIN "maps/HotelRoom.ablk.lz"
-
-SECTION "CeladonUniversityWestwoodsOffice_BlockData", ROMX
-CeladonUniversityWestwoodsOffice_BlockData:
-	INCBIN "maps/CeladonUniversityWestwoodsOffice.ablk.lz"
-
-SECTION "CeladonUniversityWillowsOffice_BlockData", ROMX
-CeladonUniversityWillowsOffice_BlockData:
-	INCBIN "maps/CeladonUniversityWillowsOffice.ablk.lz"
-
-SECTION "CeladonUniversityNursesOffice_BlockData", ROMX
-CeladonUniversityNursesOffice_BlockData:
-	INCBIN "maps/CeladonUniversityNursesOffice.ablk.lz"
-
-SECTION "CeladonUniversityClassroom1_BlockData", ROMX
-CeladonUniversityClassroom1_BlockData:
-CeladonUniversityClassroom2_BlockData:
-CeladonUniversityClassroom3_BlockData:
-CeladonUniversityClassroom4_BlockData:
-	INCBIN "maps/CeladonUniversityClassroom.ablk.lz"
-
-SECTION "CeladonUniversityHyperTestRoom_BlockData", ROMX
-CeladonUniversityHyperTestRoom_BlockData:
-	INCBIN "maps/CeladonUniversityHyperTestRoom.ablk.lz"
-
-SECTION "CeladonUniversityLibrary1F_BlockData", ROMX
-CeladonUniversityLibrary1F_BlockData:
-	INCBIN "maps/CeladonUniversityLibrary1F.ablk.lz"
-
-SECTION "CeladonUniversityLibrary2F_BlockData", ROMX
-CeladonUniversityLibrary2F_BlockData:
-	INCBIN "maps/CeladonUniversityLibrary2F.ablk.lz"
-
-SECTION "RocketHideoutB1F_BlockData", ROMX
-RocketHideoutB1F_BlockData:
-	INCBIN "maps/RocketHideoutB1F.ablk.lz"
-
-SECTION "RocketHideoutB2F_BlockData", ROMX
-RocketHideoutB2F_BlockData:
-	INCBIN "maps/RocketHideoutB2F.ablk.lz"
-
-SECTION "RocketHideoutB3F_BlockData", ROMX
-RocketHideoutB3F_BlockData:
-	INCBIN "maps/RocketHideoutB3F.ablk.lz"
-
-SECTION "RocketHideoutB4F_BlockData", ROMX
-RocketHideoutB4F_BlockData:
-	INCBIN "maps/RocketHideoutB4F.ablk.lz"
-
-SECTION "RocketHideoutElevator_BlockData", ROMX
-RocketHideoutElevator_BlockData:
-	INCBIN "maps/RocketHideoutElevator.ablk.lz"
 
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:

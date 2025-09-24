@@ -561,27 +561,6 @@ ENDM
 	map_attributes CeladonHomeDecorStore2F, CELADON_HOME_DECOR_STORE_2F, $0, 0
 	map_attributes CeladonHomeDecorStore3F, CELADON_HOME_DECOR_STORE_3F, $0, 0
 	map_attributes CeladonHomeDecorStore4F, CELADON_HOME_DECOR_STORE_4F, $0, 0
-	map_attributes CeladonUniversity1F, CELADON_UNIVERSITY_1F, $0, 0
-	map_attributes CeladonUniversity2F, CELADON_UNIVERSITY_2F, $0, 0
-	map_attributes CeladonUniversityLibrary1F, CELADON_UNIVERSITY_LIBRARY_1F, $0, 0
-	map_attributes CeladonUniversityLibrary2F, CELADON_UNIVERSITY_LIBRARY_2F, $0, 0
-	map_attributes CeladonUniversityPrincipalsOffice, CELADON_UNIVERSITY_PRINCIPALS_OFFICE, $0, 0
-	map_attributes CeladonUniversityWestwoodsOffice, CELADON_UNIVERSITY_WESTWOODS_OFFICE, $0, 0
-	map_attributes CeladonUniversityWillowsOffice, CELADON_UNIVERSITY_WILLOWS_OFFICE, $0, 0
-	map_attributes CeladonUniversityNursesOffice, CELADON_UNIVERSITY_NURSES_OFFICE, $0, 0
-	map_attributes CeladonUniversityLounge, CELADON_UNIVERSITY_LOUNGE, $0, 0
-	map_attributes CeladonUniversityCafeteria, CELADON_UNIVERSITY_CAFETERIA, $0, 0
-	map_attributes CeladonUniversityHyperTestRoom, CELADON_UNIVERSITY_HYPER_TEST_ROOM, $0, 0
-	map_attributes CeladonUniversityPool, CELADON_UNIVERSITY_POOL, $0, 0
-	map_attributes CeladonUniversityClassroom1, CELADON_UNIVERSITY_CLASSROOM_1, $0, 0
-	map_attributes CeladonUniversityClassroom2, CELADON_UNIVERSITY_CLASSROOM_2, $0, 0
-	map_attributes CeladonUniversityClassroom3, CELADON_UNIVERSITY_CLASSROOM_3, $0, 0
-	map_attributes CeladonUniversityClassroom4, CELADON_UNIVERSITY_CLASSROOM_4, $0, 0
-	map_attributes RocketHideoutB1F, ROCKET_HIDEOUT_B1F, $0, 0
-	map_attributes RocketHideoutB2F, ROCKET_HIDEOUT_B2F, $0, 0
-	map_attributes RocketHideoutB3F, ROCKET_HIDEOUT_B3F, $0, 0
-	map_attributes RocketHideoutB4F, ROCKET_HIDEOUT_B4F, $0, 0
-	map_attributes RocketHideoutElevator, ROCKET_HIDEOUT_ELEVATOR, $0, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0

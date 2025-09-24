@@ -463,29 +463,8 @@ ENDM
 	map_const CELADON_HOME_DECOR_STORE_2F,                 5,  4 ; 42
 	map_const CELADON_HOME_DECOR_STORE_3F,                 5,  4 ; 43
 	map_const CELADON_HOME_DECOR_STORE_4F,                 5,  4 ; 44
-	map_const CELADON_UNIVERSITY_1F,                      15, 10 ; 45
-	map_const CELADON_UNIVERSITY_2F,                      13,  7 ; 46
-	map_const CELADON_UNIVERSITY_LIBRARY_1F,               7,  6 ; 47
-	map_const CELADON_UNIVERSITY_LIBRARY_2F,               7,  6 ; 48
-	map_const CELADON_UNIVERSITY_PRINCIPALS_OFFICE,        3,  4 ; 49
-	map_const CELADON_UNIVERSITY_WESTWOODS_OFFICE,         3,  3 ; 50
-	map_const CELADON_UNIVERSITY_WILLOWS_OFFICE,           3,  3 ; 51
-	map_const CELADON_UNIVERSITY_NURSES_OFFICE,            4,  3 ; 52
-	map_const CELADON_UNIVERSITY_LOUNGE,                   4,  6 ; 53
-	map_const CELADON_UNIVERSITY_CAFETERIA,                8,  4 ; 54
-	map_const CELADON_UNIVERSITY_HYPER_TEST_ROOM,          4,  6 ; 55
-	map_const CELADON_UNIVERSITY_POOL,                     8,  5 ; 56
-	map_const CELADON_UNIVERSITY_CLASSROOM_1,              4,  6 ; 57
-	map_const CELADON_UNIVERSITY_CLASSROOM_2,              4,  6 ; 58
-	map_const CELADON_UNIVERSITY_CLASSROOM_3,              4,  6 ; 59
-	map_const CELADON_UNIVERSITY_CLASSROOM_4,              4,  6 ; 60
 	map_const CELADON_OLD_MAN_SPEECH_HOUSE,                4,  4 ; 61
 	map_const CELADON_DEVELOPMENT_SPEECH_HOUSE,            4,  4 ; 62
-	map_const ROCKET_HIDEOUT_B1F,                         11, 14 ; 63
-	map_const ROCKET_HIDEOUT_B2F,                         15, 11 ; 64
-	map_const ROCKET_HIDEOUT_B3F,                         11, 12 ; 65
-	map_const ROCKET_HIDEOUT_B4F,                         11, 12 ; 66
-	map_const ROCKET_HIDEOUT_ELEVATOR,                     2,  2 ; 67
 
 	newgroup                                                     ; 24
 	map_const NEW_BARK_TOWN,                              10,  9 ;  4

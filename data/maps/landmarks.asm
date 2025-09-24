@@ -78,7 +78,6 @@ Landmarks:
 	landmark 142,  58, LavRadioTowerName
 	landmark 142,  62, SoulHouseName
 	landmark  84,  60, CeladonCityName
-	landmark  82,  62, CeladonUniversityName
 	landmark 124,  76, Route11Name
 	landmark 140,  76, Route12Name
 	landmark 132,  92, Route13Name
@@ -148,7 +147,6 @@ MtMoonName:            rawchar "Mt.Moon@"
 RockTunnelName:        rawchar "Rock Tunnel@"
 LavRadioTowerName:     rawchar "Lav.Radio¯Tower@"
 SoulHouseName:         rawchar "House of¯Souls@"
-CeladonUniversityName: rawchar "Celadon¯University@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"

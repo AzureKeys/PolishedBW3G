@@ -1074,7 +1074,6 @@ wDragonsDenB1FSceneID:: db
 wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
-wRocketHideoutB4FSceneID:: db
 wElmsLabSceneID:: db
 wFarawayIslandSceneID:: db
 wFastShip1FSceneID:: db
@@ -1170,7 +1169,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 82 ; unused
+	ds 83 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

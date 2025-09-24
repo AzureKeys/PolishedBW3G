@@ -561,43 +561,6 @@ INCLUDE "maps/CeladonHotelRoom2.asm"
 INCLUDE "maps/CeladonHotelRoom3.asm"
 
 
-SECTION "Celadon University Scripts", ROMX
-
-INCLUDE "maps/CeladonUniversity1F.asm"
-INCLUDE "maps/CeladonUniversity2F.asm"
-INCLUDE "maps/CeladonUniversityCafeteria.asm"
-INCLUDE "maps/CeladonUniversityPrincipalsOffice.asm"
-INCLUDE "maps/CeladonUniversityLounge.asm"
-INCLUDE "maps/CeladonUniversityPool.asm"
-INCLUDE "maps/CeladonUniversityWestwoodsOffice.asm"
-INCLUDE "maps/CeladonUniversityWillowsOffice.asm"
-INCLUDE "maps/CeladonUniversityNursesOffice.asm"
-
-
-SECTION "Celadon University Classroom Scripts", ROMX
-
-INCLUDE "maps/CeladonUniversityClassroom1.asm"
-INCLUDE "maps/CeladonUniversityClassroom2.asm"
-INCLUDE "maps/CeladonUniversityClassroom3.asm"
-INCLUDE "maps/CeladonUniversityClassroom4.asm"
-INCLUDE "maps/CeladonUniversityHyperTestRoom.asm"
-
-
-SECTION "Celadon University Library Scripts", ROMX
-
-INCLUDE "maps/CeladonUniversityLibrary1F.asm"
-INCLUDE "maps/CeladonUniversityLibrary2F.asm" ; shares text with CeladonUniversityLibrary1F.asm
-
-
-SECTION "Rocket Hideout Scripts", ROMX
-
-INCLUDE "maps/RocketHideoutB1F.asm"
-INCLUDE "maps/RocketHideoutB2F.asm"
-INCLUDE "maps/RocketHideoutB3F.asm"
-INCLUDE "maps/RocketHideoutB4F.asm"
-INCLUDE "maps/RocketHideoutElevator.asm"
-
-
 SECTION "Saffron Scripts 2", ROMX
 
 INCLUDE "maps/Underground.asm"
