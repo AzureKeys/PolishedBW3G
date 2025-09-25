@@ -4,8 +4,6 @@ Route12Gate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  0, ROUTE_12_NORTH, 1
-	warp_event  5,  0, ROUTE_12_NORTH, 2
 	warp_event  4,  9, ROUTE_12_SOUTH, 4
 	warp_event  5,  9, ROUTE_12_SOUTH, 4
 	warp_event  8,  8, ROUTE_12_GATE_2F, 1

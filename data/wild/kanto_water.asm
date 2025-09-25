@@ -28,13 +28,6 @@
 	wildmon  45, PSYDUCK
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_12_NORTH
-	db 6 percent ; encounter rate
-	wildmon  48, RATTATA
-	wildmon  52, RATTATA
-	wildmon  54, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_12_SOUTH
 	db 6 percent ; encounter rate
 	wildmon  48, RATTATA
@@ -54,13 +47,6 @@
 	wildmon  49, RATTATA
 	wildmon  53, RATTATA
 	wildmon  55, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_16_WEST
-	db 6 percent ; encounter rate
-	wildmon  53, RATTATA
-	wildmon  55, RATTATA
-	wildmon  57, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons LUCKY_ISLAND

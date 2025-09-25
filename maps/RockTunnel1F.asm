@@ -4,7 +4,6 @@ RockTunnel1F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 11, 25, ROUTE_10_SOUTH, 1
 	warp_event  5,  3, ROCK_TUNNEL_B1F, 1
 	warp_event 15,  9, ROCK_TUNNEL_B1F, 2
 	warp_event 25,  3, ROCK_TUNNEL_B1F, 3

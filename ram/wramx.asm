@@ -1087,7 +1087,6 @@ wKarensRoomSceneID:: db
 wKogasRoomSceneID:: db
 wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
-wLavenderTownSceneID:: db
 wMahoganyMart1FSceneID:: db
 wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
@@ -1164,7 +1163,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 88 ; unused
+	ds 89 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

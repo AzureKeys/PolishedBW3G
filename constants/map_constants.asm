@@ -368,19 +368,6 @@ ENDM
 	map_const ROUTE_12_SUPER_ROD_HOUSE,                    4,  4 ; 20
 	map_const LUCKY_ISLAND,                               23, 17 ; 21
 
-	newgroup                                                     ; 18
-	map_const ROUTE_8,                                    26, 11 ;  1
-	map_const ROUTE_8_SAFFRON_GATE,                        5,  4 ;  2
-	map_const ROUTE_10_SOUTH,                             10,  9 ;  3
-	map_const ROUTE_12_NORTH,                             10,  9 ;  4
-	map_const LAVENDER_TOWN,                              10, 10 ;  5
-	map_const LAVENDER_POKECENTER_1F,                      6,  4 ;  6
-	map_const MR_FUJIS_HOUSE,                              5,  4 ;  7
-	map_const LAVENDER_TOWN_SPEECH_HOUSE,                  4,  4 ;  8
-	map_const LAVENDER_NAME_RATER,                         4,  4 ;  9
-	map_const LAVENDER_MART,                               6,  4 ; 10
-	map_const ROUTE_16_WEST,                              31, 13 ; 25
-
 	newgroup                                                     ; 20
 	map_const POKECENTER_2F,                               8,  4 ;  1
 	map_const TRADE_CENTER,                                5,  4 ;  2

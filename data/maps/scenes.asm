@@ -43,7 +43,6 @@ MapScenes::
 	scene_var KARENS_ROOM,                            wKarensRoomSceneID
 	scene_var KOGAS_ROOM,                             wKogasRoomSceneID
 	scene_var LANCES_ROOM,                            wLancesRoomSceneID
-	scene_var LAVENDER_TOWN,                          wLavenderTownSceneID
 	scene_var MAHOGANY_MART_1F,                       wMahoganyMart1FSceneID
 	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID

@@ -132,8 +132,6 @@ ENDM
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
 
-	map_attributes Route16West, ROUTE_16_WEST, $f, 0
-
 	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
 	connection north, Route13East, ROUTE_13_EAST, 0
 	connection west, Route14, ROUTE_14, 0
@@ -156,23 +154,13 @@ ENDM
 	connection south, Route14, ROUTE_14, 0
 	connection east, Route13East, ROUTE_13_EAST, 0
 
-	map_attributes Route12North, ROUTE_12_NORTH, $43, NORTH | SOUTH
-	connection north, LavenderTown, LAVENDER_TOWN, 0
-	connection south, Route12South, ROUTE_12_SOUTH, 0
-
-	map_attributes Route12South, ROUTE_12_SOUTH, $43, NORTH | SOUTH | WEST
-	connection north, Route12North, ROUTE_12_NORTH, 0
+	map_attributes Route12South, ROUTE_12_SOUTH, $43, SOUTH | WEST
 	connection south, Route13East, ROUTE_13_EAST, -13
 	connection west, Route11, ROUTE_11, 17
 
 	map_attributes Route11, ROUTE_11, $f, WEST | EAST
 	connection west, VermilionCity, VERMILION_CITY, -5
 	connection east, Route12South, ROUTE_12_SOUTH, -17
-
-	map_attributes LavenderTown, LAVENDER_TOWN, $2c, NORTH | SOUTH | WEST
-	connection north, Route10South, ROUTE_10_SOUTH, 0
-	connection south, Route12North, ROUTE_12_NORTH, 0
-	connection west, Route8, ROUTE_8, 0
 
 	map_attributes VermilionCity, VERMILION_CITY, $43, NORTH | EAST
 	connection north, Route6, ROUTE_6, 3
@@ -201,12 +189,6 @@ ENDM
 
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
-
-	map_attributes Route8, ROUTE_8, $2c, EAST
-	connection east, LavenderTown, LAVENDER_TOWN, 0
-
-	map_attributes Route10South, ROUTE_10_SOUTH, $2c, SOUTH
-	connection south, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, 0
 
@@ -459,12 +441,6 @@ ENDM
 	map_attributes Route12Gate2F, ROUTE_12_GATE_2F, $0, 0
 	map_attributes Route15FuchsiaGate, ROUTE_15_FUCHSIA_GATE, $0, 0
 	map_attributes Route15FuchsiaGate2F, ROUTE_15_FUCHSIA_GATE_2F, $0, 0
-	map_attributes LavenderPokeCenter1F, LAVENDER_POKECENTER_1F, $0, 0
-	map_attributes MrFujisHouse, MR_FUJIS_HOUSE, $0, 0
-	map_attributes LavenderTownSpeechHouse, LAVENDER_TOWN_SPEECH_HOUSE, $0, 0
-	map_attributes LavenderNameRater, LAVENDER_NAME_RATER, $0, 0
-	map_attributes LavenderMart, LAVENDER_MART, $0, 0
-	map_attributes Route8SaffronGate, ROUTE_8_SAFFRON_GATE, $0, 0
 	map_attributes Route12SuperRodHouse, ROUTE_12_SUPER_ROD_HOUSE, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

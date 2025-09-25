@@ -420,34 +420,6 @@
 	wildmon 47, WIGGLYTUFF
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_8
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 53, VULPIX
-	wildmon 53, GROWLITHE
-	wildmon 53, JIGGLYPUFF
-	wildmon 50, RATTATA
-	wildmon 50, RATTATA
-	; day
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 53, VULPIX
-	wildmon 53, GROWLITHE
-	wildmon 53, JIGGLYPUFF
-	wildmon 50, RATTATA
-	wildmon 50, RATTATA
-	; nite
-	wildmon 48, PERSIAN
-	wildmon 51, RATTATA
-	wildmon 53, RATTATA
-	wildmon 53, HAUNTER
-	wildmon 53, VULPIX
-	wildmon 50, RATTATA
-	wildmon 50, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_11
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -614,34 +586,6 @@
 	wildmon 57, RATTATA
 	wildmon 55, RATTATA
 	wildmon 57, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_16_WEST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 53, GRIMER
-	wildmon 50, RATTATA
-	wildmon 54, RATTATA
-	wildmon 52, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, MUK
-	wildmon 55, MUK
-	; day
-	wildmon 53, GRIMER
-	wildmon 50, RATTATA
-	wildmon 54, RATTATA
-	wildmon 52, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, MUK
-	wildmon 55, MUK
-	; nite
-	wildmon 53, GRIMER
-	wildmon 50, GRIMER
-	wildmon 54, GRIMER
-	wildmon 52, MURKROW
-	wildmon 53, MURKROW
-	wildmon 54, MUK
-	wildmon 55, MUK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_18_EAST
