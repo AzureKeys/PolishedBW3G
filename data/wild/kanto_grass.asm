@@ -448,62 +448,6 @@
 	wildmon 51, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons LUCKY_ISLAND
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 1, TOGETIC
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, TOGEPI
-	wildmon LEVEL_FROM_BADGES + 2, RATTATA
-	; day
-	wildmon LEVEL_FROM_BADGES - 1, TOGETIC
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, TOGEPI
-	wildmon LEVEL_FROM_BADGES + 2, RATTATA
-	; nite
-	wildmon LEVEL_FROM_BADGES - 1, TOGETIC
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, MEOWTH, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES - 2, MEOWTH, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES - 1, MEOWTH, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, PERSIAN, ALOLAN_FORM
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_18_EAST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 52, RATTATA
-	wildmon 56, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 55, MUK
-	wildmon 57, MUK
-	; day
-	wildmon 52, RATTATA
-	wildmon 56, RATTATA
-	wildmon 53, RATTATA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 55, MUK
-	wildmon 57, MUK
-	; nite
-	wildmon 52, RATICATE
-	wildmon 56, RATTATA
-	wildmon 53, RATICATE
-	wildmon 54, MURKROW
-	wildmon 54, MURKROW
-	wildmon 55, MUK
-	wildmon 57, MUK
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_21
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn

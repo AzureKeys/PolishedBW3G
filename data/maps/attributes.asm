@@ -117,21 +117,11 @@ ENDM
 	connection west, CinnabarIsland, CINNABAR_ISLAND, -2
 	connection east, Route19, ROUTE_19, -20
 
-	map_attributes Route19, ROUTE_19, $43, NORTH | WEST
-	connection north, FuchsiaCity, FUCHSIA_CITY, 0
+	map_attributes Route19, ROUTE_19, $43, WEST
 	connection west, Route20, ROUTE_20, 20
-
-	map_attributes FuchsiaCity, FUCHSIA_CITY, $f, SOUTH | WEST
-	connection south, Route19, ROUTE_19, 0
-	connection west, Route18East, ROUTE_18_EAST, 7
-
-	map_attributes Route18East, ROUTE_18_EAST, $43, EAST
-	connection east, FuchsiaCity, FUCHSIA_CITY, -7
 
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
-
-	map_attributes LuckyIsland, LUCKY_ISLAND, $43, 0
 
 	map_attributes Route11, ROUTE_11, $f, WEST
 	connection west, VermilionCity, VERMILION_CITY, -5
@@ -290,7 +280,6 @@ ENDM
 	map_attributes BlackthornPokeCenter1F, BLACKTHORN_POKECENTER_1F, $0, 0
 	map_attributes MoveDeletersHouse, MOVE_DELETERS_HOUSE, $0, 0
 	map_attributes CinnabarPokeCenter1F, CINNABAR_POKECENTER_1F, $0, 0
-	map_attributes Route19FuchsiaGate, ROUTE_19_FUCHSIA_GATE, $0, 0
 	map_attributes SeafoamIslands1F, SEAFOAM_ISLANDS_1F, $9, 0
 	map_attributes SeafoamGym, SEAFOAM_GYM, $9, 0
 	map_attributes SeafoamIslandsB1F, SEAFOAM_ISLANDS_B1F, $9, 0
@@ -405,12 +394,6 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $0, 0
 	map_attributes LancesRoom, LANCES_ROOM, $0, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
-	map_attributes FuchsiaMart, FUCHSIA_MART, $0, 0
-	map_attributes FuchsiaGym, FUCHSIA_GYM, $0, 0
-	map_attributes FuchsiaBillSpeechHouse, FUCHSIA_BILL_SPEECH_HOUSE, $0, 0
-	map_attributes FuchsiaSafariBallHouse, FUCHSIA_SAFARI_BALL_HOUSE, $0, 0
-	map_attributes FuchsiaPokeCenter1F, FUCHSIA_POKECENTER_1F, $0, 0
-	map_attributes SafariZoneWardensHome, SAFARI_ZONE_WARDENS_HOME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0
@@ -439,7 +422,6 @@ ENDM
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0
-	map_attributes SafariZoneFuchsiaGate, SAFARI_ZONE_FUCHSIA_GATE, $0, 0
 	map_attributes PokemonMansion1F, POKEMON_MANSION_1F, $0, 0
 	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $45, 0
 	map_attributes CinnabarLab, CINNABAR_LAB, $0, 0

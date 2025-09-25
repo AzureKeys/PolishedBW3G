@@ -47,7 +47,6 @@ ENDM
 	special_bg_pal map,      LANCES_ROOM,                 PAL_SINGLE,    LancesRoomPalette
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    LancesRoomPalette
 	special_bg_pal map,      BELLCHIME_TRAIL,             PAL_TIMEOFDAY, BellchimeTrailPalette
-	special_bg_pal map,      FUCHSIA_GYM,                 PAL_SINGLE,    FuchsiaGymPalette
 	special_bg_pal map,      HIDDEN_TREE_GROTTO,          PAL_SINGLE,    HiddenTreeGrottoPalette
 	special_bg_pal map,      HIDDEN_CAVE_GROTTO,          PAL_SINGLE,    HiddenCaveGrottoPalette
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
@@ -275,23 +274,6 @@ else
 rept 7
 	MONOCHROME_RGB_FOUR
 endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-FuchsiaGymPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/FuchsiaGym.pal"
-else
-rept 6
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_LIGHT
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_DARK

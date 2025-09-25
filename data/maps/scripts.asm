@@ -17,7 +17,6 @@ INCLUDE "maps/CeruleanPokeCenter1F.asm"
 SECTION "Pokemon Center Scripts 3", ROMX
 
 INCLUDE "maps/VermilionPokeCenter1F.asm"
-INCLUDE "maps/FuchsiaPokeCenter1F.asm"
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
 
@@ -466,22 +465,6 @@ SECTION "Saffron Scripts 2", ROMX
 INCLUDE "maps/Underground.asm"
 
 
-SECTION "Fuchsia Scripts", ROMX
-
-INCLUDE "maps/FuchsiaCity.asm"
-INCLUDE "maps/FuchsiaMart.asm"
-INCLUDE "maps/FuchsiaGym.asm"
-INCLUDE "maps/FuchsiaBillSpeechHouse.asm"
-INCLUDE "maps/FuchsiaSafariBallHouse.asm"
-INCLUDE "maps/SafariZoneWardensHome.asm"
-INCLUDE "maps/LuckyIsland.asm"
-
-
-SECTION "Safari Zone Scripts", ROMX
-
-INCLUDE "maps/SafariZoneFuchsiaGate.asm"
-
-
 SECTION "Uraga Channel Scripts", ROMX
 
 INCLUDE "maps/UragaChannelWest.asm"
@@ -554,10 +537,8 @@ INCLUDE "maps/Route11Gate2F.asm"
 
 SECTION "Routes 18-20 Scripts", ROMX
 
-INCLUDE "maps/Route18East.asm"
 INCLUDE "maps/Route19.asm"
 INCLUDE "maps/Route19BeachHouse.asm"
-INCLUDE "maps/Route19FuchsiaGate.asm"
 INCLUDE "maps/Route20.asm"
 
 

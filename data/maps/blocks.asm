@@ -16,7 +16,6 @@ Route3PokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
-FuchsiaPokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
 
@@ -30,7 +29,6 @@ BlackthornMart_BlockData:
 PewterMart_BlockData:
 CeruleanMart_BlockData:
 VermilionMart_BlockData:
-FuchsiaMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
@@ -43,8 +41,6 @@ Route43MahoganyGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 Route6SaffronGate_BlockData:
-Route19FuchsiaGate_BlockData:
-SafariZoneFuchsiaGate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate.ablk.lz"
 
 Route36VioletGate_BlockData:
@@ -70,8 +66,6 @@ GoldenrodHoneyHouse_BlockData:
 CeruleanGymBadgeSpeechHouse_BlockData:
 CeruleanTradeSpeechHouse_BlockData:
 CeruleanCoupleHouse_BlockData:
-FuchsiaBillSpeechHouse_BlockData:
-FuchsiaSafariBallHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
@@ -802,7 +796,6 @@ VermilionPort_BlockData:
 
 SECTION "PokemonFanClub_BlockData", ROMX
 PokemonFanClub_BlockData:
-SafariZoneWardensHome_BlockData:
 	INCBIN "maps/PokemonFanClub.ablk.lz"
 
 SECTION "DiglettsCave_BlockData", ROMX
@@ -836,22 +829,6 @@ WhirlIslandNW_BlockData:
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"
-
-SECTION "FuchsiaGym_BlockData", ROMX
-FuchsiaGym_BlockData:
-	INCBIN "maps/FuchsiaGym.ablk.lz"
-
-SECTION "FuchsiaCity_BlockData", ROMX
-FuchsiaCity_BlockData:
-	INCBIN "maps/FuchsiaCity.ablk.lz"
-
-SECTION "LuckyIsland_BlockData", ROMX
-LuckyIsland_BlockData:
-	INCBIN "maps/LuckyIsland.ablk.lz"
-
-SECTION "LuckyIslandHidden_BlockData", ROMX
-LuckyIslandHidden_BlockData:
-	INCBIN "maps/LuckyIslandHidden.ablk.lz"
 
 SECTION "UragaChannelWest_BlockData", ROMX
 UragaChannelWest_BlockData:
@@ -958,10 +935,6 @@ Route6UndergroundEntrance_BlockData:
 SECTION "Route11_BlockData", ROMX
 Route11_BlockData:
 	INCBIN "maps/Route11.ablk.lz"
-
-SECTION "Route18East_BlockData", ROMX
-Route18East_BlockData:
-	INCBIN "maps/Route18East.ablk.lz"
 
 SECTION "Route19_BlockData", ROMX
 Route19_BlockData:

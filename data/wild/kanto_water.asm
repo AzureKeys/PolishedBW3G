@@ -28,13 +28,6 @@
 	wildmon  45, PSYDUCK
 	end_water_wildmons
 
-	def_water_wildmons LUCKY_ISLAND
-	db 6 percent ; encounter rate
-	wildmon  49, RATTATA
-	wildmon  53, RATTATA
-	wildmon  55, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
 	wildmon  54, RATTATA
@@ -96,13 +89,6 @@
 	wildmon  45, RATTATA
 	wildmon  40, RATTATA
 	wildmon  45, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons FUCHSIA_CITY
-	db 2 percent ; encounter rate
-	wildmon  55, RATTATA
-	wildmon  50, RATTATA
-	wildmon  55, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND

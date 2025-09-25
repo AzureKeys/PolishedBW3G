@@ -43,13 +43,6 @@ InitMapNameSign::
 	call .CheckSpecialMap
 	jr z, .dont_do_map_sign
 
-	ld a, [wCurLandmark]
-	cp LUCKY_ISLAND
-	jr nz, .not_lucky_island
-	eventflagcheck EVENT_LUCKY_ISLAND_CIVILIANS
-	jr nz, .dont_do_map_sign
-.not_lucky_island
-
 ; Vermilion City runs a scene_script by default
 	ld a, [wCurLandmark]
 	cp VERMILION_CITY

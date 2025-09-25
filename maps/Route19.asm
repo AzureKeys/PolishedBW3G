@@ -6,7 +6,6 @@ Route19_MapScriptHeader:
 	callback MAPCALLBACK_TILES, Route19ClearRocks
 
 	def_warp_events
-	warp_event  7,  1, ROUTE_19_FUCHSIA_GATE, 3
 	warp_event  5, 13, ROUTE_19_BEACH_HOUSE, 1
 
 	def_coord_events
