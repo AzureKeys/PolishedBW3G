@@ -52,7 +52,6 @@ Landmarks:
 	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
 	assert_table_length KANTO_LANDMARK
-	landmark  52, 100, PalletTownName
 	landmark  52,  88, Route1Name
 	landmark  76,  44, MtMoonName
 	landmark  92,  44, Route4Name
@@ -110,7 +109,6 @@ WhirlIslandsName:      rawchar "Whirl¯Islands@"
 MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
-PalletTownName:        rawchar "Pallet Town@"
 CeruleanCityName:      rawchar "Cerulean¯City@"
 VermilionCityName:     rawchar "Vermilion¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"

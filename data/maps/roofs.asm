@@ -14,7 +14,6 @@ MapGroupRoofs:
 	db ROOF_VIOLET   ; 10 (Violet City)
 	db -1            ; 11
 	db -1            ; 12
-	db -1            ; 13
 	db -1            ; 16
 	db -1            ; 20
 	db ROOF_NEW_BARK ; 24 (New Bark Town)

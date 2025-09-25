@@ -660,27 +660,6 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
-SECTION "PalletTown_BlockData", ROMX
-PalletTown_BlockData:
-	INCBIN "maps/PalletTown.ablk.lz"
-
-SECTION "OaksLab_BlockData", ROMX
-OaksLab_BlockData:
-	INCBIN "maps/OaksLab.ablk.lz"
-
-SECTION "RedsHouse1F_BlockData", ROMX
-RedsHouse1F_BlockData:
-	INCBIN "maps/RedsHouse1F.ablk.lz"
-
-SECTION "BluesHouse1F_BlockData", ROMX
-BluesHouse1F_BlockData:
-	INCBIN "maps/BluesHouse1F.ablk.lz"
-
-SECTION "RedsHouse2F_BlockData", ROMX
-RedsHouse2F_BlockData:
-BluesHouse2F_BlockData:
-	INCBIN "maps/RedsHouse2F.ablk.lz"
-
 SECTION "MountMoon1F_BlockData", ROMX
 MountMoon1F_BlockData:
 	INCBIN "maps/MountMoon1F.ablk.lz"
@@ -850,10 +829,6 @@ DragonsDen1F_BlockData:
 WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "Route1_BlockData", ROMX
-Route1_BlockData:
-	INCBIN "maps/Route1.ablk.lz"
 
 SECTION "Route4_BlockData", ROMX
 Route4_BlockData:

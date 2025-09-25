@@ -38,7 +38,6 @@ ENDM
 	special_bg_pal map,      GOLDENROD_MUSEUM_1F,         PAL_SINGLE,    GoldenrodMuseumPalette
 	special_bg_pal map,      GOLDENROD_MUSEUM_2F,         PAL_SINGLE,    GoldenrodMuseumPalette
 	special_bg_pal map,      MAGNET_TUNNEL_INSIDE,        PAL_SINGLE,    MagnetTunnelPalette
-	special_bg_pal map,      OAKS_LAB,                    PAL_SINGLE,    OaksLabPalette
 	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
 	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
 	special_bg_pal map,      BRUNOS_ROOM,                 PAL_SINGLE,    BrunosRoomPalette
@@ -282,19 +281,6 @@ endc
 GameCornerPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/game_corner.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-OaksLabPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/OaksLab.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

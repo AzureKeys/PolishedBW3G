@@ -1,8 +1,6 @@
 ; Places and People will describe these locations.
 
 PnP_Places:
-	db PALLET_TOWN
-	db ROUTE_1
 	db MT_MOON
 	db CERULEAN_CITY
 	db CERULEAN_CAPE

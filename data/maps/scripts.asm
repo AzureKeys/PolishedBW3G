@@ -351,16 +351,6 @@ INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
 
 
-SECTION "Pallet Scripts", ROMX
-
-INCLUDE "maps/PalletTown.asm"
-INCLUDE "maps/OaksLab.asm"
-INCLUDE "maps/RedsHouse1F.asm"
-INCLUDE "maps/RedsHouse2F.asm"
-INCLUDE "maps/BluesHouse1F.asm"
-INCLUDE "maps/BluesHouse2F.asm"
-
-
 SECTION "Mount Moon Scripts", ROMX
 
 INCLUDE "maps/MountMoon1F.asm"
@@ -481,7 +471,6 @@ INCLUDE "maps/SilverCaveItemRooms.asm"
 
 SECTION "Routes 1-4 Scripts", ROMX
 
-INCLUDE "maps/Route1.asm"
 INCLUDE "maps/Route4.asm"
 
 

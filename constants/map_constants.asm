@@ -300,15 +300,6 @@ ENDM
 	map_const BATTLE_FACTORY_HALLWAY,                      5,  7 ; 18
 	map_const BATTLE_FACTORY_BATTLE_ROOM,                  5,  6 ; 19
 
-	newgroup                                                     ; 13
-	map_const ROUTE_1,                                    12, 18 ;  1
-	map_const PALLET_TOWN,                                10,  9 ;  2
-	map_const REDS_HOUSE_1F,                               4,  4 ;  3
-	map_const REDS_HOUSE_2F,                               4,  4 ;  4
-	map_const BLUES_HOUSE_1F,                              4,  4 ;  5
-	map_const BLUES_HOUSE_2F,                              4,  4 ;  6
-	map_const OAKS_LAB,                                    5,  6 ;  7
-
 	newgroup                                                     ; 16
 	map_const ROUTE_23,                                   12, 70 ;  1
 	map_const INDIGO_PLATEAU,                             12, 13 ;  2

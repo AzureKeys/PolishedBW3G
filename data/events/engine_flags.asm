@@ -81,7 +81,6 @@ EngineFlags:
 
 	; fly
 	engine_flag wVisitedSpawns, SPAWN_HOME
-	engine_flag wVisitedSpawns, SPAWN_PALLET
 	engine_flag wVisitedSpawns, SPAWN_CERULEAN
 	engine_flag wVisitedSpawns, SPAWN_CERULEAN_CAPE
 	engine_flag wVisitedSpawns, SPAWN_VERMILION

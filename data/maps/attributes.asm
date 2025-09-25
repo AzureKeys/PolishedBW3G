@@ -94,15 +94,7 @@ ENDM
 	map_attributes Route46, ROUTE_46, $5, EAST
 	connection east, Route45, ROUTE_45, -37
 
-	map_attributes Route1, ROUTE_1, $f, SOUTH
-	connection south, PalletTown, PALLET_TOWN, 1
-
-	map_attributes PalletTown, PALLET_TOWN, $f, NORTH | SOUTH
-	connection north, Route1, ROUTE_1, -1
-	connection south, Route21, ROUTE_21, 0
-
-	map_attributes Route21, ROUTE_21, $43, NORTH | SOUTH | EAST
-	connection north, PalletTown, PALLET_TOWN, 0
+	map_attributes Route21, ROUTE_21, $43, SOUTH | EAST
 	connection south, CinnabarIsland, CINNABAR_ISLAND, 0
 	connection east, UragaChannelWest, URAGA_CHANNEL_WEST, 19
 
@@ -360,11 +352,6 @@ ENDM
 	map_attributes BattleFactory1F, BATTLE_FACTORY_1F, $0, 0
 	map_attributes BattleFactoryHallway, BATTLE_FACTORY_HALLWAY, $0, 0
 	map_attributes BattleFactoryBattleRoom, BATTLE_FACTORY_BATTLE_ROOM, $0, 0
-	map_attributes RedsHouse1F, REDS_HOUSE_1F, $0, 0
-	map_attributes RedsHouse2F, REDS_HOUSE_2F, $0, 0
-	map_attributes BluesHouse1F, BLUES_HOUSE_1F, $0, 0
-	map_attributes BluesHouse2F, BLUES_HOUSE_2F, $0, 0
-	map_attributes OaksLab, OAKS_LAB, $0, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0

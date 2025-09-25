@@ -63,13 +63,6 @@
 	wildmon  52, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons PALLET_TOWN
-	db 6 percent ; encounter rate
-	wildmon  55, RATTATA
-	wildmon  50, RATTATA
-	wildmon  55, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent ; encounter rate
 	wildmon  55, RATTATA
