@@ -33,8 +33,6 @@ SpawnPoints:
 	spawn SILVER_CAVE_OUTSIDE,        23, 14
 	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2
 
-	spawn NAVEL_ROCK_OUTSIDE,         12, 23
-
 	spawn N_A,                        -1, -1
 
 	assert_table_length NUM_SPAWNS + 1

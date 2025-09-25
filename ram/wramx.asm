@@ -1075,7 +1075,6 @@ wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
-wFarawayIslandSceneID:: db
 wFastShip1FSceneID:: db
 wFastShipB1FSceneID:: db
 wGiovannisCaveSceneID:: db
@@ -1107,9 +1106,6 @@ wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
 wRoute42SceneID:: db
 wRoute43GateSceneID:: db
-wSeagallopFerryNavelGateSceneID:: db
-wSeagallopFerryShamoutiGateSceneID:: db
-wSeagallopFerryVermilionGateSceneID:: db
 wSproutTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
@@ -1168,7 +1164,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 84 ; unused
+	ds 88 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

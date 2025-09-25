@@ -108,8 +108,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_BLACKTHORN
 	const SPAWN_MT_SILVER
 	const SPAWN_FAST_SHIP
-; orange
-	const SPAWN_NAVEL
 DEF NUM_SPAWNS EQU const_value
 
 DEF SPAWN_N_A EQU -1
@@ -138,6 +136,4 @@ DEF SPAWN_N_A EQU -1
 	const FLY_FUCHSIA
 	const FLY_CINNABAR
 	const FLY_INDIGO
-; orange
-	const FLY_NAVEL
 DEF NUM_FLYPOINTS EQU const_value

@@ -95,8 +95,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_28           ; 80
 	const CINNABAR_LAB       ; 81
 DEF SHAMOUTI_LANDMARK EQU const_value
-	const NAVEL_ROCK         ; 8f
-	const FARAWAY_ISLAND     ; 90
 DEF NUM_LANDMARKS EQU const_value
 
 ; used in CaughtData

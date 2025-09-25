@@ -99,8 +99,6 @@ Landmarks:
 	landmark  28,  36, IndigoPlateauName
 	landmark  16,  76, Route28Name
 	landmark  54, 134, CinnabarLabName
-	landmark 132, 100, NavelRockName
-	landmark  24, 120, FarawayIslandName
 	assert_table_length NUM_LANDMARKS
 
 NewBarkTownName:       rawchar "New Bark¯Town@"
@@ -193,7 +191,5 @@ StormyBeachName:       rawchar "Stormy¯Beach@"
 MurkySwampName:        rawchar "Murky¯Swamp@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
-NavelRockName:         rawchar "Navel Rock@"
-FarawayIslandName:     rawchar "Faraway¯Island@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
 SpecialMapName:        rawchar "?@"

@@ -517,14 +517,6 @@ ENDM
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0
 	map_attributes SafariZoneFuchsiaGate, SAFARI_ZONE_FUCHSIA_GATE, $0, 0
-	map_attributes NavelRockOutside, NAVEL_ROCK_OUTSIDE, $35, 0
-	map_attributes NavelRockInside, NAVEL_ROCK_INSIDE, $9, 0
-	map_attributes NavelRockRoof, NAVEL_ROCK_ROOF, $1, 0
-	map_attributes FarawayIsland, FARAWAY_ISLAND, $6, 0
-	map_attributes FarawayJungle, FARAWAY_JUNGLE, $17, 0
-	map_attributes SeagallopFerryVermilionGate, SEAGALLOP_FERRY_VERMILION_GATE, $0, 0
-	map_attributes SeagallopFerryNavelGate, SEAGALLOP_FERRY_NAVEL_GATE, $0, 0
-	map_attributes SeagallopFerryShamoutiGate, SEAGALLOP_FERRY_SHAMOUTI_GATE, $0, 0
 	map_attributes PokemonMansion1F, POKEMON_MANSION_1F, $0, 0
 	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $45, 0
 	map_attributes CinnabarLab, CINNABAR_LAB, $0, 0

@@ -17,8 +17,6 @@ VermilionCity_MapScriptHeader:
 	warp_event 18, 35, VERMILION_PORT, 1
 	warp_event 19, 35, VERMILION_PORT, 3
 	warp_event 36, 17, DIGLETTS_CAVE, 1
-	warp_event 28, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
-	warp_event 29, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 13,  5, VERMILION_POLLUTION_SPEECH_HOUSE, 1
 	warp_event 19,  5, VERMILION_S_S_ANNE_SPEECH_HOUSE, 1
 	warp_event 29,  9, BATTLE_FACTORY_1F, 1

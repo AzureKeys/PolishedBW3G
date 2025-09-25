@@ -569,26 +569,6 @@ INCLUDE "maps/SilverCaveRoom3.asm"
 INCLUDE "maps/SilverCaveItemRooms.asm"
 
 
-SECTION "Seagallop Ferry Scripts", ROMX
-
-INCLUDE "maps/SeagallopFerryVermilionGate.asm"
-INCLUDE "maps/SeagallopFerryShamoutiGate.asm"
-INCLUDE "maps/SeagallopFerryNavelGate.asm"
-
-
-SECTION "Navel Rock Scripts", ROMX
-
-INCLUDE "maps/NavelRockOutside.asm"
-INCLUDE "maps/NavelRockInside.asm"
-INCLUDE "maps/NavelRockRoof.asm"
-
-
-SECTION "Faraway Island Scripts", ROMX
-
-INCLUDE "maps/FarawayIsland.asm"
-INCLUDE "maps/FarawayJungle.asm"
-
-
 SECTION "Routes 1-4 Scripts", ROMX
 
 INCLUDE "maps/Route1.asm"

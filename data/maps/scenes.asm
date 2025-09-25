@@ -31,7 +31,6 @@ MapScenes::
 	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID
-	scene_var FARAWAY_ISLAND,                         wFarawayIslandSceneID
 	scene_var FAST_SHIP_1F,                           wFastShip1FSceneID
 	scene_var FAST_SHIP_B1F,                          wFastShipB1FSceneID
 	scene_var GIOVANNIS_CAVE,                         wGiovannisCaveSceneID
@@ -65,9 +64,6 @@ MapScenes::
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
 	scene_var ROUTE_42,                               wRoute42SceneID
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
-	scene_var SEAGALLOP_FERRY_NAVEL_GATE,             wSeagallopFerryNavelGateSceneID
-	scene_var SEAGALLOP_FERRY_SHAMOUTI_GATE,          wSeagallopFerryShamoutiGateSceneID
-	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID
 	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
 	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID

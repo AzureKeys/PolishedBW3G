@@ -1010,34 +1010,11 @@ SECTION "SilverCaveRoom3_BlockData", ROMX
 SilverCaveRoom3_BlockData:
 	INCBIN "maps/SilverCaveRoom3.ablk.lz"
 
-SECTION "SeagallopFerryVermilionGate_BlockData", ROMX
-SeagallopFerryVermilionGate_BlockData:
-SeagallopFerryShamoutiGate_BlockData:
-SeagallopFerryNavelGate_BlockData:
-	INCBIN "maps/SeagallopFerryGate.ablk.lz"
-
-SECTION "NavelRockOutside_BlockData", ROMX
-NavelRockOutside_BlockData:
-	INCBIN "maps/NavelRockOutside.ablk.lz"
-
 SECTION "NavelRockInside_BlockData", ROMX
-NavelRockInside_BlockData:
 DragonsDen1F_BlockData:
 WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "NavelRockRoof_BlockData", ROMX
-NavelRockRoof_BlockData:
-	INCBIN "maps/NavelRockRoof.ablk.lz"
-
-SECTION "FarawayIsland_BlockData", ROMX
-FarawayIsland_BlockData:
-	INCBIN "maps/FarawayIsland.ablk.lz"
-
-SECTION "FarawayJungle_BlockData", ROMX
-FarawayJungle_BlockData:
-	INCBIN "maps/FarawayJungle.ablk.lz"
 
 SECTION "Route1_BlockData", ROMX
 Route1_BlockData:

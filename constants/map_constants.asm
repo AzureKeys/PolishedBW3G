@@ -400,14 +400,6 @@ ENDM
 	map_const SILVER_CAVE_OUTSIDE,                        20, 15 ;  2
 	map_const SILVER_CAVE_POKECENTER_1F,                   6,  4 ;  3
 	map_const ROUTE_28_FAMOUS_SPEECH_HOUSE,                4,  4 ;  4
-	map_const NAVEL_ROCK_OUTSIDE,                         13, 16 ;  5
-	map_const NAVEL_ROCK_INSIDE,                          20, 45 ;  6
-	map_const NAVEL_ROCK_ROOF,                             8, 11 ;  7
-	map_const FARAWAY_ISLAND,                             17, 23 ;  8
-	map_const FARAWAY_JUNGLE,                             14, 12 ;  9
-	map_const SEAGALLOP_FERRY_VERMILION_GATE,              7,  6 ;  10
-	map_const SEAGALLOP_FERRY_NAVEL_GATE,                  7,  6 ;  11
-	map_const SEAGALLOP_FERRY_SHAMOUTI_GATE,               7,  6 ;  12
 
 	newgroup                                                     ; 20
 	map_const POKECENTER_2F,                               8,  4 ;  1

@@ -625,42 +625,9 @@ PokegearMap_ContinueMap:
 	jmp PokegearMap_UpdateCursorPosition
 
 SkipHiddenOrangeIslandsUp:
-	call CheckSkipNavelRock
-	jr nz, .not_after_navel_rock
-	inc [hl]
-.not_after_navel_rock
-	call CheckSkipFarawayIsland
-	jr nz, .not_after_faraway_island
-	inc [hl]
-.not_after_faraway_island
 	ret
 
 SkipHiddenOrangeIslandsDown:
-	call CheckSkipFarawayIsland
-	jr nz, .not_before_faraway_island
-	dec [hl]
-.not_before_faraway_island
-	call CheckSkipNavelRock
-	ret nz
-	dec [hl]
-	ret
-
-CheckSkipNavelRock:
-	ld a, [hl]
-	cp NAVEL_ROCK
-	ret nz
-	push hl
-	eventflagcheck EVENT_VISITED_NAVEL_ROCK
-	pop hl
-	ret
-
-CheckSkipFarawayIsland:
-	ld a, [hl]
-	cp FARAWAY_ISLAND
-	ret nz
-	push hl
-	eventflagcheck EVENT_VISITED_FARAWAY_ISLAND
-	pop hl
 	ret
 
 PokegearMap_InitPlayerIcon:
