@@ -47,9 +47,6 @@ Route19FuchsiaGate_BlockData:
 SafariZoneFuchsiaGate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate.ablk.lz"
 
-Route12Gate_BlockData:
-	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
-
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
@@ -57,12 +54,9 @@ Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 Route11Gate_BlockData:
-Route15FuchsiaGate_BlockData:
 	INCBIN "maps/KantoEastWestGate1F.ablk.lz"
 
 Route11Gate2F_BlockData:
-Route12Gate2F_BlockData:
-Route15FuchsiaGate2F_BlockData:
 	INCBIN "maps/KantoGate2F.ablk.lz"
 	
 GoldenrodBillsHouse_BlockData:
@@ -123,7 +117,6 @@ Route19BeachHouse_BlockData:
 SECTION "PewterNidoranSpeechHouse_BlockData", ROMX
 PewterNidoranSpeechHouse_BlockData:
 PewterSnoozeSpeechHouse_BlockData:
-Route12SuperRodHouse_BlockData:
 	INCBIN "maps/KantoHouse4.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX
@@ -965,26 +958,6 @@ Route6UndergroundEntrance_BlockData:
 SECTION "Route11_BlockData", ROMX
 Route11_BlockData:
 	INCBIN "maps/Route11.ablk.lz"
-
-SECTION "Route12South_BlockData", ROMX
-Route12South_BlockData:
-	INCBIN "maps/Route12South.ablk.lz"
-
-SECTION "Route13East_BlockData", ROMX
-Route13East_BlockData:
-	INCBIN "maps/Route13East.ablk.lz"
-
-SECTION "Route13West_BlockData", ROMX
-Route13West_BlockData:
-	INCBIN "maps/Route13West.ablk.lz"
-
-SECTION "Route14_BlockData", ROMX
-Route14_BlockData:
-	INCBIN "maps/Route14.ablk.lz"
-
-SECTION "Route15_BlockData", ROMX
-Route15_BlockData:
-	INCBIN "maps/Route15.ablk.lz"
 
 SECTION "Route18East_BlockData", ROMX
 Route18East_BlockData:

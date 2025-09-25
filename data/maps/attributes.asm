@@ -121,10 +121,9 @@ ENDM
 	connection north, FuchsiaCity, FUCHSIA_CITY, 0
 	connection west, Route20, ROUTE_20, 20
 
-	map_attributes FuchsiaCity, FUCHSIA_CITY, $f, SOUTH | WEST | EAST
+	map_attributes FuchsiaCity, FUCHSIA_CITY, $f, SOUTH | WEST
 	connection south, Route19, ROUTE_19, 0
 	connection west, Route18East, ROUTE_18_EAST, 7
-	connection east, Route15, ROUTE_15, 9
 
 	map_attributes Route18East, ROUTE_18_EAST, $43, EAST
 	connection east, FuchsiaCity, FUCHSIA_CITY, -7
@@ -132,35 +131,10 @@ ENDM
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
 
-	map_attributes LuckyIsland, LUCKY_ISLAND, $43, NORTH | WEST
-	connection north, Route13East, ROUTE_13_EAST, 0
-	connection west, Route14, ROUTE_14, 0
+	map_attributes LuckyIsland, LUCKY_ISLAND, $43, 0
 
-	map_attributes Route15, ROUTE_15, $f, WEST | EAST
-	connection west, FuchsiaCity, FUCHSIA_CITY, -9
-	connection east, Route14, ROUTE_14, -10
-
-	map_attributes Route14, ROUTE_14, $43, NORTH | WEST | EAST
-	connection north, Route13West, ROUTE_13_WEST, 0
-	connection west, Route15, ROUTE_15, 10
-	connection east, LuckyIsland, LUCKY_ISLAND, 0
-
-	map_attributes Route13East, ROUTE_13_EAST, $43, NORTH | SOUTH | WEST
-	connection north, Route12South, ROUTE_12_SOUTH, 13
-	connection south, LuckyIsland, LUCKY_ISLAND, 0
-	connection west, Route13West, ROUTE_13_WEST, 0
-
-	map_attributes Route13West, ROUTE_13_WEST, $43, SOUTH | EAST
-	connection south, Route14, ROUTE_14, 0
-	connection east, Route13East, ROUTE_13_EAST, 0
-
-	map_attributes Route12South, ROUTE_12_SOUTH, $43, SOUTH | WEST
-	connection south, Route13East, ROUTE_13_EAST, -13
-	connection west, Route11, ROUTE_11, 17
-
-	map_attributes Route11, ROUTE_11, $f, WEST | EAST
+	map_attributes Route11, ROUTE_11, $f, WEST
 	connection west, VermilionCity, VERMILION_CITY, -5
-	connection east, Route12South, ROUTE_12_SOUTH, -17
 
 	map_attributes VermilionCity, VERMILION_CITY, $43, NORTH | EAST
 	connection north, Route6, ROUTE_6, 3
@@ -437,11 +411,6 @@ ENDM
 	map_attributes FuchsiaSafariBallHouse, FUCHSIA_SAFARI_BALL_HOUSE, $0, 0
 	map_attributes FuchsiaPokeCenter1F, FUCHSIA_POKECENTER_1F, $0, 0
 	map_attributes SafariZoneWardensHome, SAFARI_ZONE_WARDENS_HOME, $0, 0
-	map_attributes Route12Gate, ROUTE_12_GATE, $0, 0
-	map_attributes Route12Gate2F, ROUTE_12_GATE_2F, $0, 0
-	map_attributes Route15FuchsiaGate, ROUTE_15_FUCHSIA_GATE, $0, 0
-	map_attributes Route15FuchsiaGate2F, ROUTE_15_FUCHSIA_GATE_2F, $0, 0
-	map_attributes Route12SuperRodHouse, ROUTE_12_SUPER_ROD_HOUSE, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0

@@ -6,8 +6,6 @@ Route11Gate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  5, ROUTE_11, 1
 	warp_event  0,  6, ROUTE_11, 2
-	warp_event  9,  5, ROUTE_12_SOUTH, 2
-	warp_event  9,  6, ROUTE_12_SOUTH, 3
 	warp_event  8,  8, ROUTE_11_GATE_2F, 1
 
 	def_coord_events

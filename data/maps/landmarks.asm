@@ -72,10 +72,6 @@ Landmarks:
 	landmark 140,  44, RockTunnelName
 	landmark 148,  52, PowerPlantName
 	landmark 124,  76, Route11Name
-	landmark 140,  76, Route12Name
-	landmark 132,  92, Route13Name
-	landmark 124, 100, Route14Name
-	landmark 108, 108, Route15Name
 	landmark 136, 104, LuckyIslandName
 	landmark  92, 108, FuchsiaCityName
 	landmark  64, 108, UragaChannelName
@@ -142,10 +138,6 @@ Route4Name:            rawchar "Route 4@"
 Route6Name:            rawchar "Route 6@"
 Route10Name:           rawchar "Route 10@"
 Route11Name:           rawchar "Route 11@"
-Route12Name:           rawchar "Route 12@"
-Route13Name:           rawchar "Route 13@"
-Route14Name:           rawchar "Route 14@"
-Route15Name:           rawchar "Route 15@"
 Route19Name:           rawchar "Route 19@"
 Route20Name:           rawchar "Route 20@"
 Route21Name:           rawchar "Route 21@"

@@ -448,90 +448,6 @@
 	wildmon 51, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_12_SOUTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 50, NIDORINO
-	wildmon 50, NIDORINA
-	wildmon 50, RATTATA
-	wildmon 51, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	; day
-	wildmon 50, NIDORINO
-	wildmon 50, NIDORINA
-	wildmon 50, RATTATA
-	wildmon 51, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	; nite
-	wildmon 50, RATTATA
-	wildmon 50, RATTATA
-	wildmon 50, RATTATA
-	wildmon 51, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_13_EAST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 50, NIDORINO
-	wildmon 50, NIDORINA
-	wildmon 51, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	wildmon 53, SUNFLORA
-	wildmon 55, SUNFLORA
-	; day
-	wildmon 50, NIDORINO
-	wildmon 50, NIDORINA
-	wildmon 51, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	wildmon 53, SUNFLORA
-	wildmon 55, SUNFLORA
-	; nite
-	wildmon 50, RATTATA
-	wildmon 50, RATTATA
-	wildmon 51, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	wildmon 53, RATTATA
-	wildmon 55, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_14
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 52, NIDORINO
-	wildmon 52, NIDORINA
-	wildmon 53, RATTATA
-	wildmon 51, RATTATA
-	wildmon 56, RATTATA
-	wildmon 54, SUNFLORA
-	wildmon 56, SUNFLORA
-	; day
-	wildmon 52, NIDORINO
-	wildmon 52, NIDORINA
-	wildmon 53, RATTATA
-	wildmon 51, RATTATA
-	wildmon 56, RATTATA
-	wildmon 54, SUNFLORA
-	wildmon 56, SUNFLORA
-	; nite
-	wildmon 52, RATTATA
-	wildmon 52, RATTATA
-	wildmon 53, RATTATA
-	wildmon 51, RATTATA
-	wildmon 56, RATTATA
-	wildmon 54, RATTATA
-	wildmon 56, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons LUCKY_ISLAND
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -558,34 +474,6 @@
 	wildmon LEVEL_FROM_BADGES - 2, MEOWTH, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, MEOWTH, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES + 0, PERSIAN, ALOLAN_FORM
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_15
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 52, NIDORINO
-	wildmon 52, NIDORINA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 55, SUNFLORA
-	wildmon 57, SUNFLORA
-	; day
-	wildmon 52, NIDORINO
-	wildmon 52, NIDORINA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 55, SUNFLORA
-	wildmon 57, SUNFLORA
-	; nite
-	wildmon 52, RATTATA
-	wildmon 52, RATTATA
-	wildmon 54, RATTATA
-	wildmon 54, RATTATA
-	wildmon 57, RATTATA
-	wildmon 55, RATTATA
-	wildmon 57, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_18_EAST
