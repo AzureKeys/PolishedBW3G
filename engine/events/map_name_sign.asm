@@ -122,13 +122,9 @@ InitMapNameSign::
 	ret z
 	cp RADIO_TOWER
 	ret z
-	cp LAV_RADIO_TOWER
-	ret z
 	cp UNDERGROUND
 	ret z
 	cp POWER_PLANT
-	ret z
-	cp SOUL_HOUSE
 	ret z
 	cp CINNABAR_LAB
 	ret z

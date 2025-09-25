@@ -855,59 +855,6 @@ SECTION "MrFujisHouse_BlockData", ROMX
 MrFujisHouse_BlockData:
 	INCBIN "maps/MrFujisHouse.ablk.lz"
 
-SECTION "SoulHouse_BlockData", ROMX
-SoulHouse_BlockData:
-	INCBIN "maps/SoulHouse.ablk.lz"
-
-SECTION "SoulHouseB1F_BlockData", ROMX
-SoulHouseB1F_BlockData:
-	INCBIN "maps/SoulHouseB1F.ablk.lz"
-
-SECTION "SoulHouseB2F_BlockData", ROMX
-SoulHouseB2F_BlockData:
-	INCBIN "maps/SoulHouseB2F.ablk.lz"
-
-SECTION "SoulHouseB3F_BlockData", ROMX
-SoulHouseB3F_BlockData:
-	INCBIN "maps/SoulHouseB3F.ablk.lz"
-
-SECTION "LavRadioTower1F_BlockData", ROMX
-LavRadioTower1F_BlockData:
-	INCBIN "maps/LavRadioTower1F.ablk.lz"
-
-SECTION "LavRadioTower2F_BlockData", ROMX
-LavRadioTower2F_BlockData:
-HauntedRadioTower2F_BlockData:
-	INCBIN "maps/LavRadioTower2F.ablk.lz"
-
-SECTION "LavRadioTower3F_BlockData", ROMX
-LavRadioTower3F_BlockData:
-	INCBIN "maps/LavRadioTower3F.ablk.lz"
-
-SECTION "LavRadioTower4F_BlockData", ROMX
-LavRadioTower4F_BlockData:
-	INCBIN "maps/LavRadioTower4F.ablk.lz"
-
-SECTION "LavRadioTower5F_BlockData", ROMX
-LavRadioTower5F_BlockData:
-	INCBIN "maps/LavRadioTower5F.ablk.lz"
-
-SECTION "HauntedRadioTower3F_BlockData", ROMX
-HauntedRadioTower3F_BlockData:
-	INCBIN "maps/HauntedRadioTower3F.ablk.lz"
-
-SECTION "HauntedRadioTower4F_BlockData", ROMX
-HauntedRadioTower4F_BlockData:
-	INCBIN "maps/HauntedRadioTower4F.ablk.lz"
-
-SECTION "HauntedRadioTower5F_BlockData", ROMX
-HauntedRadioTower5F_BlockData:
-	INCBIN "maps/HauntedRadioTower5F.ablk.lz"
-
-SECTION "HauntedRadioTower6F_BlockData", ROMX
-HauntedRadioTower6F_BlockData:
-	INCBIN "maps/HauntedRadioTower6F.ablk.lz"
-
 SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"

@@ -68,8 +68,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROCK_TUNNEL        ; 5b
 	const POWER_PLANT        ; 5c
 	const LAVENDER_TOWN      ; 5e
-	const LAV_RADIO_TOWER    ; 5f
-	const SOUL_HOUSE         ; 60
 	const ROUTE_11           ; 64
 	const ROUTE_12           ; 65
 	const ROUTE_13           ; 66

@@ -73,8 +73,6 @@ Landmarks:
 	landmark 140,  44, RockTunnelName
 	landmark 148,  52, PowerPlantName
 	landmark 140,  60, LavenderTownName
-	landmark 142,  58, LavRadioTowerName
-	landmark 142,  62, SoulHouseName
 	landmark 124,  76, Route11Name
 	landmark 140,  76, Route12Name
 	landmark 132,  92, Route13Name
@@ -135,8 +133,6 @@ VictoryRoadName:       rawchar "Victory¯Road@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 MtMoonName:            rawchar "Mt.Moon@"
 RockTunnelName:        rawchar "Rock Tunnel@"
-LavRadioTowerName:     rawchar "Lav.Radio¯Tower@"
-SoulHouseName:         rawchar "House of¯Souls@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"

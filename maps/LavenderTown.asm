@@ -10,8 +10,6 @@ LavenderTown_MapScriptHeader:
 	warp_event  3, 15, LAVENDER_TOWN_SPEECH_HOUSE, 1
 	warp_event  7, 15, LAVENDER_NAME_RATER, 1
 	warp_event  1,  7, LAVENDER_MART, 2
-	warp_event 13, 13, SOUL_HOUSE, 1
-	warp_event 14,  7, LAV_RADIO_TOWER_1F, 1
 
 	def_coord_events
 ; TODO:

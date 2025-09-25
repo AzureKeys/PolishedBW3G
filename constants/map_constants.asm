@@ -379,20 +379,6 @@ ENDM
 	map_const LAVENDER_TOWN_SPEECH_HOUSE,                  4,  4 ;  8
 	map_const LAVENDER_NAME_RATER,                         4,  4 ;  9
 	map_const LAVENDER_MART,                               6,  4 ; 10
-	map_const SOUL_HOUSE,                                  5,  5 ; 11
-	map_const SOUL_HOUSE_B1F,                             10,  9 ; 12
-	map_const SOUL_HOUSE_B2F,                             10,  9 ; 13
-	map_const SOUL_HOUSE_B3F,                              4,  9 ; 14
-	map_const LAV_RADIO_TOWER_1F,                         10,  4 ; 15
-	map_const LAV_RADIO_TOWER_2F,                          9,  4 ; 16
-	map_const LAV_RADIO_TOWER_3F,                          9,  4 ; 17
-	map_const LAV_RADIO_TOWER_4F,                          9,  4 ; 18
-	map_const LAV_RADIO_TOWER_5F,                          7,  4 ; 19
-	map_const HAUNTED_RADIO_TOWER_2F,                      9,  4 ; 20
-	map_const HAUNTED_RADIO_TOWER_3F,                      9,  4 ; 21
-	map_const HAUNTED_RADIO_TOWER_4F,                      9,  4 ; 22
-	map_const HAUNTED_RADIO_TOWER_5F,                      8,  9 ; 23
-	map_const HAUNTED_RADIO_TOWER_6F,                      8,  9 ; 24
 	map_const ROUTE_16_WEST,                              31, 13 ; 25
 
 	newgroup                                                     ; 20

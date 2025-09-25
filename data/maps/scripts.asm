@@ -471,32 +471,6 @@ INCLUDE "maps/LavenderTownSpeechHouse.asm"
 INCLUDE "maps/MrFujisHouse.asm"
 
 
-SECTION "Soul House Scripts", ROMX
-
-INCLUDE "maps/SoulHouse.asm"
-INCLUDE "maps/SoulHouseB1F.asm"
-INCLUDE "maps/SoulHouseB2F.asm"
-INCLUDE "maps/SoulHouseB3F.asm"
-
-
-SECTION "Lav Radio Tower Scripts", ROMX
-
-INCLUDE "maps/LavRadioTower1F.asm"
-INCLUDE "maps/LavRadioTower2F.asm"
-INCLUDE "maps/LavRadioTower3F.asm"
-INCLUDE "maps/LavRadioTower4F.asm"
-INCLUDE "maps/LavRadioTower5F.asm"
-
-
-SECTION "Haunted Radio Tower Scripts", ROMX
-
-INCLUDE "maps/HauntedRadioTower2F.asm"
-INCLUDE "maps/HauntedRadioTower3F.asm"
-INCLUDE "maps/HauntedRadioTower4F.asm"
-INCLUDE "maps/HauntedRadioTower5F.asm"
-INCLUDE "maps/HauntedRadioTower6F.asm"
-
-
 SECTION "Saffron Scripts 2", ROMX
 
 INCLUDE "maps/Underground.asm"

@@ -464,20 +464,6 @@ ENDM
 	map_attributes LavenderTownSpeechHouse, LAVENDER_TOWN_SPEECH_HOUSE, $0, 0
 	map_attributes LavenderNameRater, LAVENDER_NAME_RATER, $0, 0
 	map_attributes LavenderMart, LAVENDER_MART, $0, 0
-	map_attributes SoulHouse, SOUL_HOUSE, $0, 0
-	map_attributes SoulHouseB1F, SOUL_HOUSE_B1F, $6c, 0
-	map_attributes SoulHouseB2F, SOUL_HOUSE_B2F, $6c, 0
-	map_attributes SoulHouseB3F, SOUL_HOUSE_B3F, $6c, 0
-	map_attributes LavRadioTower1F, LAV_RADIO_TOWER_1F, $0, 0
-	map_attributes LavRadioTower2F, LAV_RADIO_TOWER_2F, $0, 0
-	map_attributes LavRadioTower3F, LAV_RADIO_TOWER_3F, $0, 0
-	map_attributes LavRadioTower4F, LAV_RADIO_TOWER_3F, $0, 0
-	map_attributes LavRadioTower5F, LAV_RADIO_TOWER_5F, $0, 0
-	map_attributes HauntedRadioTower2F, HAUNTED_RADIO_TOWER_2F, $0, 0
-	map_attributes HauntedRadioTower3F, HAUNTED_RADIO_TOWER_3F, $0, 0
-	map_attributes HauntedRadioTower4F, HAUNTED_RADIO_TOWER_4F, $0, 0
-	map_attributes HauntedRadioTower5F, HAUNTED_RADIO_TOWER_5F, $0, 0
-	map_attributes HauntedRadioTower6F, HAUNTED_RADIO_TOWER_6F, $0, 0
 	map_attributes Route8SaffronGate, ROUTE_8_SAFFRON_GATE, $0, 0
 	map_attributes Route12SuperRodHouse, ROUTE_12_SUPER_ROD_HOUSE, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

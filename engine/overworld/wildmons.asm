@@ -401,22 +401,6 @@ _ChooseWildEncounter:
 	call IsAPokemon
 	jr c, .nowildbattle
 
-	ld a, [wMapGroup]
-	cp GROUP_SOUL_HOUSE_B1F ; Soul House or Lavender Radio Tower
-	jr nz, .not_ghost
-	ld a, [wMapNumber]
-	cp MAP_SOUL_HOUSE_B1F ; first Ghost map in its group
-	jr c, .not_ghost
-	cp MAP_ROUTE_16_WEST ; non-ghost map in soul house group
-	jr z, .not_ghost
-	ld a, SILPHSCOPE2
-	ld [wCurKeyItem], a
-	call CheckKeyItem
-	jr c, .not_ghost
-	ld a, BATTLETYPE_GHOST
-	ld [wBattleType], a
-.not_ghost
-
 .startwildbattle
 	xor a
 	ret
