@@ -521,15 +521,9 @@ PokegearMap_Init:
 	ret
 
 PokegearMap_JohtoMap:
-	call TownMap_GetJohtoLandmarkLimits
-	jr PokegearMap_ContinueMap
-
 PokegearMap_KantoMap:
-	call TownMap_GetKantoLandmarkLimits
-	jr PokegearMap_ContinueMap
-
 PokegearMap_OrangeMap:
-PokegearMap_ContinueMap:
+	call TownMap_GetJohtoLandmarkLimits
 	ld hl, hJoyLast
 	ld a, [hl]
 	and PAD_A
@@ -717,10 +711,6 @@ PokegearMap_UpdateCursorPosition:
 
 TownMap_GetJohtoLandmarkLimits:
 	lb de, SILVER_CAVE, NEW_BARK_TOWN
-	ret
-
-TownMap_GetKantoLandmarkLimits:
-	lb de, ROUTE_28, PALLET_TOWN
 	ret
 
 PokegearRadio_Init:
@@ -1185,15 +1175,8 @@ _TownMap:
 	call DmgToCgbObjPal0
 	call DelayFrame
 
-	ld a, [wTownMapPlayerIconLandmark]
-	cp KANTO_LANDMARK
-	jr nc, .kanto
 	call TownMap_GetJohtoLandmarkLimits
-	jr .resume
-.kanto
-	call TownMap_GetKantoLandmarkLimits
-
-.resume
+	
 	call .loop
 	pop af
 	ld [wStateFlags], a
@@ -1644,10 +1627,6 @@ HasVisitedSpawn:
 INCLUDE "data/maps/flypoints.asm"
 
 FlyMap:
-	call GetCurrentLandmark
-	cp KANTO_LANDMARK
-	jr nc, .KantoFlyMap
-; Note that .NoKanto should be modified in tandem with this branch
 	push af
 ; Start from New Bark Town
 	ld a, FLY_NEW_BARK
@@ -1655,7 +1634,7 @@ FlyMap:
 ; Flypoints begin at New Bark Town...
 	ld [wStartFlypoint], a
 ; ..and end at Silver Cave
-	ld a, FLY_MT_SILVER
+	ld a, FLY_NEW_BARK
 	ld [wEndFlypoint], a
 ; Fill out the map
 	call FillJohtoMap
@@ -1665,58 +1644,7 @@ FlyMap:
 	call .MapHud
 	pop af
 	jmp TownMapPlayerIcon
-
-.KantoFlyMap:
-; The event that there are no flypoints enabled in a map is not
-; accounted for. As a result, if you attempt to select a flypoint
-; when there are none enabled, the game will crash. Additionally,
-; the flypoint selection has a default starting point that
-; can be flown to even if none are enabled
-; To prevent both of these things from happening when the player
-; enters Kanto, fly access is restricted until Indigo Plateau is
-; visited and its flypoint enabled
-	push af
-	ld c, SPAWN_INDIGO
-	call HasVisitedSpawn
-	and a
-	jr z, .NoKanto
-; Kanto's map is only loaded if we've visited Indigo Plateau
-
-; Flypoints begin at Pallet Town...
-	ld a, FLY_PALLET
-	ld [wStartFlypoint], a
-; ...and end at Indigo Plateau
-	ld a, FLY_INDIGO
-	ld [wEndFlypoint], a
-; Because Indigo Plateau is the first flypoint the player
-
-; visits, it's made the default flypoint
-	ld [wTownMapPlayerIconLandmark], a
-; Fill out the map
-	call FillKantoMap
-	call TownMapBubble
-	call TownMapPals
-	call TownMapKantoFlips
-	call .MapHud
-	pop af
-	jmp TownMapPlayerIcon
-
-.NoKanto:
-; If Indigo Plateau hasn't been visited, we use Johto's map instead
-
-; Start from New Bark Town
-	ld a, FLY_NEW_BARK
-	ld [wTownMapPlayerIconLandmark], a
-; Flypoints begin at New Bark Town...
-	ld [wStartFlypoint], a
-; ..and end at Silver Cave
-	ld a, FLY_MT_SILVER
-	ld [wEndFlypoint], a
-	call FillJohtoMap
-	pop af
-	call TownMapBubble
-	call TownMapPals
-	call TownMapJohtoFlips
+	
 .MapHud:
 	hlbgcoord 0, 0 ; BG Map 0
 	call TownMapBGUpdate

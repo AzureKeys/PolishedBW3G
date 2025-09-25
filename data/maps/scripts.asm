@@ -24,7 +24,6 @@ INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
 SECTION "Pokemon Center Scripts 4", ROMX
 
-INCLUDE "maps/SilverCavePokeCenter1F.asm"
 INCLUDE "maps/Route3PokeCenter1F.asm"
 INCLUDE "maps/Route10PokeCenter1F.asm"
 INCLUDE "maps/Route32PokeCenter1F.asm"
@@ -562,7 +561,6 @@ INCLUDE "maps/SeafoamIslandsB4F.asm"
 
 SECTION "Silver Cave Scripts", ROMX
 
-INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/SilverCaveRoom1.asm"
 INCLUDE "maps/SilverCaveRoom2.asm"
 INCLUDE "maps/SilverCaveRoom3.asm"
@@ -632,12 +630,6 @@ SECTION "Routes 24-26 Scripts", ROMX
 
 INCLUDE "maps/Route24.asm"
 INCLUDE "maps/Route25.asm"
-
-
-SECTION "Routes 27-29 Scripts", ROMX
-
-INCLUDE "maps/Route28.asm"
-INCLUDE "maps/Route28FamousSpeechHouse.asm"
 
 
 SECTION "Routes 30-32 Scripts", ROMX

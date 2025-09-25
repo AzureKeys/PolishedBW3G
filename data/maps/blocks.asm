@@ -6,7 +6,6 @@ AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
-SilverCavePokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -97,7 +96,6 @@ GoldenrodBandHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
 LakeOfRageHiddenPowerHouse_BlockData:
-Route28FamousSpeechHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
@@ -994,10 +992,6 @@ SECTION "SeafoamIslandsB4F_BlockData", ROMX
 SeafoamIslandsB4F_BlockData:
 	INCBIN "maps/SeafoamIslandsB4F.ablk.lz"
 
-SECTION "SilverCaveOutside_BlockData", ROMX
-SilverCaveOutside_BlockData:
-	INCBIN "maps/SilverCaveOutside.ablk.lz"
-
 SECTION "SilverCaveRoom1_BlockData", ROMX
 SilverCaveRoom1_BlockData:
 	INCBIN "maps/SilverCaveRoom1.ablk.lz"
@@ -1103,10 +1097,6 @@ Route24_BlockData:
 SECTION "Route25_BlockData", ROMX
 Route25_BlockData:
 	INCBIN "maps/Route25.ablk.lz"
-
-SECTION "Route28_BlockData", ROMX
-Route28_BlockData:
-	INCBIN "maps/Route28.ablk.lz"
 
 SECTION "Route32_BlockData", ROMX
 Route32_BlockData:

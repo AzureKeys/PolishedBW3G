@@ -97,7 +97,6 @@ Landmarks:
 	landmark  28,  64, Route23Name
 	landmark  28,  52, VictoryRoadName
 	landmark  28,  36, IndigoPlateauName
-	landmark  16,  76, Route28Name
 	landmark  54, 134, CinnabarLabName
 	assert_table_length NUM_LANDMARKS
 
@@ -162,7 +161,6 @@ Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
 Route24Name:           rawchar "Route 24@"
 Route25Name:           rawchar "Route 25@"
-Route28Name:           rawchar "Route 28@"
 Route32Name:           rawchar "Route 32@"
 Route33Name:           rawchar "Route 33@"
 Route34Name:           rawchar "Route 34@"

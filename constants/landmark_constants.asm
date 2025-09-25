@@ -92,7 +92,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_23           ; 7d
 	const VICTORY_ROAD       ; 7e
 	const INDIGO_PLATEAU     ; 7f
-	const ROUTE_28           ; 80
 	const CINNABAR_LAB       ; 81
 DEF SHAMOUTI_LANDMARK EQU const_value
 DEF NUM_LANDMARKS EQU const_value

@@ -1568,34 +1568,6 @@
 	wildmon 3, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons SILVER_CAVE_OUTSIDE
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 69, TANGELA
-	wildmon 70, PONYTA
-	wildmon 71, RATTATA ; randomly Kanto or Johto form
-	wildmon 74, RAPIDASH
-	wildmon 73, RATTATA
-	wildmon 75, SKARMORY
-	wildmon 75, RATTATA
-	; day
-	wildmon 69, TANGELA
-	wildmon 70, PONYTA
-	wildmon 71, RATTATA ; randomly Kanto or Johto form
-	wildmon 74, RAPIDASH
-	wildmon 73, RATTATA
-	wildmon 75, SKARMORY
-	wildmon 75, RATTATA
-	; nite
-	wildmon 69, TANGELA
-	wildmon 70, POLIWHIRL
-	wildmon 71, GOLBAT
-	wildmon 74, POLIWHIRL
-	wildmon 73, HOUNDOOM
-	wildmon 75, SNEASEL
-	wildmon 75, SNEASEL
-	end_grass_wildmons
-
 	def_grass_wildmons VIOLET_OUTSKIRTS
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

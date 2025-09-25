@@ -395,12 +395,6 @@ ENDM
 	map_const HAUNTED_RADIO_TOWER_6F,                      8,  9 ; 24
 	map_const ROUTE_16_WEST,                              31, 13 ; 25
 
-	newgroup                                                     ; 19
-	map_const ROUTE_28,                                   19,  9 ;  1
-	map_const SILVER_CAVE_OUTSIDE,                        20, 15 ;  2
-	map_const SILVER_CAVE_POKECENTER_1F,                   6,  4 ;  3
-	map_const ROUTE_28_FAMOUS_SPEECH_HOUSE,                4,  4 ;  4
-
 	newgroup                                                     ; 20
 	map_const POKECENTER_2F,                               8,  4 ;  1
 	map_const TRADE_CENTER,                                5,  4 ;  2

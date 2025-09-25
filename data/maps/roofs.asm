@@ -20,7 +20,6 @@ MapGroupRoofs:
 	db -1            ; 16
 	db -1            ; 17
 	db -1            ; 18
-	db ROOF_NEW_BARK ; 19 (Route 28)
 	db -1            ; 20
 	db ROOF_NEW_BARK ; 24 (New Bark Town)
 	assert_table_length NUM_MAP_GROUPS + 1

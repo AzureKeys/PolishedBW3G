@@ -784,34 +784,6 @@
 	wildmon 52, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_28
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 66, TANGELA
-	wildmon 67, PONYTA
-	wildmon 67, RATTATA ; randomly Kanto or Johto form
-	wildmon 70, RAPIDASH
-	wildmon 68, RATTATA
-	wildmon 71, SKARMORY
-	wildmon 71, RATTATA
-	; day
-	wildmon 66, TANGELA
-	wildmon 67, PONYTA
-	wildmon 67, RATTATA ; randomly Kanto or Johto form
-	wildmon 70, RAPIDASH
-	wildmon 68, RATTATA
-	wildmon 71, SKARMORY
-	wildmon 71, RATTATA
-	; nite
-	wildmon 66, TANGELA
-	wildmon 67, POLIWHIRL
-	wildmon 67, GOLBAT
-	wildmon 70, POLIWHIRL
-	wildmon 68, HOUNDOOM
-	wildmon 71, SNEASEL
-	wildmon 71, SNEASEL
-	end_grass_wildmons
-
 	def_grass_wildmons CERULEAN_CAPE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

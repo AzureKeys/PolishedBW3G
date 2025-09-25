@@ -39,12 +39,6 @@ ENDM
 	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, SOUTH
 	connection south, Route45, ROUTE_45, -2
 
-	map_attributes SilverCaveOutside, SILVER_CAVE_OUTSIDE, $71, EAST
-	connection east, Route28, ROUTE_28, 6
-
-	map_attributes Route28, ROUTE_28, $71, WEST
-	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -6
-
 	map_attributes Route32, ROUTE_32, $5, NORTH | SOUTH | WEST
 	connection north, VioletCity, VIOLET_CITY, 0
 	connection south, Route33, ROUTE_33, 0
@@ -486,8 +480,6 @@ ENDM
 	map_attributes HauntedRadioTower6F, HAUNTED_RADIO_TOWER_6F, $0, 0
 	map_attributes Route8SaffronGate, ROUTE_8_SAFFRON_GATE, $0, 0
 	map_attributes Route12SuperRodHouse, ROUTE_12_SUPER_ROD_HOUSE, $0, 0
-	map_attributes SilverCavePokeCenter1F, SILVER_CAVE_POKECENTER_1F, $0, 0
-	map_attributes Route28FamousSpeechHouse, ROUTE_28_FAMOUS_SPEECH_HOUSE, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0

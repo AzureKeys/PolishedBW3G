@@ -224,13 +224,6 @@
 	wildmon 5, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons SILVER_CAVE_OUTSIDE
-	db 2 percent ; encounter rate
-	wildmon 70, POLIWHIRL
-	wildmon 75, POLIWRATH
-	wildmon 70, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_32_COAST
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
