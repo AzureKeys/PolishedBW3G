@@ -452,10 +452,6 @@ SECTION "TinTower10F_BlockData", ROMX
 TinTower10F_BlockData:
 	INCBIN "maps/TinTower10F.ablk.lz"
 
-SECTION "TinTowerRoof_BlockData", ROMX
-TinTowerRoof_BlockData:
-	INCBIN "maps/TinTowerRoof.ablk.lz"
-
 SECTION "BurnedTower1F_BlockData", ROMX
 BurnedTower1F_BlockData:
 	INCBIN "maps/BurnedTower1F.ablk.lz"
@@ -463,10 +459,6 @@ BurnedTower1F_BlockData:
 SECTION "BurnedTowerB1F_BlockData", ROMX
 BurnedTowerB1F_BlockData:
 	INCBIN "maps/BurnedTowerB1F.ablk.lz"
-
-SECTION "OlivinePort_BlockData", ROMX
-OlivinePort_BlockData:
-	INCBIN "maps/OlivinePort.ablk.lz"
 
 SECTION "OlivineLighthouse1F_BlockData", ROMX
 OlivineLighthouse1F_BlockData:
@@ -558,7 +550,6 @@ MountMortarB1F_BlockData:
 
 SECTION "MahoganyMart1F_BlockData", ROMX
 MahoganyMart1F_BlockData:
-MountMoonGiftShop_BlockData:
 	INCBIN "maps/GiftShop.ablk.lz"
 
 SECTION "MahoganyGym_BlockData", ROMX
@@ -677,26 +668,6 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
-SECTION "FastShip1F_BlockData", ROMX
-FastShip1F_BlockData:
-	INCBIN "maps/FastShip1F.ablk.lz"
-
-SECTION "FastShipB1F_BlockData", ROMX
-FastShipB1F_BlockData:
-	INCBIN "maps/FastShipB1F.ablk.lz"
-
-SECTION "FastShipCabins_NNW_NNE_NE_BlockData", ROMX
-FastShipCabins_NNW_NNE_NE_BlockData:
-	INCBIN "maps/FastShipCabins_NNW_NNE_NE.ablk.lz"
-
-SECTION "FastShipCabins_SW_SSW_NW_BlockData", ROMX
-FastShipCabins_SW_SSW_NW_BlockData:
-	INCBIN "maps/FastShipCabins_SW_SSW_NW.ablk.lz"
-
-SECTION "FastShipCabins_SE_SSE_CaptainsCabin_BlockData", ROMX
-FastShipCabins_SE_SSE_CaptainsCabin_BlockData:
-	INCBIN "maps/FastShipCabins_SE_SSE_CaptainsCabin.ablk.lz"
-
 SECTION "PalletTown_BlockData", ROMX
 PalletTown_BlockData:
 	INCBIN "maps/PalletTown.ablk.lz"
@@ -746,10 +717,6 @@ SECTION "MountMoonB2F_BlockData", ROMX
 MountMoonB2F_BlockData:
 	INCBIN "maps/MountMoonB2F.ablk.lz"
 
-SECTION "MountMoonSquare_BlockData", ROMX
-MountMoonSquare_BlockData:
-	INCBIN "maps/MountMoonSquare.ablk.lz"
-
 SECTION "CeruleanGym_BlockData", ROMX
 CeruleanGym_BlockData:
 	INCBIN "maps/CeruleanGym.ablk.lz"
@@ -789,10 +756,6 @@ VermilionGym_BlockData:
 SECTION "VermilionCity_BlockData", ROMX
 VermilionCity_BlockData:
 	INCBIN "maps/VermilionCity.ablk.lz"
-
-SECTION "VermilionPort_BlockData", ROMX
-VermilionPort_BlockData:
-	INCBIN "maps/VermilionPort.ablk.lz"
 
 SECTION "PokemonFanClub_BlockData", ROMX
 PokemonFanClub_BlockData:

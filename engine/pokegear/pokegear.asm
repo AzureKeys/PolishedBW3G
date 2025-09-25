@@ -127,10 +127,6 @@ Pokegear_LoadGFX:
 	ld b, a
 	ld a, [wMapNumber]
 	ld c, a
-	call GetWorldMapLocation
-	ld hl, FastShipGFX
-	cp FAST_SHIP
-	jr z, .load_alt_sprite
 	farcall GetPlayerIcon
 	ldh a, [rWBK]
 	push af

@@ -246,14 +246,8 @@ INCLUDE "maps/TinTower7F.asm"
 INCLUDE "maps/TinTower8F.asm"
 INCLUDE "maps/TinTower9F.asm"
 INCLUDE "maps/TinTower10F.asm"
-INCLUDE "maps/TinTowerRoof.asm"
 INCLUDE "maps/BurnedTower1F.asm"
 INCLUDE "maps/BurnedTowerB1F.asm"
-
-
-SECTION "Olivine Scripts", ROMX
-
-INCLUDE "maps/OlivinePort.asm"
 
 
 SECTION "Olivine Lighthouse Scripts", ROMX
@@ -359,15 +353,6 @@ INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
 
 
-SECTION "Fast Ship Scripts", ROMX
-
-INCLUDE "maps/FastShip1F.asm"
-INCLUDE "maps/FastShipB1F.asm"
-INCLUDE "maps/FastShipCabins_NNW_NNE_NE.asm"
-INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
-INCLUDE "maps/FastShipCabins_SE_SSE_CaptainsCabin.asm"
-
-
 SECTION "Pallet Scripts", ROMX
 
 INCLUDE "maps/PalletTown.asm"
@@ -398,8 +383,6 @@ SECTION "Mount Moon Scripts", ROMX
 INCLUDE "maps/MountMoon1F.asm"
 INCLUDE "maps/MountMoonB1F.asm"
 INCLUDE "maps/MountMoonB2F.asm"
-INCLUDE "maps/MountMoonGiftShop.asm"
-INCLUDE "maps/MountMoonSquare.asm"
 
 
 SECTION "Cerulean Scripts", ROMX
@@ -442,7 +425,6 @@ INCLUDE "maps/VermilionHouseDiglettsCaveSpeechHouse.asm"
 INCLUDE "maps/VermilionHouseFishingSpeechHouse.asm"
 INCLUDE "maps/VermilionMagnetTrainSpeechHouse.asm"
 INCLUDE "maps/VermilionPollutionSpeechHouse.asm"
-INCLUDE "maps/VermilionPort.asm"
 INCLUDE "maps/VermilionSSAnneSpeechHouse.asm"
 INCLUDE "maps/PokemonFanClub.asm"
 

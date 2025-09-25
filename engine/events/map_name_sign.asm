@@ -136,13 +136,6 @@ InitMapNameSign::
 	cp MAP_ROUTE_36_NATIONAL_PARK_GATE
 	ret
 .not_national_park_gate
-	assert GROUP_OLIVINE_PORT == GROUP_VERMILION_PORT
-	cp GROUP_OLIVINE_PORT
-	ret nz
-	ld a, [wMapNumber]
-	cp MAP_OLIVINE_PORT
-	ret z
-	cp MAP_VERMILION_PORT
 	ret
 
 PlaceMapNameSign::

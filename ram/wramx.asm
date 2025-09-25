@@ -1075,8 +1075,6 @@ wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
-wFastShip1FSceneID:: db
-wFastShipB1FSceneID:: db
 wGiovannisCaveSceneID:: db
 wGoldenrodCitySceneID:: db
 wGoldenrodGymSceneID:: db
@@ -1092,7 +1090,6 @@ wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
 wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
-wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db
 wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
@@ -1112,7 +1109,6 @@ wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
 wUndergroundPathSwitchRoomEntrancesSceneID:: db
 wVermilionCitySceneID:: db
-wVermilionPortSceneID:: db
 wVictoryRoad2FSceneID:: db
 wVioletGymSceneID:: db
 wWillsRoomSceneID:: db
@@ -1163,7 +1159,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 89 ; unused
+	ds 93 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

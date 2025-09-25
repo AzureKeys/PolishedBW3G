@@ -16,7 +16,6 @@ MapGroupRoofs:
 	db -1            ; 12
 	db -1            ; 13
 	db -1            ; 14
-	db -1            ; 15
 	db -1            ; 16
 	db -1            ; 20
 	db ROOF_NEW_BARK ; 24 (New Bark Town)

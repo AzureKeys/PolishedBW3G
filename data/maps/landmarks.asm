@@ -51,7 +51,6 @@ Landmarks:
 	landmark 116,  68, DarkCaveName
 	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
-	landmark 102, 124, FastShipName
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  88, Route1Name
@@ -156,7 +155,6 @@ Route46Name:           rawchar "Route 46@"
 DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
-FastShipName:          rawchar "Fast Ship@"
 DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"

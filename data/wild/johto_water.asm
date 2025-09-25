@@ -119,13 +119,6 @@
 	wildmon 20, DRATINI
 	end_water_wildmons
 
-	def_water_wildmons OLIVINE_PORT
-	db 2 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
 	wildmon 15, RATTATA

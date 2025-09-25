@@ -31,8 +31,6 @@ MapScenes::
 	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID
-	scene_var FAST_SHIP_1F,                           wFastShip1FSceneID
-	scene_var FAST_SHIP_B1F,                          wFastShipB1FSceneID
 	scene_var GIOVANNIS_CAVE,                         wGiovannisCaveSceneID
 	scene_var GOLDENROD_CITY,                         wGoldenrodCitySceneID
 	scene_var GOLDENROD_GYM,                          wGoldenrodGymSceneID
@@ -46,9 +44,7 @@ MapScenes::
 	scene_var MAHOGANY_MART_1F,                       wMahoganyMart1FSceneID
 	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
-	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
-	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var POWER_PLANT,                            wPowerPlantSceneID
@@ -71,7 +67,6 @@ MapScenes::
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
 	scene_var VERMILION_CITY,                         wVermilionCitySceneID
-	scene_var VERMILION_PORT,                         wVermilionPortSceneID
 	scene_var VICTORY_ROAD_2F,                        wVictoryRoad2FSceneID
 	scene_var VIOLET_GYM,                             wVioletGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID

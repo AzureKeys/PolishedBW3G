@@ -122,7 +122,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .DarkCave ; no calls
 	dw .Route46
 	dw .SilverCave
-	dw .FastShip
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:
@@ -171,9 +170,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .DarkCave:
 .Route46:
 .SilverCave:
-.FastShip:
-.SinjohRuins:
-.MystriStage:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
 	end

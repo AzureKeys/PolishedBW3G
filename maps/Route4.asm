@@ -5,7 +5,6 @@ Route4_MapScriptHeader:
 
 	def_warp_events
 	warp_event  4,  7, MOUNT_MOON_B1F, 8
-	warp_event 19,  5, MOUNT_MOON_SQUARE, 1
 
 	def_coord_events
 

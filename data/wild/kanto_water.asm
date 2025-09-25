@@ -7,13 +7,6 @@
 	wildmon  20, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons VERMILION_PORT
-	db 2 percent ; encounter rate
-	wildmon  45, RATTATA
-	wildmon  40, RATTATA
-	wildmon  45, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
 	wildmon  55, RATTATA
