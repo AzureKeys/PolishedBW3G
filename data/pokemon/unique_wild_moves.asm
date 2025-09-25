@@ -47,6 +47,4 @@ UniqueWildMoves:
 	unique_moves TOHJO_FALLS,      0,          0
 	unique_moves VICTORY_ROAD,     0,          0
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
-	unique_moves YELLOW_FOREST,    PIKACHU,    PLAIN_FORM,        FLY  ; Yellow special move, assumed only Pikachu can learn Fly
-	unique_moves YELLOW_FOREST,    PIKACHU,    PIKACHU_SURF_FORM, SURF ; Yellow special move, assumed only Pikachu can learn Surf
 	db -1

@@ -81,5 +81,4 @@ MapScenes::
 	scene_var VIOLET_GYM,                             wVioletGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
-	scene_var YELLOW_FOREST,                          wYellowForestSceneID
 	db -1

@@ -252,13 +252,6 @@
 	wildmon LEVEL_FROM_BADGES + 0, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons YELLOW_FOREST
-	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, MARILL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU, PIKACHU_SURF_FORM
-	wildmon LEVEL_FROM_BADGES - 4, PSYDUCK
-	end_water_wildmons
-
 	def_water_wildmons MURKY_SWAMP
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 5, RATTATA

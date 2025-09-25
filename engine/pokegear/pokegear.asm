@@ -1678,8 +1678,6 @@ INCLUDE "data/maps/flypoints.asm"
 
 FlyMap:
 	call GetCurrentLandmark
-	cp SHAMOUTI_LANDMARK
-	jr nc, .OrangeFlyMap
 	cp KANTO_LANDMARK
 	jr nc, .KantoFlyMap
 ; Note that .NoKanto should be modified in tandem with this branch
@@ -1697,25 +1695,6 @@ FlyMap:
 	call TownMapBubble
 	call TownMapPals
 	call TownMapJohtoFlips
-	call .MapHud
-	pop af
-	jmp TownMapPlayerIcon
-
-.OrangeFlyMap:
-	push af
-; Start from Shamouti Island
-	ld a, FLY_SHAMOUTI
-	ld [wTownMapPlayerIconLandmark], a
-; Flypoints begin at Shamouti Island...
-	ld [wStartFlypoint], a
-; ..and end at Navel Rock
-	ld a, FLY_NAVEL
-	ld [wEndFlypoint], a
-; Fill out the map
-	call FillOrangeMap
-	call TownMapBubble
-	call TownMapPals
-	call TownMapOrangeFlips
 	call .MapHud
 	pop af
 	jmp TownMapPlayerIcon

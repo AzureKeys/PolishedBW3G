@@ -41,7 +41,6 @@ Route34IlexForestGate_BlockData:
 Route35GoldenrodGate_BlockData:
 Route36RuinsOfAlphGate_BlockData:
 Route40BattleTowerGate_BlockData:
-YellowForestGate_BlockData:
 Route43Gate_BlockData:
 Route43MahoganyGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
@@ -562,10 +561,6 @@ WhirlIslandB2F_BlockData:
 SECTION "WhirlIslandLugiaChamber_BlockData", ROMX
 WhirlIslandLugiaChamber_BlockData:
 	INCBIN "maps/WhirlIslandLugiaChamber.ablk.lz"
-
-SECTION "YellowForest_BlockData", ROMX
-YellowForest_BlockData:
-	INCBIN "maps/YellowForest.ablk.lz"
 
 SECTION "MountMortar1FOutside_BlockData", ROMX
 MountMortar1FOutside_BlockData:

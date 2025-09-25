@@ -1652,34 +1652,6 @@
 	wildmon LEVEL_FROM_BADGES + 5, HAUNTER
 	end_grass_wildmons
 
-	def_grass_wildmons YELLOW_FOREST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, MARILL
-	wildmon LEVEL_FROM_BADGES - 3, MARILL
-	wildmon LEVEL_FROM_BADGES - 14, PICHU
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
-	wildmon LEVEL_FROM_BADGES - 2, PARAS
-	wildmon LEVEL_FROM_BADGES - 2, MARILL
-	wildmon LEVEL_FROM_BADGES - 3, MARILL
-	wildmon LEVEL_FROM_BADGES - 14, PICHU
-	; nite
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, MEOWTH
-	wildmon LEVEL_FROM_BADGES - 2, PARAS
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons STORMY_BEACH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

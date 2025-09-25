@@ -415,8 +415,6 @@ ENDM
 	map_const COLOSSEUM,                                   5,  4 ;  3
 	map_const HIDDEN_TREE_GROTTO,                          5,  9 ;  4
 	map_const HIDDEN_CAVE_GROTTO,                         20, 45 ;  5
-	map_const YELLOW_FOREST_GATE,                          5,  4 ;  6
-	map_const YELLOW_FOREST,                              29, 26 ;  7
 
 	newgroup                                                     ; 24
 	map_const NEW_BARK_TOWN,                              10,  9 ;  4

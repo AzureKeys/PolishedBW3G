@@ -281,12 +281,6 @@ INCLUDE "maps/WhirlIslandCave.asm"
 INCLUDE "maps/WhirlIslandLugiaChamber.asm"
 
 
-SECTION "Yellow Forest Scripts", ROMX
-
-INCLUDE "maps/YellowForest.asm"
-INCLUDE "maps/YellowForestGate.asm"
-
-
 SECTION "Mount Mortar Scripts", ROMX
 
 INCLUDE "maps/MountMortar1FOutside.asm"

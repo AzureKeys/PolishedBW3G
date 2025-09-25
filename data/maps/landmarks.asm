@@ -38,7 +38,6 @@ Landmarks:
 	landmark  28,  64, Route40Name
 	landmark  28,  52, BattleTowerName
 	landmark  28,  92, WhirlIslandsName
-	landmark  12,  84, YellowForestName
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
 	landmark 108,  44, MahoganyTownName
@@ -186,7 +185,6 @@ DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
-YellowForestName:      rawchar "Yellow¯Forest@"
 MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"
 Route34CoastName:      rawchar "Route 34¯Coast@"

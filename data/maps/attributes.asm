@@ -513,8 +513,6 @@ ENDM
 	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
 	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
 	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0
-	map_attributes YellowForestGate, YELLOW_FOREST_GATE, $0, 0
-	map_attributes YellowForest, YELLOW_FOREST, $55, 0
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0

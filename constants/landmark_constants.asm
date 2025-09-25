@@ -33,7 +33,6 @@
 	const ROUTE_40           ; 29
 	const BATTLE_TOWER       ; 2a
 	const WHIRL_ISLANDS      ; 2b
-	const YELLOW_FOREST      ; 32
 	const ROUTE_42           ; 34
 	const MT_MORTAR          ; 35
 	const MAHOGANY_TOWN      ; 36
