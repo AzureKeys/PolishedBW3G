@@ -10,7 +10,6 @@ SECTION "Pokemon Center Scripts 2", ROMX
 INCLUDE "maps/MahoganyPokeCenter1F.asm"
 INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
-INCLUDE "maps/PewterPokeCenter1F.asm"
 INCLUDE "maps/CeruleanPokeCenter1F.asm"
 
 
@@ -22,7 +21,6 @@ INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
 SECTION "Pokemon Center Scripts 4", ROMX
 
-INCLUDE "maps/Route3PokeCenter1F.asm"
 INCLUDE "maps/Route10PokeCenter1F.asm"
 INCLUDE "maps/Route32PokeCenter1F.asm"
 INCLUDE "maps/GoldenrodPokecomCenter1F.asm"
@@ -363,21 +361,6 @@ INCLUDE "maps/BluesHouse1F.asm"
 INCLUDE "maps/BluesHouse2F.asm"
 
 
-SECTION "Pewter Scripts", ROMX
-
-INCLUDE "maps/PewterCity.asm"
-INCLUDE "maps/PewterMart.asm"
-INCLUDE "maps/PewterGym.asm"
-INCLUDE "maps/PewterNidoranSpeechHouse.asm"
-INCLUDE "maps/PewterSnoozeSpeechHouse.asm"
-
-
-SECTION "Pewter Museum Scripts", ROMX
-
-INCLUDE "maps/PewterMuseumOfScience1F.asm"
-INCLUDE "maps/PewterMuseumOfScience2F.asm"
-
-
 SECTION "Mount Moon Scripts", ROMX
 
 INCLUDE "maps/MountMoon1F.asm"
@@ -499,7 +482,6 @@ INCLUDE "maps/SilverCaveItemRooms.asm"
 SECTION "Routes 1-4 Scripts", ROMX
 
 INCLUDE "maps/Route1.asm"
-INCLUDE "maps/Route3.asm"
 INCLUDE "maps/Route4.asm"
 
 

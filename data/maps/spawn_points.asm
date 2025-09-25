@@ -11,8 +11,6 @@ SpawnPoints:
 	spawn PLAYERS_HOUSE_2F,            3,  3
 
 	spawn PALLET_TOWN,                 5,  6
-	spawn PEWTER_CITY,                13, 26
-	spawn ROUTE_3,                    61,  4
 	spawn CERULEAN_CITY,              19, 18
 	spawn CERULEAN_CAPE,               9,  6
 	spawn VERMILION_CITY,              9,  6

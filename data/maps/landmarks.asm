@@ -54,8 +54,6 @@ Landmarks:
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 100, PalletTownName
 	landmark  52,  88, Route1Name
-	landmark  52,  44, PewterCityName
-	landmark  64,  44, Route3Name
 	landmark  76,  44, MtMoonName
 	landmark  92,  44, Route4Name
 	landmark 108,  44, CeruleanCityName
@@ -113,7 +111,6 @@ MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
 PalletTownName:        rawchar "Pallet Town@"
-PewterCityName:        rawchar "Pewter City@"
 CeruleanCityName:      rawchar "Cerulean¯City@"
 VermilionCityName:     rawchar "Vermilion¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
@@ -128,7 +125,6 @@ CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
 CeruleanCaveName:      rawchar "Cerulean¯Cave@"
 CeruleanCapeName:      rawchar "Cerulean¯Cape@"
 Route1Name:            rawchar "Route 1@"
-Route3Name:            rawchar "Route 3@"
 Route4Name:            rawchar "Route 4@"
 Route6Name:            rawchar "Route 6@"
 Route10Name:           rawchar "Route 10@"

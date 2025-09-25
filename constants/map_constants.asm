@@ -309,18 +309,6 @@ ENDM
 	map_const BLUES_HOUSE_2F,                              4,  4 ;  6
 	map_const OAKS_LAB,                                    5,  6 ;  7
 
-	newgroup                                                     ; 14
-	map_const ROUTE_3,                                    36, 11 ;  2
-	map_const ROUTE_3_POKECENTER_1F,                       6,  4 ;  3
-	map_const PEWTER_CITY,                                20, 18 ;  4
-	map_const PEWTER_NIDORAN_SPEECH_HOUSE,                 4,  4 ;  5
-	map_const PEWTER_GYM,                                  5,  7 ;  6
-	map_const PEWTER_MART,                                 6,  4 ;  7
-	map_const PEWTER_POKECENTER_1F,                        6,  4 ;  8
-	map_const PEWTER_SNOOZE_SPEECH_HOUSE,                  4,  4 ;  9
-	map_const PEWTER_MUSEUM_OF_SCIENCE_1F,                10,  4 ; 10
-	map_const PEWTER_MUSEUM_OF_SCIENCE_2F,                 7,  4 ; 11
-
 	newgroup                                                     ; 16
 	map_const ROUTE_23,                                   12, 70 ;  1
 	map_const INDIGO_PLATEAU,                             12, 13 ;  2

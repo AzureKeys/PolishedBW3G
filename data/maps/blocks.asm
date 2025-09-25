@@ -11,8 +11,6 @@ BlackthornPokeCenter1F_BlockData:
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-PewterPokeCenter1F_BlockData:
-Route3PokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
 VermilionPokeCenter1F_BlockData:
 Route10PokeCenter1F_BlockData:
@@ -26,7 +24,6 @@ VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 BlackthornMart_BlockData:
-PewterMart_BlockData:
 CeruleanMart_BlockData:
 VermilionMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
@@ -107,11 +104,6 @@ VermilionHouseDiglettsCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
 Route19BeachHouse_BlockData:
 	INCBIN "maps/KantoHouse3.ablk.lz"
-
-SECTION "PewterNidoranSpeechHouse_BlockData", ROMX
-PewterNidoranSpeechHouse_BlockData:
-PewterSnoozeSpeechHouse_BlockData:
-	INCBIN "maps/KantoHouse4.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
@@ -689,22 +681,6 @@ RedsHouse2F_BlockData:
 BluesHouse2F_BlockData:
 	INCBIN "maps/RedsHouse2F.ablk.lz"
 
-SECTION "PewterGym_BlockData", ROMX
-PewterGym_BlockData:
-	INCBIN "maps/PewterGym.ablk.lz"
-
-SECTION "PewterCity_BlockData", ROMX
-PewterCity_BlockData:
-	INCBIN "maps/PewterCity.ablk.lz"
-
-SECTION "PewterMuseumOfScience1F_BlockData", ROMX
-PewterMuseumOfScience1F_BlockData:
-	INCBIN "maps/PewterMuseumOfScience1F.ablk.lz"
-
-SECTION "PewterMuseumOfScience2F_BlockData", ROMX
-PewterMuseumOfScience2F_BlockData:
-	INCBIN "maps/PewterMuseumOfScience2F.ablk.lz"
-
 SECTION "MountMoon1F_BlockData", ROMX
 MountMoon1F_BlockData:
 	INCBIN "maps/MountMoon1F.ablk.lz"
@@ -878,10 +854,6 @@ HiddenCaveGrotto_BlockData:
 SECTION "Route1_BlockData", ROMX
 Route1_BlockData:
 	INCBIN "maps/Route1.ablk.lz"
-
-SECTION "Route3_BlockData", ROMX
-Route3_BlockData:
-	INCBIN "maps/Route3.ablk.lz"
 
 SECTION "Route4_BlockData", ROMX
 Route4_BlockData:

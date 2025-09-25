@@ -336,34 +336,6 @@
 	wildmon 60, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_3
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 52, RATTATA
-	wildmon 52, RATICATE
-	wildmon 54, RATTATA
-	wildmon 55, SANDSLASH
-	wildmon 55, RATTATA
-	wildmon 57, JIGGLYPUFF
-	wildmon 55, WIGGLYTUFF
-	; day
-	wildmon 52, RATTATA
-	wildmon 52, RATICATE
-	wildmon 54, RATTATA
-	wildmon 55, SANDSLASH
-	wildmon 55, RATTATA
-	wildmon 57, JIGGLYPUFF
-	wildmon 55, WIGGLYTUFF
-	; nite
-	wildmon 52, RATICATE
-	wildmon 52, RATICATE
-	wildmon 54, RATICATE
-	wildmon 55, GOLBAT
-	wildmon 55, RATICATE
-	wildmon 57, CLEFAIRY
-	wildmon 55, CLEFABLE
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_4
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
