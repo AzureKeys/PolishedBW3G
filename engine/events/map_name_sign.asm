@@ -43,15 +43,6 @@ InitMapNameSign::
 	call .CheckSpecialMap
 	jr z, .dont_do_map_sign
 
-; Vermilion City runs a scene_script by default
-	ld a, [wCurLandmark]
-	cp VERMILION_CITY
-	jr nz, .not_vermilion_city
-	ld a, [wVermilionCitySceneID]
-	and a
-	jr z, .dont_do_map_sign
-.not_vermilion_city
-
 ; Landmark sign timer: descends $74-$00
 ; $73-$68: Sliding out (old sign)
 ; $67-$65: Loading new graphics

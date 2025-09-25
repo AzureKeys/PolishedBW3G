@@ -61,13 +61,10 @@ Landmarks:
 	landmark 124,  28, Route25Name
 	landmark 140,  28, CeruleanCapeName
 	landmark 114,  66, UndergroundName
-	landmark 108,  68, Route6Name
-	landmark 108,  76, VermilionCityName
 	landmark 116,  68, DiglettsCaveName
 	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
 	landmark 148,  52, PowerPlantName
-	landmark 124,  76, Route11Name
 	landmark  64, 108, UragaChannelName
 	landmark  60, 116, ScaryCaveName
 	landmark  92, 120, Route19Name
@@ -110,7 +107,6 @@ MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
 CeruleanCityName:      rawchar "Cerulean¯City@"
-VermilionCityName:     rawchar "Vermilion¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 VictoryRoadName:       rawchar "Victory¯Road@"
@@ -124,9 +120,7 @@ CeruleanCaveName:      rawchar "Cerulean¯Cave@"
 CeruleanCapeName:      rawchar "Cerulean¯Cape@"
 Route1Name:            rawchar "Route 1@"
 Route4Name:            rawchar "Route 4@"
-Route6Name:            rawchar "Route 6@"
 Route10Name:           rawchar "Route 10@"
-Route11Name:           rawchar "Route 11@"
 Route19Name:           rawchar "Route 19@"
 Route20Name:           rawchar "Route 20@"
 Route21Name:           rawchar "Route 21@"

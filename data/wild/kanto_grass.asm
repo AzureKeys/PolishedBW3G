@@ -336,62 +336,6 @@
 	wildmon 59, CLEFABLE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_6
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 45, RATICATE
-	wildmon 45, GRANBULL
-	wildmon 46, MAGNETON
-	wildmon 47, PRIMEAPE
-	wildmon 50, JIGGLYPUFF
-	wildmon 47, GRANBULL
-	wildmon 47, WIGGLYTUFF
-	; day
-	wildmon 45, RATICATE
-	wildmon 45, GRANBULL
-	wildmon 46, MAGNETON
-	wildmon 47, PRIMEAPE
-	wildmon 50, JIGGLYPUFF
-	wildmon 47, GRANBULL
-	wildmon 47, WIGGLYTUFF
-	; nite
-	wildmon 45, PERSIAN
-	wildmon 45, RATTATA
-	wildmon 46, MAGNETON
-	wildmon 47, PSYDUCK
-	wildmon 50, JIGGLYPUFF
-	wildmon 47, RATICATE
-	wildmon 47, WIGGLYTUFF
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_11
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 53, RATTATA
-	wildmon 48, RATICATE
-	wildmon 50, MAGNETON
-	wildmon 51, RATTATA
-	wildmon 51, SANDSLASH
-	wildmon 51, SUNFLORA
-	wildmon 53, SUNFLORA
-	; day
-	wildmon 53, RATTATA
-	wildmon 48, RATICATE
-	wildmon 50, MAGNETON
-	wildmon 51, RATTATA
-	wildmon 51, SANDSLASH
-	wildmon 51, SUNFLORA
-	wildmon 53, SUNFLORA
-	; nite
-	wildmon 53, RATTATA
-	wildmon 48, MEOWTH
-	wildmon 50, MAGNEMITE
-	wildmon 51, RATTATA
-	wildmon 51, RATICATE
-	wildmon 51, RATTATA
-	wildmon 51, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_21
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn

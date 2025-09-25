@@ -7,9 +7,6 @@ ENDM
 
 MapScenes::
 	scene_var AZALEA_TOWN,                            wAzaleaTownSceneID
-	scene_var BATTLE_FACTORY_1F,                      wBattleFacilitySceneID
-	scene_var BATTLE_FACTORY_BATTLE_ROOM,             wAlways0SceneID
-	scene_var BATTLE_FACTORY_HALLWAY,                 wAlways0SceneID
 	scene_var BATTLE_TOWER_1F,                        wBattleFacilitySceneID
 	scene_var BATTLE_TOWER_BATTLE_ROOM,               wAlways0SceneID
 	scene_var BATTLE_TOWER_ELEVATOR,                  wAlways0SceneID
@@ -66,7 +63,6 @@ MapScenes::
 	scene_var TIN_TOWER_1F,                           wTinTower1FSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
-	scene_var VERMILION_CITY,                         wVermilionCitySceneID
 	scene_var VICTORY_ROAD_2F,                        wVictoryRoad2FSceneID
 	scene_var VIOLET_GYM,                             wVioletGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID

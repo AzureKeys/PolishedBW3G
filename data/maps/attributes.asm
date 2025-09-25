@@ -112,16 +112,6 @@ ENDM
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
 
-	map_attributes Route11, ROUTE_11, $f, WEST
-	connection west, VermilionCity, VERMILION_CITY, -5
-
-	map_attributes VermilionCity, VERMILION_CITY, $43, NORTH | EAST
-	connection north, Route6, ROUTE_6, 3
-	connection east, Route11, ROUTE_11, 5
-
-	map_attributes Route6, ROUTE_6, $f, SOUTH
-	connection south, VermilionCity, VERMILION_CITY, -3
-
 	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | WEST
 	connection north, Route24, ROUTE_24, 0
 	connection west, Route4, ROUTE_4, 2
@@ -336,22 +326,6 @@ ENDM
 	map_attributes GoldenrodBandHouse, GOLDENROD_BAND_HOUSE, $0, 0
 	map_attributes GoldenrodMuseum1F, GOLDENROD_MUSEUM_1F, $0, 0
 	map_attributes GoldenrodMuseum2F, GOLDENROD_MUSEUM_2F, $0, 0
-	map_attributes VermilionHouseFishingSpeechHouse, VERMILION_HOUSE_FISHING_SPEECH_HOUSE, $0, 0
-	map_attributes VermilionPokeCenter1F, VERMILION_POKECENTER_1F, $0, 0
-	map_attributes PokemonFanClub, POKEMON_FAN_CLUB, $0, 0
-	map_attributes VermilionMagnetTrainSpeechHouse, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, $0, 0
-	map_attributes VermilionMart, VERMILION_MART, $0, 0
-	map_attributes VermilionHouseDiglettsCaveSpeechHouse, VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE, $0, 0
-	map_attributes VermilionGym, VERMILION_GYM, $0, 0
-	map_attributes Route6SaffronGate, ROUTE_6_SAFFRON_GATE, $0, 0
-	map_attributes Route6UndergroundEntrance, ROUTE_6_UNDERGROUND_ENTRANCE, $0, 0
-	map_attributes Route11Gate, ROUTE_11_GATE, $0, 0
-	map_attributes Route11Gate2F, ROUTE_11_GATE_2F, $0, 0
-	map_attributes VermilionPollutionSpeechHouse, VERMILION_POLLUTION_SPEECH_HOUSE, $0, 0
-	map_attributes VermilionSSAnneSpeechHouse, VERMILION_S_S_ANNE_SPEECH_HOUSE, $0, 0
-	map_attributes BattleFactory1F, BATTLE_FACTORY_1F, $0, 0
-	map_attributes BattleFactoryHallway, BATTLE_FACTORY_HALLWAY, $0, 0
-	map_attributes BattleFactoryBattleRoom, BATTLE_FACTORY_BATTLE_ROOM, $0, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0

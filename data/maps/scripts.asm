@@ -15,7 +15,6 @@ INCLUDE "maps/CeruleanPokeCenter1F.asm"
 
 SECTION "Pokemon Center Scripts 3", ROMX
 
-INCLUDE "maps/VermilionPokeCenter1F.asm"
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
 
@@ -48,9 +47,6 @@ INCLUDE "maps/BattleTowerBattleRoom.asm"
 INCLUDE "maps/BattleTowerElevator.asm"
 INCLUDE "maps/BattleTowerHallway.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
-INCLUDE "maps/BattleFactory1F.asm"
-INCLUDE "maps/BattleFactoryHallway.asm"
-INCLUDE "maps/BattleFactoryBattleRoom.asm"
 
 
 SECTION "New Bark Scripts", ROMX
@@ -389,19 +385,6 @@ INCLUDE "maps/CeruleanCape.asm"
 INCLUDE "maps/BillsHouse.asm"
 
 
-SECTION "Vermilion Scripts", ROMX
-
-INCLUDE "maps/VermilionCity.asm"
-INCLUDE "maps/VermilionMart.asm"
-INCLUDE "maps/VermilionGym.asm"
-INCLUDE "maps/VermilionHouseDiglettsCaveSpeechHouse.asm"
-INCLUDE "maps/VermilionHouseFishingSpeechHouse.asm"
-INCLUDE "maps/VermilionMagnetTrainSpeechHouse.asm"
-INCLUDE "maps/VermilionPollutionSpeechHouse.asm"
-INCLUDE "maps/VermilionSSAnneSpeechHouse.asm"
-INCLUDE "maps/PokemonFanClub.asm"
-
-
 SECTION "Diglett's Cave Scripts", ROMX
 
 INCLUDE "maps/DiglettsCave.asm"
@@ -472,20 +455,6 @@ INCLUDE "maps/SilverCaveItemRooms.asm"
 SECTION "Routes 1-4 Scripts", ROMX
 
 INCLUDE "maps/Route4.asm"
-
-
-SECTION "Routes 5-8 Scripts", ROMX
-
-INCLUDE "maps/Route6.asm"
-INCLUDE "maps/Route6SaffronGate.asm"
-INCLUDE "maps/Route6UndergroundEntrance.asm"
-
-
-SECTION "Routes 9-11 Scripts", ROMX
-
-INCLUDE "maps/Route11.asm"
-INCLUDE "maps/Route11Gate.asm"
-INCLUDE "maps/Route11Gate2F.asm"
 
 
 SECTION "Routes 18-20 Scripts", ROMX

@@ -188,7 +188,6 @@ endr
 	setflag ENGINE_FLYPOINT_INDIGO_PLATEAU
 	setflag ENGINE_FLYPOINT_CERULEAN
 	setflag ENGINE_FLYPOINT_CERULEAN_CAPE
-	setflag ENGINE_FLYPOINT_VERMILION
 	setflag ENGINE_FLYPOINT_CINNABAR
 	; magnet train works
 	setevent EVENT_RESTORED_POWER_TO_KANTO
@@ -279,8 +278,6 @@ endr
 	setmapscene BURNED_TOWER_1F, $2
 	; blackthorn events
 	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
-	; vermilion events
-	setmapscene VERMILION_CITY, $1
 	closetext
 	warpfacing DOWN, GOLDENROD_CITY, 13, 14
 	end

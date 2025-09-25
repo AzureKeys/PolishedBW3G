@@ -7,8 +7,6 @@ IrwinRumorScript:
 	iftruefwd .TrainPass
 	checkflag ENGINE_SOULBADGE
 	iftruefwd .MarshBadge
-	checkflag ENGINE_FLYPOINT_VERMILION
-	iftruefwd .VermilionCity
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftruefwd .EliteFour
 	checkflag ENGINE_RISINGBADGE
@@ -54,11 +52,6 @@ IrwinRumorScript:
 
 .EliteFour:
 	farwritetext IrwinEliteFourGossipText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-.VermilionCity:
-	farwritetext IrwinVermilionCityGossipText
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 

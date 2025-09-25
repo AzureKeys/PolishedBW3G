@@ -4,7 +4,6 @@ Underground_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  3, 32, ROUTE_6_UNDERGROUND_ENTRANCE, 3
 
 	def_coord_events
 

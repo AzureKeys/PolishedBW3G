@@ -4,7 +4,6 @@ DiglettsCave_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 37, 15, VERMILION_CITY, 10
 	warp_event 39, 13, DIGLETTS_CAVE, 5
 	warp_event 39,  3, DIGLETTS_CAVE, 6
 	warp_event 37, 31, DIGLETTS_CAVE, 2

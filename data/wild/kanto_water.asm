@@ -14,13 +14,6 @@
 	wildmon  55, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_6
-	db 2 percent ; encounter rate
-	wildmon  45, PSYDUCK
-	wildmon  50, GOLDUCK
-	wildmon  45, PSYDUCK
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
 	wildmon  54, RATTATA
@@ -68,13 +61,6 @@
 	wildmon  55, RATTATA
 	wildmon  50, RATTATA
 	wildmon  55, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons VERMILION_CITY
-	db 6 percent ; encounter rate
-	wildmon  45, RATTATA
-	wildmon  40, RATTATA
-	wildmon  45, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND
