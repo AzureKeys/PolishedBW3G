@@ -8,11 +8,7 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
-	landmark  84,  60, VioletCityName
 	landmark  86,  58, SproutTowerName
-	landmark  84,  52, VioletOutskirtsName
-	landmark  84,  92, Route32Name
-	landmark  92, 112, Route32CoastName
 	landmark  84, 124, UnionCaveName
 	landmark  76, 124, Route33Name
 	landmark  68, 124, AzaleaTownName
@@ -78,7 +74,6 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 NewBarkTownName:       rawchar "New Bark¯Town@"
-VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
@@ -86,7 +81,6 @@ BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
-VioletOutskirtsName:   rawchar "Violet¯Outskirts@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
 RadioTowerName:        rawchar "Radio Tower@"
@@ -121,7 +115,6 @@ Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
 Route24Name:           rawchar "Route 24@"
 Route25Name:           rawchar "Route 25@"
-Route32Name:           rawchar "Route 32@"
 Route33Name:           rawchar "Route 33@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
@@ -139,7 +132,6 @@ DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
-Route32CoastName:      rawchar "Route 32¯Coast@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"

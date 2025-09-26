@@ -372,7 +372,6 @@ SECTION "Phone Scripts", ROMX
 
 INCLUDE "engine/phone/scripts/generic_caller.asm"
 INCLUDE "engine/phone/scripts/jack_gossip.asm"
-INCLUDE "engine/phone/scripts/liz_gossip.asm"
 INCLUDE "engine/phone/scripts/brent_gossip.asm"
 INCLUDE "engine/phone/scripts/irwin_gossip.asm"
 INCLUDE "engine/phone/scripts/hangups.asm"
@@ -424,8 +423,6 @@ INCLUDE "engine/phone/scripts/beverly.asm"
 INCLUDE "engine/phone/scripts/huey.asm"
 INCLUDE "engine/phone/scripts/joey.asm"
 INCLUDE "engine/phone/scripts/wade.asm"
-INCLUDE "engine/phone/scripts/ralph.asm"
-INCLUDE "engine/phone/scripts/liz.asm"
 INCLUDE "engine/phone/scripts/anthony.asm"
 INCLUDE "engine/phone/scripts/irwin.asm"
 INCLUDE "engine/phone/scripts/arnie.asm"
@@ -574,8 +571,6 @@ INCLUDE "data/phone/text/beverly_caller.asm"
 INCLUDE "data/phone/text/huey_caller.asm"
 INCLUDE "data/phone/text/joey_caller.asm"
 INCLUDE "data/phone/text/wade_caller.asm"
-INCLUDE "data/phone/text/ralph_caller.asm"
-INCLUDE "data/phone/text/liz_caller.asm"
 INCLUDE "data/phone/text/anthony_caller.asm"
 
 
@@ -586,7 +581,6 @@ INCLUDE "data/phone/text/beverly_overworld.asm"
 INCLUDE "data/phone/text/huey_overworld.asm"
 INCLUDE "data/phone/text/joey_overworld.asm"
 INCLUDE "data/phone/text/wade_overworld.asm"
-INCLUDE "data/phone/text/ralph_overworld.asm"
 
 
 SECTION "Phone Text 3", ROMX
@@ -600,8 +594,6 @@ INCLUDE "data/phone/text/huey_callee.asm"
 INCLUDE "data/phone/text/unknown_callee.asm"
 INCLUDE "data/phone/text/joey_callee.asm"
 INCLUDE "data/phone/text/wade_callee.asm"
-INCLUDE "data/phone/text/ralph_callee.asm"
-INCLUDE "data/phone/text/liz_callee.asm"
 INCLUDE "data/phone/text/anthony_callee.asm"
 INCLUDE "data/phone/text/irwin_callee.asm"
 INCLUDE "data/phone/text/arnie_callee.asm"
@@ -618,7 +610,6 @@ INCLUDE "data/phone/text/kenji_callee.asm"
 INCLUDE "data/phone/text/parry_callee.asm"
 INCLUDE "data/phone/text/erin_callee.asm"
 INCLUDE "data/phone/text/unused.asm"
-INCLUDE "data/phone/text/liz_overworld.asm"
 
 
 SECTION "Diploma", ROMX

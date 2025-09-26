@@ -21,8 +21,6 @@ PhoneContacts:
 	phone SAILOR,       HUEY1,                 OLIVINE_LIGHTHOUSE_2F,     %1111, HueyPhoneScript1,    %1111, HueyPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
-	phone FISHER,       RALPH1,                ROUTE_32,                  %1111, RalphPhoneScript1,   %1111, RalphPhoneScript2
-	phone PICNICKER,    LIZ1,                  ROUTE_32,                  %1111, LizPhoneScript1,     %1111, LizPhoneScript2
 	phone HIKER,        ANTHONY1,              ROUTE_33,                  %1111, AnthonyPhoneScript1, %1111, AnthonyPhoneScript2
 	phone JUGGLER,      IRWIN1,                ROUTE_35,                  %1111, IrwinPhoneScript1,   %1111, IrwinPhoneScript2
 	phone BUG_CATCHER,  ARNIE1,                ROUTE_35,                  %1111, ArniePhoneScript1,   %1111, ArniePhoneScript2

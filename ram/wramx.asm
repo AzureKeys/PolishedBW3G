@@ -1092,7 +1092,6 @@ wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
-wRoute32SceneID:: db
 wRoute35NationalParkGateSceneID:: db
 wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
@@ -1105,7 +1104,6 @@ wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
 wUndergroundPathSwitchRoomEntrancesSceneID:: db
 wVictoryRoad2FSceneID:: db
-wVioletGymSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
 
@@ -1154,7 +1152,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 98 ; unused
+	ds 100 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

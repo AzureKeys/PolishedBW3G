@@ -699,8 +699,6 @@ ElmsLabLyraScript:
 	jumptextfaceplayer ElmsLabLyraGoodChoiceText
 
 ElmsLabWindow:
-	checkflag ENGINE_FLYPOINT_VIOLET
-	iftrue_jumptext ElmsLabWindowText1
 	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
 	iftrue_jumptext ElmsLabWindowText2
 	jumptext ElmsLabWindowText1

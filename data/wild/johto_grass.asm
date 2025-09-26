@@ -1260,34 +1260,6 @@
 	wildmon 23, DUNSPARCE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_32
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 5, RATTATA
-	wildmon 6, RATTATA
-	wildmon 8, RATTATA
-	wildmon 7, MAREEP
-	wildmon 8, MAREEP
-	wildmon 7, RATTATA
-	wildmon 8, RATTATA
-	; day
-	wildmon 5, RATTATA
-	wildmon 6, RATTATA
-	wildmon 8, RATTATA
-	wildmon 7, MAREEP
-	wildmon 8, MAREEP
-	wildmon 7, RATTATA
-	wildmon 8, RATTATA
-	; nite
-	wildmon 5, RATTATA
-	wildmon 6, RATTATA
-	wildmon 8, RATTATA
-	wildmon 8, RATTATA
-	wildmon 7, MAREEP
-	wildmon 7, GASTLY
-	wildmon 7, GASTLY
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -1538,62 +1510,6 @@
 	wildmon 2, RATTATA
 	wildmon 3, RATTATA
 	wildmon 3, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons VIOLET_OUTSKIRTS
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, GROWLITHE
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, RATICATE
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, GROWLITHE
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, RATICATE
-	; nite
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 0, GASTLY
-	wildmon LEVEL_FROM_BADGES - 3, VULPIX
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, RATICATE
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_32_COAST
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 1, MAREEP
-	wildmon LEVEL_FROM_BADGES + 0, FLAAFFY
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 3, RATTATA
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 1, MAREEP
-	wildmon LEVEL_FROM_BADGES + 0, FLAAFFY
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES + 3, RATTATA
-	; nite
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, GASTLY
-	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
-	wildmon LEVEL_FROM_BADGES + 5, HAUNTER
 	end_grass_wildmons
 
 	db -1 ; end

@@ -44,7 +44,6 @@ MapScenes::
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_24,                               wRoute24SceneID
-	scene_var ROUTE_32,                               wRoute32SceneID
 	scene_var ROUTE_35_NATIONAL_PARK_GATE,            wRoute35NationalParkGateSceneID
 	scene_var ROUTE_36,                               wRoute36SceneID
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
@@ -58,7 +57,6 @@ MapScenes::
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
 	scene_var VICTORY_ROAD_2F,                        wVictoryRoad2FSceneID
-	scene_var VIOLET_GYM,                             wVioletGymSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	db -1

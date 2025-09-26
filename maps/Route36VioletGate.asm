@@ -6,8 +6,6 @@ Route36VioletGate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  4, ROUTE_36, 5
 	warp_event  0,  5, ROUTE_36, 6
-	warp_event  9,  4, VIOLET_CITY, 10
-	warp_event  9,  5, VIOLET_CITY, 11
 
 	def_coord_events
 

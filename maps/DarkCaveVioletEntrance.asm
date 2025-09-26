@@ -51,7 +51,6 @@ DarkCaveVioletEntranceFalknerTrigger:
 	disappear DARKCAVEVIOLETENTRANCE_FALKNER
 	pause 15
 	clearevent EVENT_VIOLET_GYM_FALKNER
-	setmapscene VIOLET_GYM, $1
 	setscene $1
 	end
 

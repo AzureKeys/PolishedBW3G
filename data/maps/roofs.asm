@@ -11,7 +11,6 @@ MapGroupRoofs:
 	db -1            ; 7
 	db ROOF_AZALEA   ; 8 (Azalea Town)
 	db ROOF_OLIVINE  ; 9 (Battle Tower Outside)
-	db ROOF_VIOLET   ; 10 (Violet City)
 	db -1            ; 16
 	db -1            ; 20
 	db ROOF_NEW_BARK ; 24 (New Bark Town)

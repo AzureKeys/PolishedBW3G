@@ -119,13 +119,6 @@
 	wildmon 20, DRATINI
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_32
-	db 4 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	wildmon 20, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	wildmon 20, PSYDUCK
@@ -175,13 +168,6 @@
 	wildmon 20, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons VIOLET_CITY
-	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
 	wildmon 20, POLIWAG
@@ -201,13 +187,6 @@
 	wildmon 15, RATTATA
 	wildmon 10, RATTATA
 	wildmon 5, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_32_COAST
-	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 5, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	db -1 ; end

@@ -10,11 +10,6 @@ ENDM
 
 	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
-	map_attributes VioletCity, VIOLET_CITY, $5, NORTH | SOUTH | WEST
-	connection north, VioletOutskirts, VIOLET_OUTSKIRTS, 0
-	connection south, Route32, ROUTE_32, 0
-	connection west, Route36, ROUTE_36, 0
-
 	map_attributes AzaleaTown, AZALEA_TOWN, $5, EAST
 	connection east, Route33, ROUTE_33, 0
 
@@ -33,22 +28,15 @@ ENDM
 	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, SOUTH
 	connection south, Route45, ROUTE_45, -2
 
-	map_attributes Route32, ROUTE_32, $5, NORTH | SOUTH | WEST
-	connection north, VioletCity, VIOLET_CITY, 0
-	connection south, Route33, ROUTE_33, 0
-	connection west, MagnetTunnelEast, MAGNET_TUNNEL_EAST, 9
-
-	map_attributes Route33, ROUTE_33, $5, NORTH | WEST
-	connection north, Route32, ROUTE_32, 0
+	map_attributes Route33, ROUTE_33, $5, WEST
 	connection west, AzaleaTown, AZALEA_TOWN, 0
 
 	map_attributes Route35, ROUTE_35, $5, NORTH
 	connection north, Route36, ROUTE_36, 0
 
-	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH | EAST
+	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH
 	connection north, Route37, ROUTE_37, 12
 	connection south, Route35, ROUTE_35, 0
-	connection east, VioletCity, VIOLET_CITY, 0
 
 	map_attributes Route37, ROUTE_37, $5, NORTH | SOUTH
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
@@ -56,8 +44,7 @@ ENDM
 
 	map_attributes Route40, ROUTE_40, $35, 0
 
-	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
-	connection south, VioletOutskirts, VIOLET_OUTSKIRTS, 5
+	map_attributes Route42, ROUTE_42, $5, WEST | EAST
 	connection west, EcruteakCity, ECRUTEAK_CITY, -9
 	connection east, MahoganyTown, MAHOGANY_TOWN, 0
 
@@ -110,15 +97,6 @@ ENDM
 
 	map_attributes Route4, ROUTE_4, $2c, EAST
 	connection east, CeruleanCity, CERULEAN_CITY, -2
-
-	map_attributes Route32Coast, ROUTE_32_COAST, $35, 0
-
-	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, NORTH | SOUTH
-	connection north, Route42, ROUTE_42, -5
-	connection south, VioletCity, VIOLET_CITY, 0
-
-	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, EAST
-	connection east, Route32, ROUTE_32, -9
 
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
@@ -260,16 +238,6 @@ ENDM
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
 	map_attributes Route43Gate, ROUTE_43_GATE, $0, 0
-	map_attributes VioletMart, VIOLET_MART, $0, 0
-	map_attributes VioletGym, VIOLET_GYM, $0, 0
-	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $0, 0
-	map_attributes VioletNicknameSpeechHouse, VIOLET_NICKNAME_SPEECH_HOUSE, $0, 0
-	map_attributes VioletPokeCenter1F, VIOLET_POKECENTER_1F, $0, 0
-	map_attributes VioletOnixTradeHouse, VIOLET_ONIX_TRADE_HOUSE, $0, 0
-	map_attributes VioletOutskirtsHouse, VIOLET_OUTSKIRTS_HOUSE, $0, 0
-	map_attributes Route32RuinsOfAlphGate, ROUTE_32_RUINS_OF_ALPH_GATE, $0, 0
-	map_attributes Route32PokeCenter1F, ROUTE_32_POKECENTER_1F, $0, 0
-	map_attributes Route32CoastHouse, ROUTE_32_COAST_HOUSE, $0, 0
 	map_attributes Route35NationalParkGate, ROUTE_35_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route36NationalParkGate, ROUTE_36_NATIONAL_PARK_GATE, $0, 0
