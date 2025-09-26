@@ -19,11 +19,6 @@ ENDM
 	connection west, Route34, ROUTE_34, -18
 	connection east, Route33, ROUTE_33, 0
 
-	map_attributes GoldenrodCity, GOLDENROD_CITY, $35, NORTH | SOUTH | EAST
-	connection north, Route35, ROUTE_35, 5
-	connection south, Route34, ROUTE_34, 7
-	connection east, MagnetTunnelWest, MAGNET_TUNNEL_WEST, 0
-
 	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | EAST
 	connection south, Route37, ROUTE_37, 5
 	connection east, Route42, ROUTE_42, 9
@@ -48,8 +43,7 @@ ENDM
 	connection north, Route32, ROUTE_32, 0
 	connection west, AzaleaTown, AZALEA_TOWN, 0
 
-	map_attributes Route34, ROUTE_34, $5, NORTH | WEST | EAST
-	connection north, GoldenrodCity, GOLDENROD_CITY, -7
+	map_attributes Route34, ROUTE_34, $5, WEST | EAST
 	connection west, Route34Coast, ROUTE_34_COAST, 0
 	connection east, AzaleaTown, AZALEA_TOWN, 18
 
@@ -60,9 +54,8 @@ ENDM
 	map_attributes StormyBeach, STORMY_BEACH, $35, NORTH
 	connection north, Route34Coast, ROUTE_34_COAST, 0
 
-	map_attributes Route35, ROUTE_35, $5, NORTH | SOUTH
+	map_attributes Route35, ROUTE_35, $5, NORTH
 	connection north, Route36, ROUTE_36, 0
-	connection south, GoldenrodCity, GOLDENROD_CITY, -5
 
 	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH | EAST
 	connection north, Route37, ROUTE_37, 12
@@ -139,8 +132,7 @@ ENDM
 	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, EAST
 	connection east, Route32, ROUTE_32, -9
 
-	map_attributes MagnetTunnelWest, MAGNET_TUNNEL_WEST, $5, WEST
-	connection west, GoldenrodCity, GOLDENROD_CITY, 0
+	map_attributes MagnetTunnelWest, MAGNET_TUNNEL_WEST, $5, 0
 
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
@@ -294,38 +286,13 @@ ENDM
 	map_attributes Route32RuinsOfAlphGate, ROUTE_32_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route32PokeCenter1F, ROUTE_32_POKECENTER_1F, $0, 0
 	map_attributes Route32CoastHouse, ROUTE_32_COAST_HOUSE, $0, 0
-	map_attributes Route35GoldenrodGate, ROUTE_35_GOLDENROD_GATE, $0, 0
 	map_attributes Route35NationalParkGate, ROUTE_35_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route36NationalParkGate, ROUTE_36_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36VioletGate, ROUTE_36_VIOLET_GATE, $0, 0
-	map_attributes GoldenrodGym, GOLDENROD_GYM, $0, 0
-	map_attributes GoldenrodBikeShop, GOLDENROD_BIKE_SHOP, $0, 0
-	map_attributes GoldenrodHappinessRater, GOLDENROD_HAPPINESS_RATER, $0, 0
-	map_attributes GoldenrodBillsHouse, GOLDENROD_BILLS_HOUSE, $0, 0
-	map_attributes GoldenrodMagnetTrainStation, GOLDENROD_MAGNET_TRAIN_STATION, $0, 0
-	map_attributes GoldenrodFlowerShop, GOLDENROD_FLOWER_SHOP, $0, 0
-	map_attributes GoldenrodPPSpeechHouse, GOLDENROD_PP_SPEECH_HOUSE, $0, 0
-	map_attributes GoldenrodNameRater, GOLDENROD_NAME_RATER, $0, 0
-	map_attributes GoldenrodDeptStore1F, GOLDENROD_DEPT_STORE_1F, $0, 0
-	map_attributes GoldenrodDeptStore2F, GOLDENROD_DEPT_STORE_2F, $0, 0
-	map_attributes GoldenrodDeptStore3F, GOLDENROD_DEPT_STORE_3F, $0, 0
-	map_attributes GoldenrodDeptStore4F, GOLDENROD_DEPT_STORE_4F, $0, 0
-	map_attributes GoldenrodDeptStore5F, GOLDENROD_DEPT_STORE_5F, $0, 0
-	map_attributes GoldenrodDeptStore6F, GOLDENROD_DEPT_STORE_6F, $0, 0
-	map_attributes GoldenrodDeptStoreElevator, GOLDENROD_DEPT_STORE_ELEVATOR, $0, 0
-	map_attributes GoldenrodDeptStoreRoof, GOLDENROD_DEPT_STORE_ROOF, $24, 0
-	map_attributes GoldenrodGameCorner, GOLDENROD_GAME_CORNER, $0, 0
-	map_attributes GoldenrodPokecomCenter1F, GOLDENROD_POKECOM_CENTER_1F, $0, 0
-	map_attributes GoldenrodPokecomCenterOffice, GOLDENROD_POKECOM_CENTER_OFFICE, $0, 0
 	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $0, 0
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $0, 0
 	map_attributes DayCare, DAYCARE, $0, 0
-	map_attributes GoldenrodHoneyHouse, GOLDENROD_HONEY_HOUSE, $0, 0
-	map_attributes GoldenrodNetBallHouse, GOLDENROD_NET_BALL_HOUSE, $0, 0
-	map_attributes GoldenrodBandHouse, GOLDENROD_BAND_HOUSE, $0, 0
-	map_attributes GoldenrodMuseum1F, GOLDENROD_MUSEUM_1F, $0, 0
-	map_attributes GoldenrodMuseum2F, GOLDENROD_MUSEUM_2F, $0, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0

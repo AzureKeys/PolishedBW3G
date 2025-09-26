@@ -29,9 +29,6 @@ MapScenes::
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID
 	scene_var GIOVANNIS_CAVE,                         wGiovannisCaveSceneID
-	scene_var GOLDENROD_CITY,                         wGoldenrodCitySceneID
-	scene_var GOLDENROD_GYM,                          wGoldenrodGymSceneID
-	scene_var GOLDENROD_MAGNET_TRAIN_STATION,         wAlways0SceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
 	scene_var ILEX_FOREST,                            wIlexForestSceneID
 	scene_var INDIGO_PLATEAU_POKECENTER_1F,           wAlways0SceneID

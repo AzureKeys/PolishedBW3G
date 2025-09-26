@@ -29,8 +29,6 @@ ToddPhoneScript2:
 	iftruefwd .TryForSale
 	checkflag ENGINE_TODD_SATURDAY_MORNING
 	iftruefwd .TryForSale
-	checkflag ENGINE_FLYPOINT_GOLDENROD
-	iffalsefwd .NoGoldenrod
 	farscall PhoneScript_Random2
 	ifequalfwd $0, ToddWantsBattle
 

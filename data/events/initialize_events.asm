@@ -191,7 +191,6 @@ DEF varspriteaddr EQUS "wVariableSprites - SPRITE_VARS +"
 	dwb varspriteaddr SPRITE_FUCHSIA_GYM_4, SPRITE_JANINE
 	dwb varspriteaddr SPRITE_COPYCAT, SPRITE_LASS
 	dwb varspriteaddr SPRITE_JANINE_IMPERSONATOR, SPRITE_CUTE_GIRL
-	dwb wGoldenrodCitySceneID, $1
 	dwb wBattleTowerOutsideSceneID, $1
 	dwb wBellchimeTrailSceneID, $1
 	dw -1

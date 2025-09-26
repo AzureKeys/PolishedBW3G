@@ -34,9 +34,6 @@ ENDM
 	special_bg_pal map,      CERULEAN_GYM,                PAL_SINGLE,    CeruleanGymPalette
 	special_bg_pal map,      VIOLET_CITY,                 PAL_TIMEOFDAY, VioletEcruteakPalette
 	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
-	special_bg_pal map,      GOLDENROD_DEPT_STORE_ROOF,   PAL_TIMEOFDAY, GoldenrodDeptStoreRoofPalette
-	special_bg_pal map,      GOLDENROD_MUSEUM_1F,         PAL_SINGLE,    GoldenrodMuseumPalette
-	special_bg_pal map,      GOLDENROD_MUSEUM_2F,         PAL_SINGLE,    GoldenrodMuseumPalette
 	special_bg_pal map,      MAGNET_TUNNEL_INSIDE,        PAL_SINGLE,    MagnetTunnelPalette
 	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
 	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
@@ -391,19 +388,6 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
-GoldenrodMuseumPalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/goldenrod_museum.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
 MartPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/mart.pal"
@@ -411,47 +395,6 @@ else
 rept 7
 	MONOCHROME_RGB_FOUR
 endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-GoldenrodDeptStoreRoofPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/GoldenrodDeptStoreRoof.pal"
-else
-rept 6
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_LIGHT
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-rept 6
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_LIGHT
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-rept 4
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_DARK

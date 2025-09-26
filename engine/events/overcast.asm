@@ -68,8 +68,6 @@ GetOvercastIndex::
 	jr z, .maybe_stormy_beach
 	cp MAP_MAGNET_TUNNEL_WEST
 	jr z, .maybe_stormy_beach
-	cp MAP_GOLDENROD_CITY
-	jr nz, .not_overcast
 .maybe_stormy_beach
 ; Only overcast while Team Rocket is present
 	eventflagcheck EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER

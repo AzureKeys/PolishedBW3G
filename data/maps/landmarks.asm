@@ -22,7 +22,6 @@ Landmarks:
 	landmark  36, 120, Route34CoastName
 	landmark  44, 132, StormyBeachName
 	landmark  52, 132, MurkySwampName
-	landmark  52,  92, GoldenrodCityName
 	landmark  50,  92, RadioTowerName
 	landmark  68,  92, MagnetTunnelName
 	landmark  52,  76, Route35Name
@@ -86,7 +85,6 @@ Landmarks:
 NewBarkTownName:       rawchar "New Bark¯Town@"
 VioletCityName:        rawchar "Violet City@"
 AzaleaTownName:        rawchar "Azalea Town@"
-GoldenrodCityName:     rawchar "Goldenrod¯City@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 BlackthornCityName:    rawchar "Blackthorn¯City@"

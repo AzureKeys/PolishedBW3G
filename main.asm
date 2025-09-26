@@ -380,7 +380,6 @@ INCLUDE "engine/phone/scripts/reminders.asm"
 INCLUDE "engine/phone/scripts/hangups_2.asm"
 INCLUDE "engine/phone/scripts/reminders_2.asm"
 INCLUDE "engine/phone/scripts/bike_shop.asm"
-INCLUDE "engine/phone/buena_phone_scripts.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
 
 

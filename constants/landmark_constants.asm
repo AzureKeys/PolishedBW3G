@@ -17,7 +17,6 @@
 	const ROUTE_34_COAST     ; 13
 	const STORMY_BEACH       ; 14
 	const MURKY_SWAMP        ; 15
-	const GOLDENROD_CITY     ; 16
 	const RADIO_TOWER        ; 17
 	const MAGNET_TUNNEL      ; 19
 	const ROUTE_35           ; 1a

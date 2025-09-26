@@ -9,14 +9,8 @@ UndergroundPathSwitchRoomEntrances_MapScriptHeader:
 	warp_event 22, 10, UNDERGROUND_WAREHOUSE, 1
 	warp_event 23, 10, UNDERGROUND_WAREHOUSE, 2
 	warp_event  5, 23, WAREHOUSE_ENTRANCE, 2
-	warp_event  4, 27, GOLDENROD_CITY, 14
-	warp_event  5, 27, GOLDENROD_CITY, 14
 	warp_event 21, 23, WAREHOUSE_ENTRANCE, 1
-	warp_event 20, 27, GOLDENROD_CITY, 13
-	warp_event 21, 27, GOLDENROD_CITY, 13
 	warp_event  5, 37, WAREHOUSE_ENTRANCE, 7
-	warp_event  4, 41, GOLDENROD_CITY, 22
-	warp_event  5, 41, GOLDENROD_CITY, 22
 
 	def_coord_events
 	coord_event 19,  4, 0, UndergroundRivalTrigger1

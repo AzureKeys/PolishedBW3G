@@ -55,8 +55,6 @@ WadePhoneScript2:
 	iftruefwd .next
 	farscall PhoneScript_Random2
 	ifequalfwd $0, WadeHasItem2
-	checkflag ENGINE_FLYPOINT_GOLDENROD
-	iffalsefwd .next
 	farscall PhoneScript_Random2
 	ifequalfwd $0, WadeWantsBattle2
 

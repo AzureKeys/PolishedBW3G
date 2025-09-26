@@ -28,7 +28,6 @@
 	const PHONE_BLACKBELT_KENJI
 	const PHONE_HIKER_PARRY
 	const PHONE_PICNICKER_ERIN
-	const PHONE_BUENA
 DEF NUM_PHONE_CONTACTS EQU const_value - 1
 
 ; SpecialPhoneCallList indexes (see data/phone/special_calls.asm)

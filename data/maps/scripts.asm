@@ -22,8 +22,6 @@ SECTION "Pokemon Center Scripts 4", ROMX
 
 INCLUDE "maps/Route10PokeCenter1F.asm"
 INCLUDE "maps/Route32PokeCenter1F.asm"
-INCLUDE "maps/GoldenrodPokecomCenter1F.asm"
-INCLUDE "maps/GoldenrodPokecomCenterOffice.asm"
 
 
 SECTION "Special Map Scripts", ROMX
@@ -140,43 +138,12 @@ INCLUDE "maps/Route34Coast.asm"
 
 SECTION "Goldenrod Scripts", ROMX
 
-INCLUDE "maps/GoldenrodCity.asm"
-INCLUDE "maps/GoldenrodGym.asm"
-INCLUDE "maps/GoldenrodGameCorner.asm"
 INCLUDE "maps/DayCare.asm"
-
-
-SECTION "Goldenrod Scripts 2", ROMX
-
-INCLUDE "maps/GoldenrodBikeShop.asm"
-INCLUDE "maps/GoldenrodBillsHouse.asm"
-INCLUDE "maps/GoldenrodFlowerShop.asm"
-INCLUDE "maps/GoldenrodHoneyHouse.asm"
-INCLUDE "maps/GoldenrodHappinessRater.asm"
-INCLUDE "maps/GoldenrodMagnetTrainStation.asm"
-INCLUDE "maps/GoldenrodNameRater.asm"
-
-
-SECTION "Goldenrod Scripts 3", ROMX
-
-INCLUDE "maps/GoldenrodMuseum1F.asm"
-INCLUDE "maps/GoldenrodMuseum2F.asm"
-INCLUDE "maps/GoldenrodBandHouse.asm"
-INCLUDE "maps/GoldenrodNetBallHouse.asm"
-INCLUDE "maps/GoldenrodPPSpeechHouse.asm"
 
 
 SECTION "Goldenrod Dept Store Scripts", ROMX
 
-INCLUDE "maps/GoldenrodDeptStore1F.asm"
-INCLUDE "maps/GoldenrodDeptStore2F.asm"
-INCLUDE "maps/GoldenrodDeptStore3F.asm"
-INCLUDE "maps/GoldenrodDeptStore4F.asm"
-INCLUDE "maps/GoldenrodDeptStore5F.asm"
-INCLUDE "maps/GoldenrodDeptStore6F.asm"
 INCLUDE "maps/GoldenrodDeptStoreB1F.asm"
-INCLUDE "maps/GoldenrodDeptStoreElevator.asm"
-INCLUDE "maps/GoldenrodDeptStoreRoof.asm"
 
 
 SECTION "Radio Tower Scripts", ROMX
@@ -487,7 +454,6 @@ SECTION "Routes 33-35 Scripts", ROMX
 INCLUDE "maps/Route33.asm"
 INCLUDE "maps/Route34.asm"
 INCLUDE "maps/Route35.asm"
-INCLUDE "maps/Route35GoldenrodGate.asm"
 INCLUDE "maps/Route35NationalParkGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm
 

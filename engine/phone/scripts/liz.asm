@@ -31,8 +31,6 @@ LizPhoneScript2:
 .next:
 	farscall PhoneScript_Random2
 	ifequalfwd $0, LizGossip
-	checkflag ENGINE_FLYPOINT_GOLDENROD
-	iffalsefwd .Generic
 	farscall PhoneScript_Random2
 	ifequalfwd $0, LizWantsBattle
 

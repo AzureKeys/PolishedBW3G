@@ -28,7 +28,6 @@ GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
 Route34IlexForestGate_BlockData:
-Route35GoldenrodGate_BlockData:
 Route36RuinsOfAlphGate_BlockData:
 Route40BattleTowerGate_BlockData:
 Route43Gate_BlockData:
@@ -41,14 +40,9 @@ IlexForestAzaleaGate_BlockData:
 Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 	
-GoldenrodBillsHouse_BlockData:
-GoldenrodNetBallHouse_BlockData:
 Route32CoastHouse_BlockData:
 	INCBIN "maps/JohtoHouse1.ablk.lz"
 
-GoldenrodHappinessRater_BlockData:
-GoldenrodPPSpeechHouse_BlockData:
-GoldenrodHoneyHouse_BlockData:
 CeruleanGymBadgeSpeechHouse_BlockData:
 CeruleanTradeSpeechHouse_BlockData:
 CeruleanCoupleHouse_BlockData:
@@ -59,8 +53,6 @@ BlackthornDragonSpeechHouse_BlockData:
 BlackthornEmysHouse_BlockData:
 MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
-GoldenrodNameRater_BlockData:
-GoldenrodBandHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
 LakeOfRageHiddenPowerHouse_BlockData:
@@ -235,77 +227,13 @@ SECTION "Route34Coast_BlockData", ROMX
 Route34Coast_BlockData:
 	INCBIN "maps/Route34Coast.ablk.lz"
 
-SECTION "GoldenrodPokecomCenter1F_BlockData", ROMX
-GoldenrodPokecomCenter1F_BlockData:
-	INCBIN "maps/GoldenrodPokecomCenter1F.ablk.lz"
-
-SECTION "GoldenrodPokecomCenterOffice_BlockData", ROMX
-GoldenrodPokecomCenterOffice_BlockData:
-	INCBIN "maps/GoldenrodPokecomCenterOffice.ablk.lz"
-
-SECTION "GoldenrodGym_BlockData", ROMX
-GoldenrodGym_BlockData:
-	INCBIN "maps/GoldenrodGym.ablk.lz"
-
-SECTION "GoldenrodCity_BlockData", ROMX
-GoldenrodCity_BlockData:
-	INCBIN "maps/GoldenrodCity.ablk.lz"
-
-SECTION "GoldenrodBikeShop_BlockData", ROMX
-GoldenrodBikeShop_BlockData:
-	INCBIN "maps/GoldenrodBikeShop.ablk.lz"
-
-SECTION "GoldenrodFlowerShop_BlockData", ROMX
-GoldenrodFlowerShop_BlockData:
-	INCBIN "maps/GoldenrodFlowerShop.ablk.lz"
-
-SECTION "GoldenrodGameCorner_BlockData", ROMX
-GoldenrodGameCorner_BlockData:
-	INCBIN "maps/GoldenrodGameCorner.ablk.lz"
-
-SECTION "GoldenrodMagnetTrainStation_BlockData", ROMX
-GoldenrodMagnetTrainStation_BlockData:
-	INCBIN "maps/GoldenrodMagnetTrainStation.ablk.lz"
-
 SECTION "DayCare_BlockData", ROMX
 DayCare_BlockData:
 	INCBIN "maps/DayCare.ablk.lz"
 
-SECTION "GoldenrodDeptStore1F_BlockData", ROMX
-GoldenrodDeptStore1F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore1F.ablk.lz"
-
-SECTION "GoldenrodDeptStore2F_BlockData", ROMX
-GoldenrodDeptStore2F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore2F.ablk.lz"
-
-SECTION "GoldenrodDeptStore3F_BlockData", ROMX
-GoldenrodDeptStore3F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore3F.ablk.lz"
-
-SECTION "GoldenrodDeptStore4F_BlockData", ROMX
-GoldenrodDeptStore4F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore4F.ablk.lz"
-
-SECTION "GoldenrodDeptStore5F_BlockData", ROMX
-GoldenrodDeptStore5F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore5F.ablk.lz"
-
-SECTION "GoldenrodDeptStore6F_BlockData", ROMX
-GoldenrodDeptStore6F_BlockData:
-	INCBIN "maps/GoldenrodDeptStore6F.ablk.lz"
-
 SECTION "GoldenrodDeptStoreB1F_BlockData", ROMX
 GoldenrodDeptStoreB1F_BlockData:
 	INCBIN "maps/GoldenrodDeptStoreB1F.ablk.lz"
-
-SECTION "GoldenrodDeptStoreElevator_BlockData", ROMX
-GoldenrodDeptStoreElevator_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreElevator.ablk.lz"
-
-SECTION "GoldenrodDeptStoreRoof_BlockData", ROMX
-GoldenrodDeptStoreRoof_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreRoof.ablk.lz"
 
 SECTION "RadioTower1F_BlockData", ROMX
 RadioTower1F_BlockData:
@@ -334,14 +262,6 @@ UndergroundWarehouse_BlockData:
 SECTION "UndergroundPathSwitchRoomEntrances_BlockData", ROMX
 UndergroundPathSwitchRoomEntrances_BlockData:
 	INCBIN "maps/UndergroundPathSwitchRoomEntrances.ablk.lz"
-
-SECTION "GoldenrodMuseum1F_BlockData", ROMX
-GoldenrodMuseum1F_BlockData:
-	INCBIN "maps/GoldenrodMuseum1F.ablk.lz"
-
-SECTION "GoldenrodMuseum2F_BlockData", ROMX
-GoldenrodMuseum2F_BlockData:
-	INCBIN "maps/GoldenrodMuseum2F.ablk.lz"
 
 SECTION "WarehouseEntrance_BlockData", ROMX
 WarehouseEntrance_BlockData:

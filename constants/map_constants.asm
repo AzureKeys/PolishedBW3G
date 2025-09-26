@@ -248,34 +248,8 @@ ENDM
 	map_const DAYCARE,                                     4,  4 ;  3
 	map_const STORMY_BEACH,                               22, 11 ;  4
 	map_const MURKY_SWAMP,                                23, 19 ;  5
-	map_const GOLDENROD_CITY,                             23, 18 ;  6
-	map_const GOLDENROD_GYM,                              10,  9 ;  7
-	map_const GOLDENROD_BIKE_SHOP,                         4,  4 ;  8
-	map_const GOLDENROD_HAPPINESS_RATER,                   4,  4 ;  9
-	map_const GOLDENROD_BILLS_HOUSE,                       4,  4 ; 10
-	map_const GOLDENROD_MAGNET_TRAIN_STATION,             10,  9 ; 11
-	map_const GOLDENROD_FLOWER_SHOP,                       4,  4 ; 12
-	map_const GOLDENROD_PP_SPEECH_HOUSE,                   4,  4 ; 13
-	map_const GOLDENROD_NAME_RATER,                        4,  4 ; 14
-	map_const GOLDENROD_DEPT_STORE_1F,                     8,  4 ; 15
-	map_const GOLDENROD_DEPT_STORE_2F,                     8,  4 ; 16
-	map_const GOLDENROD_DEPT_STORE_3F,                     8,  4 ; 17
-	map_const GOLDENROD_DEPT_STORE_4F,                     8,  4 ; 18
-	map_const GOLDENROD_DEPT_STORE_5F,                     8,  4 ; 19
-	map_const GOLDENROD_DEPT_STORE_6F,                     8,  4 ; 20
-	map_const GOLDENROD_DEPT_STORE_ELEVATOR,               2,  2 ; 21
-	map_const GOLDENROD_DEPT_STORE_ROOF,                   8,  6 ; 22
-	map_const GOLDENROD_GAME_CORNER,                      10,  7 ; 23
-	map_const GOLDENROD_POKECOM_CENTER_1F,                16,  8 ; 24
-	map_const GOLDENROD_POKECOM_CENTER_OFFICE,             6,  5 ; 25
 	map_const ILEX_FOREST_AZALEA_GATE,                     5,  4 ; 26
 	map_const ROUTE_34_ILEX_FOREST_GATE,                   5,  4 ; 27
-	map_const ROUTE_35_GOLDENROD_GATE,                     5,  4 ; 28
-	map_const GOLDENROD_HONEY_HOUSE,                       4,  4 ; 29
-	map_const GOLDENROD_NET_BALL_HOUSE,                    4,  4 ; 30
-	map_const GOLDENROD_BAND_HOUSE,                        4,  4 ; 31
-	map_const GOLDENROD_MUSEUM_1F,                         7,  4 ; 32
-	map_const GOLDENROD_MUSEUM_2F,                         7,  4 ; 33
 	map_const MAGNET_TUNNEL_WEST,                          9, 18 ; 34
 	map_const MAGNET_TUNNEL_INSIDE,                       23, 18 ; 35
 

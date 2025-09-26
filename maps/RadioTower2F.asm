@@ -140,8 +140,6 @@ Buena:
 	writetext RadioTower2FBuenaTuneInToMyShowText
 	waitbutton
 	closetext
-	checkcellnum PHONE_BUENA
-	iftruefwd .Registered0
 	checkevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
 	iftruefwd .OfferedNumberBefore
 .Registered0:
@@ -162,8 +160,6 @@ Buena:
 	writetext RadioTower2FBuenaAlreadyPlayedText
 	waitbutton
 	closetext
-	checkcellnum PHONE_BUENA
-	iftruefwd .Registered1
 	checkevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
 	iftruefwd .OfferedNumberBefore
 .Registered1:
@@ -187,8 +183,6 @@ Buena:
 	writetext RadioTower2FBuenaNoBlueCardText
 	waitbutton
 	closetext
-	checkcellnum PHONE_BUENA
-	iftruefwd .Registered2
 	checkevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER_NO_BLUE_CARD
 	iftruefwd .OfferedNumberBefore
 .Registered2:
@@ -199,8 +193,6 @@ Buena:
 	writetext RadioTower2FBuenaCardIsFullText
 	waitbutton
 	closetext
-	checkcellnum PHONE_BUENA
-	iftruefwd .Registered3
 	checkevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER_NO_BLUE_CARD
 	iftruefwd .OfferedNumberBefore
 .Registered3:
@@ -211,16 +203,12 @@ Buena:
 	writetext RadioTower2FBuenaTuneInAfterSixText
 	waitbutton
 	closetext
-	checkcellnum PHONE_BUENA
-	iftruefwd .Registered4
 	checkevent EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
 	iftruefwd .OfferedNumberBefore
 .Registered4:
 	end
 
 .BlueCardCapped1:
-	checkcellnum PHONE_BUENA
-	iftruefwd .HasNumber
 	pause 20
 	turnobject RADIOTOWER2F_BUENA, DOWN
 	pause 15
@@ -239,9 +227,6 @@ Buena:
 	opentext
 	writetext RadioTower2FBuenaOfferNumberAgainText
 .AskForNumber:
-	askforphonenumber PHONE_BUENA
-	ifequalfwd $1, .PhoneFull
-	ifequalfwd $2, .NumberDeclined
 	writetext RadioTower2FRegisteredBuenasNumberText
 	playsound SFX_REGISTER_PHONE_NUMBER
 	waitsfx
@@ -250,7 +235,6 @@ Buena:
 	waitbutton
 	closetext
 	turnobject RADIOTOWER2F_BUENA, RIGHT
-	addcellnum PHONE_BUENA
 	end
 
 .NumberDeclined:

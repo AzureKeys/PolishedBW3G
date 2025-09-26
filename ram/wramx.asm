@@ -1076,9 +1076,6 @@ wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
 wGiovannisCaveSceneID:: db
-wGoldenrodCitySceneID:: db
-wGoldenrodGymSceneID:: db
-wGoldenrodMuseum1FSceneID:: db
 wHallOfFameSceneID:: db
 wIlexForestSceneID:: db
 wKarensRoomSceneID:: db
@@ -1158,7 +1155,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 94 ; unused
+	ds 97 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

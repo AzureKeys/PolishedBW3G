@@ -25,8 +25,6 @@ Ralph_ReportSwarm:
 RalphPhoneScript2:
 	gettrainername FISHER, RALPH1, STRING_BUFFER_3
 	farscall PhoneScript_GreetPhone_Male
-	checkflag ENGINE_FLYPOINT_GOLDENROD
-	iffalsefwd Ralph_CheckSwarm2
 	checkflag ENGINE_RALPH_READY_FOR_REMATCH
 	iftruefwd Ralph_CheckSwarm2
 	checkflag ENGINE_RALPH_WEDNESDAY_MORNING

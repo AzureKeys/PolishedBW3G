@@ -7,8 +7,6 @@ GoldenrodDeptStoreB1F_MapScriptHeader:
 
 	def_warp_events
 	warp_event 17,  2, UNDERGROUND_WAREHOUSE, 3
-	warp_event  9,  4, GOLDENROD_DEPT_STORE_ELEVATOR, 1
-	warp_event 10,  4, GOLDENROD_DEPT_STORE_ELEVATOR, 2
 
 	def_coord_events
 
