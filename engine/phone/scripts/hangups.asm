@@ -38,16 +38,6 @@ AnthonyHangUpScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-ToddNoItemScript:
-	farwritetext ToddSavingUpForBargainSaleText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-GinaHangUpScript:
-	farwritetext GinaHaventFoundAnythingYetText
-	promptbutton
-	sjump PhoneScript_HangupText_Female
-
 ArnieHangUpScript:
 	farwritetext ArnieHaventSeenRareMonText
 	promptbutton

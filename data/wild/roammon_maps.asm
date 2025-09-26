@@ -13,9 +13,9 @@ ENDM
 
 RoamMaps:
 	list_start
-	roam_map ROUTE_33, ROUTE_32, ROUTE_34
-	roam_map ROUTE_34, ROUTE_33, ROUTE_35
-	roam_map ROUTE_35, ROUTE_34, ROUTE_36
+	roam_map ROUTE_33, ROUTE_32
+	roam_map ROUTE_33, ROUTE_35
+	roam_map ROUTE_35, ROUTE_36
 	roam_map ROUTE_43, ROUTE_42, ROUTE_44
 	roam_map ROUTE_44, ROUTE_42, ROUTE_43, ROUTE_45
 	roam_map ROUTE_45, ROUTE_44, ROUTE_46

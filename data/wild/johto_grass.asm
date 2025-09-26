@@ -1316,34 +1316,6 @@
 	wildmon 10, RATTATA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_34
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 12, UNFEZANT
-	wildmon 12, TRANQUILL
-	wildmon 13, UNFEZANT
-	wildmon 31, TRANQUILL
-	wildmon 13, JIGGLYPUFF
-	wildmon 10, DITTO
-	wildmon 10, DITTO
-	; day
-	wildmon 33, DEERLING
-	wildmon 33, DEERLING
-	wildmon 33, DEERLING
-	wildmon 33, DEERLING
-	wildmon 33, DEERLING
-	wildmon 33, DEERLING
-	wildmon 33, DEERLING
-	; nite
-	wildmon 12, UNFEZANT
-	wildmon 12, TRANQUILL
-	wildmon 13, UNFEZANT
-	wildmon 31, TRANQUILL
-	wildmon 13, JIGGLYPUFF
-	wildmon 10, DITTO
-	wildmon 10, DITTO
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -1622,90 +1594,6 @@
 	wildmon LEVEL_FROM_BADGES + 1, GASTLY
 	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
 	wildmon LEVEL_FROM_BADGES + 5, HAUNTER
-	end_grass_wildmons
-
-	def_grass_wildmons STORMY_BEACH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, YANMA
-	; day
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES + 1, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, YANMA
-	; nite
-	wildmon LEVEL_FROM_BADGES - 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES + 0, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, RATICATE
-	wildmon LEVEL_FROM_BADGES + 1, GASTLY
-	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
-	wildmon LEVEL_FROM_BADGES + 5, HAUNTER
-	end_grass_wildmons
-
-	def_grass_wildmons MURKY_SWAMP
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA, PALDEAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 1, YANMA
-	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, GRIMER, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, MUK, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, YANMEGA
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA, PALDEAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 1, YANMA
-	wildmon LEVEL_FROM_BADGES - 1, GRIMER, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, GRIMER, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 1, MUK, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES + 3, YANMEGA
-	; nite
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 4, ZUBAT
-	wildmon LEVEL_FROM_BADGES + 1, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, GASTLY
-	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
-	wildmon LEVEL_FROM_BADGES + 1, MISDREAVUS
-	wildmon LEVEL_FROM_BADGES + 5, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons MAGNET_TUNNEL_INSIDE
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, GEODUDE, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES - 0, ZUBAT
-	wildmon LEVEL_FROM_BADGES - 3, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 1, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 3, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 1, ELEKID
-	; day
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 2, GEODUDE, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES - 0, ZUBAT
-	wildmon LEVEL_FROM_BADGES - 3, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 1, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 3, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 1, ELEKID
-	; nite
-	wildmon LEVEL_FROM_BADGES - 0, ZUBAT
-	wildmon LEVEL_FROM_BADGES - 2, GEODUDE, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES - 2, RATTATA
-	wildmon LEVEL_FROM_BADGES - 3, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 1, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 3, MAGNEMITE
-	wildmon LEVEL_FROM_BADGES - 1, ELEKID
 	end_grass_wildmons
 
 	db -1 ; end

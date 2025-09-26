@@ -8,11 +8,6 @@ WadeComeQuickScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-GinaComePickUpScript:
-	farwritetext GinaComePickUpText
-	promptbutton
-	sjump PhoneScript_HangupText_Female
-
 AlanComePickUpScript:
 	farwritetext AlanComePickUpGiftText
 	promptbutton

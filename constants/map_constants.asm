@@ -242,17 +242,6 @@ ENDM
 	map_const VIOLET_OUTSKIRTS,                           20, 10 ; 14
 	map_const VIOLET_OUTSKIRTS_HOUSE,                      4,  4 ; 15
 
-	newgroup                                                     ; 11
-	map_const ROUTE_34,                                   10, 27 ;  1
-	map_const ROUTE_34_COAST,                              9, 34 ;  2
-	map_const DAYCARE,                                     4,  4 ;  3
-	map_const STORMY_BEACH,                               22, 11 ;  4
-	map_const MURKY_SWAMP,                                23, 19 ;  5
-	map_const ILEX_FOREST_AZALEA_GATE,                     5,  4 ; 26
-	map_const ROUTE_34_ILEX_FOREST_GATE,                   5,  4 ; 27
-	map_const MAGNET_TUNNEL_WEST,                          9, 18 ; 34
-	map_const MAGNET_TUNNEL_INSIDE,                       23, 18 ; 35
-
 	newgroup                                                     ; 16
 	map_const ROUTE_23,                                   12, 70 ;  1
 	map_const INDIGO_PLATEAU,                             12, 13 ;  2

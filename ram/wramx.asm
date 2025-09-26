@@ -1093,7 +1093,6 @@ wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
 wRoute24SceneID:: db
 wRoute32SceneID:: db
-wRoute34SceneID:: db
 wRoute35NationalParkGateSceneID:: db
 wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
@@ -1155,7 +1154,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 97 ; unused
+	ds 98 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

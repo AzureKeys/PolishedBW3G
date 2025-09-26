@@ -27,7 +27,6 @@ CeruleanMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
-Route34IlexForestGate_BlockData:
 Route36RuinsOfAlphGate_BlockData:
 Route40BattleTowerGate_BlockData:
 Route43Gate_BlockData:
@@ -36,7 +35,6 @@ Route43MahoganyGate_BlockData:
 
 Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
-IlexForestAzaleaGate_BlockData:
 Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 	
@@ -215,22 +213,6 @@ SECTION "IlexForest_BlockData", ROMX
 IlexForest_BlockData:
 	INCBIN "maps/IlexForest.ablk.lz"
 
-SECTION "MurkySwamp_BlockData", ROMX
-MurkySwamp_BlockData:
-	INCBIN "maps/MurkySwamp.ablk.lz"
-
-SECTION "StormyBeach_BlockData", ROMX
-StormyBeach_BlockData:
-	INCBIN "maps/StormyBeach.ablk.lz"
-
-SECTION "Route34Coast_BlockData", ROMX
-Route34Coast_BlockData:
-	INCBIN "maps/Route34Coast.ablk.lz"
-
-SECTION "DayCare_BlockData", ROMX
-DayCare_BlockData:
-	INCBIN "maps/DayCare.ablk.lz"
-
 SECTION "GoldenrodDeptStoreB1F_BlockData", ROMX
 GoldenrodDeptStoreB1F_BlockData:
 	INCBIN "maps/GoldenrodDeptStoreB1F.ablk.lz"
@@ -270,14 +252,6 @@ WarehouseEntrance_BlockData:
 SECTION "MagnetTunnelEast_BlockData", ROMX
 MagnetTunnelEast_BlockData:
 	INCBIN "maps/MagnetTunnelEast.ablk.lz"
-
-SECTION "MagnetTunnelWest_BlockData", ROMX
-MagnetTunnelWest_BlockData:
-	INCBIN "maps/MagnetTunnelWest.ablk.lz"
-
-SECTION "MagnetTunnelInside_BlockData", ROMX
-MagnetTunnelInside_BlockData:
-	INCBIN "maps/MagnetTunnelInside.ablk.lz"
 
 SECTION "NationalPark_BlockData", ROMX
 NationalPark_BlockData:
@@ -761,10 +735,6 @@ Route33_BlockData:
 SECTION "Route33Raining_BlockData", ROMX
 Route33Raining_BlockData:
 	INCBIN "maps/Route33Raining.ablk.lz"
-
-SECTION "Route34_BlockData", ROMX
-Route34_BlockData:
-	INCBIN "maps/Route34.ablk.lz"
 
 SECTION "Route35_BlockData", ROMX
 Route35_BlockData:

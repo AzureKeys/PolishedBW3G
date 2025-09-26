@@ -125,20 +125,6 @@ INCLUDE "maps/SlowpokeWellB2F.asm"
 SECTION "Ilex Forest Scripts", ROMX
 
 INCLUDE "maps/IlexForest.asm"
-INCLUDE "maps/IlexForestAzaleaGate.asm"
-INCLUDE "maps/Route34IlexForestGate.asm"
-
-
-SECTION "Murky Swamp Scripts", ROMX
-
-INCLUDE "maps/MurkySwamp.asm"
-INCLUDE "maps/StormyBeach.asm"
-INCLUDE "maps/Route34Coast.asm"
-
-
-SECTION "Goldenrod Scripts", ROMX
-
-INCLUDE "maps/DayCare.asm"
 
 
 SECTION "Goldenrod Dept Store Scripts", ROMX
@@ -165,8 +151,6 @@ INCLUDE "maps/WarehouseEntrance.asm"
 SECTION "Magnet Tunnel Scripts", ROMX
 
 INCLUDE "maps/MagnetTunnelEast.asm"
-INCLUDE "maps/MagnetTunnelWest.asm"
-INCLUDE "maps/MagnetTunnelInside.asm"
 
 
 SECTION "National Park Scripts", ROMX
@@ -452,7 +436,6 @@ INCLUDE "maps/Route32RuinsOfAlphGate.asm"
 SECTION "Routes 33-35 Scripts", ROMX
 
 INCLUDE "maps/Route33.asm"
-INCLUDE "maps/Route34.asm"
 INCLUDE "maps/Route35.asm"
 INCLUDE "maps/Route35NationalParkGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm

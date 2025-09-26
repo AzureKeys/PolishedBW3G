@@ -4,7 +4,6 @@ MagnetTunnelEast_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  8,  7, MAGNET_TUNNEL_INSIDE, 2
 
 	def_coord_events
 

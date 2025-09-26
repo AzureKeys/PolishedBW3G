@@ -9,7 +9,3 @@ AnthonyHurryScript:
 ArnieHurryScript:
 	farwritetext ArnieHurryText
 	end
-
-ToddHurryScript:
-	farwritetext ToddHaveYouGoneToDepartmentStoreText
-	end

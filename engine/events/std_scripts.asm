@@ -499,7 +499,6 @@ AskNumber1MScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -527,9 +526,6 @@ AskNumber1MScript:
 	end
 .Anthony:
 	farwritetext AnthonyAskNumber1Text
-	end
-.Todd:
-	farwritetext ToddAskNumber1Text
 	end
 .Irwin:
 	farwritetext IrwinAskNumber1Text
@@ -566,7 +562,6 @@ AskNumber2MScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -594,9 +589,6 @@ AskNumber2MScript:
 	end
 .Anthony:
 	farwritetext AnthonyAskNumber2Text
-	end
-.Todd:
-	farwritetext ToddAskNumber2Text
 	end
 .Irwin:
 	farwritetext IrwinAskNumber2Text
@@ -639,7 +631,6 @@ NumberAcceptedMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -672,10 +663,6 @@ NumberAcceptedMScript:
 
 .Anthony:
 	farwritetext AnthonyNumberAcceptedText
-	waitendtext
-
-.Todd:
-	farwritetext ToddNumberAcceptedText
 	waitendtext
 
 .Irwin:
@@ -720,7 +707,6 @@ NumberDeclinedMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -753,10 +739,6 @@ NumberDeclinedMScript:
 
 .Anthony:
 	farwritetext AnthonyNumberDeclinedText
-	waitendtext
-
-.Todd:
-	farwritetext ToddNumberDeclinedText
 	waitendtext
 
 .Irwin:
@@ -801,7 +783,6 @@ PhoneFullMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -834,10 +815,6 @@ PhoneFullMScript:
 
 .Anthony:
 	farwritetext AnthonyPhoneFullText
-	waitendtext
-
-.Todd:
-	farwritetext ToddPhoneFullText
 	waitendtext
 
 .Irwin:
@@ -882,7 +859,6 @@ RematchMScript:
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
@@ -913,10 +889,6 @@ RematchMScript:
 
 .Anthony:
 	farwritetext AnthonyRematchText
-	waitendtext
-
-.Todd:
-	farwritetext ToddRematchText
 	waitendtext
 
 .Arnie:
@@ -1049,7 +1021,6 @@ AskNumber1FScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1058,9 +1029,6 @@ AskNumber1FScript:
 	end
 .Liz:
 	farwritetext LizAskNumber1Text
-	end
-.Gina:
-	farwritetext GinaAskNumber1Text
 	end
 .Tiffany:
 	farwritetext TiffanyAskNumber1Text
@@ -1073,7 +1041,6 @@ AskNumber2FScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1082,9 +1049,6 @@ AskNumber2FScript:
 	end
 .Liz:
 	farwritetext LizAskNumber2Text
-	end
-.Gina:
-	farwritetext GinaAskNumber2Text
 	end
 .Tiffany:
 	farwritetext TiffanyAskNumber2Text
@@ -1104,7 +1068,6 @@ NumberAcceptedFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1114,10 +1077,6 @@ NumberAcceptedFScript:
 
 .Liz:
 	farwritetext LizNumberAcceptedText
-	waitendtext
-
-.Gina:
-	farwritetext GinaNumberAcceptedText
 	waitendtext
 
 .Tiffany:
@@ -1132,7 +1091,6 @@ NumberDeclinedFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1142,10 +1100,6 @@ NumberDeclinedFScript:
 
 .Liz:
 	farwritetext LizNumberDeclinedText
-	waitendtext
-
-.Gina:
-	farwritetext GinaNumberDeclinedText
 	waitendtext
 
 .Tiffany:
@@ -1160,7 +1114,6 @@ PhoneFullFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
@@ -1170,10 +1123,6 @@ PhoneFullFScript:
 
 .Liz:
 	farwritetext LizPhoneFullText
-	waitendtext
-
-.Gina:
-	farwritetext GinaPhoneFullText
 	waitendtext
 
 .Tiffany:
@@ -1187,16 +1136,11 @@ PhoneFullFScript:
 RematchFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Liz:
 	farwritetext LizRematchText
-	waitendtext
-
-.Gina:
-	farwritetext GinaRematchText
 	waitendtext
 
 .Tiffany:
@@ -1210,15 +1154,10 @@ RematchFScript:
 GiftFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
 .Beverly:
 	farwritetext BeverlyGiftText
-	promptbutton
-	end
-.Gina:
-	farwritetext GinaGiftText
 	promptbutton
 	end
 .Tiffany:
@@ -1229,16 +1168,11 @@ GiftFScript:
 PackFullFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyPackFullText
-	waitendtext
-
-.Gina:
-	farwritetext GinaPackFullText
 	waitendtext
 
 .Tiffany:

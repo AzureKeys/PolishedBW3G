@@ -18,12 +18,7 @@ Landmarks:
 	landmark  68, 124, AzaleaTownName
 	landmark  76, 116, SlowpokeWellName
 	landmark  52, 124, IlexForestName
-	landmark  52, 108, Route34Name
-	landmark  36, 120, Route34CoastName
-	landmark  44, 132, StormyBeachName
-	landmark  52, 132, MurkySwampName
 	landmark  50,  92, RadioTowerName
-	landmark  68,  92, MagnetTunnelName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
 	landmark  52,  60, NationalParkName
@@ -128,7 +123,6 @@ Route24Name:           rawchar "Route 24@"
 Route25Name:           rawchar "Route 25@"
 Route32Name:           rawchar "Route 32@"
 Route33Name:           rawchar "Route 33@"
-Route34Name:           rawchar "Route 34@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"
@@ -145,12 +139,8 @@ DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
-MagnetTunnelName:      rawchar "Magnet¯Tunnel@"
 Route32CoastName:      rawchar "Route 32¯Coast@"
-Route34CoastName:      rawchar "Route 34¯Coast@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
-StormyBeachName:       rawchar "Stormy¯Beach@"
-MurkySwampName:        rawchar "Murky¯Swamp@"
 ScaryCaveName:         rawchar "Scary¯Cave@"
 UragaChannelName:      rawchar "Uraga¯Channel@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"

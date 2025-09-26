@@ -264,7 +264,6 @@ endr
 	; goldenrod events
 	setevent EVENT_BEAT_CAMPER_TODD
 	addcellnum PHONE_LYRA
-	setmapscene DAYCARE, $1
 	setevent EVENT_LYRA_DAYCARE
 	setevent EVENT_NURSE_SAW_TRAINER_STAR
 	setevent EVENT_INTRODUCED_TEALA

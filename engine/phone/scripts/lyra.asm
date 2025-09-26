@@ -89,12 +89,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .AzaleaTown
 	dw .SlowpokeWell ; no calls
 	dw .IlexForest
-	dw .Route34
-	dw .Route34Coast
-	dw .StormyBeach
-	dw .MurkySwamp
 	dw .RadioTower ; no calls
-	dw .MagnetTunnel
 	dw .Route35
 	dw .Route35Coast
 	dw .NationalPark
@@ -134,12 +129,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 .AzaleaTown:
 .SlowpokeWell:
 .IlexForest:
-.Route34:
-.Route34Coast:
-.StormyBeach:
-.MurkySwamp:
 .RadioTower:
-.MagnetTunnel:
 .Route35:
 .Route35Coast:
 .NationalPark:

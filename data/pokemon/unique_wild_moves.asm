@@ -19,9 +19,6 @@ UniqueWildMoves:
 	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
 	unique_moves SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
-	unique_moves ROUTE_34_COAST,   STARYU,     DREAM_EATER  ; new move
-	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
-	unique_moves MAGNET_TUNNEL,    MAGNEMITE,  PSYBEAM      ; new move
 	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves TIN_TOWER,        0,          0
 	unique_moves BURNED_TOWER,     0,          0

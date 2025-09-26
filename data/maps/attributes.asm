@@ -15,8 +15,7 @@ ENDM
 	connection south, Route32, ROUTE_32, 0
 	connection west, Route36, ROUTE_36, 0
 
-	map_attributes AzaleaTown, AZALEA_TOWN, $5, WEST | EAST
-	connection west, Route34, ROUTE_34, -18
+	map_attributes AzaleaTown, AZALEA_TOWN, $5, EAST
 	connection east, Route33, ROUTE_33, 0
 
 	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | EAST
@@ -42,17 +41,6 @@ ENDM
 	map_attributes Route33, ROUTE_33, $5, NORTH | WEST
 	connection north, Route32, ROUTE_32, 0
 	connection west, AzaleaTown, AZALEA_TOWN, 0
-
-	map_attributes Route34, ROUTE_34, $5, WEST | EAST
-	connection west, Route34Coast, ROUTE_34_COAST, 0
-	connection east, AzaleaTown, AZALEA_TOWN, 18
-
-	map_attributes Route34Coast, ROUTE_34_COAST, $35, SOUTH | EAST
-	connection south, StormyBeach, STORMY_BEACH, 0
-	connection east, Route34, ROUTE_34, 0
-
-	map_attributes StormyBeach, STORMY_BEACH, $35, NORTH
-	connection north, Route34Coast, ROUTE_34_COAST, 0
 
 	map_attributes Route35, ROUTE_35, $5, NORTH
 	connection north, Route36, ROUTE_36, 0
@@ -132,8 +120,6 @@ ENDM
 	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, EAST
 	connection east, Route32, ROUTE_32, -9
 
-	map_attributes MagnetTunnelWest, MAGNET_TUNNEL_WEST, $5, 0
-
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
 
@@ -180,8 +166,6 @@ ENDM
 	map_attributes TeamRocketBaseB2F, TEAM_ROCKET_BASE_B2F, $0, 0
 	map_attributes TeamRocketBaseB3F, TEAM_ROCKET_BASE_B3F, $0, 0
 	map_attributes IlexForest, ILEX_FOREST, $35, 0
-	map_attributes MurkySwamp, MURKY_SWAMP, $35, 0
-	map_attributes MagnetTunnelInside, MAGNET_TUNNEL_INSIDE, $9, 0
 	map_attributes WarehouseEntrance, WAREHOUSE_ENTRANCE, $0, 0
 	map_attributes UndergroundPathSwitchRoomEntrances, UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, $0, 0
 	map_attributes GoldenrodDeptStoreB1F, GOLDENROD_DEPT_STORE_B1F, $0, 0
@@ -290,9 +274,6 @@ ENDM
 	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route36NationalParkGate, ROUTE_36_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36VioletGate, ROUTE_36_VIOLET_GATE, $0, 0
-	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $0, 0
-	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $0, 0
-	map_attributes DayCare, DAYCARE, $0, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0

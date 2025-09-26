@@ -13,12 +13,7 @@
 	const AZALEA_TOWN        ; 0f
 	const SLOWPOKE_WELL      ; 10
 	const ILEX_FOREST        ; 11
-	const ROUTE_34           ; 12
-	const ROUTE_34_COAST     ; 13
-	const STORMY_BEACH       ; 14
-	const MURKY_SWAMP        ; 15
 	const RADIO_TOWER        ; 17
-	const MAGNET_TUNNEL      ; 19
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b
 	const NATIONAL_PARK      ; 1c

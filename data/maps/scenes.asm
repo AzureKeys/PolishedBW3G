@@ -22,7 +22,6 @@ MapScenes::
 	scene_var CINNABAR_LAB,                           wCinnabarLabSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var DARK_CAVE_VIOLET_ENTRANCE,              wDarkCaveVioletEntranceSceneID
-	scene_var DAYCARE,                                wDayCareSceneID
 	scene_var DRAGON_SHRINE,                          wDragonShrineSceneID
 	scene_var DRAGONS_DEN_B1F,                        wDragonsDenB1FSceneID
 	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
@@ -46,8 +45,6 @@ MapScenes::
 	scene_var ROUTE_23,                               wRoute23SceneID
 	scene_var ROUTE_24,                               wRoute24SceneID
 	scene_var ROUTE_32,                               wRoute32SceneID
-	scene_var ROUTE_34,                               wRoute34SceneID
-	scene_var ROUTE_34_ILEX_FOREST_GATE,              wAlways0SceneID
 	scene_var ROUTE_35_NATIONAL_PARK_GATE,            wRoute35NationalParkGateSceneID
 	scene_var ROUTE_36,                               wRoute36SceneID
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
