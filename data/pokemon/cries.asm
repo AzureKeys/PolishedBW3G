@@ -265,8 +265,8 @@ PokemonCries::
 	mon_cry CRY_STOUTLAND,  -$201,  $0b0 ; Stoutland
 	mon_cry CRY_MAREEP,      $04d,  $0b8 ; Purrloin
 	mon_cry CRY_MAREEP,      $03d,  $148 ; Liepard
-	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; PANSAGE*
-	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; SIMISAGE*
+	mon_cry CRY_TOGEPI,      $028,  $0e0 ; Pansage
+	mon_cry CRY_PSYDUCK,     $a2c,  $0e4 ; Simisage
 	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; PANSAGE*
 	mon_cry CRY_WEEDLE,      $000,  $100 ; SIMISAGE*
 	mon_cry CRY_SEEL,        $088,  $140 ; PANPOUR*
