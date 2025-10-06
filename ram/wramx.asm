@@ -1062,9 +1062,6 @@ wBellchimeTrailSceneID:: db
 wBrunosRoomSceneID:: db
 wBurnedTower1FSceneID:: db
 wBurnedTowerB1FSceneID:: db
-wCeruleanCapeSceneID:: db
-wCeruleanCave1FSceneID:: db
-wCeruleanGymSceneID:: db
 wCinnabarLabSceneID:: db
 wColosseumSceneID:: db
 wDarkCaveVioletEntranceSceneID:: db
@@ -1151,7 +1148,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 101 ; unused
+	ds 104 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

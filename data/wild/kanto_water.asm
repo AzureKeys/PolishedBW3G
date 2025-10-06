@@ -56,25 +56,11 @@
 	wildmon  52, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons CERULEAN_CITY
-	db 4 percent ; encounter rate
-	wildmon  55, RATTATA
-	wildmon  50, RATTATA
-	wildmon  55, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent ; encounter rate
 	wildmon  55, RATTATA
 	wildmon  50, RATTATA
 	wildmon  55, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons CERULEAN_CAPE
-	db 4 percent ; encounter rate
-	wildmon  48, RATTATA
-	wildmon  52, POLIWHIRL
-	wildmon  54, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_1F
@@ -103,20 +89,6 @@
 	wildmon  54, RATTATA
 	wildmon  56, RATTATA
 	wildmon  58, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons CERULEAN_CAVE_1F
-	db 6 percent ; encounter rate
-	wildmon  60, SLOWBRO
-	wildmon  63, GOLDUCK
-	wildmon  66, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons CERULEAN_CAVE_B1F
-	db 6 percent ; encounter rate
-	wildmon  60, SLOWKING
-	wildmon  63, GOLDUCK
-	wildmon  66, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons SEAFOAM_ISLANDS_B4F

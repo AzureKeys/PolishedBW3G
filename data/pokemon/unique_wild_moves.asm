@@ -28,9 +28,6 @@ UniqueWildMoves:
 	unique_moves DARK_CAVE,        0,          0
 	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
 	unique_moves MT_MOON,          0,          0
-	unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
 	unique_moves SCARY_CAVE,       GOLBAT,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move

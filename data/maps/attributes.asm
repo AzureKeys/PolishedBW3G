@@ -72,23 +72,13 @@ ENDM
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
 
-	map_attributes CeruleanCity, CERULEAN_CITY, $f, NORTH | WEST
-	connection north, Route24, ROUTE_24, 0
-	connection west, Route4, ROUTE_4, 2
-
-	map_attributes Route24, ROUTE_24, $2c, SOUTH | EAST
-	connection south, CeruleanCity, CERULEAN_CITY, 0
+	map_attributes Route24, ROUTE_24, $2c, EAST
 	connection east, Route25, ROUTE_25, 0
 
-	map_attributes Route25, ROUTE_25, $2c, WEST | EAST
+	map_attributes Route25, ROUTE_25, $2c, WEST
 	connection west, Route24, ROUTE_24, 0
-	connection east, CeruleanCape, CERULEAN_CAPE, 0
 
-	map_attributes CeruleanCape, CERULEAN_CAPE, $2c, WEST
-	connection west, Route25, ROUTE_25, 0
-
-	map_attributes Route4, ROUTE_4, $2c, EAST
-	connection east, CeruleanCity, CERULEAN_CITY, -2
+	map_attributes Route4, ROUTE_4, $2c, 0
 
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
@@ -208,16 +198,6 @@ ENDM
 	map_attributes SeafoamIslandsB2F, SEAFOAM_ISLANDS_B2F, $9, 0
 	map_attributes SeafoamIslandsB3F, SEAFOAM_ISLANDS_B3F, $9, 0
 	map_attributes SeafoamIslandsB4F, SEAFOAM_ISLANDS_B4F, $9, 0
-	map_attributes CeruleanGymBadgeSpeechHouse, CERULEAN_GYM_BADGE_SPEECH_HOUSE, $0, 0
-	map_attributes CeruleanPoliceStation, CERULEAN_POLICE_STATION, $0, 0
-	map_attributes CeruleanTradeSpeechHouse, CERULEAN_TRADE_SPEECH_HOUSE, $0, 0
-	map_attributes CeruleanPokeCenter1F, CERULEAN_POKECENTER_1F, $0, 0
-	map_attributes CeruleanGym, CERULEAN_GYM, $0, 0
-	map_attributes CeruleanMart, CERULEAN_MART, $0, 0
-	map_attributes CeruleanBikeShop, CERULEAN_BIKE_SHOP, $0, 0
-	map_attributes CeruleanBerryPowderHouse, CERULEAN_BERRY_POWDER_HOUSE, $0, 0
-	map_attributes CeruleanCoupleHouse, CERULEAN_COUPLE_HOUSE, $0, 0
-	map_attributes CeruleanWaterShowSpeechHouse, CERULEAN_WATER_SHOW_SPEECH_HOUSE, $0, 0
 	map_attributes Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
 	map_attributes PowerPlant, POWER_PLANT, $0, 0
 	map_attributes BillsHouse, BILLS_HOUSE, $0, 0
@@ -255,9 +235,6 @@ ENDM
 	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
-	map_attributes CeruleanCave1F, CERULEAN_CAVE_1F, $9, 0
-	map_attributes CeruleanCave2F, CERULEAN_CAVE_2F, $9, 0
-	map_attributes CeruleanCaveB1F, CERULEAN_CAVE_B1F, $9, 0
 	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
 	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
 	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0

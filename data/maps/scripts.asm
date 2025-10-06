@@ -8,7 +8,6 @@ SECTION "Pokemon Center Scripts 2", ROMX
 INCLUDE "maps/MahoganyPokeCenter1F.asm"
 INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
-INCLUDE "maps/CeruleanPokeCenter1F.asm"
 
 
 SECTION "Pokemon Center Scripts 3", ROMX
@@ -271,34 +270,8 @@ INCLUDE "maps/MountMoonB1F.asm"
 INCLUDE "maps/MountMoonB2F.asm"
 
 
-SECTION "Cerulean Scripts", ROMX
-
-INCLUDE "maps/CeruleanCity.asm"
-INCLUDE "maps/CeruleanMart.asm"
-INCLUDE "maps/CeruleanGym.asm"
-INCLUDE "maps/CeruleanGymBadgeSpeechHouse.asm"
-INCLUDE "maps/CeruleanPoliceStation.asm"
-INCLUDE "maps/CeruleanTradeSpeechHouse.asm"
-
-
-SECTION "Cerulean Scripts 2", ROMX
-
-INCLUDE "maps/CeruleanBerryPowderHouse.asm"
-INCLUDE "maps/CeruleanBikeShop.asm"
-INCLUDE "maps/CeruleanCoupleHouse.asm"
-INCLUDE "maps/CeruleanWaterShowSpeechHouse.asm"
-
-
-SECTION "Cerulean Cave Scripts", ROMX
-
-INCLUDE "maps/CeruleanCave1F.asm"
-INCLUDE "maps/CeruleanCave2F.asm"
-INCLUDE "maps/CeruleanCaveB1F.asm"
-
-
 SECTION "Cerulean Cape Scripts", ROMX
 
-INCLUDE "maps/CeruleanCape.asm"
 INCLUDE "maps/BillsHouse.asm"
 
 

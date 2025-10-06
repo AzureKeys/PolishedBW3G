@@ -109,7 +109,6 @@ Route24RocketScript:
 	disappear ROUTE24_ROCKET
 	setevent EVENT_LEARNED_ABOUT_MACHINE_PART
 	clearevent EVENT_CERULEAN_CAPE_BOYFRIEND
-	setmapscene CERULEAN_CAPE, $1
 	pause 25
 	special Special_FadeInQuickly
 	playmusic MUSIC_NUGGET_BRIDGE_HGSS

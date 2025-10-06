@@ -86,8 +86,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const_def
 	const SPAWN_HOME
 ; kanto
-	const SPAWN_CERULEAN
-	const SPAWN_CERULEAN_CAPE
 	const SPAWN_CINNABAR
 	const SPAWN_INDIGO
 ; johto
@@ -109,8 +107,6 @@ DEF SPAWN_N_A EQU -1
 	const FLY_LAKE_OF_RAGE
 	const FLY_BLACKTHORN
 ; kanto
-	const FLY_CERULEAN
-	const FLY_CERULEAN_CAPE
 	const FLY_CINNABAR
 	const FLY_INDIGO
 DEF NUM_FLYPOINTS EQU const_value

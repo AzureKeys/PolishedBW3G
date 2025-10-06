@@ -184,27 +184,12 @@ ENDM
 	map_const ROUTE_19_BEACH_HOUSE,                        4,  4 ; 22
 
 	newgroup                                                     ;  7
-	map_const CERULEAN_GYM_BADGE_SPEECH_HOUSE,             4,  4 ;  1
-	map_const CERULEAN_POLICE_STATION,                     4,  4 ;  2
-	map_const CERULEAN_TRADE_SPEECH_HOUSE,                 4,  4 ;  3
-	map_const CERULEAN_POKECENTER_1F,                      6,  4 ;  4
-	map_const CERULEAN_GYM,                                5,  8 ;  6
-	map_const CERULEAN_MART,                               6,  4 ;  7
 	map_const ROUTE_10_POKECENTER_1F,                      6,  4 ;  8
 	map_const POWER_PLANT,                                10,  9 ; 10
 	map_const BILLS_HOUSE,                                 4,  4 ; 11
 	map_const ROUTE_4,                                    33, 10 ; 12
 	map_const ROUTE_24,                                   14, 20 ; 13
 	map_const ROUTE_25,                                   17, 21 ; 14
-	map_const CERULEAN_CAPE,                              25, 19 ; 15
-	map_const CERULEAN_CITY,                              20, 16 ; 16
-	map_const CERULEAN_CAVE_1F,                           17, 12 ; 17
-	map_const CERULEAN_CAVE_2F,                           17, 11 ; 18
-	map_const CERULEAN_CAVE_B1F,                          17, 11 ; 19
-	map_const CERULEAN_BIKE_SHOP,                          4,  4 ; 20
-	map_const CERULEAN_BERRY_POWDER_HOUSE,                 4,  4 ; 21
-	map_const CERULEAN_COUPLE_HOUSE,                       4,  4 ; 22
-	map_const CERULEAN_WATER_SHOW_SPEECH_HOUSE,            4,  4 ; 23
 
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1

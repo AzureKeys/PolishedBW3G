@@ -84,7 +84,6 @@ PowerPlantManager:
 	closetext
 	setevent EVENT_MET_MANAGER_AT_POWER_PLANT
 	clearevent EVENT_CERULEAN_GYM_ROCKET
-	setmapscene CERULEAN_GYM, $1
 	setscene $1
 	end
 
