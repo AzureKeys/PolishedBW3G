@@ -321,10 +321,6 @@ MoonBallMultiplier:
 	pop bc
 	ret nz
 
-	inc hl
-	inc hl
-	inc hl
-
 	push bc
 	farcall GetNextEvoAttackByte
 	

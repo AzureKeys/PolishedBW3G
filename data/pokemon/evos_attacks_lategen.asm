@@ -5088,7 +5088,7 @@ endc
 	learnset 57, DESTINY_BOND
 
 	; Also terminates previous mon's learnset
-	EggEvosAttacks:
+EggEvosAttacks:
 	db -1 ; no more evolutions
 	db -1 ; no more level-up moves
 

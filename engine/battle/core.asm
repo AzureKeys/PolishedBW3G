@@ -7359,13 +7359,11 @@ _GetNewBaseExp:
 	inc hl
 .inc_2
 	inc hl
-	inc hl
 	push hl
 	farcall GetNextEvoAttackByte
 	ld d, l
 	ld a, h
 	pop hl
-	inc hl
 	inc hl
 
 	; NO_FORM should be treated as a wildcard

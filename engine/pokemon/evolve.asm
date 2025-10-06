@@ -320,10 +320,10 @@ CheckHowToEvolve:
 	jmp nz, .dont_evolve_3
 	jr .proceed
 
-.move 
+.move
 	call GetNextEvoAttackByte
 	push hl
-	push bc					  
+	push bc
 	ld b, a
 	ld hl, wTempMonMoves
 rept NUM_MOVES - 1
@@ -964,4 +964,6 @@ GetNextMove:
 GetNextEvoAttackByte:					 
 	ldh a, [hTemp]		   
 	call GetFarByte			
-	inc hl   
+	inc hl
+	ret
+	
