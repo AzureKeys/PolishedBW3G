@@ -1,6 +1,5 @@
 SECTION "Pokemon Center Scripts 1", ROMX
 
-INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
 
 
@@ -80,15 +79,6 @@ INCLUDE "maps/UnionCave1F.asm"
 INCLUDE "maps/UnionCaveB1FNorth.asm"
 INCLUDE "maps/UnionCaveB1FSouth.asm"
 INCLUDE "maps/UnionCaveB2F.asm"
-
-
-SECTION "Azalea Scripts", ROMX
-
-INCLUDE "maps/AzaleaTown.asm"
-INCLUDE "maps/AzaleaMart.asm"
-INCLUDE "maps/AzaleaGym.asm"
-INCLUDE "maps/CharcoalKiln.asm"
-INCLUDE "maps/KurtsHouse.asm"
 
 
 SECTION "Slowpoke Well Scripts", ROMX
@@ -405,7 +395,6 @@ INCLUDE "maps/Route25.asm"
 
 SECTION "Routes 33-35 Scripts", ROMX
 
-INCLUDE "maps/Route33.asm"
 INCLUDE "maps/Route35.asm"
 INCLUDE "maps/Route35NationalParkGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm

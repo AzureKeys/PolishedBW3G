@@ -10,8 +10,6 @@ Landmarks:
 	landmark 140, 100, NewBarkTownName
 	landmark  86,  58, SproutTowerName
 	landmark  84, 124, UnionCaveName
-	landmark  76, 124, Route33Name
-	landmark  68, 124, AzaleaTownName
 	landmark  76, 116, SlowpokeWellName
 	landmark  52, 124, IlexForestName
 	landmark  50,  92, RadioTowerName
@@ -73,7 +71,6 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 NewBarkTownName:       rawchar "New Bark¯Town@"
-AzaleaTownName:        rawchar "Azalea Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 BlackthornCityName:    rawchar "Blackthorn¯City@"
@@ -114,7 +111,6 @@ Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
 Route24Name:           rawchar "Route 24@"
 Route25Name:           rawchar "Route 25@"
-Route33Name:           rawchar "Route 33@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"

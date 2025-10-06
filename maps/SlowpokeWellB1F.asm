@@ -81,7 +81,6 @@ Proton2Script:
 	special FadeOutPalettes
 	special HealParty
 	pause 15
-	warp KURTS_HOUSE, 3, 3
 	end
 
 GenericTrainerGruntM2:

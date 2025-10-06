@@ -497,7 +497,6 @@ AskNumber1MScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -519,9 +518,6 @@ AskNumber1MScript:
 	end
 .Wade:
 	farwritetext WadeAskNumber1Text
-	end
-.Anthony:
-	farwritetext AnthonyAskNumber1Text
 	end
 .Irwin:
 	farwritetext IrwinAskNumber1Text
@@ -556,7 +552,6 @@ AskNumber2MScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -578,9 +573,6 @@ AskNumber2MScript:
 	end
 .Wade:
 	farwritetext WadeAskNumber2Text
-	end
-.Anthony:
-	farwritetext AnthonyAskNumber2Text
 	end
 .Irwin:
 	farwritetext IrwinAskNumber2Text
@@ -621,7 +613,6 @@ NumberAcceptedMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -646,10 +637,6 @@ NumberAcceptedMScript:
 
 .Wade:
 	farwritetext WadeNumberAcceptedText
-	waitendtext
-
-.Anthony:
-	farwritetext AnthonyNumberAcceptedText
 	waitendtext
 
 .Irwin:
@@ -692,7 +679,6 @@ NumberDeclinedMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -717,10 +703,6 @@ NumberDeclinedMScript:
 
 .Wade:
 	farwritetext WadeNumberDeclinedText
-	waitendtext
-
-.Anthony:
-	farwritetext AnthonyNumberDeclinedText
 	waitendtext
 
 .Irwin:
@@ -763,7 +745,6 @@ PhoneFullMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -788,10 +769,6 @@ PhoneFullMScript:
 
 .Wade:
 	farwritetext WadePhoneFullText
-	waitendtext
-
-.Anthony:
-	farwritetext AnthonyPhoneFullText
 	waitendtext
 
 .Irwin:
@@ -834,7 +811,6 @@ RematchMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
@@ -857,10 +833,6 @@ RematchMScript:
 
 .Wade:
 	farwritetext WadeRematchText
-	waitendtext
-
-.Anthony:
-	farwritetext AnthonyRematchText
 	waitendtext
 
 .Arnie:

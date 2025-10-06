@@ -1,8 +1,6 @@
 GetOvercastIndex::
 ; Some maps are overcast, depending on certain conditions
 	ld a, [wMapGroup]
-	cp GROUP_AZALEA_TOWN ; GROUP_ROUTE_33
-	jr z, .azalea_route_33
 	cp GROUP_LAKE_OF_RAGE ; GROUP_ROUTE_43
 	jr z, .lake_of_rage_route_43
 .not_overcast:
@@ -11,11 +9,7 @@ GetOvercastIndex::
 
 .azalea_route_33:
 ; Azalea Town and Route 33
-	ld a, [wMapNumber]
-	cp MAP_AZALEA_TOWN
-	jr z, .azalea_town
-	cp MAP_ROUTE_33
-	jr nz, .not_overcast
+	jr .not_overcast
 .azalea_town
 ; Not overcast until Slowpokes appear (Team Rocket beaten)
 	eventflagcheck EVENT_AZALEA_TOWN_SLOWPOKES

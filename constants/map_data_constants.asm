@@ -92,7 +92,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_INDIGO
 ; johto
 	const SPAWN_NEW_BARK
-	const SPAWN_AZALEA
 	const SPAWN_ECRUTEAK
 	const SPAWN_MAHOGANY
 	const SPAWN_LAKE_OF_RAGE
@@ -105,7 +104,6 @@ DEF SPAWN_N_A EQU -1
 	const_def
 ; johto
 	const FLY_NEW_BARK
-	const FLY_CHERRYGROVE
 	const FLY_ECRUTEAK
 	const FLY_MAHOGANY
 	const FLY_LAKE_OF_RAGE

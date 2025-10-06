@@ -9,7 +9,6 @@ MapGroupRoofs:
 	db ROOF_AZALEA   ; 5 (Blackthorn City)
 	db -1            ; 6
 	db -1            ; 7
-	db ROOF_AZALEA   ; 8 (Azalea Town)
 	db ROOF_OLIVINE  ; 9 (Battle Tower Outside)
 	db -1            ; 16
 	db -1            ; 20

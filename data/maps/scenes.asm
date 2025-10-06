@@ -6,7 +6,6 @@ MACRO scene_var
 ENDM
 
 MapScenes::
-	scene_var AZALEA_TOWN,                            wAzaleaTownSceneID
 	scene_var BATTLE_TOWER_1F,                        wBattleFacilitySceneID
 	scene_var BATTLE_TOWER_BATTLE_ROOM,               wAlways0SceneID
 	scene_var BATTLE_TOWER_ELEVATOR,                  wAlways0SceneID

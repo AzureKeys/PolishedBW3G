@@ -16,7 +16,6 @@ SpawnPoints:
 	spawn INDIGO_PLATEAU,             11,  6
 
 	spawn NEW_BARK_TOWN,              15,  6
-	spawn AZALEA_TOWN,                15, 10
 	spawn ECRUTEAK_CITY,              23, 28
 	spawn MAHOGANY_TOWN,              15, 14
 	spawn LAKE_OF_RAGE,               21, 29

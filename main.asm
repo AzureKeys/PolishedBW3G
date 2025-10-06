@@ -384,7 +384,6 @@ INCLUDE "engine/events/trainer_scripts.asm"
 
 SECTION "Phone Text 1", ROMX
 
-INCLUDE "data/phone/text/anthony_overworld.asm"
 INCLUDE "data/phone/text/irwin_overworld.asm"
 INCLUDE "data/phone/text/arnie_overworld.asm"
 INCLUDE "data/phone/text/alan_overworld.asm"
@@ -423,7 +422,6 @@ INCLUDE "engine/phone/scripts/beverly.asm"
 INCLUDE "engine/phone/scripts/huey.asm"
 INCLUDE "engine/phone/scripts/joey.asm"
 INCLUDE "engine/phone/scripts/wade.asm"
-INCLUDE "engine/phone/scripts/anthony.asm"
 INCLUDE "engine/phone/scripts/irwin.asm"
 INCLUDE "engine/phone/scripts/arnie.asm"
 INCLUDE "engine/phone/scripts/alan.asm"
@@ -571,7 +569,6 @@ INCLUDE "data/phone/text/beverly_caller.asm"
 INCLUDE "data/phone/text/huey_caller.asm"
 INCLUDE "data/phone/text/joey_caller.asm"
 INCLUDE "data/phone/text/wade_caller.asm"
-INCLUDE "data/phone/text/anthony_caller.asm"
 
 
 SECTION "Phone Text 2", ROMX
@@ -594,7 +591,6 @@ INCLUDE "data/phone/text/huey_callee.asm"
 INCLUDE "data/phone/text/unknown_callee.asm"
 INCLUDE "data/phone/text/joey_callee.asm"
 INCLUDE "data/phone/text/wade_callee.asm"
-INCLUDE "data/phone/text/anthony_callee.asm"
 INCLUDE "data/phone/text/irwin_callee.asm"
 INCLUDE "data/phone/text/arnie_callee.asm"
 INCLUDE "data/phone/text/alan_callee.asm"

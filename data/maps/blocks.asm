@@ -1,6 +1,5 @@
 SECTION "Special Map Blockdata", ROMX
 
-AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
@@ -17,7 +16,6 @@ CinnabarPokeCenter1F_BlockData:
 KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
-AzaleaMart_BlockData:
 EcruteakMart_BlockData:
 BlackthornMart_BlockData:
 CeruleanMart_BlockData:
@@ -145,26 +143,6 @@ UnionCaveB1FSouth_BlockData:
 SECTION "UnionCaveB2F_BlockData", ROMX
 UnionCaveB2F_BlockData:
 	INCBIN "maps/UnionCaveB2F.ablk.lz"
-
-SECTION "AzaleaGym_BlockData", ROMX
-AzaleaGym_BlockData:
-	INCBIN "maps/AzaleaGym.ablk.lz"
-
-SECTION "AzaleaTown_BlockData", ROMX
-AzaleaTown_BlockData:
-	INCBIN "maps/AzaleaTown.ablk.lz"
-
-SECTION "AzaleaTownRaining_BlockData", ROMX
-AzaleaTownRaining_BlockData:
-	INCBIN "maps/AzaleaTownRaining.ablk.lz"
-
-SECTION "CharcoalKiln_BlockData", ROMX
-CharcoalKiln_BlockData:
-	INCBIN "maps/CharcoalKiln.ablk.lz"
-
-SECTION "KurtsHouse_BlockData", ROMX
-KurtsHouse_BlockData:
-	INCBIN "maps/KurtsHouse.ablk.lz"
 
 SECTION "SlowpokeWellEntrance_BlockData", ROMX
 SlowpokeWellEntrance_BlockData:
@@ -692,14 +670,6 @@ Route24_BlockData:
 SECTION "Route25_BlockData", ROMX
 Route25_BlockData:
 	INCBIN "maps/Route25.ablk.lz"
-
-SECTION "Route33_BlockData", ROMX
-Route33_BlockData:
-	INCBIN "maps/Route33.ablk.lz"
-
-SECTION "Route33Raining_BlockData", ROMX
-Route33Raining_BlockData:
-	INCBIN "maps/Route33Raining.ablk.lz"
 
 SECTION "Route35_BlockData", ROMX
 Route35_BlockData:

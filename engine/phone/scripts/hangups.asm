@@ -23,11 +23,6 @@ WadeNoBerriesScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-AnthonyHangUpScript:
-	farwritetext AnthonyWasntPayingAttentionText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
 ArnieHangUpScript:
 	farwritetext ArnieHaventSeenRareMonText
 	promptbutton

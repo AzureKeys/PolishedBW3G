@@ -11,7 +11,6 @@
 	const PHONE_SAILOR_HUEY
 	const_skip
 	const_skip
-	const PHONE_HIKER_ANTHONY
 	const PHONE_JUGGLER_IRWIN
 	const PHONE_BUG_CATCHER_ARNIE
 	const PHONE_SCHOOLBOY_ALAN

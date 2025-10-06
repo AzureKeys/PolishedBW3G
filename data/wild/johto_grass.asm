@@ -1260,34 +1260,6 @@
 	wildmon 23, DUNSPARCE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_33
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 9, RATTATA
-	wildmon 9, RATTATA
-	wildmon 9, GEODUDE
-	wildmon 10, RATTATA
-	wildmon 10, RATTATA
-	wildmon 9, SUNKERN
-	wildmon 10, SUNKERN
-	; day
-	wildmon 9, RATTATA
-	wildmon 9, RATTATA
-	wildmon 9, GEODUDE
-	wildmon 10, RATTATA
-	wildmon 10, RATTATA
-	wildmon 9, SUNKERN
-	wildmon 10, SUNKERN
-	; nite
-	wildmon 9, RATTATA
-	wildmon 9, ZUBAT
-	wildmon 9, GEODUDE
-	wildmon 10, ZUBAT
-	wildmon 10, RATTATA
-	wildmon 9, RATTATA
-	wildmon 10, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

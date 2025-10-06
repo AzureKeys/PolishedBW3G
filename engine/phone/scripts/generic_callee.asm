@@ -26,7 +26,6 @@ PhoneScript_AnswerPhone_Male:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -54,11 +53,6 @@ PhoneScript_AnswerPhone_Male:
 
 .Wade:
 	farwritetext WadeAnswerPhoneText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyAnswerPhoneText
 	promptbutton
 	end
 
@@ -111,7 +105,6 @@ PhoneScript_AnswerPhone_Male_Day:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -139,11 +132,6 @@ PhoneScript_AnswerPhone_Male_Day:
 
 .Wade:
 	farwritetext WadeAnswerPhoneDayText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyAnswerPhoneDayText
 	promptbutton
 	end
 
@@ -196,7 +184,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -224,11 +211,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 
 .Wade:
 	farwritetext WadeAnswerPhoneNiteText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyAnswerPhoneNiteText
 	promptbutton
 	end
 
@@ -352,7 +334,6 @@ PhoneScript_GreetPhone_Male:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -380,11 +361,6 @@ PhoneScript_GreetPhone_Male:
 
 .Wade:
 	farwritetext WadeGreetText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyGreetText
 	promptbutton
 	end
 
@@ -437,7 +413,6 @@ PhoneScript_GreetPhone_Male_Day:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -465,11 +440,6 @@ PhoneScript_GreetPhone_Male_Day:
 
 .Wade:
 	farwritetext WadeGreetDayText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyGreetDayText
 	promptbutton
 	end
 
@@ -522,7 +492,6 @@ PhoneScript_GreetPhone_Male_Nite:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -550,11 +519,6 @@ PhoneScript_GreetPhone_Male_Nite:
 
 .Wade:
 	farwritetext WadeGreetNiteText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyGreetNiteText
 	promptbutton
 	end
 
@@ -673,7 +637,6 @@ PhoneScript_GreetPhone_Female_Nite:
 PhoneScript_Generic_Male:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
@@ -699,11 +662,6 @@ PhoneScript_Generic_Male:
 
 .Wade:
 	farwritetext WadeGenericText
-	promptbutton
-	end
-
-.Anthony:
-	farwritetext AnthonyGenericText
 	promptbutton
 	end
 	

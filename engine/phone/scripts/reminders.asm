@@ -14,10 +14,6 @@ WadeQuickBattleScript:
 	farwritetext WadeQuickBattleText
 	end
 
-AnthonyReminderScript:
-	farwritetext AnthonyReminderText
-	end
-
 ArnieReminderScript:
 	farwritetext ArnieReminderText
 	end

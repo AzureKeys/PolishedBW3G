@@ -5,8 +5,6 @@
 	const NEW_BARK_TOWN      ; 01
 	const SPROUT_TOWER       ; 08
 	const UNION_CAVE         ; 0d
-	const ROUTE_33           ; 0e
-	const AZALEA_TOWN        ; 0f
 	const SLOWPOKE_WELL      ; 10
 	const ILEX_FOREST        ; 11
 	const RADIO_TOWER        ; 17

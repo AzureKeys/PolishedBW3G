@@ -10,9 +10,6 @@ ENDM
 
 	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
-	map_attributes AzaleaTown, AZALEA_TOWN, $5, EAST
-	connection east, Route33, ROUTE_33, 0
-
 	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | EAST
 	connection south, Route37, ROUTE_37, 5
 	connection east, Route42, ROUTE_42, 9
@@ -27,9 +24,6 @@ ENDM
 
 	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, SOUTH
 	connection south, Route45, ROUTE_45, -2
-
-	map_attributes Route33, ROUTE_33, $5, WEST
-	connection west, AzaleaTown, AZALEA_TOWN, 0
 
 	map_attributes Route35, ROUTE_35, $5, NORTH
 	connection north, Route36, ROUTE_36, 0
@@ -227,11 +221,6 @@ ENDM
 	map_attributes Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
 	map_attributes PowerPlant, POWER_PLANT, $0, 0
 	map_attributes BillsHouse, BILLS_HOUSE, $0, 0
-	map_attributes AzaleaPokeCenter1F, AZALEA_POKECENTER_1F, $0, 0
-	map_attributes CharcoalKiln, CHARCOAL_KILN, $0, 0
-	map_attributes AzaleaMart, AZALEA_MART, $0, 0
-	map_attributes KurtsHouse, KURTS_HOUSE, $0, 0
-	map_attributes AzaleaGym, AZALEA_GYM, $0, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0

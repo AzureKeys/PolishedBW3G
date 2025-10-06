@@ -206,15 +206,6 @@ ENDM
 	map_const CERULEAN_COUPLE_HOUSE,                       4,  4 ; 22
 	map_const CERULEAN_WATER_SHOW_SPEECH_HOUSE,            4,  4 ; 23
 
-	newgroup                                                     ;  8
-	map_const AZALEA_POKECENTER_1F,                        6,  4 ;  1
-	map_const CHARCOAL_KILN,                               5,  4 ;  2
-	map_const AZALEA_MART,                                 6,  4 ;  3
-	map_const KURTS_HOUSE,                                 8,  4 ;  4
-	map_const AZALEA_GYM,                                  5,  8 ;  5
-	map_const ROUTE_33,                                   10,  9 ;  6
-	map_const AZALEA_TOWN,                                20,  9 ;  7
-
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1
 	map_const BATTLE_TOWER_2F,                            11,  5 ;  2
