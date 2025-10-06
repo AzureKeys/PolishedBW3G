@@ -308,34 +308,6 @@
 	wildmon 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_21
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 57, TANGELA
-	wildmon 55, RATICATE
-	wildmon 58, TANGELA
-	wildmon 56, RATICATE
-	wildmon 58, MR__MIME
-	wildmon 59, MR__MIME
-	wildmon 60, MR__MIME
-	; day
-	wildmon 57, TANGELA
-	wildmon 55, RATICATE
-	wildmon 58, TANGELA
-	wildmon 56, RATICATE
-	wildmon 58, MR__MIME
-	wildmon 59, MR__MIME
-	wildmon 60, MR__MIME
-	; nite
-	wildmon 57, TANGELA
-	wildmon 55, RATICATE
-	wildmon 58, TANGELA
-	wildmon 56, RATICATE
-	wildmon 58, TANGELA
-	wildmon 59, TANGELA
-	wildmon 60, TANGELA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_23
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -362,90 +334,6 @@
 	wildmon 39, RATTATA
 	wildmon 40, RATTATA
 	wildmon 42, DITTO
-	end_grass_wildmons
-
-	def_grass_wildmons SCARY_CAVE_1F
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 56, ZUBAT
-	wildmon 59, GOLBAT
-	wildmon 57, RATTATA
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, RATTATA
-	wildmon 61, RATTATA
-	wildmon 62, CORSOLA, GALARIAN_FORM
-	; day
-	wildmon 56, ZUBAT
-	wildmon 59, GOLBAT
-	wildmon 57, RATTATA
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, RATTATA
-	wildmon 61, RATTATA
-	wildmon 62, CORSOLA, GALARIAN_FORM
-	; nite
-	wildmon 56, ZUBAT
-	wildmon 59, GOLBAT
-	wildmon 57, RATTATA
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, RATTATA
-	wildmon 61, RATTATA
-	wildmon 62, CORSOLA, GALARIAN_FORM
-	end_grass_wildmons
-
-	def_grass_wildmons SCARY_CAVE_B1F
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 57, GOLBAT
-	wildmon 60, RATTATA
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 59, CORSOLA, GALARIAN_FORM
-	wildmon 59, HAUNTER
-	wildmon 61, RATTATA
-	wildmon 62, RATTATA
-	; day
-	wildmon 57, GOLBAT
-	wildmon 60, RATTATA
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 59, CORSOLA, GALARIAN_FORM
-	wildmon 59, HAUNTER
-	wildmon 61, RATTATA
-	wildmon 62, RATTATA
-	; nite
-	wildmon 57, GOLBAT
-	wildmon 60, RATTATA
-	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 59, CORSOLA, GALARIAN_FORM
-	wildmon 59, HAUNTER
-	wildmon 61, RATTATA
-	wildmon 62, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons SCARY_CAVE_SHIPWRECK
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 57, MISDREAVUS
-	wildmon 60, CORSOLA, GALARIAN_FORM
-	wildmon 58, HAUNTER
-	wildmon 59, GOLBAT
-	wildmon 61, GOLBAT
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
-	; day
-	wildmon 57, MISDREAVUS
-	wildmon 60, CORSOLA, GALARIAN_FORM
-	wildmon 58, HAUNTER
-	wildmon 59, GOLBAT
-	wildmon 61, GOLBAT
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
-	; nite
-	wildmon 57, MISDREAVUS
-	wildmon 60, CORSOLA, GALARIAN_FORM
-	wildmon 58, HAUNTER
-	wildmon 59, GOLBAT
-	wildmon 61, GOLBAT
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
 	end_grass_wildmons
 
 	db -1 ; end

@@ -277,18 +277,6 @@ SECTION "Saffron Scripts 2", ROMX
 INCLUDE "maps/Underground.asm"
 
 
-SECTION "Uraga Channel Scripts", ROMX
-
-INCLUDE "maps/UragaChannelWest.asm"
-
-
-SECTION "Scary Cave Scripts", ROMX
-
-INCLUDE "maps/ScaryCave1F.asm"
-INCLUDE "maps/ScaryCaveB1F.asm"
-INCLUDE "maps/ScaryCaveShipwreck.asm"
-
-
 SECTION "Silver Cave Scripts", ROMX
 
 INCLUDE "maps/SilverCaveRoom1.asm"
@@ -297,16 +285,8 @@ INCLUDE "maps/SilverCaveRoom3.asm"
 INCLUDE "maps/SilverCaveItemRooms.asm"
 
 
-SECTION "Routes 18-20 Scripts", ROMX
-
-INCLUDE "maps/Route19.asm"
-INCLUDE "maps/Route19BeachHouse.asm"
-INCLUDE "maps/Route20.asm"
-
-
 SECTION "Routes 21-23 Scripts", ROMX
 
-INCLUDE "maps/Route21.asm"
 INCLUDE "maps/Route23.asm"
 
 

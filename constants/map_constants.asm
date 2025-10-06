@@ -159,16 +159,6 @@ ENDM
 	map_const ROUTE_46,                                   10, 18 ;  9
 	map_const BLACKTHORN_CITY,                            20, 19 ; 10
 
-	newgroup                                                     ;  6
-	map_const ROUTE_19,                                   10, 29 ;  8
-	map_const ROUTE_20,                                   55,  9 ;  9
-	map_const ROUTE_21,                                   10, 48 ; 10
-	map_const URAGA_CHANNEL_WEST,                         10, 15 ; 11
-	map_const SCARY_CAVE_1F,                              20, 17 ; 19
-	map_const SCARY_CAVE_B1F,                             12, 12 ; 20
-	map_const SCARY_CAVE_SHIPWRECK,                        6,  6 ; 21
-	map_const ROUTE_19_BEACH_HOUSE,                        4,  4 ; 22
-
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1
 	map_const BATTLE_TOWER_2F,                            11,  5 ;  2

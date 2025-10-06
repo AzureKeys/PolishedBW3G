@@ -54,18 +54,6 @@ ENDM
 	map_attributes Route46, ROUTE_46, $5, EAST
 	connection east, Route45, ROUTE_45, -37
 
-	map_attributes Route21, ROUTE_21, $43, EAST
-	connection east, UragaChannelWest, URAGA_CHANNEL_WEST, 19
-
-	map_attributes Route20, ROUTE_20, $43, EAST
-	connection east, Route19, ROUTE_19, -20
-
-	map_attributes Route19, ROUTE_19, $43, WEST
-	connection west, Route20, ROUTE_20, 20
-
-	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
-	connection west, Route21, ROUTE_21, -19
-
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
 
@@ -211,7 +199,3 @@ ENDM
 	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
-	map_attributes ScaryCave1F, SCARY_CAVE_1F, $9, 0
-	map_attributes ScaryCaveB1F, SCARY_CAVE_B1F, $9, 0
-	map_attributes ScaryCaveShipwreck, SCARY_CAVE_SHIPWRECK, $9, 0
-	map_attributes Route19BeachHouse, ROUTE_19_BEACH_HOUSE, $0, 0

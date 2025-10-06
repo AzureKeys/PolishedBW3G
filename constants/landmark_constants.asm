@@ -39,11 +39,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const UNDERGROUND        ; 53
 	const DIGLETTS_CAVE      ; 56
 	const ROCK_TUNNEL        ; 5b
-	const URAGA_CHANNEL      ; 6f
-	const SCARY_CAVE         ; 70
-	const ROUTE_19           ; 71
-	const ROUTE_20           ; 72
-	const ROUTE_21           ; 77
 	const ROUTE_22           ; 78
 	const TOHJO_FALLS        ; 7a
 	const POKEMON_LEAGUE     ; 7c

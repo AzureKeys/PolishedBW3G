@@ -43,10 +43,6 @@ EcruteakDestinyKnotHouse_BlockData:
 ValeriesHouse_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
-SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
-Route19BeachHouse_BlockData:
-	INCBIN "maps/KantoHouse3.ablk.lz"
-
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
 	INCBIN "maps/TradeCenter.ablk.lz"
@@ -502,22 +498,6 @@ SECTION "Underground_BlockData", ROMX
 Underground_BlockData:
 	INCBIN "maps/Underground.ablk.lz"
 
-SECTION "UragaChannelWest_BlockData", ROMX
-UragaChannelWest_BlockData:
-	INCBIN "maps/UragaChannelWest.ablk.lz"
-
-SECTION "ScaryCave1F_BlockData", ROMX
-ScaryCave1F_BlockData:
-	INCBIN "maps/ScaryCave1F.ablk.lz"
-
-SECTION "ScaryCaveB1F_BlockData", ROMX
-ScaryCaveB1F_BlockData:
-	INCBIN "maps/ScaryCaveB1F.ablk.lz"
-
-SECTION "ScaryCaveShipwreck_BlockData", ROMX
-ScaryCaveShipwreck_BlockData:
-	INCBIN "maps/ScaryCaveShipwreck.ablk.lz"
-
 SECTION "SilverCaveRoom1_BlockData", ROMX
 SilverCaveRoom1_BlockData:
 	INCBIN "maps/SilverCaveRoom1.ablk.lz"
@@ -535,18 +515,6 @@ DragonsDen1F_BlockData:
 WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "Route19_BlockData", ROMX
-Route19_BlockData:
-	INCBIN "maps/Route19.ablk.lz"
-
-SECTION "Route20_BlockData", ROMX
-Route20_BlockData:
-	INCBIN "maps/Route20.ablk.lz"
-
-SECTION "Route21_BlockData", ROMX
-Route21_BlockData:
-	INCBIN "maps/Route21.ablk.lz"
 
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:

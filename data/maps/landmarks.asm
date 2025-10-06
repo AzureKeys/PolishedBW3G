@@ -44,11 +44,6 @@ Landmarks:
 	landmark 114,  66, UndergroundName
 	landmark 116,  68, DiglettsCaveName
 	landmark 140,  44, RockTunnelName
-	landmark  64, 108, UragaChannelName
-	landmark  60, 116, ScaryCaveName
-	landmark  92, 120, Route19Name
-	landmark  80, 132, Route20Name
-	landmark  52, 116, Route21Name
 	landmark  40,  76, Route22Name
 	landmark  12, 100, TohjoFallsName
 	landmark  28,  76, PokemonLeagueName
@@ -82,9 +77,6 @@ IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 MtMoonName:            rawchar "Mt.Moon@"
 RockTunnelName:        rawchar "Rock Tunnel@"
 Route1Name:            rawchar "Route 1@"
-Route19Name:           rawchar "Route 19@"
-Route20Name:           rawchar "Route 20@"
-Route21Name:           rawchar "Route 21@"
 Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
 Route35Name:           rawchar "Route 35@"
@@ -103,7 +95,5 @@ TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
-ScaryCaveName:         rawchar "Scary¯Cave@"
-UragaChannelName:      rawchar "Uraga¯Channel@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"
 SpecialMapName:        rawchar "?@"

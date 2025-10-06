@@ -42,7 +42,6 @@ ENDM
 	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
-	special_bg_pal landmark, SCARY_CAVE,                  PAL_SINGLE,    ScaryCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    PokeComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -454,25 +453,6 @@ endc
 WhirlIslandsPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/whirl_islands.pal"
-else
-rept 4
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-ScaryCavePalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/scary_cave.pal"
 else
 rept 4
 	MONOCHROME_RGB_FOUR_NIGHT
