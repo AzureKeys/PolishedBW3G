@@ -15,11 +15,6 @@ SECTION "Pokemon Center Scripts 3", ROMX
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
 
 
-SECTION "Pokemon Center Scripts 4", ROMX
-
-INCLUDE "maps/Route10PokeCenter1F.asm"
-
-
 SECTION "Special Map Scripts", ROMX
 
 INCLUDE "maps/PokeCenter2F.asm"
@@ -270,11 +265,6 @@ INCLUDE "maps/MountMoonB1F.asm"
 INCLUDE "maps/MountMoonB2F.asm"
 
 
-SECTION "Cerulean Cape Scripts", ROMX
-
-INCLUDE "maps/BillsHouse.asm"
-
-
 SECTION "Diglett's Cave Scripts", ROMX
 
 INCLUDE "maps/DiglettsCave.asm"
@@ -285,7 +275,6 @@ SECTION "Rock Tunnel Scripts", ROMX
 INCLUDE "maps/RockTunnel1F.asm"
 INCLUDE "maps/RockTunnel2F.asm"
 INCLUDE "maps/RockTunnelB1F.asm"
-INCLUDE "maps/PowerPlant.asm"
 
 
 SECTION "Saffron Scripts 2", ROMX
@@ -342,11 +331,6 @@ INCLUDE "maps/SilverCaveRoom3.asm"
 INCLUDE "maps/SilverCaveItemRooms.asm"
 
 
-SECTION "Routes 1-4 Scripts", ROMX
-
-INCLUDE "maps/Route4.asm"
-
-
 SECTION "Routes 18-20 Scripts", ROMX
 
 INCLUDE "maps/Route19.asm"
@@ -358,12 +342,6 @@ SECTION "Routes 21-23 Scripts", ROMX
 
 INCLUDE "maps/Route21.asm"
 INCLUDE "maps/Route23.asm"
-
-
-SECTION "Routes 24-26 Scripts", ROMX
-
-INCLUDE "maps/Route24.asm"
-INCLUDE "maps/Route25.asm"
 
 
 SECTION "Routes 33-35 Scripts", ROMX

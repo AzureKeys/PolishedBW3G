@@ -183,14 +183,6 @@ ENDM
 	map_const SCARY_CAVE_SHIPWRECK,                        6,  6 ; 21
 	map_const ROUTE_19_BEACH_HOUSE,                        4,  4 ; 22
 
-	newgroup                                                     ;  7
-	map_const ROUTE_10_POKECENTER_1F,                      6,  4 ;  8
-	map_const POWER_PLANT,                                10,  9 ; 10
-	map_const BILLS_HOUSE,                                 4,  4 ; 11
-	map_const ROUTE_4,                                    33, 10 ; 12
-	map_const ROUTE_24,                                   14, 20 ; 13
-	map_const ROUTE_25,                                   17, 21 ; 14
-
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1
 	map_const BATTLE_TOWER_2F,                            11,  5 ;  2

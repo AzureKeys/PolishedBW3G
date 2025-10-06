@@ -36,10 +36,8 @@ MapScenes::
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
-	scene_var POWER_PLANT,                            wPowerPlantSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
-	scene_var ROUTE_24,                               wRoute24SceneID
 	scene_var ROUTE_35_NATIONAL_PARK_GATE,            wRoute35NationalParkGateSceneID
 	scene_var ROUTE_36,                               wRoute36SceneID
 	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID

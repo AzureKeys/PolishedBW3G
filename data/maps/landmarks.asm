@@ -41,14 +41,9 @@ Landmarks:
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
 	landmark  76,  44, MtMoonName
-	landmark  92,  44, Route4Name
-	landmark 108,  36, Route24Name
-	landmark 124,  28, Route25Name
 	landmark 114,  66, UndergroundName
 	landmark 116,  68, DiglettsCaveName
-	landmark 140,  52, Route10Name
 	landmark 140,  44, RockTunnelName
-	landmark 148,  52, PowerPlantName
 	landmark  64, 108, UragaChannelName
 	landmark  60, 116, ScaryCaveName
 	landmark  92, 120, Route19Name
@@ -77,7 +72,6 @@ SproutTowerName:       rawchar "Sprout¯Tower@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
 RadioTowerName:        rawchar "Radio Tower@"
-PowerPlantName:        rawchar "Power Plant@"
 NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 TinTowerName:          rawchar "Bell Tower@"
@@ -96,15 +90,11 @@ SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
 PokemonMansionName:    rawchar "Pokémon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
 Route1Name:            rawchar "Route 1@"
-Route4Name:            rawchar "Route 4@"
-Route10Name:           rawchar "Route 10@"
 Route19Name:           rawchar "Route 19@"
 Route20Name:           rawchar "Route 20@"
 Route21Name:           rawchar "Route 21@"
 Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
-Route24Name:           rawchar "Route 24@"
-Route25Name:           rawchar "Route 25@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"

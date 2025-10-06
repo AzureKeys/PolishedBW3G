@@ -8,7 +8,6 @@ BlackthornPokeCenter1F_BlockData:
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-Route10PokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
 
@@ -482,10 +481,6 @@ SECTION "MountMoonB2F_BlockData", ROMX
 MountMoonB2F_BlockData:
 	INCBIN "maps/MountMoonB2F.ablk.lz"
 
-SECTION "BillsHouse_BlockData", ROMX
-BillsHouse_BlockData:
-	INCBIN "maps/BillsHouse.ablk.lz"
-
 SECTION "DiglettsCave_BlockData", ROMX
 DiglettsCave_BlockData:
 	INCBIN "maps/DiglettsCave.ablk.lz"
@@ -501,10 +496,6 @@ RockTunnel2F_BlockData:
 SECTION "RockTunnelB1F_BlockData", ROMX
 RockTunnelB1F_BlockData:
 	INCBIN "maps/RockTunnelB1F.ablk.lz"
-
-SECTION "PowerPlant_BlockData", ROMX
-PowerPlant_BlockData:
-	INCBIN "maps/PowerPlant.ablk.lz"
 
 SECTION "DimCave1F_BlockData", ROMX
 SeafoamIslands1F_BlockData:
@@ -600,10 +591,6 @@ WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
 
-SECTION "Route4_BlockData", ROMX
-Route4_BlockData:
-	INCBIN "maps/Route4.ablk.lz"
-
 SECTION "Route19_BlockData", ROMX
 Route19_BlockData:
 	INCBIN "maps/Route19.ablk.lz"
@@ -619,14 +606,6 @@ Route21_BlockData:
 SECTION "Route23_BlockData", ROMX
 Route23_BlockData:
 	INCBIN "maps/Route23.ablk.lz"
-
-SECTION "Route24_BlockData", ROMX
-Route24_BlockData:
-	INCBIN "maps/Route24.ablk.lz"
-
-SECTION "Route25_BlockData", ROMX
-Route25_BlockData:
-	INCBIN "maps/Route25.ablk.lz"
 
 SECTION "Route35_BlockData", ROMX
 Route35_BlockData:

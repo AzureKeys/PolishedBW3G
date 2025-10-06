@@ -36,14 +36,9 @@
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const MT_MOON            ; 4b
-	const ROUTE_4            ; 4c
-	const ROUTE_24           ; 4f
-	const ROUTE_25           ; 50
 	const UNDERGROUND        ; 53
 	const DIGLETTS_CAVE      ; 56
-	const ROUTE_10           ; 5a
 	const ROCK_TUNNEL        ; 5b
-	const POWER_PLANT        ; 5c
 	const URAGA_CHANNEL      ; 6f
 	const SCARY_CAVE         ; 70
 	const ROUTE_19           ; 71

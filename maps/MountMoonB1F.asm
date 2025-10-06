@@ -11,7 +11,6 @@ MountMoonB1F_MapScriptHeader:
 	warp_event 13,  3, MOUNT_MOON_B2F, 2
 	warp_event 16, 22, MOUNT_MOON_B2F, 3
 	warp_event 27, 23, MOUNT_MOON_B2F, 4
-	warp_event 27, 25, ROUTE_4, 1
 
 	def_coord_events
 

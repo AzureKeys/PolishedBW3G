@@ -128,7 +128,6 @@ ROMX $26
 
 ROMX $27
 	"Special Map Blockdata"
-	"Pokemon Center Scripts 4"
 
 ROMX $28
 	"Phone Scripts"

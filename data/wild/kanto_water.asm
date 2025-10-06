@@ -7,13 +7,6 @@
 	wildmon  20, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_4
-	db 4 percent ; encounter rate
-	wildmon  55, RATTATA
-	wildmon  60, RATTATA
-	wildmon  55, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
 	wildmon  54, RATTATA
@@ -40,20 +33,6 @@
 	wildmon  35, RATTATA
 	wildmon  35, RATTATA
 	wildmon  35, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_24
-	db 4 percent ; encounter rate
-	wildmon  48, RATTATA
-	wildmon  50, RATTATA
-	wildmon  52, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_25
-	db 4 percent ; encounter rate
-	wildmon  48, RATTATA
-	wildmon  50, RATTATA
-	wildmon  52, RATTATA
 	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND

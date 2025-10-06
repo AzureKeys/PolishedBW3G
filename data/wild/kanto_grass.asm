@@ -308,34 +308,6 @@
 	wildmon 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_4
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 54, RATTATA
-	wildmon 54, RATICATE
-	wildmon 56, RATTATA
-	wildmon 57, SANDSLASH
-	wildmon 57, RATTATA
-	wildmon 58, PRIMEAPE
-	wildmon 59, PRIMEAPE
-	; day
-	wildmon 54, RATTATA
-	wildmon 54, RATICATE
-	wildmon 56, RATTATA
-	wildmon 57, SANDSLASH
-	wildmon 57, RATTATA
-	wildmon 58, PRIMEAPE
-	wildmon 59, PRIMEAPE
-	; nite
-	wildmon 54, RATICATE
-	wildmon 54, RATICATE
-	wildmon 56, RATICATE
-	wildmon 57, GOLBAT
-	wildmon 57, RATICATE
-	wildmon 58, CLEFAIRY
-	wildmon 59, CLEFABLE
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_21
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
@@ -390,62 +362,6 @@
 	wildmon 39, RATTATA
 	wildmon 40, RATTATA
 	wildmon 42, DITTO
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_24
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 48, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 50, RATTATA
-	wildmon 49, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	; day
-	wildmon 48, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 50, RATTATA
-	wildmon 49, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	; nite
-	wildmon 48, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 50, RATTATA
-	wildmon 49, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_25
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 48, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 50, RATTATA
-	wildmon 49, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	; day
-	wildmon 48, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 50, RATTATA
-	wildmon 49, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
-	; nite
-	wildmon 48, RATTATA
-	wildmon 48, RATTATA
-	wildmon 51, RATTATA
-	wildmon 50, RATTATA
-	wildmon 49, RATTATA
-	wildmon 53, RATTATA
-	wildmon 52, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_1F

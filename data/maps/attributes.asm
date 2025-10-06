@@ -72,14 +72,6 @@ ENDM
 	map_attributes UragaChannelWest, URAGA_CHANNEL_WEST, $43, WEST
 	connection west, Route21, ROUTE_21, -19
 
-	map_attributes Route24, ROUTE_24, $2c, EAST
-	connection east, Route25, ROUTE_25, 0
-
-	map_attributes Route25, ROUTE_25, $2c, WEST
-	connection west, Route24, ROUTE_24, 0
-
-	map_attributes Route4, ROUTE_4, $2c, 0
-
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
 
@@ -198,9 +190,6 @@ ENDM
 	map_attributes SeafoamIslandsB2F, SEAFOAM_ISLANDS_B2F, $9, 0
 	map_attributes SeafoamIslandsB3F, SEAFOAM_ISLANDS_B3F, $9, 0
 	map_attributes SeafoamIslandsB4F, SEAFOAM_ISLANDS_B4F, $9, 0
-	map_attributes Route10PokeCenter1F, ROUTE_10_POKECENTER_1F, $0, 0
-	map_attributes PowerPlant, POWER_PLANT, $0, 0
-	map_attributes BillsHouse, BILLS_HOUSE, $0, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0

@@ -1084,10 +1084,8 @@ wMountMoon1FSceneID:: db
 wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
-wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
-wRoute24SceneID:: db
 wRoute35NationalParkGateSceneID:: db
 wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
@@ -1148,7 +1146,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 104 ; unused
+	ds 106 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

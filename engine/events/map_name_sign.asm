@@ -108,8 +108,6 @@ InitMapNameSign::
 	ret z
 	cp UNDERGROUND
 	ret z
-	cp POWER_PLANT
-	ret z
 	cp CINNABAR_LAB
 	ret z
 	ld a, $1
