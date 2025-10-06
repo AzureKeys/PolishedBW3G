@@ -221,9 +221,7 @@ ENDM
 	map_const BATTLE_TOWER_BATTLE_ROOM,                    4,  4 ;  3
 	map_const BATTLE_TOWER_ELEVATOR,                       2,  2 ;  4
 	map_const BATTLE_TOWER_HALLWAY,                       11,  2 ;  5
-	map_const ROUTE_40_BATTLE_TOWER_GATE,                  5,  4 ;  6
 	map_const BATTLE_TOWER_OUTSIDE,                       10, 13 ;  7
-	map_const ROUTE_40,                                   10, 20 ;  8
 
 	newgroup                                                     ; 16
 	map_const ROUTE_23,                                   12, 70 ;  1

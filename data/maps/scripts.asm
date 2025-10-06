@@ -419,12 +419,6 @@ INCLUDE "maps/Route36VioletGate.asm"
 INCLUDE "maps/Route37.asm"
 
 
-SECTION "Routes 39-41 Scripts", ROMX
-
-INCLUDE "maps/Route40.asm"
-INCLUDE "maps/Route40BattleTowerGate.asm"
-
-
 SECTION "Routes 42-44 Scripts", ROMX
 
 INCLUDE "maps/Route42.asm"

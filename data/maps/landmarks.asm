@@ -25,7 +25,6 @@ Landmarks:
 	landmark  70,  42, TinTowerName
 	landmark  66,  42, BurnedTowerName
 	landmark  38,  62, LighthouseName
-	landmark  28,  64, Route40Name
 	landmark  28,  52, BattleTowerName
 	landmark  28,  92, WhirlIslandsName
 	landmark  92,  44, Route42Name
@@ -119,7 +118,6 @@ Route33Name:           rawchar "Route 33@"
 Route35Name:           rawchar "Route 35@"
 Route36Name:           rawchar "Route 36@"
 Route37Name:           rawchar "Route 37@"
-Route40Name:           rawchar "Route 40@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"

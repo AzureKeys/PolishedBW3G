@@ -20,7 +20,6 @@
 	const TIN_TOWER          ; 21
 	const BURNED_TOWER       ; 22
 	const LIGHTHOUSE         ; 28
-	const ROUTE_40           ; 29
 	const BATTLE_TOWER       ; 2a
 	const WHIRL_ISLANDS      ; 2b
 	const ROUTE_42           ; 34
