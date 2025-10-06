@@ -43,10 +43,6 @@ DEF KANTO_LANDMARK EQU const_value
 	const SCARY_CAVE         ; 70
 	const ROUTE_19           ; 71
 	const ROUTE_20           ; 72
-	const SEAFOAM_ISLANDS    ; 73
-	const CINNABAR_ISLAND    ; 74
-	const POKEMON_MANSION    ; 75
-	const CINNABAR_VOLCANO   ; 76
 	const ROUTE_21           ; 77
 	const ROUTE_22           ; 78
 	const TOHJO_FALLS        ; 7a

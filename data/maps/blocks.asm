@@ -8,9 +8,6 @@ BlackthornPokeCenter1F_BlockData:
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-CinnabarPokeCenter1F_BlockData:
-	INCBIN "maps/KantoPokeCenter1F.ablk.lz"
-
 KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
@@ -497,10 +494,6 @@ SECTION "RockTunnelB1F_BlockData", ROMX
 RockTunnelB1F_BlockData:
 	INCBIN "maps/RockTunnelB1F.ablk.lz"
 
-SECTION "DimCave1F_BlockData", ROMX
-SeafoamIslands1F_BlockData:
-	INCBIN "maps/DimCave1F.ablk.lz"
-
 SECTION "DimCave2F_BlockData", ROMX
 WhirlIslandNW_BlockData:
 	INCBIN "maps/DimCave2F.ablk.lz"
@@ -524,54 +517,6 @@ ScaryCaveB1F_BlockData:
 SECTION "ScaryCaveShipwreck_BlockData", ROMX
 ScaryCaveShipwreck_BlockData:
 	INCBIN "maps/ScaryCaveShipwreck.ablk.lz"
-
-SECTION "CinnabarIsland_BlockData", ROMX
-CinnabarIsland_BlockData:
-	INCBIN "maps/CinnabarIsland.ablk.lz"
-
-SECTION "CinnabarLab_BlockData", ROMX
-CinnabarLab_BlockData:
-	INCBIN "maps/CinnabarLab.ablk.lz"
-
-SECTION "PokemonMansion1F_BlockData", ROMX
-PokemonMansion1F_BlockData:
-	INCBIN "maps/PokemonMansion1F.ablk.lz"
-
-SECTION "PokemonMansionB1F_BlockData", ROMX
-PokemonMansionB1F_BlockData:
-	INCBIN "maps/PokemonMansionB1F.ablk.lz"
-
-SECTION "CinnabarVolcano1F_BlockData", ROMX
-CinnabarVolcano1F_BlockData:
-	INCBIN "maps/CinnabarVolcano1F.ablk.lz"
-
-SECTION "CinnabarVolcanoB1F_BlockData", ROMX
-CinnabarVolcanoB1F_BlockData:
-	INCBIN "maps/CinnabarVolcanoB1F.ablk.lz"
-
-SECTION "CinnabarVolcanoB2F_BlockData", ROMX
-CinnabarVolcanoB2F_BlockData:
-	INCBIN "maps/CinnabarVolcanoB2F.ablk.lz"
-
-SECTION "SeafoamGym_BlockData", ROMX
-SeafoamGym_BlockData:
-	INCBIN "maps/SeafoamGym.ablk.lz"
-
-SECTION "SeafoamIslandsB1F_BlockData", ROMX
-SeafoamIslandsB1F_BlockData:
-	INCBIN "maps/SeafoamIslandsB1F.ablk.lz"
-
-SECTION "SeafoamIslandsB2F_BlockData", ROMX
-SeafoamIslandsB2F_BlockData:
-	INCBIN "maps/SeafoamIslandsB2F.ablk.lz"
-
-SECTION "SeafoamIslandsB3F_BlockData", ROMX
-SeafoamIslandsB3F_BlockData:
-	INCBIN "maps/SeafoamIslandsB3F.ablk.lz"
-
-SECTION "SeafoamIslandsB4F_BlockData", ROMX
-SeafoamIslandsB4F_BlockData:
-	INCBIN "maps/SeafoamIslandsB4F.ablk.lz"
 
 SECTION "SilverCaveRoom1_BlockData", ROMX
 SilverCaveRoom1_BlockData:

@@ -35,13 +35,6 @@
 	wildmon  35, RATTATA
 	end_water_wildmons
 
-	def_water_wildmons CINNABAR_ISLAND
-	db 6 percent ; encounter rate
-	wildmon  55, RATTATA
-	wildmon  50, RATTATA
-	wildmon  55, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons SCARY_CAVE_1F
 	db 6 percent ; encounter rate
 	wildmon  54, RATTATA
@@ -68,13 +61,6 @@
 	wildmon  54, RATTATA
 	wildmon  56, RATTATA
 	wildmon  58, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons SEAFOAM_ISLANDS_B4F
-	db 6 percent ; encounter rate
-	wildmon  55, SEEL
-	wildmon  55, HORSEA
-	wildmon  60, SLOWBRO
 	end_water_wildmons
 
 	db -1 ; end

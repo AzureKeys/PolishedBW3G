@@ -48,10 +48,6 @@ Landmarks:
 	landmark  60, 116, ScaryCaveName
 	landmark  92, 120, Route19Name
 	landmark  80, 132, Route20Name
-	landmark  68, 132, SeafoamIslandsName
-	landmark  52, 132, CinnabarIslandName
-	landmark  50, 130, PokemonMansionName
-	landmark  54, 130, CinnabarVolcanoName
 	landmark  52, 116, Route21Name
 	landmark  40,  76, Route22Name
 	landmark  12, 100, TohjoFallsName
@@ -80,15 +76,11 @@ WhirlIslandsName:      rawchar "Whirl¯Islands@"
 MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
-CinnabarIslandName:    rawchar "Cinnabar¯Island@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 VictoryRoadName:       rawchar "Victory¯Road@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 MtMoonName:            rawchar "Mt.Moon@"
 RockTunnelName:        rawchar "Rock Tunnel@"
-SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
-PokemonMansionName:    rawchar "Pokémon¯Mansion@"
-CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
 Route1Name:            rawchar "Route 1@"
 Route19Name:           rawchar "Route 19@"
 Route20Name:           rawchar "Route 20@"

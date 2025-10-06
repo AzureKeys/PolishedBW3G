@@ -10,11 +10,6 @@ INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 
 
-SECTION "Pokemon Center Scripts 3", ROMX
-
-INCLUDE "maps/CinnabarPokeCenter1F.asm"
-
-
 SECTION "Special Map Scripts", ROMX
 
 INCLUDE "maps/PokeCenter2F.asm"
@@ -292,35 +287,6 @@ SECTION "Scary Cave Scripts", ROMX
 INCLUDE "maps/ScaryCave1F.asm"
 INCLUDE "maps/ScaryCaveB1F.asm"
 INCLUDE "maps/ScaryCaveShipwreck.asm"
-
-
-SECTION "Cinnabar Scripts", ROMX
-
-INCLUDE "maps/CinnabarIsland.asm"
-INCLUDE "maps/CinnabarLab.asm"
-
-
-SECTION "Pokemon Mansion Scripts", ROMX
-
-INCLUDE "maps/PokemonMansion1F.asm"
-INCLUDE "maps/PokemonMansionB1F.asm"
-
-
-SECTION "Cinnabar Volcano Scripts", ROMX
-
-INCLUDE "maps/CinnabarVolcano1F.asm"
-INCLUDE "maps/CinnabarVolcanoB1F.asm"
-INCLUDE "maps/CinnabarVolcanoB2F.asm"
-
-
-SECTION "Seafoam Islands Scripts", ROMX
-
-INCLUDE "maps/SeafoamGym.asm"
-INCLUDE "maps/SeafoamIslands1F.asm"
-INCLUDE "maps/SeafoamIslandsB1F.asm"
-INCLUDE "maps/SeafoamIslandsB2F.asm"
-INCLUDE "maps/SeafoamIslandsB3F.asm"
-INCLUDE "maps/SeafoamIslandsB4F.asm"
 
 
 SECTION "Silver Cave Scripts", ROMX

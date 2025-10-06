@@ -31,9 +31,6 @@ UniqueWildMoves:
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
 	unique_moves SCARY_CAVE,       GOLBAT,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
-	unique_moves POKEMON_MANSION,  WEEZING,    CRUNCH       ; Prism tutor move
-	unique_moves POKEMON_MANSION,  RAPIDASH,   NASTY_PLOT   ; Prism tutor move
-	unique_moves CINNABAR_VOLCANO, MAGMAR,     METRONOME    ; RBY TM move
 	unique_moves TOHJO_FALLS,      0,          0
 	unique_moves VICTORY_ROAD,     0,          0
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move

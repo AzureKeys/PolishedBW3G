@@ -4,8 +4,6 @@ Route20_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 70,  9, SEAFOAM_ISLANDS_1F, 1
-	warp_event 62,  5, SEAFOAM_ISLANDS_1F, 4
 
 	def_coord_events
 

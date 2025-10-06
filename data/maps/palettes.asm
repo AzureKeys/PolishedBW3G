@@ -30,7 +30,6 @@ ENDM
 	special_bg_pal map,      ECRUTEAK_CITY,               PAL_TIMEOFDAY, VioletEcruteakPalette
 	special_bg_pal map,      BLACKTHORN_GYM_1F,           PAL_SINGLE,    BlackthornGym1FPalette
 	special_bg_pal map,      BLACKTHORN_GYM_2F,           PAL_SINGLE,    BlackthornGym1FPalette
-	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette
 	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
 	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
 	special_bg_pal map,      BRUNOS_ROOM,                 PAL_SINGLE,    BrunosRoomPalette
@@ -44,7 +43,6 @@ ENDM
 	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
 	special_bg_pal landmark, SCARY_CAVE,                  PAL_SINGLE,    ScaryCavePalette
-	special_bg_pal landmark, CINNABAR_VOLCANO,            PAL_SINGLE,    CinnabarVolcanoPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    PokeComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -302,19 +300,6 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
-CinnabarLabPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/CinnabarLab.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
 MartPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/mart.pal"
@@ -492,29 +477,6 @@ else
 rept 4
 	MONOCHROME_RGB_FOUR_NIGHT
 endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-CinnabarVolcanoPalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/cinnabar_volcano.pal"
-else
-	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_LIGHT
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_DARK
 	RGB_MONOCHROME_DARK

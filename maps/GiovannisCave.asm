@@ -88,7 +88,6 @@ GiovannisCaveCelebiEventScript:
 	waitsfx
 	disappear GIOVANNISCAVE_CELEBI
 	disappear GIOVANNISCAVE_LYRA
-	warp CINNABAR_LAB, 30, 16
 	end
 
 GiovannisCaveRadioScript:

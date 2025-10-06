@@ -160,24 +160,10 @@ ENDM
 	map_const BLACKTHORN_CITY,                            20, 19 ; 10
 
 	newgroup                                                     ;  6
-	map_const CINNABAR_POKECENTER_1F,                      6,  4 ;  1
-	map_const SEAFOAM_ISLANDS_1F,                         17, 18 ;  2
-	map_const SEAFOAM_GYM,                                12, 12 ;  3
-	map_const SEAFOAM_ISLANDS_B1F,                        20, 10 ;  4
-	map_const SEAFOAM_ISLANDS_B2F,                        20, 10 ;  5
-	map_const SEAFOAM_ISLANDS_B3F,                        20, 10 ;  6
-	map_const SEAFOAM_ISLANDS_B4F,                        20, 10 ;  7
 	map_const ROUTE_19,                                   10, 29 ;  8
 	map_const ROUTE_20,                                   55,  9 ;  9
 	map_const ROUTE_21,                                   10, 48 ; 10
 	map_const URAGA_CHANNEL_WEST,                         10, 15 ; 11
-	map_const CINNABAR_ISLAND,                            12, 11 ; 12
-	map_const CINNABAR_VOLCANO_1F,                        14, 14 ; 13
-	map_const CINNABAR_VOLCANO_B1F,                       18, 18 ; 14
-	map_const CINNABAR_VOLCANO_B2F,                       14, 14 ; 15
-	map_const POKEMON_MANSION_1F,                         15, 14 ; 16
-	map_const POKEMON_MANSION_B1F,                        17, 16 ; 17
-	map_const CINNABAR_LAB,                               16,  9 ; 18
 	map_const SCARY_CAVE_1F,                              20, 17 ; 19
 	map_const SCARY_CAVE_B1F,                             12, 12 ; 20
 	map_const SCARY_CAVE_SHIPWRECK,                        6,  6 ; 21

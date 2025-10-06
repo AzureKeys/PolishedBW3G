@@ -54,16 +54,10 @@ ENDM
 	map_attributes Route46, ROUTE_46, $5, EAST
 	connection east, Route45, ROUTE_45, -37
 
-	map_attributes Route21, ROUTE_21, $43, SOUTH | EAST
-	connection south, CinnabarIsland, CINNABAR_ISLAND, 0
+	map_attributes Route21, ROUTE_21, $43, EAST
 	connection east, UragaChannelWest, URAGA_CHANNEL_WEST, 19
 
-	map_attributes CinnabarIsland, CINNABAR_ISLAND, $43, NORTH | EAST
-	connection north, Route21, ROUTE_21, 0
-	connection east, Route20, ROUTE_20, 2
-
-	map_attributes Route20, ROUTE_20, $43, WEST | EAST
-	connection west, CinnabarIsland, CINNABAR_ISLAND, -2
+	map_attributes Route20, ROUTE_20, $43, EAST
 	connection east, Route19, ROUTE_19, -20
 
 	map_attributes Route19, ROUTE_19, $43, WEST
@@ -183,13 +177,6 @@ ENDM
 	map_attributes BlackthornMart, BLACKTHORN_MART, $0, 0
 	map_attributes BlackthornPokeCenter1F, BLACKTHORN_POKECENTER_1F, $0, 0
 	map_attributes MoveDeletersHouse, MOVE_DELETERS_HOUSE, $0, 0
-	map_attributes CinnabarPokeCenter1F, CINNABAR_POKECENTER_1F, $0, 0
-	map_attributes SeafoamIslands1F, SEAFOAM_ISLANDS_1F, $9, 0
-	map_attributes SeafoamGym, SEAFOAM_GYM, $9, 0
-	map_attributes SeafoamIslandsB1F, SEAFOAM_ISLANDS_B1F, $9, 0
-	map_attributes SeafoamIslandsB2F, SEAFOAM_ISLANDS_B2F, $9, 0
-	map_attributes SeafoamIslandsB3F, SEAFOAM_ISLANDS_B3F, $9, 0
-	map_attributes SeafoamIslandsB4F, SEAFOAM_ISLANDS_B4F, $9, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
@@ -224,12 +211,6 @@ ENDM
 	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	map_attributes BellchimeTrail, BELLCHIME_TRAIL, $5, 0
-	map_attributes CinnabarVolcano1F, CINNABAR_VOLCANO_1F, $9, 0
-	map_attributes CinnabarVolcanoB1F, CINNABAR_VOLCANO_B1F, $9, 0
-	map_attributes CinnabarVolcanoB2F, CINNABAR_VOLCANO_B2F, $9, 0
-	map_attributes PokemonMansion1F, POKEMON_MANSION_1F, $0, 0
-	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $45, 0
-	map_attributes CinnabarLab, CINNABAR_LAB, $0, 0
 	map_attributes ScaryCave1F, SCARY_CAVE_1F, $9, 0
 	map_attributes ScaryCaveB1F, SCARY_CAVE_B1F, $9, 0
 	map_attributes ScaryCaveShipwreck, SCARY_CAVE_SHIPWRECK, $9, 0

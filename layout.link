@@ -144,9 +144,6 @@ ROMX $2B
 ROMX $2C
 	"Pokemon Center Scripts 2"
 
-ROMX $2D
-	"Pokemon Center Scripts 3"
-
 ROMX $2E
 	"bank2E"
 
