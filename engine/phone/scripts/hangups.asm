@@ -58,16 +58,6 @@ WiltonHaventFoundAnythingScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-ParryBattleWithMeScript:
-	farwritetext ParryBattleWithMeText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-ErinWorkingHardScript:
-	farwritetext ErinWorkingHardText
-	promptbutton
-	sjump PhoneScript_HangupText_Female
-
 IrwinRandomTextScript:
 	random 3
 	ifequalfwd 0, IrwinEscapadeScript
@@ -86,38 +76,5 @@ IrwinGoodMatchScript:
 
 IrwinSoMuchToChatAboutScript:
 	farwritetext IrwinSoMuchToChatAboutText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-KenjiAnswerPhoneScript:
-	readvar VAR_KENJI_BREAK
-	ifequalfwd 2, .Training
-	ifequalfwd 1, .OnBreak
-	farwritetext KenjiCallMeBackAnotherTimeText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-.Training:
-	farwritetext KenjiIllHaveTimeToChatTomorrowText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-.OnBreak:
-	checktime 1 << MORN
-	iftruefwd .Morning
-	checktime 1 << DAY
-	iffalsefwd .Night
-	setevent EVENT_KENJI_ON_BREAK
-	farwritetext KenjiTakingABreakText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-.Morning:
-	farwritetext KenjiHangUpMorningText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-.Night:
-	farwritetext KenjiHangUpNightText
 	promptbutton
 	sjump PhoneScript_HangupText_Male

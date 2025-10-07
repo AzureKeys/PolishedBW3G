@@ -199,8 +199,6 @@ TrainerSchoolboyAlan1:
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftruefwd .LoadFight3
 .Fight2:
-	checkflag ENGINE_FLYPOINT_BLACKTHORN
-	iftruefwd .LoadFight2
 .Fight1:
 .LoadFight0:
 	loadtrainer SCHOOLBOY, ALAN1

@@ -147,13 +147,6 @@
 	wildmon 30, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_45
-	db 2 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	wildmon 5, RATTATA
-	end_water_wildmons
-
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
 	wildmon 20, RATTATA
@@ -173,13 +166,6 @@
 	wildmon 25, RATTATA
 	wildmon 20, RATTATA
 	wildmon 25, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons BLACKTHORN_CITY
-	db 4 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 10, RATTATA
-	wildmon 5, RATTATA
 	end_water_wildmons
 
 	db -1 ; end

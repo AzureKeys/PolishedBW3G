@@ -73,7 +73,6 @@ DragonsDenB1FClairTrigger:
 	setevent EVENT_GOT_TM59_DRAGON_PULSE
 	writetext .DescribeDragonPulseText
 	promptbutton
-	writetext ClairPokemonLeagueDirectionsText ; in BlackthornGym1F.asm
 	waitbutton
 	closetext
 	applymovement DRAGONSDENB1F_CLAIR, .WalksAwayMovement

@@ -20,9 +20,6 @@
 	const PHONE_PICNICKER_TIFFANY
 	const PHONE_BIRDKEEPER_VANCE
 	const PHONE_FISHER_WILTON
-	const PHONE_BLACKBELT_KENJI
-	const PHONE_HIKER_PARRY
-	const PHONE_PICNICKER_ERIN
 DEF NUM_PHONE_CONTACTS EQU const_value - 1
 
 ; SpecialPhoneCallList indexes (see data/phone/special_calls.asm)

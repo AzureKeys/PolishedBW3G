@@ -32,11 +32,8 @@ Landmarks:
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
 	landmark 128,  40, IcePathName
-	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
-	landmark 132,  64, Route45Name
 	landmark 116,  68, DarkCaveName
-	landmark 124,  88, Route46Name
 	landmark 144,  60, SilverCaveName
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
@@ -56,7 +53,6 @@ Landmarks:
 NewBarkTownName:       rawchar "New Bark¯Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
-BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
@@ -85,8 +81,6 @@ Route37Name:           rawchar "Route 37@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
-Route45Name:           rawchar "Route 45@"
-Route46Name:           rawchar "Route 46@"
 DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"

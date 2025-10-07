@@ -361,7 +361,7 @@ DEF GRASS_WILDDATA_LENGTH EQU 2 + (1 + NUM_GRASSMON * 3) * 3
 DEF WATER_WILDDATA_LENGTH EQU 2 + (1 + NUM_WATERMON * 3) * 1
 DEF FISHGROUP_DATA_LENGTH EQU 2 + 2 * 3
 
-DEF NUM_ROAMMON_MAPS EQU 4 ; RoamMaps table size (see data/wild/roammon_maps.asm)
+DEF NUM_ROAMMON_MAPS EQU 3 ; RoamMaps table size (see data/wild/roammon_maps.asm)
 
 DEF LEVEL_FROM_BADGES EQU 178 ; allows ±77 in either direction
 

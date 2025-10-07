@@ -33,8 +33,6 @@ PhoneScript_AnswerPhone_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackAnswerPhoneText
@@ -91,16 +89,6 @@ PhoneScript_AnswerPhone_Male:
 	promptbutton
 	end
 
-.Kenji:
-	farwritetext KenjiAnswerPhoneText
-	promptbutton
-	end
-
-.Parry:
-	farwritetext ParryAnswerPhoneText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Male_Day:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -112,8 +100,6 @@ PhoneScript_AnswerPhone_Male_Day:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackAnswerPhoneDayText
@@ -170,16 +156,6 @@ PhoneScript_AnswerPhone_Male_Day:
 	promptbutton
 	end
 
-.Kenji:
-	farwritetext KenjiAnswerPhoneDayText
-	promptbutton
-	end
-
-.Parry:
-	farwritetext ParryAnswerPhoneDayText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Male_Nite:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -191,8 +167,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackAnswerPhoneNiteText
@@ -249,16 +223,6 @@ PhoneScript_AnswerPhone_Male_Nite:
 	promptbutton
 	end
 
-.Kenji:
-	farwritetext KenjiAnswerPhoneNiteText
-	promptbutton
-	end
-
-.Parry:
-	farwritetext ParryAnswerPhoneNiteText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Female:
 	checktime 1 << DAY
 	iftruefwd PhoneScript_AnswerPhone_Female_Day
@@ -267,7 +231,6 @@ PhoneScript_AnswerPhone_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAnswerPhoneText
@@ -279,16 +242,10 @@ PhoneScript_AnswerPhone_Female:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinAnswerPhoneText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Female_Day:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAnswerPhoneDayText
@@ -300,16 +257,10 @@ PhoneScript_AnswerPhone_Female_Day:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinAnswerPhoneDayText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Female_Nite:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAnswerPhoneNiteText
@@ -318,11 +269,6 @@ PhoneScript_AnswerPhone_Female_Nite:
 
 .Tiffany:
 	farwritetext TiffanyAnswerPhoneNiteText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinAnswerPhoneNiteText
 	promptbutton
 	end
 
@@ -341,8 +287,6 @@ PhoneScript_GreetPhone_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackGreetText
@@ -399,16 +343,6 @@ PhoneScript_GreetPhone_Male:
 	promptbutton
 	end
 
-.Kenji:
-	farwritetext KenjiGreetText
-	promptbutton
-	end
-
-.Parry:
-	farwritetext ParryGreetText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Male_Day:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -420,8 +354,6 @@ PhoneScript_GreetPhone_Male_Day:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackGreetDayText
@@ -478,16 +410,6 @@ PhoneScript_GreetPhone_Male_Day:
 	promptbutton
 	end
 
-.Kenji:
-	farwritetext KenjiGreetDayText
-	promptbutton
-	end
-
-.Parry:
-	farwritetext ParryGreetDayText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Male_Nite:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -499,8 +421,6 @@ PhoneScript_GreetPhone_Male_Nite:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackGreetNiteText
@@ -557,16 +477,6 @@ PhoneScript_GreetPhone_Male_Nite:
 	promptbutton
 	end
 
-.Kenji:
-	farwritetext KenjiGreetNiteText
-	promptbutton
-	end
-
-.Parry:
-	farwritetext ParryGreetNiteText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Female:
 	checktime 1 << DAY
 	iftruefwd PhoneScript_GreetPhone_Female_Day
@@ -575,7 +485,6 @@ PhoneScript_GreetPhone_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGreetText
@@ -587,16 +496,10 @@ PhoneScript_GreetPhone_Female:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinGreetText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Female_Day:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGreetDayText
@@ -608,16 +511,10 @@ PhoneScript_GreetPhone_Female_Day:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinGreetDayText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Female_Nite:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGreetNiteText
@@ -626,11 +523,6 @@ PhoneScript_GreetPhone_Female_Nite:
 
 .Tiffany:
 	farwritetext TiffanyGreetNiteText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinGreetNiteText
 	promptbutton
 	end
 
@@ -643,7 +535,6 @@ PhoneScript_Generic_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackGenericText
@@ -695,16 +586,10 @@ PhoneScript_Generic_Male:
 	promptbutton
 	end
 
-.Parry:
-	farwritetext ParryGenericText
-	promptbutton
-	end
-
 PhoneScript_Generic_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGenericText
@@ -713,11 +598,6 @@ PhoneScript_Generic_Female:
 
 .Tiffany:
 	farwritetext TiffanyGenericText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinGenericText
 	promptbutton
 	end
 

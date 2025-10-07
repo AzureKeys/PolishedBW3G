@@ -2,7 +2,6 @@ SECTION "Special Map Blockdata", ROMX
 
 EcruteakPokeCenter1F_BlockData:
 MahoganyPokeCenter1F_BlockData:
-BlackthornPokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -12,7 +11,6 @@ KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
 EcruteakMart_BlockData:
-BlackthornMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
@@ -26,9 +24,6 @@ Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
-BlackthornDragonSpeechHouse_BlockData:
-BlackthornEmysHouse_BlockData:
-MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
@@ -394,18 +389,6 @@ SECTION "IcePathB3F_BlockData", ROMX
 IcePathB3F_BlockData:
 	INCBIN "maps/IcePathB3F.ablk.lz"
 
-SECTION "BlackthornGym1F_BlockData", ROMX
-BlackthornGym1F_BlockData:
-	INCBIN "maps/BlackthornGym1F.ablk.lz"
-
-SECTION "BlackthornGym2F_BlockData", ROMX
-BlackthornGym2F_BlockData:
-	INCBIN "maps/BlackthornGym2F.ablk.lz"
-
-SECTION "BlackthornCity_BlockData", ROMX
-BlackthornCity_BlockData:
-	INCBIN "maps/BlackthornCity.ablk.lz"
-
 SECTION "DragonsDenB1F_BlockData", ROMX
 DragonsDenB1F_BlockData:
 	INCBIN "maps/DragonsDenB1F.ablk.lz"
@@ -555,13 +538,5 @@ Route43Raining_BlockData:
 SECTION "Route44_BlockData", ROMX
 Route44_BlockData:
 	INCBIN "maps/Route44.ablk.lz"
-
-SECTION "Route45_BlockData", ROMX
-Route45_BlockData:
-	INCBIN "maps/Route45.ablk.lz"
-
-SECTION "Route46_BlockData", ROMX
-Route46_BlockData:
-	INCBIN "maps/Route46.ablk.lz"
 
 ENDSECTION

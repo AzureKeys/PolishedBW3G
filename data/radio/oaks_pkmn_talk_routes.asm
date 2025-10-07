@@ -7,6 +7,4 @@ OaksPkmnTalkRoutes:
 	map_id ROUTE_42
 	map_id ROUTE_43
 	map_id ROUTE_44
-	map_id ROUTE_45
-	map_id ROUTE_46
 .End

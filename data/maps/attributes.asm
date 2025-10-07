@@ -22,9 +22,6 @@ ENDM
 	map_attributes LakeOfRage, LAKE_OF_RAGE, $5, SOUTH
 	connection south, Route43, ROUTE_43, 5
 
-	map_attributes BlackthornCity, BLACKTHORN_CITY, $71, SOUTH
-	connection south, Route45, ROUTE_45, -2
-
 	map_attributes Route35, ROUTE_35, $5, NORTH
 	connection north, Route36, ROUTE_36, 0
 
@@ -46,13 +43,6 @@ ENDM
 
 	map_attributes Route44, ROUTE_44, $71, WEST
 	connection west, MahoganyTown, MAHOGANY_TOWN, 0
-
-	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
-	connection north, BlackthornCity, BLACKTHORN_CITY, 2
-	connection west, Route46, ROUTE_46, 37
-
-	map_attributes Route46, ROUTE_46, $5, EAST
-	connection east, Route45, ROUTE_45, -37
 
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
@@ -158,13 +148,6 @@ ENDM
 	map_attributes ValeriesHouse, VALERIES_HOUSE, $0, 0
 	map_attributes EcruteakCherishBallHouse, ECRUTEAK_CHERISH_BALL_HOUSE, $0, 0
 	map_attributes EcruteakDestinyKnotHouse, ECRUTEAK_DESTINY_KNOT_HOUSE, $0, 0
-	map_attributes BlackthornGym1F, BLACKTHORN_GYM_1F, $0, 0
-	map_attributes BlackthornGym2F, BLACKTHORN_GYM_2F, $0, 0
-	map_attributes BlackthornDragonSpeechHouse, BLACKTHORN_DRAGON_SPEECH_HOUSE, $0, 0
-	map_attributes BlackthornEmysHouse, BLACKTHORN_EMYS_HOUSE, $0, 0
-	map_attributes BlackthornMart, BLACKTHORN_MART, $0, 0
-	map_attributes BlackthornPokeCenter1F, BLACKTHORN_POKECENTER_1F, $0, 0
-	map_attributes MoveDeletersHouse, MOVE_DELETERS_HOUSE, $0, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0

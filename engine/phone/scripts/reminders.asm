@@ -41,11 +41,3 @@ VanceHurryHurryScript:
 WiltonNotBitingScript:
 	farwritetext WiltonNotBitingText
 	end
-
-ParryHaventYouGottenToScript:
-	farwritetext ParryHaventYouGottenToText
-	end
-
-ErinComeBattleScript:
-	farwritetext ErinComeBattleText
-	end

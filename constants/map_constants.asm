@@ -147,18 +147,6 @@ ENDM
 	map_const ECRUTEAK_CHERISH_BALL_HOUSE,                 4,  4 ; 16
 	map_const ECRUTEAK_DESTINY_KNOT_HOUSE,                 4,  4 ; 17
 
-	newgroup                                                     ;  5
-	map_const BLACKTHORN_GYM_1F,                           5,  9 ;  1
-	map_const BLACKTHORN_GYM_2F,                           5,  9 ;  2
-	map_const BLACKTHORN_DRAGON_SPEECH_HOUSE,              4,  4 ;  3
-	map_const BLACKTHORN_EMYS_HOUSE,                       4,  4 ;  4
-	map_const BLACKTHORN_MART,                             6,  4 ;  5
-	map_const BLACKTHORN_POKECENTER_1F,                    6,  4 ;  6
-	map_const MOVE_DELETERS_HOUSE,                         4,  4 ;  7
-	map_const ROUTE_45,                                   12, 46 ;  8
-	map_const ROUTE_46,                                   10, 18 ;  9
-	map_const BLACKTHORN_CITY,                            20, 19 ; 10
-
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1
 	map_const BATTLE_TOWER_2F,                            11,  5 ;  2

@@ -311,9 +311,6 @@ INCLUDE "data/phone/text/brent_caller.asm"
 INCLUDE "data/phone/text/tiffany_caller.asm"
 INCLUDE "data/phone/text/vance_caller.asm"
 INCLUDE "data/phone/text/wilton_caller.asm"
-INCLUDE "data/phone/text/kenji_caller.asm"
-INCLUDE "data/phone/text/parry_caller.asm"
-INCLUDE "data/phone/text/erin_caller.asm"
 INCLUDE "data/phone/text/lyra.asm"
 
 
@@ -395,9 +392,6 @@ INCLUDE "data/phone/text/brent_overworld.asm"
 INCLUDE "data/phone/text/tiffany_overworld.asm"
 INCLUDE "data/phone/text/vance_overworld.asm"
 INCLUDE "data/phone/text/wilton_overworld.asm"
-INCLUDE "data/phone/text/kenji_overworld.asm"
-INCLUDE "data/phone/text/parry_overworld.asm"
-INCLUDE "data/phone/text/erin_overworld.asm"
 
 
 SECTION "bank2E", ROMX
@@ -430,9 +424,6 @@ INCLUDE "engine/phone/scripts/brent.asm"
 INCLUDE "engine/phone/scripts/tiffany.asm"
 INCLUDE "engine/phone/scripts/vance.asm"
 INCLUDE "engine/phone/scripts/wilton.asm"
-INCLUDE "engine/phone/scripts/kenji.asm"
-INCLUDE "engine/phone/scripts/parry.asm"
-INCLUDE "engine/phone/scripts/erin.asm"
 INCLUDE "engine/phone/scripts/generic_callee.asm"
 
 
@@ -602,9 +593,6 @@ INCLUDE "data/phone/text/brent_callee.asm"
 INCLUDE "data/phone/text/tiffany_callee.asm"
 INCLUDE "data/phone/text/vance_callee.asm"
 INCLUDE "data/phone/text/wilton_callee.asm"
-INCLUDE "data/phone/text/kenji_callee.asm"
-INCLUDE "data/phone/text/parry_callee.asm"
-INCLUDE "data/phone/text/erin_callee.asm"
 INCLUDE "data/phone/text/unused.asm"
 
 

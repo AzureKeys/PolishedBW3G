@@ -63,7 +63,6 @@ Phone_WhosBragging_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackIntelligenceKeepsRisingText
@@ -110,16 +109,10 @@ Phone_WhosBragging_Male:
 	promptbutton
 	end
 
-.Parry:
-	farwritetext ParryNothingCanMatchText
-	promptbutton
-	end
-
 Phone_WhosBragging_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyMadeMonEvenCuterText
@@ -128,11 +121,6 @@ Phone_WhosBragging_Female:
 
 .Tiffany:
 	farwritetext TiffanyMonIsAdorableText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinMonIsMuchStrongerText
 	promptbutton
 	end
 
@@ -145,7 +133,6 @@ Phone_WhoDefeatedMon_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackDefeatedMonText
@@ -192,16 +179,10 @@ Phone_WhoDefeatedMon_Male:
 	promptbutton
 	end
 
-.Parry:
-	farwritetext ParryDefeatedMonText
-	promptbutton
-	end
-
 Phone_WhoDefeatedMon_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyDefeatedMonText
@@ -210,11 +191,6 @@ Phone_WhoDefeatedMon_Female:
 
 .Tiffany:
 	farwritetext TiffanyDefeatedMonText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinDefeatedMonText
 	promptbutton
 	end
 
@@ -227,7 +203,6 @@ Phone_WhoLostAMon_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackLostAMonText
@@ -274,16 +249,10 @@ Phone_WhoLostAMon_Male:
 	promptbutton
 	end
 
-.Parry:
-	farwritetext ParryLostAMonText
-	promptbutton
-	end
-
 Phone_WhoLostAMon_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyLostAMonText
@@ -292,11 +261,6 @@ Phone_WhoLostAMon_Female:
 
 .Tiffany:
 	farwritetext TiffanyLostAMonText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinLostAMonText
 	promptbutton
 	end
 
@@ -318,7 +282,6 @@ PhoneScript_RematchText_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackBattleRematchText
@@ -370,23 +333,12 @@ PhoneScript_RematchText_Male:
 	promptbutton
 	end
 
-.Parry:
-	farwritetext ParryBattleRematchText
-	promptbutton
-	end
-
 PhoneScript_RematchText_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Tiffany:
 	farwritetext TiffanyBattleRematchText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinBattleRematchText
 	promptbutton
 	end
 
@@ -405,8 +357,6 @@ PhoneScript_HangupText_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackHangUpText
@@ -452,19 +402,10 @@ PhoneScript_HangupText_Male:
 	farwritetext WiltonHangUpText
 	end
 
-.Kenji:
-	farwritetext KenjiHangUpText
-	end
-
-.Parry:
-	farwritetext ParryHangUpText
-	end
-
 PhoneScript_HangupText_Female:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyHangUpText
@@ -472,10 +413,6 @@ PhoneScript_HangupText_Female:
 
 .Tiffany:
 	farwritetext TiffanyHangUpText
-	end
-
-.Erin:
-	farwritetext ErinHangUpText
 	end
 
 Phone_CheckIfUnseenRare_Male:
@@ -545,8 +482,3 @@ PhoneScript_FoundItem_Female:
 .Tiffany:
 	farwritetext TiffanyFoundItemText
 	end
-
-KenjiCallingPhoneScript:
-	farwritetext KenjiRemainDedicatedText
-	promptbutton
-	sjump PhoneScript_HangupText_Male

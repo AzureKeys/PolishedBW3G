@@ -171,8 +171,6 @@ TrainerBug_catcherArnie1:
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftruefwd .LoadFight3
 .Fight2:
-	checkflag ENGINE_FLYPOINT_BLACKTHORN
-	iftruefwd .LoadFight2
 .Fight1:
 	checkflag ENGINE_FLYPOINT_LAKE_OF_RAGE
 	iftruefwd .LoadFight1

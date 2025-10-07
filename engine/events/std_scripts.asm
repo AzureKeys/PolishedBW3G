@@ -504,8 +504,6 @@ AskNumber1MScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackAskNumber1Text
@@ -540,12 +538,6 @@ AskNumber1MScript:
 .Wilton:
 	farwritetext WiltonAskNumber1Text
 	end
-.Kenji:
-	farwritetext KenjiAskNumber1Text
-	end
-.Parry:
-	farwritetext ParryAskNumber1Text
-	end
 
 AskNumber2MScript:
 	special RandomPhoneMon
@@ -559,8 +551,6 @@ AskNumber2MScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackAskNumber2Text
@@ -595,12 +585,6 @@ AskNumber2MScript:
 .Wilton:
 	farwritetext WiltonAskNumber2Text
 	end
-.Kenji:
-	farwritetext KenjiAskNumber2Text
-	end
-.Parry:
-	farwritetext ParryAskNumber2Text
-	end
 
 RegisteredNumberMScript:
 	farwritetext RegisteredNumber1Text
@@ -620,8 +604,6 @@ NumberAcceptedMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackNumberAcceptedText
@@ -667,14 +649,6 @@ NumberAcceptedMScript:
 	farwritetext WiltonNumberAcceptedText
 	waitendtext
 
-.Kenji:
-	farwritetext KenjiNumberAcceptedText
-	waitendtext
-
-.Parry:
-	farwritetext ParryNumberAcceptedText
-	waitendtext
-
 NumberDeclinedMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -686,8 +660,6 @@ NumberDeclinedMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackNumberDeclinedText
@@ -733,14 +705,6 @@ NumberDeclinedMScript:
 	farwritetext WiltonNumberDeclinedText
 	waitendtext
 
-.Kenji:
-	farwritetext KenjiNumberDeclinedText
-	waitendtext
-
-.Parry:
-	farwritetext ParryNumberDeclinedText
-	waitendtext
-
 PhoneFullMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -752,8 +716,6 @@ PhoneFullMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackPhoneFullText
@@ -799,14 +761,6 @@ PhoneFullMScript:
 	farwritetext WiltonPhoneFullText
 	waitendtext
 
-.Kenji:
-	farwritetext KenjiPhoneFullText
-	waitendtext
-
-.Parry:
-	farwritetext ParryPhoneFullText
-	waitendtext
-
 RematchMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
@@ -817,7 +771,6 @@ RematchMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Jack:
 	farwritetext JackRematchText
@@ -859,16 +812,11 @@ RematchMScript:
 	farwritetext WiltonRematchText
 	waitendtext
 
-.Parry:
-	farwritetext ParryRematchText
-	waitendtext
-
 GiftMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
 
 .Wade:
 	farwritetext WadeGiftText
@@ -886,10 +834,6 @@ GiftMScript:
 	farwritetext WiltonGiftText
 	promptbutton
 	end
-.Kenji:
-	farwritetext KenjiGiftText
-	promptbutton
-	end
 
 PackFullMScript:
 	readvar VAR_CALLERID
@@ -898,8 +842,6 @@ PackFullMScript:
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Huey:
 	farwritetext HueyPackFullText
@@ -929,20 +871,11 @@ PackFullMScript:
 	farwritetext WiltonPackFullText
 	waitendtext
 
-.Kenji:
-	farwritetext KenjiPackFullText
-	waitendtext
-
-.Parry:
-	farwritetext ParryPackFullText
-	waitendtext
-
 RematchGiftMScript:
 	opentext
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
 .Huey:
 	farwritetext HueyRematchGiftText
@@ -956,16 +889,11 @@ RematchGiftMScript:
 	farwritetext VanceRematchGiftText
 	promptbutton
 	end
-.Parry:
-	farwritetext ParryRematchGiftText
-	promptbutton
-	end
 
 AskNumber1FScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAskNumber1Text
@@ -973,24 +901,17 @@ AskNumber1FScript:
 .Tiffany:
 	farwritetext TiffanyAskNumber1Text
 	end
-.Erin:
-	farwritetext ErinAskNumber1Text
-	end
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAskNumber2Text
 	end
 .Tiffany:
 	farwritetext TiffanyAskNumber2Text
-	end
-.Erin:
-	farwritetext ErinAskNumber2Text
 	end
 
 RegisteredNumberFScript:
@@ -1004,7 +925,6 @@ NumberAcceptedFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyNumberAcceptedText
@@ -1014,15 +934,10 @@ NumberAcceptedFScript:
 	farwritetext TiffanyNumberAcceptedText
 	waitendtext
 
-.Erin:
-	farwritetext ErinNumberAcceptedText
-	waitendtext
-
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyNumberDeclinedText
@@ -1032,15 +947,10 @@ NumberDeclinedFScript:
 	farwritetext TiffanyNumberDeclinedText
 	waitendtext
 
-.Erin:
-	farwritetext ErinNumberDeclinedText
-	waitendtext
-
 PhoneFullFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyPhoneFullText
@@ -1050,21 +960,12 @@ PhoneFullFScript:
 	farwritetext TiffanyPhoneFullText
 	waitendtext
 
-.Erin:
-	farwritetext ErinPhoneFullText
-	waitendtext
-
 RematchFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Tiffany:
 	farwritetext TiffanyRematchText
-	waitendtext
-
-.Erin:
-	farwritetext ErinRematchText
 	waitendtext
 
 GiftFScript:
@@ -1085,7 +986,6 @@ PackFullFScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyPackFullText
@@ -1095,18 +995,7 @@ PackFullFScript:
 	farwritetext TiffanyPackFullText
 	waitendtext
 
-.Erin:
-	farwritetext ErinPackFullText
-	waitendtext
-
 RematchGiftFScript:
-	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
-
-.Erin:
-	opentext
-	farwritetext ErinRematchGiftText
-	promptbutton
 	end
 
 GymStatue0Script:

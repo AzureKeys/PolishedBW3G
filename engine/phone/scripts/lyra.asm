@@ -103,11 +103,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .LakeOfRage
 	dw .Route44
 	dw .IcePath ; no calls
-	dw .BlackthornCity
 	dw .DragonsDen ; no calls
-	dw .Route45
 	dw .DarkCave ; no calls
-	dw .Route46
 	dw .SilverCave
 	assert_table_length KANTO_LANDMARK
 .Generic:
@@ -138,11 +135,8 @@ LyraPhoneScript_JohtoLandmarksTable:
 .LakeOfRage:
 .Route44:
 .IcePath:
-.BlackthornCity:
 .DragonsDen:
-.Route45:
 .DarkCave:
-.Route46:
 .SilverCave:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
