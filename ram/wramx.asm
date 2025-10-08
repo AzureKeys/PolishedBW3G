@@ -1060,9 +1060,6 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBrunosRoomSceneID:: db
 wColosseumSceneID:: db
-wDayCareSceneID:: db
-wEcruteakGymSceneID:: db
-wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
 wHallOfFameSceneID:: db
 wKarensRoomSceneID:: db
@@ -1074,7 +1071,6 @@ wPokecenter2FSceneID:: db
 wRoute36SceneID:: db
 wTradeCenterSceneID:: db
 wWillsRoomSceneID:: db
-wWiseTriosRoomSceneID:: db
 
 ; fight counts
 wJackFightCount::    db
@@ -1121,7 +1117,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 131 ; unused
+	ds 135 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

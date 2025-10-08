@@ -1,15 +1,11 @@
 SECTION "Special Map Blockdata", ROMX
 
-EcruteakPokeCenter1F_BlockData:
-	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
-
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
 KantoPokeCenter2F_BlockData:
 	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
 
-EcruteakMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
@@ -21,13 +17,6 @@ Route36VioletGate_BlockData:
 
 PlayersNeighborsHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
-
-EcruteakLugiaSpeechHouse_BlockData:
-EcruteakItemfinderHouse_BlockData:
-EcruteakCherishBallHouse_BlockData:
-EcruteakDestinyKnotHouse_BlockData:
-ValeriesHouse_BlockData:
-	INCBIN "maps/TraditionalHouse.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
@@ -69,25 +58,9 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "EcruteakGym_BlockData", ROMX
-EcruteakGym_BlockData:
-	INCBIN "maps/EcruteakGym.ablk.lz"
-
 SECTION "EcruteakCity_BlockData", ROMX
 EcruteakCity_BlockData:
 	INCBIN "maps/EcruteakCity.ablk.lz"
-
-SECTION "EcruteakHouse_BlockData", ROMX
-EcruteakHouse_BlockData:
-	INCBIN "maps/EcruteakHouse.ablk.lz"
-
-SECTION "DanceTheatre_BlockData", ROMX
-DanceTheatre_BlockData:
-	INCBIN "maps/DanceTheatre.ablk.lz"
-
-SECTION "WiseTriosRoom_BlockData", ROMX
-WiseTriosRoom_BlockData:
-	INCBIN "maps/WiseTriosRoom.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

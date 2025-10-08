@@ -27,23 +27,12 @@ ENDM
 	const_def
 
 	newgroup                                                     ;  4
-	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1
-	map_const WISE_TRIOS_ROOM,                             4,  4 ;  2
-	map_const ECRUTEAK_POKECENTER_1F,                      6,  4 ;  3
-	map_const ECRUTEAK_LUGIA_SPEECH_HOUSE,                 4,  4 ;  4
-	map_const DANCE_THEATRE,                               6,  7 ;  5
-	map_const ECRUTEAK_MART,                               6,  4 ;  6
-	map_const ECRUTEAK_GYM,                                5,  9 ;  7
-	map_const ECRUTEAK_ITEMFINDER_HOUSE,                   4,  4 ;  8
 	map_const ECRUTEAK_CITY,                              20, 18 ;  9
 	map_const ROUTE_35,                                   12, 18 ; 10
 	map_const ROUTE_36,                                   32,  9 ; 11
 	map_const ROUTE_36_RUINS_OF_ALPH_GATE,                 5,  4 ; 12
 	map_const ROUTE_36_VIOLET_GATE,                        5,  4 ; 13
 	map_const ROUTE_37,                                   10, 10 ; 14
-	map_const VALERIES_HOUSE,                              4,  4 ; 15
-	map_const ECRUTEAK_CHERISH_BALL_HOUSE,                 4,  4 ; 16
-	map_const ECRUTEAK_DESTINY_KNOT_HOUSE,                 4,  4 ; 17
 
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1

@@ -1,8 +1,3 @@
-SECTION "Pokemon Center Scripts 1", ROMX
-
-INCLUDE "maps/EcruteakPokeCenter1F.asm"
-
-
 SECTION "Special Map Scripts", ROMX
 
 INCLUDE "maps/PokeCenter2F.asm"
@@ -50,20 +45,6 @@ INCLUDE "maps/MagnetTunnelEast.asm"
 SECTION "Ecruteak Scripts", ROMX
 
 INCLUDE "maps/EcruteakCity.asm"
-INCLUDE "maps/EcruteakMart.asm"
-INCLUDE "maps/EcruteakGym.asm"
-INCLUDE "maps/EcruteakHouse.asm"
-INCLUDE "maps/EcruteakItemfinderHouse.asm"
-INCLUDE "maps/EcruteakLugiaSpeechHouse.asm"
-INCLUDE "maps/DanceTheatre.asm"
-INCLUDE "maps/WiseTriosRoom.asm"
-
-
-SECTION "Ecruteak Scripts 2", ROMX
-
-INCLUDE "maps/EcruteakCherishBallHouse.asm"
-INCLUDE "maps/EcruteakDestinyKnotHouse.asm"
-INCLUDE "maps/ValeriesHouse.asm"
 
 
 SECTION "Indigo Plateau Scripts", ROMX

@@ -13,8 +13,6 @@ MapScenes::
 	scene_var BATTLE_TOWER_OUTSIDE,                   wBattleTowerOutsideSceneID
 	scene_var BRUNOS_ROOM,                            wBrunosRoomSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
-	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
-	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
 	scene_var KARENS_ROOM,                            wKarensRoomSceneID
@@ -26,5 +24,4 @@ MapScenes::
 	scene_var ROUTE_36,                               wRoute36SceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
-	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	db -1

@@ -5,16 +5,6 @@ EcruteakCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, EcruteakCityFlyPoint
 
 	def_warp_events
-	warp_event 23, 11, ECRUTEAK_HOUSE, 1
-	warp_event 23, 27, ECRUTEAK_POKECENTER_1F, 1
-	warp_event  5, 21, ECRUTEAK_LUGIA_SPEECH_HOUSE, 1
-	warp_event 23, 21, DANCE_THEATRE, 1
-	warp_event 29, 21, ECRUTEAK_MART, 2
-	warp_event  6, 27, ECRUTEAK_GYM, 1
-	warp_event 13, 27, ECRUTEAK_ITEMFINDER_HOUSE, 1
-	warp_event  5, 17, VALERIES_HOUSE, 1
-	warp_event 29, 27, ECRUTEAK_CHERISH_BALL_HOUSE, 1
-	warp_event 13, 17, ECRUTEAK_DESTINY_KNOT_HOUSE, 1
 
 	def_coord_events
 
