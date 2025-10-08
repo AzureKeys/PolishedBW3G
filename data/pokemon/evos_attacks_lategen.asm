@@ -1833,7 +1833,6 @@ EvosAttacksPointersLateGen::
 	learnset 40, DOUBLE_EDGE
 
 	evos_attacks MimeJr
-	evo_data EVOLVE_LOCATION, ICE_PATH, MR__MIME, GALARIAN_FORM
 	evo_data EVOLVE_LEVEL, 30, MR__MIME, PLAIN_FORM
 	evo_data EVOLVE_ITEM, ICE_STONE, MR__MIME, GALARIAN_FORM
 	learnset 1, BARRIER

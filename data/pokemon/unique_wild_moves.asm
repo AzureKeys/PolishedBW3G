@@ -21,8 +21,5 @@ UniqueWildMoves:
 	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves TIN_TOWER,        0,          0
 	unique_moves BURNED_TOWER,     0,          0
-	unique_moves WHIRL_ISLANDS,    0,          0
-	unique_moves MT_MORTAR,        0,          0
-	unique_moves ICE_PATH,         0,          0
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	db -1

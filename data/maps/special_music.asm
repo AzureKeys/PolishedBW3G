@@ -9,7 +9,6 @@ ENDM
 SpecialMusicMaps:
 	music_map ROUTE_23,                    GetMapMusic
 	music_map INDIGO_PLATEAU,              GetMapMusic
-	music_map WHIRL_ISLAND_LUGIA_CHAMBER,  GetMapMusic
 	music_map ROUTE_35_NATIONAL_PARK_GATE, GetBugCatchingContestMusic
 	music_map ROUTE_36_NATIONAL_PARK_GATE, GetBugCatchingContestMusic
 	db 0 ; end

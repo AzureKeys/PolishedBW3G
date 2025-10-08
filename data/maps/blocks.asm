@@ -283,46 +283,6 @@ SECTION "BattleTowerOutside_BlockData", ROMX
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lz"
 
-SECTION "WhirlIslandNE_BlockData", ROMX
-WhirlIslandNE_BlockData:
-	INCBIN "maps/WhirlIslandNE.ablk.lz"
-
-SECTION "WhirlIslandSE_BlockData", ROMX
-WhirlIslandSE_BlockData:
-	INCBIN "maps/WhirlIslandSE.ablk.lz"
-
-SECTION "WhirlIslandSW_BlockData", ROMX
-WhirlIslandSW_BlockData:
-	INCBIN "maps/WhirlIslandSW.ablk.lz"
-
-SECTION "WhirlIslandB1F_BlockData", ROMX
-WhirlIslandB1F_BlockData:
-	INCBIN "maps/WhirlIslandB1F.ablk.lz"
-
-SECTION "WhirlIslandB2F_BlockData", ROMX
-WhirlIslandB2F_BlockData:
-	INCBIN "maps/WhirlIslandB2F.ablk.lz"
-
-SECTION "WhirlIslandLugiaChamber_BlockData", ROMX
-WhirlIslandLugiaChamber_BlockData:
-	INCBIN "maps/WhirlIslandLugiaChamber.ablk.lz"
-
-SECTION "MountMortar1FOutside_BlockData", ROMX
-MountMortar1FOutside_BlockData:
-	INCBIN "maps/MountMortar1FOutside.ablk.lz"
-
-SECTION "MountMortar1FInside_BlockData", ROMX
-MountMortar1FInside_BlockData:
-	INCBIN "maps/MountMortar1FInside.ablk.lz"
-
-SECTION "MountMortar2FInside_BlockData", ROMX
-MountMortar2FInside_BlockData:
-	INCBIN "maps/MountMortar2FInside.ablk.lz"
-
-SECTION "MountMortarB1F_BlockData", ROMX
-MountMortarB1F_BlockData:
-	INCBIN "maps/MountMortarB1F.ablk.lz"
-
 SECTION "MahoganyMart1F_BlockData", ROMX
 MahoganyMart1F_BlockData:
 	INCBIN "maps/GiftShop.ablk.lz"
@@ -354,26 +314,6 @@ TeamRocketBaseB2F_BlockData:
 SECTION "TeamRocketBaseB3F_BlockData", ROMX
 TeamRocketBaseB3F_BlockData:
 	INCBIN "maps/TeamRocketBaseB3F.ablk.lz"
-
-SECTION "IcePath1F_BlockData", ROMX
-IcePath1F_BlockData:
-	INCBIN "maps/IcePath1F.ablk.lz"
-
-SECTION "IcePathB1F_BlockData", ROMX
-IcePathB1F_BlockData:
-	INCBIN "maps/IcePathB1F.ablk.lz"
-
-SECTION "IcePathB2FMahoganySide_BlockData", ROMX
-IcePathB2FMahoganySide_BlockData:
-	INCBIN "maps/IcePathB2FMahoganySide.ablk.lz"
-
-SECTION "IcePathB2FBlackthornSide_BlockData", ROMX
-IcePathB2FBlackthornSide_BlockData:
-	INCBIN "maps/IcePathB2FBlackthornSide.ablk.lz"
-
-SECTION "IcePathB3F_BlockData", ROMX
-IcePathB3F_BlockData:
-	INCBIN "maps/IcePathB3F.ablk.lz"
 
 SECTION "IndigoPlateau_BlockData", ROMX
 IndigoPlateau_BlockData:
@@ -407,12 +347,7 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
-SECTION "DimCave2F_BlockData", ROMX
-WhirlIslandNW_BlockData:
-	INCBIN "maps/DimCave2F.ablk.lz"
-
 SECTION "NavelRockInside_BlockData", ROMX
-WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
 

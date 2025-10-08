@@ -95,14 +95,11 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .BurnedTower ; no calls
 	dw .Lighthouse
 	dw .BattleTower
-	dw .WhirlIslands ; no calls
 	dw .Route42
-	dw .MtMortar ; no calls
 	dw .MahoganyTown
 	dw .Route43
 	dw .LakeOfRage
 	dw .Route44
-	dw .IcePath ; no calls
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:
@@ -124,14 +121,11 @@ LyraPhoneScript_JohtoLandmarksTable:
 .SnowtopMountain:
 .Lighthouse:
 .BattleTower:
-.WhirlIslands:
 .Route42:
-.MtMortar:
 .MahoganyTown:
 .Route43:
 .LakeOfRage:
 .Route44:
-.IcePath:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic
 	end

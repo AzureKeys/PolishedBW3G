@@ -88,23 +88,6 @@ ENDM
 	map_const UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES,     13, 21 ; 44
 	map_const GOLDENROD_DEPT_STORE_B1F,                   10,  9 ; 45
 	map_const UNDERGROUND_WAREHOUSE,                      10,  9 ; 46
-	map_const MOUNT_MORTAR_1F_OUTSIDE,                    20, 18 ; 47
-	map_const MOUNT_MORTAR_1F_INSIDE,                     20, 25 ; 48
-	map_const MOUNT_MORTAR_2F_INSIDE,                     20, 18 ; 49
-	map_const MOUNT_MORTAR_B1F,                           20, 18 ; 50
-	map_const ICE_PATH_1F,                                20, 15 ; 51
-	map_const ICE_PATH_B1F,                               10, 18 ; 52
-	map_const ICE_PATH_B2F_MAHOGANY_SIDE,                 10,  9 ; 53
-	map_const ICE_PATH_B2F_BLACKTHORN_SIDE,                5,  9 ; 54
-	map_const ICE_PATH_B3F,                               10,  5 ; 55
-	map_const WHIRL_ISLAND_NW,                            17, 18 ; 56
-	map_const WHIRL_ISLAND_NE,                            10,  9 ; 57
-	map_const WHIRL_ISLAND_SW,                            10,  9 ; 58
-	map_const WHIRL_ISLAND_CAVE,                          20, 45 ; 59
-	map_const WHIRL_ISLAND_SE,                             5,  9 ; 60
-	map_const WHIRL_ISLAND_B1F,                           20, 18 ; 61
-	map_const WHIRL_ISLAND_B2F,                           10, 18 ; 62
-	map_const WHIRL_ISLAND_LUGIA_CHAMBER,                 10,  9 ; 63
 
 	newgroup                                                     ;  4
 	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1

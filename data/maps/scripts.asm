@@ -153,26 +153,6 @@ INCLUDE "maps/OlivineLighthouse5F.asm"
 INCLUDE "maps/OlivineLighthouse6F.asm"
 
 
-SECTION "Whirl Island Scripts", ROMX
-
-INCLUDE "maps/WhirlIslandNE.asm"
-INCLUDE "maps/WhirlIslandNW.asm"
-INCLUDE "maps/WhirlIslandSE.asm"
-INCLUDE "maps/WhirlIslandSW.asm"
-INCLUDE "maps/WhirlIslandB1F.asm"
-INCLUDE "maps/WhirlIslandB2F.asm"
-INCLUDE "maps/WhirlIslandCave.asm"
-INCLUDE "maps/WhirlIslandLugiaChamber.asm"
-
-
-SECTION "Mount Mortar Scripts", ROMX
-
-INCLUDE "maps/MountMortar1FOutside.asm"
-INCLUDE "maps/MountMortar1FInside.asm"
-INCLUDE "maps/MountMortar2FInside.asm"
-INCLUDE "maps/MountMortarB1F.asm"
-
-
 SECTION "Mahogany Scripts", ROMX
 
 INCLUDE "maps/MahoganyTown.asm"
@@ -193,15 +173,6 @@ SECTION "Team Rocket Base Scripts", ROMX
 INCLUDE "maps/TeamRocketBaseB1F.asm"
 INCLUDE "maps/TeamRocketBaseB2F.asm"
 INCLUDE "maps/TeamRocketBaseB3F.asm"
-
-
-SECTION "Ice Path Scripts", ROMX
-
-INCLUDE "maps/IcePath1F.asm"
-INCLUDE "maps/IcePathB1F.asm"
-INCLUDE "maps/IcePathB2FMahoganySide.asm"
-INCLUDE "maps/IcePathB2FBlackthornSide.asm"
-INCLUDE "maps/IcePathB3F.asm"
 
 
 SECTION "Indigo Plateau Scripts", ROMX

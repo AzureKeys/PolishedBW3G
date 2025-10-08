@@ -24,14 +24,11 @@ Landmarks:
 	landmark  66,  42, BurnedTowerName
 	landmark  38,  62, LighthouseName
 	landmark  28,  52, BattleTowerName
-	landmark  28,  92, WhirlIslandsName
 	landmark  92,  44, Route42Name
-	landmark  84,  44, MtMortarName
 	landmark 108,  44, MahoganyTownName
 	landmark 108,  36, Route43Name
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
-	landmark 128,  40, IcePathName
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
 	landmark  40,  76, Route22Name
@@ -53,9 +50,6 @@ NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 TinTowerName:          rawchar "Bell Tower@"
 LighthouseName:        rawchar "Lighthouse@"
-WhirlIslandsName:      rawchar "Whirl¯Islands@"
-MtMortarName:          rawchar "Mt.Mortar@"
-IcePathName:           rawchar "Ice Path@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 Route1Name:            rawchar "Route 1@"

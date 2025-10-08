@@ -94,23 +94,6 @@ ENDM
 	map_attributes UndergroundPathSwitchRoomEntrances, UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, $0, 0
 	map_attributes GoldenrodDeptStoreB1F, GOLDENROD_DEPT_STORE_B1F, $0, 0
 	map_attributes UndergroundWarehouse, UNDERGROUND_WAREHOUSE, $0, 0
-	map_attributes MountMortar1FOutside, MOUNT_MORTAR_1F_OUTSIDE, $9, 0
-	map_attributes MountMortar1FInside, MOUNT_MORTAR_1F_INSIDE, $9, 0
-	map_attributes MountMortar2FInside, MOUNT_MORTAR_2F_INSIDE, $9, 0
-	map_attributes MountMortarB1F, MOUNT_MORTAR_B1F, $9, 0
-	map_attributes IcePath1F, ICE_PATH_1F, $9, 0
-	map_attributes IcePathB1F, ICE_PATH_B1F, $19, 0
-	map_attributes IcePathB2FMahoganySide, ICE_PATH_B2F_MAHOGANY_SIDE, $19, 0
-	map_attributes IcePathB2FBlackthornSide, ICE_PATH_B2F_BLACKTHORN_SIDE, $19, 0
-	map_attributes IcePathB3F, ICE_PATH_B3F, $19, 0
-	map_attributes WhirlIslandNW, WHIRL_ISLAND_NW, $9, 0
-	map_attributes WhirlIslandNE, WHIRL_ISLAND_NE, $9, 0
-	map_attributes WhirlIslandSW, WHIRL_ISLAND_SW, $9, 0
-	map_attributes WhirlIslandCave, WHIRL_ISLAND_CAVE, $9, 0
-	map_attributes WhirlIslandSE, WHIRL_ISLAND_SE, $f, 0
-	map_attributes WhirlIslandB1F, WHIRL_ISLAND_B1F, $9, 0
-	map_attributes WhirlIslandB2F, WHIRL_ISLAND_B2F, $2e, 0
-	map_attributes WhirlIslandLugiaChamber, WHIRL_ISLAND_LUGIA_CHAMBER, $f, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0

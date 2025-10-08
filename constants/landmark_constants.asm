@@ -19,14 +19,11 @@
 	const BURNED_TOWER       ; 22
 	const LIGHTHOUSE         ; 28
 	const BATTLE_TOWER       ; 2a
-	const WHIRL_ISLANDS      ; 2b
 	const ROUTE_42           ; 34
-	const MT_MORTAR          ; 35
 	const MAHOGANY_TOWN      ; 36
 	const ROUTE_43           ; 37
 	const LAKE_OF_RAGE       ; 38
 	const ROUTE_44           ; 39
-	const ICE_PATH           ; 3a
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const ROUTE_22           ; 78

@@ -49,48 +49,6 @@
 	wildmon 15, GOLDUCK
 	end_water_wildmons
 
-	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
-	db 4 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 20, MARILL
-	wildmon 20, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
-	db 2 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 25, MARILL
-	wildmon 25, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons MOUNT_MORTAR_B1F
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, MARILL
-	wildmon 20, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons WHIRL_ISLAND_SW
-	db 4 percent ; encounter rate
-	wildmon 20, HORSEA
-	wildmon 25, RATTATA
-	wildmon 30, OCTILLERY
-	end_water_wildmons
-
-	def_water_wildmons WHIRL_ISLAND_B2F
-	db 4 percent ; encounter rate
-	wildmon 20, HORSEA
-	wildmon 25, RATTATA
-	wildmon 30, OCTILLERY
-	end_water_wildmons
-
-	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
-	db 4 percent ; encounter rate
-	wildmon 25, HORSEA
-	wildmon 30, SEADRA
-	wildmon 30, OCTILLERY
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	wildmon 20, PSYDUCK
