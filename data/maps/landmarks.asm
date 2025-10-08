@@ -38,14 +38,11 @@ Landmarks:
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
 	landmark  76,  44, MtMoonName
-	landmark 114,  66, UndergroundName
 	landmark 116,  68, DiglettsCaveName
-	landmark 140,  44, RockTunnelName
 	landmark  40,  76, Route22Name
 	landmark  12, 100, TohjoFallsName
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  64, Route23Name
-	landmark  28,  52, VictoryRoadName
 	landmark  28,  36, IndigoPlateauName
 	landmark  54, 134, CinnabarLabName
 	assert_table_length NUM_LANDMARKS
@@ -68,10 +65,8 @@ MtMortarName:          rawchar "Mt.Mortar@"
 DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
-VictoryRoadName:       rawchar "Victory¯Road@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 MtMoonName:            rawchar "Mt.Moon@"
-RockTunnelName:        rawchar "Rock Tunnel@"
 Route1Name:            rawchar "Route 1@"
 Route22Name:           rawchar "Route 22@"
 Route23Name:           rawchar "Route 23@"
@@ -86,7 +81,6 @@ IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
 DiglettsCaveName:      rawchar "Diglett's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
-UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"

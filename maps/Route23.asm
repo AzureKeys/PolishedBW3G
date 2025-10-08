@@ -4,8 +4,6 @@ Route23_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  6, 31, VICTORY_ROAD_1F, 1
-	warp_event 16, 31, VICTORY_ROAD_2F, 1
 
 	def_coord_events
 	coord_event 16, 131, 0, Route23ZephyrBadgeTriggerScript

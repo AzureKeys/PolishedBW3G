@@ -168,10 +168,6 @@ SECTION "WarehouseEntrance_BlockData", ROMX
 WarehouseEntrance_BlockData:
 	INCBIN "maps/WarehouseEntrance.ablk.lz"
 
-SECTION "MagnetTunnelEast_BlockData", ROMX
-MagnetTunnelEast_BlockData:
-	INCBIN "maps/MagnetTunnelEast.ablk.lz"
-
 SECTION "NationalPark_BlockData", ROMX
 NationalPark_BlockData:
 NationalParkBugContest_BlockData:
@@ -397,18 +393,6 @@ SECTION "DragonShrine_BlockData", ROMX
 DragonShrine_BlockData:
 	INCBIN "maps/DragonShrine.ablk.lz"
 
-SECTION "VictoryRoad1F_BlockData", ROMX
-VictoryRoad1F_BlockData:
-	INCBIN "maps/VictoryRoad1F.ablk.lz"
-
-SECTION "VictoryRoad2F_BlockData", ROMX
-VictoryRoad2F_BlockData:
-	INCBIN "maps/VictoryRoad2F.ablk.lz"
-
-SECTION "VictoryRoad3F_BlockData", ROMX
-VictoryRoad3F_BlockData:
-	INCBIN "maps/VictoryRoad3F.ablk.lz"
-
 SECTION "TohjoFalls_BlockData", ROMX
 TohjoFalls_BlockData:
 	INCBIN "maps/TohjoFalls.ablk.lz"
@@ -461,25 +445,9 @@ SECTION "DiglettsCave_BlockData", ROMX
 DiglettsCave_BlockData:
 	INCBIN "maps/DiglettsCave.ablk.lz"
 
-SECTION "RockTunnel1F_BlockData", ROMX
-RockTunnel1F_BlockData:
-	INCBIN "maps/RockTunnel1F.ablk.lz"
-
-SECTION "RockTunnel2F_BlockData", ROMX
-RockTunnel2F_BlockData:
-	INCBIN "maps/RockTunnel2F.ablk.lz"
-
-SECTION "RockTunnelB1F_BlockData", ROMX
-RockTunnelB1F_BlockData:
-	INCBIN "maps/RockTunnelB1F.ablk.lz"
-
 SECTION "DimCave2F_BlockData", ROMX
 WhirlIslandNW_BlockData:
 	INCBIN "maps/DimCave2F.ablk.lz"
-
-SECTION "Underground_BlockData", ROMX
-Underground_BlockData:
-	INCBIN "maps/Underground.ablk.lz"
 
 SECTION "SilverCaveRoom1_BlockData", ROMX
 SilverCaveRoom1_BlockData:

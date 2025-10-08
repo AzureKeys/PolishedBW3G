@@ -33,14 +33,11 @@
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const MT_MOON            ; 4b
-	const UNDERGROUND        ; 53
 	const DIGLETTS_CAVE      ; 56
-	const ROCK_TUNNEL        ; 5b
 	const ROUTE_22           ; 78
 	const TOHJO_FALLS        ; 7a
 	const POKEMON_LEAGUE     ; 7c
 	const ROUTE_23           ; 7d
-	const VICTORY_ROAD       ; 7e
 	const INDIGO_PLATEAU     ; 7f
 	const CINNABAR_LAB       ; 81
 DEF SHAMOUTI_LANDMARK EQU const_value

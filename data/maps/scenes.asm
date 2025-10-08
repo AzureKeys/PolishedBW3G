@@ -49,7 +49,6 @@ MapScenes::
 	scene_var TIN_TOWER_1F,                           wTinTower1FSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
-	scene_var VICTORY_ROAD_2F,                        wVictoryRoad2FSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	db -1

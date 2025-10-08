@@ -120,13 +120,6 @@ ENDM
 	map_const MOUNT_MOON_1F,                              15, 13 ; 76
 	map_const MOUNT_MOON_B1F,                             16, 14 ; 77
 	map_const MOUNT_MOON_B2F,                             16, 17 ; 78
-	map_const UNDERGROUND,                                 3, 18 ; 79
-	map_const ROCK_TUNNEL_1F,                             15, 14 ; 80
-	map_const ROCK_TUNNEL_B1F,                            15, 14 ; 81
-	map_const ROCK_TUNNEL_2F,                             15, 14 ; 82
-	map_const VICTORY_ROAD_1F,                            12, 13 ; 83
-	map_const VICTORY_ROAD_2F,                            14, 11 ; 84
-	map_const VICTORY_ROAD_3F,                            12,  9 ; 85
 
 	newgroup                                                     ;  4
 	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1

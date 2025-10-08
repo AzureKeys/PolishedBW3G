@@ -1096,7 +1096,6 @@ wTeamRocketBaseB3FSceneID:: db
 wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
 wUndergroundPathSwitchRoomEntrancesSceneID:: db
-wVictoryRoad2FSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
 
@@ -1145,7 +1144,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 107 ; unused
+	ds 108 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
