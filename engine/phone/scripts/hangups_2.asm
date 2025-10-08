@@ -1,13 +1,3 @@
-BeverlyComePickUpScript:
-	farwritetext BeverlyComePickUpText
-	promptbutton
-	sjump PhoneScript_HangupText_Female
-
-WadeComeQuickScript:
-	farwritetext WadeComeQuickText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
 AlanComePickUpScript:
 	farwritetext AlanComePickUpGiftText
 	promptbutton

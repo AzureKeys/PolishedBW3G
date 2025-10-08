@@ -22,7 +22,7 @@ SpecialsPointers::
 
 ; Map Events
 	add_special BugContestJudging
-	add_special CheckPartyFullAfterContest
+	;add_special CheckPartyFullAfterContest
 	add_special ContestDropOffMons
 	add_special ContestReturnMons
 	add_special Special_GiveParkBalls

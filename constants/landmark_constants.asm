@@ -6,7 +6,6 @@
 	const RADIO_TOWER        ; 17
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b
-	const NATIONAL_PARK      ; 1c
 	const ROUTE_36           ; 1d
 	const ROUTE_37           ; 1e
 	const ECRUTEAK_CITY      ; 1f

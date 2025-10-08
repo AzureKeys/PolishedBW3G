@@ -368,7 +368,6 @@ INCLUDE "engine/games/slot_machine.asm"
 SECTION "Phone Scripts", ROMX
 
 INCLUDE "engine/phone/scripts/generic_caller.asm"
-INCLUDE "engine/phone/scripts/jack_gossip.asm"
 INCLUDE "engine/phone/scripts/brent_gossip.asm"
 INCLUDE "engine/phone/scripts/irwin_gossip.asm"
 INCLUDE "engine/phone/scripts/hangups.asm"
@@ -411,10 +410,6 @@ INCLUDE "engine/events/initialize_events.asm"
 INCLUDE "engine/phone/scripts/unused.asm"
 INCLUDE "engine/phone/scripts/mom.asm"
 INCLUDE "engine/phone/scripts/bill.asm"
-INCLUDE "engine/phone/scripts/jack.asm"
-INCLUDE "engine/phone/scripts/beverly.asm"
-INCLUDE "engine/phone/scripts/joey.asm"
-INCLUDE "engine/phone/scripts/wade.asm"
 INCLUDE "engine/phone/scripts/irwin.asm"
 INCLUDE "engine/phone/scripts/arnie.asm"
 INCLUDE "engine/phone/scripts/alan.asm"
@@ -554,18 +549,6 @@ INCLUDE "data/text/std_text.asm"
 SECTION "Crystal Phone Text 2", ROMX
 
 INCLUDE "data/phone/text/bike_shop.asm"
-INCLUDE "data/phone/text/jack_caller.asm"
-INCLUDE "data/phone/text/beverly_caller.asm"
-INCLUDE "data/phone/text/joey_caller.asm"
-INCLUDE "data/phone/text/wade_caller.asm"
-
-
-SECTION "Phone Text 2", ROMX
-
-INCLUDE "data/phone/text/jack_overworld.asm"
-INCLUDE "data/phone/text/beverly_overworld.asm"
-INCLUDE "data/phone/text/joey_overworld.asm"
-INCLUDE "data/phone/text/wade_overworld.asm"
 
 
 SECTION "Phone Text 3", ROMX
@@ -573,11 +556,7 @@ SECTION "Phone Text 3", ROMX
 INCLUDE "data/phone/text/mom.asm"
 INCLUDE "data/phone/text/bill.asm"
 INCLUDE "data/phone/text/elm.asm"
-INCLUDE "data/phone/text/jack_callee.asm"
-INCLUDE "data/phone/text/beverly_callee.asm"
 INCLUDE "data/phone/text/unknown_callee.asm"
-INCLUDE "data/phone/text/joey_callee.asm"
-INCLUDE "data/phone/text/wade_callee.asm"
 INCLUDE "data/phone/text/irwin_callee.asm"
 INCLUDE "data/phone/text/arnie_callee.asm"
 INCLUDE "data/phone/text/alan_callee.asm"

@@ -11,7 +11,6 @@ Landmarks:
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
-	landmark  52,  60, NationalParkName
 	landmark  64,  60, Route36Name
 	landmark  68,  52, Route37Name
 	landmark  68,  44, EcruteakCityName
@@ -36,7 +35,6 @@ EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 RadioTowerName:        rawchar "Radio Tower@"
-NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"

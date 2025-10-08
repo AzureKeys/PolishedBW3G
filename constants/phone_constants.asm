@@ -6,8 +6,6 @@
 	const PHONE_BILL
 	const PHONE_ELM
 	const PHONE_LYRA
-	const PHONE_SCHOOLBOY_JACK
-	const PHONE_POKEFAN_BEVERLY
 	const_skip
 	const_skip
 	const PHONE_JUGGLER_IRWIN

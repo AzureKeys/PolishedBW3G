@@ -98,11 +98,6 @@ SECTION "RadioTower5F_BlockData", ROMX
 RadioTower5F_BlockData:
 	INCBIN "maps/RadioTower5F.ablk.lz"
 
-SECTION "NationalPark_BlockData", ROMX
-NationalPark_BlockData:
-NationalParkBugContest_BlockData:
-	INCBIN "maps/NationalPark.ablk.lz"
-
 SECTION "EcruteakGym_BlockData", ROMX
 EcruteakGym_BlockData:
 	INCBIN "maps/EcruteakGym.ablk.lz"
@@ -211,17 +206,9 @@ SECTION "Route35_BlockData", ROMX
 Route35_BlockData:
 	INCBIN "maps/Route35.ablk.lz"
 
-SECTION "Route35NationalParkGate_BlockData", ROMX
-Route35NationalParkGate_BlockData:
-	INCBIN "maps/Route35NationalParkGate.ablk.lz"
-
 SECTION "Route36_BlockData", ROMX
 Route36_BlockData:
 	INCBIN "maps/Route36.ablk.lz"
-
-SECTION "Route36NationalParkGate_BlockData", ROMX
-Route36NationalParkGate_BlockData:
-	INCBIN "maps/Route36NationalParkGate.ablk.lz"
 
 SECTION "Route37_BlockData", ROMX
 Route37_BlockData:

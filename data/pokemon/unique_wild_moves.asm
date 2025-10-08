@@ -15,6 +15,5 @@ UniqueWildMoves:
 	unique_moves MAHOGANY_TOWN,    KOFFING,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
 	; wild mons
-	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	db -1

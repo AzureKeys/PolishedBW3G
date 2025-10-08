@@ -4,7 +4,6 @@ Route35_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  7,  5, ROUTE_35_NATIONAL_PARK_GATE, 3
 	warp_event 14, 16, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

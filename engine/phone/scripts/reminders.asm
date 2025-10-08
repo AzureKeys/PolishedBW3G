@@ -1,15 +1,3 @@
-JackWantsBattleScript:
-	farwritetext JackReminderText
-	end
-
-JoeyReminderScript:
-	farwritetext JoeyReminderText
-	end
-
-WadeQuickBattleScript:
-	farwritetext WadeQuickBattleText
-	end
-
 ArnieReminderScript:
 	farwritetext ArnieReminderText
 	end

@@ -82,7 +82,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
-	dw .NationalPark
 	dw .Route36
 	dw .Route37
 	dw .EcruteakCity
@@ -99,7 +98,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .RadioTower:
 .Route35:
 .Route35Coast:
-.NationalPark:
 .Route36:
 .Route37:
 .EcruteakCity:

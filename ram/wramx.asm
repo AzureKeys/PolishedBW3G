@@ -1075,8 +1075,6 @@ wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
-wRoute35NationalParkGateSceneID:: db
-wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
 wRoute42SceneID:: db
 wRoute43GateSceneID:: db
@@ -1129,7 +1127,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 123 ; unused
+	ds 125 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

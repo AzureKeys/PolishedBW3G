@@ -18,14 +18,11 @@ InitMapNameSign::
 	ld c, a
 	call GetWorldMapLocation
 	ld [wCurLandmark], a
-	call .CheckExcludedMap
-	jr z, .excluded_map
 
 	call GetMapEnvironment
 	cp GATE
 	jr nz, .not_gate
 
-.excluded_map
 	ld a, -1
 	ld [wCurLandmark], a
 
@@ -110,19 +107,6 @@ InitMapNameSign::
 	ret z
 	ld a, $1
 	and a
-	ret
-
-.CheckExcludedMap:
-	ld a, [wMapGroup]
-	assert GROUP_ROUTE_35_NATIONAL_PARK_GATE == GROUP_ROUTE_36_NATIONAL_PARK_GATE
-	cp GROUP_ROUTE_35_NATIONAL_PARK_GATE
-	jr nz, .not_national_park_gate
-	ld a, [wMapNumber]
-	cp MAP_ROUTE_35_NATIONAL_PARK_GATE
-	ret z
-	cp MAP_ROUTE_36_NATIONAL_PARK_GATE
-	ret
-.not_national_park_gate
 	ret
 
 PlaceMapNameSign::

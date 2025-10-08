@@ -56,28 +56,12 @@ Phone_GotAwayCall_Female:
 
 Phone_WhosBragging_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackIntelligenceKeepsRisingText
-	promptbutton
-	end
-
-.Joey:
-	farwritetext JoeyMonLookingSharperText
-	promptbutton
-	end
-
-.Wade:
-	farwritetext WadeAreYourMonGrowingText
-	promptbutton
-	end
 
 .Arnie:
 	farwritetext ArnieMonIsSoCuteText
@@ -111,13 +95,7 @@ Phone_WhosBragging_Male:
 
 Phone_WhosBragging_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyMadeMonEvenCuterText
-	promptbutton
-	end
 
 .Tiffany:
 	farwritetext TiffanyMonIsAdorableText
@@ -126,28 +104,12 @@ Phone_WhosBragging_Female:
 
 Phone_WhoDefeatedMon_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackDefeatedMonText
-	promptbutton
-	end
-
-.Joey:
-	farwritetext JoeyDefeatedMonText
-	promptbutton
-	end
-
-.Wade:
-	farwritetext WadeDefeatedMonText
-	promptbutton
-	end
 
 .Arnie:
 	farwritetext ArnieDefeatedMonText
@@ -181,13 +143,7 @@ Phone_WhoDefeatedMon_Male:
 
 Phone_WhoDefeatedMon_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyDefeatedMonText
-	promptbutton
-	end
 
 .Tiffany:
 	farwritetext TiffanyDefeatedMonText
@@ -196,28 +152,12 @@ Phone_WhoDefeatedMon_Female:
 
 Phone_WhoLostAMon_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackLostAMonText
-	promptbutton
-	end
-
-.Joey:
-	farwritetext JoeyLostAMonText
-	promptbutton
-	end
-
-.Wade:
-	farwritetext WadeLostAMonText
-	promptbutton
-	end
 
 .Arnie:
 	farwritetext ArnieLostAMonText
@@ -251,13 +191,7 @@ Phone_WhoLostAMon_Male:
 
 Phone_WhoLostAMon_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyLostAMonText
-	promptbutton
-	end
 
 .Tiffany:
 	farwritetext TiffanyLostAMonText
@@ -274,28 +208,12 @@ PhoneScript_WantsToBattle_Female:
 
 PhoneScript_RematchText_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackBattleRematchText
-	promptbutton
-	end
-
-.Joey:
-	farwritetext JoeyBattleRematchText
-	promptbutton
-	end
-
-.Wade:
-	farwritetext WadeBattleRematchText
-	promptbutton
-	end
 
 .Arnie:
 	farwritetext ArnieBattleRematchText
@@ -342,7 +260,6 @@ TiffanyItsAwful:
 
 PhoneScript_HangupText_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -350,18 +267,6 @@ PhoneScript_HangupText_Male:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackHangUpText
-	end
-
-.Joey:
-	farwritetext JoeyHangUpText
-	end
-
-.Wade:
-	farwritetext WadeHangUpText
-	end
 
 .Irwin:
 	farwritetext IrwinHangUpText
@@ -393,12 +298,7 @@ PhoneScript_HangupText_Male:
 
 PhoneScript_HangupText_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyHangUpText
-	end
 
 .Tiffany:
 	farwritetext TiffanyHangUpText
@@ -443,10 +343,6 @@ PhoneScript_FoundItem_Male:
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
-.Wade:
-	farwritetext WadeFoundItemText
-	end
-
 .Alan:
 	farwritetext AlanFoundItemText
 	end
@@ -461,12 +357,7 @@ PhoneScript_FoundItem_Male:
 
 PhoneScript_FoundItem_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyFoundItemText
-	end
 
 .Tiffany:
 	farwritetext TiffanyFoundItemText

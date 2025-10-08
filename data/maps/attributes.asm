@@ -50,8 +50,6 @@ ENDM
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $2c, SOUTH
 	connection south, Route23, ROUTE_23, 0
 
-	map_attributes NationalPark, NATIONAL_PARK, $0, 0
-	map_attributes NationalParkBugContest, NATIONAL_PARK_BUG_CONTEST, $0, 0
 	map_attributes RadioTower1F, RADIO_TOWER_1F, $0, 0
 	map_attributes RadioTower2F, RADIO_TOWER_2F, $0, 0
 	map_attributes RadioTower3F, RADIO_TOWER_3F, $0, 0
@@ -76,9 +74,7 @@ ENDM
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
 	map_attributes Route43Gate, ROUTE_43_GATE, $0, 0
-	map_attributes Route35NationalParkGate, ROUTE_35_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
-	map_attributes Route36NationalParkGate, ROUTE_36_NATIONAL_PARK_GATE, $0, 0
 	map_attributes Route36VioletGate, ROUTE_36_VIOLET_GATE, $0, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0

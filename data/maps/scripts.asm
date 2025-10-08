@@ -62,12 +62,6 @@ SECTION "Magnet Tunnel Scripts", ROMX
 INCLUDE "maps/MagnetTunnelEast.asm"
 
 
-SECTION "National Park Scripts", ROMX
-
-INCLUDE "maps/NationalPark.asm"
-INCLUDE "maps/NationalParkBugContest.asm"
-
-
 SECTION "Ecruteak Scripts", ROMX
 
 INCLUDE "maps/EcruteakCity.asm"
@@ -121,8 +115,6 @@ INCLUDE "maps/Route23.asm"
 SECTION "Routes 33-35 Scripts", ROMX
 
 INCLUDE "maps/Route35.asm"
-INCLUDE "maps/Route35NationalParkGate.asm"
-INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm
 
 
 SECTION "Routes 36-38 Scripts", ROMX

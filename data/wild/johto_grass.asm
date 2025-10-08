@@ -1,33 +1,5 @@
 ; Johto Pokémon in grass
 
-	def_grass_wildmons NATIONAL_PARK
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 12, NIDORAN_M
-	wildmon 13, NIDORAN_F
-	wildmon 14, RATTATA
-	wildmon 14, RATTATA
-	wildmon 10, RATTATA
-	wildmon 12, RATTATA
-	wildmon 12, RATTATA
-	; day
-	wildmon 12, NIDORAN_F
-	wildmon 13, NIDORAN_M
-	wildmon 14, SUNKERN
-	wildmon 14, RATTATA
-	wildmon 10, RATTATA
-	wildmon 12, RATTATA
-	wildmon 12, RATTATA
-	; nite
-	wildmon 12, PSYDUCK
-	wildmon 13, RATTATA
-	wildmon 14, RATTATA
-	wildmon 14, RATTATA
-	wildmon 10, RATTATA
-	wildmon 12, RATTATA
-	wildmon 12, RATTATA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

@@ -1,23 +1,3 @@
-JackPhoneTipsScript:
-	farwritetext JackHeardSomeGreatTipsText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-BeverlyHangUpScript:
-	farwritetext BeverlyLetsChatAboutMonAgainText
-	promptbutton
-	sjump PhoneScript_HangupText_Female
-
-JoeyHangUpScript: ; TODO: use this
-	farwritetext JoeyDevisingStrategiesText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-WadeNoBerriesScript:
-	farwritetext WadeNoBerriesText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
 ArnieHangUpScript:
 	farwritetext ArnieHaventSeenRareMonText
 	promptbutton

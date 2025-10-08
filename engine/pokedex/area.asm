@@ -553,8 +553,6 @@ Pokedex_GetMonLocations:
 	jr z, .headbutt
 	dec a ; cp DEXAREA_ROCK_SMASH
 	jr z, .rock_smash
-	dec a
-	jr z, .contest
 
 	; Roamers.
 	ld hl, wRoamMon1Species
@@ -599,8 +597,6 @@ Pokedex_GetMonLocations:
 	jr nz, .loop
 	ret
 
-.contest
-	farjp GetContestLocations
 .wild
 	farjp GetWildLocations
 .fish

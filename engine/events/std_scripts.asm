@@ -360,92 +360,11 @@ BugContestResultsWarpScript:
 	setevent EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY
 	clearevent EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_NOT_CONTEST_DAY
 	setevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
-	warp ROUTE_36_NATIONAL_PARK_GATE, $0, $4
 	applymovement PLAYER, Movement_ContestResults_WalkAfterWarp
 	; fallthrough
 
 BugContestResultsScript:
-	clearflag ENGINE_BUG_CONTEST_TIMER
-	clearevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
-	clearevent EVENT_CONTEST_OFFICER_HAS_PRIZE
-	opentext
-	farwritetext ContestResults_ReadyToJudgeText
-	waitbutton
-	special BugContestJudging
-	getnum STRING_BUFFER_3
-	ifequalfwd 1, .FirstPlace
-	ifequalfwd 2, .SecondPlace
-	ifequalfwd 3, .ThirdPlace
-	readmem wBugContestOfficerPrize
-	getitemname USE_SCRIPT_VAR, STRING_BUFFER_4
-	farwritetext ContestResults_ConsolationPrizeText
-	promptbutton
-	waitsfx
-	readmem wBugContestOfficerPrize
-	verbosegiveitem ITEM_FROM_MEM
-	iftruefwd .GotConsolationPrize
-	farwritetext BugContestPrizeNoRoomText
-	promptbutton
-	setevent EVENT_CONTEST_OFFICER_HAS_PRIZE
-.GotConsolationPrize
-	farwritetext ContestResults_DidNotWinText
-	promptbutton
-	sjumpfwd .FinishUp
-
-.FirstPlace
-	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-.SecondPlace
-.ThirdPlace
-	readmem wBugContestOfficerPrize
-	getitemname USE_SCRIPT_VAR, STRING_BUFFER_4
-	farwritetext ContestResults_PlayerWonAPrizeText
-	waitbutton
-	readmem wBugContestOfficerPrize
-	verbosegiveitem ITEM_FROM_MEM
-	iftruefwd .GotWinnersPrize
-	farwritetext BugContestPrizeNoRoomText
-	promptbutton
-	setevent EVENT_CONTEST_OFFICER_HAS_PRIZE
-.GotWinnersPrize
-	farwritetext ContestResults_JoinUsNextTimeText
-	promptbutton
-.FinishUp
-	checkevent EVENT_LEFT_MONS_WITH_CONTEST_OFFICER
-	iffalsefwd .DidNotLeaveMons
-	farwritetext ContestResults_ReturnPartyText
-	waitbutton
-	special ContestReturnMons
-.DidNotLeaveMons
-	special CheckPartyFullAfterContest
-	ifequalfwd $0, .CleanUp
-	ifequalfwd $2, .CleanUp
-	farwritetext ContestResults_PartyFullText
-	waitbutton
-.CleanUp
-	closetext
-	setscene $0
-	setmapscene ROUTE_35_NATIONAL_PARK_GATE, $0
-	setevent EVENT_BUG_CATCHING_CONTESTANT_1A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_2A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_3A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_4A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_5A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_6A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_7A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_8A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_9A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_10A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_1B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_2B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_3B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_4B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_5B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_6B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_7B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_8B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_9B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_10B
-	setflag ENGINE_DAILY_BUG_CONTEST
+	
 	special PlayMapMusic
 	end
 
@@ -495,7 +414,6 @@ BugContestResults_CopyContestantsToResults:
 AskNumber1MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -504,15 +422,6 @@ AskNumber1MScript:
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
-.Jack:
-	farwritetext JackAskNumber1Text
-	end
-.Joey:
-	farwritetext JoeyAskNumber1Text
-	end
-.Wade:
-	farwritetext WadeAskNumber1Text
-	end
 .Irwin:
 	farwritetext IrwinAskNumber1Text
 	end
@@ -538,7 +447,6 @@ AskNumber1MScript:
 AskNumber2MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -547,15 +455,6 @@ AskNumber2MScript:
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
-.Jack:
-	farwritetext JackAskNumber2Text
-	end
-.Joey:
-	farwritetext JoeyAskNumber2Text
-	end
-.Wade:
-	farwritetext WadeAskNumber2Text
-	end
 .Irwin:
 	farwritetext IrwinAskNumber2Text
 	end
@@ -587,7 +486,6 @@ RegisteredNumberMScript:
 
 NumberAcceptedMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -595,18 +493,6 @@ NumberAcceptedMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackNumberAcceptedText
-	waitendtext
-
-.Joey:
-	farwritetext JoeyNumberAcceptedText
-	waitendtext
-
-.Wade:
-	farwritetext WadeNumberAcceptedText
-	waitendtext
 
 .Irwin:
 	farwritetext IrwinNumberAcceptedText
@@ -638,7 +524,6 @@ NumberAcceptedMScript:
 
 NumberDeclinedMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -646,18 +531,6 @@ NumberDeclinedMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackNumberDeclinedText
-	waitendtext
-
-.Joey:
-	farwritetext JoeyNumberDeclinedText
-	waitendtext
-
-.Wade:
-	farwritetext WadeNumberDeclinedText
-	waitendtext
 
 .Irwin:
 	farwritetext IrwinNumberDeclinedText
@@ -689,7 +562,6 @@ NumberDeclinedMScript:
 
 PhoneFullMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -697,18 +569,6 @@ PhoneFullMScript:
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackPhoneFullText
-	waitendtext
-
-.Joey:
-	farwritetext JoeyPhoneFullText
-	waitendtext
-
-.Wade:
-	farwritetext WadePhoneFullText
-	waitendtext
 
 .Irwin:
 	farwritetext IrwinPhoneFullText
@@ -740,25 +600,12 @@ PhoneFullMScript:
 
 RematchMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Jack:
-	farwritetext JackRematchText
-	waitendtext
-
-.Joey:
-	farwritetext JoeyRematchText
-	waitendtext
-
-.Wade:
-	farwritetext WadeRematchText
-	waitendtext
 
 .Arnie:
 	farwritetext ArnieRematchText
@@ -789,11 +636,6 @@ GiftMScript:
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Wade:
-	farwritetext WadeGiftText
-	promptbutton
-	end
 .Alan:
 	farwritetext AlanGiftText
 	promptbutton
@@ -813,14 +655,6 @@ PackFullMScript:
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-
-.Joey:
-	farwritetext JoeyPackFullText
-	waitendtext
-
-.Wade:
-	farwritetext WadePackFullText
-	waitendtext
 
 .Alan:
 	farwritetext AlanPackFullText
@@ -850,24 +684,16 @@ RematchGiftMScript:
 
 AskNumber1FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Beverly:
-	farwritetext BeverlyAskNumber1Text
-	end
 .Tiffany:
 	farwritetext TiffanyAskNumber1Text
 	end
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Beverly:
-	farwritetext BeverlyAskNumber2Text
-	end
 .Tiffany:
 	farwritetext TiffanyAskNumber2Text
 	end
@@ -881,12 +707,7 @@ RegisteredNumberFScript:
 
 NumberAcceptedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyNumberAcceptedText
-	waitendtext
 
 .Tiffany:
 	farwritetext TiffanyNumberAcceptedText
@@ -894,12 +715,7 @@ NumberAcceptedFScript:
 
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyNumberDeclinedText
-	waitendtext
 
 .Tiffany:
 	farwritetext TiffanyNumberDeclinedText
@@ -907,12 +723,7 @@ NumberDeclinedFScript:
 
 PhoneFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyPhoneFullText
-	waitendtext
 
 .Tiffany:
 	farwritetext TiffanyPhoneFullText
@@ -928,13 +739,8 @@ RematchFScript:
 
 GiftFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyGiftText
-	promptbutton
-	end
+	
 .Tiffany:
 	farwritetext TiffanyGiftText
 	promptbutton
@@ -942,12 +748,7 @@ GiftFScript:
 
 PackFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Beverly:
-	farwritetext BeverlyPackFullText
-	waitendtext
 
 .Tiffany:
 	farwritetext TiffanyPackFullText

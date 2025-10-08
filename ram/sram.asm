@@ -24,7 +24,7 @@ sGameDataEnd::
 
 sOptions3:: db
 
-	ds 385 ; unused
+	ds 386 ; unused
 
 sSRAMAccessCount:: db
 
@@ -53,7 +53,7 @@ sBackupGameDataEnd::
 
 sBackupOptions3:: db
 
-	ds 386 ; unused
+	ds 387 ; unused
 
 sBackupChecksum:: dw
 	assert sBackupChecksum == $bf0d, "Backup checksum has shifted."

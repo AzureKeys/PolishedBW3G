@@ -28,9 +28,7 @@ MapScenes::
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_23,                               wRoute23SceneID
-	scene_var ROUTE_35_NATIONAL_PARK_GATE,            wRoute35NationalParkGateSceneID
 	scene_var ROUTE_36,                               wRoute36SceneID
-	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateSceneID
 	scene_var ROUTE_42,                               wRoute42SceneID
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
