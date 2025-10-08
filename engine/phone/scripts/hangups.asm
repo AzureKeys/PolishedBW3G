@@ -8,31 +8,6 @@ AlanHangUpScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-TullyNoItemScript:
-	farwritetext TullyNoItemText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-BrentHangUpScript:
-	farwritetext BrentSorryImTooBusyText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-TiffanyNoItemScript:
-	farwritetext TiffanyNoItemText
-	promptbutton
-	sjump PhoneScript_HangupText_Female
-
-VanceLookingForwardScript:
-	farwritetext VanceLookingForwardText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-WiltonHaventFoundAnythingScript:
-	farwritetext WiltonHaventFoundAnythingText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
 IrwinRandomTextScript:
 	random 3
 	ifequalfwd 0, IrwinEscapadeScript

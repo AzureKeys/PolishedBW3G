@@ -7,27 +7,6 @@
 	wildmon 20, GOLDUCK
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_42
-	db 4 percent ; encounter rate
-	wildmon 20, RATTATA
-	wildmon 20, RATTATA
-	wildmon 20, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_43
-	db 2 percent ; encounter rate
-	wildmon 25, RATTATA
-	wildmon 20, RATTATA
-	wildmon 10, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_44
-	db 2 percent ; encounter rate
-	wildmon 25, POLIWAG
-	wildmon 30, POLIWAG
-	wildmon 30, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
 	wildmon 20, RATTATA

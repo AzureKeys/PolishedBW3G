@@ -15,12 +15,9 @@ GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
 Route36RuinsOfAlphGate_BlockData:
-Route43Gate_BlockData:
-Route43MahoganyGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 Route36VioletGate_BlockData:
-Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 MahoganyRedGyaradosSpeechHouse_BlockData:
@@ -193,21 +190,5 @@ Route36_BlockData:
 SECTION "Route37_BlockData", ROMX
 Route37_BlockData:
 	INCBIN "maps/Route37.ablk.lz"
-
-SECTION "Route42_BlockData", ROMX
-Route42_BlockData:
-	INCBIN "maps/Route42.ablk.lz"
-
-SECTION "Route43_BlockData", ROMX
-Route43_BlockData:
-	INCBIN "maps/Route43.ablk.lz"
-
-SECTION "Route43Raining_BlockData", ROMX
-Route43Raining_BlockData:
-	INCBIN "maps/Route43Raining.ablk.lz"
-
-SECTION "Route44_BlockData", ROMX
-Route44_BlockData:
-	INCBIN "maps/Route44.ablk.lz"
 
 ENDSECTION

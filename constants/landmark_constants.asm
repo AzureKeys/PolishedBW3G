@@ -10,11 +10,8 @@
 	const ECRUTEAK_CITY      ; 1f
 	const BELLCHIME_TRAIL    ; 20
 	const BATTLE_TOWER       ; 2a
-	const ROUTE_42           ; 34
 	const MAHOGANY_TOWN      ; 36
-	const ROUTE_43           ; 37
 	const LAKE_OF_RAGE       ; 38
-	const ROUTE_44           ; 39
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const ROUTE_22           ; 78

@@ -651,9 +651,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RATTATA
+	ld a, LOW(TORNADUS)
 	ld [wRoamMon1Species], a
-	assert RATTATA + 1 == RATICATE
+	assert TORNADUS + 1 == THUNDURUS
 	inc a
 	ld [wRoamMon2Species], a
 
@@ -663,15 +663,15 @@ InitRoamMons:
 	ld [wRoamMon2Level], a
 
 ; raikou starting map
-	ld a, GROUP_ROUTE_42
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_ROUTE_42
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon1MapNumber], a
 
 ; entei starting map
-	ld a, GROUP_ROUTE_37
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_ROUTE_37
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon2MapNumber], a
 
 ; hp

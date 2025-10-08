@@ -1075,8 +1075,6 @@ wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
 wRoute23SceneID:: db
 wRoute36SceneID:: db
-wRoute42SceneID:: db
-wRoute43GateSceneID:: db
 wTradeCenterSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
@@ -1126,7 +1124,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 126 ; unused
+	ds 128 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

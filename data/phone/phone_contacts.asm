@@ -22,9 +22,4 @@ PhoneContacts:
 	phone BUG_CATCHER,  ARNIE1,                ROUTE_35,                  %1111, ArniePhoneScript1,   %1111, ArniePhoneScript2
 	phone SCHOOLBOY,    ALAN1,                 ROUTE_36,                  %1111, AlanPhoneScript1,    %1111, AlanPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
-	phone FISHER,       TULLY1,                ROUTE_42,                  %1111, TullyPhoneScript1,   %1111, TullyPhoneScript2
-	phone POKEMANIAC,   BRENT1,                ROUTE_43,                  %1111, BrentPhoneScript1,   %1111, BrentPhoneScript2
-	phone PICNICKER,    TIFFANY1,              ROUTE_43,                  %1111, TiffanyPhoneScript1, %1111, TiffanyPhoneScript2
-	phone BIRD_KEEPER,  VANCE1,                ROUTE_44,                  %1111, VancePhoneScript1,   %1111, VancePhoneScript2
-	phone FISHER,       WILTON1,               ROUTE_44,                  %1111, WiltonPhoneScript1,  %1111, WiltonPhoneScript2
 	assert_table_length NUM_PHONE_CONTACTS + 1

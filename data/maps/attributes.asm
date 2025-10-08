@@ -10,17 +10,12 @@ ENDM
 
 	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
-	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | EAST
+	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH
 	connection south, Route37, ROUTE_37, 5
-	connection east, Route42, ROUTE_42, 9
 
-	map_attributes MahoganyTown, MAHOGANY_TOWN, $71, NORTH | WEST | EAST
-	connection north, Route43, ROUTE_43, 0
-	connection west, Route42, ROUTE_42, 0
-	connection east, Route44, ROUTE_44, 0
+	map_attributes MahoganyTown, MAHOGANY_TOWN, $71, 0
 
-	map_attributes LakeOfRage, LAKE_OF_RAGE, $5, SOUTH
-	connection south, Route43, ROUTE_43, 5
+	map_attributes LakeOfRage, LAKE_OF_RAGE, $5, 0
 
 	map_attributes Route35, ROUTE_35, $5, NORTH
 	connection north, Route36, ROUTE_36, 0
@@ -33,17 +28,6 @@ ENDM
 	connection north, EcruteakCity, ECRUTEAK_CITY, -5
 	connection south, Route36, ROUTE_36, -12
 
-	map_attributes Route42, ROUTE_42, $5, WEST | EAST
-	connection west, EcruteakCity, ECRUTEAK_CITY, -9
-	connection east, MahoganyTown, MAHOGANY_TOWN, 0
-
-	map_attributes Route43, ROUTE_43, $5, NORTH | SOUTH
-	connection north, LakeOfRage, LAKE_OF_RAGE, -5
-	connection south, MahoganyTown, MAHOGANY_TOWN, 0
-
-	map_attributes Route44, ROUTE_44, $71, WEST
-	connection west, MahoganyTown, MAHOGANY_TOWN, 0
-
 	map_attributes Route23, ROUTE_23, $2c, NORTH
 	connection north, IndigoPlateau, INDIGO_PLATEAU, 0
 
@@ -53,7 +37,6 @@ ENDM
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
-	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
 	map_attributes EcruteakHouse, ECRUTEAK_HOUSE, $0, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $0, 0
 	map_attributes EcruteakPokeCenter1F, ECRUTEAK_POKECENTER_1F, $0, 0
@@ -67,8 +50,6 @@ ENDM
 	map_attributes EcruteakDestinyKnotHouse, ECRUTEAK_DESTINY_KNOT_HOUSE, $0, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
 	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
-	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
-	map_attributes Route43Gate, ROUTE_43_GATE, $0, 0
 	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route36VioletGate, ROUTE_36_VIOLET_GATE, $0, 0
 	map_attributes IndigoPlateauPokecenter1F, INDIGO_PLATEAU_POKECENTER_1F, $0, 0

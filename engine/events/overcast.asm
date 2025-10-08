@@ -29,10 +29,7 @@ GetOvercastIndex::
 ; Lake of Rage and Route 43
 	ld a, [wMapNumber]
 	cp MAP_LAKE_OF_RAGE
-	jr z, .lake_of_rage
-	cp MAP_ROUTE_43
 	jr nz, .not_overcast
-.lake_of_rage
 ; Always overcast until civilians appear (Team Rocket beaten)
 	eventflagcheck EVENT_LAKE_OF_RAGE_CIVILIANS
 	jr nz, .overcast_lake_of_rage

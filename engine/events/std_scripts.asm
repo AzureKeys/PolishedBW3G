@@ -417,10 +417,6 @@ AskNumber1MScript:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Irwin:
 	farwritetext IrwinAskNumber1Text
@@ -431,18 +427,6 @@ AskNumber1MScript:
 .Alan:
 	farwritetext AlanAskNumber1Text
 	end
-.Tully:
-	farwritetext TullyAskNumber1Text
-	end
-.Brent:
-	farwritetext BrentAskNumber1Text
-	end
-.Vance:
-	farwritetext VanceAskNumber1Text
-	end
-.Wilton:
-	farwritetext WiltonAskNumber1Text
-	end
 
 AskNumber2MScript:
 	special RandomPhoneMon
@@ -450,10 +434,6 @@ AskNumber2MScript:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Irwin:
 	farwritetext IrwinAskNumber2Text
@@ -463,18 +443,6 @@ AskNumber2MScript:
 	end
 .Alan:
 	farwritetext AlanAskNumber2Text
-	end
-.Tully:
-	farwritetext TullyAskNumber2Text
-	end
-.Brent:
-	farwritetext BrentAskNumber2Text
-	end
-.Vance:
-	farwritetext VanceAskNumber2Text
-	end
-.Wilton:
-	farwritetext WiltonAskNumber2Text
 	end
 
 RegisteredNumberMScript:
@@ -489,10 +457,6 @@ NumberAcceptedMScript:
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Irwin:
 	farwritetext IrwinNumberAcceptedText
@@ -506,31 +470,11 @@ NumberAcceptedMScript:
 	farwritetext AlanNumberAcceptedText
 	waitendtext
 
-.Tully:
-	farwritetext TullyNumberAcceptedText
-	waitendtext
-
-.Brent:
-	farwritetext BrentNumberAcceptedText
-	waitendtext
-
-.Vance:
-	farwritetext VanceNumberAcceptedText
-	waitendtext
-
-.Wilton:
-	farwritetext WiltonNumberAcceptedText
-	waitendtext
-
 NumberDeclinedMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Irwin:
 	farwritetext IrwinNumberDeclinedText
@@ -544,31 +488,11 @@ NumberDeclinedMScript:
 	farwritetext AlanNumberDeclinedText
 	waitendtext
 
-.Tully:
-	farwritetext TullyNumberDeclinedText
-	waitendtext
-
-.Brent:
-	farwritetext BrentNumberDeclinedText
-	waitendtext
-
-.Vance:
-	farwritetext VanceNumberDeclinedText
-	waitendtext
-
-.Wilton:
-	farwritetext WiltonNumberDeclinedText
-	waitendtext
-
 PhoneFullMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Irwin:
 	farwritetext IrwinPhoneFullText
@@ -582,30 +506,10 @@ PhoneFullMScript:
 	farwritetext AlanPhoneFullText
 	waitendtext
 
-.Tully:
-	farwritetext TullyPhoneFullText
-	waitendtext
-
-.Brent:
-	farwritetext BrentPhoneFullText
-	waitendtext
-
-.Vance:
-	farwritetext VancePhoneFullText
-	waitendtext
-
-.Wilton:
-	farwritetext WiltonPhoneFullText
-	waitendtext
-
 RematchMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Arnie:
 	farwritetext ArnieRematchText
@@ -615,87 +519,36 @@ RematchMScript:
 	farwritetext AlanRematchText
 	waitendtext
 
-.Tully:
-	farwritetext TullyRematchText
-	waitendtext
-
-.Brent:
-	farwritetext BrentRematchText
-	waitendtext
-
-.Vance:
-	farwritetext VanceRematchText
-	waitendtext
-
-.Wilton:
-	farwritetext WiltonRematchText
-	waitendtext
-
 GiftMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 .Alan:
 	farwritetext AlanGiftText
-	promptbutton
-	end
-.Tully:
-	farwritetext TullyGiftText
-	promptbutton
-	end
-.Wilton:
-	farwritetext WiltonGiftText
 	promptbutton
 	end
 
 PackFullMScript:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
 .Alan:
 	farwritetext AlanPackFullText
 	waitendtext
 
-.Tully:
-	farwritetext TullyPackFullText
-	waitendtext
-
-.Vance:
-	farwritetext VancePackFullText
-	waitendtext
-
-.Wilton:
-	farwritetext WiltonPackFullText
-	waitendtext
-
 RematchGiftMScript:
 	opentext
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 
-.Vance:
-	farwritetext VanceRematchGiftText
-	promptbutton
 	end
 
 AskNumber1FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Tiffany:
-	farwritetext TiffanyAskNumber1Text
 	end
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Tiffany:
-	farwritetext TiffanyAskNumber2Text
 	end
 
 RegisteredNumberFScript:
@@ -707,51 +560,30 @@ RegisteredNumberFScript:
 
 NumberAcceptedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Tiffany:
-	farwritetext TiffanyNumberAcceptedText
 	waitendtext
 
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Tiffany:
-	farwritetext TiffanyNumberDeclinedText
 	waitendtext
 
 PhoneFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Tiffany:
-	farwritetext TiffanyPhoneFullText
 	waitendtext
 
 RematchFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Tiffany:
-	farwritetext TiffanyRematchText
 	waitendtext
 
 GiftFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	
-.Tiffany:
-	farwritetext TiffanyGiftText
 	promptbutton
 	end
 
 PackFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-
-.Tiffany:
-	farwritetext TiffanyPackFullText
 	waitendtext
 
 RematchGiftFScript:

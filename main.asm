@@ -306,11 +306,6 @@ SECTION "Crystal Phone Text", ROMX
 INCLUDE "data/phone/text/irwin_caller.asm"
 INCLUDE "data/phone/text/arnie_caller.asm"
 INCLUDE "data/phone/text/alan_caller.asm"
-INCLUDE "data/phone/text/tully_caller.asm"
-INCLUDE "data/phone/text/brent_caller.asm"
-INCLUDE "data/phone/text/tiffany_caller.asm"
-INCLUDE "data/phone/text/vance_caller.asm"
-INCLUDE "data/phone/text/wilton_caller.asm"
 INCLUDE "data/phone/text/lyra.asm"
 
 
@@ -368,7 +363,6 @@ INCLUDE "engine/games/slot_machine.asm"
 SECTION "Phone Scripts", ROMX
 
 INCLUDE "engine/phone/scripts/generic_caller.asm"
-INCLUDE "engine/phone/scripts/brent_gossip.asm"
 INCLUDE "engine/phone/scripts/irwin_gossip.asm"
 INCLUDE "engine/phone/scripts/hangups.asm"
 INCLUDE "engine/phone/scripts/reminders.asm"
@@ -386,11 +380,6 @@ INCLUDE "data/phone/text/alan_overworld.asm"
 INCLUDE "data/phone/text/dana_overworld.asm"
 INCLUDE "data/phone/text/chad_overworld.asm"
 INCLUDE "data/phone/text/derek_overworld.asm"
-INCLUDE "data/phone/text/tully_overworld.asm"
-INCLUDE "data/phone/text/brent_overworld.asm"
-INCLUDE "data/phone/text/tiffany_overworld.asm"
-INCLUDE "data/phone/text/vance_overworld.asm"
-INCLUDE "data/phone/text/wilton_overworld.asm"
 
 
 SECTION "bank2E", ROMX
@@ -413,11 +402,6 @@ INCLUDE "engine/phone/scripts/bill.asm"
 INCLUDE "engine/phone/scripts/irwin.asm"
 INCLUDE "engine/phone/scripts/arnie.asm"
 INCLUDE "engine/phone/scripts/alan.asm"
-INCLUDE "engine/phone/scripts/tully.asm"
-INCLUDE "engine/phone/scripts/brent.asm"
-INCLUDE "engine/phone/scripts/tiffany.asm"
-INCLUDE "engine/phone/scripts/vance.asm"
-INCLUDE "engine/phone/scripts/wilton.asm"
 INCLUDE "engine/phone/scripts/generic_callee.asm"
 
 
@@ -563,11 +547,6 @@ INCLUDE "data/phone/text/alan_callee.asm"
 INCLUDE "data/phone/text/dana_callee.asm"
 INCLUDE "data/phone/text/chad_callee.asm"
 INCLUDE "data/phone/text/derek_callee.asm"
-INCLUDE "data/phone/text/tully_callee.asm"
-INCLUDE "data/phone/text/brent_callee.asm"
-INCLUDE "data/phone/text/tiffany_callee.asm"
-INCLUDE "data/phone/text/vance_callee.asm"
-INCLUDE "data/phone/text/wilton_callee.asm"
 INCLUDE "data/phone/text/unused.asm"
 
 

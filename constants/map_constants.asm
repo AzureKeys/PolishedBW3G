@@ -30,15 +30,9 @@ ENDM
 	map_const MAHOGANY_RED_GYARADOS_SPEECH_HOUSE,          4,  4 ;  1
 	map_const MAHOGANY_GYM,                                5,  9 ;  2
 	map_const MAHOGANY_POKECENTER_1F,                      6,  4 ;  3
-	map_const ROUTE_42_ECRUTEAK_GATE,                      5,  4 ;  4
-	map_const ROUTE_42,                                   30,  9 ;  5
-	map_const ROUTE_44,                                   30,  9 ;  6
 	map_const MAHOGANY_TOWN,                              10,  9 ;  7
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  8
 	map_const LAKE_OF_RAGE_MAGIKARP_HOUSE,                 4,  4 ;  9
-	map_const ROUTE_43_MAHOGANY_GATE,                      5,  4 ; 10
-	map_const ROUTE_43_GATE,                               5,  4 ; 11
-	map_const ROUTE_43,                                   10, 27 ; 12
 	map_const LAKE_OF_RAGE,                               20, 18 ; 13
 
 	newgroup                                                     ;  4

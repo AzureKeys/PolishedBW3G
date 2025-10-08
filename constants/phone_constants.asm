@@ -12,11 +12,6 @@
 	const PHONE_BUG_CATCHER_ARNIE
 	const PHONE_SCHOOLBOY_ALAN
 	const_skip
-	const PHONE_FISHER_TULLY
-	const PHONE_POKEMANIAC_BRENT
-	const PHONE_PICNICKER_TIFFANY
-	const PHONE_BIRDKEEPER_VANCE
-	const PHONE_FISHER_WILTON
 DEF NUM_PHONE_CONTACTS EQU const_value - 1
 
 ; SpecialPhoneCallList indexes (see data/phone/special_calls.asm)
