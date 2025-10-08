@@ -1,8 +1,6 @@
 GetOvercastIndex::
 ; Some maps are overcast, depending on certain conditions
 	ld a, [wMapGroup]
-	cp GROUP_LAKE_OF_RAGE ; GROUP_ROUTE_43
-	jr z, .lake_of_rage_route_43
 .not_overcast:
 	xor a ; NOT_OVERCAST
 	ret
@@ -27,9 +25,7 @@ GetOvercastIndex::
 
 .lake_of_rage_route_43:
 ; Lake of Rage and Route 43
-	ld a, [wMapNumber]
-	cp MAP_LAKE_OF_RAGE
-	jr nz, .not_overcast
+	jr .not_overcast
 ; Always overcast until civilians appear (Team Rocket beaten)
 	eventflagcheck EVENT_LAKE_OF_RAGE_CIVILIANS
 	jr nz, .overcast_lake_of_rage

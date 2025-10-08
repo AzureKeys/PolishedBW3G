@@ -39,9 +39,9 @@ CheckUniqueWildMove:
 	ret z
 
 	; always teach moves for certain Pokémon
-	ld a, c
-	cp MAHOGANY_TOWN
-	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
+	;ld a, c
+	;cp MAHOGANY_TOWN
+	;jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
 	ld a, b
 	cp SURF
 	jr z, .TeachMove ; assume only Pikachu can learn Surf

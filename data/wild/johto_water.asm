@@ -21,11 +21,4 @@
 	wildmon 20, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons LAKE_OF_RAGE
-	db 6 percent ; encounter rate
-	wildmon 25, RATTATA
-	wildmon 20, RATTATA
-	wildmon 25, RATTATA
-	end_water_wildmons
-
 	db -1 ; end

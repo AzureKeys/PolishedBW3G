@@ -26,15 +26,6 @@ ENDM
 ; - scripts and events (see data/maps/scripts.asm)
 	const_def
 
-	newgroup                                                     ;  2
-	map_const MAHOGANY_RED_GYARADOS_SPEECH_HOUSE,          4,  4 ;  1
-	map_const MAHOGANY_GYM,                                5,  9 ;  2
-	map_const MAHOGANY_POKECENTER_1F,                      6,  4 ;  3
-	map_const MAHOGANY_TOWN,                              10,  9 ;  7
-	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  8
-	map_const LAKE_OF_RAGE_MAGIKARP_HOUSE,                 4,  4 ;  9
-	map_const LAKE_OF_RAGE,                               20, 18 ; 13
-
 	newgroup                                                     ;  4
 	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1
 	map_const WISE_TRIOS_ROOM,                             4,  4 ;  2

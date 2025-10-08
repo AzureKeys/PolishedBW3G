@@ -5,7 +5,6 @@ INCLUDE "maps/EcruteakPokeCenter1F.asm"
 
 SECTION "Pokemon Center Scripts 2", ROMX
 
-INCLUDE "maps/MahoganyPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 
 
@@ -71,20 +70,6 @@ INCLUDE "maps/EcruteakCherishBallHouse.asm"
 INCLUDE "maps/EcruteakDestinyKnotHouse.asm"
 INCLUDE "maps/ValeriesHouse.asm"
 INCLUDE "maps/BellchimeTrail.asm"
-
-
-SECTION "Mahogany Scripts", ROMX
-
-INCLUDE "maps/MahoganyTown.asm"
-INCLUDE "maps/MahoganyGym.asm"
-INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
-
-
-SECTION "Lake of Rage Scripts", ROMX
-
-INCLUDE "maps/LakeOfRage.asm"
-INCLUDE "maps/LakeOfRageHiddenPowerHouse.asm"
-INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
 
 
 SECTION "Indigo Plateau Scripts", ROMX

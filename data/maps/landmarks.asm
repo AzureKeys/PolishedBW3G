@@ -15,8 +15,6 @@ Landmarks:
 	landmark  68,  44, EcruteakCityName
 	landmark  69,  42, BellchimeTrailName
 	landmark  28,  52, BattleTowerName
-	landmark 108,  44, MahoganyTownName
-	landmark 108,  28, LakeOfRageName
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
 	landmark  40,  76, Route22Name
@@ -28,8 +26,6 @@ Landmarks:
 
 NewBarkTownName:       rawchar "New Bark¯Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
-MahoganyTownName:      rawchar "Mahogany¯Town@"
-LakeOfRageName:        rawchar "Lake of¯Rage@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"

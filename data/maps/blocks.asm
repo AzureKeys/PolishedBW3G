@@ -1,7 +1,6 @@
 SECTION "Special Map Blockdata", ROMX
 
 EcruteakPokeCenter1F_BlockData:
-MahoganyPokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
 PokeCenter2F_BlockData:
@@ -20,11 +19,6 @@ Route36RuinsOfAlphGate_BlockData:
 Route36VioletGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
-MahoganyRedGyaradosSpeechHouse_BlockData:
-LakeOfRageMagikarpHouse_BlockData:
-	INCBIN "maps/JohtoHouse3.ablk.lz"
-
-LakeOfRageHiddenPowerHouse_BlockData:
 PlayersNeighborsHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
@@ -122,22 +116,6 @@ BattleTowerHallway_BlockData:
 SECTION "BattleTowerOutside_BlockData", ROMX
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lz"
-
-SECTION "MahoganyGym_BlockData", ROMX
-MahoganyGym_BlockData:
-	INCBIN "maps/MahoganyGym.ablk.lz"
-
-SECTION "MahoganyTown_BlockData", ROMX
-MahoganyTown_BlockData:
-	INCBIN "maps/MahoganyTown.ablk.lz"
-
-SECTION "LakeOfRage_BlockData", ROMX
-LakeOfRage_BlockData:
-	INCBIN "maps/LakeOfRage.ablk.lz"
-
-SECTION "LakeOfRageFlooded_BlockData", ROMX
-LakeOfRageFlooded_BlockData:
-	INCBIN "maps/LakeOfRageFlooded.ablk.lz"
 
 SECTION "IndigoPlateau_BlockData", ROMX
 IndigoPlateau_BlockData:
