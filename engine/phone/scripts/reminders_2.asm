@@ -1,3 +1,0 @@
-ArnieHurryScript:
-	farwritetext ArnieHurryText
-	end

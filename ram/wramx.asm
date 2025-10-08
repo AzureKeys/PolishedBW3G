@@ -1068,7 +1068,6 @@ wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
-wRoute36SceneID:: db
 wTradeCenterSceneID:: db
 wWillsRoomSceneID:: db
 
@@ -1117,7 +1116,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 135 ; unused
+	ds 136 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

@@ -1,5 +1,0 @@
-AlanComePickUpScript:
-	farwritetext AlanComePickUpGiftText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-	

@@ -9,12 +9,6 @@ KantoPokeCenter2F_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
-Route36RuinsOfAlphGate_BlockData:
-	INCBIN "maps/NorthSouthGate.ablk.lz"
-
-Route36VioletGate_BlockData:
-	INCBIN "maps/EastWestGate.ablk.lz"
-
 PlayersNeighborsHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
@@ -57,10 +51,6 @@ LyrasHouse2F_BlockData:
 SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
-
-SECTION "EcruteakCity_BlockData", ROMX
-EcruteakCity_BlockData:
-	INCBIN "maps/EcruteakCity.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
@@ -113,17 +103,5 @@ HallOfFame_BlockData:
 SECTION "NavelRockInside_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "Route35_BlockData", ROMX
-Route35_BlockData:
-	INCBIN "maps/Route35.ablk.lz"
-
-SECTION "Route36_BlockData", ROMX
-Route36_BlockData:
-	INCBIN "maps/Route36.ablk.lz"
-
-SECTION "Route37_BlockData", ROMX
-Route37_BlockData:
-	INCBIN "maps/Route37.ablk.lz"
 
 ENDSECTION

@@ -8,9 +8,6 @@
 	const PHONE_LYRA
 	const_skip
 	const_skip
-	const PHONE_JUGGLER_IRWIN
-	const PHONE_BUG_CATCHER_ARNIE
-	const PHONE_SCHOOLBOY_ALAN
 	const_skip
 DEF NUM_PHONE_CONTACTS EQU const_value - 1
 

@@ -87,7 +87,6 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_HOME
 ; johto
 	const SPAWN_NEW_BARK
-	const SPAWN_ECRUTEAK
 DEF NUM_SPAWNS EQU const_value
 
 DEF SPAWN_N_A EQU -1
@@ -96,5 +95,4 @@ DEF SPAWN_N_A EQU -1
 	const_def
 ; johto
 	const FLY_NEW_BARK
-	const FLY_ECRUTEAK
 DEF NUM_FLYPOINTS EQU const_value

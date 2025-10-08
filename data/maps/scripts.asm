@@ -37,16 +37,6 @@ INCLUDE "maps/LyrasHouse1F.asm"
 INCLUDE "maps/LyrasHouse2F.asm"
 
 
-SECTION "Magnet Tunnel Scripts", ROMX
-
-INCLUDE "maps/MagnetTunnelEast.asm"
-
-
-SECTION "Ecruteak Scripts", ROMX
-
-INCLUDE "maps/EcruteakCity.asm"
-
-
 SECTION "Indigo Plateau Scripts", ROMX
 
 INCLUDE "maps/WillsRoom.asm"
@@ -55,19 +45,6 @@ INCLUDE "maps/BrunosRoom.asm"
 INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
-
-
-SECTION "Routes 33-35 Scripts", ROMX
-
-INCLUDE "maps/Route35.asm"
-
-
-SECTION "Routes 36-38 Scripts", ROMX
-
-INCLUDE "maps/Route36.asm"
-INCLUDE "maps/Route36RuinsOfAlphGate.asm"
-INCLUDE "maps/Route36VioletGate.asm"
-INCLUDE "maps/Route37.asm"
 
 
 ENDSECTION

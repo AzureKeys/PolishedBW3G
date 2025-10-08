@@ -18,8 +18,5 @@ PhoneContacts:
 	phone TRAINER_NONE, PHONECONTACT_LYRA,     LYRAS_HOUSE_1F,            %1111, LyraPhoneScript,     %0000, LyraPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
-	phone JUGGLER,      IRWIN1,                ROUTE_35,                  %1111, IrwinPhoneScript1,   %1111, IrwinPhoneScript2
-	phone BUG_CATCHER,  ARNIE1,                ROUTE_35,                  %1111, ArniePhoneScript1,   %1111, ArniePhoneScript2
-	phone SCHOOLBOY,    ALAN1,                 ROUTE_36,                  %1111, AlanPhoneScript1,    %1111, AlanPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	assert_table_length NUM_PHONE_CONTACTS + 1

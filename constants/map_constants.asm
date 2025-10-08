@@ -25,15 +25,7 @@ ENDM
 ; - blocks (see data/maps/blocks.asm)
 ; - scripts and events (see data/maps/scripts.asm)
 	const_def
-
-	newgroup                                                     ;  4
-	map_const ECRUTEAK_CITY,                              20, 18 ;  9
-	map_const ROUTE_35,                                   12, 18 ; 10
-	map_const ROUTE_36,                                   32,  9 ; 11
-	map_const ROUTE_36_RUINS_OF_ALPH_GATE,                 5,  4 ; 12
-	map_const ROUTE_36_VIOLET_GATE,                        5,  4 ; 13
-	map_const ROUTE_37,                                   10, 10 ; 14
-
+	
 	newgroup                                                     ;  9
 	map_const BATTLE_TOWER_1F,                            11,  8 ;  1
 	map_const BATTLE_TOWER_2F,                            11,  5 ;  2

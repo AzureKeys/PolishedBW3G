@@ -414,35 +414,11 @@ BugContestResults_CopyContestantsToResults:
 AskNumber1MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Irwin:
-	farwritetext IrwinAskNumber1Text
-	end
-.Arnie:
-	farwritetext ArnieAskNumber1Text
-	end
-.Alan:
-	farwritetext AlanAskNumber1Text
 	end
 
 AskNumber2MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Irwin:
-	farwritetext IrwinAskNumber2Text
-	end
-.Arnie:
-	farwritetext ArnieAskNumber2Text
-	end
-.Alan:
-	farwritetext AlanAskNumber2Text
 	end
 
 RegisteredNumberMScript:
@@ -454,85 +430,26 @@ RegisteredNumberMScript:
 
 NumberAcceptedMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Irwin:
-	farwritetext IrwinNumberAcceptedText
-	waitendtext
-
-.Arnie:
-	farwritetext ArnieNumberAcceptedText
-	waitendtext
-
-.Alan:
-	farwritetext AlanNumberAcceptedText
 	waitendtext
 
 NumberDeclinedMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Irwin:
-	farwritetext IrwinNumberDeclinedText
-	waitendtext
-
-.Arnie:
-	farwritetext ArnieNumberDeclinedText
-	waitendtext
-
-.Alan:
-	farwritetext AlanNumberDeclinedText
 	waitendtext
 
 PhoneFullMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Irwin:
-	farwritetext IrwinPhoneFullText
-	waitendtext
-
-.Arnie:
-	farwritetext ArniePhoneFullText
-	waitendtext
-
-.Alan:
-	farwritetext AlanPhoneFullText
 	waitendtext
 
 RematchMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Arnie:
-	farwritetext ArnieRematchText
-	waitendtext
-
-.Alan:
-	farwritetext AlanRematchText
 	waitendtext
 
 GiftMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-.Alan:
-	farwritetext AlanGiftText
-	promptbutton
 	end
 
 PackFullMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Alan:
-	farwritetext AlanPackFullText
 	waitendtext
 
 RematchGiftMScript:

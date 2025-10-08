@@ -303,9 +303,6 @@ INCLUDE "data/pokemon/base_stats.asm"
 
 SECTION "Crystal Phone Text", ROMX
 
-INCLUDE "data/phone/text/irwin_caller.asm"
-INCLUDE "data/phone/text/arnie_caller.asm"
-INCLUDE "data/phone/text/alan_caller.asm"
 INCLUDE "data/phone/text/lyra.asm"
 
 
@@ -363,23 +360,12 @@ INCLUDE "engine/games/slot_machine.asm"
 SECTION "Phone Scripts", ROMX
 
 INCLUDE "engine/phone/scripts/generic_caller.asm"
-INCLUDE "engine/phone/scripts/irwin_gossip.asm"
 INCLUDE "engine/phone/scripts/hangups.asm"
 INCLUDE "engine/phone/scripts/reminders.asm"
 INCLUDE "engine/phone/scripts/hangups_2.asm"
 INCLUDE "engine/phone/scripts/reminders_2.asm"
 INCLUDE "engine/phone/scripts/bike_shop.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
-
-
-SECTION "Phone Text 1", ROMX
-
-INCLUDE "data/phone/text/irwin_overworld.asm"
-INCLUDE "data/phone/text/arnie_overworld.asm"
-INCLUDE "data/phone/text/alan_overworld.asm"
-INCLUDE "data/phone/text/dana_overworld.asm"
-INCLUDE "data/phone/text/chad_overworld.asm"
-INCLUDE "data/phone/text/derek_overworld.asm"
 
 
 SECTION "bank2E", ROMX
@@ -399,9 +385,6 @@ INCLUDE "engine/events/initialize_events.asm"
 INCLUDE "engine/phone/scripts/unused.asm"
 INCLUDE "engine/phone/scripts/mom.asm"
 INCLUDE "engine/phone/scripts/bill.asm"
-INCLUDE "engine/phone/scripts/irwin.asm"
-INCLUDE "engine/phone/scripts/arnie.asm"
-INCLUDE "engine/phone/scripts/alan.asm"
 INCLUDE "engine/phone/scripts/generic_callee.asm"
 
 
@@ -541,12 +524,6 @@ INCLUDE "data/phone/text/mom.asm"
 INCLUDE "data/phone/text/bill.asm"
 INCLUDE "data/phone/text/elm.asm"
 INCLUDE "data/phone/text/unknown_callee.asm"
-INCLUDE "data/phone/text/irwin_callee.asm"
-INCLUDE "data/phone/text/arnie_callee.asm"
-INCLUDE "data/phone/text/alan_callee.asm"
-INCLUDE "data/phone/text/dana_callee.asm"
-INCLUDE "data/phone/text/chad_callee.asm"
-INCLUDE "data/phone/text/derek_callee.asm"
 INCLUDE "data/phone/text/unused.asm"
 
 

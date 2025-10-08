@@ -10,22 +10,6 @@ ENDM
 
 	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
-	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH
-	connection south, Route37, ROUTE_37, 5
-
-	map_attributes Route35, ROUTE_35, $5, NORTH
-	connection north, Route36, ROUTE_36, 0
-
-	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH
-	connection north, Route37, ROUTE_37, 12
-	connection south, Route35, ROUTE_35, 0
-
-	map_attributes Route37, ROUTE_37, $5, NORTH | SOUTH
-	connection north, EcruteakCity, ECRUTEAK_CITY, -5
-	connection south, Route36, ROUTE_36, -12
-
-	map_attributes Route36RuinsOfAlphGate, ROUTE_36_RUINS_OF_ALPH_GATE, $0, 0
-	map_attributes Route36VioletGate, ROUTE_36_VIOLET_GATE, $0, 0
 	map_attributes WillsRoom, WILLS_ROOM, $0, 0
 	map_attributes KogasRoom, KOGAS_ROOM, $0, 0
 	map_attributes BrunosRoom, BRUNOS_ROOM, $0, 0

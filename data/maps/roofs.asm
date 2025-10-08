@@ -3,7 +3,6 @@ MapGroupRoofs:
 ; values are indexes for LoadMapGroupRoof.Roofs
 	table_width 1
 	db -1            ; 0
-	db ROOF_VIOLET   ; 4 (Ecruteak City)
 	db ROOF_OLIVINE  ; 9 (Battle Tower Outside)
 	db -1            ; 16
 	db -1            ; 20

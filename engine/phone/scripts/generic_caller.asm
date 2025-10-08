@@ -56,17 +56,6 @@ Phone_GotAwayCall_Female:
 
 Phone_WhosBragging_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Arnie:
-	farwritetext ArnieMonIsSoCuteText
-	promptbutton
-	end
-
-.Alan:
-	farwritetext AlanGettingStrongerText
-	promptbutton
 	end
 
 Phone_WhosBragging_Female:
@@ -76,17 +65,6 @@ Phone_WhosBragging_Female:
 
 Phone_WhoDefeatedMon_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Arnie:
-	farwritetext ArnieDefeatedMonText
-	promptbutton
-	end
-
-.Alan:
-	farwritetext AlanDefeatedMonText
-	promptbutton
 	end
 
 Phone_WhoDefeatedMon_Female:
@@ -96,17 +74,6 @@ Phone_WhoDefeatedMon_Female:
 
 Phone_WhoLostAMon_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Arnie:
-	farwritetext ArnieLostAMonText
-	promptbutton
-	end
-
-.Alan:
-	farwritetext AlanLostAMonText
-	promptbutton
 	end
 
 Phone_WhoLostAMon_Female:
@@ -124,17 +91,6 @@ PhoneScript_WantsToBattle_Female:
 
 PhoneScript_RematchText_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Arnie:
-	farwritetext ArnieBattleRematchText
-	promptbutton
-	end
-
-.Alan:
-	farwritetext AlanBattleRematchText
-	promptbutton
 	end
 
 PhoneScript_RematchText_Female:
@@ -144,20 +100,6 @@ PhoneScript_RematchText_Female:
 
 PhoneScript_HangupText_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Irwin:
-	farwritetext IrwinHangUpText
-	end
-
-.Arnie:
-	farwritetext ArnieHangUpText
-	end
-
-.Alan:
-	farwritetext AlanHangUpText
 	end
 
 PhoneScript_HangupText_Female:
@@ -188,22 +130,8 @@ PhoneScriptRareWildMon:
 PhoneScript_BugCatchingContest:
 	sjump PhoneScript_HangupText_Male
 
-IrwinRocketRumorScript:
-	farwritetext IrwinRocketTakeoverRumorText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
-ArnieSwarmScript:
-	farwritetext ArnieSwarmText
-	promptbutton
-	sjump PhoneScript_HangupText_Male
-
 PhoneScript_FoundItem_Male:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-
-.Alan:
-	farwritetext AlanFoundItemText
 	end
 
 PhoneScript_FoundItem_Female:

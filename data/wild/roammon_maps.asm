@@ -13,6 +13,5 @@ ENDM
 
 RoamMaps:
 	list_start
-	roam_map ROUTE_35, ROUTE_36
 	assert_list_length NUM_ROAMMON_MAPS
 	db -1

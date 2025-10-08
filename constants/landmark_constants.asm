@@ -3,11 +3,6 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
-	const ROUTE_35           ; 1a
-	const ROUTE_35_COAST     ; 1b
-	const ROUTE_36           ; 1d
-	const ROUTE_37           ; 1e
-	const ECRUTEAK_CITY      ; 1f
 	const BATTLE_TOWER       ; 2a
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
