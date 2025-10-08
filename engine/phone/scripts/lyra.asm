@@ -84,7 +84,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route36
 	dw .Route37
 	dw .EcruteakCity
-	dw .BellchimeTrail
 	dw .BattleTower
 	assert_table_length KANTO_LANDMARK
 .Generic:

@@ -29,7 +29,6 @@ ENDM
 	special_bg_pal map,      KARENS_ROOM,                 PAL_SINGLE,    KarensRoomPalette
 	special_bg_pal map,      LANCES_ROOM,                 PAL_SINGLE,    LancesRoomPalette
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    LancesRoomPalette
-	special_bg_pal map,      BELLCHIME_TRAIL,             PAL_TIMEOFDAY, BellchimeTrailPalette
 	special_bg_pal map,      HIDDEN_TREE_GROTTO,          PAL_SINGLE,    HiddenTreeGrottoPalette
 	special_bg_pal map,      HIDDEN_CAVE_GROTTO,          PAL_SINGLE,    HiddenCaveGrottoPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
@@ -306,39 +305,6 @@ endc
 VioletEcruteakPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/violet_ecruteak.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-rept 4
-	MONOCHROME_RGB_FOUR_NIGHT
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-	MONOCHROME_RGB_FOUR_NIGHT
-	MONOCHROME_RGB_FOUR_NIGHT
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-BellchimeTrailPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/BellchimeTrail.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

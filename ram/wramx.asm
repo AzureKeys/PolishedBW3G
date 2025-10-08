@@ -1058,7 +1058,6 @@ wFarfetchdPosition:: db
 wAlways0SceneID:: db
 wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
-wBellchimeTrailSceneID:: db
 wBrunosRoomSceneID:: db
 wColosseumSceneID:: db
 wDayCareSceneID:: db
@@ -1072,7 +1071,6 @@ wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
-wRoute23SceneID:: db
 wRoute36SceneID:: db
 wTradeCenterSceneID:: db
 wWillsRoomSceneID:: db
@@ -1123,7 +1121,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 129 ; unused
+	ds 131 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

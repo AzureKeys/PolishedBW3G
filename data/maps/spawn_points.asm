@@ -10,8 +10,6 @@ SpawnPoints:
 
 	spawn PLAYERS_HOUSE_2F,            3,  3
 
-	spawn INDIGO_PLATEAU,             11,  6
-
 	spawn NEW_BARK_TOWN,              15,  6
 	spawn ECRUTEAK_CITY,              23, 28
 

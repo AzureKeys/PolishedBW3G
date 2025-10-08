@@ -7,6 +7,4 @@ MACRO music_map
 ENDM
 
 SpecialMusicMaps:
-	music_map ROUTE_23,                    GetMapMusic
-	music_map INDIGO_PLATEAU,              GetMapMusic
 	db 0 ; end

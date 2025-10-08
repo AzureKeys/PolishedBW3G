@@ -89,10 +89,6 @@ SECTION "WiseTriosRoom_BlockData", ROMX
 WiseTriosRoom_BlockData:
 	INCBIN "maps/WiseTriosRoom.ablk.lz"
 
-SECTION "BellchimeTrail_BlockData", ROMX
-BellchimeTrail_BlockData:
-	INCBIN "maps/BellchimeTrail.ablk.lz"
-
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lz"
@@ -116,14 +112,6 @@ BattleTowerHallway_BlockData:
 SECTION "BattleTowerOutside_BlockData", ROMX
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lz"
-
-SECTION "IndigoPlateau_BlockData", ROMX
-IndigoPlateau_BlockData:
-	INCBIN "maps/IndigoPlateau.ablk.lz"
-
-SECTION "IndigoPlateauPokecenter1F_BlockData", ROMX
-IndigoPlateauPokecenter1F_BlockData:
-	INCBIN "maps/IndigoPlateauPokecenter1F.ablk.lz"
 
 SECTION "WillsRoom_BlockData", ROMX
 WillsRoom_BlockData:
@@ -152,10 +140,6 @@ HallOfFame_BlockData:
 SECTION "NavelRockInside_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
-
-SECTION "Route23_BlockData", ROMX
-Route23_BlockData:
-	INCBIN "maps/Route23.ablk.lz"
 
 SECTION "Route35_BlockData", ROMX
 Route35_BlockData:

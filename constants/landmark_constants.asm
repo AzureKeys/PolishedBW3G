@@ -8,14 +8,11 @@
 	const ROUTE_36           ; 1d
 	const ROUTE_37           ; 1e
 	const ECRUTEAK_CITY      ; 1f
-	const BELLCHIME_TRAIL    ; 20
 	const BATTLE_TOWER       ; 2a
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const ROUTE_22           ; 78
 	const POKEMON_LEAGUE     ; 7c
-	const ROUTE_23           ; 7d
-	const INDIGO_PLATEAU     ; 7f
 	const CINNABAR_LAB       ; 81
 DEF SHAMOUTI_LANDMARK EQU const_value
 DEF NUM_LANDMARKS EQU const_value

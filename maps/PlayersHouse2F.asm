@@ -178,7 +178,6 @@ endr
 	; fly anywhere
 	setflag ENGINE_FLYPOINT_NEW_BARK
 	setflag ENGINE_FLYPOINT_ECRUTEAK
-	setflag ENGINE_FLYPOINT_INDIGO_PLATEAU
 	; magnet train works
 	setevent EVENT_RESTORED_POWER_TO_KANTO
 	; post-e4

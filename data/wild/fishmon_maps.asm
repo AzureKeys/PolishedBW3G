@@ -4,9 +4,7 @@ MACRO fishmon_map
 ENDM
 
 FishMonMaps:
-	fishmon_map ROUTE_23, FISHGROUP_SHORE
 	fishmon_map ROUTE_35, FISHGROUP_POND
-	fishmon_map INDIGO_PLATEAU, FISHGROUP_SHORE
 	fishmon_map NEW_BARK_TOWN, FISHGROUP_OCEAN
 	fishmon_map ECRUTEAK_CITY, FISHGROUP_POND
 	db -1
