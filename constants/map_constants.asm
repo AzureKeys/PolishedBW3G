@@ -42,21 +42,6 @@ ENDM
 	map_const LAKE_OF_RAGE,                               20, 18 ; 13
 
 	newgroup                                                     ;  3
-	map_const SPROUT_TOWER_1F,                             8,  8 ;  1
-	map_const SPROUT_TOWER_2F,                             8,  8 ;  2
-	map_const SPROUT_TOWER_3F,                             8,  8 ;  3
-	map_const TIN_TOWER_1F,                                8,  8 ;  4
-	map_const TIN_TOWER_2F,                                8,  8 ;  5
-	map_const TIN_TOWER_3F,                                8,  8 ;  6
-	map_const TIN_TOWER_4F,                                8,  8 ;  7
-	map_const TIN_TOWER_5F,                                8,  8 ;  8
-	map_const TIN_TOWER_6F,                                8,  8 ;  9
-	map_const TIN_TOWER_7F,                                8,  8 ; 10
-	map_const TIN_TOWER_8F,                                8,  8 ; 11
-	map_const TIN_TOWER_9F,                                8,  8 ; 12
-	map_const TIN_TOWER_10F,                               8,  8 ; 13
-	map_const BURNED_TOWER_1F,                             8,  8 ; 14
-	map_const BURNED_TOWER_B1F,                           10,  9 ; 15
 	map_const NATIONAL_PARK,                              21, 27 ; 16
 	map_const NATIONAL_PARK_BUG_CONTEST,                  21, 27 ; 17
 	map_const ROUTE_35_NATIONAL_PARK_GATE,                10,  4 ; 18

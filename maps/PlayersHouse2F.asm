@@ -266,7 +266,6 @@ endr
 	; ecruteak events
 	setevent EVENT_RIVAL_BURNED_TOWER
 	setevent EVENT_HOLE_IN_BURNED_TOWER
-	setmapscene BURNED_TOWER_1F, $2
 	; blackthorn events
 	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
 	warpfacing DOWN, ECRUTEAK_CITY, 23, 28

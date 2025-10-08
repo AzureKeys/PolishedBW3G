@@ -8,7 +8,6 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
-	landmark  86,  58, SproutTowerName
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
@@ -17,8 +16,6 @@ Landmarks:
 	landmark  68,  52, Route37Name
 	landmark  68,  44, EcruteakCityName
 	landmark  69,  42, BellchimeTrailName
-	landmark  70,  42, TinTowerName
-	landmark  66,  42, BurnedTowerName
 	landmark  28,  52, BattleTowerName
 	landmark  92,  44, Route42Name
 	landmark 108,  44, MahoganyTownName
@@ -38,11 +35,9 @@ NewBarkTownName:       rawchar "New Bark¯Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
-SproutTowerName:       rawchar "Sprout¯Tower@"
 RadioTowerName:        rawchar "Radio Tower@"
 NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
-TinTowerName:          rawchar "Bell Tower@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 Route1Name:            rawchar "Route 1@"
@@ -54,7 +49,6 @@ Route37Name:           rawchar "Route 37@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
-BurnedTowerName:       rawchar "Burned¯Tower@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 Route35CoastName:      rawchar "Route 35¯Coast@"
 CinnabarLabName:       rawchar "Pokémon¯Lab@"

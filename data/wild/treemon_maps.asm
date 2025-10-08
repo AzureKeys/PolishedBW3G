@@ -17,5 +17,4 @@ TreeMonMaps:
 	db -1
 
 RockMonMaps:
-	treemon_map BURNED_TOWER_B1F, TREEMON_SET_ROCK
 	db -1

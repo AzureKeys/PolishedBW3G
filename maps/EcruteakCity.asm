@@ -15,7 +15,6 @@ EcruteakCity_MapScriptHeader:
 	warp_event  6, 27, ECRUTEAK_GYM, 1
 	warp_event 13, 27, ECRUTEAK_ITEMFINDER_HOUSE, 1
 	warp_event  5, 17, VALERIES_HOUSE, 1
-	warp_event  5,  5, BURNED_TOWER_1F, 1
 	warp_event 29, 27, ECRUTEAK_CHERISH_BALL_HOUSE, 1
 	warp_event 13, 17, ECRUTEAK_DESTINY_KNOT_HOUSE, 1
 

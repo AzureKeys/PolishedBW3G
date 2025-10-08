@@ -79,7 +79,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2
 	dw .Generic
 	dw .NewBarkTown
-	dw .SproutTower
 	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
@@ -88,8 +87,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route37
 	dw .EcruteakCity
 	dw .BellchimeTrail
-	dw .TinTower
-	dw .BurnedTower ; no calls
 	dw .BattleTower
 	dw .Route42
 	dw .MahoganyTown
@@ -99,7 +96,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:
-.SproutTower:
 .RadioTower:
 .Route35:
 .Route35Coast:
@@ -108,8 +104,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Route37:
 .EcruteakCity:
 .BellchimeTrail:
-.TinTower:
-.BurnedTower:
 .RuggedRoad:
 .SnowtopMountain:
 .BattleTower:

@@ -78,18 +78,6 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "SproutTower1F_BlockData", ROMX
-SproutTower1F_BlockData:
-	INCBIN "maps/SproutTower1F.ablk.lz"
-
-SECTION "SproutTower2F_BlockData", ROMX
-SproutTower2F_BlockData:
-	INCBIN "maps/SproutTower2F.ablk.lz"
-
-SECTION "SproutTower3F_BlockData", ROMX
-SproutTower3F_BlockData:
-	INCBIN "maps/SproutTower3F.ablk.lz"
-
 SECTION "RadioTower1F_BlockData", ROMX
 RadioTower1F_BlockData:
 	INCBIN "maps/RadioTower1F.ablk.lz"
@@ -138,54 +126,6 @@ WiseTriosRoom_BlockData:
 SECTION "BellchimeTrail_BlockData", ROMX
 BellchimeTrail_BlockData:
 	INCBIN "maps/BellchimeTrail.ablk.lz"
-
-SECTION "TinTower1F_BlockData", ROMX
-TinTower1F_BlockData:
-	INCBIN "maps/TinTower1F.ablk.lz"
-
-SECTION "TinTower2F_BlockData", ROMX
-TinTower2F_BlockData:
-	INCBIN "maps/TinTower2F.ablk.lz"
-
-SECTION "TinTower3F_BlockData", ROMX
-TinTower3F_BlockData:
-	INCBIN "maps/TinTower3F.ablk.lz"
-
-SECTION "TinTower4F_BlockData", ROMX
-TinTower4F_BlockData:
-	INCBIN "maps/TinTower4F.ablk.lz"
-
-SECTION "TinTower5F_BlockData", ROMX
-TinTower5F_BlockData:
-	INCBIN "maps/TinTower5F.ablk.lz"
-
-SECTION "TinTower6F_BlockData", ROMX
-TinTower6F_BlockData:
-	INCBIN "maps/TinTower6F.ablk.lz"
-
-SECTION "TinTower7F_BlockData", ROMX
-TinTower7F_BlockData:
-	INCBIN "maps/TinTower7F.ablk.lz"
-
-SECTION "TinTower8F_BlockData", ROMX
-TinTower8F_BlockData:
-	INCBIN "maps/TinTower8F.ablk.lz"
-
-SECTION "TinTower9F_BlockData", ROMX
-TinTower9F_BlockData:
-	INCBIN "maps/TinTower9F.ablk.lz"
-
-SECTION "TinTower10F_BlockData", ROMX
-TinTower10F_BlockData:
-	INCBIN "maps/TinTower10F.ablk.lz"
-
-SECTION "BurnedTower1F_BlockData", ROMX
-BurnedTower1F_BlockData:
-	INCBIN "maps/BurnedTower1F.ablk.lz"
-
-SECTION "BurnedTowerB1F_BlockData", ROMX
-BurnedTowerB1F_BlockData:
-	INCBIN "maps/BurnedTowerB1F.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

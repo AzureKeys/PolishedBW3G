@@ -48,13 +48,6 @@ INCLUDE "maps/LyrasHouse1F.asm"
 INCLUDE "maps/LyrasHouse2F.asm"
 
 
-SECTION "Sprout Tower Scripts", ROMX
-
-INCLUDE "maps/SproutTower1F.asm"
-INCLUDE "maps/SproutTower2F.asm"
-INCLUDE "maps/SproutTower3F.asm"
-
-
 SECTION "Radio Tower Scripts", ROMX
 
 INCLUDE "maps/RadioTower1F.asm"
@@ -93,22 +86,6 @@ INCLUDE "maps/EcruteakCherishBallHouse.asm"
 INCLUDE "maps/EcruteakDestinyKnotHouse.asm"
 INCLUDE "maps/ValeriesHouse.asm"
 INCLUDE "maps/BellchimeTrail.asm"
-
-
-SECTION "Tin Tower Scripts", ROMX
-
-INCLUDE "maps/TinTower1F.asm"
-INCLUDE "maps/TinTower2F.asm"
-INCLUDE "maps/TinTower3F.asm"
-INCLUDE "maps/TinTower4F.asm"
-INCLUDE "maps/TinTower5F.asm"
-INCLUDE "maps/TinTower6F.asm"
-INCLUDE "maps/TinTower7F.asm"
-INCLUDE "maps/TinTower8F.asm"
-INCLUDE "maps/TinTower9F.asm"
-INCLUDE "maps/TinTower10F.asm"
-INCLUDE "maps/BurnedTower1F.asm"
-INCLUDE "maps/BurnedTowerB1F.asm"
 
 
 SECTION "Mahogany Scripts", ROMX

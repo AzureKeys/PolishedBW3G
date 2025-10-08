@@ -8,7 +8,6 @@ BellchimeTrail_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  4, WISE_TRIOS_ROOM, 1
 	warp_event  4,  5, WISE_TRIOS_ROOM, 2
-	warp_event 21,  9, TIN_TOWER_1F, 1 ; hole
 	warp_event 12,  4, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
@@ -71,7 +70,6 @@ BellchimeTrailPanUpTrigger:
 	special FadeOutPalettes
 	pause 15
 	setscene $0
-	warpfacing UP, TIN_TOWER_1F, 7, 15
 	end
 
 .PanUpMovement:

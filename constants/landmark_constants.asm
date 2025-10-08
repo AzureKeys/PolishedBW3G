@@ -3,7 +3,6 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
-	const SPROUT_TOWER       ; 08
 	const RADIO_TOWER        ; 17
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b
@@ -12,8 +11,6 @@
 	const ROUTE_37           ; 1e
 	const ECRUTEAK_CITY      ; 1f
 	const BELLCHIME_TRAIL    ; 20
-	const TIN_TOWER          ; 21
-	const BURNED_TOWER       ; 22
 	const BATTLE_TOWER       ; 2a
 	const ROUTE_42           ; 34
 	const MAHOGANY_TOWN      ; 36

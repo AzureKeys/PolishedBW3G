@@ -1060,8 +1060,6 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wBellchimeTrailSceneID:: db
 wBrunosRoomSceneID:: db
-wBurnedTower1FSceneID:: db
-wBurnedTowerB1FSceneID:: db
 wColosseumSceneID:: db
 wDayCareSceneID:: db
 wEcruteakGymSceneID:: db
@@ -1082,8 +1080,6 @@ wRoute36NationalParkGateSceneID:: db
 wRoute36SceneID:: db
 wRoute42SceneID:: db
 wRoute43GateSceneID:: db
-wSproutTower3FSceneID:: db
-wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
 wWillsRoomSceneID:: db
 wWiseTriosRoomSceneID:: db
@@ -1133,7 +1129,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 119 ; unused
+	ds 123 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

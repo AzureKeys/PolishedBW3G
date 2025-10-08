@@ -50,21 +50,6 @@ ENDM
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $2c, SOUTH
 	connection south, Route23, ROUTE_23, 0
 
-	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
-	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
-	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0
-	map_attributes TinTower1F, TIN_TOWER_1F, $0, 0
-	map_attributes TinTower2F, TIN_TOWER_2F, $0, 0
-	map_attributes TinTower3F, TIN_TOWER_3F, $0, 0
-	map_attributes TinTower4F, TIN_TOWER_4F, $0, 0
-	map_attributes TinTower5F, TIN_TOWER_5F, $0, 0
-	map_attributes TinTower6F, TIN_TOWER_6F, $0, 0
-	map_attributes TinTower7F, TIN_TOWER_7F, $0, 0
-	map_attributes TinTower8F, TIN_TOWER_8F, $0, 0
-	map_attributes TinTower9F, TIN_TOWER_9F, $0, 0
-	map_attributes TinTower10F, TIN_TOWER_10F, $0, 0
-	map_attributes BurnedTower1F, BURNED_TOWER_1F, $0, 0
-	map_attributes BurnedTowerB1F, BURNED_TOWER_B1F, $9, 0
 	map_attributes NationalPark, NATIONAL_PARK, $0, 0
 	map_attributes NationalParkBugContest, NATIONAL_PARK_BUG_CONTEST, $0, 0
 	map_attributes RadioTower1F, RADIO_TOWER_1F, $0, 0
