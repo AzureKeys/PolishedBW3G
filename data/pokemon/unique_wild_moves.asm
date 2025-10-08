@@ -14,9 +14,7 @@ UniqueWildMoves:
 	; event mons (100% chance, see engine/battle/unique_wild_moves.asm)
 	unique_moves MAHOGANY_TOWN,    KOFFING,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
-	unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
-	unique_moves SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
 	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves TIN_TOWER,        0,          0
 	unique_moves BURNED_TOWER,     0,          0

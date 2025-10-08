@@ -72,19 +72,6 @@ ENDM
 	map_attributes RadioTower3F, RADIO_TOWER_3F, $0, 0
 	map_attributes RadioTower4F, RADIO_TOWER_4F, $0, 0
 	map_attributes RadioTower5F, RADIO_TOWER_5F, $0, 0
-	map_attributes UnionCave1F, UNION_CAVE_1F, $9, 0
-	map_attributes UnionCaveB1FNorth, UNION_CAVE_B1F_NORTH, $9, 0
-	map_attributes UnionCaveB1FSouth, UNION_CAVE_B1F_SOUTH, $9, 0
-	map_attributes UnionCaveB2F, UNION_CAVE_B2F, $9, 0
-	map_attributes SlowpokeWellEntrance, SLOWPOKE_WELL_ENTRANCE, $9, 0
-	map_attributes SlowpokeWellB1F, SLOWPOKE_WELL_B1F, $9, 0
-	map_attributes SlowpokeWellB2F, SLOWPOKE_WELL_B2F, $9, 0
-	map_attributes OlivineLighthouse1F, OLIVINE_LIGHTHOUSE_1F, $0, 0
-	map_attributes OlivineLighthouse2F, OLIVINE_LIGHTHOUSE_2F, $0, 0
-	map_attributes OlivineLighthouse3F, OLIVINE_LIGHTHOUSE_3F, $0, 0
-	map_attributes OlivineLighthouse4F, OLIVINE_LIGHTHOUSE_4F, $0, 0
-	map_attributes OlivineLighthouse5F, OLIVINE_LIGHTHOUSE_5F, $0, 0
-	map_attributes OlivineLighthouse6F, OLIVINE_LIGHTHOUSE_6F, $0, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0

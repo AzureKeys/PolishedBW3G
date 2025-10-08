@@ -90,34 +90,6 @@ SECTION "SproutTower3F_BlockData", ROMX
 SproutTower3F_BlockData:
 	INCBIN "maps/SproutTower3F.ablk.lz"
 
-SECTION "UnionCave1F_BlockData", ROMX
-UnionCave1F_BlockData:
-	INCBIN "maps/UnionCave1F.ablk.lz"
-
-SECTION "UnionCaveB1FNorth_BlockData", ROMX
-UnionCaveB1FNorth_BlockData:
-	INCBIN "maps/UnionCaveB1FNorth.ablk.lz"
-
-SECTION "UnionCaveB1FSouth_BlockData", ROMX
-UnionCaveB1FSouth_BlockData:
-	INCBIN "maps/UnionCaveB1FSouth.ablk.lz"
-
-SECTION "UnionCaveB2F_BlockData", ROMX
-UnionCaveB2F_BlockData:
-	INCBIN "maps/UnionCaveB2F.ablk.lz"
-
-SECTION "SlowpokeWellEntrance_BlockData", ROMX
-SlowpokeWellEntrance_BlockData:
-	INCBIN "maps/SlowpokeWellEntrance.ablk.lz"
-
-SECTION "SlowpokeWellB1F_BlockData", ROMX
-SlowpokeWellB1F_BlockData:
-	INCBIN "maps/SlowpokeWellB1F.ablk.lz"
-
-SECTION "SlowpokeWellB2F_BlockData", ROMX
-SlowpokeWellB2F_BlockData:
-	INCBIN "maps/SlowpokeWellB2F.ablk.lz"
-
 SECTION "RadioTower1F_BlockData", ROMX
 RadioTower1F_BlockData:
 	INCBIN "maps/RadioTower1F.ablk.lz"
@@ -214,30 +186,6 @@ BurnedTower1F_BlockData:
 SECTION "BurnedTowerB1F_BlockData", ROMX
 BurnedTowerB1F_BlockData:
 	INCBIN "maps/BurnedTowerB1F.ablk.lz"
-
-SECTION "OlivineLighthouse1F_BlockData", ROMX
-OlivineLighthouse1F_BlockData:
-	INCBIN "maps/OlivineLighthouse1F.ablk.lz"
-
-SECTION "OlivineLighthouse2F_BlockData", ROMX
-OlivineLighthouse2F_BlockData:
-	INCBIN "maps/OlivineLighthouse2F.ablk.lz"
-
-SECTION "OlivineLighthouse3F_BlockData", ROMX
-OlivineLighthouse3F_BlockData:
-	INCBIN "maps/OlivineLighthouse3F.ablk.lz"
-
-SECTION "OlivineLighthouse4F_BlockData", ROMX
-OlivineLighthouse4F_BlockData:
-	INCBIN "maps/OlivineLighthouse4F.ablk.lz"
-
-SECTION "OlivineLighthouse5F_BlockData", ROMX
-OlivineLighthouse5F_BlockData:
-	INCBIN "maps/OlivineLighthouse5F.ablk.lz"
-
-SECTION "OlivineLighthouse6F_BlockData", ROMX
-OlivineLighthouse6F_BlockData:
-	INCBIN "maps/OlivineLighthouse6F.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

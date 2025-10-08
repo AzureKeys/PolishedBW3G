@@ -55,21 +55,6 @@ INCLUDE "maps/SproutTower2F.asm"
 INCLUDE "maps/SproutTower3F.asm"
 
 
-SECTION "Union Cave Scripts", ROMX
-
-INCLUDE "maps/UnionCave1F.asm"
-INCLUDE "maps/UnionCaveB1FNorth.asm"
-INCLUDE "maps/UnionCaveB1FSouth.asm"
-INCLUDE "maps/UnionCaveB2F.asm"
-
-
-SECTION "Slowpoke Well Scripts", ROMX
-
-INCLUDE "maps/SlowpokeWellEntrance.asm"
-INCLUDE "maps/SlowpokeWellB1F.asm"
-INCLUDE "maps/SlowpokeWellB2F.asm"
-
-
 SECTION "Radio Tower Scripts", ROMX
 
 INCLUDE "maps/RadioTower1F.asm"
@@ -124,16 +109,6 @@ INCLUDE "maps/TinTower9F.asm"
 INCLUDE "maps/TinTower10F.asm"
 INCLUDE "maps/BurnedTower1F.asm"
 INCLUDE "maps/BurnedTowerB1F.asm"
-
-
-SECTION "Olivine Lighthouse Scripts", ROMX
-
-INCLUDE "maps/OlivineLighthouse1F.asm"
-INCLUDE "maps/OlivineLighthouse2F.asm"
-INCLUDE "maps/OlivineLighthouse3F.asm"
-INCLUDE "maps/OlivineLighthouse4F.asm"
-INCLUDE "maps/OlivineLighthouse5F.asm"
-INCLUDE "maps/OlivineLighthouse6F.asm"
 
 
 SECTION "Mahogany Scripts", ROMX

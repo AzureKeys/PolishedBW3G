@@ -9,8 +9,6 @@ Landmarks:
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
 	landmark  86,  58, SproutTowerName
-	landmark  84, 124, UnionCaveName
-	landmark  76, 116, SlowpokeWellName
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
@@ -21,7 +19,6 @@ Landmarks:
 	landmark  69,  42, BellchimeTrailName
 	landmark  70,  42, TinTowerName
 	landmark  66,  42, BurnedTowerName
-	landmark  38,  62, LighthouseName
 	landmark  28,  52, BattleTowerName
 	landmark  92,  44, Route42Name
 	landmark 108,  44, MahoganyTownName
@@ -42,13 +39,10 @@ EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
-UnionCaveName:         rawchar "Union Cave@"
-SlowpokeWellName:      rawchar "Slowpoke¯Well@"
 RadioTowerName:        rawchar "Radio Tower@"
 NationalParkName:      rawchar "National¯Park@"
 BellchimeTrailName:    rawchar "Bellchime¯Trail@"
 TinTowerName:          rawchar "Bell Tower@"
-LighthouseName:        rawchar "Lighthouse@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 Route1Name:            rawchar "Route 1@"

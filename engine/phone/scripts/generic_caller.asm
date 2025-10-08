@@ -275,7 +275,6 @@ PhoneScript_WantsToBattle_Female:
 PhoneScript_RematchText_Male:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
@@ -285,11 +284,6 @@ PhoneScript_RematchText_Male:
 
 .Jack:
 	farwritetext JackBattleRematchText
-	promptbutton
-	end
-
-.Huey:
-	farwritetext HueyBattleRematchText
 	promptbutton
 	end
 
@@ -349,7 +343,6 @@ TiffanyItsAwful:
 PhoneScript_HangupText_Male:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
@@ -360,10 +353,6 @@ PhoneScript_HangupText_Male:
 
 .Jack:
 	farwritetext JackHangUpText
-	end
-
-.Huey:
-	farwritetext HueyHangUpText
 	end
 
 .Joey:

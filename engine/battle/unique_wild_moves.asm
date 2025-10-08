@@ -42,8 +42,6 @@ CheckUniqueWildMove:
 	ld a, c
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
-	cp UNION_CAVE
-	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
 	ld a, b
 	cp SURF
 	jr z, .TeachMove ; assume only Pikachu can learn Surf

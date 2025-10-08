@@ -4,8 +4,6 @@
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
 	const SPROUT_TOWER       ; 08
-	const UNION_CAVE         ; 0d
-	const SLOWPOKE_WELL      ; 10
 	const RADIO_TOWER        ; 17
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b
@@ -16,7 +14,6 @@
 	const BELLCHIME_TRAIL    ; 20
 	const TIN_TOWER          ; 21
 	const BURNED_TOWER       ; 22
-	const LIGHTHOUSE         ; 28
 	const BATTLE_TOWER       ; 2a
 	const ROUTE_42           ; 34
 	const MAHOGANY_TOWN      ; 36

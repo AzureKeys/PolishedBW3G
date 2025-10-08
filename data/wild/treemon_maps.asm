@@ -17,7 +17,5 @@ TreeMonMaps:
 	db -1
 
 RockMonMaps:
-	treemon_map UNION_CAVE_B1F_SOUTH, TREEMON_SET_ROCK
-	treemon_map SLOWPOKE_WELL_B1F, TREEMON_SET_ROCK
 	treemon_map BURNED_TOWER_B1F, TREEMON_SET_ROCK
 	db -1

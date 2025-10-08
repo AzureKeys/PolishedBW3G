@@ -1,47 +1,5 @@
 ; Johto Pokémon in water
 
-	def_water_wildmons UNION_CAVE_1F
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons UNION_CAVE_B1F_NORTH
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons UNION_CAVE_B1F_SOUTH
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	wildmon 15, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons UNION_CAVE_B2F
-	db 4 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 20, RATTATA
-	wildmon 20, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons SLOWPOKE_WELL_B1F
-	db 2 percent ; encounter rate
-	wildmon 15, SLOWPOKE
-	wildmon 20, SLOWPOKE
-	wildmon 10, SLOWPOKE
-	end_water_wildmons
-
-	def_water_wildmons SLOWPOKE_WELL_B2F
-	db 2 percent ; encounter rate
-	wildmon 15, SLOWPOKE
-	wildmon 20, SLOWPOKE
-	wildmon 20, SLOWBRO
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	wildmon 20, PSYDUCK

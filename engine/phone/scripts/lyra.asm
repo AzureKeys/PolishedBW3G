@@ -80,8 +80,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Generic
 	dw .NewBarkTown
 	dw .SproutTower
-	dw .UnionCave ; no call
-	dw .SlowpokeWell ; no calls
 	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
@@ -92,7 +90,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .BellchimeTrail
 	dw .TinTower
 	dw .BurnedTower ; no calls
-	dw .Lighthouse
 	dw .BattleTower
 	dw .Route42
 	dw .MahoganyTown
@@ -103,8 +100,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Generic:
 .NewBarkTown:
 .SproutTower:
-.UnionCave:
-.SlowpokeWell:
 .RadioTower:
 .Route35:
 .Route35Coast:
@@ -117,7 +112,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .BurnedTower:
 .RuggedRoad:
 .SnowtopMountain:
-.Lighthouse:
 .BattleTower:
 .Route42:
 .MahoganyTown:

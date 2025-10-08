@@ -41,16 +41,6 @@ MomPhoneInTown:
 	promptbutton
 	sjumpfwd MomSavingMoney
 
-.violet
-	getlandmarkname SPROUT_TOWER, STRING_BUFFER_4
-	sjump MomPhoneLandmark
-.azalea
-	getlandmarkname SLOWPOKE_WELL, STRING_BUFFER_4
-	sjump MomPhoneLandmark
-.goldenrod
-	getlandmarkname RADIO_TOWER, STRING_BUFFER_4
-	sjump MomPhoneLandmark
-
 MomPhoneOnRoute:
 	farwritetext MomOtherAreaText
 	promptbutton
