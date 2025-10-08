@@ -32,10 +32,7 @@
 	const SILVER_CAVE        ; 40
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
-	const MT_MOON            ; 4b
-	const DIGLETTS_CAVE      ; 56
 	const ROUTE_22           ; 78
-	const TOHJO_FALLS        ; 7a
 	const POKEMON_LEAGUE     ; 7c
 	const ROUTE_23           ; 7d
 	const INDIGO_PLATEAU     ; 7f

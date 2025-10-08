@@ -217,12 +217,6 @@ INCLUDE "maps/DragonsDenB1F.asm"
 INCLUDE "maps/DragonShrine.asm"
 
 
-SECTION "Tohjo Falls Scripts", ROMX
-
-INCLUDE "maps/TohjoFalls.asm"
-INCLUDE "maps/GiovannisCave.asm"
-
-
 SECTION "Indigo Plateau Scripts", ROMX
 
 INCLUDE "maps/IndigoPlateau.asm"
@@ -232,18 +226,6 @@ INCLUDE "maps/BrunosRoom.asm"
 INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
-
-
-SECTION "Mount Moon Scripts", ROMX
-
-INCLUDE "maps/MountMoon1F.asm"
-INCLUDE "maps/MountMoonB1F.asm"
-INCLUDE "maps/MountMoonB2F.asm"
-
-
-SECTION "Diglett's Cave Scripts", ROMX
-
-INCLUDE "maps/DiglettsCave.asm"
 
 
 SECTION "Silver Cave Scripts", ROMX

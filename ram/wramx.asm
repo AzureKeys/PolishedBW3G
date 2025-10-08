@@ -1070,7 +1070,6 @@ wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
-wGiovannisCaveSceneID:: db
 wHallOfFameSceneID:: db
 wIlexForestSceneID:: db
 wKarensRoomSceneID:: db
@@ -1079,8 +1078,6 @@ wPlayersHouse1FSceneID:: db
 wLancesRoomSceneID:: db
 wMahoganyMart1FSceneID:: db
 wMahoganyTownSceneID:: db
-wMountMoon1FSceneID:: db
-wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
 wRadioTower5FSceneID:: db
@@ -1144,7 +1141,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 108 ; unused
+	ds 111 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

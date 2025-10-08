@@ -27,7 +27,5 @@ UniqueWildMoves:
 	unique_moves DRAGONS_DEN,      0,          0
 	unique_moves DARK_CAVE,        0,          0
 	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
-	unique_moves MT_MOON,          0,          0
-	unique_moves TOHJO_FALLS,      0,          0
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	db -1

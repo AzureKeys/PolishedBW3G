@@ -114,12 +114,6 @@ ENDM
 	map_const DRAGONS_DEN_1F,                             20, 45 ; 70
 	map_const DRAGONS_DEN_B1F,                            20, 18 ; 71
 	map_const DRAGON_SHRINE,                               5,  5 ; 72
-	map_const TOHJO_FALLS,                                15,  9 ; 73
-	map_const GIOVANNIS_CAVE,                             10, 24 ; 74
-	map_const DIGLETTS_CAVE,                              21, 19 ; 75
-	map_const MOUNT_MOON_1F,                              15, 13 ; 76
-	map_const MOUNT_MOON_B1F,                             16, 14 ; 77
-	map_const MOUNT_MOON_B2F,                             16, 17 ; 78
 
 	newgroup                                                     ;  4
 	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1

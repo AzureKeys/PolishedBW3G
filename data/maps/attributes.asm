@@ -120,16 +120,10 @@ ENDM
 	map_attributes DragonsDen1F, DRAGONS_DEN_1F, $9, 0
 	map_attributes DragonsDenB1F, DRAGONS_DEN_B1F, $71, 0
 	map_attributes DragonShrine, DRAGON_SHRINE, $0, 0
-	map_attributes TohjoFalls, TOHJO_FALLS, $9, 0
-	map_attributes GiovannisCave, GIOVANNIS_CAVE, $9, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
 	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
-	map_attributes DiglettsCave, DIGLETTS_CAVE, $9, 0
-	map_attributes MountMoon1F, MOUNT_MOON_1F, $9, 0
-	map_attributes MountMoonB1F, MOUNT_MOON_B1F, $9, 0
-	map_attributes MountMoonB2F, MOUNT_MOON_B2F, $9, 0
 	map_attributes EcruteakHouse, ECRUTEAK_HOUSE, $0, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $0, 0
 	map_attributes EcruteakPokeCenter1F, ECRUTEAK_POKECENTER_1F, $0, 0

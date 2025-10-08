@@ -22,7 +22,6 @@ MapScenes::
 	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID
-	scene_var GIOVANNIS_CAVE,                         wGiovannisCaveSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
 	scene_var ILEX_FOREST,                            wIlexForestSceneID
 	scene_var INDIGO_PLATEAU_POKECENTER_1F,           wAlways0SceneID
@@ -31,7 +30,6 @@ MapScenes::
 	scene_var LANCES_ROOM,                            wLancesRoomSceneID
 	scene_var MAHOGANY_MART_1F,                       wMahoganyMart1FSceneID
 	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
-	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID

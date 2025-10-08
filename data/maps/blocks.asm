@@ -101,7 +101,6 @@ SproutTower3F_BlockData:
 
 SECTION "UnionCave1F_BlockData", ROMX
 UnionCave1F_BlockData:
-GiovannisCave_BlockData:
 	INCBIN "maps/UnionCave1F.ablk.lz"
 
 SECTION "UnionCaveB1FNorth_BlockData", ROMX
@@ -393,10 +392,6 @@ SECTION "DragonShrine_BlockData", ROMX
 DragonShrine_BlockData:
 	INCBIN "maps/DragonShrine.ablk.lz"
 
-SECTION "TohjoFalls_BlockData", ROMX
-TohjoFalls_BlockData:
-	INCBIN "maps/TohjoFalls.ablk.lz"
-
 SECTION "IndigoPlateau_BlockData", ROMX
 IndigoPlateau_BlockData:
 	INCBIN "maps/IndigoPlateau.ablk.lz"
@@ -428,22 +423,6 @@ LancesRoom_BlockData:
 SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
-
-SECTION "MountMoon1F_BlockData", ROMX
-MountMoon1F_BlockData:
-	INCBIN "maps/MountMoon1F.ablk.lz"
-
-SECTION "MountMoonB1F_BlockData", ROMX
-MountMoonB1F_BlockData:
-	INCBIN "maps/MountMoonB1F.ablk.lz"
-
-SECTION "MountMoonB2F_BlockData", ROMX
-MountMoonB2F_BlockData:
-	INCBIN "maps/MountMoonB2F.ablk.lz"
-
-SECTION "DiglettsCave_BlockData", ROMX
-DiglettsCave_BlockData:
-	INCBIN "maps/DiglettsCave.ablk.lz"
 
 SECTION "DimCave2F_BlockData", ROMX
 WhirlIslandNW_BlockData:
