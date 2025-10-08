@@ -70,16 +70,6 @@ INCLUDE "maps/SlowpokeWellB1F.asm"
 INCLUDE "maps/SlowpokeWellB2F.asm"
 
 
-SECTION "Ilex Forest Scripts", ROMX
-
-INCLUDE "maps/IlexForest.asm"
-
-
-SECTION "Goldenrod Dept Store Scripts", ROMX
-
-INCLUDE "maps/GoldenrodDeptStoreB1F.asm"
-
-
 SECTION "Radio Tower Scripts", ROMX
 
 INCLUDE "maps/RadioTower1F.asm"
@@ -87,13 +77,6 @@ INCLUDE "maps/RadioTower2F.asm"
 INCLUDE "maps/RadioTower3F.asm"
 INCLUDE "maps/RadioTower4F.asm"
 INCLUDE "maps/RadioTower5F.asm"
-
-
-SECTION "Underground Warehouse Scripts", ROMX
-
-INCLUDE "maps/UndergroundWarehouse.asm"
-INCLUDE "maps/UndergroundPathSwitchRoomEntrances.asm"
-INCLUDE "maps/WarehouseEntrance.asm"
 
 
 SECTION "Magnet Tunnel Scripts", ROMX
@@ -156,7 +139,6 @@ INCLUDE "maps/OlivineLighthouse6F.asm"
 SECTION "Mahogany Scripts", ROMX
 
 INCLUDE "maps/MahoganyTown.asm"
-INCLUDE "maps/MahoganyMart1F.asm"
 INCLUDE "maps/MahoganyGym.asm"
 INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
 
@@ -166,13 +148,6 @@ SECTION "Lake of Rage Scripts", ROMX
 INCLUDE "maps/LakeOfRage.asm"
 INCLUDE "maps/LakeOfRageHiddenPowerHouse.asm"
 INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
-
-
-SECTION "Team Rocket Base Scripts", ROMX
-
-INCLUDE "maps/TeamRocketBaseB1F.asm"
-INCLUDE "maps/TeamRocketBaseB2F.asm"
-INCLUDE "maps/TeamRocketBaseB3F.asm"
 
 
 SECTION "Indigo Plateau Scripts", ROMX

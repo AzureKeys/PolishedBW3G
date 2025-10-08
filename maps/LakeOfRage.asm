@@ -133,7 +133,6 @@ LakeOfRageLanceScript:
 	disappear LAKEOFRAGE_LANCE
 	clearevent EVENT_MAHOGANY_MART_LANCE_AND_DRAGONITE
 	setevent EVENT_DECIDED_TO_HELP_LANCE
-	setmapscene MAHOGANY_MART_1F, $1
 	end
 
 .Refused:

@@ -82,7 +82,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .SproutTower
 	dw .UnionCave ; no call
 	dw .SlowpokeWell ; no calls
-	dw .IlexForest
 	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
@@ -106,7 +105,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 .SproutTower:
 .UnionCave:
 .SlowpokeWell:
-.IlexForest:
 .RadioTower:
 .Route35:
 .Route35Coast:

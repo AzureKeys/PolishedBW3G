@@ -20,12 +20,10 @@ MapScenes::
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
-	scene_var ILEX_FOREST,                            wIlexForestSceneID
 	scene_var INDIGO_PLATEAU_POKECENTER_1F,           wAlways0SceneID
 	scene_var KARENS_ROOM,                            wKarensRoomSceneID
 	scene_var KOGAS_ROOM,                             wKogasRoomSceneID
 	scene_var LANCES_ROOM,                            wLancesRoomSceneID
-	scene_var MAHOGANY_MART_1F,                       wMahoganyMart1FSceneID
 	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
@@ -38,12 +36,8 @@ MapScenes::
 	scene_var ROUTE_42,                               wRoute42SceneID
 	scene_var ROUTE_43_GATE,                          wRoute43GateSceneID
 	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
-	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
-	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID
-	scene_var TEAM_ROCKET_BASE_B3F,                   wTeamRocketBaseB3FSceneID
 	scene_var TIN_TOWER_1F,                           wTinTower1FSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
-	scene_var UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, wUndergroundPathSwitchRoomEntrancesSceneID
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	db -1

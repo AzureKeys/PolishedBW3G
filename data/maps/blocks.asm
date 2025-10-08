@@ -118,14 +118,6 @@ SECTION "SlowpokeWellB2F_BlockData", ROMX
 SlowpokeWellB2F_BlockData:
 	INCBIN "maps/SlowpokeWellB2F.ablk.lz"
 
-SECTION "IlexForest_BlockData", ROMX
-IlexForest_BlockData:
-	INCBIN "maps/IlexForest.ablk.lz"
-
-SECTION "GoldenrodDeptStoreB1F_BlockData", ROMX
-GoldenrodDeptStoreB1F_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreB1F.ablk.lz"
-
 SECTION "RadioTower1F_BlockData", ROMX
 RadioTower1F_BlockData:
 	INCBIN "maps/RadioTower1F.ablk.lz"
@@ -145,18 +137,6 @@ RadioTower4F_BlockData:
 SECTION "RadioTower5F_BlockData", ROMX
 RadioTower5F_BlockData:
 	INCBIN "maps/RadioTower5F.ablk.lz"
-
-SECTION "UndergroundWarehouse_BlockData", ROMX
-UndergroundWarehouse_BlockData:
-	INCBIN "maps/UndergroundWarehouse.ablk.lz"
-
-SECTION "UndergroundPathSwitchRoomEntrances_BlockData", ROMX
-UndergroundPathSwitchRoomEntrances_BlockData:
-	INCBIN "maps/UndergroundPathSwitchRoomEntrances.ablk.lz"
-
-SECTION "WarehouseEntrance_BlockData", ROMX
-WarehouseEntrance_BlockData:
-	INCBIN "maps/WarehouseEntrance.ablk.lz"
 
 SECTION "NationalPark_BlockData", ROMX
 NationalPark_BlockData:
@@ -283,10 +263,6 @@ SECTION "BattleTowerOutside_BlockData", ROMX
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lz"
 
-SECTION "MahoganyMart1F_BlockData", ROMX
-MahoganyMart1F_BlockData:
-	INCBIN "maps/GiftShop.ablk.lz"
-
 SECTION "MahoganyGym_BlockData", ROMX
 MahoganyGym_BlockData:
 	INCBIN "maps/MahoganyGym.ablk.lz"
@@ -302,18 +278,6 @@ LakeOfRage_BlockData:
 SECTION "LakeOfRageFlooded_BlockData", ROMX
 LakeOfRageFlooded_BlockData:
 	INCBIN "maps/LakeOfRageFlooded.ablk.lz"
-
-SECTION "TeamRocketBaseB1F_BlockData", ROMX
-TeamRocketBaseB1F_BlockData:
-	INCBIN "maps/TeamRocketBaseB1F.ablk.lz"
-
-SECTION "TeamRocketBaseB2F_BlockData", ROMX
-TeamRocketBaseB2F_BlockData:
-	INCBIN "maps/TeamRocketBaseB2F.ablk.lz"
-
-SECTION "TeamRocketBaseB3F_BlockData", ROMX
-TeamRocketBaseB3F_BlockData:
-	INCBIN "maps/TeamRocketBaseB3F.ablk.lz"
 
 SECTION "IndigoPlateau_BlockData", ROMX
 IndigoPlateau_BlockData:

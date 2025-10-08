@@ -85,15 +85,6 @@ ENDM
 	map_attributes OlivineLighthouse4F, OLIVINE_LIGHTHOUSE_4F, $0, 0
 	map_attributes OlivineLighthouse5F, OLIVINE_LIGHTHOUSE_5F, $0, 0
 	map_attributes OlivineLighthouse6F, OLIVINE_LIGHTHOUSE_6F, $0, 0
-	map_attributes MahoganyMart1F, MAHOGANY_MART_1F, $0, 0
-	map_attributes TeamRocketBaseB1F, TEAM_ROCKET_BASE_B1F, $0, 0
-	map_attributes TeamRocketBaseB2F, TEAM_ROCKET_BASE_B2F, $0, 0
-	map_attributes TeamRocketBaseB3F, TEAM_ROCKET_BASE_B3F, $0, 0
-	map_attributes IlexForest, ILEX_FOREST, $35, 0
-	map_attributes WarehouseEntrance, WAREHOUSE_ENTRANCE, $0, 0
-	map_attributes UndergroundPathSwitchRoomEntrances, UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, $0, 0
-	map_attributes GoldenrodDeptStoreB1F, GOLDENROD_DEPT_STORE_B1F, $0, 0
-	map_attributes UndergroundWarehouse, UNDERGROUND_WAREHOUSE, $0, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0

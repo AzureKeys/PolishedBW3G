@@ -11,7 +11,6 @@ Landmarks:
 	landmark  86,  58, SproutTowerName
 	landmark  84, 124, UnionCaveName
 	landmark  76, 116, SlowpokeWellName
-	landmark  52, 124, IlexForestName
 	landmark  50,  92, RadioTowerName
 	landmark  52,  76, Route35Name
 	landmark  44,  76, Route35CoastName
@@ -61,7 +60,6 @@ Route37Name:           rawchar "Route 37@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
-IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 Route35CoastName:      rawchar "Route 35¯Coast@"

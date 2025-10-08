@@ -42,13 +42,6 @@
 	wildmon 20, SLOWBRO
 	end_water_wildmons
 
-	def_water_wildmons ILEX_FOREST
-	db 2 percent ; encounter rate
-	wildmon 15, PSYDUCK
-	wildmon 10, PSYDUCK
-	wildmon 15, GOLDUCK
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	wildmon 20, PSYDUCK

@@ -588,34 +588,6 @@
 	wildmon 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ILEX_FOREST
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 9, RATTATA
-	wildmon 9, RATTATA
-	wildmon 10, RATTATA
-	wildmon 10, RATTATA
-	wildmon 10, RATTATA
-	wildmon 9, PARAS
-	wildmon 10, PARAS
-	; day
-	wildmon 9, RATTATA
-	wildmon 9, RATTATA
-	wildmon 10, RATTATA
-	wildmon 10, RATTATA
-	wildmon 9, PARAS
-	wildmon 8, RATTATA
-	wildmon 10, RATTATA
-	; nite
-	wildmon 9, RATTATA
-	wildmon 9, RATTATA
-	wildmon 10, RATTATA
-	wildmon 10, PSYDUCK
-	wildmon 10, RATTATA
-	wildmon 9, PARAS
-	wildmon 10, PARAS
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

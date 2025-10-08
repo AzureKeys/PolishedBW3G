@@ -6,7 +6,6 @@
 	const SPROUT_TOWER       ; 08
 	const UNION_CAVE         ; 0d
 	const SLOWPOKE_WELL      ; 10
-	const ILEX_FOREST        ; 11
 	const RADIO_TOWER        ; 17
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b

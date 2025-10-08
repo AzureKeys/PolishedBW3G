@@ -5,7 +5,6 @@ MahoganyTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, MahoganyTownFlyPoint
 
 	def_warp_events
-	warp_event 11,  7, MAHOGANY_MART_1F, 1
 	warp_event 17,  7, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, 1
 	warp_event  6, 13, MAHOGANY_GYM, 1
 	warp_event 15, 13, MAHOGANY_POKECENTER_1F, 1

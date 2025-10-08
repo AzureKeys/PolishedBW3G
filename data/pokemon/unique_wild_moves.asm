@@ -17,7 +17,6 @@ UniqueWildMoves:
 	unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
 	unique_moves SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
-	unique_moves ILEX_FOREST,      0,          0
 	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves TIN_TOWER,        0,          0
 	unique_moves BURNED_TOWER,     0,          0
