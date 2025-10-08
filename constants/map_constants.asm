@@ -41,13 +41,6 @@ ENDM
 	map_const ROUTE_43,                                   10, 27 ; 12
 	map_const LAKE_OF_RAGE,                               20, 18 ; 13
 
-	newgroup                                                     ;  3
-	map_const RADIO_TOWER_1F,                              9,  4 ; 20
-	map_const RADIO_TOWER_2F,                              9,  4 ; 21
-	map_const RADIO_TOWER_3F,                              9,  4 ; 22
-	map_const RADIO_TOWER_4F,                              9,  4 ; 23
-	map_const RADIO_TOWER_5F,                              9,  4 ; 24
-
 	newgroup                                                     ;  4
 	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1
 	map_const WISE_TRIOS_ROOM,                             4,  4 ;  2

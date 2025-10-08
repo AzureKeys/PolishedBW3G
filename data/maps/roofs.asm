@@ -4,7 +4,6 @@ MapGroupRoofs:
 	table_width 1
 	db -1            ; 0
 	db ROOF_AZALEA   ; 2 (Mahogany Town)
-	db -1            ; 3
 	db ROOF_VIOLET   ; 4 (Ecruteak City)
 	db ROOF_OLIVINE  ; 9 (Battle Tower Outside)
 	db -1            ; 16

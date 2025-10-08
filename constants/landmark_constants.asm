@@ -3,7 +3,6 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
-	const RADIO_TOWER        ; 17
 	const ROUTE_35           ; 1a
 	const ROUTE_35_COAST     ; 1b
 	const ROUTE_36           ; 1d

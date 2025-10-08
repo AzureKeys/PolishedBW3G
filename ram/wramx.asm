@@ -1073,7 +1073,6 @@ wLancesRoomSceneID:: db
 wMahoganyTownSceneID:: db
 wNewBarkTownSceneID:: db
 wPokecenter2FSceneID:: db
-wRadioTower5FSceneID:: db
 wRoute23SceneID:: db
 wRoute36SceneID:: db
 wRoute42SceneID:: db
@@ -1127,7 +1126,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 125 ; unused
+	ds 126 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

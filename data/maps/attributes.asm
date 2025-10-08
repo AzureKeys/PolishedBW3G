@@ -50,11 +50,6 @@ ENDM
 	map_attributes IndigoPlateau, INDIGO_PLATEAU, $2c, SOUTH
 	connection south, Route23, ROUTE_23, 0
 
-	map_attributes RadioTower1F, RADIO_TOWER_1F, $0, 0
-	map_attributes RadioTower2F, RADIO_TOWER_2F, $0, 0
-	map_attributes RadioTower3F, RADIO_TOWER_3F, $0, 0
-	map_attributes RadioTower4F, RADIO_TOWER_4F, $0, 0
-	map_attributes RadioTower5F, RADIO_TOWER_5F, $0, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0

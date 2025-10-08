@@ -101,8 +101,6 @@ InitMapNameSign::
 	ret z
 	and a ; cp SPECIAL_MAP
 	ret z
-	cp RADIO_TOWER
-	ret z
 	cp CINNABAR_LAB
 	ret z
 	ld a, $1

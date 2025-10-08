@@ -78,26 +78,6 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "RadioTower1F_BlockData", ROMX
-RadioTower1F_BlockData:
-	INCBIN "maps/RadioTower1F.ablk.lz"
-
-SECTION "RadioTower2F_BlockData", ROMX
-RadioTower2F_BlockData:
-	INCBIN "maps/RadioTower2F.ablk.lz"
-
-SECTION "RadioTower3F_BlockData", ROMX
-RadioTower3F_BlockData:
-	INCBIN "maps/RadioTower3F.ablk.lz"
-
-SECTION "RadioTower4F_BlockData", ROMX
-RadioTower4F_BlockData:
-	INCBIN "maps/RadioTower4F.ablk.lz"
-
-SECTION "RadioTower5F_BlockData", ROMX
-RadioTower5F_BlockData:
-	INCBIN "maps/RadioTower5F.ablk.lz"
-
 SECTION "EcruteakGym_BlockData", ROMX
 EcruteakGym_BlockData:
 	INCBIN "maps/EcruteakGym.ablk.lz"

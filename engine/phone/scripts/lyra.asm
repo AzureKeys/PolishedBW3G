@@ -79,7 +79,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2
 	dw .Generic
 	dw .NewBarkTown
-	dw .RadioTower ; no calls
 	dw .Route35
 	dw .Route35Coast
 	dw .Route36
@@ -95,7 +94,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:
-.RadioTower:
 .Route35:
 .Route35Coast:
 .Route36:
