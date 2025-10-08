@@ -1063,10 +1063,7 @@ wBrunosRoomSceneID:: db
 wBurnedTower1FSceneID:: db
 wBurnedTowerB1FSceneID:: db
 wColosseumSceneID:: db
-wDarkCaveVioletEntranceSceneID:: db
 wDayCareSceneID:: db
-wDragonsDenB1FSceneID:: db
-wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
 wElmsLabSceneID:: db
@@ -1141,7 +1138,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 111 ; unused
+	ds 114 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

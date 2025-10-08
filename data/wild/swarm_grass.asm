@@ -1,34 +1,5 @@
 ; swarms in grass
 
-; Dunsparce swarm
-	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
-	; morn
-	wildmon 3, GEODUDE
-	wildmon 3, DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
-	wildmon 2, ZUBAT
-	wildmon 2, GEODUDE
-	wildmon 2, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
-	wildmon 4, DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
-	wildmon 4, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
-	; day
-	wildmon 3, GEODUDE
-	wildmon 3, DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
-	wildmon 2, ZUBAT
-	wildmon 2, GEODUDE
-	wildmon 2, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
-	wildmon 4, DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
-	wildmon 4, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
-	; nite
-	wildmon 3, GEODUDE
-	wildmon 3, DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
-	wildmon 2, ZUBAT
-	wildmon 2, GEODUDE
-	wildmon 2, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
-	wildmon 4, DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
-	wildmon 4, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
-	end_grass_wildmons
-
 ; Yanma swarm
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

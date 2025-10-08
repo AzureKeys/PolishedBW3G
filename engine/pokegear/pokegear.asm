@@ -706,7 +706,7 @@ PokegearMap_UpdateCursorPosition:
 	ret
 
 TownMap_GetJohtoLandmarkLimits:
-	lb de, SILVER_CAVE, NEW_BARK_TOWN
+	lb de, NEW_BARK_TOWN, NEW_BARK_TOWN ; Last, First
 	ret
 
 PokegearRadio_Init:

@@ -48,12 +48,6 @@ INCLUDE "maps/LyrasHouse1F.asm"
 INCLUDE "maps/LyrasHouse2F.asm"
 
 
-SECTION "Dark Cave Scripts", ROMX
-
-INCLUDE "maps/DarkCaveVioletEntrance.asm"
-INCLUDE "maps/DarkCaveBlackthornEntrance.asm"
-
-
 SECTION "Sprout Tower Scripts", ROMX
 
 INCLUDE "maps/SproutTower1F.asm"
@@ -210,13 +204,6 @@ INCLUDE "maps/IcePathB2FBlackthornSide.asm"
 INCLUDE "maps/IcePathB3F.asm"
 
 
-SECTION "Dragon's Den Scripts", ROMX
-
-INCLUDE "maps/DragonsDen1F.asm"
-INCLUDE "maps/DragonsDenB1F.asm"
-INCLUDE "maps/DragonShrine.asm"
-
-
 SECTION "Indigo Plateau Scripts", ROMX
 
 INCLUDE "maps/IndigoPlateau.asm"
@@ -226,14 +213,6 @@ INCLUDE "maps/BrunosRoom.asm"
 INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
-
-
-SECTION "Silver Cave Scripts", ROMX
-
-INCLUDE "maps/SilverCaveRoom1.asm"
-INCLUDE "maps/SilverCaveRoom2.asm"
-INCLUDE "maps/SilverCaveRoom3.asm"
-INCLUDE "maps/SilverCaveItemRooms.asm"
 
 
 SECTION "Routes 21-23 Scripts", ROMX

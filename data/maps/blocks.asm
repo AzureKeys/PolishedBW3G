@@ -78,15 +78,6 @@ SECTION "ElmsHouse_BlockData", ROMX
 ElmsHouse_BlockData:
 	INCBIN "maps/ElmsHouse.ablk.lz"
 
-SECTION "DarkCaveVioletEntrance_BlockData", ROMX
-DarkCaveVioletEntrance_BlockData:
-SilverCaveItemRooms_BlockData:
-	INCBIN "maps/DarkCaveVioletEntrance.ablk.lz"
-
-SECTION "DarkCaveBlackthornEntrance_BlockData", ROMX
-DarkCaveBlackthornEntrance_BlockData:
-	INCBIN "maps/DarkCaveBlackthornEntrance.ablk.lz"
-
 SECTION "SproutTower1F_BlockData", ROMX
 SproutTower1F_BlockData:
 	INCBIN "maps/SproutTower1F.ablk.lz"
@@ -384,14 +375,6 @@ SECTION "IcePathB3F_BlockData", ROMX
 IcePathB3F_BlockData:
 	INCBIN "maps/IcePathB3F.ablk.lz"
 
-SECTION "DragonsDenB1F_BlockData", ROMX
-DragonsDenB1F_BlockData:
-	INCBIN "maps/DragonsDenB1F.ablk.lz"
-
-SECTION "DragonShrine_BlockData", ROMX
-DragonShrine_BlockData:
-	INCBIN "maps/DragonShrine.ablk.lz"
-
 SECTION "IndigoPlateau_BlockData", ROMX
 IndigoPlateau_BlockData:
 	INCBIN "maps/IndigoPlateau.ablk.lz"
@@ -428,20 +411,7 @@ SECTION "DimCave2F_BlockData", ROMX
 WhirlIslandNW_BlockData:
 	INCBIN "maps/DimCave2F.ablk.lz"
 
-SECTION "SilverCaveRoom1_BlockData", ROMX
-SilverCaveRoom1_BlockData:
-	INCBIN "maps/SilverCaveRoom1.ablk.lz"
-
-SECTION "SilverCaveRoom2_BlockData", ROMX
-SilverCaveRoom2_BlockData:
-	INCBIN "maps/SilverCaveRoom2.ablk.lz"
-
-SECTION "SilverCaveRoom3_BlockData", ROMX
-SilverCaveRoom3_BlockData:
-	INCBIN "maps/SilverCaveRoom3.ablk.lz"
-
 SECTION "NavelRockInside_BlockData", ROMX
-DragonsDen1F_BlockData:
 WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"

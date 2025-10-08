@@ -111,15 +111,6 @@ ENDM
 	map_attributes WhirlIslandB1F, WHIRL_ISLAND_B1F, $9, 0
 	map_attributes WhirlIslandB2F, WHIRL_ISLAND_B2F, $2e, 0
 	map_attributes WhirlIslandLugiaChamber, WHIRL_ISLAND_LUGIA_CHAMBER, $f, 0
-	map_attributes SilverCaveRoom1, SILVER_CAVE_ROOM_1, $9, 0
-	map_attributes SilverCaveRoom2, SILVER_CAVE_ROOM_2, $9, 0
-	map_attributes SilverCaveRoom3, SILVER_CAVE_ROOM_3, $0, 0
-	map_attributes SilverCaveItemRooms, SILVER_CAVE_ITEM_ROOMS, $9, 0
-	map_attributes DarkCaveVioletEntrance, DARK_CAVE_VIOLET_ENTRANCE, $9, 0
-	map_attributes DarkCaveBlackthornEntrance, DARK_CAVE_BLACKTHORN_ENTRANCE, $9, 0
-	map_attributes DragonsDen1F, DRAGONS_DEN_1F, $9, 0
-	map_attributes DragonsDenB1F, DRAGONS_DEN_B1F, $71, 0
-	map_attributes DragonShrine, DRAGON_SHRINE, $0, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0

@@ -91,34 +91,6 @@
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
-	def_water_wildmons SILVER_CAVE_ROOM_2
-	db 2 percent ; encounter rate
-	wildmon 75, SEADRA
-	wildmon 75, GOLDUCK
-	wildmon 75, KINGDRA
-	end_water_wildmons
-
-	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 10, RATTATA
-	wildmon 5, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
-	db 2 percent ; encounter rate
-	wildmon 15, RATTATA
-	wildmon 10, RATTATA
-	wildmon 5, RATTATA
-	end_water_wildmons
-
-	def_water_wildmons DRAGONS_DEN_B1F
-	db 4 percent ; encounter rate
-	wildmon 25, RATTATA
-	wildmon 30, RATTATA
-	wildmon 20, DRATINI
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	wildmon 20, PSYDUCK

@@ -32,9 +32,6 @@ Landmarks:
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
 	landmark 128,  40, IcePathName
-	landmark 132,  36, DragonsDenName
-	landmark 116,  68, DarkCaveName
-	landmark 144,  60, SilverCaveName
 	assert_table_length KANTO_LANDMARK
 	landmark  52,  88, Route1Name
 	landmark  40,  76, Route22Name
@@ -48,7 +45,6 @@ NewBarkTownName:       rawchar "New Bark¯Town@"
 EcruteakCityName:      rawchar "Ecruteak¯City@"
 MahoganyTownName:      rawchar "Mahogany¯Town@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
-SilverCaveName:        rawchar "Silver Cave@"
 SproutTowerName:       rawchar "Sprout¯Tower@"
 UnionCaveName:         rawchar "Union Cave@"
 SlowpokeWellName:      rawchar "Slowpoke¯Well@"
@@ -59,7 +55,6 @@ TinTowerName:          rawchar "Bell Tower@"
 LighthouseName:        rawchar "Lighthouse@"
 WhirlIslandsName:      rawchar "Whirl¯Islands@"
 MtMortarName:          rawchar "Mt.Mortar@"
-DragonsDenName:        rawchar "Dragon's Den@"
 IcePathName:           rawchar "Ice Path@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
@@ -72,7 +67,6 @@ Route37Name:           rawchar "Route 37@"
 Route42Name:           rawchar "Route 42@"
 Route43Name:           rawchar "Route 43@"
 Route44Name:           rawchar "Route 44@"
-DarkCaveName:          rawchar "Dark Cave@"
 IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
 BattleTowerName:       rawchar "Battle¯Tower@"

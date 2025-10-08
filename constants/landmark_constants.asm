@@ -27,9 +27,6 @@
 	const LAKE_OF_RAGE       ; 38
 	const ROUTE_44           ; 39
 	const ICE_PATH           ; 3a
-	const DRAGONS_DEN        ; 3c
-	const DARK_CAVE          ; 3e
-	const SILVER_CAVE        ; 40
 DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_1            ; 45
 	const ROUTE_22           ; 78

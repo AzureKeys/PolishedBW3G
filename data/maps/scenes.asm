@@ -16,9 +16,6 @@ MapScenes::
 	scene_var BURNED_TOWER_1F,                        wBurnedTower1FSceneID
 	scene_var BURNED_TOWER_B1F,                       wBurnedTowerB1FSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
-	scene_var DARK_CAVE_VIOLET_ENTRANCE,              wDarkCaveVioletEntranceSceneID
-	scene_var DRAGON_SHRINE,                          wDragonShrineSceneID
-	scene_var DRAGONS_DEN_B1F,                        wDragonsDenB1FSceneID
 	scene_var ECRUTEAK_GYM,                           wEcruteakGymSceneID
 	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseSceneID
 	scene_var ELMS_LAB,                               wElmsLabSceneID

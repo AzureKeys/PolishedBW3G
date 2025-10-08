@@ -24,8 +24,5 @@ UniqueWildMoves:
 	unique_moves WHIRL_ISLANDS,    0,          0
 	unique_moves MT_MORTAR,        0,          0
 	unique_moves ICE_PATH,         0,          0
-	unique_moves DRAGONS_DEN,      0,          0
-	unique_moves DARK_CAVE,        0,          0
-	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
 	unique_moves ROUTE_44,         RATTATA,      ROCK_BLAST   ; new move
 	db -1
