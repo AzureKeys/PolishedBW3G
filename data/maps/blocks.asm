@@ -57,32 +57,12 @@ SECTION "BattleTowerOutside_BlockData", ROMX
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lz"
 
-SECTION "WillsRoom_BlockData", ROMX
-WillsRoom_BlockData:
-	INCBIN "maps/WillsRoom.ablk.lz"
-
-SECTION "KogasRoom_BlockData", ROMX
-KogasRoom_BlockData:
-	INCBIN "maps/KogasRoom.ablk.lz"
-
-SECTION "BrunosRoom_BlockData", ROMX
-BrunosRoom_BlockData:
-	INCBIN "maps/BrunosRoom.ablk.lz"
-
-SECTION "KarensRoom_BlockData", ROMX
-KarensRoom_BlockData:
-	INCBIN "maps/KarensRoom.ablk.lz"
-
-SECTION "LancesRoom_BlockData", ROMX
-LancesRoom_BlockData:
-	INCBIN "maps/LancesRoom.ablk.lz"
-
 SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
 SECTION "HiddenCaveGrotto_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
-	INCBIN "maps/NavelRockInside.ablk.lz"
+	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 
 ENDSECTION

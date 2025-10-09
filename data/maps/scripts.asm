@@ -34,11 +34,6 @@ INCLUDE "maps/PlayersHouse2F.asm"
 
 SECTION "Indigo Plateau Scripts", ROMX
 
-INCLUDE "maps/WillsRoom.asm"
-INCLUDE "maps/KogasRoom.asm"
-INCLUDE "maps/BrunosRoom.asm"
-INCLUDE "maps/KarensRoom.asm"
-INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
 
 

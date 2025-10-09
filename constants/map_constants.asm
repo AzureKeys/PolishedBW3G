@@ -35,11 +35,6 @@ ENDM
 	map_const BATTLE_TOWER_OUTSIDE,                       10, 13 ;  7
 
 	newgroup                                                     ; 16
-	map_const WILLS_ROOM,                                  5,  9 ;  4
-	map_const KOGAS_ROOM,                                  5,  9 ;  5
-	map_const BRUNOS_ROOM,                                 5,  9 ;  6
-	map_const KARENS_ROOM,                                 5,  9 ;  7
-	map_const LANCES_ROOM,                                 7, 12 ;  8
 	map_const HALL_OF_FAME,                                5,  7 ;  9
 
 	newgroup                                                     ; 20

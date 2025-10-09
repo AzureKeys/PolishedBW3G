@@ -10,11 +10,6 @@ ENDM
 
 	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
-	map_attributes WillsRoom, WILLS_ROOM, $0, 0
-	map_attributes KogasRoom, KOGAS_ROOM, $0, 0
-	map_attributes BrunosRoom, BRUNOS_ROOM, $0, 0
-	map_attributes KarensRoom, KARENS_ROOM, $0, 0
-	map_attributes LancesRoom, LANCES_ROOM, $0, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

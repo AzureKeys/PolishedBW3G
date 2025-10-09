@@ -22,11 +22,6 @@ MACRO special_bg_pal
 	dw \4 ; source
 ENDM
 	special_bg_pal darkness, (unused),                    PAL_SINGLE,    DarknessBGPalette
-	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
-	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
-	special_bg_pal map,      BRUNOS_ROOM,                 PAL_SINGLE,    BrunosRoomPalette
-	special_bg_pal map,      KARENS_ROOM,                 PAL_SINGLE,    KarensRoomPalette
-	special_bg_pal map,      LANCES_ROOM,                 PAL_SINGLE,    LancesRoomPalette
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    LancesRoomPalette
 	special_bg_pal map,      HIDDEN_TREE_GROTTO,          PAL_SINGLE,    HiddenTreeGrottoPalette
 	special_bg_pal map,      HIDDEN_CAVE_GROTTO,          PAL_SINGLE,    HiddenCaveGrottoPalette
@@ -170,58 +165,6 @@ else
 	RGB_MONOCHROME_BLACK
 rept 4
 	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-WillsRoomPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/WillsRoom.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-KogasRoomPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/KogasRoom.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-BrunosRoomPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/BrunosRoom.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-KarensRoomPalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/KarensRoom.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR_NIGHT
 endr
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_WHITE

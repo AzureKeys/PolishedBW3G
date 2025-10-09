@@ -5,8 +5,6 @@ HallOfFame_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4, 13, LANCES_ROOM, 3
-	warp_event  5, 13, LANCES_ROOM, 4
 
 	def_coord_events
 

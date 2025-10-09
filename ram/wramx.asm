@@ -1058,17 +1058,12 @@ wFarfetchdPosition:: db
 wAlways0SceneID:: db
 wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
-wBrunosRoomSceneID:: db
 wColosseumSceneID:: db
 wHallOfFameSceneID:: db
-wKarensRoomSceneID:: db
-wKogasRoomSceneID:: db
-wPlayersHouse1FSceneID:: db
-wLancesRoomSceneID:: db
 wNewBarkTownSceneID:: db
+wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
 wTradeCenterSceneID:: db
-wWillsRoomSceneID:: db
 
 ; fight counts
 wJackFightCount::    db
@@ -1115,7 +1110,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 137 ; unused
+	ds 142 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
