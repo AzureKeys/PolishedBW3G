@@ -272,10 +272,7 @@ EnterMapWarp:
 	call GetAnyMapTileset
 	ld a, c
 	cp TILESET_POKECENTER
-	jr z, .pokecenter_pokecom
-	cp TILESET_POKECOM_CENTER
 	ret nz
-.pokecenter_pokecom
 	ld a, [wPrevMapGroup]
 	ld [wLastSpawnMapGroup], a
 	ld a, [wPrevMapNumber]

@@ -969,10 +969,6 @@ LoadMapPals:
 	farcall ClearSavedObjPals
 .skip_clearing_obj_pals
 
-	ld a, [wMapTileset]
-	cp TILESET_SNOWTOP_MOUNTAIN
-	ret z
-
 	; overcast maps have their own roof color table
 	farcall GetOvercastIndex
 	and a

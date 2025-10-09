@@ -33,7 +33,6 @@ TilesetJohto1Anim::
 TilesetJohto2Anim::
 TilesetJohto3Anim::
 TilesetJohto4Anim::
-TilesetJohto5Anim::
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw vTiles2 tile $1c, AnimateRainPuddleTile
 	dw vTiles2 tile $1d, AnimateRainWaterTile
@@ -55,26 +54,6 @@ TilesetJohto5Anim::
 	dw wTileAnimBuffer, ScrollTileDown
 	dw NULL,  DoNothing
 	dw vTiles2 tile $35, ReadTileFromBuffer
-	dw NULL,  DoneTileAnimation
-
-TilesetKanto1Anim::
-TilesetKanto2Anim::
-	dw vTiles2 tile $14, AnimateKantoWaterTile
-	dw vTiles2 tile $40, WriteTileToBuffer
-	dw wTileAnimBuffer, ScrollTileDown
-	dw wTileAnimBuffer, ScrollTileDown
-	dw wTileAnimBuffer, ScrollTileDown
-	dw vTiles2 tile $40, ReadTileFromBuffer
-	dw vTiles2 tile $10, ScrollTileUp
-	dw vTiles2 tile $11, ScrollTileDown
-	dw vTiles2 tile $12, ScrollTileLeft
-	dw vTiles2 tile $13, ScrollTileRight
-	dw NULL,  AnimateKantoFlowerTile
-	dw vTiles2 tile $10, ScrollTileUp
-	dw vTiles2 tile $11, ScrollTileDown
-	dw vTiles2 tile $12, ScrollTileLeft
-	dw vTiles2 tile $13, ScrollTileRight
-	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetPortAnim::
@@ -101,26 +80,7 @@ TilesetGym1Anim::
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetTowerAnim::
-	dw TowerPillarTilePointer9,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer10, AnimateTowerPillarTile
-	dw TowerPillarTilePointer7,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer8,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer5,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer6,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer3,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer4,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer1,  AnimateTowerPillarTile
-	dw TowerPillarTilePointer2,  AnimateTowerPillarTile
-	dw NULL,  StandingTileFrame
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoneTileAnimation
-
 TilesetCaveAnim::
-TilesetQuietCaveAnim::
 	dw NULL,  LavaBubbleAnim4
 	dw NULL,  DoNothing
 	dw NULL,  LavaBubbleAnim3
@@ -154,19 +114,6 @@ TilesetQuietCaveAnim::
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  DoneTileAnimation
 
-TilesetParkAnim::
-	dw vTiles2 tile $14, AnimateWaterTile
-	dw NULL,  DoNothing
-	dw vTiles2 tile $15, AnimateFountain
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  AnimateFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
 TilesetIcePathAnim::
 	dw vTiles2 tile $10, WriteTileToBuffer
 	dw NULL,  FlickeringCaveEntrancePalette
@@ -176,126 +123,6 @@ TilesetIcePathAnim::
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  DoNothing
 	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoneTileAnimation
-
-TilesetForestAnim::
-	dw NULL,  ForestTreeLeftAnimation
-	dw NULL,  ForestTreeRightAnimation
-	dw NULL,  ForestTree2LeftAnimation
-	dw NULL,  ForestTree2RightAnimation
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  ForestTreeLeftAnimation2
-	dw NULL,  ForestTreeRightAnimation2
-	dw NULL,  ForestTree2LeftAnimation2
-	dw NULL,  ForestTree2RightAnimation2
-	dw NULL,  AnimateFlowerTile
-	dw vTiles2 tile $14, AnimateWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw vTiles2 tile $40, WriteTileToBuffer
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  DoNothing
-	dw vTiles2 tile $40, ReadTileFromBuffer
-	dw NULL,  DoneTileAnimation
-
-TilesetSafariAnim::
-	dw vTiles2 tile $14, AnimateKantoWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  AnimateKantoFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
-TilesetFarawayAnim::
-	dw FarawayWaterFrames1, AnimateFarawayWaterTile
-	dw FarawayWaterFrames2, AnimateFarawayWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
-TilesetTunnelAnim::
-	dw vTiles2 tile $26, WriteTileToBuffer
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw NULL,  DoNothing
-	dw vTiles2 tile $26, ReadTileFromBuffer
-	dw NULL,  DoNothing
-	dw NULL,  AnimateLCDTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw vTiles2 tile $30, WriteTileToBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $30, ReadTileFromBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoNothing
-	dw NULL,  AnimateLCDTile
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $31, WriteTileToBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $31, ReadTileFromBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoneTileAnimation
-
-TilesetShamoutiAnim::
-TilesetValenciaAnim::
-	dw FarawayWaterFrames1, AnimateFarawayWaterTile
-	dw FarawayWaterFrames2, AnimateFarawayWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  AnimateFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
-TilesetSnowtopMountainAnim::
-	dw TinyWaterTileFrames, AnimateTinyWaterTile
-	dw TinyPierTileFrames,  AnimateTinyWaterTile
-	dw TinyShoreTileFrames, AnimateTinyWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetWarehouseAnim::
@@ -313,27 +140,16 @@ TilesetWarehouseAnim::
 	dw NULL,  DoneTileAnimation
 
 TilesetHouse1Anim::
-TilesetHouse2Anim::
 TilesetPokeCenterAnim::
 TilesetGateAnim::
 TilesetLabAnim::
 TilesetFacilityAnim::
 TilesetMartAnim::
-TilesetMansionAnim::
 TilesetGameCornerAnim::
 TilesetHouse3Anim::
 TilesetGym2Anim::
 TilesetGym3Anim::
-TilesetLighthouseAnim::
-TilesetPokeComAnim::
 TilesetBattleTowerAnim::
-TilesetRuinsAnim::
-TilesetRadioTowerAnim::
-TilesetAlphAnim::
-TilesetPokemonMansionAnim::
-TilesetDecorAnim::
-TilesetMuseumAnim::
-TilesetHotelAnim::
 TilesetBattleFactoryAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
