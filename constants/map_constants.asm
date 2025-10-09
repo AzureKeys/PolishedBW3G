@@ -51,12 +51,7 @@ ENDM
 
 	newgroup                                                     ; 24
 	map_const NEW_BARK_TOWN,                              10,  9 ;  4
-	map_const ELMS_LAB,                                    5,  6 ;  5
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  6
 	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  7
-	map_const PLAYERS_NEIGHBORS_HOUSE,                     4,  4 ;  8
-	map_const LYRAS_HOUSE_1F,                              6,  4 ;  9
-	map_const LYRAS_HOUSE_2F,                              4,  3 ; 10
-	map_const ELMS_HOUSE,                                  4,  4 ; 11
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -9,9 +9,6 @@ KantoPokeCenter2F_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
-PlayersNeighborsHouse_BlockData:
-	INCBIN "maps/JohtoHouse4.ablk.lz"
-
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
 	INCBIN "maps/TradeCenter.ablk.lz"
@@ -32,25 +29,9 @@ SECTION "PlayersHouse2F_BlockData", ROMX
 PlayersHouse2F_BlockData:
 	INCBIN "maps/PlayersHouse2F.ablk.lz"
 
-SECTION "ElmsLab_BlockData", ROMX
-ElmsLab_BlockData:
-	INCBIN "maps/ElmsLab.ablk.lz"
-
 SECTION "NewBarkTown_BlockData", ROMX
 NewBarkTown_BlockData:
 	INCBIN "maps/NewBarkTown.ablk.lz"
-
-SECTION "LyrasHouse1F_BlockData", ROMX
-LyrasHouse1F_BlockData:
-	INCBIN "maps/LyrasHouse1F.ablk.lz"
-
-SECTION "LyrasHouse2F_BlockData", ROMX
-LyrasHouse2F_BlockData:
-	INCBIN "maps/LyrasHouse2F.ablk.lz"
-
-SECTION "ElmsHouse_BlockData", ROMX
-ElmsHouse_BlockData:
-	INCBIN "maps/ElmsHouse.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
@@ -100,7 +81,7 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
 
-SECTION "NavelRockInside_BlockData", ROMX
+SECTION "HiddenCaveGrotto_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
 

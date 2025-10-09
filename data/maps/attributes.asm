@@ -27,11 +27,6 @@ ENDM
 	map_attributes BattleTowerElevator, BATTLE_TOWER_ELEVATOR, $0, 0
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $0, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $5, 0
-	map_attributes ElmsLab, ELMS_LAB, $0, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
-	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $0, 0
-	map_attributes LyrasHouse1F, LYRAS_HOUSE_1F, $0, 0
-	map_attributes LyrasHouse2F, LYRAS_HOUSE_2F, $0, 0
-	map_attributes ElmsHouse, ELMS_HOUSE, $0, 0
 	

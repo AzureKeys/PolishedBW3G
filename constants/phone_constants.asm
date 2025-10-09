@@ -6,9 +6,6 @@
 	const PHONE_BILL
 	const PHONE_ELM
 	const PHONE_LYRA
-	const_skip
-	const_skip
-	const_skip
 DEF NUM_PHONE_CONTACTS EQU const_value - 1
 
 ; SpecialPhoneCallList indexes (see data/phone/special_calls.asm)

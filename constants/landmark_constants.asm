@@ -4,11 +4,8 @@
 ; Johto landmarks
 	const NEW_BARK_TOWN      ; 01
 	const BATTLE_TOWER       ; 2a
-DEF KANTO_LANDMARK EQU const_value
-	const ROUTE_1            ; 45
-	const ROUTE_22           ; 78
 	const POKEMON_LEAGUE     ; 7c
-	const CINNABAR_LAB       ; 81
+DEF KANTO_LANDMARK EQU const_value
 DEF SHAMOUTI_LANDMARK EQU const_value
 DEF NUM_LANDMARKS EQU const_value
 

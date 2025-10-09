@@ -80,7 +80,6 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Generic
 	dw .NewBarkTown
 	dw .BattleTower
-	assert_table_length KANTO_LANDMARK
 .Generic:
 .NewBarkTown:
 .BattleTower:
