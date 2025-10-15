@@ -28,6 +28,22 @@ _AnimateTileset::
 
 ; Function address
 	jmp IndirectHL
+	
+TilesetUnovaBeachAnim::
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw WhirlpoolFrames1, AnimateWhirlpoolTile
+	dw WhirlpoolFrames2, AnimateWhirlpoolTile
+	dw WhirlpoolFrames3, AnimateWhirlpoolTile
+	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw NULL,  DoNothing
+	dw NULL,  AnimateFlowerTile
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  StandingTileFrame8
+	dw NULL,  IncWaterFrame
+	dw NULL,  DoneTileAnimation
 
 TilesetJohto1Anim::
 TilesetJohto2Anim::
@@ -173,6 +189,17 @@ StandingTileFrame8:
 	inc a
 	and %111
 	ld [wTileAnimationTimer], a
+	ret
+	
+IncWaterFrame:
+	ld a, [wWaterAnimationTimer]
+	inc a
+	ld [wWaterAnimationTimer], a
+	cp $0B
+	jr nz, .done
+	xor a
+	ld [wWaterAnimationTimer], a
+.done
 	ret
 
 ScrollTileRightLeft:
@@ -697,7 +724,7 @@ AnimateFlowerTile:
 	ld h, a
 
 	ld sp, hl
-	ld hl, vTiles2 tile $03
+	ld hl, vTiles2 tile $04
 	jmp WriteTile
 
 .FlowerTileFrames:
@@ -880,8 +907,7 @@ AnimateWhirlpoolTile:
 	ld d, a
 
 	; period 4, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 4
+	ld a, [wWaterAnimationTimer]
 	swap a
 
 	add [hl]
@@ -889,7 +915,6 @@ AnimateWhirlpoolTile:
 	ld h, [hl]
 	ld l, a
 	adc h
-	sub l
 	ld h, a
 
 	ld sp, hl
@@ -1054,15 +1079,15 @@ TowerPillarTile8:  INCBIN "gfx/tilesets/tower-pillar/8.2bpp"
 TowerPillarTile9:  INCBIN "gfx/tilesets/tower-pillar/9.2bpp"
 TowerPillarTile10: INCBIN "gfx/tilesets/tower-pillar/10.2bpp"
 
-WhirlpoolFrames1: dw vTiles2 tile $31, WhirlpoolTiles1
-WhirlpoolFrames2: dw vTiles2 tile $32, WhirlpoolTiles2
-WhirlpoolFrames3: dw vTiles2 tile $41, WhirlpoolTiles3
-WhirlpoolFrames4: dw vTiles2 tile $42, WhirlpoolTiles4
+WhirlpoolFrames1: dw vTiles2 tile $6d, WhirlpoolTiles1
+WhirlpoolFrames2: dw vTiles2 tile $6e, WhirlpoolTiles2
+WhirlpoolFrames3: dw vTiles2 tile $7d, WhirlpoolTiles3
+WhirlpoolFrames4: dw vTiles2 tile $7e, WhirlpoolTiles4
 
-WhirlpoolTiles1: INCBIN "gfx/tilesets/whirlpool/1.2bpp"
-WhirlpoolTiles2: INCBIN "gfx/tilesets/whirlpool/2.2bpp"
-WhirlpoolTiles3: INCBIN "gfx/tilesets/whirlpool/3.2bpp"
-WhirlpoolTiles4: INCBIN "gfx/tilesets/whirlpool/4.2bpp"
+WhirlpoolTiles1: INCBIN "gfx/tilesets/unova_water/1.2bpp"
+WhirlpoolTiles2: INCBIN "gfx/tilesets/unova_water/2.2bpp"
+WhirlpoolTiles3: INCBIN "gfx/tilesets/unova_water/3.2bpp"
+WhirlpoolTiles4: INCBIN "gfx/tilesets/unova_water/4.2bpp"
 
 FarawayWaterFrames1: dw vTiles2 tile $14, FarawayWaterTiles1
 FarawayWaterFrames2: dw vTiles2 tile $15, FarawayWaterTiles2

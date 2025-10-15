@@ -336,7 +336,10 @@ SECTION UNION "Misc 404", WRAM0
 
 wLinkMisc:: ds 10
 wLinkPlayerFixedPartyMon1ID:: ds 3
-	ds 37
+
+wWaterAnimationTimer:: db
+wFountainAnimationTimer:: db
+	ds 35
 
 SECTION UNION "Misc 404", WRAM0
 ; polished link transfer buffer

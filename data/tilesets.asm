@@ -30,7 +30,25 @@ Tilesets::
 	tileset TilesetCave
 	tileset TilesetIcePath
 	tileset TilesetBattleFactory
+	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
+
+
+SECTION "Tileset Graphics - unova common vram0", ROMX
+
+TilesetUnovaBeachGFX0:: INCBIN "gfx/tilesets/unova_common.2bpp.lz"
+
+
+SECTION "Tileset Graphics - unova beach vram1", ROMX
+
+TilesetUnovaBeachGFX1:: INCBIN "gfx/tilesets/unova_beach.unova_common.2bpp.vram0.lz"
+
+
+SECTION "Tileset Data - unova beach", ROMX
+
+TilesetUnovaBeachMeta:: INCBIN "data/tilesets/unova_beach_metatiles.bin.lz"
+TilesetUnovaBeachAttr:: INCBIN "data/tilesets/unova_beach_attributes.bin.lz"
+TilesetUnovaBeachColl:: INCBIN "data/tilesets/unova_beach_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - johto common vram0", ROMX
@@ -395,6 +413,7 @@ TilesetBattleFactoryColl:: INCBIN "data/tilesets/battle_factory_collision.bin.lz
 
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
+TilesetUnovaBeachGFX2::
 TilesetJohto4GFX2::
 TilesetHouse1GFX2::
 TilesetHouse3GFX2::
