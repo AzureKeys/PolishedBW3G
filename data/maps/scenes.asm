@@ -13,6 +13,7 @@ MapScenes::
 	scene_var BATTLE_TOWER_OUTSIDE,                   wBattleTowerOutsideSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
+	scene_var HUMILAU_CITY,                           wHumilauCitySceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID

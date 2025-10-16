@@ -187,14 +187,7 @@
 	const MUSIC_POST_CREDITS                   ; b7
 	const MUSIC_PRINTER                        ; b8
 	const MUSIC_TITLE_XY                       ; b9
-	const MUSIC_DEWFORD_TOWN_RSE               ; ba ; unused
-	const MUSIC_MARINE_TUBE_B2W2               ; bb ; unused
-	const MUSIC_LEGENDARY_BATTLE_XY            ; bc ; unused
-	const MUSIC_WILD_BATTLE_PRISM              ; bd ; unused
-	const MUSIC_TRAINER_BATTLE_PRISM           ; be ; unused
-	const MUSIC_GYM_LEADER_BATTLE_PRISM        ; bf ; unused
-	const MUSIC_PALETTE_BATTLE_PRISM           ; c0 ; unused
-	const MUSIC_UNDERTALE_MEGALOVANIA          ; c1 ; unused
+	const MUSIC_HUMILAU_CITY                   ; b9
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

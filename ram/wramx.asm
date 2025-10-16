@@ -1060,6 +1060,7 @@ wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wColosseumSceneID:: db
 wHallOfFameSceneID:: db
+wHumilauCitySceneID:: db
 wNewBarkTownSceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
@@ -1110,7 +1111,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 142 ; unused
+	ds 141 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

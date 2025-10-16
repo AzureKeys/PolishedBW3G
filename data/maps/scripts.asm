@@ -37,4 +37,9 @@ SECTION "Indigo Plateau Scripts", ROMX
 INCLUDE "maps/HallOfFame.asm"
 
 
+SECTION "Humilau Scripts", ROMX
+
+INCLUDE "maps/HumilauCity.asm"
+
+
 ENDSECTION

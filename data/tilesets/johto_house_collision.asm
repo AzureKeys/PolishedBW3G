@@ -155,3 +155,15 @@
 	tilecoll WALL, WALL, WALL, WALL ; 9a
 	tilecoll WALL, WALL, WALL, WALL ; 9b
 	tilecoll WALL, STAIRCASE, FLOOR, FLOOR ; 9c
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 9d
+	tilecoll WALL, WINDOW, FLOOR, FLOOR ; 9e
+	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 9f
+	tilecoll WALL, WALL, FRIDGE, WALL ; a0
+	tilecoll FLOOR, WALL, FLOOR, WALL ; a1
+	tilecoll WALL, FLOOR, WALL, FLOOR ; a2
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a3
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; a4
+	tilecoll FLOOR, FLOOR, WALL, FLOOR ; a5
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; a6
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; a7
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a8

@@ -914,6 +914,7 @@ AnimateWhirlpoolTile:
 	inc hl
 	ld h, [hl]
 	ld l, a
+	ld a, 0
 	adc h
 	ld h, a
 

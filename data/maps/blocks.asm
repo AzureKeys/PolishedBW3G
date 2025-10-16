@@ -65,4 +65,8 @@ SECTION "HiddenCaveGrotto_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 
+SECTION "HumilauCity_BlockData", ROMX
+HumilauCity_BlockData:
+	INCBIN "maps/HumilauCity.ablk.lz"
+
 ENDSECTION

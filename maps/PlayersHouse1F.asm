@@ -4,29 +4,29 @@ PlayersHouse1F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  8,  7, NEW_BARK_TOWN, 2
-	warp_event  9,  7, NEW_BARK_TOWN, 2
-	warp_event 11,  0, PLAYERS_HOUSE_2F, 1
+	warp_event  6,  7, HUMILAU_CITY, 1
+	warp_event  7,  7, HUMILAU_CITY, 1
+	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events
-	coord_event 10,  4, 0, MomTrigger1
-	coord_event 11,  4, 0, MomTrigger2
-	coord_event  9,  1, 0, MomTrigger3
-	coord_event  9,  2, 0, MomTrigger4
+	coord_event  8,  4, 0, MomTrigger1
+	coord_event  9,  4, 0, MomTrigger2
+	coord_event  7,  1, 0, MomTrigger3
+	coord_event  7,  2, 0, MomTrigger4
 
 	def_bg_events
-	bg_event  1,  1, BGEVENT_JUMPTEXT, PlayersHouse1FFridgeText
-	bg_event  2,  1, BGEVENT_JUMPTEXT, PlayersHouse1FSinkText
-	bg_event  3,  1, BGEVENT_JUMPTEXT, PlayersHouse1FStoveText
-	bg_event  6,  1, BGEVENT_UP, PlayersHouse1FTVScript
+	bg_event  2,  1, BGEVENT_JUMPTEXT, PlayersHouse1FFridgeText
+	bg_event  0,  1, BGEVENT_JUMPTEXT, PlayersHouse1FSinkText
+	bg_event  1,  1, BGEVENT_JUMPTEXT, PlayersHouse1FStoveText
+	bg_event  4,  1, BGEVENT_UP, PlayersHouse1FTVScript
 
 	def_object_events
-	object_event  9,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
-	object_event  3,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << MORN), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  9,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << DAY), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  6,  3, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << EVE), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  1,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << NITE), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  6,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
+	object_event  7,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
+	object_event  1,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << MORN), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  7,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << DAY), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  4,  3, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << EVE), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  2,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << NITE), 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  4,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
 
 	object_const_def
 	const PLAYERSHOUSE1F_MOM1
