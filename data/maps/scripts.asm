@@ -21,23 +21,15 @@ INCLUDE "maps/BattleTowerHallway.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
 
 
-SECTION "New Bark Scripts", ROMX
-
-INCLUDE "maps/NewBarkTown.asm"
-
-
-SECTION "New Bark Scripts 2", ROMX
-
-INCLUDE "maps/PlayersHouse1F.asm"
-INCLUDE "maps/PlayersHouse2F.asm"
-
-
 SECTION "Indigo Plateau Scripts", ROMX
 
 INCLUDE "maps/HallOfFame.asm"
 
 
 SECTION "Humilau Scripts", ROMX
+
+INCLUDE "maps/PlayersHouse1F.asm"
+INCLUDE "maps/PlayersHouse2F.asm"
 
 INCLUDE "maps/HumilauCity.asm"
 

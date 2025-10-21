@@ -706,7 +706,7 @@ PokegearMap_UpdateCursorPosition:
 	ret
 
 TownMap_GetJohtoLandmarkLimits:
-	lb de, NEW_BARK_TOWN, NEW_BARK_TOWN ; Last, First
+	lb de, POKEMON_LEAGUE, HUMILAU_CITY ; Last, First
 	ret
 
 PokegearRadio_Init:
@@ -1604,12 +1604,12 @@ INCLUDE "data/maps/flypoints.asm"
 FlyMap:
 	push af
 ; Start from New Bark Town
-	ld a, FLY_NEW_BARK
+	ld a, FLY_HUMILAU
 	ld [wTownMapPlayerIconLandmark], a
 ; Flypoints begin at New Bark Town...
 	ld [wStartFlypoint], a
 ; ..and end at Silver Cave
-	ld a, FLY_NEW_BARK
+	ld a, FLY_HUMILAU
 	ld [wEndFlypoint], a
 ; Fill out the map
 	call FillJohtoMap

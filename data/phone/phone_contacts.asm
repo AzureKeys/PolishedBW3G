@@ -12,8 +12,8 @@ PhoneContacts:
 	table_width PHONE_CONTACT_SIZE
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONECONTACT_MOM,      PLAYERS_HOUSE_1F,          %1111, MomPhoneScript,      %0000, UnusedPhoneScript
-	phone TRAINER_NONE, PHONECONTACT_BIKESHOP, NEW_BARK_TOWN,             %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
+	phone TRAINER_NONE, PHONECONTACT_BIKESHOP, HUMILAU_CITY,              %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONECONTACT_BILL,     N_A,                       %1111, BillPhoneScript1,    %0000, BillPhoneScript2
-	phone TRAINER_NONE, PHONECONTACT_ELM,      NEW_BARK_TOWN,             %1111, ElmPhoneScript1,     %0000, ElmPhoneScript2
-	phone TRAINER_NONE, PHONECONTACT_LYRA,     NEW_BARK_TOWN,             %1111, LyraPhoneScript,     %0000, LyraPhoneScript2
+	phone TRAINER_NONE, PHONECONTACT_ELM,      HUMILAU_CITY,              %1111, ElmPhoneScript1,     %0000, ElmPhoneScript2
+	phone TRAINER_NONE, PHONECONTACT_LYRA,     HUMILAU_CITY,              %1111, LyraPhoneScript,     %0000, LyraPhoneScript2
 	assert_table_length NUM_PHONE_CONTACTS + 1

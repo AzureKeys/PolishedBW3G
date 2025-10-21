@@ -9,8 +9,6 @@ MACRO map_attributes
 ENDM
 
 	map_attributes HumilauCity, HUMILAU_CITY, $35, 0
-	
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $5, 0
 
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

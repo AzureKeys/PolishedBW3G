@@ -1,6 +1,6 @@
 ; Johto Pokémon in water
 
-	def_water_wildmons NEW_BARK_TOWN
+	def_water_wildmons HUMILAU_CITY
 	db 6 percent ; encounter rate
 	wildmon 20, RATTATA
 	wildmon 15, RATTATA

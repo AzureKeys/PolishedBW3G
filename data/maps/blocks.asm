@@ -3,9 +3,6 @@ SECTION "Special Map Blockdata", ROMX
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
-KantoPokeCenter2F_BlockData:
-	INCBIN "maps/KantoPokeCenter2F.ablk.lz"
-
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lz"
 
@@ -28,10 +25,6 @@ PlayersHouse1F_BlockData:
 SECTION "PlayersHouse2F_BlockData", ROMX
 PlayersHouse2F_BlockData:
 	INCBIN "maps/PlayersHouse2F.ablk.lz"
-
-SECTION "NewBarkTown_BlockData", ROMX
-NewBarkTown_BlockData:
-	INCBIN "maps/NewBarkTown.ablk.lz"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

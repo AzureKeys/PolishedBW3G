@@ -3,7 +3,6 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const HUMILAU_CITY       ; 01
-	const NEW_BARK_TOWN      ; 01
 	const BATTLE_TOWER       ; 2a
 	const POKEMON_LEAGUE     ; 7c
 DEF KANTO_LANDMARK EQU const_value

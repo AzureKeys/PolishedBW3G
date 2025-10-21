@@ -8,13 +8,11 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140,  28, HumilauCityName
-	landmark 140, 100, NewBarkTownName
 	landmark  28,  52, BattleTowerName
 	landmark  28,  76, PokemonLeagueName
 	assert_table_length NUM_LANDMARKS
 
 HumilauCityName:       rawchar "Humilau¯City@"
-NewBarkTownName:       rawchar "New Bark¯Town@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 SpecialMapName:        rawchar "?@"

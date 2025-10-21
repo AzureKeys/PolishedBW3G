@@ -45,7 +45,6 @@ ENDM
 	map_const HIDDEN_CAVE_GROTTO,                         20, 45 ;  5
 
 	newgroup                                                     ; 24
-	map_const NEW_BARK_TOWN,                              10,  9 ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  6
 	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  7
 	map_const HUMILAU_CITY,                               15, 19 ;  7

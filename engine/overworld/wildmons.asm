@@ -663,15 +663,15 @@ InitRoamMons:
 	ld [wRoamMon2Level], a
 
 ; raikou starting map
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HUMILAU_CITY
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HUMILAU_CITY
 	ld [wRoamMon1MapNumber], a
 
 ; entei starting map
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HUMILAU_CITY
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HUMILAU_CITY
 	ld [wRoamMon2MapNumber], a
 
 ; hp

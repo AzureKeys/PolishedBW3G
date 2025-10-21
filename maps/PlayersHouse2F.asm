@@ -176,7 +176,7 @@ endr
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
 	; fly anywhere
-	setflag ENGINE_FLYPOINT_NEW_BARK
+	setflag ENGINE_FLYPOINT_HUMILAU
 	; magnet train works
 	setevent EVENT_RESTORED_POWER_TO_KANTO
 	; post-e4
@@ -264,7 +264,7 @@ endr
 	setevent EVENT_HOLE_IN_BURNED_TOWER
 	; blackthorn events
 	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
-	warpfacing DOWN, NEW_BARK_TOWN, 15, 6
+	warpfacing DOWN, HUMILAU_CITY, 15, 6
 	closetext
 	end
 

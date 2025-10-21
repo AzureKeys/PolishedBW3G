@@ -68,7 +68,6 @@ DEF ENGINE_BADGES EQU const_value
 ; wVisitedSpawns
 	const ENGINE_FLYPOINT_PLAYERS_HOUSE
 	const ENGINE_FLYPOINT_HUMILAU
-	const ENGINE_FLYPOINT_NEW_BARK
 ; wLuckyNumberShowFlag
 	const ENGINE_LUCKY_NUMBER_SHOW
 ; wDailyFlags1

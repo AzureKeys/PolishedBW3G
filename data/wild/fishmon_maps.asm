@@ -4,5 +4,5 @@ MACRO fishmon_map
 ENDM
 
 FishMonMaps:
-	fishmon_map NEW_BARK_TOWN, FISHGROUP_OCEAN
+	fishmon_map HUMILAU_CITY, FISHGROUP_OCEAN
 	db -1
