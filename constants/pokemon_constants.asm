@@ -22,7 +22,6 @@
 ; - AnimationPointers (see gfx/pokemon/anim_pointers.asm)
 ; - AnimationIdlePointers (see gfx/pokemon/extra_pointers.asm)
 ; - BitmasksPointers (see gfx/pokemon/bitmask_pointers.asm)
-; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 	const_def 1
 	const RATTATA    ; 01
 	const RATICATE   ; 02
