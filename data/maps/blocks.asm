@@ -17,6 +17,10 @@ Colosseum_BlockData:
 SECTION "HiddenTreeGrotto_BlockData", ROMX
 HiddenTreeGrotto_BlockData:
 	INCBIN "maps/HiddenTreeGrotto.ablk.lz"
+	
+SECTION "Pokecenter Blockdata", ROMX
+HumilauPokecenter_BlockData:
+	INCBIN "maps/Pokecenter.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX
 PlayersHouse1F_BlockData:

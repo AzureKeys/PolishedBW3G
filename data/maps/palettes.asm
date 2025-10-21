@@ -25,6 +25,8 @@ ENDM
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    HallOfFamePalette
 	special_bg_pal map,      HIDDEN_TREE_GROTTO,          PAL_SINGLE,    HiddenTreeGrottoPalette
 	special_bg_pal map,      HIDDEN_CAVE_GROTTO,          PAL_SINGLE,    HiddenCaveGrottoPalette
+	special_bg_pal map,      PLAYERS_HOUSE_1F,            PAL_SINGLE,    PlayersHousePalette
+	special_bg_pal map,      PLAYERS_HOUSE_2F,            PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette
@@ -34,6 +36,18 @@ ENDM
 	special_bg_pal tileset,  TILESET_ICE_PATH,            PAL_SINGLE,    IcePathPalette
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
+
+PlayersHousePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/players_house.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
 
 BlindingFlashPalette:
 if !DEF(MONOCHROME)

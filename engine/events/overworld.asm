@@ -196,7 +196,7 @@ CutFunction:
 	dw .FailCut
 
 .CheckAble:
-	ld de, ENGINE_HIVEBADGE
+	ld de, ENGINE_SPOOKYBADGE
 	call CheckBadge
 	jr c, .nohivebadge
 	call CheckMapForSomethingToCut
@@ -481,7 +481,7 @@ SurfFunction:
 	dw .AlreadySurfing
 
 .TrySurf:
-	ld de, ENGINE_FOGBADGE
+	ld de, ENGINE_GARNISHBADGE
 	call CheckBadge
 	jr c, .nofogbadge
 	ld hl, wOWState
@@ -635,7 +635,7 @@ TrySurfOW::
 	call CheckDirection
 	jr c, .quit
 
-	ld de, ENGINE_FOGBADGE
+	ld de, ENGINE_GARNISHBADGE
 	call CheckEngineFlag
 	jr c, .quit
 
@@ -718,7 +718,7 @@ FlyFunction:
 
 .TryFly:
 ; Fly
-	ld de, ENGINE_STORMBADGE
+	ld de, ENGINE_TOXICBADGE
 	call CheckBadge
 	jr c, .nostormbadge
 	call CheckFlyAllowedOnMap
@@ -826,7 +826,7 @@ WaterfallFunction:
 
 .TryWaterfall:
 ; Waterfall
-	ld de, ENGINE_RISINGBADGE
+	ld de, ENGINE_JETBADGE
 	call CheckBadge
 	ld a, $80
 	ret c
@@ -897,7 +897,7 @@ TryWaterfallOW::
 	lb de, WATERFALL, HM_WATERFALL
 	call CheckPartyMove
 	jr c, .failed
-	ld de, ENGINE_RISINGBADGE
+	ld de, ENGINE_JETBADGE
 	call CheckEngineFlag
 	jr c, .failed
 	call CheckMapCanWaterfall
@@ -1132,7 +1132,7 @@ StrengthFunction:
 
 .TryStrength:
 ; Strength
-	ld de, ENGINE_PLAINBADGE
+	ld de, ENGINE_BASICBADGE
 	call CheckBadge
 	jr nc, .UseStrength
 
@@ -1197,7 +1197,7 @@ TryStrengthOW:
 	call CheckPartyMove
 	jr c, .nope
 
-	ld de, ENGINE_PLAINBADGE
+	ld de, ENGINE_BASICBADGE
 	call CheckEngineFlag
 	jr c, .nope
 
@@ -1236,9 +1236,6 @@ Jumptable_cdae:
 	dw .FailWhirlpool
 
 .TryWhirlpool:
-	ld de, ENGINE_GLACIERBADGE
-	call CheckBadge
-	jr c, .noglacierbadge
 	call TryWhirlpoolMenu
 	jr c, .failed
 	ld a, $1
@@ -1345,9 +1342,6 @@ Script_AutoWhirlpool:
 TryWhirlpoolOW::
 	lb de, WHIRLPOOL, HM_WHIRLPOOL
 	call CheckPartyMove
-	jr c, .failed
-	ld de, ENGINE_GLACIERBADGE
-	call CheckEngineFlag
 	jr c, .failed
 	call TryWhirlpoolMenu
 	jr c, .failed
@@ -1930,7 +1924,7 @@ HasCutAvailable::
 	call CheckPartyMove
 	jr c, .no
 
-	ld de, ENGINE_HIVEBADGE
+	ld de, ENGINE_SPOOKYBADGE
 	call CheckEngineFlag
 	jr c, .no
 

@@ -11,8 +11,6 @@ PlayersHouse1F_MapScriptHeader:
 	def_coord_events
 	coord_event  8,  4, 0, MomTrigger1
 	coord_event  9,  4, 0, MomTrigger2
-	coord_event  7,  1, 0, MomTrigger3
-	coord_event  7,  2, 0, MomTrigger4
 
 	def_bg_events
 	bg_event  2,  1, BGEVENT_JUMPTEXT, PlayersHouse1FFridgeText
@@ -43,25 +41,8 @@ MomTrigger2:
 	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
 	turnobject PLAYERSHOUSE1F_MOM1, RIGHT
 	applyonemovement PLAYER, slow_step_left
-	sjumpfwd MomEventScript
+	; fallthrough
 
-MomTrigger3:
-	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
-	turnobject PLAYERSHOUSE1F_MOM1, UP
-	applymovement PLAYER, .two_steps_down
-	sjumpfwd MomEventScript
-
-.two_steps_down
-	step_down
-	step_down
-	step_end
-
-MomTrigger4:
-	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
-	turnobject PLAYERSHOUSE1F_MOM1, UP
-	applyonemovement PLAYER, slow_step_down
 MomEventScript:
 	opentext
 	writetext MomIntroText
@@ -70,10 +51,7 @@ MomEventScript:
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
 	addcellnum PHONE_MOM
-	setscene $1
-	setevent EVENT_PLAYERS_HOUSE_MOM_1
-	clearevent EVENT_PLAYERS_HOUSE_MOM_2
-	writetext MomPokegearText
+	writetext MomWhatDayText
 	promptbutton
 	special Special_SetDayOfWeek
 .InitialSetDSTFlag:
@@ -89,184 +67,285 @@ MomEventScript:
 	yesorno
 	iffalse .InitialSetDSTFlag
 .InitializedDSTFlag:
-	writetext MomRunningShoesText
-	yesorno
-	iftruefwd .NoInstructions
-	writetext MomInstructionsText
-	promptbutton
-.NoInstructions:
 	writetext MomOutroText
 	waitbutton
 	closetext
 	turnobject PLAYERSHOUSE1F_MOM1, LEFT
+	setevent EVENT_PLAYERS_HOUSE_MOM_1
+	clearevent EVENT_PLAYERS_HOUSE_MOM_2
+	setscene $1
 	special RestartMapMusic
 	end
-
-PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
-
-	para "Fresh Water and"
-	line "tasty Lemonade!"
-	done
-
-PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
-	done
-
-PlayersHouse1FStoveText:
-	text "Mom's specialty!"
-
-	para "Cinnabar Volcano"
-	line "Burger!"
-	done
-
-PlayersHouse1FTVScript:
-	jumpthistext
-
-	text "There's a movie on"
-	line "TV: Stars dot the"
-
-	para "sky as two boys"
-	line "ride on a train…"
-
-	para "I'd better get"
-	line "rolling too!"
-	done
 
 MomScript:
 	faceplayer
 	checkscene
 	iffalsefwd .MomEvent
 	opentext
-	checkevent EVENT_FIRST_TIME_BANKING_WITH_MOM
-	iftrue_jumpopenedtext MomDoItText
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftruefwd .BankOfMom
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftruefwd .FirstTimeBanking
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue_jumpopenedtext MomErrandText
+	checkevent EVENT_GOT_A_POKEMON
+	iftrue .GotAPokemon
 	jumpthisopenedtext
 
-	text "Prof.Elm is wait-"
+	text "Marlon is wait-"
 	line "ing for you."
+	
+	para "You remember where"
+	line "he lives, right?"
+	
+	para "It's the house"
+	line "closest to shore."
 
 	para "Hurry up, baby!"
 	done
+	
+.GotAPokemon
+	checkevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
+	iftrue .GotPhoneNumber
+	writetext MomPhoneText
+	promptbutton
+	setevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
+.GotPhoneNumber
+	checkflag ENGINE_POKEDEX
+	iftrue .GotPokedex
+	writetext SoWhatWasMarlonsErrandText
+	waitbutton
+	closetext
+	end
+	
+.GotPokedex:
+	writetext MomHappinessIntroText
+	yesorno
+	iffalse .refused
+	
+	special GetFirstPokemonHappiness
+	writetext MomHappinessText2
+	promptbutton
+	ifgreater 250 - 1, .LovesYouALot
+	ifgreater 200 - 1, .ReallyTrustsYou
+	ifgreater 150 - 1, .SortOfHappy
+	ifgreater 100 - 1, .QuiteCute
+	ifgreater  50 - 1, .NotUsedToYou
+	sjump .LooksMean
 
-.FirstTimeBanking:
-	setevent EVENT_FIRST_TIME_BANKING_WITH_MOM
-.BankOfMom:
-	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	special Special_BankOfMom
-	waitendtext
+.LovesYouALot:
+	writetext MomHappinessRatingText2_LovesYouALot
+	sjump .Outro
+
+.ReallyTrustsYou:
+	writetext MomHappinessRatingText2_ReallyTrustsYou
+	sjump .Outro
+
+.SortOfHappy:
+	writetext MomHappinessRatingText2_SortOfHappy
+	sjump .Outro
+
+.QuiteCute:
+	writetext MomHappinessRatingText2_QuiteCute
+	sjump .Outro
+
+.NotUsedToYou:
+	writetext MomHappinessRatingText2_NotUsedToYou
+	sjump .Outro
+
+.LooksMean:
+	writetext MomHappinessRatingText2_LooksMean
+	
+.Outro
+	promptbutton
+	writetext MomHappinessOutroText
+	waitbutton
+	closetext
+	end
+	
+.refused
+	writetext MomRefusedHappinessText
+	waitbutton
+	closetext
+	end
 
 .MomEvent:
 	playmusic MUSIC_MOM
 	sjump MomEventScript
-
+	
 MomIntroText:
-if DEF(DEBUG)
-	text "Don't forget to use"
-	line "your debug radio!"
-	done
-else
 	text "Oh, <PLAYER>!"
-	line "You're awake."
+	line "It's about time"
+	cont "you got up!"
 
-	para "Your friend Lyra"
-	line "was just here."
+	para "Marlon, the Gym"
+	line "Leader stopped by"
+	cont "asking for you."
+	
+	para "Go stop by his"
+	line "house and see what"
+	cont "he needs."
 
-	para "She said that our"
-	line "neighbor, Prof."
-
-	para "Elm, was looking"
-	line "for you."
-
-	para "Oh! I almost for-"
-	line "got! Your #mon"
-
-	para "Gear is back from"
-	line "the repair shop."
-
-	para "Here you go!"
-	done
-endc
-
-MomPokegearText:
-	text "#mon Gear, or"
-	line "just #gear."
-
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
-
-	para "Oh, the day of the"
-	line "week isn't set."
-
-	para "You mustn't forget"
-	line "that!"
+	para "Oh! And before you"
+	line "go out, make sure"
+	
+	para "you take your"
+	line "X-Transciever with"
+	cont "you."
 	done
 
+MomWhatDayText:
+	text "You can use the"
+	line "X-Transciever to"
+
+	para "check the time,"
+	line "and to make phone"
+	cont "calls."
+	
+	para "Hold on… Remind"
+	line "me, what day is"
+	cont "it today?"
+	done
+	
 MomDSTText:
 	text "Is it Daylight"
 	line "Saving Time now?"
 	done
 
-MomRunningShoesText:
-	text "Come home to"
+MomOutroText:
+	text "Remember, you can"
 	line "adjust your clock"
 
 	para "for Daylight"
-	line "Saving Time."
+	line "Saving Time in the"
+	cont "XTransciever menu."
+	
+	para "Now hurry on over"
+	line "to Marlon's house"
 
-	para "By the way, do"
-	line "you know how to"
-
-	para "use your new"
-	line "Running Shoes?"
+	para "and see what he"
+	line "needs from you!"
+	done
+	
+MomPhoneText:
+	text "Well, <PLAYER>,"
+	line "did you talk to"
+	cont "Marlon?"
+	
+	para "Oh, what's this?"
+	line "A #mon?"
+	cont "Oh, how cute!"
+	
+	para "You know, I spent"
+	line "a lot of time"
+	
+	para "around #mon"
+	line "when I was"
+	cont "younger."
+	
+	para "I'm pretty good at"
+	line "knowing how happy"
+	
+	para "a #mon is with"
+	line "its trainer."
+	
+	para "Give me a call if"
+	line "you want me to"
+	
+	para "tell you how"
+	line "friendly your"
+	
+	para "#mon is toward"
+	line "you!"
 	done
 
-MomInstructionsText:
-	text "I'll read the"
-	line "instructions."
-
-	para "Just hold down the"
-	line "B Button to run,"
-	cont "indoors or out."
-
-	para "Or use the Option"
-	line "to always run, and"
-	cont "hold B to walk."
-	done
-
-MomOutroText:
-	text "Gee, aren't they"
-	line "convenient?"
-	done
-
-MomErrandText:
-	text "So, what was Prof."
-	line "Elm's errand?"
+SoWhatWasMarlonsErrandText:
+	text "So, what did"
+	line "Marlon want?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Oh, he wasn't at"
+	line "home?"
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "That's just like"
+	line "him to wander off"
+	
+	para "somewhere, you'd"
+	line "better go find"
+	cont "him!"
 	done
 
-MomDoItText:
-	text "<PLAYER>, do it!"
+MomHappinessIntroText:
+	text "Hi baby! Welcome"
+	line "home!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "I hope you've been"
+	line "treating your"
+	cont "#mon well."
+
+	para "Would you like me"
+	line "to check how"
+
+	para "friendly your"
+	line "#mon is toward"
+	cont "you?"
+	done
+	
+MomRefusedHappinessText:
+	text "Oh, okay. Well,"
+	line "you stay safe, and"
+	cont "have fun."
+	
+	para "You got this,"
+	line "baby!"
+	done
+	
+MomHappinessText2:
+	text "Oh, let me see"
+	line "your @"
+	text_ram wStringBuffer3
+	text "…"
+	done
+
+MomHappinessRatingText2_LovesYouALot:
+	text "It looks really"
+	line "happy! It must"
+	cont "love you a lot."
+	done
+
+MomHappinessRatingText2_ReallyTrustsYou:
+	text "I get the feeling"
+	line "that it really"
+	cont "trusts you."
+	done
+
+MomHappinessRatingText2_SortOfHappy:
+	text "It's friendly to-"
+	line "ward you. It looks"
+	cont "sort of happy."
+	done
+
+MomHappinessRatingText2_QuiteCute:
+	text "It hasn't yet"
+	line "formed a meaning-"
+	cont "ful bond. Give it"
+	cont "time."
+	done
+
+MomHappinessRatingText2_NotUsedToYou:
+	text "You should treat"
+	line "it better. It's"
+	cont "not used to you."
+	done
+
+MomHappinessRatingText2_LooksMean:
+	text "It doesn't seem to"
+	line "like you at all."
+	cont "It looks mean."
+	done
+	
+MomHappinessOutroText:
+	text "Now, be safe and"
+	line "have fun on your"
+	cont "travels, <PLAYER>."
+	
+	para "You got this,"
+	line "baby!"
 	done
 
 NeighborScript:
@@ -305,31 +384,79 @@ NeighborScript:
 	text "Good morning,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "Your mom and I"
+	line "have a date at"
+	
+	para "the Marine Tube"
+	line "later today!"
 	done
 
 .DayIntroText:
 	text "Hello, <PLAYER>!"
-	line "I'm visiting!"
+
+	para "Your mom and I"
+	line "have a date at"
+	
+	para "the Marine Tube"
+	line "later today!"
 	done
 
 .NiteIntroText:
 	text "Good evening,"
 	line "<PLAYER>!"
 
-	para "I'm visiting!"
+	para "Your mom and I"
+	line "went on a date to"
+	
+	para "the Marine Tube"
+	line "earlier today!"
 	done
 
 .NeighborText:
-	text "<PLAYER>, have you"
+	text "Oh, and have you"
 	line "heard?"
 
 	para "My daughter is"
 	line "adamant about"
 
-	para "becoming Prof."
-	line "Elm's assistant."
+	para "becoming Marlon's"
+	line "assistant when"
+	cont "she gets older."
 
 	para "She really loves"
 	line "#mon!"
+	done
+
+PlayersHouse1FFridgeText:
+	text "Let's see what's"
+	line "in the fridge…"
+
+	para "Fresh Water and"
+	line "tasty Lemonade!"
+	done
+
+PlayersHouse1FSinkText:
+	text "The sink is spot-"
+	line "less. Mom likes it"
+	cont "clean."
+	done
+
+PlayersHouse1FStoveText:
+	text "Mom's specialty!"
+
+	para "Volcano"
+	line "Bake Meat!"
+	done
+
+PlayersHouse1FTVScript:
+	jumpthistext
+
+	text "There's a movie on"
+	line "TV: Stars dot the"
+
+	para "sky as two boys"
+	line "ride on a train…"
+
+	para "I'd better get"
+	line "rolling too!"
 	done

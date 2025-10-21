@@ -5,7 +5,7 @@ MomPhoneScript:
 	iftruefwd MomPhoneLectureScript
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd MomPhoneNoGymQuestScript
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON
 	iftruefwd MomPhoneNoPokedexScript
 	sjumpfwd MomPhoneNoPokemonScript
 

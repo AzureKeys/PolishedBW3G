@@ -139,14 +139,14 @@ endr
 	loadmem wBattlePoints+0, 0
 	loadmem wBattlePoints+1, 250
 	; all badges
-	setflag ENGINE_ZEPHYRBADGE
-	setflag ENGINE_HIVEBADGE
-	setflag ENGINE_PLAINBADGE
-	setflag ENGINE_FOGBADGE
-	setflag ENGINE_STORMBADGE
-	setflag ENGINE_MINERALBADGE
-	setflag ENGINE_GLACIERBADGE
-	setflag ENGINE_RISINGBADGE
+	setflag ENGINE_WAVEBADGE
+	setflag ENGINE_SPOOKYBADGE
+	setflag ENGINE_INSECTBADGE
+	setflag ENGINE_TOXICBADGE
+	setflag ENGINE_BASICBADGE
+	setflag ENGINE_GARNISHBADGE
+	setflag ENGINE_JETBADGE
+	setflag ENGINE_LEGENDBADGE
 	setflag ENGINE_BOULDERBADGE
 	setflag ENGINE_CASCADEBADGE
 	setflag ENGINE_THUNDERBADGE
@@ -283,7 +283,7 @@ endc
 
 ;else
 
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON
 	iftruefwd .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
 	iftruefwd .AbbreviatedRadio
