@@ -27,6 +27,7 @@ ENDM
 	special_bg_pal map,      HIDDEN_CAVE_GROTTO,          PAL_SINGLE,    HiddenCaveGrottoPalette
 	special_bg_pal map,      PLAYERS_HOUSE_1F,            PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal map,      PLAYERS_HOUSE_2F,            PAL_SINGLE,    PlayersHousePalette
+	special_bg_pal map,      MARLONS_HOUSE,               PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette

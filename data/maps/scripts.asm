@@ -33,6 +33,7 @@ INCLUDE "maps/PlayersHouse2F.asm"
 
 INCLUDE "maps/HumilauCity.asm"
 INCLUDE "maps/HumilauPokecenter.asm"
+INCLUDE "maps/MarlonsHouse.asm"
 
 
 ENDSECTION

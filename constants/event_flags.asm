@@ -37,13 +37,13 @@
 ; Humilau City
 	const EVENT_GOT_A_POKEMON
 	const EVENT_TALKED_TO_MOM_AFTER_POKEMON
+	const EVENT_GOT_SNIVY
+	const EVENT_GOT_TEPIG
+	const EVENT_GOT_OSHAWOTT
 	
 ; Undella Town
 	const EVENT_MET_MARLON_IN_UNDELLA
 	
-	const EVENT_GOT_CHIKORITA_FROM_ELM
-	const EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-	const EVENT_GOT_POKEDEX_FROM_OAK
 	const EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	const EVENT_INTRODUCED_TEALA
 	const EVENT_INTRODUCED_FELICITY
@@ -1648,11 +1648,15 @@
 ; The map script command macros `disappear` and `appear` set/clear these flags and immediately apply the effect on visibility.
 ; The map script command macros `setevent` and `clearevent` set/clear these flags, and their effects will be seen when the map is reloaded.
 
-; Johto itemballs
-	const EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
-	const EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
-	const EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
-	const EVENT_VIOLET_CITY_PP_UP
+; ITEM BALLS
+
+; Humilau City
+	const EVENT_HUMILAU_CITY_SHELL_BELL
+	
+	const EVENT_MARLONS_HOUSE_SNIVY_BALL
+	const EVENT_MARLONS_HOUSE_TEPIG_BALL
+	const EVENT_MARLONS_HOUSE_OSHAWOTT_BALL
+	
 	const EVENT_VIOLET_CITY_RARE_CANDY
 	const EVENT_LAKE_OF_RAGE_ELIXIR
 	const EVENT_LAKE_OF_RAGE_MAX_REVIVE

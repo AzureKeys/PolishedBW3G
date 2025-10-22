@@ -66,4 +66,8 @@ SECTION "HumilauCity_BlockData", ROMX
 HumilauCity_BlockData:
 	INCBIN "maps/HumilauCity.ablk.lz"
 
+SECTION "MarlonsHouse_BlockData", ROMX
+MarlonsHouse_BlockData:
+	INCBIN "maps/HumilauCity.ablk.lz"
+
 ENDSECTION

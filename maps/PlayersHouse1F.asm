@@ -83,7 +83,7 @@ MomScript:
 	iffalsefwd .MomEvent
 	opentext
 	checkevent EVENT_GOT_A_POKEMON
-	iftrue .GotAPokemon
+	iftruefwd .GotAPokemon
 	jumpthisopenedtext
 
 	text "Marlon is wait-"
@@ -100,13 +100,13 @@ MomScript:
 	
 .GotAPokemon
 	checkevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
-	iftrue .GotPhoneNumber
+	iftruefwd .GotPhoneNumber
 	writetext MomPhoneText
 	promptbutton
 	setevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
 .GotPhoneNumber
 	checkflag ENGINE_POKEDEX
-	iftrue .GotPokedex
+	iftruefwd .GotPokedex
 	writetext SoWhatWasMarlonsErrandText
 	waitbutton
 	closetext
@@ -115,7 +115,7 @@ MomScript:
 .GotPokedex:
 	writetext MomHappinessIntroText
 	yesorno
-	iffalse .refused
+	iffalsefwd .refused
 	
 	special GetFirstPokemonHappiness
 	writetext MomHappinessText2
@@ -125,27 +125,27 @@ MomScript:
 	ifgreater 150 - 1, .SortOfHappy
 	ifgreater 100 - 1, .QuiteCute
 	ifgreater  50 - 1, .NotUsedToYou
-	sjump .LooksMean
+	sjumpfwd .LooksMean
 
 .LovesYouALot:
 	writetext MomHappinessRatingText2_LovesYouALot
-	sjump .Outro
+	sjumpfwd .Outro
 
 .ReallyTrustsYou:
 	writetext MomHappinessRatingText2_ReallyTrustsYou
-	sjump .Outro
+	sjumpfwd .Outro
 
 .SortOfHappy:
 	writetext MomHappinessRatingText2_SortOfHappy
-	sjump .Outro
+	sjumpfwd .Outro
 
 .QuiteCute:
 	writetext MomHappinessRatingText2_QuiteCute
-	sjump .Outro
+	sjumpfwd .Outro
 
 .NotUsedToYou:
 	writetext MomHappinessRatingText2_NotUsedToYou
-	sjump .Outro
+	sjumpfwd .Outro
 
 .LooksMean:
 	writetext MomHappinessRatingText2_LooksMean

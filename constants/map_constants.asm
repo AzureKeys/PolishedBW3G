@@ -49,5 +49,6 @@ ENDM
 	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  2
 	map_const HUMILAU_CITY,                               15, 19 ;  3
 	map_const HUMILAU_POKECENTER,                          5,  5 ;  4
+	map_const MARLONS_HOUSE,                               5,  4 ;  5
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

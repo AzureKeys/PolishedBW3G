@@ -20,9 +20,16 @@ HumilauCity_MapScriptHeader:
 	def_object_events
 	object_event  1,  8, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauNeighborTextScript, -1
 	object_event  3, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptext, HumilauPCBlockerText, EVENT_HUMILAU_CITY_PC_BLOCKER
-	object_event  1,  8, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauGymBlockerText, EVENT_HUMILAU_CITY_BLOCKERS
-	object_event  1,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauMarineTubeBlockerText, EVENT_HUMILAU_CITY_BLOCKERS
-	object_event  1,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauRoamingBlockerText, EVENT_HUMILAU_CITY_ROAMING_BLOCKER
+	object_event  8, 24, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauGymBlockerText, EVENT_HUMILAU_CITY_BLOCKERS
+	object_event 17, 30, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauMarineTubeBlockerText, EVENT_HUMILAU_CITY_BLOCKERS
+	object_event 13, 27, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauRoamingBlockerText, EVENT_HUMILAU_CITY_ROAMING_BLOCKER
+	object_event  8, 34, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityCooltrainerFText, -1
+	object_event 10, 33, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 3, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityCooltrainerMText, -1
+	object_event 17, 16, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityFisherText, -1
+	object_event 17,  9, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityLassText, -1
+	object_event 11,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityYoungsterText, -1
+	object_event 24,  8, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 3, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityTeacherText, -1
+	itemball_event 21, 24, SHELL_BELL, 1, EVENT_HUMILAU_CITY_SHELL_BELL
 	
 	object_const_def
 	const HUMILAUCITY_NEIGHBOR
@@ -34,19 +41,19 @@ HumilauCity_MapScriptHeader:
 HumilauFlyPoint:
 	setflag ENGINE_FLYPOINT_HUMILAU
 	checkevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
-	iftrue .done
+	iftruefwd .done
 	checkflag ENGINE_WAVEBADGE
-	iffalse .done
+	iffalsefwd .done
 	;specialphonecall SPECIALCALL_MOM_LECTURE
 .done
 	endcallback
 
 HumilauBlockers:
 	checkevent EVENT_GOT_A_POKEMON
-	iffalse .done
+	iffalsefwd .done
 	disappear HUMILAUCITY_PC_BLOCKER
 	checkevent EVENT_MET_MARLON_IN_UNDELLA
-	iffalse .done
+	iffalsefwd .done
 	disappear HUMILAUCITY_GYM_BLOCKER
 	disappear HUMILAUCITY_MARINETUBE_BLOCKER
 	appear HUMILAUCITY_BLOCKER_ROAMING
@@ -68,7 +75,7 @@ HumilauNeighborTextScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_A_POKEMON
-	iftrue HumilauCityNeighborText_PokemonScript
+	iftruefwd HumilauCityNeighborText_PokemonScript
 	writetext HumilauCityNeighborText_Dangerous
 	waitbutton
 	closetext
@@ -150,6 +157,68 @@ HumilauPCBlockerText:
 	para "Which #mon"
 	line "should I take"
 	cont "with me today…?"
+	done
+	
+HumilauCityFisherText:
+	text "Technology is"
+	line "incredible!"
+	
+	para "People can now"
+	line "modify games and"
+	
+	para "share them on"
+	line "the internet!"
+	done
+	
+HumilauCityLassText:
+	text "Isn't it peaceful"
+	line "living out here"
+	cont "on the waves?"
+	done
+	
+HumilauCityCooltrainerFText:
+	text "Wow, the ocean"
+	line "view is so"
+	cont "beautiful!"
+	done
+	
+HumilauCityCooltrainerMText:
+	text "I took my girl-"
+	line "friend on vacation"
+	cont "here."
+	
+	para "It sure must be"
+	line "nice living out"
+	cont "here!"
+	done
+	
+HumilauCityYoungsterText:
+	text "I want to go play"
+	line "in the grass, but"
+	
+	para "my mom says it's"
+	line "dangerous."
+	
+	para "I sure wish I had"
+	line "a #mon to take"
+	cont "with me!"
+	done
+	
+HumilauCityTeacherText:
+	text "Hi, <PLAYER>."
+	
+	para "If you're planning"
+	line "on leaving town,"
+	
+	para "It's a good idea"
+	line "to stop by the"
+	cont "# Mart."
+	
+	para "They have all"
+	line "kinds of things"
+	
+	para "that will help"
+	line "you out!"
 	done
 	
 HumilauCitySignText:
