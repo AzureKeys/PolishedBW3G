@@ -392,7 +392,7 @@ Music_HumilauCity_Ch1_loop:
 	rest 1
 	note G_, 1
 	rest 1
-	sound_jump, Music_HumilauCity_Ch1_loop
+	sound_jump Music_HumilauCity_Ch1_loop
 
 Music_HumilauCity_Ch2: ; ef3eb
 	vibrato 18, 2, 5
@@ -822,7 +822,7 @@ Music_HumilauCity_Ch2_loop:
 	rest 1
 	note C_, 1
 	rest 1
-	sound_jump, Music_HumilauCity_Ch2_loop
+	sound_jump Music_HumilauCity_Ch2_loop
 
 Music_HumilauCity_Ch3: ; ef4e1
 	stereo_panning TRUE, TRUE
@@ -1325,7 +1325,7 @@ Music_HumilauCity_Ch3_loop:
 	rest 2
 	octave 1
 	note B_, 6
-	sound_jump, Music_HumilauCity_Ch3_loop
+	sound_jump Music_HumilauCity_Ch3_loop
 
 Music_HumilauCity_Ch4: ; f517a
 	toggle_noise $3
@@ -1340,4 +1340,4 @@ Music_HumilauCity_Ch4_loop:
 	drum_note 4, 2
 	drum_note 1, 2
 	drum_note 4, 2
-	sound_jump, Music_HumilauCity_Ch4_loop
+	sound_jump Music_HumilauCity_Ch4_loop

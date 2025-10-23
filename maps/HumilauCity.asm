@@ -19,16 +19,16 @@ HumilauCity_MapScriptHeader:
 	
 	def_object_events
 	object_event  1,  8, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauNeighborTextScript, -1
-	object_event  3, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptext, HumilauPCBlockerText, EVENT_HUMILAU_CITY_PC_BLOCKER
+	object_event  3, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptext, HumilauPCBlockerText, EVENT_HUMILAU_CITY_PC_BLOCKER
 	object_event  8, 24, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauGymBlockerText, EVENT_HUMILAU_CITY_BLOCKERS
 	object_event 17, 30, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauMarineTubeBlockerText, EVENT_HUMILAU_CITY_BLOCKERS
 	object_event 13, 27, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauRoamingBlockerText, EVENT_HUMILAU_CITY_ROAMING_BLOCKER
 	object_event  8, 34, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityCooltrainerFText, -1
 	object_event 10, 33, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 3, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityCooltrainerMText, -1
-	object_event 17, 16, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityFisherText, -1
+	object_event 17, 16, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityFisherText, -1
 	object_event 17,  9, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityLassText, -1
 	object_event 11,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityYoungsterText, -1
-	object_event 24,  8, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 3, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityTeacherText, -1
+	object_event 24,  8, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 3, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauCityTeacherText, -1
 	itemball_event 21, 24, SHELL_BELL, 1, EVENT_HUMILAU_CITY_SHELL_BELL
 	
 	object_const_def
