@@ -30,7 +30,7 @@
 	tilecoll WALL, WALL, DOOR, WALL ; 1d
 	tilecoll WALL, WALL, WALL, WALL ; 1e
 	tilecoll WALL, WALL, WALL, WALL ; 1f
-	tilecoll WALL, WATER, WALL, WATER ; 20
+	tilecoll BUOY, WATER, BUOY, WATER ; 20
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 21
 	tilecoll WALL, WALL, WALL, WALL ; 22
 	tilecoll WALL, WALL, WALL, WALL ; 23

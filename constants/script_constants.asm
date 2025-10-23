@@ -194,51 +194,13 @@ DEF EMOTE_FROM_MEM EQU -1
 	const FRUITTREE_ROUTE_42_2        ; 06
 	const FRUITTREE_ROUTE_42_3        ; 07
 DEF FIRST_BERRY_TREE EQU const_value
-	const FRUITTREE_ROUTE_29          ; 08
-	const FRUITTREE_ROUTE_30_1        ; 09
-	const FRUITTREE_ROUTE_30_2        ; 0a
-	const FRUITTREE_ROUTE_31          ; 0b
-	const FRUITTREE_VIOLET_CITY       ; 0c
-	const FRUITTREE_ROUTE_32_COAST    ; 0d
-	const FRUITTREE_ROUTE_33          ; 0e
-	const FRUITTREE_ROUTE_35          ; 0f
-	const FRUITTREE_ROUTE_36          ; 10
-	const FRUITTREE_ROUTE_38          ; 11
-	const FRUITTREE_ROUTE_39          ; 12
-	const FRUITTREE_ROUTE_43          ; 13
-	const FRUITTREE_ROUTE_44          ; 14
-	const FRUITTREE_ROUTE_45          ; 15
-	const FRUITTREE_ROUTE_46_1        ; 16
-	const FRUITTREE_ROUTE_46_2        ; 17
-	const FRUITTREE_ROUTE_27          ; 18
-	const FRUITTREE_ROUTE_26          ; 19
-	const FRUITTREE_ROUTE_8           ; 1a
-	const FRUITTREE_ROUTE_11          ; 1b
-	const FRUITTREE_FUCHSIA_CITY      ; 1c
-	const FRUITTREE_PEWTER_CITY_1     ; 1d
-	const FRUITTREE_PEWTER_CITY_2     ; 1e
-	const FRUITTREE_ROUTE_2           ; 1f
-	const FRUITTREE_ROUTE_1           ; 20
-	const FRUITTREE_LUCKY_ISLAND      ; 21
-	const FRUITTREE_SHAMOUTI_ISLAND   ; 22
-	const FRUITTREE_ROUTE_49          ; 23
-	const FRUITTREE_ROUTE_6           ; 24
-	const FRUITTREE_ROUTE_14          ; 25
-	const FRUITTREE_ROUTE_21          ; 26
-	const FRUITTREE_ROUTE_24          ; 27
-	const FRUITTREE_VIOLET_OUTSKIRTS  ; 28
-	const FRUITTREE_CHERRYGROVE_BAY_1 ; 29
-	const FRUITTREE_CHERRYGROVE_BAY_2 ; 2a
-	const FRUITTREE_CHERRYGROVE_BAY_3 ; 2b
-	const FRUITTREE_CHERRYGROVE_BAY_4 ; 2c
-	const FRUITTREE_CHERRYGROVE_BAY_5 ; 2d
-	const FRUITTREE_CHERRYGROVE_BAY_6 ; 2e
+	const FRUITTREE_ROUTE_22          ; 08
 DEF NUM_FRUIT_TREES EQU const_value - 1
 
 ; hidden grottoes
 ; HiddenGrottoData indexes (see data/events/hidden_grottoes/grottoes.asm)
 	const_def 1
-	const HIDDENGROTTO_ROUTE_32                ; 01
+	const HIDDENGROTTO_ROUTE_22                ; 01
 	const HIDDENGROTTO_ILEX_FOREST             ; 02
 	const HIDDENGROTTO_ROUTE_35                ; 03
 	const HIDDENGROTTO_ROUTE_36                ; 04

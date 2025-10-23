@@ -3,8 +3,6 @@ MomPhoneScript:
 	iftruefwd .bcec5
 	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
 	iftruefwd MomPhoneLectureScript
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftruefwd MomPhoneNoGymQuestScript
 	checkevent EVENT_GOT_A_POKEMON
 	iftruefwd MomPhoneNoPokedexScript
 	sjumpfwd MomPhoneNoPokemonScript

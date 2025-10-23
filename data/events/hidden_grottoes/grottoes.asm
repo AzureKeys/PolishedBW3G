@@ -7,8 +7,8 @@ HiddenGrottoData:
 	; dp uncommon mon
 	; dp rare mon
 
-; HIDDENGROTTO_ROUTE_32
-	db 5, EVERSTONE, 5
+; HIDDENGROTTO_ROUTE_22
+	db 1, EVERSTONE, 5
 	dp MAREEP
 	dp RATTATA
 	dp RATTATA

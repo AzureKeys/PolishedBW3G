@@ -188,6 +188,7 @@
 	const MUSIC_PRINTER                        ; b8
 	const MUSIC_TITLE_XY                       ; b9
 	const MUSIC_HUMILAU_CITY                   ; b9
+	const MUSIC_ROUTE_22                       ; b9
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

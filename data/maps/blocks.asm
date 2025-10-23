@@ -70,4 +70,8 @@ SECTION "MarlonsHouse_BlockData", ROMX
 MarlonsHouse_BlockData:
 	INCBIN "maps/HumilauCity.ablk.lz"
 
+SECTION "Route22_BlockData", ROMX
+Route22_BlockData:
+	INCBIN "maps/Route22.ablk.lz"
+
 ENDSECTION

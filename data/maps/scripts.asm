@@ -36,4 +36,9 @@ INCLUDE "maps/HumilauPokecenter.asm"
 INCLUDE "maps/MarlonsHouse.asm"
 
 
+SECTION "Route 22 Scripts", ROMX
+
+INCLUDE "maps/Route22.asm"
+
+
 ENDSECTION

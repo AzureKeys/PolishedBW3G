@@ -188,4 +188,5 @@ Music:
 	dba Music_Printer
 	dba Music_TitleScreenXY
 	dba Music_HumilauCity
+	dba Music_UnovaRoute1
 	assert_table_length NUM_MUSIC_SONGS

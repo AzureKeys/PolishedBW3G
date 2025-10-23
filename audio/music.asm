@@ -544,4 +544,7 @@ INCLUDE "audio/music/m02/lugiassong.asm"
 SECTION "Song - humilaucity", ROMX
 INCLUDE "audio/music/humilaucity.asm"
 
+SECTION "Song - route22", ROMX
+INCLUDE "audio/music/route22.asm"
+
 ENDSECTION
