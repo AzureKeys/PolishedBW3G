@@ -6772,3 +6772,58 @@ CheckBattleEffects:
 .off
 	scf
 	ret
+
+BattleCommand_burnflinchtarget:
+	call GetStatusFlinch
+	sra b
+	push bc
+	jr nc, .skip_status
+	call BattleCommand_burntarget
+.skip_status
+	pop bc
+	sra b
+	ret nc
+	call BattleCommand_flinchtarget
+	ret
+
+BattleCommand_freezeflinchtarget:
+	call GetStatusFlinch
+	sra b
+	push bc
+	jr nc, .skip_status
+	call BattleCommand_freezetarget
+.skip_status
+	pop bc
+	sra b
+	ret nc
+	call BattleCommand_flinchtarget
+	ret
+ 
+ BattleCommand_paralyzeflinchtarget:
+	call GetStatusFlinch
+	sra b
+	push bc
+	jr nc, .skip_status
+	call BattleCommand_paralyzetarget
+.skip_status
+	pop bc
+	sra b
+	ret nc
+	call BattleCommand_flinchtarget
+	ret
+
+GetStatusFlinch:
+	ld b, 0
+	ld a, [wEffectFailed]
+	and a
+	ret nz
+	ld a, 19
+	call BattleRandomRange
+	and a
+	ld b, %11
+	ret z
+	cp a, 10
+	ld b, %10
+	ret c
+	ld b, %01
+	ret

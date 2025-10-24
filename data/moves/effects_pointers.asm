@@ -154,4 +154,7 @@ MoveEffectsPointers:
 	dw BrickBreak
 	dw TrickRoom
 	dw Overheat
+	dw BurnFlinchHit
+	dw ParalyzeFlinchHit
+	dw FreezeFlinchHit
 	assert_table_length NUM_MOVE_EFECTS

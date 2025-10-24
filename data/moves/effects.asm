@@ -2124,3 +2124,72 @@ Overheat:
 	postfainteffects
 	posthiteffects
 	endmove
+
+BurnFlinchHit:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	burnflinchtarget
+	endmove
+
+FreezeFlinchHit:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	freezeflinchtarget
+	endmove
+
+ParalyzeFlinchHit:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	paralyzeflinchtarget
+	endmove

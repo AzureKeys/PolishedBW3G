@@ -11,7 +11,7 @@
 	const LEAF_STORM    ; $03
 	const AERIAL_ACE    ; $04
 	const DRAGON_CLAW   ; $05
-	const UNUSED_MOVE_3 ; $06
+	const FIRE_FANG     ; $06
 	const FIRE_PUNCH    ; $07
 	const ICE_PUNCH     ; $08
 	const THUNDERPUNCH  ; $09

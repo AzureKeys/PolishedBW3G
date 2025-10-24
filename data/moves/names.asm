@@ -5,7 +5,7 @@ MoveNames::
 	li "Leaf Storm"
 	li "Aerial Ace"
 	li "Dragon Claw"
-	li "UNUSED"
+	li "Fire Fang"
 	li "Fire Punch"
 	li "Ice Punch"
 	li "ThunderPunch"

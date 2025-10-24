@@ -1,4 +1,3 @@
-BattleAnim_Unused3:
 BattleAnim_Unused4:
 BattleAnim_Unused5:
 BattleAnim_Unused6:
@@ -21,6 +20,33 @@ BattleAnim_Unused22:
 BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
+BattleAnim_FireFang:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_FIRE
+	anim_obj ANIM_OBJ_BITE, 136, 56, $98
+	anim_obj ANIM_OBJ_BITE, 136, 56, $18
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG, 136, 56, $0
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 8
+	anim_clearobjs
+	anim_wait 1
+	anim_sound 0, 0, SFX_BURN
+	anim_obj ANIM_OBJ_HIT_YFIX, 136, 48, $0
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $6
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $16
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $26
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $36
+	anim_wait 6
+	anim_sound 0, 0, SFX_BURN
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $e
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $1e
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $2e
+	anim_obj ANIM_OBJ_RADIAL_FLAME_SLOW, 136, 48, $3e
+	anim_wait 32
+	anim_ret
+	
 BattleAnim_LeafStorm:
 	anim_1gfx ANIM_GFX_LEAF_STORM
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN

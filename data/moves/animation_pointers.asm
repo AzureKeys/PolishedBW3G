@@ -8,7 +8,7 @@ BattleAnimations::
 	fardw BattleAnim_LeafStorm
 	fardw BattleAnim_AerialAce
 	fardw BattleAnim_DragonClaw
-	fardw BattleAnim_Unused3
+	fardw BattleAnim_FireFang
 	fardw BattleAnim_FirePunch
 	fardw BattleAnim_IcePunch
 	fardw BattleAnim_Thunderpunch

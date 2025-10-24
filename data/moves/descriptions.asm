@@ -6,7 +6,7 @@ MoveDescriptions::
 	dw LeafStormDescription
 	dw AerialAceDescription
 	dw DragonClawDescription
-	dw Unused3Description
+	dw FireFangDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
@@ -918,9 +918,9 @@ DoubleKickDescription:
 	next "attack."
 	done
 
-Unused3Description:
-	text "Throws coins. Gets"
-	next "them back later."
+FireFangDescription:
+	text "May burn or"
+	next "flinch target."
 	done
 
 SuckerPunchDescription:
