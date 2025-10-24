@@ -141,7 +141,6 @@ MeowthGalarianEggSpeciesMoves:
 PsyduckEggSpeciesMoves:
 	dp PSYDUCK, PLAIN_FORM
 	db CONFUSE_RAY
-	db CROSS_CHOP
 	db ENCORE
 	db FORESIGHT
 	db FUTURE_SIGHT
@@ -622,7 +621,6 @@ HoundourEggSpeciesMoves:
 ElekidEggSpeciesMoves:
 	dp ELEKID, PLAIN_FORM
 	db BARRIER
-	db CROSS_CHOP
 	db BULK_UP
 	db $ff
 
@@ -630,7 +628,6 @@ MagbyEggSpeciesMoves:
 	dp MAGBY, PLAIN_FORM
 	db BARRIER
 	db BELLY_DRUM
-	db CROSS_CHOP
 	db FLARE_BLITZ
 	db FOCUS_ENERGY
 	db MACH_PUNCH

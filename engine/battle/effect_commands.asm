@@ -308,8 +308,6 @@ BattleCommand_checkturn:
 	; Sacred Fire, Scald, and Flare Blitz thaw the user.
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp SACRED_FIRE
-	jr z, .thaw
 	cp SCALD
 	jr z, .thaw
 	cp FLARE_BLITZ
@@ -5885,7 +5883,6 @@ BattleCommand_traptarget:
 .Traps:
 	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
-	dbw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
 
 BattleCommand_recoil:
 	ld a, BATTLE_VARS_MOVE_ANIM

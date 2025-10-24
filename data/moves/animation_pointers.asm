@@ -223,7 +223,7 @@ BattleAnimations::
 	fardw BattleAnim_BugBuzz
 	fardw BattleAnim_Safeguard
 	fardw BattleAnim_PainSplit
-	fardw BattleAnim_SacredFire
+	fardw BattleAnim_Unused23
 	fardw BattleAnim_Magnitude
 	fardw BattleAnim_Dynamicpunch
 	fardw BattleAnim_Megahorn
@@ -240,7 +240,7 @@ BattleAnimations::
 	fardw BattleAnim_Hurricane
 	fardw BattleAnim_KnockOff
 	fardw BattleAnim_HiddenPower
-	fardw BattleAnim_CrossChop
+	fardw BattleAnim_Unused24
 	fardw BattleAnim_AquaJet
 	fardw BattleAnim_RainDance
 	fardw BattleAnim_SunnyDay
@@ -252,7 +252,7 @@ BattleAnimations::
 	fardw BattleAnim_ShadowBall
 	fardw BattleAnim_FutureSight
 	fardw BattleAnim_BrickBreak
-	fardw BattleAnim_Whirlpool
+	fardw BattleAnim_Unused25
 	fardw BattleAnim_DarkPulse
 	fardw BattleAnim_Moonblast
 	fardw BattleAnim_PlayRough

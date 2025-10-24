@@ -221,7 +221,7 @@ MoveDescriptions::
 	dw BugBuzzDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
-	dw SacredFireDescription
+	dw Unused23Description
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
@@ -238,7 +238,7 @@ MoveDescriptions::
 	dw HurricaneDescription
 	dw KnockOffDescription
 	dw HiddenPowerDescription
-	dw CrossChopDescription
+	dw Unused24Description
 	dw AquaJetDescription
 	dw RainDanceDescription
 	dw SunnyDayDescription
@@ -250,7 +250,7 @@ MoveDescriptions::
 	dw ShadowBallDescription
 	dw FutureSightDescription
 	dw BrickBreakDescription
-	dw WhirlpoolDescription
+	dw Unused25Description
 	dw DarkPulseDescription
 	dw MoonblastDescription
 	dw PlayRoughDescription
@@ -274,7 +274,7 @@ Unused15Description:
 Unused20Description:
 RazorLeafDescription:
 SlashDescription:
-CrossChopDescription:
+Unused25Description:
 NightSlashDescription:
 ShadowClawDescription:
 StoneEdgeDescription:
@@ -368,10 +368,10 @@ GunkShotDescription:
 	next "poison the foe."
 	done
 
+Unused23Description:
 EmberDescription:
 FlamethrowerDescription:
 FireBlastDescription:
-SacredFireDescription:
 ScaldDescription:
 	text "An attack that may"
 	next "inflict a burn."
@@ -704,8 +704,8 @@ OutrageDescription:
 	next "and confuses user."
 	done
 
+Unused24Description:
 FireSpinDescription:
-WhirlpoolDescription:
 WrapDescription:
 	text "Traps the foe for"
 	next "2-5 turns."

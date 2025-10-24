@@ -1312,18 +1312,6 @@ Script_AutoWhirlpool:
 	step_end
 
 TryWhirlpoolOW::
-	lb de, WHIRLPOOL, HM_WHIRLPOOL
-	call CheckPartyMove
-	jr c, .failed
-	call TryWhirlpoolMenu
-	jr c, .failed
-	ld a, BANK(Script_AskWhirlpoolOW)
-	ld hl, Script_AskWhirlpoolOW
-	call CallScript
-	scf
-	ret
-
-.failed
 	ld a, BANK(Script_MightyWhirlpool)
 	ld hl, Script_MightyWhirlpool
 	call CallScript

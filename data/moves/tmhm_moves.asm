@@ -81,7 +81,7 @@ TMHMMoves:
 	db FLY          ; HM02 (Cianwood City)
 	db SURF         ; HM03 (Ecruteak City)
 	db STRENGTH     ; HM04 (Cianwood City)
-	db WHIRLPOOL    ; HM05 (Route 42)
+	db UNUSED_MOVE_24; HM05 (Route 42)
 	db WATERFALL    ; HM06 (Ice Path)
 	assert_table_length NUM_TMS + NUM_HMS
 	db AGILITY      ; MT01 (Mahogany Mart)

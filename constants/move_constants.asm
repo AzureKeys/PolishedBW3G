@@ -226,7 +226,7 @@
 	const BUG_BUZZ      ; $da
 	const SAFEGUARD     ; $db
 	const PAIN_SPLIT    ; $dc
-	const SACRED_FIRE   ; $dd
+	const UNUSED_MOVE_23; $dd
 	const MAGNITUDE     ; $de
 	const DYNAMICPUNCH  ; $df
 	const MEGAHORN      ; $e0
@@ -243,7 +243,7 @@
 	const HURRICANE     ; $eb
 	const KNOCK_OFF     ; $ec
 	const HIDDEN_POWER  ; $ed
-	const CROSS_CHOP    ; $ee
+	const UNUSED_MOVE_24; $ee
 	const AQUA_JET      ; $ef
 	const RAIN_DANCE    ; $f0
 	const SUNNY_DAY     ; $f1
@@ -255,7 +255,7 @@
 	const SHADOW_BALL   ; $f7
 	const FUTURE_SIGHT  ; $f8
 	const BRICK_BREAK   ; $f9
-	const WHIRLPOOL     ; $fa
+	const UNUSED_MOVE_25; $fa
 	const DARK_PULSE    ; $fb
 	const MOONBLAST     ; $fc
 	const PLAY_ROUGH    ; $fd
