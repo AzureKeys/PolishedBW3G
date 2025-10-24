@@ -197,6 +197,7 @@ AnimObjBeamSolarGFX::    INCBIN "gfx/battle_anims/beamsolar.2bpp.lz"
 AnimObjGlowShadowGFX::   INCBIN "gfx/battle_anims/glow_shadow.2bpp.lz"
 AnimObjPetalsGFX::       INCBIN "gfx/battle_anims/petals.2bpp.lz"
 AnimObjPokeBallBGGFX::   INCBIN "gfx/battle_balls/background.2bpp.lz"
+AnimObjLeafStormGFX:     INCBIN "gfx/battle_anims/leafstorm.2bpp.lz"
 
 
 SECTION "Weather Icons", ROMX

@@ -1,4 +1,3 @@
-BattleAnim_Unused2:
 BattleAnim_Unused3:
 BattleAnim_Unused4:
 BattleAnim_Unused5:
@@ -22,6 +21,60 @@ BattleAnim_Unused22:
 BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
+BattleAnim_LeafStorm:
+	anim_1gfx ANIM_GFX_LEAF_STORM
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GREEN
+	anim_4gfx ANIM_GFX_VORTEX, ANIM_GFX_LEAF_STORM, ANIM_GFX_WIND_BG, ANIM_GFX_SWIRL
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $6, $0
+	anim_obj ANIM_OBJ_AGILITY, 8, 24, $10
+	anim_obj ANIM_OBJ_AGILITY, 8, 48, $2
+	anim_wait 4
+	anim_obj ANIM_OBJ_AGILITY, 8, 56, $c
+	anim_obj ANIM_OBJ_AGILITY, 8, 80, $4
+	anim_obj ANIM_OBJ_AGILITY, 8, 104, $e
+	anim_sound 0, 1, SFX_OUTRAGE
+.loop
+	anim_obj ANIM_OBJ_SWIRL_SHORT, 44, 96, $0
+	anim_wait 8
+	anim_loop 4, .loop
+	anim_obj ANIM_OBJ_VORTEX, 44, 96, $0
+	anim_wait 32
+	anim_clearobjs
+	anim_setobjpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_GREEN
+	anim_obj ANIM_OBJ_VORTEX, 44, 96, $0
+	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
+	anim_obj ANIM_OBJ_LEAF_STORM_SMALL_LEAF, 44, 80, $18
+	anim_wait 2
+	anim_obj ANIM_OBJ_LEAF_STORM_BIG_LEAF, 44, 92, $18
+	anim_wait 2
+	anim_obj ANIM_OBJ_LEAF_STORM_SMALL_LEAF, 44, 112, $18
+	anim_wait 2
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $2, $0
+.loop2
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_obj ANIM_OBJ_LEAF_STORM_BIG_LEAF, 44, 96, $18
+	anim_wait 2
+	anim_obj ANIM_OBJ_LEAF_STORM_SMALL_LEAF, 44, 80, $18
+	anim_wait 2
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_obj ANIM_OBJ_LEAF_STORM_SMALL_LEAF, 44, 112, $18
+	anim_wait 2
+	anim_obj ANIM_OBJ_LEAF_STORM_SMALL_LEAF, 44, 80, $18
+	anim_wait 2
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_obj ANIM_OBJ_LEAF_STORM_BIG_LEAF, 44, 92, $18
+	anim_wait 2
+	anim_obj ANIM_OBJ_LEAF_STORM_SMALL_LEAF, 44, 112, $18
+	anim_wait 2
+	anim_loop 5, .loop2
+	anim_incbgeffect ANIM_BG_SHAKE_SCREEN_X
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_wait 4
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_wait 32
+	anim_ret
+	
 BattleAnim_LeafBlade:
 	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN

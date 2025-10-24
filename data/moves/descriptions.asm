@@ -3,7 +3,7 @@ MoveDescriptions::
 	table_width 2
 	dw AcrobaticsDescription
 	dw LeafBladeDescription
-	dw Unused2Description
+	dw LeafStormDescription
 	dw AerialAceDescription
 	dw DragonClawDescription
 	dw Unused3Description
@@ -305,7 +305,12 @@ DrainKissDescription:
 	next "damage inflicted."
 	done
 
-Unused2Description:
+LeafStormDescription:
+	text "Sharply lowers the"
+	next "user's Sp.Atk."
+	done
+
+Unused24Description:
 	text "Repeatedly slaps"
 	next "2-5 times."
 	done
@@ -704,7 +709,6 @@ OutrageDescription:
 	next "and confuses user."
 	done
 
-Unused24Description:
 FireSpinDescription:
 WrapDescription:
 	text "Traps the foe for"

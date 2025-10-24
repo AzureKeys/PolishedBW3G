@@ -248,6 +248,8 @@ BattleAnimFrameData:
 	dw .Frameset_GrowingBall             ; BATTLEANIMFRAMESET_GROWING_BALL
 	dw .Frameset_CutLongUpRight          ; BATTLEANIMFRAMESET_CUT_LONG_UP_RIGHT
 	dw .Frameset_CutLongUpLeft           ; BATTLEANIMFRAMESET_CUT_LONG_UP_LEFT
+	dw .Frameset_LeafStormBigLeaf        ; BATTLEANIMFRAMESET_LEAF_STORM_BIG_LEAF
+	dw .Frameset_LeafStormSmallLeaf      ; BATTLEANIMFRAMESET_LEAF_STORM_SMALL_LEAF
 
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
@@ -1789,3 +1791,17 @@ BattleAnimFrameData:
 	battleoamwait 2
 	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_YFLIP
 	battleoamdelete
+
+.Frameset_LeafStormBigLeaf:
+	battleoamframe BATTLEANIMOAMSET_1B,  1
+	battleoamframe BATTLEANIMOAMSET_1B,  1, B_OAM_XFLIP
+	battleoamframe BATTLEANIMOAMSET_1B,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_1B,  1, B_OAM_YFLIP
+	battleoamrestart
+
+.Frameset_LeafStormSmallLeaf:
+	battleoamframe BATTLEANIMOAMSET_0F,  1
+	battleoamframe BATTLEANIMOAMSET_0F,  1, B_OAM_XFLIP
+	battleoamframe BATTLEANIMOAMSET_0F,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_0F,  1, B_OAM_YFLIP
+	battleoamrestart

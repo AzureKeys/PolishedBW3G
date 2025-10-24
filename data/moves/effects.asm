@@ -2102,3 +2102,25 @@ FlareBlitz:
 	burntarget
 	posthiteffects
 	endmove
+
+Overheat:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	lowerstat $10 | SP_ATTACK
+	postfainteffects
+	posthiteffects
+	endmove

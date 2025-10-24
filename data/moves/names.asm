@@ -2,7 +2,7 @@ MoveNames::
 	list_start
 	li "Acrobatics"
 	li "Leaf Blade"
-	li "UNUSED"
+	li "Leaf Storm"
 	li "Aerial Ace"
 	li "Dragon Claw"
 	li "UNUSED"

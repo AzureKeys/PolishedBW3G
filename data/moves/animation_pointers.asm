@@ -5,7 +5,7 @@ BattleAnimations::
 	fardw BattleAnim_0
 	fardw BattleAnim_Acrobatics
 	fardw BattleAnim_LeafBlade
-	fardw BattleAnim_Unused2
+	fardw BattleAnim_LeafStorm
 	fardw BattleAnim_AerialAce
 	fardw BattleAnim_DragonClaw
 	fardw BattleAnim_Unused3
