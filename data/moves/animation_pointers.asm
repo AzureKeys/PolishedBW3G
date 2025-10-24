@@ -152,12 +152,12 @@ BattleAnimations::
 	fardw BattleAnim_Spore
 	fardw BattleAnim_Unused13
 	fardw BattleAnim_Extrasensory
-	fardw BattleAnim_Splash
+	fardw BattleAnim_Unused14
 	fardw BattleAnim_DragonDance
-	fardw BattleAnim_Crabhammer
+	fardw BattleAnim_Unused15
 	fardw BattleAnim_Explosion
 	fardw BattleAnim_FuryStrikes
-	fardw BattleAnim_Bonemerang
+	fardw BattleAnim_Unused16
 	fardw BattleAnim_Rest
 	fardw BattleAnim_RockSlide
 	fardw BattleAnim_HyperFang

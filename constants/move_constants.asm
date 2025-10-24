@@ -155,12 +155,12 @@
 	const SPORE         ; $93
 	const UNUSED_MOVE_13; $94
 	const EXTRASENSORY  ; $95
-	const SPLASH        ; $96
+	const UNUSED_MOVE_14; $96
 	const DRAGON_DANCE  ; $97
-	const CRABHAMMER    ; $98
+	const UNUSED_MOVE_15; $98
 	const EXPLOSION     ; $99
 	const FURY_STRIKES  ; $9a
-	const BONEMERANG    ; $9b
+	const UNUSED_MOVE_16; $9b
 	const REST          ; $9c
 	const ROCK_SLIDE    ; $9d
 	const HYPER_FANG    ; $9e

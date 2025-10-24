@@ -11,6 +11,9 @@ BattleAnim_Unused10:
 BattleAnim_Unused11:
 BattleAnim_Unused12:
 BattleAnim_Unused13:
+BattleAnim_Unused14:
+BattleAnim_Unused15:
+BattleAnim_Unused16:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -1900,16 +1903,6 @@ BattleAnim_Facade:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Splash:
-	anim_1gfx ANIM_GFX_HIT
-	anim_sound 0, 0, SFX_VICEGRIP
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect ANIM_BG_BOUNCE_DOWN, $0, $1, $0
-	anim_wait 96
-	anim_incbgeffect ANIM_BG_BOUNCE_DOWN
-	anim_call BattleAnim_ShowMon_0
-	anim_ret
-
 BattleAnim_Dig:
 	anim_2gfx ANIM_GFX_SAND, ANIM_GFX_HIT
 	anim_jumpif $0, .hit
@@ -2409,16 +2402,6 @@ BattleAnim_DrainKiss:
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
 	anim_jump BattleAnimSub_Glimmer
 
-BattleAnim_Bonemerang:
-	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_HIT
-	anim_sound 6, 2, SFX_HYDRO_PUMP
-	anim_obj ANIM_OBJ_BONEMERANG,  11, 0,   7, 0, $1c
-	anim_wait 24
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
-	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0
-	anim_wait 24
-	anim_ret
-
 BattleAnim_Swift:
 	anim_1gfx ANIM_GFX_OBJECTS
 	anim_sound 6, 2, SFX_METRONOME
@@ -2428,36 +2411,6 @@ BattleAnim_Swift:
 	anim_wait 4
 	anim_obj ANIM_OBJ_SWIFT,   8, 0,   9, 4, $4
 	anim_wait 64
-	anim_ret
-
-BattleAnim_Crabhammer:
-	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_WATER
-	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
-	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_BUBBLE
-	anim_sound 3, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_HIT_YFIX, 136, 08, $0
-	anim_wait 1
-	anim_obj ANIM_OBJ_HIT_YFIX, 136, 16, $0
-	anim_wait 1
-	anim_obj ANIM_OBJ_HIT_YFIX, 136, 24, $0
-	anim_wait 1
-	anim_obj ANIM_OBJ_HIT_YFIX, 136, 32, $0
-	anim_wait 1
-	anim_obj ANIM_OBJ_HIT_YFIX, 136, 40, $0
-	anim_wait 1
-	anim_obj ANIM_OBJ_HIT_YFIX, 136, 48, $0
-	anim_wait 1
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $40, $1, $20
-	anim_sound 0, 1, SFX_EGG_BOMB
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
-	anim_obj ANIM_OBJ_BUBBLE_SPLASH, 140, 64, $5c
-	anim_obj ANIM_OBJ_BUBBLE_SPLASH, 140, 64, $e8
-	anim_obj ANIM_OBJ_BUBBLE_SPLASH, 140, 64, $d0
-	anim_obj ANIM_OBJ_BUBBLE_SPLASH, 140, 64, $50
-.loop
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
-	anim_wait 12
-	anim_loop 4, .loop
 	anim_ret
 
 BattleAnim_IronHead:

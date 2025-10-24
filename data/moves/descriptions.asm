@@ -150,12 +150,12 @@ MoveDescriptions::
 	dw SporeDescription
 	dw Unused13Description
 	dw ExtrasensoryDescription
-	dw SplashDescription
+	dw Unused14Description
 	dw DragonDanceDescription
-	dw CrabhammerDescription
+	dw Unused15Description
 	dw ExplosionDescription
 	dw FuryStrikesDescription
-	dw BonemerangDescription
+	dw Unused16Description
 	dw RestDescription
 	dw RockSlideDescription
 	dw HyperFangDescription
@@ -270,8 +270,8 @@ LowKickDescription:
 	done
 
 Unused1Description:
+Unused15Description:
 RazorLeafDescription:
-CrabhammerDescription:
 SlashDescription:
 AeroblastDescription:
 CrossChopDescription:
@@ -1024,12 +1024,12 @@ TransformDescription:
 	next "the foe's guise."
 	done
 
-SplashDescription:
+Unused14Description:
 	text "Has no effect"
 	next "whatsoever."
 	done
 
-BonemerangDescription:
+Unused16Description:
 	text "An attack that"
 	next "strikes twice."
 	done
