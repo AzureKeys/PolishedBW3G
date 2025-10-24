@@ -177,10 +177,10 @@ MoveDescriptions::
 	dw CurseDescription
 	dw GyroBallDescription
 	dw EnergyBallDescription
-	dw AeroblastDescription
+	dw Unused20Description
 	dw SeedBombDescription
 	dw ReversalDescription
-	dw AstonishDescription
+	dw Unused21Description
 	dw IceShardDescription
 	dw ProtectDescription
 	dw MachPunchDescription
@@ -190,7 +190,7 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw OctazookaDescription
+	dw Unused22Description
 	dw SpikesDescription
 	dw ZapCannonDescription
 	dw ForesightDescription
@@ -271,9 +271,9 @@ LowKickDescription:
 
 Unused1Description:
 Unused15Description:
+Unused20Description:
 RazorLeafDescription:
 SlashDescription:
-AeroblastDescription:
 CrossChopDescription:
 NightSlashDescription:
 ShadowClawDescription:
@@ -344,6 +344,7 @@ BraveBirdDescription:
 	done
 
 Unused17Description:
+Unused21Description:
 StompDescription:
 HeadbuttDescription:
 BiteDescription:
@@ -354,7 +355,6 @@ IronHeadDescription:
 ZenHeadbuttDescription:
 ExtrasensoryDescription:
 DarkPulseDescription:
-AstonishDescription:
 IcicleCrashDescription:
 	text "An attack that may"
 	next "cause flinching."
@@ -491,7 +491,7 @@ MudSlapDescription:
 	next "lowers accuracy."
 	done
 
-OctazookaDescription:
+Unused22Description:
 	text "An attack that may"
 	next "lower accuracy."
 	done

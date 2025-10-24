@@ -182,10 +182,10 @@
 	const CURSE         ; $ae
 	const GYRO_BALL     ; $af
 	const ENERGY_BALL   ; $b0
-	const AEROBLAST     ; $b1
+	const UNUSED_MOVE_20; $b1
 	const SEED_BOMB     ; $b2
 	const REVERSAL      ; $b3
-	const ASTONISH      ; $b4
+	const UNUSED_MOVE_21; $b4
 	const ICE_SHARD     ; $b5
 	const PROTECT       ; $b6
 	const MACH_PUNCH    ; $b7
@@ -195,7 +195,7 @@
 	const BELLY_DRUM    ; $bb
 	const SLUDGE_BOMB   ; $bc
 	const MUD_SLAP      ; $bd
-	const OCTAZOOKA     ; $be
+	const UNUSED_MOVE_22; $be
 	const SPIKES        ; $bf
 	const ZAP_CANNON    ; $c0
 	const FORESIGHT     ; $c1

@@ -1099,7 +1099,7 @@ Rival1Group:
 		tr_moves LICK, DISABLE, MEAN_LOOK, CURSE ; default for level
 	tr_mon 16, ZUBAT
 		tr_evs 72 Spe
-		tr_moves SUPERSONIC, ASTONISH, BITE, GUST ; default for level
+		tr_moves SUPERSONIC, TACKLE, BITE, GUST ; default for level
 	tr_mon 15, GEODUDE
 		tr_evs 72 HP
 		tr_moves MUD_SLAP, RAPID_SPIN, ROLLOUT, MAGNITUDE ; default for level
@@ -2248,7 +2248,7 @@ FisherGroup:
 	tr_mon 40, RATTATA
 		tr_moves WATERFALL, BODY_SLAM, POISON_JAB, AGILITY
 	tr_mon 42, OCTILLERY
-		tr_moves PSYBEAM, AURORA_BEAM, OCTAZOOKA, HYPER_BEAM
+		tr_moves PSYBEAM, AURORA_BEAM, TACKLE, HYPER_BEAM
 	end_trainer
 
 	def_trainer JUSTIN, "Justin"
@@ -6176,7 +6176,7 @@ CooltrainerMGroup:
 		tr_extra INNER_FOCUS, SATK_UP_SDEF_DOWN
 		tr_dvs 14 All
 		tr_evs 20 HP
-		tr_moves GUST, ABSORB, ASTONISH, BITE
+		tr_moves GUST, ABSORB, TACKLE, BITE
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA @ MIRACLE_SEED, MALE
 		tr_extra HUSTLE, SPE_UP_DEF_DOWN
 		tr_dvs 14 All
@@ -6652,7 +6652,7 @@ ProtonGroup:
 	tr_mon 40, RATTATA @ BRIGHTPOWDER
 		tr_moves TACKLE, BUBBLE_BEAM, PAIN_SPLIT, ROLLOUT
 	tr_mon 40, OCTILLERY @ LUM_BERRY
-		tr_moves OCTAZOOKA, POWER_WHIP, FLAMETHROWER, ICE_BEAM
+		tr_moves TACKLE, POWER_WHIP, FLAMETHROWER, ICE_BEAM
 	tr_mon 41, WEEZING @ CHARCOAL
 		tr_moves FIRE_BLAST, EXPLOSION, SLUDGE_BOMB, TACKLE
 	end_trainer

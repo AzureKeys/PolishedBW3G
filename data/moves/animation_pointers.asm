@@ -179,10 +179,10 @@ BattleAnimations::
 	fardw BattleAnim_Curse
 	fardw BattleAnim_GyroBall
 	fardw BattleAnim_EnergyBall
-	fardw BattleAnim_Aeroblast
+	fardw BattleAnim_Unused20
 	fardw BattleAnim_SeedBomb
 	fardw BattleAnim_Reversal
-	fardw BattleAnim_Astonish
+	fardw BattleAnim_Unused21
 	fardw BattleAnim_IceShard
 	fardw BattleAnim_Protect
 	fardw BattleAnim_MachPunch
@@ -192,7 +192,7 @@ BattleAnimations::
 	fardw BattleAnim_BellyDrum
 	fardw BattleAnim_SludgeBomb
 	fardw BattleAnim_MudSlap
-	fardw BattleAnim_Octazooka
+	fardw BattleAnim_Unused22
 	fardw BattleAnim_Spikes
 	fardw BattleAnim_ZapCannon
 	fardw BattleAnim_Foresight

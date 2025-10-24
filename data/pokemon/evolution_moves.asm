@@ -116,7 +116,7 @@ endc
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; REMORAID
-	db OCTAZOOKA    ; OCTILLERY
+	db NO_MOVE      ; OCTILLERY
 	db NO_MOVE      ; DELIBIRD
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY

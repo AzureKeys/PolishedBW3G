@@ -289,7 +289,6 @@ GrimerAlolanEggSpeciesMoves:
 
 GastlyEggSpeciesMoves:
 	dp GASTLY, PLAIN_FORM
-	db ASTONISH
 	db DISABLE
 	db HAZE
 	db PERISH_SONG
@@ -485,7 +484,6 @@ MisdreavusEggSpeciesMoves:
 DunsparceEggSpeciesMoves:
 	dp DUNSPARCE, NO_FORM
 	db AGILITY
-	db ASTONISH
 	db BITE
 	db ANCIENTPOWER
 	db ROCK_SLIDE
@@ -586,7 +584,6 @@ CorsolaGalarianEggSpeciesMoves:
 RemoraidEggSpeciesMoves:
 	dp REMORAID, PLAIN_FORM
 	db HAZE
-	db OCTAZOOKA
 	db ROCK_BLAST
 	db SCREECH
 	db SUPERSONIC

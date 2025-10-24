@@ -17,6 +17,9 @@ BattleAnim_Unused16:
 BattleAnim_Unused17:
 BattleAnim_Unused18:
 BattleAnim_Unused19:
+BattleAnim_Unused20:
+BattleAnim_Unused21:
+BattleAnim_Unused22:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -2544,33 +2547,6 @@ BattleAnim_DazzlinGleam:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_Astonish:
-	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_MISC_2
-	anim_battlergfx_2row
-	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
-	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $0, $0
-	anim_wait 6
-	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
-	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_wait 12
-	anim_bgeffect ANIM_BG_SHOW_MON, $0, $0, $0
-	anim_wait 1
-	anim_clearobjs
-	anim_wait 1
-	anim_battlergfx_2row
-	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $1, $0
-	anim_wait 1
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $2
-	anim_bgeffect ANIM_BG_VIBRATE_MON, $0, $0, $0
-	anim_sound 0, 0, SFX_RAGE
-	anim_obj ANIM_OBJ_FORESIGHT, 136, 48, $0
-	anim_obj ANIM_OBJ_DROPLET_R, 146, 52, $38
-	anim_obj ANIM_OBJ_DROPLET_L, 126, 52, $28
-	anim_wait 32
-	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
-	anim_wait 4
-	anim_ret
-
 BattleAnim_Substitute:
 	anim_sound 0, 0, SFX_SHARPEN
 	anim_jumpif $3, .dropsub2
@@ -3379,27 +3355,6 @@ BattleAnim_Curse:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Aeroblast:
-	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_AEROBLAST
-	anim_bgp $1b
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $50, $4, $10
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_sound 0, 0, SFX_AEROBLAST
-	anim_obj ANIM_OBJ_AEROBLAST,   9, 0,  11, 0, $0
-	anim_wait 32
-	anim_sound 0, 0, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BEAM,  10, 0,  10, 4, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BEAM,  12, 0,   9, 4, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BEAM,  14, 0,   8, 4, $0
-	anim_obj ANIM_OBJ_BEAM_TIP,  15, 6,   7, 6, $0
-	anim_wait 48
-	anim_bgp $e4
-	anim_ret
-
 BattleAnim_SeedBomb:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_2gfx ANIM_GFX_PLANT, ANIM_GFX_EXPLOSION
@@ -3781,32 +3736,6 @@ BattleAnim_MudSlap:
 	anim_1gfx ANIM_GFX_SAND
 	anim_obp0 $fc
 	anim_call BattleAnimSub_SandOrMud
-	anim_ret
-
-BattleAnim_Octazooka:
-	anim_3gfx ANIM_GFX_EGG, ANIM_GFX_SMOKE_PUFF, ANIM_GFX_POISON
-	anim_obp0 $f0
-	anim_sound 6, 2, SFX_TACKLE
-	anim_obj ANIM_OBJ_OCTAZOOKA, 64, 92, $4
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 64, 92, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 80, 84, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 96, 76, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 112, 68, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 126, 60, $0
-	anim_wait 4
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
-	anim_bgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING, $0, BG_EFFECT_TARGET, $40
-	anim_sound 0, 0, SFX_AEROBLAST
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $5c
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $e8
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $d0
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $50
-	anim_wait 40
 	anim_ret
 
 BattleAnim_Spikes:
