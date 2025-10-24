@@ -1,4 +1,3 @@
-BattleAnim_Unused1:
 BattleAnim_Unused2:
 BattleAnim_Unused3:
 BattleAnim_Unused4:
@@ -23,6 +22,30 @@ BattleAnim_Unused22:
 BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
+BattleAnim_LeafBlade:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_GREEN
+	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_PLANT
+	anim_sound 0, 1, SFX_CUT
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 150, 40, $0
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $28
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $d0
+	anim_wait 32
+	anim_sound 0, 1, SFX_CUT
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_RIGHT, 118, 40, $0
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $10
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $dc
+	anim_wait 32
+	anim_sound 0, 1, SFX_CUT
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
+	anim_obj ANIM_OBJ_CUT_LONG_UP_RIGHT, 120, 68, $0
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $5c
+	anim_obj ANIM_OBJ_RAZOR_LEAF, 136, 40, $90
+	anim_wait 32
+	anim_ret
+	
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON

@@ -7,7 +7,7 @@
 	const_def
 	const NO_MOVE       ; $00
 	const ACROBATICS    ; $01
-	const UNUSED_MOVE_1 ; $02
+	const LEAF_BLADE    ; $02
 	const UNUSED_MOVE_2 ; $03
 	const AERIAL_ACE    ; $04
 	const DRAGON_CLAW   ; $05

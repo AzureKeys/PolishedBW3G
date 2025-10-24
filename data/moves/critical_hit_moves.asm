@@ -1,4 +1,5 @@
 CriticalHitMoves:
+	db LEAF_BLADE
 	db NIGHT_SLASH
 	db RAZOR_LEAF
 	db SLASH

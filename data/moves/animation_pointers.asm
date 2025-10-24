@@ -4,7 +4,7 @@ BattleAnimations::
 	farbank "Battle Animations"
 	fardw BattleAnim_0
 	fardw BattleAnim_Acrobatics
-	fardw BattleAnim_Unused1
+	fardw BattleAnim_LeafBlade
 	fardw BattleAnim_Unused2
 	fardw BattleAnim_AerialAce
 	fardw BattleAnim_DragonClaw

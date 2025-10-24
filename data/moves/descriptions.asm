@@ -2,7 +2,7 @@ MoveDescriptions::
 ; entries correspond to move ids (see constants/move_constants.asm)
 	table_width 2
 	dw AcrobaticsDescription
-	dw Unused1Description
+	dw LeafBladeDescription
 	dw Unused2Description
 	dw AerialAceDescription
 	dw DragonClawDescription
@@ -269,10 +269,10 @@ LowKickDescription:
 	next "to heavier foes."
 	done
 
-Unused1Description:
 Unused15Description:
 Unused20Description:
 RazorLeafDescription:
+LeafBladeDescription:
 SlashDescription:
 Unused25Description:
 NightSlashDescription:

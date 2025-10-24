@@ -246,6 +246,8 @@ BattleAnimFrameData:
 	dw .Frameset_GrowingHeart            ; BATTLEANIMFRAMESET_GROWING_HEART
 	dw .Frameset_WaterBall               ; BATTLEANIMFRAMESET_WATER_BALL
 	dw .Frameset_GrowingBall             ; BATTLEANIMFRAMESET_GROWING_BALL
+	dw .Frameset_CutLongUpRight          ; BATTLEANIMFRAMESET_CUT_LONG_UP_RIGHT
+	dw .Frameset_CutLongUpLeft           ; BATTLEANIMFRAMESET_CUT_LONG_UP_LEFT
 
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
@@ -1755,3 +1757,35 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_7F,  2
 	battleoamframe BATTLEANIMOAMSET_01,  2 ; HIT
 	battleoamrestart
+
+.Frameset_CutLongUpRight:
+	battleoamframe BATTLEANIMOAMSET_4B,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_4C,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_4D,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_4F,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_50,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_51,  1, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamwait 2
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamwait 2
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamwait 2
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_XFLIP, B_OAM_YFLIP
+	battleoamdelete
+
+.Frameset_CutLongUpLeft:
+	battleoamframe BATTLEANIMOAMSET_4B,  1, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_4C,  1, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_4D,  1, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_4F,  1, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_50,  1, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_51,  1, B_OAM_YFLIP
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_YFLIP
+	battleoamwait 2
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_YFLIP
+	battleoamwait 2
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_YFLIP
+	battleoamwait 2
+	battleoamframe BATTLEANIMOAMSET_52,  2, B_OAM_YFLIP
+	battleoamdelete
