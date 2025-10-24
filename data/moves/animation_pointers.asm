@@ -219,7 +219,7 @@ BattleAnimations::
 	fardw BattleAnim_SleepTalk
 	fardw BattleAnim_HealBell
 	fardw BattleAnim_Return
-	fardw BattleAnim_Psystrike
+	fardw BattleAnim_Psyshock
 	fardw BattleAnim_BugBuzz
 	fardw BattleAnim_Safeguard
 	fardw BattleAnim_PainSplit

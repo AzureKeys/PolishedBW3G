@@ -237,7 +237,7 @@ endc
 	move SLEEP_TALK,      EFFECT_SLEEP_TALK,          0, NORMAL,    100, 10,   0, STATUS
 	move HEAL_BELL,       EFFECT_HEAL_BELL,           0, NORMAL,     -1,  5,   0, STATUS
 	move RETURN,          EFFECT_RETURN,              1, NORMAL,    100, 20,   0, PHYSICAL
-	move PSYSTRIKE,       EFFECT_PSYSTRIKE,         100, PSYCHIC,   100, 10,   0, SPECIAL
+	move PSYSHOCK,        EFFECT_PSYSTRIKE,          80, PSYCHIC,   100, 10,   0, SPECIAL
 	move BUG_BUZZ,        EFFECT_SP_DEF_DOWN_HIT,    90, BUG,       100, 10,  10, SPECIAL
 	move SAFEGUARD,       EFFECT_SAFEGUARD,           0, NORMAL,     -1, 25,   0, STATUS
 	move PAIN_SPLIT,      EFFECT_PAIN_SPLIT,          0, NORMAL,     -1, 20,   0, STATUS

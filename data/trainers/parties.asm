@@ -6763,7 +6763,7 @@ GiovanniGroup:
 	def_trainer GIOVANNI1, "Giovanni"
 	tr_mon LEVEL_FROM_BADGES + 24, "?????", RATTATA @ ARMOR_SUIT, MALE
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
-		tr_moves SHADOW_BALL, PSYSTRIKE, NASTY_PLOT, AURA_SPHERE
+		tr_moves SHADOW_BALL, PSYSHOCK, NASTY_PLOT, AURA_SPHERE
 	end_trainer
 
 	def_trainer GIOVANNI2, "Giovanni"

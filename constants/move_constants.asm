@@ -222,7 +222,7 @@
 	const SLEEP_TALK    ; $d6
 	const HEAL_BELL     ; $d7
 	const RETURN        ; $d8
-	const PSYSTRIKE     ; $d9
+	const PSYSHOCK      ; $d9
 	const BUG_BUZZ      ; $da
 	const SAFEGUARD     ; $db
 	const PAIN_SPLIT    ; $dc

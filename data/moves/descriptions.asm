@@ -217,7 +217,7 @@ MoveDescriptions::
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
-	dw PsystrikeDescription
+	dw PsyshockDescription
 	dw BugBuzzDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
@@ -1174,7 +1174,7 @@ ReturnDescription:
 	next "based on loyalty."
 	done
 
-PsystrikeDescription:
+PsyshockDescription:
 	text "A wave that does"
 	next "physical damage."
 	done

@@ -216,7 +216,7 @@ MoveNames::
 	li "Sleep Talk"
 	li "Heal Bell"
 	li "Return"
-	li "Psystrike"
+	li "Psyshock"
 	li "Bug Buzz"
 	li "Safeguard"
 	li "Pain Split"
