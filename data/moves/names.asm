@@ -9,7 +9,7 @@ MoveNames::
 	li "Fire Punch"
 	li "Ice Punch"
 	li "ThunderPunch"
-	li "UNUSED"
+	li "Overheat"
 	li "X-Scissor"
 	li "Night Slash"
 	li "Air Slash"

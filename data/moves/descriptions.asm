@@ -10,7 +10,7 @@ MoveDescriptions::
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
-	dw Unused4Description
+	dw OverheatDescription
 	dw XScissorDescription
 	dw NightSlashDescription
 	dw AirSlashDescription
@@ -306,6 +306,7 @@ DrainKissDescription:
 	done
 
 LeafStormDescription:
+OverheatDescription:
 	text "Sharply lowers the"
 	next "user's Sp.Atk."
 	done
@@ -861,11 +862,6 @@ BulletPunchDescription:
 ExtremespeedDescription:
 	text "A powerful first-"
 	next "strike attack."
-	done
-
-Unused4Description:
-	text "Scratches with"
-	next "sharp claws."
 	done
 
 PeckDescription:

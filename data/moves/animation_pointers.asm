@@ -12,7 +12,7 @@ BattleAnimations::
 	fardw BattleAnim_FirePunch
 	fardw BattleAnim_IcePunch
 	fardw BattleAnim_Thunderpunch
-	fardw BattleAnim_Unused4
+	fardw BattleAnim_Overheat
 	fardw BattleAnim_XScissor
 	fardw BattleAnim_NightSlash
 	fardw BattleAnim_AirSlash
