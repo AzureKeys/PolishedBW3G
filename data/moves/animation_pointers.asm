@@ -92,7 +92,7 @@ BattleAnimations::
 	fardw BattleAnim_Thunder
 	fardw BattleAnim_RockThrow
 	fardw BattleAnim_Earthquake
-	fardw BattleAnim_Unused5
+	fardw BattleAnim_RazorShell
 	fardw BattleAnim_Dig
 	fardw BattleAnim_Toxic
 	fardw BattleAnim_Confusion

@@ -95,7 +95,7 @@
 	const THUNDER       ; $57
 	const ROCK_THROW    ; $58
 	const EARTHQUAKE    ; $59
-	const UNUSED_MOVE_5 ; $5a
+	const RAZOR_SHELL   ; $5a
 	const DIG           ; $5b
 	const TOXIC         ; $5c
 	const CONFUSION     ; $5d

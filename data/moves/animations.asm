@@ -1,4 +1,3 @@
-BattleAnim_Unused5:
 BattleAnim_Unused6:
 BattleAnim_Unused7:
 BattleAnim_Unused8:
@@ -19,6 +18,27 @@ BattleAnim_Unused22:
 BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
+
+
+BattleAnim_RazorShell:
+	anim_3gfx ANIM_GFX_BIG_WHIP, ANIM_GFX_CUT, ANIM_GFX_RAZOR_SHELL
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_ICE
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_YELLOW
+	anim_sound 0, 1, SFX_SHINE
+	anim_obj ANIM_OBJ_RAZOR_SHELL, 142, 48, $38
+	anim_setobj $1, $2
+	anim_wait 48
+	anim_clearobjs
+	anim_obj ANIM_OBJ_RAZOR_SHELL, 154, 36, $18
+	anim_sound 0, 1, SFX_CUT
+	anim_obj ANIM_OBJ_SACRED_SWORD_CRESCENT, 164, 8, $18
+	anim_setobj $2, $3
+	anim_wait 4
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_wait 36
+	anim_ret
+	
 BattleAnim_Overheat:
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_FIRE
 	anim_2gfx ANIM_GFX_FIRE, ANIM_GFX_SMOKE_PUFF

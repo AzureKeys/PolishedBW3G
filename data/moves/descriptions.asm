@@ -90,7 +90,7 @@ MoveDescriptions::
 	dw ThunderDescription
 	dw RockThrowDescription
 	dw EarthquakeDescription
-	dw Unused5Description
+	dw RazorShellDescription
 	dw DigDescription
 	dw ToxicDescription
 	dw ConfusionDescription
@@ -374,7 +374,6 @@ GunkShotDescription:
 	next "poison the foe."
 	done
 
-Unused23Description:
 EmberDescription:
 FlamethrowerDescription:
 FireBlastDescription:
@@ -456,6 +455,7 @@ BrickBreakDescription:
 	
 CrunchDescription:
 IronTailDescription:
+RazorShellDescription:
 	text "An attack that may"
 	next "lower Defense."
 	done
@@ -767,7 +767,7 @@ HexDescription:
 	next "foe has status."
 	done
 
-Unused5Description:
+Unused23Description:
 	text "Damage doubles if"
 	next "user is hit first."
 	done

@@ -110,7 +110,7 @@ endc
 	move THUNDER,         EFFECT_THUNDER,           110, ELECTRIC,   70, 10,  30, SPECIAL
 	move ROCK_THROW,      EFFECT_NORMAL_HIT,         50, ROCK,       90, 15,   0, PHYSICAL
 	move EARTHQUAKE,      EFFECT_EARTHQUAKE,        100, GROUND,    100, 10,   0, PHYSICAL
-	move UNUSED_MOVE_5,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move RAZOR_SHELL,     EFFECT_DEFENSE_DOWN_HIT,   75, WATER,      95, 10,   0, PHYSICAL
 	move DIG,             EFFECT_FLY,                80, GROUND,    100, 10,   0, PHYSICAL
 	move TOXIC,           EFFECT_TOXIC,               0, POISON,     90, 10,   0, STATUS
 	move CONFUSION,       EFFECT_CONFUSE_HIT,        50, PSYCHIC,   100, 25,  10, SPECIAL

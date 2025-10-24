@@ -89,7 +89,7 @@ MoveNames::
 	li "Thunder"
 	li "Rock Throw"
 	li "Earthquake"
-	li "UNUSED"
+	li "Razor Shell"
 	li "Dig"
 	li "Toxic"
 	li "Confusion"

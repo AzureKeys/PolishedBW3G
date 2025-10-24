@@ -6282,7 +6282,7 @@ CheckUserMove:
 	ret
 
 BoostJumptable:
-	dbw UNUSED_MOVE_5,  DoAvalanche
+	dbw UNUSED_MOVE_25,  DoAvalanche
 	dbw ACROBATICS, DoAcrobatics
 	dbw FACADE,     DoFacade
 	dbw HEX,        DoHex
