@@ -2,7 +2,6 @@
 
 EncoreMoves:
 	db AGILITY
-	db CONVERSION
 	db DISABLE
 	db DREAM_EATER
 	db FOCUS_ENERGY
@@ -15,7 +14,6 @@ EncoreMoves:
 	db ROAR
 	db SCREECH
 	db SKILL_SWAP
-	db SPLASH
 	db STRING_SHOT
 	db SUBSTITUTE
 	db SUPER_FANG

@@ -155,20 +155,20 @@ endc
 	move BULLDOZE,        EFFECT_SPEED_DOWN_HIT,     60, GROUND,    100, 20, 100, PHYSICAL
 	move AMNESIA,         EFFECT_SP_DEF_UP_2,         0, PSYCHIC,    -1, 20,   0, STATUS
 	move ROOST,           EFFECT_ROOST,               0, FLYING,     -1, 5,    0, STATUS
-	move FRESH_SNACK,     EFFECT_HEAL,                0, NORMAL,     -1, 10,   0, STATUS
+	move UNUSED_MOVE_11,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move HI_JUMP_KICK,    EFFECT_JUMP_KICK,         130, FIGHTING,   90, 10,   0, PHYSICAL
 	move GLARE,           EFFECT_PARALYZE,            0, NORMAL,    100, 30,   0, STATUS
 	move DREAM_EATER,     EFFECT_DREAM_EATER,       100, PSYCHIC,   100, 15,   0, SPECIAL
 	move POISON_JAB,      EFFECT_POISON_HIT,         80, POISON,    100, 20,  30, PHYSICAL
 	move BULLET_PUNCH,    EFFECT_PRIORITY_HIT,       40, STEEL,     100, 30,   0, PHYSICAL
-	move LEECH_LIFE,      EFFECT_LEECH_HIT,          80, BUG,       100, 10,   0, PHYSICAL
+	move UNUSED_MOVE_12,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move DRAINING_KISS,   EFFECT_LEECH_HIT,          50, FAIRY,     100, 10,   0, SPECIAL
 	move BRAVE_BIRD,      EFFECT_RECOIL_HIT,        120, FLYING,    100, 15,   0, PHYSICAL
 	move TRANSFORM,       EFFECT_TRANSFORM,           0, NORMAL,     -1, 10,   0, STATUS
 	move WATER_PULSE,     EFFECT_CONFUSE_HIT,        60, WATER,     100, 20,  20, SPECIAL
 	move DIZZY_PUNCH,     EFFECT_CONFUSE_HIT,        70, NORMAL,    100, 10,  20, PHYSICAL
 	move SPORE,           EFFECT_SLEEP,               0, GRASS,     100, 15,   0, STATUS
-	move FLASH,           EFFECT_ACCURACY_DOWN,       0, NORMAL,    100, 20,   0, STATUS
+	move UNUSED_MOVE_13,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move EXTRASENSORY,    EFFECT_FLINCH_HIT,         80, PSYCHIC,   100, 20,  10, SPECIAL
 	move SPLASH,          EFFECT_SPLASH,              0, NORMAL,     -1, 40,   0, STATUS
 	move DRAGON_DANCE,    EFFECT_DRAGON_DANCE,        0, DRAGON,    100, 20,   0, STATUS

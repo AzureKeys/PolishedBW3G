@@ -426,7 +426,6 @@ CleffaEggSpeciesMoves:
 	db BELLY_DRUM
 	db AMNESIA
 	db SPLASH
-	db FRESH_SNACK
 	db $ff
 
 IgglybuffEggSpeciesMoves:
@@ -465,7 +464,6 @@ SunkernEggSpeciesMoves:
 YanmaEggSpeciesMoves:
 	dp YANMA, PLAIN_FORM
 	db FEINT_ATTACK
-	db LEECH_LIFE
 	db REVERSAL
 	db $ff
 

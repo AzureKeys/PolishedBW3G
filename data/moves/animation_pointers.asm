@@ -137,20 +137,20 @@ BattleAnimations::
 	fardw BattleAnim_Bulldoze
 	fardw BattleAnim_Amnesia
 	fardw BattleAnim_Roost
-	fardw BattleAnim_FreshSnack
+	fardw BattleAnim_Unused11
 	fardw BattleAnim_HiJumpKick
 	fardw BattleAnim_Glare
 	fardw BattleAnim_DreamEater
 	fardw BattleAnim_PoisonJab
 	fardw BattleAnim_BulletPunch
-	fardw BattleAnim_LeechLife
+	fardw BattleAnim_Unused12
 	fardw BattleAnim_DrainKiss
 	fardw BattleAnim_BraveBird
 	fardw BattleAnim_Transform
 	fardw BattleAnim_WaterPulse
 	fardw BattleAnim_DizzyPunch
 	fardw BattleAnim_Spore
-	fardw BattleAnim_Flash
+	fardw BattleAnim_Unused13
 	fardw BattleAnim_Extrasensory
 	fardw BattleAnim_Splash
 	fardw BattleAnim_DragonDance

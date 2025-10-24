@@ -8,6 +8,9 @@ BattleAnim_Unused7:
 BattleAnim_Unused8:
 BattleAnim_Unused9:
 BattleAnim_Unused10:
+BattleAnim_Unused11:
+BattleAnim_Unused12:
+BattleAnim_Unused13:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -1589,29 +1592,6 @@ BattleAnim_Amnesia:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_FreshSnack:
-BattleAnim_Softboiled: ; reassigned
-	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_BUBBLE
-	anim_call BattleAnim_TargetObj_1Row
-	anim_sound 0, 0, SFX_SWITCH_POKEMON
-	anim_obj ANIM_OBJ_EGG,   5, 4,  13, 0, $6
-	anim_wait 128
-	anim_incobj 2
-	anim_obj ANIM_OBJ_EGG,   9, 4,  13, 0, $b
-	anim_wait 16
-	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_sound 0, 0, SFX_METRONOME
-;fallthrough
-BattleAnimSub_SoftboiledHeal:
-.loop
-	anim_obj ANIM_OBJ_RECOVER,   5, 4,  11, 0, $20
-	anim_wait 8
-	anim_loop 8, .loop
-	anim_wait 128
-	anim_incbgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING
-	anim_call BattleAnim_ShowMon_0
-	anim_ret
-
 BattleAnim_FocusEnergy:
 	anim_1gfx ANIM_GFX_SPEED
 	anim_call BattleAnim_TargetObj_1Row
@@ -2618,30 +2598,6 @@ BattleAnim_DazzlinGleam:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_Flash:
-	anim_1gfx ANIM_GFX_SPEED
-	anim_sound 0, 1, SFX_FLASH
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $40
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $0
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $8
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $10
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $18
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $20
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $28
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $30
-	anim_wait 4
-	anim_obj ANIM_OBJ_FLASH, -15, 0,   7, 0, $38
-	anim_wait 32
-	anim_bgp $e4
-	anim_ret
-
 BattleAnim_Astonish:
 	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_MISC_2
 	anim_battlergfx_2row
@@ -2883,30 +2839,6 @@ BattleAnim_DreamEater:
 	anim_wait 5
 	anim_loop 7, .loop
 	anim_wait 32
-	anim_ret
-
-BattleAnim_LeechLife:
-	anim_setobjpal PAL_BATTLE_OB_GREEN, PAL_BTLCUSTOM_PEACH
-	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
-	anim_3gfx ANIM_GFX_HIT_2, ANIM_GFX_HORN, ANIM_GFX_CHARGE
-	anim_obj ANIM_OBJ_NEEDLE, 64, 92, $14
-	anim_wait 16
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $2
-	anim_sound 0, 1, SFX_POISON_STING
-	anim_obj ANIM_OBJ_HIT_SMALL, 136, 56, $0
-	anim_wait 16
-.loop
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_obj ANIM_OBJ_ABSORB, 128, 48, $2
-	anim_wait 3
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_obj ANIM_OBJ_ABSORB, 136, 64, $3
-	anim_wait 4
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_obj ANIM_OBJ_ABSORB, 136, 32, $4
-	anim_wait 3
-	anim_loop 6, .loop
-	anim_wait 28
 	anim_ret
 
 BattleAnim_Extrasensory:

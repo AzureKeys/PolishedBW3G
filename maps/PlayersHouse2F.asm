@@ -208,7 +208,6 @@ endr
 	loadmem wPartyMon2Moves+0, FLY
 	loadmem wPartyMon2Moves+1, HEADBUTT
 	loadmem wPartyMon2Moves+2, DIG
-	loadmem wPartyMon2Moves+3, FRESH_SNACK
 	loadmem wPartyMon2PP+0, 15
 	loadmem wPartyMon2PP+1, 15
 	loadmem wPartyMon2PP+2, 10

@@ -140,20 +140,20 @@
 	const BULLDOZE      ; $84
 	const AMNESIA       ; $85
 	const ROOST         ; $86
-	const FRESH_SNACK   ; $87
+	const UNUSED_MOVE_11; $87
 	const HI_JUMP_KICK  ; $88
 	const GLARE         ; $89
 	const DREAM_EATER   ; $8a
 	const POISON_JAB    ; $8b
 	const BULLET_PUNCH  ; $8c
-	const LEECH_LIFE    ; $8d
+	const UNUSED_MOVE_12; $8d
 	const DRAINING_KISS ; $8e
 	const BRAVE_BIRD    ; $8f
 	const TRANSFORM     ; $90
 	const WATER_PULSE   ; $91
 	const DIZZY_PUNCH   ; $92
 	const SPORE         ; $93
-	const FLASH         ; $94
+	const UNUSED_MOVE_13; $94
 	const EXTRASENSORY  ; $95
 	const SPLASH        ; $96
 	const DRAGON_DANCE  ; $97

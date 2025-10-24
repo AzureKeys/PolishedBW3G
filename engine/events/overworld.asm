@@ -391,20 +391,6 @@ CutDownTree:
 	jmp LoadStandardFont
 
 TryFlashOW::
-	ld a, [wTimeOfDayPalset]
-	cp DARKNESS_PALSET
-	jr nz, .quit
-	lb de, FLASH, TM_FLASH
-	call CheckPartyMove
-	jr c, .quit
-	call GetPartyNickname
-	ld a, BANK(AskFlashScript)
-	ld hl, AskFlashScript
-	call CallScript
-	scf
-	ret
-
-.quit
 	xor a
 	ret
 
@@ -422,20 +408,6 @@ OWFlash:
 	ret
 
 .CheckUseFlash:
-; Flash
-	push hl
-	farcall SpecialAerodactylChamber
-	pop hl
-	jr c, .useflash
-	ld a, [wTimeOfDayPalset]
-	cp DARKNESS_PALSET
-	jr nz, .notadarkcave
-.useflash
-	call UseFlash
-	ld a, $81
-	ret
-
-.notadarkcave
 	call FieldMoveFailed
 	ld a, $80
 	ret

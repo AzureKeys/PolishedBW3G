@@ -135,20 +135,20 @@ MoveDescriptions::
 	dw BulldozeDescription
 	dw AmnesiaDescription
 	dw RoostDescription
-	dw FreshSnackDescription
+	dw Unused11Description
 	dw HiJumpKickDescription
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonJabDescription
 	dw BulletPunchDescription
-	dw LeechLifeDescription
+	dw Unused12Description
 	dw DrainKissDescription
 	dw BraveBirdDescription
 	dw TransformDescription
 	dw WaterPulseDescription
 	dw DizzyPunchDescription
 	dw SporeDescription
-	dw FlashDescription
+	dw Unused13Description
 	dw ExtrasensoryDescription
 	dw SplashDescription
 	dw DragonDanceDescription
@@ -291,9 +291,9 @@ AuraSphereDescription:
 	next "never misses."
 	done
 
+Unused12Description:
 AbsorbDescription:
 MegaDrainDescription:
-LeechLifeDescription:
 GigaDrainDescription:
 DrainPunchDescription:
 	text "Steals 1/2 of the"
@@ -642,7 +642,7 @@ StringShotDescription:
 	done
 
 Unused9Description:
-FlashDescription:
+Unused13Description:
 	text "A move that lowers"
 	next "the foe's accuracy."
 	done
@@ -687,7 +687,7 @@ RecoverDescription:
 	next "the max HP."
 	done
 
-FreshSnackDescription:
+Unused11Description:
 	text "Restores HP by 1/2"
 	next "the user's max HP."
 	done

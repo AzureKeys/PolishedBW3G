@@ -20,7 +20,6 @@ UsefulMoves:
 	db WILL_O_WISP
 	db RECOVER
 	db FIRE_BLAST
-	db FRESH_SNACK
 	db SUPER_FANG
 	db MOONBLAST
 	db PLAY_ROUGH

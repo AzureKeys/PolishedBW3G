@@ -6,7 +6,6 @@ StallMoves:
 	db BARRIER
 	db BULK_UP
 	db CALM_MIND
-	db CONVERSION
 	db COUNTER
 	db DEFENSE_CURL
 	db DISABLE
@@ -22,7 +21,6 @@ StallMoves:
 	db REFLECT
 	db SCREECH
 	db SKILL_SWAP
-	db SPLASH
 	db STRING_SHOT
 	db SUBSTITUTE
 	db SWORDS_DANCE
