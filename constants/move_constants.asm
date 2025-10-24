@@ -8,7 +8,7 @@
 	const NO_MOVE       ; $00
 	const ACROBATICS    ; $01
 	const KARATE_CHOP   ; $02
-	const DOUBLE_SLAP   ; $03
+	const UNUSED_MOVE_1 ; $03
 	const AERIAL_ACE    ; $04
 	const DRAGON_CLAW   ; $05
 	const PAY_DAY       ; $06
@@ -267,7 +267,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const_next $100
 	; Pseudo-moves (replaces default move anim for certain species)
 	const ANIM_FURY_ATTACK        ; $100
-	const ANIM_MILK_DRINK         ; $101
+	const ANIM_DOUBLE_SLAP        ; $101
 	const ANIM_WITHDRAW           ; $102
 	const ANIM_HARDEN             ; $103
 

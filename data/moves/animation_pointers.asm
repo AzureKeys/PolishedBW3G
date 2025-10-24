@@ -5,7 +5,7 @@ BattleAnimations::
 	fardw BattleAnim_0
 	fardw BattleAnim_Acrobatics
 	fardw BattleAnim_KarateChop
-	fardw BattleAnim_DoubleSlap
+	fardw BattleAnim_Unused1
 	fardw BattleAnim_AerialAce
 	fardw BattleAnim_DragonClaw
 	fardw BattleAnim_PayDay
@@ -262,7 +262,7 @@ BattleAnimations::
 	assert_table_length $100
 ; $100
 	fardw BattleAnim_FuryAttack
-	fardw BattleAnim_MilkDrink
+	fardw BattleAnim_DoubleSlap
 	fardw BattleAnim_Withdraw
 	fardw BattleAnim_Harden
 	fardw BattleAnim_Slp

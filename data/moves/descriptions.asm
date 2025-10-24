@@ -3,7 +3,7 @@ MoveDescriptions::
 	table_width 2
 	dw AcrobaticsDescription
 	dw KarateChopDescription
-	dw DoubleSlapDescription
+	dw Unused1Description
 	dw AerialAceDescription
 	dw DragonClawDescription
 	dw PayDayDescription
@@ -305,7 +305,7 @@ DrainKissDescription:
 	next "damage inflicted."
 	done
 
-DoubleSlapDescription:
+Unused1Description:
 	text "Repeatedly slaps"
 	next "2-5 times."
 	done

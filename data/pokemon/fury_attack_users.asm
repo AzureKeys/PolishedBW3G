@@ -1,5 +1,5 @@
 FuryAttackUsers:
-; "Fury Strikes" = Fury Attack + Fury Swipes
+; "Fury Strikes" = Fury Attack + Fury Swipes + Double Slap
 	dp NIDORAN_M
 	dp NIDORINO
 	dp NIDOKING
@@ -17,4 +17,8 @@ FuryAttackUsers:
 	dp BRAVIARY
 	dp VULLABY
 	dp MANDIBUZZ
-	dw 0
+	db 0
+	
+DoubleSlapUsers:
+	dp CLEFAIRY
+	db 0

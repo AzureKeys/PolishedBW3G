@@ -155,7 +155,7 @@ WhitneyGroup:
 	def_trainer 1, "Whitney"
 	tr_mon 19, CLEFAIRY, FEMALE
 		tr_evs 96 HP
-		tr_moves METRONOME, DISARM_VOICE, DOUBLE_SLAP, ATTRACT
+		tr_moves METRONOME, DISARM_VOICE, FURY_STRIKES, ATTRACT
 	tr_mon 20, RATTATA, FEMALE
 		tr_evs 32 HP, 32 Atk, 32 Spe
 		tr_moves SCRATCH, ATTRACT, LICK, FEINT_ATTACK

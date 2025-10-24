@@ -2,7 +2,7 @@ MoveNames::
 	list_start
 	li "Acrobatics"
 	li "Karate Chop"
-	li "DoubleSlap"
+	li "UNUSED"
 	li "Aerial Ace"
 	li "Dragon Claw"
 	li "Pay Day"

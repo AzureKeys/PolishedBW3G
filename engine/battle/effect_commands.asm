@@ -6720,14 +6720,15 @@ CheckBattleAnimSubstitution:
 	ret nz
 
 	ld a, [wFXAnimIDLo]
-	cp FRESH_SNACK
-	ld de, ANIM_MILK_DRINK
-	ld hl, .MilkDrinkUsers
-	jr z, .check_species_list
 	cp FURY_STRIKES
+	jr nz, .CheckDefenseCurl
 	ld de, ANIM_FURY_ATTACK
 	ld hl, FuryAttackUsers
-	jr z, .check_species_list
+	call .check_species_list
+	ld de, ANIM_DOUBLE_SLAP
+	ld hl, DoubleSlapUsers
+	jr .check_species_list
+.CheckDefenseCurl
 	cp DEFENSE_CURL
 	ret nz
 
@@ -6755,9 +6756,6 @@ CheckBattleAnimSubstitution:
 	ld a, d
 	ld [wFXAnimIDHi], a
 	ret
-
-.MilkDrinkUsers:
-	db 0
 
 _CheckBattleEffects:
 ; Checks the options. Returns carry if battle animations are disabled.

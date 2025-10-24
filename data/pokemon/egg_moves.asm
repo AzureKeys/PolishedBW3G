@@ -415,7 +415,7 @@ ChinchouEggSpeciesMoves:
 PichuEggSpeciesMoves:
 	dp PICHU, PLAIN_FORM
 	db DISARM_VOICE
-	db DOUBLE_SLAP
+	db FURY_STRIKES
 	db ENCORE
 	db REVERSAL
 	db $ff

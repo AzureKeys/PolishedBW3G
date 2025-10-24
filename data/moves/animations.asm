@@ -1,3 +1,4 @@
+BattleAnim_Unused1:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -1654,7 +1655,6 @@ BattleAnim_Amnesia:
 	anim_ret
 
 BattleAnim_FreshSnack:
-	anim_jumpif $2, BattleAnim_MilkDrink
 BattleAnim_Softboiled: ; reassigned
 	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_BUBBLE
 	anim_call BattleAnim_TargetObj_1Row
@@ -1676,15 +1676,6 @@ BattleAnimSub_SoftboiledHeal:
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
-
-BattleAnim_MilkDrink: ; reassigned
-	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_BUBBLE
-	anim_call BattleAnim_TargetObj_1Row
-	anim_obj ANIM_OBJ_MILK_DRINK,   9, 2,  13, 0, $0
-	anim_wait 16
-	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_sound 0, 0, SFX_MILK_DRINK
-	anim_jump BattleAnimSub_SoftboiledHeal
 
 BattleAnim_FocusEnergy:
 	anim_1gfx ANIM_GFX_SPEED
