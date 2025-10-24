@@ -5,7 +5,6 @@ AbnormalContactMoves:
 	db DRAINING_KISS
 	db PETAL_DANCE
 	; Physical moves that don't make contact
-	db BONEMERANG
 	db BULLDOZE
 	db EARTHQUAKE
 	db EXPLOSION
@@ -14,14 +13,12 @@ AbnormalContactMoves:
 	db ICICLE_CRASH
 	db ICICLE_SPEAR
 	db MAGNITUDE
-	db PAY_DAY
 	db PIN_MISSILE
 	db POISON_STING
 	db RAZOR_LEAF
 	db ROCK_BLAST
 	db ROCK_SLIDE
 	db ROCK_THROW
-	db SACRED_FIRE
 	db SEED_BOMB
 	db STONE_EDGE
 	db -1 ; Struggle does make contact

@@ -248,11 +248,7 @@ MoveNames::
 	li "AncientPower"
 	li "Shadow Ball"
 	li "Future Sight"
-if DEF(FAITHFUL)
-	li "Rock Smash"
-else
 	li "Brick Break"
-endc
 	li "Whirlpool"
 	li "Dark Pulse"
 	li "Moonblast"

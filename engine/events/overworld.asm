@@ -1564,12 +1564,7 @@ AskRockSmashScript:
 	farjumptext _MaySmashText
 
 HasRockSmash:
-	lb de, ROCK_SMASH, TM_ROCK_SMASH
-	call CheckPartyMove
-	; a = carry ? 1 : 0
-	sbc a
-	and 1
-	ldh [hScriptVar], a
+	xor a
 	ret
 
 FishFunction:

@@ -3,7 +3,6 @@ BulletMoves:
 	db ENERGY_BALL
 	db FOCUS_BLAST
 	db GYRO_BALL
-	db OCTAZOOKA
 	db ROCK_BLAST
 	db SEED_BOMB
 	db SHADOW_BALL

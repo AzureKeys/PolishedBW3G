@@ -1159,7 +1159,7 @@ EvosAttacksPointersKanto::
 	learnset 8, SEISMIC_TOSS
 	learnset 12, DEFENSE_CURL ; Harden → similar move
 	learnset 20, ROCK_THROW ; Brick Break → event move
-	learnset 26, ROCK_SMASH ; Vital Throw → TM move
+	learnset 26, BRICK_BREAK ; Vital Throw → TM move
 	learnset 29, X_SCISSOR
 	learnset 33, FEINT_ATTACK ; Submission → egg moves
 	learnset 36, OUTRAGE ; Storm Throw → LGPE move

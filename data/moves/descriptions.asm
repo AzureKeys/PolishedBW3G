@@ -249,7 +249,7 @@ MoveDescriptions::
 	dw AncientpowerDescription
 	dw ShadowBallDescription
 	dw FutureSightDescription
-	dw RockSmashDescription
+	dw BrickBreakDescription
 	dw WhirlpoolDescription
 	dw DarkPulseDescription
 	dw MoonblastDescription
@@ -443,12 +443,11 @@ PlayRoughDescription:
 	next "lower Attack."
 	done
 
-RockSmashDescription:
-if !DEF(FAITHFUL)
+BrickBreakDescription:
 	text "Removes Reflect"
 	next "and Light Screen."
 	done
-endc
+	
 CrunchDescription:
 IronTailDescription:
 	text "An attack that may"

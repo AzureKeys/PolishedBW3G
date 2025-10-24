@@ -251,11 +251,7 @@ BattleAnimations::
 	fardw BattleAnim_Ancientpower
 	fardw BattleAnim_ShadowBall
 	fardw BattleAnim_FutureSight
-if !DEF(FAITHFUL)
 	fardw BattleAnim_BrickBreak
-else
-	fardw BattleAnim_RockSmash
-endc
 	fardw BattleAnim_Whirlpool
 	fardw BattleAnim_DarkPulse
 	fardw BattleAnim_Moonblast
