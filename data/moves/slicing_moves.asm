@@ -5,6 +5,7 @@ SlicingMoves:
 	db LEAF_BLADE
 	db NIGHT_SLASH
 	db RAZOR_LEAF
+	db RAZOR_SHELL
 	db SLASH
 	db X_SCISSOR
 	db -1

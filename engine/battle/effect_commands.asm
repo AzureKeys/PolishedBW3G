@@ -6289,6 +6289,7 @@ BoostJumptable:
 	dbw VENOSHOCK,  DoVenoshock
 	dbw KNOCK_OFF,  DoKnockOff
 	dbw PURSUIT,    DoPursuit
+	dbw BRINE,      DoBrine
 	dbw -1, -1
 
 BattleCommand_conditionalboost:
@@ -6336,6 +6337,15 @@ DoPursuit:
 	ld a, [wDeferredSwitch]
 	and a
 	jr DoubleDamageIfNZ
+
+DoBrine:
+	call SwitchTurn
+	call GetHalfMaxHP
+	call CompareHP
+	call SwitchTurn
+	jr c, DoubleDamage
+	jr z, DoubleDamage
+	ret
 
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

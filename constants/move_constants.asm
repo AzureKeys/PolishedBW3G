@@ -104,7 +104,7 @@
 	const HONE_CLAWS    ; $60
 	const AGILITY       ; $61
 	const QUICK_ATTACK  ; $62
-	const UNUSED_MOVE_6 ; $63
+	const BRINE         ; $63
 	const UNUSED_MOVE_7 ; $64
 	const NIGHT_SHADE   ; $65
 	const DRAGON_PULSE  ; $66

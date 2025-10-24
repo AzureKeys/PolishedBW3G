@@ -98,7 +98,7 @@ MoveNames::
 	li "Hone Claws"
 	li "Agility"
 	li "Quick Attack"
-	li "UNUSED"
+	li "Brine"
 	li "UNUSED"
 	li "Night Shade"
 	li "Dragon Pulse"

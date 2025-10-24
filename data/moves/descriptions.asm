@@ -99,7 +99,7 @@ MoveDescriptions::
 	dw HoneClawsDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
-	dw Unused6Description
+	dw BrineDescription
 	dw Unused7Description
 	dw NightShadeDescription
 	dw DragonPulseDescription
@@ -979,9 +979,9 @@ EarthquakeDescription:
 	next "vs. flying foes."
 	done
 
-Unused6Description:
-	text "Raises Attack if"
-	next "the user is hit."
+BrineDescription:
+	text "Damage doubles if"
+	next "foe has low HP."
 	done
 
 Unused7Description:

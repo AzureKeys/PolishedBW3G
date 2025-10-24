@@ -1,4 +1,3 @@
-BattleAnim_Unused6:
 BattleAnim_Unused7:
 BattleAnim_Unused8:
 BattleAnim_Unused9:
@@ -19,6 +18,62 @@ BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
 
+
+BattleAnim_Brine:
+	anim_2gfx ANIM_GFX_WATER, ANIM_GFX_HIT
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_WATER
+	anim_battlergfx_2row
+	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
+	anim_sound 0, 0, SFX_SURF
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 128, 1, $11
+	anim_wait 2
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 136, 1, $0f
+	anim_wait 2
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $1, $0
+.loop
+	anim_obj ANIM_OBJ_HIT_YFIX, 124, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 124, 1, $11
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 140, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 140, 1, $0f
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 120, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 120, 1, $11
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 144, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 144, 1, $0f
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 116, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 116, 1, $11
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 148, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 148, 1, $0f
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 112, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 128, 1, $11
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 152, 68, $0
+	anim_obj ANIM_OBJ_WATER_SPOUT_FALLING, 136, 1, $0f
+	anim_wait 2
+	anim_loop 4, .loop
+	anim_obj ANIM_OBJ_HIT_YFIX, 124, 68, $0
+	anim_wait 2
+	anim_obj ANIM_OBJ_HIT_YFIX, 140, 68, $0
+	anim_wait 2
+	anim_sound 0, 0, SFX_TOXIC
+	anim_bgeffect ANIM_BG_START_WATER, $0, $0, $0
+	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $1, $0
+	anim_wait 1
+	anim_bgeffect ANIM_BG_WATER, $1c, $0, $0
+	anim_wait 7
+	anim_sound 0, 0, SFX_TOXIC
+	anim_wait 8
+	anim_sound 0, 0, SFX_TOXIC
+	anim_wait 11
+	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
+	anim_bgeffect ANIM_BG_END_WATER, $0, $0, $0
+	anim_wait 8
+	anim_ret
 
 BattleAnim_RazorShell:
 	anim_3gfx ANIM_GFX_BIG_WHIP, ANIM_GFX_CUT, ANIM_GFX_RAZOR_SHELL

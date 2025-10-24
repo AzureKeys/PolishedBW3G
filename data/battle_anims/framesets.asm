@@ -252,6 +252,8 @@ BattleAnimFrameData:
 	dw .Frameset_LeafStormSmallLeaf      ; BATTLEANIMFRAMESET_LEAF_STORM_SMALL_LEAF
 	dw .Frameset_BurnedShort             ; BATTLEANIMFRAMESET_BURNED_SHORT
 	dw .Frameset_BigWhip2                ; BATTLEANIMFRAMESET_BIG_WHIP_2
+	dw .Frameset_WaterSpoutRising        ; BATTLEANIMFRAMESET_WATER_SPOUT_RISING
+	dw .Frameset_WaterSpoutFalling       ; BATTLEANIMFRAMESET_WATER_SPOUT_FALLING
 
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
@@ -1827,3 +1829,11 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_BIG_WHIP_1,  1, B_OAM_XFLIP
 	battleoamframe BATTLEANIMOAMSET_BIG_WHIP_2,  1, B_OAM_XFLIP
 	battleoamrestart
+
+.Frameset_WaterSpoutRising:
+	battleoamframe BATTLEANIMOAMSET_26,  8, B_OAM_YFLIP
+	battleoamend
+
+.Frameset_WaterSpoutFalling:
+	battleoamframe BATTLEANIMOAMSET_26,  8
+	battleoamend
