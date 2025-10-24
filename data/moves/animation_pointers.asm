@@ -4,15 +4,15 @@ BattleAnimations::
 	farbank "Battle Animations"
 	fardw BattleAnim_0
 	fardw BattleAnim_Acrobatics
-	fardw BattleAnim_KarateChop
 	fardw BattleAnim_Unused1
+	fardw BattleAnim_Unused2
 	fardw BattleAnim_AerialAce
 	fardw BattleAnim_DragonClaw
-	fardw BattleAnim_PayDay
+	fardw BattleAnim_Unused3
 	fardw BattleAnim_FirePunch
 	fardw BattleAnim_IcePunch
 	fardw BattleAnim_Thunderpunch
-	fardw BattleAnim_Scratch
+	fardw BattleAnim_Unused4
 	fardw BattleAnim_XScissor
 	fardw BattleAnim_NightSlash
 	fardw BattleAnim_AirSlash

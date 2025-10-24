@@ -48,11 +48,7 @@ ENDM
 	add_tm DIG          ; $1b
 	add_tm PSYCHIC      ; $1c
 	add_tm SHADOW_BALL  ; $1d
-	add_tm ROCK_SMASH   ; $1e
-if !DEF(FAITHFUL)
-DEF TM_BRICK_BREAK    EQU TM_ROCK_SMASH
-DEF BRICK_BREAK_TMNUM EQU ROCK_SMASH_TMNUM
-endc
+	add_tm BRICK_BREAK  ; $1e
 	add_tm DOUBLE_TEAM  ; $1f
 	add_tm REFLECT      ; $20
 	add_tm FLASH_CANNON ; $21
@@ -140,7 +136,6 @@ ENDM
 	add_mt ICY_WIND     ; $60
 	add_mt IRON_HEAD    ; $61
 	add_mt KNOCK_OFF    ; $62
-	add_mt PAY_DAY      ; $63
 	add_mt ROLLOUT      ; $64
 	add_mt SEED_BOMB    ; $65
 	add_mt SEISMIC_TOSS ; $66

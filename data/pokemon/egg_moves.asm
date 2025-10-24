@@ -638,7 +638,6 @@ ElekidEggSpeciesMoves:
 	dp ELEKID, PLAIN_FORM
 	db BARRIER
 	db CROSS_CHOP
-	db KARATE_CHOP
 	db BULK_UP
 	db $ff
 
@@ -649,7 +648,6 @@ MagbyEggSpeciesMoves:
 	db CROSS_CHOP
 	db FLARE_BLITZ
 	db FOCUS_ENERGY
-	db KARATE_CHOP
 	db MACH_PUNCH
 	db SCREECH
 	db $ff

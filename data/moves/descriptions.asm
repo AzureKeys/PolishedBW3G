@@ -2,15 +2,15 @@ MoveDescriptions::
 ; entries correspond to move ids (see constants/move_constants.asm)
 	table_width 2
 	dw AcrobaticsDescription
-	dw KarateChopDescription
 	dw Unused1Description
+	dw Unused2Description
 	dw AerialAceDescription
 	dw DragonClawDescription
-	dw PayDayDescription
+	dw Unused3Description
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
-	dw ScratchDescription
+	dw Unused4Description
 	dw XScissorDescription
 	dw NightSlashDescription
 	dw AirSlashDescription
@@ -269,7 +269,7 @@ LowKickDescription:
 	next "to heavier foes."
 	done
 
-KarateChopDescription:
+Unused1Description:
 RazorLeafDescription:
 CrabhammerDescription:
 SlashDescription:
@@ -305,7 +305,7 @@ DrainKissDescription:
 	next "damage inflicted."
 	done
 
-Unused1Description:
+Unused2Description:
 	text "Repeatedly slaps"
 	next "2-5 times."
 	done
@@ -859,7 +859,7 @@ ExtremespeedDescription:
 	next "strike attack."
 	done
 
-ScratchDescription:
+Unused4Description:
 	text "Scratches with"
 	next "sharp claws."
 	done
@@ -914,7 +914,7 @@ DoubleKickDescription:
 	next "attack."
 	done
 
-PayDayDescription:
+Unused3Description:
 	text "Throws coins. Gets"
 	next "them back later."
 	done

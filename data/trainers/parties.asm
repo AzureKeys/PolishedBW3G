@@ -158,7 +158,7 @@ WhitneyGroup:
 		tr_moves METRONOME, DISARM_VOICE, FURY_STRIKES, ATTRACT
 	tr_mon 20, RATTATA, FEMALE
 		tr_evs 32 HP, 32 Atk, 32 Spe
-		tr_moves SCRATCH, ATTRACT, LICK, FEINT_ATTACK
+		tr_moves TACKLE, ATTRACT, LICK, FEINT_ATTACK
 	tr_mon 19, MUNCHLAX, FEMALE
 		tr_evs 64 Def, 32 SDf
 		tr_moves ATTRACT, METRONOME, DEFENSE_CURL, ROLLOUT
@@ -257,7 +257,7 @@ ChuckGroup:
 	tr_mon 30, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
-		tr_moves KARATE_CHOP, SEISMIC_TOSS, SCREECH, DYNAMICPUNCH
+		tr_moves BRICK_BREAK, SEISMIC_TOSS, SCREECH, DYNAMICPUNCH
 	tr_mon 29, RATTATA, MALE
 		tr_extra HUSTLE
 		tr_evs 160 Atk
@@ -2602,7 +2602,7 @@ HikerGroup:
 	tr_mon 36, GOLEM
 		tr_moves BULLDOZE, EXPLOSION, DEFENSE_CURL, ROLLOUT
 	tr_mon 34, RATTATA
-		tr_moves KARATE_CHOP, BULLET_PUNCH, HEADBUTT, DIG
+		tr_moves BRICK_BREAK, BULLET_PUNCH, HEADBUTT, DIG
 	end_trainer
 
 	def_trainer PARRY1, "Parry"
@@ -3403,26 +3403,26 @@ LassGroup:
 	tr_mon 19, FLAAFFY
 		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
 	tr_mon 19, PSYDUCK
-		tr_moves SCRATCH, LEER, DISABLE, CONFUSION
+		tr_moves TACKLE, LEER, DISABLE, CONFUSION
 	end_trainer
 
 	def_trainer DANA2, "Dana"
 	tr_mon 21, FLAAFFY
 		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
 	tr_mon 21, PSYDUCK
-		tr_moves SCRATCH, LEER, DISABLE, CONFUSION
+		tr_moves TACKLE, LEER, DISABLE, CONFUSION
 	end_trainer
 
 	def_trainer DANA3, "Dana"
 	tr_mon 29, PSYDUCK
-		tr_moves SCRATCH, DISABLE, CONFUSION, SCREECH
+		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
 	tr_mon 29, FLAAFFY
 		tr_moves TACKLE, THUNDERSHOCK, THUNDER_WAVE, THUNDERBOLT
 	end_trainer
 
 	def_trainer DANA4, "Dana"
 	tr_mon 32, PSYDUCK
-		tr_moves SCRATCH, DISABLE, CONFUSION, SCREECH
+		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
 if DEF(FAITHFUL)
 	tr_mon 32, FLAAFFY
 		tr_moves TACKLE, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
@@ -3576,9 +3576,9 @@ BeautyGroup:
 
 	def_trainer SAMANTHA, "Samantha"
 	tr_mon 16, MEOWTH
-		tr_moves SCRATCH, GROWL, BITE, PAY_DAY
+		tr_moves TACKLE, GROWL, BITE, SLASH
 	tr_mon 16, MEOWTH
-		tr_moves SCRATCH, GROWL, BITE, SLASH
+		tr_moves TACKLE, GROWL, BITE, SLASH
 	end_trainer
 
 	def_trainer CASSIE, "Cassie"
@@ -4748,9 +4748,9 @@ SailorGroup:
 
 	def_trainer KENT, "Kent"
 	tr_mon 18, RATTATA
-		tr_moves WATER_GUN, LEER, SCRATCH, DEFENSE_CURL
+		tr_moves WATER_GUN, LEER, TACKLE, DEFENSE_CURL
 	tr_mon 20, RATTATA
-		tr_moves BUBBLE_BEAM, LEER, SCRATCH, DEFENSE_CURL
+		tr_moves BUBBLE_BEAM, LEER, TACKLE, DEFENSE_CURL
 	end_trainer
 
 	def_trainer ERNEST, "Roberto" ; MISMATCH
@@ -5386,9 +5386,9 @@ BlackbeltGroup:
 
 	def_trainer NOB, "Nob"
 	tr_mon 25, RATTATA
-		tr_moves LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
+		tr_moves LEER, FOCUS_ENERGY, BRICK_BREAK, SEISMIC_TOSS
 	tr_mon 25, RATTATA
-		tr_moves LEER, KARATE_CHOP, SEISMIC_TOSS, ROCK_SLIDE
+		tr_moves LEER, BRICK_BREAK, SEISMIC_TOSS, ROCK_SLIDE
 	end_trainer
 
 	def_trainer LUNG, "Lung"
@@ -6584,7 +6584,7 @@ VeteranFGroup:
 	tr_mon 39, SCYTHER @ EVIOLITE
 		tr_moves SLASH, AERIAL_ACE, SWORDS_DANCE, PURSUIT
 	tr_mon 38, ELECTABUZZ @ MAGNET
-		tr_moves THUNDERBOLT, BULK_UP, KARATE_CHOP, LIGHT_SCREEN
+		tr_moves THUNDERBOLT, BULK_UP, BRICK_BREAK, LIGHT_SCREEN
 	tr_mon 40, POLIWRATH @ KINGS_ROCK
 		tr_moves WATERFALL, SURF, STRENGTH, BODY_SLAM
 	tr_mon 37, FLAREON @ CHARCOAL

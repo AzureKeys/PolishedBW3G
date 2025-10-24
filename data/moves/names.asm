@@ -1,15 +1,15 @@
 MoveNames::
 	list_start
 	li "Acrobatics"
-	li "Karate Chop"
+	li "UNUSED"
 	li "UNUSED"
 	li "Aerial Ace"
 	li "Dragon Claw"
-	li "Pay Day"
+	li "UNUSED"
 	li "Fire Punch"
 	li "Ice Punch"
 	li "ThunderPunch"
-	li "Scratch"
+	li "UNUSED"
 	li "X-Scissor"
 	li "Night Slash"
 	li "Air Slash"

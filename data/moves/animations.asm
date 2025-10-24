@@ -1,4 +1,7 @@
 BattleAnim_Unused1:
+BattleAnim_Unused2:
+BattleAnim_Unused3:
+BattleAnim_Unused4:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -488,25 +491,6 @@ BattleAnim_Acrobatics:
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $a, $0
 	anim_wait 8
 	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
-	anim_wait 16
-	anim_ret
-
-BattleAnim_KarateChop:
-	anim_1gfx ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_KARATE_CHOP
-	anim_obj ANIM_OBJ_PALM, -15, 0,   5, 0, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   5, 0, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_KARATE_CHOP
-	anim_obj ANIM_OBJ_PALM, -15, 0,   5, 4, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   5, 4, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_KARATE_CHOP
-	anim_obj ANIM_OBJ_PALM, -15, 0,   6, 0, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   6, 0, $0
 	anim_wait 16
 	anim_ret
 
@@ -2469,16 +2453,6 @@ BattleAnim_PetalDance:
 	anim_obj ANIM_OBJ_PETAL_DANCE_IMPACT, 136, 56, $50
 	anim_obj ANIM_OBJ_PETAL_DANCE_IMPACT, 136, 56, $dc
 	anim_obj ANIM_OBJ_PETAL_DANCE_IMPACT, 136, 56, $90
-	anim_wait 64
-	anim_ret
-
-BattleAnim_PayDay:
-	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_STATUS
-	anim_sound 0, 1, SFX_POUND
-	anim_obj ANIM_OBJ_HIT_YFIX,  16, 0,   7, 0, $0
-	anim_wait 16
-	anim_sound 0, 1, SFX_PAY_DAY
-	anim_obj ANIM_OBJ_PAY_DAY,  15, 0,   9, 4, $1
 	anim_wait 64
 	anim_ret
 

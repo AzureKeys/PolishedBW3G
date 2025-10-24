@@ -7,15 +7,15 @@
 	const_def
 	const NO_MOVE       ; $00
 	const ACROBATICS    ; $01
-	const KARATE_CHOP   ; $02
-	const UNUSED_MOVE_1 ; $03
+	const UNUSED_MOVE_1 ; $02
+	const UNUSED_MOVE_2 ; $03
 	const AERIAL_ACE    ; $04
 	const DRAGON_CLAW   ; $05
-	const PAY_DAY       ; $06
+	const UNUSED_MOVE_3 ; $06
 	const FIRE_PUNCH    ; $07
 	const ICE_PUNCH     ; $08
 	const THUNDERPUNCH  ; $09
-	const SCRATCH       ; $0a
+	const UNUSED_MOVE_4 ; $0a
 	const X_SCISSOR     ; $0b
 	const NIGHT_SLASH   ; $0c
 	const AIR_SLASH     ; $0d
