@@ -107,8 +107,8 @@ MoveDescriptions::
 	dw DoubleTeamDescription
 	dw RecoverDescription
 	dw RockBlastDescription
-	dw MinimizeDescription
-	dw SmokescreenDescription
+	dw Unused8Description
+	dw Unused9Description
 	dw ConfuseRayDescription
 	dw AquaTailDescription
 	dw DefenseCurlDescription
@@ -118,7 +118,7 @@ MoveDescriptions::
 	dw ReflectDescription
 	dw FocusEnergyDescription
 	dw FlashCannonDescription
-	dw MetronomeDescription
+	dw Unused10Description
 	dw ScaldDescription
 	dw TrickRoomDescription
 	dw SkillSwapDescription
@@ -596,7 +596,7 @@ AmnesiaDescription:
 	next "user's Sp.Def."
 	done
 
-MinimizeDescription:
+Unused8Description:
 	text "Sharply raises the"
 	next "user's evasiveness."
 	done
@@ -641,7 +641,7 @@ StringShotDescription:
 	next "the foe's Speed."
 	done
 
-SmokescreenDescription:
+Unused9Description:
 FlashDescription:
 	text "A move that lowers"
 	next "the foe's accuracy."
@@ -999,7 +999,7 @@ AquaTailDescription:
 	next "wave in a storm."
 	done
 
-MetronomeDescription:
+Unused10Description:
 	text "Randomly uses any"
 	next "#mon move."
 	done

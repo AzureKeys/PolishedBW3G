@@ -297,7 +297,6 @@ EvosAttacksPointersVariants::
 	learnset 12, DISABLE
 	learnset 15, VENOSHOCK ; Acid Spray → tutor move
 	learnset 18, HAZE ; Poison Fang → egg move
-	learnset 21, MINIMIZE
 	learnset 26, FEINT_ATTACK ; Fling → new move
 	learnset 29, KNOCK_OFF
 	learnset 32, CRUNCH
@@ -315,7 +314,6 @@ EvosAttacksPointersVariants::
 	learnset 12, DISABLE
 	learnset 15, VENOSHOCK ; Acid Spray → tutor move
 	learnset 18, HAZE ; Poison Fang → egg move
-	learnset 21, MINIMIZE
 	learnset 26, FEINT_ATTACK ; Fling → new move
 	learnset 29, KNOCK_OFF
 	learnset 32, CRUNCH

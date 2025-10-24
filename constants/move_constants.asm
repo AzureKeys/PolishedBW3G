@@ -112,8 +112,8 @@
 	const DOUBLE_TEAM   ; $68
 	const RECOVER       ; $69
 	const ROCK_BLAST    ; $6a
-	const MINIMIZE      ; $6b
-	const SMOKESCREEN   ; $6c
+	const UNUSED_MOVE_8 ; $6b
+	const UNUSED_MOVE_9 ; $6c
 	const CONFUSE_RAY   ; $6d
 	const AQUA_TAIL     ; $6e
 	const DEFENSE_CURL  ; $6f
@@ -123,7 +123,7 @@
 	const REFLECT       ; $73
 	const FOCUS_ENERGY  ; $74
 	const FLASH_CANNON  ; $75
-	const METRONOME     ; $76
+	const UNUSED_MOVE_10; $76
 	const SCALD         ; $77
 	const TRICK_ROOM    ; $78
 	const SKILL_SWAP    ; $79

@@ -109,8 +109,8 @@ BattleAnimations::
 	fardw BattleAnim_DoubleTeam
 	fardw BattleAnim_Recover
 	fardw BattleAnim_RockBlast
-	fardw BattleAnim_Minimize
-	fardw BattleAnim_Smokescreen
+	fardw BattleAnim_Unused8
+	fardw BattleAnim_Unused9
 	fardw BattleAnim_ConfuseRay
 	fardw BattleAnim_AquaTail
 	fardw BattleAnim_DefenseCurl
@@ -120,7 +120,7 @@ BattleAnimations::
 	fardw BattleAnim_Reflect
 	fardw BattleAnim_FocusEnergy
 	fardw BattleAnim_FlashCannon
-	fardw BattleAnim_Metronome
+	fardw BattleAnim_Unused10
 	fardw BattleAnim_Scald
 	fardw BattleAnim_TrickRoom
 	fardw BattleAnim_SkillSwap

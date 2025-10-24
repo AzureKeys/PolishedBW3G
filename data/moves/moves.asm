@@ -127,8 +127,8 @@ endc
 	move DOUBLE_TEAM,     EFFECT_EVASION_UP,          0, NORMAL,     -1, 15,   0, STATUS
 	move RECOVER,         EFFECT_HEAL,                0, NORMAL,     -1, 5,    0, STATUS
 	move ROCK_BLAST,      EFFECT_MULTI_HIT,          25, ROCK,       90, 25,   0, PHYSICAL
-	move MINIMIZE,        EFFECT_MINIMIZE,            0, NORMAL,     -1, 10,   0, STATUS
-	move SMOKESCREEN,     EFFECT_ACCURACY_DOWN,       0, NORMAL,    100, 20,   0, STATUS
+	move UNUSED_MOVE_8,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move UNUSED_MOVE_9,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move CONFUSE_RAY,     EFFECT_CONFUSE,             0, GHOST,     100, 10,   0, STATUS
 	move AQUA_TAIL,       EFFECT_NORMAL_HIT,         90, WATER,      90, 10,   0, PHYSICAL
 	move DEFENSE_CURL,    EFFECT_DEFENSE_CURL,        0, NORMAL,     -1, 40,   0, STATUS
@@ -138,7 +138,7 @@ endc
 	move REFLECT,         EFFECT_REFLECT,             0, PSYCHIC,    -1, 20,   0, STATUS
 	move FOCUS_ENERGY,    EFFECT_FOCUS_ENERGY,        0, NORMAL,     -1, 30,   0, STATUS
 	move FLASH_CANNON,    EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,     100, 10,  10, SPECIAL
-	move METRONOME,       EFFECT_METRONOME,           0, NORMAL,     -1, 10,   0, STATUS
+	move UNUSED_MOVE_10,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move SCALD,           EFFECT_BURN_HIT,           80, WATER,     100, 15,  30, SPECIAL
 	move TRICK_ROOM,      EFFECT_TRICK_ROOM,          0, PSYCHIC,    -1,  5,   0, STATUS
 	move SKILL_SWAP,      EFFECT_SKILL_SWAP,          0, PSYCHIC,    -1, 10,   0, STATUS

@@ -3217,7 +3217,6 @@ endc
 	;learnset 28, AROMATHERAPY
 	learnset 31, SAFEGUARD ; Helping Hand
 	learnset 35, ENERGY_BALL
-	learnset 37, MINIMIZE ; Entrainment
 	learnset 40, SUNNY_DAY
 	learnset 44, ENCORE ; After You
 	learnset 46, SOLAR_BEAM ; Leaf Storm
@@ -4259,7 +4258,6 @@ endc
 	evos_attacks Litwick
 	evo_data EVOLVE_LEVEL, 41, LAMPENT
 	learnset 1, EMBER
-	learnset 3, MINIMIZE
 	learnset 7, FIRE_SPIN
 	learnset 10, CONFUSE_RAY
 	learnset 13, NIGHT_SHADE
@@ -4277,7 +4275,6 @@ endc
 	evos_attacks Lampent
 	evo_data EVOLVE_ITEM, DUSK_STONE, CHANDELURE
 	learnset 1, EMBER
-	learnset 3, MINIMIZE
 	learnset 7, FIRE_SPIN
 	learnset 10, CONFUSE_RAY
 	learnset 13, NIGHT_SHADE
@@ -4461,7 +4458,6 @@ endc
 	learnset 5, MUD_SLAP ; Bide
 	learnset 9, THUNDERSHOCK
 	;learnset 13, MUD_SHOT
-	learnset 17, MINIMIZE ; Camouflage
 	learnset 21, MAGNITUDE ; Mud Bomb
 	;learnset 25, DISCHARGE
 	learnset 30, ENDURE
@@ -4734,7 +4730,6 @@ endc
 	learnset 21, CRUNCH
 	learnset 26, IRON_HEAD
 	learnset 31, DIG
-	learnset 36, MINIMIZE ; Entrainment
 	learnset 41, X_SCISSOR
 	learnset 46, BARRIER ; Iron Defense
 	;learnset 51, GUILLOTINE

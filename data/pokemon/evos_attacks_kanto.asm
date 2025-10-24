@@ -271,7 +271,6 @@ EvosAttacksPointersKanto::
 	learnset 16, SWEET_KISS ; Follow Me → new move
 	learnset 19, DIZZY_PUNCH ; Bestow → Crystal unique move
 	learnset 22, TRI_ATTACK ; Wake-Up Slap → RBY TM move
-	learnset 25, MINIMIZE
 	learnset 28, DRAINING_KISS ; Stored Power → Sw/Sh move
 	learnset 34, REFLECT ; Cosmic Power → TM move
 	learnset 37, LIGHT_SCREEN ; Lucky Chant → TM move
@@ -287,7 +286,6 @@ EvosAttacksPointersKanto::
 	learnset 1, DISARM_VOICE
 	learnset 1, PLAY_ROUGH ; LGPE TM move
 	learnset 1, SING
-	learnset 1, MINIMIZE
 
 	evos_attacks VulpixPlain
 	evo_data EVOLVE_ITEM, FIRE_STONE, NINETALES, PLAIN_FORM
@@ -339,7 +337,6 @@ EvosAttacksPointersKanto::
 	learnset 45, DOUBLE_EDGE
 
 	evos_attacks Wigglytuff
-	learnset 1, MINIMIZE ; LGPE move
 	learnset 1, NASTY_PLOT ; SV TM move
 	learnset 1, DOUBLE_EDGE
 	learnset 1, PLAY_ROUGH
@@ -808,7 +805,6 @@ EvosAttacksPointersKanto::
 	learnset 12, DISABLE
 	learnset 15, VENOSHOCK ; Sludge → tutor move
 	learnset 18, HAZE ; Mud Bomb → egg move
-	learnset 21, MINIMIZE
 	learnset 26, FEINT_ATTACK ; Fling → new move
 	learnset 29, SLUDGE_BOMB
 	learnset 32, SCARY_FACE ; Sludge Wave → egg move
@@ -826,7 +822,6 @@ EvosAttacksPointersKanto::
 	learnset 12, DISABLE
 	learnset 15, VENOSHOCK ; Sludge → tutor move
 	learnset 18, HAZE ; Mud Bomb → egg move
-	learnset 21, MINIMIZE
 	learnset 26, FEINT_ATTACK ; Fling → new move
 	learnset 29, SLUDGE_BOMB
 	learnset 32, SCARY_FACE ; Sludge Wave → egg move
@@ -1066,7 +1061,6 @@ EvosAttacksPointersKanto::
 	learnset 22, AGILITY ; Camouflage → new move
 	learnset 24, GYRO_BALL
 	learnset 28, PAIN_SPLIT ; Brine → HGSS tutor move
-	learnset 31, MINIMIZE
 	learnset 35, REFLECT ; Reflect Type → new move
 	learnset 37, POWER_GEM
 	learnset 40, CONFUSE_RAY

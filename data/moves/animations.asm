@@ -5,6 +5,9 @@ BattleAnim_Unused4:
 BattleAnim_Unused5:
 BattleAnim_Unused6:
 BattleAnim_Unused7:
+BattleAnim_Unused8:
+BattleAnim_Unused9:
+BattleAnim_Unused10:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -2702,29 +2705,6 @@ BattleAnim_Substitute:
 	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
 	anim_ret
 
-BattleAnim_Minimize:
-	anim_1gfx ANIM_GFX_MISC_2
-.loop
-	anim_sound 0, 1, SFX_SLUDGE_BOMB
-	anim_bgeffect ANIM_BG_RETURN_MON, $0, $1, $0
-	anim_wait 12
-	anim_obj ANIM_OBJ_MINIMIZE, 48, 110, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_MINIMIZE, 48, 110, $0
-	anim_wait 6
-	anim_loop 2, .loop
-	anim_sound 0, 1, SFX_SLUDGE_BOMB
-	anim_bgeffect ANIM_BG_RETURN_MON, $0, $1, $0
-	anim_wait 16
-.mini
-	anim_obj ANIM_OBJ_MINIMIZE, 48, 110, $0
-	anim_wait 6
-	anim_loop 8, .mini
-	anim_sound 0, 1, SFX_LICK
-	anim_bgeffect ANIM_BG_ENTER_MON, $0, $1, $0
-	anim_wait 12
-	anim_ret
-
 BattleAnim_BraveBird:
 	anim_1gfx ANIM_GFX_SKY_ATTACK
 	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
@@ -2990,23 +2970,6 @@ BattleAnim_Growth:
 	anim_obj ANIM_OBJ_GROWTH,   6, 0,  13, 4, $30
 	anim_obj ANIM_OBJ_GROWTH,   6, 0,  13, 4, $38
 	anim_wait 64
-	anim_ret
-
-BattleAnim_Smokescreen:
-	anim_3gfx ANIM_GFX_HAZE, ANIM_GFX_EGG, ANIM_GFX_SMOKE
-	anim_sound 6, 2, SFX_THROW_BALL
-	anim_obj ANIM_OBJ_SMOKESCREEN,   8, 0,  11, 4, $6c
-	anim_wait 24
-	anim_incobj 1
-	anim_sound 0, 1, SFX_BALL_POOF
-	anim_obj ANIM_OBJ_BALL_POOF,  13, 4,   8, 6, $10
-	anim_wait 8
-.loop
-	anim_sound 0, 1, SFX_MENU
-	anim_obj ANIM_OBJ_SMOKE, -16, 4,   7, 4, $20
-	anim_wait 8
-	anim_loop 5, .loop
-	anim_wait 128
 	anim_ret
 
 BattleAnim_Strength:
@@ -3310,17 +3273,6 @@ BattleAnim_Toxic:
 	anim_wait 32
 	anim_call BattleAnimSub_Sludge
 	anim_wait 64
-	anim_ret
-
-BattleAnim_Metronome:
-	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_SPEED
-	anim_sound 0, 0, SFX_METRONOME
-	anim_obj ANIM_OBJ_METRONOME_HAND,   9, 0,  11, 0, $0
-.loop
-	anim_obj ANIM_OBJ_METRONOME_SPARKLE,   9, 0,  10, 0, $0
-	anim_wait 8
-	anim_loop 5, .loop
-	anim_wait 48
 	anim_ret
 
 BattleAnim_Counter:

@@ -512,7 +512,6 @@ SnubbullEggSpeciesMoves:
 	dp SNUBBULL, PLAIN_FORM
 	db FEINT_ATTACK
 	db LEER
-	db METRONOME
 	db REFLECT
 	db CRUNCH
 	db HEAL_BELL
