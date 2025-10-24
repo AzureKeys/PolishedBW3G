@@ -92,7 +92,7 @@ BattleAnimations::
 	fardw BattleAnim_Thunder
 	fardw BattleAnim_RockThrow
 	fardw BattleAnim_Earthquake
-	fardw BattleAnim_Avalanche
+	fardw BattleAnim_Unused5
 	fardw BattleAnim_Dig
 	fardw BattleAnim_Toxic
 	fardw BattleAnim_Confusion
@@ -101,8 +101,8 @@ BattleAnimations::
 	fardw BattleAnim_HoneClaws
 	fardw BattleAnim_Agility
 	fardw BattleAnim_QuickAttack
-	fardw BattleAnim_Rage
-	fardw BattleAnim_Teleport
+	fardw BattleAnim_Unused6
+	fardw BattleAnim_Unused7
 	fardw BattleAnim_NightShade
 	fardw BattleAnim_DragonPulse
 	fardw BattleAnim_Screech

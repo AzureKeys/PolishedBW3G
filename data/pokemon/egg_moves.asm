@@ -493,7 +493,6 @@ DunsparceEggSpeciesMoves:
 	db AGILITY
 	db ASTONISH
 	db BITE
-	db RAGE
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db HEX
@@ -554,7 +553,6 @@ SneaselHisuianEggSpeciesMoves:
 
 SwinubEggSpeciesMoves:
 	dp SWINUB, PLAIN_FORM
-	db AVALANCHE
 	db BITE
 	db TAKE_DOWN
 	db BODY_SLAM
@@ -628,7 +626,6 @@ HoundourEggSpeciesMoves:
 	db DESTINY_BOND
 	db FIRE_SPIN
 	db PURSUIT
-	db RAGE
 	db REVERSAL
 	db COUNTER
 	db WILL_O_WISP

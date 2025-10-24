@@ -110,7 +110,7 @@ endc
 	move THUNDER,         EFFECT_THUNDER,           110, ELECTRIC,   70, 10,  30, SPECIAL
 	move ROCK_THROW,      EFFECT_NORMAL_HIT,         50, ROCK,       90, 15,   0, PHYSICAL
 	move EARTHQUAKE,      EFFECT_EARTHQUAKE,        100, GROUND,    100, 10,   0, PHYSICAL
-	move AVALANCHE,       EFFECT_CONDITIONAL_BOOST,  60, ICE,       100, 10,   0, PHYSICAL
+	move UNUSED_MOVE_5,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move DIG,             EFFECT_FLY,                80, GROUND,    100, 10,   0, PHYSICAL
 	move TOXIC,           EFFECT_TOXIC,               0, POISON,     90, 10,   0, STATUS
 	move CONFUSION,       EFFECT_CONFUSE_HIT,        50, PSYCHIC,   100, 25,  10, SPECIAL
@@ -119,8 +119,8 @@ endc
 	move HONE_CLAWS,      EFFECT_HONE_CLAWS,          0, DARK,       -1, 40,   0, STATUS
 	move AGILITY,         EFFECT_SPEED_UP_2,          0, PSYCHIC,    -1, 30,   0, STATUS
 	move QUICK_ATTACK,    EFFECT_PRIORITY_HIT,       40, NORMAL,    100, 30,   0, PHYSICAL
-	move RAGE,            EFFECT_RAGE,               20, NORMAL,    100, 20,   0, PHYSICAL
-	move TELEPORT,        EFFECT_TELEPORT,            0, PSYCHIC,    -1, 20,   0, STATUS
+	move UNUSED_MOVE_6,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move UNUSED_MOVE_7,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move NIGHT_SHADE,     EFFECT_LEVEL_DAMAGE,        1, GHOST,     100, 15,   0, SPECIAL
 	move DRAGON_PULSE,    EFFECT_NORMAL_HIT,         85, DRAGON,    100, 10,   0, SPECIAL
 	move SCREECH,         EFFECT_DEFENSE_DOWN_2,      0, NORMAL,     85, 40,   0, STATUS

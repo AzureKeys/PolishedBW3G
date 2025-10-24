@@ -95,7 +95,7 @@
 	const THUNDER       ; $57
 	const ROCK_THROW    ; $58
 	const EARTHQUAKE    ; $59
-	const AVALANCHE     ; $5a
+	const UNUSED_MOVE_5 ; $5a
 	const DIG           ; $5b
 	const TOXIC         ; $5c
 	const CONFUSION     ; $5d
@@ -104,8 +104,8 @@
 	const HONE_CLAWS    ; $60
 	const AGILITY       ; $61
 	const QUICK_ATTACK  ; $62
-	const RAGE          ; $63
-	const TELEPORT      ; $64
+	const UNUSED_MOVE_6 ; $63
+	const UNUSED_MOVE_7 ; $64
 	const NIGHT_SHADE   ; $65
 	const DRAGON_PULSE  ; $66
 	const SCREECH       ; $67

@@ -2,6 +2,9 @@ BattleAnim_Unused1:
 BattleAnim_Unused2:
 BattleAnim_Unused3:
 BattleAnim_Unused4:
+BattleAnim_Unused5:
+BattleAnim_Unused6:
+BattleAnim_Unused7:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -1243,47 +1246,6 @@ BattleAnim_RockSlide:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_Avalanche:
-	anim_setobjpal PAL_BATTLE_OB_BROWN, PAL_BTLCUSTOM_SNOW
-	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_SNOW
-	anim_2gfx ANIM_GFX_ROCKS, ANIM_GFX_SMOKE_PUFF
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $c0, $1, $0
-	anim_bgp $90
-	anim_obj ANIM_OBJ_AVALANCHE_SMALL, 134, 250, $10
-	anim_wait 2
-	anim_obj ANIM_OBJ_SNOW_FALL, 110, 20, $12
-	anim_wait 2
-.loop
-	anim_obj ANIM_OBJ_AVALANCHE_SMALL, 122, 250, $12
-	anim_wait 2
-	anim_obj ANIM_OBJ_SNOW_FALL, 142, 20, $0e
-	anim_wait 2
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_AVALANCHE_BIG, 144, 250, $0e
-	anim_wait 2
-	anim_obj ANIM_OBJ_SNOW_FALL, 118, 20, $11
-	anim_wait 2
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_AVALANCHE_SMALL, 154, 250, $0f
-	anim_wait 2
-	anim_obj ANIM_OBJ_SNOW_FALL, 130, 20, $10
-	anim_wait 2
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_AVALANCHE_BIG, 118, 250, $11
-	anim_wait 2
-	anim_obj ANIM_OBJ_SNOW_FALL, 154, 20, $0f
-	anim_wait 2
-	anim_sound 0, 1, SFX_TACKLE
-	anim_obj ANIM_OBJ_AVALANCHE_SMALL, 134, 250, $10
-	anim_wait 2
-	anim_obj ANIM_OBJ_SNOW_FALL, 110, 20, $12
-	anim_wait 2
-	anim_sound 0, 1, SFX_TACKLE
-	anim_loop 4, .loop
-	anim_wait 32
-	anim_ret
-
 BattleAnim_Sing:
 	anim_1gfx ANIM_GFX_NOISE
 	anim_sound 16, 2, SFX_SING
@@ -1477,20 +1439,6 @@ BattleAnim_Bite:
 	anim_sound 0, 1, SFX_BITE
 	anim_obj ANIM_OBJ_HIT_YFIX,  16, 0,   8, 0, $18
 	anim_wait 8
-	anim_ret
-
-BattleAnim_Teleport:
-	anim_1gfx ANIM_GFX_SPEED
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_TELEPORT, $0, $1, $0
-	anim_wait 32
-	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
-	anim_wait 3
-	anim_incbgeffect ANIM_BG_TELEPORT
-	anim_call BattleAnim_ShowMon_0
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $1, $0
-	anim_call BattleAnimSub_WarpAway
-	anim_wait 64
 	anim_ret
 
 BattleAnim_Fly:
@@ -3230,25 +3178,6 @@ BattleAnim_SeismicToss:
 	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
 	anim_sound 0, 0, SFX_EGG_BOMB
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $4, $10
-	anim_wait 16
-	anim_ret
-
-BattleAnim_Rage:
-	anim_1gfx ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
-	anim_sound 0, 0, SFX_RAGE
-	anim_wait 72
-	anim_incbgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING
-	anim_call BattleAnim_ShowMon_0
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX,  15, 0,   9, 0, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_COMET_PUNCH
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 0,   7, 0, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -13, 0,   5, 0, $0
 	anim_wait 16
 	anim_ret
 

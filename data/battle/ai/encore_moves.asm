@@ -20,6 +20,5 @@ EncoreMoves:
 	db SUBSTITUTE
 	db SUPER_FANG
 	db SWORDS_DANCE
-	db TELEPORT
 	db TRICK
 	db -1 ; end

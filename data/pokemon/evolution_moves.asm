@@ -27,7 +27,7 @@ EvolutionMoves::
 	db NO_MOVE      ; PSYDUCK
 	db NO_MOVE      ; GOLDUCK
 	db NO_MOVE      ; MANKEY
-	db RAGE         ; PRIMEAPE
+	db NO_MOVE      ; PRIMEAPE
 	db NO_MOVE      ; GROWLITHE
 	db EXTREMESPEED ; ARCANINE
 	db NO_MOVE      ; POLIWAG

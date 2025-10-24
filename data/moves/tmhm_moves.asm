@@ -67,7 +67,7 @@ TMHMMoves:
 	db EXPLOSION    ; TM64 (Underground)
 	db SHADOW_CLAW  ; TM65 (Lavender Soul House)
 	db POISON_JAB   ; TM66 (Janine)
-	db AVALANCHE    ; TM67 (Pryce)
+	db UNUSED_MOVE_5; TM67 (Pryce)
 	db GIGA_IMPACT  ; TM68 (Celadon Game Corner)
 	db U_TURN       ; TM69 (Bugsy)
 	db FLASH        ; TM70 (Sprout Tower)

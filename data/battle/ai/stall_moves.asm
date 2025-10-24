@@ -19,7 +19,6 @@ StallMoves:
 	db LEECH_SEED
 	db LEER
 	db LIGHT_SCREEN
-	db RAGE
 	db REFLECT
 	db SCREECH
 	db SKILL_SWAP

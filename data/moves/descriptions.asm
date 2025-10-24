@@ -90,7 +90,7 @@ MoveDescriptions::
 	dw ThunderDescription
 	dw RockThrowDescription
 	dw EarthquakeDescription
-	dw AvalancheDescription
+	dw Unused5Description
 	dw DigDescription
 	dw ToxicDescription
 	dw ConfusionDescription
@@ -99,8 +99,8 @@ MoveDescriptions::
 	dw HoneClawsDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
-	dw RageDescription
-	dw TeleportDescription
+	dw Unused6Description
+	dw Unused7Description
 	dw NightShadeDescription
 	dw DragonPulseDescription
 	dw ScreechDescription
@@ -762,7 +762,7 @@ HexDescription:
 	next "foe has status."
 	done
 
-AvalancheDescription:
+Unused5Description:
 	text "Damage doubles if"
 	next "user is hit first."
 	done
@@ -979,12 +979,12 @@ EarthquakeDescription:
 	next "vs. flying foes."
 	done
 
-RageDescription:
+Unused6Description:
 	text "Raises Attack if"
 	next "the user is hit."
 	done
 
-TeleportDescription:
+Unused7Description:
 	text "A move for fleeing"
 	next "from battle."
 	done

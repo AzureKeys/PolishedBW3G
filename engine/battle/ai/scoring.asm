@@ -319,7 +319,6 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_SPEED_DOWN_HIT,    AI_Smart_SpeedDownHit
 	dbw EFFECT_SUBSTITUTE,        AI_Smart_Substitute
 	dbw EFFECT_HYPER_BEAM,        AI_Smart_HyperBeam
-	dbw EFFECT_RAGE,              AI_Smart_Rage
 	dbw EFFECT_LEECH_SEED,        AI_Smart_LeechSeed
 	dbw EFFECT_DISABLE,           AI_Smart_Disable
 	dbw EFFECT_COUNTER,           AI_Smart_Counter
