@@ -163,15 +163,15 @@
 	const UNUSED_MOVE_16; $9b
 	const REST          ; $9c
 	const ROCK_SLIDE    ; $9d
-	const HYPER_FANG    ; $9e
+	const UNUSED_MOVE_17; $9e
 	const BULK_UP       ; $9f
-	const CONVERSION    ; $a0
+	const UNUSED_MOVE_18; $a0
 	const TRI_ATTACK    ; $a1
 	const SUPER_FANG    ; $a2
 	const SLASH         ; $a3
 	const SUBSTITUTE    ; $a4
 	const GIGA_IMPACT   ; $a5
-	const SKETCH        ; $a6
+	const UNUSED_MOVE_19; $a6
 	const DRAIN_PUNCH   ; $a7
 	const THIEF         ; $a8
 	const WILL_O_WISP   ; $a9

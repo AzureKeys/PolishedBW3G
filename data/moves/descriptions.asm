@@ -158,15 +158,15 @@ MoveDescriptions::
 	dw Unused16Description
 	dw RestDescription
 	dw RockSlideDescription
-	dw HyperFangDescription
+	dw Unused17Description
 	dw BulkUpDescription
-	dw ConversionDescription
+	dw Unused18Description
 	dw TriAttackDescription
 	dw SuperFangDescription
 	dw SlashDescription
 	dw SubstituteDescription
 	dw GigaImpactDescription
-	dw SketchDescription
+	dw Unused19Description
 	dw DrainPunchDescription
 	dw ThiefDescription
 	dw WillOWispDescription
@@ -343,12 +343,12 @@ BraveBirdDescription:
 	next "hurts the user."
 	done
 
+Unused17Description:
 StompDescription:
 HeadbuttDescription:
 BiteDescription:
 WaterfallDescription:
 RockSlideDescription:
-HyperFangDescription:
 AirSlashDescription:
 IronHeadDescription:
 ZenHeadbuttDescription:
@@ -1039,7 +1039,7 @@ RestDescription:
 	next "to fully recover."
 	done
 
-ConversionDescription:
+Unused18Description:
 	text "Change user's type"
 	next "to a move's type."
 	done
@@ -1064,7 +1064,7 @@ StruggleDescription:
 	next "PP are exhausted."
 	done
 
-SketchDescription:
+Unused19Description:
 	text "Copies the foe's"
 	next "move permanently."
 	done

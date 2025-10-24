@@ -14,6 +14,9 @@ BattleAnim_Unused13:
 BattleAnim_Unused14:
 BattleAnim_Unused15:
 BattleAnim_Unused16:
+BattleAnim_Unused17:
+BattleAnim_Unused18:
+BattleAnim_Unused19:
 BattleAnim_Moonblast:
 	anim_4gfx ANIM_GFX_MOON, ANIM_GFX_SPEED, ANIM_GFX_GLOW, ANIM_GFX_SHINE
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_MOON
@@ -606,16 +609,6 @@ BattleAnim_FocusBlast:
 	anim_sound 0, 1, SFX_EGG_BOMB
 	anim_obj ANIM_OBJ_BIG_GLOW_CLEAR, 136, 48, $0
 	anim_wait 40
-	anim_ret
-
-BattleAnim_HyperFang:
-	anim_1gfx ANIM_GFX_HIT
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $20, $1, $0
-	anim_sound 0, 1, SFX_BITE
-	anim_obj ANIM_OBJ_FANG, -15, 0,   7, 0, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0
-	anim_wait 16
 	anim_ret
 
 BattleAnim_SuperFang:
@@ -3236,18 +3229,6 @@ BattleAnim_Struggle:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Sketch:
-	anim_1gfx ANIM_GFX_OBJECTS
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
-	anim_sound 0, 0, SFX_SKETCH
-	anim_obj ANIM_OBJ_SKETCH,   9, 0,  10, 0, $0
-	anim_wait 80
-	anim_incbgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING
-	anim_call BattleAnim_ShowMon_0
-	anim_wait 1
-	anim_ret
-
 BattleAnim_DrainPunch:
 	anim_setobjpal PAL_BATTLE_OB_GREEN, PAL_BTLCUSTOM_PEACH
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_CHARGE
@@ -3396,21 +3377,6 @@ BattleAnim_Curse:
 	anim_sound 0, 0, SFX_POISON_STING
 	anim_obj ANIM_OBJ_HIT,   5, 4,  12, 0, $0
 	anim_wait 16
-	anim_ret
-
-BattleAnim_Conversion:
-	anim_1gfx ANIM_GFX_EXPLOSION
-	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
-	anim_sound 63, 3, SFX_SHARPEN
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $0
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $8
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $10
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $18
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $20
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $28
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $30
-	anim_obj ANIM_OBJ_CONVERSION,   6, 0,  11, 0, $38
-	anim_wait 128
 	anim_ret
 
 BattleAnim_Aeroblast:

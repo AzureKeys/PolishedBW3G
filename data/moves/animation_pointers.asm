@@ -160,15 +160,15 @@ BattleAnimations::
 	fardw BattleAnim_Unused16
 	fardw BattleAnim_Rest
 	fardw BattleAnim_RockSlide
-	fardw BattleAnim_HyperFang
+	fardw BattleAnim_Unused17
 	fardw BattleAnim_BulkUp
-	fardw BattleAnim_Conversion
+	fardw BattleAnim_Unused18
 	fardw BattleAnim_TriAttack
 	fardw BattleAnim_SuperFang
 	fardw BattleAnim_Slash
 	fardw BattleAnim_Substitute
 	fardw BattleAnim_GigaImpact
-	fardw BattleAnim_Sketch
+	fardw BattleAnim_Unused19
 	fardw BattleAnim_DrainPunch
 	fardw BattleAnim_Thief
 	fardw BattleAnim_WillOWisp

@@ -178,15 +178,15 @@ endc
 	move UNUSED_MOVE_16,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move REST,            EFFECT_HEAL,                0, PSYCHIC,    -1, 5,    0, STATUS
 	move ROCK_SLIDE,      EFFECT_FLINCH_HIT,         75, ROCK,       90, 10,  30, PHYSICAL
-	move HYPER_FANG,      EFFECT_FLINCH_HIT,         80, NORMAL,     90, 15,  10, PHYSICAL
+	move UNUSED_MOVE_17,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move BULK_UP,         EFFECT_BULK_UP,             0, FIGHTING,   -1, 20,   0, STATUS
-	move CONVERSION,      EFFECT_CONVERSION,          0, NORMAL,     -1, 30,   0, STATUS
+	move UNUSED_MOVE_18,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move TRI_ATTACK,      EFFECT_TRI_ATTACK,         80, NORMAL,    100, 10,  20, SPECIAL
 	move SUPER_FANG,      EFFECT_SUPER_FANG,          1, NORMAL,     90, 10,   0, PHYSICAL
 	move SLASH,           EFFECT_NORMAL_HIT,         70, NORMAL,    100, 20,   0, PHYSICAL
 	move SUBSTITUTE,      EFFECT_SUBSTITUTE,          0, NORMAL,     -1, 10,   0, STATUS
 	move GIGA_IMPACT,     EFFECT_HYPER_BEAM,        150, NORMAL,     90,  5,   0, PHYSICAL
-	move SKETCH,          EFFECT_SKETCH,              0, NORMAL,     -1,  1,   0, STATUS
+	move UNUSED_MOVE_19,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move DRAIN_PUNCH,     EFFECT_LEECH_HIT,          75, FIGHTING,  100, 10,   0, PHYSICAL
 	move THIEF,           EFFECT_THIEF,              60, DARK,      100, 25, 100, PHYSICAL
 	move WILL_O_WISP,     EFFECT_BURN,                0, FIRE,       85, 15,   0, STATUS

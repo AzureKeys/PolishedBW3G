@@ -1591,7 +1591,7 @@ YoungsterGroup:
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_evs 80 Atk, 80 Spe
-		tr_moves LEER, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
+		tr_moves LEER, QUICK_ATTACK, TACKLE, SCARY_FACE
 	end_trainer
 
 	def_trainer JOEY4, "Joey"
@@ -1599,7 +1599,7 @@ YoungsterGroup:
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_evs 112 Atk, 112 Spe
-		tr_moves LEER, QUICK_ATTACK, HYPER_FANG, PURSUIT
+		tr_moves LEER, QUICK_ATTACK, TACKLE, PURSUIT
 	end_trainer
 
 	def_trainer JOEY5, "Joey"
@@ -1607,7 +1607,7 @@ YoungsterGroup:
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_evs 160 Atk, 160 Spe
-		tr_moves HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
+		tr_moves HYPER_BEAM, QUICK_ATTACK, TACKLE, PURSUIT
 	end_trainer
 
 	def_trainer MIKEY, "Mikey"
@@ -3185,7 +3185,7 @@ PokemaniacGroup:
 
 	def_trainer BRENT3, "Brent"
 	tr_mon 42, RATTATA
-		tr_moves RECOVER, PSYCHIC_M, CONVERSION, TRI_ATTACK
+		tr_moves RECOVER, PSYCHIC_M, TACKLE, TRI_ATTACK
 	end_trainer
 
 	def_trainer BRENT4, "Brent"
@@ -3251,7 +3251,7 @@ PokemaniacGroup:
 	tr_mon 36, SNORLAX
 		tr_moves HEADBUTT, DEFENSE_CURL, ROLLOUT, EXPLOSION
 	tr_mon 36, RATTATA
-		tr_moves CONVERSION, RECOVER, PSYBEAM, TRI_ATTACK
+		tr_moves TACKLE, RECOVER, PSYBEAM, TRI_ATTACK
 	end_trainer
 
 
@@ -5273,7 +5273,7 @@ RocketScientistGroup:
 
 	def_trainer RICH, "Trenton" ; MISMATCH
 	tr_mon 35, RATTATA
-		tr_moves CONVERSION, RECOVER, TRI_ATTACK, PSYBEAM
+		tr_moves TACKLE, RECOVER, TRI_ATTACK, PSYBEAM
 	end_trainer
 
 
@@ -6693,7 +6693,7 @@ PetrelGroup:
 		tr_moves TACKLE, CRUNCH, VENOSHOCK, KNOCK_OFF
 	tr_mon 35, RATICATE @ KINGS_ROCK, MALE | ALOLAN_FORM
 		tr_evs 108 Atk, 108 Spe
-		tr_moves SWORDS_DANCE, CRUNCH, SUPER_FANG, HYPER_FANG
+		tr_moves SWORDS_DANCE, CRUNCH, SUPER_FANG, TACKLE
 	tr_mon 36, WEEZING @ POISON_BARB, MALE
 		tr_evs 108 Atk, 108 SAt
 		tr_moves ENDURE, WILL_O_WISP, SLUDGE_BOMB, EXPLOSION
@@ -6708,7 +6708,7 @@ ArcherGroup:
 	tr_mon 41, HOUNDOUR @ EVIOLITE, MALE
 		tr_moves SUPER_FANG, FIRE_SPIN, FEINT_ATTACK, WILL_O_WISP
 	tr_mon 43, RATICATE @ BLACKGLASSES, MALE | ALOLAN_FORM
-		tr_moves CRUNCH, SUPER_FANG, HYPER_FANG, DOUBLE_EDGE
+		tr_moves CRUNCH, SUPER_FANG, TACKLE, DOUBLE_EDGE
 	tr_mon 41, GENGAR @ SPELL_TAG, MALE
 		tr_moves HYPNOSIS, CONFUSE_RAY, PAIN_SPLIT, SHADOW_BALL
 	tr_mon 42, WEEZING @ BRIGHTPOWDER, MALE
@@ -6723,7 +6723,7 @@ ArcherGroup:
 		tr_moves DISABLE, NIGHT_SHADE, CONFUSE_RAY, SHADOW_BALL
 	tr_mon 30, RATICATE @ BLACKGLASSES, MALE | ALOLAN_FORM
 		tr_evs 88 Atk, 88 Spe
-		tr_moves PURSUIT, HYPER_FANG, SCARY_FACE, CRUNCH
+		tr_moves PURSUIT, TACKLE, SCARY_FACE, CRUNCH
 	tr_mon 28, WEEZING @ SILK_SCARF, MALE
 		tr_evs 88 Atk, 88 Spe
 		tr_moves WILL_O_WISP, EXPLOSION, VENOSHOCK, TACKLE
@@ -7700,7 +7700,7 @@ YellowGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, "Ratty", RATTATA @ SITRUS_BERRY, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 240 Atk
-		tr_moves SUCKER_PUNCH, QUICK_ATTACK, HYPER_FANG, SWORDS_DANCE
+		tr_moves SUCKER_PUNCH, QUICK_ATTACK, TACKLE, SWORDS_DANCE
 	tr_mon LEVEL_FROM_BADGES + 3, "Kitty", RATTATA @ SITRUS_BERRY, FEMALE
 		tr_extra HUSTLE, SATK_UP_ATK_DOWN
 		tr_evs 240 Spe

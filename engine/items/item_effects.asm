@@ -2697,17 +2697,12 @@ RestorePPEffect:
 	jmp nz, Not_PP_Up
 
 .ppup2
-	ld a, [hl]
-	cp SKETCH
-	jr z, .CantUsePPUpOnSketch
-
 	ld bc, MON_PP - MON_MOVES
 	add hl, bc
 	ld a, [hl]
 	cp 3 << 6 ; have 3 PP Ups already been used?
 	jr c, .do_ppup
 
-.CantUsePPUpOnSketch:
 .pp_is_maxed_out
 	ld hl, PPIsMaxedOutText
 	call PrintText
