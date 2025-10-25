@@ -107,7 +107,7 @@ MoveDescriptions::
 	dw DoubleTeamDescription
 	dw RecoverDescription
 	dw RockBlastDescription
-	dw Unused8Description
+	dw ShockWaveDescription
 	dw Unused9Description
 	dw ConfuseRayDescription
 	dw AquaTailDescription
@@ -286,6 +286,7 @@ SwiftDescription:
 FeintAttackDescription:
 DisarmVoiceDescription:
 AerialAceDescription:
+ShockWaveDescription:
 AuraSphereDescription:
 	text "An attack that"
 	next "never misses."
@@ -600,11 +601,6 @@ NastyPlotDescription:
 AmnesiaDescription:
 	text "Sharply raises the"
 	next "user's Sp.Def."
-	done
-
-Unused8Description:
-	text "Sharply raises the"
-	next "user's evasiveness."
 	done
 
 GrowthDescription:

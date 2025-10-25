@@ -106,7 +106,7 @@ MoveNames::
 	li "Double Team"
 	li "Recover"
 	li "Rock Blast"
-	li "UNUSED"
+	li "Shock Wave"
 	li "UNUSED"
 	li "Confuse Ray"
 	li "Aqua Tail"

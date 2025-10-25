@@ -254,7 +254,8 @@ BattleAnimFrameData:
 	dw .Frameset_BigWhip2                ; BATTLEANIMFRAMESET_BIG_WHIP_2
 	dw .Frameset_WaterSpoutRising        ; BATTLEANIMFRAMESET_WATER_SPOUT_RISING
 	dw .Frameset_WaterSpoutFalling       ; BATTLEANIMFRAMESET_WATER_SPOUT_FALLING
-
+	dw .Frameset_ShockWaveSparks         ; BATTLEANIMFRAMESET_SHOCK_WAVE_SPARKS
+	
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
 	dw .Frameset_PoisonJab               ; BATTLEANIMFRAMESET_POISON_JAB
@@ -1836,4 +1837,8 @@ BattleAnimFrameData:
 
 .Frameset_WaterSpoutFalling:
 	battleoamframe BATTLEANIMOAMSET_26,  8
+	battleoamend
+
+.Frameset_ShockWaveSparks:
+	battleoamframe BATTLEANIMOAMSET_82,  8
 	battleoamend

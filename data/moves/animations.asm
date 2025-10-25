@@ -1,4 +1,3 @@
-BattleAnim_Unused8:
 BattleAnim_Unused9:
 BattleAnim_Unused10:
 BattleAnim_Unused11:
@@ -17,6 +16,63 @@ BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
 
+
+BattleAnim_ShockWave:
+	anim_2gfx ANIM_GFX_LIGHTNING, ANIM_GFX_CHARGE
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $3, $0
+	anim_sound 0, 0, SFX_WARP_TO
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $38
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $20
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $8
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $10
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $28
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $0
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $18
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 88, $30
+	anim_wait 4
+.loop
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_obj ANIM_OBJ_SHOCK_WAVE_UP, 48, 88, $30
+	anim_wait 2
+	anim_loop 5, .loop
+	anim_wait 2
+.loop2
+	anim_obj ANIM_OBJ_SHOCK_WAVE_DOWN, 64, 0, $10
+	anim_wait 2
+	anim_loop 5, .loop2
+	anim_wait 2
+.loop3
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_obj ANIM_OBJ_SHOCK_WAVE_UP, 80, 72, $30
+	anim_wait 2
+	anim_loop 5, .loop3
+	anim_wait 2
+.loop4
+	anim_obj ANIM_OBJ_SHOCK_WAVE_DOWN, 96, 0, $10
+	anim_wait 2
+	anim_loop 5, .loop4
+	anim_wait 2
+.loop5
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_obj ANIM_OBJ_SHOCK_WAVE_UP, 112, 72, $30
+	anim_wait 2
+	anim_loop 5, .loop5
+	anim_wait 8
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $2
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj ANIM_OBJ_SHOCK_WAVE_STRIKE, 136, 0, $0
+	anim_wait 6
+	anim_obj ANIM_OBJ_THUNDER_CENTER, 136, 68, $0
+	anim_wait 48
+	anim_ret
 
 BattleAnim_ThunderFang:
 	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_LIGHTNING

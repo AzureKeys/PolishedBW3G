@@ -112,7 +112,7 @@
 	const DOUBLE_TEAM   ; $68
 	const RECOVER       ; $69
 	const ROCK_BLAST    ; $6a
-	const UNUSED_MOVE_8 ; $6b
+	const SHOCK_WAVE    ; $6b
 	const UNUSED_MOVE_9 ; $6c
 	const CONFUSE_RAY   ; $6d
 	const AQUA_TAIL     ; $6e
