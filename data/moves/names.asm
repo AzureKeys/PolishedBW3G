@@ -134,7 +134,7 @@ MoveNames::
 	li "Bulldoze"
 	li "Amnesia"
 	li "Roost"
-	li "UNUSED"
+	li "Signal Beam"
 	li "Hi Jump Kick"
 	li "Glare"
 	li "Dream Eater"

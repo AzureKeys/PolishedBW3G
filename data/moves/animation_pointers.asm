@@ -137,7 +137,7 @@ BattleAnimations::
 	fardw BattleAnim_Bulldoze
 	fardw BattleAnim_Amnesia
 	fardw BattleAnim_Roost
-	fardw BattleAnim_Unused11
+	fardw BattleAnim_SignalBeam
 	fardw BattleAnim_HiJumpKick
 	fardw BattleAnim_Glare
 	fardw BattleAnim_DreamEater

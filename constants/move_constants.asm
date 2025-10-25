@@ -140,7 +140,7 @@
 	const BULLDOZE      ; $84
 	const AMNESIA       ; $85
 	const ROOST         ; $86
-	const UNUSED_MOVE_11; $87
+	const SIGNAL_BEAM   ; $87
 	const HI_JUMP_KICK  ; $88
 	const GLARE         ; $89
 	const DREAM_EATER   ; $8a

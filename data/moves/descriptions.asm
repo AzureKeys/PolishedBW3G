@@ -135,7 +135,7 @@ MoveDescriptions::
 	dw BulldozeDescription
 	dw AmnesiaDescription
 	dw RoostDescription
-	dw Unused11Description
+	dw SignalBeamDescription
 	dw HiJumpKickDescription
 	dw GlareDescription
 	dw DreamEaterDescription
@@ -408,6 +408,7 @@ PsybeamDescription:
 ConfusionDescription:
 DizzyPunchDescription:
 WaterPulseDescription:
+SignalBeamDescription:
 HurricaneDescription:
 	text "An attack that may"
 	next "confuse the foe."
@@ -691,11 +692,6 @@ LightScreenDescription:
 RecoverDescription:
 	text "Restores HP by 1/2"
 	next "the max HP."
-	done
-
-Unused11Description:
-	text "Restores HP by 1/2"
-	next "the user's max HP."
 	done
 
 RoostDescription:

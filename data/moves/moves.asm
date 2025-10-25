@@ -155,7 +155,7 @@ endc
 	move BULLDOZE,        EFFECT_SPEED_DOWN_HIT,     60, GROUND,    100, 20, 100, PHYSICAL
 	move AMNESIA,         EFFECT_SP_DEF_UP_2,         0, PSYCHIC,    -1, 20,   0, STATUS
 	move ROOST,           EFFECT_ROOST,               0, FLYING,     -1, 5,    0, STATUS
-	move UNUSED_MOVE_11,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move SIGNAL_BEAM,     EFFECT_CONFUSE_HIT,        75, BUG,       100, 15,  10, SPECIAL
 	move HI_JUMP_KICK,    EFFECT_JUMP_KICK,         130, FIGHTING,   90, 10,   0, PHYSICAL
 	move GLARE,           EFFECT_PARALYZE,            0, NORMAL,    100, 30,   0, STATUS
 	move DREAM_EATER,     EFFECT_DREAM_EATER,       100, PSYCHIC,   100, 15,   0, SPECIAL
