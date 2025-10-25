@@ -1254,6 +1254,7 @@ ClearBattleAnims:
 	ld hl, BattleAnimations
 	add hl, de
 	add hl, de
+	add hl, de
 	call GetBattleAnimPointer
 	call BattleAnimAssignPals
 	jmp DelayFrame

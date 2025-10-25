@@ -148,7 +148,7 @@ MoveDescriptions::
 	dw WaterPulseDescription
 	dw DizzyPunchDescription
 	dw SporeDescription
-	dw Unused13Description
+	dw PoisonFangDescription
 	dw ExtrasensoryDescription
 	dw Unused14Description
 	dw DragonDanceDescription
@@ -653,9 +653,9 @@ IceFangDescription:
 	next "flinch target."
 	done
 
-Unused13Description:
-	text "A move that lowers"
-	next "the foe's accuracy."
+PoisonFangDescription:
+	text "May badly poison"
+	next "the target."
 	done
 
 CharmDescription:

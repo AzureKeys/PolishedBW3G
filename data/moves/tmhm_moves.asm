@@ -70,7 +70,7 @@ TMHMMoves:
 	db UNUSED_MOVE_25; TM67 (Pryce)
 	db GIGA_IMPACT  ; TM68 (Celadon Game Corner)
 	db U_TURN       ; TM69 (Bugsy)
-	db UNUSED_MOVE_13; TM70 (Sprout Tower)
+	db UNUSED_MOVE_23; TM70 (Sprout Tower)
 	db STONE_EDGE   ; TM71 (Blue)
 	db VOLT_SWITCH  ; TM72 (Route 10)
 	db THUNDER_WAVE ; TM73 (Rock Tunnel)

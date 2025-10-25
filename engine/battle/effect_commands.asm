@@ -5080,6 +5080,34 @@ CanStatusTarget:
 	sbc a
 	ret
 
+BattleCommand_toxictarget:
+	ld b, 0
+	call CanPoisonTarget
+	ret nz
+	ld a, [wTypeModifier]
+	and a
+	ret z
+	ld a, [wEffectFailed]
+	and a
+	ret nz
+
+	call ToxicOpponent
+	ld de, ANIM_PSN
+	call PlayOpponentBattleAnim
+	call RefreshBattleHuds
+
+	ld hl, WasPoisonedText
+	call StdBattleTextbox
+
+	jmp PostStatusWithSynchronize
+
+ToxicOpponent:
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVarAddr
+	set PSN, [hl]
+	set TOX, [hl]
+	jmp UpdateOpponentInParty
+
 BattleCommand_draintarget:
 	ld hl, SuckedHealthText
 	; fallthrough

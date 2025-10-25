@@ -147,7 +147,7 @@ MoveNames::
 	li "Water Pulse"
 	li "Dizzy Punch"
 	li "Spore"
-	li "UNUSED"
+	li "Poison Fang"
 	li "Extrasensory"
 	li "UNUSED"
 	li "Dragon Dance"

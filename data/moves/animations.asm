@@ -1,4 +1,3 @@
-BattleAnim_Unused13:
 BattleAnim_Unused14:
 BattleAnim_Unused15:
 BattleAnim_Unused16:
@@ -38,30 +37,20 @@ BattleAnim_QuiverDance:
 	anim_clearobjs
 	anim_wait 1
 	anim_ret
-
-BattleAnim_SignalBeam:
-	anim_1gfx ANIM_GFX_GLOW
-	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_SIGNAL_BEAM_RED
-	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_SIGNAL_BEAM_BLUE
-	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-.loop
-	anim_sound 0, 0, SFX_SPITE
-	anim_obj ANIM_OBJ_SIGNAL_BEAM_R, 64, 92, $0
-	anim_wait 4
-	anim_sound 0, 0, SFX_SPITE
-	anim_obj ANIM_OBJ_SIGNAL_BEAM_B, 64, 92, $0
-	anim_wait 4
-	anim_sound 0, 0, SFX_SPITE
-	anim_obj ANIM_OBJ_SIGNAL_BEAM_R, 64, 92, $0
-	anim_wait 4
-	anim_sound 0, 0, SFX_SPITE
-	anim_obj ANIM_OBJ_SIGNAL_BEAM_B, 64, 92, $0
-	anim_wait 4
-	anim_loop 4, .loop
-	anim_wait 64
-	anim_ret
-
+	
+BattleAnim_PoisonFang:
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_POISON
+	anim_obj ANIM_OBJ_BITE, 136, 56, $98
+	anim_obj ANIM_OBJ_BITE, 136, 56, $18
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG, 136, 56, $0
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 8
+	anim_clearobjs
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
+	anim_jump BattleAnimSub_SludgeShort
+	
 BattleAnim_IceFang:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
 	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_ICE

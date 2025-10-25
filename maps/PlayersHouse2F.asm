@@ -203,12 +203,16 @@ endr
 	loadmem wPartyMon1Stats+7, LOW(999)
 	loadmem wPartyMon1Stats+8, HIGH(999)
 	loadmem wPartyMon1Stats+9, LOW(999)
+	loadmem wPartyMon1Moves+0, BRINE
+	loadmem wPartyMon1Moves+1, RAZOR_SHELL
+	loadmem wPartyMon1Moves+2, THUNDER_FANG
+	loadmem wPartyMon1Moves+3, SHOCK_WAVE
 	; hm slave
 	givepoke KYUREM, KYUREM_BLACK_FORM, 100, LEFTOVERS
-	loadmem wPartyMon2Moves+0, LEAF_BLADE
-	loadmem wPartyMon2Moves+1, LEAF_STORM
-	loadmem wPartyMon2Moves+2, FIRE_FANG
-	loadmem wPartyMon2Moves+3, OVERHEAT
+	loadmem wPartyMon2Moves+0, POISON_FANG
+	loadmem wPartyMon2Moves+1, ICE_FANG
+	loadmem wPartyMon2Moves+2, SIGNAL_BEAM
+	loadmem wPartyMon2Moves+3, QUIVER_DANCE
 	loadmem wPartyMon2PP+0, 15
 	loadmem wPartyMon2PP+1, 15
 	loadmem wPartyMon2PP+2, 10

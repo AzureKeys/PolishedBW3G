@@ -153,7 +153,7 @@
 	const WATER_PULSE   ; $91
 	const DIZZY_PUNCH   ; $92
 	const SPORE         ; $93
-	const UNUSED_MOVE_13; $94
+	const POISON_FANG   ; $94
 	const EXTRASENSORY  ; $95
 	const UNUSED_MOVE_14; $96
 	const DRAGON_DANCE  ; $97

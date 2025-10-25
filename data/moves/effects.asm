@@ -2224,3 +2224,26 @@ QuiverDance:
 	forceraisestat SP_DEFENSE
 	forceraisestat SPEED
 	endmove
+
+ToxicHit:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	toxictarget
+	endmove
