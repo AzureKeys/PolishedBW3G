@@ -462,6 +462,7 @@ wPlayerDisableCount:: db
 wPlayerEncoreCount:: db ; also for choice-locking
 wPlayerPerishCount:: db
 wPlayerProtectCount:: db
+wPlayerFuryCutterCount:: db
 
 wEnemyAbility:: db
 wEnemyRolloutCount:: db
@@ -471,6 +472,7 @@ wEnemyDisableCount:: db
 wEnemyEncoreCount:: db
 wEnemyPerishCount:: db
 wEnemyProtectCount:: db
+wEnemyFuryCutterCount:: db
 
 wCriticalCount:: ds PARTY_LENGTH ; for g-Farfetch'd evolution
 wBattleSubStatusWRAMEnd::
@@ -578,7 +580,7 @@ wTrickRoom:: db
 
 wBattleLowHealthAlarm:: db
 
-	ds 3 ; unused
+	ds 1 ; unused
 
 wPlayerHazards::
 ; bit

@@ -120,7 +120,7 @@ BattleAnimations::
 	fardw BattleAnim_Reflect
 	fardw BattleAnim_FocusEnergy
 	fardw BattleAnim_FlashCannon
-	fardw BattleAnim_Unused10
+	fardw BattleAnim_FuryCutter
 	fardw BattleAnim_Scald
 	fardw BattleAnim_TrickRoom
 	fardw BattleAnim_SkillSwap

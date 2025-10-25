@@ -157,4 +157,5 @@ MoveEffectsPointers:
 	dw BurnFlinchHit
 	dw ParalyzeFlinchHit
 	dw FreezeFlinchHit
+	dw FuryCutter
 	assert_table_length NUM_MOVE_EFECTS

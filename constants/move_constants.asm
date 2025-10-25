@@ -123,7 +123,7 @@
 	const REFLECT       ; $73
 	const FOCUS_ENERGY  ; $74
 	const FLASH_CANNON  ; $75
-	const UNUSED_MOVE_10; $76
+	const FURY_CUTTER   ; $76
 	const SCALD         ; $77
 	const TRICK_ROOM    ; $78
 	const SKILL_SWAP    ; $79

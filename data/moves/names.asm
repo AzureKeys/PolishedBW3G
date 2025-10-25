@@ -117,7 +117,7 @@ MoveNames::
 	li "Reflect"
 	li "Focus Energy"
 	li "Flash Cannon"
-	li "UNUSED"
+	li "Fury Cutter"
 	li "Scald"
 	li "Trick Room"
 	li "Skill Swap"

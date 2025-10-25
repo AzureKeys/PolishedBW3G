@@ -2193,3 +2193,25 @@ ParalyzeFlinchHit:
 	posthiteffects
 	paralyzeflinchtarget
 	endmove
+
+FuryCutter:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	furycutter
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	endmove

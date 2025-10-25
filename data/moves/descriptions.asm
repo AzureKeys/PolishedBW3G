@@ -118,7 +118,7 @@ MoveDescriptions::
 	dw ReflectDescription
 	dw FocusEnergyDescription
 	dw FlashCannonDescription
-	dw Unused10Description
+	dw FuryCutterDescription
 	dw ScaldDescription
 	dw TrickRoomDescription
 	dw SkillSwapDescription
@@ -999,9 +999,9 @@ AquaTailDescription:
 	next "wave in a storm."
 	done
 
-Unused10Description:
-	text "Randomly uses any"
-	next "#mon move."
+FuryCutterDescription:
+	text "Successive hits"
+	next "increase power."
 	done
 
 SkillSwapDescription:

@@ -474,7 +474,7 @@ ParsePlayerAction:
 .using_move
 	ld a, [wBattleType]
 	cp BATTLETYPE_GHOST
-	jr z, .lavender_ghost
+	jp z, .lavender_ghost
 
 	call SetPlayerTurn
 	call CheckLockedIn
@@ -533,10 +533,17 @@ ParsePlayerAction:
 .locked_in
 	xor a
 	ld [wPlayerProtectCount], a
+	ld [wPlayerFuryCutterCount], a
 	ld hl, wPlayerSubStatus4
 	res SUBSTATUS_RAGE, [hl]
 
 .continue_protect
+	ld a, [wPlayerMoveStruct + MOVE_EFFECT]
+	cp EFFECT_FURY_CUTTER
+	jr z, .continue_fury_cutter
+	xor a
+	ld [wPlayerFuryCutterCount], a
+.continue_fury_cutter
 	call ParseEnemyAction
 	xor a
 	ret
@@ -544,6 +551,7 @@ ParsePlayerAction:
 .reset_rage
 	xor a
 	ld [wPlayerProtectCount], a
+	ld [wPlayerFuryCutterCount], a
 	ld hl, wPlayerSubStatus4
 	res SUBSTATUS_RAGE, [hl]
 .lavender_ghost
@@ -3017,6 +3025,7 @@ NewEnemyMonStatus:
 	ld [wEnemyDisableCount], a
 	ld [wEnemyEncoreCount], a
 	ld [wEnemyProtectCount], a
+	ld [wEnemyFuryCutterCount], a
 	ld [wEnemyToxicCount], a
 	ld [wEnemyPerishCount], a
 	ld [wPlayerWrapCount], a
@@ -3197,6 +3206,7 @@ endr
 	ld [wPlayerDisableCount], a
 	ld [wPlayerEncoreCount], a
 	ld [wPlayerProtectCount], a
+	ld [wPlayerFuryCutterCount], a
 	ld [wPlayerToxicCount], a
 	ld [wPlayerPerishCount], a
 	ld [wEnemyWrapCount], a
@@ -5801,11 +5811,17 @@ ParseEnemyAction:
 .no_rage
 	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
 	cp EFFECT_PROTECT
-	ret z
+	jr z, .rage_done
 	cp EFFECT_ENDURE
-	ret z
+	jr z, .rage_done
 	xor a
 	ld [wEnemyProtectCount], a
+.rage_done
+	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
+	cp EFFECT_FURY_CUTTER
+	ret z
+	xor a
+	ld [wEnemyFuryCutterCount], a
 	ret
 
 .struggle
@@ -5815,6 +5831,7 @@ ParseEnemyAction:
 ResetVarsForSubstatusRage:
 	xor a
 	ld [wEnemyProtectCount], a
+	ld [wEnemyFuryCutterCount], a
 	ld hl, wEnemySubStatus4
 	res SUBSTATUS_RAGE, [hl]
 	ret

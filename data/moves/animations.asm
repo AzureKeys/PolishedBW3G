@@ -1,4 +1,3 @@
-BattleAnim_Unused10:
 BattleAnim_Unused11:
 BattleAnim_Unused12:
 BattleAnim_Unused13:
@@ -6216,6 +6215,21 @@ BattleAnim_IceBall_branch:
 	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $90
 	anim_ret
 
+BattleAnim_FuryCutter:
+	anim_1gfx ANIM_GFX_CUT
+.loop
+	anim_sound 0, 1, SFX_CUT
+	anim_jumpand $1, .obj1
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, -13, 0,   5, 0, $0
+	anim_jump .okay
+
+.obj1
+	anim_obj ANIM_OBJ_CUT_LONG_DOWN_RIGHT,  14, 0,   5, 0, $0
+.okay
+	anim_wait 16
+	anim_jumpuntil .loop
+	anim_ret
+
 ; ================================
 ; unused animations below here
 ; ================================
@@ -6881,21 +6895,6 @@ BattleAnim_IceBall_branch:
 ;	anim_wait 32
 ;	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
 ;	anim_wait 16
-;	anim_ret
-
-;BattleAnim_FuryCutter: ; removed
-;	anim_1gfx ANIM_GFX_CUT
-;.loop
-;	anim_sound 0, 1, SFX_CUT
-;	anim_jumpand $1, .obj1
-;	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, -13, 0,   5, 0, $0
-;	anim_jump .okay
-;
-;.obj1
-;	anim_obj ANIM_OBJ_CUT_LONG_DOWN_RIGHT,  14, 0,   5, 0, $0
-;.okay
-;	anim_wait 16
-;	anim_jumpuntil .loop
 ;	anim_ret
 
 ;BattleAnim_Sludge: ; removed
