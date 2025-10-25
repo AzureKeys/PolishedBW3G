@@ -1,4 +1,3 @@
-BattleAnim_Unused7:
 BattleAnim_Unused8:
 BattleAnim_Unused9:
 BattleAnim_Unused10:
@@ -17,6 +16,24 @@ BattleAnim_Unused22:
 BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
+
+
+BattleAnim_ThunderFang:
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_LIGHTNING
+	anim_obj ANIM_OBJ_BITE, 136, 56, $98
+	anim_obj ANIM_OBJ_BITE, 136, 56, $18
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG, 136, 56, $0
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 8
+	anim_clearobjs
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $2
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj ANIM_OBJ_THUNDER_CENTER, 136, 68, $0
+	anim_wait 32
+	anim_ret
 
 
 BattleAnim_Brine:
@@ -1337,7 +1354,7 @@ BattleAnim_Thunder:
 	anim_obj ANIM_OBJ_THUNDER3, -13, 0,   8, 4, $0
 	anim_wait 16
 	anim_sound 0, 1, SFX_THUNDER
-	anim_obj ANIM_OBJ_THUNDER1, -15, 0,   8, 4, $0
+	anim_obj ANIM_OBJ_THUNDER_CENTER, -15, 0,   8, 4, $0
 	anim_wait 48
 	anim_ret
 

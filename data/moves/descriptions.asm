@@ -100,7 +100,7 @@ MoveDescriptions::
 	dw AgilityDescription
 	dw QuickAttackDescription
 	dw BrineDescription
-	dw Unused7Description
+	dw ThunderFangDescription
 	dw NightShadeDescription
 	dw DragonPulseDescription
 	dw ScreechDescription
@@ -984,9 +984,9 @@ BrineDescription:
 	next "foe has low HP."
 	done
 
-Unused7Description:
-	text "A move for fleeing"
-	next "from battle."
+ThunderFangDescription:
+	text "May paralyze or"
+	next "flinch target."
 	done
 
 DragonPulseDescription:

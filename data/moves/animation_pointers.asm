@@ -102,7 +102,7 @@ BattleAnimations::
 	fardw BattleAnim_Agility
 	fardw BattleAnim_QuickAttack
 	fardw BattleAnim_Brine
-	fardw BattleAnim_Unused7
+	fardw BattleAnim_ThunderFang
 	fardw BattleAnim_NightShade
 	fardw BattleAnim_DragonPulse
 	fardw BattleAnim_Screech

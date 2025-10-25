@@ -205,9 +205,10 @@ endr
 	loadmem wPartyMon1Stats+9, LOW(999)
 	; hm slave
 	givepoke KYUREM, KYUREM_BLACK_FORM, 100, LEFTOVERS
-	loadmem wPartyMon2Moves+0, FLY
-	loadmem wPartyMon2Moves+1, HEADBUTT
-	loadmem wPartyMon2Moves+2, DIG
+	loadmem wPartyMon2Moves+0, LEAF_BLADE
+	loadmem wPartyMon2Moves+1, LEAF_STORM
+	loadmem wPartyMon2Moves+2, FIRE_FANG
+	loadmem wPartyMon2Moves+3, OVERHEAT
 	loadmem wPartyMon2PP+0, 15
 	loadmem wPartyMon2PP+1, 15
 	loadmem wPartyMon2PP+2, 10
@@ -263,7 +264,7 @@ endr
 	setevent EVENT_HOLE_IN_BURNED_TOWER
 	; blackthorn events
 	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
-	warpfacing DOWN, HUMILAU_CITY, 15, 6
+	warpfacing DOWN, ROUTE_22, 7, 9
 	closetext
 	end
 

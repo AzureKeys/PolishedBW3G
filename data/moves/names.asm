@@ -99,7 +99,7 @@ MoveNames::
 	li "Agility"
 	li "Quick Attack"
 	li "Brine"
-	li "UNUSED"
+	li "Thunder Fang"
 	li "Night Shade"
 	li "Dragon Pulse"
 	li "Screech"
