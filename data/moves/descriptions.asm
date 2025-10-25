@@ -141,7 +141,7 @@ MoveDescriptions::
 	dw DreamEaterDescription
 	dw PoisonJabDescription
 	dw BulletPunchDescription
-	dw Unused12Description
+	dw QuiverDanceDescription
 	dw DrainKissDescription
 	dw BraveBirdDescription
 	dw TransformDescription
@@ -292,7 +292,6 @@ AuraSphereDescription:
 	next "never misses."
 	done
 
-Unused12Description:
 AbsorbDescription:
 MegaDrainDescription:
 GigaDrainDescription:
@@ -304,6 +303,11 @@ DrainPunchDescription:
 DrainKissDescription:
 	text "Steals 3/4 of the"
 	next "damage inflicted."
+	done
+
+QuiverDanceDescription:
+	text "Raises Sp.Atk,"
+	next "Sp.Def, and Speed."
 	done
 
 LeafStormDescription:

@@ -143,7 +143,7 @@ BattleAnimations::
 	fardw BattleAnim_DreamEater
 	fardw BattleAnim_PoisonJab
 	fardw BattleAnim_BulletPunch
-	fardw BattleAnim_Unused12
+	fardw BattleAnim_QuiverDance
 	fardw BattleAnim_DrainKiss
 	fardw BattleAnim_BraveBird
 	fardw BattleAnim_Transform

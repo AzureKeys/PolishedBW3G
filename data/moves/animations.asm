@@ -1,4 +1,3 @@
-BattleAnim_Unused12:
 BattleAnim_Unused13:
 BattleAnim_Unused14:
 BattleAnim_Unused15:
@@ -13,6 +12,32 @@ BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
 
+
+BattleAnim_QuiverDance:
+	anim_1gfx ANIM_GFX_CHARGE
+	anim_call BattleAnim_TargetObj_1Row_2
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_AURORA
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW_FULL_SHIFT, $0, $4, $0
+	anim_sound 0, 1, SFX_GAME_FREAK_LOGO_GS
+	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
+	anim_bgeffect ANIM_BG_WOBBLE_MON, $0, $1, $0
+.loop
+	anim_obj ANIM_OBJ_TINY_RISING_ORB, 56, 90, $30
+	anim_wait 4
+	anim_obj ANIM_OBJ_TINY_RISING_ORB, 40, 90, $20
+	anim_wait 4
+	anim_obj ANIM_OBJ_TINY_RISING_ORB, 60, 106, $10
+	anim_wait 4
+	anim_obj ANIM_OBJ_TINY_RISING_ORB, 36, 106, $0
+	anim_wait 4
+	anim_loop 4, .loop
+	anim_wait 18
+	anim_incbgeffect ANIM_BG_WOBBLE_MON
+	anim_call BattleAnim_ShowMon_0_2
+	anim_wait 16
+	anim_clearobjs
+	anim_wait 1
+	anim_ret
 
 BattleAnim_SignalBeam:
 	anim_1gfx ANIM_GFX_GLOW
@@ -6250,6 +6275,20 @@ BattleAnim_FuryCutter:
 .okay
 	anim_wait 16
 	anim_jumpuntil .loop
+	anim_ret
+
+BattleAnim_ShowMon_0_2:
+	anim_wait 1
+	anim_bgeffect ANIM_BG_SHOW_MON, $0, $0, $0
+	anim_wait 5
+	anim_incobj 1
+	anim_wait 1
+	anim_ret
+
+BattleAnim_TargetObj_1Row_2:
+	anim_battlergfx_2row
+	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $0, $0
+	anim_wait 6
 	anim_ret
 
 ; ================================

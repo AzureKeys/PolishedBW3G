@@ -146,7 +146,7 @@
 	const DREAM_EATER   ; $8a
 	const POISON_JAB    ; $8b
 	const BULLET_PUNCH  ; $8c
-	const UNUSED_MOVE_12; $8d
+	const QUIVER_DANCE  ; $8d
 	const DRAINING_KISS ; $8e
 	const BRAVE_BIRD    ; $8f
 	const TRANSFORM     ; $90

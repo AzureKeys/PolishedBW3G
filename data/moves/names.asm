@@ -140,7 +140,7 @@ MoveNames::
 	li "Dream Eater"
 	li "Poison Jab"
 	li "Bullet Punch"
-	li "UNUSED"
+	li "Quiver Dance"
 	li "DrainingKiss"
 	li "Brave Bird"
 	li "Transform"

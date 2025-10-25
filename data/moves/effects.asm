@@ -2215,3 +2215,12 @@ FuryCutter:
 	postfainteffects
 	posthiteffects
 	endmove
+
+QuiverDance:
+	checkobedience
+	usedmovetext
+	doturn
+	forceraisestat SP_ATTACK
+	forceraisestat SP_DEFENSE
+	forceraisestat SPEED
+	endmove
