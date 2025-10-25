@@ -113,7 +113,7 @@
 	const RECOVER       ; $69
 	const ROCK_BLAST    ; $6a
 	const SHOCK_WAVE    ; $6b
-	const UNUSED_MOVE_9 ; $6c
+	const ICE_FANG      ; $6c
 	const CONFUSE_RAY   ; $6d
 	const AQUA_TAIL     ; $6e
 	const DEFENSE_CURL  ; $6f

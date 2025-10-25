@@ -107,7 +107,7 @@ MoveNames::
 	li "Recover"
 	li "Rock Blast"
 	li "Shock Wave"
-	li "UNUSED"
+	li "Ice Fang"
 	li "Confuse Ray"
 	li "Aqua Tail"
 	li "Defense Curl"

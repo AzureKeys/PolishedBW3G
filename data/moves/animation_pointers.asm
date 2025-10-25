@@ -110,7 +110,7 @@ BattleAnimations::
 	fardw BattleAnim_Recover
 	fardw BattleAnim_RockBlast
 	fardw BattleAnim_ShockWave
-	fardw BattleAnim_Unused9
+	fardw BattleAnim_IceFang
 	fardw BattleAnim_ConfuseRay
 	fardw BattleAnim_AquaTail
 	fardw BattleAnim_DefenseCurl

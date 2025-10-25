@@ -1,4 +1,3 @@
-BattleAnim_Unused9:
 BattleAnim_Unused10:
 BattleAnim_Unused11:
 BattleAnim_Unused12:
@@ -16,6 +15,21 @@ BattleAnim_Unused23:
 BattleAnim_Unused24:
 BattleAnim_Unused25:
 
+
+BattleAnim_IceFang:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_ICE
+	anim_obj ANIM_OBJ_BITE, 136, 56, $98
+	anim_obj ANIM_OBJ_BITE, 136, 56, $18
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG, 136, 56, $0
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 8
+	anim_clearobjs
+	anim_call BattleAnim_IceBall_branch
+	anim_wait 32
+	anim_ret
 
 BattleAnim_ShockWave:
 	anim_2gfx ANIM_GFX_LIGHTNING, ANIM_GFX_CHARGE
@@ -6183,6 +6197,23 @@ BattleAnimSub_StatChange:
 	anim_setobjpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_EVASION
 .continue
 	anim_obp0 $30
+	anim_ret
+
+BattleAnim_IceBall_branch:
+	anim_sound 0, 1, SFX_SHINE
+	anim_obj ANIM_OBJ_HIT_YFIX, 136, 48, $0
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $28
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $5c
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $10
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $e8
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $9c
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $d0
+	anim_wait 6
+	anim_sound 0, 1, SFX_SHINE
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $1c
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $50
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $dc
+	anim_obj ANIM_OBJ_ICE_SPLASH, 136, 56, $90
 	anim_ret
 
 ; ================================

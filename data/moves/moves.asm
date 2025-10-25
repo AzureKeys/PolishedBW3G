@@ -128,7 +128,7 @@ endc
 	move RECOVER,         EFFECT_HEAL,                0, NORMAL,     -1, 5,    0, STATUS
 	move ROCK_BLAST,      EFFECT_MULTI_HIT,          25, ROCK,       90, 25,   0, PHYSICAL
 	move SHOCK_WAVE,      EFFECT_ALWAYS_HIT,         60, ELECTRIC,  100, 20,   0, SPECIAL
-	move UNUSED_MOVE_9,   EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move ICE_FANG,        EFFECT_FREEZE_FLINCH_HIT,  65, ICE,        95, 15,  10, PHYSICAL
 	move CONFUSE_RAY,     EFFECT_CONFUSE,             0, GHOST,     100, 10,   0, STATUS
 	move AQUA_TAIL,       EFFECT_NORMAL_HIT,         90, WATER,      90, 10,   0, PHYSICAL
 	move DEFENSE_CURL,    EFFECT_DEFENSE_CURL,        0, NORMAL,     -1, 40,   0, STATUS

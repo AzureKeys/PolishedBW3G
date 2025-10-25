@@ -108,7 +108,7 @@ MoveDescriptions::
 	dw RecoverDescription
 	dw RockBlastDescription
 	dw ShockWaveDescription
-	dw Unused9Description
+	dw IceFangDescription
 	dw ConfuseRayDescription
 	dw AquaTailDescription
 	dw DefenseCurlDescription
@@ -643,7 +643,11 @@ StringShotDescription:
 	next "the foe's Speed."
 	done
 
-Unused9Description:
+IceFangDescription:
+	text "May freeze or"
+	next "flinch target."
+	done
+
 Unused13Description:
 	text "A move that lowers"
 	next "the foe's accuracy."
