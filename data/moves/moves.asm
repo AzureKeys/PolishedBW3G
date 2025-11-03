@@ -178,7 +178,7 @@ endc
 	move HEAD_SMASH,      EFFECT_RECOIL_HIT,        150, ROCK,       80,  5,   0, PHYSICAL
 	move REST,            EFFECT_HEAL,                0, PSYCHIC,    -1,  5,   0, STATUS
 	move ROCK_SLIDE,      EFFECT_FLINCH_HIT,         75, ROCK,       90, 10,  30, PHYSICAL
-	move UNUSED_MOVE_17,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move SHADOW_SNEAK,    EFFECT_PRIORITY_HIT,       40, GHOST,     100, 30,   0, PHYSICAL
 	move BULK_UP,         EFFECT_BULK_UP,             0, FIGHTING,   -1, 20,   0, STATUS
 	move UNUSED_MOVE_18,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move TRI_ATTACK,      EFFECT_TRI_ATTACK,         80, NORMAL,    100, 10,  20, SPECIAL

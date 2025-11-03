@@ -157,7 +157,7 @@ MoveNames::
 	li "Head Smash"
 	li "Rest"
 	li "Rock Slide"
-	li "UNUSED"
+	li "Shadow Sneak"
 	li "Bulk Up"
 	li "UNUSED"
 	li "Tri Attack"

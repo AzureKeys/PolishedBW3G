@@ -159,7 +159,7 @@ BattleAnimations::
 	dba BattleAnim_HeadSmash
 	dba BattleAnim_Rest
 	dba BattleAnim_RockSlide
-	dba BattleAnim_Unused17
+	dba BattleAnim_ShadowSneak
 	dba BattleAnim_BulkUp
 	dba BattleAnim_Unused18
 	dba BattleAnim_TriAttack

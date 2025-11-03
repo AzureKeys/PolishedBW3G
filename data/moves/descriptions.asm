@@ -158,7 +158,7 @@ MoveDescriptions::
 	dw HeadSmashDescription
 	dw RestDescription
 	dw RockSlideDescription
-	dw Unused17Description
+	dw ShadowSneakDescription
 	dw BulkUpDescription
 	dw Unused18Description
 	dw TriAttackDescription
@@ -359,7 +359,6 @@ HeadSmashDescription:
 	next "hurts the user."
 	done
 
-Unused17Description:
 Unused21Description:
 StompDescription:
 HeadbuttDescription:
@@ -863,6 +862,11 @@ MachPunchDescription:
 BulletPunchDescription:
 	text "A tough punch that"
 	next "always goes first."
+	done
+
+ShadowSneakDescription:
+	text "A shadow attack."
+	next "Always goes first."
 	done
 
 ExtremespeedDescription:

@@ -163,7 +163,7 @@
 	const HEAD_SMASH    ; $9b
 	const REST          ; $9c
 	const ROCK_SLIDE    ; $9d
-	const UNUSED_MOVE_17; $9e
+	const SHADOW_SNEAK  ; $9e
 	const BULK_UP       ; $9f
 	const UNUSED_MOVE_18; $a0
 	const TRI_ATTACK    ; $a1

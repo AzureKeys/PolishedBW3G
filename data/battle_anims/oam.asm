@@ -289,7 +289,9 @@ BattleAnimOAMData:
 	battleanimoam $01, 18, .OAMData_HoneClaws2    ; BATTLEANIMOAMSET_HONE_CLAWS_2
 	battleanimoam $01, 21, .OAMData_HoneClaws3    ; BATTLEANIMOAMSET_HONE_CLAWS_3
 	battleanimoam $01,  9, .OAMData_HoneClaws3    ; BATTLEANIMOAMSET_HONE_CLAWS_4
-	battleanimoam $00, 18, .OAMData_Hurricane  ; BATTLEANIMOAMSET_HURRICANE
+	battleanimoam $00, 18, .OAMData_Hurricane     ; BATTLEANIMOAMSET_HURRICANE
+	battleanimoam $20,  2, .OAMData_0c            ; BATTLEANIMOAMSET_10E
+	battleanimoam $20,  4, .OAMData_59            ; BATTLEANIMOAMSET_10F
 	assert_table_length NUM_BATTLEANIMOAMSETS
 
 .OAMData_11:
