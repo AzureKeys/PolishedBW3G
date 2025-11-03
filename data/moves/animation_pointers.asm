@@ -161,7 +161,7 @@ BattleAnimations::
 	dba BattleAnim_RockSlide
 	dba BattleAnim_ShadowSneak
 	dba BattleAnim_BulkUp
-	dba BattleAnim_Unused18
+	dba BattleAnim_Payback
 	dba BattleAnim_TriAttack
 	dba BattleAnim_SuperFang
 	dba BattleAnim_Slash

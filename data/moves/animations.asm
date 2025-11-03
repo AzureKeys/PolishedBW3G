@@ -1,4 +1,3 @@
-BattleAnim_Unused18:
 BattleAnim_Unused19:
 BattleAnim_Unused20:
 BattleAnim_Unused21:

@@ -292,6 +292,8 @@ BattleAnimOAMData:
 	battleanimoam $00, 18, .OAMData_Hurricane     ; BATTLEANIMOAMSET_HURRICANE
 	battleanimoam $20,  2, .OAMData_0c            ; BATTLEANIMOAMSET_10E
 	battleanimoam $20,  4, .OAMData_59            ; BATTLEANIMOAMSET_10F
+	battleanimoam $06, 16, .OAMData_BigGlowSpiked1 ; BATTLEANIMOAMSET_BIG_GLOW_SPIKED_1
+	battleanimoam $00, 24, .OAMData_BigGlowSpiked2 ; BATTLEANIMOAMSET_BIG_GLOW_SPIKED_2
 	assert_table_length NUM_BATTLEANIMOAMSETS
 
 .OAMData_11:
@@ -1821,3 +1823,47 @@ BattleAnimOAMData:
 	dbsprite  -2,   1, 4, 0, $0f, $0
 	dbsprite  -1,   1, 4, 0, $10, $0
 	dbsprite   0,   1, 4, 0, $11, $0
+
+.OAMData_BigGlowSpiked1:
+	dbsprite  -2,  -3, 0, 7, $00, $0
+	dbsprite  -1,  -3, 0, 7, $01, $0
+	dbsprite  -2,  -2, 0, 7, $02, $0
+	dbsprite  -1,  -2, 0, 7, $03, $0
+	dbsprite   1,  -3, 0, 7, $00, OAM_XFLIP
+	dbsprite   0,  -3, 0, 7, $01, OAM_XFLIP
+	dbsprite   1,  -2, 0, 7, $02, OAM_XFLIP
+	dbsprite   0,  -2, 0, 7, $03, OAM_XFLIP
+	dbsprite  -2,   0, 0, 7, $00, OAM_YFLIP
+	dbsprite  -1,   0, 0, 7, $01, OAM_YFLIP
+	dbsprite  -2,  -1, 0, 7, $02, OAM_YFLIP
+	dbsprite  -1,  -1, 0, 7, $03, OAM_YFLIP
+	dbsprite   1,   0, 0, 7, $00, OAM_XFLIP | OAM_YFLIP
+	dbsprite   0,   0, 0, 7, $01, OAM_XFLIP | OAM_YFLIP
+	dbsprite   1,  -1, 0, 7, $02, OAM_XFLIP | OAM_YFLIP
+	dbsprite   0,  -1, 0, 7, $03, OAM_XFLIP | OAM_YFLIP
+
+.OAMData_BigGlowSpiked2:
+	dbsprite  -1,  -4, 0, 7, $00, $0
+	dbsprite  -2,  -3, 0, 7, $01, $0
+	dbsprite  -1,  -3, 0, 7, $02, $0
+	dbsprite  -3,  -2, 0, 7, $03, $0
+	dbsprite  -2,  -2, 0, 7, $04, $0
+	dbsprite  -1,  -2, 0, 7, $05, $0
+	dbsprite   0,  -4, 0, 7, $00, OAM_XFLIP
+	dbsprite   1,  -3, 0, 7, $01, OAM_XFLIP
+	dbsprite   0,  -3, 0, 7, $02, OAM_XFLIP
+	dbsprite   2,  -2, 0, 7, $03, OAM_XFLIP
+	dbsprite   1,  -2, 0, 7, $04, OAM_XFLIP
+	dbsprite   0,  -2, 0, 7, $05, OAM_XFLIP
+	dbsprite  -1,   1, 0, 7, $00, OAM_YFLIP
+	dbsprite  -2,   0, 0, 7, $01, OAM_YFLIP
+	dbsprite  -1,   0, 0, 7, $02, OAM_YFLIP
+	dbsprite  -3,  -1, 0, 7, $03, OAM_YFLIP
+	dbsprite  -2,  -1, 0, 7, $04, OAM_YFLIP
+	dbsprite  -1,  -1, 0, 7, $05, OAM_YFLIP
+	dbsprite   0,   1, 0, 7, $00, OAM_XFLIP | OAM_YFLIP
+	dbsprite   1,   0, 0, 7, $01, OAM_XFLIP | OAM_YFLIP
+	dbsprite   0,   0, 0, 7, $02, OAM_XFLIP | OAM_YFLIP
+	dbsprite   2,  -1, 0, 7, $03, OAM_XFLIP | OAM_YFLIP
+	dbsprite   1,  -1, 0, 7, $04, OAM_XFLIP | OAM_YFLIP
+	dbsprite   0,  -1, 0, 7, $05, OAM_XFLIP | OAM_YFLIP

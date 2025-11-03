@@ -6329,6 +6329,7 @@ BoostJumptable:
 	dbw KNOCK_OFF,  DoKnockOff
 	dbw PURSUIT,    DoPursuit
 	dbw BRINE,      DoBrine
+	dbw PAYBACK,    DoPayback
 	dbw -1, -1
 
 BattleCommand_conditionalboost:
@@ -6385,6 +6386,21 @@ DoBrine:
 	jr c, DoubleDamage
 	jr z, DoubleDamage
 	ret
+
+DoPayback:
+	ldh a, [hBattleTurn]
+	and a
+	ld a, [wEnemyGoesFirst]
+	ld hl, wEnemyTurnsTaken
+	jr z, .got_turn
+	xor 1
+	ld hl, wPlayerTurnsTaken
+.got_turn
+	and a
+	ret z
+	ld a, [hl]
+	and a
+	jr DoubleDamageIfNZ
 
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

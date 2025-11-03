@@ -160,7 +160,7 @@ MoveDescriptions::
 	dw RockSlideDescription
 	dw ShadowSneakDescription
 	dw BulkUpDescription
-	dw Unused18Description
+	dw PaybackDescription
 	dw TriAttackDescription
 	dw SuperFangDescription
 	dw SlashDescription
@@ -874,6 +874,11 @@ ExtremespeedDescription:
 	next "strike attack."
 	done
 
+PaybackDescription:
+	text "Damage doubles if"
+	next "foe goes first."
+	done
+
 PeckDescription:
 	text "Jabs the foe with"
 	next "a beak, etc."
@@ -1037,11 +1042,6 @@ TransformDescription:
 RestDescription:
 	text "Sleep for 2 turns"
 	next "to fully recover."
-	done
-
-Unused18Description:
-	text "Change user's type"
-	next "to a move's type."
 	done
 
 TriAttackDescription:

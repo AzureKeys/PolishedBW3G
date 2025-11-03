@@ -159,7 +159,7 @@ MoveNames::
 	li "Rock Slide"
 	li "Shadow Sneak"
 	li "Bulk Up"
-	li "UNUSED"
+	li "Payback"
 	li "Tri Attack"
 	li "Super Fang"
 	li "Slash"

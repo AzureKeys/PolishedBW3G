@@ -197,4 +197,57 @@ BattleAnim_ShadowSneak:
 	anim_wait 1
 	anim_clearobjs
 	anim_ret
+
+BattleAnim_Payback:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PAYBACK
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_PAYBACK
+	anim_3gfx ANIM_GFX_BIG_GLOW_SPIKED, ANIM_GFX_GLOW_SPIKED, ANIM_GFX_CHARGE
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
+	anim_obj ANIM_OBJ_SMALL_GLOW_SPIKED, 48, 96, $0
+.loop
+	anim_sound 0, 0, SFX_WARP_TO
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $38
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $20
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $8
+	anim_wait 4
+	anim_sound 0, 0, SFX_WARP_TO
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $10
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $28
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $0
+	anim_wait 4
+	anim_sound 0, 0, SFX_WARP_TO
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $18
+	anim_wait 4
+	anim_obj ANIM_OBJ_ENERGY_ORB, 48, 96, $30
+	anim_wait 4
+	anim_loop 2, .loop
+	anim_clearobjs
+	anim_sound 0, 0, SFX_SLUDGE_BOMB
+	anim_obj ANIM_OBJ_BIG_GLOW_SPIKED, 48, 96, $0
+	anim_wait 64
+	anim_clearobjs
+	anim_wait 1
+	anim_1gfx ANIM_GFX_HIT
+	anim_wait 1
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $24, $2, $0
+	anim_sound 0, 0, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT_YFIX, 140, 44, $0
+	anim_wait 4
+	anim_sound 0, 0, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT_YFIX, 124, 60, $0
+	anim_wait 4
+	anim_sound 0, 0, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT_YFIX, 140, 60, $0
+	anim_wait 4
+	anim_sound 0, 0, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT_YFIX, 124, 44, $0
+	anim_wait 4
+	anim_sound 0, 0, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT_YFIX, 132, 52, $0
+	anim_wait 32
+	anim_ret
 	

@@ -165,7 +165,7 @@
 	const ROCK_SLIDE    ; $9d
 	const SHADOW_SNEAK  ; $9e
 	const BULK_UP       ; $9f
-	const UNUSED_MOVE_18; $a0
+	const PAYBACK       ; $a0
 	const TRI_ATTACK    ; $a1
 	const SUPER_FANG    ; $a2
 	const SLASH         ; $a3
