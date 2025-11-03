@@ -175,8 +175,8 @@ endc
 	move MUD_SHOT,        EFFECT_ACCURACY_DOWN_HIT,  55, GROUND,     95, 15, 100, SPECIAL
 	move EXPLOSION,       EFFECT_EXPLOSION,         250, NORMAL,    100,  5,   0, PHYSICAL
 	move FURY_STRIKES,    EFFECT_MULTI_HIT,          18, NORMAL,     80, 15,   0, PHYSICAL
-	move UNUSED_MOVE_16,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
-	move REST,            EFFECT_HEAL,                0, PSYCHIC,    -1, 5,    0, STATUS
+	move HEAD_SMASH,      EFFECT_RECOIL_HIT,        150, ROCK,       80,  5,   0, PHYSICAL
+	move REST,            EFFECT_HEAL,                0, PSYCHIC,    -1,  5,   0, STATUS
 	move ROCK_SLIDE,      EFFECT_FLINCH_HIT,         75, ROCK,       90, 10,  30, PHYSICAL
 	move UNUSED_MOVE_17,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
 	move BULK_UP,         EFFECT_BULK_UP,             0, FIGHTING,   -1, 20,   0, STATUS

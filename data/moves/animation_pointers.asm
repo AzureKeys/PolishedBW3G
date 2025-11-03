@@ -156,7 +156,7 @@ BattleAnimations::
 	dba BattleAnim_MudShot
 	dba BattleAnim_Explosion
 	dba BattleAnim_FuryStrikes
-	dba BattleAnim_Unused16
+	dba BattleAnim_HeadSmash
 	dba BattleAnim_Rest
 	dba BattleAnim_RockSlide
 	dba BattleAnim_Unused17

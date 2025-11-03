@@ -160,7 +160,7 @@
 	const MUD_SHOT      ; $98
 	const EXPLOSION     ; $99
 	const FURY_STRIKES  ; $9a
-	const UNUSED_MOVE_16; $9b
+	const HEAD_SMASH    ; $9b
 	const REST          ; $9c
 	const ROCK_SLIDE    ; $9d
 	const UNUSED_MOVE_17; $9e

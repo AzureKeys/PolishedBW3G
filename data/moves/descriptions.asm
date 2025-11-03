@@ -155,7 +155,7 @@ MoveDescriptions::
 	dw MudShotDescription
 	dw ExplosionDescription
 	dw FuryStrikesDescription
-	dw Unused16Description
+	dw HeadSmashDescription
 	dw RestDescription
 	dw RockSlideDescription
 	dw Unused17Description
@@ -351,6 +351,11 @@ FlareBlitzDescription:
 WildChargeDescription:
 BraveBirdDescription:
 	text "A charge that also"
+	next "hurts the user."
+	done
+	
+HeadSmashDescription:
+	text "A headbutt that"
 	next "hurts the user."
 	done
 
@@ -1023,11 +1028,6 @@ DreamEaterDescription:
 TransformDescription:
 	text "The user assumes"
 	next "the foe's guise."
-	done
-
-Unused16Description:
-	text "An attack that"
-	next "strikes twice."
 	done
 
 RestDescription:

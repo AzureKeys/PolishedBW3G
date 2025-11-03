@@ -154,7 +154,7 @@ MoveNames::
 	li "Mud Shot"
 	li "Explosion"
 	li "Fury Strikes"
-	li "UNUSED"
+	li "Head Smash"
 	li "Rest"
 	li "Rock Slide"
 	li "UNUSED"

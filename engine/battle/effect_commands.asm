@@ -5933,6 +5933,8 @@ BattleCommand_recoil:
 	jr z, .OneThirdRecoil
 	cp FLARE_BLITZ
 	jr z, .OneThirdRecoil
+	cp HEAD_SMASH
+	jr z, .OneHalfRecoil
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 	ld d, a
@@ -5970,6 +5972,14 @@ BattleCommand_recoil:
 	ld c, a
 	ldh a, [hQuotient + 1]
 	ld b, a
+	jr .recoil_floor
+	
+.OneHalfRecoil
+	ld a, [wCurDamage]
+	ld b, a
+	ld a, [wCurDamage + 1]
+	ld c, a
+	call HalveBC
 	jr .recoil_floor
 
 BattleCommand_confusetarget:
