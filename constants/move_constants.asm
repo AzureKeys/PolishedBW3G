@@ -157,7 +157,7 @@
 	const EXTRASENSORY  ; $95
 	const REVENGE       ; $96
 	const DRAGON_DANCE  ; $97
-	const UNUSED_MOVE_15; $98
+	const MUD_SHOT      ; $98
 	const EXPLOSION     ; $99
 	const FURY_STRIKES  ; $9a
 	const UNUSED_MOVE_16; $9b

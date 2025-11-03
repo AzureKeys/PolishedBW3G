@@ -6311,7 +6311,7 @@ CheckUserMove:
 	ret
 
 BoostJumptable:
-	dbw UNUSED_MOVE_25,  DoAvalanche
+	dbw REVENGE,    DoRevenge
 	dbw ACROBATICS, DoAcrobatics
 	dbw FACADE,     DoFacade
 	dbw HEX,        DoHex
@@ -6327,7 +6327,7 @@ BattleCommand_conditionalboost:
 	call GetBattleVar
 	jmp BattleJumptable
 
-DoAvalanche:
+DoRevenge:
 	ld a, 1 << PHYSICAL | 1 << SPECIAL
 	call HasOpponentDamagedUs
 	jr DoubleDamageIfNZ

@@ -153,7 +153,7 @@ BattleAnimations::
 	dba BattleAnim_Extrasensory
 	dba BattleAnim_Revenge
 	dba BattleAnim_DragonDance
-	dba BattleAnim_Unused15
+	dba BattleAnim_MudShot
 	dba BattleAnim_Explosion
 	dba BattleAnim_FuryStrikes
 	dba BattleAnim_Unused16

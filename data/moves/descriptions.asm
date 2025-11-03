@@ -152,7 +152,7 @@ MoveDescriptions::
 	dw ExtrasensoryDescription
 	dw RevengeDescription
 	dw DragonDanceDescription
-	dw Unused15Description
+	dw MudShotDescription
 	dw ExplosionDescription
 	dw FuryStrikesDescription
 	dw Unused16Description
@@ -269,7 +269,6 @@ LowKickDescription:
 	next "to heavier foes."
 	done
 
-Unused15Description:
 Unused20Description:
 RazorLeafDescription:
 LeafBladeDescription:
@@ -473,6 +472,7 @@ BubbleBeamDescription:
 	done
 
 BulldozeDescription:
+MudShotDescription:
 	text "A Ground attack"
 	next "that lowers Speed."
 	done
