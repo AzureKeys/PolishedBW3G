@@ -151,7 +151,7 @@ BattleAnimations::
 	dba BattleAnim_Spore
 	dba BattleAnim_PoisonFang
 	dba BattleAnim_Extrasensory
-	dba BattleAnim_Unused14
+	dba BattleAnim_Revenge
 	dba BattleAnim_DragonDance
 	dba BattleAnim_Unused15
 	dba BattleAnim_Explosion

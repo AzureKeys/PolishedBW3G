@@ -150,7 +150,7 @@ MoveDescriptions::
 	dw SporeDescription
 	dw PoisonFangDescription
 	dw ExtrasensoryDescription
-	dw Unused14Description
+	dw RevengeDescription
 	dw DragonDanceDescription
 	dw Unused15Description
 	dw ExplosionDescription
@@ -275,6 +275,7 @@ RazorLeafDescription:
 LeafBladeDescription:
 SlashDescription:
 Unused25Description:
+Unused23Description:
 NightSlashDescription:
 ShadowClawDescription:
 StoneEdgeDescription:
@@ -767,7 +768,7 @@ HexDescription:
 	next "foe has status."
 	done
 
-Unused23Description:
+RevengeDescription:
 	text "Damage doubles if"
 	next "user is hit first."
 	done
@@ -1022,11 +1023,6 @@ DreamEaterDescription:
 TransformDescription:
 	text "The user assumes"
 	next "the foe's guise."
-	done
-
-Unused14Description:
-	text "Has no effect"
-	next "whatsoever."
 	done
 
 Unused16Description:
