@@ -294,6 +294,7 @@ BattleAnimOAMData:
 	battleanimoam $20,  4, .OAMData_59            ; BATTLEANIMOAMSET_10F
 	battleanimoam $06, 16, .OAMData_BigGlowSpiked1 ; BATTLEANIMOAMSET_BIG_GLOW_SPIKED_1
 	battleanimoam $00, 24, .OAMData_BigGlowSpiked2 ; BATTLEANIMOAMSET_BIG_GLOW_SPIKED_2
+	battleanimoam $00, 16, .OAMData_WeatherBall   ; BATTLEANIMOAMSET_WEATHER_BALL
 	assert_table_length NUM_BATTLEANIMOAMSETS
 
 .OAMData_11:
@@ -1867,3 +1868,21 @@ BattleAnimOAMData:
 	dbsprite   2,  -1, 0, 7, $03, OAM_XFLIP | OAM_YFLIP
 	dbsprite   1,  -1, 0, 7, $04, OAM_XFLIP | OAM_YFLIP
 	dbsprite   0,  -1, 0, 7, $05, OAM_XFLIP | OAM_YFLIP
+
+.OAMData_WeatherBall:
+	dbsprite  -2,  -2, 0, 0, $00, $0
+	dbsprite  -1,  -2, 0, 0, $01, $0
+	dbsprite  -2,  -1, 0, 0, $02, $0
+	dbsprite  -1,  -1, 0, 0, $03, $0
+	dbsprite  -2,   0, 0, 0, $04, $0
+	dbsprite  -1,   0, 0, 0, $05, $0
+	dbsprite  -2,   1, 0, 0, $06, $0
+	dbsprite  -1,   1, 0, 0, $07, $0
+	dbsprite   1,  -2, 0, 0, $00, OAM_XFLIP
+	dbsprite   0,  -2, 0, 0, $01, OAM_XFLIP
+	dbsprite   1,  -1, 0, 0, $02, OAM_XFLIP
+	dbsprite   0,  -1, 0, 0, $03, OAM_XFLIP
+	dbsprite   1,   0, 0, 0, $04, OAM_XFLIP
+	dbsprite   0,   0, 0, 0, $05, OAM_XFLIP
+	dbsprite   1,   1, 0, 0, $06, OAM_XFLIP
+	dbsprite   0,   1, 0, 0, $07, OAM_XFLIP

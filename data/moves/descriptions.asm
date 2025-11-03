@@ -166,7 +166,7 @@ MoveDescriptions::
 	dw SlashDescription
 	dw SubstituteDescription
 	dw GigaImpactDescription
-	dw Unused19Description
+	dw WeatherBallDescription
 	dw DrainPunchDescription
 	dw ThiefDescription
 	dw WillOWispDescription
@@ -1252,4 +1252,9 @@ GyroBallDescription:
 TrickDescription:
 	text "Swaps held items"
 	next "with the foe."
+	done
+
+WeatherBallDescription:
+	text "Changes type based"
+	next "on the weather."
 	done

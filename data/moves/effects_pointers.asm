@@ -160,4 +160,5 @@ MoveEffectsPointers:
 	dw FuryCutter
 	dw QuiverDance
 	dw ToxicHit
+	dw WeatherBall
 	assert_table_length NUM_MOVE_EFECTS

@@ -165,7 +165,7 @@ MoveNames::
 	li "Slash"
 	li "Substitute"
 	li "Giga Impact"
-	li "UNUSED"
+	li "Weather Ball"
 	li "Drain Punch"
 	li "Thief"
 	li "Will-O-Wisp"

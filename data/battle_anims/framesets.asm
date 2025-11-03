@@ -257,6 +257,7 @@ BattleAnimFrameData:
 	dw .Frameset_ShockWaveSparks         ; BATTLEANIMFRAMESET_SHOCK_WAVE_SPARKS
 	dw .Frameset_ShadowSneak             ; BATTLEANIMFRAMESET_SHADOW_SNEAK
 	dw .Frameset_BigGlowSpiked           ; BATTLEANIMFRAMESET_BIG_GLOW_SPIKED
+	dw .Frameset_WeatherBall             ; BATTLEANIMFRAMESET_WEATHER_BALL
 	
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
@@ -1856,3 +1857,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_BIG_GLOW_SPIKED_1,  1
 	battleoamframe BATTLEANIMOAMSET_BIG_GLOW_SPIKED_2,  1
 	battleoamrestart
+
+.Frameset_WeatherBall:
+	battleoamframe BATTLEANIMOAMSET_WEATHER_BALL, 8
+	battleoamend

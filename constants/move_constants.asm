@@ -171,7 +171,7 @@
 	const SLASH         ; $a3
 	const SUBSTITUTE    ; $a4
 	const GIGA_IMPACT   ; $a5
-	const UNUSED_MOVE_19; $a6
+	const WEATHER_BALL  ; $a6
 	const DRAIN_PUNCH   ; $a7
 	const THIEF         ; $a8
 	const WILL_O_WISP   ; $a9

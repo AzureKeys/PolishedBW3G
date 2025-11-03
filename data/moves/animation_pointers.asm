@@ -167,7 +167,7 @@ BattleAnimations::
 	dba BattleAnim_Slash
 	dba BattleAnim_Substitute
 	dba BattleAnim_GigaImpact
-	dba BattleAnim_Unused19
+	dba BattleAnim_WeatherBall
 	dba BattleAnim_DrainPunch
 	dba BattleAnim_Thief
 	dba BattleAnim_WillOWisp

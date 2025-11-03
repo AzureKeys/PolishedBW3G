@@ -2247,3 +2247,24 @@ ToxicHit:
 	posthiteffects
 	toxictarget
 	endmove
+
+WeatherBall:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	weatherball
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	endmove

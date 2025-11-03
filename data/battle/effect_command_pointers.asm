@@ -149,6 +149,7 @@ BattleCommandPointers:
 	command paralyzeflinchtarget
 	command furycutter
 	command toxictarget
+	command weatherball
 
 	; The following commands have an argument
 	; Argument: check if possible (false) vs perform the action (true)
