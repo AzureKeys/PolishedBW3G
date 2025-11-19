@@ -853,7 +853,7 @@ EvosAttacksPointersVariants::
 	learnset 46, ZEN_HEADBUTT ; Head Smash
 	
 	evos_attacks DarmanitanZen
-	;learnset 1, HAMMER_ARM
+	learnset 1, HAMMER_ARM
 	learnset 1, TACKLE
 	learnset 1, ROLLOUT
 	learnset 1, EMBER ; Incinerate
@@ -868,7 +868,7 @@ EvosAttacksPointersVariants::
 	learnset 27, THRASH
 	learnset 30, BELLY_DRUM
 	learnset 33, FLARE_BLITZ
-	;learnset 34, HAMMER_ARM
+	learnset 34, HAMMER_ARM
 	learnset 39, SWAGGER ; Taunt
 	;learnset 54, OVERHEAT
 	

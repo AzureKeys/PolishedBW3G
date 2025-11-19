@@ -180,7 +180,7 @@ MoveDescriptions::
 	dw HammerArmDescription
 	dw SeedBombDescription
 	dw ReversalDescription
-	dw Unused21Description
+	dw DragonRushDescription
 	dw IceShardDescription
 	dw ProtectDescription
 	dw MachPunchDescription
@@ -363,7 +363,6 @@ HeadSmashDescription:
 	next "hurts the user."
 	done
 
-Unused21Description:
 StompDescription:
 HeadbuttDescription:
 BiteDescription:
@@ -375,6 +374,7 @@ ZenHeadbuttDescription:
 ExtrasensoryDescription:
 DarkPulseDescription:
 IcicleCrashDescription:
+DragonRushDescription:
 	text "An attack that may"
 	next "cause flinching."
 	done

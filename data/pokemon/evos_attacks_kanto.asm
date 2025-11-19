@@ -725,7 +725,7 @@ EvosAttacksPointersKanto::
 	learnset 44, EXPLOSION
 	learnset 50, DOUBLE_EDGE
 	learnset 54, STONE_EDGE
-	;learnset 60, HAMMER_ARM ; Heavy Slam → egg move (added from Gen8)
+	learnset 60, HAMMER_ARM ; Heavy Slam → egg move (added from Gen8)
 
 	evos_attacks PonytaPlain
 	evo_data EVOLVE_LEVEL, 40, RAPIDASH, PLAIN_FORM
@@ -1423,7 +1423,7 @@ EvosAttacksPointersKanto::
 	learnset 32, ROLLOUT ; Heavy Slam → pre Gen8 move
 	learnset 36, AMNESIA
 	learnset 40, ZEN_HEADBUTT ; High Horsepower → LA move
-	;learnset 44, HAMMER_ARM
+	learnset 44, HAMMER_ARM
 	learnset 48, BELLY_DRUM
 	learnset 52, HYPER_VOICE ; Belch → SV TM move
 	learnset 56, GIGA_IMPACT
@@ -1438,7 +1438,7 @@ EvosAttacksPointersKanto::
 	learnset 20, AGILITY
 	learnset 25, DRAGONBREATH ; Slam → egg move
 	learnset 31, AQUA_TAIL
-	;learnset 35, DRAGON_RUSH
+	learnset 35, DRAGON_RUSH
 	learnset 40, SAFEGUARD
 	learnset 45, RAIN_DANCE
 	learnset 50, DRAGON_DANCE
@@ -1455,7 +1455,7 @@ EvosAttacksPointersKanto::
 	learnset 20, AGILITY
 	learnset 25, DRAGONBREATH ; Slam → egg move
 	learnset 33, AQUA_TAIL
-	;learnset 39, DRAGON_RUSH
+	learnset 39, DRAGON_RUSH
 	learnset 46, SAFEGUARD
 	learnset 53, RAIN_DANCE
 	learnset 60, DRAGON_DANCE
@@ -1476,7 +1476,7 @@ EvosAttacksPointersKanto::
 	learnset 20, AGILITY
 	learnset 25, DRAGONBREATH ; Slam → egg move
 	learnset 33, AQUA_TAIL
-	;learnset 39, DRAGON_RUSH
+	learnset 39, DRAGON_RUSH
 	learnset 46, SAFEGUARD
 	learnset 53, RAIN_DANCE
 	learnset 54, HURRICANE ; evolution move

@@ -559,7 +559,7 @@ EvosAttacksPointersLateGen::
 	learnset 39, REVERSAL ; Flail → similar move
 	learnset 45, NIGHT_SLASH ; Fling → egg move
 	learnset 52, SUCKER_PUNCH ; Mega Kick → Lv1 move
-	;learnset 63, HAMMER_ARM
+	learnset 63, HAMMER_ARM
 
 	evos_attacks Azurill
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
@@ -682,7 +682,7 @@ EvosAttacksPointersLateGen::
 	learnset 48, BARRIER ; Iron Defense → similar move
 	learnset 52, HEAD_SMASH ; Heavy Slam → LZA move
 	learnset 56, DOUBLE_EDGE
-	;learnset 60, DRAGON_RUSH ; Metal Burst → egg move
+	learnset 60, DRAGON_RUSH ; Metal Burst → egg move
 
 	evos_attacks Lairon
 	evo_data EVOLVE_LEVEL, 42, AGGRON
@@ -702,7 +702,7 @@ EvosAttacksPointersLateGen::
 	learnset 58, BARRIER ; Iron Defense → similar move
 	learnset 64, HEAD_SMASH ; Heavy Slam → LZA move
 	learnset 70, DOUBLE_EDGE
-	;learnset 76, DRAGON_RUSH ; Metal Burst → egg move
+	learnset 76, DRAGON_RUSH ; Metal Burst → egg move
 
 	evos_attacks Aggron
 	learnset 1, TACKLE
@@ -721,7 +721,7 @@ EvosAttacksPointersLateGen::
 	learnset 64, BARRIER ; Iron Defense → similar move
 	learnset 72, HEAD_SMASH ; Heavy Slam → LZA move
 	learnset 80, DOUBLE_EDGE
-	;learnset 88, DRAGON_RUSH ; Metal Burst → egg move
+	learnset 88, DRAGON_RUSH ; Metal Burst → egg move
 
 	evos_attacks Meditite
 	evo_data EVOLVE_LEVEL, 37, MEDICHAM
@@ -926,7 +926,7 @@ EvosAttacksPointersLateGen::
 	learnset 36, EARTH_POWER
 	learnset 40, EARTHQUAKE
 	learnset 44, CLOSE_COMBAT ; Superpower → similar move
-	;learnset 48, DRAGON_RUSH ; Fissure → Vibrava move
+	learnset 48, DRAGON_RUSH ; Fissure → Vibrava move
 
 	evos_attacks Vibrava
 	evo_data EVOLVE_LEVEL, 45, FLYGON
@@ -948,7 +948,7 @@ EvosAttacksPointersLateGen::
 	learnset 38, EARTH_POWER
 	learnset 44, EARTHQUAKE
 	learnset 50, BUG_BUZZ ; Uproar → moved Bug Buzz from Lv28
-	;learnset 56, DRAGON_RUSH
+	learnset 56, DRAGON_RUSH
 	learnset 62, HYPER_BEAM ; Boomburst → Flygon move
 
 	evos_attacks Flygon
@@ -972,7 +972,7 @@ EvosAttacksPointersLateGen::
 	learnset 44, EARTHQUAKE
 	learnset 44, DRAGON_CLAW ; evolution move
 	learnset 52, BUG_BUZZ ; Uproar → moved Bug Buzz from Lv28
-	;learnset 60, DRAGON_RUSH
+	learnset 60, DRAGON_RUSH
 	learnset 68, HYPER_BEAM ; Boomburst → Flygon move
 
 	evos_attacks Swablu
@@ -1371,7 +1371,7 @@ EvosAttacksPointersLateGen::
 
 	evos_attacks Salamence
 	learnset 1, PROTECT
-	;learnset 1, DRAGON_RUSH ; Dragon Tail → egg move
+	learnset 1, DRAGON_RUSH ; Dragon Tail → egg move
 	learnset 1, AIR_SLASH ; Dual Wingbeat → LZA move
 	learnset 1, FIRE_FANG ; added pre Gen8 move
 	learnset 1, THUNDER_FANG ; added pre Gen8 move
@@ -1427,7 +1427,7 @@ EvosAttacksPointersLateGen::
 	learnset 26, BULLET_PUNCH ; Take Down → Lv1 move
 	learnset 34, PSYCHIC_M
 	learnset 42, ZEN_HEADBUTT ; Scary Face → moved Zen Headbutt from Lv6
-	;learnset 44, HAMMER_ARM ; evolution move
+	learnset 44, HAMMER_ARM ; evolution move
 	learnset 52, IRON_HEAD ; Meteor Mash → SV TM move
 	learnset 62, BARRIER ; Iron Defense → similar move
 	learnset 72, AGILITY
@@ -1813,7 +1813,7 @@ EvosAttacksPointersLateGen::
 	learnset 42, DIG
 	learnset 48, SANDSTORM
 	learnset 54, TAKE_DOWN
-	;learnset 60, DRAGON_RUSH
+	learnset 60, DRAGON_RUSH
 
 	evos_attacks Gabite
 	evo_data EVOLVE_LEVEL, 48, GARCHOMP
@@ -1828,7 +1828,7 @@ EvosAttacksPointersLateGen::
 	learnset 50, DIG
 	learnset 58, SANDSTORM
 	learnset 66, TAKE_DOWN
-	;learnset 74, DRAGON_RUSH
+	learnset 74, DRAGON_RUSH
 
 	evos_attacks Garchomp
 	learnset 1, FIRE_FANG ; added pre Gen8 move
@@ -1844,7 +1844,7 @@ EvosAttacksPointersLateGen::
 	learnset 52, DIG
 	learnset 62, SANDSTORM
 	learnset 72, TAKE_DOWN
-	;learnset 82, DRAGON_RUSH
+	learnset 82, DRAGON_RUSH
 
 	evos_attacks Munchlax
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
@@ -2119,7 +2119,7 @@ EvosAttacksPointersLateGen::
 	learnset 56, HEALINGLIGHT ; Grassy Terrain → Gen7 tutor move (Synthesis)
 
 	evos_attacks Electivire
-	;learnset 1, HAMMER_ARM ; evolution move (egg move)
+	learnset 1, HAMMER_ARM ; evolution move (egg move)
 	learnset 1, QUICK_ATTACK
 	learnset 1, LEER
 	learnset 1, THUNDERSHOCK
@@ -2482,7 +2482,7 @@ EvosAttacksPointersLateGen::
 	learnset 23, ROLLOUT
 	learnset 28, TAKE_DOWN
 	learnset 31, FIRE_PUNCH ; Heat Crash → SV TM move
-	;learnset 35, HAMMER_ARM ; evolution move (Lv1 move)
+	learnset 35, HAMMER_ARM ; evolution move (Lv1 move)
 	learnset 38, SUCKER_PUNCH ; Assurance → egg move
 	learnset 43, FLAMETHROWER
 	learnset 50, HEAD_SMASH
@@ -3037,7 +3037,7 @@ EvosAttacksPointersLateGen::
 	learnset 24, MACH_PUNCH ; Slam → egg move
 	learnset 28, SCARY_FACE
 	learnset 32, DYNAMICPUNCH
-	;learnset 36, HAMMER_ARM
+	learnset 36, HAMMER_ARM
 	learnset 40, STONE_EDGE
 	learnset 44, REVERSAL ; Superpower → egg move
 	learnset 48, CLOSE_COMBAT ; Focus Punch → SV TM move
@@ -3054,7 +3054,7 @@ EvosAttacksPointersLateGen::
 	learnset 24, MACH_PUNCH ; Slam → egg move
 	learnset 30, SCARY_FACE
 	learnset 36, DYNAMICPUNCH
-	;learnset 42, HAMMER_ARM
+	learnset 42, HAMMER_ARM
 	learnset 48, STONE_EDGE
 	learnset 54, REVERSAL ; Superpower → egg move
 	learnset 60, CLOSE_COMBAT ; Focus Punch → SV TM move
@@ -3070,7 +3070,7 @@ EvosAttacksPointersLateGen::
 	learnset 24, MACH_PUNCH ; Slam → egg move
 	learnset 30, SCARY_FACE
 	learnset 36, DYNAMICPUNCH
-	;learnset 42, HAMMER_ARM
+	learnset 42, HAMMER_ARM
 	learnset 48, STONE_EDGE
 	learnset 54, REVERSAL ; Superpower → egg move
 	learnset 60, CLOSE_COMBAT ; Focus Punch → SV TM move
@@ -3137,7 +3137,7 @@ EvosAttacksPointersLateGen::
 	learnset 25, BULK_UP
 	learnset 30, BODY_SLAM ; Storm Throw → pre Gen8 move
 	learnset 35, KNOCK_OFF ; Vital Throw → Gen7 tutor move
-	;learnset 40, HAMMER_ARM ; Seismic Toss → new move
+	learnset 40, HAMMER_ARM ; Seismic Toss → new move
 	learnset 45, ENDURE
 	learnset 50, REVERSAL
 	learnset 55, CLOSE_COMBAT ; Superpower → similar move
@@ -3431,7 +3431,7 @@ EvosAttacksPointersLateGen::
 	learnset 24, HEADBUTT
 	learnset 28, FIRE_PUNCH
 	learnset 32, FACADE ; Uproar → pre Gen8 move
-	;learnset 34, HAMMER_ARM ; evolution move
+	learnset 34, HAMMER_ARM ; evolution move
 	learnset 38, BELLY_DRUM
 	learnset 44, FLARE_BLITZ
 	learnset 50, THRASH
@@ -3867,7 +3867,7 @@ EvosAttacksPointersLateGen::
 	learnset 28, RECOVER ; Ally Switch → moved Recover from Lv4
 	learnset 35, PAIN_SPLIT
 	learnset 40, PSYCHIC_M
-	;learnset 40, HAMMER_ARM ; evolution move
+	learnset 40, HAMMER_ARM ; evolution move
 	learnset 48, SKILL_SWAP
 	learnset 56, FUTURE_SIGHT
 	learnset 64, TRICK_ROOM ; Wonder Room → TM move
@@ -4613,7 +4613,7 @@ EvosAttacksPointersLateGen::
 	learnset 36, SHADOW_BALL
 	learnset 40, GYRO_BALL ; Heavy Slam → TM move
 	;learnset 44, PHANTOM_FORCE
-	;learnset 48, HAMMER_ARM
+	learnset 48, HAMMER_ARM
 	learnset 52, EARTHQUAKE
 	learnset 56, DYNAMICPUNCH
 	
@@ -4633,7 +4633,7 @@ EvosAttacksPointersLateGen::
 	learnset 40, GYRO_BALL ; Heavy Slam → TM move
 	learnset 42, FLY ; evolution move (TM/HM move)
 	;learnset 46, PHANTOM_FORCE
-	;learnset 52, HAMMER_ARM
+	learnset 52, HAMMER_ARM
 	learnset 58, EARTHQUAKE
 	learnset 64, DYNAMICPUNCH
 	
@@ -4807,7 +4807,7 @@ EvosAttacksPointersLateGen::
 	learnset 40, DRAGON_PULSE
 	learnset 44, DARK_PULSE ; Body Slam → SV TM move
 	learnset 48, HYPER_VOICE
-	;learnset 52, DRAGON_RUSH
+	learnset 52, DRAGON_RUSH
 	learnset 56, NASTY_PLOT
 	learnset 60, OUTRAGE
 	
@@ -4828,7 +4828,7 @@ EvosAttacksPointersLateGen::
 	learnset 44, DARK_PULSE ; Body Slam → SV TM move
 	learnset 48, HYPER_VOICE
 	learnset 49, DOUBLE_EDGE ; evolution move (Double Hit → new move)
-	;learnset 54, DRAGON_RUSH
+	learnset 54, DRAGON_RUSH
 	learnset 60, NASTY_PLOT
 	learnset 66, OUTRAGE
 	
@@ -4848,7 +4848,7 @@ EvosAttacksPointersLateGen::
 	learnset 40, DRAGON_PULSE
 	learnset 44, DARK_PULSE ; Body Slam → SV TM move
 	learnset 48, HYPER_VOICE
-	;learnset 54, DRAGON_RUSH
+	learnset 54, DRAGON_RUSH
 	learnset 60, NASTY_PLOT
 	learnset 63, TRI_ATTACK ; evolution move
 	learnset 68, OUTRAGE
@@ -4954,7 +4954,7 @@ EvosAttacksPointersLateGen::
 	learnset 40, CRUNCH
 	learnset 45, EXTRASENSORY
 	learnset 50, DARK_PULSE ; Uproar → pre Gen8 move
-	;learnset 55, HAMMER_ARM
+	learnset 55, HAMMER_ARM
 	learnset 60, RAIN_DANCE
 	learnset 65, HURRICANE
 	learnset 70, THRASH
@@ -4973,7 +4973,7 @@ EvosAttacksPointersLateGen::
 	learnset 40, CRUNCH
 	learnset 45, THUNDERBOLT ; Discharge → TM move
 	learnset 50, DARK_PULSE ; Uproar → pre Gen8 move
-	;learnset 55, HAMMER_ARM
+	learnset 55, HAMMER_ARM
 	learnset 60, RAIN_DANCE
 	learnset 65, THUNDER
 	learnset 70, THRASH
@@ -5025,7 +5025,7 @@ EvosAttacksPointersLateGen::
 	learnset 40, EARTH_POWER
 	learnset 45, EXTRASENSORY
 	learnset 50, STONE_EDGE
-	;learnset 55, HAMMER_ARM
+	learnset 55, HAMMER_ARM
 	learnset 60, SANDSTORM
 	learnset 65, EARTHQUAKE
 	learnset 70, OUTRAGE
@@ -5046,7 +5046,7 @@ EvosAttacksPointersLateGen::
 	learnset 56, BLIZZARD
 	learnset 64, DRAGON_DANCE ; Imprison → SV TM move
 	learnset 72, OUTRAGE
-	;learnset 80, DRAGON_RUSH ; Glaciate → new move
+	learnset 80, DRAGON_RUSH ; Glaciate → new move
 	learnset 88, HYPER_BEAM ; Sheer Cold → TM move
 	
 	evos_attacks Keldeo
@@ -5312,7 +5312,7 @@ EvosAttacksPointersLateGen::
 	learnset 28, BODY_SLAM ; Yawn → pre Gen8 move
 	learnset 32, EARTHQUAKE ; Hyper Drill → TM move
 	learnset 36, ROOST
-	;learnset 40, DRAGON_RUSH
+	learnset 40, DRAGON_RUSH
 	learnset 44, DRAGON_DANCE ; Coil → similar move
 	learnset 48, DOUBLE_EDGE
 	learnset 52, AIR_SLASH ; Endeavor → pre Gen8 move

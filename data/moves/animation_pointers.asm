@@ -181,7 +181,7 @@ BattleAnimations::
 	dba BattleAnim_HammerArm
 	dba BattleAnim_SeedBomb
 	dba BattleAnim_Reversal
-	dba BattleAnim_Unused21
+	dba BattleAnim_DragonRush
 	dba BattleAnim_IceShard
 	dba BattleAnim_Protect
 	dba BattleAnim_MachPunch

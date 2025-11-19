@@ -272,7 +272,7 @@ EvosAttacksPointersJohto::
 	evos_attacks Sudowoodo
 	learnset 1, BODY_SLAM ; evolution move (Slam → similar move)
 	learnset 1, STONE_EDGE
-	;learnset 1, HAMMER_ARM
+	learnset 1, HAMMER_ARM
 	learnset 1, TACKLE ; Fake Tears → LA move
 	learnset 1, ENDURE ; Copycat → egg move
 	learnset 1, REVERSAL ; Flail → similar move
@@ -287,7 +287,7 @@ EvosAttacksPointersJohto::
 	learnset 40, COUNTER
 	learnset 44, DOUBLE_EDGE
 	learnset 48, HEAD_SMASH
-	;learnset 54, HAMMER_ARM ; added pre Gen8 move
+	learnset 54, HAMMER_ARM ; added pre Gen8 move
 
 	evos_attacks Politoed
 	learnset 1, BODY_SLAM
@@ -477,7 +477,7 @@ EvosAttacksPointersJohto::
 	learnset 28, BODY_SLAM ; Yawn → pre Gen8 move
 	learnset 32, EARTHQUAKE ; Hyper Drill → TM move
 	learnset 36, ROOST
-	;learnset 40, DRAGON_RUSH
+	learnset 40, DRAGON_RUSH
 	learnset 44, DRAGON_DANCE ; Coil → similar move
 	learnset 48, DOUBLE_EDGE
 	learnset 52, AIR_SLASH ; Endeavor → pre Gen8 move

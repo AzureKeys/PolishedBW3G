@@ -179,7 +179,7 @@ MoveNames::
 	li "Hammer Arm"
 	li "Seed Bomb"
 	li "Reversal"
-	li "UNUSED"
+	li "Dragon Rush"
 	li "Ice Shard"
 	li "Protect"
 	li "Mach Punch"

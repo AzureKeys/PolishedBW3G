@@ -185,7 +185,7 @@
 	const HAMMER_ARM    ; $b1
 	const SEED_BOMB     ; $b2
 	const REVERSAL      ; $b3
-	const UNUSED_MOVE_21; $b4
+	const DRAGON_RUSH   ; $b4
 	const ICE_SHARD     ; $b5
 	const PROTECT       ; $b6
 	const MACH_PUNCH    ; $b7

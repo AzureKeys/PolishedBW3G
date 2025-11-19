@@ -187,8 +187,7 @@ EvolutionMoves::
 	db FLY          ; SALAMENCE
 	db NO_MOVE      ; BELDUM
 	db CONFUSION    ; METANG
-	db NO_MOVE;TEMP;
-	;db HAMMER_ARM   ; METAGROSS
+	db HAMMER_ARM   ; METAGROSS
 	db NO_MOVE      ; STARLY
 	db NO_MOVE      ; STARAVIA
 	db CLOSE_COMBAT ; STARAPTOR
@@ -230,8 +229,7 @@ EvolutionMoves::
 	db NO_MOVE      ; MAGNEZONE
 	db NO_MOVE      ; LICKILICKY
 	db NO_MOVE      ; TANGROWTH
-	;db HAMMER_ARM   ; ELECTIVIRE (egg move)
-	db NO_MOVE;TEMP;
+	db HAMMER_ARM   ; ELECTIVIRE (egg move)
 	db FOCUS_BLAST  ; MAGMORTAR (TM move)
 	db AIR_SLASH    ; TOGEKISS
 	db DRAGONBREATH ; YANMEGA (new move)
@@ -248,8 +246,7 @@ EvolutionMoves::
 	db DRAGON_PULSE ; SERPERIOR (SV TM move)
 	db NO_MOVE      ; TEPIG
 	db DOUBLE_KICK  ; PIGNITE (Arm Thrust → similar move)
-	db NO_MOVE;TEMP;
-	;db HAMMER_ARM   ; EMBOAR (Lv1 move)
+	db HAMMER_ARM   ; EMBOAR (Lv1 move)
 	db NO_MOVE      ; OSHAWOTT
 	db NO_MOVE      ; DEWOTT
 	db SLASH        ; SAMUROTT
@@ -306,8 +303,7 @@ EvolutionMoves::
 	db NO_MOVE      ; KROKOROK
 	db DRAGON_CLAW  ; KROOKODILE (Breaking Swipe → TM move)
 	db NO_MOVE      ; DARUMAKA
-	db NO_MOVE;TEMP;
-	;db HAMMER_ARM   ; DARMANITAN
+	db HAMMER_ARM   ; DARMANITAN
 	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
@@ -332,8 +328,7 @@ EvolutionMoves::
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
-	db NO_MOVE;TEMP;
-	;db HAMMER_ARM   ; REUNICLUS
+	db HAMMER_ARM   ; REUNICLUS
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
 	db NO_MOVE      ; VANILLITE
