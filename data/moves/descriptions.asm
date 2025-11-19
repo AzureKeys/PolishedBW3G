@@ -177,7 +177,7 @@ MoveDescriptions::
 	dw CurseDescription
 	dw GyroBallDescription
 	dw EnergyBallDescription
-	dw Unused20Description
+	dw HammerArmDescription
 	dw SeedBombDescription
 	dw ReversalDescription
 	dw Unused21Description
@@ -269,7 +269,11 @@ LowKickDescription:
 	next "to heavier foes."
 	done
 
-Unused20Description:
+HammerArmDescription:
+	text "Attack that lowers"
+	next "the user's Speed."
+	done
+
 RazorLeafDescription:
 LeafBladeDescription:
 SlashDescription:

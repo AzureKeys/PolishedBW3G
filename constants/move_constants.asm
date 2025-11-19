@@ -182,7 +182,7 @@
 	const CURSE         ; $ae
 	const GYRO_BALL     ; $af
 	const ENERGY_BALL   ; $b0
-	const UNUSED_MOVE_20; $b1
+	const HAMMER_ARM    ; $b1
 	const SEED_BOMB     ; $b2
 	const REVERSAL      ; $b3
 	const UNUSED_MOVE_21; $b4

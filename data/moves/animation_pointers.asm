@@ -178,7 +178,7 @@ BattleAnimations::
 	dba BattleAnim_Curse
 	dba BattleAnim_GyroBall
 	dba BattleAnim_EnergyBall
-	dba BattleAnim_Unused20
+	dba BattleAnim_HammerArm
 	dba BattleAnim_SeedBomb
 	dba BattleAnim_Reversal
 	dba BattleAnim_Unused21

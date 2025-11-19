@@ -176,7 +176,7 @@ MoveNames::
 	li "Curse"
 	li "Gyro Ball"
 	li "Energy Ball"
-	li "UNUSED"
+	li "Hammer Arm"
 	li "Seed Bomb"
 	li "Reversal"
 	li "UNUSED"

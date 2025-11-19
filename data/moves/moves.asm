@@ -197,7 +197,7 @@ endc
 	move CURSE,           EFFECT_CURSE,               0, GHOST,      -1, 10,   0, STATUS
 	move GYRO_BALL,       EFFECT_GYRO_BALL,           1, STEEL,     100,  5,   0, PHYSICAL
 	move ENERGY_BALL,     EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,     100, 10,  10, SPECIAL
-	move UNUSED_MOVE_20,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
+	move HAMMER_ARM,      EFFECT_HAMMER_ARM,        100, FIGHTING,   90, 10,   0, PHYSICAL
 	move SEED_BOMB,       EFFECT_NORMAL_HIT,         80, GRASS,     100, 15,   0, PHYSICAL
 	move REVERSAL,        EFFECT_REVERSAL,            1, FIGHTING,  100, 15,   0, PHYSICAL
 	move UNUSED_MOVE_21,  EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL

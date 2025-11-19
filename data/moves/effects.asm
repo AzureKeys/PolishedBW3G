@@ -2268,3 +2268,25 @@ WeatherBall:
 	postfainteffects
 	posthiteffects
 	endmove
+
+HammerArm:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	lowerstat SPEED
+	postfainteffects
+	posthiteffects
+	endmove

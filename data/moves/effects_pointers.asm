@@ -161,4 +161,5 @@ MoveEffectsPointers:
 	dw QuiverDance
 	dw ToxicHit
 	dw WeatherBall
+	dw HammerArm
 	assert_table_length NUM_MOVE_EFECTS
