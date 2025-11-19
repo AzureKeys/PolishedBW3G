@@ -258,6 +258,8 @@ BattleAnimFrameData:
 	dw .Frameset_ShadowSneak             ; BATTLEANIMFRAMESET_SHADOW_SNEAK
 	dw .Frameset_BigGlowSpiked           ; BATTLEANIMFRAMESET_BIG_GLOW_SPIKED
 	dw .Frameset_WeatherBall             ; BATTLEANIMFRAMESET_WEATHER_BALL
+	dw .Frameset_DragonRush              ; BATTLEANIMFRAMESET_DRAGON_RUSH
+	dw .Frameset_DragonRushFlipped       ; BATTLEANIMFRAMESET_DRAGON_RUSH_FLIPPED
 	
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
@@ -1860,4 +1862,18 @@ BattleAnimFrameData:
 
 .Frameset_WeatherBall:
 	battleoamframe BATTLEANIMOAMSET_WEATHER_BALL, 8
+	battleoamend
+
+.Frameset_DragonRush:
+	battleoamwait 8
+	battleoamframe BATTLEANIMOAMSET_FC,  1
+	battleoamframe BATTLEANIMOAMSET_E5,  1
+	battleoamframe BATTLEANIMOAMSET_FC,  1, B_OAM_XFLIP
+	battleoamend
+
+.Frameset_DragonRushFlipped:
+	battleoamwait 8
+	battleoamframe BATTLEANIMOAMSET_FC,  1, B_OAM_XFLIP
+	battleoamframe BATTLEANIMOAMSET_E5,  1
+	battleoamframe BATTLEANIMOAMSET_FC,  1
 	battleoamend
