@@ -1648,7 +1648,7 @@ AI_Smart_Rollout:
 	bit SUBSTATUS_IN_LOVE, a
 	jr nz, .maybe_discourage
 
-	ld a, [wEnemySubStatus3]
+	ld a, [wEnemySubStatus2]
 	bit SUBSTATUS_CONFUSED, a
 	jr nz, .maybe_discourage
 

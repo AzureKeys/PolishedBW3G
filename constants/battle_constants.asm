@@ -212,7 +212,7 @@ DEF ALL_STATUS EQU (1 << PSN) | (1 << BRN) | (1 << FRZ) | (1 << PAR) | (1 << TOX
 
 ; wPlayerSubStatus2 or wEnemySubStatus2 bit flags
 	const_def
-	const_skip
+	const SUBSTATUS_CONFUSED
 	const SUBSTATUS_MINIMIZED
 	const SUBSTATUS_FAINTED
 	const SUBSTATUS_IN_ABILITY
@@ -230,7 +230,7 @@ DEF ALL_STATUS EQU (1 << PSN) | (1 << BRN) | (1 << FRZ) | (1 << PAR) | (1 << TOX
 	const SUBSTATUS_CHARGED
 	const SUBSTATUS_UNDERGROUND
 	const SUBSTATUS_FLYING
-	const SUBSTATUS_CONFUSED
+	const_skip
 
 ; wPlayerSubStatus4 or wEnemySubStatus4 bit flags
 	const_def

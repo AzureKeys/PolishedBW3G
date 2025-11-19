@@ -333,10 +333,10 @@ BattleCommand_checkturn:
 	call DefrostUser
 
 .not_frozen
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
-	add a ; bit SUBSTATUS_CONFUSED, a
-	jr nc, .not_confused
+	bit SUBSTATUS_CONFUSED, a
+	jr nz, .not_confused
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, wPlayerConfuseCount
@@ -346,7 +346,7 @@ BattleCommand_checkturn:
 	dec [hl]
 	jr nz, .confused
 
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
 	res SUBSTATUS_CONFUSED, [hl]
 	ld hl, ConfusedNoMoreText
@@ -367,7 +367,7 @@ BattleCommand_checkturn:
 	jr nc, .not_confused
 
 	; clear confusion-dependent substatus
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
 	ld a, [hl]
 	and 1 << SUBSTATUS_CONFUSED
@@ -5551,6 +5551,8 @@ HandleRampage:
 	jr nz, HandleRampage_CheckMiss
 	res SUBSTATUS_RAMPAGE, [hl]
 HandleRampage_ConfuseUser:
+	ld a, BATTLE_VARS_SUBSTATUS2
+	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
 	ret nz
 	call GetTrueUserAbility
@@ -6007,7 +6009,7 @@ BattleCommand_confusetarget:
 	ret nz
 	call CheckSubstituteOpp
 	ret nz
-	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	ld a, BATTLE_VARS_SUBSTATUS2_OPP
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
 	ret nz
@@ -6037,7 +6039,7 @@ BattleCommand_confuse:
 	farjp EndAbility
 
 .no_ability_protection
-	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	ld a, BATTLE_VARS_SUBSTATUS2_OPP
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
 	jr z, .not_already_confused

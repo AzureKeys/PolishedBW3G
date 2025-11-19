@@ -491,7 +491,7 @@ EnemyUsedFullRestore:
 	call AI_HealStatus
 	ld a, FULL_RESTORE
 	ld [wCurEnemyItem], a
-	ld hl, wEnemySubStatus3
+	ld hl, wEnemySubStatus2
 	res SUBSTATUS_CONFUSED, [hl]
 	xor a
 	ld [wEnemyConfuseCount], a
@@ -621,7 +621,7 @@ AI_HealStatus:
 	xor a
 	ld [hl], a
 	ld [wEnemyMonStatus], a
-	ld hl, wEnemySubStatus3
+	ld hl, wEnemySubStatus2
 	res SUBSTATUS_CONFUSED, [hl]
 	ret
 

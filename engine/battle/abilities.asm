@@ -128,13 +128,13 @@ HealStatusAbility:
 	jmp UpdateEnemyMonInParty
 
 OwnTempoAbility:
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_CONFUSED, a
 	ret z ; not confused
 	call BeginAbility
 	call ShowAbilityActivation
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
 	res SUBSTATUS_CONFUSED, [hl]
 	ld hl, ConfusedNoMoreText
@@ -1197,7 +1197,7 @@ HustleAccuracyAbility:
 
 TangledFeetAbility:
 ; Double evasion if confused
-	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	ld a, BATTLE_VARS_SUBSTATUS2_OPP
 	call GetBattleVar
 	bit SUBSTATUS_CONFUSED, a
 	ret z

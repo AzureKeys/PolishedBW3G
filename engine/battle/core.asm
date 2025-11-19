@@ -271,7 +271,7 @@ HandleBerserkGene:
 	cp OWN_TEMPO
 	ret z
 
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
 	ret nz
@@ -1159,11 +1159,11 @@ SendInUserPkmn:
 	and [hl]
 	ld [hli], a
 	; substatus2
-	xor a
-	ld [hli], a
-	; substatus3
 	ld a, 1 << SUBSTATUS_CONFUSED ; only flag here that should be preserved
 	and [hl]
+	ld [hli], a
+	; substatus3
+	xor a
 	ld [hli], a
 	; substatus4
 	ld a, 1 << SUBSTATUS_FOCUS_ENERGY | 1 << SUBSTATUS_SUBSTITUTE | 1 << SUBSTATUS_LEECH_SEED
@@ -3848,7 +3848,7 @@ _HeldConfusionHealingItem:
 	ret
 
 DoHeldConfusionHealingItem:
-	ld a, BATTLE_VARS_SUBSTATUS3
+	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
 	bit SUBSTATUS_CONFUSED, [hl]
 	res SUBSTATUS_CONFUSED, [hl]

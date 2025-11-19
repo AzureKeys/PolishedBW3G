@@ -47,7 +47,7 @@ AI_Redundant:
 	db -1
 
 .Confuse:
-	ld a, [wPlayerSubStatus3]
+	ld a, [wPlayerSubStatus2]
 	bit SUBSTATUS_CONFUSED, a
 	ret nz
 	ld a, [wPlayerGuards]
@@ -128,7 +128,7 @@ AI_Redundant:
 	ret
 
 .Swagger:
-	ld a, [wPlayerSubStatus3]
+	ld a, [wPlayerSubStatus2]
 	bit SUBSTATUS_CONFUSED, a
 	ret
 

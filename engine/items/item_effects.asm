@@ -1106,7 +1106,7 @@ UseStatusHealer:
 	; is item used on confused mon?
 	call IsItemUsedOnBattleMon
 	jr nc, .no_good
-	ld a, [wPlayerSubStatus3]
+	ld a, [wPlayerSubStatus2]
 	bit SUBSTATUS_CONFUSED, a
 	jr z, .no_good
 	ld a, c
@@ -1149,7 +1149,7 @@ HealStatus:
 	ld a, c
 	cp -1
 	ret nz
-	ld hl, wPlayerSubStatus3
+	ld hl, wPlayerSubStatus2
 	res SUBSTATUS_CONFUSED, [hl]
 	ret
 
@@ -1247,7 +1247,7 @@ FullRestore:
 	jmp UseDisposableItem
 
 PersimBerry:
-	ld hl, wPlayerSubStatus3
+	ld hl, wPlayerSubStatus2
 	bit SUBSTATUS_CONFUSED, [hl]
 	jmp z, WontHaveAnyEffectMessage
 
