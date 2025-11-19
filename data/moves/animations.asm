@@ -1,6 +1,24 @@
-BattleAnim_Unused24:
 BattleAnim_Unused25:
 
+BattleAnim_PhantomForce:
+	anim_jumpif $1, .turn1
+	anim_jumpif $2, .miss
+	anim_1gfx ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0
+	anim_wait 32
+.miss
+	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
+	anim_wait 32
+	anim_ret
+
+.turn1
+	anim_1gfx ANIM_GFX_SPEED
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $1, $0
+	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
+	anim_call BattleAnimSub_WarpAway
+	anim_wait 64
+	anim_ret
 	
 BattleAnim_PoisonFang:
 	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_POISON

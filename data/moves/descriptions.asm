@@ -238,7 +238,7 @@ MoveDescriptions::
 	dw HurricaneDescription
 	dw KnockOffDescription
 	dw HiddenPowerDescription
-	dw Unused24Description
+	dw PhantomForceDescription
 	dw AquaJetDescription
 	dw RainDanceDescription
 	dw SunnyDayDescription
@@ -319,9 +319,9 @@ OverheatDescription:
 	next "user's Sp.Atk."
 	done
 
-Unused24Description:
-	text "Repeatedly slaps"
-	next "2-5 times."
+PhantomForceDescription:
+	text "1st turn: Vanish"
+	next "2nd turn: Attack"
 	done
 
 FuryStrikesDescription:

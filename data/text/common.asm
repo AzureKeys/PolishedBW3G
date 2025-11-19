@@ -2397,6 +2397,11 @@ _BattleDugText::
 	line "dug a hole!"
 	prompt
 
+SECTION "_BattleDisappearedText", ROMX
+_BattleDisappearedText::
+	line "disappeared!"
+	prompt
+
 SECTION "Text_BreedHuh", ROMX
 Text_BreedHuh::
 	text "Huh?"

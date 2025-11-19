@@ -239,7 +239,7 @@ BattleAnimations::
 	dba BattleAnim_Hurricane
 	dba BattleAnim_KnockOff
 	dba BattleAnim_HiddenPower
-	dba BattleAnim_Unused24
+	dba BattleAnim_PhantomForce
 	dba BattleAnim_AquaJet
 	dba BattleAnim_RainDance
 	dba BattleAnim_SunnyDay

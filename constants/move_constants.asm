@@ -243,7 +243,7 @@
 	const HURRICANE     ; $eb
 	const KNOCK_OFF     ; $ec
 	const HIDDEN_POWER  ; $ed
-	const UNUSED_MOVE_24; $ee
+	const PHANTOM_FORCE ; $ee
 	const AQUA_JET      ; $ef
 	const RAIN_DANCE    ; $f0
 	const SUNNY_DAY     ; $f1

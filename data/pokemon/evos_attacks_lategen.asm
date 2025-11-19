@@ -1191,7 +1191,7 @@ EvosAttacksPointersLateGen::
 	learnset 34, SHADOW_CLAW ; Role Play → LZA move
 	learnset 38, SUCKER_PUNCH
 	learnset 42, TRICK
-	;learnset 48, PHANTOM_FORCE
+	learnset 48, PHANTOM_FORCE
 
 	evos_attacks Banette
 	learnset 1, LICK ; Astonish → similar move
@@ -1207,7 +1207,7 @@ EvosAttacksPointersLateGen::
 	learnset 36, KNOCK_OFF ; evolution move
 	learnset 40, SUCKER_PUNCH
 	learnset 46, TRICK
-	;learnset 53, PHANTOM_FORCE
+	learnset 53, PHANTOM_FORCE
 
 	evos_attacks Tropius
 	learnset 1, LEAF_STORM
@@ -1652,7 +1652,7 @@ EvosAttacksPointersLateGen::
 	learnset 42, BATON_PASS
 	learnset 48, AMNESIA ; Tailwind → pre Gen8 move
 	learnset 54, EXPLOSION
-	;learnset 60, PHANTOM_FORCE ; added pre Gen8 move
+	learnset 60, PHANTOM_FORCE ; added pre Gen8 move
 
 	evos_attacks Buneary
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, LOPUNNY
@@ -1695,7 +1695,7 @@ EvosAttacksPointersLateGen::
 
 	evos_attacks Mismagius
 	learnset 1, POWER_GEM
-	;learnset 1, PHANTOM_FORCE
+	learnset 1, PHANTOM_FORCE
 	learnset 1, GROWL
 	learnset 1, CONFUSION ; Spite → Misdreavus move
 	learnset 1, SHADOW_SNEAK ; Astonish → LA move
@@ -4612,7 +4612,7 @@ EvosAttacksPointersLateGen::
 	learnset 32, MAGNITUDE ; Mega Punch → pre Gen8 move
 	learnset 36, SHADOW_BALL
 	learnset 40, GYRO_BALL ; Heavy Slam → TM move
-	;learnset 44, PHANTOM_FORCE
+	learnset 44, PHANTOM_FORCE
 	learnset 48, HAMMER_ARM
 	learnset 52, EARTHQUAKE
 	learnset 56, DYNAMICPUNCH
@@ -4632,7 +4632,7 @@ EvosAttacksPointersLateGen::
 	learnset 36, SHADOW_BALL
 	learnset 40, GYRO_BALL ; Heavy Slam → TM move
 	learnset 42, FLY ; evolution move (TM/HM move)
-	;learnset 46, PHANTOM_FORCE
+	learnset 46, PHANTOM_FORCE
 	learnset 52, HAMMER_ARM
 	learnset 58, EARTHQUAKE
 	learnset 64, DYNAMICPUNCH
@@ -5223,7 +5223,7 @@ EvosAttacksPointersLateGen::
 
 	evos_attacks Basculegion
 	learnset 1, HEX ; evolution move
-	;learnset 1, PHANTOM_FORCE
+	learnset 1, PHANTOM_FORCE
 	learnset 1, ZEN_HEADBUTT ; added Basculin move
 	learnset 1, WATER_GUN
 	learnset 1, LEER ; Tail Whip → similar move
@@ -5298,7 +5298,7 @@ EvosAttacksPointersLateGen::
 	learnset 44, SCREECH
 	learnset 48, DYNAMICPUNCH ; Stomping Tantrum → GSC TM move
 	learnset 53, OUTRAGE
-	;learnset 57, PHANTOM_FORCE ; Final Gambit → SV TM move
+	learnset 57, PHANTOM_FORCE ; Final Gambit → SV TM move
 
 	evos_attacks Dudunsparce
 	learnset 1, REVERSAL ; Flail → similar move

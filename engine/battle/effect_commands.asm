@@ -5842,6 +5842,10 @@ BattleCommand_charge:
 
 	ld hl, .Dig
 	cp DIG
+	ret z
+
+	ld hl, .PhantomForce
+	cp PHANTOM_FORCE
 	ret
 
 .SolarBeam:
@@ -5857,6 +5861,11 @@ BattleCommand_charge:
 .Dig:
 ; 'dug a hole!'
 	text_far _BattleDugText
+	text_end
+
+.PhantomForce:
+; 'disappeared!'
+	text_far _BattleDisappearedText
 	text_end
 
 BattleCommand_traptarget:

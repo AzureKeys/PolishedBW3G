@@ -237,7 +237,7 @@ MoveNames::
 	li "Hurricane"
 	li "Knock Off"
 	li "Hidden Power"
-	li "UNUSED"
+	li "PhantomForce"
 	li "Aqua Jet"
 	li "Rain Dance"
 	li "Sunny Day"
