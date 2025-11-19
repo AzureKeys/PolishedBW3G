@@ -321,8 +321,7 @@ EvolutionMoves::
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; MINCCINO
-	db NO_MOVE;TEMP;
-	;db TAIL_SLAP    ; CINCCINO
+	db TAIL_SLAP    ; CINCCINO
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE

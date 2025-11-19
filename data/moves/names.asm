@@ -220,7 +220,7 @@ MoveNames::
 	li "Bug Buzz"
 	li "Safeguard"
 	li "Pain Split"
-	li "UNUSED"
+	li "Tail Slap"
 	li "Magnitude"
 	li "DynamicPunch"
 	li "Megahorn"

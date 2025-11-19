@@ -222,7 +222,7 @@ BattleAnimations::
 	dba BattleAnim_BugBuzz
 	dba BattleAnim_Safeguard
 	dba BattleAnim_PainSplit
-	dba BattleAnim_Unused23
+	dba BattleAnim_TailSlap
 	dba BattleAnim_Magnitude
 	dba BattleAnim_Dynamicpunch
 	dba BattleAnim_Megahorn

@@ -425,3 +425,23 @@ BattleAnim_FlameBurst:
 	anim_wait 16
 	anim_ret
 	
+BattleAnim_TailSlap:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
+	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
+	anim_obj ANIM_OBJ_HORN,   9, 0,   9, 0, $2
+	anim_wait 8
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT,  16, 0,   5, 0, $0
+	anim_wait 8
+	anim_obj ANIM_OBJ_HORN,  10, 0,  11, 0, $2
+	anim_wait 8
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT, -15, 0,   7, 0, $0
+	anim_wait 8
+	anim_obj ANIM_OBJ_HORN,   9, 4,  10, 0, $2
+	anim_wait 8
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj ANIM_OBJ_HIT, -16, 4,   6, 0, $0
+	anim_wait 8
+	anim_ret
+	

@@ -221,7 +221,7 @@ MoveDescriptions::
 	dw BugBuzzDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
-	dw Unused23Description
+	dw TailSlapDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
@@ -278,7 +278,6 @@ RazorLeafDescription:
 LeafBladeDescription:
 SlashDescription:
 Unused25Description:
-Unused23Description:
 NightSlashDescription:
 ShadowClawDescription:
 StoneEdgeDescription:
@@ -343,6 +342,11 @@ IcicleSpearDescription:
 RockBlastDescription:
 	text "Hurls boulders to"
 	next "hit 2-5 times."
+	done
+
+TailSlapDescription:
+	text "Slams with a hard"
+	next "tail 2-5 times."
 	done
 
 TakeDownDescription:

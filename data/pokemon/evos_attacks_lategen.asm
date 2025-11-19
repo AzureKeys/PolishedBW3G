@@ -1595,7 +1595,7 @@ EvosAttacksPointersLateGen::
 	learnset 18, BITE
 	learnset 21, SWIFT
 	learnset 24, AQUA_JET
-	;learnset 27, TAIL_SLAP ; Double Hit → egg move
+	learnset 27, TAIL_SLAP ; Double Hit → egg move
 	learnset 31, SCALD ; Whirlpool → TM move
 	learnset 35, CRUNCH ; Liquidation → Floatzel Lv1 move
 	learnset 38, AQUA_TAIL
@@ -1613,7 +1613,7 @@ EvosAttacksPointersLateGen::
 	learnset 21, SWIFT
 	learnset 24, AQUA_JET
 	learnset 25, ICE_FANG ; evolution move (new move)
-	;learnset 29, TAIL_SLAP ; Double Hit → egg move
+	learnset 29, TAIL_SLAP ; Double Hit → egg move
 	learnset 35, SCALD ; Whirlpool → TM move
 	learnset 41, CRUNCH ; Liquidation → Lv1 move
 	learnset 46, AQUA_TAIL
@@ -3744,7 +3744,7 @@ EvosAttacksPointersLateGen::
 	learnset 20, SWIFT
 	learnset 24, ENCORE
 	learnset 28, FACADE ; After You → TM move
-	;learnset 32, TAIL_SLAP
+	learnset 32, TAIL_SLAP
 	learnset 36, PLAY_ROUGH ; Tickle → SV TM move
 	learnset 40, AQUA_TAIL ; Slam → egg move
 	learnset 44, HYPER_VOICE
@@ -3762,7 +3762,7 @@ EvosAttacksPointersLateGen::
 	learnset 1, FACADE ; After You → TM move
 	learnset 1, FURY_STRIKES ; Echoed Voice → pre Gen8 move (Double Slap)
 	learnset 1, GROWL ; Baby-Doll Eyes → similar move
-	;learnset 1, TAIL_SLAP ; evolution move
+	learnset 1, TAIL_SLAP ; evolution move
 	learnset 1, ROCK_BLAST ; Bullet Seed → Lv1 move
 	learnset 1, SING
 	learnset 1, CHARM

@@ -226,7 +226,7 @@
 	const BUG_BUZZ      ; $da
 	const SAFEGUARD     ; $db
 	const PAIN_SPLIT    ; $dc
-	const UNUSED_MOVE_23; $dd
+	const TAIL_SLAP     ; $dd
 	const MAGNITUDE     ; $de
 	const DYNAMICPUNCH  ; $df
 	const MEGAHORN      ; $e0
