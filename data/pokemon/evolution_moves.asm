@@ -3,58 +3,58 @@ EvolutionMoves::
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; PIKACHU
-	db THUNDERBOLT  ; RAICHU
+	db THUNDERPUNCH ; RAICHU
 	db NO_MOVE      ; SANDSHREW
-	db SLASH        ; SANDSLASH
+	db METAL_CLAW   ; SANDSLASH (Crush Claw → egg move)
 	db NO_MOVE      ; NIDORAN_F
 	db NO_MOVE      ; NIDORINA
-	db NO_MOVE      ; NIDOQUEEN
+	db CLOSE_COMBAT ; NIDOQUEEN (Superpower → similar move)
 	db NO_MOVE      ; NIDORAN_M
 	db NO_MOVE      ; NIDORINO
-	db NO_MOVE      ; NIDOKING
+	db MEGAHORN     ; NIDOKING
 	db NO_MOVE      ; CLEFAIRY
 	db NO_MOVE      ; CLEFABLE
 	db NO_MOVE      ; VULPIX
-	db NASTY_PLOT   ; NINETALES
+	db NASTY_PLOT   ; NINETALES (Lv1 move)
 	db NO_MOVE      ; JIGGLYPUFF
 	db NO_MOVE      ; WIGGLYTUFF
 	db NO_MOVE      ; ZUBAT
 	db NO_MOVE      ; GOLBAT
 	db NO_MOVE      ; PARAS
-	db SHADOW_CLAW  ; PARASECT
+	db NO_MOVE      ; PARASECT
 	db NO_MOVE      ; MEOWTH
-	db SWIFT        ; PERSIAN
+	db POWER_GEM    ; PERSIAN
 	db NO_MOVE      ; PSYDUCK
 	db NO_MOVE      ; GOLDUCK
 	db NO_MOVE      ; MANKEY
-	db NO_MOVE      ; PRIMEAPE
+	db REVENGE      ; PRIMEAPE (Rage → pre Gen9 egg move)
 	db NO_MOVE      ; GROWLITHE
 	db EXTREMESPEED ; ARCANINE
 	db NO_MOVE      ; POLIWAG
 	db NO_MOVE      ; POLIWHIRL
-	db CLOSE_COMBAT ; POLIWRATH
+	db DYNAMICPUNCH ; POLIWRATH
 	db NO_MOVE      ; GEODUDE
 	db NO_MOVE      ; GRAVELER
 	db NO_MOVE      ; GOLEM
 	db NO_MOVE      ; PONYTA
-	db PLAY_ROUGH   ; RAPIDASH
+	db MEGAHORN     ; RAPIDASH (Smart Strike → reminder move)
 	db NO_MOVE      ; SLOWPOKE
-	db DEFENSE_CURL ; SLOWBRO
+	db DEFENSE_CURL ; SLOWBRO (Withdraw → similar move)
 	db NO_MOVE      ; MAGNEMITE
 	db TRI_ATTACK   ; MAGNETON
 	db NO_MOVE      ; SEEL
-	db ICICLE_SPEAR ; DEWGONG
+	db SIGNAL_BEAM  ; DEWGONG (Sheer Cold → pre Gen8 move)
 	db NO_MOVE      ; GRIMER
-	db NO_MOVE      ; MUK
+	db TOXIC_SPIKES ; MUK (Venom Drench → SV TM move)
 	db NO_MOVE      ; GASTLY
-	db SHADOW_CLAW  ; HAUNTER
-	db SHADOW_CLAW  ; GENGAR
+	db SHADOW_CLAW  ; HAUNTER (Shadow Punch → TM move)
+	db PERISH_SONG  ; GENGAR (Shadow Punch → LZA move)
 	db NO_MOVE      ; ONIX
 	db NO_MOVE      ; EXEGGCUTE
 	db STOMP        ; EXEGGUTOR
 	db NO_MOVE      ; LICKITUNG
 	db NO_MOVE      ; KOFFING
-	db NO_MOVE      ; WEEZING
+	db GYRO_BALL    ; WEEZING (Double Hit → pre Gen8 move)
 	db NO_MOVE      ; TANGELA
 	db NO_MOVE      ; KANGASKHAN
 	db NO_MOVE      ; HORSEA
@@ -75,75 +75,71 @@ EvolutionMoves::
 	db NO_MOVE      ; SNORLAX
 	db NO_MOVE      ; DRATINI
 	db NO_MOVE      ; DRAGONAIR
-	db WING_ATTACK  ; DRAGONITE
-	db X_SCISSOR    ; CROBAT
+	db HURRICANE	; DRAGONITE
+	db POISON_JAB   ; CROBAT (Cross Poison → TM move)
 	db NO_MOVE      ; CHINCHOU
-	db NO_MOVE      ; LANTURN
+	db PSYBEAM      ; LANTURN (Stockpile/Swallow/Spit Up → egg move)
 	db NO_MOVE      ; PICHU
 	db NO_MOVE      ; CLEFFA
 	db NO_MOVE      ; IGGLYBUFF
 	db NO_MOVE      ; TOGEPI
-	db DISARM_VOICE ; TOGETIC
+	db AERIAL_ACE   ; TOGETIC (Fairy Wind → TM move)
 	db NO_MOVE      ; MAREEP
 	db NO_MOVE      ; FLAAFFY
 	db THUNDERPUNCH ; AMPHAROS
 	db NO_MOVE      ; MARILL
 	db NO_MOVE      ; AZUMARILL
-	db STONE_EDGE   ; SUDOWOODO
-	db GIGA_DRAIN   ; POLITOED
+	db BODY_SLAM    ; SUDOWOODO (Slam → similar move)
+	db HYPER_VOICE  ; POLITOED (Bounce → reminder move)
 	db NO_MOVE      ; SUNKERN
-if DEF(FAITHFUL)
-	db NO_MOVE      ; SUNFLORA
-else
-	db EMBER        ; SUNFLORA
-endc
+	db EMBER        ; SUNFLORA (new move)
 	db NO_MOVE      ; YANMA
 	db CONFUSION    ; ESPEON
-	db PURSUIT      ; UMBREON
+	db PURSUIT      ; UMBREON (Snarl → pre Gen8 move)
 	db NO_MOVE      ; MURKROW
 	db NO_MOVE      ; SLOWKING
 	db NO_MOVE      ; MISDREAVUS
 	db NO_MOVE      ; DUNSPARCE
 	db NO_MOVE      ; GLIGAR
-	db IRON_TAIL    ; STEELIX
+	db CRUNCH       ; STEELIX (pre Gen8 move)
 	db NO_MOVE      ; SNUBBULL
 	db NO_MOVE      ; GRANBULL
-	db METAL_CLAW   ; SCIZOR
+	db BULLET_PUNCH ; SCIZOR
 	db NO_MOVE      ; SHUCKLE
 	db NO_MOVE      ; HERACROSS
 	db NO_MOVE      ; SNEASEL
 	db NO_MOVE      ; SWINUB
-	db FURY_STRIKES ; PILOSWINE
+	db ICE_FANG     ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; REMORAID
-	db NO_MOVE      ; OCTILLERY
+	db SCALD        ; OCTILLERY (Octazooka → TM move)
 	db NO_MOVE      ; DELIBIRD
-	db NO_MOVE      ; MANTINE
+	db PSYBEAM      ; MANTINE (Lv1 move)
 	db NO_MOVE      ; SKARMORY
 	db NO_MOVE      ; HOUNDOUR
 	db NO_MOVE      ; HOUNDOOM
-	db DRAGONBREATH ; KINGDRA
+	db NO_MOVE      ; KINGDRA
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
 	db NO_MOVE      ; LARVITAR
-	db DEFENSE_CURL ; PUPITAR
-	db STOMP        ; TYRANITAR
+	db BARRIER      ; PUPITAR (Iron Defense → similar move)
+	db DARK_PULSE   ; TYRANITAR (pre Gen8 move)
 	db NO_MOVE      ; LOTAD
 	db NO_MOVE      ; LOMBRE
 	db NO_MOVE      ; LUDICOLO
 	db NO_MOVE      ; SEEDOT
-	db NO_MOVE      ; NUZLEAF
-	db NO_MOVE      ; SHIFTRY
+	db RAZOR_LEAF   ; NUZLEAF
+	db LEAF_BLADE   ; SHIFTRY
 	db NO_MOVE      ; WINGULL
-	db NO_MOVE      ; PELIPPER
+	db PROTECT      ; PELIPPER
 	db NO_MOVE      ; RALTS
 	db NO_MOVE      ; KIRLIA
-	db NO_MOVE      ; GARDEVOIR
+	db DAZZLINGLEAM ; GARDEVOIR
 	db NO_MOVE      ; SHROOMISH
 	db MACH_PUNCH   ; BRELOOM
 	db NO_MOVE      ; SLAKOTH
 	db NO_MOVE      ; VIGOROTH
-	db NO_MOVE      ; SLAKING
+	db SWAGGER      ; SLAKING
 	db NO_MOVE      ; AZURILL
 	db NO_MOVE      ; NOSEPASS
 	db NO_MOVE      ; SKITTY
@@ -155,19 +151,19 @@ endc
 	db NO_MOVE      ; AGGRON
 	db NO_MOVE      ; MEDITITE
 	db NO_MOVE      ; MEDICHAM
-	db NO_MOVE      ; ROSELIA
+	db POISON_STING ; ROSELIA
 	db NO_MOVE      ; WAILMER
 	db NO_MOVE      ; WAILORD
 	db NO_MOVE      ; NUMEL
 	db ROCK_SLIDE   ; CAMERUPT
 	db NO_MOVE      ; TORKOAL
 	db NO_MOVE      ; SPOINK
-	db NO_MOVE      ; GRUMPIG
+	db MIRROR_COAT  ; GRUMPIG (Teeter Dance → egg move)
 	db NO_MOVE      ; TRAPINCH
 	db DRAGONBREATH ; VIBRAVA
 	db DRAGON_CLAW  ; FLYGON
 	db NO_MOVE      ; SWABLU
-	db DRAGONBREATH ; ALTARIA
+	db DRAGON_PULSE ; ALTARIA
 	db NO_MOVE      ; ZANGOOSE
 	db NO_MOVE      ; SEVIPER
 	db NO_MOVE      ; LUNATONE
@@ -178,49 +174,50 @@ endc
 	db HYPER_BEAM   ; CLAYDOL
 	db NO_MOVE      ; CASTFORM
 	db NO_MOVE      ; SHUPPET
-	db NO_MOVE      ; BANETTE
+	db KNOCK_OFF    ; BANETTE
 	db NO_MOVE      ; TROPIUS
 	db NO_MOVE      ; ABSOL
 	db NO_MOVE      ; SNORUNT
-	db NO_MOVE      ; GLALIE
+	db EXPLOSION    ; GLALIE (Freeze-Dry → pre Gen8 move)
 	db NO_MOVE      ; SPHEAL
-	db NO_MOVE      ; SEALEO
-	db NO_MOVE      ; WALREIN
+	db SWAGGER      ; SEALEO
+	db ICE_FANG     ; WALREIN
 	db NO_MOVE      ; BAGON
-	db NO_MOVE      ; SHELGON
-	db NO_MOVE      ; SALAMENCE
+	db PROTECT      ; SHELGON
+	db FLY          ; SALAMENCE
 	db NO_MOVE      ; BELDUM
-	db NO_MOVE      ; METANG
-	db NO_MOVE      ; METAGROSS
+	db CONFUSION    ; METANG
+	db NO_MOVE;TEMP;
+	;db HAMMER_ARM   ; METAGROSS
 	db NO_MOVE      ; STARLY
 	db NO_MOVE      ; STARAVIA
-	db NO_MOVE      ; STARAPTOR
+	db CLOSE_COMBAT ; STARAPTOR
 	db NO_MOVE      ; SHINX
 	db NO_MOVE      ; LUXIO
 	db NO_MOVE      ; LUXRAY
 	db NO_MOVE      ; BUDEW
 	db NO_MOVE      ; ROSERADE
 	db NO_MOVE      ; COMBEE
-	db NO_MOVE      ; VESPIQUEN
+	db SLASH        ; VESPIQUEN
 	db NO_MOVE      ; BUIZEL
-	db NO_MOVE      ; FLOATZEL
+	db ICE_FANG     ; FLOATZEL (new move)
 	db NO_MOVE      ; DRIFLOON
-	db NO_MOVE      ; DRIFBLIM
+	db SHADOW_CLAW  ; DRIFBLIM (Phantom Force → new move)
 	db NO_MOVE      ; BUNEARY
-	db NO_MOVE      ; LOPUNNY
-	db DAZZLINGLEAM ; MISMAGIUS
+	db RETURN       ; LOPUNNY
+	db NO_MOVE      ; MISMAGIUS
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BRONZOR
-	db NO_MOVE      ; BRONZONG
+	db MEAN_LOOK    ; BRONZONG (Block → similar move)
 	db NO_MOVE      ; BONSLY
 	db NO_MOVE      ; MIME_JR_
 	db NO_MOVE      ; SPIRITOMB
 	db NO_MOVE      ; GIBLE
 	db NO_MOVE      ; GABITE
-	db NO_MOVE      ; GARCHOMP
+	db CRUNCH       ; GARCHOMP
 	db NO_MOVE      ; MUNCHLAX
 	db NO_MOVE      ; RIOLU
-	db NO_MOVE      ; LUCARIO
+	db AURA_SPHERE  ; LUCARIO
 	db NO_MOVE      ; SKORUPI
 	db NO_MOVE      ; DRAPION
 	db NO_MOVE      ; CROAGUNK
@@ -228,29 +225,31 @@ endc
 	db NO_MOVE      ; CARNIVINE
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; SNOVER
-	db NO_MOVE      ; ABOMASNOW
+	db ICE_PUNCH    ; ABOMASNOW
 	db NO_MOVE      ; WEAVILE
-	db TRI_ATTACK   ; MAGNEZONE
+	db NO_MOVE      ; MAGNEZONE
 	db NO_MOVE      ; LICKILICKY
 	db NO_MOVE      ; TANGROWTH
-	db CLOSE_COMBAT ; ELECTIVIRE
-	db FLASH_CANNON ; MAGMORTAR
-	db DISARM_VOICE ; TOGEKISS
-	db DRAGONBREATH ; YANMEGA
+	;db HAMMER_ARM   ; ELECTIVIRE (egg move)
+	db NO_MOVE;TEMP;
+	db FOCUS_BLAST  ; MAGMORTAR (TM move)
+	db AIR_SLASH    ; TOGEKISS
+	db DRAGONBREATH ; YANMEGA (new move)
 	db RAZOR_LEAF   ; LEAFEON
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR
-	db NO_MOVE      ; MAMOSWINE
-	db NO_MOVE      ; GALLADE
-	db NO_MOVE      ; PROBOPASS
-	db NO_MOVE      ; FROSLASS
+	db ICICLE_CRASH ; MAMOSWINE (Double Hit → egg move)
+	db SLASH        ; GALLADE
+	db TRI_ATTACK   ; PROBOPASS
+	db HEX          ; FROSLASS
 	db NO_MOVE      ; VICTINI
 	db NO_MOVE      ; SNIVY
 	db NO_MOVE      ; SERVINE
-	db NO_MOVE      ; SERPERIOR
+	db DRAGON_PULSE ; SERPERIOR (SV TM move)
 	db NO_MOVE      ; TEPIG
-	db LOW_KICK     ; PIGNITE
-	db NO_MOVE      ; EMBOAR
+	db DOUBLE_KICK  ; PIGNITE (Arm Thrust → similar move)
+	db NO_MOVE;TEMP;
+	;db HAMMER_ARM   ; EMBOAR (Lv1 move)
 	db NO_MOVE      ; OSHAWOTT
 	db NO_MOVE      ; DEWOTT
 	db SLASH        ; SAMUROTT
@@ -282,32 +281,33 @@ endc
 	db NO_MOVE      ; WOOBAT
 	db NO_MOVE      ; SWOOBAT
 	db NO_MOVE      ; DRILBUR
-	db NO_MOVE      ; EXCADRILL
+	db MEGAHORN     ; EXCADRILL (Horn Drill → LZA move)
 	db NO_MOVE      ; AUDINO
 	db NO_MOVE      ; TIMBURR
 	db NO_MOVE      ; GURDURR
 	db NO_MOVE      ; CONKELDURR
 	db NO_MOVE      ; TYMPOLE
 	db NO_MOVE      ; PALPITOAD
-	db ACID         ; SEISMITOAD
+	db DRAIN_PUNCH  ; SEISMITOAD
 	db NO_MOVE      ; THROH
 	db NO_MOVE      ; SAWK
 	db NO_MOVE      ; SEWADDLE
 	db PROTECT      ; SWADLOON
 	db SLASH        ; LEAVANNY
 	db NO_MOVE      ; VENIPEDE
-	db BARRIER      ; WHIRLIPEDE
-	db NO_MOVE      ; SCOLIPEDE
+	db BARRIER      ; WHIRLIPEDE (Iron Defense → similar move)
+	db BATON_PASS   ; SCOLIPEDE
 	db NO_MOVE      ; COTTONEE
 	db NO_MOVE      ; WHIMSICOTT
 	db NO_MOVE      ; PETILIL
-	db NO_MOVE      ; LILLIGANT
+	db PETAL_DANCE  ; LILLIGANT
 	db NO_MOVE      ; BASCULIN
 	db NO_MOVE      ; SANDILE
 	db NO_MOVE      ; KROKOROK
-	db NO_MOVE      ; KROOKODILE
+	db DRAGON_CLAW  ; KROOKODILE (Breaking Swipe → TM move)
 	db NO_MOVE      ; DARUMAKA
-	db NO_MOVE      ; DARMANITAN
+	db NO_MOVE;TEMP;
+	;db HAMMER_ARM   ; DARMANITAN
 	db NO_MOVE      ; MARACTUS
 	db NO_MOVE      ; DWEBBLE
 	db NO_MOVE      ; CRUSTLE
@@ -315,30 +315,32 @@ endc
 	db NO_MOVE      ; SCRAFTY
 	db NO_MOVE      ; SIGILYPH
 	db NO_MOVE      ; YAMASK
-	db SCARY_FACE   ; COFAGRIGUS
+	db SHADOW_CLAW  ; COFAGRIGUS
 	db NO_MOVE      ; TIRTOUGA
 	db NO_MOVE      ; CARRACOSTA
 	db NO_MOVE      ; ARCHEN
 	db NO_MOVE      ; ARCHEOPS
 	db NO_MOVE      ; TRUBBISH
-	db NO_MOVE      ; GARBODOR
+	db METAL_CLAW   ; GARBODOR
 	db NO_MOVE      ; ZORUA
 	db NIGHT_SLASH  ; ZOROARK
 	db NO_MOVE      ; MINCCINO
-	db NO_MOVE      ; CINCCINO
+	db NO_MOVE;TEMP;
+	;db TAIL_SLAP    ; CINCCINO
 	db NO_MOVE      ; GOTHITA
 	db NO_MOVE      ; GOTHORITA
 	db NO_MOVE      ; GOTHITELLE
 	db NO_MOVE      ; SOLOSIS
 	db NO_MOVE      ; DUOSION
-	db DIZZY_PUNCH  ; REUNICLUS
+	db NO_MOVE;TEMP;
+	;db HAMMER_ARM   ; REUNICLUS
 	db NO_MOVE      ; DUCKLETT
 	db NO_MOVE      ; SWANNA
 	db NO_MOVE      ; VANILLITE
 	db NO_MOVE      ; VANILLISH
-	db NO_MOVE      ; VANILLUXE
+	db ICICLE_CRASH ; VANILLUXE (Lv1 move)
 	db NO_MOVE      ; DEERLING
-	db MEGAHORN     ; SAWSBUCK
+	db LEAF_BLADE   ; SAWSBUCK (Horn Leech → new move)
 	db NO_MOVE      ; EMOLGA
 	db NO_MOVE      ; KARRABLAST
 	db NO_MOVE      ; ESCAVALIER
@@ -348,15 +350,15 @@ endc
 	db NO_MOVE      ; JELLICENT
 	db NO_MOVE      ; ALOMOMOLA
 	db NO_MOVE      ; JOLTIK
-	db NO_MOVE      ; GALVANTULA
+	db PIN_MISSILE  ; GALVANTULA (Sticky Web → egg move)
 	db NO_MOVE      ; FERROSEED
-	db SEED_BOMB    ; FERROTHORN
+	db POWER_WHIP   ; FERROTHORN
 	db NO_MOVE      ; KLINK
 	db NO_MOVE      ; KLANG
-	db NO_MOVE      ; KLINKLANG
+	db TRI_ATTACK   ; KLINKLANG (Magnetic Flux → new move)
 	db NO_MOVE      ; TYNAMO
 	db CRUNCH       ; EELEKTRIK
-	db THUNDERPUNCH ; EELEKTROSS
+	db THUNDERPUNCH ; EELEKTROSS (new move)
 	db NO_MOVE      ; ELGYEM
 	db NO_MOVE      ; BEHEEYEM
 	db NO_MOVE      ; LITWICK
@@ -375,21 +377,21 @@ endc
 	db NO_MOVE      ; MIENSHAO
 	db NO_MOVE      ; DRUDDIGON
 	db NO_MOVE      ; GOLETT
-	db NO_MOVE      ; GOLURK
+	db FLY          ; GOLURK (TM/HM move)
 	db NO_MOVE      ; PAWNIARD
 	db NO_MOVE      ; BISHARP
 	db NO_MOVE      ; BOUFFALANT
 	db NO_MOVE      ; RUFFLET
-	db CLOSE_COMBAT ; BRAVIARY
+	db CLOSE_COMBAT ; BRAVIARY (Superpower → SV TM move)
 	db NO_MOVE      ; VULLABY
-	db HURRICANE    ; MANDIBUZZ
+	db HURRICANE    ; MANDIBUZZ (Bone Rush → SV TM move)
 	db NO_MOVE      ; HEATMOR
 	db NO_MOVE      ; DURANT
 	db NO_MOVE      ; DEINO
-	db NO_MOVE      ; ZWEILOUS
+	db DOUBLE_EDGE  ; ZWEILOUS (Double Hit → new move)
 	db TRI_ATTACK   ; HYDREIGON
 	db NO_MOVE      ; LARVESTA
-	db NO_MOVE      ; VOLCARONA
+	db QUIVER_DANCE ; VOLCARONA
 	db NO_MOVE      ; COBALION
 	db NO_MOVE      ; TERRAKION
 	db NO_MOVE      ; VIRIZION
@@ -406,10 +408,10 @@ endc
 	db IRON_HEAD    ; PERRSERKER
 	db NO_MOVE      ; CURSOLA
 	db NO_MOVE      ; MR__RIME
-	db NO_MOVE      ; RUNERIGUS
-	db ROCK_THROW   ; KLEAVOR
-	db NO_MOVE      ; SNEASLER
-	db SHADOW_CLAW  ; ANNIHILAPE
+	db SHADOW_CLAW  ; RUNERIGUS
+	db ROCK_BLAST   ; KLEAVOR (Stone Axe → SV TM)
+	db GUNK_SHOT    ; SNEASLER (Dire Claw → SV TM)
+	db SHADOW_CLAW  ; ANNIHILAPE (Shadow Punch → TM move)
 	db NO_MOVE      ; DUDUNSPARCE
 	assert_table_length NUM_SPECIES
 
@@ -423,25 +425,25 @@ endc
 	db NO_MOVE      ; VULPIX, ALOLAN_FORM
 	db DAZZLINGLEAM ; NINETALES, ALOLAN_FORM
 	db NO_MOVE      ; MEOWTH, ALOLAN_FORM
-	db SWIFT        ; PERSIAN, ALOLAN_FORM
+	db POWER_GEM    ; PERSIAN, ALOLAN_FORM
 	db NO_MOVE      ; GEODUDE, ALOLAN_FORM
 	db NO_MOVE      ; GRAVELER, ALOLAN_FORM
 	db NO_MOVE      ; GOLEM, ALOLAN_FORM
 	db NO_MOVE      ; GRIMER, ALOLAN_FORM
-	db NO_MOVE      ; MUK, ALOLAN_FORM
-	db DRAGON_PULSE ; EXEGGUTOR, ALOLAN_FORM
+	db TOXIC_SPIKES ; MUK, ALOLAN_FORM (Venom Drench → SV TM move)
+	db DRAGON_PULSE ; EXEGGUTOR, ALOLAN_FORM (Dragon Hammer → LGPE move)
 
 	db NO_MOVE      ; MEOWTH, GALARIAN_FORM
 	db NO_MOVE      ; PONYTA, GALARIAN_FORM
-	db PLAY_ROUGH   ; RAPIDASH, GALARIAN_FORM
+	db ZEN_HEADBUTT ; RAPIDASH, GALARIAN_FORM (Psycho Cut → SwSh TM move)
 	db NO_MOVE      ; SLOWPOKE, GALARIAN_FORM
-	db GUNK_SHOT    ; SLOWBRO, GALARIAN_FORM
-	db SAFEGUARD    ; WEEZING, GALARIAN_FORM
+	db GUNK_SHOT    ; SLOWBRO, GALARIAN_FORM (Shell Side Arm → SV TM move)
+	db DAZZLINGLEAM ; WEEZING, GALARIAN_FORM (Double Hit → TM move)
 	db NO_MOVE      ; MR__MIME, GALARIAN_FORM
-	db HEX          ; SLOWKING, GALARIAN_FORM
+	db PSYSHOCK     ; SLOWKING, GALARIAN_FORM (Eerie Spell → TM move)
 	db NO_MOVE      ; CORSOLA, GALARIAN_FORM
 	db NO_MOVE      ; DARUMAKA, GALARIAN_FORM
-	db NO_MOVE      ; DARMANITAN, GALARIAN_FORM
+	db ICICLE_CRASH ; DARMANITAN, GALARIAN_FORM
 	db NO_MOVE      ; YAMASK, GALARIAN_FORM
 
 	db NO_MOVE      ; GROWLITHE, HISUIAN_FORM
