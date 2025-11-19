@@ -279,7 +279,7 @@ Script_CutFromMenu:
 	refreshmap
 	special UpdateTimePals
 	callasm GetBuffer6
-	ifequal $0, Script_CutTree
+	ifequalfwd $0, Script_CutTree
 ;Script_CutGrass:
 	callasm PrepareOverworldMove
 	farwritetext _UseCutText

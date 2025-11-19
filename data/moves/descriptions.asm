@@ -250,7 +250,7 @@ MoveDescriptions::
 	dw ShadowBallDescription
 	dw FutureSightDescription
 	dw BrickBreakDescription
-	dw Unused25Description
+	dw SacredSwordDescription
 	dw DarkPulseDescription
 	dw MoonblastDescription
 	dw PlayRoughDescription
@@ -274,10 +274,14 @@ HammerArmDescription:
 	next "the user's Speed."
 	done
 
+SacredSwordDescription:
+	text "Move that ignores"
+	next "foe's stat changes."
+	done
+
 RazorLeafDescription:
 LeafBladeDescription:
 SlashDescription:
-Unused25Description:
 NightSlashDescription:
 ShadowClawDescription:
 StoneEdgeDescription:
@@ -1070,11 +1074,6 @@ SubstituteDescription:
 StruggleDescription:
 	text "Used only if all"
 	next "PP are exhausted."
-	done
-
-Unused19Description:
-	text "Copies the foe's"
-	next "move permanently."
 	done
 
 ThiefDescription:

@@ -22,7 +22,7 @@ PhoneScript_AnswerPhone_Male:
 	checktime 1 << DAY
 	iftruefwd PhoneScript_AnswerPhone_Male_Day
 	checktime (1 << EVE) | (1 << NITE)
-	iftrue PhoneScript_AnswerPhone_Male_Nite
+	iftruefwd PhoneScript_AnswerPhone_Male_Nite
 	readvar VAR_CALLERID
 	end
 
@@ -57,7 +57,7 @@ PhoneScript_GreetPhone_Male:
 	checktime 1 << DAY
 	iftruefwd PhoneScript_GreetPhone_Male_Day
 	checktime (1 << EVE) | (1 << NITE)
-	iftrue PhoneScript_GreetPhone_Male_Nite
+	iftruefwd PhoneScript_GreetPhone_Male_Nite
 	readvar VAR_CALLERID
 	end
 

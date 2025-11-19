@@ -255,7 +255,7 @@
 	const SHADOW_BALL   ; $f7
 	const FUTURE_SIGHT  ; $f8
 	const BRICK_BREAK   ; $f9
-	const UNUSED_MOVE_25; $fa
+	const SACRED_SWORD  ; $fa
 	const DARK_PULSE    ; $fb
 	const MOONBLAST     ; $fc
 	const PLAY_ROUGH    ; $fd

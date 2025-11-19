@@ -2041,6 +2041,11 @@ BattleCommand_checkhit:
 	call GetBattleVar
 	bit SUBSTATUS_IDENTIFIED, a
 	jr nz, .avoid_evasion_boost
+	; Sacred Sword ignores evasion boosts
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	cp SACRED_SWORD
+	jr z, .avoid_evasion_boost
 	call GetTrueUserAbility
 	cp KEEN_EYE
 	jr z, .avoid_evasion_boost
@@ -4211,6 +4216,11 @@ ApplyDefStatBoostDamage:
 	jr c, .no_crit_negation
 	call CheckCrit
 	ret nz
+; Sacred Sword ignores Defense boosts
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	cp SACRED_SWORD
+	ret z
 .no_crit_negation
 	ld a, 14
 	sub b

@@ -249,7 +249,7 @@ MoveNames::
 	li "Shadow Ball"
 	li "Future Sight"
 	li "Brick Break"
-	li "UNUSED"
+	li "Sacred Sword"
 	li "Dark Pulse"
 	li "Moonblast"
 	li "Play Rough"

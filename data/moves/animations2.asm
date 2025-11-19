@@ -480,6 +480,7 @@ BattleAnim_FlameBurst:
 	anim_ret
 	
 BattleAnim_TailSlap:
+BattleAnim_SacredSword:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_HORN,   9, 0,   9, 0, $2

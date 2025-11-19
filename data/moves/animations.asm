@@ -1,5 +1,3 @@
-BattleAnim_Unused25:
-
 BattleAnim_PhantomForce:
 	anim_jumpif $1, .turn1
 	anim_jumpif $2, .miss

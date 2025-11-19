@@ -251,7 +251,7 @@ BattleAnimations::
 	dba BattleAnim_ShadowBall
 	dba BattleAnim_FutureSight
 	dba BattleAnim_BrickBreak
-	dba BattleAnim_Unused25
+	dba BattleAnim_SacredSword
 	dba BattleAnim_DarkPulse
 	dba BattleAnim_Moonblast
 	dba BattleAnim_PlayRough
