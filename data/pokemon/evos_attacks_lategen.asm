@@ -829,7 +829,7 @@ EvosAttacksPointersLateGen::
 	learnset 12, BULLDOZE
 	learnset 15, FLAME_CHARGE ; Incinerate → TM move
 	learnset 19, AMNESIA
-	;learnset 22, FLAME_BURST ; Lava Plume → pre Gen8 move
+	learnset 22, FLAME_BURST ; Lava Plume → pre Gen8 move
 	learnset 26, EARTH_POWER
 	learnset 29, CURSE
 	learnset 31, TAKE_DOWN
@@ -848,7 +848,7 @@ EvosAttacksPointersLateGen::
 	learnset 12, BULLDOZE
 	learnset 15, FLAME_CHARGE ; Incinerate → TM move
 	learnset 19, AMNESIA
-	;learnset 22, FLAME_BURST ; Lava Plume → pre Gen8 move
+	learnset 22, FLAME_BURST ; Lava Plume → pre Gen8 move
 	learnset 26, EARTH_POWER
 	learnset 29, CURSE
 	learnset 31, TAKE_DOWN
@@ -867,7 +867,7 @@ EvosAttacksPointersLateGen::
 	learnset 16, ANCIENTPOWER ; Clear Smog → egg move
 	learnset 20, FLAME_CHARGE ; Flame Wheel → TM move
 	learnset 24, PROTECT
-	;learnset 28, FLAME_BURST ; Lava Plume → egg move
+	learnset 28, FLAME_BURST ; Lava Plume → egg move
 	learnset 32, BODY_SLAM
 	learnset 36, BARRIER ; Iron Defense → similar move
 	learnset 40, FLAMETHROWER
@@ -2147,7 +2147,7 @@ EvosAttacksPointersLateGen::
 	learnset 20, CONFUSE_RAY
 	learnset 24, SCARY_FACE
 	learnset 28, FIRE_PUNCH
-	;learnset 34, FLAME_BURST ; Lava Plume → pre Gen8 move
+	learnset 34, FLAME_BURST ; Lava Plume → pre Gen8 move
 	learnset 40, LOW_KICK
 	learnset 46, FLAMETHROWER
 	learnset 52, SUNNY_DAY
@@ -2367,7 +2367,7 @@ EvosAttacksPointersLateGen::
 	learnset 14, FIRE_SPIN ; Incinerate → SwSh TM move
 	learnset 21, PSYSHOCK ; Stored Power → TM move
 	learnset 28, HEADBUTT
-	;learnset 35, FLAME_BURST ; Endure → pre Gen8 move
+	learnset 35, FLAME_BURST ; Endure → pre Gen8 move
 	learnset 42, ZEN_HEADBUTT
 	learnset 49, FLAMETHROWER ; Inferno → TM move
 	learnset 56, REVERSAL
@@ -2716,7 +2716,7 @@ EvosAttacksPointersLateGen::
 	learnset 13, FURY_STRIKES ; Fury Swipes → similar move
 	learnset 16, SUNNY_DAY ; Yawn → TM move
 	learnset 19, BITE
-	;learnset 22, FLAME_BURST
+	learnset 22, FLAME_BURST
 	learnset 25, AMNESIA
 	learnset 28, KNOCK_OFF ; Fling → Gen7 tutor move
 	learnset 31, ACROBATICS
@@ -2741,7 +2741,7 @@ EvosAttacksPointersLateGen::
 	learnset 1, LEER
 	learnset 1, LICK
 	learnset 1, FURY_STRIKES ; Fury Swipes → similar move
-	;learnset 1, FLAME_BURST
+	learnset 1, FLAME_BURST
 
 	evos_attacks Panpour
 	evo_data EVOLVE_ITEM, WATER_STONE, SIMIPOUR
@@ -4323,7 +4323,7 @@ EvosAttacksPointersLateGen::
 	learnset 12, CONFUSE_RAY
 	learnset 16, HEX
 	learnset 20, WILL_O_WISP
-	;learnset 24, FLAME_BURST ; Fire Spin → pre Gen8 move
+	learnset 24, FLAME_BURST ; Fire Spin → pre Gen8 move
 	learnset 28, NIGHT_SHADE
 	learnset 32, CURSE
 	learnset 36, SHADOW_BALL
@@ -4342,7 +4342,7 @@ EvosAttacksPointersLateGen::
 	learnset 12, CONFUSE_RAY
 	learnset 16, HEX
 	learnset 20, WILL_O_WISP
-	;learnset 24, FLAME_BURST ; Fire Spin → pre Gen8 move
+	learnset 24, FLAME_BURST ; Fire Spin → pre Gen8 move
 	learnset 28, NIGHT_SHADE
 	learnset 32, CURSE
 	learnset 36, SHADOW_BALL
@@ -4356,7 +4356,7 @@ EvosAttacksPointersLateGen::
 	learnset 1, CONFUSE_RAY
 	learnset 1, HEX
 	learnset 1, WILL_O_WISP
-	;learnset 1, FLAME_BURST ; Minimize → pre Gen8 move
+	learnset 1, FLAME_BURST ; Minimize → pre Gen8 move
 	learnset 1, NIGHT_SHADE
 	learnset 1, CURSE
 	learnset 1, SHADOW_BALL
@@ -4766,7 +4766,7 @@ EvosAttacksPointersLateGen::
 	learnset 20, WRAP ; Stockpile/Swallow/Spit Up → moved Bind from Lv30
 	learnset 25, SLASH
 	learnset 30, FIRE_SPIN ; Bind → moved Fire Spin from Lv50
-	;learnset 35, FLAME_BURST ; Fire Lash → pre Gen8 move
+	learnset 35, FLAME_BURST ; Fire Lash → pre Gen8 move
 	learnset 40, HONE_CLAWS
 	learnset 45, AMNESIA
 	learnset 50, FLAMETHROWER ; Fire Spin → pre Gen8 move

@@ -353,7 +353,7 @@ EvosAttacksPointersKanto::
 	learnset 12, CONFUSE_RAY ; Spite → moved Confuse Ray from Lv20
 	learnset 16, WILL_O_WISP ; Incinerate → moved Will-O-Wisp from Lv24
 	learnset 20, PAYBACK ; Confuse Ray → pre Gen8 move
-	;learnset 24, FLAME_BURST ; Will-O-Wisp → pre Gen8 move
+	learnset 24, FLAME_BURST ; Will-O-Wisp → pre Gen8 move
 	learnset 28, EXTRASENSORY
 	learnset 32, FLAMETHROWER
 	learnset 36, HYPNOSIS ; Imprison → egg move
@@ -373,7 +373,7 @@ EvosAttacksPointersKanto::
 	learnset 1, HYPNOSIS ; Imprison → egg move
 	learnset 1, EXTRASENSORY
 	learnset 1, NASTY_PLOT
-	;learnset 1, FLAME_BURST ; Incinerate → pre Gen8 move
+	learnset 1, FLAME_BURST ; Incinerate → pre Gen8 move
 	learnset 1, OVERHEAT ; Inferno → TM move
 	learnset 1, CONFUSE_RAY
 	learnset 1, FLAMETHROWER
@@ -601,7 +601,7 @@ EvosAttacksPointersKanto::
 	learnset 16, HEALINGLIGHT ; Helping Hand → egg move (Morning Sun)
 	learnset 20, AGILITY
 	learnset 24, FIRE_FANG
-	;learnset 28, FLAME_BURST ; Retaliate → pre Gen8 move
+	learnset 28, FLAME_BURST ; Retaliate → pre Gen8 move
 	learnset 32, CRUNCH
 	learnset 36, TAKE_DOWN
 	learnset 40, FLAMETHROWER
@@ -616,7 +616,7 @@ EvosAttacksPointersKanto::
 	learnset 1, HEALINGLIGHT ; Helping Hand → egg move (Morning Sun)
 	learnset 1, AGILITY
 	learnset 1, FIRE_FANG
-	;learnset 1, FLAME_BURST ; Retaliate → pre Gen8 move
+	learnset 1, FLAME_BURST ; Retaliate → pre Gen8 move
 	learnset 1, CRUNCH
 	learnset 1, TAKE_DOWN
 	learnset 1, ROAR
@@ -1254,7 +1254,7 @@ EvosAttacksPointersKanto::
 	learnset 20, CONFUSE_RAY
 	learnset 24, SCARY_FACE
 	learnset 28, FIRE_PUNCH
-	;learnset 34, FLAME_BURST ; Lava Plume → pre Gen8 move
+	learnset 34, FLAME_BURST ; Lava Plume → pre Gen8 move
 	learnset 40, LOW_KICK
 	learnset 46, FLAMETHROWER
 	learnset 52, SUNNY_DAY

@@ -845,7 +845,7 @@ EvosAttacksPointersJohto::
 	learnset 20, CONFUSE_RAY
 	learnset 24, SCARY_FACE
 	learnset 28, FIRE_PUNCH
-	;learnset 32, FLAME_BURST ; Lava Plume → pre Gen8 move
+	learnset 32, FLAME_BURST ; Lava Plume → pre Gen8 move
 	learnset 36, LOW_KICK
 	learnset 40, FLAMETHROWER
 	learnset 44, SUNNY_DAY

@@ -189,7 +189,7 @@ MoveNames::
 	li "Belly Drum"
 	li "Sludge Bomb"
 	li "Mud-Slap"
-	li "UNUSED"
+	li "Flame Burst"
 	li "Spikes"
 	li "Zap Cannon"
 	li "Foresight"

@@ -191,7 +191,7 @@ BattleAnimations::
 	dba BattleAnim_BellyDrum
 	dba BattleAnim_SludgeBomb
 	dba BattleAnim_MudSlap
-	dba BattleAnim_Unused22
+	dba BattleAnim_FlameBurst
 	dba BattleAnim_Spikes
 	dba BattleAnim_ZapCannon
 	dba BattleAnim_Foresight

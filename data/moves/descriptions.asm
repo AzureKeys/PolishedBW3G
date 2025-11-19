@@ -190,7 +190,7 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw Unused22Description
+	dw FlameBurstDescription
 	dw SpikesDescription
 	dw ZapCannonDescription
 	dw ForesightDescription
@@ -512,9 +512,9 @@ MudSlapDescription:
 	next "lowers accuracy."
 	done
 
-Unused22Description:
-	text "An attack that may"
-	next "lower accuracy."
+FlameBurstDescription:
+	text "An attack with a"
+	next "bursting flame."
 	done
 
 SonicboomDescription:
