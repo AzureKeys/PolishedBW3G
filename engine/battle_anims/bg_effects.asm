@@ -2704,7 +2704,7 @@ BGEffect_CheckMonVisible:
 	ld hl, wEnemySubStatus3
 .got_substatus
 	ld a, [hld]
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
 	ret nz
 	bit SUBSTATUS_FAINTED, [hl]
 	ret
