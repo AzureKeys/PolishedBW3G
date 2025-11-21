@@ -1,18 +1,24 @@
-	db  80,  80,  50,  25,  40,  50 ; 325 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  80,  80,  50,  25,  40,  50  ; 325 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db POISON, DARK ; type
-	db 190 ; catch rate
-	db 90 ; base exp
-	db BLACK_SLUDGE, NUGGET ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db POISON, DARK  ; type
+	db 190  ; catch rate
+	db 90  ; base exp
+	db BLACK_SLUDGE, NUGGET  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for GRIMER_ALOLAN, POISON_TOUCH, GLUTTONY, CORROSION
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE  ; egg groups
 
 	ev_yield 1 HP
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, TOXIC, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, GIGA_DRAIN, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, FLAMETHROWER, SLUDGE_BOMB, FIRE_BLAST, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, EXPLOSION, POISON_JAB, STONE_EDGE, STRENGTH, BODY_SLAM, ENDURE, FIRE_PUNCH, ICE_PUNCH, KNOCK_OFF, SLEEP_TALK, SWAGGER, THUNDERPUNCH
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

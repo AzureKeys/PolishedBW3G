@@ -1,23 +1,24 @@
-if DEF(FAITHFUL)
-	db  95,  65,  80,  30, 110, 110 ; 490 BST
-	;   hp  atk  def  spe  sat  sdf
-else
-	db  95,  65,  80,  30, 110, 120 ; 500 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
+	db  95,  65,  80,  30, 110, 110  ; 490 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db POISON, PSYCHIC ; type
-	db 70 ; catch rate
-	db 164 ; base exp
-	db NO_ITEM, KINGS_ROCK ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db POISON, PSYCHIC  ; type
+	db 70  ; catch rate
+	db 164  ; base exp
+	db NO_ITEM, KINGS_ROCK  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for SLOWKING_GALARIAN, GLUTTONY, OWN_TEMPO, REGENERATOR
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_MONSTER, EGG_WATER_1  ; egg groups
 
 	ev_yield 3 SDf
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HAIL, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, BULLDOZE, IRON_TAIL, EARTHQUAKE, RETURN, DIG, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, FLAMETHROWER, SLUDGE_BOMB, FIRE_BLAST, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, FOCUS_BLAST, SCALD, DRAIN_PUNCH, WATER_PULSE, POISON_JAB, AVALANCHE, GIGA_IMPACT, FLASH, THUNDER_WAVE, SURF, STRENGTH, WHIRLPOOL, WATERFALL, AQUA_TAIL, BODY_SLAM, COUNTER, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, ICE_PUNCH, ICY_WIND, SEISMIC_TOSS, SKILL_SWAP, SLEEP_TALK, SWAGGER, TRICK, TRICK_ROOM, ZAP_CANNON, ZEN_HEADBUTT
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

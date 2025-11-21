@@ -1,18 +1,24 @@
-	db  45,  50,  45,  95, 115,  55 ; 405 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  45,  50,  45,  95, 115,  55  ; 405 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db GHOST, POISON ; type
-	db 90 ; catch rate
-	db 126 ; base exp
-	db NO_ITEM, SPELL_TAG ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db GHOST, POISON  ; type
+	db 90  ; catch rate
+	db 126  ; base exp
+	db NO_ITEM, SPELL_TAG  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for HAUNTER, LEVITATE, LEVITATE, LEVITATE
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	db GROWTH_MEDIUM_SLOW  ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE  ; egg groups
 
 	ev_yield 2 SAt
 
-	; tm/hm learnset
-	tmhm CURSE, TOXIC, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, GIGA_DRAIN, THUNDERBOLT, THUNDER, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DAZZLINGLEAM, LEECH_LIFE, ENERGY_BALL, DARK_PULSE, WILL_O_WISP, EXPLOSION, SHADOW_CLAW, POISON_JAB, DREAM_EATER, ENDURE, FIRE_PUNCH, ICE_PUNCH, ICY_WIND, KNOCK_OFF, SKILL_SWAP, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, THUNDERPUNCH, TRICK, TRICK_ROOM, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

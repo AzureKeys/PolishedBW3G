@@ -1,18 +1,24 @@
-	db  60,  75,  85, 115, 100,  85 ; 520 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  60,  75,  85, 115, 100,  85  ; 520 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db WATER, PSYCHIC ; type
-	db 60 ; catch rate
-	db 207 ; base exp
-	db STARDUST, STAR_PIECE ; held items
-	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db WATER, PSYCHIC  ; type
+	db 60  ; catch rate
+	db 207  ; base exp
+	db STARDUST, STAR_PIECE  ; held items
+	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for STARMIE, ILLUMINATE, NATURAL_CURE, ANALYTIC
-	db GROWTH_SLOW ; growth rate
-	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
+	db GROWTH_SLOW  ; growth rate
+	dn EGG_WATER_3, EGG_WATER_3  ; egg groups
 
 	ev_yield 2 Spe
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, TOXIC, HAIL, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, SOLAR_BEAM, THUNDERBOLT, THUNDER, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, FLASH_CANNON, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, THIEF, DAZZLINGLEAM, FOCUS_BLAST, ENERGY_BALL, SCALD, WATER_PULSE, AVALANCHE, GIGA_IMPACT, FLASH, THUNDER_WAVE, GYRO_BALL, SURF, WHIRLPOOL, WATERFALL, AGILITY, DOUBLE_EDGE, DREAM_EATER, ENDURE, ICY_WIND, ROLLOUT, SKILL_SWAP, SLEEP_TALK, SWAGGER, TRICK, TRICK_ROOM, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

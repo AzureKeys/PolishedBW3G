@@ -1,19 +1,25 @@
-	db  58,  70,  45,  42,  40,  45 ; 310 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  58,  70,  45,  42,  40,  45  ; 310 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db DRAGON, GROUND ; type
-	db 45 ; catch rate
-	db 60 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
+	db DRAGON, GROUND  ; type
+	db 45  ; catch rate
+	db 60  ; base exp
+	db NO_ITEM, NO_ITEM  ; held items
+	dn GENDER_F50, HATCH_SLOWEST  ; gender ratio, step cycles to hatch
 
-	;abilities_for GIBLE, SAND_VEIL, SAND_VEIL, ROUGH_SKIN
+	 ;abilities_for GIBLE, SAND_VEIL, SAND_VEIL, ROUGH_SKIN
 	abilities_for GIBLE, SAND_VEIL, SAND_VEIL, SAND_VEIL
-	db GROWTH_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_DRAGON ; egg groups
+	db GROWTH_SLOW  ; growth rate
+	dn EGG_MONSTER, EGG_DRAGON  ; egg groups
 
 	ev_yield 1 Atk
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, IRON_TAIL, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DAZZLINGLEAM, ENERGY_BALL, DRAIN_PUNCH, FLASH, THUNDER_WAVE, BODY_SLAM, COUNTER, DOUBLE_EDGE, DREAM_EATER, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, KNOCK_OFF, SEISMIC_TOSS, SKILL_SWAP, SLEEP_TALK, SWAGGER, THUNDERPUNCH, TRICK, TRICK_ROOM, ZAP_CANNON, ZEN_HEADBUTT
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

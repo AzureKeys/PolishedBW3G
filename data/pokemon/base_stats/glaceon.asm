@@ -1,22 +1,24 @@
-	db  65,  60, 110,  65, 130,  95 ; 525 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  65,  60, 110,  65, 130,  95  ; 525 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db ICE, ICE ; type
-	db 45 ; catch rate
-	db 196 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
+	db ICE, ICE  ; type
+	db 45  ; catch rate
+	db 196  ; base exp
+	db NO_ITEM, NO_ITEM  ; held items
+	dn GENDER_F12_5, HATCH_SLOWER  ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for GLACEON, SNOW_CLOAK, SNOW_CLOAK, ICE_BODY
-else
-	abilities_for GLACEON, SNOW_CLOAK, SNOW_WARNING, ICE_BODY
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 2 SAt
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, ROAR, TOXIC, HAIL, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, IRON_TAIL, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, WATER_PULSE, AVALANCHE, GIGA_IMPACT, STRENGTH, AQUA_TAIL, BATON_PASS, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, HYPER_VOICE, ICY_WIND, SLEEP_TALK, SWAGGER
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

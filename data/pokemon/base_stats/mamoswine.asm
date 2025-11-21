@@ -1,18 +1,24 @@
-	db 110, 130,  80,  80,  70,  60 ; 530 BST
-	;   hp  atk  def  spe  sat  sdf
+	db 110, 130,  80,  80,  70,  60  ; 530 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db ICE, GROUND ; type
-	db 50 ; catch rate
-	db 207 ; base exp
-	db RAWST_BERRY, NEVERMELTICE ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db ICE, GROUND  ; type
+	db 50  ; catch rate
+	db 207  ; base exp
+	db RAWST_BERRY, NEVERMELTICE  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for MAMOSWINE, OBLIVIOUS, SNOW_CLOAK, THICK_FAT
-	db GROWTH_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_SLOW  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 3 Atk
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, ROAR, TOXIC, HAIL, HIDDEN_POWER, ICE_BEAM, BLIZZARD, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, BULLDOZE, EARTHQUAKE, RETURN, DIG, DOUBLE_TEAM, REFLECT, SANDSTORM, SUBSTITUTE, FACADE, REST, ATTRACT, ROCK_SLIDE, AVALANCHE, GIGA_IMPACT, STONE_EDGE, STRENGTH, BODY_SLAM, CHARM, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, ICY_WIND, IRON_HEAD, KNOCK_OFF, SLEEP_TALK, SWAGGER
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

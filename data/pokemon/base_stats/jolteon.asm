@@ -1,22 +1,24 @@
-	db  65,  65,  60, 130, 110,  95 ; 525 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  65,  65,  60, 130, 110,  95  ; 525 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
-	db 45 ; catch rate
-	db 197 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
+	db ELECTRIC, ELECTRIC  ; type
+	db 45  ; catch rate
+	db 197  ; base exp
+	db NO_ITEM, NO_ITEM  ; held items
+	dn GENDER_F12_5, HATCH_SLOWER  ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for JOLTEON, VOLT_ABSORB, VOLT_ABSORB, QUICK_FEET
-else
-	abilities_for JOLTEON, VOLT_ABSORB, STATIC, QUICK_FEET
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 2 Spe
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, WILD_CHARGE, GIGA_IMPACT, FLASH, VOLT_SWITCH, THUNDER_WAVE, STRENGTH, AGILITY, BATON_PASS, BODY_SLAM, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, HYPER_VOICE, SLEEP_TALK, SWAGGER, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

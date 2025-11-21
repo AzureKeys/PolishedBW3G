@@ -1,18 +1,24 @@
-	db  65,  70,  60, 115,  65,  65 ; 440 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  65,  70,  60, 115,  65,  65  ; 440 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
-	db 90 ; catch rate
-	db 148 ; base exp
-	db NO_ITEM, QUICK_CLAW ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db NORMAL, NORMAL  ; type
+	db 90  ; catch rate
+	db 148  ; base exp
+	db NO_ITEM, QUICK_CLAW  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for PERSIAN, LIMBER, TECHNICIAN, UNNERVE
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 2 Spe
 
-	; tm/hm learnset
-	tmhm CURSE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, HYPER_BEAM, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, FALSE_SWIPE, DARK_PULSE, WATER_PULSE, SHADOW_CLAW, GIGA_IMPACT, U_TURN, FLASH, CUT, AGILITY, BODY_SLAM, CHARM, DEFENSE_CURL, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, HYPER_VOICE, ICY_WIND, KNOCK_OFF, SEED_BOMB, SLEEP_TALK, SWAGGER, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

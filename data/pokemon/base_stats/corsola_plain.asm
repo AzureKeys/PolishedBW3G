@@ -1,18 +1,24 @@
-	db  65,  55,  95,  35,  65,  95 ; 410 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  65,  55,  95,  35,  65,  95  ; 410 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db WATER, ROCK ; type
-	db 60 ; catch rate
-	db 113 ; base exp
-	db NO_ITEM, HARD_STONE ; held items
-	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db WATER, ROCK  ; type
+	db 60  ; catch rate
+	db 113  ; base exp
+	db NO_ITEM, HARD_STONE  ; held items
+	dn GENDER_F75, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for CORSOLA, HUSTLE, NATURAL_CURE, REGENERATOR
-	db GROWTH_FAST ; growth rate
-	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
+	db GROWTH_FAST  ; growth rate
+	dn EGG_WATER_1, EGG_WATER_3  ; egg groups
 
 	ev_yield 1 Def, 1 SDf
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, TOXIC, HAIL, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, BULLDOZE, EARTHQUAKE, RETURN, DIG, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SANDSTORM, SUBSTITUTE, FACADE, REST, ATTRACT, ROCK_SLIDE, SCALD, WATER_PULSE, EXPLOSION, STONE_EDGE, SURF, STRENGTH, WHIRLPOOL, BODY_SLAM, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, ICY_WIND, ROLLOUT, SLEEP_TALK, SUCKER_PUNCH, SWAGGER
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

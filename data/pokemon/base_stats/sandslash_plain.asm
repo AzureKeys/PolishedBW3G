@@ -1,18 +1,24 @@
-	db  75, 100, 110,  65,  45,  55 ; 450 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  75, 100, 110,  65,  45,  55  ; 450 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db GROUND, GROUND ; type
-	db 90 ; catch rate
-	db 163 ; base exp
-	db NO_ITEM, QUICK_CLAW ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db GROUND, GROUND  ; type
+	db 90  ; catch rate
+	db 163  ; base exp
+	db NO_ITEM, QUICK_CLAW  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for SANDSLASH, SAND_VEIL, SAND_VEIL, SAND_RUSH
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 2 Def
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, HYPER_BEAM, PROTECT, SAFEGUARD, BULLDOZE, IRON_TAIL, EARTHQUAKE, RETURN, DIG, DOUBLE_TEAM, SANDSTORM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, FOCUS_BLAST, X_SCISSOR, SHADOW_CLAW, POISON_JAB, GIGA_IMPACT, STONE_EDGE, GYRO_BALL, SWORDS_DANCE, CUT, STRENGTH, AGILITY, BODY_SLAM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, KNOCK_OFF, ROLLOUT, SEISMIC_TOSS, SLEEP_TALK, SWAGGER
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

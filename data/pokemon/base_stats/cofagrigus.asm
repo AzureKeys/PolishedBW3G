@@ -1,19 +1,25 @@
-	db  58,  50, 145,  30,  95, 105 ; 310 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  58,  50, 145,  30,  95, 105  ; 310 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db GHOST, GHOST ; type
-	db 90 ; catch rate
-	db 169 ; base exp
-	db SPELL_TAG, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
+	db GHOST, GHOST  ; type
+	db 90  ; catch rate
+	db 169  ; base exp
+	db SPELL_TAG, NO_ITEM  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_SLOW  ; gender ratio, step cycles to hatch
 
 	abilities_for COFAGRIGUS, WONDER_SKIN, MAGIC_GUARD, TINTED_LENS
-	;abilities_for COFAGRIGUS, MUMMY, MUMMY, MUMMY
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_MINERAL, EGG_INDETERMINATE ; egg groups
+	 ;abilities_for COFAGRIGUS, MUMMY, MUMMY, MUMMY
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_MINERAL, EGG_INDETERMINATE  ; egg groups
 
 	ev_yield 2 Def
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, IRON_TAIL, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DAZZLINGLEAM, ENERGY_BALL, DRAIN_PUNCH, FLASH, THUNDER_WAVE, BODY_SLAM, COUNTER, DOUBLE_EDGE, DREAM_EATER, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, KNOCK_OFF, SEISMIC_TOSS, SKILL_SWAP, SLEEP_TALK, SWAGGER, THUNDERPUNCH, TRICK, TRICK_ROOM, ZAP_CANNON, ZEN_HEADBUTT
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

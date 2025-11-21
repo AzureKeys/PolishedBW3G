@@ -1,27 +1,32 @@
-if DEF(FAITHFUL)
-	db  60,  90,  55, 110,  90,  80 ; 485 BST
-	;   hp  atk  def  spe  sat  sdf
-else
-	db  60, 100,  55, 121, 100,  80 ; 516 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
+	db  60,  90,  55, 110,  90,  80  ; 485 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
-	db 75 ; catch rate
-if DEF(FAITHFUL)
-	db 122 ; base exp
-else
-	db 179 ; base exp
-endc
-	db ORAN_BERRY, LIGHT_BALL ; held items
-	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
+	db ELECTRIC, ELECTRIC  ; type
+	db 75  ; catch rate
+	db 122  ; base exp
+	db ORAN_BERRY, LIGHT_BALL  ; held items
+	dn GENDER_F50, HATCH_FASTER  ; gender ratio, step cycles to hatch
 
 	abilities_for RAICHU, STATIC, STATIC, LIGHTNING_ROD
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_FAIRY ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_FAIRY  ; egg groups
 
 	ev_yield 3 Spe
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, DOUBLE_TEAM, REFLECT, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, FOCUS_BLAST, WILD_CHARGE, GIGA_IMPACT, FLASH, VOLT_SWITCH, THUNDER_WAVE, STRENGTH, AGILITY, BODY_SLAM, CHARM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, HEADBUTT, KNOCK_OFF, ROLLOUT, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm CALM_MIND,    \ ;1
+	     HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   HYPER_BEAM,   \ ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   SAFEGUARD,    \ ;4
+		 IRON_TAIL,    THUNDERBOLT,  THUNDER,      \ ;5
+	     RETURN,       DIG,          \ ;6
+	     BRICK_BREAK,  DOUBLE_TEAM,  REFLECT,      \ ;7
+		 SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        \ ;10
+		 FOCUS_BLAST,  \ ;11
+		 WILD_CHARGE,  \ ;12
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
+		 SURF,         STRENGTH
+	 ; end

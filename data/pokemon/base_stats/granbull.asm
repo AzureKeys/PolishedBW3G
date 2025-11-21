@@ -1,18 +1,24 @@
-	db  90, 120,  75,  45,  60,  60 ; 450 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  90, 120,  75,  45,  60,  60  ; 450 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db FAIRY, FAIRY ; type
-	db 75 ; catch rate
-	db 178 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db FAIRY, FAIRY  ; type
+	db 75  ; catch rate
+	db 178  ; base exp
+	db NO_ITEM, NO_ITEM  ; held items
+	dn GENDER_F75, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for GRANBULL, INTIMIDATE, QUICK_FEET, RATTLED
-	db GROWTH_FAST ; growth rate
-	dn EGG_GROUND, EGG_FAIRY ; egg groups
+	db GROWTH_FAST  ; growth rate
+	dn EGG_GROUND, EGG_FAIRY  ; egg groups
 
 	ev_yield 2 Atk
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, ROAR, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, RAIN_DANCE, BULLDOZE, SOLAR_BEAM, IRON_TAIL, THUNDERBOLT, THUNDER, EARTHQUAKE, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, REFLECT, FLAMETHROWER, SLUDGE_BOMB, FIRE_BLAST, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, DAZZLINGLEAM, FOCUS_BLAST, WILD_CHARGE, WATER_PULSE, GIGA_IMPACT, STONE_EDGE, THUNDER_WAVE, STRENGTH, BODY_SLAM, CHARM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, FIRE_PUNCH, HEADBUTT, HYPER_VOICE, ICE_PUNCH, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

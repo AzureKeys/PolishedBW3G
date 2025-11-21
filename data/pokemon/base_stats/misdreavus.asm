@@ -1,18 +1,24 @@
-	db  60,  60,  60,  85,  85,  85 ; 435 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  60,  60,  60,  85,  85,  85  ; 435 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db GHOST, GHOST ; type
-	db 45 ; catch rate
-	db 147 ; base exp
-	db NO_ITEM, SPELL_TAG ; held items
-	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
+	db GHOST, GHOST  ; type
+	db 45  ; catch rate
+	db 147  ; base exp
+	db NO_ITEM, SPELL_TAG  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_SLOW  ; gender ratio, step cycles to hatch
 
 	abilities_for MISDREAVUS, LEVITATE, LEVITATE, LEVITATE
-	db GROWTH_FAST ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	db GROWTH_FAST  ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE  ; egg groups
 
 	ev_yield 1 SDf
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, THUNDERBOLT, THUNDER, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, FLAMETHROWER, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DAZZLINGLEAM, DARK_PULSE, WILL_O_WISP, FLASH, THUNDER_WAVE, CHARM, DEFENSE_CURL, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, HYPER_VOICE, ICY_WIND, SKILL_SWAP, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, TRICK, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

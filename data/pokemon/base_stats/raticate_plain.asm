@@ -1,23 +1,36 @@
 if DEF(FAITHFUL)
-	db  55,  81,  60,  97,  50,  70 ; 413 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  55,  81,  60,  97,  50,  70  ; 413 BST
+	 ;   hp  atk  def  spe  sat  sdf
 else
-	db  65,  91,  60, 107,  50,  70 ; 443 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  65,  91,  60, 107,  50,  70  ; 443 BST
+	 ;   hp  atk  def  spe  sat  sdf
 endc
 
-	db NORMAL, NORMAL ; type
-	db 90 ; catch rate
-	db 116 ; base exp
-	db NO_ITEM, LANSAT_BERRY ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	db NORMAL, NORMAL  ; type
+	db 90  ; catch rate
+	db 116  ; base exp
+	db NO_ITEM, LANSAT_BERRY  ; held items
+	dn GENDER_F50, HATCH_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for RATICATE, RUN_AWAY, GUTS, HUSTLE
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 2 Spe
 
-	; tm/hm learnset
-	tmhm CURSE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, WILD_CHARGE, GIGA_IMPACT, U_TURN, THUNDER_WAVE, SWORDS_DANCE, CUT, STRENGTH, BODY_SLAM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, HEADBUTT, ICY_WIND, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, ZEN_HEADBUTT
-	; end
+	 ; tm/hm learnset
+	tmhm ROAR,         \
+	     HIDDEN_POWER, \
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     PROTECT,      RAIN_DANCE,   \
+		 IRON_TAIL,    THUNDERBOLT,  THUNDER,      \
+	     RETURN,       DIG,          SHADOW_BALL,  \
+	     DOUBLE_TEAM,  \
+		 SWIFT,        \
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \
+		 THIEF,        \
+		 WILD_CHARGE,  \
+	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \
+		 THUNDER_WAVE, SWORDS_DANCE, \
+		 CUT,          STRENGTH
+	 ; end

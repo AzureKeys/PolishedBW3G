@@ -72,29 +72,23 @@ EvosAttacksPointersVariants::
 .IndirectEnd::
 
 	evos_attacks DudunsparceThreeSegment
+	learnset 1, REVERSAL ; Flail → similar move
 	learnset 1, DEFENSE_CURL
-	learnset 3, ROLLOUT
-	learnset 8, PURSUIT
-	learnset 11, SCREECH
-	learnset 13, MUD_SLAP
-	learnset 16, FURY_STRIKES ; Yawn → event move (Fury Attack)
-	learnset 18, ANCIENTPOWER
-	learnset 21, BODY_SLAM
-	learnset 23, DRAGON_RAGE ; Drill Run → new move
-	learnset 26, ROOST
-	learnset 28, TAKE_DOWN
-	learnset 31, DRAGON_DANCE ; Coil → new move
-	learnset 33, DIG
-	learnset 36, GLARE
-	learnset 38, DOUBLE_EDGE
-	learnset 41, EARTHQUAKE ; Endeavor → TM move
-	learnset 43, AIR_SLASH
-	learnset 46, HEX ; Dragon Rush → egg move
-	learnset 48, ENDURE
-	learnset 51, REVERSAL ; Flail → similar move
-	learnset 53, HURRICANE
-	learnset 56, HYPER_VOICE ; Boomburst → similar move
-	learnset 58, OUTRAGE ; new move
+	learnset 4, MUD_SLAP
+	learnset 8, ROLLOUT
+	learnset 12, GLARE
+	learnset 16, SCREECH
+	learnset 20, ANCIENTPOWER
+	learnset 24, DIG ; Drill Run → pre Gen8 move
+	learnset 28, BODY_SLAM ; Yawn → pre Gen8 move
+	learnset 32, EARTHQUAKE ; Hyper Drill → TM move
+	learnset 36, ROOST
+	learnset 40, DRAGON_RUSH
+	learnset 44, DRAGON_DANCE ; Coil → similar move
+	learnset 48, DOUBLE_EDGE
+	learnset 52, AIR_SLASH ; Endeavor → pre Gen8 move
+	learnset 56, HURRICANE
+	learnset 62, HYPER_VOICE ; Boomburst → similar move
 
 	evos_attacks RattataAlolan
 	evo_data EVOLVE_LEVEL, 20, RATICATE, ALOLAN_FORM
@@ -787,254 +781,232 @@ EvosAttacksPointersVariants::
 	; learnset 80, HURRICANE
 	
 	evos_attacks CastformAlt
-	learnset 1, POWER_GEM
-	learnset 1, SHADOW_BALL ; Phantom Force → TM move
-	learnset 1, FLAMETHROWER ; Mystical Fire → TM move
-	learnset 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
-	learnset 1, GROWL
-	learnset 1, DISARM_VOICE ; new move
-	learnset 1, CONFUSION ; Spite → new move
+	learnset 1, TACKLE
+	learnset 10, WATER_GUN
+	learnset 10, EMBER
+	learnset 10, ICE_SHARD ; Powder Snow → new move
+	learnset 15, HEADBUTT
+	learnset 20, RAIN_DANCE
+	learnset 20, SUNNY_DAY
+	learnset 20, HAIL
+	learnset 25, WEATHER_BALL
+	learnset 35, HYDRO_PUMP
+	learnset 35, FIRE_BLAST
+	learnset 35, BLIZZARD
+	learnset 45, HURRICANE
 	
 	evos_attacks CombeeMale
-	learnset 1, ABSORB
-	learnset 4, GROWTH
-	learnset 7, POISON_STING
-	learnset 10, STUN_SPORE
-	learnset 13, MEGA_DRAIN
-	learnset 16, LEECH_SEED
-	;learnset 19, MAGICAL_LEAF
-	learnset 22, SING ; GrassWhistle
-	learnset 25, GIGA_DRAIN
-	learnset 28, TOXIC_SPIKES
-	;learnset 31, SWEET_SCENT
-	learnset 34, VENOSHOCK ; Ingrain
-	;learnset 37, PETAL_BLIZZARD
-	learnset 40, TOXIC
-	; Skipped Aromatherapy
-	learnset 43, HEALINGLIGHT ; Synthesis
-	learnset 46, PETAL_DANCE
+	learnset 1, STRING_SHOT ; Sweet Scent → HGSS tutor move
+	learnset 1, GUST
+	learnset 1, BUG_BITE
+	learnset 29, BUG_BUZZ ; Struggle Bug → pre Gen8 move
 	
 	evos_attacks UnfezantFemale
 	learnset 1, GUST
 	learnset 1, GROWL
 	learnset 1, LEER
 	learnset 1, QUICK_ATTACK
-	learnset 4, GROWL
-	learnset 8, LEER
-	learnset 11, QUICK_ATTACK
-	;learnset 15, AIR_CUTTER
-	learnset 18, ROOST
-	learnset 23, PROTECT ; Detect
-	learnset 27, THIEF ; Taunt
-	learnset 32, AIR_SLASH
-	learnset 38, DRILL_PECK ; Razor Wind
-	learnset 44, CHARM ; FeatherDance
-	learnset 49, SWAGGER
-	learnset 55, FACADE
-	; Skipped Tailwind
-	learnset 60, BRAVE_BIRD ; Sky Attack
+	learnset 12, PROTECT ; Taunt → moved Detect from Lv34
+	learnset 16, AERIAL_ACE ; Air Cutter → TM move
+	learnset 20, SWAGGER
+	learnset 26, CHARM ; FeatherDance → similar move
+	learnset 36, AIR_SLASH ; Detect → moved Air Slash from Lv38
+	learnset 42, DRILL_PECK ; Air Slash → new move
+	learnset 50, ROOST
+	learnset 58, FACADE ; Tailwind → pre Gen8 move
+	learnset 66, BRAVE_BIRD ; Sky Attack → SwSh TR move
 
 	evos_attacks BasculinNonWhite
-	learnset 1, TACKLE
-	learnset 1, LEER
 	learnset 1, WATER_GUN
-	learnset 5, HEADBUTT
-	learnset 7, BITE
-	learnset 9, AQUA_JET
-	learnset 14, TAKE_DOWN
-	learnset 17, CRUNCH
-	learnset 20, AQUA_TAIL
-	learnset 23, RAIN_DANCE ; Soak
-	learnset 26, DOUBLE_EDGE
-	learnset 30, SCARY_FACE
-	learnset 34, REVERSAL ; Flail
-	;learnset 38, FINAL_GAMBIT
-	learnset 42, THRASH
-	learnset 46, ZEN_HEADBUTT ; Head Smash
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 4, TACKLE
+	learnset 8, REVERSAL ; Flail → similar move
+	learnset 12, AQUA_JET
+	learnset 16, BITE
+	learnset 20, SCARY_FACE
+	learnset 24, HEADBUTT
+	learnset 28, AGILITY ; Soak → egg move
+	learnset 32, CRUNCH
+	learnset 36, TAKE_DOWN
+	learnset 40, ZEN_HEADBUTT ; Final Gambit → LA move
+	learnset 44, AQUA_TAIL ; Wave Crash → pre Gen9 move
+	learnset 48, THRASH
+	learnset 52, DOUBLE_EDGE
+	learnset 56, HEAD_SMASH
 	
 	evos_attacks DarmanitanZen
-	learnset 1, HAMMER_ARM
+	learnset 1, EMBER
 	learnset 1, TACKLE
-	learnset 1, ROLLOUT
-	learnset 1, EMBER ; Incinerate
-	learnset 3, ROLLOUT
-	learnset 6, EMBER ; Incinerate
-	;learnset 11, FIRE_FANG
-	learnset 14, HEADBUTT
-	learnset 17, HYPER_VOICE ; Uproar
-	learnset 19, FACADE
-	learnset 22, FIRE_PUNCH
-	learnset 25, BULK_UP ; Work Up
-	learnset 27, THRASH
-	learnset 30, BELLY_DRUM
-	learnset 33, FLARE_BLITZ
-	learnset 34, HAMMER_ARM
-	learnset 39, SWAGGER ; Taunt
-	;learnset 54, OVERHEAT
+	learnset 1, SWAGGER ; Taunt → pre Gen8 move
+	learnset 1, BITE
+	learnset 12, FIRE_SPIN ; Incinerate → SwSh TM move
+	learnset 16, BULK_UP ; Work Up → TM move
+	learnset 20, FIRE_FANG
+	learnset 24, HEADBUTT
+	learnset 28, FIRE_PUNCH
+	learnset 32, FACADE ; Uproar → pre Gen8 move
+	learnset 34, HAMMER_ARM ; evolution move
+	learnset 38, BELLY_DRUM
+	learnset 44, FLARE_BLITZ
+	learnset 50, THRASH
+	learnset 56, REVERSAL ; Superpower → SwSh TR move
 	
 	evos_attacks DeerlingAlt
 	evo_data EVOLVE_LEVEL, 34, SAWSBUCK, NO_FORM ; preserve pre-evo form
 	learnset 1, TACKLE
 	learnset 4, GROWL
-	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 7, MUD_SLAP ; Sand Attack → similar move
 	learnset 10, DOUBLE_KICK
 	learnset 13, LEECH_SEED
-	learnset 16, FEINT_ATTACK
+	learnset 16, FEINT_ATTACK ; Bullet Seed → pre Gen8 move
 	learnset 20, TAKE_DOWN
-	learnset 24, HI_JUMP_KICK ; Jump Kick
-	learnset 28, HEALINGLIGHT ; Aromatherapy
-	learnset 32, ENERGY_BALL
-	learnset 36, CHARM
-	;learnset 41, NATURE_POWER
-	learnset 46, DOUBLE_EDGE
-	learnset 51, SOLAR_BEAM
+	learnset 24, ZEN_HEADBUTT
+	learnset 28, ENERGY_BALL
+	learnset 32, CHARM
+	learnset 37, DOUBLE_EDGE
+	learnset 42, SOLAR_BEAM
+	learnset 47, HI_JUMP_KICK ; added pre Gen8 move (Jump Kick)
 	
 	evos_attacks SawsbuckAlt
 	learnset 1, MEGAHORN
 	learnset 1, TACKLE
 	learnset 1, GROWL
-	learnset 1, MUD_SLAP ; Sand-Attack
-	learnset 1, DOUBLE_KICK
-	learnset 4, GROWL
-	learnset 7, MUD_SLAP ; Sand-Attack
+	learnset 1, MUD_SLAP ; Sand Attack → similar move
 	learnset 10, DOUBLE_KICK
 	learnset 13, LEECH_SEED
-	learnset 16, FEINT_ATTACK
+	learnset 16, FEINT_ATTACK ; Bullet Seed → pre Gen8 move
 	learnset 20, TAKE_DOWN
-	learnset 24, HI_JUMP_KICK ; Jump Kick
-	learnset 28, HEALINGLIGHT ; Aromatherapy
-	learnset 32, ENERGY_BALL
-	learnset 33, MEGAHORN ; Horn Leech
+	learnset 24, ZEN_HEADBUTT
+	learnset 28, ENERGY_BALL
+	learnset 33, LEAF_BLADE ; evolution move (Horn Leech → new move)
 	learnset 36, CHARM
-	;learnset 44, NATURE_POWER
-	learnset 52, DOUBLE_EDGE
-	learnset 60, SOLAR_BEAM
+	learnset 44, DOUBLE_EDGE
+	learnset 52, SOLAR_BEAM
+	learnset 60, HI_JUMP_KICK ; added pre Gen8 move (Jump Kick)
 	
 	evos_attacks FrillishFemale
 	evo_data EVOLVE_LEVEL, 40, JELLICENT, NO_FORM ; preserve pre-evo form
-	learnset 1, WATER_GUN ; Bubble
-	learnset 5, ABSORB
-	learnset 9, NIGHT_SHADE
-	learnset 13, BUBBLE_BEAM
-	learnset 17, RECOVER
-	learnset 22, WATER_PULSE
-	learnset 27, HEX ; Ominous Wind
-	learnset 32, SCALD ; Brine
-	learnset 37, RAIN_DANCE
-	learnset 43, SHADOW_BALL ; Hex
-	learnset 49, HYDRO_PUMP
-	learnset 55, GIGA_DRAIN ; Wring Out
+	learnset 1, ABSORB
+	learnset 1, WATER_GUN
+	learnset 4, POISON_STING
+	learnset 8, NIGHT_SHADE
+	learnset 12, WATER_PULSE
+	learnset 16, RAIN_DANCE
+	learnset 20, HEX
+	learnset 24, BRINE
+	learnset 28, RECOVER
+	learnset 32, SHADOW_BALL
+	learnset 36, SCALD ; Whirlpool → TM move
+	learnset 41, HYDRO_PUMP
+	learnset 44, DESTINY_BOND
+	learnset 48, GIGA_DRAIN ; Water Spout → TM move
 	
 	evos_attacks JellicentFemale
-	learnset 1, GIGA_DRAIN ; Wring Out
-	learnset 1, WATER_GUN ; Bubble
+	learnset 1, BARRIER ; Acid Armor → similar move
 	learnset 1, ABSORB
+	learnset 1, WATER_GUN
+	learnset 1, POISON_STING
 	learnset 1, NIGHT_SHADE
-	learnset 5, ABSORB
-	learnset 9, NIGHT_SHADE
-	learnset 13, BUBBLE_BEAM
-	learnset 17, RECOVER
-	learnset 22, WATER_PULSE
-	learnset 27, HEX ; Ominous Wind
-	learnset 32, SCALD ; Brine
-	learnset 37, RAIN_DANCE
-	learnset 45, SHADOW_BALL ; Hex
-	learnset 53, HYDRO_PUMP
-	learnset 61, GIGA_DRAIN ; Wring Out
+	learnset 12, WATER_PULSE
+	learnset 16, RAIN_DANCE
+	learnset 20, HEX
+	learnset 24, BRINE
+	learnset 28, RECOVER
+	learnset 32, SHADOW_BALL
+	learnset 36, SCALD ; Whirlpool → TM move
+	learnset 43, HYDRO_PUMP
+	learnset 48, DESTINY_BOND
+	learnset 54, GIGA_DRAIN ; Water Spout → TM move
 	
 	evos_attacks TornadusTherian
-	learnset 1, QUICK_ATTACK
-	learnset 1, METAL_CLAW
-	learnset 1, SCREECH
-	;learnset 7, FURY_CUTTER
-	;learnset 11, LOCK_ON
-	;learnset 18, FLAME_WHEEL
-	learnset 22, ROAR ; Magnet Bomb
-	learnset 29, SLASH
-	learnset 33, BODY_SLAM ; Metal Sound
-	;learnset 40, SIGNAL_BEAM
-	learnset 44, TRI_ATTACK
-	learnset 51, X_SCISSOR
-	learnset 55, BUG_BUZZ
-	learnset 62, SCARY_FACE ; Simple Beam
-	learnset 66, ZAP_CANNON
-	learnset 73, HYPER_BEAM
-	learnset 77, EXPLOSION ; SelfDestruct
+	learnset 1, QUICK_ATTACK ; Astonish → new move
+	learnset 1, GUST
+	learnset 5, LEER
+	learnset 10, SWAGGER
+	learnset 15, BITE
+	learnset 20, ACROBATICS ; Air Cutter → TM move
+	learnset 25, AGILITY
+	learnset 30, REVENGE ; Tailwind → pre Gen8 move
+	learnset 35, AIR_SLASH
+	learnset 40, CRUNCH
+	learnset 45, EXTRASENSORY
+	learnset 50, DARK_PULSE ; Uproar → pre Gen8 move
+	learnset 55, HAMMER_ARM
+	learnset 60, RAIN_DANCE
+	learnset 65, HURRICANE
+	learnset 70, THRASH
+	learnset 75, ROOST ; Bleakwind Storm → new move
 	
 	evos_attacks ThundurusTherian
-	learnset 1, QUICK_ATTACK
-	learnset 1, METAL_CLAW
-	learnset 1, SCREECH
-	;learnset 7, FURY_CUTTER
-	;learnset 11, LOCK_ON
-	;learnset 18, FLAME_WHEEL
-	learnset 22, ROAR ; Magnet Bomb
-	learnset 29, SLASH
-	learnset 33, BODY_SLAM ; Metal Sound
-	;learnset 40, SIGNAL_BEAM
-	learnset 44, TRI_ATTACK
-	learnset 51, X_SCISSOR
-	learnset 55, BUG_BUZZ
-	learnset 62, SCARY_FACE ; Simple Beam
-	learnset 66, ZAP_CANNON
-	learnset 73, HYPER_BEAM
-	learnset 77, EXPLOSION ; SelfDestruct
+	learnset 1, QUICK_ATTACK ; Astonish → new move
+	learnset 1, THUNDERSHOCK
+	learnset 5, LEER
+	learnset 10, SWAGGER
+	learnset 15, BITE
+	learnset 20, SHOCK_WAVE
+	learnset 25, AGILITY
+	learnset 30, REVENGE ; Charge → pre Gen8 move
+	learnset 35, VOLT_SWITCH
+	learnset 40, CRUNCH
+	learnset 45, THUNDERBOLT ; Discharge → TM move
+	learnset 50, DARK_PULSE ; Uproar → pre Gen8 move
+	learnset 55, HAMMER_ARM
+	learnset 60, RAIN_DANCE
+	learnset 65, THUNDER
+	learnset 70, THRASH
+	learnset 75, NASTY_PLOT ; Wildbolt Storm → pre Gen8 move
 	
 	evos_attacks LandorusTherian
-	learnset 1, QUICK_ATTACK
-	learnset 1, METAL_CLAW
-	learnset 1, SCREECH
-	;learnset 7, FURY_CUTTER
-	;learnset 11, LOCK_ON
-	;learnset 18, FLAME_WHEEL
-	learnset 22, ROAR ; Magnet Bomb
-	learnset 29, SLASH
-	learnset 33, BODY_SLAM ; Metal Sound
-	;learnset 40, SIGNAL_BEAM
-	learnset 44, TRI_ATTACK
-	learnset 51, X_SCISSOR
-	learnset 55, BUG_BUZZ
-	learnset 62, SCARY_FACE ; Simple Beam
-	learnset 66, ZAP_CANNON
-	learnset 73, HYPER_BEAM
-	learnset 77, EXPLOSION ; SelfDestruct
+	learnset 1, MUD_SHOT ; Sand Tomb → pre Gen8 move
+	learnset 1, ROCK_THROW ; Smack Down → pre Gen8 move
+	learnset 5, LEER
+	learnset 10, MEAN_LOOK ; Block → similar move
+	learnset 15, BULLDOZE
+	learnset 20, ROCK_BLAST ; Rock Tomb → new move
+	learnset 30, PAYBACK ; Imprison → TM move
+	learnset 35, ROCK_SLIDE
+	learnset 40, EARTH_POWER
+	learnset 45, EXTRASENSORY
+	learnset 50, STONE_EDGE
+	learnset 55, HAMMER_ARM
+	learnset 60, SANDSTORM
+	learnset 65, EARTHQUAKE
+	learnset 70, OUTRAGE
+	learnset 75, IRON_TAIL ; Fissure → SwSh TR move
+	learnset 80, SWORDS_DANCE ; Sandsear Storm → pre Gen9 move
 	
 	evos_attacks KyuremAlt
-	learnset 1, QUICK_ATTACK
-	learnset 1, METAL_CLAW
-	learnset 1, SCREECH
-	;learnset 7, FURY_CUTTER
-	;learnset 11, LOCK_ON
-	;learnset 18, FLAME_WHEEL
-	learnset 22, ROAR ; Magnet Bomb
-	learnset 29, SLASH
-	learnset 33, BODY_SLAM ; Metal Sound
-	;learnset 40, SIGNAL_BEAM
-	learnset 44, TRI_ATTACK
-	learnset 51, X_SCISSOR
-	learnset 55, BUG_BUZZ
-	learnset 62, SCARY_FACE ; Simple Beam
-	learnset 66, ZAP_CANNON
-	learnset 73, HYPER_BEAM
-	learnset 77, EXPLOSION ; SelfDestruct
+	learnset 1, DRAGONBREATH
+	learnset 1, DRAGON_RAGE ; Noble Roar → pre Gen8 move
+	learnset 1, ANCIENTPOWER
+	learnset 1, ICE_FANG ; Freeze-Dry → SV TM move
+	learnset 8, SLASH
+	learnset 16, ICY_WIND ; Endeavor → pre Gen8 move
+	learnset 24, DRAGON_PULSE
+	learnset 32, ICE_BEAM
+	learnset 40, HYPER_VOICE
+	learnset 48, SCARY_FACE
+	learnset 56, BLIZZARD
+	learnset 64, DRAGON_DANCE ; Imprison → SV TM move
+	learnset 72, OUTRAGE
+	learnset 80, DRAGON_RUSH ; Glaciate → new move
+	learnset 88, HYPER_BEAM ; Sheer Cold → TM move
 	
 	evos_attacks MeloettaPirouette
+	learnset 1, SWIFT ; Round → SV TM move
 	learnset 1, QUICK_ATTACK
-	learnset 1, METAL_CLAW
-	learnset 1, SCREECH
-	;learnset 7, FURY_CUTTER
-	;learnset 11, LOCK_ON
-	;learnset 18, FLAME_WHEEL
-	learnset 22, ROAR ; Magnet Bomb
-	learnset 29, SLASH
-	learnset 33, BODY_SLAM ; Metal Sound
-	;learnset 40, SIGNAL_BEAM
-	learnset 44, TRI_ATTACK
-	learnset 51, X_SCISSOR
-	learnset 55, BUG_BUZZ
-	learnset 62, SCARY_FACE ; Simple Beam
-	learnset 66, ZAP_CANNON
-	learnset 73, HYPER_BEAM
-	learnset 77, EXPLOSION ; SelfDestruct
+	learnset 1, CONFUSION
+	learnset 1, SING
+	learnset 21, CONFUSE_RAY ; Teeter Dance → similar move
+	learnset 26, ACROBATICS
+	learnset 31, PSYBEAM
+	learnset 36, TRI_ATTACK ; Echoed Voice → new move
+	learnset 43, U_TURN
+	learnset 50, DRAIN_PUNCH ; Relic Song → SV TM move
+	learnset 57, PSYCHIC_M
+	learnset 64, HYPER_VOICE
+	learnset 71, SKILL_SWAP ; Role Play → SV TM move
+	learnset 78, CLOSE_COMBAT
+	learnset 85, PERISH_SONG
 
 	end_evos_attacks

@@ -1,22 +1,24 @@
-	db  60,  65,  60, 110, 130,  75 ; 500 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  60,  65,  60, 110, 130,  75  ; 500 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db GHOST, POISON ; type
-	db 45 ; catch rate
-	db 190 ; base exp
-	db NO_ITEM, SPELL_TAG ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db GHOST, POISON  ; type
+	db 45  ; catch rate
+	db 190  ; base exp
+	db NO_ITEM, SPELL_TAG  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for GENGAR, CURSED_BODY, CURSED_BODY, SHADOW_TAG
-else
-	abilities_for GENGAR, CURSED_BODY, LEVITATE, SHADOW_TAG
-endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	db GROWTH_MEDIUM_SLOW  ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE  ; egg groups
 
 	ev_yield 3 SAt
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, TOXIC, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, RAIN_DANCE, GIGA_DRAIN, THUNDERBOLT, THUNDER, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DAZZLINGLEAM, LEECH_LIFE, FOCUS_BLAST, ENERGY_BALL, DARK_PULSE, DRAIN_PUNCH, WILL_O_WISP, EXPLOSION, SHADOW_CLAW, POISON_JAB, GIGA_IMPACT, STRENGTH, BODY_SLAM, COUNTER, DOUBLE_EDGE, DREAM_EATER, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, ICY_WIND, KNOCK_OFF, SEISMIC_TOSS, SKILL_SWAP, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, THUNDERPUNCH, TRICK, TRICK_ROOM, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

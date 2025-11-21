@@ -2287,7 +2287,7 @@ EvosAttacksPointersLateGen::
 
 	evos_attacks Gallade
 	learnset 1, NIGHT_SLASH
-	;learnset 1, SACRED_SWORD
+	learnset 1, SACRED_SWORD
 	learnset 1, LEAF_BLADE
 	learnset 1, GROWL
 	learnset 1, DISARM_VOICE
@@ -2313,7 +2313,7 @@ EvosAttacksPointersLateGen::
 	learnset 35, SWORDS_DANCE
 	learnset 42, ZEN_HEADBUTT ; Psycho Cut → SV TM move
 	learnset 49, NIGHT_SLASH ; Heal Pulse → Lv1 move
-	;learnset 56, SACRED_SWORD ; Wide Guard/Quick Guard → Lv1 move
+	learnset 56, SACRED_SWORD ; Wide Guard/Quick Guard → Lv1 move
 	learnset 63, CLOSE_COMBAT
 
 	evos_attacks Probopass
@@ -2503,7 +2503,7 @@ EvosAttacksPointersLateGen::
 	learnset 29, AQUA_JET
 	learnset 31, ENCORE
 	learnset 35, AQUA_TAIL
-	;learnset 37, SACRED_SWORD ; Retaliate → egg move
+	learnset 37, SACRED_SWORD ; Retaliate → egg move
 	learnset 41, SWORDS_DANCE
 	learnset 43, HYDRO_PUMP
 	
@@ -2521,7 +2521,7 @@ EvosAttacksPointersLateGen::
 	learnset 34, AQUA_JET
 	learnset 37, ENCORE
 	learnset 42, AQUA_TAIL
-	;learnset 45, SACRED_SWORD ; Retaliate → egg move
+	learnset 45, SACRED_SWORD ; Retaliate → egg move
 	learnset 50, SWORDS_DANCE
 	learnset 53, HYDRO_PUMP
 	
@@ -2540,7 +2540,7 @@ EvosAttacksPointersLateGen::
 	learnset 36, SLASH ; evolution move
 	learnset 39, ENCORE
 	learnset 46, AQUA_TAIL
-	;learnset 51, SACRED_SWORD ; Retaliate → egg move
+	learnset 51, SACRED_SWORD ; Retaliate → egg move
 	learnset 58, SWORDS_DANCE
 	learnset 63, HYDRO_PUMP
 	learnset 68, MEGAHORN ; added Lv1 move
@@ -4903,7 +4903,7 @@ EvosAttacksPointersLateGen::
 	learnset 28, BODY_SLAM ; Retaliate → SV TM move
 	learnset 35, IRON_HEAD ; Metal Burst → moved Iron Head from Lv63
 	learnset 42, TAKE_DOWN
-	;learnset 49, SACRED_SWORD
+	learnset 49, SACRED_SWORD
 	learnset 56, SWORDS_DANCE
 	learnset 63, IRON_TAIL ; Iron Head → new move
 	learnset 70, CLOSE_COMBAT
@@ -4919,7 +4919,7 @@ EvosAttacksPointersLateGen::
 	learnset 28, BODY_SLAM ; Retaliate → SV TM move
 	learnset 35, ROCK_SLIDE
 	learnset 42, TAKE_DOWN
-	;learnset 49, SACRED_SWORD
+	learnset 49, SACRED_SWORD
 	learnset 56, SWORDS_DANCE
 	learnset 63, STONE_EDGE
 	learnset 70, CLOSE_COMBAT
@@ -4936,7 +4936,7 @@ EvosAttacksPointersLateGen::
 	learnset 28, BODY_SLAM ; Retaliate → SV TM move
 	learnset 35, GIGA_DRAIN
 	learnset 42, HEALINGLIGHT ; Synthesis → similar move
-	;learnset 49, SACRED_SWORD
+	learnset 49, SACRED_SWORD
 	learnset 56, SWORDS_DANCE
 	learnset 63, LEAF_BLADE
 	learnset 70, CLOSE_COMBAT
@@ -5059,7 +5059,7 @@ EvosAttacksPointersLateGen::
 	learnset 21, DOUBLE_KICK
 	learnset 28, TAKE_DOWN ; Retaliate → moved Take Down from Lv42
 	learnset 35, AQUA_TAIL
-	;learnset 42, SACRED_SWORD ; Take Down → moved Sacred Sword from Lv49
+	learnset 42, SACRED_SWORD ; Take Down → moved Sacred Sword from Lv49
 	learnset 49, AURA_SPHERE ; Sacred Sword → SV TM move
 	learnset 56, SWORDS_DANCE
 	learnset 63, HYDRO_PUMP
@@ -5320,7 +5320,7 @@ EvosAttacksPointersLateGen::
 	learnset 62, HYPER_VOICE ; Boomburst → similar move
 	
 	evos_attacks Kingambit
-	;learnset 1, SACRED_SWORD ; evolution move (Kowtow Cleave → new move)
+	learnset 1, SACRED_SWORD ; evolution move (Kowtow Cleave → new move)
 	learnset 1, TACKLE ; Scratch → similar move
 	learnset 1, LEER
 	learnset 1, FURY_CUTTER

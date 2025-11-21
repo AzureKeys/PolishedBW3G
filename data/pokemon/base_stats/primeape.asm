@@ -1,22 +1,24 @@
-	db  65, 105,  60,  95,  60,  70 ; 455 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  65, 105,  60,  95,  60,  70  ; 455 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
-	db 75 ; catch rate
-	db 149 ; base exp
-	db NO_ITEM, KEE_BERRY ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db FIGHTING, FIGHTING  ; type
+	db 75  ; catch rate
+	db 149  ; base exp
+	db NO_ITEM, KEE_BERRY  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for PRIMEAPE, VITAL_SPIRIT, ANGER_POINT, DEFIANT
-else
-	abilities_for PRIMEAPE, GORILLA_TACTICS, ANGER_POINT, DEFIANT
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_GROUND, EGG_GROUND  ; egg groups
 
 	ev_yield 2 Atk
 
-	; tm/hm learnset
-	tmhm DYNAMICPUNCH, CURSE, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, HYPER_BEAM, PROTECT, RAIN_DANCE, BULLDOZE, IRON_TAIL, THUNDERBOLT, THUNDER, EARTHQUAKE, RETURN, DIG, DOUBLE_TEAM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, FOCUS_BLAST, ACROBATICS, POISON_JAB, GIGA_IMPACT, U_TURN, STONE_EDGE, STRENGTH, BODY_SLAM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, SEED_BOMB, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

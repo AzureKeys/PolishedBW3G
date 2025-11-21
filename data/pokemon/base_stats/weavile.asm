@@ -1,22 +1,24 @@
-	db  70, 120,  65, 125,  45,  85 ; 510 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  70, 120,  65, 125,  45,  85   ; 510 BST
+	  ;   hp  atk  def  spe  sat  sdf
 
-	db DARK, ICE ; type
-	db 45 ; catch rate
-	db 199 ; base exp
-	db GRIP_CLAW, QUICK_CLAW ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db DARK, ICE   ; type
+	db 45   ; catch rate
+	db 199   ; base exp
+	db GRIP_CLAW, QUICK_CLAW   ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST   ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for WEAVILE, PRESSURE, PRESSURE, PICKPOCKET
-else
-	abilities_for WEAVILE, PRESSURE, TECHNICIAN, PICKPOCKET
-endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	db GROWTH_MEDIUM_SLOW   ; growth rate
+	dn EGG_GROUND, EGG_GROUND   ; egg groups
 
 	ev_yield 1 Atk, 1 Spe
 
-	; tm/hm learnset
-	tmhm CURSE, CALM_MIND, TOXIC, HAIL, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, IRON_TAIL, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, FOCUS_BLAST, FALSE_SWIPE, X_SCISSOR, DARK_PULSE, SHADOW_CLAW, POISON_JAB, AVALANCHE, GIGA_IMPACT, SWORDS_DANCE, CUT, SURF, STRENGTH, WHIRLPOOL, AGILITY, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, ICE_PUNCH, ICY_WIND, KNOCK_OFF, SLEEP_TALK, SWAGGER
-	; end
+	  ; tm/hm learnset
+	tmhm HIDDEN_POWER, \  ;2
+	     SLEEP_TALK,   \  ;3
+	     PROTECT,      \  ;4
+	     RETURN,       \  ;6
+	     DOUBLE_TEAM,  \  ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
+	     SWAGGER  ;14
+	  ; end

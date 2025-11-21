@@ -18,9 +18,9 @@ MACRO add_tm
 	add_tmnum \1
 ENDM
 
-	add_tm DYNAMICPUNCH ; $00
+	add_tm HONE_CLAWS   ; $00
 	add_tm DRAGON_CLAW  ; $01
-	add_tm CURSE        ; $02
+	add_tm PSYSHOCK     ; $02
 	add_tm CALM_MIND    ; $03
 	add_tm ROAR         ; $04
 	add_tm TOXIC        ; $05
@@ -29,14 +29,14 @@ ENDM
 	add_tm VENOSHOCK    ; $08
 	add_tm HIDDEN_POWER ; $09
 	add_tm SUNNY_DAY    ; $0a
-	add_tm HONE_CLAWS   ; $0b
+	add_tm SLEEP_TALK   ; $0b
 	add_tm ICE_BEAM     ; $0c
 	add_tm BLIZZARD     ; $0d
 	add_tm HYPER_BEAM   ; $0e
 	add_tm LIGHT_SCREEN ; $0f
 	add_tm PROTECT      ; $10
 	add_tm RAIN_DANCE   ; $11
-	add_tm GIGA_DRAIN   ; $12
+	add_tm TRICK_ROOM   ; $12
 	add_tm SAFEGUARD    ; $13
 	add_tm BULLDOZE     ; $14
 	add_tm SOLAR_BEAM   ; $15
@@ -67,8 +67,8 @@ ENDM
 	add_tm STEEL_WING   ; $2e
 	add_tm ROCK_SLIDE   ; $2f
 	add_tm DAZZLINGLEAM ; $30
-	add_tm LEECH_LIFE   ; $31
-	add_tm ROOST        ; $32
+	add_tm DREAM_EATER  ; $31
+	add_tm SKILL_SWAP   ; $32
 	add_tm FOCUS_BLAST  ; $33
 	add_tm ENERGY_BALL  ; $34
 	add_tm FALSE_SWIPE  ; $35
@@ -77,17 +77,17 @@ ENDM
 	add_tm WILD_CHARGE  ; $38
 	add_tm DARK_PULSE   ; $39
 	add_tm DRAGON_PULSE ; $3a
-	add_tm DRAIN_PUNCH  ; $3b
+	add_tm HEX          ; $3b
 	add_tm WILL_O_WISP  ; $3c
 	add_tm ACROBATICS   ; $3d
 	add_tm WATER_PULSE  ; $3e
 	add_tm EXPLOSION    ; $3f
 	add_tm SHADOW_CLAW  ; $40
-	add_tm POISON_JAB   ; $41
-	add_tm AVALANCHE    ; $42
+	add_tm PAYBACK      ; $41
+	add_tm POISON_JAB   ; $42
 	add_tm GIGA_IMPACT  ; $43
 	add_tm U_TURN       ; $44
-	add_tm FLASH        ; $45
+	add_tm SWAGGER      ; $45
 	add_tm STONE_EDGE   ; $46
 	add_tm VOLT_SWITCH  ; $47
 	add_tm THUNDER_WAVE ; $48
@@ -107,8 +107,7 @@ ENDM
 	add_hm FLY          ; $4c
 	add_hm SURF         ; $4d
 	add_hm STRENGTH     ; $4e
-	add_hm WHIRLPOOL    ; $4f
-	add_hm WATERFALL    ; $50
+	add_hm WATERFALL    ; $4f
 DEF NUM_HMS = __tmhm_value__ - NUM_TMS - 1
 
 MACRO add_mt
@@ -118,7 +117,7 @@ MACRO add_mt
 	add_tmnum \1
 ENDM
 
-	add_mt AGILITY      ; $51
+	add_mt AGILITY      ; $50
 	add_mt AQUA_TAIL    ; $52
 	add_mt BATON_PASS   ; $53
 	add_mt BODY_SLAM    ; $54
@@ -126,7 +125,6 @@ ENDM
 	add_mt COUNTER      ; $56
 	add_mt DEFENSE_CURL ; $57
 	add_mt DOUBLE_EDGE  ; $58
-	add_mt DREAM_EATER  ; $59
 	add_mt EARTH_POWER  ; $5a
 	add_mt ENDURE       ; $5b
 	add_mt FIRE_PUNCH   ; $5c
@@ -139,13 +137,9 @@ ENDM
 	add_mt ROLLOUT      ; $64
 	add_mt SEED_BOMB    ; $65
 	add_mt SEISMIC_TOSS ; $66
-	add_mt SKILL_SWAP   ; $67
-	add_mt SLEEP_TALK   ; $68
 	add_mt SUCKER_PUNCH ; $69
-	add_mt SWAGGER      ; $6a
 	add_mt THUNDERPUNCH ; $6b
 	add_mt TRICK        ; $6c
-	add_mt TRICK_ROOM   ; $6d
 	add_mt ZAP_CANNON   ; $6e
 	add_mt ZEN_HEADBUTT ; $6f
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1

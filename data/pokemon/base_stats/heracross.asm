@@ -1,18 +1,24 @@
-	db  80, 125,  75,  85,  40,  95 ; 500 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  80, 125,  75,  85,  40,  95  ; 500 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db BUG, FIGHTING ; type
-	db 45 ; catch rate
-	db 200 ; base exp
-	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
+	db BUG, FIGHTING  ; type
+	db 45  ; catch rate
+	db 200  ; base exp
+	db NO_ITEM, NO_ITEM  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_SLOW  ; gender ratio, step cycles to hatch
 
 	abilities_for HERACROSS, MOXIE, GUTS, SKILL_LINK
-	db GROWTH_SLOW ; growth rate
-	dn EGG_BUG, EGG_BUG ; egg groups
+	db GROWTH_SLOW  ; growth rate
+	dn EGG_BUG, EGG_BUG  ; egg groups
 
 	ev_yield 2 Atk
 
-	; tm/hm learnset
-	tmhm CURSE, TOXIC, BULK_UP, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, RAIN_DANCE, BULLDOZE, EARTHQUAKE, RETURN, DIG, DOUBLE_TEAM, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, FOCUS_BLAST, FALSE_SWIPE, SHADOW_CLAW, GIGA_IMPACT, STONE_EDGE, SWORDS_DANCE, CUT, STRENGTH, BODY_SLAM, COUNTER, DOUBLE_EDGE, ENDURE, HEADBUTT, KNOCK_OFF, SEISMIC_TOSS, SLEEP_TALK, SWAGGER
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

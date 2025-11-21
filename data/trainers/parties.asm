@@ -208,22 +208,14 @@ endc
 		tr_evs 64 SAt, 64 Spe
 		tr_moves DISARM_VOICE, DARK_PULSE, NASTY_PLOT, SHADOW_BALL
 	tr_mon 26, GENGAR @ WIDE_LENS, MALE
-if DEF(FAITHFUL)
 		tr_extra CURSED_BODY
-else
-		tr_extra LEVITATE
-endc
 		tr_evs 64 SAt, 64 Spe
 		tr_moves HYPNOSIS, THUNDERBOLT, SHADOW_BALL, DREAM_EATER
 	end_trainer
 
 	def_trainer 2, "Morty"
 	tr_mon 72, GENGAR @ LEFTOVERS, MALE
-if DEF(FAITHFUL)
 		tr_extra CURSED_BODY
-else
-		tr_extra LEVITATE
-endc
 		tr_moves WILL_O_WISP, SHADOW_BALL, FOCUS_BLAST, SUBSTITUTE
 	tr_mon 70, NINETALES @ CHARCOAL, MALE
 		tr_moves NASTY_PLOT, SHADOW_BALL, FLAMETHROWER, WILL_O_WISP
@@ -240,11 +232,7 @@ else
 		tr_moves MOONBLAST, AIR_SLASH, SHADOW_BALL, REFLECT
 endc
 	tr_mon 75, GENGAR @ SPELL_TAG, MALE
-if DEF(FAITHFUL)
 		tr_extra CURSED_BODY
-else
-		tr_extra LEVITATE
-endc
 		tr_moves NASTY_PLOT, SHADOW_BALL, THUNDERBOLT, DESTINY_BOND
 	end_trainer
 
@@ -4578,11 +4566,7 @@ RichBoyGroup:
 		tr_dvs 14 All
 		tr_moves HEADBUTT, TACKLE, SWEET_KISS, ZEN_HEADBUTT
 	tr_mon LEVEL_FROM_BADGES + 5, SYLVEON @ KINGS_ROCK, FEMALE
-if DEF(FAITHFUL)
 		tr_extra CUTE_CHARM
-else
-		tr_extra SERENE_GRACE
-endc
 		tr_dvs 14 All
 		tr_moves HEADBUTT, ATTRACT, MUD_SLAP, DISARM_VOICE
 	end_trainer
@@ -5604,11 +5588,7 @@ EngineerGroup:
 	tr_mon LEVEL_FROM_BADGES + 1, RATTATA, MALE
 		tr_extra HUSTLE
 	tr_mon LEVEL_FROM_BADGES + 3, MAGNEMITE, MALE
-if DEF(FAITHFUL)
 		tr_extra STURDY
-else
-		tr_extra LEVITATE
-endc
 	end_trainer
 
 	def_trainer NICOLAS, "Nicolas"
@@ -5617,11 +5597,7 @@ endc
 	tr_mon LEVEL_FROM_BADGES + 1, RATTATA, MALE
 		tr_extra HUSTLE
 	tr_mon LEVEL_FROM_BADGES + 3, MAGNEMITE, MALE
-if DEF(FAITHFUL)
 		tr_extra STURDY
-else
-		tr_extra LEVITATE
-endc
 	end_trainer
 
 SECTION "TeacherFGroup", ROMX
@@ -6535,11 +6511,7 @@ endc
 	def_trainer BARKHORN, "Barkhorn"
 
 	tr_mon LEVEL_FROM_BADGES + 5, PUPITAR @ ROCKY_HELMET, MALE
-if DEF(FAITHFUL)
 		tr_extra SHED_SKIN, ATK_UP_SATK_DOWN
-else
-		tr_extra BATTLE_ARMOR, ATK_UP_SATK_DOWN
-endc
 		tr_evs 232 HP
 		tr_moves SANDSTORM, ROCK_SLIDE, PURSUIT, OUTRAGE
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA @ ROCKY_HELMET, MALE
@@ -6617,11 +6589,7 @@ VeteranFGroup:
 		tr_evs 252 SAt, 44 Spe
 		tr_moves TRI_ATTACK, DARK_PULSE, ICE_BEAM, HP_GROUND
 	tr_mon LEVEL_FROM_BADGES + 11, GENGAR @ CHOICE_SPECS, FEMALE
-if DEF(FAITHFUL)
 		tr_extra CURSED_BODY, SATK_UP_ATK_DOWN
-else
-		tr_extra LEVITATE, SATK_UP_ATK_DOWN
-endc
 		tr_evs 252 SAt, 44 Spe
 		tr_moves SHADOW_BALL, THUNDERBOLT, FOCUS_BLAST, HP_ICE
 	end_trainer
@@ -6776,15 +6744,9 @@ GiovanniGroup:
 	tr_mon 60, HONCHKROW @ FOCUS_SASH, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_moves SUCKER_PUNCH, DRILL_PECK, ROOST, THUNDER_WAVE
-if !DEF(FAITHFUL)
-	tr_mon 60, KANGASKHAN @ LUM_BERRY, FEMALE
-		tr_extra PARENTAL_BOND, SPE_UP_SATK_DOWN
-		tr_moves BODY_SLAM, SEISMIC_TOSS, ICE_PUNCH, CRUNCH
-else
 	tr_mon 60, KANGASKHAN @ LEFTOVERS, FEMALE
 		tr_extra EARLY_BIRD, ATK_UP_SATK_DOWN
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, CRUNCH, REST
-endc
 	tr_mon 62, RATTATA @ EVIOLITE, MALE
 if !DEF(FAITHFUL)
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN

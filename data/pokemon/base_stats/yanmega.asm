@@ -1,26 +1,24 @@
-	db  86,  76,  86,  95, 116,  56 ; 515 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  86,  76,  86,  95, 116,  56   ; 515 BST
+	  ;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
-	db BUG, FLYING ; type
-else
-	db BUG, DRAGON ; type
-endc
-	db 30 ; catch rate
-	db 198 ; base exp
-	db NO_ITEM, WIDE_LENS ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db BUG, FLYING   ; type
+	db 30   ; catch rate
+	db 198   ; base exp
+	db NO_ITEM, WIDE_LENS   ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST   ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for YANMEGA, SPEED_BOOST, TINTED_LENS, FRISK
-else
-	abilities_for YANMEGA, SPEED_BOOST, TINTED_LENS, LEVITATE
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_BUG, EGG_BUG ; egg groups
+	db GROWTH_MEDIUM_FAST   ; growth rate
+	dn EGG_BUG, EGG_BUG   ; egg groups
 
 	ev_yield 2 Atk
 
-	; tm/hm learnset
-	tmhm DRAGON_CLAW, CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, GIGA_DRAIN, SOLAR_BEAM, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, STEEL_WING, LEECH_LIFE, ROOST, DRAGON_PULSE, GIGA_IMPACT, U_TURN, FLASH, FLY, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, SLEEP_TALK, SWAGGER
-	; end
+	  ; tm/hm learnset
+	tmhm HIDDEN_POWER, \  ;2
+	     SLEEP_TALK,   \  ;3
+	     PROTECT,      \  ;4
+	     RETURN,       \  ;6
+	     DOUBLE_TEAM,  \  ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
+	     SWAGGER  ;14
+	  ; end

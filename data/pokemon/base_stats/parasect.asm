@@ -1,23 +1,24 @@
-if DEF(FAITHFUL)
-	db  60,  95,  80,  30,  60,  80 ; 405 BST
-	;   hp  atk  def  spe  sat  sdf
-else
-	db  60, 115, 100,  30,  60,  80 ; 445 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
+	db  60,  95,  80,  30,  60,  80  ; 405 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db BUG, GRASS ; type
-	db 75 ; catch rate
-	db 128 ; base exp
-	db TINYMUSHROOM, BIG_MUSHROOM ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db BUG, GRASS  ; type
+	db 75  ; catch rate
+	db 128  ; base exp
+	db TINYMUSHROOM, BIG_MUSHROOM  ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for PARASECT, EFFECT_SPORE, DRY_SKIN, DAMP
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_BUG, EGG_PLANT ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_BUG, EGG_PLANT  ; egg groups
 
 	ev_yield 2 Atk, 1 Def
 
-	; tm/hm learnset
-	tmhm CURSE, TOXIC, VENOSHOCK, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, HYPER_BEAM, LIGHT_SCREEN, PROTECT, GIGA_DRAIN, SOLAR_BEAM, RETURN, DIG, DOUBLE_TEAM, SLUDGE_BOMB, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, LEECH_LIFE, ENERGY_BALL, FALSE_SWIPE, X_SCISSOR, SHADOW_CLAW, GIGA_IMPACT, FLASH, SWORDS_DANCE, CUT, BODY_SLAM, COUNTER, DOUBLE_EDGE, DREAM_EATER, ENDURE, KNOCK_OFF, SEED_BOMB, SLEEP_TALK, SWAGGER
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end

@@ -1,22 +1,24 @@
-	db  50,  60,  95,  70, 120,  70 ; 465 BST
-	;   hp  atk  def  spe  sat  sdf
+	db  50,  60,  95,  70, 120,  70  ; 465 BST
+	 ;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, STEEL ; type
-	db 60 ; catch rate
-	db 161 ; base exp
-	db NO_ITEM, METAL_COAT ; held items
-	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db ELECTRIC, STEEL  ; type
+	db 60  ; catch rate
+	db 161  ; base exp
+	db NO_ITEM, METAL_COAT  ; held items
+	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
 	abilities_for MAGNETON, MAGNET_PULL, STURDY, ANALYTIC
-else
-	abilities_for MAGNETON, MAGNET_PULL, LEVITATE, ANALYTIC
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_MINERAL, EGG_MINERAL ; egg groups
+	db GROWTH_MEDIUM_FAST  ; growth rate
+	dn EGG_MINERAL, EGG_MINERAL  ; egg groups
 
 	ev_yield 2 SAt
 
-	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, THUNDERBOLT, THUNDER, RETURN, DOUBLE_TEAM, REFLECT, FLASH_CANNON, SWIFT, SUBSTITUTE, FACADE, REST, WILD_CHARGE, EXPLOSION, GIGA_IMPACT, FLASH, VOLT_SWITCH, THUNDER_WAVE, GYRO_BALL, AGILITY, DOUBLE_EDGE, ENDURE, ROLLOUT, SLEEP_TALK, SWAGGER, ZAP_CANNON
-	; end
+	 ; tm/hm learnset
+	tmhm HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   \ ;3
+	     PROTECT,      \ ;4
+	     RETURN,       \ ;6
+	     DOUBLE_TEAM,  \ ;7
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+	     SWAGGER ;14
+	 ; end
