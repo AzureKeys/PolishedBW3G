@@ -19,10 +19,16 @@ endc
 
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+	     RETURN,       PSYCHIC,      \ ;6
+	     DOUBLE_TEAM,  FLASH_CANNON, FLAMETHROWER, \ ;7
+		 SLUDGE_BOMB,  FIRE_BLAST,   SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        \ ;10
+		 ENERGY_BALL,  SCALD,        \ ;11
+		 WATER_PULSE,  \ ;13
+	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+		 THUNDER_WAVE, \ ;15
+		 SURF,         WATERFALL
 	 ; end

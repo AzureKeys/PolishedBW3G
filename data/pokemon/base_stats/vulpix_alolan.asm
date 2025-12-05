@@ -14,11 +14,17 @@
 	ev_yield 1 Spe
 
 	  ; tm/hm learnset
-	tmhm HIDDEN_POWER, \  ;2
-	     SLEEP_TALK,   \  ;3
-	     PROTECT,      \  ;4
-	     RETURN,       \  ;6
-	     DOUBLE_TEAM,  \  ;7
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
-	     SWAGGER  ;14
+	tmhm ROAR,         \ ;1
+	     HAIL,         HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \ ;3
+	     PROTECT,      RAIN_DANCE,   SAFEGUARD,    \ ;4
+		 IRON_TAIL,    \ ;5
+	     RETURN,       DIG,          \ ;6
+	     DOUBLE_TEAM,  REFLECT,      \ ;7
+		 SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 DAZZLINGLEAM, \ ;10
+	     ENERGY_BALL,  \ ;11
+		 DARK_PULSE,   HEX,          \ ;12
+		 PAYBACK,      SWAGGER ;14
 	  ; end

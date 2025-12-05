@@ -15,10 +15,16 @@
 
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
+	     SUNNY_DAY,    SLEEP_TALK,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 BULLDOZE,     \ ;5
+	     EARTHQUAKE,   RETURN,       \ ;6
 	     DOUBLE_TEAM,  \ ;7
+		 AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 ROCK_SLIDE,   \ ;10
+		 WILD_CHARGE,  \ ;12
+	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
+		 STONE_EDGE,   SWORDS_DANCE, \ ;15
+		 CUT,          SURF,         STRENGTH
 	 ; end

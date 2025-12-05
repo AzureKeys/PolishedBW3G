@@ -14,11 +14,19 @@
 	ev_yield 2 SDf
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	tmhm HONE_CLAWS,   DRAGON_CLAW,  ROAR,         \ ;1
+	     HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   SAFEGUARD,    \ ;4
+		 BULLDOZE,     SOLAR_BEAM,   IRON_TAIL,    \ ;5
+	     EARTHQUAKE,   RETURN,       \ ;6
+	     DOUBLE_TEAM,  FLAMETHROWER, \ ;7
+		 FIRE_BLAST,   SWIFT,        AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        STEEL_WING,   DAZZLINGLEAM, DREAM_EATER,  \ ;10
+		 FALSE_SWIPE,  \ ;11
+		 DRAGON_PULSE, \ ;12
+		 WILL_O_WISP,  ACROBATICS,   \ ;13
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 FLY
 	 ; end

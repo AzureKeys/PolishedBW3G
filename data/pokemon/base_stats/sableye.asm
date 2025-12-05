@@ -15,11 +15,19 @@
 	ev_yield 1 Atk, 1 Def
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	tmhm HONE_CLAWS,   CALM_MIND,    \ ;1
+	     BULK_UP,      HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   HYPER_BEAM,   \ ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   \ ;4
+	     RETURN,       DIG,          PSYCHIC,      SHADOW_BALL,  \ ;6
+	     BRICK_BREAK,  DOUBLE_TEAM,  REFLECT,      \ ;7
+		 AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        DAZZLINGLEAM, DREAM_EATER,  \ ;10
+		 SKILL_SWAP,   ENERGY_BALL,  \ ;11
+		 X_SCISSOR,    DARK_PULSE,   HEX,          \ ;12
+		 WILL_O_WISP,  WATER_PULSE,  SHADOW_CLAW,  \ ;13
+	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
+		 THUNDER_WAVE, GYRO_BALL,    \ ;15
+		 CUT
 	 ; end

@@ -14,11 +14,17 @@
 	ev_yield 1 Atk
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	tmhm ROAR,         \ ;1
+	     HAIL,         HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \ ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   \ ;4
+		 BULLDOZE,     \ ;5
+	     EARTHQUAKE,   RETURN,       DIG,          \ ;6
+	     DOUBLE_TEAM,  REFLECT,      \ ;7
+		 SANDSTORM,    \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 ROCK_SLIDE,   \ ;10
+	     SWAGGER,      \ ;14
+		 STONE_EDGE,   \ ;15
+		 STRENGTH
 	 ; end

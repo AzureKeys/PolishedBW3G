@@ -14,11 +14,19 @@
 	ev_yield 1 Def
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	tmhm HONE_CLAWS,   \ ;1
+	     TOXIC,        VENOSHOCK,    HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 IRON_TAIL,    \ ;5
+	     RETURN,       DIG,          SHADOW_BALL,  \ ;6
+	     BRICK_BREAK,  DOUBLE_TEAM,  \ ;7
+		 SLUDGE_BOMB,  AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        \ ;10
+		 FALSE_SWIPE,  \ ;11
+		 X_SCISSOR,    DARK_PULSE,   \ ;12
+	     PAYBACK,      POISON_JAB,   SWAGGER,      \ ;14
+		 SWORDS_DANCE, \ ;15
+		 CUT,          STRENGTH
 	 ; end

@@ -15,11 +15,17 @@
 	ev_yield 1 HP
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	tmhm HAIL,         HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 SOLAR_BEAM,   THUNDERBOLT,  THUNDER,      \ ;5
+	     RETURN,       SHADOW_BALL,  \ ;6
+	     DOUBLE_TEAM,  FLAMETHROWER, \ ;7
+		 SANDSTORM,    FIRE_BLAST,   SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        \ ;10
+		 ENERGY_BALL,  SCALD,        \ ;11
+		 WATER_PULSE,  \ ;13
+	     SWAGGER,      \ ;14
+		 THUNDER_WAVE ;15
 	 ; end

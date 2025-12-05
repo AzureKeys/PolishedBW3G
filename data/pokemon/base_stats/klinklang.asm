@@ -16,10 +16,14 @@
 
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
+	     SLEEP_TALK,   HYPER_BEAM,   \ ;3
+	     PROTECT,      TRICK_ROOM,   \ ;4
+		 THUNDERBOLT,  THUNDER,      \ ;5
 	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+	     DOUBLE_TEAM,  FLASH_CANNON, \ ;7
+		 SANDSTORM,    \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         \ ;9
+		 WILD_CHARGE,  \ ;12
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 VOLT_SWITCH,  THUNDER_WAVE, GYRO_BALL ;15
 	 ; end

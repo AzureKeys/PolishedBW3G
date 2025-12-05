@@ -15,10 +15,15 @@
 
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
+	     SUNNY_DAY,    SLEEP_TALK,   \ ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   \ ;4
+		 THUNDERBOLT,  THUNDER,      \ ;5
 	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+	     DOUBLE_TEAM,  REFLECT,      FLASH_CANNON, \ ;7
+		 SANDSTORM,    SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         \ ;9
+		 WILD_CHARGE,  \ ;12
+		 EXPLOSION,    \ ;13
+	     SWAGGER,      \ ;14
+		 VOLT_SWITCH,  THUNDER_WAVE, GYRO_BALL ;15
 	 ; end

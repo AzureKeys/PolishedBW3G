@@ -17,8 +17,14 @@
 	tmhm HIDDEN_POWER, \ ;2
 	     SLEEP_TALK,   \ ;3
 	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+		 BULLDOZE,     \ ;5
+	     EARTHQUAKE,   RETURN,       \ ;6
+	     DOUBLE_TEAM,  FLASH_CANNON, \ ;7
+		 SANDSTORM,    \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 ROCK_SLIDE,   \ ;10
+		 EXPLOSION,    \ ;13
+	     SWAGGER,      \ ;14
+		 STONE_EDGE,   \ ;15
+		 STRENGTH
 	 ; end

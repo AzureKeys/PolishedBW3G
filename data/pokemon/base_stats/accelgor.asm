@@ -14,11 +14,13 @@
 	ev_yield 2 Spe
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
+	tmhm TOXIC,        VENOSHOCK,    HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
 	     RETURN,       \ ;6
 	     DOUBLE_TEAM,  \ ;7
+		 SLUDGE_BOMB,  SANDSTORM,    SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 FOCUS_BLAST,  ENERGY_BALL,  \ ;11
+	     GIGA_IMPACT,  U_TURN,       SWAGGER ;14
 	 ; end

@@ -14,11 +14,19 @@
 	ev_yield 2 Spe
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+	tmhm PSYSHOCK,     \ ;1
+	     HAIL,         HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   TRICK_ROOM,   \ ;4
+		 THUNDERBOLT,  THUNDER,      \ ;5
+	     RETURN,       PSYCHIC,      \ ;6
+	     DOUBLE_TEAM,  REFLECT,      FLASH_CANNON, \ ;7
+		 SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         \ ;9
+		 DAZZLINGLEAM, DREAM_EATER,  \ ;10
+		 SKILL_SWAP,   SCALD,        \ ;11
+		 WATER_PULSE,  \ ;13
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 THUNDER_WAVE, GYRO_BALL,    \ ;15
+		 SURF,         WATERFALL
 	 ; end

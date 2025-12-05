@@ -14,11 +14,18 @@
 	ev_yield 3 SAt
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	tmhm PSYSHOCK,     CALM_MIND,    \ ;1
+	     HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     HYPER_BEAM,   \ ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   TRICK_ROOM,   SAFEGUARD,    \ ;4
+	     THUNDERBOLT,  \ ;5
+		 RETURN,       PSYCHIC,      SHADOW_BALL,  \ ;6
+	     DOUBLE_TEAM,  REFLECT,      \ ;7
+		 SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        DAZZLINGLEAM, DREAM_EATER,  \ ;10
+		 SKILL_SWAP,   FOCUS_BLAST,  ENERGY_BALL,  \ ;11
+		 WILL_O_WISP,  \ ;13
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 THUNDER_WAVE ;15
 	 ; end

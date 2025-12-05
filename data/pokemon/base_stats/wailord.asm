@@ -14,11 +14,16 @@
 	ev_yield 2 HP
 
 	  ; tm/hm learnset
-	tmhm HIDDEN_POWER, \  ;2
-	     SLEEP_TALK,   \  ;3
-	     PROTECT,      \  ;4
-	     RETURN,       \  ;6
+	tmhm ROAR,         \ ;1
+	     HAIL,         HIDDEN_POWER, \  ;2
+	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \  ;3
+	     PROTECT,      RAIN_DANCE,   \  ;4
+		 BULLDOZE,     \ ;5
+	     EARTHQUAKE,   RETURN,       \  ;6
 	     DOUBLE_TEAM,  \  ;7
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
-	     SWAGGER  ;14
+		 SCALD,        \ ;11
+		 WATER_PULSE,  \ ;13
+	     GIGA_IMPACT,  SWAGGER,      \  ;14
+		 SURF,         STRENGTH,     WATERFALL
 	  ; end

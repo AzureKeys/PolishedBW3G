@@ -14,11 +14,13 @@
 	ev_yield 1 Def
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
+	tmhm VENOSHOCK,    HIDDEN_POWER, \ ;2
 	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
+	     PROTECT,      RAIN_DANCE,   \ ;4
 	     RETURN,       \ ;6
 	     DOUBLE_TEAM,  \ ;7
+		 SLUDGE_BOMB,  \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 ENERGY_BALL,  \ ;11
 	     SWAGGER ;14
 	 ; end

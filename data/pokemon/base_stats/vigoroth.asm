@@ -14,11 +14,20 @@
 	ev_yield 2 Spe
 
 	  ; tm/hm learnset
-	tmhm HIDDEN_POWER, \  ;2
-	     SLEEP_TALK,   \  ;3
-	     PROTECT,      \  ;4
-	     RETURN,       \  ;6
-	     DOUBLE_TEAM,  \  ;7
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
-	     SWAGGER  ;14
-	  ; end
+	tmhm HONE_CLAWS,   ROAR,         \ ;1
+	     BULK_UP,      HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 BULLDOZE,     SOLAR_BEAM,   THUNDERBOLT,  THUNDER,      \ ;5
+	     EARTHQUAKE,   RETURN,       DIG,          SHADOW_BALL,  \ ;6
+	     BRICK_BREAK,  DOUBLE_TEAM,  FLAMETHROWER, \ ;7
+		 FIRE_BLAST,   AERIAL_ACE,   \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        ROCK_SLIDE,   \ ;10
+		 FOCUS_BLAST,  FALSE_SWIPE,  \ ;11
+		 X_SCISSOR,    \ ;12
+		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
+	     POISON_JAB,   SWAGGER,      \ ;14
+		 THUNDER_WAVE, \ ;15
+		 CUT,          STRENGTH
+	 ; end

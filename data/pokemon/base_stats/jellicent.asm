@@ -14,11 +14,17 @@
 	ev_yield 2 SDf
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
+	tmhm HAIL,         HIDDEN_POWER, \ ;2
+	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   TRICK_ROOM,   SAFEGUARD,    \ ;4
+	     RETURN,       PSYCHIC,      SHADOW_BALL,  \ ;6
 	     DOUBLE_TEAM,  \ ;7
+		 SLUDGE_BOMB,  \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 DAZZLINGLEAM, DREAM_EATER,  \ ;10
+		 ENERGY_BALL,  SCALD,        \ ;11
+		 DARK_PULSE,   HEX,          \ ;12
+		 WILL_O_WISP,  WATER_PULSE,  \ ;13
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 SURF,         WATERFALL
 	 ; end

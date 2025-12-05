@@ -245,6 +245,7 @@ EvosAttacksPointersVariants::
 	learnset 49, DARK_PULSE ; added pre Gen8 move
 
 	evos_attacks PersianAlolan
+	learnset 1, POWER_GEM ; evolution move
 	learnset 1, TRICK ; Switcheroo → new move
 	learnset 1, TACKLE ; Fake Out → new move
 	learnset 1, GROWL

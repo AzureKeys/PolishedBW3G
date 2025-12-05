@@ -14,11 +14,12 @@
 	ev_yield 2 SAt
 
 	  ; tm/hm learnset
-	tmhm HIDDEN_POWER, \  ;2
-	     SLEEP_TALK,   \  ;3
-	     PROTECT,      \  ;4
+	tmhm HAIL,         HIDDEN_POWER, \  ;2
+	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \  ;3
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   \  ;4
 	     RETURN,       \  ;6
-	     DOUBLE_TEAM,  \  ;7
+	     DOUBLE_TEAM,  REFLECT,      \  ;7
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
+		 WATER_PULSE,  EXPLOSION,    \ ;13
 	     SWAGGER  ;14
 	  ; end

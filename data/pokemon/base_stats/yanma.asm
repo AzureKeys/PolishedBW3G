@@ -17,8 +17,12 @@
 	tmhm HIDDEN_POWER, \  ;2
 	     SLEEP_TALK,   \  ;3
 	     PROTECT,      \  ;4
-	     RETURN,       \  ;6
+		 SOLAR_BEAM,   \ ;5
+	     RETURN,       PSYCHIC,      SHADOW_BALL,  \  ;6
 	     DOUBLE_TEAM,  \  ;7
+		 SWIFT,        AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
-	     SWAGGER  ;14
+		 THIEF,        STEEL_WING,   DREAM_EATER,  \ ;10
+	     U_TURN,       SWAGGER,      \  ;14
+		 SWORDS_DANCE ;15
 	  ; end

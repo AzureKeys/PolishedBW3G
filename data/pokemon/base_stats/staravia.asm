@@ -15,10 +15,14 @@
 
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
+	     SUNNY_DAY,    SLEEP_TALK,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
 	     RETURN,       \ ;6
 	     DOUBLE_TEAM,  \ ;7
+		 SWIFT,        AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        STEEL_WING,   \ ;10
+		 ACROBATICS,   \ ;13
+	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
+		 FLY
 	 ; end

@@ -15,10 +15,16 @@
 
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
-	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
-	     RETURN,       \ ;6
-	     DOUBLE_TEAM,  \ ;7
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 BULLDOZE,     SOLAR_BEAM,   IRON_TAIL,    THUNDERBOLT,  THUNDER,      \ ;5
+	     EARTHQUAKE,   RETURN,       DIG,          SHADOW_BALL,  \ ;6
+	     BRICK_BREAK,  DOUBLE_TEAM,  FLAMETHROWER, \ ;7
+		 SANDSTORM,    FIRE_BLAST,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 THIEF,        ROCK_SLIDE,   DREAM_EATER,  \ ;10
+		 WATER_PULSE,  \ ;13
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
+		 SWORDS_DANCE, \ ;15
+		 CUT,          SURF,         STRENGTH
 	 ; end

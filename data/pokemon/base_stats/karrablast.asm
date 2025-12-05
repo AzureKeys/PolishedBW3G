@@ -16,9 +16,14 @@
 	 ; tm/hm learnset
 	tmhm HIDDEN_POWER, \ ;2
 	     SLEEP_TALK,   \ ;3
-	     PROTECT,      \ ;4
+	     PROTECT,      RAIN_DANCE,   \ ;4
 	     RETURN,       \ ;6
 	     DOUBLE_TEAM,  \ ;7
+		 AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+		 ENERGY_BALL,  FALSE_SWIPE,  \ ;11
+		 X_SCISSOR,    \ ;12
+	     POISON_JAB,   SWAGGER,      \ ;14
+		 SWORDS_DANCE, \ ;15
+		 CUT
 	 ; end
