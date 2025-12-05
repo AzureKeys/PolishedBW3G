@@ -408,6 +408,7 @@ AnimationExtraPointers:
 	dw EnamorusPlainAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
+	dw KingambitAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw PikachuFlyAnimationExtra

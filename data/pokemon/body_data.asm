@@ -415,6 +415,7 @@ PokemonBodyData:
 	body_data  16,  480, HEAD_ARMS,    PINK   ; ENAMORUS
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
+	body_data  20, 1200, BIPEDAL,      BLACK  ; KINGAMBIT
 	assert_table_length NUM_SPECIES
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)

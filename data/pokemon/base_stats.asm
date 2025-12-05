@@ -443,6 +443,7 @@ INCLUDE "data/pokemon/base_stats/sneasler.asm"
 INCLUDE "data/pokemon/base_stats/enamorus_plain.asm"
 INCLUDE "data/pokemon/base_stats/annihilape.asm"
 INCLUDE "data/pokemon/base_stats/dudunsparce.asm"
+INCLUDE "data/pokemon/base_stats/kingambit.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/dudunsparce.asm" ; three segment

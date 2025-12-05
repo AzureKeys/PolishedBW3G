@@ -412,6 +412,7 @@ PokemonPicPointers::
 	pics EnamorusPlain
 	pics Annihilape
 	pics DudunsparceTwoSegment
+	pics Kingambit
 	assert_table_length NUM_SPECIES
 
 	pics PikachuFly

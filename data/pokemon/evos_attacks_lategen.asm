@@ -285,6 +285,7 @@ EvosAttacksPointersLateGen::
 	dw EnamorusEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw DudunsparceEvosAttacks
+	dw KingambitEvosAttacks
 .IndirectEnd::
 	
 	evos_attacks Lotad

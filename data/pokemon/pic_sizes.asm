@@ -426,6 +426,7 @@ INCLUDE "gfx/pokemon/sneasler/front.dimensions"
 INCLUDE "gfx/pokemon/enamorus_plain/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
 INCLUDE "gfx/pokemon/dudunsparce_two_segment/front.dimensions"
+INCLUDE "gfx/pokemon/kingambit/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/pikachu_fly/front.dimensions"

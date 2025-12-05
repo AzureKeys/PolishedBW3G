@@ -352,6 +352,7 @@ ZekromAnimationExtra:     INCLUDE "gfx/pokemon/zekrom/anim_idle.asm"
 KeldeoAnimationExtra:     INCLUDE "gfx/pokemon/keldeo/anim_idle.asm"
 GenesectAnimationExtra:   INCLUDE "gfx/pokemon/genesect/anim_idle.asm"
 RunerigusAnimationExtra:  INCLUDE "gfx/pokemon/runerigus/anim_idle.asm"
+KingambitAnimationExtra:  INCLUDE "gfx/pokemon/kingambit/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

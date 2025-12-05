@@ -408,6 +408,7 @@ EvolutionMoves::
 	db NO_MOVE      ; ENAMORUS
 	db SHADOW_CLAW  ; ANNIHILAPE (Shadow Punch → TM move)
 	db NO_MOVE      ; DUDUNSPARCE
+	db SACRED_SWORD ; KINGAMBIT (Kowtow Cleave → new move)
 	assert_table_length NUM_SPECIES
 
 	db NO_MOVE      ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM

@@ -302,6 +302,7 @@ ZekromFrames:     INCLUDE "gfx/pokemon/zekrom/frames.asm"
 KeldeoFrames:     INCLUDE "gfx/pokemon/keldeo/frames.asm"
 GenesectFrames:   INCLUDE "gfx/pokemon/genesect/frames.asm"
 RunerigusFrames:  INCLUDE "gfx/pokemon/runerigus/frames.asm"
+KingambitFrames:  INCLUDE "gfx/pokemon/kingambit/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 

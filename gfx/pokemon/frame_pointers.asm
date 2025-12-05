@@ -408,6 +408,7 @@ FramesPointers:
 	dw EnamorusPlainFrames
 	dw AnnihilapeFrames
 	dw DudunsparceTwoSegmentFrames
+	dw KingambitFrames
 	assert_table_length NUM_SPECIES
 
 	dw PikachuFlyFrames

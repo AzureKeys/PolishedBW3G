@@ -408,6 +408,7 @@ FootprintPointers::
 	dw EnamorusFootprint
 	dw AnnihilapeFootprint
 	dw DudunsparceFootprint
+	dw KingambitFootprint
 	assert_table_length NUM_SPECIES
 
 	dw DudunsparceFootprint

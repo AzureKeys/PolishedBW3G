@@ -4043,6 +4043,16 @@ DudunsparcePokedexEntry::
 	next "The nest can reach"
 	next "over six miles.@"
 
+SECTION "KingambitPokedexEntry", ROMX
+KingambitPokedexEntry::
+	db "Big Blade@"
+	db   "Though it commands"
+	next "a massive army, it"
+	next "is not skilled at"
+	page "devising strategy."
+	next "It just uses brute"
+	next "strength to fight.@"
+
 SECTION "RattataAlolanPokedexEntry", ROMX
 RattataAlolanPokedexEntry::
 	db "Mouse@"

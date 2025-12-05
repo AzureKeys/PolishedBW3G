@@ -2068,6 +2068,11 @@ DudunsparceThreeSegmentBackpic:  INCBIN "gfx/pokemon/dudunsparce/back.2bpp.lz"
 DudunsparceTwoSegmentFrames:     INCLUDE "gfx/pokemon/dudunsparce_two_segment/frames.asm"
 DudunsparceThreeSegmentFrames:   INCLUDE "gfx/pokemon/dudunsparce_three_segment/frames.asm"
 
+SECTION "Kingambit Pics", ROMX
+KingambitFrontpic: INCBIN "gfx/pokemon/kingambit/front.animated.2bpp.lz"
+KingambitBackpic:  INCBIN "gfx/pokemon/kingambit/back.2bpp.lz"
+KingambitFrames:   INCLUDE "gfx/pokemon/kingambit/frames.asm"
+
 SECTION "EggPic", ROMX
 EggPic:    INCBIN "gfx/pokemon/egg/front.animated.2bpp.lz"
 EggFrames: INCLUDE "gfx/pokemon/egg/frames.asm"

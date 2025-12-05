@@ -2042,6 +2042,11 @@ DudunsparceThreeSegmentMini::     INCBIN "gfx/minis/dudunsparce_three_segment.2b
 DudunsparceThreeSegmentMiniMask:: INCBIN "gfx/minis/dudunsparce_three_segment_mask.1bpp.lz"
 DudunsparceThreeSegmentIcon::     INCBIN "gfx/icons/dudunsparce_three_segment.2bpp.lz"
 
+SECTION "Kingambit Mini Icon", ROMX
+KingambitMini::     INCBIN "gfx/minis/kingambit.2bpp.lz"
+KingambitMiniMask:: INCBIN "gfx/minis/kingambit_mask.1bpp.lz"
+KingambitIcon::     INCBIN "gfx/icons/kingambit.2bpp.lz"
+
 SECTION "RattataAlolan Mini Icon", ROMX
 RattataAlolanMini::     INCBIN "gfx/minis/rattata_alolan.2bpp.lz"
 RattataAlolanMiniMask:: INCBIN "gfx/minis/rattata_alolan_mask.1bpp.lz"

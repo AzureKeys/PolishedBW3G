@@ -412,6 +412,7 @@ MiniIconPointers:
 	mini_icon Enamorus
 	mini_icon Annihilape
 	mini_icon DudunsparceTwoSegment
+	mini_icon Kingambit
 	assert_table_length NUM_SPECIES
 
 	mini_icon PikachuFly ; Fly

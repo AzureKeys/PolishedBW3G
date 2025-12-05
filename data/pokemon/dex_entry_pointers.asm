@@ -409,6 +409,7 @@ PokedexDataPointerTable:
 	dba EnamorusPokedexEntry
 	dba AnnihilapePokedexEntry
 	dba DudunsparcePokedexEntry
+	dba KingambitPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba DudunsparcePokedexEntry

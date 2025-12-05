@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_F100, HATCH_UNKNOWN  ; gender ratio, step cycles to hatch
 
-	abilities_for ENAMORUS, OVERCOAT, OVERCOAT, OVERCOAT
+	abilities_for ENAMORUS_THERIAN, OVERCOAT, OVERCOAT, OVERCOAT
 	db GROWTH_SLOW  ; growth rate
 	dn EGG_NONE, EGG_NONE  ; egg groups
 

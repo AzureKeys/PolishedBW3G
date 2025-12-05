@@ -412,6 +412,7 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; ENAMORUS
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal AZURE, RED ; DUDUNSPARCE
+	iconpal RED, BLUE ; KINGAMBIT
 	assert_table_length NUM_SPECIES
 
 rept NUM_PIKACHU - 1

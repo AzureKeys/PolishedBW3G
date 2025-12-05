@@ -409,4 +409,5 @@ PokemonNames::
 	rawchar "Enamorus@@"
 	rawchar "Annihilape"
 	rawchar "D'dunsparce"
+	rawchar "Kingambit@"
 	assert_table_length NUM_SPECIES + 1

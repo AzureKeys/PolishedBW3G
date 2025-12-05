@@ -408,6 +408,7 @@ BitmasksPointers:
 	dw EnamorusPlainBitmasks
 	dw AnnihilapeBitmasks
 	dw DudunsparceTwoSegmentBitmasks
+	dw KingambitBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw PikachuFlyBitmasks

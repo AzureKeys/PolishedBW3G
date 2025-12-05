@@ -159,6 +159,7 @@ AlphabeticalPokedexOrder:
 	dp KANGASKHAN
 	dp KARRABLAST
 	dp KELDEO
+	dp KINGAMBIT
 	dp KINGDRA
 	dp KIRLIA
 	dp KLANG
