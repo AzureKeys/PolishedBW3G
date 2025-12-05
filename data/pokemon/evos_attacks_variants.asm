@@ -69,6 +69,8 @@ EvosAttacksPointersVariants::
 	dw KyuremAltEvosAttacks
 	
 	dw MeloettaPirouetteEvosAttacks
+	
+	dw EnamorusTherianEvosAttacks
 .IndirectEnd::
 
 	evos_attacks DudunsparceThreeSegment
@@ -1009,5 +1011,24 @@ EvosAttacksPointersVariants::
 	learnset 71, SKILL_SWAP ; Role Play → SV TM move
 	learnset 78, CLOSE_COMBAT
 	learnset 85, PERISH_SONG
+	
+	evos_attacks EnamorusTherian
+	learnset 1, TACKLE ; Astonish → LA move
+	learnset 1, DISARM_VOICE ; Fairy Wind → SV TM move
+	learnset 5, LEER ; Torment → Tornadus/Thundurus/Landorus move
+	learnset 10, ATTRACT ; Flatter → new move
+	learnset 15, BITE ; Twister → LA move
+	learnset 20, DRAINING_KISS
+	learnset 25, BARRIER ; Iron Defense → similar move
+	learnset 30, EXTRASENSORY ; Imprison → moved Extrasensory from Lv45
+	learnset 35, SLUDGE_BOMB ; Mystical Fire → TM move
+	learnset 40, DAZZLINGLEAM
+	learnset 45, PSYCHIC_M ; Extrasensory → TM move
+	learnset 50, CRUNCH ; Uproar → LA move
+	learnset 55, CLOSE_COMBAT ; Superpower → similar move
+	learnset 60, WEATHER_BALL ; Healing Wish → SV TM move
+	learnset 65, MOONBLAST
+	learnset 70, OUTRAGE
+	learnset 75, SHELL_SMASH ; Springtide Storm → new move
 
 	end_evos_attacks

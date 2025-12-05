@@ -2022,6 +2022,11 @@ SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
 SneaslerMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
 SneaslerIcon::     INCBIN "gfx/icons/sneasler.2bpp.lz"
 
+SECTION "Enamorus Mini Icon", ROMX
+EnamorusMini::     INCBIN "gfx/minis/enamorus.2bpp.lz"
+EnamorusMiniMask:: INCBIN "gfx/minis/enamorus_mask.1bpp.lz"
+EnamorusIcon::     INCBIN "gfx/icons/enamorus.2bpp.lz"
+
 SECTION "Annihilape Mini Icon", ROMX
 AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
 AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
@@ -2271,6 +2276,11 @@ SECTION "MeloettaPirouette Mini Icon", ROMX
 MeloettaPirouetteMini::     INCBIN "gfx/minis/meloetta_pirouette.2bpp.lz"
 MeloettaPirouetteMiniMask:: INCBIN "gfx/minis/meloetta_pirouette_mask.1bpp.lz"
 MeloettaPirouetteIcon::     INCBIN "gfx/icons/meloetta_pirouette.2bpp.lz"
+
+SECTION "EnamorusTherian Mini Icon", ROMX
+EnamorusTherianMini::     INCBIN "gfx/minis/enamorus_therian.2bpp.lz"
+EnamorusTherianMiniMask:: INCBIN "gfx/minis/enamorus_therian_mask.1bpp.lz"
+EnamorusTherianIcon::     INCBIN "gfx/icons/enamorus_therian.2bpp.lz"
 
 SECTION "Egg Mini Icon", ROMX
 EggMini::     INCBIN "gfx/minis/egg.2bpp.lz"

@@ -430,6 +430,7 @@ DEF NUM_JOHTO_POKEMON EQU const_value - 1
 	const RUNERIGUS  ; 193
 	const KLEAVOR    ; 194
 	const SNEASLER   ; 196
+	const ENAMORUS   ; 197
 	const ANNIHILAPE ; 198
 	const DUDUNSPARCE ; 199
 DEF NUM_SPECIES EQU const_value - 1 ; 19a
@@ -595,6 +596,10 @@ DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
 ; meloetta
 	ext_const_def 1, MELOETTA_ARIA_FORM ; (1)
 	ext_const MELOETTA_PIROUETTE_FORM   ; 13f (2)
+	
+; enamorus
+	ext_const_def 2
+	ext_const ENAMORUS_THERIAN_FORM ; 15d (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 

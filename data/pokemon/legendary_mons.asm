@@ -7,6 +7,7 @@ LegendaryMons::
 	dp THUNDURUS
 	dp LANDORUS
 	dp KELDEO
+	dp ENAMORUS
 UberMons::
 ; banned from Battle Tower
 	dp VICTINI

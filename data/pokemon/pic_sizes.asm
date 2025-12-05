@@ -423,6 +423,7 @@ INCLUDE "gfx/pokemon/mr__rime/front.dimensions"
 INCLUDE "gfx/pokemon/runerigus/front.dimensions"
 INCLUDE "gfx/pokemon/kleavor/front.dimensions"
 INCLUDE "gfx/pokemon/sneasler/front.dimensions"
+INCLUDE "gfx/pokemon/enamorus_plain/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
 INCLUDE "gfx/pokemon/dudunsparce_two_segment/front.dimensions"
 	assert_list_length NUM_SPECIES
@@ -505,6 +506,8 @@ INCLUDE "gfx/pokemon/kyurem_white/front.dimensions"
 INCLUDE "gfx/pokemon/kyurem_black/front.dimensions"
 
 INCLUDE "gfx/pokemon/meloetta_pirouette/front.dimensions"
+
+INCLUDE "gfx/pokemon/enamorus_therian/front.dimensions"
 
 	if list_index % 2
 		db size_value << 4

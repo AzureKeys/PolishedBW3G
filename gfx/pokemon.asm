@@ -2010,6 +2010,11 @@ MeloettaPlainFrontpic: INCBIN "gfx/pokemon/meloetta_plain/front.animated.2bpp.lz
 MeloettaPlainBackpic:  INCBIN "gfx/pokemon/meloetta_plain/back.2bpp.lz"
 MeloettaPlainFrames:   INCLUDE "gfx/pokemon/meloetta_plain/frames.asm"
 
+SECTION "EnamorusPlain Pics", ROMX
+EnamorusPlainFrontpic: INCBIN "gfx/pokemon/enamorus_plain/front.animated.2bpp.lz"
+EnamorusPlainBackpic:  INCBIN "gfx/pokemon/enamorus_plain/back.2bpp.lz"
+EnamorusPlainFrames:   INCLUDE "gfx/pokemon/enamorus_plain/frames.asm"
+
 SECTION "Genesect Pics", ROMX
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lz"
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lz"
@@ -2326,3 +2331,8 @@ SECTION "MeloettaPirouette Pics", ROMX
 MeloettaPirouetteFrontpic: INCBIN "gfx/pokemon/meloetta_pirouette/front.animated.2bpp.lz"
 MeloettaPirouetteBackpic:  INCBIN "gfx/pokemon/meloetta_pirouette/back.2bpp.lz"
 MeloettaPirouetteFrames:   INCLUDE "gfx/pokemon/meloetta_pirouette/frames.asm"
+
+SECTION "EnamorusTherian Pics", ROMX
+EnamorusTherianFrontpic: INCBIN "gfx/pokemon/enamorus_therian/front.animated.2bpp.lz"
+EnamorusTherianBackpic:  INCBIN "gfx/pokemon/enamorus_therian/back.2bpp.lz"
+EnamorusTherianFrames:   INCLUDE "gfx/pokemon/enamorus_therian/frames.asm"

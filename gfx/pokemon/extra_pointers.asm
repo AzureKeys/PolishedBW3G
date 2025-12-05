@@ -405,6 +405,7 @@ AnimationExtraPointers:
 	dw RunerigusAnimationExtra
 	dw KleavorAnimationExtra
 	dw SneaslerAnimationExtra
+	dw EnamorusPlainAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw DudunsparceTwoSegmentAnimationExtra
 	assert_table_length NUM_SPECIES
@@ -487,5 +488,7 @@ AnimationExtraPointers:
 	dw KyuremBlackAnimationExtra
 	
 	dw MeloettaPirouetteAnimationExtra
+	
+	dw EnamorusTherianAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

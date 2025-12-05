@@ -405,6 +405,7 @@ EggSpeciesMovesPointers::
 	dw YamaskGalarianEggSpeciesMoves    ; Runerigus
 	dw ScytherEggSpeciesMoves           ; Kleavor
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
+	dw NoEggSpeciesMoves                ; Enamorus
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	assert_table_length NUM_SPECIES
@@ -477,5 +478,7 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Kyurem (Black)
 	
 	dw NoEggSpeciesMoves                ; Meloetta (Pirouette)
+	
+	dw NoEggSpeciesMoves                ; Enamorus (Therian)
 
 	assert_table_length NUM_EXT_POKEMON

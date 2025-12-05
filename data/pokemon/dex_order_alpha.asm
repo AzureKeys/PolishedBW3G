@@ -95,6 +95,7 @@ AlphabeticalPokedexOrder:
 	dp ELGYEM
 	dp EMBOAR
 	dp EMOLGA
+	dp ENAMORUS
 	dp ESCAVALIER
 	dp ESPEON
 	dp EXCADRILL

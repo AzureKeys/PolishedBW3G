@@ -409,6 +409,7 @@ PokemonPicPointers::
 	pics Runerigus
 	pics Kleavor
 	pics Sneasler
+	pics EnamorusPlain
 	pics Annihilape
 	pics DudunsparceTwoSegment
 	assert_table_length NUM_SPECIES
@@ -491,5 +492,7 @@ PokemonPicPointers::
 	pics KyuremBlack
 	
 	pics MeloettaPirouette
+	
+	pics EnamorusTherian
 
 	assert_table_length NUM_UNIQUE_POKEMON

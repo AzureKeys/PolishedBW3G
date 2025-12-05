@@ -28,4 +28,6 @@ NewBaseExpExceptions:
 	base_exception MELOETTA, PLAIN_FORM, 270 ; BST x 50.0% as of gen V (unchanged in VIII)
 	base_exception MELOETTA, MELOETTA_PIROUETTE_FORM, 270 ; BST x 50.0% as of gen V (unchanged in VIII)
 	base_exception GENESECT, PLAIN_FORM, 270 ; BST x 50.0% as of gen V (unchanged in VIII)
+	base_exception ENAMORUS, PLAIN_FORM, 270 ; BST x 50.0% as of gen V (unchanged in VIII)
+	base_exception ENAMORUS, ENAMORUS_THERIAN_FORM, 270 ; BST x 50.0% as of gen V (unchanged in VIII)
 	dw -1

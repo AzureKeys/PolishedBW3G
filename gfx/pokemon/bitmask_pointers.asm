@@ -405,6 +405,7 @@ BitmasksPointers:
 	dw RunerigusBitmasks
 	dw KleavorBitmasks
 	dw SneaslerBitmasks
+	dw EnamorusPlainBitmasks
 	dw AnnihilapeBitmasks
 	dw DudunsparceTwoSegmentBitmasks
 	assert_table_length NUM_SPECIES
@@ -487,5 +488,7 @@ BitmasksPointers:
 	dw KyuremBlackBitmasks
 	
 	dw MeloettaPirouetteBitmasks
+	
+	dw EnamorusTherianBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

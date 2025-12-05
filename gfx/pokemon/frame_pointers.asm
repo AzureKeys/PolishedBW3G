@@ -405,6 +405,7 @@ FramesPointers:
 	dw RunerigusFrames
 	dw KleavorFrames
 	dw SneaslerFrames
+	dw EnamorusPlainFrames
 	dw AnnihilapeFrames
 	dw DudunsparceTwoSegmentFrames
 	assert_table_length NUM_SPECIES
@@ -487,5 +488,7 @@ FramesPointers:
 	dw KyuremBlackFrames
 	
 	dw MeloettaPirouetteFrames
+	
+	dw EnamorusTherianFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

@@ -410,6 +410,7 @@ endc
 	db  34, 100 ; Runerigus
 	db  20, 100 ; Kleavor
 	db  40, 100 ; Sneasler
+	db 255, 255 ; Enamorus
 	db  56, 100 ; Annihilape
 	db  32, 100 ; Dudunsparce
 	assert_table_length NUM_SPECIES

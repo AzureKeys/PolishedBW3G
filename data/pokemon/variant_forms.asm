@@ -68,6 +68,7 @@ VariantSpeciesAndFormTable:
 	dp KYUREM,     KYUREM_WHITE_FORM
 	dp KYUREM,     KYUREM_BLACK_FORM
 	dp MELOETTA,   MELOETTA_PIROUETTE_FORM
+	dp ENAMORUS,   ENAMORUS_THERIAN_FORM
 	assert_table_length NUM_VARIANT_FORMS
 
 	db 0 ; end

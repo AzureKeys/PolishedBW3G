@@ -159,6 +159,7 @@ NewPokedexOrder:
 	dp MELOETTA
 	dp GENESECT
 	dp RUNERIGUS
+	dp ENAMORUS
 	dp LOTAD
 	dp LOMBRE
 	dp LUDICOLO

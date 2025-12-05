@@ -411,6 +411,7 @@ PokemonCries::
 	mon_cry CRY_YAMASK,     -$320,  $15a ; RUNERIGUS*
 	mon_cry CRY_CATERPIE,    $000,  $100 ; KLEAVOR*
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASLER*
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; ENAMORUS*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; ANNIHILAPE*
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUDUNSPARCE*
 	assert_table_length NUM_SPECIES

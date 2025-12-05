@@ -409,6 +409,7 @@ MiniIconPointers:
 	mini_icon Runerigus
 	mini_icon Kleavor
 	mini_icon Sneasler
+	mini_icon Enamorus
 	mini_icon Annihilape
 	mini_icon DudunsparceTwoSegment
 	assert_table_length NUM_SPECIES
@@ -491,5 +492,7 @@ MiniIconPointers:
 	mini_icon KyuremBlack
 	
 	mini_icon MeloettaPirouette
+	
+	mini_icon EnamorusTherian
 
 	assert_table_length NUM_UNIQUE_POKEMON

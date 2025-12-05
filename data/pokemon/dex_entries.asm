@@ -4013,6 +4013,16 @@ SneaslerPokedexEntry::
 	next "solitude, it does"
 	next "not form packs.@"
 
+SECTION "EnamorusPokedexEntry", ROMX
+EnamorusPokedexEntry::
+	db "Love-Hate@"
+	db   "When it flies to"
+	next "the land from over"
+	next "the sea, winter"
+	page "comes to an end."
+	next "Its love gives"
+	next "rise to new life.@"
+
 SECTION "AnnihilapePokedexEntry", ROMX
 AnnihilapePokedexEntry::
 	db "Rage Monkey@"

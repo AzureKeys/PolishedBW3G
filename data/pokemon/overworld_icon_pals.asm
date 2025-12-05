@@ -409,6 +409,7 @@ OverworldMonIconColors::
 	iconpal RED, PINK ; RUNERIGUS
 	iconpal BROWN, GREEN ; KLEAVOR
 	iconpal RED, BROWN ; SNEASLER
+	iconpal RED, PINK ; ENAMORUS
 	iconpal BROWN, BLUE ; ANNIHILAPE
 	iconpal AZURE, RED ; DUDUNSPARCE
 	assert_table_length NUM_SPECIES
@@ -489,5 +490,7 @@ endr
 	iconpal TEAL, GRAY ; KYUREM, KYUREM_BLACK_FORM
 	
 	iconpal ORANGE, PINK ; MELOETTA, MELOETTA_PIROUETTE_FORM
+	
+	iconpal RED, PINK ; ENAMORUS, ENAMORUS_THERIAN_FORM
 
 	assert_table_length NUM_UNIQUE_POKEMON

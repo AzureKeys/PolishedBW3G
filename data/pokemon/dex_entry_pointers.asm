@@ -406,6 +406,7 @@ PokedexDataPointerTable:
 	dba RunerigusPokedexEntry
 	dba KleavorPokedexEntry
 	dba SneaslerPokedexEntry
+	dba EnamorusPokedexEntry
 	dba AnnihilapePokedexEntry
 	dba DudunsparcePokedexEntry
 	assert_table_length NUM_SPECIES
@@ -478,5 +479,7 @@ PokedexDataPointerTable:
 	dba KyuremPokedexEntry
 	
 	dba MeloettaPokedexEntry
+	
+	dba EnamorusPokedexEntry
 
 	assert_table_length NUM_EXT_POKEMON

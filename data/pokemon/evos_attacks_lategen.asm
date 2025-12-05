@@ -282,6 +282,7 @@ EvosAttacksPointersLateGen::
 	dw RunerigusEvosAttacks
 	dw KleavorEvosAttacks
 	dw SneaslerEvosAttacks
+	dw EnamorusEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw DudunsparceEvosAttacks
 .IndirectEnd::

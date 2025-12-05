@@ -405,6 +405,7 @@ FootprintPointers::
 	dw RunerigusFootprint
 	dw KleavorFootprint
 	dw SneaslerFootprint
+	dw EnamorusFootprint
 	dw AnnihilapeFootprint
 	dw DudunsparceFootprint
 	assert_table_length NUM_SPECIES
@@ -477,5 +478,7 @@ FootprintPointers::
 	dw KyuremFootprint
 	
 	dw MeloettaFootprint
+	
+	dw EnamorusFootprint
 
 	assert_table_length NUM_EXT_POKEMON
