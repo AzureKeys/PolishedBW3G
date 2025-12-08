@@ -456,6 +456,7 @@ AnimationExtraPointers:
 	dw GrowlitheHisuianAnimationExtra
 	dw ArcanineHisuianAnimationExtra
 	dw SneaselHisuianAnimationExtra
+	dw BraviaryHisuianAnimationExtra
 	
 	dw CastformSunAnimationExtra
 	dw CastformRainAnimationExtra

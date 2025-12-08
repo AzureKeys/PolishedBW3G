@@ -373,7 +373,8 @@ JellicentFemaleFrames: INCLUDE "gfx/pokemon/jellicent_female/frames.asm"
 
 StunfiskPlainFrames: INCLUDE "gfx/pokemon/stunfisk_plain/frames.asm"
 
-BraviaryPlainFrames: INCLUDE "gfx/pokemon/braviary_plain/frames.asm"
+BraviaryPlainFrames:   INCLUDE "gfx/pokemon/braviary_plain/frames.asm"
+BraviaryHisuianFrames: INCLUDE "gfx/pokemon/braviary_hisuian/frames.asm"
 
 TornadusPlainFrames:   INCLUDE "gfx/pokemon/tornadus_plain/frames.asm"
 TornadusTherianFrames: INCLUDE "gfx/pokemon/tornadus_therian/frames.asm"

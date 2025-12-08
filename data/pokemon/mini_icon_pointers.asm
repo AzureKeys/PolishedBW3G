@@ -460,6 +460,7 @@ MiniIconPointers:
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
 	mini_icon SneaselHisuian
+	mini_icon BraviaryHisuian
 	
 	mini_icon CastformSun
 	mini_icon CastformRain

@@ -527,6 +527,7 @@ DEF HISUIAN_FORM EQU 4
 	const_skip ; 17e growlithe
 	const_skip ; 17f arcanine
 	const_skip ; 184 sneasel
+	const_skip ; 184 braviary
 
 ; paldean forms
 DEF PALDEAN_FORM EQU 5

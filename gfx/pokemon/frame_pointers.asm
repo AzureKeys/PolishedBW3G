@@ -456,6 +456,7 @@ FramesPointers:
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames
 	dw SneaselHisuianFrames
+	dw BraviaryHisuianFrames
 	
 	dw CastformSunFrames
 	dw CastformRainFrames

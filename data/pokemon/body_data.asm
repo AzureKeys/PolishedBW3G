@@ -453,6 +453,7 @@ PokemonBodyData:
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
+	body_data  17,  434, WINGS,        WHITE  ; BRAVIARY (HISUIAN_FORM)
 	
 	body_data   3,    8, HEAD,         RED    ; CASTFORM (CASTFORM_SUN_FORM)
 	body_data   3,    8, HEAD,         BLUE   ; CASTFORM (CASTFORM_RAIN_FORM)

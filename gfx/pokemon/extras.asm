@@ -500,7 +500,8 @@ JellicentFemaleAnimationExtra: INCLUDE "gfx/pokemon/jellicent_female/anim_idle.a
 
 StunfiskPlainAnimationExtra: INCLUDE "gfx/pokemon/stunfisk_plain/anim_idle.asm"
 
-BraviaryPlainAnimationExtra: INCLUDE "gfx/pokemon/braviary_plain/anim_idle.asm"
+BraviaryPlainAnimationExtra:   INCLUDE "gfx/pokemon/braviary_plain/anim_idle.asm"
+BraviaryHisuianAnimationExtra: INCLUDE "gfx/pokemon/braviary_hisuian/anim_idle.asm"
 
 TornadusPlainAnimationExtra:   INCLUDE "gfx/pokemon/tornadus_plain/anim_idle.asm"
 TornadusTherianAnimationExtra: INCLUDE "gfx/pokemon/tornadus_therian/anim_idle.asm"

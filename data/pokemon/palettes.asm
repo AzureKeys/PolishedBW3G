@@ -898,6 +898,8 @@ INCLUDE "gfx/pokemon/arcanine_hisuian/normal.pal"
 INCLUDE "gfx/pokemon/arcanine_hisuian/shiny.pal"
 INCLUDE "gfx/pokemon/sneasel_hisuian/normal.pal"
 INCLUDE "gfx/pokemon/sneasel_hisuian/shiny.pal"
+INCLUDE "gfx/pokemon/braviary_hisuian/normal.pal"
+INCLUDE "gfx/pokemon/braviary_hisuian/shiny.pal"
 
 INCLUDE "gfx/pokemon/castform_sun/normal.pal"
 INCLUDE "gfx/pokemon/castform_sun/shiny.pal"

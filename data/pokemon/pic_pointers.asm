@@ -460,6 +460,7 @@ PokemonPicPointers::
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
 	pics SneaselHisuian
+	pics BraviaryHisuian
 	
 	pics CastformSun
 	pics CastformRain

@@ -446,6 +446,7 @@ EggSpeciesMovesPointers::
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
+	dw RuffletEggSpeciesMoves           ; Braviary (Hisuian Form)
 	
 	dw CastformEggSpeciesMoves          ; Castform (Sun Form)
 	dw CastformEggSpeciesMoves          ; Castform (Rain Form)

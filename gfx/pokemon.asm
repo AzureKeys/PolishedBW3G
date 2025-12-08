@@ -2207,11 +2207,6 @@ SlowkingGalarianFrontpic: INCBIN "gfx/pokemon/slowking_galarian/front.animated.2
 SlowkingGalarianBackpic:  INCBIN "gfx/pokemon/slowking_galarian/back.2bpp.lz"
 SlowkingGalarianFrames:   INCLUDE "gfx/pokemon/slowking_galarian/frames.asm"
 
-SECTION "SneaselHisuian Pics", ROMX
-SneaselHisuianFrontpic: INCBIN "gfx/pokemon/sneasel_hisuian/front.animated.2bpp.lz"
-SneaselHisuianBackpic:  INCBIN "gfx/pokemon/sneasel_hisuian/back.2bpp.lz"
-SneaselHisuianFrames:   INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"
-
 SECTION "CorsolaGalarian Pics", ROMX
 CorsolaGalarianFrontpic: INCBIN "gfx/pokemon/corsola_galarian/front.animated.2bpp.lz"
 CorsolaGalarianBackpic:  INCBIN "gfx/pokemon/corsola_galarian/back.2bpp.lz"
@@ -2231,6 +2226,16 @@ SECTION "YamaskGalarian Pics", ROMX
 YamaskGalarianFrontpic: INCBIN "gfx/pokemon/yamask_galarian/front.animated.2bpp.lz"
 YamaskGalarianBackpic:  INCBIN "gfx/pokemon/yamask_galarian/back.2bpp.lz"
 YamaskGalarianFrames:   INCLUDE "gfx/pokemon/yamask_galarian/frames.asm"
+
+SECTION "SneaselHisuian Pics", ROMX
+SneaselHisuianFrontpic: INCBIN "gfx/pokemon/sneasel_hisuian/front.animated.2bpp.lz"
+SneaselHisuianBackpic:  INCBIN "gfx/pokemon/sneasel_hisuian/back.2bpp.lz"
+SneaselHisuianFrames:   INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"
+
+SECTION "BraviaryHisuian Pics", ROMX
+BraviaryHisuianFrontpic: INCBIN "gfx/pokemon/braviary_hisuian/front.animated.2bpp.lz"
+BraviaryHisuianBackpic:  INCBIN "gfx/pokemon/braviary_hisuian/back.2bpp.lz"
+BraviaryHisuianFrames:   INCLUDE "gfx/pokemon/braviary_hisuian/frames.asm"
 
 SECTION "CastformSun Pics", ROMX
 CastformSunFrontpic: INCBIN "gfx/pokemon/castform_sun/front.animated.2bpp.lz"

@@ -481,6 +481,7 @@ INCLUDE "data/pokemon/base_stats/yamask_galarian.asm"
 INCLUDE "data/pokemon/base_stats/growlithe_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/arcanine_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/sneasel_hisuian.asm"
+INCLUDE "data/pokemon/base_stats/braviary_hisuian.asm"
 
 INCLUDE "data/pokemon/base_stats/castform_sun.asm"
 INCLUDE "data/pokemon/base_stats/castform_rain.asm"

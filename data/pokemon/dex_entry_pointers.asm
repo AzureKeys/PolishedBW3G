@@ -447,6 +447,7 @@ PokedexDataPointerTable:
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
+	dba BraviaryHisuianPokedexEntry
 	
 	dba CastformPokedexEntry
 	dba CastformPokedexEntry

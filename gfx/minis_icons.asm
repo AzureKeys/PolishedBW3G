@@ -2202,6 +2202,11 @@ SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"
 SneaselHisuianMiniMask:: INCBIN "gfx/minis/sneasel_hisuian_mask.1bpp.lz"
 SneaselHisuianIcon::     INCBIN "gfx/icons/sneasel_hisuian.2bpp.lz"
 
+SECTION "BraviaryHisuian Mini Icon", ROMX
+BraviaryHisuianMini::     INCBIN "gfx/minis/braviary_hisuian.2bpp.lz"
+BraviaryHisuianMiniMask:: INCBIN "gfx/minis/braviary_hisuian_mask.1bpp.lz"
+BraviaryHisuianIcon::     INCBIN "gfx/icons/braviary_hisuian.2bpp.lz"
+
 SECTION "CastformSun Mini Icon", ROMX
 CastformSunMini::     INCBIN "gfx/minis/castform_sun.2bpp.lz"
 CastformSunMiniMask:: INCBIN "gfx/minis/castform_sun_mask.1bpp.lz"

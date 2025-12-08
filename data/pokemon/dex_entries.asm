@@ -4367,6 +4367,16 @@ SneaselHisuianPokedexEntry::
 	next "venom that infil-"
 	next "trates its prey.@"
 
+SECTION "BraviaryHisuianPokedexEntry", ROMX
+BraviaryHisuianPokedexEntry::
+	db "Battle Cry@"
+	db "Screaming a battle"
+	next "cry, this huge"
+	next "bird #mon goes"
+	page "on the hust. It"
+	next "blasts lakes and"
+	next "scoops up prey.@"
+
 SECTION "BasculinRedPokedexEntry", ROMX
 BasculinRedPokedexEntry::
 	db "Hostile@"

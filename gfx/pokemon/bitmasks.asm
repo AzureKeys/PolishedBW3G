@@ -500,7 +500,8 @@ JellicentFemaleBitmasks: INCLUDE "gfx/pokemon/jellicent_female/bitmask.asm"
 
 StunfiskPlainBitmasks: INCLUDE "gfx/pokemon/stunfisk_plain/bitmask.asm"
 
-BraviaryPlainBitmasks: INCLUDE "gfx/pokemon/braviary_plain/bitmask.asm"
+BraviaryPlainBitmasks:   INCLUDE "gfx/pokemon/braviary_plain/bitmask.asm"
+BraviaryHisuianBitmasks: INCLUDE "gfx/pokemon/braviary_hisuian/bitmask.asm"
 
 TornadusPlainBitmasks:   INCLUDE "gfx/pokemon/tornadus_plain/bitmask.asm"
 TornadusTherianBitmasks: INCLUDE "gfx/pokemon/tornadus_therian/bitmask.asm"
