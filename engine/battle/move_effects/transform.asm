@@ -15,7 +15,7 @@ BattleCommand_transform:
 	ld de, wBattleMonItem
 .got_mon_item
 
-	call GetTrueUserAbility
+	call GetTrueUserIgnorableAbility
 	cp INFILTRATOR
 	jr z, .bypass_sub
 	ld a, BATTLE_VARS_SUBSTATUS4_OPP
