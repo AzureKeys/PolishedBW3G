@@ -334,7 +334,8 @@ UnfezantFemaleFrames: INCLUDE "gfx/pokemon/unfezant_female/frames.asm"
 
 SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
 
-LilligantPlainFrames: INCLUDE "gfx/pokemon/lilligant_plain/frames.asm"
+LilligantPlainFrames:   INCLUDE "gfx/pokemon/lilligant_plain/frames.asm"
+LilligantHisuianFrames: INCLUDE "gfx/pokemon/lilligant_hisuian/frames.asm"
 
 BasculinRedFrames:   INCLUDE "gfx/pokemon/basculin_red/frames.asm"
 BasculinBlueFrames:  INCLUDE "gfx/pokemon/basculin_blue/frames.asm"

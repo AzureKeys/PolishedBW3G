@@ -447,6 +447,7 @@ EggSpeciesMovesPointers::
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasel (Hisuian Form)
+	dw PetililEggSpeciesMoves           ; Lilligant (Hisuian Form)
 	dw ZoruaHisuianEggSpeciesMoves      ; Zorua (Hisuian Form)
 	dw ZoruaHisuianEggSpeciesMoves      ; Zoroark (Hisuian Form)
 	dw RuffletEggSpeciesMoves           ; Braviary (Hisuian Form)

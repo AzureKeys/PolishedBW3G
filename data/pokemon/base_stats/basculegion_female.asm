@@ -5,7 +5,7 @@
 	db 45 ; catch rate
 	db 255  ; base exp
 	db NO_ITEM, NO_ITEM  ; held items
-	dn GENDER_F0, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
+	dn GENDER_F100, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for BASCULEGION, SWIFT_SWIM, ADAPTABILITY, MOLD_BREAKER
 	db GROWTH_MEDIUM_FAST  ; growth rate

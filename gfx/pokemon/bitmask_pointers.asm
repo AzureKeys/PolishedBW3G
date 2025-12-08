@@ -457,6 +457,7 @@ BitmasksPointers:
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks
 	dw SneaselHisuianBitmasks
+	dw LilligantHisuianBitmasks
 	dw ZoruaHisuianBitmasks
 	dw ZoroarkHisuianBitmasks
 	dw BraviaryHisuianBitmasks

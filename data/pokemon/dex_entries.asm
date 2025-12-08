@@ -4377,6 +4377,16 @@ SneaselHisuianPokedexEntry::
 	next "venom that infil-"
 	next "trates its prey.@"
 
+SECTION "LilligantHisuianPokedexEntry", ROMX
+LilligantHisuianPokedexEntry::
+	db "Spinning@"
+	db   "Its well-developed"
+	next "legs are a result"
+	next "of a life spent on"
+	page "mountains. The"
+	next "scent it exudes is"
+	next "invigorating.@"
+
 SECTION "ZoruaHisuianPokedexEntry", ROMX
 ZoruaHisuianPokedexEntry::
 	db "SpitefulFox@"

@@ -2207,6 +2207,11 @@ SneaselHisuianMini::     INCBIN "gfx/minis/sneasel_hisuian.2bpp.lz"
 SneaselHisuianMiniMask:: INCBIN "gfx/minis/sneasel_hisuian_mask.1bpp.lz"
 SneaselHisuianIcon::     INCBIN "gfx/icons/sneasel_hisuian.2bpp.lz"
 
+SECTION "LilligantHisuian Mini Icon", ROMX
+LilligantHisuianMini::     INCBIN "gfx/minis/lilligant_hisuian.2bpp.lz"
+LilligantHisuianMiniMask:: INCBIN "gfx/minis/lilligant_hisuian_mask.1bpp.lz"
+LilligantHisuianIcon::     INCBIN "gfx/icons/lilligant_hisuian.2bpp.lz"
+
 SECTION "ZoruaHisuian Mini Icon", ROMX
 ZoruaHisuianMini::     INCBIN "gfx/minis/zorua_hisuian.2bpp.lz"
 ZoruaHisuianMiniMask:: INCBIN "gfx/minis/zorua_hisuian_mask.1bpp.lz"

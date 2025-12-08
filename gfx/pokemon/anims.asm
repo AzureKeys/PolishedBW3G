@@ -461,7 +461,8 @@ UnfezantFemaleAnimation: INCLUDE "gfx/pokemon/unfezant_female/anim.asm"
 
 SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
 
-LilligantPlainAnimation: INCLUDE "gfx/pokemon/lilligant_plain/anim.asm"
+LilligantPlainAnimation:   INCLUDE "gfx/pokemon/lilligant_plain/anim.asm"
+LilligantHisuianAnimation: INCLUDE "gfx/pokemon/lilligant_hisuian/anim.asm"
 
 BasculinRedAnimation:   INCLUDE "gfx/pokemon/basculin_red/anim.asm"
 BasculinBlueAnimation:  INCLUDE "gfx/pokemon/basculin_blue/anim.asm"
