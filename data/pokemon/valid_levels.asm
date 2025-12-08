@@ -409,6 +409,7 @@ endc
 	db  42, 100 ; Mr. Rime
 	db  34, 100 ; Runerigus
 	db  20, 100 ; Kleavor
+	db  30, 100 ; Basculegion
 	db  40, 100 ; Sneasler
 	db 255, 255 ; Enamorus
 	db  56, 100 ; Annihilape

@@ -404,6 +404,7 @@ FramesPointers:
 	dw MrRimeFrames
 	dw RunerigusFrames
 	dw KleavorFrames
+	dw BasculegionMaleFrames
 	dw SneaslerFrames
 	dw EnamorusPlainFrames
 	dw AnnihilapeFrames
@@ -489,6 +490,8 @@ FramesPointers:
 	dw KyuremBlackFrames
 	
 	dw MeloettaPirouetteFrames
+	
+	dw BasculegionFemaleFrames
 	
 	dw EnamorusTherianFrames
 

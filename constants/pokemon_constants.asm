@@ -429,6 +429,7 @@ DEF NUM_JOHTO_POKEMON EQU const_value - 1
 	const MR__RIME   ; 192
 	const RUNERIGUS  ; 193
 	const KLEAVOR    ; 194
+	const BASCULEGION ; 195
 	const SNEASLER   ; 196
 	const ENAMORUS   ; 197
 	const ANNIHILAPE ; 198
@@ -597,6 +598,10 @@ DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
 ; meloetta
 	ext_const_def 1, MELOETTA_ARIA_FORM ; (1)
 	ext_const MELOETTA_PIROUETTE_FORM   ; 13f (2)
+
+; basculegion
+	ext_const_def 1, BASCULEGION_MALE_FORM ; (1)
+	ext_const BASCULEGION_FEMALE_FORM      ; 13f (2)
 	
 ; enamorus
 	ext_const_def 2

@@ -70,6 +70,8 @@ EvosAttacksPointersVariants::
 	
 	dw MeloettaPirouetteEvosAttacks
 	
+	dw BasculegionFemaleEvosAttacks
+	
 	dw EnamorusTherianEvosAttacks
 .IndirectEnd::
 
@@ -613,22 +615,22 @@ EvosAttacksPointersVariants::
 	learnset 48, NASTY_PLOT ; Power Split/Guard Split → egg move
 	learnset 52, DESTINY_BOND
 	
-	; evos_attacks StunfiskGalarian
-	; learnset 1, MUD_SLAP
-	; learnset 1, TACKLE
-	; learnset 1, WATER_GUN
-	; learnset 1, METAL_CLAW
-	; learnset 5, ENDURE
-	; learnset 10, MUD_SHOT
-	; learnset 15, REVENGE
-	; learnset 20, FLASH_CANNON ; Metal Sound → TM move
-	; learnset 25, SUCKER_PUNCH
-	; learnset 30, BARRIER ; Iron Defense → similar move
-	; learnset 35, CRUNCH ; Bounce → LZA move
-	; learnset 40, EARTH_POWER ; Muddy Water → SwSh TR move
-	; learnset 45, IRON_TAIL ; Snap Trap → new move
-	; learnset 50, REVERSAL ; Flail → similar move
-	; learnset 55, EARTHQUAKE ; Fissure → LZA move
+	evos_attacks StunfiskGalarian
+	learnset 1, MUD_SLAP
+	learnset 1, TACKLE
+	learnset 1, WATER_GUN
+	learnset 1, METAL_CLAW
+	learnset 5, ENDURE
+	learnset 10, MUD_SHOT
+	learnset 15, REVENGE
+	learnset 20, FLASH_CANNON ; Metal Sound → TM move
+	learnset 25, SUCKER_PUNCH
+	learnset 30, BARRIER ; Iron Defense → similar move
+	learnset 35, CRUNCH ; Bounce → LZA move
+	learnset 40, EARTH_POWER ; Muddy Water → SwSh TR move
+	learnset 45, IRON_TAIL ; Snap Trap → new move
+	learnset 50, REVERSAL ; Flail → similar move
+	learnset 55, EARTHQUAKE ; Fissure → LZA move
 
 	evos_attacks GrowlitheHisuian
 	evo_data EVOLVE_ITEM, FIRE_STONE, ARCANINE, HISUIAN_FORM
@@ -687,101 +689,101 @@ EvosAttacksPointersVariants::
 	learnset 54, SCREECH
 	learnset 60, CLOSE_COMBAT
 	
-	; evos_attacks SamurottHisuian
-	; learnset 1, SUCKER_PUNCH
-	; learnset 1, MEGAHORN
-	; learnset 1, SLASH
-	; learnset 1, TACKLE
-	; learnset 1, LEER ; Tail Whip → similar move
-	; learnset 1, WATER_GUN
-	; learnset 13, FOCUS_ENERGY
-	; learnset 18, RAZOR_SHELL
-	; learnset 21, FURY_CUTTER
-	; learnset 25, WATER_PULSE
-	; learnset 29, AERIAL_ACE
-	; learnset 34, AQUA_JET
-	; learnset 36, NIGHT_SLASH ; evolution move (Ceaseless Edge → LA move)
-	; learnset 39, ENCORE
-	; learnset 46, AQUA_TAIL
-	; learnset 51, SACRED_SWORD ; Retaliate → egg move
-	; learnset 58, SWORDS_DANCE
-	; learnset 63, HYDRO_PUMP
-	; learnset 68, MEGAHORN ; added Lv1 move
+	evos_attacks SamurottHisuian
+	learnset 1, SUCKER_PUNCH
+	learnset 1, MEGAHORN
+	learnset 1, SLASH
+	learnset 1, TACKLE
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 1, WATER_GUN
+	learnset 13, FOCUS_ENERGY
+	learnset 18, RAZOR_SHELL
+	learnset 21, FURY_CUTTER
+	learnset 25, WATER_PULSE
+	learnset 29, AERIAL_ACE
+	learnset 34, AQUA_JET
+	learnset 36, NIGHT_SLASH ; evolution move (Ceaseless Edge → LA move)
+	learnset 39, ENCORE
+	learnset 46, AQUA_TAIL
+	learnset 51, SACRED_SWORD ; Retaliate → egg move
+	learnset 58, SWORDS_DANCE
+	learnset 63, HYDRO_PUMP
+	learnset 68, MEGAHORN ; added Lv1 move
 
-	; evos_attacks LilligantHisuian
-	; learnset 1, DRAGON_DANCE ; Victory Dance → new move
-	; learnset 1, LEAF_BLADE
-	; learnset 1, MEGA_DRAIN
-	; learnset 1, RAZOR_LEAF ; Magical Leaf → new move
-	; learnset 1, SLEEP_POWDER
-	; learnset 1, GIGA_DRAIN
-	; learnset 1, LEECH_SEED
-	; learnset 1, HEAL_BELL ; After You → pre Gen8 move (Aromatherapy)
-	; learnset 1, ENERGY_BALL
-	; learnset 1, HEALINGLIGHT ; Synthesis → similar move
-	; learnset 1, SUNNY_DAY
-	; learnset 1, ENCORE ; Entrainment → egg move
-	; learnset 1, LEAF_STORM
-	; learnset 1, DRAIN_PUNCH ; evolution move (Victory Dance → LA move)
-	; learnset 1, ABSORB
-	; learnset 1, GROWTH
-	; learnset 1, SAFEGUARD ; Helping Hand → TM move
-	; learnset 1, STUN_SPORE
-	; learnset 5, CLOSE_COMBAT ; Axe Kick → LA move
+	evos_attacks LilligantHisuian
+	learnset 1, DRAGON_DANCE ; Victory Dance → new move
+	learnset 1, LEAF_BLADE
+	learnset 1, MEGA_DRAIN
+	learnset 1, RAZOR_LEAF ; Magical Leaf → new move
+	learnset 1, SLEEP_POWDER
+	learnset 1, GIGA_DRAIN
+	learnset 1, LEECH_SEED
+	learnset 1, HEAL_BELL ; After You → pre Gen8 move (Aromatherapy)
+	learnset 1, ENERGY_BALL
+	learnset 1, HEALINGLIGHT ; Synthesis → similar move
+	learnset 1, SUNNY_DAY
+	learnset 1, ENCORE ; Entrainment → egg move
+	learnset 1, LEAF_STORM
+	learnset 1, DRAIN_PUNCH ; evolution move (Victory Dance → LA move)
+	learnset 1, ABSORB
+	learnset 1, GROWTH
+	learnset 1, SAFEGUARD ; Helping Hand → TM move
+	learnset 1, STUN_SPORE
+	learnset 5, CLOSE_COMBAT ; Axe Kick → LA move
 	
-	; evos_attacks ZoruaHisuian
-	; evo_data EVOLVE_LEVEL, 30, ZOROARK, HISUIAN_FORM
-	; learnset 1, TACKLE ; Scratch → similar move
-	; learnset 1, LEER
-	; learnset 4, PURSUIT ; Torment → Unovan Zorua move
-	; learnset 8, HONE_CLAWS
-	; learnset 12, SHADOW_SNEAK
-	; learnset 16, CURSE
-	; learnset 20, SWIFT ; Taunt → LA move
-	; learnset 24, KNOCK_OFF
-	; learnset 28, SLASH ; Spite → LA move
-	; learnset 32, AGILITY
-	; learnset 36, SHADOW_BALL
-	; learnset 40, EXTRASENSORY ; Bitter Malice → LA move
-	; learnset 44, NASTY_PLOT
-	; learnset 48, PHANTOM_FORCE ; Foul Play → SV TM move
+	evos_attacks ZoruaHisuian
+	evo_data EVOLVE_LEVEL, 30, ZOROARK, HISUIAN_FORM
+	learnset 1, TACKLE ; Scratch → similar move
+	learnset 1, LEER
+	learnset 4, PURSUIT ; Torment → Unovan Zorua move
+	learnset 8, HONE_CLAWS
+	learnset 12, SHADOW_SNEAK
+	learnset 16, CURSE
+	learnset 20, SWIFT ; Taunt → LA move
+	learnset 24, KNOCK_OFF
+	learnset 28, SLASH ; Spite → LA move
+	learnset 32, AGILITY
+	learnset 36, SHADOW_BALL
+	learnset 40, EXTRASENSORY ; Bitter Malice → LA move
+	learnset 44, NASTY_PLOT
+	learnset 48, PHANTOM_FORCE ; Foul Play → SV TM move
 	
-	; evos_attacks ZoroarkHisuian
-	; learnset 1, U_TURN
-	; learnset 1, TACKLE ; Scratch → similar move
-	; learnset 1, LEER
-	; learnset 1, PURSUIT ; Torment → Unovan Zorua move
-	; learnset 1, HONE_CLAWS
-	; learnset 12, SHADOW_SNEAK
-	; learnset 16, CURSE
-	; learnset 20, SWIFT ; Taunt → LA move
-	; learnset 24, KNOCK_OFF
-	; learnset 28, SLASH ; Spite → LA move
-	; learnset 29, SHADOW_CLAW ; evolution move
-	; learnset 34, AGILITY
-	; learnset 40, SHADOW_BALL
-	; learnset 46, EXTRASENSORY ; Bitter Malice → LA move
-	; learnset 52, NASTY_PLOT
-	; learnset 58, PHANTOM_FORCE ; Foul Play → SV TM move
+	evos_attacks ZoroarkHisuian
+	learnset 1, U_TURN
+	learnset 1, TACKLE ; Scratch → similar move
+	learnset 1, LEER
+	learnset 1, PURSUIT ; Torment → Unovan Zorua move
+	learnset 1, HONE_CLAWS
+	learnset 12, SHADOW_SNEAK
+	learnset 16, CURSE
+	learnset 20, SWIFT ; Taunt → LA move
+	learnset 24, KNOCK_OFF
+	learnset 28, SLASH ; Spite → LA move
+	learnset 29, SHADOW_CLAW ; evolution move
+	learnset 34, AGILITY
+	learnset 40, SHADOW_BALL
+	learnset 46, EXTRASENSORY ; Bitter Malice → LA move
+	learnset 52, NASTY_PLOT
+	learnset 58, PHANTOM_FORCE ; Foul Play → SV TM move
 	
-	; evos_attacks BraviaryHisuian
-	; learnset 1, CLOSE_COMBAT ; Superpower → SV TM move
-	; learnset 1, BRAVE_BIRD ; Sky Attack → Rufflet move
-	; learnset 1, PECK
-	; learnset 1, LEER
-	; learnset 1, HONE_CLAWS
-	; learnset 1, WING_ATTACK
-	; learnset 18, FURY_STRIKES ; Tailwind → pre Gen8 move (Fury Attack)
-	; learnset 24, SCARY_FACE
-	; learnset 30, AERIAL_ACE
-	; learnset 36, SLASH
-	; learnset 42, ROAR ; Whirlwind → similar move
-	; learnset 48, DRILL_PECK ; Crush Claw → new move
-	; learnset 54, PSYCHIC_M ; evolution move (Esper Wing → TM move)
-	; learnset 57, AIR_SLASH
-	; learnset 64, ROOST ; Defog → egg move
-	; learnset 72, THRASH
-	; learnset 80, HURRICANE
+	evos_attacks BraviaryHisuian
+	learnset 1, CLOSE_COMBAT ; Superpower → SV TM move
+	learnset 1, BRAVE_BIRD ; Sky Attack → Rufflet move
+	learnset 1, PECK
+	learnset 1, LEER
+	learnset 1, HONE_CLAWS
+	learnset 1, WING_ATTACK
+	learnset 18, FURY_STRIKES ; Tailwind → pre Gen8 move (Fury Attack)
+	learnset 24, SCARY_FACE
+	learnset 30, AERIAL_ACE
+	learnset 36, SLASH
+	learnset 42, ROAR ; Whirlwind → similar move
+	learnset 48, DRILL_PECK ; Crush Claw → new move
+	learnset 54, PSYCHIC_M ; evolution move (Esper Wing → TM move)
+	learnset 57, AIR_SLASH
+	learnset 64, ROOST ; Defog → egg move
+	learnset 72, THRASH
+	learnset 80, HURRICANE
 	
 	evos_attacks CastformAlt
 	learnset 1, TACKLE
@@ -1011,6 +1013,27 @@ EvosAttacksPointersVariants::
 	learnset 71, SKILL_SWAP ; Role Play → SV TM move
 	learnset 78, CLOSE_COMBAT
 	learnset 85, PERISH_SONG
+
+	evos_attacks BasculegionFemale
+	learnset 1, HEX ; evolution move (LA move)
+	learnset 1, PHANTOM_FORCE
+	learnset 1, ZEN_HEADBUTT ; added Basculin move
+	learnset 1, WATER_GUN
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 4, TACKLE
+	learnset 8, REVERSAL ; Flail → similar move
+	learnset 12, AQUA_JET
+	learnset 16, BITE
+	learnset 20, SCARY_FACE
+	learnset 24, HEADBUTT
+	learnset 28, AGILITY ; Soak → egg move
+	learnset 32, CRUNCH
+	learnset 36, TAKE_DOWN
+	learnset 40, SHADOW_BALL ; Uproar → Lv1 move
+	learnset 44, AQUA_TAIL ; Wave Crash → pre Gen9 move
+	learnset 48, THRASH
+	learnset 52, DOUBLE_EDGE
+	learnset 56, HEAD_SMASH
 	
 	evos_attacks EnamorusTherian
 	learnset 1, TACKLE ; Astonish → LA move

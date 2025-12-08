@@ -404,6 +404,7 @@ AnimationPointers:
 	dw MrRimeAnimation
 	dw RunerigusAnimation
 	dw KleavorAnimation
+	dw BasculegionMaleAnimation
 	dw SneaslerAnimation
 	dw EnamorusPlainAnimation
 	dw AnnihilapeAnimation
@@ -489,6 +490,8 @@ AnimationPointers:
 	dw KyuremBlackAnimation
 	
 	dw MeloettaPirouetteAnimation
+	
+	dw BasculegionFemaleAnimation
 	
 	dw EnamorusTherianAnimation
 

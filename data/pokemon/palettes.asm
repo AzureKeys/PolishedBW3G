@@ -819,6 +819,8 @@ INCLUDE "gfx/pokemon/runerigus/normal.pal"
 INCLUDE "gfx/pokemon/runerigus/shiny.pal"
 INCLUDE "gfx/pokemon/kleavor/normal.pal"
 INCLUDE "gfx/pokemon/kleavor/shiny.pal"
+INCLUDE "gfx/pokemon/basculegion_male/normal.pal"
+INCLUDE "gfx/pokemon/basculegion_male/shiny.pal"
 INCLUDE "gfx/pokemon/sneasler/normal.pal"
 INCLUDE "gfx/pokemon/sneasler/shiny.pal"
 INCLUDE "gfx/pokemon/enamorus_plain/normal.pal"
@@ -953,6 +955,9 @@ INCLUDE "gfx/pokemon/kyurem_black/shiny.pal"
 
 INCLUDE "gfx/pokemon/meloetta_pirouette/normal.pal"
 INCLUDE "gfx/pokemon/meloetta_pirouette/shiny.pal"
+
+INCLUDE "gfx/pokemon/basculegion_female/normal.pal"
+INCLUDE "gfx/pokemon/basculegion_female/shiny.pal"
 
 INCLUDE "gfx/pokemon/enamorus_therian/normal.pal"
 INCLUDE "gfx/pokemon/enamorus_therian/shiny.pal"

@@ -22,6 +22,7 @@ AlphabeticalPokedexOrder:
 	dp BAGON
 	dp BALTOY
 	dp BANETTE
+	dp BASCULEGION
 	dp BASCULIN
 	dp BEARTIC
 	dp BEHEEYEM

@@ -422,6 +422,7 @@ INCLUDE "gfx/pokemon/cursola/front.dimensions"
 INCLUDE "gfx/pokemon/mr__rime/front.dimensions"
 INCLUDE "gfx/pokemon/runerigus/front.dimensions"
 INCLUDE "gfx/pokemon/kleavor/front.dimensions"
+INCLUDE "gfx/pokemon/basculegion_male/front.dimensions"
 INCLUDE "gfx/pokemon/sneasler/front.dimensions"
 INCLUDE "gfx/pokemon/enamorus_plain/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
@@ -507,6 +508,8 @@ INCLUDE "gfx/pokemon/kyurem_white/front.dimensions"
 INCLUDE "gfx/pokemon/kyurem_black/front.dimensions"
 
 INCLUDE "gfx/pokemon/meloetta_pirouette/front.dimensions"
+
+INCLUDE "gfx/pokemon/basculegion_female/front.dimensions"
 
 INCLUDE "gfx/pokemon/enamorus_therian/front.dimensions"
 

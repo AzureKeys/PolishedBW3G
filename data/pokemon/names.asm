@@ -405,6 +405,7 @@ PokemonNames::
 	rawchar "Mr.Rime@@@"
 	rawchar "Runerigus@"
 	rawchar "Kleavor@@@"
+	rawchar "Basclegion"
 	rawchar "Sneasler@@"
 	rawchar "Enamorus@@"
 	rawchar "Annihilape"

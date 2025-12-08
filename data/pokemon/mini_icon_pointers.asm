@@ -408,6 +408,7 @@ MiniIconPointers:
 	mini_icon MrRime
 	mini_icon Runerigus
 	mini_icon Kleavor
+	mini_icon BasculegionMale
 	mini_icon Sneasler
 	mini_icon Enamorus
 	mini_icon Annihilape
@@ -493,6 +494,8 @@ MiniIconPointers:
 	mini_icon KyuremBlack
 	
 	mini_icon MeloettaPirouette
+	
+	mini_icon BasculegionFemale
 	
 	mini_icon EnamorusTherian
 

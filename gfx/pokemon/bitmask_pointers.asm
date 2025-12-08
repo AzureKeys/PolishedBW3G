@@ -404,6 +404,7 @@ BitmasksPointers:
 	dw MrRimeBitmasks
 	dw RunerigusBitmasks
 	dw KleavorBitmasks
+	dw BasculegionMaleBitmasks
 	dw SneaslerBitmasks
 	dw EnamorusPlainBitmasks
 	dw AnnihilapeBitmasks
@@ -489,6 +490,8 @@ BitmasksPointers:
 	dw KyuremBlackBitmasks
 	
 	dw MeloettaPirouetteBitmasks
+	
+	dw BasculegionFemaleBitmasks
 	
 	dw EnamorusTherianBitmasks
 

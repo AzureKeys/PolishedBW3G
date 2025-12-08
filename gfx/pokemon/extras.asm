@@ -518,5 +518,8 @@ KyuremBlackAnimationExtra: INCLUDE "gfx/pokemon/kyurem_black/anim_idle.asm"
 MeloettaPlainAnimationExtra:     INCLUDE "gfx/pokemon/meloetta_plain/anim_idle.asm"
 MeloettaPirouetteAnimationExtra: INCLUDE "gfx/pokemon/meloetta_pirouette/anim_idle.asm"
 
+BasculegionMaleAnimationExtra:   INCLUDE "gfx/pokemon/basculegion_male/anim_idle.asm"
+BasculegionFemaleAnimationExtra: INCLUDE "gfx/pokemon/basculegion_female/anim_idle.asm"
+
 EnamorusPlainAnimationExtra:   INCLUDE "gfx/pokemon/enamorus_plain/anim_idle.asm"
 EnamorusTherianAnimationExtra: INCLUDE "gfx/pokemon/enamorus_therian/anim_idle.asm"

@@ -518,5 +518,8 @@ KyuremBlackBitmasks: INCLUDE "gfx/pokemon/kyurem_black/bitmask.asm"
 MeloettaPlainBitmasks:     INCLUDE "gfx/pokemon/meloetta_plain/bitmask.asm"
 MeloettaPirouetteBitmasks: INCLUDE "gfx/pokemon/meloetta_pirouette/bitmask.asm"
 
+BasculegionMaleBitmasks:   INCLUDE "gfx/pokemon/basculegion_male/bitmask.asm"
+BasculegionFemaleBitmasks: INCLUDE "gfx/pokemon/basculegion_female/bitmask.asm"
+
 EnamorusPlainBitmasks:   INCLUDE "gfx/pokemon/enamorus_plain/bitmask.asm"
 EnamorusTherianBitmasks: INCLUDE "gfx/pokemon/enamorus_therian/bitmask.asm"

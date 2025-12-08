@@ -2050,6 +2050,11 @@ KleavorFrontpic: INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"
 KleavorBackpic:  INCBIN "gfx/pokemon/kleavor/back.2bpp.lz"
 KleavorFrames:   INCLUDE "gfx/pokemon/kleavor/frames.asm"
 
+SECTION "BasculegionMale Pics", ROMX
+BasculegionMaleFrontpic: INCBIN "gfx/pokemon/basculegion_male/front.animated.2bpp.lz"
+BasculegionMaleBackpic:  INCBIN "gfx/pokemon/basculegion_male/back.2bpp.lz"
+BasculegionMaleFrames:   INCLUDE "gfx/pokemon/basculegion_male/frames.asm"
+
 SECTION "Sneasler Pics", ROMX
 SneaslerFrontpic: INCBIN "gfx/pokemon/sneasler/front.animated.2bpp.lz"
 SneaslerBackpic:  INCBIN "gfx/pokemon/sneasler/back.2bpp.lz"
@@ -2336,6 +2341,11 @@ SECTION "MeloettaPirouette Pics", ROMX
 MeloettaPirouetteFrontpic: INCBIN "gfx/pokemon/meloetta_pirouette/front.animated.2bpp.lz"
 MeloettaPirouetteBackpic:  INCBIN "gfx/pokemon/meloetta_pirouette/back.2bpp.lz"
 MeloettaPirouetteFrames:   INCLUDE "gfx/pokemon/meloetta_pirouette/frames.asm"
+
+SECTION "BasculegionFemale Pics", ROMX
+BasculegionFemaleFrontpic: INCBIN "gfx/pokemon/basculegion_female/front.animated.2bpp.lz"
+BasculegionFemaleBackpic:  INCBIN "gfx/pokemon/basculegion_female/back.2bpp.lz"
+BasculegionFemaleFrames:   INCLUDE "gfx/pokemon/basculegion_female/frames.asm"
 
 SECTION "EnamorusTherian Pics", ROMX
 EnamorusTherianFrontpic: INCBIN "gfx/pokemon/enamorus_therian/front.animated.2bpp.lz"

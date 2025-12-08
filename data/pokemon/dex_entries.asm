@@ -4003,6 +4003,16 @@ KleavorPokedexEntry::
 	next "shields itself"
 	next "with hard stone.@"
 
+SECTION "BasculegionPokedexEntry", ROMX
+BasculegionPokedexEntry::
+	db "Big Fish@"
+	db   "The souls of its"
+	next "comrades cloak its"
+	next "body and propel it"
+	page "effortlessly"
+	next "through even"
+	next "raging rapids.@"
+
 SECTION "SneaslerPokedexEntry", ROMX
 SneaslerPokedexEntry::
 	db "Free Climb@"

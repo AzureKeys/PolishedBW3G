@@ -411,6 +411,7 @@ PokemonBodyData:
 	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
 	body_data  16,  666, HEAD_BASE,    GRAY   ; RUNERIGUS
 	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
+	body_data  30, 1100, FINS,         GREEN  ; BASCULEGION
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  16,  480, HEAD_ARMS,    PINK   ; ENAMORUS
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
@@ -486,6 +487,8 @@ PokemonBodyData:
 	body_data  33, 3250, BIPEDAL_TAIL, GRAY   ; KYUREM (KYUREM_BLACK_FORM)
 	
 	body_data   6,   65, BIPEDAL,      WHITE  ; MELOETTA (MELOETTA_PIROUETTE_FORM)
+	
+	body_data  30, 1100, FINS,         GREEN  ; BASCULEGION (BASCULEGION_FEMALE_FORM)
 	
 	body_data  16,  480, QUADRUPED,    PINK   ; ENAMORUS (ENAMORUS_THERIAN_FORM)
 

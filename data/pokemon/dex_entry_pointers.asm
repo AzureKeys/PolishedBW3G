@@ -405,6 +405,7 @@ PokedexDataPointerTable:
 	dba MrRimePokedexEntry
 	dba RunerigusPokedexEntry
 	dba KleavorPokedexEntry
+	dba BasculegionPokedexEntry
 	dba SneaslerPokedexEntry
 	dba EnamorusPokedexEntry
 	dba AnnihilapePokedexEntry
@@ -480,6 +481,8 @@ PokedexDataPointerTable:
 	dba KyuremPokedexEntry
 	
 	dba MeloettaPokedexEntry
+	
+	dba BasculegionPokedexEntry
 	
 	dba EnamorusPokedexEntry
 

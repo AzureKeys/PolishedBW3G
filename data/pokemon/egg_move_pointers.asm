@@ -404,6 +404,7 @@ EggSpeciesMovesPointers::
 	dw MimeJrEggSpeciesMoves            ; Mr.Rime
 	dw YamaskGalarianEggSpeciesMoves    ; Runerigus
 	dw ScytherEggSpeciesMoves           ; Kleavor
+	dw BasculinEggSpeciesMoves          ; Basculegion
 	dw SneaselHisuianEggSpeciesMoves    ; Sneasler
 	dw NoEggSpeciesMoves                ; Enamorus
 	dw MankeyEggSpeciesMoves            ; Annihilape
@@ -479,6 +480,8 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Kyurem (Black)
 	
 	dw NoEggSpeciesMoves                ; Meloetta (Pirouette)
+	
+	dw BasculinEggSpeciesMoves          ; Basculegion (Female)
 	
 	dw NoEggSpeciesMoves                ; Enamorus (Therian)
 

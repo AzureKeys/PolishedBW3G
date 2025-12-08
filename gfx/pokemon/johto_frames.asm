@@ -391,5 +391,8 @@ KyuremBlackFrames: INCLUDE "gfx/pokemon/kyurem_black/frames.asm"
 MeloettaPlainFrames:     INCLUDE "gfx/pokemon/meloetta_plain/frames.asm"
 MeloettaPirouetteFrames: INCLUDE "gfx/pokemon/meloetta_pirouette/frames.asm"
 
+BasculegionMaleFrames:   INCLUDE "gfx/pokemon/basculegion_male/frames.asm"
+BasculegionFemaleFrames: INCLUDE "gfx/pokemon/basculegion_female/frames.asm"
+
 EnamorusPlainFrames:   INCLUDE "gfx/pokemon/enamorus_plain/frames.asm"
 EnamorusTherianFrames: INCLUDE "gfx/pokemon/enamorus_therian/frames.asm"

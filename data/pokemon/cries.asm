@@ -410,6 +410,7 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; MR. RIME*
 	mon_cry CRY_YAMASK,     -$320,  $15a ; RUNERIGUS*
 	mon_cry CRY_CATERPIE,    $000,  $100 ; KLEAVOR*
+	mon_cry CRY_REMORAID,    $122,  $110 ; BASCULEGION*
 	mon_cry CRY_WOOPER,      $053,  $0af ; SNEASLER*
 	mon_cry CRY_LAPRAS,      $102,  $0e0 ; ENAMORUS*
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; ANNIHILAPE*

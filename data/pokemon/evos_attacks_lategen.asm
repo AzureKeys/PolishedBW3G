@@ -281,6 +281,7 @@ EvosAttacksPointersLateGen::
 	dw MrRimeEvosAttacks
 	dw RunerigusEvosAttacks
 	dw KleavorEvosAttacks
+	dw BasculegionEvosAttacks
 	dw SneaslerEvosAttacks
 	dw EnamorusEvosAttacks
 	dw AnnihilapeEvosAttacks
@@ -5224,7 +5225,7 @@ EvosAttacksPointersLateGen::
 	learnset 44, SWORDS_DANCE
 
 	evos_attacks Basculegion
-	learnset 1, HEX ; evolution move
+	learnset 1, HEX ; evolution move (LA move)
 	learnset 1, PHANTOM_FORCE
 	learnset 1, ZEN_HEADBUTT ; added Basculin move
 	learnset 1, WATER_GUN

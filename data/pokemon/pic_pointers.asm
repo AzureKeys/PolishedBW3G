@@ -408,6 +408,7 @@ PokemonPicPointers::
 	pics MrRime
 	pics Runerigus
 	pics Kleavor
+	pics BasculegionMale
 	pics Sneasler
 	pics EnamorusPlain
 	pics Annihilape
@@ -493,6 +494,8 @@ PokemonPicPointers::
 	pics KyuremBlack
 	
 	pics MeloettaPirouette
+	
+	pics BasculegionFemale
 	
 	pics EnamorusTherian
 

@@ -2017,6 +2017,11 @@ KleavorMini::     INCBIN "gfx/minis/kleavor.2bpp.lz"
 KleavorMiniMask:: INCBIN "gfx/minis/kleavor_mask.1bpp.lz"
 KleavorIcon::     INCBIN "gfx/icons/kleavor.2bpp.lz"
 
+SECTION "BasculegionMale Mini Icon", ROMX
+BasculegionMaleMini::     INCBIN "gfx/minis/basculegion_male.2bpp.lz"
+BasculegionMaleMiniMask:: INCBIN "gfx/minis/basculegion_male_mask.1bpp.lz"
+BasculegionMaleIcon::     INCBIN "gfx/icons/basculegion_male.2bpp.lz"
+
 SECTION "Sneasler Mini Icon", ROMX
 SneaslerMini::     INCBIN "gfx/minis/sneasler.2bpp.lz"
 SneaslerMiniMask:: INCBIN "gfx/minis/sneasler_mask.1bpp.lz"
@@ -2281,6 +2286,11 @@ SECTION "MeloettaPirouette Mini Icon", ROMX
 MeloettaPirouetteMini::     INCBIN "gfx/minis/meloetta_pirouette.2bpp.lz"
 MeloettaPirouetteMiniMask:: INCBIN "gfx/minis/meloetta_pirouette_mask.1bpp.lz"
 MeloettaPirouetteIcon::     INCBIN "gfx/icons/meloetta_pirouette.2bpp.lz"
+
+SECTION "BasculegionFemale Mini Icon", ROMX
+BasculegionFemaleMini::     INCBIN "gfx/minis/basculegion_female.2bpp.lz"
+BasculegionFemaleMiniMask:: INCBIN "gfx/minis/basculegion_female_mask.1bpp.lz"
+BasculegionFemaleIcon::     INCBIN "gfx/icons/basculegion_female.2bpp.lz"
 
 SECTION "EnamorusTherian Mini Icon", ROMX
 EnamorusTherianMini::     INCBIN "gfx/minis/enamorus_therian.2bpp.lz"

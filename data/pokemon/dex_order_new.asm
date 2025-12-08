@@ -160,6 +160,7 @@ NewPokedexOrder:
 	dp GENESECT
 	dp RUNERIGUS
 	dp ENAMORUS
+	dp BASCULEGION
 	dp KINGAMBIT
 	dp LOTAD
 	dp LOMBRE

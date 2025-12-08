@@ -404,6 +404,7 @@ FootprintPointers::
 	dw MrRimeFootprint
 	dw RunerigusFootprint
 	dw KleavorFootprint
+	dw BasculegionFootprint
 	dw SneaslerFootprint
 	dw EnamorusFootprint
 	dw AnnihilapeFootprint
@@ -479,6 +480,8 @@ FootprintPointers::
 	dw KyuremFootprint
 	
 	dw MeloettaFootprint
+	
+	dw BasculegionFootprint
 	
 	dw EnamorusFootprint
 

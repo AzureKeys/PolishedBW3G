@@ -403,8 +403,9 @@ EvolutionMoves::
 	db NO_MOVE      ; CURSOLA
 	db NO_MOVE      ; MR__RIME
 	db SHADOW_CLAW  ; RUNERIGUS
-	db ROCK_BLAST   ; KLEAVOR (Stone Axe → SV TM)
-	db GUNK_SHOT    ; SNEASLER (Dire Claw → SV TM)
+	db ROCK_BLAST   ; KLEAVOR (Stone Axe → SV TM move)
+	db HEX          ; BASCULEGION (LA move)
+	db GUNK_SHOT    ; SNEASLER (Dire Claw → SV TM move)
 	db NO_MOVE      ; ENAMORUS
 	db SHADOW_CLAW  ; ANNIHILAPE (Shadow Punch → TM move)
 	db NO_MOVE      ; DUDUNSPARCE
@@ -479,6 +480,8 @@ EvolutionMoves::
 	db NO_MOVE      ; KYUREM, KYUREM_BLACK_FORM
 	
 	db NO_MOVE      ; MELOETTA, MELOETTA_PIROUETTE_FORM
+	
+	db HEX          ; BASCULEGION, BASCULEGION_FEMALE_FORM (LA move)
 	
 	db NO_MOVE      ; ENAMORUS, ENAMORUS_THERIAN_FORM
 

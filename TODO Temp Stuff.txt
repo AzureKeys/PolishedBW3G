@@ -7,6 +7,7 @@ Zoroark-H (mini)
 Braviary-H (front, back, mini)
 Enamorus (plain back, plain mini, therian mini)
 Kingambit (mini)
+Basculegion (minis)
 
 
 	tmhm HONE_CLAWS,   DRAGON_CLAW,  PSYSHOCK,     CALM_MIND,    ROAR,         \;1

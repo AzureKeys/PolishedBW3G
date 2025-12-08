@@ -267,6 +267,7 @@ ProbopassFootprint::
 FroslassFootprint::
 EnamorusFootprint::
 KingambitFootprint::
+BasculegionFootprint::
 ChinchouFootprint::
 CrobatFootprint::
 DewgongFootprint::
