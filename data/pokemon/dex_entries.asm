@@ -4377,6 +4377,16 @@ SneaselHisuianPokedexEntry::
 	next "venom that infil-"
 	next "trates its prey.@"
 
+SECTION "SamurottHisuianPokedexEntry", ROMX
+SamurottHisuianPokedexEntry::
+	db "Formidable@"
+	db   "Hard of heart and"
+	next "deft of blade, its"
+	next "turbulent blows"
+	page "crash into its"
+	next "foes like"
+	next "ceaseless waves.@"
+
 SECTION "LilligantHisuianPokedexEntry", ROMX
 LilligantHisuianPokedexEntry::
 	db "Spinning@"

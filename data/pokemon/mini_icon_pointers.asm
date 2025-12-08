@@ -461,6 +461,7 @@ MiniIconPointers:
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
 	mini_icon SneaselHisuian
+	mini_icon SamurottHisuian
 	mini_icon LilligantHisuian
 	mini_icon ZoruaHisuian
 	mini_icon ZoroarkHisuian

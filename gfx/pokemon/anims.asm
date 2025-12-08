@@ -459,7 +459,8 @@ CombeeFemaleAnimation: INCLUDE "gfx/pokemon/combee_female/anim.asm"
 UnfezantMaleAnimation:   INCLUDE "gfx/pokemon/unfezant_male/anim.asm"
 UnfezantFemaleAnimation: INCLUDE "gfx/pokemon/unfezant_female/anim.asm"
 
-SamurottPlainAnimation: INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
+SamurottPlainAnimation:   INCLUDE "gfx/pokemon/samurott_plain/anim.asm"
+SamurottHisuianAnimation: INCLUDE "gfx/pokemon/samurott_hisuian/anim.asm"
 
 LilligantPlainAnimation:   INCLUDE "gfx/pokemon/lilligant_plain/anim.asm"
 LilligantHisuianAnimation: INCLUDE "gfx/pokemon/lilligant_hisuian/anim.asm"

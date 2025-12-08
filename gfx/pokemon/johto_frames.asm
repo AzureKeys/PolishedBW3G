@@ -332,7 +332,8 @@ CombeeFemaleFrames: INCLUDE "gfx/pokemon/combee_female/frames.asm"
 UnfezantMaleFrames:   INCLUDE "gfx/pokemon/unfezant_male/frames.asm"
 UnfezantFemaleFrames: INCLUDE "gfx/pokemon/unfezant_female/frames.asm"
 
-SamurottPlainFrames: INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
+SamurottPlainFrames:   INCLUDE "gfx/pokemon/samurott_plain/frames.asm"
+SamurottHisuianFrames: INCLUDE "gfx/pokemon/samurott_hisuian/frames.asm"
 
 LilligantPlainFrames:   INCLUDE "gfx/pokemon/lilligant_plain/frames.asm"
 LilligantHisuianFrames: INCLUDE "gfx/pokemon/lilligant_hisuian/frames.asm"

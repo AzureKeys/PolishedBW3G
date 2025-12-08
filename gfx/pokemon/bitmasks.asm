@@ -459,7 +459,8 @@ CombeeFemaleBitmasks: INCLUDE "gfx/pokemon/combee_female/bitmask.asm"
 UnfezantMaleBitmasks:   INCLUDE "gfx/pokemon/unfezant_male/bitmask.asm"
 UnfezantFemaleBitmasks: INCLUDE "gfx/pokemon/unfezant_female/bitmask.asm"
 
-SamurottPlainBitmasks: INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
+SamurottPlainBitmasks:   INCLUDE "gfx/pokemon/samurott_plain/bitmask.asm"
+SamurottHisuianBitmasks: INCLUDE "gfx/pokemon/samurott_hisuian/bitmask.asm"
 
 LilligantPlainBitmasks:   INCLUDE "gfx/pokemon/lilligant_plain/bitmask.asm"
 LilligantHisuianBitmasks: INCLUDE "gfx/pokemon/lilligant_hisuian/bitmask.asm"

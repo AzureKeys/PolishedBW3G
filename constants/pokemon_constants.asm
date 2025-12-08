@@ -528,94 +528,95 @@ DEF HISUIAN_FORM EQU 4
 	const_skip ; 1be growlithe
 	const_skip ; 1bf arcanine
 	const_skip ; 1c0 sneasel
-	const_skip ; 1c0 lilligant
-	const_skip ; 1c0 zorua
-	const_skip ; 1c0 zoroark
-	const_skip ; 184 braviary
+	const_skip ; 1c1 samurott
+	const_skip ; 1c2 lilligant
+	const_skip ; 1c3 zorua
+	const_skip ; 1c4 zoroark
+	const_skip ; 1c5 braviary
 
 ; paldean forms
 DEF PALDEAN_FORM EQU 5
 	
 ; castform
 	ext_const_def 2
-	ext_const CASTFORM_SUN_FORM  ; 15d (2)
-	ext_const CASTFORM_RAIN_FORM ; 15d (3)
-	ext_const CASTFORM_HAIL_FORM ; 15d (4)
+	ext_const CASTFORM_SUN_FORM  ; 1c6 (2)
+	ext_const CASTFORM_RAIN_FORM ; 1c7 (3)
+	ext_const CASTFORM_HAIL_FORM ; 1c8 (4)
 
 ; combee
 	ext_const_def 1, COMBEE_FEMALE_FORM ; (1)
-	ext_const COMBEE_MALE_FORM      ; 13f (2)
+	ext_const COMBEE_MALE_FORM      ; 1c9 (2)
 
 ; unfezant
 	ext_const_def 1, UNFEZANT_MALE_FORM ; (1)
-	ext_const UNFEZANT_FEMALE_FORM      ; 13f (2)
+	ext_const UNFEZANT_FEMALE_FORM      ; 1ca (2)
 
 ; basculin
 	ext_const_def 1, BASCULIN_WHITE_FORM ; (1)
-	ext_const BASCULIN_RED_FORM          ; 13f (2)
-	ext_const BASCULIN_BLUE_FORM         ; 13f (3)
+	ext_const BASCULIN_RED_FORM          ; 1cb (2)
+	ext_const BASCULIN_BLUE_FORM         ; 1cc (3)
 	
 ; darmanitan
 	ext_const_def 2
-	ext_const DARMANITAN_ZEN_FORM ; 15d (2)
+	ext_const DARMANITAN_ZEN_FORM ; 1cd (2)
 	ext_const_def 4 ; Form 3 = GALARIAN_FORM
-	ext_const DARMANITAN_GALARIAN_ZEN_FORM ; 15d (4)
+	ext_const DARMANITAN_GALARIAN_ZEN_FORM ; 1ce (4)
 	
 ; deerling
 	ext_const_def 1, DEERLING_SPRING_FORM ; (1)
-	ext_const DEERLING_SUMMER_FORM        ; 13f (2)
-	ext_const DEERLING_AUTUMN_FORM        ; 13f (3)
-	ext_const DEERLING_WINTER_FORM        ; 13f (4)
+	ext_const DEERLING_SUMMER_FORM        ; 1cf (2)
+	ext_const DEERLING_AUTUMN_FORM        ; 1d0 (3)
+	ext_const DEERLING_WINTER_FORM        ; 1d1 (4)
 DEF NUM_DEERLING EQU ext_const_value - 1  ; 4
 	
 ; sawsbuck
 	ext_const_def 1, SAWSBUCK_SPRING_FORM ; (1)
-	ext_const SAWSBUCK_SUMMER_FORM        ; 13f (2)
-	ext_const SAWSBUCK_AUTUMN_FORM        ; 13f (3)
-	ext_const SAWSBUCK_WINTER_FORM        ; 13f (4)
+	ext_const SAWSBUCK_SUMMER_FORM        ; 1d2 (2)
+	ext_const SAWSBUCK_AUTUMN_FORM        ; 1d3 (3)
+	ext_const SAWSBUCK_WINTER_FORM        ; 1d4 (4)
 DEF NUM_SAWSBUCK EQU ext_const_value - 1  ; 4
 
 ; frillish
 	ext_const_def 1, FRILLISH_MALE_FORM ; (1)
-	ext_const FRILLISH_FEMALE_FORM      ; 13f (2)
+	ext_const FRILLISH_FEMALE_FORM      ; 1d5 (2)
 
 ; jellicent
 	ext_const_def 1, JELLICENT_MALE_FORM ; (1)
-	ext_const JELLICENT_FEMALE_FORM      ; 13f (2)
+	ext_const JELLICENT_FEMALE_FORM      ; 1d6 (2)
 	
 ; tornadus
 	ext_const_def 2
-	ext_const TORNADUS_THERIAN_FORM ; 15d (2)
+	ext_const TORNADUS_THERIAN_FORM ; 1d7 (2)
 	
 ; thundurus
 	ext_const_def 2
-	ext_const THUNDURUS_THERIAN_FORM ; 15d (2)
+	ext_const THUNDURUS_THERIAN_FORM ; 1d8 (2)
 	
 ; landorus
 	ext_const_def 2
-	ext_const LANDORUS_THERIAN_FORM ; 15d (2)
+	ext_const LANDORUS_THERIAN_FORM ; 1d9 (2)
 	
 ; kyurem
 	ext_const_def 2
-	ext_const KYUREM_WHITE_FORM ; 15d (2)
-	ext_const KYUREM_BLACK_FORM ; 15d (3)
+	ext_const KYUREM_WHITE_FORM ; 1da (2)
+	ext_const KYUREM_BLACK_FORM ; 1db (3)
 	
 ; meloetta
 	ext_const_def 1, MELOETTA_ARIA_FORM ; (1)
-	ext_const MELOETTA_PIROUETTE_FORM   ; 13f (2)
+	ext_const MELOETTA_PIROUETTE_FORM   ; 1dc (2)
 
 ; basculegion
 	ext_const_def 1, BASCULEGION_MALE_FORM ; (1)
-	ext_const BASCULEGION_FEMALE_FORM      ; 13f (2)
+	ext_const BASCULEGION_FEMALE_FORM      ; 1dd (2)
 	
 ; enamorus
 	ext_const_def 2
-	ext_const ENAMORUS_THERIAN_FORM ; 15d (2)
+	ext_const ENAMORUS_THERIAN_FORM ; 1de (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 
 ; these constants include EGG and a dummy entry as species
-DEF NUM_UNIQUE_POKEMON EQU const_value - 1 ; 189
+DEF NUM_UNIQUE_POKEMON EQU const_value - 1 ; 1de
 DEF NUM_EXT_POKEMON EQU NUM_UNIQUE_POKEMON - NUM_COSMETIC_FORMS ; 150
 
 ; padding for wDexMons
