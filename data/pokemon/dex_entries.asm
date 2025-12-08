@@ -4377,6 +4377,26 @@ SneaselHisuianPokedexEntry::
 	next "venom that infil-"
 	next "trates its prey.@"
 
+SECTION "ZoruaHisuianPokedexEntry", ROMX
+ZoruaHisuianPokedexEntry::
+	db "SpitefulFox@"
+	db   "It derives power"
+	next "from resentment,"
+	next "which takes on the"
+	page "forms of its foes."
+	next "In this way, it"
+	next "vents malice.@"
+
+SECTION "ZoroarkHisuianPokedexEntry", ROMX
+ZoroarkHisuianPokedexEntry::
+	db "Baneful Fox@"
+	db   "It looks like an"
+	next "embodiment of"
+	next "death. It attacks"
+	page "with an energy so"
+	next "intense, it lacer-"
+	next "ates its own body.@"
+
 SECTION "BraviaryHisuianPokedexEntry", ROMX
 BraviaryHisuianPokedexEntry::
 	db "Battle Cry@"

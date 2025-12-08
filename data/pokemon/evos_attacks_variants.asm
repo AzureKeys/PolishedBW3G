@@ -36,6 +36,8 @@ EvosAttacksPointersVariants::
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks
+	dw ZoruaHisuianEvosAttacks
+	dw ZoroarkHisuianEvosAttacks
 	dw BraviaryHisuianEvosAttacks
 	
 	dw CastformAltEvosAttacks

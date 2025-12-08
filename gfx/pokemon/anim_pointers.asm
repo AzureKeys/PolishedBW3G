@@ -457,6 +457,8 @@ AnimationPointers:
 	dw GrowlitheHisuianAnimation
 	dw ArcanineHisuianAnimation
 	dw SneaselHisuianAnimation
+	dw ZoruaHisuianAnimation
+	dw ZoroarkHisuianAnimation
 	dw BraviaryHisuianAnimation
 	
 	dw CastformSunAnimation

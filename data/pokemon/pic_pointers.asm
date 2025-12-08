@@ -461,6 +461,8 @@ PokemonPicPointers::
 	pics GrowlitheHisuian
 	pics ArcanineHisuian
 	pics SneaselHisuian
+	pics ZoruaHisuian
+	pics ZoroarkHisuian
 	pics BraviaryHisuian
 	
 	pics CastformSun

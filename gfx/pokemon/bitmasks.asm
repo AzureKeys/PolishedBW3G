@@ -478,9 +478,11 @@ DarmanitanGalarianZenBitmasks: INCLUDE "gfx/pokemon/darmanitan_galarian_zen/bitm
 YamaskPlainBitmasks:    INCLUDE "gfx/pokemon/yamask_plain/bitmask.asm"
 YamaskGalarianBitmasks: INCLUDE "gfx/pokemon/yamask_galarian/bitmask.asm"
 
-ZoruaPlainBitmasks: INCLUDE "gfx/pokemon/zorua_plain/bitmask.asm"
+ZoruaPlainBitmasks:   INCLUDE "gfx/pokemon/zorua_plain/bitmask.asm"
+ZoruaHisuianBitmasks: INCLUDE "gfx/pokemon/zorua_hisuian/bitmask.asm"
 
-ZoroarkPlainBitmasks: INCLUDE "gfx/pokemon/zoroark_plain/bitmask.asm"
+ZoroarkPlainBitmasks:   INCLUDE "gfx/pokemon/zoroark_plain/bitmask.asm"
+ZoroarkHisuianBitmasks: INCLUDE "gfx/pokemon/zoroark_hisuian/bitmask.asm"
 
 DeerlingSpringBitmasks: INCLUDE "gfx/pokemon/deerling_spring/bitmask.asm"
 DeerlingSummerBitmasks: INCLUDE "gfx/pokemon/deerling_summer/bitmask.asm"

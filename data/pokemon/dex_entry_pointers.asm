@@ -448,6 +448,8 @@ PokedexDataPointerTable:
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
+	dba ZoruaHisuianPokedexEntry
+	dba ZoroarkHisuianPokedexEntry
 	dba BraviaryHisuianPokedexEntry
 	
 	dba CastformPokedexEntry

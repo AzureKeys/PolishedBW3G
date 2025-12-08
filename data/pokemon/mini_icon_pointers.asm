@@ -461,6 +461,8 @@ MiniIconPointers:
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian
 	mini_icon SneaselHisuian
+	mini_icon ZoruaHisuian
+	mini_icon ZoroarkHisuian
 	mini_icon BraviaryHisuian
 	
 	mini_icon CastformSun

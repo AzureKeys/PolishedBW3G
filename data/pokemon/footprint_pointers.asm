@@ -447,6 +447,8 @@ FootprintPointers::
 	dw GrowlitheFootprint
 	dw ArcanineFootprint
 	dw SneaselFootprint
+	dw ZoruaFootprint
+	dw ZoroarkFootprint
 	dw BraviaryFootprint
 	
 	dw CastformFootprint

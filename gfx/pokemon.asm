@@ -2237,6 +2237,16 @@ SneaselHisuianFrontpic: INCBIN "gfx/pokemon/sneasel_hisuian/front.animated.2bpp.
 SneaselHisuianBackpic:  INCBIN "gfx/pokemon/sneasel_hisuian/back.2bpp.lz"
 SneaselHisuianFrames:   INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"
 
+SECTION "ZoruaHisuian Pics", ROMX
+ZoruaHisuianFrontpic: INCBIN "gfx/pokemon/zorua_hisuian/front.animated.2bpp.lz"
+ZoruaHisuianBackpic:  INCBIN "gfx/pokemon/zorua_hisuian/back.2bpp.lz"
+ZoruaHisuianFrames:   INCLUDE "gfx/pokemon/zorua_hisuian/frames.asm"
+
+SECTION "ZoroarkHisuian Pics", ROMX
+ZoroarkHisuianFrontpic: INCBIN "gfx/pokemon/zoroark_hisuian/front.animated.2bpp.lz"
+ZoroarkHisuianBackpic:  INCBIN "gfx/pokemon/zoroark_hisuian/back.2bpp.lz"
+ZoroarkHisuianFrames:   INCLUDE "gfx/pokemon/zoroark_hisuian/frames.asm"
+
 SECTION "BraviaryHisuian Pics", ROMX
 BraviaryHisuianFrontpic: INCBIN "gfx/pokemon/braviary_hisuian/front.animated.2bpp.lz"
 BraviaryHisuianBackpic:  INCBIN "gfx/pokemon/braviary_hisuian/back.2bpp.lz"

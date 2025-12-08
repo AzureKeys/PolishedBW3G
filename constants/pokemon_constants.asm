@@ -528,6 +528,8 @@ DEF HISUIAN_FORM EQU 4
 	const_skip ; 1be growlithe
 	const_skip ; 1bf arcanine
 	const_skip ; 1c0 sneasel
+	const_skip ; 1c0 zorua
+	const_skip ; 1c0 zoroark
 	const_skip ; 184 braviary
 
 ; paldean forms

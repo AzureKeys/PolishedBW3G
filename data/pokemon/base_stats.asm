@@ -482,6 +482,8 @@ INCLUDE "data/pokemon/base_stats/stunfisk_galarian.asm"
 INCLUDE "data/pokemon/base_stats/growlithe_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/arcanine_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/sneasel_hisuian.asm"
+INCLUDE "data/pokemon/base_stats/zorua_hisuian.asm"
+INCLUDE "data/pokemon/base_stats/zoroark_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/braviary_hisuian.asm"
 
 INCLUDE "data/pokemon/base_stats/castform_sun.asm"

@@ -475,6 +475,8 @@ INCLUDE "gfx/pokemon/stunfisk_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/growlithe_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/arcanine_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/sneasel_hisuian/front.dimensions"
+INCLUDE "gfx/pokemon/zorua_hisuian/front.dimensions"
+INCLUDE "gfx/pokemon/zoroark_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/braviary_hisuian/front.dimensions"
 
 INCLUDE "gfx/pokemon/castform_sun/front.dimensions"

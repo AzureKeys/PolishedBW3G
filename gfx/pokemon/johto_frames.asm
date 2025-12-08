@@ -351,9 +351,11 @@ DarmanitanGalarianZenFrames: INCLUDE "gfx/pokemon/darmanitan_galarian_zen/frames
 YamaskPlainFrames:    INCLUDE "gfx/pokemon/yamask_plain/frames.asm"
 YamaskGalarianFrames: INCLUDE "gfx/pokemon/yamask_galarian/frames.asm"
 
-ZoruaPlainFrames: INCLUDE "gfx/pokemon/zorua_plain/frames.asm"
+ZoruaPlainFrames:   INCLUDE "gfx/pokemon/zorua_plain/frames.asm"
+ZoruaHisuianFrames: INCLUDE "gfx/pokemon/zorua_hisuian/frames.asm"
 
-ZoroarkPlainFrames: INCLUDE "gfx/pokemon/zoroark_plain/frames.asm"
+ZoroarkPlainFrames:   INCLUDE "gfx/pokemon/zoroark_plain/frames.asm"
+ZoroarkHisuianFrames: INCLUDE "gfx/pokemon/zoroark_hisuian/frames.asm"
 
 DeerlingSpringFrames: INCLUDE "gfx/pokemon/deerling_spring/frames.asm"
 DeerlingSummerFrames: INCLUDE "gfx/pokemon/deerling_summer/frames.asm"

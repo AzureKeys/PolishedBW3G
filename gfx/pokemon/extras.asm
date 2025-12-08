@@ -478,9 +478,11 @@ DarmanitanGalarianZenAnimationExtra: INCLUDE "gfx/pokemon/darmanitan_galarian_ze
 YamaskPlainAnimationExtra:    INCLUDE "gfx/pokemon/yamask_plain/anim_idle.asm"
 YamaskGalarianAnimationExtra: INCLUDE "gfx/pokemon/yamask_galarian/anim_idle.asm"
 
-ZoruaPlainAnimationExtra: INCLUDE "gfx/pokemon/zorua_plain/anim_idle.asm"
+ZoruaPlainAnimationExtra:   INCLUDE "gfx/pokemon/zorua_plain/anim_idle.asm"
+ZoruaHisuianAnimationExtra: INCLUDE "gfx/pokemon/zorua_hisuian/anim_idle.asm"
 
-ZoroarkPlainAnimationExtra: INCLUDE "gfx/pokemon/zoroark_plain/anim_idle.asm"
+ZoroarkPlainAnimationExtra:   INCLUDE "gfx/pokemon/zoroark_plain/anim_idle.asm"
+ZoroarkHisuianAnimationExtra: INCLUDE "gfx/pokemon/zoroark_hisuian/anim_idle.asm"
 
 DeerlingSpringAnimationExtra: INCLUDE "gfx/pokemon/deerling_spring/anim_idle.asm"
 DeerlingSummerAnimationExtra: INCLUDE "gfx/pokemon/deerling_summer/anim_idle.asm"

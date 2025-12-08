@@ -1243,6 +1243,14 @@ ZoruaPlainEggSpeciesMoves:
 	db SUCKER_PUNCH
 	db $ff
 
+ZoruaHisuianEggSpeciesMoves:
+	dp ZORUA, HISUIAN_FORM
+	db COUNTER
+	db DARK_PULSE
+	db EXTRASENSORY
+	db SUCKER_PUNCH
+	db $ff
+
 MinccinoEggSpeciesMoves:
 	dp MINCCINO, PLAIN_FORM
 	db $ff
