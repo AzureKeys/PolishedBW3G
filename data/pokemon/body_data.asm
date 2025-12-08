@@ -449,6 +449,7 @@ PokemonBodyData:
 	body_data   7,  400, BIPEDAL,      WHITE  ; DARUMAKA (GALARIAN_FORM)
 	body_data  17, 1200, QUADRUPED,    WHITE  ; DARMANITAN (GALARIAN_FORM)
 	body_data   5,   15, HEAD_ARMS,    BLACK  ; YAMASK (GALARIAN_FORM)
+	body_data   7,  205, FINS,         GREEN  ; STUNFISK (GALARIAN_FORM)
 
 	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)

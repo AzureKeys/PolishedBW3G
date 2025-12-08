@@ -442,6 +442,7 @@ EggSpeciesMovesPointers::
 	dw DarumakaGalarianEggSpeciesMoves  ; Darumaka (Galarian Form)
 	dw DarumakaGalarianEggSpeciesMoves  ; Darmanitan (Galarian Form)
 	dw YamaskGalarianEggSpeciesMoves    ; Yamask (Galarian Form)
+	dw StunfiskGalarianEggSpeciesMoves  ; Stunfisk (Galarian Form)
 
 	dw GrowlitheHisuianEggSpeciesMoves  ; Growlithe (Hisuian Form)
 	dw GrowlitheHisuianEggSpeciesMoves  ; Arcanine (Hisuian Form)

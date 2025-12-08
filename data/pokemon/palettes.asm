@@ -891,6 +891,8 @@ INCLUDE "gfx/pokemon/darmanitan_galarian/normal.pal"
 INCLUDE "gfx/pokemon/darmanitan_galarian/shiny.pal"
 INCLUDE "gfx/pokemon/yamask_galarian/normal.pal"
 INCLUDE "gfx/pokemon/yamask_galarian/shiny.pal"
+INCLUDE "gfx/pokemon/stunfisk_galarian/normal.pal"
+INCLUDE "gfx/pokemon/stunfisk_galarian/shiny.pal"
 
 INCLUDE "gfx/pokemon/growlithe_hisuian/normal.pal"
 INCLUDE "gfx/pokemon/growlithe_hisuian/shiny.pal"

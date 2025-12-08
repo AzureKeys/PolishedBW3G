@@ -452,6 +452,7 @@ AnimationPointers:
 	dw DarumakaGalarianAnimation
 	dw DarmanitanGalarianAnimation
 	dw YamaskGalarianAnimation
+	dw StunfiskGalarianAnimation
 
 	dw GrowlitheHisuianAnimation
 	dw ArcanineHisuianAnimation

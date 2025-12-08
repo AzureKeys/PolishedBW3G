@@ -498,7 +498,8 @@ FrillishFemaleBitmasks: INCLUDE "gfx/pokemon/frillish_female/bitmask.asm"
 JellicentMaleBitmasks:   INCLUDE "gfx/pokemon/jellicent_male/bitmask.asm"
 JellicentFemaleBitmasks: INCLUDE "gfx/pokemon/jellicent_female/bitmask.asm"
 
-StunfiskPlainBitmasks: INCLUDE "gfx/pokemon/stunfisk_plain/bitmask.asm"
+StunfiskPlainBitmasks:    INCLUDE "gfx/pokemon/stunfisk_plain/bitmask.asm"
+StunfiskGalarianBitmasks: INCLUDE "gfx/pokemon/stunfisk_galarian/bitmask.asm"
 
 BraviaryPlainBitmasks:   INCLUDE "gfx/pokemon/braviary_plain/bitmask.asm"
 BraviaryHisuianBitmasks: INCLUDE "gfx/pokemon/braviary_hisuian/bitmask.asm"

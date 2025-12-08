@@ -452,6 +452,7 @@ FramesPointers:
 	dw DarumakaGalarianFrames
 	dw DarmanitanGalarianFrames
 	dw YamaskGalarianFrames
+	dw StunfiskGalarianFrames
 
 	dw GrowlitheHisuianFrames
 	dw ArcanineHisuianFrames

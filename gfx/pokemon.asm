@@ -2227,6 +2227,11 @@ YamaskGalarianFrontpic: INCBIN "gfx/pokemon/yamask_galarian/front.animated.2bpp.
 YamaskGalarianBackpic:  INCBIN "gfx/pokemon/yamask_galarian/back.2bpp.lz"
 YamaskGalarianFrames:   INCLUDE "gfx/pokemon/yamask_galarian/frames.asm"
 
+SECTION "StunfiskGalarian Pics", ROMX
+StunfiskGalarianFrontpic: INCBIN "gfx/pokemon/stunfisk_galarian/front.animated.2bpp.lz"
+StunfiskGalarianBackpic:  INCBIN "gfx/pokemon/stunfisk_galarian/back.2bpp.lz"
+StunfiskGalarianFrames:   INCLUDE "gfx/pokemon/stunfisk_galarian/frames.asm"
+
 SECTION "SneaselHisuian Pics", ROMX
 SneaselHisuianFrontpic: INCBIN "gfx/pokemon/sneasel_hisuian/front.animated.2bpp.lz"
 SneaselHisuianBackpic:  INCBIN "gfx/pokemon/sneasel_hisuian/back.2bpp.lz"

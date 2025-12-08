@@ -442,6 +442,7 @@ FootprintPointers::
 	dw DarumakaFootprint
 	dw DarmanitanFootprint
 	dw YamaskFootprint
+	dw StunfiskFootprint
 
 	dw GrowlitheFootprint
 	dw ArcanineFootprint

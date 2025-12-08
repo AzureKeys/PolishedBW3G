@@ -1405,6 +1405,15 @@ StunfiskPlainEggSpeciesMoves:
 	db SPARK
 	db $ff
 
+StunfiskGalarianEggSpeciesMoves:
+	dp STUNFISK, GALARIAN_FORM
+	db CURSE
+	db EARTH_POWER
+	db PAIN_SPLIT
+	;db SHOCK_WAVE
+	db SPARK
+	db $ff
+
 MienfooEggSpeciesMoves:
 	dp MIENFOO, PLAIN_FORM
 	db $ff

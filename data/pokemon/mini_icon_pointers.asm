@@ -456,6 +456,7 @@ MiniIconPointers:
 	mini_icon DarumakaGalarian
 	mini_icon DarmanitanGalarian
 	mini_icon YamaskGalarian
+	mini_icon StunfiskGalarian
 
 	mini_icon GrowlitheHisuian
 	mini_icon ArcanineHisuian

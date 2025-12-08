@@ -456,6 +456,7 @@ PokemonPicPointers::
 	pics DarumakaGalarian
 	pics DarmanitanGalarian
 	pics YamaskGalarian
+	pics StunfiskGalarian
 
 	pics GrowlitheHisuian
 	pics ArcanineHisuian

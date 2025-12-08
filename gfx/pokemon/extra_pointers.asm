@@ -452,6 +452,7 @@ AnimationExtraPointers:
 	dw DarumakaGalarianAnimationExtra
 	dw DarmanitanGalarianAnimationExtra
 	dw YamaskGalarianAnimationExtra
+	dw StunfiskGalarianAnimationExtra
 
 	dw GrowlitheHisuianAnimationExtra
 	dw ArcanineHisuianAnimationExtra

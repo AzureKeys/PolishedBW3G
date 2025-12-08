@@ -31,6 +31,7 @@ EvosAttacksPointersVariants::
 	dw DarumakaGalarianEvosAttacks
 	dw DarmanitanGalarianEvosAttacks
 	dw YamaskGalarianEvosAttacks
+	dw StunfiskGalarianEvosAttacks
 
 	dw GrowlitheHisuianEvosAttacks
 	dw ArcanineHisuianEvosAttacks

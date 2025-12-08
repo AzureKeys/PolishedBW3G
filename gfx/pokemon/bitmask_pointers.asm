@@ -452,6 +452,7 @@ BitmasksPointers:
 	dw DarumakaGalarianBitmasks
 	dw DarmanitanGalarianBitmasks
 	dw YamaskGalarianBitmasks
+	dw StunfiskGalarianBitmasks
 
 	dw GrowlitheHisuianBitmasks
 	dw ArcanineHisuianBitmasks

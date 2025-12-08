@@ -443,6 +443,7 @@ PokedexDataPointerTable:
 	dba DarumakaGalarianPokedexEntry
 	dba DarmanitanGalarianPokedexEntry
 	dba YamaskGalarianPokedexEntry
+	dba StunfiskGalarianPokedexEntry
 
 	dba GrowlitheHisuianPokedexEntry
 	dba ArcanineHisuianPokedexEntry

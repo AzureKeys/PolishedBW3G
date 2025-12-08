@@ -2187,6 +2187,11 @@ YamaskGalarianMini::     INCBIN "gfx/minis/yamask_galarian.2bpp.lz"
 YamaskGalarianMiniMask:: INCBIN "gfx/minis/yamask_galarian_mask.1bpp.lz"
 YamaskGalarianIcon::     INCBIN "gfx/icons/yamask_galarian.2bpp.lz"
 
+SECTION "StunfiskGalarian Mini Icon", ROMX
+StunfiskGalarianMini::     INCBIN "gfx/minis/stunfisk_galarian.2bpp.lz"
+StunfiskGalarianMiniMask:: INCBIN "gfx/minis/stunfisk_galarian_mask.1bpp.lz"
+StunfiskGalarianIcon::     INCBIN "gfx/icons/stunfisk_galarian.2bpp.lz"
+
 SECTION "GrowlitheHisuian Mini Icon", ROMX
 GrowlitheHisuianMini::     INCBIN "gfx/minis/growlithe_hisuian.2bpp.lz"
 GrowlitheHisuianMiniMask:: INCBIN "gfx/minis/growlithe_hisuian_mask.1bpp.lz"

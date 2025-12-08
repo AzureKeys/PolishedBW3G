@@ -4337,6 +4337,16 @@ YamaskGalarianPokedexEntry::
     next "cries sometimes"
     next "looking at it.@"
 
+SECTION "StunfiskGalarianPokedexEntry", ROMX
+StunfiskGalarianPokedexEntry::
+	db "Trap@"
+	db "It lies in wait in"
+    next "the mud. When prey"
+    next "gets close, this"
+    page "#mon clamps its"
+    next "jagged steel fins"
+    next "down on them.@"
+
 SECTION "GrowlitheHisuianPokedexEntry", ROMX
 GrowlitheHisuianPokedexEntry::
 	db "Scout@"

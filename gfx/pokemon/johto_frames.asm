@@ -371,7 +371,8 @@ FrillishFemaleFrames: INCLUDE "gfx/pokemon/frillish_female/frames.asm"
 JellicentMaleFrames:   INCLUDE "gfx/pokemon/jellicent_male/frames.asm"
 JellicentFemaleFrames: INCLUDE "gfx/pokemon/jellicent_female/frames.asm"
 
-StunfiskPlainFrames: INCLUDE "gfx/pokemon/stunfisk_plain/frames.asm"
+StunfiskPlainFrames:    INCLUDE "gfx/pokemon/stunfisk_plain/frames.asm"
+StunfiskGalarianFrames: INCLUDE "gfx/pokemon/stunfisk_galarian/frames.asm"
 
 BraviaryPlainFrames:   INCLUDE "gfx/pokemon/braviary_plain/frames.asm"
 BraviaryHisuianFrames: INCLUDE "gfx/pokemon/braviary_hisuian/frames.asm"

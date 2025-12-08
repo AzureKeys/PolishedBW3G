@@ -470,6 +470,7 @@ INCLUDE "gfx/pokemon/corsola_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/darumaka_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/darmanitan_galarian/front.dimensions"
 INCLUDE "gfx/pokemon/yamask_galarian/front.dimensions"
+INCLUDE "gfx/pokemon/stunfisk_galarian/front.dimensions"
 
 INCLUDE "gfx/pokemon/growlithe_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/arcanine_hisuian/front.dimensions"

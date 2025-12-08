@@ -477,6 +477,7 @@ INCLUDE "data/pokemon/base_stats/corsola_galarian.asm"
 INCLUDE "data/pokemon/base_stats/darumaka_galarian.asm"
 INCLUDE "data/pokemon/base_stats/darmanitan_galarian.asm"
 INCLUDE "data/pokemon/base_stats/yamask_galarian.asm"
+INCLUDE "data/pokemon/base_stats/stunfisk_galarian.asm"
 
 INCLUDE "data/pokemon/base_stats/growlithe_hisuian.asm"
 INCLUDE "data/pokemon/base_stats/arcanine_hisuian.asm"

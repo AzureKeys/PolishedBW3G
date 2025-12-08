@@ -36,4 +36,4 @@ Basculegion (minis)
 	     SWAGGER;14
 	
 ABILITIES THAT NEED ADDING:
-Aggron, Archen, Archeops, Aron, Audino, Bronzong, Bronzor, Buneary, Castform, Cofagrigus, Darmanitan-G, Darmanitan, Delcatty, Drifblim, Drifloon, Druddigon, Durant, Ferroseed, Ferrothorn, Gabite, Garchomp, Gible, Golett, Golurk, Klang, Klink, Klinklang, Kyurem Black/White, Lairon, Lopunny, Maractus, Meditite, Medicham, Munna, Musharna, Numel, Reshiram, Runerigus, Sableye, Skitty, Slakoth, Slaking, Swoobat, Victini, Woobat, Yamask, Yamask-G, Zangoose, Zekrom, Zoroark, Zorua
+Aggron, Archen, Archeops, Aron, Audino, Bronzong, Bronzor, Buneary, Castform, Cofagrigus, Darmanitan-G, Darmanitan, Delcatty, Drifblim, Drifloon, Druddigon, Durant, Ferroseed, Ferrothorn, Gabite, Garchomp, Gible, Golett, Golurk, Klang, Klink, Klinklang, Kyurem Black/White, Lairon, Lopunny, Maractus, Meditite, Medicham, Munna, Musharna, Numel, Reshiram, Runerigus, Sableye, Skitty, Slakoth, Slaking, Stunfisk-G, Swoobat, Victini, Woobat, Yamask, Yamask-G, Zangoose, Zekrom, Zoroark, Zorua

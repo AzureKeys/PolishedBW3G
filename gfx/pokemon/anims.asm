@@ -498,7 +498,8 @@ FrillishFemaleAnimation: INCLUDE "gfx/pokemon/frillish_female/anim.asm"
 JellicentMaleAnimation:   INCLUDE "gfx/pokemon/jellicent_male/anim.asm"
 JellicentFemaleAnimation: INCLUDE "gfx/pokemon/jellicent_female/anim.asm"
 
-StunfiskPlainAnimation: INCLUDE "gfx/pokemon/stunfisk_plain/anim.asm"
+StunfiskPlainAnimation:    INCLUDE "gfx/pokemon/stunfisk_plain/anim.asm"
+StunfiskGalarianAnimation: INCLUDE "gfx/pokemon/stunfisk_galarian/anim.asm"
 
 BraviaryPlainAnimation:   INCLUDE "gfx/pokemon/braviary_plain/anim.asm"
 BraviaryHisuianAnimation: INCLUDE "gfx/pokemon/braviary_hisuian/anim.asm"
