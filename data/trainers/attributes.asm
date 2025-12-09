@@ -188,6 +188,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
+; Backpackerm
+	db 0, 0 ; items
+	db 8 ; base reward
+	dw AI_BASIC + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Backpackerf
+	db 0, 0 ; items
+	db 8 ; base reward
+	dw AI_BASIC + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward

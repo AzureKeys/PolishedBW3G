@@ -34,6 +34,8 @@ TrainerGroups:
 	dba ArtistGroup
 	dba BackersMGroup
 	dba BackersFGroup
+	dba BackpackerMGroup
+	dba BackpackerFGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup

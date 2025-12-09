@@ -854,6 +854,152 @@ BackersFGroup:
 		tr_dvs DVS_HP_GRASS ; green
 		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
 	end_trainer
+
+
+SECTION "BackpackerMGroup", ROMX
+BackpackerMGroup:
+
+	def_trainer_class BACKPACKERM
+	def_trainer BACKPACKERM_REVERSAL, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERM_R16, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERM_DESERT, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERM_R2, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERM_R18, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERM_GIANT_CHASM, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERM_RELIC_PASSAGE, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERM_R7, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERM_R23, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERM_VICTORY_ROAD_INT, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer PARKER_REMATCH_1, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer PARKER_REMATCH_2, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+
+
+SECTION "BackpackerFGroup", ROMX
+BackpackerFGroup:
+
+	def_trainer_class BACKPACKERF
+	def_trainer BACKPACKERF_REVERSAL, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERF_R16, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERF_DESERT, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERF_R2, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERF_R18, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERF_GIANT_CHASM, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERF_RELIC_PASSAGE, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERF_R7, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer BACKPACKERF_R23, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKPACKERF_VICTORY_ROAD_EXT, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+	
+	def_trainer JENNY_REMATCH_1, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+	
+	def_trainer JENNY_REMATCH_2, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+	
+	def_trainer JENNY_REMATCH_3, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

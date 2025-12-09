@@ -82,6 +82,12 @@ BackersMPic: INCBIN "gfx/trainers/backers_m.2bpp.lz"
 SECTION "BackersFPic", ROMX
 BackersFPic: INCBIN "gfx/trainers/backers_f.2bpp.lz"
 
+SECTION "BackpackerMPic", ROMX
+BackpackerMPic: INCBIN "gfx/trainers/backpacker_m.2bpp.lz"
+
+SECTION "BackpackerFPic", ROMX
+BackpackerFPic: INCBIN "gfx/trainers/backpacker_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

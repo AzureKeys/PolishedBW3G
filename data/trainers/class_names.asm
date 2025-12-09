@@ -31,6 +31,8 @@ TrainerClassNames::
 	li "Artist"           ; ARTIST
 	li "Backers"          ; BACKERS_M
 	li "Backers"          ; BACKERS_F
+	li "Backpacker"       ; BACKPACKER_M
+	li "Backpacker"       ; BACKPACKER_F
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
