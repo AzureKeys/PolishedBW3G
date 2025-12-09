@@ -32,9 +32,6 @@ TrainerPicPointers::
 	dba ArtistPic
 	dba BackersMPic
 	dba BackersFPic
-	dba BugCatcherPic
-	dba CamperPic
-	dba PicnickerPic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic

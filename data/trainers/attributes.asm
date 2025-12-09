@@ -188,24 +188,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Bug Catcher
-	db 0, 0 ; items
-	db 4 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; Camper
-	db 0, 0 ; items
-	db 5 ; base reward
-	dw AI_BASIC + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; Picnicker
-	db 0, 0 ; items
-	db 5 ; base reward
-	dw AI_BASIC + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward

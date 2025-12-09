@@ -33,9 +33,6 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; artist
 	db MUSIC_HIKER_ENCOUNTER ; backersm
 	db MUSIC_BEAUTY_ENCOUNTER ; backersf
-	db MUSIC_YOUNGSTER_ENCOUNTER ; bug_catcher
-	db MUSIC_YOUNGSTER_ENCOUNTER ; camper
-	db MUSIC_LASS_ENCOUNTER ; picnicker
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_HIKER_ENCOUNTER ; fisher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper

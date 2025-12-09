@@ -34,9 +34,6 @@ TrainerGroups:
 	dba ArtistGroup
 	dba BackersMGroup
 	dba BackersFGroup
-	dba BugCatcherGroup
-	dba CamperGroup
-	dba PicnickerGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup

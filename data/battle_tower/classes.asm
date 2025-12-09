@@ -17,7 +17,7 @@ BattleTowerTrainers:
 	rawchar "Ichigo@@@@", BAKER
 	rawchar "Estée@@@@@", AROMA_LADY
 	rawchar "Wayne@@@@@", SCHOOLBOY
-	rawchar "McManus@@@", CAMPER
+	rawchar "McManus@@@", HIKER
 	rawchar "Daryl@@@@@", SWIMMERM
 	rawchar "Kim@@@@@@@", FIREBREATHER
 	rawchar "Wilder@@@@", COWGIRL
@@ -30,8 +30,8 @@ BattleTowerTrainers:
 	rawchar "Annie@@@@@", OFFICERF
 	rawchar "Park@@@@@@", ENGINEER
 	rawchar "Patricia@@", COSPLAYER
-	rawchar "Rajan@@@@@", PICNICKER
-	rawchar "Diaz@@@@@@", PICNICKER
+	rawchar "Rajan@@@@@", HIKER
+	rawchar "Diaz@@@@@@", HIKER
 	rawchar "Mozi@@@@@@", SAGE
 	rawchar "Adrian@@@@", WAITER
 	rawchar "Tomoyo@@@@", COSPLAYER
@@ -101,11 +101,11 @@ BattleTowerTrainers:
 	rawchar "Mott@@@@@@", TEACHER_M
 	rawchar "Pov@@@@@@@", BOARDER
 	rawchar "Collins@@@", POKEFANM
-	rawchar "Darwin@@@@", BUG_CATCHER
+	rawchar "Darwin@@@@", HIKER
 	rawchar "Tatiana@@@", NURSE
 	rawchar "Pitt@@@@@@", RUIN_MANIAC
-	rawchar "Tajiri@@@@", BUG_CATCHER
-	rawchar "Heinlen@@@", CAMPER
+	rawchar "Tajiri@@@@", HIKER
+	rawchar "Heinlen@@@", HIKER
 	rawchar "Hughes@@@@", FISHER
 	rawchar "Kirby@@@@@", BUG_MANIAC
 	rawchar "Ricky@@@@@", BIRD_KEEPER

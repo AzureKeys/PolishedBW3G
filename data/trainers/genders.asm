@@ -34,9 +34,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ARTIST
 	dbit MALE_BIT   ; BACKERSM
 	dbit FEMALE_BIT ; BACKERSF
-	dbit MALE_BIT   ; BUG_CATCHER
-	dbit MALE_BIT   ; CAMPER
-	dbit FEMALE_BIT ; PICNICKER
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; BIRD_KEEPER

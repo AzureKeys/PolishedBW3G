@@ -82,15 +82,6 @@ BackersMPic: INCBIN "gfx/trainers/backers_m.2bpp.lz"
 SECTION "BackersFPic", ROMX
 BackersFPic: INCBIN "gfx/trainers/backers_f.2bpp.lz"
 
-SECTION "BugCatcherPic", ROMX
-BugCatcherPic: INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
-
-SECTION "CamperPic", ROMX
-CamperPic: INCBIN "gfx/trainers/camper.2bpp.lz"
-
-SECTION "PicnickerPic", ROMX
-PicnickerPic: INCBIN "gfx/trainers/picnicker.2bpp.lz"
-
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

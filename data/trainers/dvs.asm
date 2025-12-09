@@ -34,9 +34,6 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, MALE   ; artist
 	db  40, $BB, $BB, $BB, MALE   ; backersm
 	db  40, $BB, $BB, $BB, FEMALE ; backersf
-	db   0, $66, $66, $66, MALE   ; bug catcher
-	db   8, $77, $77, $77, MALE   ; camper
-	db   8, $77, $77, $77, FEMALE ; picnicker
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper

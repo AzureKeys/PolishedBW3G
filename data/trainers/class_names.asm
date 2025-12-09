@@ -31,9 +31,6 @@ TrainerClassNames::
 	li "Artist"           ; ARTIST
 	li "Backers"          ; BACKERS_M
 	li "Backers"          ; BACKERS_F
-	li "Bug Catcher"      ; BUG_CATCHER
-	li "Camper"           ; CAMPER
-	li "Picnicker"        ; PICNICKER
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
