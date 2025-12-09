@@ -32,6 +32,8 @@ TrainerGroups:
 	dba AceTrainerFGroup
 	dba AceTrainerFDGroup
 	dba ArtistGroup
+	dba BackersMGroup
+	dba BackersFGroup
 	dba BugCatcherGroup
 	dba CamperGroup
 	dba PicnickerGroup

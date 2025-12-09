@@ -30,6 +30,8 @@ TrainerPicPointers::
 	dba AceTrainerfPic
 	dba AceTrainerfPic
 	dba ArtistPic
+	dba BackersMPic
+	dba BackersFPic
 	dba BugCatcherPic
 	dba CamperPic
 	dba PicnickerPic

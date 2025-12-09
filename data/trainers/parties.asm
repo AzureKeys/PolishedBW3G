@@ -822,6 +822,38 @@ ArtistGroup:
 		tr_dvs DVS_HP_GRASS ; green
 		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
 	end_trainer
+
+
+SECTION "BackersMGroup", ROMX
+BackersMGroup:
+
+	def_trainer_class BACKERSM
+	def_trainer BACKERSM_R16, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKERSM_R11, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+
+
+SECTION "BackersFGroup", ROMX
+BackersFGroup:
+
+	def_trainer_class BACKERSF
+	def_trainer BACKERSF_R5, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BACKERSF_R11, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
 	
 
 SECTION "BugCatcherGroup", ROMX

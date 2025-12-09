@@ -176,6 +176,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
+; Backersm
+	db 0, 0 ; items
+	db 15 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Backersf
+	db 0, 0 ; items
+	db 15 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Bug Catcher
 	db 0, 0 ; items
 	db 4 ; base reward

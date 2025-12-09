@@ -76,6 +76,12 @@ AceTrainerfPic: INCBIN "gfx/trainers/ace_trainer_f.2bpp.lz"
 SECTION "ArtistPic", ROMX
 ArtistPic: INCBIN "gfx/trainers/artist.2bpp.lz"
 
+SECTION "BackersMPic", ROMX
+BackersMPic: INCBIN "gfx/trainers/backers_m.2bpp.lz"
+
+SECTION "BackersFPic", ROMX
+BackersFPic: INCBIN "gfx/trainers/backers_f.2bpp.lz"
+
 SECTION "BugCatcherPic", ROMX
 BugCatcherPic: INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 

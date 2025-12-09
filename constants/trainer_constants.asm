@@ -171,6 +171,14 @@ DEF CRYS EQU __trainer_class__
 	const ARTIST_R5
 	const ARTIST_R3
 
+	trainerclass BACKERSM ; 24
+	const BACKERSM_R16
+	const BACKERSM_R11
+
+	trainerclass BACKERSF ; 25
+	const BACKERSF_R5
+	const BACKERSF_R11
+
 	trainerclass BUG_CATCHER ; 21
 	const WADE1
 	const WADE2
