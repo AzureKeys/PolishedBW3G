@@ -242,11 +242,24 @@ DEF CRYS EQU __trainer_class__
 	const BIKER_R9_1
 	const BIKER_R9_2
 
-	trainerclass ROUGHNECK ; 5a
+	trainerclass ROUGHNECK ; 26
 	const ROUGHNECK_R4
 	const ROUGHNECK_DESERT
 	const ROUGHNECK_R9_1
 	const ROUGHNECK_R9_2
+
+	trainerclass CYCLISTM ; 27
+	const CYCLISTM_OUTSKIRTS
+	const CYCLISTM_R16
+	const FREDDY_REMATCH_1
+	const FREDDY_REMATCH_2
+	const FREDDY_REMATCH_3
+	const FREDDY_REMATCH_4
+	const FREDDY_REMATCH_5
+
+	trainerclass CYCLISTF ; 28
+	const CYCLISTF_OUTSKIRTS
+	const CYCLISTF_R16
 
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1

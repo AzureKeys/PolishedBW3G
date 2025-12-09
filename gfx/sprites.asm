@@ -67,6 +67,12 @@ InferSpriteGFX:: INCBIN "gfx/sprites/infer.2bpp.lz"
 SECTION "InferSageSpriteGFX", ROMX
 InferSageSpriteGFX:: INCBIN "gfx/sprites/infer_sage.2bpp.lz"
 
+SECTION "CyclistMSpriteGFX", ROMX
+CyclistMSpriteGFX:: INCBIN "gfx/sprites/cyclist_m.2bpp.lz"
+
+SECTION "CyclistFSpriteGFX", ROMX
+CyclistFSpriteGFX:: INCBIN "gfx/sprites/cyclist_f.2bpp.lz"
+
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lz"
 

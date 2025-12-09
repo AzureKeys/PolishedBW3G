@@ -1203,6 +1203,63 @@ RoughneckGroup:
 	tr_mon 57, RATTATA
 	tr_mon 56, HOUNDOOM
 	end_trainer
+
+
+SECTION "CyclistMGroup", ROMX
+CyclistMGroup:
+
+	def_trainer_class CYCLISTM
+	def_trainer CYCLISTM_OUTSKIRTS, "Brian"
+	tr_mon 55, RATTATA
+	tr_mon 55, WEEZING
+	tr_mon 55, WEEZING
+	end_trainer
+
+	def_trainer CYCLISTM_R16, "Theron"
+	tr_mon 55, MUK
+	tr_mon 55, POLIWRATH
+	end_trainer
+
+	def_trainer FREDDY_REMATCH_1, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer FREDDY_REMATCH_2, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer FREDDY_REMATCH_3, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer FREDDY_REMATCH_4, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer FREDDY_REMATCH_5, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+
+SECTION "CyclistFGroup", ROMX
+CyclistFGroup:
+
+	def_trainer_class CYCLISTF
+	def_trainer CYCLISTF_OUTSKIRTS, "Brian"
+	tr_mon 55, RATTATA
+	tr_mon 55, WEEZING
+	tr_mon 55, WEEZING
+	end_trainer
+
+	def_trainer CYCLISTF_R16, "Theron"
+	tr_mon 55, MUK
+	tr_mon 55, POLIWRATH
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

@@ -41,6 +41,8 @@ TrainerClassDVsAndPersonality:
 	db  64, $FF, $DD, $DD, FEMALE ; battle girl
 	db  72, $DD, $DD, $DD, MALE   ; biker
 	db  72, $DD, $DD, $DD, MALE   ; roughneck
+	db  32, $AA, $AA, $AA, MALE   ; cyclistm
+	db  32, $AA, $AA, $AA, FEMALE ; cyclistf
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper

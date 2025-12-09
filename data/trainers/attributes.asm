@@ -230,6 +230,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Cyclistm
+	db 0, 0 ; items
+	db 8 ; base reward
+	dw AI_BASIC + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Cyclistf
+	db 0, 0 ; items
+	db 8 ; base reward
+	dw AI_BASIC + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward

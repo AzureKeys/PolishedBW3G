@@ -41,6 +41,8 @@ TrainerGroups:
 	dba BattleGirlGroup
 	dba BikerGroup
 	dba RoughneckGroup
+	dba CyclistMGroup
+	dba CyclistFGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup

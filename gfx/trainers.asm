@@ -103,6 +103,12 @@ BikerPic: INCBIN "gfx/trainers/biker.2bpp.lz"
 SECTION "RoughneckPic", ROMX
 RoughneckPic: INCBIN "gfx/trainers/roughneck.2bpp.lz"
 
+SECTION "CyclistMPic", ROMX
+CyclistMPic: INCBIN "gfx/trainers/cyclist_m.2bpp.lz"
+
+SECTION "CyclistFPic", ROMX
+CyclistFPic: INCBIN "gfx/trainers/cyclist_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
