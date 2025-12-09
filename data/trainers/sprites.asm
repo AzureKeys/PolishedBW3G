@@ -17,9 +17,10 @@ BTTrainerClassSprites:
 	db SPRITE_ELESA         ; ELESA
 	db SPRITE_COLRESS       ; COLRESS
 	db SPRITE_JUNIPER       ; CHAMPION
-	db SPRITE_RIVAL         ; RIVAL0
-	db SPRITE_RIVAL         ; RIVAL1
-	db SPRITE_RIVAL         ; RIVAL2
+	db SPRITE_INFER         ; INFER0
+	db SPRITE_INFER         ; INFER1
+	db SPRITE_INFER_SAGE    ; INFER_SAGE
+	db SPRITE_INFER         ; INFER2
 	db SPRITE_LYRA          ; LYRA1
 	db SPRITE_LYRA          ; LYRA2
 	db SPRITE_YOUNGSTER     ; YOUNGSTER

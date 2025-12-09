@@ -19,9 +19,10 @@ TrainerGroups:
 	dba ElesaGroup
 	dba ColressGroup
 	dba ChampionGroup
-	dba Rival0Group
-	dba Rival1Group
-	dba Rival2Group
+	dba Infer0Group
+	dba Infer1Group
+	dba InferSageGroup
+	dba Infer2Group
 	dba Lyra1Group
 	dba Lyra2Group
 	dba YoungsterGroup

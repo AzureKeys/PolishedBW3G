@@ -73,23 +73,34 @@ DEF CRYS EQU __trainer_class__
 	const JUNIPER_TEPIG
 	const JUNIPER_OSHAWOTT
 
-	trainerclass RIVAL0 ; 1b
+	trainerclass INFER0 ; 11
+	const INFER1_SNIVY
+	const INFER1_TEPIG
+	const INFER1_OSHAWOTT
 
-	trainerclass RIVAL1 ; 1c
-	const RIVAL1_4
-	const RIVAL1_5
-	const RIVAL1_6
-	const RIVAL1_7
-	const RIVAL1_8
-	const RIVAL1_9
-	const RIVAL1_10
-	const RIVAL1_11
-	const RIVAL1_12
-	const RIVAL1_13
-	const RIVAL1_14
-	const RIVAL1_15
+	trainerclass INFER1 ; 12
+	const INFER2_SNIVY
+	const INFER2_TEPIG
+	const INFER2_OSHAWOTT
+	const INFER3_SNIVY
+	const INFER3_TEPIG
+	const INFER3_OSHAWOTT
+	const INFER4_SNIVY
+	const INFER4_TEPIG
+	const INFER4_OSHAWOTT
+	const INFER5_SNIVY
+	const INFER5_TEPIG
+	const INFER5_OSHAWOTT
+	
+	trainerclass INFER_SAGE ; 13
+	const INFER_SAGE_SNIVY
+	const INFER_SAGE_TEPIG
+	const INFER_SAGE_OSHAWOTT
 
-	trainerclass RIVAL2 ; 1d
+	trainerclass INFER2 ; 14
+	const INFER7_SNIVY
+	const INFER7_TEPIG
+	const INFER7_OSHAWOTT
 
 	trainerclass LYRA1 ; 1e
 	const LYRA1_1

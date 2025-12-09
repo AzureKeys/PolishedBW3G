@@ -19,9 +19,10 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; elesa
 	db 252, PERFECT_DVS,   MALE   ; colress
 	db 252, PERFECT_DVS,   FEMALE ; champion
-	db   0, PERFECT_DVS,   MALE   ; rival0
-	db 144, PERFECT_DVS,   MALE   ; rival1
-	db 252, PERFECT_DVS,   MALE   ; rival2
+	db   0, PERFECT_DVS,   FEMALE ; infer0
+	db 144, PERFECT_DVS,   FEMALE ; infer1
+	db 252, PERFECT_DVS,   FEMALE ; infer sage
+	db 252, PERFECT_DVS,   FEMALE ; infer2
 	db   0, $BB, $BB, $BB, FEMALE ; lyra1
 	db 252, $BB, $BB, $BB, FEMALE ; lyra2
 	db   0, $66, $66, $66, MALE   ; youngster

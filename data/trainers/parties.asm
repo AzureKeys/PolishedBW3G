@@ -283,335 +283,129 @@ ChampionGroup:
 	end_trainer
 
 
-SECTION "Rival0Group", ROMX
-Rival0Group:
+SECTION "Infer0Group", ROMX
+Infer0Group:
 
-	def_trainer_class RIVAL0
-	def_trainer 1, "boy"
+	def_trainer_class INFER0
+	def_trainer INFER1_SNIVY, "girl"
 	tr_mon 4, RATTATA
 	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 2, "boy"
+	def_trainer INFER1_TEPIG, "girl"
 	tr_mon 4, RATTATA
 	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 3, "boy"
+	def_trainer INFER1_OSHAWOTT, "girl"
 	tr_mon 4, RATTATA
 	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
 
-SECTION "Rival1Group", ROMX
-Rival1Group:
+SECTION "Infer1Group", ROMX
+Infer1Group:
 
-	; For EV spreads, keep continuity until pre-E4 (need Surf to lose EVs).
-	def_trainer_class RIVAL1
-	def_trainer RIVAL1_4, "<RIVAL>"
-	tr_mon 14, GASTLY
-		tr_evs 72 Spe
-		tr_moves LICK, DISABLE, MEAN_LOOK, CURSE ; default for level
-	tr_mon 16, ZUBAT
-		tr_evs 72 Spe
-		tr_moves SUPERSONIC, TACKLE, BITE, GUST ; default for level
-	tr_mon 15, GEODUDE
-		tr_evs 72 HP
-		tr_moves MUD_SLAP, RAPID_SPIN, ROLLOUT, MAGNITUDE ; default for level
-	tr_mon 18, RATTATA @ ORAN_BERRY
-		tr_evs 72 Atk
-		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
+	def_trainer_class INFER1
+	def_trainer INFER2_SNIVY, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_5, "<RIVAL>"
-	tr_mon 14, GASTLY
-		tr_evs 72 Spe
-	tr_mon 16, ZUBAT
-		tr_evs 72 Spe
-	tr_mon 15, GEODUDE
-		tr_evs 72 HP
-	tr_mon 18, RATTATA @ ORAN_BERRY
-		tr_evs 72 SAt
+	def_trainer INFER2_TEPIG, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_6, "<RIVAL>"
-	tr_mon 14, GASTLY
-		tr_evs 72 Spe
-	tr_mon 16, ZUBAT
-		tr_evs 72 Spe
-	tr_mon 15, GEODUDE
-		tr_evs 72 HP
-	tr_mon 18, RATTATA @ ORAN_BERRY
-		tr_evs 72 Spe
+	def_trainer INFER2_OSHAWOTT, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
+	end_trainer
+	
+	def_trainer INFER3_SNIVY, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_7, "<RIVAL>"
-	tr_mon 20, HAUNTER
-		tr_evs 104 Spe
-		tr_moves LICK, CONFUSE_RAY, MEAN_LOOK, CURSE
-	tr_mon 18, MAGNEMITE
-		tr_evs 104 Spe
-		tr_moves TACKLE, THUNDERSHOCK, SUPERSONIC, SONIC_BOOM
-	tr_mon 19, RATTATA
-		tr_evs 104 Spe
-		tr_moves HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
-	tr_mon 20, ZUBAT
-		tr_evs 104 Spe
-		tr_moves TACKLE, SUPERSONIC, BITE, CONFUSE_RAY
-	tr_mon 22, RATTATA @ ORAN_BERRY
-		tr_evs 72 Atk, 32 SAt
-		tr_moves REFLECT, RAZOR_LEAF, POISONPOWDER, DISARM_VOICE
+	def_trainer INFER3_TEPIG, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_8, "<RIVAL>"
-	tr_mon 20, HAUNTER
-		tr_evs 104 Spe
-		tr_moves LICK, CONFUSE_RAY, MEAN_LOOK, CURSE
-	tr_mon 18, MAGNEMITE
-		tr_evs 104 Spe
-		tr_moves TACKLE, THUNDERSHOCK, SUPERSONIC, SONIC_BOOM
-	tr_mon 19, RATTATA
-		tr_evs 104 Spe
-		tr_moves HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
-	tr_mon 20, ZUBAT
-		tr_evs 104 Spe
-		tr_moves TACKLE, SUPERSONIC, BITE, CONFUSE_RAY
-	tr_mon 22, RATTATA @ ORAN_BERRY
-		tr_evs 72 SAt, 32 Spe
-		tr_moves LEER, TACKLE, EMBER, QUICK_ATTACK
+	def_trainer INFER3_OSHAWOTT, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
+	end_trainer
+	
+	def_trainer INFER4_SNIVY, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_9, "<RIVAL>"
-	tr_mon 20, HAUNTER
-		tr_evs 104 Spe
-		tr_moves LICK, CONFUSE_RAY, MEAN_LOOK, CURSE
-	tr_mon 18, MAGNEMITE
-		tr_evs 104 Spe
-		tr_moves TACKLE, THUNDERSHOCK, SUPERSONIC, SONIC_BOOM
-	tr_mon 19, RATTATA
-		tr_evs 104 Spe
-		tr_moves HYPNOSIS, CONFUSION, HEADBUTT, LOW_KICK
-	tr_mon 20, ZUBAT
-		tr_evs 104 Spe
-		tr_moves TACKLE, SUPERSONIC, BITE, CONFUSE_RAY
-	tr_mon 22, RATTATA @ ORAN_BERRY
-		tr_evs 32 Atk, 72 Spe
-		tr_moves LEER, THRASH, WATER_GUN, BITE
+	def_trainer INFER4_TEPIG, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_10, "<RIVAL>"
-	tr_mon 40, GOLBAT
-		tr_evs 116 Atk, 116 Spe
-		tr_moves TACKLE, BITE, CONFUSE_RAY, WING_ATTACK
-	tr_mon 39, MAGNETON
-		tr_evs 116 SAt, 116 Spe
-		tr_moves TRI_ATTACK, THUNDERBOLT, FLASH_CANNON, THUNDER_WAVE
-	tr_mon 39, HAUNTER
-		tr_evs 232 Spe
-		tr_moves PAIN_SPLIT, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
-	tr_mon 41, SNEASEL
-		tr_evs 232 Atk
-		tr_moves SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	tr_mon 43, RATTATA @ SITRUS_BERRY
-		tr_evs 72 Atk, 160 SAt ; Still has some Atk EVs for continuity
-		tr_moves REFLECT, LIGHT_SCREEN, PETAL_DANCE, ANCIENTPOWER
+	def_trainer INFER4_OSHAWOTT, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
+	end_trainer
+	
+	def_trainer INFER5_SNIVY, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_11, "<RIVAL>"
-	tr_mon 40, GOLBAT
-		tr_evs 116 Atk, 116 Spe
-		tr_moves TACKLE, BITE, CONFUSE_RAY, WING_ATTACK
-	tr_mon 39, MAGNETON
-		tr_evs 116 SAt, 116 Spe
-		tr_moves TRI_ATTACK, THUNDERBOLT, FLASH_CANNON, THUNDER_WAVE
-	tr_mon 39, HAUNTER
-		tr_evs 232 Spe
-		tr_moves PAIN_SPLIT, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
-	tr_mon 41, SNEASEL
-		tr_evs 232 Atk
-		tr_moves SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	tr_mon 43, RATTATA @ SITRUS_BERRY
-		tr_evs 88 Atk, 72 SAt, 72 Spe
-		tr_moves TACKLE, FLAME_CHARGE, DIG, SWIFT
+	def_trainer INFER5_TEPIG, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer RIVAL1_12, "<RIVAL>"
-	tr_mon 40, GOLBAT
-		tr_evs 116 Atk, 116 Spe
-		tr_moves TACKLE, BITE, CONFUSE_RAY, WING_ATTACK
-	tr_mon 39, MAGNETON
-		tr_evs 116 SAt, 116 Spe
-		tr_moves TRI_ATTACK, THUNDERBOLT, FLASH_CANNON, THUNDER_WAVE
-	tr_mon 39, HAUNTER
-		tr_evs 232 Spe
-		tr_moves PAIN_SPLIT, MEAN_LOOK, CONFUSE_RAY, SHADOW_BALL
-	tr_mon 41, SNEASEL
-		tr_evs 232 Atk
-		tr_moves SLASH, ICE_PUNCH, HONE_CLAWS, FEINT_ATTACK
-	tr_mon 43, RATTATA @ SITRUS_BERRY
-		tr_evs 160 Atk, 72 Spe
-		tr_moves SLASH, SURF, CRUNCH, NIGHT_SLASH
-	end_trainer
-
-	def_trainer RIVAL1_13, "<RIVAL>"
-	tr_mon 45, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, SCREECH, NIGHT_SLASH, X_SCISSOR
-	tr_mon 47, GOLBAT @ EVIOLITE
-		tr_moves POISON_JAB, SUPER_FANG, CONFUSE_RAY, WING_ATTACK
-	tr_mon 46, MAGNETON @ MAGNET
-		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 46, GENGAR @ SPELL_TAG
-		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 46, RATTATA @ BRIGHTPOWDER
-		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	tr_mon 49, RATTATA @ SITRUS_BERRY
-		tr_moves REFLECT, LIGHT_SCREEN, ENERGY_BALL, ANCIENTPOWER
-	end_trainer
-
-	def_trainer RIVAL1_14, "<RIVAL>"
-	tr_mon 45, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, SCREECH, NIGHT_SLASH, X_SCISSOR
-	tr_mon 47, GOLBAT @ EVIOLITE
-		tr_moves POISON_JAB, SUPER_FANG, CONFUSE_RAY, WING_ATTACK
-	tr_mon 46, MAGNETON @ MAGNET
-		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 46, GENGAR @ SPELL_TAG
-		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 46, RATTATA @ BRIGHTPOWDER
-		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	tr_mon 49, RATTATA @ SITRUS_BERRY
-		tr_moves TACKLE, QUICK_ATTACK, DIG, FLAMETHROWER
-	end_trainer
-
-	def_trainer RIVAL1_15, "<RIVAL>"
-	tr_mon 45, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, SCREECH, NIGHT_SLASH, X_SCISSOR
-	tr_mon 47, GOLBAT @ EVIOLITE
-		tr_moves POISON_JAB, SUPER_FANG, CONFUSE_RAY, WING_ATTACK
-	tr_mon 46, MAGNETON @ MAGNET
-		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 46, GENGAR @ SPELL_TAG
-		tr_moves MEAN_LOOK, DARK_PULSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 46, RATTATA @ BRIGHTPOWDER
-		tr_moves DISABLE, PSYCHIC_M, RECOVER, CONFUSE_RAY
-	tr_mon 49, RATTATA @ SITRUS_BERRY
-		tr_moves CRUNCH, SURF, SLASH, SCARY_FACE
+	def_trainer INFER5_OSHAWOTT, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
 
-SECTION "Rival2Group", ROMX
-Rival2Group:
+SECTION "InferSageGroup", ROMX
+InferSageGroup:
 
-	def_trainer_class RIVAL2
-	def_trainer 1, "<RIVAL>"
-	tr_mon 61, WEAVILE @ KINGS_ROCK
-		tr_evs 252 Atk, 204 Spe
-		tr_moves SWORDS_DANCE, ICE_PUNCH, SLASH, CRUNCH
-	tr_mon 62, GOLBAT @ EVIOLITE
-		tr_evs 252 HP, 204 Atk
-		tr_moves POISON_JAB, SUPER_FANG, CONFUSE_RAY, AERIAL_ACE
-	tr_mon 61, MAGNEZONE @ MAGNET
-		tr_evs 252 SAt, 204 Spe
-		tr_moves TRI_ATTACK, ZAP_CANNON, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 63, GENGAR @ SPELL_TAG
-		tr_evs 252 SAt, 204 Spe
-		tr_moves MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 63, RATTATA @ BRIGHTPOWDER
-		tr_evs 252 SAt, 204 Spe
-		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	tr_mon 65, RATTATA @ MIRACLE_SEED
-		tr_evs 252 Atk, 204 Spe
-		tr_moves SEED_BOMB, POISONPOWDER, BODY_SLAM, LIGHT_SCREEN
+	def_trainer_class INFER_SAGE
+	def_trainer INFER_SAGE_SNIVY, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 2, "<RIVAL>"
-	tr_mon 61, WEAVILE @ KINGS_ROCK
-		tr_evs 252 Atk, 204 Spe
-		tr_moves SWORDS_DANCE, ICE_PUNCH, SLASH, CRUNCH
-	tr_mon 62, GOLBAT @ EVIOLITE
-		tr_evs 252 HP, 204 Atk
-		tr_moves POISON_JAB, SUPER_FANG, CONFUSE_RAY, AERIAL_ACE
-	tr_mon 61, MAGNEZONE @ MAGNET
-		tr_evs 252 SAt, 204 Spe
-		tr_moves TRI_ATTACK, ZAP_CANNON, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 63, GENGAR @ SPELL_TAG
-		tr_evs 252 SAt, 204 Spe
-		tr_moves MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 63, RATTATA @ BRIGHTPOWDER
-		tr_evs 252 SAt, 204 Spe
-		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	tr_mon 65, RATTATA @ CHARCOAL
-		tr_evs 204 Atk, 252 SAt
-		tr_moves FLAMETHROWER, EARTH_POWER, THUNDERPUNCH, TACKLE
+	def_trainer INFER_SAGE_TEPIG, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 3, "<RIVAL>"
-	tr_mon 61, WEAVILE @ KINGS_ROCK
-		tr_evs 252 Atk, 204 Spe
-		tr_moves SWORDS_DANCE, ICE_PUNCH, SLASH, CRUNCH
-	tr_mon 62, GOLBAT @ EVIOLITE
-		tr_evs 252 HP, 204 Atk
-		tr_moves POISON_JAB, SUPER_FANG, CONFUSE_RAY, AERIAL_ACE
-	tr_mon 61, MAGNEZONE @ MAGNET
-		tr_evs 252 SAt, 204 Spe
-		tr_moves TRI_ATTACK, ZAP_CANNON, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 63, GENGAR @ SPELL_TAG
-		tr_evs 252 SAt, 204 Spe
-		tr_moves MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 63, RATTATA @ BRIGHTPOWDER
-		tr_evs 252 SAt, 204 Spe
-		tr_moves DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	tr_mon 65, RATTATA @ MYSTIC_WATER
-		tr_evs 204 Atk, 252 Spe
-		tr_moves WATERFALL, CRUNCH, SLASH, SCARY_FACE
+	def_trainer INFER_SAGE_OSHAWOTT, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 4, "<RIVAL>"
-	tr_mon 68, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, ICE_PUNCH, SLASH, CRUNCH
-	tr_mon 69, CROBAT @ POISON_BARB
-		tr_moves POISON_JAB, CRUNCH, CONFUSE_RAY, TOXIC
-	tr_mon 68, MAGNEZONE @ MAGNET
-		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 70, GENGAR @ SPELL_TAG
-		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 70, RATTATA @ BRIGHTPOWDER
-		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	tr_mon 72, RATTATA @ LEFTOVERS
-		tr_moves PETAL_DANCE, MOONBLAST, LIGHT_SCREEN, ANCIENTPOWER
+
+SECTION "Infer2Group", ROMX
+Infer2Group:
+
+	def_trainer_class INFER2
+	def_trainer INFER7_SNIVY, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 5, "<RIVAL>"
-	tr_mon 68, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, ICE_PUNCH, SLASH, CRUNCH
-	tr_mon 69, CROBAT @ POISON_BARB
-		tr_moves POISON_JAB, CRUNCH, CONFUSE_RAY, TOXIC
-	tr_mon 68, MAGNEZONE @ MAGNET
-		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 70, GENGAR @ SPELL_TAG
-		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 70, RATTATA @ BRIGHTPOWDER
-		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	tr_mon 72, RATTATA @ LEFTOVERS
-		tr_moves FIRE_BLAST, FOCUS_BLAST, EARTH_POWER, TACKLE
+	def_trainer INFER7_TEPIG, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 6, "<RIVAL>"
-	tr_mon 68, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, ICE_PUNCH, SLASH, CRUNCH
-	tr_mon 69, CROBAT @ POISON_BARB
-		tr_moves POISON_JAB, CRUNCH, CONFUSE_RAY, TOXIC
-	tr_mon 68, MAGNEZONE @ MAGNET
-		tr_moves THUNDERBOLT, TRI_ATTACK, THUNDER_WAVE, FLASH_CANNON
-	tr_mon 70, GENGAR @ SPELL_TAG
-		tr_moves THUNDERBOLT, FOCUS_BLAST, SHADOW_BALL, CONFUSE_RAY
-	tr_mon 70, RATTATA @ BRIGHTPOWDER
-		tr_moves RECOVER, TRI_ATTACK, PSYCHIC_M, REFLECT
-	tr_mon 72, RATTATA @ LEFTOVERS
-		tr_moves SURF, CRUNCH, SLASH, OUTRAGE
+	def_trainer INFER7_OSHAWOTT, "Infer"
+	tr_mon 4, RATTATA
+	tr_mon 5, RATTATA @ ORAN_BERRY
 	end_trainer
-
-; TODO: give Lyra custom movesets
 
 
 SECTION "Lyra1Group", ROMX

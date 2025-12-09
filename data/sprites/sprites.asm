@@ -30,6 +30,8 @@ SpriteHeaders:
 	overworld_sprite ElesaSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
 	overworld_sprite ColressSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
 	overworld_sprite JuniperSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite InferSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite InferSageSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite YellowSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite OakSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ElmSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN

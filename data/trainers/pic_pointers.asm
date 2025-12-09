@@ -17,9 +17,10 @@ TrainerPicPointers::
 	dba ElesaPic
 	dba ColressPic
 	dba ChampionPic
-	dba Rival0Pic
-	dba Rival1Pic
-	dba Rival2Pic
+	dba Infer0Pic
+	dba Infer1Pic
+	dba InferSagePic
+	dba Infer2Pic
 	dba Lyra1Pic
 	dba Lyra2Pic
 	dba YoungsterPic

@@ -84,16 +84,6 @@ PlayBattleMusic:
 
 .trainermusic
 	ld a, [wOtherTrainerClass]
-	cp RIVAL2
-	jr nz, .not_rival2_4
-	ld a, [wOtherTrainerID]
-	cp 4 ; Rival in Indigo Plateau
-	jr c, .not_rival2_4
-	ld e, MUSIC_CHAMPION_BATTLE
-	jr .done
-
-.not_rival2_4
-	ld a, [wOtherTrainerClass]
 	cp GIOVANNI
 	jr nz, .othertrainer
 	ld a, [wOtherTrainerID]

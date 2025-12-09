@@ -51,12 +51,15 @@ ColressPic: INCBIN "gfx/trainers/colress.2bpp.lz"
 SECTION "ChampionPic", ROMX
 ChampionPic: INCBIN "gfx/trainers/champion.2bpp.lz"
 
-SECTION "Rival0Pic", ROMX
-Rival0Pic:
-Rival1Pic: INCBIN "gfx/trainers/rival1.2bpp.lz"
+SECTION "Infer0Pic", ROMX
+Infer0Pic:
+Infer1Pic: INCBIN "gfx/trainers/infer1.2bpp.lz"
 
-SECTION "Rival2Pic", ROMX
-Rival2Pic: INCBIN "gfx/trainers/rival2.2bpp.lz"
+SECTION "InferSagePic", ROMX
+InferSagePic: INCBIN "gfx/trainers/infer_sage.2bpp.lz"
+
+SECTION "Infer2Pic", ROMX
+Infer2Pic: INCBIN "gfx/trainers/infer2.2bpp.lz"
 
 SECTION "Lyra1Pic", ROMX
 Lyra1Pic: INCBIN "gfx/trainers/lyra1.2bpp.lz"

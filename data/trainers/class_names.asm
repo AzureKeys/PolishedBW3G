@@ -16,9 +16,10 @@ TrainerClassNames::
 	li "Elite 4"          ; ELESA
 	li "Elite 4"          ; COLRESS
 	li "Champion"         ; CHAMPION
-	li "Strange"          ; RIVAL0
-	li "Rival"            ; RIVAL1
-	li "Rival"            ; RIVAL2
+	li "Suspicious"       ; INFER0
+	li "<PK><MN> Trainer" ; INFER1
+	li "Pzma Sage"        ; INFER_SAGE
+	li "<PK><MN> Trainer" ; INFER2
 	li "<PK><MN> Trainer" ; LYRA1
 	li "<PK><MN> Trainer" ; LYRA2
 	li "Youngster"        ; YOUNGSTER

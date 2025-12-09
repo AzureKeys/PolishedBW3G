@@ -1,9 +1,8 @@
 FinalTextList_TriplePhrases:
-	dbw RIVAL0, .FinalText_Rival0
-	dbw RIVAL1, .FinalText_Rival1
-	dbw RIVAL2, .FinalText_Rival2
-	dbw LYRA1,  .FinalText_Lyra1
-	dbw LYRA2,  .FinalText_Lyra2
+	dbw INFER0,     .FinalText_Rival0
+	dbw INFER1,     .FinalText_Rival1
+	dbw INFER_SAGE, .FinalText_RivalSage
+	dbw INFER2,     .FinalText_Rival2
 	db -1
 
 .FinalText_Rival0:
@@ -15,18 +14,11 @@ FinalTextList_TriplePhrases:
 	dw Rival1_4FinalPkmnText
 	dw Rival1_5FinalPkmnText
 
-.FinalText_Rival2:
+.FinalText_RivalSage:
 	dw Rival2_1FinalPkmnText
+
+.FinalText_Rival2:
 	dw Rival2_2FinalPkmnText
-
-.FinalText_Lyra1:
-	dw Lyra1_1FinalPkmnText
-	dw Lyra1_2FinalPkmnText
-	dw Lyra1_3FinalPkmnText
-	dw Lyra1_4FinalPkmnText
-
-.FinalText_Lyra2:
-	dw Lyra2_1FinalPkmnText
 
 FinalText_TeamRocket:
 	dw Proton1FinalPkmnText

@@ -67,6 +67,12 @@ ColressSpriteGFX:: INCBIN "gfx/sprites/colress.2bpp.lz"
 SECTION "JuniperSpriteGFX", ROMX
 JuniperSpriteGFX:: INCBIN "gfx/sprites/juniper.2bpp.lz"
 
+SECTION "InferSpriteGFX", ROMX
+InferSpriteGFX:: INCBIN "gfx/sprites/infer.2bpp.lz"
+
+SECTION "InferSageSpriteGFX", ROMX
+InferSageSpriteGFX:: INCBIN "gfx/sprites/infer_sage.2bpp.lz"
+
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lz"
 

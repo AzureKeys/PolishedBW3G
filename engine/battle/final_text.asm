@@ -3,7 +3,7 @@ GetFinalPkmnTextPointer::
 	ld a, [wOtherTrainerClass]
 	ld hl, FinalTextList_TriplePhrases
 	call .findinarray
-	jr c, .rival_or_lyra
+	jr c, .rival
 	; Proton to Giovanni have a phrase for each ID
 	ld a, [wOtherTrainerClass]
 	cp PROTON
@@ -24,7 +24,7 @@ GetFinalPkmnTextPointer::
 	xor a
 	ret
 
-.rival_or_lyra:
+.rival:
 	ld a, [wOtherTrainerID]
 	dec a
 	ld c, 3

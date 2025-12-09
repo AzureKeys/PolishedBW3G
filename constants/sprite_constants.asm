@@ -25,6 +25,8 @@
 	const SPRITE_ELESA ; 15
 	const SPRITE_COLRESS ; 16
 	const SPRITE_JUNIPER ; 17
+	const SPRITE_INFER ; 18
+	const SPRITE_INFER_SAGE ; 19
 	const SPRITE_YELLOW ; 22
 	const SPRITE_OAK ; 23
 	const SPRITE_ELM ; 24
