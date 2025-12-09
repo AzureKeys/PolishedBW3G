@@ -6,19 +6,19 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; CARRIE
 	dbit MALE_BIT   ; CAL
 	dbit FEMALE_BIT ; JACKY
-	dbit MALE_BIT   ; FALKNER
-	dbit FEMALE_BIT ; BUGSY
-	dbit FEMALE_BIT ; WHITNEY
-	dbit MALE_BIT   ; MORTY
-	dbit MALE_BIT   ; CHUCK
-	dbit FEMALE_BIT ; JASMINE
-	dbit MALE_BIT   ; PRYCE
-	dbit FEMALE_BIT ; CLAIR
-	dbit FEMALE_BIT ; WILL
-	dbit MALE_BIT   ; KOGA
-	dbit MALE_BIT   ; BRUNO
-	dbit FEMALE_BIT ; KAREN
-	dbit MALE_BIT   ; CHAMPION
+	dbit MALE_BIT   ; MARLON
+	dbit FEMALE_BIT ; SHAUNTAL
+	dbit MALE_BIT   ; BURGH
+	dbit FEMALE_BIT ; ROXIE
+	dbit MALE_BIT   ; CHEREN
+	dbit MALE_BIT   ; CILAN
+	dbit FEMALE_BIT ; SKYLA
+	dbit MALE_BIT   ; DRAYDEN
+	dbit MALE_BIT   ; MARSHAL
+	dbit MALE_BIT   ; GRIMSLEY
+	dbit FEMALE_BIT ; ELESA
+	dbit MALE_BIT   ; COLRESS
+	dbit FEMALE_BIT ; CHAMPION
 	dbit MALE_BIT   ; BROCK
 	dbit FEMALE_BIT ; MISTY
 	dbit MALE_BIT   ; LT_SURGE

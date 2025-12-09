@@ -99,7 +99,6 @@ FinalText_SinglePhrases:
 	dw SparkFinalPkmnText
 	dw FlanneryFinalPkmnText
 	dw MayleneFinalPkmnText
-	dw MarlonFinalPkmnText
 	dw ValerieFinalPkmnText
 	dw KukuiFinalPkmnText
 	dw PiersFinalPkmnText

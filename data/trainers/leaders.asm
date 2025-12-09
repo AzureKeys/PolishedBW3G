@@ -1,8 +1,8 @@
 BossTrainers:
-	db WILL
-	db KOGA
-	db BRUNO
-	db KAREN
+	db MARSHAL
+	db GRIMSLEY
+	db ELESA
+	db COLRESS
 	db CHAMPION
 	db RED
 	db LEAF
@@ -31,14 +31,14 @@ BossTrainers:
 	db LAWRENCE
 	db REI
 JohtoGymLeaders:
-	db FALKNER
-	db WHITNEY
-	db BUGSY
-	db MORTY
-	db CHUCK
-	db JASMINE
-	db PRYCE
-	db CLAIR
+	db MARLON
+	db SHAUNTAL
+	db BURGH
+	db ROXIE
+	db CHEREN
+	db CILAN
+	db SKYLA
+	db DRAYDEN
 KantoGymLeaders:
 	db BROCK
 	db MISTY

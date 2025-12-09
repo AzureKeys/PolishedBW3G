@@ -17,19 +17,19 @@ SpriteHeaders:
 	overworld_sprite DadSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite LyraSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite RivalSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite FalknerSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite BugsySpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite WhitneySpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite MortySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite ChuckSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite JasmineSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite PryceSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite ClairSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite WillSpriteGFX, STANDING_SPRITE, PAL_OW_RED
-	overworld_sprite KogaSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite BrunoSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite KarenSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
-	overworld_sprite LanceSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite MarlonSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE_D
+	overworld_sprite ShauntalSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite BurghSpriteGFX, STANDING_SPRITE, PAL_OW_RED
+	overworld_sprite RoxieSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite CherenSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite CilanSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
+	overworld_sprite SkylaSpriteGFX, WALKING_SPRITE, PAL_OW_AZURE
+	overworld_sprite DraydenSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite MarshalSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
+	overworld_sprite GrimsleySpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ElesaSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
+	overworld_sprite ColressSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
+	overworld_sprite JuniperSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite BrockSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite MistySpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite SurgeSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
@@ -73,7 +73,6 @@ SpriteHeaders:
 	overworld_sprite AnabelSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite FlannerySpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MayleneSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite MarlonSpriteGFX, WALKING_SPRITE, PAL_OW_MARLON
 	overworld_sprite ValerieSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite KukuiSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CaitlinSpriteGFX, WALKING_SPRITE, PAL_OW_PINK

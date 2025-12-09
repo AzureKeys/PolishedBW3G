@@ -44,33 +44,34 @@ DEF CHRIS EQU __trainer_class__
 DEF CRYS EQU __trainer_class__
 	trainerclass JACKY ; 3
 
-	trainerclass FALKNER ; 4
+	trainerclass MARLON ; 4
 
-	trainerclass BUGSY ; 5
+	trainerclass SHAUNTAL ; 5
 
-	trainerclass WHITNEY ; 6
+	trainerclass BURGH ; 6
 
-	trainerclass MORTY ; 7
+	trainerclass ROXIE ; 7
 
-	trainerclass CHUCK ; 8
+	trainerclass CHEREN ; 8
 
-	trainerclass JASMINE ; 9
+	trainerclass CILAN ; 9
 
-	trainerclass PRYCE ; a
+	trainerclass SKYLA ; a
 
-	trainerclass CLAIR ; b
+	trainerclass DRAYDEN ; b
 
-	trainerclass WILL ; c
+	trainerclass MARSHAL ; c
 
-	trainerclass KOGA ; d
+	trainerclass GRIMSLEY ; d
 
-	trainerclass BRUNO ; e
+	trainerclass ELESA ; e
 
-	trainerclass KAREN ; f
+	trainerclass COLRESS ; f
 
 	trainerclass CHAMPION ; 10
-	const LANCE
-	const LANCE2
+	const JUNIPER_SNIVY
+	const JUNIPER_TEPIG
+	const JUNIPER_OSHAWOTT
 
 	trainerclass BROCK ; 11
 
@@ -1107,8 +1108,6 @@ DEF CRYS EQU __trainer_class__
 	trainerclass FLANNERY ; 86
 
 	trainerclass MAYLENE ; 87
-
-	trainerclass MARLON ; 88
 
 	trainerclass VALERIE ; 89
 

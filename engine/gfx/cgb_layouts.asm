@@ -929,27 +929,27 @@ _CGB_TrainerCard:
 _CGB_TrainerCard2:
 	call LoadFirstTwoTrainerCardPals
 
-	ld a, FALKNER
+	ld a, SHAUNTAL
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, BUGSY
+	ld a, BURGH
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, WHITNEY
+	ld a, ROXIE ; Cheren
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, MORTY
+	ld a, CILAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, JASMINE ; CHUCK
+	ld a, SKYLA
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, CLAIR ; PRYCE
+	ld a, DRAYDEN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
@@ -959,49 +959,49 @@ _CGB_TrainerCard2:
 	ld c, 8 palettes
 	call LoadPalettes
 
-	; Falkner
+	; Marlon
 	hlcoord 3, 10, wAttrmap
+	lb bc, 3, 3
+	ld a, $0 ; Chris/Marlon
+	call FillBoxWithByte
+
+	; Shauntal
+	hlcoord 7, 10, wAttrmap
 	lb bc, 3, 3
 	ld a, $2
 	call FillBoxWithByte
 
-	; Bugsy
-	hlcoord 7, 10, wAttrmap
+	; Burgh
+	hlcoord 11, 10, wAttrmap
 	lb bc, 3, 3
 	ld a, $3
 	call FillBoxWithByte
 
-	; Whitney
-	hlcoord 11, 10, wAttrmap
+	; Roxie
+	hlcoord 15, 10, wAttrmap
 	lb bc, 3, 3
 	ld a, $4
 	call FillBoxWithByte
 
-	; Morty
-	hlcoord 15, 10, wAttrmap
+	; Cheren
+	hlcoord 3, 13, wAttrmap
+	lb bc, 3, 3
+	ld a, $4
+	call FillBoxWithByte
+
+	; Cilan
+	hlcoord 7, 13, wAttrmap
 	lb bc, 3, 3
 	ld a, $5
 	call FillBoxWithByte
 
-	; Chuck
-	hlcoord 3, 13, wAttrmap
-	lb bc, 3, 3
-	ld a, $6
-	call FillBoxWithByte
-
-	; Jasmine
-	hlcoord 7, 13, wAttrmap
-	lb bc, 3, 3
-	ld a, $6
-	call FillBoxWithByte
-
-	; Pryce
+	; Skyla
 	hlcoord 11, 13, wAttrmap
 	lb bc, 3, 3
-	ld a, $7
+	ld a, $6
 	call FillBoxWithByte
 
-	; Clair
+	; Drayden
 	hlcoord 15, 13, wAttrmap
 	lb bc, 3, 3
 	ld a, $7

@@ -6,19 +6,19 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; carrie
 	db 252, PERFECT_DVS,   MALE   ; cal
 	db 252, PERFECT_DVS,   MALE   ; jacky
-	db 252, $BB, $BB, $BB, MALE   ; falkner
-	db 252, $BB, $BB, $BB, MALE   ; bugsy
-	db 252, $CC, $CC, $CC, FEMALE ; whitney
-	db 252, $CC, $CC, $CC, MALE   ; morty
-	db 252, $DD, $DD, $DD, MALE   ; chuck
-	db 252, $DD, $DD, $DD, FEMALE ; jasmine
-	db 252, $EE, $EE, $EE, MALE   ; pryce
-	db 252, $EE, $EE, $EE, FEMALE ; clair
-	db 252, PERFECT_DVS,   MALE   ; will
-	db 252, PERFECT_DVS,   MALE   ; koga
-	db 252, PERFECT_DVS,   MALE   ; bruno
-	db 252, PERFECT_DVS,   FEMALE ; karen
-	db 252, PERFECT_DVS,   MALE   ; champion
+	db 252, $BB, $BB, $BB, MALE   ; marlon
+	db 252, $BB, $BB, $BB, FEMALE ; shauntal
+	db 252, $CC, $CC, $CC, MALE   ; burgh
+	db 252, $CC, $CC, $CC, FEMALE ; roxie
+	db 252, $DD, $DD, $DD, MALE   ; cheren
+	db 252, $DD, $DD, $DD, MALE   ; cilan
+	db 252, $EE, $EE, $EE, FEMALE ; skyla
+	db 252, $EE, $EE, $EE, MALE   ; drayden
+	db 252, PERFECT_DVS,   MALE   ; marshal
+	db 252, PERFECT_DVS,   MALE   ; grimsley
+	db 252, PERFECT_DVS,   FEMALE ; elesa
+	db 252, PERFECT_DVS,   MALE   ; colress
+	db 252, PERFECT_DVS,   FEMALE ; champion
 	db 252, PERFECT_DVS,   MALE   ; brock
 	db 252, PERFECT_DVS,   FEMALE ; misty
 	db 252, PERFECT_DVS,   MALE   ; lt surge
@@ -138,7 +138,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; spark
 	db 252, PERFECT_DVS,   FEMALE ; flannery
 	db 252, PERFECT_DVS,   FEMALE ; maylene
-	db 252, PERFECT_DVS,   MALE   ; marlon
 	db 252, PERFECT_DVS,   FEMALE ; valerie
 	db 252, PERFECT_DVS,   MALE   ; kukui
 	db 252, $DD, $DD, $DD, MALE   ; piers

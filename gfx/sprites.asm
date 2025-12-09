@@ -28,44 +28,44 @@ LyraSpriteGFX:: INCBIN "gfx/sprites/lyra.2bpp.lz"
 SECTION "RivalSpriteGFX", ROMX
 RivalSpriteGFX:: INCBIN "gfx/sprites/rival.2bpp.lz"
 
-SECTION "FalknerSpriteGFX", ROMX
-FalknerSpriteGFX:: INCBIN "gfx/sprites/falkner.2bpp.lz"
+SECTION "MarlonSpriteGFX", ROMX
+MarlonSpriteGFX:: INCBIN "gfx/sprites/marlon.2bpp.lz"
 
-SECTION "WhitneySpriteGFX", ROMX
-WhitneySpriteGFX:: INCBIN "gfx/sprites/whitney.2bpp.lz"
+SECTION "ShauntalSpriteGFX", ROMX
+ShauntalSpriteGFX:: INCBIN "gfx/sprites/shauntal.2bpp.lz"
 
-SECTION "BugsySpriteGFX", ROMX
-BugsySpriteGFX:: INCBIN "gfx/sprites/bugsy.2bpp.lz"
+SECTION "BurghSpriteGFX", ROMX
+BurghSpriteGFX:: INCBIN "gfx/sprites/burgh.2bpp.lz"
 
-SECTION "MortySpriteGFX", ROMX
-MortySpriteGFX:: INCBIN "gfx/sprites/morty.2bpp.lz"
+SECTION "RoxieSpriteGFX", ROMX
+RoxieSpriteGFX:: INCBIN "gfx/sprites/roxie.2bpp.lz"
 
-SECTION "ChuckSpriteGFX", ROMX
-ChuckSpriteGFX:: INCBIN "gfx/sprites/chuck.2bpp.lz"
+SECTION "CherenSpriteGFX", ROMX
+CherenSpriteGFX:: INCBIN "gfx/sprites/cheren.2bpp.lz"
 
-SECTION "JasmineSpriteGFX", ROMX
-JasmineSpriteGFX:: INCBIN "gfx/sprites/jasmine.2bpp.lz"
+SECTION "CilanSpriteGFX", ROMX
+CilanSpriteGFX:: INCBIN "gfx/sprites/cilan.2bpp.lz"
 
-SECTION "PryceSpriteGFX", ROMX
-PryceSpriteGFX:: INCBIN "gfx/sprites/pryce.2bpp.lz"
+SECTION "SkylaSpriteGFX", ROMX
+SkylaSpriteGFX:: INCBIN "gfx/sprites/skyla.2bpp.lz"
 
-SECTION "ClairSpriteGFX", ROMX
-ClairSpriteGFX:: INCBIN "gfx/sprites/clair.2bpp.lz"
+SECTION "DraydenSpriteGFX", ROMX
+DraydenSpriteGFX:: INCBIN "gfx/sprites/drayden.2bpp.lz"
 
-SECTION "WillSpriteGFX", ROMX
-WillSpriteGFX:: INCBIN "gfx/sprites/will.2bpp.lz"
+SECTION "MarshalSpriteGFX", ROMX
+MarshalSpriteGFX:: INCBIN "gfx/sprites/marshal.2bpp.lz"
 
-SECTION "KogaSpriteGFX", ROMX
-KogaSpriteGFX:: INCBIN "gfx/sprites/koga.2bpp.lz"
+SECTION "GrimsleySpriteGFX", ROMX
+GrimsleySpriteGFX:: INCBIN "gfx/sprites/grimsley.2bpp.lz"
 
-SECTION "BrunoSpriteGFX", ROMX
-BrunoSpriteGFX:: INCBIN "gfx/sprites/bruno.2bpp.lz"
+SECTION "ElesaSpriteGFX", ROMX
+ElesaSpriteGFX:: INCBIN "gfx/sprites/elesa.2bpp.lz"
 
-SECTION "KarenSpriteGFX", ROMX
-KarenSpriteGFX:: INCBIN "gfx/sprites/karen.2bpp.lz"
+SECTION "ColressSpriteGFX", ROMX
+ColressSpriteGFX:: INCBIN "gfx/sprites/colress.2bpp.lz"
 
-SECTION "LanceSpriteGFX", ROMX
-LanceSpriteGFX:: INCBIN "gfx/sprites/lance.2bpp.lz"
+SECTION "JuniperSpriteGFX", ROMX
+JuniperSpriteGFX:: INCBIN "gfx/sprites/juniper.2bpp.lz"
 
 SECTION "BrockSpriteGFX", ROMX
 BrockSpriteGFX:: INCBIN "gfx/sprites/brock.2bpp.lz"
@@ -195,9 +195,6 @@ FlannerySpriteGFX:: INCBIN "gfx/sprites/flannery.2bpp.lz"
 
 SECTION "MayleneSpriteGFX", ROMX
 MayleneSpriteGFX:: INCBIN "gfx/sprites/maylene.2bpp.lz"
-
-SECTION "MarlonSpriteGFX", ROMX
-MarlonSpriteGFX:: INCBIN "gfx/sprites/marlon.2bpp.lz"
 
 SECTION "ValerieSpriteGFX", ROMX
 ValerieSpriteGFX:: INCBIN "gfx/sprites/valerie.2bpp.lz"

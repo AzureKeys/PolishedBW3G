@@ -77,518 +77,187 @@ JackyGroup:
 	end_trainer
 
 
-SECTION "FalknerGroup", ROMX
-FalknerGroup:
+SECTION "MarlonGroup", ROMX
+MarlonGroup:
 
-	def_trainer_class FALKNER
-	def_trainer 1, "Falkner"
-	tr_mon 11, RATTATA
-		tr_evs 32 HP
-		tr_moves TACKLE, GUST, MUD_SLAP
-	tr_mon 11, RATTATA
-		tr_evs 32 HP
-		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
-	tr_mon 13, RATTATA @ PECHA_BERRY
-		tr_evs 32 HP
-		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
+	def_trainer_class MARLON
+	def_trainer 1, "Marlon"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Falkner"
+	def_trainer 2, "Marlon"
 	tr_mon 73, RATTATA @ TWISTEDSPOON
 		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
-	tr_mon 70, GLISCOR @ SCOPE_LENS
-		tr_moves SWORDS_DANCE, EARTHQUAKE, X_SCISSOR, NIGHT_SLASH
-	tr_mon 72, RATTATA @ SILK_SCARF
-		tr_moves DRILL_PECK, BULLDOZE, PURSUIT, BRAVE_BIRD
-	tr_mon 70, RATTATA @ LEFTOVERS
-		tr_moves LIGHT_SCREEN, U_TURN, ROOST, PSYCHIC_M
-	tr_mon 72, HONCHKROW @ BLACKGLASSES
-		tr_moves BRAVE_BIRD, NIGHT_SLASH, SUCKER_PUNCH, CONFUSE_RAY
-	tr_mon 75, RATTATA @ SHARP_BEAK
-		tr_moves HURRICANE, HYPER_BEAM, STEEL_WING, ROOST
 	end_trainer
 
 
-SECTION "BugsyGroup", ROMX
-BugsyGroup:
+SECTION "ShauntalGroup", ROMX
+ShauntalGroup:
 
-	def_trainer_class BUGSY
-	def_trainer 1, "Bugsy"
-	tr_mon 14, RATTATA @ NO_ITEM, MALE ; NO_ITEM needed to match
-		tr_evs 32 SAt, 32 Spe
-		tr_moves TACKLE, POISONPOWDER, SLEEP_POWDER, CONFUSION
-	tr_mon 14, RATTATA, MALE
-		tr_evs 32 Atk, 32 Spe
-		tr_moves POISON_STING, STRING_SHOT, DEFENSE_CURL, FURY_STRIKES
-	tr_mon 14, YANMA, FEMALE
-		tr_evs 64 Atk
-		tr_moves FORESIGHT, QUICK_ATTACK, DOUBLE_TEAM, SONIC_BOOM
-	tr_mon 17, SCYTHER, FEMALE
-		tr_evs 64 Atk
-		tr_moves QUICK_ATTACK, LEER, PURSUIT, U_TURN
+	def_trainer_class SHAUNTAL
+	def_trainer 1, "Shauntal"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Bugsy"
-	tr_mon 73, HERACROSS @ BLACK_BELT, MALE
-		tr_moves MEGAHORN, TACKLE, BRICK_BREAK, STONE_EDGE
-	tr_mon 71, RATTATA @ KINGS_ROCK, FEMALE
-		tr_moves REFLECT, LIGHT_SCREEN, BUG_BUZZ, ICE_PUNCH
-	tr_mon 70, YANMEGA @ QUICK_CLAW, FEMALE
-if DEF(FAITHFUL)
-		tr_moves BUG_BUZZ, AIR_SLASH, ANCIENTPOWER, PROTECT
-else
-		tr_moves BUG_BUZZ, AIR_SLASH, ANCIENTPOWER, DRAGON_PULSE
-endc
-	tr_mon 72, PARASECT @ LEFTOVERS, MALE
-		tr_moves SPORE, HEALINGLIGHT, SEED_BOMB, X_SCISSOR
-	tr_mon 75, PINSIR @ SCOPE_LENS, MALE
-		tr_moves MEGAHORN, SWORDS_DANCE, CLOSE_COMBAT, EARTHQUAKE
-	tr_mon 75, SCYTHER @ EVIOLITE, FEMALE
-		tr_moves SWORDS_DANCE, NIGHT_SLASH, X_SCISSOR, AERIAL_ACE
+	def_trainer 2, "Shauntal"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "WhitneyGroup", ROMX
-WhitneyGroup:
+SECTION "BurghGroup", ROMX
+BurghGroup:
 
-	def_trainer_class WHITNEY
-	def_trainer 1, "Whitney"
-	tr_mon 19, CLEFAIRY, FEMALE
-		tr_evs 96 HP
-		tr_moves TACKLE, DISARM_VOICE, FURY_STRIKES, ATTRACT
-	tr_mon 20, RATTATA, FEMALE
-		tr_evs 32 HP, 32 Atk, 32 Spe
-		tr_moves TACKLE, ATTRACT, LICK, FEINT_ATTACK
-	tr_mon 19, MUNCHLAX, FEMALE
-		tr_evs 64 Def, 32 SDf
-		tr_moves ATTRACT, TACKLE, DEFENSE_CURL, ROLLOUT
-	tr_mon 21, RATTATA @ LUM_BERRY, FEMALE
-		tr_extra HUSTLE
-		tr_evs 48 Atk, 48 Spe
-		tr_moves DEFENSE_CURL, STOMP, TACKLE, ROLLOUT
+	def_trainer_class BURGH
+	def_trainer 1, "Burgh"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Whitney"
-	tr_mon 71, RATTATA @ LIGHT_CLAY, FEMALE
-		tr_moves REFLECT, LIGHT_SCREEN, DOUBLE_EDGE, ZEN_HEADBUTT
-	tr_mon 72, CLEFABLE @ PINK_BOW, FEMALE
-		tr_moves CALM_MIND, MOONBLAST, TACKLE, THUNDER_WAVE
-	tr_mon 70, RATTATA @ BLACK_BELT, FEMALE
-		tr_moves SWORDS_DANCE, TACKLE, CRUNCH, PLAY_ROUGH
-	tr_mon 72, WIGGLYTUFF @ LEFTOVERS, FEMALE
-		tr_moves FOCUS_BLAST, HYPER_VOICE, DAZZLINGLEAM, ICE_BEAM
-	tr_mon 74, RATTATA @ SILK_SCARF, FEMALE
-		tr_moves BULK_UP, EARTHQUAKE, STRENGTH, IRON_TAIL
-	tr_mon 75, RATTATA @ BRIGHTPOWDER, FEMALE
-		tr_extra HUSTLE
-		tr_moves DEFENSE_CURL, ROLLOUT, TACKLE, BODY_SLAM
+	def_trainer 2, "Burgh"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "MortyGroup", ROMX
-MortyGroup:
+SECTION "RoxieGroup", ROMX
+RoxieGroup:
 
-	def_trainer_class MORTY
-	def_trainer 1, "Morty"
-	tr_mon 24, HAUNTER, MALE
-		tr_extra LEVITATE
-		tr_evs 64 Atk, 64 Spe
-		tr_moves HYPNOSIS, ICE_PUNCH, NIGHT_SHADE, SHADOW_CLAW
-if DEF(FAITHFUL)
-	tr_mon 24, HAUNTER, MALE
-		tr_extra LEVITATE
-		tr_evs 64 SAt, 64 Spe
-		tr_moves HYPNOSIS, CONFUSE_RAY, DISABLE, SHADOW_BALL
-else
-	tr_mon 24, RATTATA, MALE
-		tr_evs 64 HP, 64 Spe
-		tr_moves HYPNOSIS, FORESIGHT, CONFUSION, HEX
-endc
-	tr_mon 25, MISDREAVUS, MALE
-		tr_evs 64 SAt, 64 Spe
-		tr_moves DISARM_VOICE, DARK_PULSE, NASTY_PLOT, SHADOW_BALL
-	tr_mon 26, GENGAR @ WIDE_LENS, MALE
-		tr_extra CURSED_BODY
-		tr_evs 64 SAt, 64 Spe
-		tr_moves HYPNOSIS, THUNDERBOLT, SHADOW_BALL, DREAM_EATER
+	def_trainer_class ROXIE
+	def_trainer 1, "Roxie"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Morty"
-	tr_mon 72, GENGAR @ LEFTOVERS, MALE
-		tr_extra CURSED_BODY
-		tr_moves WILL_O_WISP, SHADOW_BALL, FOCUS_BLAST, SUBSTITUTE
-	tr_mon 70, NINETALES @ CHARCOAL, MALE
-		tr_moves NASTY_PLOT, SHADOW_BALL, FLAMETHROWER, WILL_O_WISP
-	tr_mon 71, RATTATA @ THICK_CLUB, MALE | ALOLAN_FORM
-		tr_moves TACKLE, STONE_EDGE, ICE_PUNCH, SHADOW_CLAW
-	tr_mon 73, MISMAGIUS @ PINK_BOW, MALE
-		tr_moves DAZZLINGLEAM, SHADOW_BALL, NASTY_PLOT, THUNDERBOLT
-if DEF(FAITHFUL)
-	tr_mon 74, HAUNTER @ EVIOLITE, MALE
-		tr_extra LEVITATE
-		tr_moves SHADOW_BALL, SLUDGE_BOMB, DESTINY_BOND, PAIN_SPLIT
-else
-	tr_mon 74, RATTATA @ SHARP_BEAK, MALE
-		tr_moves MOONBLAST, AIR_SLASH, SHADOW_BALL, REFLECT
-endc
-	tr_mon 75, GENGAR @ SPELL_TAG, MALE
-		tr_extra CURSED_BODY
-		tr_moves NASTY_PLOT, SHADOW_BALL, THUNDERBOLT, DESTINY_BOND
+	def_trainer 2, "Roxie"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "ChuckGroup", ROMX
-ChuckGroup:
+SECTION "CherenGroup", ROMX
+CherenGroup:
 
-	def_trainer_class CHUCK
-	def_trainer 1, "Chuck"
-	tr_mon 30, PRIMEAPE, MALE
-		tr_extra DEFIANT
-		tr_evs 160 Atk
-		tr_moves BRICK_BREAK, SEISMIC_TOSS, SCREECH, DYNAMICPUNCH
-	tr_mon 29, RATTATA, MALE
-		tr_extra HUSTLE
-		tr_evs 160 Atk
-if DEF(FAITHFUL)
-		tr_moves BRICK_BREAK, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
-else
-		tr_moves REVERSAL, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
-endc
-	tr_mon 28, RATTATA, MALE
-		tr_extra HUSTLE
-		tr_evs 160 Atk
-		tr_moves BULK_UP, SUCKER_PUNCH, DOUBLE_KICK, RAPID_SPIN
-	tr_mon 31, POLIWRATH @ ZOOM_LENS, MALE
-		tr_extra WATER_ABSORB
-		tr_evs 160 Atk
-		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
+	def_trainer_class CHEREN
+	def_trainer 1, "Cheren"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Chuck"
-	tr_mon 71, ANNIHILAPE @ DRAGON_FANG, MALE
-		tr_extra DEFIANT
-		tr_moves EARTHQUAKE, STONE_EDGE, OUTRAGE, TACKLE
-	tr_mon 73, RATTATA @ LEEK, MALE
-		tr_extra HUSTLE
-		tr_moves CLOSE_COMBAT, BRAVE_BIRD, NIGHT_SLASH, POISON_JAB
-	tr_mon 72, RATTATA @ NEVERMELTICE, MALE
-		tr_extra HUSTLE
-		tr_moves THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MACH_PUNCH
-	tr_mon 72, RATTATA @ QUICK_CLAW, MALE
-		tr_extra HUSTLE
-		tr_moves SUCKER_PUNCH, BULK_UP, REVERSAL, HI_JUMP_KICK
-	tr_mon 72, RATTATA @ KINGS_ROCK, MALE
-		tr_extra HUSTLE
-		tr_moves RAPID_SPIN, TOXIC, CLOSE_COMBAT, SUCKER_PUNCH
-	tr_mon 75, POLIWRATH @ LEFTOVERS, MALE
-		tr_extra WATER_ABSORB
-		tr_moves WATERFALL, BULK_UP, ICE_PUNCH, TACKLE
+	def_trainer 2, "Cheren"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "JasmineGroup", ROMX
-JasmineGroup:
+SECTION "CilanGroup", ROMX
+CilanGroup:
 
-	def_trainer_class JASMINE
-	def_trainer 1, "Jasmine"
-	tr_mon 34, SKARMORY
-		tr_evs 192 HP
-		tr_moves MUD_SLAP, DRILL_PECK, SPIKES, STEEL_WING
-	tr_mon 33, MAGNETON
-		tr_evs 192 HP
-		tr_moves SUPERSONIC, THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK
-	tr_mon 34, RATTATA
-		tr_evs 192 HP
-		tr_moves SPIKES, GYRO_BALL, DEFENSE_CURL, ROLLOUT
-	tr_mon 33, SCIZOR
-		tr_evs 192 HP
-		tr_moves PURSUIT, AERIAL_ACE, METAL_CLAW, SLASH
-	tr_mon 37, STEELIX @ LEFTOVERS
-		tr_evs 192 HP
-		tr_moves BODY_SLAM, SCREECH, ROCK_SLIDE, IRON_TAIL
+	def_trainer_class CILAN
+	def_trainer 1, "Cilan"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Jasmine"
-	tr_mon 74, SKARMORY @ LEFTOVERS
-		tr_dvs 14 All
-		tr_moves SPIKES, SCREECH, DRILL_PECK, STEEL_WING
-	tr_mon 72, MAGNEZONE @ MIRACLE_SEED
-		tr_moves THUNDERBOLT, HP_GRASS, FLASH_CANNON, EXPLOSION
-	tr_mon 73, RATTATA @ SOFT_SAND
-		tr_dvs 14 All
-		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
-if DEF(FAITHFUL)
-	tr_mon 72, MAGNEZONE @ CHARCOAL
-		tr_moves THUNDERBOLT, HP_FIRE, FLASH_CANNON, EXPLOSION
-else
-	tr_mon 72, RATTATA @ SILVERPOWDER
-		tr_dvs 14 All
-		tr_moves EARTHQUAKE, STONE_EDGE, MEGAHORN, IRON_HEAD
-endc
-	tr_mon 73, SCIZOR @ METAL_COAT
-		tr_dvs 14 All
-		tr_moves SWORDS_DANCE, BULLET_PUNCH, PURSUIT, IRON_HEAD
-	tr_mon 75, STEELIX @ LEFTOVERS
-		tr_dvs 14 All
-		tr_moves EARTHQUAKE, ROCK_SLIDE, CRUNCH, IRON_HEAD
+	def_trainer 2, "Cilan"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "PryceGroup", ROMX
-PryceGroup:
+SECTION "SkylaGroup", ROMX
+SkylaGroup:
 
-	def_trainer_class PRYCE
-	def_trainer 1, "Pryce"
-	tr_mon 39, DEWGONG @ CHESTO_BERRY
-		tr_evs 224 HP
-		tr_moves WATERFALL, REST, RAIN_DANCE, AURORA_BEAM
-	tr_mon 38, SNEASEL
-		tr_evs 224 Atk
-		tr_moves SWORDS_DANCE, ICICLE_CRASH, SCREECH, SLASH
-	tr_mon 38, RATTATA
-		tr_evs 224 HP
-		tr_moves DEFENSE_CURL, SUPERSONIC, WATER_PULSE, ICE_SHARD
-	tr_mon 40, LAPRAS
-		tr_evs 224 HP
-		tr_moves SING, CONFUSE_RAY, ANCIENTPOWER, ICE_BEAM
-	tr_mon 42, MAMOSWINE @ SITRUS_BERRY
-		tr_evs 224 Atk
-		tr_moves MAGNITUDE, ANCIENTPOWER, TACKLE, FURY_STRIKES
+	def_trainer_class SKYLA
+	def_trainer 1, "Skyla"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Pryce"
-	tr_mon 73, DEWGONG @ FOCUS_BAND
-		tr_moves PROTECT, TOXIC, SURF, ICE_BEAM
-	tr_mon 73, RATTATA @ KINGS_ROCK
-		tr_moves SPIKES, SURF, EXPLOSION, ICICLE_CRASH
-	tr_mon 72, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, ICICLE_CRASH, SLASH, CRUNCH
-	tr_mon 71, GLACEON @ NEVERMELTICE
-		tr_moves ICE_BEAM, HP_GROUND, BARRIER, BATON_PASS
-	tr_mon 73, LAPRAS @ LEFTOVERS
-		tr_moves SING, TOXIC, ICE_BEAM, THUNDERBOLT
-	tr_mon 75, MAMOSWINE @ HARD_STONE
-		tr_moves EARTHQUAKE, TACKLE, STONE_EDGE, ANCIENTPOWER
+	def_trainer 2, "Skyla"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "ClairGroup", ROMX
-ClairGroup:
+SECTION "DraydenGroup", ROMX
+DraydenGroup:
 
-	def_trainer_class CLAIR
-	def_trainer 1, "Clair"
-	tr_mon 43, RATTATA, FEMALE
-		tr_evs 4 Atk, 252 Spe
-		tr_moves CRUNCH, THRASH, DRAGON_PULSE, AQUA_TAIL
-	tr_mon 45, YANMEGA, FEMALE
-		tr_evs 4 HP, 252 SAt
-if DEF(FAITHFUL)
-		tr_moves DOUBLE_TEAM, SUPERSONIC, ANCIENTPOWER, AIR_SLASH
-else
-		tr_moves DOUBLE_TEAM, SUPERSONIC, ANCIENTPOWER, DRAGON_PULSE
-endc
-if DEF(FAITHFUL)
-	tr_mon 44, DRAGONAIR, FEMALE
-		tr_evs 128 HP, 128 Spe
-		tr_moves THUNDER_WAVE, AQUA_TAIL, FLAMETHROWER, DRAGON_PULSE
-else
-	tr_mon 44, AMPHAROS, FEMALE
-		tr_evs 128 HP, 128 SAt
-		tr_moves THUNDER_WAVE, CONFUSE_RAY, THUNDERBOLT, DRAGON_PULSE
-endc
-	tr_mon 44, DRAGONAIR, FEMALE
-		tr_evs 128 HP, 128 SAt
-		tr_moves THUNDER_WAVE, THUNDERBOLT, ICE_BEAM, DRAGON_PULSE
-	tr_mon 47, KINGDRA @ SHELL_BELL, FEMALE
-		tr_extra SNIPER
-		tr_evs 252 SAt, 4 Spe
-		tr_moves TACKLE, HYPER_BEAM, DRAGON_PULSE, SURF
+	def_trainer_class DRAYDEN
+	def_trainer 1, "Drayden"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Clair"
-	tr_mon 72, RATTATA @ BRIGHTPOWDER, FEMALE
-		tr_moves DRAGON_DANCE, WATERFALL, FLY, EARTHQUAKE
-	tr_mon 74, EXEGGUTOR @ LUM_BERRY, FEMALE | ALOLAN_FORM
-		tr_extra HARVEST
-		tr_moves REST, SLEEP_POWDER, GIGA_DRAIN, DRAGON_PULSE
-	tr_mon 73, DRAGONITE @ LEFTOVERS, FEMALE
-		tr_moves OUTRAGE, EXTREMESPEED, FIRE_PUNCH, EARTHQUAKE
-if DEF(FAITHFUL)
-	tr_mon 73, DRAGONITE @ DRAGON_FANG, FEMALE
-		tr_moves DRAGON_DANCE, DRAGON_CLAW, WATERFALL, GIGA_IMPACT
-else
-	tr_mon 73, AMPHAROS @ DRAGON_FANG, FEMALE
-		tr_moves THUNDER_WAVE, CONFUSE_RAY, THUNDERBOLT, DRAGON_PULSE
-endc
-	tr_mon 74, DRAGONAIR @ EVIOLITE, FEMALE
-		tr_moves DRAGON_DANCE, EXTREMESPEED, OUTRAGE, AQUA_TAIL
-	tr_mon 75, KINGDRA @ CHESTO_BERRY, FEMALE
-		tr_extra SNIPER
-		tr_moves DRAGON_DANCE, WATERFALL, OUTRAGE, REST
+	def_trainer 2, "Drayden"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
-SECTION "WillGroup", ROMX
-WillGroup:
+SECTION "MarshalGroup", ROMX
+MarshalGroup:
 
-	def_trainer_class WILL
-	def_trainer 1, "Will"
-	tr_mon 48, RATTATA @ TWISTEDSPOON
-		tr_evs 252 HP, 36 Spe
-		tr_moves PSYCHIC_M, SHADOW_BALL, CALM_MIND, HYPNOSIS
-	tr_mon 49, RATTATA @ BRIGHTPOWDER
-		tr_evs 144 SAt, 144 Spe
-		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
-	tr_mon 50, EXEGGUTOR @ MIRACLE_SEED
-		tr_evs 144 HP, 144 SAt
-		tr_moves REFLECT, LEECH_SEED, SEED_BOMB, PSYCHIC_M
-	tr_mon 50, RATTATA @ LUM_BERRY
-		tr_evs 144 HP, 144 SAt
-		tr_moves CALM_MIND, RECOVER, LIGHT_SCREEN, PSYCHIC_M
-	tr_mon 49, SLOWBRO @ SITRUS_BERRY
-		tr_evs 144 HP, 144 SDf
-		tr_moves SURF, CALM_MIND, BODY_SLAM, PSYCHIC_M
-	tr_mon 51, RATTATA @ LEFTOVERS
-		tr_evs 4 HP, 252 SAt
-		tr_moves QUICK_ATTACK, CONFUSE_RAY, PSYCHIC_M, FUTURE_SIGHT
-	end_trainer
-
-	def_trainer 2, "Will"
-	tr_mon 67, RATTATA @ TWISTEDSPOON
-		tr_moves SHADOW_BALL, MEGAHORN, EARTHQUAKE, PSYCHIC_M
-	tr_mon 68, RATTATA @ BRIGHTPOWDER
-		tr_moves NASTY_PLOT, DRAINING_KISS, ICE_BEAM, PSYCHIC_M
-	tr_mon 68, EXEGGUTOR @ MIRACLE_SEED
-		tr_moves REFLECT, GIGA_DRAIN, SLEEP_POWDER, PSYCHIC_M
-	tr_mon 69, RATTATA @ LUM_BERRY
-		tr_moves HP_FIGHTING, RECOVER, SHADOW_BALL, PSYCHIC_M
-	tr_mon 69, SLOWBRO @ WISE_GLASSES
-		tr_moves SURF, PSYCHIC_M, THUNDER_WAVE, REST
-	tr_mon 70, RATTATA @ LEFTOVERS
-		tr_moves QUICK_ATTACK, FUTURE_SIGHT, CONFUSE_RAY, PSYCHIC_M
+	def_trainer_class MARSHAL
+	def_trainer 1, "Marshal"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
 
-SECTION "KogaGroup", ROMX
-KogaGroup:
+SECTION "GrimsleyGroup", ROMX
+GrimsleyGroup:
 
-	def_trainer_class KOGA
-	def_trainer 1, "Koga"
-	tr_mon 50, RATTATA @ SILVERPOWDER
-		tr_evs 252 SAt, 68 Spe
-		tr_moves SUPERSONIC, BUG_BUZZ, PSYCHIC_M, TOXIC
-	tr_mon 50, RATTATA @ SITRUS_BERRY
-		tr_evs 160 Def, 160 SDf
-		tr_moves POISON_JAB, TOXIC_SPIKES, EARTHQUAKE, MEGAHORN
-	tr_mon 52, RATTATA @ SILK_SCARF
-		tr_evs 252 HP, 68 SDf
-		tr_moves PROTECT, EXPLOSION, SPIKES, IRON_HEAD
-	tr_mon 51, MUK @ BRIGHTPOWDER
-		tr_evs 252 Atk, 68 Spe
-		tr_moves TACKLE, SCREECH, GUNK_SHOT, TOXIC
-	tr_mon 51, WEEZING @ POISON_BARB
-		tr_evs 252 HP, 68 Spe
-		tr_moves WILL_O_WISP, TOXIC, SLUDGE_BOMB, EXPLOSION
-	tr_mon 53, CROBAT @ LEFTOVERS
-		tr_evs 252 HP, 68 Atk
-		tr_moves DOUBLE_TEAM, POISON_JAB, SUPER_FANG, TOXIC
-	end_trainer
-
-	def_trainer 2, "Koga"
-	tr_mon 69, RATTATA @ WISE_GLASSES, MALE
-		tr_moves POWER_WHIP, ICE_BEAM, SURF, SLUDGE_BOMB
-	tr_mon 71, RATTATA @ SILK_SCARF, MALE
-		tr_moves PROTECT, TOXIC, EXPLOSION, SPIKES
-	tr_mon 69, RATTATA @ SOFT_SAND, MALE
-		tr_moves SLUDGE_BOMB, GLARE, EARTHQUAKE, SCREECH
-	tr_mon 70, MUK @ BRIGHTPOWDER, MALE
-		tr_moves TACKLE, FIRE_BLAST, GUNK_SHOT, TOXIC
-	tr_mon 71, WEEZING @ MAGNET, MALE
-		tr_moves WILL_O_WISP, THUNDER, SLUDGE_BOMB, EXPLOSION
-	tr_mon 72, CROBAT @ LEFTOVERS, MALE
-		tr_moves SCREECH, TOXIC, CRUNCH, AERIAL_ACE
+	def_trainer_class GRIMSLEY
+	def_trainer 1, "Grimsley"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
 
-SECTION "BrunoGroup", ROMX
-BrunoGroup:
+SECTION "ElesaGroup", ROMX
+ElesaGroup:
 
-	def_trainer_class BRUNO
-	def_trainer 1, "Bruno"
-	tr_mon 51, RATTATA @ QUICK_CLAW
-		tr_evs 176 Atk, 176 Spe
-		tr_moves PURSUIT, CLOSE_COMBAT, DIG, PROTECT
-	tr_mon 53, SNEASLER @ SILVERPOWDER
-		tr_evs 176 Atk, 176 Spe
-		tr_moves SWORDS_DANCE, X_SCISSOR, CLOSE_COMBAT, GUNK_SHOT
-	tr_mon 51, RATTATA @ FOCUS_BAND
-		tr_evs 176 Atk, 176 Spe
-		tr_moves SUCKER_PUNCH, DOUBLE_KICK, HI_JUMP_KICK, FORESIGHT
-	tr_mon 51, RATTATA @ NEVERMELTICE
-		tr_evs 176 Atk, 176 Spe
-		tr_moves THUNDERPUNCH, ICE_PUNCH, POISON_JAB, MACH_PUNCH
-	tr_mon 53, ONIX @ HARD_STONE
-		tr_evs 100 HP, 252 Atk
-		tr_moves BODY_SLAM, EARTHQUAKE, CRUNCH, ROCK_SLIDE
-	tr_mon 55, RATTATA @ LEFTOVERS
-		tr_evs 100 HP, 252 Atk
-		tr_moves ROCK_SLIDE, FORESIGHT, TACKLE, BULK_UP
-	end_trainer
-
-	def_trainer 2, "Bruno"
-	tr_mon 70, RATTATA @ QUICK_CLAW
-		tr_moves BULK_UP, SUCKER_PUNCH, COUNTER, HI_JUMP_KICK
-	tr_mon 71, SNEASLER @ SILVERPOWDER
-		tr_moves SWORDS_DANCE, X_SCISSOR, CLOSE_COMBAT, GUNK_SHOT
-	tr_mon 70, RATTATA @ FOCUS_BAND
-		tr_moves BULK_UP, SUCKER_PUNCH, HI_JUMP_KICK, REVERSAL
-	tr_mon 70, RATTATA @ NEVERMELTICE
-		tr_moves THUNDERPUNCH, ICE_PUNCH, POISON_JAB, MACH_PUNCH
-	tr_mon 72, STEELIX @ LEFTOVERS
-		tr_moves CURSE, EARTHQUAKE, STONE_EDGE, IRON_HEAD
-	tr_mon 74, RATTATA @ MUSCLE_BAND
-		tr_moves BULK_UP, STONE_EDGE, BODY_SLAM, TACKLE
+	def_trainer_class ELESA
+	def_trainer 1, "Elesa"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
 
-SECTION "KarenGroup", ROMX
-KarenGroup:
+SECTION "ColressGroup", ROMX
+ColressGroup:
 
-	def_trainer_class KAREN
-	def_trainer 1, "Karen"
-	tr_mon 53, UMBREON @ LEFTOVERS, FEMALE
-		tr_evs 252 HP, 132 Def
-		tr_moves MUD_SLAP, CONFUSE_RAY, FEINT_ATTACK, MEAN_LOOK
-	tr_mon 53, PERSIAN @ PINK_BOW, FEMALE | ALOLAN_FORM
-		tr_evs 252 HP, 132 Atk
-		tr_moves NIGHT_SLASH, FEINT_ATTACK, SCREECH, PLAY_ROUGH
-	tr_mon 54, WEAVILE @ KINGS_ROCK, FEMALE
-		tr_evs 252 Atk, 132 Spe
-		tr_moves SWORDS_DANCE, SCREECH, NIGHT_SLASH, ICE_PUNCH
-	tr_mon 55, GENGAR @ SPELL_TAG, FEMALE
-		tr_evs 252 SAt, 132 Spe
-		tr_moves SHADOW_BALL, WILL_O_WISP, CURSE, DESTINY_BOND
-	tr_mon 55, HONCHKROW @ BLACKGLASSES, FEMALE
-		tr_evs 132 Atk, 252 Spe
-		tr_moves DRILL_PECK, SUCKER_PUNCH, PURSUIT, BRAVE_BIRD
-	tr_mon 57, HOUNDOOM @ CHARCOAL, FEMALE
-		tr_evs 192 SAt, 192 Spe
-		tr_moves ROAR, PURSUIT, FLAMETHROWER, DARK_PULSE
-	end_trainer
-
-	def_trainer 2, "Karen"
-	tr_mon 71, UMBREON @ LEFTOVERS
-		tr_moves CHARM, HEALINGLIGHT, PURSUIT, TOXIC
-	tr_mon 72, WEAVILE @ KINGS_ROCK
-		tr_moves SWORDS_DANCE, SCREECH, SLASH, ICE_PUNCH
-	tr_mon 74, GENGAR @ MAGNET
-		tr_moves HYPNOSIS, THUNDER, SHADOW_BALL, DESTINY_BOND
-	tr_mon 73, HONCHKROW @ BLACKGLASSES
-		tr_moves DRILL_PECK, SUCKER_PUNCH, NIGHT_SLASH, BRAVE_BIRD
-	tr_mon 74, TYRANITAR @ SOFT_SAND
-		tr_moves EARTHQUAKE, CRUNCH, STONE_EDGE, PURSUIT
-	tr_mon 76, HOUNDOOM @ WISE_GLASSES
-		tr_moves ROAR, NASTY_PLOT, FIRE_BLAST, DARK_PULSE
+	def_trainer_class COLRESS
+	def_trainer 1, "Colress"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
 
@@ -596,61 +265,21 @@ SECTION "ChampionGroup", ROMX
 ChampionGroup:
 
 	def_trainer_class CHAMPION
-	def_trainer LANCE, "Lance"
+	def_trainer JUNIPER_SNIVY, "Juniper"
 	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
 		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 58, DRAGONITE @ WIDE_LENS, MALE
-		tr_extra INNER_FOCUS, SATK_UP_ATK_DOWN
-		tr_evs 164 SAt, 252 Spe
-		tr_moves FIRE_BLAST, BLIZZARD, THUNDER, HYPER_BEAM
-	tr_mon 58, KINGDRA @ SCOPE_LENS, MALE
-		tr_extra SNIPER, SATK_UP_ATK_DOWN
-		tr_evs 164 SAt, 252 Spe
-		tr_moves FOCUS_ENERGY, DRAGON_PULSE, SURF, HYPER_BEAM
-	tr_mon 57, RATTATA @ KINGS_ROCK, MALE
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves AERIAL_ACE, ANCIENTPOWER, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 57, RATTATA @ WISE_GLASSES, MALE
-		tr_extra HUSTLE, SATK_UP_ATK_DOWN
-		tr_evs 164 SAt, 252 Spe
-if DEF(FAITHFUL)
-		tr_moves FLAMETHROWER, HYPER_BEAM, FOCUS_BLAST, AIR_SLASH
-else
-		tr_moves FLAMETHROWER, HYPER_BEAM, FOCUS_BLAST, DRAGON_PULSE
-endc
-	tr_mon 60, DRAGONITE @ LEFTOVERS, MALE
-		tr_extra MULTISCALE, ATK_UP_SATK_DOWN, SHINY
-		tr_evs 252 HP, 164 Atk
-		tr_moves SUBSTITUTE, DRAGON_DANCE, FLY, EXTREMESPEED
 	end_trainer
 
-	def_trainer LANCE2, "Lance"
-	tr_mon 75, RATTATA @ LIFE_ORB, MALE
-		tr_extra SPE_UP_SATK_DOWN
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 77, EXEGGUTOR @ LUM_BERRY, MALE | ALOLAN_FORM
-		tr_extra HARVEST, SATK_UP_ATK_DOWN
-		tr_moves GIGA_DRAIN, DRAGON_PULSE, FLAMETHROWER, SLUDGE_BOMB
-	tr_mon 77, KINGDRA @ CHOICE_SPECS
-		tr_extra SATK_UP_ATK_DOWN
-		tr_moves HYDRO_PUMP, SCALD, ICE_BEAM, DRAGON_PULSE
-	tr_mon 76, RATTATA @ CHOICE_BAND, MALE
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_moves STONE_EDGE, BRAVE_BIRD, IRON_HEAD, CRUNCH
-	tr_mon 75, RATTATA @ LEFTOVERS, MALE
-if DEF(FAITHFUL)
-		tr_extra HUSTLE, SATK_UP_ATK_DOWN
-		tr_moves FIRE_BLAST, SOLAR_BEAM, FOCUS_BLAST, AIR_SLASH
-else
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_moves DRAGON_DANCE, OUTRAGE, FLARE_BLITZ, ROOST
-endc
-	tr_mon 80, DRAGONITE @ WEAK_POLICY, MALE
-		tr_extra MULTISCALE, ATK_UP_SATK_DOWN, SHINY
-		tr_moves DRAGON_DANCE, EXTREMESPEED, OUTRAGE, IRON_HEAD
+	def_trainer JUNIPER_TEPIG, "Juniper"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	end_trainer
+
+	def_trainer JUNIPER_OSHAWOTT, "Juniper"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
 	end_trainer
 
 
@@ -7406,48 +7035,6 @@ else
 	tr_mon 73, MAGMORTAR
 endc
 	tr_mon 75, RATTATA
-	end_trainer
-
-
-SECTION "MarlonGroup", ROMX
-MarlonGroup:
-
-	def_trainer_class MARLON
-	def_trainer 1, "Marlon"
-	tr_mon 33, RATTATA
-		tr_evs 200 SDf
-	tr_mon 37, RATTATA
-		tr_evs 200 Spe
-	tr_mon 34, RATTATA
-		tr_evs 200 HP
-	tr_mon 35, MANTINE
-		tr_evs 200 Def
-	tr_mon 34, STARMIE
-		tr_evs 200 SAt
-	end_trainer
-
-	def_trainer 2, "Marlon"
-	tr_mon 57, RATTATA
-		tr_evs 68 HP, 252 SDf
-	tr_mon 60, RATTATA
-		tr_evs 68 SAt, 252 Spe
-	tr_mon 58, RATTATA
-		tr_evs 252 HP, 68 SAt
-	tr_mon 59, MANTINE
-		tr_evs 68 HP, 252 Def
-	tr_mon 58, STARMIE
-		tr_evs 252 SAt, 68 Spe
-	tr_mon 57, RATTATA
-		tr_evs 252 Atk, 68 Spe
-	end_trainer
-
-	def_trainer 3, "Marlon"
-	tr_mon 72, RATTATA
-	tr_mon 75, RATTATA
-	tr_mon 73, RATTATA
-	tr_mon 74, MANTINE
-	tr_mon 73, STARMIE
-	tr_mon 72, RATTATA
 	end_trainer
 
 

@@ -6,18 +6,18 @@ TrainerGroups:
 	dba CarrieGroup
 	dba CalGroup
 	dba JackyGroup
-	dba FalknerGroup
-	dba BugsyGroup
-	dba WhitneyGroup
-	dba MortyGroup
-	dba ChuckGroup
-	dba JasmineGroup
-	dba PryceGroup
-	dba ClairGroup
-	dba WillGroup
-	dba KogaGroup
-	dba BrunoGroup
-	dba KarenGroup
+	dba MarlonGroup
+	dba ShauntalGroup
+	dba BurghGroup
+	dba RoxieGroup
+	dba CherenGroup
+	dba CilanGroup
+	dba SkylaGroup
+	dba DraydenGroup
+	dba MarshalGroup
+	dba GrimsleyGroup
+	dba ElesaGroup
+	dba ColressGroup
 	dba ChampionGroup
 	dba BrockGroup
 	dba MistyGroup
@@ -138,7 +138,6 @@ TrainerGroups:
 	dba SparkGroup
 	dba FlanneryGroup
 	dba MayleneGroup
-	dba MarlonGroup
 	dba ValerieGroup
 	dba KukuiGroup
 	dba PiersGroup

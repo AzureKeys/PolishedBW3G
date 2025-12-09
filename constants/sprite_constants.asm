@@ -12,19 +12,19 @@
 	const SPRITE_DAD ; 08
 	const SPRITE_LYRA ; 09
 	const SPRITE_RIVAL ; 0a
-	const SPRITE_FALKNER ; 0b
-	const SPRITE_BUGSY ; 0c
-	const SPRITE_WHITNEY ; 0d
-	const SPRITE_MORTY ; 0e
-	const SPRITE_CHUCK ; 0f
-	const SPRITE_JASMINE ; 10
-	const SPRITE_PRYCE ; 11
-	const SPRITE_CLAIR ; 12
-	const SPRITE_WILL ; 13
-	const SPRITE_KOGA ; 14
-	const SPRITE_BRUNO ; 15
-	const SPRITE_KAREN ; 16
-	const SPRITE_LANCE ; 17
+	const SPRITE_MARLON ; 0b
+	const SPRITE_SHAUNTAL ; 0c
+	const SPRITE_BURGH ; 0d
+	const SPRITE_ROXIE ; 0e
+	const SPRITE_CHEREN ; 0f
+	const SPRITE_CILAN ; 10
+	const SPRITE_SKYLA ; 11
+	const SPRITE_DRAYDEN ; 12
+	const SPRITE_MARSHAL ; 13
+	const SPRITE_GRIMSLEY ; 14
+	const SPRITE_ELESA ; 15
+	const SPRITE_COLRESS ; 16
+	const SPRITE_JUNIPER ; 17
 	const SPRITE_BROCK ; 18
 	const SPRITE_MISTY ; 19
 	const SPRITE_SURGE ; 1a
@@ -68,7 +68,6 @@
 	const SPRITE_ANABEL ; 40
 	const SPRITE_FLANNERY ; 41
 	const SPRITE_MAYLENE ; 42
-	const SPRITE_MARLON ; 43
 	const SPRITE_VALERIE ; 44
 	const SPRITE_KUKUI ; 45
 	const SPRITE_CAITLIN ; 46

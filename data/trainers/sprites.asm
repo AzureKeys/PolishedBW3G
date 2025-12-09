@@ -4,19 +4,19 @@ BTTrainerClassSprites:
 	db SPRITE_KRIS          ; CARRIE
 	db SPRITE_CHRIS         ; CAL
 	db SPRITE_CRYS          ; JACKY
-	db SPRITE_FALKNER       ; FALKNER
-	db SPRITE_BUGSY         ; BUGSY
-	db SPRITE_WHITNEY       ; WHITNEY
-	db SPRITE_MORTY         ; MORTY
-	db SPRITE_CHUCK         ; CHUCK
-	db SPRITE_JASMINE       ; JASMINE
-	db SPRITE_PRYCE         ; PRYCE
-	db SPRITE_CLAIR         ; CLAIR
-	db SPRITE_WILL          ; WILL
-	db SPRITE_KOGA          ; KOGA
-	db SPRITE_BRUNO         ; BRUNO
-	db SPRITE_KAREN         ; KAREN
-	db SPRITE_LANCE         ; CHAMPION
+	db SPRITE_MARLON        ; MARLON
+	db SPRITE_SHAUNTAL      ; SHAUNTAL
+	db SPRITE_BURGH         ; BURGH
+	db SPRITE_ROXIE         ; ROXIE
+	db SPRITE_CHEREN        ; CHEREN
+	db SPRITE_CILAN         ; CILAN
+	db SPRITE_SKYLA         ; SKYLA
+	db SPRITE_DRAYDEN       ; DRAYDEN
+	db SPRITE_MARSHAL       ; MARSHAL
+	db SPRITE_GRIMSLEY      ; GRIMSLEY
+	db SPRITE_ELESA         ; ELESA
+	db SPRITE_COLRESS       ; COLRESS
+	db SPRITE_JUNIPER       ; CHAMPION
 	db SPRITE_BROCK         ; BROCK
 	db SPRITE_MISTY         ; MISTY
 	db SPRITE_SURGE         ; LT_SURGE

@@ -1,10 +1,10 @@
 ; Places and People will not describe these trainers.
 
 PnP_HiddenPeople:
-	db WILL
-	db KOGA
-	db BRUNO
-	db KAREN
+	db MARSHAL
+	db GRIMSLEY
+	db ELESA
+	db COLRESS
 	db CHAMPION
 	; fallthrough
 PnP_HiddenPeople_BeatE4:

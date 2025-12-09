@@ -4,18 +4,18 @@ TrainerPicPointers::
 	dba CarriePic
 	dba CalPic
 	dba JackyPic
-	dba FalknerPic
-	dba BugsyPic
-	dba WhitneyPic
-	dba MortyPic
-	dba ChuckPic
-	dba JasminePic
-	dba PrycePic
-	dba ClairPic
-	dba WillPic
-	dba KogaPic
-	dba BrunoPic
-	dba KarenPic
+	dba MarlonPic
+	dba ShauntalPic
+	dba BurghPic
+	dba RoxiePic
+	dba CherenPic
+	dba CilanPic
+	dba SkylaPic
+	dba DraydenPic
+	dba MarshalPic
+	dba GrimsleyPic
+	dba ElesaPic
+	dba ColressPic
 	dba ChampionPic
 	dba BrockPic
 	dba MistyPic
@@ -136,7 +136,6 @@ TrainerPicPointers::
 	dba SparkPic
 	dba FlanneryPic
 	dba MaylenePic
-	dba MarlonPic
 	dba ValeriePic
 	dba KukuiPic
 	dba PiersPic

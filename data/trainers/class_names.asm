@@ -3,18 +3,18 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; CARRIE
 	li "<PK><MN> Trainer" ; CAL
 	li "<PK><MN> Trainer" ; JACKY
-	li "Leader"           ; FALKNER
-	li "Leader"           ; BUGSY
-	li "Leader"           ; WHITNEY
-	li "Leader"           ; MORTY
-	li "Leader"           ; CHUCK
-	li "Leader"           ; JASMINE
-	li "Leader"           ; PRYCE
-	li "Leader"           ; CLAIR
-	li "Elite Four"       ; WILL
-	li "Elite Four"       ; KOGA
-	li "Elite Four"       ; BRUNO
-	li "Elite Four"       ; KAREN
+	li "Leader"           ; MARLON
+	li "Leader"           ; SHAUNTAL
+	li "Leader"           ; BURGH
+	li "Leader"           ; ROXIE
+	li "Leader"           ; CHEREN
+	li "Leader"           ; CILAN
+	li "Leader"           ; SKYLA
+	li "Leader"           ; DRAYDEN
+	li "Elite 4"          ; MARSHAL
+	li "Elite 4"          ; GRIMSLEY
+	li "Elite 4"          ; ELESA
+	li "Elite 4"          ; COLRESS
 	li "Champion"         ; CHAMPION
 	li "Leader"           ; BROCK
 	li "Leader"           ; MISTY
@@ -135,7 +135,6 @@ TrainerClassNames::
 	li "Leader"           ; SPARK_T
 	li "Trainer"          ; FLANNERY
 	li "Fighter"          ; MAYLENE
-	li "Swimmer"          ; MARLON
 	li "Designer"         ; VALERIE
 	li "<PK><MN> Trainer" ; KUKUI
 	li "Vocalist"         ; PIERS
