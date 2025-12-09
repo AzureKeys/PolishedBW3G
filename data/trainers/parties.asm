@@ -1177,6 +1177,32 @@ BikerGroup:
 	tr_mon 54, RATTATA
 	tr_mon 57, WEEZING
 	end_trainer
+
+
+SECTION "RoughneckGroup", ROMX
+RoughneckGroup:
+
+	def_trainer_class ROUGHNECK
+	def_trainer ROUGHNECK_R4, "Brian"
+	tr_mon 55, RATTATA
+	tr_mon 55, WEEZING
+	tr_mon 55, WEEZING
+	end_trainer
+
+	def_trainer ROUGHNECK_DESERT, "Theron"
+	tr_mon 55, MUK
+	tr_mon 55, POLIWRATH
+	end_trainer
+
+	def_trainer ROUGHNECK_R9_1, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer ROUGHNECK_R9_2, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -4434,27 +4460,6 @@ GuitaristFGroup:
 
 	def_trainer JACLYN, "Jaclyn"
 	tr_mon 56, ELECTIVIRE
-	end_trainer
-
-
-SECTION "RoughneckGroup", ROMX
-RoughneckGroup:
-
-	def_trainer_class ROUGHNECK
-	def_trainer BRIAN, "Brian"
-	tr_mon 55, RATTATA
-	tr_mon 55, WEEZING
-	tr_mon 55, WEEZING
-	end_trainer
-
-	def_trainer THERON, "Theron"
-	tr_mon 55, MUK
-	tr_mon 55, POLIWRATH
-	end_trainer
-
-	def_trainer MARKEY, "Markey"
-	tr_mon 57, RATTATA
-	tr_mon 56, HOUNDOOM
 	end_trainer
 
 

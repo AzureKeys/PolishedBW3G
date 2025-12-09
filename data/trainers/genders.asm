@@ -40,6 +40,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; BLACKBELT_T
 	dbit FEMALE_BIT ; BATTLE_GIRL
 	dbit MALE_BIT   ; BIKER
+	dbit MALE_BIT   ; ROUGHNECK
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; BIRD_KEEPER
@@ -89,7 +90,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; TEACHER_M
 	dbit MALE_BIT   ; GUITARISTM
 	dbit FEMALE_BIT ; GUITARISTF
-	dbit MALE_BIT   ; ROUGHNECK
 	dbit MALE_BIT   ; TAMER
 	dbit FEMALE_BIT ; AROMA_LADY
 	dbit MALE_BIT   ; SOLDIER

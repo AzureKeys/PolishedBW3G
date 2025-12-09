@@ -242,6 +242,12 @@ DEF CRYS EQU __trainer_class__
 	const BIKER_R9_1
 	const BIKER_R9_2
 
+	trainerclass ROUGHNECK ; 5a
+	const ROUGHNECK_R4
+	const ROUGHNECK_DESERT
+	const ROUGHNECK_R9_1
+	const ROUGHNECK_R9_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -849,11 +855,6 @@ DEF CRYS EQU __trainer_class__
 	const RITSUKO
 	const WANDA
 	const JACLYN
-
-	trainerclass ROUGHNECK ; 5a
-	const BRIAN
-	const THERON
-	const MARKEY
 
 	trainerclass TAMER ; 5b
 	const BRETT

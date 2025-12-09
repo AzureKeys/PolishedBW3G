@@ -37,6 +37,7 @@ TrainerClassNames::
 	li "Black Belt"       ; BLACKBELT_T
 	li "Battle Girl"      ; BATTLE_GIRL
 	li "Biker"            ; BIKER
+	li "Roughneck"        ; ROUGHNECK
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
@@ -86,7 +87,6 @@ TrainerClassNames::
 	li "Teacher"          ; TEACHER_M
 	li "Guitarist"        ; GUITARISTM
 	li "Guitarist"        ; GUITARISTF
-	li "Roughneck"        ; ROUGHNECK
 	li "Tamer"            ; TAMER
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER

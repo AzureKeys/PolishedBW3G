@@ -40,6 +40,7 @@ TrainerGroups:
 	dba BlackbeltGroup
 	dba BattleGirlGroup
 	dba BikerGroup
+	dba RoughneckGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup
@@ -89,7 +90,6 @@ TrainerGroups:
 	dba TeacherMGroup
 	dba GuitaristMGroup
 	dba GuitaristFGroup
-	dba RoughneckGroup
 	dba TamerGroup
 	dba AromaLadyGroup
 	dba SoldierGroup
