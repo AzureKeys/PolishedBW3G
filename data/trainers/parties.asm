@@ -1150,6 +1150,33 @@ BattleGirlGroup:
 	tr_mon 55, RATTATA
 	tr_mon 54, RAPIDASH
 	end_trainer
+
+
+SECTION "BikerGroup", ROMX
+BikerGroup:
+
+	def_trainer_class BIKER
+	def_trainer BIKER_R5, "Dwayne"
+	tr_mon 54, KOFFING
+	tr_mon 55, WEEZING
+	tr_mon 56, KOFFING
+	tr_mon 57, WEEZING
+	end_trainer
+
+	def_trainer BIKER_R4, "Harris"
+	tr_mon 57, FLAREON
+	end_trainer
+
+	def_trainer BIKER_R9_1, "Zeke"
+	tr_mon 55, KOFFING
+	tr_mon 56, WEEZING
+	end_trainer
+
+	def_trainer BIKER_R9_2, "Charles"
+	tr_mon 54, KOFFING
+	tr_mon 54, RATTATA
+	tr_mon 57, WEEZING
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -4407,80 +4434,6 @@ GuitaristFGroup:
 
 	def_trainer JACLYN, "Jaclyn"
 	tr_mon 56, ELECTIVIRE
-	end_trainer
-
-
-SECTION "BikerGroup", ROMX
-BikerGroup:
-
-	def_trainer_class BIKER
-	def_trainer DWAYNE, "Dwayne"
-	tr_mon 54, KOFFING
-	tr_mon 55, WEEZING
-	tr_mon 56, KOFFING
-	tr_mon 57, WEEZING
-	end_trainer
-
-	def_trainer HARRIS, "Harris"
-	tr_mon 57, FLAREON
-	end_trainer
-
-	def_trainer ZEKE, "Zeke"
-	tr_mon 55, KOFFING
-	tr_mon 56, WEEZING
-	end_trainer
-
-	def_trainer CHARLES, "Charles"
-	tr_mon 54, KOFFING
-	tr_mon 54, RATTATA
-	tr_mon 57, WEEZING
-	end_trainer
-
-	def_trainer REILLY, "Reilly"
-	tr_mon 59, WEEZING
-	end_trainer
-
-	def_trainer JOEL, "Joel"
-	tr_mon 57, MAGMAR
-	tr_mon 57, MAGMAR
-	end_trainer
-
-	def_trainer GLENN, "Glenn"
-	tr_mon 55, KOFFING
-	tr_mon 57, MAGMAR
-	tr_mon 59, WEEZING
-	end_trainer
-
-	def_trainer DALE, "Dale"
-	tr_mon 57, MUK
-	tr_mon 57, WEEZING
-	end_trainer
-
-	def_trainer JACOB, "Jacob"
-	tr_mon 54, MAGMAR
-	tr_mon 54, RATTATA
-	end_trainer
-
-	def_trainer AIDEN, "Aiden"
-	tr_mon 55, RATTATA
-	tr_mon 55, AZUMARILL
-	end_trainer
-
-	def_trainer DAN, "Dan"
-	tr_mon 57, MUK
-	tr_mon 55, WEEZING
-	tr_mon 55, WEEZING
-	end_trainer
-
-	def_trainer TEDDY, "Teddy"
-	tr_mon 58, RATTATA
-	end_trainer
-
-	def_trainer TYRONE, "Tyrone"
-	tr_mon 22, RATTATA
-	tr_mon 32, GRIMER
-	tr_mon 42, MUK
-	tr_mon 52, WEEZING
 	end_trainer
 
 

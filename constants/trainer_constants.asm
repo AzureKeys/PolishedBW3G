@@ -236,6 +236,12 @@ DEF CRYS EQU __trainer_class__
 	const BATTLE_GIRL_R23
 	const BATTLE_GIRL_VICTORY_ROAD_EXT
 
+	trainerclass BIKER ; 25
+	const BIKER_R5
+	const BIKER_R4
+	const BIKER_R9_1
+	const BIKER_R9_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -843,21 +849,6 @@ DEF CRYS EQU __trainer_class__
 	const RITSUKO
 	const WANDA
 	const JACLYN
-
-	trainerclass BIKER ; 59
-	const DWAYNE
-	const HARRIS
-	const ZEKE
-	const CHARLES
-	const REILLY
-	const JOEL
-	const GLENN
-	const DALE
-	const JACOB
-	const AIDEN
-	const DAN
-	const TEDDY
-	const TYRONE
 
 	trainerclass ROUGHNECK ; 5a
 	const BRIAN

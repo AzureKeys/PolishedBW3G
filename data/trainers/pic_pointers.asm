@@ -37,6 +37,7 @@ TrainerPicPointers::
 	dba BakerPic
 	dba BlackbeltTPic
 	dba BattleGirlPic
+	dba BikerPic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic
@@ -86,7 +87,6 @@ TrainerPicPointers::
 	dba TeacherMPic
 	dba GuitaristmPic
 	dba GuitaristfPic
-	dba BikerPic
 	dba RoughneckPic
 	dba TamerPic
 	dba AromaLadyPic

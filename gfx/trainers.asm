@@ -97,6 +97,9 @@ BlackbeltTPic: INCBIN "gfx/trainers/blackbelt_t.2bpp.lz"
 SECTION "BattleGirlPic", ROMX
 BattleGirlPic: INCBIN "gfx/trainers/battle_girl.2bpp.lz"
 
+SECTION "BikerPic", ROMX
+BikerPic: INCBIN "gfx/trainers/biker.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -241,9 +244,6 @@ GuitaristmPic: INCBIN "gfx/trainers/guitarist_m.2bpp.lz"
 
 SECTION "GuitaristfPic", ROMX
 GuitaristfPic: INCBIN "gfx/trainers/guitarist_f.2bpp.lz"
-
-SECTION "BikerPic", ROMX
-BikerPic: INCBIN "gfx/trainers/biker.2bpp.lz"
 
 SECTION "RoughneckPic", ROMX
 RoughneckPic: INCBIN "gfx/trainers/roughneck.2bpp.lz"

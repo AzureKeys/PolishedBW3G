@@ -218,6 +218,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_OFFENSIVE + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Biker
+	db 0, 0 ; items
+	db 18 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_STATUS + AI_RISKY
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
@@ -510,12 +516,6 @@ TrainerClassAttributes:
 	db 0, 0 ; items
 	db 18 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_AGGRESSIVE + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Biker
-	db 0, 0 ; items
-	db 18 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Roughneck

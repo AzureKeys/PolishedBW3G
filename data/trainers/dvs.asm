@@ -39,6 +39,7 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, FEMALE ; baker
 	db  64, $FF, $DD, $DD, MALE   ; blackbelt
 	db  64, $FF, $DD, $DD, FEMALE ; battle girl
+	db  72, $DD, $DD, $DD, MALE   ; biker
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper
@@ -88,7 +89,6 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, MALE   ; teacher_m
 	db  72, $DD, $DD, $DD, MALE   ; guitaristm
 	db  72, $DD, $DD, $DD, FEMALE ; guitaristf
-	db  72, $DD, $DD, $DD, MALE   ; biker
 	db  72, $DD, $DD, $DD, MALE   ; roughneck
 	db  72, $DD, $DD, $DD, MALE   ; tamer
 	db  72, $DD, $DD, $DD, FEMALE ; aroma lady
