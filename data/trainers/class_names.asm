@@ -16,16 +16,6 @@ TrainerClassNames::
 	li "Elite 4"          ; ELESA
 	li "Elite 4"          ; COLRESS
 	li "Champion"         ; CHAMPION
-	li "Leader"           ; BROCK
-	li "Leader"           ; MISTY
-	li "Leader"           ; LT_SURGE
-	li "Leader"           ; ERIKA
-	li "Leader"           ; JANINE
-	li "Leader"           ; SABRINA
-	li "Leader"           ; BLAINE
-	li "Leader"           ; BLUE
-	li "<PK><MN> Trainer" ; RED
-	li "<PK><MN> Trainer" ; LEAF
 	li "Strange"          ; RIVAL0
 	li "Rival"            ; RIVAL1
 	li "Rival"            ; RIVAL2

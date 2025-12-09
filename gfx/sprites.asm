@@ -67,36 +67,6 @@ ColressSpriteGFX:: INCBIN "gfx/sprites/colress.2bpp.lz"
 SECTION "JuniperSpriteGFX", ROMX
 JuniperSpriteGFX:: INCBIN "gfx/sprites/juniper.2bpp.lz"
 
-SECTION "BrockSpriteGFX", ROMX
-BrockSpriteGFX:: INCBIN "gfx/sprites/brock.2bpp.lz"
-
-SECTION "MistySpriteGFX", ROMX
-MistySpriteGFX:: INCBIN "gfx/sprites/misty.2bpp.lz"
-
-SECTION "SurgeSpriteGFX", ROMX
-SurgeSpriteGFX:: INCBIN "gfx/sprites/surge.2bpp.lz"
-
-SECTION "ErikaSpriteGFX", ROMX
-ErikaSpriteGFX:: INCBIN "gfx/sprites/erika.2bpp.lz"
-
-SECTION "JanineSpriteGFX", ROMX
-JanineSpriteGFX:: INCBIN "gfx/sprites/janine.2bpp.lz"
-
-SECTION "SabrinaSpriteGFX", ROMX
-SabrinaSpriteGFX:: INCBIN "gfx/sprites/sabrina.2bpp.lz"
-
-SECTION "BlaineSpriteGFX", ROMX
-BlaineSpriteGFX:: INCBIN "gfx/sprites/blaine.2bpp.lz"
-
-SECTION "BlueSpriteGFX", ROMX
-BlueSpriteGFX:: INCBIN "gfx/sprites/blue.2bpp.lz"
-
-SECTION "RedSpriteGFX", ROMX
-RedSpriteGFX:: INCBIN "gfx/sprites/red.2bpp.lz"
-
-SECTION "LeafSpriteGFX", ROMX
-LeafSpriteGFX:: INCBIN "gfx/sprites/leaf.2bpp.lz"
-
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lz"
 

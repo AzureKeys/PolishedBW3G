@@ -19,16 +19,6 @@ TrainerGroups:
 	dba ElesaGroup
 	dba ColressGroup
 	dba ChampionGroup
-	dba BrockGroup
-	dba MistyGroup
-	dba LtSurgeGroup
-	dba ErikaGroup
-	dba JanineGroup
-	dba SabrinaGroup
-	dba BlaineGroup
-	dba BlueGroup
-	dba RedGroup
-	dba LeafGroup
 	dba Rival0Group
 	dba Rival1Group
 	dba Rival2Group

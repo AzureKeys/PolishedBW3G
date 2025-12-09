@@ -8,14 +8,6 @@ PnP_HiddenPeople:
 	db CHAMPION
 	; fallthrough
 PnP_HiddenPeople_BeatE4:
-	db BROCK
-	db MISTY
-	db LT_SURGE
-	db ERIKA
-	db JANINE
-	db SABRINA
-	db BLAINE
-	db BLUE
 	; fallthrough
 PnP_HiddenPeople_BeatKanto:
 	db RIVAL0
@@ -27,7 +19,5 @@ PnP_HiddenPeople_BeatKanto:
 	db PROF_ELM
 	db CAL
 	db CARRIE
-	db RED
-	db LEAF
 	db INVER ; Is not located in the same bank as the others
 	db -1

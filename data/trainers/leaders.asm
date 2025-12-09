@@ -4,8 +4,6 @@ BossTrainers:
 	db ELESA
 	db COLRESS
 	db CHAMPION
-	db RED
-	db LEAF
 	db GIOVANNI
 	db KARATE_KING
 	db TOWERTYCOON
@@ -39,13 +37,4 @@ JohtoGymLeaders:
 	db CILAN
 	db SKYLA
 	db DRAYDEN
-KantoGymLeaders:
-	db BROCK
-	db MISTY
-	db LT_SURGE
-	db ERIKA
-	db JANINE
-	db SABRINA
-	db BLAINE
-	db BLUE
 	db -1

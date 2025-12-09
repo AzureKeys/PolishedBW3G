@@ -25,16 +25,6 @@
 	const SPRITE_ELESA ; 15
 	const SPRITE_COLRESS ; 16
 	const SPRITE_JUNIPER ; 17
-	const SPRITE_BROCK ; 18
-	const SPRITE_MISTY ; 19
-	const SPRITE_SURGE ; 1a
-	const SPRITE_ERIKA ; 1b
-	const SPRITE_JANINE ; 1c
-	const SPRITE_SABRINA ; 1d
-	const SPRITE_BLAINE ; 1e
-	const SPRITE_BLUE ; 1f
-	const SPRITE_RED ; 20
-	const SPRITE_LEAF ; 21
 	const SPRITE_YELLOW ; 22
 	const SPRITE_OAK ; 23
 	const SPRITE_ELM ; 24

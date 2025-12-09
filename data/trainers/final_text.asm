@@ -62,16 +62,6 @@ FinalText_SinglePhrases:
 	dw BrunoFinalPkmnText
 	dw KarenFinalPkmnText
 	dw ChampionFinalPkmnText
-	dw BrockFinalPkmnText
-	dw MistyFinalPkmnText
-	dw LtSurgeFinalPkmnText
-	dw ErikaFinalPkmnText
-	dw JanineFinalPkmnText
-	dw SabrinaFinalPkmnText
-	dw BlaineFinalPkmnText
-	dw BlueFinalPkmnText
-	dw RedFinalPkmnText
-	dw LeafFinalPkmnText
 	; ...
 	dw ProfOakFinalPkmnText
 	dw ProfElmFinalPkmnText
@@ -110,5 +100,5 @@ FinalText_SinglePhrases:
 	dw ImakuniFinalPkmnText
 	dw LawrenceFinalPkmnText
 	dw ReiFinalPkmnText
-	; all trainers between LEAF and PROF_OAK are omitted
-	assert_table_length NUM_TRAINER_CLASSES - (PROF_OAK - LEAF - 1)
+	; all trainers between CHAMPION and PROF_OAK are omitted
+	assert_table_length NUM_TRAINER_CLASSES - (PROF_OAK - CHAMPION - 1)

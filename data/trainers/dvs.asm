@@ -19,16 +19,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; elesa
 	db 252, PERFECT_DVS,   MALE   ; colress
 	db 252, PERFECT_DVS,   FEMALE ; champion
-	db 252, PERFECT_DVS,   MALE   ; brock
-	db 252, PERFECT_DVS,   FEMALE ; misty
-	db 252, PERFECT_DVS,   MALE   ; lt surge
-	db 252, PERFECT_DVS,   FEMALE ; erika
-	db 252, PERFECT_DVS,   FEMALE ; janine
-	db 252, PERFECT_DVS,   FEMALE ; sabrina
-	db 252, PERFECT_DVS,   MALE   ; blaine
-	db 252, PERFECT_DVS,   MALE   ; blue
-	db 252, PERFECT_DVS,   MALE   ; red
-	db 252, PERFECT_DVS,   FEMALE ; leaf
 	db   0, PERFECT_DVS,   MALE   ; rival0
 	db 144, PERFECT_DVS,   MALE   ; rival1
 	db 252, PERFECT_DVS,   MALE   ; rival2

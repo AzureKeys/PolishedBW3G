@@ -1731,58 +1731,6 @@ ChampionFinalPkmnText:
 	cont "never happen!"
 	prompt
 
-BrockFinalPkmnText:
-	text "Ah ha ha!"
-	line "It itches!"
-	prompt
-
-MistyFinalPkmnText:
-	text "Hmm… You're"
-	line "pretty good…"
-	prompt
-
-LtSurgeFinalPkmnText:
-	text "It's not over yet."
-	line "It's just getting"
-	cont "started!"
-	prompt
-
-ErikaFinalPkmnText:
-	text "Don't go easy on"
-	line "me. Give me every-"
-	cont "thing you've got!"
-	prompt
-
-JanineFinalPkmnText:
-	text "You've got a great"
-	line "battle technique!"
-	prompt
-
-SabrinaFinalPkmnText:
-	text "What will happen"
-	line "after this?"
-	cont "I already know."
-	prompt
-
-BlaineFinalPkmnText:
-	text "I'll show you the"
-	line "spirit of my cave"
-	cont "Gym!"
-	prompt
-
-BlueFinalPkmnText:
-	text "Heh heh heh…"
-	line "You're unprepared"
-
-	para "for this. We'll"
-	line "knock you down!"
-	prompt
-
-RedFinalPkmnText: ; text > text
-LeafFinalPkmnText:
-	text "………………"
-	prompt
-
 Rival1_1FinalPkmnText:
 	text "…Humph!"
 	line "You're doing OK"

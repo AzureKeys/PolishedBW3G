@@ -112,10 +112,6 @@ PlayBattleMusic:
 	and a
 	jr nz, .done
 
-	ld e, MUSIC_KANTO_GYM_LEADER_BATTLE
-	farcall IsKantoGymLeader
-	jr c, .done
-
 	ld e, MUSIC_JOHTO_GYM_LEADER_BATTLE
 	farcall IsJohtoGymLeader
 	jr c, .done

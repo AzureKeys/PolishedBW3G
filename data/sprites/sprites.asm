@@ -30,16 +30,6 @@ SpriteHeaders:
 	overworld_sprite ElesaSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
 	overworld_sprite ColressSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
 	overworld_sprite JuniperSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite BrockSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite MistySpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
-	overworld_sprite SurgeSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite ErikaSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite JanineSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite SabrinaSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite BlaineSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite BlueSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite RedSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite LeafSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite YellowSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite OakSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ElmSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN

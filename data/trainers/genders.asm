@@ -19,16 +19,6 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; ELESA
 	dbit MALE_BIT   ; COLRESS
 	dbit FEMALE_BIT ; CHAMPION
-	dbit MALE_BIT   ; BROCK
-	dbit FEMALE_BIT ; MISTY
-	dbit MALE_BIT   ; LT_SURGE
-	dbit FEMALE_BIT ; ERIKA
-	dbit FEMALE_BIT ; JANINE
-	dbit FEMALE_BIT ; SABRINA
-	dbit MALE_BIT   ; BLAINE
-	dbit MALE_BIT   ; BLUE
-	dbit MALE_BIT   ; RED
-	dbit FEMALE_BIT ; LEAF
 	dbit MALE_BIT   ; RIVAL0
 	dbit MALE_BIT   ; RIVAL1
 	dbit MALE_BIT   ; RIVAL2

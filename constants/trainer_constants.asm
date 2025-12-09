@@ -73,26 +73,6 @@ DEF CRYS EQU __trainer_class__
 	const JUNIPER_TEPIG
 	const JUNIPER_OSHAWOTT
 
-	trainerclass BROCK ; 11
-
-	trainerclass MISTY ; 12
-
-	trainerclass LT_SURGE ; 13
-
-	trainerclass ERIKA ; 14
-
-	trainerclass JANINE ; 15
-
-	trainerclass SABRINA ; 16
-
-	trainerclass BLAINE ; 17
-
-	trainerclass BLUE ; 18
-
-	trainerclass RED ; 19
-
-	trainerclass LEAF ; 1a
-
 	trainerclass RIVAL0 ; 1b
 
 	trainerclass RIVAL1 ; 1c

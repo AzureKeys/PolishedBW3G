@@ -17,16 +17,6 @@ TrainerPicPointers::
 	dba ElesaPic
 	dba ColressPic
 	dba ChampionPic
-	dba BrockPic
-	dba MistyPic
-	dba LtSurgePic
-	dba ErikaPic
-	dba JaninePic
-	dba SabrinaPic
-	dba BlainePic
-	dba BluePic
-	dba RedPic
-	dba LeafPic
 	dba Rival0Pic
 	dba Rival1Pic
 	dba Rival2Pic

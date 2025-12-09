@@ -17,16 +17,6 @@ BTTrainerClassSprites:
 	db SPRITE_ELESA         ; ELESA
 	db SPRITE_COLRESS       ; COLRESS
 	db SPRITE_JUNIPER       ; CHAMPION
-	db SPRITE_BROCK         ; BROCK
-	db SPRITE_MISTY         ; MISTY
-	db SPRITE_SURGE         ; LT_SURGE
-	db SPRITE_ERIKA         ; ERIKA
-	db SPRITE_JANINE        ; JANINE
-	db SPRITE_SABRINA       ; SABRINA
-	db SPRITE_BLAINE        ; BLAINE
-	db SPRITE_BLUE          ; BLUE
-	db SPRITE_RED           ; RED
-	db SPRITE_LEAF          ; LEAF
 	db SPRITE_RIVAL         ; RIVAL0
 	db SPRITE_RIVAL         ; RIVAL1
 	db SPRITE_RIVAL         ; RIVAL2

@@ -1012,27 +1012,27 @@ _CGB_TrainerCard2:
 _CGB_TrainerCard3:
 	call LoadFirstTwoTrainerCardPals
 
-	ld a, BROCK
+	ld a, SHAUNTAL
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, SABRINA ; BLAINE
+	ld a, BURGH
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, ERIKA ; LT_SURGE
+	ld a, ROXIE ; Cheren
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, MISTY
+	ld a, CILAN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, JANINE
+	ld a, SKYLA
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, BLUE
+	ld a, DRAYDEN
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 

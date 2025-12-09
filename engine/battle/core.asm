@@ -2476,10 +2476,6 @@ PlayVictoryMusic:
 ; Note: KantoGymLeaders is a subset of JohtoGymLeaders. If you wish to
 ; differentiate between the two, call IsKantoGymLeader first.
 
-IsKantoGymLeader:
-	ld hl, KantoGymLeaders
-	jr IsBossTrainerCommon
-
 IsJohtoGymLeader:
 	ld hl, JohtoGymLeaders
 	jr IsBossTrainerCommon

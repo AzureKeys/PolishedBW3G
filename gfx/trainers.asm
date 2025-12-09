@@ -51,36 +51,6 @@ ColressPic: INCBIN "gfx/trainers/colress.2bpp.lz"
 SECTION "ChampionPic", ROMX
 ChampionPic: INCBIN "gfx/trainers/champion.2bpp.lz"
 
-SECTION "BrockPic", ROMX
-BrockPic: INCBIN "gfx/trainers/brock.2bpp.lz"
-
-SECTION "MistyPic", ROMX
-MistyPic: INCBIN "gfx/trainers/misty.2bpp.lz"
-
-SECTION "LtSurgePic", ROMX
-LtSurgePic: INCBIN "gfx/trainers/lt_surge.2bpp.lz"
-
-SECTION "ErikaPic", ROMX
-ErikaPic: INCBIN "gfx/trainers/erika.2bpp.lz"
-
-SECTION "JaninePic", ROMX
-JaninePic: INCBIN "gfx/trainers/janine.2bpp.lz"
-
-SECTION "SabrinaPic", ROMX
-SabrinaPic: INCBIN "gfx/trainers/sabrina.2bpp.lz"
-
-SECTION "BlainePic", ROMX
-BlainePic: INCBIN "gfx/trainers/blaine.2bpp.lz"
-
-SECTION "BluePic", ROMX
-BluePic: INCBIN "gfx/trainers/blue.2bpp.lz"
-
-SECTION "RedPic", ROMX
-RedPic: INCBIN "gfx/trainers/red.2bpp.lz"
-
-SECTION "LeafPic", ROMX
-LeafPic: INCBIN "gfx/trainers/leaf.2bpp.lz"
-
 SECTION "Rival0Pic", ROMX
 Rival0Pic:
 Rival1Pic: INCBIN "gfx/trainers/rival1.2bpp.lz"
