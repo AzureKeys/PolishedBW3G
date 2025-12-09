@@ -35,6 +35,8 @@ TrainerPicPointers::
 	dba BackpackerMPic
 	dba BackpackerFPic
 	dba BakerPic
+	dba BlackbeltTPic
+	dba BattleGirlPic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic
@@ -78,8 +80,6 @@ TrainerPicPointers::
 	dba RocketScientistPic
 	dba BoarderPic
 	dba SkierPic
-	dba BlackbeltTPic
-	dba BattleGirlPic
 	dba DragonTamerPic
 	dba EngineerPic
 	dba TeacherFPic

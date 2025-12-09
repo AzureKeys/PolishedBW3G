@@ -36,6 +36,8 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; backpackerm
 	db MUSIC_HIKER_ENCOUNTER ; backpackerf
 	db MUSIC_LASS_ENCOUNTER ; baker
+	db MUSIC_HIKER_ENCOUNTER ; blackbelt_t
+	db MUSIC_LASS_ENCOUNTER ; battle_girl
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_HIKER_ENCOUNTER ; fisher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
@@ -79,8 +81,6 @@ TrainerEncounterMusic:
 	db MUSIC_ROCKET_ENCOUNTER ; rocket_scientist
 	db MUSIC_HIKER_ENCOUNTER ; boarder
 	db MUSIC_BEAUTY_ENCOUNTER ; skier
-	db MUSIC_HIKER_ENCOUNTER ; blackbelt_t
-	db MUSIC_LASS_ENCOUNTER ; battle_girl
 	db MUSIC_HIKER_ENCOUNTER ; dragon_tamer
 	db MUSIC_HIKER_ENCOUNTER ; engineer
 	db MUSIC_BEAUTY_ENCOUNTER ; teacher_f

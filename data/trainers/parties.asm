@@ -1016,6 +1016,140 @@ BakerGroup:
 		tr_dvs DVS_HP_GRASS ; green
 		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
 	end_trainer
+
+
+SECTION "BlackbeltGroup", ROMX
+BlackbeltGroup:
+
+	def_trainer_class BLACKBELT_T
+	def_trainer BLACKBELT_REVERSAL, "Kenji"
+	tr_mon 39, RATTATA
+	end_trainer
+
+	def_trainer BLACKBELT_WELLSPRING_1, "Yoshi"
+	tr_mon 27, "Bruce", RATTATA
+		tr_moves DOUBLE_KICK, BULK_UP, HI_JUMP_KICK, FOCUS_ENERGY
+	end_trainer
+
+	def_trainer BLACKBELT_WELLSPRING_2, "Lao"
+	tr_mon 27, "Jackie", RATTATA
+		tr_moves AERIAL_ACE, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH
+	end_trainer
+
+	def_trainer BLACKBELT_R1, "Nob"
+	tr_mon 25, RATTATA
+		tr_moves LEER, FOCUS_ENERGY, BRICK_BREAK, SEISMIC_TOSS
+	tr_mon 25, RATTATA
+		tr_moves LEER, BRICK_BREAK, SEISMIC_TOSS, ROCK_SLIDE
+	end_trainer
+
+	def_trainer BLACKBELT_R18, "Lung"
+	tr_mon 23, MANKEY
+	tr_mon 23, MANKEY
+	tr_mon 25, PRIMEAPE
+	end_trainer
+
+	def_trainer BLACKBELT_R21, "Wai"
+	tr_mon 46, RATTATA
+	tr_mon 48, RATTATA
+	tr_mon 50, RATTATA
+	end_trainer
+
+	def_trainer BLACKBELT_SEASIDE_CAVE_1, "Inigo"
+	tr_mon 59, PRIMEAPE
+	tr_mon 59, PRIMEAPE
+	tr_mon 60, RATTATA
+	end_trainer
+
+	def_trainer BLACKBELT_SEASIDE_CAVE_2, "Manford"
+	tr_mon 63, POLIWRATH
+	end_trainer
+
+	def_trainer BLACKBELT_NACRENE_OUTSKIRT, "Ander"
+	tr_mon 61, PRIMEAPE
+	tr_mon 57, GRAVELER
+	tr_mon 62, RATTATA
+	end_trainer
+
+	def_trainer BLACKBELT_VICTORY_ROAD_EXT, "Takeo"
+	tr_mon 52, RATTATA
+	tr_mon 54, HERACROSS
+	tr_mon 56, POLIWRATH
+	end_trainer
+
+
+SECTION "BattleGirlGroup", ROMX
+BattleGirlGroup:
+
+	def_trainer_class BATTLE_GIRL
+	def_trainer BATTLE_GIRL_REVERSAL, "Subaru"
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 8, PRIMEAPE
+	end_trainer
+
+	def_trainer BATTLE_GIRL_WELLSPRING, "Diane"
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
+	end_trainer
+
+	def_trainer BATTLE_GIRL_R1, "Kagami"
+	tr_mon LEVEL_FROM_BADGES + 5, PRIMEAPE
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
+	end_trainer
+
+	def_trainer BATTLE_GIRL_R18, "Nozomi"
+	tr_mon 36, RATTATA
+	tr_mon 36, RATTATA
+	tr_mon 37, RATTATA
+	end_trainer
+
+	def_trainer BATTLE_GIRL_SEASIDE_CAVE_1, "Ronda"
+	tr_mon 37, RATTATA
+	tr_mon 39, RATTATA
+	tr_mon 38, RATTATA
+	end_trainer
+
+	def_trainer BATTLE_GIRL_SEASIDE_CAVE_2, "Padma"
+	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
+	end_trainer
+
+	def_trainer BATTLE_GIRL_CHARGESTONE, "Emy"
+	tr_mon LEVEL_FROM_BADGES + 8, PRIMEAPE @ PROTECT_PADS, FEMALE
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_moves TACKLE, GUNK_SHOT, BULK_UP, NIGHT_SLASH
+	tr_mon LEVEL_FROM_BADGES + 10, RATTATA @ PROTECT_PADS, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_moves PLAY_ROUGH, SLASH, BELLY_DRUM, NIGHT_SLASH
+	end_trainer
+
+	def_trainer BATTLE_GIRL_NACRENE_OUTSKIRT, "Sasha"
+	tr_mon 52, PRIMEAPE
+	tr_mon 55, RATTATA
+	tr_mon 54, RAPIDASH
+	end_trainer
+
+	def_trainer BATTLE_GIRL_R23, "Emy"
+	tr_mon LEVEL_FROM_BADGES + 8, PRIMEAPE @ PROTECT_PADS, FEMALE
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_moves TACKLE, GUNK_SHOT, BULK_UP, NIGHT_SLASH
+	tr_mon LEVEL_FROM_BADGES + 10, RATTATA @ PROTECT_PADS, MALE
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_moves PLAY_ROUGH, SLASH, BELLY_DRUM, NIGHT_SLASH
+	end_trainer
+
+	def_trainer BATTLE_GIRL_VICTORY_ROAD_EXT, "Sasha"
+	tr_mon 52, PRIMEAPE
+	tr_mon 55, RATTATA
+	tr_mon 54, RAPIDASH
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -4032,148 +4166,6 @@ SkierGroup:
 	tr_mon 37, LAPRAS, FEMALE
 	tr_mon 38, DEWGONG, FEMALE
 	tr_mon 38, NINETALES, FEMALE | ALOLAN_FORM
-	end_trainer
-
-
-SECTION "BlackbeltGroup", ROMX
-BlackbeltGroup:
-
-	def_trainer_class BLACKBELT_T
-	def_trainer KENJI1, "Kenji"
-	tr_mon 39, RATTATA
-	end_trainer
-
-;	; unused
-;	def_trainer KENJI2, "Kenji"
-;	tr_mon 36, ONIX
-;	tr_mon 38, RATTATA
-;	tr_mon 36, ONIX
-;	tr_mon 39, RATTATA
-;	end_trainer
-
-;	def_trainer KENJI3, "Kenji"
-;	tr_mon 33, ONIX
-;		tr_moves WRAP, ROCK_THROW, TOXIC, DIG
-;	tr_mon 38, RATTATA
-;		tr_moves HEADBUTT, SWAGGER, THUNDERPUNCH, BULLET_PUNCH
-;	tr_mon 33, STEELIX
-;		tr_moves EARTHQUAKE, ROCK_THROW, IRON_TAIL, SANDSTORM
-;	tr_mon 36, RATTATA
-;		tr_moves DOUBLE_TEAM, HI_JUMP_KICK, MUD_SLAP, SWIFT
-;	end_trainer
-
-	def_trainer YOSHI, "Yoshi"
-	tr_mon 27, "Bruce", RATTATA
-		tr_moves DOUBLE_KICK, BULK_UP, HI_JUMP_KICK, FOCUS_ENERGY
-	end_trainer
-
-	def_trainer LAO, "Lao"
-	tr_mon 27, "Jackie", RATTATA
-		tr_moves AERIAL_ACE, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH
-	end_trainer
-
-	def_trainer NOB, "Nob"
-	tr_mon 25, RATTATA
-		tr_moves LEER, FOCUS_ENERGY, BRICK_BREAK, SEISMIC_TOSS
-	tr_mon 25, RATTATA
-		tr_moves LEER, BRICK_BREAK, SEISMIC_TOSS, ROCK_SLIDE
-	end_trainer
-
-	def_trainer LUNG, "Lung"
-	tr_mon 23, MANKEY
-	tr_mon 23, MANKEY
-	tr_mon 25, PRIMEAPE
-	end_trainer
-
-	def_trainer WAI, "Wai"
-	tr_mon 46, RATTATA
-	tr_mon 48, RATTATA
-	tr_mon 50, RATTATA
-	end_trainer
-
-	def_trainer INIGO, "Inigo"
-	tr_mon 59, PRIMEAPE
-	tr_mon 59, PRIMEAPE
-	tr_mon 60, RATTATA
-	end_trainer
-
-	def_trainer MANFORD, "Manford"
-	tr_mon 63, POLIWRATH
-	end_trainer
-
-	def_trainer ANDER, "Ander"
-	tr_mon 61, PRIMEAPE
-	tr_mon 57, GRAVELER
-	tr_mon 62, RATTATA
-	end_trainer
-
-	def_trainer TAKEO, "Takeo"
-	tr_mon 52, RATTATA
-	tr_mon 54, HERACROSS
-	tr_mon 56, POLIWRATH
-	end_trainer
-
-	def_trainer RYLAN, "Rylan"
-	tr_mon 54, MAGMORTAR
-	tr_mon 52, ARCANINE
-	tr_mon 53, HOUNDOOM
-	end_trainer
-
-
-SECTION "BattleGirlGroup", ROMX
-BattleGirlGroup:
-
-	def_trainer_class BATTLE_GIRL
-	def_trainer SUBARU, "Subaru"
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, PRIMEAPE
-	end_trainer
-
-	def_trainer DIANE, "Diane"
-	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	end_trainer
-
-	def_trainer KAGAMI, "Kagami"
-	tr_mon LEVEL_FROM_BADGES + 5, PRIMEAPE
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
-	end_trainer
-
-	def_trainer NOZOMI, "Nozomi"
-	tr_mon 36, RATTATA
-	tr_mon 36, RATTATA
-	tr_mon 37, RATTATA
-	end_trainer
-
-	def_trainer RONDA, "Ronda"
-	tr_mon 37, RATTATA
-	tr_mon 39, RATTATA
-	tr_mon 38, RATTATA
-	end_trainer
-
-	def_trainer PADMA, "Padma"
-	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	end_trainer
-
-	def_trainer EMY, "Emy"
-	tr_mon LEVEL_FROM_BADGES + 8, PRIMEAPE @ PROTECT_PADS, FEMALE
-		tr_extra DEFIANT, ATK_UP_SATK_DOWN
-		tr_dvs 15 All
-		tr_moves TACKLE, GUNK_SHOT, BULK_UP, NIGHT_SLASH
-	tr_mon LEVEL_FROM_BADGES + 10, RATTATA @ PROTECT_PADS, MALE
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_dvs 15 All
-		tr_moves PLAY_ROUGH, SLASH, BELLY_DRUM, NIGHT_SLASH
-	end_trainer
-
-	def_trainer SASHA, "Sasha"
-	tr_mon 52, PRIMEAPE
-	tr_mon 55, RATTATA
-	tr_mon 54, RAPIDASH
 	end_trainer
 
 

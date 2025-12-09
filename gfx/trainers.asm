@@ -91,6 +91,12 @@ BackpackerFPic: INCBIN "gfx/trainers/backpacker_f.2bpp.lz"
 SECTION "BakerPic", ROMX
 BakerPic: INCBIN "gfx/trainers/baker.2bpp.lz"
 
+SECTION "BlackbeltTPic", ROMX
+BlackbeltTPic: INCBIN "gfx/trainers/blackbelt_t.2bpp.lz"
+
+SECTION "BattleGirlPic", ROMX
+BattleGirlPic: INCBIN "gfx/trainers/battle_girl.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -217,12 +223,6 @@ BoarderPic: INCBIN "gfx/trainers/boarder.2bpp.lz"
 
 SECTION "SkierPic", ROMX
 SkierPic: INCBIN "gfx/trainers/skier.2bpp.lz"
-
-SECTION "BlackbeltTPic", ROMX
-BlackbeltTPic: INCBIN "gfx/trainers/blackbelt_t.2bpp.lz"
-
-SECTION "BattleGirlPic", ROMX
-BattleGirlPic: INCBIN "gfx/trainers/battle_girl.2bpp.lz"
 
 SECTION "DragonTamerPic", ROMX
 DragonTamerPic: INCBIN "gfx/trainers/dragon_tamer.2bpp.lz"

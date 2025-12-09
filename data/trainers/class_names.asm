@@ -34,6 +34,8 @@ TrainerClassNames::
 	li "Backpacker"       ; BACKPACKER_M
 	li "Backpacker"       ; BACKPACKER_F
 	li "Baker"            ; BAKER
+	li "Black Belt"       ; BLACKBELT_T
+	li "Battle Girl"      ; BATTLE_GIRL
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
@@ -77,8 +79,6 @@ TrainerClassNames::
 	li "Scientist"        ; ROCKET_SCIENTIST
 	li "Boarder"          ; BOARDER
 	li "Skier"            ; SKIER
-	li "Black Belt"       ; BLACKBELT_T
-	li "Battle Girl"      ; BATTLE_GIRL
 	li "Dragon Tamer"     ; DRAGON_TAMER
 	li "Engineer"         ; ENGINEER
 	li "Teacher"          ; TEACHER_F

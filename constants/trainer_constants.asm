@@ -212,6 +212,30 @@ DEF CRYS EQU __trainer_class__
 	const BAKER_R5
 	const BAKER_R19
 
+	trainerclass BLACKBELT_T ; 23
+	const BLACKBELT_REVERSAL
+	const BLACKBELT_WELLSPRING_1
+	const BLACKBELT_WELLSPRING_2
+	const BLACKBELT_R1
+	const BLACKBELT_R18
+	const BLACKBELT_R21
+	const BLACKBELT_SEASIDE_CAVE_1
+	const BLACKBELT_SEASIDE_CAVE_2
+	const BLACKBELT_NACRENE_OUTSKIRT
+	const BLACKBELT_VICTORY_ROAD_EXT
+
+	trainerclass BATTLE_GIRL ; 24
+	const BATTLE_GIRL_REVERSAL
+	const BATTLE_GIRL_WELLSPRING
+	const BATTLE_GIRL_R1
+	const BATTLE_GIRL_R18
+	const BATTLE_GIRL_SEASIDE_CAVE_1
+	const BATTLE_GIRL_SEASIDE_CAVE_2
+	const BATTLE_GIRL_CHARGESTONE
+	const BATTLE_GIRL_NACRENE_OUTSKIRT
+	const BATTLE_GIRL_R23
+	const BATTLE_GIRL_VICTORY_ROAD_EXT
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -774,31 +798,6 @@ DEF CRYS EQU __trainer_class__
 	const CADY
 	const MARIA
 	const BECKY
-
-	trainerclass BLACKBELT_T ; 51
-	const KENJI1
-;	const KENJI2
-;	const KENJI3
-	const YOSHI
-	const LAO
-	const NOB
-	const LUNG
-	const WAI
-	const INIGO
-	const MANFORD
-	const ANDER
-	const TAKEO
-	const RYLAN
-
-	trainerclass BATTLE_GIRL ; 52
-	const SUBARU
-	const DIANE
-	const KAGAMI
-	const NOZOMI
-	const RONDA
-	const PADMA
-	const EMY
-	const SASHA
 
 	trainerclass DRAGON_TAMER ; 53
 	const PAUL

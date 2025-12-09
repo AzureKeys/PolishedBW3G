@@ -37,6 +37,8 @@ TrainerGroups:
 	dba BackpackerMGroup
 	dba BackpackerFGroup
 	dba BakerGroup
+	dba BlackbeltGroup
+	dba BattleGirlGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup
@@ -80,8 +82,6 @@ TrainerGroups:
 	dba RocketScientistGroup
 	dba BoarderGroup
 	dba SkierGroup
-	dba BlackbeltGroup
-	dba BattleGirlGroup
 	dba DragonTamerGroup
 	dba EngineerGroup
 	dba TeacherFGroup

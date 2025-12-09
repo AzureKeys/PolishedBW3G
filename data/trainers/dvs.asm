@@ -37,6 +37,8 @@ TrainerClassDVsAndPersonality:
 	db  32, $AA, $AA, $AA, MALE   ; backpackerm
 	db  32, $AA, $AA, $AA, FEMALE ; backpackerf
 	db  48, $CC, $CC, $CC, FEMALE ; baker
+	db  64, $FF, $DD, $DD, MALE   ; blackbelt
+	db  64, $FF, $DD, $DD, FEMALE ; battle girl
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper
@@ -80,8 +82,6 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, MALE   ; rocket scientist
 	db  56, $DD, $DD, $DD, MALE   ; boarder
 	db  56, $DD, $DD, $DD, FEMALE ; skier
-	db  64, $FF, $DD, $DD, MALE   ; blackbelt
-	db  64, $FF, $DD, $DD, FEMALE ; battle girl
 	db  72, $DF, $DF, $DD, MALE   ; dragon tamer
 	db  72, $DD, $DD, $DD, MALE   ; engineer
 	db  72, $DD, $DD, $DD, FEMALE ; teacher_f
