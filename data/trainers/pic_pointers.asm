@@ -29,6 +29,7 @@ TrainerPicPointers::
 	dba AceTrainermPic
 	dba AceTrainerfPic
 	dba AceTrainerfPic
+	dba ArtistPic
 	dba BugCatcherPic
 	dba CamperPic
 	dba PicnickerPic
@@ -87,7 +88,6 @@ TrainerPicPointers::
 	dba BikerPic
 	dba RoughneckPic
 	dba TamerPic
-	dba ArtistPic
 	dba AromaLadyPic
 	dba SoldierPic
 	dba WaiterPic

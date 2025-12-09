@@ -30,6 +30,7 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; ace_trainermD
 	db MUSIC_BEAUTY_ENCOUNTER ; ace_trainerf
 	db MUSIC_BEAUTY_ENCOUNTER ; ace_trainerfD
+	db MUSIC_BEAUTY_ENCOUNTER ; artist
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bug_catcher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; camper
 	db MUSIC_LASS_ENCOUNTER ; picnicker
@@ -88,7 +89,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; biker
 	db MUSIC_HIKER_ENCOUNTER ; roughneck
 	db MUSIC_HIKER_ENCOUNTER ; tamer
-	db MUSIC_BEAUTY_ENCOUNTER ; artist
 	db MUSIC_BEAUTY_ENCOUNTER ; aroma_lady
 	db MUSIC_HIKER_ENCOUNTER ; soldier
 	db MUSIC_HIKER_ENCOUNTER ; waiter

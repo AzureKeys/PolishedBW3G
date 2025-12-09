@@ -31,6 +31,7 @@ TrainerClassDVsAndPersonality:
 	db  64, $EE, $EE, $EE, MALE   ; ace trainermD
 	db  64, $EE, $EE, $EE, FEMALE ; ace trainerf
 	db  64, $EE, $EE, $EE, FEMALE ; ace trainerfD
+	db  72, $DD, $DD, $DD, MALE   ; artist
 	db   0, $66, $66, $66, MALE   ; bug catcher
 	db   8, $77, $77, $77, MALE   ; camper
 	db   8, $77, $77, $77, FEMALE ; picnicker
@@ -89,7 +90,6 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, MALE   ; biker
 	db  72, $DD, $DD, $DD, MALE   ; roughneck
 	db  72, $DD, $DD, $DD, MALE   ; tamer
-	db  72, $DD, $DD, $DD, FEMALE ; artist
 	db  72, $DD, $DD, $DD, FEMALE ; aroma lady
 	db  72, $DD, $DD, $DD, MALE   ; soldier
 	db  72, $DD, $DD, $DD, MALE   ; waiter

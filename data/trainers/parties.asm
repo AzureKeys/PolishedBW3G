@@ -806,6 +806,22 @@ AceTrainerFDGroup:
 	tr_mon 28, RATTATA
 	tr_mon 28, RATTATA
 	end_trainer
+
+
+SECTION "ArtistGroup", ROMX
+ArtistGroup:
+
+	def_trainer_class ARTIST
+	def_trainer ARTIST_R5, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer ARTIST_R3, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
 	
 
 SECTION "BugCatcherGroup", ROMX
@@ -4765,41 +4781,6 @@ TamerGroup:
 
 	def_trainer JORDAN, "Jordan"
 	tr_mon 50, RATTATA
-	end_trainer
-
-
-SECTION "ArtistGroup", ROMX
-ArtistGroup:
-
-	def_trainer_class ARTIST
-	def_trainer REINA, "Reina"
-	tr_mon 55, MR__MIME
-	tr_mon 55, SUDOWOODO
-	end_trainer
-
-
-	def_trainer ALINA, "Alina"
-	tr_mon 57, RATTATA @ MIRACLE_SEED
-		tr_dvs DVS_HP_GRASS ; green
-		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
-	end_trainer
-
-	def_trainer MARLENE, "Marlene"
-	tr_mon 55, RATTATA @ CHARCOAL
-		tr_dvs DVS_HP_FIRE ; red
-		tr_moves FIRE_BLAST, FLAMETHROWER, EARTH_POWER, WILL_O_WISP
-	tr_mon 55, RATTATA @ MAGNET
-		tr_dvs DVS_HP_ELECTRIC ; yellow
-		tr_moves THUNDER, THUNDERBOLT, THUNDER_WAVE, RAIN_DANCE
-	tr_mon 55, RATTATA @ MYSTIC_WATER
-		tr_dvs DVS_HP_WATER ; blue
-		tr_moves HYDRO_PUMP, SURF, ICE_BEAM, SCALD
-	end_trainer
-
-	def_trainer RIN, "Rin"
-	tr_mon 64, RATTATA @ TWISTEDSPOON
-		tr_dvs DVS_HP_PSYCHIC ; pink
-		tr_moves PSYCHIC_M, SPORE, CALM_MIND, RECOVER
 	end_trainer
 
 

@@ -31,6 +31,7 @@ TrainerGroups:
 	dba AceTrainerMDGroup
 	dba AceTrainerFGroup
 	dba AceTrainerFDGroup
+	dba ArtistGroup
 	dba BugCatcherGroup
 	dba CamperGroup
 	dba PicnickerGroup
@@ -89,7 +90,6 @@ TrainerGroups:
 	dba BikerGroup
 	dba RoughneckGroup
 	dba TamerGroup
-	dba ArtistGroup
 	dba AromaLadyGroup
 	dba SoldierGroup
 	dba WaiterGroup

@@ -167,6 +167,10 @@ DEF CRYS EQU __trainer_class__
 	const ACE_TRAINERF_VICTORY_ROAD_INT_2
 	const ACE_TRAINERF_VICTORY_ROAD_EXT_2
 
+	trainerclass ARTIST ; 23
+	const ARTIST_R5
+	const ARTIST_R3
+
 	trainerclass BUG_CATCHER ; 21
 	const WADE1
 	const WADE2
@@ -908,12 +912,6 @@ DEF CRYS EQU __trainer_class__
 	const VINCE
 	const OSWALD
 	const JORDAN
-
-	trainerclass ARTIST ; 5c
-	const REINA
-	const ALINA
-	const MARLENE
-	const RIN
 
 	trainerclass AROMA_LADY ; 5d
 	const DAHLIA

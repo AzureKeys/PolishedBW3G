@@ -28,6 +28,7 @@ TrainerClassNames::
 	li "Ace Trainer"      ; ACE_TRAINERM_D
 	li "Ace Trainer"      ; ACE_TRAINERF
 	li "Ace Trainer"      ; ACE_TRAINERF_D
+	li "Artist"           ; ARTIST
 	li "Bug Catcher"      ; BUG_CATCHER
 	li "Camper"           ; CAMPER
 	li "Picnicker"        ; PICNICKER
@@ -86,7 +87,6 @@ TrainerClassNames::
 	li "Biker"            ; BIKER
 	li "Roughneck"        ; ROUGHNECK
 	li "Tamer"            ; TAMER
-	li "Artist"           ; ARTIST
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER
 	li "Waiter"           ; WAITER

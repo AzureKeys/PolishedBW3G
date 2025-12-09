@@ -31,6 +31,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ACE_TRAINERM_D
 	dbit FEMALE_BIT ; ACE_TRAINERF
 	dbit FEMALE_BIT ; ACE_TRAINERF_D
+	dbit MALE_BIT   ; ARTIST
 	dbit MALE_BIT   ; BUG_CATCHER
 	dbit MALE_BIT   ; CAMPER
 	dbit FEMALE_BIT ; PICNICKER
@@ -89,7 +90,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; BIKER
 	dbit MALE_BIT   ; ROUGHNECK
 	dbit MALE_BIT   ; TAMER
-	dbit FEMALE_BIT ; ARTIST
 	dbit FEMALE_BIT ; AROMA_LADY
 	dbit MALE_BIT   ; SOLDIER
 	dbit MALE_BIT   ; WAITER
