@@ -102,42 +102,40 @@ DEF CRYS EQU __trainer_class__
 	const INFER7_TEPIG
 	const INFER7_OSHAWOTT
 
-	trainerclass LYRA1 ; 1e
-	const LYRA1_1
-	const LYRA1_2
-	const LYRA1_3
-	const LYRA1_4
-	const LYRA1_5
-	const LYRA1_6
-	const LYRA1_7
-	const LYRA1_8
-	const LYRA1_9
-	const LYRA1_10
-	const LYRA1_11
-	const LYRA1_12
+	trainerclass YOUNGSTER ; 15
+	const YOUNGSTER_R13
+	const YOUNGSTER_OUTSKIRTS
+	const YOUNGSTER_ASPERTIA_GYM
+	const YOUNGSTER_PINWHEEL
+	const YOUNGSTER_DREAMYARD
+	const DAN_REMATCH_1
+	const DAN_REMATCH_2
+	const DAN_REMATCH_3
+	const DAN_REMATCH_4
+	const DAN_REMATCH_5
+	const DAN_REMATCH_6
 
-	trainerclass LYRA2 ; 1f
+	trainerclass YOUNGSTER_D ; 16
+	const YOUNGSTER_LOSTLORN
+	const YOUNGSTER_DESERT
+	const YOUNGSTER_NACRENE_OUTSKIRT
+	const YOUNGSTER_R2
 
-	trainerclass YOUNGSTER ; 20
-	const JOEY1
-	const JOEY2
-	const JOEY3
-	const JOEY4
-	const JOEY5
-	const MIKEY
-	const ALBERT
-	const GORDON
-	const WARREN
-	const JIMMY
-	const OWEN
-	const JASON
-	const YOUNGSTER_JOSH
-	const REGIS
-	const ALFIE
-	const OLIVER
-	const CHAZ
-	const TYLER
-	const ARDEN
+	trainerclass LASS ; 17
+	const LASS_R13
+	const LASS_LOSTLORN
+	const LASS_DESERT
+	const LASS_NACRENE_OUTSKIRT
+	const LASS_CELESTIAL_TOWER
+
+	trainerclass LASS_D ; 18
+	const LASS_REVERSAL
+	const LASS_ASPERTIA_GYM
+	const LASS_PINWHEEL
+	const LASS_R2
+	const CARLA_REMATCH_1
+	const CARLA_REMATCH_2
+	const CARLA_REMATCH_3
 
 	trainerclass BUG_CATCHER ; 21
 	const WADE1
@@ -432,33 +430,6 @@ DEF CRYS EQU __trainer_class__
 	const FOOTE
 	const DAVE
 	const KOUTA
-
-	trainerclass LASS ; 32
-	const DANA1
-	const DANA2
-	const DANA3
-	const DANA4
-	const DANA5
-	const CATHY
-	const AMANDA
-	const KRISE
-	const CONNIE
-	const LINDA
-	const LAURA
-	const SHANNON
-	const MICHELLE
-	const ELLEN
-	const IRIS
-	const MIRIAM
-	const ABIGAIL
-	const LAYLA
-	const ROSE
-	const MEADOW
-	const JENNIFER
-	const GINA
-	const ALICE
-	const DUPLICA
-	const MAVIS
 
 	trainerclass BEAUTY ; 33
 	const VICTORIA

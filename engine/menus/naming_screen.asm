@@ -118,8 +118,8 @@ NamingScreen:
 	db "Your name?@"
 
 .Rival:
-	ld hl, RivalSpriteGFX
-	lb bc, BANK(RivalSpriteGFX), SPRITE_ANIM_INDEX_RED_WALK
+	ld hl, InferSpriteGFX
+	lb bc, BANK(InferSpriteGFX), SPRITE_ANIM_INDEX_RED_WALK
 	call .LoadSprite
 	hlcoord 5, 2
 	ld de, .RivalNameString

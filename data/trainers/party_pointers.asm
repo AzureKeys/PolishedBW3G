@@ -23,9 +23,10 @@ TrainerGroups:
 	dba Infer1Group
 	dba InferSageGroup
 	dba Infer2Group
-	dba Lyra1Group
-	dba Lyra2Group
 	dba YoungsterGroup
+	dba YoungsterDGroup
+	dba LassGroup
+	dba LassDGroup
 	dba BugCatcherGroup
 	dba CamperGroup
 	dba PicnickerGroup
@@ -43,7 +44,6 @@ TrainerGroups:
 	dba PokemaniacGroup
 	dba CosplayerGroup
 	dba SuperNerdGroup
-	dba LassGroup
 	dba BeautyGroup
 	dba BugManiacGroup
 	dba RuinManiacGroup

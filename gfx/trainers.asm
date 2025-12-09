@@ -61,14 +61,11 @@ InferSagePic: INCBIN "gfx/trainers/infer_sage.2bpp.lz"
 SECTION "Infer2Pic", ROMX
 Infer2Pic: INCBIN "gfx/trainers/infer2.2bpp.lz"
 
-SECTION "Lyra1Pic", ROMX
-Lyra1Pic: INCBIN "gfx/trainers/lyra1.2bpp.lz"
-
-SECTION "Lyra2Pic", ROMX
-Lyra2Pic: INCBIN "gfx/trainers/lyra2.2bpp.lz"
-
 SECTION "YoungsterPic", ROMX
 YoungsterPic: INCBIN "gfx/trainers/youngster.2bpp.lz"
+
+SECTION "LassPic", ROMX
+LassPic: INCBIN "gfx/trainers/lass.2bpp.lz"
 
 SECTION "BugCatcherPic", ROMX
 BugCatcherPic: INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
@@ -120,9 +117,6 @@ CosplayerPic: INCBIN "gfx/trainers/cosplayer.2bpp.lz"
 
 SECTION "SuperNerdPic", ROMX
 SuperNerdPic: INCBIN "gfx/trainers/super_nerd.2bpp.lz"
-
-SECTION "LassPic", ROMX
-LassPic: INCBIN "gfx/trainers/lass.2bpp.lz"
 
 SECTION "BeautyPic", ROMX
 BeautyPic: INCBIN "gfx/trainers/beauty.2bpp.lz"

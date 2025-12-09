@@ -1775,43 +1775,6 @@ Rival2_2FinalPkmnText:
 	line "got one left!"
 	prompt
 
-Lyra1_1FinalPkmnText:
-	text "You've never had a"
-	line "#mon battle"
-	cont "before, have you?"
-
-	para "I could explain,"
-	line "but you'll learn"
-
-	para "more from exper-"
-	line "ience."
-
-	para "Do your best,"
-	line "<PLAYER>!"
-	prompt
-
-Lyra1_2FinalPkmnText:
-	text "You're learning"
-	line "quickly, <PLAYER>!"
-	prompt
-
-Lyra1_3FinalPkmnText:
-	text "OK! Time for my"
-	line "last #mon!"
-	prompt
-
-Lyra1_4FinalPkmnText:
-	text "Whether I win or"
-	line "lose, this has"
-	cont "been fun!"
-	prompt
-
-Lyra2_1FinalPkmnText:
-	text "You've brought me"
-	line "down to my last"
-	cont "#mon…"
-	prompt
-
 Proton1FinalPkmnText:
 	text "Seriously, you'd"
 	line "chase me this far?"

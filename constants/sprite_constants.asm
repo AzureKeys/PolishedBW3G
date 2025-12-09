@@ -10,8 +10,6 @@
 	const SPRITE_KRIS_SURF ; 06
 	const SPRITE_MOM ; 07
 	const SPRITE_DAD ; 08
-	const SPRITE_LYRA ; 09
-	const SPRITE_RIVAL ; 0a
 	const SPRITE_MARLON ; 0b
 	const SPRITE_SHAUNTAL ; 0c
 	const SPRITE_BURGH ; 0d

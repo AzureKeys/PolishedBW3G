@@ -15,8 +15,6 @@ SpriteHeaders:
 	overworld_sprite KrisSurfSpriteGFX, WALKING_SPRITE, PAL_OW_RED_D
 	overworld_sprite MomSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite DadSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite LyraSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite RivalSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MarlonSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE_D
 	overworld_sprite ShauntalSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite BurghSpriteGFX, STANDING_SPRITE, PAL_OW_RED

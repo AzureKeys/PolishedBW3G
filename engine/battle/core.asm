@@ -7890,11 +7890,7 @@ BattleIntro:
 	ld [wBattleMenuCursorBuffer], a
 	xor a
 	ldh [hMapAnims], a
-	ld a, [wOtherTrainerClass]
-	cp LYRA2
-	jr z, .skip_music ; assume that the music is already playing
 	farcall PlayBattleMusic
-.skip_music
 	farcall ShowLinkBattleParticipants
 	farcall FindFirstAliveMonAndStartBattle
 	call DisableSpriteUpdates

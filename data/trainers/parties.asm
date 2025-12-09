@@ -408,194 +408,24 @@ Infer2Group:
 	end_trainer
 
 
-SECTION "Lyra1Group", ROMX
-Lyra1Group:
-
-	def_trainer_class LYRA1
-	def_trainer LYRA1_1, "Lyra"
-	tr_mon 5, "Chicory", RATTATA
-	end_trainer
-
-	def_trainer LYRA1_2, "Lyra"
-	tr_mon 5, "Cinder", RATTATA
-	end_trainer
-
-	def_trainer LYRA1_3, "Lyra"
-	tr_mon 5, "Toto", RATTATA
-	end_trainer
-
-	def_trainer LYRA1_4, "Lyra"
-	tr_mon 16, RATTATA
-		tr_evs 36 HP, 36 Spe
-		tr_moves TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
-	tr_mon 17, MARILL
-		tr_evs 72 Atk
-		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH ; default for level
-	tr_mon 15, MAREEP
-		tr_evs 36 HP, 36 SAt
-		tr_moves THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP, SPARK ; default for level
-	tr_mon 18, "Chicory", RATTATA @ ORAN_BERRY
-		tr_evs 72 HP
-		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
-	end_trainer
-
-	def_trainer LYRA1_5, "Lyra"
-	tr_mon 16, RATTATA
-		tr_evs 36 HP, 36 Spe
-	tr_mon 17, SUNKERN
-		tr_evs 36 SAt, 36 Spe
-	tr_mon 15, MAREEP
-		tr_evs 36 HP, 36 SAt
-	tr_mon 18, "Cinder", RATTATA @ ORAN_BERRY
-		tr_evs 72 Spe
-	end_trainer
-
-	def_trainer LYRA1_6, "Lyra"
-	tr_mon 16, RATTATA
-		tr_evs 36 HP, 36 Spe
-	tr_mon 17, GROWLITHE
-		tr_evs 36 HP, 36 Atk
-	tr_mon 15, MAREEP
-		tr_evs 36 HP, 36 SAt
-	tr_mon 18, "Toto", RATTATA @ ORAN_BERRY
-		tr_evs 72 Atk
-	end_trainer
-
-	def_trainer LYRA1_7, "Lyra"
-	tr_mon 33, RATTATA
-		tr_evs 100 HP, 100 Spe
-	tr_mon 34, GROWLITHE
-		tr_evs 100 HP, 100 Atk
-	tr_mon 34, AZUMARILL
-		tr_evs 200 Atk
-	tr_mon 32, FLAAFFY
-		tr_evs 100 HP, 100 SAt
-	tr_mon 37, "Chicory", RATTATA @ ORAN_BERRY
-		tr_evs 200 HP
-	end_trainer
-
-	def_trainer LYRA1_8, "Lyra"
-	tr_mon 33, RATTATA
-		tr_evs 100 HP, 100 Spe
-	tr_mon 34, SUNFLORA
-		tr_evs 100 SAt, 100 Spe
-	tr_mon 34, AZUMARILL
-		tr_evs 200 Atk
-	tr_mon 32, FLAAFFY
-		tr_evs 100 HP, 100 SAt
-	tr_mon 37, "Cinder", RATTATA @ ORAN_BERRY
-		tr_evs 200 Spe
-	end_trainer
-
-	def_trainer LYRA1_9, "Lyra"
-	tr_mon 33, RATTATA
-		tr_evs 100 HP, 100 Spe
-	tr_mon 34, SUNFLORA
-		tr_evs 100 SAt, 100 Spe
-	tr_mon 34, GROWLITHE
-		tr_evs 100 HP, 100 Atk
-	tr_mon 32, FLAAFFY
-		tr_evs 100 HP, 100 SAt
-	tr_mon 37, "Toto", RATTATA @ ORAN_BERRY
-		tr_evs 200 Atk
-	end_trainer
-
-	def_trainer LYRA1_10, "Lyra"
-	tr_mon 44, RATTATA
-		tr_evs 132 HP, 132 Spe
-	tr_mon 43, RATTATA
-		tr_evs 132 Atk, 132 Spe
-	tr_mon 45, ARCANINE
-		tr_evs 132 HP, 132 Atk
-	tr_mon 45, AZUMARILL
-		tr_evs 252 Atk, 12 Spe
-	tr_mon 46, AMPHAROS
-		tr_evs 132 HP, 132 SAt
-	tr_mon 47, "Chicory", RATTATA @ SITRUS_BERRY
-		tr_evs 252 HP, 12 SAt
-	end_trainer
-
-	def_trainer LYRA1_11, "Lyra"
-	tr_mon 44, RATTATA
-		tr_evs 132 HP, 132 Spe
-	tr_mon 43, RATTATA
-		tr_evs 132 Atk, 132 Spe
-	tr_mon 45, SUNFLORA
-		tr_evs 132 SAt, 132 Spe
-	tr_mon 45, AZUMARILL
-		tr_evs 252 Atk, 12 Spe
-	tr_mon 46, AMPHAROS
-		tr_evs 132 HP, 132 SAt
-	tr_mon 47, "Cinder", RATTATA @ SITRUS_BERRY
-		tr_evs 12 Atk, 252 Spe
-	end_trainer
-
-	def_trainer LYRA1_12, "Lyra"
-	tr_mon 44, RATTATA
-		tr_evs 132 HP, 132 Spe
-	tr_mon 43, RATTATA
-		tr_evs 132 Atk, 132 Spe
-	tr_mon 45, SUNFLORA
-		tr_evs 132 SAt, 132 Spe
-	tr_mon 45, ARCANINE
-		tr_evs 132 HP, 132 Atk
-	tr_mon 46, AMPHAROS
-		tr_evs 132 HP, 132 SAt
-	tr_mon 47, "Toto", RATTATA @ SITRUS_BERRY
-		tr_evs 252 Atk, 12 Spe
-	end_trainer
-
-
-SECTION "Lyra2Group", ROMX
-Lyra2Group:
-
-	def_trainer_class LYRA2
-	def_trainer 1, "Lyra"
-	tr_mon 69, RATTATA
-	tr_mon 70, ARCANINE
-	tr_mon 70, AZUMARILL
-	tr_mon 71, AMPHAROS
-	tr_mon 68, RATTATA
-	tr_mon 72, "Chicory", RATTATA @ SITRUS_BERRY
-	end_trainer
-
-	def_trainer 2, "Lyra"
-	tr_mon 69, RATTATA
-	tr_mon 70, SUNFLORA
-	tr_mon 70, AZUMARILL
-	tr_mon 71, AMPHAROS
-	tr_mon 68, RATTATA
-	tr_mon 72, "Cinder", RATTATA @ SITRUS_BERRY
-	end_trainer
-
-	def_trainer 3, "Lyra"
-	tr_mon 69, RATTATA
-	tr_mon 70, SUNFLORA
-	tr_mon 70, ARCANINE
-	tr_mon 71, AMPHAROS
-	tr_mon 68, RATTATA
-	tr_mon 72, "Toto", RATTATA @ SITRUS_BERRY
-	end_trainer
-
-
 SECTION "YoungsterGroup", ROMX
 YoungsterGroup:
 
 	def_trainer_class YOUNGSTER
-	def_trainer JOEY1, "Joey"
+	def_trainer YOUNGSTER_R13, "Dan"
 	tr_mon 5, RATTATA, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 	end_trainer
 
-	def_trainer JOEY2, "Joey"
+	def_trainer YOUNGSTER_OUTSKIRTS, ""
 	tr_mon 15, RATTATA @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_evs 48 Atk, 48 Spe
 	end_trainer
 
-	def_trainer JOEY3, "Joey"
+	def_trainer YOUNGSTER_ASPERTIA_GYM, ""
 	tr_mon 25, RATICATE @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -603,7 +433,7 @@ YoungsterGroup:
 		tr_moves LEER, QUICK_ATTACK, TACKLE, SCARY_FACE
 	end_trainer
 
-	def_trainer JOEY4, "Joey"
+	def_trainer YOUNGSTER_PINWHEEL, "Joey"
 	tr_mon 30, RATICATE @ SITRUS_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -611,7 +441,7 @@ YoungsterGroup:
 		tr_moves LEER, QUICK_ATTACK, TACKLE, PURSUIT
 	end_trainer
 
-	def_trainer JOEY5, "Joey"
+	def_trainer YOUNGSTER_DREAMYARD, "Joey"
 	tr_mon 40, RATICATE @ SITRUS_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -619,78 +449,164 @@ YoungsterGroup:
 		tr_moves HYPER_BEAM, QUICK_ATTACK, TACKLE, PURSUIT
 	end_trainer
 
-	def_trainer MIKEY, "Mikey"
+	def_trainer DAN_REMATCH_1, "Mikey"
 	tr_mon 2, RATTATA
 	tr_mon 4, RATTATA
 	end_trainer
 
-	def_trainer ALBERT, "Albert"
+	def_trainer DAN_REMATCH_2, "Albert"
 	tr_mon 8, RATTATA
 	tr_mon 10, ZUBAT
 	end_trainer
 
-	def_trainer GORDON, "Gordon"
+	def_trainer DAN_REMATCH_3, "Gordon"
 	tr_mon 11, RATTATA
 	end_trainer
 
-	def_trainer WARREN, "Warren"
+	def_trainer DAN_REMATCH_4, "Warren"
 	tr_mon 56, RATTATA
 	tr_mon 60, RATICATE
 	end_trainer
 
-	def_trainer JIMMY, "Jimmy"
+	def_trainer DAN_REMATCH_5, "Jimmy"
 	tr_mon 60, RATICATE
 	tr_mon 60, RATTATA
 	tr_mon 60, PARASECT
 	end_trainer
 
-	def_trainer OWEN, "Owen"
+	def_trainer DAN_REMATCH_6, "Owen"
 	tr_mon 53, GROWLITHE
 	tr_mon 54, GROWLITHE
 	end_trainer
 
-	def_trainer JASON, "Jason"
-	tr_mon 55, SANDSLASH
-	tr_mon 55, CROBAT
+
+SECTION "YoungsterDGroup", ROMX
+YoungsterDGroup:
+
+	def_trainer_class YOUNGSTER_D
+	def_trainer YOUNGSTER_LOSTLORN, "Dan"
+	tr_mon 5, RATTATA, MALE
+		tr_extra GUTS, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
 	end_trainer
 
-	def_trainer YOUNGSTER_JOSH, "Josh"
-	tr_mon 60, RATICATE
-	tr_mon 62, GOLBAT
-	tr_mon 60, RATICATE
+	def_trainer YOUNGSTER_DESERT, ""
+	tr_mon 15, RATTATA @ ORAN_BERRY, MALE
+		tr_extra GUTS, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_evs 48 Atk, 48 Spe
 	end_trainer
 
-	def_trainer REGIS, "Regis"
-	tr_mon 58, GOLBAT
-	tr_mon 58, RATTATA
+	def_trainer YOUNGSTER_NACRENE_OUTSKIRT, ""
+	tr_mon 25, RATICATE @ ORAN_BERRY, MALE
+		tr_extra GUTS, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_evs 80 Atk, 80 Spe
+		tr_moves LEER, QUICK_ATTACK, TACKLE, SCARY_FACE
 	end_trainer
 
-	def_trainer ALFIE, "Alfie"
-	tr_mon 54, SANDSLASH
-	tr_mon 55, RATTATA
+	def_trainer YOUNGSTER_R2, "Joey"
+	tr_mon 30, RATICATE @ SITRUS_BERRY, MALE
+		tr_extra GUTS, ATK_UP_SATK_DOWN
+		tr_dvs 15 All
+		tr_evs 112 Atk, 112 Spe
+		tr_moves LEER, QUICK_ATTACK, TACKLE, PURSUIT
 	end_trainer
 
-	def_trainer OLIVER, "Oliver"
-	tr_mon 54, GOLBAT
-	tr_mon 54, RATICATE
+
+SECTION "LassGroup", ROMX
+LassGroup:
+
+	def_trainer_class LASS
+	def_trainer LASS_R13, "Dana"
+	tr_mon 19, FLAAFFY
+		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
+	tr_mon 19, PSYDUCK
+		tr_moves TACKLE, LEER, DISABLE, CONFUSION
 	end_trainer
 
-	def_trainer CHAZ, "Chaz"
-	tr_mon 54, SANDSHREW
-	tr_mon 55, RATICATE
+	def_trainer LASS_LOSTLORN, "Dana"
+	tr_mon 21, FLAAFFY
+		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
+	tr_mon 21, PSYDUCK
+		tr_moves TACKLE, LEER, DISABLE, CONFUSION
 	end_trainer
 
-	def_trainer TYLER, "Tyler"
-	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, SANDSLASH
+	def_trainer LASS_DESERT, "Dana"
+	tr_mon 29, PSYDUCK
+		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
+	tr_mon 29, FLAAFFY
+		tr_moves TACKLE, THUNDERSHOCK, THUNDER_WAVE, THUNDERBOLT
 	end_trainer
 
-	def_trainer ARDEN, "Arden"
-	tr_mon 55, FLAREON
-	tr_mon 53, RATTATA
-	tr_mon 55, RAPIDASH
+	def_trainer LASS_NACRENE_OUTSKIRT, "Dana"
+	tr_mon 32, PSYDUCK
+		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
+	tr_mon 32, FLAAFFY
+		tr_moves TACKLE, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
 	end_trainer
+
+	def_trainer LASS_CELESTIAL_TOWER, "Dana"
+	tr_mon 36, AMPHAROS
+		tr_moves SWIFT, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
+	tr_mon 36, GOLDUCK
+		tr_moves DISABLE, SURF, PSYCHIC_M, SCREECH
+	end_trainer
+
+
+SECTION "LassDGroup", ROMX
+LassDGroup:
+
+	def_trainer_class LASS_D
+	def_trainer LASS_REVERSAL, "Dana"
+	tr_mon 19, FLAAFFY
+		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
+	tr_mon 19, PSYDUCK
+		tr_moves TACKLE, LEER, DISABLE, CONFUSION
+	end_trainer
+
+	def_trainer LASS_ASPERTIA_GYM, "Dana"
+	tr_mon 21, FLAAFFY
+		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
+	tr_mon 21, PSYDUCK
+		tr_moves TACKLE, LEER, DISABLE, CONFUSION
+	end_trainer
+
+	def_trainer LASS_PINWHEEL, "Dana"
+	tr_mon 29, PSYDUCK
+		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
+	tr_mon 29, FLAAFFY
+		tr_moves TACKLE, THUNDERSHOCK, THUNDER_WAVE, THUNDERBOLT
+	end_trainer
+
+	def_trainer LASS_R2, "Dana"
+	tr_mon 32, PSYDUCK
+		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
+	tr_mon 32, FLAAFFY
+		tr_moves TACKLE, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
+	end_trainer
+
+	def_trainer CARLA_REMATCH_1, "Dana"
+	tr_mon 36, AMPHAROS
+		tr_moves SWIFT, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
+	tr_mon 36, GOLDUCK
+		tr_moves DISABLE, SURF, PSYCHIC_M, SCREECH
+	end_trainer
+
+	def_trainer CARLA_REMATCH_2, "Dana"
+	tr_mon 36, AMPHAROS
+		tr_moves SWIFT, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
+	tr_mon 36, GOLDUCK
+		tr_moves DISABLE, SURF, PSYCHIC_M, SCREECH
+	end_trainer
+
+	def_trainer CARLA_REMATCH_3, "Dana"
+	tr_mon 36, AMPHAROS
+		tr_moves SWIFT, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
+	tr_mon 36, GOLDUCK
+		tr_moves DISABLE, SURF, PSYCHIC_M, SCREECH
+	end_trainer
+	
 
 SECTION "BugCatcherGroup", ROMX
 BugCatcherGroup:
@@ -2401,175 +2317,6 @@ SuperNerdGroup:
 	tr_mon 54, CROBAT
 	tr_mon 53, POLITOED
 	tr_mon 56, RATTATA
-	end_trainer
-
-
-SECTION "LassGroup", ROMX
-LassGroup:
-
-	def_trainer_class LASS
-	def_trainer DANA1, "Dana"
-	tr_mon 19, FLAAFFY
-		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
-	tr_mon 19, PSYDUCK
-		tr_moves TACKLE, LEER, DISABLE, CONFUSION
-	end_trainer
-
-	def_trainer DANA2, "Dana"
-	tr_mon 21, FLAAFFY
-		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
-	tr_mon 21, PSYDUCK
-		tr_moves TACKLE, LEER, DISABLE, CONFUSION
-	end_trainer
-
-	def_trainer DANA3, "Dana"
-	tr_mon 29, PSYDUCK
-		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
-	tr_mon 29, FLAAFFY
-		tr_moves TACKLE, THUNDERSHOCK, THUNDER_WAVE, THUNDERBOLT
-	end_trainer
-
-	def_trainer DANA4, "Dana"
-	tr_mon 32, PSYDUCK
-		tr_moves TACKLE, DISABLE, CONFUSION, SCREECH
-if DEF(FAITHFUL)
-	tr_mon 32, FLAAFFY
-		tr_moves TACKLE, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
-else
-	tr_mon 32, AMPHAROS
-		tr_moves TACKLE, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
-endc
-	end_trainer
-
-	def_trainer DANA5, "Dana"
-	tr_mon 36, AMPHAROS
-		tr_moves SWIFT, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
-	tr_mon 36, GOLDUCK
-		tr_moves DISABLE, SURF, PSYCHIC_M, SCREECH
-	end_trainer
-
-	def_trainer CATHY, "Cathy"
-	tr_mon 18, SNUBBULL
-		tr_moves SCARY_FACE, CHARM, BITE, LICK
-	end_trainer
-
-	def_trainer AMANDA, "Amanda"
-	tr_mon 57, RATTATA
-	tr_mon 60, RATTATA
-	tr_mon 57, RATTATA
-	end_trainer
-
-	def_trainer KRISE, "Krise"
-	tr_mon 14, RATTATA
-	tr_mon 17, RATTATA
-	end_trainer
-
-	def_trainer CONNIE, "Connie"
-	tr_mon 20, AZUMARILL
-	tr_mon 21, MAGNETON
-	end_trainer
-
-	def_trainer LINDA, "Linda"
-	tr_mon 57, RATTATA
-	tr_mon 59, RATTATA
-	tr_mon 61, RATTATA
-	end_trainer
-
-	def_trainer LAURA, "Laura"
-	tr_mon 52, RATTATA @ SITRUS_BERRY
-	tr_mon 54, RATTATA
-	tr_mon 54, RATTATA
-	end_trainer
-
-	def_trainer SHANNON, "Shannon"
-	tr_mon 53, PARAS
-	tr_mon 53, PARAS
-	tr_mon 55, PARASECT
-	end_trainer
-
-	def_trainer MICHELLE, "Michelle"
-	tr_mon 56, LEAFEON
-	tr_mon 57, TANGELA
-	tr_mon 58, RATTATA
-	end_trainer
-
-	def_trainer ELLEN, "Ellen"
-	tr_mon 52, WIGGLYTUFF
-	tr_mon 54, GRANBULL
-	end_trainer
-
-	def_trainer IRIS, "Iris"
-	tr_mon 59, RATTATA
-	tr_mon 59, TANGELA
-	tr_mon 60, JIGGLYPUFF
-	tr_mon 61, RATTATA
-	end_trainer
-
-	def_trainer MIRIAM, "Miriam"
-	tr_mon 59, CLEFAIRY
-	tr_mon 61, CLEFABLE
-	tr_mon 59, JIGGLYPUFF
-	tr_mon 61, WIGGLYTUFF
-	end_trainer
-
-	def_trainer ABIGAIL, "Abigail"
-	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 4, FLAAFFY
-	tr_mon LEVEL_FROM_BADGES + 5, GOLDUCK
-	end_trainer
-
-	def_trainer LAYLA, "Layla"
-	tr_mon LEVEL_FROM_BADGES + 5, CLEFAIRY
-	tr_mon LEVEL_FROM_BADGES + 5, TOGETIC
-	end_trainer
-
-	def_trainer ROSE, "Rose"
-	tr_mon LEVEL_FROM_BADGES + 2, ESPEON, FEMALE
-		tr_extra SHINY
-	tr_mon LEVEL_FROM_BADGES + 2, TOGETIC, FEMALE
-	end_trainer
-
-	def_trainer MEADOW, "Meadow"
-	tr_mon 53, MEOWTH
-	tr_mon 53, MEOWTH
-	tr_mon 55, PERSIAN
-	end_trainer
-
-	def_trainer JENNIFER, "Jennifer"
-	tr_mon 52, CLEFAIRY
-	tr_mon 52, MARILL
-	tr_mon 54, CLEFABLE
-	tr_mon 54, AZUMARILL
-	end_trainer
-
-	def_trainer GINA, "Gina"
-	tr_mon 63, RAICHU @ LEFTOVERS
-		tr_moves THUNDERBOLT, SURF, THUNDER_WAVE, SUBSTITUTE
-	end_trainer
-
-
-	def_trainer ALICE, "Alice"
-	tr_mon 60, "VuiVui", EEVEE @ EVIOLITE, FEMALE
-		tr_extra SPE_UP_DEF_DOWN
-		tr_moves RETURN, SHADOW_BALL, PROTECT, ATTRACT
-	tr_mon 61, "Eon", UMBREON @ LEFTOVERS, MALE
-		tr_extra SDEF_UP_SATK_DOWN
-		tr_moves CHARM, REST, TOXIC, PURSUIT
-	tr_mon 61, "Vee", ESPEON @ SHELL_BELL, MALE
-		tr_extra SATK_UP_ATK_DOWN
-		tr_moves PSYCHIC_M, HEALINGLIGHT, GROWTH, BITE
-	end_trainer
-
-	def_trainer DUPLICA, "Duplica"
-	tr_mon LEVEL_FROM_BADGES + 7, DITTO @ METAL_POWDER
-	tr_mon LEVEL_FROM_BADGES + 8, DITTO @ QUICK_POWDER
-	tr_mon LEVEL_FROM_BADGES + 9, DITTO @ FOCUS_SASH
-	end_trainer
-
-	def_trainer MAVIS, "Mavis"
-	tr_mon 55, TOGEKISS
-	tr_mon 53, JOLTEON
-	tr_mon 52, AMPHAROS
 	end_trainer
 
 

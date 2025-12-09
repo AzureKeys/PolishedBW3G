@@ -587,11 +587,6 @@ GetPlayerOrMonPalettePointer:
 	and a
 	jr nz, GetMonNormalOrShinyPalettePointer
 
-	ld hl, Lyra1Palette
-	ld a, [wBattleType]
-	cp BATTLETYPE_TUTORIAL
-	ret z
-
 	ld a, [wPlayerGender]
 	ld hl, ChrisPalette
 	and a ; PLAYER_MALE

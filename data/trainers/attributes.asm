@@ -122,22 +122,28 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_SMART + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
-; Lyra1
-	db 0, 0 ; items
-	db 15 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_SMART + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_CAUTIOUS + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Lyra2
-	db FULL_RESTORE, 0 ; items
-	db 25 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_SMART + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_CAUTIOUS + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Youngster
 	db 0, 0 ; items
 	db 4 ; base reward
 	dw AI_BASIC + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; YoungsterD
+	db 0, 0 ; items
+	db 4 ; base reward
+	dw AI_BASIC + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Lass
+	db 0, 0 ; items
+	db 15 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; LassD
+	db 0, 0 ; items
+	db 15 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
 ; Bug Catcher
@@ -241,12 +247,6 @@ TrainerClassAttributes:
 	db 13 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_SMART + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Lass
-	db 0, 0 ; items
-	db 15 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
 
 ; Beauty
 	db 0, 0 ; items

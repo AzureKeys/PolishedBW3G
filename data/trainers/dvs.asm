@@ -23,9 +23,10 @@ TrainerClassDVsAndPersonality:
 	db 144, PERFECT_DVS,   FEMALE ; infer1
 	db 252, PERFECT_DVS,   FEMALE ; infer sage
 	db 252, PERFECT_DVS,   FEMALE ; infer2
-	db   0, $BB, $BB, $BB, FEMALE ; lyra1
-	db 252, $BB, $BB, $BB, FEMALE ; lyra2
 	db   0, $66, $66, $66, MALE   ; youngster
+	db   0, $66, $66, $66, MALE   ; youngsterD
+	db  40, $BB, $BB, $BB, FEMALE ; lass
+	db  40, $BB, $BB, $BB, FEMALE ; lassD
 	db   0, $66, $66, $66, MALE   ; bug catcher
 	db   8, $77, $77, $77, MALE   ; camper
 	db   8, $77, $77, $77, FEMALE ; picnicker
@@ -43,7 +44,6 @@ TrainerClassDVsAndPersonality:
 	db  40, $BB, $BB, $BB, MALE   ; pokemaniac
 	db  40, $BB, $BB, $BB, FEMALE ; cosplayer
 	db  40, $BB, $BB, $BB, MALE   ; super nerd
-	db  40, $BB, $BB, $BB, FEMALE ; lass
 	db  48, $CC, $CC, $CC, FEMALE ; beauty
 	db  48, $CC, $CC, $CC, MALE   ; bug maniac
 	db  48, $CC, $CC, $CC, MALE   ; ruin maniac

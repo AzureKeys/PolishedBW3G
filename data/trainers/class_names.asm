@@ -20,9 +20,10 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; INFER1
 	li "Pzma Sage"        ; INFER_SAGE
 	li "<PK><MN> Trainer" ; INFER2
-	li "<PK><MN> Trainer" ; LYRA1
-	li "<PK><MN> Trainer" ; LYRA2
 	li "Youngster"        ; YOUNGSTER
+	li "Youngster"        ; YOUNGSTER_D
+	li "Lass"             ; LASS
+	li "Lass"             ; LASS_D
 	li "Bug Catcher"      ; BUG_CATCHER
 	li "Camper"           ; CAMPER
 	li "Picnicker"        ; PICNICKER
@@ -40,7 +41,6 @@ TrainerClassNames::
 	li "#Maniac"          ; POKEMANIAC
 	li "Cosplayer"        ; COSPLAYER
 	li "Super Nerd"       ; SUPER_NERD
-	li "Lass"             ; LASS
 	li "Beauty"           ; BEAUTY
 	li "Bug Maniac"       ; BUG_MANIAC
 	li "Ruin Maniac"      ; RUIN_MANIAC

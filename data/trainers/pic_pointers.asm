@@ -21,9 +21,10 @@ TrainerPicPointers::
 	dba Infer1Pic
 	dba InferSagePic
 	dba Infer2Pic
-	dba Lyra1Pic
-	dba Lyra2Pic
 	dba YoungsterPic
+	dba YoungsterPic
+	dba LassPic
+	dba LassPic
 	dba BugCatcherPic
 	dba CamperPic
 	dba PicnickerPic
@@ -41,7 +42,6 @@ TrainerPicPointers::
 	dba PokemaniacPic
 	dba CosplayerPic
 	dba SuperNerdPic
-	dba LassPic
 	dba BeautyPic
 	dba BugManiacPic
 	dba RuinManiacPic
