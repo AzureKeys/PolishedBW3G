@@ -25,6 +25,10 @@ TrainerPicPointers::
 	dba YoungsterPic
 	dba LassPic
 	dba LassPic
+	dba AceTrainermPic
+	dba AceTrainermPic
+	dba AceTrainerfPic
+	dba AceTrainerfPic
 	dba BugCatcherPic
 	dba CamperPic
 	dba PicnickerPic
@@ -91,8 +95,6 @@ TrainerPicPointers::
 	dba SightseermPic
 	dba SightseerfPic
 	dba SightseersPic
-	dba CooltrainermPic
-	dba CooltrainerfPic
 	dba AceDuoPic
 	dba VeteranmPic
 	dba VeteranfPic

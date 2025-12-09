@@ -27,6 +27,10 @@ TrainerGroups:
 	dba YoungsterDGroup
 	dba LassGroup
 	dba LassDGroup
+	dba AceTrainerMGroup
+	dba AceTrainerMDGroup
+	dba AceTrainerFGroup
+	dba AceTrainerFDGroup
 	dba BugCatcherGroup
 	dba CamperGroup
 	dba PicnickerGroup
@@ -93,8 +97,6 @@ TrainerGroups:
 	dba SightseerMGroup
 	dba SightseerFGroup
 	dba SightseersGroup
-	dba CooltrainerMGroup
-	dba CooltrainerFGroup
 	dba AceDuoGroup
 	dba VeteranMGroup
 	dba VeteranFGroup

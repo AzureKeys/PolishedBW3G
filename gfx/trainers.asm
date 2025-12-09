@@ -67,6 +67,12 @@ YoungsterPic: INCBIN "gfx/trainers/youngster.2bpp.lz"
 SECTION "LassPic", ROMX
 LassPic: INCBIN "gfx/trainers/lass.2bpp.lz"
 
+SECTION "AceTrainermPic", ROMX
+AceTrainermPic: INCBIN "gfx/trainers/ace_trainer_m.2bpp.lz"
+
+SECTION "AceTrainerfPic", ROMX
+AceTrainerfPic: INCBIN "gfx/trainers/ace_trainer_f.2bpp.lz"
+
 SECTION "BugCatcherPic", ROMX
 BugCatcherPic: INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 
@@ -262,12 +268,6 @@ SightseerfPic: INCBIN "gfx/trainers/sightseer_f.2bpp.lz"
 
 SECTION "SightseersPic", ROMX
 SightseersPic: INCBIN "gfx/trainers/sightseers.2bpp.lz"
-
-SECTION "CooltrainermPic", ROMX
-CooltrainermPic: INCBIN "gfx/trainers/cooltrainer_m.2bpp.lz"
-
-SECTION "CooltrainerfPic", ROMX
-CooltrainerfPic: INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
 
 SECTION "AceDuoPic", ROMX
 AceDuoPic: INCBIN "gfx/trainers/ace_duo.2bpp.lz"

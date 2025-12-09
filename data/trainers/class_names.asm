@@ -24,6 +24,10 @@ TrainerClassNames::
 	li "Youngster"        ; YOUNGSTER_D
 	li "Lass"             ; LASS
 	li "Lass"             ; LASS_D
+	li "Ace Trainer"      ; ACE_TRAINERM
+	li "Ace Trainer"      ; ACE_TRAINERM_D
+	li "Ace Trainer"      ; ACE_TRAINERF
+	li "Ace Trainer"      ; ACE_TRAINERF_D
 	li "Bug Catcher"      ; BUG_CATCHER
 	li "Camper"           ; CAMPER
 	li "Picnicker"        ; PICNICKER
@@ -90,8 +94,6 @@ TrainerClassNames::
 	li "Sightseer"        ; SIGHTSEERM
 	li "Sightseer"        ; SIGHTSEERF
 	li "Sightseers"       ; SIGHTSEERS
-	li "Ace Trainer"      ; COOLTRAINERM
-	li "Ace Trainer"      ; COOLTRAINERF
 	li "Ace Duo"          ; ACE_DUO
 	li "Veteran"          ; VETERANM
 	li "Veteran"          ; VETERANF

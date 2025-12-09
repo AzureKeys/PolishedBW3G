@@ -137,6 +137,36 @@ DEF CRYS EQU __trainer_class__
 	const CARLA_REMATCH_2
 	const CARLA_REMATCH_3
 
+	trainerclass ACE_TRAINERM ; 19
+	const ACE_TRAINERM_PWT
+	const ACE_TRAINERM_CHARGESTONE_1
+	const ACE_TRAINERM_MISTRALTON_CAVE
+	const ACE_TRAINERM_R23_1
+	const ACE_TRAINERM_VICTORY_ROAD_INT_1
+	const ACE_TRAINERM_VICTORY_ROAD_EXT_1
+
+	trainerclass ACE_TRAINERM_D ; 20
+	const ACE_TRAINERM_GIANT_CHASM
+	const ACE_TRAINERM_CHARGESTONE_2
+	const ACE_TRAINERM_R23_2
+	const ACE_TRAINERM_VICTORY_ROAD_INT_2
+	const ACE_TRAINERM_VICTORY_ROAD_EXT_2
+
+	trainerclass ACE_TRAINERF ; 21
+	const ACE_TRAINERF_CHARGESTONE_1
+	const ACE_TRAINERF_MISTRALTON_CAVE
+	const ACE_TRAINERF_R23_2
+	const ACE_TRAINERF_VICTORY_ROAD_INT_1
+	const ACE_TRAINERF_VICTORY_ROAD_EXT_1
+
+	trainerclass ACE_TRAINERF_D ; 22
+	const ACE_TRAINERF_GIANT_CHASM
+	const ACE_TRAINERF_PWT
+	const ACE_TRAINERF_CHARGESTONE_2
+	const ACE_TRAINERF_R23_1
+	const ACE_TRAINERF_VICTORY_ROAD_INT_2
+	const ACE_TRAINERF_VICTORY_ROAD_EXT_2
+
 	trainerclass BUG_CATCHER ; 21
 	const WADE1
 	const WADE2
@@ -918,58 +948,6 @@ DEF CRYS EQU __trainer_class__
 	const LIANDSU2
 	const CYANDVI1
 	const CYANDVI2
-
-	trainerclass COOLTRAINERM ; 64
-	const GAVEN1
-	const GAVEN2
-	const GAVEN3
-	const NICK
-	const AARON
-	const CODY
-	const MIKE
-	const RYAN
-	const BLAKE
-	const ANDY
-	const SEAN
-	const KEVIN
-	const ALLEN
-	const FRENCH
-	const HENRI
-	const CONNOR
-	const KIERAN
-	const FINCH
-	const PETRIE
-	const COOLTRAINERM_COREY
-	const COOLTRAINERM_RAYMOND
-	const FERGUS
-	const DARIC
-
-	trainerclass COOLTRAINERF ; 65
-	const BETH1
-	const BETH2
-	const BETH3
-	const REENA1
-	const REENA2
-	const REENA3
-	const GWEN
-	const LOIS
-	const FRAN
-	const LOLA
-	const KATE
-	const IRENE
-	const KELLY
-	const JOYCE
-	const MEGAN
-	const CAROL
-	const QUINN
-	const EMMA
-	const CYBIL
-	const JENN
-	const SALMA
-	const BONITA
-	const SERA
-	const NEESHA
-	const CHIARA
 
 	trainerclass ACE_DUO ; 66
 	const ELANANDIDA1

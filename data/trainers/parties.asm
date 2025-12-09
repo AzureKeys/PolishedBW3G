@@ -606,6 +606,206 @@ LassDGroup:
 	tr_mon 36, GOLDUCK
 		tr_moves DISABLE, SURF, PSYCHIC_M, SCREECH
 	end_trainer
+
+
+SECTION "AceTrainerMGroup", ROMX
+AceTrainerMGroup:
+
+	def_trainer_class ACE_TRAINERM
+	def_trainer ACE_TRAINERM_PWT, "Gaven"
+	tr_mon 39, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 39, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 39, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERM_CHARGESTONE_1, "Gaven"
+	tr_mon 41, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 41, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 41, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERM_MISTRALTON_CAVE, "Gaven"
+	tr_mon 45, RATTATA
+		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
+	tr_mon 45, RATTATA @ KINGS_ROCK
+		tr_moves SURF, STOMP, DIG, BLIZZARD
+	tr_mon 45, FLAREON
+		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERM_R23_1, "Nick"
+	tr_mon 26, RATTATA
+		tr_moves EMBER, TACKLE, THRASH, SCARY_FACE
+	tr_mon 26, RATTATA
+		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
+	tr_mon 26, RATTATA
+		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
+	end_trainer
+
+	def_trainer ACE_TRAINERM_VICTORY_ROAD_INT_1, "Aaron"
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	end_trainer
+
+	def_trainer ACE_TRAINERM_VICTORY_ROAD_EXT_1, "Cody"
+	tr_mon 36, HORSEA
+	tr_mon 37, SEADRA
+	tr_mon 38, YANMA
+	end_trainer
+
+
+SECTION "AceTrainerMDGroup", ROMX
+AceTrainerMDGroup:
+
+	def_trainer_class ACE_TRAINERM_D
+	def_trainer ACE_TRAINERM_GIANT_CHASM, "Gaven"
+	tr_mon 39, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 39, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 39, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERM_CHARGESTONE_2, "Gaven"
+	tr_mon 41, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 41, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 41, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERM_R23_2, "Nick"
+	tr_mon 26, RATTATA
+		tr_moves EMBER, TACKLE, THRASH, SCARY_FACE
+	tr_mon 26, RATTATA
+		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
+	tr_mon 26, RATTATA
+		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
+	end_trainer
+
+	def_trainer ACE_TRAINERM_VICTORY_ROAD_INT_2, "Aaron"
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	end_trainer
+
+	def_trainer ACE_TRAINERM_VICTORY_ROAD_EXT_2, "Cody"
+	tr_mon 36, HORSEA
+	tr_mon 37, SEADRA
+	tr_mon 38, YANMA
+	end_trainer
+
+
+SECTION "AceTrainerFGroup", ROMX
+AceTrainerFGroup:
+
+	def_trainer_class ACE_TRAINERF
+	def_trainer ACE_TRAINERF_CHARGESTONE_1, "Gaven"
+	tr_mon 39, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 39, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 39, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_MISTRALTON_CAVE, "Gaven"
+	tr_mon 41, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 41, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 41, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_R23_2, "Gaven"
+	tr_mon 45, RATTATA
+		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
+	tr_mon 45, RATTATA @ KINGS_ROCK
+		tr_moves SURF, STOMP, DIG, BLIZZARD
+	tr_mon 45, FLAREON
+		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_VICTORY_ROAD_INT_1, "Nick"
+	tr_mon 26, RATTATA
+		tr_moves EMBER, TACKLE, THRASH, SCARY_FACE
+	tr_mon 26, RATTATA
+		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
+	tr_mon 26, RATTATA
+		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
+	end_trainer
+
+	def_trainer ACE_TRAINERF_VICTORY_ROAD_EXT_1, "Aaron"
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	end_trainer
+
+
+SECTION "AceTrainerFDGroup", ROMX
+AceTrainerFDGroup:
+
+	def_trainer_class ACE_TRAINERF_D
+	def_trainer ACE_TRAINERF_GIANT_CHASM, "Gaven"
+	tr_mon 39, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 39, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 39, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_PWT, "Gaven"
+	tr_mon 41, RATTATA
+		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
+	tr_mon 41, RATTATA
+		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
+	tr_mon 41, FLAREON
+		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_CHARGESTONE_2, "Gaven"
+	tr_mon 45, RATTATA
+		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
+	tr_mon 45, RATTATA @ KINGS_ROCK
+		tr_moves SURF, STOMP, DIG, BLIZZARD
+	tr_mon 45, FLAREON
+		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_R23_1, "Gaven"
+	tr_mon 45, RATTATA
+		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
+	tr_mon 45, RATTATA @ KINGS_ROCK
+		tr_moves SURF, STOMP, DIG, BLIZZARD
+	tr_mon 45, FLAREON
+		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
+	end_trainer
+
+	def_trainer ACE_TRAINERF_VICTORY_ROAD_INT_2, "Nick"
+	tr_mon 26, RATTATA
+		tr_moves EMBER, TACKLE, THRASH, SCARY_FACE
+	tr_mon 26, RATTATA
+		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
+	tr_mon 26, RATTATA
+		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
+	end_trainer
+
+	def_trainer ACE_TRAINERF_VICTORY_ROAD_EXT_2, "Aaron"
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	tr_mon 28, RATTATA
+	end_trainer
 	
 
 SECTION "BugCatcherGroup", ROMX
@@ -4739,394 +4939,6 @@ SightseersGroup:
 	def_trainer CYANDVI2, "Cy & Vi"
 	tr_mon 64, RATTATA, FEMALE
 	tr_mon 64, MR__MIME, MALE
-	end_trainer
-
-
-SECTION "CooltrainerMGroup", ROMX
-CooltrainerMGroup:
-
-	def_trainer_class COOLTRAINERM
-	def_trainer GAVEN1, "Gaven"
-	tr_mon 39, RATTATA
-		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
-	tr_mon 39, RATTATA
-		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
-	tr_mon 39, FLAREON
-		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
-	end_trainer
-
-	def_trainer GAVEN2, "Gaven"
-	tr_mon 41, RATTATA
-		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
-	tr_mon 41, RATTATA
-		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
-	tr_mon 41, FLAREON
-		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
-	end_trainer
-
-	def_trainer GAVEN3, "Gaven"
-	tr_mon 45, RATTATA
-		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
-	tr_mon 45, RATTATA @ KINGS_ROCK
-		tr_moves SURF, STOMP, DIG, BLIZZARD
-	tr_mon 45, FLAREON
-		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
-	end_trainer
-
-	def_trainer NICK, "Nick"
-	tr_mon 26, RATTATA
-		tr_moves EMBER, TACKLE, THRASH, SCARY_FACE
-	tr_mon 26, RATTATA
-		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
-	tr_mon 26, RATTATA
-		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
-	end_trainer
-
-	def_trainer AARON, "Aaron"
-	tr_mon 28, RATTATA
-	tr_mon 28, RATTATA
-	tr_mon 28, RATTATA
-	end_trainer
-
-	def_trainer CODY, "Cody"
-	tr_mon 36, HORSEA
-	tr_mon 37, SEADRA
-	tr_mon 38, YANMA
-	end_trainer
-
-	def_trainer MIKE, "Mike"
-	tr_mon 38, DRAGONAIR
-	end_trainer
-
-	def_trainer RYAN, "Ryan"
-	tr_mon 35, RATTATA
-		tr_moves MUD_SLAP, QUICK_ATTACK, ROAR, AERIAL_ACE
-	tr_mon 37, ELECTABUZZ
-		tr_moves THUNDERPUNCH, LIGHT_SCREEN, SWIFT, SCREECH
-	end_trainer
-
-	def_trainer BLAKE, "Blake"
-	tr_mon 38, MAGNETON
-		tr_moves THUNDERBOLT, SUPERSONIC, SWIFT, SCREECH
-	tr_mon 36, RATTATA
-		tr_moves WATER_GUN, HEADBUTT, AMNESIA, EARTHQUAKE
-	tr_mon 36, EXEGGCUTE
-		tr_moves LEECH_SEED, CONFUSION, SLEEP_POWDER, SOLAR_BEAM
-	end_trainer
-
-	def_trainer ANDY, "Andy"
-	tr_mon 10, RATTATA
-	tr_mon 10, RATTATA
-	tr_mon 10, RATTATA
-	end_trainer
-
-	def_trainer SEAN, "Sean"
-	tr_mon 47, FLAREON
-	tr_mon 47, TANGELA
-	tr_mon 47, RATTATA
-	end_trainer
-
-	def_trainer KEVIN, "Kevin"
-	tr_mon 54, RATTATA
-	tr_mon 56, RATTATA
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer ALLEN, "Allen"
-	tr_mon 36, RATTATA
-		tr_moves TACKLE, METAL_CLAW, DRAGON_RAGE, FLAME_CHARGE
-	tr_mon 35, MAGNETON
-		tr_moves THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK, FLASH_CANNON
-	end_trainer
-
-	def_trainer FRENCH, "French"
-	tr_mon 62, HOUNDOOM
-	tr_mon 63, RATTATA
-	end_trainer
-
-	def_trainer HENRI, "Henri"
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer CONNOR, "Connor"
-	tr_mon 63, SCYTHER
-	tr_mon 62, RATTATA
-	tr_mon 62, RATTATA
-	end_trainer
-
-	def_trainer KIERAN, "Kieran"
-	tr_mon 52, RATTATA
-	tr_mon 53, RATTATA
-	tr_mon 55, PRIMEAPE
-	end_trainer
-
-	def_trainer FINCH, "Finch"
-	tr_mon LEVEL_FROM_BADGES + 4, GEODUDE @ AIR_BALLOON, MALE
-		tr_extra STURDY, DEF_UP_SPE_DOWN
-		tr_dvs 13 All
-		tr_evs 12 HP
-		tr_moves TACKLE, DEFENSE_CURL, MUD_SLAP, ROLLOUT
-	tr_mon LEVEL_FROM_BADGES + 5, MAREEP @ AIR_BALLOON, MALE
-		tr_extra STATIC, SATK_UP_SDEF_DOWN
-		tr_dvs 13 All
-		tr_evs 12 HP
-		tr_moves TACKLE, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
-	end_trainer
-
-	def_trainer PETRIE, "Petrie"
-	tr_mon LEVEL_FROM_BADGES + 3, RATTATA @ MIRACLE_SEED, MALE
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_dvs 14 All
-		tr_evs 20 Atk
-		tr_moves VINE_WHIP, GROWTH, WRAP, SLEEP_POWDER
-	tr_mon LEVEL_FROM_BADGES + 3, ZUBAT @ MIRACLE_SEED, MALE
-		tr_extra INNER_FOCUS, SATK_UP_SDEF_DOWN
-		tr_dvs 14 All
-		tr_evs 20 HP
-		tr_moves GUST, ABSORB, TACKLE, BITE
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA @ MIRACLE_SEED, MALE
-		tr_extra HUSTLE, SPE_UP_DEF_DOWN
-		tr_dvs 14 All
-		tr_evs 20 HP
-		tr_moves LEECH_SEED, VINE_WHIP, SLEEP_POWDER, MUD_SLAP
-	end_trainer
-
-	def_trainer COOLTRAINERM_COREY, "Corey"
-	tr_mon 63, RATTATA @ QUICK_CLAW
-		tr_evs 252 Atk, 132 Spe
-	tr_mon 62, RATTATA @ ROCKY_HELMET
-		tr_evs 252 HP, 132 Atk
-	tr_mon 62, SCYTHER @ EVIOLITE
-		tr_evs 252 HP, 132 Atk
-	tr_mon 62, RATTATA @ FOCUS_BAND
-		tr_evs 192 Atk, 192 Spe
-	tr_mon 63, SANDSLASH @ KINGS_ROCK
-		tr_evs 132 HP, 252 Atk ; has Gyro Ball, so no Speed.
-	tr_mon 64, "Bruteroot", RATTATA @ LEFTOVERS
-		tr_evs 252 HP, 132 SAt
-	end_trainer
-
-	def_trainer COOLTRAINERM_RAYMOND, "Ray" ; MISMATCH
-	tr_mon 63, RATTATA @ SOFT_SAND
-		tr_evs 192 Atk, 192 Spe
-	tr_mon 62, RATTATA @ BLACK_SLUDGE
-		tr_evs 192 SAt, 192 Spe
-	tr_mon 62, GOLEM @ ROCKY_HELMET
-		tr_evs 192 Atk, 192 Spe
-	tr_mon 62, PINSIR @ KINGS_ROCK
-		tr_evs 192 Atk, 192 Spe
-	tr_mon 63, RATTATA @ FOCUS_BAND
-		tr_evs 132 HP, 252 Atk
-	tr_mon 64, "Firebrand", RATTATA @ LEFTOVERS
-		tr_evs 192 Atk, 192 SAt
-	end_trainer
-
-	def_trainer FERGUS, "Fergus"
-	tr_mon 63, RATTATA @ BRIGHTPOWDER
-		tr_evs 132 SAt, 252 Spe
-	tr_mon 62, GOLDUCK @ TWISTEDSPOON
-		tr_evs 132 HP, 252 SAt
-	tr_mon 62, VAPOREON @ FOCUS_BAND
-		tr_evs 132 HP, 252 SAt
-	tr_mon 62, RATTATA @ BLACK_SLUDGE
-		tr_evs 192 SAt, 192 Spe
-	tr_mon 63, KINGDRA @ QUICK_CLAW
-		tr_evs 192 SAt, 192 Spe
-	tr_mon 64, "Empress", NIDOQUEEN @ LEFTOVERS
-		tr_evs 192 Atk, 192 Spe
-	end_trainer
-
-	def_trainer DARIC, "Daric"
-	tr_mon 54, RATTATA
-	tr_mon 53, SLOWKING
-	tr_mon 55, GLACEON
-	end_trainer
-
-
-SECTION "CooltrainerFGroup", ROMX
-CooltrainerFGroup:
-
-	def_trainer_class COOLTRAINERF
-	def_trainer BETH1, "Beth"
-	tr_mon 40, RAPIDASH
-		tr_moves STOMP, FIRE_SPIN, PLAY_ROUGH, AGILITY
-	tr_mon 39, FLAAFFY
-		tr_moves SWIFT, THUNDERSHOCK, THUNDER_WAVE, LIGHT_SCREEN
-	end_trainer
-
-	def_trainer BETH2, "Beth"
-	tr_mon 45, RAPIDASH
-		tr_moves STOMP, FIRE_SPIN, PLAY_ROUGH, AGILITY
-	tr_mon 44, AMPHAROS
-if DEF(FAITHFUL)
-		tr_moves THUNDERBOLT, THUNDER_WAVE, LIGHT_SCREEN, SWIFT
-else
-		tr_moves THUNDERBOLT, THUNDER_WAVE, LIGHT_SCREEN, DRAGON_PULSE
-endc
-	end_trainer
-
-	def_trainer BETH3, "Beth"
-	tr_mon 49, RAPIDASH @ FOCUS_BAND
-		tr_moves STOMP, FIRE_SPIN, PLAY_ROUGH, FIRE_BLAST
-	tr_mon 48, AMPHAROS
-if DEF(FAITHFUL)
-		tr_moves THUNDERBOLT, THUNDER_WAVE, LIGHT_SCREEN, SWIFT
-else
-		tr_moves THUNDERBOLT, THUNDER_WAVE, LIGHT_SCREEN, DRAGON_PULSE
-endc
-	end_trainer
-
-	def_trainer REENA1, "Reena"
-	tr_mon 37, ARCANINE
-	tr_mon 40, NIDOQUEEN
-	tr_mon 38, STARMIE
-	end_trainer
-
-	def_trainer REENA2, "Reena"
-	tr_mon 41, ARCANINE
-	tr_mon 44, NIDOQUEEN
-	tr_mon 42, STARMIE
-	end_trainer
-
-	def_trainer REENA3, "Reena"
-	tr_mon 45, ARCANINE
-		tr_moves BITE, LEER, TAKE_DOWN, FLAME_CHARGE
-	tr_mon 48, NIDOQUEEN @ SILK_SCARF
-		tr_moves EARTHQUAKE, DOUBLE_KICK, TOXIC, BODY_SLAM
-	tr_mon 46, STARMIE
-		tr_moves BLIZZARD, PSYCHIC_M, WATERFALL, RECOVER
-	end_trainer
-
-	def_trainer GWEN, "Gwen"
-	tr_mon 26, EEVEE
-	tr_mon 22, FLAREON
-	tr_mon 22, VAPOREON
-	tr_mon 22, JOLTEON
-	end_trainer
-
-	def_trainer LOIS, "Lois"
-	tr_mon 29, RATTATA
-	tr_mon 29, NINETALES
-	end_trainer
-
-	def_trainer FRAN, "Fran"
-if DEF(FAITHFUL)
-	tr_mon 39, SEADRA
-else
-	tr_mon 39, RATTATA
-endc
-	end_trainer
-
-	def_trainer LOLA, "Lola"
-	tr_mon 36, DRATINI
-	tr_mon 38, DRAGONAIR
-	end_trainer
-
-	def_trainer KATE, "Kate"
-	tr_mon 26, RATTATA
-	tr_mon 28, RATTATA
-	end_trainer
-
-	def_trainer IRENE, "Irene"
-	tr_mon 22, RATTATA
-	tr_mon 24, RATTATA
-	end_trainer
-
-	def_trainer KELLY, "Kelly"
-	tr_mon 37, MARILL
-	tr_mon 35, RATTATA
-	tr_mon 35, RATTATA
-	end_trainer
-
-	def_trainer JOYCE, "Joyce"
-	tr_mon 37, PIKACHU
-		tr_moves QUICK_ATTACK, DOUBLE_TEAM, THUNDERBOLT, THUNDER
-	tr_mon 38, RATTATA
-		tr_moves BITE, CURSE, SURF, RAIN_DANCE
-	end_trainer
-
-	def_trainer MEGAN, "Megan"
-	tr_mon 35, RATTATA
-		tr_moves GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	tr_mon 36, RATTATA
-		tr_moves GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	tr_mon 37, RATTATA
-		tr_moves BODY_SLAM, SLEEP_POWDER, RAZOR_LEAF, GROWTH
-	end_trainer
-
-	def_trainer CAROL, "Carol"
-	tr_mon 47, RATTATA
-	tr_mon 47, STARMIE
-	tr_mon 47, NINETALES
-	end_trainer
-
-	def_trainer QUINN, "Quinn"
-	tr_mon 63, RATTATA
-	tr_mon 62, STARMIE
-	end_trainer
-
-	def_trainer EMMA, "Emma"
-	tr_mon 28, POLIWHIRL
-	end_trainer
-
-	def_trainer CYBIL, "Cybil"
-	tr_mon 35, RATTATA
-		tr_moves SUPERSONIC, PSYBEAM, HYPNOSIS, HEALINGLIGHT
-	tr_mon 36, RATTATA
-		tr_moves ACID, SLEEP_POWDER, GIGA_DRAIN, HEALINGLIGHT
-	end_trainer
-
-	def_trainer JENN, "Jenn"
-	tr_mon 24, STARYU
-	tr_mon 26, STARMIE
-	end_trainer
-
-	def_trainer SALMA, "Salma"
-	tr_mon 62, SLOWKING
-	tr_mon 65, KANGASKHAN
-	end_trainer
-
-	def_trainer BONITA, "Bonita"
-	tr_mon 62, RATTATA
-	tr_mon 65, SUDOWOODO
-	end_trainer
-
-	def_trainer SERA, "Sera"
-	tr_mon 63, RATTATA @ EVIOLITE
-	tr_mon 61, AMPHAROS @ MAGNET
-	tr_mon 61, RATTATA @ TWISTEDSPOON
-	end_trainer
-
-	def_trainer NEESHA, "Neesha"
-	tr_mon 62, DEWGONG @ FOCUS_BAND
-		tr_evs 192 HP, 192 SDf
-	tr_mon 62, WIGGLYTUFF @ PINK_BOW
-		tr_evs 192 HP, 192 Def
-	tr_mon 62, RAPIDASH @ QUICK_CLAW
-		tr_evs 252 Atk, 132 SAt
-	tr_mon 63, RATTATA @ BLACK_SLUDGE
-		tr_evs 132 SAt, 252 Spe
-	tr_mon 63, NINETALES @ CHARCOAL
-		tr_evs 132 SAt, 252 Spe
-	tr_mon 63, "Shellshock", RATTATA @ LEFTOVERS
-		tr_evs 132 HP, 252 Spe
-	end_trainer
-
-	def_trainer CHIARA, "Chiara"
-	tr_mon LEVEL_FROM_BADGES + 4, RATTATA @ BINDING_BAND, FEMALE
-		tr_extra HUSTLE, SPE_UP_DEF_DOWN
-		tr_evs 104 HP
-		tr_moves WRAP, SLEEP_POWDER, POISONPOWDER, STUN_SPORE
-	tr_mon LEVEL_FROM_BADGES + 4, AZUMARILL @ BINDING_BAND, FEMALE
-		tr_extra SAP_SIPPER, SPE_UP_DEF_DOWN
-		tr_evs 104 HP
-		tr_moves TACKLE, PERISH_SONG, AQUA_TAIL, PROTECT
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA @ BINDING_BAND, FEMALE
-		tr_extra HUSTLE, SPE_UP_DEF_DOWN
-		tr_evs 104 HP
-		tr_moves FIRE_SPIN, DRAGON_RAGE, TACKLE, PROTECT
 	end_trainer
 
 

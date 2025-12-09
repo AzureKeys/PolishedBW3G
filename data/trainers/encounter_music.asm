@@ -26,6 +26,10 @@ TrainerEncounterMusic:
 	db MUSIC_YOUNGSTER_ENCOUNTER ; youngsterD
 	db MUSIC_LASS_ENCOUNTER ; lass
 	db MUSIC_LASS_ENCOUNTER ; lassD
+	db MUSIC_HIKER_ENCOUNTER ; ace_trainerm
+	db MUSIC_HIKER_ENCOUNTER ; ace_trainermD
+	db MUSIC_BEAUTY_ENCOUNTER ; ace_trainerf
+	db MUSIC_BEAUTY_ENCOUNTER ; ace_trainerfD
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bug_catcher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; camper
 	db MUSIC_LASS_ENCOUNTER ; picnicker
@@ -92,8 +96,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; sightseerm
 	db MUSIC_BEAUTY_ENCOUNTER ; sightseerf
 	db MUSIC_HIKER_ENCOUNTER ; sightseers
-	db MUSIC_HIKER_ENCOUNTER ; cooltrainerm
-	db MUSIC_BEAUTY_ENCOUNTER ; cooltrainerf
 	db MUSIC_HIKER_ENCOUNTER ; ace_duo
 	db MUSIC_HIKER_ENCOUNTER ; veteranm
 	db MUSIC_HIKER_ENCOUNTER ; veteranf

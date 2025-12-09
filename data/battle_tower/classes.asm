@@ -35,14 +35,14 @@ BattleTowerTrainers:
 	rawchar "Mozi@@@@@@", SAGE
 	rawchar "Adrian@@@@", WAITER
 	rawchar "Tomoyo@@@@", COSPLAYER
-	rawchar "Ebony@@@@@", COOLTRAINERF
+	rawchar "Ebony@@@@@", ACE_TRAINERF
 	rawchar "Pirsig@@@@", SAGE
 	rawchar "Corey@@@@@", OFFICERM
 	rawchar "Syd@@@@@@@", GUITARISTM
 	rawchar "Ethel@@@@@", MEDIUM
 	rawchar "Sagan@@@@@", SCIENTIST
 	rawchar "Lenie@@@@@", SWIMMERF
-	rawchar "Frost@@@@@", COOLTRAINERM
+	rawchar "Frost@@@@@", ACE_TRAINERM
 	rawchar "Sophia@@@@", AROMA_LADY
 	rawchar "Joanna@@@@", WAITRESS
 	rawchar "Newton@@@@", SCIENTIST
@@ -75,7 +75,7 @@ BattleTowerTrainers:
 	rawchar "Alisha@@@@", LASS
 	rawchar "Sunni@@@@@", KIMONO_GIRL
 	rawchar "Andre@@@@@", ROUGHNECK
-	rawchar "Hill@@@@@@", COOLTRAINERM
+	rawchar "Hill@@@@@@", ACE_TRAINERM
 	rawchar "Tara@@@@@@", SWIMMERF
 	rawchar "Morse@@@@@", SUPER_NERD
 	rawchar "Phelps@@@@", SWIMMERM
@@ -117,7 +117,7 @@ BattleTowerTrainers:
 	rawchar "Molly@@@@@", BAKER
 	rawchar "Salim@@@@@", ROUGHNECK
 	rawchar "Dijkstra@@", VETERANM
-	rawchar "Raine@@@@@", COOLTRAINERF
+	rawchar "Raine@@@@@", ACE_TRAINERF
 	rawchar "Dorothy@@@", SKIER
 	rawchar "Shirley@@@", POKEFANF
 	rawchar "Douglas@@@", SIGHTSEERM

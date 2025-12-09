@@ -27,6 +27,10 @@ TrainerClassDVsAndPersonality:
 	db   0, $66, $66, $66, MALE   ; youngsterD
 	db  40, $BB, $BB, $BB, FEMALE ; lass
 	db  40, $BB, $BB, $BB, FEMALE ; lassD
+	db  64, $EE, $EE, $EE, MALE   ; ace trainerm
+	db  64, $EE, $EE, $EE, MALE   ; ace trainermD
+	db  64, $EE, $EE, $EE, FEMALE ; ace trainerf
+	db  64, $EE, $EE, $EE, FEMALE ; ace trainerfD
 	db   0, $66, $66, $66, MALE   ; bug catcher
 	db   8, $77, $77, $77, MALE   ; camper
 	db   8, $77, $77, $77, FEMALE ; picnicker
@@ -93,8 +97,6 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, MALE   ; sightseerm
 	db  72, $DD, $DD, $DD, FEMALE ; sightseerf
 	db  72, $EE, $EE, $EE, MALE   ; sightseers
-	db  64, $EE, $EE, $EE, MALE   ; cooltrainerm
-	db  64, $EE, $EE, $EE, FEMALE ; cooltrainerf
 	db  72, $EE, $EE, $EE, MALE   ; ace duo
 	db 128, PERFECT_DVS,   MALE   ; veteranm
 	db 128, PERFECT_DVS,   FEMALE ; veteranf
