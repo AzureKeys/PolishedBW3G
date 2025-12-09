@@ -36,6 +36,7 @@ TrainerGroups:
 	dba BackersFGroup
 	dba BackpackerMGroup
 	dba BackpackerFGroup
+	dba BakerGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup
@@ -69,7 +70,6 @@ TrainerGroups:
 	dba RichBoyGroup
 	dba LadyGroup
 	dba BreederGroup
-	dba BakerGroup
 	dba CowgirlGroup
 	dba SailorGroup
 	dba SwimmerMGroup

@@ -33,6 +33,7 @@ TrainerClassNames::
 	li "Backers"          ; BACKERS_F
 	li "Backpacker"       ; BACKPACKER_M
 	li "Backpacker"       ; BACKPACKER_F
+	li "Baker"            ; BAKER
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
@@ -66,7 +67,6 @@ TrainerClassNames::
 	li "Rich Boy"         ; RICH_BOY
 	li "Lady"             ; LADY
 	li "Breeder"          ; BREEDER
-	li "Baker"            ; BAKER
 	li "Cowgirl"          ; COWGIRL
 	li "Sailor"           ; SAILOR
 	li "Swimmer"          ; SWIMMERM

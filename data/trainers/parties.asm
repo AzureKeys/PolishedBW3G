@@ -1000,6 +1000,22 @@ BackpackerFGroup:
 	tr_mon 55, MR__MIME
 	tr_mon 55, SUDOWOODO
 	end_trainer
+
+
+SECTION "BakerGroup", ROMX
+BakerGroup:
+
+	def_trainer_class BAKER
+	def_trainer BAKER_R5, "Reina"
+	tr_mon 55, MR__MIME
+	tr_mon 55, SUDOWOODO
+	end_trainer
+
+	def_trainer BAKER_R19, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3351,36 +3367,6 @@ BreederGroup:
 	tr_mon 55, CLEFABLE @ PINK_BOW
 	tr_mon 54, WIGGLYTUFF @ SITRUS_BERRY
 	tr_mon 56, SNORLAX @ LEFTOVERS
-	end_trainer
-
-
-SECTION "BakerGroup", ROMX
-BakerGroup:
-
-	def_trainer_class BAKER
-	def_trainer CHELSIE, "Chelsie"
-	tr_mon 18, RATTATA
-if DEF(FAITHFUL)
-	tr_mon 18, MAGMAR
-else
-	tr_mon 18, SUNFLORA
-endc
-	end_trainer
-
-	def_trainer SHARYN, "Sharyn"
-	tr_mon 46, RATTATA
-	tr_mon 46, RATTATA
-	end_trainer
-
-	def_trainer MARGARET, "Margaret"
-	tr_mon 55, RATTATA
-	tr_mon 55, RATTATA
-	end_trainer
-
-	def_trainer OLGA, "Olga"
-	tr_mon 50, RATTATA
-	tr_mon 55, RATTATA
-	tr_mon 53, RATTATA
 	end_trainer
 
 

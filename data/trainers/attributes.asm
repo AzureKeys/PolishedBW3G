@@ -200,6 +200,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_OFFENSIVE + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
+; Baker
+	db MOOMOO_MILK, 0 ; items
+	db 14 ; base reward
+	dw AI_BASIC + AI_OFFENSIVE + AI_OPPORTUNIST + AI_STATUS + AI_RISKY
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
@@ -397,12 +403,6 @@ TrainerClassAttributes:
 	db 16 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
-
-; Baker
-	db MOOMOO_MILK, 0 ; items
-	db 14 ; base reward
-	dw AI_BASIC + AI_OFFENSIVE + AI_OPPORTUNIST + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Cowgirl
 	db MOOMOO_MILK, 0 ; items

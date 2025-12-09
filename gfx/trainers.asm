@@ -88,6 +88,9 @@ BackpackerMPic: INCBIN "gfx/trainers/backpacker_m.2bpp.lz"
 SECTION "BackpackerFPic", ROMX
 BackpackerFPic: INCBIN "gfx/trainers/backpacker_f.2bpp.lz"
 
+SECTION "BakerPic", ROMX
+BakerPic: INCBIN "gfx/trainers/baker.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -186,9 +189,6 @@ LadyPic: INCBIN "gfx/trainers/lady.2bpp.lz"
 
 SECTION "BreederPic", ROMX
 BreederPic: INCBIN "gfx/trainers/breeder.2bpp.lz"
-
-SECTION "BakerPic", ROMX
-BakerPic: INCBIN "gfx/trainers/baker.2bpp.lz"
 
 SECTION "CowgirlPic", ROMX
 CowgirlPic: INCBIN "gfx/trainers/cowgirl.2bpp.lz"

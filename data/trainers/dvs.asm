@@ -36,6 +36,7 @@ TrainerClassDVsAndPersonality:
 	db  40, $BB, $BB, $BB, FEMALE ; backersf
 	db  32, $AA, $AA, $AA, MALE   ; backpackerm
 	db  32, $AA, $AA, $AA, FEMALE ; backpackerf
+	db  48, $CC, $CC, $CC, FEMALE ; baker
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper
@@ -69,7 +70,6 @@ TrainerClassDVsAndPersonality:
 	db 100, $CC, $CC, $CC, MALE   ; rich boy (high EVs from vitamins)
 	db  48, $CC, $CC, $CC, FEMALE ; lady
 	db  56, $DD, $DD, $DD, FEMALE ; breeder (low EVs due to breeding)
-	db  48, $CC, $CC, $CC, FEMALE ; baker
 	db  48, $CC, $CC, $CC, FEMALE ; cowgirl
 	db  48, $CC, $CC, $CC, MALE   ; sailor
 	db  48, $CC, $CC, $CC, MALE   ; swimmerm

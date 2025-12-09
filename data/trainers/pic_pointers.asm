@@ -34,6 +34,7 @@ TrainerPicPointers::
 	dba BackersFPic
 	dba BackpackerMPic
 	dba BackpackerFPic
+	dba BakerPic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic
@@ -67,7 +68,6 @@ TrainerPicPointers::
 	dba RichBoyPic
 	dba LadyPic
 	dba BreederPic
-	dba BakerPic
 	dba CowgirlPic
 	dba SailorPic
 	dba SwimmermPic

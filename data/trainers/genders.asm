@@ -36,6 +36,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; BACKERSF
 	dbit MALE_BIT   ; BACKPACKERM
 	dbit FEMALE_BIT ; BACKPACKERF
+	dbit FEMALE_BIT ; BAKER
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; BIRD_KEEPER
@@ -69,7 +70,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; RICH_BOY
 	dbit FEMALE_BIT ; LADY
 	dbit FEMALE_BIT ; BREEDER
-	dbit FEMALE_BIT ; BAKER
 	dbit FEMALE_BIT ; COWGIRL
 	dbit MALE_BIT   ; SAILOR
 	dbit MALE_BIT   ; SWIMMERM

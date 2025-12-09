@@ -145,21 +145,21 @@ DEF CRYS EQU __trainer_class__
 	const ACE_TRAINERM_VICTORY_ROAD_INT_1
 	const ACE_TRAINERM_VICTORY_ROAD_EXT_1
 
-	trainerclass ACE_TRAINERM_D ; 20
+	trainerclass ACE_TRAINERM_D ; 1a
 	const ACE_TRAINERM_GIANT_CHASM
 	const ACE_TRAINERM_CHARGESTONE_2
 	const ACE_TRAINERM_R23_2
 	const ACE_TRAINERM_VICTORY_ROAD_INT_2
 	const ACE_TRAINERM_VICTORY_ROAD_EXT_2
 
-	trainerclass ACE_TRAINERF ; 21
+	trainerclass ACE_TRAINERF ; 1b
 	const ACE_TRAINERF_CHARGESTONE_1
 	const ACE_TRAINERF_MISTRALTON_CAVE
 	const ACE_TRAINERF_R23_2
 	const ACE_TRAINERF_VICTORY_ROAD_INT_1
 	const ACE_TRAINERF_VICTORY_ROAD_EXT_1
 
-	trainerclass ACE_TRAINERF_D ; 22
+	trainerclass ACE_TRAINERF_D ; 1c
 	const ACE_TRAINERF_GIANT_CHASM
 	const ACE_TRAINERF_PWT
 	const ACE_TRAINERF_CHARGESTONE_2
@@ -167,19 +167,19 @@ DEF CRYS EQU __trainer_class__
 	const ACE_TRAINERF_VICTORY_ROAD_INT_2
 	const ACE_TRAINERF_VICTORY_ROAD_EXT_2
 
-	trainerclass ARTIST ; 23
+	trainerclass ARTIST ; 1d
 	const ARTIST_R5
 	const ARTIST_R3
 
-	trainerclass BACKERSM ; 24
+	trainerclass BACKERSM ; 1e
 	const BACKERSM_R16
 	const BACKERSM_R11
 
-	trainerclass BACKERSF ; 25
+	trainerclass BACKERSF ; 1f
 	const BACKERSF_R5
 	const BACKERSF_R11
 
-	trainerclass BACKPACKERM ; 26
+	trainerclass BACKPACKERM ; 20
 	const BACKPACKERM_REVERSAL
 	const BACKPACKERM_R16
 	const BACKPACKERM_DESERT
@@ -193,7 +193,7 @@ DEF CRYS EQU __trainer_class__
 	const PARKER_REMATCH_1
 	const PARKER_REMATCH_2
 
-	trainerclass BACKPACKERF ; 27
+	trainerclass BACKPACKERF ; 21
 	const BACKPACKERF_REVERSAL
 	const BACKPACKERF_R16
 	const BACKPACKERF_DESERT
@@ -207,6 +207,10 @@ DEF CRYS EQU __trainer_class__
 	const JENNY_REMATCH_1
 	const JENNY_REMATCH_2
 	const JENNY_REMATCH_3
+
+	trainerclass BAKER ; 22
+	const BAKER_R5
+	const BAKER_R19
 
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
@@ -633,12 +637,6 @@ DEF CRYS EQU __trainer_class__
 	const CARLENE
 	const SOPHIE
 	const BRENDA
-
-	trainerclass BAKER ; 46
-	const CHELSIE
-	const SHARYN
-	const MARGARET
-	const OLGA
 
 	trainerclass COWGIRL ; 47
 	const ANNIE
