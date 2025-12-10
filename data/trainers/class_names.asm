@@ -49,6 +49,7 @@ TrainerClassNames::
 	li "Gentleman"        ; GENTLEMAN
 	li "Guitarist"        ; GUITARIST
 	li "Harlequin"        ; HARLEQUIN
+	li "Hex Maniac"       ; HEX_MANIAC
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Hiker"            ; HIKER
@@ -69,7 +70,6 @@ TrainerClassNames::
 	li "Schoolboy"        ; SCHOOLBOY
 	li "Schoolgirl"       ; SCHOOLGIRL
 	li "Psychic"          ; PSYCHIC_T
-	li "Hex Maniac"       ; HEX_MANIAC
 	li "Sage"             ; SAGE
 	li "Medium"           ; MEDIUM
 	li "Kimono Girl"      ; KIMONO_GIRL

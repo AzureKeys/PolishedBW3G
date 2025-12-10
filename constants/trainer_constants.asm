@@ -321,6 +321,18 @@ DEF CRYS EQU __trainer_class__
 	const HARLEQUIN_CASTELIA_GYM_5
 	const HARLEQUIN_R7
 
+	trainerclass HEX_MANIAC ; 32
+	const HEX_MANIAC_LENTIMAS_GYM_1
+	const HEX_MANIAC_LENTIMAS_GYM_2
+	const HEX_MANIAC_LENTIMAS_GYM_3
+	const HEX_MANIAC_LENTIMAS_GYM_4
+	const HEX_MANIAC_DESERT
+	const HEX_MANIAC_PINWHEEL
+	const HEX_MANIAC_RELIC_PASSAGE
+	const HEX_MANIAC_CELESTIAL_TOWER_1
+	const HEX_MANIAC_CELESTIAL_TOWER_2
+	const HEX_MANIAC_VICTORY_ROAD_INT
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -609,18 +621,6 @@ DEF CRYS EQU __trainer_class__
 	const LEON
 	const URI
 	const VIRGIL
-
-	trainerclass HEX_MANIAC ; 3b
-	const TAMARA
-	const ASHLEY
-	const AMY
-	const LUNA
-	const NATALIE
-	const VIVIAN
-	const ESTHER
-	const MATILDA
-	const BETHANY
-	const CORYN
 
 	trainerclass SAGE ; 3c
 	const CHOW

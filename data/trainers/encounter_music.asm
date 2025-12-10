@@ -51,6 +51,7 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; gentleman
 	db MUSIC_BEAUTY_ENCOUNTER ; guitarist
 	db MUSIC_HIKER_ENCOUNTER ; harlequin
+	db MUSIC_SAGE_ENCOUNTER ; hex_maniac
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_HIKER_ENCOUNTER ; hiker
@@ -71,7 +72,6 @@ TrainerEncounterMusic:
 	db MUSIC_YOUNGSTER_ENCOUNTER ; schoolboy
 	db MUSIC_LASS_ENCOUNTER ; schoolgirl
 	db MUSIC_YOUNGSTER_ENCOUNTER ; psychic_t
-	db MUSIC_SAGE_ENCOUNTER ; hex_maniac
 	db MUSIC_SAGE_ENCOUNTER ; sage
 	db MUSIC_SAGE_ENCOUNTER ; medium
 	db MUSIC_KIMONO_ENCOUNTER ; kimono_girl

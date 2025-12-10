@@ -50,6 +50,7 @@ TrainerPicPointers::
 	dba GentlemanPic
 	dba GuitaristPic
 	dba HarlequinPic
+	dba HexManiacPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba HikerPic
@@ -70,7 +71,6 @@ TrainerPicPointers::
 	dba SchoolboyPic
 	dba SchoolgirlPic
 	dba PsychicTPic
-	dba HexManiacPic
 	dba SagePic
 	dba MediumPic
 	dba KimonoGirlPic

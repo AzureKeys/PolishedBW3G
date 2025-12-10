@@ -52,6 +52,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; GENTLEMAN
 	dbit FEMALE_BIT ; GUITARIST
 	dbit MALE_BIT   ; HARLEQUIN
+	dbit FEMALE_BIT ; HEX_MANIAC
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; HIKER
@@ -72,7 +73,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; SCHOOLBOY
 	dbit FEMALE_BIT ; SCHOOLGIRL
 	dbit MALE_BIT   ; PSYCHIC_T
-	dbit FEMALE_BIT ; HEX_MANIAC
 	dbit MALE_BIT   ; SAGE
 	dbit FEMALE_BIT ; MEDIUM
 	dbit FEMALE_BIT ; KIMONO_GIRL

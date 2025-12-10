@@ -1519,6 +1519,71 @@ HarlequinGroup:
 	tr_mon 54, RATTATA
 	tr_mon 55, MAGNETON
 	end_trainer
+
+
+SECTION "HexManiacGroup", ROMX
+HexManiacGroup:
+
+	def_trainer_class HEX_MANIAC
+	def_trainer HEX_MANIAC_LENTIMAS_GYM_1, "Tamara"
+	tr_mon 16, GASTLY
+	tr_mon 18, MISDREAVUS
+	end_trainer
+
+	def_trainer HEX_MANIAC_LENTIMAS_GYM_2, "Ashley"
+	tr_mon LEVEL_FROM_BADGES + 5, HAUNTER
+	tr_mon LEVEL_FROM_BADGES + 6, MISMAGIUS
+	end_trainer
+
+	def_trainer HEX_MANIAC_LENTIMAS_GYM_3, "Amy"
+	tr_mon 53, MISDREAVUS
+	tr_mon 56, GENGAR
+	tr_mon 53, HAUNTER
+	tr_mon 56, MISMAGIUS
+	end_trainer
+
+	def_trainer HEX_MANIAC_LENTIMAS_GYM_4, "Luna"
+	tr_mon 54, RATTATA
+		tr_moves PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FUTURE_SIGHT
+	tr_mon 56, NINETALES
+		tr_moves PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FLAMETHROWER
+	end_trainer
+
+	def_trainer HEX_MANIAC_DESERT, "Natalie"
+	tr_mon 54, RATTATA
+	tr_mon 54, RATTATA
+	tr_mon 56, RATTATA
+	end_trainer
+
+	def_trainer HEX_MANIAC_PINWHEEL, "Vivian"
+	tr_mon 54, HAUNTER
+	tr_mon 52, HAUNTER
+	tr_mon 54, HAUNTER
+	tr_mon 56, RATTATA
+	end_trainer
+
+	def_trainer HEX_MANIAC_RELIC_PASSAGE, "Esther"
+	tr_mon 62, MISMAGIUS
+	tr_mon 62, MISMAGIUS
+	end_trainer
+
+	def_trainer HEX_MANIAC_CELESTIAL_TOWER_1, "Matilda"
+	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 4, MISDREAVUS
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	end_trainer
+
+	def_trainer HEX_MANIAC_CELESTIAL_TOWER_2, "Bethany"
+	tr_mon 53, HAUNTER
+	tr_mon 55, GENGAR
+	tr_mon 54, MISDREAVUS
+	end_trainer
+
+	def_trainer HEX_MANIAC_VICTORY_ROAD_INT, "Coryn"
+	tr_mon 53, MISMAGIUS
+	tr_mon 52, ESPEON
+	tr_mon 55, GENGAR
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3170,71 +3235,6 @@ PsychicGroup:
 	def_trainer VIRGIL, "Virgil"
 	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	end_trainer
-
-
-SECTION "HexManiacGroup", ROMX
-HexManiacGroup:
-
-	def_trainer_class HEX_MANIAC
-	def_trainer TAMARA, "Tamara"
-	tr_mon 16, GASTLY
-	tr_mon 18, MISDREAVUS
-	end_trainer
-
-	def_trainer ASHLEY, "Ashley"
-	tr_mon LEVEL_FROM_BADGES + 5, HAUNTER
-	tr_mon LEVEL_FROM_BADGES + 6, MISMAGIUS
-	end_trainer
-
-	def_trainer AMY, "Amy"
-	tr_mon 53, MISDREAVUS
-	tr_mon 56, GENGAR
-	tr_mon 53, HAUNTER
-	tr_mon 56, MISMAGIUS
-	end_trainer
-
-	def_trainer LUNA, "Luna"
-	tr_mon 54, RATTATA
-		tr_moves PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FUTURE_SIGHT
-	tr_mon 56, NINETALES
-		tr_moves PSYCHIC_M, SHADOW_BALL, CONFUSE_RAY, FLAMETHROWER
-	end_trainer
-
-	def_trainer NATALIE, "Natalie"
-	tr_mon 54, RATTATA
-	tr_mon 54, RATTATA
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer VIVIAN, "Vivian"
-	tr_mon 54, HAUNTER
-	tr_mon 52, HAUNTER
-	tr_mon 54, HAUNTER
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer ESTHER, "Esther"
-	tr_mon 62, MISMAGIUS
-	tr_mon 62, MISMAGIUS
-	end_trainer
-
-	def_trainer MATILDA, "Matilda"
-	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 4, MISDREAVUS
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer BETHANY, "Bethany"
-	tr_mon 53, HAUNTER
-	tr_mon 55, GENGAR
-	tr_mon 54, MISDREAVUS
-	end_trainer
-
-	def_trainer CORYN, "Coryn"
-	tr_mon 53, MISMAGIUS
-	tr_mon 52, ESPEON
-	tr_mon 55, GENGAR
 	end_trainer
 
 

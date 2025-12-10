@@ -52,6 +52,7 @@ TrainerGroups:
 	dba GentlemanGroup
 	dba GuitaristGroup
 	dba HarlequinGroup
+	dba HexManiacGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba HikerGroup
@@ -72,7 +73,6 @@ TrainerGroups:
 	dba SchoolboyGroup
 	dba SchoolgirlGroup
 	dba PsychicGroup
-	dba HexManiacGroup
 	dba SageGroup
 	dba MediumGroup
 	dba KimonoGirlGroup

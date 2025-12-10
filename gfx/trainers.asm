@@ -133,6 +133,9 @@ GuitaristPic: INCBIN "gfx/trainers/guitarist.2bpp.lz"
 SECTION "HarlequinPic", ROMX
 HarlequinPic: INCBIN "gfx/trainers/harlequin.2bpp.lz"
 
+SECTION "HexManiacPic", ROMX
+HexManiacPic: INCBIN "gfx/trainers/hex_maniac.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -192,9 +195,6 @@ SchoolgirlPic: INCBIN "gfx/trainers/schoolgirl.2bpp.lz"
 
 SECTION "PsychicTPic", ROMX
 PsychicTPic: INCBIN "gfx/trainers/psychic_t.2bpp.lz"
-
-SECTION "HexManiacPic", ROMX
-HexManiacPic: INCBIN "gfx/trainers/hex_maniac.2bpp.lz"
 
 SECTION "SagePic", ROMX
 SagePic: INCBIN "gfx/trainers/sage.2bpp.lz"
