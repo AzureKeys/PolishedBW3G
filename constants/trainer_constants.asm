@@ -391,6 +391,12 @@ DEF CRYS EQU __trainer_class__
 	const MUSICIAN_VIRBANK_GYM_2
 	const MUSICIAN_VILLAGE_BRIDGE
 
+	trainerclass NURSERY_AIDE ; 3b
+	const NURSERY_AIDE_MARINE_TUBE
+	const NURSERY_AIDE_R14
+	const NURSERY_AIDE_R20
+	const NURSERY_AIDE_R7
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
