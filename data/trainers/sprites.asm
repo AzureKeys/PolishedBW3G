@@ -58,6 +58,7 @@ BTTrainerClassSprites:
 	db SPRITE_LADY          ; LADY
 	db SPRITE_LINEBACKER    ; LINEBACKER
 	db SPRITE_LADY          ; MAID
+	db SPRITE_MUSICIAN      ; MUSICIAN
 	db SPRITE_TWIN          ; TWINS
 	db SPRITE_BIRD_KEEPER   ; BIRD_KEEPER
 	db SPRITE_ROCKET        ; GRUNTM

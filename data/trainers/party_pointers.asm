@@ -60,6 +60,7 @@ TrainerGroups:
 	dba LadyGroup
 	dba LinebackerGroup
 	dba MaidGroup
+	dba MusicianGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

@@ -386,6 +386,11 @@ DEF CRYS EQU __trainer_class__
 	const CLARISSA_REMATCH_2
 	const CLARISSA_REMATCH_3
 
+	trainerclass MUSICIAN ; 3a
+	const MUSICIAN_VIRBANK_GYM_1
+	const MUSICIAN_VIRBANK_GYM_2
+	const MUSICIAN_VILLAGE_BRIDGE
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2

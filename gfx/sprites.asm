@@ -79,6 +79,9 @@ HarlequinSpriteGFX:: INCBIN "gfx/sprites/harlequin.2bpp.lz"
 SECTION "LinebackerSpriteGFX", ROMX
 LinebackerSpriteGFX:: INCBIN "gfx/sprites/linebacker.2bpp.lz"
 
+SECTION "MusicianSpriteGFX", ROMX
+MusicianSpriteGFX:: INCBIN "gfx/sprites/musician.2bpp.lz"
+
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lz"
 

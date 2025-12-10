@@ -157,6 +157,9 @@ LinebackerPic: INCBIN "gfx/trainers/linebacker.2bpp.lz"
 SECTION "MaidPic", ROMX
 MaidPic: INCBIN "gfx/trainers/maid.2bpp.lz"
 
+SECTION "MusicianPic", ROMX
+MusicianPic: INCBIN "gfx/trainers/musician.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

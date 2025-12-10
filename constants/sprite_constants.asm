@@ -29,6 +29,7 @@
 	const SPRITE_CYCLIST_F ; 1b
 	const SPRITE_HARLEQUIN ; 1c
 	const SPRITE_LINEBACKER ; 1d
+	const SPRITE_MUSICIAN ; 1e
 	const SPRITE_YELLOW ; 22
 	const SPRITE_OAK ; 23
 	const SPRITE_ELM ; 24

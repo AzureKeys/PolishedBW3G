@@ -57,6 +57,7 @@ TrainerClassNames::
 	li "Lady"             ; LADY
 	li "Linebacker"       ; LINEBACKER
 	li "Maid"             ; MAID
+	li "Musician"         ; MUSICIAN
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
