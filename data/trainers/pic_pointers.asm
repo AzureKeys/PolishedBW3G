@@ -49,6 +49,7 @@ TrainerPicPointers::
 	dba FisherPic
 	dba GentlemanPic
 	dba GuitaristPic
+	dba HarlequinPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba HikerPic

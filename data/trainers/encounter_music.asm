@@ -50,6 +50,7 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; fisherD
 	db MUSIC_HIKER_ENCOUNTER ; gentleman
 	db MUSIC_BEAUTY_ENCOUNTER ; guitarist
+	db MUSIC_HIKER_ENCOUNTER ; harlequin
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_HIKER_ENCOUNTER ; hiker

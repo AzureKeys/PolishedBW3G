@@ -51,6 +51,7 @@ TrainerClassDVsAndPersonality:
 	db  16, $88, $88, $88, MALE   ; fisherD
 	db  48, $CC, $CC, $CC, MALE   ; gentleman
 	db  72, $DD, $DD, $DD, FEMALE ; guitarist
+	db  40, $BB, $BB, $BB, MALE   ; harlequin
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  24, $99, $99, $99, MALE   ; hiker

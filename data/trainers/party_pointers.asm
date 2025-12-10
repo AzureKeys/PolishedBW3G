@@ -51,6 +51,7 @@ TrainerGroups:
 	dba FisherDGroup
 	dba GentlemanGroup
 	dba GuitaristGroup
+	dba HarlequinGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba HikerGroup

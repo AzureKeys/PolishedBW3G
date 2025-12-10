@@ -48,6 +48,7 @@ TrainerClassNames::
 	li "Fisherman"        ; FISHER_D
 	li "Gentleman"        ; GENTLEMAN
 	li "Guitarist"        ; GUITARIST
+	li "Harlequin"        ; HARLEQUIN
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Hiker"            ; HIKER

@@ -51,6 +51,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; FISHER_D
 	dbit MALE_BIT   ; GENTLEMAN
 	dbit FEMALE_BIT ; GUITARIST
+	dbit MALE_BIT   ; HARLEQUIN
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; HIKER

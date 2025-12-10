@@ -1478,6 +1478,47 @@ GuitaristGroup:
 	tr_mon 54, RATTATA
 	tr_mon 55, MAGNETON
 	end_trainer
+
+
+SECTION "HarlequinGroup", ROMX
+HarlequinGroup:
+
+	def_trainer_class HARLEQUIN
+	def_trainer HARLEQUIN_CASTELIA_GYM_1, "Janet"
+	tr_mon 56, PIKACHU, FEMALE | PIKACHU_SURF_FORM
+		tr_moves IRON_TAIL, EXTREMESPEED, SURF, THUNDERBOLT
+	tr_mon 54, ELECTABUZZ, FEMALE
+		tr_moves LIGHT_SCREEN, THUNDERPUNCH, TACKLE, SCREECH
+	tr_mon 55, RAICHU, FEMALE | ALOLAN_FORM
+		tr_moves EXTREMESPEED, SURF, THUNDERBOLT, AGILITY
+	end_trainer
+
+	def_trainer HARLEQUIN_CASTELIA_GYM_2, "Morgan"
+	tr_mon 55, RATTATA
+	tr_mon 55, JOLTEON
+	end_trainer
+
+	def_trainer HARLEQUIN_CASTELIA_GYM_3, "Ritsuko"
+	tr_mon 56, JOLTEON
+	tr_mon 58, JOLTEON
+	end_trainer
+
+	def_trainer HARLEQUIN_CASTELIA_GYM_4, "Wanda"
+	tr_mon 53, MAGNEMITE
+	tr_mon 54, RATTATA
+	tr_mon 55, MAGNETON
+	end_trainer
+
+	def_trainer HARLEQUIN_CASTELIA_GYM_5, "Ritsuko"
+	tr_mon 56, JOLTEON
+	tr_mon 58, JOLTEON
+	end_trainer
+
+	def_trainer HARLEQUIN_R7, "Wanda"
+	tr_mon 53, MAGNEMITE
+	tr_mon 54, RATTATA
+	tr_mon 55, MAGNETON
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

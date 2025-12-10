@@ -73,6 +73,9 @@ CyclistMSpriteGFX:: INCBIN "gfx/sprites/cyclist_m.2bpp.lz"
 SECTION "CyclistFSpriteGFX", ROMX
 CyclistFSpriteGFX:: INCBIN "gfx/sprites/cyclist_f.2bpp.lz"
 
+SECTION "HarlequinSpriteGFX", ROMX
+HarlequinSpriteGFX:: INCBIN "gfx/sprites/harlequin.2bpp.lz"
+
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lz"
 

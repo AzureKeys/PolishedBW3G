@@ -130,6 +130,9 @@ GentlemanPic: INCBIN "gfx/trainers/gentleman.2bpp.lz"
 SECTION "GuitaristPic", ROMX
 GuitaristPic: INCBIN "gfx/trainers/guitarist.2bpp.lz"
 
+SECTION "HarlequinPic", ROMX
+HarlequinPic: INCBIN "gfx/trainers/harlequin.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
