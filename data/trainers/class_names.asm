@@ -54,6 +54,7 @@ TrainerClassNames::
 	li "Hiker"            ; HIKER_D
 	li "Hoopster"         ; HOOPSTER
 	li "Janitor"          ; JANITOR
+	li "Lady"             ; LADY
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
@@ -80,7 +81,6 @@ TrainerClassNames::
 	li "Sr.& Jr."         ; SR_AND_JR
 	li "Couple"           ; COUPLE
 	li "Rich Boy"         ; RICH_BOY
-	li "Lady"             ; LADY
 	li "Breeder"          ; BREEDER
 	li "Cowgirl"          ; COWGIRL
 	li "Sailor"           ; SAILOR

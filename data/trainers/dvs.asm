@@ -57,6 +57,7 @@ TrainerClassDVsAndPersonality:
 	db  24, $99, $99, $99, MALE   ; hikerD
 	db  48, $CC, $CC, $CC, MALE   ; hoopster
 	db  48, $CC, $CC, $CC, MALE   ; janitor
+	db  48, $CC, $CC, $CC, FEMALE ; lady
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
@@ -83,7 +84,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, FEMALE ; sr&jr
 	db  48, $CC, $CC, $CC, MALE   ; couple
 	db 100, $CC, $CC, $CC, MALE   ; rich boy (high EVs from vitamins)
-	db  48, $CC, $CC, $CC, FEMALE ; lady
 	db  56, $DD, $DD, $DD, FEMALE ; breeder (low EVs due to breeding)
 	db  48, $CC, $CC, $CC, FEMALE ; cowgirl
 	db  48, $CC, $CC, $CC, MALE   ; sailor

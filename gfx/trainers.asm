@@ -148,6 +148,9 @@ HoopsterPic: INCBIN "gfx/trainers/hoopster.2bpp.lz"
 SECTION "JanitorPic", ROMX
 JanitorPic: INCBIN "gfx/trainers/janitor.2bpp.lz"
 
+SECTION "LadyPic", ROMX
+LadyPic: INCBIN "gfx/trainers/lady.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -225,9 +228,6 @@ CouplePic: INCBIN "gfx/trainers/couple.2bpp.lz"
 
 SECTION "RichBoyPic", ROMX
 RichBoyPic: INCBIN "gfx/trainers/rich_boy.2bpp.lz"
-
-SECTION "LadyPic", ROMX
-LadyPic: INCBIN "gfx/trainers/lady.2bpp.lz"
 
 SECTION "BreederPic", ROMX
 BreederPic: INCBIN "gfx/trainers/breeder.2bpp.lz"

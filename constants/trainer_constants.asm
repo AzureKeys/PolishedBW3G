@@ -361,6 +361,14 @@ DEF CRYS EQU __trainer_class__
 	const JANITOR_CASTELIA_SEWERS_3
 	const JANITOR_CASTELIA_SEWERS_4
 
+	trainerclass LADY ; 37
+	const LADY_R4
+	const LADY_R19
+	const LACEY_REMATCH_1
+	const LACEY_REMATCH_2
+	const LACEY_REMATCH_3
+	const LACEY_REMATCH_4
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -673,9 +681,6 @@ DEF CRYS EQU __trainer_class__
 	const GERALD
 	const IRVING
 	const TOBIN
-
-	trainerclass LADY ; 44
-	const JESSICA
 
 	trainerclass BREEDER ; 45
 	const JULIE

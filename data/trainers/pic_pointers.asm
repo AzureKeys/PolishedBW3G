@@ -55,6 +55,7 @@ TrainerPicPointers::
 	dba HikerDPic
 	dba HoopsterPic
 	dba JanitorPic
+	dba LadyPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
@@ -81,7 +82,6 @@ TrainerPicPointers::
 	dba SrAndJrPic
 	dba CouplePic
 	dba RichBoyPic
-	dba LadyPic
 	dba BreederPic
 	dba CowgirlPic
 	dba SailorPic

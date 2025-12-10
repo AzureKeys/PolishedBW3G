@@ -57,6 +57,7 @@ TrainerGroups:
 	dba HikerDGroup
 	dba HoopsterGroup
 	dba JanitorGroup
+	dba LadyGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
@@ -83,7 +84,6 @@ TrainerGroups:
 	dba SrAndJrGroup
 	dba CoupleGroup
 	dba RichBoyGroup
-	dba LadyGroup
 	dba BreederGroup
 	dba CowgirlGroup
 	dba SailorGroup

@@ -57,6 +57,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; HIKER_D
 	dbit MALE_BIT   ; HOOPSTER
 	dbit MALE_BIT   ; JANITOR
+	dbit FEMALE_BIT ; LADY
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; GRUNTM
@@ -83,7 +84,6 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; SR_AND_JR
 	dbit MALE_BIT   ; COUPLE
 	dbit MALE_BIT   ; RICH_BOY
-	dbit FEMALE_BIT ; LADY
 	dbit FEMALE_BIT ; BREEDER
 	dbit FEMALE_BIT ; COWGIRL
 	dbit MALE_BIT   ; SAILOR

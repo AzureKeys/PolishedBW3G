@@ -1714,6 +1714,41 @@ JanitorGroup:
 	tr_mon 16, GEODUDE
 	tr_mon 18, RATTATA
 	end_trainer
+
+
+SECTION "LadyGroup", ROMX
+LadyGroup:
+
+	def_trainer_class LADY
+	def_trainer LADY_R4, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer LADY_R19, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer LACEY_REMATCH_1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer LACEY_REMATCH_2, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer LACEY_REMATCH_3, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer LACEY_REMATCH_4, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3447,16 +3482,6 @@ RichBoyGroup:
 	tr_mon 53, MAGMAR
 	tr_mon 54, GOLEM
 	tr_mon 55, RATTATA
-	end_trainer
-
-
-SECTION "LadyGroup", ROMX
-LadyGroup:
-
-	def_trainer_class LADY
-	def_trainer JESSICA, "Jessica"
-	tr_mon 55, RATTATA @ NUGGET
-	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
 
 
