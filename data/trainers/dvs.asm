@@ -56,6 +56,7 @@ TrainerClassDVsAndPersonality:
 	db  24, $99, $99, $99, MALE   ; hiker
 	db  24, $99, $99, $99, MALE   ; hikerD
 	db  48, $CC, $CC, $CC, MALE   ; hoopster
+	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

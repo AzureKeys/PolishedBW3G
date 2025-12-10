@@ -56,6 +56,7 @@ TrainerGroups:
 	dba HikerGroup
 	dba HikerDGroup
 	dba HoopsterGroup
+	dba JanitorGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

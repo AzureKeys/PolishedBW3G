@@ -1689,6 +1689,31 @@ HoopsterGroup:
 	tr_mon 16, GEODUDE
 	tr_mon 18, RATTATA
 	end_trainer
+
+
+SECTION "JanitorGroup", ROMX
+JanitorGroup:
+
+	def_trainer_class JANITOR
+	def_trainer JANITOR_CASTELIA_SEWERS_1, "Anthony"
+	tr_mon 12, GEODUDE
+	tr_mon 12, RATTATA
+	end_trainer
+
+	def_trainer JANITOR_CASTELIA_SEWERS_2, "Anthony"
+	tr_mon 16, GEODUDE
+	tr_mon 18, RATTATA
+	end_trainer
+	
+	def_trainer JANITOR_CASTELIA_SEWERS_3, "Anthony"
+	tr_mon 12, GEODUDE
+	tr_mon 12, RATTATA
+	end_trainer
+
+	def_trainer JANITOR_CASTELIA_SEWERS_4, "Anthony"
+	tr_mon 16, GEODUDE
+	tr_mon 18, RATTATA
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

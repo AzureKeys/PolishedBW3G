@@ -145,6 +145,9 @@ HikerDPic: INCBIN "gfx/trainers/hiker_d.2bpp.lz"
 SECTION "HoopsterPic", ROMX
 HoopsterPic: INCBIN "gfx/trainers/hoopster.2bpp.lz"
 
+SECTION "JanitorPic", ROMX
+JanitorPic: INCBIN "gfx/trainers/janitor.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

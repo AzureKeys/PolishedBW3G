@@ -54,6 +54,7 @@ TrainerPicPointers::
 	dba HikerPic
 	dba HikerDPic
 	dba HoopsterPic
+	dba JanitorPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic

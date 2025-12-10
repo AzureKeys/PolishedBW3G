@@ -53,6 +53,7 @@ TrainerClassNames::
 	li "Hiker"            ; HIKER
 	li "Hiker"            ; HIKER_D
 	li "Hoopster"         ; HOOPSTER
+	li "Janitor"          ; JANITOR
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
