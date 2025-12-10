@@ -121,11 +121,11 @@ DoctorPic: INCBIN "gfx/trainers/doctor.2bpp.lz"
 SECTION "NursePic", ROMX
 NursePic: INCBIN "gfx/trainers/nurse.2bpp.lz"
 
-SECTION "TwinsPic", ROMX
-TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
-
 SECTION "FisherPic", ROMX
 FisherPic: INCBIN "gfx/trainers/fisher.2bpp.lz"
+
+SECTION "TwinsPic", ROMX
+TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
 SECTION "BirdKeeperPic", ROMX
 BirdKeeperPic: INCBIN "gfx/trainers/bird_keeper.2bpp.lz"

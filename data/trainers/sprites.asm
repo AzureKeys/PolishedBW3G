@@ -45,8 +45,9 @@ BTTrainerClassSprites:
 	db SPRITE_OFFICER       ; DEPOT_AGENT
 	db SPRITE_SCIENTIST     ; DOCTOR
 	db SPRITE_NURSE         ; NURSE
-	db SPRITE_TWIN          ; TWINS
 	db SPRITE_FISHER        ; FISHER
+	db SPRITE_FISHER        ; FISHER_D
+	db SPRITE_TWIN          ; TWINS
 	db SPRITE_BIRD_KEEPER   ; BIRD_KEEPER
 	db SPRITE_HIKER         ; HIKER
 	db SPRITE_ROCKET        ; GRUNTM

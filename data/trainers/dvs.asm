@@ -47,8 +47,9 @@ TrainerClassDVsAndPersonality:
 	db  48, $DD, $BB, $DB, MALE   ; depot agent
 	db  48, $E5, $FA, $D6, MALE   ; doctor
 	db  48, $E5, $FA, $D6, FEMALE ; nurse
-	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
+	db  16, $88, $88, $88, MALE   ; fisherD
+	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  24, $99, $99, $99, MALE   ; hiker
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

@@ -1365,6 +1365,69 @@ NurseGroup:
 	def_trainer NURSE_TWIST_MOUNTAIN, "Winifred"
 	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
+
+
+SECTION "FisherGroup", ROMX
+FisherGroup:
+
+	def_trainer_class FISHER
+	def_trainer FISHER_UNDELLA_1, "Ralph"
+	tr_mon 11, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R4_1, "Ralph"
+	tr_mon 17, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R3_1, "Ralph"
+	tr_mon 17, RATTATA
+	tr_mon 19, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R17_1, "Ralph"
+	tr_mon 30, RATTATA
+	tr_mon 32, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R8, "Ralph"
+	tr_mon 36, RATTATA
+		tr_moves TOXIC, TACKLE, SURF, PIN_MISSILE
+	tr_mon 36, LANTURN
+		tr_moves REVERSAL, WATERFALL, THUNDERBOLT, CONFUSE_RAY
+	tr_mon 39, RATTATA
+		tr_moves WATERFALL, AGILITY, FURY_STRIKES, POISON_JAB
+	end_trainer
+
+	def_trainer FISHER_MOOR_OF_ICIRRUS_1, "Tully"
+	tr_mon 30, RATTATA
+	end_trainer
+
+
+SECTION "FisherDGroup", ROMX
+FisherDGroup:
+
+	def_trainer_class FISHER_D
+	def_trainer FISHER_UNDELLA_2, "Ralph"
+	tr_mon 11, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R4_2, "Ralph"
+	tr_mon 17, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R3_2, "Ralph"
+	tr_mon 17, RATTATA
+	tr_mon 19, RATTATA
+	end_trainer
+
+	def_trainer FISHER_R17_2, "Ralph"
+	tr_mon 30, RATTATA
+	tr_mon 32, RATTATA
+	end_trainer
+
+	def_trainer FISHER_MOOR_OF_ICIRRUS_2, "Tully"
+	tr_mon 30, RATTATA
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -1447,230 +1510,6 @@ TwinsGroup:
 	def_trainer KAYANDTIA2, "Kay & Tia"
 	tr_mon 56, RATTATA
 	tr_mon 56, RATTATA
-	end_trainer
-
-
-SECTION "FisherGroup", ROMX
-FisherGroup:
-
-	def_trainer_class FISHER
-	def_trainer RALPH1, "Ralph"
-	tr_mon 11, RATTATA
-	end_trainer
-
-	def_trainer RALPH2, "Ralph"
-	tr_mon 17, RATTATA
-	end_trainer
-
-	def_trainer RALPH3, "Ralph"
-	tr_mon 17, RATTATA
-	tr_mon 19, RATTATA
-	end_trainer
-
-	def_trainer RALPH4, "Ralph"
-	tr_mon 30, RATTATA
-	tr_mon 32, RATTATA
-	end_trainer
-
-	def_trainer RALPH5, "Ralph"
-	tr_mon 36, RATTATA
-		tr_moves TOXIC, TACKLE, SURF, PIN_MISSILE
-	tr_mon 36, LANTURN
-		tr_moves REVERSAL, WATERFALL, THUNDERBOLT, CONFUSE_RAY
-	tr_mon 39, RATTATA
-		tr_moves WATERFALL, AGILITY, FURY_STRIKES, POISON_JAB
-	end_trainer
-
-	def_trainer TULLY1, "Tully"
-	tr_mon 30, RATTATA
-	end_trainer
-
-	def_trainer TULLY2, "Tully"
-	tr_mon 35, RATTATA
-	tr_mon 35, RATTATA
-	end_trainer
-
-	def_trainer TULLY3, "Tully"
-	tr_mon 40, POLIWHIRL
-	tr_mon 40, RATTATA
-	tr_mon 40, RATTATA
-	end_trainer
-
-	def_trainer TULLY4, "Tully"
-	tr_mon 43, POLIWRATH
-		tr_moves RAIN_DANCE, HYPNOSIS, WATERFALL, CLOSE_COMBAT
-	tr_mon 43, RATTATA
-		tr_moves AGILITY, WATERFALL, BODY_SLAM, POISON_JAB
-	tr_mon 45, RATTATA
-		tr_moves ROLLOUT, WATERFALL, PIN_MISSILE, TAKE_DOWN
-	end_trainer
-
-	def_trainer WILTON1, "Wilton"
-	tr_mon 34, RATTATA
-	tr_mon 36, REMORAID
-	tr_mon 36, RATTATA
-	end_trainer
-
-	def_trainer WILTON2, "Wilton"
-	tr_mon 36, RATTATA
-	tr_mon 38, REMORAID
-	tr_mon 38, RATTATA
-	end_trainer
-
-	def_trainer WILTON3, "Wilton"
-	tr_mon 38, RATTATA
-		tr_moves WATERFALL, FURY_STRIKES, POISON_JAB, RAIN_DANCE
-	tr_mon 40, RATTATA
-		tr_moves WATERFALL, BODY_SLAM, POISON_JAB, AGILITY
-	tr_mon 42, OCTILLERY
-		tr_moves PSYBEAM, AURORA_BEAM, TACKLE, HYPER_BEAM
-	end_trainer
-
-	def_trainer JUSTIN, "Justin"
-	tr_mon 5, RATTATA, MALE | PLAIN_FORM
-		tr_dvs 8 HP, 7 Atk, 7 Def, 8 Spe, 7 SAt, 7 SDf
-	tr_mon 5, RATTATA, MALE
-		tr_dvs 8 HP, 8 Atk, 11 Def, 8 Spe, 8 SAt, 11 SDf
-	tr_mon 15, RATTATA, MALE
-		tr_dvs 10 HP, 2 Atk, 10 Def, 10 Spe, 2 SAt, 10 SDf
-	tr_mon 5, RATTATA, MALE
-		tr_dvs 3 HP, 9 Atk, 9 Def, 3 Spe, 9 SAt, 9 SDf
-	end_trainer
-
-	def_trainer ARNOLD, "Arnold"
-	tr_mon 62, RATTATA
-	end_trainer
-
-	def_trainer KYLE, "Kyle"
-	tr_mon 57, RATTATA
-	tr_mon 54, RATTATA
-	tr_mon 57, RATTATA
-	end_trainer
-
-	def_trainer HENRY, "Henry"
-	tr_mon 9, POLIWAG
-	tr_mon 9, POLIWAG
-	end_trainer
-
-
-	def_trainer MARVIN, "Marvin"
-	tr_mon 20, RATTATA, MALE
-	tr_mon 25, RATTATA, MALE
-	tr_mon 30, RATTATA, MALE
-	end_trainer
-
-	def_trainer ANDRE, "Andre"
-	tr_mon 32, RATTATA
-	end_trainer
-
-
-	def_trainer RAYMOND, "Raymond"
-	tr_mon 30, RATTATA, MALE
-		tr_moves TACKLE, TACKLE, REVERSAL, DRAGON_RAGE
-	tr_mon 30, RATTATA, MALE
-		tr_moves TACKLE, TACKLE, REVERSAL, DRAGON_RAGE
-	tr_mon 30, RATTATA, MALE
-		tr_moves TACKLE, TACKLE, REVERSAL, DRAGON_RAGE
-	tr_mon 30, RATTATA, MALE
-		tr_moves TACKLE, TACKLE, REVERSAL, DRAGON_RAGE
-	end_trainer
-
-	def_trainer EDGAR, "Edgar"
-	tr_mon 36, REMORAID
-		tr_moves FLAMETHROWER, PSYBEAM, AURORA_BEAM, BUBBLE_BEAM
-	tr_mon 36, REMORAID
-		tr_moves ICE_BEAM, PSYBEAM, AURORA_BEAM, BUBBLE_BEAM
-	end_trainer
-
-	def_trainer JONAH, "Jonah"
-	tr_mon 44, RATTATA
-	tr_mon 46, OCTILLERY
-	tr_mon 44, REMORAID
-	tr_mon 46, RATTATA
-	end_trainer
-
-	def_trainer MARTIN, "Martin"
-	tr_mon 56, REMORAID
-	tr_mon 58, OCTILLERY
-	end_trainer
-
-	def_trainer STEPHEN, "Stephen"
-	tr_mon 60, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 55, RATTATA
-	tr_mon 55, RATTATA
-	end_trainer
-
-	def_trainer BARNEY, "Barney"
-	tr_mon 57, RATTATA
-	tr_mon 56, RATTATA
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer SCOTT, "Scott"
-	tr_mon 40, RATTATA
-	tr_mon 40, RATTATA
-	tr_mon 42, RATTATA
-	end_trainer
-
-	def_trainer PATON, "Paton"
-	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 2, MANTINE
-	end_trainer
-
-	def_trainer KILEY, "Kiley"
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA, MALE | PLAIN_FORM
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA, MALE
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA, MALE
-	tr_mon LEVEL_FROM_BADGES + 5, MANTINE, MALE
-	end_trainer
-
-	def_trainer FRANCIS, "Francis"
-	tr_mon LEVEL_FROM_BADGES + 4, REMORAID
-	tr_mon LEVEL_FROM_BADGES + 5, CHINCHOU
-	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
-	end_trainer
-
-	def_trainer LEROY, "Virgil" ; MISMATCH
-	tr_mon 51, RATTATA, MALE
-	tr_mon 52, RATTATA, MALE
-	tr_mon 53, RATTATA, MALE
-	tr_mon 54, RATTATA, MALE
-	tr_mon 55, RATTATA, MALE
-	tr_mon 56, RATTATA, MALE
-	end_trainer
-
-	def_trainer KYLER, "Kyler"
-	tr_mon 48, RATTATA, MALE | PLAIN_FORM
-	tr_mon 48, RATTATA, MALE
-	tr_mon 48, RATTATA, MALE
-	end_trainer
-
-	def_trainer MURPHY, "Murphy"
-	tr_mon 54, CORSOLA
-	tr_mon 56, CORSOLA
-	tr_mon 58, CORSOLA
-	tr_mon 60, CORSOLA
-	end_trainer
-
-	def_trainer LIAM, "Liam"
-	tr_mon 62, SEADRA
-	end_trainer
-
-	def_trainer GIDEON, "Gideon"
-	tr_mon 60, LANTURN
-	tr_mon 56, MANTINE
-	end_trainer
-
-	def_trainer HALL, "Hall"
-	tr_mon 56, "Dopefish", RATTATA
-		tr_dvs 8 HP, 7 Atk, 13 Def, 8 Spe, 2 SAt, 8 SDf ; green
-	end_trainer
-
-	def_trainer DALLAS, "Dallas"
-	tr_mon 61, RATTATA
-	tr_mon 63, LANTURN
-	tr_mon 65, RATTATA
 	end_trainer
 
 

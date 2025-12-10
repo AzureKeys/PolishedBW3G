@@ -287,6 +287,21 @@ DEF CRYS EQU __trainer_class__
 	const NURSE_VICTORY_ROAD
 	const NURSE_TWIST_MOUNTAIN
 
+	trainerclass FISHER ; 2d
+	const FISHER_UNDELLA_1
+	const FISHER_R4_1
+	const FISHER_R3_1
+	const FISHER_R17_1
+	const FISHER_R8
+	const FISHER_MOOR_OF_ICIRRUS_1
+
+	trainerclass FISHER_D ; 2e
+	const FISHER_UNDELLA_2
+	const FISHER_R4_2
+	const FISHER_R3_2
+	const FISHER_R17_2
+	const FISHER_MOOR_OF_ICIRRUS_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -302,43 +317,6 @@ DEF CRYS EQU __trainer_class__
 	const DAYANDDANI2
 	const KAYANDTIA1
 	const KAYANDTIA2
-
-	trainerclass FISHER ; 25
-	const RALPH1
-	const RALPH2
-	const RALPH3
-	const RALPH4
-	const RALPH5
-	const TULLY1
-	const TULLY2
-	const TULLY3
-	const TULLY4
-	const WILTON1
-	const WILTON2
-	const WILTON3
-	const JUSTIN
-	const ARNOLD
-	const KYLE
-	const HENRY
-	const MARVIN
-	const ANDRE
-	const RAYMOND
-	const EDGAR
-	const JONAH
-	const MARTIN
-	const STEPHEN
-	const BARNEY
-	const SCOTT
-	const PATON
-	const KILEY
-	const FRANCIS
-	const LEROY
-	const KYLER
-	const MURPHY
-	const LIAM
-	const GIDEON
-	const HALL
-	const DALLAS
 
 	trainerclass BIRD_KEEPER ; 26
 	const VANCE1

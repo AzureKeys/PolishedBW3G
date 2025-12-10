@@ -47,8 +47,9 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; DEPOT_AGENT
 	dbit MALE_BIT   ; DOCTOR
 	dbit FEMALE_BIT ; NURSE
-	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; FISHER
+	dbit MALE_BIT   ; FISHER_D
+	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; HIKER
 	dbit MALE_BIT   ; GRUNTM

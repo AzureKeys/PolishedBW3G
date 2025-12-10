@@ -44,8 +44,9 @@ TrainerClassNames::
 	li "Depot Agent"      ; DEPOT_AGENT
 	li "Doctor"           ; DOCTOR
 	li "Nurse"            ; NURSE
-	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
+	li "Fisherman"        ; FISHER_D
+	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Hiker"            ; HIKER
 	li "Rocket"           ; GRUNTM

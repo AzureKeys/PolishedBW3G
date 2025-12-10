@@ -45,8 +45,9 @@ TrainerPicPointers::
 	dba DepotAgentPic
 	dba DoctorPic
 	dba NursePic
-	dba TwinsPic
 	dba FisherPic
+	dba FisherPic
+	dba TwinsPic
 	dba BirdKeeperPic
 	dba HikerPic
 	dba GruntmPic

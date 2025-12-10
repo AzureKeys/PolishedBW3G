@@ -47,8 +47,9 @@ TrainerGroups:
 	dba DepotAgentGroup
 	dba DoctorGroup
 	dba NurseGroup
-	dba TwinsGroup
 	dba FisherGroup
+	dba FisherDGroup
+	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba HikerGroup
 	dba GruntMGroup
