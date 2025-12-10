@@ -82,6 +82,12 @@ LinebackerSpriteGFX:: INCBIN "gfx/sprites/linebacker.2bpp.lz"
 SECTION "MusicianSpriteGFX", ROMX
 MusicianSpriteGFX:: INCBIN "gfx/sprites/musician.2bpp.lz"
 
+SECTION "RangerMSpriteGFX", ROMX
+RangerMSpriteGFX:: INCBIN "gfx/sprites/ranger_m.2bpp.lz"
+
+SECTION "RangerFSpriteGFX", ROMX
+RangerFSpriteGFX:: INCBIN "gfx/sprites/ranger_f.2bpp.lz"
+
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lz"
 

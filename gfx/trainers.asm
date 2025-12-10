@@ -175,6 +175,12 @@ PkmnBreederMPic: INCBIN "gfx/trainers/pkmn_breeder_m.2bpp.lz"
 SECTION "PkmnBreederFPic", ROMX
 PkmnBreederFPic: INCBIN "gfx/trainers/pkmn_breeder_f.2bpp.lz"
 
+SECTION "PkmnRangerMPic", ROMX
+PkmnRangerMPic: INCBIN "gfx/trainers/pkmn_ranger_m.2bpp.lz"
+
+SECTION "PkmnRangerFPic", ROMX
+PkmnRangerFPic: INCBIN "gfx/trainers/pkmn_ranger_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

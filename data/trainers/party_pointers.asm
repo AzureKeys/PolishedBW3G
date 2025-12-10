@@ -66,6 +66,8 @@ TrainerGroups:
 	dba PilotGroup
 	dba PkmnBreederMGroup
 	dba PkmnBreederFGroup
+	dba PkmnRangerMGroup
+	dba PkmnRangerFGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

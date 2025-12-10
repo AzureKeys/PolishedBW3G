@@ -30,6 +30,8 @@
 	const SPRITE_HARLEQUIN ; 1c
 	const SPRITE_LINEBACKER ; 1d
 	const SPRITE_MUSICIAN ; 1e
+	const SPRITE_RANGER_M ; 1f
+	const SPRITE_RANGER_F ; 20
 	const SPRITE_YELLOW ; 22
 	const SPRITE_OAK ; 23
 	const SPRITE_ELM ; 24

@@ -64,6 +64,8 @@ TrainerPicPointers::
 	dba PilotPic
 	dba PkmnBreederMPic
 	dba PkmnBreederFPic
+	dba PkmnRangerMPic
+	dba PkmnRangerFPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic

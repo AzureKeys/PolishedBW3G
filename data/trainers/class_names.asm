@@ -63,6 +63,8 @@ TrainerClassNames::
 	li "Pilot"            ; PILOT
 	li "<PK><MN> Breeder" ; PKMN_BREEDERM
 	li "<PK><MN> Breeder" ; PKMN_BREEDERF
+	li "<PK><MN> Ranger"  ; PKMN_RANGERM
+	li "<PK><MN> Ranger"  ; PKMN_RANGERF
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM

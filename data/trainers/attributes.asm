@@ -380,6 +380,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
+; Pkmn Rangerm
+	db 0, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Pkmn Rangerf
+	db 0, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
