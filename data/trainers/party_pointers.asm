@@ -53,9 +53,10 @@ TrainerGroups:
 	dba GuitaristGroup
 	dba HarlequinGroup
 	dba HexManiacGroup
+	dba HikerGroup
+	dba HikerDGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
-	dba HikerGroup
 	dba GruntMGroup
 	dba GruntFGroup
 	dba PokefanMGroup

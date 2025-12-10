@@ -136,14 +136,17 @@ HarlequinPic: INCBIN "gfx/trainers/harlequin.2bpp.lz"
 SECTION "HexManiacPic", ROMX
 HexManiacPic: INCBIN "gfx/trainers/hex_maniac.2bpp.lz"
 
+SECTION "HikerPic", ROMX
+HikerPic: INCBIN "gfx/trainers/hiker.2bpp.lz"
+
+SECTION "HikerDPic", ROMX
+HikerDPic: INCBIN "gfx/trainers/hiker_d.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
 SECTION "BirdKeeperPic", ROMX
 BirdKeeperPic: INCBIN "gfx/trainers/bird_keeper.2bpp.lz"
-
-SECTION "HikerPic", ROMX
-HikerPic: INCBIN "gfx/trainers/hiker.2bpp.lz"
 
 SECTION "GruntmPic", ROMX
 GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"

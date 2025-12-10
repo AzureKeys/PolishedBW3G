@@ -53,9 +53,10 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; GUITARIST
 	dbit MALE_BIT   ; HARLEQUIN
 	dbit FEMALE_BIT ; HEX_MANIAC
+	dbit MALE_BIT   ; HIKER
+	dbit MALE_BIT   ; HIKER_D
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
-	dbit MALE_BIT   ; HIKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
 	dbit MALE_BIT   ; POKEFANM

@@ -333,6 +333,24 @@ DEF CRYS EQU __trainer_class__
 	const HEX_MANIAC_CELESTIAL_TOWER_2
 	const HEX_MANIAC_VICTORY_ROAD_INT
 
+	trainerclass HIKER ; 33
+	const HIKER_REVERSAL_1
+	const HIKER_WELLSPRING
+	const HIKER_R18
+	const HIKER_RELIC_PASSAGE_1
+	const HIKER_CHARGESTONE_2
+	const HIKER_MISTRALTON_CAVE_1
+	const HIKER_TWIST_MOUNTAIN_1
+
+	trainerclass HIKER_D ; 34
+	const HIKER_REVERSAL_2
+	const HIKER_GIANT_CHASM
+	const HIKER_RELIC_PASSAGE_2
+	const HIKER_CHARGESTONE_1
+	const HIKER_CHARGESTONE_3
+	const HIKER_MISTRALTON_CAVE_2
+	const HIKER_TWIST_MOUNTAIN_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -381,44 +399,6 @@ DEF CRYS EQU __trainer_class__
 	const EASTON
 	const BRYAN
 	const TRENT
-
-	trainerclass HIKER ; 27
-	const ANTHONY1
-	const ANTHONY2
-	const ANTHONY3
-	const ANTHONY4
-	const ANTHONY5
-	const PARRY1
-	const PARRY2
-	const PARRY3
-	const RUSSELL
-	const PHILLIP
-	const LEONARD
-	const BENJAMIN
-	const ERIK
-	const MICHAEL
-	const TIMOTHY
-	const BAILEY
-	const TIM
-	const NOLAND
-	const SIDNEY
-	const KENNY
-	const JIM
-	const DANIEL
-	const EDWIN
-	const DEVIN
-	const SEAMUS
-	const TONY
-	const MARCOS
-	const GERARD
-	const DENT
-	const BRUCE
-	const DWIGHT
-	const LESTER
-	const GRADY
-	const STEVE
-	const DERRICK
-	const FLOYD
 
 	trainerclass GRUNTM ; 28
 

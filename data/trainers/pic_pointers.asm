@@ -51,9 +51,10 @@ TrainerPicPointers::
 	dba GuitaristPic
 	dba HarlequinPic
 	dba HexManiacPic
+	dba HikerPic
+	dba HikerDPic
 	dba TwinsPic
 	dba BirdKeeperPic
-	dba HikerPic
 	dba GruntmPic
 	dba GruntfPic
 	dba PokefanmPic

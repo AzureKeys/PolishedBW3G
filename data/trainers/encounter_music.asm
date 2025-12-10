@@ -52,9 +52,10 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; guitarist
 	db MUSIC_HIKER_ENCOUNTER ; harlequin
 	db MUSIC_SAGE_ENCOUNTER ; hex_maniac
+	db MUSIC_HIKER_ENCOUNTER ; hiker
+	db MUSIC_HIKER_ENCOUNTER ; hikerD
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
-	db MUSIC_HIKER_ENCOUNTER ; hiker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
 	db MUSIC_HIKER_ENCOUNTER ; pokefanm

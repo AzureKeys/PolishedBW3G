@@ -50,9 +50,10 @@ TrainerClassNames::
 	li "Guitarist"        ; GUITARIST
 	li "Harlequin"        ; HARLEQUIN
 	li "Hex Maniac"       ; HEX_MANIAC
+	li "Hiker"            ; HIKER
+	li "Hiker"            ; HIKER_D
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
-	li "Hiker"            ; HIKER
 	li "Rocket"           ; GRUNTM
 	li "Rocket"           ; GRUNTF
 	li "#fan"             ; POKEFANM

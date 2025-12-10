@@ -1584,6 +1584,96 @@ HexManiacGroup:
 	tr_mon 52, ESPEON
 	tr_mon 55, GENGAR
 	end_trainer
+
+
+SECTION "HikerGroup", ROMX
+HikerGroup:
+
+	def_trainer_class HIKER
+	def_trainer HIKER_REVERSAL_1, "Anthony"
+	tr_mon 12, GEODUDE
+	tr_mon 12, RATTATA
+	end_trainer
+
+	def_trainer HIKER_WELLSPRING, "Anthony"
+	tr_mon 16, GEODUDE
+	tr_mon 18, RATTATA
+	end_trainer
+
+	def_trainer HIKER_R18, "Anthony"
+	tr_mon 25, GRAVELER
+	tr_mon 27, GRAVELER
+	tr_mon 29, RATTATA
+	end_trainer
+
+	def_trainer HIKER_RELIC_PASSAGE_1, "Anthony"
+	tr_mon 30, GRAVELER
+	tr_mon 30, GRAVELER
+	tr_mon 32, RATTATA
+	end_trainer
+
+	def_trainer HIKER_CHARGESTONE_2, "Anthony"
+	tr_mon 34, GRAVELER
+		tr_moves MAGNITUDE, MUD_SLAP, SANDSTORM, ROCK_SLIDE
+	tr_mon 36, GOLEM
+		tr_moves BULLDOZE, EXPLOSION, DEFENSE_CURL, ROLLOUT
+	tr_mon 34, RATTATA
+		tr_moves BRICK_BREAK, BULLET_PUNCH, HEADBUTT, DIG
+	end_trainer
+
+	def_trainer HIKER_MISTRALTON_CAVE_1, "Parry"
+	tr_mon 30, ONIX
+	end_trainer
+
+	def_trainer HIKER_TWIST_MOUNTAIN_1, "Parry"
+	tr_mon 36, ONIX
+	tr_mon 35, PILOSWINE
+	end_trainer
+
+
+SECTION "HikerDGroup", ROMX
+HikerDGroup:
+
+	def_trainer_class HIKER_D
+	def_trainer HIKER_REVERSAL_2, "Anthony"
+	tr_mon 12, GEODUDE
+	tr_mon 12, RATTATA
+	end_trainer
+
+	def_trainer HIKER_GIANT_CHASM, "Anthony"
+	tr_mon 16, GEODUDE
+	tr_mon 18, RATTATA
+	end_trainer
+
+	def_trainer HIKER_RELIC_PASSAGE_2, "Anthony"
+	tr_mon 30, GRAVELER
+	tr_mon 30, GRAVELER
+	tr_mon 32, RATTATA
+	end_trainer
+
+	def_trainer HIKER_CHARGESTONE_1, "Anthony"
+	tr_mon 34, GRAVELER
+		tr_moves MAGNITUDE, MUD_SLAP, SANDSTORM, ROCK_SLIDE
+	tr_mon 36, GOLEM
+		tr_moves BULLDOZE, EXPLOSION, DEFENSE_CURL, ROLLOUT
+	tr_mon 34, RATTATA
+		tr_moves BRICK_BREAK, BULLET_PUNCH, HEADBUTT, DIG
+	end_trainer
+
+	def_trainer HIKER_CHARGESTONE_3, "Anthony"
+	tr_mon 25, GRAVELER
+	tr_mon 27, GRAVELER
+	tr_mon 29, RATTATA
+	end_trainer
+
+	def_trainer HIKER_MISTRALTON_CAVE_2, "Parry"
+	tr_mon 30, ONIX
+	end_trainer
+
+	def_trainer HIKER_TWIST_MOUNTAIN_2, "Parry"
+	tr_mon 36, ONIX
+	tr_mon 35, PILOSWINE
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -1837,216 +1927,6 @@ BirdKeeperGroup:
 	tr_mon 33, RATTATA
 	tr_mon 44, RATTATA
 	tr_mon 55, RATTATA
-	end_trainer
-
-
-SECTION "HikerGroup", ROMX
-HikerGroup:
-
-	def_trainer_class HIKER
-	def_trainer ANTHONY1, "Anthony"
-	tr_mon 12, GEODUDE
-	tr_mon 12, RATTATA
-	end_trainer
-
-	def_trainer ANTHONY2, "Anthony"
-	tr_mon 16, GEODUDE
-	tr_mon 18, RATTATA
-	end_trainer
-
-	def_trainer ANTHONY3, "Anthony"
-	tr_mon 25, GRAVELER
-	tr_mon 27, GRAVELER
-	tr_mon 29, RATTATA
-	end_trainer
-
-	def_trainer ANTHONY4, "Anthony"
-	tr_mon 30, GRAVELER
-	tr_mon 30, GRAVELER
-	tr_mon 32, RATTATA
-	end_trainer
-
-	def_trainer ANTHONY5, "Anthony"
-	tr_mon 34, GRAVELER
-		tr_moves MAGNITUDE, MUD_SLAP, SANDSTORM, ROCK_SLIDE
-	tr_mon 36, GOLEM
-		tr_moves BULLDOZE, EXPLOSION, DEFENSE_CURL, ROLLOUT
-	tr_mon 34, RATTATA
-		tr_moves BRICK_BREAK, BULLET_PUNCH, HEADBUTT, DIG
-	end_trainer
-
-	def_trainer PARRY1, "Parry"
-	tr_mon 30, ONIX
-	end_trainer
-
-	def_trainer PARRY2, "Parry"
-	tr_mon 36, ONIX
-	tr_mon 35, PILOSWINE
-	end_trainer
-
-	def_trainer PARRY3, "Parry"
-	tr_mon 36, PILOSWINE
-		tr_moves EARTHQUAKE, TACKLE, REST, TAKE_DOWN
-	tr_mon 36, RATTATA
-		tr_moves MAGNITUDE, DIG, MUD_SLAP, SLASH
-	tr_mon 39, STEELIX
-		tr_moves DIG, IRON_TAIL, SANDSTORM, HEADBUTT
-	end_trainer
-
-	def_trainer RUSSELL, "Russell"
-	tr_mon 6, GEODUDE
-	tr_mon 8, GEODUDE
-	tr_mon 10, GEODUDE
-	end_trainer
-
-	def_trainer PHILLIP, "Phillip"
-	tr_mon 23, GEODUDE
-	tr_mon 23, GEODUDE
-	tr_mon 25, GRAVELER
-	end_trainer
-
-	def_trainer LEONARD, "Leonard"
-	tr_mon 23, GEODUDE
-	tr_mon 25, RATTATA
-	end_trainer
-
-	def_trainer BENJAMIN, "Benjamin"
-	tr_mon 24, RATTATA
-	tr_mon 24, DUNSPARCE
-	tr_mon 28, GLIGAR
-	end_trainer
-
-	def_trainer ERIK, "Erik"
-	tr_mon 35, GRAVELER
-	tr_mon 37, RATTATA
-	tr_mon 37, GLIGAR
-	end_trainer
-
-	def_trainer MICHAEL, "Michael"
-	tr_mon 35, GEODUDE
-	tr_mon 35, GRAVELER
-	tr_mon 35, GOLEM
-	end_trainer
-
-	def_trainer TIMOTHY, "Timothy"
-	tr_mon 36, SANDSLASH
-	tr_mon 37, RATTATA
-	end_trainer
-
-	def_trainer BAILEY, "Bailey"
-	tr_mon 15, GEODUDE
-	tr_mon 15, GEODUDE
-	tr_mon 15, GEODUDE
-	tr_mon 17, LARVITAR
-	end_trainer
-
-	def_trainer TIM, "Eoin" ; MISMATCH
-	tr_mon 50, RATTATA
-	tr_mon 52, GRAVELER
-	tr_mon 54, RATTATA
-	end_trainer
-
-	def_trainer NOLAND, "Noland"
-	tr_mon 45, RATTATA
-	tr_mon 47, GOLEM
-	end_trainer
-
-	def_trainer SIDNEY, "Clarke" ; MISMATCH
-	tr_mon 53, RATTATA
-	tr_mon 55, ONIX
-	end_trainer
-
-	def_trainer KENNY, "Kenny"
-	tr_mon 54, SANDSLASH
-	tr_mon 56, GRAVELER
-	tr_mon 58, GOLEM
-	tr_mon 56, GRAVELER
-	end_trainer
-
-	def_trainer JIM, "Jim"
-	tr_mon 57, RATTATA
-	end_trainer
-
-	def_trainer DANIEL, "Daniel"
-	tr_mon 12, ONIX
-	end_trainer
-
-	def_trainer EDWIN, "Edwin"
-	tr_mon 62, GOLEM
-	end_trainer
-
-	def_trainer DEVIN, "Devin"
-	tr_mon LEVEL_FROM_BADGES + 1, DUNSPARCE
-	tr_mon LEVEL_FROM_BADGES + 2, ONIX
-	tr_mon LEVEL_FROM_BADGES + 1, LARVITAR
-	end_trainer
-
-	def_trainer SEAMUS, "Seamus"
-	tr_mon 56, DUDUNSPARCE
-	tr_mon 53, ONIX
-	tr_mon 54, GOLEM
-	tr_mon 53, ONIX
-	end_trainer
-
-	def_trainer TONY, "Tony"
-	tr_mon LEVEL_FROM_BADGES + 2, DUNSPARCE
-	tr_mon LEVEL_FROM_BADGES + 3, ONIX
-	tr_mon LEVEL_FROM_BADGES + 2, DUNSPARCE
-	end_trainer
-
-	def_trainer MARCOS, "Marcos"
-	tr_mon 60, SANDSLASH
-	tr_mon 59, SANDSHREW
-	tr_mon 62, RATTATA
-	tr_mon 62, ONIX
-	end_trainer
-
-	def_trainer GERARD, "Gerard"
-	tr_mon 59, RATTATA
-	tr_mon 61, RATTATA
-	end_trainer
-
-	def_trainer DENT, "Dent"
-	tr_mon 58, ONIX
-	tr_mon 59, STEELIX
-	tr_mon 59, GOLEM
-	end_trainer
-
-	def_trainer BRUCE, "Bruce"
-	tr_mon 57, GRAVELER
-	tr_mon 62, RATTATA
-	tr_mon 63, CLEFAIRY
-	end_trainer
-
-	def_trainer DWIGHT, "Dwight"
-	tr_mon 62, MAGNETON
-	tr_mon 62, STEELIX
-	end_trainer
-
-	def_trainer LESTER, "Lester"
-	tr_mon 55, CLEFABLE
-	tr_mon 53, SCYTHER
-	tr_mon 54, RATTATA
-	end_trainer
-
-	def_trainer GRADY, "Grady"
-	tr_mon LEVEL_FROM_BADGES + 4, GRAVELER
-	tr_mon LEVEL_FROM_BADGES + 4, GRAVELER
-	tr_mon LEVEL_FROM_BADGES + 5, SANDSLASH
-	end_trainer
-
-	def_trainer STEVE, "Steve"
-	tr_mon LEVEL_FROM_BADGES + 7, STEELIX
-	end_trainer
-
-	def_trainer DERRICK, "Derrick"
-	tr_mon 53, RATTATA
-	tr_mon 53, RATTATA
-	tr_mon 55, GOLEM
-	end_trainer
-
-	def_trainer FLOYD, "Floyd"
-	tr_mon 57, STEELIX
 	end_trainer
 
 

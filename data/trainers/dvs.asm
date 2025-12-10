@@ -53,9 +53,10 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, FEMALE ; guitarist
 	db  40, $BB, $BB, $BB, MALE   ; harlequin
 	db  48, $AA, $CC, $EE, FEMALE ; hex maniac
+	db  24, $99, $99, $99, MALE   ; hiker
+	db  24, $99, $99, $99, MALE   ; hikerD
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
-	db  24, $99, $99, $99, MALE   ; hiker
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
 	db  32, $AA, $AA, $AA, MALE   ; pokefanm
