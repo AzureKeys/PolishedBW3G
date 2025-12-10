@@ -55,6 +55,7 @@ TrainerGroups:
 	dba HexManiacGroup
 	dba HikerGroup
 	dba HikerDGroup
+	dba HoopsterGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

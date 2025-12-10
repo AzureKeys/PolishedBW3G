@@ -52,6 +52,7 @@ TrainerClassNames::
 	li "Hex Maniac"       ; HEX_MANIAC
 	li "Hiker"            ; HIKER
 	li "Hiker"            ; HIKER_D
+	li "Hoopster"         ; HOOPSTER
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM

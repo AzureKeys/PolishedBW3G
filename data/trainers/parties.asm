@@ -1674,6 +1674,21 @@ HikerDGroup:
 	tr_mon 36, ONIX
 	tr_mon 35, PILOSWINE
 	end_trainer
+
+
+SECTION "HoopsterGroup", ROMX
+HoopsterGroup:
+
+	def_trainer_class HOOPSTER
+	def_trainer HOOPSTER_VILLAGE_BRIDGE_1, "Anthony"
+	tr_mon 12, GEODUDE
+	tr_mon 12, RATTATA
+	end_trainer
+
+	def_trainer HOOPSTER_VILLAGE_BRIDGE_2, "Anthony"
+	tr_mon 16, GEODUDE
+	tr_mon 18, RATTATA
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

@@ -53,6 +53,7 @@ TrainerPicPointers::
 	dba HexManiacPic
 	dba HikerPic
 	dba HikerDPic
+	dba HoopsterPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
