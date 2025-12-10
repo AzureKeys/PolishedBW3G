@@ -46,6 +46,7 @@ TrainerClassNames::
 	li "Nurse"            ; NURSE
 	li "Fisherman"        ; FISHER
 	li "Fisherman"        ; FISHER_D
+	li "Gentleman"        ; GENTLEMAN
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Hiker"            ; HIKER
@@ -73,7 +74,6 @@ TrainerClassNames::
 	li "Elder"            ; ELDER
 	li "Sr.& Jr."         ; SR_AND_JR
 	li "Couple"           ; COUPLE
-	li "Gentleman"        ; GENTLEMAN
 	li "Rich Boy"         ; RICH_BOY
 	li "Lady"             ; LADY
 	li "Breeder"          ; BREEDER

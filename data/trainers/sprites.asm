@@ -47,6 +47,7 @@ BTTrainerClassSprites:
 	db SPRITE_NURSE         ; NURSE
 	db SPRITE_FISHER        ; FISHER
 	db SPRITE_FISHER        ; FISHER_D
+	db SPRITE_GENTLEMAN     ; GENTLEMAN
 	db SPRITE_TWIN          ; TWINS
 	db SPRITE_BIRD_KEEPER   ; BIRD_KEEPER
 	db SPRITE_HIKER         ; HIKER
@@ -74,7 +75,6 @@ BTTrainerClassSprites:
 	db SPRITE_ELDER         ; ELDER
 	db SPRITE_CUTE_GIRL     ; SR_AND_JR
 	db SPRITE_COOL_DUDE     ; COUPLE
-	db SPRITE_GENTLEMAN     ; GENTLEMAN
 	db SPRITE_RICH_BOY      ; RICH_BOY
 	db SPRITE_LADY          ; LADY
 	db SPRITE_BREEDER       ; BREEDER

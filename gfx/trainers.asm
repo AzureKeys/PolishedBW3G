@@ -124,6 +124,9 @@ NursePic: INCBIN "gfx/trainers/nurse.2bpp.lz"
 SECTION "FisherPic", ROMX
 FisherPic: INCBIN "gfx/trainers/fisher.2bpp.lz"
 
+SECTION "GentlemanPic", ROMX
+GentlemanPic: INCBIN "gfx/trainers/gentleman.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -204,9 +207,6 @@ SrAndJrPic: INCBIN "gfx/trainers/sr_and_jr.2bpp.lz"
 
 SECTION "CouplePic", ROMX
 CouplePic: INCBIN "gfx/trainers/couple.2bpp.lz"
-
-SECTION "GentlemanPic", ROMX
-GentlemanPic: INCBIN "gfx/trainers/gentleman.2bpp.lz"
 
 SECTION "RichBoyPic", ROMX
 RichBoyPic: INCBIN "gfx/trainers/rich_boy.2bpp.lz"

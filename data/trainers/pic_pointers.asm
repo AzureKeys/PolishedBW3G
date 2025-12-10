@@ -47,6 +47,7 @@ TrainerPicPointers::
 	dba NursePic
 	dba FisherPic
 	dba FisherPic
+	dba GentlemanPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba HikerPic
@@ -74,7 +75,6 @@ TrainerPicPointers::
 	dba ElderPic
 	dba SrAndJrPic
 	dba CouplePic
-	dba GentlemanPic
 	dba RichBoyPic
 	dba LadyPic
 	dba BreederPic

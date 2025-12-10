@@ -302,6 +302,11 @@ DEF CRYS EQU __trainer_class__
 	const FISHER_R17_2
 	const FISHER_MOOR_OF_ICIRRUS_2
 
+	trainerclass GENTLEMAN ; 2f
+	const GENTLEMAN_R3
+	const GENTLEMAN_R2
+	const GENTLEMAN_CELESTIAL_TOWER
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -658,15 +663,6 @@ DEF CRYS EQU __trainer_class__
 	const TIMANDSUE2
 	const JOEANDJO1
 	const JOEANDJO2
-
-	trainerclass GENTLEMAN ; 42
-	const PRESTON
-	const EDWARD
-	const GREGORY
-	const ALFRED
-	const MILTON
-	const CAMUS
-	const GEOFFREY
 
 	trainerclass RICH_BOY ; 43
 	const WINSTON

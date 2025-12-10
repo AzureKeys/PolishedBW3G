@@ -49,6 +49,7 @@ TrainerClassDVsAndPersonality:
 	db  48, $E5, $FA, $D6, FEMALE ; nurse
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; fisherD
+	db  48, $CC, $CC, $CC, MALE   ; gentleman
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  24, $99, $99, $99, MALE   ; hiker
@@ -76,7 +77,6 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, MALE   ; elder
 	db  48, $CC, $CC, $CC, FEMALE ; sr&jr
 	db  48, $CC, $CC, $CC, MALE   ; couple
-	db  48, $CC, $CC, $CC, MALE   ; gentleman
 	db 100, $CC, $CC, $CC, MALE   ; rich boy (high EVs from vitamins)
 	db  48, $CC, $CC, $CC, FEMALE ; lady
 	db  56, $DD, $DD, $DD, FEMALE ; breeder (low EVs due to breeding)

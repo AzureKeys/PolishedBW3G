@@ -1428,6 +1428,26 @@ FisherDGroup:
 	def_trainer FISHER_MOOR_OF_ICIRRUS_2, "Tully"
 	tr_mon 30, RATTATA
 	end_trainer
+
+
+SECTION "GentlemanGroup", ROMX
+GentlemanGroup:
+
+	def_trainer_class GENTLEMAN
+	def_trainer GENTLEMAN_R3, "Preston"
+	tr_mon 18, GROWLITHE
+	tr_mon 18, SKARMORY
+	end_trainer
+
+	def_trainer GENTLEMAN_R2, "Edward"
+	tr_mon 49, PERSIAN
+	end_trainer
+
+	def_trainer GENTLEMAN_CELESTIAL_TOWER, "Gregory"
+	tr_mon 56, PIKACHU
+	tr_mon 53, FLAAFFY
+	tr_mon 53, CHINCHOU
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3399,45 +3419,6 @@ CoupleGroup:
 	def_trainer JOEANDJO2, "Joe & Jo"
 	tr_mon 52, RATTATA, FEMALE
 	tr_mon 56, RATTATA, MALE
-	end_trainer
-
-
-SECTION "GentlemanGroup", ROMX
-GentlemanGroup:
-
-	def_trainer_class GENTLEMAN
-	def_trainer PRESTON, "Preston"
-	tr_mon 18, GROWLITHE
-	tr_mon 18, SKARMORY
-	end_trainer
-
-	def_trainer EDWARD, "Edward"
-	tr_mon 49, PERSIAN
-	end_trainer
-
-	def_trainer GREGORY, "Gregory"
-	tr_mon 56, PIKACHU
-	tr_mon 53, FLAAFFY
-	tr_mon 53, CHINCHOU
-	end_trainer
-
-	def_trainer ALFRED, "Alfred"
-	tr_mon 22, RATTATA
-	end_trainer
-
-	def_trainer MILTON, "Milton"
-	tr_mon 53, GROWLITHE
-	tr_mon 56, ARCANINE
-	end_trainer
-
-	def_trainer CAMUS, "Camus"
-	tr_mon 55, SKARMORY
-	tr_mon 56, ARCANINE
-	tr_mon 54, PERSIAN
-	end_trainer
-
-	def_trainer GEOFFREY, "Geoffrey"
-	tr_mon 50, MEOWTH
 	end_trainer
 
 

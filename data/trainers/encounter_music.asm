@@ -48,6 +48,7 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; nurse
 	db MUSIC_HIKER_ENCOUNTER ; fisher
 	db MUSIC_HIKER_ENCOUNTER ; fisherD
+	db MUSIC_HIKER_ENCOUNTER ; gentleman
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_HIKER_ENCOUNTER ; hiker
@@ -75,7 +76,6 @@ TrainerEncounterMusic:
 	db MUSIC_SAGE_ENCOUNTER ; elder
 	db MUSIC_LASS_ENCOUNTER ; sr_and_jr
 	db MUSIC_HIKER_ENCOUNTER ; couple
-	db MUSIC_HIKER_ENCOUNTER ; gentleman
 	db MUSIC_YOUNGSTER_ENCOUNTER ; rich_boy
 	db MUSIC_BEAUTY_ENCOUNTER ; lady
 	db MUSIC_LASS_ENCOUNTER ; breeder

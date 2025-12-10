@@ -49,6 +49,7 @@ TrainerGroups:
 	dba NurseGroup
 	dba FisherGroup
 	dba FisherDGroup
+	dba GentlemanGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba HikerGroup
@@ -76,7 +77,6 @@ TrainerGroups:
 	dba ElderGroup
 	dba SrAndJrGroup
 	dba CoupleGroup
-	dba GentlemanGroup
 	dba RichBoyGroup
 	dba LadyGroup
 	dba BreederGroup

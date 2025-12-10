@@ -49,6 +49,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; NURSE
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; FISHER_D
+	dbit MALE_BIT   ; GENTLEMAN
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; HIKER
@@ -76,7 +77,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ELDER
 	dbit FEMALE_BIT ; SR_AND_JR
 	dbit MALE_BIT   ; COUPLE
-	dbit MALE_BIT   ; GENTLEMAN
 	dbit MALE_BIT   ; RICH_BOY
 	dbit FEMALE_BIT ; LADY
 	dbit FEMALE_BIT ; BREEDER
