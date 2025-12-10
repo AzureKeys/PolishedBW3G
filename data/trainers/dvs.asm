@@ -45,6 +45,8 @@ TrainerClassDVsAndPersonality:
 	db  32, $AA, $AA, $AA, FEMALE ; cyclistf
 	db  48, $CC, $CC, $CC, MALE   ; dancer
 	db  48, $DD, $BB, $DB, MALE   ; depot agent
+	db  48, $E5, $FA, $D6, MALE   ; doctor
+	db  48, $E5, $FA, $D6, FEMALE ; nurse
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper
@@ -55,7 +57,6 @@ TrainerClassDVsAndPersonality:
 	db  32, $AA, $AA, $AA, FEMALE ; pokefanf
 	db  48, $DD, $BB, $DB, MALE   ; officerm
 	db  48, $7B, $DB, $FF, FEMALE ; officerf
-	db  48, $E5, $FA, $D6, FEMALE ; nurse
 	db  40, $BB, $BB, $BB, MALE   ; pokemaniac
 	db  40, $BB, $BB, $BB, FEMALE ; cosplayer
 	db  40, $BB, $BB, $BB, MALE   ; super nerd

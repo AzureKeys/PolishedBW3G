@@ -44,6 +44,8 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; cyclistf
 	db MUSIC_HIKER_ENCOUNTER ; dancer
 	db MUSIC_OFFICER_ENCOUNTER ; depot_agent
+	db MUSIC_POKEMANIAC_ENCOUNTER ; doctor
+	db MUSIC_BEAUTY_ENCOUNTER ; nurse
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_HIKER_ENCOUNTER ; fisher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
@@ -54,7 +56,6 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; pokefanf
 	db MUSIC_OFFICER_ENCOUNTER ; officerm
 	db MUSIC_OFFICER_ENCOUNTER ; officerf
-	db MUSIC_BEAUTY_ENCOUNTER ; nurse
 	db MUSIC_POKEMANIAC_ENCOUNTER ; pokemaniac
 	db MUSIC_LASS_ENCOUNTER ; cosplayer
 	db MUSIC_POKEMANIAC_ENCOUNTER ; super_nerd

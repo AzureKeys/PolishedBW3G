@@ -254,6 +254,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Doctor
+	db SUPER_POTION, FULL_HEAL ; items
+	db 16 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; Nurse
+	db SUPER_POTION, FULL_HEAL ; items
+	db 16 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
@@ -311,12 +323,6 @@ TrainerClassAttributes:
 ; Officerf
 	db FRESH_WATER, 0 ; items
 	db 15 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Nurse
-	db 0, 0 ; items
-	db 16 ; base reward
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 

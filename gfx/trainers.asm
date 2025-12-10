@@ -115,6 +115,12 @@ DancerPic: INCBIN "gfx/trainers/dancer.2bpp.lz"
 SECTION "DepotAgentPic", ROMX
 DepotAgentPic: INCBIN "gfx/trainers/depot_agent.2bpp.lz"
 
+SECTION "DoctorPic", ROMX
+DoctorPic: INCBIN "gfx/trainers/doctor.2bpp.lz"
+
+SECTION "NursePic", ROMX
+NursePic: INCBIN "gfx/trainers/nurse.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -144,9 +150,6 @@ OfficermPic: INCBIN "gfx/trainers/officer_m.2bpp.lz"
 
 SECTION "OfficerfPic", ROMX
 OfficerfPic: INCBIN "gfx/trainers/officer_f.2bpp.lz"
-
-SECTION "NursePic", ROMX
-NursePic: INCBIN "gfx/trainers/nurse.2bpp.lz"
 
 SECTION "PokemaniacPic", ROMX
 PokemaniacPic: INCBIN "gfx/trainers/pokemaniac.2bpp.lz"

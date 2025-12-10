@@ -45,6 +45,8 @@ TrainerGroups:
 	dba CyclistFGroup
 	dba DancerGroup
 	dba DepotAgentGroup
+	dba DoctorGroup
+	dba NurseGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup
@@ -55,7 +57,6 @@ TrainerGroups:
 	dba PokefanFGroup
 	dba OfficerMGroup
 	dba OfficerFGroup
-	dba NurseGroup
 	dba PokemaniacGroup
 	dba CosplayerGroup
 	dba SuperNerdGroup

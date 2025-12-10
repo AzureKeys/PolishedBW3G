@@ -43,6 +43,8 @@ TrainerPicPointers::
 	dba CyclistFPic
 	dba DancerPic
 	dba DepotAgentPic
+	dba DoctorPic
+	dba NursePic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic
@@ -53,7 +55,6 @@ TrainerPicPointers::
 	dba PokefanfPic
 	dba OfficermPic
 	dba OfficerfPic
-	dba NursePic
 	dba PokemaniacPic
 	dba CosplayerPic
 	dba SuperNerdPic

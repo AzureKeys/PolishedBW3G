@@ -1317,6 +1317,54 @@ DepotAgentGroup:
 	tr_mon 55, MUK
 	tr_mon 55, POLIWRATH
 	end_trainer
+
+
+SECTION "DoctorGroup", ROMX
+DoctorGroup:
+
+	def_trainer_class DOCTOR
+	def_trainer DOCTOR_OUTSKIRTS, "Beatrice"
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	end_trainer
+
+	def_trainer DOCTOR_R17, "Keiko"
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	end_trainer
+
+	def_trainer DOCTOR_CHARGESTONE, "Joy"
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	end_trainer
+
+	def_trainer DOCTOR_SEASIDE_CAVE, "Winifred"
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	end_trainer
+
+
+SECTION "NurseGroup", ROMX
+NurseGroup:
+
+	def_trainer_class NURSE
+	def_trainer NURSE_DESERT, "Beatrice"
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	end_trainer
+
+	def_trainer NURSE_RELIC_PASSAGE, "Keiko"
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	end_trainer
+
+	def_trainer NURSE_CELESTIAL_TOWER, "Joy"
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	end_trainer
+
+	def_trainer NURSE_VICTORY_ROAD, "Winifred"
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	end_trainer
+
+	def_trainer NURSE_TWIST_MOUNTAIN, "Winifred"
+	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -2373,28 +2421,6 @@ OfficerFGroup:
 	tr_mon 53, RATTATA
 	tr_mon 53, RATTATA
 	tr_mon 53, RATTATA
-	end_trainer
-
-
-SECTION "NurseGroup", ROMX
-NurseGroup:
-
-	def_trainer_class NURSE
-	def_trainer BEATRICE, "Beatrice"
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer KEIKO, "Keiko"
-	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer JOY, "Joy"
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	end_trainer
-
-	def_trainer WINIFRED, "Winifred"
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
 

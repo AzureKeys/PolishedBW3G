@@ -42,6 +42,8 @@ TrainerClassNames::
 	li "Cyclist"          ; CYCLISTF
 	li "Dancer"           ; DANCER
 	li "Depot Agent"      ; DEPOT_AGENT
+	li "Doctor"           ; DOCTOR
+	li "Nurse"            ; NURSE
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
@@ -52,7 +54,6 @@ TrainerClassNames::
 	li "#fan"             ; POKEFANF
 	li "Officer"          ; OFFICERM
 	li "Officer"          ; OFFICERF
-	li "Nurse"            ; NURSE
 	li "#Maniac"          ; POKEMANIAC
 	li "Cosplayer"        ; COSPLAYER
 	li "Super Nerd"       ; SUPER_NERD

@@ -45,6 +45,8 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; CYCLISTF
 	dbit MALE_BIT   ; DANCER
 	dbit MALE_BIT   ; DEPOT_AGENT
+	dbit MALE_BIT   ; DOCTOR
+	dbit FEMALE_BIT ; NURSE
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; BIRD_KEEPER
@@ -55,7 +57,6 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; POKEFANF
 	dbit MALE_BIT   ; OFFICERM
 	dbit FEMALE_BIT ; OFFICERF
-	dbit FEMALE_BIT ; NURSE
 	dbit MALE_BIT   ; POKEMANIAC
 	dbit FEMALE_BIT ; COSPLAYER
 	dbit MALE_BIT   ; SUPER_NERD

@@ -274,6 +274,19 @@ DEF CRYS EQU __trainer_class__
 	const DEPOT_AGENT_R19_1
 	const DEPOT_AGENT_R19_2
 
+	trainerclass DOCTOR ; 2b
+	const DOCTOR_OUTSKIRTS
+	const DOCTOR_R17
+	const DOCTOR_CHARGESTONE
+	const DOCTOR_SEASIDE_CAVE
+
+	trainerclass NURSE ; 2c
+	const NURSE_DESERT
+	const NURSE_RELIC_PASSAGE
+	const NURSE_CELESTIAL_TOWER
+	const NURSE_VICTORY_ROAD
+	const NURSE_TWIST_MOUNTAIN
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -436,12 +449,6 @@ DEF CRYS EQU __trainer_class__
 	const JAMIE
 	const MARA
 	const JENNY
-
-	trainerclass NURSE ; 2e
-	const BEATRICE
-	const KEIKO
-	const JOY
-	const WINIFRED
 
 	trainerclass POKEMANIAC ; 2f
 	const BRENT1
