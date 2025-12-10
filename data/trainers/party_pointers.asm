@@ -62,6 +62,7 @@ TrainerGroups:
 	dba MaidGroup
 	dba MusicianGroup
 	dba NurseryAideGroup
+	dba ParasolLadyGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

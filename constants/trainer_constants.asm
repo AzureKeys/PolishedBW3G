@@ -397,6 +397,13 @@ DEF CRYS EQU __trainer_class__
 	const NURSERY_AIDE_R20
 	const NURSERY_AIDE_R7
 
+	trainerclass PARASOL_LADY ; 3c
+	const PARASOL_LADY_NACRENE_OUTSKIRT
+	const PARASOL_LADY_R6_1
+	const PARASOL_LADY_R6_2
+	const PARASOL_LADY_R8
+	const LOIS_REMATCH_1
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2

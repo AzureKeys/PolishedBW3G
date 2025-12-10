@@ -60,6 +60,7 @@ TrainerPicPointers::
 	dba MaidPic
 	dba MusicianPic
 	dba NurseryAidePic
+	dba ParasolLadyPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic

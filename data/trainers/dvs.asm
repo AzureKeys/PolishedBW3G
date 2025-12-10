@@ -62,6 +62,7 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, FEMALE ; maid
 	db  72, $DD, $DD, $DD, MALE   ; musician
 	db  72, $DD, $DD, $DD, FEMALE ; nursery aide
+	db  72, $DD, $DD, $DD, FEMALE ; parasol lady
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

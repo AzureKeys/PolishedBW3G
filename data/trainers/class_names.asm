@@ -59,6 +59,7 @@ TrainerClassNames::
 	li "Maid"             ; MAID
 	li "Musician"         ; MUSICIAN
 	li "Nursery Aide"     ; NURSERY_AIDE
+	li "Parasol Lady"     ; PARASOL_LADY
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM

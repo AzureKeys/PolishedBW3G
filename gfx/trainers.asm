@@ -163,6 +163,9 @@ MusicianPic: INCBIN "gfx/trainers/musician.2bpp.lz"
 SECTION "NurseryAidePic", ROMX
 NurseryAidePic: INCBIN "gfx/trainers/nursery_aide.2bpp.lz"
 
+SECTION "ParasolLadyPic", ROMX
+ParasolLadyPic: INCBIN "gfx/trainers/parasol_lady.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

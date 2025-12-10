@@ -356,6 +356,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Parasol Lady
+	db 0, 0 ; items
+	db 14 ; base reward
+	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
