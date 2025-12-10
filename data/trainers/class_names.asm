@@ -47,6 +47,7 @@ TrainerClassNames::
 	li "Fisherman"        ; FISHER
 	li "Fisherman"        ; FISHER_D
 	li "Gentleman"        ; GENTLEMAN
+	li "Guitarist"        ; GUITARIST
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Hiker"            ; HIKER
@@ -91,8 +92,6 @@ TrainerClassNames::
 	li "Engineer"         ; ENGINEER
 	li "Teacher"          ; TEACHER_F
 	li "Teacher"          ; TEACHER_M
-	li "Guitarist"        ; GUITARISTM
-	li "Guitarist"        ; GUITARISTF
 	li "Tamer"            ; TAMER
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER

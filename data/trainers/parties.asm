@@ -1448,6 +1448,36 @@ GentlemanGroup:
 	tr_mon 53, FLAAFFY
 	tr_mon 53, CHINCHOU
 	end_trainer
+
+
+SECTION "GuitaristGroup", ROMX
+GuitaristGroup:
+
+	def_trainer_class GUITARIST
+	def_trainer GUITARIST_VIRBANK_GYM_1, "Janet"
+	tr_mon 56, PIKACHU, FEMALE | PIKACHU_SURF_FORM
+		tr_moves IRON_TAIL, EXTREMESPEED, SURF, THUNDERBOLT
+	tr_mon 54, ELECTABUZZ, FEMALE
+		tr_moves LIGHT_SCREEN, THUNDERPUNCH, TACKLE, SCREECH
+	tr_mon 55, RAICHU, FEMALE | ALOLAN_FORM
+		tr_moves EXTREMESPEED, SURF, THUNDERBOLT, AGILITY
+	end_trainer
+
+	def_trainer GUITARIST_VIRBANK_GYM_2, "Morgan"
+	tr_mon 55, RATTATA
+	tr_mon 55, JOLTEON
+	end_trainer
+
+	def_trainer GUITARIST_CHARGESTONE_1, "Ritsuko"
+	tr_mon 56, JOLTEON
+	tr_mon 58, JOLTEON
+	end_trainer
+
+	def_trainer GUITARIST_CHARGESTONE_2, "Wanda"
+	tr_mon 53, MAGNEMITE
+	tr_mon 54, RATTATA
+	tr_mon 55, MAGNETON
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -4351,74 +4381,6 @@ TeacherMGroup:
 	def_trainer NOLAN, "Nolan"
 	tr_mon 54, RATTATA
 	tr_mon 55, MAGNEZONE
-	tr_mon 56, ELECTIVIRE
-	end_trainer
-
-
-SECTION "GuitaristMGroup", ROMX
-GuitaristMGroup:
-
-	def_trainer_class GUITARISTM
-	def_trainer CLYDE, "Clyde"
-	tr_mon 50, ELECTABUZZ
-	end_trainer
-
-	def_trainer VINCENT, "Vincent"
-	tr_mon 53, RATTATA
-	tr_mon 52, MAGNEMITE
-	tr_mon 55, JOLTEON
-	end_trainer
-
-	def_trainer ROGER, "Roger"
-	tr_mon 56, RAICHU
-	tr_mon 58, ELECTABUZZ
-	end_trainer
-
-	def_trainer EZEKIEL, "Ezekiel"
-	tr_mon 56, MAGNEZONE
-	end_trainer
-
-	def_trainer BIFF, "Biff"
-	tr_mon 52, ONIX
-	tr_mon 54, MAGNETON
-	tr_mon 56, SKARMORY
-	end_trainer
-
-	def_trainer GEDDY, "Geddy"
-	tr_mon 50, RATTATA
-	end_trainer
-
-
-SECTION "GuitaristFGroup", ROMX
-GuitaristFGroup:
-
-	def_trainer_class GUITARISTF
-	def_trainer JANET, "Janet"
-	tr_mon 56, PIKACHU, FEMALE | PIKACHU_SURF_FORM
-		tr_moves IRON_TAIL, EXTREMESPEED, SURF, THUNDERBOLT
-	tr_mon 54, ELECTABUZZ, FEMALE
-		tr_moves LIGHT_SCREEN, THUNDERPUNCH, TACKLE, SCREECH
-	tr_mon 55, RAICHU, FEMALE | ALOLAN_FORM
-		tr_moves EXTREMESPEED, SURF, THUNDERBOLT, AGILITY
-	end_trainer
-
-	def_trainer MORGAN, "Morgan"
-	tr_mon 55, RATTATA
-	tr_mon 55, JOLTEON
-	end_trainer
-
-	def_trainer RITSUKO, "Ritsuko"
-	tr_mon 56, JOLTEON
-	tr_mon 58, JOLTEON
-	end_trainer
-
-	def_trainer WANDA, "Wanda"
-	tr_mon 53, MAGNEMITE
-	tr_mon 54, RATTATA
-	tr_mon 55, MAGNETON
-	end_trainer
-
-	def_trainer JACLYN, "Jaclyn"
 	tr_mon 56, ELECTIVIRE
 	end_trainer
 

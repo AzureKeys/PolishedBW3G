@@ -50,6 +50,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; FISHER_D
 	dbit MALE_BIT   ; GENTLEMAN
+	dbit FEMALE_BIT ; GUITARIST
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; HIKER
@@ -94,8 +95,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ENGINEER
 	dbit FEMALE_BIT ; TEACHER_F
 	dbit MALE_BIT   ; TEACHER_M
-	dbit MALE_BIT   ; GUITARISTM
-	dbit FEMALE_BIT ; GUITARISTF
 	dbit MALE_BIT   ; TAMER
 	dbit FEMALE_BIT ; AROMA_LADY
 	dbit MALE_BIT   ; SOLDIER

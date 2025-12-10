@@ -50,6 +50,7 @@ TrainerClassDVsAndPersonality:
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; fisherD
 	db  48, $CC, $CC, $CC, MALE   ; gentleman
+	db  72, $DD, $DD, $DD, FEMALE ; guitarist
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  24, $99, $99, $99, MALE   ; hiker
@@ -94,8 +95,6 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, MALE   ; engineer
 	db  72, $DD, $DD, $DD, FEMALE ; teacher_f
 	db  72, $DD, $DD, $DD, MALE   ; teacher_m
-	db  72, $DD, $DD, $DD, MALE   ; guitaristm
-	db  72, $DD, $DD, $DD, FEMALE ; guitaristf
 	db  72, $DD, $DD, $DD, MALE   ; tamer
 	db  72, $DD, $DD, $DD, FEMALE ; aroma lady
 	db  72, $DD, $DD, $DD, MALE   ; soldier

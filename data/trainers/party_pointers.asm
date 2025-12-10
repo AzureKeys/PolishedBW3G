@@ -50,6 +50,7 @@ TrainerGroups:
 	dba FisherGroup
 	dba FisherDGroup
 	dba GentlemanGroup
+	dba GuitaristGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba HikerGroup
@@ -94,8 +95,6 @@ TrainerGroups:
 	dba EngineerGroup
 	dba TeacherFGroup
 	dba TeacherMGroup
-	dba GuitaristMGroup
-	dba GuitaristFGroup
 	dba TamerGroup
 	dba AromaLadyGroup
 	dba SoldierGroup

@@ -38,7 +38,7 @@ BattleTowerTrainers:
 	rawchar "Ebony@@@@@", ACE_TRAINERF
 	rawchar "Pirsig@@@@", SAGE
 	rawchar "Corey@@@@@", OFFICERM
-	rawchar "Syd@@@@@@@", GUITARISTM
+	rawchar "Syd@@@@@@@", GUITARIST
 	rawchar "Ethel@@@@@", MEDIUM
 	rawchar "Sagan@@@@@", SCIENTIST
 	rawchar "Lenie@@@@@", SWIMMERF
@@ -109,10 +109,10 @@ BattleTowerTrainers:
 	rawchar "Hughes@@@@", FISHER
 	rawchar "Kirby@@@@@", BUG_MANIAC
 	rawchar "Ricky@@@@@", BIRD_KEEPER
-	rawchar "Joan@@@@@@", GUITARISTF
+	rawchar "Joan@@@@@@", GUITARIST
 	rawchar "Abed@@@@@@", POKEFANM
 	rawchar "Amelia@@@@", SIGHTSEERF
-	rawchar "Deedee@@@@", GUITARISTF
+	rawchar "Deedee@@@@", GUITARIST
 	rawchar "Garrett@@@", JUGGLER
 	rawchar "Molly@@@@@", BAKER
 	rawchar "Salim@@@@@", ROUGHNECK
@@ -127,7 +127,7 @@ BattleTowerTrainers:
 	rawchar "Mori@@@@@@", POKEFANF
 	rawchar "Jorge@@@@@", DRAGON_TAMER
 	rawchar "Lavigne@@@", SCHOOLGIRL
-	rawchar "Paul@@@@@@", GUITARISTM
+	rawchar "Paul@@@@@@", GUITARIST
 	rawchar "Holmes@@@@", PI
 	rawchar "Cramer@@@@", NURSE
 	rawchar "Mako@@@@@@", BREEDER

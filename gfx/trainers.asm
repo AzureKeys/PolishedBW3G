@@ -127,6 +127,9 @@ FisherPic: INCBIN "gfx/trainers/fisher.2bpp.lz"
 SECTION "GentlemanPic", ROMX
 GentlemanPic: INCBIN "gfx/trainers/gentleman.2bpp.lz"
 
+SECTION "GuitaristPic", ROMX
+GuitaristPic: INCBIN "gfx/trainers/guitarist.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -256,12 +259,6 @@ TeacherFPic: INCBIN "gfx/trainers/teacher_f.2bpp.lz"
 
 SECTION "TeacherMPic", ROMX
 TeacherMPic: INCBIN "gfx/trainers/teacher_m.2bpp.lz"
-
-SECTION "GuitaristmPic", ROMX
-GuitaristmPic: INCBIN "gfx/trainers/guitarist_m.2bpp.lz"
-
-SECTION "GuitaristfPic", ROMX
-GuitaristfPic: INCBIN "gfx/trainers/guitarist_f.2bpp.lz"
 
 SECTION "TamerPic", ROMX
 TamerPic: INCBIN "gfx/trainers/tamer.2bpp.lz"

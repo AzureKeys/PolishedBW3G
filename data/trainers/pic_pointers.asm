@@ -48,6 +48,7 @@ TrainerPicPointers::
 	dba FisherPic
 	dba FisherPic
 	dba GentlemanPic
+	dba GuitaristPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba HikerPic
@@ -92,8 +93,6 @@ TrainerPicPointers::
 	dba EngineerPic
 	dba TeacherFPic
 	dba TeacherMPic
-	dba GuitaristmPic
-	dba GuitaristfPic
 	dba TamerPic
 	dba AromaLadyPic
 	dba SoldierPic

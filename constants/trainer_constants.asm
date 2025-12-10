@@ -307,6 +307,12 @@ DEF CRYS EQU __trainer_class__
 	const GENTLEMAN_R2
 	const GENTLEMAN_CELESTIAL_TOWER
 
+	trainerclass GUITARIST ; 30
+	const GUITARIST_VIRBANK_GYM_1
+	const GUITARIST_VIRBANK_GYM_2
+	const GUITARIST_CHARGESTONE_1
+	const GUITARIST_CHARGESTONE_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -847,21 +853,6 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass TEACHER_M ; 56
 	const NOLAN
-
-	trainerclass GUITARISTM ; 57
-	const CLYDE
-	const VINCENT
-	const ROGER
-	const EZEKIEL
-	const BIFF
-	const GEDDY
-
-	trainerclass GUITARISTF ; 58
-	const JANET
-	const MORGAN
-	const RITSUKO
-	const WANDA
-	const JACLYN
 
 	trainerclass TAMER ; 5b
 	const BRETT
