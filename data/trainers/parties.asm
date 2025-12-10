@@ -1929,6 +1929,56 @@ PilotGroup:
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
+
+
+SECTION "PkmnBreederMGroup", ROMX
+PkmnBreederMGroup:
+
+	def_trainer_class PKMN_BREEDERM
+	def_trainer PKMN_BREEDERM_LOSTLORN, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PKMN_BREEDERM_R19, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PKMN_BREEDERM_R6, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PKMN_BREEDERM_R7, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+
+
+SECTION "PkmnBreederFGroup", ROMX
+PkmnBreederFGroup:
+
+	def_trainer_class PKMN_BREEDERF
+	def_trainer PKMN_BREEDERF_LOSTLORN, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PKMN_BREEDERF_R19, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PKMN_BREEDERF_R6, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PKMN_BREEDERF_R7, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

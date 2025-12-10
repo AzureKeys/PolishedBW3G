@@ -169,6 +169,12 @@ ParasolLadyPic: INCBIN "gfx/trainers/parasol_lady.2bpp.lz"
 SECTION "PilotPic", ROMX
 PilotPic: INCBIN "gfx/trainers/pilot.2bpp.lz"
 
+SECTION "PkmnBreederMPic", ROMX
+PkmnBreederMPic: INCBIN "gfx/trainers/pkmn_breeder_m.2bpp.lz"
+
+SECTION "PkmnBreederFPic", ROMX
+PkmnBreederFPic: INCBIN "gfx/trainers/pkmn_breeder_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

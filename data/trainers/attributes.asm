@@ -368,6 +368,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Pkmn Breederm
+	db SUPER_POTION, 0 ; items
+	db 16 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Pkmn Breederf
+	db SUPER_POTION, 0 ; items
+	db 16 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward

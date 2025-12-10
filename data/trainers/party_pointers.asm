@@ -64,6 +64,8 @@ TrainerGroups:
 	dba NurseryAideGroup
 	dba ParasolLadyGroup
 	dba PilotGroup
+	dba PkmnBreederMGroup
+	dba PkmnBreederFGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

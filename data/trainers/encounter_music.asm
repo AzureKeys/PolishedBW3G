@@ -63,6 +63,8 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; nursery_aide
 	db MUSIC_BEAUTY_ENCOUNTER ; parasol_lady
 	db MUSIC_OFFICER_ENCOUNTER ; pilot
+	db MUSIC_YOUNGSTER_ENCOUNTER ; pkmn_breederm
+	db MUSIC_LASS_ENCOUNTER ; pkmn_breederf
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm

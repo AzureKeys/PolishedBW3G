@@ -64,6 +64,8 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, FEMALE ; nursery aide
 	db  72, $DD, $DD, $DD, FEMALE ; parasol lady
 	db  48, $DD, $BB, $DB, MALE   ; pilot
+	db  56, $DD, $DD, $DD, MALE   ; pkmn breederm
+	db  56, $DD, $DD, $DD, FEMALE ; pkmn breederf
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

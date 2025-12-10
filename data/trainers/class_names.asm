@@ -61,6 +61,8 @@ TrainerClassNames::
 	li "Nursery Aide"     ; NURSERY_AIDE
 	li "Parasol Lady"     ; PARASOL_LADY
 	li "Pilot"            ; PILOT
+	li "<PK><MN> Breeder" ; PKMN_BREEDERM
+	li "<PK><MN> Breeder" ; PKMN_BREEDERF
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
