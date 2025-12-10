@@ -59,6 +59,7 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  48, $CC, $CC, $CC, FEMALE ; lady
 	db  48, $CC, $CC, $CC, MALE   ; linebacker
+	db  48, $CC, $CC, $CC, FEMALE ; maid
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

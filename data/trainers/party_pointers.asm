@@ -59,6 +59,7 @@ TrainerGroups:
 	dba JanitorGroup
 	dba LadyGroup
 	dba LinebackerGroup
+	dba MaidGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

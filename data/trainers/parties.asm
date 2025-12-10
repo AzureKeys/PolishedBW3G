@@ -1769,6 +1769,61 @@ LinebackerGroup:
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
+
+
+SECTION "MaidGroup", ROMX
+MaidGroup:
+
+	def_trainer_class MAID
+	def_trainer MAID_R19, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer MAID_R1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer MAID_CELESTIAL_TOWER, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer SOPHIE_REMATCH_1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer SOPHIE_REMATCH_2, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer SOPHIE_REMATCH_3, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer SOPHIE_REMATCH_4, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer CLARISSA_REMATCH_1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer CLARISSA_REMATCH_2, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer CLARISSA_REMATCH_3, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

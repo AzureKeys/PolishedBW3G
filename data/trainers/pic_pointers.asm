@@ -57,6 +57,7 @@ TrainerPicPointers::
 	dba JanitorPic
 	dba LadyPic
 	dba LinebackerPic
+	dba MaidPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic

@@ -58,6 +58,7 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; janitor
 	db MUSIC_BEAUTY_ENCOUNTER ; lady
 	db MUSIC_HIKER_ENCOUNTER ; linebacker
+	db MUSIC_BEAUTY_ENCOUNTER ; maid
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
