@@ -44,6 +44,7 @@ TrainerClassDVsAndPersonality:
 	db  32, $AA, $AA, $AA, MALE   ; cyclistm
 	db  32, $AA, $AA, $AA, FEMALE ; cyclistf
 	db  48, $CC, $CC, $CC, MALE   ; dancer
+	db  48, $DD, $BB, $DB, MALE   ; depot agent
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; fisher
 	db  16, $88, $88, $88, MALE   ; bird keeper

@@ -42,6 +42,7 @@ TrainerPicPointers::
 	dba CyclistMPic
 	dba CyclistFPic
 	dba DancerPic
+	dba DepotAgentPic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic

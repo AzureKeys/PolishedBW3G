@@ -1301,6 +1301,22 @@ DancerGroup:
 	tr_mon 57, RATTATA
 	tr_mon 56, HOUNDOOM
 	end_trainer
+
+
+SECTION "DepotAgentGroup", ROMX
+DepotAgentGroup:
+
+	def_trainer_class DEPOT_AGENT
+	def_trainer DEPOT_AGENT_R19_1, "Brian"
+	tr_mon 55, RATTATA
+	tr_mon 55, WEEZING
+	tr_mon 55, WEEZING
+	end_trainer
+
+	def_trainer DEPOT_AGENT_R19_2, "Theron"
+	tr_mon 55, MUK
+	tr_mon 55, POLIWRATH
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

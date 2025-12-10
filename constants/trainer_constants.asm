@@ -270,6 +270,10 @@ DEF CRYS EQU __trainer_class__
 	const ERIC_REMATCH_4
 	const ERIC_REMATCH_5
 
+	trainerclass DEPOT_AGENT ; 2a
+	const DEPOT_AGENT_R19_1
+	const DEPOT_AGENT_R19_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2

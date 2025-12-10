@@ -43,6 +43,7 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; cyclistm
 	db MUSIC_HIKER_ENCOUNTER ; cyclistf
 	db MUSIC_HIKER_ENCOUNTER ; dancer
+	db MUSIC_OFFICER_ENCOUNTER ; depot_agent
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_HIKER_ENCOUNTER ; fisher
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper

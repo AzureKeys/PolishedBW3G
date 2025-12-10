@@ -44,6 +44,7 @@ TrainerGroups:
 	dba CyclistMGroup
 	dba CyclistFGroup
 	dba DancerGroup
+	dba DepotAgentGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup

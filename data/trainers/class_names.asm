@@ -41,6 +41,7 @@ TrainerClassNames::
 	li "Cyclist"          ; CYCLISTM
 	li "Cyclist"          ; CYCLISTF
 	li "Dancer"           ; DANCER
+	li "Depot Agent"      ; DEPOT_AGENT
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
