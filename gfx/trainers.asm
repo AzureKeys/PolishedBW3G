@@ -166,6 +166,9 @@ NurseryAidePic: INCBIN "gfx/trainers/nursery_aide.2bpp.lz"
 SECTION "ParasolLadyPic", ROMX
 ParasolLadyPic: INCBIN "gfx/trainers/parasol_lady.2bpp.lz"
 
+SECTION "PilotPic", ROMX
+PilotPic: INCBIN "gfx/trainers/pilot.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

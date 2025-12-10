@@ -63,6 +63,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; MUSICIAN
 	dbit FEMALE_BIT ; NURSERY_AIDE
 	dbit FEMALE_BIT ; PARASOL_LADY
+	dbit MALE_BIT   ; PILOT
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; GRUNTM

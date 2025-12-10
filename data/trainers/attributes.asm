@@ -362,6 +362,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
+; Pilot
+	db 0, 0 ; items
+	db 15 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward

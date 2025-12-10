@@ -404,6 +404,13 @@ DEF CRYS EQU __trainer_class__
 	const PARASOL_LADY_R8
 	const LOIS_REMATCH_1
 
+	trainerclass PILOT ; 3d
+	const PILOT_MISTRALTON_GYM_1
+	const PILOT_MISTRALTON_GYM_2
+	const PILOT_MISTRALTON_GYM_3
+	const PILOT_MISTRALTON_GYM_4
+	const PILOT_MISTRALTON_GYM_5
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2

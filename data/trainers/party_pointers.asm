@@ -63,6 +63,7 @@ TrainerGroups:
 	dba MusicianGroup
 	dba NurseryAideGroup
 	dba ParasolLadyGroup
+	dba PilotGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
