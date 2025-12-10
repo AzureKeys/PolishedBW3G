@@ -40,6 +40,7 @@ TrainerClassNames::
 	li "Roughneck"        ; ROUGHNECK
 	li "Cyclist"          ; CYCLISTM
 	li "Cyclist"          ; CYCLISTF
+	li "Dancer"           ; DANCER
 	li "Twins"            ; TWINS
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER

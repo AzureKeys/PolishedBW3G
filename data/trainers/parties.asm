@@ -1260,6 +1260,47 @@ CyclistFGroup:
 	tr_mon 55, MUK
 	tr_mon 55, POLIWRATH
 	end_trainer
+
+
+SECTION "DancerGroup", ROMX
+DancerGroup:
+
+	def_trainer_class DANCER
+	def_trainer DANCER_R5_1, "Brian"
+	tr_mon 55, RATTATA
+	tr_mon 55, WEEZING
+	tr_mon 55, WEEZING
+	end_trainer
+
+	def_trainer DANCER_R5_2, "Theron"
+	tr_mon 55, MUK
+	tr_mon 55, POLIWRATH
+	end_trainer
+
+	def_trainer ERIC_REMATCH_1, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer ERIC_REMATCH_2, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer ERIC_REMATCH_3, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer ERIC_REMATCH_4, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
+
+	def_trainer ERIC_REMATCH_5, "Markey"
+	tr_mon 57, RATTATA
+	tr_mon 56, HOUNDOOM
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

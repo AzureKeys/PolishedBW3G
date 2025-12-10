@@ -109,6 +109,9 @@ CyclistMPic: INCBIN "gfx/trainers/cyclist_m.2bpp.lz"
 SECTION "CyclistFPic", ROMX
 CyclistFPic: INCBIN "gfx/trainers/cyclist_f.2bpp.lz"
 
+SECTION "DancerPic", ROMX
+DancerPic: INCBIN "gfx/trainers/dancer.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

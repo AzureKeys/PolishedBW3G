@@ -43,6 +43,7 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ROUGHNECK
 	dbit MALE_BIT   ; CYCLISTM
 	dbit FEMALE_BIT ; CYCLISTF
+	dbit MALE_BIT   ; DANCER
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; FISHER
 	dbit MALE_BIT   ; BIRD_KEEPER

@@ -41,6 +41,7 @@ TrainerPicPointers::
 	dba RoughneckPic
 	dba CyclistMPic
 	dba CyclistFPic
+	dba DancerPic
 	dba TwinsPic
 	dba FisherPic
 	dba BirdKeeperPic

@@ -43,6 +43,7 @@ TrainerGroups:
 	dba RoughneckGroup
 	dba CyclistMGroup
 	dba CyclistFGroup
+	dba DancerGroup
 	dba TwinsGroup
 	dba FisherGroup
 	dba BirdKeeperGroup

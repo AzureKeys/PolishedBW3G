@@ -261,6 +261,15 @@ DEF CRYS EQU __trainer_class__
 	const CYCLISTF_OUTSKIRTS
 	const CYCLISTF_R16
 
+	trainerclass DANCER ; 29
+	const DANCER_R5_1
+	const DANCER_R5_2
+	const ERIC_REMATCH_1
+	const ERIC_REMATCH_2
+	const ERIC_REMATCH_3
+	const ERIC_REMATCH_4
+	const ERIC_REMATCH_5
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
