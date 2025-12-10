@@ -55,6 +55,7 @@ TrainerClassNames::
 	li "Hoopster"         ; HOOPSTER
 	li "Janitor"          ; JANITOR
 	li "Lady"             ; LADY
+	li "Linebacker"       ; LINEBACKER
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM

@@ -58,6 +58,7 @@ TrainerGroups:
 	dba HoopsterGroup
 	dba JanitorGroup
 	dba LadyGroup
+	dba LinebackerGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

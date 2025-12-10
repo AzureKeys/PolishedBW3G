@@ -151,6 +151,9 @@ JanitorPic: INCBIN "gfx/trainers/janitor.2bpp.lz"
 SECTION "LadyPic", ROMX
 LadyPic: INCBIN "gfx/trainers/lady.2bpp.lz"
 
+SECTION "LinebackerPic", ROMX
+LinebackerPic: INCBIN "gfx/trainers/linebacker.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

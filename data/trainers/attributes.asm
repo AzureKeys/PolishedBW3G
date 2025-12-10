@@ -322,7 +322,7 @@ TrainerClassAttributes:
 
 ; Janitor
 	db 0, 0 ; items
-	db 14 ; base reward
+	db 5 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_OFFENSIVE + AI_AGGRESSIVE + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
@@ -330,6 +330,12 @@ TrainerClassAttributes:
 	db MAX_POTION, 0 ; items
 	db 50 ; base reward
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; Linebacker
+	db 0, 0 ; items
+	db 14 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OFFENSIVE + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Twins

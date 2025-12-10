@@ -33,6 +33,7 @@ SpriteHeaders:
 	overworld_sprite CyclistMSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite CyclistFSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite HarlequinSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite LinebackerSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite YellowSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite OakSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ElmSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN

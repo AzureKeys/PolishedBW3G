@@ -1749,6 +1749,26 @@ LadyGroup:
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
+
+
+SECTION "LinebackerGroup", ROMX
+LinebackerGroup:
+
+	def_trainer_class LINEBACKER
+	def_trainer LINEBACKER_R5, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer LINEBACKER_VILLAGE_BRIDGE, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer DEAN_REMATCH_1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

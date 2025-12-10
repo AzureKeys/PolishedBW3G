@@ -369,6 +369,11 @@ DEF CRYS EQU __trainer_class__
 	const LACEY_REMATCH_3
 	const LACEY_REMATCH_4
 
+	trainerclass LINEBACKER ; 38
+	const LINEBACKER_R5
+	const LINEBACKER_VILLAGE_BRIDGE
+	const DEAN_REMATCH_1
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
