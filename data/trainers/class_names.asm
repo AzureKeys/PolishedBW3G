@@ -91,7 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Super Nerd"       ; SUPER_NERD
 	li "Beauty"           ; BEAUTY
 	li "Bug Maniac"       ; BUG_MANIAC
 	li "Ruin Maniac"      ; RUIN_MANIAC

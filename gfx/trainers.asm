@@ -253,9 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "SuperNerdPic", ROMX
-SuperNerdPic: INCBIN "gfx/trainers/super_nerd.2bpp.lz"
-
 SECTION "BeautyPic", ROMX
 BeautyPic: INCBIN "gfx/trainers/beauty.2bpp.lz"
 

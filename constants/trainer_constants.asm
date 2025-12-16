@@ -645,28 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass SUPER_NERD ; 31
-	const STAN
-	const ERIC
-	const SAM
-	const TOM
-	const PAT
-	const SHAWN
-	const TERU
-	const HUGH
-	const MARKUS
-	const CARY
-	const WALDO
-	const MERLE
-	const LUIS
-	const JOVAN
-	const MIGUEL
-	const RORY
-	const GREGG
-	const FOOTE
-	const DAVE
-	const KOUTA
-
 	trainerclass BEAUTY ; 33
 	const VICTORIA
 	const SAMANTHA

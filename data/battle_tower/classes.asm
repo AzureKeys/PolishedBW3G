@@ -77,7 +77,7 @@ BattleTowerTrainers:
 	rawchar "Andre@@@@@", ROUGHNECK
 	rawchar "Hill@@@@@@", ACE_TRAINERM
 	rawchar "Tara@@@@@@", SWIMMERF
-	rawchar "Morse@@@@@", SUPER_NERD
+	rawchar "Morse@@@@@", JANITOR
 	rawchar "Phelps@@@@", SWIMMERM
 	rawchar "Zeke@@@@@@", DRAGON_TAMER
 	rawchar "Bisom@@@@@", TEACHER_F
@@ -94,7 +94,7 @@ BattleTowerTrainers:
 	rawchar "Sidney@@@@", BIKER
 	rawchar "Nerai@@@@@", HIKER
 	rawchar "Gwen@@@@@@", LADY
-	rawchar "Axl@@@@@@@", SUPER_NERD
+	rawchar "Axl@@@@@@@", JANITOR
 	rawchar "Gerald@@@@", SIGHTSEERM
 	rawchar "Kafuka@@@@", SCHOOL_KIDF
 	rawchar "Hong@@@@@@", TEACHER_F
