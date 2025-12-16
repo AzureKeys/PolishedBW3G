@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Officer"          ; OFFICERM
-	li "Officer"          ; OFFICERF
 	li "#Maniac"          ; POKEMANIAC
 	li "Cosplayer"        ; COSPLAYER
 	li "Super Nerd"       ; SUPER_NERD

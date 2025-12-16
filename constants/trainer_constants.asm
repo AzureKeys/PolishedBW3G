@@ -645,15 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass OFFICERM ; 2c
-	const KEITH
-	const DIRK
-
-	trainerclass OFFICERF ; 2d
-	const JAMIE
-	const MARA
-	const JENNY
-
 	trainerclass POKEMANIAC ; 2f
 	const BRENT1
 	const BRENT2

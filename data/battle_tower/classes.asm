@@ -22,12 +22,12 @@ BattleTowerTrainers:
 	rawchar "Kim@@@@@@@", FIREBREATHER
 	rawchar "Wilder@@@@", COWGIRL
 	rawchar "Dennett@@@", GENTLEMAN
-	rawchar "Vi@@@@@@@@", OFFICERF
+	rawchar "Vi@@@@@@@@", POLICEMAN
 	rawchar "Hiroto@@@@", WAITER
 	rawchar "Satoshi@@@", BUG_MANIAC
 	rawchar "Adam@@@@@@", YOUNGSTER
 	rawchar "Oakley@@@@", COWGIRL
-	rawchar "Annie@@@@@", OFFICERF
+	rawchar "Annie@@@@@", POLICEMAN
 	rawchar "Park@@@@@@", ENGINEER
 	rawchar "Patricia@@", COSPLAYER
 	rawchar "Rajan@@@@@", HIKER
@@ -37,7 +37,7 @@ BattleTowerTrainers:
 	rawchar "Tomoyo@@@@", COSPLAYER
 	rawchar "Ebony@@@@@", ACE_TRAINERF
 	rawchar "Pirsig@@@@", SAGE
-	rawchar "Corey@@@@@", OFFICERM
+	rawchar "Corey@@@@@", POLICEMAN
 	rawchar "Syd@@@@@@@", GUITARIST
 	rawchar "Ethel@@@@@", MEDIUM
 	rawchar "Sagan@@@@@", SCIENTISTM
@@ -66,7 +66,7 @@ BattleTowerTrainers:
 	rawchar "Buckley@@@", RICH_BOY
 	rawchar "Mateo@@@@@", VETERANM
 	rawchar "Johnson@@@", SOLDIER
-	rawchar "Newandyke@", OFFICERM
+	rawchar "Newandyke@", POLICEMAN
 	rawchar "Rebecca@@@", SKIER
 	rawchar "Santiago@@", PSYCHICM_T
 	rawchar "Blake@@@@@", YOUNGSTER

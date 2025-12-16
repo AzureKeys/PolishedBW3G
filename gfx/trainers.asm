@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "OfficermPic", ROMX
-OfficermPic: INCBIN "gfx/trainers/officer_m.2bpp.lz"
-
-SECTION "OfficerfPic", ROMX
-OfficerfPic: INCBIN "gfx/trainers/officer_f.2bpp.lz"
-
 SECTION "PokemaniacPic", ROMX
 PokemaniacPic: INCBIN "gfx/trainers/pokemaniac.2bpp.lz"
 

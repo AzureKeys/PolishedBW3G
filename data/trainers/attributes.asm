@@ -548,18 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Officerm
-	db FRESH_WATER, 0 ; items
-	db 15 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Officerf
-	db FRESH_WATER, 0 ; items
-	db 15 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Pokemaniac
 	db X_SPEED, 0 ; items
 	db 13 ; base reward

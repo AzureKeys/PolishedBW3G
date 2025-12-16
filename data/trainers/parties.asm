@@ -3211,43 +3211,6 @@ GruntFGroup:
 	end_trainer
 
 
-SECTION "OfficerMGroup", ROMX
-OfficerMGroup:
-
-	def_trainer_class OFFICERM
-	def_trainer KEITH, "Keith"
-	tr_mon 15, GROWLITHE
-	tr_mon 15, GROWLITHE
-	end_trainer
-
-	def_trainer DIRK, "Dirk"
-	tr_mon 15, GROWLITHE
-	tr_mon 15, RATTATA
-	end_trainer
-
-
-SECTION "OfficerFGroup", ROMX
-OfficerFGroup:
-
-	def_trainer_class OFFICERF
-	def_trainer JAMIE, "Jamie"
-	tr_mon 54, GROWLITHE
-	tr_mon 58, ARCANINE
-	tr_mon 57, RATTATA
-	end_trainer
-
-	def_trainer MARA, "Mara"
-	tr_mon 17, GROWLITHE
-	end_trainer
-
-	def_trainer JENNY, "Jenny"
-	tr_mon 53, RATTATA
-	tr_mon 53, RATTATA
-	tr_mon 53, RATTATA
-	tr_mon 53, RATTATA
-	end_trainer
-
-
 SECTION "PokemaniacGroup", ROMX
 PokemaniacGroup:
 
