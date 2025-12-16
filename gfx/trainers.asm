@@ -232,9 +232,6 @@ SwimmerfDPic: INCBIN "gfx/trainers/swimmer_f_d.2bpp.lz"
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
-SECTION "BirdKeeperPic", ROMX
-BirdKeeperPic: INCBIN "gfx/trainers/bird_keeper.2bpp.lz"
-
 SECTION "GruntmPic", ROMX
 GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 

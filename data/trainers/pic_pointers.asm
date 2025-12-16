@@ -85,7 +85,6 @@ TrainerPicPointers::
 	dba SwimmerfPic
 	dba SwimmerfDPic
 	dba TwinsPic
-	dba BirdKeeperPic
 	dba GruntmPic
 	dba GruntfPic
 	dba PokefanmPic

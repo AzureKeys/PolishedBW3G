@@ -84,7 +84,6 @@ TrainerClassNames::
 	li "Swimmer"          ; SWIMMERF
 	li "Swimmer"          ; SWIMMERF_D
 	li "Twins"            ; TWINS
-	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
 	li "Rocket"           ; GRUNTF
 	li "#fan"             ; POKEFANM

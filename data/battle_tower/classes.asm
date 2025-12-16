@@ -108,7 +108,7 @@ BattleTowerTrainers:
 	rawchar "Heinlen@@@", HIKER
 	rawchar "Hughes@@@@", FISHER
 	rawchar "Kirby@@@@@", BUG_MANIAC
-	rawchar "Ricky@@@@@", BIRD_KEEPER
+	rawchar "Ricky@@@@@", PILOT
 	rawchar "Joan@@@@@@", GUITARIST
 	rawchar "Abed@@@@@@", POKEFANM
 	rawchar "Amelia@@@@", SIGHTSEERF
@@ -131,7 +131,7 @@ BattleTowerTrainers:
 	rawchar "Holmes@@@@", PI
 	rawchar "Cramer@@@@", NURSE
 	rawchar "Mako@@@@@@", BREEDER
-	rawchar "Argo@@@@@@", BIRD_KEEPER
+	rawchar "Argo@@@@@@", PILOT
 	assert_table_length BATTLETOWER_NUM_TRAINERS
 	rawchar "Palmer@@@@", TOWERTYCOON
 	rawchar "Thorton@@@", FACTORYHEAD

@@ -87,7 +87,6 @@ TrainerGroups:
 	dba SwimmerFGroup
 	dba SwimmerFDGroup
 	dba TwinsGroup
-	dba BirdKeeperGroup
 	dba GruntMGroup
 	dba GruntFGroup
 	dba PokefanMGroup

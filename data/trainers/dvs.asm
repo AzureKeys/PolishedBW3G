@@ -87,7 +87,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, FEMALE ; swimmerf
 	db  48, $CC, $CC, $CC, FEMALE ; swimmerfD
 	db  16, $88, $88, $88, FEMALE ; twins
-	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
 	db  32, $AA, $AA, $AA, MALE   ; pokefanm

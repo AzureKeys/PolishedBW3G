@@ -569,39 +569,6 @@ DEF CRYS EQU __trainer_class__
 	const TWINS_R1
 	const TWINS_R7
 
-	trainerclass BIRD_KEEPER ; 26
-	const VANCE1
-	const VANCE2
-	const VANCE3
-	const JOSE1
-	const JOSE2
-	const JOSE3
-	const ROD
-	const ABE
-	const THEO
-	const TOBY
-	const DENIS
-	const HANK
-	const ROY
-	const BORIS
-	const BOB
-	const PETER
-	const PERRY
-	const BRET
-	const MICK
-	const POWELL
-	const BIRD_KEEPER_TONY
-	const JULIAN
-	const BIRD_KEEPER_JUSTIN
-	const GAIL
-	const BIRD_KEEPER_JOSH
-	const BERT
-	const ERNIE
-	const KINSLEY
-	const EASTON
-	const BRYAN
-	const TRENT
-
 	trainerclass GRUNTM ; 28
 
 	trainerclass GRUNTF ; 29

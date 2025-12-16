@@ -506,12 +506,6 @@ TrainerClassAttributes:
 	dw NO_AI
 	dw CONTEXT_USE + SWITCH_OFTEN
 
-; Bird Keeper
-	db 0, 0 ; items
-	db 6 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OFFENSIVE + AI_OPPORTUNIST + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
 ; Gruntm
 	db 0, 0 ; items
 	db 10 ; base reward
