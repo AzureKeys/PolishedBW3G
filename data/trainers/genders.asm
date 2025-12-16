@@ -89,6 +89,8 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; VETERAN_M
 	dbit FEMALE_BIT ; VETERAN_F
+	dbit MALE_BIT   ; WAITER
+	dbit FEMALE_BIT ; WAITRESS
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
 	dbit MALE_BIT   ; POKEFANM
@@ -123,8 +125,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; TAMER
 	dbit FEMALE_BIT ; AROMA_LADY
 	dbit MALE_BIT   ; SOLDIER
-	dbit MALE_BIT   ; WAITER
-	dbit FEMALE_BIT ; WAITRESS
 	dbit MALE_BIT   ; SIGHTSEERM
 	dbit FEMALE_BIT ; SIGHTSEERF
 	dbit MALE_BIT   ; SIGHTSEERS

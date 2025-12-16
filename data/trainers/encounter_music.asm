@@ -88,6 +88,8 @@ TrainerEncounterMusic:
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_HIKER_ENCOUNTER ; veteranm
 	db MUSIC_HIKER_ENCOUNTER ; veteranf
+	db MUSIC_HIKER_ENCOUNTER ; waiter
+	db MUSIC_BEAUTY_ENCOUNTER ; waitress
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
 	db MUSIC_HIKER_ENCOUNTER ; pokefanm
@@ -122,8 +124,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; tamer
 	db MUSIC_BEAUTY_ENCOUNTER ; aroma_lady
 	db MUSIC_HIKER_ENCOUNTER ; soldier
-	db MUSIC_HIKER_ENCOUNTER ; waiter
-	db MUSIC_BEAUTY_ENCOUNTER ; waitress
 	db MUSIC_HIKER_ENCOUNTER ; sightseerm
 	db MUSIC_BEAUTY_ENCOUNTER ; sightseerf
 	db MUSIC_HIKER_ENCOUNTER ; sightseers

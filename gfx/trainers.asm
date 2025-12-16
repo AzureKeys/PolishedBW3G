@@ -238,6 +238,12 @@ VeteranmPic: INCBIN "gfx/trainers/veteran_m.2bpp.lz"
 SECTION "VeteranfPic", ROMX
 VeteranfPic: INCBIN "gfx/trainers/veteran_f.2bpp.lz"
 
+SECTION "WaiterPic", ROMX
+WaiterPic: INCBIN "gfx/trainers/waiter.2bpp.lz"
+
+SECTION "WaitressPic", ROMX
+WaitressPic: INCBIN "gfx/trainers/waitress.2bpp.lz"
+
 SECTION "GruntmPic", ROMX
 GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 
@@ -339,12 +345,6 @@ AromaLadyPic: INCBIN "gfx/trainers/aroma_lady.2bpp.lz"
 
 SECTION "SoldierPic", ROMX
 SoldierPic: INCBIN "gfx/trainers/soldier.2bpp.lz"
-
-SECTION "WaiterPic", ROMX
-WaiterPic: INCBIN "gfx/trainers/waiter.2bpp.lz"
-
-SECTION "WaitressPic", ROMX
-WaitressPic: INCBIN "gfx/trainers/waitress.2bpp.lz"
 
 SECTION "SightseermPic", ROMX
 SightseermPic: INCBIN "gfx/trainers/sightseer_m.2bpp.lz"

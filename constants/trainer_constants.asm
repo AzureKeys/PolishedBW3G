@@ -593,6 +593,15 @@ DEF CRYS EQU __trainer_class__
 	const VETERANF_TWIST_MOUNTAIN_1
 	const VETERANF_TWIST_MOUNTAIN_2
 
+	trainerclass WAITER ; 57
+	const WAITER_STRIATON_GYM_1
+	const WAITER_STRIATON_GYM_2
+
+	trainerclass WAITRESS ; 58
+	const WAITRESS_STRIATON_GYM_1
+	const WAITRESS_STRIATON_GYM_2
+	const WAITRESS_STRIATON_GYM_3
+
 	trainerclass GRUNTM ; 28
 
 	trainerclass GRUNTF ; 29
@@ -897,11 +906,6 @@ DEF CRYS EQU __trainer_class__
 	const PEONY
 
 	trainerclass SOLDIER ; 5e
-
-	trainerclass WAITER ; 5f
-	const DAVID
-
-	trainerclass WAITRESS ; 60
 
 	trainerclass SIGHTSEERM ; 61
 	const JASKA

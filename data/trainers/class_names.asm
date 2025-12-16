@@ -86,6 +86,8 @@ TrainerClassNames::
 	li "Twins"            ; TWINS
 	li "Veteran"          ; VETERANM
 	li "Veteran"          ; VETERANF
+	li "Waiter"           ; WAITER
+	li "Waitress"         ; WAITRESS
 	li "Rocket"           ; GRUNTM
 	li "Rocket"           ; GRUNTF
 	li "#fan"             ; POKEFANM
@@ -120,8 +122,6 @@ TrainerClassNames::
 	li "Tamer"            ; TAMER
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER
-	li "Waiter"           ; WAITER
-	li "Waitress"         ; WAITRESS
 	li "Sightseer"        ; SIGHTSEERM
 	li "Sightseer"        ; SIGHTSEERF
 	li "Sightseers"       ; SIGHTSEERS

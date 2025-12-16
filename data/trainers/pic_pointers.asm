@@ -87,6 +87,8 @@ TrainerPicPointers::
 	dba TwinsPic
 	dba VeteranmPic
 	dba VeteranfPic
+	dba WaiterPic
+	dba WaitressPic
 	dba GruntmPic
 	dba GruntfPic
 	dba PokefanmPic
@@ -121,8 +123,6 @@ TrainerPicPointers::
 	dba TamerPic
 	dba AromaLadyPic
 	dba SoldierPic
-	dba WaiterPic
-	dba WaitressPic
 	dba SightseermPic
 	dba SightseerfPic
 	dba SightseersPic

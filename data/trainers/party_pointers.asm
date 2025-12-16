@@ -89,6 +89,8 @@ TrainerGroups:
 	dba TwinsGroup
 	dba VeteranMGroup
 	dba VeteranFGroup
+	dba WaiterGroup
+	dba WaitressGroup
 	dba GruntMGroup
 	dba GruntFGroup
 	dba PokefanMGroup
@@ -123,8 +125,6 @@ TrainerGroups:
 	dba TamerGroup
 	dba AromaLadyGroup
 	dba SoldierGroup
-	dba WaiterGroup
-	dba WaitressGroup
 	dba SightseerMGroup
 	dba SightseerFGroup
 	dba SightseersGroup

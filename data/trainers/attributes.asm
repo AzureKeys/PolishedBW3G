@@ -518,6 +518,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_SMART + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Waiter
+	db LEMONADE, 0 ; items
+	db 12 ; base reward
+	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Waitress
+	db LEMONADE, 0 ; items
+	db 12 ; base reward
+	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Gruntm
 	db 0, 0 ; items
 	db 10 ; base reward
@@ -721,18 +733,6 @@ TrainerClassAttributes:
 	db 16 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_AGGRESSIVE + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Waiter
-	db 0, 0 ; items
-	db 12 ; base reward
-	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; Waitress
-	db 0, 0 ; items
-	db 12 ; base reward
-	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
 
 ; Sightseerm
 	db 0, 0 ; items

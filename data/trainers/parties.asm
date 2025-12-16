@@ -2946,6 +2946,43 @@ VeteranFGroup:
 	tr_mon 60, KINGDRA @ WISE_GLASSES
 		tr_moves SURF, DRAGON_PULSE, ICE_BEAM, FLAMETHROWER
 	end_trainer
+	
+
+SECTION "WaiterGroup", ROMX
+WaiterGroup:
+
+	def_trainer_class WAITER
+	def_trainer WAITER_STRIATON_GYM_1, "Amy & Mimi"
+	tr_mon 13, RATTATA
+	tr_mon 13, RATTATA
+	end_trainer
+
+	def_trainer WAITER_STRIATON_GYM_2, "Amy & Mimi"
+	tr_mon 10, RATTATA
+	tr_mon 10, RATTATA
+	end_trainer
+	
+
+SECTION "WaitressGroup", ROMX
+WaitressGroup:
+
+	def_trainer_class WAITRESS
+	def_trainer WAITRESS_STRIATON_GYM_1, "Amy & Mimi"
+	tr_mon 13, RATTATA
+	tr_mon 13, RATTATA
+	end_trainer
+
+	def_trainer WAITRESS_STRIATON_GYM_2, "Amy & Mimi"
+	tr_mon 10, RATTATA
+	tr_mon 10, RATTATA
+	end_trainer
+
+	def_trainer WAITRESS_STRIATON_GYM_3, "Tori & Til"
+	tr_mon 16, MARILL
+		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
+	tr_mon 16, MAREEP
+		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
+	end_trainer
 
 
 SECTION "GruntMGroup", ROMX
@@ -4617,18 +4654,6 @@ SECTION "SoldierGroup", ROMX
 SoldierGroup:
 
 	def_trainer_class SOLDIER
-
-
-SECTION "WaiterGroup", ROMX
-WaiterGroup:
-
-	def_trainer_class WAITER
-
-
-SECTION "WaitressGroup", ROMX
-WaitressGroup:
-
-	def_trainer_class WAITRESS
 
 
 SECTION "SightseerMGroup", ROMX
