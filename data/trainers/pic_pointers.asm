@@ -69,6 +69,8 @@ TrainerPicPointers::
 	dba PolicemanPic
 	dba PreschoolerMPic
 	dba PreschoolerFPic
+	dba PsychicMTPic
+	dba PsychicFTPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
@@ -87,7 +89,6 @@ TrainerPicPointers::
 	dba JugglerPic
 	dba SchoolboyPic
 	dba SchoolgirlPic
-	dba PsychicTPic
 	dba SagePic
 	dba MediumPic
 	dba KimonoGirlPic

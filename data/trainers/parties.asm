@@ -2184,6 +2184,78 @@ PreschoolerFGroup:
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
+
+
+SECTION "PsychicMGroup", ROMX
+PsychicMGroup:
+
+	def_trainer_class PSYCHICM_T
+	def_trainer PSYCHICM_RELIC_CASTLE, "Nathan"
+	tr_mon 26, RATTATA
+	end_trainer
+
+	def_trainer PSYCHICM_PINWHEEL, "Franklin"
+	tr_mon 53, RATTATA
+	tr_mon 56, RATTATA
+	end_trainer
+
+	def_trainer PSYCHICM_RELIC_PASSAGE, "Herman"
+	tr_mon 53, EXEGGCUTE
+	tr_mon 53, EXEGGCUTE
+	tr_mon 55, EXEGGUTOR
+	end_trainer
+
+	def_trainer PSYCHICM_CELESTIAL_TOWER, "Fidel"
+	tr_mon 57, RATTATA
+	end_trainer
+
+	def_trainer PSYCHICM_DREAMYARD, "Greg"
+	tr_mon 17, RATTATA
+		tr_moves HYPNOSIS, DISABLE, DREAM_EATER
+	end_trainer
+
+	def_trainer PSYCHICM_VICTORY_ROAD_INT, "Norman"
+	tr_mon 17, SLOWPOKE
+		tr_moves TACKLE, GROWL, WATER_GUN
+	tr_mon 20, SLOWPOKE
+		tr_moves CURSE, BODY_SLAM, WATER_GUN, CONFUSION
+	end_trainer
+
+
+SECTION "PsychicFGroup", ROMX
+PsychicFGroup:
+
+	def_trainer_class PSYCHICF_T
+	def_trainer PSYCHICF_RELIC_CASTLE_1, "Nathan"
+	tr_mon 26, RATTATA
+	end_trainer
+
+	def_trainer PSYCHICF_RELIC_CASTLE_2, "Franklin"
+	tr_mon 53, RATTATA
+	tr_mon 56, RATTATA
+	end_trainer
+
+	def_trainer PSYCHICF_RELIC_PASSAGE, "Herman"
+	tr_mon 53, EXEGGCUTE
+	tr_mon 53, EXEGGCUTE
+	tr_mon 55, EXEGGUTOR
+	end_trainer
+
+	def_trainer PSYCHICF_CELESTIAL_TOWER, "Fidel"
+	tr_mon 57, RATTATA
+	end_trainer
+
+	def_trainer PSYCHICF_DREAMYARD, "Greg"
+	tr_mon 17, RATTATA
+		tr_moves HYPNOSIS, DISABLE, DREAM_EATER
+	end_trainer
+
+	def_trainer PSYCHICF_VICTORY_ROAD_INT, "Norman"
+	tr_mon 17, SLOWPOKE
+		tr_moves TACKLE, GROWL, WATER_GUN
+	tr_mon 20, SLOWPOKE
+		tr_moves CURSE, BODY_SLAM, WATER_GUN, CONFUSION
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3538,93 +3610,6 @@ SchoolgirlGroup:
 	def_trainer IMOGEN, "Imogen"
 	tr_mon 13, "Garlic", RATTATA
 	tr_mon 11, POLIWAG
-	end_trainer
-
-
-SECTION "PsychicGroup", ROMX
-PsychicGroup:
-
-	def_trainer_class PSYCHIC_T
-	def_trainer NATHAN, "Nathan"
-	tr_mon 26, RATTATA
-	end_trainer
-
-	def_trainer FRANKLIN, "Franklin"
-	tr_mon 53, RATTATA
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer HERMAN, "Herman"
-	tr_mon 53, EXEGGCUTE
-	tr_mon 53, EXEGGCUTE
-	tr_mon 55, EXEGGUTOR
-	end_trainer
-
-	def_trainer FIDEL, "Fidel"
-	tr_mon 57, RATTATA
-	end_trainer
-
-	def_trainer GREG, "Greg"
-	tr_mon 17, RATTATA
-		tr_moves HYPNOSIS, DISABLE, DREAM_EATER
-	end_trainer
-
-	def_trainer NORMAN, "Norman"
-	tr_mon 17, SLOWPOKE
-		tr_moves TACKLE, GROWL, WATER_GUN
-	tr_mon 20, SLOWPOKE
-		tr_moves CURSE, BODY_SLAM, WATER_GUN, CONFUSION
-	end_trainer
-
-	def_trainer MARK, "Mark"
-	tr_mon 14, RATTATA
-		tr_moves TACKLE, TACKLE
-	tr_mon 14, RATTATA
-		tr_moves TACKLE, TACKLE
-	tr_mon 16, RATTATA
-		tr_moves TACKLE, CALM_MIND, CONFUSION
-	end_trainer
-
-	def_trainer PHIL, "Phil"
-	tr_mon 36, RATTATA
-	tr_mon 35, RATTATA
-	end_trainer
-
-	def_trainer RICHARD, "Vernon" ; MISMATCH
-	tr_mon 44, ESPEON
-	end_trainer
-
-	def_trainer GILBERT, "Gilbert"
-	tr_mon 38, STARMIE
-	tr_mon 36, EXEGGCUTE
-	tr_mon 40, RATTATA
-	end_trainer
-
-	def_trainer JARED, "Jared"
-	tr_mon 53, MR__MIME
-	tr_mon 55, EXEGGCUTE
-	tr_mon 55, EXEGGCUTE
-	end_trainer
-
-	def_trainer RODNEY, "Rodney"
-	tr_mon 45, RATTATA
-	tr_mon 47, RATTATA
-	end_trainer
-
-	def_trainer LEON, "Leon"
-	tr_mon 54, RATTATA
-	tr_mon 55, RATTATA
-	tr_mon 53, RATTATA
-	end_trainer
-
-	def_trainer URI, "Uri"
-	tr_mon 57, "Hocus", RATTATA
-	tr_mon 57, "Pocus", RATTATA
-	end_trainer
-
-	def_trainer VIRGIL, "Virgil"
-	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
 	end_trainer
 
 

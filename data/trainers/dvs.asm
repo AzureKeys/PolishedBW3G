@@ -71,6 +71,8 @@ TrainerClassDVsAndPersonality:
 	db  48, $DD, $BB, $DB, MALE   ; policeman
 	db  16, $88, $88, $88, MALE   ; preschoolerm
 	db  16, $88, $88, $88, FEMALE ; preschoolerf
+	db  48, $AA, $CC, $EE, MALE   ; psychicm
+	db  48, $AA, $CC, $EE, FEMALE ; psychicf
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
@@ -89,7 +91,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; juggler
 	db  48, $CC, $CC, $CC, MALE   ; schoolboy
 	db  48, $CC, $CC, $CC, FEMALE ; schoolgirl
-	db  48, $AA, $CC, $EE, MALE   ; psychic
 	db  48, $CC, $CC, $CC, MALE   ; sage
 	db  48, $CC, $CC, $CC, FEMALE ; medium
 	db  56, $DD, $DD, $DD, FEMALE ; kimono girl

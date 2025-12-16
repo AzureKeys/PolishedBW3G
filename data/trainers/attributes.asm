@@ -384,13 +384,13 @@ TrainerClassAttributes:
 	db 0, 0 ; items
 	db 10 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
+	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Pkmn Rangerf
 	db 0, 0 ; items
 	db 10 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
+	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Policeman
 	db FRESH_WATER, 0 ; items
@@ -409,6 +409,18 @@ TrainerClassAttributes:
 	db 5 ; base reward
 	dw NO_AI
 	dw CONTEXT_USE + SWITCH_RARELY
+
+; Psychicm T
+	db 0, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; Psychicf T
+	db 0, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Twins
 	db 0, 0 ; items
@@ -516,12 +528,6 @@ TrainerClassAttributes:
 	db SODA_POP, 0 ; items
 	db 10 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Psychic T
-	db 0, 0 ; items
-	db 10 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Sage

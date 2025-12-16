@@ -68,7 +68,7 @@ BattleTowerTrainers:
 	rawchar "Johnson@@@", SOLDIER
 	rawchar "Newandyke@", OFFICERM
 	rawchar "Rebecca@@@", SKIER
-	rawchar "Santiago@@", PSYCHIC_T
+	rawchar "Santiago@@", PSYCHICM_T
 	rawchar "Blake@@@@@", YOUNGSTER
 	rawchar "James@@@@@", BOARDER
 	rawchar "Kubrick@@@", HEX_MANIAC
@@ -88,7 +88,7 @@ BattleTowerTrainers:
 	rawchar "Nimue@@@@@", LADY
 	rawchar "Alice@@@@@", SIGHTSEERF
 	rawchar "Valentine@", BEAUTY
-	rawchar "Uri@@@@@@@", PSYCHIC_T
+	rawchar "Uri@@@@@@@", PSYCHICM_T
 	rawchar "Wong@@@@@@", FIREBREATHER
 	rawchar "Chiyo@@@@@", KIMONO_GIRL
 	rawchar "Sidney@@@@", BIKER

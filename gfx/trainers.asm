@@ -190,6 +190,12 @@ PreschoolerMPic: INCBIN "gfx/trainers/preschooler_m.2bpp.lz"
 SECTION "PreschoolerFPic", ROMX
 PreschoolerFPic: INCBIN "gfx/trainers/preschooler_f.2bpp.lz"
 
+SECTION "PsychicMTPic", ROMX
+PsychicMTPic: INCBIN "gfx/trainers/psychic_m_t.2bpp.lz"
+
+SECTION "PsychicFTPic", ROMX
+PsychicFTPic: INCBIN "gfx/trainers/psychic_f_t.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -243,9 +249,6 @@ SchoolboyPic: INCBIN "gfx/trainers/schoolboy.2bpp.lz"
 
 SECTION "SchoolgirlPic", ROMX
 SchoolgirlPic: INCBIN "gfx/trainers/schoolgirl.2bpp.lz"
-
-SECTION "PsychicTPic", ROMX
-PsychicTPic: INCBIN "gfx/trainers/psychic_t.2bpp.lz"
 
 SECTION "SagePic", ROMX
 SagePic: INCBIN "gfx/trainers/sage.2bpp.lz"

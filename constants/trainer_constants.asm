@@ -469,6 +469,22 @@ DEF CRYS EQU __trainer_class__
 	const PRESCHOOLERF_R14_1
 	const PRESCHOOLERF_R14_2
 
+	trainerclass PSYCHICM_T ; 45
+	const PSYCHICM_RELIC_CASTLE
+	const PSYCHICM_PINWHEEL
+	const PSYCHICM_RELIC_PASSAGE
+	const PSYCHICM_CELESTIAL_TOWER
+	const PSYCHICM_DREAMYARD
+	const PSYCHICM_VICTORY_ROAD_INT
+
+	trainerclass PSYCHICF_T ; 46
+	const PSYCHICF_RELIC_CASTLE_1
+	const PSYCHICF_RELIC_CASTLE_2
+	const PSYCHICF_RELIC_PASSAGE
+	const PSYCHICF_CELESTIAL_TOWER
+	const PSYCHICF_DREAMYARD
+	const PSYCHICF_VICTORY_ROAD_INT
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -702,23 +718,6 @@ DEF CRYS EQU __trainer_class__
 	const SARAH
 	const ISABEL
 	const IMOGEN
-
-	trainerclass PSYCHIC_T ; 3a
-	const NATHAN
-	const FRANKLIN
-	const HERMAN
-	const FIDEL
-	const GREG
-	const NORMAN
-	const MARK
-	const PHIL
-	const RICHARD
-	const GILBERT
-	const JARED
-	const RODNEY
-	const LEON
-	const URI
-	const VIRGIL
 
 	trainerclass SAGE ; 3c
 	const CHOW

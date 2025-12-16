@@ -71,6 +71,8 @@ TrainerGroups:
 	dba PolicemanGroup
 	dba PreschoolerMGroup
 	dba PreschoolerFGroup
+	dba PsychicMGroup
+	dba PsychicFGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
@@ -89,7 +91,6 @@ TrainerGroups:
 	dba JugglerGroup
 	dba SchoolboyGroup
 	dba SchoolgirlGroup
-	dba PsychicGroup
 	dba SageGroup
 	dba MediumGroup
 	dba KimonoGirlGroup

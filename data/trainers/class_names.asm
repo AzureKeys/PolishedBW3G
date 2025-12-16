@@ -68,6 +68,8 @@ TrainerClassNames::
 	li "Policeman"        ; POLICEMAN
 	li "Preschooler"      ; PRESCHOOLERM
 	li "Preschooler"      ; PRESCHOOLERF
+	li "Psychic"          ; PSYCHICM_T
+	li "Psychic"          ; PSYCHICF_T
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
@@ -86,7 +88,6 @@ TrainerClassNames::
 	li "Juggler"          ; JUGGLER
 	li "Schoolboy"        ; SCHOOLBOY
 	li "Schoolgirl"       ; SCHOOLGIRL
-	li "Psychic"          ; PSYCHIC_T
 	li "Sage"             ; SAGE
 	li "Medium"           ; MEDIUM
 	li "Kimono Girl"      ; KIMONO_GIRL
