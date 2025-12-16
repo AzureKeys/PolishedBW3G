@@ -33,7 +33,7 @@ CarrieGroup:
 	tr_mon 60, HOUNDOOM @ POISON_BARB
 		tr_moves NASTY_PLOT, FIRE_BLAST, DARK_PULSE, SLUDGE_BOMB
 	tr_mon 60, WIGGLYTUFF @ CHESTO_BERRY
-		tr_moves HYPER_VOICE, DAZZLINGLEAM, REST, SWEET_KISS
+		tr_moves HYPER_VOICE, DAZZLINGLEAM, REST, FLAMETHROWER
 	end_trainer
 
 
@@ -51,7 +51,7 @@ CalGroup:
 	tr_mon 60, STEELIX @ CHESTO_BERRY
 		tr_moves IRON_TAIL, ROCK_SLIDE, EARTHQUAKE, REST
 	tr_mon 60, WEAVILE @ LEFTOVERS
-		tr_moves CONFUSE_RAY, CURSE, FEINT_ATTACK, PROTECT
+		tr_moves ICE_PUNCH, SWORDS_DANCE, FEINT_ATTACK, PROTECT
 	tr_mon 60, CLEFABLE @ PINK_BOW
 		tr_moves SING, HEALINGLIGHT, TACKLE, MOONBLAST
 	end_trainer
@@ -2958,7 +2958,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer AIDAN, "Aidan"
-	tr_mon 36, SNORLAX
+	tr_mon LEVEL_FROM_BADGES + 7, SNORLAX
 		tr_moves HEADBUTT, DEFENSE_CURL, ROLLOUT, EXPLOSION
 	tr_mon 36, RATTATA
 		tr_moves TACKLE, RECOVER, PSYBEAM, TRI_ATTACK
@@ -5174,7 +5174,9 @@ ProtonGroup:
 
 	def_trainer_class PROTON
 	def_trainer PROTON1, "Proton"
-	tr_mon 39, GOLBAT @ KINGS_ROCK
+	tr_mon 39, GOLBAT @ KINGS_ROCK, MALE
+		tr_extra INNER_FOCUS
+		tr_evs 252 Spe
 		tr_moves AERIAL_ACE, CONFUSE_RAY, SUPER_FANG, POISON_JAB
 	tr_mon 40, RATTATA @ BRIGHTPOWDER
 		tr_moves TACKLE, BUBBLE_BEAM, PAIN_SPLIT, ROLLOUT
@@ -5184,12 +5186,14 @@ ProtonGroup:
 		tr_moves FIRE_BLAST, EXPLOSION, SLUDGE_BOMB, TACKLE
 	end_trainer
 
-	def_trainer PROTON2, "Proton"
-	tr_mon 11, ZUBAT
+def_trainer PROTON2, "Proton"
+	tr_mon 11, ZUBAT, MALE
+		tr_extra INNER_FOCUS
 		tr_evs 32 Spe
 	tr_mon 12, RATTATA
 		tr_evs 32 Spe
-	tr_mon 14, KOFFING
+	tr_mon 14, KOFFING, MALE
+		tr_extra LEVITATE
 		tr_evs 32 Spe
 	end_trainer
 
@@ -5204,24 +5208,32 @@ PetrelGroup:
 	tr_mon 39, GOLBAT @ EVIOLITE, MALE
 		tr_moves TACKLE, AERIAL_ACE, CONFUSE_RAY, SUPER_FANG
 	tr_mon 40, MUK @ HARD_STONE, MALE | ALOLAN_FORM
+		tr_extra POISON_TOUCH
+		tr_evs 252 Atk
 		tr_moves FIRE_PUNCH, KNOCK_OFF, POISON_JAB, ROCK_SLIDE
 	tr_mon 41, WEEZING @ SILK_SCARF, MALE
 		tr_moves TACKLE, EXPLOSION, VENOSHOCK, TACKLE
 	tr_mon 39, RATICATE @ BLACKGLASSES, MALE | ALOLAN_FORM
+		tr_extra HUSTLE
+		tr_evs 252 Atk
 		tr_moves QUICK_ATTACK, SCREECH, CRUNCH, SUPER_FANG
 	end_trainer
 
 	def_trainer PETREL2, "Petrel"
 	tr_mon 34, GOLBAT @ EVIOLITE, MALE
+		tr_extra INNER_FOCUS
 		tr_evs 216 Atk
 		tr_moves BITE, AERIAL_ACE, CONFUSE_RAY, SUPER_FANG
 	tr_mon 35, MUK @ BLACKGLASSES, MALE | ALOLAN_FORM
+		tr_extra POISON_TOUCH
 		tr_evs 108 Atk, 108 Spe
 		tr_moves TACKLE, CRUNCH, VENOSHOCK, KNOCK_OFF
 	tr_mon 35, RATICATE @ KINGS_ROCK, MALE | ALOLAN_FORM
+		tr_extra HUSTLE
 		tr_evs 108 Atk, 108 Spe
 		tr_moves SWORDS_DANCE, CRUNCH, SUPER_FANG, TACKLE
 	tr_mon 36, WEEZING @ POISON_BARB, MALE
+		tr_extra LEVITATE
 		tr_evs 108 Atk, 108 SAt
 		tr_moves ENDURE, WILL_O_WISP, SLUDGE_BOMB, EXPLOSION
 	end_trainer
@@ -5233,10 +5245,14 @@ ArcherGroup:
 	def_trainer_class ARCHER
 	def_trainer ARCHER1, "Archer"
 	tr_mon 41, HOUNDOUR @ EVIOLITE, MALE
+		tr_extra FLASH_FIRE
+		tr_evs 252 HP
 		tr_moves SUPER_FANG, FIRE_SPIN, FEINT_ATTACK, WILL_O_WISP
 	tr_mon 43, RATICATE @ BLACKGLASSES, MALE | ALOLAN_FORM
 		tr_moves CRUNCH, SUPER_FANG, TACKLE, DOUBLE_EDGE
 	tr_mon 41, GENGAR @ SPELL_TAG, MALE
+		tr_extra CURSED_BODY
+		tr_evs 124 SAt, 124 Spe 
 		tr_moves HYPNOSIS, CONFUSE_RAY, PAIN_SPLIT, SHADOW_BALL
 	tr_mon 42, WEEZING @ BRIGHTPOWDER, MALE
 		tr_moves TACKLE, WILL_O_WISP, PAIN_SPLIT, SLUDGE_BOMB
@@ -5246,12 +5262,15 @@ ArcherGroup:
 
 	def_trainer ARCHER2, "Archer"
 	tr_mon 28, HAUNTER @ SPELL_TAG, MALE
-		tr_evs 176 SAt
+		tr_extra LEVITATE
+		tr_evs 88 SAt, 88 Spe
 		tr_moves DISABLE, NIGHT_SHADE, CONFUSE_RAY, SHADOW_BALL
 	tr_mon 30, RATICATE @ BLACKGLASSES, MALE | ALOLAN_FORM
+		tr_extra HUSTLE
 		tr_evs 88 Atk, 88 Spe
 		tr_moves PURSUIT, TACKLE, SCARY_FACE, CRUNCH
 	tr_mon 28, WEEZING @ SILK_SCARF, MALE
+		tr_extra LEVITATE
 		tr_evs 88 Atk, 88 Spe
 		tr_moves WILL_O_WISP, EXPLOSION, VENOSHOCK, TACKLE
 	tr_mon 32, HOUNDOOM @ KINGS_ROCK, MALE
@@ -5270,6 +5289,8 @@ ArianaGroup:
 	tr_mon 41, RATTATA @ MIRACLE_SEED, FEMALE
 		tr_moves LEECH_SEED, ACID, SLEEP_POWDER, GIGA_DRAIN
 	tr_mon 42, HONCHKROW @ BLACKGLASSES, FEMALE
+		tr_extra INSOMNIA
+		tr_evs 252 Atk
 		tr_moves WING_ATTACK, NIGHT_SHADE, CONFUSE_RAY, FEINT_ATTACK
 	end_trainer
 
@@ -5279,6 +5300,8 @@ ArianaGroup:
 	tr_mon 36, RATTATA @ MIRACLE_SEED, FEMALE
 		tr_moves MEGA_DRAIN, GROWTH, SLEEP_POWDER, ACID
 	tr_mon 37, MURKROW @ KINGS_ROCK, FEMALE
+		tr_extra INSOMNIA
+		tr_evs 216 Atk
 		tr_moves WING_ATTACK, PURSUIT, CONFUSE_RAY, NIGHT_SHADE
 	end_trainer
 
@@ -5293,29 +5316,30 @@ GiovanniGroup:
 		tr_moves SHADOW_BALL, PSYSHOCK, NASTY_PLOT, AURA_SPHERE
 	end_trainer
 
+
 	def_trainer GIOVANNI2, "Giovanni"
 	tr_mon 64, NIDOKING @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
+		tr_evs 252 Spe, 164 SAt
 		tr_moves SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, FLAMETHROWER
 	tr_mon 62, RATTATA @ CHOICE_BAND, MALE
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_moves EARTHQUAKE, STONE_EDGE, SUCKER_PUNCH, TOXIC
 	tr_mon 60, HONCHKROW @ FOCUS_SASH, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 164 Spe
 		tr_moves SUCKER_PUNCH, DRILL_PECK, ROOST, THUNDER_WAVE
 	tr_mon 60, KANGASKHAN @ LEFTOVERS, FEMALE
 		tr_extra EARLY_BIRD, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 164 Spe
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, CRUNCH, REST
 	tr_mon 62, RATTATA @ EVIOLITE, MALE
-if !DEF(FAITHFUL)
 		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-else
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-endc
 		tr_moves ROCK_SLIDE, EARTHQUAKE, TACKLE, SWORDS_DANCE
 	tr_mon 64, NIDOQUEEN @ LIFE_ORB, FEMALE
-		tr_extra SHEER_FORCE, SPE_UP_DEF_DOWN
-		tr_moves SLUDGE_BOMB, EARTH_POWER, STONE_EDGE, CLOSE_COMBAT
+		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
+		tr_evs 252 Spe, 164 SAt
+		tr_moves SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, FOCUS_BLAST
 	end_trainer
 
 
@@ -5334,17 +5358,15 @@ ProfOakGroup:
 		tr_extra HUSTLE, SDEF_UP_ATK_DOWN
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
 	tr_mon 80, RATTATA @ LIFE_ORB, MALE
-if !DEF(FAITHFUL)
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-else
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-endc
+		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves FLARE_BLITZ, DRAGON_CLAW, CRUNCH, DRAGON_DANCE
 	tr_mon 80, RATTATA @ WHITE_HERB, MALE
 		tr_extra HUSTLE, SDEF_UP_SATK_DOWN
 		tr_moves WATERFALL, IRON_HEAD, CLOSE_COMBAT, SHELL_SMASH
 	tr_mon 82, NIDOKING @ LIFE_ORB, MALE
-		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_extra SPE_UP_SATK_DOWN
+		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves POISON_JAB, EARTHQUAKE, ICE_PUNCH, THUNDERPUNCH
 	end_trainer
 
@@ -5411,6 +5433,7 @@ MysticalmanGroup:
 		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
 	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
 		tr_extra LEVITATE
+		tr_evs 80 SAt, 80 Spe
 		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
 	tr_mon 28, RATTATA @ MAGNET, MALE
 		tr_extra HUSTLE, SHINY
@@ -5488,16 +5511,19 @@ LoreleiGroup:
 
 	def_trainer_class LORELEI
 	def_trainer 1, "Lorelei"
-	tr_mon 39, GLACEON
-		tr_evs 240 Spe
-		tr_moves ICE_BEAM, BARRIER, RECOVER, QUICK_ATTACK
-	tr_mon 41, DEWGONG
+	tr_mon 39, GLACEON, FEMALE
+		tr_extra ICE_BODY
+		tr_evs 240 SAt
+		tr_moves ICE_BEAM, HAIL, WATER_PULSE, MIRROR_COAT
+	tr_mon 41, DEWGONG, FEMALE
+		tr_extra THICK_FAT
 		tr_evs 240 HP
 		tr_moves WATERFALL, AURORA_BEAM, SLEEP_TALK, REST
 	tr_mon 40, RATTATA
 		tr_evs 240 Atk
 		tr_moves DEFENSE_CURL, ROLLOUT, AURORA_BEAM, EXPLOSION
-	tr_mon 41, SLOWBRO
+	tr_mon 41, SLOWBRO, FEMALE
+		tr_extra OWN_TEMPO
 		tr_evs 240 HP
 		tr_moves PSYCHIC_M, WATER_PULSE, HEADBUTT, DISABLE
 	tr_mon 44, RATTATA @ SITRUS_BERRY
@@ -5509,7 +5535,9 @@ LoreleiGroup:
 	end_trainer
 
 	def_trainer 2, "Lorelei"
-	tr_mon 73, DEWGONG @ LEFTOVERS
+	tr_mon 73, DEWGONG @ LEFTOVERS, FEMALE
+		tr_extra THICK_FAT, DEF_UP_ATK_DOWN
+		tr_evs 252 HP, 4 SDf, 252 Def
 		tr_moves SURF, ICE_BEAM, REST, SLEEP_TALK
 	tr_mon 72, RATTATA @ MUSCLE_BAND
 		tr_moves EXPLOSION, ROCK_BLAST, ICICLE_CRASH, BARRIER
@@ -5524,24 +5552,28 @@ LoreleiGroup:
 	end_trainer
 
 	def_trainer 3, "Lorelei"
-	tr_mon 58, DEWGONG @ LEFTOVERS
+	tr_mon 58, DEWGONG @ LEFTOVERS, FEMALE
+		tr_extra THICK_FAT, SDEF_UP_SPE_DOWN
 		tr_evs 160 HP, 160 SDf
 		tr_moves AQUA_TAIL, ICE_BEAM, REST, SLEEP_TALK
 	tr_mon 57, RATTATA @ SILK_SCARF
 		tr_evs 252 Atk, 68 Spe
-		tr_moves EXPLOSION, ROLLOUT, ICICLE_CRASH, BARRIER
-	tr_mon 58, SLOWBRO @ TWISTEDSPOON
+		tr_moves EXPLOSION, ROLLOUT, ICICLE_CRASH, WATERFALL
+	tr_mon 58, SLOWBRO @ TWISTEDSPOON, FEMALE
+		tr_extra OWN_TEMPO, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 68 SAt
 		tr_moves PSYCHIC_M, SURF, ICE_BEAM, CALM_MIND
-	tr_mon 56, GLACEON @ NEVERMELTICE
+	tr_mon 56, GLACEON @ NEVERMELTICE, FEMALE
+		tr_extra ICE_BODY, SATK_UP_ATK_DOWN
 		tr_evs 68 Atk, 252 SAt
 		tr_moves ICE_BEAM, BARRIER, HYPER_VOICE, QUICK_ATTACK
 	tr_mon 60, RATTATA @ PINK_BOW
 		tr_evs 68 SAt, 252 Spe
 		tr_moves DRAINING_KISS, NASTY_PLOT, ICE_BEAM, PSYCHIC_M
-	tr_mon 59, LAPRAS @ BRIGHTPOWDER
+	tr_mon 59, LAPRAS @ CHESTO_BERRY, FEMALE
+		tr_extra WATER_ABSORB, SATK_UP_ATK_DOWN
 		tr_evs 160 HP, 80 SAt, 80 Spe
-		tr_moves ICE_BEAM, ANCIENTPOWER, CONFUSE_RAY, OUTRAGE
+		tr_moves ICE_BEAM, ANCIENTPOWER, REST, SURF
 	end_trainer
 
 
@@ -5551,16 +5583,20 @@ AgathaGroup:
 	def_trainer_class AGATHA
 	def_trainer 1, "Agatha"
 	tr_mon 62, GENGAR @ SPELL_TAG, FEMALE
+		tr_extra CURSED_BODY
 		tr_evs 108 SAt, 252 Spe
 		tr_moves SHADOW_BALL, WILL_O_WISP, CURSE, DESTINY_BOND
 	tr_mon 62, CROBAT @ POISON_BARB, FEMALE
+		tr_extra INNER_FOCUS
 		tr_evs 252 Atk, 108 Spe
-		tr_moves AIR_SLASH, CRUNCH, X_SCISSOR, POISON_JAB
+		tr_moves BRAVE_BIRD, CRUNCH, X_SCISSOR, POISON_JAB
 	tr_mon 61, MISDREAVUS @ EVIOLITE, FEMALE
+		tr_extra LEVITATE
 		tr_evs 252 HP, 108 SAt
-		tr_moves SHADOW_BALL, FLAMETHROWER, DAZZLINGLEAM, POWER_GEM
+		tr_moves SHADOW_BALL, DAZZLINGLEAM, FLAMETHROWER, POWER_GEM
 if DEF(FAITHFUL)
-	tr_mon 61, MUK @ SILK_SCARF, FEMALE
+		tr_mon 61, MUK @ BLACK_SLUDGE, FEMALE 
+		tr_extra STENCH
 		tr_evs 252 HP, 108 Spe
 		tr_moves EXPLOSION, SLUDGE_BOMB, SCREECH, TACKLE
 else
@@ -5572,6 +5608,7 @@ endc
 		tr_evs 108 SAt, 252 Spe
 		tr_moves SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
 	tr_mon 65, GENGAR @ QUICK_CLAW, FEMALE
+		tr_extra CURSED_BODY
 		tr_evs 108 SAt, 252 Spe
 		tr_moves SHADOW_BALL, THUNDERBOLT, WILL_O_WISP, DESTINY_BOND
 	end_trainer
@@ -5592,8 +5629,10 @@ else
 endc
 	tr_mon 74, RATTATA @ KINGS_ROCK, FEMALE
 		tr_moves SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
-	tr_mon 75, GENGAR @ WISE_GLASSES, FEMALE
-		tr_moves SHADOW_BALL, THUNDERBOLT, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, GENGAR @ CHOICE_SPECS, FEMALE
+		tr_extra SHADOW_TAG, SPE_UP_ATK_DOWN
+		tr_evs 252 SAt, 4 Def, 252 Spe
+		tr_moves SHADOW_BALL, FOCUS_BLAST, SLUDGE_BOMB, THUNDERBOLT
 	end_trainer
 
 
@@ -5602,28 +5641,38 @@ StevenGroup:
 
 	def_trainer_class STEVEN
 	def_trainer 1, "Steven"
-	tr_mon 61, SKARMORY @ QUICK_CLAW, MALE
+	tr_mon 61, SKARMORY @ LEFTOVERS, MALE
+		tr_extra STURDY
+		tr_evs 252 HP, 164 Def
 		tr_moves SPIKES, SCREECH, DRILL_PECK, STEEL_WING
 	tr_mon 60, RATTATA @ FOCUS_BAND, MALE
 		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
 if DEF(FAITHFUL)
-	tr_mon 58, MAGNEZONE @ WISE_GLASSES, MALE
+	tr_mon 58, MAGNEZONE @ WISE_GLASSES
+		tr_extra STURDY
+		tr_evs 252 HP, 164 SAt
 		tr_moves THUNDERBOLT, FLASH_CANNON, TRI_ATTACK, EXPLOSION
 else
 	tr_mon 58, RATTATA @ WISE_GLASSES, MALE
 		tr_moves SURF, BLIZZARD, FLASH_CANNON, AURA_SPHERE
 endc
 	tr_mon 58, SANDSLASH @ NEVERMELTICE, MALE | ALOLAN_FORM
+		tr_extra SNOW_CLOAK
+		tr_evs 252 atk, 164 Spe
 		tr_moves IRON_HEAD, ICICLE_CRASH, EARTHQUAKE, RAPID_SPIN
 	tr_mon 58, RATTATA @ KINGS_ROCK, MALE
 		tr_moves ROCK_SLIDE, CRUNCH, AERIAL_ACE, IRON_HEAD
 	tr_mon 62, STEELIX @ MUSCLE_BAND, MALE
+		tr_extra SAND_FORCE
+		tr_evs 252 HP, 164 Atk
 		tr_moves EARTHQUAKE, STONE_EDGE, IRON_HEAD, SANDSTORM
 	end_trainer
 
 	def_trainer 2, "Steven"
-	tr_mon 78, SKARMORY @ QUICK_CLAW, MALE
-		tr_moves SPIKES, SCREECH, DRILL_PECK, STEEL_WING
+	tr_mon 78, SKARMORY @ ROCKY_HELMET, MALE
+		tr_extra STURDY, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 SDf, 252 Def
+		tr_moves SPIKES, ROOST, STEEL_WING, DRILL_PECK
 if DEF(FAITHFUL)
 	tr_mon 77, RATTATA @ FOCUS_BAND, MALE
 		tr_moves EARTHQUAKE, GYRO_BALL, EXPLOSION, SPIKES
@@ -5655,9 +5704,9 @@ CynthiaGroup:
 		tr_moves TACKLE, THUNDERPUNCH, FIRE_PUNCH, LIGHT_SCREEN
 	tr_mon 58, YANMEGA @ QUICK_CLAW
 if DEF(FAITHFUL)
-		tr_moves PROTECT, BUG_BUZZ, ANCIENTPOWER, AIR_SLASH
+		tr_moves PROTECT, BUG_BUZZ, AIR_SLASH, ANCIENTPOWER
 else
-		tr_moves PROTECT, BUG_BUZZ, ANCIENTPOWER, DRAGON_PULSE
+		tr_moves PROTECT, BUG_BUZZ, DRAGON_PULSE, ANCIENTPOWER
 endc
 	tr_mon 62, RATTATA @ LEFTOVERS
 		tr_moves EARTHQUAKE, SHADOW_CLAW, PLAY_ROUGH, GIGA_IMPACT
@@ -5925,11 +5974,6 @@ SparkGroup:
 	def_trainer_class SPARK_T
 	def_trainer 1, "Spark"
 	tr_mon 63, JOLTEON, MALE
-	tr_mon 62, ELECTABUZZ, MALE
-	tr_mon 63, RATTATA, MALE
-	tr_mon 61, SNORLAX, MALE
-	tr_mon 64, PIKACHU @ LIGHT_BALL, MALE | PIKACHU_SPARK_FORM
-	tr_mon 65, RATTATA @ MAGNET, MALE
 	end_trainer
 
 
@@ -5938,18 +5982,29 @@ FlanneryGroup:
 
 	def_trainer_class FLANNERY
 	def_trainer 1, "Flannery"
-	tr_mon 64, RATTATA
+	tr_mon 64, RATTATA, FEMALE
 		tr_evs 252 SAt, 172 Spe
-	tr_mon 63, ARCANINE
+		tr_moves EARTH_POWER, FLAMETHROWER, RECOVER, SHELL_SMASH
+	tr_mon 63, ARCANINE, FEMALE
+		tr_extra INTIMIDATE
 		tr_evs 252 Atk, 172 Spe
-	tr_mon 63, HOUNDOOM
+		tr_moves FLARE_BLITZ, OUTRAGE, CRUNCH, EXTREMESPEED
+	tr_mon 63, HOUNDOOM, FEMALE
+		tr_extra EARLY_BIRD
 		tr_evs 172 SAt, 252 Spe
-	tr_mon 63, RAPIDASH
+		tr_moves FLAMETHROWER, DARK_PULSE, SUCKER_PUNCH, DESTINY_BOND
+	tr_mon 63, RAPIDASH, FEMALE
+		tr_extra FLASH_FIRE
 		tr_evs 252 Atk, 172 Spe
-	tr_mon 61, NINETALES
+		tr_moves FLARE_BLITZ, PLAY_ROUGH, EXTREMESPEED, MEGAHORN
+	tr_mon 61, NINETALES, FEMALE
+		tr_extra FLASH_FIRE
 		tr_evs 172 SAt, 252 Spe
-	tr_mon 66, MAGMORTAR
+		tr_moves FIRE_BLAST, HEX, ENERGY_BALL, WILL_O_WISP
+	tr_mon 66, MAGMORTAR, FEMALE
+		tr_extra FLAME_BODY
 		tr_evs 172 HP, 252 Spe
+		tr_moves FLAMETHROWER, FOCUS_BLAST, THUNDERBOLT, PSYCHIC
 	end_trainer
 
 	def_trainer 2, "Flannery"
@@ -5968,38 +6023,9 @@ MayleneGroup:
 	def_trainer_class MAYLENE
 	def_trainer 1, "Maylene"
 	tr_mon 59, RATTATA
-		tr_evs 140 Atk, 252 Spe
-	tr_mon 59, RATTATA
-		tr_evs 252 Atk, 140 Spe
-	tr_mon 59, RATTATA
-		tr_evs 196 Atk, 196 Spe
-if DEF(FAITHFUL)
-	tr_mon 62, HERACROSS
-		tr_evs 140 Atk, 252 Spe
-	tr_mon 62, PRIMEAPE
-		tr_evs 140 Atk, 252 Spe ; faithful, so no Gorilla Tactics
-else
-	tr_mon 62, ELECTIVIRE
-		tr_evs 140 Atk, 252 Spe
-	tr_mon 62, MAGMORTAR
-		tr_evs 252 SAt, 140 Spe
-endc
-	tr_mon 63, RATTATA
-		tr_evs 140 HP, 252 Atk
-	end_trainer
 
 	def_trainer 2, "Maylene"
 	tr_mon 72, RATTATA
-	tr_mon 72, RATTATA
-	tr_mon 72, RATTATA
-if DEF(FAITHFUL)
-	tr_mon 73, HERACROSS
-	tr_mon 73, PRIMEAPE
-else
-	tr_mon 73, ELECTIVIRE
-	tr_mon 73, MAGMORTAR
-endc
-	tr_mon 75, RATTATA
 	end_trainer
 
 
@@ -6008,16 +6034,19 @@ ValerieGroup:
 
 	def_trainer_class VALERIE
 	def_trainer 1, "Valerie"
-	tr_mon 37, CLEFABLE
+	tr_mon 37, CLEFABLE, FEMALE
+		tr_extra CUTE_CHARM
 		tr_evs 224 HP
 		tr_moves DISARM_VOICE, TACKLE, BATON_PASS, TACKLE
 	tr_mon 37, MR__MIME
 		tr_evs 224 HP
 		tr_moves PSYBEAM, CONFUSE_RAY, LIGHT_SCREEN, REFLECT
-	tr_mon 36, AZUMARILL
+	tr_mon 36, AZUMARILL, FEMALE
+		tr_extra HUGE_POWER
 		tr_evs 224 Atk
 		tr_moves PLAY_ROUGH, AQUA_TAIL, DIZZY_PUNCH, ROLLOUT
-	tr_mon 38, TOGETIC
+	tr_mon 38, TOGETIC, FEMALE
+		tr_extra SERENE_GRACE
 		tr_evs 224 SAt
 		tr_moves ANCIENTPOWER, TACKLE, DAZZLINGLEAM, ENCORE
 	tr_mon 40, SYLVEON @ SITRUS_BERRY
@@ -6027,21 +6056,27 @@ ValerieGroup:
 
 	def_trainer 2, "Valerie"
 	tr_mon 57, CLEFABLE @ LEFTOVERS, FEMALE
+		tr_extra MAGIC_GUARD
 		tr_evs 252 HP, 68 Def
 		tr_moves MOONBLAST, CALM_MIND, HEALINGLIGHT, TACKLE
 	tr_mon 57, MR__MIME @ QUICK_CLAW, FEMALE
+		tr_extra FILTER
 		tr_evs 252 HP, 68 Def
 		tr_moves PSYCHIC_M, DAZZLINGLEAM, LIGHT_SCREEN, REFLECT
 	tr_mon 56, AZUMARILL @ MUSCLE_BAND, FEMALE
+		tr_extra HUGE_POWER
 		tr_evs 252 Atk, 68 Spe
 		tr_moves PLAY_ROUGH, WATERFALL, DIZZY_PUNCH, CLOSE_COMBAT
 	tr_mon 56, RAPIDASH @ KINGS_ROCK, FEMALE | GALARIAN_FORM
+		tr_extra PASTEL_VEIL
 		tr_evs 252 Atk, 68 Spe
-		tr_moves FLAMETHROWER, ZEN_HEADBUTT, PLAY_ROUGH, SWORDS_DANCE
+		tr_moves EXTREMESPEED, ZEN_HEADBUTT, PLAY_ROUGH, SWORDS_DANCE
 	tr_mon 58, TOGEKISS @ WISE_GLASSES, FEMALE
+		tr_extra SERENE_GRACE
 		tr_evs 252 SAt, 68 Spe
 		tr_moves AURA_SPHERE, TACKLE, DAZZLINGLEAM, AIR_SLASH
 	tr_mon 60, SYLVEON @ PINK_BOW, FEMALE
+		tr_extra PIXILATE
 		tr_evs 252 SAt, 68 Spe
 		tr_moves MOONBLAST, CALM_MIND, DRAINING_KISS, HYPER_VOICE
 	end_trainer
@@ -6068,17 +6103,6 @@ KukuiGroup:
 	def_trainer_class KUKUI
 	def_trainer 1, "Kukui"
 	tr_mon 67, RATTATA, MALE | ALOLAN_FORM
-		tr_evs 236 Atk, 252 Spe
-	tr_mon 65, NINETALES, MALE | ALOLAN_FORM
-		tr_evs 252 SAt, 236 Spe
-	tr_mon 66, MAGNEZONE, MALE
-		tr_evs 236 HP, 252 SAt
-	tr_mon 66, SNORLAX, MALE
-		tr_evs 236 Def, 252 SDf
-	tr_mon 65, RATICATE, MALE | ALOLAN_FORM
-		tr_evs 236 Atk, 252 Spe
-	tr_mon 68, EXEGGUTOR, MALE | ALOLAN_FORM
-		tr_evs 236 SAt, 252 Spe
 	end_trainer
 
 	def_trainer 2, "Kukui"
@@ -6095,7 +6119,6 @@ SECTION "PiersGroup", ROMX
 PiersGroup:
 
 	def_trainer_class PIERS
-
 	def_trainer 1, "Piers"
 	tr_mon 16, MURKROW
 	tr_mon 17, RATTATA, HISUIAN_FORM
@@ -6105,15 +6128,6 @@ PiersGroup:
 
 	def_trainer 2, "Piers"
 	tr_mon LEVEL_FROM_BADGES + 12, HONCHKROW
-	tr_mon LEVEL_FROM_BADGES + 16, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 16, MUK, ALOLAN_FORM
-	tr_mon LEVEL_FROM_BADGES + 14, PERSIAN, ALOLAN_FORM
-if DEF(FAITHFUL)
-	tr_mon LEVEL_FROM_BADGES + 14, UMBREON
-else
-	tr_mon LEVEL_FROM_BADGES + 14, RATTATA
-endc
-	tr_mon LEVEL_FROM_BADGES + 19, RATICATE, ALOLAN_FORM
 	end_trainer
 
 
@@ -6146,7 +6160,8 @@ VictorGroup:
 	def_trainer_class VICTOR
 	def_trainer 1, "Victor"
 	tr_mon 69, "Puka", PIKACHU @ LIGHT_BALL, MALE | PIKACHU_SURF_FORM
-		tr_extra STATIC, SATK_UP_ATK_DOWN
+		tr_extra LIGHTNING_ROD, SPE_UP_DEF_DOWN
+		tr_evs 252 SAt, 4 Atk, 252 Spe
 		tr_moves SURF, THUNDERBOLT, THUNDER_WAVE, EXTREMESPEED
 	end_trainer
 
@@ -6206,7 +6221,7 @@ YellowGroup:
 	tr_mon 72, "Omny", RATTATA @ WISE_GLASSES, FEMALE
 		tr_extra HUSTLE
 		tr_moves SCALD, ANCIENTPOWER, SPIKES, ICE_BEAM
-	tr_mon 73, "Ratty", RATICATE @ KINGS_ROCK, FEMALE
+	tr_mon 73, "Ratty", RATICATE @ FLAME_ORB, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_moves SWORDS_DANCE, QUICK_ATTACK, SUPER_FANG, CRUNCH
 	tr_mon 71, "Free", RATTATA @ BRIGHTPOWDER, FEMALE
@@ -6217,9 +6232,11 @@ YellowGroup:
 		tr_moves DRILL_PECK, TRI_ATTACK, DOUBLE_TEAM, PURSUIT
 	tr_mon 73, "Gravvy", GOLEM @ MUSCLE_BAND, FEMALE
 		tr_extra STURDY, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 SDf, 252 Atk
 		tr_moves ROLLOUT, DEFENSE_CURL, EARTHQUAKE, STONE_EDGE
 	tr_mon 75, "Chuchu", PIKACHU @ LIGHT_BALL, FEMALE | PIKACHU_YELLOW_FORM
 		tr_extra STATIC, SPE_UP_DEF_DOWN
+		tr_evs 252 SAt, 4 Atk, 252 Spe
 		tr_moves SURF, FLY, THUNDERBOLT, EXTREMESPEED
 	end_trainer
 
@@ -6230,17 +6247,6 @@ WalkerGroup:
 	def_trainer_class WALKER
 	def_trainer 1, "Walker"
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-		tr_evs 184 Spe
-		tr_moves AERIAL_ACE, NIGHT_SHADE, REFLECT, EXTRASENSORY
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-		tr_evs 184 SAt
-		tr_moves MUD_SLAP, ROOST, SWIFT, AIR_SLASH
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-		tr_evs 184 Atk
-		tr_moves WING_ATTACK, SUPERSONIC, BITE, ANCIENTPOWER
-	tr_mon LEVEL_FROM_BADGES + 8, SKARMORY @ SITRUS_BERRY
-		tr_evs 184 HP
-		tr_moves METAL_CLAW, FURY_STRIKES, DRILL_PECK, SWIFT
 	end_trainer
 
 	def_trainer 2, "Walker"
@@ -6254,9 +6260,9 @@ WalkerGroup:
 		tr_moves ROCK_SLIDE, CRUNCH, IRON_HEAD, FLY
 	tr_mon 73, RATTATA @ CHARCOAL
 if DEF(FAITHFUL)
-		tr_moves SWORDS_DANCE, FIRE_BLAST, ROCK_SLIDE, AERIAL_ACE
+		tr_moves SWORDS_DANCE, FLARE_BLITZ, ROCK_SLIDE, AERIAL_ACE
 else
-		tr_moves SWORDS_DANCE, FIRE_BLAST, ROCK_SLIDE, DRAGON_CLAW
+		tr_moves SWORDS_DANCE, FLARE_BLITZ, ROCK_SLIDE, DRAGON_CLAW
 endc
 	tr_mon 72, RATTATA @ QUICK_CLAW
 		tr_moves FUTURE_SIGHT, PAIN_SPLIT, REFLECT, PSYCHIC_M
@@ -6286,15 +6292,20 @@ LawrenceGroup:
 		tr_moves ICE_BEAM, AIR_SLASH, ANCIENTPOWER, REFLECT
 	tr_mon 66, RATTATA @ DRAGON_FANG, MALE
 		tr_extra ATK_UP_SATK_DOWN, SHINY
+		tr_evs 252 Atk, 4 Def, 252 Spe
 if DEF(FAITHFUL)
 		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, AERIAL_ACE
 else
 		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, DRAGON_CLAW
 endc
 	tr_mon 68, DRAGONITE @ LEFTOVERS, MALE
+		tr_extra INNER_FOCUS
+		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves DRAGON_DANCE, OUTRAGE, AQUA_TAIL, EARTHQUAKE
 	tr_mon 67, TYRANITAR @ KINGS_ROCK, MALE
-		tr_moves EARTHQUAKE, STONE_EDGE, CRUNCH, SCARY_FACE
+		tr_extra SAND_STREAM
+		tr_evs 252 Atk, 4 SDf, 252 HP
+		tr_moves EARTHQUAKE, STONE_EDGE, CRUNCH, FIRE_PUNCH
 	tr_mon 66, HONCHKROW @ QUICK_CLAW, MALE
 		tr_moves NASTY_PLOT, DARK_PULSE, CONFUSE_RAY, PURSUIT
 	tr_mon 70, RATTATA @ SHARP_BEAK, MALE
@@ -6304,14 +6315,9 @@ endc
 	def_trainer 2, "Lawrence"
 	tr_mon 75, RATTATA @ BRIGHTPOWDER, MALE
 		tr_moves ICE_BEAM, AIR_SLASH, ANCIENTPOWER, REFLECT
-	tr_mon 71, RATTATA @ DRAGON_FANG, MALE
-		tr_extra ATK_UP_SATK_DOWN, SHINY
-if DEF(FAITHFUL)
-		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, AERIAL_ACE
-else
-		tr_moves SWORDS_DANCE, FLARE_BLITZ, SLASH, DRAGON_CLAW
-endc
-	tr_mon 73, DRAGONITE @ LEFTOVERS, MALE
+	tr_mon 73, DRAGONITE @ LUM_BERRY, MALE
+		tr_extra MULTISCALE, SPE_UP_SATK_DOWN
+		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves DRAGON_DANCE, OUTRAGE, AQUA_TAIL, EARTHQUAKE
 	tr_mon 72, TYRANITAR @ KINGS_ROCK, MALE
 		tr_moves EARTHQUAKE, STONE_EDGE, CRUNCH, SCARY_FACE
@@ -6338,7 +6344,8 @@ ReiGroup:
 	end_trainer
 
 	def_trainer 2, "Maiden Rei"
-	tr_mon 59, FLAREON @ MUSCLE_BAND
+	tr_mon 59, FLAREON @ MUSCLE_BAND, FEMALE
+		tr_extra FLASH_FIRE
 		tr_evs 68 Atk, 252 Spe
 		tr_moves QUICK_ATTACK, BRICK_BREAK, DOUBLE_EDGE, FLARE_BLITZ
 	tr_mon 58, HONCHKROW @ BLACKGLASSES
@@ -6350,12 +6357,14 @@ ReiGroup:
 	tr_mon 57, RATTATA @ WISE_GLASSES
 		tr_evs 68 SAt, 252 Spe
 		tr_moves PSYCHIC_M, FOCUS_BLAST, SHADOW_BALL, THUNDER_WAVE
-	tr_mon 58, RAPIDASH @ KINGS_ROCK
+	tr_mon 58, RAPIDASH @ KINGS_ROCK, FEMALE
+		tr_extra FLASH_FIRE
 		tr_evs 68 HP, 252 Spe
 		tr_moves FIRE_BLAST, MEGAHORN, POISON_JAB, WILL_O_WISP
-	tr_mon 60, NINETALES @ LEFTOVERS
+	tr_mon 60, NINETALES @ LEFTOVERS, FEMALE
+		tr_extra DROUGHT
 		tr_evs 68 SAt, 252 Spe
-		tr_moves NASTY_PLOT, FLAMETHROWER, DARK_PULSE, SHADOW_BALL
+		tr_moves NASTY_PLOT, FLAMETHROWER, ENERGY_BALL, SHADOW_BALL
 	end_trainer
 
 	def_trainer 3, "Maiden Rei"

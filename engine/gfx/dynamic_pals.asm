@@ -177,7 +177,7 @@ MarkUsedPal:
 	rst AddNTimes
 	ld d, h
 	ld e, l
-	call CopySpritePal
+	call CopySpritePalHandler
 	pop bc
 
 	; Set the corresponding bit in wUsedObjectPals
