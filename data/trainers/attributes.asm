@@ -428,6 +428,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; School Kidm
+	db SODA_POP, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; School Kidf
+	db SODA_POP, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
@@ -523,18 +535,6 @@ TrainerClassAttributes:
 	db 15 ; base reward
 	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
 	dw CONTEXT_USE + SWITCH_OFTEN
-
-; Schoolboy
-	db SODA_POP, 0 ; items
-	db 10 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Schoolgirl
-	db SODA_POP, 0 ; items
-	db 10 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Sage
 	db 0, 0 ; items

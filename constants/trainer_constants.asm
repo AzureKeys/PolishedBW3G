@@ -489,6 +489,26 @@ DEF CRYS EQU __trainer_class__
 	const RICH_BOY_R4
 	const RICH_BOY_NACRENE_OUTSKIRT
 
+	trainerclass SCHOOL_KIDM ; 48
+	const SCHOOL_KIDM_R13
+	const SCHOOL_KIDM_OUTSKIRTS
+	const SCHOOL_KIDM_LOSTLORN
+	const SCHOOL_KIDM_R20_1
+	const SCHOOL_KIDM_R20_2
+	const SCHOOL_KIDM_R20_3
+	const SCHOOL_KIDM_DREAMYARD
+	const SCHOOL_KIDM_R7
+
+	trainerclass SCHOOL_KIDF ; 49
+	const SCHOOL_KIDF_R13
+	const SCHOOL_KIDF_REVERSAL
+	const SCHOOL_KIDF_LOSTLORN
+	const SCHOOL_KIDF_R20_1
+	const SCHOOL_KIDF_R20_2
+	const SCHOOL_KIDF_R20_3
+	const SCHOOL_KIDF_DREAMYARD
+	const SCHOOL_KIDF_R7
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -684,44 +704,6 @@ DEF CRYS EQU __trainer_class__
 ;	const IRWIN4
 	const FRITZ
 	const HORTON
-
-	trainerclass SCHOOLBOY ; 38
-	const JACK1
-	const JACK2
-	const JACK3
-	const JACK4
-	const JACK5
-	const ALAN1
-	const ALAN2
-	const ALAN3
-	const ALAN4
-	const ALAN5
-	const CHAD1
-	const CHAD2
-	const CHAD3
-	const CHAD4
-	const CHAD5
-	const KIPP
-	const JOHNNY
-	const DANNY
-	const TOMMY
-	const DUDLEY
-	const JOE
-	const BILLY
-	const NATE
-	const RICKY
-	const SHERMAN
-	const SCHOOLBOY_CONNOR
-	const TORIN
-	const TRAVIS
-
-	trainerclass SCHOOLGIRL ; 39
-	const MOLLY
-	const ELIZA
-	const FAITH
-	const SARAH
-	const ISABEL
-	const IMOGEN
 
 	trainerclass SAGE ; 3c
 	const CHOW

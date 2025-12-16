@@ -71,6 +71,8 @@ TrainerClassNames::
 	li "Psychic"          ; PSYCHICM_T
 	li "Psychic"          ; PSYCHICF_T
 	li "Rich Boy"         ; RICH_BOY
+	li "School Kid"       ; SCHOOL_KIDM
+	li "School Kid"       ; SCHOOL_KIDF
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
@@ -87,8 +89,6 @@ TrainerClassNames::
 	li "Ruin Maniac"      ; RUIN_MANIAC
 	li "Firebreather"     ; FIREBREATHER
 	li "Juggler"          ; JUGGLER
-	li "Schoolboy"        ; SCHOOLBOY
-	li "Schoolgirl"       ; SCHOOLGIRL
 	li "Sage"             ; SAGE
 	li "Medium"           ; MEDIUM
 	li "Kimono Girl"      ; KIMONO_GIRL

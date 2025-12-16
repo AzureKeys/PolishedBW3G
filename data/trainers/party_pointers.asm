@@ -74,6 +74,8 @@ TrainerGroups:
 	dba PsychicMGroup
 	dba PsychicFGroup
 	dba RichBoyGroup
+	dba SchoolKidMGroup
+	dba SchoolKidFGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
@@ -90,8 +92,6 @@ TrainerGroups:
 	dba RuinManiacGroup
 	dba FirebreatherGroup
 	dba JugglerGroup
-	dba SchoolboyGroup
-	dba SchoolgirlGroup
 	dba SageGroup
 	dba MediumGroup
 	dba KimonoGirlGroup

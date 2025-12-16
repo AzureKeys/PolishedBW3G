@@ -199,6 +199,12 @@ PsychicFTPic: INCBIN "gfx/trainers/psychic_f_t.2bpp.lz"
 SECTION "RichBoyPic", ROMX
 RichBoyPic: INCBIN "gfx/trainers/rich_boy.2bpp.lz"
 
+SECTION "SchoolKidMPic", ROMX
+SchoolKidMPic: INCBIN "gfx/trainers/school_kid_m.2bpp.lz"
+
+SECTION "SchoolKidFPic", ROMX
+SchoolKidFPic: INCBIN "gfx/trainers/school_kid_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -246,12 +252,6 @@ FirebreatherPic: INCBIN "gfx/trainers/firebreather.2bpp.lz"
 
 SECTION "JugglerPic", ROMX
 JugglerPic: INCBIN "gfx/trainers/juggler.2bpp.lz"
-
-SECTION "SchoolboyPic", ROMX
-SchoolboyPic: INCBIN "gfx/trainers/schoolboy.2bpp.lz"
-
-SECTION "SchoolgirlPic", ROMX
-SchoolgirlPic: INCBIN "gfx/trainers/schoolgirl.2bpp.lz"
 
 SECTION "SagePic", ROMX
 SagePic: INCBIN "gfx/trainers/sage.2bpp.lz"

@@ -73,6 +73,8 @@ TrainerEncounterMusic:
 	db MUSIC_YOUNGSTER_ENCOUNTER ; psychicm
 	db MUSIC_LASS_ENCOUNTER ; psychicf
 	db MUSIC_YOUNGSTER_ENCOUNTER ; rich_boy
+	db MUSIC_YOUNGSTER_ENCOUNTER ; school_kidm
+	db MUSIC_LASS_ENCOUNTER ; school_kidf
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
@@ -89,8 +91,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; ruin_maniac
 	db MUSIC_HIKER_ENCOUNTER ; firebreather
 	db MUSIC_POKEMANIAC_ENCOUNTER ; juggler
-	db MUSIC_YOUNGSTER_ENCOUNTER ; schoolboy
-	db MUSIC_LASS_ENCOUNTER ; schoolgirl
 	db MUSIC_SAGE_ENCOUNTER ; sage
 	db MUSIC_SAGE_ENCOUNTER ; medium
 	db MUSIC_KIMONO_ENCOUNTER ; kimono_girl

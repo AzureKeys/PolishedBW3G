@@ -2272,6 +2272,108 @@ RichBoyGroup:
 	tr_mon 42, AZUMARILL @ NUGGET
 	tr_mon 40, RATTATA @ NUGGET
 	end_trainer
+
+
+SECTION "SchoolKidMGroup", ROMX
+SchoolKidMGroup:
+
+	def_trainer_class SCHOOL_KIDM
+	def_trainer SCHOOL_KIDM_R13, "Jack"
+	tr_mon 12, RATTATA
+	tr_mon 15, RATTATA
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_OUTSKIRTS, "Jack"
+	tr_mon 14, RATTATA
+	tr_mon 17, RATTATA
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_LOSTLORN, "Jack"
+	tr_mon 28, RATTATA
+	tr_mon 31, RATTATA
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_R20_1, "Jack"
+	tr_mon 30, RATTATA
+	tr_mon 33, GROWLITHE
+	tr_mon 33, RATTATA
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_R20_2, "Jack"
+	tr_mon 35, RATTATA
+		tr_moves SCREECH, SONIC_BOOM, ROLLOUT, LIGHT_SCREEN
+	tr_mon 35, GROWLITHE
+		tr_moves SUNNY_DAY, LEER, TAKE_DOWN, FLAME_CHARGE
+	tr_mon 37, RATTATA
+		tr_moves SOLAR_BEAM, SLEEP_POWDER, ACID, HEALINGLIGHT
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_R20_3, "Alan"
+	tr_mon 17, TANGELA
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_DREAMYARD, "Alan"
+	tr_mon 17, TANGELA
+	tr_mon 17, YANMA
+	end_trainer
+
+	def_trainer SCHOOL_KIDM_R7, "Alan"
+	tr_mon 20, RATTATA
+	tr_mon 22, TANGELA
+	tr_mon 20, RATTATA
+	tr_mon 25, YANMA
+	end_trainer
+
+
+SECTION "SchoolKidFGroup", ROMX
+SchoolKidFGroup:
+
+	def_trainer_class SCHOOL_KIDF
+	def_trainer SCHOOL_KIDF_R13, "Molly"
+	tr_mon 7, "Teddy", RATTATA
+	tr_mon 6, RATTATA
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_REVERSAL, "Eliza"
+	tr_mon 18, "Silver", RATTATA @ SILVER_LEAF
+	tr_mon 16, "Lady", RATTATA
+	tr_mon 17, "Tret", RATTATA @ ORAN_BERRY
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_LOSTLORN, "Faith"
+	tr_mon 57, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 59, "Audrey", RATTATA
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_R20_1, "Sarah"
+	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", RATTATA
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 1, MARILL
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_R20_2, "Sarah"
+	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", RATTATA
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 1, MARILL
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_R20_3, "Sarah"
+	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", RATTATA
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 1, MARILL
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_DREAMYARD, "Isabel"
+	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", RATTATA
+	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 1, PIKACHU
+	end_trainer
+
+	def_trainer SCHOOL_KIDF_R7, "Imogen"
+	tr_mon 13, "Garlic", RATTATA
+	tr_mon 11, POLIWAG
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3424,208 +3526,6 @@ JugglerGroup:
 	tr_mon 53, RATTATA
 	tr_mon 53, RATTATA
 	tr_mon 53, RATTATA
-	end_trainer
-
-
-SECTION "SchoolboyGroup", ROMX
-SchoolboyGroup:
-
-	def_trainer_class SCHOOLBOY
-	def_trainer JACK1, "Jack"
-	tr_mon 12, RATTATA
-	tr_mon 15, RATTATA
-	end_trainer
-
-	def_trainer JACK2, "Jack"
-	tr_mon 14, RATTATA
-	tr_mon 17, RATTATA
-	end_trainer
-
-	def_trainer JACK3, "Jack"
-	tr_mon 28, RATTATA
-	tr_mon 31, RATTATA
-	end_trainer
-
-	def_trainer JACK4, "Jack"
-	tr_mon 30, RATTATA
-	tr_mon 33, GROWLITHE
-	tr_mon 33, RATTATA
-	end_trainer
-
-	def_trainer JACK5, "Jack"
-	tr_mon 35, RATTATA
-		tr_moves SCREECH, SONIC_BOOM, ROLLOUT, LIGHT_SCREEN
-	tr_mon 35, GROWLITHE
-		tr_moves SUNNY_DAY, LEER, TAKE_DOWN, FLAME_CHARGE
-	tr_mon 37, RATTATA
-		tr_moves SOLAR_BEAM, SLEEP_POWDER, ACID, HEALINGLIGHT
-	end_trainer
-
-	def_trainer ALAN1, "Alan"
-	tr_mon 17, TANGELA
-	end_trainer
-
-	def_trainer ALAN2, "Alan"
-	tr_mon 17, TANGELA
-	tr_mon 17, YANMA
-	end_trainer
-
-	def_trainer ALAN3, "Alan"
-	tr_mon 20, RATTATA
-	tr_mon 22, TANGELA
-	tr_mon 20, RATTATA
-	tr_mon 25, YANMA
-	end_trainer
-
-	def_trainer ALAN4, "Alan"
-	tr_mon 27, RATTATA
-	tr_mon 27, TANGELA
-	tr_mon 30, RATTATA
-	tr_mon 30, YANMA
-	end_trainer
-
-	def_trainer ALAN5, "Alan"
-	tr_mon 35, RATTATA
-		tr_moves PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
-	tr_mon 38, TANGROWTH
-		tr_moves ANCIENTPOWER, POISONPOWDER, VINE_WHIP, MEGA_DRAIN
-	tr_mon 37, YANMA
-		tr_moves QUICK_ATTACK, DOUBLE_TEAM, DRAGON_RAGE, WING_ATTACK
-	tr_mon 35, RATTATA
-		tr_moves LEER, HEADBUTT, AMNESIA, EARTHQUAKE
-	end_trainer
-
-	def_trainer CHAD1, "Chad"
-	tr_mon 20, MR__MIME
-	end_trainer
-
-	def_trainer CHAD2, "Chad"
-	tr_mon 20, MR__MIME
-	tr_mon 20, MAGNEMITE
-	end_trainer
-
-	def_trainer CHAD3, "Chad"
-	tr_mon 27, MR__MIME
-	tr_mon 31, MAGNETON
-	end_trainer
-
-	def_trainer CHAD4, "Chad"
-	tr_mon 30, MR__MIME
-	tr_mon 34, MAGNETON
-	end_trainer
-
-	def_trainer CHAD5, "Chad"
-	tr_mon 34, MR__MIME
-		tr_moves PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
-	tr_mon 38, MAGNETON
-		tr_moves ZAP_CANNON, THUNDER_WAVE, SUPERSONIC, SWIFT
-	end_trainer
-
-	def_trainer KIPP, "Kipp"
-	tr_mon 55, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 55, MAGNEMITE
-	tr_mon 58, MAGNETON
-	end_trainer
-
-	def_trainer JOHNNY, "Johnny"
-	tr_mon 18, "Gold", RATTATA @ GOLD_LEAF
-	tr_mon 16, "Spin", RATTATA
-	tr_mon 17, "Rat", RATTATA @ ORAN_BERRY
-	end_trainer
-
-	def_trainer DANNY, "Danny"
-	tr_mon 61, RATTATA
-	tr_mon 61, ELECTABUZZ
-	tr_mon 61, MAGMAR
-	end_trainer
-
-	def_trainer TOMMY, "Tommy"
-	tr_mon 56, RATTATA
-	tr_mon 57, RATTATA
-	end_trainer
-
-	def_trainer DUDLEY, "Dudley"
-	tr_mon 55, RATTATA @ SITRUS_BERRY
-	end_trainer
-
-	def_trainer JOE, "Joe"
-	tr_mon 54, TANGROWTH @ SITRUS_BERRY
-	tr_mon 54, VAPOREON
-	end_trainer
-
-	def_trainer BILLY, "Billy"
-	tr_mon 57, PARAS
-	tr_mon 59, PARASECT
-	tr_mon 57, POLIWHIRL
-	tr_mon 55, DITTO
-	end_trainer
-
-	def_trainer NATE, "Nate"
-	tr_mon 46, RATTATA
-	tr_mon 48, EXEGGUTOR
-	end_trainer
-
-	def_trainer RICKY, "Ricky"
-	tr_mon 44, RATTATA
-	tr_mon 46, DITTO
-	end_trainer
-
-	def_trainer SHERMAN, "Sherman"
-	tr_mon 59, RATTATA
-	tr_mon 61, RATTATA
-	end_trainer
-
-	def_trainer SCHOOLBOY_CONNOR, "Connor"
-	tr_mon 59, RATTATA
-	end_trainer
-
-	def_trainer TORIN, "Torin"
-	tr_mon 58, SANDSLASH
-	tr_mon 55, GOLBAT
-	end_trainer
-
-	def_trainer TRAVIS, "Travis"
-	tr_mon 59, RATTATA
-	end_trainer
-
-
-SECTION "SchoolgirlGroup", ROMX
-SchoolgirlGroup:
-
-	def_trainer_class SCHOOLGIRL
-	def_trainer MOLLY, "Molly"
-	tr_mon 7, "Teddy", RATTATA
-	tr_mon 6, RATTATA
-	end_trainer
-
-	def_trainer ELIZA, "Eliza"
-	tr_mon 18, "Silver", RATTATA @ SILVER_LEAF
-	tr_mon 16, "Lady", RATTATA
-	tr_mon 17, "Tret", RATTATA @ ORAN_BERRY
-	end_trainer
-
-	def_trainer FAITH, "Faith"
-	tr_mon 57, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 59, "Audrey", RATTATA
-	end_trainer
-
-	def_trainer SARAH, "Sarah"
-	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", RATTATA
-	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 1, MARILL
-	end_trainer
-
-	def_trainer ISABEL, "Isabel"
-	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", RATTATA
-	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 1, PIKACHU
-	end_trainer
-
-	def_trainer IMOGEN, "Imogen"
-	tr_mon 13, "Garlic", RATTATA
-	tr_mon 11, POLIWAG
 	end_trainer
 
 

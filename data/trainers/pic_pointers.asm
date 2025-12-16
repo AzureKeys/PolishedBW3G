@@ -72,6 +72,8 @@ TrainerPicPointers::
 	dba PsychicMTPic
 	dba PsychicFTPic
 	dba RichBoyPic
+	dba SchoolKidMPic
+	dba SchoolKidFPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
@@ -88,8 +90,6 @@ TrainerPicPointers::
 	dba RuinManiacPic
 	dba FirebreatherPic
 	dba JugglerPic
-	dba SchoolboyPic
-	dba SchoolgirlPic
 	dba SagePic
 	dba MediumPic
 	dba KimonoGirlPic

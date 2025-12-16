@@ -16,7 +16,7 @@ BattleTowerTrainers:
 	rawchar "Eleni@@@@@", BATTLE_GIRL
 	rawchar "Ichigo@@@@", BAKER
 	rawchar "Estée@@@@@", AROMA_LADY
-	rawchar "Wayne@@@@@", SCHOOLBOY
+	rawchar "Wayne@@@@@", SCHOOL_KIDM
 	rawchar "McManus@@@", HIKER
 	rawchar "Daryl@@@@@", SWIMMERM
 	rawchar "Kim@@@@@@@", FIREBREATHER
@@ -56,7 +56,7 @@ BattleTowerTrainers:
 	rawchar "Marc@@@@@@", HIKER
 	rawchar "Laura@@@@@", BATTLE_GIRL
 	rawchar "Swartz@@@@", VETERANM
-	rawchar "Cobb@@@@@@", SCHOOLBOY
+	rawchar "Cobb@@@@@@", SCHOOL_KIDM
 	rawchar "Yufune@@@@", BLACKBELT_T
 	rawchar "Monica@@@@", WAITRESS
 	rawchar "Daniel@@@@", TAMER
@@ -96,7 +96,7 @@ BattleTowerTrainers:
 	rawchar "Gwen@@@@@@", LADY
 	rawchar "Axl@@@@@@@", SUPER_NERD
 	rawchar "Gerald@@@@", SIGHTSEERM
-	rawchar "Kafuka@@@@", SCHOOLGIRL
+	rawchar "Kafuka@@@@", SCHOOL_KIDF
 	rawchar "Hong@@@@@@", TEACHER_F
 	rawchar "Mott@@@@@@", TEACHER_M
 	rawchar "Pov@@@@@@@", BOARDER
@@ -126,7 +126,7 @@ BattleTowerTrainers:
 	rawchar "Drake@@@@@", RICH_BOY
 	rawchar "Mori@@@@@@", POKEFANF
 	rawchar "Jorge@@@@@", DRAGON_TAMER
-	rawchar "Lavigne@@@", SCHOOLGIRL
+	rawchar "Lavigne@@@", SCHOOL_KIDF
 	rawchar "Paul@@@@@@", GUITARIST
 	rawchar "Holmes@@@@", PI
 	rawchar "Cramer@@@@", NURSE

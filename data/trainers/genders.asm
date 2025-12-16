@@ -74,6 +74,8 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; PSYCHICM_T
 	dbit FEMALE_BIT ; PSYCHICF_T
 	dbit MALE_BIT   ; RICH_BOY
+	dbit MALE_BIT   ; SCHOOL_KIDM
+	dbit FEMALE_BIT ; SCHOOL_KIDF
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; GRUNTM
@@ -90,8 +92,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; RUIN_MANIAC
 	dbit MALE_BIT   ; FIREBREATHER
 	dbit MALE_BIT   ; JUGGLER
-	dbit MALE_BIT   ; SCHOOLBOY
-	dbit FEMALE_BIT ; SCHOOLGIRL
 	dbit MALE_BIT   ; SAGE
 	dbit FEMALE_BIT ; MEDIUM
 	dbit FEMALE_BIT ; KIMONO_GIRL
