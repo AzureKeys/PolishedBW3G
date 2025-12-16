@@ -91,6 +91,7 @@ TrainerGroups:
 	dba VeteranFGroup
 	dba WaiterGroup
 	dba WaitressGroup
+	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
 	dba PokefanMGroup

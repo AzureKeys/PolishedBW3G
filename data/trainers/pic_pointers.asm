@@ -89,6 +89,7 @@ TrainerPicPointers::
 	dba VeteranfPic
 	dba WaiterPic
 	dba WaitressPic
+	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
 	dba PokefanmPic

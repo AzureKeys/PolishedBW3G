@@ -91,6 +91,7 @@ TrainerClassDVsAndPersonality:
 	db 128, PERFECT_DVS,   FEMALE ; veteranf
 	db  72, $DD, $DD, $DD, MALE   ; waiter
 	db  72, $DD, $DD, $DD, FEMALE ; waitress
+	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
 	db  32, $AA, $AA, $AA, MALE   ; pokefanm

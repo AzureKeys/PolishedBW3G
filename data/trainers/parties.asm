@@ -2983,6 +2983,62 @@ WaitressGroup:
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	end_trainer
+	
+
+SECTION "WorkerGroup", ROMX
+WorkerGroup:
+
+	def_trainer_class WORKER
+	def_trainer WORKER_CASTELIA_SEWERS_1, "Amy & Mimi"
+	tr_mon 13, RATTATA
+	tr_mon 13, RATTATA
+	end_trainer
+
+	def_trainer WORKER_CASTELIA_SEWERS_2, "Amy & Mimi"
+	tr_mon 10, RATTATA
+	tr_mon 10, RATTATA
+	end_trainer
+
+	def_trainer WORKER_CASTELIA_SEWERS_3, "Tori & Til"
+	tr_mon 16, MARILL
+		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
+	tr_mon 16, MAREEP
+		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
+	end_trainer
+	
+	def_trainer WORKER_RELIC_PASSAGE, "Amy & Mimi"
+	tr_mon 13, RATTATA
+	tr_mon 13, RATTATA
+	end_trainer
+
+	def_trainer WORKER_TWIST_MOUNTAIN_1, "Amy & Mimi"
+	tr_mon 10, RATTATA
+	tr_mon 10, RATTATA
+	end_trainer
+
+	def_trainer WORKER_TWIST_MOUNTAIN_2, "Tori & Til"
+	tr_mon 16, MARILL
+		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
+	tr_mon 16, MAREEP
+		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
+	end_trainer
+	
+	def_trainer WORKER_TWIST_MOUNTAIN_3, "Amy & Mimi"
+	tr_mon 13, RATTATA
+	tr_mon 13, RATTATA
+	end_trainer
+
+	def_trainer WORKER_TWIST_MOUNTAIN_4, "Amy & Mimi"
+	tr_mon 10, RATTATA
+	tr_mon 10, RATTATA
+	end_trainer
+
+	def_trainer WORKER_TWIST_MOUNTAIN_5, "Tori & Til"
+	tr_mon 16, MARILL
+		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
+	tr_mon 16, MAREEP
+		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
+	end_trainer
 
 
 SECTION "GruntMGroup", ROMX

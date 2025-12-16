@@ -88,6 +88,7 @@ TrainerClassNames::
 	li "Veteran"          ; VETERANF
 	li "Waiter"           ; WAITER
 	li "Waitress"         ; WAITRESS
+	li "Worker"           ; WORKER
 	li "Rocket"           ; GRUNTM
 	li "Rocket"           ; GRUNTF
 	li "#fan"             ; POKEFANM

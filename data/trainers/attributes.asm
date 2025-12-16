@@ -530,6 +530,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
+; Worker
+	db 0, 0 ; items
+	db 10 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_OFFENSIVE + AI_AGGRESSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Gruntm
 	db 0, 0 ; items
 	db 10 ; base reward

@@ -244,6 +244,9 @@ WaiterPic: INCBIN "gfx/trainers/waiter.2bpp.lz"
 SECTION "WaitressPic", ROMX
 WaitressPic: INCBIN "gfx/trainers/waitress.2bpp.lz"
 
+SECTION "WorkerPic", ROMX
+WorkerPic: INCBIN "gfx/trainers/worker.2bpp.lz"
+
 SECTION "GruntmPic", ROMX
 GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 
