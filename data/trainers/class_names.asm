@@ -89,8 +89,8 @@ TrainerClassNames::
 	li "Waiter"           ; WAITER
 	li "Waitress"         ; WAITRESS
 	li "Worker"           ; WORKER
-	li "Rocket"           ; GRUNTM
-	li "Rocket"           ; GRUNTF
+	li "Plasma"           ; GRUNTM
+	li "Plasma"           ; GRUNTF
 	li "#fan"             ; POKEFANM
 	li "#fan"             ; POKEFANF
 	li "Officer"          ; OFFICERM

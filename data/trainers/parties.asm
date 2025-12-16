@@ -3044,31 +3044,30 @@ WorkerGroup:
 SECTION "GruntMGroup", ROMX
 GruntMGroup:
 
-	; unused
 	def_trainer_class GRUNTM
-	def_trainer 1, "Grunt"
+	def_trainer GRUNTM_REVERSAL, "Grunt"
 	end_trainer
 
-	def_trainer 2, "Grunt"
+	def_trainer GRUNTM_LOSTLORN, "Grunt"
 	tr_mon 8, RATTATA
 	tr_mon 10, ZUBAT
 	tr_mon 10, GASTLY
 	end_trainer
 
 
-	def_trainer 3, "Grunt"
+	def_trainer GRUNTM_NIMBASA_1, "Grunt"
 	tr_mon 33, RATICATE, MALE | ALOLAN_FORM
 		tr_extra GLUTTONY
 	tr_mon 33, SNEASEL, MALE
 	end_trainer
 
-	def_trainer 4, "Grunt"
+	def_trainer GRUNTM_NIMBASA_2, "Grunt"
 	tr_mon 32, GRIMER, MALE
 	tr_mon 33, HOUNDOUR, MALE
 	tr_mon 34, MUK, MALE | ALOLAN_FORM
 	end_trainer
 
-	def_trainer 5, "Grunt"
+	def_trainer GRUNTM_NIMBASA_3, "Grunt"
 	tr_mon 31, RATTATA, MALE
 	tr_mon 33, HOUNDOUR, MALE
 	tr_mon 32, RATICATE, MALE
@@ -3076,143 +3075,56 @@ GruntMGroup:
 	tr_mon 33, MEOWTH, MALE
 	end_trainer
 
-	def_trainer 6, "Grunt"
+	def_trainer GRUNTM_NIMBASA_4, "Grunt"
 	tr_mon 34, GOLBAT
 	tr_mon 34, RATTATA
 	end_trainer
 
-	def_trainer 7, "Grunt"
+	def_trainer GRUNTM_NIMBASA_5, "Grunt"
 	tr_mon 33, KOFFING
 	tr_mon 33, GRIMER
 	tr_mon 34, GOLBAT
 	tr_mon 34, RATICATE
 	end_trainer
 
-	def_trainer 8, "Grunt"
+	def_trainer GRUNTM_VIRBANK_COMPLEX_1, "Grunt"
 	tr_mon 36, WEEZING
 	end_trainer
 
-	def_trainer 9, "Grunt"
+	def_trainer GRUNTM_VIRBANK_COMPLEX_2, "Grunt"
 	tr_mon 35, RATICATE
 	tr_mon 36, WEEZING
 	end_trainer
 
-	def_trainer 10, "Grunt"
+	def_trainer GRUNTM_VIRBANK_COMPLEX_3, "Grunt"
 	tr_mon 32, ZUBAT
 	tr_mon 35, GOLBAT
 	tr_mon 33, MUK
 	end_trainer
 
-	def_trainer 11, "Grunt"
+	def_trainer GRUNTM_P2_1, "Grunt"
 	tr_mon 34, MUK
 	tr_mon 35, HAUNTER
 	tr_mon 36, RATICATE
 	end_trainer
 
-	def_trainer 12, "Grunt"
+	def_trainer GRUNTM_P2_2, "Grunt"
 	tr_mon 23, RATICATE, MALE
 	tr_mon 24, PERSIAN, MALE | ALOLAN_FORM
 	end_trainer
 
-	def_trainer 13, "Grunt"
+	def_trainer GRUNTM_SEASIDE_CAVE_1, "Grunt"
 	tr_mon 37, RATICATE
 	end_trainer
 
-	def_trainer 14, "Grunt"
+	def_trainer GRUNTM_SEASIDE_CAVE_2, "Grunt"
 	tr_mon 35, RATICATE
 	tr_mon 35, GOLBAT
 	end_trainer
 
-	def_trainer 15, "Grunt"
+	def_trainer GRUNTM_SEASIDE_CAVE_3, "Grunt"
 	tr_mon 35, MUK
 	tr_mon 35, WEEZING
-	end_trainer
-
-	def_trainer 16, "Grunt"
-	tr_mon 26, MEOWTH, MALE | ALOLAN_FORM
-	tr_mon 26, GASTLY, MALE
-	tr_mon 27, RATICATE, MALE
-	tr_mon 26, RATTATA, MALE | ALOLAN_FORM
-	end_trainer
-
-	def_trainer 17, "Grunt"
-	tr_mon 32, GOLBAT
-	end_trainer
-
-	def_trainer 18, "Grunt"
-	tr_mon 27, HOUNDOUR
-	tr_mon 28, GOLBAT
-	tr_mon 28, RATICATE
-	end_trainer
-
-	def_trainer 19, "Grunt"
-	tr_mon 28, RATTATA
-	tr_mon 28, RATTATA
-	end_trainer
-
-	def_trainer 20, "Grunt"
-	tr_mon 26, ZUBAT
-	tr_mon 27, GRIMER
-	tr_mon 28, MEOWTH
-	end_trainer
-
-	def_trainer 21, "Grunt"
-	tr_mon 26, RATTATA
-	tr_mon 27, ZUBAT
-	tr_mon 28, HAUNTER
-	end_trainer
-
-	def_trainer 22, "Grunt"
-	tr_mon 23, GOLBAT
-	tr_mon 23, HAUNTER
-	tr_mon 23, GOLBAT
-	end_trainer
-
-	def_trainer 23, "Grunt"
-	tr_mon 23, KOFFING
-	tr_mon 25, HOUNDOUR
-	tr_mon 23, RATTATA
-	end_trainer
-
-	def_trainer 24, "Grunt"
-	tr_mon 37, HAUNTER
-	tr_mon 36, WEEZING
-	end_trainer
-
-	def_trainer 25, "Grunt"
-	tr_mon 36, RATTATA
-	tr_mon 35, MUK
-	end_trainer
-
-	def_trainer 26, "Grunt"
-	tr_mon 23, ZUBAT
-	tr_mon 24, RATICATE
-	tr_mon 25, MURKROW
-	end_trainer
-
-	; unused
-	def_trainer 27, "Grunt"
-	end_trainer
-
-	def_trainer 28, "Grunt"
-	tr_mon 33, RATICATE
-	end_trainer
-
-	def_trainer 29, "Grunt"
-	tr_mon 10, RATTATA
-	tr_mon 10, MEOWTH
-	end_trainer
-
-	def_trainer 30, "Grunt"
-	tr_mon 25, GOLBAT
-	tr_mon 25, GOLBAT
-	tr_mon 30, RATTATA
-	end_trainer
-
-	def_trainer 31, "Grunt"
-	tr_mon 51, GOLBAT
-	tr_mon 52, WEEZING
-	tr_mon 51, MUK
 	end_trainer
 
 
@@ -3220,28 +3132,28 @@ SECTION "GruntFGroup", ROMX
 GruntFGroup:
 
 	def_trainer_class GRUNTF
-	def_trainer 1, "Grunt"
+	def_trainer GRUNTF_LOSTLORN, "Grunt"
 	tr_mon 10, ZUBAT
 	tr_mon 12, RATTATA
 	end_trainer
 
-	def_trainer 2, "Grunt"
+	def_trainer GRUNTF_NIMBASA_1, "Grunt"
 	tr_mon 35, RATTATA
 	end_trainer
 
-	def_trainer 3, "Grunt"
+	def_trainer GRUNTF_NIMBASA_2, "Grunt"
 	tr_mon 36, UMBREON
 	tr_mon 35, RATTATA
 	end_trainer
 
-	def_trainer 4, "Grunt"
+	def_trainer GRUNTF_NIMBASA_3, "Grunt"
 	tr_mon 33, RATTATA
 	tr_mon 34, RATTATA
 	tr_mon 35, RATTATA
 	tr_mon 36, RATTATA
 	end_trainer
 
-	def_trainer 5, "Grunt"
+	def_trainer GRUNTF_NIMBASA_4, "Grunt"
 	tr_mon 29, RATTATA
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
 	tr_mon 28, RATTATA
@@ -3250,7 +3162,49 @@ GruntFGroup:
 		tr_moves GROWTH, STUN_SPORE, SLEEP_POWDER, MEGA_DRAIN
 	end_trainer
 
-	def_trainer 6, "Grunt"
+	def_trainer GRUNTF_NIMBASA_5, "Grunt"
+	tr_mon 22, RATTATA
+	tr_mon 23, RATTATA
+	tr_mon 23, RATTATA
+	end_trainer
+	
+	def_trainer GRUNTF_VIRBANK_COMPLEX_1, "Grunt"
+	tr_mon 10, ZUBAT
+	tr_mon 12, RATTATA
+	end_trainer
+
+	def_trainer GRUNTF_VIRBANK_COMPLEX_2, "Grunt"
+	tr_mon 35, RATTATA
+	end_trainer
+
+	def_trainer GRUNTF_P2_1, "Grunt"
+	tr_mon 36, UMBREON
+	tr_mon 35, RATTATA
+	end_trainer
+
+	def_trainer GRUNTF_P2_2, "Grunt"
+	tr_mon 33, RATTATA
+	tr_mon 34, RATTATA
+	tr_mon 35, RATTATA
+	tr_mon 36, RATTATA
+	end_trainer
+
+	def_trainer GRUNTF_SEASIDE_CAVE_1, "Grunt"
+	tr_mon 29, RATTATA
+		tr_moves GLARE, SCREECH, ACID, CRUNCH
+	tr_mon 28, RATTATA
+		tr_moves DEFENSE_CURL, TACKLE, WATER_GUN, ROLLOUT
+	tr_mon 28, RATTATA
+		tr_moves GROWTH, STUN_SPORE, SLEEP_POWDER, MEGA_DRAIN
+	end_trainer
+
+	def_trainer GRUNTF_SEASIDE_CAVE_2, "Grunt"
+	tr_mon 22, RATTATA
+	tr_mon 23, RATTATA
+	tr_mon 23, RATTATA
+	end_trainer
+
+	def_trainer GRUNTF_SEASIDE_CAVE_3, "Grunt"
 	tr_mon 22, RATTATA
 	tr_mon 23, RATTATA
 	tr_mon 23, RATTATA
