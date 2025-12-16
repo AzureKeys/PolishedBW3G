@@ -68,6 +68,7 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, FEMALE ; pkmn breederf
 	db  56, $DD, $DD, $DD, MALE   ; pkmn rangerm
 	db  56, $DD, $DD, $DD, FEMALE ; pkmn rangerf
+	db  48, $DD, $BB, $DB, MALE   ; policeman
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

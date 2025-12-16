@@ -67,6 +67,7 @@ TrainerEncounterMusic:
 	db MUSIC_LASS_ENCOUNTER ; pkmn_breederf
 	db MUSIC_HIKER_ENCOUNTER ; pkmn_rangerm
 	db MUSIC_BEAUTY_ENCOUNTER ; pkmn_rangerf
+	db MUSIC_HIKER_ENCOUNTER ; policeman
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm

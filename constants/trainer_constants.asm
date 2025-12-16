@@ -453,6 +453,11 @@ DEF CRYS EQU __trainer_class__
 	const ARIANA_REMATCH_1
 	const ARIANA_REMATCH_2
 	const ARIANA_REMATCH_3
+	
+	trainerclass POLICEMAN ; 42
+	const POLICEMAN_R4_1
+	const POLICEMAN_R4_2
+	const POLICEMAN_R2
 
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1

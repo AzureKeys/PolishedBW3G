@@ -181,6 +181,9 @@ PkmnRangerMPic: INCBIN "gfx/trainers/pkmn_ranger_m.2bpp.lz"
 SECTION "PkmnRangerFPic", ROMX
 PkmnRangerFPic: INCBIN "gfx/trainers/pkmn_ranger_f.2bpp.lz"
 
+SECTION "PolicemanPic", ROMX
+PolicemanPic: INCBIN "gfx/trainers/policeman.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
