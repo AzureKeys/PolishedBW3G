@@ -78,6 +78,7 @@ TrainerPicPointers::
 	dba ScientistMPic
 	dba ScientistFPic
 	dba ScientistFPic
+	dba SmasherPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic

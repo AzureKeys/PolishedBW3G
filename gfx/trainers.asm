@@ -211,6 +211,9 @@ ScientistMPic: INCBIN "gfx/trainers/scientist_m.2bpp.lz"
 SECTION "ScientistFPic", ROMX
 ScientistFPic: INCBIN "gfx/trainers/scientist_f.2bpp.lz"
 
+SECTION "SmasherPic", ROMX
+SmasherPic: INCBIN "gfx/trainers/smasher.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

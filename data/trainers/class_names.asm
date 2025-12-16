@@ -77,6 +77,7 @@ TrainerClassNames::
 	li "Scientist"        ; PLASMA_SCIENTISTM
 	li "Scientist"        ; SCIENTISTF
 	li "Scientist"        ; PLASMA_SCIENTISTF
+	li "Smasher"          ; SMASHER
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM

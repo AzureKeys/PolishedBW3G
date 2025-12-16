@@ -2475,6 +2475,21 @@ PlasmaScientistFGroup:
 	end_trainer
 	
 
+SECTION "SmasherGroup", ROMX
+SmasherGroup:
+
+	def_trainer_class SMASHER
+	def_trainer SMASHER_VILLAGE_BRIDGE_1, "Ross"
+	tr_mon 30, KOFFING, MALE
+	tr_mon 30, GRIMER, MALE | ALOLAN_FORM
+	end_trainer
+
+	def_trainer SMASHER_VILLAGE_BRIDGE_2, "Mitch"
+	tr_mon 25, DITTO
+	tr_mon 25, RATTATA
+	end_trainer
+	
+
 SECTION "TwinsGroup", ROMX
 TwinsGroup:
 

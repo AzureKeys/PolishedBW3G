@@ -464,6 +464,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_SMART + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Smasher
+	db 0, 0 ; items
+	db 14 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_OFTEN
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
