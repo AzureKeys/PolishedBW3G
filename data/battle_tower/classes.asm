@@ -1,7 +1,7 @@
 BattleTowerTrainers:
 	table_width (NAME_LENGTH - 1) + 1
 	rawchar "Yayoi@@@@@", ARTIST
-	rawchar "Sawyer@@@@", POKEMANIAC
+	rawchar "Sawyer@@@@", SCIENTISTM
 	rawchar "Santiago@@", FISHER
 	rawchar "Mordecai@@", PI
 	rawchar "Newman@@@@", SAILOR
@@ -29,12 +29,12 @@ BattleTowerTrainers:
 	rawchar "Oakley@@@@", COWGIRL
 	rawchar "Annie@@@@@", POLICEMAN
 	rawchar "Park@@@@@@", ENGINEER
-	rawchar "Patricia@@", COSPLAYER
+	rawchar "Patricia@@", SCIENTISTF
 	rawchar "Rajan@@@@@", HIKER
 	rawchar "Diaz@@@@@@", HIKER
 	rawchar "Mozi@@@@@@", SAGE
 	rawchar "Adrian@@@@", WAITER
-	rawchar "Tomoyo@@@@", COSPLAYER
+	rawchar "Tomoyo@@@@", SCIENTISTF
 	rawchar "Ebony@@@@@", ACE_TRAINERF
 	rawchar "Pirsig@@@@", SAGE
 	rawchar "Corey@@@@@", POLICEMAN
@@ -49,7 +49,7 @@ BattleTowerTrainers:
 	rawchar "York@@@@@@", SOLDIER
 	rawchar "Chelsea@@@", MEDIUM
 	rawchar "Kuroki@@@@", HEX_MANIAC
-	rawchar "Hitesh@@@@", POKEMANIAC
+	rawchar "Hitesh@@@@", SCIENTISTM
 	rawchar "Abdul@@@@@", ENGINEER
 	rawchar "Emily@@@@@", LASS
 	rawchar "Hopper@@@@", VETERANF

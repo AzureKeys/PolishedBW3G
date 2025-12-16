@@ -645,32 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass POKEMANIAC ; 2f
-	const BRENT1
-	const BRENT2
-	const BRENT3
-	const BRENT4
-	const LARRY
-	const ANDREW
-	const CALVIN
-	const SHANE
-	const BEN
-	const RON
-	const ETHAN
-	const ISSAC
-	const DONALD
-	const ZACH
-	const ENZO
-	const MILLER
-	const AIDAN
-
-	trainerclass COSPLAYER ; 30
-	const CLARA
-	const CHLOE
-	const BROOKE
-	const KUROKO
-	const LYRIC
-
 	trainerclass SUPER_NERD ; 31
 	const STAN
 	const ERIC

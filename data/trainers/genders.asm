@@ -94,8 +94,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
-	dbit MALE_BIT   ; POKEMANIAC
-	dbit FEMALE_BIT ; COSPLAYER
 	dbit MALE_BIT   ; SUPER_NERD
 	dbit FEMALE_BIT ; BEAUTY
 	dbit MALE_BIT   ; BUG_MANIAC

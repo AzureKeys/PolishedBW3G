@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "#Maniac"          ; POKEMANIAC
-	li "Cosplayer"        ; COSPLAYER
 	li "Super Nerd"       ; SUPER_NERD
 	li "Beauty"           ; BEAUTY
 	li "Bug Maniac"       ; BUG_MANIAC

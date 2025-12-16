@@ -94,8 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba PokemaniacGroup
-	dba CosplayerGroup
 	dba SuperNerdGroup
 	dba BeautyGroup
 	dba BugManiacGroup

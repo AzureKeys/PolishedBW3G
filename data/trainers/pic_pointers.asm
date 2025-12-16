@@ -92,8 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba PokemaniacPic
-	dba CosplayerPic
 	dba SuperNerdPic
 	dba BeautyPic
 	dba BugManiacPic
