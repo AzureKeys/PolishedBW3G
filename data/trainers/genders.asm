@@ -73,6 +73,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; PRESCHOOLERF
 	dbit MALE_BIT   ; PSYCHICM_T
 	dbit FEMALE_BIT ; PSYCHICF_T
+	dbit MALE_BIT   ; RICH_BOY
 	dbit FEMALE_BIT ; TWINS
 	dbit MALE_BIT   ; BIRD_KEEPER
 	dbit MALE_BIT   ; GRUNTM
@@ -97,7 +98,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ELDER
 	dbit FEMALE_BIT ; SR_AND_JR
 	dbit MALE_BIT   ; COUPLE
-	dbit MALE_BIT   ; RICH_BOY
 	dbit FEMALE_BIT ; BREEDER
 	dbit FEMALE_BIT ; COWGIRL
 	dbit MALE_BIT   ; SAILOR

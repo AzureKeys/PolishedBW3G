@@ -70,6 +70,7 @@ TrainerClassNames::
 	li "Preschooler"      ; PRESCHOOLERF
 	li "Psychic"          ; PSYCHICM_T
 	li "Psychic"          ; PSYCHICF_T
+	li "Rich Boy"         ; RICH_BOY
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
@@ -94,7 +95,6 @@ TrainerClassNames::
 	li "Elder"            ; ELDER
 	li "Sr.& Jr."         ; SR_AND_JR
 	li "Couple"           ; COUPLE
-	li "Rich Boy"         ; RICH_BOY
 	li "Breeder"          ; BREEDER
 	li "Cowgirl"          ; COWGIRL
 	li "Sailor"           ; SAILOR

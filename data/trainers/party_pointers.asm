@@ -73,6 +73,7 @@ TrainerGroups:
 	dba PreschoolerFGroup
 	dba PsychicMGroup
 	dba PsychicFGroup
+	dba RichBoyGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
@@ -97,7 +98,6 @@ TrainerGroups:
 	dba ElderGroup
 	dba SrAndJrGroup
 	dba CoupleGroup
-	dba RichBoyGroup
 	dba BreederGroup
 	dba CowgirlGroup
 	dba SailorGroup

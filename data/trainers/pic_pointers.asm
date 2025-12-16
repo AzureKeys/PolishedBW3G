@@ -71,6 +71,7 @@ TrainerPicPointers::
 	dba PreschoolerFPic
 	dba PsychicMTPic
 	dba PsychicFTPic
+	dba RichBoyPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
@@ -95,7 +96,6 @@ TrainerPicPointers::
 	dba ElderPic
 	dba SrAndJrPic
 	dba CouplePic
-	dba RichBoyPic
 	dba BreederPic
 	dba CowgirlPic
 	dba SailorPic

@@ -196,6 +196,9 @@ PsychicMTPic: INCBIN "gfx/trainers/psychic_m_t.2bpp.lz"
 SECTION "PsychicFTPic", ROMX
 PsychicFTPic: INCBIN "gfx/trainers/psychic_f_t.2bpp.lz"
 
+SECTION "RichBoyPic", ROMX
+RichBoyPic: INCBIN "gfx/trainers/rich_boy.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -267,9 +270,6 @@ SrAndJrPic: INCBIN "gfx/trainers/sr_and_jr.2bpp.lz"
 
 SECTION "CouplePic", ROMX
 CouplePic: INCBIN "gfx/trainers/couple.2bpp.lz"
-
-SECTION "RichBoyPic", ROMX
-RichBoyPic: INCBIN "gfx/trainers/rich_boy.2bpp.lz"
 
 SECTION "BreederPic", ROMX
 BreederPic: INCBIN "gfx/trainers/breeder.2bpp.lz"

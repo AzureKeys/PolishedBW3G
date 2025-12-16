@@ -2256,6 +2256,22 @@ PsychicFGroup:
 	tr_mon 20, SLOWPOKE
 		tr_moves CURSE, BODY_SLAM, WATER_GUN, CONFUSION
 	end_trainer
+
+
+SECTION "RichBoyGroup", ROMX
+RichBoyGroup:
+
+	def_trainer_class RICH_BOY
+	def_trainer RICH_BOY_R4, "Winston"
+	tr_mon 46, RATTATA
+	tr_mon 44, RATTATA
+	tr_mon 45, AMPHAROS
+	end_trainer
+
+	def_trainer RICH_BOY_NACRENE_OUTSKIRT, "Gerald"
+	tr_mon 42, AZUMARILL @ NUGGET
+	tr_mon 40, RATTATA @ NUGGET
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -3865,43 +3881,6 @@ CoupleGroup:
 	def_trainer JOEANDJO2, "Joe & Jo"
 	tr_mon 52, RATTATA, FEMALE
 	tr_mon 56, RATTATA, MALE
-	end_trainer
-
-
-SECTION "RichBoyGroup", ROMX
-RichBoyGroup:
-
-	def_trainer_class RICH_BOY
-	def_trainer WINSTON, "Winston"
-	tr_mon 46, RATTATA
-	tr_mon 44, RATTATA
-	tr_mon 45, AMPHAROS
-	end_trainer
-
-	def_trainer GERALD, "Gerald"
-	tr_mon 42, AZUMARILL @ NUGGET
-	tr_mon 40, RATTATA @ NUGGET
-	end_trainer
-
-	def_trainer IRVING, "Irving"
-	tr_mon LEVEL_FROM_BADGES + 4, TOGETIC @ KINGS_ROCK , MALE
-		tr_extra SERENE_GRACE
-		tr_dvs 14 All
-		tr_moves HEADBUTT, TACKLE, SWEET_KISS, DISARM_VOICE
-	tr_mon LEVEL_FROM_BADGES + 4, RATTATA @ KINGS_ROCK, FEMALE
-		tr_extra HUSTLE
-		tr_dvs 14 All
-		tr_moves HEADBUTT, TACKLE, SWEET_KISS, ZEN_HEADBUTT
-	tr_mon LEVEL_FROM_BADGES + 5, SYLVEON @ KINGS_ROCK, FEMALE
-		tr_extra CUTE_CHARM
-		tr_dvs 14 All
-		tr_moves HEADBUTT, ATTRACT, MUD_SLAP, DISARM_VOICE
-	end_trainer
-
-	def_trainer TOBIN, "Tobin"
-	tr_mon 53, MAGMAR
-	tr_mon 54, GOLEM
-	tr_mon 55, RATTATA
 	end_trainer
 
 

@@ -485,6 +485,10 @@ DEF CRYS EQU __trainer_class__
 	const PSYCHICF_DREAMYARD
 	const PSYCHICF_VICTORY_ROAD_INT
 
+	trainerclass RICH_BOY ; 47
+	const RICH_BOY_R4
+	const RICH_BOY_NACRENE_OUTSKIRT
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -774,12 +778,6 @@ DEF CRYS EQU __trainer_class__
 	const TIMANDSUE2
 	const JOEANDJO1
 	const JOEANDJO2
-
-	trainerclass RICH_BOY ; 43
-	const WINSTON
-	const GERALD
-	const IRVING
-	const TOBIN
 
 	trainerclass BREEDER ; 45
 	const JULIE

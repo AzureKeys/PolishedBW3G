@@ -422,6 +422,12 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Rich Boy
+	db MAX_POTION, 0 ; items
+	db 50 ; base reward
+	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
@@ -565,12 +571,6 @@ TrainerClassAttributes:
 	db 18 ; base reward
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_OFTEN
-
-; Rich Boy
-	db MAX_POTION, 0 ; items
-	db 50 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Breeder
 	db SUPER_POTION, 0 ; items

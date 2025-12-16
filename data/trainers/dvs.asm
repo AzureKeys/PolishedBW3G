@@ -73,6 +73,7 @@ TrainerClassDVsAndPersonality:
 	db  16, $88, $88, $88, FEMALE ; preschoolerf
 	db  48, $AA, $CC, $EE, MALE   ; psychicm
 	db  48, $AA, $CC, $EE, FEMALE ; psychicf
+	db 100, $CC, $CC, $CC, MALE   ; rich boy (high EVs from vitamins)
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
@@ -97,7 +98,6 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, MALE   ; elder
 	db  48, $CC, $CC, $CC, FEMALE ; sr&jr
 	db  48, $CC, $CC, $CC, MALE   ; couple
-	db 100, $CC, $CC, $CC, MALE   ; rich boy (high EVs from vitamins)
 	db  56, $DD, $DD, $DD, FEMALE ; breeder (low EVs due to breeding)
 	db  48, $CC, $CC, $CC, FEMALE ; cowgirl
 	db  48, $CC, $CC, $CC, MALE   ; sailor

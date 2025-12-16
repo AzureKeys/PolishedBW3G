@@ -72,6 +72,7 @@ TrainerEncounterMusic:
 	db MUSIC_LASS_ENCOUNTER ; preschoolerf
 	db MUSIC_YOUNGSTER_ENCOUNTER ; psychicm
 	db MUSIC_LASS_ENCOUNTER ; psychicf
+	db MUSIC_YOUNGSTER_ENCOUNTER ; rich_boy
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
@@ -96,7 +97,6 @@ TrainerEncounterMusic:
 	db MUSIC_SAGE_ENCOUNTER ; elder
 	db MUSIC_LASS_ENCOUNTER ; sr_and_jr
 	db MUSIC_HIKER_ENCOUNTER ; couple
-	db MUSIC_YOUNGSTER_ENCOUNTER ; rich_boy
 	db MUSIC_LASS_ENCOUNTER ; breeder
 	db MUSIC_LASS_ENCOUNTER ; cowgirl
 	db MUSIC_HIKER_ENCOUNTER ; sailor
