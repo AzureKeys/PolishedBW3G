@@ -184,6 +184,12 @@ PkmnRangerFPic: INCBIN "gfx/trainers/pkmn_ranger_f.2bpp.lz"
 SECTION "PolicemanPic", ROMX
 PolicemanPic: INCBIN "gfx/trainers/policeman.2bpp.lz"
 
+SECTION "PreschoolerMPic", ROMX
+PreschoolerMPic: INCBIN "gfx/trainers/preschooler_m.2bpp.lz"
+
+SECTION "PreschoolerFPic", ROMX
+PreschoolerFPic: INCBIN "gfx/trainers/preschooler_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 

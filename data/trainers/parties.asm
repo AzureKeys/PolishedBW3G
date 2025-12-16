@@ -2144,6 +2144,46 @@ PolicemanGroup:
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
+
+
+SECTION "PreschoolerMGroup", ROMX
+PreschoolerMGroup:
+
+	def_trainer_class PRESCHOOLERM
+	def_trainer PRESCHOOLERM_MARINE_TUBE, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PRESCHOOLERM_R14_1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PRESCHOOLERM_R14_2, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+
+
+SECTION "PreschoolerFGroup", ROMX
+PreschoolerFGroup:
+
+	def_trainer_class PRESCHOOLERF
+	def_trainer PRESCHOOLERF_MARINE_TUBE, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PRESCHOOLERF_R14_1, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
+	
+	def_trainer PRESCHOOLERF_R14_2, "Jessica"
+	tr_mon 55, RATTATA @ NUGGET
+	tr_mon 54, RATTATA @ NUGGET
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX

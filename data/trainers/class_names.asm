@@ -66,6 +66,8 @@ TrainerClassNames::
 	li "<PK><MN> Ranger"  ; PKMN_RANGERM
 	li "<PK><MN> Ranger"  ; PKMN_RANGERF
 	li "Policeman"        ; POLICEMAN
+	li "Preschooler"      ; PRESCHOOLERM
+	li "Preschooler"      ; PRESCHOOLERF
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM

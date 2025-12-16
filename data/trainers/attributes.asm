@@ -398,6 +398,18 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Preschoolerm
+	db 0, 0 ; items
+	db 5 ; base reward
+	dw NO_AI
+	dw CONTEXT_USE + SWITCH_RARELY
+
+; Preschoolerf
+	db 0, 0 ; items
+	db 5 ; base reward
+	dw NO_AI
+	dw CONTEXT_USE + SWITCH_RARELY
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward

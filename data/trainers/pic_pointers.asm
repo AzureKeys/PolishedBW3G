@@ -67,6 +67,8 @@ TrainerPicPointers::
 	dba PkmnRangerMPic
 	dba PkmnRangerFPic
 	dba PolicemanPic
+	dba PreschoolerMPic
+	dba PreschoolerFPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic

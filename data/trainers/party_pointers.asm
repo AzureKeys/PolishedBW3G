@@ -69,6 +69,8 @@ TrainerGroups:
 	dba PkmnRangerMGroup
 	dba PkmnRangerFGroup
 	dba PolicemanGroup
+	dba PreschoolerMGroup
+	dba PreschoolerFGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
