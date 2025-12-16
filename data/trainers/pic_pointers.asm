@@ -74,6 +74,10 @@ TrainerPicPointers::
 	dba RichBoyPic
 	dba SchoolKidMPic
 	dba SchoolKidFPic
+	dba ScientistMPic
+	dba ScientistMPic
+	dba ScientistFPic
+	dba ScientistFPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
@@ -103,8 +107,6 @@ TrainerPicPointers::
 	dba SwimmerfPic
 	dba BurglarPic
 	dba PIPic
-	dba ScientistPic
-	dba RocketScientistPic
 	dba BoarderPic
 	dba SkierPic
 	dba DragonTamerPic

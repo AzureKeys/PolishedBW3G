@@ -509,6 +509,30 @@ DEF CRYS EQU __trainer_class__
 	const SCHOOL_KIDF_DREAMYARD
 	const SCHOOL_KIDF_R7
 
+	trainerclass SCIENTISTM ; 4a
+	const SCIENTISTM_CASTELIA_SEWERS
+	const SCIENTISTM_R6
+	const SCIENTISTM_CHARGESTONE
+	const SCIENTISTM_DREAMYARD
+	const SCIENTISTM_VICTORY_ROAD_EXT
+	const MARCO_REMATCH_1
+	const MARCO_REMATCH_2
+
+	trainerclass PLASMA_SCIENTISTM ; 4b
+	const SCIENTISTM_VIRBANK_COMPLEX
+	const SCIENTISTM_P2
+
+	trainerclass SCIENTISTF ; 4c
+	const SCIENTISTF_CASTELIA_SEWERS
+	const SCIENTISTF_R6
+	const SCIENTISTF_CHARGESTONE
+	const SCIENTISTF_DREAMYARD
+	const SCIENTISTF_VICTORY_ROAD_EXT
+
+	trainerclass PLASMA_SCIENTISTF ; 4d
+	const SCIENTISTF_VIRBANK_COMPLEX_1
+	const SCIENTISTF_VIRBANK_COMPLEX_2
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -869,26 +893,6 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass PI ; 4c
 	const LOOKER
-
-	trainerclass SCIENTIST ; 4d
-	const LOWELL
-	const DENNETT
-	const LINDEN
-	const OSKAR
-	const BRAYDON
-	const CARL
-	const DEXTER
-	const JOSEPH
-	const NIGEL
-	const PIOTR
-	const SANDERS
-
-	trainerclass ROCKET_SCIENTIST ; 4e
-	const ROSS
-	const MITCH
-	const JED
-	const MARC
-	const RICH
 
 	trainerclass BOARDER ; 4f
 	const RONALD

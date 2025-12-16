@@ -40,12 +40,12 @@ BattleTowerTrainers:
 	rawchar "Corey@@@@@", OFFICERM
 	rawchar "Syd@@@@@@@", GUITARIST
 	rawchar "Ethel@@@@@", MEDIUM
-	rawchar "Sagan@@@@@", SCIENTIST
+	rawchar "Sagan@@@@@", SCIENTISTM
 	rawchar "Lenie@@@@@", SWIMMERF
 	rawchar "Frost@@@@@", ACE_TRAINERM
 	rawchar "Sophia@@@@", AROMA_LADY
 	rawchar "Joanna@@@@", WAITRESS
-	rawchar "Newton@@@@", SCIENTIST
+	rawchar "Newton@@@@", SCIENTISTM
 	rawchar "York@@@@@@", SOLDIER
 	rawchar "Chelsea@@@", MEDIUM
 	rawchar "Kuroki@@@@", HEX_MANIAC

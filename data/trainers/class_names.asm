@@ -73,6 +73,10 @@ TrainerClassNames::
 	li "Rich Boy"         ; RICH_BOY
 	li "School Kid"       ; SCHOOL_KIDM
 	li "School Kid"       ; SCHOOL_KIDF
+	li "Scientist"        ; SCIENTISTM
+	li "Scientist"        ; PLASMA_SCIENTISTM
+	li "Scientist"        ; SCIENTISTF
+	li "Scientist"        ; PLASMA_SCIENTISTF
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
@@ -102,8 +106,6 @@ TrainerClassNames::
 	li "Swimmer"          ; SWIMMERF
 	li "Burglar"          ; BURGLAR
 	li "Agent"            ; PI
-	li "Scientist"        ; SCIENTIST
-	li "Scientist"        ; ROCKET_SCIENTIST
 	li "Boarder"          ; BOARDER
 	li "Skier"            ; SKIER
 	li "Dragon Tamer"     ; DRAGON_TAMER

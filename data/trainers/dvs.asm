@@ -76,6 +76,10 @@ TrainerClassDVsAndPersonality:
 	db 100, $CC, $CC, $CC, MALE   ; rich boy (high EVs from vitamins)
 	db  48, $CC, $CC, $CC, MALE   ; school kidm
 	db  48, $CC, $CC, $CC, FEMALE ; school kidf
+	db  56, $DD, $DD, $DD, MALE   ; scientistm
+	db  56, $DD, $DD, $DD, MALE   ; plasma scientistm
+	db  56, $DD, $DD, $DD, FEMALE ; scientistf
+	db  56, $DD, $DD, $DD, FEMALE ; plasma scientistf
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
@@ -105,8 +109,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, FEMALE ; swimmerf
 	db  56, $DD, $DD, $DD, MALE   ; burglar
 	db  56, $DD, $DD, $DD, MALE   ; pi
-	db  56, $DD, $DD, $DD, MALE   ; scientist
-	db  56, $DD, $DD, $DD, MALE   ; rocket scientist
 	db  56, $DD, $DD, $DD, MALE   ; boarder
 	db  56, $DD, $DD, $DD, FEMALE ; skier
 	db  72, $DF, $DF, $DD, MALE   ; dragon tamer

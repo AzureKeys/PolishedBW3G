@@ -2374,6 +2374,105 @@ SchoolKidFGroup:
 	tr_mon 13, "Garlic", RATTATA
 	tr_mon 11, POLIWAG
 	end_trainer
+
+
+SECTION "ScientistMGroup", ROMX
+ScientistMGroup:
+
+	def_trainer_class SCIENTISTM
+	def_trainer SCIENTISTM_CASTELIA_SEWERS, "Lowell"
+	tr_mon 60, ARCANINE
+	end_trainer
+
+	def_trainer SCIENTISTM_R6, "Dennett"
+	tr_mon 60, NINETALES
+	end_trainer
+
+	def_trainer SCIENTISTM_CHARGESTONE, "Linden"
+	tr_mon 60, MAGMAR
+	end_trainer
+
+	def_trainer SCIENTISTM_DREAMYARD, "Oskar"
+	tr_mon 64, RATTATA
+	tr_mon 62, NINETALES
+	tr_mon 60, MAGNEZONE
+	end_trainer
+
+	def_trainer SCIENTISTM_VICTORY_ROAD_EXT, "Braydon"
+	tr_mon 60, MAGNETON
+	tr_mon 62, MAGNEZONE
+	tr_mon 63, RATTATA
+	end_trainer
+
+	def_trainer MARCO_REMATCH_1, "Carl"
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
+	tr_mon LEVEL_FROM_BADGES + 6, MAGNETON
+	end_trainer
+
+	def_trainer MARCO_REMATCH_2, "Dexter"
+	tr_mon 54, MAGNETON
+	tr_mon 55, RATTATA
+	end_trainer
+	
+
+SECTION "PlasmaScientistMGroup", ROMX
+PlasmaScientistMGroup:
+
+	def_trainer_class PLASMA_SCIENTISTM
+	def_trainer SCIENTISTM_VIRBANK_COMPLEX, "Ross"
+	tr_mon 30, KOFFING, MALE
+	tr_mon 30, GRIMER, MALE | ALOLAN_FORM
+	end_trainer
+
+	def_trainer SCIENTISTM_P2, "Mitch"
+	tr_mon 25, DITTO
+	tr_mon 25, RATTATA
+	end_trainer
+
+
+SECTION "ScientistFGroup", ROMX
+ScientistFGroup:
+
+	def_trainer_class SCIENTISTF
+	def_trainer SCIENTISTF_CASTELIA_SEWERS, "Lowell"
+	tr_mon 60, ARCANINE
+	end_trainer
+
+	def_trainer SCIENTISTF_R6, "Dennett"
+	tr_mon 60, NINETALES
+	end_trainer
+
+	def_trainer SCIENTISTF_CHARGESTONE, "Linden"
+	tr_mon 60, MAGMAR
+	end_trainer
+
+	def_trainer SCIENTISTF_DREAMYARD, "Oskar"
+	tr_mon 64, RATTATA
+	tr_mon 62, NINETALES
+	tr_mon 60, MAGNEZONE
+	end_trainer
+
+	def_trainer SCIENTISTF_VICTORY_ROAD_EXT, "Braydon"
+	tr_mon 60, MAGNETON
+	tr_mon 62, MAGNEZONE
+	tr_mon 63, RATTATA
+	end_trainer
+	
+
+SECTION "PlasmaScientistFGroup", ROMX
+PlasmaScientistFGroup:
+
+	def_trainer_class PLASMA_SCIENTISTF
+	def_trainer SCIENTISTF_VIRBANK_COMPLEX_1, "Ross"
+	tr_mon 30, KOFFING, MALE
+	tr_mon 30, GRIMER, MALE | ALOLAN_FORM
+	end_trainer
+
+	def_trainer SCIENTISTF_VIRBANK_COMPLEX_2, "Mitch"
+	tr_mon 25, DITTO
+	tr_mon 25, RATTATA
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -4331,99 +4430,6 @@ PIGroup:
 	tr_mon 48, ARCANINE
 	tr_mon 48, ELECTABUZZ
 	tr_mon 50, POLITOED
-	end_trainer
-
-
-SECTION "ScientistGroup", ROMX
-ScientistGroup:
-
-	def_trainer_class SCIENTIST
-	def_trainer LOWELL, "Lowell"
-	tr_mon 60, ARCANINE
-	end_trainer
-
-	def_trainer DENNETT, "Dennett"
-	tr_mon 60, NINETALES
-	end_trainer
-
-	def_trainer LINDEN, "Linden"
-	tr_mon 60, MAGMAR
-	end_trainer
-
-	def_trainer OSKAR, "Oskar"
-	tr_mon 64, RATTATA
-	tr_mon 62, NINETALES
-	tr_mon 60, MAGNEZONE
-	end_trainer
-
-	def_trainer BRAYDON, "Braydon"
-	tr_mon 60, MAGNETON
-	tr_mon 62, MAGNEZONE
-	tr_mon 63, RATTATA
-	end_trainer
-
-	def_trainer CARL, "Carl"
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 6, MAGNETON
-	end_trainer
-
-	def_trainer DEXTER, "Dexter"
-	tr_mon 54, MAGNETON
-	tr_mon 55, RATTATA
-	end_trainer
-
-	def_trainer JOSEPH, "Joseph"
-	tr_mon 54, DITTO
-	tr_mon 55, GOLDUCK
-	tr_mon 53, RATTATA
-	end_trainer
-
-	def_trainer NIGEL, "Nigel"
-	tr_mon 54, ELECTABUZZ
-	tr_mon 55, LANTURN
-	end_trainer
-
-	def_trainer PIOTR, "Piotr"
-	tr_mon 54, GOLDUCK
-	tr_mon 55, RATTATA
-	end_trainer
-
-	def_trainer SANDERS, "Sanders"
-	tr_mon 52, RATTATA
-	tr_mon 54, LAPRAS
-	tr_mon 53, RATTATA
-	end_trainer
-
-SECTION "RocketScientistGroup", ROMX
-RocketScientistGroup:
-
-	def_trainer_class ROCKET_SCIENTIST
-	def_trainer ROSS, "Ross"
-	tr_mon 30, KOFFING, MALE
-	tr_mon 30, GRIMER, MALE | ALOLAN_FORM
-	end_trainer
-
-	def_trainer MITCH, "Mitch"
-	tr_mon 25, DITTO
-	tr_mon 25, RATTATA
-	end_trainer
-
-	def_trainer JED, "Jed"
-	tr_mon 29, MAGNEMITE
-	tr_mon 30, MAGNETON
-	tr_mon 29, MAGNEMITE
-	end_trainer
-
-	def_trainer MARC, "Garrett" ; MISMATCH
-	tr_mon 35, MAGNETON
-	tr_mon 36, MAGNEMITE
-	tr_mon 35, MAGNETON
-	end_trainer
-
-	def_trainer RICH, "Trenton" ; MISMATCH
-	tr_mon 35, RATTATA
-		tr_moves TACKLE, RECOVER, TRI_ATTACK, PSYBEAM
 	end_trainer
 
 

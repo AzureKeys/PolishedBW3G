@@ -76,6 +76,10 @@ TrainerGroups:
 	dba RichBoyGroup
 	dba SchoolKidMGroup
 	dba SchoolKidFGroup
+	dba ScientistMGroup
+	dba PlasmaScientistMGroup
+	dba ScientistFGroup
+	dba PlasmaScientistFGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
@@ -105,8 +109,6 @@ TrainerGroups:
 	dba SwimmerFGroup
 	dba BurglarGroup
 	dba PIGroup
-	dba ScientistGroup
-	dba RocketScientistGroup
 	dba BoarderGroup
 	dba SkierGroup
 	dba DragonTamerGroup

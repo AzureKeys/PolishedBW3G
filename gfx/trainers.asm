@@ -205,6 +205,12 @@ SchoolKidMPic: INCBIN "gfx/trainers/school_kid_m.2bpp.lz"
 SECTION "SchoolKidFPic", ROMX
 SchoolKidFPic: INCBIN "gfx/trainers/school_kid_f.2bpp.lz"
 
+SECTION "ScientistMPic", ROMX
+ScientistMPic: INCBIN "gfx/trainers/scientist_m.2bpp.lz"
+
+SECTION "ScientistFPic", ROMX
+ScientistFPic: INCBIN "gfx/trainers/scientist_f.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -291,10 +297,6 @@ BurglarPic: INCBIN "gfx/trainers/burglar.2bpp.lz"
 
 SECTION "PIPic", ROMX
 PIPic: INCBIN "gfx/trainers/pi.2bpp.lz"
-
-SECTION "ScientistPic", ROMX
-ScientistPic:
-RocketScientistPic: INCBIN "gfx/trainers/scientist.2bpp.lz"
 
 SECTION "BoarderPic", ROMX
 BoarderPic: INCBIN "gfx/trainers/boarder.2bpp.lz"
