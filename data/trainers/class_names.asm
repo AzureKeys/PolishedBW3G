@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "#fan"             ; POKEFANM
-	li "#fan"             ; POKEFANF
 	li "Officer"          ; OFFICERM
 	li "Officer"          ; OFFICERF
 	li "#Maniac"          ; POKEMANIAC

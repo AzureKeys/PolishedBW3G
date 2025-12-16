@@ -94,8 +94,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
-	db  32, $AA, $AA, $AA, MALE   ; pokefanm
-	db  32, $AA, $AA, $AA, FEMALE ; pokefanf
 	db  48, $DD, $BB, $DB, MALE   ; officerm
 	db  48, $7B, $DB, $FF, FEMALE ; officerf
 	db  40, $BB, $BB, $BB, MALE   ; pokemaniac

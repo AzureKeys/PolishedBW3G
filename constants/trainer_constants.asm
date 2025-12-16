@@ -645,32 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass POKEFANM ; 2a
-	const DEREK1
-	const DEREK2
-	const DEREK3
-	const WILLIAM
-	const ROBERT
-	const JOSHUA
-	const CARTER
-	const TREVOR
-	const BRANDON
-	const JEREMY
-	const COLIN
-	const ALEX
-	const REX
-	const ALLAN
-
-	trainerclass POKEFANF ; 2b
-	const BEVERLY1
-	const BEVERLY2
-	const BEVERLY3
-	const RUTH
-	const GEORGIA
-	const JAIME
-	const BOONE
-	const ELEANOR
-
 	trainerclass OFFICERM ; 2c
 	const KEITH
 	const DIRK

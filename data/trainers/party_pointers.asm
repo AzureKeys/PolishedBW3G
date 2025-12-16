@@ -94,8 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba PokefanMGroup
-	dba PokefanFGroup
 	dba OfficerMGroup
 	dba OfficerFGroup
 	dba PokemaniacGroup

@@ -100,7 +100,7 @@ BattleTowerTrainers:
 	rawchar "Hong@@@@@@", TEACHER_F
 	rawchar "Mott@@@@@@", TEACHER_M
 	rawchar "Pov@@@@@@@", BOARDER
-	rawchar "Collins@@@", POKEFANM
+	rawchar "Collins@@@", PKMN_RANGERM
 	rawchar "Darwin@@@@", HIKER
 	rawchar "Tatiana@@@", NURSE
 	rawchar "Pitt@@@@@@", RUIN_MANIAC
@@ -110,7 +110,7 @@ BattleTowerTrainers:
 	rawchar "Kirby@@@@@", BUG_MANIAC
 	rawchar "Ricky@@@@@", PILOT
 	rawchar "Joan@@@@@@", GUITARIST
-	rawchar "Abed@@@@@@", POKEFANM
+	rawchar "Abed@@@@@@", PKMN_RANGERM
 	rawchar "Amelia@@@@", SIGHTSEERF
 	rawchar "Deedee@@@@", GUITARIST
 	rawchar "Garrett@@@", JUGGLER
@@ -119,12 +119,12 @@ BattleTowerTrainers:
 	rawchar "Dijkstra@@", VETERANM
 	rawchar "Raine@@@@@", ACE_TRAINERF
 	rawchar "Dorothy@@@", SKIER
-	rawchar "Shirley@@@", POKEFANF
+	rawchar "Shirley@@@", PKMN_RANGERF
 	rawchar "Douglas@@@", SIGHTSEERM
 	rawchar "Armstrong@", BIKER
 	rawchar "Remy@@@@@@", VETERANF
 	rawchar "Drake@@@@@", RICH_BOY
-	rawchar "Mori@@@@@@", POKEFANF
+	rawchar "Mori@@@@@@", PKMN_RANGERF
 	rawchar "Jorge@@@@@", DRAGON_TAMER
 	rawchar "Lavigne@@@", SCHOOL_KIDF
 	rawchar "Paul@@@@@@", GUITARIST

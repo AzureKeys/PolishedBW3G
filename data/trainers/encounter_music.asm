@@ -93,8 +93,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; worker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
-	db MUSIC_HIKER_ENCOUNTER ; pokefanm
-	db MUSIC_BEAUTY_ENCOUNTER ; pokefanf
 	db MUSIC_OFFICER_ENCOUNTER ; officerm
 	db MUSIC_OFFICER_ENCOUNTER ; officerf
 	db MUSIC_POKEMANIAC_ENCOUNTER ; pokemaniac
