@@ -2508,6 +2508,88 @@ SocialiteGroup:
 	tr_mon 25, DITTO
 	tr_mon 25, RATTATA
 	end_trainer
+
+
+SECTION "SwimmerMGroup", ROMX
+SwimmerMGroup:
+
+	def_trainer_class SWIMMERM
+	def_trainer SWIMMER_M_HUMILAU_GYM, "Harold"
+	tr_mon 60, REMORAID
+	tr_mon 58, SEADRA
+	end_trainer
+
+	def_trainer SWIMMER_M_R17_1, "Simon"
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
+	end_trainer
+
+	def_trainer SWIMMER_M_R21_1, "Randall"
+	tr_mon 18, RATTATA
+	tr_mon 20, RATTATA
+	tr_mon 18, RATTATA
+	end_trainer
+
+
+SECTION "SwimmerMDGroup", ROMX
+SwimmerMDGroup:
+
+	def_trainer_class SWIMMERM_D
+	def_trainer SWIMMER_M_R17_2, "Harold"
+	tr_mon 60, REMORAID
+	tr_mon 58, SEADRA
+	end_trainer
+
+	def_trainer SWIMMER_M_R21_2, "Simon"
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
+	end_trainer
+
+	def_trainer SWIMMER_M_R21_3, "Randall"
+	tr_mon 18, RATTATA
+	tr_mon 20, RATTATA
+	tr_mon 18, RATTATA
+	end_trainer
+
+
+SECTION "SwimmerFGroup", ROMX
+SwimmerFGroup:
+
+	def_trainer_class SWIMMERF
+	def_trainer SWIMMER_F_R17_1, "Elaine"
+	tr_mon 21, STARYU
+	end_trainer
+
+	def_trainer SWIMMER_F_R21_1, "Paula"
+	tr_mon 19, STARYU
+	tr_mon 19, RATTATA
+	end_trainer
+
+	def_trainer SWIMMER_F_R21_2, "Kaylee"
+	tr_mon 18, RATTATA
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
+	end_trainer
+
+
+SECTION "SwimmerFDGroup", ROMX
+SwimmerFDGroup:
+
+	def_trainer_class SWIMMERF_D
+	def_trainer SWIMMER_F_HUMILAU_GYM, "Elaine"
+	tr_mon 21, STARYU
+	end_trainer
+
+	def_trainer SWIMMER_F_R17_2, "Paula"
+	tr_mon 19, STARYU
+	tr_mon 19, RATTATA
+	end_trainer
+
+	def_trainer SWIMMER_F_R21_3, "Kaylee"
+	tr_mon 18, RATTATA
+	tr_mon 20, RATTATA
+	tr_mon 20, RATTATA
+	end_trainer
 	
 
 SECTION "TwinsGroup", ROMX
@@ -4081,346 +4163,6 @@ SailorGroup:
 	def_trainer HARVEY, "Harvey"
 	tr_mon LEVEL_FROM_BADGES + 0, RATTATA
 	tr_mon LEVEL_FROM_BADGES + 2, RATTATA
-	end_trainer
-
-
-SECTION "SwimmerMGroup", ROMX
-SwimmerMGroup:
-
-	def_trainer_class SWIMMERM
-	def_trainer HAROLD, "Harold"
-	tr_mon 60, REMORAID
-	tr_mon 58, SEADRA
-	end_trainer
-
-	def_trainer SIMON, "Simon"
-	tr_mon 20, RATTATA
-	tr_mon 20, RATTATA
-	end_trainer
-
-	def_trainer RANDALL, "Randall"
-	tr_mon 18, RATTATA
-	tr_mon 20, RATTATA
-	tr_mon 18, RATTATA
-	end_trainer
-
-	def_trainer CHARLIE, "Charlie"
-	tr_mon 21, RATTATA
-	tr_mon 19, RATTATA
-	tr_mon 19, RATTATA
-	end_trainer
-
-	def_trainer GEORGE, "George"
-	tr_mon 16, RATTATA
-	tr_mon 17, RATTATA
-	tr_mon 16, RATTATA
-	tr_mon 19, STARYU
-	tr_mon 17, RATTATA
-	tr_mon 19, REMORAID
-	end_trainer
-
-	def_trainer BERKE, "Berke"
-	tr_mon 23, RATTATA
-	end_trainer
-
-	def_trainer KIRK, "Kirk"
-	tr_mon 20, RATTATA
-	tr_mon 20, RATTATA
-	end_trainer
-
-	def_trainer MATHEW, "Mathew"
-	tr_mon 23, RATTATA
-	end_trainer
-
-	def_trainer HAL, "Hal"
-	tr_mon 24, SEEL
-	tr_mon 25, DEWGONG
-	tr_mon 24, SEEL
-	end_trainer
-
-	def_trainer JEROME, "Jerome"
-	tr_mon 57, SEADRA
-	tr_mon 58, RATTATA
-	tr_mon 59, RATTATA
-	tr_mon 58, RATTATA
-	end_trainer
-
-	def_trainer TUCKER, "Tucker"
-	tr_mon 59, RATTATA
-	tr_mon 61, RATTATA
-	end_trainer
-
-	def_trainer RICK, "Rick"
-	tr_mon 13, STARYU
-	tr_mon 18, STARMIE
-	tr_mon 16, HORSEA
-	end_trainer
-
-	def_trainer CAMERON, "Frankie" ; MISMATCH
-	tr_mon 61, AZUMARILL
-	end_trainer
-
-	def_trainer SETH, "Tyson" ; MISMATCH
-	tr_mon 58, RATTATA
-	tr_mon 58, OCTILLERY
-	tr_mon 62, RATTATA
-	end_trainer
-
-	def_trainer JAMES, "James"
-	tr_mon LEVEL_FROM_BADGES - 4, STARYU
-	tr_mon LEVEL_FROM_BADGES + 2, STARMIE
-	tr_mon LEVEL_FROM_BADGES - 2, HORSEA
-	end_trainer
-
-	def_trainer WALTER, "Walter"
-	tr_mon LEVEL_FROM_BADGES + 0, HORSEA
-	tr_mon LEVEL_FROM_BADGES + 1, HORSEA
-	tr_mon LEVEL_FROM_BADGES + 2, SEADRA
-	end_trainer
-
-	def_trainer LEWIS, "Lewis"
-	tr_mon 18, STARYU
-	tr_mon 21, STARMIE
-	tr_mon 20, HORSEA
-	end_trainer
-
-	def_trainer MICHEL, "Michel"
-	tr_mon LEVEL_FROM_BADGES + 2, STARYU
-	tr_mon LEVEL_FROM_BADGES + 4, STARMIE
-	end_trainer
-
-	def_trainer LUCAS, "Lucas"
-	tr_mon LEVEL_FROM_BADGES + 8, VAPOREON
-	end_trainer
-
-	def_trainer FRANK, "Frank"
-	tr_mon LEVEL_FROM_BADGES + 6, MANTINE
-	end_trainer
-
-	def_trainer NADAR, "Nadar"
-	tr_mon LEVEL_FROM_BADGES + 4, SEADRA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer CONRAD, "Conrad"
-	tr_mon LEVEL_FROM_BADGES + 6, AZUMARILL
-	end_trainer
-
-	def_trainer ROMEO, "Romeo"
-	tr_mon 57, AZUMARILL, MALE
-		tr_extra HUGE_POWER, ATK_UP_SATK_DOWN
-		tr_moves AQUA_TAIL, PLAY_ROUGH, ROLLOUT, CLOSE_COMBAT
-	end_trainer
-
-	def_trainer MALCOLM, "Malcolm"
-	tr_mon 54, RATTATA
-	tr_mon 55, DEWGONG
-	tr_mon 54, RATTATA
-	end_trainer
-
-	def_trainer ARMAND, "Armand"
-	tr_mon 55, RATTATA
-	tr_mon 55, RATTATA
-	end_trainer
-
-	def_trainer THOMAS, "Thomas"
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-		tr_moves DEFENSE_CURL, BITE, SURF, RAPID_SPIN
-	end_trainer
-
-	def_trainer SWIMMERM_LUIS, "Luis"
-	tr_mon 60, SEADRA
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer ELMO, "Elmo"
-	tr_mon 60, POLIWHIRL
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer DUANE, "Duane"
-	tr_mon 60, RATTATA
-	tr_mon 60, RATTATA
-	end_trainer
-
-	def_trainer ESTEBAN, "Esteban"
-	tr_mon 58, GOLDUCK
-	tr_mon 58, POLIWRATH
-	end_trainer
-
-	def_trainer EZRA, "Ezra"
-	tr_mon 52, SEADRA
-	tr_mon 56, KINGDRA
-	end_trainer
-
-	def_trainer ASHE, "Ashe"
-	tr_mon 63, POLITOED
-	tr_mon 63, POLIWRATH
-	end_trainer
-
-
-SECTION "SwimmerFGroup", ROMX
-SwimmerFGroup:
-
-	def_trainer_class SWIMMERF
-	def_trainer ELAINE, "Elaine"
-	tr_mon 21, STARYU
-	end_trainer
-
-	def_trainer PAULA, "Paula"
-	tr_mon 19, STARYU
-	tr_mon 19, RATTATA
-	end_trainer
-
-	def_trainer KAYLEE, "Kaylee"
-	tr_mon 18, RATTATA
-	tr_mon 20, RATTATA
-	tr_mon 20, RATTATA
-	end_trainer
-
-	def_trainer SUSIE, "Susie"
-	tr_mon 20, PSYDUCK
-	tr_mon 22, RATTATA
-	end_trainer
-
-	def_trainer DENISE, "Denise"
-	tr_mon 22, SEEL
-	end_trainer
-
-	def_trainer KARA, "Kara"
-	tr_mon 20, STARYU
-	tr_mon 20, STARMIE
-	end_trainer
-
-	def_trainer WENDY, "Wendy"
-	tr_mon 21, HORSEA
-		tr_moves WATER_GUN, TACKLE, LEER, BUBBLE_BEAM
-	tr_mon 21, HORSEA
-		tr_moves DRAGON_RAGE, TACKLE, LEER, BUBBLE_BEAM
-	end_trainer
-
-	def_trainer MARY, "Mary"
-	tr_mon 20, RATTATA
-	end_trainer
-
-	def_trainer DAWN, "Debbie" ; MISMATCH
-	tr_mon 61, AZUMARILL
-	end_trainer
-
-	def_trainer NICOLE, "Nicole"
-	tr_mon 59, MARILL
-	tr_mon 59, MARILL
-	tr_mon 62, LAPRAS
-	end_trainer
-
-	def_trainer LORI, "Lori"
-	tr_mon 62, STARMIE
-	tr_mon 62, STARMIE
-	tr_mon 62, STARMIE
-	end_trainer
-
-	def_trainer NIKKI, "Nikki"
-	tr_mon 58, SEEL
-	tr_mon 58, SEEL
-	tr_mon 58, SEEL
-	tr_mon 62, DEWGONG
-	end_trainer
-
-	def_trainer DIANA, "Diana"
-	tr_mon 58, GOLDUCK
-	end_trainer
-
-	def_trainer BRIANA, "Briana"
-	tr_mon 56, RATTATA
-	tr_mon 56, LAPRAS
-	end_trainer
-
-	def_trainer VIOLA, "Viola"
-	tr_mon 58, RATTATA
-	end_trainer
-
-	def_trainer KATIE, "Lisa" ; MISMATCH
-	tr_mon LEVEL_FROM_BADGES + 3, LANTURN
-	end_trainer
-
-	def_trainer JILL, "Jill"
-	tr_mon LEVEL_FROM_BADGES + 3, DEWGONG
-	end_trainer
-
-	def_trainer LISA, "Katie" ; MISMATCH
-	tr_mon LEVEL_FROM_BADGES + 0, SEEL
-	tr_mon LEVEL_FROM_BADGES + 2, DEWGONG
-	end_trainer
-
-	def_trainer ALISON, "Alison"
-	tr_mon LEVEL_FROM_BADGES + 4, CORSOLA
-	tr_mon LEVEL_FROM_BADGES + 4, SEEL
-	end_trainer
-
-	def_trainer STEPHANIE, "Stephanie"
-	tr_mon LEVEL_FROM_BADGES + 3, STARYU
-	tr_mon LEVEL_FROM_BADGES + 5, SEADRA
-	end_trainer
-
-	def_trainer CAROLINE, "Caroline"
-	tr_mon LEVEL_FROM_BADGES + 3, REMORAID
-	tr_mon LEVEL_FROM_BADGES + 3, REMORAID
-	tr_mon LEVEL_FROM_BADGES + 3, REMORAID
-	end_trainer
-
-	def_trainer NATALIA, "Natalia"
-	tr_mon LEVEL_FROM_BADGES + 4, STARYU
-	tr_mon LEVEL_FROM_BADGES + 4, STARYU
-	end_trainer
-
-	def_trainer BARBARA, "Barbara"
-	tr_mon LEVEL_FROM_BADGES + 5, STARMIE
-	end_trainer
-
-	def_trainer SALLY, "Sally"
-	tr_mon LEVEL_FROM_BADGES + 1, REMORAID
-	tr_mon LEVEL_FROM_BADGES + 3, MANTINE
-	end_trainer
-
-	def_trainer TARA, "Tara"
-	tr_mon LEVEL_FROM_BADGES + 2, CORSOLA
-	tr_mon LEVEL_FROM_BADGES + 2, CORSOLA
-	end_trainer
-
-	def_trainer MAYU, "Mayu"
-	tr_mon 58, CORSOLA
-	tr_mon 59, CORSOLA
-	tr_mon 60, CORSOLA
-	end_trainer
-
-	def_trainer LEONA, "Leona"
-	tr_mon 62, POLITOED
-	end_trainer
-
-	def_trainer CHELAN, "Chelan"
-	tr_mon 61, AZUMARILL
-	end_trainer
-
-	def_trainer KENDRA, "Kendra"
-	tr_mon 62, SLOWKING
-	end_trainer
-
-	def_trainer WODA, "Woda"
-	tr_mon 57, MANTINE
-	tr_mon 57, OCTILLERY
-	end_trainer
-
-	def_trainer RACHEL, "Rachel"
-	tr_mon 53, REMORAID
-	tr_mon 53, REMORAID
-	tr_mon 53, REMORAID
-	tr_mon 55, MANTINE
-	end_trainer
-
-	def_trainer MARINA, "Marina"
-	tr_mon 63, GOLDUCK
-	tr_mon 63, LANTURN
-	tr_mon 63, RATTATA
 	end_trainer
 
 

@@ -80,6 +80,10 @@ TrainerPicPointers::
 	dba ScientistFPic
 	dba SmasherPic
 	dba SocialitePic
+	dba SwimmermPic
+	dba SwimmermDPic
+	dba SwimmerfPic
+	dba SwimmerfDPic
 	dba TwinsPic
 	dba BirdKeeperPic
 	dba GruntmPic
@@ -105,8 +109,6 @@ TrainerPicPointers::
 	dba BreederPic
 	dba CowgirlPic
 	dba SailorPic
-	dba SwimmermPic
-	dba SwimmerfPic
 	dba BurglarPic
 	dba PIPic
 	dba BoarderPic

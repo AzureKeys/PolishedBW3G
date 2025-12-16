@@ -217,6 +217,18 @@ SmasherPic: INCBIN "gfx/trainers/smasher.2bpp.lz"
 SECTION "SocialitePic", ROMX
 SocialitePic: INCBIN "gfx/trainers/socialite.2bpp.lz"
 
+SECTION "SwimmermPic", ROMX
+SwimmermPic: INCBIN "gfx/trainers/swimmer_m.2bpp.lz"
+
+SECTION "SwimmermDPic", ROMX
+SwimmermDPic: INCBIN "gfx/trainers/swimmer_m_d.2bpp.lz"
+
+SECTION "SwimmerfPic", ROMX
+SwimmerfPic: INCBIN "gfx/trainers/swimmer_f.2bpp.lz"
+
+SECTION "SwimmerfDPic", ROMX
+SwimmerfDPic: INCBIN "gfx/trainers/swimmer_f_d.2bpp.lz"
+
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
@@ -291,12 +303,6 @@ CowgirlPic: INCBIN "gfx/trainers/cowgirl.2bpp.lz"
 
 SECTION "SailorPic", ROMX
 SailorPic: INCBIN "gfx/trainers/sailor.2bpp.lz"
-
-SECTION "SwimmermPic", ROMX
-SwimmermPic: INCBIN "gfx/trainers/swimmer_m.2bpp.lz"
-
-SECTION "SwimmerfPic", ROMX
-SwimmerfPic: INCBIN "gfx/trainers/swimmer_f.2bpp.lz"
 
 SECTION "BurglarPic", ROMX
 BurglarPic: INCBIN "gfx/trainers/burglar.2bpp.lz"

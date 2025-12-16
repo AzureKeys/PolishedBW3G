@@ -81,6 +81,10 @@ TrainerEncounterMusic:
 	db MUSIC_ROCKET_ENCOUNTER ; plasma_scientistf
 	db MUSIC_BEAUTY_ENCOUNTER ; smasher
 	db MUSIC_BEAUTY_ENCOUNTER ; socialite
+	db MUSIC_HIKER_ENCOUNTER ; swimmerm
+	db MUSIC_HIKER_ENCOUNTER ; swimmermD
+	db MUSIC_BEAUTY_ENCOUNTER ; swimmerf
+	db MUSIC_BEAUTY_ENCOUNTER ; swimmerfD
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
@@ -106,8 +110,6 @@ TrainerEncounterMusic:
 	db MUSIC_LASS_ENCOUNTER ; breeder
 	db MUSIC_LASS_ENCOUNTER ; cowgirl
 	db MUSIC_HIKER_ENCOUNTER ; sailor
-	db MUSIC_HIKER_ENCOUNTER ; swimmerm
-	db MUSIC_BEAUTY_ENCOUNTER ; swimmerf
 	db MUSIC_POKEMANIAC_ENCOUNTER ; burglar
 	db MUSIC_POKEMANIAC_ENCOUNTER ; pi
 	db MUSIC_HIKER_ENCOUNTER ; boarder

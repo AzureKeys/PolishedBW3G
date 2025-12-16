@@ -82,6 +82,10 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, FEMALE ; plasma scientistf
 	db  48, $CC, $CC, $CC, FEMALE ; smasher
 	db  48, $CC, $CC, $CC, FEMALE ; socialite
+	db  48, $CC, $CC, $CC, MALE   ; swimmerm
+	db  48, $CC, $CC, $CC, MALE   ; swimmermD
+	db  48, $CC, $CC, $CC, FEMALE ; swimmerf
+	db  48, $CC, $CC, $CC, FEMALE ; swimmerfD
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
@@ -107,8 +111,6 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, FEMALE ; breeder (low EVs due to breeding)
 	db  48, $CC, $CC, $CC, FEMALE ; cowgirl
 	db  48, $CC, $CC, $CC, MALE   ; sailor
-	db  48, $CC, $CC, $CC, MALE   ; swimmerm
-	db  48, $CC, $CC, $CC, FEMALE ; swimmerf
 	db  56, $DD, $DD, $DD, MALE   ; burglar
 	db  56, $DD, $DD, $DD, MALE   ; pi
 	db  56, $DD, $DD, $DD, MALE   ; boarder

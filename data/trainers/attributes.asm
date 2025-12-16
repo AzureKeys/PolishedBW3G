@@ -476,6 +476,30 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_AGGRESSIVE + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
+; Swimmerm
+	db 0, 0 ; items
+	db 5 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; SwimmermD
+	db 0, 0 ; items
+	db 5 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OFFENSIVE + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; Swimmerf
+	db 0, 0 ; items
+	db 5 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
+; SwimmerfD
+	db 0, 0 ; items
+	db 5 ; base reward
+	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
+	dw CONTEXT_USE + SWITCH_SOMETIMES
+
 ; Twins
 	db 0, 0 ; items
 	db 5 ; base reward
@@ -624,18 +648,6 @@ TrainerClassAttributes:
 	db 0, 0 ; items
 	db 16 ; base reward
 	dw AI_BASIC + AI_OFFENSIVE + AI_OPPORTUNIST + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Swimmerm
-	db 0, 0 ; items
-	db 5 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OFFENSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Swimmerf
-	db 0, 0 ; items
-	db 5 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
 ; Burglar

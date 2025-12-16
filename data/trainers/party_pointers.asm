@@ -82,6 +82,10 @@ TrainerGroups:
 	dba PlasmaScientistFGroup
 	dba SmasherGroup
 	dba SocialiteGroup
+	dba SwimmerMGroup
+	dba SwimmerMDGroup
+	dba SwimmerFGroup
+	dba SwimmerFDGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup
@@ -107,8 +111,6 @@ TrainerGroups:
 	dba BreederGroup
 	dba CowgirlGroup
 	dba SailorGroup
-	dba SwimmerMGroup
-	dba SwimmerFGroup
 	dba BurglarGroup
 	dba PIGroup
 	dba BoarderGroup

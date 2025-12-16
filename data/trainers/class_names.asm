@@ -79,6 +79,10 @@ TrainerClassNames::
 	li "Scientist"        ; PLASMA_SCIENTISTF
 	li "Smasher"          ; SMASHER
 	li "Socialite"        ; SOCIALITE
+	li "Swimmer"          ; SWIMMERM
+	li "Swimmer"          ; SWIMMERM_D
+	li "Swimmer"          ; SWIMMERF
+	li "Swimmer"          ; SWIMMERF_D
 	li "Twins"            ; TWINS
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Rocket"           ; GRUNTM
@@ -104,8 +108,6 @@ TrainerClassNames::
 	li "Breeder"          ; BREEDER
 	li "Cowgirl"          ; COWGIRL
 	li "Sailor"           ; SAILOR
-	li "Swimmer"          ; SWIMMERM
-	li "Swimmer"          ; SWIMMERF
 	li "Burglar"          ; BURGLAR
 	li "Agent"            ; PI
 	li "Boarder"          ; BOARDER

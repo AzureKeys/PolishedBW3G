@@ -542,6 +542,26 @@ DEF CRYS EQU __trainer_class__
 	const SOCIALITE_R2
 	const SOCIALITE_CELESTIAL_TOWER
 
+	trainerclass SWIMMERM ; 50
+	const SWIMMER_M_HUMILAU_GYM
+	const SWIMMER_M_R17_1
+	const SWIMMER_M_R21_1
+
+	trainerclass SWIMMERM_D ; 51
+	const SWIMMER_M_R17_2
+	const SWIMMER_M_R21_2
+	const SWIMMER_M_R21_3
+
+	trainerclass SWIMMERF ; 52
+	const SWIMMER_F_R17_1
+	const SWIMMER_F_R21_1
+	const SWIMMER_F_R21_2
+
+	trainerclass SWIMMERF_D ; 53
+	const SWIMMER_F_HUMILAU_GYM
+	const SWIMMER_F_R17_2
+	const SWIMMER_F_R21_3
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2
@@ -824,74 +844,6 @@ DEF CRYS EQU __trainer_class__
 	const PARKER
 	const EDDIE
 	const HARVEY
-
-	trainerclass SWIMMERM ; 49
-	const HAROLD
-	const SIMON
-	const RANDALL
-	const CHARLIE
-	const GEORGE
-	const BERKE
-	const KIRK
-	const MATHEW
-	const HAL
-	const JEROME
-	const TUCKER
-	const RICK
-	const CAMERON
-	const SETH
-	const JAMES
-	const WALTER
-	const LEWIS
-	const MICHEL
-	const LUCAS
-	const FRANK
-	const NADAR
-	const CONRAD
-	const ROMEO
-	const MALCOLM
-	const ARMAND
-	const THOMAS
-	const SWIMMERM_LUIS
-	const ELMO
-	const DUANE
-	const ESTEBAN
-	const EZRA
-	const ASHE
-
-	trainerclass SWIMMERF ; 4a
-	const ELAINE
-	const PAULA
-	const KAYLEE
-	const SUSIE
-	const DENISE
-	const KARA
-	const WENDY
-	const MARY
-	const DAWN
-	const NICOLE
-	const LORI
-	const NIKKI
-	const DIANA
-	const BRIANA
-	const VIOLA
-	const KATIE
-	const JILL
-	const LISA
-	const ALISON
-	const STEPHANIE
-	const CAROLINE
-	const NATALIA
-	const BARBARA
-	const SALLY
-	const TARA
-	const MAYU
-	const LEONA
-	const CHELAN
-	const KENDRA
-	const WODA
-	const RACHEL
-	const MARINA
 
 	trainerclass BURGLAR ; 4b
 	const DUNCAN
