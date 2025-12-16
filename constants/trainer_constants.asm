@@ -562,21 +562,12 @@ DEF CRYS EQU __trainer_class__
 	const SWIMMER_F_R17_2
 	const SWIMMER_F_R21_3
 
-	trainerclass TWINS ; 24
-	const AMYANDMIMI1
-	const AMYANDMIMI2
-	const ANNANDANNE1
-	const ANNANDANNE2
-	const JOANDZOE1
-	const JOANDZOE2
-	const MEGANDPEG1
-	const MEGANDPEG2
-	const LEAANDPIA1
-	const LEAANDPIA2
-	const DAYANDDANI1
-	const DAYANDDANI2
-	const KAYANDTIA1
-	const KAYANDTIA2
+	trainerclass TWINS ; 54
+	const TWINS_MARINE_TUBE
+	const TWINS_R20
+	const TWINS_R2
+	const TWINS_R1
+	const TWINS_R7
 
 	trainerclass BIRD_KEEPER ; 26
 	const VANCE1

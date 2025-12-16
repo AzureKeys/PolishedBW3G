@@ -2596,82 +2596,33 @@ SECTION "TwinsGroup", ROMX
 TwinsGroup:
 
 	def_trainer_class TWINS
-	def_trainer AMYANDMIMI1, "Amy & Mimi"
+	def_trainer TWINS_MARINE_TUBE, "Amy & Mimi"
 	tr_mon 13, RATTATA
 	tr_mon 13, RATTATA
 	end_trainer
 
-	def_trainer AMYANDMIMI2, "Amy & Mimi"
+	def_trainer TWINS_R20, "Amy & Mimi"
 	tr_mon 10, RATTATA
 	tr_mon 10, RATTATA
 	end_trainer
 
-	def_trainer ANNANDANNE1, "Tori & Til"
+	def_trainer TWINS_R2, "Tori & Til"
 	tr_mon 16, MARILL
 		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	end_trainer
 
-	def_trainer ANNANDANNE2, "Tori & Til"
+	def_trainer TWINS_R1, "Tori & Til"
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	tr_mon 16, MARILL
 		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
 	end_trainer
 
-	def_trainer JOANDZOE1, "Lo & Zoe"
+	def_trainer TWINS_R7, "Lo & Zoe"
 	tr_mon 59, RATTATA
 	tr_mon 59, RATTATA
-	end_trainer
-
-	def_trainer JOANDZOE2, "Lo & Zoe"
-	tr_mon 59, RATTATA
-	tr_mon 59, RATTATA
-	end_trainer
-
-	def_trainer MEGANDPEG1, "Meg & Peg"
-	tr_mon 45, RATTATA
-	tr_mon 45, RATTATA
-	end_trainer
-
-	def_trainer MEGANDPEG2, "Meg & Peg"
-	tr_mon 45, RATTATA
-	tr_mon 45, RATTATA
-	end_trainer
-
-	def_trainer LEAANDPIA1, "Lea & Pia"
-	tr_mon 38, DRATINI
-		tr_moves THUNDER_WAVE, DRAGON_PULSE, FLAMETHROWER, HEADBUTT
-	tr_mon 38, DRATINI
-		tr_moves THUNDER_WAVE, DRAGON_PULSE, ICE_BEAM, HEADBUTT
-	end_trainer
-
-	def_trainer LEAANDPIA2, "Lea & Pia"
-	tr_mon 38, DRATINI
-		tr_moves THUNDER_WAVE, DRAGON_PULSE, ICE_BEAM, HEADBUTT
-	tr_mon 38, DRATINI
-		tr_moves THUNDER_WAVE, DRAGON_PULSE, FLAMETHROWER, HEADBUTT
-	end_trainer
-
-	def_trainer DAYANDDANI1, "Day & Dani"
-	tr_mon 51, PIKACHU
-	tr_mon 51, PIKACHU
-	end_trainer
-
-	def_trainer DAYANDDANI2, "Day & Dani"
-	tr_mon 51, PIKACHU
-	tr_mon 51, PIKACHU
-	end_trainer
-
-	def_trainer KAYANDTIA1, "Kay & Tia"
-	tr_mon 56, RATTATA
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer KAYANDTIA2, "Kay & Tia"
-	tr_mon 56, RATTATA
-	tr_mon 56, RATTATA
 	end_trainer
 
 
