@@ -86,6 +86,8 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; swimmerf
 	db MUSIC_BEAUTY_ENCOUNTER ; swimmerfD
 	db MUSIC_LASS_ENCOUNTER ; twins
+	db MUSIC_HIKER_ENCOUNTER ; veteranm
+	db MUSIC_HIKER_ENCOUNTER ; veteranf
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
 	db MUSIC_HIKER_ENCOUNTER ; pokefanm
@@ -126,8 +128,6 @@ TrainerEncounterMusic:
 	db MUSIC_BEAUTY_ENCOUNTER ; sightseerf
 	db MUSIC_HIKER_ENCOUNTER ; sightseers
 	db MUSIC_HIKER_ENCOUNTER ; ace_duo
-	db MUSIC_HIKER_ENCOUNTER ; veteranm
-	db MUSIC_HIKER_ENCOUNTER ; veteranf
 	db MUSIC_ROCKET_ENCOUNTER ; proton
 	db MUSIC_ROCKET_ENCOUNTER ; petrel
 	db MUSIC_ROCKET_ENCOUNTER ; archer

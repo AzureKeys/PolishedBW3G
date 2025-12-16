@@ -84,6 +84,8 @@ TrainerClassNames::
 	li "Swimmer"          ; SWIMMERF
 	li "Swimmer"          ; SWIMMERF_D
 	li "Twins"            ; TWINS
+	li "Veteran"          ; VETERANM
+	li "Veteran"          ; VETERANF
 	li "Rocket"           ; GRUNTM
 	li "Rocket"           ; GRUNTF
 	li "#fan"             ; POKEFANM
@@ -124,8 +126,6 @@ TrainerClassNames::
 	li "Sightseer"        ; SIGHTSEERF
 	li "Sightseers"       ; SIGHTSEERS
 	li "Ace Duo"          ; ACE_DUO
-	li "Veteran"          ; VETERANM
-	li "Veteran"          ; VETERANF
 	li "Executive"        ; PROTON
 	li "Executive"        ; PETREL
 	li "Executive"        ; ARCHER

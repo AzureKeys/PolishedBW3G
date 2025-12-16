@@ -232,6 +232,12 @@ SwimmerfDPic: INCBIN "gfx/trainers/swimmer_f_d.2bpp.lz"
 SECTION "TwinsPic", ROMX
 TwinsPic: INCBIN "gfx/trainers/twins.2bpp.lz"
 
+SECTION "VeteranmPic", ROMX
+VeteranmPic: INCBIN "gfx/trainers/veteran_m.2bpp.lz"
+
+SECTION "VeteranfPic", ROMX
+VeteranfPic: INCBIN "gfx/trainers/veteran_f.2bpp.lz"
+
 SECTION "GruntmPic", ROMX
 GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 
@@ -351,12 +357,6 @@ SightseersPic: INCBIN "gfx/trainers/sightseers.2bpp.lz"
 
 SECTION "AceDuoPic", ROMX
 AceDuoPic: INCBIN "gfx/trainers/ace_duo.2bpp.lz"
-
-SECTION "VeteranmPic", ROMX
-VeteranmPic: INCBIN "gfx/trainers/veteran_m.2bpp.lz"
-
-SECTION "VeteranfPic", ROMX
-VeteranfPic: INCBIN "gfx/trainers/veteran_f.2bpp.lz"
 
 SECTION "ProtonPic", ROMX
 ProtonPic: INCBIN "gfx/trainers/proton.2bpp.lz"

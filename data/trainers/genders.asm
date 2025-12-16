@@ -87,6 +87,8 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; SWIMMERF
 	dbit FEMALE_BIT ; SWIMMERF_D
 	dbit FEMALE_BIT ; TWINS
+	dbit MALE_BIT   ; VETERAN_M
+	dbit FEMALE_BIT ; VETERAN_F
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
 	dbit MALE_BIT   ; POKEFANM
@@ -127,8 +129,6 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; SIGHTSEERF
 	dbit MALE_BIT   ; SIGHTSEERS
 	dbit MALE_BIT   ; ACE_DUO
-	dbit MALE_BIT   ; VETERAN_M
-	dbit FEMALE_BIT ; VETERAN_F
 	dbit MALE_BIT   ; PROTON
 	dbit MALE_BIT   ; PETREL
 	dbit MALE_BIT   ; ARCHER

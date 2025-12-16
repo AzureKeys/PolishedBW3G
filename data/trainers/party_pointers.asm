@@ -87,6 +87,8 @@ TrainerGroups:
 	dba SwimmerFGroup
 	dba SwimmerFDGroup
 	dba TwinsGroup
+	dba VeteranMGroup
+	dba VeteranFGroup
 	dba GruntMGroup
 	dba GruntFGroup
 	dba PokefanMGroup
@@ -127,8 +129,6 @@ TrainerGroups:
 	dba SightseerFGroup
 	dba SightseersGroup
 	dba AceDuoGroup
-	dba VeteranMGroup
-	dba VeteranFGroup
 	dba ProtonGroup
 	dba PetrelGroup
 	dba ArcherGroup

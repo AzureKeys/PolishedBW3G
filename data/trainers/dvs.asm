@@ -87,6 +87,8 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, FEMALE ; swimmerf
 	db  48, $CC, $CC, $CC, FEMALE ; swimmerfD
 	db  16, $88, $88, $88, FEMALE ; twins
+	db 128, PERFECT_DVS,   MALE   ; veteranm
+	db 128, PERFECT_DVS,   FEMALE ; veteranf
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
 	db  32, $AA, $AA, $AA, MALE   ; pokefanm
@@ -127,8 +129,6 @@ TrainerClassDVsAndPersonality:
 	db  72, $DD, $DD, $DD, FEMALE ; sightseerf
 	db  72, $EE, $EE, $EE, MALE   ; sightseers
 	db  72, $EE, $EE, $EE, MALE   ; ace duo
-	db 128, PERFECT_DVS,   MALE   ; veteranm
-	db 128, PERFECT_DVS,   FEMALE ; veteranf
 	db  80, $BB, $BB, $BB, MALE   ; proton
 	db  96, $CC, $CC, $CC, MALE   ; petrel
 	db 128, $EE, $EE, $EE, MALE   ; archer

@@ -85,6 +85,8 @@ TrainerPicPointers::
 	dba SwimmerfPic
 	dba SwimmerfDPic
 	dba TwinsPic
+	dba VeteranmPic
+	dba VeteranfPic
 	dba GruntmPic
 	dba GruntfPic
 	dba PokefanmPic
@@ -125,8 +127,6 @@ TrainerPicPointers::
 	dba SightseerfPic
 	dba SightseersPic
 	dba AceDuoPic
-	dba VeteranmPic
-	dba VeteranfPic
 	dba ProtonPic
 	dba PetrelPic
 	dba ArcherPic
