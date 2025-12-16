@@ -80,6 +80,7 @@ TrainerEncounterMusic:
 	db MUSIC_POKEMANIAC_ENCOUNTER ; scientistf
 	db MUSIC_ROCKET_ENCOUNTER ; plasma_scientistf
 	db MUSIC_BEAUTY_ENCOUNTER ; smasher
+	db MUSIC_BEAUTY_ENCOUNTER ; socialite
 	db MUSIC_LASS_ENCOUNTER ; twins
 	db MUSIC_YOUNGSTER_ENCOUNTER ; bird_keeper
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm

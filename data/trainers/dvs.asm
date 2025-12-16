@@ -81,6 +81,7 @@ TrainerClassDVsAndPersonality:
 	db  56, $DD, $DD, $DD, FEMALE ; scientistf
 	db  56, $DD, $DD, $DD, FEMALE ; plasma scientistf
 	db  48, $CC, $CC, $CC, FEMALE ; smasher
+	db  48, $CC, $CC, $CC, FEMALE ; socialite
 	db  16, $88, $88, $88, FEMALE ; twins
 	db  16, $88, $88, $88, MALE   ; bird keeper
 	db  32, $AA, $AA, $AA, MALE   ; gruntm

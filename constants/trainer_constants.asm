@@ -537,6 +537,11 @@ DEF CRYS EQU __trainer_class__
 	const SMASHER_VILLAGE_BRIDGE_1
 	const SMASHER_VILLAGE_BRIDGE_2
 
+	trainerclass SOCIALITE ; 4f
+	const SOCIALITE_R3
+	const SOCIALITE_R2
+	const SOCIALITE_CELESTIAL_TOWER
+
 	trainerclass TWINS ; 24
 	const AMYANDMIMI1
 	const AMYANDMIMI2

@@ -81,6 +81,7 @@ TrainerGroups:
 	dba ScientistFGroup
 	dba PlasmaScientistFGroup
 	dba SmasherGroup
+	dba SocialiteGroup
 	dba TwinsGroup
 	dba BirdKeeperGroup
 	dba GruntMGroup

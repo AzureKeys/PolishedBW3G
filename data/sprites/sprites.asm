@@ -37,6 +37,7 @@ SpriteHeaders:
 	overworld_sprite MusicianSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite RangerMSpriteGFX, WALKING_SPRITE, PAL_OW_RED_D
 	overworld_sprite RangerFSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite SocialiteSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite YellowSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite OakSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ElmSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN

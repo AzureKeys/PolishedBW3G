@@ -2490,6 +2490,26 @@ SmasherGroup:
 	end_trainer
 	
 
+SECTION "SocialiteGroup", ROMX
+SocialiteGroup:
+
+	def_trainer_class SOCIALITE
+	def_trainer SOCIALITE_R3, "Ross"
+	tr_mon 30, KOFFING, MALE
+	tr_mon 30, GRIMER, MALE | ALOLAN_FORM
+	end_trainer
+
+	def_trainer SOCIALITE_R2, "Mitch"
+	tr_mon 25, DITTO
+	tr_mon 25, RATTATA
+	end_trainer
+
+	def_trainer SOCIALITE_CELESTIAL_TOWER, "Mitch"
+	tr_mon 25, DITTO
+	tr_mon 25, RATTATA
+	end_trainer
+	
+
 SECTION "TwinsGroup", ROMX
 TwinsGroup:
 
