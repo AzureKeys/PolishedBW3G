@@ -3209,52 +3209,6 @@ GruntFGroup:
 	tr_mon 23, RATTATA
 	tr_mon 23, RATTATA
 	end_trainer
-	
-
-SECTION "TeacherFGroup", ROMX
-TeacherFGroup:
-
-	def_trainer_class TEACHER_F
-	def_trainer COLETTE, "Colette"
-	tr_mon 60, CLEFAIRY
-	end_trainer
-
-	def_trainer HILLARY, "Hillary"
-	tr_mon 58, RATTATA
-	tr_mon 56, SUNFLORA
-	tr_mon 59, RATTATA
-	end_trainer
-
-	def_trainer SHIRLEY, "Shirley"
-	tr_mon 47, WIGGLYTUFF
-	end_trainer
-
-	def_trainer KATHRYN, "Kathryn"
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 2, RATTATA
-	end_trainer
-
-	def_trainer CLARICE, "Clarice"
-	tr_mon 54, RATTATA
-	tr_mon 56, SUNFLORA
-	end_trainer
-
-	def_trainer SERENA, "Serena"
-	tr_mon 55, UMBREON
-	tr_mon 52, VAPOREON
-	tr_mon 54, ESPEON
-	end_trainer
-
-SECTION "TeacherMGroup", ROMX
-TeacherMGroup:
-
-	def_trainer_class TEACHER_M
-	def_trainer NOLAN, "Nolan"
-	tr_mon 54, RATTATA
-	tr_mon 55, MAGNEZONE
-	tr_mon 56, ELECTIVIRE
-	end_trainer
 
 
 SECTION "TamerGroup", ROMX

@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "TeacherFPic", ROMX
-TeacherFPic: INCBIN "gfx/trainers/teacher_f.2bpp.lz"
-
-SECTION "TeacherMPic", ROMX
-TeacherMPic: INCBIN "gfx/trainers/teacher_m.2bpp.lz"
-
 SECTION "TamerPic", ROMX
 TamerPic: INCBIN "gfx/trainers/tamer.2bpp.lz"
 

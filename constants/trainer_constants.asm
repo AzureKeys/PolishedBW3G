@@ -645,17 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass TEACHER_F ; 55
-	const COLETTE
-	const HILLARY
-	const SHIRLEY
-	const KATHRYN
-	const CLARICE
-	const SERENA
-
-	trainerclass TEACHER_M ; 56
-	const NOLAN
-
 	trainerclass TAMER ; 5b
 	const BRETT
 	const VINCE

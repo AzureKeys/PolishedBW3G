@@ -80,8 +80,8 @@ BattleTowerTrainers:
 	rawchar "Morse@@@@@", JANITOR
 	rawchar "Phelps@@@@", SWIMMERM
 	rawchar "Zeke@@@@@@", VETERANM
-	rawchar "Bisom@@@@@", TEACHER_F
-	rawchar "Dyrland@@@", TEACHER_M
+	rawchar "Bisom@@@@@", VETERANF
+	rawchar "Dyrland@@@", VETERANM
 	rawchar "Nadia@@@@@", PKMN_BREEDERF
 	rawchar "Hatcher@@@", GENTLEMAN
 	rawchar "Frida@@@@@", ARTIST
@@ -97,8 +97,8 @@ BattleTowerTrainers:
 	rawchar "Axl@@@@@@@", JANITOR
 	rawchar "Gerald@@@@", SIGHTSEERM
 	rawchar "Kafuka@@@@", SCHOOL_KIDF
-	rawchar "Hong@@@@@@", TEACHER_F
-	rawchar "Mott@@@@@@", TEACHER_M
+	rawchar "Hong@@@@@@", VETERANF
+	rawchar "Mott@@@@@@", VETERANM
 	rawchar "Pov@@@@@@@", BACKPACKERM
 	rawchar "Collins@@@", PKMN_RANGERM
 	rawchar "Darwin@@@@", HIKER

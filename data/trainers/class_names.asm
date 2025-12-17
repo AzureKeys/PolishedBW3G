@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Teacher"          ; TEACHER_F
-	li "Teacher"          ; TEACHER_M
 	li "Tamer"            ; TAMER
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER

@@ -94,8 +94,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
-	db  72, $DD, $DD, $DD, FEMALE ; teacher_f
-	db  72, $DD, $DD, $DD, MALE   ; teacher_m
 	db  72, $DD, $DD, $DD, MALE   ; tamer
 	db  72, $DD, $DD, $DD, FEMALE ; aroma lady
 	db  72, $DD, $DD, $DD, MALE   ; soldier

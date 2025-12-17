@@ -94,8 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba TeacherFGroup
-	dba TeacherMGroup
 	dba TamerGroup
 	dba AromaLadyGroup
 	dba SoldierGroup
