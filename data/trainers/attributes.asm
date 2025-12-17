@@ -548,18 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Tamer
-	db 0, 0 ; items
-	db 16 ; base reward
-	dw AI_BASIC + AI_OFFENSIVE + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Aroma Lady
-	db 0, 0 ; items
-	db 14 ; base reward
-	dw AI_BASIC + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
 ; Soldier
 	db 0, 0 ; items
 	db 16 ; base reward

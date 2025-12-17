@@ -93,8 +93,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; worker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
-	db MUSIC_HIKER_ENCOUNTER ; tamer
-	db MUSIC_BEAUTY_ENCOUNTER ; aroma_lady
 	db MUSIC_HIKER_ENCOUNTER ; soldier
 	db MUSIC_HIKER_ENCOUNTER ; sightseerm
 	db MUSIC_BEAUTY_ENCOUNTER ; sightseerf

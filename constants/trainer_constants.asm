@@ -645,19 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass TAMER ; 5b
-	const BRETT
-	const VINCE
-	const OSWALD
-	const JORDAN
-
-	trainerclass AROMA_LADY ; 5d
-	const DAHLIA
-	const BRYONY
-	const HEATHER
-	const HOLLY
-	const PEONY
-
 	trainerclass SOLDIER ; 5e
 
 	trainerclass SIGHTSEERM ; 61

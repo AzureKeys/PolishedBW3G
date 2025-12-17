@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Tamer"            ; TAMER
-	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER
 	li "Sightseer"        ; SIGHTSEERM
 	li "Sightseer"        ; SIGHTSEERF

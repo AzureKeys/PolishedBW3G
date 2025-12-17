@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "TamerPic", ROMX
-TamerPic: INCBIN "gfx/trainers/tamer.2bpp.lz"
-
-SECTION "AromaLadyPic", ROMX
-AromaLadyPic: INCBIN "gfx/trainers/aroma_lady.2bpp.lz"
-
 SECTION "SoldierPic", ROMX
 SoldierPic: INCBIN "gfx/trainers/soldier.2bpp.lz"
 

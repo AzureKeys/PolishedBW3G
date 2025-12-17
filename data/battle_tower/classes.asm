@@ -10,12 +10,12 @@ BattleTowerTrainers:
 	rawchar "Hare@@@@@@", WORKER
 	rawchar "Murray@@@@", WORKER
 	rawchar "Suh@@@@@@@", VETERANM
-	rawchar "Siegfried@", TAMER
+	rawchar "Siegfried@", WORKER
 	rawchar "Scipio@@@@", JANITOR
 	rawchar "Walter@@@@", VETERANM
 	rawchar "Eleni@@@@@", BATTLE_GIRL
 	rawchar "Ichigo@@@@", BAKER
-	rawchar "Estée@@@@@", AROMA_LADY
+	rawchar "Estée@@@@@", PARASOL_LADY
 	rawchar "Wayne@@@@@", SCHOOL_KIDM
 	rawchar "McManus@@@", HIKER
 	rawchar "Daryl@@@@@", SWIMMERM
@@ -43,7 +43,7 @@ BattleTowerTrainers:
 	rawchar "Sagan@@@@@", SCIENTISTM
 	rawchar "Lenie@@@@@", SWIMMERF
 	rawchar "Frost@@@@@", ACE_TRAINERM
-	rawchar "Sophia@@@@", AROMA_LADY
+	rawchar "Sophia@@@@", PARASOL_LADY
 	rawchar "Joanna@@@@", WAITRESS
 	rawchar "Newton@@@@", SCIENTISTM
 	rawchar "York@@@@@@", SOLDIER
@@ -59,7 +59,7 @@ BattleTowerTrainers:
 	rawchar "Cobb@@@@@@", SCHOOL_KIDM
 	rawchar "Yufune@@@@", BLACKBELT_T
 	rawchar "Monica@@@@", WAITRESS
-	rawchar "Daniel@@@@", TAMER
+	rawchar "Daniel@@@@", WORKER
 	rawchar "Toshi@@@@@", BLACKBELT_T
 	rawchar "Charlie@@@", HARLEQUIN
 	rawchar "Fagin@@@@@", JANITOR

@@ -3211,64 +3211,6 @@ GruntFGroup:
 	end_trainer
 
 
-SECTION "TamerGroup", ROMX
-TamerGroup:
-
-	def_trainer_class TAMER
-	def_trainer BRETT, "Brett"
-	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	end_trainer
-
-	def_trainer VINCE, "Vince"
-	tr_mon 54, KANGASKHAN
-	tr_mon 56, RATTATA
-	end_trainer
-
-	def_trainer OSWALD, "Oswald"
-	tr_mon 60, RATTATA
-	tr_mon 62, RATTATA
-	tr_mon 61, KANGASKHAN
-	end_trainer
-
-	def_trainer JORDAN, "Jordan"
-	tr_mon 50, RATTATA
-	end_trainer
-
-
-SECTION "AromaLadyGroup", ROMX
-AromaLadyGroup:
-
-	def_trainer_class AROMA_LADY
-	def_trainer DAHLIA, "Dahlia"
-	tr_mon 58, RATTATA
-	tr_mon 58, RATTATA
-	end_trainer
-
-	def_trainer BRYONY, "Bryony"
-	tr_mon 55, RATTATA
-		tr_moves SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
-	tr_mon 55, RATTATA
-		tr_moves SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
-	end_trainer
-
-	def_trainer HEATHER, "Heather"
-	tr_mon 35, RATTATA
-	tr_mon 45, RATTATA
-	tr_mon 55, RATTATA
-	end_trainer
-
-	def_trainer HOLLY, "Holly"
-	tr_mon 62, SUNFLORA
-	tr_mon 62, SUNFLORA
-	end_trainer
-
-	def_trainer PEONY, "Peony"
-	tr_mon 50, RATTATA
-	end_trainer
-
-
 SECTION "SoldierGroup", ROMX
 SoldierGroup:
 
