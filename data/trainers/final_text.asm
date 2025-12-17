@@ -64,21 +64,5 @@ FinalText_SinglePhrases:
 	dw CynthiaFinalPkmnText
 	dw InverFinalPkmnText
 	dw CaitlinFinalPkmnText
-	dw CandelaFinalPkmnText
-	dw BlancheFinalPkmnText
-	dw SparkFinalPkmnText
-	dw FlanneryFinalPkmnText
-	dw MayleneFinalPkmnText
-	dw ValerieFinalPkmnText
-	dw KukuiFinalPkmnText
-	dw PiersFinalPkmnText
-	dw KatyFinalPkmnText
-	dw NULL ; Victor
-	dw BillFinalPkmnText
-	dw YellowFinalPkmnText
-	dw WalkerFinalPkmnText
-	dw ImakuniFinalPkmnText
-	dw LawrenceFinalPkmnText
-	dw ReiFinalPkmnText
 	; all trainers between CHAMPION and BIANCA are omitted
 	assert_table_length NUM_TRAINER_CLASSES - (BIANCA - CHAMPION - 1)

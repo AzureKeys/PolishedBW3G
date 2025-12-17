@@ -104,20 +104,4 @@ TrainerClassNames::
 	li "Researcher"       ; CYNTHIA
 	li "Psychic"          ; INVER
 	li "Lady"             ; CAITLIN
-	li "Leader"           ; CANDELA
-	li "Leader"           ; BLANCHE
-	li "Leader"           ; SPARK_T
-	li "Trainer"          ; FLANNERY
-	li "Fighter"          ; MAYLENE
-	li "Designer"         ; VALERIE
-	li "<PK><MN> Trainer" ; KUKUI
-	li "Vocalist"         ; PIERS
-	li "Patissier"        ; KATY
-	li "Surfer"           ; VICTOR
-	li "#Maniac"          ; BILL_T
-	li "<PK><MN> Trainer" ; YELLOW
-	li "Ex-Leader"        ; WALKER
-	li "Student"          ; IMAKUNI
-	li "Collector"        ; LAWRENCE
-	li "Shrine"           ; REI
 	assert_list_length NUM_TRAINER_CLASSES

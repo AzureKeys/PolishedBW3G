@@ -671,38 +671,6 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass CAITLIN ; 82
 
-	trainerclass CANDELA ; 83
-
-	trainerclass BLANCHE ; 84
-
-	trainerclass SPARK_T ; 85
-
-	trainerclass FLANNERY ; 86
-
-	trainerclass MAYLENE ; 87
-
-	trainerclass VALERIE ; 89
-
-	trainerclass KUKUI ; 8a
-
-	trainerclass PIERS ; 8b
-
-	trainerclass KATY ; 8c
-
-	trainerclass VICTOR  ; 8d
-
-	trainerclass BILL_T ; 8e
-
-	trainerclass YELLOW ; 8f
-
-	trainerclass WALKER ; 90
-
-	trainerclass IMAKUNI ; 91
-
-	trainerclass LAWRENCE ; 92
-
-	trainerclass REI ; 93
-
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
 	trainerclass OMASTAR_FOSSIL ; 94

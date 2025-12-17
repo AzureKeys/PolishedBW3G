@@ -107,20 +107,4 @@ TrainerGroups:
 	dba CynthiaGroup
 	dbw BANK(@), wInverGroup
 	dba CaitlinGroup
-	dba CandelaGroup
-	dba BlancheGroup
-	dba SparkGroup
-	dba FlanneryGroup
-	dba MayleneGroup
-	dba ValerieGroup
-	dba KukuiGroup
-	dba PiersGroup
-	dba KatyGroup
-	dba VictorGroup
-	dba BillGroup
-	dba YellowGroup
-	dba WalkerGroup
-	dba ImakuniGroup
-	dba LawrenceGroup
-	dba ReiGroup
 	assert_table_length NUM_TRAINER_CLASSES

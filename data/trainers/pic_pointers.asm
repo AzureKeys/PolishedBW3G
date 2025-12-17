@@ -105,22 +105,6 @@ TrainerPicPointers::
 	dba CynthiaPic
 	dba InverPic
 	dba CaitlinPic
-	dba CandelaPic
-	dba BlanchePic
-	dba SparkPic
-	dba FlanneryPic
-	dba MaylenePic
-	dba ValeriePic
-	dba KukuiPic
-	dba PiersPic
-	dba KatyPic
-	dba VictorPic
-	dba BillPic
-	dba YellowPic
-	dba WalkerPic
-	dba ImakuniPic
-	dba LawrencePic
-	dba ReiPic
 	assert_table_length NUM_TRAINER_CLASSES
 	dba OmastarFossilPic
 	dba KabutopsFossilPic

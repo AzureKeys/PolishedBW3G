@@ -107,20 +107,4 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; cynthia
 	db 252, PERFECT_DVS,   MALE   ; inver
 	db 252, PERFECT_DVS,   FEMALE ; caitlin
-	db 252, PERFECT_DVS,   FEMALE ; candela
-	db 252, PERFECT_DVS,   FEMALE ; blanche
-	db 252, PERFECT_DVS,   MALE   ; spark
-	db 252, PERFECT_DVS,   FEMALE ; flannery
-	db 252, PERFECT_DVS,   FEMALE ; maylene
-	db 252, PERFECT_DVS,   FEMALE ; valerie
-	db 252, PERFECT_DVS,   MALE   ; kukui
-	db 252, $DD, $DD, $DD, MALE   ; piers
-	db 252, $DD, $DD, $DD, FEMALE ; katy
-	db 192, $EE, $EE, $EE, MALE   ; victor
-	db 252, PERFECT_DVS,   MALE   ; bill
-	db 252, $EE, $EE, $EE, FEMALE ; yellow
-	db 252, $EE, $EE, $EE, MALE   ; walker
-	db 192, $EE, $EE, $EE, MALE   ; imakuni
-	db 252, PERFECT_DVS,   MALE   ; lawrence
-	db 252, $EE, $EE, $EE, FEMALE ; rei
 	assert_table_length NUM_TRAINER_CLASSES

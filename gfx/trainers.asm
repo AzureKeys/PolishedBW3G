@@ -292,54 +292,6 @@ InverPic: INCBIN "gfx/trainers/inver.2bpp.lz"
 SECTION "CaitlinPic", ROMX
 CaitlinPic: INCBIN "gfx/trainers/caitlin.2bpp.lz"
 
-SECTION "CandelaPic", ROMX
-CandelaPic: INCBIN "gfx/trainers/candela.2bpp.lz"
-
-SECTION "BlanchePic", ROMX
-BlanchePic: INCBIN "gfx/trainers/blanche.2bpp.lz"
-
-SECTION "SparkPic", ROMX
-SparkPic: INCBIN "gfx/trainers/spark.2bpp.lz"
-
-SECTION "FlanneryPic", ROMX
-FlanneryPic: INCBIN "gfx/trainers/flannery.2bpp.lz"
-
-SECTION "MaylenePic", ROMX
-MaylenePic: INCBIN "gfx/trainers/maylene.2bpp.lz"
-
-SECTION "ValeriePic", ROMX
-ValeriePic: INCBIN "gfx/trainers/valerie.2bpp.lz"
-
-SECTION "KukuiPic", ROMX
-KukuiPic: INCBIN "gfx/trainers/kukui.2bpp.lz"
-
-SECTION "PiersPic", ROMX
-PiersPic: INCBIN "gfx/trainers/piers.2bpp.lz"
-
-SECTION "KatyPic", ROMX
-KatyPic: INCBIN "gfx/trainers/katy.2bpp.lz"
-
-SECTION "VictorPic", ROMX
-VictorPic: INCBIN "gfx/trainers/victor.2bpp.lz"
-
-SECTION "BillPic", ROMX
-BillPic: INCBIN "gfx/trainers/bill.2bpp.lz"
-
-SECTION "YellowPic", ROMX
-YellowPic: INCBIN "gfx/trainers/yellow.2bpp.lz"
-
-SECTION "WalkerPic", ROMX
-WalkerPic: INCBIN "gfx/trainers/walker.2bpp.lz"
-
-SECTION "ImakuniPic", ROMX
-ImakuniPic: INCBIN "gfx/trainers/imakuni.2bpp.lz"
-
-SECTION "LawrencePic", ROMX
-LawrencePic: INCBIN "gfx/trainers/lawrence.2bpp.lz"
-
-SECTION "ReiPic", ROMX
-ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
-
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 
