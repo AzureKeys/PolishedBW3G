@@ -94,7 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba AceDuoGroup
 	dba ProtonGroup
 	dba PetrelGroup
 	dba ArcherGroup

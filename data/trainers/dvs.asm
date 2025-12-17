@@ -94,7 +94,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
-	db  72, $EE, $EE, $EE, MALE   ; ace duo
 	db  80, $BB, $BB, $BB, MALE   ; proton
 	db  96, $CC, $CC, $CC, MALE   ; petrel
 	db 128, $EE, $EE, $EE, MALE   ; archer

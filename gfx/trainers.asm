@@ -253,9 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "AceDuoPic", ROMX
-AceDuoPic: INCBIN "gfx/trainers/ace_duo.2bpp.lz"
-
 SECTION "ProtonPic", ROMX
 ProtonPic: INCBIN "gfx/trainers/proton.2bpp.lz"
 

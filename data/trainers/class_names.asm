@@ -91,7 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Ace Duo"          ; ACE_DUO
 	li "Executive"        ; PROTON
 	li "Executive"        ; PETREL
 	li "Executive"        ; ARCHER

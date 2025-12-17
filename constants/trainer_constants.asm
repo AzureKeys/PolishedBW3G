@@ -645,20 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass ACE_DUO ; 66
-	const ELANANDIDA1
-	const ELANANDIDA2
-	const ARAANDBELA1
-	const ARAANDBELA2
-	const THOMANDKAE1
-	const THOMANDKAE2
-	const ZACANDJEN1
-	const ZACANDJEN2
-	const JAKEANDBRI1
-	const JAKEANDBRI2
-	const DANANDCARA1
-	const DANANDCARA2
-
 	trainerclass PROTON ; 69
 	const PROTON1
 	const PROTON2

@@ -94,7 +94,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
-	dbit MALE_BIT   ; ACE_DUO
 	dbit MALE_BIT   ; PROTON
 	dbit MALE_BIT   ; PETREL
 	dbit MALE_BIT   ; ARCHER
