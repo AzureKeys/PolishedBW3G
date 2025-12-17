@@ -91,10 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Soldier"          ; SOLDIER
-	li "Sightseer"        ; SIGHTSEERM
-	li "Sightseer"        ; SIGHTSEERF
-	li "Sightseers"       ; SIGHTSEERS
 	li "Ace Duo"          ; ACE_DUO
 	li "Executive"        ; PROTON
 	li "Executive"        ; PETREL

@@ -46,7 +46,7 @@ BattleTowerTrainers:
 	rawchar "Sophia@@@@", PARASOL_LADY
 	rawchar "Joanna@@@@", WAITRESS
 	rawchar "Newton@@@@", SCIENTISTM
-	rawchar "York@@@@@@", SOLDIER
+	rawchar "York@@@@@@", WORKER
 	rawchar "Chelsea@@@", HEX_MANIAC
 	rawchar "Kuroki@@@@", HEX_MANIAC
 	rawchar "Hitesh@@@@", SCIENTISTM
@@ -65,7 +65,7 @@ BattleTowerTrainers:
 	rawchar "Fagin@@@@@", JANITOR
 	rawchar "Buckley@@@", RICH_BOY
 	rawchar "Mateo@@@@@", VETERANM
-	rawchar "Johnson@@@", SOLDIER
+	rawchar "Johnson@@@", WORKER
 	rawchar "Newandyke@", POLICEMAN
 	rawchar "Rebecca@@@", BACKPACKERF
 	rawchar "Santiago@@", PSYCHICM_T
@@ -86,7 +86,7 @@ BattleTowerTrainers:
 	rawchar "Hatcher@@@", GENTLEMAN
 	rawchar "Frida@@@@@", ARTIST
 	rawchar "Nimue@@@@@", LADY
-	rawchar "Alice@@@@@", SIGHTSEERF
+	rawchar "Alice@@@@@", BACKPACKERF
 	rawchar "Valentine@", LADY
 	rawchar "Uri@@@@@@@", PSYCHICM_T
 	rawchar "Wong@@@@@@", WORKER
@@ -95,7 +95,7 @@ BattleTowerTrainers:
 	rawchar "Nerai@@@@@", HIKER
 	rawchar "Gwen@@@@@@", LADY
 	rawchar "Axl@@@@@@@", JANITOR
-	rawchar "Gerald@@@@", SIGHTSEERM
+	rawchar "Gerald@@@@", BACKPACKERM
 	rawchar "Kafuka@@@@", SCHOOL_KIDF
 	rawchar "Hong@@@@@@", VETERANF
 	rawchar "Mott@@@@@@", VETERANM
@@ -111,7 +111,7 @@ BattleTowerTrainers:
 	rawchar "Ricky@@@@@", PILOT
 	rawchar "Joan@@@@@@", GUITARIST
 	rawchar "Abed@@@@@@", PKMN_RANGERM
-	rawchar "Amelia@@@@", SIGHTSEERF
+	rawchar "Amelia@@@@", BACKPACKERF
 	rawchar "Deedee@@@@", GUITARIST
 	rawchar "Garrett@@@", HARLEQUIN
 	rawchar "Molly@@@@@", BAKER
@@ -120,7 +120,7 @@ BattleTowerTrainers:
 	rawchar "Raine@@@@@", ACE_TRAINERF
 	rawchar "Dorothy@@@", BACKPACKERF
 	rawchar "Shirley@@@", PKMN_RANGERF
-	rawchar "Douglas@@@", SIGHTSEERM
+	rawchar "Douglas@@@", BACKPACKERM
 	rawchar "Armstrong@", BIKER
 	rawchar "Remy@@@@@@", VETERANF
 	rawchar "Drake@@@@@", RICH_BOY

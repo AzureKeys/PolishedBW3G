@@ -92,10 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba SoldierPic
-	dba SightseermPic
-	dba SightseerfPic
-	dba SightseersPic
 	dba AceDuoPic
 	dba ProtonPic
 	dba PetrelPic

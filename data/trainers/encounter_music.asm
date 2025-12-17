@@ -93,10 +93,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; worker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
-	db MUSIC_HIKER_ENCOUNTER ; soldier
-	db MUSIC_HIKER_ENCOUNTER ; sightseerm
-	db MUSIC_BEAUTY_ENCOUNTER ; sightseerf
-	db MUSIC_HIKER_ENCOUNTER ; sightseers
 	db MUSIC_HIKER_ENCOUNTER ; ace_duo
 	db MUSIC_ROCKET_ENCOUNTER ; proton
 	db MUSIC_ROCKET_ENCOUNTER ; petrel

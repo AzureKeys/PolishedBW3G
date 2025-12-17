@@ -94,10 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba SoldierGroup
-	dba SightseerMGroup
-	dba SightseerFGroup
-	dba SightseersGroup
 	dba AceDuoGroup
 	dba ProtonGroup
 	dba PetrelGroup

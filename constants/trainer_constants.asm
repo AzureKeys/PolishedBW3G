@@ -645,28 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass SOLDIER ; 5e
-
-	trainerclass SIGHTSEERM ; 61
-	const JASKA
-	const BLAISE
-	const GARETH
-	const CHESTER
-	const HARI
-
-	trainerclass SIGHTSEERF ; 62
-	const ROSIE
-	const KAMILA
-	const NOELLE
-	const PILAR
-	const LENIE
-
-	trainerclass SIGHTSEERS ; 63
-	const LIANDSU1
-	const LIANDSU2
-	const CYANDVI1
-	const CYANDVI2
-
 	trainerclass ACE_DUO ; 66
 	const ELANANDIDA1
 	const ELANANDIDA2

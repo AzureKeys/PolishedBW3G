@@ -253,18 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "SoldierPic", ROMX
-SoldierPic: INCBIN "gfx/trainers/soldier.2bpp.lz"
-
-SECTION "SightseermPic", ROMX
-SightseermPic: INCBIN "gfx/trainers/sightseer_m.2bpp.lz"
-
-SECTION "SightseerfPic", ROMX
-SightseerfPic: INCBIN "gfx/trainers/sightseer_f.2bpp.lz"
-
-SECTION "SightseersPic", ROMX
-SightseersPic: INCBIN "gfx/trainers/sightseers.2bpp.lz"
-
 SECTION "AceDuoPic", ROMX
 AceDuoPic: INCBIN "gfx/trainers/ace_duo.2bpp.lz"
 

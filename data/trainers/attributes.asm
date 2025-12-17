@@ -548,30 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Soldier
-	db 0, 0 ; items
-	db 16 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_AGGRESSIVE + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Sightseerm
-	db 0, 0 ; items
-	db 18 ; base reward
-	dw AI_BASIC + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; Sightseerf
-	db 0, 0 ; items
-	db 18 ; base reward
-	dw AI_BASIC + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; Sightseers
-	db 0, 0 ; items
-	db 20 ; base reward
-	dw AI_BASIC + AI_OPPORTUNIST + AI_AGGRESSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
 ; Ace Duo
 	db FULL_HEAL, MAX_POTION ; items
 	db 16 ; base reward
