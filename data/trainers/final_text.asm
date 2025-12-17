@@ -61,10 +61,6 @@ FinalText_SinglePhrases:
 	dw MysticalManFinalPkmnText
 	dw PalmerFinalPkmnText
 	dw ThortonFinalPkmnText
-	dw JessieJamesFinalPkmnText
-	dw LoreleiFinalPkmnText
-	dw AgathaFinalPkmnText
-	dw StevenFinalPkmnText
 	dw CynthiaFinalPkmnText
 	dw InverFinalPkmnText
 	dw CherylFinalPkmnText

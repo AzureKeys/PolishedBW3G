@@ -661,17 +661,9 @@ DEF CRYS EQU __trainer_class__
 	
 	trainerclass BIANCA ; 63
 
-	trainerclass TOWERTYCOON ; 73
+	trainerclass TOWERTYCOON ; 74
 
-	trainerclass FACTORYHEAD ; 74
-
-	trainerclass JESSIE_JAMES ; 75
-
-	trainerclass LORELEI ; 76
-
-	trainerclass AGATHA ; 77
-
-	trainerclass STEVEN ; 78
+	trainerclass FACTORYHEAD ; 75
 
 	trainerclass CYNTHIA ; 79
 

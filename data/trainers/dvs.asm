@@ -104,10 +104,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; bianca
 	db 252, PERFECT_DVS,   MALE   ; towertycoon
 	db 252, PERFECT_DVS,   MALE   ; factoryhead
-	db  88, $BB, $B8, $BB, MALE   ; jessie&james
-	db 252, PERFECT_DVS,   FEMALE ; lorelei
-	db 252, PERFECT_DVS,   FEMALE ; agatha
-	db 252, PERFECT_DVS,   MALE   ; steven
 	db 252, PERFECT_DVS,   FEMALE ; cynthia
 	db 252, PERFECT_DVS,   MALE   ; inver
 	db 192, $EE, $EE, $EE, FEMALE ; cheryl

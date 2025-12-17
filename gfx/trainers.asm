@@ -283,18 +283,6 @@ TowerTycoonPic: INCBIN "gfx/trainers/towertycoon.2bpp.lz"
 SECTION "FactoryHeadPic", ROMX
 FactoryHeadPic: INCBIN "gfx/trainers/factoryhead.2bpp.lz"
 
-SECTION "JessieJamesPic", ROMX
-JessieJamesPic: INCBIN "gfx/trainers/jessie_james.2bpp.lz"
-
-SECTION "LoreleiPic", ROMX
-LoreleiPic: INCBIN "gfx/trainers/lorelei.2bpp.lz"
-
-SECTION "AgathaPic", ROMX
-AgathaPic: INCBIN "gfx/trainers/agatha.2bpp.lz"
-
-SECTION "StevenPic", ROMX
-StevenPic: INCBIN "gfx/trainers/steven.2bpp.lz"
-
 SECTION "CynthiaPic", ROMX
 CynthiaPic: INCBIN "gfx/trainers/cynthia.2bpp.lz"
 

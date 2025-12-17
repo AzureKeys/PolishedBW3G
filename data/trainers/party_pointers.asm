@@ -104,10 +104,6 @@ TrainerGroups:
 	dba BiancaGroup
 	dba TowerTycoonGroup
 	dba FactoryHeadGroup
-	dba JessieJamesGroup
-	dba LoreleiGroup
-	dba AgathaGroup
-	dba StevenGroup
 	dba CynthiaGroup
 	dbw BANK(@), wInverGroup
 	dba CherylGroup

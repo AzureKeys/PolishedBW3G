@@ -102,10 +102,6 @@ TrainerPicPointers::
 	dba BiancaPic
 	dba TowerTycoonPic
 	dba FactoryHeadPic
-	dba JessieJamesPic
-	dba LoreleiPic
-	dba AgathaPic
-	dba StevenPic
 	dba CynthiaPic
 	dba InverPic
 	dba CherylPic

@@ -101,10 +101,6 @@ TrainerClassNames::
 	li "#mon Prof."       ; BIANCA
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD
-	li "Jessie"           ; JESSIE_JAMES
-	li "Ex-Elite"         ; LORELEI
-	li "Ex-Elite"         ; AGATHA
-	li "Rock Hound"       ; STEVEN
 	li "Researcher"       ; CYNTHIA
 	li "Psychic"          ; INVER
 	li "<PK><MN> Trainer" ; CHERYL
