@@ -92,8 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba BugManiacPic
-	dba RuinManiacPic
 	dba FirebreatherPic
 	dba JugglerPic
 	dba SagePic

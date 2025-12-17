@@ -94,8 +94,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
-	dbit MALE_BIT   ; BUG_MANIAC
-	dbit MALE_BIT   ; RUIN_MANIAC
 	dbit MALE_BIT   ; FIREBREATHER
 	dbit MALE_BIT   ; JUGGLER
 	dbit MALE_BIT   ; SAGE

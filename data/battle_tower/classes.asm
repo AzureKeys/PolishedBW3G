@@ -7,7 +7,7 @@ BattleTowerTrainers:
 	rawchar "Newman@@@@", SAILOR
 	rawchar "Hamilton@@", VETERANF
 	rawchar "Angelica@@", LADY
-	rawchar "Hare@@@@@@", RUIN_MANIAC
+	rawchar "Hare@@@@@@", WORKER
 	rawchar "Murray@@@@", SAILOR
 	rawchar "Suh@@@@@@@", ELDER
 	rawchar "Siegfried@", TAMER
@@ -24,7 +24,7 @@ BattleTowerTrainers:
 	rawchar "Dennett@@@", GENTLEMAN
 	rawchar "Vi@@@@@@@@", POLICEMAN
 	rawchar "Hiroto@@@@", WAITER
-	rawchar "Satoshi@@@", BUG_MANIAC
+	rawchar "Satoshi@@@", HARLEQUIN
 	rawchar "Adam@@@@@@", YOUNGSTER
 	rawchar "Oakley@@@@", COWGIRL
 	rawchar "Annie@@@@@", POLICEMAN
@@ -103,11 +103,11 @@ BattleTowerTrainers:
 	rawchar "Collins@@@", PKMN_RANGERM
 	rawchar "Darwin@@@@", HIKER
 	rawchar "Tatiana@@@", NURSE
-	rawchar "Pitt@@@@@@", RUIN_MANIAC
+	rawchar "Pitt@@@@@@", WORKER
 	rawchar "Tajiri@@@@", HIKER
 	rawchar "Heinlen@@@", HIKER
 	rawchar "Hughes@@@@", FISHER
-	rawchar "Kirby@@@@@", BUG_MANIAC
+	rawchar "Kirby@@@@@", HARLEQUIN
 	rawchar "Ricky@@@@@", PILOT
 	rawchar "Joan@@@@@@", GUITARIST
 	rawchar "Abed@@@@@@", PKMN_RANGERM

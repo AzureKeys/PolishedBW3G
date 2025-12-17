@@ -548,18 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Bug Maniac
-	db 0, 0 ; items
-	db 14 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_OFFENSIVE + AI_AGGRESSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Ruin Maniac
-	db 0, 0 ; items
-	db 14 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_OFFENSIVE + AI_AGGRESSIVE + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Firebreather
 	db 0, 0 ; items
 	db 15 ; base reward

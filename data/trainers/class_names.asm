@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Bug Maniac"       ; BUG_MANIAC
-	li "Ruin Maniac"      ; RUIN_MANIAC
 	li "Firebreather"     ; FIREBREATHER
 	li "Juggler"          ; JUGGLER
 	li "Sage"             ; SAGE

@@ -94,8 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba BugManiacGroup
-	dba RuinManiacGroup
 	dba FirebreatherGroup
 	dba JugglerGroup
 	dba SageGroup

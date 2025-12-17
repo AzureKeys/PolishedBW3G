@@ -645,29 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass BUG_MANIAC ; 34
-	const LOU
-	const ROB
-	const ED
-	const DOUG
-	const DANE
-	const DION
-	const STACEY
-	const ELLIS
-	const ABNER
-	const KENTA
-	const ROBBY
-	const PIERRE
-	const DYLAN
-	const KAI
-
-	trainerclass RUIN_MANIAC ; 35
-	const JONES
-	const LELAND
-	const PETRY
-	const GLYN
-	const SMILTE
-
 	trainerclass FIREBREATHER ; 36
 	const OTIS
 	const DICK
