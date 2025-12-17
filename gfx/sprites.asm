@@ -151,14 +151,14 @@ JamesSpriteGFX:: INCBIN "gfx/sprites/james.2bpp.lz"
 SECTION "JessieSpriteGFX", ROMX
 JessieSpriteGFX:: INCBIN "gfx/sprites/jessie.2bpp.lz"
 
-SECTION "ProtonSpriteGFX", ROMX
-ProtonSpriteGFX:: INCBIN "gfx/sprites/proton.2bpp.lz"
+SECTION "PlasmaSageSpriteGFX", ROMX
+PlasmaSageSpriteGFX:: INCBIN "gfx/sprites/plasma_sage.2bpp.lz"
 
-SECTION "PetrelSpriteGFX", ROMX
-PetrelSpriteGFX:: INCBIN "gfx/sprites/petrel.2bpp.lz"
+SECTION "MysterymanSpriteGFX", ROMX
+MysterymanSpriteGFX:: INCBIN "gfx/sprites/mysteryman.2bpp.lz"
 
-SECTION "ArcherSpriteGFX", ROMX
-ArcherSpriteGFX:: INCBIN "gfx/sprites/archer.2bpp.lz"
+SECTION "GenesisSpriteGFX", ROMX
+GenesisSpriteGFX:: INCBIN "gfx/sprites/genesis.2bpp.lz"
 
 SECTION "ArianaSpriteGFX", ROMX
 ArianaSpriteGFX:: INCBIN "gfx/sprites/ariana.2bpp.lz"

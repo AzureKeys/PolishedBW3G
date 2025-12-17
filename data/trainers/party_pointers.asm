@@ -94,6 +94,13 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
+	dba GialloGroup
+	dba BroniusGroup
+	dba RyokuGroup
+	dba GormGroup
+	dba MysterymanGroup
+	dba ZinzolinGroup
+	dba GenesisGroup
 	dba ProfOakGroup
 	dba ProfElmGroup
 	dba ProfIvyGroup

@@ -3211,6 +3211,115 @@ GruntFGroup:
 	end_trainer
 
 
+SECTION "GialloGroup", ROMX
+GialloGroup:
+
+	def_trainer_class GIALLO
+	def_trainer 1, "Giallo"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+	def_trainer 2, "Giallo"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	end_trainer
+
+
+SECTION "BroniusGroup", ROMX
+BroniusGroup:
+
+	def_trainer_class BRONIUS
+	def_trainer 1, "Bronius"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+	def_trainer 2, "Bronius"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	end_trainer
+
+
+SECTION "RyokuGroup", ROMX
+RyokuGroup:
+
+	def_trainer_class RYOKU
+	def_trainer 1, "Ryoku"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+	def_trainer 2, "Ryoku"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	end_trainer
+
+
+SECTION "GormGroup", ROMX
+GormGroup:
+
+	def_trainer_class GORM
+	def_trainer 1, "Gorm"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+	def_trainer 2, "Gorm"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	end_trainer
+
+
+SECTION "MysterymanGroup", ROMX
+MysterymanGroup:
+
+	def_trainer_class MYSTERYMAN
+	def_trainer 1, "Vio"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+
+SECTION "ZinzolinGroup", ROMX
+ZinzolinGroup:
+
+	def_trainer_class ZINZOLIN
+	def_trainer 1, "Zinzolin"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+	def_trainer 2, "Zinzolin"
+	tr_mon 73, RATTATA @ TWISTEDSPOON
+		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	end_trainer
+
+
+SECTION "GenesisGroup", ROMX
+GenesisGroup:
+
+	def_trainer_class GENESIS
+	def_trainer 1, "Genesis"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	end_trainer
+
+
 SECTION "ProfOakGroup", ROMX
 ProfOakGroup:
 

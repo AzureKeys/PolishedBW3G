@@ -645,6 +645,20 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
+	trainerclass GIALLO ; 5c
+	
+	trainerclass BRONIUS ; 5d
+	
+	trainerclass RYOKU ; 5e
+	
+	trainerclass GORM ; 5f
+	
+	trainerclass MYSTERYMAN ; 60
+	
+	trainerclass ZINZOLIN ; 61
+	
+	trainerclass GENESIS ; 62
+
 	trainerclass PROF_OAK ; 6e
 
 	trainerclass PROF_ELM ; 6f

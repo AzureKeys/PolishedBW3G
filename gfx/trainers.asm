@@ -253,6 +253,27 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
+SECTION "GialloPic", ROMX
+GialloPic: INCBIN "gfx/trainers/giallo.2bpp.lz"
+
+SECTION "BroniusPic", ROMX
+BroniusPic: INCBIN "gfx/trainers/bronius.2bpp.lz"
+
+SECTION "RyokuPic", ROMX
+RyokuPic: INCBIN "gfx/trainers/ryoku.2bpp.lz"
+
+SECTION "GormPic", ROMX
+GormPic: INCBIN "gfx/trainers/gorm.2bpp.lz"
+
+SECTION "MysterymanPic", ROMX
+MysterymanPic: INCBIN "gfx/trainers/mysteryman.2bpp.lz"
+
+SECTION "ZinzolinPic", ROMX
+ZinzolinPic: INCBIN "gfx/trainers/zinzolin.2bpp.lz"
+
+SECTION "GenesisPic", ROMX
+GenesisPic: INCBIN "gfx/trainers/genesis.2bpp.lz"
+
 SECTION "ProfOakPic", ROMX
 ProfOakPic: INCBIN "gfx/trainers/oak.2bpp.lz"
 

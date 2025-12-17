@@ -58,9 +58,9 @@ SpriteHeaders:
 	overworld_sprite LawrenceSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite JamesSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite JessieSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite ProtonSpriteGFX, WALKING_SPRITE, PAL_OW_TEAL
-	overworld_sprite PetrelSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite ArcherSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
+	overworld_sprite PlasmaSageSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite MysterymanSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite GenesisSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite ArianaSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite GiovanniSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
 	overworld_sprite CherylSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN

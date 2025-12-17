@@ -92,6 +92,13 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
+	dba GialloPic
+	dba BroniusPic
+	dba RyokuPic
+	dba GormPic
+	dba MysterymanPic
+	dba ZinzolinPic
+	dba GenesisPic
 	dba ProfOakPic
 	dba ProfElmPic
 	dba ProfIvyPic

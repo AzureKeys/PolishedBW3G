@@ -94,6 +94,13 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
+	dbit MALE_BIT   ; GIALLO
+	dbit MALE_BIT   ; BRONIUS
+	dbit MALE_BIT   ; RYOKU
+	dbit MALE_BIT   ; GORM
+	dbit MALE_BIT   ; MYSTERYMAN
+	dbit MALE_BIT   ; ZINZOLIN
+	dbit MALE_BIT   ; GENESIS
 	dbit MALE_BIT   ; PROF_OAK
 	dbit MALE_BIT   ; PROF_ELM
 	dbit FEMALE_BIT ; PROF_IVY

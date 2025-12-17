@@ -3,4 +3,11 @@ RocketTrainerClasses:
 	db GRUNTF
 	db PLASMA_SCIENTISTM
 	db PLASMA_SCIENTISTF
+	db GIALLO
+	db BRONIUS
+	db RYOKU
+	db GORM
+	db ZINZOLIN
+	db INFER_SAGE
+	db GENESIS
 	db -1

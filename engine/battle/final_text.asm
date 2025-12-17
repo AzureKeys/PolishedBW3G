@@ -4,12 +4,12 @@ GetFinalPkmnTextPointer::
 	ld hl, FinalTextList_TriplePhrases
 	call .findinarray
 	jr c, .rival
-	; Proton to Giovanni have a phrase for each ID
-	;ld a, [wOtherTrainerClass]
-	;cp PROTON
-	;jr c, .not_rocket
-	;cp GIOVANNI + 1
-	;jr c, .rocket
+	; Giallo to Zinzolin have a phrase for each ID
+	ld a, [wOtherTrainerClass]
+	cp GIALLO
+	jr c, .not_rocket
+	cp ZINZOLIN + 1
+	jr c, .rocket
 .not_rocket
 	; Champion and below, and Prof. Oak and above, have one unique phrase
 	dec a
@@ -33,8 +33,8 @@ GetFinalPkmnTextPointer::
 	jr .get_text
 
 .rocket:
-	; a = ([wOtherTrainerClass] - PROTON) * 2 + [wOtherTrainerID] - 1
-	;sub PROTON
+	; a = ([wOtherTrainerClass] - GIALLO) * 2 + [wOtherTrainerID] - 1
+	sub GIALLO
 	add a
 	ld b, a
 	ld a, [wOtherTrainerID]

@@ -91,6 +91,13 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
+	li "Pzma Sage"        ; GIALLO
+	li "Pzma Sage"        ; BRONIUS
+	li "Pzma Sage"        ; RYOKU
+	li "Pzma Sage"        ; GORM
+	li "Mystery Man"      ; MYSTERYMAN
+	li "Pzma Sage"        ; ZINZOLIN
+	li "Genesis"          ; GENESIS
 	li "#mon Prof."       ; PROF_OAK
 	li "#mon Prof."       ; PROF_ELM
 	li "#mon Prof."       ; PROF_IVY

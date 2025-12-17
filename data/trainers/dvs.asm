@@ -94,6 +94,13 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
+	db  80, $BB, $BB, $BB, MALE   ; giallo
+	db  96, $CC, $CC, $CC, MALE   ; bronius
+	db 112, $DD, $DD, $DD, MALE   ; ryoku
+	db 112, $CC, $CC, $CC, MALE   ; gorm
+	db 128, $EE, $EE, $EE, MALE   ; mysteryman
+	db 128, $EE, $EE, $EE, MALE   ; zinzolin
+	db 160, PERFECT_DVS,   MALE   ; genesis
 	db 252, PERFECT_DVS,   MALE   ; prof oak
 	db  32, $BB, $BB, $BB, MALE   ; prof elm
 	db 252, PERFECT_DVS,   FEMALE ; prof ivy
