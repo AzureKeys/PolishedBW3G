@@ -92,8 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba SagePic
-	dba MediumPic
 	dba KimonoGirlPic
 	dba ElderPic
 	dba SrAndJrPic

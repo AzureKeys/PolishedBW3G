@@ -645,22 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass SAGE ; 3c
-	const CHOW
-	const NICO
-	const JIN
-	const TROY
-	const JEFFREY
-	const PING
-	const EDMOND
-	const NEAL
-
-	trainerclass MEDIUM ; 3d
-	const MARTHA
-	const GRACE
-	const REBECCA
-	const DORIS
-
 	trainerclass KIMONO_GIRL ; 3e
 	const NAOKO
 	const SAYO

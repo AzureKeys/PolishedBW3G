@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Sage"             ; SAGE
-	li "Medium"           ; MEDIUM
 	li "Kimono Girl"      ; KIMONO_GIRL
 	li "Elder"            ; ELDER
 	li "Sr.& Jr."         ; SR_AND_JR

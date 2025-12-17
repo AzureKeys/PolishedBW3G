@@ -94,8 +94,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
-	dbit MALE_BIT   ; SAGE
-	dbit FEMALE_BIT ; MEDIUM
 	dbit FEMALE_BIT ; KIMONO_GIRL
 	dbit MALE_BIT   ; ELDER
 	dbit FEMALE_BIT ; SR_AND_JR

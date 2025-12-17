@@ -32,14 +32,14 @@ BattleTowerTrainers:
 	rawchar "Patricia@@", SCIENTISTF
 	rawchar "Rajan@@@@@", HIKER
 	rawchar "Diaz@@@@@@", HIKER
-	rawchar "Mozi@@@@@@", SAGE
+	rawchar "Mozi@@@@@@", JANITOR
 	rawchar "Adrian@@@@", WAITER
 	rawchar "Tomoyo@@@@", SCIENTISTF
 	rawchar "Ebony@@@@@", ACE_TRAINERF
-	rawchar "Pirsig@@@@", SAGE
+	rawchar "Pirsig@@@@", JANITOR
 	rawchar "Corey@@@@@", POLICEMAN
 	rawchar "Syd@@@@@@@", GUITARIST
-	rawchar "Ethel@@@@@", MEDIUM
+	rawchar "Ethel@@@@@", HEX_MANIAC
 	rawchar "Sagan@@@@@", SCIENTISTM
 	rawchar "Lenie@@@@@", SWIMMERF
 	rawchar "Frost@@@@@", ACE_TRAINERM
@@ -47,7 +47,7 @@ BattleTowerTrainers:
 	rawchar "Joanna@@@@", WAITRESS
 	rawchar "Newton@@@@", SCIENTISTM
 	rawchar "York@@@@@@", SOLDIER
-	rawchar "Chelsea@@@", MEDIUM
+	rawchar "Chelsea@@@", HEX_MANIAC
 	rawchar "Kuroki@@@@", HEX_MANIAC
 	rawchar "Hitesh@@@@", SCIENTISTM
 	rawchar "Abdul@@@@@", ENGINEER
