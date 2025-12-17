@@ -283,20 +283,20 @@ TowerTycoonPic: INCBIN "gfx/trainers/towertycoon.2bpp.lz"
 SECTION "FactoryHeadPic", ROMX
 FactoryHeadPic: INCBIN "gfx/trainers/factoryhead.2bpp.lz"
 
-SECTION "CynthiaPic", ROMX
-CynthiaPic: INCBIN "gfx/trainers/cynthia.2bpp.lz"
-
 SECTION "InverPic", ROMX
 InverPic: INCBIN "gfx/trainers/inver.2bpp.lz"
-
-SECTION "CaitlinPic", ROMX
-CaitlinPic: INCBIN "gfx/trainers/caitlin.2bpp.lz"
 
 SECTION "AlderPic", ROMX
 AlderPic: INCBIN "gfx/trainers/alder.2bpp.lz"
 
 SECTION "IrisPic", ROMX
 IrisPic: INCBIN "gfx/trainers/iris.2bpp.lz"
+
+SECTION "CaitlinPic", ROMX
+CaitlinPic: INCBIN "gfx/trainers/caitlin.2bpp.lz"
+
+SECTION "CynthiaPic", ROMX
+CynthiaPic: INCBIN "gfx/trainers/cynthia.2bpp.lz"
 
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"

@@ -102,11 +102,11 @@ TrainerPicPointers::
 	dba BiancaPic
 	dba TowerTycoonPic
 	dba FactoryHeadPic
-	dba CynthiaPic
 	dba InverPic
-	dba CaitlinPic
 	dba AlderPic
 	dba IrisPic
+	dba CaitlinPic
+	dba CynthiaPic
 	assert_table_length NUM_TRAINER_CLASSES
 	dba OmastarFossilPic
 	dba KabutopsFossilPic

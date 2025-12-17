@@ -104,9 +104,9 @@ TrainerGroups:
 	dba BiancaGroup
 	dba TowerTycoonGroup
 	dba FactoryHeadGroup
-	dba CynthiaGroup
 	dbw BANK(@), wInverGroup
-	dba CaitlinGroup
 	dba AlderGroup
 	dba IrisGroup
+	dba CaitlinGroup
+	dba CynthiaGroup
 	assert_table_length NUM_TRAINER_CLASSES

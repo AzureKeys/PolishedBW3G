@@ -661,19 +661,19 @@ DEF CRYS EQU __trainer_class__
 	
 	trainerclass BIANCA ; 63
 
-	trainerclass TOWERTYCOON ; 74
+	trainerclass TOWERTYCOON ; 64
 
-	trainerclass FACTORYHEAD ; 75
+	trainerclass FACTORYHEAD ; 65
 
-	trainerclass CYNTHIA ; 79
+	trainerclass INVER ; 66
 
-	trainerclass INVER ; 76
+	trainerclass ALDER ; 67
 
-	trainerclass ALDER ; 77
+	trainerclass IRIS ; 68
 
-	trainerclass IRIS ; 78
+	trainerclass CAITLIN ; 69
 
-	trainerclass CAITLIN ; 82
+	trainerclass CYNTHIA ; 6a
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 

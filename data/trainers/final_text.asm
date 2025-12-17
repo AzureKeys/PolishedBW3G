@@ -61,10 +61,10 @@ FinalText_SinglePhrases:
 	dw MysticalManFinalPkmnText
 	dw PalmerFinalPkmnText
 	dw ThortonFinalPkmnText
-	dw CynthiaFinalPkmnText
 	dw InverFinalPkmnText
 	dw CaitlinFinalPkmnText
 	dw CaitlinFinalPkmnText
 	dw CaitlinFinalPkmnText
+	dw CynthiaFinalPkmnText
 	; all trainers between CHAMPION and BIANCA are omitted
 	assert_table_length NUM_TRAINER_CLASSES - (BIANCA - CHAMPION - 1)

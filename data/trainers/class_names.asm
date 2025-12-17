@@ -101,9 +101,9 @@ TrainerClassNames::
 	li "<PK><MN> Prof."   ; BIANCA
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD
-	li "Researcher"       ; CYNTHIA
 	li "Psychic"          ; INVER
-	li "Lady"             ; CAITLIN
 	li "<PK><MN> Master"  ; ALDER
 	li "<PK><MN> Master"  ; IRIS
+	li "<PK><MN> Master"  ; CAITLIN
+	li "<PK><MN> Master"  ; CYNTHIA
 	assert_list_length NUM_TRAINER_CLASSES

@@ -9,8 +9,8 @@ BossTrainers:
 	db FACTORYHEAD
 	db ALDER
 	db IRIS
-	db CYNTHIA
 	db CAITLIN
+	db CYNTHIA
 JohtoGymLeaders:
 	db MARLON
 	db SHAUNTAL
