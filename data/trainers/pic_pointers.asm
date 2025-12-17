@@ -92,7 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba SailorPic
 	dba BurglarPic
 	dba PIPic
 	dba BoarderPic

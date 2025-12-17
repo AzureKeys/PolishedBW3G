@@ -91,7 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Sailor"           ; SAILOR
 	li "Burglar"          ; BURGLAR
 	li "Agent"            ; PI
 	li "Boarder"          ; BOARDER

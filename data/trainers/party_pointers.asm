@@ -94,7 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba SailorGroup
 	dba BurglarGroup
 	dba PIGroup
 	dba BoarderGroup

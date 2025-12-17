@@ -4,11 +4,11 @@ BattleTowerTrainers:
 	rawchar "Sawyer@@@@", SCIENTISTM
 	rawchar "Santiago@@", FISHER
 	rawchar "Mordecai@@", PI
-	rawchar "Newman@@@@", SAILOR
+	rawchar "Newman@@@@", WORKER
 	rawchar "Hamilton@@", VETERANF
 	rawchar "Angelica@@", LADY
 	rawchar "Hare@@@@@@", WORKER
-	rawchar "Murray@@@@", SAILOR
+	rawchar "Murray@@@@", WORKER
 	rawchar "Suh@@@@@@@", VETERANM
 	rawchar "Siegfried@", TAMER
 	rawchar "Scipio@@@@", BURGLAR

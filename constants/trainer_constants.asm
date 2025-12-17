@@ -645,24 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass SAILOR ; 48
-	const HUEY1
-	const HUEY2
-	const HUEY3
-	const HUEY4
-	const EUGENE
-	const TERRELL
-	const KENT
-	const ERNEST
-	const JEFF
-	const GARRETT
-	const KENNETH
-	const STANLY
-	const HARRY
-	const PARKER
-	const EDDIE
-	const HARVEY
-
 	trainerclass BURGLAR ; 4b
 	const DUNCAN
 	const ORSON

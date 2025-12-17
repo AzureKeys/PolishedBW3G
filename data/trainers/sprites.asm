@@ -92,7 +92,6 @@ BTTrainerClassSprites:
 	db SPRITE_ACE_TRAINER_M ; WORKER
 	db SPRITE_ROCKET        ; GRUNTM
 	db SPRITE_ROCKET_GIRL   ; GRUNTF
-	db SPRITE_SAILOR        ; SAILOR
 	db SPRITE_BURGLAR       ; BURGLAR
 	db SPRITE_PI            ; PI
 	db SPRITE_BOARDER       ; BOARDER
