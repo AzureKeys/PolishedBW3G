@@ -104,13 +104,6 @@ TrainerPicPointers::
 	dba FactoryHeadPic
 	dba CynthiaPic
 	dba InverPic
-	dba CherylPic
-	dba RileyPic
-	dba BuckPic
-	dba MarleyPic
-	dba MiraPic
-	dba AnabelPic
-	dba DarachPic
 	dba CaitlinPic
 	dba CandelaPic
 	dba BlanchePic

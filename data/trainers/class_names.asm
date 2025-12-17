@@ -103,13 +103,6 @@ TrainerClassNames::
 	li "FactryHead"       ; FACTORYHEAD
 	li "Researcher"       ; CYNTHIA
 	li "Psychic"          ; INVER
-	li "<PK><MN> Trainer" ; CHERYL
-	li "<PK><MN> Trainer" ; RILEY
-	li "<PK><MN> Trainer" ; BUCK
-	li "<PK><MN> Trainer" ; MARLEY
-	li "<PK><MN> Trainer" ; MIRA
-	li "<PK><MN> Trainer" ; ANABEL
-	li "Valet"            ; DARACH
 	li "Lady"             ; CAITLIN
 	li "Leader"           ; CANDELA
 	li "Leader"           ; BLANCHE

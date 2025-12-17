@@ -63,13 +63,6 @@ FinalText_SinglePhrases:
 	dw ThortonFinalPkmnText
 	dw CynthiaFinalPkmnText
 	dw InverFinalPkmnText
-	dw CherylFinalPkmnText
-	dw RileyFinalPkmnText
-	dw BuckFinalPkmnText
-	dw MarleyFinalPkmnText
-	dw MiraFinalPkmnText
-	dw AnabelFinalPkmnText
-	dw DarachFinalPkmnText
 	dw CaitlinFinalPkmnText
 	dw CandelaFinalPkmnText
 	dw BlancheFinalPkmnText

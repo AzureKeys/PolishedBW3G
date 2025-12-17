@@ -106,13 +106,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; factoryhead
 	db 252, PERFECT_DVS,   FEMALE ; cynthia
 	db 252, PERFECT_DVS,   MALE   ; inver
-	db 192, $EE, $EE, $EE, FEMALE ; cheryl
-	db 192, $EE, $EE, $EE, MALE   ; riley
-	db 192, $EE, $EE, $EE, MALE   ; buck
-	db 192, $EE, $EE, $EE, FEMALE ; marley
-	db 192, $EE, $EE, $EE, FEMALE ; mira
-	db 192, $EE, $EE, $EE, FEMALE ; anabel
-	db 252, PERFECT_DVS,   MALE   ; darach
 	db 252, PERFECT_DVS,   FEMALE ; caitlin
 	db 252, PERFECT_DVS,   FEMALE ; candela
 	db 252, PERFECT_DVS,   FEMALE ; blanche

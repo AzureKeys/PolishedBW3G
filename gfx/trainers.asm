@@ -289,27 +289,6 @@ CynthiaPic: INCBIN "gfx/trainers/cynthia.2bpp.lz"
 SECTION "InverPic", ROMX
 InverPic: INCBIN "gfx/trainers/inver.2bpp.lz"
 
-SECTION "CherylPic", ROMX
-CherylPic: INCBIN "gfx/trainers/cheryl.2bpp.lz"
-
-SECTION "RileyPic", ROMX
-RileyPic: INCBIN "gfx/trainers/riley.2bpp.lz"
-
-SECTION "BuckPic", ROMX
-BuckPic: INCBIN "gfx/trainers/buck.2bpp.lz"
-
-SECTION "MarleyPic", ROMX
-MarleyPic: INCBIN "gfx/trainers/marley.2bpp.lz"
-
-SECTION "MiraPic", ROMX
-MiraPic: INCBIN "gfx/trainers/mira.2bpp.lz"
-
-SECTION "AnabelPic", ROMX
-AnabelPic: INCBIN "gfx/trainers/anabel.2bpp.lz"
-
-SECTION "DarachPic", ROMX
-DarachPic: INCBIN "gfx/trainers/darach.2bpp.lz"
-
 SECTION "CaitlinPic", ROMX
 CaitlinPic: INCBIN "gfx/trainers/caitlin.2bpp.lz"
 

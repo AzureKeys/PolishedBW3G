@@ -106,13 +106,6 @@ TrainerGroups:
 	dba FactoryHeadGroup
 	dba CynthiaGroup
 	dbw BANK(@), wInverGroup
-	dba CherylGroup
-	dba RileyGroup
-	dba BuckGroup
-	dba MarleyGroup
-	dba MiraGroup
-	dba AnabelGroup
-	dba DarachGroup
 	dba CaitlinGroup
 	dba CandelaGroup
 	dba BlancheGroup

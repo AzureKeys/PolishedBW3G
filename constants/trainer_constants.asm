@@ -667,21 +667,7 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass CYNTHIA ; 79
 
-	trainerclass INVER ; 7a
-
-	trainerclass CHERYL ; 7b
-
-	trainerclass RILEY ; 7c
-
-	trainerclass BUCK ; 7d
-
-	trainerclass MARLEY ; 7e
-
-	trainerclass MIRA ; 7f
-
-	trainerclass ANABEL ; 80
-
-	trainerclass DARACH ; 81
+	trainerclass INVER ; 76
 
 	trainerclass CAITLIN ; 82
 
