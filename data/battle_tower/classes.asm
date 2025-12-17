@@ -28,7 +28,7 @@ BattleTowerTrainers:
 	rawchar "Adam@@@@@@", YOUNGSTER
 	rawchar "Oakley@@@@", PKMN_BREEDERF
 	rawchar "Annie@@@@@", POLICEMAN
-	rawchar "Park@@@@@@", ENGINEER
+	rawchar "Park@@@@@@", WORKER
 	rawchar "Patricia@@", SCIENTISTF
 	rawchar "Rajan@@@@@", HIKER
 	rawchar "Diaz@@@@@@", HIKER
@@ -50,7 +50,7 @@ BattleTowerTrainers:
 	rawchar "Chelsea@@@", HEX_MANIAC
 	rawchar "Kuroki@@@@", HEX_MANIAC
 	rawchar "Hitesh@@@@", SCIENTISTM
-	rawchar "Abdul@@@@@", ENGINEER
+	rawchar "Abdul@@@@@", WORKER
 	rawchar "Emily@@@@@", LASS
 	rawchar "Hopper@@@@", VETERANF
 	rawchar "Marc@@@@@@", HIKER
@@ -79,7 +79,7 @@ BattleTowerTrainers:
 	rawchar "Tara@@@@@@", SWIMMERF
 	rawchar "Morse@@@@@", JANITOR
 	rawchar "Phelps@@@@", SWIMMERM
-	rawchar "Zeke@@@@@@", DRAGON_TAMER
+	rawchar "Zeke@@@@@@", VETERANM
 	rawchar "Bisom@@@@@", TEACHER_F
 	rawchar "Dyrland@@@", TEACHER_M
 	rawchar "Nadia@@@@@", PKMN_BREEDERF
@@ -125,7 +125,7 @@ BattleTowerTrainers:
 	rawchar "Remy@@@@@@", VETERANF
 	rawchar "Drake@@@@@", RICH_BOY
 	rawchar "Mori@@@@@@", PKMN_RANGERF
-	rawchar "Jorge@@@@@", DRAGON_TAMER
+	rawchar "Jorge@@@@@", VETERANM
 	rawchar "Lavigne@@@", SCHOOL_KIDF
 	rawchar "Paul@@@@@@", GUITARIST
 	rawchar "Holmes@@@@", WORKER

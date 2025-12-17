@@ -645,25 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass DRAGON_TAMER ; 53
-	const PAUL
-	const DARIN
-	const ADAM
-	const ERICK
-	const KAZU
-	const AEGON
-
-	trainerclass ENGINEER ; 54
-	const SMITH
-	const BERNIE
-	const CAMDEN
-	const LANG
-	const HUGO
-	const HOWARD
-	const GRADEN
-	const GUSTAV
-	const NICOLAS
-
 	trainerclass TEACHER_F ; 55
 	const COLETTE
 	const HILLARY

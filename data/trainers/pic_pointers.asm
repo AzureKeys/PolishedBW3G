@@ -92,8 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba DragonTamerPic
-	dba EngineerPic
 	dba TeacherFPic
 	dba TeacherMPic
 	dba TamerPic

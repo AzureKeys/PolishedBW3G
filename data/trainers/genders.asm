@@ -94,8 +94,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
-	dbit MALE_BIT   ; DRAGON_TAMER
-	dbit MALE_BIT   ; ENGINEER
 	dbit FEMALE_BIT ; TEACHER_F
 	dbit MALE_BIT   ; TEACHER_M
 	dbit MALE_BIT   ; TAMER
