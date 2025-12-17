@@ -58,7 +58,7 @@
 	const SPRITE_GENESIS ; 38
 	const SPRITE_BIANCA ; 39
 	const SPRITE_ALDER ; 3a
-	const SPRITE_CHERYL ; 3b
+	const SPRITE_IRIS ; 3b
 	const SPRITE_RILEY ; 3c
 	const SPRITE_BUCK ; 3d
 	const SPRITE_MARLEY ; 3e

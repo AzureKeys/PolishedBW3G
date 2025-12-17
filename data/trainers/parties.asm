@@ -3427,6 +3427,20 @@ AlderGroup:
 	end_trainer
 
 
+SECTION "IrisGroup", ROMX
+IrisGroup:
+
+	def_trainer_class IRIS
+	def_trainer 1, "Iris"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+
+
 SECTION "CaitlinGroup", ROMX
 CaitlinGroup:
 

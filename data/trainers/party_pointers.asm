@@ -108,4 +108,5 @@ TrainerGroups:
 	dbw BANK(@), wInverGroup
 	dba CaitlinGroup
 	dba AlderGroup
+	dba IrisGroup
 	assert_table_length NUM_TRAINER_CLASSES

@@ -105,4 +105,5 @@ TrainerClassNames::
 	li "Psychic"          ; INVER
 	li "Lady"             ; CAITLIN
 	li "<PK><MN> Master"  ; ALDER
+	li "<PK><MN> Master"  ; IRIS
 	assert_list_length NUM_TRAINER_CLASSES

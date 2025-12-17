@@ -106,6 +106,7 @@ TrainerPicPointers::
 	dba InverPic
 	dba CaitlinPic
 	dba AlderPic
+	dba IrisPic
 	assert_table_length NUM_TRAINER_CLASSES
 	dba OmastarFossilPic
 	dba KabutopsFossilPic

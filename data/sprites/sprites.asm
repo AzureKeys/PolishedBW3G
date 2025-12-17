@@ -63,7 +63,7 @@ SpriteHeaders:
 	overworld_sprite GenesisSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite BiancaSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite AlderSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite CherylSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite IrisSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE_D
 	overworld_sprite RileySpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BuckSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MarleySpriteGFX, WALKING_SPRITE, PAL_OW_BLACK

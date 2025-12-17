@@ -166,8 +166,8 @@ BiancaSpriteGFX:: INCBIN "gfx/sprites/bianca.2bpp.lz"
 SECTION "AlderSpriteGFX", ROMX
 AlderSpriteGFX:: INCBIN "gfx/sprites/alder.2bpp.lz"
 
-SECTION "CherylSpriteGFX", ROMX
-CherylSpriteGFX:: INCBIN "gfx/sprites/cheryl.2bpp.lz"
+SECTION "IrisSpriteGFX", ROMX
+IrisSpriteGFX:: INCBIN "gfx/sprites/iris.2bpp.lz"
 
 SECTION "RileySpriteGFX", ROMX
 RileySpriteGFX:: INCBIN "gfx/sprites/riley.2bpp.lz"
