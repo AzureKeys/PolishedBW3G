@@ -548,18 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Burglar
-	db 0, 0 ; items
-	db 20 ; base reward
-	dw AI_BASIC + AI_OFFENSIVE + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; PI
-	db 0, 0 ; items
-	db 20 ; base reward
-	dw AI_BASIC + AI_OFFENSIVE + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Boarder
 	db 0, 0 ; items
 	db 18 ; base reward

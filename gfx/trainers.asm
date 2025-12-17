@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "BurglarPic", ROMX
-BurglarPic: INCBIN "gfx/trainers/burglar.2bpp.lz"
-
-SECTION "PIPic", ROMX
-PIPic: INCBIN "gfx/trainers/pi.2bpp.lz"
-
 SECTION "BoarderPic", ROMX
 BoarderPic: INCBIN "gfx/trainers/boarder.2bpp.lz"
 

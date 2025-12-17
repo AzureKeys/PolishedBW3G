@@ -645,16 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass BURGLAR ; 4b
-	const DUNCAN
-	const ORSON
-	const COREY
-	const PETE
-	const LOUIS
-
-	trainerclass PI ; 4c
-	const LOOKER
-
 	trainerclass BOARDER ; 4f
 	const RONALD
 	const BRAD

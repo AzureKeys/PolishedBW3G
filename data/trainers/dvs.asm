@@ -94,8 +94,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
-	db  56, $DD, $DD, $DD, MALE   ; burglar
-	db  56, $DD, $DD, $DD, MALE   ; pi
 	db  56, $DD, $DD, $DD, MALE   ; boarder
 	db  56, $DD, $DD, $DD, FEMALE ; skier
 	db  72, $DF, $DF, $DD, MALE   ; dragon tamer

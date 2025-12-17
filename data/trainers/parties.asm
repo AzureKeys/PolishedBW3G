@@ -3211,50 +3211,6 @@ GruntFGroup:
 	end_trainer
 
 
-SECTION "BurglarGroup", ROMX
-BurglarGroup:
-
-	def_trainer_class BURGLAR
-	def_trainer DUNCAN, "Duncan"
-	tr_mon 34, KOFFING
-	tr_mon 35, MAGMAR
-	tr_mon 34, WEEZING
-	end_trainer
-
-	def_trainer ORSON, "Orson"
-	tr_mon 36, GROWLITHE
-	tr_mon 34, WEEZING
-	end_trainer
-
-	def_trainer COREY, "Corey"
-	tr_mon 44, KOFFING, MALE
-	tr_mon 46, WEEZING, MALE
-	tr_mon 46, MAGMAR, MALE
-	tr_mon 48, PERSIAN @ AMULET_COIN, MALE | ALOLAN_FORM
-	end_trainer
-
-	def_trainer PETE, "Pete"
-	tr_mon 59, RATTATA
-	tr_mon 62, MAGMAR
-	end_trainer
-
-	def_trainer LOUIS, "Louis"
-	tr_mon 62, ARCANINE
-	tr_mon 62, RAPIDASH
-	end_trainer
-
-
-SECTION "PIGroup", ROMX
-PIGroup:
-
-	def_trainer_class PI
-	def_trainer LOOKER, "Looker"
-	tr_mon 48, ARCANINE
-	tr_mon 48, ELECTABUZZ
-	tr_mon 50, POLITOED
-	end_trainer
-
-
 SECTION "BoarderGroup", ROMX
 BoarderGroup:
 

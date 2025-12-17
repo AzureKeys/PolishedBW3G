@@ -3,7 +3,7 @@ BattleTowerTrainers:
 	rawchar "Yayoi@@@@@", ARTIST
 	rawchar "Sawyer@@@@", SCIENTISTM
 	rawchar "Santiago@@", FISHER
-	rawchar "Mordecai@@", PI
+	rawchar "Mordecai@@", WORKER
 	rawchar "Newman@@@@", WORKER
 	rawchar "Hamilton@@", VETERANF
 	rawchar "Angelica@@", LADY
@@ -11,7 +11,7 @@ BattleTowerTrainers:
 	rawchar "Murray@@@@", WORKER
 	rawchar "Suh@@@@@@@", VETERANM
 	rawchar "Siegfried@", TAMER
-	rawchar "Scipio@@@@", BURGLAR
+	rawchar "Scipio@@@@", JANITOR
 	rawchar "Walter@@@@", VETERANM
 	rawchar "Eleni@@@@@", BATTLE_GIRL
 	rawchar "Ichigo@@@@", BAKER
@@ -62,7 +62,7 @@ BattleTowerTrainers:
 	rawchar "Daniel@@@@", TAMER
 	rawchar "Toshi@@@@@", BLACKBELT_T
 	rawchar "Charlie@@@", HARLEQUIN
-	rawchar "Fagin@@@@@", BURGLAR
+	rawchar "Fagin@@@@@", JANITOR
 	rawchar "Buckley@@@", RICH_BOY
 	rawchar "Mateo@@@@@", VETERANM
 	rawchar "Johnson@@@", SOLDIER
@@ -128,7 +128,7 @@ BattleTowerTrainers:
 	rawchar "Jorge@@@@@", DRAGON_TAMER
 	rawchar "Lavigne@@@", SCHOOL_KIDF
 	rawchar "Paul@@@@@@", GUITARIST
-	rawchar "Holmes@@@@", PI
+	rawchar "Holmes@@@@", WORKER
 	rawchar "Cramer@@@@", NURSE
 	rawchar "Mako@@@@@@", PKMN_BREEDERF
 	rawchar "Argo@@@@@@", PILOT
