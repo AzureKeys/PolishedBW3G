@@ -160,8 +160,8 @@ MysterymanSpriteGFX:: INCBIN "gfx/sprites/mysteryman.2bpp.lz"
 SECTION "GenesisSpriteGFX", ROMX
 GenesisSpriteGFX:: INCBIN "gfx/sprites/genesis.2bpp.lz"
 
-SECTION "ArianaSpriteGFX", ROMX
-ArianaSpriteGFX:: INCBIN "gfx/sprites/ariana.2bpp.lz"
+SECTION "BiancaSpriteGFX", ROMX
+BiancaSpriteGFX:: INCBIN "gfx/sprites/bianca.2bpp.lz"
 
 SECTION "GiovanniSpriteGFX", ROMX
 GiovanniSpriteGFX:: INCBIN "gfx/sprites/giovanni.2bpp.lz"

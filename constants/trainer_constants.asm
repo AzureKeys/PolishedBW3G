@@ -658,12 +658,8 @@ DEF CRYS EQU __trainer_class__
 	trainerclass ZINZOLIN ; 61
 	
 	trainerclass GENESIS ; 62
-
-	trainerclass PROF_OAK ; 6e
-
-	trainerclass PROF_ELM ; 6f
-
-	trainerclass PROF_IVY ; 70
+	
+	trainerclass BIANCA ; 63
 
 	trainerclass MYSTICALMAN ; 71
 	const EUSINE

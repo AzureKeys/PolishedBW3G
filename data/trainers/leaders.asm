@@ -4,6 +4,7 @@ BossTrainers:
 	db ELESA
 	db COLRESS
 	db CHAMPION
+	db BIANCA
 	db TOWERTYCOON
 	db FACTORYHEAD
 	db CYNTHIA

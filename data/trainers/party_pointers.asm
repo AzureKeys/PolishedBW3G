@@ -101,9 +101,7 @@ TrainerGroups:
 	dba MysterymanGroup
 	dba ZinzolinGroup
 	dba GenesisGroup
-	dba ProfOakGroup
-	dba ProfElmGroup
-	dba ProfIvyGroup
+	dba BiancaGroup
 	dba MysticalmanGroup
 	dba KarateKingGroup
 	dba TowerTycoonGroup

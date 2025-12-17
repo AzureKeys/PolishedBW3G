@@ -3320,83 +3320,15 @@ GenesisGroup:
 	end_trainer
 
 
-SECTION "ProfOakGroup", ROMX
-ProfOakGroup:
+SECTION "BiancaGroup", ROMX
+BiancaGroup:
 
-	def_trainer_class PROF_OAK
-	def_trainer 1, "Oak"
-	tr_mon 78, RATTATA @ CHOICE_SCARF, MALE
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_moves DOUBLE_EDGE, EARTHQUAKE, ZEN_HEADBUTT, STONE_EDGE
-	tr_mon 76, RATTATA @ BERSERK_GENE, FEMALE
-		tr_extra HUSTLE, ATK_UP_SATK_DOWN
-		tr_moves BRAVE_BIRD, HI_JUMP_KICK, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 80, RATTATA @ BIG_ROOT, FEMALE
-		tr_extra HUSTLE, SDEF_UP_ATK_DOWN
-		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
-	tr_mon 80, RATTATA @ LIFE_ORB, MALE
+	def_trainer_class BIANCA
+	def_trainer 1, "Bianca"
+	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 252 Atk, 4 Def, 252 Spe
-		tr_moves FLARE_BLITZ, DRAGON_CLAW, CRUNCH, DRAGON_DANCE
-	tr_mon 80, RATTATA @ WHITE_HERB, MALE
-		tr_extra HUSTLE, SDEF_UP_SATK_DOWN
-		tr_moves WATERFALL, IRON_HEAD, CLOSE_COMBAT, SHELL_SMASH
-	tr_mon 82, NIDOKING @ LIFE_ORB, MALE
-		tr_extra SPE_UP_SATK_DOWN
-		tr_evs 252 Atk, 4 Def, 252 Spe
-		tr_moves POISON_JAB, EARTHQUAKE, ICE_PUNCH, THUNDERPUNCH
-	end_trainer
-
-
-SECTION "ProfElmGroup", ROMX
-ProfElmGroup:
-
-	def_trainer_class PROF_ELM
-	def_trainer 1, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer 2, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 3, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
-	end_trainer
-
-	def_trainer 3, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 4, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 6, RATTATA
-	end_trainer
-
-	def_trainer 4, "Elm"
-	tr_mon LEVEL_FROM_BADGES + 7, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
-	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS
-	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	tr_mon LEVEL_FROM_BADGES + 9, RATTATA
-	end_trainer
-
-
-SECTION "ProfIvyGroup", ROMX
-ProfIvyGroup:
-
-	def_trainer_class PROF_IVY
-	def_trainer 1, "Ivy"
-	tr_mon 65, RATTATA
-	tr_mon 64, POLITOED
-	tr_mon 64, RATTATA
-	tr_mon 63, RATTATA
-	tr_mon 63, NIDOQUEEN
-	tr_mon 66, RATTATA
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
 

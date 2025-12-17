@@ -98,9 +98,7 @@ TrainerClassNames::
 	li "Mystery Man"      ; MYSTERYMAN
 	li "Pzma Sage"        ; ZINZOLIN
 	li "Genesis"          ; GENESIS
-	li "#mon Prof."       ; PROF_OAK
-	li "#mon Prof."       ; PROF_ELM
-	li "#mon Prof."       ; PROF_IVY
+	li "#mon Prof."       ; BIANCA
 	li "Mystery Man"      ; MYSTICALMAN
 	li "Karate King"      ; KARATE_KING
 	li "TowerTycoon"      ; TOWERTYCOON

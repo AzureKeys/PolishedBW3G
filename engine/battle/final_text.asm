@@ -11,13 +11,13 @@ GetFinalPkmnTextPointer::
 	cp ZINZOLIN + 1
 	jr c, .rocket
 .not_rocket
-	; Champion and below, and Prof. Oak and above, have one unique phrase
+	; Champion and below, and Bianca and above, have one unique phrase
 	dec a
 	cp CHAMPION
 	jr c, .single_phrase
-	cp PROF_OAK - 1
+	cp BIANCA - 1
 	jr c, .nothing
-	sub PROF_OAK - CHAMPION - 1
+	sub BIANCA - CHAMPION - 1
 	jr .single_phrase
 
 .nothing:

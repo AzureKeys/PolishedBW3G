@@ -101,9 +101,7 @@ TrainerClassDVsAndPersonality:
 	db 128, $EE, $EE, $EE, MALE   ; mysteryman
 	db 128, $EE, $EE, $EE, MALE   ; zinzolin
 	db 160, PERFECT_DVS,   MALE   ; genesis
-	db 252, PERFECT_DVS,   MALE   ; prof oak
-	db  32, $BB, $BB, $BB, MALE   ; prof elm
-	db 252, PERFECT_DVS,   FEMALE ; prof ivy
+	db 252, PERFECT_DVS,   FEMALE ; bianca
 	db  88, $DD, $DD, $DD, MALE   ; mysticalman
 	db  88, PERFECT_DVS,   MALE   ; karate king
 	db 252, PERFECT_DVS,   MALE   ; towertycoon

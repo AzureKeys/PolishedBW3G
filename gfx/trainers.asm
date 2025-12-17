@@ -274,14 +274,8 @@ ZinzolinPic: INCBIN "gfx/trainers/zinzolin.2bpp.lz"
 SECTION "GenesisPic", ROMX
 GenesisPic: INCBIN "gfx/trainers/genesis.2bpp.lz"
 
-SECTION "ProfOakPic", ROMX
-ProfOakPic: INCBIN "gfx/trainers/oak.2bpp.lz"
-
-SECTION "ProfElmPic", ROMX
-ProfElmPic: INCBIN "gfx/trainers/elm.2bpp.lz"
-
-SECTION "ProfIvyPic", ROMX
-ProfIvyPic: INCBIN "gfx/trainers/ivy.2bpp.lz"
+SECTION "BiancaPic", ROMX
+BiancaPic: INCBIN "gfx/trainers/bianca.2bpp.lz"
 
 SECTION "MysticalmanPic", ROMX
 MysticalmanPic: INCBIN "gfx/trainers/mysticalman.2bpp.lz"

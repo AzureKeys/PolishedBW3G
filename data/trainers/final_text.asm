@@ -58,9 +58,7 @@ FinalText_SinglePhrases:
 	dw KarenFinalPkmnText
 	dw ChampionFinalPkmnText
 	; ...
-	dw ProfOakFinalPkmnText
-	dw ProfElmFinalPkmnText
-	dw ProfIvyFinalPkmnText
+	dw MysticalManFinalPkmnText
 	dw MysticalManFinalPkmnText
 	dw KarateKingFinalPkmnText
 	dw PalmerFinalPkmnText
@@ -95,5 +93,5 @@ FinalText_SinglePhrases:
 	dw ImakuniFinalPkmnText
 	dw LawrenceFinalPkmnText
 	dw ReiFinalPkmnText
-	; all trainers between CHAMPION and PROF_OAK are omitted
-	assert_table_length NUM_TRAINER_CLASSES - (PROF_OAK - CHAMPION - 1)
+	; all trainers between CHAMPION and BIANCA are omitted
+	assert_table_length NUM_TRAINER_CLASSES - (BIANCA - CHAMPION - 1)

@@ -99,9 +99,7 @@ TrainerPicPointers::
 	dba MysterymanPic
 	dba ZinzolinPic
 	dba GenesisPic
-	dba ProfOakPic
-	dba ProfElmPic
-	dba ProfIvyPic
+	dba BiancaPic
 	dba MysticalmanPic
 	dba KarateKingPic
 	dba TowerTycoonPic
