@@ -6,7 +6,7 @@ BattleTowerTrainers:
 	rawchar "Mordecai@@", PI
 	rawchar "Newman@@@@", SAILOR
 	rawchar "Hamilton@@", VETERANF
-	rawchar "Angelica@@", BEAUTY
+	rawchar "Angelica@@", LADY
 	rawchar "Hare@@@@@@", RUIN_MANIAC
 	rawchar "Murray@@@@", SAILOR
 	rawchar "Suh@@@@@@@", ELDER
@@ -87,7 +87,7 @@ BattleTowerTrainers:
 	rawchar "Frida@@@@@", ARTIST
 	rawchar "Nimue@@@@@", LADY
 	rawchar "Alice@@@@@", SIGHTSEERF
-	rawchar "Valentine@", BEAUTY
+	rawchar "Valentine@", LADY
 	rawchar "Uri@@@@@@@", PSYCHICM_T
 	rawchar "Wong@@@@@@", FIREBREATHER
 	rawchar "Chiyo@@@@@", KIMONO_GIRL

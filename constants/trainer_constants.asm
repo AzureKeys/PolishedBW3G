@@ -645,22 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass BEAUTY ; 33
-	const VICTORIA
-	const SAMANTHA
-	const CASSIE
-	const JULIA
-	const VALENCIA
-	const OLIVIA
-	const CALLIE
-	const CASSANDRA
-	const CHARLOTTE
-	const BRIDGET
-	const VERONICA
-	const BEAUTY_NICOLE
-	const RACHAEL
-	const IOANA
-
 	trainerclass BUG_MANIAC ; 34
 	const LOU
 	const ROB

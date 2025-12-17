@@ -548,12 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Beauty
-	db 0, 0 ; items
-	db 20 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Bug Maniac
 	db 0, 0 ; items
 	db 14 ; base reward
