@@ -20,13 +20,13 @@ BattleTowerTrainers:
 	rawchar "McManus@@@", HIKER
 	rawchar "Daryl@@@@@", SWIMMERM
 	rawchar "Kim@@@@@@@", WORKER
-	rawchar "Wilder@@@@", COWGIRL
+	rawchar "Wilder@@@@", PKMN_BREEDERF
 	rawchar "Dennett@@@", GENTLEMAN
 	rawchar "Vi@@@@@@@@", POLICEMAN
 	rawchar "Hiroto@@@@", WAITER
 	rawchar "Satoshi@@@", HARLEQUIN
 	rawchar "Adam@@@@@@", YOUNGSTER
-	rawchar "Oakley@@@@", COWGIRL
+	rawchar "Oakley@@@@", PKMN_BREEDERF
 	rawchar "Annie@@@@@", POLICEMAN
 	rawchar "Park@@@@@@", ENGINEER
 	rawchar "Patricia@@", SCIENTISTF
@@ -82,7 +82,7 @@ BattleTowerTrainers:
 	rawchar "Zeke@@@@@@", DRAGON_TAMER
 	rawchar "Bisom@@@@@", TEACHER_F
 	rawchar "Dyrland@@@", TEACHER_M
-	rawchar "Nadia@@@@@", BREEDER
+	rawchar "Nadia@@@@@", PKMN_BREEDERF
 	rawchar "Hatcher@@@", GENTLEMAN
 	rawchar "Frida@@@@@", ARTIST
 	rawchar "Nimue@@@@@", LADY
@@ -130,7 +130,7 @@ BattleTowerTrainers:
 	rawchar "Paul@@@@@@", GUITARIST
 	rawchar "Holmes@@@@", PI
 	rawchar "Cramer@@@@", NURSE
-	rawchar "Mako@@@@@@", BREEDER
+	rawchar "Mako@@@@@@", PKMN_BREEDERF
 	rawchar "Argo@@@@@@", PILOT
 	assert_table_length BATTLETOWER_NUM_TRAINERS
 	rawchar "Palmer@@@@", TOWERTYCOON

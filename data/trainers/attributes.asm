@@ -548,18 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Breeder
-	db SUPER_POTION, 0 ; items
-	db 16 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_CAUTIOUS + AI_STATUS
-	dw CONTEXT_USE + SWITCH_RARELY
-
-; Cowgirl
-	db MOOMOO_MILK, 0 ; items
-	db 14 ; base reward
-	dw AI_BASIC + AI_OFFENSIVE + AI_OPPORTUNIST + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Sailor
 	db 0, 0 ; items
 	db 16 ; base reward

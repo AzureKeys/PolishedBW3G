@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Breeder"          ; BREEDER
-	li "Cowgirl"          ; COWGIRL
 	li "Sailor"           ; SAILOR
 	li "Burglar"          ; BURGLAR
 	li "Agent"            ; PI

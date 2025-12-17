@@ -645,19 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass BREEDER ; 45
-	const JULIE
-	const THERESA
-	const JODY
-	const CARLENE
-	const SOPHIE
-	const BRENDA
-
-	trainerclass COWGIRL ; 47
-	const ANNIE
-	const APRIL
-	const DANIELA
-
 	trainerclass SAILOR ; 48
 	const HUEY1
 	const HUEY2
