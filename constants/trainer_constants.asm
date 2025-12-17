@@ -645,27 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass FIREBREATHER ; 36
-	const OTIS
-	const DICK
-	const NED
-	const BURT
-	const BILL
-	const WALT
-	const RAY
-	const LYLE
-	const JAY
-	const OLEG
-	const TALA
-
-	trainerclass JUGGLER ; 37
-	const IRWIN1
-;	const IRWIN2
-;	const IRWIN3
-;	const IRWIN4
-	const FRITZ
-	const HORTON
-
 	trainerclass SAGE ; 3c
 	const CHOW
 	const NICO

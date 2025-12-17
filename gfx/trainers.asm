@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "FirebreatherPic", ROMX
-FirebreatherPic: INCBIN "gfx/trainers/firebreather.2bpp.lz"
-
-SECTION "JugglerPic", ROMX
-JugglerPic: INCBIN "gfx/trainers/juggler.2bpp.lz"
-
 SECTION "SagePic", ROMX
 SagePic: INCBIN "gfx/trainers/sage.2bpp.lz"
 

@@ -93,8 +93,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; worker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
-	db MUSIC_HIKER_ENCOUNTER ; firebreather
-	db MUSIC_POKEMANIAC_ENCOUNTER ; juggler
 	db MUSIC_SAGE_ENCOUNTER ; sage
 	db MUSIC_SAGE_ENCOUNTER ; medium
 	db MUSIC_KIMONO_ENCOUNTER ; kimono_girl

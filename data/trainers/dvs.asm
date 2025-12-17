@@ -94,8 +94,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
-	db  48, $CC, $CC, $CC, MALE   ; firebreather
-	db  48, $CC, $CC, $CC, MALE   ; juggler
 	db  48, $CC, $CC, $CC, MALE   ; sage
 	db  48, $CC, $CC, $CC, FEMALE ; medium
 	db  56, $DD, $DD, $DD, FEMALE ; kimono girl

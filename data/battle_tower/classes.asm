@@ -19,7 +19,7 @@ BattleTowerTrainers:
 	rawchar "Wayne@@@@@", SCHOOL_KIDM
 	rawchar "McManus@@@", HIKER
 	rawchar "Daryl@@@@@", SWIMMERM
-	rawchar "Kim@@@@@@@", FIREBREATHER
+	rawchar "Kim@@@@@@@", WORKER
 	rawchar "Wilder@@@@", COWGIRL
 	rawchar "Dennett@@@", GENTLEMAN
 	rawchar "Vi@@@@@@@@", POLICEMAN
@@ -61,7 +61,7 @@ BattleTowerTrainers:
 	rawchar "Monica@@@@", WAITRESS
 	rawchar "Daniel@@@@", TAMER
 	rawchar "Toshi@@@@@", BLACKBELT_T
-	rawchar "Charlie@@@", JUGGLER
+	rawchar "Charlie@@@", HARLEQUIN
 	rawchar "Fagin@@@@@", BURGLAR
 	rawchar "Buckley@@@", RICH_BOY
 	rawchar "Mateo@@@@@", VETERANM
@@ -89,7 +89,7 @@ BattleTowerTrainers:
 	rawchar "Alice@@@@@", SIGHTSEERF
 	rawchar "Valentine@", LADY
 	rawchar "Uri@@@@@@@", PSYCHICM_T
-	rawchar "Wong@@@@@@", FIREBREATHER
+	rawchar "Wong@@@@@@", WORKER
 	rawchar "Chiyo@@@@@", KIMONO_GIRL
 	rawchar "Sidney@@@@", BIKER
 	rawchar "Nerai@@@@@", HIKER
@@ -113,7 +113,7 @@ BattleTowerTrainers:
 	rawchar "Abed@@@@@@", PKMN_RANGERM
 	rawchar "Amelia@@@@", SIGHTSEERF
 	rawchar "Deedee@@@@", GUITARIST
-	rawchar "Garrett@@@", JUGGLER
+	rawchar "Garrett@@@", HARLEQUIN
 	rawchar "Molly@@@@@", BAKER
 	rawchar "Salim@@@@@", ROUGHNECK
 	rawchar "Dijkstra@@", VETERANM
