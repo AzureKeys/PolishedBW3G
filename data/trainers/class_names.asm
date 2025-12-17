@@ -99,8 +99,6 @@ TrainerClassNames::
 	li "Pzma Sage"        ; ZINZOLIN
 	li "Genesis"          ; GENESIS
 	li "#mon Prof."       ; BIANCA
-	li "Mystery Man"      ; MYSTICALMAN
-	li "Karate King"      ; KARATE_KING
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD
 	li "Jessie"           ; JESSIE_JAMES

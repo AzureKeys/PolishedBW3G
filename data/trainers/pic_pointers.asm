@@ -100,8 +100,6 @@ TrainerPicPointers::
 	dba ZinzolinPic
 	dba GenesisPic
 	dba BiancaPic
-	dba MysticalmanPic
-	dba KarateKingPic
 	dba TowerTycoonPic
 	dba FactoryHeadPic
 	dba JessieJamesPic

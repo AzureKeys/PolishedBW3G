@@ -277,12 +277,6 @@ GenesisPic: INCBIN "gfx/trainers/genesis.2bpp.lz"
 SECTION "BiancaPic", ROMX
 BiancaPic: INCBIN "gfx/trainers/bianca.2bpp.lz"
 
-SECTION "MysticalmanPic", ROMX
-MysticalmanPic: INCBIN "gfx/trainers/mysticalman.2bpp.lz"
-
-SECTION "KarateKingPic", ROMX
-KarateKingPic: INCBIN "gfx/trainers/karate_king.2bpp.lz"
-
 SECTION "TowerTycoonPic", ROMX
 TowerTycoonPic: INCBIN "gfx/trainers/towertycoon.2bpp.lz"
 

@@ -102,8 +102,6 @@ TrainerGroups:
 	dba ZinzolinGroup
 	dba GenesisGroup
 	dba BiancaGroup
-	dba MysticalmanGroup
-	dba KarateKingGroup
 	dba TowerTycoonGroup
 	dba FactoryHeadGroup
 	dba JessieJamesGroup

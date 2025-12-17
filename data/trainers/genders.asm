@@ -102,8 +102,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ZINZOLIN
 	dbit MALE_BIT   ; GENESIS
 	dbit FEMALE_BIT ; BIANCA
-	dbit FEMALE_BIT ; MYSTICALMAN
-	dbit MALE_BIT   ; KARATE_KING
 	dbit MALE_BIT   ; TOWERTYCOON
 	dbit MALE_BIT   ; FACTORYHEAD
 	end_bit_array FACTORYHEAD

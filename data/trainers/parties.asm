@@ -3332,41 +3332,6 @@ BiancaGroup:
 	end_trainer
 
 
-SECTION "MysticalmanGroup", ROMX
-MysticalmanGroup:
-
-	def_trainer_class MYSTICALMAN
-	def_trainer EUSINE, "Eusine"
-	tr_mon 27, RATTATA @ EVIOLITE, MALE
-		tr_extra HUSTLE
-		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
-	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
-		tr_extra LEVITATE
-		tr_evs 80 SAt, 80 Spe
-		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
-	tr_mon 28, RATTATA @ MAGNET, MALE
-		tr_extra HUSTLE, SHINY
-		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
-	tr_mon 29, RATTATA @ TWISTEDSPOON, MALE
-		tr_extra HUSTLE
-		tr_moves REFLECT, LIGHT_SCREEN, HP_FIGHTING, PSYBEAM
-	end_trainer
-
-
-SECTION "KarateKingGroup", ROMX
-KarateKingGroup:
-
-	def_trainer_class KARATE_KING
-	def_trainer KIYO, "Kiyo"
-	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ BLACK_BELT
-		tr_moves BULK_UP, FOCUS_ENERGY, HI_JUMP_KICK, FORESIGHT
-	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ KINGS_ROCK
-		tr_moves THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MACH_PUNCH
-	tr_mon LEVEL_FROM_BADGES + 11, RATTATA @ FOCUS_BAND
-		tr_moves BULK_UP, DOUBLE_KICK, RAPID_SPIN, COUNTER
-	end_trainer
-
-
 SECTION "TowerTycoonGroup", ROMX
 TowerTycoonGroup:
 

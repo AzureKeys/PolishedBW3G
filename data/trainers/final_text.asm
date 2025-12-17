@@ -59,8 +59,6 @@ FinalText_SinglePhrases:
 	dw ChampionFinalPkmnText
 	; ...
 	dw MysticalManFinalPkmnText
-	dw MysticalManFinalPkmnText
-	dw KarateKingFinalPkmnText
 	dw PalmerFinalPkmnText
 	dw ThortonFinalPkmnText
 	dw JessieJamesFinalPkmnText

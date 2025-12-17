@@ -661,12 +661,6 @@ DEF CRYS EQU __trainer_class__
 	
 	trainerclass BIANCA ; 63
 
-	trainerclass MYSTICALMAN ; 71
-	const EUSINE
-
-	trainerclass KARATE_KING ; 72
-	const KIYO
-
 	trainerclass TOWERTYCOON ; 73
 
 	trainerclass FACTORYHEAD ; 74
