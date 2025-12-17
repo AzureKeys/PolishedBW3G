@@ -92,11 +92,6 @@ BTTrainerClassSprites:
 	db SPRITE_ACE_TRAINER_M ; WORKER
 	db SPRITE_ROCKET        ; GRUNTM
 	db SPRITE_ROCKET_GIRL   ; GRUNTF
-	db SPRITE_PROTON        ; PROTON
-	db SPRITE_PETREL        ; PETREL
-	db SPRITE_ARCHER        ; ARCHER
-	db SPRITE_ARIANA        ; ARIANA
-	db SPRITE_GIOVANNI      ; GIOVANNI
 	db SPRITE_OAK           ; PROF_OAK
 	db SPRITE_ELM           ; PROF_ELM
 	db SPRITE_IVY           ; PROF_IVY

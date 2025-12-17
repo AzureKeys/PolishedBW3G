@@ -92,11 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba ProtonPic
-	dba PetrelPic
-	dba ArcherPic
-	dba ArianaPic
-	dba GiovanniPic
 	dba ProfOakPic
 	dba ProfElmPic
 	dba ProfIvyPic

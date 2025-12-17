@@ -645,26 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass PROTON ; 69
-	const PROTON1
-	const PROTON2
-
-	trainerclass PETREL ; 6a
-	const PETREL1
-	const PETREL2
-
-	trainerclass ARCHER ; 6b
-	const ARCHER1
-	const ARCHER2
-
-	trainerclass ARIANA ; 6c
-	const ARIANA1
-	const ARIANA2
-
-	trainerclass GIOVANNI ; 6d
-	const GIOVANNI1
-	const GIOVANNI2
-
 	trainerclass PROF_OAK ; 6e
 
 	trainerclass PROF_ELM ; 6f

@@ -8868,12 +8868,8 @@ AutomaticBattleWeather:
 	jmp EmptyBattleTextbox
 
 BoostGiovannisArmoredMewtwo:
-	ld a, [wOtherTrainerClass]
-	cp GIOVANNI
-	ret nz
-	ld a, [wOtherTrainerID]
-	cp GIOVANNI1
-	ret nz
+; leaving this routine to repurpose later
+	ret
 	call SetEnemyTurn
 	ld de, ANIM_SHARPEN
 	call PlayBattleAnimDE

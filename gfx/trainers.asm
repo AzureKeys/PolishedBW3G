@@ -253,21 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "ProtonPic", ROMX
-ProtonPic: INCBIN "gfx/trainers/proton.2bpp.lz"
-
-SECTION "PetrelPic", ROMX
-PetrelPic: INCBIN "gfx/trainers/petrel.2bpp.lz"
-
-SECTION "ArcherPic", ROMX
-ArcherPic: INCBIN "gfx/trainers/archer.2bpp.lz"
-
-SECTION "ArianaPic", ROMX
-ArianaPic: INCBIN "gfx/trainers/ariana.2bpp.lz"
-
-SECTION "GiovanniPic", ROMX
-GiovanniPic: INCBIN "gfx/trainers/giovanni.2bpp.lz"
-
 SECTION "ProfOakPic", ROMX
 ProfOakPic: INCBIN "gfx/trainers/oak.2bpp.lz"
 

@@ -639,15 +639,6 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	dec b
 	jr nz, .loop2
 
-	ld hl, .armored_mewtwo_pals
-	ld a, [wOtherTrainerClass]
-	cp GIOVANNI
-	jr nz, .not_armored_mewtwo
-	ld a, [wOtherTrainerID]
-	cp GIOVANNI1
-	jr z, .got_palette
-
-.not_armored_mewtwo
 	ld hl, .timepals
 	call .timeofdaypal
 .got_palette

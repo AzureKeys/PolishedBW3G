@@ -94,11 +94,6 @@ TrainerClassDVsAndPersonality:
 	db  48, $CC, $CC, $CC, MALE   ; janitor
 	db  32, $AA, $AA, $AA, MALE   ; gruntm
 	db  32, $AA, $AA, $AA, FEMALE ; gruntf
-	db  80, $BB, $BB, $BB, MALE   ; proton
-	db  96, $CC, $CC, $CC, MALE   ; petrel
-	db 128, $EE, $EE, $EE, MALE   ; archer
-	db 112, $DD, $DD, $DD, FEMALE ; ariana
-	db 160, PERFECT_DVS,   MALE   ; giovanni
 	db 252, PERFECT_DVS,   MALE   ; prof oak
 	db  32, $BB, $BB, $BB, MALE   ; prof elm
 	db 252, PERFECT_DVS,   FEMALE ; prof ivy

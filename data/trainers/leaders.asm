@@ -4,30 +4,10 @@ BossTrainers:
 	db ELESA
 	db COLRESS
 	db CHAMPION
-	db GIOVANNI
-	db KARATE_KING
 	db TOWERTYCOON
 	db FACTORYHEAD
-	db LORELEI
-	db AGATHA
-	db STEVEN
 	db CYNTHIA
-	db DARACH
 	db CAITLIN
-	db CANDELA
-	db BLANCHE
-	db SPARK_T
-	db FLANNERY
-	db MAYLENE
-	db MARLON
-	db VALERIE
-	db KUKUI
-	db PIERS
-	db KATY
-	db YELLOW
-	db WALKER
-	db LAWRENCE
-	db REI
 JohtoGymLeaders:
 	db MARLON
 	db SHAUNTAL

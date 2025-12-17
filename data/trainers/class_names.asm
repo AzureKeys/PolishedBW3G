@@ -91,11 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Executive"        ; PROTON
-	li "Executive"        ; PETREL
-	li "Executive"        ; ARCHER
-	li "Executive"        ; ARIANA
-	li "Boss"             ; GIOVANNI
 	li "#mon Prof."       ; PROF_OAK
 	li "#mon Prof."       ; PROF_ELM
 	li "#mon Prof."       ; PROF_IVY

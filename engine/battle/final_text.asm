@@ -5,11 +5,11 @@ GetFinalPkmnTextPointer::
 	call .findinarray
 	jr c, .rival
 	; Proton to Giovanni have a phrase for each ID
-	ld a, [wOtherTrainerClass]
-	cp PROTON
-	jr c, .not_rocket
-	cp GIOVANNI + 1
-	jr c, .rocket
+	;ld a, [wOtherTrainerClass]
+	;cp PROTON
+	;jr c, .not_rocket
+	;cp GIOVANNI + 1
+	;jr c, .rocket
 .not_rocket
 	; Champion and below, and Prof. Oak and above, have one unique phrase
 	dec a
@@ -34,7 +34,7 @@ GetFinalPkmnTextPointer::
 
 .rocket:
 	; a = ([wOtherTrainerClass] - PROTON) * 2 + [wOtherTrainerID] - 1
-	sub PROTON
+	;sub PROTON
 	add a
 	ld b, a
 	ld a, [wOtherTrainerID]

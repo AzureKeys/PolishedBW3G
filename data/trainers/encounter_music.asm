@@ -93,8 +93,4 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; worker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
-	db MUSIC_ROCKET_ENCOUNTER ; proton
-	db MUSIC_ROCKET_ENCOUNTER ; petrel
-	db MUSIC_ROCKET_ENCOUNTER ; archer
-	db MUSIC_ROCKET_ENCOUNTER ; ariana
-	assert_table_length ARIANA + 1
+	assert_table_length GRUNTF + 1

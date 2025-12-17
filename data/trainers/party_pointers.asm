@@ -94,11 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba ProtonGroup
-	dba PetrelGroup
-	dba ArcherGroup
-	dba ArianaGroup
-	dba GiovanniGroup
 	dba ProfOakGroup
 	dba ProfElmGroup
 	dba ProfIvyGroup
