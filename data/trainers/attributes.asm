@@ -548,18 +548,6 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Boarder
-	db 0, 0 ; items
-	db 18 ; base reward
-	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
-; Skier
-	db 0, 0 ; items
-	db 18 ; base reward
-	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_STATUS + AI_RISKY
-	dw CONTEXT_USE + SWITCH_SOMETIMES
-
 ; Dragon Tamer
 	db HYPER_POTION, 0 ; items
 	db 15 ; base reward

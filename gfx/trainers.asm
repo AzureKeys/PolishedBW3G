@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "BoarderPic", ROMX
-BoarderPic: INCBIN "gfx/trainers/boarder.2bpp.lz"
-
-SECTION "SkierPic", ROMX
-SkierPic: INCBIN "gfx/trainers/skier.2bpp.lz"
-
 SECTION "DragonTamerPic", ROMX
 DragonTamerPic: INCBIN "gfx/trainers/dragon_tamer.2bpp.lz"
 

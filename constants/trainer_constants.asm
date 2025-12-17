@@ -645,22 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass BOARDER ; 4f
-	const RONALD
-	const BRAD
-	const DOUGLAS
-	const SHAUN
-	const BRYCE
-	const STEFAN
-	const MAX
-
-	trainerclass SKIER ; 50
-	const ROXANNE
-	const CLARISSA
-	const CADY
-	const MARIA
-	const BECKY
-
 	trainerclass DRAGON_TAMER ; 53
 	const PAUL
 	const DARIN

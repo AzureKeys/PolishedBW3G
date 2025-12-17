@@ -67,10 +67,10 @@ BattleTowerTrainers:
 	rawchar "Mateo@@@@@", VETERANM
 	rawchar "Johnson@@@", SOLDIER
 	rawchar "Newandyke@", POLICEMAN
-	rawchar "Rebecca@@@", SKIER
+	rawchar "Rebecca@@@", BACKPACKERF
 	rawchar "Santiago@@", PSYCHICM_T
 	rawchar "Blake@@@@@", YOUNGSTER
-	rawchar "James@@@@@", BOARDER
+	rawchar "James@@@@@", BACKPACKERM
 	rawchar "Kubrick@@@", HEX_MANIAC
 	rawchar "Alisha@@@@", LASS
 	rawchar "Sunni@@@@@", HEX_MANIAC
@@ -99,7 +99,7 @@ BattleTowerTrainers:
 	rawchar "Kafuka@@@@", SCHOOL_KIDF
 	rawchar "Hong@@@@@@", TEACHER_F
 	rawchar "Mott@@@@@@", TEACHER_M
-	rawchar "Pov@@@@@@@", BOARDER
+	rawchar "Pov@@@@@@@", BACKPACKERM
 	rawchar "Collins@@@", PKMN_RANGERM
 	rawchar "Darwin@@@@", HIKER
 	rawchar "Tatiana@@@", NURSE
@@ -118,7 +118,7 @@ BattleTowerTrainers:
 	rawchar "Salim@@@@@", ROUGHNECK
 	rawchar "Dijkstra@@", VETERANM
 	rawchar "Raine@@@@@", ACE_TRAINERF
-	rawchar "Dorothy@@@", SKIER
+	rawchar "Dorothy@@@", BACKPACKERF
 	rawchar "Shirley@@@", PKMN_RANGERF
 	rawchar "Douglas@@@", SIGHTSEERM
 	rawchar "Armstrong@", BIKER

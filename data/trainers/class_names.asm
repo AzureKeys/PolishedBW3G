@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Boarder"          ; BOARDER
-	li "Skier"            ; SKIER
 	li "Dragon Tamer"     ; DRAGON_TAMER
 	li "Engineer"         ; ENGINEER
 	li "Teacher"          ; TEACHER_F
