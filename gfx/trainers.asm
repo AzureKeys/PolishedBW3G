@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "SrAndJrPic", ROMX
-SrAndJrPic: INCBIN "gfx/trainers/sr_and_jr.2bpp.lz"
-
-SECTION "CouplePic", ROMX
-CouplePic: INCBIN "gfx/trainers/couple.2bpp.lz"
-
 SECTION "BreederPic", ROMX
 BreederPic: INCBIN "gfx/trainers/breeder.2bpp.lz"
 

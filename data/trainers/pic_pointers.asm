@@ -92,8 +92,6 @@ TrainerPicPointers::
 	dba WorkerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba SrAndJrPic
-	dba CouplePic
 	dba BreederPic
 	dba CowgirlPic
 	dba SailorPic

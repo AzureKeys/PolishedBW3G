@@ -8813,13 +8813,9 @@ CheckPluralTrainer:
 	ld a, [wOtherTrainerClass]
 	cp TWINS
 	jr z, .plural
-	cp SR_AND_JR
+	cp BACKERSM
 	jr z, .plural
-	cp COUPLE
-	jr z, .plural
-	cp ACE_DUO
-	jr z, .plural
-	cp JESSIE_JAMES
+	cp BACKERSF
 	jr z, .plural
 	xor a
 	scf

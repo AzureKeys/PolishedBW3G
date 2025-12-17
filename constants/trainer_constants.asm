@@ -645,30 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass SR_AND_JR ; 40
-	const JOANDCATH1
-	const JOANDCATH2
-	const IVYANDAMY1
-	const IVYANDAMY2
-	const BEAANDMAY1
-	const BEAANDMAY2
-
-	trainerclass COUPLE ; 41
-	const GAILANDELI1
-	const GAILANDELI2
-	const DUFFANDEDA1
-	const DUFFANDEDA2
-	const FOXANDRAE1
-	const FOXANDRAE2
-	const MOEANDLULU1
-	const MOEANDLULU2
-	const VICANDTARA1
-	const VICANDTARA2
-	const TIMANDSUE1
-	const TIMANDSUE2
-	const JOEANDJO1
-	const JOEANDJO2
-
 	trainerclass BREEDER ; 45
 	const JULIE
 	const THERESA

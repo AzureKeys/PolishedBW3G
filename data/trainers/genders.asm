@@ -94,8 +94,6 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; WORKER
 	dbit MALE_BIT   ; GRUNTM
 	dbit FEMALE_BIT ; GRUNTF
-	dbit FEMALE_BIT ; SR_AND_JR
-	dbit MALE_BIT   ; COUPLE
 	dbit FEMALE_BIT ; BREEDER
 	dbit FEMALE_BIT ; COWGIRL
 	dbit MALE_BIT   ; SAILOR
