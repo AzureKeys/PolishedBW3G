@@ -9,10 +9,10 @@ BattleTowerTrainers:
 	rawchar "Angelica@@", LADY
 	rawchar "Hare@@@@@@", WORKER
 	rawchar "Murray@@@@", SAILOR
-	rawchar "Suh@@@@@@@", ELDER
+	rawchar "Suh@@@@@@@", VETERANM
 	rawchar "Siegfried@", TAMER
 	rawchar "Scipio@@@@", BURGLAR
-	rawchar "Walter@@@@", ELDER
+	rawchar "Walter@@@@", VETERANM
 	rawchar "Eleni@@@@@", BATTLE_GIRL
 	rawchar "Ichigo@@@@", BAKER
 	rawchar "Estée@@@@@", AROMA_LADY
@@ -73,7 +73,7 @@ BattleTowerTrainers:
 	rawchar "James@@@@@", BOARDER
 	rawchar "Kubrick@@@", HEX_MANIAC
 	rawchar "Alisha@@@@", LASS
-	rawchar "Sunni@@@@@", KIMONO_GIRL
+	rawchar "Sunni@@@@@", HEX_MANIAC
 	rawchar "Andre@@@@@", ROUGHNECK
 	rawchar "Hill@@@@@@", ACE_TRAINERM
 	rawchar "Tara@@@@@@", SWIMMERF
@@ -90,7 +90,7 @@ BattleTowerTrainers:
 	rawchar "Valentine@", LADY
 	rawchar "Uri@@@@@@@", PSYCHICM_T
 	rawchar "Wong@@@@@@", WORKER
-	rawchar "Chiyo@@@@@", KIMONO_GIRL
+	rawchar "Chiyo@@@@@", HEX_MANIAC
 	rawchar "Sidney@@@@", BIKER
 	rawchar "Nerai@@@@@", HIKER
 	rawchar "Gwen@@@@@@", LADY

@@ -645,22 +645,6 @@ DEF CRYS EQU __trainer_class__
 	const GRUNTF_SEASIDE_CAVE_2
 	const GRUNTF_SEASIDE_CAVE_3
 
-	trainerclass KIMONO_GIRL ; 3e
-	const NAOKO
-	const SAYO
-	const ZUKI
-	const KUNI
-	const MIKI
-	const MAKO
-	const AMI
-	const MINA
-
-	trainerclass ELDER ; 3f
-	const LI
-	const GAKU
-	const MASA
-	const KOJI
-
 	trainerclass SR_AND_JR ; 40
 	const JOANDCATH1
 	const JOANDCATH2

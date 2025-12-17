@@ -91,8 +91,6 @@ TrainerClassNames::
 	li "Worker"           ; WORKER
 	li "Plasma"           ; GRUNTM
 	li "Plasma"           ; GRUNTF
-	li "Kimono Girl"      ; KIMONO_GIRL
-	li "Elder"            ; ELDER
 	li "Sr.& Jr."         ; SR_AND_JR
 	li "Couple"           ; COUPLE
 	li "Breeder"          ; BREEDER

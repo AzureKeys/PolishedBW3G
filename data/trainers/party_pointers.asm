@@ -94,8 +94,6 @@ TrainerGroups:
 	dba WorkerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba KimonoGirlGroup
-	dba ElderGroup
 	dba SrAndJrGroup
 	dba CoupleGroup
 	dba BreederGroup

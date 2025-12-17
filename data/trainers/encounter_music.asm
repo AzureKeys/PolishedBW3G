@@ -93,8 +93,6 @@ TrainerEncounterMusic:
 	db MUSIC_HIKER_ENCOUNTER ; worker
 	db MUSIC_ROCKET_ENCOUNTER ; gruntm
 	db MUSIC_ROCKET_ENCOUNTER ; gruntf
-	db MUSIC_KIMONO_ENCOUNTER ; kimono_girl
-	db MUSIC_SAGE_ENCOUNTER ; elder
 	db MUSIC_LASS_ENCOUNTER ; sr_and_jr
 	db MUSIC_HIKER_ENCOUNTER ; couple
 	db MUSIC_LASS_ENCOUNTER ; breeder

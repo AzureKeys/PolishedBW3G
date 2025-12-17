@@ -253,12 +253,6 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "KimonoGirlPic", ROMX
-KimonoGirlPic: INCBIN "gfx/trainers/kimono_girl.2bpp.lz"
-
-SECTION "ElderPic", ROMX
-ElderPic: INCBIN "gfx/trainers/elder.2bpp.lz"
-
 SECTION "SrAndJrPic", ROMX
 SrAndJrPic: INCBIN "gfx/trainers/sr_and_jr.2bpp.lz"
 
