@@ -669,6 +669,8 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass INVER ; 76
 
+	trainerclass ALDER ; 77
+
 	trainerclass CAITLIN ; 82
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

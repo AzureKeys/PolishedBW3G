@@ -107,4 +107,5 @@ TrainerGroups:
 	dba CynthiaGroup
 	dbw BANK(@), wInverGroup
 	dba CaitlinGroup
+	dba AlderGroup
 	assert_table_length NUM_TRAINER_CLASSES

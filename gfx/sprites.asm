@@ -163,8 +163,8 @@ GenesisSpriteGFX:: INCBIN "gfx/sprites/genesis.2bpp.lz"
 SECTION "BiancaSpriteGFX", ROMX
 BiancaSpriteGFX:: INCBIN "gfx/sprites/bianca.2bpp.lz"
 
-SECTION "GiovanniSpriteGFX", ROMX
-GiovanniSpriteGFX:: INCBIN "gfx/sprites/giovanni.2bpp.lz"
+SECTION "AlderSpriteGFX", ROMX
+AlderSpriteGFX:: INCBIN "gfx/sprites/alder.2bpp.lz"
 
 SECTION "CherylSpriteGFX", ROMX
 CherylSpriteGFX:: INCBIN "gfx/sprites/cheryl.2bpp.lz"

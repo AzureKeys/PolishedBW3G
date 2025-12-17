@@ -98,10 +98,11 @@ TrainerClassNames::
 	li "Mystery Man"      ; MYSTERYMAN
 	li "Pzma Sage"        ; ZINZOLIN
 	li "Genesis"          ; GENESIS
-	li "#mon Prof."       ; BIANCA
+	li "<PK><MN> Prof."   ; BIANCA
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD
 	li "Researcher"       ; CYNTHIA
 	li "Psychic"          ; INVER
 	li "Lady"             ; CAITLIN
+	li "<PK><MN> Master"  ; ALDER
 	assert_list_length NUM_TRAINER_CLASSES

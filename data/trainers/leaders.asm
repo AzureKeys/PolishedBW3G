@@ -7,6 +7,7 @@ BossTrainers:
 	db BIANCA
 	db TOWERTYCOON
 	db FACTORYHEAD
+	db ALDER
 	db CYNTHIA
 	db CAITLIN
 JohtoGymLeaders:

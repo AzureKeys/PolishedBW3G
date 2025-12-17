@@ -292,6 +292,9 @@ InverPic: INCBIN "gfx/trainers/inver.2bpp.lz"
 SECTION "CaitlinPic", ROMX
 CaitlinPic: INCBIN "gfx/trainers/caitlin.2bpp.lz"
 
+SECTION "AlderPic", ROMX
+AlderPic: INCBIN "gfx/trainers/alder.2bpp.lz"
+
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 

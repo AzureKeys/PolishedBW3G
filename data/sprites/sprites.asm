@@ -62,7 +62,7 @@ SpriteHeaders:
 	overworld_sprite MysterymanSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite GenesisSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite BiancaSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite GiovanniSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
+	overworld_sprite AlderSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite CherylSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite RileySpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BuckSpriteGFX, WALKING_SPRITE, PAL_OW_RED

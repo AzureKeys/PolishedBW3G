@@ -107,4 +107,5 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; cynthia
 	db 252, PERFECT_DVS,   MALE   ; inver
 	db 252, PERFECT_DVS,   FEMALE ; caitlin
+	db 252, PERFECT_DVS,   MALE   ; alder
 	assert_table_length NUM_TRAINER_CLASSES
