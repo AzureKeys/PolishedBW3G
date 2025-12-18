@@ -61,9 +61,9 @@
 	const SPRITE_IRIS ; 3b
 	const SPRITE_ROOD ; 3c
 	const SPRITE_N ; 3d
-	const SPRITE_MARLEY ; 3e
-	const SPRITE_MIRA ; 3f
-	const SPRITE_ANABEL ; 40
+	const SPRITE_HUGH ; 3e
+	const SPRITE_NATE ; 3f
+	const SPRITE_ROSA ; 40
 	const SPRITE_FLANNERY ; 41
 	const SPRITE_MAYLENE ; 42
 	const SPRITE_VALERIE ; 44

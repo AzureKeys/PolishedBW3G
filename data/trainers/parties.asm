@@ -3463,4 +3463,100 @@ NGroup:
 	tr_mon 60, RATTATA
 	end_trainer
 
+
+SECTION "HughGroup", ROMX
+HughGroup:
+
+	def_trainer_class HUGH
+	def_trainer HUGH_SNIVY, "Hugh"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer HUGH_TEPIG, "Hugh"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer HUGH_OSHAWOTT, "Hugh"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+
+
+SECTION "NateGroup", ROMX
+NateGroup:
+
+	def_trainer_class NATE
+	def_trainer NATE_SNIVY, "Nate"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer NATE_TEPIG, "Nate"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer NATE_OSHAWOTT, "Nate"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+
+
+SECTION "RosaGroup", ROMX
+RosaGroup:
+
+	def_trainer_class ROSA
+	def_trainer ROSA_SNIVY, "Rosa"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer ROSA_TEPIG, "Rosa"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer ROSA_OSHAWOTT, "Rosa"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+
 ENDSECTION

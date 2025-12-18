@@ -108,4 +108,7 @@ TrainerClassNames::
 	li "<PK><MN> Master"  ; CYNTHIA
 	li "<PK><MN> Trainer" ; ROOD
 	li "<PK><MN> Trainer" ; N
+	li "<PK><MN> Trainer" ; HUGH
+	li "<PK><MN> Master"  ; NATE
+	li "<PK><MN> Master"  ; ROSA
 	assert_list_length NUM_TRAINER_CLASSES

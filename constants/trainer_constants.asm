@@ -679,6 +679,21 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass N_T ; 6c
 
+	trainerclass HUGH ; 6d
+	const HUGH_SNIVY
+	const HUGH_TEPIG
+	const HUGH_OSHAWOTT
+
+	trainerclass NATE ; 6e
+	const NATE_SNIVY
+	const NATE_TEPIG
+	const NATE_OSHAWOTT
+
+	trainerclass ROSA ; 6f
+	const ROSA_SNIVY
+	const ROSA_TEPIG
+	const ROSA_OSHAWOTT
+
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
 	trainerclass OMASTAR_FOSSIL ; 94

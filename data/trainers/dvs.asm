@@ -111,4 +111,7 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; cynthia
 	db 252, PERFECT_DVS,   MALE   ; rood
 	db 252, PERFECT_DVS,   MALE   ; n
+	db 252, PERFECT_DVS,   MALE   ; hugh
+	db 252, PERFECT_DVS,   MALE   ; nate
+	db 252, PERFECT_DVS,   FEMALE ; rosa
 	assert_table_length NUM_TRAINER_CLASSES

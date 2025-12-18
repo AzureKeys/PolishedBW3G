@@ -175,14 +175,14 @@ RoodSpriteGFX:: INCBIN "gfx/sprites/rood.2bpp.lz"
 SECTION "NSpriteGFX", ROMX
 NSpriteGFX:: INCBIN "gfx/sprites/n.2bpp.lz"
 
-SECTION "MarleySpriteGFX", ROMX
-MarleySpriteGFX:: INCBIN "gfx/sprites/marley.2bpp.lz"
+SECTION "HughSpriteGFX", ROMX
+HughSpriteGFX:: INCBIN "gfx/sprites/hugh.2bpp.lz"
 
-SECTION "MiraSpriteGFX", ROMX
-MiraSpriteGFX:: INCBIN "gfx/sprites/mira.2bpp.lz"
+SECTION "NateSpriteGFX", ROMX
+NateSpriteGFX:: INCBIN "gfx/sprites/nate.2bpp.lz"
 
-SECTION "AnabelSpriteGFX", ROMX
-AnabelSpriteGFX:: INCBIN "gfx/sprites/anabel.2bpp.lz"
+SECTION "RosaSpriteGFX", ROMX
+RosaSpriteGFX:: INCBIN "gfx/sprites/rosa.2bpp.lz"
 
 SECTION "FlannerySpriteGFX", ROMX
 FlannerySpriteGFX:: INCBIN "gfx/sprites/flannery.2bpp.lz"

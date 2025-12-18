@@ -304,6 +304,15 @@ RoodPic: INCBIN "gfx/trainers/rood.2bpp.lz"
 SECTION "NPic", ROMX
 NPic: INCBIN "gfx/trainers/n.2bpp.lz"
 
+SECTION "HughPic", ROMX
+HughPic: INCBIN "gfx/trainers/hugh.2bpp.lz"
+
+SECTION "NatePic", ROMX
+NatePic: INCBIN "gfx/trainers/nate.2bpp.lz"
+
+SECTION "RosaPic", ROMX
+RosaPic: INCBIN "gfx/trainers/rosa.2bpp.lz"
+
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 

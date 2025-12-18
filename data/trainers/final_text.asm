@@ -68,5 +68,8 @@ FinalText_SinglePhrases:
 	dw CynthiaFinalPkmnText
 	dw CynthiaFinalPkmnText
 	dw CynthiaFinalPkmnText
+	dw CynthiaFinalPkmnText
+	dw CynthiaFinalPkmnText
+	dw CynthiaFinalPkmnText
 	; all trainers between CHAMPION and BIANCA are omitted
 	assert_table_length NUM_TRAINER_CLASSES - (BIANCA - CHAMPION - 1)

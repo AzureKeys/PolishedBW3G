@@ -13,6 +13,9 @@ BossTrainers:
 	db CYNTHIA
 	db ROOD
 	db N_T
+	db HUGH
+	db NATE
+	db ROSA
 JohtoGymLeaders:
 	db MARLON
 	db SHAUNTAL

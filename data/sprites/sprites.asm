@@ -66,9 +66,9 @@ SpriteHeaders:
 	overworld_sprite IrisSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE_D
 	overworld_sprite RoodSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite NSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
-	overworld_sprite MarleySpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
-	overworld_sprite MiraSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
-	overworld_sprite AnabelSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite HughSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite NateSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite RosaSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite FlannerySpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MayleneSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite ValerieSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
