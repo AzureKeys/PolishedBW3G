@@ -298,6 +298,12 @@ CaitlinPic: INCBIN "gfx/trainers/caitlin.2bpp.lz"
 SECTION "CynthiaPic", ROMX
 CynthiaPic: INCBIN "gfx/trainers/cynthia.2bpp.lz"
 
+SECTION "RoodPic", ROMX
+RoodPic: INCBIN "gfx/trainers/rood.2bpp.lz"
+
+SECTION "NPic", ROMX
+NPic: INCBIN "gfx/trainers/n.2bpp.lz"
+
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 

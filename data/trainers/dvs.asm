@@ -109,4 +109,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; iris
 	db 252, PERFECT_DVS,   FEMALE ; caitlin
 	db 252, PERFECT_DVS,   FEMALE ; cynthia
+	db 252, PERFECT_DVS,   MALE   ; rood
+	db 252, PERFECT_DVS,   MALE   ; n
 	assert_table_length NUM_TRAINER_CLASSES

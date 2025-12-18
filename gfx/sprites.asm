@@ -169,11 +169,11 @@ AlderSpriteGFX:: INCBIN "gfx/sprites/alder.2bpp.lz"
 SECTION "IrisSpriteGFX", ROMX
 IrisSpriteGFX:: INCBIN "gfx/sprites/iris.2bpp.lz"
 
-SECTION "RileySpriteGFX", ROMX
-RileySpriteGFX:: INCBIN "gfx/sprites/riley.2bpp.lz"
+SECTION "RoodSpriteGFX", ROMX
+RoodSpriteGFX:: INCBIN "gfx/sprites/rood.2bpp.lz"
 
-SECTION "BuckSpriteGFX", ROMX
-BuckSpriteGFX:: INCBIN "gfx/sprites/buck.2bpp.lz"
+SECTION "NSpriteGFX", ROMX
+NSpriteGFX:: INCBIN "gfx/sprites/n.2bpp.lz"
 
 SECTION "MarleySpriteGFX", ROMX
 MarleySpriteGFX:: INCBIN "gfx/sprites/marley.2bpp.lz"

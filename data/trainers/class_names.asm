@@ -106,4 +106,6 @@ TrainerClassNames::
 	li "<PK><MN> Master"  ; IRIS
 	li "<PK><MN> Master"  ; CAITLIN
 	li "<PK><MN> Master"  ; CYNTHIA
+	li "<PK><MN> Trainer" ; ROOD
+	li "<PK><MN> Trainer" ; N
 	assert_list_length NUM_TRAINER_CLASSES

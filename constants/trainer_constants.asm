@@ -675,6 +675,10 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass CYNTHIA ; 6a
 
+	trainerclass ROOD ; 6b
+
+	trainerclass N_T ; 6c
+
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
 	trainerclass OMASTAR_FOSSIL ; 94

@@ -109,4 +109,6 @@ TrainerGroups:
 	dba IrisGroup
 	dba CaitlinGroup
 	dba CynthiaGroup
+	dba RoodGroup
+	dba NGroup
 	assert_table_length NUM_TRAINER_CLASSES
