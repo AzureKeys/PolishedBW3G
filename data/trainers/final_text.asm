@@ -21,57 +21,57 @@ FinalTextList_TriplePhrases:
 	dw Rival2_2FinalPkmnText
 
 FinalText_TeamRocket:
-	dw Proton1FinalPkmnText
-	dw Proton2FinalPkmnText
+	dw Giallo1FinalPkmnText
+	dw Giallo2FinalPkmnText
 	assert GIALLO + 1 == BRONIUS
-	dw Petrel1FinalPkmnText
-	dw Petrel2FinalPkmnText
+	dw Bronius1FinalPkmnText
+	dw Bronius2FinalPkmnText
 	assert BRONIUS + 1 == RYOKU
-	dw Archer1FinalPkmnText
-	dw Archer2FinalPkmnText
+	dw Ryoku1FinalPkmnText
+	dw Ryoku2FinalPkmnText
 	assert RYOKU + 1 == GORM
-	dw Ariana1FinalPkmnText
-	dw Ariana2FinalPkmnText
+	dw Gorm1FinalPkmnText
+	dw Gorm2FinalPkmnText
 	assert GORM + 1 == MYSTERYMAN
-	dw Giovanni1FinalPkmnText
-	dw Giovanni2FinalPkmnText
+	dw MysterymanFinalPkmnText
+	dw MysterymanFinalPkmnText
 	assert MYSTERYMAN + 1 == ZINZOLIN
-	dw Giovanni1FinalPkmnText
-	dw Giovanni2FinalPkmnText
+	dw Zinzolin1FinalPkmnText
+	dw Zinzolin2FinalPkmnText
 
 FinalText_SinglePhrases:
 	table_width 2
 	dw CarrieFinalPkmnText
 	dw CalFinalPkmnText
 	dw JackyFinalPkmnText
-	dw FalknerFinalPkmnText
-	dw BugsyFinalPkmnText
-	dw WhitneyFinalPkmnText
-	dw MortyFinalPkmnText
-	dw ChuckFinalPkmnText
-	dw JasmineFinalPkmnText
-	dw PryceFinalPkmnText
-	dw ClairFinalPkmnText
-	dw WillFinalPkmnText
-	dw KogaFinalPkmnText
-	dw BrunoFinalPkmnText
-	dw KarenFinalPkmnText
+	dw MarlonFinalPkmnText
+	dw ShauntalFinalPkmnText
+	dw BurghFinalPkmnText
+	dw RoxieFinalPkmnText
+	dw CherenFinalPkmnText
+	dw CilanFinalPkmnText
+	dw SkylaFinalPkmnText
+	dw DraydenFinalPkmnText
+	dw MarshalFinalPkmnText
+	dw GrimsleyFinalPkmnText
+	dw ElesaFinalPkmnText
+	dw ColressFinalPkmnText
 	dw ChampionFinalPkmnText
 	; ...
-	dw MysticalManFinalPkmnText
+	dw BiancaFinalPkmnText
 	dw PalmerFinalPkmnText
 	dw ThortonFinalPkmnText
 	dw InverFinalPkmnText
+	dw AlderFinalPkmnText
+	dw IrisFinalPkmnText
 	dw CaitlinFinalPkmnText
-	dw CaitlinFinalPkmnText
-	dw CaitlinFinalPkmnText
 	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
-	dw CynthiaFinalPkmnText
+	dw RoodFinalPkmnText
+	dw NFinalPkmnText
+	dw HughFinalPkmnText
+	dw NateFinalPkmnText
+	dw RosaFinalPkmnText
+	dw HilbertFinalPkmnText
+	dw HildaFinalPkmnText
 	; all trainers between CHAMPION and BIANCA are omitted
 	assert_table_length NUM_TRAINER_CLASSES - (BIANCA - CHAMPION - 1)

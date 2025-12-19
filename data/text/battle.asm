@@ -1651,78 +1651,96 @@ JackyFinalPkmnText:
 	line "#mon!"
 	prompt
 
-FalknerFinalPkmnText:
-	text "The wind is"
-	line "finally with us!"
+MarlonFinalPkmnText:
+	text "Aww, dude… I know"
+	line "I'm about done, but"
+	
+	para "I'm just still so"
+	line "pumped up!"
 	prompt
 
-BugsyFinalPkmnText:
-	text "Even though it's"
-	line "my last #mon,"
-
-	para "Bug #mon are"
-	line "tough!"
+ShauntalFinalPkmnText:
+	text "It seems this is"
+	line "the beginning of"
+	cont "my final chapter."
 	prompt
 
-WhitneyFinalPkmnText:
-	text "H-hey! Just one"
-	line "left? But…"
+BurghFinalPkmnText:
+	text "Could it be time"
+	line "to bug out of"
+	cont "here?"
 
-	para "I ain't losin',"
-	line "you hear?"
+	para "No, no, I refuse"
+	line "to be squashed!"
 	prompt
 
-MortyFinalPkmnText:
-	text "I still believe"
-	line "we can do it!"
+RoxieFinalPkmnText:
+	text "It's not over yet!"
+	line "Time to turn this"
+	
+	para "show around for a"
+	line "victory!"
 	prompt
 
-ChuckFinalPkmnText:
-	text "We haven't lost"
-	line "yet!"
+CherenFinalPkmnText:
+	text "As a Gym Leader, I"
+	line "aim to be a wall"
+	
+	para "for you to"
+	line "overcome!"
 	prompt
 
-JasmineFinalPkmnText:
-	text "Well-tempered"
-	line "steel will hang on"
-	cont "to the very last!"
+CilanFinalPkmnText:
+	text "Huh? Could it be?"
+	line "Could I have only"
+	cont "one #mon left?"
 	prompt
 
-PryceFinalPkmnText:
-	text "Humph… You are"
-	line "quite the Trainer."
+SkylaFinalPkmnText:
+	text "This is mt last"
+	line "#mon…"
+	
+	para "But I'll never"
+	line "give up hope!"
 	prompt
 
-ClairFinalPkmnText:
-	text "One last #mon?"
-	line "This is where the"
-	cont "real fight begins!"
+DraydenFinalPkmnText:
+	text "Now is the moment"
+	line "of truth! This"
+	
+	para "really gets my"
+	line "blood pumping!"
 	prompt
 
-WillFinalPkmnText:
-	text "We Psychics don't"
-	line "give up until we"
-	cont "reach zero!"
+MarshalFinalPkmnText:
+	text "That's my final"
+	line "#mon! So we'll"
+	
+	para "use our last bit"
+	line "of strength!"
 	prompt
 
-KogaFinalPkmnText:
-	text "Fwahaha! I've been"
-	line "counting on this"
-
-	para "one from the very"
-	line "beginning!"
+GrimsleyFinalPkmnText:
+	text "Good, good… But I"
+	line "will never retreat"
+	cont "from any battle!"
 	prompt
 
-BrunoFinalPkmnText:
-	text "Fight as hard as"
-	line "you can 'til you"
-	cont "faint!"
+ElesaFinalPkmnText:
+	text "A properly"
+	line "dramatic victory"
+	
+	para "requires a dash of"
+	line "danger and a pinch"
+	cont "of peril."
 	prompt
 
-KarenFinalPkmnText:
-	text "This is far from"
-	line "being backed into"
-	cont "a corner!"
+ColressFinalPkmnText:
+	text "I'm more psyched"
+	line "than I've ever"
+	
+	para "been! I can still"
+	line "go on!"
 	prompt
 
 ChampionFinalPkmnText:
@@ -1775,27 +1793,27 @@ Rival2_2FinalPkmnText:
 	line "got one left!"
 	prompt
 
-Proton1FinalPkmnText:
+Giallo1FinalPkmnText:
 	text "Seriously, you'd"
 	line "chase me this far?"
 	prompt
 
-Proton2FinalPkmnText:
+Giallo2FinalPkmnText:
 	text "Everywhere we go,"
 	line "someone always"
 	cont "disagrees with us…"
 	prompt
 
-Petrel1FinalPkmnText:
+Bronius1FinalPkmnText:
 	text "What? Am I"
 	line "losing?"
 	prompt
 
-Petrel2FinalPkmnText:
+Bronius2FinalPkmnText:
 	text "Hey, you're good!"
 	prompt
 
-Archer1FinalPkmnText:
+Ryoku1FinalPkmnText:
 	text "We can't have you"
 	line "getting in the way"
 
@@ -1803,29 +1821,35 @@ Archer1FinalPkmnText:
 	line "rejoins us!"
 	prompt
 
-Archer2FinalPkmnText:
+Ryoku2FinalPkmnText:
 	text "Ah, you are indeed"
 	line "strong, but…"
 	cont "I wonder…"
 	prompt
 
-Ariana1FinalPkmnText:
+Gorm1FinalPkmnText:
 	text "Wh… Wha… Why are"
 	line "you so strong?!"
 	prompt
 
-Ariana2FinalPkmnText:
+Gorm2FinalPkmnText:
 	text "Hey, what do you"
 	line "think you're"
 	cont "doing?!"
 	prompt
 
-Giovanni1FinalPkmnText:
+MysterymanFinalPkmnText:
+	text "Hey, what do you"
+	line "think you're"
+	cont "doing?!"
+	prompt
+
+Zinzolin1FinalPkmnText:
 	text "My #mon is"
 	line "invincible!"
 	prompt
 
-Giovanni2FinalPkmnText:
+Zinzolin2FinalPkmnText:
 	text "Don't tell me some"
 	line "inexperienced kid"
 
@@ -1833,29 +1857,10 @@ Giovanni2FinalPkmnText:
 	line "that strong!"
 	prompt
 
-ProfOakFinalPkmnText:
+BiancaFinalPkmnText:
 	text "Hm! Excellent!"
 	line "But we aren't"
 	cont "done yet!"
-	prompt
-
-ProfElmFinalPkmnText:
-	text "It's almost"
-	line "over…"
-	prompt
-
-ProfIvyFinalPkmnText:
-	text "I'm down, but"
-	line "not out!"
-	prompt
-
-MysticalManFinalPkmnText:
-	text "Time for a dra-"
-	line "matic comeback!"
-	prompt
-
-KarateKingFinalPkmnText:
-	text "Yaaarggh!"
 	prompt
 
 PalmerFinalPkmnText:
@@ -1866,72 +1871,19 @@ ThortonFinalPkmnText:
 	text "Wow!"
 	prompt
 
-JessieJamesFinalPkmnText:
-	text "We have a proud"
-	line "tradition of fail-"
-	cont "ure to uphold!"
-	prompt
-
-LoreleiFinalPkmnText:
-	text "You only got a"
-	line "taste of my power!"
-	prompt
-
-AgathaFinalPkmnText:
-	text "Don't assume that"
-	line "you've won, child!"
-	prompt
-
-StevenFinalPkmnText:
-	text "I knew you would"
-	line "be strong…"
-	prompt
-
-CynthiaFinalPkmnText:
-	text "I won't let this"
-	line "end yet!"
-	prompt
-
 InverFinalPkmnText:
 	text "You're getting the"
 	line "hang of this!"
 	prompt
 
-CherylFinalPkmnText:
-	text "I can't keep up"
-	line "with healing…"
+AlderFinalPkmnText:
+	text "It's almost"
+	line "over…"
 	prompt
 
-RileyFinalPkmnText:
-	text "Your team! I sense"
-	line "your strong aura!"
-	prompt
-
-BuckFinalPkmnText:
-	text "Now this! This is"
-	line "a smoking-hot sit-"
-	cont "uation!"
-	prompt
-
-MarleyFinalPkmnText:
-	text "…My time with you"
-	line "is drawing to a"
-	cont "close."
-	prompt
-
-MiraFinalPkmnText:
-	text "Oh, no! You're"
-	line "too much for me!"
-	prompt
-
-AnabelFinalPkmnText:
-	text "Your talent…"
-	line "It's real."
-	prompt
-
-DarachFinalPkmnText:
-	text "My last stand!"
-	line "Allez!"
+IrisFinalPkmnText:
+	text "I'm down, but"
+	line "not out!"
 	prompt
 
 CaitlinFinalPkmnText:
@@ -1940,87 +1892,42 @@ CaitlinFinalPkmnText:
 	cont "and collected…"
 	prompt
 
-CandelaFinalPkmnText:
-	text "Down to the wire!"
-	line "How exciting!"
+CynthiaFinalPkmnText:
+	text "I won't let this"
+	line "end yet!"
 	prompt
 
-BlancheFinalPkmnText:
-	text "I am certainly"
-	line "impressed so far."
+RoodFinalPkmnText:
+	text "Time for a dra-"
+	line "matic comeback!"
 	prompt
 
-SparkFinalPkmnText:
-	text "You're good!"
-	line "No doubt about it!"
+NFinalPkmnText:
+	text "Yaaarggh!"
 	prompt
 
-FlanneryFinalPkmnText:
-	text "Um… what should"
-	line "I do now?"
+HughFinalPkmnText:
+	text "We have a proud"
+	line "tradition of fail-"
+	cont "ure to uphold!"
 	prompt
 
-MayleneFinalPkmnText:
-	text "This isn't the"
-	line "end, my friend!"
+NateFinalPkmnText:
+	text "You only got a"
+	line "taste of my power!"
 	prompt
 
-MarlonFinalPkmnText:
-	text "Awww, dude…"
-
-	para "I know I'm about"
-	line "done, but I'm still"
-	cont "just so pumped up!"
+RosaFinalPkmnText:
+	text "Don't assume that"
+	line "you've won, child!"
 	prompt
 
-ValerieFinalPkmnText:
-	text "Oh my…"
+HilbertFinalPkmnText:
+	text "I knew you would"
+	line "be strong…"
 	prompt
 
-KukuiFinalPkmnText:
-	text "My soul burns hot,"
-	line "yeah!"
-	prompt
-
-PiersFinalPkmnText:
-	text "I don't do encores,"
-	line "get it?"
-
-	para "Not songs…"
-	line "Not moves…"
-	cont "Not #mon!"
-	prompt
-
-KatyFinalPkmnText:
-	text "Oh? How should I"
-	line "roll things out"
-	cont "from here?"
-	prompt
-
-BillFinalPkmnText:
-	text "Yeehah!"
-	line "What a battle!"
-	prompt
-
-YellowFinalPkmnText:
-	text "My last #mon…"
-	line "Lend me your"
-	cont "power!"
-	prompt
-
-WalkerFinalPkmnText:
-	text "We can still fly!"
-	prompt
-
-ImakuniFinalPkmnText:
-	text "I'm running away!"
-	line "…I can't?"
-	prompt
-
-LawrenceFinalPkmnText:
-	text "Inconceivable!"
-	prompt
-
-ReiFinalPkmnText:
-	text "I'm not done yet."
+HildaFinalPkmnText:
+	text "I can't keep up"
+	line "with healing…"
 	prompt
