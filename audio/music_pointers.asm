@@ -4,35 +4,21 @@ Music:
 	dba Music_Nothing
 	dba Music_TitleScreen
 	dba Music_MainMenu
-	dba Music_NewBarkTown
 	dba Music_Mom
-	dba Music_ElmsLab
-	dba Music_LyraEncounterHGSS
-	dba Music_RivalBattleXY
-	dba Music_LyraDepartureHGSS
-	dba Music_Route29
 	dba Music_UnovaWildBattle
 	dba Music_UnovaWildBattleNight
 	dba Music_WildPokemonVictory
-	dba Music_CherrygroveCity
 	dba Music_ShowMeAround
 	dba Music_PokemonCenter
 	dba Music_HealPokemon
 	dba Music_SuccessfulCapture
 	dba Music_LookYoungster
-	dba Music_JohtoTrainerBattle
+	dba Music_UnovaTrainerBattle
 	dba Music_TrainerVictory
-	dba Music_Route30
-	dba Music_VioletCity
-	dba Music_SproutTower
-	dba Music_MartHGSS
 	dba Music_HiddenGrottoB2W2
-	dba Music_UnionCave
-	dba Music_RuinsOfAlphInterior
-	dba Music_RuinsOfAlphRadio
-	dba Music_AzaleaTown
+	dba Music_UnovaRoute4
 	dba Music_LookPlasma
-	dba Music_RocketBattle
+	dba Music_PlasmaBattle
 	dba Music_Route36
 	dba Music_LookRival
 	dba Music_RivalBattle

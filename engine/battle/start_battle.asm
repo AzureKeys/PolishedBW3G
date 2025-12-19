@@ -99,7 +99,7 @@ PlayBattleMusic:
 
 	ld a, [wLinkMode]
 	and a
-	ld e, MUSIC_JOHTO_TRAINER_BATTLE
+	ld e, MUSIC_UNOVA_TRAINER_BATTLE
 	jr nz, .done
 
 	ld hl, BattleMusic_RegionalTrainers

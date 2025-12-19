@@ -2,37 +2,23 @@
 ; Music indexes (see audio/music_pointers.asm)
 	const_def
 	const MUSIC_NONE                           ; 00
-	const MUSIC_TITLE                          ; 02
-	const MUSIC_MAIN_MENU                      ; 03
-	const MUSIC_NEW_BARK_TOWN                  ; 04
-	const MUSIC_MOM                            ; 05
-	const MUSIC_PROF_ELM                       ; 06
-	const MUSIC_LYRA_ENCOUNTER_HGSS            ; 07
-	const MUSIC_RIVAL_BATTLE_XY                ; 08
-	const MUSIC_LYRA_DEPARTURE_HGSS            ; 09
-	const MUSIC_ROUTE_29                       ; 0a
-	const MUSIC_UNOVA_WILD_BATTLE              ; 0b
-	const MUSIC_UNOVA_WILD_BATTLE_NIGHT        ; 0c
-	const MUSIC_WILD_VICTORY                   ; 0d
-	const MUSIC_CHERRYGROVE_CITY               ; 0e
-	const MUSIC_SHOW_ME_AROUND                 ; 0f
-	const MUSIC_POKEMON_CENTER                 ; 10
-	const MUSIC_HEAL                           ; 11
-	const MUSIC_CAPTURE                        ; 12
-	const MUSIC_YOUNGSTER_ENCOUNTER            ; 13
-	const MUSIC_JOHTO_TRAINER_BATTLE           ; 14
-	const MUSIC_TRAINER_VICTORY                ; 15
-	const MUSIC_ROUTE_30                       ; 16
-	const MUSIC_VIOLET_CITY                    ; 17
-	const MUSIC_SPROUT_TOWER                   ; 18
-	const MUSIC_MART_HGSS                      ; 1a
-	const MUSIC_HIDDEN_GROTTO_B2W2             ; 1b
-	const MUSIC_UNION_CAVE                     ; 1c
-	const MUSIC_RUINS_OF_ALPH_INTERIOR         ; 1d
-	const MUSIC_RUINS_OF_ALPH_RADIO            ; 1e
-	const MUSIC_AZALEA_TOWN                    ; 1f
-	const MUSIC_ROCKET_ENCOUNTER               ; 20
-	const MUSIC_ROCKET_BATTLE                  ; 21
+	const MUSIC_TITLE                          ; 01
+	const MUSIC_MAIN_MENU                      ; 02
+	const MUSIC_MOM                            ; 03
+	const MUSIC_UNOVA_WILD_BATTLE              ; 04
+	const MUSIC_UNOVA_WILD_BATTLE_NIGHT        ; 05
+	const MUSIC_WILD_VICTORY                   ; 06
+	const MUSIC_SHOW_ME_AROUND                 ; 07
+	const MUSIC_POKEMON_CENTER                 ; 08
+	const MUSIC_HEAL                           ; 09
+	const MUSIC_CAPTURE                        ; 0a
+	const MUSIC_YOUNGSTER_ENCOUNTER            ; 0b
+	const MUSIC_UNOVA_TRAINER_BATTLE           ; 0c
+	const MUSIC_TRAINER_VICTORY                ; 0d
+	const MUSIC_HIDDEN_GROTTO_B2W2             ; 0e
+	const MUSIC_ROUTE_4                        ; 0f
+	const MUSIC_PLASMA_ENCOUNTER               ; 10
+	const MUSIC_PLASMA_BATTLE                  ; 11
 	const MUSIC_ROUTE_36                       ; 22
 	const MUSIC_RIVAL_ENCOUNTER                ; 23
 	const MUSIC_RIVAL_BATTLE                   ; 24
@@ -193,6 +179,4 @@ DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)
 	const_def $ff, -1
-	const MUSIC_MAHOGANY_MART ; fe
-	const MUSIC_LAVENDER      ; fd
 DEF FIRST_ALT_MUSIC EQU const_value + 1

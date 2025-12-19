@@ -7,14 +7,8 @@ INCLUDE "audio/music/titlescreen.asm"
 SECTION "Song - mainmenu", ROMX
 INCLUDE "audio/music/mainmenu.asm"
 
-SECTION "Song - newbarktown", ROMX
-INCLUDE "audio/music/newbarktown.asm"
-
 SECTION "Song - mom", ROMX
 INCLUDE "audio/music/mom.asm"
-
-SECTION "Song - elmslab", ROMX
-INCLUDE "audio/music/elmslab.asm"
 
 SECTION "Song - unovawildbattle + unovawildbattlenight", ROMX
 INCLUDE "audio/music/unovawildbattle.asm"
@@ -23,12 +17,6 @@ INCLUDE "audio/music/unovawildbattlenight.asm"
 SECTION "Song - wildpokemonvictory + successfulcapture", ROMX
 INCLUDE "audio/music/wildpokemonvictory.asm"
 INCLUDE "audio/music/successfulcapture.asm"
-
-SECTION "Song - route29", ROMX
-INCLUDE "audio/music/route29.asm"
-
-SECTION "Song - cherrygrovecity", ROMX
-INCLUDE "audio/music/cherrygrovecity.asm"
 
 SECTION "Song - showmearound", ROMX
 INCLUDE "audio/music/showmearound.asm"
@@ -42,38 +30,20 @@ INCLUDE "audio/music/healpokemon.asm"
 SECTION "Song - lookyoungster", ROMX
 INCLUDE "audio/music/lookyoungster.asm"
 
-SECTION "Song - johtotrainerbattle", ROMX
-INCLUDE "audio/music/johtotrainerbattle.asm"
+SECTION "Song - unovatrainerbattle", ROMX
+INCLUDE "audio/music/unovatrainerbattle.asm"
 
 SECTION "Song - trainervictory", ROMX
 INCLUDE "audio/music/trainervictory.asm"
 
-SECTION "Song - route30", ROMX
-INCLUDE "audio/music/route30.asm"
-
-SECTION "Song - violetcity", ROMX
-INCLUDE "audio/music/violetcity.asm"
-
-SECTION "Song - sprouttower", ROMX
-INCLUDE "audio/music/sprouttower.asm"
-
-SECTION "Song - unioncave", ROMX
-INCLUDE "audio/music/unioncave.asm"
-
-SECTION "Song - ruinsofalphinterior", ROMX
-INCLUDE "audio/music/ruinsofalphinterior.asm"
-
-SECTION "Song - ruinsofalphradio", ROMX
-INCLUDE "audio/music/ruinsofalphradio.asm"
-
-SECTION "Song - azaleatown", ROMX
-INCLUDE "audio/music/azaleatown.asm"
+SECTION "Song - route4", ROMX
+INCLUDE "audio/music/route4.asm"
 
 SECTION "Song - lookplasma", ROMX
 INCLUDE "audio/music/lookplasma.asm"
 
-SECTION "Song - rocketbattle", ROMX
-INCLUDE "audio/music/rocketbattle.asm"
+SECTION "Song - plasmabattle", ROMX
+INCLUDE "audio/music/plasmabattle.asm"
 
 SECTION "Song - route36", ROMX
 INCLUDE "audio/music/route36.asm"
@@ -391,13 +361,6 @@ INCLUDE "audio/music/hgss/hoohbattle.asm"
 SECTION "Song - hgss/lugiabattle", ROMX
 INCLUDE "audio/music/hgss/lugiabattle.asm"
 
-SECTION "Song - hgss/lyraencounter + lyradeparture", ROMX
-INCLUDE "audio/music/hgss/lyraencounter.asm"
-INCLUDE "audio/music/hgss/lyradeparture.asm"
-
-SECTION "Song - hgss/mart", ROMX
-INCLUDE "audio/music/hgss/mart.asm"
-
 SECTION "Song - hgss/nuggetbridge", ROMX
 INCLUDE "audio/music/hgss/nuggetbridge.asm"
 
@@ -472,9 +435,6 @@ INCLUDE "audio/music/xy/laverrecity.asm"
 
 SECTION "Song - xy/powerplant", ROMX
 INCLUDE "audio/music/xy/powerplant.asm"
-
-SECTION "Song - xy/rivalbattle", ROMX
-INCLUDE "audio/music/xy/rivalbattle.asm"
 
 SECTION "Song - xy/titlescreen", ROMX
 INCLUDE "audio/music/xy/titlescreen.asm"

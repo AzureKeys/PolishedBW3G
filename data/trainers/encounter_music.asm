@@ -91,6 +91,6 @@ TrainerEncounterMusic:
 	db MUSIC_WORKER_ENCOUNTER ; waiter
 	db MUSIC_WORKER_ENCOUNTER ; waitress
 	db MUSIC_WORKER_ENCOUNTER ; worker
-	db MUSIC_ROCKET_ENCOUNTER ; gruntm
-	db MUSIC_ROCKET_ENCOUNTER ; gruntf
+	db MUSIC_PLASMA_ENCOUNTER ; gruntm
+	db MUSIC_PLASMA_ENCOUNTER ; gruntf
 	assert_table_length GRUNTF + 1

@@ -300,7 +300,7 @@ endc
 	pause 45
 	writetext PlayerRadioText3
 	pause 45
-	musicfadeout MUSIC_NEW_BARK_TOWN, 16
+	musicfadeout MUSIC_HUMILAU_CITY, 16
 	writetext PlayerRadioText4
 	pause 45
 	closetext

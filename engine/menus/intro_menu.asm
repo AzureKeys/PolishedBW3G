@@ -600,7 +600,7 @@ ProfElmSpeech:
 	call FadeToBlack
 	call ClearTileMap
 
-	ld e, MUSIC_ROUTE_30
+	ld e, MUSIC_ROUTE_4
 	call PlayMusic
 
 	ld c, 31

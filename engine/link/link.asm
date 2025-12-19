@@ -278,7 +278,7 @@ Gen2ToGen2LinkComms:
 	jmp ExitLinkCommunications
 
 .ready_to_trade
-	ld e, MUSIC_ROUTE_30
+	ld e, MUSIC_ROUTE_4
 	call PlayMusic
 	jmp InitTradeMenuDisplay
 
