@@ -75,7 +75,7 @@ PlayBattleMusic:
 	; Are we in the Safari Game?
 	ld a, [wBattleType]
 	cp BATTLETYPE_SAFARI
-	ld e, MUSIC_WILD_BATTLE_GO
+	ld e, MUSIC_UNOVA_WILD_BATTLE
 	jr z, .done
 
 	ld hl, BattleMusic_RegionalWilds
@@ -88,7 +88,7 @@ PlayBattleMusic:
 	call .loadfromarray
 	jr c, .done
 
-	ld e, MUSIC_TRAINER_BATTLE_BW
+	ld e, MUSIC_UNOVA_TRAINER_BATTLE
 	ld a, [wInBattleTowerBattle]
 	and a
 	jr nz, .done

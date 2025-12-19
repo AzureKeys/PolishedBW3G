@@ -2832,7 +2832,7 @@ FinalPkmnMusicAndAnimation:
 	ld e, MUSIC_NONE
 	call PlayMusic
 	call DelayFrame
-	ld e, MUSIC_FINAL_POKEMON_BW
+	ld e, MUSIC_FINAL_POKEMON
 	call PlayMusic
 	pop de
 .no_music
@@ -2855,35 +2855,6 @@ FinalPkmnMusicAndAnimation:
 ResetVariableBattleMusicCondition:
 	xor a ; COND_DEFAULT
 SetVariableBattleMusicCondition:
-	push af
-	; if we're playing music that uses 'jumpif'...
-	ld a, [wChannel1MusicID]
-	cp MUSIC_GYM_LEADER_BATTLE_SWSH
-	jr nz, .nope
-	; ...and we're not already on the final track...
-	ld a, [wChannel1Condition]
-	cp 3
-	jr z, .nope
-	; ...then play the default track
-	pop af
-	cp 3
-	jr nz, .skip_restart_music
-	; restart the music for the final track
-	ld e, MUSIC_NONE
-	call PlayMusic
-	call DelayFrame
-	ld e, MUSIC_GYM_LEADER_BATTLE_SWSH
-	call PlayMusic
-	ld a, 3
-.skip_restart_music
-	ld [wChannel1Condition], a
-	ld [wChannel2Condition], a
-	ld [wChannel3Condition], a
-	ld [wChannel4Condition], a
-	ret
-
-.nope
-	pop af
 	ret
 
 OfferSwitch:

@@ -2,7 +2,7 @@
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/pokecrystal/blob/master/audio/music/145_ChampionBattle.asm
 
-Music_ChampionBattleDPPt:
+Music_CynthiaBattle:
 	channel_count 4
 	channel 1, Music_ChampionBattleDPPt_Ch1
 	channel 2, Music_ChampionBattleDPPt_Ch2

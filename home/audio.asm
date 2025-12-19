@@ -401,7 +401,7 @@ GetMapMusic_MaybeSpecial::
 	jr GetPlayerStateMusic
 
 GetCyclingRoadMusic:
-	ld e, MUSIC_BICYCLE_XY
+	ld e, MUSIC_BICYCLE
 	ld a, [wPlayerState]
 	cp PLAYER_BIKE
 	ret z

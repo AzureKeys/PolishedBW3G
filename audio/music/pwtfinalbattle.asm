@@ -2,7 +2,7 @@
 ; Demixed by Pigu and PikalaxALT
 ; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/audio/music/custom/vsWCS.asm
 
-Music_WCSBattleBW:
+Music_PWTFinalBattle:
 	channel_count 3
 	channel 1, Music_WCSBattleBW_Ch1
 	channel 2, Music_WCSBattleBW_Ch2

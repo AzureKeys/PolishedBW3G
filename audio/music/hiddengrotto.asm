@@ -3,7 +3,7 @@
 ; https://pastebin.com/gde9CFXP
 ; http://picosong.com/wkT7C/
 
-Music_HiddenGrottoB2W2:
+Music_HiddenGrotto:
 	channel_count 4
 	channel 1, Music_HiddenGrottoB2W2_Ch1
 	channel 2, Music_HiddenGrottoB2W2_Ch2

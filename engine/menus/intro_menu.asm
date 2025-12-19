@@ -1230,14 +1230,6 @@ TitleScreenEntrance:
 
 ; Play the title screen music.
 	ld e, MUSIC_TITLE
-	ld a, [wSaveFileExists]
-	and a
-	jr z, .ok
-	ld hl, wStatusFlags
-	bit 6, [hl] ; hall of fame
-	jr z, .ok
-	ld e, MUSIC_TITLE_XY
-.ok
 	call PlayMusic
 
 	ld a, $88

@@ -3,7 +3,7 @@
 ; https://pastebin.com/nxxf3cRT
 ; https://hax.iimarckus.org/topic/6777/6/
 
-Music_FinalPokemonBW:
+Music_FinalPokemon:
 	channel_count 4
 	channel 1, Music_FinalPokemonBW_Ch1
 	channel 2, Music_FinalPokemonBW_Ch2

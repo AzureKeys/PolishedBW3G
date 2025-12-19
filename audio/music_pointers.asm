@@ -15,7 +15,7 @@ Music:
 	dba Music_LookYoungster
 	dba Music_UnovaTrainerBattle
 	dba Music_TrainerVictory
-	dba Music_HiddenGrottoB2W2
+	dba Music_HiddenGrotto
 	dba Music_UnovaRoute4
 	dba Music_LookPlasma
 	dba Music_PlasmaBattle
@@ -24,7 +24,7 @@ Music:
 	dba Music_Evolution
 	dba Music_Gym
 	dba Music_UnovaGymBattle
-	dba Music_FinalPokemonBW
+	dba Music_FinalPokemon
 	dba Music_GymLeaderVictory
 	dba Music_GameCorner
 	dba Music_Bicycle
@@ -37,104 +37,22 @@ Music:
 	dba Music_UnovaEliteFourBattle
 	dba Music_ChampionBattle
 	dba Music_HallOfFame
-	dba Music_SSAqua
-	dba Music_SurfingRBY
-	dba Music_VermilionCity
-	dba Music_KantoGymBattle
-	dba Music_LavenderTownRBY
-	dba Music_PokemonTowerRBY
-	dba Music_LavenderTown
-	dba Music_KantoWildBattle
-	dba Music_KantoWildBattleNight
-	dba Music_CeruleanCityHGSS
-	dba Music_BicycleRB
-	dba Music_NuggetBridgeHGSS
 	dba Music_MagnetTrain
-	dba Music_BlackCityBW
 	dba Music_PokemonLullaby
-	dba Music_CeladonCity
-	dba Music_GameCornerDPPt
-	dba Music_CanalaveCityDPPt
-	dba Music_BicycleXY
-	dba Music_Route12
-	dba Music_PokeFluteChannel
-	dba Music_Route209DPPt
-	dba Music_Route210DPPt
-	dba Music_Route225DPPt
-	dba Music_WildBattleGo
-	dba Music_DiglettsCaveRBY
-	dba Music_ViridianForest
 	dba Music_LookHiker
-	dba Music_ViridianCity
-	dba Music_Route3
-	dba Music_MtMoon
-	dba Music_MtMoonSquare
-	dba Music_Route1
-	dba Music_PalletTown
 	dba Music_ProfOak
 	dba Music_LookBeauty
-	dba Music_KantoTrainerBattle
-	dba Music_CinnabarIslandHGSS
-	dba Music_CinnabarMansionRBY
-	dba Music_TrainerBattleDPPt
-	dba Music_ScaryHouseXY
-	dba Music_EternaForestDPPt
-	dba Music_MountChimneyRSE
-	dba Music_MountPyreRSE
 	dba Music_BattleTowerTheme
 	dba Music_BattleTowerLobby
 	dba Music_BattleFactoryRSE
-	dba Music_TrainerBattleBW
 	dba Music_FrontierBrainBattleRSE
-	dba Music_ZinniaEncounterORAS
-	dba Music_Route205DPPt
-	dba Music_SurfRSE
-	dba Music_BicycleRSE
-	dba Music_WildBattleSM
-	dba Music_SunyshoreCityDPPt
-	dba Music_TrainerBattleSM
-	dba Music_Route203DPPt
-	dba Music_WhiteTreehollowWhite2
-	dba Music_LaverreCityXY
-	dba Music_Route101RSE
-	dba Music_EverGrandeCityRSE
-	dba Music_OreburghGateDPPt
-	dba Music_Route12BW
-	dba Music_RoadToReversalMountainB2W2
-	dba Music_ZinniaBattleORAS
-	dba Music_WallyEncounterORAS
-	dba Music_WallyBattleORAS
-	dba Music_SpikyEaredPichuHGSS
-	dba Music_MotherBeastBattleSM
-	dba Music_FrostCavernXY
-	dba Music_PowerPlantXY
-	dba Music_ReversalMountainWhite2
-	dba Music_MeteorFallsRSE
-	dba Music_LugiasSong2000_NoIntro
-	dba Music_LugiaBattleHGSS
-	dba Music_SummoningDanceHGSS
-	dba Music_HoOhBattleHGSS
-	dba Music_CeruleanCaveRBY
-	dba Music_MewtwoBattleStadium
-	dba Music_AbandonedShipRSE
-	dba Music_KantoLegendBattleXY
-	dba Music_GymLeaderBattleRSE
-	dba Music_GymLeaderBattleDPPt
-	dba Music_GymLeaderBattleBW
-	dba Music_GymLeaderBattleXY
-	dba Music_GymLeaderBattleSwSh
-	dba Music_GymLeaderBattleGo
-	dba Music_EliteFourBattleBW
-	dba Music_CelestialTowerBW_NoIntro
-	dba Music_ChampionBattleRSE
-	dba Music_MountCoronetDPPt
-	dba Music_ChampionBattleDPPt
-	dba Music_WCSBattleBW
-	dba Music_ChampionBattleB2W2
+	dba Music_SpikyEaredPichu
+	dba Music_CynthiaBattle
+	dba Music_PWTFinalBattle
+	dba Music_IrisBattle
 	dba Music_Credits
 	dba Music_PostCredits
 	dba Music_Printer
-	dba Music_TitleScreenXY
 	dba Music_HumilauCity
 	dba Music_UnovaRoute1
 	dba Music_LookAceTrainer

@@ -3,7 +3,7 @@
 ; https://pastebin.com/1TeQ2sMe
 ; https://hax.iimarckus.org/topic/6777/2/
 
-Music_ChampionBattleB2W2:
+Music_IrisBattle:
 	channel_count 4
 	channel 1, Music_ChampionBattleB2W2_Ch1
 	channel 2, Music_ChampionBattleB2W2_Ch2

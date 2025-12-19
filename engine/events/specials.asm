@@ -270,18 +270,7 @@ Special_ResetLuckyNumberShowFlag:
 	farjp LoadOrRegenerateLuckyIDNumber
 
 SpecialSnorlaxAwake:
-; Check if the Poké Flute channel is playing.
-
-; outputs:
-; hScriptVar is 1 if the conditions are met, otherwise 0.
-
-; check background music
-	ld a, [wMapMusic]
-	cp MUSIC_POKE_FLUTE_CHANNEL
-	ld a, TRUE
-	jr z, .done
 	xor a ; ld a, FALSE
-.done
 	ldh [hScriptVar], a
 	ret
 

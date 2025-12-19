@@ -3,7 +3,7 @@
 ; https://pastebin.com/stpKurZA
 ; https://hax.iimarckus.org/topic/6777/3/
 
-Music_SpikyEaredPichuHGSS:
+Music_SpikyEaredPichu:
 	channel_count 4
 	channel 1, Music_SpikyEaredPichuHGSS_Ch1
 	channel 2, Music_SpikyEaredPichuHGSS_Ch2
