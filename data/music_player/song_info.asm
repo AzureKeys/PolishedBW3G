@@ -6,7 +6,6 @@ ENDM
 SongInfo:
 	list_start
 	; title, origin, composer, additional credits
-	song_info "Opening", ORIGIN_C, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	song_info "Title Screen", ORIGIN_C, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	song_info "Main Menu", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA, COMPOSER_NONE
 	song_info "New Bark Town", ORIGIN_GS, COMPOSER_JUNICHI_MASUDA_GO_ICHINOSE, COMPOSER_NONE

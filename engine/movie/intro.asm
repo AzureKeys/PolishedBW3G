@@ -555,7 +555,7 @@ IntroScene13:
 	depixel 13, 11, 4, 0
 	ld a, SPRITE_ANIM_INDEX_INTRO_SUICUNE
 	call InitSpriteAnimStruct
-	ld e, MUSIC_CRYSTAL_OPENING
+	ld e, MUSIC_TITLE
 	call PlayMusic
 	xor a
 	ld [wGlobalAnimXOffset], a

@@ -2,7 +2,6 @@
 ; Music indexes (see audio/music_pointers.asm)
 	const_def
 	const MUSIC_NONE                           ; 00
-	const MUSIC_CRYSTAL_OPENING                ; 01
 	const MUSIC_TITLE                          ; 02
 	const MUSIC_MAIN_MENU                      ; 03
 	const MUSIC_NEW_BARK_TOWN                  ; 04
