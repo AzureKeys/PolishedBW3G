@@ -12,8 +12,8 @@
 	const MUSIC_RIVAL_BATTLE_XY                ; 08
 	const MUSIC_LYRA_DEPARTURE_HGSS            ; 09
 	const MUSIC_ROUTE_29                       ; 0a
-	const MUSIC_JOHTO_WILD_BATTLE              ; 0b
-	const MUSIC_JOHTO_WILD_BATTLE_NIGHT        ; 0c
+	const MUSIC_UNOVA_WILD_BATTLE              ; 0b
+	const MUSIC_UNOVA_WILD_BATTLE_NIGHT        ; 0c
 	const MUSIC_WILD_VICTORY                   ; 0d
 	const MUSIC_CHERRYGROVE_CITY               ; 0e
 	const MUSIC_SHOW_ME_AROUND                 ; 0f

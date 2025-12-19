@@ -12,8 +12,8 @@ Music:
 	dba Music_RivalBattleXY
 	dba Music_LyraDepartureHGSS
 	dba Music_Route29
-	dba Music_JohtoWildBattle
-	dba Music_JohtoWildBattleNight
+	dba Music_UnovaWildBattle
+	dba Music_UnovaWildBattleNight
 	dba Music_WildPokemonVictory
 	dba Music_CherrygroveCity
 	dba Music_ShowMeAround

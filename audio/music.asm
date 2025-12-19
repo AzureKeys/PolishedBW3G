@@ -19,9 +19,9 @@ INCLUDE "audio/music/mom.asm"
 SECTION "Song - elmslab", ROMX
 INCLUDE "audio/music/elmslab.asm"
 
-SECTION "Song - johtowildbattle + johtowildbattlenight", ROMX
-INCLUDE "audio/music/johtowildbattle.asm"
-INCLUDE "audio/music/johtowildbattlenight.asm"
+SECTION "Song - unovawildbattle + unovawildbattlenight", ROMX
+INCLUDE "audio/music/unovawildbattle.asm"
+INCLUDE "audio/music/unovawildbattlenight.asm"
 
 SECTION "Song - wildpokemonvictory + successfulcapture", ROMX
 INCLUDE "audio/music/wildpokemonvictory.asm"
