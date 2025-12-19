@@ -3559,4 +3559,68 @@ RosaGroup:
 	tr_mon 60, RATTATA
 	end_trainer
 
+
+SECTION "HilbertGroup", ROMX
+HilbertGroup:
+
+	def_trainer_class HILBERT
+	def_trainer HILBERT_SNIVY, "Hilbert"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer HILBERT_TEPIG, "Hilbert"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer HILBERT_OSHAWOTT, "Hilbert"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+
+
+SECTION "HildaGroup", ROMX
+HildaGroup:
+
+	def_trainer_class HILDA
+	def_trainer HILDA_SNIVY, "Hilda"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer HILDA_TEPIG, "Hilda"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+	
+	def_trainer HILDA_OSHAWOTT, "Hilda"
+	tr_mon 58, ESPEON
+	tr_mon 56, RATTATA
+	tr_mon 57, STARMIE
+	tr_mon 56, RATTATA
+	tr_mon 58, RATTATA
+	tr_mon 60, RATTATA
+	end_trainer
+
 ENDSECTION

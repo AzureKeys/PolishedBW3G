@@ -64,8 +64,8 @@
 	const SPRITE_HUGH ; 3e
 	const SPRITE_NATE ; 3f
 	const SPRITE_ROSA ; 40
-	const SPRITE_FLANNERY ; 41
-	const SPRITE_MAYLENE ; 42
+	const SPRITE_HILBERT ; 41
+	const SPRITE_HILDA ; 42
 	const SPRITE_VALERIE ; 44
 	const SPRITE_KUKUI ; 45
 	const SPRITE_CAITLIN ; 46

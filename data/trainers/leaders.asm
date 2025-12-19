@@ -16,6 +16,8 @@ BossTrainers:
 	db HUGH
 	db NATE
 	db ROSA
+	db HILBERT
+	db HILDA
 JohtoGymLeaders:
 	db MARLON
 	db SHAUNTAL

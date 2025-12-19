@@ -114,4 +114,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; hugh
 	db 252, PERFECT_DVS,   MALE   ; nate
 	db 252, PERFECT_DVS,   FEMALE ; rosa
+	db 252, PERFECT_DVS,   MALE   ; hilbert
+	db 252, PERFECT_DVS,   FEMALE ; hilda
 	assert_table_length NUM_TRAINER_CLASSES

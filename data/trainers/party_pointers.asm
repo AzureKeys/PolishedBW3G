@@ -114,4 +114,6 @@ TrainerGroups:
 	dba HughGroup
 	dba NateGroup
 	dba RosaGroup
+	dba HilbertGroup
+	dba HildaGroup
 	assert_table_length NUM_TRAINER_CLASSES

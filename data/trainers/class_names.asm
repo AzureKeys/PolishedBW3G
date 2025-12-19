@@ -111,4 +111,6 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; HUGH
 	li "<PK><MN> Master"  ; NATE
 	li "<PK><MN> Master"  ; ROSA
+	li "<PK><MN> Master"  ; HILBERT
+	li "<PK><MN> Master"  ; HILDA
 	assert_list_length NUM_TRAINER_CLASSES

@@ -313,6 +313,12 @@ NatePic: INCBIN "gfx/trainers/nate.2bpp.lz"
 SECTION "RosaPic", ROMX
 RosaPic: INCBIN "gfx/trainers/rosa.2bpp.lz"
 
+SECTION "HilbertPic", ROMX
+HilbertPic: INCBIN "gfx/trainers/hilbert.2bpp.lz"
+
+SECTION "HildaPic", ROMX
+HildaPic: INCBIN "gfx/trainers/hilda.2bpp.lz"
+
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 

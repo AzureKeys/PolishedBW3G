@@ -112,6 +112,8 @@ TrainerPicPointers::
 	dba HughPic
 	dba NatePic
 	dba RosaPic
+	dba HilbertPic
+	dba HildaPic
 	assert_table_length NUM_TRAINER_CLASSES
 	dba OmastarFossilPic
 	dba KabutopsFossilPic

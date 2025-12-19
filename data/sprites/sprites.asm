@@ -69,8 +69,8 @@ SpriteHeaders:
 	overworld_sprite HughSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite NateSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite RosaSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite FlannerySpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite MayleneSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite HilbertSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite HildaSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite ValerieSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite KukuiSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CaitlinSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
