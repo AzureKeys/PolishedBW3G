@@ -60,9 +60,6 @@ INCLUDE "audio/music/violetcity.asm"
 SECTION "Song - sprouttower", ROMX
 INCLUDE "audio/music/sprouttower.asm"
 
-SECTION "Song - looksage", ROMX
-INCLUDE "audio/music/looksage.asm"
-
 SECTION "Song - unioncave", ROMX
 INCLUDE "audio/music/unioncave.asm"
 
@@ -75,9 +72,8 @@ INCLUDE "audio/music/ruinsofalphradio.asm"
 SECTION "Song - azaleatown", ROMX
 INCLUDE "audio/music/azaleatown.asm"
 
-SECTION "Song - lookrocket + rockettheme", ROMX
-INCLUDE "audio/music/lookrocket.asm"
-INCLUDE "audio/music/rockettheme.asm"
+SECTION "Song - lookplasma", ROMX
+INCLUDE "audio/music/lookplasma.asm"
 
 SECTION "Song - rocketbattle", ROMX
 INCLUDE "audio/music/rocketbattle.asm"
@@ -85,9 +81,8 @@ INCLUDE "audio/music/rocketbattle.asm"
 SECTION "Song - route36", ROMX
 INCLUDE "audio/music/route36.asm"
 
-SECTION "Song - lookrival + aftertherivalfight", ROMX
+SECTION "Song - lookrival", ROMX
 INCLUDE "audio/music/lookrival.asm"
-INCLUDE "audio/music/aftertherivalfight.asm"
 
 SECTION "Song - rivalbattle", ROMX
 INCLUDE "audio/music/rivalbattle.asm"
@@ -140,14 +135,8 @@ INCLUDE "audio/music/ecruteakcity.asm"
 SECTION "Song - dancinghall", ROMX
 INCLUDE "audio/music/dancinghall.asm"
 
-SECTION "Song - lookkimonogirl", ROMX
-INCLUDE "audio/music/lookkimonogirl.asm"
-
 SECTION "Song - burnedtower", ROMX
 INCLUDE "audio/music/burnedtower.asm"
-
-SECTION "Song - lookmysticalman", ROMX
-INCLUDE "audio/music/lookmysticalman.asm"
 
 SECTION "Song - profoakspokemontalk", ROMX
 INCLUDE "audio/music/profoakspokemontalk.asm"
@@ -172,9 +161,6 @@ INCLUDE "audio/music/lakeofragerocketradio.asm"
 
 SECTION "Song - rockethideout", ROMX
 INCLUDE "audio/music/rockethideout.asm"
-
-SECTION "Song - lookpokemaniac", ROMX
-INCLUDE "audio/music/lookpokemaniac.asm"
 
 SECTION "Song - darkcave", ROMX
 INCLUDE "audio/music/darkcave.asm"
@@ -248,9 +234,6 @@ INCLUDE "audio/music/viridiancity.asm"
 
 SECTION "Song - route3", ROMX
 INCLUDE "audio/music/route3.asm"
-
-SECTION "Song - lookofficer", ROMX
-INCLUDE "audio/music/lookofficer.asm"
 
 SECTION "Song - mtmoon", ROMX
 INCLUDE "audio/music/mtmoon.asm"
@@ -546,5 +529,29 @@ INCLUDE "audio/music/humilaucity.asm"
 
 SECTION "Song - route22", ROMX
 INCLUDE "audio/music/route22.asm"
+
+SECTION "Song - lookacetrainer", ROMX
+INCLUDE "audio/music/lookacetrainer.asm"
+
+SECTION "Song - lookgentleman", ROMX
+INCLUDE "audio/music/lookgentleman.asm"
+
+SECTION "Song - lookworker", ROMX
+INCLUDE "audio/music/lookworker.asm"
+
+SECTION "Song - lookpsychic", ROMX
+INCLUDE "audio/music/lookpsychic.asm"
+
+SECTION "Song - lookroughneck", ROMX
+INCLUDE "audio/music/lookroughneck.asm"
+
+SECTION "Song - lookcyclist", ROMX
+INCLUDE "audio/music/lookcyclist.asm"
+
+SECTION "Song - lookscientist", ROMX
+INCLUDE "audio/music/lookscientist.asm"
+
+SECTION "Song - looktwins", ROMX
+INCLUDE "audio/music/looktwins.asm"
 
 ENDSECTION

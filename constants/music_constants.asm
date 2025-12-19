@@ -26,7 +26,6 @@
 	const MUSIC_ROUTE_30                       ; 16
 	const MUSIC_VIOLET_CITY                    ; 17
 	const MUSIC_SPROUT_TOWER                   ; 18
-	const MUSIC_SAGE_ENCOUNTER                 ; 19
 	const MUSIC_MART_HGSS                      ; 1a
 	const MUSIC_HIDDEN_GROTTO_B2W2             ; 1b
 	const MUSIC_UNION_CAVE                     ; 1c
@@ -38,7 +37,6 @@
 	const MUSIC_ROUTE_36                       ; 22
 	const MUSIC_RIVAL_ENCOUNTER                ; 23
 	const MUSIC_RIVAL_BATTLE                   ; 24
-	const MUSIC_RIVAL_AFTER                    ; 25
 	const MUSIC_EVOLUTION                      ; 26
 	const MUSIC_GOLDENROD_CITY                 ; 27
 	const MUSIC_POKECOM_CENTER                 ; 28
@@ -56,9 +54,7 @@
 	const MUSIC_BUG_CATCHING_CONTEST_RANKING   ; 34
 	const MUSIC_ECRUTEAK_CITY                  ; 35
 	const MUSIC_DANCING_HALL                   ; 36
-	const MUSIC_KIMONO_ENCOUNTER               ; 37
 	const MUSIC_BURNED_TOWER                   ; 38
-	const MUSIC_MYSTICALMAN_ENCOUNTER          ; 39
 	const MUSIC_POKEMON_TALK                   ; 3a
 	const MUSIC_ROUTE_37                       ; 3b
 	const MUSIC_POKEMON_MARCH                  ; 3c
@@ -73,8 +69,6 @@
 	const MUSIC_STARK_MOUNTAIN_DPPT            ; 45
 	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO      ; 46
 	const MUSIC_ROCKET_HIDEOUT                 ; 47
-	const MUSIC_POKEMANIAC_ENCOUNTER           ; 48
-	const MUSIC_ROCKET_OVERTURE                ; 49
 	const MUSIC_DARK_CAVE                      ; 4a
 	const MUSIC_DRAGONS_DEN                    ; 4b
 	const MUSIC_CLAIR                          ; 4c
@@ -118,7 +112,6 @@
 	const MUSIC_HIKER_ENCOUNTER                ; 72
 	const MUSIC_VIRIDIAN_CITY                  ; 73
 	const MUSIC_ROUTE_3                        ; 74
-	const MUSIC_OFFICER_ENCOUNTER              ; 75
 	const MUSIC_MT_MOON                        ; 76
 	const MUSIC_MT_MOON_SQUARE                 ; 77
 	const MUSIC_ROUTE_1                        ; 78
@@ -189,11 +182,18 @@
 	const MUSIC_TITLE_XY                       ; b9
 	const MUSIC_HUMILAU_CITY                   ; b9
 	const MUSIC_ROUTE_22                       ; b9
+	const MUSIC_ACE_TRAINER_ENCOUNTER          ; 13
+	const MUSIC_GENTLEMAN_ENCOUNTER            ; 13
+	const MUSIC_WORKER_ENCOUNTER               ; 13
+	const MUSIC_PSYCHIC_ENCOUNTER              ; 13
+	const MUSIC_ROUGHNECK_ENCOUNTER            ; 13
+	const MUSIC_CYCLIST_ENCOUNTER              ; 13
+	const MUSIC_SCIENTIST_ENCOUNTER            ; 13
+	const MUSIC_TWINS_ENCOUNTER                ; 13
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)
 	const_def $ff, -1
-	const MUSIC_RADIO_TOWER   ; ff
 	const MUSIC_MAHOGANY_MART ; fe
 	const MUSIC_LAVENDER      ; fd
 DEF FIRST_ALT_MUSIC EQU const_value + 1

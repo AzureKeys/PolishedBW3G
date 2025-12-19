@@ -26,19 +26,17 @@ Music:
 	dba Music_Route30
 	dba Music_VioletCity
 	dba Music_SproutTower
-	dba Music_LookSage
 	dba Music_MartHGSS
 	dba Music_HiddenGrottoB2W2
 	dba Music_UnionCave
 	dba Music_RuinsOfAlphInterior
 	dba Music_RuinsOfAlphRadio
 	dba Music_AzaleaTown
-	dba Music_LookRocket
+	dba Music_LookPlasma
 	dba Music_RocketBattle
 	dba Music_Route36
 	dba Music_LookRival
 	dba Music_RivalBattle
-	dba Music_AfterTheRivalFight
 	dba Music_Evolution
 	dba Music_GoldenrodCity
 	dba Music_PokeComCenter
@@ -56,9 +54,7 @@ Music:
 	dba Music_ContestResults
 	dba Music_EcruteakCity
 	dba Music_DancingHall
-	dba Music_LookKimonoGirl
 	dba Music_BurnedTower
-	dba Music_LookMysticalMan
 	dba Music_ProfOaksPokemonTalk
 	dba Music_Route37
 	dba Music_PokemonMarch
@@ -73,8 +69,6 @@ Music:
 	dba Music_StarkMountainDPPt
 	dba Music_LakeOfRageRocketRadio
 	dba Music_RocketHideout
-	dba Music_LookPokemaniac
-	dba Music_RocketTheme
 	dba Music_DarkCave
 	dba Music_DragonsDen
 	dba Music_Clair
@@ -118,7 +112,6 @@ Music:
 	dba Music_LookHiker
 	dba Music_ViridianCity
 	dba Music_Route3
-	dba Music_LookOfficer
 	dba Music_MtMoon
 	dba Music_MtMoonSquare
 	dba Music_Route1
@@ -189,4 +182,12 @@ Music:
 	dba Music_TitleScreenXY
 	dba Music_HumilauCity
 	dba Music_UnovaRoute1
+	dba Music_LookAceTrainer
+	dba Music_LookGentleman
+	dba Music_LookWorker
+	dba Music_LookPsychic
+	dba Music_LookRoughneck
+	dba Music_LookCyclist
+	dba Music_LookScientist
+	dba Music_LookTwins
 	assert_table_length NUM_MUSIC_SONGS
