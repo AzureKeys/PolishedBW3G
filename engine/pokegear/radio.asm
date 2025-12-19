@@ -627,7 +627,7 @@ OaksPkmnTalk14:
 	ld hl, wRadioTextDelay
 	dec [hl]
 	ret nz
-	ld e, MUSIC_POKEMON_TALK
+	ld e, MUSIC_POKEMON_CENTER
 	farcall RadioMusicRestart
 	ld hl, EmptyString
 	call PrintText
@@ -836,9 +836,9 @@ StartPokemonMusicChannel:
 	call PrintText
 	call GetWeekday
 	and 1
-	ld e, MUSIC_POKEMON_MARCH
+	ld e, MUSIC_POKEMON_CENTER
 	jr z, .SunTueThurSun
-	ld e, MUSIC_POKEMON_LULLABY
+	ld e, MUSIC_POKEMON_CENTER
 .SunTueThurSun:
 	farjp RadioMusicRestart
 

@@ -292,7 +292,7 @@ endc
 	iftruefwd .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
 	iftruefwd .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_TALK
+	playmusic MUSIC_POKEMON_CENTER
 	opentext
 	writetext PlayerRadioText1
 	pause 45

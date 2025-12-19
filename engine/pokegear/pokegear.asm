@@ -1071,7 +1071,7 @@ RadioMusicRestartPokemonChannel:
 	ld e, MUSIC_NONE
 	call PlayMusic
 	pop de
-	ld e, MUSIC_POKEMON_CHANNEL
+	ld e, MUSIC_POKEMON_CENTER
 	jmp PlayMusic
 
 NoRadioMusic:

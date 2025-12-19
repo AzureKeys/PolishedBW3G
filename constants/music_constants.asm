@@ -19,52 +19,22 @@
 	const MUSIC_ROUTE_4                        ; 0f
 	const MUSIC_PLASMA_ENCOUNTER               ; 10
 	const MUSIC_PLASMA_BATTLE                  ; 11
-	const MUSIC_ROUTE_36                       ; 22
-	const MUSIC_RIVAL_ENCOUNTER                ; 23
-	const MUSIC_RIVAL_BATTLE                   ; 24
-	const MUSIC_EVOLUTION                      ; 26
-	const MUSIC_GOLDENROD_CITY                 ; 27
-	const MUSIC_POKECOM_CENTER                 ; 28
-	const MUSIC_GYM                            ; 29
-	const MUSIC_JOHTO_GYM_LEADER_BATTLE        ; 2a
-	const MUSIC_FINAL_POKEMON_BW               ; 2b
-	const MUSIC_GYM_VICTORY                    ; 2c
-	const MUSIC_POKEMON_CHANNEL                ; 2d
-	const MUSIC_BUENAS_PASSWORD                ; 2e
-	const MUSIC_GAME_CORNER                    ; 2f
-	const MUSIC_BICYCLE                        ; 30
-	const MUSIC_LASS_ENCOUNTER                 ; 31
-	const MUSIC_NATIONAL_PARK                  ; 32
-	const MUSIC_BUG_CATCHING_CONTEST           ; 33
-	const MUSIC_BUG_CATCHING_CONTEST_RANKING   ; 34
-	const MUSIC_ECRUTEAK_CITY                  ; 35
-	const MUSIC_DANCING_HALL                   ; 36
-	const MUSIC_BURNED_TOWER                   ; 38
-	const MUSIC_POKEMON_TALK                   ; 3a
-	const MUSIC_ROUTE_37                       ; 3b
-	const MUSIC_POKEMON_MARCH                  ; 3c
-	const MUSIC_LIGHTHOUSE                     ; 3d
-	const MUSIC_SURF                           ; 3e
-	const MUSIC_CIANWOOD_CITY_HGSS             ; 3f
-	const MUSIC_ROUTE_47_HGSS                  ; 40
-	const MUSIC_JESSIE_JAMES_ENCOUNTER         ; 41
-	const MUSIC_SAFARI_ZONE_GATE_HGSS          ; 42
-	const MUSIC_SURFING_PIKACHU                ; 43
-	const MUSIC_LAKE_OF_RAGE                   ; 44
-	const MUSIC_STARK_MOUNTAIN_DPPT            ; 45
-	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO      ; 46
-	const MUSIC_ROCKET_HIDEOUT                 ; 47
-	const MUSIC_DARK_CAVE                      ; 4a
-	const MUSIC_DRAGONS_DEN                    ; 4b
-	const MUSIC_CLAIR                          ; 4c
-	const MUSIC_ROUTE_4_BW                     ; 4d
-	const MUSIC_TIN_TOWER                      ; 4e
-	const MUSIC_SUICUNE_BATTLE                 ; 4f
-	const MUSIC_ROUTE_26                       ; 50
-	const MUSIC_INDIGO_PLATEAU_RBY             ; 51
-	const MUSIC_VICTORY_ROAD                   ; 52
-	const MUSIC_INDIGO_PLATEAU                 ; 53
-	const MUSIC_ELITE_FOUR_BATTLE_SM           ; 54
+	const MUSIC_RIVAL_ENCOUNTER                ; 12
+	const MUSIC_RIVAL_BATTLE                   ; 13
+	const MUSIC_EVOLUTION                      ; 14
+	const MUSIC_GYM                            ; 15
+	const MUSIC_UNOVA_GYM_LEADER_BATTLE        ; 16
+	const MUSIC_FINAL_POKEMON_BW               ; 17
+	const MUSIC_GYM_VICTORY                    ; 18
+	const MUSIC_GAME_CORNER                    ; 19
+	const MUSIC_BICYCLE                        ; 1a
+	const MUSIC_LASS_ENCOUNTER                 ; 1b
+	const MUSIC_SURF                           ; 1c
+	const MUSIC_SURFING_PIKACHU                ; 1d
+	const MUSIC_ROCKET_HIDEOUT                 ; 1e
+	const MUSIC_SUICUNE_BATTLE                 ; 1f
+	const MUSIC_VICTORY_ROAD                   ; 20
+	const MUSIC_UNOVA_ELITE_FOUR_BATTLE        ; 21
 	const MUSIC_CHAMPION_BATTLE                ; 55
 	const MUSIC_HALL_OF_FAME                   ; 56
 	const MUSIC_SS_AQUA                        ; 57

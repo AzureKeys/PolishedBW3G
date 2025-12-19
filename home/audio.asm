@@ -135,14 +135,6 @@ PlayBikeMusic:
 	jr PlayMusic
 
 .get_bike_music
-	call RegionCheck
-	ld a, e
-	ld e, MUSIC_BICYCLE_RB
-	cp KANTO_REGION
-	ret z
-	ld e, MUSIC_BICYCLE_RSE
-	cp ORANGE_REGION
-	ret z
 	ld e, MUSIC_BICYCLE
 	ret
 
@@ -416,7 +408,6 @@ GetCyclingRoadMusic:
 	jr GetPlayerStateMusic
 
 GetBugCatchingContestMusic:
-	ld e, MUSIC_BUG_CATCHING_CONTEST_RANKING
 	ld a, [wStatusFlags2]
 	bit 2, a ; ENGINE_BUG_CONTEST_TIMER
 	ret nz
@@ -429,14 +420,6 @@ GetPlayerStateMusic:
 	ret z
 	cp PLAYER_SURF
 	jmp nz, GetMapMusic
-	call RegionCheck
-	ld a, e
-	ld e, MUSIC_SURF_KANTO
-	cp KANTO_REGION
-	ret z
-	ld e, MUSIC_SURF_HOENN
-	cp ORANGE_REGION
-	ret z
 	ld e, MUSIC_SURF
 	ret
 

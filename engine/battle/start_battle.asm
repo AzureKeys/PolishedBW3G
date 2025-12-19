@@ -93,7 +93,7 @@ PlayBattleMusic:
 	and a
 	jr nz, .done
 
-	ld e, MUSIC_JOHTO_GYM_LEADER_BATTLE
+	ld e, MUSIC_UNOVA_GYM_LEADER_BATTLE
 	farcall IsJohtoGymLeader
 	jr c, .done
 

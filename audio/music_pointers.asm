@@ -19,52 +19,22 @@ Music:
 	dba Music_UnovaRoute4
 	dba Music_LookPlasma
 	dba Music_PlasmaBattle
-	dba Music_Route36
 	dba Music_LookRival
 	dba Music_RivalBattle
 	dba Music_Evolution
-	dba Music_GoldenrodCity
-	dba Music_PokeComCenter
 	dba Music_Gym
-	dba Music_JohtoGymBattle
+	dba Music_UnovaGymBattle
 	dba Music_FinalPokemonBW
 	dba Music_GymLeaderVictory
-	dba Music_PokemonChannel
-	dba Music_BuenasPassword
 	dba Music_GameCorner
 	dba Music_Bicycle
 	dba Music_LookLass
-	dba Music_NationalPark
-	dba Music_BugCatchingContest
-	dba Music_ContestResults
-	dba Music_EcruteakCity
-	dba Music_DancingHall
-	dba Music_BurnedTower
-	dba Music_ProfOaksPokemonTalk
-	dba Music_Route37
-	dba Music_PokemonMarch
-	dba Music_Lighthouse
 	dba Music_Surf
-	dba Music_CianwoodCityHGSS
-	dba Music_Route47HGSS
-	dba Music_LookJessieJames
-	dba Music_SafariZoneGateHGSS
 	dba Music_SurfingPikachu
-	dba Music_LakeOfRage
-	dba Music_StarkMountainDPPt
-	dba Music_LakeOfRageRocketRadio
 	dba Music_RocketHideout
-	dba Music_DarkCave
-	dba Music_DragonsDen
-	dba Music_Clair
-	dba Music_Route4BW
-	dba Music_TinTower
 	dba Music_SuicuneBattle
-	dba Music_Route26
-	dba Music_IndigoPlateauRBY
 	dba Music_VictoryRoad
-	dba Music_IndigoPlateau
-	dba Music_EliteFourBattleSM
+	dba Music_UnovaEliteFourBattle
 	dba Music_ChampionBattle
 	dba Music_HallOfFame
 	dba Music_SSAqua
