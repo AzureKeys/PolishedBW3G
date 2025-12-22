@@ -80,7 +80,6 @@ HallOfFameEntranceTrigger:
 	special HealParty
 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
 	iftruefwd .SkipPhoneCall
-	specialphonecall SPECIALCALL_SSTICKET
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
 .SkipPhoneCall:

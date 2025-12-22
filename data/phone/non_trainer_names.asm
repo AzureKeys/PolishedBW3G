@@ -3,32 +3,23 @@ NonTrainerCallerNames:
 	table_width 2
 	dw EmptyString
 	dw .mom
-	dw .bikeshop
 	dw .bill
-	dw .elm
-	dw .lyra
-	dw .buena
+	dw .cheren
+	dw .bianca
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .mom:
 	text  "Mom:"
 	done
 .bill:
-	text  "Bill:"
+	text  "Amanita:"
 	next1 "   #maniac"
 	done
-.elm:
-	text  "Prof.Elm:"
+.bianca:
+	text  "Prof.Bianca:"
 	next1 "   #mon Prof."
 	done
-.bikeshop:
-	text  "Miracle Cycle:"
-	done
-.lyra:
-	text  "Lyra:"
+.cheren:
+	text  "Cheren:"
 	next1 "   <PK><MN> Trainer"
-	done
-.buena:
-	text  "Buena:"
-	next1 "   Disc Jockey"
 	done

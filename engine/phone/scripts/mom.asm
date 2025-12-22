@@ -2,7 +2,7 @@ MomPhoneScript:
 	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 	iftruefwd .bcec5
 	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
-	iftruefwd MomPhoneLectureScript
+	iftruefwd MomPhoneScript2
 	checkevent EVENT_GOT_A_POKEMON
 	iftruefwd MomPhoneNoPokedexScript
 	sjumpfwd MomPhoneNoPokemonScript
@@ -115,7 +115,7 @@ MomPhoneNoGymQuestScript:
 	farwritetext MomPhoneNoGymQuestText
 	end
 
-MomPhoneLectureScript:
+MomPhoneScript2:
 	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 	setflag ENGINE_MOM_ACTIVE
 	specialphonecall SPECIALCALL_NONE

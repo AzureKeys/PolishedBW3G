@@ -1858,9 +1858,12 @@ Zinzolin2FinalPkmnText:
 	prompt
 
 BiancaFinalPkmnText:
-	text "Hm! Excellent!"
-	line "But we aren't"
-	cont "done yet!"
+	text "I love your style"
+	line "of battling! Your"
+	
+	para "#mon look like"
+	line "they're having so"
+	cont "much fun!"
 	prompt
 
 PalmerFinalPkmnText:
@@ -1877,13 +1880,17 @@ InverFinalPkmnText:
 	prompt
 
 AlderFinalPkmnText:
-	text "It's almost"
-	line "over…"
+	text "Woooo! Your inex-"
+	line "haustible fighting"
+	cont "spirit!"
+	
+	para "Impressive!"
 	prompt
 
 IrisFinalPkmnText:
-	text "I'm down, but"
-	line "not out!"
+	text "I'll hone my mind"
+	line "and become one"
+	cont "with #mon!"
 	prompt
 
 CaitlinFinalPkmnText:
@@ -1898,36 +1905,28 @@ CynthiaFinalPkmnText:
 	prompt
 
 RoodFinalPkmnText:
-	text "Time for a dra-"
-	line "matic comeback!"
+	text "Ho! You fight as"
+	line "if you really"
+	
+	para "understand your"
+	line "#mon!"
 	prompt
 
 NFinalPkmnText:
-	text "Yaaarggh!"
+	text "More! Let me hear"
+	line "the voice of your"
+	cont "#mon!"
 	prompt
 
 HughFinalPkmnText:
-	text "We have a proud"
-	line "tradition of fail-"
-	cont "ure to uphold!"
+	text "We will put every-"
+	line "thing on the line"
+	cont "for this!"
 	prompt
 
 NateFinalPkmnText:
-	text "You only got a"
-	line "taste of my power!"
-	prompt
-
 RosaFinalPkmnText:
-	text "Don't assume that"
-	line "you've won, child!"
-	prompt
-
 HilbertFinalPkmnText:
-	text "I knew you would"
-	line "be strong…"
-	prompt
-
 HildaFinalPkmnText:
-	text "I can't keep up"
-	line "with healing…"
+	text "..."
 	prompt

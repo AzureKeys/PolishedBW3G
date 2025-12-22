@@ -37,7 +37,6 @@ BillPhoneScript1:
 
 BillPhoneScript2:
 	readvar VAR_SPECIALPHONECALL
-	ifequalfwd SPECIALCALL_SECONDBADGE, BillPhoneScriptSecondBadge
 	farwritetext BillPhoneNewlyFullText
 BillPhoneScriptCheckForBoxes:
 	special BillBoxSwitchCheck

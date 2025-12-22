@@ -237,7 +237,7 @@ endr
 	setmapscene PLAYERS_HOUSE_1F, $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
-	addcellnum PHONE_ELM
+	addcellnum PHONE_BIANCA
 ;	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
 ;	setevent EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 ;	setevent EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
@@ -257,7 +257,7 @@ endr
 	setevent EVENT_KURTS_HOUSE_KURT_1
 	; goldenrod events
 	setevent EVENT_BEAT_CAMPER_TODD
-	addcellnum PHONE_LYRA
+	addcellnum PHONE_CHEREN
 	setevent EVENT_LYRA_DAYCARE
 	setevent EVENT_NURSE_SAW_TRAINER_STAR
 	setevent EVENT_INTRODUCED_TEALA

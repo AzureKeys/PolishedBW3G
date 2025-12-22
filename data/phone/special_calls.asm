@@ -8,16 +8,13 @@ ENDM
 SpecialPhoneCallList:
 ; entries correspond to SPECIALCALL_* constants
 	table_width SPECIALCALL_SIZE
-	specialcall SpecialCallOnlyWhenOutside, PHONE_ELM,  ElmPhoneScript2           ; SPECIALCALL_POKERUS
-	specialcall SpecialCallOnlyWhenOutside, PHONE_ELM,  ElmPhoneScript2           ; SPECIALCALL_ROBBED
-	specialcall SpecialCallOnlyWhenOutside, PHONE_ELM,  ElmPhoneScript2           ; SPECIALCALL_ASSISTANT
-	specialcall SpecialCallOnlyWhenOutside, PHONE_ELM,  ElmPhoneScript2           ; SPECIALCALL_WEIRDBROADCAST
-	specialcall SpecialCallWhereverYouAre,  PHONE_ELM,  ElmPhoneScript2           ; SPECIALCALL_SSTICKET
-	specialcall SpecialCallWhereverYouAre,  PHONE_OAK,  BikeShopPhoneCallerScript ; SPECIALCALL_BIKESHOP
-	specialcall SpecialCallWhereverYouAre,  PHONE_MOM,  MomPhoneLectureScript     ; SPECIALCALL_WORRIED
-	specialcall SpecialCallOnlyWhenOutside, PHONE_ELM,  ElmPhoneScript2           ; SPECIALCALL_MASTERBALL
-	specialcall SpecialCallOnlyWhenOutside, PHONE_LYRA, LyraPhoneScript2          ; SPECIALCALL_YELLOWFOREST
-	specialcall SpecialCallOnlyWhenOutside, PHONE_LYRA, LyraPhoneScript2          ; SPECIALCALL_FIRSTBADGE
-	specialcall SpecialCallOnlyWhenOutside, PHONE_BILL, BillPhoneScript2          ; SPECIALCALL_SECONDBADGE
-	specialcall SpecialCallOnlyWhenOutside, PHONE_LYRA, LyraPhoneScript2          ; SPECIALCALL_LYRASEGG
+	specialcall SpecialCallOnlyWhenOutside, PHONE_BIANCA, BiancaPhoneScript2 ; SPECIALCALL_BIANCA_INTRO
+	specialcall SpecialCallOnlyWhenOutside, PHONE_BIANCA, BiancaPhoneScript2 ; SPECIALCALL_BIANCA_CASTELIA
+	specialcall SpecialCallOnlyWhenOutside, PHONE_BIANCA, BiancaPhoneScript2 ; SPECIALCALL_BIANCA_VIRBANK
+	specialcall SpecialCallOnlyWhenOutside, PHONE_BIANCA, BiancaPhoneScript2 ; SPECIALCALL_BIANCA_P2
+	specialcall SpecialCallOnlyWhenOutside, PHONE_BIANCA, BiancaPhoneScript2 ; SPECIALCALL_BIANCA_MEMBERS_CARD
+	specialcall SpecialCallWhereverYouAre,  PHONE_CHEREN, CherenPhoneScript2 ; SPECIALCALL_CHEREN_NIMBASA
+	specialcall SpecialCallOnlyWhenOutside, PHONE_CHEREN, CherenPhoneScript2 ; SPECIALCALL_CHEREN_MISTRALTON
+	specialcall SpecialCallOnlyWhenOutside, PHONE_MOM,    MomPhoneScript2    ; SPECIALCALL_MOM_LECTURE
+	specialcall SpecialCallOnlyWhenOutside, PHONE_BIANCA, BiancaPhoneScript2 ; SPECIALCALL_POKERUS
 	assert_table_length NUM_SPECIALCALLS

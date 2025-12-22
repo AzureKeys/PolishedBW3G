@@ -28,11 +28,9 @@ ENDM
 ; trainer constants are indexes for the sub-tables of TrainerGroups (see data/trainers/parties.asm)
 	trainerclass TRAINER_NONE ; 0
 	const PHONECONTACT_MOM
-	const PHONECONTACT_BIKESHOP
 	const PHONECONTACT_BILL
-	const PHONECONTACT_ELM
-	const PHONECONTACT_LYRA
-	const PHONECONTACT_BUENA
+	const PHONECONTACT_CHEREN
+	const PHONECONTACT_BIANCA
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 DEF KRIS EQU __trainer_class__
