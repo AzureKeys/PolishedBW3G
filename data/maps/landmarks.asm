@@ -9,12 +9,14 @@ Landmarks:
 	landmark  -8, -16, SpecialMapName
 	landmark 140,  28, HumilauCityName
 	landmark 132,  28, Route22Name
+	landmark 124,  28, GiantChasmName
 	landmark  28,  52, BattleTowerName
 	landmark  28,  76, PokemonLeagueName
 	assert_table_length NUM_LANDMARKS
 
 HumilauCityName:       rawchar "Humilau¯City@"
 Route22Name:           rawchar "Route 22@"
+GiantChasmName:        rawchar "Giant Chasm@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 SpecialMapName:        rawchar "?@"

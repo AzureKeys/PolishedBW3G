@@ -177,4 +177,7 @@ INCLUDE "audio/music/lookscientist.asm"
 SECTION "Song - looktwins", ROMX
 INCLUDE "audio/music/looktwins.asm"
 
+SECTION "Song - unovacave", ROMX
+INCLUDE "audio/music/unovacave.asm"
+
 ENDSECTION

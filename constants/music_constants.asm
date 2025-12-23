@@ -63,6 +63,7 @@
 	const MUSIC_CYCLIST_ENCOUNTER              ; 3b
 	const MUSIC_SCIENTIST_ENCOUNTER            ; 3c
 	const MUSIC_TWINS_ENCOUNTER                ; 3d
+	const MUSIC_UNOVA_CAVE                     ; 3e
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

@@ -21,7 +21,7 @@ INCLUDE "maps/BattleTowerHallway.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
 
 
-SECTION "Indigo Plateau Scripts", ROMX
+SECTION "Pokemon League Scripts", ROMX
 
 INCLUDE "maps/HallOfFame.asm"
 
@@ -39,6 +39,7 @@ INCLUDE "maps/MarlonsHouse.asm"
 SECTION "Route 22 Scripts", ROMX
 
 INCLUDE "maps/Route22.asm"
+INCLUDE "maps/GiantChasm1F.asm"
 
 
 ENDSECTION

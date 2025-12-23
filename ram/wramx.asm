@@ -1060,6 +1060,7 @@ wAlways0SceneID:: db
 wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wColosseumSceneID:: db
+wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
 wPlayersHouse1FSceneID:: db
@@ -1111,7 +1112,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 142 ; unused
+	ds 141 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

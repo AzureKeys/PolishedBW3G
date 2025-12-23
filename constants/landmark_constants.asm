@@ -4,6 +4,7 @@
 ; Johto landmarks
 	const HUMILAU_CITY       ; 01
 	const ROUTE_22           ; 02
+	const GIANT_CHASM        ; 03
 	const BATTLE_TOWER       ; 2a
 	const POKEMON_LEAGUE     ; 7c
 DEF KANTO_LANDMARK EQU const_value

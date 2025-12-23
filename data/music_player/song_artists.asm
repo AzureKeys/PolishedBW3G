@@ -28,4 +28,6 @@ SongArtists:
 	li "NotFroggestSpirit"
 	li "Toby Fox"
 	li "ShinkoNetCavy,      ShockSlayer"
+	li "Azure Keys"
+	li "Regen"
 	assert_list_length NUM_SONG_ARTISTS

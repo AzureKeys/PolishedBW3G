@@ -74,4 +74,6 @@ DEF NUM_SONG_ORIGINS EQU const_value
 	const COMPOSER_NOTFROGGESTSPIRIT             ; 19
 	const COMPOSER_TOBY_FOX                      ; 1a
 	const COMPOSER_SHINKONETCAVY_SHOCKSLAYER     ; 1b
+	const COMPOSER_AZURE_KEYS                    ; 1c
+	const COMPOSER_REGEN                         ; 1d
 DEF NUM_SONG_ARTISTS EQU const_value

@@ -63,4 +63,5 @@ Music:
 	dba Music_LookCyclist
 	dba Music_LookScientist
 	dba Music_LookTwins
+	dba Music_UnovaCave
 	assert_table_length NUM_MUSIC_SONGS

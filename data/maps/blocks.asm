@@ -74,4 +74,8 @@ SECTION "Route22_BlockData", ROMX
 Route22_BlockData:
 	INCBIN "maps/Route22.ablk.lz"
 
+SECTION "GiantChasm1F_BlockData", ROMX
+GiantChasm1F_BlockData:
+	INCBIN "maps/GiantChasm1F.ablk.lz"
+
 ENDSECTION
