@@ -55,4 +55,7 @@ ENDM
 	map_const MARLONS_HOUSE,                               5,  4 ;  5
 	map_const ROUTE_22,                                   19, 10 ;  5
 
+	newgroup                                                     ;  5
+	map_const ROUTE_13,                                   18, 27 ;  1
+
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -190,11 +190,11 @@ HilbertSpriteGFX:: INCBIN "gfx/sprites/hilbert.2bpp.lz"
 SECTION "HildaSpriteGFX", ROMX
 HildaSpriteGFX:: INCBIN "gfx/sprites/hilda.2bpp.lz"
 
-SECTION "ValerieSpriteGFX", ROMX
-ValerieSpriteGFX:: INCBIN "gfx/sprites/valerie.2bpp.lz"
+SECTION "PatratSideSpriteGFX", ROMX
+PatratSideSpriteGFX:: INCBIN "gfx/sprites/patrat_side.2bpp.lz"
 
-SECTION "KukuiSpriteGFX", ROMX
-KukuiSpriteGFX:: INCBIN "gfx/sprites/kukui.2bpp.lz"
+SECTION "PurrloinSideSpriteGFX", ROMX
+PurrloinSideSpriteGFX:: INCBIN "gfx/sprites/purrloin_side.2bpp.lz"
 
 SECTION "CaitlinSpriteGFX", ROMX
 CaitlinSpriteGFX:: INCBIN "gfx/sprites/caitlin.2bpp.lz"

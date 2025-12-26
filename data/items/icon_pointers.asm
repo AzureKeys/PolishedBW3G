@@ -238,10 +238,10 @@ ItemIconPointers:
 	dba BigPearlIcon
 	dba PearlStringIcon
 	dba StardustIcon
-	dba StarPieceIcon
-	dba BrickPieceIcon
-	dba RareBoneIcon
-	dba SlowpokeTailIcon
+	dba RedShardIcon
+	dba BlueShardIcon
+	dba GreenShardIcon
+	dba YellowShardIcon
 	dba HelixFossilIcon
 	dba DomeFossilIcon
 	dba OldAmberIcon

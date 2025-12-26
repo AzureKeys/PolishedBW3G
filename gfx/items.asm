@@ -627,18 +627,15 @@ BigPearlIcon:: INCBIN "gfx/items/big_pearl.2bpp.lz"
 SECTION "PearlStringIcon", ROMX
 PearlStringIcon:: INCBIN "gfx/items/pearl_string.2bpp.lz"
 
-SECTION "StarPieceIcon", ROMX
-StarPieceIcon:: INCBIN "gfx/items/star_piece.2bpp.lz"
-
-SECTION "BrickPieceIcon", ROMX
-BrickPieceIcon:: INCBIN "gfx/items/brick_piece.2bpp.lz"
+SECTION "ShardIcon", ROMX
+RedShardIcon::
+BlueShardIcon::
+GreenShardIcon::
+YellowShardIcon:: INCBIN "gfx/items/shard.2bpp.lz"
 
 SECTION "LeafIcon", ROMX
 SilverLeafIcon::
 GoldLeafIcon:: INCBIN "gfx/items/leaf.2bpp.lz"
-
-SECTION "SlowpokeTailIcon", ROMX
-SlowpokeTailIcon:: INCBIN "gfx/items/slowpoketail.2bpp.lz"
 
 SECTION "BottleCapIcon", ROMX
 BottleCapIcon:: INCBIN "gfx/items/bottle_cap.2bpp.lz"

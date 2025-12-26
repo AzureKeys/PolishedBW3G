@@ -237,10 +237,10 @@ ItemDescriptions:
 	dw BigPearlDesc
 	dw PearlStringDesc
 	dw StardustDesc
-	dw StarPieceDesc
-	dw BrickPieceDesc
-	dw RareBoneDesc
-	dw SlowpokeTailDesc
+	dw RedShardDesc
+	dw BlueShardDesc
+	dw GreenShardDesc
+	dw YellowShardDesc
 	dw HelixFossilDesc
 	dw DomeFossilDesc
 	dw OldAmberDesc
@@ -1350,19 +1350,24 @@ StardustDesc:
 	next "Sell high."
 	done
 
-StarPieceDesc:
-	text "A hunk of red gem."
-	next "Sell very high."
+RedShardDesc:
+	text "Red gem sought"
+	next "by collectors."
 	done
 
-BrickPieceDesc:
-	text "A chunk of tile."
-	next "Sell low."
+BlueShardDesc:
+	text "Blue gem sought"
+	next "by collectors."
 	done
 
-RareBoneDesc:
-	text "A rare bone."
-	next "Sell high."
+GreenShardDesc:
+	text "Green gem sought"
+	next "by collectors."
+	done
+
+YellowShardDesc:
+	text "Yellow gem sought"
+	next "by collectors."
 	done
 
 SilverLeafDesc:
@@ -1373,11 +1378,6 @@ SilverLeafDesc:
 GoldLeafDesc:
 	text "A strange, gold-"
 	next "colored leaf."
-	done
-
-SlowpokeTailDesc:
-	text "Very tasty. Sell"
-	next "high."
 	done
 
 BottleCapDesc:

@@ -235,9 +235,8 @@ YellowForestMart:
 	db -1
 
 MahoganyMart1:
-	db 4 ; # items
+	db 3 ; # items
 	db TINYMUSHROOM
-	db SLOWPOKETAIL
 	db GREAT_BALL
 	db SUPER_POTION
 	db -1

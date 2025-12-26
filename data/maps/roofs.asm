@@ -8,4 +8,5 @@ MapGroupRoofs:
 	db -1            ; Special
 	db -1            ; Dungeons
 	db -1            ; Humilau
+	db -1            ; Lacunosa
 	assert_table_length NUM_MAP_GROUPS + 1

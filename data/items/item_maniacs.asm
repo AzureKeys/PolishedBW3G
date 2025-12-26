@@ -70,12 +70,9 @@ OreManiacItemRewards:
 	dbw BIG_PEARL,     8000
 	dbw PEARL_STRING, 16000
 	dbw STARDUST,      3000
-	dbw STAR_PIECE,   12000
-	dbw BRICK_PIECE,    100
 	db -1
 
 FossilManiacItemRewards:
-	dbw RARE_BONE,    5000
 	dbw HELIX_FOSSIL, 1000
 	dbw DOME_FOSSIL,  1000
 	dbw OLD_AMBER,    1000

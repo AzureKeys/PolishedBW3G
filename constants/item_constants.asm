@@ -301,10 +301,11 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const BIG_PEARL    ; eb
 	const PEARL_STRING ; ec
 	const STARDUST     ; ed
-	const STAR_PIECE   ; ee
-	const BRICK_PIECE  ; ef
-	const RARE_BONE    ; f0
-	const SLOWPOKETAIL ; f1
+	
+	const RED_SHARD    ; ee
+	const BLUE_SHARD   ; ef
+	const GREEN_SHARD  ; f0
+	const YELLOW_SHARD ; f1
 
 	const HELIX_FOSSIL ; f2
 	const DOME_FOSSIL  ; f3
@@ -352,10 +353,10 @@ DEF ALWAYS_ITEM_2  EQU $ff
 	const NAM_BLACK_BELT
 	const NAM_BLACK_SLUDGE
 	const NAM_BLACKGLASSES
+	const NAM_BLUE_SHARD
 	const NAM_BLUESKY_MAIL
 	const NAM_BLUNDRPOLICY
 	const NAM_BOTTLE_CAP
-	const NAM_BRICK_PIECE
 	const NAM_BRIGHTPOWDER
 	const NAM_BURN_HEAL
 if !DEF(FAITHFUL)
@@ -413,6 +414,7 @@ endc
 	const NAM_GANLON_BERRY
 	const NAM_GOLD_LEAF
 	const NAM_GREAT_BALL
+	const NAM_GREEN_SHARD
 	const NAM_GREPA_BERRY
 	const NAM_GRIP_CLAW
 	const NAM_GUARD_SPEC
@@ -529,12 +531,12 @@ endc
 if DEF(FAITHFUL)
 	const NAM_RAGECANDYBAR
 endc
-	const NAM_RARE_BONE
 	const NAM_RARE_CANDY
 	const NAM_RAWST_BERRY
 	const NAM_RAZOR_CLAW
 	const NAM_RAZOR_FANG
 	const NAM_RED_CARD
+	const NAM_RED_SHARD
 	const NAM_REPEAT_BALL
 	const NAM_REPEL
 	const NAM_REVIVAL_HERB
@@ -555,14 +557,12 @@ endc
 	const NAM_SILVER_LEAF
 	const NAM_SILVERPOWDER
 	const NAM_SITRUS_BERRY
-	const NAM_SLOWPOKETAIL
 	const NAM_SMOKE_BALL
 	const NAM_SMOOTH_ROCK
 	const NAM_SODA_POP
 	const NAM_SOFT_SAND
 	const NAM_SOOTHE_BELL
 	const NAM_SPELL_TAG
-	const NAM_STAR_PIECE
 	const NAM_STARDUST
 	const NAM_STARF_BERRY
 	const NAM_SUN_STONE
@@ -593,6 +593,7 @@ endc
 	const NAM_X_SP_ATK
 	const NAM_X_SP_DEF
 	const NAM_X_SPEED
+	const NAM_YELLOW_SHARD
 	const NAM_ZINC
 	const NAM_ZOOM_LENS
 	assert const_value - 1 == NUM_ITEMS

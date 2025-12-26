@@ -6,6 +6,7 @@ if !DEF(MONOCHROME)
 	RGB  26,24,17, 20,15,03,  13,11,17, 08,04,05,  21,19,13, 17,11,01  ; Special
 	RGB  22,20,10, 17,14,03,  11,11,05, 10,09,07,  18,16,07, 14,11,02  ; Victory Road Outside
 	RGB  22,20,10, 17,14,03,  11,11,05, 10,09,07,  18,16,07, 14,11,02  ; Humilau
+	RGB  22,20,10, 17,14,03,  11,11,05, 10,09,07,  18,16,07, 14,11,02  ; Lacunosa
 else
 rept NUM_MAP_GROUPS + 1
 	MONOCHROME_RGB_TWO

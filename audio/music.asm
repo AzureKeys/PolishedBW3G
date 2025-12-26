@@ -180,4 +180,7 @@ INCLUDE "audio/music/looktwins.asm"
 SECTION "Song - unovacave", ROMX
 INCLUDE "audio/music/unovacave.asm"
 
+SECTION "Song - route13", ROMX
+INCLUDE "audio/music/route13.asm"
+
 ENDSECTION

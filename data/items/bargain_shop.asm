@@ -6,5 +6,4 @@ BargainShopData:
 	dbw BIG_PEARL,    3500
 	dbw PEARL_STRING, 6500
 	dbw STARDUST,     1000
-	dbw STAR_PIECE,   4600
 	db -1

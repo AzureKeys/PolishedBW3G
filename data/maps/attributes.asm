@@ -13,6 +13,8 @@ ENDM
 	
 	map_attributes Route22, ROUTE_22, $35, EAST
 	connection west, HumilauCity, HUMILAU_CITY, 2
+	
+	map_attributes Route13, ROUTE_13, $e, 0
 
 	map_attributes HumilauPokecenter, HUMILAU_POKECENTER, $0, 0
 	map_attributes MarlonsHouse, MARLONS_HOUSE, $0, 0

@@ -40,6 +40,7 @@ SECTION "Route 22 Scripts", ROMX
 
 INCLUDE "maps/Route22.asm"
 INCLUDE "maps/GiantChasm1F.asm"
+INCLUDE "maps/Route13.asm"
 
 
 ENDSECTION

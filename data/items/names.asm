@@ -304,10 +304,11 @@ endc
 	li "Big Pearl"
 	li "Pearl String"
 	li "Stardust"
-	li "Star Piece"
-	li "Brick Piece"
-	li "Rare Bone"
-	li "SlowpokeTail"
+	
+	li "Red Shard"
+	li "Blue Shard"
+	li "Green Shard"
+	li "Yellow Shard"
 
 	li "Helix Fossil"
 	li "Dome Fossil"

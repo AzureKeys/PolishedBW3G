@@ -4,7 +4,7 @@
 	db WATER, PSYCHIC  ; type
 	db 60  ; catch rate
 	db 207  ; base exp
-	db STARDUST, STAR_PIECE  ; held items
+	db STARDUST, 0  ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for STARMIE, ILLUMINATE, NATURAL_CURE, ANALYTIC

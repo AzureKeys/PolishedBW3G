@@ -249,10 +249,10 @@ _DoItemEffect::
 	dw IsntTheTimeMessage ; BIG_PEARL
 	dw IsntTheTimeMessage ; PEARL_STRING
 	dw IsntTheTimeMessage ; STARDUST
-	dw IsntTheTimeMessage ; STAR_PIECE
-	dw IsntTheTimeMessage ; BRICK_PIECE
-	dw IsntTheTimeMessage ; RARE_BONE
-	dw IsntTheTimeMessage ; SLOWPOKETAIL
+	dw IsntTheTimeMessage ; RED_SHARD
+	dw IsntTheTimeMessage ; BLUE_SHARD
+	dw IsntTheTimeMessage ; GREEN_SHARD
+	dw IsntTheTimeMessage ; YELLOW_SHARD
 	dw IsntTheTimeMessage ; HELIX_FOSSIL
 	dw IsntTheTimeMessage ; DOME_FOSSIL
 	dw IsntTheTimeMessage ; OLD_AMBER
