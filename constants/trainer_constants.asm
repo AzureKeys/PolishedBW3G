@@ -541,24 +541,24 @@ DEF CRYS EQU __trainer_class__
 	const SOCIALITE_CELESTIAL_TOWER
 
 	trainerclass SWIMMERM ; 50
-	const SWIMMER_M_HUMILAU_GYM
-	const SWIMMER_M_R17_1
-	const SWIMMER_M_R21_1
+	const SWIMMERM_HUMILAU_GYM
+	const SWIMMERM_R17_1
+	const SWIMMERM_R21_1
 
 	trainerclass SWIMMERM_D ; 51
-	const SWIMMER_M_R17_2
-	const SWIMMER_M_R21_2
-	const SWIMMER_M_R21_3
+	const SWIMMERM_R17_2
+	const SWIMMERM_R21_2
+	const SWIMMERM_R21_3
 
 	trainerclass SWIMMERF ; 52
-	const SWIMMER_F_R17_1
-	const SWIMMER_F_R21_1
-	const SWIMMER_F_R21_2
+	const SWIMMERF_R17_1
+	const SWIMMERF_R21_1
+	const SWIMMERF_R21_2
 
 	trainerclass SWIMMERF_D ; 53
-	const SWIMMER_F_HUMILAU_GYM
-	const SWIMMER_F_R17_2
-	const SWIMMER_F_R21_3
+	const SWIMMERF_HUMILAU_GYM
+	const SWIMMERF_R17_2
+	const SWIMMERF_R21_3
 
 	trainerclass TWINS ; 54
 	const TWINS_MARINE_TUBE

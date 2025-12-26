@@ -47,7 +47,7 @@ TrainerYoungsterR13:
 	end
 	
 TrainerLassR13:
-	generictrainer LASS, LASS_R13, EVENT_BEAT_LASS_R13, LassR13SeenText, LassR13BeatenText
+	generictrainer LASS, LASS_R13, EVENT_BEAT_LASS_R13, .SeenText, .BeatenText
 
 	text "Maybe I'll try a"
 	line "wild #mon next"
@@ -56,20 +56,54 @@ TrainerLassR13:
 	line "win…"
 	done
 	
+.SeenText:
+	text "Hey, you! Have you"
+	line "seen my cute #-"
+	cont "mon? Take a look!"
+	done
+
+.BeatenText:
+	text "My #mon are"
+	line "cute even if they"
+	cont "lose!"
+	done
+	
 TrainerSchoolKidMR13:
-	generictrainer SCHOOL_KIDM, SCHOOL_KIDM_R13, EVENT_BEAT_SCHOOL_KIDM_R13, SchoolKidMR13SeenText, SchoolKidMR13BeatenText
+	generictrainer SCHOOL_KIDM, SCHOOL_KIDM_R13, EVENT_BEAT_SCHOOL_KIDM_R13, .SeenText, .BeatenText
 
 	text "I know! I'll go"
 	line "home and take a"
 	cont "nap!"
 	done
 	
+.SeenText:
+	text "I'm the strongest"
+	line "trainer in my"
+	cont "class!"
+	done
+
+.BeatenText:
+	text "I guess I'm not"
+	line "the strongest in"
+	cont "the world."
+	done
+	
 TrainerSchoolKidFR13:
-	generictrainer SCHOOL_KIDF, SCHOOL_KIDF_R13, EVENT_BEAT_SCHOOL_KIDF_R13, SchoolKidFR13SeenText, SchoolKidFR13BeatenText
+	generictrainer SCHOOL_KIDF, SCHOOL_KIDF_R13, EVENT_BEAT_SCHOOL_KIDF_R13, .SeenText, .BeatenText
 
 	text "If #mon were a"
 	line "subject at school,"
 	cont "I'd be the best!"
+	done
+	
+.SeenText:
+	text "My favorite class"
+	line "is math!"
+	done
+
+.BeatenText:
+	text "Oh, no!"
+	line "How could I lose?"
 	done
 	
 YoungsterR13SeenText:
@@ -86,40 +120,6 @@ YoungsterR13BeatenText:
 	text "Wow! I could tell"
 	line "you really wanted"
 	cont "to win!"
-	done
-	
-LassR13SeenText:
-	text "Hey, you! Have you"
-	line "seen my cute #-"
-	cont "mon? Take a look!"
-	done
-
-LassR13BeatenText:
-	text "My #mon are"
-	line "cute even if they"
-	cont "lose!"
-	done
-	
-SchoolKidFR13SeenText:
-	text "My favorite class"
-	line "is math!"
-	done
-
-SchoolKidFR13BeatenText:
-	text "Oh, no!"
-	line "How could I lose?"
-	done
-	
-SchoolKidMR13SeenText:
-	text "I'm the strongest"
-	line "trainer in my"
-	cont "class!"
-	done
-
-SchoolKidMR13BeatenText:
-	text "I guess I'm not"
-	line "the strongest in"
-	cont "the world."
 	done
 	
 R13Blocker1Text:

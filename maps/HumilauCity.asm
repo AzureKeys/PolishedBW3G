@@ -10,6 +10,7 @@ HumilauCity_MapScriptHeader:
 	warp_event  3, 27, HUMILAU_POKECENTER, 1
 	warp_event 23,  3, MOMS_PARTNERS_HOUSE, 1
 	warp_event  3, 13, HUMILAU_TRADE_HOUSE, 1
+	warp_event  8, 23, HUMILAU_GYM, 1
 
 	def_coord_events
 	coord_event  1,  9, 0, HumilauCity_NeighborStopsYouScene

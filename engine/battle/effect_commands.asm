@@ -788,28 +788,35 @@ BattleCommand_checkobedience:
 	; The maximum obedience level is constrained by owned badges:
 	ld hl, wJohtoBadges
 
-	; risingbadge
-	bit RISINGBADGE, [hl]
+	bit LEGENDBADGE, [hl]
 	ld a, MAX_LEVEL + 1
 	jr nz, .getlevel
+	
+	bit JETBADGE, [hl]
+	ld a, 80
+	jr nz, .getlevel
 
-	; mineralbadge
-	bit MINERALBADGE, [hl]
+	bit GARNISHBADGE, [hl]
 	ld a, 70
 	jr nz, .getlevel
 
-	; fogbadge
-	bit FOGBADGE, [hl]
+	bit BASICBADGE, [hl]
+	ld a, 60
+	jr nz, .getlevel
+
+	bit TOXICBADGE, [hl]
 	ld a, 50
 	jr nz, .getlevel
 
-	; hivebadge
-	bit HIVEBADGE, [hl]
+	bit INSECTBADGE, [hl]
+	ld a, 40
+	jr nz, .getlevel
+
+	bit SPOOKYBADGE, [hl]
 	ld a, 30
 	jr nz, .getlevel
 
-	; zephyrbadge
-	bit ZEPHYRBADGE, [hl]
+	bit WAVEBADGE, [hl]
 	ld a, 20
 	jr nz, .getlevel
 

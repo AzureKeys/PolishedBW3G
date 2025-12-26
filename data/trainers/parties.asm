@@ -2514,17 +2514,17 @@ SECTION "SwimmerMGroup", ROMX
 SwimmerMGroup:
 
 	def_trainer_class SWIMMERM
-	def_trainer SWIMMER_M_HUMILAU_GYM, "Harold"
+	def_trainer SWIMMERM_HUMILAU_GYM, "Harold"
 	tr_mon 60, REMORAID
 	tr_mon 58, SEADRA
 	end_trainer
 
-	def_trainer SWIMMER_M_R17_1, "Simon"
+	def_trainer SWIMMERM_R17_1, "Simon"
 	tr_mon 20, RATTATA
 	tr_mon 20, RATTATA
 	end_trainer
 
-	def_trainer SWIMMER_M_R21_1, "Randall"
+	def_trainer SWIMMERM_R21_1, "Randall"
 	tr_mon 18, RATTATA
 	tr_mon 20, RATTATA
 	tr_mon 18, RATTATA
@@ -2535,17 +2535,17 @@ SECTION "SwimmerMDGroup", ROMX
 SwimmerMDGroup:
 
 	def_trainer_class SWIMMERM_D
-	def_trainer SWIMMER_M_R17_2, "Harold"
+	def_trainer SWIMMERM_R17_2, "Harold"
 	tr_mon 60, REMORAID
 	tr_mon 58, SEADRA
 	end_trainer
 
-	def_trainer SWIMMER_M_R21_2, "Simon"
+	def_trainer SWIMMERM_R21_2, "Simon"
 	tr_mon 20, RATTATA
 	tr_mon 20, RATTATA
 	end_trainer
 
-	def_trainer SWIMMER_M_R21_3, "Randall"
+	def_trainer SWIMMERM_R21_3, "Randall"
 	tr_mon 18, RATTATA
 	tr_mon 20, RATTATA
 	tr_mon 18, RATTATA
@@ -2556,16 +2556,16 @@ SECTION "SwimmerFGroup", ROMX
 SwimmerFGroup:
 
 	def_trainer_class SWIMMERF
-	def_trainer SWIMMER_F_R17_1, "Elaine"
+	def_trainer SWIMMERF_R17_1, "Elaine"
 	tr_mon 21, STARYU
 	end_trainer
 
-	def_trainer SWIMMER_F_R21_1, "Paula"
+	def_trainer SWIMMERF_R21_1, "Paula"
 	tr_mon 19, STARYU
 	tr_mon 19, RATTATA
 	end_trainer
 
-	def_trainer SWIMMER_F_R21_2, "Kaylee"
+	def_trainer SWIMMERF_R21_2, "Kaylee"
 	tr_mon 18, RATTATA
 	tr_mon 20, RATTATA
 	tr_mon 20, RATTATA
@@ -2576,16 +2576,16 @@ SECTION "SwimmerFDGroup", ROMX
 SwimmerFDGroup:
 
 	def_trainer_class SWIMMERF_D
-	def_trainer SWIMMER_F_HUMILAU_GYM, "Elaine"
+	def_trainer SWIMMERF_HUMILAU_GYM, "Elaine"
 	tr_mon 21, STARYU
 	end_trainer
 
-	def_trainer SWIMMER_F_R17_2, "Paula"
+	def_trainer SWIMMERF_R17_2, "Paula"
 	tr_mon 19, STARYU
 	tr_mon 19, RATTATA
 	end_trainer
 
-	def_trainer SWIMMER_F_R21_3, "Kaylee"
+	def_trainer SWIMMERF_R21_3, "Kaylee"
 	tr_mon 18, RATTATA
 	tr_mon 20, RATTATA
 	tr_mon 20, RATTATA
