@@ -8,6 +8,8 @@ HumilauCity_MapScriptHeader:
 	def_warp_events
 	warp_event  9,  7, PLAYERS_HOUSE_1F, 1
 	warp_event  3, 27, HUMILAU_POKECENTER, 1
+	warp_event 23,  3, MOMS_PARTNERS_HOUSE, 1
+	warp_event  3, 13, HUMILAU_TRADE_HOUSE, 1
 
 	def_coord_events
 	coord_event  1,  9, 0, HumilauCity_NeighborStopsYouScene
@@ -44,7 +46,7 @@ HumilauFlyPoint:
 	iftruefwd .done
 	checkflag ENGINE_WAVEBADGE
 	iffalsefwd .done
-	;specialphonecall SPECIALCALL_MOM_LECTURE
+	specialphonecall SPECIALCALL_MOM_LECTURE
 .done
 	endcallback
 

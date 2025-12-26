@@ -287,7 +287,8 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const ODD_SOUVENIR ; df
 	const LINKING_CORD ; e0
 
-	const SILVER_LEAF  ; e1
+	const HEART_SCALE  ; e1
+	
 	const GOLD_LEAF    ; e2
 	const MINT_LEAF    ; e3
 	const BOTTLE_CAP   ; e4
@@ -421,6 +422,7 @@ endc
 	const NAM_HARD_STONE
 	const NAM_HEAL_BALL
 	const NAM_HEAL_POWDER
+	const NAM_HEART_SCALE
 	const NAM_HEAT_ROCK
 	const NAM_HEAVY_BALL
 	const NAM_HEAVY_BOOTS
@@ -554,7 +556,6 @@ endc
 	const NAM_SHELL_BELL
 	const NAM_SHINY_STONE
 	const NAM_SILK_SCARF
-	const NAM_SILVER_LEAF
 	const NAM_SILVERPOWDER
 	const NAM_SITRUS_BERRY
 	const NAM_SMOKE_BALL

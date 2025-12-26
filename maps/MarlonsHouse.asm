@@ -147,6 +147,8 @@ MarlonsWifeDirectionsScript:
 	waitbutton
 	closetext
 	setevent EVENT_GOT_A_POKEMON
+	setevent EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
+	clearevent EVENT_MOMS_PARTNERS_HOUSE_NEIGHBOR
 	setscene $2
 	setmapscene HUMILAU_CITY, $1
 	end

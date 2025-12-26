@@ -4,5 +4,5 @@ SpecialItemNames::
 	li "Map Card"
 	li "Radio Card"
 	li "Expn.Card"
-	li "#gear"
+	li "X-Transceiver"
 	assert_list_length NUM_SPECIAL_ITEMS

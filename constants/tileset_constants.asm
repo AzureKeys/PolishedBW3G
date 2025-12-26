@@ -5,7 +5,7 @@
 	const TILESET_JOHTO_OVERCAST       ; 03
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 DEF NO_ROOF_TILESETS EQU const_value
-	const TILESET_JOHTO_HOUSE          ; 0b
+	const TILESET_UNOVA_HOUSE          ; 0b
 	const TILESET_TRADITIONAL_HOUSE    ; 0d
 	const TILESET_POKECENTER           ; 0e
 	const TILESET_MART                 ; 10

@@ -114,7 +114,11 @@ endr
 	giveitem LEFTOVERS, 99
 	giveitem MULCH, 99
 	giveitem SWEET_HONEY, 99
-	giveitem SILVER_LEAF, 99
+	giveitem HEART_SCALE, 99
+	giveitem RED_SHARD, 99
+	giveitem BLUE_SHARD, 99
+	giveitem GREEN_SHARD, 99
+	giveitem YELLOW_SHARD, 99
 	giveitem GOLD_LEAF, 99
 	giveitem MINT_LEAF, 99
 	giveitem BOTTLE_CAP, 99
@@ -238,28 +242,9 @@ endr
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	addcellnum PHONE_BIANCA
-	; cherrygrove events
-	setevent EVENT_GUIDE_GENT_IN_HIS_HOUSE
-	clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
-	; route 31 events
-	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 	setevent EVENT_INTRODUCED_ROUTE_LEADERS
-	; azalea events
-	setevent EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
-	setevent EVENT_KURTS_HOUSE_KURT_1
-	; goldenrod events
-	setevent EVENT_BEAT_CAMPER_TODD
 	addcellnum PHONE_CHEREN
-	setevent EVENT_NURSE_SAW_TRAINER_STAR
-	setevent EVENT_INTRODUCED_TEALA
 	addcellnum PHONE_BILL
-	setevent EVENT_BEAT_PICNICKER_KIM
-	setevent EVENT_BEAT_BREEDER_THERESA
-	; ecruteak events
-	setevent EVENT_RIVAL_BURNED_TOWER
-	setevent EVENT_HOLE_IN_BURNED_TOWER
-	; blackthorn events
-	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
 	warpfacing DOWN, ROUTE_22, 7, 9
 	closetext
 	end

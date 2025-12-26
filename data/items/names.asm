@@ -290,7 +290,8 @@ endc
 	li "Odd Souvenir"
 	li "Linking Cord"
 
-	li "Silver Leaf"
+	li "Heart Scale"
+	
 	li "Gold Leaf"
 	li "Mint Leaf"
 	li "Bottle Cap"

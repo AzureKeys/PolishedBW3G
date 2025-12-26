@@ -327,7 +327,7 @@ BattleTowerTutorTrickScript:
 		line "for a Silver Leaf."
 		done
 	waitbutton
-	checkitem SILVER_LEAF
+	checkitem HEART_SCALE
 	iffalsefwd .NoSilverLeaf
 	writethistext
 		text "Should I teach"
@@ -353,7 +353,7 @@ BattleTowerTutorTrickScript:
 		done
 
 .TeachMove
-	takeitem SILVER_LEAF
+	takeitem HEART_SCALE
 	jumpthisopenedtext
 		text "Now your #mon"
 		line "can use Trick too!"

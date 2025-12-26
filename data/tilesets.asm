@@ -122,21 +122,21 @@ TilesetJohto4Attr:: INCBIN "data/tilesets/battle_tower_outside_attributes.bin.lz
 TilesetJohto4Coll:: INCBIN "data/tilesets/battle_tower_outside_collision.bin.lz"
 
 
-SECTION "Tileset Graphics - johto house vram0", ROMX
+SECTION "Tileset Graphics - unova house vram0", ROMX
 
-TilesetHouse1GFX0:: INCBIN "gfx/tilesets/johto_house.2bpp.vram0.lz"
-
-
-SECTION "Tileset Graphics - johto house vram1", ROMX
-
-TilesetHouse1GFX1:: INCBIN "gfx/tilesets/johto_house.2bpp.vram1.lz"
+TilesetHouse1GFX0:: INCBIN "gfx/tilesets/unova_house.2bpp.vram0.lz"
 
 
-SECTION "Tileset Data - johto house", ROMX
+SECTION "Tileset Graphics - unova house vram1", ROMX
 
-TilesetHouse1Meta:: INCBIN "data/tilesets/johto_house_metatiles.bin.lz"
-TilesetHouse1Attr:: INCBIN "data/tilesets/johto_house_attributes.bin.lz"
-TilesetHouse1Coll:: INCBIN "data/tilesets/johto_house_collision.bin.lz"
+TilesetHouse1GFX1:: INCBIN "gfx/tilesets/unova_house.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - unova house", ROMX
+
+TilesetHouse1Meta:: INCBIN "data/tilesets/unova_house_metatiles.bin.lz"
+TilesetHouse1Attr:: INCBIN "data/tilesets/unova_house_attributes.bin.lz"
+TilesetHouse1Coll:: INCBIN "data/tilesets/unova_house_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - traditional house vram0", ROMX

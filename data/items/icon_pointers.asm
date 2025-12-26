@@ -225,7 +225,7 @@ ItemIconPointers:
 	dba OvalStoneIcon
 	dba OddSouvenirIcon
 	dba LinkingCordIcon
-	dba SilverLeafIcon
+	dba HeartScaleIcon
 	dba GoldLeafIcon
 	dba MintLeafIcon
 	dba BottleCapIcon

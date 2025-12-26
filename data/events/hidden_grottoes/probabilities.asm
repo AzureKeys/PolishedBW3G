@@ -26,7 +26,7 @@ HiddenGrottoHiddenItems:
 	db  30, TINYMUSHROOM
 	db  10, BIG_MUSHROOM
 	db   1, BALMMUSHROOM
-	db   8, SILVER_LEAF
+	db   8, HEART_SCALE
 	db   8, GOLD_LEAF
 	db   1, RARE_CANDY
 	db   2, PP_UP

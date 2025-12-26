@@ -16,9 +16,13 @@ ENDM
 	
 	map_attributes Route13, ROUTE_13, $e, 0
 
+	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
+	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
+	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
 	map_attributes HumilauPokecenter, HUMILAU_POKECENTER, $0, 0
 	map_attributes MarlonsHouse, MARLONS_HOUSE, $0, 0
-	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
+	map_attributes MomsPartnersHouse, MOMS_PARTNERS_HOUSE, $0, 0
+	map_attributes HumilauTradeHouse, HUMILAU_TRADE_HOUSE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
@@ -32,6 +36,4 @@ ENDM
 	map_attributes BattleTowerElevator, BATTLE_TOWER_ELEVATOR, $0, 0
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $0, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $5, 0
-	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
-	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
 	

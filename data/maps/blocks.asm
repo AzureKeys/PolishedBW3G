@@ -17,10 +17,19 @@ Colosseum_BlockData:
 SECTION "HiddenTreeGrotto_BlockData", ROMX
 HiddenTreeGrotto_BlockData:
 	INCBIN "maps/HiddenTreeGrotto.ablk.lz"
+
+SECTION "HiddenCaveGrotto_BlockData", ROMX
+HiddenCaveGrotto_BlockData:
+	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 	
 SECTION "Pokecenter Blockdata", ROMX
 HumilauPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
+	
+SECTION "UnovaHouse Blockdata", ROMX
+MomsPartnersHouse_BlockData:
+HumilauTradeHouse_BlockData:
+	INCBIN "maps/House1.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX
 PlayersHouse1F_BlockData:
@@ -57,10 +66,6 @@ BattleTowerOutside_BlockData:
 SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lz"
-
-SECTION "HiddenCaveGrotto_BlockData", ROMX
-HiddenCaveGrotto_BlockData:
-	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 
 SECTION "HumilauCity_BlockData", ROMX
 HumilauCity_BlockData:

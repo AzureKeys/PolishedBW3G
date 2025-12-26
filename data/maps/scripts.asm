@@ -34,6 +34,8 @@ INCLUDE "maps/PlayersHouse2F.asm"
 INCLUDE "maps/HumilauCity.asm"
 INCLUDE "maps/HumilauPokecenter.asm"
 INCLUDE "maps/MarlonsHouse.asm"
+INCLUDE "maps/MomsPartnersHouse.asm"
+INCLUDE "maps/HumilauTradeHouse.asm"
 
 
 SECTION "Route 22 Scripts", ROMX

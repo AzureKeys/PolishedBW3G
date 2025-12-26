@@ -236,7 +236,7 @@ _DoItemEffect::
 	dw IsntTheTimeMessage ; OVAL_STONE
 	dw EvoStoneEffect     ; ODD_SOUVENIR
 	dw EvoStoneEffect     ; LINKING_CORD
-	dw IsntTheTimeMessage ; SILVER_LEAF
+	dw IsntTheTimeMessage ; HEART_SCALE
 	dw IsntTheTimeMessage ; GOLD_LEAF
 	dw IsntTheTimeMessage ; MINT_LEAF
 	dw IsntTheTimeMessage ; BOTTLE_CAP

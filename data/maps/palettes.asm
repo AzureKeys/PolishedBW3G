@@ -30,6 +30,7 @@ ENDM
 	special_bg_pal map,      MARLONS_HOUSE,               PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
+	special_bg_pal tileset,  TILESET_UNOVA_HOUSE,         PAL_SINGLE,    UnovaHousePalette
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette
 	special_bg_pal tileset,  TILESET_GAME_CORNER,         PAL_SINGLE,    GameCornerPalette
 	special_bg_pal tileset,  TILESET_BATTLE_TOWER_INSIDE, PAL_SINGLE,    BattleTowerPalette
@@ -41,6 +42,18 @@ ENDM
 PlayersHousePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/players_house.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+UnovaHousePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/unova_house.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

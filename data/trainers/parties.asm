@@ -2335,7 +2335,7 @@ SchoolKidFGroup:
 	end_trainer
 
 	def_trainer SCHOOL_KIDF_REVERSAL, "Eliza"
-	tr_mon 18, "Silver", RATTATA @ SILVER_LEAF
+	tr_mon 18, "Silver", RATTATA
 	tr_mon 16, "Lady", RATTATA
 	tr_mon 17, "Tret", RATTATA @ ORAN_BERRY
 	end_trainer

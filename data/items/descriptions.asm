@@ -224,7 +224,7 @@ ItemDescriptions:
 	dw OvalStoneDesc
 	dw OddSouvenirDesc
 	dw LinkingCordDesc
-	dw SilverLeafDesc
+	dw HeartScaleDesc
 	dw GoldLeafDesc
 	dw MintLeafDesc
 	dw BottleCapDesc
@@ -1370,9 +1370,9 @@ YellowShardDesc:
 	next "by collectors."
 	done
 
-SilverLeafDesc:
-	text "A strange, silver-"
-	next "colored leaf."
+HeartScaleDesc:
+	text "A glimmering heart"
+	next "shaped scale.@"
 	done
 
 GoldLeafDesc:
