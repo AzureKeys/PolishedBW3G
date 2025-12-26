@@ -28,6 +28,7 @@ ENDM
 	special_bg_pal map,      PLAYERS_HOUSE_1F,            PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal map,      PLAYERS_HOUSE_2F,            PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal map,      MARLONS_HOUSE,               PAL_SINGLE,    PlayersHousePalette
+	special_bg_pal map,      HUMILAU_GYM,                 PAL_SINGLE,    HumilauGymPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_UNOVA_HOUSE,         PAL_SINGLE,    UnovaHousePalette
@@ -54,6 +55,18 @@ endc
 UnovaHousePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/unova_house.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+HumilauGymPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/humilau_gym.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

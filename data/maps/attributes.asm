@@ -23,6 +23,7 @@ ENDM
 	map_attributes MarlonsHouse, MARLONS_HOUSE, $0, 0
 	map_attributes MomsPartnersHouse, MOMS_PARTNERS_HOUSE, $0, 0
 	map_attributes HumilauTradeHouse, HUMILAU_TRADE_HOUSE, $0, 0
+	map_attributes HumilauGym, HUMILAU_GYM, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

@@ -45,6 +45,21 @@ TilesetUnovaBeachAnim::
 	dw NULL,  IncWaterFrame
 	dw NULL,  DoneTileAnimation
 
+TilesetPortAnim::
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw WhirlpoolFrames1, AnimateWhirlpoolTile
+	dw WhirlpoolFrames2, AnimateWhirlpoolTile
+	dw WhirlpoolFrames3, AnimateWhirlpoolTile
+	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  DoNothing
+	dw NULL,  StandingTileFrame8
+	dw NULL,  IncWaterFrame
+	dw NULL,  DoneTileAnimation
+
 TilesetJohto1Anim::
 TilesetJohto2Anim::
 TilesetJohto3Anim::
@@ -70,20 +85,6 @@ TilesetJohto4Anim::
 	dw wTileAnimBuffer, ScrollTileDown
 	dw NULL,  DoNothing
 	dw vTiles2 tile $35, ReadTileFromBuffer
-	dw NULL,  DoneTileAnimation
-
-TilesetPortAnim::
-	dw vTiles2 tile $14, AnimateWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetGym1Anim::
