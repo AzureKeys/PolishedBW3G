@@ -1,4 +1,4 @@
-; Used for Lyra to describe multiple evolutions (see engine/phone/scripts/lyra.asm)
+; Used for Cheren to describe multiple evolutions (see engine/phone/scripts/cheren.asm)
 
 MACRO multi_evo
 ; mon, EVOLVE_* value
@@ -29,4 +29,7 @@ MultipleEvolutions:
 	multi_evo MIME_JR_
 	multi_evo DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM, EVOLVE_DUNSPARCE
 	multi_evo DUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, EVOLVE_DUNSPARCE
+	multi_evo KIRLIA
+	multi_evo SNORUNT
+	multi_evo NOSEPASS
 	dw -1

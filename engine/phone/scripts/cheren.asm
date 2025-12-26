@@ -1,64 +1,19 @@
 CherenPhoneScript1:
-	readvar VAR_SPECIALPHONECALL
-	ifequalfwd SPECIALCALL_POKERUS, .pokerus
-	farwritetext ElmPhoneStartText
-	end
-
-.sawmrpokemon
-	farwritetext ElmPhoneSawMrPokemonText
-	end
-
-.stolen
-	farwritetext ElmPhonePokemonStolenText
-	sjumpfwd ElmEvolutionScript
-
-.checkingegg
-	farwritetext ElmPhoneCheckingEggText
-	sjumpfwd ElmEvolutionScript
-
-.assistant
-	farwritetext ElmPhoneAssistantText
-	end
-
-.eggunhatched
-	farwritetext ElmPhoneEggUnhatchedText
-	sjumpfwd ElmEvolutionScript
-
-.egghatched
-	farwritetext ElmPhoneEggHatchedText
-	setevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-	sjumpfwd ElmEvolutionScript
-
-.discovery
-	random $2
-	ifequalfwd $0, .nextdiscovery
-	farwritetext ElmPhoneDiscovery1Text
-	sjumpfwd ElmEvolutionScript
-
-.nextdiscovery
-	farwritetext ElmPhoneDiscovery2Text
-	sjumpfwd ElmEvolutionScript
-
-.pokerus
-	farwritetext ElmPhonePokerusText
-	specialphonecall SPECIALCALL_NONE
-	end
-
-ElmEvolutionScript:
-	farwritetext ElmPhoneEvolutionQuestionText
+	farwritetext CherenAskEvoText
 	yesorno
-	iftruefwd .describe_evolution
-	farwritetext ElmPhoneEvolutionRefusedText
-	sjumpfwd .done
-
-.describe_evolution
-	callasm ElmPhone_GetFirstMonEvolutionData
-	scalltable ElmPhoneScript_EvolutionMethodsTable
-.done
-	farwritetext ElmPhoneEndText
+	iffalsefwd .Refused
+	callasm CherenPhone_GetFirstMonEvolutionData
+	farwritetext CherenEvoIntroText
+	promptbutton
+	scalltable CherenPhoneScript_EvolutionMethodsTable
+	farwritetext CherenEvoDoneText
 	end
 
-ElmPhoneScript_EvolutionMethodsTable:
+.Refused
+	farwritetext CherenRefusedEvoText
+	end
+
+CherenPhoneScript_EvolutionMethodsTable:
 	table_width 2
 	dw .EvolveNone
 	dw .EvolveLevel
@@ -73,132 +28,126 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveParty
 	dw .EvolveEgg
 	dw .EvolvePikachu
-	dw .EvolveGloom
 	dw .EvolvePoliwhirl
 	dw .EvolveSlowpokePlain
 	dw .EvolveSlowpokeGalarian
 	dw .EvolveMagneton
 	dw .EvolveExeggcute
 	dw .EvolveKoffing
-	dw .EvolveCubone
 	dw .EvolveScyther
 	dw .EvolveEevee
 	dw .EvolveMimeJr
-	dw .EvolveUrsaring
-	dw .EvolveStantler
 	dw .EvolveDunsparce
+	dw .EvolveKirlia
+	dw .EvolveSnorunt
+	dw .EvolveNosepass
 	assert_table_length NUM_EVOLVE_METHODS
 .EvolveNone:
-	farwritetext ElmPhoneEvoText_None
+	farwritetext CherenPhoneEvoText_None
 	end
 .EvolveLevel:
-	farwritetext ElmPhoneEvoText_Level
+	farwritetext CherenPhoneEvoText_Level
 	end
 .EvolveItem:
-	farwritetext ElmPhoneEvoText_Item
+	farwritetext CherenPhoneEvoText_Item
 	end
 .EvolveTrade:
 	readmem wStringBuffer5
 	ifequalfwd LINKING_CORD, .EvolveTradeNoItem
-	farwritetext ElmPhoneEvoText_TradeWithItem
+	;ifequalfwd SHELL_STONE, .EvolveTradeNoItem
+	farwritetext CherenPhoneEvoText_TradeWithItem
 	end
 .EvolveTradeNoItem:
-	farwritetext ElmPhoneEvoText_TradeNoItem
+	farwritetext CherenPhoneEvoText_TradeNoItem
 	end
 .EvolveHolding:
 	readmem wStringBuffer5
 	ifequalfwd TR_MORNDAY, .EvolveHolding_MornDay
 	ifequalfwd TR_EVENITE, .EvolveHolding_EveNite
-	farwritetext ElmPhoneEvoText_Holding
+	farwritetext CherenPhoneEvoText_Holding
 	end
 .EvolveHolding_MornDay:
-	farwritetext ElmPhoneEvoText_Holding_MornDay
+	farwritetext CherenPhoneEvoText_Holding_MornDay
 	end
 .EvolveHolding_EveNite:
-	farwritetext ElmPhoneEvoText_Holding_EveNite
+	farwritetext CherenPhoneEvoText_Holding_EveNite
 	end
 .EvolveHappiness:
 	readmem wStringBuffer5
 	ifequalfwd TR_MORNDAY, .EvolveHappiness_MornDay
 	ifequalfwd TR_EVENITE, .EvolveHappiness_EveNite
-	farwritetext ElmPhoneEvoText_Happiness
+	farwritetext CherenPhoneEvoText_Happiness
 	end
 .EvolveHappiness_MornDay:
-	farwritetext ElmPhoneEvoText_Happiness_MornDay
+	farwritetext CherenPhoneEvoText_Happiness_MornDay
 	end
 .EvolveHappiness_EveNite:
-	farwritetext ElmPhoneEvoText_Happiness_EveNite
+	farwritetext CherenPhoneEvoText_Happiness_EveNite
 	end
-.EvolveStat:
-	farwritetext ElmPhoneEvoText_Stat
+.EvolveStat: ; unused
+	farwritetext CherenPhoneEvoText_None
 	end
 .EvolveLocation:
-	farwritetext ElmPhoneEvoText_Location
+	farwritetext CherenPhoneEvoText_Location
 	end
 .EvolveMove:
-	farwritetext ElmPhoneEvoText_Move
+	farwritetext CherenPhoneEvoText_Move
 	end
-.EvolveCrit:
-	farwritetext ElmPhoneEvoText_Crit
+.EvolveCrit: ; unused
+	farwritetext CherenPhoneEvoText_None
 	end
 .EvolveParty:
-	farwritetext ElmPhoneEvoText_Party
+	farwritetext CherenPhoneEvoText_Party
 	end
 .EvolveEgg:
-	farwritetext ElmPhoneEvoText_Egg
+	farwritetext CherenPhoneEvoText_Egg
 	end
 .EvolvePikachu:
-	farwritetext ElmPhoneEvoText_Pikachu
-	end
-.EvolveGloom:
-	farwritetext ElmPhoneEvoText_Gloom
+	farwritetext CherenPhoneEvoText_Pikachu
 	end
 .EvolvePoliwhirl:
-	farwritetext ElmPhoneEvoText_Poliwhirl
+	farwritetext CherenPhoneEvoText_Poliwhirl
 	end
 .EvolveSlowpokePlain:
-	farwritetext ElmPhoneEvoText_SlowpokePlain
+	farwritetext CherenPhoneEvoText_SlowpokePlain
 	end
 .EvolveSlowpokeGalarian:
-	farwritetext ElmPhoneEvoText_SlowpokeGalarian
+	farwritetext CherenPhoneEvoText_SlowpokeGalarian
 	end
 .EvolveMagneton:
-	farwritetext ElmPhoneEvoText_Magneton
+	farwritetext CherenPhoneEvoText_Magneton
 	end
 .EvolveExeggcute:
-	farwritetext ElmPhoneEvoText_Exeggcute
+	farwritetext CherenPhoneEvoText_Exeggcute
 	end
 .EvolveKoffing:
-	farwritetext ElmPhoneEvoText_Koffing
-	end
-.EvolveCubone:
-	farwritetext ElmPhoneEvoText_Cubone
+	farwritetext CherenPhoneEvoText_Koffing
 	end
 .EvolveScyther:
-	farwritetext ElmPhoneEvoText_Scyther
+	farwritetext CherenPhoneEvoText_Scyther
 	end
 .EvolveEevee:
-	farwritetext ElmPhoneEvoText_Eevee
+	farwritetext CherenPhoneEvoText_Eevee
 	end
 .EvolveMimeJr:
-	farwritetext ElmPhoneEvoText_MimeJr
-	end
-.EvolveUrsaring:
-	getitemname MOON_STONE, STRING_BUFFER_4
-	farwritetext ElmPhoneEvoText_Item
-	farwritetext ElmPhoneEvoText_AncientSinnoh
-	end
-.EvolveStantler:
-	farwritetext ElmPhoneEvoText_Stantler
-	farwritetext ElmPhoneEvoText_AncientSinnoh
+	farwritetext CherenPhoneEvoText_MimeJr
 	end
 .EvolveDunsparce:
 	loadmem wStringBuffer4, 32
-	farwritetext ElmPhoneEvoText_Level
-	farwritetext ElmPhoneEvoText_DunsparceSegments
+	farwritetext CherenPhoneEvoText_Level
+	farwritetext CherenPhoneEvoText_DunsparceSegments
+	end
+.EvolveKirlia:
+	farwritetext CherenPhoneEvoText_Kirlia
+	end
+.EvolveSnorunt:
+	farwritetext CherenPhoneEvoText_Snorunt
+	end
+.EvolveNosepass:
+	farwritetext CherenPhoneEvoText_Nosepass
 	end
 
-ElmPhone_GetFirstMonEvolutionData:
+CherenPhone_GetFirstMonEvolutionData:
 	; wStringBuffer3 = species name
 	call EvolutionPhone_GetFirstNonEggPartyMon
 	; hScriptVar, wStringBuffer4, wStringBuffer5 = evo data
@@ -242,29 +191,20 @@ EvolutionPhone_GetFirstNonEggPartyMon:
 
 CherenPhoneScript2:
 	readvar VAR_SPECIALPHONECALL
-	farwritetext ElmPhonePokerusText
+	ifequalfwd SPECIALCALL_CHEREN_NIMBASA, .nimbasa
+	ifequalfwd SPECIALCALL_CHEREN_MISTRALTON, .mistralton
 	specialphonecall SPECIALCALL_NONE
 	end
 
-.disaster
-	farwritetext ElmPhoneDisasterText
-	specialphonecall SPECIALCALL_NONE
-	setevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
-	end
-
-.assistant
-	farwritetext ElmPhoneEggAssistantText
-	specialphonecall SPECIALCALL_NONE
-	clearevent EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
-	setevent EVENT_ELMS_AIDE_IN_LAB
-	end
-
-.rocket
-	farwritetext ElmPhoneRocketText
+.nimbasa
+	farwritetext CherenPhoneNimbasaText
 	specialphonecall SPECIALCALL_NONE
 	end
 
-.gift
-	farwritetext ElmPhoneGiftText
+.mistralton
+	farwritetext CherenPhoneMistraltonText
 	specialphonecall SPECIALCALL_NONE
+	;clearevent EVENT_ASPERTIA_CITY_BLOCKER
+	;clearevent EVENT_HUMILAU_CITY_GYM_BLOCKER
+	;setmapscene MISTRALTON_CITY, SCENE_MISTRALTON_GIVE_PASS
 	end

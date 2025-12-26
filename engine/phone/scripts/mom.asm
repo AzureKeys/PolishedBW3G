@@ -1,125 +1,61 @@
-MomPhoneScript:
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftruefwd .bcec5
-	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
-	iftruefwd MomPhoneScript2
-	checkevent EVENT_GOT_A_POKEMON
-	iftruefwd MomPhoneNoPokedexScript
-	sjumpfwd MomPhoneNoPokemonScript
-
-.bcec5
-	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
-	iftruefwd MomPhoneHangUpScript
+MomPhoneScript1:
 	farwritetext MomPhoneGreetingText
 	promptbutton
-	getcurlandmarkname STRING_BUFFER_3
-	readvar VAR_ENVIRONMENT
-	ifequalfwd TOWN, MomPhoneInTown
-	ifequalfwd ROUTE, MomPhoneOnRoute
-	sjumpfwd MomPhoneOther
-
-MomPhoneLandmark:
-	farwritetext MomPhoneLandmarkText
+	checkevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
+	iftruefwd .CheckHappiness
+	farwritetext MomCutePokemonText
+	farwritetext MomPhoneHappinessIntroText
 	promptbutton
-	sjumpfwd MomSavingMoney
+	setevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
+	
+.CheckHappiness
+	special GetFirstPokemonHappiness
+	farwritetext MomHappinessText
+	ifgreater 250 - 1, .LovesYouALot
+	ifgreater 200 - 1, .ReallyTrustsYou
+	ifgreater 150 - 1, .SortOfHappy
+	ifgreater 100 - 1, .QuiteCute
+	ifgreater  50 - 1, .NotUsedToYou
+	sjumpfwd .LooksMean
 
-MomPhoneInTown:
-	readvar VAR_MAPGROUP
-	farwritetext MomPhoneGenericAreaText
-	promptbutton
-	sjumpfwd MomSavingMoney
+.LovesYouALot:
+	farwritetext MomHappinessRatingText_LovesYouALot
+	sjumpfwd .Outro
 
-.newbark
-	farwritetext MomPhoneNewBarkText
-	promptbutton
-	sjumpfwd MomSavingMoney
+.ReallyTrustsYou:
+	farwritetext MomHappinessRatingText_ReallyTrustsYou
+	sjumpfwd .Outro
 
-.cherrygrove
-	farwritetext MomPhoneCherrygroveText
-	promptbutton
-	sjumpfwd MomSavingMoney
+.SortOfHappy:
+	farwritetext MomHappinessRatingText_SortOfHappy
+	sjumpfwd .Outro
 
-MomPhoneOnRoute:
-	farwritetext MomOtherAreaText
-	promptbutton
-	sjumpfwd MomSavingMoney
+.QuiteCute:
+	farwritetext MomHappinessRatingText_QuiteCute
+	sjumpfwd .Outro
 
-MomPhoneOther:
-	farwritetext MomDeterminedText
-	promptbutton
+.NotUsedToYou:
+	farwritetext MomHappinessRatingText_NotUsedToYou
+	sjumpfwd .Outro
+
+.LooksMean:
+	farwritetext MomHappinessRatingText_LooksMean
 	; fallthrough
-
-MomSavingMoney:
-	checkflag ENGINE_MOM_SAVING_MONEY
-	iffalsefwd .NotSaving
-	checkmoney MOMS_MONEY, 0
-	ifequalfwd HAVE_MORE, .SavingHasMoney
-	sjumpfwd .SavingNoMoney
-
-.NotSaving:
-	checkmoney MOMS_MONEY, 0
-	ifequalfwd HAVE_MORE, .HasMoney
-	sjumpfwd .NoMoney
-
-.SavingHasMoney:
-	getmoney MOMS_MONEY, STRING_BUFFER_3
-	farwritetext MomCheckBalanceText
-	yesorno
-	iftruefwd MomPhoneSaveMoneyScript
-	sjumpfwd MomPhoneWontSaveMoneyScript
-
-.SavingNoMoney:
-	farwritetext MomImportantToSaveText
-	yesorno
-	iftruefwd MomPhoneSaveMoneyScript
-	sjumpfwd MomPhoneWontSaveMoneyScript
-
-.NoMoney:
-	farwritetext MomYoureNotSavingText
-	yesorno
-	iftruefwd MomPhoneSaveMoneyScript
-	sjumpfwd MomPhoneWontSaveMoneyScript
-
-.HasMoney:
-	getmoney MOMS_MONEY, STRING_BUFFER_3
-	farwritetext MomYouveSavedText
-	yesorno
-	iftruefwd MomPhoneSaveMoneyScript
-	sjumpfwd MomPhoneWontSaveMoneyScript
-
-MomPhoneSaveMoneyScript:
-	setflag ENGINE_MOM_SAVING_MONEY
-	farwritetext MomOKIllSaveText
-	promptbutton
-	sjumpfwd MomPhoneHangUpScript
-
-MomPhoneWontSaveMoneyScript:
-	clearflag ENGINE_MOM_SAVING_MONEY
-	farwritetext MomPhoneWontSaveMoneyText
-	promptbutton
-	; fallthrough
-
-MomPhoneHangUpScript:
-	farwritetext MomPhoneHangUpText
-	end
-
-MomPhoneNoPokemonScript:
-	farwritetext MomPhoneNoPokemonText
-	end
-
-MomPhoneNoPokedexScript:
-	farwritetext MomPhoneNoPokedexText
-	end
-
-MomPhoneNoGymQuestScript:
-	farwritetext MomPhoneNoGymQuestText
+.Outro
+	farwritetext MomPhoneOutroText
 	end
 
 MomPhoneScript2:
-	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	setflag ENGINE_MOM_ACTIVE
+	readvar VAR_SPECIALPHONECALL
+	ifequalfwd SPECIALCALL_MOM_LECTURE, .lecture
 	specialphonecall SPECIALCALL_NONE
+	end
+
+.lecture
 	farwritetext MomPhoneLectureText
-	yesorno
-	iftrue MomPhoneSaveMoneyScript
-	sjump MomPhoneWontSaveMoneyScript
+	farwritetext MomPhoneHappinessIntroText
+	promptbutton
+	farwritetext MomPhoneOutroText
+	setevent EVENT_TALKED_TO_MOM_AFTER_POKEMON
+	specialphonecall SPECIALCALL_NONE
+	end

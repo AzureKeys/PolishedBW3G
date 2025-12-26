@@ -1,72 +1,62 @@
 BiancaPhoneScript1:
 	readvar VAR_SPECIALPHONECALL
 	ifequalfwd SPECIALCALL_POKERUS, .pokerus
-	farwritetext ElmPhoneStartText
-	end
-
-.sawmrpokemon
-	farwritetext ElmPhoneSawMrPokemonText
-	end
-
-.stolen
-	farwritetext ElmPhonePokemonStolenText
-
-.checkingegg
-	farwritetext ElmPhoneCheckingEggText
-
-.assistant
-	farwritetext ElmPhoneAssistantText
-	end
-
-.eggunhatched
-	farwritetext ElmPhoneEggUnhatchedText
-	end
-
-.egghatched
-	farwritetext ElmPhoneEggHatchedText
-	setevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-	end
-
-.discovery
-	random $2
-	ifequalfwd $0, .nextdiscovery
-	farwritetext ElmPhoneDiscovery1Text
-	end
-
-.nextdiscovery
-	farwritetext ElmPhoneDiscovery2Text
+	farwritetext BiancaPhoneGreetingText
+	promptbutton
+	farwritetext BiancaPhoneGoToUndellaText
+.done
+	promptbutton
+	farwritetext BiancaPhoneDoneText
 	end
 
 .pokerus
-	farwritetext ElmPhonePokerusText
+	farwritetext BiancaPhonePokerusText
 	specialphonecall SPECIALCALL_NONE
 	end
 
 BiancaPhoneScript2:
 	readvar VAR_SPECIALPHONECALL
-	farwritetext ElmPhonePokerusText
+	ifequalfwd SPECIALCALL_BIANCA_INTRO, .intro
+	ifequalfwd SPECIALCALL_BIANCA_CASTELIA, .castelia
+	ifequalfwd SPECIALCALL_BIANCA_VIRBANK, .virbank
+	ifequalfwd SPECIALCALL_BIANCA_P2, .P2
+	ifequalfwd SPECIALCALL_BIANCA_MEMBERS_CARD, .members_card
+	ifequalfwd SPECIALCALL_POKERUS, .pokerus
 	specialphonecall SPECIALCALL_NONE
 	end
 
-.disaster
-	farwritetext ElmPhoneDisasterText
+.intro
+	farwritetext BiancaPhoneIntroText
 	specialphonecall SPECIALCALL_NONE
-	setevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
+	;setevent EVENT_GOT_BIANCAS_NUMBER
 	end
 
-.assistant
-	farwritetext ElmPhoneEggAssistantText
+.castelia
+	farwritetext BiancaPhoneCasteliaText
 	specialphonecall SPECIALCALL_NONE
-	clearevent EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
-	setevent EVENT_ELMS_AIDE_IN_LAB
+	;setevent EVENT_BIANCA_CASTELIA_CALL
 	end
 
-.rocket
-	farwritetext ElmPhoneRocketText
+.virbank
+	farwritetext BiancaPhoneVirbankText
 	specialphonecall SPECIALCALL_NONE
+	;setmapscene CASTELIA_BRIDGE_GATE, SCENE_FINISHED
 	end
 
-.gift
-	farwritetext ElmPhoneGiftText
+.P2
+	farwritetext BiancaPhoneP2Text
+	specialphonecall SPECIALCALL_NONE
+	;setevent EVENT_CASTELIA_SEWER_BLOCKER
+	end
+
+.members_card
+	farwritetext BiancaPhoneMembersCardText
+	specialphonecall SPECIALCALL_NONE
+	;setevent EVENT_BIANCA_MEMBERS_CARD_CALL
+	;clearevent EVENT_NUVEMA_LAB_BIANCA
+	end
+
+.pokerus
+	farwritetext BiancaPhonePokerusText
 	specialphonecall SPECIALCALL_NONE
 	end
