@@ -65,6 +65,7 @@
 	const MUSIC_TWINS_ENCOUNTER                ; 3d
 	const MUSIC_UNOVA_CAVE                     ; 3e
 	const MUSIC_ROUTE_13                       ; 3f
+	const MUSIC_LACUNOSA_TOWN                  ; 40
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

@@ -91,4 +91,8 @@ SECTION "Route13_BlockData", ROMX
 Route13_BlockData:
 	INCBIN "maps/Route13.ablk.lz"
 
+SECTION "LacunosaTown_BlockData", ROMX
+LacunosaTown_BlockData:
+	INCBIN "maps/LacunosaTown.ablk.lz"
+
 ENDSECTION

@@ -39,11 +39,16 @@ INCLUDE "maps/HumilauTradeHouse.asm"
 INCLUDE "maps/HumilauGym.asm"
 
 
-SECTION "Route 22 Scripts", ROMX
+SECTION "Northeast Unova Route Scripts", ROMX
 
 INCLUDE "maps/Route22.asm"
 INCLUDE "maps/GiantChasm1F.asm"
 INCLUDE "maps/Route13.asm"
+
+
+SECTION "Lacunosa Scripts", ROMX
+
+INCLUDE "maps/LacunosaTown.asm"
 
 
 ENDSECTION

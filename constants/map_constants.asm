@@ -60,5 +60,6 @@ ENDM
 
 	newgroup                                                     ;  5
 	map_const ROUTE_13,                                   18, 27 ;  1
+	map_const LACUNOSA_TOWN,                              10, 11 ;  2
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

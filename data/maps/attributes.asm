@@ -14,7 +14,11 @@ ENDM
 	map_attributes Route22, ROUTE_22, $35, EAST
 	connection west, HumilauCity, HUMILAU_CITY, 2
 	
-	map_attributes Route13, ROUTE_13, $e, 0
+	map_attributes Route13, ROUTE_13, $e, WEST
+	connection west, LacunosaTown, LACUNOSA_TOWN, -3
+	
+	map_attributes LacunosaTown, LACUNOSA_TOWN, $e, EAST
+	connection east, Route13, ROUTE_13, 3
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0

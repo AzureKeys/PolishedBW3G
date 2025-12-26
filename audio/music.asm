@@ -183,4 +183,7 @@ INCLUDE "audio/music/unovacave.asm"
 SECTION "Song - route13", ROMX
 INCLUDE "audio/music/route13.asm"
 
+SECTION "Song - lacunosa", ROMX
+INCLUDE "audio/music/lacunosa.asm"
+
 ENDSECTION

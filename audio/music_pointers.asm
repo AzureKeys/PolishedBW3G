@@ -65,4 +65,5 @@ Music:
 	dba Music_LookTwins
 	dba Music_UnovaCave
 	dba Music_UnovaRoute2
+	dba Music_LacunosaTown
 	assert_table_length NUM_MUSIC_SONGS

@@ -11,6 +11,7 @@ SpawnPoints:
 	spawn PLAYERS_HOUSE_2F,            3,  3
 
 	spawn HUMILAU_CITY,                3, 28
+	spawn LACUNOSA_TOWN,               9, 16
 
 	spawn N_A,                        -1, -1
 
