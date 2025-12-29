@@ -7,8 +7,8 @@ MarlonsHouse_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  7, HUMILAU_CITY, 3
-	warp_event  5,  7, HUMILAU_CITY, 3
+	warp_event  4,  7, HUMILAU_CITY, 6
+	warp_event  5,  7, HUMILAU_CITY, 6
 
 	def_coord_events
 	coord_event  4,  7, 1, MarlonsHouseTryToLeaveScript

@@ -24,11 +24,14 @@ HiddenCaveGrotto_BlockData:
 	
 SECTION "Pokecenter Blockdata", ROMX
 HumilauPokecenter_BlockData:
+LacunosaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse Blockdata", ROMX
 MomsPartnersHouse_BlockData:
 HumilauTradeHouse_BlockData:
+LacunosaSpeechHouse_BlockData:
+LacunosaBerryHouse_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX

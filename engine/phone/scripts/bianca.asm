@@ -28,7 +28,7 @@ BiancaPhoneScript2:
 .intro
 	farwritetext BiancaPhoneIntroText
 	specialphonecall SPECIALCALL_NONE
-	;setevent EVENT_GOT_BIANCAS_NUMBER
+	setevent EVENT_GOT_BIANCAS_NUMBER
 	end
 
 .castelia

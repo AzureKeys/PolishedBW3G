@@ -5,6 +5,9 @@ LacunosaTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, LacunosaFlyPoint
 
 	def_warp_events
+	warp_event  9, 15, LACUNOSA_POKECENTER, 1
+	warp_event  3, 15, LACUNOSA_SPEECH_HOUSE, 1
+	warp_event 13,  3, LACUNOSA_BERRY_HOUSE, 1
 
 	def_coord_events
 

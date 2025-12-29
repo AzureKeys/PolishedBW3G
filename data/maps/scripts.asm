@@ -49,6 +49,9 @@ INCLUDE "maps/Route13.asm"
 SECTION "Lacunosa Scripts", ROMX
 
 INCLUDE "maps/LacunosaTown.asm"
+INCLUDE "maps/LacunosaPokecenter.asm"
+INCLUDE "maps/LacunosaSpeechHouse.asm"
+INCLUDE "maps/LacunosaBerryHouse.asm"
 
 
 ENDSECTION
