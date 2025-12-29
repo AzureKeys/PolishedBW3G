@@ -35,6 +35,7 @@ ENDM
 	map_attributes LacunosaPokecenter, LACUNOSA_POKECENTER, $0, 0
 	map_attributes LacunosaSpeechHouse, LACUNOSA_SPEECH_HOUSE, $0, 0
 	map_attributes LacunosaBerryHouse, LACUNOSA_BERRY_HOUSE, $0, 0
+	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

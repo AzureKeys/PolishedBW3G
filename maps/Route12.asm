@@ -4,6 +4,8 @@ Route12_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event  4,  8, ROUTE_12_VILLAGE_BRIDGE_GATE, 1
+	warp_event  4,  9, ROUTE_12_VILLAGE_BRIDGE_GATE, 2
 	warp_event  5,  3, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

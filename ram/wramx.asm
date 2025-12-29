@@ -1071,37 +1071,8 @@ wHumilauCitySceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
 wRoute12SceneID:: db
+wRoute12VillageBridgeGateSceneID:: db
 wTradeCenterSceneID:: db
-
-; fight counts
-wJackFightCount::    db
-wBeverlyFightCount:: db ; unused
-wHueyFightCount::    db
-wGavenFightCount::   db
-wBethFightCount::    db
-wJoseFightCount::    db
-wReenaFightCount::   db
-wJoeyFightCount::    db
-wWadeFightCount::    db
-wRalphFightCount::   db
-wLizFightCount::     db
-wAnthonyFightCount:: db
-wToddFightCount::    db
-wGinaFightCount::    db
-wIrwinFightCount::   db ; unused
-wArnieFightCount::   db
-wAlanFightCount::    db
-wDanaFightCount::    db
-wChadFightCount::    db
-wDerekFightCount::   db ; unused
-wTullyFightCount::   db
-wBrentFightCount::   db
-wTiffanyFightCount:: db
-wVanceFightCount::   db
-wWiltonFightCount::  db
-wKenjiFightCount::   db ; unused
-wParryFightCount::   db
-wErinFightCount::    db
 
 wEventFlags:: flag_array NUM_EVENTS
 
@@ -1118,7 +1089,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 140 ; unused
+	ds 167 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

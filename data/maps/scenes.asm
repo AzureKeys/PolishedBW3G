@@ -18,5 +18,6 @@ MapScenes::
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var ROUTE_12,                               wRoute12SceneID
+	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	db -1

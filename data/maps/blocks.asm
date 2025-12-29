@@ -22,17 +22,21 @@ SECTION "HiddenCaveGrotto_BlockData", ROMX
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 	
-SECTION "Pokecenter Blockdata", ROMX
+SECTION "Pokecenter_Blockdata", ROMX
 HumilauPokecenter_BlockData:
 LacunosaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
-SECTION "UnovaHouse Blockdata", ROMX
+SECTION "UnovaHouse_Blockdata", ROMX
 MomsPartnersHouse_BlockData:
 HumilauTradeHouse_BlockData:
 LacunosaSpeechHouse_BlockData:
 LacunosaBerryHouse_BlockData:
 	INCBIN "maps/House1.ablk.lz"
+
+SECTION "EastWestGate_BlockData", ROMX
+Route12VillageBridgeGate_BlockData:
+	INCBIN "maps/EastWestGate.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX
 PlayersHouse1F_BlockData:

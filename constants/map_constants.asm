@@ -65,5 +65,6 @@ ENDM
 	map_const LACUNOSA_SPEECH_HOUSE,                       4,  4 ;  4
 	map_const LACUNOSA_BERRY_HOUSE,                        4,  4 ;  5
 	map_const ROUTE_12,                                   14, 10 ;  6
+	map_const ROUTE_12_VILLAGE_BRIDGE_GATE,                5,  4 ;  7
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37
