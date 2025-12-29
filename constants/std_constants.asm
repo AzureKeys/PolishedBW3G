@@ -55,3 +55,4 @@
 	const treegrotto
 	const cavegrotto
 	const kantopostgymevents
+	const scalingmart

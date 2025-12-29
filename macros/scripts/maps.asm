@@ -171,7 +171,11 @@ MACRO pc_nurse_event
 ENDM
 
 MACRO mart_clerk_event
-	object_event \1, \2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, pokemart, \3, \4, -1
+	if _NARG == 3
+		object_event \1, \2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, \3, OBJECTTYPE_COMMAND, jumpstd, scalingmart, -1
+	else
+		object_event \1, \2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, \3, OBJECTTYPE_COMMAND, pokemart, \4, \5, -1
+	endc
 ENDM
 
 

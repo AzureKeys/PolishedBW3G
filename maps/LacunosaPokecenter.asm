@@ -12,8 +12,8 @@ LacunosaPokecenter_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	pc_nurse_event  4, 2
-	;object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterClerkScript, -1
+	pc_nurse_event  4,  2
+	mart_clerk_event  8,  7, PAL_NPC_GREEN
 	object_event  8,  2, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaPokecenterGameboyKidText, -1
 	object_event  1,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, PAL_NPC_PURPLE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaPokecenterGentlemanText, -1
 	object_event  1,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaPokecenterYoungsterText, -1
