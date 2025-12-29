@@ -44,7 +44,113 @@ TrainerYoungsterR13:
 	trainer YOUNGSTER, YOUNGSTER_R13, EVENT_BEAT_YOUNGSTER_R13, YoungsterR13SeenText, YoungsterR13BeatenText, 0, .Script
 
 .Script:
+	loadvar VAR_CALLERID, PHONE_YOUNGSTER_DAN
+	opentext
+	checkflag ENGINE_DAN_READY_FOR_REMATCH
+	iftruefwd .ChooseRematch
+	checkcellnum PHONE_YOUNGSTER_DAN
+	iftruefwd .NumberAccepted
+	checkevent EVENT_DAN_ASKED_FOR_PHONE_NUMBER
+	iftruefwd .AskAgainForPhoneNumber
+	writetext YoungsterR13AfterText
+	promptbutton
+	setevent EVENT_DAN_ASKED_FOR_PHONE_NUMBER
+	callstd asknumber1m
+	sjumpfwd .ContinueAskForPhoneNumber
+	
+.AskAgainForPhoneNumber:
+	callstd asknumber2m
+.ContinueAskForPhoneNumber:
+	askforphonenumber PHONE_YOUNGSTER_DAN
+	ifequalfwd PHONE_CONTACTS_FULL, .PhoneFull
+	ifequalfwd PHONE_CONTACT_REFUSED, .NumberDeclined
+	setflag ENGINE_DAN
+	gettrainername YOUNGSTER, YOUNGSTER_R13, STRING_BUFFER_3
+	callstd registerednumberm
+	jumpstd numberacceptedm
+	
+.ChooseRematch:
+	callstd rematchm
+	winlosstext YoungsterR13BeatenText, 0
+	;checkevent EVENT_BEAT_POKEMON_LEAGUE
+	;iftruefwd .LoadFight6
+	;checkmapscene SEASIDE_CAVE_CHAMBER
+	;ifequalfwd SCENE_FINISHED, .LoadFight5
+	;checkevent EVENT_FINISHED_PWT
+	;iftruefwd .LoadFight4
+	;checkevent EVENT_BEAT_VIRBANK_COMPLEX_BRONIUS
+	;iftruefwd .LoadFight3
+	;checkevent EVENT_BIANCA_CASTELIA_CALL
+	;iftruefwd .LoadFight2
+	checkevent EVENT_BEAT_MARLON
+	iftruefwd .LoadFight1
+; Fight0
+	loadtrainer YOUNGSTER, YOUNGSTER_R13
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	sjumpfwd .Gift
+	
+.LoadFight1:
+	loadtrainer YOUNGSTER, DAN_REMATCH_1
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	sjumpfwd .Gift
+	
+.LoadFight2:
+	loadtrainer YOUNGSTER, DAN_REMATCH_2
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	sjumpfwd .Gift
+	
+.LoadFight3:
+	loadtrainer YOUNGSTER, DAN_REMATCH_3
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	sjumpfwd .Gift
+	
+.LoadFight4:
+	loadtrainer YOUNGSTER, DAN_REMATCH_4
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	sjumpfwd .Gift
+	
+.LoadFight5:
+	loadtrainer YOUNGSTER, DAN_REMATCH_5
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	sjumpfwd .Gift
+	
+.LoadFight6:
+	loadtrainer YOUNGSTER, DAN_REMATCH_6
+	startbattle
+	reloadmapafterbattle
+	clearflag ENGINE_DAN_READY_FOR_REMATCH
+	; fallthrough
+	
+.Gift:
+	opentext
+	callstd giftm
+	rematchgift REMATCHGIFT_TIER_1
+	ifequalfwd FALSE, .PackIsFull
 	end
+	
+.NumberAccepted:
+	jumpstd numberacceptedm
+	
+.PhoneFull:
+	jumpstd phonefullm
+	
+.NumberDeclined:
+	jumpstd numberdeclinedm
+	
+.PackIsFull:
+	jumpstd packfullm
 	
 TrainerLassR13:
 	generictrainer LASS, LASS_R13, EVENT_BEAT_LASS_R13, .SeenText, .BeatenText
@@ -120,6 +226,14 @@ YoungsterR13BeatenText:
 	text "Wow! I could tell"
 	line "you really wanted"
 	cont "to win!"
+	done
+	
+YoungsterR13AfterText:
+	text "I'm gonna keep"
+	line "battling to make"
+
+	para "my #mon"
+	line "stronger!"
 	done
 	
 R13Blocker1Text:

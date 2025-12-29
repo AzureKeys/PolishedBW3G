@@ -178,6 +178,11 @@ wCurFruitTree:: db
 wCurFruit:: db
 
 NEXTU
+; rematch gift data
+wRematchGiftTier:: db
+wCurRematchGiftItem:: db
+
+NEXTU
 ; item ball data
 wItemBallItemID:: db
 wItemBallQuantity:: db

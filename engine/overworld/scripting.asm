@@ -276,6 +276,7 @@ RunScriptCommand:
 	dw Script_setquantity                ; d9
 	dw Script_pluralize                  ; da
 	dw Script_loadtrainerwithpal         ; db
+	dw Script_rematchgift                ; dc
 	assert_table_length NUM_EVENT_COMMANDS
 
 GetScriptWordDE::
@@ -760,6 +761,13 @@ Script_fruittree:
 	ld b, BANK(FruitTreeScript)
 	ld hl, FruitTreeScript
 	jmp ScriptJump
+	
+Script_rematchgift:
+	call GetScriptByte
+	ld [wRematchGiftTier], a
+	ld b, BANK(RematchGiftScript)
+	ld hl, RematchGiftScript
+	jp ScriptJump
 
 Script_swarm:
 	call GetScriptByte

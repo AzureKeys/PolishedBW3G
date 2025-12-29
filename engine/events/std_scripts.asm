@@ -415,11 +415,59 @@ BugContestResults_CopyContestantsToResults:
 AskNumber1MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanAskNumber1Text
+	end
+.Freddy:
+	farwritetext FreddyAskNumber1Text
+	end
+.Eric:
+	farwritetext EricAskNumber1Text
+	end
+.Marco:
+	farwritetext MarcoAskNumber1Text
+	end
+.Parker:
+	farwritetext ParkerAskNumber1Text
+	end
+.Dean:
+	farwritetext DeanAskNumber1Text
 	end
 
 AskNumber2MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanAskNumber2Text
+	end
+.Freddy:
+	farwritetext FreddyAskNumber2Text
+	end
+.Eric:
+	farwritetext EricAskNumber2Text
+	end
+.Marco:
+	farwritetext MarcoAskNumber2Text
+	end
+.Parker:
+	farwritetext ParkerAskNumber2Text
+	end
+.Dean:
+	farwritetext DeanAskNumber2Text
 	end
 
 RegisteredNumberMScript:
@@ -431,42 +479,243 @@ RegisteredNumberMScript:
 
 NumberAcceptedMScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanNumberAcceptedText
+	waitendtext
+.Freddy:
+	farwritetext FreddyNumberAcceptedText
+	waitendtext
+.Eric:
+	farwritetext EricNumberAcceptedText
+	waitendtext
+.Marco:
+	farwritetext MarcoNumberAcceptedText
+	waitendtext
+.Parker:
+	farwritetext ParkerNumberAcceptedText
+	waitendtext
+.Dean:
+	farwritetext DeanNumberAcceptedText
 	waitendtext
 
 NumberDeclinedMScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanNumberDeclinedText
+	waitendtext
+.Freddy:
+	farwritetext FreddyNumberDeclinedText
+	waitendtext
+.Eric:
+	farwritetext EricNumberDeclinedText
+	waitendtext
+.Marco:
+	farwritetext MarcoNumberDeclinedText
+	waitendtext
+.Parker:
+	farwritetext ParkerNumberDeclinedText
+	waitendtext
+.Dean:
+	farwritetext DeanNumberDeclinedText
 	waitendtext
 
 PhoneFullMScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanPhoneFullText
+	waitendtext
+.Freddy:
+	farwritetext FreddyPhoneFullText
+	waitendtext
+.Eric:
+	farwritetext EricPhoneFullText
+	waitendtext
+.Marco:
+	farwritetext MarcoPhoneFullText
+	waitendtext
+.Parker:
+	farwritetext ParkerPhoneFullText
+	waitendtext
+.Dean:
+	farwritetext DeanPhoneFullText
 	waitendtext
 
 RematchMScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanRematchText
+	waitendtext
+.Freddy:
+	farwritetext FreddyRematchText
+	waitendtext
+.Eric:
+	farwritetext EricRematchText
+	waitendtext
+.Marco:
+	farwritetext MarcoRematchText
+	waitendtext
+.Parker:
+	farwritetext ParkerRematchText
+	waitendtext
+.Dean:
+	farwritetext DeanRematchText
 	waitendtext
 
 GiftMScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanGiftText
+	promptbutton
+	end
+.Freddy:
+	farwritetext FreddyGiftText
+	promptbutton
+	end
+.Eric:
+	farwritetext EricGiftText
+	promptbutton
+	end
+.Marco:
+	farwritetext MarcoGiftText
+	promptbutton
+	end
+.Parker:
+	farwritetext ParkerGiftText
+	promptbutton
+	end
+.Dean:
+	farwritetext DeanGiftText
+	promptbutton
 	end
 
 PackFullMScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_YOUNGSTER_DAN, .Dan
+	ifequalfwd PHONE_CYCLIST_FREDDY, .Freddy
+	ifequalfwd PHONE_DANCER_ERIC, .Eric
+	ifequalfwd PHONE_SCIENTIST_MARCO, .Marco
+	ifequalfwd PHONE_BACKPACKER_PARKER, .Parker
+	ifequalfwd PHONE_LINEBACKER_DEAN, .Dean
+	
+.Dan:
+	farwritetext DanPackFullText
+	waitendtext
+.Freddy:
+	farwritetext FreddyPackFullText
+	waitendtext
+.Eric:
+	farwritetext EricPackFullText
+	waitendtext
+.Marco:
+	farwritetext MarcoPackFullText
+	waitendtext
+.Parker:
+	farwritetext ParkerPackFullText
+	waitendtext
+.Dean:
+	farwritetext DeanPackFullText
 	waitendtext
 
 RematchGiftMScript:
-	opentext
-	readvar VAR_CALLERID
-
 	end
 
 AskNumber1FScript:
 	readvar VAR_CALLERID
-
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyAskNumber1Text
+	end
+.Ariana:
+	farwritetext ArianaAskNumber1Text
+	end
+.Carla:
+	farwritetext CarlaAskNumber1Text
+	end
+.Clarissa:
+	farwritetext ClarissaAskNumber1Text
+	end
+.Jenny:
+	farwritetext JennyAskNumber1Text
+	end
+.Sophie:
+	farwritetext SophieAskNumber1Text
+	end
+.Lois:
+	farwritetext LoisAskNumber1Text
 	end
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
-
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyAskNumber2Text
+	end
+.Ariana:
+	farwritetext ArianaAskNumber2Text
+	end
+.Carla:
+	farwritetext CarlaAskNumber2Text
+	end
+.Clarissa:
+	farwritetext ClarissaAskNumber2Text
+	end
+.Jenny:
+	farwritetext JennyAskNumber2Text
+	end
+.Sophie:
+	farwritetext SophieAskNumber2Text
+	end
+.Lois:
+	farwritetext LoisAskNumber2Text
 	end
 
 RegisteredNumberFScript:
@@ -478,30 +727,201 @@ RegisteredNumberFScript:
 
 NumberAcceptedFScript:
 	readvar VAR_CALLERID
-
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyNumberAcceptedText
+	waitendtext
+.Ariana:
+	farwritetext ArianaNumberAcceptedText
+	waitendtext
+.Carla:
+	farwritetext CarlaNumberAcceptedText
+	waitendtext
+.Clarissa:
+	farwritetext ClarissaNumberAcceptedText
+	waitendtext
+.Jenny:
+	farwritetext JennyNumberAcceptedText
+	waitendtext
+.Sophie:
+	farwritetext SophieNumberAcceptedText
+	waitendtext
+.Lois:
+	farwritetext LoisNumberAcceptedText
 	waitendtext
 
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
-
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyNumberDeclinedText
+	waitendtext
+.Ariana:
+	farwritetext ArianaNumberDeclinedText
+	waitendtext
+.Carla:
+	farwritetext CarlaNumberDeclinedText
+	waitendtext
+.Clarissa:
+	farwritetext ClarissaNumberDeclinedText
+	waitendtext
+.Jenny:
+	farwritetext JennyNumberDeclinedText
+	waitendtext
+.Sophie:
+	farwritetext SophieNumberDeclinedText
+	waitendtext
+.Lois:
+	farwritetext LoisNumberDeclinedText
 	waitendtext
 
 PhoneFullFScript:
 	readvar VAR_CALLERID
-
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyPhoneFullText
+	waitendtext
+.Ariana:
+	farwritetext ArianaPhoneFullText
+	waitendtext
+.Carla:
+	farwritetext CarlaPhoneFullText
+	waitendtext
+.Clarissa:
+	farwritetext ClarissaPhoneFullText
+	waitendtext
+.Jenny:
+	farwritetext JennyPhoneFullText
+	waitendtext
+.Sophie:
+	farwritetext SophiePhoneFullText
+	waitendtext
+.Lois:
+	farwritetext LoisPhoneFullText
 	waitendtext
 
 RematchFScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyRematchText
+	waitendtext
+.Ariana:
+	farwritetext ArianaRematchText
+	waitendtext
+.Carla:
+	farwritetext CarlaRematchText
+	waitendtext
+.Clarissa:
+	farwritetext ClarissaRematchText
+	waitendtext
+.Jenny:
+	farwritetext JennyRematchText
+	waitendtext
+.Sophie:
+	farwritetext SophieRematchText
+	waitendtext
+.Lois:
+	farwritetext LoisRematchText
 	waitendtext
 
 GiftFScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyGiftText
+	promptbutton
+	end
+.Ariana:
+	farwritetext ArianaGiftText
+	promptbutton
+	end
+.Carla:
+	farwritetext CarlaGiftText
+	promptbutton
+	end
+.Clarissa:
+	farwritetext ClarissaGiftText
+	promptbutton
+	end
+.Jenny:
+	farwritetext JennyGiftText
+	promptbutton
+	end
+.Sophie:
+	farwritetext SophieGiftText
+	promptbutton
+	end
+.Lois:
+	farwritetext LoisGiftText
 	promptbutton
 	end
 
 PackFullFScript:
 	readvar VAR_CALLERID
+	ifequalfwd PHONE_LADY_LACEY, .Lacey
+	ifequalfwd PHONE_PKMN_RANGER_ARIANA, .Ariana
+	ifequalfwd PHONE_LASS_CARLA, .Carla
+	ifequalfwd PHONE_MAID_CLARISSA, .Clarissa
+	ifequalfwd PHONE_BACKPACKER_JENNY, .Jenny
+	ifequalfwd PHONE_MAID_SOPHIE, .Sophie
+	ifequalfwd PHONE_PARASOL_LADY_LOIS, .Lois
+	
+.Lacey:
+	farwritetext LaceyPackFullText
+	waitendtext
+.Ariana:
+	farwritetext ArianaPackFullText
+	waitendtext
+.Carla:
+	farwritetext CarlaPackFullText
+	waitendtext
+.Clarissa:
+	farwritetext ClarissaPackFullText
+	waitendtext
+.Jenny:
+	farwritetext JennyPackFullText
+	waitendtext
+.Sophie:
+	farwritetext SophiePackFullText
+	waitendtext
+.Lois:
+	farwritetext LoisPackFullText
 	waitendtext
 
 RematchGiftFScript:

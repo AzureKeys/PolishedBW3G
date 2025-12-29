@@ -1,0 +1,54 @@
+RematchGiftItemsTier1:
+	db RED_SHARD
+	db RED_SHARD
+	db BLUE_SHARD
+	db BLUE_SHARD
+	db GREEN_SHARD
+	db GREEN_SHARD
+	db YELLOW_SHARD
+	db YELLOW_SHARD
+	db MOOMOO_MILK
+	db MOOMOO_MILK
+	db PEARL
+	db PEARL
+	db ETHER
+	db ETHER
+	db REVIVE
+	db REVIVE
+	
+RematchGiftItemsTier2:
+	db RED_SHARD
+	db BLUE_SHARD
+	db GREEN_SHARD
+	db YELLOW_SHARD
+	db DAMP_ROCK
+	db HEAT_ROCK
+	db SMOOTH_ROCK
+	db ICY_ROCK
+	db BIG_PEARL
+	db BIG_PEARL
+	db PROTEIN
+	db IRON
+	db CARBOS
+	db CALCIUM
+	db HP_UP
+	db ELIXIR
+	
+RematchGiftItemsTier3:
+	db DAMP_ROCK
+	db DAMP_ROCK
+	db HEAT_ROCK
+	db HEAT_ROCK
+	db SMOOTH_ROCK
+	db SMOOTH_ROCK
+	db ICY_ROCK
+	db ICY_ROCK
+	db PROTEIN
+	db IRON
+	db CARBOS
+	db CALCIUM
+	db PP_UP
+	db MAX_ELIXIR
+	db MAX_REVIVE
+	db RARE_CANDY
+	

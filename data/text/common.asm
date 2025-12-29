@@ -41,6 +41,14 @@ _FruitPackIsFullText::
 	text "But the Bag is"
 	line "full…"
 	done
+	
+SECTION "_ObtainedTrainerGiftText", ROMX
+_ObtainedTrainerGiftText::
+	text "Received a"
+	line ""
+	text_ram wStringBuffer3
+	text "!"
+	done
 
 SECTION "_NoApricornBoxText", ROMX
 _NoApricornBoxText::

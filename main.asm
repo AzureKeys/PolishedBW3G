@@ -69,6 +69,7 @@ SECTION "bank4", ROMX
 INCLUDE "engine/items/pack.asm"
 INCLUDE "engine/events/itemball.asm"
 INCLUDE "engine/events/fruit_trees.asm"
+INCLUDE "engine/events/rematch_gift.asm"
 INCLUDE "engine/gfx/item_icons.asm"
 INCLUDE "engine/overworld/time.asm"
 INCLUDE "engine/items/tmhm.asm"
@@ -364,7 +365,6 @@ INCLUDE "engine/phone/scripts/hangups.asm"
 INCLUDE "engine/phone/scripts/reminders.asm"
 INCLUDE "engine/phone/scripts/hangups_2.asm"
 INCLUDE "engine/phone/scripts/reminders_2.asm"
-INCLUDE "engine/phone/scripts/bike_shop.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
 
 
@@ -387,6 +387,19 @@ INCLUDE "engine/phone/scripts/mom.asm"
 INCLUDE "engine/phone/scripts/bill.asm"
 INCLUDE "engine/phone/scripts/bianca.asm"
 INCLUDE "engine/phone/scripts/generic_callee.asm"
+INCLUDE "engine/phone/scripts/dan.asm"
+INCLUDE "engine/phone/scripts/freddy.asm"
+INCLUDE "engine/phone/scripts/eric.asm"
+INCLUDE "engine/phone/scripts/lacey.asm"
+INCLUDE "engine/phone/scripts/sophie.asm"
+INCLUDE "engine/phone/scripts/ariana.asm"
+INCLUDE "engine/phone/scripts/carla.asm"
+INCLUDE "engine/phone/scripts/clarissa.asm"
+INCLUDE "engine/phone/scripts/jenny.asm"
+INCLUDE "engine/phone/scripts/marco.asm"
+INCLUDE "engine/phone/scripts/parker.asm"
+INCLUDE "engine/phone/scripts/dean.asm"
+INCLUDE "engine/phone/scripts/lois.asm"
 
 
 SECTION "Evolution Phone Scripts", ROMX
@@ -503,11 +516,6 @@ SECTION "Standard Text", ROMX
 INCLUDE "data/text/std_text.asm"
 
 
-SECTION "Crystal Phone Text 2", ROMX
-
-INCLUDE "data/phone/text/bike_shop.asm"
-
-
 SECTION "Phone Text 3", ROMX
 
 INCLUDE "data/phone/text/mom.asm"
@@ -515,6 +523,19 @@ INCLUDE "data/phone/text/bill.asm"
 INCLUDE "data/phone/text/bianca.asm"
 INCLUDE "data/phone/text/unknown_callee.asm"
 INCLUDE "data/phone/text/cheren.asm"
+INCLUDE "data/phone/text/dan.asm"
+INCLUDE "data/phone/text/freddy.asm"
+INCLUDE "data/phone/text/eric.asm"
+INCLUDE "data/phone/text/lacey.asm"
+INCLUDE "data/phone/text/sophie.asm"
+INCLUDE "data/phone/text/ariana.asm"
+INCLUDE "data/phone/text/carla.asm"
+INCLUDE "data/phone/text/clarissa.asm"
+INCLUDE "data/phone/text/jenny.asm"
+INCLUDE "data/phone/text/marco.asm"
+INCLUDE "data/phone/text/parker.asm"
+INCLUDE "data/phone/text/dean.asm"
+INCLUDE "data/phone/text/lois.asm"
 
 
 SECTION "Diploma", ROMX

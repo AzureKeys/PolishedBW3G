@@ -1407,4 +1407,10 @@ MACRO loadtrainerwithpal
 	db \3 ; palette
 ENDM
 
+	const rematchgift_command
+MACRO rematchgift
+	db rematchgift_command
+	db \1 ; item_tier
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value
