@@ -66,4 +66,5 @@ Music:
 	dba Music_UnovaCave
 	dba Music_UnovaRoute2
 	dba Music_LacunosaTown
+	dba Music_BrendanEncounter
 	assert_table_length NUM_MUSIC_SONGS

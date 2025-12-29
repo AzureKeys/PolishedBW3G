@@ -98,4 +98,8 @@ SECTION "LacunosaTown_BlockData", ROMX
 LacunosaTown_BlockData:
 	INCBIN "maps/LacunosaTown.ablk.lz"
 
+SECTION "Route12_BlockData", ROMX
+Route12_BlockData:
+	INCBIN "maps/Route12.ablk.lz"
+
 ENDSECTION

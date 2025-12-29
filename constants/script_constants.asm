@@ -196,15 +196,16 @@ DEF EMOTE_FROM_MEM EQU -1
 DEF FIRST_BERRY_TREE EQU const_value
 	const FRUITTREE_ROUTE_22          ; 08
 	const FRUITTREE_ROUTE_13          ; 09
+	const FRUITTREE_ROUTE_12          ; 0a
 DEF NUM_FRUIT_TREES EQU const_value - 1
 
 ; hidden grottoes
 ; HiddenGrottoData indexes (see data/events/hidden_grottoes/grottoes.asm)
 	const_def 1
 	const HIDDENGROTTO_ROUTE_22                ; 01
-	const HIDDENGROTTO_ROUTE_13                ; 02
+	const HIDDENGROTTO_ROUTE_12                ; 02
+	const HIDDENGROTTO_ROUTE_13                ; 03
 	
-	const HIDDENGROTTO_ROUTE_35                ; 03
 	const HIDDENGROTTO_ROUTE_36                ; 04
 	const HIDDENGROTTO_CHERRYGROVE_BAY         ; 05
 	const HIDDENGROTTO_VIOLET_OUTSKIRTS        ; 06

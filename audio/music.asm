@@ -186,4 +186,7 @@ INCLUDE "audio/music/route13.asm"
 SECTION "Song - lacunosa", ROMX
 INCLUDE "audio/music/lacunosa.asm"
 
+SECTION "Song - marlon", ROMX
+INCLUDE "audio/music/marlon.asm"
+
 ENDSECTION

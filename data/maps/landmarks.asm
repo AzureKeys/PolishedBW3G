@@ -12,6 +12,7 @@ Landmarks:
 	landmark 124,  28, GiantChasmName
 	landmark 124,  44, Route13Name
 	landmark 116,  36, LacunosaTownName
+	landmark 108,  36, Route12Name
 	landmark  28,  52, BattleTowerName
 	landmark  28,  76, PokemonLeagueName
 	assert_table_length NUM_LANDMARKS
@@ -21,6 +22,7 @@ Route22Name:           rawchar "Route 22@"
 GiantChasmName:        rawchar "Giant Chasm@"
 Route13Name:           rawchar "Route 13@"
 LacunosaTownName:      rawchar "Lacunosa¯Town@"
+Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League Gate@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 SpecialMapName:        rawchar "?@"

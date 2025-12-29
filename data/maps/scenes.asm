@@ -17,5 +17,6 @@ MapScenes::
 	scene_var HUMILAU_CITY,                           wHumilauCitySceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
+	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	db -1

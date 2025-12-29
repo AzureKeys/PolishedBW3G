@@ -1065,6 +1065,7 @@ wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
+wRoute12SceneID:: db
 wTradeCenterSceneID:: db
 
 ; fight counts
