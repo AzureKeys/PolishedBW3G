@@ -330,13 +330,6 @@ HatchEggs:
 	call SetSeenAndCaughtMon
 	pop bc
 
-	; If we hatched a Togepi, set the relevant Prof Elm event flag.
-	ld de, TOGEPI
-	call CompareSpeciesWithDE
-	jr nz, .nottogepi
-	eventflagset EVENT_TOGEPI_HATCHED
-
-.nottogepi
 	call GetPartyPokemonName
 
 	; Write the species name to replace "Egg" (or "Bad Egg" I suppose...).

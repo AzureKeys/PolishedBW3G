@@ -440,51 +440,11 @@ ContestScore:
 	ret
 
 Special_SelectRandomBugContestContestants:
-; Select five random people to participate in the current contest.
 
-; First we have to make sure that any old data is cleared away.
-	lb bc, RESET_FLAG, 10 ; Action, Number of people to choose from.
-	ld de, EVENT_BUG_CATCHING_CONTESTANT_1A ; First event in the sequence.
-.loop1
-	push bc
-	push de
-	call EventFlagAction
-	pop de
-	inc de
-	pop bc
-	dec c
-	jr nz, .loop1
-
-; Now that that's out of the way, we can get on to the good stuff.
-	ld c, 5
-.loop2
-	push bc
-.next
-; Choose a flag at uniform random to be set.
-	ld a, 10
-	call RandomRange
-; If we've already set it, it doesn't count.
-	call Special_CheckBugContestContestantFlag
-	jr nz, .next
-; Set the flag.  This will cause that sprite to not be visible in the contest.
-	ld b, SET_FLAG
-	call EventFlagAction
-	pop bc
-; Check if we're done.  If so, return.  Otherwise, choose the next victim.
-	dec c
-	jr nz, .loop2
 	ret
 
 Special_CheckBugContestContestantFlag:
 ; Checks the flag of the Bug Catching Contestant whose index is loaded in a.
 ; Returns de = EVENT_BUG_CATCHING_CONTESTANT_{d:a}A.
-	add LOW(EVENT_BUG_CATCHING_CONTESTANT_1A)
-	ld e, a
-	adc HIGH(EVENT_BUG_CATCHING_CONTESTANT_1A)
-	sub e
-	ld d, a
-	ld b, CHECK_FLAG
-	push de
-	call EventFlagAction
-	pop de
+
 	ret

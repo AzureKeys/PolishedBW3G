@@ -122,12 +122,12 @@ Var_Landmark:
 Var_CountTrainerStars:
 	ld b, 0
 	; star for beating the Elite Four
-	eventflagcheck EVENT_BEAT_ELITE_FOUR
+	eventflagcheck EVENT_BEAT_POKEMON_LEAGUE
 	jr z, .nostar1
 	inc b
 .nostar1
-	; star for beating Leaf
-	eventflagcheck EVENT_BEAT_LEAF
+	; star for beating Hilbert/Hilda
+	eventflagcheck EVENT_BEAT_HILBERT_HILDA
 	jr z, .nostar2
 	inc b
 .nostar2

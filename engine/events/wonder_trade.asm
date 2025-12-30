@@ -93,10 +93,10 @@ DoWonderTrade:
 	ld [wPlayerTrademonSpecies], a
 
 	; If you've beaten the Elite Four...
-	eventflagcheck EVENT_BEAT_ELITE_FOUR
+	eventflagcheck EVENT_BEAT_POKEMON_LEAGUE
 	jr z, .random_trademon
 	; ...and haven't gotten the GS Ball Pichu yet...
-	eventflagcheck EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	eventflagcheck EVENT_GOT_SPIKY_EARED_PICHU
 	jr nz, .random_trademon
 	; ...then receive a spiky-eared Pichu holding a GS Ball
 	call GetGSBallPichu

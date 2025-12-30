@@ -73,57 +73,21 @@ PokeCenterNurseScript:
 	sjumpfwd .ok
 
 .morn
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftruefwd .morn_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
-	iffalsefwd .morn_center
-	farwritetext PokeComNurseMornText
-	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	sjumpfwd .ok
-.morn_center
 	farwritetext NurseMornText
 	promptbutton
 	sjumpfwd .ok
 
 .day
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftruefwd .day_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
-	iffalsefwd .day_center
-	farwritetext PokeComNurseDayText
-	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	sjumpfwd .ok
-.day_center
 	farwritetext NurseDayText
 	promptbutton
 	sjumpfwd .ok
 
 .eve
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftruefwd .eve_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
-	iffalsefwd .eve_center
-	farwritetext PokeComNurseEveText
-	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	sjumpfwd .ok
-.eve_center
 	farwritetext NurseEveText
 	promptbutton
 	sjumpfwd .ok
 
 .nite
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftruefwd .nite_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
-	iffalsefwd .nite_center
-	farwritetext PokeComNurseNiteText
-	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	sjumpfwd .ok
-.nite_center
 	farwritetext NurseNiteText
 	promptbutton
 	; fallthrough
@@ -186,19 +150,9 @@ PokeCenterNurseScript:
 
 .pokerus
 	; already cleared earlier in the script
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftruefwd .pokerus_comcenter
 	farwritetext NursePokerusText
 	waitbutton
 	closetext
-	sjumpfwd .pokerus_done
-
-.pokerus_comcenter
-	farwritetext PokeComNursePokerusText
-	waitbutton
-	closetext
-
-.pokerus_done
 	setflag ENGINE_CAUGHT_POKERUS
 	specialphonecall SPECIALCALL_POKERUS
 .done
@@ -358,9 +312,6 @@ DayToTextScript:
 BugContestResultsWarpScript:
 	special ClearBGPalettes
 	scall BugContestResults_CopyContestantsToResults
-	setevent EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY
-	clearevent EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_NOT_CONTEST_DAY
-	setevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
 	applymovement PLAYER, Movement_ContestResults_WalkAfterWarp
 	; fallthrough
 
@@ -370,46 +321,6 @@ BugContestResultsScript:
 	end
 
 BugContestResults_CopyContestantsToResults:
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_1A
-	iftruefwd .skip1
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_1B
-.skip1
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_2A
-	iftruefwd .skip2
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_2B
-.skip2
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_3A
-	iftruefwd .skip3
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_3B
-.skip3
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_4A
-	iftruefwd .skip4
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_4B
-.skip4
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_5A
-	iftruefwd .skip5
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_5B
-.skip5
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_6A
-	iftruefwd .skip6
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_6B
-.skip6
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_7A
-	iftruefwd .skip7
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_7B
-.skip7
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_8A
-	iftruefwd .skip8
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_8B
-.skip8
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_9A
-	iftruefwd .skip9
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_9B
-.skip9
-	checkevent EVENT_BUG_CATCHING_CONTESTANT_10A
-	iftruefwd .skip10
-	clearevent EVENT_BUG_CATCHING_CONTESTANT_10B
-.skip10
 	end
 
 AskNumber1MScript:

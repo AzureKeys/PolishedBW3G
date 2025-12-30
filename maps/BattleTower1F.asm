@@ -302,8 +302,6 @@ MenuData2_BattleInfoCancel:
 BattleTowerPharmacistScript:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_TRICK_INTRO
-	iftruefwd BattleTowerTutorTrickScript
 	writethistext
 		text "The trainers here"
 		line "strategically use"
@@ -317,7 +315,6 @@ BattleTowerPharmacistScript:
 		line "mine with Trick!"
 		done
 	waitbutton
-	setevent EVENT_LISTENED_TO_TRICK_INTRO
 BattleTowerTutorTrickScript:
 	writethistext
 		text "I'll teach your"

@@ -92,7 +92,7 @@ MainMenu_GetWhichMenu:
 	ld a, BANK(sPlayerData)
 	call GetSRAMBank
 
-	flagcheck sPlayerData - wPlayerData + wEventFlags, EVENT_BEAT_LEAF
+	flagcheck sPlayerData - wPlayerData + wEventFlags, EVENT_BEAT_HILBERT_HILDA
 	ld a, MAINMENU_MENU_NEW_GAME_PLUS
 	jr nz, .done
 

@@ -68,21 +68,11 @@ HallOfFameEntranceTrigger:
 	pause 15
 	setval 2 ; Machine is in the Hall of Fame
 	special HealMachineAnim
-	readvar VAR_BADGES
-	ifless 16, .NotATrueRematch
-	setevent EVENT_BEAT_ELITE_FOUR_AGAIN
-.NotATrueRematch
-	setevent EVENT_BEAT_ELITE_FOUR
-	setevent EVENT_RIVAL_SPROUT_TOWER
-	setevent EVENT_OLIVINE_PORT_SPRITES_BEFORE_HALL_OF_FAME
-	clearevent EVENT_OLIVINE_PORT_SPRITES_AFTER_HALL_OF_FAME
+	setevent EVENT_BEAT_POKEMON_LEAGUE
 	special RespawnOneOffs
 	special HealParty
-	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
-	iftruefwd .SkipPhoneCall
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
-.SkipPhoneCall:
 	blackoutmod HUMILAU_CITY
 	halloffame
 	end

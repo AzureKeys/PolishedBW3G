@@ -1658,31 +1658,7 @@ FillJohtoMap:
 
 FillOrangeMap:
 	ld de, OrangeMap
-	call FillTownMap
-	eventflagcheck EVENT_VISITED_FARAWAY_ISLAND
-	ret nz
-	ld a, $a
-	hlcoord 1, 12
-	ld [hli], a
-	ld [hli], a
-	ld [hli], a
-	ld [hli], a
-	ld [hl], a
-	hlcoord 5, 13
-	ld [hl], a
-	hlcoord 2, 14
-	ld [hli], a
-	ld [hli], a
-	inc hl
-	ld [hl], a
-	hlcoord 2, 15
-	ld [hli], a
-	ld [hli], a
-	inc hl
-	ld [hl], a
-	hlcoord 5, 16
-	ld [hl], a
-	ret
+	jr FillTownMap
 
 FillKantoMap:
 	ld de, KantoMap

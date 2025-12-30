@@ -14,11 +14,9 @@ SpecialHoOhChamber:
 	ret nz
 
 .open
-	eventflagset EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
 	ret
 
 SpecialOmanyteChamber:
-	eventflagcheck EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
 	ret nz
 
 	ld a, WATER_STONE
@@ -44,12 +42,10 @@ SpecialOmanyteChamber:
 	jr nz, .loop
 
 .open
-	eventflagset EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
 	ret
 
 SpecialAerodactylChamber:
 
-	eventflagset EVENT_WALL_OPENED_IN_AERODACTYL_CHAMBER
 	scf
 	ret
 
@@ -59,7 +55,6 @@ SpecialAerodactylChamber:
 
 SpecialKabutoChamber:
 
-	eventflagset EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
 	ret
 
 Special_DisplayUnownWords:

@@ -10,7 +10,6 @@ GetOvercastIndex::
 	jr .not_overcast
 .azalea_town
 ; Not overcast until Slowpokes appear (Team Rocket beaten)
-	eventflagcheck EVENT_AZALEA_TOWN_SLOWPOKES
 	jr nz, .not_overcast
 ; Overcast on Sunday, Tuesday, Thursday, and Saturday
 	call GetWeekday
@@ -27,7 +26,6 @@ GetOvercastIndex::
 ; Lake of Rage and Route 43
 	jr .not_overcast
 ; Always overcast until civilians appear (Team Rocket beaten)
-	eventflagcheck EVENT_LAKE_OF_RAGE_CIVILIANS
 	jr nz, .overcast_lake_of_rage
 ; Overcast on Monday, Wednesday, and Friday
 	call GetWeekday
@@ -47,7 +45,6 @@ GetOvercastIndex::
 ; Stormy Beach is always overcast
 .maybe_stormy_beach
 ; Only overcast while Team Rocket is present
-	eventflagcheck EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
 	jr nz, .not_overcast
 .overcast_stormy_beach
 	ld a, STORMY_BEACH_OVERCAST

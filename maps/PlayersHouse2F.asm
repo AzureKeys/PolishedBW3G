@@ -167,23 +167,13 @@ endr
 	setevent EVENT_BEAT_CILAN
 	setevent EVENT_BEAT_SKYLA
 	setevent EVENT_BEAT_DRAYDEN
-	setevent EVENT_BEAT_BROCK
-	setevent EVENT_BEAT_MISTY
-	setevent EVENT_BEAT_LTSURGE
-	setevent EVENT_BEAT_ERIKA
-	setevent EVENT_BEAT_JANINE
-	setevent EVENT_BEAT_SABRINA
-	setevent EVENT_BEAT_BLAINE
-	setevent EVENT_BEAT_BLUE
-	setevent EVENT_BEAT_ELITE_FOUR
-	setevent EVENT_BEAT_ELITE_FOUR_AGAIN
+	setevent EVENT_BEAT_POKEMON_LEAGUE
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
-	setevent EVENT_ENABLE_DIPLOMA_PRINTING
 	; fly anywhere
 	setflag ENGINE_FLYPOINT_HUMILAU
-	; magnet train works
-	setevent EVENT_RESTORED_POWER_TO_KANTO
+	setflag ENGINE_FLYPOINT_LACUNOSA
+	setflag ENGINE_FLYPOINT_UNDELLA
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
 	; good party
@@ -242,7 +232,6 @@ endr
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	addcellnum PHONE_BIANCA
-	setevent EVENT_INTRODUCED_ROUTE_LEADERS
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
 	warpfacing DOWN, ROUTE_22, 7, 9
@@ -266,31 +255,14 @@ endc
 
 	checkevent EVENT_GOT_A_POKEMON
 	iftruefwd .NormalRadio
-	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
-	iftruefwd .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_CENTER
-	opentext
-	writetext PlayerRadioText1
-	pause 45
-	writetext PlayerRadioText2
-	pause 45
-	writetext PlayerRadioText3
-	pause 45
-	musicfadeout MUSIC_HUMILAU_CITY, 16
-	writetext PlayerRadioText4
-	pause 45
-	closetext
-	setevent EVENT_LISTENED_TO_INITIAL_RADIO
-	end
-
-.NormalRadio:
-	jumpstd radio1
-
-.AbbreviatedRadio:
 	opentext
 	writetext PlayerRadioText4
 	pause 45
 	endtext
+	end
+
+.NormalRadio:
+	jumpstd radio1
 
 ;endc
 
