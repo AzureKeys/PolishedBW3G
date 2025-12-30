@@ -87,6 +87,7 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_HOME
 	const SPAWN_HUMILAU
 	const SPAWN_LACUNOSA
+	const SPAWN_UNDELLA
 DEF NUM_SPAWNS EQU const_value
 
 DEF SPAWN_N_A EQU -1
@@ -95,4 +96,6 @@ DEF SPAWN_N_A EQU -1
 	const_def
 ; johto
 	const FLY_HUMILAU
+	const FLY_LACUNOSA
+	const FLY_UNDELLA
 DEF NUM_FLYPOINTS EQU const_value

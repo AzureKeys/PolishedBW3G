@@ -20,4 +20,5 @@ MapScenes::
 	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
+	scene_var UNDELLA_TOWN,                           wUndellaTownSceneID
 	db -1

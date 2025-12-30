@@ -12,6 +12,7 @@ SpawnPoints:
 
 	spawn HUMILAU_CITY,                3, 28
 	spawn LACUNOSA_TOWN,               9, 16
+	spawn UNDELLA_TOWN,               29, 10
 
 	spawn N_A,                        -1, -1
 

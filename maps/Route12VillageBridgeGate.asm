@@ -6,6 +6,8 @@ Route12VillageBridgeGate_MapScriptHeader:
 	def_warp_events
 	warp_event  9,  4, ROUTE_12, 1
 	warp_event  9,  5, ROUTE_12, 2
+	;warp_event  0,  4, VILLAGE_BRIDGE, 1
+	;warp_event  0,  5, VILLAGE_BRIDGE, 2
 
 	def_coord_events
 	coord_event  5,  4, 0, R12VillageBridgeGateBridgeOutScript

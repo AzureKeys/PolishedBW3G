@@ -56,4 +56,9 @@ INCLUDE "maps/LacunosaSpeechHouse.asm"
 INCLUDE "maps/LacunosaBerryHouse.asm"
 
 
+SECTION "Undella Scripts", ROMX
+
+INCLUDE "maps/UndellaTown.asm"
+
+
 ENDSECTION

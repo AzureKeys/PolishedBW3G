@@ -1073,6 +1073,7 @@ wPokecenter2FSceneID:: db
 wRoute12SceneID:: db
 wRoute12VillageBridgeGateSceneID:: db
 wTradeCenterSceneID:: db
+wUndellaTownSceneID:: db
 
 wEventFlags:: flag_array NUM_EVENTS
 
@@ -1089,7 +1090,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 167 ; unused
+	ds 166 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

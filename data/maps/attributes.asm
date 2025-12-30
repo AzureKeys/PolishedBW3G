@@ -23,6 +23,8 @@ ENDM
 	
 	map_attributes Route12, ROUTE_12, $e, EAST
 	connection east, LacunosaTown, LACUNOSA_TOWN, -2
+	
+	map_attributes UndellaTown, UNDELLA_TOWN, $e, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0

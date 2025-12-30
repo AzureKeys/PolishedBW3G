@@ -23,6 +23,7 @@ MapGroupPointers::
 	dw MapGroupDungeons
 	dw MapGroupHumilau
 	dw MapGroupLacunosa
+	dw MapGroupUndella
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -65,4 +66,7 @@ MapGroupLacunosa:
 	map LacunosaBerryHouse, TILESET_UNOVA_HOUSE, INDOOR, SIGN_WOOD, LACUNOSA_TOWN, MUSIC_LACUNOSA_TOWN, 1, PALETTE_DAY
 	map Route12, TILESET_UNOVA_BEACH, ROUTE, SIGN_ROUTE, ROUTE_12, MUSIC_ROUTE_22, 0, PALETTE_AUTO
 	map Route12VillageBridgeGate, TILESET_GATE, INDOOR, SIGN_BUILDING, ROUTE_12, MUSIC_ROUTE_22, 1, PALETTE_DAY
+	
+MapGroupUndella:
+	map UndellaTown, TILESET_UNOVA_BEACH, TOWN, SIGN_WOOD, UNDELLA_TOWN, MUSIC_LACUNOSA_TOWN, 0, PALETTE_AUTO
 	

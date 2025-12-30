@@ -3,13 +3,14 @@
 	const SPECIAL_MAP        ; 00
 ; Johto landmarks
 	const HUMILAU_CITY       ; 01
-	const ROUTE_22           ; 02
-	const GIANT_CHASM        ; 03
-	const ROUTE_13           ; 04
-	const LACUNOSA_TOWN      ; 05
-	const ROUTE_12           ; 06
-	const BATTLE_TOWER       ; 2a
-	const POKEMON_LEAGUE     ; 7c
+	const ROUTE_22           ; 05
+	const GIANT_CHASM        ; 06
+	const LACUNOSA_TOWN      ; 07
+	const ROUTE_13           ; 08
+	const UNDELLA_TOWN       ; 09
+	const ROUTE_12           ; 42
+	const POKEMON_LEAGUE     ; 45
+	const BATTLE_TOWER       ; 46
 DEF KANTO_LANDMARK EQU const_value
 DEF SHAMOUTI_LANDMARK EQU const_value
 DEF NUM_LANDMARKS EQU const_value

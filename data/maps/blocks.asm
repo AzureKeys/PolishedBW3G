@@ -106,4 +106,8 @@ SECTION "Route12_BlockData", ROMX
 Route12_BlockData:
 	INCBIN "maps/Route12.ablk.lz"
 
+SECTION "UndellaTown_BlockData", ROMX
+UndellaTown_BlockData:
+	INCBIN "maps/UndellaTown.ablk.lz"
+
 ENDSECTION
