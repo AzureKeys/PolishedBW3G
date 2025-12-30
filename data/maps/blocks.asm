@@ -25,6 +25,7 @@ HiddenCaveGrotto_BlockData:
 SECTION "Pokecenter_Blockdata", ROMX
 HumilauPokecenter_BlockData:
 LacunosaPokecenter_BlockData:
+UndellaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -32,11 +33,16 @@ MomsPartnersHouse_BlockData:
 HumilauTradeHouse_BlockData:
 LacunosaSpeechHouse_BlockData:
 LacunosaBerryHouse_BlockData:
+UndellaFishingGuruHouse_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 
 SECTION "EastWestGate_BlockData", ROMX
 Route12VillageBridgeGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
+
+SECTION "NorthSouthGate_BlockData", ROMX
+Route13UndellaTownGate_BlockData:
+	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX
 PlayersHouse1F_BlockData:

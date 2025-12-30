@@ -69,5 +69,8 @@ ENDM
 	
 	newgroup                                                     ;  6
 	map_const UNDELLA_TOWN,                               22, 14 ;  1
+	map_const ROUTE_13_UNDELLA_TOWN_GATE,                  5,  4 ;  2
+	map_const UNDELLA_POKECENTER,                          5,  5 ;  3
+	map_const UNDELLA_FISHING_GURU_HOUSE,                  4,  4 ;  4
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

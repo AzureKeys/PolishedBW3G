@@ -46,6 +46,7 @@ INCLUDE "maps/GiantChasm1F.asm"
 INCLUDE "maps/Route13.asm"
 INCLUDE "maps/Route12.asm"
 INCLUDE "maps/Route12VillageBridgeGate.asm"
+INCLUDE "maps/Route13UndellaTownGate.asm"
 
 
 SECTION "Lacunosa Scripts", ROMX
@@ -59,6 +60,8 @@ INCLUDE "maps/LacunosaBerryHouse.asm"
 SECTION "Undella Scripts", ROMX
 
 INCLUDE "maps/UndellaTown.asm"
+INCLUDE "maps/UndellaPokecenter.asm"
+INCLUDE "maps/UndellaFishingGuruHouse.asm"
 
 
 ENDSECTION

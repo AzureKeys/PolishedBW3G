@@ -6,6 +6,8 @@ Route13_MapScriptHeader:
 	def_warp_events
 	warp_event  3, 27, HIDDEN_TREE_GROTTO, 1
 	warp_event  8,  3, GIANT_CHASM_1F, 2
+	warp_event 27, 49, ROUTE_13_UNDELLA_TOWN_GATE, 1
+	warp_event 28, 49, ROUTE_13_UNDELLA_TOWN_GATE, 2
 
 	def_coord_events
 
