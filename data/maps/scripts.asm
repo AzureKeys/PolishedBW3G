@@ -62,6 +62,7 @@ SECTION "Undella Scripts", ROMX
 INCLUDE "maps/UndellaTown.asm"
 INCLUDE "maps/UndellaPokecenter.asm"
 INCLUDE "maps/UndellaFishingGuruHouse.asm"
+INCLUDE "maps/CaitlinsHouse.asm"
 
 
 ENDSECTION

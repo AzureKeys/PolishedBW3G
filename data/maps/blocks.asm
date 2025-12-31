@@ -116,4 +116,8 @@ SECTION "UndellaTown_BlockData", ROMX
 UndellaTown_BlockData:
 	INCBIN "maps/UndellaTown.ablk.lz"
 
+SECTION "CaitlinsHouse_BlockData", ROMX
+CaitlinsHouse_BlockData:
+	INCBIN "maps/CaitlinsHouse.ablk.lz"
+
 ENDSECTION

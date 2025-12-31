@@ -72,5 +72,6 @@ ENDM
 	map_const ROUTE_13_UNDELLA_TOWN_GATE,                  5,  4 ;  2
 	map_const UNDELLA_POKECENTER,                          5,  5 ;  3
 	map_const UNDELLA_FISHING_GURU_HOUSE,                  4,  4 ;  4
+	map_const CAITLINS_HOUSE,                              5,  8 ;  5
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

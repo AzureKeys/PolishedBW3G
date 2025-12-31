@@ -41,6 +41,7 @@ ENDM
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
 	map_attributes UndellaPokecenter, UNDELLA_POKECENTER, $0, 0
 	map_attributes UndellaFishingGuruHouse, UNDELLA_FISHING_GURU_HOUSE, $0, 0
+	map_attributes CaitlinsHouse, CAITLINS_HOUSE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

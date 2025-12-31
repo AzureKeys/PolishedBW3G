@@ -1064,6 +1064,7 @@ wFarfetchdPosition:: db
 wAlways0SceneID:: db
 wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
+wCaitlinsHouseSceneID:: db
 wColosseumSceneID:: db
 wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
@@ -1090,7 +1091,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 166 ; unused
+	ds 165 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db
