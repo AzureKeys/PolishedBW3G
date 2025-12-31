@@ -27,8 +27,10 @@ HandleStoneTable::
 	add hl, de
 	ld a, [hl]
 	cp COLL_HOLE
+	jr z, .pit
+	cp COLL_FAN_HOLE
 	jr nz, .next
-
+.pit
 	ld hl, OBJECT_WALKING
 	add hl, de
 	ld a, [hl]

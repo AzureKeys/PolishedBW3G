@@ -96,6 +96,23 @@ TilesetGym1Anim::
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
+	
+TilesetEliteFourRoomAnim:
+	dw vTiles2 tile $57, WriteTileToBuffer
+	dw wTileAnimBuffer, ScrollTileUp
+	dw vTiles2 tile $57, ReadTileFromBuffer
+	dw FanFrames1, AnimateFanTile
+	dw FanFrames2, AnimateFanTile
+	dw FanFrames3, AnimateFanTile
+	dw FanFrames4, AnimateFanTile
+	dw ComputerFrames0L, AnimateComputerTile0
+	dw ComputerFrames0R, AnimateComputerTile0
+	dw ComputerFrames1L, AnimateComputerTile1
+	dw ComputerFrames1R, AnimateComputerTile1
+	dw ComputerFrames2L, AnimateComputerTile2
+	dw ComputerFrames2R, AnimateComputerTile2
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoneTileAnimation
 
 TilesetCaveAnim::
 	dw NULL,  LavaBubbleAnim4
@@ -922,6 +939,103 @@ AnimateWhirlpoolTile:
 	ld sp, hl
 	jmp WriteTileToDE
 
+AnimateFanTile:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ld l, e
+	ld h, d
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+
+; Get the tile for this frame.
+	ld a, [wTileAnimationTimer]
+	and %1 ; 2 frames x2
+	swap a  ; * 16 bytes per tile
+
+	add [hl]
+	inc hl
+	ld h, [hl]
+	ld l, a
+	ld a, 0
+	adc h
+	ld h, a
+
+	ld sp, hl
+	jmp WriteTileToDE
+
+AnimateComputerTile0:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ld l, e
+	ld h, d
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+
+; Get the tile for this frame.
+	ld a, [wTileAnimationTimer]
+	and %11 ; 2 frames x2
+	swap a  ; * 16 bytes per tile
+	jr AnimateComputerTile
+
+AnimateComputerTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ld l, e
+	ld h, d
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+
+; Get the tile for this frame.
+	ld a, [wTileAnimationTimer]
+	inc a
+	and %11 ; 2 frames x2
+	swap a  ; * 16 bytes per tile
+	jr AnimateComputerTile
+
+AnimateComputerTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ld l, e
+	ld h, d
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+
+; Get the tile for this frame.
+	ld a, [wTileAnimationTimer]
+	inc a
+	inc a
+	and %11 ; 2 frames x2
+	swap a  ; * 16 bytes per tile
+	; fallthrough
+
+AnimateComputerTile:
+	add [hl]
+	inc hl
+	ld h, [hl]
+	ld l, a
+	ld a, 0
+	adc h
+	ld h, a
+
+	ld sp, hl
+	jmp WriteTileToDE
+
 AnimateTinyWaterTile:
 	ld hl, sp + 0
 	ld b, h
@@ -1090,6 +1204,26 @@ WhirlpoolTiles1: INCBIN "gfx/tilesets/unova_water/1.2bpp"
 WhirlpoolTiles2: INCBIN "gfx/tilesets/unova_water/2.2bpp"
 WhirlpoolTiles3: INCBIN "gfx/tilesets/unova_water/3.2bpp"
 WhirlpoolTiles4: INCBIN "gfx/tilesets/unova_water/4.2bpp"
+
+FanFrames1: dw vTiles2 tile $60, FanTiles1
+FanFrames2: dw vTiles2 tile $61, FanTiles2
+FanFrames3: dw vTiles2 tile $70, FanTiles3
+FanFrames4: dw vTiles2 tile $71, FanTiles4
+
+FanTiles1: INCBIN "gfx/tilesets/fan/1.2bpp"
+FanTiles2: INCBIN "gfx/tilesets/fan/2.2bpp"
+FanTiles3: INCBIN "gfx/tilesets/fan/3.2bpp"
+FanTiles4: INCBIN "gfx/tilesets/fan/4.2bpp"
+
+ComputerFrames0L: dw vTiles2 tile $45, ComputerTilesL
+ComputerFrames0R: dw vTiles2 tile $46, ComputerTilesR
+ComputerFrames1L: dw vTiles2 tile $55, ComputerTilesL
+ComputerFrames1R: dw vTiles2 tile $56, ComputerTilesR
+ComputerFrames2L: dw vTiles2 tile $4A, ComputerTilesL
+ComputerFrames2R: dw vTiles2 tile $4B, ComputerTilesR
+
+ComputerTilesL: INCBIN "gfx/tilesets/computer/1.2bpp"
+ComputerTilesR: INCBIN "gfx/tilesets/computer/2.2bpp"
 
 FarawayWaterFrames1: dw vTiles2 tile $14, FarawayWaterTiles1
 FarawayWaterFrames2: dw vTiles2 tile $15, FarawayWaterTiles2

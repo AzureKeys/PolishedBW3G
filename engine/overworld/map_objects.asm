@@ -659,6 +659,8 @@ endr
 	ld a, [hl]
 	cp COLL_HOLE
 	jr z, .on_pit
+	cp COLL_FAN_HOLE
+	jr z, .on_pit
 	ld hl, OBJECT_FLAGS2
 	add hl, bc
 	bit BOULDER_MOVING_F, [hl]

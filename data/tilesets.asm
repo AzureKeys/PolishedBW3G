@@ -30,6 +30,7 @@ Tilesets::
 	tileset TilesetCave
 	tileset TilesetIcePath
 	tileset TilesetBattleFactory
+	tileset TilesetEliteFourRoom
 	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
 
@@ -258,6 +259,23 @@ TilesetGym3Attr:: INCBIN "data/tilesets/champions_room_attributes.bin.lz"
 TilesetGym3Coll:: INCBIN "data/tilesets/champions_room_collision.bin.lz"
 
 
+SECTION "Tileset Graphics - elite four room vram0", ROMX
+
+TilesetEliteFourRoomGFX0:: INCBIN "gfx/tilesets/elite_four_room.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - elite four room vram1", ROMX
+
+TilesetEliteFourRoomGFX1:: INCBIN "gfx/tilesets/elite_four_room.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - elite four room", ROMX
+
+TilesetEliteFourRoomMeta:: INCBIN "data/tilesets/elite_four_room_metatiles.bin.lz"
+TilesetEliteFourRoomAttr:: INCBIN "data/tilesets/elite_four_room_attributes.bin.lz"
+TilesetEliteFourRoomColl:: INCBIN "data/tilesets/elite_four_room_collision.bin.lz"
+
+
 SECTION "Tileset Graphics - port vram0", ROMX
 
 TilesetPortGFX0:: INCBIN "gfx/tilesets/port.2bpp.vram0.lz"
@@ -423,6 +441,7 @@ TilesetGateGFX2::
 TilesetGym1GFX2::
 TilesetGym2GFX2::
 TilesetGym3GFX2::
+TilesetEliteFourRoomGFX2::
 TilesetPortGFX2::
 TilesetLabGFX2::
 TilesetFacilityGFX2::

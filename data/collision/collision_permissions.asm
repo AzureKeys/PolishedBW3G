@@ -104,7 +104,7 @@ CollisionPermissionTable::
 	db LAND_TILE  ; 65
 	db LAND_TILE  ; 66
 	db LAND_TILE  ; 67
-	db LAND_TILE  ; 68
+	db LAND_TILE  ; COLL_FAN_HOLE
 	db LAND_TILE  ; 69
 	db LAND_TILE  ; 6a
 	db LAND_TILE  ; 6b

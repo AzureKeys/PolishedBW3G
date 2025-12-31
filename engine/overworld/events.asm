@@ -318,7 +318,10 @@ CheckTileEvent:
 .warp_tile
 	ld a, [wPlayerTileCollision]
 	cp COLL_HOLE
+	jr z, .pit
+	cp COLL_FAN_HOLE
 	jr nz, .not_pit
+.pit
 	ld a, PLAYEREVENT_FALL
 	scf
 	ret
