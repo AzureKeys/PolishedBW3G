@@ -27,21 +27,25 @@ ENDM
 	map_attributes UndellaTown, UNDELLA_TOWN, $e, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
+	map_attributes HumilauGym, HUMILAU_GYM, $0, 0
+	map_attributes MarineTube, MARINE_TUBE, $a, 0
+	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
 	map_attributes HumilauPokecenter, HUMILAU_POKECENTER, $0, 0
 	map_attributes MarlonsHouse, MARLONS_HOUSE, $0, 0
 	map_attributes MomsPartnersHouse, MOMS_PARTNERS_HOUSE, $0, 0
 	map_attributes HumilauTradeHouse, HUMILAU_TRADE_HOUSE, $0, 0
-	map_attributes HumilauGym, HUMILAU_GYM, $0, 0
 	map_attributes LacunosaPokecenter, LACUNOSA_POKECENTER, $0, 0
 	map_attributes LacunosaSpeechHouse, LACUNOSA_SPEECH_HOUSE, $0, 0
 	map_attributes LacunosaBerryHouse, LACUNOSA_BERRY_HOUSE, $0, 0
-	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
-	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
 	map_attributes UndellaPokecenter, UNDELLA_POKECENTER, $0, 0
 	map_attributes UndellaFishingGuruHouse, UNDELLA_FISHING_GURU_HOUSE, $0, 0
 	map_attributes CaitlinsHouse, CAITLINS_HOUSE, $0, 0
+	map_attributes MarineTubeEntrance, MARINE_TUBE_ENTRANCE, $0, 0
+	
+	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
+	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

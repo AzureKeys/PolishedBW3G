@@ -73,5 +73,7 @@ ENDM
 	map_const UNDELLA_POKECENTER,                          5,  5 ;  3
 	map_const UNDELLA_FISHING_GURU_HOUSE,                  4,  4 ;  4
 	map_const CAITLINS_HOUSE,                              5,  8 ;  5
+	map_const MARINE_TUBE_ENTRANCE,                       13,  5 ;  6
+	map_const MARINE_TUBE,                                 5, 15 ;  7
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

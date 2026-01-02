@@ -12,6 +12,7 @@ HumilauCity_MapScriptHeader:
 	warp_event  3, 13, HUMILAU_TRADE_HOUSE, 1
 	warp_event  8, 23, HUMILAU_GYM, 1
 	warp_event  9, 15, MARLONS_HOUSE, 1
+	warp_event 17, 29, MARINE_TUBE_ENTRANCE, 5
 
 	def_coord_events
 	coord_event  1,  9, 0, HumilauCity_NeighborStopsYouScene

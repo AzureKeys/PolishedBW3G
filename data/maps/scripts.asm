@@ -63,6 +63,8 @@ INCLUDE "maps/UndellaTown.asm"
 INCLUDE "maps/UndellaPokecenter.asm"
 INCLUDE "maps/UndellaFishingGuruHouse.asm"
 INCLUDE "maps/CaitlinsHouse.asm"
+INCLUDE "maps/MarineTubeEntrance.asm"
+INCLUDE "maps/MarineTube.asm"
 
 
 ENDSECTION

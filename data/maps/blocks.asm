@@ -120,4 +120,12 @@ SECTION "CaitlinsHouse_BlockData", ROMX
 CaitlinsHouse_BlockData:
 	INCBIN "maps/CaitlinsHouse.ablk.lz"
 
+SECTION "MarineTubeEntrance_BlockData", ROMX
+MarineTubeEntrance_BlockData:
+	INCBIN "maps/MarineTubeEntrance.ablk.lz"
+
+SECTION "MarineTube_BlockData", ROMX
+MarineTube_BlockData:
+	INCBIN "maps/MarineTube.ablk.lz"
+
 ENDSECTION
