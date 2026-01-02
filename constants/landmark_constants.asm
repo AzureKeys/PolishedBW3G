@@ -9,6 +9,7 @@
 	const LACUNOSA_TOWN      ; 07
 	const ROUTE_13           ; 08
 	const UNDELLA_TOWN       ; 09
+	const ROUTE_14           ; 0a
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
 	const BATTLE_TOWER       ; 46

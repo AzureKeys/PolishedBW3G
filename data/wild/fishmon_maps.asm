@@ -8,5 +8,6 @@ FishMonMaps:
 	fishmon_map HUMILAU_CITY, FISHGROUP_SHORE
 	fishmon_map ROUTE_22, FISHGROUP_SHORE
 	fishmon_map ROUTE_13, FISHGROUP_SHORE
+	fishmon_map ROUTE_14, FISHGROUP_SHORE
 	fishmon_map UNDELLA_TOWN, FISHGROUP_SHORE
 	db -1

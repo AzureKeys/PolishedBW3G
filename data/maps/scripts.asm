@@ -47,6 +47,7 @@ INCLUDE "maps/Route13.asm"
 INCLUDE "maps/Route12.asm"
 INCLUDE "maps/Route12VillageBridgeGate.asm"
 INCLUDE "maps/Route13UndellaTownGate.asm"
+INCLUDE "maps/Route14.asm"
 
 
 SECTION "Lacunosa Scripts", ROMX

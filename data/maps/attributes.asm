@@ -24,7 +24,11 @@ ENDM
 	map_attributes Route12, ROUTE_12, $e, EAST
 	connection east, LacunosaTown, LACUNOSA_TOWN, -2
 	
-	map_attributes UndellaTown, UNDELLA_TOWN, $e, 0
+	map_attributes UndellaTown, UNDELLA_TOWN, $e, SOUTH
+	connection south, Route14, ROUTE_14, -1
+	
+	map_attributes Route14, ROUTE_14, $e, NORTH
+	connection north, UndellaTown, UNDELLA_TOWN, 1
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes HumilauGym, HUMILAU_GYM, $0, 0

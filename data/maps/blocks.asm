@@ -128,4 +128,8 @@ SECTION "MarineTube_BlockData", ROMX
 MarineTube_BlockData:
 	INCBIN "maps/MarineTube.ablk.lz"
 
+SECTION "Route14_BlockData", ROMX
+Route14_BlockData:
+	INCBIN "maps/Route14.ablk.lz"
+
 ENDSECTION

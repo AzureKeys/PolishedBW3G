@@ -14,6 +14,7 @@ Landmarks:
 	landmark 116,  36, LacunosaTownName
 	landmark 124,  44, Route13Name
 	landmark 124,  60, UndellaTownName
+	landmark 116,  68, Route14Name
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -26,6 +27,7 @@ GiantChasmName:        rawchar "Giant Chasm@"
 LacunosaTownName:      rawchar "Lacunosa¯Town@"
 Route13Name:           rawchar "Route 13@"
 UndellaTownName:       rawchar "Undella¯Town@"
+Route14Name:           rawchar "Route 14@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"

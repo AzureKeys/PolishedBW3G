@@ -197,6 +197,7 @@ DEF FIRST_BERRY_TREE EQU const_value
 	const FRUITTREE_ROUTE_22          ; 08
 	const FRUITTREE_ROUTE_13          ; 09
 	const FRUITTREE_ROUTE_12          ; 0a
+	const FRUITTREE_ROUTE_14          ; 0b
 DEF NUM_FRUIT_TREES EQU const_value - 1
 
 ; hidden grottoes
