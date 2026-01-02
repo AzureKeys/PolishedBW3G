@@ -22,6 +22,7 @@
 		 SLUDGE_BOMB,  SWIFT,        AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
 		 THIEF,        STEEL_WING,   \ ;10
+		 X_SCISSOR,    \ ;12
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 FLY

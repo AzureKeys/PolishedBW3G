@@ -23,5 +23,6 @@
 	     DOUBLE_TEAM,  REFLECT,      \ ;7
 		 SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-	     SWAGGER ;14
+	     THIEF,        \ ;10
+		 SWAGGER ;14
 	 ; end

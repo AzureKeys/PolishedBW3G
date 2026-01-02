@@ -15,7 +15,7 @@
 
 	  ; tm/hm learnset
 	tmhm CALM_MIND,    ROAR,         \ ;1
-	     HIDDEN_POWER, \  ;2
+	     BULK_UP,      HIDDEN_POWER, \  ;2
 	     SUNNY_DAY,    SLEEP_TALK,   HYPER_BEAM,   \  ;3
 	     LIGHT_SCREEN, PROTECT,      SAFEGUARD,    \  ;4
 		 SOLAR_BEAM,   \ ;5

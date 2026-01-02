@@ -14,7 +14,7 @@
 	ev_yield 2 SAt
 
 	 ; tm/hm learnset
-	tmhm HONE_CLAWS,   PSYSHOCK,     CALM_MIND,    \ ;1
+	tmhm HONE_CLAWS,   PSYSHOCK,     CALM_MIND,    ROAR,         \ ;1
 	     BULK_UP,      HIDDEN_POWER, \ ;2
 	     SUNNY_DAY,    SLEEP_TALK,   HYPER_BEAM,   \ ;3
 	     PROTECT,      RAIN_DANCE,   \ ;4

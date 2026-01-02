@@ -23,7 +23,7 @@
 	     DOUBLE_TEAM,  REFLECT,      \ ;7
 		 SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-		 DAZZLINGLEAM, \ ;10
+		 THIEF,        DAZZLINGLEAM, \ ;10
 		 SKILL_SWAP,   \ ;11
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 CUT

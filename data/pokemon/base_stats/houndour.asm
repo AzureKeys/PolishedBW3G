@@ -14,7 +14,7 @@
 	ev_yield 1 SAt
 
 	 ; tm/hm learnset
-	tmhm ROAR,         \ ;1
+	tmhm HONE_CLAWS,   ROAR,         \ ;1
 	     TOXIC,        HIDDEN_POWER, \ ;2
 	     SUNNY_DAY,    SLEEP_TALK,   \ ;3
 	     PROTECT,      RAIN_DANCE,   \ ;4

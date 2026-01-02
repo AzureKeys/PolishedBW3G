@@ -27,7 +27,7 @@
 		 THIEF,        DREAM_EATER,  \ ;10
 		 SKILL_SWAP,   \ ;11
 		 HEX,          \ ;12
-		 WILL_O_WISP,  ACROBATICS,   EXPLOSION,    \ ;13
+		 WILL_O_WISP,  ACROBATICS,   EXPLOSION,    SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, GYRO_BALL,    \ ;15
 		 CUT,          FLY

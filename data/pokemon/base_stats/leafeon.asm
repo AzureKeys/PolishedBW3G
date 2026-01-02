@@ -23,6 +23,7 @@
 	     DOUBLE_TEAM,  REFLECT,      \ ;7
 		 SWIFT,        AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        \ ;10
 		 ENERGY_BALL,  \ ;11
 		 X_SCISSOR,    \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \ ;14

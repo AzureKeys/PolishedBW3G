@@ -26,6 +26,7 @@
 		 THIEF,        ROCK_SLIDE,   \ ;10
 		 FOCUS_BLAST,  \ ;11
 		 HEX,          \ ;12
+		 SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   GYRO_BALL,    \ ;15
 		 FLY,          STRENGTH

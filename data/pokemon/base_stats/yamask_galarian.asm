@@ -19,6 +19,7 @@
 	     HIDDEN_POWER, \  ;2
 	     SLEEP_TALK,   \  ;3
 	     PROTECT,      RAIN_DANCE,   TRICK_ROOM,   SAFEGUARD,    \  ;4
+		 BULLDOZE,     \ ;5
 	     EARTHQUAKE,   RETURN,       PSYCHIC,      SHADOW_BALL,  \  ;6
 	     DOUBLE_TEAM,  \  ;7
 		 SANDSTORM,    \ ;8

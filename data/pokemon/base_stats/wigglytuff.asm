@@ -25,7 +25,7 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 THIEF,        DAZZLINGLEAM, DREAM_EATER,  \ ;10
 		 SKILL_SWAP,   FOCUS_BLAST,  ENERGY_BALL,  \ ;11
-		 WILD_CHARGE,  DARK_PULSE,   \ ;12
+		 WILD_CHARGE,  DARK_PULSE,   HEX,          \ ;12
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, GYRO_BALL,    \ ;15

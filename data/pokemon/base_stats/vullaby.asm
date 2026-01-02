@@ -14,7 +14,8 @@
 	ev_yield 1 Def
 
 	  ; tm/hm learnset
-	tmhm TOXIC,        HIDDEN_POWER, \  ;2
+	tmhm ROAR,         \ ;1
+	     TOXIC,        HIDDEN_POWER, \  ;2
 	     SUNNY_DAY,    SLEEP_TALK,   \  ;3
 	     PROTECT,      RAIN_DANCE,   \  ;4
 	     RETURN,       SHADOW_BALL,  \  ;6

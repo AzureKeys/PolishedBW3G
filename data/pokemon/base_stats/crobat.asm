@@ -24,6 +24,6 @@
 		 THIEF,        STEEL_WING,   \ ;10
 		 X_SCISSOR,    DARK_PULSE,   HEX,          \ ;12
 		 ACROBATICS,   \ ;13
-	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
+	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 FLY
 	  ; end

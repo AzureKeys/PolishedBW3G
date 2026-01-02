@@ -17,7 +17,7 @@
 	tmhm HONE_CLAWS,   PSYSHOCK,     CALM_MIND,    \ ;1
 	     HAIL,         HIDDEN_POWER, \ ;2
 	     SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
-	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   \ ;4
+	     LIGHT_SCREEN, PROTECT,      RAIN_DANCE,   TRICK_ROOM,   \ ;4
 		 IRON_TAIL,    \ ;5
 	     RETURN,       DIG,          PSYCHIC,      \ ;6
 	     BRICK_BREAK,  DOUBLE_TEAM,  \ ;7

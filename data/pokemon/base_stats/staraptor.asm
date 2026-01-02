@@ -14,7 +14,8 @@
 	ev_yield 3 Atk
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \ ;2
+	tmhm ROAR,         \ ;1
+	     HIDDEN_POWER, \ ;2
 	     SUNNY_DAY,    SLEEP_TALK,   HYPER_BEAM,   \ ;3
 	     PROTECT,      RAIN_DANCE,   \ ;4
 	     RETURN,       \ ;6

@@ -22,7 +22,7 @@
 	     BRICK_BREAK,  DOUBLE_TEAM,  REFLECT,      FLAMETHROWER, \ ;7
 		 SANDSTORM,    FIRE_BLAST,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-		 ROCK_SLIDE,   \ ;10
+		 THIEF,        ROCK_SLIDE,   \ ;10
 		 FOCUS_BLAST,  \ ;11
 		 WILD_CHARGE,  \ ;12
 		 WATER_PULSE,  \ ;13

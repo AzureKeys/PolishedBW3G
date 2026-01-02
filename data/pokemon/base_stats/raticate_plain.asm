@@ -30,7 +30,7 @@ endc
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \
 		 THIEF,        \
 		 WILD_CHARGE,  \
-	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \
+	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \
 		 THUNDER_WAVE, SWORDS_DANCE, \
 		 CUT,          STRENGTH
 	 ; end

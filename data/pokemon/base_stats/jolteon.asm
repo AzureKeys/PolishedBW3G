@@ -23,6 +23,7 @@
 	     DOUBLE_TEAM,  REFLECT,      \ ;7
 		 SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        \ ;10
 		 FALSE_SWIPE,  \ ;11
 		 WILD_CHARGE,  \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \ ;14

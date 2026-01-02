@@ -21,7 +21,7 @@
 		 BULLDOZE,     IRON_TAIL,    THUNDERBOLT,  THUNDER,      \ ;5
 	     RETURN,       \ ;6
 	     BRICK_BREAK,  DOUBLE_TEAM,  FLASH_CANNON, FLAMETHROWER, \ ;7
-		 SWIFT,        \ ;8
+		 SLUDGE_BOMB,  SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 ROCK_SLIDE,   \ ;10
 		 WILD_CHARGE,  DRAGON_PULSE, HEX,          \ ;12

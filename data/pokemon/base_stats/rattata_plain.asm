@@ -24,7 +24,7 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \
 		 THIEF,        \
 		 WILD_CHARGE,  \
-	     U_TURN,       SWAGGER,      \
+	     PAYBACK,      U_TURN,       SWAGGER,      \
 		 THUNDER_WAVE, \
 		 CUT
 	 ; end

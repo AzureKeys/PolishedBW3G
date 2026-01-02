@@ -20,6 +20,7 @@
 		 IRON_TAIL,    THUNDERBOLT,  THUNDER,      \ ;5
 	     RETURN,       \ ;6
 	     DOUBLE_TEAM,  FLASH_CANNON, \ ;7
+		 SLUDGE_BOMB,  \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 WILD_CHARGE,  \ ;12
 		 ACROBATICS,   \ ;13

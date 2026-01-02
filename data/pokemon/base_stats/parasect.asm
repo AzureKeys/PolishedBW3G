@@ -26,7 +26,7 @@
 		 THIEF,        \ ;10
 		 ENERGY_BALL,  FALSE_SWIPE,  \ ;11
 		 X_SCISSOR,    \ ;12
-	     GIGA_IMPACT,  SWAGGER,      \ ;14
+	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
 		 CUT
 	 ; end

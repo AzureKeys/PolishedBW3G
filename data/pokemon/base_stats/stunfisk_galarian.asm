@@ -18,7 +18,7 @@
 	tmhm HIDDEN_POWER, \ ;2
 	     SLEEP_TALK,   \ ;3
 	     PROTECT,      RAIN_DANCE,   \ ;4
-		 BULLDOZE,     \ ;5
+		 BULLDOZE,     IRON_TAIL,    \ ;5
 	     EARTHQUAKE,   RETURN,       DIG,          \ ;6
 	     DOUBLE_TEAM,  FLASH_CANNON, \ ;7
 		 SLUDGE_BOMB,  SANDSTORM,    \ ;8

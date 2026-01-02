@@ -31,7 +31,7 @@ endc
 		 THIEF,        \
 		 DARK_PULSE,   \
 		 SHADOW_CLAW,  \
-	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \
+	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \
 		 SWORDS_DANCE, \
 		 CUT,          STRENGTH
 	 ; end

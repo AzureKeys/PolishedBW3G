@@ -24,7 +24,7 @@
 	     DOUBLE_TEAM,  \ ;7
 		 SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
-		 DREAM_EATER,  \ ;10
+		 THIEF,        DREAM_EATER,  \ ;10
 		 WILD_CHARGE,  \ ;12
 		 WATER_PULSE,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14

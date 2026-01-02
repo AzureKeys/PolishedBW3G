@@ -21,7 +21,7 @@
 	     BULLDOZE,     IRON_TAIL,    \ ;5
 		 EARTHQUAKE,   RETURN,       DIG,          PSYCHIC,      SHADOW_BALL,  \ ;6
 	     DOUBLE_TEAM,  REFLECT,      FLAMETHROWER, \ ;7
-		 FIRE_BLAST,   SWIFT,        \ ;8
+		 SLUDGE_BOMB,  FIRE_BLAST,   SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 DREAM_EATER,  \ ;10
 		 SKILL_SWAP,   SCALD,        \ ;11

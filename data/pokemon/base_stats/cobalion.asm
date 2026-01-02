@@ -15,9 +15,10 @@
 
 	 ; tm/hm learnset
 	tmhm HONE_CLAWS,   CALM_MIND,    ROAR,         \ ;1
-	     HIDDEN_POWER, \ ;2
+	     BULK_UP,      HIDDEN_POWER, \ ;2
 	     SUNNY_DAY,    SLEEP_TALK,   HYPER_BEAM,   \ ;3
 	     PROTECT,      RAIN_DANCE,   SAFEGUARD,    \ ;4
+		 IRON_TAIL,    \ ;5
 	     RETURN,       \ ;6
 	     BRICK_BREAK,  DOUBLE_TEAM,  REFLECT,      FLASH_CANNON, \ ;7
 		 SANDSTORM,    SWIFT,        AERIAL_ACE,   \ ;8

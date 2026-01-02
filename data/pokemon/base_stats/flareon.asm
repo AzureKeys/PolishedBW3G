@@ -23,7 +23,8 @@
 	     DOUBLE_TEAM,  REFLECT,      FLAMETHROWER, \ ;7
 		 FIRE_BLAST,   SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       FLAME_CHARGE, REST,         ATTRACT,      \ ;9
-	     WILL_O_WISP,  \ ;13
+	     THIEF,        \ ;10
+		 WILL_O_WISP,  \ ;13
 		 GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
 		 STRENGTH

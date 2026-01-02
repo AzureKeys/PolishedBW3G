@@ -15,7 +15,7 @@
 
 	 ; tm/hm learnset
 	tmhm ROAR,         \ ;1
-	     HIDDEN_POWER, \ ;2
+	     BULK_UP,      HIDDEN_POWER, \ ;2
 	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \ ;3
 	     PROTECT,      \ ;4
 		 SOLAR_BEAM,   \ ;5

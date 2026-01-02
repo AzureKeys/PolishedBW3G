@@ -24,6 +24,7 @@
 		 SANDSTORM,    \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         \ ;9
 		 WILD_CHARGE,  \ ;12
+		 EXPLOSION,    \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 VOLT_SWITCH,  THUNDER_WAVE, GYRO_BALL ;15
 	 ; end

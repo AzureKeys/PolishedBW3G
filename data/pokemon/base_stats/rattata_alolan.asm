@@ -25,6 +25,6 @@
 		 THIEF,        \
 		 DARK_PULSE,   \
 		 SHADOW_CLAW,  \
-	     U_TURN,       SWAGGER,      \
+	     PAYBACK,      U_TURN,       SWAGGER,      \
 		 CUT
 	 ; end

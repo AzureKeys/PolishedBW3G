@@ -14,7 +14,7 @@
 	ev_yield 1 Atk
 
 	 ; tm/hm learnset
-	tmhm HONE_CLAWS,   \ ;1
+	tmhm HONE_CLAWS,   ROAR,         \ ;1
 	     BULK_UP,      HIDDEN_POWER, \ ;2
 	     SUNNY_DAY,    SLEEP_TALK,   \ ;3
 	     PROTECT,      RAIN_DANCE,   \ ;4
