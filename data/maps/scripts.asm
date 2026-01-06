@@ -48,6 +48,8 @@ INCLUDE "maps/Route12.asm"
 INCLUDE "maps/Route12VillageBridgeGate.asm"
 INCLUDE "maps/Route13UndellaTownGate.asm"
 INCLUDE "maps/Route14.asm"
+INCLUDE "maps/ReversalMountain1F.asm"
+INCLUDE "maps/ReversalMountainB1F.asm"
 
 
 SECTION "Lacunosa Scripts", ROMX

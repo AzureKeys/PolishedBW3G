@@ -23,16 +23,10 @@ GiantChasm1F_MapScriptHeader:
 GiantChasm_MeetInferScene:
 	special Special_FadeOutMusic
 	pause 15
-	opentext
-	writetext GiantChasmInferText_Phone
-	waitbutton
-	closetext
+	showtext .IntroText
 	showemote EMOTE_SHOCK, GIANTCHASM1F_INFER, 15
 	turnobject GIANTCHASM1F_INFER, RIGHT
-	opentext
-	writetext GiantChasmInferText_Leave
-	waitbutton
-	closetext
+	showtext .SeenText
 	playsound SFX_RUN
 	applymovement GIANTCHASM1F_INFER, GiantChasmInferMovement
 	pause 15
@@ -44,12 +38,7 @@ GiantChasm_MeetInferScene:
 	special RestartMapMusic
 	end
 	
-GiantChasmInferMovement:
-	big_step_left
-	big_step_left
-	step_end
-	
-GiantChasmInferText_Phone:
+.IntroText:
 	text "Yes, I have the"
 	line "package. I"
 	
@@ -64,10 +53,15 @@ GiantChasmInferText_Phone:
 	cont "me."
 	done
 	
-GiantChasmInferText_Leave:
+.SeenText:
 	text "Hey, you!"
 	
 	para "Get out of here!"
 	line "Forget what you"
 	cont "saw here!"
 	done
+	
+GiantChasmInferMovement:
+	big_step_left
+	big_step_left
+	step_end

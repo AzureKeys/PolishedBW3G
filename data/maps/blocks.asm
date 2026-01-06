@@ -132,4 +132,12 @@ SECTION "Route14_BlockData", ROMX
 Route14_BlockData:
 	INCBIN "maps/Route14.ablk.lz"
 
+SECTION "ReversalMountain1F_BlockData", ROMX
+ReversalMountain1F_BlockData:
+	INCBIN "maps/ReversalMountain1F.ablk.lz"
+
+SECTION "ReversalMountainB1F_BlockData", ROMX
+ReversalMountainB1F_BlockData:
+	INCBIN "maps/ReversalMountainB1F.ablk.lz"
+
 ENDSECTION

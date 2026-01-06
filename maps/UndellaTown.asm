@@ -14,6 +14,7 @@ UndellaTown_MapScriptHeader:
 	warp_event 21,  7, UNDELLA_FISHING_GURU_HOUSE, 1
 	warp_event 11,  7, CAITLINS_HOUSE, 1
 	warp_event 15,  7, MARINE_TUBE_ENTRANCE, 1
+	warp_event  4,  7, REVERSAL_MOUNTAIN_B1F, 1
 
 	def_coord_events
 	coord_event  4,  9, 1, UndellaTownBlockerScript
