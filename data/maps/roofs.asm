@@ -10,4 +10,5 @@ MapGroupRoofs:
 	db -1            ; Humilau
 	db -1            ; Lacunosa
 	db -1            ; Undella
+	db -1            ; Lentimas
 	assert_table_length NUM_MAP_GROUPS + 1

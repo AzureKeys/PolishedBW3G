@@ -24,6 +24,7 @@ MapGroupPointers::
 	dw MapGroupHumilau
 	dw MapGroupLacunosa
 	dw MapGroupUndella
+	dw MapGroupLentimas
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -78,4 +79,7 @@ MapGroupUndella:
 	map MarineTubeEntrance, TILESET_ELITE_FOUR_ROOM, INDOOR, SIGN_BUILDING, MARINE_TUBE, MUSIC_HUMILAU_CITY, 1, PALETTE_DAY
 	map MarineTube, TILESET_PORT, INDOOR, SIGN_BUILDING, MARINE_TUBE, MUSIC_HUMILAU_CITY, 1, PALETTE_NITE
 	map Route14, TILESET_UNOVA_BEACH, ROUTE, SIGN_ROUTE, ROUTE_14, MUSIC_ROUTE_13, 0, PALETTE_AUTO
+
+MapGroupLentimas:
+	map LentimasOutskirt, TILESET_LENTIMAS, ROUTE, SIGN_ROUTE, LENTIMAS_OUTSKIRT, MUSIC_LENTIMAS_TOWN, 0, PALETTE_AUTO
 	

@@ -192,4 +192,7 @@ INCLUDE "audio/music/marlon.asm"
 SECTION "Song - cynthiaencounter", ROMX
 INCLUDE "audio/music/cynthiaencounter.asm"
 
+SECTION "Song - lentimas", ROMX
+INCLUDE "audio/music/lentimas.asm"
+
 ENDSECTION

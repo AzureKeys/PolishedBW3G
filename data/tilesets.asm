@@ -31,6 +31,7 @@ Tilesets::
 	tileset TilesetIcePath
 	tileset TilesetBattleFactory
 	tileset TilesetEliteFourRoom
+	tileset TilesetLentimas
 	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
 
@@ -429,6 +430,23 @@ TilesetBattleFactoryAttr:: INCBIN "data/tilesets/battle_factory_attributes.bin.l
 TilesetBattleFactoryColl:: INCBIN "data/tilesets/battle_factory_collision.bin.lz"
 
 
+SECTION "Tileset Graphics - lentimas vram0", ROMX
+
+TilesetLentimasGFX0:: INCBIN "gfx/tilesets/lentimas.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - lentimas vram1", ROMX
+
+TilesetLentimasGFX1:: INCBIN "gfx/tilesets/lentimas.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - lentimas", ROMX
+
+TilesetLentimasMeta:: INCBIN "data/tilesets/lentimas_metatiles.bin.lz"
+TilesetLentimasAttr:: INCBIN "data/tilesets/lentimas_attributes.bin.lz"
+TilesetLentimasColl:: INCBIN "data/tilesets/lentimas_collision.bin.lz"
+
+
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
 TilesetUnovaBeachGFX2::
@@ -456,4 +474,5 @@ TilesetParkGFX2::
 TilesetSafariGFX2::
 TilesetRuinsGFX2::
 TilesetBattleFactoryGFX2::
+TilesetLentimasGFX2::
 	db $ff ; Compressed data is terminated with $ff.

@@ -9,6 +9,7 @@ ReversalMountainB1F_MapScriptHeader:
 	warp_event 11,  5, REVERSAL_MOUNTAIN_1F, 4
 	warp_event 27, 21, REVERSAL_MOUNTAIN_1F, 2
 	warp_event  7, 27, REVERSAL_MOUNTAIN_1F, 3
+	warp_event  7, 11, LENTIMAS_OUTSKIRT, 1
 
 	def_coord_events
 

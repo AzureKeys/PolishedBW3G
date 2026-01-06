@@ -70,4 +70,9 @@ INCLUDE "maps/MarineTubeEntrance.asm"
 INCLUDE "maps/MarineTube.asm"
 
 
+SECTION "Lentimas Scripts", ROMX
+
+INCLUDE "maps/LentimasOutskirt.asm"
+
+
 ENDSECTION

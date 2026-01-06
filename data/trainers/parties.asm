@@ -418,7 +418,7 @@ YoungsterGroup:
 		tr_dvs 15 All
 	end_trainer
 
-	def_trainer YOUNGSTER_OUTSKIRTS, ""
+	def_trainer YOUNGSTER_LENTIMAS, ""
 	tr_mon 15, RATTATA @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -1209,7 +1209,7 @@ SECTION "CyclistMGroup", ROMX
 CyclistMGroup:
 
 	def_trainer_class CYCLISTM
-	def_trainer CYCLISTM_OUTSKIRTS, "Brian"
+	def_trainer CYCLISTM_LENTIMAS, "Brian"
 	tr_mon 55, RATTATA
 	tr_mon 55, WEEZING
 	tr_mon 55, WEEZING
@@ -1250,7 +1250,7 @@ SECTION "CyclistFGroup", ROMX
 CyclistFGroup:
 
 	def_trainer_class CYCLISTF
-	def_trainer CYCLISTF_OUTSKIRTS, "Brian"
+	def_trainer CYCLISTF_LENTIMAS, "Brian"
 	tr_mon 55, RATTATA
 	tr_mon 55, WEEZING
 	tr_mon 55, WEEZING
@@ -1323,7 +1323,7 @@ SECTION "DoctorGroup", ROMX
 DoctorGroup:
 
 	def_trainer_class DOCTOR
-	def_trainer DOCTOR_OUTSKIRTS, "Beatrice"
+	def_trainer DOCTOR_LENTIMAS, "Beatrice"
 	tr_mon LEVEL_FROM_BADGES + 5, RATTATA
 	end_trainer
 
@@ -1985,7 +1985,7 @@ SECTION "PkmnRangerMGroup", ROMX
 PkmnRangerMGroup:
 
 	def_trainer_class PKMN_RANGERM
-	def_trainer PKMN_RANGERM_OUTSKIRTS, "Jessica"
+	def_trainer PKMN_RANGERM_LENTIMAS, "Jessica"
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
@@ -2050,7 +2050,7 @@ SECTION "PkmnRangerFGroup", ROMX
 PkmnRangerFGroup:
 
 	def_trainer_class PKMN_RANGERF
-	def_trainer PKMN_RANGERF_OUTSKIRTS, "Jessica"
+	def_trainer PKMN_RANGERF_LENTIMAS, "Jessica"
 	tr_mon 55, RATTATA @ NUGGET
 	tr_mon 54, RATTATA @ NUGGET
 	end_trainer
@@ -2283,7 +2283,7 @@ SchoolKidMGroup:
 	tr_mon 15, RATTATA
 	end_trainer
 
-	def_trainer SCHOOL_KIDM_OUTSKIRTS, "Jack"
+	def_trainer SCHOOL_KIDM_LENTIMAS, "Jack"
 	tr_mon 14, RATTATA
 	tr_mon 17, RATTATA
 	end_trainer

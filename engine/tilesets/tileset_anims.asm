@@ -185,6 +185,7 @@ TilesetGym2Anim::
 TilesetGym3Anim::
 TilesetBattleTowerAnim::
 TilesetBattleFactoryAnim::
+TilesetLentimasAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

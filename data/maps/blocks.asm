@@ -140,4 +140,8 @@ SECTION "ReversalMountainB1F_BlockData", ROMX
 ReversalMountainB1F_BlockData:
 	INCBIN "maps/ReversalMountainB1F.ablk.lz"
 
+SECTION "LentimasOutskirt_BlockData", ROMX
+LentimasOutskirt_BlockData:
+	INCBIN "maps/LentimasOutskirt.ablk.lz"
+
 ENDSECTION
