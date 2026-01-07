@@ -12,7 +12,7 @@ KeyItemNames::
 	li "Candy Jar"
 	li "Type Chart"
 	li "GBC Sounds"
-	li "Blue Card"
+	li "BoardingPass"
 	li "SquirtBottle"
 	li "SilphScope2"
 	li "Mystery Egg"

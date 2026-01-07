@@ -12,6 +12,7 @@
 	const ROUTE_14           ; 0a
 	const REVERSAL_MOUNTAIN  ; 0b
 	const LENTIMAS_OUTSKIRT  ; 0c
+	const LENTIMAS_TOWN      ; 0e
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
 	const BATTLE_TOWER       ; 46

@@ -30,7 +30,11 @@ ENDM
 	map_attributes Route14, ROUTE_14, $e, NORTH
 	connection north, UndellaTown, UNDELLA_TOWN, 1
 	
-	map_attributes LentimasOutskirt, LENTIMAS_OUTSKIRT, $31, 0
+	map_attributes LentimasTown, LENTIMAS_TOWN, $31, EAST
+	connection east, LentimasOutskirt, LENTIMAS_OUTSKIRT, 1
+	
+	map_attributes LentimasOutskirt, LENTIMAS_OUTSKIRT, $31, WEST
+	connection west, LentimasTown, LENTIMAS_TOWN, -1
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

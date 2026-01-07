@@ -649,7 +649,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const CANDY_JAR    ; 09
 	const TYPE_CHART   ; 0a
 	const GBC_SOUNDS   ; 0b
-	const BLUE_CARD    ; 0c
+	const BOARDINGPASS ; 0c
 	const SQUIRTBOTTLE ; 0d
 	const SILPHSCOPE2  ; 0e
 	const MYSTERY_EGG  ; 0f
@@ -685,7 +685,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_APRICORN_BOX
 	const NAM_BASEMENT_KEY
 	const NAM_BICYCLE
-	const NAM_BLUE_CARD
+	const NAM_BOARDINGPASS
 	const NAM_CANDY_JAR
 	const NAM_CARD_KEY
 	const NAM_CATCH_CHARM

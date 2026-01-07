@@ -144,4 +144,8 @@ SECTION "LentimasOutskirt_BlockData", ROMX
 LentimasOutskirt_BlockData:
 	INCBIN "maps/LentimasOutskirt.ablk.lz"
 
+SECTION "LentimasTown_BlockData", ROMX
+LentimasTown_BlockData:
+	INCBIN "maps/LentimasTown.ablk.lz"
+
 ENDSECTION

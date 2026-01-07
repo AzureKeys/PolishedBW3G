@@ -84,6 +84,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_HUMILAU
 	engine_flag wVisitedSpawns, SPAWN_LACUNOSA
 	engine_flag wVisitedSpawns, SPAWN_UNDELLA
+	engine_flag wVisitedSpawns, SPAWN_LENTIMAS
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

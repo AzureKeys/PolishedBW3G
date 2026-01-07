@@ -81,5 +81,6 @@ ENDM
 	
 	newgroup                                                     ;  6
 	map_const LENTIMAS_OUTSKIRT,                          20, 12 ;  1
+	map_const LENTIMAS_TOWN,                              16, 14 ;  2
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

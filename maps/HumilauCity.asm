@@ -69,34 +69,11 @@ HumilauCity_NeighborStopsYouScene:
 	turnobject HUMILAUCITY_NEIGHBOR, DOWN
 	showemote EMOTE_SHOCK, HUMILAUCITY_NEIGHBOR, 15
 	turnobject PLAYER, UP
-	opentext
-	writetext HumilauCityNeighborText_DontLeave
-	waitbutton
-	closetext
+	showtext .DontLeaveText
 	applymovement PLAYER, HumilauCity_DontLeaveMovement
 	end
 	
-HumilauNeighborTextScript:
-	faceplayer
-	opentext
-	checkevent EVENT_GOT_A_POKEMON
-	iftruefwd HumilauCityNeighborText_PokemonScript
-	writetext HumilauCityNeighborText_Dangerous
-	waitbutton
-	closetext
-	end
-	
-HumilauCityNeighborText_PokemonScript:
-	writetext HumilauCityNeighborText_Pokemon
-	waitbutton
-	closetext
-	end
-
-HumilauCity_DontLeaveMovement:
-	step_right
-	step_end
-	
-HumilauCityNeighborText_DontLeave:
+.DontLeaveText:
 	text "Wait, <PLAYER>!"
 
 	para "It's dangerous"
@@ -107,12 +84,10 @@ HumilauCityNeighborText_DontLeave:
 	cont "wild #mon!"
 	done
 	
-HumilauCityNeighborText_Pokemon:
-	text "Oh wow! What a"
-	line "cute #mon!"
-	done
-	
-HumilauCityNeighborText_Dangerous:
+HumilauNeighborTextScript:
+	checkevent EVENT_GOT_A_POKEMON
+	iftrue_jumptextfaceplayer .HavePokemonText
+	jumpthistext
 	text "Oh, hi, <PLAYER>."
 	
 	para "This is the way"
@@ -128,6 +103,15 @@ HumilauCityNeighborText_Dangerous:
 	line "attacked by a"
 	cont "wild #mon!"
 	done
+	
+.HavePokemonText:
+	text "Oh wow! What a"
+	line "cute #mon!"
+	done
+
+HumilauCity_DontLeaveMovement:
+	step_right
+	step_end
 	
 HumilauMarineTubeBlockerText:
 	text "I was trying to"

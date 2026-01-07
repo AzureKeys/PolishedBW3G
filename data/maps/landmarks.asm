@@ -17,6 +17,7 @@ Landmarks:
 	landmark 116,  68, Route14Name
 	landmark 116,  60, ReversalMountainName
 	landmark 100,  60, LentimasOutskirtName
+	landmark  92,  60, LentimasTownName
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -32,6 +33,7 @@ UndellaTownName:       rawchar "Undella¯Town@"
 Route14Name:           rawchar "Route 14@"
 ReversalMountainName:  rawchar "Reversal¯Mountain@"
 LentimasOutskirtName:  rawchar "Lentimas¯Outskirt@"
+LentimasTownName:      rawchar "Lentimas¯Town@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"

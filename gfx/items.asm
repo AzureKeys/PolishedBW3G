@@ -763,8 +763,8 @@ ClearBellIcon:: INCBIN "gfx/items/clear_bell.2bpp.lz"
 SECTION "GSBallIcon", ROMX
 GSBallIcon:: INCBIN "gfx/items/gs_ball.2bpp.lz"
 
-SECTION "BlueCardIcon", ROMX
-BlueCardIcon:: INCBIN "gfx/items/blue_card.2bpp.lz"
+SECTION "BoardingPassIcon", ROMX
+BoardingPassIcon:: INCBIN "gfx/items/boardingpass.2bpp.lz"
 
 SECTION "OrangeTicketIcon", ROMX
 OrangeTicketIcon:: INCBIN "gfx/items/orangeticket.2bpp.lz"

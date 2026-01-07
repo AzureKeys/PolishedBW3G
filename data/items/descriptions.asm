@@ -269,7 +269,7 @@ KeyItemDescriptions:
 	dw CandyJarDesc
 	dw TypeChartDesc
 	dw GBCSoundsDesc
-	dw BlueCardDesc
+	dw BoardingPassDesc
 	dw SquirtBottleDesc
 	dw SilphScope2Desc
 	dw MysteryEggDesc
@@ -1630,9 +1630,9 @@ GBCSoundsDesc:
 	next "filled with songs."
 	done
 
-BlueCardDesc:
-	text "Card to save"
-	next "points."
+BoardingPassDesc:
+	text "Allows entry to"
+	next "the airport."
 	done
 
 OrangeTicketDesc:

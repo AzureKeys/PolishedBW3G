@@ -271,7 +271,7 @@ KeyItemIconPointers:
 	dba CandyJarIcon
 	dba TypeChartIcon
 	dba GBCSoundsIcon
-	dba BlueCardIcon
+	dba BoardingPassIcon
 	dba SquirtBottleIcon
 	dba SilphScope2Icon
 	dba MysteryEggIcon
