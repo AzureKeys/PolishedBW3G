@@ -5,6 +5,9 @@ LentimasTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, LentimasFlyPoint
 
 	def_warp_events
+	warp_event 25, 13, LENTIMAS_POKECENTER, 1
+	warp_event 25, 19, LENTIMAS_COIN_HOUSE, 1
+	warp_event 15, 11, LENTIMAS_SPELL_TAG_HOUSE, 1
 
 	def_coord_events
 	coord_event  9, 15, 0, LentimasTownBlockerScript

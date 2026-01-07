@@ -43,6 +43,7 @@ ENDM
 	map_attributes StrangeHouseB1F, STRANGE_HOUSE_B1F, $0, 0
 	map_attributes StrangeHouseRooms, STRANGE_HOUSE_ROOMS, $0, 0
 	map_attributes HumilauGym, HUMILAU_GYM, $0, 0
+	map_attributes MarineTubeEntrance, MARINE_TUBE_ENTRANCE, $0, 0
 	map_attributes MarineTube, MARINE_TUBE, $a, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
@@ -57,7 +58,9 @@ ENDM
 	map_attributes UndellaPokecenter, UNDELLA_POKECENTER, $0, 0
 	map_attributes UndellaFishingGuruHouse, UNDELLA_FISHING_GURU_HOUSE, $0, 0
 	map_attributes CaitlinsHouse, CAITLINS_HOUSE, $0, 0
-	map_attributes MarineTubeEntrance, MARINE_TUBE_ENTRANCE, $0, 0
+	map_attributes LentimasPokecenter, LENTIMAS_POKECENTER, $0, 0
+	map_attributes LentimasCoinHouse, LENTIMAS_COIN_HOUSE, $0, 0
+	map_attributes LentimasSpellTagHouse, LENTIMAS_SPELL_TAG_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

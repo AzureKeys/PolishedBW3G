@@ -14,7 +14,6 @@ HumilauPokecenter_MapScriptHeader:
 	def_object_events
 	pc_nurse_event  4,  2
 	mart_clerk_event  8,  7, PAL_NPC_BLUE_D
-	object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauPokecenterYoungsterText, -1
 	object_event  1,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauPokecenterYoungsterText, -1
 	object_event  8,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauPokecenterGentlemanText, -1
 	object_event  1,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, HumilauPokecenterTeacherText, -1

@@ -85,5 +85,8 @@ ENDM
 	newgroup                                                     ;  6
 	map_const LENTIMAS_OUTSKIRT,                          20, 12 ;  1
 	map_const LENTIMAS_TOWN,                              16, 14 ;  2
+	map_const LENTIMAS_POKECENTER,                         5,  5 ;  3
+	map_const LENTIMAS_COIN_HOUSE,                         4,  4 ;  4
+	map_const LENTIMAS_SPELL_TAG_HOUSE,                    4,  4 ;  5
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

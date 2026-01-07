@@ -26,6 +26,7 @@ SECTION "Pokecenter_Blockdata", ROMX
 HumilauPokecenter_BlockData:
 LacunosaPokecenter_BlockData:
 UndellaPokecenter_BlockData:
+LentimasPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -35,6 +36,11 @@ LacunosaSpeechHouse_BlockData:
 LacunosaBerryHouse_BlockData:
 UndellaFishingGuruHouse_BlockData:
 	INCBIN "maps/House1.ablk.lz"
+	
+SECTION "TraditionalHouse_Blockdata", ROMX
+LentimasCoinHouse_BlockData:
+LentimasSpellTagHouse_BlockData:
+	INCBIN "maps/House2.ablk.lz"
 
 SECTION "EastWestGate_BlockData", ROMX
 Route12VillageBridgeGate_BlockData:
