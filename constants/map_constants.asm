@@ -88,5 +88,6 @@ ENDM
 	map_const LENTIMAS_POKECENTER,                         5,  5 ;  3
 	map_const LENTIMAS_COIN_HOUSE,                         4,  4 ;  4
 	map_const LENTIMAS_SPELL_TAG_HOUSE,                    4,  4 ;  5
+	map_const LENTIMAS_GYM,                                8, 10 ;  6
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

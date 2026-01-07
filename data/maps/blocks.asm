@@ -166,4 +166,8 @@ SECTION "StrangeHouseRooms_BlockData", ROMX
 StrangeHouseRooms_BlockData:
 	INCBIN "maps/StrangeHouseRooms.ablk.lz"
 
+SECTION "LentimasGym_BlockData", ROMX
+LentimasGym_BlockData:
+	INCBIN "maps/LentimasGym.ablk.lz"
+
 ENDSECTION

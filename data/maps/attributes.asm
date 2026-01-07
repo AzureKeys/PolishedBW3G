@@ -45,6 +45,7 @@ ENDM
 	map_attributes HumilauGym, HUMILAU_GYM, $0, 0
 	map_attributes MarineTubeEntrance, MARINE_TUBE_ENTRANCE, $0, 0
 	map_attributes MarineTube, MARINE_TUBE, $a, 0
+	map_attributes LentimasGym, LENTIMAS_GYM, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
