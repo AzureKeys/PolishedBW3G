@@ -62,6 +62,7 @@ ENDM
 	map_attributes LentimasPokecenter, LENTIMAS_POKECENTER, $0, 0
 	map_attributes LentimasCoinHouse, LENTIMAS_COIN_HOUSE, $0, 0
 	map_attributes LentimasSpellTagHouse, LENTIMAS_SPELL_TAG_HOUSE, $0, 0
+	map_attributes LentimasAirport, LENTIMAS_AIRPORT, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

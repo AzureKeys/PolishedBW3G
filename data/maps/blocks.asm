@@ -170,4 +170,8 @@ SECTION "LentimasGym_BlockData", ROMX
 LentimasGym_BlockData:
 	INCBIN "maps/LentimasGym.ablk.lz"
 
+SECTION "LentimasAirport_BlockData", ROMX
+LentimasAirport_BlockData:
+	INCBIN "maps/LentimasAirport.ablk.lz"
+
 ENDSECTION

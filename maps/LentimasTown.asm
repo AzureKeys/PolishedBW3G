@@ -9,6 +9,7 @@ LentimasTown_MapScriptHeader:
 	warp_event 25, 19, LENTIMAS_COIN_HOUSE, 1
 	warp_event 15, 11, LENTIMAS_SPELL_TAG_HOUSE, 1
 	warp_event 14, 21, LENTIMAS_GYM, 1
+	warp_event  7, 13, LENTIMAS_AIRPORT, 1
 
 	def_coord_events
 	coord_event  9, 15, 0, LentimasTownBlockerScript

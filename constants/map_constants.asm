@@ -89,5 +89,6 @@ ENDM
 	map_const LENTIMAS_COIN_HOUSE,                         4,  4 ;  4
 	map_const LENTIMAS_SPELL_TAG_HOUSE,                    4,  4 ;  5
 	map_const LENTIMAS_GYM,                                8, 10 ;  6
+	map_const LENTIMAS_AIRPORT,                            5,  4 ;  7
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37
