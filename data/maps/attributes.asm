@@ -39,6 +39,9 @@ ENDM
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0
 	map_attributes ReversalMountainB1F, REVERSAL_MOUNTAIN_B1F, $0, 0
+	map_attributes StrangeHouse1F, STRANGE_HOUSE_1F, $0, 0
+	map_attributes StrangeHouseB1F, STRANGE_HOUSE_B1F, $0, 0
+	map_attributes StrangeHouseRooms, STRANGE_HOUSE_ROOMS, $0, 0
 	map_attributes HumilauGym, HUMILAU_GYM, $0, 0
 	map_attributes MarineTube, MARINE_TUBE, $a, 0
 	

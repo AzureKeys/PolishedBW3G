@@ -2,9 +2,11 @@ LentimasOutskirt_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
+	callback MAPCALLBACK_NEWMAP, SetStrangeHouse
 
 	def_warp_events
 	warp_event 14,  3, REVERSAL_MOUNTAIN_B1F, 6
+	warp_event 33, 11, STRANGE_HOUSE_1F, 1
 
 	def_coord_events
 
@@ -26,6 +28,14 @@ LentimasOutskirt_MapScriptHeader:
 	itemball_event  6,  6, AWAKENING, 1, EVENT_LENTIMAS_OUTSKIRT_AWAKENING
 	itemball_event  9, 18, QUICK_BALL, 3, EVENT_LENTIMAS_OUTSKIRT_QUICK_BALL
 	itemball_event 35, 17, RED_SHARD, 1, EVENT_LENTIMAS_OUTSKIRT_RED_SHARD
+
+SetStrangeHouse:
+	checkmapscene STRANGE_HOUSE_1F
+	ifequalfwd 0, .done ; not yet entered Strange House
+	ifequalfwd 6, .done ; puzzle already complete
+	setmapscene STRANGE_HOUSE_1F, 1 ; initial furniture layout
+.done
+	endcallback
 	
 TrainerCyclistMLentimas:
 	trainer CYCLISTM, CYCLISTM_LENTIMAS, EVENT_BEAT_CYCLISTM_LENTIMAS, CyclistMLentimasSeenText, CyclistMLentimasBeatenText, 0, .Script

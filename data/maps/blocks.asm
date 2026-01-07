@@ -148,4 +148,16 @@ SECTION "LentimasTown_BlockData", ROMX
 LentimasTown_BlockData:
 	INCBIN "maps/LentimasTown.ablk.lz"
 
+SECTION "StrangeHouse1F_BlockData", ROMX
+StrangeHouse1F_BlockData:
+	INCBIN "maps/StrangeHouse1F.ablk.lz"
+
+SECTION "StrangeHouseB1F_BlockData", ROMX
+StrangeHouseB1F_BlockData:
+	INCBIN "maps/StrangeHouseB1F.ablk.lz"
+
+SECTION "StrangeHouseRooms_BlockData", ROMX
+StrangeHouseRooms_BlockData:
+	INCBIN "maps/StrangeHouseRooms.ablk.lz"
+
 ENDSECTION

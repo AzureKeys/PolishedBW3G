@@ -69,6 +69,7 @@
 	const MUSIC_MARLON_THEME                   ; 41
 	const MUSIC_CYNTHIA_ENCOUNTER              ; 42
 	const MUSIC_LENTIMAS_TOWN                  ; 43
+	const MUSIC_STRANGE_HOUSE                  ; 44
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

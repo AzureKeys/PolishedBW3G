@@ -74,6 +74,9 @@ SECTION "Lentimas Scripts", ROMX
 
 INCLUDE "maps/LentimasOutskirt.asm"
 INCLUDE "maps/LentimasTown.asm"
+INCLUDE "maps/StrangeHouse1F.asm"
+INCLUDE "maps/StrangeHouseB1F.asm"
+INCLUDE "maps/StrangeHouseRooms.asm"
 
 
 ENDSECTION

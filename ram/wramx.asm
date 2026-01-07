@@ -1073,6 +1073,8 @@ wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
 wRoute12SceneID:: db
 wRoute12VillageBridgeGateSceneID:: db
+wStrangeHouse1FSceneID:: db
+wStrangeHouseRoomsSceneID:: db
 wTradeCenterSceneID:: db
 wUndellaTownSceneID:: db
 
@@ -1091,7 +1093,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 165 ; unused
+	ds 163 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

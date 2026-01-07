@@ -69,4 +69,5 @@ Music:
 	dba Music_BrendanEncounter
 	dba Music_CynthiaEncounter
 	dba Music_LentimasTown
+	dba Music_ScaryHouse
 	assert_table_length NUM_MUSIC_SONGS
