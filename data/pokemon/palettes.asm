@@ -832,6 +832,25 @@ INCLUDE "gfx/pokemon/dudunsparce/shiny.pal"
 INCLUDE "gfx/pokemon/kingambit/normal.pal"
 INCLUDE "gfx/pokemon/kingambit/shiny.pal"
 	assert_table_length NUM_SPECIES + 1
+	
+INCLUDE "gfx/pokemon/pikachu/normal.pal" ; Fly
+INCLUDE "gfx/pokemon/pikachu/shiny.pal"
+INCLUDE "gfx/pokemon/pikachu/normal.pal" ; Surf
+INCLUDE "gfx/pokemon/pikachu/shiny.pal"
+INCLUDE "gfx/pokemon/pikachu/normal.pal" ; Pika
+INCLUDE "gfx/pokemon/pikachu/shiny.pal"
+INCLUDE "gfx/pokemon/pikachu/normal.pal" ; Chuchu
+INCLUDE "gfx/pokemon/pikachu/shiny.pal"
+INCLUDE "gfx/pokemon/pikachu/normal.pal" ; Spark
+INCLUDE "gfx/pokemon/pikachu/shiny.pal"
+
+INCLUDE "gfx/pokemon/pichu/normal.pal" ; Spiky Ear
+INCLUDE "gfx/pokemon/pichu/shiny.pal"
+
+INCLUDE "gfx/pokemon/combee_male/normal.pal"
+INCLUDE "gfx/pokemon/combee_male/shiny.pal"
+
+	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS + 1
 
 INCLUDE "gfx/pokemon/dudunsparce/normal.pal"
 INCLUDE "gfx/pokemon/dudunsparce/shiny.pal"
@@ -971,6 +990,6 @@ INCLUDE "gfx/pokemon/basculegion_female/shiny.pal"
 INCLUDE "gfx/pokemon/enamorus_therian/normal.pal"
 INCLUDE "gfx/pokemon/enamorus_therian/shiny.pal"
 
-	assert_table_length NUM_EXT_POKEMON + 1
+	assert_table_length NUM_UNIQUE_POKEMON + 1
 
 endc

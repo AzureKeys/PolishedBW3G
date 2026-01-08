@@ -640,7 +640,7 @@ GetMonPalettePointer:
 _GetMonPalettePointer:
 	; bc = index
 	push af
-	call GetSpeciesAndFormIndex
+	call GetCosmeticSpeciesAndFormIndex
 	ld h, b
 	ld l, c
 	inc hl
