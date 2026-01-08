@@ -162,7 +162,8 @@ hChartLineCoord:: db
 NEXTU
 hPokedexAreaMode:: ; %xyyyzzzz, x: area unknown, y: region, z: location type
 hPokedexStatsCurAbil:: db
-	ds 2
+hPokedexROMBankBackup:: db
+	ds 1
 ENDU
 
 hCGBPalUpdate:: db
@@ -175,7 +176,7 @@ hDelayFrameLY:: db
 hClockResetTrigger:: db
 
 hMPState::  db
-hMPBuffer:: db
+	ds 1
 
 hRequested2bpp::        db
 hRequested1bpp::        db
