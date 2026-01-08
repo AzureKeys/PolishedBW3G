@@ -117,31 +117,41 @@ MACRO add_mt
 	add_tmnum \1
 ENDM
 
-	add_mt AGILITY      ; $50
-	add_mt AQUA_TAIL    ; $52
-	add_mt BATON_PASS   ; $53
-	add_mt BODY_SLAM    ; $54
-	add_mt CHARM        ; $55
-	add_mt COUNTER      ; $56
-	add_mt DEFENSE_CURL ; $57
-	add_mt DOUBLE_EDGE  ; $58
-	add_mt EARTH_POWER  ; $5a
-	add_mt ENDURE       ; $5b
-	add_mt FIRE_PUNCH   ; $5c
-	add_mt HEADBUTT     ; $5d
-	add_mt HYPER_VOICE  ; $5e
-	add_mt ICE_PUNCH    ; $5f
-	add_mt ICY_WIND     ; $60
-	add_mt IRON_HEAD    ; $61
-	add_mt KNOCK_OFF    ; $62
-	add_mt ROLLOUT      ; $64
-	add_mt SEED_BOMB    ; $65
-	add_mt SEISMIC_TOSS ; $66
-	add_mt SUCKER_PUNCH ; $69
-	add_mt THUNDERPUNCH ; $6b
-	add_mt TRICK        ; $6c
-	add_mt ZAP_CANNON   ; $6e
-	add_mt ZEN_HEADBUTT ; $6f
+	add_mt SEED_BOMB    ; $50
+	add_mt GIGA_DRAIN   ; $51
+	add_mt FIRE_FANG    ; $52
+	add_mt FIRE_PUNCH   ; $53
+	add_mt OVERHEAT     ; $54
+	add_mt AQUA_TAIL    ; $55
+	add_mt THUNDER_FANG ; $56
+	add_mt THUNDERPUNCH ; $57
+	add_mt SHOCK_WAVE   ; $58
+	add_mt ICE_FANG     ; $59
+	add_mt ICE_PUNCH    ; $5a
+	add_mt ICY_WIND     ; $5b
+	add_mt SIGNAL_BEAM  ; $5c
+	add_mt GUNK_SHOT    ; $5d
+	add_mt SEISMIC_TOSS ; $5e
+	add_mt LOW_KICK     ; $5f
+	add_mt DRAIN_PUNCH  ; $60
+	add_mt DYNAMICPUNCH ; $61
+	add_mt ROOST        ; $62
+	add_mt ZEN_HEADBUTT ; $63
+	add_mt TRICK        ; $64
+	add_mt EARTH_POWER  ; $65
+	add_mt ROLLOUT      ; $66
+	add_mt ANCIENTPOWER ; $67
+	add_mt OUTRAGE      ; $68
+	add_mt KNOCK_OFF    ; $69
+	add_mt SUCKER_PUNCH ; $6a
+	add_mt IRON_HEAD    ; $6b
+	add_mt PLAY_ROUGH   ; $6c
+	add_mt DRAINING_KISS ; $6d
+	add_mt DOUBLE_EDGE  ; $6e
+	add_mt SUPER_FANG   ; $6f
+	;add_mt HYPER_VOICE  ; $70
+	;add_mt HEAL_BELL    ; $71
+	;add_mt PAIN_SPLIT   ; $72
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS
