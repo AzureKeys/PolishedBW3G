@@ -52,12 +52,12 @@ Route12InferScript:
 	showemote EMOTE_SHOCK, ROUTE12_INFER, 15
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtextfaceplayer .SeenText
+	winlosstext .BeatenText, .LostText
+	setlasttalked ROUTE12_INFER
 	checkevent EVENT_GOT_OSHAWOTT
 	iftruefwd .Oshawott
 	checkevent EVENT_GOT_SNIVY
 	iftruefwd .Snivy
-	winlosstext .BeatenText, .LostText
-	setlasttalked ROUTE12_INFER
 	loadtrainer INFER0, INFER1_OSHAWOTT
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -67,8 +67,6 @@ Route12InferScript:
 	sjump .Defeated
 	
 .Oshawott:
-	winlosstext .BeatenText, .LostText
-	setlasttalked ROUTE12_INFER
 	loadtrainer INFER0, INFER1_SNIVY
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -77,9 +75,7 @@ Route12InferScript:
 	iftruefwd .Victorious
 	sjump .Defeated
 	
-.Snivy
-	winlosstext .BeatenText, .LostText
-	setlasttalked ROUTE12_INFER
+.Snivy:
 	loadtrainer INFER0, INFER1_TEPIG
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle

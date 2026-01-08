@@ -36,6 +36,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_GAME_CORNER,         PAL_SINGLE,    GameCornerPalette
 	special_bg_pal tileset,  TILESET_BATTLE_TOWER_INSIDE, PAL_SINGLE,    BattleTowerPalette
 	special_bg_pal tileset,  TILESET_BATTLE_FACTORY,      PAL_SINGLE,    BattleFactoryPalette
+	special_bg_pal tileset,  TILESET_FOREST,              PAL_SINGLE,    ForestPalette
 	special_bg_pal tileset,  TILESET_ICE_PATH,            PAL_SINGLE,    IcePathPalette
 	special_bg_pal tileset,  TILESET_LENTIMAS,            PAL_TIMEOFDAY, LentimasPalette
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
@@ -68,6 +69,18 @@ endc
 HumilauGymPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/humilau_gym.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+ForestPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/forest.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

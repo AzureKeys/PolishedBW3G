@@ -14,6 +14,7 @@
 	const LENTIMAS_OUTSKIRT  ; 0c
 	const STRANGE_HOUSE      ; 0d
 	const LENTIMAS_TOWN      ; 0e
+	const LOSTLORN_FOREST    ; 0f
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
 	const BATTLE_TOWER       ; 46

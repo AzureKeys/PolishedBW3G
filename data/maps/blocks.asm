@@ -174,4 +174,12 @@ SECTION "LentimasAirport_BlockData", ROMX
 LentimasAirport_BlockData:
 	INCBIN "maps/LentimasAirport.ablk.lz"
 
+SECTION "LentimasLostlornGate_BlockData", ROMX
+LentimasLostlornGate_BlockData:
+	INCBIN "maps/LentimasLostlornGate.ablk.lz"
+
+SECTION "LostlornForest_BlockData", ROMX
+LostlornForest_BlockData:
+	INCBIN "maps/LostlornForest.ablk.lz"
+
 ENDSECTION

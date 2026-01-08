@@ -30,6 +30,7 @@ _AnimateTileset::
 	jmp IndirectHL
 	
 TilesetUnovaBeachAnim::
+TilesetForestAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -97,7 +98,7 @@ TilesetGym1Anim::
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 	
-TilesetEliteFourRoomAnim:
+TilesetEliteFourRoomAnim::
 	dw vTiles2 tile $57, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileUp
 	dw vTiles2 tile $57, ReadTileFromBuffer

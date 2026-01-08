@@ -19,6 +19,7 @@ Landmarks:
 	landmark 100,  60, LentimasOutskirtName
 	landmark 100,  52, StrangeHouseName
 	landmark  92,  60, LentimasTownName
+	landmark 100,  76, LostlornForestName
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -36,6 +37,7 @@ ReversalMountainName:  rawchar "Reversal¯Mountain@"
 LentimasOutskirtName:  rawchar "Lentimas¯Outskirt@"
 StrangeHouseName:      rawchar "Strange¯House@"
 LentimasTownName:      rawchar "Lentimas¯Town@"
+LostlornForestName:    rawchar "Lostlorn¯Forest@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"

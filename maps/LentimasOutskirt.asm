@@ -7,6 +7,8 @@ LentimasOutskirt_MapScriptHeader:
 	def_warp_events
 	warp_event 14,  3, REVERSAL_MOUNTAIN_B1F, 6
 	warp_event 33, 11, STRANGE_HOUSE_1F, 1
+	warp_event  7, 19, LENTIMAS_LOSTLORN_GATE, 1
+	warp_event  8, 19, LENTIMAS_LOSTLORN_GATE, 2
 
 	def_coord_events
 

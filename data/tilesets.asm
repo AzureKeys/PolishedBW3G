@@ -32,6 +32,7 @@ Tilesets::
 	tileset TilesetBattleFactory
 	tileset TilesetEliteFourRoom
 	tileset TilesetLentimas
+	tileset TilesetForest
 	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
 
@@ -445,6 +446,23 @@ SECTION "Tileset Data - lentimas", ROMX
 TilesetLentimasMeta:: INCBIN "data/tilesets/lentimas_metatiles.bin.lz"
 TilesetLentimasAttr:: INCBIN "data/tilesets/lentimas_attributes.bin.lz"
 TilesetLentimasColl:: INCBIN "data/tilesets/lentimas_collision.bin.lz"
+
+
+SECTION "Tileset Graphics - forest vram0", ROMX
+
+TilesetForestGFX0:: INCBIN "gfx/tilesets/forest.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - forest vram1", ROMX
+
+TilesetForestGFX1:: INCBIN "gfx/tilesets/forest.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - forest", ROMX
+
+TilesetForestMeta:: INCBIN "data/tilesets/forest_metatiles.bin.lz"
+TilesetForestAttr:: INCBIN "data/tilesets/forest_attributes.bin.lz"
+TilesetForestColl:: INCBIN "data/tilesets/forest_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - Terminator vram2", ROMX

@@ -70,4 +70,5 @@ Music:
 	dba Music_CynthiaEncounter
 	dba Music_LentimasTown
 	dba Music_ScaryHouse
+	dba Music_PetalburgWoods
 	assert_table_length NUM_MUSIC_SONGS

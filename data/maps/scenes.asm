@@ -19,6 +19,7 @@ MapScenes::
 	scene_var LENTIMAS_AIRPORT,                       wAlways0SceneID
 	scene_var LENTIMAS_GYM,                           wAlways0SceneID
 	scene_var LENTIMAS_TOWN,                          wAlways0SceneID
+	scene_var LOSTLORN_FOREST,                        wLostlornForestSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var ROUTE_12,                               wRoute12SceneID

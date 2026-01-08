@@ -198,4 +198,7 @@ INCLUDE "audio/music/lentimas.asm"
 SECTION "Song - strangehouse", ROMX
 INCLUDE "audio/music/strangehouse.asm"
 
+SECTION "Song - forest", ROMX
+INCLUDE "audio/music/forest.asm"
+
 ENDSECTION

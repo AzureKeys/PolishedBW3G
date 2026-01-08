@@ -206,8 +206,8 @@ DEF NUM_FRUIT_TREES EQU const_value - 1
 	const HIDDENGROTTO_ROUTE_22                ; 01
 	const HIDDENGROTTO_ROUTE_12                ; 02
 	const HIDDENGROTTO_ROUTE_13                ; 03
+	const HIDDENGROTTO_LOSTLORN                ; 04
 	
-	const HIDDENGROTTO_ROUTE_36                ; 04
 	const HIDDENGROTTO_CHERRYGROVE_BAY         ; 05
 	const HIDDENGROTTO_VIOLET_OUTSKIRTS        ; 06
 	const HIDDENGROTTO_ROUTE_32_COAST          ; 07

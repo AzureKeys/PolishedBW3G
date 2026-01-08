@@ -51,6 +51,7 @@ ENDM
 	map_const STRANGE_HOUSE_1F,                           14,  7 ;  6
 	map_const STRANGE_HOUSE_B1F,                          13,  6 ;  7
 	map_const STRANGE_HOUSE_ROOMS,                        21, 10 ;  8
+	map_const LOSTLORN_FOREST,                            20, 28 ;  9
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1
@@ -90,5 +91,6 @@ ENDM
 	map_const LENTIMAS_SPELL_TAG_HOUSE,                    4,  4 ;  5
 	map_const LENTIMAS_GYM,                                8, 10 ;  6
 	map_const LENTIMAS_AIRPORT,                            5,  4 ;  7
+	map_const LENTIMAS_LOSTLORN_GATE,                      5,  8 ;  8
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

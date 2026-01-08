@@ -1069,6 +1069,7 @@ wColosseumSceneID:: db
 wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
+wLostlornForestSceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
 wRoute12SceneID:: db
@@ -1093,7 +1094,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 163 ; unused
+	ds 162 ; unused
 
 wCandyAmounts::
 wExpCandyXSAmount:: db

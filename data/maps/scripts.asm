@@ -79,9 +79,15 @@ INCLUDE "maps/LentimasCoinHouse.asm"
 INCLUDE "maps/LentimasSpellTagHouse.asm"
 INCLUDE "maps/LentimasGym.asm"
 INCLUDE "maps/LentimasAirport.asm"
+INCLUDE "maps/LentimasLostlornGate.asm"
 INCLUDE "maps/StrangeHouse1F.asm"
 INCLUDE "maps/StrangeHouseB1F.asm"
 INCLUDE "maps/StrangeHouseRooms.asm"
+
+
+SECTION "Central Unova Route Scripts", ROMX
+
+INCLUDE "maps/LostlornForest.asm"
 
 
 ENDSECTION
