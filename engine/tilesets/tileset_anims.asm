@@ -31,6 +31,7 @@ _AnimateTileset::
 	
 TilesetUnovaBeachAnim::
 TilesetForestAnim::
+TilesetNimbasaAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -744,7 +745,7 @@ AnimateFlowerTile:
 	ld h, a
 
 	ld sp, hl
-	ld hl, vTiles2 tile $04
+	ld hl, vTiles2 tile $03
 	jmp WriteTile
 
 .FlowerTileFrames:

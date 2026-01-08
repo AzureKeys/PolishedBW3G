@@ -5,6 +5,8 @@ LostlornForest_MapScriptHeader:
 
 	def_warp_events
 	warp_event 37,  5, LENTIMAS_LOSTLORN_GATE, 3
+	warp_event 17, 54, ROUTE_16_LOSTLORN_GATE, 1
+	warp_event 17, 55, ROUTE_16_LOSTLORN_GATE, 2
 	warp_event 13, 25, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

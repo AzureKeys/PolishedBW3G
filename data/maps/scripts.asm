@@ -88,6 +88,7 @@ INCLUDE "maps/StrangeHouseRooms.asm"
 SECTION "Central Unova Route Scripts", ROMX
 
 INCLUDE "maps/LostlornForest.asm"
+INCLUDE "maps/Route16LostlornGate.asm"
 
 
 ENDSECTION

@@ -44,6 +44,7 @@ LentimasSpellTagHouse_BlockData:
 
 SECTION "EastWestGate_BlockData", ROMX
 Route12VillageBridgeGate_BlockData:
+Route16LostlornGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 SECTION "NorthSouthGate_BlockData", ROMX

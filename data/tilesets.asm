@@ -33,6 +33,7 @@ Tilesets::
 	tileset TilesetEliteFourRoom
 	tileset TilesetLentimas
 	tileset TilesetForest
+	tileset TilesetNimbasa
 	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
 
@@ -465,6 +466,23 @@ TilesetForestAttr:: INCBIN "data/tilesets/forest_attributes.bin.lz"
 TilesetForestColl:: INCBIN "data/tilesets/forest_collision.bin.lz"
 
 
+SECTION "Tileset Graphics - nimbasa vram0", ROMX
+
+TilesetNimbasaGFX0:: INCBIN "gfx/tilesets/nimbasa.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - nimbasa vram1", ROMX
+
+TilesetNimbasaGFX1:: INCBIN "gfx/tilesets/nimbasa.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - nimbasa", ROMX
+
+TilesetNimbasaMeta:: INCBIN "data/tilesets/nimbasa_metatiles.bin.lz"
+TilesetNimbasaAttr:: INCBIN "data/tilesets/nimbasa_attributes.bin.lz"
+TilesetNimbasaColl:: INCBIN "data/tilesets/nimbasa_collision.bin.lz"
+
+
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
 TilesetUnovaBeachGFX2::
@@ -488,6 +506,7 @@ TilesetCaveGFX2::
 TilesetIcePathGFX2::
 TilesetTunnelGFX2::
 TilesetForestGFX2::
+TilesetNimbasaGFX2::
 TilesetParkGFX2::
 TilesetSafariGFX2::
 TilesetRuinsGFX2::

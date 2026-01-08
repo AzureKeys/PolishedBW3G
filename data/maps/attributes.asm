@@ -68,6 +68,7 @@ ENDM
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
 	map_attributes LentimasLostlornGate, LENTIMAS_LOSTLORN_GATE, $0, 0
+	map_attributes Route16LostlornGate, ROUTE_16_LOSTLORN_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

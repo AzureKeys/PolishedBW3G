@@ -25,6 +25,7 @@ MapGroupPointers::
 	dw MapGroupLacunosa
 	dw MapGroupUndella
 	dw MapGroupLentimas
+	dw MapGroupNimbasa
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -93,4 +94,7 @@ MapGroupLentimas:
 	map LentimasGym, TILESET_TRADITIONAL_HOUSE, INDOOR, SIGN_BUILDING, LENTIMAS_TOWN, MUSIC_GYM, 1, PALETTE_NITE
 	map LentimasAirport, TILESET_TRADITIONAL_HOUSE, INDOOR, SIGN_WOOD, LENTIMAS_TOWN, MUSIC_LENTIMAS_TOWN, 1, PALETTE_DAY
 	map LentimasLostlornGate, TILESET_GATE, GATE, SIGN_BUILDING, LENTIMAS_OUTSKIRT, MUSIC_LENTIMAS_TOWN, 1, PALETTE_DAY
+	
+MapGroupNimbasa:
+	map Route16LostlornGate, TILESET_GATE, GATE, SIGN_BUILDING, ROUTE_16, MUSIC_ROUTE_13, 1, PALETTE_DAY
 	
