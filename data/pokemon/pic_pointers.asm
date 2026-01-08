@@ -423,6 +423,8 @@ PokemonPicPointers::
 	pics PikachuSpark
 
 	pics PichuSpiky
+	
+	pics CombeeMale
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -470,8 +472,6 @@ PokemonPicPointers::
 	pics CastformSun
 	pics CastformRain
 	pics CastformHail
-	
-	pics CombeeMale
 	
 	pics UnfezantFemale
 	

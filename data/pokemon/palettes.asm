@@ -918,9 +918,6 @@ INCLUDE "gfx/pokemon/castform_rain/shiny.pal"
 INCLUDE "gfx/pokemon/castform_hail/normal.pal"
 INCLUDE "gfx/pokemon/castform_hail/shiny.pal"
 
-INCLUDE "gfx/pokemon/combee_male/normal.pal"
-INCLUDE "gfx/pokemon/combee_male/shiny.pal"
-
 INCLUDE "gfx/pokemon/unfezant_female/normal.pal"
 INCLUDE "gfx/pokemon/unfezant_female/shiny.pal"
 

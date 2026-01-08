@@ -419,6 +419,8 @@ BitmasksPointers:
 	dw PikachuSparkBitmasks
 
 	dw PichuSpikyBitmasks
+	
+	dw CombeeMaleBitmasks
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -466,8 +468,6 @@ BitmasksPointers:
 	dw CastformSunBitmasks
 	dw CastformRainBitmasks
 	dw CastformHailBitmasks
-	
-	dw CombeeMaleBitmasks
 	
 	dw UnfezantFemaleBitmasks
 	

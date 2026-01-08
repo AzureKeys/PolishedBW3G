@@ -457,8 +457,6 @@ EggSpeciesMovesPointers::
 	dw CastformEggSpeciesMoves          ; Castform (Rain Form)
 	dw CastformEggSpeciesMoves          ; Castform (Hail Form)
 	
-	dw CombeeEggSpeciesMoves            ; Combee (Male)
-	
 	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
 	
 	dw BasculinEggSpeciesMoves          ; Basculin (Red)

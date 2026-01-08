@@ -458,8 +458,6 @@ PokedexDataPointerTable:
 	dba CastformPokedexEntry
 	dba CastformPokedexEntry
 	
-	dba CombeePokedexEntry
-	
 	dba UnfezantPokedexEntry
 	
 	dba BasculinRedPokedexEntry

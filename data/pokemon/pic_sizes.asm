@@ -438,6 +438,8 @@ INCLUDE "gfx/pokemon/pikachu_spark/front.dimensions"
 
 INCLUDE "gfx/pokemon/pichu_spiky/front.dimensions"
 
+INCLUDE "gfx/pokemon/combee_male/front.dimensions"
+
 	assert_list_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 INCLUDE "gfx/pokemon/dudunsparce_three_segment/front.dimensions"
@@ -484,8 +486,6 @@ INCLUDE "gfx/pokemon/braviary_hisuian/front.dimensions"
 INCLUDE "gfx/pokemon/castform_sun/front.dimensions"
 INCLUDE "gfx/pokemon/castform_rain/front.dimensions"
 INCLUDE "gfx/pokemon/castform_hail/front.dimensions"
-
-INCLUDE "gfx/pokemon/combee_male/front.dimensions"
 
 INCLUDE "gfx/pokemon/unfezant_female/front.dimensions"
 

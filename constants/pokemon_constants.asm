@@ -481,71 +481,71 @@ DEF NUM_PIKACHU EQU ext_const_value - 1
 	ext_const_def 2
 	ext_const PICHU_SPIKY_EARED_FORM ; 1a0 (2)
 
-DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 6
+; combee
+	ext_const_def 1, COMBEE_FEMALE_FORM ; (1)
+	ext_const COMBEE_MALE_FORM      ; 1a1 (2)
 
-DEF FIRST_VARIANT_FORM_MON EQU const_value ; 1a1
+DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 7
+
+DEF FIRST_VARIANT_FORM_MON EQU const_value ; 1a2
 
 ; dudunsparce
 	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)
-	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 1a1 (2)
+	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 1a2 (2)
 
 ; alolan forms
 DEF ALOLAN_FORM EQU 2
-	const_skip ; 1a2 rattata
-	const_skip ; 1a3 raticate
-	const_skip ; 1a4 raichu
-	const_skip ; 1a5 sandshrew
-	const_skip ; 1a6 sandslash
-	const_skip ; 1a7 vulpix
-	const_skip ; 1a8 ninetales
-	const_skip ; 1a9 meowth
-	const_skip ; 1aa persian
-	const_skip ; 1ab geodude
-	const_skip ; 1ac graveler
-	const_skip ; 1ad golem
-	const_skip ; 1ae grimer
-	const_skip ; 1af muk
-	const_skip ; 1b0 exeggutor
+	const_skip ; 1a3 rattata
+	const_skip ; 1a4 raticate
+	const_skip ; 1a5 raichu
+	const_skip ; 1a6 sandshrew
+	const_skip ; 1a7 sandslash
+	const_skip ; 1a8 vulpix
+	const_skip ; 1a9 ninetales
+	const_skip ; 1aa meowth
+	const_skip ; 1ab persian
+	const_skip ; 1ac geodude
+	const_skip ; 1ad graveler
+	const_skip ; 1ae golem
+	const_skip ; 1af grimer
+	const_skip ; 1b0 muk
+	const_skip ; 1b1 exeggutor
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3
-	const_skip ; 1b1 meowth
-	const_skip ; 1b2 ponyta
-	const_skip ; 1b3 rapidash
-	const_skip ; 1b4 slowpoke
-	const_skip ; 1b5 slowbro
-	const_skip ; 1b6 weezing
-	const_skip ; 1b7 mr. mime
-	const_skip ; 1b8 slowking
-	const_skip ; 1b9 corsola
-	const_skip ; 1ba darumaka
-	const_skip ; 1bb darmanitan
-	const_skip ; 1bc yamask
-	const_skip ; 1bd stunfisk
+	const_skip ; 1b2 meowth
+	const_skip ; 1b3 ponyta
+	const_skip ; 1b4 rapidash
+	const_skip ; 1b5 slowpoke
+	const_skip ; 1b6 slowbro
+	const_skip ; 1b7 weezing
+	const_skip ; 1b8 mr. mime
+	const_skip ; 1b9 slowking
+	const_skip ; 1ba corsola
+	const_skip ; 1bb darumaka
+	const_skip ; 1bc darmanitan
+	const_skip ; 1bd yamask
+	const_skip ; 1be stunfisk
 
 ; hisuian forms
 DEF HISUIAN_FORM EQU 4
-	const_skip ; 1be growlithe
-	const_skip ; 1bf arcanine
-	const_skip ; 1c0 sneasel
-	const_skip ; 1c1 samurott
-	const_skip ; 1c2 lilligant
-	const_skip ; 1c3 zorua
-	const_skip ; 1c4 zoroark
-	const_skip ; 1c5 braviary
+	const_skip ; 1bf growlithe
+	const_skip ; 1c0 arcanine
+	const_skip ; 1c1 sneasel
+	const_skip ; 1c2 samurott
+	const_skip ; 1c3 lilligant
+	const_skip ; 1c4 zorua
+	const_skip ; 1c5 zoroark
+	const_skip ; 1c6 braviary
 
 ; paldean forms
 DEF PALDEAN_FORM EQU 5
 	
 ; castform
 	ext_const_def 2
-	ext_const CASTFORM_SUN_FORM  ; 1c6 (2)
-	ext_const CASTFORM_RAIN_FORM ; 1c7 (3)
-	ext_const CASTFORM_HAIL_FORM ; 1c8 (4)
-
-; combee
-	ext_const_def 1, COMBEE_FEMALE_FORM ; (1)
-	ext_const COMBEE_MALE_FORM      ; 1c9 (2)
+	ext_const CASTFORM_SUN_FORM  ; 1c7 (2)
+	ext_const CASTFORM_RAIN_FORM ; 1c8 (3)
+	ext_const CASTFORM_HAIL_FORM ; 1c9 (4)
 
 ; unfezant
 	ext_const_def 1, UNFEZANT_MALE_FORM ; (1)

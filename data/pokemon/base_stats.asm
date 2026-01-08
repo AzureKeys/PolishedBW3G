@@ -492,8 +492,6 @@ INCLUDE "data/pokemon/base_stats/castform_sun.asm"
 INCLUDE "data/pokemon/base_stats/castform_rain.asm"
 INCLUDE "data/pokemon/base_stats/castform_hail.asm"
 
-INCLUDE "data/pokemon/base_stats/combee.asm" ; male
-
 INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
 
 INCLUDE "data/pokemon/base_stats/basculin_red.asm"

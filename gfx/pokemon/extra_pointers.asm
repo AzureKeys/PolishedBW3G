@@ -419,6 +419,8 @@ AnimationExtraPointers:
 	dw PikachuSparkAnimationExtra
 
 	dw PichuSpikyAnimationExtra
+	
+	dw CombeeMaleAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -466,8 +468,6 @@ AnimationExtraPointers:
 	dw CastformSunAnimationExtra
 	dw CastformRainAnimationExtra
 	dw CastformHailAnimationExtra
-	
-	dw CombeeMaleAnimationExtra
 	
 	dw UnfezantFemaleAnimationExtra
 	

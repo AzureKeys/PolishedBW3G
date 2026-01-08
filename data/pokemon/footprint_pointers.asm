@@ -457,8 +457,6 @@ FootprintPointers::
 	dw CastformFootprint
 	dw CastformFootprint
 	
-	dw CombeeFootprint
-	
 	dw UnfezantFootprint
 	
 	dw BasculinFootprint

@@ -419,6 +419,8 @@ FramesPointers:
 	dw PikachuSparkFrames
 
 	dw PichuSpikyFrames
+	
+	dw CombeeMaleFrames
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -466,8 +468,6 @@ FramesPointers:
 	dw CastformSunFrames
 	dw CastformRainFrames
 	dw CastformHailFrames
-	
-	dw CombeeMaleFrames
 	
 	dw UnfezantFemaleFrames
 	

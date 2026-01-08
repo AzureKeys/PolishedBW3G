@@ -424,6 +424,8 @@ MiniIconPointers:
 
 	mini_icon Pichu ; Spiky
 
+	mini_icon Combee ; Male
+
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	mini_icon DudunsparceThreeSegment
@@ -470,8 +472,6 @@ MiniIconPointers:
 	mini_icon CastformSun
 	mini_icon CastformRain
 	mini_icon CastformHail
-
-	mini_icon Combee
 
 	mini_icon UnfezantFemale
 	

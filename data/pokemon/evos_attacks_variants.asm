@@ -46,8 +46,6 @@ EvosAttacksPointersVariants::
 	dw CastformAltEvosAttacks
 	dw CastformAltEvosAttacks
 	
-	dw CombeeMaleEvosAttacks
-	
 	dw UnfezantFemaleEvosAttacks
 	
 	dw BasculinNonWhiteEvosAttacks
@@ -805,12 +803,6 @@ EvosAttacksPointersVariants::
 	learnset 35, FIRE_BLAST
 	learnset 35, BLIZZARD
 	learnset 45, HURRICANE
-	
-	evos_attacks CombeeMale
-	learnset 1, STRING_SHOT ; Sweet Scent → HGSS tutor move
-	learnset 1, GUST
-	learnset 1, BUG_BITE
-	learnset 29, BUG_BUZZ ; Struggle Bug → pre Gen8 move
 	
 	evos_attacks UnfezantFemale
 	learnset 1, GUST

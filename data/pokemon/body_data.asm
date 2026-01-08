@@ -464,8 +464,6 @@ PokemonBodyData:
 	body_data   3,    8, HEAD,         BLUE   ; CASTFORM (CASTFORM_RAIN_FORM)
 	body_data   3,    8, HEAD,         WHITE  ; CASTFORM (CASTFORM_HAIL_FORM)
 	
-	body_data   3,   55, MULTIBODY,    YELLOW ; COMBEE (COMBEE_MALE_FORM)
-	
 	body_data  12,  290, WINGS,        GRAY   ; UNFEZANT (UNFEZANT_FEMALE_FORM)
 	
 	body_data  10,  180, FINS,         GREEN  ; BASCULIN (BASCULIN_RED_FORM)
