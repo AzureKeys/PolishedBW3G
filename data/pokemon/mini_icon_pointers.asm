@@ -426,6 +426,19 @@ MiniIconPointers:
 
 	mini_icon Combee ; Male
 
+	mini_icon UnfezantFemale
+	
+	mini_icon Deerling ; Summer
+	mini_icon Deerling ; Autumn
+	mini_icon Deerling ; Winter
+	
+	mini_icon SawsbuckSummer
+	mini_icon SawsbuckAutumn
+	mini_icon SawsbuckWinter
+
+	mini_icon FrillishFemale
+	mini_icon JellicentFemale
+
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	mini_icon DudunsparceThreeSegment
@@ -472,25 +485,12 @@ MiniIconPointers:
 	mini_icon CastformSun
 	mini_icon CastformRain
 	mini_icon CastformHail
-
-	mini_icon UnfezantFemale
 	
 	mini_icon Basculin
 	mini_icon Basculin
 	
 	mini_icon DarmanitanZen
 	mini_icon DarmanitanGalarianZen
-	
-	mini_icon Deerling
-	mini_icon Deerling
-	mini_icon Deerling
-	
-	mini_icon SawsbuckSummer
-	mini_icon SawsbuckAutumn
-	mini_icon SawsbuckWinter
-
-	mini_icon FrillishFemale
-	mini_icon JellicentFemale
 	
 	mini_icon TornadusTherian
 	mini_icon ThundurusTherian

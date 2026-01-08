@@ -421,6 +421,19 @@ AnimationExtraPointers:
 	dw PichuSpikyAnimationExtra
 	
 	dw CombeeMaleAnimationExtra
+	
+	dw UnfezantFemaleAnimationExtra
+	
+	dw DeerlingSummerAnimationExtra
+	dw DeerlingAutumnAnimationExtra
+	dw DeerlingWinterAnimationExtra
+	
+	dw SawsbuckSummerAnimationExtra
+	dw SawsbuckAutumnAnimationExtra
+	dw SawsbuckWinterAnimationExtra
+	
+	dw FrillishFemaleAnimationExtra
+	dw JellicentFemaleAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -469,24 +482,11 @@ AnimationExtraPointers:
 	dw CastformRainAnimationExtra
 	dw CastformHailAnimationExtra
 	
-	dw UnfezantFemaleAnimationExtra
-	
 	dw BasculinRedAnimationExtra
 	dw BasculinBlueAnimationExtra
 	
 	dw DarmanitanZenAnimationExtra
 	dw DarmanitanGalarianZenAnimationExtra
-	
-	dw DeerlingSummerAnimationExtra
-	dw DeerlingAutumnAnimationExtra
-	dw DeerlingWinterAnimationExtra
-	
-	dw SawsbuckSummerAnimationExtra
-	dw SawsbuckAutumnAnimationExtra
-	dw SawsbuckWinterAnimationExtra
-	
-	dw FrillishFemaleAnimationExtra
-	dw JellicentFemaleAnimationExtra
 	
 	dw TornadusTherianAnimationExtra
 	dw ThundurusTherianAnimationExtra

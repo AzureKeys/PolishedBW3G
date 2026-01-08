@@ -458,24 +458,11 @@ PokedexDataPointerTable:
 	dba CastformPokedexEntry
 	dba CastformPokedexEntry
 	
-	dba UnfezantPokedexEntry
-	
 	dba BasculinRedPokedexEntry
 	dba BasculinBluePokedexEntry
 	
 	dba DarmanitanZenPokedexEntry
 	dba DarmanitanGalarianZenPokedexEntry
-	
-	dba DeerlingPokedexEntry
-	dba DeerlingPokedexEntry
-	dba DeerlingPokedexEntry
-	
-	dba SawsbuckPokedexEntry
-	dba SawsbuckPokedexEntry
-	dba SawsbuckPokedexEntry
-	
-	dba FrillishPokedexEntry
-	dba JellicentPokedexEntry
 	
 	dba TornadusPokedexEntry
 	dba ThundurusPokedexEntry

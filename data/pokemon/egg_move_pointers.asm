@@ -457,24 +457,11 @@ EggSpeciesMovesPointers::
 	dw CastformEggSpeciesMoves          ; Castform (Rain Form)
 	dw CastformEggSpeciesMoves          ; Castform (Hail Form)
 	
-	dw PidoveEggSpeciesMoves            ; Unfezant (Female)
-	
 	dw BasculinEggSpeciesMoves          ; Basculin (Red)
 	dw BasculinEggSpeciesMoves          ; Basculin (Blue)
 	
 	dw DarumakaPlainEggSpeciesMoves     ; Darmanitan (Zen)
 	dw DarumakaGalarianEggSpeciesMoves  ; Darmanitan (Galarian Zen)
-	
-	dw DeerlingEggSpeciesMoves          ; Deerling (Summer)
-	dw DeerlingEggSpeciesMoves          ; Deerling (Autumn)
-	dw DeerlingEggSpeciesMoves          ; Deerling (Winter)
-	
-	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Summer)
-	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Autumn)
-	dw DeerlingEggSpeciesMoves          ; Sawsbuck (Winter)
-	
-	dw FrillishEggSpeciesMoves          ; Frillish (Female)
-	dw FrillishEggSpeciesMoves          ; Jellicent (Female)
 	
 	dw NoEggSpeciesMoves                ; Tornadus (Therian)
 	dw NoEggSpeciesMoves                ; Thundurus (Therian)

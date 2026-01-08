@@ -440,6 +440,19 @@ INCLUDE "gfx/pokemon/pichu_spiky/front.dimensions"
 
 INCLUDE "gfx/pokemon/combee_male/front.dimensions"
 
+INCLUDE "gfx/pokemon/unfezant_female/front.dimensions"
+
+INCLUDE "gfx/pokemon/deerling_summer/front.dimensions"
+INCLUDE "gfx/pokemon/deerling_autumn/front.dimensions"
+INCLUDE "gfx/pokemon/deerling_winter/front.dimensions"
+
+INCLUDE "gfx/pokemon/sawsbuck_summer/front.dimensions"
+INCLUDE "gfx/pokemon/sawsbuck_autumn/front.dimensions"
+INCLUDE "gfx/pokemon/sawsbuck_winter/front.dimensions"
+
+INCLUDE "gfx/pokemon/frillish_female/front.dimensions"
+INCLUDE "gfx/pokemon/jellicent_female/front.dimensions"
+
 	assert_list_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 INCLUDE "gfx/pokemon/dudunsparce_three_segment/front.dimensions"
@@ -487,24 +500,11 @@ INCLUDE "gfx/pokemon/castform_sun/front.dimensions"
 INCLUDE "gfx/pokemon/castform_rain/front.dimensions"
 INCLUDE "gfx/pokemon/castform_hail/front.dimensions"
 
-INCLUDE "gfx/pokemon/unfezant_female/front.dimensions"
-
 INCLUDE "gfx/pokemon/basculin_red/front.dimensions"
 INCLUDE "gfx/pokemon/basculin_blue/front.dimensions"
 
 INCLUDE "gfx/pokemon/darmanitan_zen/front.dimensions"
 INCLUDE "gfx/pokemon/darmanitan_galarian_zen/front.dimensions"
-
-INCLUDE "gfx/pokemon/deerling_summer/front.dimensions"
-INCLUDE "gfx/pokemon/deerling_autumn/front.dimensions"
-INCLUDE "gfx/pokemon/deerling_winter/front.dimensions"
-
-INCLUDE "gfx/pokemon/sawsbuck_summer/front.dimensions"
-INCLUDE "gfx/pokemon/sawsbuck_autumn/front.dimensions"
-INCLUDE "gfx/pokemon/sawsbuck_winter/front.dimensions"
-
-INCLUDE "gfx/pokemon/frillish_female/front.dimensions"
-INCLUDE "gfx/pokemon/jellicent_female/front.dimensions"
 
 INCLUDE "gfx/pokemon/tornadus_therian/front.dimensions"
 INCLUDE "gfx/pokemon/thundurus_therian/front.dimensions"

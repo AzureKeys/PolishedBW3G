@@ -115,8 +115,8 @@ TMHMMoves:
 	db DRAINING_KISS ; MT30 ()
 	db DOUBLE_EDGE  ; MT31 ()
 	db SUPER_FANG   ; MT32 ()
-	;db HYPER_VOICE  ; MT33 ()
-	;db HEAL_BELL    ; MT34 ()
-	;db PAIN_SPLIT   ; MT35 ()
+	db HYPER_VOICE  ; MT33 ()
+	db HEAL_BELL    ; MT34 ()
+	db PAIN_SPLIT   ; MT35 ()
 	assert_table_length NUM_TM_HM_TUTOR
 	db 0 ; end

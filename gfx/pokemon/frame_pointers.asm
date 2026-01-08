@@ -421,6 +421,19 @@ FramesPointers:
 	dw PichuSpikyFrames
 	
 	dw CombeeMaleFrames
+	
+	dw UnfezantFemaleFrames
+	
+	dw DeerlingSummerFrames
+	dw DeerlingAutumnFrames
+	dw DeerlingWinterFrames
+	
+	dw SawsbuckSummerFrames
+	dw SawsbuckAutumnFrames
+	dw SawsbuckWinterFrames
+	
+	dw FrillishFemaleFrames
+	dw JellicentFemaleFrames
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -469,24 +482,11 @@ FramesPointers:
 	dw CastformRainFrames
 	dw CastformHailFrames
 	
-	dw UnfezantFemaleFrames
-	
 	dw BasculinRedFrames
 	dw BasculinBlueFrames
 	
 	dw DarmanitanZenFrames
 	dw DarmanitanGalarianZenFrames
-	
-	dw DeerlingSummerFrames
-	dw DeerlingAutumnFrames
-	dw DeerlingWinterFrames
-	
-	dw SawsbuckSummerFrames
-	dw SawsbuckAutumnFrames
-	dw SawsbuckWinterFrames
-	
-	dw FrillishFemaleFrames
-	dw JellicentFemaleFrames
 	
 	dw TornadusTherianFrames
 	dw ThundurusTherianFrames

@@ -421,6 +421,19 @@ BitmasksPointers:
 	dw PichuSpikyBitmasks
 	
 	dw CombeeMaleBitmasks
+	
+	dw UnfezantFemaleBitmasks
+	
+	dw DeerlingSummerBitmasks
+	dw DeerlingAutumnBitmasks
+	dw DeerlingWinterBitmasks
+	
+	dw SawsbuckSummerBitmasks
+	dw SawsbuckAutumnBitmasks
+	dw SawsbuckWinterBitmasks
+	
+	dw FrillishFemaleBitmasks
+	dw JellicentFemaleBitmasks
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -469,24 +482,11 @@ BitmasksPointers:
 	dw CastformRainBitmasks
 	dw CastformHailBitmasks
 	
-	dw UnfezantFemaleBitmasks
-	
 	dw BasculinRedBitmasks
 	dw BasculinBlueBitmasks
 	
 	dw DarmanitanZenBitmasks
 	dw DarmanitanGalarianZenBitmasks
-	
-	dw DeerlingSummerBitmasks
-	dw DeerlingAutumnBitmasks
-	dw DeerlingWinterBitmasks
-	
-	dw SawsbuckSummerBitmasks
-	dw SawsbuckAutumnBitmasks
-	dw SawsbuckWinterBitmasks
-	
-	dw FrillishFemaleBitmasks
-	dw JellicentFemaleBitmasks
 	
 	dw TornadusTherianBitmasks
 	dw ThundurusTherianBitmasks

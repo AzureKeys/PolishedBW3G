@@ -46,24 +46,11 @@ EvosAttacksPointersVariants::
 	dw CastformAltEvosAttacks
 	dw CastformAltEvosAttacks
 	
-	dw UnfezantFemaleEvosAttacks
-	
 	dw BasculinNonWhiteEvosAttacks
 	dw BasculinNonWhiteEvosAttacks
 	
 	dw DarmanitanZenEvosAttacks
 	dw DarmanitanGalarianEvosAttacks
-	
-	dw DeerlingAltEvosAttacks
-	dw DeerlingAltEvosAttacks
-	dw DeerlingAltEvosAttacks
-	
-	dw SawsbuckAltEvosAttacks
-	dw SawsbuckAltEvosAttacks
-	dw SawsbuckAltEvosAttacks
-	
-	dw FrillishFemaleEvosAttacks
-	dw JellicentFemaleEvosAttacks
 	
 	dw TornadusTherianEvosAttacks
 	dw ThundurusTherianEvosAttacks
@@ -803,21 +790,6 @@ EvosAttacksPointersVariants::
 	learnset 35, FIRE_BLAST
 	learnset 35, BLIZZARD
 	learnset 45, HURRICANE
-	
-	evos_attacks UnfezantFemale
-	learnset 1, GUST
-	learnset 1, GROWL
-	learnset 1, LEER
-	learnset 1, QUICK_ATTACK
-	learnset 12, PROTECT ; Taunt → moved Detect from Lv34
-	learnset 16, AERIAL_ACE ; Air Cutter → TM move
-	learnset 20, SWAGGER
-	learnset 26, CHARM ; FeatherDance → similar move
-	learnset 36, AIR_SLASH ; Detect → moved Air Slash from Lv38
-	learnset 42, DRILL_PECK ; Air Slash → new move
-	learnset 50, ROOST
-	learnset 58, FACADE ; Tailwind → pre Gen8 move
-	learnset 66, BRAVE_BIRD ; Sky Attack → SwSh TR move
 
 	evos_attacks BasculinNonWhite
 	learnset 1, WATER_GUN
@@ -853,73 +825,6 @@ EvosAttacksPointersVariants::
 	learnset 44, FLARE_BLITZ
 	learnset 50, THRASH
 	learnset 56, REVERSAL ; Superpower → SwSh TR move
-	
-	evos_attacks DeerlingAlt
-	evo_data EVOLVE_LEVEL, 34, SAWSBUCK, NO_FORM ; preserve pre-evo form
-	learnset 1, TACKLE
-	learnset 4, GROWL
-	learnset 7, MUD_SLAP ; Sand Attack → similar move
-	learnset 10, DOUBLE_KICK
-	learnset 13, LEECH_SEED
-	learnset 16, FEINT_ATTACK ; Bullet Seed → pre Gen8 move
-	learnset 20, TAKE_DOWN
-	learnset 24, ZEN_HEADBUTT
-	learnset 28, ENERGY_BALL
-	learnset 32, CHARM
-	learnset 37, DOUBLE_EDGE
-	learnset 42, SOLAR_BEAM
-	learnset 47, HI_JUMP_KICK ; added pre Gen8 move (Jump Kick)
-	
-	evos_attacks SawsbuckAlt
-	learnset 1, MEGAHORN
-	learnset 1, TACKLE
-	learnset 1, GROWL
-	learnset 1, MUD_SLAP ; Sand Attack → similar move
-	learnset 10, DOUBLE_KICK
-	learnset 13, LEECH_SEED
-	learnset 16, FEINT_ATTACK ; Bullet Seed → pre Gen8 move
-	learnset 20, TAKE_DOWN
-	learnset 24, ZEN_HEADBUTT
-	learnset 28, ENERGY_BALL
-	learnset 33, LEAF_BLADE ; evolution move (Horn Leech → new move)
-	learnset 36, CHARM
-	learnset 44, DOUBLE_EDGE
-	learnset 52, SOLAR_BEAM
-	learnset 60, HI_JUMP_KICK ; added pre Gen8 move (Jump Kick)
-	
-	evos_attacks FrillishFemale
-	evo_data EVOLVE_LEVEL, 40, JELLICENT, NO_FORM ; preserve pre-evo form
-	learnset 1, ABSORB
-	learnset 1, WATER_GUN
-	learnset 4, POISON_STING
-	learnset 8, NIGHT_SHADE
-	learnset 12, WATER_PULSE
-	learnset 16, RAIN_DANCE
-	learnset 20, HEX
-	learnset 24, BRINE
-	learnset 28, RECOVER
-	learnset 32, SHADOW_BALL
-	learnset 36, SCALD ; Whirlpool → TM move
-	learnset 41, HYDRO_PUMP
-	learnset 44, DESTINY_BOND
-	learnset 48, GIGA_DRAIN ; Water Spout → TM move
-	
-	evos_attacks JellicentFemale
-	learnset 1, BARRIER ; Acid Armor → similar move
-	learnset 1, ABSORB
-	learnset 1, WATER_GUN
-	learnset 1, POISON_STING
-	learnset 1, NIGHT_SHADE
-	learnset 12, WATER_PULSE
-	learnset 16, RAIN_DANCE
-	learnset 20, HEX
-	learnset 24, BRINE
-	learnset 28, RECOVER
-	learnset 32, SHADOW_BALL
-	learnset 36, SCALD ; Whirlpool → TM move
-	learnset 43, HYDRO_PUMP
-	learnset 48, DESTINY_BOND
-	learnset 54, GIGA_DRAIN ; Water Spout → TM move
 	
 	evos_attacks TornadusTherian
 	learnset 1, QUICK_ATTACK ; Astonish → new move

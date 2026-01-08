@@ -457,24 +457,11 @@ FootprintPointers::
 	dw CastformFootprint
 	dw CastformFootprint
 	
-	dw UnfezantFootprint
-	
 	dw BasculinFootprint
 	dw BasculinFootprint
 	
 	dw DarmanitanFootprint
 	dw DarmanitanFootprint
-	
-	dw DeerlingFootprint
-	dw DeerlingFootprint
-	dw DeerlingFootprint
-	
-	dw SawsbuckFootprint
-	dw SawsbuckFootprint
-	dw SawsbuckFootprint
-	
-	dw FrillishFootprint
-	dw JellicentFootprint
 	
 	dw TornadusFootprint
 	dw ThundurusFootprint

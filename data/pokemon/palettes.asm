@@ -850,6 +850,29 @@ INCLUDE "gfx/pokemon/pichu/shiny.pal"
 INCLUDE "gfx/pokemon/combee_male/normal.pal"
 INCLUDE "gfx/pokemon/combee_male/shiny.pal"
 
+INCLUDE "gfx/pokemon/unfezant_female/normal.pal"
+INCLUDE "gfx/pokemon/unfezant_female/shiny.pal"
+
+INCLUDE "gfx/pokemon/deerling_summer/normal.pal"
+INCLUDE "gfx/pokemon/deerling_summer/shiny.pal"
+INCLUDE "gfx/pokemon/deerling_autumn/normal.pal"
+INCLUDE "gfx/pokemon/deerling_autumn/shiny.pal"
+INCLUDE "gfx/pokemon/deerling_winter/normal.pal"
+INCLUDE "gfx/pokemon/deerling_winter/shiny.pal"
+
+INCLUDE "gfx/pokemon/sawsbuck_summer/normal.pal"
+INCLUDE "gfx/pokemon/sawsbuck_summer/shiny.pal"
+INCLUDE "gfx/pokemon/sawsbuck_autumn/normal.pal"
+INCLUDE "gfx/pokemon/sawsbuck_autumn/shiny.pal"
+INCLUDE "gfx/pokemon/sawsbuck_winter/normal.pal"
+INCLUDE "gfx/pokemon/sawsbuck_winter/shiny.pal"
+
+INCLUDE "gfx/pokemon/frillish_female/normal.pal"
+INCLUDE "gfx/pokemon/frillish_female/shiny.pal"
+
+INCLUDE "gfx/pokemon/jellicent_female/normal.pal"
+INCLUDE "gfx/pokemon/jellicent_female/shiny.pal"
+
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS + 1
 
 INCLUDE "gfx/pokemon/dudunsparce/normal.pal"
@@ -937,9 +960,6 @@ INCLUDE "gfx/pokemon/castform_rain/shiny.pal"
 INCLUDE "gfx/pokemon/castform_hail/normal.pal"
 INCLUDE "gfx/pokemon/castform_hail/shiny.pal"
 
-INCLUDE "gfx/pokemon/unfezant_female/normal.pal"
-INCLUDE "gfx/pokemon/unfezant_female/shiny.pal"
-
 INCLUDE "gfx/pokemon/basculin_red/normal.pal"
 INCLUDE "gfx/pokemon/basculin_red/shiny.pal"
 INCLUDE "gfx/pokemon/basculin_blue/normal.pal"
@@ -949,25 +969,6 @@ INCLUDE "gfx/pokemon/darmanitan_zen/normal.pal"
 INCLUDE "gfx/pokemon/darmanitan_zen/shiny.pal"
 INCLUDE "gfx/pokemon/darmanitan_galarian_zen/normal.pal"
 INCLUDE "gfx/pokemon/darmanitan_galarian_zen/shiny.pal"
-
-INCLUDE "gfx/pokemon/deerling_summer/normal.pal"
-INCLUDE "gfx/pokemon/deerling_summer/shiny.pal"
-INCLUDE "gfx/pokemon/deerling_autumn/normal.pal"
-INCLUDE "gfx/pokemon/deerling_autumn/shiny.pal"
-INCLUDE "gfx/pokemon/deerling_winter/normal.pal"
-INCLUDE "gfx/pokemon/deerling_winter/shiny.pal"
-
-INCLUDE "gfx/pokemon/sawsbuck_summer/normal.pal"
-INCLUDE "gfx/pokemon/sawsbuck_summer/shiny.pal"
-INCLUDE "gfx/pokemon/sawsbuck_autumn/normal.pal"
-INCLUDE "gfx/pokemon/sawsbuck_autumn/shiny.pal"
-INCLUDE "gfx/pokemon/sawsbuck_winter/normal.pal"
-INCLUDE "gfx/pokemon/sawsbuck_winter/shiny.pal"
-
-INCLUDE "gfx/pokemon/frillish_female/normal.pal"
-INCLUDE "gfx/pokemon/frillish_female/shiny.pal"
-INCLUDE "gfx/pokemon/jellicent_female/normal.pal"
-INCLUDE "gfx/pokemon/jellicent_female/shiny.pal"
 
 INCLUDE "gfx/pokemon/tornadus_therian/normal.pal"
 INCLUDE "gfx/pokemon/tornadus_therian/shiny.pal"

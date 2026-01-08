@@ -149,9 +149,9 @@ ENDM
 	add_mt DRAINING_KISS ; $6d
 	add_mt DOUBLE_EDGE  ; $6e
 	add_mt SUPER_FANG   ; $6f
-	;add_mt HYPER_VOICE  ; $70
-	;add_mt HEAL_BELL    ; $71
-	;add_mt PAIN_SPLIT   ; $72
+	add_mt HYPER_VOICE  ; $70
+	add_mt HEAL_BELL    ; $71
+	add_mt PAIN_SPLIT   ; $72
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

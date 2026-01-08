@@ -492,24 +492,11 @@ INCLUDE "data/pokemon/base_stats/castform_sun.asm"
 INCLUDE "data/pokemon/base_stats/castform_rain.asm"
 INCLUDE "data/pokemon/base_stats/castform_hail.asm"
 
-INCLUDE "data/pokemon/base_stats/unfezant.asm" ; female
-
 INCLUDE "data/pokemon/base_stats/basculin_red.asm"
 INCLUDE "data/pokemon/base_stats/basculin_blue.asm"
 
 INCLUDE "data/pokemon/base_stats/darmanitan_zen.asm"
 INCLUDE "data/pokemon/base_stats/darmanitan_galarian_zen.asm"
-
-INCLUDE "data/pokemon/base_stats/deerling.asm" ; summer
-INCLUDE "data/pokemon/base_stats/deerling.asm" ; autumn
-INCLUDE "data/pokemon/base_stats/deerling.asm" ; winter
-
-INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; summer
-INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; autumn
-INCLUDE "data/pokemon/base_stats/sawsbuck.asm" ; winter
-
-INCLUDE "data/pokemon/base_stats/frillish.asm" ; female
-INCLUDE "data/pokemon/base_stats/jellicent.asm" ; female
 
 INCLUDE "data/pokemon/base_stats/tornadus_therian.asm"
 INCLUDE "data/pokemon/base_stats/thundurus_therian.asm"

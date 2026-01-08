@@ -425,6 +425,19 @@ PokemonPicPointers::
 	pics PichuSpiky
 	
 	pics CombeeMale
+	
+	pics UnfezantFemale
+	
+	pics DeerlingSummer
+	pics DeerlingAutumn
+	pics DeerlingWinter
+	
+	pics SawsbuckSummer
+	pics SawsbuckAutumn
+	pics SawsbuckWinter
+	
+	pics FrillishFemale
+	pics JellicentFemale
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
@@ -473,24 +486,11 @@ PokemonPicPointers::
 	pics CastformRain
 	pics CastformHail
 	
-	pics UnfezantFemale
-	
 	pics BasculinRed
 	pics BasculinBlue
 	
 	pics DarmanitanZen
 	pics DarmanitanGalarianZen
-	
-	pics DeerlingSummer
-	pics DeerlingAutumn
-	pics DeerlingWinter
-	
-	pics SawsbuckSummer
-	pics SawsbuckAutumn
-	pics SawsbuckWinter
-	
-	pics FrillishFemale
-	pics JellicentFemale
 	
 	pics TornadusTherian
 	pics ThundurusTherian
