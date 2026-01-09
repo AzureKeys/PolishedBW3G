@@ -96,5 +96,7 @@ ENDM
 	newgroup                                                     ;  7
 	map_const ROUTE_16_LOSTLORN_GATE,                      5,  4 ;  1
 	map_const ROUTE_16,                                   18, 15 ;  2
+	map_const ROUTE_16_NIMBASA_GATE,                       5,  4 ;  3
+	map_const NIMBASA_CITY,                               23, 18 ;  4
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

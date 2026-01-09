@@ -201,4 +201,7 @@ INCLUDE "audio/music/strangehouse.asm"
 SECTION "Song - forest", ROMX
 INCLUDE "audio/music/forest.asm"
 
+SECTION "Song - nimbasacity", ROMX
+INCLUDE "audio/music/nimbasacity.asm"
+
 ENDSECTION

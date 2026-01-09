@@ -6,11 +6,16 @@ Route16_MapScriptHeader:
 	def_warp_events
 	warp_event 20,  4, ROUTE_16_LOSTLORN_GATE, 3
 	warp_event 20,  5, ROUTE_16_LOSTLORN_GATE, 4
+	warp_event  4, 22, ROUTE_16_NIMBASA_GATE, 1
+	warp_event  4, 23, ROUTE_16_NIMBASA_GATE, 2
+	warp_event 29,  7, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  5, 20, BGEVENT_JUMPTEXT, Route16SignText
+	bg_event 29,  7, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_16
+	bg_event 30,  7, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_16
 	
 	def_object_events
 	object_event 18, 12, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 3, TrainerBackpackerMR16, -1

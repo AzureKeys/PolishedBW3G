@@ -89,15 +89,16 @@ DEF NUM_FISHGROUPS EQU const_value
 	const SPAWN_LACUNOSA
 	const SPAWN_UNDELLA
 	const SPAWN_LENTIMAS
+	const SPAWN_NIMBASA
 DEF NUM_SPAWNS EQU const_value
 
 DEF SPAWN_N_A EQU -1
 
 ; Flypoints indexes (see data/maps/flypoints.asm)
 	const_def
-; johto
 	const FLY_HUMILAU
 	const FLY_LACUNOSA
 	const FLY_UNDELLA
 	const FLY_LENTIMAS
+	const FLY_NIMBASA
 DEF NUM_FLYPOINTS EQU const_value

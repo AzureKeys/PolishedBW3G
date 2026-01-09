@@ -71,4 +71,5 @@ Music:
 	dba Music_LentimasTown
 	dba Music_ScaryHouse
 	dba Music_PetalburgWoods
+	dba Music_NimbasaCity
 	assert_table_length NUM_MUSIC_SONGS

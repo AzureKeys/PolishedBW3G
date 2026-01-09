@@ -92,4 +92,10 @@ INCLUDE "maps/Route16LostlornGate.asm"
 INCLUDE "maps/Route16.asm"
 
 
+SECTION "Nimbasa Scripts", ROMX
+
+INCLUDE "maps/Route16NimbasaGate.asm"
+INCLUDE "maps/NimbasaCity.asm"
+
+
 ENDSECTION
