@@ -47,6 +47,7 @@ ENDM
 	map_attributes MarineTube, MARINE_TUBE, $a, 0
 	map_attributes LentimasGym, LENTIMAS_GYM, $0, 0
 	map_attributes LostlornForest, LOSTLORN_FOREST, $4b, 0
+	map_attributes Route16, ROUTE_16, $25, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

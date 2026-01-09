@@ -183,4 +183,8 @@ SECTION "LostlornForest_BlockData", ROMX
 LostlornForest_BlockData:
 	INCBIN "maps/LostlornForest.ablk.lz"
 
+SECTION "Route16_BlockData", ROMX
+Route16_BlockData:
+	INCBIN "maps/Route16.ablk.lz"
+
 ENDSECTION

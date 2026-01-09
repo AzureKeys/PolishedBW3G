@@ -6,6 +6,8 @@ Route16LostlornGate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  4, LOSTLORN_FOREST, 2
 	warp_event  0,  5, LOSTLORN_FOREST, 3
+	warp_event  9,  4, ROUTE_16, 1
+	warp_event  9,  5, ROUTE_16, 2
 
 	def_coord_events
 
