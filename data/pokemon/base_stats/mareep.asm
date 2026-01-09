@@ -8,8 +8,8 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	abilities_for MAREEP, STATIC, STATIC, STATIC
-	db GROWTH_MEDIUM_SLOW  ; growth rate
-	dn EGG_MONSTER, EGG_GROUND  ; egg groups
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
 	ev_yield 1 SAt
 

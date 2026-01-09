@@ -21,4 +21,4 @@ AbnormalContactMoves:
 	db ROCK_THROW
 	db SEED_BOMB
 	db STONE_EDGE
-	db -1 ; Struggle does make contact
+	db -1 ; Terminator only, Struggle makes contact. Checked for directly.

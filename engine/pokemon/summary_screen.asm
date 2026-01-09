@@ -181,7 +181,7 @@ SummaryScreenInit:
 SummaryScreen_InitTiles:
 	ld hl, GFX_Summary
 	ld de, vTiles2 tile SUMMARY_TILE_START
-	lb bc, BANK(GFX_Summary), 18
+	lb bc, BANK(GFX_Summary), 21
 	call DecompressRequest2bpp
 
 	ld a, 1
@@ -467,9 +467,23 @@ SummaryScreen_InitLayout:
 	ld a, [hl]
 	and a
 	jr z, .moveTypesEnd
+	cp HIDDEN_POWER
+	jr nz, .not_hidden_power
+
+	push hl
+	push bc
+	ld hl, wTempMonDVs
+	farcall GetHiddenPowerType
+	pop bc
+	pop hl
+	jr .got_type
+
+.not_hidden_power
 	ld [wCurMove], a
 	ld hl, Moves + MOVE_TYPE
 	call GetCurMoveProperty
+	; fallthrough
+.got_type
 	ld hl, wSummaryScreenTypes - 252 + 2
 	add hl, bc
 	ld [hl], a
