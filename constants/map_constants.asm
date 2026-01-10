@@ -98,5 +98,6 @@ ENDM
 	map_const ROUTE_16,                                   18, 15 ;  2
 	map_const ROUTE_16_NIMBASA_GATE,                       5,  4 ;  3
 	map_const NIMBASA_CITY,                               23, 18 ;  4
+	map_const ROUTE_5,                                    20, 11 ;  5
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

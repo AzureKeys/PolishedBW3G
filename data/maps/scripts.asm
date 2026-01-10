@@ -90,6 +90,7 @@ SECTION "Central Unova Route Scripts", ROMX
 INCLUDE "maps/LostlornForest.asm"
 INCLUDE "maps/Route16LostlornGate.asm"
 INCLUDE "maps/Route16.asm"
+INCLUDE "maps/Route5.asm"
 
 
 SECTION "Nimbasa Scripts", ROMX

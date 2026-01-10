@@ -49,6 +49,7 @@ ENDM
 	map_attributes LostlornForest, LOSTLORN_FOREST, $4b, 0
 	map_attributes Route16, ROUTE_16, $25, 0
 	map_attributes NimbasaCity, NIMBASA_CITY, $0, 0
+	map_attributes Route5, ROUTE_5, $25, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

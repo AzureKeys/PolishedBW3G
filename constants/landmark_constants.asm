@@ -17,6 +17,7 @@
 	const LOSTLORN_FOREST    ; 0f
 	const ROUTE_16           ; 10
 	const NIMBASA_CITY       ; 11
+	const ROUTE_5            ; 2d
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
 	const BATTLE_TOWER       ; 46
