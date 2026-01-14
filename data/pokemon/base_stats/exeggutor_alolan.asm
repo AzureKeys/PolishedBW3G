@@ -29,5 +29,10 @@
 		 EXPLOSION,    \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 LOW_KICK,     ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

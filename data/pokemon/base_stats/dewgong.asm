@@ -24,5 +24,9 @@
 		 THIEF,        \ ;10
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 KNOCK_OFF,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

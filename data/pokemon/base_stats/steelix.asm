@@ -28,5 +28,10 @@
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   GYRO_BALL,    \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, ICE_FANG,     \ ;T2
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

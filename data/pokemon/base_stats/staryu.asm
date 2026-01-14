@@ -27,5 +27,8 @@
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
 		 THUNDER_WAVE, GYRO_BALL,    \ ;15
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

@@ -26,6 +26,7 @@ Basculegion (minis)
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \;14
 	     STONE_EDGE,   VOLT_SWITCH,  THUNDER_WAVE, GYRO_BALL,    SWORDS_DANCE, \;15
 	     CUT,          FLY,          SURF,         STRENGTH,     WATERFALL,    \;HM
+
 	     SEED_BOMB,    GIGA_DRAIN,   FIRE_FANG,    FIRE_PUNCH,   OVERHEAT,     \;T1
 	     AQUA_TAIL,    THUNDER_FANG, THUNDERPUNCH, SHOCK_WAVE,   ICE_FANG,     \;T2
 	     ICE_PUNCH,    ICY_WIND,     SIGNAL_BEAM,  GUNK_SHOT,    SEISMIC_TOSS, \;T3

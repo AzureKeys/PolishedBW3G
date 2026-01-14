@@ -26,5 +26,9 @@
 		 SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     \ ;T3
+		 LOW_KICK,     \ ;T4
+		 EARTH_POWER,  \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

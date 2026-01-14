@@ -28,5 +28,10 @@
 		 WILL_O_WISP,  \ ;13
 		 SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_FANG,    OVERHEAT,     \ ;T1
+		 THUNDER_FANG, \ ;T2
+		 ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ; T7
 	 ; end

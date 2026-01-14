@@ -27,5 +27,11 @@
 		 FOCUS_BLAST,  \ ;11
 		 WILL_O_WISP,  \ ;13
 		 POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   OVERHEAT,     \ ;T1
+		 THUNDERPUNCH, \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -25,5 +25,8 @@
 		 DRAGON_PULSE, \ ;12
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

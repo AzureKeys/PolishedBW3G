@@ -27,5 +27,8 @@
 		 ENERGY_BALL,  \ ;11
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  \ ;13
-		 PAYBACK,      GIGA_IMPACT,  SWAGGER ;14
+		 PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+		 FIRE_FANG,    OVERHEAT,     \ ;T1
+		 ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	  ; end

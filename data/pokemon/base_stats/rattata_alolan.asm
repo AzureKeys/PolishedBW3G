@@ -14,17 +14,22 @@
 	ev_yield 1 Spe
 
 	 ; tm/hm learnset
-	tmhm HIDDEN_POWER, \
-	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \
-	     PROTECT,      RAIN_DANCE,   \
-		 IRON_TAIL,    \
-	     RETURN,       DIG,          SHADOW_BALL,  \
-	     DOUBLE_TEAM,  \
-		 SLUDGE_BOMB,  SWIFT,        \
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \
-		 THIEF,        \
-		 DARK_PULSE,   \
-		 SHADOW_CLAW,  \
-	     PAYBACK,      U_TURN,       SWAGGER,      \
-		 CUT
+	tmhm HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 IRON_TAIL,    \ ;5
+	     RETURN,       DIG,          SHADOW_BALL,  \ ;6
+	     DOUBLE_TEAM,  \ ;7
+		 SLUDGE_BOMB,  SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        \ ;10
+		 DARK_PULSE,   \ ;12
+		 SHADOW_CLAW,  \ ;13
+	     PAYBACK,      U_TURN,       SWAGGER,      \ ;14
+		 CUT,          \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

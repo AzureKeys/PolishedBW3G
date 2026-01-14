@@ -25,5 +25,8 @@
 		 X_SCISSOR,    \ ;12
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      U_TURN,       SWAGGER,      \  ;14
-		 FLY
+		 FLY,          \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	  ; end

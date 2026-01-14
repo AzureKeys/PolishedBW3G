@@ -27,5 +27,10 @@
 		 WILD_CHARGE,  DRAGON_PULSE, \ ;12
 		 WILL_O_WISP,  \ ;13
 		 GIGA_IMPACT,  SWAGGER,      \ ;14
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_FANG,    OVERHEAT,     \ ;T1
+		 THUNDER_FANG, \ ;T2
+		 OUTRAGE,      \ ;T5
+		 IRON_HEAD,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ; T7
 	 ; end

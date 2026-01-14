@@ -28,5 +28,11 @@
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 GIGA_DRAIN,   FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    GUNK_SHOT,    \ ;T3
+		 DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 PAIN_SPLIT ; T7
 	 ; end

@@ -27,5 +27,7 @@
 		 WILL_O_WISP,  \ ;13
 		 GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_FANG,    OVERHEAT,     \ ;T1
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

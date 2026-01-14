@@ -28,5 +28,12 @@
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SEED_BOMB,    FIRE_PUNCH,   OVERHEAT,     \ ;T1
+		 THUNDERPUNCH, \ ;T2
+		 ICE_PUNCH,    GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -26,5 +26,9 @@
 		 WILL_O_WISP,  \ ;13
 		 POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 OVERHEAT,     \ ;T1
+		 LOW_KICK,     \ ;T4
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

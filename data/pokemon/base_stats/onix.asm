@@ -28,5 +28,8 @@
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
 		 STONE_EDGE,   GYRO_BALL,    \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

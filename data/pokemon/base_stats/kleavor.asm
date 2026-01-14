@@ -28,5 +28,9 @@
 		 ACROBATICS,   \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 ROOST,        \ ;T4
+		 ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

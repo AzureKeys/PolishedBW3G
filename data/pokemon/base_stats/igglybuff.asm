@@ -26,5 +26,11 @@
 		 WILD_CHARGE,  \ ;12
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 ROLLOUT,      \ ;T5
+		 PLAY_ROUGH,   DRAINING_KISS, \ ;T6
+		 HYPER_VOICE,  HEAL_BELL,    PAIN_SPLIT ;T7
 	 ; end

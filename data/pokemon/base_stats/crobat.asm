@@ -25,5 +25,9 @@
 		 X_SCISSOR,    DARK_PULSE,   HEX,          \ ;12
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
-		 FLY
+		 FLY,          \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	  ; end

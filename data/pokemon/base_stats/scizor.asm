@@ -28,5 +28,8 @@
 		 ACROBATICS,   \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 ROOST,        \ ;T4
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

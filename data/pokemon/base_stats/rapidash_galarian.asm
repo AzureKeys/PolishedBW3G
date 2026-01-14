@@ -27,5 +27,7 @@
 	     WILD_CHARGE,  \ ;12
 		 GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 LOW_KICK,     ZEN_HEADBUTT, \ ;T4
+		 PLAY_ROUGH ;T6
 	 ; end

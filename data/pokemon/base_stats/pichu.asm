@@ -25,5 +25,10 @@
 		 WILD_CHARGE,  \ ;12
 	     SWAGGER,      \ ;14
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
-		 SURF
+		 SURF,         \ ;HM
+		 THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  SEISMIC_TOSS, \ ;T3
+		 ROLLOUT,      \ ;T5
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

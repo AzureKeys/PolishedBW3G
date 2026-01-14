@@ -26,5 +26,7 @@
 		 DAZZLINGLEAM, \ ;10
 	     WILD_CHARGE,  \ ;12
 		 SWAGGER,      \ ;14
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 LOW_KICK,     ZEN_HEADBUTT, \ ;T4
+		 PLAY_ROUGH ;T6
 	 ; end

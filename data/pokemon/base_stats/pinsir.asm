@@ -26,5 +26,9 @@
 		 X_SCISSOR,    \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

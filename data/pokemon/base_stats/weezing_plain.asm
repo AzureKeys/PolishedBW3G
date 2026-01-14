@@ -26,5 +26,9 @@
 		 DARK_PULSE,   \ ;12
 		 WILL_O_WISP,  EXPLOSION,    \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 GYRO_BALL ;15
+		 GYRO_BALL,    \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 GUNK_SHOT,    \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

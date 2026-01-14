@@ -27,5 +27,12 @@
 		 WATER_PULSE,  EXPLOSION,    \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 GYRO_BALL,    SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 AQUA_TAIL,    THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 DYNAMICPUNCH, ZEN_HEADBUTT, \ ;T4
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

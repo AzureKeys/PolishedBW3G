@@ -27,5 +27,12 @@
 		 FOCUS_BLAST,  \ ;11
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 AQUA_TAIL,    THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 OUTRAGE,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -29,5 +29,10 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      U_TURN,       SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     GUNK_SHOT,    \ ;T3
+		 KNOCK_OFF,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  PAIN_SPLIT ;T7
 	 ; end

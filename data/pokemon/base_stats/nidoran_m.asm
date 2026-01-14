@@ -26,5 +26,10 @@
 		 THIEF,        \ ;10
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   SWAGGER,      \ ;14
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 EARTH_POWER,  \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

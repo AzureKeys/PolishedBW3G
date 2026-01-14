@@ -25,5 +25,9 @@
 	     WILD_CHARGE,  \ ;12
 		 WILL_O_WISP,  \ ;13
 		 SWAGGER,      \ ;14
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 OVERHEAT,     \ ;T1
+		 LOW_KICK,     \ ;T4
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

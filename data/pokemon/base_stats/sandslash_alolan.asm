@@ -29,5 +29,11 @@
 		 SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 GYRO_BALL,    SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

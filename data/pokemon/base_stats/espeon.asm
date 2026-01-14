@@ -27,5 +27,10 @@
 		 SKILL_SWAP,   \ ;11
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        \ ;T5
+		 DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

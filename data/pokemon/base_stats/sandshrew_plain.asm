@@ -29,5 +29,10 @@
 		 SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   SWAGGER,      \ ;14
 		 STONE_EDGE,   GYRO_BALL,    SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

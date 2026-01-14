@@ -26,5 +26,11 @@
 		 SKILL_SWAP,   ENERGY_BALL,  \ ;11
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  EXPLOSION,    \ ;13
-	     PAYBACK,      POISON_JAB,   SWAGGER ;14
+	     PAYBACK,      POISON_JAB,   SWAGGER,      \ ;14
+		 GIGA_DRAIN,   FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     GUNK_SHOT,    \ ;T3
+		 TRICK,        \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 PAIN_SPLIT ; T7
 	 ; end

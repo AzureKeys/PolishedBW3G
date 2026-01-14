@@ -24,5 +24,10 @@
 	     SUBSTITUTE,   FACADE,       FLAME_CHARGE, REST,         ATTRACT,      \ ;9
 	     THIEF,        \ ;10
 		 WILL_O_WISP,  \ ;13
-		 POISON_JAB,   SWAGGER ;14
+		 POISON_JAB,   SWAGGER,      \ ;14
+		 FIRE_PUNCH,   OVERHEAT,     \ ;T1
+		 THUNDERPUNCH, \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

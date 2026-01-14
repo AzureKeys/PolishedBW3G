@@ -28,5 +28,9 @@
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, GYRO_BALL,    \ ;15
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

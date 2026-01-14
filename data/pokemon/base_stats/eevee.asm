@@ -24,5 +24,6 @@
 		 SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 	     THIEF,        \ ;10
-		 SWAGGER ;14
+		 SWAGGER,      \ ;14
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

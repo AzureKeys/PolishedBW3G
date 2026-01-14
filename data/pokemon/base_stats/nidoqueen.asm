@@ -29,5 +29,12 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_FANG,    FIRE_PUNCH,   \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, THUNDERPUNCH, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  OUTRAGE,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

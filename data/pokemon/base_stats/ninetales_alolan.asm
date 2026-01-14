@@ -26,6 +26,11 @@
 		 DAZZLINGLEAM, DREAM_EATER,  \ ;10
 	     ENERGY_BALL,  \ ;11
 		 DARK_PULSE,   HEX,          \ ;12
-		 PAYBACK,      GIGA_IMPACT,  SWAGGER ;14
+		 PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+		 AQUA_TAIL,    ICE_FANG,     \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 PLAY_ROUGH,   DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HEAL_BELL,    PAIN_SPLIT ;T7
 	  ; end
 

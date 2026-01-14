@@ -19,18 +19,23 @@ endc
 	ev_yield 2 Spe
 
 	 ; tm/hm learnset
-	tmhm ROAR,         \
-	     HIDDEN_POWER, \
-	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     PROTECT,      RAIN_DANCE,   \
-		 IRON_TAIL,    THUNDERBOLT,  THUNDER,      \
-	     RETURN,       DIG,          SHADOW_BALL,  \
-	     DOUBLE_TEAM,  \
-		 SWIFT,        \
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \
-		 THIEF,        \
-		 WILD_CHARGE,  \
-	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \
-		 THUNDER_WAVE, SWORDS_DANCE, \
-		 CUT,          STRENGTH
+	tmhm ROAR,         \ ;1
+	     HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 IRON_TAIL,    THUNDERBOLT,  THUNDER,      \ ;5
+	     RETURN,       DIG,          SHADOW_BALL,  \ ;6
+	     DOUBLE_TEAM,  \ ;7
+		 SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        \ ;10
+		 WILD_CHARGE,  \ ;12
+	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
+		 THUNDER_WAVE, SWORDS_DANCE, \ ;15
+		 CUT,          STRENGTH,     \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

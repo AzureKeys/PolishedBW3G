@@ -28,5 +28,10 @@
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

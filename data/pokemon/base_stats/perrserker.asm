@@ -29,5 +29,10 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 GYRO_BALL,    SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    \ ;T1
+		 ICY_WIND,     GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    IRON_HEAD,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

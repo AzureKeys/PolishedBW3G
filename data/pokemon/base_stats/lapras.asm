@@ -26,5 +26,11 @@
 		 DRAGON_PULSE, \ ;12
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

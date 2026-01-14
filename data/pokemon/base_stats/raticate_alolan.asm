@@ -19,19 +19,24 @@ endc
 	ev_yield 2 Spe
 
 	 ; tm/hm learnset
-	tmhm ROAR,         \
-	     BULK_UP,      VENOSHOCK,    HIDDEN_POWER, \
-	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     PROTECT,      RAIN_DANCE,   \
-		 IRON_TAIL,    \
-	     RETURN,       DIG,          SHADOW_BALL,  \
-	     DOUBLE_TEAM,  \
-		 SLUDGE_BOMB,  SWIFT,        \
-	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \
-		 THIEF,        \
-		 DARK_PULSE,   \
-		 SHADOW_CLAW,  \
-	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \
-		 SWORDS_DANCE, \
-		 CUT,          STRENGTH
+	tmhm ROAR,         \ ;1
+	     BULK_UP,      VENOSHOCK,    HIDDEN_POWER, \ ;2
+	     SUNNY_DAY,    SLEEP_TALK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \ ;3
+	     PROTECT,      RAIN_DANCE,   \ ;4
+		 IRON_TAIL,    \ ;5
+	     RETURN,       DIG,          SHADOW_BALL,  \ ;6
+	     DOUBLE_TEAM,  \ ;7
+		 SLUDGE_BOMB,  SWIFT,        \ ;8
+	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
+		 THIEF,        \ ;10
+		 DARK_PULSE,   \ ;12
+		 SHADOW_CLAW,  \ ;13
+	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
+		 SWORDS_DANCE, \ ;15
+		 CUT,          STRENGTH,     \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

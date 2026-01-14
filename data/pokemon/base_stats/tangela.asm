@@ -26,5 +26,10 @@
 		 ENERGY_BALL,  \ ;11
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

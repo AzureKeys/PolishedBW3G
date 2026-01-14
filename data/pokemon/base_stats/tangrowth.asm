@@ -26,5 +26,11 @@
 		 FOCUS_BLAST,  ENERGY_BALL,  \ ;11
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end
