@@ -28,5 +28,11 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, ICE_FANG,     \ ;T2
+		 GUNK_SHOT,    \ ;T3
+		 TRICK,        \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

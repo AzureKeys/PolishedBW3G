@@ -26,5 +26,11 @@
 		 DRAGON_PULSE, \ ;12
 		 SHADOW_CLAW,  \ ;13
 	     SWAGGER,      \ ;14
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, \ ;T2
+		 ZEN_HEADBUTT, \ ;T4
+		 OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

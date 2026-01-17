@@ -27,5 +27,9 @@
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 FLY
+		 FLY,          \ ;HM
+		 ICY_WIND,     \ ;T3
+		 ROOST,        \ ;T4
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

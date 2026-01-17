@@ -24,5 +24,9 @@
 		 ROCK_SLIDE,   \ ;10
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

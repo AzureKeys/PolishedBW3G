@@ -26,5 +26,9 @@
 	     THIEF,        DREAM_EATER,  \ ;10
 		 DARK_PULSE,   \ ;12
 		 WILL_O_WISP,  \ ;13
-		 PAYBACK,      SWAGGER ;14
+		 PAYBACK,      SWAGGER,      \ ;14
+		 FIRE_FANG,    OVERHEAT,     \ ;T1
+		 THUNDER_FANG, \ ;T2
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG,   HYPER_VOICE,  PAIN_SPLIT ;T7
 	 ; end

@@ -25,5 +25,9 @@
 		 SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     \ ;T3
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

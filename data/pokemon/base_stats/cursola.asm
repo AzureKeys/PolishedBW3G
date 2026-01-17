@@ -29,5 +29,9 @@
 		 WILL_O_WISP,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 SURF
+		 SURF,         \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 ICY_WIND,     \ ;T3
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 SUCKER_PUNCH ;T6
 	 ; end

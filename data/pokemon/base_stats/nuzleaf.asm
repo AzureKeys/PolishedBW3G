@@ -28,5 +28,10 @@
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 LOW_KICK,     \ ;T4
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

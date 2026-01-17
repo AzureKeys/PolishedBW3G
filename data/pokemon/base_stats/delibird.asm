@@ -24,5 +24,9 @@
 		 THIEF,        STEEL_WING,   \ ;10
 		 ACROBATICS,   WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 FLY,          SURF,         WATERFALL
+		 FLY,          SURF,         WATERFALL,    \ ;HM
+		 SEED_BOMB,    \ ;T1
+		 ICE_PUNCH,    ICY_WIND,     SIGNAL_BEAM,  GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

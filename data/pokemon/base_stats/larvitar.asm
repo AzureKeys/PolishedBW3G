@@ -25,5 +25,8 @@
 		 ROCK_SLIDE,   \ ;10
 		 DARK_PULSE,   \ ;12
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 STONE_EDGE ;15
+		 STONE_EDGE,   \ ;15
+		 EARTH_POWER,  ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

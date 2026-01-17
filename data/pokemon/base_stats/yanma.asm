@@ -24,5 +24,10 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
 		 THIEF,        STEEL_WING,   DREAM_EATER,  \ ;10
 	     U_TURN,       SWAGGER,      \  ;14
-		 SWORDS_DANCE ;15
+		 SWORDS_DANCE, \ ;15
+		 GIGA_DRAIN,   \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 ROOST,        \ ;T4
+		 ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE ;T7
 	  ; end

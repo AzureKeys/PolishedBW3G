@@ -29,5 +29,12 @@
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, \ ;15
-		 CUT,          FLY,          SURF,         STRENGTH,     WATERFALL
+		 CUT,          FLY,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 AQUA_TAIL,    THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, ROOST,        \ ;T4
+		 OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

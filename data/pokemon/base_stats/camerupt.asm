@@ -27,5 +27,10 @@
 		 WILL_O_WISP,  EXPLOSION,    \ ;13
 		 GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 OVERHEAT,     \ ;T1
+		 ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

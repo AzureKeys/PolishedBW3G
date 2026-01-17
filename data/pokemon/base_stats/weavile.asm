@@ -29,5 +29,9 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 ICE_PUNCH,    ICY_WIND,     \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

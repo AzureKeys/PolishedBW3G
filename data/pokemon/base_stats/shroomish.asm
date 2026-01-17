@@ -24,5 +24,9 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 ENERGY_BALL,  FALSE_SWIPE,  \ ;11
 	     SWAGGER,      \ ;14
-		 SWORDS_DANCE ;15
+		 SWORDS_DANCE, \ ;15
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 GUNK_SHOT,    \ ;T3
+		 DRAIN_PUNCH,  ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

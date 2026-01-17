@@ -29,5 +29,11 @@
 		 WILL_O_WISP,  WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -27,5 +27,10 @@
 		 WILD_CHARGE,  \ ;12
 	     SWAGGER,      \ ;14
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

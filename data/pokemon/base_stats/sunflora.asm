@@ -26,5 +26,8 @@
 		 ENERGY_BALL,  \ ;11
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   FIRE_PUNCH,   OVERHEAT,     \ ;T1
+		 EARTH_POWER,  \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

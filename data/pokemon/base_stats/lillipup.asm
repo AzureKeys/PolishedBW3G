@@ -25,5 +25,9 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 WILD_CHARGE,  \ ;12
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T6
 	 ; end

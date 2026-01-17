@@ -25,5 +25,8 @@
 		 THIEF,        STEEL_WING,   \ ;10
 		 ACROBATICS,   \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
-		 FLY
+		 FLY,          \ ;HM
+		 ROOST,        \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

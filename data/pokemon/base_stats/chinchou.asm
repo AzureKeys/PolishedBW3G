@@ -27,5 +27,9 @@
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  HEAL_BELL ;T7
 	 ; end

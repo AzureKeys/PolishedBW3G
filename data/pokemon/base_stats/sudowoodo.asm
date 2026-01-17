@@ -27,5 +27,12 @@
 		 EXPLOSION,    \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, \ ;T2
+		 ICE_PUNCH,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

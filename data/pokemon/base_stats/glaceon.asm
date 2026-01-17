@@ -26,5 +26,8 @@
 		 THIEF,        \ ;10
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 AQUA_TAIL,    ICE_FANG,     \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

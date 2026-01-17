@@ -26,5 +26,10 @@
 		 THIEF,        DAZZLINGLEAM, DREAM_EATER,  \ ;10
 		 SKILL_SWAP,   \ ;11
 	     PAYBACK,      SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        \ ;T5
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

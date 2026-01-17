@@ -27,5 +27,9 @@
 		 DRAGON_PULSE, \ ;12
 		 ACROBATICS,   \ ;13
 	     SWAGGER,      \ ;14
-		 FLY
+		 FLY,          \ ;HM
+		 ROOST,        \ ;T4
+		 OUTRAGE,      \ ;T5
+		 PLAY_ROUGH,   DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

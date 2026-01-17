@@ -27,5 +27,10 @@
 		 WILL_O_WISP,  \ ;13
 		 SWAGGER,      \ ;14
 		 GYRO_BALL,    \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_FANG,    FIRE_PUNCH,   OVERHEAT,     \ ;T1
+		 ZEN_HEADBUTT, \ ;T4
+		 ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

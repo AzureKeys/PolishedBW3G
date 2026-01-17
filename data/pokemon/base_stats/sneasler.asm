@@ -29,5 +29,10 @@
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 GUNK_SHOT,    \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

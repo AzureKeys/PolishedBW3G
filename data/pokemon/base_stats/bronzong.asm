@@ -30,5 +30,9 @@
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 GYRO_BALL,    \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD ;T6
 	 ; end

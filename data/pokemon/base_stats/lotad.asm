@@ -26,5 +26,9 @@
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 SURF
+		 SURF,         \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -27,5 +27,9 @@
 		 FOCUS_BLAST,  \ ;11
 		 WILL_O_WISP,  ACROBATICS,   SHADOW_CLAW,  \ ;13
 		 PAYBACK,      SWAGGER,      \ ;14
-		 CUT
+		 CUT,          \ ;HM
+		 FIRE_FANG,    FIRE_PUNCH,   OVERHEAT,     \ ;T1
+		 GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH ;T6
 	 ; end

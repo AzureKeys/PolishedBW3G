@@ -26,5 +26,11 @@
 		 X_SCISSOR,    DARK_PULSE,   \ ;12
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, ICE_FANG,     \ ;T2
+		 GUNK_SHOT,    \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

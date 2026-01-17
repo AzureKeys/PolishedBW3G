@@ -29,5 +29,9 @@
 		 SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 GUNK_SHOT,    \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -30,5 +30,11 @@
 		 SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 EARTH_POWER,  OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

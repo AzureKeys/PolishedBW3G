@@ -24,5 +24,10 @@
 		 DARK_PULSE,   HEX,          \ ;12
 		 WATER_PULSE,  EXPLOSION,    \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 GYRO_BALL ;15
+		 GYRO_BALL,    \ ;15
+		 ICE_FANG,     \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

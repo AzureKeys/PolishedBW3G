@@ -30,5 +30,12 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \  ;14
 		 THUNDER_WAVE, SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	  ; end

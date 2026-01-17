@@ -26,5 +26,8 @@
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 SEED_BOMB,    \ ;T1
+		 ICY_WIND,     SIGNAL_BEAM,  GUNK_SHOT,    \ ;T3
+		 DOUBLE_EDGE ;T7
 	 ; end

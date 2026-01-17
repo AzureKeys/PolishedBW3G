@@ -29,5 +29,12 @@
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      POISON_JAB,   U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, ICE_FANG,     \ ;T2
+		 GUNK_SHOT,    \ ;T3
+		 ROOST,        \ ;T4
+		 EARTH_POWER,  \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

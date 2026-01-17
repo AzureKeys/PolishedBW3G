@@ -27,5 +27,9 @@
 		 ENERGY_BALL,  SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 OVERHEAT,     \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 DOUBLE_EDGE ;T7
 	 ; end

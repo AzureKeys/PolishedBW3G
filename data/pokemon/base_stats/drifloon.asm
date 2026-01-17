@@ -30,5 +30,10 @@
 		 WILL_O_WISP,  ACROBATICS,   EXPLOSION,    \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
 		 THUNDER_WAVE, GYRO_BALL,    \ ;15
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 TRICK,        ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 PAIN_SPLIT ;T7
 	 ; end

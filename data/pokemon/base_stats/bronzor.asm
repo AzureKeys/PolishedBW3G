@@ -28,5 +28,9 @@
 		 SKILL_SWAP,   \ ;11
 		 HEX,          \ ;12
 	     PAYBACK,      SWAGGER,      \ ;14
-		 GYRO_BALL ;15
+		 GYRO_BALL,    \ ;15
+		 SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD ;T6
 	 ; end

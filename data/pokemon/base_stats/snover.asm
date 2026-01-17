@@ -24,5 +24,8 @@
 		 ENERGY_BALL,  \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 SWORDS_DANCE ;15
+		 SWORDS_DANCE, \ ;15
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 DOUBLE_EDGE ;T7
 	 ; end

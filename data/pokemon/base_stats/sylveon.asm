@@ -26,5 +26,7 @@
 		 THIEF,        DAZZLINGLEAM, \ ;10
 		 SKILL_SWAP,   \ ;11
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 CUT
+		 CUT,          \ ;HM
+		 PLAY_ROUGH,   DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

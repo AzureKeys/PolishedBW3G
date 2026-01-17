@@ -26,5 +26,9 @@
 		 FOCUS_BLAST,  SCALD,        \ ;11
 		 ACROBATICS,   WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
-		 CUT,          SURF,         WATERFALL
+		 CUT,          SURF,         WATERFALL,    \ ;HM
+		 AQUA_TAIL,    ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH ;T6
 	 ; end

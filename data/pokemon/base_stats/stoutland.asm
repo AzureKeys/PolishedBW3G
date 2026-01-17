@@ -26,5 +26,9 @@
 		 WILD_CHARGE,  \ ;12
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 SURF,         STRENGTH
+		 SURF,         STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 IRON_HEAD,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T6
 	 ; end

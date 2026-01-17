@@ -26,5 +26,9 @@
 		 SCALD,        \ ;11
 		 ACROBATICS,   WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROOST,        \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

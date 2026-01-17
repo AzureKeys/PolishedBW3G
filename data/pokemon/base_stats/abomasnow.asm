@@ -26,5 +26,10 @@
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -25,5 +25,10 @@
 		 SKILL_SWAP,   \ ;11
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  WATER_PULSE,  \ ;13
-	     PAYBACK,      GIGA_IMPACT,  SWAGGER ;14
+	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 TRICK,        \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 PAIN_SPLIT
 	 ; end

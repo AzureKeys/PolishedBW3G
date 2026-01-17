@@ -30,5 +30,8 @@ endc
 		 WATER_PULSE,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 SEED_BOMB,    \ ;T1
+		 ICY_WIND,     SIGNAL_BEAM,  GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 DOUBLE_EDGE ;T7
 	 ; end

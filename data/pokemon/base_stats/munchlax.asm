@@ -25,5 +25,11 @@
 		 THIEF,        ROCK_SLIDE,   \ ;10
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 SURF,         STRENGTH
+		 SURF,         STRENGTH,     \ ;HM
+		 SEED_BOMB,    FIRE_FANG,    FIRE_PUNCH,   \ ;T1
+		 THUNDER_FANG, THUNDERPUNCH, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

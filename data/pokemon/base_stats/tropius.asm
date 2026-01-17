@@ -28,5 +28,9 @@
 		 DRAGON_PULSE, \ ;12
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          FLY,          STRENGTH
+		 CUT,          FLY,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ROOST,        \ ;T4
+		 OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	  ; end

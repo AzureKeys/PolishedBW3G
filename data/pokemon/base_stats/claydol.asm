@@ -29,5 +29,9 @@
 		 EXPLOSION,    \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   GYRO_BALL,    \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        EARTH_POWER,  ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

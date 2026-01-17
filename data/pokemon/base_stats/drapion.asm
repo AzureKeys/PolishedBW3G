@@ -28,5 +28,10 @@
 		 X_SCISSOR,    DARK_PULSE,   \ ;12
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, ICE_FANG,     \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE
 	 ; end

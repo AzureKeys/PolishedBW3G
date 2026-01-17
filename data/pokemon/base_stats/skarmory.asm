@@ -26,5 +26,9 @@
 		 X_SCISSOR,    DARK_PULSE,   \ ;12
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 ICY_WIND,     \ ;T3
+		 ROOST,        \ ;T4
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

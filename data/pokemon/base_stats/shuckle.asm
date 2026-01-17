@@ -25,5 +25,9 @@
 		 ROCK_SLIDE,   \ ;10
 	     SWAGGER,      \ ;14
 		 STONE_EDGE,   GYRO_BALL,    \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SIGNAL_BEAM,  \ ;T3
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

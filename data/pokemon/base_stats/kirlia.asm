@@ -27,5 +27,12 @@
 		 SKILL_SWAP,   \ ;11
 		 WILL_O_WISP,  \ ;13
 	     SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        \ ;T5
+		 KNOCK_OFF,    DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  PAIN_SPLIT ;T7
 	 ; end

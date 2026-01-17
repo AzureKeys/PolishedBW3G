@@ -22,5 +22,9 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 HEX,          \ ;12
 		 WATER_PULSE,  \ ;13
-	     SWAGGER ;14
+	     SWAGGER,      \ ;14
+		 ICE_FANG,     \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

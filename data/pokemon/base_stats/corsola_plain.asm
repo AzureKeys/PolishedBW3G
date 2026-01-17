@@ -28,5 +28,9 @@
 		 WATER_PULSE,  EXPLOSION,    \ ;13
 	     SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 ICY_WIND,     \ ;T3
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

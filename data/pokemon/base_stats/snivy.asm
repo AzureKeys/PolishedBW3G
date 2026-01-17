@@ -26,5 +26,10 @@
 		 ENERGY_BALL,  \ ;11
 	     SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 AQUA_TAIL,    \ ;T2
+		 OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

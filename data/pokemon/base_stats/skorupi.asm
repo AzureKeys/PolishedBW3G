@@ -28,5 +28,7 @@
 		 X_SCISSOR,    DARK_PULSE,   \ ;12
 	     PAYBACK,      POISON_JAB,   SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 KNOCK_OFF ;T6
 	 ; end

@@ -28,5 +28,10 @@
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 TRICK,        \ ;T5
+		 SUCKER_PUNCH, DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL,    PAIN_SPLIT ;T7
 	 ; end

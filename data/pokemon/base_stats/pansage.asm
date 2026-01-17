@@ -26,5 +26,9 @@
 		 FOCUS_BLAST,  ENERGY_BALL,  \ ;11
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH ;T6
 	 ; end

@@ -28,5 +28,9 @@
 		 HEX,          \ ;12
 		 EXPLOSION,    \ ;13
 	     SWAGGER,      \ ;14
-		 GYRO_BALL ;15
+		 GYRO_BALL,    \ ;15
+		 SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        EARTH_POWER,  ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end

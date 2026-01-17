@@ -25,5 +25,10 @@
 		 SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \  ;14
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	  ; end

@@ -26,5 +26,10 @@
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    ICE_FANG,     \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

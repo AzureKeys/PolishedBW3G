@@ -25,5 +25,10 @@
 		 HEX,          \ ;12
 		 WILL_O_WISP,  WATER_PULSE,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 TRICK,        ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH, DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

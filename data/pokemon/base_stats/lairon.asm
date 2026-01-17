@@ -28,5 +28,9 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

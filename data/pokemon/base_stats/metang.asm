@@ -27,5 +27,11 @@
 		 EXPLOSION,    \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 GYRO_BALL,    \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 THUNDERPUNCH, \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 DYNAMICPUNCH, ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      \ ;T5
+	     IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

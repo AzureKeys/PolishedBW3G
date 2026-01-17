@@ -28,5 +28,10 @@
 		 WATER_PULSE,  \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH,     WATERFALL
+		 CUT,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

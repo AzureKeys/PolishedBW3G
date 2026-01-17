@@ -25,5 +25,10 @@
 		 ROCK_SLIDE,   \ ;10
 	     SWAGGER,      \  ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 GIGA_DRAIN,   FIRE_FANG,    \ ;T1
+		 THUNDER_FANG, \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 EARTH_POWER,  \ ;T5
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	  ; end

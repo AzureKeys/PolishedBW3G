@@ -29,5 +29,11 @@
 		 WILL_O_WISP,  EXPLOSION,    \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ICY_WIND,     \ ;T3
+		 LOW_KICK,     \ ;T4
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -29,5 +29,11 @@
 		 X_SCISSOR,    \ ;12
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   SWAGGER,      \ ;14
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 DYNAMICPUNCH, \ ;T4
+		 SUCKER_PUNCH, PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

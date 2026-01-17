@@ -24,5 +24,9 @@
 		 ENERGY_BALL,  FALSE_SWIPE,  \ ;11
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
-		 SWORDS_DANCE ;15
+		 SWORDS_DANCE, \ ;15
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

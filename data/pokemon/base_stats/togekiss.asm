@@ -27,5 +27,11 @@
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 FLY
+		 FLY,          \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  SEISMIC_TOSS, \ ;T3
+		 DRAIN_PUNCH,  ROOST,        ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 PLAY_ROUGH,   DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

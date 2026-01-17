@@ -26,5 +26,9 @@
 		 THIEF,        ROCK_SLIDE,   \ ;10
 		 EXPLOSION,    \ ;13
 	     SWAGGER,      \ ;14
-		 STONE_EDGE ;15
+		 STONE_EDGE,   \ ;15
+		 LOW_KICK,     \ ;T4
+		 EARTH_POWER,  ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

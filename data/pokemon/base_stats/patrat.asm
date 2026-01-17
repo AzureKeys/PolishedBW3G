@@ -23,5 +23,11 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 	     SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    \ ;T1
+		 AQUA_TAIL,    SHOCK_WAVE,   \ ;T2
+		 GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     ZEN_HEADBUTT, \ ;T4
+		 SUCKER_PUNCH, \ ;T6
+		 SUPER_FANG ;T7
 	 ; end

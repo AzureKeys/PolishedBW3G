@@ -26,5 +26,8 @@
 		 X_SCISSOR,    HEX,          \ ;12
 		 ACROBATICS,   \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 SIGNAL_BEAM,  \ ;T3
+		 ROOST,        \ ;T4
+		 DOUBLE_EDGE ;T7
 	  ; end

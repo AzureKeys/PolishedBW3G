@@ -26,5 +26,7 @@
 		 ENERGY_BALL,  \ ;11
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 KNOCK_OFF ;T6
 	 ; end

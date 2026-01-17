@@ -27,5 +27,11 @@
 		 DRAGON_PULSE, \ ;12
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 STONE_EDGE,   \ ;15
-		 FLY,          STRENGTH
+		 FLY,          STRENGTH,     \ ;HM
+		 GIGA_DRAIN,   FIRE_FANG,    FIRE_PUNCH,   \ ;T1
+		 THUNDER_FANG, THUNDERPUNCH, \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 ROOST,        \ ;T4
+		 EARTH_POWER,  OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	  ; end

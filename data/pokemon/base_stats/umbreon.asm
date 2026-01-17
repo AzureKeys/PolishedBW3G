@@ -28,5 +28,7 @@
 		 DARK_PULSE,   \ ;12
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

@@ -14,5 +14,6 @@
 	ev_yield 1 Def
 
 	 ; tm/hm learnset
-	tmhm
+	tmhm ZEN_HEADBUTT, \ ;T4
+	     IRON_HEAD ;T6
 	 ; end

@@ -26,5 +26,10 @@
 		 ROCK_SLIDE,   \ ;10
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 ICE_FANG,     \ ;T2
+		 ICY_WIND,     \ ;T3
+		 EARTH_POWER,  ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

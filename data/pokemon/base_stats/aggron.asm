@@ -30,5 +30,12 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, \ ;15
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 AQUA_TAIL,    THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end
