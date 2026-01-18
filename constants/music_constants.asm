@@ -76,4 +76,5 @@ DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)
 	const_def $ff, -1
+	const MUSIC_FILLER_ALTERNATE
 DEF FIRST_ALT_MUSIC EQU const_value + 1
