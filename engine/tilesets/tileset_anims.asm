@@ -47,6 +47,7 @@ TilesetNimbasaAnim::
 	dw NULL,  IncWaterFrame
 	dw NULL,  DoneTileAnimation
 
+TilesetHouse1Anim::
 TilesetPortAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -117,36 +118,16 @@ TilesetEliteFourRoomAnim::
 	dw NULL,  DoneTileAnimation
 
 TilesetCaveAnim::
-	dw NULL,  LavaBubbleAnim4
-	dw NULL,  DoNothing
-	dw NULL,  LavaBubbleAnim3
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw vTiles2 tile $25, WriteTileToBuffer
+	dw vTiles2 tile $14, WriteTileToBuffer
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw vTiles2 tile $4e, ScrollTileUp
-	dw vTiles2 tile $4f, ScrollTileDown
-	dw vTiles2 tile $5e, ScrollTileLeft
-	dw vTiles2 tile $5f, ScrollTileRight
+	dw vTiles2 tile $40, ScrollTileDown
 	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $25, ReadTileFromBuffer
+	dw vTiles2 tile $14, ReadTileFromBuffer
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  DoNothing
 	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $26, WriteTileToBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $4e, ScrollTileUp
-	dw vTiles2 tile $4f, ScrollTileDown
-	dw vTiles2 tile $5e, ScrollTileLeft
-	dw vTiles2 tile $5f, ScrollTileRight
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $26, ReadTileFromBuffer
+	dw vTiles2 tile $40, ScrollTileDown
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  DoneTileAnimation
 
@@ -175,7 +156,6 @@ TilesetWarehouseAnim::
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
-TilesetHouse1Anim::
 TilesetPokeCenterAnim::
 TilesetGateAnim::
 TilesetLabAnim::
