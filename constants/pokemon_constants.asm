@@ -613,7 +613,7 @@ DEF PALDEAN_FORM EQU 5
 	ext_const_def 2
 	ext_const ENAMORUS_THERIAN_FORM ; 1de (2)
 
-DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
+DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2f
 
 ; these constants include EGG and a dummy entry as species
 DEF NUM_UNIQUE_POKEMON EQU const_value - 1 ; 1de

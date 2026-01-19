@@ -86,4 +86,3 @@ ENDM
 	map_attributes BattleTowerElevator, BATTLE_TOWER_ELEVATOR, $0, 0
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $0, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $5, 0
-	

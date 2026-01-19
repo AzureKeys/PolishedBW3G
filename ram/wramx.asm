@@ -1094,8 +1094,24 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 162 ; unused
+wOvercastRandomDay:: db
+wOvercastCurIntensity:: db
+wOvercastRandomMaps::
+wOvercastRandomMapIntensityJohto1:: db
+wOvercastRandomMapGroupJohto1:: db
+wOvercastRandomMapNumberJohto1:: db
+wOvercastRandomMapIntensityJohto2:: db
+wOvercastRandomMapGroupJohto2:: db
+wOvercastRandomMapNumberJohto2:: db
+wOvercastRandomMapIntensityKanto1:: db
+wOvercastRandomMapGroupKanto1:: db
+wOvercastRandomMapNumberKanto1:: db
+wOvercastRandomMapIntensityKanto2:: db
+wOvercastRandomMapGroupKanto2:: db
+wOvercastRandomMapNumberKanto2:: db
 
+	ds 147 ; unused
+	
 wCandyAmounts::
 wExpCandyXSAmount:: db
 wExpCandySAmount:: db
@@ -1516,7 +1532,7 @@ wDexAreaLastMode:: db
 
 	; Used to align wDexAreaMons. Feel free to add more data here, just don't
 	; let wDexAreaMons be misaligned (an assert will tell you if you do).
-	ds 4
+	ds 3
 
 ALIGN 8
 wDexAreaMons::
