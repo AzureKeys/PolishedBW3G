@@ -24,5 +24,11 @@
 		 FOCUS_BLAST,  \ ;11
 	     PAYBACK,      POISON_JAB,   SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_PUNCH,   \ ;T1
+		 THUNDERPUNCH, \ ;T2
+		 ICE_PUNCH,    SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

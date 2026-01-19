@@ -28,5 +28,10 @@
 		 DARK_PULSE,   \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 FLY
+		 FLY,          \ ;TM
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ANCIENTPOWER, \ ;T5
+		 
 	 ; end

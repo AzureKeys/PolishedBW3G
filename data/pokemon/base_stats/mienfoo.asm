@@ -27,5 +27,10 @@
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      POISON_JAB,   U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

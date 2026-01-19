@@ -25,5 +25,9 @@
 		 SCALD,        \ ;11
 		 ACROBATICS,   WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 FLY,          SURF,         WATERFALL
+		 FLY,          SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     \ ;T3
+		 ROOST,        \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

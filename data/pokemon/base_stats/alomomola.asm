@@ -24,5 +24,9 @@
 		 SKILL_SWAP,   SCALD,        \ ;11
 		 ACROBATICS,   WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 KNOCK_OFF,    PLAY_ROUGH,   DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

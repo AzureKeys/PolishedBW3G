@@ -28,5 +28,12 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, SHOCK_WAVE,   \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

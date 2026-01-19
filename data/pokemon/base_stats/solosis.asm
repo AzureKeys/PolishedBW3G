@@ -27,5 +27,10 @@
 		 SKILL_SWAP,   ENERGY_BALL,  \ ;11
 		 EXPLOSION,    \ ;13
 	     SWAGGER,      \ ;14
-		 THUNDER_WAVE, GYRO_BALL ;15
+		 THUNDER_WAVE, GYRO_BALL,    \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ROLLOUT,      \ ;T5
+		 PAIN_SPLIT ;T7
 	 ; end

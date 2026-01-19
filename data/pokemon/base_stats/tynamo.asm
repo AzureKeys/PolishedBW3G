@@ -14,5 +14,7 @@
 	ev_yield 1 Spe
 
 	  ; tm/hm learnset
-	tmhm THUNDER_WAVE
+	tmhm THUNDER_WAVE, \ ;15
+	     SHOCK_WAVE,   \ ;T2
+		 KNOCK_OFF ;T6
 	  ; end

@@ -25,5 +25,10 @@
 		 WILD_CHARGE,  \ ;12
 		 ACROBATICS,   \ ;13
 	     U_TURN,       SWAGGER,      \ ;14
-		 VOLT_SWITCH,  THUNDER_WAVE ;15
+		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
+		 GIGA_DRAIN,   FIRE_FANG,    \ ;T1
+	     AQUA_TAIL,    THUNDER_FANG, SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 KNOCK_OFF,    \ ;T6
+		 SUPER_FANG ;T7
 	 ; end

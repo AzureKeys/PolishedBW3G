@@ -25,5 +25,9 @@
 		 STEEL_WING,   ROCK_SLIDE,   \ ;10
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
-		 CUT,          FLY,          STRENGTH
+		 CUT,          FLY,          STRENGTH,     \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

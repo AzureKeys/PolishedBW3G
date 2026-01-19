@@ -25,5 +25,9 @@
 		 WILD_CHARGE,  \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ZEN_HEADBUTT, \ ;T4
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

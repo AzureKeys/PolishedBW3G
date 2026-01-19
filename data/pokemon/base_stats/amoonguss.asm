@@ -24,5 +24,9 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 ENERGY_BALL,  \ ;11
 		 HEX,          \ ;12
-	     PAYBACK,      GIGA_IMPACT,  SWAGGER ;14
+	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

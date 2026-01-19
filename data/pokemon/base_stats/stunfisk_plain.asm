@@ -27,5 +27,9 @@
 		 WATER_PULSE,  \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, \ ;15
-		 SURF
+		 SURF,         \ ;HM
+		 AQUA_TAIL,    SHOCK_WAVE,   \ ;T2
+		 EARTH_POWER,  \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

@@ -22,5 +22,10 @@
 		 SLUDGE_BOMB,  SANDSTORM,    SWIFT,        \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 FOCUS_BLAST,  ENERGY_BALL,  \ ;11
-	     GIGA_IMPACT,  U_TURN,       SWAGGER ;14
+	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
+		 GIGA_DRAIN,   \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 DRAIN_PUNCH,  \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -25,5 +25,7 @@
 		 ENERGY_BALL,  \ ;11
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 HEAL_BELL ;T7
 	 ; end

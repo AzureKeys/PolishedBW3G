@@ -23,5 +23,8 @@
 		 SLUDGE_BOMB,  \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 ENERGY_BALL,  \ ;11
-	     PAYBACK,      SWAGGER ;14
+	     PAYBACK,      SWAGGER,      \ ;14
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ROLLOUT,      \ ;T5
+		 SUCKER_PUNCH ;T6
 	 ; end

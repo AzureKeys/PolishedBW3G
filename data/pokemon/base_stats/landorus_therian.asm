@@ -28,5 +28,10 @@
 		 ACROBATICS,   EXPLOSION,    \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 FLY,          STRENGTH
+		 FLY,          STRENGTH,     \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

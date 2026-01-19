@@ -24,5 +24,8 @@
 		 SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \  ;14
-		 SURF
+		 SURF,         \ ;HM
+		 ICY_WIND,     \ ;T3
+		 EARTH_POWER,  \ ;T5
+		 HYPER_VOICE ;T7
 	  ; end

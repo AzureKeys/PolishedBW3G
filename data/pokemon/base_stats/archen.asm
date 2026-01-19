@@ -29,5 +29,10 @@
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

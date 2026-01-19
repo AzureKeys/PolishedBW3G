@@ -25,5 +25,10 @@
 	     SUBSTITUTE,   FACADE,       FLAME_CHARGE, REST,         ATTRACT,      \ ;9
 	     WILD_CHARGE,  \ ;12
 		 GIGA_IMPACT,  SWAGGER,      \ ;14
-		 VOLT_SWITCH,  THUNDER_WAVE ;15
+		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
+		 OVERHEAT,     \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 LOW_KICK,     \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

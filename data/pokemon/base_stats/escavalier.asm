@@ -25,5 +25,9 @@
 		 X_SCISSOR,    \ ;12
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

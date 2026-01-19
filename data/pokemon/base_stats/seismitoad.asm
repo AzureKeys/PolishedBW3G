@@ -26,5 +26,10 @@
 		 FOCUS_BLAST,  SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \  ;14
-		 SURF,         STRENGTH,     WATERFALL
+		 SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DRAIN_PUNCH,  DYNAMICPUNCH, \ ;T4
+		 EARTH_POWER,  \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	  ; end

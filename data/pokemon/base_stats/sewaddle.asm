@@ -25,5 +25,7 @@
 		 DREAM_EATER,  \ ;10
 		 ENERGY_BALL,  \ ;11
 	     PAYBACK,      SWAGGER,      \ ;14
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 SIGNAL_BEAM ;T3
 	 ; end

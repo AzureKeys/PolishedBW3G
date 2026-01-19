@@ -28,5 +28,12 @@
 		 EXPLOSION,    SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  GUNK_SHOT,    \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

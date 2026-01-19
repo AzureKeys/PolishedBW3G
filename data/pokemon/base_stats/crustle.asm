@@ -28,5 +28,8 @@
 		 SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

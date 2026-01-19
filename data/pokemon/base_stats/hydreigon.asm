@@ -29,5 +29,12 @@
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, \ ;15
-		 FLY,          SURF,         STRENGTH
+		 FLY,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 SIGNAL_BEAM,  SEISMIC_TOSS, \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  OUTRAGE,      \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

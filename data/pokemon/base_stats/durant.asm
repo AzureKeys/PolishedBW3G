@@ -29,5 +29,8 @@
 		 SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 THUNDER_FANG, \ ;T2
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	 ; end

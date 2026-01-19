@@ -25,5 +25,8 @@
 		 THIEF,        STEEL_WING,   \ ;10
 		 DARK_PULSE,   \ ;12
 	     PAYBACK,      U_TURN,       SWAGGER,      \  ;14
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 ROOST,        \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	  ; end

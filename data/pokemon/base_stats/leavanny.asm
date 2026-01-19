@@ -29,5 +29,10 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 LOW_KICK,     \ ;T4
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE,  HEAL_BELL ;T7
 	 ; end

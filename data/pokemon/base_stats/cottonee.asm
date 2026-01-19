@@ -24,5 +24,7 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 DAZZLINGLEAM, DREAM_EATER,  \ ;10
 		 ENERGY_BALL,  \ ;11
-	     SWAGGER ;14
+	     SWAGGER,      \ ;14
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 KNOCK_OFF ;T6
 	 ; end

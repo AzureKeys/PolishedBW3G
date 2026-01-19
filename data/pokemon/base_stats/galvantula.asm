@@ -27,5 +27,9 @@
 		 X_SCISSOR,    WILD_CHARGE,  \ ;12
 	     POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 THUNDER_FANG, SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 SUCKER_PUNCH ;T6
 	 ; end

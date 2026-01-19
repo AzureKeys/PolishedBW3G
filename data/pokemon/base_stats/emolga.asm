@@ -27,5 +27,9 @@
 		 ACROBATICS,   \ ;13
 	     U_TURN,       SWAGGER,      \ ;14
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 ROOST,        \ ;T4
+		 KNOCK_OFF ;T6
 	 ; end

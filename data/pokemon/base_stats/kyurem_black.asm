@@ -29,5 +29,11 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT,          FLY,          STRENGTH
+		 CUT,          FLY,          STRENGTH,     \ ;HM
+		 ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

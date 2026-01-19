@@ -25,5 +25,8 @@
 		 SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     SWAGGER,      \ ;14
-		 FLY,          SURF
+		 FLY,          SURF,         \ ;HM
+		 ICY_WIND,     \ ;T3
+		 ROOST,        \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

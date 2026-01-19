@@ -25,5 +25,10 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 THIEF,        DAZZLINGLEAM, \ ;10
 	     U_TURN,       SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SEED_BOMB,    \ ;T1
+		 AQUA_TAIL,    SHOCK_WAVE,   \ ;T2
+		 GUNK_SHOT,    \ ;T3
+		 KNOCK_OFF,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG,   HYPER_VOICE ;T7
 	 ; end

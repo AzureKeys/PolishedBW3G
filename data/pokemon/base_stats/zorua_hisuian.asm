@@ -27,5 +27,9 @@
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
-		 CUT
+		 CUT,          \ ;HM
+		 ICY_WIND,     \ ;T3
+		 TRICK,        ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  PAIN_SPLIT ;T7
 	  ; end

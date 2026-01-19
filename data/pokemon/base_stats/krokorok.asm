@@ -28,5 +28,12 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 EARTH_POWER,  \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

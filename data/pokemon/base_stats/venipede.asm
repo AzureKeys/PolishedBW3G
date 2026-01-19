@@ -24,5 +24,8 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
 		 HEX,          \ ;12
 	     PAYBACK,      POISON_JAB,   SWAGGER,      \  ;14
-		 GYRO_BALL ;15
+		 GYRO_BALL,    \ ;15
+		 SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	  ; end

@@ -30,5 +30,9 @@
 		 WILL_O_WISP,  SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT,          FLY,          STRENGTH
+		 CUT,          FLY,          STRENGTH,     \ ;HM
+		 FIRE_FANG,    OVERHEAT,     \ ;T1
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

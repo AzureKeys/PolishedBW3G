@@ -25,5 +25,10 @@
 		 DARK_PULSE,   DRAGON_PULSE, \ ;12
 	     SWAGGER,      \ ;14
 		 THUNDER_WAVE, \ ;15
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 FIRE_FANG,    \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, SHOCK_WAVE,   ICE_FANG,     \ ;T2
+		 ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	 ; end

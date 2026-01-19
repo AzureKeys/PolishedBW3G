@@ -27,5 +27,10 @@
 		 WATER_PULSE,  \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH,     WATERFALL
+		 CUT,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 ICY_WIND,     \ ;T3
+		 LOW_KICK,     ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  \ ;T5
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

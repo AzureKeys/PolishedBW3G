@@ -25,5 +25,9 @@
 	     SUBSTITUTE,   FACADE,       FLAME_CHARGE, REST,         \ ;9
 		 WILD_CHARGE,  \ ;12
 		 WILL_O_WISP,  ACROBATICS,   \ ;13
-	     U_TURN,       SWAGGER ;14
+	     U_TURN,       SWAGGER,      \ ;14
+		 GIGA_DRAIN,   FIRE_FANG,    OVERHEAT,     \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -24,5 +24,10 @@
 		 THIEF,        \ ;10
 		 DARK_PULSE,   \ ;12
 		 EXPLOSION,    \ ;13
-	     PAYBACK,      POISON_JAB,   SWAGGER  ;14
+	     PAYBACK,      POISON_JAB,   SWAGGER,      \  ;14
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 GUNK_SHOT,    \ ;T3
+		 DRAIN_PUNCH,  \ ;T4
+		 ROLLOUT,      \ ;T5
+		 PAIN_SPLIT ;T7
 	  ; end

@@ -30,5 +30,11 @@
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
 		 STONE_EDGE,   \ ;15
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 SEISMIC_TOSS, \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 EARTH_POWER,  ANCIENTPOWER, OUTRAGE,      \ ;T5
+		 KNOCK_OFF,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

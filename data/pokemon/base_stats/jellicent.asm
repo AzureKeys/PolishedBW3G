@@ -26,5 +26,10 @@
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 SURF,         WATERFALL
+		 SURF,         WATERFALL,    \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     \ ;T3
+		 TRICK,        \ ;T5
+		 PAIN_SPLIT ;T7
 	 ; end

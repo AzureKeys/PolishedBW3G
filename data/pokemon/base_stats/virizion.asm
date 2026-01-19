@@ -27,5 +27,8 @@
 		 X_SCISSOR,    \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \  ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE ;T7
 	  ; end

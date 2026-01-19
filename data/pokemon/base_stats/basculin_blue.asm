@@ -24,5 +24,9 @@
 		 SCALD,        \ ;11
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 CUT,          SURF,         WATERFALL
+		 CUT,          SURF,         WATERFALL,    \ ;HM
+		 AQUA_TAIL,    ICE_FANG,     \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

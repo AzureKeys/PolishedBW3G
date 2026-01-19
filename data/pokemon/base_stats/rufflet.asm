@@ -25,5 +25,7 @@
 		 STEEL_WING,   ROCK_SLIDE,   \ ;10
 		 ACROBATICS,   SHADOW_CLAW,  \ ;13
 	     U_TURN,       SWAGGER,      \ ;14
-		 CUT,          FLY,          STRENGTH
+		 CUT,          FLY,          STRENGTH,     \ ;HM
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

@@ -27,5 +27,10 @@
 		 DARK_PULSE,   \ ;12
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
-		 FLY,          STRENGTH
+		 FLY,          STRENGTH,     \ ;HM
+		 ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 DYNAMICPUNCH, ROOST,        \ ;T4
+		 ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	  ; end

@@ -25,5 +25,10 @@
 	     SUBSTITUTE,   FACADE,       REST,         \ ;9
 		 WILD_CHARGE,  \ ;12
 	     SWAGGER,      \ ;14
-		 VOLT_SWITCH,  THUNDER_WAVE, GYRO_BALL ;15
+		 VOLT_SWITCH,  THUNDER_WAVE, GYRO_BALL,    \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      \ ;T5
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

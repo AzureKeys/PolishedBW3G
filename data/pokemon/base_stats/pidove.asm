@@ -23,5 +23,7 @@
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 STEEL_WING,   \ ;10
 	     U_TURN,       SWAGGER,      \ ;14
-		 FLY
+		 FLY,          \ ;HM
+		 ROOST,        \ ;T4
+		 DOUBLE_EDGE ;T7
 	 ; end

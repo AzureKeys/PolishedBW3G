@@ -24,5 +24,7 @@
 		 DREAM_EATER,  \ ;10
 		 ENERGY_BALL,  \ ;11
 	     SWAGGER,      \ ;14
-		 CUT
+		 CUT,          \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 HEAL_BELL ;T7
 	 ; end

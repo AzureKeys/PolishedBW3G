@@ -27,5 +27,8 @@
 		 X_SCISSOR,    \ ;12
 	     POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   VOLT_SWITCH,  THUNDER_WAVE, SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 ZEN_HEADBUTT, \ ;T4
+		 IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

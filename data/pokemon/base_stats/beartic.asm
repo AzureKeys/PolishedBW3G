@@ -29,5 +29,10 @@
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 STONE_EDGE,   SWORDS_DANCE, \ ;15
-		 CUT,          SURF,         STRENGTH,     WATERFALL
+		 CUT,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
+		 ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     DYNAMICPUNCH, \ ;T4
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

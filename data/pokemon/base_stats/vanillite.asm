@@ -21,5 +21,8 @@
 	     DOUBLE_TEAM,  REFLECT,      \  ;7
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \  ;9
 		 WATER_PULSE,  EXPLOSION,    \ ;13
-	     SWAGGER  ;14
+	     SWAGGER,      \  ;14
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE,  HYPER_VOICE ;T7
 	  ; end

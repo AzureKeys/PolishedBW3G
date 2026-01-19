@@ -28,5 +28,9 @@
 		 EXPLOSION,    SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \ ;14
 		 THUNDER_WAVE, GYRO_BALL,    SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

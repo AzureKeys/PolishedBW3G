@@ -23,5 +23,10 @@
 		 AERIAL_ACE,   \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 ENERGY_BALL,  \ ;11
-	     POISON_JAB,   SWAGGER ;14
+	     POISON_JAB,   SWAGGER,      \ ;14
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 SEISMIC_TOSS, \ ;T3
+		 DRAIN_PUNCH,  \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  HEAL_BELL ;T7
 	 ; end

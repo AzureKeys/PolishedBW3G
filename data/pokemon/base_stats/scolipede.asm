@@ -26,5 +26,9 @@
 		 X_SCISSOR,    HEX,          \ ;12
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 GYRO_BALL,    SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 AQUA_TAIL,    \ ;T2
+		 SIGNAL_BEAM,  GUNK_SHOT,    \ ;T3
+		 ROLLOUT,      \ ;T5
+		 DOUBLE_EDGE ;T7
 	  ; end

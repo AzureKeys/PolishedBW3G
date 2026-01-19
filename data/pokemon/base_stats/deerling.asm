@@ -24,5 +24,9 @@
 		 ENERGY_BALL,  \ ;11
 		 WILD_CHARGE,  \ ;12
 	     SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ZEN_HEADBUTT, \ ;T4
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

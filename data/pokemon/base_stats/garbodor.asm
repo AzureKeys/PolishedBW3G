@@ -27,5 +27,10 @@
 		 DARK_PULSE,   \ ;12
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      POISON_JAB,   GIGA_IMPACT,  SWAGGER,      \  ;14
-		 STRENGTH
+		 STRENGTH,     \ ;HM
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 DRAIN_PUNCH,  \ ;T4
+		 ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	  ; end

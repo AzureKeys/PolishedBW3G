@@ -28,5 +28,9 @@
 		 SHADOW_CLAW,  \ ;13
 	     POISON_JAB,   SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT,          STRENGTH
+		 CUT,          STRENGTH,     \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 EARTH_POWER,  \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

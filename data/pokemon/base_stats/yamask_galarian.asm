@@ -28,5 +28,9 @@
 		 SKILL_SWAP,   ENERGY_BALL,  \ ;11
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  \ ;13
-	     PAYBACK,      SWAGGER  ;14
+	     PAYBACK,      SWAGGER,      \ ;14
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        EARTH_POWER,  ROLLOUT,      ANCIENTPOWER, \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 PAIN_SPLIT ;T7
 	  ; end

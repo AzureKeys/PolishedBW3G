@@ -26,5 +26,10 @@
 		 SKILL_SWAP,   ENERGY_BALL,  \ ;11
 		 DARK_PULSE,   \ ;12
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SIGNAL_BEAM,  \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        ANCIENTPOWER, \ ;T5
+		 PAIN_SPLIT ;T7
 	 ; end

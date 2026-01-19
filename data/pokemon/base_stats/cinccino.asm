@@ -26,5 +26,10 @@
 		 THIEF,        DAZZLINGLEAM, \ ;10
 		 FOCUS_BLAST,  \ ;11
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
-		 THUNDER_WAVE ;15
+		 THUNDER_WAVE, \ ;15
+		 SEED_BOMB,    \ ;T1
+		 AQUA_TAIL,    SHOCK_WAVE,   \ ;T2
+		 GUNK_SHOT,    \ ;T3
+		 KNOCK_OFF,    PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG,   HYPER_VOICE ;T7
 	 ; end

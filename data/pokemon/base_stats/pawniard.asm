@@ -28,5 +28,8 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      POISON_JAB,   SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 LOW_KICK,     \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

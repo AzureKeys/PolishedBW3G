@@ -29,5 +29,10 @@
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 SWORDS_DANCE, \ ;15
-		 CUT
+		 CUT,          \ ;HM
+		 SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 TRICK,        \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  HYPER_VOICE,  PAIN_SPLIT ;T7
 	  ; end

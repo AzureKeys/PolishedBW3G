@@ -25,5 +25,10 @@
 		 HEX,          \ ;12
 		 WATER_PULSE,  \ ;13
 	     GIGA_IMPACT,  SWAGGER,      \ ;14
-		 CUT,          SURF,         WATERFALL
+		 CUT,          SURF,         WATERFALL,    \ ;HM
+		 AQUA_TAIL,    ICE_FANG,     \ ;T2
+		 ICY_WIND,     \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 OUTRAGE,      \ ;T5
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

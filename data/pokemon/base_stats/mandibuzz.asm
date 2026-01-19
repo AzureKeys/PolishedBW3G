@@ -26,5 +26,8 @@
 		 DARK_PULSE,   \ ;12
 		 ACROBATICS,   \ ;13
 	     PAYBACK,      GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
-		 CUT,          FLY
+		 CUT,          FLY,          \ ;HM
+		 ROOST,        \ ;T4
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE ;T7
 	  ; end

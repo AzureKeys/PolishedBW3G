@@ -26,5 +26,9 @@
 		 ENERGY_BALL,  \ ;11
 		 EXPLOSION,    \ ;13
 	     PAYBACK,      POISON_JAB,   SWAGGER,      \ ;14
-		 THUNDER_WAVE, GYRO_BALL ;15
+		 THUNDER_WAVE, GYRO_BALL,    \ ;15
+		 SEED_BOMB,    GIGA_DRAIN,   \ ;T1
+		 ROLLOUT,      \ ;T5
+		 KNOCK_OFF,    IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

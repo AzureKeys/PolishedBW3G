@@ -22,5 +22,8 @@
 		 SLUDGE_BOMB,  \ ;8
 	     SUBSTITUTE,   FACADE,       REST,         ATTRACT,      \ ;9
 		 ENERGY_BALL,  \ ;11
-	     SWAGGER ;14
+	     SWAGGER,      \ ;14
+		 GIGA_DRAIN,   \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 SUCKER_PUNCH ;T6
 	 ; end

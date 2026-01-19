@@ -27,5 +27,10 @@
 		 X_SCISSOR,    \ ;12
 		 WATER_PULSE,  SHADOW_CLAW,  \ ;13
 	     SWAGGER,      \ ;14
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 ICE_FANG,     \ ;T2
+		 ICE_PUNCH,    ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 LOW_KICK,     \ ;T4
+		 PLAY_ROUGH,   \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

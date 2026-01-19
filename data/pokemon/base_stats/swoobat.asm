@@ -27,5 +27,12 @@
 		 ACROBATICS,   \ ;13
 	     GIGA_IMPACT,  U_TURN,       SWAGGER,      \  ;14
 		 THUNDER_WAVE, GYRO_BALL,    \ ;15
-		 FLY
+		 FLY,          \ ;HM
+		 GIGA_DRAIN,   \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 SIGNAL_BEAM,  \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 TRICK,        \ ;T5
+		 KNOCK_OFF,    DRAINING_KISS, \ ;T6
+		 DOUBLE_EDGE,  SUPER_FANG ;T7
 	  ; end

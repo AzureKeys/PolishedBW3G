@@ -27,5 +27,9 @@
 		 SCALD,        \ ;11
 	     PAYBACK,      SWAGGER,      \ ;14
 		 STONE_EDGE,   THUNDER_WAVE, \ ;15
-		 SURF
+		 SURF,         \ ;HM
+		 ICE_FANG,     \ ;T2
+		 EARTH_POWER,  \ ;T5
+		 SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	 ; end

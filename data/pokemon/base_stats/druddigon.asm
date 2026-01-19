@@ -29,5 +29,12 @@
 		 DARK_PULSE,   DRAGON_PULSE, \ ;12
 		 SHADOW_CLAW,  \ ;13
 	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
-		 CUT,          SURF,         STRENGTH
+		 CUT,          SURF,         STRENGTH,     \ ;HM
+		 FIRE_FANG,    FIRE_PUNCH,   \ ;T1
+		 AQUA_TAIL,    THUNDER_FANG, THUNDERPUNCH, SHOCK_WAVE,   \ ;T2
+		 GUNK_SHOT,    SEISMIC_TOSS, \ ;T3
+		 DYNAMICPUNCH, \ ;T4
+		 ROLLOUT,      OUTRAGE,      \ ;T5
+		 SUCKER_PUNCH, IRON_HEAD,    \ ;T6
+		 DOUBLE_EDGE ;T7
 	 ; end

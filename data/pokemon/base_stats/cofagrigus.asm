@@ -26,5 +26,12 @@
 		 SKILL_SWAP,   ENERGY_BALL,  \ ;11
 		 DARK_PULSE,   HEX,          \ ;12
 		 WILL_O_WISP,  SHADOW_CLAW,  \ ;13
-	     PAYBACK,      GIGA_IMPACT,  SWAGGER  ;14
+	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+		 GIGA_DRAIN,   \ ;T1
+		 SHOCK_WAVE,   \ ;T2
+		 ICY_WIND,     SEISMIC_TOSS, \ ;T3
+		 ZEN_HEADBUTT, \ ;T4
+		 TRICK,        \ ;T5
+		 KNOCK_OFF,    SUCKER_PUNCH, \ ;T6
+		 DOUBLE_EDGE,  PAIN_SPLIT ;T7
 	  ; end

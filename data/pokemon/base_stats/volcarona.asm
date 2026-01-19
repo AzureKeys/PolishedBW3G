@@ -26,5 +26,10 @@
 		 WILD_CHARGE,  \ ;12
 		 WILL_O_WISP,  ACROBATICS,   \ ;13
 	     POISON_JAB,   GIGA_IMPACT,  U_TURN,       SWAGGER,      \ ;14
-		 FLY
+		 FLY,          \ ;HM
+		 GIGA_DRAIN,   FIRE_FANG,    OVERHEAT,     \ ;T1
+		 SIGNAL_BEAM,  \ ;T3
+		 ROOST,        ZEN_HEADBUTT, \ ;T4
+		 ANCIENTPOWER, \ ;T5
+		 DOUBLE_EDGE ;T7
 	 ; end
