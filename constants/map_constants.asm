@@ -99,5 +99,11 @@ ENDM
 	map_const ROUTE_16_NIMBASA_GATE,                       5,  4 ;  3
 	map_const NIMBASA_CITY,                               23, 18 ;  4
 	map_const ROUTE_5,                                    20, 11 ;  5
-
+	map_const ROUTE_5_NIMBASA_GATE,                        5,  4 ;  6
+	map_const ROUTE_5_DRAWBRIDGE_GATE,                     5,  4 ;  7
+	map_const ROUTE_5_TRUCK,                               4,  3 ;  8
+	map_const NIMBASA_POKECENTER,                          5,  5 ;  9
+	map_const NIMBASA_SOOTHE_BELL_HOUSE,                   4,  4 ; 10
+	map_const NIMBASA_NAME_RATER,                          4,  4 ; 11
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

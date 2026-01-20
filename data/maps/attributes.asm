@@ -67,12 +67,18 @@ ENDM
 	map_attributes LentimasCoinHouse, LENTIMAS_COIN_HOUSE, $0, 0
 	map_attributes LentimasSpellTagHouse, LENTIMAS_SPELL_TAG_HOUSE, $0, 0
 	map_attributes LentimasAirport, LENTIMAS_AIRPORT, $0, 0
+	map_attributes Route5Truck, ROUTE_5_TRUCK, $0, 0
+	map_attributes NimbasaPokecenter, NIMBASA_POKECENTER, $0, 0
+	map_attributes NimbasaSootheBellHouse, NIMBASA_SOOTHE_BELL_HOUSE, $0, 0
+	map_attributes NimbasaNameRater, NIMBASA_NAME_RATER, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
 	map_attributes LentimasLostlornGate, LENTIMAS_LOSTLORN_GATE, $0, 0
 	map_attributes Route16LostlornGate, ROUTE_16_LOSTLORN_GATE, $0, 0
 	map_attributes Route16NimbasaGate, ROUTE_16_NIMBASA_GATE, $0, 0
+	map_attributes Route5NimbasaGate, ROUTE_5_NIMBASA_GATE, $0, 0
+	map_attributes Route5DrawbridgeGate, ROUTE_5_DRAWBRIDGE_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

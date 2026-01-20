@@ -4,6 +4,11 @@ Route5_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event 33, 14, ROUTE_5_NIMBASA_GATE, 3
+	warp_event 33, 15, ROUTE_5_NIMBASA_GATE, 4
+	warp_event  4, 12, ROUTE_5_DRAWBRIDGE_GATE, 3
+	warp_event  4, 13, ROUTE_5_DRAWBRIDGE_GATE, 4
+	warp_event 24, 11, ROUTE_5_TRUCK, 1
 	warp_event 31,  5, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

@@ -91,12 +91,18 @@ INCLUDE "maps/LostlornForest.asm"
 INCLUDE "maps/Route16LostlornGate.asm"
 INCLUDE "maps/Route16.asm"
 INCLUDE "maps/Route5.asm"
+INCLUDE "maps/Route5DrawbridgeGate.asm"
+INCLUDE "maps/Route5Truck.asm"
 
 
 SECTION "Nimbasa Scripts", ROMX
 
 INCLUDE "maps/Route16NimbasaGate.asm"
+INCLUDE "maps/Route5NimbasaGate.asm"
 INCLUDE "maps/NimbasaCity.asm"
+INCLUDE "maps/NimbasaPokecenter.asm"
+INCLUDE "maps/NimbasaSootheBellHouse.asm"
+INCLUDE "maps/NimbasaNameRater.asm"
 
 
 ENDSECTION

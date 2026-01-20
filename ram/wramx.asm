@@ -1072,6 +1072,7 @@ wHumilauCitySceneID:: db
 wLostlornForestSceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
+wRoute5DrawbridgeGateSceneID:: db
 wRoute12SceneID:: db
 wRoute12VillageBridgeGateSceneID:: db
 wStrangeHouse1FSceneID:: db
@@ -1110,7 +1111,7 @@ wOvercastRandomMapIntensityKanto2:: db
 wOvercastRandomMapGroupKanto2:: db
 wOvercastRandomMapNumberKanto2:: db
 
-	ds 147 ; unused
+	ds 146 ; unused
 	
 wCandyAmounts::
 wExpCandyXSAmount:: db

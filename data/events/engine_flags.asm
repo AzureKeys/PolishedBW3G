@@ -89,7 +89,7 @@ EngineFlags:
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 
-	engine_flag wDailyFlags, DAILYFLAGS_KURT_MAKING_BALLS_F
+	engine_flag wDailyFlags, DAILYFLAGS_BERRY_MAN_F
 	engine_flag wDailyFlags, DAILYFLAGS_DAILY_BUG_CONTEST_F
 	engine_flag wDailyFlags, DAILYFLAGS_FISH_SWARM_F
 	engine_flag wDailyFlags, DAILYFLAGS_VALERIE_MORNING_WALK_F

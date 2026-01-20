@@ -7,6 +7,11 @@ NimbasaCity_MapScriptHeader:
 	def_warp_events
 	warp_event 39, 10, ROUTE_16_NIMBASA_GATE, 3
 	warp_event 39, 11, ROUTE_16_NIMBASA_GATE, 4
+	warp_event  4, 10, ROUTE_5_NIMBASA_GATE, 1
+	warp_event  4, 11, ROUTE_5_NIMBASA_GATE, 2
+	warp_event 15, 23, NIMBASA_POKECENTER, 1
+	warp_event 10, 17, NIMBASA_SOOTHE_BELL_HOUSE, 1
+	warp_event 10, 23, NIMBASA_NAME_RATER, 1
 
 	def_coord_events
 

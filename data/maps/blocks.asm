@@ -27,6 +27,7 @@ HumilauPokecenter_BlockData:
 LacunosaPokecenter_BlockData:
 UndellaPokecenter_BlockData:
 LentimasPokecenter_BlockData:
+NimbasaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -41,16 +42,27 @@ SECTION "TraditionalHouse_Blockdata", ROMX
 LentimasCoinHouse_BlockData:
 LentimasSpellTagHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
+	
+SECTION "ApartmentHouse_Blockdata", ROMX
+NimbasaSootheBellHouse_BlockData:
+NimbasaNameRater_BlockData:
+	INCBIN "maps/House3.ablk.lz"
 
 SECTION "EastWestGate_BlockData", ROMX
 Route12VillageBridgeGate_BlockData:
 Route16LostlornGate_BlockData:
 Route16NimbasaGate_BlockData:
+Route5NimbasaGate_BlockData:
+Route5DrawbridgeGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 SECTION "NorthSouthGate_BlockData", ROMX
 Route13UndellaTownGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
+
+SECTION "Truck_BlockData", ROMX
+Route5Truck_BlockData:
+	INCBIN "maps/Truck.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX
 PlayersHouse1F_BlockData:
