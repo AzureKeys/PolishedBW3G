@@ -108,5 +108,6 @@ ENDM
 	map_const NIMBASA_BALL_MART,                           6,  4 ; 12
 	map_const NIMBASA_TM_MART,                             6,  4 ; 13
 	map_const NIMBASA_VITAMIN_MART,                        6,  4 ; 14
+	map_const NIMBASA_SUBWAY,                             10,  9 ; 15
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

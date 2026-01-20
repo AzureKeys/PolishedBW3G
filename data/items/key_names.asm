@@ -28,7 +28,7 @@ KeyItemNames::
 	li "Clear Bell"
 	li "GS Ball"
 	li "S.S.Ticket"
-	li "Pass"
+	li "Rail Pass"
 	li "OrangeTicket"
 	li "MysticTicket"
 	li "Old Sea Map"

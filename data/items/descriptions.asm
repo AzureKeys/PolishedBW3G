@@ -285,7 +285,7 @@ KeyItemDescriptions:
 	dw ClearBellDesc
 	dw GSBallDesc
 	dw SSTicketDesc
-	dw PassDesc
+	dw RailPassDesc
 	dw OrangeTicketDesc
 	dw MysticTicketDesc
 	dw OldSeaMapDesc
@@ -1590,9 +1590,9 @@ SSTicketDesc:
 	next "S.S.Aqua."
 	done
 
-PassDesc:
+RailPassDesc:
 	text "A ticket for the"
-	next "Magnet Train."
+	next "Subway."
 	done
 
 MachinePartDesc:

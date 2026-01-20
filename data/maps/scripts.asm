@@ -106,6 +106,7 @@ INCLUDE "maps/NimbasaNameRater.asm"
 INCLUDE "maps/NimbasaBallMart.asm"
 INCLUDE "maps/NimbasaTMMart.asm"
 INCLUDE "maps/NimbasaVitaminMart.asm"
+INCLUDE "maps/NimbasaSubway.asm"
 
 
 ENDSECTION

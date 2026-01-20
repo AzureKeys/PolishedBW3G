@@ -287,7 +287,7 @@ KeyItemIconPointers:
 	dba ClearBellIcon
 	dba GSBallIcon
 	dba SSTicketIcon
-	dba PassIcon
+	dba RailPassIcon
 	dba OrangeTicketIcon
 	dba MysticTicketIcon
 	dba OldSeaMapIcon

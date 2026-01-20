@@ -15,6 +15,8 @@ NimbasaCity_MapScriptHeader:
 	warp_event 31,  7, NIMBASA_BALL_MART, 1
 	warp_event 21,  5, NIMBASA_TM_MART, 1
 	warp_event  9,  5, NIMBASA_VITAMIN_MART, 1
+	warp_event 24, 17, NIMBASA_SUBWAY, 1
+	warp_event 25, 17, NIMBASA_SUBWAY, 2
 
 	def_coord_events
 

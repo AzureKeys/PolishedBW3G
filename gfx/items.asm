@@ -742,8 +742,8 @@ BasementKeyIcon:: INCBIN "gfx/items/basement_key.2bpp.lz"
 SECTION "SSTicketIcon", ROMX
 SSTicketIcon:: INCBIN "gfx/items/s_s_ticket.2bpp.lz"
 
-SECTION "PassIcon", ROMX
-PassIcon:: INCBIN "gfx/items/pass.2bpp.lz"
+SECTION "RailPassIcon", ROMX
+RailPassIcon:: INCBIN "gfx/items/pass.2bpp.lz"
 
 SECTION "MachinePartIcon", ROMX
 MachinePartIcon:: INCBIN "gfx/items/machine_part.2bpp.lz"

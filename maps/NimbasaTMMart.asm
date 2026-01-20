@@ -4,8 +4,8 @@ NimbasaTMMart_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  7, NIMBASA_CITY, 8
-	warp_event  3,  7, NIMBASA_CITY, 8
+	warp_event  2,  7, NIMBASA_CITY, 9
+	warp_event  3,  7, NIMBASA_CITY, 9
 
 	def_coord_events
 

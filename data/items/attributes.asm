@@ -579,7 +579,7 @@ KeyItemAttributes:
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; S.S.TICKET
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
-; PASS
+; RAIL PASS
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; ORANGETICKET
 	key_item_attribute 0, ITEMMENU_CURRENT, ITEMMENU_NOUSE

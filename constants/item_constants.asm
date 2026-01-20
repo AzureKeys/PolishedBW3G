@@ -665,7 +665,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const CLEAR_BELL   ; 19
 	const GS_BALL      ; 1a
 	const S_S_TICKET   ; 1b
-	const PASS         ; 1c
+	const RAIL_PASS    ; 1c
 	const ORANGETICKET ; 1d
 	const MYSTICTICKET ; 1e
 	const OLD_SEA_MAP  ; 1f
@@ -707,8 +707,8 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_OLD_SEA_MAP
 	const NAM_ORANGETICKET
 	const NAM_OVAL_CHARM
-	const NAM_PASS
 	const NAM_POTENT_LURE
+	const NAM_RAIL_PASS
 	const NAM_RAINBOW_WING
 	const NAM_RED_SCALE
 	const NAM_S_S_TICKET
