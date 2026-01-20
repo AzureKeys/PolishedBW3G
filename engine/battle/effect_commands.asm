@@ -1297,10 +1297,10 @@ BattleCommand_critical:
 .guranteed_crit
 	; fallthrough
 SetCrit:
-	ld a, 1 << MOVEHIT_CRITICAL
+	ld a, MOVEHIT_CRITICAL
 	jr SetMoveHitState
 SetSubHit:
-	ld a, 1 << MOVEHIT_SUBSTITUTE
+	ld a, MOVEHIT_SUBSTITUTE
 SetMoveHitState:
 	push hl
 	ld hl, wMoveHitState
@@ -1310,10 +1310,10 @@ SetMoveHitState:
 	ret
 
 ResetCrit:
-	ld a, 1 << MOVEHIT_CRITICAL
+	ld a, MOVEHIT_CRITICAL
 	jr ResetMoveHitState
 ResetSubHit:
-	ld a, 1 << MOVEHIT_SUBSTITUTE
+	ld a, MOVEHIT_SUBSTITUTE
 ResetMoveHitState:
 	push hl
 	ld hl, wMoveHitState
@@ -1324,10 +1324,10 @@ ResetMoveHitState:
 	ret
 
 CheckCrit:
-	ld a, 1 << MOVEHIT_CRITICAL
+	ld a, MOVEHIT_CRITICAL
 	jr CheckMoveHitState
 CheckSubHit:
-	ld a, 1 << MOVEHIT_SUBSTITUTE
+	ld a, MOVEHIT_SUBSTITUTE
 CheckMoveHitState:
 	push hl
 	ld hl, wMoveHitState
