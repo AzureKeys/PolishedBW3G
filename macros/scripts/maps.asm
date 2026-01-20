@@ -174,7 +174,7 @@ MACRO mart_clerk_event
 	if _NARG == 3
 		object_event \1, \2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, \3, OBJECTTYPE_COMMAND, jumpstd, scalingmart, -1
 	else
-		object_event \1, \2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, \3, OBJECTTYPE_COMMAND, pokemart, \4, \5, -1
+		object_event \1, \2, SPRITE_CLERK, \3, 0, 0, -1, \4, OBJECTTYPE_COMMAND, pokemart, \5, \6, -1
 	endc
 ENDM
 

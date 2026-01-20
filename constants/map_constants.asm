@@ -105,5 +105,8 @@ ENDM
 	map_const NIMBASA_POKECENTER,                          5,  5 ;  9
 	map_const NIMBASA_SOOTHE_BELL_HOUSE,                   4,  4 ; 10
 	map_const NIMBASA_NAME_RATER,                          4,  4 ; 11
+	map_const NIMBASA_BALL_MART,                           6,  4 ; 12
+	map_const NIMBASA_TM_MART,                             6,  4 ; 13
+	map_const NIMBASA_VITAMIN_MART,                        6,  4 ; 14
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

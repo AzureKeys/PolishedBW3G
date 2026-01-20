@@ -12,6 +12,9 @@ NimbasaCity_MapScriptHeader:
 	warp_event 15, 23, NIMBASA_POKECENTER, 1
 	warp_event 10, 17, NIMBASA_SOOTHE_BELL_HOUSE, 1
 	warp_event 10, 23, NIMBASA_NAME_RATER, 1
+	warp_event 31,  7, NIMBASA_BALL_MART, 1
+	warp_event 21,  5, NIMBASA_TM_MART, 1
+	warp_event  9,  5, NIMBASA_VITAMIN_MART, 1
 
 	def_coord_events
 

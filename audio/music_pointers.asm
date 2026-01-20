@@ -72,4 +72,5 @@ Music:
 	dba Music_ScaryHouse
 	dba Music_PetalburgWoods
 	dba Music_NimbasaCity
+	dab Music_Mart
 	assert_table_length NUM_MUSIC_SONGS

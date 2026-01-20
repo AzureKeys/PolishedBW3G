@@ -75,13 +75,13 @@ LoadSevenBGPalettes:
 PokeCenterSpecialCase:
 	ld hl, PokeCenterPalette
 	call LoadSevenBGPalettes
-	; Snowtop Mountain has brown floors
+	; Lentimas Town has brown floors
 	call GetWorldMapLocation
-	;cp SNOWTOP_MOUNTAIN
-	;ld hl, wBGPals1 palette PAL_BG_BROWN
+	cp LENTIMAS_TOWN
+	ld hl, wBGPals1 palette PAL_BG_BROWN
 	jr z, .got_roof_pal
-	; Johto has red floors
-	; ld hl, wBGPals1 palette PAL_BG_RED
+	; Otherwise use yellow floors
+	ld hl, wBGPals1 palette PAL_BG_YELLOW
 .got_roof_pal
 	ld de, wBGPals1 palette PAL_BG_ROOF
 	ld bc, 1 palettes

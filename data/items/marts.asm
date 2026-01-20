@@ -9,6 +9,9 @@ Marts:
 	dw MartFiveBadges
 	dw MartSevenBadges
 	dw MartEightBadges
+	dw MartNimbasaBall
+	dw MartNimbasaTM
+	dw MartNimbasaVitamin
 	dw BattleTowerMart1
 	dw BattleTowerMart2
 	dw BattleTowerMart3
@@ -143,6 +146,43 @@ MartEightBadges:
 	db REPEL
 	db SUPER_REPEL
 	db MAX_REPEL
+	db -1
+
+MartNimbasaBall:
+	db 14 ; # items
+	db DIVE_BALL
+	db DREAM_BALL
+	db DUSK_BALL
+	db FRIEND_BALL
+	db HEAVY_BALL
+	db LEVEL_BALL
+	db LOVE_BALL
+	db LURE_BALL
+	db LUXURY_BALL
+	db NEST_BALL
+	db NET_BALL
+	db QUICK_BALL
+	db REPEAT_BALL
+	db TIMER_BALL
+	db -1
+
+MartNimbasaTM:
+	db 5 ; # items
+	db TM_THUNDER_WAVE, 10000
+	db TM_GYRO_BALL,    10000
+	db TM_REFLECT,      30000
+	db TM_LIGHT_SCREEN, 30000
+	db TM_SAFEGUARD,    30000
+	db -1
+
+MartNimbasaVitamin:
+	db 6 ; # items
+	db PROTEIN
+	db IRON
+	db CARBOS
+	db CALCIUM
+	db ZINC
+	db HP_UP
 	db -1
 
 BattleTowerMart1:

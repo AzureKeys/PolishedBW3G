@@ -4,6 +4,9 @@ PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lz"
 
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
+NimbasaBallMart_BlockData:
+NimbasaTMMart_BlockData:
+NimbasaVitaminMart_BlockData:
 	INCBIN "maps/Mart.ablk.lz"
 
 SECTION "TradeCenter_BlockData", ROMX

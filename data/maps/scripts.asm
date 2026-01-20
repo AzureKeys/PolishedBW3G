@@ -103,6 +103,9 @@ INCLUDE "maps/NimbasaCity.asm"
 INCLUDE "maps/NimbasaPokecenter.asm"
 INCLUDE "maps/NimbasaSootheBellHouse.asm"
 INCLUDE "maps/NimbasaNameRater.asm"
+INCLUDE "maps/NimbasaBallMart.asm"
+INCLUDE "maps/NimbasaTMMart.asm"
+INCLUDE "maps/NimbasaVitaminMart.asm"
 
 
 ENDSECTION

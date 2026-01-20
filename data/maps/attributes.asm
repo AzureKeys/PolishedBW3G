@@ -71,6 +71,9 @@ ENDM
 	map_attributes NimbasaPokecenter, NIMBASA_POKECENTER, $0, 0
 	map_attributes NimbasaSootheBellHouse, NIMBASA_SOOTHE_BELL_HOUSE, $0, 0
 	map_attributes NimbasaNameRater, NIMBASA_NAME_RATER, $0, 0
+	map_attributes NimbasaBallMart, NIMBASA_BALL_MART, $0, 0
+	map_attributes NimbasaTMMart, NIMBASA_TM_MART, $0, 0
+	map_attributes NimbasaVitaminMart, NIMBASA_VITAMIN_MART, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
