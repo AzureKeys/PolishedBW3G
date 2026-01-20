@@ -215,4 +215,8 @@ SECTION "Route5_BlockData", ROMX
 Route5_BlockData:
 	INCBIN "maps/Route5.ablk.lz"
 
+SECTION "Route4NimbasaGate_BlockData", ROMX
+Route4NimbasaGate_BlockData:
+	INCBIN "maps/Route4NimbasaGate.ablk.lz"
+
 ENDSECTION

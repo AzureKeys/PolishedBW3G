@@ -99,6 +99,7 @@ SECTION "Nimbasa Scripts", ROMX
 
 INCLUDE "maps/Route16NimbasaGate.asm"
 INCLUDE "maps/Route5NimbasaGate.asm"
+INCLUDE "maps/Route4NimbasaGate.asm"
 INCLUDE "maps/NimbasaCity.asm"
 INCLUDE "maps/NimbasaPokecenter.asm"
 INCLUDE "maps/NimbasaSootheBellHouse.asm"

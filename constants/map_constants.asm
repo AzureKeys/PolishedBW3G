@@ -109,5 +109,6 @@ ENDM
 	map_const NIMBASA_TM_MART,                             6,  4 ; 13
 	map_const NIMBASA_VITAMIN_MART,                        6,  4 ; 14
 	map_const NIMBASA_SUBWAY,                             10,  9 ; 15
+	map_const ROUTE_4_NIMBASA_GATE,                        5, 11 ; 16
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

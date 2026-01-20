@@ -83,6 +83,7 @@ ENDM
 	map_attributes Route16NimbasaGate, ROUTE_16_NIMBASA_GATE, $0, 0
 	map_attributes Route5NimbasaGate, ROUTE_5_NIMBASA_GATE, $0, 0
 	map_attributes Route5DrawbridgeGate, ROUTE_5_DRAWBRIDGE_GATE, $0, 0
+	map_attributes Route4NimbasaGate, ROUTE_4_NIMBASA_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

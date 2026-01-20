@@ -12,6 +12,7 @@ Marts:
 	dw MartNimbasaBall
 	dw MartNimbasaTM
 	dw MartNimbasaVitamin
+	dw MartNimbasaGate
 	dw BattleTowerMart1
 	dw BattleTowerMart2
 	dw BattleTowerMart3
@@ -183,6 +184,14 @@ MartNimbasaVitamin:
 	db CALCIUM
 	db ZINC
 	db HP_UP
+	db -1
+
+MartNimbasaGate:
+	db 4 ; # items
+	db ENERGYPOWDER
+	db ENERGY_ROOT
+	db HEAL_POWDER
+	db REVIVAL_HERB
 	db -1
 
 BattleTowerMart1:

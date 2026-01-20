@@ -124,7 +124,10 @@
 	const EVENT_LOSTLORN_FOREST_SUPER_POTION_2
 	const EVENT_LOSTLORN_FOREST_BIG_MUSHROOM
 	
-	 ; 179
+; Nimbasa City
+	const EVENT_ROUTE_4_NIMBASA_GATE_RARE_CANDY
+	
+	 ; 180
 	const_next 500
 
 ; Phone events
