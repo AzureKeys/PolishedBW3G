@@ -73,6 +73,7 @@
 	const MUSIC_FOREST                         ; 45
 	const MUSIC_NIMBASA_CITY                   ; 46
 	const MUSIC_MART                           ; 47
+	const MUSIC_CHEREN_THEME                   ; 48
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

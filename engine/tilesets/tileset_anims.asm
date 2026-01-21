@@ -32,6 +32,7 @@ _AnimateTileset::
 TilesetUnovaBeachAnim::
 TilesetForestAnim::
 TilesetNimbasaAnim::
+TilesetParkAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

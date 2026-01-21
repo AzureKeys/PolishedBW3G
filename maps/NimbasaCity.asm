@@ -19,6 +19,8 @@ NimbasaCity_MapScriptHeader:
 	warp_event 25, 17, NIMBASA_SUBWAY, 2
 	warp_event 29, 31, ROUTE_4_NIMBASA_GATE, 1
 	warp_event 30, 31, ROUTE_4_NIMBASA_GATE, 2
+	warp_event 33, 22, NIMBASA_PARK_OUTSIDE, 1
+	warp_event 33, 23, NIMBASA_PARK_OUTSIDE, 2
 
 	def_coord_events
 

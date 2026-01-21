@@ -110,4 +110,9 @@ INCLUDE "maps/NimbasaVitaminMart.asm"
 INCLUDE "maps/NimbasaSubway.asm"
 
 
+SECTION "Nimbasa Park Scripts", ROMX
+
+INCLUDE "maps/NimbasaParkOutside.asm"
+
+
 ENDSECTION

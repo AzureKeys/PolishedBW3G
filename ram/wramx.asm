@@ -1071,6 +1071,7 @@ wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
 wLostlornForestSceneID:: db
+wNimbasaParkOutsideSceneID:: db
 wPlayersHouse1FSceneID:: db
 wPokecenter2FSceneID:: db
 wRoute5DrawbridgeGateSceneID:: db
@@ -1112,7 +1113,7 @@ wOvercastRandomMapIntensityKanto2:: db
 wOvercastRandomMapGroupKanto2:: db
 wOvercastRandomMapNumberKanto2:: db
 
-	ds 146 ; unused
+	ds 145 ; unused
 	
 wCandyAmounts::
 wExpCandyXSAmount:: db

@@ -22,6 +22,7 @@ Landmarks:
 	landmark 100,  76, LostlornForestName
 	landmark  92,  84, Route16Name
 	landmark  84,  84, NimbasaCityName
+	landmark  92,  92, NimbasaParkName
 	landmark  76,  84, Route5Name
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
@@ -43,6 +44,7 @@ LentimasTownName:      rawchar "Lentimas¯Town@"
 LostlornForestName:    rawchar "Lostlorn¯Forest@"
 Route16Name:           rawchar "Route 16@"
 NimbasaCityName:       rawchar "Nimbasa¯City@"
+NimbasaParkName:       rawchar "Nimbasa¯Park@"
 Route5Name:            rawchar "Route 5@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"

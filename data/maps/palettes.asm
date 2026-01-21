@@ -39,6 +39,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_FOREST,              PAL_SINGLE,    ForestPalette
 	special_bg_pal tileset,  TILESET_ICE_PATH,            PAL_SINGLE,    IcePathPalette
 	special_bg_pal tileset,  TILESET_LENTIMAS,            PAL_TIMEOFDAY, LentimasPalette
+	special_bg_pal tileset,  TILESET_PARK,                PAL_TIMEOFDAY, ParkPalette
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
 
@@ -93,6 +94,39 @@ endc
 LentimasPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/lentimas.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+ParkPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/park.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

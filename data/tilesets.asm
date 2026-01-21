@@ -34,6 +34,7 @@ Tilesets::
 	tileset TilesetLentimas
 	tileset TilesetForest
 	tileset TilesetNimbasa
+	tileset TilesetPark
 	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
 
@@ -481,6 +482,23 @@ SECTION "Tileset Data - nimbasa", ROMX
 TilesetNimbasaMeta:: INCBIN "data/tilesets/nimbasa_metatiles.bin.lz"
 TilesetNimbasaAttr:: INCBIN "data/tilesets/nimbasa_attributes.bin.lz"
 TilesetNimbasaColl:: INCBIN "data/tilesets/nimbasa_collision.bin.lz"
+
+
+SECTION "Tileset Graphics - park vram0", ROMX
+
+TilesetParkGFX0:: INCBIN "gfx/tilesets/park.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - park vram1", ROMX
+
+TilesetParkGFX1:: INCBIN "gfx/tilesets/park.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - park", ROMX
+
+TilesetParkMeta:: INCBIN "data/tilesets/park_metatiles.bin.lz"
+TilesetParkAttr:: INCBIN "data/tilesets/park_attributes.bin.lz"
+TilesetParkColl:: INCBIN "data/tilesets/park_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - Terminator vram2", ROMX

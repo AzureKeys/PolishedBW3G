@@ -73,4 +73,5 @@ Music:
 	dba Music_PetalburgWoods
 	dba Music_NimbasaCity
 	dab Music_Mart
+	dba Music_LookZinnia
 	assert_table_length NUM_MUSIC_SONGS

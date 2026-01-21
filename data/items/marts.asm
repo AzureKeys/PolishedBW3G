@@ -169,11 +169,11 @@ MartNimbasaBall:
 
 MartNimbasaTM:
 	db 5 ; # items
-	db TM_THUNDER_WAVE, 10000
-	db TM_GYRO_BALL,    10000
-	db TM_REFLECT,      30000
-	db TM_LIGHT_SCREEN, 30000
-	db TM_SAFEGUARD,    30000
+	dbw TM_THUNDER_WAVE, 10000
+	dbw TM_GYRO_BALL,    10000
+	dbw TM_REFLECT,      30000
+	dbw TM_LIGHT_SCREEN, 30000
+	dbw TM_SAFEGUARD,    30000
 	db -1
 
 MartNimbasaVitamin:
