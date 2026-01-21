@@ -115,4 +115,9 @@ SECTION "Nimbasa Park Scripts", ROMX
 INCLUDE "maps/NimbasaParkOutside.asm"
 
 
+SECTION "Desert Scripts", ROMX
+
+INCLUDE "maps/Route4.asm"
+
+
 ENDSECTION

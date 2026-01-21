@@ -74,4 +74,5 @@ Music:
 	dba Music_NimbasaCity
 	dab Music_Mart
 	dba Music_LookZinnia
+	dba Music_RoadToReversalMountain
 	assert_table_length NUM_MUSIC_SONGS

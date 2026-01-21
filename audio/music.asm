@@ -210,4 +210,7 @@ INCLUDE "audio/music/mart.asm"
 SECTION "Song - cheren", ROMX
 INCLUDE "audio/music/cheren.asm"
 
+SECTION "Song - desert", ROMX
+INCLUDE "audio/music/desert.asm"
+
 ENDSECTION

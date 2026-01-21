@@ -27,6 +27,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_FOREST               ; 2c
 	const TILESET_NIMBASA              ; 2c
 	const TILESET_PARK                 ; 2c
+	const TILESET_DESERT               ; 2c
 	const TILESET_UNOVA_BEACH          ; 2c
 DEF NUM_TILESETS EQU const_value - 1
 

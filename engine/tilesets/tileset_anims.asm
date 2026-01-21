@@ -50,6 +50,7 @@ TilesetParkAnim::
 
 TilesetHouse1Anim::
 TilesetPortAnim::
+TilesetDesertAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

@@ -35,6 +35,7 @@ Tilesets::
 	tileset TilesetForest
 	tileset TilesetNimbasa
 	tileset TilesetPark
+	tileset TilesetDesert
 	tileset TilesetUnovaBeach
 	assert_table_length NUM_TILESETS
 
@@ -501,6 +502,23 @@ TilesetParkAttr:: INCBIN "data/tilesets/park_attributes.bin.lz"
 TilesetParkColl:: INCBIN "data/tilesets/park_collision.bin.lz"
 
 
+SECTION "Tileset Graphics - desert vram0", ROMX
+
+TilesetDesertGFX0:: INCBIN "gfx/tilesets/desert.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - desert vram1", ROMX
+
+TilesetDesertGFX1:: INCBIN "gfx/tilesets/desert.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - desert", ROMX
+
+TilesetDesertMeta:: INCBIN "data/tilesets/desert_metatiles.bin.lz"
+TilesetDesertAttr:: INCBIN "data/tilesets/desert_attributes.bin.lz"
+TilesetDesertColl:: INCBIN "data/tilesets/desert_collision.bin.lz"
+
+
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
 TilesetUnovaBeachGFX2::
@@ -526,6 +544,7 @@ TilesetTunnelGFX2::
 TilesetForestGFX2::
 TilesetNimbasaGFX2::
 TilesetParkGFX2::
+TilesetDesertGFX2::
 TilesetSafariGFX2::
 TilesetRuinsGFX2::
 TilesetBattleFactoryGFX2::

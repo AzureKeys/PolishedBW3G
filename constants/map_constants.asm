@@ -112,4 +112,7 @@ ENDM
 	map_const ROUTE_4_NIMBASA_GATE,                        5, 11 ; 16
 	map_const NIMBASA_PARK_OUTSIDE,                       27, 10 ; 17
 	
+	newgroup                                                     ;  8
+	map_const ROUTE_4,                                    24, 30 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

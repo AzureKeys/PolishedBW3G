@@ -26,6 +26,7 @@ MapGroupPointers::
 	dw MapGroupUndella
 	dw MapGroupLentimas
 	dw MapGroupNimbasa
+	dw MapGroupDesert
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -114,3 +115,5 @@ MapGroupNimbasa:
 	map Route4NimbasaGate, TILESET_GATE, GATE, SIGN_BUILDING, NIMBASA_CITY, MUSIC_NIMBASA_CITY, 1, PALETTE_DAY
 	map NimbasaParkOutside, TILESET_PARK, TOWN, SIGN_CITY, NIMBASA_PARK, MUSIC_NIMBASA_CITY, 0, PALETTE_AUTO
 	
+MapGroupDesert:
+	map Route4, TILESET_DESERT, ROUTE, SIGN_ROUTE, ROUTE_4, MUSIC_ROUTE_4, 0, PALETTE_AUTO

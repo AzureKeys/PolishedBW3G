@@ -6,6 +6,8 @@ Route4NimbasaGate_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  0, NIMBASA_CITY, 13
 	warp_event  5,  0, NIMBASA_CITY, 14
+	warp_event  4, 21, ROUTE_4, 1
+	warp_event  5, 21, ROUTE_4, 1
 
 	def_coord_events
 

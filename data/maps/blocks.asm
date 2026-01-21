@@ -223,4 +223,8 @@ SECTION "NimbasaParkOutside_BlockData", ROMX
 NimbasaParkOutside_BlockData:
 	INCBIN "maps/NimbasaParkOutside.ablk.lz"
 
+SECTION "Route4_BlockData", ROMX
+Route4_BlockData:
+	INCBIN "maps/Route4.ablk.lz"
+
 ENDSECTION

@@ -870,6 +870,12 @@ BackpackerMGroup:
 		tr_dvs DVS_HP_GRASS ; green
 		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
 	end_trainer
+
+	def_trainer BACKPACKERM_R4, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
 	
 	def_trainer BACKPACKERM_DESERT, "Reina"
 	tr_mon 55, MR__MIME
@@ -937,6 +943,12 @@ BackpackerFGroup:
 	end_trainer
 
 	def_trainer BACKPACKERF_R16, "Alina"
+	tr_mon 57, RATTATA @ MIRACLE_SEED
+		tr_dvs DVS_HP_GRASS ; green
+		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
+	end_trainer
+
+	def_trainer BACKPACKERF_R4, "Alina"
 	tr_mon 57, RATTATA @ MIRACLE_SEED
 		tr_dvs DVS_HP_GRASS ; green
 		tr_moves SPORE, FLAMETHROWER, SOLAR_BEAM, GIGA_DRAIN
