@@ -249,7 +249,7 @@ LentimasGymTrainer1Script1:
 	appear LENTIMASGYM_HEX_MANIAC_1
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_1, 15
 	turnobject PLAYER, UP
-	sjump LentimasGymTrainer1Script
+	sjumpfwd LentimasGymTrainer1Script
 .done
 	end
 	
@@ -261,7 +261,7 @@ LentimasGymTrainer1Script2:
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_1, 15
 	turnobject PLAYER, UP
 	applymovement LENTIMASGYM_HEX_MANIAC_1, LentimasGym_Down1Movement
-	sjump LentimasGymTrainer1Script
+	sjumpfwd LentimasGymTrainer1Script
 .done
 	end
 	
@@ -273,7 +273,7 @@ LentimasGymTrainer1Script3:
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_1, 15
 	turnobject PLAYER, UP
 	applymovement LENTIMASGYM_HEX_MANIAC_1, LentimasGym_Down2Movement
-	sjump LentimasGymTrainer1Script
+	sjumpfwd LentimasGymTrainer1Script
 .done
 	end
 	
@@ -309,7 +309,7 @@ LentimasGymTrainer2Script1:
 	appear LENTIMASGYM_HEX_MANIAC_2
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_2, 15
 	turnobject PLAYER, LEFT
-	sjump LentimasGymTrainer2Script
+	sjumpfwd LentimasGymTrainer2Script
 .done
 	end
 	
@@ -321,7 +321,7 @@ LentimasGymTrainer2Script2:
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_2, 15
 	turnobject PLAYER, LEFT
 	applymovement LENTIMASGYM_HEX_MANIAC_2, LentimasGym_Right1Movement
-	sjump LentimasGymTrainer2Script
+	sjumpfwd LentimasGymTrainer2Script
 .done
 	end
 	
@@ -333,7 +333,7 @@ LentimasGymTrainer2Script3:
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_2, 15
 	turnobject PLAYER, LEFT
 	applymovement LENTIMASGYM_HEX_MANIAC_2, LentimasGym_Right2Movement
-	sjump LentimasGymTrainer2Script
+	sjumpfwd LentimasGymTrainer2Script
 .done
 	end
 	
@@ -367,7 +367,7 @@ LentimasGymTrainer3Script1:
 	appear LENTIMASGYM_HEX_MANIAC_3
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_3, 15
 	turnobject PLAYER, LEFT
-	sjump LentimasGymTrainer3Script
+	sjumpfwd LentimasGymTrainer3Script
 .done
 	end
 	
@@ -379,7 +379,7 @@ LentimasGymTrainer3Script2:
 	showemote EMOTE_SHOCK, LENTIMASGYM_HEX_MANIAC_3, 15
 	turnobject PLAYER, LEFT
 	applymovement LENTIMASGYM_HEX_MANIAC_3, LentimasGym_Right1Movement
-	sjump LentimasGymTrainer3Script
+	sjumpfwd LentimasGymTrainer3Script
 .done
 	end
 	

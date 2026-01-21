@@ -155,14 +155,14 @@ LostlornForestInferScript:
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
-	sjump .AfterBattle
+	sjumpfwd .AfterBattle
 	
 .Oshawott:
 	loadtrainer INFER1, INFER2_SNIVY
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
-	sjump .AfterBattle
+	sjumpfwd .AfterBattle
 	
 .Snivy:
 	loadtrainer INFER1, INFER2_TEPIG

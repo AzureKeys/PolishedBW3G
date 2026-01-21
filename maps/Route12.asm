@@ -35,11 +35,11 @@ Route12_MapScriptHeader:
 	
 Route12InferScript1:
 	applymovement PLAYER, R12Infer_ApproachMovement1
-	sjump Route12InferScript
+	sjumpfwd Route12InferScript
 	
 Route12InferScript2:
 	applymovement PLAYER, R12Infer_ApproachMovement2
-	sjump Route12InferScript
+	sjumpfwd Route12InferScript
 	
 Route12InferScript3:
 	applymovement PLAYER, R12Infer_ApproachMovement3
@@ -64,7 +64,7 @@ Route12InferScript:
 	dontrestartmapmusic
 	reloadmap
 	iftruefwd .Victorious
-	sjump .Defeated
+	sjumpfwd .Defeated
 	
 .Oshawott:
 	loadtrainer INFER0, INFER1_SNIVY
@@ -73,7 +73,7 @@ Route12InferScript:
 	dontrestartmapmusic
 	reloadmap
 	iftruefwd .Victorious
-	sjump .Defeated
+	sjumpfwd .Defeated
 	
 .Snivy:
 	loadtrainer INFER0, INFER1_TEPIG
@@ -82,7 +82,7 @@ Route12InferScript:
 	dontrestartmapmusic
 	reloadmap
 	iftruefwd .Victorious
-	sjump .Defeated
+	sjumpfwd .Defeated
 	
 .Victorious:
 	playmusic MUSIC_RIVAL_ENCOUNTER
@@ -100,7 +100,7 @@ Route12InferScript:
 	para "looking for"
 	line "anyway!"
 	done
-	sjump .FinishRival
+	sjumpfwd .FinishRival
 	
 .Defeated:
 	playmusic MUSIC_RIVAL_ENCOUNTER
@@ -141,7 +141,7 @@ Route12InferScript:
 	disappear ROUTE12_INFER
 	special Special_FadeOutMusic
 	pause 30
-	sjump Route12MarlonScript
+	sjumpfwd Route12MarlonScript
 	
 .BridgeText:
 	text "Darn! What a"

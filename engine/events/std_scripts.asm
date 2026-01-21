@@ -1118,7 +1118,7 @@ ScalingMartScript:
 	checkflag ENGINE_TOXICBADGE
 	iffalsefwd .seven_badge
 	pokemart MARTTYPE_STANDARD, MART_EIGHT_BADGES
-	sjump .done
+	sjumpfwd .done
 .check_jet
 	checkflag ENGINE_JETBADGE
 	iffalsefwd .check_garnish
@@ -1126,7 +1126,7 @@ ScalingMartScript:
 	iffalsefwd .five_badge
 .seven_badge
 	pokemart MARTTYPE_STANDARD, MART_SEVEN_BADGES
-	sjump .done
+	sjumpfwd .done
 .check_garnish
 	checkflag ENGINE_GARNISHBADGE
 	iffalsefwd .check_basic
@@ -1136,7 +1136,7 @@ ScalingMartScript:
 	iffalsefwd .four_badge
 .five_badge
 	pokemart MARTTYPE_STANDARD, MART_FIVE_BADGES
-	sjump .done
+	sjumpfwd .done
 .check_basic
 	checkflag ENGINE_BASICBADGE
 	iffalsefwd .check_toxic
@@ -1144,29 +1144,29 @@ ScalingMartScript:
 	iftrue .five_badge
 .four_badge
 	pokemart MARTTYPE_STANDARD, MART_FOUR_BADGES
-	sjump .done
+	sjumpfwd .done
 .check_toxic
 	checkflag ENGINE_TOXICBADGE
 	iftrue .four_badge
 	checkflag ENGINE_INSECTBADGE
 	iffalsefwd .check_spooky
 	pokemart MARTTYPE_STANDARD, MART_THREE_BADGES
-	sjump .done
+	sjumpfwd .done
 .check_spooky
 	checkflag ENGINE_SPOOKYBADGE
 	iffalsefwd .check_wave
 	pokemart MARTTYPE_STANDARD, MART_TWO_BADGES
-	sjump .done
+	sjumpfwd .done
 .check_wave
 	checkflag ENGINE_WAVEBADGE
 	iffalsefwd .check_dex
 	pokemart MARTTYPE_STANDARD, MART_ONE_BADGE
-	sjump .done
+	sjumpfwd .done
 .check_dex
 	checkflag ENGINE_POKEDEX
 	iffalsefwd .no_dex
 	pokemart MARTTYPE_STANDARD, MART_NO_BADGES
-	sjump .done
+	sjumpfwd .done
 .no_dex
 	pokemart MARTTYPE_STANDARD, MART_NO_DEX
 .done

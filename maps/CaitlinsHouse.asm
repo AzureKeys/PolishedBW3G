@@ -29,7 +29,7 @@ CaitlinsHouseTrigger1:
 	
 MoveCaitlinAndCynthia:
 	checkevent EVENT_BEAT_CYNTHIA
-	iftrue .done
+	iftruefwd .done
 	moveobject CAITLINSHOUSE_CAITLIN,  1, 10
 	moveobject CAITLINSHOUSE_CYNTHIA,  3,  9
 .done

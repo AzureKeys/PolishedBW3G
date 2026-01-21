@@ -51,11 +51,11 @@ StrangeHouse1F_EntryScene:
 	
 MoveFurniture:
 	checkscene
-	ifequal 1, .MoveFurniture1
-	ifequal 2, .MoveFurniture2
-	ifequal 3, .MoveFurniture3
-	ifequal 4, .MoveFurniture4
-	ifequal 5, .MoveFurniture5
+	ifequalfwd 1, .MoveFurniture1
+	ifequalfwd 2, .MoveFurniture2
+	ifequalfwd 3, .MoveFurniture3
+	ifequalfwd 4, .MoveFurniture4
+	ifequalfwd 5, .MoveFurniture5
 	endcallback
 	
 .MoveFurniture1: ; initial layout

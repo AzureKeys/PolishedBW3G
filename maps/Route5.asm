@@ -148,35 +148,35 @@ TrainerDancer1R5:
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_ERIC_READY_FOR_REMATCH
-	sjump .Gift
+	sjumpfwd .Gift
 	
 .LoadFight1
 	loadtrainer DANCER, ERIC_REMATCH_1
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_ERIC_READY_FOR_REMATCH
-	sjump .Gift
+	sjumpfwd .Gift
 	
 .LoadFight2
 	loadtrainer DANCER, ERIC_REMATCH_2
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_ERIC_READY_FOR_REMATCH
-	sjump .Gift
+	sjumpfwd .Gift
 	
 .LoadFight3
 	loadtrainer DANCER, ERIC_REMATCH_3
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_ERIC_READY_FOR_REMATCH
-	sjump .Gift
+	sjumpfwd .Gift
 	
 .LoadFight4
 	loadtrainer DANCER, ERIC_REMATCH_4
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_ERIC_READY_FOR_REMATCH
-	sjump .Gift
+	sjumpfwd .Gift
 	
 .LoadFight5
 	loadtrainer DANCER, ERIC_REMATCH_5

@@ -138,19 +138,19 @@ BattleAnimFrameData:
 	dw .Frameset_MetronomeHand           ; BATTLEANIMFRAMESET_METRONOME_HAND
 	dw .Frameset_Agility                 ; BATTLEANIMFRAMESET_AGILITY
 	dw .Frameset_Cotton                  ; BATTLEANIMFRAMESET_COTTON
-	dw .Frameset_8a ; 8a
+	dw .Frameset_WeatherBall             ; BATTLEANIMFRAMESET_WEATHER_BALL
 	dw .Frameset_8b ; 8b
 	dw .Frameset_8c ; 8c
 	dw .Frameset_8d ; 8d
 	dw .Frameset_8e ; 8e
-	dw .Frameset_8f ; 8f
-	dw .Frameset_90 ; 90
-	dw .Frameset_91 ; 91
-	dw .Frameset_92 ; 92
-	dw .Frameset_93 ; 93
-	dw .Frameset_94 ; 94
-	dw .Frameset_95 ; 95
-	dw .Frameset_96 ; 96
+	dw .Frameset_DragonRush              ; BATTLEANIMFRAMESET_DRAGON_RUSH
+	dw .Frameset_DragonRushFlipped       ; BATTLEANIMFRAMESET_DRAGON_RUSH_FLIPPED
+	dw .Frameset_BigGlowSpiked           ; BATTLEANIMFRAMESET_BIG_GLOW_SPIKED
+	dw .Frameset_ShadowSneak             ; BATTLEANIMFRAMESET_SHADOW_SNEAK
+	dw .Frameset_ShockWaveSparks         ; BATTLEANIMFRAMESET_SHOCK_WAVE_SPARKS
+	dw .Frameset_WaterSpoutFalling       ; BATTLEANIMFRAMESET_WATER_SPOUT_FALLING
+	dw .Frameset_WaterSpoutRising        ; BATTLEANIMFRAMESET_WATER_SPOUT_RISING
+	dw .Frameset_BigWhip2                ; BATTLEANIMFRAMESET_BIG_WHIP_2
 	dw .Frameset_97 ; 97
 	dw .Frameset_Feather ; 98
 	dw .Frameset_99 ; 99
@@ -251,15 +251,6 @@ BattleAnimFrameData:
 	dw .Frameset_LeafStormBigLeaf        ; BATTLEANIMFRAMESET_LEAF_STORM_BIG_LEAF
 	dw .Frameset_LeafStormSmallLeaf      ; BATTLEANIMFRAMESET_LEAF_STORM_SMALL_LEAF
 	dw .Frameset_BurnedShort             ; BATTLEANIMFRAMESET_BURNED_SHORT
-	dw .Frameset_BigWhip2                ; BATTLEANIMFRAMESET_BIG_WHIP_2
-	dw .Frameset_WaterSpoutRising        ; BATTLEANIMFRAMESET_WATER_SPOUT_RISING
-	dw .Frameset_WaterSpoutFalling       ; BATTLEANIMFRAMESET_WATER_SPOUT_FALLING
-	dw .Frameset_ShockWaveSparks         ; BATTLEANIMFRAMESET_SHOCK_WAVE_SPARKS
-	dw .Frameset_ShadowSneak             ; BATTLEANIMFRAMESET_SHADOW_SNEAK
-	dw .Frameset_BigGlowSpiked           ; BATTLEANIMFRAMESET_BIG_GLOW_SPIKED
-	dw .Frameset_WeatherBall             ; BATTLEANIMFRAMESET_WEATHER_BALL
-	dw .Frameset_DragonRush              ; BATTLEANIMFRAMESET_DRAGON_RUSH
-	dw .Frameset_DragonRushFlipped       ; BATTLEANIMFRAMESET_DRAGON_RUSH_FLIPPED
 	
 ; VAR3 animations start here -------
 	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ

@@ -86,35 +86,35 @@ TrainerCyclistMLentimas:
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_FREDDY_READY_FOR_REMATCH
-	jumpstd .Gift
+	sjumpfwd .Gift
 	
 .LoadFight1
 	loadtrainer CYCLISTM, FREDDY_REMATCH_1
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_FREDDY_READY_FOR_REMATCH
-	jumpstd .Gift
+	sjumpfwd .Gift
 	
 .LoadFight2
 	loadtrainer CYCLISTM, FREDDY_REMATCH_2
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_FREDDY_READY_FOR_REMATCH
-	jumpstd .Gift
+	sjumpfwd .Gift
 	
 .LoadFight3
 	loadtrainer CYCLISTM, FREDDY_REMATCH_3
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_FREDDY_READY_FOR_REMATCH
-	jumpstd .Gift
+	sjumpfwd .Gift
 	
 .LoadFight4
 	loadtrainer CYCLISTM, FREDDY_REMATCH_4
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_FREDDY_READY_FOR_REMATCH
-	jumpstd .Gift
+	sjumpfwd .Gift
 	
 .LoadFight5
 	loadtrainer CYCLISTM, FREDDY_REMATCH_5
