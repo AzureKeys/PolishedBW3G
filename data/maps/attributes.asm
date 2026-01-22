@@ -78,6 +78,7 @@ ENDM
 	map_attributes NimbasaTMMart, NIMBASA_TM_MART, $0, 0
 	map_attributes NimbasaVitaminMart, NIMBASA_VITAMIN_MART, $0, 0
 	map_attributes NimbasaSubway, NIMBASA_SUBWAY, $0, 0
+	map_attributes Route4House, ROUTE_4_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -87,6 +88,8 @@ ENDM
 	map_attributes Route5NimbasaGate, ROUTE_5_NIMBASA_GATE, $0, 0
 	map_attributes Route5DrawbridgeGate, ROUTE_5_DRAWBRIDGE_GATE, $0, 0
 	map_attributes Route4NimbasaGate, ROUTE_4_NIMBASA_GATE, $0, 0
+	map_attributes Route4DesertGate, ROUTE_4_DESERT_GATE, $0, 0
+	map_attributes Route4CasteliaGate, ROUTE_4_CASTELIA_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

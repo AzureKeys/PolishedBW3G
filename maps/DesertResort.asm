@@ -4,6 +4,8 @@ DesertResort_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event 55, 41, ROUTE_4_DESERT_GATE, 1
+	warp_event 56, 41, ROUTE_4_DESERT_GATE, 2
 	
 	def_coord_events
 

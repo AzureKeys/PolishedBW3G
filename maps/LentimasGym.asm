@@ -123,7 +123,7 @@ LentimasGymShauntalScript:
 	line "you to have this."
 	done
 	promptbutton
-	verbosegiveitem TM_HEX
+	verbosegivetmhm TM_HEX
 	setevent EVENT_GOT_TM60_HEX
 	writethistext
 	text "TM60 contains"

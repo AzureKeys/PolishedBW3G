@@ -119,6 +119,9 @@ SECTION "Desert Scripts", ROMX
 
 INCLUDE "maps/Route4.asm"
 INCLUDE "maps/DesertResort.asm"
+INCLUDE "maps/Route4DesertGate.asm"
+INCLUDE "maps/Route4CasteliaGate.asm"
+INCLUDE "maps/Route4House.asm"
 
 
 ENDSECTION

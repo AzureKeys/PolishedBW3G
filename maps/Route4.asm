@@ -5,6 +5,10 @@ Route4_MapScriptHeader:
 
 	def_warp_events
 	warp_event 36,  3, ROUTE_4_NIMBASA_GATE, 3
+	warp_event  5,  5, ROUTE_4_DESERT_GATE, 3
+	warp_event 35, 55, ROUTE_4_CASTELIA_GATE, 1
+	warp_event 36, 55, ROUTE_4_CASTELIA_GATE, 2
+	warp_event 43, 29, ROUTE_4_HOUSE, 1
 	
 	def_coord_events
 

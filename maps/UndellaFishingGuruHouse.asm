@@ -24,7 +24,7 @@ UndellaFishingGuruScript:
 	iffalse_jumpopenedtext .NoText
 	writetext .YesText
 	promptbutton
-	verbosegiveitem OLD_ROD
+	verbosegivekeyitem OLD_ROD
 	writetext .AfterText
 	waitbutton
 	closetext

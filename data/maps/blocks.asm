@@ -44,6 +44,7 @@ UndellaFishingGuruHouse_BlockData:
 SECTION "TraditionalHouse_Blockdata", ROMX
 LentimasCoinHouse_BlockData:
 LentimasSpellTagHouse_BlockData:
+Route4House_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 	
 SECTION "ApartmentHouse_Blockdata", ROMX
@@ -61,6 +62,8 @@ Route5DrawbridgeGate_BlockData:
 
 SECTION "NorthSouthGate_BlockData", ROMX
 Route13UndellaTownGate_BlockData:
+Route4DesertGate_BlockData:
+Route4CasteliaGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 SECTION "Truck_BlockData", ROMX

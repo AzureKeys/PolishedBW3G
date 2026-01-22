@@ -45,7 +45,7 @@ HumilauGymMarlonScript:
 	line "too."
 	done
 	promptbutton
-	verbosegiveitem TM_RAIN_DANCE
+	verbosegivetmhm TM_RAIN_DANCE
 	setevent EVENT_GOT_TM18_RAIN_DANCE
 	writethistext
 	text "When ya use a TM,"
