@@ -213,4 +213,7 @@ INCLUDE "audio/music/cheren.asm"
 SECTION "Song - desert", ROMX
 INCLUDE "audio/music/desert.asm"
 
+SECTION "Song - casteliacity", ROMX
+INCLUDE "audio/music/casteliacity.asm"
+
 ENDSECTION

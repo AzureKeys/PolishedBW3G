@@ -75,4 +75,5 @@ Music:
 	dab Music_Mart
 	dba Music_LookZinnia
 	dba Music_RoadToReversalMountain
+	dba Music_CasteliaCity
 	assert_table_length NUM_MUSIC_SONGS

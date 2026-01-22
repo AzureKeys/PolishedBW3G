@@ -36,6 +36,7 @@ Tilesets::
 	tileset TilesetNimbasa
 	tileset TilesetPark
 	tileset TilesetDesert
+	tileset TilesetCastelia
 	tileset TilesetUnovaBeach
 	tileset TilesetHiddenGrotto
 	assert_table_length NUM_TILESETS
@@ -519,6 +520,22 @@ TilesetDesertMeta:: INCBIN "data/tilesets/desert_metatiles.bin.lz"
 TilesetDesertAttr:: INCBIN "data/tilesets/desert_attributes.bin.lz"
 TilesetDesertColl:: INCBIN "data/tilesets/desert_collision.bin.lz"
 
+SECTION "Tileset Graphics - castelia vram0", ROMX
+
+TilesetCasteliaGFX0:: INCBIN "gfx/tilesets/castelia.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - castelia vram1", ROMX
+
+TilesetCasteliaGFX1:: INCBIN "gfx/tilesets/castelia.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - castelia", ROMX
+
+TilesetCasteliaMeta:: INCBIN "data/tilesets/castelia_metatiles.bin.lz"
+TilesetCasteliaAttr:: INCBIN "data/tilesets/castelia_attributes.bin.lz"
+TilesetCasteliaColl:: INCBIN "data/tilesets/castelia_collision.bin.lz"
+
 
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
@@ -563,8 +580,7 @@ TilesetForestGFX2::
 TilesetNimbasaGFX2::
 TilesetParkGFX2::
 TilesetDesertGFX2::
-TilesetSafariGFX2::
-TilesetRuinsGFX2::
+TilesetCasteliaGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::

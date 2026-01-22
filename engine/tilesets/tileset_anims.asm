@@ -47,6 +47,24 @@ TilesetParkAnim::
 	dw NULL,  StandingTileFrame8
 	dw NULL,  IncWaterFrame
 	dw NULL,  DoneTileAnimation
+	
+TilesetCasteliaAnim::
+	dw NULL,  DoNothing
+	dw WhirlpoolFrames1, AnimateWhirlpoolTile
+	dw WhirlpoolFrames2, AnimateWhirlpoolTile
+	dw WhirlpoolFrames3, AnimateWhirlpoolTile
+	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw NULL,  DoNothing
+	dw FountainFrames1, AnimateFountainTile
+	dw FountainFrames2, AnimateFountainTile
+	dw FountainFrames3, AnimateFountainTile
+	dw FountainFrames4, AnimateFountainTile
+	dw FountainFrames5, AnimateFountainTile
+	dw FountainFrames6, AnimateFountainTile
+	dw NULL,  StandingTileFrame8
+	dw NULL,  IncWaterFrame
+	dw NULL,  IncFountainFrame
+	dw NULL,  DoneTileAnimation
 
 TilesetHouse1Anim::
 TilesetPortAnim::
@@ -203,6 +221,17 @@ IncWaterFrame:
 	jr nz, .done
 	xor a
 	ld [wWaterAnimationTimer], a
+.done
+	ret
+	
+IncFountainFrame:
+	ld a, [wFountainAnimationTimer]
+	inc a
+	ld [wFountainAnimationTimer], a
+	cp $05
+	jr nz, .done
+	xor a
+	ld [wFountainAnimationTimer], a
 .done
 	ret
 
@@ -925,6 +954,33 @@ AnimateWhirlpoolTile:
 	ld sp, hl
 	jmp WriteTileToDE
 
+AnimateFountainTile:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ld l, e
+	ld h, d
+	ld a, [hli]
+	ld e, a
+	ld a, [hli]
+	ld d, a
+
+	; period 4, offset to 1 tile (16 bytes)
+	ld a, [wFountainAnimationTimer]
+	swap a
+
+	add [hl]
+	inc hl
+	ld h, [hl]
+	ld l, a
+	ld a, 0
+	adc h
+	ld h, a
+
+	ld sp, hl
+	jmp WriteTileToDE
+
 AnimateFanTile:
 	ld hl, sp + 0
 	ld b, h
@@ -1190,6 +1246,20 @@ WhirlpoolTiles1: INCBIN "gfx/tilesets/unova_water/1.2bpp"
 WhirlpoolTiles2: INCBIN "gfx/tilesets/unova_water/2.2bpp"
 WhirlpoolTiles3: INCBIN "gfx/tilesets/unova_water/3.2bpp"
 WhirlpoolTiles4: INCBIN "gfx/tilesets/unova_water/4.2bpp"
+
+FountainFrames1: dw vTiles2 tile $2b, FountainTiles1
+FountainFrames2: dw vTiles2 tile $3b, FountainTiles2
+FountainFrames3: dw vTiles2 tile $2d, FountainTiles3
+FountainFrames4: dw vTiles2 tile $2c, FountainTiles4
+FountainFrames5: dw vTiles2 tile $3c, FountainTiles5
+FountainFrames6: dw vTiles2 tile $3d, FountainTiles6
+
+FountainTiles1: INCBIN "gfx/tilesets/castelia-fountain/1.2bpp"
+FountainTiles2: INCBIN "gfx/tilesets/castelia-fountain/2.2bpp"
+FountainTiles3: INCBIN "gfx/tilesets/castelia-fountain/3.2bpp"
+FountainTiles4: INCBIN "gfx/tilesets/castelia-fountain/4.2bpp"
+FountainTiles5: INCBIN "gfx/tilesets/castelia-fountain/5.2bpp"
+FountainTiles6: INCBIN "gfx/tilesets/castelia-fountain/6.2bpp"
 
 FanFrames1: dw vTiles2 tile $60, FanTiles1
 FanFrames2: dw vTiles2 tile $61, FanTiles2
