@@ -19,6 +19,7 @@
 	const NIMBASA_CITY       ; 11
 	const NIMBASA_PARK       ; 12
 	const ROUTE_4            ; 13
+	const DESERT_RESORT      ; 14
 	const ROUTE_5            ; 2d
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45

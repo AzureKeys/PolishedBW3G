@@ -52,6 +52,7 @@ ENDM
 	map_attributes NimbasaParkOutside, NIMBASA_PARK_OUTSIDE, $31, 0
 	map_attributes Route5, ROUTE_5, $25, 0
 	map_attributes Route4, ROUTE_4, $71, 0
+	map_attributes DesertResort, DESERT_RESORT, $71, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

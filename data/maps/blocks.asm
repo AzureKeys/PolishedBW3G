@@ -227,4 +227,8 @@ SECTION "Route4_BlockData", ROMX
 Route4_BlockData:
 	INCBIN "maps/Route4.ablk.lz"
 
+SECTION "DesertResort_BlockData", ROMX
+DesertResort_BlockData:
+	INCBIN "maps/DesertResort.ablk.lz"
+
 ENDSECTION

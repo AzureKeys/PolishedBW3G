@@ -114,5 +114,6 @@ ENDM
 	
 	newgroup                                                     ;  8
 	map_const ROUTE_4,                                    24, 30 ;  1
+	map_const DESERT_RESORT,                              30, 23 ;  2
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
