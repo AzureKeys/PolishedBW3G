@@ -95,8 +95,8 @@ ENDM
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0
-	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $35, 0
-	map_attributes HiddenCaveGrotto, HIDDEN_CAVE_GROTTO, $9, 0
+	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $0, 0
+	map_attributes HiddenCaveGrotto, HIDDEN_CAVE_GROTTO, $1, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
 	map_attributes BattleTowerBattleRoom, BATTLE_TOWER_BATTLE_ROOM, $0, 0

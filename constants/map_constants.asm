@@ -41,8 +41,8 @@ ENDM
 	map_const POKECENTER_2F,                               8,  4 ;  1
 	map_const TRADE_CENTER,                                5,  4 ;  2
 	map_const COLOSSEUM,                                   5,  4 ;  3
-	map_const HIDDEN_TREE_GROTTO,                          5,  9 ;  4
-	map_const HIDDEN_CAVE_GROTTO,                          5,  9 ;  5
+	map_const HIDDEN_TREE_GROTTO,                          4,  6 ;  4
+	map_const HIDDEN_CAVE_GROTTO,                          4,  6 ;  5
 
 	newgroup                                                     ;  3
 	map_const GIANT_CHASM_1F,                              9, 10 ;  1

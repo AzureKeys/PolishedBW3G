@@ -37,6 +37,7 @@ Tilesets::
 	tileset TilesetPark
 	tileset TilesetDesert
 	tileset TilesetUnovaBeach
+	tileset TilesetHiddenGrotto
 	assert_table_length NUM_TILESETS
 
 
@@ -519,6 +520,23 @@ TilesetDesertAttr:: INCBIN "data/tilesets/desert_attributes.bin.lz"
 TilesetDesertColl:: INCBIN "data/tilesets/desert_collision.bin.lz"
 
 
+SECTION "Tileset Graphics - hidden grotto vram0", ROMX
+
+TilesetHiddenGrottoGFX0:: INCBIN "gfx/tilesets/hidden_grotto.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - hidden grotto vram1", ROMX
+
+TilesetHiddenGrottoGFX1:: INCBIN "gfx/tilesets/hidden_grotto.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - hidden grotto", ROMX
+
+TilesetHiddenGrottoMeta:: INCBIN "data/tilesets/hidden_grotto_metatiles.bin.lz"
+TilesetHiddenGrottoAttr:: INCBIN "data/tilesets/hidden_grotto_attributes.bin.lz"
+TilesetHiddenGrottoColl:: INCBIN "data/tilesets/hidden_grotto_collision.bin.lz"
+
+
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
 TilesetUnovaBeachGFX2::
@@ -549,4 +567,5 @@ TilesetSafariGFX2::
 TilesetRuinsGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
+TilesetHiddenGrottoGFX2::
 	db $ff ; Compressed data is terminated with $ff.

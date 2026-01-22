@@ -111,6 +111,26 @@ MartSpecialCase:
 	scf
 	ret
 
+HiddenGrottoSpecialCase:
+	ld a, [wTimeOfDayPal]
+	and 3
+	cp NITE
+	ld hl, HiddenGrottoPalette
+	jr nz, .got_palette
+	ld hl, HiddenGrottoPalette + 8 palettes
+.got_palette
+	call LoadSevenBGPalettes
+	ld hl, wBGPals1 palette PAL_BG_RED
+	ld de, wBGPals1 palette PAL_BG_GREEN
+	ld bc, 1 palettes
+	call FarCopyColorWRAM
+	ld hl, wBGPals1 palette PAL_BG_RED color 1
+	ld de, wBGPals1 palette PAL_BG_ROOF color 1
+	ld bc, 3 colors
+	call FarCopyColorWRAM
+	scf
+	ret
+
 InitializeSpecialPaletteRegisters:
 	; b, c, d, e = [wMapGroup], [wMapNumber], landmark, [wMapTileset]
 	ld a, [wMapGroup]

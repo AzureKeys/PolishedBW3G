@@ -170,6 +170,7 @@ TilesetGym3Anim::
 TilesetBattleTowerAnim::
 TilesetBattleFactoryAnim::
 TilesetLentimasAnim::
+TilesetHiddenGrottoAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
