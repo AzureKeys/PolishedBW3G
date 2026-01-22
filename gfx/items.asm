@@ -642,11 +642,11 @@ GoldLeafIcon:: INCBIN "gfx/items/leaf.2bpp.lz"
 SECTION "BottleCapIcon", ROMX
 BottleCapIcon:: INCBIN "gfx/items/bottle_cap.2bpp.lz"
 
-SECTION "HelixFossilIcon", ROMX
-HelixFossilIcon:: INCBIN "gfx/items/helix_fossil.2bpp.lz"
+SECTION "CoverFossilIcon", ROMX
+CoverFossilIcon:: INCBIN "gfx/items/cover_fossil.2bpp.lz"
 
-SECTION "DomeFossilIcon", ROMX
-DomeFossilIcon:: INCBIN "gfx/items/dome_fossil.2bpp.lz"
+SECTION "PlumeFossilIcon", ROMX
+PlumeFossilIcon:: INCBIN "gfx/items/plume_fossil.2bpp.lz"
 
 SECTION "OldAmberIcon", ROMX
 OldAmberIcon:: INCBIN "gfx/items/old_amber.2bpp.lz"

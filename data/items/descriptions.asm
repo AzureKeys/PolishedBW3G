@@ -241,8 +241,8 @@ ItemDescriptions:
 	dw BlueShardDesc
 	dw GreenShardDesc
 	dw YellowShardDesc
-	dw HelixFossilDesc
-	dw DomeFossilDesc
+	dw CoverFossilDesc
+	dw PlumeFossilDesc
 	dw OldAmberDesc
 	dw FlowerMailDesc
 	dw SurfMailDesc
@@ -1385,8 +1385,8 @@ BottleCapDesc:
 	next "bottle cap."
 	done
 
-HelixFossilDesc:
-DomeFossilDesc:
+CoverFossilDesc:
+PlumeFossilDesc:
 	text "A fossilized"
 	next "#mon shell."
 	done

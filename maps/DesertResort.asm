@@ -6,6 +6,7 @@ DesertResort_MapScriptHeader:
 	def_warp_events
 	warp_event 55, 41, ROUTE_4_DESERT_GATE, 1
 	warp_event 56, 41, ROUTE_4_DESERT_GATE, 2
+	warp_event 38,  7, RELIC_CASTLE_1F, 1
 	
 	def_coord_events
 

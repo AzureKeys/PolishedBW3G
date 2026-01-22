@@ -53,6 +53,11 @@ ENDM
 	map_attributes Route5, ROUTE_5, $25, 0
 	map_attributes Route4, ROUTE_4, $71, 0
 	map_attributes DesertResort, DESERT_RESORT, $71, 0
+	map_attributes RelicCastle1F, RELIC_CASTLE_1F, $71, 0
+	map_attributes RelicCastleB1F, RELIC_CASTLE_B1F, $71, 0
+	map_attributes RelicCastleB2F, RELIC_CASTLE_B2F, $71, 0
+	map_attributes RelicCastleB3F, RELIC_CASTLE_B3F, $71, 0
+	map_attributes RelicCastleB4F, RELIC_CASTLE_B4F, $71, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

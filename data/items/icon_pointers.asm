@@ -242,8 +242,8 @@ ItemIconPointers:
 	dba BlueShardIcon
 	dba GreenShardIcon
 	dba YellowShardIcon
-	dba HelixFossilIcon
-	dba DomeFossilIcon
+	dba CoverFossilIcon
+	dba PlumeFossilIcon
 	dba OldAmberIcon
 	dba FlowerMailIcon
 	dba SurfMailIcon

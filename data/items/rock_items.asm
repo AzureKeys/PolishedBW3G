@@ -1,6 +1,6 @@
 RockItems:
-	db 1, HELIX_FOSSIL
-	db 1, DOME_FOSSIL
+	db 1, COVER_FOSSIL
+	db 1, PLUME_FOSSIL
 	db 1, OLD_AMBER
 	db 1, BIG_NUGGET
 	db 4, NUGGET

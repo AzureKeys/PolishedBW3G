@@ -308,8 +308,8 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const GREEN_SHARD  ; f0
 	const YELLOW_SHARD ; f1
 
-	const HELIX_FOSSIL ; f2
-	const DOME_FOSSIL  ; f3
+	const COVER_FOSSIL ; f2
+	const PLUME_FOSSIL ; f3
 	const OLD_AMBER    ; f4
 
 DEF FIRST_MAIL EQU const_value
@@ -374,13 +374,13 @@ endc
 	const NAM_CHOICE_SPECS
 	const NAM_CLEANSE_TAG
 	const NAM_CLEAR_AMULET
+	const NAM_COVER_FOSSIL
 	const NAM_COVERT_CLOAK
 	const NAM_CUSTAP_BERRY
 	const NAM_DAMP_ROCK
 	const NAM_DESTINY_KNOT
 	const NAM_DIRE_HIT
 	const NAM_DIVE_BALL
-	const NAM_DOME_FOSSIL
 	const NAM_DRAGON_FANG
 	const NAM_DRAGON_SCALE
 	const NAM_DREAM_BALL
@@ -426,7 +426,6 @@ endc
 	const NAM_HEAT_ROCK
 	const NAM_HEAVY_BALL
 	const NAM_HEAVY_BOOTS
-	const NAM_HELIX_FOSSIL
 	const NAM_HONDEW_BERRY
 if DEF(FAITHFUL)
 	const NAM_SWEET_HONEY
@@ -506,6 +505,7 @@ endc
 	const NAM_PETAYA_BERRY
 	const NAM_PEWTERCRUNCH
 	const NAM_PINK_BOW
+	const NAM_PLUME_FOSSIL
 	const NAM_POISON_BARB
 	const NAM_POKE_BALL
 	const NAM_POKE_DOLL

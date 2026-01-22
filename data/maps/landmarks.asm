@@ -25,6 +25,7 @@ Landmarks:
 	landmark  92,  92, NimbasaParkName
 	landmark  84, 100, Route4Name
 	landmark  76,  92, DesertResortName
+	landmark  68,  92, RelicCastleName
 	landmark  76,  84, Route5Name
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
@@ -49,6 +50,7 @@ NimbasaCityName:       rawchar "Nimbasa¯City@"
 NimbasaParkName:       rawchar "Nimbasa¯Park@"
 Route4Name:            rawchar "Route 4@"
 DesertResortName:      rawchar "Desert¯Resort@"
+RelicCastleName:       rawchar "Relic¯Castle@"
 Route5Name:            rawchar "Route 5@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"

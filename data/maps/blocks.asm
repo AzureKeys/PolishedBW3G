@@ -234,4 +234,24 @@ SECTION "DesertResort_BlockData", ROMX
 DesertResort_BlockData:
 	INCBIN "maps/DesertResort.ablk.lz"
 
+SECTION "RelicCastle1F_BlockData", ROMX
+RelicCastle1F_BlockData:
+	INCBIN "maps/RelicCastle1F.ablk.lz"
+
+SECTION "RelicCastleB1F_BlockData", ROMX
+RelicCastleB1F_BlockData:
+	INCBIN "maps/RelicCastleB1F.ablk.lz"
+
+SECTION "RelicCastleB2F_BlockData", ROMX
+RelicCastleB2F_BlockData:
+	INCBIN "maps/RelicCastleB2F.ablk.lz"
+
+SECTION "RelicCastleB3F_BlockData", ROMX
+RelicCastleB3F_BlockData:
+	INCBIN "maps/RelicCastleB3F.ablk.lz"
+
+SECTION "RelicCastleB4F_BlockData", ROMX
+RelicCastleB4F_BlockData:
+	INCBIN "maps/RelicCastleB4F.ablk.lz"
+
 ENDSECTION

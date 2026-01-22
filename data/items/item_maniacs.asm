@@ -73,7 +73,7 @@ OreManiacItemRewards:
 	db -1
 
 FossilManiacItemRewards:
-	dbw HELIX_FOSSIL, 1000
-	dbw DOME_FOSSIL,  1000
+	dbw COVER_FOSSIL, 1000
+	dbw PLUME_FOSSIL, 1000
 	dbw OLD_AMBER,    1000
 	db -1

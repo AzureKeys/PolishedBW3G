@@ -52,6 +52,11 @@ ENDM
 	map_const STRANGE_HOUSE_B1F,                          13,  6 ;  7
 	map_const STRANGE_HOUSE_ROOMS,                        21, 10 ;  8
 	map_const LOSTLORN_FOREST,                            20, 28 ;  9
+	map_const RELIC_CASTLE_1F,                            10,  9 ; 10
+	map_const RELIC_CASTLE_B1F,                            9,  9 ; 11
+	map_const RELIC_CASTLE_B2F,                            9,  7 ; 12
+	map_const RELIC_CASTLE_B3F,                           10,  5 ; 13
+	map_const RELIC_CASTLE_B4F,                           13, 12 ; 14
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

@@ -122,6 +122,11 @@ INCLUDE "maps/DesertResort.asm"
 INCLUDE "maps/Route4DesertGate.asm"
 INCLUDE "maps/Route4CasteliaGate.asm"
 INCLUDE "maps/Route4House.asm"
+INCLUDE "maps/RelicCastle1F.asm"
+INCLUDE "maps/RelicCastleB1F.asm"
+INCLUDE "maps/RelicCastleB2F.asm"
+INCLUDE "maps/RelicCastleB3F.asm"
+INCLUDE "maps/RelicCastleB4F.asm"
 
 
 ENDSECTION

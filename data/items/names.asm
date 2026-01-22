@@ -311,8 +311,8 @@ endc
 	li "Green Shard"
 	li "Yellow Shard"
 
-	li "Helix Fossil"
-	li "Dome Fossil"
+	li "Cover Fossil"
+	li "Plume Fossil"
 	li "Old Amber"
 
 	li "Flower Mail"
