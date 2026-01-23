@@ -134,6 +134,8 @@ SECTION "Castelia Scripts", ROMX
 INCLUDE "maps/CasteliaCityNorth.asm"
 INCLUDE "maps/CasteliaCityStreets.asm"
 INCLUDE "maps/CasteliaCitySouth.asm"
+INCLUDE "maps/CasteliaTradeHouse1.asm"
+INCLUDE "maps/CasteliaTradeHouse2.asm"
 
 
 ENDSECTION

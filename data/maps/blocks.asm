@@ -266,4 +266,12 @@ SECTION "CasteliaCitySouth_BlockData", ROMX
 CasteliaCitySouth_BlockData:
 	INCBIN "maps/CasteliaCitySouth.ablk.lz"
 
+SECTION "CasteliaTradeHouse1_BlockData", ROMX
+CasteliaTradeHouse1_BlockData:
+	INCBIN "maps/CasteliaTradeHouse1.ablk.lz"
+
+SECTION "CasteliaTradeHouse2_BlockData", ROMX
+CasteliaTradeHouse2_BlockData:
+	INCBIN "maps/CasteliaTradeHouse2.ablk.lz"
+
 ENDSECTION

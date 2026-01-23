@@ -87,6 +87,8 @@ ENDM
 	map_attributes NimbasaVitaminMart, NIMBASA_VITAMIN_MART, $0, 0
 	map_attributes NimbasaSubway, NIMBASA_SUBWAY, $0, 0
 	map_attributes Route4House, ROUTE_4_HOUSE, $0, 0
+	map_attributes CasteliaTradeHouse1, CASTELIA_TRADE_HOUSE_1, $0, 0
+	map_attributes CasteliaTradeHouse2, CASTELIA_TRADE_HOUSE_2, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

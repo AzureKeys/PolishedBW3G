@@ -14,6 +14,10 @@ CasteliaCityNorth_MapScriptHeader:
 	warp_event 22, 29, CASTELIA_CITY_STREETS, 6
 	warp_event 29, 29, CASTELIA_CITY_STREETS, 7
 	warp_event 30, 29, CASTELIA_CITY_STREETS, 8
+	warp_event 16,  8, CASTELIA_TRADE_HOUSE_1, 1
+	warp_event 16,  9, CASTELIA_TRADE_HOUSE_1, 2
+	warp_event 19,  8, CASTELIA_TRADE_HOUSE_2, 1
+	warp_event 19,  9, CASTELIA_TRADE_HOUSE_2, 2
 
 	def_coord_events
 

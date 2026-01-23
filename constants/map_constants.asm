@@ -128,5 +128,7 @@ ENDM
 	map_const CASTELIA_CITY_NORTH,                        18, 17 ;  1
 	map_const CASTELIA_CITY_STREETS,                      28, 14 ;  2
 	map_const CASTELIA_CITY_SOUTH,                        30, 14 ;  3
+	map_const CASTELIA_TRADE_HOUSE_1,                      4,  4 ;  4
+	map_const CASTELIA_TRADE_HOUSE_2,                      4,  4 ;  5
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
