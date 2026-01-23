@@ -1066,6 +1066,7 @@ wAlways0SceneID:: db
 wBattleFacilitySceneID:: db
 wBattleTowerOutsideSceneID:: db
 wCaitlinsHouseSceneID:: db
+wCasteliaCityStreetsSceneID:: db
 wColosseumSceneID:: db
 wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
@@ -1113,7 +1114,7 @@ wOvercastRandomMapIntensityKanto2:: db
 wOvercastRandomMapGroupKanto2:: db
 wOvercastRandomMapNumberKanto2:: db
 
-	ds 145 ; unused
+	ds 144 ; unused
 	
 wCandyAmounts::
 wExpCandyXSAmount:: db

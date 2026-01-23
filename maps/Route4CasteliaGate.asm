@@ -6,8 +6,8 @@ Route4CasteliaGate_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  0, ROUTE_4, 3
 	warp_event  5,  0, ROUTE_4, 4
-	;warp_event  4,  7, ROUTE_4, 2
-	;warp_event  5,  7, ROUTE_4, 2
+	warp_event  4,  7, CASTELIA_CITY_NORTH, 1
+	warp_event  5,  7, CASTELIA_CITY_NORTH, 1
 
 	def_coord_events
 

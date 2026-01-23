@@ -55,7 +55,7 @@ ItemIconPointers:
 	dba SodaPopIcon
 	dba LemonadeIcon
 	dba MoomooMilkIcon
-	dba RageCandyBarIcon
+	dba CasteliaConeIcon
 	dba PewterCrunchIcon
 	dba EnergyPowderIcon
 	dba EnergyRootIcon

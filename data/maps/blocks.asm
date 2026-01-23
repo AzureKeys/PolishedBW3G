@@ -254,4 +254,16 @@ SECTION "RelicCastleB4F_BlockData", ROMX
 RelicCastleB4F_BlockData:
 	INCBIN "maps/RelicCastleB4F.ablk.lz"
 
+SECTION "CasteliaCityNorth_BlockData", ROMX
+CasteliaCityNorth_BlockData:
+	INCBIN "maps/CasteliaCityNorth.ablk.lz"
+
+SECTION "CasteliaCityStreets_BlockData", ROMX
+CasteliaCityStreets_BlockData:
+	INCBIN "maps/CasteliaCityStreets.ablk.lz"
+
+SECTION "CasteliaCitySouth_BlockData", ROMX
+CasteliaCitySouth_BlockData:
+	INCBIN "maps/CasteliaCitySouth.ablk.lz"
+
 ENDSECTION

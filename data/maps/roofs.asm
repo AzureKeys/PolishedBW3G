@@ -13,4 +13,5 @@ MapGroupRoofs:
 	db -1            ; Lentimas
 	db -1            ; Nimbasa
 	db -1            ; Desert
+	db -1            ; Castelia
 	assert_table_length NUM_MAP_GROUPS + 1

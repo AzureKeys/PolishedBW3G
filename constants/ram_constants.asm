@@ -425,7 +425,7 @@ DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
 ; wDailyFlags::
 	const_def
 	const DAILYFLAGS_BERRY_MAN_F                             ; 0
-	const DAILYFLAGS_DAILY_BUG_CONTEST_F                     ; 1
+	const DAILYFLAGS_CASTELIACONE_F                          ; 1
 	const DAILYFLAGS_FISH_SWARM_F                            ; 2
 	const DAILYFLAGS_VALERIE_MORNING_WALK_F                  ; 3
 	const_skip ; unused

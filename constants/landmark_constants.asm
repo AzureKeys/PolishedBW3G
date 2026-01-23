@@ -21,6 +21,7 @@
 	const ROUTE_4            ; 13
 	const DESERT_RESORT      ; 14
 	const RELIC_CASTLE       ; 15
+	const CASTELIA_CITY      ; 16
 	const ROUTE_5            ; 2d
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45

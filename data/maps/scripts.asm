@@ -129,4 +129,11 @@ INCLUDE "maps/RelicCastleB3F.asm"
 INCLUDE "maps/RelicCastleB4F.asm"
 
 
+SECTION "Castelia Scripts", ROMX
+
+INCLUDE "maps/CasteliaCityNorth.asm"
+INCLUDE "maps/CasteliaCityStreets.asm"
+INCLUDE "maps/CasteliaCitySouth.asm"
+
+
 ENDSECTION

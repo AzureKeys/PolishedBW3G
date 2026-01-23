@@ -15,6 +15,7 @@ SpawnPoints:
 	spawn UNDELLA_TOWN,               29, 10
 	spawn LENTIMAS_TOWN,              25, 14
 	spawn NIMBASA_CITY,               15, 24
+	spawn CASTELIA_CITY_SOUTH,        39,  8
 
 	spawn N_A,                        -1, -1
 

@@ -199,8 +199,8 @@ PurrloinSideSpriteGFX:: INCBIN "gfx/sprites/purrloin_side.2bpp.lz"
 SECTION "CaitlinSpriteGFX", ROMX
 CaitlinSpriteGFX:: INCBIN "gfx/sprites/caitlin.2bpp.lz"
 
-SECTION "DarachSpriteGFX", ROMX
-DarachSpriteGFX:: INCBIN "gfx/sprites/darach.2bpp.lz"
+SECTION "SleepingManSpriteGFX", ROMX
+SleepingManSpriteGFX:: INCBIN "gfx/sprites/sleeping_man.2bpp.lz"
 
 SECTION "StevenSpriteGFX", ROMX
 StevenSpriteGFX:: INCBIN "gfx/sprites/steven.2bpp.lz"

@@ -124,4 +124,9 @@ ENDM
 	map_const ROUTE_4_CASTELIA_GATE,                       5,  4 ;  4
 	map_const ROUTE_4_HOUSE,                               4,  4 ;  5
 	
+	newgroup                                                     ;  9
+	map_const CASTELIA_CITY_NORTH,                        18, 17 ;  1
+	map_const CASTELIA_CITY_STREETS,                      28, 14 ;  2
+	map_const CASTELIA_CITY_SOUTH,                        30, 14 ;  3
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -138,8 +138,8 @@ LemonadeIcon:: INCBIN "gfx/items/lemonade.2bpp.lz"
 SECTION "MoomooMilkIcon", ROMX
 MoomooMilkIcon:: INCBIN "gfx/items/moomoo_milk.2bpp.lz"
 
-SECTION "RageCandyBarIcon", ROMX
-RageCandyBarIcon:: INCBIN "gfx/items/ragecandybar.2bpp.lz"
+SECTION "CasteliaConeIcon", ROMX
+CasteliaConeIcon:: INCBIN "gfx/items/casteliacone.2bpp.lz"
 
 SECTION "PewterCrunchIcon", ROMX
 PewterCrunchIcon:: INCBIN "gfx/items/pewtercrunch.2bpp.lz"

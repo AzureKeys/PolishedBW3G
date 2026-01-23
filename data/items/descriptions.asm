@@ -54,7 +54,7 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw MoomooMilkDesc
-	dw RageCandyBarDesc
+	dw CasteliaConeDesc
 	dw PewterCrunchDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
@@ -478,7 +478,7 @@ IceHealDesc:
 	done
 
 FullHealDesc:
-RageCandyBarDesc:
+CasteliaConeDesc:
 PewterCrunchDesc:
 	text "Eliminates all"
 	next "status problems."

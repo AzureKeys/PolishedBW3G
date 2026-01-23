@@ -74,7 +74,7 @@ SpriteHeaders:
 	overworld_sprite PatratSideSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite PurrloinSideSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite CaitlinSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
-	overworld_sprite DarachSpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
+	overworld_sprite SleepingManSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite StevenSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite CynthiaSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
 	overworld_sprite CandelaSpriteGFX, WALKING_SPRITE, PAL_OW_RED

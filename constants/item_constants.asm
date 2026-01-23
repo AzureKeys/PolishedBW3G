@@ -76,7 +76,7 @@ DEF NUM_POKE_BALLS EQU const_value ; PARK_BALL counts
 	const SODA_POP     ; 34
 	const LEMONADE     ; 35
 	const MOOMOO_MILK  ; 36
-	const RAGECANDYBAR ; 37
+	const CASTELIACONE ; 37
 	const PEWTERCRUNCH ; 38
 
 	const ENERGYPOWDER ; 39
@@ -360,11 +360,9 @@ DEF ALWAYS_ITEM_2  EQU $ff
 	const NAM_BOTTLE_CAP
 	const NAM_BRIGHTPOWDER
 	const NAM_BURN_HEAL
-if !DEF(FAITHFUL)
-	const NAM_RAGECANDYBAR ; Cake of Rage
-endc
 	const NAM_CALCIUM
 	const NAM_CARBOS
+	const NAM_CASTELIACONE
 	const NAM_CHARCOAL
 	const NAM_CHERI_BERRY
 	const NAM_CHERISH_BALL
@@ -530,9 +528,6 @@ endc
 	const NAM_QUICK_BALL
 	const NAM_QUICK_CLAW
 	const NAM_QUICK_POWDER
-if DEF(FAITHFUL)
-	const NAM_RAGECANDYBAR
-endc
 	const NAM_RARE_CANDY
 	const NAM_RAWST_BERRY
 	const NAM_RAZOR_CLAW

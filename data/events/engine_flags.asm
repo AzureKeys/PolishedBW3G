@@ -86,11 +86,12 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_UNDELLA
 	engine_flag wVisitedSpawns, SPAWN_LENTIMAS
 	engine_flag wVisitedSpawns, SPAWN_NIMBASA
+	engine_flag wVisitedSpawns, SPAWN_CASTELIA
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 
 	engine_flag wDailyFlags, DAILYFLAGS_BERRY_MAN_F
-	engine_flag wDailyFlags, DAILYFLAGS_DAILY_BUG_CONTEST_F
+	engine_flag wDailyFlags, DAILYFLAGS_CASTELIACONE_F
 	engine_flag wDailyFlags, DAILYFLAGS_FISH_SWARM_F
 	engine_flag wDailyFlags, DAILYFLAGS_VALERIE_MORNING_WALK_F
 	engine_flag wDailyFlags, 4 ; unused

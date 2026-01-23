@@ -34,7 +34,7 @@ BiancaPhoneScript2:
 .castelia
 	farwritetext BiancaPhoneCasteliaText
 	specialphonecall SPECIALCALL_NONE
-	;setevent EVENT_BIANCA_CASTELIA_CALL
+	setevent EVENT_BIANCA_CASTELIA_CALL
 	end
 
 .virbank

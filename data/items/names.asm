@@ -71,11 +71,7 @@ ItemNames::
 	li "Soda Pop"
 	li "Lemonade"
 	li "Moomoo Milk"
-if DEF(FAITHFUL)
-	li "RageCandyBar"
-else
-	li "Cake of Rage"
-endc
+	li "CasteliaCone"
 	li "PewterCrunch"
 
 	li "EnergyPowder"
