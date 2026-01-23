@@ -1815,6 +1815,8 @@ Script_checkitem:
 	ldh [hScriptVar], a
 	call GetScriptByte
 	ld [wCurItem], a
+	call GetScriptByte
+	ld [wItemQuantityChangeBuffer], a
 	ld hl, wNumItems
 	call CheckItem
 ScriptReturnCarry:
