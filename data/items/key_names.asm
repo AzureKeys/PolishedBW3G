@@ -27,7 +27,7 @@ KeyItemNames::
 	li "Silver Wing"
 	li "Clear Bell"
 	li "GS Ball"
-	li "S.S.Ticket"
+	li "Ferry Ticket"
 	li "Rail Pass"
 	li "OrangeTicket"
 	li "MysticTicket"

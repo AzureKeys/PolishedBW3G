@@ -577,7 +577,7 @@ KeyItemAttributes:
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; GS BALL
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
-; S.S.TICKET
+; FERRY TICKET
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; RAIL PASS
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE

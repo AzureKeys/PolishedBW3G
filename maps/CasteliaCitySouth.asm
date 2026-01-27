@@ -12,6 +12,10 @@ CasteliaCitySouth_MapScriptHeader:
 	warp_event 32,  8, CASTELIA_CITY_STREETS, 14
 	warp_event 43,  4, CASTELIA_CITY_STREETS, 15
 	warp_event 44,  4, CASTELIA_CITY_STREETS, 16
+	warp_event 39,  7, CASTELIA_POKECENTER, 1
+	warp_event 55,  5, CASTELIA_SKYARROW_BRIDGE_GATE, 1
+	warp_event  4,  6, CASTELIA_PORT, 1
+	warp_event  4,  7, CASTELIA_PORT, 2
 
 	def_coord_events
 

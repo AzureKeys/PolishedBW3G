@@ -284,7 +284,7 @@ KeyItemDescriptions:
 	dw SilverWingDesc
 	dw ClearBellDesc
 	dw GSBallDesc
-	dw SSTicketDesc
+	dw FerryTicketDesc
 	dw RailPassDesc
 	dw OrangeTicketDesc
 	dw MysticTicketDesc
@@ -1585,14 +1585,14 @@ BasementKeyDesc:
 	text "Opens doors."
 	done
 
-SSTicketDesc:
+FerryTicketDesc:
 	text "A ticket for the"
-	next "S.S.Aqua."
+	next "Castelia Ferry."
 	done
 
 RailPassDesc:
 	text "A ticket for the"
-	next "Subway."
+	next "Nimbasa Subway."
 	done
 
 MachinePartDesc:

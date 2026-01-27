@@ -659,7 +659,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const SILVER_WING  ; 18
 	const CLEAR_BELL   ; 19
 	const GS_BALL      ; 1a
-	const S_S_TICKET   ; 1b
+	const FERRY_TICKET ; 1b
 	const RAIL_PASS    ; 1c
 	const ORANGETICKET ; 1d
 	const MYSTICTICKET ; 1e
@@ -686,6 +686,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_CATCH_CHARM
 	const NAM_CLEAR_BELL
 	const NAM_COIN_CASE
+	const NAM_FERRY_TICKET
 	const NAM_GBC_SOUNDS
 	const NAM_GO_GOGGLES
 	const NAM_GOOD_ROD
@@ -706,7 +707,6 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_RAIL_PASS
 	const NAM_RAINBOW_WING
 	const NAM_RED_SCALE
-	const NAM_S_S_TICKET
 	const NAM_SECRETPOTION
 	const NAM_SHINY_CHARM
 	const NAM_SILPHSCOPE2

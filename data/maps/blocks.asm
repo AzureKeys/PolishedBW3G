@@ -31,6 +31,7 @@ LacunosaPokecenter_BlockData:
 UndellaPokecenter_BlockData:
 LentimasPokecenter_BlockData:
 NimbasaPokecenter_BlockData:
+CasteliaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -65,6 +66,18 @@ Route13UndellaTownGate_BlockData:
 Route4DesertGate_BlockData:
 Route4CasteliaGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
+
+SECTION "LentimasLostlornGate_BlockData", ROMX
+LentimasLostlornGate_BlockData:
+	INCBIN "maps/LentimasLostlornGate.ablk.lz"
+
+SECTION "Route4NimbasaGate_BlockData", ROMX
+Route4NimbasaGate_BlockData:
+	INCBIN "maps/Route4NimbasaGate.ablk.lz"
+
+SECTION "CasteliaSkyarrowBridgeGate_BlockData", ROMX
+CasteliaSkyarrowBridgeGate_BlockData:
+	INCBIN "maps/CasteliaSkyarrowBridgeGate.ablk.lz"
 
 SECTION "Truck_BlockData", ROMX
 Route5Truck_BlockData:
@@ -194,10 +207,6 @@ SECTION "LentimasAirport_BlockData", ROMX
 LentimasAirport_BlockData:
 	INCBIN "maps/LentimasAirport.ablk.lz"
 
-SECTION "LentimasLostlornGate_BlockData", ROMX
-LentimasLostlornGate_BlockData:
-	INCBIN "maps/LentimasLostlornGate.ablk.lz"
-
 SECTION "LostlornForest_BlockData", ROMX
 LostlornForest_BlockData:
 	INCBIN "maps/LostlornForest.ablk.lz"
@@ -217,10 +226,6 @@ NimbasaSubway_BlockData:
 SECTION "Route5_BlockData", ROMX
 Route5_BlockData:
 	INCBIN "maps/Route5.ablk.lz"
-
-SECTION "Route4NimbasaGate_BlockData", ROMX
-Route4NimbasaGate_BlockData:
-	INCBIN "maps/Route4NimbasaGate.ablk.lz"
 
 SECTION "NimbasaParkOutside_BlockData", ROMX
 NimbasaParkOutside_BlockData:
@@ -289,5 +294,9 @@ CasteliaGameFreak_BlockData:
 SECTION "CasteliaGym_BlockData", ROMX
 CasteliaGym_BlockData:
 	INCBIN "maps/CasteliaGym.ablk.lz"
+
+SECTION "CasteliaPort_BlockData", ROMX
+CasteliaPort_BlockData:
+	INCBIN "maps/CasteliaPort.ablk.lz"
 
 ENDSECTION

@@ -134,5 +134,8 @@ ENDM
 	map_const CASTELIA_MASSAGE,                            4,  4 ;  7
 	map_const CASTELIA_GAME_FREAK,                         4,  5 ;  8
 	map_const CASTELIA_GYM,                                7, 22 ;  9
+	map_const CASTELIA_POKECENTER,                         5,  5 ; 10
+	map_const CASTELIA_SKYARROW_BRIDGE_GATE,               6,  9 ; 11
+	map_const CASTELIA_PORT,                               5,  4 ; 12
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

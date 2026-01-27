@@ -14,6 +14,8 @@ MapScenes::
 	scene_var CAITLINS_HOUSE,                         wCaitlinsHouseSceneID
 	scene_var CASTELIA_CITY_STREETS,                  wCasteliaCityStreetsSceneID
 	scene_var CASTELIA_GYM,                           wAlways0SceneID
+	scene_var CASTELIA_PORT,                          wCasteliaPortSceneID
+	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wAlways0SceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var GIANT_CHASM_1F,                         wGiantChasm1FSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID

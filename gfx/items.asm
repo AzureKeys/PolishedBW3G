@@ -739,8 +739,8 @@ CardKeyIcon:: INCBIN "gfx/items/card_key.2bpp.lz"
 SECTION "BasementKeyIcon", ROMX
 BasementKeyIcon:: INCBIN "gfx/items/basement_key.2bpp.lz"
 
-SECTION "SSTicketIcon", ROMX
-SSTicketIcon:: INCBIN "gfx/items/s_s_ticket.2bpp.lz"
+SECTION "FerryTicketIcon", ROMX
+FerryTicketIcon:: INCBIN "gfx/items/ferry_ticket.2bpp.lz"
 
 SECTION "RailPassIcon", ROMX
 RailPassIcon:: INCBIN "gfx/items/pass.2bpp.lz"

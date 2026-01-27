@@ -93,6 +93,8 @@ ENDM
 	map_attributes CasteliaBikeShop, CASTELIA_BIKE_SHOP, $0, 0
 	map_attributes CasteliaMassage, CASTELIA_MASSAGE, $0, 0
 	map_attributes CasteliaGameFreak, CASTELIA_GAME_FREAK, $0, 0
+	map_attributes CasteliaPokecenter, CASTELIA_POKECENTER, $0, 0
+	map_attributes CasteliaPort, CASTELIA_PORT, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -104,6 +106,7 @@ ENDM
 	map_attributes Route4NimbasaGate, ROUTE_4_NIMBASA_GATE, $0, 0
 	map_attributes Route4DesertGate, ROUTE_4_DESERT_GATE, $0, 0
 	map_attributes Route4CasteliaGate, ROUTE_4_CASTELIA_GATE, $0, 0
+	map_attributes CasteliaSkyarrowBridgeGate, CASTELIA_SKYARROW_BRIDGE_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
