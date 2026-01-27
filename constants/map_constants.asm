@@ -133,5 +133,6 @@ ENDM
 	map_const CASTELIA_BIKE_SHOP,                          4,  4 ;  6
 	map_const CASTELIA_MASSAGE,                            4,  4 ;  7
 	map_const CASTELIA_GAME_FREAK,                         4,  5 ;  8
+	map_const CASTELIA_GYM,                                7, 22 ;  9
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

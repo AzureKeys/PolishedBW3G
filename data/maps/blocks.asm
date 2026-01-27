@@ -286,4 +286,8 @@ SECTION "CasteliaGameFreak_BlockData", ROMX
 CasteliaGameFreak_BlockData:
 	INCBIN "maps/CasteliaGameFreak.ablk.lz"
 
+SECTION "CasteliaGym_BlockData", ROMX
+CasteliaGym_BlockData:
+	INCBIN "maps/CasteliaGym.ablk.lz"
+
 ENDSECTION

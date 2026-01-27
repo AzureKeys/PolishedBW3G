@@ -4,8 +4,8 @@ CasteliaGameFreak_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  9, CASTELIA_CITY_STREETS, 19
-	warp_event  3,  9, CASTELIA_CITY_STREETS, 19
+	warp_event  2,  9, CASTELIA_CITY_STREETS, 21
+	warp_event  3,  9, CASTELIA_CITY_STREETS, 21
 
 	def_coord_events
 
