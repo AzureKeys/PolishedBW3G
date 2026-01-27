@@ -136,6 +136,9 @@ INCLUDE "maps/CasteliaCityStreets.asm"
 INCLUDE "maps/CasteliaCitySouth.asm"
 INCLUDE "maps/CasteliaTradeHouse1.asm"
 INCLUDE "maps/CasteliaTradeHouse2.asm"
+INCLUDE "maps/CasteliaBikeShop.asm"
+INCLUDE "maps/CasteliaMassage.asm"
+INCLUDE "maps/CasteliaGameFreak.asm"
 
 
 ENDSECTION

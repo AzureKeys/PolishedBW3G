@@ -130,5 +130,8 @@ ENDM
 	map_const CASTELIA_CITY_SOUTH,                        30, 14 ;  3
 	map_const CASTELIA_TRADE_HOUSE_1,                      4,  4 ;  4
 	map_const CASTELIA_TRADE_HOUSE_2,                      4,  4 ;  5
+	map_const CASTELIA_BIKE_SHOP,                          4,  4 ;  6
+	map_const CASTELIA_MASSAGE,                            4,  4 ;  7
+	map_const CASTELIA_GAME_FREAK,                         4,  5 ;  8
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

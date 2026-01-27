@@ -20,6 +20,11 @@ CasteliaCityStreets_MapScriptHeader:
 	warp_event 36, 23, CASTELIA_CITY_SOUTH, 6
 	warp_event 47, 23, CASTELIA_CITY_SOUTH, 7
 	warp_event 48, 23, CASTELIA_CITY_SOUTH, 8
+	warp_event 35, 16, CASTELIA_BIKE_SHOP, 1
+	warp_event 35, 17, CASTELIA_BIKE_SHOP, 2
+	warp_event 44, 16, CASTELIA_MASSAGE, 1
+	warp_event 44, 17, CASTELIA_MASSAGE, 2
+	warp_event 50, 17, CASTELIA_GAME_FREAK, 1
 
 	def_coord_events
 	coord_event  4, 16, 1, CasteliaCityStreetsCherenScript

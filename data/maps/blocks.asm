@@ -274,4 +274,16 @@ SECTION "CasteliaTradeHouse2_BlockData", ROMX
 CasteliaTradeHouse2_BlockData:
 	INCBIN "maps/CasteliaTradeHouse2.ablk.lz"
 
+SECTION "CasteliaBikeShop_BlockData", ROMX
+CasteliaBikeShop_BlockData:
+	INCBIN "maps/CasteliaBikeShop.ablk.lz"
+
+SECTION "CasteliaMassage_BlockData", ROMX
+CasteliaMassage_BlockData:
+	INCBIN "maps/CasteliaMassage.ablk.lz"
+
+SECTION "CasteliaGameFreak_BlockData", ROMX
+CasteliaGameFreak_BlockData:
+	INCBIN "maps/CasteliaGameFreak.ablk.lz"
+
 ENDSECTION

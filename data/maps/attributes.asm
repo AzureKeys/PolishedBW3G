@@ -89,6 +89,9 @@ ENDM
 	map_attributes Route4House, ROUTE_4_HOUSE, $0, 0
 	map_attributes CasteliaTradeHouse1, CASTELIA_TRADE_HOUSE_1, $0, 0
 	map_attributes CasteliaTradeHouse2, CASTELIA_TRADE_HOUSE_2, $0, 0
+	map_attributes CasteliaBikeShop, CASTELIA_BIKE_SHOP, $0, 0
+	map_attributes CasteliaMassage, CASTELIA_MASSAGE, $0, 0
+	map_attributes CasteliaGameFreak, CASTELIA_GAME_FREAK, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
