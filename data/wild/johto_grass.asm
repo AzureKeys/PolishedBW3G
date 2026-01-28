@@ -1,7 +1,7 @@
 ; Johto Pokémon in grass
 
 def_grass_wildmons ROUTE_22
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	db 10 percent ; encounter rate
 	; morn
 	wildmon 3, RATTATA
 	wildmon 4, RATTATA

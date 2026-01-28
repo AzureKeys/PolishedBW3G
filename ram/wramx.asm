@@ -514,7 +514,11 @@ wDexCacheOwn:: dw
 wDexPrevCursorPos:: db
 wDexPrevOffset:: db
 
-	ds 32 ; unused
+wOptionsMenuValueCoord:: dw
+wOptionsMenuCursor:: db
+wOptionsMenuScrollPosition:: db
+
+	ds 28 ; unused
 
 wOverworldMapAnchor:: dw
 wMetatileStandingY:: db
@@ -1102,18 +1106,10 @@ wEmotePal:: db
 wOvercastRandomDay:: db
 wOvercastCurIntensity:: db
 wOvercastRandomMaps::
-wOvercastRandomMapIntensityJohto1:: db
-wOvercastRandomMapGroupJohto1:: db
-wOvercastRandomMapNumberJohto1:: db
-wOvercastRandomMapIntensityJohto2:: db
-wOvercastRandomMapGroupJohto2:: db
-wOvercastRandomMapNumberJohto2:: db
-wOvercastRandomMapIntensityKanto1:: db
-wOvercastRandomMapGroupKanto1:: db
-wOvercastRandomMapNumberKanto1:: db
-wOvercastRandomMapIntensityKanto2:: db
-wOvercastRandomMapGroupKanto2:: db
-wOvercastRandomMapNumberKanto2:: db
+	overcast_random_map Johto1
+	overcast_random_map Johto2
+	overcast_random_map Kanto1
+	overcast_random_map Kanto2
 
 	ds 143 ; unused
 	

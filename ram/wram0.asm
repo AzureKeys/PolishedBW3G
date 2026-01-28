@@ -1408,7 +1408,7 @@ wPrevWeather:: db
 wCurWeather:: db
 wPrevOvercastIndex:: db
 
-wPalStateIndex:: db
+wPalState:: db
 wPalWhiteState:: db
 
 wPalStates::
