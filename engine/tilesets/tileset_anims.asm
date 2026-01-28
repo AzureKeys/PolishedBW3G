@@ -109,16 +109,6 @@ TilesetJohto4Anim::
 	dw NULL,  DoNothing
 	dw vTiles2 tile $35, ReadTileFromBuffer
 	dw NULL,  DoneTileAnimation
-
-TilesetGym1Anim::
-	dw NULL,  LavaBubbleAnim2
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  LavaBubbleAnim1
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
 	
 TilesetEliteFourRoomAnim::
 	dw vTiles2 tile $57, WriteTileToBuffer
@@ -162,7 +152,7 @@ TilesetIcePathAnim::
 	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  DoneTileAnimation
 
-TilesetWarehouseAnim::
+TilesetUndergroundAnim::
 	dw NULL,  SpinnerAnimation
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -183,8 +173,8 @@ TilesetFacilityAnim::
 TilesetMartAnim::
 TilesetGameCornerAnim::
 TilesetHouse3Anim::
-TilesetGym2Anim::
-TilesetGym3Anim::
+TilesetMagnetTrainAnim::
+TilesetChampionsRoomAnim::
 TilesetBattleTowerAnim::
 TilesetBattleFactoryAnim::
 TilesetLentimasAnim::

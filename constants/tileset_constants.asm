@@ -10,7 +10,6 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_POKECENTER           ; 0e
 	const TILESET_MART                 ; 10
 	const TILESET_GATE                 ; 11
-	const TILESET_GYM                  ; 12
 	const TILESET_MAGNET_TRAIN         ; 13
 	const TILESET_CHAMPIONS_ROOM       ; 14
 	const TILESET_PORT                 ; 15

@@ -18,15 +18,14 @@ Tilesets::
 	tileset TilesetPokeCenter
 	tileset TilesetMart
 	tileset TilesetGate
-	tileset TilesetGym1
-	tileset TilesetGym2
-	tileset TilesetGym3
+	tileset TilesetMagnetTrain
+	tileset TilesetChampionsRoom
 	tileset TilesetPort
 	tileset TilesetLab
 	tileset TilesetFacility
 	tileset TilesetGameCorner
 	tileset TilesetBattleTower
-	tileset TilesetWarehouse
+	tileset TilesetUnderground
 	tileset TilesetCave
 	tileset TilesetIcePath
 	tileset TilesetBattleFactory
@@ -215,55 +214,38 @@ TilesetGateAttr:: INCBIN "data/tilesets/gate_attributes.bin.lz"
 TilesetGateColl:: INCBIN "data/tilesets/gate_collision.bin.lz"
 
 
-SECTION "Tileset Graphics - gym vram0", ROMX
-
-TilesetGym1GFX0:: INCBIN "gfx/tilesets/gym.2bpp.vram0.lz"
-
-
-SECTION "Tileset Graphics - gym vram1", ROMX
-
-TilesetGym1GFX1:: INCBIN "gfx/tilesets/gym.2bpp.vram1.lz"
-
-
-SECTION "Tileset Data - gym", ROMX
-
-TilesetGym1Meta:: INCBIN "data/tilesets/gym_metatiles.bin.lz"
-TilesetGym1Attr:: INCBIN "data/tilesets/gym_attributes.bin.lz"
-TilesetGym1Coll:: INCBIN "data/tilesets/gym_collision.bin.lz"
-
-
 SECTION "Tileset Graphics - magnet train vram0", ROMX
 
-TilesetGym2GFX0:: INCBIN "gfx/tilesets/magnet_train.2bpp.vram0.lz"
+TilesetMagnetTrainGFX0:: INCBIN "gfx/tilesets/magnet_train.2bpp.vram0.lz"
 
 
 SECTION "Tileset Graphics - magnet train vram1", ROMX
 
-TilesetGym2GFX1:: INCBIN "gfx/tilesets/magnet_train.2bpp.vram1.lz"
+TilesetMagnetTrainGFX1:: INCBIN "gfx/tilesets/magnet_train.2bpp.vram1.lz"
 
 
 SECTION "Tileset Data - magnet train", ROMX
 
-TilesetGym2Meta:: INCBIN "data/tilesets/magnet_train_metatiles.bin.lz"
-TilesetGym2Attr:: INCBIN "data/tilesets/magnet_train_attributes.bin.lz"
-TilesetGym2Coll:: INCBIN "data/tilesets/magnet_train_collision.bin.lz"
+TilesetMagnetTrainMeta:: INCBIN "data/tilesets/magnet_train_metatiles.bin.lz"
+TilesetMagnetTrainAttr:: INCBIN "data/tilesets/magnet_train_attributes.bin.lz"
+TilesetMagnetTrainColl:: INCBIN "data/tilesets/magnet_train_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - champions room vram0", ROMX
 
-TilesetGym3GFX0:: INCBIN "gfx/tilesets/champions_room.2bpp.vram0.lz"
+TilesetChampionsRoomGFX0:: INCBIN "gfx/tilesets/champions_room.2bpp.vram0.lz"
 
 
 SECTION "Tileset Graphics - champions room vram1", ROMX
 
-TilesetGym3GFX1:: INCBIN "gfx/tilesets/champions_room.2bpp.vram1.lz"
+TilesetChampionsRoomGFX1:: INCBIN "gfx/tilesets/champions_room.2bpp.vram1.lz"
 
 
 SECTION "Tileset Data - champions room", ROMX
 
-TilesetGym3Meta:: INCBIN "data/tilesets/champions_room_metatiles.bin.lz"
-TilesetGym3Attr:: INCBIN "data/tilesets/champions_room_attributes.bin.lz"
-TilesetGym3Coll:: INCBIN "data/tilesets/champions_room_collision.bin.lz"
+TilesetChampionsRoomMeta:: INCBIN "data/tilesets/champions_room_metatiles.bin.lz"
+TilesetChampionsRoomAttr:: INCBIN "data/tilesets/champions_room_attributes.bin.lz"
+TilesetChampionsRoomColl:: INCBIN "data/tilesets/champions_room_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - elite four room vram0", ROMX
@@ -370,19 +352,19 @@ TilesetBattleTowerColl:: INCBIN "data/tilesets/battle_tower_inside_collision.bin
 
 SECTION "Tileset Graphics - underground vram0", ROMX
 
-TilesetWarehouseGFX0:: INCBIN "gfx/tilesets/underground.2bpp.vram0.lz"
+TilesetUndergroundGFX0:: INCBIN "gfx/tilesets/underground.2bpp.vram0.lz"
 
 
 SECTION "Tileset Graphics - underground vram1", ROMX
 
-TilesetWarehouseGFX1:: INCBIN "gfx/tilesets/underground.2bpp.vram1.lz"
+TilesetUndergroundGFX1:: INCBIN "gfx/tilesets/underground.2bpp.vram1.lz"
 
 
 SECTION "Tileset Data - underground", ROMX
 
-TilesetWarehouseMeta:: INCBIN "data/tilesets/underground_metatiles.bin.lz"
-TilesetWarehouseAttr:: INCBIN "data/tilesets/underground_attributes.bin.lz"
-TilesetWarehouseColl:: INCBIN "data/tilesets/underground_collision.bin.lz"
+TilesetUndergroundMeta:: INCBIN "data/tilesets/underground_metatiles.bin.lz"
+TilesetUndergroundAttr:: INCBIN "data/tilesets/underground_attributes.bin.lz"
+TilesetUndergroundColl:: INCBIN "data/tilesets/underground_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - cave vram0", ROMX
@@ -563,16 +545,15 @@ TilesetHouse3GFX2::
 TilesetPokeCenterGFX2::
 TilesetMartGFX2::
 TilesetGateGFX2::
-TilesetGym1GFX2::
-TilesetGym2GFX2::
-TilesetGym3GFX2::
+TilesetMagnetTrainGFX2::
+TilesetChampionsRoomGFX2::
 TilesetEliteFourRoomGFX2::
 TilesetPortGFX2::
 TilesetLabGFX2::
 TilesetFacilityGFX2::
 TilesetGameCornerGFX2::
 TilesetBattleTowerGFX2::
-TilesetWarehouseGFX2::
+TilesetUndergroundGFX2::
 TilesetCaveGFX2::
 TilesetIcePathGFX2::
 TilesetTunnelGFX2::
