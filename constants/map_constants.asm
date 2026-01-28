@@ -137,5 +137,10 @@ ENDM
 	map_const CASTELIA_POKECENTER,                         5,  5 ; 10
 	map_const CASTELIA_SKYARROW_BRIDGE_GATE,               6,  9 ; 11
 	map_const CASTELIA_PORT,                               5,  4 ; 12
+	map_const CASTELIA_PLAZA_LOBBY,                        6,  4 ; 13
+	map_const CASTELIA_PLAZA_GAME_CORNER,                  9,  6 ; 14
+	map_const CASTELIA_PLAZA_PRIZE_ROOM,                   8,  3 ; 15
+	map_const CASTELIA_PLAZA_RESTAURANT,                   7,  6 ; 16
+	map_const CASTELIA_PLAZA_ELEVATOR,                     2,  2 ; 17
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

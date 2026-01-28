@@ -95,6 +95,11 @@ ENDM
 	map_attributes CasteliaGameFreak, CASTELIA_GAME_FREAK, $0, 0
 	map_attributes CasteliaPokecenter, CASTELIA_POKECENTER, $0, 0
 	map_attributes CasteliaPort, CASTELIA_PORT, $0, 0
+	map_attributes CasteliaPlazaLobby, CASTELIA_PLAZA_LOBBY, $0, 0
+	map_attributes CasteliaPlazaGameCorner, CASTELIA_PLAZA_GAME_CORNER, $0, 0
+	map_attributes CasteliaPlazaPrizeRoom, CASTELIA_PLAZA_PRIZE_ROOM, $0, 0
+	map_attributes CasteliaPlazaRestaurant, CASTELIA_PLAZA_RESTAURANT, $0, 0
+	map_attributes CasteliaPlazaElevator, CASTELIA_PLAZA_ELEVATOR, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

@@ -299,4 +299,24 @@ SECTION "CasteliaPort_BlockData", ROMX
 CasteliaPort_BlockData:
 	INCBIN "maps/CasteliaPort.ablk.lz"
 
+SECTION "CasteliaPlazaLobby_BlockData", ROMX
+CasteliaPlazaLobby_BlockData:
+	INCBIN "maps/CasteliaPlazaLobby.ablk.lz"
+
+SECTION "CasteliaPlazaGameCorner_BlockData", ROMX
+CasteliaPlazaGameCorner_BlockData:
+	INCBIN "maps/CasteliaPlazaGameCorner.ablk.lz"
+
+SECTION "CasteliaPlazaPrizeRoom_BlockData", ROMX
+CasteliaPlazaPrizeRoom_BlockData:
+	INCBIN "maps/CasteliaPlazaPrizeRoom.ablk.lz"
+
+SECTION "CasteliaPlazaRestaurant_BlockData", ROMX
+CasteliaPlazaRestaurant_BlockData:
+	INCBIN "maps/CasteliaPlazaRestaurant.ablk.lz"
+
+SECTION "CasteliaPlazaElevator_BlockData", ROMX
+CasteliaPlazaElevator_BlockData:
+	INCBIN "maps/CasteliaPlazaElevator.ablk.lz"
+
 ENDSECTION

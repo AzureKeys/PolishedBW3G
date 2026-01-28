@@ -16,6 +16,7 @@ CasteliaCitySouth_MapScriptHeader:
 	warp_event 55,  5, CASTELIA_SKYARROW_BRIDGE_GATE, 1
 	warp_event  4,  6, CASTELIA_PORT, 1
 	warp_event  4,  7, CASTELIA_PORT, 2
+	warp_event 12,  7, CASTELIA_PLAZA_LOBBY, 1
 
 	def_coord_events
 

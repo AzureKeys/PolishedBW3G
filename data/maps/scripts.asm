@@ -143,6 +143,11 @@ INCLUDE "maps/CasteliaGym.asm"
 INCLUDE "maps/CasteliaPokecenter.asm"
 INCLUDE "maps/CasteliaSkyarrowBridgeGate.asm"
 INCLUDE "maps/CasteliaPort.asm"
+INCLUDE "maps/CasteliaPlazaLobby.asm"
+INCLUDE "maps/CasteliaPlazaGameCorner.asm"
+INCLUDE "maps/CasteliaPlazaPrizeRoom.asm"
+INCLUDE "maps/CasteliaPlazaRestaurant.asm"
+INCLUDE "maps/CasteliaPlazaElevator.asm"
 
 
 ENDSECTION
