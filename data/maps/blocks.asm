@@ -319,4 +319,12 @@ SECTION "CasteliaPlazaElevator_BlockData", ROMX
 CasteliaPlazaElevator_BlockData:
 	INCBIN "maps/CasteliaPlazaElevator.ablk.lz"
 
+SECTION "BattleCompany1F_BlockData", ROMX
+BattleCompany1F_BlockData:
+	INCBIN "maps/BattleCompany1F.ablk.lz"
+
+SECTION "BattleCompany2F_BlockData", ROMX
+BattleCompany2F_BlockData:
+	INCBIN "maps/BattleCompany2F.ablk.lz"
+
 ENDSECTION

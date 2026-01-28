@@ -142,5 +142,7 @@ ENDM
 	map_const CASTELIA_PLAZA_PRIZE_ROOM,                   8,  3 ; 15
 	map_const CASTELIA_PLAZA_RESTAURANT,                   7,  6 ; 16
 	map_const CASTELIA_PLAZA_ELEVATOR,                     2,  2 ; 17
+	map_const BATTLE_COMPANY_1F,                           4,  4 ; 18
+	map_const BATTLE_COMPANY_2F,                           4,  4 ; 19
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

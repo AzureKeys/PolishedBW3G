@@ -148,6 +148,8 @@ INCLUDE "maps/CasteliaPlazaGameCorner.asm"
 INCLUDE "maps/CasteliaPlazaPrizeRoom.asm"
 INCLUDE "maps/CasteliaPlazaRestaurant.asm"
 INCLUDE "maps/CasteliaPlazaElevator.asm"
+INCLUDE "maps/BattleCompany1F.asm"
+INCLUDE "maps/BattleCompany2F.asm"
 
 
 ENDSECTION

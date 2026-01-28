@@ -17,6 +17,7 @@ CasteliaCitySouth_MapScriptHeader:
 	warp_event  4,  6, CASTELIA_PORT, 1
 	warp_event  4,  7, CASTELIA_PORT, 2
 	warp_event 12,  7, CASTELIA_PLAZA_LOBBY, 1
+	warp_event 26, 11, BATTLE_COMPANY_1F, 1
 
 	def_coord_events
 

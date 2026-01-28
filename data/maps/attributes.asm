@@ -100,6 +100,8 @@ ENDM
 	map_attributes CasteliaPlazaPrizeRoom, CASTELIA_PLAZA_PRIZE_ROOM, $0, 0
 	map_attributes CasteliaPlazaRestaurant, CASTELIA_PLAZA_RESTAURANT, $0, 0
 	map_attributes CasteliaPlazaElevator, CASTELIA_PLAZA_ELEVATOR, $0, 0
+	map_attributes BattleCompany1F, BATTLE_COMPANY_1F, $0, 0
+	map_attributes BattleCompany2F, BATTLE_COMPANY_2F, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
