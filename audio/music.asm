@@ -216,4 +216,7 @@ INCLUDE "audio/music/desert.asm"
 SECTION "Song - casteliacity", ROMX
 INCLUDE "audio/music/casteliacity.asm"
 
+SECTION "Song - sewers", ROMX
+INCLUDE "audio/music/sewers.asm"
+
 ENDSECTION

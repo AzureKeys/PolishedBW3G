@@ -327,4 +327,8 @@ SECTION "BattleCompany2F_BlockData", ROMX
 BattleCompany2F_BlockData:
 	INCBIN "maps/BattleCompany2F.ablk.lz"
 
+SECTION "NimbasaParkCoasterRoom_BlockData", ROMX
+NimbasaParkCoasterRoom_BlockData:
+	INCBIN "maps/NimbasaParkCoasterRoom.ablk.lz"
+
 ENDSECTION

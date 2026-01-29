@@ -113,6 +113,7 @@ INCLUDE "maps/NimbasaSubway.asm"
 SECTION "Nimbasa Park Scripts", ROMX
 
 INCLUDE "maps/NimbasaParkOutside.asm"
+INCLUDE "maps/NimbasaParkCoasterRoom.asm"
 
 
 SECTION "Desert Scripts", ROMX
