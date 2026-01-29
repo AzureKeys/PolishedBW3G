@@ -24,6 +24,7 @@ MapScenes::
 	scene_var LENTIMAS_GYM,                           wAlways0SceneID
 	scene_var LENTIMAS_TOWN,                          wAlways0SceneID
 	scene_var LOSTLORN_FOREST,                        wLostlornForestSceneID
+	scene_var NIMBASA_PARK_BASEMENT,                  wNimbasaParkBasementSceneID
 	scene_var NIMBASA_PARK_COASTER_ROOM,              wNimbasaParkCoasterRoomSceneID
 	scene_var NIMBASA_PARK_OUTSIDE,                   wNimbasaParkOutsideSceneID
 	scene_var NIMBASA_SUBWAY,                         wAlways0SceneID

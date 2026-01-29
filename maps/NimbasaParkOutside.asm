@@ -94,7 +94,7 @@ NimbasaParkOutside_BlockerLeaveScene:
 	done
 
 NimbasaParkOutside_GivePassScene:
-	moveobject NIMBASAPARKOUTSIDE_CHEREN, 40, 8
+	moveobject NIMBASAPARKOUTSIDE_CHEREN, 40,  8
 	appear NIMBASAPARKOUTSIDE_CHEREN
 	turnobject PLAYER, LEFT
 	special Special_FadeOutMusic

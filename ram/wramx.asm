@@ -1077,6 +1077,7 @@ wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
 wLostlornForestSceneID:: db
+wNimbasaParkBasementSceneID:: db
 wNimbasaParkCoasterRoomSceneID:: db
 wNimbasaParkOutsideSceneID:: db
 wPlayersHouse1FSceneID:: db
@@ -1112,7 +1113,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 142 ; unused
+	ds 141 ; unused
 	
 wCandyAmounts::
 wExpCandyXSAmount:: db

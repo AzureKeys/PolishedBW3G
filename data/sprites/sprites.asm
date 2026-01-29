@@ -19,9 +19,9 @@ SpriteHeaders:
 	overworld_sprite ShauntalSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite BurghSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite RoxieSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite CherenSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite CherenSpriteGFX, WALKING_SPRITE, PAL_OW_AZURE
 	overworld_sprite CilanSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
-	overworld_sprite SkylaSpriteGFX, WALKING_SPRITE, PAL_OW_AZURE
+	overworld_sprite SkylaSpriteGFX, WALKING_SPRITE, PAL_OW_TEAL
 	overworld_sprite DraydenSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite MarshalSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite GrimsleySpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
@@ -75,7 +75,7 @@ SpriteHeaders:
 	overworld_sprite PurrloinSideSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite CaitlinSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite SleepingManSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite StevenSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite ShadowSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite CynthiaSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
 	overworld_sprite CandelaSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite BlancheSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE

@@ -7,7 +7,7 @@ NimbasaParkRunway_MapScriptHeader:
 	def_warp_events
 	warp_event  4, 25, NIMBASA_PARK_OUTSIDE, 4
 	warp_event  5, 25, NIMBASA_PARK_OUTSIDE, 4
-	;warp_event  3,  2, NIMBASA_PARK_BASEMENT, 1
+	warp_event  3,  2, NIMBASA_PARK_BASEMENT, 1
 
 	def_coord_events
 

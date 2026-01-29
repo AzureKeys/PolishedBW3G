@@ -50,8 +50,8 @@ NimbasaFlyPoint:
 	
 NimbasaCityBugCatcherScript:
 	faceplayer
-	;checkmapscene NIMBASA_PARK_BASEMENT
-	;ifequalfwd 2, .GruntsGone
+	checkmapscene NIMBASA_PARK_BASEMENT
+	ifequalfwd 2, .GruntsGone
 	jumpthistext
 	text "A mean man was"
 	line "standing outside"

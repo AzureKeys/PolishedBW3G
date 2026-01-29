@@ -335,4 +335,8 @@ SECTION "NimbasaParkRunway_BlockData", ROMX
 NimbasaParkRunway_BlockData:
 	INCBIN "maps/NimbasaParkRunway.ablk.lz"
 
+SECTION "NimbasaParkBasement_BlockData", ROMX
+NimbasaParkBasement_BlockData:
+	INCBIN "maps/NimbasaParkBasement.ablk.lz"
+
 ENDSECTION

@@ -202,8 +202,8 @@ CaitlinSpriteGFX:: INCBIN "gfx/sprites/caitlin.2bpp.lz"
 SECTION "SleepingManSpriteGFX", ROMX
 SleepingManSpriteGFX:: INCBIN "gfx/sprites/sleeping_man.2bpp.lz"
 
-SECTION "StevenSpriteGFX", ROMX
-StevenSpriteGFX:: INCBIN "gfx/sprites/steven.2bpp.lz"
+SECTION "ShadowSpriteGFX", ROMX
+ShadowSpriteGFX:: INCBIN "gfx/sprites/shadow.2bpp.lz"
 
 SECTION "CynthiaSpriteGFX", ROMX
 CynthiaSpriteGFX:: INCBIN "gfx/sprites/cynthia.2bpp.lz"
