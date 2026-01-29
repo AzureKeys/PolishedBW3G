@@ -125,6 +125,7 @@ NimbasaParkCoasterRoomSwitch3Script:
 	waitsfx
 	waitbutton
 	closetext
+	setevent EVENT_NIMBASA_PARK_RUNWAY_CHEREN ; disappear Cheren from Runway
 	specialphonecall SPECIALCALL_CHEREN_NIMBASA
 .done
 	end

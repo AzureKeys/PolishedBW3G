@@ -331,4 +331,8 @@ SECTION "NimbasaParkCoasterRoom_BlockData", ROMX
 NimbasaParkCoasterRoom_BlockData:
 	INCBIN "maps/NimbasaParkCoasterRoom.ablk.lz"
 
+SECTION "NimbasaParkRunway_BlockData", ROMX
+NimbasaParkRunway_BlockData:
+	INCBIN "maps/NimbasaParkRunway.ablk.lz"
+
 ENDSECTION

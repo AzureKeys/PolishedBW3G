@@ -12,6 +12,7 @@ NimbasaParkOutside_MapScriptHeader:
 	warp_event  4,  8, NIMBASA_CITY, 15
 	warp_event  4,  9, NIMBASA_CITY, 16
 	warp_event 20,  5, NIMBASA_PARK_COASTER_ROOM, 1
+	warp_event 41,  7, NIMBASA_PARK_RUNWAY, 1
 
 	def_coord_events
 	coord_event  7,  9, 0, NimbasaParkBlockerScript
