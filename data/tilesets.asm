@@ -37,13 +37,15 @@ Tilesets::
 	tileset TilesetDesert
 	tileset TilesetCastelia
 	tileset TilesetUnovaBeach
+	tileset TilesetUnovaWest
 	tileset TilesetHiddenGrotto
 	assert_table_length NUM_TILESETS
 
 
 SECTION "Tileset Graphics - unova common vram0", ROMX
 
-TilesetUnovaBeachGFX0:: INCBIN "gfx/tilesets/unova_common.2bpp.lz"
+TilesetUnovaBeachGFX0::
+TilesetUnovaWestGFX0:: INCBIN "gfx/tilesets/unova_common.2bpp.lz"
 
 
 SECTION "Tileset Graphics - unova beach vram1", ROMX
@@ -56,6 +58,18 @@ SECTION "Tileset Data - unova beach", ROMX
 TilesetUnovaBeachMeta:: INCBIN "data/tilesets/unova_beach_metatiles.bin.lz"
 TilesetUnovaBeachAttr:: INCBIN "data/tilesets/unova_beach_attributes.bin.lz"
 TilesetUnovaBeachColl:: INCBIN "data/tilesets/unova_beach_collision.bin.lz"
+
+
+SECTION "Tileset Graphics - unova west vram1", ROMX
+
+TilesetUnovaWestGFX1:: INCBIN "gfx/tilesets/unova_west.unova_common.2bpp.vram0.lz"
+
+
+SECTION "Tileset Data - unova west", ROMX
+
+TilesetUnovaWestMeta:: INCBIN "data/tilesets/unova_west_metatiles.bin.lz"
+TilesetUnovaWestAttr:: INCBIN "data/tilesets/unova_west_attributes.bin.lz"
+TilesetUnovaWestColl:: INCBIN "data/tilesets/unova_west_collision.bin.lz"
 
 
 SECTION "Tileset Graphics - johto common vram0", ROMX
@@ -539,6 +553,7 @@ TilesetHiddenGrottoColl:: INCBIN "data/tilesets/hidden_grotto_collision.bin.lz"
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
 TilesetUnovaBeachGFX2::
+TilesetUnovaWestGFX2::
 TilesetJohto4GFX2::
 TilesetHouse1GFX2::
 TilesetHouse3GFX2::

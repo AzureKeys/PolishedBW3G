@@ -30,6 +30,7 @@ _AnimateTileset::
 	jmp IndirectHL
 	
 TilesetUnovaBeachAnim::
+TilesetUnovaWestAnim::
 TilesetForestAnim::
 TilesetNimbasaAnim::
 TilesetParkAnim::
