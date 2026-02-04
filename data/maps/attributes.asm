@@ -106,6 +106,10 @@ ENDM
 	map_attributes CasteliaPlazaElevator, CASTELIA_PLAZA_ELEVATOR, $0, 0
 	map_attributes BattleCompany1F, BATTLE_COMPANY_1F, $0, 0
 	map_attributes BattleCompany2F, BATTLE_COMPANY_2F, $0, 0
+	map_attributes AspertiaSubway, ASPERTIA_SUBWAY, $0, 0
+	map_attributes AspertiaPokecenter, ASPERTIA_POKECENTER, $0, 0
+	map_attributes AspertiaBlackbeltHouse, ASPERTIA_BLACKBELT_HOUSE, $0, 0
+	map_attributes AspertiaMoveDeleter, ASPERTIA_MOVE_DELETER, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -118,6 +122,7 @@ ENDM
 	map_attributes Route4DesertGate, ROUTE_4_DESERT_GATE, $0, 0
 	map_attributes Route4CasteliaGate, ROUTE_4_CASTELIA_GATE, $0, 0
 	map_attributes CasteliaSkyarrowBridgeGate, CASTELIA_SKYARROW_BRIDGE_GATE, $0, 0
+	map_attributes Route19AspertiaGate, ROUTE_19_ASPERTIA_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

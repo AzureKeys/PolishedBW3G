@@ -158,6 +158,11 @@ INCLUDE "maps/BattleCompany2F.asm"
 SECTION "Aspertia Scripts", ROMX
 
 INCLUDE "maps/AspertiaCity.asm"
+INCLUDE "maps/AspertiaSubway.asm"
+INCLUDE "maps/AspertiaPokecenter.asm"
+INCLUDE "maps/AspertiaBlackbeltHouse.asm"
+INCLUDE "maps/AspertiaMoveDeleter.asm"
+INCLUDE "maps/Route19AspertiaGate.asm"
 
 
 ENDSECTION

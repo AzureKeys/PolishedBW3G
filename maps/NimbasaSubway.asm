@@ -6,8 +6,8 @@ NimbasaSubway_MapScriptHeader:
 	def_warp_events
 	warp_event  8, 17, NIMBASA_CITY, 11
 	warp_event  9, 17, NIMBASA_CITY, 12
-	;warp_event  6,  5, ASPERTIA_SUBWAY, 2
-	;warp_event 11,  5, ASPERTIA_SUBWAY, 1
+	warp_event  6,  5, ASPERTIA_SUBWAY, 2
+	warp_event 11,  5, ASPERTIA_SUBWAY, 1
 
 	def_coord_events
 	coord_event 11,  6, 0, NimbasaSubway_ArriveScript

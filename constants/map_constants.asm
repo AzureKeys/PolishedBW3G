@@ -150,5 +150,10 @@ ENDM
 	
 	newgroup                                                     ; 10
 	map_const ASPERTIA_CITY,                              14, 22 ;  1
+	map_const ASPERTIA_SUBWAY,                            10,  9 ;  2
+	map_const ASPERTIA_POKECENTER,                         5,  5 ;  3
+	map_const ASPERTIA_BLACKBELT_HOUSE,                    4,  4 ;  4
+	map_const ASPERTIA_MOVE_DELETER,                       4,  4 ;  5
+	map_const ROUTE_19_ASPERTIA_GATE,                      5,  4 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

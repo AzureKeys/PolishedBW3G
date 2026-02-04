@@ -8,22 +8,6 @@ NimbasaBallMart_BlockData:
 NimbasaTMMart_BlockData:
 NimbasaVitaminMart_BlockData:
 	INCBIN "maps/Mart.ablk.lz"
-
-SECTION "TradeCenter_BlockData", ROMX
-TradeCenter_BlockData:
-	INCBIN "maps/TradeCenter.ablk.lz"
-
-SECTION "Colosseum_BlockData", ROMX
-Colosseum_BlockData:
-	INCBIN "maps/Colosseum.ablk.lz"
-
-SECTION "HiddenTreeGrotto_BlockData", ROMX
-HiddenTreeGrotto_BlockData:
-	INCBIN "maps/HiddenTreeGrotto.ablk.lz"
-
-SECTION "HiddenCaveGrotto_BlockData", ROMX
-HiddenCaveGrotto_BlockData:
-	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 	
 SECTION "Pokecenter_Blockdata", ROMX
 HumilauPokecenter_BlockData:
@@ -32,6 +16,7 @@ UndellaPokecenter_BlockData:
 LentimasPokecenter_BlockData:
 NimbasaPokecenter_BlockData:
 CasteliaPokecenter_BlockData:
+AspertiaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -40,6 +25,8 @@ HumilauTradeHouse_BlockData:
 LacunosaSpeechHouse_BlockData:
 LacunosaBerryHouse_BlockData:
 UndellaFishingGuruHouse_BlockData:
+AspertiaBlackbeltHouse_BlockData:
+AspertiaMoveDeleter_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -65,6 +52,7 @@ SECTION "NorthSouthGate_BlockData", ROMX
 Route13UndellaTownGate_BlockData:
 Route4DesertGate_BlockData:
 Route4CasteliaGate_BlockData:
+Route19AspertiaGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lz"
 
 SECTION "LentimasLostlornGate_BlockData", ROMX
@@ -82,6 +70,22 @@ CasteliaSkyarrowBridgeGate_BlockData:
 SECTION "Truck_BlockData", ROMX
 Route5Truck_BlockData:
 	INCBIN "maps/Truck.ablk.lz"
+
+SECTION "TradeCenter_BlockData", ROMX
+TradeCenter_BlockData:
+	INCBIN "maps/TradeCenter.ablk.lz"
+
+SECTION "Colosseum_BlockData", ROMX
+Colosseum_BlockData:
+	INCBIN "maps/Colosseum.ablk.lz"
+
+SECTION "HiddenTreeGrotto_BlockData", ROMX
+HiddenTreeGrotto_BlockData:
+	INCBIN "maps/HiddenTreeGrotto.ablk.lz"
+
+SECTION "HiddenCaveGrotto_BlockData", ROMX
+HiddenCaveGrotto_BlockData:
+	INCBIN "maps/HiddenCaveGrotto.ablk.lz"
 
 SECTION "PlayersHouse1F_BlockData", ROMX
 PlayersHouse1F_BlockData:
@@ -342,5 +346,9 @@ NimbasaParkBasement_BlockData:
 SECTION "AspertiaCity_BlockData", ROMX
 AspertiaCity_BlockData:
 	INCBIN "maps/AspertiaCity.ablk.lz"
+
+SECTION "AspertiaSubway_BlockData", ROMX
+AspertiaSubway_BlockData:
+	INCBIN "maps/AspertiaSubway.ablk.lz"
 
 ENDSECTION
