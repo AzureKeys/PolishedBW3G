@@ -351,4 +351,8 @@ SECTION "AspertiaSubway_BlockData", ROMX
 AspertiaSubway_BlockData:
 	INCBIN "maps/AspertiaSubway.ablk.lz"
 
+SECTION "AspertiaMomHouse_BlockData", ROMX
+AspertiaMomHouse_BlockData:
+	INCBIN "maps/AspertiaMomHouse.ablk.lz"
+
 ENDSECTION
