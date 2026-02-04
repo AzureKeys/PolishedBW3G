@@ -87,6 +87,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_LENTIMAS
 	engine_flag wVisitedSpawns, SPAWN_NIMBASA
 	engine_flag wVisitedSpawns, SPAWN_CASTELIA
+	engine_flag wVisitedSpawns, SPAWN_ASPERTIA
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

@@ -28,6 +28,7 @@ MapGroupPointers::
 	dw MapGroupNimbasa
 	dw MapGroupDesert
 	dw MapGroupCastelia
+	dw MapGroupAspertia
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -152,3 +153,5 @@ MapGroupCastelia:
 	map BattleCompany1F, TILESET_GATE, INDOOR, SIGN_BUILDING, CASTELIA_CITY, MUSIC_CASTELIA_CITY, 1, PALETTE_DAY
 	map BattleCompany2F, TILESET_GATE, INDOOR, SIGN_BUILDING, CASTELIA_CITY, MUSIC_CASTELIA_CITY, 1, PALETTE_DAY
 	
+MapGroupAspertia:
+	map AspertiaCity, TILESET_UNOVA_WEST, TOWN, SIGN_CITY, ASPERTIA_CITY, MUSIC_ASPERTIA_CITY, 0, PALETTE_AUTO

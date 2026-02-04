@@ -77,4 +77,5 @@ Music:
 	dba Music_RoadToReversalMountain
 	dba Music_CasteliaCity
 	dba Music_CasteliaSewers
+	dba Music_AspertiaCity
 	assert_table_length NUM_MUSIC_SONGS

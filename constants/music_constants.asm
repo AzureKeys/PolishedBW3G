@@ -77,6 +77,7 @@
 	const MUSIC_DESERT                         ; 49
 	const MUSIC_CASTELIA_CITY                  ; 4a
 	const MUSIC_SEWERS                         ; 4b
+	const MUSIC_ASPERTIA_CITY                  ; 4c
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

@@ -14,4 +14,5 @@ MapGroupRoofs:
 	db -1            ; Nimbasa
 	db -1            ; Desert
 	db -1            ; Castelia
+	db -1            ; Aspertia
 	assert_table_length NUM_MAP_GROUPS + 1

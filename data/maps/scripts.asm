@@ -155,4 +155,9 @@ INCLUDE "maps/BattleCompany1F.asm"
 INCLUDE "maps/BattleCompany2F.asm"
 
 
+SECTION "Aspertia Scripts", ROMX
+
+INCLUDE "maps/AspertiaCity.asm"
+
+
 ENDSECTION

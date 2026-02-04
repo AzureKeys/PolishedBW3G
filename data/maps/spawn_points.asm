@@ -16,6 +16,7 @@ SpawnPoints:
 	spawn LENTIMAS_TOWN,              25, 14
 	spawn NIMBASA_CITY,               15, 24
 	spawn CASTELIA_CITY_SOUTH,        39,  8
+	spawn ASPERTIA_CITY,              15, 24
 
 	spawn N_A,                        -1, -1
 

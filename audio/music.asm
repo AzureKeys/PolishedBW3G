@@ -219,4 +219,7 @@ INCLUDE "audio/music/casteliacity.asm"
 SECTION "Song - sewers", ROMX
 INCLUDE "audio/music/sewers.asm"
 
+SECTION "Song - aspertiacity", ROMX
+INCLUDE "audio/music/aspertiacity.asm"
+
 ENDSECTION

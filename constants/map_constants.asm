@@ -148,4 +148,7 @@ ENDM
 	map_const BATTLE_COMPANY_1F,                           4,  4 ; 18
 	map_const BATTLE_COMPANY_2F,                           4,  4 ; 19
 	
+	newgroup                                                     ; 10
+	map_const ASPERTIA_CITY,                              14, 22 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

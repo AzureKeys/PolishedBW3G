@@ -339,4 +339,8 @@ SECTION "NimbasaParkBasement_BlockData", ROMX
 NimbasaParkBasement_BlockData:
 	INCBIN "maps/NimbasaParkBasement.ablk.lz"
 
+SECTION "AspertiaCity_BlockData", ROMX
+AspertiaCity_BlockData:
+	INCBIN "maps/AspertiaCity.ablk.lz"
+
 ENDSECTION
