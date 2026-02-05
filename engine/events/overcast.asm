@@ -67,6 +67,12 @@ GetOvercastIndex::
 	ld a, STORMY_BEACH_OVERCAST
 	ret
 
+.overcast_route_9
+	ld a, OVERCAST_INTENSITY_RAIN
+	ld [wOvercastCurIntensity], a
+	ld a, ROUTE_10_OVERCAST
+	ret
+
 CheckGenericOvercast:
 	; Skip indoor/cave/gate/dungeon environments
 	ld a, [wEnvironment]

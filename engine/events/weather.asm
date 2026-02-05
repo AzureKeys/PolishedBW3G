@@ -70,20 +70,18 @@ SetCurrentWeather::
 	; ld a, OW_WEATHER_SNOW
 	; jr .set_weather
 
-; .not_snowing
-	; ld a, [wMapGroup]
-	; cp GROUP_RUGGED_ROAD_NORTH
-	; jr nz, .no_sandstorm
-	; ld a, [wMapNumber]
-	; cp MAP_RUGGED_ROAD_NORTH
-	; jr z, .sandstorm
-	; cp MAP_RUGGED_ROAD_SOUTH
-	; jr nz, .no_sandstorm
-; .sandstorm
-	; ld a, OW_WEATHER_SANDSTORM
-	; jr .set_weather
+.not_snowing
+	ld a, [wMapGroup]
+	cp GROUP_DESERT_RESORT
+	jr nz, .no_sandstorm
+	ld a, [wMapNumber]
+	cp MAP_DESERT_RESORT
+	jr nz, .no_sandstorm
+.sandstorm
+	ld a, OW_WEATHER_SANDSTORM
+	jr .set_weather
 
-; .no_sandstorm
+.no_sandstorm
 	; ld a, [wMapGroup]
 	; cp GROUP_CHERRYGROVE_CITY
 	; jr nz, .no_weather

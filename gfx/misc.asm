@@ -4,7 +4,7 @@ NewBarkRoofGFX::   INCBIN "gfx/tilesets/roofs/new_bark.2bpp.lz"
 VioletRoofGFX::    INCBIN "gfx/tilesets/roofs/violet.2bpp.lz"
 AzaleaRoofGFX::    INCBIN "gfx/tilesets/roofs/azalea.2bpp.lz"
 OlivineRoofGFX::   INCBIN "gfx/tilesets/roofs/olivine.2bpp.lz"
-StatueRoofGFX::    INCBIN "gfx/tilesets/roofs/statue.2bpp.lz"
+GoldenrodRoofGFX:: INCBIN "gfx/tilesets/roofs/goldenrod.2bpp.lz"
 
 
 SECTION "Map Name Sign Graphics", ROMX
