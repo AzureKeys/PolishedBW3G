@@ -78,4 +78,5 @@ Music:
 	dba Music_CasteliaCity
 	dba Music_CasteliaSewers
 	dba Music_AspertiaCity
+	dba Music_OldaleTown
 	assert_table_length NUM_MUSIC_SONGS

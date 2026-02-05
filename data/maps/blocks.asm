@@ -363,4 +363,8 @@ SECTION "Route19_BlockData", ROMX
 Route19_BlockData:
 	INCBIN "maps/Route19.ablk.lz"
 
+SECTION "FloccesyTown_BlockData", ROMX
+FloccesyTown_BlockData:
+	INCBIN "maps/FloccesyTown.ablk.lz"
+
 ENDSECTION

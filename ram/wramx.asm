@@ -1073,6 +1073,7 @@ wCaitlinsHouseSceneID:: db
 wCasteliaCityStreetsSceneID:: db
 wCasteliaPortSceneID:: db
 wColosseumSceneID:: db
+wFloccesyTownSceneID:: db
 wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
@@ -1113,7 +1114,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 141 ; unused
+	ds 140 ; unused
 	
 wCandyAmounts::
 wExpCandyXSAmount:: db

@@ -160,5 +160,6 @@ ENDM
 	
 	newgroup                                                     ; 11
 	map_const ROUTE_19,                                   21, 13 ;  1
+	map_const FLOCCESY_TOWN,                              13, 17 ;  2
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
