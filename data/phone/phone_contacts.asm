@@ -19,7 +19,7 @@ PhoneContacts:
 	phone CYCLISTM,     CYCLISTM_LENTIMAS,         LENTIMAS_OUTSKIRT,  %1111, FreddyPhoneScript,   %0000, UnusedPhoneScript
 	phone DANCER,       DANCER_R5_1,               ROUTE_5,            %1111, EricPhoneScript,     %0000, UnusedPhoneScript
 	phone LADY,         LADY_R4,                   ROUTE_4,            %1111, LaceyPhoneScript,    %0000, UnusedPhoneScript
-	; phone MAID,         MAID_R19,                  ROUTE_19,           %1111, SophiePhoneScript,   %0000, UnusedPhoneScript
+	phone MAID,         MAID_R19,                  ROUTE_19,           %1111, SophiePhoneScript,   %0000, UnusedPhoneScript
 	; phone PKMN_RANGERF, PKMN_RANGERF_R3,           ROUTE_3,            %1111, ArianaPhoneScript,   %0000, UnusedPhoneScript
 	; phone LASS_D,       LASS_R2,                   ROUTE_2,            %1111, CarlaPhoneScript,    %0000, UnusedPhoneScript
 	; phone MAID,         MAID_R1,                   ROUTE_1,            %1111, ClarissaPhoneScript, %0000, UnusedPhoneScript
@@ -28,7 +28,6 @@ PhoneContacts:
 	; phone BACKPACKERM,  BACKPACKERM_R7,            ROUTE_7_NORTH,      %1111, ParkerPhoneScript,   %0000, UnusedPhoneScript
 	; phone LINEBACKER,   LINEBACKER_VILLAGE_BRIDGE, VILLAGE_BRIDGE,     %1111, DeanPhoneScript,     %0000, UnusedPhoneScript
 	; phone PARASOL_LADY, PARASOL_LADY_R8,           ROUTE_8,            %1111, LoisPhoneScript,     %0000, UnusedPhoneScript
-	phone YOUNGSTER,    YOUNGSTER_R13,             ROUTE_13,           %1111, DanPhoneScript,      %0000, UnusedPhoneScript
 	phone YOUNGSTER,    YOUNGSTER_R13,             ROUTE_13,           %1111, DanPhoneScript,      %0000, UnusedPhoneScript
 	phone YOUNGSTER,    YOUNGSTER_R13,             ROUTE_13,           %1111, DanPhoneScript,      %0000, UnusedPhoneScript
 	phone YOUNGSTER,    YOUNGSTER_R13,             ROUTE_13,           %1111, DanPhoneScript,      %0000, UnusedPhoneScript

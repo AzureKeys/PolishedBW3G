@@ -29,6 +29,7 @@ MapGroupPointers::
 	dw MapGroupDesert
 	dw MapGroupCastelia
 	dw MapGroupAspertia
+	dw MapGroupFloccesy
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -162,4 +163,7 @@ MapGroupAspertia:
 	map Route19AspertiaGate, TILESET_GATE, GATE, SIGN_BUILDING, ASPERTIA_CITY, MUSIC_ASPERTIA_CITY, 1, PALETTE_DAY
 	map AspertiaMomHouse, TILESET_UNOVA_HOUSE, INDOOR, SIGN_BUILDING, ASPERTIA_CITY, MUSIC_ASPERTIA_CITY, 1, PALETTE_DAY
 	map AspertiaGym, TILESET_CHAMPIONS_ROOM, INDOOR, SIGN_BUILDING, ASPERTIA_CITY, MUSIC_GYM, 1, PALETTE_DAY
+	
+MapGroupFloccesy:
+	map Route19, TILESET_UNOVA_WEST, ROUTE, SIGN_ROUTE, ROUTE_19, MUSIC_ROUTE_4, 0, PALETTE_AUTO
 	

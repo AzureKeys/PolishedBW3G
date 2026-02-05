@@ -15,4 +15,5 @@ MapGroupRoofs:
 	db -1            ; Desert
 	db -1            ; Castelia
 	db -1            ; Aspertia
+	db -1            ; Floccesy
 	assert_table_length NUM_MAP_GROUPS + 1

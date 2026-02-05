@@ -4,8 +4,8 @@ Route19AspertiaGate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	;warp_event  4,  0, ROUTE_19, 1
-	;warp_event  5,  0, ROUTE_19, 2
+	warp_event  4,  0, ROUTE_19, 1
+	warp_event  5,  0, ROUTE_19, 2
 	warp_event  4,  7, ASPERTIA_CITY, 5
 	warp_event  5,  7, ASPERTIA_CITY, 5
 

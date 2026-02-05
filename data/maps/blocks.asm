@@ -359,4 +359,8 @@ SECTION "AspertiaGym_BlockData", ROMX
 AspertiaGym_BlockData:
 	INCBIN "maps/AspertiaGym.ablk.lz"
 
+SECTION "Route19_BlockData", ROMX
+Route19_BlockData:
+	INCBIN "maps/Route19.ablk.lz"
+
 ENDSECTION

@@ -35,6 +35,8 @@ ENDM
 	
 	map_attributes LentimasOutskirt, LENTIMAS_OUTSKIRT, $31, WEST
 	connection west, LentimasTown, LENTIMAS_TOWN, -1
+	
+	map_attributes Route19, ROUTE_19, $35, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

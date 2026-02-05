@@ -167,4 +167,9 @@ INCLUDE "maps/AspertiaMomHouse.asm"
 INCLUDE "maps/AspertiaGym.asm"
 
 
+SECTION "Southwest Unova Route Scripts", ROMX
+
+INCLUDE "maps/Route19.asm"
+
+
 ENDSECTION
