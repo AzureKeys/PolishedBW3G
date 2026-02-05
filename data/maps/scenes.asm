@@ -6,6 +6,7 @@ MACRO scene_var
 ENDM
 
 MapScenes::
+	scene_var ASPERTIA_GYM,                           wAlways0SceneID
 	scene_var ASPERTIA_SUBWAY,                        wAlways0SceneID
 	scene_var BATTLE_TOWER_1F,                        wBattleFacilitySceneID
 	scene_var BATTLE_TOWER_BATTLE_ROOM,               wAlways0SceneID

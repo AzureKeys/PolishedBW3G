@@ -11,6 +11,7 @@ AspertiaCity_MapScriptHeader:
 	warp_event 23, 15, ASPERTIA_BLACKBELT_HOUSE, 1
 	warp_event 19,  9, ROUTE_19_ASPERTIA_GATE, 3
 	warp_event 13, 37, ASPERTIA_MOM_HOUSE, 1
+	warp_event  6, 23, ASPERTIA_GYM, 1
 
 	def_coord_events
 

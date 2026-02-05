@@ -156,5 +156,6 @@ ENDM
 	map_const ASPERTIA_MOVE_DELETER,                       4,  4 ;  5
 	map_const ROUTE_19_ASPERTIA_GATE,                      5,  4 ;  6
 	map_const ASPERTIA_MOM_HOUSE,                          7,  4 ;  7
+	map_const ASPERTIA_GYM,                                5, 11 ;  8
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -164,6 +164,7 @@ INCLUDE "maps/AspertiaBlackbeltHouse.asm"
 INCLUDE "maps/AspertiaMoveDeleter.asm"
 INCLUDE "maps/Route19AspertiaGate.asm"
 INCLUDE "maps/AspertiaMomHouse.asm"
+INCLUDE "maps/AspertiaGym.asm"
 
 
 ENDSECTION

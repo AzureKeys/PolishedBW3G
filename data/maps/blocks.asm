@@ -355,4 +355,8 @@ SECTION "AspertiaMomHouse_BlockData", ROMX
 AspertiaMomHouse_BlockData:
 	INCBIN "maps/AspertiaMomHouse.ablk.lz"
 
+SECTION "AspertiaGym_BlockData", ROMX
+AspertiaGym_BlockData:
+	INCBIN "maps/AspertiaGym.ablk.lz"
+
 ENDSECTION
