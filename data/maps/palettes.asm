@@ -381,7 +381,7 @@ endc
 
 HallOfFamePalette:
 if !DEF(MONOCHROME)
-INCLUDE "maps/LancesRoom.pal"
+INCLUDE "maps/HallOfFame.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

@@ -56,6 +56,8 @@ CheckForUsedObjPals::
 	xor a
 	ld [wUsedObjectPals], a
 
+	call CheckDualObjectPals
+
 	; Scan for active objects first and mark those pals still in use.
 	ld hl, wPalFlags
 	set SCAN_OBJECTS_FIRST_F, [hl]
@@ -200,3 +202,42 @@ MarkUsedPal:
 	scf
 .done
 	jmp PopBCDEHL
+
+CheckDualObjectPals:
+	ld a, [wMapGroup]
+	ld d, a
+	ld a, [wMapNumber]
+	ld e, a
+	ld hl, DualObjectPalettes
+.loop
+	ld a, [hli]
+	inc a
+	ret z
+	dec a
+	cp d
+	ld a, [hli]
+	jr nz, .next
+	cp e
+	jr z, .found
+.next
+	inc hl
+	inc hl
+	jr .loop
+
+.found
+	ld a, %00000110
+	ld [wUsedObjectPals], a
+	ld a, [hli]
+	ld [wLoadedObjPal1], a
+	ld [wNeededPalIndex], a
+	ld de, wOBPals1 + 1 palettes
+	ld a, [hl]
+	push af
+	call CopySpritePalHandler
+	pop af
+	ld [wLoadedObjPal2], a
+	ld [wNeededPalIndex], a
+	ld de, wOBPals1 + 2 palettes
+	jmp CopySpritePalHandler
+
+INCLUDE "data/maps/dual_obj_pals.asm"
