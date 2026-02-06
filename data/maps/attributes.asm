@@ -43,8 +43,12 @@ ENDM
 	connection west, Route19, ROUTE_19, 4
 	connection east, Route20, ROUTE_20, -5
 	
-	map_attributes Route20, ROUTE_20, $35, WEST
+	map_attributes Route20, ROUTE_20, $35, WEST | NORTH
 	connection west, FloccesyTown, FLOCCESY_TOWN, 5
+	connection north, FloccesyRanch, FLOCCESY_RANCH, -5
+	
+	map_attributes FloccesyRanch, FLOCCESY_RANCH, $35, SOUTH
+	connection south, Route20, ROUTE_20, 5
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

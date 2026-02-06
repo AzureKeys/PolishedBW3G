@@ -25,6 +25,7 @@
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28
+	const FLOCCESY_RANCH     ; 29
 	const ROUTE_20           ; 2a
 	const ROUTE_5            ; 2d
 	const ROUTE_12           ; 42

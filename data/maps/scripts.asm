@@ -171,6 +171,7 @@ SECTION "Southwest Unova Route Scripts", ROMX
 
 INCLUDE "maps/Route19.asm"
 INCLUDE "maps/Route20.asm"
+INCLUDE "maps/FloccesyRanch.asm"
 
 
 SECTION "Floccesy Scripts", ROMX

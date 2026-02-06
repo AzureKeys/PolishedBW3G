@@ -185,3 +185,12 @@
 	tilecoll WALL, FLOOR, WALL, STAIRS_RIGHT_UP ; b8
 	tilecoll WALL, TOP_WALL, WALL, FLOOR ; b9
 	tilecoll WALL, WALL, WALL, WALL ; ba
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; bb
+	tilecoll FLOOR, WALL, FLOOR, WALL ; bc
+	tilecoll WALL, WALL, WALL, WALL ; bd
+	tilecoll WALL, WALL, WALL, DOOR ; be
+	tilecoll WALL, WALL, WALL, WALL ; bf
+	tilecoll TALL_GRASS, WALL, TALL_GRASS, TALL_GRASS ; c0
+	tilecoll WALL, WALL, WALL, WALL ; c1
+	tilecoll WALL, WALL, DOOR, WALL ; c2
+	tilecoll WALL, WALL, WALL, WALL ; c3

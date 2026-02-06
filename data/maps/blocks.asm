@@ -378,4 +378,8 @@ SECTION "Route20_BlockData", ROMX
 Route20_BlockData:
 	INCBIN "maps/Route20.ablk.lz"
 
+SECTION "FloccesyRanch_BlockData", ROMX
+FloccesyRanch_BlockData:
+	INCBIN "maps/FloccesyRanch.ablk.lz"
+
 ENDSECTION
