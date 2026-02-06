@@ -160,3 +160,27 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 9f
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a0
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a1
+	tilecoll WALL, WALL, WALL, WALL ; a2
+	tilecoll WALL, WALL, WALL, WALL ; a3
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a4
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a5
+	tilecoll BUOY, BUOY, WATER, WATER ; a6
+	tilecoll BUOY, BUOY, WATER, WATER ; a7
+	tilecoll LEDGE_RIGHT, WALL, LEDGE_RIGHT, WALL ; a8
+	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; a9
+	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; aa
+	tilecoll FLOOR, WALL, WALL, FLOOR ; ab
+	tilecoll FLOOR, FLOOR, WALL, WALL ; ac
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; ad
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ae
+	tilecoll WALL, FLOOR, WALL, FLOOR ; af
+	tilecoll FLOOR, WALL, FLOOR, WALL ; b0
+	tilecoll WALL, WALL, WALL, WALL ; b1
+	tilecoll WALL, TOP_WALL, WALL, WALL ; b2
+	tilecoll WATER, WATERFALL, WATER, WATERFALL ; b3
+	tilecoll WALL, WALL, WALL, WALL ; b4
+	tilecoll WALL, WALL, WALL, WALL ; b5
+	tilecoll WALL, WALL, WALL, WALL ; b6
+	tilecoll WALL, WATERFALL, WALL, WATERFALL ; b7
+	tilecoll WALL, FLOOR, WALL, STAIRS_RIGHT_UP ; b8
+	tilecoll WALL, WALL, WALL, FLOOR ; b9
