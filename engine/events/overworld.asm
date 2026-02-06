@@ -805,8 +805,37 @@ WaterfallFunction:
 	ld a, $80
 	ret c
 	call CheckMapCanWaterfall
-	jr c, .failed
+	jr c, .tryleft
 	ld hl, Script_WaterfallFromMenu
+	jr .do_waterfall
+	
+.tryleft
+	call CheckMapCanWaterfallLeft
+	jr c, .tryright
+	ld a, [wTileLeft]
+	cp COLL_WATERFALL_LEFT
+	jr z, .left_up
+	ld hl, Script_WaterfallLeftDownFromMenu
+	jr .do_waterfall
+	
+.left_up
+	ld hl, Script_WaterfallLeftUpFromMenu
+	jr .do_waterfall
+	
+.tryright
+	call CheckMapCanWaterfallRight
+	jr c, .failed
+	ld a, [wTileRight]
+	cp COLL_WATERFALL_RIGHT
+	jr z, .right_up
+	ld hl, Script_WaterfallRightDownFromMenu
+	jr .do_waterfall
+	
+.right_up
+	ld hl, Script_WaterfallRightUpFromMenu
+	; fallthrough
+	
+.do_waterfall
 	call QueueScript
 	ld a, $81
 	ret
@@ -817,6 +846,9 @@ WaterfallFunction:
 	ret
 
 CheckMapCanWaterfall:
+	ld a, [wPlayerState]
+	cp PLAYER_SURF
+	jr nz, .failed
 	ld a, [wPlayerDirection]
 	and FACE_UP | FACE_DOWN
 	cp FACE_UP
@@ -834,17 +866,130 @@ CheckMapCanWaterfall:
 	scf
 	ret
 
+CheckMapCanWaterfallLeft:
+	ld a, [wPlayerState]
+	cp PLAYER_SURF
+	jr nz, .failed
+	ld a, [wPlayerDirection]
+	and FACE_LEFT | FACE_RIGHT
+	cp FACE_LEFT
+	jr nz, .failed
+	ld a, [wTileLeft]
+	cp COLL_WATERFALL_LEFT
+	jr z, .done
+	cp COLL_WATERFALL_RIGHT
+	jr nz, .failed
+.done
+	xor a
+	ret
+
+.failed
+	scf
+	ret
+
+CheckMapCanWaterfallRight:
+	ld a, [wPlayerState]
+	cp PLAYER_SURF
+	jr nz, .failed
+	ld a, [wPlayerDirection]
+	and FACE_LEFT | FACE_RIGHT
+	cp FACE_RIGHT
+	jr nz, .failed
+	ld a, [wTileRight]
+	cp COLL_WATERFALL_LEFT
+	jr z, .done
+	cp COLL_WATERFALL_RIGHT
+	jr nz, .failed
+.done
+	xor a
+	ret
+
+.failed
+	scf
+	ret
+
+Script_WaterfallLeftDownFromMenu:
+	refreshmap
+	special UpdateTimePals
+	
+Script_UsedWaterfallLeftDown:
+	scall Script_PrepareWaterfall
+Script_AutoWaterfallLeftDown:
+	playsound SFX_BUBBLE_BEAM
+	applymovement PLAYER, .WaterfallLeftDownStep
+	end
+.WaterfallLeftDownStep:
+	fix_facing
+	step_left
+	step_down
+	step_down
+	step_left
+	remove_fixed_facing
+	step_end
+
+Script_WaterfallLeftUpFromMenu:
+	refreshmap
+	special UpdateTimePals
+	
+Script_UsedWaterfallLeftUp:
+	scall Script_PrepareWaterfall
+Script_AutoWaterfallLeftUp:
+	playsound SFX_BUBBLE_BEAM
+	applymovement PLAYER, .WaterfallLeftUpStep
+	end
+.WaterfallLeftUpStep:
+	fix_facing
+	step_left
+	step_up
+	step_up
+	step_left
+	remove_fixed_facing
+	step_end
+
+Script_WaterfallRightDownFromMenu:
+	refreshmap
+	special UpdateTimePals
+	
+Script_UsedWaterfallRightDown:
+	scall Script_PrepareWaterfall
+Script_AutoWaterfallRightDown:
+	playsound SFX_BUBBLE_BEAM
+	applymovement PLAYER, .WaterfallRightDownStep
+	end
+.WaterfallRightDownStep:
+	fix_facing
+	step_right
+	step_down
+	step_down
+	step_right
+	remove_fixed_facing
+	step_end
+
+Script_WaterfallRightUpFromMenu:
+	refreshmap
+	special UpdateTimePals
+	
+Script_UsedWaterfallRightUp:
+	scall Script_PrepareWaterfall
+Script_AutoWaterfallRightUp:
+	playsound SFX_BUBBLE_BEAM
+	applymovement PLAYER, .WaterfallRightUpStep
+	end
+.WaterfallRightUpStep:
+	fix_facing
+	step_right
+	step_up
+	step_up
+	step_right
+	remove_fixed_facing
+	step_end
+
 Script_WaterfallFromMenu:
 	refreshmap
 	special UpdateTimePals
 
 Script_UsedWaterfall:
-	callasm PrepareOverworldMove
-	farwritetext _UseWaterfallText
-	waitbutton
-	closetext
-	scall FieldMovePokepicScript
-	setflag ENGINE_AUTOWATERFALL_ACTIVE
+	scall Script_PrepareWaterfall
 Script_AutoWaterfall:
 	playsound SFX_BUBBLE_BEAM
 .loop
@@ -866,6 +1011,15 @@ Script_AutoWaterfall:
 .WaterfallStep:
 	turn_waterfall_up
 	step_end
+	
+Script_PrepareWaterfall:
+	callasm PrepareOverworldMove
+	farwritetext _UseWaterfallText
+	waitbutton
+	closetext
+	scall FieldMovePokepicScript
+	setflag ENGINE_AUTOWATERFALL_ACTIVE
+	end
 
 TryWaterfallOW::
 	lb de, WATERFALL, HM_WATERFALL
@@ -875,9 +1029,47 @@ TryWaterfallOW::
 	call CheckEngineFlag
 	jr c, .failed
 	call CheckMapCanWaterfall
-	jr c, .failed
+	jr c, .tryleft
 	ld a, BANK(Script_AskWaterfall)
 	ld hl, Script_AskWaterfall
+	call CallScript
+	scf
+	ret
+	
+.tryleft
+	call CheckMapCanWaterfallLeft
+	jr c, .tryright
+	ld a, [wTileLeft]
+	cp COLL_WATERFALL_LEFT
+	jr z, .left_up
+	ld a, BANK(Script_AskWaterfallLeftDown)
+	ld hl, Script_AskWaterfallLeftDown
+	call CallScript
+	scf
+	ret
+	
+.left_up
+	ld a, BANK(Script_AskWaterfallLeftUp)
+	ld hl, Script_AskWaterfallLeftUp
+	call CallScript
+	scf
+	ret
+	
+.tryright
+	call CheckMapCanWaterfallRight
+	jr c, .failed
+	ld a, [wTileRight]
+	cp COLL_WATERFALL_RIGHT
+	jr z, .right_up
+	ld a, BANK(Script_AskWaterfallRightDown)
+	ld hl, Script_AskWaterfallRightDown
+	call CallScript
+	scf
+	ret
+	
+.right_up
+	ld a, BANK(Script_AskWaterfallRightUp)
+	ld hl, Script_AskWaterfallRightUp
 	call CallScript
 	scf
 	ret
@@ -891,6 +1083,42 @@ TryWaterfallOW::
 
 Script_CantDoWaterfall:
 	farjumptext _HugeWaterfallText
+
+Script_AskWaterfallLeftDown:
+	checkflag ENGINE_AUTOWATERFALL_ACTIVE
+	iftrue Script_AutoWaterfallLeftDown
+	opentext
+	farwritetext _AskWaterfallText
+	yesorno
+	iftrue Script_UsedWaterfallLeftDown
+	endtext
+
+Script_AskWaterfallLeftUp:
+	checkflag ENGINE_AUTOWATERFALL_ACTIVE
+	iftrue Script_AutoWaterfallLeftUp
+	opentext
+	farwritetext _AskWaterfallText
+	yesorno
+	iftrue Script_UsedWaterfallLeftUp
+	endtext
+
+Script_AskWaterfallRightDown:
+	checkflag ENGINE_AUTOWATERFALL_ACTIVE
+	iftrue Script_AutoWaterfallRightDown
+	opentext
+	farwritetext _AskWaterfallText
+	yesorno
+	iftrue Script_UsedWaterfallRightDown
+	endtext
+
+Script_AskWaterfallRightUp:
+	checkflag ENGINE_AUTOWATERFALL_ACTIVE
+	iftrue Script_AutoWaterfallRightUp
+	opentext
+	farwritetext _AskWaterfallText
+	yesorno
+	iftrue Script_UsedWaterfallRightUp
+	endtext
 
 Script_AskWaterfall:
 	checkflag ENGINE_AUTOWATERFALL_ACTIVE

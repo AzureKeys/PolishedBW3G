@@ -1176,6 +1176,10 @@ TryTileCollisionEvent:
 	jr z, .whirlpool
 	cp COLL_WATERFALL
 	jr z, .waterfall
+	cp COLL_WATERFALL_LEFT
+	jr z, .waterfall
+	cp COLL_WATERFALL_RIGHT
+	jr z, .waterfall
 	cp COLL_HEADBUTT_TREE
 	jr z, .headbutt
 	farcall TrySurfOW
