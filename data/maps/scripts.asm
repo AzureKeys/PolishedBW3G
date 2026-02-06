@@ -170,6 +170,7 @@ INCLUDE "maps/AspertiaGym.asm"
 SECTION "Southwest Unova Route Scripts", ROMX
 
 INCLUDE "maps/Route19.asm"
+INCLUDE "maps/Route20.asm"
 
 
 SECTION "Floccesy Scripts", ROMX

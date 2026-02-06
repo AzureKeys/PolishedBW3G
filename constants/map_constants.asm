@@ -165,5 +165,6 @@ ENDM
 	map_const FLOCCESY_TRADE_HOUSE,                        4,  4 ;  4
 	map_const FLOCCESY_PINK_BOW_HOUSE,                     4,  4 ;  5
 	map_const ALDERS_HOUSE,                                5,  5 ;  6
+	map_const ROUTE_20,                                   23, 18 ;  7
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

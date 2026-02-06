@@ -183,4 +183,5 @@
 	tilecoll WALL, WALL, WALL, WALL ; b6
 	tilecoll WALL, WATERFALL, WALL, WATERFALL ; b7
 	tilecoll WALL, FLOOR, WALL, STAIRS_RIGHT_UP ; b8
-	tilecoll WALL, WALL, WALL, FLOOR ; b9
+	tilecoll WALL, TOP_WALL, WALL, FLOOR ; b9
+	tilecoll WALL, WALL, WALL, WALL ; ba

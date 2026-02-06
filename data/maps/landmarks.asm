@@ -30,6 +30,7 @@ Landmarks:
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
+	landmark  40, 116, Route20Name
 	landmark  76,  84, Route5Name
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
@@ -59,6 +60,7 @@ CasteliaCityName:      rawchar "Castelia¯City@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"
+Route20Name:           rawchar "Route 20@"
 Route5Name:            rawchar "Route 5@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"

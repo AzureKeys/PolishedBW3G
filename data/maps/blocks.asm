@@ -374,4 +374,8 @@ SECTION "AldersHouse_BlockData", ROMX
 AldersHouse_BlockData:
 	INCBIN "maps/AldersHouse.ablk.lz"
 
+SECTION "Route20_BlockData", ROMX
+Route20_BlockData:
+	INCBIN "maps/Route20.ablk.lz"
+
 ENDSECTION

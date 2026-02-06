@@ -34,16 +34,16 @@ TilesetUnovaWestAnim::
 TilesetForestAnim::
 TilesetNimbasaAnim::
 TilesetParkAnim::
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
+	dw vTiles2 tile $4a, ScrollTileDown
+	dw vTiles2 tile $5a, ScrollTileDown
+	dw vTiles2 tile $5b, ScrollTileLeft
+	dw vTiles2 tile $5c, ScrollTileRight
+	dw vTiles2 tile $5d, ScrollTileUp
 	dw WhirlpoolFrames1, AnimateWhirlpoolTile
 	dw WhirlpoolFrames2, AnimateWhirlpoolTile
 	dw WhirlpoolFrames3, AnimateWhirlpoolTile
 	dw WhirlpoolFrames4, AnimateWhirlpoolTile
-	dw NULL,  DoNothing
 	dw NULL,  AnimateFlowerTile
-	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  IncWaterFrame

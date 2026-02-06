@@ -25,6 +25,7 @@
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28
+	const ROUTE_20           ; 2a
 	const ROUTE_5            ; 2d
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
