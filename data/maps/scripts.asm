@@ -175,6 +175,10 @@ INCLUDE "maps/Route19.asm"
 SECTION "Floccesy Scripts", ROMX
 
 INCLUDE "maps/FloccesyTown.asm"
+INCLUDE "maps/FloccesyPokecenter.asm"
+INCLUDE "maps/FloccesyTradeHouse.asm"
+INCLUDE "maps/FloccesyPinkBowHouse.asm"
+INCLUDE "maps/AldersHouse.asm"
 
 
 ENDSECTION

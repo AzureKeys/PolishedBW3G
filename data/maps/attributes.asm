@@ -118,6 +118,10 @@ ENDM
 	map_attributes AspertiaBlackbeltHouse, ASPERTIA_BLACKBELT_HOUSE, $0, 0
 	map_attributes AspertiaMoveDeleter, ASPERTIA_MOVE_DELETER, $0, 0
 	map_attributes AspertiaMomHouse, ASPERTIA_MOM_HOUSE, $0, 0
+	map_attributes FloccesyPokecenter, FLOCCESY_POKECENTER, $0, 0
+	map_attributes FloccesyTradeHouse, FLOCCESY_TRADE_HOUSE, $0, 0
+	map_attributes FloccesyPinkBowHouse, FLOCCESY_PINK_BOW_HOUSE, $0, 0
+	map_attributes AldersHouse, ALDERS_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

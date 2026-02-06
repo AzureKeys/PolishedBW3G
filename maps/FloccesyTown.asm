@@ -6,6 +6,10 @@ FloccesyTown_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, FloccesyTownHandleBlocker
 
 	def_warp_events
+	warp_event  7, 25, FLOCCESY_POKECENTER, 1
+	warp_event 15, 25, FLOCCESY_PINK_BOW_HOUSE, 1
+	warp_event 19, 25, FLOCCESY_TRADE_HOUSE, 1
+	warp_event 11, 17, ALDERS_HOUSE, 1
 
 	def_coord_events
 	coord_event  0, 26, 0, FloccesyTownJuniperScript4

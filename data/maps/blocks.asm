@@ -17,6 +17,7 @@ LentimasPokecenter_BlockData:
 NimbasaPokecenter_BlockData:
 CasteliaPokecenter_BlockData:
 AspertiaPokecenter_BlockData:
+FloccesyPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -27,6 +28,8 @@ LacunosaBerryHouse_BlockData:
 UndellaFishingGuruHouse_BlockData:
 AspertiaBlackbeltHouse_BlockData:
 AspertiaMoveDeleter_BlockData:
+FloccesyTradeHouse_BlockData:
+FloccesyPinkBowHouse_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -366,5 +369,9 @@ Route19_BlockData:
 SECTION "FloccesyTown_BlockData", ROMX
 FloccesyTown_BlockData:
 	INCBIN "maps/FloccesyTown.ablk.lz"
+
+SECTION "AldersHouse_BlockData", ROMX
+AldersHouse_BlockData:
+	INCBIN "maps/AldersHouse.ablk.lz"
 
 ENDSECTION

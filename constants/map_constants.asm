@@ -161,5 +161,9 @@ ENDM
 	newgroup                                                     ; 11
 	map_const ROUTE_19,                                   21, 13 ;  1
 	map_const FLOCCESY_TOWN,                              13, 17 ;  2
+	map_const FLOCCESY_POKECENTER,                         5,  5 ;  3
+	map_const FLOCCESY_TRADE_HOUSE,                        4,  4 ;  4
+	map_const FLOCCESY_PINK_BOW_HOUSE,                     4,  4 ;  5
+	map_const ALDERS_HOUSE,                                5,  5 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
