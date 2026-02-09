@@ -32,6 +32,7 @@ Landmarks:
 	landmark  28, 116, FloccesyTownName
 	landmark  36, 108, FloccesyRanchName
 	landmark  40, 116, Route20Name
+	landmark  52, 116, VirbankCityName
 	landmark  76,  84, Route5Name
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
@@ -63,6 +64,7 @@ Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"
 FloccesyRanchName:     rawchar "Floccesy¯Ranch@"
 Route20Name:           rawchar "Route 20@"
+VirbankCityName:       rawchar "Virbank¯City@"
 Route5Name:            rawchar "Route 5@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"

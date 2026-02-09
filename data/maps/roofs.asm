@@ -16,4 +16,5 @@ MapGroupRoofs:
 	db -1            ; Castelia
 	db -1            ; Aspertia
 	db -1            ; Floccesy
+	db -1            ; Virbank
 	assert_table_length NUM_MAP_GROUPS + 1

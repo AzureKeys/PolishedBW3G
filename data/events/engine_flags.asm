@@ -89,6 +89,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_CASTELIA
 	engine_flag wVisitedSpawns, SPAWN_ASPERTIA
 	engine_flag wVisitedSpawns, SPAWN_FLOCCESY
+	engine_flag wVisitedSpawns, SPAWN_VIRBANK
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

@@ -18,4 +18,5 @@ FishMonMaps:
 	fishmon_map ROUTE_20, FISHGROUP_LAKE
 	fishmon_map ROUTE_22, FISHGROUP_SHORE
 	fishmon_map UNDELLA_TOWN, FISHGROUP_SHORE
+	fishmon_map VIRBANK_CITY, FISHGROUP_OCEAN
 	db -1

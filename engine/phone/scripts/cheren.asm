@@ -204,7 +204,7 @@ CherenPhoneScript2:
 .mistralton
 	farwritetext CherenPhoneMistraltonText
 	specialphonecall SPECIALCALL_NONE
-	;clearevent EVENT_ASPERTIA_CITY_BLOCKER
-	;clearevent EVENT_HUMILAU_CITY_GYM_BLOCKER
+	clearevent EVENT_ASPERTIA_CITY_BLOCKER
+	clearevent EVENT_HUMILAU_CITY_GYM_BLOCKER
 	;setmapscene MISTRALTON_CITY, SCENE_MISTRALTON_GIVE_PASS
 	end

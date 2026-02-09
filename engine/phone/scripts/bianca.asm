@@ -40,7 +40,7 @@ BiancaPhoneScript2:
 .virbank
 	farwritetext BiancaPhoneVirbankText
 	specialphonecall SPECIALCALL_NONE
-	;setmapscene CASTELIA_BRIDGE_GATE, SCENE_FINISHED
+	setmapscene CASTELIA_SKYARROW_BRIDGE_GATE, 1
 	end
 
 .P2

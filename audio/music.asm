@@ -225,4 +225,7 @@ INCLUDE "audio/music/aspertiacity.asm"
 SECTION "Song - floccesytown", ROMX
 INCLUDE "audio/music/floccesytown.asm"
 
+SECTION "Song - virbankcity", ROMX
+INCLUDE "audio/music/virbankcity.asm"
+
 ENDSECTION

@@ -185,4 +185,9 @@ INCLUDE "maps/FloccesyPinkBowHouse.asm"
 INCLUDE "maps/AldersHouse.asm"
 
 
+SECTION "Virbank Scripts", ROMX
+
+INCLUDE "maps/VirbankCity.asm"
+
+
 ENDSECTION

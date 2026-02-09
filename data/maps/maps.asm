@@ -30,6 +30,7 @@ MapGroupPointers::
 	dw MapGroupCastelia
 	dw MapGroupAspertia
 	dw MapGroupFloccesy
+	dw MapGroupVirbank
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -176,3 +177,5 @@ MapGroupFloccesy:
 	map FloccesyRanchHouse, TILESET_TRADITIONAL_HOUSE, INDOOR, SIGN_WOOD, FLOCCESY_RANCH, MUSIC_FLOCCESY_TOWN, 0, PALETTE_AUTO
 	map FloccesyRanchBarn, TILESET_TRADITIONAL_HOUSE, INDOOR, SIGN_WOOD, FLOCCESY_RANCH, MUSIC_FLOCCESY_TOWN, 0, PALETTE_AUTO
 	
+MapGroupVirbank:
+	map VirbankCity, TILESET_VIRBANK, TOWN, SIGN_CITY, VIRBANK_CITY, MUSIC_VIRBANK_CITY, 0, PALETTE_AUTO

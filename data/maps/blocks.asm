@@ -387,4 +387,8 @@ SECTION "FloccesyRanchBarn_BlockData", ROMX
 FloccesyRanchBarn_BlockData:
 	INCBIN "maps/FloccesyRanchBarn.ablk.lz"
 
+SECTION "VirbankCity_BlockData", ROMX
+VirbankCity_BlockData:
+	INCBIN "maps/VirbankCity.ablk.lz"
+
 ENDSECTION

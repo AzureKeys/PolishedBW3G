@@ -170,4 +170,7 @@ ENDM
 	map_const FLOCCESY_RANCH_HOUSE,                        4,  4 ;  9
 	map_const FLOCCESY_RANCH_BARN,                         4,  4 ; 10
 	
+	newgroup                                                     ; 12
+	map_const VIRBANK_CITY,                               24, 16 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
