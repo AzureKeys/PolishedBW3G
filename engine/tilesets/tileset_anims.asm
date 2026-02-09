@@ -70,6 +70,7 @@ TilesetCasteliaAnim::
 TilesetHouse1Anim::
 TilesetPortAnim::
 TilesetDesertAnim::
+TilesetVirbankAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

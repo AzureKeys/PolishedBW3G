@@ -36,6 +36,7 @@ Tilesets::
 	tileset TilesetPark
 	tileset TilesetDesert
 	tileset TilesetCastelia
+	tileset TilesetVirbank
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetHiddenGrotto
@@ -53,6 +54,11 @@ SECTION "Tileset Graphics - unova beach vram1", ROMX
 TilesetUnovaBeachGFX1:: INCBIN "gfx/tilesets/unova_beach.unova_common.2bpp.vram0.lz"
 
 
+SECTION "Tileset Graphics - unova beach vram2", ROMX
+
+TilesetUnovaBeachGFX2:: INCBIN "gfx/tilesets/unova_beach.unova_common.2bpp.vram1.lz"
+
+
 SECTION "Tileset Data - unova beach", ROMX
 
 TilesetUnovaBeachMeta:: INCBIN "data/tilesets/unova_beach_metatiles.bin.lz"
@@ -63,6 +69,11 @@ TilesetUnovaBeachColl:: INCBIN "data/tilesets/unova_beach_collision.bin.lz"
 SECTION "Tileset Graphics - unova west vram1", ROMX
 
 TilesetUnovaWestGFX1:: INCBIN "gfx/tilesets/unova_west.unova_common.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - unova west vram2", ROMX
+
+TilesetUnovaWestGFX2:: INCBIN "gfx/tilesets/unova_west.unova_common.2bpp.vram1.lz"
 
 
 SECTION "Tileset Data - unova west", ROMX
@@ -532,6 +543,22 @@ TilesetCasteliaMeta:: INCBIN "data/tilesets/castelia_metatiles.bin.lz"
 TilesetCasteliaAttr:: INCBIN "data/tilesets/castelia_attributes.bin.lz"
 TilesetCasteliaColl:: INCBIN "data/tilesets/castelia_collision.bin.lz"
 
+SECTION "Tileset Graphics - virbank vram0", ROMX
+
+TilesetVirbankGFX0:: INCBIN "gfx/tilesets/virbank.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - virbank vram1", ROMX
+
+TilesetVirbankGFX1:: INCBIN "gfx/tilesets/virbank.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - virbank", ROMX
+
+TilesetVirbankMeta:: INCBIN "data/tilesets/virbank_metatiles.bin.lz"
+TilesetVirbankAttr:: INCBIN "data/tilesets/virbank_attributes.bin.lz"
+TilesetVirbankColl:: INCBIN "data/tilesets/virbank_collision.bin.lz"
+
 
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
@@ -552,8 +579,6 @@ TilesetHiddenGrottoColl:: INCBIN "data/tilesets/hidden_grotto_collision.bin.lz"
 
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
-TilesetUnovaBeachGFX2::
-TilesetUnovaWestGFX2::
 TilesetJohto4GFX2::
 TilesetHouse1GFX2::
 TilesetHouse3GFX2::
@@ -577,6 +602,7 @@ TilesetNimbasaGFX2::
 TilesetParkGFX2::
 TilesetDesertGFX2::
 TilesetCasteliaGFX2::
+TilesetVirbankGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::
