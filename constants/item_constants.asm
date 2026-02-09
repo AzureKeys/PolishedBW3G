@@ -276,7 +276,7 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const POWER_ANKLET ; d5
 
 	const DRAGON_SCALE ; d6
-	const UPGRADE      ; d7
+	const MAGIC_RIBBON ; d7
 	const DUBIOUS_DISC ; d8
 	const PROTECTOR    ; d9
 	const ELECTIRIZER  ; da
@@ -462,6 +462,7 @@ endc
 	const NAM_LURE_BALL
 	const NAM_LUXURY_BALL
 	const NAM_MACHO_BRACE
+	const NAM_MAGIC_RIBBON
 	const NAM_MAGMARIZER
 	const NAM_MAGNET
 	const NAM_MARANGABERRY
@@ -577,7 +578,6 @@ endc
 	const NAM_TOXIC_ORB
 	const NAM_TWISTEDSPOON
 	const NAM_ULTRA_BALL
-	const NAM_UPGRADE
 	const NAM_WATER_STONE
 	const NAM_WEAK_POLICY
 	const NAM_WHITE_HERB

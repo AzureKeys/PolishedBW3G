@@ -130,6 +130,8 @@ ENDM
 	map_attributes FloccesyTradeHouse, FLOCCESY_TRADE_HOUSE, $0, 0
 	map_attributes FloccesyPinkBowHouse, FLOCCESY_PINK_BOW_HOUSE, $0, 0
 	map_attributes AldersHouse, ALDERS_HOUSE, $0, 0
+	map_attributes FloccesyRanchHouse, FLOCCESY_RANCH_HOUSE, $0, 0
+	map_attributes FloccesyRanchBarn, FLOCCESY_RANCH_BARN, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

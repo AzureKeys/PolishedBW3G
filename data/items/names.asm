@@ -275,7 +275,7 @@ endc
 	li "Power Anklet"
 
 	li "Dragon Scale"
-	li "Upgrade"
+	li "Magic Ribbon"
 	li "Dubious Disc"
 	li "Protector"
 	li "Electirizer"

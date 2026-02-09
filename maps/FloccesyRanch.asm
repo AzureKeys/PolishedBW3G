@@ -4,6 +4,8 @@ FloccesyRanch_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event 15,  3, FLOCCESY_RANCH_HOUSE, 1
+	warp_event 20,  3, FLOCCESY_RANCH_BARN, 1
 	warp_event  7,  5, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

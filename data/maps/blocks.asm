@@ -36,6 +36,7 @@ SECTION "TraditionalHouse_Blockdata", ROMX
 LentimasCoinHouse_BlockData:
 LentimasSpellTagHouse_BlockData:
 Route4House_BlockData:
+FloccesyRanchHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 	
 SECTION "ApartmentHouse_Blockdata", ROMX
@@ -381,5 +382,9 @@ Route20_BlockData:
 SECTION "FloccesyRanch_BlockData", ROMX
 FloccesyRanch_BlockData:
 	INCBIN "maps/FloccesyRanch.ablk.lz"
+
+SECTION "FloccesyRanchBarn_BlockData", ROMX
+FloccesyRanchBarn_BlockData:
+	INCBIN "maps/FloccesyRanchBarn.ablk.lz"
 
 ENDSECTION

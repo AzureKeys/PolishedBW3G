@@ -226,7 +226,7 @@ _DoItemEffect::
 	dw IsntTheTimeMessage ; POWER_BAND
 	dw IsntTheTimeMessage ; POWER_ANKLET
 	dw IsntTheTimeMessage ; DRAGON_SCALE
-	dw IsntTheTimeMessage ; UPGRADE
+	dw IsntTheTimeMessage ; MAGIC_RIBBON
 	dw IsntTheTimeMessage ; DUBIOUS_DISC
 	dw IsntTheTimeMessage ; PROTECTOR
 	dw IsntTheTimeMessage ; ELECTIRIZER

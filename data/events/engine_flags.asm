@@ -96,7 +96,7 @@ EngineFlags:
 	engine_flag wDailyFlags, DAILYFLAGS_CASTELIACONE_F
 	engine_flag wDailyFlags, DAILYFLAGS_FISH_SWARM_F
 	engine_flag wDailyFlags, DAILYFLAGS_CASTELIA_MASSAGE_F
-	engine_flag wDailyFlags, 4 ; unused
+	engine_flag wDailyFlags, DAILYFLAGS_MILK_F
 	engine_flag wDailyFlags, DAILYFLAGS_GOT_SHUCKIE_TODAY_F
 	engine_flag wDailyFlags, DAILYFLAGS_GOLDENROD_UNDERGROUND_MERCHANT_CLOSED_F
 	engine_flag wDailyFlags, DAILYFLAGS_FOUGHT_IN_TRAINER_HALL_TODAY_F

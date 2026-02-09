@@ -214,7 +214,7 @@ ItemDescriptions:
 	dw PowerBandDesc
 	dw PowerAnkletDesc
 	dw DragonScaleDesc
-	dw UpgradeDesc
+	dw MagicRibbonDesc
 	dw DubiousDiscDesc
 	dw ProtectorDesc
 	dw ElectirizerDesc
@@ -1270,9 +1270,9 @@ DragonScaleDesc:
 	next "item."
 	done
 
-UpgradeDesc:
-	text "A mysterious box"
-	next "made by Silph Co."
+MagicRibbonDesc:
+	text "A sparkling pink"
+	next "and blue ribbon."
 	done
 
 DubiousDiscDesc:
