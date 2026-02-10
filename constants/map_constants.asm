@@ -172,5 +172,9 @@ ENDM
 	
 	newgroup                                                     ; 12
 	map_const VIRBANK_CITY,                               24, 16 ;  1
+	map_const ROUTE_20_VIRBANK_GATE,                       5,  4 ;  2
+	map_const VIRBANK_POKECENTER,                          5,  5 ;  3
+	map_const VIRBANK_POISON_BARB_HOUSE,                   4,  4 ;  4
+	map_const VIRBANK_MUSCLE_BAND_HOUSE,                   4,  4 ;  5
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

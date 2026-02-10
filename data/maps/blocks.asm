@@ -18,6 +18,7 @@ NimbasaPokecenter_BlockData:
 CasteliaPokecenter_BlockData:
 AspertiaPokecenter_BlockData:
 FloccesyPokecenter_BlockData:
+VirbankPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lz"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -30,6 +31,8 @@ AspertiaBlackbeltHouse_BlockData:
 AspertiaMoveDeleter_BlockData:
 FloccesyTradeHouse_BlockData:
 FloccesyPinkBowHouse_BlockData:
+VirbankPoisonBarbHouse_BlockData:
+VirbankMuscleBandHouse_BlockData:
 	INCBIN "maps/House1.ablk.lz"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -50,6 +53,7 @@ Route16LostlornGate_BlockData:
 Route16NimbasaGate_BlockData:
 Route5NimbasaGate_BlockData:
 Route5DrawbridgeGate_BlockData:
+Route20VirbankGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 SECTION "NorthSouthGate_BlockData", ROMX

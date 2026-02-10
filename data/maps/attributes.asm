@@ -133,6 +133,9 @@ ENDM
 	map_attributes AldersHouse, ALDERS_HOUSE, $0, 0
 	map_attributes FloccesyRanchHouse, FLOCCESY_RANCH_HOUSE, $0, 0
 	map_attributes FloccesyRanchBarn, FLOCCESY_RANCH_BARN, $0, 0
+	map_attributes VirbankPokecenter, VIRBANK_POKECENTER, $0, 0
+	map_attributes VirbankPoisonBarbHouse, VIRBANK_POISON_BARB_HOUSE, $0, 0
+	map_attributes VirbankMuscleBandHouse, VIRBANK_MUSCLE_BAND_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -146,6 +149,7 @@ ENDM
 	map_attributes Route4CasteliaGate, ROUTE_4_CASTELIA_GATE, $0, 0
 	map_attributes CasteliaSkyarrowBridgeGate, CASTELIA_SKYARROW_BRIDGE_GATE, $0, 0
 	map_attributes Route19AspertiaGate, ROUTE_19_ASPERTIA_GATE, $0, 0
+	map_attributes Route20VirbankGate, ROUTE_20_VIRBANK_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0

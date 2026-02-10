@@ -6,6 +6,11 @@ VirbankCity_MapScriptHeader:
 	callback MAPCALLBACK_TILES, VirbankCityTileScript
 
 	def_warp_events
+	warp_event  4, 12, ROUTE_20_VIRBANK_GATE, 3
+	warp_event  4, 13, ROUTE_20_VIRBANK_GATE, 4
+	warp_event 15,  9, VIRBANK_POKECENTER, 1
+	warp_event 24,  9, VIRBANK_POISON_BARB_HOUSE, 1
+	warp_event 32,  9, VIRBANK_MUSCLE_BAND_HOUSE, 1
 
 	def_coord_events
 	coord_event  6, 10, 1, VirbankCityBridge1OverheadTrigger

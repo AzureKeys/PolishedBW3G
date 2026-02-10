@@ -188,6 +188,10 @@ INCLUDE "maps/AldersHouse.asm"
 SECTION "Virbank Scripts", ROMX
 
 INCLUDE "maps/VirbankCity.asm"
+INCLUDE "maps/VirbankPokecenter.asm"
+INCLUDE "maps/VirbankPoisonBarbHouse.asm"
+INCLUDE "maps/VirbankMuscleBandHouse.asm"
+INCLUDE "maps/Route20VirbankGate.asm"
 
 
 ENDSECTION
