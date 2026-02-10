@@ -316,7 +316,6 @@ BugContestResultsWarpScript:
 	; fallthrough
 
 BugContestResultsScript:
-	
 	special PlayMapMusic
 	end
 

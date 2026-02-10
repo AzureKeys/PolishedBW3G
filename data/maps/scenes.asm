@@ -32,7 +32,6 @@ MapScenes::
 	scene_var NIMBASA_PARK_OUTSIDE,                   wNimbasaParkOutsideSceneID
 	scene_var NIMBASA_SUBWAY,                         wAlways0SceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
-	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
 	scene_var ROUTE_5_DRAWBRIDGE_GATE,                wRoute5DrawbridgeGateSceneID
 	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID

@@ -152,7 +152,6 @@ ENDM
 	map_attributes Route20VirbankGate, ROUTE_20_VIRBANK_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
-	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0
 	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $0, 0

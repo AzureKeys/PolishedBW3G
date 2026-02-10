@@ -95,7 +95,7 @@ CelebiEvent_CountDown:
 	ret
 
 SpecialCelebiGFX:
-INCBIN "gfx/overworld/celebi.2bpp.lz"
+INCBIN "gfx/overworld/celebi.2bpp.lzp"
 
 UpdateCelebiPosition:
 	ld hl, SPRITEANIMSTRUCT_XOFFSET

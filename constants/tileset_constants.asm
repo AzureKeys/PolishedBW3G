@@ -2,7 +2,7 @@
 	const_def 1
 	const TILESET_JOHTO_TRADITIONAL    ; 01
 	const TILESET_JOHTO_MODERN         ; 02
-	const TILESET_JOHTO_OVERCAST       ; 03
+	const TILESET_JOHTO_OUTLANDS       ; 03
 	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_UNOVA_HOUSE          ; 0b

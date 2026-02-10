@@ -1,5 +1,7 @@
 PlayersHouse1F_MapScriptHeader:
 	def_scene_scripts
+	scene_const SCENE_PLAYERSHOUSE1F_MEET_MOM
+	scene_const SCENE_PLAYERSHOUSE1F_NOOP
 
 	def_callbacks
 

@@ -1417,5 +1417,10 @@ MACRO rematchgift
 	db rematchgift_command
 	db \1 ; item_tier
 ENDM
+	
+	const nooryes_command
+MACRO nooryes
+	db nooryes_command
+ENDM
 
 DEF NUM_EVENT_COMMANDS EQU const_value

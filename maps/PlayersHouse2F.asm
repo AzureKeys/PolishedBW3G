@@ -123,25 +123,33 @@ endr
 	giveitem MINT_LEAF, 99
 	giveitem BOTTLE_CAP, 99
 	giveitem BIG_NUGGET, 99
+	giveitem PORTRAITMAIL, 99
 	giveitem ARMOR_SUIT, 1
+for x, FIRST_BERRY, FIRST_BERRY + NUM_BERRIES
+	giveitem x, 99
+endr
 	; all decorations except Diploma
 for x, EVENT_DECO_BED_1, EVENT_DECO_BIG_LAPRAS_DOLL + 1
 	setevent x
 endr
 	; max money
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 1000000
-	givemoney YOUR_MONEY, 999999
+	loadmem wMoney+0, 9_999_999 >> 16
+	loadmem wMoney+1, HIGH(9_999_999)
+	loadmem wMoney+2, LOW(9_999_999)
 	givecoins 50000
+	loadmem wBlueCardBalance, 99
 	loadmem wBattlePoints+0, 0
 	loadmem wBattlePoints+1, 250
+for x, NUM_CANDIES
+	loadmem wCandyAmounts + x, 99
+endr
+for x, NUM_WINGS
+	loadmem wWingAmounts + x * 2 + 0, HIGH(999)
+	loadmem wWingAmounts + x * 2 + 1, LOW(999)
+endr
+for x, NUM_APRICORNS
+	loadmem wApricorns + x, 99
+endr
 	; all badges
 	setflag ENGINE_WAVEBADGE
 	setflag ENGINE_SPOOKYBADGE
@@ -228,7 +236,7 @@ endr
 	callasm FillPokedex
 ;	; new bark events
 	addcellnum PHONE_MOM
-	setmapscene PLAYERS_HOUSE_1F, $1
+	setmapscene PLAYERS_HOUSE_1F, SCENE_PLAYERSHOUSE1F_NOOP
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	addcellnum PHONE_BIANCA

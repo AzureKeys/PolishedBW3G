@@ -1,13 +1,14 @@
 TradeCenter_MapScriptHeader:
 	def_scene_scripts
-	scene_script TradeCenterTrigger0
+	scene_script TradeCenterInitializeScene, SCENE_TRADECENTER_INITIALIZE
+	scene_const SCENE_TRADECENTER_NOOP
 
 	def_callbacks
 	callback MAPCALLBACK_OBJECTS, TradeCenter_SetWhichChris
 
 	def_warp_events
-	warp_event  4,  7, POKECENTER_2F, 2
-	warp_event  5,  7, POKECENTER_2F, 2
+	;warp_event  4,  7, POKECENTER_2F, 2
+	;warp_event  5,  7, POKECENTER_2F, 2
 
 	def_coord_events
 
@@ -23,7 +24,7 @@ TradeCenter_MapScriptHeader:
 	const TRADECENTER_LINK_TRAINER1
 	const TRADECENTER_LINK_TRAINER2
 
-TradeCenterTrigger0:
+TradeCenterInitializeScene:
 	sdefer TradeCenter_Initialize
 	end
 
@@ -40,8 +41,8 @@ TradeCenter_SetWhichChris:
 	endcallback
 
 TradeCenter_Initialize:
-	setscene $1
-	setmapscene POKECENTER_2F, $1
+	setscene SCENE_TRADECENTER_NOOP
+	;setmapscene POKECENTER_2F, SCENE_POKECENTER2F_LEAVE_TRADE_CENTER
 	end
 
 MapTradeCenterSignpost1Script:

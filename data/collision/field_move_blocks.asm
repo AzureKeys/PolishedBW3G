@@ -2,7 +2,7 @@ CutGrassBlockPointers:
 ; Which tileset are we in?
 	dbw TILESET_JOHTO_TRADITIONAL, .johto_traditional
 	dbw TILESET_JOHTO_MODERN, .johto_modern
-	dbw TILESET_JOHTO_OVERCAST, .johto_overcast
+	dbw TILESET_JOHTO_OUTLANDS, .johto_overcast
 	db -1
 
 ; Which meta tile are we facing, and which should we replace it with?

@@ -1,6 +1,7 @@
 HallOfFame_MapScriptHeader:
 	def_scene_scripts
-	scene_script HallOfFameEntranceTrigger
+	scene_script HallOfFameEnterScene, SCENE_HALLOFFAME_ENTER
+	scene_const SCENE_HALLOFFAME_NOOP
 
 	def_callbacks
 
@@ -16,7 +17,7 @@ HallOfFame_MapScriptHeader:
 	object_const_def
 	const HALLOFFAME_LANCE
 
-HallOfFameEntranceTrigger:
+HallOfFameEnterScene:
 	sdefer .Script
 	end
 
@@ -64,7 +65,7 @@ HallOfFameEntranceTrigger:
 	closetext
 	turnobject HALLOFFAME_LANCE, UP
 	applyonemovement PLAYER, slow_step_up
-	setscene $1
+	setscene SCENE_HALLOFFAME_NOOP
 	pause 15
 	setval 2 ; Machine is in the Hall of Fame
 	special HealMachineAnim
