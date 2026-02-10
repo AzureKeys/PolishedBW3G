@@ -40,4 +40,5 @@ MapScenes::
 	scene_var STRANGE_HOUSE_ROOMS,                    wStrangeHouseRoomsSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDELLA_TOWN,                           wUndellaTownSceneID
+	scene_var VIRBANK_CITY,                           wVirbankCitySceneID
 	db -1
