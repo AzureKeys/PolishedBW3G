@@ -130,6 +130,8 @@ _DoItemEffect::
 	dw EvoStoneEffect     ; SUN_STONE
 	dw EvoStoneEffect     ; DUSK_STONE
 	dw EvoStoneEffect     ; SHINY_STONE
+	dw EvoStoneEffect     ; DAWN_STONE
+	dw EvoStoneEffect     ; SHELL_STONE
 	dw IsntTheTimeMessage ; EVERSTONE
 	dw IsntTheTimeMessage ; EXP_SHARE
 	dw IsntTheTimeMessage ; SILK_SCARF
@@ -227,8 +229,6 @@ _DoItemEffect::
 	dw IsntTheTimeMessage ; POWER_ANKLET
 	dw IsntTheTimeMessage ; DRAGON_SCALE
 	dw IsntTheTimeMessage ; MAGIC_RIBBON
-	dw IsntTheTimeMessage ; DUBIOUS_DISC
-	dw IsntTheTimeMessage ; PROTECTOR
 	dw IsntTheTimeMessage ; ELECTIRIZER
 	dw IsntTheTimeMessage ; MAGMARIZER
 	dw IsntTheTimeMessage ; RAZOR_FANG

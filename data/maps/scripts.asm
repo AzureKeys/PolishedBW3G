@@ -191,6 +191,7 @@ INCLUDE "maps/VirbankPokecenter.asm"
 INCLUDE "maps/VirbankPoisonBarbHouse.asm"
 INCLUDE "maps/VirbankMuscleBandHouse.asm"
 INCLUDE "maps/Route20VirbankGate.asm"
+INCLUDE "maps/VirbankGameCorner.asm"
 
 
 ENDSECTION

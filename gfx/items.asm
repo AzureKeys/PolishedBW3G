@@ -217,6 +217,12 @@ ShinyStoneIcon:: INCBIN "gfx/items/shiny_stone.2bpp.lzp"
 SECTION "IceStoneIcon", ROMX
 IceStoneIcon:: INCBIN "gfx/items/ice_stone.2bpp.lzp"
 
+SECTION "DawnStoneIcon", ROMX
+DawnStoneIcon:: INCBIN "gfx/items/dawn_stone.2bpp.lzp"
+
+SECTION "ShellStoneIcon", ROMX
+ShellStoneIcon:: INCBIN "gfx/items/shell_stone.2bpp.lzp"
+
 SECTION "EverstoneIcon", ROMX
 EverstoneIcon:: INCBIN "gfx/items/everstone.2bpp.lzp"
 
@@ -578,12 +584,6 @@ DragonScaleIcon:: INCBIN "gfx/items/dragon_scale.2bpp.lzp"
 
 SECTION "MagicRibbonIcon", ROMX
 MagicRibbonIcon:: INCBIN "gfx/items/magic_ribbon.2bpp.lzp"
-
-SECTION "DubiousDiscIcon", ROMX
-DubiousDiscIcon:: INCBIN "gfx/items/dubious_disc.2bpp.lzp"
-
-SECTION "ProtectorIcon", ROMX
-ProtectorIcon:: INCBIN "gfx/items/protector.2bpp.lzp"
 
 SECTION "ElectirizerIcon", ROMX
 ElectirizerIcon:: INCBIN "gfx/items/electirizer.2bpp.lzp"

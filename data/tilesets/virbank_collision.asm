@@ -152,3 +152,4 @@
 	tilecoll TOP_WALL, FLOOR, FLOOR, FLOOR ; 97
 	tilecoll WALL, WALL, WALL, WALL ; 98
 	tilecoll WALL, WALL, WALL, WALL ; 99
+	tilecoll WATER, WALL, WATER, WALL ; 9a

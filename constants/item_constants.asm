@@ -161,124 +161,124 @@ DEF FIRST_STONE EQU const_value
 	const SUN_STONE    ; 74
 	const DUSK_STONE   ; 75
 	const SHINY_STONE  ; 76
-	const EVERSTONE    ; 77
+	const DAWN_STONE   ; 77
+	const SHELL_STONE  ; 78
 DEF NUM_STONES EQU const_value - FIRST_STONE
 
-	const EXP_SHARE    ; 78
+	const EVERSTONE    ; 79
+	const EXP_SHARE    ; 7a
 
-	const SILK_SCARF   ; 79
-	const BLACK_BELT   ; 7a
-	const SHARP_BEAK   ; 7b
-	const POISON_BARB  ; 7c
-	const SOFT_SAND    ; 7d
-	const HARD_STONE   ; 7e
-	const SILVERPOWDER ; 7f
-	const SPELL_TAG    ; 80
-	const METAL_COAT   ; 81
-	const CHARCOAL     ; 82
-	const MYSTIC_WATER ; 83
-	const MIRACLE_SEED ; 84
-	const MAGNET       ; 85
-	const TWISTEDSPOON ; 86
-	const NEVERMELTICE ; 87
-	const DRAGON_FANG  ; 88
-	const BLACKGLASSES ; 89
-	const PINK_BOW     ; 8a
+	const SILK_SCARF   ; 7b
+	const BLACK_BELT   ; 7c
+	const SHARP_BEAK   ; 7d
+	const POISON_BARB  ; 7e
+	const SOFT_SAND    ; 7f
+	const HARD_STONE   ; 80
+	const SILVERPOWDER ; 81
+	const SPELL_TAG    ; 82
+	const METAL_COAT   ; 83
+	const CHARCOAL     ; 84
+	const MYSTIC_WATER ; 85
+	const MIRACLE_SEED ; 86
+	const MAGNET       ; 87
+	const TWISTEDSPOON ; 88
+	const NEVERMELTICE ; 89
+	const DRAGON_FANG  ; 8a
+	const BLACKGLASSES ; 8b
+	const PINK_BOW     ; 8c
 
-	const BERSERK_GENE ; 8b
-	const BRIGHTPOWDER ; 8c
-	const QUICK_CLAW   ; 8d
-	const KINGS_ROCK   ; 8e
-	const AMULET_COIN  ; 8f
-	const CLEANSE_TAG  ; 90
-	const SMOKE_BALL   ; 91
-	const FOCUS_BAND   ; 92
-	const LUCKY_EGG    ; 93
-	const LEFTOVERS    ; 94
+	const BERSERK_GENE ; 8d
+	const BRIGHTPOWDER ; 8e
+	const QUICK_CLAW   ; 8f
+	const KINGS_ROCK   ; 90
+	const AMULET_COIN  ; 91
+	const CLEANSE_TAG  ; 92
+	const SMOKE_BALL   ; 93
+	const FOCUS_BAND   ; 94
+	const LUCKY_EGG    ; 95
+	const LEFTOVERS    ; 96
 
-	const SOOTHE_BELL  ; 95
-	const SHELL_BELL   ; 96
+	const SOOTHE_BELL  ; 97
+	const SHELL_BELL   ; 98
 
-	const MUSCLE_BAND  ; 97
-	const WISE_GLASSES ; 98
-	const EXPERT_BELT  ; 99
-	const LIGHT_CLAY   ; 9a
-	const LIFE_ORB     ; 9b
-	const FOCUS_SASH   ; 9c
-	const METRONOME_I  ; 9d
-	const IRON_BALL    ; 9e
-	const LAGGING_TAIL ; 9f
-	const DESTINY_KNOT ; a0
-	const GRIP_CLAW    ; a1
-	const SHED_SHELL   ; a2
-	const BIG_ROOT     ; a3
+	const MUSCLE_BAND  ; 99
+	const WISE_GLASSES ; 9a
+	const EXPERT_BELT  ; 9b
+	const LIGHT_CLAY   ; 9c
+	const LIFE_ORB     ; 9d
+	const FOCUS_SASH   ; 9e
+	const METRONOME_I  ; 9f
+	const IRON_BALL    ; a0
+	const LAGGING_TAIL ; a1
+	const DESTINY_KNOT ; a2
+	const GRIP_CLAW    ; a3
+	const SHED_SHELL   ; a4
+	const BIG_ROOT     ; a5
 
-	const EVIOLITE     ; a4
-	const ROCKY_HELMET ; a5
-	const AIR_BALLOON  ; a6
-	const RED_CARD     ; a7
-	const BINDING_BAND ; a8
-	const EJECT_BUTTON ; a9
+	const EVIOLITE     ; a6
+	const ROCKY_HELMET ; a7
+	const AIR_BALLOON  ; a8
+	const RED_CARD     ; a9
+	const BINDING_BAND ; aa
+	const EJECT_BUTTON ; ab
 
-	const WEAK_POLICY  ; aa
-	const ASSAULT_VEST ; ab
-	const SAFE_GOGGLES ; ac
+	const WEAK_POLICY  ; ac
+	const ASSAULT_VEST ; ad
+	const SAFE_GOGGLES ; ae
 
-	const PROTECT_PADS ; ad
+	const PROTECT_PADS ; af
 
-	const THROAT_SPRAY ; ae
-	const EJECT_PACK   ; af
-	const HEAVY_BOOTS  ; b0
-	const BLUNDRPOLICY ; b1
-	const ROOM_SERVICE ; b2
+	const THROAT_SPRAY ; b0
+	const EJECT_PACK   ; b1
+	const HEAVY_BOOTS  ; b2
+	const BLUNDRPOLICY ; b3
+	const ROOM_SERVICE ; b4
 
-	const CLEAR_AMULET ; b3
-	const MIRROR_HERB  ; b4
-	const PUNCHINGLOVE ; b5
-	const COVERT_CLOAK ; b6
-	const LOADED_DICE  ; b7
+	const CLEAR_AMULET ; b5
+	const MIRROR_HERB  ; b6
+	const PUNCHINGLOVE ; b7
+	const COVERT_CLOAK ; b8
+	const LOADED_DICE  ; b9
 
-	const LIGHT_BALL   ; b8
-	const LEEK         ; b9
-	const THICK_CLUB   ; ba
-	const LUCKY_PUNCH  ; bb
-	const METAL_POWDER ; bc
-	const QUICK_POWDER ; bd
-	const ARMOR_SUIT   ; be
+	const LIGHT_BALL   ; ba
+	const LEEK         ; bb
+	const THICK_CLUB   ; bc
+	const LUCKY_PUNCH  ; bd
+	const METAL_POWDER ; be
+	const QUICK_POWDER ; bf
+	const ARMOR_SUIT   ; c0
 
-	const SCOPE_LENS   ; bf
-	const WIDE_LENS    ; c0
-	const ZOOM_LENS    ; c1
+	const SCOPE_LENS   ; c1
+	const WIDE_LENS    ; c2
+	const ZOOM_LENS    ; c3
 
-	const MENTAL_HERB  ; c2
-	const POWER_HERB   ; c3
-	const WHITE_HERB   ; c4
+	const MENTAL_HERB  ; c4
+	const POWER_HERB   ; c5
+	const WHITE_HERB   ; c6
 
-	const DAMP_ROCK    ; c5
-	const HEAT_ROCK    ; c6
-	const SMOOTH_ROCK  ; c7
-	const ICY_ROCK     ; c8
+	const DAMP_ROCK    ; c7
+	const HEAT_ROCK    ; c8
+	const SMOOTH_ROCK  ; c9
+	const ICY_ROCK     ; ca
 
-	const CHOICE_BAND  ; c9
-	const CHOICE_SCARF ; ca
-	const CHOICE_SPECS ; cb
+	const CHOICE_BAND  ; cb
+	const CHOICE_SCARF ; cc
+	const CHOICE_SPECS ; cd
 
-	const FLAME_ORB    ; cc
-	const TOXIC_ORB    ; cd
-	const BLACK_SLUDGE ; ce
+	const FLAME_ORB    ; ce
+	const TOXIC_ORB    ; cf
+	const BLACK_SLUDGE ; d0
 
-	const MACHO_BRACE  ; cf
-	const POWER_WEIGHT ; d0
-	const POWER_BRACER ; d1
-	const POWER_BELT   ; d2
-	const POWER_LENS   ; d3
-	const POWER_BAND   ; d4
-	const POWER_ANKLET ; d5
+	const MACHO_BRACE  ; d1
+	const POWER_WEIGHT ; d2
+	const POWER_BRACER ; d3
+	const POWER_BELT   ; d4
+	const POWER_LENS   ; d5
+	const POWER_BAND   ; d6
+	const POWER_ANKLET ; d7
 
-	const DRAGON_SCALE ; d6
-	const MAGIC_RIBBON ; d7
-	const DUBIOUS_DISC ; d8
-	const PROTECTOR    ; d9
+	const DRAGON_SCALE ; d8
+	const MAGIC_RIBBON ; d9
 	const ELECTIRIZER  ; da
 	const MAGMARIZER   ; db
 	const RAZOR_FANG   ; dc
@@ -376,13 +376,13 @@ DEF ALWAYS_ITEM_2  EQU $ff
 	const NAM_COVERT_CLOAK
 	const NAM_CUSTAP_BERRY
 	const NAM_DAMP_ROCK
+	const NAM_DAWN_STONE
 	const NAM_DESTINY_KNOT
 	const NAM_DIRE_HIT
 	const NAM_DIVE_BALL
 	const NAM_DRAGON_FANG
 	const NAM_DRAGON_SCALE
 	const NAM_DREAM_BALL
-	const NAM_DUBIOUS_DISC
 	const NAM_DUSK_BALL
 	const NAM_DUSK_STONE
 	const NAM_EJECT_BUTTON
@@ -522,7 +522,6 @@ endc
 	const NAM_PP_UP
 	const NAM_PREMIER_BALL
 	const NAM_PROTECT_PADS
-	const NAM_PROTECTOR
 	const NAM_PROTEIN
 	const NAM_PUNCHINGLOVE
 	const NAM_QUALOT_BERRY
@@ -550,6 +549,7 @@ endc
 	const NAM_SHARP_BEAK
 	const NAM_SHED_SHELL
 	const NAM_SHELL_BELL
+	const NAM_SHELL_STONE
 	const NAM_SHINY_STONE
 	const NAM_SILK_SCARF
 	const NAM_SILVERPOWDER

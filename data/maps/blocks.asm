@@ -392,4 +392,8 @@ SECTION "VirbankCity_BlockData", ROMX
 VirbankCity_BlockData:
 	INCBIN "maps/VirbankCity.ablk.lzp"
 
+SECTION "VirbankGameCorner_BlockData", ROMX
+VirbankGameCorner_BlockData:
+	INCBIN "maps/VirbankGameCorner.ablk.lzp"
+
 ENDSECTION

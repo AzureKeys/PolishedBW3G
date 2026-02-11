@@ -175,5 +175,6 @@ ENDM
 	map_const VIRBANK_POKECENTER,                          5,  5 ;  3
 	map_const VIRBANK_POISON_BARB_HOUSE,                   4,  4 ;  4
 	map_const VIRBANK_MUSCLE_BAND_HOUSE,                   4,  4 ;  5
+	map_const VIRBANK_GAME_CORNER,                        10,  7 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

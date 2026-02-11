@@ -119,6 +119,8 @@ ItemIconPointers:
 	dba SunStoneIcon
 	dba DuskStoneIcon
 	dba ShinyStoneIcon
+	dba DawnStoneIcon
+	dba ShellStoneIcon
 	dba EverstoneIcon
 	dba ExpShareIcon
 	dba SilkScarfIcon
@@ -216,8 +218,6 @@ ItemIconPointers:
 	dba PowerAnkletIcon
 	dba DragonScaleIcon
 	dba MagicRibbonIcon
-	dba DubiousDiscIcon
-	dba ProtectorIcon
 	dba ElectirizerIcon
 	dba MagmarizerIcon
 	dba RazorFangIcon

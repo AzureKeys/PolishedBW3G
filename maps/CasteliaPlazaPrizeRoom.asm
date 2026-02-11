@@ -192,6 +192,8 @@ CasteliaPlazaPrizeRoomReceptionistScript2:
 
 CasteliaPlazaPrizeRoom_PurchaseScript:
 	writetext CasteliaPlazaPrizeRoomConfirmPrizeText
+	yesorno
+	end
 	
 CasteliaPlazaPrizeRoom_NoCoinsScript:
 	jumpopenedtext CasteliaPlazaPrizeRoomNoCoinsText

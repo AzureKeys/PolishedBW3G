@@ -161,6 +161,8 @@ endc
 	li "Sun Stone"
 	li "Dusk Stone"
 	li "Shiny Stone"
+	li "Dawn Stone"
+	li "Shell Stone"
 	li "Everstone"
 
 	li "Exp.Share"
@@ -276,8 +278,6 @@ endc
 
 	li "Dragon Scale"
 	li "Magic Ribbon"
-	li "Dubious Disc"
-	li "Protector"
 	li "Electirizer"
 	li "Magmarizer"
 	li "Razor Fang"

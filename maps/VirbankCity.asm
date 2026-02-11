@@ -11,6 +11,7 @@ VirbankCity_MapScriptHeader:
 	warp_event 15,  9, VIRBANK_POKECENTER, 1
 	warp_event 24,  9, VIRBANK_POISON_BARB_HOUSE, 1
 	warp_event 32,  9, VIRBANK_MUSCLE_BAND_HOUSE, 1
+	warp_event  8, 25, VIRBANK_GAME_CORNER, 1
 
 	def_coord_events
 	coord_event  6, 10, 1, VirbankCityBridge1OverheadTrigger

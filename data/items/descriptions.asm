@@ -118,6 +118,8 @@ ItemDescriptions:
 	dw SunStoneDesc
 	dw DuskStoneDesc
 	dw ShinyStoneDesc
+	dw DawnStoneDesc
+	dw ShellStoneDesc
 	dw EverstoneDesc
 	dw ExpShareDesc
 	dw SilkScarfDesc
@@ -215,8 +217,6 @@ ItemDescriptions:
 	dw PowerAnkletDesc
 	dw DragonScaleDesc
 	dw MagicRibbonDesc
-	dw DubiousDiscDesc
-	dw ProtectorDesc
 	dw ElectirizerDesc
 	dw MagmarizerDesc
 	dw RazorFangDesc
@@ -688,6 +688,8 @@ SunStoneDesc:
 DuskStoneDesc:
 ShinyStoneDesc:
 IceStoneDesc:
+DawnStoneDesc:
+ShellStoneDesc:
 LinkingCordDesc:
 	text "Evolves certain"
 	next "kinds of #mon."
@@ -1273,16 +1275,6 @@ DragonScaleDesc:
 MagicRibbonDesc:
 	text "A sparkling pink"
 	next "and blue ribbon."
-	done
-
-DubiousDiscDesc:
-	text "A transparent disc"
-	next "of unknown origin."
-	done
-
-ProtectorDesc:
-	text "A protective item."
-	next "Stiff and heavy."
 	done
 
 ElectirizerDesc:
