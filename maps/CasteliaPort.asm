@@ -8,7 +8,7 @@ CasteliaPort_MapScriptHeader:
 	def_warp_events
 	warp_event  9,  4, CASTELIA_CITY_SOUTH, 11
 	warp_event  9,  5, CASTELIA_CITY_SOUTH, 12
-	;warp_event  0,  2, FERRY_LEFT, 1
+	warp_event  0,  2, FERRY_LEFT, 1
 
 	def_coord_events
 
@@ -53,8 +53,8 @@ CasteliaPortFerryManScript:
 	closetext
 	applymovement PLAYER, CasteliaPort_PlayerBoardMovement1
 	applymovement CASTELIAPORT_FERRY_MAN, CasteliaPort_FerryManMovement
-	applymovement PLAYER, CasteliaPort_PlayerBoardMovement1
-	;setmapscene VIRBANK_PORT, 1
+	applymovement PLAYER, CasteliaPort_PlayerBoardMovement2
+	setmapscene VIRBANK_PORT, 1
 	disappear PLAYER
 	warpcheck
 	newloadmap MAPSETUP_TRAIN

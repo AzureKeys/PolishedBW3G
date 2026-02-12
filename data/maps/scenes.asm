@@ -19,6 +19,8 @@ MapScenes::
 	scene_var CASTELIA_PORT,                          wCasteliaPortSceneID
 	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wAlways0SceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
+	scene_var FERRY_LEFT,                             wAlways0SceneID
+	scene_var FERRY_RIGHT,                            wAlways0SceneID
 	scene_var FLOCCESY_TOWN,                          wFloccesyTownSceneID
 	scene_var GIANT_CHASM_1F,                         wGiantChasm1FSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
@@ -40,4 +42,5 @@ MapScenes::
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDELLA_TOWN,                           wUndellaTownSceneID
 	scene_var VIRBANK_CITY,                           wVirbankCitySceneID
+	scene_var VIRBANK_PORT,                           wVirbankPortSceneID
 	db -1

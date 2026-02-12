@@ -396,4 +396,16 @@ SECTION "VirbankGameCorner_BlockData", ROMX
 VirbankGameCorner_BlockData:
 	INCBIN "maps/VirbankGameCorner.ablk.lzp"
 
+SECTION "VirbankPort_BlockData", ROMX
+VirbankPort_BlockData:
+	INCBIN "maps/VirbankPort.ablk.lzp"
+
+SECTION "FerryLeft_BlockData", ROMX
+FerryLeft_BlockData:
+	INCBIN "maps/FerryLeft.ablk.lzp"
+
+SECTION "FerryRight_BlockData", ROMX
+FerryRight_BlockData:
+	INCBIN "maps/FerryRight.ablk.lzp"
+
 ENDSECTION

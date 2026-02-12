@@ -146,6 +146,7 @@ ENDM
 	map_const CASTELIA_PLAZA_ELEVATOR,                     2,  2 ; 17
 	map_const BATTLE_COMPANY_1F,                           4,  4 ; 18
 	map_const BATTLE_COMPANY_2F,                           4,  4 ; 19
+	map_const FERRY_LEFT,                                  9,  2 ; 20
 	
 	newgroup                                                     ; 10
 	map_const ASPERTIA_CITY,                              14, 22 ;  1
@@ -176,5 +177,7 @@ ENDM
 	map_const VIRBANK_POISON_BARB_HOUSE,                   4,  4 ;  4
 	map_const VIRBANK_MUSCLE_BAND_HOUSE,                   4,  4 ;  5
 	map_const VIRBANK_GAME_CORNER,                        10,  7 ;  6
+	map_const VIRBANK_PORT,                                5,  4 ;  7
+	map_const FERRY_RIGHT,                                 9,  2 ;  8
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

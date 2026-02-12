@@ -152,6 +152,7 @@ INCLUDE "maps/CasteliaPlazaRestaurant.asm"
 INCLUDE "maps/CasteliaPlazaElevator.asm"
 INCLUDE "maps/BattleCompany1F.asm"
 INCLUDE "maps/BattleCompany2F.asm"
+INCLUDE "maps/FerryLeft.asm"
 
 
 SECTION "Aspertia Scripts", ROMX
@@ -192,6 +193,8 @@ INCLUDE "maps/VirbankPoisonBarbHouse.asm"
 INCLUDE "maps/VirbankMuscleBandHouse.asm"
 INCLUDE "maps/Route20VirbankGate.asm"
 INCLUDE "maps/VirbankGameCorner.asm"
+INCLUDE "maps/VirbankPort.asm"
+INCLUDE "maps/FerryRight.asm"
 
 
 ENDSECTION

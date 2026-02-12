@@ -152,7 +152,7 @@ VirbankGameCornerReceptionistScript2:
 	
 .Klink
 	checkcoins VIRBANKGAMECORNER_KLINK_COINS
-	ifequal HAVE_LESS, VirbankGameCorner_NoCoinsScript
+	ifequalfwd HAVE_LESS, VirbankGameCorner_NoCoinsScript
 	getmonname KLINK, STRING_BUFFER_3
 	scall VirbankGameCorner_PurchaseScript
 	iffalse_jumpopenedtext VirbankGameCornerQuitText
@@ -169,7 +169,7 @@ VirbankGameCornerReceptionistScript2:
 	
 .Cryogonal
 	checkcoins VIRBANKGAMECORNER_CRYOGONAL_COINS
-	ifequal HAVE_LESS, VirbankGameCorner_NoCoinsScript
+	ifequalfwd HAVE_LESS, VirbankGameCorner_NoCoinsScript
 	getmonname CRYOGONAL, STRING_BUFFER_3
 	scall VirbankGameCorner_PurchaseScript
 	iffalse_jumpopenedtext VirbankGameCornerQuitText
@@ -186,7 +186,7 @@ VirbankGameCornerReceptionistScript2:
 	
 .Deino
 	checkcoins VIRBANKGAMECORNER_DEINO_COINS
-	ifequal HAVE_LESS, VirbankGameCorner_NoCoinsScript
+	ifequalfwd HAVE_LESS, VirbankGameCorner_NoCoinsScript
 	getmonname DEINO, STRING_BUFFER_3
 	scall VirbankGameCorner_PurchaseScript
 	iffalse_jumpopenedtext VirbankGameCornerQuitText

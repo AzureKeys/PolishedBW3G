@@ -1217,6 +1217,7 @@ wStrangeHouseRoomsSceneID:: db
 wTradeCenterSceneID:: db
 wUndellaTownSceneID:: db
 wVirbankCitySceneID:: db
+wVirbankPortSceneID:: db
 
 wEventFlags:: flag_array NUM_EVENTS
 
@@ -1241,7 +1242,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 140 ; unused
+	ds 139 ; unused
 	
 wCandyAmounts::
 	table_width 1

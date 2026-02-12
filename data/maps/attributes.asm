@@ -82,6 +82,8 @@ ENDM
 	map_attributes AspertiaCity, ASPERTIA_CITY, $35, 0
 	map_attributes AspertiaGym, ASPERTIA_GYM, $0, 0
 	map_attributes VirbankCity, VIRBANK_CITY, $35, 0
+	map_attributes FerryLeft, FERRY_LEFT, $0a, 0
+	map_attributes FerryRight, FERRY_RIGHT, $0a, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -137,6 +139,7 @@ ENDM
 	map_attributes VirbankPoisonBarbHouse, VIRBANK_POISON_BARB_HOUSE, $0, 0
 	map_attributes VirbankMuscleBandHouse, VIRBANK_MUSCLE_BAND_HOUSE, $0, 0
 	map_attributes VirbankGameCorner, VIRBANK_GAME_CORNER, $0, 0
+	map_attributes VirbankPort, VIRBANK_PORT, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
