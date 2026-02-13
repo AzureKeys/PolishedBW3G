@@ -36,7 +36,8 @@ InitialEngineFlags:
 
 InitialVariableSpritesAndMapScenes:
 DEF varspriteaddr EQUS "wVariableSprites - SPRITE_VARS +"
-	dwb varspriteaddr SPRITE_COPYCAT, SPRITE_LASS
-	dwb varspriteaddr SPRITE_JANINE_IMPERSONATOR, SPRITE_CUTE_GIRL
+	dwb varspriteaddr SPRITE_VIRBANK_GRUNT_1, SPRITE_ACE_TRAINER_M
+	dwb varspriteaddr SPRITE_VIRBANK_GRUNT_2, SPRITE_ACE_TRAINER_F
+	dwb varspriteaddr SPRITE_VIRBANK_GRUNT_3, SPRITE_POKEFAN_M
 	dwb wBattleTowerOutsideSceneID, $1
 	dw -1

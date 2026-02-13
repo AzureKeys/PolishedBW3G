@@ -29,6 +29,9 @@ VirbankComplexOutside_MapScriptHeader:
 	
 	def_object_events
 	object_event  5, 30, SPRITE_CHEREN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_AZURE, OBJECTTYPE_SCRIPT, 0, VirbankComplexOutsideCherenScript, EVENT_VIRBANK_COMPLEX_OUTSIDE_CHEREN
+	object_event 15, 38, SPRITE_VIRBANK_GRUNT_1, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerGruntM1VirbankComplexOutside, EVENT_VIRBANK_COMPLEX_GRUNTS
+	object_event 21, 36, SPRITE_VIRBANK_GRUNT_2, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerGruntFVirbankComplexOutside, EVENT_VIRBANK_COMPLEX_GRUNTS
+	object_event 14, 46, SPRITE_VIRBANK_GRUNT_3, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerGruntM2VirbankComplexOutside, EVENT_VIRBANK_COMPLEX_GRUNTS
 	itemball_event  9, 27, X_SPEED, 1, EVENT_VIRBANK_COMPLEX_OUTSIDE_X_SPEED
 	itemball_event 21, 46, ETHER, 3, EVENT_VIRBANK_COMPLEX_OUTSIDE_ETHER
 	itemball_event 23, 33, RARE_CANDY, 1, EVENT_VIRBANK_COMPLEX_OUTSIDE_RARE_CANDY
@@ -37,6 +40,9 @@ VirbankComplexOutside_MapScriptHeader:
 	
 	object_const_def
 	const VIRBANKCOMPLEXOUTSIDE_CHEREN
+	const VIRBANKCOMPLEXOUTSIDE_GRUNT_1
+	const VIRBANKCOMPLEXOUTSIDE_GRUNT_2
+	const VIRBANKCOMPLEXOUTSIDE_GRUNT_3
 	
 VirbankComplexOutsideTileScript:
 	checkscene
@@ -194,5 +200,123 @@ VirbankComplexOutsideCherenScript:
 	step_down
 	step_down
 	step_down
+	step_end
+	
+TrainerGruntM1VirbankComplexOutside:
+	trainer GRUNTM, GRUNTM_VIRBANK_COMPLEX_1, EVENT_BEAT_GRUNTM_VIRBANK_COMPLEX_1, .SeenText, .BeatenText, 0, .Script
+
+.Script:
+	checkjustbattled
+	iffalse_jumptext .AfterText
+	applymovement VIRBANKCOMPLEXOUTSIDE_GRUNT_1, VirbankComplexOutside_SpinMovement
+	faceplayer
+	variablesprite SPRITE_VIRBANK_GRUNT_1, SPRITE_ROCKET
+	special RefreshSprites
+	jumpthistext
+.AfterText:
+	text "I will carry out"
+	line "my justice no"
+	
+	para "matter what anyone"
+	line "says! No matter"
+	cont "what!"
+	done
+	
+.SeenText:
+	text "I trained myself"
+	line "endlessly to get"
+
+	para "justice for Team"
+	line "Plasma! I won't"
+
+	para "lose to anyone"
+	line "anymore!"
+	done
+	
+.BeatenText:
+	text "…But if I lose, I"
+	line "won't be able to"
+	
+	para "carry out my"
+	line "justice!"
+	done
+	
+TrainerGruntM2VirbankComplexOutside:
+	trainer GRUNTM, GRUNTM_VIRBANK_COMPLEX_2, EVENT_BEAT_GRUNTM_VIRBANK_COMPLEX_2, .SeenText, .BeatenText, 0, .Script
+
+.Script:
+	checkjustbattled
+	iffalse_jumptext .AfterText
+	applymovement VIRBANKCOMPLEXOUTSIDE_GRUNT_3, VirbankComplexOutside_SpinMovement
+	faceplayer
+	variablesprite SPRITE_VIRBANK_GRUNT_3, SPRITE_ROCKET
+	special RefreshSprites
+	jumpthistext
+.AfterText:
+	text "Team Plasma has"
+	line "taken over this"
+	cont "Complex."
+
+	para "What are we up to?"
+	line "I'll never tell!"
+	done
+	
+.SeenText:
+	text "Ha! I bet you"
+	line "thought I was a"
+	cont "worker here!"
+	done
+	
+.BeatenText:
+	text "Grrrr…"
+	done
+	
+TrainerGruntFVirbankComplexOutside:
+	trainer GRUNTF, GRUNTF_VIRBANK_COMPLEX_1, EVENT_BEAT_GRUNTF_VIRBANK_COMPLEX_1, .SeenText, .BeatenText, 0, .Script
+
+.Script:
+	checkjustbattled
+	iffalse_jumptext .AfterText
+	applymovement VIRBANKCOMPLEXOUTSIDE_GRUNT_2, VirbankComplexOutside_SpinMovement
+	faceplayer
+	variablesprite SPRITE_VIRBANK_GRUNT_2, SPRITE_ROCKET_GIRL
+	special RefreshSprites
+	jumpthistext
+.AfterText:
+	text "I'm not even that"
+	line "interested in the"
+
+	para "plan for this"
+	line "place, I'm just"
+
+	para "here to grab some"
+	line "loot!"
+	done
+	
+.SeenText:
+	text "What do you want,"
+	line "intruder?!"
+	done
+	
+.BeatenText:
+	text "Hmph! I missed my"
+	line "chance to grab"
+	cont "your #mon!"
+	done
+	
+VirbankComplexOutside_SpinMovement:
+	turn_head_down
+	turn_head_left
+	turn_head_up
+	turn_head_right
+	turn_head_down
+	turn_head_left
+	turn_head_up
+	turn_head_right
+	turn_head_down
+	turn_head_left
+	turn_head_up
+	turn_head_right
+	turn_head_down
 	step_end
 	
