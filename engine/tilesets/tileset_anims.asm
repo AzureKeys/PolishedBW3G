@@ -71,6 +71,7 @@ TilesetHouse1Anim::
 TilesetPortAnim::
 TilesetDesertAnim::
 TilesetVirbankAnim::
+TilesetComplexAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

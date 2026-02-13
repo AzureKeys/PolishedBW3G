@@ -1655,7 +1655,7 @@ MalignLureDesc:
 
 LiftKeyDesc:
 	text "Operates the lift"
-	next "in a building."
+	next "in the Complex."
 	done
 
 ShinyCharmDesc:

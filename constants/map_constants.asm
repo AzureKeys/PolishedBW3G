@@ -179,6 +179,7 @@ ENDM
 	map_const VIRBANK_GAME_CORNER,                        10,  7 ;  6
 	map_const VIRBANK_PORT,                                5,  4 ;  7
 	map_const VIRBANK_GYM,                                 7, 17 ;  8
-	map_const FERRY_RIGHT,                                 9,  2 ;  9
+	map_const VIRBANK_COMPLEX_OUTSIDE,                    13, 27 ;  9
+	map_const FERRY_RIGHT,                                 9,  2 ; 10
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

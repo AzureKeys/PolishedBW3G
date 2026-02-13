@@ -412,4 +412,8 @@ SECTION "FerryRight_BlockData", ROMX
 FerryRight_BlockData:
 	INCBIN "maps/FerryRight.ablk.lzp"
 
+SECTION "VirbankComplexOutside_BlockData", ROMX
+VirbankComplexOutside_BlockData:
+	INCBIN "maps/VirbankComplexOutside.ablk.lzp"
+
 ENDSECTION

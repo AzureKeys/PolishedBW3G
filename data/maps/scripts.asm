@@ -198,4 +198,9 @@ INCLUDE "maps/VirbankGym.asm"
 INCLUDE "maps/FerryRight.asm"
 
 
+SECTION "Virbank Complex Scripts", ROMX
+
+INCLUDE "maps/VirbankComplexOutside.asm"
+
+
 ENDSECTION

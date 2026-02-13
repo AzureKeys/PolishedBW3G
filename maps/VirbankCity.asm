@@ -13,6 +13,11 @@ VirbankCity_MapScriptHeader:
 	warp_event 32,  9, VIRBANK_MUSCLE_BAND_HOUSE, 1
 	warp_event  8, 25, VIRBANK_GAME_CORNER, 1
 	warp_event 38, 25, VIRBANK_PORT, 1
+	warp_event 26, 25, VIRBANK_GYM, 1
+	warp_event 14, 27, VIRBANK_COMPLEX_OUTSIDE, 1
+	warp_event 15, 27, VIRBANK_COMPLEX_OUTSIDE, 2
+	warp_event 16, 27, VIRBANK_COMPLEX_OUTSIDE, 3
+	warp_event 17, 27, VIRBANK_COMPLEX_OUTSIDE, 4
 
 	def_coord_events
 	coord_event  6, 10, 1, VirbankCityBridge1OverheadTrigger
@@ -47,6 +52,8 @@ VirbankCity_MapScriptHeader:
 	coord_event 15, 23, 1, VirbankCityBridge2OverheadTrigger
 	coord_event 16, 23, 1, VirbankCityBridge2OverheadTrigger
 	coord_event 17, 23, 1, VirbankCityBridge2OverheadTrigger
+	coord_event 21, 15, 1, VirbankCityBridgesOverheadTrigger
+	coord_event 32, 15, 1, VirbankCityBridgesOverheadTrigger
 
 	def_bg_events
 	bg_event  4, 10, BGEVENT_JUMPTEXT, VirbankCitySignText
@@ -183,6 +190,39 @@ VirbankCityBridge1UnderfootTrigger:
 	
 VirbankCityBridge2OverheadTrigger:
 	callthisasm
+	changebridgeblock 12, 16, $8c, VIRBANK_CITY
+	changebridgeblock 14, 16, $8d, VIRBANK_CITY
+	changebridgeblock 16, 16, $8e, VIRBANK_CITY
+	changebridgeblock 18, 16, $8f, VIRBANK_CITY
+	changebridgeblock 12, 18, $90, VIRBANK_CITY
+	changebridgeblock 14, 18, $91, VIRBANK_CITY
+	changebridgeblock 16, 18, $92, VIRBANK_CITY
+	changebridgeblock 18, 18, $93, VIRBANK_CITY
+	changebridgeblock 12, 20, $90, VIRBANK_CITY
+	changebridgeblock 14, 20, $91, VIRBANK_CITY
+	changebridgeblock 16, 20, $92, VIRBANK_CITY
+	changebridgeblock 18, 20, $93, VIRBANK_CITY
+	changebridgeblock 14, 22, $96, VIRBANK_CITY
+	changebridgeblock 16, 22, $97, VIRBANK_CITY
+	jp VirbankCity_FinishOverheadBridge
+	
+VirbankCityBridgesOverheadTrigger:
+	callthisasm
+	; bridge 1
+	changebridgeblock  8,  8, $81, VIRBANK_CITY
+	changebridgeblock 10,  8, $82, VIRBANK_CITY
+	changebridgeblock 12,  8, $9a, VIRBANK_CITY
+	changebridgeblock  6, 10, $0e, VIRBANK_CITY
+	changebridgeblock  8, 10, $83, VIRBANK_CITY
+	changebridgeblock 10, 10, $83, VIRBANK_CITY
+	changebridgeblock 12, 10, $0f, VIRBANK_CITY
+	changebridgeblock  6, 12, $12, VIRBANK_CITY
+	changebridgeblock  8, 12, $87, VIRBANK_CITY
+	changebridgeblock 10, 12, $87, VIRBANK_CITY
+	changebridgeblock 12, 12, $13, VIRBANK_CITY
+	changebridgeblock  8, 14, $8b, VIRBANK_CITY
+	changebridgeblock 10, 14, $8b, VIRBANK_CITY
+	; bridge 2
 	changebridgeblock 12, 16, $8c, VIRBANK_CITY
 	changebridgeblock 14, 16, $8d, VIRBANK_CITY
 	changebridgeblock 16, 16, $8e, VIRBANK_CITY

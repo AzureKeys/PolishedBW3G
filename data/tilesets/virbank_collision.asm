@@ -153,3 +153,4 @@
 	tilecoll WALL, WALL, WALL, WALL ; 98
 	tilecoll WALL, WALL, WALL, WALL ; 99
 	tilecoll WATER, WALL, WATER, WALL ; 9a
+	tilecoll WATER, BUOY, WATER, BUOY ; 9b

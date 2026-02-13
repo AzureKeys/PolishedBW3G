@@ -37,6 +37,7 @@ Tilesets::
 	tileset TilesetDesert
 	tileset TilesetCastelia
 	tileset TilesetVirbank
+	tileset TilesetComplex
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetHiddenGrotto
@@ -556,6 +557,22 @@ TilesetVirbankMeta:: INCBIN "data/tilesets/virbank_metatiles.bin.lzp"
 TilesetVirbankAttr:: INCBIN "data/tilesets/virbank_attributes.bin.lzp"
 TilesetVirbankColl:: INCBIN "data/tilesets/virbank_collision.bin.lzp"
 
+SECTION "Tileset Graphics - complex vram0", ROMX
+
+TilesetComplexGFX0:: INCBIN "gfx/tilesets/complex.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - complex vram1", ROMX
+
+TilesetComplexGFX1:: INCBIN "gfx/tilesets/complex.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - complex", ROMX
+
+TilesetComplexMeta:: INCBIN "data/tilesets/complex_metatiles.bin.lzp"
+TilesetComplexAttr:: INCBIN "data/tilesets/complex_attributes.bin.lzp"
+TilesetComplexColl:: INCBIN "data/tilesets/complex_collision.bin.lzp"
+
 
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
@@ -601,6 +618,7 @@ TilesetParkGFX2::
 TilesetDesertGFX2::
 TilesetCasteliaGFX2::
 TilesetVirbankGFX2::
+TilesetComplexGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::

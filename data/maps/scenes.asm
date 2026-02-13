@@ -42,5 +42,6 @@ MapScenes::
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID
 	scene_var UNDELLA_TOWN,                           wUndellaTownSceneID
 	scene_var VIRBANK_CITY,                           wVirbankCitySceneID
+	scene_var VIRBANK_COMPLEX_OUTSIDE,                wVirbankComplexOutsideSceneID
 	scene_var VIRBANK_PORT,                           wVirbankPortSceneID
 	db -1

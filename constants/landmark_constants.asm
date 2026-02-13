@@ -28,6 +28,7 @@
 	const FLOCCESY_RANCH     ; 29
 	const ROUTE_20           ; 2a
 	const VIRBANK_CITY       ; 2b
+	const VIRBANK_COMPLEX    ; 2c
 	const ROUTE_5            ; 2d
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
