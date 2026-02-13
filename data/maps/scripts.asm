@@ -194,6 +194,7 @@ INCLUDE "maps/VirbankMuscleBandHouse.asm"
 INCLUDE "maps/Route20VirbankGate.asm"
 INCLUDE "maps/VirbankGameCorner.asm"
 INCLUDE "maps/VirbankPort.asm"
+INCLUDE "maps/VirbankGym.asm"
 INCLUDE "maps/FerryRight.asm"
 
 

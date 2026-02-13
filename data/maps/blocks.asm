@@ -400,6 +400,10 @@ SECTION "VirbankPort_BlockData", ROMX
 VirbankPort_BlockData:
 	INCBIN "maps/VirbankPort.ablk.lzp"
 
+SECTION "VirbankGym_BlockData", ROMX
+VirbankGym_BlockData:
+	INCBIN "maps/VirbankGym.ablk.lzp"
+
 SECTION "FerryLeft_BlockData", ROMX
 FerryLeft_BlockData:
 	INCBIN "maps/FerryLeft.ablk.lzp"

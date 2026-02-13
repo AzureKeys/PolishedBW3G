@@ -82,6 +82,7 @@ ENDM
 	map_attributes AspertiaCity, ASPERTIA_CITY, $35, 0
 	map_attributes AspertiaGym, ASPERTIA_GYM, $0, 0
 	map_attributes VirbankCity, VIRBANK_CITY, $35, 0
+	map_attributes VirbankGym, VIRBANK_GYM, $0, 0
 	map_attributes FerryLeft, FERRY_LEFT, $0a, 0
 	map_attributes FerryRight, FERRY_RIGHT, $0a, 0
 	

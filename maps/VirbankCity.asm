@@ -59,7 +59,7 @@ VirbankCity_MapScriptHeader:
 	object_event 44, 28, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankCityFishingGuruScript, -1
 	object_event 19,  6, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityBlockerText, -1
 	object_event 37, 26, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCitySailor1Text, -1
-	object_event 33, 25, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCitySailor2Text, -1
+	object_event 33, 25, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankCitySailor2Script, -1
 	object_event 14, 24, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityTeacherText, -1
 	object_event 25, 12, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityCooltrainerFText, -1
 	object_event 28, 27, SPRITE_ROUGHNECK, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityRoughneckText, -1
@@ -262,6 +262,33 @@ VirbankCityFishingGuruScript:
 	line "they biting?"
 	done
 	
+VirbankCitySailor2Script:
+	checkkeyitem FERRY_TICKET
+	iftrue_jumptextfaceplayer .HaveTicketText
+	jumpthistextfaceplayer
+	text "Aww man, I lost my"
+	line "Ferry Ticket at"
+	cont "the Complex again…"
+	
+	para "I'm gonna have to"
+	line "ask for another"
+	cont "replacement."
+
+	para "Boss is gonna be"
+	line "so mad!"
+	done
+	
+.HaveTicketText:
+	text "Oh? You found my"
+	line "Ferry Ticket?"
+	
+	para "I already got a"
+	line "replacement, so"
+	
+	para "you can keep that"
+	line "one as thanks!"
+	done
+	
 VirbankCityBlockerText:
 	text "Sorry kid, #-"
 	line "Star Studios is"
@@ -283,15 +310,6 @@ VirbankCitySailor1Text:
 	line "ticket, go show it"
 	cont "to the fellow"
 	cont "inside!"
-	done
-	
-VirbankCitySailor2Text:
-	text "Aww man, I lost my"
-	line "Ferry Ticket at"
-	cont "the Complex again…"
-
-	para "Boss is gonna be"
-	line "so mad!"
 	done
 	
 VirbankCityTeacherText:
