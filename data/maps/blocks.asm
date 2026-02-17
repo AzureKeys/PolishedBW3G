@@ -416,4 +416,16 @@ SECTION "VirbankComplexOutside_BlockData", ROMX
 VirbankComplexOutside_BlockData:
 	INCBIN "maps/VirbankComplexOutside.ablk.lzp"
 
+SECTION "VirbankComplexElevator_BlockData", ROMX
+VirbankComplexElevator_BlockData:
+	INCBIN "maps/VirbankComplexElevator.ablk.lzp"
+
+SECTION "VirbankComplexB1F_BlockData", ROMX
+VirbankComplexB1F_BlockData:
+	INCBIN "maps/VirbankComplexB1F.ablk.lzp"
+
+SECTION "VirbankComplexB2F_BlockData", ROMX
+VirbankComplexB2F_BlockData:
+	INCBIN "maps/VirbankComplexB2F.ablk.lzp"
+
 ENDSECTION

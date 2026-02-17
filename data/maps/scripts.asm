@@ -201,6 +201,9 @@ INCLUDE "maps/FerryRight.asm"
 SECTION "Virbank Complex Scripts", ROMX
 
 INCLUDE "maps/VirbankComplexOutside.asm"
+INCLUDE "maps/VirbankComplexElevator.asm"
+INCLUDE "maps/VirbankComplexB1F.asm"
+INCLUDE "maps/VirbankComplexB2F.asm"
 
 
 ENDSECTION

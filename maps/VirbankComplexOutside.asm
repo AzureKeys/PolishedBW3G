@@ -9,6 +9,7 @@ VirbankComplexOutside_MapScriptHeader:
 	warp_event 15,  4, VIRBANK_CITY, 10
 	warp_event 16,  4, VIRBANK_CITY, 11
 	warp_event 17,  4, VIRBANK_CITY, 12
+	warp_event 15, 45, VIRBANK_COMPLEX_ELEVATOR, 1
 
 	def_coord_events
 	coord_event 11, 36, 1, VirbankComplexOutsideBridge1OverheadTrigger

@@ -1217,6 +1217,7 @@ wStrangeHouseRoomsSceneID:: db
 wTradeCenterSceneID:: db
 wUndellaTownSceneID:: db
 wVirbankCitySceneID:: db
+wVirbankComplexB1FSceneID:: db
 wVirbankComplexOutsideSceneID:: db
 wVirbankPortSceneID:: db
 
@@ -1243,7 +1244,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 138 ; unused
+	ds 137 ; unused
 	
 wCandyAmounts::
 	table_width 1

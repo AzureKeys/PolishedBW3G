@@ -59,6 +59,9 @@ ENDM
 	map_const NIMBASA_PARK_COASTER_ROOM,                  20, 15 ; 15
 	map_const NIMBASA_PARK_RUNWAY,                         5, 13 ; 16
 	map_const NIMBASA_PARK_BASEMENT,                       7,  9 ; 17
+	map_const VIRBANK_COMPLEX_ELEVATOR,                    2,  2 ; 18
+	map_const VIRBANK_COMPLEX_B1F,                         8,  6 ; 19
+	map_const VIRBANK_COMPLEX_B2F,                        11, 11 ; 20
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

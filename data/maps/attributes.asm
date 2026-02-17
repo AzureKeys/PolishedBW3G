@@ -86,6 +86,9 @@ ENDM
 	map_attributes FerryLeft, FERRY_LEFT, $0a, 0
 	map_attributes FerryRight, FERRY_RIGHT, $0a, 0
 	map_attributes VirbankComplexOutside, VIRBANK_COMPLEX_OUTSIDE, $67, 0
+	map_attributes VirbankComplexElevator, VIRBANK_COMPLEX_ELEVATOR, $0, 0
+	map_attributes VirbankComplexB1F, VIRBANK_COMPLEX_B1F, $0, 0
+	map_attributes VirbankComplexB2F, VIRBANK_COMPLEX_B2F, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

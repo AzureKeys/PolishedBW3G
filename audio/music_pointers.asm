@@ -80,4 +80,5 @@ Music:
 	dba Music_AspertiaCity
 	dba Music_OldaleTown
 	dba Music_VirbankCity
+	dba Music_KalosPowerPlant
 	assert_table_length NUM_MUSIC_SONGS
