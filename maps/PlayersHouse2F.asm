@@ -2,8 +2,8 @@ PlayersHouse2F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, PlayersHouse2FInitializeRoom
-	callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
+	;callback MAPCALLBACK_NEWMAP, PlayersHouse2FInitializeRoom
+	;callback MAPCALLBACK_TILES, PlayersHouse2FSetSpawn
 
 	def_warp_events
 	warp_event  7,  0, PLAYERS_HOUSE_1F, 3
@@ -242,7 +242,7 @@ endr
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
-	warpfacing DOWN, ROUTE_22, 7, 9
+	warpfacing DOWN, ROUTE_22, 15, 10
 	closetext
 	end
 
