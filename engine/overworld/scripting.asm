@@ -278,6 +278,7 @@ RunScriptCommand:
 	dw Script_loadtrainerwithpal         ; db
 	dw Script_rematchgift                ; dc
 	dw Script_nooryes                    ; dd
+	dw Script_digmod                     ; de
 	assert_table_length NUM_EVENT_COMMANDS
 
 GetScriptWordDE::
@@ -2228,6 +2229,15 @@ Script_warpmod:
 	ld [wBackupMapGroup], a
 	call GetScriptByte
 	ld [wBackupMapNumber], a
+	ret
+
+Script_digmod:
+	call GetScriptByte
+	ld [wDigWarpNumber], a
+	call GetScriptByte
+	ld [wDigMapGroup], a
+	call GetScriptByte
+	ld [wDigMapNumber], a
 	ret
 
 Script_blackoutmod:

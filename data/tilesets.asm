@@ -139,6 +139,18 @@ TilesetJohto3Attr:: INCBIN "data/tilesets/johto_outlands_attributes.bin.lzp"
 TilesetJohto3Coll:: INCBIN "data/tilesets/johto_outlands_collision.bin.lzp"
 
 
+SECTION "Tileset Graphics - johto ancient vram1", ROMX
+
+TilesetJohtoAncientGFX1:: INCBIN "gfx/tilesets/johto_ancient.johto_common.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Data - johto ancient", ROMX
+
+TilesetJohtoAncientMeta:: INCBIN "data/tilesets/johto_ancient_metatiles.bin.lzp"
+TilesetJohtoAncientAttr:: INCBIN "data/tilesets/johto_ancient_attributes.bin.lzp"
+TilesetJohtoAncientColl:: INCBIN "data/tilesets/johto_ancient_collision.bin.lzp"
+
+
 SECTION "Tileset Graphics - battle tower outside vram1", ROMX
 
 TilesetJohto4GFX1:: INCBIN "gfx/tilesets/battle_tower_outside.johto_common.2bpp.lzp"
