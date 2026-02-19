@@ -149,7 +149,8 @@ ENDM
 	map_const CASTELIA_PLAZA_ELEVATOR,                     2,  2 ; 17
 	map_const BATTLE_COMPANY_1F,                           4,  4 ; 18
 	map_const BATTLE_COMPANY_2F,                           4,  4 ; 19
-	map_const FERRY_LEFT,                                  9,  2 ; 20
+	map_const SKYARROW_BRIDGE,                            26,  5 ; 20
+	map_const FERRY_LEFT,                                  9,  2 ; 21
 	
 	newgroup                                                     ; 10
 	map_const ASPERTIA_CITY,                              14, 22 ;  1

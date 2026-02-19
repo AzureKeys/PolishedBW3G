@@ -8,8 +8,8 @@ CasteliaSkyarrowBridgeGate_MapScriptHeader:
 	warp_event  3,  7, CASTELIA_CITY_SOUTH, 10
 	warp_event  9,  2, CASTELIA_SKYARROW_BRIDGE_GATE, 4
 	warp_event  2, 15, CASTELIA_SKYARROW_BRIDGE_GATE, 3
-	;warp_event  7, 14, SKYARROW_BRIDGE, 1
-	;warp_event  7, 15, SKYARROW_BRIDGE, 2
+	warp_event  7, 14, SKYARROW_BRIDGE, 1
+	warp_event  7, 15, SKYARROW_BRIDGE, 2
 
 	def_coord_events
 	coord_event  6,  3, 0, CasteliaSkyarrowBridgeGateStopScript

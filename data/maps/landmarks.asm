@@ -27,6 +27,7 @@ Landmarks:
 	landmark  76,  92, DesertResortName
 	landmark  68,  92, RelicCastleName
 	landmark  84, 116, CasteliaCityName
+	landmark 104, 108, SkyarrowBridgeName
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
@@ -60,6 +61,7 @@ Route4Name:            rawchar "Route 4@"
 DesertResortName:      rawchar "Desert¯Resort@"
 RelicCastleName:       rawchar "Relic¯Castle@"
 CasteliaCityName:      rawchar "Castelia¯City@"
+SkyarrowBridgeName:    rawchar "Skyarrow¯Bridge@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"

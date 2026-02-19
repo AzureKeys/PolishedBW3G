@@ -29,6 +29,7 @@ ENDM
 	special_bg_pal map,      HUMILAU_GYM,                 PAL_SINGLE,    HumilauGymPalette
 	special_bg_pal map,      CASTELIA_CITY_NORTH,         PAL_TIMEOFDAY, CasteliaNorthPalette
 	special_bg_pal map,      CASTELIA_GYM,                PAL_SINGLE,    CasteliaGymPalette
+	special_bg_pal map,      SKYARROW_BRIDGE,             PAL_TIMEOFDAY, SkyarrowBridgePalette
 	special_bg_pal map,      NIMBASA_PARK_COASTER_ROOM,   PAL_SINGLE,    CoasterRoomPalette
 	special_bg_pal map,      VIRBANK_GYM,                 PAL_SINGLE,    VirbankGymPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
@@ -233,6 +234,39 @@ endc
 CasteliaNorthPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/castelia.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+SkyarrowBridgePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/skyarrow.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

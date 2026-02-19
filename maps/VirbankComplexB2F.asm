@@ -10,8 +10,8 @@ VirbankComplexB2F_MapScriptHeader:
 
 	def_coord_events
 	coord_event  4, 11, 0, VirbankComplexB2FSwitchTopLeftScript
-	coord_event  4, 17, 0, VirbankComplexB2FSwitchBottomLeftScript
-	coord_event 16, 11, 0, VirbankComplexB2FSwitchTopRightScript
+	coord_event  4, 17, 0, VirbankComplexB2FSwitchTopRightScript
+	coord_event 16, 11, 0, VirbankComplexB2FSwitchBottomLeftScript
 	coord_event 16, 17, 0, VirbankComplexB2FSwitchBottomRightScript
 
 	def_bg_events

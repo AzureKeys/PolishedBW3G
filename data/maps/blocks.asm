@@ -428,4 +428,8 @@ SECTION "VirbankComplexB2F_BlockData", ROMX
 VirbankComplexB2F_BlockData:
 	INCBIN "maps/VirbankComplexB2F.ablk.lzp"
 
+SECTION "SkyarrowBridge_BlockData", ROMX
+SkyarrowBridge_BlockData:
+	INCBIN "maps/SkyarrowBridge.ablk.lzp"
+
 ENDSECTION

@@ -231,4 +231,7 @@ INCLUDE "audio/music/virbankcity.asm"
 SECTION "Song - p2lab", ROMX
 INCLUDE "audio/music/p2lab.asm"
 
+SECTION "Song - skyarrow", ROMX
+INCLUDE "audio/music/skyarrow.asm"
+
 ENDSECTION

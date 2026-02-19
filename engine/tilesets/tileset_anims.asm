@@ -72,6 +72,7 @@ TilesetPortAnim::
 TilesetDesertAnim::
 TilesetVirbankAnim::
 TilesetComplexAnim::
+TilesetBridgeAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

@@ -152,6 +152,7 @@ INCLUDE "maps/CasteliaPlazaRestaurant.asm"
 INCLUDE "maps/CasteliaPlazaElevator.asm"
 INCLUDE "maps/BattleCompany1F.asm"
 INCLUDE "maps/BattleCompany2F.asm"
+INCLUDE "maps/SkyarrowBridge.asm"
 INCLUDE "maps/FerryLeft.asm"
 
 

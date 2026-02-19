@@ -22,6 +22,7 @@
 	const DESERT_RESORT      ; 14
 	const RELIC_CASTLE       ; 15
 	const CASTELIA_CITY      ; 16
+	const SKYARROW_BRIDGE    ; 18
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28

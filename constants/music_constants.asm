@@ -81,6 +81,7 @@
 	const MUSIC_FLOCCESY_TOWN                  ; 4d
 	const MUSIC_VIRBANK_CITY                   ; 4e
 	const MUSIC_P2_LAB                         ; 4f
+	const MUSIC_SKYARROW_BRIDGE                ; 50
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

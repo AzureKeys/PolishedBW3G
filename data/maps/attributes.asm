@@ -89,6 +89,7 @@ ENDM
 	map_attributes VirbankComplexElevator, VIRBANK_COMPLEX_ELEVATOR, $0, 0
 	map_attributes VirbankComplexB1F, VIRBANK_COMPLEX_B1F, $0, 0
 	map_attributes VirbankComplexB2F, VIRBANK_COMPLEX_B2F, $0, 0
+	map_attributes SkyarrowBridge, SKYARROW_BRIDGE, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
