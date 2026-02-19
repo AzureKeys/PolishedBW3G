@@ -209,6 +209,7 @@ TrainerGruntM1VirbankComplexOutside:
 .Script:
 	checkjustbattled
 	iffalse_jumptext .AfterText
+	pause 15
 	applymovement VIRBANKCOMPLEXOUTSIDE_GRUNT_1, VirbankComplexOutside_SpinMovement
 	faceplayer
 	variablesprite SPRITE_VIRBANK_GRUNT_1, SPRITE_ROCKET
@@ -248,6 +249,7 @@ TrainerGruntM2VirbankComplexOutside:
 .Script:
 	checkjustbattled
 	iffalse_jumptext .AfterText
+	pause 15
 	applymovement VIRBANKCOMPLEXOUTSIDE_GRUNT_3, VirbankComplexOutside_SpinMovement
 	faceplayer
 	variablesprite SPRITE_VIRBANK_GRUNT_3, SPRITE_ROCKET
@@ -278,6 +280,7 @@ TrainerGruntFVirbankComplexOutside:
 .Script:
 	checkjustbattled
 	iffalse_jumptext .AfterText
+	pause 15
 	applymovement VIRBANKCOMPLEXOUTSIDE_GRUNT_2, VirbankComplexOutside_SpinMovement
 	faceplayer
 	variablesprite SPRITE_VIRBANK_GRUNT_2, SPRITE_ROCKET_GIRL

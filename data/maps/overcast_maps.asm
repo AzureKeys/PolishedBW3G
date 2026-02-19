@@ -28,4 +28,5 @@ RandomOvercastMapsJohto:
 
 RandomOvercastMapsKanto:
 	const_def
+	overcast_map AREA_HUMILAU_CITY
 	DEF NUM_KANTO_OVERCAST_MAPS EQU const_value
