@@ -980,6 +980,33 @@ LoadMapPals:
 	farcall ClearSavedObjPals
 .skip_clearing_obj_pals
 
+; Only load Roof palettes for outdoor maps
+	ld a, [wEnvironment]
+	cp TOWN
+	jr z, .outside
+	cp ROUTE
+	jr z, .outside
+	cp ISOLATED
+	ret nz
+
+.outside
+; Don't load Roof palettes for certain Outdoor maps
+	ld a, [wMapGroup]
+	cp GROUP_NIMBASA_PARK_OUTSIDE
+	jr nz, .CheckCastelia
+	ld a, [wMapNumber]
+	cp MAP_NIMBASA_PARK_OUTSIDE
+	jr nz, .check_overcast
+	ret
+.CheckCastelia
+	cp GROUP_SKYARROW_BRIDGE
+	jr nz, .check_overcast
+	ld a, [wMapNumber]
+	cp MAP_SKYARROW_BRIDGE
+	jr nz, .check_overcast
+	ret
+	
+.check_overcast
 	; overcast maps have their own roof color table
 	farcall GetOvercastIndex
 	and a
@@ -990,14 +1017,6 @@ LoadMapPals:
 	jr .get_roof_color
 
 .not_overcast
-	ld a, [wEnvironment]
-	cp TOWN
-	jr z, .outside
-	cp ROUTE
-	jr z, .outside
-	cp ISOLATED
-	ret nz
-.outside
 	ld a, [wMapGroup]
 	ld hl, RoofPals
 .get_roof_color

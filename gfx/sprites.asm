@@ -97,8 +97,8 @@ RangerFSpriteGFX:: INCBIN "gfx/sprites/ranger_f.2bpp.lzp"
 SECTION "SocialiteSpriteGFX", ROMX
 SocialiteSpriteGFX:: INCBIN "gfx/sprites/socialite.2bpp.lzp"
 
-SECTION "YellowSpriteGFX", ROMX
-YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lzp"
+SECTION "BridgeCableSpriteGFX", ROMX
+BridgeCableSpriteGFX:: INCBIN "gfx/sprites/bridge_cable.2bpp.lzp"
 
 SECTION "OakSpriteGFX", ROMX
 OakSpriteGFX:: INCBIN "gfx/sprites/oak.2bpp.lzp"

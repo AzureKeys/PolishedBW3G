@@ -242,7 +242,7 @@ endr
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
-	warpfacing DOWN, VIRBANK_COMPLEX_B1F, 7, 3
+	warpfacing DOWN, CASTELIA_SKYARROW_BRIDGE_GATE, 5, 14
 	closetext
 	end
 

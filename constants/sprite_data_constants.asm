@@ -48,7 +48,7 @@ ENDM
 	ow_npc_pal_const POKE_BALL         ; 11 (red)
 	ow_npc_pal_const DECO_ITEM         ; 12 (blue)
 	ow_npc_pal_const KEY_ITEM          ; 13 (green)
-	ow_npc_pal_const MARLON            ; 14
+	ow_npc_pal_const BRIDGE_CABLE      ; 14
 	ow_npc_pal_const SAILBOAT          ; 15
 	ow_npc_pal_const RAIN              ; 16
 	ow_npc_pal_const SAND              ; 17

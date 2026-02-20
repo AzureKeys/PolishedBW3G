@@ -33,7 +33,7 @@
 	const SPRITE_RANGER_M ; 1f
 	const SPRITE_RANGER_F ; 20
 	const SPRITE_SOCIALITE ; 21
-	const SPRITE_YELLOW ; 22
+	const SPRITE_BRIDGE_CABLE ; 22
 	const SPRITE_OAK ; 23
 	const SPRITE_ELM ; 24
 	const SPRITE_IVY ; 25

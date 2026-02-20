@@ -34,6 +34,8 @@ ObjectActionPairPointers:
 	dw SetFacingMicrophone,            SetFacingMicrophone        ; OBJECT_ACTION_MICROPHONE
 	dw SetFacingBigHoOh,               SetFacingFreezeBigHoOh     ; OBJECT_ACTION_BIG_HO_OH
 	dw SetFacingBigLugia,              SetFacingFreezeBigLugia    ; OBJECT_ACTION_BIG_LUGIA
+	dw SetFacingRailLeft,              SetFacingRailLeft          ; OBJECT_ACTION_BRIDGE_RAIL_LEFT
+	dw SetFacingRailRight,             SetFacingRailRight         ; OBJECT_ACTION_BRIDGE_RAIL_RIGHT
 	assert_table_length NUM_OBJECT_ACTIONS
 
 SetFacingStanding:
@@ -74,6 +76,14 @@ SetFacingAlolanExeggutor:
 
 SetFacingMicrophone:
 	ld a, FACING_MICROPHONE
+	jr SetFixedFacing
+	
+SetFacingRailLeft:
+	ld a, FACING_BRIDGE_RAIL_LEFT
+	jr SetFixedFacing
+
+SetFacingRailRight:
+	ld a, FACING_BRIDGE_RAIL_RIGHT
 	jr SetFixedFacing
 
 SetFacingBigDoll:

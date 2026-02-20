@@ -66,6 +66,8 @@ Facings:
 	dw FacingBigHoOh2         ; FACING_BIG_HO_OH_2
 	dw FacingBigLugia1        ; FACING_BIG_LUGIA_1
 	dw FacingBigLugia2        ; FACING_BIG_LUGIA_2
+	dw FacingRailLeft         ; FACING_BRIDGE_RAIL_LEFT
+	dw FacingRailRight        ; FACING_BRIDGE_RAIL_RIGHT
 	assert_table_length NUM_FACINGS
 	dw 0 ; end
 
@@ -547,3 +549,14 @@ FacingBigLugia2:
 	db 24, 23, OAM_XFLIP, $0a
 	db 24, 15, OAM_XFLIP, $0b
 	db 24, 15, NEXT_PALETTE | OAM_XFLIP, $06
+	
+
+FacingRailLeft: 
+	db 2 ; #
+	db  12, -8, 0, $01
+	db   4,  0, 0, $02
+
+FacingRailRight: 
+	db 2 ; #
+	db   4, -8, OAM_XFLIP, $02
+	db  12,  0, OAM_XFLIP, $01
