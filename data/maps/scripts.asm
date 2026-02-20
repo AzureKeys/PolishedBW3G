@@ -153,6 +153,7 @@ INCLUDE "maps/CasteliaPlazaElevator.asm"
 INCLUDE "maps/BattleCompany1F.asm"
 INCLUDE "maps/BattleCompany2F.asm"
 INCLUDE "maps/SkyarrowBridge.asm"
+INCLUDE "maps/PinwheelSkyarrowBridgeGate.asm"
 INCLUDE "maps/FerryLeft.asm"
 
 
@@ -205,6 +206,11 @@ INCLUDE "maps/VirbankComplexOutside.asm"
 INCLUDE "maps/VirbankComplexElevator.asm"
 INCLUDE "maps/VirbankComplexB1F.asm"
 INCLUDE "maps/VirbankComplexB2F.asm"
+
+
+SECTION "Southeast Unova Route Scripts", ROMX
+
+INCLUDE "maps/PinwheelForest.asm"
 
 
 ENDSECTION

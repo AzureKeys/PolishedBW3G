@@ -37,6 +37,7 @@ NimbasaParkBasementInferScript:
 	pause 15
 	turnobject PLAYER, LEFT
 	playsound SFX_ENTER_DOOR
+	appear NIMBASAPARKBASEMENT_INFER
 	waitsfx
 	pause 15
 	playmusic MUSIC_RIVAL_ENCOUNTER

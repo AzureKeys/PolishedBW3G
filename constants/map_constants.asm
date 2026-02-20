@@ -62,6 +62,7 @@ ENDM
 	map_const VIRBANK_COMPLEX_ELEVATOR,                    2,  2 ; 18
 	map_const VIRBANK_COMPLEX_B1F,                         8,  6 ; 19
 	map_const VIRBANK_COMPLEX_B2F,                        11, 11 ; 20
+	map_const PINWHEEL_FOREST,                            23, 21 ; 21
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1
@@ -150,7 +151,8 @@ ENDM
 	map_const BATTLE_COMPANY_1F,                           4,  4 ; 18
 	map_const BATTLE_COMPANY_2F,                           4,  4 ; 19
 	map_const SKYARROW_BRIDGE,                            26,  5 ; 20
-	map_const FERRY_LEFT,                                  9,  2 ; 21
+	map_const PINWHEEL_SKYARROW_BRIDGE_GATE,               5,  9 ; 21
+	map_const FERRY_LEFT,                                  9,  2 ; 22
 	
 	newgroup                                                     ; 10
 	map_const ASPERTIA_CITY,                              14, 22 ;  1

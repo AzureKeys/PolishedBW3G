@@ -17,7 +17,7 @@ MapScenes::
 	scene_var CASTELIA_CITY_STREETS,                  wCasteliaCityStreetsSceneID
 	scene_var CASTELIA_GYM,                           wAlways0SceneID
 	scene_var CASTELIA_PORT,                          wCasteliaPortSceneID
-	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wAlways0SceneID
+	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wCasteliaSkyarrowBridgeGateSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var FERRY_LEFT,                             wAlways0SceneID
 	scene_var FERRY_RIGHT,                            wAlways0SceneID
@@ -33,6 +33,8 @@ MapScenes::
 	scene_var NIMBASA_PARK_COASTER_ROOM,              wNimbasaParkCoasterRoomSceneID
 	scene_var NIMBASA_PARK_OUTSIDE,                   wNimbasaParkOutsideSceneID
 	scene_var NIMBASA_SUBWAY,                         wAlways0SceneID
+	scene_var PINWHEEL_FOREST,                        wPinwheelForestSceneID
+	scene_var PINWHEEL_SKYARROW_BRIDGE_GATE,          wPinwheelSkyarrowBridgeGateSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var ROUTE_5_DRAWBRIDGE_GATE,                wRoute5DrawbridgeGateSceneID
 	scene_var ROUTE_12,                               wRoute12SceneID

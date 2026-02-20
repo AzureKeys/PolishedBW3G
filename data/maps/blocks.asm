@@ -72,6 +72,10 @@ SECTION "CasteliaSkyarrowBridgeGate_BlockData", ROMX
 CasteliaSkyarrowBridgeGate_BlockData:
 	INCBIN "maps/CasteliaSkyarrowBridgeGate.ablk.lzp"
 
+SECTION "PinwheelSkyarrowBridgeGate_BlockData", ROMX
+PinwheelSkyarrowBridgeGate_BlockData:
+	INCBIN "maps/PinwheelSkyarrowBridgeGate.ablk.lzp"
+
 SECTION "Truck_BlockData", ROMX
 Route5Truck_BlockData:
 	INCBIN "maps/Truck.ablk.lzp"
@@ -431,5 +435,9 @@ VirbankComplexB2F_BlockData:
 SECTION "SkyarrowBridge_BlockData", ROMX
 SkyarrowBridge_BlockData:
 	INCBIN "maps/SkyarrowBridge.ablk.lzp"
+
+SECTION "PinwheelForest_BlockData", ROMX
+PinwheelForest_BlockData:
+	INCBIN "maps/PinwheelForest.ablk.lzp"
 
 ENDSECTION

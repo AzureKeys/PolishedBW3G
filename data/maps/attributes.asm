@@ -90,6 +90,7 @@ ENDM
 	map_attributes VirbankComplexB1F, VIRBANK_COMPLEX_B1F, $0, 0
 	map_attributes VirbankComplexB2F, VIRBANK_COMPLEX_B2F, $0, 0
 	map_attributes SkyarrowBridge, SKYARROW_BRIDGE, $0, 0
+	map_attributes PinwheelForest, PINWHEEL_FOREST, $4b, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -158,6 +159,7 @@ ENDM
 	map_attributes Route4DesertGate, ROUTE_4_DESERT_GATE, $0, 0
 	map_attributes Route4CasteliaGate, ROUTE_4_CASTELIA_GATE, $0, 0
 	map_attributes CasteliaSkyarrowBridgeGate, CASTELIA_SKYARROW_BRIDGE_GATE, $0, 0
+	map_attributes PinwheelSkyarrowBridgeGate, PINWHEEL_SKYARROW_BRIDGE_GATE, $0, 0
 	map_attributes Route19AspertiaGate, ROUTE_19_ASPERTIA_GATE, $0, 0
 	map_attributes Route20VirbankGate, ROUTE_20_VIRBANK_GATE, $0, 0
 	

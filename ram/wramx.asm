@@ -1199,6 +1199,7 @@ wBattleTowerOutsideSceneID:: db
 wCaitlinsHouseSceneID:: db
 wCasteliaCityStreetsSceneID:: db
 wCasteliaPortSceneID:: db
+wCasteliaSkyarrowBridgeGateSceneID:: db
 wColosseumSceneID:: db
 wFloccesyTownSceneID:: db
 wGiantChasm1FSceneID:: db
@@ -1208,6 +1209,8 @@ wLostlornForestSceneID:: db
 wNimbasaParkBasementSceneID:: db
 wNimbasaParkCoasterRoomSceneID:: db
 wNimbasaParkOutsideSceneID:: db
+wPinwheelForestSceneID:: db
+wPinwheelSkyarrowBridgeGateSceneID:: db
 wPlayersHouse1FSceneID:: db
 wRoute5DrawbridgeGateSceneID:: db
 wRoute12SceneID:: db
@@ -1244,7 +1247,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 137 ; unused
+	ds 134 ; unused
 	
 wCandyAmounts::
 	table_width 1
