@@ -166,6 +166,9 @@ BattleCommand_transform:
 	farjp RunEntryAbilitiesInner
 
 TransformDisplayedSpecies:
+	xor a
+	ld [wNumHits], a
+
 	; If animations are disabled, or we're hidden (Fly/Dig/etc), don't play an
 	; animation, but still force a species gfx reload.
 	call _CheckBattleEffects

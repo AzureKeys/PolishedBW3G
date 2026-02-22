@@ -1616,6 +1616,25 @@ MoodyAbility:
 	call EndAbility
 	farjp CheckMirrorHerb
 
+RevertZenMode:
+; Reverts Zen Mode back to the standard form.
+	ld hl, wBattleMonSpecies
+	call GetUserMonAttr
+	ld a, [hl]
+	ld bc, wBattleMonForm - wBattleMonSpecies
+	add hl, bc
+	ld c, a
+	ld b, [hl]
+	ld de, LOW(DARMANITAN) | (HIGH(DARMANITAN) << (MON_EXTSPECIES_F + 8))
+	call CompareSpeciesWithDE
+	ret nz
+
+	; Do nothing if we're in form 1 or 3.
+	bit 0, b
+	ret nz
+	dec [hl]
+	jmp ReloadMonForm
+
 ZenModeAbility:
 ; Zen Mode will transform Darmanitan to either its regular form at >50HP, and
 ; to its Zen Mode form at <=50%HP.
@@ -1666,6 +1685,17 @@ ZenModeAbility:
 	inc [hl]
 
 .apply_form
+	call ReloadMonForm
+	call BeginAbility
+	call ShowPotentialAbilityActivation
+	farcall TransformDisplayedSpecies
+	ld hl, BattleText_ZenModeTriggered
+	call StdBattleTextbox
+	jmp EndAbility
+
+ReloadMonForm:
+	ld hl, wBattleMonForm
+	call GetUserMonAttr
 	ld a, [hl]
 	push af
 	ld a, MON_FORM
@@ -1713,13 +1743,7 @@ ZenModeAbility:
 	ld [hl], a
 
 	; Update ability.
-	farcall ResetUserAbility
-	call BeginAbility
-	call ShowPotentialAbilityActivation
-	farcall TransformDisplayedSpecies
-	ld hl, BattleText_ZenModeTriggered
-	call StdBattleTextbox
-	jmp EndAbility
+	farjp ResetUserAbility
 
 ApplyDamageAbilities_AfterTypeMatchup:
 	ld hl, OffensiveDamageAbilities_AfterTypeMatchup

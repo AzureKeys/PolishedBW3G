@@ -2228,7 +2228,12 @@ SuppressUserAbilities:
 	cp NEUTRALIZING_GAS
 	jr z, .neutralizing_gas
 	cp UNNERVE
+	jr z, .unnerve
+	cp ZEN_MODE
 	ret nz
+	farjp RevertZenMode
+
+.unnerve
 	ldh a, [hBattleTurn]
 	push af
 	farcall HandleLeppaBerry
