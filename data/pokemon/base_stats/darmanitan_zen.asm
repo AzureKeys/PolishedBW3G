@@ -7,7 +7,7 @@
 	db RAWST_BERRY, NO_ITEM  ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
-	abilities_for DARMANITAN_ZEN, SHEER_FORCE, SHEER_FORCE, SHEER_FORCE  ; ZEN_MODE
+	abilities_for DARMANITAN_ZEN, SHEER_FORCE, SHEER_FORCE, ZEN_MODE
 	db GROWTH_MEDIUM_SLOW  ; growth rate
 	dn EGG_GROUND, EGG_GROUND  ; egg groups
 

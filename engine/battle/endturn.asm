@@ -65,6 +65,7 @@ HandleBetweenTurnEffects:
 	call HandleEndturnBlockB
 	call CheckFaint
 	ret c
+	call HandleEndturnAbilitiesC
 	; Things below do not exist in 7gen -- it's here to avoid some quirks
 	call HandleLeppaBerry
 	call HandleHealingItems
@@ -220,6 +221,14 @@ HandleEndturnBlockB:
 	call SwitchTurn
 	call HandleStatusOrbs
 	jmp SwitchTurn
+
+HandleEndturnAbilitiesC:
+	call SetFastestTurn
+	call .do_it
+	call SwitchTurn
+
+.do_it
+	farjp EndturnAbilitiesC
 
 HandleWeather:
 	ld a, [wBattleWeather]

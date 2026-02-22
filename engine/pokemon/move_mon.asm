@@ -1030,6 +1030,30 @@ UpdatePkmnStats:
 	ld [hl], a
 	ret
 
+GetBattlerHyperTraining:
+	push hl
+	call GetBattlerHyperTrainingAddr
+	ld a, [hl]
+	and HYPER_TRAINING_MASK
+	pop hl
+	ret
+
+GetBattlerHyperTrainingAddr:
+	ldh a, [hBattleTurn]
+	and a
+	ld a, [wCurBattleMon]
+	ld hl, wPartyMonOTs
+	jr z, .got_battler
+	ld a, [wCurOTMon]
+	ld hl, wOTPartyMonOTs
+.got_battler
+	push bc
+	call SkipNames
+	ld bc, PLAYER_NAME_LENGTH
+	add hl, bc
+	pop bc
+	ret
+
 GetHyperTraining:
 	push hl
 	call GetHyperTrainingAddr

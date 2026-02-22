@@ -1318,8 +1318,12 @@ EndturnAbilitiesA:
 	jr _EndturnAbilities
 
 EndturnAbilitiesB:
-; these 2 routines are deliberately seperate to maintain vanilla accuracy
 	ld hl, EndturnAbilityTableB
+	jr _EndturnAbilities
+
+EndturnAbilitiesC:
+; these 3 routines are deliberately seperate to maintain vanilla accuracy
+	ld hl, EndturnAbilityTableC
 	; fallthrough
 _EndturnAbilities:
 	push hl
@@ -1342,6 +1346,10 @@ EndturnAbilityTableB:
 	dbw MOODY, MoodyAbility
 	dbw PICKUP, PickupAbility
 	dbw SPEED_BOOST, SpeedBoostAbility
+	dbw -1, -1
+
+EndturnAbilityTableC:
+	dbw ZEN_MODE, ZenModeAbility
 	dbw -1, -1
 
 CudChewAbility:
@@ -1607,6 +1615,111 @@ MoodyAbility:
 .lower_done
 	call EndAbility
 	farjp CheckMirrorHerb
+
+ZenModeAbility:
+; Zen Mode will transform Darmanitan to either its regular form at >50HP, and
+; to its Zen Mode form at <=50%HP.
+	; A Transformed pokémon will never change form.
+	ld a, BATTLE_VARS_SUBSTATUS2
+	call GetBattleVar
+	bit SUBSTATUS_TRANSFORMED, a
+	ret nz
+
+	; Don't mess with form data of non-Darmanitans.
+	ld hl, wBattleMonSpecies
+	call GetUserMonAttr
+	ld a, [hl]
+	ld bc, wBattleMonForm - wBattleMonSpecies
+	add hl, bc
+	ld c, a
+	ld b, [hl]
+	ld de, LOW(DARMANITAN) | (HIGH(DARMANITAN) << (MON_EXTSPECIES_F + 8))
+	call CompareSpeciesWithDE
+	ret nz
+
+	; Check if we're above 50%HP or not. We can use the lowest form
+	; bit to verify whether we are in the correct form or not.
+	push hl
+	push bc
+	call GetHalfMaxHP
+	call CompareHP
+	pop bc
+	pop hl
+	jr c, .not_over_half
+	jr z, .not_over_half
+
+	; Over half HP, forms 1 and 3 should be active.
+	bit 0, b
+	ret nz
+
+	; We're in the wrong form. Correct the form byte, then display a message
+	; about it.
+	dec [hl]
+	jr .apply_form
+
+.not_over_half
+	; Over half HP, forms 2 and 4 should be active.
+	bit 0, b
+	ret z
+
+	; Same as above, but increment from 1/3 to 2/4.
+	inc [hl]
+
+.apply_form
+	ld a, [hl]
+	push af
+	ld a, MON_FORM
+	call UserPartyAttr
+	pop af
+	ld [hl], a
+
+	; Get base data, needed to update typings and base stats.
+	ld [wCurForm], a
+	ld a, MON_SPECIES
+	call UserPartyAttr
+	ld [wCurSpecies], a
+	ld [wNamedObjectIndex], a
+	call GetPokemonName
+	call GetBaseData
+
+	; Update party stats.
+	ld a, MON_MAXHP
+	call UserPartyAttr
+	push hl
+	ld a, MON_EVS - 1
+	call UserPartyAttr
+	pop de
+	farcall GetBattlerHyperTraining
+	or TRUE
+	ld b, a
+	farcall CalcPkmnStats
+
+	; Write new stats to battler stats.
+	ld hl, wBattleMonStats
+	call GetUserMonAttr
+	push hl
+	ld a, MON_STATS
+	call UserPartyAttr
+	pop de
+	ld bc, NUM_BATTLE_STATS * 2
+	rst CopyBytes
+
+	; Update typing.
+	ld hl, wBattleMonType
+	call GetUserMonAttr
+	ld a, [wBaseType1]
+	ld [hli], a
+	ld a, [wBaseType2]
+	ld [hl], a
+
+	; Update ability.
+	farcall ResetUserAbility
+	call BeginAbility
+	call ShowPotentialAbilityActivation
+	farcall TransformDisplayedSpecies
+	ld hl, BattleText_ZenModeTriggered
+	call StdBattleTextbox
+	jmp EndAbility
 
 ApplyDamageAbilities_AfterTypeMatchup:
 	ld hl, OffensiveDamageAbilities_AfterTypeMatchup

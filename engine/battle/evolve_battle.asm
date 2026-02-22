@@ -129,11 +129,17 @@ EvolveDuringBattle::
 	pop af
 	ret c ; cancelled, so don't re-run entry abilities
 
-	; Only run this if we are evolving the current battler.
-	ld b, a
-	ld a, [wCurBattleMon]
-	cp b
-	ret nz
+	; Update backup form.
+	ld c, a
+	ld b, 0
+	ld hl, wPartyBackupForms
+	add hl, bc
+	ld a, [wCurForm]
+	ld [hl], a
 
+	; Only reload ability data if we are evolving the current battler.
+	ld a, [wCurBattleMon]
+	cp c
+	ret nz
 	call ResetPlayerAbility
 	farjp RunEntryAbilitiesInner

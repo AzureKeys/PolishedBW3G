@@ -1603,6 +1603,12 @@ BouncedBackText:
 	text " back!"
 	prompt
 
+BattleText_ZenModeTriggered:
+; This is actually the official message, it's unusually concise and direct.
+	text "Zen Mode"
+	line "triggered!"
+	prompt
+
 ItemCantBeStolenText:
 	text "<TARGET>'s"
 	line "item cannot be"

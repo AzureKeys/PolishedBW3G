@@ -125,18 +125,7 @@ BattleCommand_transform:
 	ld de, wPlayerStatLevels
 	ld bc, 8
 	call BattleSideCopy
-	call _CheckBattleEffects
-	jr c, .mimic_anims
-	; Animation is done "raw" to allow Imposter
-	; to use the correct animation
-	ld de, TRANSFORM
-	call FarPlayBattleAnimation
-	jr .after_anim
-
-.mimic_anims
-	call BattleCommand_movedelay
-	call BattleCommand_raisesubnoanim
-.after_anim
+	call TransformDisplayedSpecies
 	xor a
 	ld [wNumHits], a
 	ld [wFXAnimIDHi], a
@@ -175,3 +164,22 @@ BattleCommand_transform:
 	ret z ; avoid infinite loop
 
 	farjp RunEntryAbilitiesInner
+
+TransformDisplayedSpecies:
+	; If animations are disabled, or we're hidden (Fly/Dig/etc), don't play an
+	; animation, but still force a species gfx reload.
+	call _CheckBattleEffects
+	jr c, .direct_transform
+
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVar
+	and SEMI_INVULNERABLE_MASK
+	jr nz, .direct_transform
+
+	; Animation is done "raw" to allow transformations not caused by moves.
+	ld de, TRANSFORM
+	jmp FarPlayBattleAnimation
+
+.direct_transform
+	call BattleCommand_movedelay
+	jmp BattleCommand_raisesubnoanim

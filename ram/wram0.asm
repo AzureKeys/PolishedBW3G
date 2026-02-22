@@ -493,6 +493,14 @@ wPartyBackupItems::
 ; Berries and items stolen from wild Pokémon since those changes are retained.
 	ds PARTY_LENGTH
 
+wPartyBackupForms::
+; Back up of party forms. Needed for Zen Mode and potential future extensions.
+; Zen Mode can theoretically get away with skipping this, but not everything
+; we might add in the future will.
+	ds PARTY_LENGTH
+
+wOTPartyBackupForms:: ds PARTY_LENGTH
+
 wPartyUsedItems::
 ; For the benefit of Pickup/Harvest
 	ds PARTY_LENGTH
@@ -890,7 +898,7 @@ wFootprintQueue:: ds 3 * 2 + 1
 
 SECTION "Unused", WRAM0
 
-	ds 69 ; it's free real estate
+	ds 57 ; it's free real estate
 
 
 SECTION UNION "Misc 1300", WRAM0

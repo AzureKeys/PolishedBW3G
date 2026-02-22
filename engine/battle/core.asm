@@ -3,6 +3,7 @@ BattleCore:
 DoBattle:
 	farcall FixPlayerEVsAndStats
 	call BackupBattleItems
+	call BackupBattleForms
 	call ResetParticipants
 	xor a
 	ld [wBattlePlayerAction], a
@@ -3056,6 +3057,11 @@ ResetEnemyAbility:
 	xor a
 	ret
 
+ResetUserAbility:
+	ldh a, [hBattleTurn]
+	and a
+	jr nz, ResetEnemyAbility
+	; fallthrough
 ResetPlayerAbility:
 	push hl
 	ld hl, wBattleMonPersonality
@@ -3257,6 +3263,7 @@ PostBattleTasks::
 	push bc
 	push de
 	call RestoreBattleItems
+	call RestoreBattleForms
 	ld a, [wPartyCount]
 	and a
 	jr z, .no_party

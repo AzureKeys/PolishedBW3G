@@ -132,6 +132,7 @@ AbilityDescriptions:
 	dw SapSipperDescription
 	dw PranksterDescription
 	dw SandForceDescription
+	dw ZenModeDescription
 	dw FurCoatDescription
 	dw BulletproofDescription
 	dw CompetitiveDescription
@@ -806,6 +807,11 @@ PranksterDescription:
 SandForceDescription:
 	text "Boosts some moves"
 	next "in a sandstorm."
+	done
+
+ZenModeDescription:
+	text "Changes form at"
+	next "half or less HP."
 	done
 
 FurCoatDescription:

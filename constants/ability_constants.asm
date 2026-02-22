@@ -135,6 +135,7 @@
 	const SAP_SIPPER
 	const PRANKSTER
 	const SAND_FORCE
+	const ZEN_MODE
 	const FUR_COAT
 	const BULLETPROOF
 	const COMPETITIVE
