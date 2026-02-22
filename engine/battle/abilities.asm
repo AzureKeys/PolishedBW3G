@@ -1799,6 +1799,7 @@ OffensiveDamageAbilities:
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
+	dbw SUPREME_OVERLORD, SupremeOverlordAbility
 	dbw -1, -1
 
 DefensiveDamageAbilities:
@@ -1944,6 +1945,23 @@ SharpnessAbility:
 	jr MoveBoostAbility
 
 INCLUDE "data/moves/slicing_moves.asm"
+
+SupremeOverlordAbility:
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerFaintCounter
+	jr z, .got_faint_counter
+	ld hl, wEnemyFaintCounter
+.got_faint_counter
+	; Supreme Overlord maxes out at 5 faints.
+	ld a, [hl]
+	cp 6
+	jr c, .faint_amount_ok
+	ld a, 5
+.faint_amount_ok
+	swap a
+	add $aa ; (10 + x)/10, scales between x1.0-x1.5
+	jmp MultiplyAndDivide
 
 MoveBoostAbility:
 	ld a, BATTLE_VARS_MOVE

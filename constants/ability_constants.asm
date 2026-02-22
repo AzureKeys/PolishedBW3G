@@ -162,6 +162,7 @@
 	const WIND_RIDER
 	const CUD_CHEW
 	const SHARPNESS
+	const SUPREME_OVERLORD
 	const ARMOR_TAIL
 	const MINDS_EYE
 DEF NUM_ABILITIES EQU const_value

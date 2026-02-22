@@ -159,6 +159,7 @@ AbilityDescriptions:
 	dw WindRiderDescription
 	dw CudChewDescription
 	dw SharpnessDescription
+	dw SupremeOverlordDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
 	assert_table_length NUM_ABILITIES
@@ -932,6 +933,11 @@ CudChewDescription:
 SharpnessDescription:
 	text "Boosts power of"
 	next "slicing moves."
+	done
+
+SupremeOverlordDescription:
+	text "Boosts move power"
+	next "per fainted <PK><MN>."
 	done
 
 ArmorTailDescription:

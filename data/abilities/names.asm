@@ -159,6 +159,7 @@ AbilityNames:
 	dw WindRider
 	dw CudChew
 	dw Sharpness
+	dw SupremeOverlord
 	dw ArmorTail
 	dw MindsEye
 	assert_table_length NUM_ABILITIES
@@ -322,5 +323,6 @@ QuickDraw:       rawchar "Quick Draw@"
 WindRider:       rawchar "Wind Rider@"
 CudChew:         rawchar "Cud Chew@"
 Sharpness:       rawchar "Sharpness@"
+SupremeOverlord: rawchar "Supreme Overlord@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"

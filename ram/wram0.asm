@@ -591,8 +591,8 @@ wLastEnemyCounterMove:: db
 wTrickRoom:: db
 
 wBattleLowHealthAlarm:: db
-
-	ds 1 ; unused
+wPlayerFaintCounter:: db
+wEnemyFaintCounter:: db
 
 wPlayerHazards::
 ; bit
@@ -898,7 +898,7 @@ wFootprintQueue:: ds 3 * 2 + 1
 
 SECTION "Unused", WRAM0
 
-	ds 57 ; it's free real estate
+	ds 56 ; it's free real estate
 
 
 SECTION UNION "Misc 1300", WRAM0

@@ -2197,6 +2197,17 @@ FaintUserPokemon:
 	call GetBattleVarAddr
 	res SUBSTATUS_IN_LOOP, [hl]
 
+	ldh a, [hBattleTurn]
+	and a
+	ld hl, wPlayerFaintCounter
+	jr z, .got_faint_counter
+	ld hl, wEnemyFaintCounter
+.got_faint_counter
+	ld a, [hl]
+	cp 100
+	jr nc, .faint_increment_done
+	inc [hl]
+.faint_increment_done
 	ld hl, BattleText_PkmnFainted
 	ldh a, [hBattleTurn]
 	and a
