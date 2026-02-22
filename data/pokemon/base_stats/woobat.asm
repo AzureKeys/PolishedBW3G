@@ -7,7 +7,8 @@
 	db NO_ITEM, NO_ITEM   ; held items
 	dn GENDER_F50, HATCH_FAST   ; gender ratio, step cycles to hatch
 
-	abilities_for WOOBAT, UNAWARE, UNAWARE, UNAWARE  ;, KLUTZ, SIMPLE
+	 ;abilities_for WOOBAT, UNAWARE, KLUTZ, SIMPLE
+	abilities_for WOOBAT, UNAWARE, UNAWARE, SIMPLE
 	db GROWTH_MEDIUM_FAST   ; growth rate
 	dn EGG_GROUND, EGG_FLYING   ; egg groups
 
