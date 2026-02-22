@@ -173,6 +173,14 @@ ReadMoveScriptByte:
 	ld a, BANK(MoveEffectsPointers)
 	jmp GetFarByte
 
+IsBreakerAbility:
+	cp MOLD_BREAKER
+	ret z
+	cp TURBOBLAZE
+	ret z
+	cp TERAVOLT
+	ret
+
 InitializeMove:
 ; Get the user's move effect.
 	; Abilities ignorance doesn't apply for future moves (even active users).
@@ -181,7 +189,7 @@ InitializeMove:
 
 	; Check if Mold Breaker applies.
 	call GetTrueUserIgnorableAbility
-	cp MOLD_BREAKER
+	call IsBreakerAbility
 	jr nz, .mold_breaker_done
 
 	ldh a, [hBattleTurn]

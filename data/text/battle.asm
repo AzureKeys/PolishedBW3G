@@ -1525,6 +1525,18 @@ NotifyMoldBreaker:
 	line "breaks the mold!"
 	prompt
 
+NotifyTurboblaze:
+	text "<USER>"
+	line "is radiating a"
+	cont "blazing aura!"
+	prompt
+
+NotifyTeravolt:
+	text "<USER>"
+	line "is radiating a"
+	cont "bursting aura!"
+	prompt
+
 NotifyUnnerve:
 	text "<TARGET> is"
 	line "too afraid to eat"

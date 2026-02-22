@@ -133,6 +133,8 @@ AbilityDescriptions:
 	dw PranksterDescription
 	dw SandForceDescription
 	dw ZenModeDescription
+	dw TurboblazeDescription
+	dw TeravoltDescription
 	dw FurCoatDescription
 	dw BulletproofDescription
 	dw CompetitiveDescription
@@ -600,6 +602,8 @@ LeafGuardDescription:
 	done
 
 MoldBreakerDescription:
+TurboblazeDescription:
+TeravoltDescription:
 	text "Moves disregard"
 	next "the foe's ability."
 	done

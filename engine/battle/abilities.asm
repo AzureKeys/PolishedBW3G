@@ -57,6 +57,8 @@ BattleEntryAbilities:
 	dbw CLOUD_NINE, CloudNineAbility
 	dbw PRESSURE, PressureAbility
 	dbw MOLD_BREAKER, MoldBreakerAbility
+	dbw TURBOBLAZE, TurboblazeAbility
+	dbw TERAVOLT, TeravoltAbility
 	dbw NEUTRALIZING_GAS, NeutralizingGasAbility
 	dbw SCREEN_CLEANER, ScreenCleanerAbility
 	; fallthrough
@@ -81,6 +83,12 @@ PressureAbility:
 	jr NotificationAbilities
 MoldBreakerAbility:
 	ld hl, NotifyMoldBreaker
+	jr NotificationAbilities
+TurboblazeAbility:
+	ld hl, NotifyTurboblaze
+	jr NotificationAbilities
+TeravoltAbility:
+	ld hl, NotifyTeravolt
 	jr NotificationAbilities
 UnnerveAbility:
 	ld hl, NotifyUnnerve

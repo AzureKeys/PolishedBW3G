@@ -133,6 +133,8 @@ AbilityNames:
 	dw Prankster
 	dw SandForce
 	dw ZenMode
+	dw Turboblaze
+	dw Teravolt
 	dw FurCoat
 	dw Bulletproof
 	dw Competitive
@@ -293,6 +295,8 @@ SapSipper:       rawchar "Sap Sipper@"
 Prankster:       rawchar "Prankster@"
 SandForce:       rawchar "Sand Force@"
 ZenMode:         rawchar "Zen Mode@"
+Turboblaze:      rawchar "Turboblaze@"
+Teravolt:        rawchar "Teravolt@"
 FurCoat:         rawchar "Fur Coat@"
 Bulletproof:     rawchar "Bulletproof@"
 Competitive:     rawchar "Competitive@"

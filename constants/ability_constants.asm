@@ -136,6 +136,8 @@
 	const PRANKSTER
 	const SAND_FORCE
 	const ZEN_MODE
+	const TURBOBLAZE
+	const TERAVOLT
 	const FUR_COAT
 	const BULLETPROOF
 	const COMPETITIVE
