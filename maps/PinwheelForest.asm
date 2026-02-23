@@ -5,6 +5,8 @@ PinwheelForest_MapScriptHeader:
 
 	def_warp_events
 	warp_event 37,  5, PINWHEEL_SKYARROW_BRIDGE_GATE, 1
+	warp_event 43, 35, NACRENE_OUTSKIRT, 1
+	warp_event 43, 36, NACRENE_OUTSKIRT, 2
 	warp_event 17, 25, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

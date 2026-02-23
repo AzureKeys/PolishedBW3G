@@ -242,7 +242,7 @@ endr
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
-	warpfacing DOWN, CASTELIA_SKYARROW_BRIDGE_GATE, 5, 14
+	warpfacing DOWN, NACRENE_CITY, 4, 9
 	closetext
 	end
 
@@ -295,7 +295,8 @@ PokemonJournalProfElmScript:
 PlayersHousePC:
 	opentext
 	special Special_PlayersHousePC
-	iffalse_endtext
+	iftruefwd .Warp
+	endtext
 .Warp:
 	warp NONE, 0, 0
 	end
