@@ -33,15 +33,18 @@ ENDM
 	const PHONECONTACT_BIANCA
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
-DEF KRIS EQU __trainer_class__
-	trainerclass CARRIE ; 1
-
 DEF CHRIS EQU __trainer_class__
-	trainerclass CAL ; 2
+	trainerclass CAL ; 1
+
+DEF KRIS EQU __trainer_class__
+	trainerclass CARRIE ; 2
 
 DEF CRYS EQU __trainer_class__
 	trainerclass JACKY ; 3
 
+DEF BETA EQU __trainer_class__
+	trainerclass EUNA ; 4
+	
 	trainerclass MARLON ; 4
 
 	trainerclass SHAUNTAL ; 5
@@ -706,24 +709,24 @@ DEF CRYS EQU __trainer_class__
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
-	trainerclass OMASTAR_FOSSIL ; 94
+	trainerclass OMASTAR_FOSSIL ; 95
 
-	trainerclass KABUTOPS_FOSSIL ; 95
+	trainerclass KABUTOPS_FOSSIL ; 96
 
-	trainerclass AERODACTYL_FOSSIL ; 96
+	trainerclass AERODACTYL_FOSSIL ; 97
 
-	trainerclass CUBONE_ARMOR ; 97
+	trainerclass CUBONE_ARMOR ; 98
 
-	trainerclass METEORITE ; 98
+	trainerclass METEORITE ; 99
 
-	trainerclass SILHOUETTE ; 99
+	trainerclass SILHOUETTE ; 9a
 
 DEF NUM_TRAINER_CLASS_PICS EQU __trainer_class__ - 1
-	trainerpal SAYO ; 9a
-	trainerpal ZUKI ; 9b
-	trainerpal KUNI ; 9c
-	trainerpal MIKI ; 9d
-	trainerpal MAKO ; 9e
-	trainerpal AMI  ; 9f
-	trainerpal MINA ; a0
+	trainerpal SAYO ; 9b
+	trainerpal ZUKI ; 9c
+	trainerpal KUNI ; 9d
+	trainerpal MIKI ; 9e
+	trainerpal MAKO ; 9f
+	trainerpal AMI  ; a0
+	trainerpal MINA ; a1
 DEF NUM_TRAINER_PALS EQU __trainer_pal__ - 1

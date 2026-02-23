@@ -95,7 +95,7 @@ TilesetJohto4Anim::
 	dw vTiles2 tile $1c, AnimateRainPuddleTile
 	dw vTiles2 tile $1d, AnimateRainWaterTile
 	dw NULL,  DoNothing
-	dw NULL,  AnimateFlowerTile
+	dw vTiles2 tile $03, AnimateFlowerTile
 	dw WhirlpoolFrames1, AnimateWhirlpoolTile
 	dw WhirlpoolFrames2, AnimateWhirlpoolTile
 	dw WhirlpoolFrames3, AnimateWhirlpoolTile
@@ -161,14 +161,14 @@ TilesetNacreneAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
-	dw NULL,  AnimateFlowerTile
+	dw vTiles2 tile $03, AnimateFlowerTile
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
 TilesetUndergroundAnim::
-	dw NULL,  SpinnerAnimation
+	dw vTiles2 tile $08, SpinnerAnimation
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -194,6 +194,7 @@ TilesetBattleTowerAnim::
 TilesetBattleFactoryAnim::
 TilesetLentimasAnim::
 TilesetHiddenGrottoAnim::
+TilesetKantoGymAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -361,8 +362,7 @@ AnimateFountain:
 	ld sp, hl
 	pop hl
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 .FountainTilePointers:
 	dw .FountainTile1
@@ -398,8 +398,7 @@ AnimateWaterTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 .WaterTileFrames:
 INCBIN "gfx/tilesets/water/johto_water.2bpp"
@@ -420,8 +419,7 @@ AnimateRainPuddleTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 .RainPuddleTileFrames:
 INCBIN "gfx/tilesets/rain/rain_puddle.2bpp"
@@ -442,8 +440,7 @@ AnimateRainWaterTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 .RainWaterTileFrames:
 INCBIN "gfx/tilesets/rain/rain_water.2bpp"
@@ -466,8 +463,7 @@ AnimateKantoWaterTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 .KantoWaterTileFrames:
 INCBIN "gfx/tilesets/water/kanto_water.2bpp"
@@ -497,8 +493,7 @@ AnimateFarawayWaterTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 SpinnerAnimation:
 	ld hl, sp + 0
@@ -523,9 +518,7 @@ SpinnerAnimation:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $50
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 .SpinnerTileFrames:
 INCBIN "gfx/tilesets/spinner/1.2bpp"
@@ -551,9 +544,7 @@ ForestTreeLeftAnimation:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $50
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTreeRightAnimation:
 	ld a, [wCelebiEvent]
@@ -575,9 +566,7 @@ ForestTreeRightAnimation:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $53
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTreeLeftAnimation2:
 	ld a, [wCelebiEvent]
@@ -600,9 +589,7 @@ ForestTreeLeftAnimation2:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $50
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTreeRightAnimation2:
 	ld a, [wCelebiEvent]
@@ -625,9 +612,7 @@ ForestTreeRightAnimation2:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $53
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTreeLeftFrames:
 INCBIN "gfx/tilesets/forest-tree/1.2bpp"
@@ -657,9 +642,7 @@ ForestTree2LeftAnimation:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $5c
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTree2RightAnimation:
 	ld a, [wCelebiEvent]
@@ -681,9 +664,7 @@ ForestTree2RightAnimation:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $5f
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTree2LeftAnimation2:
 	ld a, [wCelebiEvent]
@@ -706,9 +687,7 @@ ForestTree2LeftAnimation2:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $5c
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTree2RightAnimation2:
 	ld a, [wCelebiEvent]
@@ -731,9 +710,7 @@ ForestTree2RightAnimation2:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $5f
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 ForestTree2LeftFrames:
 INCBIN "gfx/tilesets/forest-tree-2/1.2bpp"
@@ -761,9 +738,7 @@ AnimateFlowerTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $03
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 .FlowerTileFrames:
 INCBIN "gfx/tilesets/flower/1.2bpp"
@@ -787,9 +762,7 @@ AnimateKantoFlowerTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $03
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 .KantoFlowerTileFrames:
 INCBIN "gfx/tilesets/kanto-flower/1.2bpp"
@@ -811,15 +784,7 @@ LavaBubbleAnim1:
 	maskbits 4
 	swap a
 
-	add LOW(LavaBubbleFrames)
-	ld l, a
-	adc HIGH(LavaBubbleFrames)
-	sub l
-	ld h, a
-
-	ld sp, hl
-	ld hl, vTiles2 tile $5b
-	jmp WriteTile
+	jr _FinishLavaBubbleAnim
 
 LavaBubbleAnim2:
 	ld hl, sp + 0
@@ -832,62 +797,16 @@ LavaBubbleAnim2:
 	add a
 	add a
 	add a
+	; fallthrough
 
+_FinishLavaBubbleAnim:
 	add LOW(LavaBubbleFrames)
 	ld l, a
 	adc HIGH(LavaBubbleFrames)
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $38
-	jmp WriteTile
-
-LavaBubbleAnim3:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 4, phase shift 2, every 2 frames, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 4, 1
-	srl a
-	inc a
-	inc a
-	maskbits 4
-	swap a
-
-	add LOW(LavaBubbleFrames)
-	ld l, a
-	adc HIGH(LavaBubbleFrames)
-	sub l
-	ld h, a
-
-	ld sp, hl
-	ld hl, vTiles2 tile $3d
-	jmp WriteTile
-
-LavaBubbleAnim4:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 4, every 2 frames, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 4, 1
-	add a
-	add a
-	add a
-
-	add LOW(LavaBubbleFrames)
-	ld l, a
-	adc HIGH(LavaBubbleFrames)
-	sub l
-	ld h, a
-
-	ld sp, hl
-	ld hl, vTiles2 tile $3c
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 LavaBubbleFrames:
 INCBIN "gfx/tilesets/lava/1.2bpp"
@@ -926,8 +845,7 @@ AnimateTowerPillarTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 .TowerPillarTileFrameIndexes:
 	db $00, $10, $20, $30, $40, $30, $20, $10
@@ -957,7 +875,7 @@ AnimateWhirlpoolTile:
 	ld h, a
 
 	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 AnimateFountainTile:
 	ld hl, sp + 0
@@ -984,7 +902,7 @@ AnimateFountainTile:
 	ld h, a
 
 	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 AnimateFanTile:
 	ld hl, sp + 0
@@ -1012,7 +930,7 @@ AnimateFanTile:
 	ld h, a
 
 	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 AnimateComputerTile0:
 	ld hl, sp + 0
@@ -1080,8 +998,7 @@ AnimateComputerTile:
 	adc h
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 AnimateTinyWaterTile:
 	ld hl, sp + 0
@@ -1110,8 +1027,7 @@ AnimateTinyWaterTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	jmp WriteTileToDE
+	jmp WriteTileHLToDE
 
 AnimateLCDTile:
 	ld hl, sp + 0
@@ -1129,9 +1045,7 @@ AnimateLCDTile:
 	sub l
 	ld h, a
 
-	ld sp, hl
-	ld hl, vTiles2 tile $5e
-	jmp WriteTile
+	jmp WriteTileHLToDE
 
 .LCDTileFrames:
 INCBIN "gfx/tilesets/lcd/1.2bpp"
@@ -1161,10 +1075,10 @@ ReadTileFromBuffer:
 	ld c, l
 
 	ld hl, wTileAnimBuffer
-	ld sp, hl
 	; fallthrough
 
-WriteTileToDE:
+WriteTileHLToDE:
+	ld sp, hl
 	ld l, e
 	ld h, d
 	; fallthrough

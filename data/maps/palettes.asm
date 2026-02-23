@@ -36,7 +36,6 @@ ENDM
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_UNOVA_HOUSE,         PAL_SINGLE,    UnovaHousePalette
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette
-	special_bg_pal tileset,  TILESET_GAME_CORNER,         PAL_SINGLE,    GameCornerPalette
 	special_bg_pal tileset,  TILESET_BATTLE_TOWER_INSIDE, PAL_SINGLE,    BattleTowerPalette
 	special_bg_pal tileset,  TILESET_BATTLE_FACTORY,      PAL_SINGLE,    BattleFactoryPalette
 	special_bg_pal tileset,  TILESET_FOREST,              PAL_SINGLE,    ForestPalette
@@ -374,6 +373,19 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
+HideoutPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/hideout.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
 GatePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/gate.pal"
@@ -429,19 +441,6 @@ endc
 HallOfFamePalette:
 if !DEF(MONOCHROME)
 INCLUDE "maps/HallOfFame.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-GameCornerPalette:
-if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/game_corner.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

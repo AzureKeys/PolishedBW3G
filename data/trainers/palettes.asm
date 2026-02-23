@@ -1,14 +1,12 @@
 TrainerPalettes:
 ; entries correspond to trainer classes
-	table_width COLOR_SIZE * 2
+	table_width 2 colors
 
 if !DEF(MONOCHROME)
-KrisPalette:
-INCLUDE "gfx/trainers/carrie.pal"
-ChrisPalette:
 INCLUDE "gfx/trainers/cal.pal"
-CrysPalette:
+INCLUDE "gfx/trainers/carrie.pal"
 INCLUDE "gfx/trainers/jacky.pal"
+INCLUDE "gfx/trainers/euna.pal"
 INCLUDE "gfx/trainers/marlon.pal"
 INCLUDE "gfx/trainers/shauntal.pal"
 INCLUDE "gfx/trainers/burgh.pal"
@@ -127,10 +125,6 @@ INCLUDE "gfx/trainers/meteorite.pal"
 INCLUDE "gfx/trainers/silhouette.pal"
 
 else
-ChrisPalette:
-KrisPalette:
-CrysPalette:
-Lyra1Palette:
 rept NUM_TRAINER_CLASS_PICS
 	MONOCHROME_RGB_TWO
 endr

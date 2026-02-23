@@ -3,9 +3,10 @@ DEF FEMALE_BIT EQU FEMALE >> 7
 
 BTTrainerClassGenders:
 	bit_array
-	dbit FEMALE_BIT ; CARRIE
 	dbit MALE_BIT   ; CAL
-	dbit FEMALE_BIT ; JACKY
+	dbit FEMALE_BIT ; CARRIE
+	dbit MALE_BIT   ; JACKY
+	dbit FEMALE_BIT ; EUNA
 	dbit MALE_BIT   ; MARLON
 	dbit FEMALE_BIT ; SHAUNTAL
 	dbit MALE_BIT   ; BURGH

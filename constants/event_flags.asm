@@ -294,8 +294,6 @@
 	const EVENT_DECO_BIG_SNORLAX_DOLL
 	const EVENT_DECO_BIG_ONIX_DOLL
 	const EVENT_DECO_BIG_LAPRAS_DOLL ; 598
-	
-	const_next 733
 
 ; Trainer Flags
 ; Gym Leaders
