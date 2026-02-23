@@ -29,6 +29,7 @@ Landmarks:
 	landmark  84, 116, CasteliaCityName
 	landmark 104, 108, SkyarrowBridgeName
 	landmark 116, 100, PinwheelForestName
+	landmark 124, 100, NacreneCityName
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
@@ -64,6 +65,7 @@ RelicCastleName:       rawchar "Relic¯Castle@"
 CasteliaCityName:      rawchar "Castelia¯City@"
 SkyarrowBridgeName:    rawchar "Skyarrow¯Bridge@"
 PinwheelForestName:    rawchar "Pinwheel¯Forest@"
+NacreneCityName:       rawchar "Nacrene¯City@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"

@@ -234,4 +234,10 @@ INCLUDE "audio/music/p2lab.asm"
 SECTION "Song - skyarrow", ROMX
 INCLUDE "audio/music/skyarrow.asm"
 
+SECTION "Song - route3", ROMX
+INCLUDE "audio/music/route3.asm"
+
+SECTION "Song - striatoncity", ROMX
+INCLUDE "audio/music/striatoncity.asm"
+
 ENDSECTION

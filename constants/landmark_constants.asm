@@ -24,6 +24,7 @@
 	const CASTELIA_CITY      ; 16
 	const SKYARROW_BRIDGE    ; 18
 	const PINWHEEL_FOREST    ; 19
+	const NACRENE_CITY       ; 1a
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28

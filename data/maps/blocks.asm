@@ -440,4 +440,20 @@ SECTION "PinwheelForest_BlockData", ROMX
 PinwheelForest_BlockData:
 	INCBIN "maps/PinwheelForest.ablk.lzp"
 
+SECTION "NacreneOutskirt_BlockData", ROMX
+NacreneOutskirt_BlockData:
+	INCBIN "maps/NacreneOutskirt.ablk.lzp"
+
+SECTION "NacreneOutskirtEast_BlockData", ROMX
+NacreneOutskirtEast_BlockData:
+	INCBIN "maps/NacreneOutskirtEast.ablk.lzp"
+
+SECTION "NacreneOutskirtConnectionDummy_BlockData", ROMX
+NacreneOutskirtConnectionDummy_BlockData:
+	INCBIN "maps/NacreneOutskirtConnectionDummy.ablk.lzp"
+
+SECTION "NacreneCity_BlockData", ROMX
+NacreneCity_BlockData:
+	INCBIN "maps/NacreneCity.ablk.lzp"
+
 ENDSECTION

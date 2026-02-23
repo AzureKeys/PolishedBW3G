@@ -49,6 +49,18 @@ ENDM
 	
 	map_attributes FloccesyRanch, FLOCCESY_RANCH, $35, SOUTH
 	connection south, Route20, ROUTE_20, 5
+	
+	map_attributes NacreneOutskirt, NACRENE_OUTSKIRT, $25, EAST
+	connection east, NacreneOutskirtConnectionDummy, NACRENE_OUTSKIRT_CONNECTION_DUMMY, 0
+
+	map_attributes NacreneOutskirtConnectionDummy, NACRENE_OUTSKIRT_CONNECTION_DUMMY, $25, WEST
+	connection west, NacreneOutskirt, NACRENE_OUTSKIRT, 0
+	
+	map_attributes NacreneOutskirtEast, NACRENE_OUTSKIRT_EAST, $25, WEST
+	connection west, NacreneOutskirt, NACRENE_OUTSKIRT, -12
+
+	map_attributes NacreneCity, NACRENE_CITY, $25, WEST
+	connection west, NacreneOutskirt, NACRENE_OUTSKIRT, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

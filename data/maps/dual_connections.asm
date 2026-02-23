@@ -42,8 +42,10 @@ MACRO dual_connection
 ENDM
 
 DualMapConnections:
-	; When you walk north off of Route35CoastSouth, if [wXCoord] < 30,
-	; then use "connection north, OlivineCity, OLIVINE_CITY, -7";
-	; else use "connection north, Route35CoastNorth, ROUTE_35_COAST_NORTH, 15".
-	
+	; When you walk east off of NacreneOutskirt, if [wXCoord] < 21,
+	; then use "connection east, NacreneCity, NACRENE_CITY, 0";
+	; else use "connection east, NacreneOutskirtEast, NACRENE_OUTSKIRT_EAST, 12".
+	dual_connection east, NACRENE_OUTSKIRT, 21, \
+		NacreneCity, NACRENE_CITY, 0, \
+		NacreneOutskirtEast, NACRENE_OUTSKIRT_EAST, 12
 	db 0 ; end

@@ -39,6 +39,7 @@ Tilesets::
 	tileset TilesetVirbank
 	tileset TilesetComplex
 	tileset TilesetBridge
+	tileset TilesetNacrene
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetHiddenGrotto
@@ -602,6 +603,22 @@ TilesetBridgeMeta:: INCBIN "data/tilesets/bridge_metatiles.bin.lzp"
 TilesetBridgeAttr:: INCBIN "data/tilesets/bridge_attributes.bin.lzp"
 TilesetBridgeColl:: INCBIN "data/tilesets/bridge_collision.bin.lzp"
 
+SECTION "Tileset Graphics - nacrene vram0", ROMX
+
+TilesetNacreneGFX0:: INCBIN "gfx/tilesets/nacrene.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - nacrene vram1", ROMX
+
+TilesetNacreneGFX1:: INCBIN "gfx/tilesets/nacrene.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - nacrene", ROMX
+
+TilesetNacreneMeta:: INCBIN "data/tilesets/nacrene_metatiles.bin.lzp"
+TilesetNacreneAttr:: INCBIN "data/tilesets/nacrene_attributes.bin.lzp"
+TilesetNacreneColl:: INCBIN "data/tilesets/nacrene_collision.bin.lzp"
+
 
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
@@ -649,6 +666,7 @@ TilesetCasteliaGFX2::
 TilesetVirbankGFX2::
 TilesetComplexGFX2::
 TilesetBridgeGFX2::
+TilesetNacreneGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::

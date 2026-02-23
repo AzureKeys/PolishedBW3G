@@ -188,4 +188,10 @@ ENDM
 	map_const VIRBANK_COMPLEX_OUTSIDE,                    13, 27 ;  9
 	map_const FERRY_RIGHT,                                 9,  2 ; 10
 	
+	newgroup                                                     ; 13
+	map_const NACRENE_OUTSKIRT,                           10, 26 ;  1
+	map_const NACRENE_OUTSKIRT_CONNECTION_DUMMY,           4, 24 ;  2
+	map_const NACRENE_OUTSKIRT_EAST,                      15, 12 ;  3
+	map_const NACRENE_CITY,                               18, 11 ;  4
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

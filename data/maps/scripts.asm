@@ -211,6 +211,14 @@ INCLUDE "maps/VirbankComplexB2F.asm"
 SECTION "Southeast Unova Route Scripts", ROMX
 
 INCLUDE "maps/PinwheelForest.asm"
+INCLUDE "maps/NacreneOutskirt.asm"
+INCLUDE "maps/NacreneOutskirtEast.asm"
+INCLUDE "maps/NacreneOutskirtConnectionDummy.asm"
+
+
+SECTION "Nacrene Scripts", ROMX
+
+INCLUDE "maps/NacreneCity.asm"
 
 
 ENDSECTION

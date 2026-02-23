@@ -82,4 +82,6 @@ Music:
 	dba Music_VirbankCity
 	dba Music_KalosPowerPlant
 	dba Music_SkyarrowBridge
+	dba Music_Route10
+	dba Music_StriatonCity
 	assert_table_length NUM_MUSIC_SONGS
