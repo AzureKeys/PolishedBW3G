@@ -76,6 +76,7 @@ AbilityNames:
 	dw Gluttony
 	dw AngerPoint
 	dw Unburden
+	dw Simple
 	dw DrySkin
 	dw Download
 	dw IronFist
@@ -132,6 +133,9 @@ AbilityNames:
 	dw SapSipper
 	dw Prankster
 	dw SandForce
+	dw ZenMode
+	dw Turboblaze
+	dw Teravolt
 	dw FurCoat
 	dw Bulletproof
 	dw Competitive
@@ -155,6 +159,7 @@ AbilityNames:
 	dw WindRider
 	dw CudChew
 	dw Sharpness
+	dw SupremeOverlord
 	dw ArmorTail
 	dw MindsEye
 	assert_table_length NUM_ABILITIES
@@ -235,6 +240,7 @@ SnowCloak:       rawchar "Snow Cloak@"
 Gluttony:        rawchar "Gluttony@"
 AngerPoint:      rawchar "Anger Point@"
 Unburden:        rawchar "Unburden@"
+Simple:          rawchar "Simple@"
 DrySkin:         rawchar "Dry Skin@"
 Download:        rawchar "Download@"
 IronFist:        rawchar "Iron Fist@"
@@ -291,6 +297,9 @@ MagicBounce:     rawchar "Magic Bounce@"
 SapSipper:       rawchar "Sap Sipper@"
 Prankster:       rawchar "Prankster@"
 SandForce:       rawchar "Sand Force@"
+ZenMode:         rawchar "Zen Mode@"
+Turboblaze:      rawchar "Turboblaze@"
+Teravolt:        rawchar "Teravolt@"
 FurCoat:         rawchar "Fur Coat@"
 Bulletproof:     rawchar "Bulletproof@"
 Competitive:     rawchar "Competitive@"
@@ -314,5 +323,6 @@ QuickDraw:       rawchar "Quick Draw@"
 WindRider:       rawchar "Wind Rider@"
 CudChew:         rawchar "Cud Chew@"
 Sharpness:       rawchar "Sharpness@"
+SupremeOverlord: rawchar "Supreme Overlord@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"

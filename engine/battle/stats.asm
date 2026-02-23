@@ -51,7 +51,11 @@ FarChangeStat:
 	jr nz, .is_target
 	call GetTrueUserIgnorableAbility
 	cp CONTRARY
-	jmp nz, .perform_change
+	jr z, .contrary
+	cp SIMPLE
+	call z, ApplySimpleBoost
+	jmp .perform_change
+.contrary
 	ld a, b
 	xor STAT_LOWER
 	ld b, a
@@ -93,6 +97,8 @@ FarChangeStat:
 
 .check_ability
 	call GetOpponentIgnorableAbility
+	cp SIMPLE
+	jr z, .ability_simple
 	cp CLEAR_BODY
 	jr z, .ability_immune
 	cp WHITE_SMOKE
@@ -127,7 +133,9 @@ FarChangeStat:
 	ld hl, DoesntAffectText
 	call StdBattleTextbox
 	farjp EndAbility
-
+.ability_simple
+	call ApplySimpleBoost
+	; fallthrough
 .check_item
 	push bc
 	farcall GetOpponentItemAfterUnnerve
@@ -442,3 +450,24 @@ PlayStatChangeAnim:
 	ld a, b
 	ld [wBattleAnimParam], a
 	jmp PopBCDEHL
+
+ApplySimpleBoost:
+; Doubles the stat change. This is done as x*2 + 1 in $xy in wChangedStat.
+; x is the amount of stages to change - 1 (so $1y means "change by 2 stages").
+	push hl
+	ld hl, wChangedStat
+	ld a, [hl]
+
+	; We don't want to double the lower nibble.
+	and $f0
+	add [hl]
+	jr nc, .no_overflow
+
+	; Bit 4 can never be set after doubling the high nibble, so this will
+	; always become $ex, where x is the stat to raise, $fx after the add $10.
+	or $e0
+.no_overflow
+	add $10
+	ld [hl], a
+	pop hl
+	ret

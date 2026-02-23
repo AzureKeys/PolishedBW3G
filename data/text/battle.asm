@@ -1525,6 +1525,18 @@ NotifyMoldBreaker:
 	line "breaks the mold!"
 	prompt
 
+NotifyTurboblaze:
+	text "<USER>"
+	line "is radiating a"
+	cont "blazing aura!"
+	prompt
+
+NotifyTeravolt:
+	text "<USER>"
+	line "is radiating a"
+	cont "bursting aura!"
+	prompt
+
 NotifyUnnerve:
 	text "<TARGET> is"
 	line "too afraid to eat"
@@ -1601,6 +1613,12 @@ BouncedBackText:
 	cont ""
 	text_ram wStringBuffer1
 	text " back!"
+	prompt
+
+BattleText_ZenModeTriggered:
+; This is actually the official message, it's unusually concise and direct.
+	text "Zen Mode"
+	line "triggered!"
 	prompt
 
 ItemCantBeStolenText:

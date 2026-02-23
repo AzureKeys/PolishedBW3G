@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN  ; gender ratio, step cycles to hatch
 
-	abilities_for RESHIRAM, PRESSURE, PRESSURE, PRESSURE
-	 ;abilities_for RESHIRAM, TURBOBLAZE, TURBOBLAZE, TURBOBLAZE
+	abilities_for RESHIRAM, TURBOBLAZE, TURBOBLAZE, TURBOBLAZE
 	db GROWTH_SLOW  ; growth rate
 	dn EGG_NONE, EGG_NONE  ; egg groups
 

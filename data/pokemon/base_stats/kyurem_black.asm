@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN  ; gender ratio, step cycles to hatch
 
-	abilities_for KYUREM_BLACK, PRESSURE, PRESSURE, PRESSURE
-	 ;abilities_for KYUREM_BLACK, TERAVOLT, TERAVOLT, TERAVOLT
+	abilities_for KYUREM_BLACK, TERAVOLT, TERAVOLT, TERAVOLT
 	db GROWTH_SLOW  ; growth rate
 	dn EGG_NONE, EGG_NONE  ; egg groups
 

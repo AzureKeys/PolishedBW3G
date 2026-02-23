@@ -834,23 +834,25 @@ BattleAnimCmd_Transform:
 
 	ldh a, [hBattleTurn]
 	and a
-	jr z, .player
+	jr nz, .enemy
 
-	ld a, [wTempBattleMonSpecies]
+	ld a, [wBattleMonSpecies]
 	ld [wCurPartySpecies], a
+	ld [wCurSpecies], a
 	ld a, [wBattleMonForm]
 	ld [wCurForm], a
 	ld de, vTiles0 tile $00
-	predef GetFrontpic
+	predef GetBackpic
 	jr .done
 
-.player
-	ld a, [wTempEnemyMonSpecies]
+.enemy
+	ld a, [wEnemyMonSpecies]
 	ld [wCurPartySpecies], a
+	ld [wCurSpecies], a
 	ld a, [wEnemyMonForm]
 	ld [wCurForm], a
 	ld de, vTiles0 tile $00
-	predef GetBackpic
+	predef GetFrontpic
 
 .done
 	pop af

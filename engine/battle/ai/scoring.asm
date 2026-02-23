@@ -2700,7 +2700,7 @@ AIGetOpponentIgnorableAbility:
 ; Variant of GetOpponentIgnorableAbility that pretends that we're ignoring
 ; Abilities if the AI has Mold Breaker.
 	call GetTrueUserAbility
-	cp MOLD_BREAKER
+	farcall IsBreakerAbility
 	jmp nz, GetOpponentAbility
 
 	push hl

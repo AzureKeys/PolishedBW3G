@@ -35,6 +35,7 @@ MoldBreakerSuppressedAbilities:
 	db SAP_SIPPER
 	db SHELL_ARMOR
 	db SHIELD_DUST
+	db SIMPLE
 	db SNOW_CLOAK
 	db SOLID_ROCK
 	db SOUNDPROOF

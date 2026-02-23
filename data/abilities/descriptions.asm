@@ -76,6 +76,7 @@ AbilityDescriptions:
 	dw GluttonyDescription
 	dw AngerPointDescription
 	dw UnburdenDescription
+	dw SimpleDescription
 	dw DrySkinDescription
 	dw DownloadDescription
 	dw IronFistDescription
@@ -132,6 +133,9 @@ AbilityDescriptions:
 	dw SapSipperDescription
 	dw PranksterDescription
 	dw SandForceDescription
+	dw ZenModeDescription
+	dw TurboblazeDescription
+	dw TeravoltDescription
 	dw FurCoatDescription
 	dw BulletproofDescription
 	dw CompetitiveDescription
@@ -155,6 +159,7 @@ AbilityDescriptions:
 	dw WindRiderDescription
 	dw CudChewDescription
 	dw SharpnessDescription
+	dw SupremeOverlordDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
 	assert_table_length NUM_ABILITIES
@@ -528,6 +533,11 @@ UnburdenDescription:
 	next "held item is lost."
 	done
 
+SimpleDescription:
+	text "Doubles the effect"
+	next "of stat changes."
+	done
+
 DrySkinDescription:
 	text "Reduces HP in sun."
 	next "Water restores HP."
@@ -599,6 +609,8 @@ LeafGuardDescription:
 	done
 
 MoldBreakerDescription:
+TurboblazeDescription:
+TeravoltDescription:
 	text "Moves disregard"
 	next "the foe's ability."
 	done
@@ -808,6 +820,11 @@ SandForceDescription:
 	next "in a sandstorm."
 	done
 
+ZenModeDescription:
+	text "Changes form at"
+	next "half or less HP."
+	done
+
 FurCoatDescription:
 	text "Halves damage from"
 	next "physical moves."
@@ -916,6 +933,11 @@ CudChewDescription:
 SharpnessDescription:
 	text "Boosts power of"
 	next "slicing moves."
+	done
+
+SupremeOverlordDescription:
+	text "Boosts move power"
+	next "per fainted <PK><MN>."
 	done
 
 ArmorTailDescription:

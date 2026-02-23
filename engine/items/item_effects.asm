@@ -359,6 +359,12 @@ PokeBallEffect:
 	add hl, bc
 	ld a, [wEnemyMonItem]
 	ld [hl], a
+
+	; Copy wildmon's form into backup in case we catch
+	ld hl, wPartyBackupForms
+	add hl, bc
+	ld a, [wEnemyMonForm]
+	ld [hl], a
 	jr .room_in_party
 
 .check_room
