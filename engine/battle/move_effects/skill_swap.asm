@@ -84,9 +84,11 @@ SkillSwapExcepts:
 	db NO_ABILITY
 AbilitySuppressionExcepts:
 	db NEUTRALIZING_GAS
+	db ZEN_MODE
 	db -1
 
 NoSkillSwapEntryAbilities:
 	db IMPOSTER
 	db CLOUD_NINE
+	db ZEN_MODE
 	db -1

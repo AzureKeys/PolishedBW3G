@@ -272,7 +272,7 @@ GetBackupItemAddr::
 	ret
 
 SetBackupItem::
-	; If backup is empty, replace with b if our turn (even in trainer battles)
+; If backup is empty, replace with b if our turn (even in trainer battles)
 	ldh a, [hBattleTurn]
 	and a
 	ret nz
@@ -284,6 +284,21 @@ SetBackupItem::
 	ld [hl], b
 	ret
 
+BackupBattleForms::
+	ld c, 0
+	jr ToggleBattleForms
+RestoreBattleForms::
+	ld c, 1
+	; fallthrough
+ToggleBattleForms:
+	ld hl, wPartyMon1Form
+	ld de, wPartyBackupForms
+	push bc
+	call ToggleBackupLoop
+	pop bc
+	ld hl, wOTPartyMon1Form
+	ld de, wOTPartyBackupForms
+	jr ToggleBackupLoop
 BackupBattleItems::
 ; Copies items from party to a backup of items. Doesn't care if player has less than 6 mons
 ; since messing with these item bytes in-battle is safe
@@ -294,9 +309,11 @@ RestoreBattleItems::
 	ld c, 1
 	; fallthrough
 ToggleBattleItems:
-	ld b, 7
 	ld hl, wPartyMon1Item
 	ld de, wPartyBackupItems
+	; fallthrough
+ToggleBackupLoop:
+	ld b, 7
 .loop
 	dec b
 	ret z

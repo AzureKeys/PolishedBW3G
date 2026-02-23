@@ -79,6 +79,7 @@
 	const GLUTTONY
 	const ANGER_POINT
 	const UNBURDEN
+	const SIMPLE
 	const DRY_SKIN
 	const DOWNLOAD
 	const IRON_FIST
@@ -135,6 +136,9 @@
 	const SAP_SIPPER
 	const PRANKSTER
 	const SAND_FORCE
+	const ZEN_MODE
+	const TURBOBLAZE
+	const TERAVOLT
 	const FUR_COAT
 	const BULLETPROOF
 	const COMPETITIVE
@@ -158,6 +162,7 @@
 	const WIND_RIDER
 	const CUD_CHEW
 	const SHARPNESS
+	const SUPREME_OVERLORD
 	const ARMOR_TAIL
 	const MINDS_EYE
 DEF NUM_ABILITIES EQU const_value
