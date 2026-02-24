@@ -54,6 +54,7 @@ Route16NimbasaGate_BlockData:
 Route5NimbasaGate_BlockData:
 Route5DrawbridgeGate_BlockData:
 Route20VirbankGate_BlockData:
+Route3NacreneGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX
@@ -466,5 +467,9 @@ NacreneCafe_BlockData:
 SECTION "NacreneMuseum_BlockData", ROMX
 NacreneMuseum_BlockData:
 	INCBIN "maps/NacreneMuseum.ablk.lzp"
+
+SECTION "Route3_BlockData", ROMX
+Route3_BlockData:
+	INCBIN "maps/Route3.ablk.lzp"
 
 ENDSECTION

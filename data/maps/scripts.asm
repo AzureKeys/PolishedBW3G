@@ -214,6 +214,7 @@ INCLUDE "maps/PinwheelForest.asm"
 INCLUDE "maps/NacreneOutskirt.asm"
 INCLUDE "maps/NacreneOutskirtEast.asm"
 INCLUDE "maps/NacreneOutskirtConnectionDummy.asm"
+INCLUDE "maps/Route3.asm"
 
 
 SECTION "Nacrene Scripts", ROMX
@@ -224,6 +225,7 @@ INCLUDE "maps/NacreneCharcoalHouse.asm"
 INCLUDE "maps/NacreneWiseGlassesHouse.asm"
 INCLUDE "maps/NacreneCafe.asm"
 INCLUDE "maps/NacreneMuseum.asm"
+INCLUDE "maps/Route3NacreneGate.asm"
 
 
 ENDSECTION

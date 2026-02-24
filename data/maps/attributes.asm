@@ -61,6 +61,8 @@ ENDM
 
 	map_attributes NacreneCity, NACRENE_CITY, $25, WEST
 	connection west, NacreneOutskirt, NACRENE_OUTSKIRT, 0
+	
+	map_attributes Route3, ROUTE_3, $25, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0
@@ -179,6 +181,7 @@ ENDM
 	map_attributes PinwheelSkyarrowBridgeGate, PINWHEEL_SKYARROW_BRIDGE_GATE, $0, 0
 	map_attributes Route19AspertiaGate, ROUTE_19_ASPERTIA_GATE, $0, 0
 	map_attributes Route20VirbankGate, ROUTE_20_VIRBANK_GATE, $0, 0
+	map_attributes Route3NacreneGate, ROUTE_3_NACRENE_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

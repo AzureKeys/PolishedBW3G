@@ -32,6 +32,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_COMPLEX              ; 2c
 	const TILESET_BRIDGE               ; 2c
 	const TILESET_NACRENE              ; 2c
+	const TILESET_STRIATON             ; 2c
 	const TILESET_UNOVA_BEACH          ; 2c
 	const TILESET_UNOVA_WEST           ; 2c
 	const TILESET_HIDDEN_GROTTO        ; 2e

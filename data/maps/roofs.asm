@@ -18,4 +18,5 @@ MapGroupRoofs:
 	db -1            ; Floccesy
 	db -1            ; Virbank
 	db -1            ; Nacrene
+	db -1            ; Striaton
 	assert_table_length NUM_MAP_GROUPS + 1

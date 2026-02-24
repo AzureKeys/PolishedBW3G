@@ -45,6 +45,7 @@ PinwheelForest_MapScriptHeader:
 	itemball_event 16, 21, CARBOS, 1, EVENT_PINWHEEL_FOREST_CARBOS
 	itemball_event 14, 31, NET_BALL, 3, EVENT_PINWHEEL_FOREST_NET_BALL
 	itemball_event 23, 29, SHELL_STONE, 1, EVENT_PINWHEEL_FOREST_SHELL_STONE
+	cuttree_event 24, 37, EVENT_PINWHEEL_FOREST_CUT_TREE
 	
 	object_const_def
 	const PINWHEELFOREST_INFER

@@ -198,5 +198,9 @@ ENDM
 	map_const NACRENE_WISE_GLASSES_HOUSE,                  4,  4 ;  7
 	map_const NACRENE_CAFE,                                4,  4 ;  8
 	map_const NACRENE_MUSEUM,                              5,  6 ;  9
+	map_const ROUTE_3_NACRENE_GATE,                        5,  4 ; 10
+	
+	newgroup                                                     ; 14
+	map_const ROUTE_3,                                    22, 20 ;  1
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
