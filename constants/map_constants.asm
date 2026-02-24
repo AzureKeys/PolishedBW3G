@@ -193,5 +193,9 @@ ENDM
 	map_const NACRENE_OUTSKIRT_CONNECTION_DUMMY,           4, 24 ;  2
 	map_const NACRENE_OUTSKIRT_EAST,                      15, 12 ;  3
 	map_const NACRENE_CITY,                               18, 11 ;  4
+	map_const NACRENE_POKECENTER,                          5,  5 ;  5
+	map_const NACRENE_CHARCOAL_HOUSE,                      4,  4 ;  6
+	map_const NACRENE_WISE_GLASSES_HOUSE,                  4,  4 ;  7
+	map_const NACRENE_CAFE,                                4,  4 ;  8
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

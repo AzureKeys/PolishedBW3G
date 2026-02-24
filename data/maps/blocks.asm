@@ -16,6 +16,7 @@ CasteliaPokecenter_BlockData:
 AspertiaPokecenter_BlockData:
 FloccesyPokecenter_BlockData:
 VirbankPokecenter_BlockData:
+NacrenePokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -37,6 +38,8 @@ LentimasCoinHouse_BlockData:
 LentimasSpellTagHouse_BlockData:
 Route4House_BlockData:
 FloccesyRanchHouse_BlockData:
+NacreneCharcoalHouse_BlockData:
+NacreneWiseGlassesHouse_BlockData:
 	INCBIN "maps/House2.ablk.lzp"
 	
 SECTION "ApartmentHouse_Blockdata", ROMX
@@ -455,5 +458,9 @@ NacreneOutskirtConnectionDummy_BlockData:
 SECTION "NacreneCity_BlockData", ROMX
 NacreneCity_BlockData:
 	INCBIN "maps/NacreneCity.ablk.lzp"
+
+SECTION "NacreneCafe_BlockData", ROMX
+NacreneCafe_BlockData:
+	INCBIN "maps/NacreneCafe.ablk.lzp"
 
 ENDSECTION

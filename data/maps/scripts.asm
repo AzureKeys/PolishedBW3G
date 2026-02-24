@@ -219,6 +219,10 @@ INCLUDE "maps/NacreneOutskirtConnectionDummy.asm"
 SECTION "Nacrene Scripts", ROMX
 
 INCLUDE "maps/NacreneCity.asm"
+INCLUDE "maps/NacrenePokecenter.asm"
+INCLUDE "maps/NacreneCharcoalHouse.asm"
+INCLUDE "maps/NacreneWiseGlassesHouse.asm"
+INCLUDE "maps/NacreneCafe.asm"
 
 
 ENDSECTION

@@ -5,6 +5,10 @@ NacreneCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, NacreneFlyPoint
 
 	def_warp_events
+	warp_event 13, 15, NACRENE_POKECENTER, 1
+	warp_event  7, 15, NACRENE_CHARCOAL_HOUSE, 1
+	warp_event 25,  5, NACRENE_WISE_GLASSES_HOUSE, 1
+	warp_event  6,  5, NACRENE_CAFE, 1
 
 	def_coord_events
 	coord_event  0,  8, 0, NacreneCityLenoraScene1

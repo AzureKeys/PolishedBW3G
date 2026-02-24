@@ -159,6 +159,10 @@ ENDM
 	map_attributes VirbankMuscleBandHouse, VIRBANK_MUSCLE_BAND_HOUSE, $0, 0
 	map_attributes VirbankGameCorner, VIRBANK_GAME_CORNER, $0, 0
 	map_attributes VirbankPort, VIRBANK_PORT, $0, 0
+	map_attributes NacrenePokecenter, NACRENE_POKECENTER, $0, 0
+	map_attributes NacreneCharcoalHouse, NACRENE_CHARCOAL_HOUSE, $0, 0
+	map_attributes NacreneWiseGlassesHouse, NACRENE_WISE_GLASSES_HOUSE, $0, 0
+	map_attributes NacreneCafe, NACRENE_CAFE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
