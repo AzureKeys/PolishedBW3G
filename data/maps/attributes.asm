@@ -166,6 +166,7 @@ ENDM
 	map_attributes NacreneWiseGlassesHouse, NACRENE_WISE_GLASSES_HOUSE, $0, 0
 	map_attributes NacreneCafe, NACRENE_CAFE, $0, 0
 	map_attributes NacreneMuseum, NACRENE_MUSEUM, $0, 0
+	map_attributes Route3DayCare, ROUTE_3_DAY_CARE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

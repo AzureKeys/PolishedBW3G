@@ -202,5 +202,6 @@ ENDM
 	
 	newgroup                                                     ; 14
 	map_const ROUTE_3,                                    22, 20 ;  1
+	map_const ROUTE_3_DAY_CARE,                            4,  4 ;  2
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

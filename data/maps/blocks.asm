@@ -472,4 +472,8 @@ SECTION "Route3_BlockData", ROMX
 Route3_BlockData:
 	INCBIN "maps/Route3.ablk.lzp"
 
+SECTION "Route3DayCare_BlockData", ROMX
+Route3DayCare_BlockData:
+	INCBIN "maps/Route3DayCare.ablk.lzp"
+
 ENDSECTION
