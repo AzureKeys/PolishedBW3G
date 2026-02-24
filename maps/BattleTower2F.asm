@@ -15,7 +15,6 @@ BattleTower2F_MapScriptHeader:
 	bg_event 17,  3, BGEVENT_UP, BattleTower2FTVScript
 
 	def_object_events
-	
 	object_const_def
 
 BattleTower2FTVScript:

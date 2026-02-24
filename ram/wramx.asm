@@ -515,10 +515,12 @@ wDexPrevCursorPos:: db
 wDexPrevOffset:: db
 
 wOptionsMenuValueCoord:: dw
-wOptionsMenuCursor:: db
-wOptionsMenuScrollPosition:: db
+wOptionsMenuDescriptionAddr:: dw
+wOptionsMenuDescriptionState:: db
+wOptionsMenuLastSelection:: db
+wOptionsMenuIsInitial:: db
 
-	ds 28 ; unused
+	ds 25 ; unused
 
 wOverworldMapAnchor:: dw
 wMetatileStandingY:: db
@@ -1248,8 +1250,12 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 133 ; unused
+	ds 130 ; unused
 	
+wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
+wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
+wLoadedObjPalType:: db ; bitmask: bit N set = slot N is a mon palette, clear = normal palette
+
 wCandyAmounts::
 	table_width 1
 wExpCandyXSAmount:: db

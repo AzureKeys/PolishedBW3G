@@ -7,32 +7,32 @@ GoldenrodUndergroundSwitchRoom_MapScriptHeader:
 	callback MAPCALLBACK_TILES, GoldenrodUndergroundSwitchRoomUpdateDoorPositions
 
 	def_warp_events
-	warp_event 23,  3, GOLDENROD_UNDERGROUND, 6
-	warp_event 22, 10, GOLDENROD_UNDERGROUND_WAREHOUSE, 1
-	warp_event 23, 10, GOLDENROD_UNDERGROUND_WAREHOUSE, 2
+	warp_event 25,  2, GOLDENROD_UNDERGROUND, 6
+	warp_event 24,  9, GOLDENROD_UNDERGROUND_WAREHOUSE, 1
+	warp_event 25,  9, GOLDENROD_UNDERGROUND_WAREHOUSE, 2
 
 	def_coord_events
-	coord_event 19,  4, SCENE_GOLDENRODUNDERGROUNDSWITCHROOM_RIVAL_BATTLE, UndergroundRivalTrigger1
-	coord_event 19,  5, SCENE_GOLDENRODUNDERGROUNDSWITCHROOM_RIVAL_BATTLE, UndergroundRivalTrigger2
+	coord_event 21,  3, SCENE_GOLDENRODUNDERGROUNDSWITCHROOM_RIVAL_BATTLE, UndergroundRivalTrigger1
+	coord_event 21,  4, SCENE_GOLDENRODUNDERGROUNDSWITCHROOM_RIVAL_BATTLE, UndergroundRivalTrigger2
 
 	def_bg_events
-	bg_event 16,  1, BGEVENT_READ, Switch1Script
-	bg_event 10,  1, BGEVENT_READ, Switch2Script
-	bg_event  2,  1, BGEVENT_READ, Switch3Script
-	bg_event 20, 11, BGEVENT_READ, EmergencySwitchScript
-	bg_event  8,  9, BGEVENT_ITEM + MAX_POTION, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_HIDDEN_MAX_POTION
-	bg_event  1,  8, BGEVENT_ITEM + REVIVE, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_HIDDEN_REVIVE
+	bg_event 18,  0, BGEVENT_READ, Switch1Script
+	bg_event 12,  0, BGEVENT_READ, Switch2Script
+	bg_event  4,  0, BGEVENT_READ, Switch3Script
+	bg_event 22,  9, BGEVENT_READ, EmergencySwitchScript
+	bg_event 10,  8, BGEVENT_ITEM + MAX_POTION, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_HIDDEN_MAX_POTION
+	bg_event  3,  7, BGEVENT_ITEM + REVIVE, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_HIDDEN_REVIVE
 
 	def_object_events
-	object_event 23,  3, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_GOLDENROD_UNDERGROUND
-	object_event  9, 12, SPRITE_BURGLAR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBurglarDuncan, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	object_event  4,  8, SPRITE_BURGLAR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBurglarOrson, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	object_event 17,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM13, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	object_event 11,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM11, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	object_event  3,  2, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM25, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	object_event 19, 12, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGruntF3, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-	itemball_event  1, 12, SMOKE_BALL, 1, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_SMOKE_BALL
-	itemball_event 14,  9, FULL_HEAL, 1, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_FULL_HEAL
+	object_event 25,  2, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_GOLDENROD_UNDERGROUND
+	object_event 11, 11, SPRITE_BURGLAR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBurglarDuncan, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event  6,  7, SPRITE_BURGLAR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerBurglarOrson, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event 19,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM13, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event 13,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM11, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event  5,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM25, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event 21, 10, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGruntF3, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	itemball_event  3, 11, SMOKE_BALL, 1, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_SMOKE_BALL
+	itemball_event 16,  8, FULL_HEAL, 1, EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_FULL_HEAL
 
 	object_const_def
 	const GOLDENRODUNDERGROUNDSWITCHROOM_RIVAL
@@ -57,17 +57,17 @@ MACRO ugdoor_def
 ENDM
 
 	;           x,  y, closed, open,  x,  y, closed, open ; id
-	ugdoor_def 16,  6,    $3e,  $2d                       ;  1
-	ugdoor_def 10,  6,    $3e,  $2d                       ;  2
-	ugdoor_def  2,  6,    $3e,  $2d                       ;  3
-	ugdoor_def  2, 10,    $3e,  $2d                       ;  4
-	ugdoor_def 10, 10,    $3e,  $2d                       ;  5
-	ugdoor_def 16, 10,    $3e,  $2d                       ;  6
-	ugdoor_def 12,  6,    $3f,  $2a, 12,  8,    $3d,  $2d ;  7
-	ugdoor_def  6,  6,    $3f,  $2a,  6,  8,    $3d,  $2d ;  8
-	ugdoor_def 12, 10,    $3f,  $2a, 12, 12,    $3d,  $2d ;  9
-	ugdoor_def  6, 10,    $3f,  $2a,  6, 12,    $3d,  $2d ; 10
-	ugdoor_def 18, 10,    $3f,  $2a, 18, 12,    $3d,  $2d ; 11
+	ugdoor_def 18,  4,    $31,  $0d                       ;  1
+	ugdoor_def 12,  4,    $31,  $0d                       ;  2
+	ugdoor_def  4,  4,    $31,  $0d                       ;  3
+	ugdoor_def  4,  8,    $31,  $0d                       ;  4
+	ugdoor_def 12,  8,    $31,  $0d                       ;  5
+	ugdoor_def 18,  8,    $31,  $0d                       ;  6
+	ugdoor_def 14,  4,    $41,  $34, 14,  6,    $40,  $0d ;  7
+	ugdoor_def  8,  4,    $42,  $11,  8,  6,    $40,  $0d ;  8
+	ugdoor_def 14,  8,    $43,  $35, 14, 10,    $40,  $0d ;  9
+	ugdoor_def  8,  8,    $44,  $37,  8, 10,    $40,  $0d ; 10
+	ugdoor_def 20,  8,    $45,  $3c, 20, 10,    $40,  $0d ; 11
 
 MACRO changeugdoor
 ;\1: ugdoor id

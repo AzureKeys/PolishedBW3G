@@ -8,6 +8,7 @@ CutGrassBlockPointers:
 ; Which meta tile are we facing, and which should we replace it with?
 
 .johto_traditional
+	db $f9, $02
 .johto_modern
 .johto_overcast
 	db $03, $02
