@@ -22,7 +22,7 @@ KeyItemNames::
 	li "Card Key"
 	li "Basement Key"
 	li "Lost Item"
-	li "Machine Part"
+	li "Data Disk"
 	li "Rainbow Wing"
 	li "Silver Wing"
 	li "Clear Bell"

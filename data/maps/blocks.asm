@@ -463,4 +463,8 @@ SECTION "NacreneCafe_BlockData", ROMX
 NacreneCafe_BlockData:
 	INCBIN "maps/NacreneCafe.ablk.lzp"
 
+SECTION "NacreneMuseum_BlockData", ROMX
+NacreneMuseum_BlockData:
+	INCBIN "maps/NacreneMuseum.ablk.lzp"
+
 ENDSECTION

@@ -567,7 +567,7 @@ KeyItemAttributes:
 	key_item_attribute 0, ITEMMENU_CLOSE, ITEMMENU_NOUSE
 ; LOST ITEM
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
-; MACHINE PART
+; DATA DISK
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE
 ; RAINBOW WING
 	key_item_attribute 0, ITEMMENU_NOUSE, ITEMMENU_NOUSE

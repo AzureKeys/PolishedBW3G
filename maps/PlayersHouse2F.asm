@@ -68,9 +68,7 @@ PlayersHouseRadio:
 	setflag ENGINE_JUDGE_MACHINE
 	; all key items
 for x, 1, NUM_KEY_ITEMS + 1
-if x != MACHINE_PART
 	givekeyitem x
-endc
 endr
 	; all tms+hms
 for x, NUM_TMS + NUM_HMS

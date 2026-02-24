@@ -9,6 +9,8 @@ NacreneCity_MapScriptHeader:
 	warp_event  7, 15, NACRENE_CHARCOAL_HOUSE, 1
 	warp_event 25,  5, NACRENE_WISE_GLASSES_HOUSE, 1
 	warp_event  6,  5, NACRENE_CAFE, 1
+	warp_event 16,  5, NACRENE_MUSEUM, 1
+	warp_event 17,  5, NACRENE_MUSEUM, 2
 
 	def_coord_events
 	coord_event  0,  8, 0, NacreneCityLenoraScene1

@@ -223,6 +223,7 @@ INCLUDE "maps/NacrenePokecenter.asm"
 INCLUDE "maps/NacreneCharcoalHouse.asm"
 INCLUDE "maps/NacreneWiseGlassesHouse.asm"
 INCLUDE "maps/NacreneCafe.asm"
+INCLUDE "maps/NacreneMuseum.asm"
 
 
 ENDSECTION

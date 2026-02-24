@@ -279,7 +279,7 @@ KeyItemDescriptions:
 	dw CardKeyDesc
 	dw BasementKeyDesc
 	dw LostItemDesc
-	dw MachinePartDesc
+	dw DataDiskDesc
 	dw RainbowWingDesc
 	dw SilverWingDesc
 	dw ClearBellDesc
@@ -1587,9 +1587,9 @@ RailPassDesc:
 	next "Nimbasa Subway."
 	done
 
-MachinePartDesc:
-	text "A machine part for"
-	next "the Power Plant."
+DataDiskDesc:
+	text "A disk stolen from"
+	next "Nacrene City."
 	done
 
 LostItemDesc:

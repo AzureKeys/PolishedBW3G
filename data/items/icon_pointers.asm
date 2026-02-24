@@ -281,7 +281,7 @@ KeyItemIconPointers:
 	dba CardKeyIcon
 	dba BasementKeyIcon
 	dba LostItemIcon
-	dba MachinePartIcon
+	dba DataDiskIcon
 	dba RainbowWingIcon
 	dba SilverWingIcon
 	dba ClearBellIcon

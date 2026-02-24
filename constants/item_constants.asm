@@ -654,7 +654,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const CARD_KEY     ; 13
 	const BASEMENT_KEY ; 14
 	const LOST_ITEM    ; 15
-	const MACHINE_PART ; 16
+	const DATA_DISK    ; 16
 	const RAINBOW_WING ; 17
 	const SILVER_WING  ; 18
 	const CLEAR_BELL   ; 19
@@ -686,6 +686,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_CATCH_CHARM
 	const NAM_CLEAR_BELL
 	const NAM_COIN_CASE
+	const NAM_DATA_DISK
 	const NAM_FERRY_TICKET
 	const NAM_GBC_SOUNDS
 	const NAM_GO_GOGGLES
@@ -695,7 +696,6 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_ITEMFINDER
 	const NAM_LIFT_KEY
 	const NAM_LOST_ITEM
-	const NAM_MACHINE_PART
 	const NAM_MALIGN_LURE
 	const NAM_MYSTERY_EGG
 	const NAM_MYSTICTICKET

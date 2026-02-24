@@ -303,7 +303,7 @@ DoKeyItemEffect::
 	dw CardKey            ; CARD_KEY
 	dw BasementKey        ; BASEMENT_KEY
 	dw IsntTheTimeMessage ; LOST_ITEM
-	dw IsntTheTimeMessage ; MACHINE_PART
+	dw IsntTheTimeMessage ; DATA_DISK
 	dw IsntTheTimeMessage ; RAINBOW_WING
 	dw IsntTheTimeMessage ; SILVER_WING
 	dw IsntTheTimeMessage ; CLEAR_BELL

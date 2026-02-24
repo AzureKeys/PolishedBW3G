@@ -197,5 +197,6 @@ ENDM
 	map_const NACRENE_CHARCOAL_HOUSE,                      4,  4 ;  6
 	map_const NACRENE_WISE_GLASSES_HOUSE,                  4,  4 ;  7
 	map_const NACRENE_CAFE,                                4,  4 ;  8
+	map_const NACRENE_MUSEUM,                              5,  6 ;  9
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

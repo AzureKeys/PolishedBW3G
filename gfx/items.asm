@@ -745,8 +745,8 @@ FerryTicketIcon:: INCBIN "gfx/items/ferry_ticket.2bpp.lzp"
 SECTION "RailPassIcon", ROMX
 RailPassIcon:: INCBIN "gfx/items/pass.2bpp.lzp"
 
-SECTION "MachinePartIcon", ROMX
-MachinePartIcon:: INCBIN "gfx/items/machine_part.2bpp.lzp"
+SECTION "DataDiskIcon", ROMX
+DataDiskIcon:: INCBIN "gfx/items/data_disk.2bpp.lzp"
 
 SECTION "LostItemIcon", ROMX
 LostItemIcon:: INCBIN "gfx/items/lost_item.2bpp.lzp"
