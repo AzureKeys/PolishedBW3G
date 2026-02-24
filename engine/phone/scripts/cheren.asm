@@ -54,7 +54,7 @@ CherenPhoneScript_EvolutionMethodsTable:
 .EvolveTrade:
 	readmem wStringBuffer5
 	ifequalfwd LINKING_CORD, .EvolveTradeNoItem
-	;ifequalfwd SHELL_STONE, .EvolveTradeNoItem
+	ifequalfwd SHELL_STONE, .EvolveTradeNoItem
 	farwritetext CherenPhoneEvoText_TradeWithItem
 	end
 .EvolveTradeNoItem:

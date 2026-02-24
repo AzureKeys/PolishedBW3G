@@ -231,4 +231,9 @@ INCLUDE "maps/NacreneMuseum.asm"
 INCLUDE "maps/Route3NacreneGate.asm"
 
 
+SECTION "Striaton Scripts", ROMX
+
+INCLUDE "maps/StriatonCity.asm"
+
+
 ENDSECTION

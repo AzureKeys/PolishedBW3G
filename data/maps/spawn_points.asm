@@ -20,6 +20,7 @@ SpawnPoints:
 	spawn FLOCCESY_TOWN,               7, 26
 	spawn VIRBANK_CITY,               15, 10
 	spawn NACRENE_CITY,               13, 16
+	spawn STRIATON_CITY,              33, 18
 
 	spawn N_A,                        -1, -1
 

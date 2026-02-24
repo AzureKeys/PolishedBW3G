@@ -62,7 +62,11 @@ ENDM
 	map_attributes NacreneCity, NACRENE_CITY, $25, WEST
 	connection west, NacreneOutskirt, NACRENE_OUTSKIRT, 0
 	
-	map_attributes Route3, ROUTE_3, $25, 0
+	map_attributes Route3, ROUTE_3, $25, EAST
+	connection east, StriatonCity, STRIATON_CITY, 3
+
+	map_attributes StriatonCity, STRIATON_CITY, $25, WEST
+	connection west, Route3, ROUTE_3, -3
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

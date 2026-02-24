@@ -484,4 +484,8 @@ SECTION "WellspringCaveB1F_BlockData", ROMX
 WellspringCaveB1F_BlockData:
 	INCBIN "maps/WellspringCaveB1F.ablk.lzp"
 
+SECTION "StriatonCity_BlockData", ROMX
+StriatonCity_BlockData:
+	INCBIN "maps/StriatonCity.ablk.lzp"
+
 ENDSECTION
