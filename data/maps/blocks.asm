@@ -476,4 +476,12 @@ SECTION "Route3DayCare_BlockData", ROMX
 Route3DayCare_BlockData:
 	INCBIN "maps/Route3DayCare.ablk.lzp"
 
+SECTION "WellspringCave1F_BlockData", ROMX
+WellspringCave1F_BlockData:
+	INCBIN "maps/WellspringCave1F.ablk.lzp"
+
+SECTION "WellspringCaveB1F_BlockData", ROMX
+WellspringCaveB1F_BlockData:
+	INCBIN "maps/WellspringCaveB1F.ablk.lzp"
+
 ENDSECTION

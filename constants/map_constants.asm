@@ -63,6 +63,8 @@ ENDM
 	map_const VIRBANK_COMPLEX_B1F,                         8,  6 ; 19
 	map_const VIRBANK_COMPLEX_B2F,                        11, 11 ; 20
 	map_const PINWHEEL_FOREST,                            23, 21 ; 21
+	map_const WELLSPRING_CAVE_1F,                         16, 12 ; 22
+	map_const WELLSPRING_CAVE_B1F,                        13, 25 ; 23
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

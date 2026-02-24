@@ -31,6 +31,7 @@ Landmarks:
 	landmark 116, 100, PinwheelForestName
 	landmark 124, 100, NacreneCityName
 	landmark 132, 100, Route3Name
+	landmark 132,  92, WellspringCaveName
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
@@ -68,6 +69,7 @@ SkyarrowBridgeName:    rawchar "Skyarrow¯Bridge@"
 PinwheelForestName:    rawchar "Pinwheel¯Forest@"
 NacreneCityName:       rawchar "Nacrene¯City@"
 Route3Name:            rawchar "Route 3@"
+WellspringCaveName:    rawchar "Wellspring¯Cave@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"

@@ -8,6 +8,7 @@ Route3_MapScriptHeader:
 	warp_event  4, 34, ROUTE_3_NACRENE_GATE, 3
 	warp_event  4, 35, ROUTE_3_NACRENE_GATE, 4
 	warp_event 37,  5, ROUTE_3_DAY_CARE, 1
+	warp_event  5,  5, WELLSPRING_CAVE_1F, 1
 	warp_event 35, 23, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

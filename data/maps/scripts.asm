@@ -216,6 +216,8 @@ INCLUDE "maps/NacreneOutskirtEast.asm"
 INCLUDE "maps/NacreneOutskirtConnectionDummy.asm"
 INCLUDE "maps/Route3.asm"
 INCLUDE "maps/Route3DayCare.asm"
+INCLUDE "maps/WellspringCave1F.asm"
+INCLUDE "maps/WellspringCaveB1F.asm"
 
 
 SECTION "Nacrene Scripts", ROMX

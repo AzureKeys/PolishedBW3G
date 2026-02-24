@@ -26,6 +26,7 @@
 	const PINWHEEL_FOREST    ; 19
 	const NACRENE_CITY       ; 1a
 	const ROUTE_3            ; 1b
+	const WELLSPRING_CAVE    ; 1c
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28
