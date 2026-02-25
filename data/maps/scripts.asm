@@ -234,6 +234,10 @@ INCLUDE "maps/Route3NacreneGate.asm"
 SECTION "Striaton Scripts", ROMX
 
 INCLUDE "maps/StriatonCity.asm"
+INCLUDE "maps/StriatonPokecenter.asm"
+INCLUDE "maps/StriatonTradeHouse.asm"
+INCLUDE "maps/StriatonLab.asm"
+INCLUDE "maps/StriatonGym.asm"
 
 
 ENDSECTION

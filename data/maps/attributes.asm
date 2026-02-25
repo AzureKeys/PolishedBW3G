@@ -111,6 +111,7 @@ ENDM
 	map_attributes PinwheelForest, PINWHEEL_FOREST, $4b, 0
 	map_attributes WellspringCave1F, WELLSPRING_CAVE_1F, $09, 0
 	map_attributes WellspringCaveB1F, WELLSPRING_CAVE_B1F, $09, 0
+	map_attributes StriatonGym, STRIATON_GYM, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -173,6 +174,9 @@ ENDM
 	map_attributes NacreneCafe, NACRENE_CAFE, $0, 0
 	map_attributes NacreneMuseum, NACRENE_MUSEUM, $0, 0
 	map_attributes Route3DayCare, ROUTE_3_DAY_CARE, $0, 0
+	map_attributes StriatonPokecenter, STRIATON_POKECENTER, $0, 0
+	map_attributes StriatonTradeHouse, STRIATON_TRADE_HOUSE, $0, 0
+	map_attributes StriatonLab, STRIATON_LAB, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

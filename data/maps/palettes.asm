@@ -31,6 +31,7 @@ ENDM
 	special_bg_pal map,      CASTELIA_GYM,                PAL_SINGLE,    CasteliaGymPalette
 	special_bg_pal map,      SKYARROW_BRIDGE,             PAL_TIMEOFDAY, SkyarrowBridgePalette
 	special_bg_pal map,      NIMBASA_PARK_COASTER_ROOM,   PAL_SINGLE,    CoasterRoomPalette
+	special_bg_pal map,      STRIATON_GYM,                PAL_SINGLE,    StriatonGymPalette
 	special_bg_pal map,      VIRBANK_GYM,                 PAL_SINGLE,    VirbankGymPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -110,6 +111,18 @@ endc
 VirbankGymPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/virbank_gym.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+StriatonGymPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/striaton_gym.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

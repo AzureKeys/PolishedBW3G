@@ -206,5 +206,9 @@ ENDM
 	map_const ROUTE_3,                                    22, 20 ;  1
 	map_const ROUTE_3_DAY_CARE,                            4,  4 ;  2
 	map_const STRIATON_CITY,                              24, 16 ;  3
+	map_const STRIATON_POKECENTER,                         5,  5 ;  4
+	map_const STRIATON_TRADE_HOUSE,                        4,  4 ;  5
+	map_const STRIATON_LAB,                                4,  4 ;  6
+	map_const STRIATON_GYM,                                7,  9 ;  7
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

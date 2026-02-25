@@ -17,6 +17,7 @@ AspertiaPokecenter_BlockData:
 FloccesyPokecenter_BlockData:
 VirbankPokecenter_BlockData:
 NacrenePokecenter_BlockData:
+StriatonPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -45,6 +46,7 @@ NacreneWiseGlassesHouse_BlockData:
 SECTION "ApartmentHouse_Blockdata", ROMX
 NimbasaSootheBellHouse_BlockData:
 NimbasaNameRater_BlockData:
+StriatonTradeHouse_BlockData:
 	INCBIN "maps/House3.ablk.lzp"
 
 SECTION "EastWestGate_BlockData", ROMX
@@ -487,5 +489,13 @@ WellspringCaveB1F_BlockData:
 SECTION "StriatonCity_BlockData", ROMX
 StriatonCity_BlockData:
 	INCBIN "maps/StriatonCity.ablk.lzp"
+
+SECTION "StriatonLab_BlockData", ROMX
+StriatonLab_BlockData:
+	INCBIN "maps/StriatonLab.ablk.lzp"
+
+SECTION "StriatonGym_BlockData", ROMX
+StriatonGym_BlockData:
+	INCBIN "maps/StriatonGym.ablk.lzp"
 
 ENDSECTION
