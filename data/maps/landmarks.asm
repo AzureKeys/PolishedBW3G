@@ -33,6 +33,7 @@ Landmarks:
 	landmark 132, 100, Route3Name
 	landmark 132,  92, WellspringCaveName
 	landmark 140, 100, StriatonCityName
+	landmark 140, 108, Route2Name
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
@@ -72,6 +73,7 @@ NacreneCityName:       rawchar "Nacrene¯City@"
 Route3Name:            rawchar "Route 3@"
 WellspringCaveName:    rawchar "Wellspring¯Cave@"
 StriatonCityName:      rawchar "Striaton¯City@"
+Route2Name:            rawchar "Route 2@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"

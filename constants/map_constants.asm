@@ -210,5 +210,6 @@ ENDM
 	map_const STRIATON_TRADE_HOUSE,                        4,  4 ;  5
 	map_const STRIATON_LAB,                                4,  4 ;  6
 	map_const STRIATON_GYM,                                7,  9 ;  7
+	map_const ROUTE_2,                                    23, 20 ;  8
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

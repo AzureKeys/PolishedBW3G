@@ -110,7 +110,7 @@ TrainerPkmnRangerFR3:
 	
 .ChooseRematch:
 	callstd rematchf
-	winlosstext LadyR4BeatenText, 0
+	winlosstext PkmnRangerFR3BeatenText, 0
 	; checkevent EVENT_BEAT_POKEMON_LEAGUE
 	; iftrue .LoadFight3
 	; checkmapscene SEASIDE_CAVE_CHAMBER

@@ -28,6 +28,7 @@
 	const ROUTE_3            ; 1b
 	const WELLSPRING_CAVE    ; 1c
 	const STRIATON_CITY      ; 1d
+	const ROUTE_2            ; 1f
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28

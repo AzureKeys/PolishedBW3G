@@ -498,4 +498,8 @@ SECTION "StriatonGym_BlockData", ROMX
 StriatonGym_BlockData:
 	INCBIN "maps/StriatonGym.ablk.lzp"
 
+SECTION "Route2_BlockData", ROMX
+Route2_BlockData:
+	INCBIN "maps/Route2.ablk.lzp"
+
 ENDSECTION
