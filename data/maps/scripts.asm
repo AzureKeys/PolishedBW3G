@@ -239,6 +239,8 @@ INCLUDE "maps/StriatonPokecenter.asm"
 INCLUDE "maps/StriatonTradeHouse.asm"
 INCLUDE "maps/StriatonLab.asm"
 INCLUDE "maps/StriatonGym.asm"
+INCLUDE "maps/Dreamyard.asm"
+INCLUDE "maps/DreamyardB1F.asm"
 
 
 ENDSECTION

@@ -41,6 +41,7 @@ Tilesets::
 	tileset TilesetBridge
 	tileset TilesetNacrene
 	tileset TilesetStriaton
+	tileset TilesetDreamyard
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetHiddenGrotto
@@ -636,6 +637,22 @@ TilesetStriatonMeta:: INCBIN "data/tilesets/striaton_metatiles.bin.lzp"
 TilesetStriatonAttr:: INCBIN "data/tilesets/striaton_attributes.bin.lzp"
 TilesetStriatonColl:: INCBIN "data/tilesets/striaton_collision.bin.lzp"
 
+SECTION "Tileset Graphics - dreamyard vram0", ROMX
+
+TilesetDreamyardGFX0:: INCBIN "gfx/tilesets/dreamyard.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - dreamyard vram1", ROMX
+
+TilesetDreamyardGFX1:: INCBIN "gfx/tilesets/dreamyard.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - dreamyard", ROMX
+
+TilesetDreamyardMeta:: INCBIN "data/tilesets/dreamyard_metatiles.bin.lzp"
+TilesetDreamyardAttr:: INCBIN "data/tilesets/dreamyard_attributes.bin.lzp"
+TilesetDreamyardColl:: INCBIN "data/tilesets/dreamyard_collision.bin.lzp"
+
 
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
@@ -685,6 +702,7 @@ TilesetComplexGFX2::
 TilesetBridgeGFX2::
 TilesetNacreneGFX2::
 TilesetStriatonGFX2::
+TilesetDreamyardGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::

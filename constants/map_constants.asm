@@ -65,6 +65,8 @@ ENDM
 	map_const PINWHEEL_FOREST,                            23, 21 ; 21
 	map_const WELLSPRING_CAVE_1F,                         16, 12 ; 22
 	map_const WELLSPRING_CAVE_B1F,                        13, 25 ; 23
+	map_const DREAMYARD,                                  20, 19 ; 24
+	map_const DREAMYARD_B1F,                              12, 12 ; 25
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

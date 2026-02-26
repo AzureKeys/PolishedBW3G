@@ -240,4 +240,7 @@ INCLUDE "audio/music/route3.asm"
 SECTION "Song - striatoncity", ROMX
 INCLUDE "audio/music/striatoncity.asm"
 
+SECTION "Song - unovatower", ROMX
+INCLUDE "audio/music/unovatower.asm"
+
 ENDSECTION

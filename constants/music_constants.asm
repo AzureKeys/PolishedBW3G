@@ -84,6 +84,7 @@
 	const MUSIC_SKYARROW_BRIDGE                ; 50
 	const MUSIC_ROUTE_3                        ; 51
 	const MUSIC_STRIATON_CITY                  ; 52
+	const MUSIC_UNOVA_TOWER                    ; 53
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

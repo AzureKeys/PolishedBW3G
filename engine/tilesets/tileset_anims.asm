@@ -62,6 +62,19 @@ TilesetStriatonAnim::
 	dw NULL,  IncWaterFrame
 	dw NULL,  DoneTileAnimation
 	
+TilesetDreamyardAnim::
+	dw vTiles2 tile $6f, ScrollTileDown
+	dw NULL,  DoNothing
+	dw WhirlpoolFrames1, AnimateWhirlpoolTile
+	dw WhirlpoolFrames2, AnimateWhirlpoolTile
+	dw WhirlpoolFrames3, AnimateWhirlpoolTile
+	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw vTiles2 tile $6f, ScrollTileDown
+	dw NULL,  DoNothing
+	dw NULL,  StandingTileFrame8
+	dw NULL,  IncWaterFrame
+	dw NULL,  DoneTileAnimation
+	
 TilesetCasteliaAnim::
 	dw NULL,  DoNothing
 	dw WhirlpoolFrames1, AnimateWhirlpoolTile

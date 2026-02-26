@@ -84,4 +84,5 @@ Music:
 	dba Music_SkyarrowBridge
 	dba Music_Route10
 	dba Music_StriatonCity
+	dba Music_CelestialTower_NoIntro
 	assert_table_length NUM_MUSIC_SONGS

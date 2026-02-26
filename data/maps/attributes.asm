@@ -116,6 +116,8 @@ ENDM
 	map_attributes WellspringCave1F, WELLSPRING_CAVE_1F, $09, 0
 	map_attributes WellspringCaveB1F, WELLSPRING_CAVE_B1F, $09, 0
 	map_attributes StriatonGym, STRIATON_GYM, $0, 0
+	map_attributes Dreamyard, DREAMYARD, $09, 0
+	map_attributes DreamyardB1F, DREAMYARD_B1F, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

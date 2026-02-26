@@ -502,4 +502,12 @@ SECTION "Route2_BlockData", ROMX
 Route2_BlockData:
 	INCBIN "maps/Route2.ablk.lzp"
 
+SECTION "Dreamyard_BlockData", ROMX
+Dreamyard_BlockData:
+	INCBIN "maps/Dreamyard.ablk.lzp"
+
+SECTION "DreamyardB1F_BlockData", ROMX
+DreamyardB1F_BlockData:
+	INCBIN "maps/DreamyardB1F.ablk.lzp"
+
 ENDSECTION
