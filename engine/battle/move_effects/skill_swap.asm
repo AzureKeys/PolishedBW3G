@@ -12,15 +12,18 @@ BattleCommand_skillswap:
 	call AbilityCanBeSkillSwapped
 	jr c, .failed
 
+	push bc
+	call AnimateCurrentMove
+
+	; Show the abilities being swapped.
+	farcall DisplayAbilitySwap
+
+	; Perform the actual ability swap.
+	pop bc
 	ld a, b
 	ld [wEnemyAbility], a
 	ld a, c
 	ld [wPlayerAbility], a
-
-	call AnimateCurrentMove
-
-	ld hl, SwappedAbilitiesText
-	call StdBattleTextbox
 
 	; Reset variables related to abilities
 	ld hl, wPlayerSubStatus1

@@ -104,7 +104,7 @@
 	const EVENT_GOT_TM_RETURN
 	
 ; Floccesy Town
-	const EVENT_GOT_PINK_BOW
+	const EVENT_GOT_FAIRYFEATHER
 	const EVENT_MET_ALDER
 	
 ; Floccesy Ranch

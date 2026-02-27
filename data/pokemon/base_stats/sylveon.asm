@@ -4,7 +4,7 @@
 	db FAIRY, FAIRY  ; type
 	db 45  ; catch rate
 	db 196  ; base exp
-	db NO_ITEM, PINK_BOW  ; held items
+	db NO_ITEM, FAIRYFEATHER ; held items
 	dn GENDER_F12_5, HATCH_SLOWER  ; gender ratio, step cycles to hatch
 
 	abilities_for SYLVEON, CUTE_CHARM, CUTE_CHARM, PIXILATE

@@ -151,7 +151,7 @@ _DoItemEffect::
 	dw IsntTheTimeMessage ; NEVERMELTICE
 	dw IsntTheTimeMessage ; DRAGON_FANG
 	dw IsntTheTimeMessage ; BLACKGLASSES
-	dw IsntTheTimeMessage ; PINK_BOW
+	dw IsntTheTimeMessage ; FAIRYFEATHER
 	dw IsntTheTimeMessage ; BERSERK_GENE
 	dw IsntTheTimeMessage ; BRIGHTPOWDER
 	dw IsntTheTimeMessage ; QUICK_CLAW

@@ -16,7 +16,7 @@ FloccesyPinkBowHouse_MapScriptHeader:
 	
 FloccesyPinkBowGirlScript:
 	faceplayer
-	checkevent EVENT_GOT_PINK_BOW
+	checkevent EVENT_GOT_FAIRYFEATHER
 	iftrue_jumptext .GotBowText
 	opentext
 	writethistext
@@ -31,9 +31,9 @@ FloccesyPinkBowGirlScript:
 	line "them this!"
 	done
 	promptbutton
-	verbosegiveitem PINK_BOW
+	verbosegiveitem FAIRYFEATHER
 	iffalsefwd .done
-	setevent EVENT_GOT_PINK_BOW
+	setevent EVENT_GOT_FAIRYFEATHER
 	writetext .GotBowText
 	waitbutton
 .done
@@ -41,9 +41,11 @@ FloccesyPinkBowGirlScript:
 	end
 	
 .GotBowText:
-	text "This pretty bow"
-	line "makes Fairy moves"
-	cont "stronger!"
+	text "This pretty"
+	line "feather makes"
+	
+	para "fairy moves"
+	line "stronger!"
 	
 	para "Give it to your"
 	line "favorite Fairy"

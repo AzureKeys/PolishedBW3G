@@ -139,7 +139,7 @@ ItemDescriptions:
 	dw NeverMeltIceDesc
 	dw DragonFangDesc
 	dw BlackGlassesDesc
-	dw PinkBowDesc
+	dw FairyFeatherDesc
 	dw BerserkGeneDesc
 	dw BrightPowderDesc
 	dw QuickClawDesc
@@ -945,7 +945,7 @@ BlackGlassesDesc:
 	next "type moves. (Hold)"
 	done
 
-PinkBowDesc:
+FairyFeatherDesc:
 	text "Powers up Fairy-"
 	next "type moves. (Hold)"
 	done

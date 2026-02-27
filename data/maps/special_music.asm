@@ -7,4 +7,5 @@ MACRO music_map
 ENDM
 
 SpecialMusicMaps:
+	music_map PLAYERS_HOUSE_2F,              GetMapMusic
 	db 0 ; end

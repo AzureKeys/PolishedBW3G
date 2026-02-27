@@ -1,8 +1,10 @@
 _AnimateTileset::
-; Iterate over a given pointer array of
-; animation functions (one per frame).
+; Increment [hTileAnimFrame] and run that frame's function
+; from the array pointed to by wTilesetAnim.
 
-; Typically in wra1, vra0
+; Called in WRAM bank 1, VRAM bank 0, so map tiles
+; $80 and above in VRAM bank 1 cannot be animated
+; without switching to that bank themselves.
 
 	ld hl, wTilesetAnim
 	ld a, [hli]
@@ -36,10 +38,10 @@ TilesetUnovaWestAnim::
 	dw vTiles2 tile $5b, ScrollTileLeft
 	dw vTiles2 tile $5c, ScrollTileRight
 	dw vTiles2 tile $5d, ScrollTileUp
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
 	dw NULL,  AnimateFlowerTile
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
@@ -52,10 +54,10 @@ TilesetParkAnim::
 TilesetStriatonAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
 	dw NULL,  AnimateFlowerTile
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
@@ -65,10 +67,10 @@ TilesetStriatonAnim::
 TilesetDreamyardAnim::
 	dw vTiles2 tile $6f, ScrollTileDown
 	dw NULL,  DoNothing
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
 	dw vTiles2 tile $6f, ScrollTileDown
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
@@ -77,17 +79,17 @@ TilesetDreamyardAnim::
 	
 TilesetCasteliaAnim::
 	dw NULL,  DoNothing
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
 	dw NULL,  DoNothing
-	dw FountainFrames1, AnimateFountainTile
-	dw FountainFrames2, AnimateFountainTile
-	dw FountainFrames3, AnimateFountainTile
-	dw FountainFrames4, AnimateFountainTile
-	dw FountainFrames5, AnimateFountainTile
-	dw FountainFrames6, AnimateFountainTile
+	dw FountainTilePointer1, AnimateFountainTile
+	dw FountainTilePointer2, AnimateFountainTile
+	dw FountainTilePointer3, AnimateFountainTile
+	dw FountainTilePointer4, AnimateFountainTile
+	dw FountainTilePointer5, AnimateFountainTile
+	dw FountainTilePointer6, AnimateFountainTile
 	dw NULL,  StandingTileFrame8
 	dw NULL,  IncWaterFrame
 	dw NULL,  IncFountainFrame
@@ -102,10 +104,10 @@ TilesetBridgeAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
+	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
+	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -118,16 +120,12 @@ TilesetJohto2Anim::
 TilesetJohto3Anim::
 TilesetJohto4Anim::
 	dw vTiles2 tile $14, AnimateWaterTile
-	dw vTiles2 tile $1c, AnimateRainPuddleTile
-	dw vTiles2 tile $1d, AnimateRainWaterTile
+	dw vTiles2 tile $1c, AnimateRainTiles
+	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw vTiles2 tile $03, AnimateFlowerTile
-	dw WhirlpoolFrames1, AnimateWhirlpoolTile
-	dw WhirlpoolFrames2, AnimateWhirlpoolTile
-	dw WhirlpoolFrames3, AnimateWhirlpoolTile
-	dw WhirlpoolFrames4, AnimateWhirlpoolTile
-	dw vTiles2 tile $1c, AnimateRainPuddleTile
-	dw vTiles2 tile $1d, AnimateRainWaterTile
+	dw vTiles2 tile $1c, AnimateRainTiles
+	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw vTiles2 tile $35, WriteTileToBuffer
 	dw NULL,  DoNothing
@@ -144,16 +142,16 @@ TilesetEliteFourRoomAnim::
 	dw vTiles2 tile $57, WriteTileToBuffer
 	dw wTileAnimBuffer, ScrollTileUp
 	dw vTiles2 tile $57, ReadTileFromBuffer
-	dw FanFrames1, AnimateFanTile
-	dw FanFrames2, AnimateFanTile
-	dw FanFrames3, AnimateFanTile
-	dw FanFrames4, AnimateFanTile
-	dw ComputerFrames0L, AnimateComputerTile0
-	dw ComputerFrames0R, AnimateComputerTile0
-	dw ComputerFrames1L, AnimateComputerTile1
-	dw ComputerFrames1R, AnimateComputerTile1
-	dw ComputerFrames2L, AnimateComputerTile2
-	dw ComputerFrames2R, AnimateComputerTile2
+	dw FanTilePointer1, AnimateFanTile
+	dw FanTilePointer2, AnimateFanTile
+	dw FanTilePointer3, AnimateFanTile
+	dw FanTilePointer4, AnimateFanTile
+	dw ComputerTilePointer0L, AnimateComputerTile0
+	dw ComputerTilePointer0R, AnimateComputerTile0
+	dw ComputerTilePointer1L, AnimateComputerTile1
+	dw ComputerTilePointer1R, AnimateComputerTile1
+	dw ComputerTilePointer2L, AnimateComputerTile2
+	dw ComputerTilePointer2R, AnimateComputerTile2
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 
@@ -194,8 +192,7 @@ TilesetNacreneAnim::
 	dw NULL,  DoneTileAnimation
 
 TilesetUndergroundAnim::
-	dw vTiles2 tile $08, SpinnerAnimation
-	dw NULL,  DoNothing
+	dw vTiles2 tile $08, AnimateSpinnerTile
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
@@ -206,11 +203,21 @@ TilesetUndergroundAnim::
 	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
+	
+TilesetFacilityAnim::
+	dw vTiles2 tile $6c, AnimateTurbineTiles
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoNothing
+	dw vTiles2 tile $6c, AnimateTurbineTiles
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoNothing
+	dw vTiles2 tile $6c, AnimateTurbineTiles
+	dw NULL,  StandingTileFrame8
+	dw NULL,  DoneTileAnimation
 
 TilesetPokeCenterAnim::
 TilesetGateAnim::
 TilesetLabAnim::
-TilesetFacilityAnim::
 TilesetMartAnim::
 TilesetGameCornerAnim::
 TilesetHouse3Anim::
@@ -234,14 +241,16 @@ DoneTileAnimation:
 	ret
 
 StandingTileFrame:
+; Tick the wTileAnimationTimer.
 	ld hl, wTileAnimationTimer
 	inc [hl]
 	ret
 
 StandingTileFrame8:
+; Tick the wTileAnimationTimer, wrapping from 7 to 0.
 	ld a, [wTileAnimationTimer]
 	inc a
-	and %111
+	maskbits 8
 	ld [wTileAnimationTimer], a
 	ret
 	
@@ -280,7 +289,7 @@ ScrollTileRightLeft:
 ScrollTileRight:
 	ld h, d
 	ld l, e
-	ld c, 4
+	ld c, TILE_SIZE / 4
 .loop
 rept 4
 	ld a, [hl]
@@ -294,7 +303,7 @@ endr
 ScrollTileLeft:
 	ld h, d
 	ld l, e
-	ld c, 4
+	ld c, TILE_SIZE / 4
 .loop
 rept 4
 	ld a, [hl]
@@ -321,9 +330,9 @@ ScrollTileUp:
 	ld a, [hli]
 	ld e, [hl]
 	ld d, a
-	ld bc, 14
+	ld bc, TILE_SIZE - 2
 	add hl, bc
-	ld a, 4
+	ld a, TILE_SIZE / 4
 .loop
 	ld c, [hl]
 	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e (a is the .loop counter)
@@ -344,14 +353,14 @@ ScrollTileUp:
 ScrollTileDown:
 	ld h, d
 	ld l, e
-	ld de, 14
+	ld de, TILE_SIZE - 2
 	push hl
 	add hl, de
 	ld a, [hli]
 	ld e, [hl]
 	ld d, a
 	pop hl
-	ld a, 4
+	ld a, TILE_SIZE / 4
 .loop
 	ld b, [hl]
 	ld [hl], d ; no-optimize *hl++|*hl-- = b|c|d|e (a is the .loop counter)
@@ -368,43 +377,6 @@ ScrollTileDown:
 	dec a
 	jr nz, .loop
 	ret
-
-AnimateFountain:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 8, offset to pointer table (2 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 8
-	add a
-
-	add LOW(.FountainTilePointers)
-	ld l, a
-	adc HIGH(.FountainTilePointers)
-	sub l
-	ld h, a
-
-	ld sp, hl
-	pop hl
-
-	jmp WriteTileHLToDE
-
-.FountainTilePointers:
-	dw .FountainTile1
-	dw .FountainTile2
-	dw .FountainTile3
-	dw .FountainTile4
-	dw .FountainTile3
-	dw .FountainTile4
-	dw .FountainTile5
-	dw .FountainTile1
-
-.FountainTile1: INCBIN "gfx/tilesets/fountain/1.2bpp"
-.FountainTile2: INCBIN "gfx/tilesets/fountain/2.2bpp"
-.FountainTile3: INCBIN "gfx/tilesets/fountain/3.2bpp"
-.FountainTile4: INCBIN "gfx/tilesets/fountain/4.2bpp"
-.FountainTile5: INCBIN "gfx/tilesets/fountain/5.2bpp"
 
 AnimateWaterTile:
 	ld hl, sp + 0
@@ -427,49 +399,29 @@ AnimateWaterTile:
 	jmp WriteTileHLToDE
 
 .WaterTileFrames:
-INCBIN "gfx/tilesets/water/johto_water.2bpp"
+INCBIN "gfx/tilesets/animations/water_johto.2bpp"
 
-AnimateRainPuddleTile:
+AnimateRainTiles:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	; period 8, offset to 1 tile (16 bytes)
+	; period 8, offset to 2 tiles (32 bytes)
 	ld a, [wTileAnimationTimer]
 	maskbits 8
 	swap a
+	add a
 
-	add LOW(.RainPuddleTileFrames)
+	add LOW(.RainTileFrames)
 	ld l, a
-	adc HIGH(.RainPuddleTileFrames)
+	adc HIGH(.RainTileFrames)
 	sub l
 	ld h, a
 
-	jmp WriteTileHLToDE
+	jmp WriteTwoTilesHLToDE
 
-.RainPuddleTileFrames:
-INCBIN "gfx/tilesets/rain/rain_puddle.2bpp"
-
-AnimateRainWaterTile:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 8, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 8
-	swap a
-
-	add LOW(.RainWaterTileFrames)
-	ld l, a
-	adc HIGH(.RainWaterTileFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-.RainWaterTileFrames:
-INCBIN "gfx/tilesets/rain/rain_water.2bpp"
+.RainTileFrames:
+INCBIN "gfx/tilesets/animations/rain.2bpp"
 
 AnimateKantoWaterTile:
 	ld hl, sp + 0
@@ -492,36 +444,31 @@ AnimateKantoWaterTile:
 	jmp WriteTileHLToDE
 
 .KantoWaterTileFrames:
-INCBIN "gfx/tilesets/water/kanto_water.2bpp"
+INCBIN "gfx/tilesets/animations/water_kanto.2bpp"
 
-AnimateFarawayWaterTile:
+AnimateFarawayWaterTiles:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-	; period 8, offset to 1 tile (16 bytes)
+	; period 8, offset to 2 tiles (32 bytes)
 	ld a, [wTileAnimationTimer]
 	maskbits 8
 	swap a
+	add a
 
-	add [hl]
-	inc hl
-	ld h, [hl]
+	add LOW(.FarawayWaterTileFrames)
 	ld l, a
-	adc h
+	adc HIGH(.FarawayWaterTileFrames)
 	sub l
 	ld h, a
 
-	jmp WriteTileHLToDE
+	jmp WriteTwoTilesHLToDE
 
-SpinnerAnimation:
+.FarawayWaterTileFrames:
+INCBIN "gfx/tilesets/animations/water_faraway.2bpp"
+
+AnimateSpinnerTile:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
@@ -547,10 +494,32 @@ SpinnerAnimation:
 	jmp WriteTileHLToDE
 
 .SpinnerTileFrames:
-INCBIN "gfx/tilesets/spinner/1.2bpp"
-INCBIN "gfx/tilesets/spinner/2.2bpp"
+INCBIN "gfx/tilesets/animations/spinner.2bpp"
 
-ForestTreeLeftAnimation:
+AnimateTurbineTiles:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 2, offset to 4 tiles (64 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 2
+	swap a
+	add a
+	add a
+
+	add LOW(.TurbineTileFrames)
+	ld l, a
+	adc HIGH(.TurbineTileFrames)
+	sub l
+	ld h, a
+
+	jmp WriteFourTilesHLToDE
+
+.TurbineTileFrames:
+INCBIN "gfx/tilesets/animations/turbine.2bpp"
+
+AnimateForestTreeTiles:
 	ld a, [wCelebiEvent]
 	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
 	ret z
@@ -559,192 +528,23 @@ ForestTreeLeftAnimation:
 	ld b, h
 	ld c, l
 
-	; period 2, offset to 1 tile (16 bytes)
+	; period 2, offset to 4 tiles (64 bytes)
 	ld a, [wTileAnimationTimer]
 	maskbits 2
 	swap a
+	add a
+	add a
 
-	add LOW(ForestTreeLeftFrames)
+	add LOW(.ForestTreeTileFrames)
 	ld l, a
-	adc HIGH(ForestTreeLeftFrames)
+	adc HIGH(.ForestTreeTileFrames)
 	sub l
 	ld h, a
 
-	jmp WriteTileHLToDE
+	jmp WriteFourTilesHLToDE
 
-ForestTreeRightAnimation:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	swap a
-
-	add LOW(ForestTreeRightFrames)
-	ld l, a
-	adc HIGH(ForestTreeRightFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTreeLeftAnimation2:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, phase shift 1, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	xor 1
-	swap a
-
-	add LOW(ForestTreeLeftFrames)
-	ld l, a
-	adc HIGH(ForestTreeLeftFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTreeRightAnimation2:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, phase shift 1, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	xor 1
-	swap a
-
-	add LOW(ForestTreeRightFrames)
-	ld l, a
-	adc HIGH(ForestTreeRightFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTreeLeftFrames:
-INCBIN "gfx/tilesets/forest-tree/1.2bpp"
-INCBIN "gfx/tilesets/forest-tree/2.2bpp"
-
-ForestTreeRightFrames:
-INCBIN "gfx/tilesets/forest-tree/3.2bpp"
-INCBIN "gfx/tilesets/forest-tree/4.2bpp"
-
-ForestTree2LeftAnimation:
-	ld a, [wCelebiEvent]
-	bit 2, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	swap a
-
-	add LOW(ForestTree2LeftFrames)
-	ld l, a
-	adc HIGH(ForestTree2LeftFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTree2RightAnimation:
-	ld a, [wCelebiEvent]
-	bit 2, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	swap a
-
-	add LOW(ForestTree2RightFrames)
-	ld l, a
-	adc HIGH(ForestTree2RightFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTree2LeftAnimation2:
-	ld a, [wCelebiEvent]
-	bit 2, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, phase shift 1, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	xor 1
-	swap a
-
-	add LOW(ForestTree2LeftFrames)
-	ld l, a
-	adc HIGH(ForestTree2LeftFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTree2RightAnimation2:
-	ld a, [wCelebiEvent]
-	bit 2, a
-	ret z
-
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, phase shift 1, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2
-	xor 1
-	swap a
-
-	add LOW(ForestTree2RightFrames)
-	ld l, a
-	adc HIGH(ForestTree2RightFrames)
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-ForestTree2LeftFrames:
-INCBIN "gfx/tilesets/forest-tree-2/1.2bpp"
-INCBIN "gfx/tilesets/forest-tree-2/2.2bpp"
-
-ForestTree2RightFrames:
-INCBIN "gfx/tilesets/forest-tree-2/3.2bpp"
-INCBIN "gfx/tilesets/forest-tree-2/4.2bpp"
+.ForestTreeTileFrames:
+INCBIN "gfx/tilesets/animations/forest_tree.2bpp"
 
 AnimateFlowerTile:
 	ld hl, sp + 0
@@ -767,8 +567,7 @@ AnimateFlowerTile:
 	jmp WriteTileHLToDE
 
 .FlowerTileFrames:
-INCBIN "gfx/tilesets/flower/1.2bpp"
-INCBIN "gfx/tilesets/flower/2.2bpp"
+INCBIN "gfx/tilesets/animations/flower_johto.2bpp"
 
 AnimateKantoFlowerTile:
 	ld hl, sp + 0
@@ -791,12 +590,9 @@ AnimateKantoFlowerTile:
 	jmp WriteTileHLToDE
 
 .KantoFlowerTileFrames:
-INCBIN "gfx/tilesets/kanto-flower/1.2bpp"
-INCBIN "gfx/tilesets/kanto-flower/2.2bpp"
-INCBIN "gfx/tilesets/kanto-flower/3.2bpp"
-INCBIN "gfx/tilesets/kanto-flower/1.2bpp"
+INCBIN "gfx/tilesets/animations/flower_kanto.2bpp"
 
-LavaBubbleAnim1:
+AnimateLavaBubbleTile1:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
@@ -810,9 +606,9 @@ LavaBubbleAnim1:
 	maskbits 4
 	swap a
 
-	jr _FinishLavaBubbleAnim
+	jr _FinishAnimateLavaBubbleTile
 
-LavaBubbleAnim2:
+AnimateLavaBubbleTile2:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
@@ -825,20 +621,17 @@ LavaBubbleAnim2:
 	add a
 	; fallthrough
 
-_FinishLavaBubbleAnim:
-	add LOW(LavaBubbleFrames)
+_FinishAnimateLavaBubbleTile:
+	add LOW(.LavaBubbleFrames)
 	ld l, a
-	adc HIGH(LavaBubbleFrames)
+	adc HIGH(.LavaBubbleFrames)
 	sub l
 	ld h, a
 
 	jmp WriteTileHLToDE
 
-LavaBubbleFrames:
-INCBIN "gfx/tilesets/lava/1.2bpp"
-INCBIN "gfx/tilesets/lava/2.2bpp"
-INCBIN "gfx/tilesets/lava/3.2bpp"
-INCBIN "gfx/tilesets/lava/4.2bpp"
+.LavaBubbleFrames:
+INCBIN "gfx/tilesets/animations/lava.2bpp"
 
 AnimateTowerPillarTile:
 	ld hl, sp + 0
@@ -874,177 +667,51 @@ AnimateTowerPillarTile:
 	jmp WriteTileHLToDE
 
 .TowerPillarTileFrameIndexes:
-	db $00, $10, $20, $30, $40, $30, $20, $10
+	db 0 tiles ; 0
+	db 1 tiles ; 1
+	db 2 tiles ; 2
+	db 3 tiles ; 3
+	db 4 tiles ; 4
+	db 3 tiles ; 5
+	db 2 tiles ; 6
+	db 1 tiles ; 7
 
-AnimateWhirlpoolTile:
+TowerPillarTilePointer1:  dw vTiles2 tile $2d, TowerPillarTileFrames + 5 * 0 tiles
+TowerPillarTilePointer2:  dw vTiles2 tile $2f, TowerPillarTileFrames + 5 * 1 tiles
+TowerPillarTilePointer3:  dw vTiles2 tile $3d, TowerPillarTileFrames + 5 * 2 tiles
+TowerPillarTilePointer4:  dw vTiles2 tile $3f, TowerPillarTileFrames + 5 * 3 tiles
+TowerPillarTilePointer5:  dw vTiles2 tile $3c, TowerPillarTileFrames + 5 * 4 tiles
+TowerPillarTilePointer6:  dw vTiles2 tile $2c, TowerPillarTileFrames + 5 * 5 tiles
+TowerPillarTilePointer7:  dw vTiles2 tile $4d, TowerPillarTileFrames + 5 * 6 tiles
+TowerPillarTilePointer8:  dw vTiles2 tile $4f, TowerPillarTileFrames + 5 * 7 tiles
+TowerPillarTilePointer9:  dw vTiles2 tile $5d, TowerPillarTileFrames + 5 * 8 tiles
+TowerPillarTilePointer10: dw vTiles2 tile $5f, TowerPillarTileFrames + 5 * 9 tiles
+
+TowerPillarTileFrames:
+INCBIN "gfx/tilesets/animations/tower_pillar.2bpp"
+	
+AnimateUnovaWaterTile:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-	; period 4, offset to 1 tile (16 bytes)
+	; period 11, offset to index table (1 byte)
 	ld a, [wWaterAnimationTimer]
-	swap a
 
-	add [hl]
-	inc hl
-	ld h, [hl]
+	add LOW(.UnovaWaterTileFrameIndexes)
 	ld l, a
-	ld a, 0
-	adc h
+	adc HIGH(.UnovaWaterTileFrameIndexes)
+	sub l
 	ld h, a
-
-	ld sp, hl
-	jmp WriteTileHLToDE
-
-AnimateFountainTile:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
+	ld a, [hl]
+	
 	ld l, e
 	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-	; period 4, offset to 1 tile (16 bytes)
-	ld a, [wFountainAnimationTimer]
-	swap a
-
-	add [hl]
+	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
 	inc hl
-	ld h, [hl]
-	ld l, a
-	ld a, 0
-	adc h
-	ld h, a
-
-	ld sp, hl
-	jmp WriteTileHLToDE
-
-AnimateFanTile:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-; Get the tile for this frame.
-	ld a, [wTileAnimationTimer]
-	and %1 ; 2 frames x2
-	swap a  ; * 16 bytes per tile
-
-	add [hl]
+	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
 	inc hl
-	ld h, [hl]
-	ld l, a
-	ld a, 0
-	adc h
-	ld h, a
-
-	ld sp, hl
-	jmp WriteTileHLToDE
-
-AnimateComputerTile0:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-; Get the tile for this frame.
-	ld a, [wTileAnimationTimer]
-	and %11 ; 2 frames x2
-	swap a  ; * 16 bytes per tile
-	jr AnimateComputerTile
-
-AnimateComputerTile1:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-; Get the tile for this frame.
-	ld a, [wTileAnimationTimer]
-	inc a
-	and %11 ; 2 frames x2
-	swap a  ; * 16 bytes per tile
-	jr AnimateComputerTile
-
-AnimateComputerTile2:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-; Get the tile for this frame.
-	ld a, [wTileAnimationTimer]
-	inc a
-	inc a
-	and %11 ; 2 frames x2
-	swap a  ; * 16 bytes per tile
-	; fallthrough
-
-AnimateComputerTile:
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	ld a, 0
-	adc h
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-AnimateTinyWaterTile:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld l, e
-	ld h, d
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-
-	; period 2, every 2 frames, offset to 1 tile (16 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2, 1
-	add a
-	add a
-	add a
-
+	
 	add [hl]
 	inc hl
 	ld h, [hl]
@@ -1054,6 +721,220 @@ AnimateTinyWaterTile:
 	ld h, a
 
 	jmp WriteTileHLToDE
+	
+.UnovaWaterTileFrameIndexes:
+	db 0 tiles
+	db 1 tiles
+	db 2 tiles
+	db 3 tiles
+	db 4 tiles
+	db 5 tiles
+	db 6 tiles
+	db 7 tiles
+	db 8 tiles
+	db 9 tiles
+	db 10 tiles
+	
+UnovaWaterTilePointer1: dw vTiles2 tile $6d, UnovaWaterTileFrames + 11 * 0 tiles
+UnovaWaterTilePointer2: dw vTiles2 tile $6e, UnovaWaterTileFrames + 11 * 1 tiles
+UnovaWaterTilePointer3: dw vTiles2 tile $7d, UnovaWaterTileFrames + 11 * 2 tiles
+UnovaWaterTilePointer4: dw vTiles2 tile $7e, UnovaWaterTileFrames + 11 * 3 tiles
+
+UnovaWaterTileFrames:
+INCBIN "gfx/tilesets/animations/unova_water.2bpp"
+
+AnimateFountainTile:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 6, offset to index table (1 byte)
+	ld a, [wFountainAnimationTimer]
+
+	add LOW(.FountainTileFrameIndexes)
+	ld l, a
+	adc HIGH(.FountainTileFrameIndexes)
+	sub l
+	ld h, a
+	ld a, [hl]
+	
+	ld l, e
+	ld h, d
+	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
+	inc hl
+	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
+	inc hl
+	
+	add [hl]
+	inc hl
+	ld h, [hl]
+	ld l, a
+	adc h
+	sub l
+	ld h, a
+
+	jmp WriteTileHLToDE
+	
+.FountainTileFrameIndexes:
+	db 0 tiles
+	db 1 tiles
+	db 2 tiles
+	db 3 tiles
+	db 4 tiles
+	db 5 tiles
+	
+FountainTilePointer1: dw vTiles2 tile $2b, FountainTileFrames + 6 * 0 tiles
+FountainTilePointer2: dw vTiles2 tile $3b, FountainTileFrames + 6 * 1 tiles
+FountainTilePointer3: dw vTiles2 tile $2d, FountainTileFrames + 6 * 2 tiles
+FountainTilePointer4: dw vTiles2 tile $2c, FountainTileFrames + 6 * 3 tiles
+FountainTilePointer5: dw vTiles2 tile $3c, FountainTileFrames + 6 * 4 tiles
+FountainTilePointer6: dw vTiles2 tile $3d, FountainTileFrames + 6 * 5 tiles
+
+FountainTileFrames:
+INCBIN "gfx/tilesets/animations/castelia_fountain.2bpp"
+
+AnimateFanTile:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 2, offset to index table (1 byte)
+	ld a, [wTileAnimationTimer]
+	maskbits 2
+
+	add LOW(.FanTileFrameIndexes)
+	ld l, a
+	adc HIGH(.FanTileFrameIndexes)
+	sub l
+	ld h, a
+	ld a, [hl]
+	
+	ld l, e
+	ld h, d
+	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
+	inc hl
+	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
+	inc hl
+	
+	add [hl]
+	inc hl
+	ld h, [hl]
+	ld l, a
+	adc h
+	sub l
+	ld h, a
+
+	jmp WriteTileHLToDE
+	
+.FanTileFrameIndexes:
+	db 0 tiles
+	db 1 tiles
+	
+FanTilePointer1: dw vTiles2 tile $60, FanTileFrames + 2 * 0 tiles
+FanTilePointer2: dw vTiles2 tile $61, FanTileFrames + 2 * 1 tiles
+FanTilePointer3: dw vTiles2 tile $70, FanTileFrames + 2 * 2 tiles
+FanTilePointer4: dw vTiles2 tile $71, FanTileFrames + 2 * 3 tiles
+
+FanTileFrames:
+INCBIN "gfx/tilesets/animations/fan.2bpp"
+
+AnimateComputerTile0:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, offset to index table (1 byte)
+	ld a, [wTileAnimationTimer]
+	jr AnimateComputerTile
+
+AnimateComputerTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, offset to index table (1 byte)
+	ld a, [wTileAnimationTimer]
+	inc a
+	jr AnimateComputerTile
+
+AnimateComputerTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, offset to index table (1 byte)
+	ld a, [wTileAnimationTimer]
+	inc a
+	inc a
+	; fallthrough
+AnimateComputerTile:
+	maskbits 4
+	
+	add LOW(.ComputerTileFrameIndexes)
+	ld l, a
+	adc HIGH(.ComputerTileFrameIndexes)
+	sub l
+	ld h, a
+	ld a, [hl]
+	
+	ld l, e
+	ld h, d
+	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
+	inc hl
+	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
+	inc hl
+	
+	add [hl]
+	inc hl
+	ld h, [hl]
+	ld l, a
+	adc h
+	sub l
+	ld h, a
+
+	jmp WriteTileHLToDE
+	
+.ComputerTileFrameIndexes:
+	db 0 tiles
+	db 1 tiles
+	db 2 tiles
+	db 3 tiles
+	
+ComputerTilePointer0L: dw vTiles2 tile $45, ComputerTileFrames + 4 * 0 tiles
+ComputerTilePointer0R: dw vTiles2 tile $46, ComputerTileFrames + 4 * 1 tiles
+ComputerTilePointer1L: dw vTiles2 tile $55, ComputerTileFrames + 4 * 0 tiles
+ComputerTilePointer1R: dw vTiles2 tile $56, ComputerTileFrames + 4 * 1 tiles
+ComputerTilePointer2L: dw vTiles2 tile $4a, ComputerTileFrames + 4 * 0 tiles
+ComputerTilePointer2R: dw vTiles2 tile $4b, ComputerTileFrames + 4 * 1 tiles
+
+ComputerTileFrames:
+INCBIN "gfx/tilesets/animations/computer.2bpp"
+
+AnimateTinyWaterTiles:
+	; period 2, every 2 frames, offset to 3 tiles (48 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 2, 1
+	add a
+	add a
+	add a
+	ld b, a
+	add a
+	add b
+
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	add LOW(.TinyWaterTileFrames)
+	ld l, a
+	adc HIGH(.TinyWaterTileFrames)
+	sub l
+	ld h, a
+
+	jmp WriteThreeTilesHLToDE
+
+.TinyWaterTileFrames:
+INCBIN "gfx/tilesets/animations/tiny_water.2bpp"
 
 AnimateLCDTile:
 	ld hl, sp + 0
@@ -1074,14 +955,94 @@ AnimateLCDTile:
 	jmp WriteTileHLToDE
 
 .LCDTileFrames:
-INCBIN "gfx/tilesets/lcd/1.2bpp"
-INCBIN "gfx/tilesets/lcd/2.2bpp"
-INCBIN "gfx/tilesets/lcd/3.2bpp"
-INCBIN "gfx/tilesets/lcd/4.2bpp"
-INCBIN "gfx/tilesets/lcd/5.2bpp"
-INCBIN "gfx/tilesets/lcd/6.2bpp"
-INCBIN "gfx/tilesets/lcd/7.2bpp"
-INCBIN "gfx/tilesets/lcd/8.2bpp"
+INCBIN "gfx/tilesets/animations/lcd.2bpp"
+
+AnimateFireTiles:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, offset to 2 tiles (32 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4
+	swap a
+	add a
+
+	add LOW(.FireTileFrames)
+	ld l, a
+	adc HIGH(.FireTileFrames)
+	sub l
+	ld h, a
+
+	jmp WriteTwoTilesHLToDE
+
+.FireTileFrames:
+INCBIN "gfx/tilesets/animations/fire.2bpp"
+
+WriteFourTilesHLToDE:
+	ld sp, hl
+	ld l, e
+	ld h, d
+	; fallthrough
+
+WriteFourTiles:
+	pop de
+	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
+	inc hl
+	ld [hl], d
+rept 8
+	pop de
+	inc hl
+	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
+	inc hl
+	ld [hl], d
+endr
+
+	jr _FinishWritingThreeTiles
+
+WriteThreeTilesHLToDE:
+	ld sp, hl
+	ld l, e
+	ld h, d
+	; fallthrough
+
+WriteThreeTiles:
+	pop de
+	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
+	inc hl
+	ld [hl], d
+_FinishWritingThreeTiles:
+rept 8
+	pop de
+	inc hl
+	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
+	inc hl
+	ld [hl], d
+endr
+
+	jr _FinishWritingTwoTiles
+
+WriteTwoTilesHLToDE:
+	ld sp, hl
+	ld l, e
+	ld h, d
+	; fallthrough
+
+WriteTwoTiles:
+	pop de
+	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
+	inc hl
+	ld [hl], d
+_FinishWritingTwoTiles:
+rept 8
+	pop de
+	inc hl
+	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
+	inc hl
+	ld [hl], d
+endr
+
+	jr _FinishWritingOneTile
 
 WriteTileToBuffer:
 	ld hl, sp + 0
@@ -1114,6 +1075,7 @@ WriteTile:
 	ld [hl], e ; no-optimize *hl++|*hl-- = b|c|d|e
 	inc hl
 	ld [hl], d
+_FinishWritingOneTile:
 rept 7
 	pop de
 	inc hl
@@ -1148,7 +1110,8 @@ FlickeringCaveEntrancePalette:
 	and %10
 	ld hl, wBGPals1 palette PAL_BG_YELLOW
 	jr z, .okay
-	ld hl, wBGPals1 palette PAL_BG_YELLOW + 2
+	inc hl
+	inc hl
 .okay
 
 	ld a, [hli]
@@ -1158,84 +1121,3 @@ FlickeringCaveEntrancePalette:
 
 	pop af
 	ldh [rWBK], a
-	ret
-
-TowerPillarTilePointer1:  dw vTiles2 tile $2d, TowerPillarTile1
-TowerPillarTilePointer2:  dw vTiles2 tile $2f, TowerPillarTile2
-TowerPillarTilePointer3:  dw vTiles2 tile $3d, TowerPillarTile3
-TowerPillarTilePointer4:  dw vTiles2 tile $3f, TowerPillarTile4
-TowerPillarTilePointer5:  dw vTiles2 tile $3c, TowerPillarTile5
-TowerPillarTilePointer6:  dw vTiles2 tile $2c, TowerPillarTile6
-TowerPillarTilePointer7:  dw vTiles2 tile $4d, TowerPillarTile7
-TowerPillarTilePointer8:  dw vTiles2 tile $4f, TowerPillarTile8
-TowerPillarTilePointer9:  dw vTiles2 tile $5d, TowerPillarTile9
-TowerPillarTilePointer10: dw vTiles2 tile $5f, TowerPillarTile10
-
-TowerPillarTile1:  INCBIN "gfx/tilesets/tower-pillar/1.2bpp"
-TowerPillarTile2:  INCBIN "gfx/tilesets/tower-pillar/2.2bpp"
-TowerPillarTile3:  INCBIN "gfx/tilesets/tower-pillar/3.2bpp"
-TowerPillarTile4:  INCBIN "gfx/tilesets/tower-pillar/4.2bpp"
-TowerPillarTile5:  INCBIN "gfx/tilesets/tower-pillar/5.2bpp"
-TowerPillarTile6:  INCBIN "gfx/tilesets/tower-pillar/6.2bpp"
-TowerPillarTile7:  INCBIN "gfx/tilesets/tower-pillar/7.2bpp"
-TowerPillarTile8:  INCBIN "gfx/tilesets/tower-pillar/8.2bpp"
-TowerPillarTile9:  INCBIN "gfx/tilesets/tower-pillar/9.2bpp"
-TowerPillarTile10: INCBIN "gfx/tilesets/tower-pillar/10.2bpp"
-
-WhirlpoolFrames1: dw vTiles2 tile $6d, WhirlpoolTiles1
-WhirlpoolFrames2: dw vTiles2 tile $6e, WhirlpoolTiles2
-WhirlpoolFrames3: dw vTiles2 tile $7d, WhirlpoolTiles3
-WhirlpoolFrames4: dw vTiles2 tile $7e, WhirlpoolTiles4
-
-WhirlpoolTiles1: INCBIN "gfx/tilesets/unova_water/1.2bpp"
-WhirlpoolTiles2: INCBIN "gfx/tilesets/unova_water/2.2bpp"
-WhirlpoolTiles3: INCBIN "gfx/tilesets/unova_water/3.2bpp"
-WhirlpoolTiles4: INCBIN "gfx/tilesets/unova_water/4.2bpp"
-
-FountainFrames1: dw vTiles2 tile $2b, FountainTiles1
-FountainFrames2: dw vTiles2 tile $3b, FountainTiles2
-FountainFrames3: dw vTiles2 tile $2d, FountainTiles3
-FountainFrames4: dw vTiles2 tile $2c, FountainTiles4
-FountainFrames5: dw vTiles2 tile $3c, FountainTiles5
-FountainFrames6: dw vTiles2 tile $3d, FountainTiles6
-
-FountainTiles1: INCBIN "gfx/tilesets/castelia-fountain/1.2bpp"
-FountainTiles2: INCBIN "gfx/tilesets/castelia-fountain/2.2bpp"
-FountainTiles3: INCBIN "gfx/tilesets/castelia-fountain/3.2bpp"
-FountainTiles4: INCBIN "gfx/tilesets/castelia-fountain/4.2bpp"
-FountainTiles5: INCBIN "gfx/tilesets/castelia-fountain/5.2bpp"
-FountainTiles6: INCBIN "gfx/tilesets/castelia-fountain/6.2bpp"
-
-FanFrames1: dw vTiles2 tile $60, FanTiles1
-FanFrames2: dw vTiles2 tile $61, FanTiles2
-FanFrames3: dw vTiles2 tile $70, FanTiles3
-FanFrames4: dw vTiles2 tile $71, FanTiles4
-
-FanTiles1: INCBIN "gfx/tilesets/fan/1.2bpp"
-FanTiles2: INCBIN "gfx/tilesets/fan/2.2bpp"
-FanTiles3: INCBIN "gfx/tilesets/fan/3.2bpp"
-FanTiles4: INCBIN "gfx/tilesets/fan/4.2bpp"
-
-ComputerFrames0L: dw vTiles2 tile $45, ComputerTilesL
-ComputerFrames0R: dw vTiles2 tile $46, ComputerTilesR
-ComputerFrames1L: dw vTiles2 tile $55, ComputerTilesL
-ComputerFrames1R: dw vTiles2 tile $56, ComputerTilesR
-ComputerFrames2L: dw vTiles2 tile $4A, ComputerTilesL
-ComputerFrames2R: dw vTiles2 tile $4B, ComputerTilesR
-
-ComputerTilesL: INCBIN "gfx/tilesets/computer/1.2bpp"
-ComputerTilesR: INCBIN "gfx/tilesets/computer/2.2bpp"
-
-FarawayWaterFrames1: dw vTiles2 tile $14, FarawayWaterTiles1
-FarawayWaterFrames2: dw vTiles2 tile $15, FarawayWaterTiles2
-
-FarawayWaterTiles1: INCBIN "gfx/tilesets/water/faraway_water_1.2bpp"
-FarawayWaterTiles2: INCBIN "gfx/tilesets/water/faraway_water_2.2bpp"
-
-TinyWaterTileFrames: dw vTiles2 tile $0a, TinyWaterTile
-TinyPierTileFrames:  dw vTiles2 tile $0b, TinyPierTile
-TinyShoreTileFrames: dw vTiles2 tile $0c, TinyShoreTile
-
-TinyWaterTile: INCBIN "gfx/tilesets/tiny/water.2bpp"
-TinyPierTile:  INCBIN "gfx/tilesets/tiny/pier.2bpp"
-TinyShoreTile: INCBIN "gfx/tilesets/tiny/shore.2bpp"

@@ -184,7 +184,7 @@ endc
 	li "NeverMeltIce"
 	li "Dragon Fang"
 	li "BlackGlasses"
-	li "Pink Bow"
+	li "FairyFeather"
 
 	li "Berserk Gene"
 	li "BrightPowder"

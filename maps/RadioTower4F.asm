@@ -30,7 +30,7 @@ RadioTower4F_MapScriptHeader:
 RadioTower4FDJMaryScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_PINK_BOW_FROM_MARY
+	checkevent EVENT_GOT_FAIRYFEATHER_FROM_MARY
 	iftrue_jumpopenedtext RadioTower4FDJMaryText_After
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftruefwd .ClearedRockets
@@ -46,9 +46,9 @@ RadioTower4FDJMaryScript:
 .ClearedRockets:
 	writetext RadioTower4FDJMaryText_ClearedRockets
 	promptbutton
-	verbosegiveitem PINK_BOW
+	verbosegiveitem FAIRYFEATHER
 	iffalse_endtext
-	setevent EVENT_GOT_PINK_BOW_FROM_MARY
+	setevent EVENT_GOT_FAIRYFEATHER_FROM_MARY
 	jumpthisopenedtext
 
 	text "Mary: It's just"
