@@ -144,7 +144,7 @@ HumilauCity_BlockData:
 
 SECTION "MarlonsHouse_BlockData", ROMX
 MarlonsHouse_BlockData:
-	INCBIN "maps/HumilauCity.ablk.lzp"
+	INCBIN "maps/MarlonsHouse.ablk.lzp"
 
 SECTION "HumilauGym_BlockData", ROMX
 HumilauGym_BlockData:
@@ -509,5 +509,9 @@ Dreamyard_BlockData:
 SECTION "DreamyardB1F_BlockData", ROMX
 DreamyardB1F_BlockData:
 	INCBIN "maps/DreamyardB1F.ablk.lzp"
+
+SECTION "AccumulaTown_BlockData", ROMX
+AccumulaTown_BlockData:
+	INCBIN "maps/AccumulaTown.ablk.lzp"
 
 ENDSECTION

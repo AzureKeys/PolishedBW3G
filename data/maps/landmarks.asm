@@ -35,6 +35,7 @@ Landmarks:
 	landmark 140, 100, StriatonCityName
 	landmark 148, 100, DreamyardName
 	landmark 140, 108, Route2Name
+	landmark 140, 116, AccumulaTownName
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
@@ -76,6 +77,7 @@ WellspringCaveName:    rawchar "Wellspring¯Cave@"
 StriatonCityName:      rawchar "Striaton¯City@"
 DreamyardName:         rawchar "Dreamyard@"
 Route2Name:            rawchar "Route 2@"
+AccumulaTownName:      rawchar "Accumula¯Town@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"

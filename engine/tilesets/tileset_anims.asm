@@ -33,6 +33,7 @@ _AnimateTileset::
 	
 TilesetUnovaBeachAnim::
 TilesetUnovaWestAnim::
+TilesetUnovaEastAnim::
 	dw vTiles2 tile $4a, ScrollTileDown
 	dw vTiles2 tile $5a, ScrollTileDown
 	dw vTiles2 tile $5b, ScrollTileLeft

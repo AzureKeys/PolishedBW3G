@@ -33,6 +33,7 @@ MapGroupPointers::
 	dw MapGroupVirbank
 	dw MapGroupNacrene
 	dw MapGroupStriaton
+	dw MapGroupAccumula
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -222,3 +223,7 @@ MapGroupStriaton:
 	map StriatonLab, TILESET_GATE, INDOOR, SIGN_BUILDING, STRIATON_CITY, MUSIC_STRIATON_CITY, 1, PALETTE_DAY
 	map StriatonGym, TILESET_GAME_CORNER, INDOOR, SIGN_BUILDING, STRIATON_CITY, MUSIC_GYM, 1, PALETTE_DAY
 	map Route2, TILESET_STRIATON, ROUTE, SIGN_ROUTE, ROUTE_2, MUSIC_ROUTE_3, 0, PALETTE_AUTO
+
+MapGroupAccumula:
+	map AccumulaTown, TILESET_UNOVA_EAST, TOWN, SIGN_WOOD, ACCUMULA_TOWN, MUSIC_ACCUMULA_TOWN, 0, PALETTE_AUTO
+	

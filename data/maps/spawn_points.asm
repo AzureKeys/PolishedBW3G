@@ -21,6 +21,7 @@ SpawnPoints:
 	spawn VIRBANK_CITY,               15, 10
 	spawn NACRENE_CITY,               13, 16
 	spawn STRIATON_CITY,              33, 18
+	spawn ACCUMULA_TOWN,              25, 12
 
 	spawn N_A,                        -1, -1
 

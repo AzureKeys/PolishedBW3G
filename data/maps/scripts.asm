@@ -243,4 +243,9 @@ INCLUDE "maps/Dreamyard.asm"
 INCLUDE "maps/DreamyardB1F.asm"
 
 
+SECTION "Accumula Scripts", ROMX
+
+INCLUDE "maps/AccumulaTown.asm"
+
+
 ENDSECTION

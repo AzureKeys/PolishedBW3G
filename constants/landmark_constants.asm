@@ -30,6 +30,7 @@
 	const STRIATON_CITY      ; 1d
 	const DREAMYARD          ; 1e
 	const ROUTE_2            ; 1f
+	const ACCUMULA_TOWN      ; 20
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28

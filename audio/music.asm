@@ -243,4 +243,7 @@ INCLUDE "audio/music/striatoncity.asm"
 SECTION "Song - unovatower", ROMX
 INCLUDE "audio/music/unovatower.asm"
 
+SECTION "Song - accumulatown", ROMX
+INCLUDE "audio/music/accumulatown.asm"
+
 ENDSECTION

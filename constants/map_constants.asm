@@ -214,4 +214,7 @@ ENDM
 	map_const STRIATON_GYM,                                7,  9 ;  7
 	map_const ROUTE_2,                                    23, 20 ;  8
 	
+	newgroup                                                     ; 15
+	map_const ACCUMULA_TOWN,                              15, 12 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

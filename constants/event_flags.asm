@@ -255,7 +255,10 @@
 ; Route 2
 	const EVENT_ROUTE_2_MAX_REVIVE
 	
-	 ; 217
+; Accumula Town
+	const EVENT_ACCUMULA_TOWN_MAX_REPEL
+	
+	 ; 218
 	const_next 500
 
 ; Phone events
@@ -907,11 +910,14 @@
 ; Route 2
 	const EVENT_ROUTE_2_BOULDER
 	
+; Accumula Town
+	const EVENT_ACCUMULA_TOWN_BLOCKERS
+	
 ; Driftveil City
 	const EVENT_DRIFTVEIL_CITY_BLOCKERS
 	
 ; Battle Tower
-	const EVENT_BATTLE_TOWER_BATTLE_ROOM_YOUNGSTER ; 1706
+	const EVENT_BATTLE_TOWER_BATTLE_ROOM_YOUNGSTER ; 1707
 	
 	const_next 2180
 
