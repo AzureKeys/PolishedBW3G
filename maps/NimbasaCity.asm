@@ -35,13 +35,13 @@ NimbasaCity_MapScriptHeader:
 	
 	def_object_events
 	object_event 16, 18, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NimbasaCityBugCatcherScript, -1
-	object_event 20, 24, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 4, 3, -1, PAL_NPC_GREEN_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityYoungsterText, -1
+	object_event 20, 24, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 4, 3, -1, PAL_NPC_DARK_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityYoungsterText, -1
 	object_event 25, 10, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityGrampsText, -1
 	object_event 31, 25, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_ORANGE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityTeacherText, -1
 	object_event 25, 24, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_PINK, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityLassText, -1
 	object_event 12, 24, SPRITE_RANGER_F, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityRangerFText, -1
-	object_event 16, 10, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityCooltrainerFText, -1
-	object_event 30, 19, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCitySchoolboyText, -1
+	object_event 16, 10, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCityCooltrainerFText, -1
+	object_event 30, 19, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 4, 1, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaCitySchoolboyText, -1
 	itemball_event 16, 15, RED_SHARD, 1, EVENT_NIMBASA_CITY_RED_SHARD
 	
 NimbasaFlyPoint:

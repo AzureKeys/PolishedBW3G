@@ -13,8 +13,8 @@ AspertiaPokecenter_MapScriptHeader:
 	
 	def_object_events
 	pc_nurse_event  4,  2
-	mart_clerk_event  8,  7, PAL_NPC_BLUE_D
-	object_event  8,  2, SPRITE_RANGER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaPokecenterRangerFText, -1
+	mart_clerk_event  8,  7, PAL_NPC_DARK_BLUE
+	object_event  8,  2, SPRITE_RANGER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaPokecenterRangerFText, -1
 	object_event  1,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaPokecenterTeacherText, -1
 	object_event  0,  4, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, PAL_NPC_TEAL, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaPokecenterCooltrainerFText, -1
 	

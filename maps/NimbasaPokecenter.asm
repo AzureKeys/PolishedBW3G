@@ -13,10 +13,10 @@ NimbasaPokecenter_MapScriptHeader:
 	
 	def_object_events
 	pc_nurse_event  4,  2
-	mart_clerk_event  8,  7, PAL_NPC_GREEN_D
+	mart_clerk_event  8,  7, PAL_NPC_DARK_GREEN
 	object_event  7,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaPokecenterGrampsText, -1
 	object_event  1,  7, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaPokecenterLassText, -1
-	pokemon_event  2,  7, TRUBBISH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, NimbasaPokecenterTrubbishText, -1
+	pokemon_event  2,  7, TRUBBISH, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, NimbasaPokecenterTrubbishText, -1
 	
 NimbasaPokecenterGrampsText:
 	text "Have you found"

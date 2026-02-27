@@ -165,7 +165,7 @@ ENDM
 	map_attributes AspertiaMomHouse, ASPERTIA_MOM_HOUSE, $0, 0
 	map_attributes FloccesyPokecenter, FLOCCESY_POKECENTER, $0, 0
 	map_attributes FloccesyTradeHouse, FLOCCESY_TRADE_HOUSE, $0, 0
-	map_attributes FloccesyPinkBowHouse, FLOCCESY_PINK_BOW_HOUSE, $0, 0
+	map_attributes FloccesyFairyFeatherHouse, FLOCCESY_FAIRY_FEATHER_HOUSE, $0, 0
 	map_attributes AldersHouse, ALDERS_HOUSE, $0, 0
 	map_attributes FloccesyRanchHouse, FLOCCESY_RANCH_HOUSE, $0, 0
 	map_attributes FloccesyRanchBarn, FLOCCESY_RANCH_BARN, $0, 0

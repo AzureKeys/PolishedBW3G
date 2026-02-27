@@ -21,7 +21,7 @@ CasteliaPlazaPrizeRoom_MapScriptHeader:
 	
 	def_object_events
 	object_event  1,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaPrizeRoomReceptionistScript1, -1
-	object_event  3,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaPrizeRoomReceptionistScript2, -1
+	object_event  3,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaPrizeRoomReceptionistScript2, -1
 	object_event  9,  4, SPRITE_RANGER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaPrizeRoomRangerFText, -1
 	
 CasteliaPlazaPrizeRoomReceptionistScript1:

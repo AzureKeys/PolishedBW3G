@@ -13,7 +13,7 @@ CasteliaPlazaRestaurant_MapScriptHeader:
 	
 	def_object_events
 	object_event 11, 10, SPRITE_SCIENTIST_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_AZURE, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaRestaurantAmanitaScript, -1
-	object_event  5,  9, SPRITE_BUENA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaRestaurantBeautyScript, -1
+	object_event  5,  9, SPRITE_BUENA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaRestaurantBeautyScript, -1
 	object_event  2,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaRestaurantReceptionistText, -1
 	object_event  2,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaRestaurantPokefanMText, -1
 	object_event  7,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaRestaurantOfficerText, -1

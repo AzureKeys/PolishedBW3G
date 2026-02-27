@@ -15,9 +15,9 @@ CasteliaPlazaLobby_MapScriptHeader:
 	bg_event  6,  0, BGEVENT_JUMPTEXT, CasteliaPlazaLobbyDirectoryText
 	
 	def_object_events
-	object_event  3,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaLobbyReceptionist1Text, -1
+	object_event  3,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaLobbyReceptionist1Text, -1
 	object_event  8,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaLobbyReceptionist1Text, -1
-	object_event  1,  5, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_GREEN_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaLobbyTeacherText, -1
+	object_event  1,  5, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_DARK_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaLobbyTeacherText, -1
 	object_event  9,  4, SPRITE_MUSICIAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaLobbyMusicianText, -1
 	
 CasteliaPlazaLobbyDirectoryText:

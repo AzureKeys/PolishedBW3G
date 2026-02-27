@@ -38,12 +38,12 @@ CasteliaPlazaGameCorner_MapScriptHeader:
 	bg_event 13,  0, BGEVENT_JUMPTEXT, CasteliaPlazaGameCornerSignText
 	
 	def_object_events
-	object_event  1,  2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumpstd, gamecornercoinvendor, -1
+	object_event  1,  2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumpstd, gamecornercoinvendor, -1
 	object_event  3,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPlazaGameCornerReceptionistText, -1
 	object_event 16,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << MORN) | (1 << DAY), PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaGameCornerTeacherScript, -1
 	object_event  4,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << DAY), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaGameCornerPokefanMScript, -1
 	object_event 13,  9, SPRITE_ROUGHNECK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaGameCornerRoughneckScript, -1
-	object_event  1,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << DAY) | (1 << NITE), PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaGameCornerFisherScript, -1
+	object_event  1,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << DAY) | (1 << NITE), PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, CasteliaPlazaGameCornerFisherScript, -1
 	
 CasteliaPlazaGameCornerSlotsMachineScript:
 	random 6

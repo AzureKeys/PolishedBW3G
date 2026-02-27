@@ -22,8 +22,8 @@ AspertiaCity_MapScriptHeader:
 	def_object_events
 	object_event  6, 24, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCityBlockerText, EVENT_ASPERTIA_CITY_BLOCKER
 	object_event  5,  5, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_UP, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AspertiaCityScopeGuyScript, -1
-	object_event 12, 40, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCityLassText, -1
-	object_event  6, 28, SPRITE_LADY, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_GREEN_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCityLadyText, -1
+	object_event 12, 40, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCityLassText, -1
+	object_event  6, 28, SPRITE_LADY, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_DARK_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCityLadyText, -1
 	object_event 17, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCityGrampsText, -1
 	object_event 22, 23, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AspertiaCitySchoolboyText, -1
 	tmhmball_event 22, 40, TM_DREAM_EATER, EVENT_ASPERTIA_CITY_TM_DREAM_EATER

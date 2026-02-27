@@ -12,8 +12,8 @@ NimbasaBallMart_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	mart_clerk_event  1,  3, SPRITEMOVEDATA_STANDING_RIGHT, PAL_NPC_BLUE_D, MARTTYPE_STANDARD, MART_NIMBASA_BALL
-	object_event  5,  2, SPRITE_RANGER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaBallMartRangerMText, -1
+	mart_clerk_event  1,  3, SPRITEMOVEDATA_STANDING_RIGHT, PAL_NPC_DARK_BLUE, MARTTYPE_STANDARD, MART_NIMBASA_BALL
+	object_event  5,  2, SPRITE_RANGER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaBallMartRangerMText, -1
 	object_event  6,  6, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NimbasaBallMartSchoolgirlText, -1
 	
 NimbasaBallMartRangerMText:

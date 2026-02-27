@@ -29,7 +29,7 @@ UndellaFishingGuruHouse_BlockData:
 AspertiaBlackbeltHouse_BlockData:
 AspertiaMoveDeleter_BlockData:
 FloccesyTradeHouse_BlockData:
-FloccesyPinkBowHouse_BlockData:
+FloccesyFairyFeatherHouse_BlockData:
 VirbankPoisonBarbHouse_BlockData:
 VirbankMuscleBandHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"

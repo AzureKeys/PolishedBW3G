@@ -68,9 +68,9 @@ VirbankCity_MapScriptHeader:
 	object_event 37, 26, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCitySailor1Text, -1
 	object_event 33, 25, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankCitySailor2Script, -1
 	object_event 14, 24, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityTeacherText, -1
-	object_event 25, 12, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityCooltrainerFText, -1
+	object_event 25, 12, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityCooltrainerFText, -1
 	object_event 28, 27, SPRITE_ROUGHNECK, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityRoughneckText, -1
-	object_event 34, 15, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityYoungsterText, -1
+	object_event 34, 15, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityYoungsterText, -1
 	object_event 15, 12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankCityPokefanMText, -1
 	itemball_event  4, 23, BLACK_SLUDGE, 1, EVENT_VIRBANK_CITY_BLACK_SLUDGE
 	itemball_event  4, 17, RARE_CANDY, 1, EVENT_VIRBANK_CITY_RARE_CANDY

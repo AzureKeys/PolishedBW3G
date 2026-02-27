@@ -14,9 +14,9 @@ LentimasAirport_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	object_event  5,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, LentimasAirportReceptionistScript, -1
+	object_event  5,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, LentimasAirportReceptionistScript, -1
 	object_event  2,  4, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, LentimasAirportLassText, -1
-	pokemon_event  1,  4, KROKOROK, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, LentimasAirportKrokorokText, -1
+	pokemon_event  1,  4, KROKOROK, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, LentimasAirportKrokorokText, -1
 	
 	object_const_def
 	const LENTIMASAIRPORT_RECEPTIONIST

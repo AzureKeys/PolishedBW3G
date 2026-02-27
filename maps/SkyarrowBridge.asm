@@ -14,9 +14,9 @@ SkyarrowBridge_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	object_event 12,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 2, 1, -1, PAL_NPC_PURPLE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, SkyarrowBridgeGentlemanText, -1
+	object_event 12,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 2, 1, -1, PAL_NPC_DARK_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, SkyarrowBridgeGentlemanText, -1
 	object_event 28,  4, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, SkyarrowBridgeLassText, -1
-	object_event 39,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 1, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, SkyarrowBridgeYoungsterText, -1
+	object_event 39,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 1, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, SkyarrowBridgeYoungsterText, -1
 	object_event 12,  6, SPRITE_BRIDGE_CABLE, SPRITEMOVEDATA_BRIDGE_RAIL_LEFT, 0, 0, -1, PAL_NPC_BRIDGE_CABLE, OBJECTTYPE_SCRIPT, 0, DoNothingScript, -1
 	object_event 22,  6, SPRITE_BRIDGE_CABLE, SPRITEMOVEDATA_BRIDGE_RAIL_LEFT, 0, 0, -1, PAL_NPC_BRIDGE_CABLE, OBJECTTYPE_SCRIPT, 0, DoNothingScript, -1
 	object_event 32,  6, SPRITE_BRIDGE_CABLE, SPRITEMOVEDATA_BRIDGE_RAIL_LEFT, 0, 0, -1, PAL_NPC_BRIDGE_CABLE, OBJECTTYPE_SCRIPT, 0, DoNothingScript, -1

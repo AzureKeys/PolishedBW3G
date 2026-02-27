@@ -12,8 +12,8 @@ NacreneMuseum_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	object_event  7,  8, SPRITE_LENORA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, NacreneMuseumLenoraScript, -1
-	object_event  8,  4, SPRITE_RANGER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneMuseumRangerMText, -1
+	object_event  7,  8, SPRITE_LENORA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, NacreneMuseumLenoraScript, -1
+	object_event  8,  4, SPRITE_RANGER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneMuseumRangerMText, -1
 	object_event  2,  2, SPRITE_TWIN, SPRITEMOVEDATA_WANDER, 1, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneMuseumTwinText, -1
 	object_event  1,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneMuseumScientistText, -1
 	

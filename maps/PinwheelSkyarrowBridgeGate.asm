@@ -19,7 +19,7 @@ PinwheelSkyarrowBridgeGate_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	object_event  4,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, PinwheelSkyarrowBridgeGateOfficerScript, -1
+	object_event  4,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_SCRIPT, 0, PinwheelSkyarrowBridgeGateOfficerScript, -1
 	
 	object_const_def
 	const PINWHEELSKYARROWBRIDGEGATE_OFFICER

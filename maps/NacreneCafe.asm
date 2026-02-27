@@ -13,7 +13,7 @@ NacreneCafe_MapScriptHeader:
 	
 	def_object_events
 	object_event  7,  3, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NacreneCafeClerkScript, -1
-	object_event  4,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCafePokefanFText, -1
+	object_event  4,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCafePokefanFText, -1
 	object_event  6,  6, SPRITE_MUSICIAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCafeMusicianText, -1
 	
 NacreneCafeClerkScript:

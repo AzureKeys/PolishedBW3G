@@ -12,7 +12,7 @@ NimbasaSootheBellHouse_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	object_event  2,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, NimbasaSootheBellHouseScript, -1
+	object_event  2,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, NimbasaSootheBellHouseScript, -1
 	
 NimbasaSootheBellHouseScript:
 	faceplayer

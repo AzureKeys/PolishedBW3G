@@ -15,7 +15,7 @@ FloccesyPokecenter_MapScriptHeader:
 	pc_nurse_event  4,  2
 	mart_clerk_event  8,  7, PAL_NPC_GREEN
 	object_event  1,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FloccesyPokecenterPokefanMText, -1
-	object_event  1,  7, SPRITE_RANGER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, FloccesyPokecenterRangerMText, -1
+	object_event  1,  7, SPRITE_RANGER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FloccesyPokecenterRangerMText, -1
 	object_event  9,  4, SPRITE_RANGER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FloccesyPokecenterRangerFText, -1
 	
 FloccesyPokecenterPokefanMText:

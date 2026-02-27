@@ -43,8 +43,8 @@ CasteliaCityStreets_MapScriptHeader:
 	object_event 31, 15, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, CasteliaCityStreetsConeVendorScript, -1
 	object_event 25, 12, SPRITE_SLEEPING_MAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CasteliaCityStreetsSleepingManScript, -1
 	object_event 11, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityStreetsYoungsterText, -1
-	object_event 30,  9, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityStreetsTeacherText, -1
-	object_event 34, 13, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_PURPLE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityStreetsSchoolgirlText, -1
+	object_event 30,  9, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityStreetsTeacherText, -1
+	object_event 34, 13, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityStreetsSchoolgirlText, -1
 	object_event 41,  8, SPRITE_MUSICIAN, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityStreetsMusicianText, -1
 	
 	object_const_def

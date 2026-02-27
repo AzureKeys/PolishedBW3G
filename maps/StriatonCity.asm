@@ -24,7 +24,7 @@ StriatonCity_MapScriptHeader:
 	def_object_events
 	object_event 10, 21, SPRITE_SOCIALITE, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, StriatonCitySocialiteText, -1
 	object_event 27, 25, SPRITE_RANGER_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, StriatonCityRangerMText, -1
-	object_event 37, 20, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, StriatonCityLassText, -1
+	object_event 37, 20, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, StriatonCityLassText, -1
 	object_event 24, 19, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, StriatonCityGentlemanText, -1
 	itemball_event  6, 29, X_SPEED, 1, EVENT_STRIATON_CITY_X_SPEED
 	itemball_event 44, 27, LOVE_BALL, 3, EVENT_STRIATON_CITY_LOVE_BALL

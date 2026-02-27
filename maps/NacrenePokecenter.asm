@@ -15,8 +15,8 @@ NacrenePokecenter_MapScriptHeader:
 	pc_nurse_event  4,  2
 	mart_clerk_event  8,  7, PAL_NPC_GREEN
 	object_event  1,  7, SPRITE_SOCIALITE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacrenePokecenterSocialiteText, -1
-	object_event  8,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacrenePokecenterBugCatcherText, -1
-	pokemon_event  9,  2, JIGGLYPUFF, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, NacrenePokecenterJigglypuffText, -1
+	object_event  8,  2, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacrenePokecenterBugCatcherText, -1
+	pokemon_event  9,  2, JIGGLYPUFF, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PINK, NacrenePokecenterJigglypuffText, -1
 	
 NacrenePokecenterSocialiteText:
 	text "The #mon with"

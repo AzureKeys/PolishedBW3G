@@ -16,7 +16,7 @@ LentimasPokecenter_MapScriptHeader:
 	mart_clerk_event  8,  7, PAL_NPC_GREEN
 	object_event  1,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, LentimasPokecenterGentlemanText, -1
 	object_event  1,  7, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LentimasPokecenterGrannyText, -1
-	object_event  8,  3, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, LentimasPokecenterCooltrainerMText, -1
+	object_event  8,  3, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, LentimasPokecenterCooltrainerMText, -1
 	
 LentimasPokecenterGentlemanText:
 	text "Have you found"

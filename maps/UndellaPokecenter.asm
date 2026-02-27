@@ -13,8 +13,8 @@ UndellaPokecenter_MapScriptHeader:
 	
 	def_object_events
 	pc_nurse_event  4,  2
-	mart_clerk_event  8,  7, PAL_NPC_BLUE_D
-	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, UndellaPokecenterGentlemanText, -1
+	mart_clerk_event  8,  7, PAL_NPC_DARK_BLUE
+	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, UndellaPokecenterGentlemanText, -1
 	object_event  1,  7, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, UndellaPokecenterGameboyKidText, -1
 	
 UndellaPokecenterGentlemanText:

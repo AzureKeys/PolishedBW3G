@@ -35,7 +35,7 @@ CasteliaCitySouth_MapScriptHeader:
 	object_event 52, 17, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCitySouthGentlemanText, -1
 	object_event 21, 14, SPRITE_WAITRESS, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCitySouthWaitressText, -1
 	object_event 14, 12, SPRITE_BEACH_GUY, SPRITEMOVEDATA_STANDING_DOWN, 3, 3, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCitySouthBeachGuyText, -1
-	pokemon_event 15, 12, RAICHU, ALOLAN_FORM, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_ORANGE, CasteliaCitySouthRaichuText, -1
+	pokemon_event 15, 12, RAICHU, ALOLAN_FORM, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_ORANGE, CasteliaCitySouthRaichuText, -1
 	itemball_event 23, 24, WATER_STONE, 1, EVENT_CASTELIA_CITY_SOUTH_WATER_STONE
 	keyitemball_event 14, 22, COIN_CASE, EVENT_CASTELIA_CITY_SOUTH_COIN_CASE
 	

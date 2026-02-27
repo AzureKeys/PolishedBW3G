@@ -18,7 +18,7 @@ Route22_MapScriptHeader:
 	def_object_events
 	object_event 39, 12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauNeighborTextScript, -1
 	object_event 23,  9, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 3, 3, -1, 0, OBJECTTYPE_SCRIPT, 0, Route22LassScript, -1
-	object_event 16,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 3, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, R22YoungsterText, -1
+	object_event 16,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 3, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, R22YoungsterText, -1
 	fruittree_event 11,  4, FRUITTREE_ROUTE_22, ORAN_BERRY, PAL_NPC_BLUE
 	itemball_event  6, 14, POTION, 1, EVENT_ROUTE_22_POTION
 	

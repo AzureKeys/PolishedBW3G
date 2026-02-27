@@ -31,11 +31,11 @@ CasteliaCityNorth_MapScriptHeader:
 	bg_event 10, 19, BGEVENT_ITEM + HEART_SCALE, EVENT_CASTELIA_CITY_NORTH_HEART_SCALE
 	
 	def_object_events
-	object_event 15, 16, SPRITE_LADY, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthLadyText, -1
+	object_event 15, 16, SPRITE_LADY, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthLadyText, -1
 	object_event 16, 24, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthYoungsterText, -1
 	object_event 22, 14, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthTeacherText, -1
-	object_event 12, 15, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthTwin1Text, -1
-	object_event 12, 16, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthTwin2Text, -1
+	object_event 12, 15, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthTwin1Text, -1
+	object_event 12, 16, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthTwin2Text, -1
 	object_event 22, 20, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaCityNorthLassText, -1
 	itemball_event 18, 19, TIMER_BALL, 3, EVENT_CASTELIA_CITY_NORTH_TIMER_BALL
 	

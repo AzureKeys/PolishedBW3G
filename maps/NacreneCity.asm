@@ -30,9 +30,9 @@ NacreneCity_MapScriptHeader:
 	bg_event 10,  3, BGEVENT_ITEM + PP_UP, EVENT_NACRENE_CITY_PP_UP
 	
 	def_object_events
-	object_event  6,  8, SPRITE_LENORA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, 0, EVENT_NACRENE_CITY_LENORA
+	object_event  6,  8, SPRITE_LENORA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, 0, EVENT_NACRENE_CITY_LENORA
 	object_event  2,  5, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WANDER, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCitySchoolgirlText, -1
-	object_event 16,  9, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCityGentlemanText, -1
+	object_event 16,  9, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCityGentlemanText, -1
 	object_event  5, 17, SPRITE_MUSICIAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NacreneCityMusicianText, -1
 	
 	object_const_def

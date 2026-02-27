@@ -34,7 +34,7 @@ StriatonGym_MapScriptHeader:
 	object_event  7, 15, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, StriatonGymGuyScript, -1
 	object_event 11,  4, SPRITE_WAITRESS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, TrainerWaitress3StriatonGym, -1
 	object_event 12,  6, SPRITE_WAITRESS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, StriatonGymBartender1Script, -1
-	object_event  2, 16, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptext, StriatonGymBartender2Text, -1
+	object_event  2, 16, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptext, StriatonGymBartender2Text, -1
 	
 	object_const_def
 	const STRIATONGYM_WAITER_1

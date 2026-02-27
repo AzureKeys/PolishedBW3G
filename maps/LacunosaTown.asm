@@ -16,12 +16,12 @@ LacunosaTown_MapScriptHeader:
 	bg_event 16,  3, BGEVENT_ITEM + ETHER, EVENT_LACUNOSA_TOWN_ETHER
 	
 	def_object_events
-	object_event  9,  3, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, LacunosaTownLass1Script, -1
+	object_event  9,  3, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, LacunosaTownLass1Script, -1
 	object_event  6, 16, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaTownLass2Text, -1
 	object_event 10, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaTownYoungster1Text, -1
 	object_event  5,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaTownYoungster2Text, -1
 	object_event 15, 17, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaTownPokefanFText, -1
-	object_event 16, 10, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaTownTeacherText, -1
+	object_event 16, 10, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, LacunosaTownTeacherText, -1
 	
 LacunosaFlyPoint:
 	setflag ENGINE_FLYPOINT_LACUNOSA

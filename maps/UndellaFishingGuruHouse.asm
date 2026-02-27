@@ -12,7 +12,7 @@ UndellaFishingGuruHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, UndellaFishingGuruScript, -1
+	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, UndellaFishingGuruScript, -1
 	
 UndellaFishingGuruScript:
 	checkevent EVENT_GOT_OLD_ROD

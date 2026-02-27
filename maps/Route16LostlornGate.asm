@@ -14,7 +14,7 @@ Route16LostlornGate_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, R16LostlornGateOfficerText, -1
+	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, R16LostlornGateOfficerText, -1
 	object_event  1,  3, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, R16LostlornGateNurseScript, -1
 	
 R16LostlornGateOfficerText:

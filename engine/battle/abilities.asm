@@ -654,6 +654,11 @@ RunHitAbilities:
 ; abilities that run on hitting the enemy with an offensive attack
 	call CheckContactMove
 	call nc, RunContactAbilities
+	call HasOpponentFainted
+	ld hl, EnemyHitAbilities
+	jr z, .got_enemy_abilities
+	ld hl, EnemyHitAbilitiesNonfainted
+.got_enemy_abilities
 	; Store type and category (phy/spe/sta) so that abilities can check on them
 	ld a, BATTLE_VARS_MOVE_CATEGORY
 	call GetBattleVar
@@ -661,38 +666,26 @@ RunHitAbilities:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
 	ld c, a
-	push bc
 	call GetOpponentIgnorableAbility
-	push af
 	call SwitchTurn
-	pop af
-	pop bc
-	call .do_enemy_abilities
+	call AbilityJumptable
 	jmp SwitchTurn
 
-.do_enemy_abilities
-	cp CURSED_BODY
-	jr z, CursedBodyAbility
-	push bc
-	push af
-	call HasUserFainted
-	pop bc
-	ld a, b
-	pop bc
-	ret z
-	cp JUSTIFIED
-	jmp z, JustifiedAbility
-	cp RATTLED
-	jmp z, RattledAbility
-	cp WEAK_ARMOR
-	jmp z, WeakArmorAbility
-	ret
+EnemyHitAbilitiesNonfainted:
+	dbw JUSTIFIED, JustifiedAbility
+	dbw RATTLED, RattledAbility
+	dbw WEAK_ARMOR, WeakArmorAbility
+EnemyHitAbilities:
+	dbw CURSED_BODY, CursedBodyAbility
+	dbw -1, -1
 
 CursedBodyAbility:
 	call SwitchTurn
 	farcall GetFutureSightUser
 	call SwitchTurn
 	ret nc
+	farcall CheckSubHit
+	ret nz
 	ld a, 10
 	call BattleRandomRange
 	cp 3

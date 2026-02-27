@@ -13,11 +13,11 @@ CasteliaPokecenter_MapScriptHeader:
 	
 	def_object_events
 	pc_nurse_event  4,  2
-	mart_clerk_event  8,  7, PAL_NPC_BLUE_D
-	object_event  1,  3, SPRITE_RANGER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, PAL_NPC_PURPLE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPokecenterRangerMText, -1
+	mart_clerk_event  8,  7, PAL_NPC_DARK_BLUE
+	object_event  1,  3, SPRITE_RANGER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, PAL_NPC_DARK_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPokecenterRangerMText, -1
 	object_event  1,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPokecenterPokefanMText, -1
-	object_event  8,  4, SPRITE_LADY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, PAL_NPC_RED_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPokecenterLadyText, -1
-	pokemon_event  9,  4, AUDINO, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, CasteliaPokecenterAudinoText, -1
+	object_event  8,  4, SPRITE_LADY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 1, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaPokecenterLadyText, -1
+	pokemon_event  9,  4, AUDINO, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PINK, CasteliaPokecenterAudinoText, -1
 	
 CasteliaPokecenterRangerMText:
 	text "The Battle Company"

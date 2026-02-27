@@ -19,7 +19,7 @@ CasteliaSkyarrowBridgeGate_MapScriptHeader:
 	
 	def_object_events
 	object_event  6,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaSkyarrowBridgeGateOfficerText, -1
-	object_event  0,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE_D, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaSkyarrowBridgeGateOfficerText, -1
+	object_event  0,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CasteliaSkyarrowBridgeGateOfficerText, -1
 	
 CasteliaSkyarrowBridgeGateStopScript:
 	turnobject PLAYER, UP

@@ -51,13 +51,13 @@ VirbankGameCorner_MapScriptHeader:
 	def_object_events
 	object_event  3,  2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumpstd, gamecornercoinvendor, -1
 	object_event 16,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerReceptionistScript1, -1
-	object_event 18,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerReceptionistScript2, -1
+	object_event 18,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DARK_RED, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerReceptionistScript2, -1
 	object_event  5, 10, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << MORN) | (1 << DAY), PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerPharmacistScript, -1
 	object_event 17,  6, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerPharmacistScript, -1
 	object_event  8,  8, SPRITE_MUSICIAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << DAY) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerMusicianScript, -1
 	object_event 11,  8, SPRITE_ROUGHNECK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerRoughneckScript, -1
-	object_event 14, 11, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << MORN) | (1 << DAY) | (1 << EVE), PAL_NPC_PURPLE_D, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerPokefanFScript, -1
-	object_event 17,  9, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << MORN) | (1 << DAY), PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerGentlemanScript, -1
+	object_event 14, 11, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << MORN) | (1 << DAY) | (1 << EVE), PAL_NPC_DARK_PURPLE, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerPokefanFScript, -1
+	object_event 17,  9, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, (1 << MORN) | (1 << DAY), PAL_NPC_DARK_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankGameCornerGentlemanScript, -1
 	object_event 10,  3, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankGameCornerCooltrainerFText, -1
 	object_event  2,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VirbankGameCornerPokefanMText, -1
 	

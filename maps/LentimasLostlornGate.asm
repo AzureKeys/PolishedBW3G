@@ -16,7 +16,7 @@ LentimasLostlornGate_MapScriptHeader:
 	def_object_events
 	object_event  9,  4, SPRITE_SOCIALITE, SPRITEMOVEDATA_STANDING_LEFT, 0, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateSocialiteScript, -1
 	object_event  3,  9, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LentimasLostlornGateLassText, -1
-	pokemon_event  9,  5, YANMA, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_RED, LentimasLostlornGateYanmaText, -1
+	pokemon_event  9,  5, YANMA, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_RED, LentimasLostlornGateYanmaText, -1
 
 LentimasLostlornGateSocialiteScript:
 	faceplayer
