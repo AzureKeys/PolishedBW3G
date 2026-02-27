@@ -18,6 +18,7 @@ FloccesyPokecenter_BlockData:
 VirbankPokecenter_BlockData:
 NacrenePokecenter_BlockData:
 StriatonPokecenter_BlockData:
+AccumulaPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -32,6 +33,7 @@ FloccesyTradeHouse_BlockData:
 FloccesyFairyFeatherHouse_BlockData:
 VirbankPoisonBarbHouse_BlockData:
 VirbankMuscleBandHouse_BlockData:
+AccumulaStonesHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -47,6 +49,8 @@ SECTION "ApartmentHouse_Blockdata", ROMX
 NimbasaSootheBellHouse_BlockData:
 NimbasaNameRater_BlockData:
 StriatonTradeHouse_BlockData:
+AccumulaTradeHouse_BlockData:
+AccumulaBallManiacHouse_BlockData:
 	INCBIN "maps/House3.ablk.lzp"
 
 SECTION "EastWestGate_BlockData", ROMX
@@ -57,6 +61,7 @@ Route5NimbasaGate_BlockData:
 Route5DrawbridgeGate_BlockData:
 Route20VirbankGate_BlockData:
 Route3NacreneGate_BlockData:
+Route2AccumulaGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX

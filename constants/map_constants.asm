@@ -213,8 +213,13 @@ ENDM
 	map_const STRIATON_LAB,                                4,  4 ;  6
 	map_const STRIATON_GYM,                                7,  9 ;  7
 	map_const ROUTE_2,                                    23, 20 ;  8
+	map_const ROUTE_2_ACCUMULA_GATE,                       5,  4 ;  9
 	
 	newgroup                                                     ; 15
 	map_const ACCUMULA_TOWN,                              15, 12 ;  1
+	map_const ACCUMULA_POKECENTER,                         5,  5 ;  2
+	map_const ACCUMULA_STONES_HOUSE,                       4,  4 ;  3
+	map_const ACCUMULA_TRADE_HOUSE,                        4,  4 ;  4
+	map_const ACCUMULA_BALL_MANIAC_HOUSE,                  4,  4 ;  5
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

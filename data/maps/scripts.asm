@@ -245,7 +245,12 @@ INCLUDE "maps/DreamyardB1F.asm"
 
 SECTION "Accumula Scripts", ROMX
 
+INCLUDE "maps/Route2AccumulaGate.asm"
 INCLUDE "maps/AccumulaTown.asm"
+INCLUDE "maps/AccumulaPokecenter.asm"
+INCLUDE "maps/AccumulaStonesHouse.asm"
+INCLUDE "maps/AccumulaTradeHouse.asm"
+INCLUDE "maps/AccumulaBallManiacHouse.asm"
 
 
 ENDSECTION

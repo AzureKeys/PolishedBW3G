@@ -185,6 +185,10 @@ ENDM
 	map_attributes StriatonPokecenter, STRIATON_POKECENTER, $0, 0
 	map_attributes StriatonTradeHouse, STRIATON_TRADE_HOUSE, $0, 0
 	map_attributes StriatonLab, STRIATON_LAB, $0, 0
+	map_attributes AccumulaPokecenter, ACCUMULA_POKECENTER, $0, 0
+	map_attributes AccumulaStonesHouse, ACCUMULA_STONES_HOUSE, $0, 0
+	map_attributes AccumulaTradeHouse, ACCUMULA_TRADE_HOUSE, $0, 0
+	map_attributes AccumulaBallManiacHouse, ACCUMULA_BALL_MANIAC_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -201,6 +205,7 @@ ENDM
 	map_attributes Route19AspertiaGate, ROUTE_19_ASPERTIA_GATE, $0, 0
 	map_attributes Route20VirbankGate, ROUTE_20_VIRBANK_GATE, $0, 0
 	map_attributes Route3NacreneGate, ROUTE_3_NACRENE_GATE, $0, 0
+	map_attributes Route2AccumulaGate, ROUTE_2_ACCUMULA_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

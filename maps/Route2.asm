@@ -7,6 +7,8 @@ Route2_MapScriptHeader:
 
 	def_warp_events
 	warp_event  7, 34, ROUTE_2, 1 ; hole
+	warp_event 11, 30, ROUTE_2_ACCUMULA_GATE, 1
+	warp_event 11, 31, ROUTE_2_ACCUMULA_GATE, 2
 	warp_event  5, 19, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

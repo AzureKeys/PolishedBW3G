@@ -5,6 +5,12 @@ AccumulaTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, AccumulaFlyPoint
 
 	def_warp_events
+	warp_event  4,  6, ROUTE_2_ACCUMULA_GATE, 3
+	warp_event  4,  7, ROUTE_2_ACCUMULA_GATE, 4
+	warp_event 25, 11, ACCUMULA_POKECENTER, 1
+	warp_event 23,  4, ACCUMULA_STONES_HOUSE, 1
+	warp_event 11,  5, ACCUMULA_TRADE_HOUSE, 1
+	warp_event  5, 15, ACCUMULA_BALL_MANIAC_HOUSE, 1
 
 	def_coord_events
 
