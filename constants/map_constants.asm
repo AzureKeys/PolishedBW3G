@@ -221,5 +221,6 @@ ENDM
 	map_const ACCUMULA_STONES_HOUSE,                       4,  4 ;  3
 	map_const ACCUMULA_TRADE_HOUSE,                        4,  4 ;  4
 	map_const ACCUMULA_BALL_MANIAC_HOUSE,                  4,  4 ;  5
+	map_const ROUTE_1,                                    19, 22 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

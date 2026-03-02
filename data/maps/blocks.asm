@@ -519,4 +519,8 @@ SECTION "AccumulaTown_BlockData", ROMX
 AccumulaTown_BlockData:
 	INCBIN "maps/AccumulaTown.ablk.lzp"
 
+SECTION "Route1_BlockData", ROMX
+Route1_BlockData:
+	INCBIN "maps/Route1.ablk.lzp"
+
 ENDSECTION

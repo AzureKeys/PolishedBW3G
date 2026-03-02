@@ -72,7 +72,11 @@ ENDM
 	map_attributes Route2, ROUTE_2, $25, NORTH
 	connection north, StriatonCity, STRIATON_CITY, -5
 	
-	map_attributes AccumulaTown, ACCUMULA_TOWN, $0, 0
+	map_attributes AccumulaTown, ACCUMULA_TOWN, $0, SOUTH
+	connection south, Route1, ROUTE_1, -6
+	
+	map_attributes Route1, ROUTE_1, $35, NORTH
+	connection north, AccumulaTown, ACCUMULA_TOWN, 6
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0
