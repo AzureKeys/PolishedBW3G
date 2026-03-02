@@ -93,6 +93,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_NACRENE
 	engine_flag wVisitedSpawns, SPAWN_STRIATON
 	engine_flag wVisitedSpawns, SPAWN_ACCUMULA
+	engine_flag wVisitedSpawns, SPAWN_NUVEMA
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

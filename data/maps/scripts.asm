@@ -254,4 +254,9 @@ INCLUDE "maps/AccumulaTradeHouse.asm"
 INCLUDE "maps/AccumulaBallManiacHouse.asm"
 
 
+SECTION "Nuvema Scripts", ROMX
+
+INCLUDE "maps/NuvemaTown.asm"
+
+
 ENDSECTION

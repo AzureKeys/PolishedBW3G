@@ -523,4 +523,8 @@ SECTION "Route1_BlockData", ROMX
 Route1_BlockData:
 	INCBIN "maps/Route1.ablk.lzp"
 
+SECTION "NuvemaTown_BlockData", ROMX
+NuvemaTown_BlockData:
+	INCBIN "maps/NuvemaTown.ablk.lzp"
+
 ENDSECTION
