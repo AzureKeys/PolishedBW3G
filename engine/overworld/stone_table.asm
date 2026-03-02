@@ -23,19 +23,24 @@ HandleStoneTable::
 	cp SPRITEMOVEDATA_STRENGTH_BOULDER
 	jr nz, .next
 
-	ld hl, OBJECT_TILE_COLLISION
-	add hl, de
-	ld a, [hl]
-	cp COLL_HOLE
-	jr z, .pit
-	cp COLL_FAN_HOLE
-	jr nz, .next
-.pit
 	ld hl, OBJECT_WALKING
 	add hl, de
 	ld a, [hl]
 	cp STANDING
 	jr nz, .next
+
+	ld hl, OBJECT_TILE_COLLISION
+	add hl, de
+	ld a, [hl]
+	cp COLL_FAN_HOLE
+	jr z, .action
+	sub COLL_HOLE
+	jr z, .action
+	assert COLL_HOLE + 1 == COLL_STONE_WARP
+	dec a ; cp COLL_STONE_WARP
+	jr nz, .next
+
+.action
 	call HandleStoneTableAction
 	jr c, .fall_down_hole
 

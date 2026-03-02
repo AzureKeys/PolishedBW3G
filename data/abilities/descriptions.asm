@@ -106,6 +106,7 @@ AbilityDescriptions:
 	dw HoneyGatherDescription
 	dw FriskDescription
 	dw RecklessDescription
+	dw BadDreamsDescription
 	dw PickpocketDescription
 	dw SheerForceDescription
 	dw ContraryDescription
@@ -683,6 +684,11 @@ FriskDescription:
 RecklessDescription:
 	text "Powers up moves"
 	next "that recoil."
+	done
+
+BadDreamsDescription:
+	text "Reduces a sleeping"
+	next "foe's HP."
 	done
 
 PickpocketDescription:

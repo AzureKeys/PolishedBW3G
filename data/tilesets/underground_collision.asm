@@ -104,3 +104,4 @@
 	tilecoll WALL, ELEVATOR_BUTTON, FLOOR, FLOOR ; 67
 	tilecoll DOOR, WALL, FLOOR, FLOOR ; 68
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 69
+	
