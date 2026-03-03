@@ -12,16 +12,21 @@ BattleCommand_lowkick:
 	add hl, de
 	ld b, [hl]
 	farcall GetSpeciesWeight
+	call GetOpponentIgnorableAbility
+	cp HEAVY_METAL
+	jr z, .heavy_metal
+	cp LIGHT_METAL
+	jr nz, .got_weight
+	srl h
+	rr l
+	jr .got_weight
+
+.heavy_metal
+	add hl, hl
+
+.got_weight
 	ld d, h
 	ld e, l
-
-	call GetOpponentIgnorableAbility
-	cp LIGHT_METAL
-	jr nz, .not_light_metal
-	srl d
-	rr e
-
-.not_light_metal
 	ld hl, LowKickPowerByWeight
 .loop2
 	ld a, [hli]

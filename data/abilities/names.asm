@@ -115,6 +115,7 @@ AbilityNames:
 	dw Defiant
 	dw CursedBody
 	dw WeakArmor
+	dw HeavyMetal
 	dw LightMetal
 	dw Multiscale
 	dw Harvest
@@ -283,6 +284,7 @@ Unnerve:         rawchar "Unnerve@"
 Defiant:         rawchar "Defiant@"
 CursedBody:      rawchar "Cursed Body@"
 WeakArmor:       rawchar "Weak Armor@"
+HeavyMetal:      rawchar "Heavy Metal@"
 LightMetal:      rawchar "Light Metal@"
 Multiscale:      rawchar "Multiscale@"
 Harvest:         rawchar "Harvest@"

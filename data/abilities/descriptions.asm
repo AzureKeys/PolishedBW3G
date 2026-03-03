@@ -115,6 +115,7 @@ AbilityDescriptions:
 	dw DefiantDescription
 	dw CursedBodyDescription
 	dw WeakArmorDescription
+	dw HeavyMetalDescription
 	dw LightMetalDescription
 	dw MultiscaleDescription
 	dw HarvestDescription
@@ -732,6 +733,11 @@ CursedBodyDescription:
 WeakArmorDescription:
 	text "Physical attacks"
 	next "trade Def for Spe."
+	done
+
+HeavyMetalDescription:
+	text "Doubles the Poké-"
+	next "mon's weight."
 	done
 
 LightMetalDescription:

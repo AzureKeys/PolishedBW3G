@@ -131,6 +131,7 @@ AbilityFlags:
 	abilflag DEFIANT
 	abilflag CURSED_BODY
 	abilflag WEAK_ARMOR
+	abilflag HEAVY_METAL, IGNORABLE
 	abilflag LIGHT_METAL, IGNORABLE
 	abilflag MULTISCALE, IGNORABLE
 	abilflag HARVEST
