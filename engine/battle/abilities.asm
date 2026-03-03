@@ -713,7 +713,42 @@ TargetContactAbilities:
 	dbw CUTE_CHARM, CuteCharmAbility
 	dbw TANGLING_HAIR, TanglingHairAbility
 	dbw PERISH_BODY, PerishBodyAbility
+	dbw MUMMY, MummyAbility
+	dbw WANDERING_SPIRIT, WanderingSpiritAbility
 	dbw -1, -1
+
+WanderingSpiritAbility:
+	call BeginAbility
+	farcall TrySkillSwap
+
+	; May do nothing, but just in case the swap failed.
+	jmp EndAbility
+
+MummyAbility:
+	ld a, b
+	push af
+	farcall BufferAbility
+	call GetOpponentIgnorableAbility
+	call AbilityCanBeSuppressed
+	jr nz, .done
+	call BeginAbility
+	call ShowAbilityActivation
+	call ShowEnemyAbilityActivation
+	pop af
+	push af
+	call ShowEnemyAbilityReplacement
+	ld hl, BecameMummyText
+	call StdBattleTextbox
+	call EndAbility
+
+	ld a, BATTLE_VARS_ABILITY_OPP
+	call GetBattleVarAddr
+	pop af
+	ld [hl], a
+	ret
+.done
+	pop af
+	ret
 
 CuteCharmAbility:
 	call HasUserFainted

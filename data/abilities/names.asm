@@ -127,6 +127,7 @@ AbilityNames:
 	dw Analytic
 	dw Imposter
 	dw Infiltrator
+	dw Mummy
 	dw Moxie
 	dw Justified
 	dw Rattled
@@ -153,6 +154,7 @@ AbilityNames:
 	dw ScreenCleaner
 	dw SteelySpirit
 	dw PerishBody
+	dw WanderingSpirit
 	dw GorillaTactics
 	dw NeutralizingGas
 	dw PastelVeil
@@ -292,6 +294,7 @@ WonderSkin:      rawchar "Wonder Skin@"
 Analytic:        rawchar "Analytic@"
 Imposter:        rawchar "Imposter@"
 Infiltrator:     rawchar "Infiltrator@"
+Mummy:           rawchar "Mummy@"
 Moxie:           rawchar "Moxie@"
 Justified:       rawchar "Justified@"
 Rattled:         rawchar "Rattled@"
@@ -318,6 +321,7 @@ TanglingHair:    rawchar "Tangling Hair@"
 ScreenCleaner:   rawchar "Screen Cleaner@"
 SteelySpirit:    rawchar "Steely Spirit@"
 PerishBody:      rawchar "Perish Body@"
+WanderingSpirit: rawchar "Wandering Spirit@"
 GorillaTactics:  rawchar "Gorilla Tactics@"
 NeutralizingGas: rawchar "Neutralizing Gas@"
 PastelVeil:      rawchar "Pastel Veil@"

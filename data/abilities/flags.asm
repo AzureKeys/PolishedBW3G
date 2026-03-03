@@ -143,6 +143,7 @@ AbilityFlags:
 	abilflag ANALYTIC
 	abilflag IMPOSTER, NO_COPY, NO_TRACE ; can swap, but won't trigger
 	abilflag INFILTRATOR
+	abilflag MUMMY
 	abilflag MOXIE
 	abilflag JUSTIFIED
 	abilflag RATTLED
@@ -169,6 +170,7 @@ AbilityFlags:
 	abilflag SCREEN_CLEANER
 	abilflag STEELY_SPIRIT
 	abilflag PERISH_BODY
+	abilflag WANDERING_SPIRIT
 	abilflag GORILLA_TACTICS
 	abilflag NEUTRALIZING_GAS, NO_COPY, NO_TRACE, NO_SWAP, NO_TRANSFORM
 	abilflag PASTEL_VEIL, IGNORABLE

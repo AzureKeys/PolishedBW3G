@@ -127,6 +127,7 @@ AbilityDescriptions:
 	dw AnalyticDescription
 	dw ImposterDescription
 	dw InfiltratorDescription
+	dw MummyDescription
 	dw MoxieDescription
 	dw JustifiedDescription
 	dw RattledDescription
@@ -153,6 +154,7 @@ AbilityDescriptions:
 	dw ScreenCleanerDescription
 	dw SteelySpiritDescription
 	dw PerishBodyDescription
+	dw WanderingSpiritDescription
 	dw GorillaTacticsDescription
 	dw NeutralizingGasDescription
 	dw PastelVeilDescription
@@ -791,6 +793,11 @@ InfiltratorDescription:
 	next "foe's barriers."
 	done
 
+MummyDescription:
+	text "Contact spreads"
+	next "this Ability."
+	done
+
 MoxieDescription:
 	text "Boosts Attack when"
 	next "knocking out foes."
@@ -894,6 +901,11 @@ FluffyDescription:
 TanglingHairDescription:
 	text "Contact may lower"
 	next "the foe's Speed."
+	done
+
+WanderingSpiritDescription:
+	text "Swaps Abilities"
+	next "on contact."
 	done
 
 GorillaTacticsDescription:

@@ -6261,6 +6261,9 @@ BattleSideCopy:
 	ret
 
 BattleEffect_ButItFailed:
+	ld a, [wInAbility]
+	and a
+	ret nz
 	call AnimateFailedMove
 	jr PrintButItFailed
 
