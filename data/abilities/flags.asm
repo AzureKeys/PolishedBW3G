@@ -105,6 +105,7 @@ AbilityFlags:
 	abilflag SNIPER
 	abilflag MAGIC_GUARD
 	abilflag NO_GUARD
+	abilflag STALL
 	abilflag TECHNICIAN
 	abilflag LEAF_GUARD, IGNORABLE
 	abilflag MOLD_BREAKER

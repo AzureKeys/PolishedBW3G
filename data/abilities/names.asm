@@ -89,6 +89,7 @@ AbilityNames:
 	dw Sniper
 	dw MagicGuard
 	dw NoGuard
+	dw Stall
 	dw Technician
 	dw LeafGuard
 	dw MoldBreaker
@@ -256,6 +257,7 @@ QuickFeet:       rawchar "Quick Feet@"
 Sniper:          rawchar "Sniper@"
 MagicGuard:      rawchar "Magic Guard@"
 NoGuard:         rawchar "No Guard@"
+Stall:           rawchar "Stall@"
 Technician:      rawchar "Technician@"
 LeafGuard:       rawchar "Leaf Guard@"
 MoldBreaker:     rawchar "Mold Breaker@"

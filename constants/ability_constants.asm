@@ -92,6 +92,7 @@
 	const SNIPER
 	const MAGIC_GUARD
 	const NO_GUARD
+	const STALL
 	const TECHNICIAN
 	const LEAF_GUARD
 	const MOLD_BREAKER

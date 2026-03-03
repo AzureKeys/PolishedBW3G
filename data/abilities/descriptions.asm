@@ -89,6 +89,7 @@ AbilityDescriptions:
 	dw SniperDescription
 	dw MagicGuardDescription
 	dw NoGuardDescription
+	dw StallDescription
 	dw TechnicianDescription
 	dw LeafGuardDescription
 	dw MoldBreakerDescription
@@ -599,6 +600,11 @@ MagicGuardDescription:
 NoGuardDescription:
 	text "Ensures attacks by"
 	next "or against it hit."
+	done
+
+StallDescription:
+	text "The #mon moves"
+	next "after others."
 	done
 
 TechnicianDescription:
