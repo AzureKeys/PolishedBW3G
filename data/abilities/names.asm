@@ -118,6 +118,7 @@ AbilityNames:
 	dw HeavyMetal
 	dw LightMetal
 	dw Multiscale
+	dw ToxicBoost
 	dw Harvest
 	dw Moody
 	dw Overcoat
@@ -287,6 +288,7 @@ WeakArmor:       rawchar "Weak Armor@"
 HeavyMetal:      rawchar "Heavy Metal@"
 LightMetal:      rawchar "Light Metal@"
 Multiscale:      rawchar "Multiscale@"
+ToxicBoost:      rawchar "Toxic Boost@"
 Harvest:         rawchar "Harvest@"
 Moody:           rawchar "Moody@"
 Overcoat:        rawchar "Overcoat@"

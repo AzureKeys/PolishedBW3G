@@ -1836,6 +1836,7 @@ OffensiveDamageAbilities:
 	dbw SAND_FORCE, SandForceAbility
 	dbw RECKLESS, RecklessAbility
 	dbw GUTS, GutsAbility
+	dbw TOXIC_BOOST, ToxicBoostAbility
 	dbw PIXILATE, PixilateAbility
 	dbw GALVANIZE, GalvanizeAbility
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
@@ -2048,8 +2049,14 @@ RecklessAbility:
 	ln a, 6, 5 ; x1.2
 	jmp MultiplyAndDivide
 
+ToxicBoostAbility:
+; 150% physical attack if user is poisoned
+	ld b, 1 << PSN
 GutsAbility:
 ; 150% physical attack if user is statused
+	ld b, -1
+	; fallthrough
+StatusPowerAbilities:
 	farcall GetFutureSightUser
 	jr z, .not_external
 	ld a, MON_STATUS
@@ -2059,7 +2066,7 @@ GutsAbility:
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
 .got_status
-	and a
+	and b
 	ret z
 	ln a, 3, 2 ; x1.5
 	jmp ApplyPhysicalAttackDamageMod

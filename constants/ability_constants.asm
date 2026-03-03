@@ -121,6 +121,7 @@
 	const HEAVY_METAL
 	const LIGHT_METAL
 	const MULTISCALE
+	const TOXIC_BOOST
 	const HARVEST
 	const MOODY
 	const OVERCOAT

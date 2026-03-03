@@ -118,6 +118,7 @@ AbilityDescriptions:
 	dw HeavyMetalDescription
 	dw LightMetalDescription
 	dw MultiscaleDescription
+	dw ToxicBoostDescription
 	dw HarvestDescription
 	dw MoodyDescription
 	dw OvercoatDescription
@@ -748,6 +749,11 @@ LightMetalDescription:
 MultiscaleDescription:
 	text "Reduces damage"
 	next "when HP is full."
+	done
+
+ToxicBoostDescription:
+	text "Boosts Attack when"
+	next "poisoned."
 	done
 
 HarvestDescription:

@@ -134,6 +134,7 @@ AbilityFlags:
 	abilflag HEAVY_METAL, IGNORABLE
 	abilflag LIGHT_METAL, IGNORABLE
 	abilflag MULTISCALE, IGNORABLE
+	abilflag TOXIC_BOOST
 	abilflag HARVEST
 	abilflag MOODY
 	abilflag OVERCOAT, IGNORABLE
