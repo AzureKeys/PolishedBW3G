@@ -9,8 +9,10 @@ RunEntryAbilitiesInner_SkillSwap:
 ; Runs on Skill Swap or pending Neutralizing Gas deactivation.
 	; Some abilities do nothing in this case.
 	call GetTrueUserAbility
-	farcall NoSkillSwapEntry
-	ret c
+	cp IMPOSTER
+	ret z
+	cp CLOUD_NINE
+	ret z
 	; fallthrough
 _RunEntryAbilitiesInner:
 	; Chain-triggering causes graphical glitches, so ensure animations
@@ -171,11 +173,9 @@ ObliviousAbility:
 
 TraceAbility:
 	call GetOpponentIgnorableAbility
-	farcall AbilityCanBeTraced
-	ret c
-
+	call AbilityCanBeTraced
+	ret nz
 	push af
-	ld b, a
 	farcall BufferAbility
 
 	call BeginAbility
@@ -248,16 +248,14 @@ WeatherAbility:
 IntimidateAbility:
 	; does not work against Inner Focus, Own Tempo, Oblivious, Scrappy
 	call GetOpponentIgnorableAbility
+	ld b, a
 	inc a
 	jr z, .intimidate_ok
 	dec a
-	ld b, a
-	push af
+	call GetAbilityFlags
+	and ABILFLAG_NO_INTIMIDATE
+	jr z, .intimidate_ok
 	farcall BufferAbility
-	pop af
-	ld hl, NoIntimidateAbilities
-	call IsInByteArray
-	jr nc, .intimidate_ok
 	call BeginAbility
 	call ShowAbilityActivation
 	call ShowEnemyAbilityActivation
@@ -285,8 +283,6 @@ IntimidateAbility:
 	call EndAbility
 	farcall CheckMirrorHerb
 	farjp CheckStatHerbsAfterIntimidate
-
-INCLUDE "data/abilities/no_intimidate_abilities.asm"
 
 DownloadAbility:
 ; Increase Atk if enemy Def is lower than SpDef, otherwise SpAtk
@@ -2176,6 +2172,53 @@ RegeneratorAbility:
 	jmp z, UpdateBattleMonInParty
 	jmp UpdateEnemyMonInParty
 
+_GetOpponentAbility:
+	ld a, BATTLE_VARS_ABILITY_OPP
+	call GetBattleVar
+	push bc
+	push af
+	ld b, a
+
+	; If we're transformed, verify that it's allowed when transformed.
+	ld a, BATTLE_VARS_SUBSTATUS2_OPP
+	call GetBattleVar
+	bit SUBSTATUS_TRANSFORMED, a
+	jr z, .not_transformed
+	ld a, b
+	call _GetAbilityFlags
+	and ABILFLAG_NO_TRANSFORM
+	jr nz, .remove_ability
+
+.not_transformed
+	; Unless the ability is Neutralizing Gas, check if it's suppressed by it.
+	ld a, b
+	ld c, NEUTRALIZING_GAS
+	cp c
+	jr z, .not_suppressed
+
+	ld a, BATTLE_VARS_ABILITY
+	call GetBattleVar
+	cp c
+	jr nz, .not_suppressed
+
+	; We know that the user has either Neutralizing Gas, or nothing.
+	; Thus, this doesn't cause an infinite loop. The reason this check
+	; exists at all is to verify that the Neutralizing Gas is active.
+	call GetUserAbility
+	cp c
+	jr nz, .not_suppressed
+
+	ld a, b
+	call AbilityCanBeSuppressed
+	jr nz, .not_suppressed
+.remove_ability
+	ld b, 0
+.not_suppressed
+	ld a, b
+	pop af
+	pop bc
+	ret
+
 _GetOpponentIgnorableAbility::
 	call GetOpponentAbility
 	jr _GetIgnorableAbility
@@ -2195,24 +2238,33 @@ _GetIgnorableAbility:
 	swap a
 .got_movestate
 	and MOVESTATE_IGNOREABIL
-	jr nz, .done
+	jr z, .done
 
-	push hl
-	push bc
-	ld hl, MoldBreakerSuppressedAbilities
-	call IsInByteArray
-	pop bc
-	pop hl
-	; a = carry ? NO_ABILITY (0) : b
-	ccf
-	sbc a
-	and b
+	ld a, b
+	call _GetAbilityFlags
+	and ABILFLAG_IGNORABLE
+	jr z, .done
+	ld b, 0
 .done
+	ld a, b
 	pop bc
 	pop de
 	ret
 
-INCLUDE "data/abilities/mold_breaker_suppressed_abilities.asm"
+_GetAbilityFlags:
+; return flags for ability in a.
+	push hl
+	ld hl, AbilityFlags
+	add l
+	ld l, a
+	adc h
+	sub l
+	ld h, a
+	ld a, [hl]
+	pop hl
+	ret
+
+INCLUDE "data/abilities/flags.asm"
 
 DisplayAbilitySwap:
 	call BeginAbility

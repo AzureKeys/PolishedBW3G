@@ -3079,6 +3079,9 @@ GruntMGroup:
 
 	def_trainer_class GRUNTM
 	def_trainer GRUNTM_REVERSAL, "Grunt"
+	tr_mon 8, RATTATA
+	tr_mon 10, ZUBAT
+	tr_mon 10, GASTLY
 	end_trainer
 
 	def_trainer GRUNTM_LOSTLORN, "Grunt"

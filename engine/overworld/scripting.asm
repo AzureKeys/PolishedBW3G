@@ -279,6 +279,7 @@ RunScriptCommand:
 	dw Script_rematchgift                ; dc
 	dw Script_nooryes                    ; dd
 	dw Script_digmod                     ; de
+	dw Script_toggleevent                ; df
 	assert_table_length NUM_EVENT_COMMANDS
 
 GetScriptWordDE::
@@ -2144,6 +2145,25 @@ Script_checkevent:
 	jr z, .false
 	ld a, TRUE
 .false
+	ldh [hScriptVar], a
+	ret
+
+Script_toggleevent:
+	call GetScriptWordDE
+	ld b, CHECK_FLAG
+	push de
+	call EventFlagAction
+	pop de
+	jr z, .false
+	ld b, RESET_FLAG
+	call EventFlagAction
+	xor a
+	jr .done
+.false
+	ld b, SET_FLAG
+	call EventFlagAction
+	ld a, TRUE
+.done
 	ldh [hScriptVar], a
 	ret
 
