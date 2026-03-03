@@ -363,7 +363,7 @@ PokeBallEffect:
 	; Copy wildmon's form into backup in case we catch
 	ld hl, wPartyBackupForms
 	add hl, bc
-	ld a, [wEnemyMonForm]
+	ld a, [wOTPartyBackupForms]
 	ld [hl], a
 	jr .room_in_party
 
@@ -437,7 +437,8 @@ PokeBallEffect:
 	ld [wWildMon], a
 	ld [wCurPartySpecies], a
 	ld [wTempSpecies], a
-	ld a, [wOTPartyMon1Form]
+	ld a, [wOTPartyBackupForms]
+	ld [wOTPartyMon1Form], a
 	and SPECIESFORM_MASK
 	ld [wCurForm], a
 	ld [wTempForm], a
