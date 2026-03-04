@@ -249,4 +249,7 @@ INCLUDE "audio/music/accumulatown.asm"
 SECTION "Song - nuvematown", ROMX
 INCLUDE "audio/music/nuvematown.asm"
 
+SECTION "Song - route17", ROMX
+INCLUDE "audio/music/route17.asm"
+
 ENDSECTION

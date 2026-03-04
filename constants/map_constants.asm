@@ -226,4 +226,7 @@ ENDM
 	map_const NUVEMA_LAB,                                  7,  6 ;  8
 	map_const NUVEMA_MOM_HOUSE,                            5, 10 ;  9
 	
+	newgroup                                                     ; 16
+	map_const ROUTE_17,                                   23, 19 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

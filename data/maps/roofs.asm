@@ -20,4 +20,5 @@ MapGroupRoofs:
 	db -1            ; Nacrene
 	db -1            ; Striaton
 	db -1            ; Accumula
+	db -1            ; P2
 	assert_table_length NUM_MAP_GROUPS + 1

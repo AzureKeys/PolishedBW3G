@@ -535,4 +535,8 @@ SECTION "NuvemaMomHouse_BlockData", ROMX
 NuvemaMomHouse_BlockData:
 	INCBIN "maps/NuvemaMomHouse.ablk.lzp"
 
+SECTION "Route17_BlockData", ROMX
+Route17_BlockData:
+	INCBIN "maps/Route17.ablk.lzp"
+
 ENDSECTION

@@ -87,4 +87,5 @@ Music:
 	dba Music_CelestialTower_NoIntro
 	dba Music_AccumulaTown
 	dba Music_NuvemaTown
+	dba Music_UnovaRoute12
 	assert_table_length NUM_MUSIC_SONGS

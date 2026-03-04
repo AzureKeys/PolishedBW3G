@@ -34,6 +34,7 @@ MapGroupPointers::
 	dw MapGroupNacrene
 	dw MapGroupStriaton
 	dw MapGroupAccumula
+	dw MapGroupP2
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -235,4 +236,7 @@ MapGroupAccumula:
 	map NuvemaTown, TILESET_UNOVA_EAST, TOWN, SIGN_WOOD, NUVEMA_TOWN, MUSIC_NUVEMA_TOWN, 0, PALETTE_AUTO
 	map NuvemaLab, TILESET_LAB, INDOOR, SIGN_BUILDING, NUVEMA_TOWN, MUSIC_NUVEMA_TOWN, 1, PALETTE_DAY
 	map NuvemaMomHouse, TILESET_UNOVA_HOUSE, INDOOR, SIGN_WOOD, NUVEMA_TOWN, MUSIC_NUVEMA_TOWN, 1, PALETTE_DAY
+
+MapGroupP2:
+	map Route17, TILESET_UNOVA_EAST, ROUTE, SIGN_ROUTE, ROUTE_17, MUSIC_ROUTE_17, 0, PALETTE_AUTO
 	

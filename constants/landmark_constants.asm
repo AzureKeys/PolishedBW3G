@@ -33,6 +33,7 @@
 	const ACCUMULA_TOWN      ; 20
 	const ROUTE_1            ; 21
 	const NUVEMA_TOWN        ; 22
+	const ROUTE_17           ; 23
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28
