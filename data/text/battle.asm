@@ -1505,6 +1505,14 @@ TraceActivationText:
 	text "!"
 	prompt
 
+BecameMummyText:
+	text "<TARGET>'s"
+	line "Ability became"
+	cont ""
+	text_ram wStringBuffer1
+	text "!"
+	prompt
+
 BattleText_IntimidateResisted:
 	text "<TARGET>'s"
 	line ""

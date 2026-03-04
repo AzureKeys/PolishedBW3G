@@ -8,7 +8,7 @@
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
 	 ;abilities_for BRONZOR, LEVITATE, HEATPROOF, HEAVY_METAL
-	abilities_for BRONZOR, LEVITATE, LEVITATE, LEVITATE
+	abilities_for BRONZOR, LEVITATE, LEVITATE, HEAVY_METAL
 	db GROWTH_MEDIUM_FAST  ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL  ; egg groups
 

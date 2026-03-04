@@ -89,6 +89,7 @@ AbilityNames:
 	dw Sniper
 	dw MagicGuard
 	dw NoGuard
+	dw Stall
 	dw Technician
 	dw LeafGuard
 	dw MoldBreaker
@@ -114,8 +115,10 @@ AbilityNames:
 	dw Defiant
 	dw CursedBody
 	dw WeakArmor
+	dw HeavyMetal
 	dw LightMetal
 	dw Multiscale
+	dw ToxicBoost
 	dw Harvest
 	dw Moody
 	dw Overcoat
@@ -127,6 +130,7 @@ AbilityNames:
 	dw Analytic
 	dw Imposter
 	dw Infiltrator
+	dw Mummy
 	dw Moxie
 	dw Justified
 	dw Rattled
@@ -153,6 +157,7 @@ AbilityNames:
 	dw ScreenCleaner
 	dw SteelySpirit
 	dw PerishBody
+	dw WanderingSpirit
 	dw GorillaTactics
 	dw NeutralizingGas
 	dw PastelVeil
@@ -254,6 +259,7 @@ QuickFeet:       rawchar "Quick Feet@"
 Sniper:          rawchar "Sniper@"
 MagicGuard:      rawchar "Magic Guard@"
 NoGuard:         rawchar "No Guard@"
+Stall:           rawchar "Stall@"
 Technician:      rawchar "Technician@"
 LeafGuard:       rawchar "Leaf Guard@"
 MoldBreaker:     rawchar "Mold Breaker@"
@@ -279,8 +285,10 @@ Unnerve:         rawchar "Unnerve@"
 Defiant:         rawchar "Defiant@"
 CursedBody:      rawchar "Cursed Body@"
 WeakArmor:       rawchar "Weak Armor@"
+HeavyMetal:      rawchar "Heavy Metal@"
 LightMetal:      rawchar "Light Metal@"
 Multiscale:      rawchar "Multiscale@"
+ToxicBoost:      rawchar "Toxic Boost@"
 Harvest:         rawchar "Harvest@"
 Moody:           rawchar "Moody@"
 Overcoat:        rawchar "Overcoat@"
@@ -292,6 +300,7 @@ WonderSkin:      rawchar "Wonder Skin@"
 Analytic:        rawchar "Analytic@"
 Imposter:        rawchar "Imposter@"
 Infiltrator:     rawchar "Infiltrator@"
+Mummy:           rawchar "Mummy@"
 Moxie:           rawchar "Moxie@"
 Justified:       rawchar "Justified@"
 Rattled:         rawchar "Rattled@"
@@ -318,6 +327,7 @@ TanglingHair:    rawchar "Tangling Hair@"
 ScreenCleaner:   rawchar "Screen Cleaner@"
 SteelySpirit:    rawchar "Steely Spirit@"
 PerishBody:      rawchar "Perish Body@"
+WanderingSpirit: rawchar "Wandering Spirit@"
 GorillaTactics:  rawchar "Gorilla Tactics@"
 NeutralizingGas: rawchar "Neutralizing Gas@"
 PastelVeil:      rawchar "Pastel Veil@"

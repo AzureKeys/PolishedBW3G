@@ -92,6 +92,7 @@
 	const SNIPER
 	const MAGIC_GUARD
 	const NO_GUARD
+	const STALL
 	const TECHNICIAN
 	const LEAF_GUARD
 	const MOLD_BREAKER
@@ -117,8 +118,10 @@
 	const DEFIANT
 	const CURSED_BODY
 	const WEAK_ARMOR
+	const HEAVY_METAL
 	const LIGHT_METAL
 	const MULTISCALE
+	const TOXIC_BOOST
 	const HARVEST
 	const MOODY
 	const OVERCOAT
@@ -130,6 +133,7 @@
 	const ANALYTIC
 	const IMPOSTER
 	const INFILTRATOR
+	const MUMMY
 	const MOXIE
 	const JUSTIFIED
 	const RATTLED
@@ -156,6 +160,7 @@
 	const SCREEN_CLEANER
 	const STEELY_SPIRIT
 	const PERISH_BODY
+	const WANDERING_SPIRIT
 	const GORILLA_TACTICS
 	const NEUTRALIZING_GAS
 	const PASTEL_VEIL

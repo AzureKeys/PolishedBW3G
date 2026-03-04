@@ -7,8 +7,7 @@
 	db NO_ITEM, QUICK_CLAW   ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST   ; gender ratio, step cycles to hatch
 
-	  ;abilities_for ZANGOOSE, IMMUNITY, IMMUNITY, TOXIC_BOOST
-	abilities_for ZANGOOSE, IMMUNITY, IMMUNITY, IMMUNITY
+	abilities_for ZANGOOSE, IMMUNITY, IMMUNITY, TOXIC_BOOST
 	db GROWTH_MEDIUM_SLOW   ; growth rate
 	dn EGG_GROUND, EGG_GROUND   ; egg groups
 
