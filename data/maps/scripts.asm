@@ -258,6 +258,7 @@ SECTION "Nuvema Scripts", ROMX
 
 INCLUDE "maps/NuvemaTown.asm"
 INCLUDE "maps/NuvemaLab.asm"
+INCLUDE "maps/NuvemaMomHouse.asm"
 
 
 ENDSECTION

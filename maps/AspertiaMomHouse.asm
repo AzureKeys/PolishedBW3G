@@ -80,7 +80,7 @@ AspertiaMomScript:
 	line "give it this TM!"
 	done
 	promptbutton
-	verbosegiveitem TM_RETURN
+	verbosegivetmhm TM_RETURN
 	setevent EVENT_GOT_TM_RETURN
 	closetext
 	end

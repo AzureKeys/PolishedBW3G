@@ -6,6 +6,7 @@ NuvemaTown_MapScriptHeader:
 
 	def_warp_events
 	warp_event  6,  5, NUVEMA_LAB, 1
+	warp_event 11, 11, NUVEMA_MOM_HOUSE, 1
 
 	def_coord_events
 

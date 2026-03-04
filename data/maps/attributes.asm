@@ -129,6 +129,7 @@ ENDM
 	map_attributes Dreamyard, DREAMYARD, $09, 0
 	map_attributes DreamyardB1F, DREAMYARD_B1F, $0, 0
 	map_attributes NuvemaLab, NUVEMA_LAB, $0, 0
+	map_attributes NuvemaMomHouse, NUVEMA_MOM_HOUSE, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

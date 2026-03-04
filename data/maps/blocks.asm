@@ -531,4 +531,8 @@ SECTION "NuvemaLab_BlockData", ROMX
 NuvemaLab_BlockData:
 	INCBIN "maps/NuvemaLab.ablk.lzp"
 
+SECTION "NuvemaMomHouse_BlockData", ROMX
+NuvemaMomHouse_BlockData:
+	INCBIN "maps/NuvemaMomHouse.ablk.lzp"
+
 ENDSECTION
