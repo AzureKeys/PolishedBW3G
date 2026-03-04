@@ -286,7 +286,7 @@ KeyItemDescriptions:
 	dw GSBallDesc
 	dw FerryTicketDesc
 	dw RailPassDesc
-	dw OrangeTicketDesc
+	dw MembersCardDesc
 	dw MysticTicketDesc
 	dw OldSeaMapDesc
 	dw LiftKeyDesc
@@ -1627,7 +1627,11 @@ BoardingPassDesc:
 	next "the airport."
 	done
 
-OrangeTicketDesc:
+MembersCardDesc:
+	text "A membership card"
+	next "for the Mall."
+	done
+	
 MysticTicketDesc:
 	text "A ticket for the"
 	next "Seagallop Ferry."

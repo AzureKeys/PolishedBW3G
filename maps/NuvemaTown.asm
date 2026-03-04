@@ -5,6 +5,7 @@ NuvemaTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, NuvemaFlyPoint
 
 	def_warp_events
+	warp_event  6,  5, NUVEMA_LAB, 1
 
 	def_coord_events
 

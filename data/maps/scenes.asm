@@ -35,6 +35,7 @@ MapScenes::
 	scene_var NIMBASA_PARK_COASTER_ROOM,              wNimbasaParkCoasterRoomSceneID
 	scene_var NIMBASA_PARK_OUTSIDE,                   wNimbasaParkOutsideSceneID
 	scene_var NIMBASA_SUBWAY,                         wAlways0SceneID
+	scene_var NUVEMA_LAB,                             wNuvemaLabSceneID
 	scene_var PINWHEEL_FOREST,                        wPinwheelForestSceneID
 	scene_var PINWHEEL_SKYARROW_BRIDGE_GATE,          wPinwheelSkyarrowBridgeGateSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID

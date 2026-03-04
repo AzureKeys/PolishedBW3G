@@ -766,8 +766,8 @@ GSBallIcon:: INCBIN "gfx/items/gs_ball.2bpp.lzp"
 SECTION "BoardingPassIcon", ROMX
 BoardingPassIcon:: INCBIN "gfx/items/boardingpass.2bpp.lzp"
 
-SECTION "OrangeTicketIcon", ROMX
-OrangeTicketIcon:: INCBIN "gfx/items/orangeticket.2bpp.lzp"
+SECTION "MembersCardIcon", ROMX
+MembersCardIcon:: INCBIN "gfx/items/members_card.2bpp.lzp"
 
 SECTION "MysticTicketIcon", ROMX
 MysticTicketIcon:: INCBIN "gfx/items/mysticticket.2bpp.lzp"

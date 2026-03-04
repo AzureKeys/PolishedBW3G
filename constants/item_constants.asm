@@ -661,7 +661,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const GS_BALL      ; 1a
 	const FERRY_TICKET ; 1b
 	const RAIL_PASS    ; 1c
-	const ORANGETICKET ; 1d
+	const MEMBERS_CARD ; 1d
 	const MYSTICTICKET ; 1e
 	const OLD_SEA_MAP  ; 1f
 	const LIFT_KEY     ; 20
@@ -697,11 +697,11 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_LIFT_KEY
 	const NAM_LOST_ITEM
 	const NAM_MALIGN_LURE
+	const NAM_MEMBERS_CARD
 	const NAM_MYSTERY_EGG
 	const NAM_MYSTICTICKET
 	const NAM_OLD_ROD
 	const NAM_OLD_SEA_MAP
-	const NAM_ORANGETICKET
 	const NAM_OVAL_CHARM
 	const NAM_POTENT_LURE
 	const NAM_RAIL_PASS

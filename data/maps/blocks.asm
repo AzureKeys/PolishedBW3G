@@ -527,4 +527,8 @@ SECTION "NuvemaTown_BlockData", ROMX
 NuvemaTown_BlockData:
 	INCBIN "maps/NuvemaTown.ablk.lzp"
 
+SECTION "NuvemaLab_BlockData", ROMX
+NuvemaLab_BlockData:
+	INCBIN "maps/NuvemaLab.ablk.lzp"
+
 ENDSECTION

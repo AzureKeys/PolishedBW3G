@@ -257,6 +257,7 @@ INCLUDE "maps/AccumulaBallManiacHouse.asm"
 SECTION "Nuvema Scripts", ROMX
 
 INCLUDE "maps/NuvemaTown.asm"
+INCLUDE "maps/NuvemaLab.asm"
 
 
 ENDSECTION

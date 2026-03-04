@@ -29,7 +29,7 @@ KeyItemNames::
 	li "GS Ball"
 	li "Ferry Ticket"
 	li "Rail Pass"
-	li "OrangeTicket"
+	li "Member's Card"
 	li "MysticTicket"
 	li "Old Sea Map"
 	li "Lift Key"

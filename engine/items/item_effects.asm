@@ -310,7 +310,7 @@ DoKeyItemEffect::
 	dw IsntTheTimeMessage ; GS_BALL
 	dw IsntTheTimeMessage ; S_S_TICKET
 	dw IsntTheTimeMessage ; PASS
-	dw IsntTheTimeMessage ; ORANGETICKET
+	dw IsntTheTimeMessage ; MEMBERS_CARD
 	dw IsntTheTimeMessage ; MYSTICTICKET
 	dw IsntTheTimeMessage ; OLD_SEA_MAP
 	dw IsntTheTimeMessage ; LIFT_KEY
