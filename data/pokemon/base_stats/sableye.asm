@@ -7,8 +7,7 @@
 	db NO_ITEM, WIDE_LENS  ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW  ; gender ratio, step cycles to hatch
 
-	 ;abilities_for SABLEYE, KEEN_EYE, STALL, PRANKSTER
-	abilities_for SABLEYE, KEEN_EYE, KEEN_EYE, PRANKSTER
+	abilities_for SABLEYE, KEEN_EYE, STALL, PRANKSTER
 	db GROWTH_MEDIUM_SLOW  ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE  ; egg groups
 

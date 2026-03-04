@@ -105,6 +105,7 @@ AbilityFlags:
 	abilflag SNIPER
 	abilflag MAGIC_GUARD
 	abilflag NO_GUARD
+	abilflag STALL
 	abilflag TECHNICIAN
 	abilflag LEAF_GUARD, IGNORABLE
 	abilflag MOLD_BREAKER
@@ -130,8 +131,10 @@ AbilityFlags:
 	abilflag DEFIANT
 	abilflag CURSED_BODY
 	abilflag WEAK_ARMOR
+	abilflag HEAVY_METAL, IGNORABLE
 	abilflag LIGHT_METAL, IGNORABLE
 	abilflag MULTISCALE, IGNORABLE
+	abilflag TOXIC_BOOST
 	abilflag HARVEST
 	abilflag MOODY
 	abilflag OVERCOAT, IGNORABLE
@@ -143,6 +146,7 @@ AbilityFlags:
 	abilflag ANALYTIC
 	abilflag IMPOSTER, NO_COPY, NO_TRACE ; can swap, but won't trigger
 	abilflag INFILTRATOR
+	abilflag MUMMY
 	abilflag MOXIE
 	abilflag JUSTIFIED
 	abilflag RATTLED
@@ -169,6 +173,7 @@ AbilityFlags:
 	abilflag SCREEN_CLEANER
 	abilflag STEELY_SPIRIT
 	abilflag PERISH_BODY
+	abilflag WANDERING_SPIRIT
 	abilflag GORILLA_TACTICS
 	abilflag NEUTRALIZING_GAS, NO_COPY, NO_TRACE, NO_SWAP, NO_TRANSFORM
 	abilflag PASTEL_VEIL, IGNORABLE

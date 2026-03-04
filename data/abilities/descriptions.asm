@@ -89,6 +89,7 @@ AbilityDescriptions:
 	dw SniperDescription
 	dw MagicGuardDescription
 	dw NoGuardDescription
+	dw StallDescription
 	dw TechnicianDescription
 	dw LeafGuardDescription
 	dw MoldBreakerDescription
@@ -114,8 +115,10 @@ AbilityDescriptions:
 	dw DefiantDescription
 	dw CursedBodyDescription
 	dw WeakArmorDescription
+	dw HeavyMetalDescription
 	dw LightMetalDescription
 	dw MultiscaleDescription
+	dw ToxicBoostDescription
 	dw HarvestDescription
 	dw MoodyDescription
 	dw OvercoatDescription
@@ -127,6 +130,7 @@ AbilityDescriptions:
 	dw AnalyticDescription
 	dw ImposterDescription
 	dw InfiltratorDescription
+	dw MummyDescription
 	dw MoxieDescription
 	dw JustifiedDescription
 	dw RattledDescription
@@ -153,6 +157,7 @@ AbilityDescriptions:
 	dw ScreenCleanerDescription
 	dw SteelySpiritDescription
 	dw PerishBodyDescription
+	dw WanderingSpiritDescription
 	dw GorillaTacticsDescription
 	dw NeutralizingGasDescription
 	dw PastelVeilDescription
@@ -599,6 +604,11 @@ NoGuardDescription:
 	next "or against it hit."
 	done
 
+StallDescription:
+	text "The #mon moves"
+	next "after others."
+	done
+
 TechnicianDescription:
 	text "Powers up its"
 	next "weaker moves."
@@ -726,6 +736,11 @@ WeakArmorDescription:
 	next "trade Def for Spe."
 	done
 
+HeavyMetalDescription:
+	text "Doubles the Poké-"
+	next "mon's weight."
+	done
+
 LightMetalDescription:
 	text "Halves the Poké-"
 	next "mon's weight."
@@ -734,6 +749,11 @@ LightMetalDescription:
 MultiscaleDescription:
 	text "Reduces damage"
 	next "when HP is full."
+	done
+
+ToxicBoostDescription:
+	text "Boosts Attack when"
+	next "poisoned."
 	done
 
 HarvestDescription:
@@ -789,6 +809,11 @@ ImposterDescription:
 InfiltratorDescription:
 	text "Attacks bypass the"
 	next "foe's barriers."
+	done
+
+MummyDescription:
+	text "Contact spreads"
+	next "this Ability."
 	done
 
 MoxieDescription:
@@ -894,6 +919,11 @@ FluffyDescription:
 TanglingHairDescription:
 	text "Contact may lower"
 	next "the foe's Speed."
+	done
+
+WanderingSpiritDescription:
+	text "Swaps Abilities"
+	next "on contact."
 	done
 
 GorillaTacticsDescription:

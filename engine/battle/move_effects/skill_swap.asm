@@ -1,16 +1,17 @@
 BattleCommand_skillswap:
 ; Does not work if either side has no Ability.
 	call CheckHiddenOpponent
-	jr nz, .failed
-
+	jmp nz, BattleEffect_ButItFailed
+	; fallthrough
+TrySkillSwap:
 	ld a, [wPlayerAbility]
 	ld b, a
 	call AbilityCanBeSwapped
-	jr nz, .failed
+	jmp nz, BattleEffect_ButItFailed
 	ld a, [wEnemyAbility]
 	ld c, a
 	call AbilityCanBeSwapped
-	jr nz, .failed
+	jmp nz, BattleEffect_ButItFailed
 
 	push bc
 	call AnimateCurrentMove
@@ -42,7 +43,3 @@ BattleCommand_skillswap:
 	call SwitchTurn
 	farcall RunEntryAbilitiesInner_SkillSwap
 	jmp SwitchTurn
-
-.failed
-	call AnimateFailedMove
-	jmp PrintButItFailed

@@ -7,8 +7,7 @@
 	db SPELL_TAG, NO_ITEM   ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW   ; gender ratio, step cycles to hatch
 
-	abilities_for YAMASK, WONDER_SKIN, MAGIC_GUARD, TINTED_LENS
-	  ;abilities_for YAMASK, MUMMY, MUMMY, MUMMY
+	abilities_for YAMASK, MUMMY, MUMMY, MUMMY
 	db GROWTH_MEDIUM_FAST   ; growth rate
 	dn EGG_MINERAL, EGG_INDETERMINATE   ; egg groups
 
