@@ -92,19 +92,19 @@ Drumkit5:
 	dr Snare13
 	dr Kick2
 Drumkit6:
-	dr Drum00
-	dr Kick2
-	dr Snare9
-	dr Snare10
-	dr Snare11
-	dr Crash2
-	dr Crash1
-	dr Snare9
-	dr Snare9
-	dr Snare9
-	dr Snare9
-	dr Snare9
-	dr Snare9
+ 	dr Drum00
+ 	dr Snare12
+ 	dr Snare13
+ 	dr Snare14
+ 	dr Kick1
+ 	dr Triangle5
+ 	dr Snare5 ;was Drum20
+ 	dr Drum27
+ 	dr Drum28
+ 	dr Drum29
+ 	dr Snare9 ;was Drum00
+ 	dr Kick2
+ 	dr Crash2
 
 Drum00:
 ; unused
