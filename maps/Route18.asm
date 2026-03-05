@@ -5,6 +5,7 @@ Route18_MapScriptHeader:
 	callback MAPCALLBACK_TILES, Route18TileScript
 
 	def_warp_events
+	warp_event 17, 16, ROUTE_18_HOUSE, 1
 	warp_event 29, 31, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

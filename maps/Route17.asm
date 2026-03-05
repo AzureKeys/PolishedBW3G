@@ -4,6 +4,8 @@ Route17_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event 39, 28, ROUTE_1_ROUTE_17_GATE, 1
+	warp_event 39, 29, ROUTE_1_ROUTE_17_GATE, 2
 	
 	def_coord_events
 

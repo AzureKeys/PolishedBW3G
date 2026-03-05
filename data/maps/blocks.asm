@@ -34,6 +34,7 @@ FloccesyFairyFeatherHouse_BlockData:
 VirbankPoisonBarbHouse_BlockData:
 VirbankMuscleBandHouse_BlockData:
 AccumulaStonesHouse_BlockData:
+Route18House_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -62,6 +63,7 @@ Route5DrawbridgeGate_BlockData:
 Route20VirbankGate_BlockData:
 Route3NacreneGate_BlockData:
 Route2AccumulaGate_BlockData:
+Route1Route17Gate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX

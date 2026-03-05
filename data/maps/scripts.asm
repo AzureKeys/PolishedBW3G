@@ -220,8 +220,10 @@ INCLUDE "maps/WellspringCave1F.asm"
 INCLUDE "maps/WellspringCaveB1F.asm"
 INCLUDE "maps/Route2.asm"
 INCLUDE "maps/Route1.asm"
+INCLUDE "maps/Route1Route17Gate.asm"
 INCLUDE "maps/Route17.asm"
 INCLUDE "maps/Route18.asm"
+INCLUDE "maps/Route18House.asm"
 
 
 SECTION "Nacrene Scripts", ROMX
