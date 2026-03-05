@@ -46,14 +46,14 @@ BiancaPhoneScript2:
 .P2
 	farwritetext BiancaPhoneP2Text
 	specialphonecall SPECIALCALL_NONE
-	;setevent EVENT_CASTELIA_SEWER_BLOCKER
+	setevent EVENT_CASTELIA_SEWERS_BLOCKER
 	end
 
 .members_card
 	farwritetext BiancaPhoneMembersCardText
 	specialphonecall SPECIALCALL_NONE
-	;setevent EVENT_BIANCA_MEMBERS_CARD_CALL
-	;clearevent EVENT_NUVEMA_LAB_BIANCA
+	setevent EVENT_BIANCA_MEMBERS_CARD_CALL
+	clearevent EVENT_NUVEMA_LAB_BIANCA
 	end
 
 .pokerus

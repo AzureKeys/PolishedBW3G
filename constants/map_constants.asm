@@ -67,6 +67,8 @@ ENDM
 	map_const WELLSPRING_CAVE_B1F,                        13, 25 ; 23
 	map_const DREAMYARD,                                  20, 19 ; 24
 	map_const DREAMYARD_B1F,                              12, 12 ; 25
+	map_const P2_LAB_ENTRANCE,                             5,  5 ; 26
+	map_const P2_LAB,                                     14, 21 ; 27
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

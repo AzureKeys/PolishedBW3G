@@ -545,4 +545,12 @@ SECTION "Route18_BlockData", ROMX
 Route18_BlockData:
 	INCBIN "maps/Route18.ablk.lzp"
 
+SECTION "P2LabEntrance_BlockData", ROMX
+P2LabEntrance_BlockData:
+	INCBIN "maps/P2LabEntrance.ablk.lzp"
+
+SECTION "P2Lab_BlockData", ROMX
+P2Lab_BlockData:
+	INCBIN "maps/P2Lab.ablk.lzp"
+
 ENDSECTION

@@ -40,6 +40,7 @@ Landmarks:
 	landmark 140, 132, NuvemaTownName
 	landmark 132, 132, Route17Name
 	landmark 124, 132, Route18Name
+	landmark 124, 124, P2LabName
 	landmark  12, 132, AspertiaCityName
 	landmark  16, 120, Route19Name
 	landmark  28, 116, FloccesyTownName
@@ -86,6 +87,7 @@ Route1Name:            rawchar "Route 1@"
 NuvemaTownName:        rawchar "Nuvema¯Town@"
 Route17Name:           rawchar "Route 17@"
 Route18Name:           rawchar "Route 18@"
+P2LabName:             rawchar "P2 Lab@"
 AspertiaCityName:      rawchar "Aspertia¯City@"
 Route19Name:           rawchar "Route 19@"
 FloccesyTownName:      rawchar "Floccesy¯Town@"

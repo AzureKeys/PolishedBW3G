@@ -224,6 +224,8 @@ INCLUDE "maps/Route1Route17Gate.asm"
 INCLUDE "maps/Route17.asm"
 INCLUDE "maps/Route18.asm"
 INCLUDE "maps/Route18House.asm"
+INCLUDE "maps/P2LabEntrance.asm"
+INCLUDE "maps/P2Lab.asm"
 
 
 SECTION "Nacrene Scripts", ROMX

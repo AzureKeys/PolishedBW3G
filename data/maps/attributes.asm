@@ -134,8 +134,8 @@ ENDM
 	map_attributes StriatonGym, STRIATON_GYM, $0, 0
 	map_attributes Dreamyard, DREAMYARD, $09, 0
 	map_attributes DreamyardB1F, DREAMYARD_B1F, $0, 0
-	map_attributes NuvemaLab, NUVEMA_LAB, $0, 0
-	map_attributes NuvemaMomHouse, NUVEMA_MOM_HOUSE, $0, 0
+	map_attributes P2LabEntrance, P2_LAB_ENTRANCE, $0, 0
+	map_attributes P2Lab, P2_LAB, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -205,6 +205,8 @@ ENDM
 	map_attributes AccumulaStonesHouse, ACCUMULA_STONES_HOUSE, $0, 0
 	map_attributes AccumulaTradeHouse, ACCUMULA_TRADE_HOUSE, $0, 0
 	map_attributes AccumulaBallManiacHouse, ACCUMULA_BALL_MANIAC_HOUSE, $0, 0
+	map_attributes NuvemaLab, NUVEMA_LAB, $0, 0
+	map_attributes NuvemaMomHouse, NUVEMA_MOM_HOUSE, $0, 0
 	map_attributes Route18House, ROUTE_18_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0

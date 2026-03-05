@@ -35,6 +35,7 @@
 	const NUVEMA_TOWN        ; 22
 	const ROUTE_17           ; 23
 	const ROUTE_18           ; 24
+	const P2_LAB             ; 25
 	const ASPERTIA_CITY      ; 26
 	const ROUTE_19           ; 27
 	const FLOCCESY_TOWN      ; 28

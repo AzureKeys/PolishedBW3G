@@ -6,6 +6,7 @@ Route17_MapScriptHeader:
 	def_warp_events
 	warp_event 39, 28, ROUTE_1_ROUTE_17_GATE, 1
 	warp_event 39, 29, ROUTE_1_ROUTE_17_GATE, 2
+	warp_event 34,  3, P2_LAB_ENTRANCE, 1
 	
 	def_coord_events
 
