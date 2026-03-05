@@ -224,8 +224,8 @@ DEF NUM_FRUIT_TREES EQU const_value - 1
 	const HIDDENGROTTO_PINWHEEL                ; 09
 	const HIDDENGROTTO_ROUTE_3                 ; 0a
 	const HIDDENGROTTO_ROUTE_2                 ; 0b
+	const HIDDENGROTTO_ROUTE_18                ; 0c
 	
-	const HIDDENGROTTO_YELLOW_FOREST           ; 0c
 	const HIDDENGROTTO_RUGGED_ROAD_NORTH       ; 0d
 	const HIDDENGROTTO_SNOWTOP_MOUNTAIN_INSIDE ; 0e
 	const HIDDENGROTTO_ROUTE_42                ; 0f

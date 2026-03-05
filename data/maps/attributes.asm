@@ -82,7 +82,11 @@ ENDM
 	map_attributes NuvemaTown, NUVEMA_TOWN, $35, NORTH
 	connection north, Route1, ROUTE_1, -6
 	
-	map_attributes Route17, ROUTE_17, $65, 0
+	map_attributes Route17, ROUTE_17, $65, WEST
+	connection west, Route18, ROUTE_18, 1
+	
+	map_attributes Route18, ROUTE_18, $65, EAST
+	connection east, Route17, ROUTE_17, -1
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

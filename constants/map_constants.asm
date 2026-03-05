@@ -228,5 +228,6 @@ ENDM
 	
 	newgroup                                                     ; 16
 	map_const ROUTE_17,                                   23, 19 ;  1
+	map_const ROUTE_18,                                   24, 19 ;  2
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

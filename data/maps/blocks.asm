@@ -539,4 +539,8 @@ SECTION "Route17_BlockData", ROMX
 Route17_BlockData:
 	INCBIN "maps/Route17.ablk.lzp"
 
+SECTION "Route18_BlockData", ROMX
+Route18_BlockData:
+	INCBIN "maps/Route18.ablk.lzp"
+
 ENDSECTION
