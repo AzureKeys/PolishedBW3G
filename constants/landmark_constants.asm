@@ -45,6 +45,7 @@
 	const VIRBANK_CITY       ; 2b
 	const VIRBANK_COMPLEX    ; 2c
 	const ROUTE_5            ; 2d
+	const RELIC_PASSAGE      ; 31
 	const ROUTE_12           ; 42
 	const POKEMON_LEAGUE     ; 45
 	const BATTLE_TOWER       ; 46

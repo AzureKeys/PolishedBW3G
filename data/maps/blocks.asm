@@ -561,4 +561,8 @@ SECTION "CasteliaSewersRooms_BlockData", ROMX
 CasteliaSewersRooms_BlockData:
 	INCBIN "maps/CasteliaSewersRooms.ablk.lzp"
 
+SECTION "RelicPassageFront_BlockData", ROMX
+RelicPassageFront_BlockData:
+	INCBIN "maps/RelicPassageFront.ablk.lzp"
+
 ENDSECTION

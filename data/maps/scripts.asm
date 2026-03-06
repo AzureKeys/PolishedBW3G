@@ -129,6 +129,7 @@ INCLUDE "maps/RelicCastleB1F.asm"
 INCLUDE "maps/RelicCastleB2F.asm"
 INCLUDE "maps/RelicCastleB3F.asm"
 INCLUDE "maps/RelicCastleB4F.asm"
+INCLUDE "maps/RelicPassageFront.asm"
 
 
 SECTION "Castelia Scripts", ROMX

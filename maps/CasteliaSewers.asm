@@ -13,6 +13,7 @@ CasteliaSewers_MapScriptHeader:
 	warp_event 33,  8, CASTELIA_SEWERS_ROOMS, 7
 	warp_event  5, 25, CASTELIA_SEWERS_ROOMS, 9
 	warp_event 32,  2, CASTELIA_SEWERS, 1 ; hole
+	warp_event 33,  0, RELIC_PASSAGE_FRONT, 1
 
 	def_coord_events
 
@@ -48,7 +49,7 @@ CasteliaSewersSetTiles:
 	changeblock 32,  2, $b0
 .CheckWater
 	checkevent EVENT_CASTELIA_SEWERS_WATER_RAISED
-	iffalsefwd .done
+	iffalse .done
 	
 	changeblock  4,  8, $91 ; water
 	changeblock  4, 10, $91 ; water

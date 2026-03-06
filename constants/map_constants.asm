@@ -71,6 +71,7 @@ ENDM
 	map_const P2_LAB,                                     14, 21 ; 27
 	map_const CASTELIA_SEWERS,                            26, 21 ; 28
 	map_const CASTELIA_SEWERS_ROOMS,                      15,  9 ; 29
+	map_const RELIC_PASSAGE_FRONT,                        24, 13 ; 30
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

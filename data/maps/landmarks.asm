@@ -50,6 +50,7 @@ Landmarks:
 	landmark  52, 116, VirbankCityName
 	landmark  52, 124, VirbankComplexName
 	landmark  76,  84, Route5Name
+	landmark  68, 104, RelicPassageName
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -98,6 +99,7 @@ Route20Name:           rawchar "Route 20@"
 VirbankCityName:       rawchar "Virbank¯City@"
 VirbankComplexName:    rawchar "Virbank¯Complex@"
 Route5Name:            rawchar "Route 5@"
+RelicPassageName:      rawchar "Relic¯Passage@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"
