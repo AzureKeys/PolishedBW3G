@@ -155,6 +155,7 @@ INCLUDE "maps/BattleCompany2F.asm"
 INCLUDE "maps/SkyarrowBridge.asm"
 INCLUDE "maps/PinwheelSkyarrowBridgeGate.asm"
 INCLUDE "maps/FerryLeft.asm"
+INCLUDE "maps/CasteliaSewers.asm"
 
 
 SECTION "Aspertia Scripts", ROMX

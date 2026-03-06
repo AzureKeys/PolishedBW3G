@@ -993,7 +993,11 @@ LoadMapPals:
 	ret nz
 
 .outside
-; Don't load Roof palettes for certain Outdoor maps
+; Don't load Roof palettes for certain Outdoor maps:
+; Celestial Tower Roof, Dragonspiral Tower Outside,
+; Dragonspiral Tower Roof, Twist Mountain Outside, Nimbasa Park Outside,
+; Skyarrow Bridge, Driftveil Drawbridge, Village Bridge,
+; Tubeline Bridge, Pkmn League Entrance
 	ld a, [wMapGroup]
 	cp GROUP_NIMBASA_PARK_OUTSIDE
 	jr nz, .CheckCastelia

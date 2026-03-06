@@ -1203,6 +1203,7 @@ wBattleTowerOutsideSceneID:: db
 wCaitlinsHouseSceneID:: db
 wCasteliaCityStreetsSceneID:: db
 wCasteliaPortSceneID:: db
+wCasteliaSewersSceneID:: db
 wCasteliaSkyarrowBridgeGateSceneID:: db
 wColosseumSceneID:: db
 wDreamyardSceneID:: db
@@ -1257,7 +1258,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 125 ; unused
+	ds 124 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette

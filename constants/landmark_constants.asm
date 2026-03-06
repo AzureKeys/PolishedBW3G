@@ -22,6 +22,7 @@
 	const DESERT_RESORT      ; 14
 	const RELIC_CASTLE       ; 15
 	const CASTELIA_CITY      ; 16
+	const CASTELIA_SEWERS    ; 17
 	const SKYARROW_BRIDGE    ; 18
 	const PINWHEEL_FOREST    ; 19
 	const NACRENE_CITY       ; 1a

@@ -193,15 +193,15 @@ TilesetNacreneAnim::
 	dw NULL,  DoneTileAnimation
 
 TilesetUndergroundAnim::
-	dw vTiles2 tile $08, AnimateSpinnerTile
+	dw vTiles2 tile $2e, AnimateSpinnerTile
+	dw vTiles2 tile $7e, WriteTileToBuffer
+	dw NULL,  FlickeringCaveEntrancePalette
+	dw wTileAnimBuffer, ScrollTileRightLeft
 	dw NULL,  DoNothing
+	dw NULL,  FlickeringCaveEntrancePalette
+	dw vTiles2 tile $7e, ReadTileFromBuffer
 	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
+	dw NULL,  FlickeringCaveEntrancePalette
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 	

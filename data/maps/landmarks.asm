@@ -27,6 +27,7 @@ Landmarks:
 	landmark  76,  92, DesertResortName
 	landmark  68,  92, RelicCastleName
 	landmark  84, 116, CasteliaCityName
+	landmark  92, 124, CasteliaSewersName
 	landmark 104, 108, SkyarrowBridgeName
 	landmark 116, 100, PinwheelForestName
 	landmark 124, 100, NacreneCityName
@@ -74,6 +75,7 @@ Route4Name:            rawchar "Route 4@"
 DesertResortName:      rawchar "Desert¯Resort@"
 RelicCastleName:       rawchar "Relic¯Castle@"
 CasteliaCityName:      rawchar "Castelia¯City@"
+CasteliaSewersName:    rawchar "Castelia¯Sewers@"
 SkyarrowBridgeName:    rawchar "Skyarrow¯Bridge@"
 PinwheelForestName:    rawchar "Pinwheel¯Forest@"
 NacreneCityName:       rawchar "Nacrene¯City@"

@@ -553,4 +553,8 @@ SECTION "P2Lab_BlockData", ROMX
 P2Lab_BlockData:
 	INCBIN "maps/P2Lab.ablk.lzp"
 
+SECTION "CasteliaSewers_BlockData", ROMX
+CasteliaSewers_BlockData:
+	INCBIN "maps/CasteliaSewers.ablk.lzp"
+
 ENDSECTION

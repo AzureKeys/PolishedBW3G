@@ -29,10 +29,11 @@ ENDM
 	special_bg_pal map,      HUMILAU_GYM,                 PAL_SINGLE,    HumilauGymPalette
 	special_bg_pal map,      CASTELIA_CITY_NORTH,         PAL_TIMEOFDAY, CasteliaNorthPalette
 	special_bg_pal map,      CASTELIA_GYM,                PAL_SINGLE,    CasteliaGymPalette
+	special_bg_pal map,      CASTELIA_SEWERS,             PAL_SINGLE,    SewersPalette
 	special_bg_pal map,      SKYARROW_BRIDGE,             PAL_TIMEOFDAY, SkyarrowBridgePalette
 	special_bg_pal map,      NIMBASA_PARK_COASTER_ROOM,   PAL_SINGLE,    CoasterRoomPalette
-	special_bg_pal map,      STRIATON_GYM,                PAL_SINGLE,    StriatonGymPalette
 	special_bg_pal map,      VIRBANK_GYM,                 PAL_SINGLE,    VirbankGymPalette
+	special_bg_pal map,      STRIATON_GYM,                PAL_SINGLE,    StriatonGymPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_UNOVA_HOUSE,         PAL_SINGLE,    UnovaHousePalette
@@ -135,6 +136,18 @@ endc
 CoasterRoomPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/coaster.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+SewersPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/sewers.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

@@ -69,6 +69,7 @@ ENDM
 	map_const DREAMYARD_B1F,                              12, 12 ; 25
 	map_const P2_LAB_ENTRANCE,                             5,  5 ; 26
 	map_const P2_LAB,                                     14, 21 ; 27
+	map_const CASTELIA_SEWERS,                            26, 21 ; 28
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

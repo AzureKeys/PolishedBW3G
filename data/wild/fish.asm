@@ -10,7 +10,7 @@ FishGroups:
 	fishgroup 65 percent, (65 + 5) percent, .Shore_Old,            .Shore_Good,            .Shore_Super
 	fishgroup 75 percent, (75 + 1) percent, .Ocean_Old,            .Ocean_Good,            .Ocean_Super
 	fishgroup 70 percent, (70 + 5) percent, .Lake_Old,             .Lake_Good,             .Lake_Super
-	fishgroup 70 percent, (70 + 5) percent, .Well_Old,             .Well_Good,             .Well_Super
+	fishgroup 70 percent, (70 + 5) percent, .Sewers_Old,           .Sewers_Good,           .Sewers_Super
 	fishgroup 70 percent, (70 + 3) percent, .River_Old,            .River_Good,            .River_Super
 	fishgroup 55 percent, (55 + 5) percent, .Pond_Old,             .Pond_Good,             .Pond_Super
 	fishgroup 60 percent, (60 + 3) percent, .Dratini_Old,          .Dratini_Good,          .Dratini_Super
@@ -69,13 +69,13 @@ ENDM
 
 .Lake_Old:
 .River_Old:
-.Well_Old:
+.Sewers_Old:
 	fishentry  70 percent + 1, RATTATA,   10
 	fishentry  85 percent + 1, RATTATA,   10
 	fishentry 100 percent,     RATTATA,    10
 .Lake_Good:
 .River_Good:
-.Well_Good:
+.Sewers_Good:
 	fishentry  35 percent,     RATTATA,   20
 	fishentry  70 percent,     RATTATA,    20
 	fishentry  90 percent + 1, RATTATA,    20
@@ -87,7 +87,7 @@ ENDM
 	fishentry  90 percent + 1, RATTATA,   40
 	fishentry 100 percent,     RATTATA,    40
 
-.Well_Super:
+.Sewers_Super:
 	fishentry  40 percent,     RATTATA,    40
 	fishentry  70 percent,     RATTATA,    40
 	fishentry  90 percent + 1, RATTATA,   40
