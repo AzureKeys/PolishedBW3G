@@ -17,7 +17,6 @@ MapScenes::
 	scene_var CASTELIA_CITY_STREETS,                  wCasteliaCityStreetsSceneID
 	scene_var CASTELIA_GYM,                           wAlways0SceneID
 	scene_var CASTELIA_PORT,                          wCasteliaPortSceneID
-	scene_var CASTELIA_SEWERS,                        wCasteliaSewersSceneID
 	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wCasteliaSkyarrowBridgeGateSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var DREAMYARD,                              wDreamyardSceneID

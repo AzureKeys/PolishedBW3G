@@ -25,6 +25,8 @@ CasteliaSewersRooms_MapScriptHeader:
 	def_object_events
 	object_event  1,  4, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_GENERICTRAINER, 3, TrainerWorkerCasteliaSewersRooms, -1
 	object_event  3, 13, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_TEAL, OBJECTTYPE_GENERICTRAINER, 2, TrainerJanitorCasteliaSewersRooms, -1
+	itemball_event 17,  1, TWISTEDSPOON, 1, EVENT_CASTELIA_SEWERS_ROOMS_TWISTEDSPOON
+	itemball_event 21, 11, HP_UP, 1, EVENT_CASTELIA_SEWERS_ROOMS_HP_UP
 	
 CasteliaSewersWaterToggleScript:
 	opentext
