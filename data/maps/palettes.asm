@@ -30,6 +30,7 @@ ENDM
 	special_bg_pal map,      CASTELIA_CITY_NORTH,         PAL_TIMEOFDAY, CasteliaNorthPalette
 	special_bg_pal map,      CASTELIA_GYM,                PAL_SINGLE,    CasteliaGymPalette
 	special_bg_pal map,      CASTELIA_SEWERS,             PAL_SINGLE,    SewersPalette
+	special_bg_pal map,      CASTELIA_SEWERS_ROOMS,       PAL_SINGLE,    SewersPalette
 	special_bg_pal map,      SKYARROW_BRIDGE,             PAL_TIMEOFDAY, SkyarrowBridgePalette
 	special_bg_pal map,      NIMBASA_PARK_COASTER_ROOM,   PAL_SINGLE,    CoasterRoomPalette
 	special_bg_pal map,      VIRBANK_GYM,                 PAL_SINGLE,    VirbankGymPalette

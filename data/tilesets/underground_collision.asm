@@ -161,3 +161,15 @@
 	tilecoll TOP_WALL, WALL, FLOOR, WATER ; a0
 	tilecoll FLOOR, WATER, WALL, WALL ; a1
 	tilecoll WATER, TOP_WALL, FLOOR, FLOOR ; a2
+	tilecoll WALL, WALL, FLOOR, FLOOR ; a3
+	tilecoll WALL, WALL, FLOOR, FLOOR ; a4
+	tilecoll WALL, WALL, FLOOR, FLOOR ; a5
+	tilecoll WALL, WALL, WALL, WALL ; a6
+	tilecoll WALL, WALL, WALL, WALL ; a7
+	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; a8
+	tilecoll WALL, WALL, WALL, WALL ; a9
+	tilecoll WALL, WALL, WALL, WALL ; aa
+	tilecoll WALL, WALL, WALL, WALL ; ab
+	tilecoll WALL, WALL, FLOOR, LADDER ; ac
+	tilecoll WALL, WALL, WALL, WALL ; ad
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ae

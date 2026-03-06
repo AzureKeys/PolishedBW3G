@@ -137,6 +137,7 @@ ENDM
 	map_attributes P2LabEntrance, P2_LAB_ENTRANCE, $0, 0
 	map_attributes P2Lab, P2_LAB, $0, 0
 	map_attributes CasteliaSewers, CASTELIA_SEWERS, $0, 0
+	map_attributes CasteliaSewersRooms, CASTELIA_SEWERS_ROOMS, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

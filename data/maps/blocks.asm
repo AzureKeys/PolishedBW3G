@@ -557,4 +557,8 @@ SECTION "CasteliaSewers_BlockData", ROMX
 CasteliaSewers_BlockData:
 	INCBIN "maps/CasteliaSewers.ablk.lzp"
 
+SECTION "CasteliaSewersRooms_BlockData", ROMX
+CasteliaSewersRooms_BlockData:
+	INCBIN "maps/CasteliaSewersRooms.ablk.lzp"
+
 ENDSECTION
