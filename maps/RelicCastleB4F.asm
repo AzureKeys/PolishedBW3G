@@ -9,6 +9,7 @@ RelicCastleB4F_MapScriptHeader:
 	warp_event 23, 21, RELIC_CASTLE_B4F, 2
 	warp_event 19,  9, RELIC_CASTLE_B4F, 5
 	warp_event 12, 15, RELIC_CASTLE_B4F, 4
+	warp_event  3, 21, RELIC_PASSAGE_BACK, 7
 	
 	def_coord_events
 

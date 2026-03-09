@@ -9,6 +9,8 @@ RelicPassageFront_MapScriptHeader:
 	warp_event 37, 23, CASTELIA_SEWERS, 8
 	warp_event 17, 14, RELIC_PASSAGE_FRONT, 3 ; hole
 	warp_event 18, 14, RELIC_PASSAGE_FRONT, 3 ; spawn from fall in hole
+	warp_event  5,  7, RELIC_PASSAGE_BACK, 1
+	warp_event  9,  1, RELIC_PASSAGE_BACK, 2
 	
 	def_coord_events
 

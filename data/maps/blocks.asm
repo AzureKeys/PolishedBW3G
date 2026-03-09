@@ -565,4 +565,8 @@ SECTION "RelicPassageFront_BlockData", ROMX
 RelicPassageFront_BlockData:
 	INCBIN "maps/RelicPassageFront.ablk.lzp"
 
+SECTION "RelicPassageBack_BlockData", ROMX
+RelicPassageBack_BlockData:
+	INCBIN "maps/RelicPassageBack.ablk.lzp"
+
 ENDSECTION
