@@ -573,4 +573,8 @@ SECTION "PWTOutside_BlockData", ROMX
 PWTOutside_BlockData:
 	INCBIN "maps/PWTOutside.ablk.lzp"
 
+SECTION "PWTInside_BlockData", ROMX
+PWTInside_BlockData:
+	INCBIN "maps/PWTInside.ablk.lzp"
+
 ENDSECTION

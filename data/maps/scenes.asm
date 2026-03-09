@@ -41,6 +41,7 @@ MapScenes::
 	scene_var PINWHEEL_FOREST,                        wPinwheelForestSceneID
 	scene_var PINWHEEL_SKYARROW_BRIDGE_GATE,          wPinwheelSkyarrowBridgeGateSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
+	scene_var PWT_INSIDE,                             wAlways0SceneID
 	scene_var PWT_OUTSIDE,                            wPWTOutsideSceneID
 	scene_var ROUTE_5_DRAWBRIDGE_GATE,                wRoute5DrawbridgeGateSceneID
 	scene_var ROUTE_12,                               wRoute12SceneID

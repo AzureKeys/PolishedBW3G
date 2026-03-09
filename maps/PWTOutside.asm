@@ -4,7 +4,9 @@ PWTOutside_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  9, RELIC_PASSAGE_BACK, 8
+	warp_event  4, 13, RELIC_PASSAGE_BACK, 8
+	warp_event 26,  9, PWT_INSIDE, 1
+	warp_event 27,  9, PWT_INSIDE, 2
 
 	def_coord_events
 	coord_event  8, 13, 0, PWTOutside_CherenBiancaScript
@@ -19,7 +21,8 @@ PWTOutside_MapScriptHeader:
 	object_event 32, 11, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, PWTOutsideCooltrainerMText, -1
 	object_event 22, 12, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_DARK_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, PWTOutsideCooltrainerFText, -1
 	object_event 26, 24, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, PWTOutsideSailorText, -1
-
+	itemball_event 20, 25, CARBOS, 1, EVENT_PWT_OUTSIDE_CARBOS
+	
 	object_const_def
 	const PWTOUTSIDE_CHEREN
 	const PWTOUTSIDE_BIANCA

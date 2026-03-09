@@ -271,9 +271,10 @@ INCLUDE "maps/NuvemaLab.asm"
 INCLUDE "maps/NuvemaMomHouse.asm"
 
 
-SECTION "Driftveil Scripts", ROMX
+SECTION "PWT Scripts", ROMX
 
 INCLUDE "maps/PWTOutside.asm"
+INCLUDE "maps/PWTInside.asm"
 
 
 ENDSECTION

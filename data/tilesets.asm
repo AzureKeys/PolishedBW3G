@@ -43,6 +43,7 @@ Tilesets::
 	tileset TilesetStriaton
 	tileset TilesetDreamyard
 	tileset TilesetPWTOutside
+	tileset TilesetPWTInside
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetUnovaEast
@@ -689,6 +690,22 @@ TilesetPWTOutsideMeta:: INCBIN "data/tilesets/pwt_outside_metatiles.bin.lzp"
 TilesetPWTOutsideAttr:: INCBIN "data/tilesets/pwt_outside_attributes.bin.lzp"
 TilesetPWTOutsideColl:: INCBIN "data/tilesets/pwt_outside_collision.bin.lzp"
 
+SECTION "Tileset Graphics - pwt inside vram0", ROMX
+
+TilesetPWTInsideGFX0:: INCBIN "gfx/tilesets/pwt_inside.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - pwt inside vram1", ROMX
+
+TilesetPWTInsideGFX1:: INCBIN "gfx/tilesets/pwt_inside.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - pwt inside", ROMX
+
+TilesetPWTInsideMeta:: INCBIN "data/tilesets/pwt_inside_metatiles.bin.lzp"
+TilesetPWTInsideAttr:: INCBIN "data/tilesets/pwt_inside_attributes.bin.lzp"
+TilesetPWTInsideColl:: INCBIN "data/tilesets/pwt_inside_collision.bin.lzp"
+
 
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
@@ -740,6 +757,7 @@ TilesetNacreneGFX2::
 TilesetStriatonGFX2::
 TilesetDreamyardGFX2::
 TilesetPWTOutsideGFX2::
+TilesetPWTInsideGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::

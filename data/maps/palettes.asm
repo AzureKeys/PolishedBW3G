@@ -46,6 +46,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_LENTIMAS,            PAL_TIMEOFDAY, LentimasPalette
 	special_bg_pal tileset,  TILESET_PARK,                PAL_TIMEOFDAY, ParkPalette
 	special_bg_pal tileset,  TILESET_DESERT,              PAL_TIMEOFDAY, DesertPalette
+	special_bg_pal tileset,  TILESET_PWT_INSIDE,          PAL_SINGLE,    PWTPalette
 	special_bg_pal tileset,  TILESET_HIDDEN_GROTTO,       PAL_SPECIAL,   HiddenGrottoSpecialCase ; *
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
@@ -65,6 +66,18 @@ endc
 UnovaHousePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/unova_house.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+PWTPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/pwt.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

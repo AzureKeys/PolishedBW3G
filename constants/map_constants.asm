@@ -240,5 +240,6 @@ ENDM
 	
 	newgroup                                                     ; 17
 	map_const PWT_OUTSIDE,                                19, 15 ;  1
+	map_const PWT_INSIDE,                                  8,  9 ;  2
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

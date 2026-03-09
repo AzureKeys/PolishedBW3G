@@ -196,13 +196,13 @@ TilesetNacreneAnim::
 TilesetUndergroundAnim::
 	dw vTiles2 tile $2e, AnimateSpinnerTile
 	dw vTiles2 tile $7e, WriteTileToBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
+	dw NULL,  DoNothing
 	dw wTileAnimBuffer, ScrollTileRightLeft
 	dw NULL,  DoNothing
-	dw NULL,  FlickeringCaveEntrancePalette
+	dw NULL,  DoNothing
 	dw vTiles2 tile $7e, ReadTileFromBuffer
 	dw NULL,  DoNothing
-	dw NULL,  FlickeringCaveEntrancePalette
+	dw NULL,  DoNothing
 	dw NULL,  StandingTileFrame8
 	dw NULL,  DoneTileAnimation
 	
@@ -228,6 +228,7 @@ TilesetChampionsRoomAnim::
 TilesetBattleTowerAnim::
 TilesetBattleFactoryAnim::
 TilesetLentimasAnim::
+TilesetPWTInsideAnim::
 TilesetHiddenGrottoAnim::
 TilesetKantoGymAnim::
 	dw NULL,  DoNothing
