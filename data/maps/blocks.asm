@@ -569,4 +569,8 @@ SECTION "RelicPassageBack_BlockData", ROMX
 RelicPassageBack_BlockData:
 	INCBIN "maps/RelicPassageBack.ablk.lzp"
 
+SECTION "PWTOutside_BlockData", ROMX
+PWTOutside_BlockData:
+	INCBIN "maps/PWTOutside.ablk.lzp"
+
 ENDSECTION

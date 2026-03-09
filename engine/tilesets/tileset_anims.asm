@@ -79,6 +79,7 @@ TilesetDreamyardAnim::
 	dw NULL,  DoneTileAnimation
 	
 TilesetCasteliaAnim::
+TilesetPWTOutsideAnim::
 	dw NULL,  DoNothing
 	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
 	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile

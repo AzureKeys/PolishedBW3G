@@ -238,4 +238,7 @@ ENDM
 	map_const ROUTE_1_ROUTE_17_GATE,                       5,  4 ;  3
 	map_const ROUTE_18_HOUSE,                              4,  4 ;  4
 	
+	newgroup                                                     ; 17
+	map_const PWT_OUTSIDE,                                19, 15 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

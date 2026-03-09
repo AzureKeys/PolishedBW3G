@@ -13,6 +13,7 @@ RelicPassageBack_MapScriptHeader:
 	warp_event 13,  4, RELIC_PASSAGE_BACK, 6 ; hole
 	warp_event 14,  4, RELIC_PASSAGE_BACK, 6 ; spawn from fall in hole
 	warp_event 27,  1, RELIC_CASTLE_B4F, 6
+	warp_event  3,  3, PWT_OUTSIDE, 1
 	
 	def_coord_events
 

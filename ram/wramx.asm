@@ -1219,6 +1219,7 @@ wP2LabEntranceSceneID:: db
 wPinwheelForestSceneID:: db
 wPinwheelSkyarrowBridgeGateSceneID:: db
 wPlayersHouse1FSceneID:: db
+wPWTOutsideSceneID:: db
 wRoute5DrawbridgeGateSceneID:: db
 wRoute12SceneID:: db
 wRoute12VillageBridgeGateSceneID:: db
@@ -1255,7 +1256,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 125 ; unused
+	ds 124 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
