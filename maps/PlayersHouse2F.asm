@@ -227,9 +227,15 @@ endr
 	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
 	; evolve during battle
 	givepoke PUPITAR, 54
-	loadmem wPartyMon5Exp+2, LOW(207967)
-	loadmem wPartyMon5Exp+1, HIGH(207967)
 	loadmem wPartyMon5Exp+0, 207967 >> 16
+	loadmem wPartyMon5Exp+1, HIGH(207967)
+	loadmem wPartyMon5Exp+2, LOW(207967)
+	; max modern evs
+	loadmem wPartyMon5HPEV, MODERN_MAX_EV
+	loadmem wPartyMon5AtkEV, MODERN_MAX_EV
+	loadmem wPartyMon5SpeEV, MODERN_EV_LIMIT - MODERN_MAX_EV * 2
+	; hyper training
+	loadmem wPartyMon5HyperTraining, %01000000
 	; fill pokedex
 	callasm FillPokedex
 ;	; new bark events

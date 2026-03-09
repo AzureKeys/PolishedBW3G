@@ -75,7 +75,7 @@ SummaryScreenInit:
 	rst ByteFill
 	; Set up for HBlank
 
-	ld hl, hFunctionTarget
+	ld hl, hLCDInterruptFunctionTarget
 	ld b, [hl]
 	ld a, LOW(LCDSummaryScreenHideWindow)
 	ld [hli], a
@@ -120,7 +120,7 @@ SummaryScreenInit:
 	ldh [rIE], a
 
 	pop bc
-	ld hl, hFunctionTarget
+	ld hl, hLCDInterruptFunctionTarget
 	ld a, b
 	ld [hli], a
 	ld [hl], c
@@ -142,7 +142,7 @@ INCLUDE "gfx/stats/summary_sprites.pal"
 SummaryScreen_InitTiles:
 	ld hl, GFX_Summary
 	ld de, vTiles2 tile SUMMARY_TILE_START
-	lb bc, BANK(GFX_Summary), 18
+	lb bc, BANK(GFX_Summary), 17
 	call DecompressRequest2bpp
 
 	farcall LoadBoldPDoubled
@@ -456,10 +456,9 @@ SummaryScreen_InitLayout:
 
 	call .ApplySummaryPalettes
 
-	hlcoord 19 - NUM_SUMMARY_PAGES * 2, 0
-	ld [hl], SUMMARY_TILE_LEFT_ARROW
-	hlcoord 19, 0
-	ld [hl], SUMMARY_TILE_RIGHT_ARROW
+	ld a, SUMMARY_TILE_ARROW
+	ldcoord_a 19 - NUM_SUMMARY_PAGES * 2, 0
+	ldcoord_a 19, 0
 	ret
 
 .PlaceHPBar:
@@ -570,6 +569,9 @@ SummaryScreen_InitAttrmap:
 
 	hlcoord 5, 9, wAttrmap
 	ld [hl], SUMMARY_PAL_GENDER_MARKER
+
+	hlcoord 19, 0, wAttrmap
+	ld [hl], SUMMARY_PAL_POKEMON | BG_XFLIP
 
 	hlcoord 2, 8, wAttrmap
 	lb bc, 3, 3
@@ -786,9 +788,9 @@ SummaryScreen_SwitchPage:
 	ld a, 2
 	ld [wSummaryScreenStep], a
 	ld a, LOW(LCDSummaryScreenShowWindow)
-	ldh [hFunctionTargetLo], a
+	ldh [hLCDInterruptFunctionTargetLo], a
 	ld a, HIGH(LCDSummaryScreenShowWindow)
-	ldh [hFunctionTargetHi], a
+	ldh [hLCDInterruptFunctionTargetHi], a
 
 	ldh a, [rLCDC]
 	set B_LCDC_WINDOW, a
