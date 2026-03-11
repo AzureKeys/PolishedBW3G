@@ -241,5 +241,9 @@ ENDM
 	newgroup                                                     ; 17
 	map_const PWT_OUTSIDE,                                19, 15 ;  1
 	map_const PWT_INSIDE,                                  8,  9 ;  2
+	map_const PWT_HALLWAY,                                10,  3 ;  3
+	map_const PWT_QUALIFIER_ROOM,                          8,  6 ;  4
+	map_const PWT_BACK_ROOM,                               4,  6 ;  5
+	map_const PWT_BATTLE_ROOM,                             8,  6 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

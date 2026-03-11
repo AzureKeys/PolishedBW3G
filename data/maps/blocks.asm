@@ -577,4 +577,17 @@ SECTION "PWTInside_BlockData", ROMX
 PWTInside_BlockData:
 	INCBIN "maps/PWTInside.ablk.lzp"
 
+SECTION "PWTHallway_BlockData", ROMX
+PWTHallway_BlockData:
+	INCBIN "maps/PWTHallway.ablk.lzp"
+
+SECTION "PWTBackRoom_BlockData", ROMX
+PWTBackRoom_BlockData:
+	INCBIN "maps/PWTBackRoom.ablk.lzp"
+
+SECTION "PWTBattleRoom_BlockData", ROMX
+PWTQualifierRoom_BlockData:
+PWTBattleRoom_BlockData:
+	INCBIN "maps/PWTBattleRoom.ablk.lzp"
+
 ENDSECTION

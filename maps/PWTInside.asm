@@ -6,7 +6,7 @@ PWTInside_MapScriptHeader:
 	def_warp_events
 	warp_event  7, 17, PWT_OUTSIDE, 2
 	warp_event  8, 17, PWT_OUTSIDE, 3
-	;warp_event  7,  0, PWT_HALLWAY, 1
+	warp_event  7,  0, PWT_HALLWAY, 1
 
 	def_coord_events
 	coord_event  7,  1, 0, PWTInside_EnterFromBackScript
@@ -84,7 +84,7 @@ PWTInside_MainReceptionistScript:
 .EnterBack
 	applymovement PWTINSIDE_RECEPTIONIST, PWTInside_ReceptionistMovement
 	applymovement PLAYER, .Movement
-	;setmapscene PWT_HALLWAY, 1
+	setmapscene PWT_HALLWAY, 1
 	warpcheck
 	end
 	

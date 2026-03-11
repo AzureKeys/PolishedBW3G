@@ -142,6 +142,10 @@ ENDM
 	map_attributes RelicPassageBack, RELIC_PASSAGE_BACK, $0, 0
 	map_attributes PWTOutside, PWT_OUTSIDE, $1b, 0
 	map_attributes PWTInside, PWT_INSIDE, $0, 0
+	map_attributes PWTHallway, PWT_HALLWAY, $0, 0
+	map_attributes PWTQualifierRoom, PWT_QUALIFIER_ROOM, $0, 0
+	map_attributes PWTBackRoom, PWT_BACK_ROOM, $0, 0
+	map_attributes PWTBattleRoom, PWT_BATTLE_ROOM, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

@@ -41,8 +41,12 @@ MapScenes::
 	scene_var PINWHEEL_FOREST,                        wPinwheelForestSceneID
 	scene_var PINWHEEL_SKYARROW_BRIDGE_GATE,          wPinwheelSkyarrowBridgeGateSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
+	scene_var PWT_BACK_ROOM,                          wPWTBackRoomSceneID
+	scene_var PWT_BATTLE_ROOM,                        wPWTBattleRoomSceneID
+	scene_var PWT_HALLWAY,                            wPWTHallwaySceneID
 	scene_var PWT_INSIDE,                             wAlways0SceneID
 	scene_var PWT_OUTSIDE,                            wPWTOutsideSceneID
+	scene_var PWT_QUALIFIER_ROOM,                     wPWTQualifierRoomSceneID
 	scene_var ROUTE_5_DRAWBRIDGE_GATE,                wRoute5DrawbridgeGateSceneID
 	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID

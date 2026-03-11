@@ -103,8 +103,8 @@ BridgeCableSpriteGFX:: INCBIN "gfx/sprites/bridge_cable.2bpp.lzp"
 SECTION "LenoraSpriteGFX", ROMX
 LenoraSpriteGFX:: INCBIN "gfx/sprites/lenora.2bpp.lzp"
 
-SECTION "ElmSpriteGFX", ROMX
-ElmSpriteGFX:: INCBIN "gfx/sprites/elm.2bpp.lzp"
+SECTION "ClaySpriteGFX", ROMX
+ClaySpriteGFX:: INCBIN "gfx/sprites/clay.2bpp.lzp"
 
 SECTION "IvySpriteGFX", ROMX
 IvySpriteGFX:: INCBIN "gfx/sprites/ivy.2bpp.lzp"

@@ -40,7 +40,7 @@ SpriteHeaders:
 	overworld_sprite SocialiteSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite BridgeCableSpriteGFX, STANDING_SPRITE, PAL_OW_BRIDGE_CABLE
 	overworld_sprite LenoraSpriteGFX, WALKING_SPRITE, PAL_OW_DARK_BLUE
-	overworld_sprite ElmSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite ClaySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite IvySpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite WestwoodSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite WillowSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN

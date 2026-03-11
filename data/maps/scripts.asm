@@ -275,6 +275,10 @@ SECTION "PWT Scripts", ROMX
 
 INCLUDE "maps/PWTOutside.asm"
 INCLUDE "maps/PWTInside.asm"
+INCLUDE "maps/PWTHallway.asm"
+INCLUDE "maps/PWTQualifierRoom.asm"
+INCLUDE "maps/PWTBackRoom.asm"
+INCLUDE "maps/PWTBattleRoom.asm"
 
 
 ENDSECTION

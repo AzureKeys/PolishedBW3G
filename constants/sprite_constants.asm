@@ -35,7 +35,7 @@
 	const SPRITE_SOCIALITE ; 21
 	const SPRITE_BRIDGE_CABLE ; 22
 	const SPRITE_LENORA ; 23
-	const SPRITE_ELM ; 24
+	const SPRITE_CLAY ; 24
 	const SPRITE_IVY ; 25
 	const SPRITE_WESTWOOD ; 26
 	const SPRITE_WILLOW ; 27
@@ -225,10 +225,11 @@ DEF SPRITE_POKEMON EQU const_value
 
 ; wVariableSprites indexes (see ram/wramx.asm)
 DEF SPRITE_VARS EQU const_value
-	const SPRITE_CONSOLE ; f5
-	const SPRITE_DOLL_1 ; f6
-	const SPRITE_DOLL_2 ; f7
-	const SPRITE_BIG_DOLL ; f8
+	const SPRITE_CONSOLE ; f4
+	const SPRITE_DOLL_1 ; f5
+	const SPRITE_DOLL_2 ; f6
+	const SPRITE_BIG_DOLL ; f7
+	const SPRITE_VIO ; f8
 	const SPRITE_VIRBANK_GRUNT_1 ; f9
 	const SPRITE_VIRBANK_GRUNT_2 ; fa
 	const SPRITE_VIRBANK_GRUNT_3 ; fb
