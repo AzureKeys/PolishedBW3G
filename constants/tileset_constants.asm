@@ -36,6 +36,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_DREAMYARD            ; 2c
 	const TILESET_PWT_OUTSIDE          ; 2c
 	const TILESET_PWT_INSIDE           ; 2c
+	const TILESET_DRIFTVEIL            ; 2c
 	const TILESET_UNOVA_BEACH          ; 2c
 	const TILESET_UNOVA_WEST           ; 2c
 	const TILESET_UNOVA_EAST           ; 2c

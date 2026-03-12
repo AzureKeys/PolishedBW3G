@@ -23,6 +23,7 @@ OpenMartDialog::
 .dialogs
 	dw MartDialog
 	dw HerbShop
+	dw MarketShop
 	dw BargainShop
 	dw Pharmacist
 	dw RooftopSale
@@ -48,6 +49,15 @@ HerbShop:
 	call MartTextbox
 	call BuyMenu
 	ld hl, Text_HerbShop_ComeAgain
+	jmp MartTextbox
+
+MarketShop:
+	call FarReadMart
+	call LoadStandardMenuHeader
+	ld hl, Text_MarketShop_Intro
+	call MartTextbox
+	call BuyMenu
+	ld hl, Text_MarketShop_ComeAgain
 	jmp MartTextbox
 
 ExpCandyMart:
@@ -604,6 +614,7 @@ GetMartDialogGroup:
 .MartTextFunctionPointers:
 	dwb .StandardMartPointers, 0
 	dwb .HerbShopPointers, 0
+	dwb .MarketShopPointers, 0
 	dwb .BargainShopPointers, 1
 	dwb .PharmacyPointers, 0
 	dwb .StandardMartPointers, 2
@@ -630,6 +641,14 @@ GetMartDialogGroup:
 	dw Text_HerbShop_InsufficientFunds
 	dw Text_HerbShop_BagFull
 	dw Text_HerbShop_HereYouGo
+	dw BuyMenuLoop
+
+.MarketShopPointers:
+	dw Text_MarketShop_HowMany
+	dw Text_MarketShop_CostsThisMuch
+	dw Text_MarketShop_InsufficientFunds
+	dw Text_MarketShop_BagFull
+	dw Text_MarketShop_HereYouGo
 	dw BuyMenuLoop
 
 .BargainShopPointers:
@@ -1312,6 +1331,30 @@ Text_HerbShop_ComeAgain:
 	text_far _HerbalLadyComeAgainText
 	text_end
 
+Text_MarketShop_Intro:
+	text_far _MarketShopIntroText
+	text_end
+
+Text_MarketShop_CostsThisMuch:
+	text_far _MarketShopFinalPriceText
+	text_end
+
+Text_MarketShop_HereYouGo:
+	text_far _MarketShopThanksText
+	text_end
+
+Text_MarketShop_BagFull:
+	text_far _MarketShopPackFullText
+	text_end
+
+Text_MarketShop_InsufficientFunds:
+	text_far _MarketShopNoMoneyText
+	text_end
+
+Text_MarketShop_ComeAgain:
+	text_far _MarketShopComeAgainText
+	text_end
+
 Text_BargainShop_Intro:
 	; Hiya! Care to see some bargains? I sell rare items that nobody else carries--but only one of each item.
 	text_far _BargainShopIntroText
@@ -1358,6 +1401,7 @@ Text_Pharmacist_Intro:
 	text_end
 
 Text_HerbShop_HowMany:
+Text_MarketShop_HowMany:
 Text_Pharmacy_HowMany:
 Text_SilphMart_HowMany:
 Text_AdventurerMart_HowMany:

@@ -13,6 +13,8 @@ Marts:
 	dw MartNimbasaTM
 	dw MartNimbasaVitamin
 	dw MartNimbasaGate
+	dw MartDriftveilMerchant1
+	dw MartDriftveilMerchant2
 	dw BattleTowerMart1
 	dw BattleTowerMart2
 	dw BattleTowerMart3
@@ -192,6 +194,26 @@ MartNimbasaGate:
 	db ENERGY_ROOT
 	db HEAL_POWDER
 	db REVIVAL_HERB
+	db -1
+
+MartDriftveilMerchant1:
+	db 4 ; # items
+	db SILK_SCARF
+	db MIRACLE_SEED
+	db CHARCOAL
+	db MYSTIC_WATER
+	db -1
+
+MartDriftveilMerchant2:
+	db 8 ; # items
+	db X_ATTACK
+	db X_DEFEND
+	db X_SPEED
+	db X_SP_ATK
+	db X_SP_DEF
+	db X_ACCURACY
+	db DIRE_HIT
+	db GUARD_SPEC
 	db -1
 
 BattleTowerMart1:

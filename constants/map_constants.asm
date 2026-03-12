@@ -246,4 +246,7 @@ ENDM
 	map_const PWT_BACK_ROOM,                               4,  6 ;  5
 	map_const PWT_BATTLE_ROOM,                             8,  6 ;  6
 	
+	newgroup                                                     ; 18
+	map_const DRIFTVEIL_CITY,                             26, 20 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

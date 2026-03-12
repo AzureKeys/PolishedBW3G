@@ -36,6 +36,7 @@ MapGroupPointers::
 	dw MapGroupAccumula
 	dw MapGroupP2
 	dw MapGroupPWT
+	dw MapGroupDriftveil
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -257,4 +258,7 @@ MapGroupPWT:
 	map PWTQualifierRoom, TILESET_PWT_INSIDE, INDOOR, SIGN_BUILDING, PWT, MUSIC_ROUTE_4, 1, PALETTE_DAY
 	map PWTBackRoom, TILESET_PWT_INSIDE, INDOOR, SIGN_BUILDING, PWT, MUSIC_ROUTE_4, 1, PALETTE_DAY
 	map PWTBattleRoom, TILESET_PWT_INSIDE, INDOOR, SIGN_BUILDING, PWT, MUSIC_ROUTE_4, 1, PALETTE_DAY
+
+MapGroupDriftveil:
+	map DriftveilCity, TILESET_DRIFTVEIL, TOWN, SIGN_CITY, DRIFTVEIL_CITY, MUSIC_DRIFTVEIL_CITY, 0, PALETTE_AUTO
 	

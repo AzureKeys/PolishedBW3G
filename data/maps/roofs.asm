@@ -22,4 +22,5 @@ MapGroupRoofs:
 	db -1            ; Accumula
 	db -1            ; P2
 	db -1            ; PWT
+	db -1            ; Driftveil
 	assert_table_length NUM_MAP_GROUPS + 1

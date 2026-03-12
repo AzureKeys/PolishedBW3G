@@ -281,4 +281,9 @@ INCLUDE "maps/PWTBackRoom.asm"
 INCLUDE "maps/PWTBattleRoom.asm"
 
 
+SECTION "Driftveil Scripts", ROMX
+
+INCLUDE "maps/DriftveilCity.asm"
+
+
 ENDSECTION

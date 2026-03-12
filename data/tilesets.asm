@@ -44,6 +44,7 @@ Tilesets::
 	tileset TilesetDreamyard
 	tileset TilesetPWTOutside
 	tileset TilesetPWTInside
+	tileset TilesetDriftveil
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetUnovaEast
@@ -107,6 +108,28 @@ SECTION "Tileset Data - unova east", ROMX
 TilesetUnovaEastMeta:: INCBIN "data/tilesets/unova_east_metatiles.bin.lzp"
 TilesetUnovaEastAttr:: INCBIN "data/tilesets/unova_east_attributes.bin.lzp"
 TilesetUnovaEastColl:: INCBIN "data/tilesets/unova_east_collision.bin.lzp"
+
+
+SECTION "Tileset Graphics - driftveil vram0", ROMX
+
+TilesetDriftveilGFX0:: INCBIN "gfx/tilesets/driftveil_common.2bpp.lzp"
+
+
+SECTION "Tileset Graphics - driftveil vram1", ROMX
+
+TilesetDriftveilGFX1:: INCBIN "gfx/tilesets/driftveil.driftveil_common.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - driftveil vram2", ROMX
+
+TilesetDriftveilGFX2:: INCBIN "gfx/tilesets/driftveil.driftveil_common.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - driftveil", ROMX
+
+TilesetDriftveilMeta:: INCBIN "data/tilesets/driftveil_metatiles.bin.lzp"
+TilesetDriftveilAttr:: INCBIN "data/tilesets/driftveil_attributes.bin.lzp"
+TilesetDriftveilColl:: INCBIN "data/tilesets/driftveil_collision.bin.lzp"
 
 
 SECTION "Tileset Graphics - johto common vram0", ROMX

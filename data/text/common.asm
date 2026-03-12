@@ -3504,6 +3504,54 @@ _HerbalLadyComeAgainText::
 	line "Hehehehe…"
 	done
 
+SECTION "_MarketShopIntroText", ROMX
+_MarketShopIntroText::
+	text "Why hello there,"
+	line "young'un. See"
+	
+	para "anything that"
+	line "interests you?"
+	done
+
+SECTION "_MarketShopFinalPriceText", ROMX
+_MarketShopFinalPriceText::
+	text_decimal wItemQuantityChangeBuffer, 1, 2
+	text " "
+	text_ram wStringBuffer2
+	text_plural
+	text ","
+	line "that comes to"
+	cont "¥"
+	text_decimal hMoneyTemp, 3, 7
+	text "."
+	done
+
+SECTION "_MarketShopThanksText", ROMX
+_MarketShopThanksText::
+	text "Thank you for"
+	line "your purchase!"
+	done
+
+SECTION "_MarketShopPackFullText", ROMX
+_MarketShopPackFullText::
+	text "Looks like you've"
+	line "got no room for"
+	cont "it."
+	done
+
+SECTION "_MarketShopNoMoneyText", ROMX
+_MarketShopNoMoneyText::
+	text "Sorry, save up"
+	line "your money and"
+	cont "come back."
+	done
+
+SECTION "_MarketShopComeAgainText", ROMX
+_MarketShopComeAgainText::
+	text "Please stop by"
+	line "again!"
+	done
+
 SECTION "_BargainShopIntroText", ROMX
 _BargainShopIntroText::
 	text "Hiya! Care to see"

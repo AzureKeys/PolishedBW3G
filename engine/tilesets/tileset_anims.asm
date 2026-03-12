@@ -53,6 +53,7 @@ TilesetForestAnim::
 TilesetNimbasaAnim::
 TilesetParkAnim::
 TilesetStriatonAnim::
+TilesetDriftveilAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile

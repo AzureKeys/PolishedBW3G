@@ -590,4 +590,8 @@ PWTQualifierRoom_BlockData:
 PWTBattleRoom_BlockData:
 	INCBIN "maps/PWTBattleRoom.ablk.lzp"
 
+SECTION "DriftveilCity_BlockData", ROMX
+DriftveilCity_BlockData:
+	INCBIN "maps/DriftveilCity.ablk.lzp"
+
 ENDSECTION

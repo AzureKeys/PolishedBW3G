@@ -88,6 +88,7 @@
 	const MUSIC_ACCUMULA_TOWN                  ; 54
 	const MUSIC_NUVEMA_TOWN                    ; 55
 	const MUSIC_ROUTE_17                       ; 56
+	const MUSIC_DRIFTVEIL_CITY                 ; 57
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

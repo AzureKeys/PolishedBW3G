@@ -146,6 +146,7 @@ ENDM
 	map_attributes PWTQualifierRoom, PWT_QUALIFIER_ROOM, $0, 0
 	map_attributes PWTBackRoom, PWT_BACK_ROOM, $0, 0
 	map_attributes PWTBattleRoom, PWT_BATTLE_ROOM, $0, 0
+	map_attributes DriftveilCity, DRIFTVEIL_CITY, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
