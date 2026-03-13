@@ -219,6 +219,10 @@ ENDM
 	map_attributes NuvemaLab, NUVEMA_LAB, $0, 0
 	map_attributes NuvemaMomHouse, NUVEMA_MOM_HOUSE, $0, 0
 	map_attributes Route18House, ROUTE_18_HOUSE, $0, 0
+	map_attributes DriftveilPokecenter, DRIFTVEIL_POKECENTER, $0, 0
+	map_attributes DriftveilEverstoneHouse, DRIFTVEIL_EVERSTONE_HOUSE, $0, 0
+	map_attributes DriftveilFossilHouse, DRIFTVEIL_FOSSIL_HOUSE, $0, 0
+	map_attributes DriftveilTradeHouse, DRIFTVEIL_TRADE_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -237,6 +241,8 @@ ENDM
 	map_attributes Route3NacreneGate, ROUTE_3_NACRENE_GATE, $0, 0
 	map_attributes Route2AccumulaGate, ROUTE_2_ACCUMULA_GATE, $0, 0
 	map_attributes Route1Route17Gate, ROUTE_1_ROUTE_17_GATE, $0, 0
+	map_attributes PWTDriftveilGate, PWT_DRIFTVEIL_GATE, $0, 0
+	map_attributes DriftveilDrawbridgeGate, DRIFTVEIL_DRAWBRIDGE_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

@@ -5,6 +5,14 @@ DriftveilCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, DriftveilFlyPoint
 
 	def_warp_events
+	warp_event 11, 35, PWT_DRIFTVEIL_GATE, 1
+	warp_event 12, 35, PWT_DRIFTVEIL_GATE, 2
+	warp_event 45, 28, DRIFTVEIL_DRAWBRIDGE_GATE, 1
+	warp_event 45, 29, DRIFTVEIL_DRAWBRIDGE_GATE, 2
+	warp_event 19, 17, DRIFTVEIL_POKECENTER, 1
+	warp_event 24, 25, DRIFTVEIL_EVERSTONE_HOUSE, 1
+	warp_event 27, 17, DRIFTVEIL_FOSSIL_HOUSE, 1
+	warp_event 10, 17, DRIFTVEIL_TRADE_HOUSE, 1
 	
 	def_coord_events
 

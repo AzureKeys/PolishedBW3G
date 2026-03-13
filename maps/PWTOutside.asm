@@ -7,6 +7,7 @@ PWTOutside_MapScriptHeader:
 	warp_event  4, 13, RELIC_PASSAGE_BACK, 8
 	warp_event 26,  9, PWT_INSIDE, 1
 	warp_event 27,  9, PWT_INSIDE, 2
+	warp_event 12,  5, PWT_DRIFTVEIL_GATE, 3
 
 	def_coord_events
 	coord_event  8, 13, 0, PWTOutside_CherenBiancaScript

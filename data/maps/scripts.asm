@@ -284,6 +284,12 @@ INCLUDE "maps/PWTBattleRoom.asm"
 SECTION "Driftveil Scripts", ROMX
 
 INCLUDE "maps/DriftveilCity.asm"
+INCLUDE "maps/PWTDriftveilGate.asm"
+INCLUDE "maps/DriftveilDrawbridgeGate.asm"
+INCLUDE "maps/DriftveilPokecenter.asm"
+INCLUDE "maps/DriftveilEverstoneHouse.asm"
+INCLUDE "maps/DriftveilFossilHouse.asm"
+INCLUDE "maps/DriftveilTradeHouse.asm"
 
 
 ENDSECTION

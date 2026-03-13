@@ -248,5 +248,11 @@ ENDM
 	
 	newgroup                                                     ; 18
 	map_const DRIFTVEIL_CITY,                             26, 20 ;  1
+	map_const PWT_DRIFTVEIL_GATE,                          5,  4 ;  2
+	map_const DRIFTVEIL_DRAWBRIDGE_GATE,                   5,  4 ;  3
+	map_const DRIFTVEIL_POKECENTER,                        5,  5 ;  4
+	map_const DRIFTVEIL_EVERSTONE_HOUSE,                   4,  4 ;  5
+	map_const DRIFTVEIL_FOSSIL_HOUSE,                      4,  4 ;  6
+	map_const DRIFTVEIL_TRADE_HOUSE,                       4,  4 ;  7
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

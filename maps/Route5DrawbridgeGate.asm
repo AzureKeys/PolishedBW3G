@@ -6,6 +6,8 @@ Route5DrawbridgeGate_MapScriptHeader:
 	def_warp_events
 	warp_event  9,  4, ROUTE_5, 3
 	warp_event  9,  5, ROUTE_5, 4
+	;warp_event  0,  4, DRIFTVEIL_DRAWBRIDGE, 3
+	;warp_event  0,  5, DRIFTVEIL_DRAWBRIDGE, 4
 
 	def_coord_events
 	coord_event  5,  4, 0, Route5DrawbridgeGateStopScript
@@ -31,7 +33,7 @@ Route5DrawbridgeGateStopScript:
 	waitsfx
 	showtext R5DrawbridgeGateLoweredText
 	setscene 1
-	;setmapscene DRIFTVEIL_DRAWBRIDGE_GATE, 1
+	setmapscene DRIFTVEIL_DRAWBRIDGE_GATE, 1
 	end
 	
 .RaisedText:

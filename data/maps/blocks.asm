@@ -19,6 +19,7 @@ VirbankPokecenter_BlockData:
 NacrenePokecenter_BlockData:
 StriatonPokecenter_BlockData:
 AccumulaPokecenter_BlockData:
+DriftveilPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -35,6 +36,9 @@ VirbankPoisonBarbHouse_BlockData:
 VirbankMuscleBandHouse_BlockData:
 AccumulaStonesHouse_BlockData:
 Route18House_BlockData:
+DriftveilEverstoneHouse_BlockData:
+DriftveilFossilHouse_BlockData:
+DriftveilTradeHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -64,6 +68,7 @@ Route20VirbankGate_BlockData:
 Route3NacreneGate_BlockData:
 Route2AccumulaGate_BlockData:
 Route1Route17Gate_BlockData:
+DriftveilDrawbridgeGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX
@@ -71,6 +76,7 @@ Route13UndellaTownGate_BlockData:
 Route4DesertGate_BlockData:
 Route4CasteliaGate_BlockData:
 Route19AspertiaGate_BlockData:
+PWTDriftveilGate_BlockData:
 	INCBIN "maps/NorthSouthGate.ablk.lzp"
 
 SECTION "LentimasLostlornGate_BlockData", ROMX
