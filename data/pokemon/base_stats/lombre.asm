@@ -1,5 +1,5 @@
-	db  60,  50,  50,  50,  60,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 340,  60,  50,  50,  60,  70,  50
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db WATER, GRASS  ; type
 	db 120  ; catch rate

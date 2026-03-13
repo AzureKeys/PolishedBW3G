@@ -1,5 +1,5 @@
-	db  76, 147,  90,  97,  60,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 540,  76, 147,  90,  60,  70,  97
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DRAGON, DRAGON  ; type
 	db 45  ; catch rate

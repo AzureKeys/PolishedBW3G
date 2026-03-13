@@ -1,5 +1,5 @@
-	db  40,  70,  40,  60,  35,  40  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 285,  40,  70,  40,  35,  40,  60
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIGHTING, FIGHTING  ; type
 	db 75  ; catch rate

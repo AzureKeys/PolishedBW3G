@@ -1,5 +1,5 @@
-	db 109,  81,  99,  32,  66,  84  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 471, 109,  81,  99,  66,  84,  32
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GROUND, STEEL  ; type
 	db 75  ; catch rate

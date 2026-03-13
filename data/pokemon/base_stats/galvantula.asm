@@ -1,5 +1,5 @@
-	db  70,  77,  60, 108,  97,  60  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 472,  70,  77,  60,  97,  60, 108
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db BUG, ELECTRIC  ; type
 	db 75  ; catch rate

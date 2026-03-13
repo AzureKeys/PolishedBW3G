@@ -1,5 +1,5 @@
-	db 105, 160,  55, 135,  30,  55  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 540, 105, 160,  55,  30,  55, 135
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ICE, FIRE  ; type
 	db 60  ; catch rate

@@ -1,5 +1,5 @@
-	db  99,  68,  83,  51,  72,  87   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 460,  99,  68,  83,  72,  87,  51
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GRASS, FLYING   ; type
 	db 200   ; catch rate

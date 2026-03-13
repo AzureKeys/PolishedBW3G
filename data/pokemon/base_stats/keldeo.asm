@@ -1,5 +1,5 @@
-	db  91,  72,  90, 108, 129,  90  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 580,  91,  72,  90, 129,  90, 108
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIGHTING, WATER  ; type
 	db 3  ; catch rate

@@ -1,5 +1,5 @@
-	db  59,  74,  50,  35,  35,  50  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 303,  59,  74,  50,  35,  50,  35
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GHOST, GROUND  ; type
 	db 190  ; catch rate

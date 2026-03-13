@@ -1,5 +1,5 @@
-	db 125, 130,  90,  95, 130,  90  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 660, 125, 130,  90, 130,  90,  95
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DRAGON, ICE  ; type
 	db 3  ; catch rate

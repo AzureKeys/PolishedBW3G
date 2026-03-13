@@ -1,5 +1,5 @@
-	db  83, 106,  65,  85,  86,  65   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 490,  83, 106,  65,  86,  65,  85
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db POISON, FIGHTING   ; type
 	db 75   ; catch rate

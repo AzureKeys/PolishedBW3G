@@ -1,5 +1,5 @@
-	db 110, 123,  65,  65, 100,  65  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 528, 110, 123,  65, 100,  65,  65
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIRE, FIGHTING  ; type
 	db 45  ; catch rate

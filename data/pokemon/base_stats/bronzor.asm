@@ -1,5 +1,5 @@
-	db  57,  24,  86,  23,  24,  86  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 300,  57,  24,  86,  24,  86,  23
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db STEEL, PSYCHIC  ; type
 	db 255  ; catch rate

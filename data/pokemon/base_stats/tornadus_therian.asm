@@ -1,5 +1,5 @@
-	db  79, 100,  80, 121, 110,  90   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 580,  79, 100,  80, 110,  90, 121
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FLYING, FLYING   ; type
 	db 3   ; catch rate

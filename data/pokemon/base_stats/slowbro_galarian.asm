@@ -1,5 +1,5 @@
-	db  95, 100,  95,  30, 100,  70  ; 490 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 490,  95, 100,  95, 100,  70,  30
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db POISON, PSYCHIC  ; type
 	db 75  ; catch rate

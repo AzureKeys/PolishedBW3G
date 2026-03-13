@@ -1,5 +1,5 @@
-	db  55, 112,  45,  70,  74,  45  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 401,  55, 112,  45,  74,  45,  70
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ROCK, FLYING  ; type
 	db 45  ; catch rate

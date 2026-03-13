@@ -1,5 +1,5 @@
-	db  50,  85,  85,  50,  55,  55  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 380,  50,  85,  85,  55,  55,  50
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db STEEL, FAIRY  ; type
 	db 45  ; catch rate

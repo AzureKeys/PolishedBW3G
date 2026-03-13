@@ -1,5 +1,5 @@
-	db  40,  40,  55,  55,  40,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 300,  40,  40,  55,  40,  70,  55
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GROUND, PSYCHIC  ; type
 	db 255  ; catch rate

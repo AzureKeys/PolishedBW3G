@@ -1,5 +1,5 @@
-	db  70,  85, 140,  20,  85,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 470,  70,  85, 140,  85,  70,  20
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIRE, FIRE  ; type
 	db 90  ; catch rate

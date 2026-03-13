@@ -1,5 +1,5 @@
-	db 120,  92,  65,  78, 100,  75  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 530, 120,  92,  65, 100,  75,  78
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db WATER, GHOST  ; type
 	db 45 ; catch rate

@@ -1,5 +1,5 @@
-	db  74, 115, 110,  46, 135, 100  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 580,  74, 115, 110, 135, 100,  46
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FAIRY, FLYING  ; type
 	db 3  ; catch rate

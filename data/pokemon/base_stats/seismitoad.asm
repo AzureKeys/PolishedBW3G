@@ -1,5 +1,5 @@
-	db 105,  95,  75,  74,  85,  75  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 509, 105,  95,  75,  85,  75,  74
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db WATER, GROUND  ; type
 	db 45  ; catch rate

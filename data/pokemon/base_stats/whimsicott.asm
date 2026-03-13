@@ -1,5 +1,5 @@
-	db  60,  67,  85, 116,  77,  75   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 480,  60,  67,  85,  77,  75, 116
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GRASS, FAIRY   ; type
 	db 75   ; catch rate

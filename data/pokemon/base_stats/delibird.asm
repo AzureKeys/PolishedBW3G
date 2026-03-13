@@ -1,5 +1,5 @@
-	db  45,  55,  45,  75,  65,  45  ; 330 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 330,  45,  55,  45,  65,  45,  75
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ICE, FLYING  ; type
 	db 45  ; catch rate

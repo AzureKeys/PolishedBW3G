@@ -1,5 +1,5 @@
-	db  90,  50,  34,  70,  60,  44  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 348,  90,  50,  34,  60,  44,  70
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GHOST, FLYING  ; type
 	db 125  ; catch rate

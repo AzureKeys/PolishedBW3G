@@ -1,5 +1,5 @@
-	db  60,  60,  60, 105, 105, 105  ; 495 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 495,  60,  60,  60, 105, 105, 105
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GHOST, GHOST  ; type
 	db 45  ; catch rate

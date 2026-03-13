@@ -1,5 +1,5 @@
-	db  71, 120,  95,  99, 120,  95  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 600,  71, 120,  95, 120,  95,  99
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db BUG, STEEL  ; type
 	db 3  ; catch rate

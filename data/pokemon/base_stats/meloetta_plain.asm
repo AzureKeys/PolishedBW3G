@@ -1,5 +1,5 @@
-	db 100,  77,  77,  90, 128, 128  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 600, 100,  77,  77, 128, 128,  90
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db NORMAL, PSYCHIC  ; type
 	db 3  ; catch rate

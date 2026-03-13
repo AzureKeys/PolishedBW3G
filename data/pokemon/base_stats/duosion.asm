@@ -1,5 +1,5 @@
-	db  65,  40,  50,  30, 125,  60  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 370,  65,  40,  50, 125,  60,  30
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db PSYCHIC, PSYCHIC  ; type
 	db 100  ; catch rate

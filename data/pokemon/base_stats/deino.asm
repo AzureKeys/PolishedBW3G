@@ -1,5 +1,5 @@
-	db  52,  65,  50,  38,  45,  50  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 300,  52,  65,  50,  45,  50,  38
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DRAGON, DARK  ; type
 	db 45  ; catch rate

@@ -1,5 +1,5 @@
-	db  40,  55,  30,  60,  30,  30  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 245,  40,  55,  30,  30,  30,  60
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db NORMAL, FLYING  ; type
 	db 255  ; catch rate

@@ -1,5 +1,5 @@
-	db  91,  90, 129, 108,  90,  72  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 580,  91,  90, 129,  90,  72, 108
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIGHTING, STEEL  ; type
 	db 3  ; catch rate

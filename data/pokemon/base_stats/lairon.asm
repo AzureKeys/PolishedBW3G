@@ -1,5 +1,5 @@
-	db  60,  90, 140,  40,  50,  50  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 430,  60,  90, 140,  50,  50,  40
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db STEEL, ROCK  ; type
 	db 90  ; catch rate

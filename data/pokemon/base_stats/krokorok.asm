@@ -1,5 +1,5 @@
-	db  60,  82,  45,  74,  45,  45  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 351,  60,  82,  45,  45,  45,  74
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GROUND, DARK  ; type
 	db 90 ; catch rate

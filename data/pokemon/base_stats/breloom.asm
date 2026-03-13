@@ -1,5 +1,5 @@
-	db  60, 130,  80,  70,  60,  60  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 460,  60, 130,  80,  60,  60,  70
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GRASS, FIGHTING  ; type
 	db 90  ; catch rate

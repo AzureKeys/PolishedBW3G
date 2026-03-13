@@ -1,5 +1,5 @@
-	db  50,  53,  48,  64,  53,  48  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 316,  50,  53,  48,  53,  48,  64
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIRE, FIRE  ; type
 	db 190  ; catch rate

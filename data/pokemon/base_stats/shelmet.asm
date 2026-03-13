@@ -1,5 +1,5 @@
-	db  50,  40,  85,  25,  40,  65  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 305,  50,  40,  85,  40,  65,  25
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db BUG, BUG  ; type
 	db 200  ; catch rate

@@ -1,5 +1,5 @@
-	db  30,  40,  55,  60,  40,  55  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 280,  30,  40,  55,  40,  55,  60
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIGHTING, PSYCHIC  ; type
 	db 180  ; catch rate

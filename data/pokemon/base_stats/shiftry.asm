@@ -1,5 +1,5 @@
-	db  90, 100,  60,  80,  90,  60  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 480,  90, 100,  60,  90,  60,  80
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GRASS, DARK  ; type
 	db 45  ; catch rate

@@ -1014,9 +1014,12 @@ wSummaryMoveSwap:: db
 ds 13
 assert @ % 16 == 0
 
+UNION
 wSummaryScreenWindowBuffer:: ds 32 * 10
-
 wSummaryScreenPPTileBuffer:: ds 3 * TILE_1BPP_SIZE
+NEXTU
+wColoredMaleFemaleShinyTiles:: ds 3 tiles
+ENDU
 
 
 SECTION UNION "Misc 1300", WRAM0

@@ -1,5 +1,5 @@
-	db  50,  60,  45,  65, 100,  80  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 400,  50,  60,  45, 100,  80,  65
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GRASS, POISON  ; type
 	db 150  ; catch rate

@@ -1,5 +1,5 @@
-	db  65,  90, 115,  58,  45, 115  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 488,  65,  90, 115,  45, 115,  58
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DARK, FIGHTING  ; type
 	db 90  ; catch rate

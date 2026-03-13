@@ -1,5 +1,5 @@
-	db 100, 150, 120,  90, 120, 100   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 680, 100, 150, 120, 120, 100,  90
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DRAGON, ELECTRIC   ; type
 	db 3   ; catch rate

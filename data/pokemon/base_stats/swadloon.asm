@@ -1,5 +1,5 @@
-	db  55,  63,  90,  42,  50,  80  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 380,  55,  63,  90,  50,  80,  42
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db BUG, GRASS  ; type
 	db 120  ; catch rate

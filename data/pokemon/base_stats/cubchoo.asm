@@ -1,5 +1,5 @@
-	db  55,  70,  40,  40,  60,  40  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 305,  55,  70,  40,  60,  40,  40
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ICE, ICE  ; type
 	db 120  ; catch rate

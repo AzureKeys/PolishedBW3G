@@ -1,5 +1,5 @@
-	db  50,  70,  50,  70,  50,  50   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 340,  50,  70,  50,  50,  50,  70
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GROUND, DRAGON   ; type
 	db 120   ; catch rate

@@ -265,9 +265,9 @@ LoadMapNameSignGFX:
 	ld c, l
 	pop hl
 	; hl = start of font tile graphic
-	push de
+	push bc
 	farcall LoadStandardFontPointer
-	pop de
+	pop bc
 	add hl, bc
 .got_tile
 	; swap hl and de, so de = font tile graphic, and hl = vram

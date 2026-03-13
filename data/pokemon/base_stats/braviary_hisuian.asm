@@ -1,5 +1,5 @@
-	db 110,  83,  70,  65, 112,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 510, 110,  83,  70, 112,  70,  65
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db PSYCHIC, FLYING  ; type
 	db 60  ; catch rate

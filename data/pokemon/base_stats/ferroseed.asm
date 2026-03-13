@@ -1,5 +1,5 @@
-	db  44,  50,  91,  10,  24,  86  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 305,  44,  50,  91,  24,  86,  10
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GRASS, STEEL  ; type
 	db 255  ; catch rate

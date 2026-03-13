@@ -1,5 +1,5 @@
-	db  60,  50, 100,  65,  85,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 430,  60,  50, 100,  85,  70,  65
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db WATER, FLYING  ; type
 	db 45  ; catch rate

@@ -1,5 +1,5 @@
-	db  75,  85, 200,  30,  55,  65  ; 510 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 510,  75,  85, 200,  55,  65,  30
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db STEEL, GROUND  ; type
 	db 25  ; catch rate

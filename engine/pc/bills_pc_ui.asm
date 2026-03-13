@@ -123,7 +123,7 @@ BillsPC_LoadUI:
 	; Cursor mode and Pack sprites
 	ld hl, BillsPC_ObjGFX
 	ld de, vTiles3 tile $24
-	lb bc, BANK(BillsPC_ObjGFX), 23
+	lb bc, BANK(BillsPC_ObjGFX), 27
 	call DecompressRequest2bpp
 
 	xor a
@@ -158,10 +158,12 @@ BillsPC_LoadUI:
 	dec [hl]
 
 	; Gender symbols and shiny star
-	ld hl, BattleExtrasGFX
-	ld de, vTiles2 tile $42
-	lb bc, BANK(BattleExtrasGFX), 3
-	call DecompressRequest2bpp
+	ld de, wBillsPC_ItemVWF
+	farcall CopyColoredMaleFemaleShinyTiles
+	ld hl, vTiles2 tile $42
+	ld de, wBillsPC_ItemVWF
+	lb bc, BANK(@), 3
+	call Get2bpp
 
 	; Box frame tiles and Pokérus symbols
 	ld hl, BillsPC_TileGFX
@@ -435,7 +437,9 @@ BillsPC_BlankTiles:
 
 BillsPC_SetCursorMode:
 	call _BillsPC_SetCursorMode
-	jmp BillsPC_SetPals
+BillsPC_SetPals:
+	call BillsPC_ApplyPals
+	jmp SetDefaultBGPAndOBP
 
 _BillsPC_SetCursorMode:
 ; Switches cursor mode and updates the cursor palette. Doesn't write palettes,
@@ -3530,10 +3534,6 @@ BillsPC_PlaceHeldMon:
 	ld [wBillsPC_CursorHeldBox], a
 	ld [wBillsPC_CursorHeldSlot], a
 	ret
-
-BillsPC_SetPals:
-	call BillsPC_ApplyPals
-	jmp SetDefaultBGPAndOBP
 
 BillsPC_ApplyPals:
 ; Sets palettes. This writes palette data for HBlank row1 mons/etc into

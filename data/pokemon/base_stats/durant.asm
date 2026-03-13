@@ -1,5 +1,5 @@
-	db  58, 109, 112, 109,  48,  48  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 484,  58, 109, 112,  48,  48, 109
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db BUG, STEEL  ; type
 	db 90  ; catch rate

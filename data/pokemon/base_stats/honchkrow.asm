@@ -1,5 +1,5 @@
-	db 100, 125,  52,  71, 105,  52  ; 505 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 505, 100, 125,  52, 105,  52,  71
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db DARK, FLYING  ; type
 	db 30  ; catch rate

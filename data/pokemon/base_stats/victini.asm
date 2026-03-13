@@ -1,5 +1,5 @@
-	db 100, 100, 100, 100, 100, 100   ; 310 BST
-	  ;   hp  atk  def  spe  sat  sdf
+	bst 600, 100, 100, 100, 100, 100, 100
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db PSYCHIC, FIRE   ; type
 	db 3   ; catch rate

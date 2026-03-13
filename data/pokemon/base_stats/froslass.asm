@@ -1,5 +1,5 @@
-	db  70,  80,  70, 110,  80,  70  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 480,  70,  80,  70,  80,  70, 110
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db ICE, GHOST  ; type
 	db 75  ; catch rate

@@ -1,5 +1,5 @@
-	db  73, 100,  60,  65, 100,  60  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 458,  73, 100,  60, 100,  60,  65
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db POISON, POISON  ; type
 	db 90  ; catch rate

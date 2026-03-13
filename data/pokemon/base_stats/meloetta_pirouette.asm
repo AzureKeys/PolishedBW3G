@@ -1,5 +1,5 @@
-	db 100, 128,  90, 128,  77,  77  ; 310 BST
-	 ;   hp  atk  def  spe  sat  sdf
+	bst 600, 100, 128,  90,  77,  77, 128
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db NORMAL, FIGHTING  ; type
 	db 3  ; catch rate
