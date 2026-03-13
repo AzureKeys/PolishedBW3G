@@ -254,5 +254,6 @@ ENDM
 	map_const DRIFTVEIL_EVERSTONE_HOUSE,                   4,  4 ;  5
 	map_const DRIFTVEIL_FOSSIL_HOUSE,                      4,  4 ;  6
 	map_const DRIFTVEIL_TRADE_HOUSE,                       4,  4 ;  7
+	map_const DRIFTVEIL_DRAWBRIDGE,                       21,  8 ;  8
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

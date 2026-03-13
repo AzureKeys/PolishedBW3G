@@ -45,6 +45,7 @@
 	const VIRBANK_CITY       ; 2b
 	const VIRBANK_COMPLEX    ; 2c
 	const ROUTE_5            ; 2d
+	const DRIFTVEIL_DRAWBRIDGE ; 2e
 	const DRIFTVEIL_CITY     ; 2f
 	const PWT                ; 30
 	const RELIC_PASSAGE      ; 31

@@ -50,6 +50,7 @@ Landmarks:
 	landmark  52, 116, VirbankCityName
 	landmark  52, 124, VirbankComplexName
 	landmark  76,  84, Route5Name
+	landmark  64,  84, DriftveilBridgeName
 	landmark  52,  84, DriftveilCityName
 	landmark  52,  92, PWTName
 	landmark  68, 104, RelicPassageName
@@ -101,6 +102,7 @@ Route20Name:           rawchar "Route 20@"
 VirbankCityName:       rawchar "Virbank¯City@"
 VirbankComplexName:    rawchar "Virbank¯Complex@"
 Route5Name:            rawchar "Route 5@"
+DriftveilBridgeName:   rawchar "Driftveil¯Bridge@"
 DriftveilCityName:     rawchar "Driftveil¯City@"
 PWTName:               rawchar "World¯Tournament@"
 RelicPassageName:      rawchar "Relic¯Passage@"

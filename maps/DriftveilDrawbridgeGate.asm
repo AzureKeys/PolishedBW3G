@@ -6,8 +6,8 @@ DriftveilDrawbridgeGate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  4, DRIFTVEIL_CITY, 3
 	warp_event  0,  5, DRIFTVEIL_CITY, 4
-	;warp_event  9,  4, DRIFTVEIL_DRAWBRIDGE, 1
-	;warp_event  9,  5, DRIFTVEIL_DRAWBRIDGE, 2
+	warp_event  9,  4, DRIFTVEIL_DRAWBRIDGE, 1
+	warp_event  9,  5, DRIFTVEIL_DRAWBRIDGE, 2
 
 	def_coord_events
 	coord_event  5,  4, 0, DriftveilDrawbridgeGateBridgeScript

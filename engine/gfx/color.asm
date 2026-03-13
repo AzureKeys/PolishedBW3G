@@ -1007,9 +1007,16 @@ LoadMapPals:
 	ret
 .CheckCastelia
 	cp GROUP_SKYARROW_BRIDGE
-	jr nz, .check_overcast
+	jr nz, .CheckDriftveil
 	ld a, [wMapNumber]
 	cp MAP_SKYARROW_BRIDGE
+	jr nz, .check_overcast
+	ret
+.CheckDriftveil
+	cp GROUP_DRIFTVEIL_DRAWBRIDGE
+	jr nz, .check_overcast
+	ld a, [wMapNumber]
+	cp MAP_DRIFTVEIL_DRAWBRIDGE
 	jr nz, .check_overcast
 	ret
 	
