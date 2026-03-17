@@ -6150,6 +6150,7 @@ FinishConfusingTargetAnim:
 	call StdBattleTextbox
 
 	farcall UseOpponentConfusionHealingItem
+	farcall UseOpponentHeldStatusHealingItem
 	farjp RunEnemyStatusHealAbilities
 
 Confuse_CheckSwagger_ConfuseHit:

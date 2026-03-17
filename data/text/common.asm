@@ -2145,7 +2145,9 @@ _RodBiteText::
 SECTION "_RodNothingText", ROMX
 _RodNothingText::
 	text "Not even a nibble!"
-	prompt
+
+	para "Keep fishing?"
+	done
 
 SECTION "_CantGetOffBikeText", ROMX
 _CantGetOffBikeText::
