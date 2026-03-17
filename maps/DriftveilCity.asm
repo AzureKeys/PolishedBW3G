@@ -13,6 +13,7 @@ DriftveilCity_MapScriptHeader:
 	warp_event 24, 25, DRIFTVEIL_EVERSTONE_HOUSE, 1
 	warp_event 27, 17, DRIFTVEIL_FOSSIL_HOUSE, 1
 	warp_event 10, 17, DRIFTVEIL_TRADE_HOUSE, 1
+	warp_event 27,  5, DRIFTVEIL_SHELTER, 1
 	
 	def_coord_events
 

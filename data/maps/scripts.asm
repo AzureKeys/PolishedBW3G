@@ -291,6 +291,7 @@ INCLUDE "maps/DriftveilEverstoneHouse.asm"
 INCLUDE "maps/DriftveilFossilHouse.asm"
 INCLUDE "maps/DriftveilTradeHouse.asm"
 INCLUDE "maps/DriftveilDrawbridge.asm"
+INCLUDE "maps/DriftveilShelter.asm"
 
 
 ENDSECTION

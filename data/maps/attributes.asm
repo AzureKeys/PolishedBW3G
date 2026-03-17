@@ -224,6 +224,7 @@ ENDM
 	map_attributes DriftveilEverstoneHouse, DRIFTVEIL_EVERSTONE_HOUSE, $0, 0
 	map_attributes DriftveilFossilHouse, DRIFTVEIL_FOSSIL_HOUSE, $0, 0
 	map_attributes DriftveilTradeHouse, DRIFTVEIL_TRADE_HOUSE, $0, 0
+	map_attributes DriftveilShelter, DRIFTVEIL_SHELTER, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

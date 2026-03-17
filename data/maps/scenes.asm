@@ -21,6 +21,7 @@ MapScenes::
 	scene_var COLOSSEUM,                              wColosseumSceneID
 	scene_var DREAMYARD,                              wDreamyardSceneID
 	scene_var DRIFTVEIL_DRAWBRIDGE_GATE,              wDriftveilDrawbridgeGateSceneID
+	scene_var DRIFTVEIL_SHELTER,                      wDriftveilShelterSceneID
 	scene_var FERRY_LEFT,                             wAlways0SceneID
 	scene_var FERRY_RIGHT,                            wAlways0SceneID
 	scene_var FLOCCESY_TOWN,                          wFloccesyTownSceneID

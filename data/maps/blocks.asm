@@ -604,4 +604,8 @@ SECTION "DriftveilDrawbridge_BlockData", ROMX
 DriftveilDrawbridge_BlockData:
 	INCBIN "maps/DriftveilDrawbridge.ablk.lzp"
 
+SECTION "DriftveilShelter_BlockData", ROMX
+DriftveilShelter_BlockData:
+	INCBIN "maps/DriftveilShelter.ablk.lzp"
+
 ENDSECTION

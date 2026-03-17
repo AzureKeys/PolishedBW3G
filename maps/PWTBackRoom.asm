@@ -655,7 +655,7 @@ PWTBackRoomThirdWinScript:
 	special FadeOutPalettes
 	playsound SFX_ENTER_DOOR
 	waitsfx
-	;warp DRIFTVEIL_SHELTER, 6, 4
+	warp DRIFTVEIL_SHELTER, 6, 4
 	end
 	
 .PlayerMovement:
