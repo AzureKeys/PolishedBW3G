@@ -36,6 +36,7 @@ ENDM
 	special_bg_pal map,      VIRBANK_GYM,                 PAL_SINGLE,    VirbankGymPalette
 	special_bg_pal map,      STRIATON_GYM,                PAL_SINGLE,    StriatonGymPalette
 	special_bg_pal map,      DRIFTVEIL_DRAWBRIDGE,        PAL_TIMEOFDAY, DriftveilDrawbridgePalette
+	special_bg_pal map,      DRIFTVEIL_STONE_EMPORIUM,    PAL_SINGLE,    StoneEmporiumPalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_UNOVA_HOUSE,         PAL_SINGLE,    UnovaHousePalette
@@ -163,6 +164,18 @@ endc
 SewersPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/sewers.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+StoneEmporiumPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/stone_emporium.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

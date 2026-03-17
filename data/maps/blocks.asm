@@ -608,4 +608,8 @@ SECTION "DriftveilShelter_BlockData", ROMX
 DriftveilShelter_BlockData:
 	INCBIN "maps/DriftveilShelter.ablk.lzp"
 
+SECTION "DriftveilStoneEmporium_BlockData", ROMX
+DriftveilStoneEmporium_BlockData:
+	INCBIN "maps/DriftveilStoneEmporium.ablk.lzp"
+
 ENDSECTION
