@@ -55,6 +55,7 @@ Landmarks:
 	landmark  52,  92, PWTName
 	landmark  68, 104, RelicPassageName
 	landmark  40,  76, Route6Name
+	landmark  44,  68, MistraltonCaveName
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -108,6 +109,7 @@ DriftveilCityName:     rawchar "Driftveil¯City@"
 PWTName:               rawchar "World¯Tournament@"
 RelicPassageName:      rawchar "Relic¯Passage@"
 Route6Name:            rawchar "Route 6@"
+MistraltonCaveName:    rawchar "Mistralton¯Cave@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"

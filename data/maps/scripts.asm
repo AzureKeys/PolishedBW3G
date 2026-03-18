@@ -300,6 +300,9 @@ SECTION "Western Unova Route Scripts", ROMX
 INCLUDE "maps/Route6.asm"
 INCLUDE "maps/Route6Lab.asm"
 INCLUDE "maps/Route6House.asm"
+INCLUDE "maps/MistraltonCave1F.asm"
+INCLUDE "maps/MistraltonCave2F.asm"
+INCLUDE "maps/MistraltonCave3F.asm"
 
 
 ENDSECTION

@@ -50,6 +50,7 @@
 	const PWT                  ; 30
 	const RELIC_PASSAGE        ; 31
 	const ROUTE_6              ; 32
+	const MISTRALTON_CAVE      ; 33
 	const ROUTE_12             ; 42
 	const POKEMON_LEAGUE       ; 45
 	const BATTLE_TOWER         ; 46

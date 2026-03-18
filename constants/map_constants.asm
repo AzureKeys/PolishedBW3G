@@ -73,6 +73,9 @@ ENDM
 	map_const CASTELIA_SEWERS_ROOMS,                      15,  9 ; 29
 	map_const RELIC_PASSAGE_FRONT,                        24, 13 ; 30
 	map_const RELIC_PASSAGE_BACK,                         15, 16 ; 31
+	map_const MISTRALTON_CAVE_1F,                         13, 11 ; 32
+	map_const MISTRALTON_CAVE_2F,                         13, 13 ; 33
+	map_const MISTRALTON_CAVE_3F,                         14, 13 ; 34
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

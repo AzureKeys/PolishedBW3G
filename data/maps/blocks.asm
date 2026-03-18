@@ -621,4 +621,16 @@ SECTION "Route6Lab_BlockData", ROMX
 Route6Lab_BlockData:
 	INCBIN "maps/Route6Lab.ablk.lzp"
 
+SECTION "MistraltonCave1F_BlockData", ROMX
+MistraltonCave1F_BlockData:
+	INCBIN "maps/MistraltonCave1F.ablk.lzp"
+
+SECTION "MistraltonCave2F_BlockData", ROMX
+MistraltonCave2F_BlockData:
+	INCBIN "maps/MistraltonCave2F.ablk.lzp"
+
+SECTION "MistraltonCave3F_BlockData", ROMX
+MistraltonCave3F_BlockData:
+	INCBIN "maps/MistraltonCave3F.ablk.lzp"
+
 ENDSECTION
