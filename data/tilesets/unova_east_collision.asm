@@ -186,3 +186,16 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b9
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ba
 	tilecoll LEFT_WALL, RIGHT_WALL, LEFT_WALL, RIGHT_WALL ; bb
+	tilecoll WARP_CARPET_RIGHT, WALL, WARP_CARPET_RIGHT, WALL ; bc
+	tilecoll LEDGE_DOWN, LEDGE_DOWN, WALL, WALL ; bd
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; be
+	tilecoll FLOOR, WALL, FLOOR, WALL ; bf
+	tilecoll FLOOR, WALL, FLOOR, WALL ; c0
+	tilecoll FLOOR, FLOOR, WALL, WALL ; c1
+	tilecoll WALL, WALL, FLOOR, FLOOR ; c2
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c3
+	tilecoll WALL, WALL, WALL, DOOR ; c4
+	tilecoll WALL, WALL, WALL, WALL ; c5
+	tilecoll WATER, BUOY, WATER, BUOY ; c6
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; c7
+	tilecoll PUDDLE, PUDDLE, PUDDLE, PUDDLE ; c8

@@ -295,4 +295,9 @@ INCLUDE "maps/DriftveilShelter.asm"
 INCLUDE "maps/DriftveilStoneEmporium.asm"
 
 
+SECTION "Western Unova Route Scripts", ROMX
+
+INCLUDE "maps/Route6.asm"
+
+
 ENDSECTION

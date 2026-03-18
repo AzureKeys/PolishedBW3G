@@ -89,4 +89,5 @@ Music:
 	dba Music_NuvemaTown
 	dba Music_UnovaRoute12
 	dba Music_DriftveilCity
+	dba Music_UnovaRoute6
 	assert_table_length NUM_MUSIC_SONGS

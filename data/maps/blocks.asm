@@ -612,4 +612,8 @@ SECTION "DriftveilStoneEmporium_BlockData", ROMX
 DriftveilStoneEmporium_BlockData:
 	INCBIN "maps/DriftveilStoneEmporium.ablk.lzp"
 
+SECTION "Route6_BlockData", ROMX
+Route6_BlockData:
+	INCBIN "maps/Route6.ablk.lzp"
+
 ENDSECTION

@@ -255,4 +255,7 @@ INCLUDE "audio/music/route17.asm"
 SECTION "Song - driftveilcity", ROMX
 INCLUDE "audio/music/driftveilcity.asm"
 
+SECTION "Song - route6", ROMX
+INCLUDE "audio/music/route6.asm"
+
 ENDSECTION

@@ -54,6 +54,7 @@ Landmarks:
 	landmark  52,  84, DriftveilCityName
 	landmark  52,  92, PWTName
 	landmark  68, 104, RelicPassageName
+	landmark  40,  76, Route6Name
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -106,6 +107,7 @@ DriftveilBridgeName:   rawchar "Driftveil¯Bridge@"
 DriftveilCityName:     rawchar "Driftveil¯City@"
 PWTName:               rawchar "World¯Tournament@"
 RelicPassageName:      rawchar "Relic¯Passage@"
+Route6Name:            rawchar "Route 6@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"
