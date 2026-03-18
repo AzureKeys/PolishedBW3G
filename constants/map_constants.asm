@@ -258,5 +258,7 @@ ENDM
 	map_const DRIFTVEIL_SHELTER,                           5,  6 ;  9
 	map_const DRIFTVEIL_STONE_EMPORIUM,                    5,  6 ; 10
 	map_const ROUTE_6,                                    26, 25 ; 11
+	map_const ROUTE_6_LAB,                                 4,  4 ; 12
+	map_const ROUTE_6_HOUSE,                               4,  4 ; 13
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

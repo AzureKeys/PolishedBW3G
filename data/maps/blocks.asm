@@ -39,6 +39,7 @@ Route18House_BlockData:
 DriftveilEverstoneHouse_BlockData:
 DriftveilFossilHouse_BlockData:
 DriftveilTradeHouse_BlockData:
+Route6House_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -615,5 +616,9 @@ DriftveilStoneEmporium_BlockData:
 SECTION "Route6_BlockData", ROMX
 Route6_BlockData:
 	INCBIN "maps/Route6.ablk.lzp"
+
+SECTION "Route6Lab_BlockData", ROMX
+Route6Lab_BlockData:
+	INCBIN "maps/Route6Lab.ablk.lzp"
 
 ENDSECTION

@@ -298,6 +298,8 @@ INCLUDE "maps/DriftveilStoneEmporium.asm"
 SECTION "Western Unova Route Scripts", ROMX
 
 INCLUDE "maps/Route6.asm"
+INCLUDE "maps/Route6Lab.asm"
+INCLUDE "maps/Route6House.asm"
 
 
 ENDSECTION

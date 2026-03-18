@@ -6,6 +6,8 @@ Route6_MapScriptHeader:
 	def_warp_events
 	warp_event 46, 42, DRIFTVEIL_CITY, 12
 	warp_event 46, 43, DRIFTVEIL_CITY, 13
+	warp_event 31, 21, ROUTE_6_LAB, 1
+	warp_event 15, 17, ROUTE_6_HOUSE, 1
 	warp_event 27, 33, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events
