@@ -76,6 +76,9 @@ ENDM
 	map_const MISTRALTON_CAVE_1F,                         13, 11 ; 32
 	map_const MISTRALTON_CAVE_2F,                         13, 13 ; 33
 	map_const MISTRALTON_CAVE_3F,                         14, 13 ; 34
+	map_const CHARGESTONE_CAVE_1F,                        23, 18 ; 35
+	map_const CHARGESTONE_CAVE_B1F,                       16, 21 ; 36
+	map_const CHARGESTONE_CAVE_B2F,                       12, 15 ; 37
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

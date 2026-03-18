@@ -9,6 +9,7 @@ Route6_MapScriptHeader:
 	warp_event 31, 21, ROUTE_6_LAB, 1
 	warp_event 15, 17, ROUTE_6_HOUSE, 1
 	warp_event 46, 15, MISTRALTON_CAVE_1F, 1
+	warp_event  8,  3, CHARGESTONE_CAVE_1F, 1
 	warp_event 27, 33, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

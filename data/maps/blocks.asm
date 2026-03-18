@@ -633,4 +633,16 @@ SECTION "MistraltonCave3F_BlockData", ROMX
 MistraltonCave3F_BlockData:
 	INCBIN "maps/MistraltonCave3F.ablk.lzp"
 
+SECTION "ChargestoneCave1F_BlockData", ROMX
+ChargestoneCave1F_BlockData:
+	INCBIN "maps/ChargestoneCave1F.ablk.lzp"
+
+SECTION "ChargestoneCaveB1F_BlockData", ROMX
+ChargestoneCaveB1F_BlockData:
+	INCBIN "maps/ChargestoneCaveB1F.ablk.lzp"
+
+SECTION "ChargestoneCaveB2F_BlockData", ROMX
+ChargestoneCaveB2F_BlockData:
+	INCBIN "maps/ChargestoneCaveB2F.ablk.lzp"
+
 ENDSECTION

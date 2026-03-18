@@ -152,6 +152,9 @@ ENDM
 	map_attributes MistraltonCave1F, MISTRALTON_CAVE_1F, $9, 0
 	map_attributes MistraltonCave2F, MISTRALTON_CAVE_2F, $9, 0
 	map_attributes MistraltonCave3F, MISTRALTON_CAVE_3F, $9, 0
+	map_attributes ChargestoneCave1F, CHARGESTONE_CAVE_1F, $9, 0
+	map_attributes ChargestoneCaveB1F, CHARGESTONE_CAVE_B1F, $9, 0
+	map_attributes ChargestoneCaveB2F, CHARGESTONE_CAVE_B2F, $9, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

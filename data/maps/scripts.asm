@@ -303,6 +303,9 @@ INCLUDE "maps/Route6House.asm"
 INCLUDE "maps/MistraltonCave1F.asm"
 INCLUDE "maps/MistraltonCave2F.asm"
 INCLUDE "maps/MistraltonCave3F.asm"
+INCLUDE "maps/ChargestoneCave1F.asm"
+INCLUDE "maps/ChargestoneCaveB1F.asm"
+INCLUDE "maps/ChargestoneCaveB2F.asm"
 
 
 ENDSECTION
