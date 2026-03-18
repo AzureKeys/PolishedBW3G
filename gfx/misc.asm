@@ -116,14 +116,6 @@ PackB4GFX:: INCBIN "gfx/pack/pack_b4.2bpp.lzp"
 PackB5GFX:: INCBIN "gfx/pack/pack_b5.2bpp.lzp"
 
 
-SECTION "Trainer Card Pics", ROMX
-
-ChrisCardPic:: INCBIN "gfx/trainer_card/chris_card.2bpp.lzp"
-KrisCardPic::  INCBIN "gfx/trainer_card/kris_card.2bpp.lzp"
-CrysCardPic::  INCBIN "gfx/trainer_card/crys_card.2bpp.lzp"
-BetaCardPic::  INCBIN "gfx/trainer_card/beta_card.2bpp.lzp"
-
-
 SECTION "Trainer Backpics", ROMX
 
 ChrisBackpic:: INCBIN "gfx/player/chris_back.2bpp.lzp"
@@ -321,3 +313,4 @@ DexTilemap_Orange::      INCBIN "gfx/pokedex/orange.bin.lzp"
 SECTION "SGB Border Graphics", ROMX
 
 SGBBorderGFX:: INCBIN "gfx/sgb/sgb_border.4bpp.lzp"
+SGBBorderMap:: INCBIN "gfx/sgb/sgb_border.bin.lzp"
