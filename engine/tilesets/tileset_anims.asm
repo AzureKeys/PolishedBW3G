@@ -184,6 +184,7 @@ TilesetIcePathAnim::
 	dw NULL,  DoneTileAnimation
 
 TilesetNacreneAnim::
+TilesetMistraltonAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

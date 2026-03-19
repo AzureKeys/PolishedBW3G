@@ -50,6 +50,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_PARK,                PAL_TIMEOFDAY, ParkPalette
 	special_bg_pal tileset,  TILESET_DESERT,              PAL_TIMEOFDAY, DesertPalette
 	special_bg_pal tileset,  TILESET_PWT_INSIDE,          PAL_SINGLE,    PWTPalette
+	special_bg_pal tileset,  TILESET_MISTRALTON,          PAL_TIMEOFDAY, MistraltonPalette
 	special_bg_pal tileset,  TILESET_HIDDEN_GROTTO,       PAL_SPECIAL,   HiddenGrottoSpecialCase ; *
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
@@ -366,6 +367,39 @@ endc
 DriftveilDrawbridgePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/drawbridge.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+MistraltonPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/mistralton.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

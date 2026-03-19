@@ -90,4 +90,5 @@ Music:
 	dba Music_UnovaRoute12
 	dba Music_DriftveilCity
 	dba Music_UnovaRoute6
+	dba Music_MistraltonCity
 	assert_table_length NUM_MUSIC_SONGS

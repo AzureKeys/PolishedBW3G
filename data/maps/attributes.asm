@@ -87,6 +87,8 @@ ENDM
 	
 	map_attributes Route18, ROUTE_18, $65, EAST
 	connection east, Route17, ROUTE_17, -1
+	
+	map_attributes MistraltonCity, MISTRALTON_CITY, $15, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
 	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0

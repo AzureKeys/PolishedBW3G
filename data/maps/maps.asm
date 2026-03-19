@@ -37,6 +37,7 @@ MapGroupPointers::
 	dw MapGroupP2
 	dw MapGroupPWT
 	dw MapGroupDriftveil
+	dw MapGroupMistralton
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -279,3 +280,6 @@ MapGroupDriftveil:
 	map Route6, TILESET_UNOVA_EAST, ROUTE, SIGN_ROUTE, ROUTE_6, MUSIC_ROUTE_6, 0, PALETTE_AUTO
 	map Route6Lab, TILESET_LAB, INDOOR, SIGN_BUILDING, ROUTE_6, MUSIC_ROUTE_6, 1, PALETTE_DAY
 	map Route6House, TILESET_UNOVA_HOUSE, INDOOR, SIGN_BUILDING, ROUTE_6, MUSIC_ROUTE_6, 1, PALETTE_DAY
+
+MapGroupMistralton:
+	map MistraltonCity, TILESET_MISTRALTON, TOWN, SIGN_CITY, MISTRALTON_CITY, MUSIC_MISTRALTON_CITY, 0, PALETTE_AUTO

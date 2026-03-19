@@ -308,4 +308,9 @@ INCLUDE "maps/ChargestoneCaveB1F.asm"
 INCLUDE "maps/ChargestoneCaveB2F.asm"
 
 
+SECTION "Mistralton Scripts", ROMX
+
+INCLUDE "maps/MistraltonCity.asm"
+
+
 ENDSECTION

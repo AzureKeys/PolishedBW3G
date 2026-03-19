@@ -645,4 +645,8 @@ SECTION "ChargestoneCaveB2F_BlockData", ROMX
 ChargestoneCaveB2F_BlockData:
 	INCBIN "maps/ChargestoneCaveB2F.ablk.lzp"
 
+SECTION "MistraltonCity_BlockData", ROMX
+MistraltonCity_BlockData:
+	INCBIN "maps/MistraltonCity.ablk.lzp"
+
 ENDSECTION

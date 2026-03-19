@@ -8,6 +8,7 @@ ChargestoneCave1F_MapScriptHeader:
 	warp_event 39, 31, CHARGESTONE_CAVE_B1F, 1
 	warp_event 13, 23, CHARGESTONE_CAVE_B1F, 2
 	warp_event 29,  3, CHARGESTONE_CAVE_B1F, 3
+	warp_event 43,  3, MISTRALTON_CITY, 1
 	
 	def_coord_events
 

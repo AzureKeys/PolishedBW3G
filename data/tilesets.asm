@@ -45,6 +45,7 @@ Tilesets::
 	tileset TilesetPWTOutside
 	tileset TilesetPWTInside
 	tileset TilesetDriftveil
+	tileset TilesetMistralton
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetUnovaEast
@@ -130,6 +131,28 @@ SECTION "Tileset Data - driftveil", ROMX
 TilesetDriftveilMeta:: INCBIN "data/tilesets/driftveil_metatiles.bin.lzp"
 TilesetDriftveilAttr:: INCBIN "data/tilesets/driftveil_attributes.bin.lzp"
 TilesetDriftveilColl:: INCBIN "data/tilesets/driftveil_collision.bin.lzp"
+
+
+SECTION "Tileset Graphics - mistralton vram0", ROMX
+
+TilesetMistraltonGFX0:: INCBIN "gfx/tilesets/mistralton_common.2bpp.lzp"
+
+
+SECTION "Tileset Graphics - mistralton vram1", ROMX
+
+TilesetMistraltonGFX1:: INCBIN "gfx/tilesets/mistralton.mistralton_common.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - mistralton vram2", ROMX
+
+TilesetMistraltonGFX2:: INCBIN "gfx/tilesets/mistralton.mistralton_common.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - mistralton", ROMX
+
+TilesetMistraltonMeta:: INCBIN "data/tilesets/mistralton_metatiles.bin.lzp"
+TilesetMistraltonAttr:: INCBIN "data/tilesets/mistralton_attributes.bin.lzp"
+TilesetMistraltonColl:: INCBIN "data/tilesets/mistralton_collision.bin.lzp"
 
 
 SECTION "Tileset Graphics - johto common vram0", ROMX

@@ -206,5 +206,5 @@ CherenPhoneScript2:
 	specialphonecall SPECIALCALL_NONE
 	clearevent EVENT_ASPERTIA_CITY_BLOCKER
 	clearevent EVENT_HUMILAU_CITY_GYM_BLOCKER
-	;setmapscene MISTRALTON_CITY, SCENE_MISTRALTON_GIVE_PASS
+	setmapscene MISTRALTON_CITY, 2
 	end

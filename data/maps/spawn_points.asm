@@ -25,6 +25,7 @@ SpawnPoints:
 	spawn NUVEMA_TOWN,                 6,  6
 	spawn PWT_OUTSIDE,                26, 10
 	spawn DRIFTVEIL_CITY,             19, 18
+	spawn MISTRALTON_CITY,            27, 16
 
 	spawn N_A,                        -1, -1
 

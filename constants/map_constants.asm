@@ -267,4 +267,7 @@ ENDM
 	map_const ROUTE_6_LAB,                                 4,  4 ; 12
 	map_const ROUTE_6_HOUSE,                               4,  4 ; 13
 	
+	newgroup                                                     ; 19
+	map_const MISTRALTON_CITY,                            20, 16 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
