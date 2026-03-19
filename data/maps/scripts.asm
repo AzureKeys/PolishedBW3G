@@ -311,6 +311,9 @@ INCLUDE "maps/ChargestoneCaveB2F.asm"
 SECTION "Mistralton Scripts", ROMX
 
 INCLUDE "maps/MistraltonCity.asm"
+INCLUDE "maps/MistraltonPokecenter.asm"
+INCLUDE "maps/MistraltonSharpBeakHouse.asm"
+INCLUDE "maps/MistraltonMoveReminder.asm"
 
 
 ENDSECTION

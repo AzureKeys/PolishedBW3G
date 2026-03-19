@@ -8,7 +8,10 @@ MistraltonCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, MistraltonFlyPoint
 
 	def_warp_events
-	warp_event  4,  6, CHARGESTONE_CAVE_1F, 5
+	warp_event 23, 23, CHARGESTONE_CAVE_1F, 5
+	warp_event 27, 15, MISTRALTON_POKECENTER, 1
+	warp_event 35, 17, MISTRALTON_SHARP_BEAK_HOUSE, 1
+	warp_event 23,  9, MISTRALTON_MOVE_REMINDER, 1
 
 	def_coord_events
 	coord_event  6,  6, 0, MistraltonCityBlockerScript
@@ -21,7 +24,7 @@ MistraltonCity_MapScriptHeader:
 	
 	def_object_events
 	object_event  6,  5, SPRITE_SKYLA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, 0, EVENT_MISTRALTON_CITY_SKYLA
-	object_event  5,  6, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, MistraltonCityBlockerText, EVENT_MISTRALTON_CITY_BLOCKER
+	object_event  5,  6, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, MistraltonCityBlockerText, EVENT_SKYLA_RETURNED_TO_GYM
 	object_event  5, 10, SPRITE_OFFICER, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, MistraltonCityOfficerText, -1
 	object_event 10, 16, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_DARK_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MistraltonCitySchoolboyText, -1
 	object_event  8, 22, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 3, 3, -1, PAL_NPC_DARK_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, MistraltonCityTeacherText, -1

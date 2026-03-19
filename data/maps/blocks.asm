@@ -20,6 +20,7 @@ NacrenePokecenter_BlockData:
 StriatonPokecenter_BlockData:
 AccumulaPokecenter_BlockData:
 DriftveilPokecenter_BlockData:
+MistraltonPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -40,6 +41,8 @@ DriftveilEverstoneHouse_BlockData:
 DriftveilFossilHouse_BlockData:
 DriftveilTradeHouse_BlockData:
 Route6House_BlockData:
+MistraltonSharpBeakHouse_BlockData:
+MistraltonMoveReminder_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
