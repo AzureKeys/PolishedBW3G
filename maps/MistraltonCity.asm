@@ -12,6 +12,7 @@ MistraltonCity_MapScriptHeader:
 	warp_event 27, 15, MISTRALTON_POKECENTER, 1
 	warp_event 35, 17, MISTRALTON_SHARP_BEAK_HOUSE, 1
 	warp_event 23,  9, MISTRALTON_MOVE_REMINDER, 1
+	warp_event 14,  9, MISTRALTON_AIRPORT, 2
 
 	def_coord_events
 	coord_event  6,  6, 0, MistraltonCityBlockerScript

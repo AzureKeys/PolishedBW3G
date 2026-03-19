@@ -37,6 +37,7 @@ ENDM
 	special_bg_pal map,      STRIATON_GYM,                PAL_SINGLE,    StriatonGymPalette
 	special_bg_pal map,      DRIFTVEIL_DRAWBRIDGE,        PAL_TIMEOFDAY, DriftveilDrawbridgePalette
 	special_bg_pal map,      DRIFTVEIL_STONE_EMPORIUM,    PAL_SINGLE,    StoneEmporiumPalette
+	special_bg_pal map,      MISTRALTON_AIRPORT,          PAL_SINGLE,    AirportPalette
 	special_bg_pal landmark, CHARGESTONE_CAVE,            PAL_SINGLE,    ChargestoneCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -190,6 +191,18 @@ endc
 ChargestoneCavePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/chargestone.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+AirportPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/airport.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

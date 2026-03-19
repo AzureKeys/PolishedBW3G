@@ -233,6 +233,7 @@ TilesetLentimasAnim::
 TilesetPWTInsideAnim::
 TilesetHiddenGrottoAnim::
 TilesetKantoGymAnim::
+TilesetAirportAnim::
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing
 	dw NULL,  DoNothing

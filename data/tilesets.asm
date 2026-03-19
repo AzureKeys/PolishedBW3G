@@ -44,6 +44,7 @@ Tilesets::
 	tileset TilesetDreamyard
 	tileset TilesetPWTOutside
 	tileset TilesetPWTInside
+	tileset TilesetAirport
 	tileset TilesetDriftveil
 	tileset TilesetMistralton
 	tileset TilesetUnovaBeach
@@ -753,6 +754,23 @@ TilesetPWTInsideAttr:: INCBIN "data/tilesets/pwt_inside_attributes.bin.lzp"
 TilesetPWTInsideColl:: INCBIN "data/tilesets/pwt_inside_collision.bin.lzp"
 
 
+SECTION "Tileset Graphics - airport vram0", ROMX
+
+TilesetAirportGFX0:: INCBIN "gfx/tilesets/airport.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - airport vram1", ROMX
+
+TilesetAirportGFX1:: INCBIN "gfx/tilesets/airport.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - airport", ROMX
+
+TilesetAirportMeta:: INCBIN "data/tilesets/airport_metatiles.bin.lzp"
+TilesetAirportAttr:: INCBIN "data/tilesets/airport_attributes.bin.lzp"
+TilesetAirportColl:: INCBIN "data/tilesets/airport_collision.bin.lzp"
+
+
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
 TilesetHiddenGrottoGFX0:: INCBIN "gfx/tilesets/hidden_grotto.2bpp.vram0.lzp"
@@ -804,6 +822,7 @@ TilesetStriatonGFX2::
 TilesetDreamyardGFX2::
 TilesetPWTOutsideGFX2::
 TilesetPWTInsideGFX2::
+TilesetAirportGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetHiddenGrottoGFX2::

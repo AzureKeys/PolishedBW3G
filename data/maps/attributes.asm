@@ -240,6 +240,7 @@ ENDM
 	map_attributes MistraltonPokecenter, MISTRALTON_POKECENTER, $0, 0
 	map_attributes MistraltonSharpBeakHouse, MISTRALTON_SHARP_BEAK_HOUSE, $0, 0
 	map_attributes MistraltonMoveReminder, MISTRALTON_MOVE_REMINDER, $0, 0
+	map_attributes MistraltonAirport, MISTRALTON_AIRPORT, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

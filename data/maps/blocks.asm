@@ -652,4 +652,8 @@ SECTION "MistraltonCity_BlockData", ROMX
 MistraltonCity_BlockData:
 	INCBIN "maps/MistraltonCity.ablk.lzp"
 
+SECTION "MistraltonAirport_BlockData", ROMX
+MistraltonAirport_BlockData:
+	INCBIN "maps/MistraltonAirport.ablk.lzp"
+
 ENDSECTION

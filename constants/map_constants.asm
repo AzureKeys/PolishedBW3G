@@ -272,5 +272,6 @@ ENDM
 	map_const MISTRALTON_POKECENTER,                       5,  5 ;  2
 	map_const MISTRALTON_SHARP_BEAK_HOUSE,                 4,  4 ;  3
 	map_const MISTRALTON_MOVE_REMINDER,                    4,  4 ;  4
+	map_const MISTRALTON_AIRPORT,                          7,  6 ;  5
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

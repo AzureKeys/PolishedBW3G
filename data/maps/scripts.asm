@@ -314,6 +314,7 @@ INCLUDE "maps/MistraltonCity.asm"
 INCLUDE "maps/MistraltonPokecenter.asm"
 INCLUDE "maps/MistraltonSharpBeakHouse.asm"
 INCLUDE "maps/MistraltonMoveReminder.asm"
+INCLUDE "maps/MistraltonAirport.asm"
 
 
 ENDSECTION
