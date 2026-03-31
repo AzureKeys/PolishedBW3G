@@ -261,7 +261,7 @@ ENDM
 	map_attributes Route1Route17Gate, ROUTE_1_ROUTE_17_GATE, $0, 0
 	map_attributes PWTDriftveilGate, PWT_DRIFTVEIL_GATE, $0, 0
 	map_attributes DriftveilDrawbridgeGate, DRIFTVEIL_DRAWBRIDGE_GATE, $0, 0
-	
+
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0

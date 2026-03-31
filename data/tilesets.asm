@@ -3,12 +3,13 @@ SECTION "Tileset Headers", ROMX
 MACRO tileset
 	dbas \1Meta, \1Coll, \1Attr
 	dba \1GFX0, \1GFX1, \1GFX2
-	dw \1Anim ; BANK(_AnimateTileset)
+	fardw \1Anim
 ENDM
 
 Tilesets::
 ; entries correspond to TILESET_* constants (see constants/tileset_constants.asm)
 	table_width TILESET_LENGTH
+	farbank _AnimateTileset
 	tileset TilesetJohto1
 	tileset TilesetJohto2
 	tileset TilesetJohto3
@@ -196,6 +197,13 @@ SECTION "Tileset Data - johto modern", ROMX
 TilesetJohto2Meta:: INCBIN "data/tilesets/johto_modern_metatiles.bin.lzp"
 TilesetJohto2Attr:: INCBIN "data/tilesets/johto_modern_attributes.bin.lzp"
 TilesetJohto2Coll:: INCBIN "data/tilesets/johto_modern_collision.bin.lzp"
+
+
+SECTION "Tileset Data - johto coast", ROMX
+
+TilesetJohtoCoastMeta:: INCBIN "data/tilesets/johto_coast_metatiles.bin.lzp"
+TilesetJohtoCoastAttr:: INCBIN "data/tilesets/johto_coast_attributes.bin.lzp"
+TilesetJohtoCoastColl:: INCBIN "data/tilesets/johto_coast_collision.bin.lzp"
 
 
 SECTION "Tileset Graphics - johto outlands vram1", ROMX

@@ -583,6 +583,7 @@ endr
 	dw .MovementBigLugia             ; SPRITEMOVEFN_BIG_LUGIA
 	dw .MovementRailLeft             ; SPRITEMOVEFN_BRIDGE_RAIL_LEFT
 	dw .MovementRailRight            ; SPRITEMOVEFN_BRIDGE_RAIL_RIGHT
+	dw .MovementAdminMeowth          ; SPRITEMOVEFN_ADMIN_MEOWTH
 	assert_table_length NUM_SPRITEMOVEFN
 
 .RandomWalkY:
@@ -820,6 +821,10 @@ endr
 
 .MovementRailRight:
 	ld a, OBJECT_ACTION_BRIDGE_RAIL_RIGHT
+	jr ._ActionA_StepFunction_Standing
+	
+.MovementAdminMeowth:
+	ld a, OBJECT_ACTION_ADMIN_MEOWTH
 	jr ._ActionA_StepFunction_Standing
 
 .StandingFlip:

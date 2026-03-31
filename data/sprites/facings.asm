@@ -68,6 +68,7 @@ Facings:
 	dw FacingBigLugia2        ; FACING_BIG_LUGIA_2
 	dw FacingRailLeft         ; FACING_BRIDGE_RAIL_LEFT
 	dw FacingRailRight        ; FACING_BRIDGE_RAIL_RIGHT
+	dw FacingAdminMeowth      ; FACING_ADMIN_MEOWTH
 	assert_table_length NUM_FACINGS
 	dw 0 ; end
 
@@ -550,7 +551,6 @@ FacingBigLugia2:
 	db 24, 15, OAM_XFLIP, $0b
 	db 24, 15, NEXT_PALETTE | OAM_XFLIP, $06
 	
-
 FacingRailLeft: 
 	db 2 ; #
 	db  12, -8, 0, $01
@@ -560,3 +560,10 @@ FacingRailRight:
 	db 2 ; #
 	db   4, -8, OAM_XFLIP, $02
 	db  12,  0, OAM_XFLIP, $01
+
+FacingAdminMeowth:
+	db 4 ; #
+	db  4,  0, 0, $00
+	db  4,  8, 0, $01
+	db 12,  0, RELATIVE_ATTRIBUTES, $02
+	db 12,  8, RELATIVE_ATTRIBUTES, $03

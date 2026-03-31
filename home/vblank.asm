@@ -149,7 +149,7 @@ VBlank0::
 	call UpdateCGBPals ; 9 [skip] / 594 [fire] M-cycles worst case
 
 	 ; 9 [skip] / ~576 [fire] M-cycles worst case
-	 ; only fires during HDMATransferToWRAMBank3 inside StackCallInSafeGFXMode, 
+	 ; only fires during HDMATransferToWRAMBank3 inside StackCallInSafeGFXMode,
 	 ; which zeroes hBGMapMode and hMapAnims.
 	call DMATransfer
 
@@ -163,6 +163,10 @@ VBlank0::
 	ldh a, [rLY]
 	cp 149
 	call c, UpdateBGMap
+
+	; Ensure we're loading graphics from the correct bank.
+	ldh a, [hROMBankBackup]
+	rst Bankswitch
 
 	; Tile data transfers (have their own LY checks).
 	call Serve2bppRequest

@@ -21,9 +21,12 @@ _AnimateTileset::
 	add hl, hl
 	add hl, de
 
-; 2-byte parameter
-; All functions take input de.
+; 2-byte VRAM address parameter, with VRAM bank in low bit
+	ld a, [hl]
+	ldh [rVBK], a ; high bits are ignored
+; Functions that take input do so in de
 	ld a, [hli]
+	and ~1
 	ld e, a
 	ld a, [hli]
 	ld d, a
@@ -31,214 +34,7 @@ _AnimateTileset::
 ; Function address
 	jmp IndirectHL
 	
-TilesetUnovaBeachAnim::
-TilesetUnovaWestAnim::
-TilesetUnovaEastAnim::
-	dw vTiles2 tile $4a, ScrollTileDown
-	dw vTiles2 tile $5a, ScrollTileDown
-	dw vTiles2 tile $5b, ScrollTileLeft
-	dw vTiles2 tile $5c, ScrollTileRight
-	dw vTiles2 tile $5d, ScrollTileUp
-	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
-	dw NULL,  AnimateFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  IncWaterFrame
-	dw NULL,  DoneTileAnimation
-	
-TilesetForestAnim::
-TilesetNimbasaAnim::
-TilesetParkAnim::
-TilesetStriatonAnim::
-TilesetDriftveilAnim::
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
-	dw NULL,  AnimateFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  IncWaterFrame
-	dw NULL,  DoneTileAnimation
-	
-TilesetDreamyardAnim::
-	dw vTiles2 tile $6f, ScrollTileDown
-	dw NULL,  DoNothing
-	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
-	dw vTiles2 tile $6f, ScrollTileDown
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  IncWaterFrame
-	dw NULL,  DoneTileAnimation
-	
-TilesetCasteliaAnim::
-TilesetPWTOutsideAnim::
-	dw NULL,  DoNothing
-	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
-	dw NULL,  DoNothing
-	dw FountainTilePointer1, AnimateFountainTile
-	dw FountainTilePointer2, AnimateFountainTile
-	dw FountainTilePointer3, AnimateFountainTile
-	dw FountainTilePointer4, AnimateFountainTile
-	dw FountainTilePointer5, AnimateFountainTile
-	dw FountainTilePointer6, AnimateFountainTile
-	dw NULL,  StandingTileFrame8
-	dw NULL,  IncWaterFrame
-	dw NULL,  IncFountainFrame
-	dw NULL,  DoneTileAnimation
-
-TilesetHouse1Anim::
-TilesetPortAnim::
-TilesetDesertAnim::
-TilesetVirbankAnim::
-TilesetComplexAnim::
-TilesetBridgeAnim::
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw UnovaWaterTilePointer1, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer2, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer3, AnimateUnovaWaterTile
-	dw UnovaWaterTilePointer4, AnimateUnovaWaterTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  IncWaterFrame
-	dw NULL,  DoneTileAnimation
-
-TilesetJohto1Anim::
-TilesetJohto2Anim::
-TilesetJohto3Anim::
-TilesetJohto4Anim::
-	dw vTiles2 tile $14, AnimateWaterTile
-	dw vTiles2 tile $1c, AnimateRainTiles
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw vTiles2 tile $03, AnimateFlowerTile
-	dw vTiles2 tile $1c, AnimateRainTiles
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw vTiles2 tile $35, WriteTileToBuffer
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileDown
-	dw NULL,  DoNothing
-	dw vTiles2 tile $35, ReadTileFromBuffer
-	dw NULL,  DoneTileAnimation
-	
-TilesetEliteFourRoomAnim::
-	dw vTiles2 tile $57, WriteTileToBuffer
-	dw wTileAnimBuffer, ScrollTileUp
-	dw vTiles2 tile $57, ReadTileFromBuffer
-	dw FanTilePointer1, AnimateFanTile
-	dw FanTilePointer2, AnimateFanTile
-	dw FanTilePointer3, AnimateFanTile
-	dw FanTilePointer4, AnimateFanTile
-	dw ComputerTilePointer0L, AnimateComputerTile0
-	dw ComputerTilePointer0R, AnimateComputerTile0
-	dw ComputerTilePointer1L, AnimateComputerTile1
-	dw ComputerTilePointer1R, AnimateComputerTile1
-	dw ComputerTilePointer2L, AnimateComputerTile2
-	dw ComputerTilePointer2R, AnimateComputerTile2
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
-TilesetCaveAnim::
-	dw vTiles2 tile $14, WriteTileToBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw vTiles2 tile $40, ScrollTileDown
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $14, ReadTileFromBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoNothing
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $40, ScrollTileDown
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoneTileAnimation
-
-TilesetIcePathAnim::
-	dw vTiles2 tile $10, WriteTileToBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw vTiles2 tile $10, ReadTileFromBuffer
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoNothing
-	dw NULL,  FlickeringCaveEntrancePalette
-	dw NULL,  DoneTileAnimation
-
-TilesetNacreneAnim::
-TilesetMistraltonAnim::
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw vTiles2 tile $03, AnimateFlowerTile
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
-TilesetUndergroundAnim::
-	dw vTiles2 tile $2e, AnimateSpinnerTile
-	dw vTiles2 tile $7e, WriteTileToBuffer
-	dw NULL,  DoNothing
-	dw wTileAnimBuffer, ScrollTileRightLeft
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw vTiles2 tile $7e, ReadTileFromBuffer
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-	
-TilesetFacilityAnim::
-	dw vTiles2 tile $6c, AnimateTurbineTiles
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoNothing
-	dw vTiles2 tile $6c, AnimateTurbineTiles
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoNothing
-	dw vTiles2 tile $6c, AnimateTurbineTiles
-	dw NULL,  StandingTileFrame8
-	dw NULL,  DoneTileAnimation
-
-TilesetPokeCenterAnim::
-TilesetGateAnim::
-TilesetLabAnim::
-TilesetMartAnim::
-TilesetGameCornerAnim::
-TilesetHouse3Anim::
-TilesetMagnetTrainAnim::
-TilesetChampionsRoomAnim::
-TilesetBattleTowerAnim::
-TilesetBattleFactoryAnim::
-TilesetLentimasAnim::
-TilesetPWTInsideAnim::
-TilesetHiddenGrottoAnim::
-TilesetKantoGymAnim::
-TilesetAirportAnim::
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoNothing
-	dw NULL,  DoneTileAnimation
+INCLUDE "data/tileset_anims.asm"
 
 DoneTileAnimation:
 ; Reset the animation command loop.
@@ -491,16 +287,13 @@ AnimateSpinnerTile:
 	add a
 
 .ok
-	add LOW(.SpinnerTileFrames)
+	add LOW(vTiles2 tile $08)
 	ld l, a
-	adc HIGH(.SpinnerTileFrames)
+	adc HIGH(vTiles2 tile $08)
 	sub l
 	ld h, a
 
 	jmp WriteTileHLToDE
-
-.SpinnerTileFrames:
-INCBIN "gfx/tilesets/animations/spinner.2bpp"
 
 AnimateTurbineTiles:
 	ld hl, sp + 0
@@ -541,16 +334,13 @@ AnimateForestTreeTiles:
 	add a
 	add a
 
-	add LOW(.ForestTreeTileFrames)
+	add LOW(vTiles5 tile $44)
 	ld l, a
-	adc HIGH(.ForestTreeTileFrames)
+	adc HIGH(vTiles5 tile $44)
 	sub l
 	ld h, a
 
 	jmp WriteFourTilesHLToDE
-
-.ForestTreeTileFrames:
-INCBIN "gfx/tilesets/animations/forest_tree.2bpp"
 
 AnimateFlowerTile:
 	ld hl, sp + 0
@@ -639,208 +429,642 @@ _FinishAnimateLavaBubbleTile:
 .LavaBubbleFrames:
 INCBIN "gfx/tilesets/animations/lava.2bpp"
 
-AnimateTowerPillarTile:
+AnimateBigStarTile1:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	; period 8, offset to index table (1 byte)
+	; period 4, every 2 frames, offset to 1 tile (16 bytes)
 	ld a, [wTileAnimationTimer]
-	maskbits 8
+	maskbits 4, 1
+	srl a
+	inc a
+	inc a
+	maskbits 4
+	swap a
 
-	add LOW(.TowerPillarTileFrameIndexes)
-	ld l, a
-	adc HIGH(.TowerPillarTileFrameIndexes)
-	sub l
-	ld h, a
-	ld a, [hl]
+	jr _FinishAnimateBigStarTile
 
-	ld l, e
-	ld h, d
-	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	adc h
-	sub l
-	ld h, a
-
-	jmp WriteTileHLToDE
-
-.TowerPillarTileFrameIndexes:
-	db 0 tiles ; 0
-	db 1 tiles ; 1
-	db 2 tiles ; 2
-	db 3 tiles ; 3
-	db 4 tiles ; 4
-	db 3 tiles ; 5
-	db 2 tiles ; 6
-	db 1 tiles ; 7
-
-TowerPillarTilePointer1:  dw vTiles2 tile $2d, TowerPillarTileFrames + 5 * 0 tiles
-TowerPillarTilePointer2:  dw vTiles2 tile $2f, TowerPillarTileFrames + 5 * 1 tiles
-TowerPillarTilePointer3:  dw vTiles2 tile $3d, TowerPillarTileFrames + 5 * 2 tiles
-TowerPillarTilePointer4:  dw vTiles2 tile $3f, TowerPillarTileFrames + 5 * 3 tiles
-TowerPillarTilePointer5:  dw vTiles2 tile $3c, TowerPillarTileFrames + 5 * 4 tiles
-TowerPillarTilePointer6:  dw vTiles2 tile $2c, TowerPillarTileFrames + 5 * 5 tiles
-TowerPillarTilePointer7:  dw vTiles2 tile $4d, TowerPillarTileFrames + 5 * 6 tiles
-TowerPillarTilePointer8:  dw vTiles2 tile $4f, TowerPillarTileFrames + 5 * 7 tiles
-TowerPillarTilePointer9:  dw vTiles2 tile $5d, TowerPillarTileFrames + 5 * 8 tiles
-TowerPillarTilePointer10: dw vTiles2 tile $5f, TowerPillarTileFrames + 5 * 9 tiles
-
-TowerPillarTileFrames:
-INCBIN "gfx/tilesets/animations/tower_pillar.2bpp"
-	
-AnimateUnovaWaterTile:
+AnimateBigStarTile2:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	; period 11, offset to index table (1 byte)
-	ld a, [wWaterAnimationTimer]
+	; period 4, phase shift 2, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4, 1
+	add a
+	add a
+	add a
 
-	add LOW(.UnovaWaterTileFrameIndexes)
+_FinishAnimateBigStarTile:
+	add LOW(vTiles5 tile $46)
 	ld l, a
-	adc HIGH(.UnovaWaterTileFrameIndexes)
-	sub l
-	ld h, a
-	ld a, [hl]
-	
-	ld l, e
-	ld h, d
-	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	adc h
+	adc HIGH(vTiles5 tile $46)
 	sub l
 	ld h, a
 
 	jmp WriteTileHLToDE
-	
-.UnovaWaterTileFrameIndexes:
-	db 0 tiles
-	db 1 tiles
-	db 2 tiles
-	db 3 tiles
-	db 4 tiles
-	db 5 tiles
-	db 6 tiles
-	db 7 tiles
-	db 8 tiles
-	db 9 tiles
-	db 10 tiles
-	
-UnovaWaterTilePointer1: dw vTiles2 tile $6d, UnovaWaterTileFrames + 11 * 0 tiles
-UnovaWaterTilePointer2: dw vTiles2 tile $6e, UnovaWaterTileFrames + 11 * 1 tiles
-UnovaWaterTilePointer3: dw vTiles2 tile $7d, UnovaWaterTileFrames + 11 * 2 tiles
-UnovaWaterTilePointer4: dw vTiles2 tile $7e, UnovaWaterTileFrames + 11 * 3 tiles
 
+AnimateSmallStarsTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4, 1
+	srl a
+	inc a
+	inc a
+	maskbits 4
+	swap a
+
+	jr _FinishAnimateSmallStarsTile
+
+AnimateSmallStarsTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, phase shift 2, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4, 1
+	add a
+	add a
+	add a
+
+_FinishAnimateSmallStarsTile:
+	add LOW(vTiles5 tile $4c)
+	ld l, a
+	adc HIGH(vTiles5 tile $4c)
+	sub l
+	ld h, a
+
+	jmp WriteTileHLToDE
+
+AnimateDoubleStarTile:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 2, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 2, 1
+	add a
+	add a
+	add a
+
+	add LOW(vTiles5 tile $51)
+	ld l, a
+	adc HIGH(vTiles5 tile $51)
+	sub l
+	ld h, a
+
+	jmp WriteTileHLToDE
+
+AnimateTowerPillarTiles1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, every 4 frames, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8, 2
+	rrca
+
+	add LOW(.TowerPillarTiles1Pointers)
+	ld l, a
+	adc HIGH(.TowerPillarTiles1Pointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	ld a, 1
+	ldh [rVBK], a
+
+	jmp WriteFourTilesHLToDE
+
+.TowerPillarTiles1Pointers:
+	dw vTiles5 tile $2d + 4 * 0 tiles ; 0
+	dw vTiles5 tile $2d + 4 * 1 tiles ; 1
+	dw vTiles5 tile $2d + 4 * 2 tiles ; 2
+	dw vTiles5 tile $2d + 4 * 3 tiles ; 3
+	dw vTiles5 tile $2d + 4 * 4 tiles ; 4
+	dw vTiles5 tile $2d + 4 * 3 tiles ; 5
+	dw vTiles5 tile $2d + 4 * 2 tiles ; 6
+	dw vTiles5 tile $2d + 4 * 1 tiles ; 7
+
+AnimateTowerPillarTiles2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, every 4 frames, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8, 2
+	rrca
+
+	add LOW(.TowerPillarTiles2Pointers)
+	ld l, a
+	adc HIGH(.TowerPillarTiles2Pointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	ld a, 1
+	ldh [rVBK], a
+
+	jmp WriteThreeTilesHLToDE
+
+.TowerPillarTiles2Pointers:
+	dw vTiles5 tile $41 + 3 * 0 tiles ; 0
+	dw vTiles5 tile $41 + 3 * 1 tiles ; 1
+	dw vTiles5 tile $41 + 3 * 2 tiles ; 2
+	dw vTiles5 tile $41 + 3 * 3 tiles ; 3
+	dw vTiles5 tile $41 + 3 * 4 tiles ; 4
+	dw vTiles5 tile $41 + 3 * 3 tiles ; 5
+	dw vTiles5 tile $41 + 3 * 2 tiles ; 6
+	dw vTiles5 tile $41 + 3 * 1 tiles ; 7
+
+AnimateTowerPillarTiles3:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, every 4 frames, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8, 2
+	rrca
+
+	add LOW(.TowerPillarTiles3Pointers)
+	ld l, a
+	adc HIGH(.TowerPillarTiles3Pointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	ld a, 1
+	ldh [rVBK], a
+
+	jmp WriteThreeTilesHLToDE
+
+.TowerPillarTiles3Pointers:
+	dw vTiles5 tile $51 + 3 * 0 tiles ; 0
+	dw vTiles5 tile $51 + 3 * 1 tiles ; 1
+	dw vTiles5 tile $51 + 3 * 2 tiles ; 2
+	dw vTiles5 tile $51 + 3 * 3 tiles ; 3
+	dw vTiles5 tile $51 + 3 * 4 tiles ; 4
+	dw vTiles5 tile $51 + 3 * 3 tiles ; 5
+	dw vTiles5 tile $51 + 3 * 2 tiles ; 6
+	dw vTiles5 tile $51 + 3 * 1 tiles ; 7
+
+AnimateTowerPillarTiles4:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, every 4 frames, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8, 2
+	rrca
+
+	add LOW(.TowerPillarTiles4Pointers)
+	ld l, a
+	adc HIGH(.TowerPillarTiles4Pointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	ld a, 1
+	ldh [rVBK], a
+
+	jmp WriteThreeTilesHLToDE
+
+.TowerPillarTiles4Pointers:
+	dw vTiles5 tile $61 + 3 * 0 tiles ; 0
+	dw vTiles5 tile $61 + 3 * 1 tiles ; 1
+	dw vTiles5 tile $61 + 3 * 2 tiles ; 2
+	dw vTiles5 tile $61 + 3 * 3 tiles ; 3
+	dw vTiles5 tile $61 + 3 * 4 tiles ; 4
+	dw vTiles5 tile $61 + 3 * 3 tiles ; 5
+	dw vTiles5 tile $61 + 3 * 2 tiles ; 6
+	dw vTiles5 tile $61 + 3 * 1 tiles ; 7
+	
+AnimateUnovaWaterTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 11, offset to pointer table (2 bytes)
+	ld a, [wWaterAnimationTimer]
+	add a
+	
+	add LOW(.UnovaWaterTiles1Pointers)
+	ld l, a
+	adc HIGH(.UnovaWaterTiles1Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.UnovaWaterTiles1Pointers:
+	dw UnovaWaterTileFrames +  0 +  0 tiles
+	dw UnovaWaterTileFrames +  0 +  1 tiles
+	dw UnovaWaterTileFrames +  0 +  2 tiles
+	dw UnovaWaterTileFrames +  0 +  3 tiles
+	dw UnovaWaterTileFrames +  0 +  4 tiles
+	dw UnovaWaterTileFrames +  0 +  5 tiles
+	dw UnovaWaterTileFrames +  0 +  6 tiles
+	dw UnovaWaterTileFrames +  0 +  7 tiles
+	dw UnovaWaterTileFrames +  0 +  8 tiles
+	dw UnovaWaterTileFrames +  0 +  9 tiles
+	dw UnovaWaterTileFrames +  0 + 10 tiles
+	
+AnimateUnovaWaterTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 11, offset to pointer table (2 bytes)
+	ld a, [wWaterAnimationTimer]
+	add a
+	
+	add LOW(.UnovaWaterTiles2Pointers)
+	ld l, a
+	adc HIGH(.UnovaWaterTiles2Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.UnovaWaterTiles2Pointers:
+	dw UnovaWaterTileFrames + 11 +  0 tiles
+	dw UnovaWaterTileFrames + 11 +  1 tiles
+	dw UnovaWaterTileFrames + 11 +  2 tiles
+	dw UnovaWaterTileFrames + 11 +  3 tiles
+	dw UnovaWaterTileFrames + 11 +  4 tiles
+	dw UnovaWaterTileFrames + 11 +  5 tiles
+	dw UnovaWaterTileFrames + 11 +  6 tiles
+	dw UnovaWaterTileFrames + 11 +  7 tiles
+	dw UnovaWaterTileFrames + 11 +  8 tiles
+	dw UnovaWaterTileFrames + 11 +  9 tiles
+	dw UnovaWaterTileFrames + 11 + 10 tiles
+	
+AnimateUnovaWaterTile3:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 11, offset to pointer table (2 bytes)
+	ld a, [wWaterAnimationTimer]
+	add a
+	
+	add LOW(.UnovaWaterTiles3Pointers)
+	ld l, a
+	adc HIGH(.UnovaWaterTiles3Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.UnovaWaterTiles3Pointers:
+	dw UnovaWaterTileFrames + 22 +  0 tiles
+	dw UnovaWaterTileFrames + 22 +  1 tiles
+	dw UnovaWaterTileFrames + 22 +  2 tiles
+	dw UnovaWaterTileFrames + 22 +  3 tiles
+	dw UnovaWaterTileFrames + 22 +  4 tiles
+	dw UnovaWaterTileFrames + 22 +  5 tiles
+	dw UnovaWaterTileFrames + 22 +  6 tiles
+	dw UnovaWaterTileFrames + 22 +  7 tiles
+	dw UnovaWaterTileFrames + 22 +  8 tiles
+	dw UnovaWaterTileFrames + 22 +  9 tiles
+	dw UnovaWaterTileFrames + 22 + 10 tiles
+	
+AnimateUnovaWaterTile4:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 11, offset to pointer table (2 bytes)
+	ld a, [wWaterAnimationTimer]
+	add a
+	
+	add LOW(.UnovaWaterTiles4Pointers)
+	ld l, a
+	adc HIGH(.UnovaWaterTiles4Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.UnovaWaterTiles4Pointers:
+	dw UnovaWaterTileFrames + 33 +  0 tiles
+	dw UnovaWaterTileFrames + 33 +  1 tiles
+	dw UnovaWaterTileFrames + 33 +  2 tiles
+	dw UnovaWaterTileFrames + 33 +  3 tiles
+	dw UnovaWaterTileFrames + 33 +  4 tiles
+	dw UnovaWaterTileFrames + 33 +  5 tiles
+	dw UnovaWaterTileFrames + 33 +  6 tiles
+	dw UnovaWaterTileFrames + 33 +  7 tiles
+	dw UnovaWaterTileFrames + 33 +  8 tiles
+	dw UnovaWaterTileFrames + 33 +  9 tiles
+	dw UnovaWaterTileFrames + 33 + 10 tiles
+	
 UnovaWaterTileFrames:
 INCBIN "gfx/tilesets/animations/unova_water.2bpp"
 
-AnimateFountainTile:
+AnimateFountainTile1:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	; period 6, offset to index table (1 byte)
+	; period 6, offset to pointer table (2 bytes)
 	ld a, [wFountainAnimationTimer]
+	add a
 
-	add LOW(.FountainTileFrameIndexes)
+	add LOW(.FountainTiles1Pointers)
 	ld l, a
-	adc HIGH(.FountainTileFrameIndexes)
+	adc HIGH(.FountainTiles1Pointers)
 	sub l
 	ld h, a
-	ld a, [hl]
 	
-	ld l, e
-	ld h, d
-	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	adc h
-	sub l
-	ld h, a
+	ld sp, hl
+	pop hl
 
 	jmp WriteTileHLToDE
 	
-.FountainTileFrameIndexes:
-	db 0 tiles
-	db 1 tiles
-	db 2 tiles
-	db 3 tiles
-	db 4 tiles
-	db 5 tiles
-	
-FountainTilePointer1: dw vTiles2 tile $2b, FountainTileFrames + 6 * 0 tiles
-FountainTilePointer2: dw vTiles2 tile $3b, FountainTileFrames + 6 * 1 tiles
-FountainTilePointer3: dw vTiles2 tile $2d, FountainTileFrames + 6 * 2 tiles
-FountainTilePointer4: dw vTiles2 tile $2c, FountainTileFrames + 6 * 3 tiles
-FountainTilePointer5: dw vTiles2 tile $3c, FountainTileFrames + 6 * 4 tiles
-FountainTilePointer6: dw vTiles2 tile $3d, FountainTileFrames + 6 * 5 tiles
+.FountainTiles1Pointers:
+	dw FountainTileFrames +  0 + 0 tiles
+	dw FountainTileFrames +  0 + 1 tiles
+	dw FountainTileFrames +  0 + 2 tiles
+	dw FountainTileFrames +  0 + 3 tiles
+	dw FountainTileFrames +  0 + 4 tiles
+	dw FountainTileFrames +  0 + 5 tiles
 
+AnimateFountainTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 6, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.FountainTiles2Pointers)
+	ld l, a
+	adc HIGH(.FountainTiles2Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FountainTiles2Pointers:
+	dw FountainTileFrames +  6 + 0 tiles
+	dw FountainTileFrames +  6 + 1 tiles
+	dw FountainTileFrames +  6 + 2 tiles
+	dw FountainTileFrames +  6 + 3 tiles
+	dw FountainTileFrames +  6 + 4 tiles
+	dw FountainTileFrames +  6 + 5 tiles
+
+AnimateFountainTile3:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 6, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.FountainTiles3Pointers)
+	ld l, a
+	adc HIGH(.FountainTiles3Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FountainTiles3Pointers:
+	dw FountainTileFrames + 12 + 0 tiles
+	dw FountainTileFrames + 12 + 1 tiles
+	dw FountainTileFrames + 12 + 2 tiles
+	dw FountainTileFrames + 12 + 3 tiles
+	dw FountainTileFrames + 12 + 4 tiles
+	dw FountainTileFrames + 12 + 5 tiles
+
+AnimateFountainTile4:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 6, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.FountainTiles4Pointers)
+	ld l, a
+	adc HIGH(.FountainTiles4Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FountainTiles4Pointers:
+	dw FountainTileFrames + 18 + 0 tiles
+	dw FountainTileFrames + 18 + 1 tiles
+	dw FountainTileFrames + 18 + 2 tiles
+	dw FountainTileFrames + 18 + 3 tiles
+	dw FountainTileFrames + 18 + 4 tiles
+	dw FountainTileFrames + 18 + 5 tiles
+
+AnimateFountainTile5:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 6, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.FountainTiles5Pointers)
+	ld l, a
+	adc HIGH(.FountainTiles5Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FountainTiles5Pointers:
+	dw FountainTileFrames + 24 + 0 tiles
+	dw FountainTileFrames + 24 + 1 tiles
+	dw FountainTileFrames + 24 + 2 tiles
+	dw FountainTileFrames + 24 + 3 tiles
+	dw FountainTileFrames + 24 + 4 tiles
+	dw FountainTileFrames + 24 + 5 tiles
+
+AnimateFountainTile6:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 6, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.FountainTiles6Pointers)
+	ld l, a
+	adc HIGH(.FountainTiles6Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FountainTiles6Pointers:
+	dw FountainTileFrames + 30 + 0 tiles
+	dw FountainTileFrames + 30 + 1 tiles
+	dw FountainTileFrames + 30 + 2 tiles
+	dw FountainTileFrames + 30 + 3 tiles
+	dw FountainTileFrames + 30 + 4 tiles
+	dw FountainTileFrames + 30 + 5 tiles
+	
 FountainTileFrames:
 INCBIN "gfx/tilesets/animations/castelia_fountain.2bpp"
 
-AnimateFanTile:
+AnimateFanTile1:
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	; period 2, offset to index table (1 byte)
+	; period 2, offset to pointer table (2 bytes)
 	ld a, [wTileAnimationTimer]
 	maskbits 2
+	add a
 
-	add LOW(.FanTileFrameIndexes)
+	add LOW(.FanTiles1Pointers)
 	ld l, a
-	adc HIGH(.FanTileFrameIndexes)
+	adc HIGH(.FanTiles1Pointers)
 	sub l
 	ld h, a
-	ld a, [hl]
 	
-	ld l, e
-	ld h, d
-	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	adc h
-	sub l
-	ld h, a
+	ld sp, hl
+	pop hl
 
 	jmp WriteTileHLToDE
 	
-.FanTileFrameIndexes:
-	db 0 tiles
-	db 1 tiles
-	
-FanTilePointer1: dw vTiles2 tile $60, FanTileFrames + 2 * 0 tiles
-FanTilePointer2: dw vTiles2 tile $61, FanTileFrames + 2 * 1 tiles
-FanTilePointer3: dw vTiles2 tile $70, FanTileFrames + 2 * 2 tiles
-FanTilePointer4: dw vTiles2 tile $71, FanTileFrames + 2 * 3 tiles
+.FanTiles1Pointers:
+	dw FanTileFrames + 0 + 0 tiles
+	dw FanTileFrames + 0 + 1 tiles
 
+AnimateFanTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 2, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 2
+	add a
+
+	add LOW(.FanTiles2Pointers)
+	ld l, a
+	adc HIGH(.FanTiles2Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FanTiles2Pointers:
+	dw FanTileFrames + 2 + 0 tiles
+	dw FanTileFrames + 2 + 1 tiles
+
+AnimateFanTile3:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 2, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 2
+	add a
+
+	add LOW(.FanTiles3Pointers)
+	ld l, a
+	adc HIGH(.FanTiles3Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FanTiles3Pointers:
+	dw FanTileFrames + 4 + 0 tiles
+	dw FanTileFrames + 4 + 1 tiles
+
+AnimateFanTile4:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 2, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 2
+	add a
+
+	add LOW(.FanTiles4Pointers)
+	ld l, a
+	adc HIGH(.FanTiles4Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.FanTiles4Pointers:
+	dw FanTileFrames + 6 + 0 tiles
+	dw FanTileFrames + 6 + 1 tiles
+	
 FanTileFrames:
 INCBIN "gfx/tilesets/animations/fan.2bpp"
 
@@ -849,7 +1073,7 @@ AnimateComputerTile0:
 	ld b, h
 	ld c, l
 
-	; period 4, offset to index table (1 byte)
+	; period 4, offset to 2 tiles (32 bytes)
 	ld a, [wTileAnimationTimer]
 	jr AnimateComputerTile
 
@@ -858,7 +1082,7 @@ AnimateComputerTile1:
 	ld b, h
 	ld c, l
 
-	; period 4, offset to index table (1 byte)
+	; period 4, offset to 2 tiles (32 bytes)
 	ld a, [wTileAnimationTimer]
 	inc a
 	jr AnimateComputerTile
@@ -868,79 +1092,45 @@ AnimateComputerTile2:
 	ld b, h
 	ld c, l
 
-	; period 4, offset to index table (1 byte)
+	; period 4, offset to 2 tiles (32 bytes)
 	ld a, [wTileAnimationTimer]
 	inc a
 	inc a
 	; fallthrough
 AnimateComputerTile:
 	maskbits 4
-	
-	add LOW(.ComputerTileFrameIndexes)
+	swap a
+	add a
+
+	add LOW(ComputerTileFrames)
 	ld l, a
-	adc HIGH(.ComputerTileFrameIndexes)
-	sub l
-	ld h, a
-	ld a, [hl]
-	
-	ld l, e
-	ld h, d
-	ld e, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	ld d, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
-	inc hl
-	
-	add [hl]
-	inc hl
-	ld h, [hl]
-	ld l, a
-	adc h
+	adc HIGH(ComputerTileFrames)
 	sub l
 	ld h, a
 
-	jmp WriteTileHLToDE
+	jmp WriteTwoTilesHLToDE
 	
-.ComputerTileFrameIndexes:
-	db 0 tiles
-	db 1 tiles
-	db 2 tiles
-	db 3 tiles
-	
-ComputerTilePointer0L: dw vTiles2 tile $45, ComputerTileFrames + 4 * 0 tiles
-ComputerTilePointer0R: dw vTiles2 tile $46, ComputerTileFrames + 4 * 1 tiles
-ComputerTilePointer1L: dw vTiles2 tile $55, ComputerTileFrames + 4 * 0 tiles
-ComputerTilePointer1R: dw vTiles2 tile $56, ComputerTileFrames + 4 * 1 tiles
-ComputerTilePointer2L: dw vTiles2 tile $4a, ComputerTileFrames + 4 * 0 tiles
-ComputerTilePointer2R: dw vTiles2 tile $4b, ComputerTileFrames + 4 * 1 tiles
-
 ComputerTileFrames:
 INCBIN "gfx/tilesets/animations/computer.2bpp"
 
 AnimateTinyWaterTiles:
-	; period 2, every 2 frames, offset to 3 tiles (48 bytes)
+	; period 2, every 2 frames, offset to 4 tiles (64 bytes)
 	ld a, [wTileAnimationTimer]
 	maskbits 2, 1
+	swap a
 	add a
-	add a
-	add a
-	ld b, a
-	add a
-	add b
 
 	ld hl, sp + 0
 	ld b, h
 	ld c, l
 
-	add LOW(.TinyWaterTileFrames)
+	add LOW(vTiles5 tile $5c)
 	ld l, a
-	adc HIGH(.TinyWaterTileFrames)
+	adc HIGH(vTiles5 tile $5c)
 	sub l
 	ld h, a
 
-	jmp WriteThreeTilesHLToDE
-
-.TinyWaterTileFrames:
-INCBIN "gfx/tilesets/animations/tiny_water.2bpp"
+	jmp WriteFourTilesHLToDE
 
 AnimateLCDTile:
 	ld hl, sp + 0
@@ -952,16 +1142,35 @@ AnimateLCDTile:
 	maskbits 8
 	swap a
 
-	add LOW(.LCDTileFrames)
+	add LOW(vTiles5 tile $20)
 	ld l, a
-	adc HIGH(.LCDTileFrames)
+	adc HIGH(vTiles5 tile $20)
 	sub l
 	ld h, a
 
 	jmp WriteTileHLToDE
 
-.LCDTileFrames:
-INCBIN "gfx/tilesets/animations/lcd.2bpp"
+AnimateWaterfallTiles:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, offset to 2 tiles (32 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4
+	swap a
+	add a
+
+	add LOW(.WaterfallTileFrames)
+	ld l, a
+	adc HIGH(.WaterfallTileFrames)
+	sub l
+	ld h, a
+
+	jmp WriteTwoTilesHLToDE
+
+.WaterfallTileFrames:
+INCBIN "gfx/tilesets/animations/waterfall.2bpp"
 
 AnimateFireTiles:
 	ld hl, sp + 0
@@ -974,16 +1183,13 @@ AnimateFireTiles:
 	swap a
 	add a
 
-	add LOW(.FireTileFrames)
+	add LOW(vTiles2 tile $77)
 	ld l, a
-	adc HIGH(.FireTileFrames)
+	adc HIGH(vTiles2 tile $77)
 	sub l
 	ld h, a
 
-	jmp WriteTwoTilesHLToDE
-
-.FireTileFrames:
-INCBIN "gfx/tilesets/animations/fire.2bpp"
+	jr WriteTwoTilesHLToDE
 
 WriteFourTilesHLToDE:
 	ld sp, hl
@@ -1049,26 +1255,6 @@ rept 8
 endr
 
 	jr _FinishWritingOneTile
-
-WriteTileToBuffer:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld h, d
-	ld l, e
-	ld sp, hl
-
-	ld hl, wTileAnimBuffer
-	jr WriteTile
-
-ReadTileFromBuffer:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	ld hl, wTileAnimBuffer
-	; fallthrough
 
 WriteTileHLToDE:
 	ld sp, hl

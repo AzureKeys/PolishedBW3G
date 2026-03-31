@@ -26,7 +26,6 @@ SongArtists:
 	li "GRonnoc"
 	li "Cat333Pokemon"
 	li "NotFroggestSpirit"
-	li "Toby Fox"
 	li "ShinkoNetCavy,      ShockSlayer"
 	li "Azure Keys"
 	li "Regen"
