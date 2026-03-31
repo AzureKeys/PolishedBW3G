@@ -1,17 +1,9 @@
-DEF __trainer_pal__ = 0
-
-MACRO trainerpal
-	DEF TRAINERPAL_\1 = __trainer_pal__
-	DEF __trainer_pal__ += 1
-ENDM
-
 DEF __trainer_class__ = 0
 
 MACRO trainerclass
 	DEF \1 EQU __trainer_class__
 	DEF __trainer_class__ += 1
 	const_def 1
-	trainerpal \1
 ENDM
 
 ; trainer class ids
@@ -26,7 +18,7 @@ ENDM
 ; - BTTrainerClassSprites (see data/trainers/sprites.asm)
 ; - BTTrainerClassGenders (see data/trainers/genders.asm)
 ; trainer constants are indexes for the sub-tables of TrainerGroups (see data/trainers/parties.asm)
-	trainerclass TRAINER_NONE ; 0
+	trainerclass TRAINER_NONE
 	const PHONECONTACT_MOM
 	const PHONECONTACT_BILL
 	const PHONECONTACT_CHEREN
@@ -34,13 +26,13 @@ ENDM
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 DEF CHRIS EQU __trainer_class__
-	trainerclass CAL ; 1
+	trainerclass CAL
 
 DEF KRIS EQU __trainer_class__
-	trainerclass CARRIE ; 2
+	trainerclass CARRIE
 
 DEF CRYS EQU __trainer_class__
-	trainerclass JACKY ; 3
+	trainerclass JACKY
 
 DEF BETA EQU __trainer_class__
 	trainerclass EUNA ; 4
@@ -709,37 +701,25 @@ DEF BETA EQU __trainer_class__
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
-	trainerclass OMASTAR_FOSSIL ; 95
-
-	trainerclass KABUTOPS_FOSSIL ; 96
-
-	trainerclass AERODACTYL_FOSSIL ; 97
-
-	trainerclass CUBONE_ARMOR ; 98
-
-	trainerclass METEORITE ; 99
-
-	trainerclass SILHOUETTE ; 9a
-
 DEF NUM_TRAINER_CLASS_PICS EQU __trainer_class__ - 1
 
-; kimono girls
-	trainerpal SAYO ; 9b
-	trainerpal ZUKI ; 9c
-	trainerpal KUNI ; 9d
-	trainerpal MIKI ; 9e
-	trainerpal MAKO ; 9f
-	trainerpal AMI  ; a0
-	trainerpal MINA ; a1
+DEF __trainer_pal__ = 0
 
-; elders (wise trio)
-	trainerpal GAKU ; a2
-	trainerpal MASA ; a3
-	trainerpal KOJI ; a4
+MACRO trainerpal
+	DEF TRAINERPAL_\1 = __trainer_pal__
+	DEF __trainer_pal__ += 1
+ENDM
+
+	trainerpal NONE
 
 ; dark-skinned or tanned trainers
-	trainerpal DARK_LASS ; a5
-	trainerpal DARK_SCHOOLGIRL ; a6
-	trainerpal DARK_SAILOR ; a7
+	trainerpal DARK_YOUNGSTER
+	trainerpal DARK_LASS
+	trainerpal DARK_ACE_TRAINERM
+	trainerpal DARK_ACE_TRAINERF
+	trainerpal DARK_FISHER
+	trainerpal DARK_HIKER
+	trainerpal DARK_SWIMMERM
+	trainerpal DARK_SWIMMERF
 
 DEF NUM_TRAINER_PALS EQU __trainer_pal__ - 1
