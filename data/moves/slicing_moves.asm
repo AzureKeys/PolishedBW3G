@@ -8,6 +8,8 @@ SlicingMoves:
 	db RAZOR_LEAF
 	db RAZOR_SHELL
 	db SACRED_SWORD
+	db DRAGON_CLAW
+	db SHADOW_CLAW
 	db SLASH
 	db X_SCISSOR
 	db -1

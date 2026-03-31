@@ -177,7 +177,7 @@ PokeBallEffect:
 	xor a
 	ldh [hBattleTurn], a
 	ld [wNumHits], a
-	predef PlayBattleAnim
+	farcall PlayBattleAnim
 
 	ld a, [wThrownBallWobbleCount] ; amount of shakes
 	and a
@@ -646,7 +646,7 @@ LowerEVBerry:
 	ld [hl], a
 	call UpdatePkmnStats
 	ld c, HAPPINESS_USEDEVBERRY
-	predef ChangeHappiness
+	farcall ChangeHappiness
 	call GetStatStringAndPlayFullHealSFX
 	ld hl, ItemHappinessRoseButStatFellText
 	call PrintText
@@ -680,7 +680,7 @@ VitaminEffect:
 	; fallthrough
 VitaminHappiness:
 	ld c, HAPPINESS_USEDVITAMIN
-	predef_jump ChangeHappiness
+	farjp ChangeHappiness
 
 ItemStatRoseText:
 	; 's @ rose.
@@ -843,9 +843,9 @@ RareCandy:
 
 	xor a ; PARTYMON
 	ld [wMonType], a
-	predef CopyPkmnToTempMon
+	farcall CopyPkmnToTempMon
 	farcall PrintStatDifferences
-	predef LearnLevelMoves
+	farcall LearnLevelMoves
 
 	xor a
 	ld [wForceEvolution], a
@@ -863,7 +863,7 @@ HealPowder:
 	jmp nz, WontHaveAnyEffectMessage
 
 	ld c, HAPPINESS_BITTERPOWDER
-	predef ChangeHappiness
+	farcall ChangeHappiness
 	jmp LooksBitterMessage
 
 HealStatusEffect:
@@ -973,7 +973,7 @@ RevivalHerb:
 	jmp nz, WontHaveAnyEffectMessage
 
 	ld c, HAPPINESS_REVIVALHERB
-	predef ChangeHappiness
+	farcall ChangeHappiness
 	jmp LooksBitterMessage
 
 RevivePokemon:
@@ -1060,7 +1060,7 @@ EnergyPowderEnergyRootCommon:
 	and a
 	jmp nz, WontHaveAnyEffectMessage
 
-	predef ChangeHappiness
+	farcall ChangeHappiness
 	jmp LooksBitterMessage
 
 ItemRestoreHP:
@@ -1096,7 +1096,7 @@ HealHP_SFX_GFX:
 	rst AddNTimes
 	ld a, $2
 	ld [wWhichHPBar], a
-	predef_jump AnimateHPBar
+	jmp AnimateHPBar
 
 UseItem_SelectMon2:
 ; Used on something already: don't reload the graphics
@@ -1630,7 +1630,7 @@ XItemHappiness:
 	ld a, [wCurBattleMon]
 	ld [wCurPartyMon], a
 	ld c, HAPPINESS_USEDXITEM
-	predef_jump ChangeHappiness
+	farjp ChangeHappiness
 
 BlueCard:
 	ld hl, .bluecardtext
@@ -2023,7 +2023,7 @@ CandyJar_MonSelected:
 	push de
 	xor a ; PARTYMON
 	ld [wMonType], a
-	predef CopyPkmnToTempMon
+	farcall CopyPkmnToTempMon
 	pop de
 	pop bc
 
@@ -2090,7 +2090,7 @@ CandyJar_MonSelected:
 
 	xor a ; PARTYMON
 	ld [wMonType], a
-	predef CopyPkmnToTempMon
+	farcall CopyPkmnToTempMon
 	farcall PrintStatDifferences
 	ld a, MON_LEVEL
 	call GetPartyParamLocationAndValue
@@ -2102,7 +2102,7 @@ CandyJar_MonSelected:
 	ld a, b
 	ld [wCurPartyLevel], a
 	push bc
-	predef LearnLevelMoves
+	farcall LearnLevelMoves
 	pop bc
 	ld a, b
 	cp c
@@ -2742,7 +2742,7 @@ UseBallInTrainerBattle:
 	ld [wBattleAnimParam], a
 	ldh [hBattleTurn], a
 	ld [wNumHits], a
-	predef PlayBattleAnim
+	farcall PlayBattleAnim
 	ld hl, BlockedTheBallText
 	call PrintText
 	ld hl, DontBeAThiefText
@@ -2917,7 +2917,7 @@ ApplyPPUp:
 	call GetPartyParamLocationAndValue
 	push hl
 	ld de, wPPUpPPBuffer
-	predef FillPP
+	call FillPP
 	pop hl
 	ld bc, MON_PP - MON_MOVES
 	add hl, bc

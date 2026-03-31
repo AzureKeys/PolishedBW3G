@@ -123,7 +123,6 @@ INCLUDE "gfx/trainers/aerodactyl_fossil.pal"
 INCLUDE "gfx/trainers/cubone_armor.pal"
 INCLUDE "gfx/trainers/meteorite.pal"
 INCLUDE "gfx/trainers/silhouette.pal"
-
 else
 rept NUM_TRAINER_CLASS_PICS
 	MONOCHROME_RGB_TWO
@@ -131,6 +130,7 @@ endr
 endc
 
 	assert_table_length NUM_TRAINER_CLASS_PICS
+
 if !DEF(MONOCHROME)
 INCLUDE "gfx/trainers/kimono_girl_sayo.pal"
 INCLUDE "gfx/trainers/kimono_girl_zuki.pal"
@@ -139,7 +139,12 @@ INCLUDE "gfx/trainers/kimono_girl_miki.pal"
 INCLUDE "gfx/trainers/kimono_girl_mako.pal"
 INCLUDE "gfx/trainers/kimono_girl_ami.pal"
 INCLUDE "gfx/trainers/kimono_girl_mina.pal"
-
+INCLUDE "gfx/trainers/elder_gaku.pal"
+INCLUDE "gfx/trainers/elder_masa.pal"
+INCLUDE "gfx/trainers/elder_koji.pal"
+INCLUDE "gfx/trainers/dark_lass.pal"
+INCLUDE "gfx/trainers/dark_schoolgirl.pal"
+INCLUDE "gfx/trainers/dark_sailor.pal"
 else
 rept NUM_TRAINER_PALS - NUM_TRAINER_CLASS_PICS
 	MONOCHROME_RGB_TWO

@@ -1545,12 +1545,20 @@ TownMapBubble:
 	add hl, hl ; two bytes per flypoint
 	ld de, Flypoints
 	add hl, de
+	ld a, [hl]
+	cp POKEMON_LEAGUE
+	ld de, .PokemonLeagueFlyName ; special case to fit in 16 chars
+	jr z, .PlaceName
 	ld e, [hl]
 	farcall GetLandmarkName
-	hlcoord 2, 1
 	ld de, wStringBuffer1
+.PlaceName:
+	hlcoord 2, 1
 	rst PlaceString
 	ret
+
+.PokemonLeagueFlyName:
+	rawchar "Pokémon League@"
 
 GetMapCursorCoordinates:
 	ld a, [wTownMapPlayerIconLandmark]
@@ -1595,7 +1603,7 @@ HasVisitedSpawn:
 	ld hl, wVisitedSpawns
 	ld b, CHECK_FLAG
 	ld d, 0
-	predef FlagPredef
+	farcall SmallFlagAction
 	ld a, c
 	ret
 

@@ -23,13 +23,12 @@ INCLUDE "engine/events/mint_tea.asm"
 
 SECTION "bank2", ROMX
 
-INCLUDE "data/predef_pointers.asm"
+INCLUDE "engine/overworld/player_object.asm"
 INCLUDE "engine/gfx/color.asm"
 
 
 SECTION "bank3", ROMX
 
-INCLUDE "engine/overworld/player_object.asm"
 INCLUDE "engine/events/checktime.asm"
 INCLUDE "engine/events/specials.asm"
 INCLUDE "engine/pokemon/health.asm"

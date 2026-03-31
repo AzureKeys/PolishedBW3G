@@ -972,7 +972,7 @@ StandardMartAskPurchaseQuantity:
 
 MartConfirmPurchase:
 BTMartConfirmPurchase:
-	predef PartyMonItemName
+	farcall PartyMonItemName
 	ld a, MARTTEXT_COSTS_THIS_MUCH
 	call LoadBuyMenuText
 	jmp YesNoBox
@@ -997,7 +997,7 @@ TMMartConfirmPurchase:
 	inc a
 	ld [wTempTMHM], a
 
-	predef GetTMHMMove
+	farcall GetTMHMMove
 	ld a, [wTempTMHM]
 	ld [wPutativeTMHMMove], a
 	call GetMoveName
@@ -1595,7 +1595,7 @@ SellMenu:
 	ld a, [wMartItemID]
 	ld hl, wNumItems
 	call TossItem
-	predef PartyMonItemName
+	farcall PartyMonItemName
 	call ClearSpeechBox
 	ld hl, Text_Mart_SoldForAmount
 	call PrintTextboxText
