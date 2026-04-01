@@ -222,10 +222,10 @@ endr
 	loadmem wPartyMon1Moves+3, SHOCK_WAVE
 	; hm slave
 	givepoke KYUREM, KYUREM_BLACK_FORM, 100, LEFTOVERS
-	loadmem wPartyMon2Moves+0, POISON_FANG
-	loadmem wPartyMon2Moves+1, ICE_FANG
-	loadmem wPartyMon2Moves+2, SIGNAL_BEAM
-	loadmem wPartyMon2Moves+3, QUIVER_DANCE
+	loadmem wPartyMon2Moves+0, FLY
+	loadmem wPartyMon2Moves+1, SURF
+	loadmem wPartyMon2Moves+2, STRENGTH
+	loadmem wPartyMon2Moves+3, WATERFALL
 	loadmem wPartyMon2PP+0, 15
 	loadmem wPartyMon2PP+1, 15
 	loadmem wPartyMon2PP+2, 10

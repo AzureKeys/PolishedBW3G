@@ -36,7 +36,7 @@ TilesetUnovaEastAnim::
 	tileframe AnimateUnovaWaterTile4,   $0:7e
 	tileframe AnimateFlowerTile,        $0:03
 	;tileframe AnimateRainTiles,         $0:1c
-	;tileframe AnimateWaterfallTiles,    $0:34
+	tileframe AnimateWaterfallTiles,    $0:10
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe DoneTileAnimation
@@ -65,8 +65,7 @@ TilesetDreamyardAnim::
 	tileframe AnimateUnovaWaterTile2,   $0:6e
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
-	tileframe ScrollTileDown,           $0:6f
-	;tileframe AnimateWaterfallTiles,    $0:34
+	tileframe AnimateWaterfallTiles,    $0:27
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe DoneTileAnimation

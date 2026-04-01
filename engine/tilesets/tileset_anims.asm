@@ -680,17 +680,17 @@ AnimateUnovaWaterTile1:
 	jmp WriteTileHLToDE
 	
 .UnovaWaterTiles1Pointers:
-	dw UnovaWaterTileFrames +  0 +  0 tiles
-	dw UnovaWaterTileFrames +  0 +  1 tiles
-	dw UnovaWaterTileFrames +  0 +  2 tiles
-	dw UnovaWaterTileFrames +  0 +  3 tiles
-	dw UnovaWaterTileFrames +  0 +  4 tiles
-	dw UnovaWaterTileFrames +  0 +  5 tiles
-	dw UnovaWaterTileFrames +  0 +  6 tiles
-	dw UnovaWaterTileFrames +  0 +  7 tiles
-	dw UnovaWaterTileFrames +  0 +  8 tiles
-	dw UnovaWaterTileFrames +  0 +  9 tiles
-	dw UnovaWaterTileFrames +  0 + 10 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  0 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  1 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  2 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  3 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  4 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  5 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  6 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  7 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  8 tiles
+	dw UnovaWaterTileFrames +  0 tiles +  9 tiles
+	dw UnovaWaterTileFrames +  0 tiles + 10 tiles
 	
 AnimateUnovaWaterTile2:
 	ld hl, sp + 0
@@ -713,17 +713,17 @@ AnimateUnovaWaterTile2:
 	jmp WriteTileHLToDE
 	
 .UnovaWaterTiles2Pointers:
-	dw UnovaWaterTileFrames + 11 +  0 tiles
-	dw UnovaWaterTileFrames + 11 +  1 tiles
-	dw UnovaWaterTileFrames + 11 +  2 tiles
-	dw UnovaWaterTileFrames + 11 +  3 tiles
-	dw UnovaWaterTileFrames + 11 +  4 tiles
-	dw UnovaWaterTileFrames + 11 +  5 tiles
-	dw UnovaWaterTileFrames + 11 +  6 tiles
-	dw UnovaWaterTileFrames + 11 +  7 tiles
-	dw UnovaWaterTileFrames + 11 +  8 tiles
-	dw UnovaWaterTileFrames + 11 +  9 tiles
-	dw UnovaWaterTileFrames + 11 + 10 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  0 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  1 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  2 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  3 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  4 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  5 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  6 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  7 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  8 tiles
+	dw UnovaWaterTileFrames + 11 tiles +  9 tiles
+	dw UnovaWaterTileFrames + 11 tiles + 10 tiles
 	
 AnimateUnovaWaterTile3:
 	ld hl, sp + 0
@@ -746,17 +746,17 @@ AnimateUnovaWaterTile3:
 	jmp WriteTileHLToDE
 	
 .UnovaWaterTiles3Pointers:
-	dw UnovaWaterTileFrames + 22 +  0 tiles
-	dw UnovaWaterTileFrames + 22 +  1 tiles
-	dw UnovaWaterTileFrames + 22 +  2 tiles
-	dw UnovaWaterTileFrames + 22 +  3 tiles
-	dw UnovaWaterTileFrames + 22 +  4 tiles
-	dw UnovaWaterTileFrames + 22 +  5 tiles
-	dw UnovaWaterTileFrames + 22 +  6 tiles
-	dw UnovaWaterTileFrames + 22 +  7 tiles
-	dw UnovaWaterTileFrames + 22 +  8 tiles
-	dw UnovaWaterTileFrames + 22 +  9 tiles
-	dw UnovaWaterTileFrames + 22 + 10 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  0 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  1 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  2 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  3 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  4 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  5 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  6 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  7 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  8 tiles
+	dw UnovaWaterTileFrames + 22 tiles +  9 tiles
+	dw UnovaWaterTileFrames + 22 tiles + 10 tiles
 	
 AnimateUnovaWaterTile4:
 	ld hl, sp + 0
@@ -779,17 +779,17 @@ AnimateUnovaWaterTile4:
 	jmp WriteTileHLToDE
 	
 .UnovaWaterTiles4Pointers:
-	dw UnovaWaterTileFrames + 33 +  0 tiles
-	dw UnovaWaterTileFrames + 33 +  1 tiles
-	dw UnovaWaterTileFrames + 33 +  2 tiles
-	dw UnovaWaterTileFrames + 33 +  3 tiles
-	dw UnovaWaterTileFrames + 33 +  4 tiles
-	dw UnovaWaterTileFrames + 33 +  5 tiles
-	dw UnovaWaterTileFrames + 33 +  6 tiles
-	dw UnovaWaterTileFrames + 33 +  7 tiles
-	dw UnovaWaterTileFrames + 33 +  8 tiles
-	dw UnovaWaterTileFrames + 33 +  9 tiles
-	dw UnovaWaterTileFrames + 33 + 10 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  0 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  1 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  2 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  3 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  4 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  5 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  6 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  7 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  8 tiles
+	dw UnovaWaterTileFrames + 33 tiles +  9 tiles
+	dw UnovaWaterTileFrames + 33 tiles + 10 tiles
 	
 UnovaWaterTileFrames:
 INCBIN "gfx/tilesets/animations/unova_water.2bpp"
@@ -815,12 +815,11 @@ AnimateFountainTile1:
 	jmp WriteTileHLToDE
 	
 .FountainTiles1Pointers:
-	dw FountainTileFrames +  0 + 0 tiles
-	dw FountainTileFrames +  0 + 1 tiles
-	dw FountainTileFrames +  0 + 2 tiles
-	dw FountainTileFrames +  0 + 3 tiles
-	dw FountainTileFrames +  0 + 4 tiles
-	dw FountainTileFrames +  0 + 5 tiles
+	dw FountainTileFrames +  0 tiles + 0 tiles
+	dw FountainTileFrames +  0 tiles + 1 tiles
+	dw FountainTileFrames +  0 tiles + 2 tiles
+	dw FountainTileFrames +  0 tiles + 3 tiles
+	dw FountainTileFrames +  0 tiles + 4 tiles
 
 AnimateFountainTile2:
 	ld hl, sp + 0
@@ -843,12 +842,11 @@ AnimateFountainTile2:
 	jmp WriteTileHLToDE
 	
 .FountainTiles2Pointers:
-	dw FountainTileFrames +  6 + 0 tiles
-	dw FountainTileFrames +  6 + 1 tiles
-	dw FountainTileFrames +  6 + 2 tiles
-	dw FountainTileFrames +  6 + 3 tiles
-	dw FountainTileFrames +  6 + 4 tiles
-	dw FountainTileFrames +  6 + 5 tiles
+	dw FountainTileFrames +  5 tiles + 0 tiles
+	dw FountainTileFrames +  5 tiles + 1 tiles
+	dw FountainTileFrames +  5 tiles + 2 tiles
+	dw FountainTileFrames +  5 tiles + 3 tiles
+	dw FountainTileFrames +  5 tiles + 4 tiles
 
 AnimateFountainTile3:
 	ld hl, sp + 0
@@ -871,12 +869,11 @@ AnimateFountainTile3:
 	jmp WriteTileHLToDE
 	
 .FountainTiles3Pointers:
-	dw FountainTileFrames + 12 + 0 tiles
-	dw FountainTileFrames + 12 + 1 tiles
-	dw FountainTileFrames + 12 + 2 tiles
-	dw FountainTileFrames + 12 + 3 tiles
-	dw FountainTileFrames + 12 + 4 tiles
-	dw FountainTileFrames + 12 + 5 tiles
+	dw FountainTileFrames + 10 tiles + 0 tiles
+	dw FountainTileFrames + 10 tiles + 1 tiles
+	dw FountainTileFrames + 10 tiles + 2 tiles
+	dw FountainTileFrames + 10 tiles + 3 tiles
+	dw FountainTileFrames + 10 tiles + 4 tiles
 
 AnimateFountainTile4:
 	ld hl, sp + 0
@@ -899,12 +896,11 @@ AnimateFountainTile4:
 	jmp WriteTileHLToDE
 	
 .FountainTiles4Pointers:
-	dw FountainTileFrames + 18 + 0 tiles
-	dw FountainTileFrames + 18 + 1 tiles
-	dw FountainTileFrames + 18 + 2 tiles
-	dw FountainTileFrames + 18 + 3 tiles
-	dw FountainTileFrames + 18 + 4 tiles
-	dw FountainTileFrames + 18 + 5 tiles
+	dw FountainTileFrames + 15 tiles + 0 tiles
+	dw FountainTileFrames + 15 tiles + 1 tiles
+	dw FountainTileFrames + 15 tiles + 2 tiles
+	dw FountainTileFrames + 15 tiles + 3 tiles
+	dw FountainTileFrames + 15 tiles + 4 tiles
 
 AnimateFountainTile5:
 	ld hl, sp + 0
@@ -927,12 +923,11 @@ AnimateFountainTile5:
 	jmp WriteTileHLToDE
 	
 .FountainTiles5Pointers:
-	dw FountainTileFrames + 24 + 0 tiles
-	dw FountainTileFrames + 24 + 1 tiles
-	dw FountainTileFrames + 24 + 2 tiles
-	dw FountainTileFrames + 24 + 3 tiles
-	dw FountainTileFrames + 24 + 4 tiles
-	dw FountainTileFrames + 24 + 5 tiles
+	dw FountainTileFrames + 20 tiles + 0 tiles
+	dw FountainTileFrames + 20 tiles + 1 tiles
+	dw FountainTileFrames + 20 tiles + 2 tiles
+	dw FountainTileFrames + 20 tiles + 3 tiles
+	dw FountainTileFrames + 20 tiles + 4 tiles
 
 AnimateFountainTile6:
 	ld hl, sp + 0
@@ -955,12 +950,11 @@ AnimateFountainTile6:
 	jmp WriteTileHLToDE
 	
 .FountainTiles6Pointers:
-	dw FountainTileFrames + 30 + 0 tiles
-	dw FountainTileFrames + 30 + 1 tiles
-	dw FountainTileFrames + 30 + 2 tiles
-	dw FountainTileFrames + 30 + 3 tiles
-	dw FountainTileFrames + 30 + 4 tiles
-	dw FountainTileFrames + 30 + 5 tiles
+	dw FountainTileFrames + 25 tiles + 0 tiles
+	dw FountainTileFrames + 25 tiles + 1 tiles
+	dw FountainTileFrames + 25 tiles + 2 tiles
+	dw FountainTileFrames + 25 tiles + 3 tiles
+	dw FountainTileFrames + 25 tiles + 4 tiles
 	
 FountainTileFrames:
 INCBIN "gfx/tilesets/animations/castelia_fountain.2bpp"
@@ -987,8 +981,8 @@ AnimateFanTile1:
 	jmp WriteTileHLToDE
 	
 .FanTiles1Pointers:
-	dw FanTileFrames + 0 + 0 tiles
-	dw FanTileFrames + 0 + 1 tiles
+	dw FanTileFrames + 0 tiles + 0 tiles
+	dw FanTileFrames + 0 tiles + 1 tiles
 
 AnimateFanTile2:
 	ld hl, sp + 0
@@ -1012,8 +1006,8 @@ AnimateFanTile2:
 	jmp WriteTileHLToDE
 	
 .FanTiles2Pointers:
-	dw FanTileFrames + 2 + 0 tiles
-	dw FanTileFrames + 2 + 1 tiles
+	dw FanTileFrames + 2 tiles + 0 tiles
+	dw FanTileFrames + 2 tiles + 1 tiles
 
 AnimateFanTile3:
 	ld hl, sp + 0
@@ -1037,8 +1031,8 @@ AnimateFanTile3:
 	jmp WriteTileHLToDE
 	
 .FanTiles3Pointers:
-	dw FanTileFrames + 4 + 0 tiles
-	dw FanTileFrames + 4 + 1 tiles
+	dw FanTileFrames + 4 tiles + 0 tiles
+	dw FanTileFrames + 4 tiles + 1 tiles
 
 AnimateFanTile4:
 	ld hl, sp + 0
@@ -1062,8 +1056,8 @@ AnimateFanTile4:
 	jmp WriteTileHLToDE
 	
 .FanTiles4Pointers:
-	dw FanTileFrames + 6 + 0 tiles
-	dw FanTileFrames + 6 + 1 tiles
+	dw FanTileFrames + 6 tiles + 0 tiles
+	dw FanTileFrames + 6 tiles + 1 tiles
 	
 FanTileFrames:
 INCBIN "gfx/tilesets/animations/fan.2bpp"
