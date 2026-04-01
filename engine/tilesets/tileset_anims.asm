@@ -85,7 +85,7 @@ ScrollTileRightLeft:
 	and %111
 	ld [wTileAnimationTimer], a
 	and %100
-	jr nz, ScrollTileLeft
+	jp nz, ScrollTileLeft
 	; fallthrough
 
 ScrollTileRight:
@@ -658,6 +658,254 @@ AnimateTowerPillarTiles4:
 	dw vTiles5 tile $61 + 3 * 3 tiles ; 5
 	dw vTiles5 tile $61 + 3 * 2 tiles ; 6
 	dw vTiles5 tile $61 + 3 * 1 tiles ; 7
+
+AnimateSkyTiles1Left:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles1LPointers)
+	ld l, a
+	adc HIGH(.SkyTiles1LPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles1LPointers:
+	dw vTiles2 tile $77 ; 0
+	dw vTiles2 tile $78 ; 1
+	dw vTiles2 tile $79 ; 2
+	dw vTiles2 tile $7a ; 3
+	dw vTiles2 tile $77 ; 4
+	dw vTiles2 tile $77 ; 5
+	dw vTiles2 tile $77 ; 6
+	dw vTiles2 tile $77 ; 7
+
+AnimateSkyTiles1Right:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles1RPointers)
+	ld l, a
+	adc HIGH(.SkyTiles1RPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles1RPointers:
+	dw vTiles2 tile $77 ; 0
+	dw vTiles2 tile $77 ; 1
+	dw vTiles2 tile $77 ; 2
+	dw vTiles2 tile $77 ; 3
+	dw vTiles2 tile $77 ; 4
+	dw vTiles2 tile $7a ; 5
+	dw vTiles2 tile $79 ; 6
+	dw vTiles2 tile $78 ; 7
+
+AnimateSkyTiles2Left:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles2LPointers)
+	ld l, a
+	adc HIGH(.SkyTiles2LPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles2LPointers:
+	dw vTiles2 tile $60 ; 0
+	dw vTiles2 tile $61 ; 1
+	dw vTiles2 tile $62 ; 2
+	dw vTiles2 tile $63 ; 3
+	dw vTiles2 tile $64 ; 4
+	dw vTiles2 tile $65 ; 5
+	dw vTiles2 tile $66 ; 6
+	dw vTiles2 tile $67 ; 7
+
+AnimateSkyTiles2Right:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles2RPointers)
+	ld l, a
+	adc HIGH(.SkyTiles2RPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles2RPointers:
+	dw vTiles2 tile $60 ; 0
+	dw vTiles2 tile $67 ; 1
+	dw vTiles2 tile $66 ; 2
+	dw vTiles2 tile $65 ; 3
+	dw vTiles2 tile $64 ; 4
+	dw vTiles2 tile $63 ; 5
+	dw vTiles2 tile $62 ; 6
+	dw vTiles2 tile $61 ; 7
+
+AnimateSkyTiles3Left:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles3LPointers)
+	ld l, a
+	adc HIGH(.SkyTiles3LPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles3LPointers:
+	dw vTiles2 tile $68 ; 0
+	dw vTiles2 tile $69 ; 1
+	dw vTiles2 tile $6a ; 2
+	dw vTiles2 tile $6b ; 3
+	dw vTiles2 tile $6c ; 4
+	dw vTiles2 tile $6d ; 5
+	dw vTiles2 tile $6e ; 6
+	dw vTiles2 tile $6f ; 7
+
+AnimateSkyTiles3Right:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles3RPointers)
+	ld l, a
+	adc HIGH(.SkyTiles3RPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles3RPointers:
+	dw vTiles2 tile $68 ; 0
+	dw vTiles2 tile $6f ; 1
+	dw vTiles2 tile $6e ; 2
+	dw vTiles2 tile $6d ; 3
+	dw vTiles2 tile $6c ; 4
+	dw vTiles2 tile $6b ; 5
+	dw vTiles2 tile $6a ; 6
+	dw vTiles2 tile $69 ; 7
+
+AnimateSkyTiles4Left:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles4LPointers)
+	ld l, a
+	adc HIGH(.SkyTiles4LPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles4LPointers:
+	dw vTiles2 tile $70 ; 0
+	dw vTiles2 tile $71 ; 1
+	dw vTiles2 tile $71 ; 2
+	dw vTiles2 tile $71 ; 3
+	dw vTiles2 tile $71 ; 4
+	dw vTiles2 tile $72 ; 5
+	dw vTiles2 tile $73 ; 6
+	dw vTiles2 tile $74 ; 7
+
+AnimateSkyTiles4Right:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 8, offset to pointer table (2 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 8
+	add a
+
+	add LOW(.SkyTiles4RPointers)
+	ld l, a
+	adc HIGH(.SkyTiles4RPointers)
+	sub l
+	ld h, a
+
+	ld sp, hl
+	pop hl
+
+	jmp WriteFourTilesHLToDE
+
+.SkyTiles4RPointers:
+	dw vTiles2 tile $70 ; 0
+	dw vTiles2 tile $74 ; 1
+	dw vTiles2 tile $73 ; 2
+	dw vTiles2 tile $72 ; 3
+	dw vTiles2 tile $71 ; 4
+	dw vTiles2 tile $71 ; 5
+	dw vTiles2 tile $71 ; 6
+	dw vTiles2 tile $71 ; 7
 	
 AnimateUnovaWaterTile1:
 	ld hl, sp + 0
@@ -1096,15 +1344,15 @@ AnimateComputerTile:
 	swap a
 	add a
 
-	add LOW(ComputerTileFrames)
+	add LOW(.ComputerTileFrames)
 	ld l, a
-	adc HIGH(ComputerTileFrames)
+	adc HIGH(.ComputerTileFrames)
 	sub l
 	ld h, a
 
 	jmp WriteTwoTilesHLToDE
 	
-ComputerTileFrames:
+.ComputerTileFrames:
 INCBIN "gfx/tilesets/animations/computer.2bpp"
 
 AnimateTinyWaterTiles:

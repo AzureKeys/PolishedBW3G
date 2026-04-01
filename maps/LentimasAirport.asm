@@ -6,7 +6,7 @@ LentimasAirport_MapScriptHeader:
 	def_warp_events
 	warp_event  3,  7, LENTIMAS_TOWN, 5
 	warp_event  4,  7, LENTIMAS_TOWN, 5
-	;warp_event  5,  0, PLANE_LEFT, 1
+	warp_event  5,  0, PLANE_LEFT, 1
 
 	def_coord_events
 	coord_event  5,  1, 0, LentimasAirport_ArriveScript
@@ -22,7 +22,7 @@ LentimasAirport_MapScriptHeader:
 	const LENTIMASAIRPORT_RECEPTIONIST
 	
 LentimasAirport_ArriveScript:
-	appear PLAYER
+	applymovement PLAYER, .AppearPlayer
 	applymovement LENTIMASAIRPORT_RECEPTIONIST, LentimasAirport_ReceptionistArriveMovement
 	applymovement PLAYER, LentimasAirport_PlayerArriveMovement
 	applymovement LENTIMASAIRPORT_RECEPTIONIST, LentimasAirport_ReceptionistResetMovement
@@ -33,6 +33,10 @@ LentimasAirport_ArriveScript:
 	
 	para "Enjoy your trip!"
 	done
+	
+.AppearPlayer:
+	show_object
+	step_end
 	
 LentimasAirportReceptionistScript:
 	faceplayer
@@ -47,10 +51,14 @@ LentimasAirportReceptionistScript:
 	closetext
 	applymovement LENTIMASAIRPORT_RECEPTIONIST, LentimasAirport_ReceptionistBoardingMovement
 	applymovement PLAYER, LentimasAirport_PlayerBoardingMovement
-	disappear PLAYER
+	applymovement PLAYER, .DisappearPlayer
 	warpcheck
 	newloadmap MAPSETUP_TRAIN
 	end
+	
+.DisappearPlayer:
+	hide_object
+	step_end
 	
 .AskText:
 	text "Welcome to the"

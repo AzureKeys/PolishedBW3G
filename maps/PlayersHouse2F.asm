@@ -258,7 +258,7 @@ endr
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
-	warpfacing DOWN, NACRENE_CITY, 4, 9
+	warpfacing DOWN, MISTRALTON_CITY, 27, 16
 	closetext
 	end
 

@@ -44,6 +44,8 @@ MapScenes::
 	scene_var P2_LAB_ENTRANCE,                        wP2LabEntranceSceneID
 	scene_var PINWHEEL_FOREST,                        wPinwheelForestSceneID
 	scene_var PINWHEEL_SKYARROW_BRIDGE_GATE,          wPinwheelSkyarrowBridgeGateSceneID
+	scene_var PLANE_LEFT,                             wAlways0SceneID
+	scene_var PLANE_RIGHT,                            wAlways0SceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var PWT_BACK_ROOM,                          wPWTBackRoomSceneID
 	scene_var PWT_BATTLE_ROOM,                        wPWTBattleRoomSceneID

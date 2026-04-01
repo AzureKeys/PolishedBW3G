@@ -38,6 +38,8 @@ ENDM
 	special_bg_pal map,      DRIFTVEIL_DRAWBRIDGE,        PAL_TIMEOFDAY, DriftveilDrawbridgePalette
 	special_bg_pal map,      DRIFTVEIL_STONE_EMPORIUM,    PAL_SINGLE,    StoneEmporiumPalette
 	special_bg_pal map,      MISTRALTON_AIRPORT,          PAL_SINGLE,    AirportPalette
+	special_bg_pal map,      PLANE_LEFT,                  PAL_TIMEOFDAY, PlanePalette
+	special_bg_pal map,      PLANE_RIGHT,                 PAL_TIMEOFDAY, PlanePalette
 	special_bg_pal landmark, CHARGESTONE_CAVE,            PAL_SINGLE,    ChargestoneCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -210,6 +212,39 @@ rept 8
 	RGB_MONOCHROME_LIGHT
 	RGB_MONOCHROME_WHITE
 endr
+endc
+
+PlanePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/plane.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
 endc
 
 LentimasPalette:

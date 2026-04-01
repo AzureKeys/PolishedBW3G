@@ -173,7 +173,6 @@ TilesetUndergroundAnim::
 	tileframe ScrollTileRightLeft,      $0:7e
 	tileframe DoNothing
 	tileframe DoNothing
-	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
 TilesetFacilityAnim::
@@ -184,6 +183,18 @@ TilesetFacilityAnim::
 	tileframe StandingTileFrame8
 	tileframe DoNothing
 	tileframe AnimateTurbineTiles,      $0:6c
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
+	
+TilesetAirportAnim::
+	tileframe AnimateSkyTiles1Left,     $0:03
+	tileframe AnimateSkyTiles2Left,     $0:13
+	tileframe AnimateSkyTiles3Left,     $0:23
+	tileframe AnimateSkyTiles4Left,     $0:33
+	tileframe AnimateSkyTiles1Right,    $0:0c
+	tileframe AnimateSkyTiles2Right,    $0:1c
+	tileframe AnimateSkyTiles3Right,    $0:2c
+	tileframe AnimateSkyTiles4Right,    $0:3c
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
@@ -204,6 +215,5 @@ TilesetBattleFactoryAnim::
 TilesetHiddenGrottoAnim::
 TilesetLentimasAnim::
 TilesetPWTInsideAnim::
-TilesetAirportAnim::
 	tileframe DoNothing
 	tileframe DoneTileAnimation

@@ -7,7 +7,7 @@ MistraltonAirport_MapScriptHeader:
 	warp_event  6, 11, MISTRALTON_CITY, 5
 	warp_event  7, 11, MISTRALTON_CITY, 5
 	warp_event  8, 11, MISTRALTON_CITY, 5
-	;warp_event  7,  4, PLANE_RIGHT, 1
+	warp_event  7,  4, PLANE_RIGHT, 1
 
 	def_coord_events
 	coord_event  7,  5, 0, MistraltonAirport_ArriveScript
@@ -24,7 +24,7 @@ MistraltonAirport_MapScriptHeader:
 	const MISTRALTONAIRPORT_RECEPTIONIST
 	
 MistraltonAirport_ArriveScript:
-	appear PLAYER
+	applymovement PLAYER, .AppearPlayer
 	applymovement MISTRALTONAIRPORT_RECEPTIONIST, MistraltonAirport_ReceptionistArriveMovement
 	applymovement PLAYER, MistraltonAirport_PlayerArriveMovement
 	applymovement MISTRALTONAIRPORT_RECEPTIONIST, MistraltonAirport_ReceptionistResetMovement
@@ -35,6 +35,10 @@ MistraltonAirport_ArriveScript:
 	
 	para "Enjoy your trip!"
 	done
+	
+.AppearPlayer:
+	show_object
+	step_end
 	
 MistraltonAirportReceptionistScript:
 	faceplayer
@@ -65,10 +69,14 @@ MistraltonAirportReceptionistScript:
 	closetext
 	applymovement MISTRALTONAIRPORT_RECEPTIONIST, MistraltonAirport_ReceptionistBoardingMovement
 	applymovement PLAYER, MistraltonAirport_PlayerBoardingMovement
-	disappear PLAYER
+	applymovement PLAYER, .DisappearPlayer
 	warpcheck
 	newloadmap MAPSETUP_TRAIN
 	end
+	
+.DisappearPlayer:
+	hide_object
+	step_end
 	
 .RefusedText:
 	text "Please come back"
