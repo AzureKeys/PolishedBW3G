@@ -681,14 +681,14 @@ AnimateSkyTiles1Left:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles1LPointers:
-	dw vTiles2 tile $77 ; 0
-	dw vTiles2 tile $78 ; 1
-	dw vTiles2 tile $79 ; 2
-	dw vTiles2 tile $7a ; 3
-	dw vTiles2 tile $77 ; 4
-	dw vTiles2 tile $77 ; 5
-	dw vTiles2 tile $77 ; 6
-	dw vTiles2 tile $77 ; 7
+	dw SkyTileFrames + 0 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 0 * 32 tiles +  4 tiles
+	dw SkyTileFrames + 0 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 28 tiles
 
 AnimateSkyTiles1Right:
 	ld hl, sp + 0
@@ -712,14 +712,14 @@ AnimateSkyTiles1Right:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles1RPointers:
-	dw vTiles2 tile $77 ; 0
-	dw vTiles2 tile $77 ; 1
-	dw vTiles2 tile $77 ; 2
-	dw vTiles2 tile $77 ; 3
-	dw vTiles2 tile $77 ; 4
-	dw vTiles2 tile $7a ; 5
-	dw vTiles2 tile $79 ; 6
-	dw vTiles2 tile $78 ; 7
+	dw SkyTileFrames + 0 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 28 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 0 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 0 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 0 * 32 tiles +  4 tiles
 
 AnimateSkyTiles2Left:
 	ld hl, sp + 0
@@ -743,14 +743,14 @@ AnimateSkyTiles2Left:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles2LPointers:
-	dw vTiles2 tile $60 ; 0
-	dw vTiles2 tile $61 ; 1
-	dw vTiles2 tile $62 ; 2
-	dw vTiles2 tile $63 ; 3
-	dw vTiles2 tile $64 ; 4
-	dw vTiles2 tile $65 ; 5
-	dw vTiles2 tile $66 ; 6
-	dw vTiles2 tile $67 ; 7
+	dw SkyTileFrames + 1 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 1 * 32 tiles +  4 tiles
+	dw SkyTileFrames + 1 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 28 tiles
 
 AnimateSkyTiles2Right:
 	ld hl, sp + 0
@@ -774,14 +774,14 @@ AnimateSkyTiles2Right:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles2RPointers:
-	dw vTiles2 tile $60 ; 0
-	dw vTiles2 tile $67 ; 1
-	dw vTiles2 tile $66 ; 2
-	dw vTiles2 tile $65 ; 3
-	dw vTiles2 tile $64 ; 4
-	dw vTiles2 tile $63 ; 5
-	dw vTiles2 tile $62 ; 6
-	dw vTiles2 tile $61 ; 7
+	dw SkyTileFrames + 1 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 28 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 1 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 1 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 1 * 32 tiles +  4 tiles
 
 AnimateSkyTiles3Left:
 	ld hl, sp + 0
@@ -805,14 +805,14 @@ AnimateSkyTiles3Left:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles3LPointers:
-	dw vTiles2 tile $68 ; 0
-	dw vTiles2 tile $69 ; 1
-	dw vTiles2 tile $6a ; 2
-	dw vTiles2 tile $6b ; 3
-	dw vTiles2 tile $6c ; 4
-	dw vTiles2 tile $6d ; 5
-	dw vTiles2 tile $6e ; 6
-	dw vTiles2 tile $6f ; 7
+	dw SkyTileFrames + 2 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 2 * 32 tiles +  4 tiles
+	dw SkyTileFrames + 2 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 28 tiles
 
 AnimateSkyTiles3Right:
 	ld hl, sp + 0
@@ -836,14 +836,14 @@ AnimateSkyTiles3Right:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles3RPointers:
-	dw vTiles2 tile $68 ; 0
-	dw vTiles2 tile $6f ; 1
-	dw vTiles2 tile $6e ; 2
-	dw vTiles2 tile $6d ; 3
-	dw vTiles2 tile $6c ; 4
-	dw vTiles2 tile $6b ; 5
-	dw vTiles2 tile $6a ; 6
-	dw vTiles2 tile $69 ; 7
+	dw SkyTileFrames + 2 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 28 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 2 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 2 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 2 * 32 tiles +  4 tiles
 
 AnimateSkyTiles4Left:
 	ld hl, sp + 0
@@ -867,14 +867,14 @@ AnimateSkyTiles4Left:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles4LPointers:
-	dw vTiles2 tile $70 ; 0
-	dw vTiles2 tile $71 ; 1
-	dw vTiles2 tile $71 ; 2
-	dw vTiles2 tile $71 ; 3
-	dw vTiles2 tile $71 ; 4
-	dw vTiles2 tile $72 ; 5
-	dw vTiles2 tile $73 ; 6
-	dw vTiles2 tile $74 ; 7
+	dw SkyTileFrames + 3 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 3 * 32 tiles +  4 tiles
+	dw SkyTileFrames + 3 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 28 tiles
 
 AnimateSkyTiles4Right:
 	ld hl, sp + 0
@@ -898,14 +898,17 @@ AnimateSkyTiles4Right:
 	jmp WriteFourTilesHLToDE
 
 .SkyTiles4RPointers:
-	dw vTiles2 tile $70 ; 0
-	dw vTiles2 tile $74 ; 1
-	dw vTiles2 tile $73 ; 2
-	dw vTiles2 tile $72 ; 3
-	dw vTiles2 tile $71 ; 4
-	dw vTiles2 tile $71 ; 5
-	dw vTiles2 tile $71 ; 6
-	dw vTiles2 tile $71 ; 7
+	dw SkyTileFrames + 3 * 32 tiles +  0 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 28 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 24 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 20 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 16 tiles
+	dw SkyTileFrames + 3 * 32 tiles + 12 tiles
+	dw SkyTileFrames + 3 * 32 tiles +  8 tiles
+	dw SkyTileFrames + 3 * 32 tiles +  4 tiles
+	
+SkyTileFrames:
+INCBIN "gfx/tilesets/animations/sky.2bpp"
 	
 AnimateUnovaWaterTile1:
 	ld hl, sp + 0
