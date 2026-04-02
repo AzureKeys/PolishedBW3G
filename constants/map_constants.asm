@@ -277,5 +277,8 @@ ENDM
 	map_const PLANE_RIGHT,                                13,  5 ;  7
 	map_const MISTRALTON_GYM_1F,                           7, 10 ;  8
 	map_const MISTRALTON_GYM_2F,                           9,  9 ;  9
+	map_const ROUTE_7_SOUTH,                              12, 27 ; 10
+	map_const ROUTE_7_MIDDLE,                              5,  7 ; 11
+	map_const ROUTE_7_NORTH,                              11, 24 ; 12
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

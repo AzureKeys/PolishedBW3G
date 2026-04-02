@@ -209,6 +209,7 @@ DEF FIRST_BERRY_TREE EQU const_value
 	const FRUITTREE_ROUTE_2           ; 10
 	const FRUITTREE_ROUTE_1           ; 11
 	const FRUITTREE_ROUTE_6           ; 12
+	const FRUITTREE_ROUTE_7           ; 13
 DEF NUM_FRUIT_TREES EQU const_value - 1
 
 ; hidden grottoes
@@ -227,8 +228,8 @@ DEF NUM_FRUIT_TREES EQU const_value - 1
 	const HIDDENGROTTO_ROUTE_2                 ; 0b
 	const HIDDENGROTTO_ROUTE_18                ; 0c
 	const HIDDENGROTTO_ROUTE_6                 ; 0d
+	const HIDDENGROTTO_ROUTE_7                 ; 0e
 	
-	const HIDDENGROTTO_SNOWTOP_MOUNTAIN_INSIDE ; 0e
 	const HIDDENGROTTO_ROUTE_42                ; 0f
 	const HIDDENGROTTO_LAKE_OF_RAGE            ; 10
 	const HIDDENGROTTO_BELLCHIME_TRAIL         ; 11

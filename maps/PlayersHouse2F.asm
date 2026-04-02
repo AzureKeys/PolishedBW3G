@@ -259,7 +259,7 @@ endr
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
-	warpfacing DOWN, MISTRALTON_CITY, 27, 16
+	warpfacing DOWN, ROUTE_7_NORTH, 5, 10
 	closetext
 	end
 

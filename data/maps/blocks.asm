@@ -672,4 +672,16 @@ SECTION "MistraltonGym2F_BlockData", ROMX
 MistraltonGym2F_BlockData:
 	INCBIN "maps/MistraltonGym2F.ablk.lzp"
 
+SECTION "Route7South_BlockData", ROMX
+Route7South_BlockData:
+	INCBIN "maps/Route7South.ablk.lzp"
+
+SECTION "Route7Middle_BlockData", ROMX
+Route7Middle_BlockData:
+	INCBIN "maps/Route7Middle.ablk.lzp"
+
+SECTION "Route7North_BlockData", ROMX
+Route7North_BlockData:
+	INCBIN "maps/Route7North.ablk.lzp"
+
 ENDSECTION
