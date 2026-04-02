@@ -36,7 +36,7 @@
 	const SPRITE_BRIDGE_CABLE ; 22
 	const SPRITE_LENORA ; 23
 	const SPRITE_CLAY ; 24
-	const SPRITE_IVY ; 25
+	const SPRITE_FAN ; 25
 	const SPRITE_WESTWOOD ; 26
 	const SPRITE_WILLOW ; 27
 	const SPRITE_ANDY ; 28

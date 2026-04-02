@@ -27,10 +27,10 @@ MistraltonGym1F_MapScriptHeader:
 	bg_event  8, 17, BGEVENT_READ, MistraltonGymStatue
 	
 	def_object_events
-	strengthboulder_event  1, 13, EVENT_MISTRALTON_GYM_1F_FAN_1
-	strengthboulder_event 12, 14, EVENT_MISTRALTON_GYM_1F_FAN_2
-	strengthboulder_event  9,  1, EVENT_MISTRALTON_GYM_1F_FAN_3
-	strengthboulder_event  2,  7, EVENT_MISTRALTON_GYM_1F_FAN_4
+	strengthboulder_event  1, 13, SPRITE_FAN, EVENT_MISTRALTON_GYM_1F_FAN_1
+	strengthboulder_event 12, 14, SPRITE_FAN, EVENT_MISTRALTON_GYM_1F_FAN_2
+	strengthboulder_event  9,  1, SPRITE_FAN, EVENT_MISTRALTON_GYM_1F_FAN_3
+	strengthboulder_event  2,  7, SPRITE_FAN, EVENT_MISTRALTON_GYM_1F_FAN_4
 	object_event  6,  5, SPRITE_SKYLA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, MistraltonGymSkylaScript, -1
 	object_event  7, 17, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MistraltonGymGuyScript, -1
 	object_event  3, 10, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, TrainerPilot1MistraltonGym1F, -1
@@ -129,6 +129,7 @@ MistraltonGymSkylaScript:
 	setevent EVENT_BEAT_PILOT_MISTRALTON_GYM_3
 	setevent EVENT_BEAT_PILOT_MISTRALTON_GYM_4
 	setevent EVENT_BEAT_PILOT_MISTRALTON_GYM_5
+	specialphonecall SPECIALCALL_CHEREN_MISTRALTON
 	opentext
 	givebadge JETBADGE, 0
 	writethistext

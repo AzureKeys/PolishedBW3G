@@ -159,8 +159,10 @@ ENDM
 MACRO strengthboulder_event
 	if _NARG == 2
 		object_event \1, \2, SPRITE_BOULDER_ROCK_FOSSIL, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, -1
-	else
+	elif _NARG == 3
 		object_event \1, \2, SPRITE_BOULDER_ROCK_FOSSIL, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, \3
+	else
+		object_event \1, \2, \3, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, \4
 	endc
 ENDM
 

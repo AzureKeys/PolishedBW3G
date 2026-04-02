@@ -255,6 +255,7 @@ endr
 	setmapscene PLAYERS_HOUSE_1F, SCENE_PLAYERSHOUSE1F_NOOP
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
+	setmapscene MISTRALTON_CITY, 1
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL

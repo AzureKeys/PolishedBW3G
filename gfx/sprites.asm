@@ -106,8 +106,8 @@ LenoraSpriteGFX:: INCBIN "gfx/sprites/lenora.2bpp.lzp"
 SECTION "ClaySpriteGFX", ROMX
 ClaySpriteGFX:: INCBIN "gfx/sprites/clay.2bpp.lzp"
 
-SECTION "IvySpriteGFX", ROMX
-IvySpriteGFX:: INCBIN "gfx/sprites/ivy.2bpp.lzp"
+SECTION "FanSpriteGFX", ROMX
+FanSpriteGFX:: INCBIN "gfx/sprites/fan.2bpp.lzp"
 
 SECTION "WestwoodSpriteGFX", ROMX
 WestwoodSpriteGFX:: INCBIN "gfx/sprites/westwood.2bpp.lzp"

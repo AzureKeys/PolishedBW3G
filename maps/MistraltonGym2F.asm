@@ -27,8 +27,8 @@ MistraltonGym2F_MapScriptHeader:
 	def_bg_events
 	
 	def_object_events
-	strengthboulder_event 14, 11, EVENT_MISTRALTON_GYM_2F_FAN_1
-	strengthboulder_event  5,  2, EVENT_MISTRALTON_GYM_2F_FAN_2
+	strengthboulder_event 14, 11, SPRITE_FAN, EVENT_MISTRALTON_GYM_2F_FAN_1
+	strengthboulder_event  5,  2, SPRITE_FAN, EVENT_MISTRALTON_GYM_2F_FAN_2
 	object_event 15, 14, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, TrainerPilot1MistraltonGym2F, -1
 	object_event  2,  5, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, TrainerPilot2MistraltonGym2F, -1
 	
