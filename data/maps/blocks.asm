@@ -664,4 +664,12 @@ SECTION "PlaneRight_BlockData", ROMX
 PlaneRight_BlockData:
 	INCBIN "maps/PlaneRight.ablk.lzp"
 
+SECTION "MistraltonGym1F_BlockData", ROMX
+MistraltonGym1F_BlockData:
+	INCBIN "maps/MistraltonGym1F.ablk.lzp"
+
+SECTION "MistraltonGym2F_BlockData", ROMX
+MistraltonGym2F_BlockData:
+	INCBIN "maps/MistraltonGym2F.ablk.lzp"
+
 ENDSECTION

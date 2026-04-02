@@ -275,5 +275,7 @@ ENDM
 	map_const MISTRALTON_AIRPORT,                          7,  6 ;  5
 	map_const PLANE_LEFT,                                 13,  5 ;  6
 	map_const PLANE_RIGHT,                                13,  5 ;  7
+	map_const MISTRALTON_GYM_1F,                           7, 10 ;  8
+	map_const MISTRALTON_GYM_2F,                           9,  9 ;  9
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

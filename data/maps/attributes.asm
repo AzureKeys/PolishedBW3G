@@ -159,6 +159,8 @@ ENDM
 	map_attributes ChargestoneCaveB2F, CHARGESTONE_CAVE_B2F, $9, 0
 	map_attributes PlaneLeft, PLANE_LEFT, $0, 0
 	map_attributes PlaneRight, PLANE_RIGHT, $0, 0
+	map_attributes MistraltonGym1F, MISTRALTON_GYM_1F, $0, 0
+	map_attributes MistraltonGym2F, MISTRALTON_GYM_2F, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

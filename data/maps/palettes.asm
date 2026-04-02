@@ -40,6 +40,8 @@ ENDM
 	special_bg_pal map,      MISTRALTON_AIRPORT,          PAL_SINGLE,    AirportPalette
 	special_bg_pal map,      PLANE_LEFT,                  PAL_TIMEOFDAY, PlanePalette
 	special_bg_pal map,      PLANE_RIGHT,                 PAL_TIMEOFDAY, PlanePalette
+	special_bg_pal map,      MISTRALTON_GYM_1F,           PAL_SINGLE,    MistraltonGymPalette
+	special_bg_pal map,      MISTRALTON_GYM_2F,           PAL_SINGLE,    MistraltonGymPalette
 	special_bg_pal landmark, CHARGESTONE_CAVE,            PAL_SINGLE,    ChargestoneCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -145,6 +147,18 @@ endc
 StriatonGymPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/striaton_gym.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+MistraltonGymPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/mistralton_gym.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK

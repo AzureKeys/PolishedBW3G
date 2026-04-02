@@ -317,6 +317,8 @@ INCLUDE "maps/MistraltonMoveReminder.asm"
 INCLUDE "maps/MistraltonAirport.asm"
 INCLUDE "maps/PlaneLeft.asm"
 INCLUDE "maps/PlaneRight.asm"
+INCLUDE "maps/MistraltonGym1F.asm"
+INCLUDE "maps/MistraltonGym2F.asm"
 
 
 ENDSECTION
