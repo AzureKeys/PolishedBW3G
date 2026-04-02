@@ -4,6 +4,7 @@ Route7South_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event  5, 27, ROUTE_7_RAZOR_CLAW_HOUSE, 1
 	warp_event  9, 27, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

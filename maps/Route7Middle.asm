@@ -4,6 +4,7 @@ Route7Middle_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event  5,  7, ROUTE_7_TRADE_HOUSE, 1
 	
 	def_coord_events
 

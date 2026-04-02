@@ -43,6 +43,8 @@ DriftveilTradeHouse_BlockData:
 Route6House_BlockData:
 MistraltonSharpBeakHouse_BlockData:
 MistraltonMoveReminder_BlockData:
+Route7RazorClawHouse_BlockData:
+Route7TradeHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX

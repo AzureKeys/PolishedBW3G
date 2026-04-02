@@ -309,6 +309,8 @@ INCLUDE "maps/ChargestoneCaveB2F.asm"
 INCLUDE "maps/Route7South.asm"
 INCLUDE "maps/Route7Middle.asm"
 INCLUDE "maps/Route7North.asm"
+INCLUDE "maps/Route7RazorClawHouse.asm"
+INCLUDE "maps/Route7TradeHouse.asm"
 
 
 SECTION "Mistralton Scripts", ROMX

@@ -280,5 +280,7 @@ ENDM
 	map_const ROUTE_7_SOUTH,                              12, 27 ; 10
 	map_const ROUTE_7_MIDDLE,                              5,  7 ; 11
 	map_const ROUTE_7_NORTH,                              11, 24 ; 12
+	map_const ROUTE_7_RAZOR_CLAW_HOUSE,                    4,  4 ; 13
+	map_const ROUTE_7_TRADE_HOUSE,                         4,  4 ; 14
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
