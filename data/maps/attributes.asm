@@ -173,6 +173,9 @@ ENDM
 	map_attributes PlaneRight, PLANE_RIGHT, $0, 0
 	map_attributes MistraltonGym1F, MISTRALTON_GYM_1F, $0, 0
 	map_attributes MistraltonGym2F, MISTRALTON_GYM_2F, $0, 0
+	map_attributes CelestialTower1F, CELESTIAL_TOWER_1F, $0, 0
+	map_attributes CelestialTower, CELESTIAL_TOWER, $0, 0
+	map_attributes CelestialTowerRoof, CELESTIAL_TOWER_ROOF, $a1, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

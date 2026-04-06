@@ -79,6 +79,9 @@ ENDM
 	map_const CHARGESTONE_CAVE_1F,                        23, 18 ; 35
 	map_const CHARGESTONE_CAVE_B1F,                       16, 21 ; 36
 	map_const CHARGESTONE_CAVE_B2F,                       12, 15 ; 37
+	map_const CELESTIAL_TOWER_1F,                          5,  6 ; 38
+	map_const CELESTIAL_TOWER,                             5, 22 ; 39
+	map_const CELESTIAL_TOWER_ROOF,                        9,  8 ; 40
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

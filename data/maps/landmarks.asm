@@ -59,6 +59,7 @@ Landmarks:
 	landmark  28,  76, ChargestoneCaveName
 	landmark  28,  60, MistraltonCityName
 	landmark  36,  48, Route7Name
+	landmark  28,  44, CelestialTowerName
 	landmark 108,  36, Route12Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
@@ -116,6 +117,7 @@ MistraltonCaveName:    rawchar "Mistralton¯Cave@"
 ChargestoneCaveName:   rawchar "Chargestone¯Cave@"
 MistraltonCityName:    rawchar "Mistralton¯City@"
 Route7Name:            rawchar "Route 7@"
+CelestialTowerName:    rawchar "Celestial¯Tower@"
 Route12Name:           rawchar "Route 12@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"

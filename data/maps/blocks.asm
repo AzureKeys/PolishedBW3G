@@ -686,4 +686,16 @@ SECTION "Route7North_BlockData", ROMX
 Route7North_BlockData:
 	INCBIN "maps/Route7North.ablk.lzp"
 
+SECTION "CelestialTower1F_BlockData", ROMX
+CelestialTower1F_BlockData:
+	INCBIN "maps/CelestialTower1F.ablk.lzp"
+
+SECTION "CelestialTower_BlockData", ROMX
+CelestialTower_BlockData:
+	INCBIN "maps/CelestialTower.ablk.lzp"
+
+SECTION "CelestialTowerRoof_BlockData", ROMX
+CelestialTowerRoof_BlockData:
+	INCBIN "maps/CelestialTowerRoof.ablk.lzp"
+
 ENDSECTION

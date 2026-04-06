@@ -54,6 +54,7 @@
 	const CHARGESTONE_CAVE     ; 34
 	const MISTRALTON_CITY      ; 35
 	const ROUTE_7              ; 36
+	const CELESTIAL_TOWER      ; 37
 	const ROUTE_12             ; 42
 	const POKEMON_LEAGUE       ; 45
 	const BATTLE_TOWER         ; 46

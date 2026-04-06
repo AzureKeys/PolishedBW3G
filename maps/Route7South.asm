@@ -5,6 +5,7 @@ Route7South_MapScriptHeader:
 
 	def_warp_events
 	warp_event  5, 27, ROUTE_7_RAZOR_CLAW_HOUSE, 1
+	warp_event 10,  5, CELESTIAL_TOWER_1F, 1
 	warp_event  9, 27, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

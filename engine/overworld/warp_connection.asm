@@ -238,7 +238,7 @@ EnterMapWarp:
 
 .SaveDigWarp:
 	call GetMapEnvironment
-	call CheckOutdoorOrIsolatedMap
+	call CheckOutdoorMap
 	ret nz
 	ld a, [wNextMapGroup]
 	ld b, a

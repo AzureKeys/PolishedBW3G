@@ -311,6 +311,9 @@ INCLUDE "maps/Route7Middle.asm"
 INCLUDE "maps/Route7North.asm"
 INCLUDE "maps/Route7RazorClawHouse.asm"
 INCLUDE "maps/Route7TradeHouse.asm"
+INCLUDE "maps/CelestialTower1F.asm"
+INCLUDE "maps/CelestialTower.asm"
+INCLUDE "maps/CelestialTowerRoof.asm"
 
 
 SECTION "Mistralton Scripts", ROMX

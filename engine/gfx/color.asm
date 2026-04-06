@@ -1010,6 +1010,13 @@ LoadMapPals:
 ; Skyarrow Bridge, Driftveil Drawbridge, Village Bridge,
 ; Tubeline Bridge, Pkmn League Entrance
 	ld a, [wMapGroup]
+	cp GROUP_CELESTIAL_TOWER_ROOF
+	jr nz, .CheckNimbasa
+	ld a, [wMapNumber]
+	cp MAP_CELESTIAL_TOWER_ROOF
+	jr nz, .check_overcast
+	ret
+.CheckNimbasa
 	cp GROUP_NIMBASA_PARK_OUTSIDE
 	jr nz, .CheckCastelia
 	ld a, [wMapNumber]

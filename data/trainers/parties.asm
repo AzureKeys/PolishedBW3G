@@ -1476,7 +1476,13 @@ GentlemanGroup:
 	tr_mon 49, PERSIAN
 	end_trainer
 
-	def_trainer GENTLEMAN_CELESTIAL_TOWER, "Gregory"
+	def_trainer GENTLEMAN_CELESTIAL_TOWER_1, "Gregory"
+	tr_mon 56, PIKACHU
+	tr_mon 53, FLAAFFY
+	tr_mon 53, CHINCHOU
+	end_trainer
+
+	def_trainer GENTLEMAN_CELESTIAL_TOWER_2, "Gregory"
 	tr_mon 56, PIKACHU
 	tr_mon 53, FLAAFFY
 	tr_mon 53, CHINCHOU
@@ -2537,7 +2543,12 @@ SocialiteGroup:
 	tr_mon 25, RATTATA
 	end_trainer
 
-	def_trainer SOCIALITE_CELESTIAL_TOWER, "Mitch"
+	def_trainer SOCIALITE_CELESTIAL_TOWER_1, "Mitch"
+	tr_mon 25, DITTO
+	tr_mon 25, RATTATA
+	end_trainer
+
+	def_trainer SOCIALITE_CELESTIAL_TOWER_2, "Mitch"
 	tr_mon 25, DITTO
 	tr_mon 25, RATTATA
 	end_trainer
