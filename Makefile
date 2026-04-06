@@ -1,6 +1,7 @@
 NAME := bw3g
 MODIFIERS :=
 VERSION := 2.0.0
+AUTHOR := AZURE_KEYS
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc
@@ -10,6 +11,8 @@ MCODE := PKPC
 ROMVERSION := 0x32
 
 FILLER := 0xff
+
+COPYRIGHT = @$(shell date '+%Y') $(AUTHOR) v$(VERSION)
 
 ifneq ($(wildcard rgbds/.*),)
 RGBDS ?= rgbds/
@@ -37,6 +40,7 @@ RGBGFXFLAGS    = -Weverything
 ifeq ($(filter faithful,$(MAKECMDGOALS)),faithful)
 MODIFIERS := $(MODIFIERS)-faithful
 RGBASMFLAGS += -DFAITHFUL
+COPYRIGHT += F
 endif
 ifeq ($(filter monochrome,$(MAKECMDGOALS)),monochrome)
 MODIFIERS := $(MODIFIERS)-monochrome
@@ -53,6 +57,7 @@ endif
 ifeq ($(filter debug,$(MAKECMDGOALS)),debug)
 MODIFIERS := $(MODIFIERS)-debug
 RGBASMFLAGS += -DDEBUG
+COPYRIGHT += dbg
 endif
 ifeq ($(filter pocket,$(MAKECMDGOALS)),pocket)
 MODIFIERS :=
@@ -118,7 +123,7 @@ clean: tidy
 
 tidy:
 	$(RM) $(crystal_obj) $(crystal_vc_obj) $(wildcard $(NAME)-*.gbc) $(wildcard $(NAME)-*.pocket) $(wildcard $(NAME)-*.bsp) \
-		$(wildcard $(NAME)-*.map) $(wildcard $(NAME)-*.sym) $(wildcard $(NAME)-*.patch) rgbdscheck.o
+		$(wildcard $(NAME)-*.map) $(wildcard $(NAME)-*.sym) $(wildcard $(NAME)-*.patch) rgbdscheck.o $(wildcard gfx/title/version.2bpp*)
 
 freespace: crystal tools/bankends
 	tools/bankends $(ROM_NAME).map > bank_ends.txt
@@ -241,10 +246,16 @@ gfx/slots/slots_1.2bpp: tools/gfx += --trim-whitespace
 gfx/slots/slots_2.2bpp: tools/gfx += --interleave --png=$<
 gfx/slots/slots_3.2bpp: tools/gfx += --interleave --png=$< --remove-duplicates --keep-whitespace --remove-xflip
 
+gfx/splash/copyright.2bpp: gfx/splash/copyright.txt tools/fine_print.c
+	$Qtools/fine_print -c 013 -s 0 '$(shell cat $<)' $@
+
 gfx/stats/%.bin: gfx/stats/%.tilemap gfx/stats/%.attrmap ; $Qcat $^ > $@
 gfx/stats/judge.2bpp: tools/gfx += --trim-whitespace
 
 gfx/title/crystal.2bpp: tools/gfx += --interleave --png=$<
+
+gfx/title/version.2bpp: Makefile tools/fine_print.c
+	$Qtools/fine_print -e 20 '$(COPYRIGHT)' $@
 
 gfx/title/suicune_unowns.2bpp: RGBGFXFLAGS += --unique-tiles --nb-tiles 127,127 --base-tiles 0,128
 gfx/title/suicune_unowns.tilemap: RGBGFXFLAGS += --unique-tiles --nb-tiles 127,127 --base-tiles 0,128
