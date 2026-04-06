@@ -698,4 +698,8 @@ SECTION "CelestialTowerRoof_BlockData", ROMX
 CelestialTowerRoof_BlockData:
 	INCBIN "maps/CelestialTowerRoof.ablk.lzp"
 
+SECTION "Route21_BlockData", ROMX
+Route21_BlockData:
+	INCBIN "maps/Route21.ablk.lzp"
+
 ENDSECTION

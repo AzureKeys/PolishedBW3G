@@ -41,6 +41,7 @@ INCLUDE "maps/HumilauGym.asm"
 SECTION "Northeast Unova Route Scripts", ROMX
 
 INCLUDE "maps/Route22.asm"
+INCLUDE "maps/Route21.asm"
 INCLUDE "maps/GiantChasm1F.asm"
 INCLUDE "maps/Route13.asm"
 INCLUDE "maps/Route12.asm"

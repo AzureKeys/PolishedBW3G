@@ -8,11 +8,15 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes HumilauCity, HUMILAU_CITY, $35, WEST
+	map_attributes HumilauCity, HUMILAU_CITY, $35, WEST | EAST
 	connection west, Route22, ROUTE_22, -2
+	connection east, Route21, ROUTE_21, 10
 	
 	map_attributes Route22, ROUTE_22, $35, EAST
-	connection west, HumilauCity, HUMILAU_CITY, 2
+	connection east, HumilauCity, HUMILAU_CITY, 2
+	
+	map_attributes Route21, ROUTE_21, $35, WEST
+	connection west, HumilauCity, HUMILAU_CITY, -10
 	
 	map_attributes Route13, ROUTE_13, $e, WEST
 	connection west, LacunosaTown, LACUNOSA_TOWN, -3

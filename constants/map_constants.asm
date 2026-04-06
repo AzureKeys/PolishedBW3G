@@ -93,6 +93,7 @@ ENDM
 	map_const HUMILAU_TRADE_HOUSE,                         4,  4 ;  7
 	map_const HUMILAU_GYM,                                 5, 12 ;  8
 	map_const ROUTE_22,                                   19, 10 ;  9
+	map_const ROUTE_21,                                   11, 29 ; 10
 
 	newgroup                                                     ;  5
 	map_const ROUTE_13,                                   18, 27 ;  1

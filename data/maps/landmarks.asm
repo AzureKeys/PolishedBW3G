@@ -8,6 +8,7 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140,  28, HumilauCityName
+	landmark 148,  36, Route21Name
 	landmark 132,  52, MarineTubeName
 	landmark 132,  28, Route22Name
 	landmark 124,  28, GiantChasmName
@@ -66,6 +67,7 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 HumilauCityName:       rawchar "Humilau¯City@"
+Route21Name:           rawchar "Route 21@"
 MarineTubeName:        rawchar "Marine Tube@"
 Route22Name:           rawchar "Route 22@"
 GiantChasmName:        rawchar "Giant Chasm@"
