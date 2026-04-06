@@ -50,6 +50,10 @@ INCLUDE "maps/Route13UndellaTownGate.asm"
 INCLUDE "maps/Route14.asm"
 INCLUDE "maps/ReversalMountain1F.asm"
 INCLUDE "maps/ReversalMountainB1F.asm"
+INCLUDE "maps/SeasideCave1F.asm"
+INCLUDE "maps/SeasideCaveB1F.asm"
+INCLUDE "maps/SeasideCaveB2F.asm"
+INCLUDE "maps/SeasideCaveChamber.asm"
 
 
 SECTION "Lacunosa Scripts", ROMX

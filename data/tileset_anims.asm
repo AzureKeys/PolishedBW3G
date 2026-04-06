@@ -138,11 +138,11 @@ TilesetEliteFourRoomAnim::
 TilesetCaveAnim::
 	tileframe ScrollTileRightLeft,      $0:14
 	tileframe FlickeringCaveEntrancePalette
-	tileframe ScrollTileDown,           $0:40
+	tileframe AnimateWaterfallTiles,    $0:40
 	tileframe FlickeringCaveEntrancePalette
 	tileframe DoNothing
 	tileframe FlickeringCaveEntrancePalette
-	tileframe ScrollTileDown,           $0:40
+	tileframe ScrollTileRightLeft,      $0:14
 	tileframe FlickeringCaveEntrancePalette
 	tileframe DoneTileAnimation
 

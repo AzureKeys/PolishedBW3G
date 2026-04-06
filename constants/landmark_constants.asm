@@ -4,6 +4,7 @@
 ; Johto landmarks
 	const HUMILAU_CITY         ; 01
 	const ROUTE_21             ; 02
+	const SEASIDE_CAVE         ; 03
 	const MARINE_TUBE          ; 04
 	const ROUTE_22             ; 05
 	const GIANT_CHASM          ; 06

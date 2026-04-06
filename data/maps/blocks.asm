@@ -702,4 +702,20 @@ SECTION "Route21_BlockData", ROMX
 Route21_BlockData:
 	INCBIN "maps/Route21.ablk.lzp"
 
+SECTION "SeasideCave1F_BlockData", ROMX
+SeasideCave1F_BlockData:
+	INCBIN "maps/SeasideCave1F.ablk.lzp"
+
+SECTION "SeasideCaveB1F_BlockData", ROMX
+SeasideCaveB1F_BlockData:
+	INCBIN "maps/SeasideCaveB1F.ablk.lzp"
+
+SECTION "SeasideCaveB2F_BlockData", ROMX
+SeasideCaveB2F_BlockData:
+	INCBIN "maps/SeasideCaveB2F.ablk.lzp"
+
+SECTION "SeasideCaveChamber_BlockData", ROMX
+SeasideCaveChamber_BlockData:
+	INCBIN "maps/SeasideCaveChamber.ablk.lzp"
+
 ENDSECTION

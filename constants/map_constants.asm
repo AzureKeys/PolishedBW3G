@@ -82,6 +82,10 @@ ENDM
 	map_const CELESTIAL_TOWER_1F,                          5,  6 ; 38
 	map_const CELESTIAL_TOWER,                             5, 22 ; 39
 	map_const CELESTIAL_TOWER_ROOF,                        9,  8 ; 40
+	map_const SEASIDE_CAVE_1F,                            11, 18 ; 41
+	map_const SEASIDE_CAVE_B1F,                           12, 14 ; 42
+	map_const SEASIDE_CAVE_B2F,                           14, 12 ; 43
+	map_const SEASIDE_CAVE_CHAMBER,                        6,  8 ; 44
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

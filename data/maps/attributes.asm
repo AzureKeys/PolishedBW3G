@@ -180,6 +180,10 @@ ENDM
 	map_attributes CelestialTower1F, CELESTIAL_TOWER_1F, $0, 0
 	map_attributes CelestialTower, CELESTIAL_TOWER, $0, 0
 	map_attributes CelestialTowerRoof, CELESTIAL_TOWER_ROOF, $a1, 0
+	map_attributes SeasideCave1F, SEASIDE_CAVE_1F, $9, 0
+	map_attributes SeasideCaveB1F, SEASIDE_CAVE_B1F, $9, 0
+	map_attributes SeasideCaveB2F, SEASIDE_CAVE_B2F, $9, 0
+	map_attributes SeasideCaveChamber, SEASIDE_CAVE_CHAMBER, $9, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

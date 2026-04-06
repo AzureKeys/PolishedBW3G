@@ -4,6 +4,7 @@ Route21_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event 12, 45, SEASIDE_CAVE_1F, 1
 	
 	def_coord_events
 

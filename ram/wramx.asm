@@ -1231,6 +1231,8 @@ wRoute5DrawbridgeGateSceneID:: db
 wRoute12SceneID:: db
 wRoute12VillageBridgeGateSceneID:: db
 wRoute18SceneID:: db
+wSeasideCave1FSceneID:: db
+wSeasideCaveChamberSceneID:: db
 wStrangeHouse1FSceneID:: db
 wStrangeHouseRoomsSceneID:: db
 wTradeCenterSceneID:: db
@@ -1263,7 +1265,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 117 ; unused
+	ds 115 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
