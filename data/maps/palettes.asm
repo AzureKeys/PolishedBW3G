@@ -58,6 +58,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_PWT_INSIDE,          PAL_SINGLE,    PWTPalette
 	special_bg_pal tileset,  TILESET_MISTRALTON,          PAL_TIMEOFDAY, MistraltonPalette
 	special_bg_pal tileset,  TILESET_VILLAGE_BRIDGE,      PAL_TIMEOFDAY, VillageBridgePalette
+	special_bg_pal tileset,  TILESET_OPELUCID,            PAL_TIMEOFDAY, OpelucidPalette
 	special_bg_pal tileset,  TILESET_HIDDEN_GROTTO,       PAL_SPECIAL,   HiddenGrottoSpecialCase ; *
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
@@ -530,6 +531,39 @@ endc
 MistraltonPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/mistralton.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+OpelucidPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/opelucid.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

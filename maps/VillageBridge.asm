@@ -7,6 +7,8 @@ VillageBridge_MapScriptHeader:
 	def_warp_events
 	warp_event 61, 20, ROUTE_12_VILLAGE_BRIDGE_GATE, 3
 	warp_event 61, 21, ROUTE_12_VILLAGE_BRIDGE_GATE, 4
+	;warp_event  4, 20, ROUTE_11_VILLAGE_BRIDGE_GATE, 3
+	;warp_event  4, 21, ROUTE_11_VILLAGE_BRIDGE_GATE, 4
 	
 	def_coord_events
 	coord_event 26, 16, 1, VillageBridgeOverheadTrigger

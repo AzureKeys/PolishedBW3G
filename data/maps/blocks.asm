@@ -722,4 +722,8 @@ SECTION "VillageBridge_BlockData", ROMX
 VillageBridge_BlockData:
 	INCBIN "maps/VillageBridge.ablk.lzp"
 
+SECTION "Route11_BlockData", ROMX
+Route11_BlockData:
+	INCBIN "maps/Route11.ablk.lzp"
+
 ENDSECTION

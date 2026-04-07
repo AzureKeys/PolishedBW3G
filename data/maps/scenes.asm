@@ -54,6 +54,7 @@ MapScenes::
 	scene_var PWT_OUTSIDE,                            wPWTOutsideSceneID
 	scene_var PWT_QUALIFIER_ROOM,                     wPWTQualifierRoomSceneID
 	scene_var ROUTE_5_DRAWBRIDGE_GATE,                wRoute5DrawbridgeGateSceneID
+	scene_var ROUTE_11,                               wRoute11SceneID
 	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID
 	scene_var ROUTE_18,                               wRoute18SceneID

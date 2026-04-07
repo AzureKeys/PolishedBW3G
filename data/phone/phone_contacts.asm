@@ -26,8 +26,7 @@ PhoneContacts:
 	phone BACKPACKERF,  BACKPACKERF_R18,           ROUTE_18,           %1111, JennyPhoneScript,    %0000, UnusedPhoneScript
 	phone SCIENTISTM,   SCIENTISTM_R6,             ROUTE_6,            %1111, MarcoPhoneScript,    %0000, UnusedPhoneScript
 	phone BACKPACKERM,  BACKPACKERM_R7,            ROUTE_7_NORTH,      %1111, ParkerPhoneScript,   %0000, UnusedPhoneScript
-	; phone LINEBACKER,   LINEBACKER_VILLAGE_BRIDGE, VILLAGE_BRIDGE,     %1111, DeanPhoneScript,     %0000, UnusedPhoneScript
+	phone LINEBACKER,   LINEBACKER_VILLAGE_BRIDGE, VILLAGE_BRIDGE,     %1111, DeanPhoneScript,     %0000, UnusedPhoneScript
 	; phone PARASOL_LADY, PARASOL_LADY_R8,           ROUTE_8,            %1111, LoisPhoneScript,     %0000, UnusedPhoneScript
-	phone YOUNGSTER,    YOUNGSTER_R13,             ROUTE_13,           %1111, DanPhoneScript,      %0000, UnusedPhoneScript
 	phone YOUNGSTER,    YOUNGSTER_R13,             ROUTE_13,           %1111, DanPhoneScript,      %0000, UnusedPhoneScript
 	assert_table_length NUM_PHONE_CONTACTS + 1

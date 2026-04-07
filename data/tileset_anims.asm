@@ -90,6 +90,26 @@ TilesetPWTOutsideAnim::
 	tileframe IncFountainFrame
 	tileframe DoneTileAnimation
 	
+TilesetOpelucidAnim::
+	tileframe ScrollTileRight,          $0:4d
+	tileframe ScrollTileDown,           $0:1d
+	tileframe AnimateWaterfallTiles,    $0:73
+	tileframe AnimateUnovaWaterTile1,   $0:6d
+	tileframe AnimateUnovaWaterTile2,   $0:6e
+	tileframe AnimateUnovaWaterTile3,   $0:7d
+	tileframe AnimateUnovaWaterTile4,   $0:7e
+	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateFountainTile1,     $0:2b
+	tileframe AnimateFountainTile2,     $0:3b
+	tileframe AnimateFountainTile3,     $0:2d
+	tileframe AnimateFountainTile4,     $0:2c
+	tileframe AnimateFountainTile5,     $0:3c
+	tileframe AnimateFountainTile6,     $0:3d
+	tileframe StandingTileFrame8
+	tileframe IncWaterFrame
+	tileframe IncFountainFrame
+	tileframe DoneTileAnimation
+	
 TilesetVirbankAnim::
 TilesetComplexAnim::
 TilesetBridgeAnim::

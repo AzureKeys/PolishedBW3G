@@ -49,6 +49,7 @@ Tilesets::
 	tileset TilesetAirport
 	tileset TilesetDriftveil
 	tileset TilesetMistralton
+	tileset TilesetOpelucid
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetUnovaEast
@@ -715,6 +716,23 @@ TilesetNacreneMeta:: INCBIN "data/tilesets/nacrene_metatiles.bin.lzp"
 TilesetNacreneAttr:: INCBIN "data/tilesets/nacrene_attributes.bin.lzp"
 TilesetNacreneColl:: INCBIN "data/tilesets/nacrene_collision.bin.lzp"
 
+
+SECTION "Tileset Graphics - opelucid vram0", ROMX
+
+TilesetOpelucidGFX0:: INCBIN "gfx/tilesets/opelucid.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - opelucid vram1", ROMX
+
+TilesetOpelucidGFX1:: INCBIN "gfx/tilesets/opelucid.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - opelucid", ROMX
+
+TilesetOpelucidMeta:: INCBIN "data/tilesets/opelucid_metatiles.bin.lzp"
+TilesetOpelucidAttr:: INCBIN "data/tilesets/opelucid_attributes.bin.lzp"
+TilesetOpelucidColl:: INCBIN "data/tilesets/opelucid_collision.bin.lzp"
+
 SECTION "Tileset Graphics - striaton vram0", ROMX
 
 TilesetStriatonGFX0:: INCBIN "gfx/tilesets/striaton.2bpp.vram0.lzp"
@@ -852,5 +870,6 @@ TilesetPWTInsideGFX2::
 TilesetAirportGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
+TilesetOpelucidGFX2::
 TilesetHiddenGrottoGFX2::
 	db $ff ; Compressed data is terminated with $ff.
