@@ -46,6 +46,7 @@ TilesetNimbasaAnim::
 TilesetParkAnim::
 TilesetStriatonAnim::
 TilesetDriftveilAnim::
+TilesetVillageBridgeAnim::
 	tileframe DoNothing
 	tileframe DoNothing
 	tileframe AnimateUnovaWaterTile1,   $0:6d

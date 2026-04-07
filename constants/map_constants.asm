@@ -291,4 +291,7 @@ ENDM
 	map_const ROUTE_7_RAZOR_CLAW_HOUSE,                    4,  4 ; 13
 	map_const ROUTE_7_TRADE_HOUSE,                         4,  4 ; 14
 	
+	newgroup                                                     ; 20
+	map_const VILLAGE_BRIDGE,                             34, 19 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

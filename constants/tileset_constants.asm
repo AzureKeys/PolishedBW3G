@@ -31,6 +31,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_VIRBANK              ; 2c
 	const TILESET_COMPLEX              ; 2c
 	const TILESET_BRIDGE               ; 2c
+	const TILESET_VILLAGE_BRIDGE       ; 2c
 	const TILESET_NACRENE              ; 2c
 	const TILESET_STRIATON             ; 2c
 	const TILESET_DREAMYARD            ; 2c

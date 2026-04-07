@@ -24,4 +24,5 @@ MapGroupRoofs:
 	db -1            ; PWT
 	db -1            ; Driftveil
 	db -1            ; Mistralton
+	db -1            ; Opelucid
 	assert_table_length NUM_MAP_GROUPS + 1

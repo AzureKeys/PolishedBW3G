@@ -1032,9 +1032,16 @@ LoadMapPals:
 	ret
 .CheckDriftveil
 	cp GROUP_DRIFTVEIL_DRAWBRIDGE
-	jr nz, .check_overcast
+	jr nz, .CheckOpelucid
 	ld a, [wMapNumber]
 	cp MAP_DRIFTVEIL_DRAWBRIDGE
+	jr nz, .check_overcast
+	ret
+.CheckOpelucid
+	cp GROUP_VILLAGE_BRIDGE
+	jr nz, .check_overcast
+	ld a, [wMapNumber]
+	cp MAP_VILLAGE_BRIDGE
 	jr nz, .check_overcast
 	ret
 	

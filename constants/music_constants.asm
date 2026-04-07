@@ -91,6 +91,7 @@
 	const MUSIC_DRIFTVEIL_CITY                 ; 57
 	const MUSIC_ROUTE_6                        ; 58
 	const MUSIC_MISTRALTON_CITY                ; 59
+	const MUSIC_OPELUCID_CITY                  ; 5a
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

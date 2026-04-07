@@ -40,6 +40,7 @@ Tilesets::
 	tileset TilesetVirbank
 	tileset TilesetComplex
 	tileset TilesetBridge
+	tileset TilesetVillageBridge
 	tileset TilesetNacrene
 	tileset TilesetStriaton
 	tileset TilesetDreamyard
@@ -681,6 +682,23 @@ TilesetBridgeMeta:: INCBIN "data/tilesets/bridge_metatiles.bin.lzp"
 TilesetBridgeAttr:: INCBIN "data/tilesets/bridge_attributes.bin.lzp"
 TilesetBridgeColl:: INCBIN "data/tilesets/bridge_collision.bin.lzp"
 
+
+SECTION "Tileset Graphics - village bridge vram0", ROMX
+
+TilesetVillageBridgeGFX0:: INCBIN "gfx/tilesets/village_bridge.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - village bridge vram1", ROMX
+
+TilesetVillageBridgeGFX1:: INCBIN "gfx/tilesets/village_bridge.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - village bridge", ROMX
+
+TilesetVillageBridgeMeta:: INCBIN "data/tilesets/village_bridge_metatiles.bin.lzp"
+TilesetVillageBridgeAttr:: INCBIN "data/tilesets/village_bridge_attributes.bin.lzp"
+TilesetVillageBridgeColl:: INCBIN "data/tilesets/village_bridge_collision.bin.lzp"
+
 SECTION "Tileset Graphics - nacrene vram0", ROMX
 
 TilesetNacreneGFX0:: INCBIN "gfx/tilesets/nacrene.2bpp.vram0.lzp"
@@ -825,6 +843,7 @@ TilesetCasteliaGFX2::
 TilesetVirbankGFX2::
 TilesetComplexGFX2::
 TilesetBridgeGFX2::
+TilesetVillageBridgeGFX2::
 TilesetNacreneGFX2::
 TilesetStriatonGFX2::
 TilesetDreamyardGFX2::

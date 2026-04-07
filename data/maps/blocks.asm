@@ -718,4 +718,8 @@ SECTION "SeasideCaveChamber_BlockData", ROMX
 SeasideCaveChamber_BlockData:
 	INCBIN "maps/SeasideCaveChamber.ablk.lzp"
 
+SECTION "VillageBridge_BlockData", ROMX
+VillageBridge_BlockData:
+	INCBIN "maps/VillageBridge.ablk.lzp"
+
 ENDSECTION

@@ -38,6 +38,7 @@ MapGroupPointers::
 	dw MapGroupPWT
 	dw MapGroupDriftveil
 	dw MapGroupMistralton
+	dw MapGroupOpelucid
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -308,3 +309,5 @@ MapGroupMistralton:
 	map Route7RazorClawHouse, TILESET_UNOVA_HOUSE, INDOOR, SIGN_BUILDING, ROUTE_7, MUSIC_ROUTE_6, 1, PALETTE_DAY
 	map Route7TradeHouse, TILESET_UNOVA_HOUSE, INDOOR, SIGN_BUILDING, ROUTE_7, MUSIC_ROUTE_6, 1, PALETTE_DAY
 	
+MapGroupOpelucid:
+	map VillageBridge, TILESET_VILLAGE_BRIDGE, ROUTE, SIGN_WATER, VILLAGE_BRIDGE, MUSIC_OPELUCID_CITY, 0, PALETTE_AUTO

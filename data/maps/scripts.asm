@@ -334,4 +334,9 @@ INCLUDE "maps/MistraltonGym1F.asm"
 INCLUDE "maps/MistraltonGym2F.asm"
 
 
+SECTION "Northern Unova Route Scripts", ROMX
+
+INCLUDE "maps/VillageBridge.asm"
+
+
 ENDSECTION
