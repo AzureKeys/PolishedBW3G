@@ -729,4 +729,8 @@ SECTION "Route11_BlockData", ROMX
 Route11_BlockData:
 	INCBIN "maps/Route11.ablk.lzp"
 
+SECTION "OpelucidCity_BlockData", ROMX
+OpelucidCity_BlockData:
+	INCBIN "maps/OpelucidCity.ablk.lzp"
+
 ENDSECTION

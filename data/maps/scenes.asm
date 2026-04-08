@@ -40,6 +40,7 @@ MapScenes::
 	scene_var NIMBASA_PARK_OUTSIDE,                   wNimbasaParkOutsideSceneID
 	scene_var NIMBASA_SUBWAY,                         wAlways0SceneID
 	scene_var NUVEMA_LAB,                             wNuvemaLabSceneID
+	scene_var OPELUCID_CITY,                          wOpelucidCitySceneID
 	scene_var P2_LAB,                                 wP2LabSceneID
 	scene_var P2_LAB_ENTRANCE,                        wP2LabEntranceSceneID
 	scene_var PINWHEEL_FOREST,                        wPinwheelForestSceneID

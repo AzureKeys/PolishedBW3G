@@ -345,6 +345,7 @@ INCLUDE "maps/Route11Truck.asm"
 SECTION "Opelucid Scripts", ROMX
 
 INCLUDE "maps/Route11OpelucidGate.asm"
+INCLUDE "maps/OpelucidCity.asm"
 
 
 ENDSECTION

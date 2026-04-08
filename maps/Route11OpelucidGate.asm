@@ -4,8 +4,8 @@ Route11OpelucidGate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	;warp_event  0,  4, OPELUCID_CITY, 1
-	;warp_event  0,  5, OPELUCID_CITY, 2
+	warp_event  0,  4, OPELUCID_CITY, 1
+	warp_event  0,  5, OPELUCID_CITY, 2
 	warp_event  9,  4, ROUTE_11, 1
 	warp_event  9,  5, ROUTE_11, 2
 

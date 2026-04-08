@@ -96,6 +96,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_NUVEMA
 	engine_flag wVisitedSpawns, SPAWN_DRIFTVEIL
 	engine_flag wVisitedSpawns, SPAWN_MISTRALTON
+	engine_flag wVisitedSpawns, SPAWN_OPELUCID
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

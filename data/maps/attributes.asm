@@ -186,6 +186,7 @@ ENDM
 	map_attributes SeasideCaveChamber, SEASIDE_CAVE_CHAMBER, $9, 0
 	map_attributes VillageBridge, VILLAGE_BRIDGE, $46, 0
 	map_attributes Route11, ROUTE_11, $0, 0
+	map_attributes OpelucidCity, OPELUCID_CITY, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

@@ -297,5 +297,6 @@ ENDM
 	map_const ROUTE_11_VILLAGE_BRIDGE_GATE,                5,  4 ;  3
 	map_const ROUTE_11_OPELUCID_GATE,                      5,  4 ;  4
 	map_const ROUTE_11_TRUCK,                              4,  3 ;  5
+	map_const OPELUCID_CITY,                              28, 17 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
