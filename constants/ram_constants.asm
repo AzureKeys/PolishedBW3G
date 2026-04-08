@@ -437,14 +437,14 @@ DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
 
 ; wDailyFlags::
 	const_def
-	const DAILYFLAGS_BERRY_MAN_F                             ; 0
-	const DAILYFLAGS_CASTELIACONE_F                          ; 1
-	const DAILYFLAGS_FISH_SWARM_F                            ; 2
-	const DAILYFLAGS_CASTELIA_MASSAGE_F                      ; 3
-	const DAILYFLAGS_MILK_F                                  ; 4
-	const DAILYFLAGS_BALL_MANIAC_F                           ; 5
-	const DAILYFLAGS_GOLDENROD_UNDERGROUND_MERCHANT_CLOSED_F ; 6
-	const DAILYFLAGS_FOUGHT_IN_TRAINER_HALL_TODAY_F          ; 7
+	const DAILYFLAGS_BERRY_MAN_F                    ; 0
+	const DAILYFLAGS_CASTELIACONE_F                 ; 1
+	const DAILYFLAGS_FISH_SWARM_F                   ; 2
+	const DAILYFLAGS_CASTELIA_MASSAGE_F             ; 3
+	const DAILYFLAGS_MILK_F                         ; 4
+	const DAILYFLAGS_BALL_MANIAC_F                  ; 5
+	const DAILYFLAGS_ROCK_COLLECTOR_F               ; 6
+	const DAILYFLAGS_FOUGHT_IN_TRAINER_HALL_TODAY_F ; 7
 
 ; wDailyFlags2::
 	const_def

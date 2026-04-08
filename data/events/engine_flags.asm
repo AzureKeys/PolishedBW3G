@@ -105,7 +105,7 @@ EngineFlags:
 	engine_flag wDailyFlags, DAILYFLAGS_CASTELIA_MASSAGE_F
 	engine_flag wDailyFlags, DAILYFLAGS_MILK_F
 	engine_flag wDailyFlags, DAILYFLAGS_BALL_MANIAC_F
-	engine_flag wDailyFlags, DAILYFLAGS_GOLDENROD_UNDERGROUND_MERCHANT_CLOSED_F
+	engine_flag wDailyFlags, DAILYFLAGS_ROCK_COLLECTOR_F
 	engine_flag wDailyFlags, DAILYFLAGS_FOUGHT_IN_TRAINER_HALL_TODAY_F
 
 	engine_flag wDailyFlags2, DAILYFLAGS2_GYM_LEADER_REMATCH_1_F

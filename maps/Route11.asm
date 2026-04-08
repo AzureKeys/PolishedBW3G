@@ -5,6 +5,11 @@ Route11_MapScriptHeader:
 	callback MAPCALLBACK_TILES, Route11TileScript
 
 	def_warp_events
+	warp_event  4, 12, ROUTE_11_OPELUCID_GATE, 3
+	warp_event  4, 13, ROUTE_11_OPELUCID_GATE, 4
+	warp_event 37, 12, ROUTE_11_VILLAGE_BRIDGE_GATE, 1
+	warp_event 37, 13, ROUTE_11_VILLAGE_BRIDGE_GATE, 2
+	warp_event 26,  9, ROUTE_11_TRUCK, 1
 	
 	def_coord_events
 	coord_event 28, 10, 1, Route11BridgeOverheadTrigger

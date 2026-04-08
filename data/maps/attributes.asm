@@ -272,6 +272,7 @@ ENDM
 	map_attributes MistraltonAirport, MISTRALTON_AIRPORT, $0, 0
 	map_attributes Route7RazorClawHouse, ROUTE_7_RAZOR_CLAW_HOUSE, $0, 0
 	map_attributes Route7TradeHouse, ROUTE_7_TRADE_HOUSE, $0, 0
+	map_attributes Route11Truck, ROUTE_11_TRUCK, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -292,7 +293,9 @@ ENDM
 	map_attributes Route1Route17Gate, ROUTE_1_ROUTE_17_GATE, $0, 0
 	map_attributes PWTDriftveilGate, PWT_DRIFTVEIL_GATE, $0, 0
 	map_attributes DriftveilDrawbridgeGate, DRIFTVEIL_DRAWBRIDGE_GATE, $0, 0
-
+	map_attributes Route11VillageBridgeGate, ROUTE_11_VILLAGE_BRIDGE_GATE, $0, 0
+	map_attributes Route11OpelucidGate, ROUTE_11_OPELUCID_GATE, $0, 0
+	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0

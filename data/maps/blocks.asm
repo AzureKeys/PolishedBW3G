@@ -75,6 +75,8 @@ Route3NacreneGate_BlockData:
 Route2AccumulaGate_BlockData:
 Route1Route17Gate_BlockData:
 DriftveilDrawbridgeGate_BlockData:
+Route11VillageBridgeGate_BlockData:
+Route11OpelucidGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX
@@ -103,6 +105,7 @@ PinwheelSkyarrowBridgeGate_BlockData:
 
 SECTION "Truck_BlockData", ROMX
 Route5Truck_BlockData:
+Route11Truck_BlockData:
 	INCBIN "maps/Truck.ablk.lzp"
 
 SECTION "TradeCenter_BlockData", ROMX

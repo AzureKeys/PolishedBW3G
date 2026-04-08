@@ -195,7 +195,7 @@ Music_AnvilleTown_Ch1_loop:
 	octave 3
 	note G#, 2
 	note E_, 2
-	sound_jump, Music_AnvilleTown_Ch1_loop
+	sound_jump Music_AnvilleTown_Ch1_loop
 	
 Music_AnvilleTown_Ch1_branch_1:
 	volume_envelope 7, 4
@@ -413,7 +413,7 @@ Music_AnvilleTown_Ch2_loop:
 	note C_, 2
 	octave 4
 	note G#, 3
-	sound_jump, Music_AnvilleTown_Ch2_loop
+	sound_jump Music_AnvilleTown_Ch2_loop
 	
 
 Music_AnvilleTown_Ch3:
@@ -668,4 +668,4 @@ Music_AnvilleTown_Ch3_branch_1:
 	note C#, 4
 	octave 2
 	note A#, 2
-	sound_jump, Music_AnvilleTown_Ch3_branch_1
+	sound_jump Music_AnvilleTown_Ch3_branch_1

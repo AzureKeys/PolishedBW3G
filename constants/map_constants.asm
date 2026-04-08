@@ -294,5 +294,8 @@ ENDM
 	newgroup                                                     ; 20
 	map_const VILLAGE_BRIDGE,                             34, 19 ;  1
 	map_const ROUTE_11,                                   22, 12 ;  2
+	map_const ROUTE_11_VILLAGE_BRIDGE_GATE,                5,  4 ;  3
+	map_const ROUTE_11_OPELUCID_GATE,                      5,  4 ;  4
+	map_const ROUTE_11_TRUCK,                              4,  3 ;  5
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
