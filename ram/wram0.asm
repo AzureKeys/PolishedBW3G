@@ -915,12 +915,8 @@ wSummaryMoveSwap:: db
 ds 12
 assert @ % 16 == 0
 
-UNION
 wSummaryScreenWindowBuffer:: ds 32 * 10
 wSummaryScreenPPTileBuffer:: ds 3 * TILE_1BPP_SIZE
-NEXTU
-wColoredMaleFemaleShinyTiles:: ds 3 tiles
-ENDU
 
 
 SECTION UNION "Misc 1300", WRAM0
@@ -1422,10 +1418,12 @@ wCurPalTimeOfDayPalState:: db
 ; volatile footprints in sand
 wFootprintQueue:: ds 3 * 2 + 1
 
+wColoredMaleFemaleShinyTiles:: ds 3 tiles
+
 
 SECTION "Unused", WRAM0
 
-	ds 281 ; it's free real estate
+	ds 233 ; it's free real estate
 
 
 SECTION "Options", WRAM0

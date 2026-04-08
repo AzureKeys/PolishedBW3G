@@ -4763,9 +4763,7 @@ TakeDamage:
 	and a
 	jr nz, .mimic_sub_check
 
-	ld a, BATTLE_VARS_SUBSTATUS4_OPP
-	call GetBattleVar
-	bit SUBSTATUS_SUBSTITUTE, a
+	call CheckSubstituteOpp
 	jr nz, SelfInflictDamageToSubstitute
 .mimic_sub_check
 	ld a, [hld]
