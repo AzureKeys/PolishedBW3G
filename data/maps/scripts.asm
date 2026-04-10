@@ -346,6 +346,13 @@ SECTION "Opelucid Scripts", ROMX
 
 INCLUDE "maps/Route11OpelucidGate.asm"
 INCLUDE "maps/OpelucidCity.asm"
+INCLUDE "maps/OpelucidPokecenter.asm"
+INCLUDE "maps/OpelucidSuperRodHouse.asm"
+INCLUDE "maps/OpelucidBlackbeltHouse.asm"
+INCLUDE "maps/OpelucidCuriosityShop.asm"
+INCLUDE "maps/Route9OpelucidGate.asm"
+INCLUDE "maps/DraydensHouse1F.asm"
+INCLUDE "maps/DraydensHouse2F.asm"
 
 
 ENDSECTION

@@ -274,6 +274,12 @@ ENDM
 	map_attributes Route7RazorClawHouse, ROUTE_7_RAZOR_CLAW_HOUSE, $0, 0
 	map_attributes Route7TradeHouse, ROUTE_7_TRADE_HOUSE, $0, 0
 	map_attributes Route11Truck, ROUTE_11_TRUCK, $0, 0
+	map_attributes OpelucidPokecenter, OPELUCID_POKECENTER, $0, 0
+	map_attributes OpelucidSuperRodHouse, OPELUCID_SUPER_ROD_HOUSE, $0, 0
+	map_attributes OpelucidBlackbeltHouse, OPELUCID_BLACKBELT_HOUSE, $0, 0
+	map_attributes OpelucidCuriosityShop, OPELUCID_CURIOSITY_SHOP, $0, 0
+	map_attributes DraydensHouse1F, DRAYDENS_HOUSE_1F, $0, 0
+	map_attributes DraydensHouse2F, DRAYDENS_HOUSE_2F, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -296,6 +302,7 @@ ENDM
 	map_attributes DriftveilDrawbridgeGate, DRIFTVEIL_DRAWBRIDGE_GATE, $0, 0
 	map_attributes Route11VillageBridgeGate, ROUTE_11_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route11OpelucidGate, ROUTE_11_OPELUCID_GATE, $0, 0
+	map_attributes Route9OpelucidGate, ROUTE_9_OPELUCID_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

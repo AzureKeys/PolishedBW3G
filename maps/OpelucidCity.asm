@@ -7,6 +7,13 @@ OpelucidCity_MapScriptHeader:
 	def_warp_events
 	warp_event 49, 26, ROUTE_11_OPELUCID_GATE, 1
 	warp_event 49, 27, ROUTE_11_OPELUCID_GATE, 2
+	warp_event  4, 26, ROUTE_9_OPELUCID_GATE, 1
+	warp_event  4, 27, ROUTE_9_OPELUCID_GATE, 2
+	warp_event 33, 23, OPELUCID_POKECENTER, 1
+	warp_event 11, 19, OPELUCID_SUPER_ROD_HOUSE, 1
+	warp_event 33, 13, OPELUCID_BLACKBELT_HOUSE, 1
+	warp_event 25,  5, OPELUCID_CURIOSITY_SHOP, 1
+	warp_event 28, 15, DRAYDENS_HOUSE_1F, 1
 
 	def_coord_events
 	coord_event 40, 25, 0, OpelucidCityIrisScript1

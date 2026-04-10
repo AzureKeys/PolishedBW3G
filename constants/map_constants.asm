@@ -298,5 +298,12 @@ ENDM
 	map_const ROUTE_11_OPELUCID_GATE,                      5,  4 ;  4
 	map_const ROUTE_11_TRUCK,                              4,  3 ;  5
 	map_const OPELUCID_CITY,                              28, 17 ;  6
+	map_const OPELUCID_POKECENTER,                         5,  5 ;  7
+	map_const OPELUCID_SUPER_ROD_HOUSE,                    4,  4 ;  8
+	map_const OPELUCID_BLACKBELT_HOUSE,                    4,  4 ;  9
+	map_const OPELUCID_CURIOSITY_SHOP,                     4,  4 ; 10
+	map_const ROUTE_9_OPELUCID_GATE,                       5,  4 ; 11
+	map_const DRAYDENS_HOUSE_1F,                           5,  5 ; 12
+	map_const DRAYDENS_HOUSE_2F,                           4,  4 ; 13
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

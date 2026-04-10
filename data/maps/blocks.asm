@@ -21,6 +21,7 @@ StriatonPokecenter_BlockData:
 AccumulaPokecenter_BlockData:
 DriftveilPokecenter_BlockData:
 MistraltonPokecenter_BlockData:
+OpelucidPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -45,6 +46,8 @@ MistraltonSharpBeakHouse_BlockData:
 MistraltonMoveReminder_BlockData:
 Route7RazorClawHouse_BlockData:
 Route7TradeHouse_BlockData:
+OpelucidSuperRodHouse_BlockData:
+OpelucidBlackbeltHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -54,6 +57,7 @@ Route4House_BlockData:
 FloccesyRanchHouse_BlockData:
 NacreneCharcoalHouse_BlockData:
 NacreneWiseGlassesHouse_BlockData:
+OpelucidCuriosityShop_BlockData:
 	INCBIN "maps/House2.ablk.lzp"
 	
 SECTION "ApartmentHouse_Blockdata", ROMX
@@ -77,6 +81,7 @@ Route1Route17Gate_BlockData:
 DriftveilDrawbridgeGate_BlockData:
 Route11VillageBridgeGate_BlockData:
 Route11OpelucidGate_BlockData:
+Route9OpelucidGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX
@@ -732,5 +737,13 @@ Route11_BlockData:
 SECTION "OpelucidCity_BlockData", ROMX
 OpelucidCity_BlockData:
 	INCBIN "maps/OpelucidCity.ablk.lzp"
+
+SECTION "DraydensHouse1F_BlockData", ROMX
+DraydensHouse1F_BlockData:
+	INCBIN "maps/DraydensHouse1F.ablk.lzp"
+
+SECTION "DraydensHouse2F_BlockData", ROMX
+DraydensHouse2F_BlockData:
+	INCBIN "maps/DraydensHouse2F.ablk.lzp"
 
 ENDSECTION
