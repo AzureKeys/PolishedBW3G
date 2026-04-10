@@ -746,4 +746,8 @@ SECTION "DraydensHouse2F_BlockData", ROMX
 DraydensHouse2F_BlockData:
 	INCBIN "maps/DraydensHouse2F.ablk.lzp"
 
+SECTION "OpelucidGym_BlockData", ROMX
+OpelucidGym_BlockData:
+	INCBIN "maps/OpelucidGym.ablk.lzp"
+
 ENDSECTION

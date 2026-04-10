@@ -353,6 +353,7 @@ INCLUDE "maps/OpelucidCuriosityShop.asm"
 INCLUDE "maps/Route9OpelucidGate.asm"
 INCLUDE "maps/DraydensHouse1F.asm"
 INCLUDE "maps/DraydensHouse2F.asm"
+INCLUDE "maps/OpelucidGym.asm"
 
 
 ENDSECTION
