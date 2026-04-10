@@ -94,7 +94,7 @@ endc
 	move ABSORB,          EFFECT_LEECH_HIT,          20, GRASS,     100, 25,   0, SPECIAL
 	move MEGA_DRAIN,      EFFECT_LEECH_HIT,          40, GRASS,     100, 15,   0, SPECIAL
 	move LEECH_SEED,      EFFECT_LEECH_SEED,          0, GRASS,      90, 10,   0, STATUS
-	move GROWTH,          EFFECT_GROWTH,              0, NORMAL,     -1, 20,   0, STATUS
+	move GROWTH,          EFFECT_GROWTH,              0, GRASS,      -1, 20,   0, STATUS
 	move RAZOR_LEAF,      EFFECT_NORMAL_HIT,         55, GRASS,      95, 25,   0, PHYSICAL
 	move SOLAR_BEAM,      EFFECT_SOLAR_BEAM,        120, GRASS,     100, 10,   0, SPECIAL
 	move POISONPOWDER,    EFFECT_POISON,              0, POISON,     75, 35,   0, STATUS
@@ -150,7 +150,7 @@ endc
 	move WATERFALL,       EFFECT_FLINCH_HIT,         80, WATER,     100, 15,  20, PHYSICAL
 	move ICICLE_CRASH,    EFFECT_FLINCH_HIT,         85, ICE,        90, 10,  30, PHYSICAL
 	move SWIFT,           EFFECT_ALWAYS_HIT,         60, NORMAL,     -1, 20,   0, SPECIAL
-	move IRON_HEAD,       EFFECT_FLINCH_HIT,         80, STEEL,     100, 15,  30, PHYSICAL
+	move IRON_HEAD,       EFFECT_FLINCH_HIT,         80, STEEL,     100, 15,  20, PHYSICAL
 	move ICICLE_SPEAR,    EFFECT_MULTI_HIT,          25, ICE,       100, 30,   0, PHYSICAL
 	move BULLDOZE,        EFFECT_SPEED_DOWN_HIT,     60, GROUND,    100, 20, 100, PHYSICAL
 	move AMNESIA,         EFFECT_SP_DEF_UP_2,         0, PSYCHIC,    -1, 20,   0, STATUS
@@ -272,7 +272,7 @@ endc
 	move BRICK_BREAK,     EFFECT_BRICK_BREAK,        75, FIGHTING,  100, 15,   0, PHYSICAL
 	move SACRED_SWORD,    EFFECT_NORMAL_HIT,         90, FIGHTING,  100, 15,   0, PHYSICAL
 	move DARK_PULSE,      EFFECT_FLINCH_HIT,         80, DARK,      100, 15,  20, SPECIAL
-	move MOONBLAST,       EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,     100, 15,  30, SPECIAL
+	move MOONBLAST,       EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,     100, 15,  10, SPECIAL
 	move PLAY_ROUGH,      EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,      90, 10,  10, PHYSICAL
 	move DISARM_VOICE,    EFFECT_ALWAYS_HIT,         40, FAIRY,      -1, 15,   0, SPECIAL
 	move STRUGGLE,        EFFECT_RECOIL_HIT,         50, UNKNOWN_T,  -1,  1,   0, PHYSICAL
