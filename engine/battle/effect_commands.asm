@@ -587,6 +587,18 @@ CheckPowerHerb:
 	cp WEATHER_SUN
 	jr z, .chargeup
 
+	; check for solarization
+	call GetSolarizedWeather
+	cp WEATHER_SUN
+	jr nz, .no_solar_beam
+
+	farcall BeginAbility
+	farcall ShowAbilityActivation
+	ld hl, BattleText_MegaSolCharged
+	call StdBattleTextbox
+	farcall EndAbility
+	jr .chargeup
+
 .no_solar_beam
 	call GetUserItemAfterUnnerve
 	ld a, b
@@ -2310,7 +2322,8 @@ BattleCommand_checkhit:
 
 .WeatherAccCheck:
 ; Returns z if the move used always hits in the current weather
-	call GetWeatherAfterOpponentUmbrella
+	call GetSolarizedWeather
+	call nz, GetWeatherAfterOpponentUmbrella
 	cp WEATHER_RAIN
 	jr z, .RainAccCheck
 	cp WEATHER_HAIL
@@ -4141,7 +4154,8 @@ HailDefenseBoost:
 	push bc
 	lb bc, WEATHER_HAIL, ICE
 WeatherDefenseBoost:
-	call GetWeatherAfterOpponentUmbrella
+	call GetSolarizedWeather
+	call nz, GetWeatherAfterOpponentUmbrella
 	cp b
 	ld a, c
 	pop bc

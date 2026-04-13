@@ -184,4 +184,5 @@ AbilityFlags:
 	abilflag SUPREME_OVERLORD
 	abilflag ARMOR_TAIL
 	abilflag MINDS_EYE, IGNORABLE
+	abilflag MEGA_SOL
 	assert_table_length NUM_ABILITIES

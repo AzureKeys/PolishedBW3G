@@ -168,6 +168,7 @@ AbilityDescriptions:
 	dw SupremeOverlordDescription
 	dw ArmorTailDescription
 	dw MindsEyeDescription
+	dw MegaSolDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -984,4 +985,9 @@ ArmorTailDescription:
 MindsEyeDescription:
 	text "Bypass evasion and"
 	next "Ghost immunity."
+	done
+
+MegaSolDescription:
+	text "Uses moves as if"
+	next "harsh sun is up."
 	done

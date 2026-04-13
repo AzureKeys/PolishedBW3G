@@ -168,6 +168,7 @@ AbilityNames:
 	dw SupremeOverlord
 	dw ArmorTail
 	dw MindsEye
+	dw MegaSol
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
@@ -338,3 +339,4 @@ Sharpness:       rawchar "Sharpness@"
 SupremeOverlord: rawchar "Supreme Overlord@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"
+MegaSol:         rawchar "Mega Sol@"
