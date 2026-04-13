@@ -750,4 +750,8 @@ SECTION "OpelucidGym_BlockData", ROMX
 OpelucidGym_BlockData:
 	INCBIN "maps/OpelucidGym.ablk.lzp"
 
+SECTION "OpelucidBattleHouse_BlockData", ROMX
+OpelucidBattleHouse_BlockData:
+	INCBIN "maps/OpelucidBattleHouse.ablk.lzp"
+
 ENDSECTION

@@ -215,21 +215,22 @@
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
-	const_next $ef
+	const_next $ee
 DEF SPRITE_POKEMON EQU const_value
-	const SPRITE_MON_ICON ; ef
-	const SPRITE_MON_DOLL_1 ; f0
-	const SPRITE_MON_DOLL_2 ; f1
-	const SPRITE_DAYCARE_MON_1 ; f2
-	const SPRITE_DAYCARE_MON_2 ; f3
-	const SPRITE_GROTTO_MON ; f4
+	const SPRITE_MON_ICON ; ee
+	const SPRITE_MON_DOLL_1 ; ef
+	const SPRITE_MON_DOLL_2 ; f0
+	const SPRITE_DAYCARE_MON_1 ; f1
+	const SPRITE_DAYCARE_MON_2 ; f2
+	const SPRITE_GROTTO_MON ; f3
 
 ; wVariableSprites indexes (see ram/wramx.asm)
 DEF SPRITE_VARS EQU const_value
-	const SPRITE_CONSOLE ; f4
-	const SPRITE_DOLL_1 ; f5
-	const SPRITE_DOLL_2 ; f6
-	const SPRITE_BIG_DOLL ; f7
+	const SPRITE_CONSOLE ; f3
+	const SPRITE_DOLL_1 ; f4
+	const SPRITE_DOLL_2 ; f5
+	const SPRITE_BIG_DOLL ; f6
+	const SPRITE_BATTLE_HOUSE_OPPONENT ; f7
 	const SPRITE_VIO ; f8
 	const SPRITE_VIRBANK_GRUNT_1 ; f9
 	const SPRITE_VIRBANK_GRUNT_2 ; fa

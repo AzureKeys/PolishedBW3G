@@ -22,7 +22,7 @@ SpriteHeaders:
 	overworld_sprite CherenSpriteGFX, WALKING_SPRITE, PAL_OW_AZURE
 	overworld_sprite CilanSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
 	overworld_sprite SkylaSpriteGFX, WALKING_SPRITE, PAL_OW_TEAL
-	overworld_sprite DraydenSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite DraydenSpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
 	overworld_sprite MarshalSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite GrimsleySpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite ElesaSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE

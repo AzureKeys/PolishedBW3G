@@ -15,6 +15,7 @@ OpelucidCity_MapScriptHeader:
 	warp_event 25,  5, OPELUCID_CURIOSITY_SHOP, 1
 	warp_event 28, 15, DRAYDENS_HOUSE_1F, 1
 	warp_event 17,  5, OPELUCID_GYM, 1
+	warp_event 32,  5, OPELUCID_BATTLE_HOUSE, 1
 
 	def_coord_events
 	coord_event 40, 25, 0, OpelucidCityIrisScript1

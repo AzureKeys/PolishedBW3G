@@ -306,5 +306,6 @@ ENDM
 	map_const DRAYDENS_HOUSE_1F,                           5,  5 ; 12
 	map_const DRAYDENS_HOUSE_2F,                           4,  4 ; 13
 	map_const OPELUCID_GYM,                               14, 16 ; 14
+	map_const OPELUCID_BATTLE_HOUSE,                       5,  4 ; 15
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
