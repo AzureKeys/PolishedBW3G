@@ -754,4 +754,8 @@ SECTION "OpelucidBattleHouse_BlockData", ROMX
 OpelucidBattleHouse_BlockData:
 	INCBIN "maps/OpelucidBattleHouse.ablk.lzp"
 
+SECTION "Route9_BlockData", ROMX
+Route9_BlockData:
+	INCBIN "maps/Route9.ablk.lzp"
+
 ENDSECTION

@@ -25,6 +25,7 @@ ENDM
 TilesetUnovaBeachAnim::
 TilesetUnovaWestAnim::
 TilesetUnovaEastAnim::
+TilesetUnovaNorthAnim::
 	tileframe ScrollTileDown,           $0:4a
 	tileframe ScrollTileDown,           $0:5a
 	tileframe ScrollTileLeft,           $0:5b

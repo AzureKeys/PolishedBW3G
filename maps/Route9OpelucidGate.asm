@@ -6,8 +6,8 @@ Route9OpelucidGate_MapScriptHeader:
 	def_warp_events
 	warp_event  9,  4, OPELUCID_CITY, 3
 	warp_event  9,  5, OPELUCID_CITY, 4
-	;warp_event  0,  4, ROUTE_9, 1
-	;warp_event  0,  5, ROUTE_9, 2
+	warp_event  0,  4, ROUTE_9, 1
+	warp_event  0,  5, ROUTE_9, 2
 
 	def_coord_events
 

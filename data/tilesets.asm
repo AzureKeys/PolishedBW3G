@@ -53,6 +53,7 @@ Tilesets::
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetUnovaEast
+	tileset TilesetUnovaNorth
 	tileset TilesetHiddenGrotto
 	assert_table_length NUM_TILESETS
 
@@ -61,7 +62,8 @@ SECTION "Tileset Graphics - unova common vram0", ROMX
 
 TilesetUnovaBeachGFX0::
 TilesetUnovaWestGFX0:: 
-TilesetUnovaEastGFX0:: INCBIN "gfx/tilesets/unova_common.2bpp.lzp"
+TilesetUnovaEastGFX0:: 
+TilesetUnovaNorthGFX0:: INCBIN "gfx/tilesets/unova_common.2bpp.lzp"
 
 
 SECTION "Tileset Graphics - unova beach vram1", ROMX
@@ -113,6 +115,23 @@ SECTION "Tileset Data - unova east", ROMX
 TilesetUnovaEastMeta:: INCBIN "data/tilesets/unova_east_metatiles.bin.lzp"
 TilesetUnovaEastAttr:: INCBIN "data/tilesets/unova_east_attributes.bin.lzp"
 TilesetUnovaEastColl:: INCBIN "data/tilesets/unova_east_collision.bin.lzp"
+
+
+SECTION "Tileset Graphics - unova north vram1", ROMX
+
+TilesetUnovaNorthGFX1:: INCBIN "gfx/tilesets/unova_north.unova_common.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - unova north vram2", ROMX
+
+TilesetUnovaNorthGFX2:: INCBIN "gfx/tilesets/unova_north.unova_common.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - unova north", ROMX
+
+TilesetUnovaNorthMeta:: INCBIN "data/tilesets/unova_north_metatiles.bin.lzp"
+TilesetUnovaNorthAttr:: INCBIN "data/tilesets/unova_north_attributes.bin.lzp"
+TilesetUnovaNorthColl:: INCBIN "data/tilesets/unova_north_collision.bin.lzp"
 
 
 SECTION "Tileset Graphics - driftveil vram0", ROMX

@@ -230,8 +230,8 @@ DEF NUM_FRUIT_TREES EQU const_value - 1
 	const HIDDENGROTTO_ROUTE_18                ; 0c
 	const HIDDENGROTTO_ROUTE_6                 ; 0d
 	const HIDDENGROTTO_ROUTE_7                 ; 0e
+	const HIDDENGROTTO_ROUTE_9                 ; 0f
 	
-	const HIDDENGROTTO_ROUTE_42                ; 0f
 	const HIDDENGROTTO_LAKE_OF_RAGE            ; 10
 	const HIDDENGROTTO_BELLCHIME_TRAIL         ; 11
 	const HIDDENGROTTO_ROUTE_44                ; 12

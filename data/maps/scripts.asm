@@ -340,6 +340,7 @@ INCLUDE "maps/VillageBridge.asm"
 INCLUDE "maps/Route11VillageBridgeGate.asm"
 INCLUDE "maps/Route11.asm"
 INCLUDE "maps/Route11Truck.asm"
+INCLUDE "maps/Route9.asm"
 
 
 SECTION "Opelucid Scripts", ROMX
