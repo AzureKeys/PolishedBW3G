@@ -6,6 +6,7 @@ GiantChasm1F_MapScriptHeader:
 	def_warp_events
 	warp_event 15,  3, ROUTE_22, 2
 	warp_event  7, 17, ROUTE_13, 2
+	warp_event 11,  2, GIANT_CHASM_ROOMS, 1
 
 	def_coord_events
 	coord_event 13, 17, 0, GiantChasm_MeetInferScene

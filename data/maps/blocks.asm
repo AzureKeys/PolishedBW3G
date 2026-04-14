@@ -185,6 +185,14 @@ SECTION "GiantChasm1F_BlockData", ROMX
 GiantChasm1F_BlockData:
 	INCBIN "maps/GiantChasm1F.ablk.lzp"
 
+SECTION "GiantChasmB1F_BlockData", ROMX
+GiantChasmB1F_BlockData:
+	INCBIN "maps/GiantChasmB1F.ablk.lzp"
+
+SECTION "GiantChasmRooms_BlockData", ROMX
+GiantChasmRooms_BlockData:
+	INCBIN "maps/GiantChasmRooms.ablk.lzp"
+
 SECTION "Route13_BlockData", ROMX
 Route13_BlockData:
 	INCBIN "maps/Route13.ablk.lzp"

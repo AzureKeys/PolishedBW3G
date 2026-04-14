@@ -45,6 +45,8 @@ ENDM
 
 	newgroup                                                     ;  3
 	map_const GIANT_CHASM_1F,                              9, 10 ;  1
+	map_const GIANT_CHASM_B1F,                            23, 20 ;  2
+	map_const GIANT_CHASM_ROOMS,                           8, 13 ;  3
 	map_const REVERSAL_MOUNTAIN_1F,                       27, 16 ;  4
 	map_const REVERSAL_MOUNTAIN_B1F,                      17, 16 ;  5
 	map_const STRANGE_HOUSE_1F,                           14,  7 ;  6

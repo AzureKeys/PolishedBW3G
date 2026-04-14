@@ -106,9 +106,11 @@ ENDM
 	map_attributes Route7North, ROUTE_7_NORTH, $15, WEST
 	connection west, Route7Middle, ROUTE_7_MIDDLE, 16
 
-	map_attributes GiantChasm1F, GIANT_CHASM_1F, $0, 0
-	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $0, 0
-	map_attributes ReversalMountainB1F, REVERSAL_MOUNTAIN_B1F, $0, 0
+	map_attributes GiantChasm1F, GIANT_CHASM_1F, $9, 0
+	map_attributes GiantChasmB1F, GIANT_CHASM_B1F, $45, 0
+	map_attributes GiantChasmRooms, GIANT_CHASM_ROOMS, $9, 0
+	map_attributes ReversalMountain1F, REVERSAL_MOUNTAIN_1F, $9, 0
+	map_attributes ReversalMountainB1F, REVERSAL_MOUNTAIN_B1F, $9, 0
 	map_attributes StrangeHouse1F, STRANGE_HOUSE_1F, $0, 0
 	map_attributes StrangeHouseB1F, STRANGE_HOUSE_B1F, $0, 0
 	map_attributes StrangeHouseRooms, STRANGE_HOUSE_ROOMS, $0, 0
