@@ -19,6 +19,7 @@ FishMonMaps:
 	fishmon_map ROUTE_3, FISHGROUP_LAKE
 	fishmon_map ROUTE_4, FISHGROUP_OCEAN
 	fishmon_map ROUTE_6, FISHGROUP_LAKE
+	fishmon_map ROUTE_8, FISHGROUP_LAKE
 	fishmon_map ROUTE_11, FISHGROUP_LAKE
 	fishmon_map ROUTE_13, FISHGROUP_SHORE
 	fishmon_map ROUTE_14, FISHGROUP_SHORE

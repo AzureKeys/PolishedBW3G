@@ -778,4 +778,8 @@ SECTION "TubelineBridge_BlockData", ROMX
 TubelineBridge_BlockData:
 	INCBIN "maps/TubelineBridge.ablk.lzp"
 
+SECTION "Route8_BlockData", ROMX
+Route8_BlockData:
+	INCBIN "maps/Route8.ablk.lzp"
+
 ENDSECTION

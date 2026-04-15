@@ -47,6 +47,7 @@ Tilesets::
 	tileset TilesetPWTOutside
 	tileset TilesetPWTInside
 	tileset TilesetAirport
+	tileset TilesetIcirrus
 	tileset TilesetDriftveil
 	tileset TilesetMistralton
 	tileset TilesetOpelucid
@@ -834,6 +835,23 @@ TilesetAirportAttr:: INCBIN "data/tilesets/airport_attributes.bin.lzp"
 TilesetAirportColl:: INCBIN "data/tilesets/airport_collision.bin.lzp"
 
 
+SECTION "Tileset Graphics - icirrus vram0", ROMX
+
+TilesetIcirrusGFX0:: INCBIN "gfx/tilesets/icirrus.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - icirrus vram1", ROMX
+
+TilesetIcirrusGFX1:: INCBIN "gfx/tilesets/icirrus.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - icirrus", ROMX
+
+TilesetIcirrusMeta:: INCBIN "data/tilesets/icirrus_metatiles.bin.lzp"
+TilesetIcirrusAttr:: INCBIN "data/tilesets/icirrus_attributes.bin.lzp"
+TilesetIcirrusColl:: INCBIN "data/tilesets/icirrus_collision.bin.lzp"
+
+
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
 TilesetHiddenGrottoGFX0:: INCBIN "gfx/tilesets/hidden_grotto.2bpp.vram0.lzp"
@@ -890,5 +908,6 @@ TilesetAirportGFX2::
 TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetOpelucidGFX2::
+TilesetIcirrusGFX2::
 TilesetHiddenGrottoGFX2::
 	db $ff ; Compressed data is terminated with $ff.

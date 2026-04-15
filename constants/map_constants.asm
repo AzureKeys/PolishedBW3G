@@ -315,5 +315,6 @@ ENDM
 	
 	newgroup                                                     ; 21
 	map_const TUBELINE_BRIDGE,                             9,  7 ;  1
+	map_const ROUTE_8,                                    24, 11 ;  2
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -59,6 +59,21 @@ TilesetVillageBridgeAnim::
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe DoneTileAnimation
+	
+TilesetIcirrusAnim::
+	tileframe ScrollTileRightLeft,      $0:08
+	tileframe ScrollTileRightLeft,      $0:09
+	tileframe ScrollTileRightLeft,      $0:18
+	tileframe ScrollTileRightLeft,      $0:19
+	tileframe AnimateUnovaWaterTile1,   $0:6d
+	tileframe AnimateUnovaWaterTile2,   $0:6e
+	tileframe AnimateUnovaWaterTile3,   $0:7d
+	tileframe AnimateUnovaWaterTile4,   $0:7e
+	tileframe AnimateFlowerTile,        $0:03
+	;tileframe AnimateRainTiles,         $0:1c
+	tileframe StandingTileFrame8
+	tileframe IncWaterFrame
+	tileframe DoneTileAnimation
 
 TilesetDreamyardAnim::
 	tileframe ScrollTileDown,           $0:6f

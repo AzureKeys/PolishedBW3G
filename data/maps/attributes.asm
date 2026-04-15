@@ -105,6 +105,8 @@ ENDM
 	
 	map_attributes Route7North, ROUTE_7_NORTH, $15, WEST
 	connection west, Route7Middle, ROUTE_7_MIDDLE, 16
+	
+	map_attributes Route8, ROUTE_8, $11, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $9, 0
 	map_attributes GiantChasmB1F, GIANT_CHASM_B1F, $45, 0

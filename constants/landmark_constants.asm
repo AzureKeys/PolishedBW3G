@@ -57,6 +57,7 @@
 	const MISTRALTON_CITY      ; 35
 	const ROUTE_7              ; 36
 	const CELESTIAL_TOWER      ; 37
+	const ROUTE_8              ; 3b
 	const TUBELINE_BRIDGE      ; 3d
 	const ROUTE_9              ; 3e
 	const OPELUCID_CITY        ; 3f
