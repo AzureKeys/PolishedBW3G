@@ -285,6 +285,8 @@ ENDM
 	map_attributes DraydensHouse1F, DRAYDENS_HOUSE_1F, $0, 0
 	map_attributes DraydensHouse2F, DRAYDENS_HOUSE_2F, $0, 0
 	map_attributes OpelucidBattleHouse, OPELUCID_BATTLE_HOUSE, $0, 0
+	map_attributes ShoppingMallNine, SHOPPING_MALL_NINE, $0, 0
+	map_attributes MembersRoom, MEMBERS_ROOM, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

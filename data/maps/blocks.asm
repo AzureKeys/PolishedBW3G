@@ -766,4 +766,12 @@ SECTION "Route9_BlockData", ROMX
 Route9_BlockData:
 	INCBIN "maps/Route9.ablk.lzp"
 
+SECTION "ShoppingMallNine_BlockData", ROMX
+ShoppingMallNine_BlockData:
+	INCBIN "maps/ShoppingMallNine.ablk.lzp"
+
+SECTION "MembersRoom_BlockData", ROMX
+MembersRoom_BlockData:
+	INCBIN "maps/MembersRoom.ablk.lzp"
+
 ENDSECTION

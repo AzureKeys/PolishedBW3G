@@ -38,6 +38,8 @@ ENDM
 	special_bg_pal map,      DRIFTVEIL_DRAWBRIDGE,        PAL_TIMEOFDAY, DriftveilDrawbridgePalette
 	special_bg_pal map,      DRIFTVEIL_STONE_EMPORIUM,    PAL_SINGLE,    StoneEmporiumPalette
 	special_bg_pal map,      MISTRALTON_AIRPORT,          PAL_SINGLE,    AirportPalette
+	special_bg_pal map,      SHOPPING_MALL_NINE,          PAL_SINGLE,    AirportPalette
+	special_bg_pal map,      MEMBERS_ROOM,                PAL_SINGLE,    AirportPalette
 	special_bg_pal map,      PLANE_LEFT,                  PAL_TIMEOFDAY, PlanePalette
 	special_bg_pal map,      PLANE_RIGHT,                 PAL_TIMEOFDAY, PlanePalette
 	special_bg_pal map,      MISTRALTON_GYM_1F,           PAL_SINGLE,    MistraltonGymPalette

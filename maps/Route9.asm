@@ -6,6 +6,10 @@ Route9_MapScriptHeader:
 	def_warp_events
 	warp_event 37, 10, ROUTE_9_OPELUCID_GATE, 3
 	warp_event 37, 11, ROUTE_9_OPELUCID_GATE, 4
+	warp_event 20,  5, SHOPPING_MALL_NINE, 1
+	warp_event 21,  5, SHOPPING_MALL_NINE, 1
+	warp_event 22,  5, SHOPPING_MALL_NINE, 2
+	warp_event 23,  5, SHOPPING_MALL_NINE, 2
 	warp_event  9,  5, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

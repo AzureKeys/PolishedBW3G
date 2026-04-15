@@ -121,7 +121,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 78
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 79
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 7a
-	tilecoll WALL, WALL, WALL, WALL ; 7b
+	tilecoll WALL, WALL, VENDING_MACHINE, VENDING_MACHINE ; 7b
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 7c
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 7d
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 7e

@@ -61,6 +61,7 @@ MapScenes::
 	scene_var ROUTE_18,                               wRoute18SceneID
 	scene_var SEASIDE_CAVE_1F,                        wSeasideCave1FSceneID
 	scene_var SEASIDE_CAVE_CHAMBER,                   wSeasideCaveChamberSceneID
+	scene_var SHOPPING_MALL_NINE,                     wShoppingMallNineSceneID
 	scene_var STRANGE_HOUSE_1F,                       wStrangeHouse1FSceneID
 	scene_var STRANGE_HOUSE_ROOMS,                    wStrangeHouseRoomsSceneID
 	scene_var TRADE_CENTER,                           wTradeCenterSceneID

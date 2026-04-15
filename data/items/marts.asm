@@ -15,6 +15,13 @@ Marts:
 	dw MartNimbasaGate
 	dw MartDriftveilMerchant1
 	dw MartDriftveilMerchant2
+	dw MartShoppingMall1
+	dw MartShoppingMall2
+	dw MartShoppingMall3
+	dw MartShoppingMall4
+	dw MartShoppingMall5
+	dw MartMembersRoom1
+	dw MartMembersRoom2
 	dw BattleTowerMart1
 	dw BattleTowerMart2
 	dw BattleTowerMart3
@@ -214,6 +221,84 @@ MartDriftveilMerchant2:
 	db X_ACCURACY
 	db DIRE_HIT
 	db GUARD_SPEC
+	db -1
+
+MartShoppingMall1:
+	db 11 ; # items
+	db POTION
+	db SUPER_POTION
+	db HYPER_POTION
+	db MAX_POTION
+	db REVIVE
+	db ANTIDOTE
+	db PARALYZEHEAL
+	db BURN_HEAL
+	db ICE_HEAL
+	db AWAKENING
+	db FULL_HEAL
+	db -1
+
+MartShoppingMall2:
+	db 8 ; # items
+	db POKE_BALL
+	db GREAT_BALL
+	db ULTRA_BALL
+	db ESCAPE_ROPE
+	db POKE_DOLL
+	db REPEL
+	db SUPER_REPEL
+	db MAX_REPEL
+	db -1
+
+MartShoppingMall3:
+	db 5 ; # items
+	dbw TM_BLIZZARD,    45000
+	dbw TM_THUNDER,     45000
+	dbw TM_FIRE_BLAST,  45000
+	dbw TM_HYPER_BEAM,  60000
+	dbw TM_GIGA_IMPACT, 60000
+	db -1
+
+MartShoppingMall4:
+	db 14 ; # items
+	db PROTEIN
+	db IRON
+	db CARBOS
+	db CALCIUM
+	db ZINC
+	db HP_UP
+	db X_ATTACK
+	db X_DEFEND
+	db X_SP_ATK
+	db X_SP_DEF
+	db X_SPEED
+	db X_ACCURACY
+	db DIRE_HIT
+	db GUARD_SPEC
+	db -1
+
+MartShoppingMall5:
+	db 4 ; # items
+	db LEAF_STONE
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db -1
+
+MartMembersRoom1:
+	db 4 ; # items
+	db LEAF_STONE
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db -1
+
+MartMembersRoom2:
+	db 4 ; # items
+	db LEAF_STONE
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
 	db -1
 
 BattleTowerMart1:

@@ -310,5 +310,7 @@ ENDM
 	map_const OPELUCID_GYM,                               14, 16 ; 14
 	map_const OPELUCID_BATTLE_HOUSE,                       5,  4 ; 15
 	map_const ROUTE_9,                                    22, 11 ; 16
+	map_const SHOPPING_MALL_NINE,                          9, 14 ; 17
+	map_const MEMBERS_ROOM,                                7,  4 ; 18
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
