@@ -42,6 +42,7 @@ ENDM
 	special_bg_pal map,      MEMBERS_ROOM,                PAL_SINGLE,    AirportPalette
 	special_bg_pal map,      PLANE_LEFT,                  PAL_TIMEOFDAY, PlanePalette
 	special_bg_pal map,      PLANE_RIGHT,                 PAL_TIMEOFDAY, PlanePalette
+	special_bg_pal map,      TUBELINE_BRIDGE,             PAL_TIMEOFDAY, PlanePalette
 	special_bg_pal map,      MISTRALTON_GYM_1F,           PAL_SINGLE,    MistraltonGymPalette
 	special_bg_pal map,      MISTRALTON_GYM_2F,           PAL_SINGLE,    MistraltonGymPalette
 	special_bg_pal map,      CELESTIAL_TOWER_ROOF,        PAL_TIMEOFDAY, CelestialRoofPalette

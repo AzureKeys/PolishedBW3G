@@ -774,4 +774,8 @@ SECTION "MembersRoom_BlockData", ROMX
 MembersRoom_BlockData:
 	INCBIN "maps/MembersRoom.ablk.lzp"
 
+SECTION "TubelineBridge_BlockData", ROMX
+TubelineBridge_BlockData:
+	INCBIN "maps/TubelineBridge.ablk.lzp"
+
 ENDSECTION

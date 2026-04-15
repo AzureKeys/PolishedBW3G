@@ -1039,9 +1039,16 @@ LoadMapPals:
 	ret
 .CheckOpelucid
 	cp GROUP_VILLAGE_BRIDGE
-	jr nz, .check_overcast
+	jr nz, .CheckIcirrus
 	ld a, [wMapNumber]
 	cp MAP_VILLAGE_BRIDGE
+	jr nz, .check_overcast
+	ret
+.CheckIcirrus
+	cp GROUP_TUBELINE_BRIDGE
+	jr nz, .check_overcast
+	ld a, [wMapNumber]
+	cp MAP_TUBELINE_BRIDGE
 	jr nz, .check_overcast
 	ret
 	

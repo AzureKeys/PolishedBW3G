@@ -313,4 +313,7 @@ ENDM
 	map_const SHOPPING_MALL_NINE,                          9, 14 ; 17
 	map_const MEMBERS_ROOM,                                7,  4 ; 18
 	
+	newgroup                                                     ; 21
+	map_const TUBELINE_BRIDGE,                             9,  7 ;  1
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

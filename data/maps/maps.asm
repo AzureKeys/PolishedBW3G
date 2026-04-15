@@ -39,6 +39,7 @@ MapGroupPointers::
 	dw MapGroupDriftveil
 	dw MapGroupMistralton
 	dw MapGroupOpelucid
+	dw MapGroupIcirrus
 	assert_table_length NUM_MAP_GROUPS
 	
 MapGroupBattleTower:
@@ -330,4 +331,7 @@ MapGroupOpelucid:
 	map Route9, TILESET_UNOVA_NORTH, ROUTE, SIGN_ROUTE, ROUTE_9, MUSIC_ROUTE_3, 0, PALETTE_AUTO
 	map ShoppingMallNine, TILESET_AIRPORT, INDOOR, SIGN_BUILDING, ROUTE_9, MUSIC_MART, 1, PALETTE_DAY
 	map MembersRoom, TILESET_AIRPORT, INDOOR, SIGN_BUILDING, ROUTE_9, MUSIC_MART, 1, PALETTE_DAY
+
+MapGroupIcirrus:
+	map TubelineBridge, TILESET_AIRPORT, INDOOR, SIGN_BUILDING, TUBELINE_BRIDGE, MUSIC_SKYARROW_BRIDGE, 0, PALETTE_AUTO
 	

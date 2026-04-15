@@ -10,6 +10,8 @@ Route9_MapScriptHeader:
 	warp_event 21,  5, SHOPPING_MALL_NINE, 1
 	warp_event 22,  5, SHOPPING_MALL_NINE, 2
 	warp_event 23,  5, SHOPPING_MALL_NINE, 2
+	warp_event  4, 11, TUBELINE_BRIDGE, 1
+	warp_event  4, 12, TUBELINE_BRIDGE, 2
 	warp_event  9,  5, HIDDEN_TREE_GROTTO, 1
 	
 	def_coord_events

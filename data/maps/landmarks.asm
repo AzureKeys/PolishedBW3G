@@ -62,6 +62,7 @@ Landmarks:
 	landmark  28,  60, MistraltonCityName
 	landmark  36,  48, Route7Name
 	landmark  28,  44, CelestialTowerName
+	landmark  68,  36, TubelineBridgeName
 	landmark  76,  36, Route9Name
 	landmark  84,  36, OpelucidCityName
 	landmark  92,  36, Route11Name
@@ -126,6 +127,7 @@ ChargestoneCaveName:   rawchar "Chargestone¯Cave@"
 MistraltonCityName:    rawchar "Mistralton¯City@"
 Route7Name:            rawchar "Route 7@"
 CelestialTowerName:    rawchar "Celestial¯Tower@"
+TubelineBridgeName:    rawchar "Tubeline¯Bridge@"
 Route9Name:            rawchar "Route 9@"
 OpelucidCityName:      rawchar "Opelucid¯City@"
 Route11Name:           rawchar "Route 11@"

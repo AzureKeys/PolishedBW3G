@@ -345,6 +345,7 @@ INCLUDE "maps/Route11Truck.asm"
 INCLUDE "maps/Route9.asm"
 INCLUDE "maps/ShoppingMallNine.asm"
 INCLUDE "maps/MembersRoom.asm"
+INCLUDE "maps/TubelineBridge.asm"
 
 
 SECTION "Opelucid Scripts", ROMX
