@@ -782,4 +782,8 @@ SECTION "Route8_BlockData", ROMX
 Route8_BlockData:
 	INCBIN "maps/Route8.ablk.lzp"
 
+SECTION "MoorOfIcirrus_BlockData", ROMX
+MoorOfIcirrus_BlockData:
+	INCBIN "maps/MoorOfIcirrus.ablk.lzp"
+
 ENDSECTION

@@ -63,6 +63,7 @@ Landmarks:
 	landmark  36,  48, Route7Name
 	landmark  28,  44, CelestialTowerName
 	landmark  60,  36, Route8Name
+	landmark  60,  28, MoorOfIcirrusName
 	landmark  68,  36, TubelineBridgeName
 	landmark  76,  36, Route9Name
 	landmark  84,  36, OpelucidCityName
@@ -129,6 +130,7 @@ MistraltonCityName:    rawchar "Mistralton¯City@"
 Route7Name:            rawchar "Route 7@"
 CelestialTowerName:    rawchar "Celestial¯Tower@"
 Route8Name:            rawchar "Route 8@"
+MoorOfIcirrusName:     rawchar "Moor of¯Icirrus@"
 TubelineBridgeName:    rawchar "Tubeline¯Bridge@"
 Route9Name:            rawchar "Route 9@"
 OpelucidCityName:      rawchar "Opelucid¯City@"

@@ -6,8 +6,8 @@ TubelineBridge_MapScriptHeader:
 	def_warp_events
 	warp_event 17,  6, ROUTE_9, 7
 	warp_event 17,  7, ROUTE_9, 8
-	;warp_event  0,  6, ROUTE_8, 1
-	;warp_event  0,  7, ROUTE_8, 2
+	warp_event  0,  6, ROUTE_8, 1
+	warp_event  0,  7, ROUTE_8, 2
 
 	def_coord_events
 

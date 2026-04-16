@@ -58,6 +58,7 @@
 	const ROUTE_7              ; 36
 	const CELESTIAL_TOWER      ; 37
 	const ROUTE_8              ; 3b
+	const MOOR_OF_ICIRRUS      ; 3c
 	const TUBELINE_BRIDGE      ; 3d
 	const ROUTE_9              ; 3e
 	const OPELUCID_CITY        ; 3f

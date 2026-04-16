@@ -6,6 +6,8 @@ Route8_MapScriptHeader:
 	def_warp_events
 	warp_event 41, 13, TUBELINE_BRIDGE, 3
 	warp_event 41, 14, TUBELINE_BRIDGE, 4
+	warp_event 38,  3, MOOR_OF_ICIRRUS, 1
+	warp_event 39,  3, MOOR_OF_ICIRRUS, 2
 	
 	def_coord_events
 
@@ -57,7 +59,7 @@ TrainerParasolLadyR8:
 	callstd rematchf
 	winlosstext ParasolLadyR8BeatenText, 0
 	checkevent EVENT_BEAT_POKEMON_LEAGUE
-	iftrue .LoadFight1
+	iftruefwd .LoadFight1
 ; Fight0
 	loadtrainer PARASOL_LADY, PARASOL_LADY_R8
 	startbattle

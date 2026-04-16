@@ -347,6 +347,7 @@ INCLUDE "maps/ShoppingMallNine.asm"
 INCLUDE "maps/MembersRoom.asm"
 INCLUDE "maps/TubelineBridge.asm"
 INCLUDE "maps/Route8.asm"
+INCLUDE "maps/MoorOfIcirrus.asm"
 
 
 SECTION "Opelucid Scripts", ROMX

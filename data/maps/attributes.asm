@@ -194,6 +194,7 @@ ENDM
 	map_attributes OpelucidGym, OPELUCID_GYM, $0, 0
 	map_attributes Route9, ROUTE_9, $19, 0
 	map_attributes TubelineBridge, TUBELINE_BRIDGE, $0, 0
+	map_attributes MoorOfIcirrus, MOOR_OF_ICIRRUS, $11, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
