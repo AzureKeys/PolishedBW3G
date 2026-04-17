@@ -1210,6 +1210,7 @@ wFloccesyTownSceneID:: db
 wGiantChasm1FSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
+wIcirrusCitySouthSceneID:: db
 wLostlornForestSceneID:: db
 wMistraltonCitySceneID:: db
 wNacreneCitySceneID:: db
@@ -1271,7 +1272,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 110 ; unused
+	ds 109 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette

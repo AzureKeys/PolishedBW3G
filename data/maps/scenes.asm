@@ -28,6 +28,7 @@ MapScenes::
 	scene_var GIANT_CHASM_1F,                         wGiantChasm1FSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
 	scene_var HUMILAU_CITY,                           wHumilauCitySceneID
+	scene_var ICIRRUS_CITY_SOUTH,                     wIcirrusCitySouthSceneID
 	scene_var LENTIMAS_AIRPORT,                       wAlways0SceneID
 	scene_var LENTIMAS_GYM,                           wAlways0SceneID
 	scene_var LENTIMAS_TOWN,                          wAlways0SceneID

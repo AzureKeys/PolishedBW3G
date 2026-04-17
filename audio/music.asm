@@ -264,4 +264,7 @@ INCLUDE "audio/music/mistraltoncity.asm"
 SECTION "Song - anvilletown", ROMX
 INCLUDE "audio/music/anvilletown.asm"
 
+SECTION "Song - icirruscity", ROMX
+INCLUDE "audio/music/icirruscity.asm"
+
 ENDSECTION

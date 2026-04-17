@@ -92,4 +92,5 @@ Music:
 	dba Music_UnovaRoute6
 	dba Music_MistraltonCity
 	dba Music_AnvilleTown
+	dba Music_IcirrusCity
 	assert_table_length NUM_MUSIC_SONGS

@@ -48,4 +48,10 @@ DualMapConnections:
 	dual_connection east, NACRENE_OUTSKIRT, 21, \
 		NacreneCity, NACRENE_CITY, 0, \
 		NacreneOutskirtEast, NACRENE_OUTSKIRT_EAST, 12
+	; When you walk east off of IcirrusCitySouth, if [wXCoord] < 21,
+	; then use "connection north, IcirrusCityNorth, ICIRRUS_CITY_NORTH, -1";
+	; else use "connection north, Route8, ROUTE_8, 8".
+	dual_connection north, ICIRRUS_CITY_SOUTH, 21, \
+		IcirrusCityNorth, ICIRRUS_CITY_NORTH, -1, \
+		Route8, ROUTE_8, 8
 	db 0 ; end

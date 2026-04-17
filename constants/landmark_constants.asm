@@ -57,6 +57,7 @@
 	const MISTRALTON_CITY      ; 35
 	const ROUTE_7              ; 36
 	const CELESTIAL_TOWER      ; 37
+	const ICIRRUS_CITY         ; 39
 	const ROUTE_8              ; 3b
 	const MOOR_OF_ICIRRUS      ; 3c
 	const TUBELINE_BRIDGE      ; 3d

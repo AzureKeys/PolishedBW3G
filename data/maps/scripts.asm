@@ -365,4 +365,11 @@ INCLUDE "maps/OpelucidGym.asm"
 INCLUDE "maps/OpelucidBattleHouse.asm"
 
 
+SECTION "Icirrus Scripts", ROMX
+
+INCLUDE "maps/IcirrusCitySouth.asm"
+INCLUDE "maps/IcirrusCitySouthConnectionDummy.asm"
+INCLUDE "maps/IcirrusCityNorth.asm"
+
+
 ENDSECTION

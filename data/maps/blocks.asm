@@ -786,4 +786,16 @@ SECTION "MoorOfIcirrus_BlockData", ROMX
 MoorOfIcirrus_BlockData:
 	INCBIN "maps/MoorOfIcirrus.ablk.lzp"
 
+SECTION "IcirrusCitySouth_BlockData", ROMX
+IcirrusCitySouth_BlockData:
+	INCBIN "maps/IcirrusCitySouth.ablk.lzp"
+
+SECTION "IcirrusCitySouthConnectionDummy_BlockData", ROMX
+IcirrusCitySouthConnectionDummy_BlockData:
+	INCBIN "maps/IcirrusCitySouthConnectionDummy.ablk.lzp"
+
+SECTION "IcirrusCityNorth_BlockData", ROMX
+IcirrusCityNorth_BlockData:
+	INCBIN "maps/IcirrusCityNorth.ablk.lzp"
+
 ENDSECTION

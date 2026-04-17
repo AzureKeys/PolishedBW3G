@@ -317,5 +317,8 @@ ENDM
 	map_const TUBELINE_BRIDGE,                             9,  7 ;  1
 	map_const ROUTE_8,                                    24, 11 ;  2
 	map_const MOOR_OF_ICIRRUS,                            24, 20 ;  3
+	map_const ICIRRUS_CITY_SOUTH_CONNECTION_DUMMY,        26,  3 ;  4
+	map_const ICIRRUS_CITY_SOUTH,                         24, 13 ;  5
+	map_const ICIRRUS_CITY_NORTH,                         13, 13 ;  6
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37
