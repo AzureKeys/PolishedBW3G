@@ -24,6 +24,7 @@ OpenMartDialog::
 	dw MartDialog
 	dw HerbShop
 	dw MarketShop
+	dw BoutiqueShop
 	dw BargainShop
 	dw Pharmacist
 	dw RooftopSale
@@ -58,6 +59,15 @@ MarketShop:
 	call MartTextbox
 	call BuyMenu
 	ld hl, Text_MarketShop_ComeAgain
+	jmp MartTextbox
+
+BoutiqueShop:
+	call FarReadMart
+	call LoadStandardMenuHeader
+	ld hl, Text_BoutiqueShop_Intro
+	call MartTextbox
+	call BuyMenu
+	ld hl, Text_BoutiqueShop_ComeAgain
 	jmp MartTextbox
 
 ExpCandyMart:
@@ -615,6 +625,7 @@ GetMartDialogGroup:
 	dwb .StandardMartPointers, 0
 	dwb .HerbShopPointers, 0
 	dwb .MarketShopPointers, 0
+	dwb .BoutiqueShopPointers, 0
 	dwb .BargainShopPointers, 1
 	dwb .PharmacyPointers, 0
 	dwb .StandardMartPointers, 2
@@ -649,6 +660,14 @@ GetMartDialogGroup:
 	dw Text_MarketShop_InsufficientFunds
 	dw Text_MarketShop_BagFull
 	dw Text_MarketShop_HereYouGo
+	dw BuyMenuLoop
+
+.BoutiqueShopPointers:
+	dw Text_BoutiqueShop_HowMany
+	dw Text_BoutiqueShop_CostsThisMuch
+	dw Text_BoutiqueShop_InsufficientFunds
+	dw Text_BoutiqueShop_BagFull
+	dw Text_BoutiqueShop_HereYouGo
 	dw BuyMenuLoop
 
 .BargainShopPointers:
@@ -1355,6 +1374,30 @@ Text_MarketShop_ComeAgain:
 	text_far _MarketShopComeAgainText
 	text_end
 
+Text_BoutiqueShop_Intro:
+	text_far _BoutiqueShopIntroText
+	text_end
+
+Text_BoutiqueShop_CostsThisMuch:
+	text_far _BoutiqueShopFinalPriceText
+	text_end
+
+Text_BoutiqueShop_HereYouGo:
+	text_far _BoutiqueShopThanksText
+	text_end
+
+Text_BoutiqueShop_BagFull:
+	text_far _BoutiqueShopPackFullText
+	text_end
+
+Text_BoutiqueShop_InsufficientFunds:
+	text_far _BoutiqueShopNoMoneyText
+	text_end
+
+Text_BoutiqueShop_ComeAgain:
+	text_far _BoutiqueShopComeAgainText
+	text_end
+
 Text_BargainShop_Intro:
 	; Hiya! Care to see some bargains? I sell rare items that nobody else carries--but only one of each item.
 	text_far _BargainShopIntroText
@@ -1409,6 +1452,11 @@ Text_InformalMart_HowMany:
 Text_BazaarMart_HowMany:
 	; How many?
 	text_far _HowManyText
+	text_end
+	
+Text_BoutiqueShop_HowMany:
+	; How many?
+	text_far _BoutiqueHowManyText
 	text_end
 
 Text_Pharmacy_CostsThisMuch:

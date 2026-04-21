@@ -20,6 +20,7 @@ Marts:
 	dw MartShoppingMall3
 	dw MartShoppingMall4
 	dw MartShoppingMall5
+	dw MartIcirrusBoutique
 	dw MartMembersRoom1
 	dw MartMembersRoom2
 	dw BattleTowerMart1
@@ -283,6 +284,16 @@ MartShoppingMall5:
 	db FIRE_STONE
 	db WATER_STONE
 	db THUNDERSTONE
+	db -1
+
+MartIcirrusBoutique:
+	db 6 ; # items
+	db BLACKGLASSES
+	db FAIRYFEATHER
+	db BLACK_BELT
+	db MUSCLE_BAND
+	db WISE_GLASSES
+	db FOCUS_BAND
 	db -1
 
 MartMembersRoom1:

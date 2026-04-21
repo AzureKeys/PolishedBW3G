@@ -3554,6 +3554,67 @@ _MarketShopComeAgainText::
 	line "again!"
 	done
 
+SECTION "_BoutiqueShopIntroText", ROMX
+_BoutiqueShopIntroText::
+	text "Hello darling!"
+	line "Welcome to Icirrus"
+	cont "City Boutique."
+	
+	para "Is there anything"
+	line "that catches your"
+	cont "eye?"
+	done
+
+SECTION "_BoutiqueHowManyText", ROMX
+_BoutiqueHowManyText::
+	text "And how many of"
+	line "those would you"
+	cont "like, darling?"
+	done
+
+SECTION "_BoutiqueShopFinalPriceText", ROMX
+_BoutiqueShopFinalPriceText::
+	text "Alright darling,"
+	line "we're looking at"
+	cont "¥"
+	text_decimal hMoneyTemp, 3, 7
+	text "."
+	cont "Is that okay?"
+	done
+
+SECTION "_BoutiqueShopThanksText", ROMX
+_BoutiqueShopThanksText::
+	text "Wonderful! Thank"
+	line "you for your"
+	cont "purchase, darling!"
+	done
+
+SECTION "_BoutiqueShopPackFullText", ROMX
+_BoutiqueShopPackFullText::
+	text "Oh my, will you"
+	line "even be able to"
+	cont "carry all of that?"
+	done
+
+SECTION "_BoutiqueShopNoMoneyText", ROMX
+_BoutiqueShopNoMoneyText::
+	text "Oh dear, that"
+	line "seems to be just"
+	
+	para "a bit out of your"
+	line "price range."
+	
+	para "Would you like to"
+	line "look at something"
+	cont "else?"
+	done
+
+SECTION "_BoutiqueShopComeAgainText", ROMX
+_BoutiqueShopComeAgainText::
+	text "Please visit us"
+	line "again soon!"
+	done
+
 SECTION "_BargainShopIntroText", ROMX
 _BargainShopIntroText::
 	text "Hiya! Care to see"

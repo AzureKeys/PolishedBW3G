@@ -4,6 +4,7 @@ GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 NimbasaBallMart_BlockData:
 NimbasaTMMart_BlockData:
 NimbasaVitaminMart_BlockData:
+IcirrusBoutique_BlockData:
 	INCBIN "maps/Mart.ablk.lzp"
 	
 SECTION "Pokecenter_Blockdata", ROMX
@@ -22,6 +23,7 @@ AccumulaPokecenter_BlockData:
 DriftveilPokecenter_BlockData:
 MistraltonPokecenter_BlockData:
 OpelucidPokecenter_BlockData:
+IcirrusPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -48,6 +50,7 @@ Route7RazorClawHouse_BlockData:
 Route7TradeHouse_BlockData:
 OpelucidSuperRodHouse_BlockData:
 OpelucidBlackbeltHouse_BlockData:
+IcirrusRocketHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -797,5 +800,13 @@ IcirrusCitySouthConnectionDummy_BlockData:
 SECTION "IcirrusCityNorth_BlockData", ROMX
 IcirrusCityNorth_BlockData:
 	INCBIN "maps/IcirrusCityNorth.ablk.lzp"
+
+SECTION "IcirrusCave_BlockData", ROMX
+IcirrusCave_BlockData:
+	INCBIN "maps/IcirrusCave.ablk.lzp"
+
+SECTION "IcirrusFanClub_BlockData", ROMX
+IcirrusFanClub_BlockData:
+	INCBIN "maps/IcirrusFanClub.ablk.lzp"
 
 ENDSECTION

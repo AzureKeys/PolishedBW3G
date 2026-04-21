@@ -370,6 +370,11 @@ SECTION "Icirrus Scripts", ROMX
 INCLUDE "maps/IcirrusCitySouth.asm"
 INCLUDE "maps/IcirrusCitySouthConnectionDummy.asm"
 INCLUDE "maps/IcirrusCityNorth.asm"
+INCLUDE "maps/IcirrusPokecenter.asm"
+INCLUDE "maps/IcirrusRocketHouse.asm"
+INCLUDE "maps/IcirrusBoutique.asm"
+INCLUDE "maps/IcirrusCave.asm"
+INCLUDE "maps/IcirrusFanClub.asm"
 
 
 ENDSECTION

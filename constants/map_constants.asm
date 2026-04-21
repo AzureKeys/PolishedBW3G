@@ -320,5 +320,10 @@ ENDM
 	map_const ICIRRUS_CITY_SOUTH_CONNECTION_DUMMY,        26,  3 ;  4
 	map_const ICIRRUS_CITY_SOUTH,                         24, 13 ;  5
 	map_const ICIRRUS_CITY_NORTH,                         13, 13 ;  6
+	map_const ICIRRUS_POKECENTER,                          5,  5 ;  7
+	map_const ICIRRUS_ROCKET_HOUSE,                        4,  4 ;  8
+	map_const ICIRRUS_BOUTIQUE,                            6,  4 ;  9
+	map_const ICIRRUS_FAN_CLUB,                            5,  6 ; 10
+	map_const ICIRRUS_CAVE,                               16, 19 ; 11
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

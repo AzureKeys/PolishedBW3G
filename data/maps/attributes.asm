@@ -205,6 +205,7 @@ ENDM
 	map_attributes Route9, ROUTE_9, $19, 0
 	map_attributes TubelineBridge, TUBELINE_BRIDGE, $0, 0
 	map_attributes MoorOfIcirrus, MOOR_OF_ICIRRUS, $11, 0
+	map_attributes IcirrusCave, ICIRRUS_CAVE, $9, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -301,6 +302,10 @@ ENDM
 	map_attributes OpelucidBattleHouse, OPELUCID_BATTLE_HOUSE, $0, 0
 	map_attributes ShoppingMallNine, SHOPPING_MALL_NINE, $0, 0
 	map_attributes MembersRoom, MEMBERS_ROOM, $0, 0
+	map_attributes IcirrusPokecenter, ICIRRUS_POKECENTER, $0, 0
+	map_attributes IcirrusRocketHouse, ICIRRUS_ROCKET_HOUSE, $0, 0
+	map_attributes IcirrusBoutique, ICIRRUS_BOUTIQUE, $0, 0
+	map_attributes IcirrusFanClub, ICIRRUS_FAN_CLUB, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

@@ -4,6 +4,9 @@ IcirrusCityNorth_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event 15, 11, ICIRRUS_BOUTIQUE, 1
+	warp_event  7, 11, ICIRRUS_CAVE, 1
+	warp_event  5, 19, ICIRRUS_FAN_CLUB, 1
 
 	def_coord_events
 
