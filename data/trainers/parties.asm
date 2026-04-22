@@ -103,7 +103,7 @@ MarlonGroup:
 
 	def_trainer_class MARLON
 	def_trainer 1, "Marlon"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
+	tr_mon 57, MARILL @ MUSCLE_BAND, MALE
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
 		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
