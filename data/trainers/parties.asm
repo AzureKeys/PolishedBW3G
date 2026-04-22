@@ -4,7 +4,7 @@ INCLUDE "data/trainers/macros.asm"
 ; All trainers follow a basic structure (<> is mandatory, [] is optional):
 	; def_trainer <TRAINER_CONSTANT>, <Name>
 	; tr_mon <LEVEL>, [Nickname], <SPECIES/SPECIES @ ITEM>, [GENDER+FORM]
-		; tr_extra [ABILITY], [RATTATARE], [SHINY]
+		; tr_extra [ABILITY], [NATURE], [SHINY]
 		; tr_dvs <SPREAD>
 		; tr_evs <SPREAD>
 		; tr_moves <MOVE1>, [MOVE2], [MOVE3], [MOVE4]
@@ -12,8 +12,6 @@ INCLUDE "data/trainers/macros.asm"
 	; def_trainer, tr_mon and end_trainer are required. Other fields are
 	; optional and can be skipped. For full information about what each
 	; parameter does, see data/trainers/macros.asm.
-
-; TODO: boss trainers need better movesets, held items, RATTATAres, and abilities
 
 	def_trainer_class TRAINER_NONE
 
@@ -107,8 +105,8 @@ MarlonGroup:
 		tr_extra THICK_FAT
 		tr_evs 32 HP
 		tr_moves WATER_GUN, DEFENSE_CURL, ROLLOUT, RAIN_DANCE
-	tr_mon 13, BASCULIN @ ORAN_BERRY | BASCULIN_WHITE_FORM
-		tr_extra MOLD_BREAKER
+	tr_mon 13, BASCULIN @ ORAN_BERRY | BASCULIN_WHITE_FORM ; Decide on form. White chosen for now, for consistency with rematch team
+		tr_extra MOLD_BREAKER ; All Basculin's abilities are very good, and will either make it hit harder, take no recoil, or go through Sturdy etc. Mold Breaker seen to be least impactful at this stage of the game
 		tr_evs 32 Atk
 		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
 	end_trainer
@@ -196,7 +194,7 @@ BurghGroup:
 	tr_mon 25, YANMA
 		tr_extra SPEED_BOOST, SPE_UP_SATK_DOWN
 		tr_evs 96 SAt
-		tr_moves SONIC_BOOM, PROTECT, U_TURN, AIR_CUTTER
+		tr_moves SONIC_BOOM, PROTECT, U_TURN, AIR_CUTTER ; Check what TM Bugsy gives out in lieu of Struggle Bug - assume U-Turn? If so, replace Bug Bite on Leavanny also
 	tr_mon 25, DWEBBLE @ ORAN_BERRY
 		tr_extra SHELL_ARMOR
 		tr_evs 96 HP
@@ -235,7 +233,7 @@ BurghGroup:
 	end_trainer
 
 
-SECTION "RoxieGroup", ROMX
+SECTION "RoxieGroup", ROMX ; Started introducing some new items here, mostly have kept original BW3G item equivalents so far. In polished, by this level some items like Eviolite start appearing - can decide if you want to make these battles a bit more complex or not.
 RoxieGroup:
 
 	def_trainer_class ROXIE
@@ -342,7 +340,7 @@ CilanGroup:
 		tr_extra CHLOROPHYLL
 		tr_evs 196 Atk
 		tr_moves LEAF_BLADE, MEGAHORN, TAKE_DOWN, LEECH_SEED
-	tr_mon 38, LILLIGANT @ SITRUS_BERRY
+	tr_mon 38, LILLIGANT @ SITRUS_BERRY ; Could re-add Roserade so the team isn't purely Unova mons
 		tr_extra OWN_TEMPO
 		tr_evs 196 HP
 		tr_moves QUIVER_DANCE, PETAL_DANCE, HEAL_BELL, HEALINGLIGHT
@@ -350,10 +348,10 @@ CilanGroup:
 		tr_extra PRANKSTER
 		tr_evs 196 HP
 		tr_moves LEECH_SEED, CHARM, ENERGY_BALL, DAZZLINGLEAM
-	tr_mon 42, SIMISAGE @ LIECHI_BERRY
+	tr_mon 42, SIMISAGE @ LIECHI_BERRY ; Added Simisage over Roserade as Cilan's ace.
 		tr_extra GLUTTONY
 		tr_evs 196 Spe
-		tr_moves SEED_BOMB, ACROBATICS, KNOCK_OFF, DIG
+		tr_moves SEED_BOMB, ACROBATICS, KNOCK_OFF, DIG ; Update placeholder Dig with whatever the TM is decided to be - Energy Ball? If so, replace item with Petaya Berry and update moveset to Energy Ball, Nasty Plot, Focus Blast and HP Water or Swagger
 	end_trainer
 
 	def_trainer 2, "Cilan"
@@ -396,7 +394,7 @@ SkylaGroup:
 	tr_mon 48, UNFEZANT @ SCOPE_LENS
 		tr_extra SUPER_LUCK
 		tr_evs 224 Atk
-		tr_moves AERIAL_ACE, ROOST, SWAGGER, U_TURN
+		tr_moves AERIAL_ACE, ROOST, SWAGGER, U_TURN ; Guessing Aerial Ace will be the TM here instead of acrobatics
 	tr_mon 50, SWANNA @ SITRUS_BERRY
 		tr_extra HYDRATION
 		tr_evs 224 HP
@@ -405,7 +403,7 @@ SkylaGroup:
 		tr_extra NATURAL_CURE
 		tr_evs 224 SAt
 		tr_moves DRAGON_PULSE, MOONBLAST, HURRICANE, FLAMETHROWER
-	end_trainer
+	end_trainer ; Could add other Unovan birds here - Archeops, Braviary or Mandibuzz
 
 	def_trainer 2, "Skyla"
 	tr_mon 13, UNFEZANT @ ORAN_BERRY
@@ -456,7 +454,7 @@ DraydenGroup:
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Spe
 		tr_moves DRAGON_DANCE, DRAGON_CLAW, FIRE_FANG, EARTHQUAKE
-	end_trainer
+	end_trainer ; Could add an eviolite Zweilous here
 
 	def_trainer 2, "Drayden"
 	tr_mon 13, FLYGON @ ORAN_BERRY
@@ -485,6 +483,10 @@ DraydenGroup:
 		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
 	end_trainer
 
+; Let me know if the E4 teams should be toned down a bit, and given less optimal move sets 
+; a lot of high power moves flying around at these levels, which may not be too fun for some players.
+; I have made it so not all pokemon get the item and the set they'd most prefer, but some do still.
+; Other option might be to use these teams as rematch teams, and have easier teams the first round with suboptimal movesets - like in Polished Crystal
 
 SECTION "MarshalGroup", ROMX
 MarshalGroup:
@@ -636,7 +638,7 @@ ChampionGroup:
 		tr_extra ILLUSION, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves DARK_PULSE, FOCUS_BLAST, PSYCHIC_M, NASTY_PLOT
-	tr_mon 70, VOLCARONA @ LIFE_ORB
+	tr_mon 70, VOLCARONA @ LIFE_ORB ; Wonder if it might be cool to mix up the other pokemon Juniper uses so there's always a grass/fire/water core (Starter + 2 of Amoonguss, Darmanitan and Jellicent), similar to how Blue always has 2 of Gyarados, Arcanine or Exeggutor depending on which starter he got?
 		tr_extra FLAME_BODY, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SAt
 		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE
