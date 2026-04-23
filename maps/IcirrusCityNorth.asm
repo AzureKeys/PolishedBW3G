@@ -7,6 +7,8 @@ IcirrusCityNorth_MapScriptHeader:
 	warp_event 15, 11, ICIRRUS_BOUTIQUE, 1
 	warp_event  7, 11, ICIRRUS_CAVE, 1
 	warp_event  5, 19, ICIRRUS_FAN_CLUB, 1
+	warp_event 12,  5, DRAGONSPIRAL_TOWER_OUTSIDE, 1
+	warp_event 13,  5, DRAGONSPIRAL_TOWER_OUTSIDE, 2
 
 	def_coord_events
 

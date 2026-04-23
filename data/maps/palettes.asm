@@ -46,6 +46,8 @@ ENDM
 	special_bg_pal map,      MISTRALTON_GYM_1F,           PAL_SINGLE,    MistraltonGymPalette
 	special_bg_pal map,      MISTRALTON_GYM_2F,           PAL_SINGLE,    MistraltonGymPalette
 	special_bg_pal map,      CELESTIAL_TOWER_ROOF,        PAL_TIMEOFDAY, CelestialRoofPalette
+	special_bg_pal map,      DRAGONSPIRAL_TOWER_OUTSIDE,  PAL_TIMEOFDAY, DragonspiralOutsidePalette
+	special_bg_pal map,      DRAGONSPIRAL_TOWER_ROOF,     PAL_TIMEOFDAY, DragonspiralRoofPalette
 	special_bg_pal landmark, CHARGESTONE_CAVE,            PAL_SINGLE,    ChargestoneCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -63,6 +65,7 @@ ENDM
 	special_bg_pal tileset,  TILESET_VILLAGE_BRIDGE,      PAL_TIMEOFDAY, VillageBridgePalette
 	special_bg_pal tileset,  TILESET_OPELUCID,            PAL_TIMEOFDAY, OpelucidPalette
 	special_bg_pal tileset,  TILESET_ICIRRUS,             PAL_TIMEOFDAY, IcirrusPalette
+	special_bg_pal tileset,  TILESET_DRAGONSPIRAL,        PAL_SINGLE,    DragonspiralPalette
 	special_bg_pal tileset,  TILESET_HIDDEN_GROTTO,       PAL_SPECIAL,   HiddenGrottoSpecialCase ; *
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
@@ -214,6 +217,18 @@ endc
 ChargestoneCavePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/chargestone.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+DragonspiralPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/dragonspiral.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK
@@ -601,6 +616,72 @@ endc
 IcirrusPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/icirrus.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+DragonspiralOutsidePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/dragonspiral_outside.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+DragonspiralRoofPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/dragonspiral_roof.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

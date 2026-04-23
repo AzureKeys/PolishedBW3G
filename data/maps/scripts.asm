@@ -348,6 +348,14 @@ INCLUDE "maps/MembersRoom.asm"
 INCLUDE "maps/TubelineBridge.asm"
 INCLUDE "maps/Route8.asm"
 INCLUDE "maps/MoorOfIcirrus.asm"
+INCLUDE "maps/DragonspiralTowerOutside.asm"
+INCLUDE "maps/DragonspiralTower1F.asm"
+INCLUDE "maps/DragonspiralTower2F.asm"
+INCLUDE "maps/DragonspiralTower3F.asm"
+INCLUDE "maps/DragonspiralTower4F.asm"
+INCLUDE "maps/DragonspiralTower5F.asm"
+INCLUDE "maps/DragonspiralTower6F.asm"
+INCLUDE "maps/DragonspiralTowerRoof.asm"
 
 
 SECTION "Opelucid Scripts", ROMX

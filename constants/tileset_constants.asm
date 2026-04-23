@@ -39,6 +39,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_PWT_INSIDE           ; 2c
 	const TILESET_AIRPORT              ; 2c
 	const TILESET_ICIRRUS              ; 2c
+	const TILESET_DRAGONSPIRAL         ; 2c
 	const TILESET_DRIFTVEIL            ; 2c
 	const TILESET_MISTRALTON           ; 2c
 	const TILESET_OPELUCID             ; 2c

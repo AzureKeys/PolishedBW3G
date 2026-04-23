@@ -48,6 +48,7 @@ Tilesets::
 	tileset TilesetPWTInside
 	tileset TilesetAirport
 	tileset TilesetIcirrus
+	tileset TilesetDragonspiral
 	tileset TilesetDriftveil
 	tileset TilesetMistralton
 	tileset TilesetOpelucid
@@ -852,6 +853,23 @@ TilesetIcirrusAttr:: INCBIN "data/tilesets/icirrus_attributes.bin.lzp"
 TilesetIcirrusColl:: INCBIN "data/tilesets/icirrus_collision.bin.lzp"
 
 
+SECTION "Tileset Graphics - dragonspiral vram0", ROMX
+
+TilesetDragonspiralGFX0:: INCBIN "gfx/tilesets/dragonspiral.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - dragonspiral vram1", ROMX
+
+TilesetDragonspiralGFX1:: INCBIN "gfx/tilesets/dragonspiral.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - dragonspiral", ROMX
+
+TilesetDragonspiralMeta:: INCBIN "data/tilesets/dragonspiral_metatiles.bin.lzp"
+TilesetDragonspiralAttr:: INCBIN "data/tilesets/dragonspiral_attributes.bin.lzp"
+TilesetDragonspiralColl:: INCBIN "data/tilesets/dragonspiral_collision.bin.lzp"
+
+
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
 TilesetHiddenGrottoGFX0:: INCBIN "gfx/tilesets/hidden_grotto.2bpp.vram0.lzp"
@@ -909,5 +927,6 @@ TilesetBattleFactoryGFX2::
 TilesetLentimasGFX2::
 TilesetOpelucidGFX2::
 TilesetIcirrusGFX2::
+TilesetDragonspiralGFX2::
 TilesetHiddenGrottoGFX2::
 	db $ff ; Compressed data is terminated with $ff.

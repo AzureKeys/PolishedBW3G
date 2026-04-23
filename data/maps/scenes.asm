@@ -19,6 +19,10 @@ MapScenes::
 	scene_var CASTELIA_PORT,                          wCasteliaPortSceneID
 	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wCasteliaSkyarrowBridgeGateSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
+	scene_var DRAGONSPIRAL_TOWER_1F,                  wDragonspiralTower1FSceneID
+	scene_var DRAGONSPIRAL_TOWER_2F,                  wDragonspiralTower2FSceneID
+	scene_var DRAGONSPIRAL_TOWER_6F,                  wDragonspiralTower6FSceneID
+	scene_var DRAGONSPIRAL_TOWER_ROOF,                wDragonspiralTowerRoofSceneID
 	scene_var DREAMYARD,                              wDreamyardSceneID
 	scene_var DRIFTVEIL_DRAWBRIDGE_GATE,              wDriftveilDrawbridgeGateSceneID
 	scene_var DRIFTVEIL_SHELTER,                      wDriftveilShelterSceneID

@@ -145,6 +145,7 @@ TilesetBridgeAnim::
 TilesetHouse1Anim::
 TilesetPortAnim::
 TilesetDesertAnim::
+TilesetDragonspiralAnim::
 	tileframe DoNothing
 	tileframe DoNothing
 	tileframe DoNothing

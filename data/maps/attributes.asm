@@ -206,6 +206,14 @@ ENDM
 	map_attributes TubelineBridge, TUBELINE_BRIDGE, $0, 0
 	map_attributes MoorOfIcirrus, MOOR_OF_ICIRRUS, $11, 0
 	map_attributes IcirrusCave, ICIRRUS_CAVE, $9, 0
+	map_attributes DragonspiralTowerOutside, DRAGONSPIRAL_TOWER_OUTSIDE, $0, 0
+	map_attributes DragonspiralTower1F, DRAGONSPIRAL_TOWER_1F, $0, 0
+	map_attributes DragonspiralTower2F, DRAGONSPIRAL_TOWER_2F, $0, 0
+	map_attributes DragonspiralTower3F, DRAGONSPIRAL_TOWER_3F, $0, 0
+	map_attributes DragonspiralTower4F, DRAGONSPIRAL_TOWER_4F, $0, 0
+	map_attributes DragonspiralTower5F, DRAGONSPIRAL_TOWER_5F, $0, 0
+	map_attributes DragonspiralTower6F, DRAGONSPIRAL_TOWER_6F, $0, 0
+	map_attributes DragonspiralTowerRoof, DRAGONSPIRAL_TOWER_ROOF, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

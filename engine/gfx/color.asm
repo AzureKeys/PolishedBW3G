@@ -1014,6 +1014,10 @@ LoadMapPals:
 	jr nz, .CheckNimbasa
 	ld a, [wMapNumber]
 	cp MAP_CELESTIAL_TOWER_ROOF
+	ret z
+	cp MAP_DRAGONSPIRAL_TOWER_OUTSIDE
+	ret z
+	cp MAP_DRAGONSPIRAL_TOWER_ROOF
 	jr nz, .check_overcast
 	ret
 .CheckNimbasa

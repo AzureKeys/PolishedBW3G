@@ -63,6 +63,7 @@ Landmarks:
 	landmark  36,  48, Route7Name
 	landmark  28,  44, CelestialTowerName
 	landmark  52,  36, IcirrusCityName
+	landmark  52,  28, DragonspiralTowerName
 	landmark  60,  36, Route8Name
 	landmark  60,  28, MoorOfIcirrusName
 	landmark  68,  36, TubelineBridgeName
@@ -131,6 +132,7 @@ MistraltonCityName:    rawchar "Mistralton¯City@"
 Route7Name:            rawchar "Route 7@"
 CelestialTowerName:    rawchar "Celestial¯Tower@"
 IcirrusCityName:       rawchar "Icirrus¯City@"
+DragonspiralTowerName: rawchar "Dragonspiral¯Tower@"
 Route8Name:            rawchar "Route 8@"
 MoorOfIcirrusName:     rawchar "Moor of¯Icirrus@"
 TubelineBridgeName:    rawchar "Tubeline¯Bridge@"

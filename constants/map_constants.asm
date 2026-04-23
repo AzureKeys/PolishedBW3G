@@ -88,6 +88,14 @@ ENDM
 	map_const SEASIDE_CAVE_B1F,                           12, 14 ; 42
 	map_const SEASIDE_CAVE_B2F,                           14, 12 ; 43
 	map_const SEASIDE_CAVE_CHAMBER,                        6,  8 ; 44
+	map_const DRAGONSPIRAL_TOWER_OUTSIDE,                  7, 12 ; 45
+	map_const DRAGONSPIRAL_TOWER_1F,                       5,  9 ; 46
+	map_const DRAGONSPIRAL_TOWER_2F,                       8, 11 ; 47
+	map_const DRAGONSPIRAL_TOWER_3F,                      10,  8 ; 48
+	map_const DRAGONSPIRAL_TOWER_4F,                       9,  9 ; 49
+	map_const DRAGONSPIRAL_TOWER_5F,                       9, 10 ; 50
+	map_const DRAGONSPIRAL_TOWER_6F,                       8, 10 ; 51
+	map_const DRAGONSPIRAL_TOWER_ROOF,                     9,  9 ; 52
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

@@ -809,4 +809,36 @@ SECTION "IcirrusFanClub_BlockData", ROMX
 IcirrusFanClub_BlockData:
 	INCBIN "maps/IcirrusFanClub.ablk.lzp"
 
+SECTION "DragonspiralTowerOutside_BlockData", ROMX
+DragonspiralTowerOutside_BlockData:
+	INCBIN "maps/DragonspiralTowerOutside.ablk.lzp"
+
+SECTION "DragonspiralTower1F_BlockData", ROMX
+DragonspiralTower1F_BlockData:
+	INCBIN "maps/DragonspiralTower1F.ablk.lzp"
+
+SECTION "DragonspiralTower2F_BlockData", ROMX
+DragonspiralTower2F_BlockData:
+	INCBIN "maps/DragonspiralTower2F.ablk.lzp"
+
+SECTION "DragonspiralTower3F_BlockData", ROMX
+DragonspiralTower3F_BlockData:
+	INCBIN "maps/DragonspiralTower3F.ablk.lzp"
+
+SECTION "DragonspiralTower4F_BlockData", ROMX
+DragonspiralTower4F_BlockData:
+	INCBIN "maps/DragonspiralTower4F.ablk.lzp"
+
+SECTION "DragonspiralTower5F_BlockData", ROMX
+DragonspiralTower5F_BlockData:
+	INCBIN "maps/DragonspiralTower5F.ablk.lzp"
+
+SECTION "DragonspiralTower6F_BlockData", ROMX
+DragonspiralTower6F_BlockData:
+	INCBIN "maps/DragonspiralTower6F.ablk.lzp"
+
+SECTION "DragonspiralTowerRoof_BlockData", ROMX
+DragonspiralTowerRoof_BlockData:
+	INCBIN "maps/DragonspiralTowerRoof.ablk.lzp"
+
 ENDSECTION
