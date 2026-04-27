@@ -334,4 +334,10 @@ ENDM
 	map_const ICIRRUS_FAN_CLUB,                            5,  6 ; 10
 	map_const ICIRRUS_CAVE,                               16, 19 ; 11
 	
+	newgroup                                                     ; 22
+	map_const ROUTE_23_EAST,                              17, 26 ;  1
+	map_const ROUTE_23_WEST,                              33, 12 ;  2
+	map_const ROUTE_23_GATE,                               5,  4 ;  3
+	map_const ROUTE_23_HOUSE,                              4,  4 ;  4
+	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

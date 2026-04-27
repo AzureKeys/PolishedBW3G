@@ -21,14 +21,16 @@ metatile_filename_fmt  = 'data/tilesets/%s_metatiles.bin'
 attribute_filename_fmt = 'data/tilesets/%s_attributes.bin'
 
 tileset_names = [
-	'johto_traditional', 'johto_modern', 'battle_tower_outside', 'johto_overcast',
-	'kanto', 'indigo_plateau', 'shamouti_island', 'valencia_island', 'faraway_island',
-	'johto_house', 'kanto_house', 'traditional_house', 'pokecenter', 'pokecom_center',
-	'mart', 'gate', 'gym', 'magnet_train', 'champions_room', 'port', 'lab',
-	'facility', 'celadon_mansion', 'game_corner', 'home_decor_store', 'museum',
-	'hotel', 'sprout_tower', 'battle_tower_inside', 'radio_tower', 'lighthouse',
-	'underground', 'cave', 'quiet_cave', 'ice_path', 'tunnel', 'forest', 'park',
-	'safari_zone', 'ruins_of_alph', 'alph_word_room', 'pokemon_mansion'
+	'johto_traditional', 'johto_modern', 'johto_outlands', 'battle_tower_outside',
+	'unova_house', 'traditional_house', 'pokecenter', 'mart',
+	'gate', 'magnet_train', 'champions_room', 'port', 'lab',
+	'facility', 'game_corner', 'battle_tower_inside', 'underground',
+	'cave', 'ice_path', 'battle_factory', 'elite_four_room',
+	'lentimas', 'forest', 'nimbasa', 'park', 'desert', 'castelia',
+	'virbank', 'complex', 'bridge', 'village_bridge', 'nacrene',
+	'striaton', 'dreamyard', 'pwt_outside', 'pwt_inside', 'airport',
+	'icirrus', 'dragonspiral', 'driftveil', 'mistralton', 'opelucid',
+    'unova_beach', 'unova_west', 'unova_east', 'unova_north', 'hidden_grotto'
 ]
 
 # {'TILESET_PC_JOHTO_1': 'johto1', ...}

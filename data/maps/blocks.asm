@@ -51,6 +51,7 @@ Route7TradeHouse_BlockData:
 OpelucidSuperRodHouse_BlockData:
 OpelucidBlackbeltHouse_BlockData:
 IcirrusRocketHouse_BlockData:
+Route23House_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -85,6 +86,7 @@ DriftveilDrawbridgeGate_BlockData:
 Route11VillageBridgeGate_BlockData:
 Route11OpelucidGate_BlockData:
 Route9OpelucidGate_BlockData:
+Route23Gate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX
@@ -840,5 +842,13 @@ DragonspiralTower6F_BlockData:
 SECTION "DragonspiralTowerRoof_BlockData", ROMX
 DragonspiralTowerRoof_BlockData:
 	INCBIN "maps/DragonspiralTowerRoof.ablk.lzp"
+
+SECTION "Route23East_BlockData", ROMX
+Route23East_BlockData:
+	INCBIN "maps/Route23East.ablk.lzp"
+
+SECTION "Route23West_BlockData", ROMX
+Route23West_BlockData:
+	INCBIN "maps/Route23West.ablk.lzp"
 
 ENDSECTION

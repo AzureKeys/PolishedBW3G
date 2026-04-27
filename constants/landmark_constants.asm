@@ -67,6 +67,7 @@
 	const ROUTE_11             ; 40
 	const VILLAGE_BRIDGE       ; 41
 	const ROUTE_12             ; 42
+	const ROUTE_23             ; 43
 	const POKEMON_LEAGUE       ; 45
 	const BATTLE_TOWER         ; 46
 DEF KANTO_LANDMARK EQU const_value

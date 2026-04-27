@@ -385,4 +385,12 @@ INCLUDE "maps/IcirrusCave.asm"
 INCLUDE "maps/IcirrusFanClub.asm"
 
 
+SECTION "Victory Road Area Scripts", ROMX
+
+INCLUDE "maps/Route23East.asm"
+INCLUDE "maps/Route23West.asm"
+INCLUDE "maps/Route23Gate.asm"
+INCLUDE "maps/Route23House.asm"
+
+
 ENDSECTION

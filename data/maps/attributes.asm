@@ -117,6 +117,12 @@ ENDM
 	
 	map_attributes IcirrusCityNorth, ICIRRUS_CITY_NORTH, $11, SOUTH
 	connection south, IcirrusCitySouth, ICIRRUS_CITY_SOUTH, 1
+	
+	map_attributes Route23East, ROUTE_23_EAST, $19, WEST
+	connection west, Route23West, ROUTE_23_WEST, 0
+	
+	map_attributes Route23West, ROUTE_23_WEST, $19, EAST
+	connection east, Route23East, ROUTE_23_EAST, 0
 
 	map_attributes GiantChasm1F, GIANT_CHASM_1F, $9, 0
 	map_attributes GiantChasmB1F, GIANT_CHASM_B1F, $45, 0
@@ -314,6 +320,7 @@ ENDM
 	map_attributes IcirrusRocketHouse, ICIRRUS_ROCKET_HOUSE, $0, 0
 	map_attributes IcirrusBoutique, ICIRRUS_BOUTIQUE, $0, 0
 	map_attributes IcirrusFanClub, ICIRRUS_FAN_CLUB, $0, 0
+	map_attributes Route23House, ROUTE_23_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0
@@ -337,6 +344,7 @@ ENDM
 	map_attributes Route11VillageBridgeGate, ROUTE_11_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route11OpelucidGate, ROUTE_11_OPELUCID_GATE, $0, 0
 	map_attributes Route9OpelucidGate, ROUTE_9_OPELUCID_GATE, $0, 0
+	map_attributes Route23Gate, ROUTE_23_GATE, $0, 0
 	
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0

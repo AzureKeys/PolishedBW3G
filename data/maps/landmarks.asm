@@ -72,6 +72,7 @@ Landmarks:
 	landmark  92,  36, Route11Name
 	landmark 100,  36, VillageBridgeName
 	landmark 108,  36, Route12Name
+	landmark 116,  24, Route23Name
 	landmark  28,  76, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
 	assert_table_length NUM_LANDMARKS
@@ -141,6 +142,7 @@ OpelucidCityName:      rawchar "Opelucid¯City@"
 Route11Name:           rawchar "Route 11@"
 VillageBridgeName:     rawchar "Village¯Bridge@"
 Route12Name:           rawchar "Route 12@"
+Route23Name:           rawchar "Route 23@"
 PokemonLeagueName:     rawchar "Pokémon¯League@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 SpecialMapName:        rawchar "?@"

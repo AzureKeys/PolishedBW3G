@@ -64,6 +64,8 @@ MapScenes::
 	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID
 	scene_var ROUTE_18,                               wRoute18SceneID
+	scene_var ROUTE_23_EAST,                          wRoute23EastSceneID
+	scene_var ROUTE_23_WEST,                          wRoute23WestSceneID
 	scene_var SEASIDE_CAVE_1F,                        wSeasideCave1FSceneID
 	scene_var SEASIDE_CAVE_CHAMBER,                   wSeasideCaveChamberSceneID
 	scene_var SHOPPING_MALL_NINE,                     wShoppingMallNineSceneID
