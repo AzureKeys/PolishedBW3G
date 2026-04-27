@@ -253,5 +253,6 @@ TilesetBattleFactoryAnim::
 TilesetHiddenGrottoAnim::
 TilesetLentimasAnim::
 TilesetPWTInsideAnim::
+TilesetPkmnLeagueAnim::
 	tileframe DoNothing
 	tileframe DoneTileAnimation

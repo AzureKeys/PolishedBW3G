@@ -171,6 +171,9 @@ DEF MAPOBJECT_SCREEN_HEIGHT EQU (SCREEN_HEIGHT / 2) + 2
 	const SPRITEMOVEDATA_BRIDGE_RAIL_LEFT     ; 32
 	const SPRITEMOVEDATA_BRIDGE_RAIL_RIGHT    ; 33
 	const SPRITEMOVEDATA_ADMIN_MEOWTH         ; 34
+	const SPRITEMOVEDATA_BADGE_1              ; 35
+	const SPRITEMOVEDATA_BADGE_2              ; 36
+	const SPRITEMOVEDATA_BADGE_3              ; 37
 DEF NUM_SPRITEMOVEDATA EQU const_value
 
 ; StepFunction_FromMovement.Pointers indexes (see engine/overworld/map_objects.asm)
@@ -213,6 +216,9 @@ DEF NUM_SPRITEMOVEDATA EQU const_value
 	const SPRITEMOVEFN_BRIDGE_RAIL_LEFT      ; 23
 	const SPRITEMOVEFN_BRIDGE_RAIL_RIGHT     ; 24
 	const SPRITEMOVEFN_ADMIN_MEOWTH          ; 25
+	const SPRITEMOVEFN_BADGE_1               ; 26
+	const SPRITEMOVEFN_BADGE_2               ; 27
+	const SPRITEMOVEFN_BADGE_3               ; 28
 DEF NUM_SPRITEMOVEFN EQU const_value
 
 ; _HandleStepType.StepTypesJumptable indexes (see engine/overworld/map_objects.asm)
@@ -280,6 +286,9 @@ DEF NUM_STEP_TYPES EQU const_value
 	const OBJECT_ACTION_BRIDGE_RAIL_LEFT ; 20
 	const OBJECT_ACTION_BRIDGE_RAIL_RIGHT ; 21
 	const OBJECT_ACTION_ADMIN_MEOWTH     ; 22
+	const OBJECT_ACTION_BADGE_1          ; 23
+	const OBJECT_ACTION_BADGE_2          ; 23
+	const OBJECT_ACTION_BADGE_3          ; 23
 DEF NUM_OBJECT_ACTIONS EQU const_value
 
 ; Facings indexes (see data/sprites/facings.asm)
@@ -352,6 +361,9 @@ DEF NUM_OBJECT_ACTIONS EQU const_value
 	const FACING_BRIDGE_RAIL_LEFT   ; 41
 	const FACING_BRIDGE_RAIL_RIGHT  ; 42
 	const FACING_ADMIN_MEOWTH       ; 43
+	const FACING_BADGE_1            ; 44
+	const FACING_BADGE_2            ; 45
+	const FACING_BADGE_3            ; 46
 DEF NUM_FACINGS EQU const_value
 
 ; DoPlayerMovement.DoStep arguments (see engine/overworld/player_movement.asm)

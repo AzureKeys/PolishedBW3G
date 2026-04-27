@@ -43,6 +43,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_DRIFTVEIL            ; 2c
 	const TILESET_MISTRALTON           ; 2c
 	const TILESET_OPELUCID             ; 2c
+	const TILESET_PKMN_LEAGUE          ; 2c
 	const TILESET_UNOVA_BEACH          ; 2c
 	const TILESET_UNOVA_WEST           ; 2c
 	const TILESET_UNOVA_EAST           ; 2c

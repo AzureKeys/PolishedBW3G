@@ -24,10 +24,11 @@ if !DEF(MONOCHROME)
 	RGB 28,31,16, 28,31,16, 07,23,03, 00,00,00 ; env green
 	RGB 28,31,16, 28,31,16, 25,25,00, 00,00,00 ; env yellow
 	RGB 28,31,16, 28,31,16, 20,20,20, 00,00,00 ; env white
-	RGB 28,31,16, 28,31,16, 18,19,31, 07,07,07 ; sailboat
 	RGB 28,31,16, 21,21,31, 16,22,31, 00,00,00 ; rain
 	RGB 28,31,16, 22,19,09, 11,05,00, 15,09,02 ; sand
-	RGB 27,31,27, 06,20,30, 02,12,23, 07,07,07 ; bridge cable
+	RGB 28,31,16, 06,20,30, 02,12,23, 07,07,07 ; bridge cable
+	RGB 28,31,16, 18,31,31, 15,15,13, 07,07,07 ; badge (blue)
+	RGB 28,31,16, 31,31,13, 15,15,13, 07,07,07 ; badge (yellow)
 ; day
 	RGB 27,31,27, 31,19,10, 31,07,01, 00,00,00 ; red
 	RGB 27,31,27, 31,19,10, 10,09,31, 00,00,00 ; blue
@@ -52,10 +53,11 @@ if !DEF(MONOCHROME)
 	RGB 27,31,27, 27,31,27, 07,23,03, 00,00,00 ; env green
 	RGB 27,31,27, 27,31,27, 25,25,00, 00,00,00 ; env yellow
 	RGB 27,31,27, 27,31,27, 20,20,20, 00,00,00 ; env white
-	RGB 27,31,27, 27,31,27, 18,19,31, 07,07,07 ; sailboat
 	RGB 27,31,27, 21,21,31, 16,22,31, 00,00,00 ; rain
 	RGB 27,31,27, 22,19,09, 11,05,00, 15,09,02 ; sand
 	RGB 27,31,27, 06,20,30, 02,12,23, 07,07,07 ; bridge cable
+	RGB 27,31,27, 18,31,31, 15,15,13, 07,07,07 ; badge (blue)
+	RGB 27,31,27, 31,31,13, 15,15,13, 07,07,07 ; badge (yellow)
 ; nite
 	RGB 15,14,24, 16,09,09, 17,03,00, 00,00,00 ; red
 	RGB 15,14,24, 16,09,09, 05,04,20, 00,00,00 ; blue
@@ -80,10 +82,11 @@ if !DEF(MONOCHROME)
 	RGB 15,14,24, 15,14,24, 03,10,02, 00,00,00 ; env green
 	RGB 15,14,24, 15,14,24, 12,12,00, 00,00,00 ; env yellow
 	RGB 15,14,24, 15,14,24, 10,10,15, 00,00,00 ; env white
-	RGB 15,14,24, 15,14,24, 10,09,20, 00,00,00 ; sailboat
 	RGB 15,14,24, 16,14,19, 16,16,31, 00,00,00 ; rain
 	RGB 15,14,24, 16,14,10, 08,04,05, 10,09,09 ; sand
 	RGB 15,14,24, 03,10,22, 01,06,17, 00,00,00 ; bridge cable
+	RGB 15,14,24, 18,31,31, 07,07,09, 00,00,00 ; badge (blue)
+	RGB 15,14,24, 31,31,13, 07,07,09, 00,00,00 ; badge (yellow)
 ; eve
 	RGB 31,21,14, 31,19,10, 31,07,01, 00,00,00 ; red
 	RGB 31,21,14, 31,19,10, 10,09,31, 00,00,00 ; blue
@@ -108,10 +111,11 @@ if !DEF(MONOCHROME)
 	RGB 31,21,14, 31,21,14, 07,23,03, 00,00,00 ; env green
 	RGB 31,21,14, 31,21,14, 25,25,00, 00,00,00 ; env yellow
 	RGB 31,21,14, 31,21,14, 20,20,20, 00,00,00 ; env white
-	RGB 31,21,14, 31,21,14, 16,14,23, 00,00,00 ; sailboat
 	RGB 31,21,14, 16,14,19, 16,16,31, 00,00,00 ; rain
 	RGB 31,21,14, 22,19,09, 11,05,00, 15,09,02 ; sand
 	RGB 31,21,14, 05,16,22, 01,09,17, 00,00,00 ; bridge cable
+	RGB 31,21,14, 18,31,31, 12,12,09, 00,00,00 ; badge (blue)
+	RGB 31,21,14, 31,31,13, 12,12,09, 00,00,00 ; badge (yellow)
 
 else
 
@@ -143,7 +147,6 @@ else
 	MONOCHROME_RGB_FOUR_OW ; env green
 	MONOCHROME_RGB_FOUR_OW ; env yellow
 	MONOCHROME_RGB_FOUR_OW ; env white
-	MONOCHROME_RGB_FOUR    ; sailboat
 	MONOCHROME_RGB_FOUR_OW ; rain
 	MONOCHROME_RGB_FOUR_OW ; sand
 ; day
@@ -174,7 +177,6 @@ else
 	MONOCHROME_RGB_FOUR_OW ; env green
 	MONOCHROME_RGB_FOUR_OW ; env yellow
 	MONOCHROME_RGB_FOUR_OW ; env white
-	MONOCHROME_RGB_FOUR    ; sailboat
 	MONOCHROME_RGB_FOUR_OW ; rain
 	MONOCHROME_RGB_FOUR_OW ; sand
 ; nite
@@ -205,7 +207,6 @@ else
 	MONOCHROME_RGB_FOUR_OW_NIGHT ; env green
 	MONOCHROME_RGB_FOUR_OW_NIGHT ; env yellow
 	MONOCHROME_RGB_FOUR_OW_NIGHT ; env white
-	MONOCHROME_RGB_FOUR_NIGHT    ; sailboat
 	MONOCHROME_RGB_FOUR_OW_NIGHT ; rain
 	MONOCHROME_RGB_FOUR_OW_NIGHT ; sand
 ; eve
@@ -236,7 +237,6 @@ else
 	MONOCHROME_RGB_FOUR_OW  ; env green
 	MONOCHROME_RGB_FOUR_OW  ; env yellow
 	MONOCHROME_RGB_FOUR_OW  ; env white
-	MONOCHROME_RGB_FOUR_EVE ; sailboat
 	MONOCHROME_RGB_FOUR_OW  ; rain
 	MONOCHROME_RGB_FOUR_OW  ; sand
 

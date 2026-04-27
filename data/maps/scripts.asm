@@ -391,6 +391,11 @@ INCLUDE "maps/Route23East.asm"
 INCLUDE "maps/Route23West.asm"
 INCLUDE "maps/Route23Gate.asm"
 INCLUDE "maps/Route23House.asm"
+INCLUDE "maps/VictoryRoadEntranceSouthEast.asm"
+INCLUDE "maps/VictoryRoadEntranceSouthWest.asm"
+INCLUDE "maps/VictoryRoadEntranceNorthConnectionDummy.asm"
+INCLUDE "maps/VictoryRoadEntranceNorth.asm"
+INCLUDE "maps/VictoryRoadPokecenter.asm"
 
 
 ENDSECTION

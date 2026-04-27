@@ -12,6 +12,8 @@ Route23West_MapScriptHeader:
 	warp_event 29, 18, ROUTE_23_WEST, 6 ; hole
 	warp_event 40, 18, ROUTE_23_WEST, 6 ; hole
 	warp_event 29, 12, ROUTE_23_WEST, 6 ; spawn from fall in hole
+	warp_event 52,  4, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, 1
+	warp_event 53,  4, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, 2
 
 	def_coord_events
 	coord_event 48,  6, 1, Route23WestBridge1OverheadTrigger
@@ -63,6 +65,10 @@ Route23West_MapScriptHeader:
 	itemball_event 25, 14, FULL_RESTORE, 3, EVENT_ROUTE_23_WEST_FULL_RESTORE
 	itemball_event 41,  6, PP_MAX, 1, EVENT_ROUTE_23_WEST_PP_MAX
 	tmhmball_event 41, 12, TM_FLAMETHROWER, EVENT_ROUTE_23_WEST_TM_FLAMETHROWER
+	cuttree_event 43,  9, EVENT_ROUTE_23_CUT_TREE_1
+	cuttree_event 34,  7, EVENT_ROUTE_23_CUT_TREE_2
+	cuttree_event 20, 11, EVENT_ROUTE_23_CUT_TREE_3
+	cuttree_event  6, 13, EVENT_ROUTE_23_CUT_TREE_4
 	
 	object_const_def
 	const ROUTE23WEST_BOULDER_1

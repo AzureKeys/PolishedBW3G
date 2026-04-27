@@ -37,9 +37,9 @@
 	const SPRITE_LENORA ; 23
 	const SPRITE_CLAY ; 24
 	const SPRITE_FAN ; 25
-	const SPRITE_WESTWOOD ; 26
-	const SPRITE_WILLOW ; 27
-	const SPRITE_ANDY ; 28
+	const SPRITE_BADGE_1_2_3 ; 26
+	const SPRITE_BADGE_4_5_6 ; 27
+	const SPRITE_BADGE_7_8 ; 28
 	const SPRITE_BILL ; 29
 	const SPRITE_EUSINE ; 2a
 	const SPRITE_KURT ; 2b

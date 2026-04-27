@@ -51,40 +51,41 @@ ENDM
 	ow_npc_pal_const ENV_GREEN         ; 14 (for key item balls)
 	ow_npc_pal_const ENV_YELLOW        ; 15 (for tm/hm balls)
 	ow_npc_pal_const ENV_WHITE         ; 16
-	ow_npc_pal_const SAILBOAT          ; 17
 	ow_npc_pal_const RAIN              ; 18
 	ow_npc_pal_const SAND              ; 19
 	ow_npc_pal_const BRIDGE_CABLE      ; 1a
+	ow_npc_pal_const BADGE_BLUE        ; 1b
+	ow_npc_pal_const BADGE_YELLOW      ; 1c
 DEF NUM_OW_TIME_OF_DAY_PALS EQU const_value
 ; SingleObjectPals indexes (see gfx/overworld/npc_single_object.pal)
-	ow_npc_pal_const EMOTE_GRAY        ; 1b
-	ow_npc_pal_const EMOTE_BLACK       ; 1c
-	ow_npc_pal_const EMOTE_GREEN       ; 1d
-	ow_npc_pal_const EMOTE_PURPLE      ; 1e
-	ow_npc_pal_const EMOTE_RED         ; 1f
-	ow_npc_pal_const EMOTE_ORANGE      ; 20
-	ow_npc_pal_const EMOTE_BLUE        ; 21
-	ow_npc_pal_const ELECTRIC_FENCE    ; 22
-	ow_npc_pal_const LIGHTNING_CRYSTAL ; 23
-	ow_npc_pal_const ROCK_CRYSTAL      ; 24
-	ow_npc_pal_const N64               ; 25
-	ow_npc_pal_const POKECOM_SIGN      ; 26
-	ow_npc_pal_const RANGI             ; 27
-	ow_npc_pal_const EMI               ; 28
-	ow_npc_pal_const DRILL             ; 29
-	ow_npc_pal_const PEARL             ; 2a
-	ow_npc_pal_const TINY_WINDOW       ; 2b
-	ow_npc_pal_const FAN               ; 2c
+	ow_npc_pal_const EMOTE_GRAY        ; 1d
+	ow_npc_pal_const EMOTE_BLACK       ; 1e
+	ow_npc_pal_const EMOTE_GREEN       ; 1f
+	ow_npc_pal_const EMOTE_PURPLE      ; 20
+	ow_npc_pal_const EMOTE_RED         ; 21
+	ow_npc_pal_const EMOTE_ORANGE      ; 22
+	ow_npc_pal_const EMOTE_BLUE        ; 23
+	ow_npc_pal_const ELECTRIC_FENCE    ; 24
+	ow_npc_pal_const LIGHTNING_CRYSTAL ; 25
+	ow_npc_pal_const ROCK_CRYSTAL      ; 26
+	ow_npc_pal_const N64               ; 27
+	ow_npc_pal_const POKECOM_SIGN      ; 28
+	ow_npc_pal_const RANGI             ; 29
+	ow_npc_pal_const EMI               ; 2a
+	ow_npc_pal_const DRILL             ; 2b
+	ow_npc_pal_const PEARL             ; 2c
+	ow_npc_pal_const TINY_WINDOW       ; 2d
+	ow_npc_pal_const FAN               ; 2e
 DEF NUM_OW_INDIVIDUAL_PALS EQU const_value - NUM_OW_TIME_OF_DAY_PALS
 DEF FIRST_COPY_BG_PAL EQU const_value
-	ow_npc_pal_const COPY_BG_GRAY      ; 2d
-	ow_npc_pal_const COPY_BG_RED       ; 2e
-	ow_npc_pal_const COPY_BG_GREEN     ; 2f
-	ow_npc_pal_const COPY_BG_WATER     ; 30
-	ow_npc_pal_const COPY_BG_YELLOW    ; 31
-	ow_npc_pal_const COPY_BG_BROWN     ; 32
-	ow_npc_pal_const COPY_BG_ROOF      ; 33
-	ow_npc_pal_const COPY_BG_TEXT      ; 34
+	ow_npc_pal_const COPY_BG_GRAY      ; 2f
+	ow_npc_pal_const COPY_BG_RED       ; 30
+	ow_npc_pal_const COPY_BG_GREEN     ; 31
+	ow_npc_pal_const COPY_BG_WATER     ; 32
+	ow_npc_pal_const COPY_BG_YELLOW    ; 33
+	ow_npc_pal_const COPY_BG_BROWN     ; 34
+	ow_npc_pal_const COPY_BG_ROOF      ; 35
+	ow_npc_pal_const COPY_BG_TEXT      ; 36
 DEF NUM_OW_BG_COPY_PALS EQU const_value - NUM_OW_INDIVIDUAL_PALS
 DEF NUM_OW_PALS EQU const_value
 

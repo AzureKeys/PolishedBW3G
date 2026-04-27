@@ -48,6 +48,12 @@ ENDM
 	special_bg_pal map,      CELESTIAL_TOWER_ROOF,        PAL_TIMEOFDAY, CelestialRoofPalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_OUTSIDE,  PAL_TIMEOFDAY, DragonspiralOutsidePalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_ROOF,     PAL_TIMEOFDAY, DragonspiralRoofPalette
+	
+	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
+	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
+	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_NORTH_CONNECTION_DUMMY, PAL_TIMEOFDAY, VictoryRoadEntrancePalette
+	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_NORTH,                  PAL_TIMEOFDAY, VictoryRoadEntrancePalette
+	
 	special_bg_pal landmark, CHARGESTONE_CAVE,            PAL_SINGLE,    ChargestoneCavePalette
 	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
@@ -682,6 +688,39 @@ endc
 DragonspiralRoofPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/dragonspiral_roof.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+VictoryRoadEntrancePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/victory_road.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

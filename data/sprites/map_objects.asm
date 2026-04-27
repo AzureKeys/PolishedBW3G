@@ -426,4 +426,29 @@ SpriteMovementData::
 	db 0 ; flags2
 	db 0 ; palette flags
 
+; SPRITEMOVEDATA_BADGE_1
+	db SPRITEMOVEFN_BADGE_1 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_BADGE_1 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db HIGH_PRIORITY ; flags2
+	db 0 ; palette flags
+
+; SPRITEMOVEDATA_BADGE_2
+	db SPRITEMOVEFN_BADGE_2 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_BADGE_2 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db HIGH_PRIORITY ; flags2
+	db 0 ; palette flags
+
+; SPRITEMOVEDATA_BADGE_3
+	db SPRITEMOVEFN_BADGE_3 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_BADGE_3 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db HIGH_PRIORITY ; flags2
+	db 0 ; palette flags
+
+
 	assert_table_length NUM_SPRITEMOVEDATA

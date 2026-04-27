@@ -42,9 +42,9 @@ SpriteHeaders:
 	overworld_sprite LenoraSpriteGFX, WALKING_SPRITE, PAL_OW_DARK_BLUE
 	overworld_sprite ClaySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite FanSpriteGFX, STANDING_SPRITE, PAL_OW_FAN
-	overworld_sprite WestwoodSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite WillowSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite AndySpriteGFX, STANDING_SPRITE, PAL_OW_RED
+	overworld_sprite Badge123SpriteGFX, STANDING_SPRITE, PAL_OW_BADGE_BLUE
+	overworld_sprite Badge456SpriteGFX, STANDING_SPRITE, PAL_OW_BADGE_BLUE
+	overworld_sprite Badge78SpriteGFX, STANDING_SPRITE, PAL_OW_BADGE_BLUE
 	overworld_sprite BillSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite EusineSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite KurtSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
@@ -194,7 +194,7 @@ SpriteHeaders:
 	overworld_sprite GoldTrophySpriteGFX, STANDING_SPRITE, PAL_OW_ENV_YELLOW
 	overworld_sprite ElectricFenceLeftSpriteGFX, STANDING_SPRITE, PAL_OW_ELECTRIC_FENCE
 	overworld_sprite ElectricFenceRightSpriteGFX, STANDING_SPRITE, PAL_OW_ELECTRIC_FENCE
-	overworld_sprite SailboatSpriteGFX, STANDING_SPRITE, PAL_OW_SAILBOAT
+	overworld_sprite SailboatSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite IceBoulderSpriteGFX, STANDING_SPRITE, PAL_OW_COPY_BG_BROWN
 	overworld_sprite BeachGuySpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite BeachGirlSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN

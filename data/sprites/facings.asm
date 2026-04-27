@@ -69,6 +69,9 @@ Facings:
 	dw FacingRailLeft         ; FACING_BRIDGE_RAIL_LEFT
 	dw FacingRailRight        ; FACING_BRIDGE_RAIL_RIGHT
 	dw FacingAdminMeowth      ; FACING_ADMIN_MEOWTH
+	dw FacingBadge1           ; FACING_BADGE_1
+	dw FacingBadge2           ; FACING_BADGE_2
+	dw FacingBadge3           ; FACING_BADGE_3
 	assert_table_length NUM_FACINGS
 	dw 0 ; end
 
@@ -567,3 +570,24 @@ FacingAdminMeowth:
 	db  4,  8, 0, $01
 	db 12,  0, RELATIVE_ATTRIBUTES, $02
 	db 12,  8, RELATIVE_ATTRIBUTES, $03
+	
+FacingBadge1: 
+	db 4 ; #
+	db  -4,  0, 0, $00
+	db  -4,  8, 0, $01
+	db   4,  0, 0, $02
+	db   4,  8, 0, $03
+	
+FacingBadge2: 
+	db 4 ; #
+	db  -4,  0, 0, $04
+	db  -4,  8, 0, $05
+	db   4,  0, 0, $06
+	db   4,  8, 0, $07
+	
+FacingBadge3: 
+	db 4 ; #
+	db  -4,  0, 0, $08
+	db  -4,  8, 0, $09
+	db   4,  0, 0, $0a
+	db   4,  8, 0, $0b

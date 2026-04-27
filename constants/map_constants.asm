@@ -334,10 +334,15 @@ ENDM
 	map_const ICIRRUS_FAN_CLUB,                            5,  6 ; 10
 	map_const ICIRRUS_CAVE,                               16, 19 ; 11
 	
-	newgroup                                                     ; 22
-	map_const ROUTE_23_EAST,                              17, 26 ;  1
-	map_const ROUTE_23_WEST,                              33, 12 ;  2
-	map_const ROUTE_23_GATE,                               5,  4 ;  3
-	map_const ROUTE_23_HOUSE,                              4,  4 ;  4
+	newgroup                                                       ; 22
+	map_const ROUTE_23_EAST,                                17, 26 ;  1
+	map_const ROUTE_23_WEST,                                33, 12 ;  2
+	map_const ROUTE_23_GATE,                                 5,  4 ;  3
+	map_const ROUTE_23_HOUSE,                                4,  4 ;  4
+	map_const VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             14,  8 ;  5
+	map_const VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             14,  8 ;  6
+	map_const VICTORY_ROAD_ENTRANCE_NORTH_CONNECTION_DUMMY, 28,  3 ;  7
+	map_const VICTORY_ROAD_ENTRANCE_NORTH,                  26, 12 ;  8
+	map_const VICTORY_ROAD_POKECENTER,                       5,  5 ;  7
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

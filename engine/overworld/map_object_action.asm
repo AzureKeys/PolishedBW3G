@@ -37,6 +37,9 @@ ObjectActionPairPointers:
 	dw SetFacingRailLeft,              SetFacingRailLeft          ; OBJECT_ACTION_BRIDGE_RAIL_LEFT
 	dw SetFacingRailRight,             SetFacingRailRight         ; OBJECT_ACTION_BRIDGE_RAIL_RIGHT
 	dw SetFacingAdminMeowth,           SetFacingFreezeAdminMeowth ; OBJECT_ACTION_ADMIN_MEOWTH
+	dw SetFacingBadge1,                SetFacingBadge1            ; OBJECT_ACTION_BADGE_1
+	dw SetFacingBadge2,                SetFacingBadge2            ; OBJECT_ACTION_BADGE_2
+	dw SetFacingBadge3,                SetFacingBadge3            ; OBJECT_ACTION_BADGE_3
 	assert_table_length NUM_OBJECT_ACTIONS
 
 SetFacingStanding:
@@ -85,6 +88,18 @@ SetFacingRailLeft:
 
 SetFacingRailRight:
 	ld a, FACING_BRIDGE_RAIL_RIGHT
+	jr SetFixedFacing
+
+SetFacingBadge1:
+	ld a, FACING_BADGE_1
+	jr SetFixedFacing
+
+SetFacingBadge2:
+	ld a, FACING_BADGE_2
+	jr SetFixedFacing
+
+SetFacingBadge3:
+	ld a, FACING_BADGE_3
 	jr SetFixedFacing
 
 SetFacingBigDoll:

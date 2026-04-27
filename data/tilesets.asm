@@ -52,6 +52,7 @@ Tilesets::
 	tileset TilesetDriftveil
 	tileset TilesetMistralton
 	tileset TilesetOpelucid
+	tileset TilesetPkmnLeague
 	tileset TilesetUnovaBeach
 	tileset TilesetUnovaWest
 	tileset TilesetUnovaEast
@@ -870,6 +871,23 @@ TilesetDragonspiralAttr:: INCBIN "data/tilesets/dragonspiral_attributes.bin.lzp"
 TilesetDragonspiralColl:: INCBIN "data/tilesets/dragonspiral_collision.bin.lzp"
 
 
+SECTION "Tileset Graphics - pkmn league vram0", ROMX
+
+TilesetPkmnLeagueGFX0:: INCBIN "gfx/tilesets/pkmn_league.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - pkmn league vram1", ROMX
+
+TilesetPkmnLeagueGFX1:: INCBIN "gfx/tilesets/pkmn_league.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - pkmn league", ROMX
+
+TilesetPkmnLeagueMeta:: INCBIN "data/tilesets/pkmn_league_metatiles.bin.lzp"
+TilesetPkmnLeagueAttr:: INCBIN "data/tilesets/pkmn_league_attributes.bin.lzp"
+TilesetPkmnLeagueColl:: INCBIN "data/tilesets/pkmn_league_collision.bin.lzp"
+
+
 SECTION "Tileset Graphics - hidden grotto vram0", ROMX
 
 TilesetHiddenGrottoGFX0:: INCBIN "gfx/tilesets/hidden_grotto.2bpp.vram0.lzp"
@@ -928,5 +946,6 @@ TilesetLentimasGFX2::
 TilesetOpelucidGFX2::
 TilesetIcirrusGFX2::
 TilesetDragonspiralGFX2::
+TilesetPkmnLeagueGFX2::
 TilesetHiddenGrottoGFX2::
 	db $ff ; Compressed data is terminated with $ff.

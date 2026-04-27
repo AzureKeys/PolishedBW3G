@@ -54,4 +54,10 @@ DualMapConnections:
 	dual_connection north, ICIRRUS_CITY_SOUTH, 21, \
 		IcirrusCityNorth, ICIRRUS_CITY_NORTH, -1, \
 		Route8, ROUTE_8, 8
+	; When you walk south off of VictoryRoadEntranceNorth, if [wXCoord] < 14,
+	; then use "connection south, VictoryRoadEntranceSouthWest, VICTORY_ROAD_ENTRANCE_SOUTH_WEST, 0";
+	; else use "connection south, VictoryRoadEntranceSouthEast, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, 14".
+	dual_connection south, VICTORY_ROAD_ENTRANCE_NORTH, 14, \
+		VictoryRoadEntranceSouthWest, VICTORY_ROAD_ENTRANCE_SOUTH_WEST, 0, \
+		VictoryRoadEntranceSouthEast, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, 14
 	db 0 ; end

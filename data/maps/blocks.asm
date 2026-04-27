@@ -24,6 +24,7 @@ DriftveilPokecenter_BlockData:
 MistraltonPokecenter_BlockData:
 OpelucidPokecenter_BlockData:
 IcirrusPokecenter_BlockData:
+VictoryRoadPokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -850,5 +851,21 @@ Route23East_BlockData:
 SECTION "Route23West_BlockData", ROMX
 Route23West_BlockData:
 	INCBIN "maps/Route23West.ablk.lzp"
+
+SECTION "VictoryRoadEntranceSouthEast_BlockData", ROMX
+VictoryRoadEntranceSouthEast_BlockData:
+	INCBIN "maps/VictoryRoadEntranceSouthEast.ablk.lzp"
+
+SECTION "VictoryRoadEntranceSouthWest_BlockData", ROMX
+VictoryRoadEntranceSouthWest_BlockData:
+	INCBIN "maps/VictoryRoadEntranceSouthWest.ablk.lzp"
+
+SECTION "VictoryRoadEntranceNorthConnectionDummy_BlockData", ROMX
+VictoryRoadEntranceNorthConnectionDummy_BlockData:
+	INCBIN "maps/VictoryRoadEntranceNorthConnectionDummy.ablk.lzp"
+
+SECTION "VictoryRoadEntranceNorth_BlockData", ROMX
+VictoryRoadEntranceNorth_BlockData:
+	INCBIN "maps/VictoryRoadEntranceNorth.ablk.lzp"
 
 ENDSECTION

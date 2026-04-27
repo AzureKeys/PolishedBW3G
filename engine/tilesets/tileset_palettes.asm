@@ -77,8 +77,14 @@ PokeCenterSpecialCase:
 	call LoadSevenBGPalettes
 	; Lentimas Town has brown floors
 	call GetWorldMapLocation
-	cp LENTIMAS_TOWN
 	ld hl, wBGPals1 palette PAL_BG_BROWN
+	cp LENTIMAS_TOWN
+	jr z, .got_roof_pal
+	; Victory Road has brown floors
+	cp VICTORY_ROAD
+	jr z, .got_roof_pal
+	; Pokemon League has brown floors
+	cp POKEMON_LEAGUE
 	jr z, .got_roof_pal
 	; Otherwise use yellow floors
 	ld hl, wBGPals1 palette PAL_BG_YELLOW

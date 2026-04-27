@@ -584,6 +584,9 @@ endr
 	dw .MovementRailLeft             ; SPRITEMOVEFN_BRIDGE_RAIL_LEFT
 	dw .MovementRailRight            ; SPRITEMOVEFN_BRIDGE_RAIL_RIGHT
 	dw .MovementAdminMeowth          ; SPRITEMOVEFN_ADMIN_MEOWTH
+	dw .MovementBadge1               ; SPRITEMOVEFN_BADGE_1
+	dw .MovementBadge2               ; SPRITEMOVEFN_BADGE_2
+	dw .MovementBadge3               ; SPRITEMOVEFN_BADGE_3
 	assert_table_length NUM_SPRITEMOVEFN
 
 .RandomWalkY:
@@ -825,6 +828,18 @@ endr
 	
 .MovementAdminMeowth:
 	ld a, OBJECT_ACTION_ADMIN_MEOWTH
+	jr ._ActionA_StepFunction_Standing
+
+.MovementBadge1:
+	ld a, OBJECT_ACTION_BADGE_1
+	jr ._ActionA_StepFunction_Standing
+
+.MovementBadge2:
+	ld a, OBJECT_ACTION_BADGE_2
+	jr ._ActionA_StepFunction_Standing
+
+.MovementBadge3:
+	ld a, OBJECT_ACTION_BADGE_3
 	jr ._ActionA_StepFunction_Standing
 
 .StandingFlip:

@@ -109,14 +109,14 @@ ClaySpriteGFX:: INCBIN "gfx/sprites/clay.2bpp.lzp"
 SECTION "FanSpriteGFX", ROMX
 FanSpriteGFX:: INCBIN "gfx/sprites/fan.2bpp.lzp"
 
-SECTION "WestwoodSpriteGFX", ROMX
-WestwoodSpriteGFX:: INCBIN "gfx/sprites/westwood.2bpp.lzp"
+SECTION "Badge123SpriteGFX", ROMX
+Badge123SpriteGFX:: INCBIN "gfx/sprites/badge_1_2_3.2bpp.lzp"
 
-SECTION "WillowSpriteGFX", ROMX
-WillowSpriteGFX:: INCBIN "gfx/sprites/willow.2bpp.lzp"
+SECTION "Badge456SpriteGFX", ROMX
+Badge456SpriteGFX:: INCBIN "gfx/sprites/badge_4_5_6.2bpp.lzp"
 
-SECTION "AndySpriteGFX", ROMX
-AndySpriteGFX:: INCBIN "gfx/sprites/andy.2bpp.lzp"
+SECTION "Badge78SpriteGFX", ROMX
+Badge78SpriteGFX:: INCBIN "gfx/sprites/badge_7_8.2bpp.lzp"
 
 SECTION "BillSpriteGFX", ROMX
 BillSpriteGFX:: INCBIN "gfx/sprites/bill.2bpp.lzp"
