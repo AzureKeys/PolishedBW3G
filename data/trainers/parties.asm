@@ -353,38 +353,37 @@ CilanGroup:
 		tr_extra PRANKSTER
 		tr_evs 196 HP
 		tr_moves LEECH_SEED, CHARM, ENERGY_BALL, DAZZLINGLEAM
-	tr_mon 42, SIMISAGE @ LIECHI_BERRY ; Added Simisage over Roserade as Cilan's ace.
+	tr_mon 42, SIMISAGE @ PETAYA_BERRY
 		tr_extra GLUTTONY
 		tr_evs 196 Spe
-		tr_moves SEED_BOMB, ACROBATICS, KNOCK_OFF, DIG ; Update placeholder Dig with whatever the TM is decided to be - 
-Energy Ball? If so, replace item with Petaya Berry and update moveset to Energy Ball, Nasty Plot, Focus Blast and HP Water or Swagger
+		tr_moves ENERGY_BALL, NASTY_PLOT, FOCUS_BLAST, SWAGGER
 	end_trainer
 
 	def_trainer 2, "Cilan"
-	tr_mon 13, FERROTHORN @ ROCKY_HELMET
+	tr_mon 66, LUDICOLO @ DAMP_ROCK
+		tr_extra SWIFT_SWIM, SATK_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves SCALD, ICE_BEAM, GIGA_DRAIN, RAIN_DANCE	
+	tr_mon 66, FERROTHORN @ ROCKY_HELMET
 		tr_extra IRON_BARBS, DEF_UP_SPE_DOWN
 		tr_evs 252 HP Atk, 196 Def
-		tr_moves LEECH_SEED, SPIKES, POWER_WHIP, GYRO_BALL ; note that Leech Seed is missing from Ferroseed's level up learnset, which needs to be addressed
-	tr_mon 13, WHIMSICOTT @ ORAN_BERRY
-		tr_extra PRANKSTER, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, SAWSBUCK @ CHOICE_BAND
-		tr_extra CHLOROPHYLL, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
+		tr_moves LEECH_SEED, SPIKES, KNOCK_OFF, GYRO_BALL ; note that Leech Seed is missing from Ferroseed's level up learnset, which needs to be addressed
+	tr_mon 67, WHIMSICOTT @ LEFTOVERS
+		tr_extra PRANKSTER, SDEF_UP_ATK_DOWN
+		tr_evs 252 HP, 196 SDf
+		tr_moves MOONBLAST, SUNNY_DAY, LEECH_SEED, REFLECT
+	tr_mon 65, SAWSBUCK @ CHOICE_BAND
+		tr_extra CHLOROPHYLL, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
 		tr_moves LEAF_BLADE, DOUBLE_EDGE, WILD_CHARGE, HI_JUMP_KICK
-	tr_mon 13, LILLIGANT @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, LUDICOLO @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, SIMISAGE @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+	tr_mon 67, LILLIGANT @ POWER_HERB
+		tr_extra CHLOROPHYLL, SATK_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves SOLAR_BEAM, HP_FIRE, QUIVER_DANCE, SUNNY_DAY
+	tr_mon 68, SIMISAGE @ FOCUS_SASH
+		tr_extra OVERGROW, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves SEED_BOMB, ACROBATICS, ROCK_SLIDE, HONE_CLAWS
 	end_trainer
 
 
@@ -412,30 +411,30 @@ SkylaGroup:
 	end_trainer ; Could add other Unovan birds here - Archeops, Braviary or Mandibuzz
 
 	def_trainer 2, "Skyla"
-	tr_mon 13, UNFEZANT @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+	tr_mon 66, SKARMORY @ CUSTAP_BERRY
+		tr_extra STURDY, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 196 SDf
+		tr_moves SPIKES, IRON_HEAD, ACROBATICS, ROOST	
+	tr_mon 65, UNFEZANT @ LIFE_ORB
+		tr_extra BIG_PECKS, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves BRAVE_BIRD, RETURN, CHARM, STEEL_WING
+	tr_mon 66, HONCHKROW @ MIRROR_HERB
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves BRAVE_BIRD, NIGHT_SLASH, SUCKER_PUNCH, SWAGGER
+	tr_mon 67, ARCHEOPS @ SITRUS_BERRY
+		tr_extra DEFEATIST, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves HEAD_SMASH, ACROBATICS, EARTHQUAKE, ROOST
+	tr_mon 67, SWANNA @ DAMP_ROCK
+		tr_extra HYDRATION, SPE_UP_SATK_DOWN
 		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, SKARMORY @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_moves HURRICANE, SCALD, ICE_BEAM, RAIN_DANCE
+	tr_mon 68, ALTARIA @ LEFTOVERS
+		tr_extra NATURAL_CURE, SDEF_UP_ATK_DOWN
 		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, HONCHKROW @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, ARCHEOPS @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, ALTARIA @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, SWANNA @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+		tr_moves BARRIER, HURRICANE, DRAGON_PULSE, MOONBLAST
 	end_trainer
 
 
