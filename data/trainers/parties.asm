@@ -191,45 +191,45 @@ BurghGroup:
 
 	def_trainer_class BURGH
 	def_trainer 1, "Burgh"
+	tr_mon 28, LEAVANNY @ LUM_BERRY
+		tr_extra SWARM
+		tr_evs 32 Atk, 64 Spe
+		tr_moves RAZOR_LEAF, U_TURN, SLASH, DOUBLE_TEAM	
 	tr_mon 25, YANMA
 		tr_extra SPEED_BOOST, SPE_UP_SATK_DOWN
 		tr_evs 96 SAt
-		tr_moves SONIC_BOOM, PROTECT, U_TURN, AIR_CUTTER ; Check what TM Bugsy gives out in lieu of Struggle Bug - assume U-Turn? If so, replace Bug Bite on Leavanny also
+		tr_moves SONIC_BOOM, PROTECT, U_TURN, AIR_CUTTER
 	tr_mon 25, DWEBBLE @ ORAN_BERRY
 		tr_extra SHELL_ARMOR
 		tr_evs 96 HP
 		tr_moves FEINT_ATTACK, ROCK_TOMB, CURSE, BUG_BITE
-	tr_mon 28, LEAVANNY @ LUM_BERRY
-		tr_extra SWARM
-		tr_evs 32 Atk, 64 Spe
-		tr_moves RAZOR_LEAF, BUG_BITE, SLASH, DOUBLE_TEAM
 	end_trainer
 
 	def_trainer 2, "Burgh"
-	tr_mon 13, YANMEGA @ DAMP_ROCK
-		tr_extra DRIZZLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE		
-	tr_mon 13, ESCAVALIER @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, ACCELGOR @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, CRUSTLE @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, PINSIR @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, LEAVANNY @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+	tr_mon 65, YANMEGA @ LIFE_ORB
+		tr_extra SPEED_BOOST, SATK_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves BUG_BUZZ, AIR_SLASH, PROTECT, U_TURN		
+	tr_mon 67, CRUSTLE @ LEFTOVERS
+		tr_extra STURDY, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 196 SDf
+		tr_moves SPIKES, STONE_EDGE, X_SCISSOR, SUCKER_PUNCH
+	tr_mon 66, ESCAVALIER @ SHELL_ARMOR
+		tr_extra ASSAULT_VEST, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves MEGAHORN, IRON_HEAD, KNOCK_OFF, X_SCISSOR
+	tr_mon 66, ACCELGOR @ CHOICE_SPECS
+		tr_extra STICKY_HOLD, SATK_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves BUG_BUZZ, AURA_SPHERE, SLUDGE_BOMG, U_TURN
+	tr_mon 67, PINSIR @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves X_SCISSOR, CLOSE_COMBAT, EARTHQUAKE, ROCK_SLIDE
+	tr_mon 68, LEAVANNY @ FOCUS_SASH
+		tr_extra SWARM, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves LEAF_BLADE, X_SCISSOR, KNOCK_OFF, SWORDS_DANCE
 	end_trainer
 
 
@@ -285,23 +285,28 @@ CherenGroup:
 
 	def_trainer_class CHEREN
 	def_trainer 1, "Cheren"
-	tr_mon 35, WATCHOG @ LUM_BERRY
+	tr_mon 35, WATCHOG @ SITRUS_BERRY
 		tr_extra KEEN_EYE
 		tr_evs 160 Spe
-		tr_moves FOCUS_ENERGY, BODY_SLAM, SUPER_FANG, GIGA_IMPACT
+		tr_moves FOCUS_ENERGY, BODY_SLAM, SUPER_FANG, FACADE
+	tr_mon 35, ZANGOOSE @ TOXIC_ORB ; Added Zangoose in due to Facade + ability synergy. Feel free to review and remove another mon/rebalance levels around a 5 mon team 
+		tr_extra TOXIC_BOOST
+		tr_evs 160 HP
+		tr_moves FACADE, QUICK_ATTACK, NIGHT_SLASH, TRICK
 	tr_mon 35, WIGGLYTUFF @ CHESTO_BERRY
 		tr_extra CUTE_CHARM
 		tr_evs 160 HP
-		tr_moves REST, BODY_SLAM, PLAY_ROUGH, GIGA_IMPACT
+		tr_moves REST, FACADE, PLAY_ROUGH, SLEEP_TALK
 	tr_mon 37, BOUFFALANT @ PERSIM_BERRY
 		tr_extra SAP_SIPPER
 		tr_evs 160 Atk
-		tr_moves THRASH, SCARY_FACE, MEGAHORN, GIGA_IMPACT
+		tr_moves THRASH, SCARY_FACE, MEGAHORN, FACADE
 	tr_mon 40, STOUTLAND @ SILK_SCARF
 		tr_extra SCRAPPY
 		tr_evs 160 Spe
-		tr_moves HONE_CLAWS, PLAY_ROUGH, REVERSAL, GIGA_IMPACT
+		tr_moves HONE_CLAWS, FACADE, PLAY_ROUGH, GIGA_IMPACT
 	end_trainer
+
 
 	def_trainer 2, "Cheren"
 	tr_mon 13, WATCHOG @ ORAN_BERRY
@@ -351,7 +356,8 @@ CilanGroup:
 	tr_mon 42, SIMISAGE @ LIECHI_BERRY ; Added Simisage over Roserade as Cilan's ace.
 		tr_extra GLUTTONY
 		tr_evs 196 Spe
-		tr_moves SEED_BOMB, ACROBATICS, KNOCK_OFF, DIG ; Update placeholder Dig with whatever the TM is decided to be - Energy Ball? If so, replace item with Petaya Berry and update moveset to Energy Ball, Nasty Plot, Focus Blast and HP Water or Swagger
+		tr_moves SEED_BOMB, ACROBATICS, KNOCK_OFF, DIG ; Update placeholder Dig with whatever the TM is decided to be - 
+Energy Ball? If so, replace item with Petaya Berry and update moveset to Energy Ball, Nasty Plot, Focus Blast and HP Water or Swagger
 	end_trainer
 
 	def_trainer 2, "Cilan"
@@ -390,11 +396,11 @@ SkylaGroup:
 	tr_mon 50, SKARMORY @ SITRUS_BERRY
 		tr_extra STURDY
 		tr_evs 224 HP
-		tr_moves SPIKES, STEEL_WING, AERIAL_ACE, ROOST
-	tr_mon 48, UNFEZANT @ SCOPE_LENS
+		tr_moves SPIKES, STEEL_WING, ACROBATICS, ROOST
+	tr_mon 48, UNFEZANT @ RED_CARD
 		tr_extra SUPER_LUCK
 		tr_evs 224 Atk
-		tr_moves AERIAL_ACE, ROOST, SWAGGER, U_TURN ; Guessing Aerial Ace will be the TM here instead of acrobatics
+		tr_moves ACROBATICS, ROOST, SWAGGER, U_TURN
 	tr_mon 50, SWANNA @ SITRUS_BERRY
 		tr_extra HYDRATION
 		tr_evs 224 HP
@@ -597,7 +603,7 @@ ColressGroup:
 		tr_extra IRON_BARBS
 		tr_evs 252 HP, 132 SDe
 		tr_moves GYRO_BALL, SLEEP_TALK, CURSE, REST
-	tr_mon 65, AGGRON @ AIR_BALLOON
+tr_mon 65, AGGRON @ AIR_BALLOON
 		tr_extra ROCK_HEAD
 		tr_evs 252 HP, 132 Atk
 		tr_moves IRON_HEAD, HEAD_SMASH, EARTHQUAKE, SANDSTORM
@@ -608,7 +614,6 @@ ColressGroup:
 	tr_mon 66, MAGNEZONE @ BLUNDRPOLICY
 		tr_extra STURDY
 		tr_evs 252 SAt, 132 Spe
-		tr_dvs DVS_HP_ICE
 		tr_moves FLASH_CANNON, THUNDERBOLT, HP_ICE, ZAP_CANNON
 	tr_mon 68, KLINKLANG @ FOCUS_SASH
 		tr_extra CLEAR_BODY
@@ -619,6 +624,9 @@ ColressGroup:
 
 SECTION "ChampionGroup", ROMX
 ChampionGroup:
+
+; For Juniper, consider replacing Volcarona and Gengar with 2 out of 3 of 
+; Amoonguss, Darmanitan and Jellicent as a Unovan Grass/Fire/Water core alongside whichever starter Juniper gets
 
 	def_trainer_class CHAMPION
 	def_trainer JUNIPER_SNIVY, "Juniper"
@@ -638,14 +646,13 @@ ChampionGroup:
 		tr_extra ILLUSION, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves DARK_PULSE, FOCUS_BLAST, PSYCHIC_M, NASTY_PLOT
-	tr_mon 70, VOLCARONA @ LIFE_ORB ; Wonder if it might be cool to mix up the other pokemon Juniper uses so there's always a grass/fire/water core (Starter + 2 of Amoonguss, Darmanitan and Jellicent), similar to how Blue always has 2 of Gyarados, Arcanine or Exeggutor depending on which starter he got?
+	tr_mon 70, VOLCARONA @ LIFE_ORB
 		tr_extra FLAME_BODY, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SAt
 		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE
 	tr_mon 73, SERPERIOR @ ASSAULT_VEST
 		tr_extra CONTRARY, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 164 Spe
-		Tr_dvs DVS_HP_FIRE
 		tr_moves LEAF_STORM, DRAGON_PULSE, HP_FIRE, GIGA_DRAIN
 	end_trainer
 
