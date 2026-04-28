@@ -368,7 +368,7 @@ CilanGroup:
 		tr_extra IRON_BARBS, DEF_UP_SPE_DOWN
 		tr_evs 252 HP Atk, 196 Def
 		tr_moves LEECH_SEED, SPIKES, KNOCK_OFF, GYRO_BALL ; note that Leech Seed is missing from Ferroseed's level up learnset, which needs to be addressed
-	tr_mon 67, WHIMSICOTT @ LEFTOVERS
+	tr_mon 67, WHIMSICOTT @ LIGHT_CLAY
 		tr_extra PRANKSTER, SDEF_UP_ATK_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves MOONBLAST, SUNNY_DAY, LEECH_SEED, REFLECT
@@ -459,33 +459,33 @@ DraydenGroup:
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Spe
 		tr_moves DRAGON_DANCE, DRAGON_CLAW, FIRE_FANG, EARTHQUAKE
-	end_trainer ; Could add an eviolite Zweilous here
+	end_trainer ; Could add an eviolite Zweilous here, with 252 HP 4 Def, Hustle, Dragon Rush, Crunch, Thunder Wave, and Roar
 
 	def_trainer 2, "Drayden"
-	tr_mon 13, FLYGON @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+	tr_mon 65, FLYGON @ CHOICE_SCARF
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves DRAGON_CLAW, EARTHQUAKE, ROCK_SLIDE, U_TURN
+	tr_mon 66, KINGDRA @ DAMP_ROCK
+		tr_extra SWIFT_SWIM, SATK_UP_ATK_DOWN
 		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, KINGDRA @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, DRAGONITE @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, HYDREIGON @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+		tr_moves DRAGON_PULSE, SCALD, ICE_BEAM, RAIN_DANCE
+	tr_mon 66, DRAGONITE @ WEAK_POLICY
+		tr_extra MULTISCALE, SATK_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves HURRICANE, SURF, THUNDER, RAIN_DANCE
+	tr_mon 67, HYDREIGON @ FOCUS_SASH
+		tr_extra LEVITATE, SPE_UP_ATK_DOWN
+		tr_evs 196 SAt, 252 Spe
+		tr_moves DRAGON_PULSE, DARK_PULSE, EARTH_POWER, NASTY_PLOT
 	tr_mon 67, DRUDDIGON @ LIFE_ORB
 		tr_extra SHEER_FORCE, ATK_UP_SATK_DOWN
-		tr_evs 252 HP, 252 Atk, 4 SDe
+		tr_evs 252 HP, 196 Atk
 		tr_moves DRAGON_CLAW, IRON_HEAD, CRUNCH, ROCK_SLIDE
-	tr_mon 13, HAXORUS @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+	tr_mon 68, HAXORUS @ LUM_BERRY
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, IRON_HEAD, DRAGON_DANCE
 	end_trainer
 
 ; Let me know if the E4 teams should be toned down a bit, and given less optimal move sets 
