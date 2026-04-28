@@ -115,7 +115,7 @@ MarlonGroup:
 	tr_mon 65, PELIPPER @ DAMP_ROCK
 		tr_extra DRIZZLE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
-		tr_moves HURRICANE, HYDRO_PUMP, U_TURN, ROOST		
+		tr_moves HURRICANE, HYDRO_PUMP, U_TURN, ROOST
 	tr_mon 68, BASCULEGION  @ LIFE_ORB
 		tr_extra SWIFT_SWIM, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
@@ -162,7 +162,7 @@ ShauntalGroup:
 	tr_mon 65, COFAGRIGUS @ LEFTOVERS
 		tr_extra MUMMY, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 196 Def
-		tr_moves HEX, WILL_O_WISP, PROTECT, TRICK_ROOM		
+		tr_moves HEX, WILL_O_WISP, PROTECT, TRICK_ROOM
 	tr_mon 66, SPIRITOMB @ CUSTAP_BERRY
 		tr_extra INFILTRATOR, SDEF_UP_SPE_DOWN
 		tr_evs 252 HP, 196 SDf
@@ -209,7 +209,7 @@ BurghGroup:
 	tr_mon 65, YANMEGA @ LIFE_ORB
 		tr_extra SPEED_BOOST, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
-		tr_moves BUG_BUZZ, AIR_SLASH, PROTECT, U_TURN		
+		tr_moves BUG_BUZZ, AIR_SLASH, PROTECT, U_TURN
 	tr_mon 67, CRUSTLE @ LEFTOVERS
 		tr_extra STURDY, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 SDf
@@ -241,7 +241,7 @@ RoxieGroup:
 	tr_mon 32, CROAGUNK @ MIRROR_HERB
 		tr_extra DRY_SKIN
 		tr_evs 64 HP, 64 Atk
-		tr_moves TOXIC, VENOSHOCK, SWAGGER, DRAIN_PUNCH		
+		tr_moves TOXIC, VENOSHOCK, SWAGGER, DRAIN_PUNCH
 	tr_mon 33, GOLBAT @ ORAN_BERRY
 		tr_extra INNER_FOCUS
 		tr_evs 64 Atk, 64 Spe
@@ -253,30 +253,30 @@ RoxieGroup:
 	end_trainer
 
 	def_trainer 2, "Roxie"
-	tr_mon 13, TOXICROAK @ DAMP_ROCK
-		tr_extra DRIZZLE, SPE_UP_SATK_DOWN
+	tr_mon 66, GARBODOR @ ROCKY_HELMET
+		tr_extra AFTERMATH, DEF_UP_SATK_DOWN
 		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE		
-	tr_mon 13, GARBODOR @ ORAN_BERRY
+		tr_moves TOXIC_SPIKES, GUNK_SHOT, BODY_SLAM, EXPLOSION
+	tr_mon 65, TOXICROAK @ ASSAULT_VEST
+		tr_extra POISON_TOUCH, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves POISON_JAB, DRAIN_PUNCH, ICE_PUNCH, SUCKER_PUNCH
+	tr_mon 66, DRAPION @ SCOPE_LENS
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, DRAPION @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, CROBAT @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, NIDOQUEEN @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, SCOLIPEDE @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+		tr_evs 196 Atk, 252 Spe
+		tr_moves POISON_JAB, NIGHT_SLASH, EARTHQUAKE, SWORDS_DANCE
+	tr_mon 67, CROBAT @ BLACK_SLUDGE
+		tr_extra INNER_FOCUS, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Spe
+		tr_moves TOXIC, SUPER_FANG, VENOSHOCK, ROOST
+	tr_mon 67, NIDOQUEEN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
+		tr_evs 196 SAt, 252 Spe
+		tr_moves EARTH_POWER, SLUDGE_BOMB, THUNDERBOLT, ICE_BEAM
+	tr_mon 68, SCOLIPEDE @ FOCUS_SASH
+		tr_extra SPEED_BOOST, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves GUNK_SHOT, MEGAHORN, PROTECT, SWORDS_DANCE
 	end_trainer
 
 
@@ -309,30 +309,30 @@ CherenGroup:
 
 
 	def_trainer 2, "Cheren"
-	tr_mon 13, WATCHOG @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, DUDUNSPARCE @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, BRAVIARY @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, CINCCINO @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, BOUFFALANT @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, STOUTLAND @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+	tr_mon 65, WATCHOG @ FOCUS_SASH
+		tr_extra ANALYTIC, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Def
+		tr_moves SUPER_FANG, HYPNOSIS, CONFUSE_RAY, KNOCK_OFF
+	tr_mon 66, DUDUNSPARCE @ THROAT_SPRAY
+		tr_extra SERENE_GRACE, SATK_UP_ATK_DOWN
+		tr_evs 196 SATK, 252 Spe
+		tr_moves AIR_SLASH, HYPER_VOICE, ANCIENTPOWER, GLARE
+	tr_mon 66, ZANGOOSE @ TOXIC_ORB
+		tr_extra TOXIC_BOOST, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves FACADE, KNOCK_OFF, CLOSE_COMBAT, QUICK_ATTACK
+	tr_mon 67, CINCCINO @ KINGS_ROCK
+		tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves TAIL_SLAP, ICICLE_SPEAR, ROCK_BLAST, U_TURN
+	tr_mon 67, BOUFFALANT @ ASSAULT_VEST
+		tr_extra RECKLESS, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves DOUBLE_EDGE, ZEN_HEADBUTT, EARTHQUAKE, WILD_CHARGE
+	tr_mon 68, STOUTLAND @ CHOICE_SCARF
+		tr_extra SCRAPPY, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves RETURN, PLAY_ROUGH, CRUNCH, GIGA_IMPACT
 	end_trainer
 
 
@@ -361,23 +361,23 @@ Energy Ball? If so, replace item with Petaya Berry and update moveset to Energy 
 	end_trainer
 
 	def_trainer 2, "Cilan"
-	tr_mon 13, SAWSBUCK @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+	tr_mon 13, FERROTHORN @ ROCKY_HELMET
+		tr_extra IRON_BARBS, DEF_UP_SPE_DOWN
+		tr_evs 252 HP Atk, 196 Def
+		tr_moves LEECH_SEED, SPIKES, POWER_WHIP, GYRO_BALL ; note that Leech Seed is missing from Ferroseed's level up learnset, which needs to be addressed
+	tr_mon 13, WHIMSICOTT @ ORAN_BERRY
+		tr_extra PRANKSTER, SPE_UP_SATK_DOWN
 		tr_evs 32 Atk
 		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
+	tr_mon 13, SAWSBUCK @ CHOICE_BAND
+		tr_extra CHLOROPHYLL, SPE_UP_SATK_DOWN
+		tr_evs 32 Atk
+		tr_moves LEAF_BLADE, DOUBLE_EDGE, WILD_CHARGE, HI_JUMP_KICK
 	tr_mon 13, LILLIGANT @ ORAN_BERRY
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_evs 32 Atk
 		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, WHIMSICOTT @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
 	tr_mon 13, LUDICOLO @ ORAN_BERRY
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 32 Atk
-		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
-	tr_mon 13, ROSERADE @ ORAN_BERRY
 		tr_extra HUSTLE, SPE_UP_SATK_DOWN
 		tr_evs 32 Atk
 		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
@@ -603,7 +603,7 @@ ColressGroup:
 		tr_extra IRON_BARBS
 		tr_evs 252 HP, 132 SDe
 		tr_moves GYRO_BALL, SLEEP_TALK, CURSE, REST
-tr_mon 65, AGGRON @ AIR_BALLOON
+	tr_mon 65, AGGRON @ AIR_BALLOON
 		tr_extra ROCK_HEAD
 		tr_evs 252 HP, 132 Atk
 		tr_moves IRON_HEAD, HEAD_SMASH, EARTHQUAKE, SANDSTORM
