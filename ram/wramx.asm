@@ -1247,6 +1247,7 @@ wStrangeHouse1FSceneID:: db
 wStrangeHouseRoomsSceneID:: db
 wTradeCenterSceneID:: db
 wUndellaTownSceneID:: db
+wVictoryRoadCave1FSceneID:: db
 wVillageBridgeSceneID:: db
 wVirbankCitySceneID:: db
 wVirbankComplexB1FSceneID:: db
@@ -1278,7 +1279,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 103 ; unused
+	ds 102 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette

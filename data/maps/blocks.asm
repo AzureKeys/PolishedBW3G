@@ -868,4 +868,36 @@ SECTION "VictoryRoadEntranceNorth_BlockData", ROMX
 VictoryRoadEntranceNorth_BlockData:
 	INCBIN "maps/VictoryRoadEntranceNorth.ablk.lzp"
 
+SECTION "VictoryRoadCave1F_BlockData", ROMX
+VictoryRoadCave1F_BlockData:
+	INCBIN "maps/VictoryRoadCave1F.ablk.lzp"
+
+SECTION "VictoryRoadCave2F_BlockData", ROMX
+VictoryRoadCave2F_BlockData:
+	INCBIN "maps/VictoryRoadCave2F.ablk.lzp"
+
+SECTION "VictoryRoadCave3F_BlockData", ROMX
+VictoryRoadCave3F_BlockData:
+	INCBIN "maps/VictoryRoadCave3F.ablk.lzp"
+
+SECTION "VictoryRoadOutdoor1F_BlockData", ROMX
+VictoryRoadOutdoor1F_BlockData:
+	INCBIN "maps/VictoryRoadOutdoor1F.ablk.lzp"
+
+SECTION "VictoryRoadOutdoor2F_BlockData", ROMX
+VictoryRoadOutdoor2F_BlockData:
+	INCBIN "maps/VictoryRoadOutdoor2F.ablk.lzp"
+
+SECTION "VictoryRoadGrove_BlockData", ROMX
+VictoryRoadGrove_BlockData:
+	INCBIN "maps/VictoryRoadGrove.ablk.lzp"
+
+SECTION "VictoryRoadCastle_BlockData", ROMX
+VictoryRoadCastle_BlockData:
+	INCBIN "maps/VictoryRoadCastle.ablk.lzp"
+
+SECTION "NsRoom_BlockData", ROMX
+NsRoom_BlockData:
+	INCBIN "maps/NsRoom.ablk.lzp"
+
 ENDSECTION

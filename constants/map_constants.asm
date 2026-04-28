@@ -96,6 +96,14 @@ ENDM
 	map_const DRAGONSPIRAL_TOWER_5F,                       9, 10 ; 50
 	map_const DRAGONSPIRAL_TOWER_6F,                       8, 10 ; 51
 	map_const DRAGONSPIRAL_TOWER_ROOF,                     9,  9 ; 52
+	map_const VICTORY_ROAD_CAVE_1F,                       20, 19 ; 53
+	map_const VICTORY_ROAD_CAVE_2F,                       23, 26 ; 54
+	map_const VICTORY_ROAD_CAVE_3F,                       11, 16 ; 55
+	map_const VICTORY_ROAD_OUTDOOR_1F,                    32, 13 ; 56
+	map_const VICTORY_ROAD_OUTDOOR_2F,                    20, 21 ; 57
+	map_const VICTORY_ROAD_GROVE,                          9, 13 ; 58
+	map_const VICTORY_ROAD_CASTLE,                        12, 10 ; 59
+	map_const NS_ROOM,                                     5,  5 ; 60
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

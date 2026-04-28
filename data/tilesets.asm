@@ -28,6 +28,7 @@ Tilesets::
 	tileset TilesetBattleTower
 	tileset TilesetUnderground
 	tileset TilesetCave
+	tileset TilesetCaveRuins
 	tileset TilesetIcePath
 	tileset TilesetBattleFactory
 	tileset TilesetEliteFourRoom
@@ -508,12 +509,14 @@ TilesetUndergroundColl:: INCBIN "data/tilesets/underground_collision.bin.lzp"
 
 SECTION "Tileset Graphics - cave vram0", ROMX
 
-TilesetCaveGFX0:: INCBIN "gfx/tilesets/cave.2bpp.vram0.lzp"
+TilesetCaveGFX0:: 
+TilesetCaveRuinsGFX0:: INCBIN "gfx/tilesets/cave.2bpp.vram0.lzp"
 
 
 SECTION "Tileset Graphics - cave vram1", ROMX
 
-TilesetCaveGFX1:: INCBIN "gfx/tilesets/cave.2bpp.vram1.lzp"
+TilesetCaveGFX1:: 
+TilesetCaveRuinsGFX1:: INCBIN "gfx/tilesets/cave.2bpp.vram1.lzp"
 
 
 SECTION "Tileset Data - cave", ROMX
@@ -521,6 +524,13 @@ SECTION "Tileset Data - cave", ROMX
 TilesetCaveMeta:: INCBIN "data/tilesets/cave_metatiles.bin.lzp"
 TilesetCaveAttr:: INCBIN "data/tilesets/cave_attributes.bin.lzp"
 TilesetCaveColl:: INCBIN "data/tilesets/cave_collision.bin.lzp"
+
+
+SECTION "Tileset Data - cave ruins", ROMX
+
+TilesetCaveRuinsMeta:: INCBIN "data/tilesets/cave_ruins_metatiles.bin.lzp"
+TilesetCaveRuinsAttr:: INCBIN "data/tilesets/cave_ruins_attributes.bin.lzp"
+TilesetCaveRuinsColl:: INCBIN "data/tilesets/cave_ruins_collision.bin.lzp"
 
 
 SECTION "Tileset Graphics - ice path vram0", ROMX
@@ -924,6 +934,7 @@ TilesetGameCornerGFX2::
 TilesetBattleTowerGFX2::
 TilesetUndergroundGFX2::
 TilesetCaveGFX2::
+TilesetCaveRuinsGFX2::
 TilesetIcePathGFX2::
 TilesetTunnelGFX2::
 TilesetForestGFX2::

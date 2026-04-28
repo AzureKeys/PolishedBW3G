@@ -6,6 +6,10 @@ VictoryRoadEntranceNorth_MapScriptHeader:
 
 	def_warp_events
 	warp_event 15,  5, VICTORY_ROAD_POKECENTER, 1
+	warp_event  6,  4, VICTORY_ROAD_CAVE_1F, 1
+	warp_event  7,  4, VICTORY_ROAD_CAVE_1F, 2
+	warp_event  8,  4, VICTORY_ROAD_CAVE_1F, 3
+	warp_event  9,  4, VICTORY_ROAD_CAVE_1F, 4
 
 	def_coord_events
 

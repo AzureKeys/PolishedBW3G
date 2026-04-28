@@ -396,6 +396,14 @@ INCLUDE "maps/VictoryRoadEntranceSouthWest.asm"
 INCLUDE "maps/VictoryRoadEntranceNorthConnectionDummy.asm"
 INCLUDE "maps/VictoryRoadEntranceNorth.asm"
 INCLUDE "maps/VictoryRoadPokecenter.asm"
+INCLUDE "maps/VictoryRoadCave1F.asm"
+INCLUDE "maps/VictoryRoadCave2F.asm"
+INCLUDE "maps/VictoryRoadCave3F.asm"
+INCLUDE "maps/VictoryRoadOutdoor1F.asm"
+INCLUDE "maps/VictoryRoadOutdoor2F.asm"
+INCLUDE "maps/VictoryRoadGrove.asm"
+INCLUDE "maps/VictoryRoadCastle.asm"
+INCLUDE "maps/NsRoom.asm"
 
 
 ENDSECTION

@@ -234,6 +234,14 @@ ENDM
 	map_attributes DragonspiralTower5F, DRAGONSPIRAL_TOWER_5F, $0, 0
 	map_attributes DragonspiralTower6F, DRAGONSPIRAL_TOWER_6F, $0, 0
 	map_attributes DragonspiralTowerRoof, DRAGONSPIRAL_TOWER_ROOF, $0, 0
+	map_attributes VictoryRoadCave1F, VICTORY_ROAD_CAVE_1F, $9, 0
+	map_attributes VictoryRoadCave2F, VICTORY_ROAD_CAVE_2F, $9, 0
+	map_attributes VictoryRoadCave3F, VICTORY_ROAD_CAVE_3F, $9, 0
+	map_attributes VictoryRoadOutdoor1F, VICTORY_ROAD_OUTDOOR_1F, $4d, 0
+	map_attributes VictoryRoadOutdoor2F, VICTORY_ROAD_OUTDOOR_2F, $51, 0
+	map_attributes VictoryRoadGrove, VICTORY_ROAD_GROVE, $4b, 0
+	map_attributes VictoryRoadCastle, VICTORY_ROAD_CASTLE, $9, 0
+	map_attributes NsRoom, NS_ROOM, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

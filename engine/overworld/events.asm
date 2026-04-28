@@ -1322,6 +1322,8 @@ CanUseSweetHoney::
 ; All CAVE maps are in MapGroup_Dungeons, so just check wMapNumber
 	ld a, [wMapNumber]
 	cp MAP_PINWHEEL_FOREST
+	jr z, .grass_check
+	cp MAP_VICTORY_ROAD_GROVE
 	jr nz, .skip_grass_check
 .grass_check
 	farcall CheckGrassCollision

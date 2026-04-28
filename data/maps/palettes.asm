@@ -48,6 +48,7 @@ ENDM
 	special_bg_pal map,      CELESTIAL_TOWER_ROOF,        PAL_TIMEOFDAY, CelestialRoofPalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_OUTSIDE,  PAL_TIMEOFDAY, DragonspiralOutsidePalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_ROOF,     PAL_TIMEOFDAY, DragonspiralRoofPalette
+	special_bg_pal map,      NS_ROOM,                     PAL_SINGLE,    NsRoomPalette
 	
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
@@ -235,6 +236,30 @@ endc
 DragonspiralPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/dragonspiral.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+ChampionsRoomPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/champions_room.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+NsRoomPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/ns_room.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK
