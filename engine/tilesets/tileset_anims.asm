@@ -482,9 +482,9 @@ AnimateBigStarTile2:
 	add a
 
 _FinishAnimateBigStarTile:
-	add LOW(vTiles5 tile $45)
+	add LOW(vTiles5 tile $65)
 	ld l, a
-	adc HIGH(vTiles5 tile $45)
+	adc HIGH(vTiles5 tile $65)
 	sub l
 	ld h, a
 
@@ -519,9 +519,9 @@ AnimateSmallStarsTile2:
 	add a
 
 _FinishAnimateSmallStarsTile:
-	add LOW(vTiles5 tile $49)
+	add LOW(vTiles5 tile $69)
 	ld l, a
-	adc HIGH(vTiles5 tile $49)
+	adc HIGH(vTiles5 tile $69)
 	sub l
 	ld h, a
 
@@ -539,13 +539,54 @@ AnimateDoubleStarTile:
 	add a
 	add a
 
-	add LOW(vTiles5 tile $4d)
+	add LOW(vTiles5 tile $6d)
 	ld l, a
-	adc HIGH(vTiles5 tile $4d)
+	adc HIGH(vTiles5 tile $6d)
 	sub l
 	ld h, a
 
 	jmp WriteTileHLToDE
+
+AnimateElesaLightsTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, phase shift 2, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4, 1
+	srl a
+	inc a
+	inc a
+	maskbits 4
+	swap a
+
+	jr _FinishAnimateElesaLightsTile
+
+AnimateElesaLightsTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 4, every 2 frames, offset to 1 tile (16 bytes)
+	ld a, [wTileAnimationTimer]
+	maskbits 4, 1
+	add a
+	add a
+	add a
+	; fallthrough
+
+_FinishAnimateElesaLightsTile:
+	add LOW(.ElesaLightsFrames)
+	ld l, a
+	adc HIGH(.ElesaLightsFrames)
+	sub l
+	ld h, a
+
+	jmp WriteTileHLToDE
+
+.ElesaLightsFrames:
+INCBIN "gfx/tilesets/animations/elesa_lights.2bpp"
 
 AnimateTowerPillarTiles1:
 	ld hl, sp + 0
@@ -1221,6 +1262,225 @@ AnimateFountainTile6:
 	
 FountainTileFrames:
 INCBIN "gfx/tilesets/animations/castelia_fountain.2bpp"
+
+AnimateBigFireTile1:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles1Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles1Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles1Pointers:
+	dw BigFireTileFrames + 0 tiles + 0 tiles
+	dw BigFireTileFrames + 0 tiles + 1 tiles
+	dw BigFireTileFrames + 0 tiles + 2 tiles
+	dw BigFireTileFrames + 0 tiles + 3 tiles
+	dw BigFireTileFrames + 0 tiles + 4 tiles
+
+AnimateBigFireTile2:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles2Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles2Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles2Pointers:
+	dw BigFireTileFrames + 5 tiles + 0 tiles
+	dw BigFireTileFrames + 5 tiles + 1 tiles
+	dw BigFireTileFrames + 5 tiles + 2 tiles
+	dw BigFireTileFrames + 5 tiles + 3 tiles
+	dw BigFireTileFrames + 5 tiles + 4 tiles
+
+AnimateBigFireTile3:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles3Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles3Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles3Pointers:
+	dw BigFireTileFrames + 10 tiles + 0 tiles
+	dw BigFireTileFrames + 10 tiles + 1 tiles
+	dw BigFireTileFrames + 10 tiles + 2 tiles
+	dw BigFireTileFrames + 10 tiles + 3 tiles
+	dw BigFireTileFrames + 10 tiles + 4 tiles
+
+AnimateBigFireTile4:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles4Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles4Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles4Pointers:
+	dw BigFireTileFrames + 15 tiles + 0 tiles
+	dw BigFireTileFrames + 15 tiles + 1 tiles
+	dw BigFireTileFrames + 15 tiles + 2 tiles
+	dw BigFireTileFrames + 15 tiles + 3 tiles
+	dw BigFireTileFrames + 15 tiles + 4 tiles
+
+AnimateBigFireTile5:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles5Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles5Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles5Pointers:
+	dw BigFireTileFrames + 20 tiles + 0 tiles
+	dw BigFireTileFrames + 20 tiles + 1 tiles
+	dw BigFireTileFrames + 20 tiles + 2 tiles
+	dw BigFireTileFrames + 20 tiles + 3 tiles
+	dw BigFireTileFrames + 20 tiles + 4 tiles
+
+AnimateBigFireTile6:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles6Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles6Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles6Pointers:
+	dw BigFireTileFrames + 25 tiles + 0 tiles
+	dw BigFireTileFrames + 25 tiles + 1 tiles
+	dw BigFireTileFrames + 25 tiles + 2 tiles
+	dw BigFireTileFrames + 25 tiles + 3 tiles
+	dw BigFireTileFrames + 25 tiles + 4 tiles
+
+AnimateBigFireTile7:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles7Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles7Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles7Pointers:
+	dw BigFireTileFrames + 30 tiles + 0 tiles
+	dw BigFireTileFrames + 30 tiles + 1 tiles
+	dw BigFireTileFrames + 30 tiles + 2 tiles
+	dw BigFireTileFrames + 30 tiles + 3 tiles
+	dw BigFireTileFrames + 30 tiles + 4 tiles
+
+AnimateBigFireTile8:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; period 5, offset to pointer table (2 bytes)
+	ld a, [wFountainAnimationTimer]
+	add a
+
+	add LOW(.BigFireTiles8Pointers)
+	ld l, a
+	adc HIGH(.BigFireTiles8Pointers)
+	sub l
+	ld h, a
+	
+	ld sp, hl
+	pop hl
+
+	jmp WriteTileHLToDE
+	
+.BigFireTiles8Pointers:
+	dw BigFireTileFrames + 35 tiles + 0 tiles
+	dw BigFireTileFrames + 35 tiles + 1 tiles
+	dw BigFireTileFrames + 35 tiles + 2 tiles
+	dw BigFireTileFrames + 35 tiles + 3 tiles
+	dw BigFireTileFrames + 35 tiles + 4 tiles
+	
+BigFireTileFrames:
+INCBIN "gfx/tilesets/animations/big_fire.2bpp"
 
 AnimateFanTile1:
 	ld hl, sp + 0

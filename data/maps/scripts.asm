@@ -20,11 +20,6 @@ INCLUDE "maps/BattleTowerHallway.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
 
 
-SECTION "Pokemon League Scripts", ROMX
-
-INCLUDE "maps/HallOfFame.asm"
-
-
 SECTION "Humilau Scripts", ROMX
 
 INCLUDE "maps/PlayersHouse1F.asm"
@@ -404,6 +399,20 @@ INCLUDE "maps/VictoryRoadOutdoor2F.asm"
 INCLUDE "maps/VictoryRoadGrove.asm"
 INCLUDE "maps/VictoryRoadCastle.asm"
 INCLUDE "maps/NsRoom.asm"
+
+
+SECTION "Pokemon League Scripts", ROMX
+
+INCLUDE "maps/PkmnLeagueEntrance.asm"
+INCLUDE "maps/PkmnLeaguePokecenter.asm"
+INCLUDE "maps/PkmnLeagueMain.asm"
+INCLUDE "maps/MarshalsRoom.asm"
+INCLUDE "maps/GrimsleysRoom.asm"
+INCLUDE "maps/ElesasRoom.asm"
+INCLUDE "maps/ColresssRoom.asm"
+INCLUDE "maps/ChampionsRoomEntrance.asm"
+INCLUDE "maps/ChampionsRoom.asm"
+INCLUDE "maps/HallOfFame.asm"
 
 
 ENDSECTION

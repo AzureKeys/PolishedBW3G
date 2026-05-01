@@ -18,7 +18,10 @@ MapScenes::
 	scene_var CASTELIA_GYM,                           wAlways0SceneID
 	scene_var CASTELIA_PORT,                          wCasteliaPortSceneID
 	scene_var CASTELIA_SKYARROW_BRIDGE_GATE,          wCasteliaSkyarrowBridgeGateSceneID
+	scene_var CHAMPIONS_ROOM,                         wChampionsRoomSceneID
+	scene_var CHAMPIONS_ROOM_ENTRANCE,                wChampionsRoomEntranceSceneID
 	scene_var COLOSSEUM,                              wColosseumSceneID
+	scene_var COLRESSS_ROOM,                          wColresssRoomSceneID
 	scene_var DRAGONSPIRAL_TOWER_1F,                  wDragonspiralTower1FSceneID
 	scene_var DRAGONSPIRAL_TOWER_2F,                  wDragonspiralTower2FSceneID
 	scene_var DRAGONSPIRAL_TOWER_6F,                  wDragonspiralTower6FSceneID
@@ -26,10 +29,12 @@ MapScenes::
 	scene_var DREAMYARD,                              wDreamyardSceneID
 	scene_var DRIFTVEIL_DRAWBRIDGE_GATE,              wDriftveilDrawbridgeGateSceneID
 	scene_var DRIFTVEIL_SHELTER,                      wDriftveilShelterSceneID
+	scene_var ELESAS_ROOM,                            wElesasRoomSceneID
 	scene_var FERRY_LEFT,                             wAlways0SceneID
 	scene_var FERRY_RIGHT,                            wAlways0SceneID
 	scene_var FLOCCESY_TOWN,                          wFloccesyTownSceneID
 	scene_var GIANT_CHASM_1F,                         wGiantChasm1FSceneID
+	scene_var GRIMSLEYS_ROOM,                         wGrimsleysRoomSceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
 	scene_var HUMILAU_CITY,                           wHumilauCitySceneID
 	scene_var ICIRRUS_CITY_SOUTH,                     wIcirrusCitySouthSceneID
@@ -37,6 +42,7 @@ MapScenes::
 	scene_var LENTIMAS_GYM,                           wAlways0SceneID
 	scene_var LENTIMAS_TOWN,                          wAlways0SceneID
 	scene_var LOSTLORN_FOREST,                        wLostlornForestSceneID
+	scene_var MARSHALS_ROOM,                          wMarshalsRoomSceneID
 	scene_var MISTRALTON_AIRPORT,                     wAlways0SceneID
 	scene_var MISTRALTON_CITY,                        wMistraltonCitySceneID
 	scene_var NACRENE_CITY,                           wNacreneCitySceneID
@@ -52,6 +58,8 @@ MapScenes::
 	scene_var PINWHEEL_SKYARROW_BRIDGE_GATE,          wPinwheelSkyarrowBridgeGateSceneID
 	scene_var PLANE_LEFT,                             wAlways0SceneID
 	scene_var PLANE_RIGHT,                            wAlways0SceneID
+	scene_var PKMN_LEAGUE_ENTRANCE,                   wPkmnLeagueEntranceSceneID
+	scene_var PKMN_LEAGUE_MAIN,                       wPkmnLeagueMainSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
 	scene_var PWT_BACK_ROOM,                          wPWTBackRoomSceneID
 	scene_var PWT_BATTLE_ROOM,                        wPWTBattleRoomSceneID

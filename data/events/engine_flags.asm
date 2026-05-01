@@ -99,6 +99,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_OPELUCID
 	engine_flag wVisitedSpawns, SPAWN_ICIRRUS
 	engine_flag wVisitedSpawns, SPAWN_VICTORY_ROAD
+	engine_flag wVisitedSpawns, SPAWN_PKMN_LEAGUE
 
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 

@@ -100,6 +100,8 @@ PokeBallEffect:
 	ld a, [wBattleType]
 	cp BATTLETYPE_GHOST
 	jmp z, Ball_MonCantBeCaughtMessage
+	cp BATTLETYPE_GENESIS
+	jmp z, Ball_MonCantBeCaughtMessage
 
 	; Everything below this are regular wild battles
 

@@ -242,6 +242,14 @@ ENDM
 	map_attributes VictoryRoadGrove, VICTORY_ROAD_GROVE, $4b, 0
 	map_attributes VictoryRoadCastle, VICTORY_ROAD_CASTLE, $9, 0
 	map_attributes NsRoom, NS_ROOM, $0, 0
+	map_attributes PkmnLeagueEntrance, PKMN_LEAGUE_ENTRANCE, $21, 0
+	map_attributes PkmnLeagueMain, PKMN_LEAGUE_MAIN, $0, 0
+	map_attributes MarshalsRoom, MARSHALS_ROOM, $0, 0
+	map_attributes GrimsleysRoom, GRIMSLEYS_ROOM, $0, 0
+	map_attributes ElesasRoom, ELESAS_ROOM, $0, 0
+	map_attributes ColresssRoom, COLRESSS_ROOM, $0, 0
+	map_attributes ChampionsRoomEntrance, CHAMPIONS_ROOM_ENTRANCE, $0, 0
+	map_attributes ChampionsRoom, CHAMPIONS_ROOM, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -344,6 +352,7 @@ ENDM
 	map_attributes IcirrusFanClub, ICIRRUS_FAN_CLUB, $0, 0
 	map_attributes Route23House, ROUTE_23_HOUSE, $0, 0
 	map_attributes VictoryRoadPokecenter, VICTORY_ROAD_POKECENTER, $0, 0
+	map_attributes PkmnLeaguePokecenter, PKMN_LEAGUE_POKECENTER, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

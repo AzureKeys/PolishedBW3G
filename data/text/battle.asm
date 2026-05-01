@@ -28,6 +28,11 @@ GhostAppearedText:
 	line "appeared!"
 	prompt
 
+GenesisProjectAppearedText:
+	text "The Genesis"
+	line "Project attacks!"
+	prompt
+
 SilphScopeRevealText:
 	text "SilphScope2"
 	line "unveiled the"
@@ -333,6 +338,11 @@ BattleText_EnemyPkmnFainted:
 	text "The foe "
 	text_ram wEnemyMonNickname
 	line "fainted!"
+	prompt
+
+BattleText_GenesisProjectFainted:
+	text "The Genesis"
+	line "Project fainted!"
 	prompt
 
 GotMoneyForWinningText:

@@ -2212,6 +2212,10 @@ FaintUserPokemon:
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .text
+	ld hl, BattleText_GenesisProjectFainted
+	ld a, [wBattleType]
+	cp BATTLETYPE_GENESIS
+	jr z, .text
 	ld hl, BattleText_EnemyPkmnFainted
 .text
 	call StdBattleTextbox
@@ -2477,6 +2481,10 @@ PlayVictoryMusic:
 	ld e, MUSIC_NONE
 	call PlayMusic
 	call DelayFrame
+; Don't play victory music after Genesis Project battle
+	ld a, [wBattleType]
+	cp BATTLETYPE_GENESIS
+	jr z, .lost
 	ld e, MUSIC_WILD_VICTORY
 	ld a, [wBattleMode]
 	dec a
@@ -2498,6 +2506,10 @@ PlayVictoryMusic:
 	jr .play_music
 
 .trainer_victory
+; Don't play victory music after Genesis Project battle
+	ld a, [wOtherTrainerClass]
+	cp GENESIS
+	jr z, .lost
 	ld e, MUSIC_GYM_VICTORY
 	call IsBossTrainer
 	jr c, .play_music
@@ -4747,7 +4759,7 @@ CheckRunSpeed:
 	jmp z, .can_escape
 	cp BATTLETYPE_GHOST
 	jmp z, .can_escape
-	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_NEVER_SHINY, BATTLETYPE_LEGENDARY
+	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_NEVER_SHINY, BATTLETYPE_LEGENDARY, BATTLETYPE_GENESIS
 	jmp nc, .cant_escape
 
 	ld a, [wLinkMode]
@@ -8811,10 +8823,15 @@ BattleStartMessage:
 	ld hl, LegendaryAppearedText
 	cp BATTLETYPE_ROAMING
 	jr z, .PrintBattleStartText
-	cp BATTLETYPE_NEVER_SHINY ; or BATTLETYPE_LEGENDARY
-	jr nc, .PrintBattleStartText
+	cp BATTLETYPE_NEVER_SHINY
+	jr z, .PrintBattleStartText
+	cp BATTLETYPE_LEGENDARY
+	jr z, .PrintBattleStartText
 	ld hl, GhostAppearedText
 	cp BATTLETYPE_GHOST
+	jr z, .PrintBattleStartText
+	ld hl, GenesisProjectAppearedText
+	cp BATTLETYPE_GENESIS
 	jr z, .PrintBattleStartText
 	ld hl, WildPokemonAppearedText
 

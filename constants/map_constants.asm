@@ -351,6 +351,15 @@ ENDM
 	map_const VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             14,  8 ;  6
 	map_const VICTORY_ROAD_ENTRANCE_NORTH_CONNECTION_DUMMY, 28,  3 ;  7
 	map_const VICTORY_ROAD_ENTRANCE_NORTH,                  26, 12 ;  8
-	map_const VICTORY_ROAD_POKECENTER,                       5,  5 ;  7
+	map_const VICTORY_ROAD_POKECENTER,                       5,  5 ;  9
+	map_const PKMN_LEAGUE_ENTRANCE,                         15, 12 ; 10
+	map_const PKMN_LEAGUE_POKECENTER,                        5,  5 ; 11
+	map_const PKMN_LEAGUE_MAIN,                             14, 12 ; 12
+	map_const MARSHALS_ROOM,                                 8,  7 ; 13
+	map_const GRIMSLEYS_ROOM,                                8,  7 ; 14
+	map_const ELESAS_ROOM,                                   8,  7 ; 15
+	map_const COLRESSS_ROOM,                                 8,  7 ; 16
+	map_const CHAMPIONS_ROOM_ENTRANCE,                       9, 11 ; 17
+	map_const CHAMPIONS_ROOM,                                8, 10 ; 18
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

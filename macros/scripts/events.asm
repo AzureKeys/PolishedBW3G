@@ -1436,4 +1436,9 @@ MACRO toggleevent
 	dw \1 ; event_flag
 ENDM
 
+	const returnfromcredits_command
+MACRO returnfromcredits
+	db returnfromcredits_command
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

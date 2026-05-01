@@ -192,8 +192,8 @@ SpriteHeaders:
 	overworld_sprite WiiSpriteGFX, STANDING_SPRITE, PAL_OW_AZURE
 	overworld_sprite SilverTrophySpriteGFX, STANDING_SPRITE, PAL_OW_ENV_WHITE
 	overworld_sprite GoldTrophySpriteGFX, STANDING_SPRITE, PAL_OW_ENV_YELLOW
-	overworld_sprite ElectricFenceLeftSpriteGFX, STANDING_SPRITE, PAL_OW_ELECTRIC_FENCE
-	overworld_sprite ElectricFenceRightSpriteGFX, STANDING_SPRITE, PAL_OW_ELECTRIC_FENCE
+	overworld_sprite ElectricFenceLeftSpriteGFX, STANDING_SPRITE, PAL_OW_RED
+	overworld_sprite ElectricFenceRightSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite SailboatSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite IceBoulderSpriteGFX, STANDING_SPRITE, PAL_OW_COPY_BG_BROWN
 	overworld_sprite BeachGuySpriteGFX, WALKING_SPRITE, PAL_OW_RED

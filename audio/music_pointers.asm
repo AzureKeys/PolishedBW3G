@@ -93,4 +93,7 @@ Music:
 	dba Music_MistraltonCity
 	dba Music_AnvilleTown
 	dba Music_IcirrusCity
+	dba Music_BWPokemonLeague
+	dba Music_BattleGhetsis
+	dba Music_BattleVsRegis
 	assert_table_length NUM_MUSIC_SONGS

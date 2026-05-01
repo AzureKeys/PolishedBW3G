@@ -32,6 +32,7 @@ Tilesets::
 	tileset TilesetIcePath
 	tileset TilesetBattleFactory
 	tileset TilesetEliteFourRoom
+	tileset TilesetEliteFourRoom2
 	tileset TilesetLentimas
 	tileset TilesetForest
 	tileset TilesetNimbasa
@@ -388,19 +389,24 @@ TilesetChampionsRoomColl:: INCBIN "data/tilesets/champions_room_collision.bin.lz
 
 SECTION "Tileset Graphics - elite four room vram0", ROMX
 
-TilesetEliteFourRoomGFX0:: INCBIN "gfx/tilesets/elite_four_room.2bpp.vram0.lzp"
+TilesetEliteFourRoomGFX0:: 
+TilesetEliteFourRoom2GFX0:: INCBIN "gfx/tilesets/elite_four_room.2bpp.vram0.lzp"
 
 
 SECTION "Tileset Graphics - elite four room vram1", ROMX
 
-TilesetEliteFourRoomGFX1:: INCBIN "gfx/tilesets/elite_four_room.2bpp.vram1.lzp"
+TilesetEliteFourRoomGFX1:: 
+TilesetEliteFourRoom2GFX1:: INCBIN "gfx/tilesets/elite_four_room.2bpp.vram1.lzp"
 
 
 SECTION "Tileset Data - elite four room", ROMX
 
-TilesetEliteFourRoomMeta:: INCBIN "data/tilesets/elite_four_room_metatiles.bin.lzp"
-TilesetEliteFourRoomAttr:: INCBIN "data/tilesets/elite_four_room_attributes.bin.lzp"
-TilesetEliteFourRoomColl:: INCBIN "data/tilesets/elite_four_room_collision.bin.lzp"
+TilesetEliteFourRoomMeta:: 
+TilesetEliteFourRoom2Meta:: INCBIN "data/tilesets/elite_four_room_metatiles.bin.lzp"
+TilesetEliteFourRoomAttr:: 
+TilesetEliteFourRoom2Attr:: INCBIN "data/tilesets/elite_four_room_attributes.bin.lzp"
+TilesetEliteFourRoomColl:: 
+TilesetEliteFourRoom2Coll:: INCBIN "data/tilesets/elite_four_room_collision.bin.lzp"
 
 
 SECTION "Tileset Graphics - port vram0", ROMX
@@ -927,6 +933,7 @@ TilesetGateGFX2::
 TilesetMagnetTrainGFX2::
 TilesetChampionsRoomGFX2::
 TilesetEliteFourRoomGFX2::
+TilesetEliteFourRoom2GFX2::
 TilesetPortGFX2::
 TilesetLabGFX2::
 TilesetFacilityGFX2::

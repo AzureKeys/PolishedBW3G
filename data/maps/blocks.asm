@@ -25,6 +25,7 @@ MistraltonPokecenter_BlockData:
 OpelucidPokecenter_BlockData:
 IcirrusPokecenter_BlockData:
 VictoryRoadPokecenter_BlockData:
+PkmnLeaguePokecenter_BlockData:
 	INCBIN "maps/Pokecenter.ablk.lzp"
 	
 SECTION "UnovaHouse_Blockdata", ROMX
@@ -899,5 +900,37 @@ VictoryRoadCastle_BlockData:
 SECTION "NsRoom_BlockData", ROMX
 NsRoom_BlockData:
 	INCBIN "maps/NsRoom.ablk.lzp"
+
+SECTION "PkmnLeagueEntrance_BlockData", ROMX
+PkmnLeagueEntrance_BlockData:
+	INCBIN "maps/PkmnLeagueEntrance.ablk.lzp"
+
+SECTION "PkmnLeagueMain_BlockData", ROMX
+PkmnLeagueMain_BlockData:
+	INCBIN "maps/PkmnLeagueMain.ablk.lzp"
+
+SECTION "MarshalsRoom_BlockData", ROMX
+MarshalsRoom_BlockData:
+	INCBIN "maps/MarshalsRoom.ablk.lzp"
+
+SECTION "GrimsleysRoom_BlockData", ROMX
+GrimsleysRoom_BlockData:
+	INCBIN "maps/GrimsleysRoom.ablk.lzp"
+
+SECTION "ElesasRoom_BlockData", ROMX
+ElesasRoom_BlockData:
+	INCBIN "maps/ElesasRoom.ablk.lzp"
+
+SECTION "ColresssRoom_BlockData", ROMX
+ColresssRoom_BlockData:
+	INCBIN "maps/ColresssRoom.ablk.lzp"
+
+SECTION "ChampionsRoomEntrance_BlockData", ROMX
+ChampionsRoomEntrance_BlockData:
+	INCBIN "maps/ChampionsRoomEntrance.ablk.lzp"
+
+SECTION "ChampionsRoom_BlockData", ROMX
+ChampionsRoom_BlockData:
+	INCBIN "maps/ChampionsRoom.ablk.lzp"
 
 ENDSECTION

@@ -280,6 +280,7 @@ RunScriptCommand:
 	dw Script_nooryes                    ; dd
 	dw Script_digmod                     ; de
 	dw Script_toggleevent                ; df
+	dw Script_returnfromcredits          ; e0
 	assert_table_length NUM_EVENT_COMMANDS
 
 GetScriptWordDE::
@@ -2438,11 +2439,13 @@ Script_halloffame:
 	farcall HallOfFame
 	ld a, TRUE
 	ld [wGameTimerPaused], a
-	jr ReturnFromCredits
+	ret
 
 Script_credits:
 	farcall LeafCredits
-ReturnFromCredits:
+	; fallthrough
+	
+Script_returnfromcredits:
 	call Script_endall
 	ld a, 3
 	ld [wMapStatus], a

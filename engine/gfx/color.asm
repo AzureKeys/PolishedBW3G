@@ -1050,9 +1050,16 @@ LoadMapPals:
 	ret
 .CheckIcirrus
 	cp GROUP_TUBELINE_BRIDGE
-	jr nz, .check_overcast
+	jr nz, .CheckPkmnLeague
 	ld a, [wMapNumber]
 	cp MAP_TUBELINE_BRIDGE
+	jr nz, .check_overcast
+	ret
+.CheckPkmnLeague
+	cp GROUP_PKMN_LEAGUE_ENTRANCE
+	jr nz, .check_overcast
+	ld a, [wMapNumber]
+	cp MAP_PKMN_LEAGUE_ENTRANCE
 	jr nz, .check_overcast
 	ret
 	

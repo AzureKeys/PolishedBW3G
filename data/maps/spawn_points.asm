@@ -29,6 +29,7 @@ SpawnPoints:
 	spawn OPELUCID_CITY,               33, 24
 	spawn ICIRRUS_CITY_SOUTH,          13,  4
 	spawn VICTORY_ROAD_ENTRANCE_NORTH, 15,  6
+	spawn PKMN_LEAGUE_ENTRANCE,         7, 10
 
 	spawn N_A,                         -1, -1
 

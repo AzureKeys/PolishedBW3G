@@ -173,6 +173,21 @@ TilesetEliteFourRoomAnim::
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
+TilesetEliteFourRoom2Anim::
+	tileframe AnimateBigFireTile1,      $0:0e
+	tileframe AnimateBigFireTile2,      $0:1e
+	tileframe AnimateBigFireTile3,      $0:2e
+	tileframe AnimateBigFireTile4,      $0:3e
+	tileframe AnimateBigFireTile5,      $0:0f
+	tileframe AnimateBigFireTile6,      $0:1f
+	tileframe AnimateBigFireTile7,      $0:2f
+	tileframe AnimateBigFireTile8,      $0:3f
+	tileframe AnimateElesaLightsTile1,  $0:2d
+	tileframe AnimateElesaLightsTile2,  $0:1d
+	tileframe StandingTileFrame8
+	tileframe IncFountainFrame
+	tileframe DoneTileAnimation
+
 TilesetCaveAnim::
 TilesetCaveRuinsAnim::
 	tileframe ScrollTileRightLeft,      $0:14
@@ -236,6 +251,15 @@ TilesetAirportAnim::
 	tileframe AnimateSkyTiles4Right,    $0:3c
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
+	
+TilesetChampionsRoomAnim::
+	tileframe AnimateBigStarTile1,      $1:60
+	tileframe AnimateSmallStarsTile1,   $1:62
+	tileframe AnimateDoubleStarTile,    $1:64
+	tileframe AnimateBigStarTile2,      $1:61
+	tileframe AnimateSmallStarsTile2,   $1:63
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
 
 TilesetJohto1Anim::
 TilesetJohto2Anim::
@@ -248,7 +272,6 @@ TilesetMartAnim::
 TilesetGameCornerAnim::
 TilesetHouse3Anim::
 TilesetMagnetTrainAnim::
-TilesetChampionsRoomAnim::
 TilesetBattleTowerAnim::
 TilesetBattleFactoryAnim::
 TilesetHiddenGrottoAnim::

@@ -1202,7 +1202,10 @@ wCaitlinsHouseSceneID:: db
 wCasteliaCityStreetsSceneID:: db
 wCasteliaPortSceneID:: db
 wCasteliaSkyarrowBridgeGateSceneID:: db
+wChampionsRoomSceneID:: db
+wChampionsRoomEntranceSceneID:: db
 wColosseumSceneID:: db
+wColresssRoomSceneID:: db
 wDragonspiralTower1FSceneID:: db
 wDragonspiralTower2FSceneID:: db
 wDragonspiralTower6FSceneID:: db
@@ -1210,12 +1213,15 @@ wDragonspiralTowerRoofSceneID:: db
 wDreamyardSceneID:: db
 wDriftveilDrawbridgeGateSceneID:: db
 wDriftveilShelterSceneID:: db
+wElesasRoomSceneID:: db
 wFloccesyTownSceneID:: db
 wGiantChasm1FSceneID:: db
+wGrimsleysRoomSceneID:: db
 wHallOfFameSceneID:: db
 wHumilauCitySceneID:: db
 wIcirrusCitySouthSceneID:: db
 wLostlornForestSceneID:: db
+wMarshalsRoomSceneID:: db
 wMistraltonCitySceneID:: db
 wNacreneCitySceneID:: db
 wNimbasaParkBasementSceneID:: db
@@ -1227,6 +1233,8 @@ wP2LabSceneID:: db
 wP2LabEntranceSceneID:: db
 wPinwheelForestSceneID:: db
 wPinwheelSkyarrowBridgeGateSceneID:: db
+wPkmnLeagueEntranceSceneID:: db
+wPkmnLeagueMainSceneID:: db
 wPlayersHouse1FSceneID:: db
 wPWTBackRoomSceneID:: db
 wPWTBattleRoomSceneID:: db
@@ -1279,7 +1287,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 102 ; unused
+	ds 94 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette

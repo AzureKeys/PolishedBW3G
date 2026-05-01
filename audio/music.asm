@@ -267,4 +267,13 @@ INCLUDE "audio/music/anvilletown.asm"
 SECTION "Song - icirruscity", ROMX
 INCLUDE "audio/music/icirruscity.asm"
 
+SECTION "Song - pkmnleague", ROMX
+INCLUDE "audio/music/pkmnleague.asm"
+
+SECTION "Song - ghetsisbattle", ROMX
+INCLUDE "audio/music/ghetsisbattle.asm"
+
+SECTION "Song - genesectbattle", ROMX
+INCLUDE "audio/music/genesectbattle.asm"
+
 ENDSECTION

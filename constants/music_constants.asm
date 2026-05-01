@@ -93,6 +93,9 @@
 	const MUSIC_MISTRALTON_CITY                ; 59
 	const MUSIC_OPELUCID_CITY                  ; 5a
 	const MUSIC_ICIRRUS_CITY                   ; 5b
+	const MUSIC_POKEMON_LEAGUE                 ; 5c
+	const MUSIC_GENESIS_BATTLE                 ; 5d
+	const MUSIC_GENESECT_BATTLE                ; 5e
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

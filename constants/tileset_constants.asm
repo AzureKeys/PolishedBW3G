@@ -23,6 +23,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_ICE_PATH             ; 24
 	const TILESET_BATTLE_FACTORY       ; 2c
 	const TILESET_ELITE_FOUR_ROOM      ; 13
+	const TILESET_ELITE_FOUR_ROOM_2    ; 13
 	const TILESET_LENTIMAS             ; 2c
 	const TILESET_FOREST               ; 2c
 	const TILESET_NIMBASA              ; 2c

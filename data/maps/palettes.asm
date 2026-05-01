@@ -49,6 +49,14 @@ ENDM
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_OUTSIDE,  PAL_TIMEOFDAY, DragonspiralOutsidePalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_ROOF,     PAL_TIMEOFDAY, DragonspiralRoofPalette
 	special_bg_pal map,      NS_ROOM,                     PAL_SINGLE,    NsRoomPalette
+	special_bg_pal map,      PKMN_LEAGUE_ENTRANCE,        PAL_TIMEOFDAY, PkmnLeaguePalette
+	special_bg_pal map,      PKMN_LEAGUE_MAIN,            PAL_TIMEOFDAY, PkmnLeaguePalette
+	special_bg_pal map,      MARSHALS_ROOM,               PAL_SINGLE,    MarshalsRoomPalette
+	special_bg_pal map,      GRIMSLEYS_ROOM,              PAL_SINGLE,    GrimsleysRoomPalette
+	special_bg_pal map,      ELESAS_ROOM,                 PAL_SINGLE,    ElesasRoomPalette
+	special_bg_pal map,      COLRESSS_ROOM,               PAL_SINGLE,    ColresssRoomPalette
+	special_bg_pal map,      CHAMPIONS_ROOM_ENTRANCE,     PAL_TIMEOFDAY, PkmnLeaguePalette
+	special_bg_pal map,      CHAMPIONS_ROOM,              PAL_SINGLE,    ChampionsRoomPalette
 	
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
@@ -260,6 +268,54 @@ endc
 NsRoomPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/ns_room.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+MarshalsRoomPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/marshals_room.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+GrimsleysRoomPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/grimsleys_room.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+ElesasRoomPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/elesas_room.pal"
+else
+rept 8
+	RGB_MONOCHROME_BLACK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_LIGHT
+	RGB_MONOCHROME_WHITE
+endr
+endc
+
+ColresssRoomPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/colresss_room.pal"
 else
 rept 8
 	RGB_MONOCHROME_BLACK
@@ -746,6 +802,39 @@ endc
 VictoryRoadEntrancePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/victory_road.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+PkmnLeaguePalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/pkmn_league.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

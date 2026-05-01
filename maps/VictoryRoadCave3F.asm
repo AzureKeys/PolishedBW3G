@@ -7,7 +7,7 @@ VictoryRoadCave3F_MapScriptHeader:
 	warp_event 19, 19, VICTORY_ROAD_OUTDOOR_2F, 6
 	warp_event  7, 29, VICTORY_ROAD_OUTDOOR_2F, 7
 	warp_event 15,  7, VICTORY_ROAD_OUTDOOR_2F, 8
-	;warp_event  7,  5, POKEMON_LEAGUE_ENTRANCE, 1
+	warp_event  7,  5, PKMN_LEAGUE_ENTRANCE, 1
 
 	def_coord_events
 
