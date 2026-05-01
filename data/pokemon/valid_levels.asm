@@ -415,4 +415,5 @@ endc
 	db  56, 100 ; Annihilape
 	db  32, 100 ; Dudunsparce
 	db  64, 100 ; Kingambit
+	db 255, 255 ; Genesis
 	assert_table_length NUM_SPECIES

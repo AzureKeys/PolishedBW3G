@@ -300,6 +300,7 @@ VirizionFrames:   INCLUDE "gfx/pokemon/virizion/frames.asm"
 ReshiramFrames:   INCLUDE "gfx/pokemon/reshiram/frames.asm"
 ZekromFrames:     INCLUDE "gfx/pokemon/zekrom/frames.asm"
 KeldeoFrames:     INCLUDE "gfx/pokemon/keldeo/frames.asm"
+GenesisFrames:   
 GenesectFrames:   INCLUDE "gfx/pokemon/genesect/frames.asm"
 RunerigusFrames:  INCLUDE "gfx/pokemon/runerigus/frames.asm"
 KingambitFrames:  INCLUDE "gfx/pokemon/kingambit/frames.asm"

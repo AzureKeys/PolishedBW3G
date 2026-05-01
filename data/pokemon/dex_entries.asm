@@ -4466,3 +4466,9 @@ DarmanitanGalarianZenPokedexEntry::
 	page "destroy a dump"
 	next "truck with just"
 	next "one punch.@"
+
+SECTION "GenesisPokedexEntry", ROMX
+GenesisPokedexEntry::
+	db "???@"
+	db "What…?"
+	page "What is this…?@"

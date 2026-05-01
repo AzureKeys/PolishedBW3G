@@ -350,6 +350,7 @@ VirizionAnimation:   INCLUDE "gfx/pokemon/virizion/anim.asm"
 ReshiramAnimation:   INCLUDE "gfx/pokemon/reshiram/anim.asm"
 ZekromAnimation:     INCLUDE "gfx/pokemon/zekrom/anim.asm"
 KeldeoAnimation:     INCLUDE "gfx/pokemon/keldeo/anim.asm"
+GenesisAnimation:   
 GenesectAnimation:   INCLUDE "gfx/pokemon/genesect/anim.asm"
 RunerigusAnimation:  INCLUDE "gfx/pokemon/runerigus/anim.asm"
 KingambitAnimation:  INCLUDE "gfx/pokemon/kingambit/anim.asm"

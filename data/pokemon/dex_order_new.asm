@@ -410,4 +410,5 @@ NewPokedexOrder:
 	dp LARVITAR
 	dp PUPITAR
 	dp TYRANITAR
+	dp GENESIS_MON
 	assert_table_length NUM_POKEMON

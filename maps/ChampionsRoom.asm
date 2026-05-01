@@ -55,12 +55,12 @@ ChampionsRoom_StartGenesisEncounter:
 	pause 15
 	applymovement PLAYER, ChampionsRoom_PlayerApproachMovement
 	pause 60
-	;cry GENESIS_MON
+	cry GENESIS_MON
 	waitsfx
 	turnobject CHAMPIONSROOM_GENESIS, DOWN
 	pause 30
 	applymovement CHAMPIONSROOM_GENESIS, .GenesisApproachMovement
-	;cry GENESIS_MON
+	cry GENESIS_MON
 	waitsfx
 	winlosstext .BeatenText, 0
 	loadtrainer GENESIS, 1
@@ -68,24 +68,24 @@ ChampionsRoom_StartGenesisEncounter:
 	dontrestartmapmusic
 	reloadmapafterbattle
 	opentext
-	;cry GENESIS_MON
+	cry GENESIS_MON
 	writetext .RoarText
 	waitbutton
 	closetext
-	;cry GENESIS_MON
+	cry GENESIS_MON
 	waitsfx
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GENESIS
-	;loadwildmon GENESIS_MON, 70
+	loadwildmon GENESIS_MON, 70
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	setevent EVENT_BEAT_GENESIS_PROJECT
-	;cry GENESIS_MON
+	cry GENESIS_MON
 	opentext
 	writetext .RoarText
 	promptbutton
 	waitsfx
-	;setval GENESIS_MON
+	setval GENESIS_MON
 	special PlaySlowCry
 	writetext .RoarText
 	waitbutton

@@ -416,4 +416,5 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; ANNIHILAPE*
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; DUDUNSPARCE*
 	mon_cry CRY_GROWLITHE,   $2fc,  $1c4 ; KINGAMBIT*
+	mon_cry CRY_LAPRAS,      $102,  $0e0 ; GENESIS_MON*
 	assert_table_length NUM_SPECIES

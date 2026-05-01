@@ -350,6 +350,7 @@ VirizionAnimationExtra:   INCLUDE "gfx/pokemon/virizion/anim_idle.asm"
 ReshiramAnimationExtra:   INCLUDE "gfx/pokemon/reshiram/anim_idle.asm"
 ZekromAnimationExtra:     INCLUDE "gfx/pokemon/zekrom/anim_idle.asm"
 KeldeoAnimationExtra:     INCLUDE "gfx/pokemon/keldeo/anim_idle.asm"
+GenesisAnimationExtra:   
 GenesectAnimationExtra:   INCLUDE "gfx/pokemon/genesect/anim_idle.asm"
 RunerigusAnimationExtra:  INCLUDE "gfx/pokemon/runerigus/anim_idle.asm"
 KingambitAnimationExtra:  INCLUDE "gfx/pokemon/kingambit/anim_idle.asm"

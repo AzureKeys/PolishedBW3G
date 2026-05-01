@@ -831,6 +831,8 @@ INCLUDE "gfx/pokemon/dudunsparce/normal.pal"
 INCLUDE "gfx/pokemon/dudunsparce/shiny.pal"
 INCLUDE "gfx/pokemon/kingambit/normal.pal"
 INCLUDE "gfx/pokemon/kingambit/shiny.pal"
+INCLUDE "gfx/pokemon/genesis/palette.pal"
+INCLUDE "gfx/pokemon/genesis/palette.pal"
 	assert_table_length NUM_SPECIES + 1
 	
 INCLUDE "gfx/pokemon/pikachu/normal.pal" ; Fly

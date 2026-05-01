@@ -287,6 +287,7 @@ EvosAttacksPointersLateGen::
 	dw AnnihilapeEvosAttacks
 	dw DudunsparceEvosAttacks
 	dw KingambitEvosAttacks
+	dw GenesisEvosAttacks
 .IndirectEnd::
 	
 	evos_attacks Lotad
@@ -5339,6 +5340,12 @@ EvosAttacksPointersLateGen::
 	learnset 57, IRON_HEAD
 	learnset 64, SWORDS_DANCE
 	learnset 71, SUCKER_PUNCH ; Guillotine → egg move
+	
+	evos_attacks Genesis
+	learnset 1, EARTHQUAKE
+	learnset 1, FLAMETHROWER
+	learnset 1, THUNDERBOLT
+	learnset 1, ICE_BEAM
 
 	; Also terminates previous mon's learnset
 EggEvosAttacks:

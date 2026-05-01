@@ -274,8 +274,8 @@ MysterymanPic: INCBIN "gfx/trainers/mysteryman.2bpp.lzp"
 SECTION "ZinzolinPic", ROMX
 ZinzolinPic: INCBIN "gfx/trainers/zinzolin.2bpp.lzp"
 
-SECTION "GenesisPic", ROMX
-GenesisPic: INCBIN "gfx/trainers/genesis.2bpp.lzp"
+; SECTION "GenesisPic", ROMX
+; GenesisPic: INCBIN "gfx/trainers/genesis.2bpp.lzp"
 
 SECTION "BiancaPic", ROMX
 BiancaPic: INCBIN "gfx/trainers/bianca.2bpp.lzp"

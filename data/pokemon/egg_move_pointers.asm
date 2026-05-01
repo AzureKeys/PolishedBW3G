@@ -410,6 +410,7 @@ EggSpeciesMovesPointers::
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw DunsparceEggSpeciesMoves         ; Dudunsparce
 	dw PawniardEggSpeciesMoves          ; Kingambit
+	dw NoEggSpeciesMoves                ; Genesis
 	assert_table_length NUM_SPECIES
 
 	dw DunsparceEggSpeciesMoves         ; Dundunsparse (Three Segment Form)

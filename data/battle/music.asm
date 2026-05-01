@@ -38,7 +38,7 @@ BattleMusic_Trainers:
 
 BattleMusic_Legendaries:
 	music_legendary GENESECT,   PLAIN_FORM, MUSIC_GENESECT_BATTLE
-	;music_legendary GENESIS_MON, PLAIN_FORM, MUSIC_GENESIS_BATTLE
+	music_legendary GENESIS_MON, PLAIN_FORM, MUSIC_GENESIS_BATTLE
 	dw -1
 
 BattleMusic_RegionalTrainers:

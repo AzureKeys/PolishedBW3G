@@ -2015,9 +2015,13 @@ EnamorusPlainFrontpic: INCBIN "gfx/pokemon/enamorus_plain/front.animated.2bpp.lz
 EnamorusPlainBackpic:  INCBIN "gfx/pokemon/enamorus_plain/back.2bpp.lzp"
 EnamorusPlainFrames:   INCLUDE "gfx/pokemon/enamorus_plain/frames.asm"
 
-SECTION "Genesect Pics", ROMX
+SECTION "Genesect/Genesis Pics", ROMX
+GenesisPic::
+GenesisFrontpic:  INCBIN "gfx/pokemon/genesis/front.animated.2bpp.lzp"
 GenesectFrontpic: INCBIN "gfx/pokemon/genesect/front.animated.2bpp.lzp"
+GenesisBackpic:  
 GenesectBackpic:  INCBIN "gfx/pokemon/genesect/back.2bpp.lzp"
+GenesisFrames:    INCLUDE "gfx/pokemon/genesis/frames.asm"  
 GenesectFrames:   INCLUDE "gfx/pokemon/genesect/frames.asm"
 
 SECTION "Sylveon Pics", ROMX

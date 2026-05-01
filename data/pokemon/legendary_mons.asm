@@ -16,4 +16,5 @@ UberMons::
 	dp KYUREM
 	dp MELOETTA
 	dp GENESECT
+	dp GENESIS_MON
 	db 0

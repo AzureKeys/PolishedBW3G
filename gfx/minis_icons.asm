@@ -1984,8 +1984,11 @@ MeloettaMiniMask:: INCBIN "gfx/minis/meloetta_mask.1bpp.lzp"
 MeloettaIcon::     INCBIN "gfx/icons/meloetta.2bpp.lzp"
 
 SECTION "Genesect Mini Icon", ROMX
+GenesisMini::     
 GenesectMini::     INCBIN "gfx/minis/genesect.2bpp.lzp"
+GenesisMiniMask:: 
 GenesectMiniMask:: INCBIN "gfx/minis/genesect_mask.1bpp.lzp"
+GenesisIcon::     
 GenesectIcon::     INCBIN "gfx/icons/genesect.2bpp.lzp"
 
 SECTION "Sylveon Mini Icon", ROMX

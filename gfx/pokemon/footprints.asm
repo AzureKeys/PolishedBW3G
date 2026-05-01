@@ -167,6 +167,7 @@ KyuremFootprint::
 KeldeoFootprint::
 MeloettaFootprint::
 GenesectFootprint::
+GenesisFootprint::
 RunerigusFootprint::
 LotadFootprint::
 LombreFootprint::

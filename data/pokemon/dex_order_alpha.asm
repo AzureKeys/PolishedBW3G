@@ -410,4 +410,5 @@ AlphabeticalPokedexOrder:
 	dp ZORUA
 	dp ZUBAT
 	dp ZWEILOUS
+	dp GENESIS_MON
 	assert_table_length NUM_POKEMON

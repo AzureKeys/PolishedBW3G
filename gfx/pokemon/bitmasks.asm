@@ -350,6 +350,7 @@ VirizionBitmasks:   INCLUDE "gfx/pokemon/virizion/bitmask.asm"
 ReshiramBitmasks:   INCLUDE "gfx/pokemon/reshiram/bitmask.asm"
 ZekromBitmasks:     INCLUDE "gfx/pokemon/zekrom/bitmask.asm"
 KeldeoBitmasks:     INCLUDE "gfx/pokemon/keldeo/bitmask.asm"
+GenesisBitmasks:   
 GenesectBitmasks:   INCLUDE "gfx/pokemon/genesect/bitmask.asm"
 RunerigusBitmasks:  INCLUDE "gfx/pokemon/runerigus/bitmask.asm"
 KingambitBitmasks:  INCLUDE "gfx/pokemon/kingambit/bitmask.asm"

@@ -414,6 +414,7 @@ OverworldMonIconColors::
 	iconpal TAN_BROWN, TAN_BLUE ; ANNIHILAPE
 	iconpal TAN_AZURE, TAN_RED ; DUDUNSPARCE
 	iconpal TAN_RED, TAN_BLUE ; KINGAMBIT
+	iconpal TAN_BLACK, TAN_BLACK ; GENESIS_MON
 	assert_table_length NUM_SPECIES
 
 rept NUM_PIKACHU - 1
