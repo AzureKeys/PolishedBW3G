@@ -1,81 +1,58 @@
 HallOfFame_MapScriptHeader:
 	def_scene_scripts
-	scene_script HallOfFameEnterScene, SCENE_HALLOFFAME_ENTER
-	scene_const SCENE_HALLOFFAME_NOOP
+	scene_script HallOfFameTrigger0
+	scene_script HallOfFameTrigger1
 
 	def_callbacks
 
 	def_warp_events
+	warp_event  4, 13, CHAMPIONS_ROOM, 2
 
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-	object_event  4, 12, SPRITE_JUNIPER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
+	object_event  4, 12, SPRITE_JUNIPER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, 0, -1
 
 	object_const_def
-	const HALLOFFAME_LANCE
-
-HallOfFameEnterScene:
-	sdefer .Script
+	const HALLOFFAME_JUNIPER
+	
+HallOfFameTrigger0:
+	sdefer HallOfFameScene
+HallOfFameTrigger1:
 	end
 
-.Script:
-	follow HALLOFFAME_LANCE, PLAYER
-	applymovement HALLOFFAME_LANCE, .WalkUpMovement
+HallOfFameScene:
+	pause 30
+	follow HALLOFFAME_JUNIPER, PLAYER
+	applymovement HALLOFFAME_JUNIPER, .WalkUpMovement
 	stopfollow
 	turnobject PLAYER, RIGHT
-	opentext
-	writetext .LanceText1
-	waitbutton
-	readvar VAR_BADGES
-	ifequalfwd 16, .CheckGoldTrophy
-	checkevent EVENT_DECO_SILVER_TROPHY
-	iftruefwd .NoTrophy
-	sjumpfwd .SilverTrophy
-.CheckGoldTrophy
-	checkevent EVENT_DECO_GOLD_TROPHY
-	iftruefwd .NoTrophy
-	sjumpfwd .GoldTrophy
-.SilverTrophy
-	writetext .LanceTrophyText
-	waitbutton
-	setevent EVENT_DECO_SILVER_TROPHY
-	writetext .SilverTrophyText
-	playsound SFX_ITEM
-	pause 60
-	waitbutton
-	writetext .SilverTrophySentText
-	waitbutton
-	sjumpfwd .NoTrophy
-.GoldTrophy
-	writetext .LanceTrophyText
-	waitbutton
-	setevent EVENT_DECO_GOLD_TROPHY
-	writetext .GoldTrophyText
-	playsound SFX_ITEM
-	pause 60
-	waitbutton
-	writetext .GoldTrophySentText
-	waitbutton
-.NoTrophy
-	writetext .LanceText2
-	waitbutton
-	closetext
-	turnobject HALLOFFAME_LANCE, UP
+	showtext .JuniperText
+	turnobject HALLOFFAME_JUNIPER, UP
 	applyonemovement PLAYER, slow_step_up
-	setscene SCENE_HALLOFFAME_NOOP
+	setscene 1
 	pause 15
 	setval 2 ; Machine is in the Hall of Fame
 	special HealMachineAnim
-	setevent EVENT_BEAT_POKEMON_LEAGUE
-	special RespawnOneOffs
 	special HealParty
-	setevent EVENT_BATTLE_TOWER_OPEN
-	clearevent EVENT_BATTLE_TOWER_CLOSED
-	blackoutmod HUMILAU_CITY
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .done
+; Special case for beating the league for the 1st time
+	setevent EVENT_BEAT_POKEMON_LEAGUE
+	clearevent EVENT_NS_ROOM_N ; appear postgame N
+	clearevent EVENT_ASPERTIA_CITY_BLOCKER ; Cheren is in Members Room
+	specialphonecall SPECIALCALL_BIANCA_MEMBERS_CARD
 	halloffame
+	setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
+	disappear PLAYER
+	warp CHAMPIONS_ROOM,  7, 13
+	end
+	
+.done
+	halloffame
+	returnfromcredits
 	end
 
 .WalkUpMovement:
@@ -90,79 +67,54 @@ HallOfFameEnterScene:
 	step_right
 	turn_head_left
 	step_end
+	
+.JuniperText:
+	text "Juniper: This room"
+	line "is the Hall Of"
+	cont "Fame."
 
-.LanceText1:
-	text "Lance: It's been a"
-	line "long time since I"
-	cont "last came here."
+	para "It exists to"
+	line "commemorate the"
 
-	para "This is where we"
-	line "honor the League"
+	para "trainers and #-"
+	line "mon who have"
 
-	para "Champions for all"
-	line "eternity."
+	para "demonstrated their"
+	line "stellar strength"
 
-	para "Their courageous"
-	line "#mon are also"
-	cont "inducted."
-	done
+	para "and kindness of"
+	line "heart."
 
-.LanceTrophyText:
-	text "Take this as a"
-	line "memento of what"
+	para "<PLAYER>, with your"
+	line "skill and persis-"
+	cont "tence, you have"
 
-	para "you accomplished"
-	line "here today."
-	done
+	para "earned your place"
+	line "in this Hall Of"
+	cont "Fame."
 
-.LanceText2:
-	text "Here today, we"
-	line "witnessed the rise"
+	para "Your name, the"
+	line "account of your"
 
-	para "of a new League"
-	line "Champion--a"
+	para "journey, and the"
+	line "history of your"
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "battles will all"
+	line "be recorded here."
 
-	para "and trust toward,"
-	line "all #mon."
+	para "I hope all of this"
+	line "becomes a support"
 
-	para "A trainer who"
-	line "succeeded through"
+	para "to you and helps"
+	line "you grow stronger."
 
-	para "perseverance and"
-	line "determination."
+	para "Now, <PLAYER>, you"
+	line "and the #mon"
 
-	para "The new League"
-	line "Champion who has"
-
-	para "all the makings"
-	line "of greatness!"
-
-	para "<PLAYER>, allow me"
-	line "to register you"
-
-	para "and your partners"
-	line "as Champions!"
-	done
-
-.GoldTrophyText:
-	text "<PLAYER> received"
-	line "Gold Trophy."
-	done
-
-.GoldTrophySentText:
-	text "Gold Trophy"
-	line "was sent home."
-	done
-
-.SilverTrophyText:
-	text "<PLAYER> received"
-	line "Silver Trophy."
-	done
-
-.SilverTrophySentText:
-	text "Silver Trophy"
-	line "was sent home."
+	para "who fought by your"
+	line "side will be"
+	
+	para "recorded in this"
+	line "machine, as"
+	cont "Champions!"
 	done

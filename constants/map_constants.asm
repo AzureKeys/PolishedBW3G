@@ -34,9 +34,6 @@ ENDM
 	map_const BATTLE_TOWER_HALLWAY,                       11,  2 ;  5
 	map_const BATTLE_TOWER_OUTSIDE,                       10, 13 ;  6
 
-	newgroup   
-	map_const HALL_OF_FAME,                                5,  7 ;  9
-
 	newgroup                                                     ;  2 
 	map_const TRADE_CENTER,                                5,  4 ;  2
 	map_const COLOSSEUM,                                   5,  4 ;  3
@@ -361,5 +358,6 @@ ENDM
 	map_const COLRESSS_ROOM,                                 8,  7 ; 16
 	map_const CHAMPIONS_ROOM_ENTRANCE,                       9, 11 ; 17
 	map_const CHAMPIONS_ROOM,                                8, 10 ; 18
+	map_const HALL_OF_FAME,                                  5,  7 ; 19
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

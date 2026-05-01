@@ -168,10 +168,6 @@ SECTION "BattleTowerOutside_BlockData", ROMX
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lzp"
 
-SECTION "HallOfFame_BlockData", ROMX
-HallOfFame_BlockData:
-	INCBIN "maps/HallOfFame.ablk.lzp"
-
 SECTION "HumilauCity_BlockData", ROMX
 HumilauCity_BlockData:
 	INCBIN "maps/HumilauCity.ablk.lzp"
@@ -932,5 +928,9 @@ ChampionsRoomEntrance_BlockData:
 SECTION "ChampionsRoom_BlockData", ROMX
 ChampionsRoom_BlockData:
 	INCBIN "maps/ChampionsRoom.ablk.lzp"
+
+SECTION "HallOfFame_BlockData", ROMX
+HallOfFame_BlockData:
+	INCBIN "maps/HallOfFame.ablk.lzp"
 
 ENDSECTION

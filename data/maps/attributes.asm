@@ -250,6 +250,7 @@ ENDM
 	map_attributes ColresssRoom, COLRESSS_ROOM, $0, 0
 	map_attributes ChampionsRoomEntrance, CHAMPIONS_ROOM_ENTRANCE, $0, 0
 	map_attributes ChampionsRoom, CHAMPIONS_ROOM, $0, 0
+	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -378,7 +379,6 @@ ENDM
 	map_attributes Route9OpelucidGate, ROUTE_9_OPELUCID_GATE, $0, 0
 	map_attributes Route23Gate, ROUTE_23_GATE, $0, 0
 	
-	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0
 	map_attributes HiddenTreeGrotto, HIDDEN_TREE_GROTTO, $0, 0

@@ -22,7 +22,6 @@ MACRO special_bg_pal
 	dw \4 ; source
 ENDM
 	special_bg_pal darkness, (unused),                    PAL_SINGLE,    DarknessBGPalette
-	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    HallOfFamePalette
 	special_bg_pal map,      PLAYERS_HOUSE_1F,            PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal map,      PLAYERS_HOUSE_2F,            PAL_SINGLE,    PlayersHousePalette
 	special_bg_pal map,      MARLONS_HOUSE,               PAL_SINGLE,    PlayersHousePalette
@@ -57,6 +56,7 @@ ENDM
 	special_bg_pal map,      COLRESSS_ROOM,               PAL_SINGLE,    ColresssRoomPalette
 	special_bg_pal map,      CHAMPIONS_ROOM_ENTRANCE,     PAL_TIMEOFDAY, PkmnLeaguePalette
 	special_bg_pal map,      CHAMPIONS_ROOM,              PAL_SINGLE,    ChampionsRoomPalette
+	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    ChampionsRoomPalette
 	
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
@@ -997,19 +997,6 @@ endc
 PokeCenterPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/pokecenter.pal"
-else
-rept 7
-	MONOCHROME_RGB_FOUR
-endr
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_BLACK
-endc
-
-HallOfFamePalette:
-if !DEF(MONOCHROME)
-INCLUDE "maps/HallOfFame.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

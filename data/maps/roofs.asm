@@ -4,7 +4,6 @@ MapGroupRoofs:
 	table_width 1
 	db -1            ; 0
 	db ROOF_OLIVINE  ; Battle Tower Outside
-	db -1            ; 16
 	db -1            ; Special
 	db -1            ; Dungeons
 	db -1            ; Humilau
