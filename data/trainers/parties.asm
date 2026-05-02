@@ -3990,15 +3990,41 @@ GialloGroup:
 
 	def_trainer_class GIALLO
 	def_trainer 1, "Giallo"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 26, JOLTIK
+		tr_extra COMPOUNDEYES
+		tr_evs 96 Spe
+		tr_moves THUNDER_FANG, BUG_BITE, THUNDER_WAVE, VOLT_SWITCH
+	tr_mon 27, EMOLGA
+		tr_extra STATIC
+		tr_evs 96 Atk
+		tr_moves SPARK, ACROBATICS, DOUBLE_TEAM, QUICK_ATTACK
+	tr_mon 30, FLAAFY @ EVIOLITE
+		tr_extra STATIC
+		tr_evs 96 SAt
+		tr_moves SHOCK_WAVE, CONFUSE_RAY, CURSE, TAKE_DOWN
 	end_trainer
 
 	def_trainer 2, "Giallo"
-	tr_mon 73, RATTATA @ TWISTEDSPOON
-		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	tr_mon 57, EMOLGA @ 
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 57, MAGNETON @ AIR_BALLOON
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 57, ELECTABUZZ @ EVIOLITE
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 57, GALVANTULA @ 
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 57, AMPHAROS @ 
+		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_evs 164 Atk, 252 Spe
+		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
 	end_trainer
 
 
