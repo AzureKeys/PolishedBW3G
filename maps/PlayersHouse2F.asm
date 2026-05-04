@@ -173,7 +173,7 @@ endr
 	setevent EVENT_BEAT_CILAN
 	setevent EVENT_BEAT_SKYLA
 	setevent EVENT_BEAT_DRAYDEN
-	setevent EVENT_BEAT_POKEMON_LEAGUE
+	;setevent EVENT_BEAT_POKEMON_LEAGUE
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
 	; fly anywhere
@@ -232,11 +232,11 @@ endr
 	loadmem wPartyMon2PP+3, 10
 	loadmem wPartyMon2PokerusStatus, 1
 	; variant form test
-	givepoke UNFEZANT, UNFEZANT_FEMALE_FORM, 50
+	givepoke UNFEZANT, UNFEZANT_FEMALE_FORM, 100
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
 	; ext species test
-	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
+	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 100
 	; evolve during battle
 	givepoke PUPITAR, 54
 	loadmem wPartyMon5Exp+0, 207967 >> 16
@@ -259,8 +259,13 @@ endr
 	addcellnum PHONE_BIANCA
 	addcellnum PHONE_CHEREN
 	addcellnum PHONE_BILL
-	warpfacing DOWN, VICTORY_ROAD_ENTRANCE_NORTH, 15, 6
-	closetext
+	;setevent EVENT_CHAMPIONS_ROOM_GENESIS
+	;clearevent EVENT_CHAMPIONS_ROOM_GENESECT_1
+	;halloffame
+	;setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
+	;disappear PLAYER
+	warp CHAMPIONS_ROOM_ENTRANCE,  7, 13
+	;closetext
 	end
 
 FillPokedex:

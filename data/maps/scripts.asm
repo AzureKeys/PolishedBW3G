@@ -413,6 +413,7 @@ INCLUDE "maps/ColresssRoom.asm"
 INCLUDE "maps/ChampionsRoomEntrance.asm"
 INCLUDE "maps/ChampionsRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
+INCLUDE "maps/PostCreditsDummy.asm"
 
 
 ENDSECTION

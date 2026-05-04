@@ -189,6 +189,7 @@ ChampionsRoomEntranceShadowsScript:
 	
 .TeleportInMovement:
 	teleport_to
+	turn_head_down
 	step_end
 	
 .ShadowsApproachMovement:

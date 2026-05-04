@@ -124,13 +124,13 @@ ENDM
 	map_attributes Route23West, ROUTE_23_WEST, $19, EAST
 	connection east, Route23East, ROUTE_23_EAST, 0
 	
-	map_attributes VictoryRoadEntranceSouthEast, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, $0, WEST | NORTH
-	connection west, VictoryRoadEntranceSouthWest, VICTORY_ROAD_ENTRANCE_SOUTH_WEST, 0
+	map_attributes VictoryRoadEntranceSouthEast, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, $21, NORTH | WEST
 	connection north, VictoryRoadEntranceNorth, VICTORY_ROAD_ENTRANCE_NORTH, -14
+	connection west, VictoryRoadEntranceSouthWest, VICTORY_ROAD_ENTRANCE_SOUTH_WEST, 0
 	
-	map_attributes VictoryRoadEntranceSouthWest, VICTORY_ROAD_ENTRANCE_SOUTH_WEST, $0, EAST | NORTH
-	connection east, VictoryRoadEntranceSouthEast, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, 0
+	map_attributes VictoryRoadEntranceSouthWest, VICTORY_ROAD_ENTRANCE_SOUTH_WEST, $0, NORTH | EAST
 	connection north, VictoryRoadEntranceNorth, VICTORY_ROAD_ENTRANCE_NORTH, 0
+	connection east, VictoryRoadEntranceSouthEast, VICTORY_ROAD_ENTRANCE_SOUTH_EAST, 0
 	
 	map_attributes VictoryRoadEntranceNorthConnectionDummy, VICTORY_ROAD_ENTRANCE_NORTH_CONNECTION_DUMMY, $0, NORTH
 	connection north, VictoryRoadEntranceNorth, VICTORY_ROAD_ENTRANCE_NORTH, 0
@@ -251,6 +251,7 @@ ENDM
 	map_attributes ChampionsRoomEntrance, CHAMPIONS_ROOM_ENTRANCE, $0, 0
 	map_attributes ChampionsRoom, CHAMPIONS_ROOM, $0, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
+	map_attributes PostCreditsDummy, POST_CREDITS_DUMMY, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

@@ -32,11 +32,13 @@ PkmnLeagueMainTrigger2:
 	
 PkmnLeagueMain_EnterScript:
 	applymovement PLAYER, .Movement
+	reanchormap
 	playsound SFX_STRENGTH
 	earthquake 80
 	changeblock 12, 14, $b9
-	changeblock 12, 14, $ba
-	reanchormap
+	changeblock 14, 14, $ba
+	refreshmap
+	closetext
 	waitsfx
 ; if we've reached the Shadows, but not beat the league, that means
 ; we lost to Genesis/Juniper, so set statue to warp
@@ -70,7 +72,7 @@ PkmnLeagueMainTileScript:
 	checkscene
 	ifequalfwd 0, .CheckMarshal
 	changeblock 12, 14, $b9
-	changeblock 12, 14, $ba
+	changeblock 14, 14, $ba
 ; Show lit floor tiles for E4 members we've beaten
 .CheckMarshal
 	checkevent EVENT_BEAT_ELITE_FOUR_MARSHAL

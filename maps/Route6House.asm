@@ -17,9 +17,10 @@ Route6House_MapScriptHeader:
 Route6HouseHealerScript:
 	showtextfaceplayer .IntroText
 	special FadeOutPalettes
+	special LoadMapPalettes
 	playsound SFX_FULL_HEAL
 	special HealParty
-	special FadeInPalettes
+	special FadeInPalettes_EnableDynNoApply
 	showtext .DoneText
 	end
 	

@@ -359,5 +359,6 @@ ENDM
 	map_const CHAMPIONS_ROOM_ENTRANCE,                       9, 11 ; 17
 	map_const CHAMPIONS_ROOM,                                8, 10 ; 18
 	map_const HALL_OF_FAME,                                  5,  7 ; 19
+	map_const POST_CREDITS_DUMMY,                            1,  1 ; 20
 	
 DEF NUM_MAP_GROUPS EQU const_value ; 37

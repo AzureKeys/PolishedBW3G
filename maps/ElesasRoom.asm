@@ -30,21 +30,28 @@ ElesasRoom_EnterScript:
 	changeblock  8,  4, $8b ; warp panel active
 .MovePlayer
 	applymovement PLAYER, .Movement1
+	reanchormap
 	playsound SFX_MENU
 	changeblock  4, 12, $7b
 	changeblock  8, 12, $90
-	reanchormap
+	refreshmap
+	closetext
 	applymovement PLAYER, .Movement2
+	reanchormap
 	playsound SFX_MENU
 	changeblock  4, 10, $7b
 	changeblock  8, 10, $90
-	reanchormap
+	refreshmap
+	closetext
 	applymovement PLAYER, .Movement3
+	reanchormap
 	playsound SFX_STRENGTH
 	earthquake 80
 	changeblock  6,  8, $2b
-	reanchormap
+	refreshmap
+	closetext
 	waitsfx
+	reanchormap
 	playsound SFX_MENU
 	changeblock  2,  2, $7b
 	changeblock  2,  4, $7b
@@ -52,7 +59,8 @@ ElesasRoom_EnterScript:
 	changeblock 10,  2, $87
 	changeblock 10,  4, $83
 	changeblock 10,  6, $8f
-	reanchormap
+	refreshmap
+	closetext
 	setscene 1
 	waitsfx
 	end

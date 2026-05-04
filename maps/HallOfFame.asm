@@ -46,8 +46,7 @@ HallOfFameScene:
 	specialphonecall SPECIALCALL_BIANCA_MEMBERS_CARD
 	halloffame
 	setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
-	disappear PLAYER
-	warp CHAMPIONS_ROOM,  7, 13
+	warp POST_CREDITS_DUMMY,  1,  1
 	end
 	
 .done

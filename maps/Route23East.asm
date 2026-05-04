@@ -14,22 +14,22 @@ Route23East_MapScriptHeader:
 	warp_event  7, 41, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
-	coord_event 16, 26, 1, Route23EastBridge1OverheadTrigger
-	coord_event 16, 27, 1, Route23EastBridge1OverheadTrigger
-	coord_event 17, 26, 0, Route23EastBridge1UnderfootTrigger
-	coord_event 17, 27, 0, Route23EastBridge1UnderfootTrigger
-	coord_event 22, 26, 0, Route23EastBridge1UnderfootTrigger
-	coord_event 22, 27, 0, Route23EastBridge1UnderfootTrigger
-	coord_event 23, 26, 1, Route23EastBridge1OverheadTrigger
-	coord_event 23, 27, 1, Route23EastBridge1OverheadTrigger
-	coord_event 13, 12, 1, Route23EastBridge2OverheadTrigger
-	coord_event 14, 12, 1, Route23EastBridge2OverheadTrigger
-	coord_event 13, 13, 0, Route23EastBridge2UnderfootTrigger
-	coord_event 14, 13, 0, Route23EastBridge2UnderfootTrigger
-	coord_event 13, 18, 0, Route23EastBridge2UnderfootTrigger
-	coord_event 14, 18, 0, Route23EastBridge2UnderfootTrigger
-	coord_event 15, 18, 1, Route23EastBridge2OverheadTrigger
-	coord_event 15, 19, 1, Route23EastBridge2OverheadTrigger
+	coord_event 13, 12, 1, Route23EastBridge1OverheadTrigger
+	coord_event 14, 12, 1, Route23EastBridge1OverheadTrigger
+	coord_event 13, 13, 0, Route23EastBridge1UnderfootTrigger
+	coord_event 14, 13, 0, Route23EastBridge1UnderfootTrigger
+	coord_event 13, 18, 0, Route23EastBridge1UnderfootTrigger
+	coord_event 14, 18, 0, Route23EastBridge1UnderfootTrigger
+	coord_event 15, 18, 1, Route23EastBridge1OverheadTrigger
+	coord_event 15, 19, 1, Route23EastBridge1OverheadTrigger
+	coord_event 16, 26, 1, Route23EastBridge2OverheadTrigger
+	coord_event 16, 27, 1, Route23EastBridge2OverheadTrigger
+	coord_event 17, 26, 0, Route23EastBridge2UnderfootTrigger
+	coord_event 17, 27, 0, Route23EastBridge2UnderfootTrigger
+	coord_event 22, 26, 0, Route23EastBridge2UnderfootTrigger
+	coord_event 22, 27, 0, Route23EastBridge2UnderfootTrigger
+	coord_event 23, 26, 1, Route23EastBridge2OverheadTrigger
+	coord_event 23, 27, 1, Route23EastBridge2OverheadTrigger
 	coord_event  4, 10, 1, Route23EastBridgesOverheadTrigger
 	coord_event  4, 11, 1, Route23EastBridgesOverheadTrigger
 	coord_event 23, 41, 1, Route23EastBridgesOverheadTrigger

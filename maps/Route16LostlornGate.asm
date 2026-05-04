@@ -29,9 +29,10 @@ R16LostlornGateNurseScript:
 	faceplayer
 	showtext .HealText
 	special FadeOutPalettes
+	special LoadMapPalettes
 	playsound SFX_FULL_HEAL
 	special HealParty
-	special FadeInPalettes
+	special FadeInPalettes_EnableDynNoApply
 	waitsfx
 	jumpthistext
 	text "There, that should"

@@ -62,6 +62,12 @@ WantToBattleText::
 	line "want to battle!"
 	prompt
 
+GenesisWantsToBattleText::
+	text "The Genesis"
+	line "Project wants to"
+	cont "battle!"
+	prompt
+
 BattleText_WildFled:
 	text "Wild "
 	stop_compressing_text ; fallthrough
@@ -361,6 +367,12 @@ BattleText_EnemyWereDefeated:
 	line "were defeated!"
 	prompt
 
+BattleText_GenesisWasDefeated:
+	text "The Genesis"
+	line "Project was"
+	cont "defeated!"
+	prompt
+
 TiedAgainstText:
 	text "Tied against"
 	line "<ENEMY>!"
@@ -417,6 +429,17 @@ BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn:
 	line "your #mon?"
 	done
 
+BattleText_GenesisIsAboutToUseWillPlayerSwitchPkmn:
+	text "The Genesis"
+	line "Project is about"
+	cont "to use "
+	text_ram wEnemyMonNickname
+	text "."
+
+	para "Will you switch"
+	line "your #mon?"
+	done
+
 BattleText_EnemyIsAboutToSwitchWillPlayerSwitchPkmn:
 	text "<ENEMY>"
 	line "is about to switch"
@@ -435,9 +458,26 @@ BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn:
 	line "your #mon?"
 	done
 
+BattleText_GenesisIsAboutToSwitchWillPlayerSwitchPkmn:
+	text "The Genesis"
+	line "Project is about"
+	cont "to switch #mon."
+
+	para "Will you switch"
+	line "your #mon?"
+	done
+
 BattleText_EnemySentOut:
 	text "<ENEMY>"
 	line "sent out"
+	cont ""
+	text_ram wEnemyMonNickname
+	text "!"
+	done
+
+BattleText_GenesisSentOut:
+	text "The Genesis"
+	line "Project sent out"
 	cont ""
 	text_ram wEnemyMonNickname
 	text "!"

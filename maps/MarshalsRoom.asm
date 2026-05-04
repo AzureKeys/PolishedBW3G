@@ -30,17 +30,21 @@ MarshalsRoom_EnterScript:
 	changeblock  8,  4, $37 ; warp panel active
 .MovePlayer
 	applymovement PLAYER, .Movement
+	reanchormap
 	playsound SFX_MEGA_PUNCH
 	changeblock  4,  6, $7c
 	changeblock  6,  6, $7d
 	changeblock  8,  6, $7e
 	changeblock 10,  6, $7f
-	reanchormap
+	refreshmap
+	closetext
 	waitsfx
+	reanchormap
 	playsound SFX_STRENGTH
 	earthquake 80
 	changeblock  6,  8, $2b
-	reanchormap
+	refreshmap
+	closetext
 	waitsfx
 	pause 30
 	setscene 1

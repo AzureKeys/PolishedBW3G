@@ -2304,6 +2304,11 @@ WinTrainerBattle:
 	call z, PlayVictoryMusic
 	farcall Battle_GetTrainerName
 
+	ld hl, BattleText_GenesisWasDefeated
+	ld a, [wOtherTrainerClass]
+	cp GENESIS
+	jr z, .PlaceBattleEndText
+
 	ld hl, BattleText_EnemyWereDefeated
 	call CheckPluralTrainer
 	jr nz, .PlaceBattleEndText
@@ -2925,12 +2930,20 @@ OfferSwitch:
 	ld a, [wOptions2]
 	bit BATTLE_PREDICT, a
 	jr nz, .predict
+	ld hl, BattleText_GenesisIsAboutToUseWillPlayerSwitchPkmn
+	ld a, [wOtherTrainerClass]
+	cp GENESIS
+	jr z, .PlaceBattleChangeText
 	ld hl, BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn
 	call CheckPluralTrainer
 	jr nz, .PlaceBattleChangeText
 	ld hl, BattleText_EnemyIsAboutToUseWillPlayerSwitchPkmn
 	jr .PlaceBattleChangeText
 .predict
+	ld hl, BattleText_GenesisIsAboutToSwitchWillPlayerSwitchPkmn
+	ld a, [wOtherTrainerClass]
+	cp GENESIS
+	jr z, .PlaceBattleChangeText
 	ld hl, BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn
 	call CheckPluralTrainer
 	jr nz, .PlaceBattleChangeText
@@ -7487,6 +7500,11 @@ INCLUDE "data/pokemon/base_exp_exceptions.asm"
 
 Function_BattleTextEnemySentOut:
 	farcall Battle_GetTrainerName
+
+	ld hl, BattleText_GenesisSentOut
+	ld a, [wOtherTrainerClass]
+	cp GENESIS
+	jmp z, StdBattleTextbox
 	ld hl, BattleText_EnemySentOut
 	jmp StdBattleTextbox
 
@@ -8786,6 +8804,11 @@ BattleStartMessage:
 
 	farcall Battle_GetTrainerName
 
+	ld hl, GenesisWantsToBattleText
+	ld a, [wOtherTrainerClass]
+	cp GENESIS
+	jr z, .PrintBattleStartText
+	
 	ld hl, WantToBattleText
 	call CheckPluralTrainer
 	jr nz, .PrintBattleStartText

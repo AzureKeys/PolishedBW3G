@@ -61,6 +61,7 @@ MapScenes::
 	scene_var PKMN_LEAGUE_ENTRANCE,                   wPkmnLeagueEntranceSceneID
 	scene_var PKMN_LEAGUE_MAIN,                       wPkmnLeagueMainSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
+	scene_var POST_CREDITS_DUMMY,                     wAlways0SceneID
 	scene_var PWT_BACK_ROOM,                          wPWTBackRoomSceneID
 	scene_var PWT_BATTLE_ROOM,                        wPWTBattleRoomSceneID
 	scene_var PWT_HALLWAY,                            wPWTHallwaySceneID

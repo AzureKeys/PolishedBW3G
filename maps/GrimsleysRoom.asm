@@ -30,24 +30,33 @@ GrimsleysRoom_EnterScript:
 	changeblock  8,  4, $1f ; warp panel active
 .MovePlayer
 	pause 10
+	reanchormap
 	playsound SFX_EMBER
 	changeblock  4, 12, $6
 	changeblock  8, 12, $7
-	reanchormap
+	refreshmap
+	closetext
 	applymovement PLAYER, .Movement1
+	reanchormap
 	playsound SFX_EMBER
 	changeblock  4, 10, $6
 	changeblock  8, 10, $7
-	reanchormap
+	refreshmap
+	closetext
 	applymovement PLAYER, .Movement2
+	reanchormap
 	playsound SFX_EMBER
 	changeblock  2,  4, $6
 	changeblock 10,  4, $12
+	refreshmap
+	closetext
 	pause 30
+	reanchormap
 	playsound SFX_STRENGTH
 	earthquake 80
 	changeblock  6,  8, $9
-	reanchormap
+	refreshmap
+	closetext
 	waitsfx
 	setscene 1
 	end

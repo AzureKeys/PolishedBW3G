@@ -41,10 +41,13 @@ PWTBackRoom_MapScriptHeader:
 	
 PWTBackRoomTrigger0:
 	sdefer PWTBackRoomIntroScript
+	end
 PWTBackRoomTrigger1:
 	sdefer PWTBackRoomFirstWinScript
+	end
 PWTBackRoomTrigger2:
 	sdefer PWTBackRoomSecondWinScript
+	end
 PWTBackRoomTrigger3:
 	sdefer PWTBackRoomThirdWinScript
 PWTBackRoomTrigger4:

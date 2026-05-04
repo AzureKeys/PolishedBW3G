@@ -30,10 +30,12 @@ ColresssRoom_EnterScript:
 	changeblock  8,  4, $9b ; warp panel active
 .MovePlayer
 	applymovement PLAYER, .Movement
+	reanchormap
 	playsound SFX_STRENGTH
 	earthquake 80
 	changeblock  6,  8, $a2
-	reanchormap
+	refreshmap
+	closetext
 	waitsfx
 	pause 30
 	setscene 1

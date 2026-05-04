@@ -933,4 +933,8 @@ SECTION "HallOfFame_BlockData", ROMX
 HallOfFame_BlockData:
 	INCBIN "maps/HallOfFame.ablk.lzp"
 
+SECTION "PostCreditsDummy_BlockData", ROMX
+PostCreditsDummy_BlockData:
+	INCBIN "maps/PostCreditsDummy.ablk.lzp"
+
 ENDSECTION

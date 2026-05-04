@@ -52,7 +52,7 @@ SECTION "ColressPic", ROMX
 ColressPic: INCBIN "gfx/trainers/colress.2bpp.lzp"
 
 SECTION "ChampionPic", ROMX
-ChampionPic: INCBIN "gfx/trainers/champion.2bpp.lzp"
+ChampionPic: INCBIN "gfx/trainers/juniper.2bpp.lzp"
 
 SECTION "Infer0Pic", ROMX
 Infer0Pic:

@@ -36,12 +36,16 @@ ChampionsRoom_MapScriptHeader:
 	
 ChampionsRoomTrigger0:
 	sdefer ChampionsRoom_StartGenesisEncounter
+	end
 ChampionsRoomTrigger1:
 	sdefer ChampionsRoom_StartJuniperEncounter
+	end
 ChampionsRoomTrigger2:
 	sdefer ChampionsRoom_StartChampionBattle
+	end
 ChampionsRoomTrigger3:
 	sdefer ChampionsRoom_PostCreditsScene
+	end
 	
 ChampionsRoom_DisappearPlayer:
 ; Disappear player during post-credits scene
@@ -85,7 +89,7 @@ ChampionsRoom_StartGenesisEncounter:
 	writetext .RoarText
 	promptbutton
 	waitsfx
-	setval GENESIS_MON
+	setmonval GENESIS_MON
 	special PlaySlowCry
 	writetext .RoarText
 	waitbutton
@@ -120,13 +124,14 @@ ChampionsRoom_StartGenesisEncounter:
 	showtext .ShadowsDefeatedText
 	playsound SFX_BOOT_PC
 	special FadeOutPalettes
+	special LoadMapPalettes
 	appear CHAMPIONSROOM_GENESECT_1
 	turnobject PLAYER, DOWN
 	pause 5
 	disappear CHAMPIONSROOM_GENESIS
 	waitsfx
 	pause 15
-	special FadeInPalettes
+	special Special_FadeInQuickly
 	showtext .ShadowsLeaveText
 	playsound SFX_WARP_FROM
 	applymovement CHAMPIONSROOM_SHADOW_1, ChampionsRoom_TeleportOutMovement
@@ -464,7 +469,7 @@ ChampionsRoom_PostCreditsScene:
 	pause 60
 	playsound SFX_BOOT_PC
 	appear CHAMPIONSROOM_GENESECT_2
-	turnobject CHAMPIONSROOM_GENESECT_2, DOWN
+	turnobject PLAYER, DOWN
 	pause 5
 	disappear CHAMPIONSROOM_GENESECT_1
 	waitsfx
@@ -507,7 +512,7 @@ ChampionsRoom_StepDownMovement:
 	step_end
 	
 ChampionsRoom_StepUpMovement:
-	step_down
+	step_up
 	step_end
 	
 ChampionsRoom_TeleportOutMovement:
