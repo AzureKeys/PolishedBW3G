@@ -47,6 +47,7 @@ ENDM
 	special_bg_pal map,      CELESTIAL_TOWER_ROOF,        PAL_TIMEOFDAY, CelestialRoofPalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_OUTSIDE,  PAL_TIMEOFDAY, DragonspiralOutsidePalette
 	special_bg_pal map,      DRAGONSPIRAL_TOWER_ROOF,     PAL_TIMEOFDAY, DragonspiralRoofPalette
+	special_bg_pal map,      TWIST_MOUNTAIN_OUTSIDE,      PAL_TIMEOFDAY, TwistMountainPalette
 	special_bg_pal map,      NS_ROOM,                     PAL_SINGLE,    NsRoomPalette
 	special_bg_pal map,      PKMN_LEAGUE_ENTRANCE,        PAL_TIMEOFDAY, PkmnLeaguePalette
 	special_bg_pal map,      PKMN_LEAGUE_MAIN,            PAL_TIMEOFDAY, PkmnLeaguePalette
@@ -56,7 +57,9 @@ ENDM
 	special_bg_pal map,      COLRESSS_ROOM,               PAL_SINGLE,    ColresssRoomPalette
 	special_bg_pal map,      CHAMPIONS_ROOM_ENTRANCE,     PAL_TIMEOFDAY, PkmnLeaguePalette
 	special_bg_pal map,      CHAMPIONS_ROOM,              PAL_SINGLE,    ChampionsRoomPalette
+	special_bg_pal map,      POST_CREDITS_DUMMY,          PAL_SINGLE,    ChampionsRoomPalette
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    ChampionsRoomPalette
+	special_bg_pal map,      TWIST_MOUNTAIN_B1F,          PAL_SINGLE,    ChargestoneCavePalette
 	
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
@@ -835,6 +838,39 @@ endc
 PkmnLeaguePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/pkmn_league.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+TwistMountainPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/twist_mountain.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

@@ -1018,6 +1018,8 @@ LoadMapPals:
 	cp MAP_DRAGONSPIRAL_TOWER_OUTSIDE
 	ret z
 	cp MAP_DRAGONSPIRAL_TOWER_ROOF
+	ret z
+	cp MAP_TWIST_MOUNTAIN_OUTSIDE
 	jr nz, .check_overcast
 	ret
 .CheckNimbasa

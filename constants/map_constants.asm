@@ -101,6 +101,14 @@ ENDM
 	map_const VICTORY_ROAD_GROVE,                          9, 13 ; 58
 	map_const VICTORY_ROAD_CASTLE,                        12, 10 ; 59
 	map_const NS_ROOM,                                     5,  5 ; 60
+	map_const TWIST_MOUNTAIN_OUTSIDE,                     23, 19 ; 61
+	map_const TWIST_MOUNTAIN_ENTRANCE,                     5,  5 ; 62
+	map_const TWIST_MOUNTAIN_1F,                          16, 17 ; 63
+	map_const TWIST_MOUNTAIN_2F,                          20, 17 ; 64
+	map_const TWIST_MOUNTAIN_3F,                          19, 14 ; 65
+	map_const TWIST_MOUNTAIN_B1F,                         12,  9 ; 66
+	map_const TWIST_MOUNTAIN_GENESECT_ROOM,                7, 11 ; 67
+	map_const TWIST_MOUNTAIN_HOUSE,                        4,  4 ; 68
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

@@ -4,6 +4,7 @@ Route7North_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event  5,  5, TWIST_MOUNTAIN_ENTRANCE, 1
 	
 	def_coord_events
 

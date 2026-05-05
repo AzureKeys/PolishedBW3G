@@ -54,6 +54,7 @@ OpelucidSuperRodHouse_BlockData:
 OpelucidBlackbeltHouse_BlockData:
 IcirrusRocketHouse_BlockData:
 Route23House_BlockData:
+TwistMountainHouse_BlockData:
 	INCBIN "maps/House1.ablk.lzp"
 	
 SECTION "TraditionalHouse_Blockdata", ROMX
@@ -936,5 +937,33 @@ HallOfFame_BlockData:
 SECTION "PostCreditsDummy_BlockData", ROMX
 PostCreditsDummy_BlockData:
 	INCBIN "maps/PostCreditsDummy.ablk.lzp"
+
+SECTION "TwistMountainOutside_BlockData", ROMX
+TwistMountainOutside_BlockData:
+	INCBIN "maps/TwistMountainOutside.ablk.lzp"
+
+SECTION "TwistMountainEntrance_BlockData", ROMX
+TwistMountainEntrance_BlockData:
+	INCBIN "maps/TwistMountainEntrance.ablk.lzp"
+
+SECTION "TwistMountain1F_BlockData", ROMX
+TwistMountain1F_BlockData:
+	INCBIN "maps/TwistMountain1F.ablk.lzp"
+
+SECTION "TwistMountain2F_BlockData", ROMX
+TwistMountain2F_BlockData:
+	INCBIN "maps/TwistMountain2F.ablk.lzp"
+
+SECTION "TwistMountain3F_BlockData", ROMX
+TwistMountain3F_BlockData:
+	INCBIN "maps/TwistMountain3F.ablk.lzp"
+
+SECTION "TwistMountainB1F_BlockData", ROMX
+TwistMountainB1F_BlockData:
+	INCBIN "maps/TwistMountainB1F.ablk.lzp"
+
+SECTION "TwistMountainGenesectRoom_BlockData", ROMX
+TwistMountainGenesectRoom_BlockData:
+	INCBIN "maps/TwistMountainGenesectRoom.ablk.lzp"
 
 ENDSECTION

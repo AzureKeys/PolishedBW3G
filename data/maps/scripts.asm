@@ -378,6 +378,14 @@ INCLUDE "maps/IcirrusRocketHouse.asm"
 INCLUDE "maps/IcirrusBoutique.asm"
 INCLUDE "maps/IcirrusCave.asm"
 INCLUDE "maps/IcirrusFanClub.asm"
+INCLUDE "maps/TwistMountainOutside.asm"
+INCLUDE "maps/TwistMountainEntrance.asm"
+INCLUDE "maps/TwistMountain1F.asm"
+INCLUDE "maps/TwistMountain2F.asm"
+INCLUDE "maps/TwistMountain3F.asm"
+INCLUDE "maps/TwistMountainB1F.asm"
+INCLUDE "maps/TwistMountainGenesectRoom.asm"
+INCLUDE "maps/TwistMountainHouse.asm"
 
 
 SECTION "Victory Road Area Scripts", ROMX

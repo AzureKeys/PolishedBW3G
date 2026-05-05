@@ -57,6 +57,7 @@
 	const MISTRALTON_CITY      ; 35
 	const ROUTE_7              ; 36
 	const CELESTIAL_TOWER      ; 37
+	const TWIST_MOUNTAIN       ; 38
 	const ICIRRUS_CITY         ; 39
 	const DRAGONSPIRAL_TOWER   ; 3a
 	const ROUTE_8              ; 3b

@@ -252,6 +252,13 @@ ENDM
 	map_attributes ChampionsRoom, CHAMPIONS_ROOM, $0, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PostCreditsDummy, POST_CREDITS_DUMMY, $0, 0
+	map_attributes TwistMountainOutside, TWIST_MOUNTAIN_OUTSIDE, $1, 0
+	map_attributes TwistMountainEntrance, TWIST_MOUNTAIN_ENTRANCE, $9, 0
+	map_attributes TwistMountain1F, TWIST_MOUNTAIN_1F, $9, 0
+	map_attributes TwistMountain2F, TWIST_MOUNTAIN_2F, $9, 0
+	map_attributes TwistMountain3F, TWIST_MOUNTAIN_3F, $9, 0
+	map_attributes TwistMountainB1F, TWIST_MOUNTAIN_B1F, $9, 0
+	map_attributes TwistMountainGenesectRoom, TWIST_MOUNTAIN_GENESECT_ROOM, $9, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -355,6 +362,7 @@ ENDM
 	map_attributes Route23House, ROUTE_23_HOUSE, $0, 0
 	map_attributes VictoryRoadPokecenter, VICTORY_ROAD_POKECENTER, $0, 0
 	map_attributes PkmnLeaguePokecenter, PKMN_LEAGUE_POKECENTER, $0, 0
+	map_attributes TwistMountainHouse, TWIST_MOUNTAIN_HOUSE, $0, 0
 	
 	map_attributes Route12VillageBridgeGate, ROUTE_12_VILLAGE_BRIDGE_GATE, $0, 0
 	map_attributes Route13UndellaTownGate, ROUTE_13_UNDELLA_TOWN_GATE, $0, 0

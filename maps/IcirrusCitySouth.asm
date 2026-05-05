@@ -8,6 +8,7 @@ IcirrusCitySouth_MapScriptHeader:
 	def_warp_events
 	warp_event 13,  3, ICIRRUS_POKECENTER, 1
 	warp_event 35, 17, ICIRRUS_ROCKET_HOUSE, 1
+	warp_event  4, 13, TWIST_MOUNTAIN_1F, 1
 
 	def_coord_events
 	coord_event 16,  4, 1, IcirrusCitySouthBridge1OverheadTrigger

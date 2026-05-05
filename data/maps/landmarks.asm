@@ -62,6 +62,7 @@ Landmarks:
 	landmark  28,  60, MistraltonCityName
 	landmark  36,  48, Route7Name
 	landmark  28,  44, CelestialTowerName
+	landmark  44,  36, TwistMountainName
 	landmark  52,  36, IcirrusCityName
 	landmark  52,  28, DragonspiralTowerName
 	landmark  60,  36, Route8Name
@@ -133,6 +134,7 @@ ChargestoneCaveName:   rawchar "Chargestone¯Cave@"
 MistraltonCityName:    rawchar "Mistralton¯City@"
 Route7Name:            rawchar "Route 7@"
 CelestialTowerName:    rawchar "Celestial¯Tower@"
+TwistMountainName:     rawchar "Twist¯Mountain@"
 IcirrusCityName:       rawchar "Icirrus¯City@"
 DragonspiralTowerName: rawchar "Dragonspiral¯Tower@"
 Route8Name:            rawchar "Route 8@"
