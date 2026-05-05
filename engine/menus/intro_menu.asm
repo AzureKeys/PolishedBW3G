@@ -600,6 +600,8 @@ Continue_DisplayGameTime:
 
 ProfElmSpeech:
 	farcall InitClock
+	ld hl, BiancaText1
+	call PrintText
 	ld c, 31
 	call FadeToBlack
 	call ClearTileMap
@@ -621,17 +623,16 @@ ProfElmSpeech:
 	call InitIntroGradient
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, ElmText1
+	ld hl, BiancaText2
 	call PrintText
-if !DEF(DEBUG)
 	ld c, 15
 	call FadeToWhite
 	call ClearTileMap
 
-	ld a, LOW(GLACEON)
+	ld a, LOW(LILLIPUP)
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
-	ld a, HIGH(GLACEON) << MON_EXTSPECIES_F
+	ld a, HIGH(LILLIPUP) << MON_EXTSPECIES_F
 	ld [wCurForm], a
 	ld [wTempMonForm], a
 	call GetBaseData
@@ -649,9 +650,9 @@ if !DEF(DEBUG)
 	call InitIntroGradient
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, ElmText2
+	ld hl, BiancaText3
 	call PrintText
-	ld hl, ElmText4
+	ld hl, BiancaText4
 	call PrintText
 	ld c, 15
 	call FadeToWhite
@@ -668,16 +669,15 @@ if !DEF(DEBUG)
 	call InitIntroGradient
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, ElmText5
+	ld hl, BiancaText5
 	call PrintText
-endc
 
 	call InitGender
 
 	ld c, 10
 	call DelayFrames
 
-	ld hl, ElmText6
+	ld hl, BiancaText6
 	call PrintText
 
 	call NamePlayer
@@ -692,17 +692,21 @@ endc
 	call InitIntroGradient
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, ElmText7
+	ld hl, BiancaText7
 	jmp PrintText
 
-ElmText1:
-	text_far _ElmText1
+BiancaText1:
+	text_far _BiancaText1
 	text_end
 
-ElmText2:
-	text_far _ElmText2
+BiancaText2:
+	text_far _BiancaText2
+	text_end
+
+BiancaText3:
+	text_far _BiancaText3
 	text_asm
-	lp bc, GLACEON
+	lp bc, LILLIPUP
 	call PlayMonCry
 	ld hl, ElmText3
 	ret
@@ -711,20 +715,20 @@ ElmText3:
 	text_far Text_Waitbutton_2
 	text_end
 
-ElmText4:
-	text_far _ElmText4
+BiancaText4:
+	text_far _BiancaText4
 	text_end
 
-ElmText5:
-	text_far _ElmText5
+BiancaText5:
+	text_far _BiancaText5
 	text_end
 
-ElmText6:
-	text_far _ElmText6
+BiancaText6:
+	text_far _BiancaText6
 	text_end
 
-ElmText7:
-	text_far _ElmText7
+BiancaText7:
+	text_far _BiancaText7
 	text_end
 
 InitGender:
@@ -767,77 +771,78 @@ InitGender:
 GenderMenu::
 	; erase previous cursors
 	ld a, ' '
-	ldcoord_a  2, 3
+	;ldcoord_a  2, 3
 	ldcoord_a  7, 3
 	ldcoord_a 12, 3
-	ldcoord_a 17, 3
+	;ldcoord_a 17, 3
 
 	ld a, [wPlayerGender]
 	and a ; PLAYER_MALE
 	jr z, .male
-	dec a ; PLAYER_FEMALE
-	jr z, .female
-	dec a ; PLAYER_ENBY
-	jr z, .enby
-
-; PLAYER_BETA
+	;dec a ; PLAYER_FEMALE
+	;jr z, .female
+	;dec a ; PLAYER_ENBY
+	;jr z, .enby
+	; fallthrough
+	
+;.female
 	; place cursor
 	ld a, '▼'
-	ldcoord_a 17, 3
-	; load opaque palettes
-	call SetDefaultBGPAndOBP
-	; make other palettes transparent
-	ld hl, wBGPals2 palette 0 + 2 ; male
-	call .MakeTransparent
-	ld hl, wBGPals2 palette 2 + 2 ; female
-	call .MakeTransparent
-	ld hl, wBGPals2 palette 3 + 2 ; enby
-	call .MakeTransparent
-	jr .ready
-
-.male
-	; place cursor
-	ld a, '▼'
-	ldcoord_a 2, 3
-	; load opaque palettes
-	call SetDefaultBGPAndOBP
-	; make other palettes transparent
-	ld hl, wBGPals2 palette 2 + 2 ; female
-	call .MakeTransparent
-	ld hl, wBGPals2 palette 3 + 2 ; enby
-	call .MakeTransparent
-	ld hl, wBGPals2 palette 4 + 2 ; beta
-	call .MakeTransparent
-	jr .ready
-
-.female
-	; place cursor
-	ld a, '▼'
-	ldcoord_a 7, 3
+	ldcoord_a 12, 3
 	; load opaque palettes
 	call SetDefaultBGPAndOBP
 	; make other paletees transparent
 	ld hl, wBGPals2 palette 0 + 2 ; male
 	call .MakeTransparent
-	ld hl, wBGPals2 palette 3 + 2 ; enby
-	call .MakeTransparent
-	ld hl, wBGPals2 palette 4 + 2 ; beta
-	call .MakeTransparent
+	; ld hl, wBGPals2 palette 3 + 2 ; enby
+	; call .MakeTransparent
+	; ld hl, wBGPals2 palette 4 + 2 ; beta
+	; call .MakeTransparent
 	jr .ready
 
-.enby
+; ; PLAYER_BETA
+	; ; place cursor
+	; ld a, '▼'
+	; ldcoord_a 17, 3
+	; ; load opaque palettes
+	; call SetDefaultBGPAndOBP
+	; ; make other palettes transparent
+	; ld hl, wBGPals2 palette 0 + 2 ; male
+	; call .MakeTransparent
+	; ld hl, wBGPals2 palette 2 + 2 ; female
+	; call .MakeTransparent
+	; ld hl, wBGPals2 palette 3 + 2 ; enby
+	; call .MakeTransparent
+	; jr .ready
+
+.male
 	; place cursor
 	ld a, '▼'
-	ldcoord_a 12, 3
+	ldcoord_a 7, 3
 	; load opaque palettes
 	call SetDefaultBGPAndOBP
 	; make other palettes transparent
-	ld hl, wBGPals2 palette 0 + 2 ; male
-	call .MakeTransparent
 	ld hl, wBGPals2 palette 2 + 2 ; female
 	call .MakeTransparent
-	ld hl, wBGPals2 palette 4 + 2 ; beta
-	call .MakeTransparent
+	; ld hl, wBGPals2 palette 3 + 2 ; enby
+	; call .MakeTransparent
+	; ld hl, wBGPals2 palette 4 + 2 ; beta
+	; call .MakeTransparent
+	;jr .ready
+
+; .enby
+	; ; place cursor
+	; ld a, '▼'
+	; ldcoord_a 12, 3
+	; ; load opaque palettes
+	; call SetDefaultBGPAndOBP
+	; ; make other palettes transparent
+	; ld hl, wBGPals2 palette 0 + 2 ; male
+	; call .MakeTransparent
+	; ld hl, wBGPals2 palette 2 + 2 ; female
+	; call .MakeTransparent
+	; ld hl, wBGPals2 palette 4 + 2 ; beta
+	; call .MakeTransparent
 	; fallthrough
 
 .ready
@@ -866,7 +871,8 @@ GenderMenu::
 
 .d_right
 	ld a, [wPlayerGender]
-	cp NUM_PLAYER_GENDERS - 1 ; last gender
+	;cp NUM_PLAYER_GENDERS - 1 ; last gender
+	cp 1
 	jr z, .got_gender
 	inc a
 .got_gender
@@ -910,38 +916,38 @@ InitGenderGraphics:
 	ld de, vTiles2 tile $23
 	ld b, BANK(CarriePic)
 	call .DecompressRequestPicSlice
-	ld hl, JackyPic
-	ld de, vTiles2 tile $46
-	ld b, BANK(JackyPic)
-	call .DecompressRequestPicSlice
-	ld a, 1
-	ldh [rVBK], a
-	ld hl, EunaPic
-	ld de, vTiles5 tile $00
-	ld b, BANK(EunaPic)
-	call .DecompressRequestPicSlice
+	; ld hl, JackyPic
+	; ld de, vTiles2 tile $46
+	; ld b, BANK(JackyPic)
+	; call .DecompressRequestPicSlice
+	; ld a, 1
+	; ldh [rVBK], a
+	; ld hl, EunaPic
+	; ld de, vTiles5 tile $00
+	; ld b, BANK(EunaPic)
+	; call .DecompressRequestPicSlice
 	xor a
 	ldh [rVBK], a
 
 	xor a
 	ldh [hGraphicStartTile], a
-	hlcoord 0, 4
+	hlcoord 5, 4
 	lb bc, 5, 7
 	farcall PlaceGraphic
 	ld a, $23
 	ldh [hGraphicStartTile], a
-	hlcoord 5, 4
-	lb bc, 5, 7
-	farcall PlaceGraphic
-	ld a, $46
-	ldh [hGraphicStartTile], a
 	hlcoord 10, 4
 	lb bc, 5, 7
-	farcall PlaceGraphic
-	xor a
-	ldh [hGraphicStartTile], a
-	hlcoord 15, 4
-	lb bc, 5, 7
+	; farcall PlaceGraphic
+	; ld a, $46
+	; ldh [hGraphicStartTile], a
+	; hlcoord 10, 4
+	; lb bc, 5, 7
+	; farcall PlaceGraphic
+	; xor a
+	; ldh [hGraphicStartTile], a
+	; hlcoord 15, 4
+	; lb bc, 5, 7
 	farjp PlaceGraphic
 
 .DecompressRequestPicSlice:
@@ -1086,7 +1092,13 @@ Intro_PlacePlayerSprite:
 	ld a, [de]
 	inc de
 	ld [hli], a
+	ld b, 5 ; dark blue = color 5
 	ld a, [wPlayerGender] ; 0=male, 1=female, or 2=enby
+	and a
+	jr z, .got_gender
+	dec b ; dark red = color 4
+.got_gender
+	ld a, b
 	ld [hli], a
 	dec c
 	jr nz, .loop

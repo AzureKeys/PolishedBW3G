@@ -526,7 +526,7 @@ _CGB_NamingScreen:
 
 	ld a, [wNamingScreenType]
 	and a
-	jr nz, .not_pokemon
+	jr nz, .check_player
 	; mon minis use palette [wCurPartyMon]+2
 	ld hl, wOBPals1 palette 2 color 1
 	ld bc, 1 palettes
@@ -538,10 +538,20 @@ _CGB_NamingScreen:
 	cp TEMPMON
 	jr nz, .party_mon
 	call LoadTempMonPalette
-	jr .not_pokemon
+	jr .done_pokemon
 .party_mon
 	call LoadPartyMonPalette
-.not_pokemon
+	jr .done_pokemon
+.check_player
+	dec a
+	jr nz, .done_pokemon
+	; player characters use different palettes
+	ld hl, PlayerOBPals
+	ld de, wOBPals1 palette 4
+	ld c, 2 palettes
+	call LoadPalettes
+	
+.done_pokemon
 
 	; message area + Shift/Del/End
 	ld a, $1
@@ -1324,12 +1334,12 @@ _CGB_IntroGenderPals:
 
 	hlcoord 5, 3, wAttrmap
 	lb bc, 8, 5
-	ld a, $2
+	ld a, $0
 	call FillBoxWithByte
 
 	hlcoord 10, 3, wAttrmap
 	lb bc, 8, 5
-	ld a, $3
+	ld a, $2
 	call FillBoxWithByte
 
 	ld a, $4

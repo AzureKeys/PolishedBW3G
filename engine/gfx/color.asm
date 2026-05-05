@@ -569,6 +569,9 @@ InitPokegearPalettes:
 PokegearOBPals:
 INCLUDE "gfx/icons/icons.pal"
 
+PlayerOBPals:
+INCLUDE "gfx/player/palettes.pal"
+
 PokegearFlyPalette:
 INCLUDE "gfx/pokegear/fly.pal"
 

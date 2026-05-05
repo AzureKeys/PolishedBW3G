@@ -86,9 +86,6 @@ endc
 
 .done:
 	call SetTimeOfDay
-	ld hl, OakText_ResponseToSetTime
-	call PrintText
-	call WaitPressAorB_BlinkCursor
 	pop af
 	ldh [hInMenu], a
 	ret
@@ -252,7 +249,7 @@ Text_WhoaHoursMins:
 	; Whoa!@ @
 	text_far _OakTimeWhoaText
 	text_asm
-	decoord 1, 16
+	decoord 4, 14
 	call PrintHourColonMinute
 	ld hl, .QuestionMark
 	ret

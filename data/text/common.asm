@@ -184,34 +184,29 @@ _CameToItsSensesText::
 
 SECTION "_OakTimeWokeUpText", ROMX
 _OakTimeWokeUpText::
-	text "………………………………"
-	line "………………………………"
-
-	para "Zzz… Hm? Wha…?"
-	line "You woke me up!"
-
-	para "Will you check the"
-	line "clock for me?"
+	text "Please set the"
+	line "time."
 	prompt
 
 SECTION "_OakTimeWhatTimeIsItText", ROMX
 _OakTimeWhatTimeIsItText::
-	text "What time is it?"
+	text "Set the hour."
 	done
 
 SECTION "_OakTimeHowManyMinutesText", ROMX
 _OakTimeHowManyMinutesText::
-	text "How many minutes?"
+	text "Set the minutes."
 	done
 
 SECTION "_OakTimeWhoaText", ROMX
 _OakTimeWhoaText::
-	text "Whoa!"
-	done
+	text "Is @"
+	text_end
 
 SECTION "_OakTimeQuestionMarkText", ROMX
 _OakTimeQuestionMarkText::
-	text "?"
+	text ""
+	line "okay?"
 	done
 
 SECTION "_OakTimeOversleptText", ROMX
@@ -2384,8 +2379,8 @@ _AskItemMoveText::
 
 SECTION "Text_AreYouABoyOrAreYouAGirl", ROMX
 Text_AreYouABoyOrAreYouAGirl::
-	text "Which photo is on"
-	line "your Trainer Card?"
+	text "Which trainer will"
+	line "you play as?"
 	done
 
 SECTION "Text_SoThisIsYou", ROMX
@@ -3167,89 +3162,149 @@ SECTION "_InitialOptionsText", ROMX
 _InitialOptionsText::
 	text "Please choose how"
 	line "you want to play"
-	cont "Polished Crystal."
+	cont "#mon Black and"
+	cont "White 3 Genesis."
 	prompt
 
-SECTION "_ElmText1", ROMX
-_ElmText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+SECTION "_BiancaText1", ROMX
+_BiancaText1::
+	text "… … … …"
 
-if !DEF(DEBUG)
+	para "Hm…?"
+
+	para "Oh! You must be"
+	line "the new trainer"
+	cont "I was asked about!"
+
+	para "I'm the new #-"
+	line "mon Prof. here in"
+	cont "the Unova region."
+	
+	para "My name is Prof."
+	line "Bel."
+	
+	para "But that's way too"
+	line "formal! You can"
+	cont "just call me Prof."
+	cont "Bianca!"
+	prompt
+
+SECTION "_BiancaText2", ROMX
+_BiancaText2::
+	text "Hi there!"
+
 	para "Welcome to the"
 	line "world of #mon!"
 
-	para "My name is Elm."
-
-	para "People call me the"
-	line "#mon Prof."
-endc
+	para "I recently became"
+	line "the #mon Prof."
+	cont "here in Unova!"
 	prompt
 
-SECTION "_ElmText2", ROMX
-_ElmText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#mon.@"
+SECTION "_BiancaText3", ROMX
+_BiancaText3::
+	text "That's right! This"
+	line "world is widely"
+	cont "inhabited by"
+	
+	para "mysterious"
+	line "creatures called"
+	cont "#mon!@"
 	text_end
 
-SECTION "_ElmText4", ROMX
-_ElmText4::
-	text "People and #mon"
-	line "live together by"
+SECTION "_BiancaText4", ROMX
+_BiancaText4::
+	text "#mon have"
+	line "mysterious powers."
 
-	para "supporting each"
-	line "other."
+	para "They come in many"
+	line "shapes and live in"
+	
+	para "many different"
+	line "places."
 
-	para "Some people play"
-	line "with #mon, some"
-	cont "battle with them."
+	para "We humans live"
+	line "happily with #-"
+	cont "mon! Living and"
+	
+	para "working together,"
+	line "we complement"
+	cont "each other!"
+	
+	para "Having #mon"
+	line "battles is super"
+	cont "popular and fun,"
+	
+	para "and it's a great"
+	line "way for people and"
+	cont "#mon to become"
+	cont "closer!"
 	prompt
 
-SECTION "_ElmText5", ROMX
-_ElmText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#mon yet."
+SECTION "_BiancaText5", ROMX
+_BiancaText5::
+	text "Well, that's"
+	line "enough from me…"
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
-
-	para "That's why I study"
-	line "#mon every day."
+	para "Could you tell me"
+	line "about yourself?"
 	prompt
 
-SECTION "_ElmText6", ROMX
-_ElmText6::
-	text "Please tell me"
-	line "your name."
+SECTION "_BiancaText6", ROMX
+_BiancaText6::
+	text "I'd like to know"
+	line "your name. Please"
+	cont "tell me?"
 	prompt
 
-SECTION "_ElmText7", ROMX
-_ElmText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+SECTION "_BiancaText7", ROMX
+_BiancaText7::
+	text "So your name's"
+	line "<PLAYER>?"
+	
+	para "What a wonderful"
+	line "name!"
 
-if !DEF(DEBUG)
-	para "Your very own"
-	line "#mon story is"
-	cont "about to unfold."
+	para "I've been told you"
+	line "would make a great"
+	cont "#mon trainer,"
+	cont "so I'm going to"
+	
+	para "send you a #-"
+	line "mon! I'm sure you"
+	cont "will be great"
+	cont "partners!"
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "The moment you"
+	line "choose the #mon"
 
-	para "A world of dreams"
-	line "and adventures"
+	para "who will accompany"
+	line "you on your"
+	
+	para "journey, your"
+	line "story will truly"
+	cont "begin!"
 
-	para "with #mon"
-	line "awaits! Let's go!"
-endc
+	para "I really hope you"
+	line "learn what is"
+	
+	para "important to you"
+	line "as a result of"
+	cont "your travels…"
+	
+	para "That's right!"
+	line "Befriend new"
+	cont "people and #mon"
+	
+	para "and grow as a"
+	line "person! That's the"
+	
+	para "most important"
+	line "goal of your"
+	cont "journey!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "Let's go visit the"
+	line "world of #mon!"
 	done
 
 SECTION "_WarnVBAText", ROMX
