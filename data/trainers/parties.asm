@@ -3991,7 +3991,7 @@ GialloGroup:
 	def_trainer_class GIALLO
 	def_trainer 1, "Giallo"
 	tr_mon 26, JOLTIK
-		tr_extra COMPOUNDEYES
+		tr_extra SWARM
 		tr_evs 96 Spe
 		tr_moves THUNDER_FANG, BUG_BITE, THUNDER_WAVE, VOLT_SWITCH
 	tr_mon 27, EMOLGA
@@ -4005,26 +4005,26 @@ GialloGroup:
 	end_trainer
 
 	def_trainer 2, "Giallo"
-	tr_mon 57, EMOLGA @ 
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 57, MAGNETON @ AIR_BALLOON
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 57, ELECTABUZZ @ EVIOLITE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 57, GALVANTULA @ 
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
-	tr_mon 57, AMPHAROS @ 
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 53, EMOLGA @ EJECT_BUTTON
+		tr_extra STATIC
+		tr_evs 240 Spe
+		tr_moves VOLT_SWITCH, LIGHT_SCREEN, ACROBATICS, THUNDER_WAVE
+	tr_mon 54, MAGNETON @ AIR_BALLOON
+		tr_extra STURDY
+		tr_evs 240 SAt
+		tr_moves THUNDERBOLT, FLASH_CANNON, REFLECT, TRI_ATTACK
+	tr_mon 53, ELECTABUZZ @ EVIOLITE
+		tr_extra STATIC
+		tr_evs 240 HP
+		tr_moves THUNDERPUNCH, LOW_KICK, ICE_PUNCH, BULK_UP
+	tr_mon 54, GALVANTULA @ LOADED_DICE
+		tr_extra SWARM 
+		tr_evs 240 Atk
+		tr_moves PIN_MISSILE, THUNDER_FANG, SUBSTITUTE, U_TURN
+	tr_mon 56, AMPHAROS @ BLUNDRPOLICY
+		tr_extra STATIC, SATK_UP_ATK_DOWN
+		tr_evs 240 SAt
+		tr_moves THUNDERBOLT, POWER_GEM, DAZZLINGLEAM, ZAP_CANNON
 	end_trainer
 
 
@@ -4033,15 +4033,41 @@ BroniusGroup:
 
 	def_trainer_class BRONIUS
 	def_trainer 1, "Bronius"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 32, VULPIX
+		tr_extra FLASH_FIRE
+		tr_evs 160 Spe
+		tr_moves FLAMETHROWER, EXTRASENSORY, WILL_O_WISP, SUNNY_DAY
+	tr_mon 34, HEATMOR
+		tr_extra GLUTTONY
+		tr_evs 160 HP
+		tr_moves FIRE_SPIN, BUG_BITE, FURY_STRIKES, SUNNY_DAY
+	tr_mon 36, MAGMAR @ EVIOLITE
+		tr_extra FLAME_BODY
+		tr_evs 160 HP
+		tr_moves FLAME_BURST, FLAME_CHARGE, FEINT_ATTACK, SUNNY_DAY
 	end_trainer
 
 	def_trainer 2, "Bronius"
-	tr_mon 73, RATTATA @ TWISTEDSPOON
-		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	tr_mon 54, NINETALES @ HEAT_ROCK
+		tr_extra DROUGHT
+		tr_evs 240 Spe
+		tr_moves FIRE_BLAST, WILL_O_WISP, SHADOW_BALL, NASTY_PLOT
+	tr_mon 53, HEATMOR @ FIGY_BERRY
+		tr_extra GLUTTONY
+		tr_evs 240 HP
+		tr_moves FLAMETHROWER, SOLAR_BEAM, DRAIN_PUNCH, FLAME_CHARGE
+	tr_mon 54, CAMERUPT @ WHITE_HERB
+		tr_extra SOLID_ROCK
+		tr_evs 240 HP
+		tr_moves OVERHEAT, EARTH_POWER, ROCK_SLIDE, GROWTH
+	tr_mon 53, DARMANITAN @ SHELL_BELL ; This Darmanitan set has the potential to be kinda busted relative to other pre-E4 teams. Have given it Shell Bell instead of anything that will make it stronger. Happy to tone it down - suggest limiting coverage to only fire moves
+		tr_extra SHEER_FORCE 
+		tr_evs 240 Spe
+		tr_moves FLARE_BLITZ, THRASH, ROCK_SLIDE, U_TURN
+	tr_mon 56, MAGMAR @ EVIOLITE
+		tr_extra STATIC, DEF_UP_ATK_DOWN
+		tr_evs 240 HP
+		tr_moves FLAMETHROWER, THUNDERPUNCH, FOCUS_BLAST, FLAME_CHARGE
 	end_trainer
 
 
