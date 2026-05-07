@@ -943,7 +943,6 @@ TilesetUndergroundGFX2::
 TilesetCaveGFX2::
 TilesetCaveRuinsGFX2::
 TilesetIcePathGFX2::
-TilesetTunnelGFX2::
 TilesetForestGFX2::
 TilesetNimbasaGFX2::
 TilesetParkGFX2::

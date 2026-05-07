@@ -1823,6 +1823,7 @@ ApplyDamageAbilities:
 OffensiveDamageAbilities:
 	dbw TECHNICIAN, TechnicianAbility
 	dbw HUGE_POWER, HugePowerAbility
+	dbw PURE_POWER, PurePowerAbility
 	dbw HUSTLE, HustleAbility
 	dbw OVERGROW, OvergrowAbility
 	dbw BLAZE, BlazeAbility
@@ -1854,6 +1855,7 @@ DefensiveDamageAbilities:
 	dbw DRY_SKIN, EnemyDrySkinAbility
 	dbw FUR_COAT, EnemyFurCoatAbility
 	dbw FLUFFY, EnemyFluffyAbility
+	dbw HEATPROOF, EnemyHeatproofAbility
 	dbw -1, -1
 
 TechnicianAbility:
@@ -1864,6 +1866,7 @@ TechnicianAbility:
 	jmp MultiplyAndDivide
 
 HugePowerAbility:
+PurePowerAbility:
 ; Doubles physical attack
 	ln a, 2, 1 ; x2
 	jmp ApplyPhysicalAttackDamageMod
@@ -2128,6 +2131,15 @@ EnemyThickFatAbility:
 	cp ICE
 	ret nz
 .ok
+	ln a, 1, 2 ; x0.5
+	jmp MultiplyAndDivide
+
+EnemyHeatproofAbility:
+; 50% damage for Fire-type moves
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp FIRE
+	ret nz
 	ln a, 1, 2 ; x0.5
 	jmp MultiplyAndDivide
 

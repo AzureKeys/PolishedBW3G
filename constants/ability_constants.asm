@@ -38,6 +38,7 @@
 	const ILLUMINATE
 	const TRACE
 	const HUGE_POWER
+	const PURE_POWER
 	const POISON_POINT
 	const INNER_FOCUS
 	const MAGMA_ARMOR
@@ -172,4 +173,5 @@
 	const ARMOR_TAIL
 	const MINDS_EYE
 	const MEGA_SOL
+	const HEATPROOF
 DEF NUM_ABILITIES EQU const_value

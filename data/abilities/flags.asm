@@ -51,6 +51,7 @@ AbilityFlags:
 	abilflag ILLUMINATE, IGNORABLE
 	abilflag TRACE, NO_COPY, NO_TRACE
 	abilflag HUGE_POWER
+	abilflag PURE_POWER
 	abilflag POISON_POINT
 	abilflag INNER_FOCUS, IGNORABLE, NO_INTIMIDATE
 	abilflag MAGMA_ARMOR, IGNORABLE
@@ -185,4 +186,5 @@ AbilityFlags:
 	abilflag ARMOR_TAIL
 	abilflag MINDS_EYE, IGNORABLE
 	abilflag MEGA_SOL
+	abilflag HEATPROOF, IGNORABLE
 	assert_table_length NUM_ABILITIES

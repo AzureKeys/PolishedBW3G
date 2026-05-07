@@ -160,6 +160,10 @@ GetThirdBC:
 	inc c
 	ret
 
+GetThirtySecondMaxHP::
+	call GetSixteenthMaxHP
+	jr HalveBC
+
 GetSixteenthMaxHP::
 	call GetEighthMaxHP
 	jr HalveBC

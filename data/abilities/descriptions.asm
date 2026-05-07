@@ -35,6 +35,7 @@ AbilityDescriptions:
 	dw IlluminateDescription
 	dw TraceDescription
 	dw HugePowerDescription
+	dw PurePowerDescription
 	dw PoisonPointDescription
 	dw InnerFocusDescription
 	dw MagmaArmorDescription
@@ -169,6 +170,7 @@ AbilityDescriptions:
 	dw ArmorTailDescription
 	dw MindsEyeDescription
 	dw MegaSolDescription
+	dw HeatproofDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -346,6 +348,7 @@ TraceDescription:
 	done
 
 HugePowerDescription:
+PurePowerDescription:
 	text "Boosts its Attack"
 	next "stat."
 	done
@@ -398,6 +401,11 @@ PressureDescription:
 ThickFatDescription:
 	text "Ups resistance to"
 	next "Fire and Ice."
+	done
+
+HeatproofDescription:
+	text "Ups resistance to"
+	next "Fire moves."
 	done
 
 EarlyBirdDescription:

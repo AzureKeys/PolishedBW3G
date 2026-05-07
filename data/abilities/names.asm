@@ -35,6 +35,7 @@ AbilityNames:
 	dw Illuminate
 	dw Trace
 	dw HugePower
+	dw PurePower
 	dw PoisonPoint
 	dw InnerFocus
 	dw MagmaArmor
@@ -169,6 +170,7 @@ AbilityNames:
 	dw ArmorTail
 	dw MindsEye
 	dw MegaSol
+	dw Heatproof
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
@@ -206,6 +208,7 @@ Chlorophyll:     rawchar "Chlorophyll@"
 Illuminate:      rawchar "Illuminate@"
 Trace:           rawchar "Trace@"
 HugePower:       rawchar "Huge Power@"
+PurePower:       rawchar "Pure Power@"
 PoisonPoint:     rawchar "Poison Point@"
 InnerFocus:      rawchar "Inner Focus@"
 MagmaArmor:      rawchar "Magma Armor@"
@@ -340,3 +343,4 @@ SupremeOverlord: rawchar "Supreme Overlord@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"
 MegaSol:         rawchar "Mega Sol@"
+Heatproof:       rawchar "Heatproof@"

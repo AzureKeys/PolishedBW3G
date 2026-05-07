@@ -606,6 +606,7 @@ HandleBurn:
 	ld hl, HurtByBurnText
 	ld de, ANIM_BRN
 	ret z
+	; fallthrough
 DoPoisonBurnDamage:
 	push hl
 	push de
@@ -617,10 +618,28 @@ DoPoisonBurnDamage:
 	call DoPoisonBurnDamageAnim
 	ld a, BATTLE_VARS_STATUS
 	call GetBattleVar
-	and 1 << BRN | 1 << TOX
-	; Burn and Toxic does (or starts at) 1/16 damage as of Gen VII
-	call nz, GetSixteenthMaxHP
-
+	and 1 << TOX
+	jr z, .check_burn
+	; Toxic starts at 1/16 damage as of Gen VII
+	call GetSixteenthMaxHP
+	jr .got_damage_amount
+	
+.check_burn
+	ld a, BATTLE_VARS_STATUS
+	call GetBattleVar
+	and 1 << BRN
+	jr z, .got_damage_amount
+	; Heatproof reduces burn damage by half
+	call GetTrueUserIgnorableAbility
+	cp HEATPROOF
+	jr nz, .not_heatproof
+	call GetThirtySecondMaxHP
+	jr .got_damage_amount
+.not_heatproof
+	; Burn does 1/16 damage as of Gen VII
+	call GetSixteenthMaxHP
+	; fallthrough
+.got_damage_amount
 	call IncrementToxic
 	jr z, .did_toxic
 	ld a, [hl]
