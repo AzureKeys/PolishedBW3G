@@ -174,8 +174,8 @@ Route23WestTileScript:
 	changebridgeblock 56,  6, $d7, ROUTE_23_WEST
 	; bridge 2
 	changebridgeblock 58,  8, $dc, ROUTE_23_WEST
-	changebridgeblock 58, 10, $dd, ROUTE_23_WEST
-	changebridgeblock 58, 12, $e1, ROUTE_23_WEST
+	changebridgeblock 58, 10, $39, ROUTE_23_WEST
+	changebridgeblock 58, 12, $37, ROUTE_23_WEST
 	jmp BufferScreen
 
 .underfoot_asm:
@@ -186,8 +186,8 @@ Route23WestTileScript:
 	changebridgeblock 54,  6, $a1, ROUTE_23_WEST
 	changebridgeblock 56,  6, $db, ROUTE_23_WEST
 	; bridge 2
-	changebridgeblock 58,  8, $e0, ROUTE_23_WEST
-	changebridgeblock 58, 10, $e0, ROUTE_23_WEST
+	changebridgeblock 58,  8, $36, ROUTE_23_WEST
+	changebridgeblock 58, 10, $36, ROUTE_23_WEST
 	changebridgeblock 58, 12, $02, ROUTE_23_WEST
 	jmp BufferScreen
 
@@ -212,8 +212,8 @@ Route23WestBridge1UnderfootTrigger:
 Route23WestBridge2OverheadTrigger:
 	callthisasm
 	changebridgeblock 58,  8, $dc, ROUTE_23_WEST
-	changebridgeblock 58, 10, $dd, ROUTE_23_WEST
-	changebridgeblock 58, 12, $e1, ROUTE_23_WEST
+	changebridgeblock 58, 10, $39, ROUTE_23_WEST
+	changebridgeblock 58, 12, $37, ROUTE_23_WEST
 	jp Route23West_FinishOverheadBridge
 	
 Route23WestBridgesOverheadTrigger:
@@ -226,8 +226,8 @@ Route23WestBridgesOverheadTrigger:
 	changebridgeblock 56,  6, $d7, ROUTE_23_WEST
 	; bridge 2
 	changebridgeblock 58,  8, $dc, ROUTE_23_WEST
-	changebridgeblock 58, 10, $dd, ROUTE_23_WEST
-	changebridgeblock 58, 12, $e1, ROUTE_23_WEST
+	changebridgeblock 58, 10, $39, ROUTE_23_WEST
+	changebridgeblock 58, 12, $37, ROUTE_23_WEST
 	; fallthrough
 Route23West_FinishOverheadBridge:
 	xor a
@@ -235,8 +235,8 @@ Route23West_FinishOverheadBridge:
 	
 Route23WestBridge2UnderfootTrigger:
 	callthisasm
-	changebridgeblock 58,  8, $e0, ROUTE_23_WEST
-	changebridgeblock 58, 10, $e0, ROUTE_23_WEST
+	changebridgeblock 58,  8, $36, ROUTE_23_WEST
+	changebridgeblock 58, 10, $36, ROUTE_23_WEST
 	changebridgeblock 58, 12, $02, ROUTE_23_WEST
 	; fallthrough
 Route23West_FinishUnderfootBridge:

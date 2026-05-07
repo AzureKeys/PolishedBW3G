@@ -53,11 +53,11 @@ P2LabSetTiles:
 	changeblock  2, 36, $55
 	changeblock 18, 26, $55
 	changeblock 20,  2, $55
-	changeblock  8,  2, $9e
-	changeblock 20, 18, $a2
-	changeblock  6, 26, $a2
+	changeblock  8,  2, $53
+	changeblock 20, 18, $52
+	changeblock  6, 26, $52
 	changeblock 12, 36, $07
-	changeblock  2, 32, $9e
+	changeblock  2, 32, $53
 .done
 	endcallback
 	
@@ -76,18 +76,18 @@ P2LabDoorToggleScript:
 	changeblock  2, 36, $55
 	changeblock 18, 26, $55
 	changeblock 20,  2, $55
-	changeblock  8,  2, $9e
-	changeblock 20, 18, $a2
-	changeblock  6, 26, $a2
+	changeblock  8,  2, $53
+	changeblock 20, 18, $52
+	changeblock  6, 26, $52
 	changeblock 12, 36, $07
-	changeblock  2, 32, $9e
+	changeblock  2, 32, $53
 	refreshmap
 	setevent EVENT_P2_LAB_DOORS
 	sjumpfwd .done
 .ResetDoors
-	changeblock  2, 36, $9e
+	changeblock  2, 36, $53
 	changeblock 18, 26, $07
-	changeblock 20,  2, $9e
+	changeblock 20,  2, $53
 	changeblock  8,  2, $55
 	changeblock 20, 18, $58
 	changeblock  6, 26, $58

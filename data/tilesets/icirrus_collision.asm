@@ -4,12 +4,12 @@
 	tilecoll WALL, WALL, WALL, WALL ; 03
 	tilecoll WALL, WALL, WALL, WALL ; 04
 	tilecoll WALL, WALL, WALL, WALL ; 05
-	tilecoll WALL, WALL, WALL, WALL ; 06
-	tilecoll WALL, WALL, WALL, WALL ; 07
+	tilecoll FLOOR, FLOOR, FLOOR, HOLE ; 06
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 07
 	tilecoll WALL, WALL, WALL, DOOR ; 08
 	tilecoll WALL, WALL, WALL, WALL ; 09
 	tilecoll WATER, WATER, WATER, WATER ; 0a
-	tilecoll WALL, WALL, WALL, WALL ; 0b
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 0b
 	tilecoll WALL, WALL, WALL, WALL ; 0c
 	tilecoll WALL, WALL, WALL, WALL ; 0d
 	tilecoll WALL, WALL, WALL, WALL ; 0e
@@ -50,12 +50,12 @@
 	tilecoll WALL, WALL, WALL, WALL ; 31
 	tilecoll WALL, WALL, WALL, WALL ; 32
 	tilecoll TOP_WALL, TOP_WALL, FLOOR, FLOOR ; 33
-	tilecoll WALL, WALL, WALL, WALL ; 34
-	tilecoll WALL, WALL, WALL, WALL ; 35
+	tilecoll TALL_GRASS, WATER, TALL_GRASS, WATER ; 34
+	tilecoll TALL_GRASS, TALL_GRASS, WATER, TALL_GRASS ; 35
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 36
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 37
-	tilecoll WALL, WALL, WALL, WALL ; 38
-	tilecoll WALL, WALL, WALL, WALL ; 39
+	tilecoll WALL, TALL_GRASS, WALL, TALL_GRASS ; 38
+	tilecoll TALL_GRASS, TALL_GRASS, WALL, TALL_GRASS ; 39
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 3a
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 3b
 	tilecoll WALL, WALL, WALL, WALL ; 3c
@@ -160,7 +160,7 @@
 	tilecoll WALL, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 9f
 	tilecoll TALL_GRASS, TALL_GRASS, WATER, WATER ; a0
 	tilecoll WALL, TALL_GRASS, TALL_GRASS, TALL_GRASS ; a1
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; a2
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; a2
 	tilecoll WALL, WALL, WALL, WALL ; a3
 	tilecoll WALL, WALL, WALL, WALL ; a4
 	tilecoll WALL, WALL, WALL, WALL ; a5
@@ -198,11 +198,3 @@
 	tilecoll TALL_GRASS, TALL_GRASS, WATER, TALL_GRASS ; c5
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; c6
 	tilecoll TALL_GRASS, WALL, TALL_GRASS, TALL_GRASS ; c7
-	tilecoll WALL, TALL_GRASS, WALL, TALL_GRASS ; c8
-	tilecoll TALL_GRASS, TALL_GRASS, WALL, TALL_GRASS ; c9
-	tilecoll TALL_GRASS, WATER, TALL_GRASS, WATER ; ca
-	tilecoll TALL_GRASS, TALL_GRASS, WATER, TALL_GRASS ; cb
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; cc
-	tilecoll FLOOR, FLOOR, FLOOR, HOLE ; cd
-	tilecoll WALL, FLOOR, FLOOR, FLOOR ; ce
-	tilecoll FLOOR, FLOOR, WALL, WALL ; cf

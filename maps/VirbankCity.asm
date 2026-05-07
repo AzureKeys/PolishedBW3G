@@ -118,8 +118,8 @@ VirbankCityTileScript:
 	changebridgeblock 14, 20, $91, VIRBANK_CITY
 	changebridgeblock 16, 20, $92, VIRBANK_CITY
 	changebridgeblock 18, 20, $93, VIRBANK_CITY
-	changebridgeblock 14, 22, $96, VIRBANK_CITY
-	changebridgeblock 16, 22, $97, VIRBANK_CITY
+	changebridgeblock 14, 22, $73, VIRBANK_CITY
+	changebridgeblock 16, 22, $77, VIRBANK_CITY
 	jmp BufferScreen
 
 .underfoot_asm:
@@ -202,8 +202,8 @@ VirbankCityBridge2OverheadTrigger:
 	changebridgeblock 14, 20, $91, VIRBANK_CITY
 	changebridgeblock 16, 20, $92, VIRBANK_CITY
 	changebridgeblock 18, 20, $93, VIRBANK_CITY
-	changebridgeblock 14, 22, $96, VIRBANK_CITY
-	changebridgeblock 16, 22, $97, VIRBANK_CITY
+	changebridgeblock 14, 22, $73, VIRBANK_CITY
+	changebridgeblock 16, 22, $77, VIRBANK_CITY
 	jp VirbankCity_FinishOverheadBridge
 	
 VirbankCityBridgesOverheadTrigger:
@@ -235,8 +235,8 @@ VirbankCityBridgesOverheadTrigger:
 	changebridgeblock 14, 20, $91, VIRBANK_CITY
 	changebridgeblock 16, 20, $92, VIRBANK_CITY
 	changebridgeblock 18, 20, $93, VIRBANK_CITY
-	changebridgeblock 14, 22, $96, VIRBANK_CITY
-	changebridgeblock 16, 22, $97, VIRBANK_CITY
+	changebridgeblock 14, 22, $73, VIRBANK_CITY
+	changebridgeblock 16, 22, $77, VIRBANK_CITY
 	; fallthrough
 VirbankCity_FinishOverheadBridge:
 	xor a

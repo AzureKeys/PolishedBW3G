@@ -63,9 +63,9 @@ Route11TileScript:
 	changebridgeblock 28, 10, $11, ROUTE_11
 	changebridgeblock 28, 12, $15, ROUTE_11
 	changebridgeblock 30, 10, $d5, ROUTE_11
-	changebridgeblock 30, 12, $d9, ROUTE_11
+	changebridgeblock 30, 12, $d7, ROUTE_11
 	changebridgeblock 32, 10, $d5, ROUTE_11
-	changebridgeblock 32, 12, $d9, ROUTE_11
+	changebridgeblock 32, 12, $d7, ROUTE_11
 	changebridgeblock 34, 10, $10, ROUTE_11
 	changebridgeblock 34, 12, $14, ROUTE_11
 	jmp BufferScreen
@@ -74,9 +74,9 @@ Route11TileScript:
 	changebridgeblock 28, 10, $a0, ROUTE_11
 	changebridgeblock 28, 12, $a4, ROUTE_11
 	changebridgeblock 30, 10, $d4, ROUTE_11
-	changebridgeblock 30, 12, $d8, ROUTE_11
+	changebridgeblock 30, 12, $d6, ROUTE_11
 	changebridgeblock 32, 10, $d4, ROUTE_11
-	changebridgeblock 32, 12, $d8, ROUTE_11
+	changebridgeblock 32, 12, $d6, ROUTE_11
 	changebridgeblock 34, 10, $a0, ROUTE_11
 	changebridgeblock 34, 12, $a4, ROUTE_11
 	jmp BufferScreen
@@ -86,9 +86,9 @@ Route11BridgeOverheadTrigger:
 	changebridgeblock 28, 10, $11, ROUTE_11
 	changebridgeblock 28, 12, $15, ROUTE_11
 	changebridgeblock 30, 10, $d5, ROUTE_11
-	changebridgeblock 30, 12, $d9, ROUTE_11
+	changebridgeblock 30, 12, $d7, ROUTE_11
 	changebridgeblock 32, 10, $d5, ROUTE_11
-	changebridgeblock 32, 12, $d9, ROUTE_11
+	changebridgeblock 32, 12, $d7, ROUTE_11
 	changebridgeblock 34, 10, $10, ROUTE_11
 	changebridgeblock 34, 12, $14, ROUTE_11
 	
@@ -100,9 +100,9 @@ Route11BridgeUnderfootTrigger:
 	changebridgeblock 28, 10, $a0, ROUTE_11
 	changebridgeblock 28, 12, $a4, ROUTE_11
 	changebridgeblock 30, 10, $d4, ROUTE_11
-	changebridgeblock 30, 12, $d8, ROUTE_11
+	changebridgeblock 30, 12, $d6, ROUTE_11
 	changebridgeblock 32, 10, $d4, ROUTE_11
-	changebridgeblock 32, 12, $d8, ROUTE_11
+	changebridgeblock 32, 12, $d6, ROUTE_11
 	changebridgeblock 34, 10, $a0, ROUTE_11
 	changebridgeblock 34, 12, $a4, ROUTE_11
 	

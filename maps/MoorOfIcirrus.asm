@@ -38,7 +38,7 @@ MoorOfIcirrus_MapScriptHeader:
 MoorOfIcirrusBoulderHoles:
 	checkevent EVENT_MOOR_OF_ICIRRUS_BOULDER
 	iffalsefwd .done
-	changeblock  8, 24, $cc
+	changeblock  8, 24, $07
 .done
 	endcallback
 	
@@ -60,7 +60,7 @@ MoorOfIcirrusBoulderCallback:
 	line "through!"
 	done
 	disappear MOOROFICIRRUS_BOULDER
-	changeblock  8, 24, $cc
+	changeblock  8, 24, $07
 	refreshmap
 	waitbutton
 	closetext

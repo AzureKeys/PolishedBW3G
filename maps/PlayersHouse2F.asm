@@ -264,7 +264,7 @@ endr
 	;halloffame
 	;setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
 	;disappear PLAYER
-	warp CHAMPIONS_ROOM_ENTRANCE,  7, 13
+	warp DRIFTVEIL_CITY, 11, 33
 	;closetext
 	end
 

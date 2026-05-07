@@ -41,7 +41,7 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 28
 	tilecoll FLOOR, FLOOR, SPIN_UP, FLOOR ; 29
 	tilecoll FLOOR, FLOOR, WALL, STOP_SPIN ; 2a
-	tilecoll FLOOR, SPIN_LEFT, FLOOR, FLOOR ; 2b
+	tilecoll VOID, VOID, VOID, VOID ; 2b
 	tilecoll FLOOR, SPIN_LEFT, SPIN_RIGHT, FLOOR ; 2c
 	tilecoll SPIN_UP, FLOOR, FLOOR, FLOOR ; 2d
 	tilecoll SPIN_LEFT, FLOOR, SPIN_RIGHT, FLOOR ; 2e

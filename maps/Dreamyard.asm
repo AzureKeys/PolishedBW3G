@@ -68,7 +68,7 @@ DreamyardTileScript:
 
 .underfoot_asm:
 	changebridgeblock 10,  0, $4a, DREAMYARD
-	changebridgeblock 14,  0, $ec, DREAMYARD
+	changebridgeblock 14,  0, $3b, DREAMYARD
 	changebridgeblock 16,  0, $4a, DREAMYARD
 	changebridgeblock 18,  0, $4a, DREAMYARD
 	changebridgeblock 20,  0, $4a, DREAMYARD
@@ -119,7 +119,7 @@ DreamyardBridgeOverheadTrigger:
 DreamyardBridgeUnderfootTrigger:
 	callthisasm
 	changebridgeblock 10,  0, $4a, DREAMYARD
-	changebridgeblock 14,  0, $ec, DREAMYARD
+	changebridgeblock 14,  0, $3b, DREAMYARD
 	changebridgeblock 16,  0, $4a, DREAMYARD
 	changebridgeblock 18,  0, $4a, DREAMYARD
 	changebridgeblock 20,  0, $4a, DREAMYARD

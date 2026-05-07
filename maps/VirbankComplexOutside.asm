@@ -74,8 +74,8 @@ VirbankComplexOutsideTileScript:
 	; bridge 2
 	changebridgeblock 12, 30, $8c, VIRBANK_COMPLEX_OUTSIDE
 	changebridgeblock 14, 30, $8d, VIRBANK_COMPLEX_OUTSIDE
-	changebridgeblock 12, 32, $a0, VIRBANK_COMPLEX_OUTSIDE
-	changebridgeblock 14, 32, $a1, VIRBANK_COMPLEX_OUTSIDE
+	changebridgeblock 12, 32, $9a, VIRBANK_COMPLEX_OUTSIDE
+	changebridgeblock 14, 32, $9b, VIRBANK_COMPLEX_OUTSIDE
 	jmp BufferScreen
 
 VirbankComplexOutsideBridge1OverheadTrigger:
@@ -119,8 +119,8 @@ VirbankComplexOutsideBridge2UnderfootTrigger:
 	callthisasm
 	changebridgeblock 12, 30, $8c, VIRBANK_COMPLEX_OUTSIDE
 	changebridgeblock 14, 30, $8d, VIRBANK_COMPLEX_OUTSIDE
-	changebridgeblock 12, 32, $a0, VIRBANK_COMPLEX_OUTSIDE
-	changebridgeblock 14, 32, $a1, VIRBANK_COMPLEX_OUTSIDE
+	changebridgeblock 12, 32, $9a, VIRBANK_COMPLEX_OUTSIDE
+	changebridgeblock 14, 32, $9b, VIRBANK_COMPLEX_OUTSIDE
 	; fallthrough
 VirbankComplexOutside_FinishUnderfootBridge:
 	ld a, $1
