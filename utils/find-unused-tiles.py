@@ -21,16 +21,7 @@ metatile_filename_fmt  = 'data/tilesets/%s_metatiles.bin'
 attribute_filename_fmt = 'data/tilesets/%s_attributes.bin'
 
 tileset_names = [
-	'johto_traditional', 'johto_modern', 'johto_outlands', 'battle_tower_outside',
-	'unova_house', 'traditional_house', 'pokecenter', 'mart',
-	'gate', 'magnet_train', 'champions_room', 'port', 'lab',
-	'facility', 'game_corner', 'battle_tower_inside', 'underground',
-	'cave', 'ice_path', 'battle_factory', 'elite_four_room',
-	'lentimas', 'forest', 'nimbasa', 'park', 'desert', 'castelia',
-	'virbank', 'complex', 'bridge', 'village_bridge', 'nacrene',
-	'striaton', 'dreamyard', 'pwt_outside', 'pwt_inside', 'airport',
-	'icirrus', 'dragonspiral', 'driftveil', 'mistralton', 'opelucid',
-    'unova_beach', 'unova_west', 'unova_east', 'unova_north', 'hidden_grotto'
+	'unova_beach'
 ]
 
 # {'TILESET_PC_JOHTO_1': 'johto1', ...}
@@ -125,7 +116,7 @@ def read_block_filenames():
 			line = line.strip()
 			if line.endswith('_BlockData:'):
 				map_names.append(line[:-11])
-			elif line.startswith('INCBIN "maps/') and line.endswith('.ablk.lz"'):
+			elif line.startswith('INCBIN "maps/') and line.endswith('.ablk.lzp"'):
 				block_data_name = line[13:-9]
 				for map_name in map_names:
 					if map_name != block_data_name:
