@@ -39,6 +39,7 @@ AbilityFlags:
 	abilflag SUCTION_CUPS, IGNORABLE
 	abilflag INTIMIDATE
 	abilflag SHADOW_TAG
+	abilflag ROUGH_SKIN
 	abilflag LEVITATE, IGNORABLE
 	abilflag EFFECT_SPORE
 	abilflag SYNCHRONIZE
@@ -158,6 +159,7 @@ AbilityFlags:
 	abilflag SAP_SIPPER, IGNORABLE
 	abilflag PRANKSTER
 	abilflag SAND_FORCE
+	abilflag IRON_BARBS
 	abilflag ZEN_MODE, NO_COPY, NO_TRACE, NO_SWAP, NO_SUPPRESS
 	abilflag VICTORY_STAR
 	abilflag TURBOBLAZE

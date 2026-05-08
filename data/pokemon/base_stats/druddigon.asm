@@ -7,8 +7,7 @@
 	db NO_ITEM, DRAGON_FANG  ; held items
 	dn GENDER_F50, HATCH_SLOW  ; gender ratio, step cycles to hatch
 
-	 ;abilities_for DRUDDIGON, ROUGH_SKIN, SHEER_FORCE, MOLD_BREAKER
-	abilities_for DRUDDIGON, SHEER_FORCE, SHEER_FORCE, MOLD_BREAKER
+	abilities_for DRUDDIGON, ROUGH_SKIN, SHEER_FORCE, MOLD_BREAKER
 	db GROWTH_MEDIUM_FAST  ; growth rate
 	dn EGG_DRAGON, EGG_MONSTER  ; egg groups
 

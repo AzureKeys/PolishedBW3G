@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
-	abilities_for FERROSEED, ANTICIPATION, ANTICIPATION, ANTICIPATION
-	 ;abilities_for FERROSEED, IRON_BARBS, IRON_BARBS, IRON_BARBS
+	abilities_for FERROSEED, IRON_BARBS, IRON_BARBS, IRON_BARBS
 	db GROWTH_MEDIUM_FAST  ; growth rate
 	dn EGG_PLANT, EGG_MINERAL  ; egg groups
 

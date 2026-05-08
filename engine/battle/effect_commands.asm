@@ -2117,13 +2117,7 @@ BattleCommand_checkhit:
 .max_acc_ok
 	add 13
 	ld b, a
-	
-	call GetTrueUserIgnorableAbility
-	cp VICTORY_STAR
-	jr nz, .check_wonder_skin
-	farcall VictoryStarAbility
 
-.check_wonder_skin
 	call GetOpponentIgnorableAbility
 	cp WONDER_SKIN
 	jr nz, .not_wonder_skin

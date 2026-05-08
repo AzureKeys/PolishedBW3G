@@ -710,6 +710,8 @@ TargetContactAbilities:
 	dbw POISON_POINT, PoisonPointAbility
 	dbw STATIC, StaticAbility
 	dbw CUTE_CHARM, CuteCharmAbility
+	dbw ROUGH_SKIN, RoughSkinAbility
+	dbw IRON_BARBS, IronBarbsAbility
 	dbw TANGLING_HAIR, TanglingHairAbility
 	dbw PERISH_BODY, PerishBodyAbility
 	dbw MUMMY, MummyAbility
@@ -800,6 +802,31 @@ TanglingHairAbility:
 	farcall _ForceLowerOppStat
 	call EndAbility
 	farjp CheckMirrorHerb
+
+RoughSkinAbility:
+IronBarbsAbility:
+	call HasOpponentFainted
+	ret z
+	
+	call SwitchTurn
+	farcall GetFutureSightUser
+	call SwitchTurn
+	ret nc
+	farcall CheckSubHit
+	ret nz
+	call GetOpponentIgnorableAbility
+	cp MAGIC_GUARD
+	ret z
+	
+	call BeginAbility
+	call ShowAbilityActivation
+	call SwitchTurn
+	call GetEighthMaxHP
+	farcall SubtractHPFromUser_OverrideFaintOrder
+	ld hl, IsHurtText
+	call StdBattleTextbox
+	call EndAbility
+	jmp SwitchTurn
 
 EffectSporeAbility:
 	call CheckIfTargetIsGrassType
@@ -1225,6 +1252,7 @@ ApplyAccuracyAbilities:
 UserAccuracyAbilities:
 	dbw COMPOUND_EYES, CompoundEyesAbility
 	dbw HUSTLE, HustleAccuracyAbility
+	dbw VICTORY_STAR, VictoryStarAbility
 	dbw -1, -1
 
 TargetAccuracyAbilities:
@@ -1241,6 +1269,11 @@ CompoundEyesAbility:
 	ln a, 13, 10 ; x1.3
 	jmp MultiplyAndDivide
 
+VictoryStarAbility:
+; Increase accuracy by 10%
+	ln a, 11, 10 ; x1.1
+	jmp MultiplyAndDivide
+
 HustleAccuracyAbility:
 ; Decrease accuracy for physical attacks by 20%
 	ln a, 4, 5 ; 4/5 = 80%
@@ -1254,20 +1287,6 @@ TangledFeetAbility:
 	ret z
 	ln a, 1, 2 ; x0.5
 	jmp MultiplyAndDivide
-
-VictoryStarAbility:
-; Increase move accuracy by 10%
-	ld a, BATTLE_VARS_MOVE_ACCURACY
-	call GetBattleVarAddr
-	ld a, [hl]
-	add 10
-	; cap at 100%
-	cp 100
-	jr c, .load_acc
-	ld a, 100
-.load_acc
-	ld [hl], a
-	ret
 
 WonderSkinAbility:
 ; Set move accuracy to 50% if it's a status move

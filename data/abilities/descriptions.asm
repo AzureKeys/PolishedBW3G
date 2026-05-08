@@ -23,6 +23,7 @@ AbilityDescriptions:
 	dw SuctionCupsDescription
 	dw IntimidateDescription
 	dw ShadowTagDescription
+	dw RoughSkinDescription
 	dw LevitateDescription
 	dw EffectSporeDescription
 	dw SynchronizeDescription
@@ -142,6 +143,7 @@ AbilityDescriptions:
 	dw SapSipperDescription
 	dw PranksterDescription
 	dw SandForceDescription
+	dw IronBarbsDescription
 	dw ZenModeDescription
 	dw VictoryStarDescription
 	dw TurboblazeDescription
@@ -292,6 +294,12 @@ IntimidateDescription:
 ShadowTagDescription:
 	text "Prevents the foe"
 	next "from escaping."
+	done
+
+RoughSkinDescription:
+IronBarbsDescription:
+	text "Making contact"
+	next "damages the foe."
 	done
 
 LevitateDescription:

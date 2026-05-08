@@ -26,6 +26,7 @@
 	const SUCTION_CUPS
 	const INTIMIDATE
 	const SHADOW_TAG
+	const ROUGH_SKIN
 	const LEVITATE
 	const EFFECT_SPORE
 	const SYNCHRONIZE
@@ -145,6 +146,7 @@
 	const SAP_SIPPER
 	const PRANKSTER
 	const SAND_FORCE
+	const IRON_BARBS
 	const ZEN_MODE
 	const VICTORY_STAR
 	const TURBOBLAZE

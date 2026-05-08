@@ -23,6 +23,7 @@ AbilityNames:
 	dw SuctionCups
 	dw Intimidate
 	dw ShadowTag
+	dw RoughSkin
 	dw Levitate
 	dw EffectSpore
 	dw Synchronize
@@ -142,6 +143,7 @@ AbilityNames:
 	dw SapSipper
 	dw Prankster
 	dw SandForce
+	dw IronBarbs
 	dw ZenMode
 	dw VictoryStar
 	dw Turboblaze
@@ -199,6 +201,7 @@ OwnTempo:        rawchar "Own Tempo@"
 SuctionCups:     rawchar "Suction Cups@"
 Intimidate:      rawchar "Intimidate@"
 ShadowTag:       rawchar "Shadow Tag@"
+RoughSkin:       rawchar "Rough Skin@"
 Levitate:        rawchar "Levitate@"
 EffectSpore:     rawchar "Effect Spore@"
 Synchronize:     rawchar "Synchronize@"
@@ -318,6 +321,7 @@ MagicBounce:     rawchar "Magic Bounce@"
 SapSipper:       rawchar "Sap Sipper@"
 Prankster:       rawchar "Prankster@"
 SandForce:       rawchar "Sand Force@"
+IronBarbs:       rawchar "Iron Barbs@"
 ZenMode:         rawchar "Zen Mode@"
 VictoryStar:     rawchar "Victory Star@"
 Turboblaze:      rawchar "Turboblaze@"
