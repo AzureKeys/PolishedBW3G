@@ -35,7 +35,6 @@ AbilityNames:
 	dw Illuminate
 	dw Trace
 	dw HugePower
-	dw PurePower
 	dw PoisonPoint
 	dw InnerFocus
 	dw MagmaArmor
@@ -68,6 +67,7 @@ AbilityNames:
 	dw ArenaTrap
 	dw VitalSpirit
 	dw WhiteSmoke
+	dw PurePower
 	dw ShellArmor
 	dw TangledFeet
 	dw MotorDrive
@@ -77,6 +77,7 @@ AbilityNames:
 	dw Gluttony
 	dw AngerPoint
 	dw Unburden
+	dw Heatproof
 	dw Simple
 	dw DrySkin
 	dw Download
@@ -120,6 +121,7 @@ AbilityNames:
 	dw LightMetal
 	dw Multiscale
 	dw ToxicBoost
+	dw FlareBoost
 	dw Harvest
 	dw Moody
 	dw Overcoat
@@ -140,6 +142,7 @@ AbilityNames:
 	dw Prankster
 	dw SandForce
 	dw ZenMode
+	dw VictoryStar
 	dw Turboblaze
 	dw Teravolt
 	dw FurCoat
@@ -170,7 +173,6 @@ AbilityNames:
 	dw ArmorTail
 	dw MindsEye
 	dw MegaSol
-	dw Heatproof
 	assert_table_length NUM_ABILITIES
 
 NoAbility:       rawchar "---@"
@@ -208,7 +210,6 @@ Chlorophyll:     rawchar "Chlorophyll@"
 Illuminate:      rawchar "Illuminate@"
 Trace:           rawchar "Trace@"
 HugePower:       rawchar "Huge Power@"
-PurePower:       rawchar "Pure Power@"
 PoisonPoint:     rawchar "Poison Point@"
 InnerFocus:      rawchar "Inner Focus@"
 MagmaArmor:      rawchar "Magma Armor@"
@@ -241,6 +242,7 @@ Drought:         rawchar "Drought@"
 ArenaTrap:       rawchar "Arena Trap@"
 VitalSpirit:     rawchar "Vital Spirit@"
 WhiteSmoke:      rawchar "White Smoke@"
+PurePower:       rawchar "Pure Power@"
 ShellArmor:      rawchar "Shell Armor@"
 TangledFeet:     rawchar "Tangled Feet@"
 MotorDrive:      rawchar "Motor Drive@"
@@ -250,6 +252,7 @@ SnowCloak:       rawchar "Snow Cloak@"
 Gluttony:        rawchar "Gluttony@"
 AngerPoint:      rawchar "Anger Point@"
 Unburden:        rawchar "Unburden@"
+Heatproof:       rawchar "Heatproof@"
 Simple:          rawchar "Simple@"
 DrySkin:         rawchar "Dry Skin@"
 Download:        rawchar "Download@"
@@ -293,6 +296,7 @@ HeavyMetal:      rawchar "Heavy Metal@"
 LightMetal:      rawchar "Light Metal@"
 Multiscale:      rawchar "Multiscale@"
 ToxicBoost:      rawchar "Toxic Boost@"
+FlareBoost:      rawchar "Flare Boost@"
 Harvest:         rawchar "Harvest@"
 Moody:           rawchar "Moody@"
 Overcoat:        rawchar "Overcoat@"
@@ -313,6 +317,7 @@ SapSipper:       rawchar "Sap Sipper@"
 Prankster:       rawchar "Prankster@"
 SandForce:       rawchar "Sand Force@"
 ZenMode:         rawchar "Zen Mode@"
+VictoryStar:     rawchar "Victory Star@"
 Turboblaze:      rawchar "Turboblaze@"
 Teravolt:        rawchar "Teravolt@"
 FurCoat:         rawchar "Fur Coat@"
@@ -343,4 +348,3 @@ SupremeOverlord: rawchar "Supreme Overlord@"
 ArmorTail:       rawchar "Armor Tail@"
 MindsEye:        rawchar "Mind's Eye@"
 MegaSol:         rawchar "Mega Sol@"
-Heatproof:       rawchar "Heatproof@"

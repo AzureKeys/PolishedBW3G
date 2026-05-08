@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM   ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN   ; gender ratio, step cycles to hatch
 
-	abilities_for VICTINI, PRESSURE, PRESSURE, PRESSURE
-	  ;abilities_for VICTINI, VICTORY_STAR, VICTORY_STAR, VICTORY_STAR
+	abilities_for VICTINI, VICTORY_STAR, VICTORY_STAR, VICTORY_STAR
 	db GROWTH_SLOW   ; growth rate
 	dn EGG_NONE, EGG_NONE   ; egg groups
 

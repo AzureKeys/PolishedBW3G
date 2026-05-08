@@ -1251,6 +1251,20 @@ TangledFeetAbility:
 	ln a, 1, 2 ; x0.5
 	jmp MultiplyAndDivide
 
+VictoryStarAbility:
+; Increase move accuracy by 10%
+	ld a, BATTLE_VARS_MOVE_ACCURACY
+	call GetBattleVarAddr
+	ld a, [hl]
+	add 10
+	; cap at 100%
+	cp 100
+	jr c, .load_acc
+	ld a, 100
+.load_acc
+	ld [hl], a
+	ret
+
 WonderSkinAbility:
 ; Set move accuracy to 50% if it's a status move
 	ld a, BATTLE_VARS_MOVE_CATEGORY
@@ -1840,6 +1854,7 @@ OffensiveDamageAbilities:
 	dbw RECKLESS, RecklessAbility
 	dbw GUTS, GutsAbility
 	dbw TOXIC_BOOST, ToxicBoostAbility
+	dbw FLARE_BOOST, FlareBoostAbility
 	dbw PIXILATE, PixilateAbility
 	dbw GALVANIZE, GalvanizeAbility
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
@@ -2054,12 +2069,22 @@ RecklessAbility:
 	ln a, 6, 5 ; x1.2
 	jmp MultiplyAndDivide
 
+FlareBoostAbility:
+; 150% special attack if user is burned
+	ld b, 1 << BRN
+	ld c, 1 ; used to signify Special boost
+	push bc
+	jr StatusPowerAbilities
 ToxicBoostAbility:
 ; 150% physical attack if user is poisoned
 	ld b, 1 << PSN
+	jr PhysicalStatusPowerAbilities
 GutsAbility:
 ; 150% physical attack if user is statused
 	ld b, -1
+PhysicalStatusPowerAbilities:
+	ld c, 0 ; used to signify Physical boost
+	push bc
 	; fallthrough
 StatusPowerAbilities:
 	farcall GetFutureSightUser
@@ -2072,9 +2097,19 @@ StatusPowerAbilities:
 	call GetBattleVar
 .got_status
 	and b
+	pop bc
 	ret z
-	ln a, 3, 2 ; x1.5
-	jmp ApplyPhysicalAttackDamageMod
+; To determine which boost type to use, we can't just call 
+; GetTrueUserAbility and check for FLARE_BOOST, as this will return
+; NO_ABILITY for a Future Sight user that has Flare Boost and is 
+; Burned, but not currently active, preventing the damage increase.
+
+; I'm loading a bit into c before the routines converge to keep
+; track of this.
+	ld a, c
+	xor a
+	jp z, ApplyPhysicalAttackDamageMod
+	jmp ApplySpecialAttackDamageMod
 
 PixilateAbility:
 	ld b, FAIRY

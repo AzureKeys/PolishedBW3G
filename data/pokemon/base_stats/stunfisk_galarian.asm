@@ -7,8 +7,8 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST  ; gender ratio, step cycles to hatch
 
-	abilities_for STUNFISK_GALARIAN, STATIC, LIMBER, SAND_VEIL
-	;abilities_for STUNFISK_GALARIAN, MIMICRY, MIMICRY, MIMICRY
+	abilities_for STUNFISK_GALARIAN, ARENA_TRAP, ARENA_TRAP, ARENA_TRAP
+	;abilities_for STUNFISK_GALARIAN, ARENA_TRAP, ARENA_TRAP, PROTEAN
 	db GROWTH_MEDIUM_FAST  ; growth rate
 	dn EGG_WATER_1, EGG_INDETERMINATE  ; egg groups
 

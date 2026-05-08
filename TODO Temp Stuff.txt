@@ -47,14 +47,13 @@ Basculegion (minis)
 ABILITIES THAT NEED ADDING:
 Defeatist: Archen, Archeops
 Klutz: Audino, Buneary, Golett, Golurk, Lopunny, Swoobat, Woobat
-Heatproof: Bronzong, Bronzor
 Forecast: Castform
 Normalize: Delcatty, Skitty
-Flare Boost: Drifblim, Drifloon
 Rough Skin: Druddigon, Gabite, Garchomp, Gible
 Truant: Durant, Slakoth, Slaking
 Iron Barbs: Ferroseed, Ferrothorn
 Storm Drain: Maractus
 Victory Star: Victini
 Illusion: Zoroark, Zorua
-???: Klang, Klink, Klinklang, Munna, Musharna, Stunfisk-G
+Protean: Stunfisk-G
+???: Klang, Klink, Klinklang, Munna, Musharna

@@ -51,7 +51,6 @@ AbilityFlags:
 	abilflag ILLUMINATE, IGNORABLE
 	abilflag TRACE, NO_COPY, NO_TRACE
 	abilflag HUGE_POWER
-	abilflag PURE_POWER
 	abilflag POISON_POINT
 	abilflag INNER_FOCUS, IGNORABLE, NO_INTIMIDATE
 	abilflag MAGMA_ARMOR, IGNORABLE
@@ -84,6 +83,7 @@ AbilityFlags:
 	abilflag ARENA_TRAP
 	abilflag VITAL_SPIRIT, IGNORABLE
 	abilflag WHITE_SMOKE, IGNORABLE
+	abilflag PURE_POWER
 	abilflag SHELL_ARMOR, IGNORABLE
 	abilflag TANGLED_FEET, IGNORABLE
 	abilflag MOTOR_DRIVE, IGNORABLE
@@ -93,6 +93,7 @@ AbilityFlags:
 	abilflag GLUTTONY
 	abilflag ANGER_POINT
 	abilflag UNBURDEN
+	abilflag HEATPROOF, IGNORABLE
 	abilflag SIMPLE, IGNORABLE
 	abilflag DRY_SKIN, IGNORABLE
 	abilflag DOWNLOAD
@@ -136,6 +137,7 @@ AbilityFlags:
 	abilflag LIGHT_METAL, IGNORABLE
 	abilflag MULTISCALE, IGNORABLE
 	abilflag TOXIC_BOOST
+	abilflag FLARE_BOOST
 	abilflag HARVEST
 	abilflag MOODY
 	abilflag OVERCOAT, IGNORABLE
@@ -156,6 +158,7 @@ AbilityFlags:
 	abilflag PRANKSTER
 	abilflag SAND_FORCE
 	abilflag ZEN_MODE, NO_COPY, NO_TRACE, NO_SWAP, NO_SUPPRESS
+	abilflag VICTORY_STAR
 	abilflag TURBOBLAZE
 	abilflag TERAVOLT
 	abilflag FUR_COAT, IGNORABLE
@@ -186,5 +189,4 @@ AbilityFlags:
 	abilflag ARMOR_TAIL
 	abilflag MINDS_EYE, IGNORABLE
 	abilflag MEGA_SOL
-	abilflag HEATPROOF, IGNORABLE
 	assert_table_length NUM_ABILITIES

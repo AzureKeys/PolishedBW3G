@@ -38,7 +38,6 @@
 	const ILLUMINATE
 	const TRACE
 	const HUGE_POWER
-	const PURE_POWER
 	const POISON_POINT
 	const INNER_FOCUS
 	const MAGMA_ARMOR
@@ -71,6 +70,7 @@
 	const ARENA_TRAP
 	const VITAL_SPIRIT
 	const WHITE_SMOKE
+	const PURE_POWER
 	const SHELL_ARMOR
 	const TANGLED_FEET
 	const MOTOR_DRIVE
@@ -80,6 +80,7 @@
 	const GLUTTONY
 	const ANGER_POINT
 	const UNBURDEN
+	const HEATPROOF
 	const SIMPLE
 	const DRY_SKIN
 	const DOWNLOAD
@@ -123,6 +124,7 @@
 	const LIGHT_METAL
 	const MULTISCALE
 	const TOXIC_BOOST
+	const FLARE_BOOST
 	const HARVEST
 	const MOODY
 	const OVERCOAT
@@ -143,6 +145,7 @@
 	const PRANKSTER
 	const SAND_FORCE
 	const ZEN_MODE
+	const VICTORY_STAR
 	const TURBOBLAZE
 	const TERAVOLT
 	const FUR_COAT
@@ -173,5 +176,4 @@
 	const ARMOR_TAIL
 	const MINDS_EYE
 	const MEGA_SOL
-	const HEATPROOF
 DEF NUM_ABILITIES EQU const_value

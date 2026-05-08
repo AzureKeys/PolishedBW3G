@@ -35,7 +35,6 @@ AbilityDescriptions:
 	dw IlluminateDescription
 	dw TraceDescription
 	dw HugePowerDescription
-	dw PurePowerDescription
 	dw PoisonPointDescription
 	dw InnerFocusDescription
 	dw MagmaArmorDescription
@@ -68,6 +67,7 @@ AbilityDescriptions:
 	dw ArenaTrapDescription
 	dw VitalSpiritDescription
 	dw WhiteSmokeDescription
+	dw PurePowerDescription
 	dw ShellArmorDescription
 	dw TangledFeetDescription
 	dw MotorDriveDescription
@@ -77,6 +77,7 @@ AbilityDescriptions:
 	dw GluttonyDescription
 	dw AngerPointDescription
 	dw UnburdenDescription
+	dw HeatproofDescription
 	dw SimpleDescription
 	dw DrySkinDescription
 	dw DownloadDescription
@@ -120,6 +121,7 @@ AbilityDescriptions:
 	dw LightMetalDescription
 	dw MultiscaleDescription
 	dw ToxicBoostDescription
+	dw FlareBoostDescription
 	dw HarvestDescription
 	dw MoodyDescription
 	dw OvercoatDescription
@@ -140,6 +142,7 @@ AbilityDescriptions:
 	dw PranksterDescription
 	dw SandForceDescription
 	dw ZenModeDescription
+	dw VictoryStarDescription
 	dw TurboblazeDescription
 	dw TeravoltDescription
 	dw FurCoatDescription
@@ -170,7 +173,6 @@ AbilityDescriptions:
 	dw ArmorTailDescription
 	dw MindsEyeDescription
 	dw MegaSolDescription
-	dw HeatproofDescription
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
@@ -765,6 +767,11 @@ ToxicBoostDescription:
 	next "poisoned."
 	done
 
+FlareBoostDescription:
+	text "Boosts Sp. Atk"
+	next "when burned."
+	done
+
 HarvestDescription:
 	text "May recreate a"
 	next "Berry after use."
@@ -863,6 +870,11 @@ SandForceDescription:
 ZenModeDescription:
 	text "Changes form at"
 	next "half or less HP."
+	done
+
+VictoryStarDescription:
+	text "Boosts accuracy of"
+	next "user's attacks."
 	done
 
 FurCoatDescription:
