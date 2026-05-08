@@ -1270,7 +1270,7 @@ BattleCommand_critical:
 
 .ScopeLens:
 	push bc
-	call GetUserItem
+	call GetUserItemAfterUnnerve
 	ld a, b
 	cp HELD_CRITICAL_UP ; Increased critical chance (Scope Lens and Razor Claw)
 	pop bc
@@ -1489,7 +1489,7 @@ CheckAirBalloon:
 ; Returns z if the user is holding an Air Balloon
 	push bc
 	push hl
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	pop hl
 	ld a, b
 	pop bc
@@ -1606,7 +1606,7 @@ BattleCommand_stab:
 	farcall ApplyDamageAbilities_AfterTypeMatchup
 
 	; Expert Belt
-	call GetUserItem
+	call GetUserItemAfterUnnerve
 	ld a, b
 	cp HELD_EXPERT_BELT
 	jr nz, .no_expert_belt
@@ -2731,7 +2731,7 @@ BattleCommand_applydamage:
 	jr c, .enduring
 
 .cont
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	ld a, b
 	ld b, $3
 	cp HELD_FOCUS_BAND
@@ -2794,7 +2794,7 @@ BattleCommand_applydamage:
 	call SwitchTurn
 	farcall ItemRecoveryAnim
 	call SwitchTurn
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	call GetCurItemName
 	ld hl, HungOnText
 	call StdBattleTextbox
@@ -3420,7 +3420,7 @@ BattleCommand_posthiteffects:
 	cp STENCH
 	ld c, 10
 	jr z, .do_flinch_up
-	call GetUserItem
+	call GetUserItemAfterUnnerve
 	push bc
 	call GetCurItemName
 	pop bc
@@ -3904,7 +3904,7 @@ endc
 	ret nz
 
 	push bc
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	ld a, b
 	cp HELD_METAL_POWDER
 	pop bc
@@ -3932,7 +3932,7 @@ UnevolvedEviolite:
 	ret z
 
 	push bc
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	ld a, [hl]
 	cp EVIOLITE
 	pop bc
@@ -4415,7 +4415,7 @@ BattleCommand_damagecalc:
 
 .no_crit
 	; Item boosts. TODO: move species items here
-	call GetUserItem
+	call GetUserItemAfterUnnerve
 
 	ld a, b
 	cp HELD_TYPE_BOOST
@@ -4482,7 +4482,7 @@ BattleCommand_damagecalc:
 	call MultiplyAndDivide
 	; fallthrough
 .done_attacker_item
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 
 	ld a, b
 	cp HELD_ASSAULT_VEST
@@ -6074,7 +6074,7 @@ BattleCommand_recoil:
 	jr .recoil_floor
 
 BattleCommand_confusetarget:
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	ld a, b
 	cp HELD_PREVENT_CONFUSE
 	ret z
@@ -6098,7 +6098,7 @@ BattleCommand_confusetarget:
 	jr FinishConfusingTarget
 
 BattleCommand_confuse:
-	call GetOpponentItem
+	call GetOpponentItemAfterUnnerve
 	ld a, b
 	cp HELD_PREVENT_CONFUSE
 	jr nz, .no_item_protection
@@ -6315,7 +6315,7 @@ GetItemBoostedDuration:
 	push hl
 	ld h, a
 	push hl
-	call GetUserItem
+	call GetUserItemAfterUnnerve
 	pop hl
 	ld a, b
 	cp h
@@ -6653,6 +6653,9 @@ GetUserItemAfterUnnerve::
 	call GetOpponentIgnorableAbility
 	cp UNNERVE
 	ret nz
+	call GetTrueUserIgnorableAbility
+	cp KLUTZ
+	jr z, .item_disabled
 	ld a, [hl]
 	push bc
 	push de
@@ -6663,6 +6666,7 @@ GetUserItemAfterUnnerve::
 	pop de
 	pop bc
 	ret nc
+.item_disabled
 	ld hl, NoItem
 	ld b, HELD_NONE
 	ret

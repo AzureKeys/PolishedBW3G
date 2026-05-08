@@ -3500,7 +3500,7 @@ SpikesDamage_GotAbility:
 
 HandleEntryItems:
 ; Handles items at battle start or send-in.
-	farcall GetUserItem
+	farcall GetUserItemAfterUnnerve
 	ld a, b
 	cp HELD_AIR_BALLOON
 	jr z, .air_balloon

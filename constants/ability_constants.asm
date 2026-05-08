@@ -98,6 +98,7 @@
 	const STALL
 	const TECHNICIAN
 	const LEAF_GUARD
+	const KLUTZ
 	const MOLD_BREAKER
 	const SUPER_LUCK
 	const AFTERMATH

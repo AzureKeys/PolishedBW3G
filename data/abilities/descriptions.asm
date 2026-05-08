@@ -95,6 +95,7 @@ AbilityDescriptions:
 	dw StallDescription
 	dw TechnicianDescription
 	dw LeafGuardDescription
+	dw KlutzDescription
 	dw MoldBreakerDescription
 	dw SuperLuckDescription
 	dw AftermathDescription
@@ -643,6 +644,11 @@ TechnicianDescription:
 LeafGuardDescription:
 	text "Prevents status"
 	next "problems in sun."
+	done
+
+KlutzDescription:
+	text "The #mon can't"
+	next "use items."
 	done
 
 MoldBreakerDescription:

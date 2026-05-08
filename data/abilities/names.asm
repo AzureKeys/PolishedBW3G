@@ -95,6 +95,7 @@ AbilityNames:
 	dw Stall
 	dw Technician
 	dw LeafGuard
+	dw Klutz
 	dw MoldBreaker
 	dw SuperLuck
 	dw Aftermath
@@ -274,6 +275,7 @@ NoGuard:         rawchar "No Guard@"
 Stall:           rawchar "Stall@"
 Technician:      rawchar "Technician@"
 LeafGuard:       rawchar "Leaf Guard@"
+Klutz:           rawchar "Klutz@"
 MoldBreaker:     rawchar "Mold Breaker@"
 SuperLuck:       rawchar "Super Luck@"
 Aftermath:       rawchar "Aftermath@"

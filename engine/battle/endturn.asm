@@ -484,7 +484,7 @@ HandleFutureSight:
 HandleLeftovers:
 	call HasUserFainted
 	ret z
-	farcall GetUserItem
+	farcall GetUserItemAfterUnnerve
 	call GetCurItemName
 	ld a, b
 	cp HELD_LEFTOVERS

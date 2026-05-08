@@ -45,8 +45,6 @@ Basculegion (minis)
 	     SWAGGER;14
 	
 ABILITIES THAT NEED ADDING:
-Defeatist: Archen, Archeops
-Klutz: Audino, Buneary, Golett, Golurk, Lopunny, Swoobat, Woobat
 Forecast: Castform
 Normalize: Delcatty, Skitty
 Truant: Durant, Slakoth, Slaking

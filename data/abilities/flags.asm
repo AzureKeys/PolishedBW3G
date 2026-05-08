@@ -111,6 +111,7 @@ AbilityFlags:
 	abilflag STALL
 	abilflag TECHNICIAN
 	abilflag LEAF_GUARD, IGNORABLE
+	abilflag KLUTZ
 	abilflag MOLD_BREAKER
 	abilflag SUPER_LUCK
 	abilflag AFTERMATH

@@ -2002,9 +2002,7 @@ DefeatistAbility:
 	ret
 .halve
 	ln a, 1, 2 ; x0.5
-	call ApplyPhysicalAttackDamageMod
-	ln a, 1, 2 ; x0.5
-	jmp ApplySpecialAttackDamageMod
+	jmp MultiplyAndDivide
 
 ToughClawsAbility:
 	call CheckContactMove
