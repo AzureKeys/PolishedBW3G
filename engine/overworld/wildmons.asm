@@ -433,6 +433,7 @@ ApplyAbilityEffectsOnEncounterMon:
 	dbw INTIMIDATE,    .Intimidate
 	dbw KEEN_EYE,      .KeenEye
 	dbw LIGHTNING_ROD, .LightningRod
+	dbw STORM_DRAIN,   .StormDrain
 	dbw MAGNET_PULL,   .MagnetPull
 	dbw NO_GUARD,      .NoGuard
 	dbw PRESSURE,      .Pressure
@@ -499,6 +500,10 @@ ApplyAbilityEffectsOnEncounterMon:
 .MagnetPull:
 	push bc
 	ld c, STEEL
+	jr .force_wildtype
+.StormDrain:
+	push bc
+	ld c, WATER
 	jr .force_wildtype
 .LightningRod:
 .Static:

@@ -1019,6 +1019,7 @@ NullificationAbilities:
 	dbw WIND_RIDER, WindRiderAbility
 	dbw VOLT_ABSORB, VoltAbsorbAbility
 	dbw WATER_ABSORB, WaterAbsorbAbility
+	dbw STORM_DRAIN, StormDrainAbility
 	dbw DAMP, CannotUseTextAbility
 	dbw ARMOR_TAIL, CannotUseTextAbility
 	dbw -1, -1
@@ -1083,6 +1084,7 @@ AttackUpAbility:
 	ld b, ATTACK
 	jr StatUpAbility
 LightningRodAbility:
+StormDrainAbility:
 	ld b, SP_ATTACK
 	jr StatUpAbility
 RattledAbility:
@@ -1110,11 +1112,13 @@ StatUpAbility:
 	and a
 	jr z, .done
 
-; Lightning Rod, Motor Drive and Sap Sipper prints a "doesn't affect" message instead.
+; Lightning Rod, Motor Drive, Storm Drain, and Sap Sipper print a "doesn't affect" message instead.
 	call GetTrueUserIgnorableAbility
 	cp LIGHTNING_ROD
 	jr z, .print_immunity
 	cp MOTOR_DRIVE
+	jr z, .print_immunity
+	cp STORM_DRAIN
 	jr z, .print_immunity
 	cp SAP_SIPPER
 	jr nz, .done
@@ -2072,19 +2076,14 @@ RecklessAbility:
 FlareBoostAbility:
 ; 150% special attack if user is burned
 	ld b, 1 << BRN
-	ld c, 1 ; used to signify Special boost
-	push bc
 	jr StatusPowerAbilities
 ToxicBoostAbility:
 ; 150% physical attack if user is poisoned
 	ld b, 1 << PSN
-	jr PhysicalStatusPowerAbilities
+	jr StatusPowerAbilities
 GutsAbility:
 ; 150% physical attack if user is statused
 	ld b, -1
-PhysicalStatusPowerAbilities:
-	ld c, 0 ; used to signify Physical boost
-	push bc
 	; fallthrough
 StatusPowerAbilities:
 	farcall GetFutureSightUser
@@ -2097,19 +2096,12 @@ StatusPowerAbilities:
 	call GetBattleVar
 .got_status
 	and b
-	pop bc
 	ret z
-; To determine which boost type to use, we can't just call 
-; GetTrueUserAbility and check for FLARE_BOOST, as this will return
-; NO_ABILITY for a Future Sight user that has Flare Boost and is 
-; Burned, but not currently active, preventing the damage increase.
-
-; I'm loading a bit into c before the routines converge to keep
-; track of this.
-	ld a, c
-	xor a
-	jp z, ApplyPhysicalAttackDamageMod
-	jmp ApplySpecialAttackDamageMod
+	call GetTrueUserAbility
+	cp FLARE_BOOST
+	ln a, 3, 2 ; x1.5
+	jp z, ApplySpecialAttackDamageMod
+	jmp ApplyPhysicalAttackDamageMod
 
 PixilateAbility:
 	ld b, FAIRY

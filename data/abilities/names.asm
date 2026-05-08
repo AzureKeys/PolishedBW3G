@@ -103,6 +103,7 @@ AbilityNames:
 	dw TintedLens
 	dw Filter
 	dw Scrappy
+	dw StormDrain
 	dw IceBody
 	dw SolidRock
 	dw SnowWarning
@@ -278,6 +279,7 @@ Unaware:         rawchar "Unaware@"
 TintedLens:      rawchar "Tinted Lens@"
 Filter:          rawchar "Filter@"
 Scrappy:         rawchar "Scrappy@"
+StormDrain:      rawchar "Storm Drain@"
 IceBody:         rawchar "Ice Body@"
 SolidRock:       rawchar "Solid Rock@"
 SnowWarning:     rawchar "Snow Warning@"

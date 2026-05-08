@@ -103,6 +103,7 @@ AbilityDescriptions:
 	dw TintedLensDescription
 	dw FilterDescription
 	dw ScrappyDescription
+	dw StormDrainDescription
 	dw IceBodyDescription
 	dw SolidRockDescription
 	dw SnowWarningDescription
@@ -321,6 +322,11 @@ NaturalCureDescription:
 
 LightningRodDescription:
 	text "Electric moves"
+	next "boost Sp.Atk."
+	done
+
+StormDrainDescription:
+	text "Water moves"
 	next "boost Sp.Atk."
 	done
 

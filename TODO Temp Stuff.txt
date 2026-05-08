@@ -52,8 +52,6 @@ Normalize: Delcatty, Skitty
 Rough Skin: Druddigon, Gabite, Garchomp, Gible
 Truant: Durant, Slakoth, Slaking
 Iron Barbs: Ferroseed, Ferrothorn
-Storm Drain: Maractus
-Victory Star: Victini
 Illusion: Zoroark, Zorua
 Protean: Stunfisk-G
 ???: Klang, Klink, Klinklang, Munna, Musharna

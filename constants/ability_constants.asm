@@ -106,6 +106,7 @@
 	const TINTED_LENS
 	const FILTER
 	const SCRAPPY
+	const STORM_DRAIN
 	const ICE_BODY
 	const SOLID_ROCK
 	const SNOW_WARNING

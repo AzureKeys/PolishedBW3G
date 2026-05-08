@@ -119,6 +119,7 @@ AbilityFlags:
 	abilflag TINTED_LENS
 	abilflag FILTER, IGNORABLE
 	abilflag SCRAPPY, NO_INTIMIDATE
+	abilflag STORM_DRAIN, IGNORABLE
 	abilflag ICE_BODY
 	abilflag SOLID_ROCK, IGNORABLE
 	abilflag SNOW_WARNING
