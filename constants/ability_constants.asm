@@ -120,6 +120,7 @@
 	const CONTRARY
 	const UNNERVE
 	const DEFIANT
+	const DEFEATIST
 	const CURSED_BODY
 	const WEAK_ARMOR
 	const HEAVY_METAL

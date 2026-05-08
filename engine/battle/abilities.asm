@@ -1878,6 +1878,7 @@ OffensiveDamageAbilities:
 	dbw GUTS, GutsAbility
 	dbw TOXIC_BOOST, ToxicBoostAbility
 	dbw FLARE_BOOST, FlareBoostAbility
+	dbw DEFEATIST, DefeatistAbility
 	dbw PIXILATE, PixilateAbility
 	dbw GALVANIZE, GalvanizeAbility
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
@@ -1990,6 +1991,19 @@ SolarPowerAbility:
 	cp WEATHER_SUN
 	ret nz
 	ln a, 3, 2 ; x1.5
+	jmp ApplySpecialAttackDamageMod
+
+DefeatistAbility:
+; 50% attack and special attack if HP <= 1/2
+	call GetHalfMaxHP
+	call CompareHP
+	jr z, .halve
+	jr c, .halve
+	ret
+.halve
+	ln a, 1, 2 ; x0.5
+	call ApplyPhysicalAttackDamageMod
+	ln a, 1, 2 ; x0.5
 	jmp ApplySpecialAttackDamageMod
 
 ToughClawsAbility:

@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_F12_5, HATCH_SLOW  ; gender ratio, step cycles to hatch
 
-	abilities_for ARCHEN, SOLID_ROCK, STURDY, SWIFT_SWIM
-	 ;abilities_for ARCHEN, DEFEATIST, DEFEATIST, DEFEATIST
+	abilities_for ARCHEN, DEFEATIST, DEFEATIST, DEFEATIST
 	db GROWTH_MEDIUM_FAST  ; growth rate
 	dn EGG_FLYING, EGG_WATER_3  ; egg groups
 

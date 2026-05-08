@@ -49,9 +49,7 @@ Defeatist: Archen, Archeops
 Klutz: Audino, Buneary, Golett, Golurk, Lopunny, Swoobat, Woobat
 Forecast: Castform
 Normalize: Delcatty, Skitty
-Rough Skin: Druddigon, Gabite, Garchomp, Gible
 Truant: Durant, Slakoth, Slaking
-Iron Barbs: Ferroseed, Ferrothorn
 Illusion: Zoroark, Zorua
 Protean: Stunfisk-G
 ???: Klang, Klink, Klinklang, Munna, Musharna

@@ -133,6 +133,7 @@ AbilityFlags:
 	abilflag CONTRARY, IGNORABLE
 	abilflag UNNERVE
 	abilflag DEFIANT
+	abilflag DEFEATIST
 	abilflag CURSED_BODY
 	abilflag WEAK_ARMOR
 	abilflag HEAVY_METAL, IGNORABLE

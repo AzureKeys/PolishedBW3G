@@ -117,6 +117,7 @@ AbilityDescriptions:
 	dw ContraryDescription
 	dw UnnerveDescription
 	dw DefiantDescription
+	dw DefeatistDescription
 	dw CursedBodyDescription
 	dw WeakArmorDescription
 	dw HeavyMetalDescription
@@ -749,6 +750,11 @@ UnnerveDescription:
 DefiantDescription:
 	text "Boosts Attack when"
 	next "stats are lowered."
+	done
+
+DefeatistDescription:
+	text "Halves offensive"
+	next "stats at half HP."
 	done
 
 CursedBodyDescription:

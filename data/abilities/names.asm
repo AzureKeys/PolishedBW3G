@@ -117,6 +117,7 @@ AbilityNames:
 	dw Contrary
 	dw Unnerve
 	dw Defiant
+	dw Defeatist
 	dw CursedBody
 	dw WeakArmor
 	dw HeavyMetal
@@ -295,6 +296,7 @@ SheerForce:      rawchar "Sheer Force@"
 Contrary:        rawchar "Contrary@"
 Unnerve:         rawchar "Unnerve@"
 Defiant:         rawchar "Defiant@"
+Defeatist:       rawchar "Defeatist@"
 CursedBody:      rawchar "Cursed Body@"
 WeakArmor:       rawchar "Weak Armor@"
 HeavyMetal:      rawchar "Heavy Metal@"
