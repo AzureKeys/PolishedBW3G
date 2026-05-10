@@ -262,7 +262,7 @@ RoxieGroup:
 		tr_evs 252 HP, 196 Atk
 		tr_moves POISON_JAB, DRAIN_PUNCH, ICE_PUNCH, SUCKER_PUNCH
 	tr_mon 66, DRAPION @ SCOPE_LENS
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+		tr_extra SNIPER, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves POISON_JAB, NIGHT_SLASH, EARTHQUAKE, SWORDS_DANCE
 	tr_mon 67, CROBAT @ BLACK_SLUDGE
@@ -3985,7 +3985,7 @@ GruntFGroup:
 	end_trainer
 
 
-SECTION "GialloGroup", ROMX
+SECTION "GialloGroup", ROMX ; Could give each of the sages an Eeveelution matching their type as a consistent throughline, also linking back to the elders in Johto
 GialloGroup:
 
 	def_trainer_class GIALLO
@@ -4076,15 +4076,41 @@ RyokuGroup:
 
 	def_trainer_class RYOKU
 	def_trainer 1, "Ryoku"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 37, ROSELIA
+		tr_extra POISON_POINT
+		tr_evs 196 Spe
+		tr_moves GIGA_DRAIN, VENOSHOCK, TOXIC_SPIKES, HEALINGLIGHT
+	tr_mon 38, TROPIUS
+		tr_extra HARVEST
+		tr_evs 196 HP
+		tr_moves LEAF_BLADE, AERIAL_ACE, ROAR, DRAGON_DANCE
+	tr_mon 40, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra EFFECT_SPORE
+		tr_evs 196 HP
+		tr_moves TOXIC, SLUDGE_BOMB, GIGA_DRAIN, HEALINGLIGHT
 	end_trainer
 
 	def_trainer 2, "Ryoku"
-	tr_mon 73, RATTATA @ TWISTEDSPOON
-		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	tr_mon 54, ROSERADE @ FOCUS_SASH
+		tr_extra POISON_POINT
+		tr_evs 240 Spe
+		tr_moves LEAF_STORM, TOXIC, LEECH_SEED, TOXIC_SPIKES
+	tr_mon 53, FERROTHORN @ ROCKY_HELMET
+		tr_extra IRON_BARBS
+		tr_evs 240 HP
+		tr_moves POWER_WHIP, GYRO_BALL, LEECH_SEED, CURSE ; Ferroseed should have leech seed in its level up learnset, it is currently missing.
+	tr_mon 54, SAWSBUCK @ MUSCLE_BAND
+		tr_extra CHLOROPHYLL
+		tr_evs 240 Atk
+		tr_moves DOUBLE_EDGE, LEAF_BLADE, MEGAHORN, ZEN_HEADBUTT
+	tr_mon 53, TROPIUS @ SITRUS_BERRY
+		tr_extra HARVEST 
+		tr_evs 240 HP
+		tr_moves GIGA_DRAIN, AIR_SLASH, LEECH_SEED, ROOST
+	tr_mon 56, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra EFFECT_SPORE, DEF_UP_ATK_DOWN
+		tr_evs 240 HP
+		tr_moves SPORE, SLUDGE_BOMB, GIGA_DRAIN, HEALINGLIGHT
 	end_trainer
 
 
@@ -4093,15 +4119,41 @@ GormGroup:
 
 	def_trainer_class GORM
 	def_trainer 1, "Gorm"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 40, PALPITOAD
+		tr_extra SWIFT_SWIM
+		tr_evs 196 SAt
+		tr_moves SCALD, RAIN_DANCE, MUD_SHOT, ACID
+	tr_mon 42, FRILLISH
+		tr_extra CURSED_BODY
+		tr_evs 196 HP
+		tr_moves SCALD, SHADOW_BALL, HYDRO_PUMP, HEX
+	tr_mon 45, STARMIE @ MYSTIC_WATER
+		tr_extra ANALYTIC
+		tr_evs 196 SAt
+		tr_moves SCALD, PSYCHIC_M, POWER_GEM, RAPID_SPIN
 	end_trainer
 
 	def_trainer 2, "Gorm"
-	tr_mon 73, RATTATA @ TWISTEDSPOON
-		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	tr_mon 53, SEISMITOAD @ DAMP_ROCK
+		tr_extra SWIFT_SWIM
+		tr_evs 240 HP
+		tr_moves RAIN_DANCE, WATERFALL, BULLDOZE, DRAIN_PUNCH 
+	tr_mon 53, OCTILLERY @ SCOPE_LENS
+		tr_extra SNIPER
+		tr_evs 240 HP
+		tr_moves SCALD, FLAMETHROWER, ICE_BEAM, GUNK_SHOT
+	tr_mon 54, STARMIE @ EXPERT_BELT
+		tr_extra ANALYTIC
+		tr_evs 240 SAt
+		tr_moves SURF, PSYCHIC_M, THUNDERBOLT, ICE_BEAM
+	tr_mon 54, CRAWDAUNT @ FOCUS_SASH
+		tr_extra ADAPTABILITY 
+		tr_evs 240 Atk
+		tr_moves WATERFALL, KNOCK_OFF, AQUA_JET, SWORDS_DANCE
+	tr_mon 56, JELLICENT @ BLACK_SLUDGE
+		tr_extra CURSED_BODY, DEF_UP_ATK_DOWN
+		tr_evs 240 HP
+		tr_moves HYDRO_PUMP, HEX, WILL_O_WISP, RECOVER
 	end_trainer
 
 
@@ -4110,10 +4162,26 @@ MysterymanGroup:
 
 	def_trainer_class MYSTERYMAN
 	def_trainer 1, "Vio"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 42, SNEASEL
+		tr_extra INNER_FOCUS
+		tr_evs 208 Atk
+		tr_moves ICE_PUNCH, FEINT_ATTACK, METAL_CLAW, HONE_CLAWS 
+	tr_mon 42, SEALEO
+		tr_extra ICE_BODY
+		tr_evs 208 HP
+		tr_moves HAIL, BODY_SLAM, AURORA_BEAM, BRINE
+	tr_mon 45, CRYOGONAL
+		tr_extra LEVITATE
+		tr_evs 208 Spe
+		tr_moves REFLECT, LIGHT_SCREEN, ICE_BEAM, ANCIENTPOWER
+	tr_mon 45, PILOSWINE
+		tr_extra THICK_FAT 
+		tr_evs 208 Atk
+		tr_moves ICE_FANG, BULLDOZE, AMNESIA, ICE_SHARD
+	tr_mon 48, GLALIE @ LOADED_DICE
+		tr_extra INNER_FOCUS, ATK_UP_SATK_DOWN
+		tr_evs 208 HP
+		tr_moves ICICLE_SPEAR, BITE, HAIL, ICE_SHARD
 	end_trainer
 
 
@@ -4122,15 +4190,53 @@ ZinzolinGroup:
 
 	def_trainer_class ZINZOLIN
 	def_trainer 1, "Zinzolin"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 52, PILOSWINE @ EVIOLITE
+		tr_extra THICK_FAT 
+		tr_evs 240 Atk
+		tr_moves ICE_FANG, EARTHQUAKE, HAIL, ICE_SHARD
+	tr_mon 53, CRYOGONAL @ LIGHT_CLAY
+		tr_extra LEVITATE
+		tr_evs 240 Spe
+		tr_moves REFLECT, LIGHT_SCREEN, BLIZZARD, HAIL
+	tr_mon 53, GLALIE @ ICY_ROCK
+		tr_extra INNER_FOCUS, ATK_UP_SATK_DOWN
+		tr_evs 240 HP
+		tr_moves ICICLE_CRASH, EXPLOSION, HAIL, ICE_SHARD
+	tr_mon 55, WALREIN @ LEFTOVERS
+		tr_extra ICE_BODY
+		tr_evs 240 HP
+		tr_moves HAIL, BODY_SLAM, AURORA_BEAM, BRINE
+	tr_mon 57, WEAVILE @ FOCUS_SASH
+		tr_extra PRESSURE, ATK_UP_SATK_DOWN
+		tr_evs 240 Atk
+		tr_moves ICE_PUNCH, NIGHT_SLASH, AERIAL_ACE, HONE_CLAWS 
 	end_trainer
 
 	def_trainer 2, "Zinzolin"
-	tr_mon 73, RATTATA @ TWISTEDSPOON
-		tr_moves AIR_SLASH, PSYCHIC_M, HYPNOSIS, DREAM_EATER
+	tr_mon 55, GLALIE @ ICY_ROCK
+		tr_extra INNER_FOCUS, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 96 Atk
+		tr_moves ICICLE_CRASH, EXPLOSION, HAIL, ICE_SHARD
+	tr_mon 56, CRYOGONAL @ LIGHT_CLAY
+		tr_extra LEVITATE
+		tr_evs 96 SAt, 252 Spe
+		tr_moves REFLECT, LIGHT_SCREEN, BLIZZARD, HAIL
+	tr_mon 58, MAMOSWINE @ MUSCLE_BAND
+		tr_extra THICK_FAT 
+		tr_evs 96 Atk, 252 Spe
+		tr_moves ICICLE_CRASH, EARTHQUAKE, KNOCK_OFF, ICE_SHARD
+	tr_mon 56, WALREIN @ LEFTOVERS
+		tr_extra ICE_BODY
+		tr_evs 252 HP, 96 Def
+		tr_moves HAIL, BODY_SLAM, BLIZZARD, SURF
+	tr_mon 58, WEAVILE @ FOCUS_SASH
+		tr_extra PRESSURE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 96 Spe
+		tr_moves ICE_PUNCH, KNOCK_OFF, BRICK_BREAK, SWORDS_DANCE 
+	tr_mon 60, FROSLASS @ LIFE_ORB
+		tr_extra CURSED_BODY, SATK_UP_ATK_DOWN
+		tr_evs 96 SAt, 252 Spe
+		tr_moves BLIZZARD, SHADOW_BALL, HAIL, THUNDERBOLT 
 	end_trainer
 
 
@@ -4139,10 +4245,30 @@ GenesisGroup:
 
 	def_trainer_class GENESIS
 	def_trainer 1, "Genesis"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
+	tr_mon 67, COFAGRIGUS @ LEFTOVERS
+		tr_extra MUMMY, SDEF_UP_ATK_DOWN
+		tr_evs 252 HP, 164 SDf
+		tr_moves SHADOW_BALL, DISABLE, WILL_O_WISP, PROTECT
+	tr_mon 69, EELEKTROSS @ ASSAULT_VEST
+		tr_extra LEVITATE, SATK_UP_ATK_DOWN
+		tr_evs 252 HP, 164 SAt
+		tr_moves THUNDERBOLT, FLAMETHROWER, GIGA_DRAIN, SURF
+	tr_mon 69, TOXICROAK @ KINGS_ROCK
+		tr_extra POISON_TOUCH, SPE_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+		tr_moves DRAIN_PUNCH, GUNK_SHOT, SUCKER_PUNCH, ICE_PUNCH
+	tr_mon 68, DRAPION @ RED_CARD
+		tr_extra BATTLE_ARMOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 164 Def
+		tr_moves KNOCK_OFF, POISON_JAB, EARTHQUAKE, SWORDS_DANCE
+	tr_mon 68, SEISMITOAD @ WEAK_POLICY
+		tr_extra WATER_ABSORB, SATK_UP_ATK_DOWN
+		tr_evs 252 HP, 164 Spe
+		tr_moves SURF, EARTH_POWER, ICY_WIND, HYPER_VOICE 
+	tr_mon 70, HYDREIGON @ LIFE_ORB
+		tr_extra LEVITATE, SPE_UP_ATK_DOWN
+		tr_evs 164 SAt, 252 Spe
+		tr_moves DRAGON_PULSE, DARK_PULSE, NASTY_PLOT, FLASH_CANNON 
 	end_trainer
 
 
