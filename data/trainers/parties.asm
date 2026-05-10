@@ -4277,10 +4277,26 @@ BiancaGroup:
 
 	def_trainer_class BIANCA
 	def_trainer 1, "Bianca"
-	tr_mon 57, RATTATA @ MUSCLE_BAND, MALE
-		tr_extra HUSTLE, SPE_UP_SATK_DOWN
-		tr_evs 164 Atk, 252 Spe
-		tr_moves DRAGON_DANCE, FLY, WATERFALL, EARTHQUAKE
+	tr_mon 38, STOUTLAND
+		tr_extra INTIMIDATE
+		tr_evs 196 Spe
+		tr_moves TAKE_DOWN, CRUNCH, PLAY_ROUGH, CHARM
+	tr_mon 41, SERVINE
+		tr_extra OVERGROW
+		tr_evs 196 HP
+		tr_moves GLARE, GIGA_DRAIN, LEECH_SEED, DRAGONBREATH
+	tr_mon 41, PIGNITE
+		tr_extra BLAZE
+		tr_evs 196 HP
+		tr_moves FLAMETHROWER, DOUBLE_KICK, ROLLOUT, DEFENSE_CURL 
+	tr_mon 41, DEWOTT
+		tr_extra TORRENT
+		tr_evs 196 HP
+		tr_moves RAZOR_SHELL, AERIAL_ACE, ENCORE, AQUA_JET
+	tr_mon 45, MUSHARNA @ ZOOM_LENS
+		tr_extra SYNCHRONIZE
+		tr_evs 196 HP
+		tr_moves HYPNOSIS, DREAM_EATER, TRICK_ROOM, MOONBLAST 
 	end_trainer
 
 
@@ -4327,12 +4343,30 @@ AlderGroup:
 
 	def_trainer_class ALDER
 	def_trainer 1, "Alder"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 68, ACCELGOR @ FOCUS_SASH
+		tr_extra UNBURDEN, SATK_UP_SDEF_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves BUG_BUZZ, SPIKES, TOXIC, U_TURN
+	tr_mon 70, BOUFFALANT @ ASSAULT_VEST
+		tr_extra SOUNDPROOF, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves RETURN, EARTHQUAKE, STONE_EDGE, IRON_HEAD
+	tr_mon 69, CONKELDURR @ PUNCHINGLOVE
+		tr_extra IRON_FIST, ATK_UP_SATK_DOWN
+		tr_evs 196 HP, 252 Atk
+		tr_moves DRAIN_PUNCH, HAMMER_ARM, MACH_PUNCH, ICE_PUNCH
+	tr_mon 69, VANILLUXE @ CHOICE_SCARF
+		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves BLIZZARD
+	tr_mon 70, ESCAVALIER @ WEAK_POLICY
+		tr_extra OVERCOAT, ATK_UP_SPE_DOWN
+		tr_evs 252 HP, 196 SDf
+		tr_moves IRON_HEAD, MEGAHORN, SWORDS_DANCE, SUBSTITUTE
+	tr_mon 73, VOLCARONA @ LEFTOVERS
+		tr_extra FLAME_BODY, SPE_UP_ATK_DOWN
+		tr_evs 252 HP, 196 Def
+		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE 
 	end_trainer
 
 
@@ -4341,12 +4375,30 @@ IrisGroup:
 
 	def_trainer_class IRIS
 	def_trainer 1, "Iris"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 68, HYDREIGON @ BLUNDRPOLICY
+		tr_extra LEVITATE, SATK_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves FIRE_BLAST, FOCUS_BLAST, DRAGON_PULSE, DARK_PULSE
+	tr_mon 70, ARCHEOPS @ CHOICE_BAND
+		tr_extra DEFEATIST, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves ROCK_SLIDE, EARTHQUAKE, KNOCK_OFF, U_TURN
+	tr_mon 69, AGGRON @ ASSAULT_VEST
+		tr_extra ROCK_HEAD, ATK_UP_SATK_DOWN
+		tr_evs 196 HP, 252 SDf
+		tr_moves HEAD_SMASH, IRON_TAIL, THUNDERPUNCH, ICE_PUNCH
+	tr_mon 70, SALAMENCE @ POWER_HERB
+		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves OUTRAGE, FLY, IRON_HEAD, EARTHQUAKE
+	tr_mon 69, LAPRAS @ LEFTOVERS
+		tr_extra SHELL_ARMOR, DEF_UP_SPE_DOWN
+		tr_evs 252 HP, 196 Def
+		tr_moves BLIZZARD, HYDRO_PUMP, PERISH_SONG, ICE_SHARD
+	tr_mon 73, HAXORUS @ FOCUS_SASH
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves DRAGON_CLAW, EARTHQUAKE, IRON_HEAD, DRAGON_DANCE 
 	end_trainer
 
 
@@ -4355,12 +4407,30 @@ CaitlinGroup:
 
 	def_trainer_class CAITLIN
 	def_trainer 1, "Caitlin"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 68, MUSHARNA @ 
+		tr_extra UNBURDEN, SATK_UP_SDEF_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves BUG_BUZZ, SPIKES, TOXIC, U_TURN
+	tr_mon 70, SIGILYPH @ 
+		tr_extra SOUNDPROOF, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves RETURN, EARTHQUAKE, STONE_EDGE, IRON_HEAD
+	tr_mon 69, GALLADE @ 
+		tr_extra IRON_FIST, ATK_UP_SATK_DOWN
+		tr_evs 196 HP, 252 Atk
+		tr_moves DRAIN_PUNCH, HAMMER_ARM, MACH_PUNCH, ICE_PUNCH
+	tr_mon 69, METAGROSS @ 
+		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
+		tr_evs 252 SAt, 196 Spe
+		tr_moves BLIZZARD
+	tr_mon 70, GOTHITELLE @ 
+		tr_extra OVERCOAT, ATK_UP_SPE_DOWN
+		tr_evs 252 HP, 196 SDf
+		tr_moves , , , 
+	tr_mon 73, REUNICLUS @ 
+		tr_extra FLAME_BODY, SPE_UP_ATK_DOWN
+		tr_evs 252 HP, 196 Def
+		tr_moves , , GIGA_DRAIN, QUIVER_DANCE 
 	end_trainer
 
 
