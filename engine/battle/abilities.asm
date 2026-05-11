@@ -2139,6 +2139,8 @@ NormalizeAbility:
 ; Normalize ignores Hidden Power and Weather Ball
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
+	cp STRUGGLE
+	ret z
 	cp HIDDEN_POWER
 	ret z
 	cp WEATHER_BALL

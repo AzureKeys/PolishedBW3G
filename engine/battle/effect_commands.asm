@@ -1778,20 +1778,6 @@ _CheckTypeMatchup:
 	jmp .Immune
 
 .skip_powder
-; Normalize changes Thunder Wave to Normal when determining immunity
-; Type change for damage dealing moves is handled in ApplyDamageAbilities
-	call GetTrueUserIgnorableAbility
-	cp NORMALIZE
-	jr nz, .skip_normalize
-	ld a, BATTLE_VARS_MOVE_ANIM
-	call GetBattleVar
-	cp THUNDER_WAVE
-	jr nz, .skip_normalize
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVarAddr
-	xor a ; NORMAL
-	ld [hl], a
-.skip_normalize
 	pop hl
 	push hl
 	ld a, BATTLE_VARS_MOVE_TYPE
@@ -2389,6 +2375,19 @@ BattleCommand_checkpriority:
 ; Checks for abilities and conditions that would block priority moves from occuring
 	call HasOpponentFainted
 	ret z
+; Normalize changes type of Status moves here
+	call GetTrueUserIgnorableAbility
+	cp NORMALIZE
+	jr nz, .skip_normalize
+	ld a, BATTLE_VARS_MOVE_CATEGORY
+	call GetBattleVar
+	cp STATUS
+	jr nz, .skip_normalize
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVarAddr
+	xor a ; NORMAL = 0
+	ld [hl], a
+.skip_normalize
 	farcall GetMovePriority
 	cp $81
 	jr c, .check_prankster
