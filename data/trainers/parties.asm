@@ -1096,7 +1096,7 @@ Infer2Group: ; assume at this stage of the game that nature and ability changing
 		tr_evs 252 HP, 204 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, KNOCK_OFF, FIRE_BLAST
 	tr_mon 68, SERPERIOR @ POWER_HERB
-		tr_extra HUSTLE, SATK_UP_ATK_DOWN
+		tr_extra OVERGROW, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 204 SAt
 		tr_moves LEECH_SEED, SOLAR_BEAM, GIGA_DRAIN, DRAGON_PULSE
 	end_trainer
@@ -1149,7 +1149,7 @@ Infer2Group: ; assume at this stage of the game that nature and ability changing
 		tr_extra UNNERVE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, KNOCK_OFF, FIRE_BLAST
-	tr_mon 13, SAMUROTT @ QUICK_CLAW
+	tr_mon 68, SAMUROTT @ QUICK_CLAW
 		tr_extra TORRENT, SATK_UP_ATK_DOWN
 		tr_evs 204 HP, 252 SAt
 		tr_moves SCALD, ICE_BEAM, HYDRO_PUMP, AQUA_JET
@@ -4358,7 +4358,7 @@ AlderGroup:
 	tr_mon 69, VANILLUXE @ CHOICE_SCARF
 		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
-		tr_moves BLIZZARD
+		tr_moves BLIZZARD ; Deliberately left with only 1 move
 	tr_mon 70, ESCAVALIER @ WEAK_POLICY
 		tr_extra OVERCOAT, ATK_UP_SPE_DOWN
 		tr_evs 252 HP, 196 SDf
@@ -4540,30 +4540,84 @@ HughGroup:
 
 	def_trainer_class HUGH
 	def_trainer HUGH_SNIVY, "Hugh"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 68, UNFEZANT @ SCOPE_LENS
+		tr_extra SUPER_LUCK, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves BRAVE_BIRD, DOUBLE_EDGE, U_TURN, ROOST
+	tr_mon 70, BOUFFALANT @ LIFE_ORB
+		tr_extra RECKLESS, ATK_UP_SATK_DOWN
+		tr_evs 196 HP, 252 Atk
+		tr_moves DOUBLE_EDGE, MEGAHORN, EARTHQUAKE, OUTRAGE
+	tr_mon 69, FLYGON @ CHOICE_SCARF
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves DRAGON_RUSH, EARTHQUAKE, STONE_EDGE, U_TURN
+	tr_mon 70, EELEKTROSS @ CHOICE_BAND
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves WILD_CHARGE, KNOCK_OFF, AQUA_TAIL, OUTRAGE
+	tr_mon 69, LIEPARD @ MIRROR_HERB
+		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves KNOCK_OFF, SWAGGER, PLAY_ROUGH, GUNK_SHOT
+	tr_mon 73, SERPERIOR @ MIRACLE_SEED
+		tr_extra OVERGROW, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves LEAF_BLADE, AQUA_TAIL, OUTRAGE, SWORDS_DANCE
 	end_trainer
 	
 	def_trainer HUGH_TEPIG, "Hugh"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 68, UNFEZANT @ SCOPE_LENS
+		tr_extra SUPER_LUCK, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves BRAVE_BIRD, DOUBLE_EDGE, U_TURN, ROOST
+	tr_mon 70, BOUFFALANT @ LIFE_ORB
+		tr_extra RECKLESS, ATK_UP_SATK_DOWN
+		tr_evs 196 HP, 252 Atk
+		tr_moves DOUBLE_EDGE, MEGAHORN, EARTHQUAKE, OUTRAGE
+	tr_mon 69, FLYGON @ CHOICE_SCARF
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves DRAGON_RUSH, EARTHQUAKE, STONE_EDGE, U_TURN
+	tr_mon 70, EELEKTROSS @ CHOICE_BAND
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves WILD_CHARGE, KNOCK_OFF, AQUA_TAIL, OUTRAGE
+	tr_mon 69, LIEPARD @ MIRROR_HERB
+		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves KNOCK_OFF, SWAGGER, PLAY_ROUGH, GUNK_SHOT
+	tr_mon 73, EMBOAR @ CHARCOAL
+		tr_extra BLAZE, SPE_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves FLARE_BLITZ, HAMMER_ARM, WILD_CHARGE, BULK_UP
 	end_trainer
 	
 	def_trainer HUGH_OSHAWOTT, "Hugh"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 68, UNFEZANT @ SCOPE_LENS
+		tr_extra SUPER_LUCK, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves BRAVE_BIRD, DOUBLE_EDGE, U_TURN, ROOST
+	tr_mon 70, BOUFFALANT @ LIFE_ORB
+		tr_extra RECKLESS, ATK_UP_SATK_DOWN
+		tr_evs 196 HP, 252 Atk
+		tr_moves DOUBLE_EDGE, MEGAHORN, EARTHQUAKE, OUTRAGE
+	tr_mon 69, FLYGON @ CHOICE_SCARF
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves DRAGON_RUSH, EARTHQUAKE, STONE_EDGE, U_TURN
+	tr_mon 70, EELEKTROSS @ CHOICE_BAND
+		tr_extra LEVITATE, ATK_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves WILD_CHARGE, KNOCK_OFF, AQUA_TAIL, OUTRAGE
+	tr_mon 69, LIEPARD @ MIRROR_HERB
+		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 196 Spe
+		tr_moves KNOCK_OFF, SWAGGER, PLAY_ROUGH, GUNK_SHOT
+	tr_mon 73, SAMUROTT @ MYSTIC_WATER
+		tr_extra TORRENT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Atk
+		tr_moves WATERFALL, MEGAHORN, AQUA_JET, SWORDS_DANCE
 	end_trainer
 
 
@@ -4636,30 +4690,84 @@ HilbertGroup:
 
 	def_trainer_class HILBERT
 	def_trainer HILBERT_SNIVY, "Hilbert"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK
+		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
+	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
+	tr_mon 74, HAXORUS @ CHOICE_BAND
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
+	tr_mon 76, CHANDELURE @ WHITE_HERB
+		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
+	tr_mon 78, SERPERIOR @ SAFE_GOGGLES
+		tr_extra CONTRARY, SPE_UP_ATK_DOWN
+		tr_evs 252 HP, 4 SAt, 252 Spe
+		tr_moves LEAF_STORM, LEECH_SEED, DRAGON_PULSE, PROTECT
 	end_trainer
 	
 	def_trainer HILBERT_TEPIG, "Hilbert"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK
+		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
+	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
+	tr_mon 74, HAXORUS @ CHOICE_BAND
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
+	tr_mon 76, CHANDELURE @ WHITE_HERB
+		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
+	tr_mon 78, EMBOAR @ SAFE_GOGGLES
+		tr_extra RECKLESS, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 252 Atk, 4 Def
+		tr_moves FLARE_BLITZ, HAMMER_ARM, WILD_CHARGE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer HILBERT_OSHAWOTT, "Hilbert"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK
+		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
+	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
+	tr_mon 74, HAXORUS @ CHOICE_BAND
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
+	tr_mon 76, CHANDELURE @ WHITE_HERB
+		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
+	tr_mon 78, SAMUROTT @ SAFE_GOGGLES
+		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
+		tr_evs 252 HP, 252 Atk, 4 Def
+		tr_moves SCALD, ICE_BEAM, HYDRO_PUMP, HP_ELECTRIC
 	end_trainer
 
 
@@ -4668,30 +4776,84 @@ HildaGroup:
 
 	def_trainer_class HILDA
 	def_trainer HILDA_SNIVY, "Hilda"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK
+		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
+	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
+	tr_mon 74, HAXORUS @ CHOICE_BAND
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
+	tr_mon 76, CHANDELURE @ WHITE_HERB
+		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
+	tr_mon 78, SERPERIOR @ SAFE_GOGGLES
+		tr_extra CONTRARY, SPE_UP_ATK_DOWN
+		tr_evs 252 HP, 4 SAt, 252 Spe
+		tr_moves LEAF_STORM, LEECH_SEED, DRAGON_PULSE, PROTECT
 	end_trainer
 	
 	def_trainer HILDA_TEPIG, "Hilda"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK
+		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
+	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
+	tr_mon 74, HAXORUS @ CHOICE_BAND
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
+	tr_mon 76, CHANDELURE @ WHITE_HERB
+		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
+	tr_mon 78, EMBOAR @ SAFE_GOGGLES
+		tr_extra RECKLESS, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 252 Atk, 4 Def
+		tr_moves FLARE_BLITZ, HAMMER_ARM, WILD_CHARGE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer HILDA_OSHAWOTT, "Hilda"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK
+		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
+	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+		tr_extra DEFIANT, ATK_UP_SATK_DOWN
+		tr_evs 252 HP, 4 Def, 252 SDf
+		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
+	tr_mon 74, HAXORUS @ CHOICE_BAND
+		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
+	tr_mon 76, CHANDELURE @ WHITE_HERB
+		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
+		tr_evs 4 HP, 252 Atk, 252 Spe
+		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
+	tr_mon 78, SAMUROTT @ SAFE_GOGGLES
+		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
+		tr_evs 252 HP, 252 Atk, 4 Def
+		tr_moves SCALD, ICE_BEAM, HYDRO_PUMP, HP_ELECTRIC
 	end_trainer
 
 ENDSECTION
