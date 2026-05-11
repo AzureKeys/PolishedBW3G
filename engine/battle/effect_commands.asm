@@ -494,7 +494,7 @@ CantMove:
 	call z, HandleRampage_ConfuseUser ; confuses user on last turn of rampage
 	pop hl
 .rampage_done
-	ld a, ~(1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED | 1 << SUBSTATUS_ROLLOUT)
+	ld a, ~(1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_ROLLOUT)
 	and [hl]
 	ld [hl], a
 	ret
@@ -735,7 +735,7 @@ GenericHitAnim:
 	ld de, ANIM_HIT_CONFUSION
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	call z, PlayFXAnimID
 	ret
 
@@ -2306,14 +2306,14 @@ BattleCommand_checkhit:
 
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	ret z
 
-	bit SUBSTATUS_UNDERGROUND, a
-	jr nz, .DigMoves
+	bit SUBSTATUS_FLYING, a
+	jr z, .DigMoves ; Not flying means we're using Dig
 
-	bit SUBSTATUS_VANISHED, a
-	ret nz
+	bit SUBSTATUS_UNDERGROUND, a
+	ret nz ; Flying + Underground = Phantom Force
 
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
@@ -2706,7 +2706,6 @@ BattleCommand_failuretext:
 	call GetBattleVarAddr
 	res SUBSTATUS_UNDERGROUND, [hl]
 	res SUBSTATUS_FLYING, [hl]
-	res SUBSTATUS_VANISHED, [hl]
 	call AppearUserRaiseSub
 	jmp EndMoveEffect
 
@@ -4745,7 +4744,7 @@ FarPlayBattleAnimation:
 
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	ret nz
 
 	; fallthrough
@@ -4845,7 +4844,7 @@ SelfInflictDamageToSubstitute:
 	call BattleCommand_lowersubnoanim
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	call z, AppearUserLowerSub
 	call SwitchTurn
 
@@ -5856,7 +5855,7 @@ BattleCommand_charge:
 	call GetBattleVarAddr
 	bit SUBSTATUS_CHARGED, [hl]
 	jr z, .not_charging
-	and ~(1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_VANISHED)
+	and ~(1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_FLYING)
 	ld [hl], a
 	ret
 
@@ -5908,9 +5907,8 @@ BattleCommand_charge:
 	jr .dont_set_digging
 
 .set_vanished
-	set SUBSTATUS_VANISHED, [hl]
-	jr .dont_set_digging
-
+	set SUBSTATUS_UNDERGROUND, [hl]
+	; fallthrough
 .set_flying
 	set SUBSTATUS_FLYING, [hl]
 
@@ -6625,7 +6623,7 @@ BattleCommand_doubleminimizedamage:
 CheckHiddenOpponent:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	ret
 
 GetPlayerItem::

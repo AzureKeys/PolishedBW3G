@@ -898,7 +898,7 @@ AI_Smart_Fly:
 	; Greatly encourage this move if the player is
 	; flying or underground, and slower than the enemy.
 	ld a, [wPlayerSubStatus3]
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	jr z, AI_Smart_AvoidIfProtect
 
 	call AICompareSpeed
@@ -1282,7 +1282,7 @@ AI_Smart_PriorityHit:
 
 ; Dismiss this move if the player is flying or underground.
 	ld a, [wPlayerSubStatus3]
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	jmp nz, AIDiscourageMove
 
 ; Greatly encourage this move if it will KO the player.
@@ -1935,7 +1935,7 @@ AI_Smart_FutureSight:
 	ret nc
 
 	ld a, [wPlayerSubStatus3]
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	ret z
 
 	dec [hl]

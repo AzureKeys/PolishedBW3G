@@ -298,9 +298,7 @@ HandleWeather:
 .HandleSandstorm
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	bit SUBSTATUS_UNDERGROUND, a
-	ret nz
-	bit SUBSTATUS_VANISHED, a
+	bit SUBSTATUS_UNDERGROUND, a ; Checks vanished w/ Phantom Force as well
 	ret nz
 	call GetTrueUserIgnorableAbility
 	cp MAGIC_GUARD
@@ -341,9 +339,7 @@ HandleWeather:
 .HandleHail
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	bit SUBSTATUS_UNDERGROUND, a
-	ret nz
-	bit SUBSTATUS_VANISHED, a
+	bit SUBSTATUS_UNDERGROUND, a ; Checks vanished w/ Phantom Force as well
 	ret nz
 	call GetTrueUserIgnorableAbility
 	cp MAGIC_GUARD
@@ -534,7 +530,7 @@ HandleLeechSeed:
 	ld de, ANIM_SAP
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	jr nz, .no_anim
 	farcall PlayBattleAnimDE_OnlyIfVisible
 .no_anim
@@ -740,7 +736,7 @@ HandleWrap:
 
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_VANISHED
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
 	jr nz, .skip_anim
 	call SwitchTurn
 	xor a
