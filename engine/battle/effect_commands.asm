@@ -2247,6 +2247,8 @@ BattleCommand_checkhit:
 	call GetBattleVar
 	bit SUBSTATUS_FLYING, a
 	jr z, .LockedOn
+	bit SUBSTATUS_UNDERGROUND, a
+	jr nz, .LockedOn ; UNDERGROUND + FLYING = vanished
 
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
@@ -2682,6 +2684,8 @@ BattleCommand_failuretext:
 	cp FLY
 	jr z, .fly_dig
 	cp DIG
+	jr z, .fly_dig
+	cp PHANTOM_FORCE
 	jr z, .fly_dig
 
 ; Move effect:
@@ -6511,12 +6515,16 @@ DoPayback:
 BattleCommand_doubleflyingdamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
+	bit SUBSTATUS_UNDERGROUND, a
+	ret nz ; If UNDERGROUND is set, opp is either Underground or Vanished
 	bit SUBSTATUS_FLYING, a
 	jr DoubleDamageIfNZ
 
 BattleCommand_doubleundergrounddamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
+	bit SUBSTATUS_FLYING, a
+	ret nz ; If FLYING is set, opp is either Flying or Vanished
 	bit SUBSTATUS_UNDERGROUND, a
 	; fallthrough
 DoubleDamageIfNZ:
