@@ -547,7 +547,7 @@ GrimsleyGroup:
 		tr_evs 132 Atk, 252 Spe
 		tr_moves HONE_CLAWS, ICICLE_CRASH, KNOCK_OFF, POISON_JAB
 	tr_mon 67, KROOKODILE @ ASSAULT_VEST
-		tr_extra MOXIE
+		tr_extra INTIMIDATE
 		tr_evs 252 HP, 132 Spe
 		tr_moves CRUNCH, EARTHQUAKE, STONE_EDGE, SUCKER_PUNCH
 	tr_mon 68, KINGAMBIT @ LIFE_ORB
@@ -4358,7 +4358,7 @@ AlderGroup:
 	tr_mon 69, VANILLUXE @ CHOICE_SCARF
 		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
-		tr_moves BLIZZARD ; Deliberately left with only 1 move
+		tr_moves BLIZZARD, HP_GRASS ; Deliberately left with only 2 moves, and the second one is only there for AI to be able to switch
 	tr_mon 70, ESCAVALIER @ WEAK_POLICY
 		tr_extra OVERCOAT, ATK_UP_SPE_DOWN
 		tr_evs 252 HP, 196 SDf
@@ -4626,30 +4626,84 @@ NateGroup:
 
 	def_trainer_class NATE
 	def_trainer NATE_SNIVY, "Nate"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 74, FROSLASS @ FOCUS_SASH
+		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 DEF
+		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
+	tr_mon 75, KINGDRA @ SCOPE_LENS
+		tr_extra SNIPER, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
+	tr_mon 75, DARMANITAN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_evs 224 Atk, 252 Spe
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 224 Spe
+		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
+	tr_mon 76, SERPERIOR @ ASSAULT_VEST
+		tr_extra CONTRARY, SPE_UP_ATK_DOWN
+		tr_evs 252 HP, 224 Spe
+		tr_moves LEAF_STORM, GIGA_DRAIN, DRAGON_PULSE, HP_ROCK
 	end_trainer
 	
 	def_trainer NATE_TEPIG, "Nate"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 74, FROSLASS @ FOCUS_SASH
+		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 DEF
+		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
+	tr_mon 75, KINGDRA @ SCOPE_LENS
+		tr_extra SNIPER, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
+	tr_mon 75, DARMANITAN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_evs 224 Atk, 252 Spe
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 224 Spe
+		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
+	tr_mon 76, EMBOAR @ ASSAULT_VEST
+		tr_extra BLAZE, DEF_UP_SPE_DOWN
+		tr_evs 252 HP, 224 Atk
+		tr_moves OVERHEAT, HAMMER_ARM, EARTHQUAKE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer NATE_OSHAWOTT, "Nate"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 74, FROSLASS @ FOCUS_SASH
+		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 DEF
+		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
+	tr_mon 75, KINGDRA @ SCOPE_LENS
+		tr_extra SNIPER, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
+	tr_mon 75, DARMANITAN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_evs 224 Atk, 252 Spe
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 224 Spe
+		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
+	tr_mon 76, SAMUROTT @ ASSAULT_VEST
+		tr_extra SHELL_ARMOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 Atk
+		tr_moves WATERFALL, SACRED_SWORD, MEGAHORN, AQUA_JET
 	end_trainer
 
 
@@ -4658,30 +4712,84 @@ RosaGroup:
 
 	def_trainer_class ROSA
 	def_trainer ROSA_SNIVY, "Rosa"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 74, FROSLASS @ FOCUS_SASH
+		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 DEF
+		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
+	tr_mon 75, KINGDRA @ SCOPE_LENS
+		tr_extra SNIPER, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
+	tr_mon 75, DARMANITAN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_evs 224 Atk, 252 Spe
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 224 Spe
+		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
+	tr_mon 76, SERPERIOR @ ASSAULT_VEST
+		tr_extra CONTRARY, SPE_UP_ATK_DOWN
+		tr_evs 252 HP, 224 Spe
+		tr_moves LEAF_STORM, GIGA_DRAIN, DRAGON_PULSE, HP_ROCK
 	end_trainer
 	
 	def_trainer ROSA_TEPIG, "Rosa"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 74, FROSLASS @ FOCUS_SASH
+		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 DEF
+		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
+	tr_mon 75, KINGDRA @ SCOPE_LENS
+		tr_extra SNIPER, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
+	tr_mon 75, DARMANITAN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_evs 224 Atk, 252 Spe
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 224 Spe
+		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
+	tr_mon 76, EMBOAR @ ASSAULT_VEST
+		tr_extra BLAZE, DEF_UP_SPE_DOWN
+		tr_evs 252 HP, 224 Atk
+		tr_moves OVERHEAT, HAMMER_ARM, EARTHQUAKE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer ROSA_OSHAWOTT, "Rosa"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 74, FROSLASS @ FOCUS_SASH
+		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 DEF
+		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
+	tr_mon 75, KINGDRA @ SCOPE_LENS
+		tr_extra SNIPER, SPE_UP_ATK_DOWN
+		tr_evs 224 SAt, 252 Spe
+		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
+	tr_mon 75, DARMANITAN @ LIFE_ORB
+		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
+		tr_evs 224 Atk, 252 Spe
+		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+		tr_extra MOXIE, ATK_UP_SATK_DOWN
+		tr_evs 252 Atk, 224 Spe
+		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
+	tr_mon 76, SAMUROTT @ ASSAULT_VEST
+		tr_extra SHELL_ARMOR, DEF_UP_SATK_DOWN
+		tr_evs 252 HP, 224 Atk
+		tr_moves WATERFALL, SACRED_SWORD, MEGAHORN, AQUA_JET
 	end_trainer
 
 
