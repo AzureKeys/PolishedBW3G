@@ -46,7 +46,6 @@ Basculegion (minis)
 	
 ABILITIES THAT NEED ADDING:
 Forecast: Castform
-Normalize: Delcatty, Skitty
 Truant: Durant, Slakoth, Slaking
 Illusion: Zoroark, Zorua
 Protean: Stunfisk-G

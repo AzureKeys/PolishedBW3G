@@ -364,7 +364,7 @@ endc
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
 	bit SUBSTATUS_CONFUSED, a
-	jr nz, .not_confused
+	jr z, .not_confused
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, wPlayerConfuseCount
