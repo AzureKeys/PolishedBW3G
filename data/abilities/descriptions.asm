@@ -89,6 +89,7 @@ AbilityDescriptions:
 	dw HydrationDescription
 	dw SolarPowerDescription
 	dw QuickFeetDescription
+	dw NormalizeDescription
 	dw SniperDescription
 	dw MagicGuardDescription
 	dw NoGuardDescription
@@ -614,6 +615,11 @@ SolarPowerDescription:
 QuickFeetDescription:
 	text "Boosts Speed with"
 	next "status problems."
+	done
+
+NormalizeDescription:
+	text "All moves become"
+	next "Normal-type."
 	done
 
 SniperDescription:

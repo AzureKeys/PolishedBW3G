@@ -1775,9 +1775,23 @@ _CheckTypeMatchup:
 	jr nz, .skip_powder
 	ld a, ATKFAIL_ABILITY
 	ld [wAttackMissed], a
-	jr .Immune
+	jmp .Immune
 
 .skip_powder
+; Normalize changes Thunder Wave to Normal when determining immunity
+; Type change for damage dealing moves is handled in ApplyDamageAbilities
+	call GetTrueUserIgnorableAbility
+	cp NORMALIZE
+	jr nz, .skip_normalize
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	cp THUNDER_WAVE
+	jr nz, .skip_normalize
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVarAddr
+	xor a ; NORMAL
+	ld [hl], a
+.skip_normalize
 	pop hl
 	push hl
 	ld a, BATTLE_VARS_MOVE_TYPE

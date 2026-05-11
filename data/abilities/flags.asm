@@ -105,6 +105,7 @@ AbilityFlags:
 	abilflag HYDRATION
 	abilflag SOLAR_POWER
 	abilflag QUICK_FEET
+	abilflag NORMALIZE
 	abilflag SNIPER
 	abilflag MAGIC_GUARD
 	abilflag NO_GUARD

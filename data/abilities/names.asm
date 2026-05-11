@@ -89,6 +89,7 @@ AbilityNames:
 	dw Hydration
 	dw SolarPower
 	dw QuickFeet
+	dw Normalize
 	dw Sniper
 	dw MagicGuard
 	dw NoGuard
@@ -269,6 +270,7 @@ SkillLink:       rawchar "Skill Link@"
 Hydration:       rawchar "Hydration@"
 SolarPower:      rawchar "Solar Power@"
 QuickFeet:       rawchar "Quick Feet@"
+Normalize:       rawchar "Normalize@"
 Sniper:          rawchar "Sniper@"
 MagicGuard:      rawchar "Magic Guard@"
 NoGuard:         rawchar "No Guard@"

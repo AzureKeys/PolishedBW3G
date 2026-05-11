@@ -92,6 +92,7 @@
 	const HYDRATION
 	const SOLAR_POWER
 	const QUICK_FEET
+	const NORMALIZE
 	const SNIPER
 	const MAGIC_GUARD
 	const NO_GUARD

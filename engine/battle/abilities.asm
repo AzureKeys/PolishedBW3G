@@ -1881,6 +1881,7 @@ OffensiveDamageAbilities:
 	dbw DEFEATIST, DefeatistAbility
 	dbw PIXILATE, PixilateAbility
 	dbw GALVANIZE, GalvanizeAbility
+	dbw NORMALIZE, NormalizeAbility
 	dbw GORILLA_TACTICS, GorillaTacticsAbility
 	dbw STEELY_SPIRIT, SteelySpiritAbility
 	dbw SHARPNESS, SharpnessAbility
@@ -2133,6 +2134,26 @@ StatusPowerAbilities:
 	ln a, 3, 2 ; x1.5
 	jp z, ApplySpecialAttackDamageMod
 	jmp ApplyPhysicalAttackDamageMod
+
+NormalizeAbility:
+; Normalize ignores Hidden Power and Weather Ball
+	ld a, BATTLE_VARS_MOVE
+	call GetBattleVar
+	cp HIDDEN_POWER
+	ret z
+	cp WEATHER_BALL
+	jr nz, .change_type
+; Only do boost for Normal-type Weather Ball
+	call GetWeatherAfterUserUmbrella
+	ret nz
+	; fallthrough
+.change_type
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVarAddr
+	xor a ; 0 = NORMAL
+	ld [hl], a
+	ln a, 6, 5 ; x1.2
+	jmp MultiplyAndDivide
 
 PixilateAbility:
 	ld b, FAIRY
