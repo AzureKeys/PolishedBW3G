@@ -4484,11 +4484,11 @@ RoodGroup:
 		tr_extra SYNCHRONIZE, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves KNOCK_OFF, SUCKER_PUNCH, TOXIC, HEALINGLIGHT
-	tr_mon 69, SWOOBAT @ FOCUS_SASH
+	tr_mon 69, SWOOBAT @ LIFE_ORB
 		tr_extra SIMPLE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves PSYCHIC_M, AIR_SLASH, SHADOW_BALL, CALM_MIND
-	tr_mon 70, SNORLAX @ LUM_BERRY
+	tr_mon 70, SNORLAX @ CHESTO_BERRY
 		tr_extra THICK_FAT, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 DEF
 		tr_moves FACADE, CRUNCH, REST, SLEEP_TALK
@@ -4508,12 +4508,30 @@ NGroup:
 
 	def_trainer_class N_T
 	def_trainer 1, "N"
-	tr_mon 58, ESPEON
-	tr_mon 56, RATTATA
-	tr_mon 57, STARMIE
-	tr_mon 56, RATTATA
-	tr_mon 58, RATTATA
-	tr_mon 60, RATTATA
+	tr_mon 69, VANILLUXE @ ICY_ROCK
+		tr_extra SNOW_WARNING, SATK_UP_ATK_DOWN
+		tr_evs 252 HP, 196 SAt
+		tr_moves BLIZZARD, ICY_WIND, LIGHT_SCREEN, REFLECT
+	tr_mon 69, SCRAFTY @ LEFTOVERS
+		tr_extra MOXIE, SDEF_UP_SATK_DOWN
+		tr_evs 252 HP, 196 SDf
+		tr_moves DRAIN_PUNCH, KNOCK_OFF, IRON_HEAD, BULK_UP
+	tr_mon 70, ARCHEOPS @ POWER_HERB
+		tr_extra DEFEATIST, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves U_TURN, FLY, ROCK_SLIDE, ACROBATICS
+	tr_mon 73, ZOROARK @ FOCUS_SASH
+		tr_extra ILLUSION, SPE_UP_ATK_DOWN
+		tr_evs 196 SAt, 252 Spe
+		tr_moves DARK_PULSE, FLAMETHROWER, SLUDGE_BOMB, NASTY_PLOT
+	tr_mon 70, CARRACOSTA @ WHITE_HERB
+		tr_extra STURDY, SPE_UP_SATK_DOWN
+		tr_evs 196 Atk, 252 Spe
+		tr_moves WATERFALL, ROCK_SLIDE, EARTHQUAKE, SHELL_SMASH
+	tr_mon 68, KLINKLANG @ LIFE_ORB
+		tr_extra CLEAR_BODY, SPE_UP_SATK_DOWN
+		tr_evs 252 HP, 196 Spe
+		tr_moves IRON_HEAD, WILD_CHARGE, FACADE, DRAGON_DANCE
 	end_trainer
 
 
