@@ -232,9 +232,12 @@ endr
 	loadmem wPartyMon2PP+3, 10
 	loadmem wPartyMon2PokerusStatus, 1
 	; variant form test
-	givepoke UNFEZANT, UNFEZANT_FEMALE_FORM, 100
+	givepoke DARMANITAN, 100
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
+	loadmem wPartyMon3Personality, HIDDEN_ABILITY | NAT_SATK_UP_ATK_DOWN
+	loadmem wPartyMon3Moves+1, BELLY_DRUM
+	loadmem wPartyMon3Moves+2, FOCUS_ENERGY
 	; ext species test
 	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 100
 	; evolve during battle

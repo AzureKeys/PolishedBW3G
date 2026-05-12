@@ -389,6 +389,8 @@ ForecastAbility:
 	call BeginAbility
 	call ShowPotentialAbilityActivation
 	farcall TransformDisplayedSpecies
+	ld hl, BattleText_Forecast
+	call StdBattleTextbox
 	jmp EndAbility
 	
 RevertForecast:

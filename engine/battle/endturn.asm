@@ -280,6 +280,11 @@ HandleWeather:
 	call StdBattleTextbox
 	xor a
 	ld [wBattleWeather], a
+; Handle Castform
+	call SetPlayerTurn
+	farcall ForecastAbility
+	call SetEnemyTurn
+	farcall ForecastAbility
 	ret
 
 .ongoing

@@ -1688,6 +1688,11 @@ BattleText_ZenModeTriggered:
 	line "triggered!"
 	prompt
 
+BattleText_Forecast:
+	text "<USER>"
+	line "changed form!"
+	prompt
+
 ItemCantBeStolenText:
 	text "<TARGET>'s"
 	line "item cannot be"

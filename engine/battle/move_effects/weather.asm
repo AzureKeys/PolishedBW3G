@@ -24,4 +24,10 @@ StartWeather:
 	call GetItemBoostedDuration
 	ld [wWeatherCount], a
 	call AnimateCurrentMove
-	jmp StdBattleTextbox ; hl has text pointer already
+	call StdBattleTextbox ; hl has text pointer already
+; Handle Castform
+	call SetPlayerTurn
+	farcall ForecastAbility
+	call SetEnemyTurn
+	farcall ForecastAbility
+	ret
