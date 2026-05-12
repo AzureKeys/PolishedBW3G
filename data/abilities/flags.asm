@@ -68,6 +68,7 @@ AbilityFlags:
 	abilflag KEEN_EYE, IGNORABLE
 	abilflag HYPER_CUTTER, IGNORABLE
 	abilflag PICKUP
+	abilflag TRUANT
 	abilflag HUSTLE
 	abilflag CUTE_CHARM
 	abilflag STICKY_HOLD, IGNORABLE

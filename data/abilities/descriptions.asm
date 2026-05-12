@@ -52,6 +52,7 @@ AbilityDescriptions:
 	dw KeenEyeDescription
 	dw HyperCutterDescription
 	dw PickupDescription
+	dw TruantDescription
 	dw HustleDescription
 	dw CuteCharmDescription
 	dw StickyHoldDescription
@@ -455,6 +456,11 @@ HyperCutterDescription:
 PickupDescription:
 	text "The #mon may"
 	next "pick up items."
+	done
+
+TruantDescription:
+	text "Can't attack on"
+	next "consecutive turns."
 	done
 
 HustleDescription:

@@ -263,7 +263,7 @@ DEF ALL_STATUS EQU (1 << PSN) | (1 << BRN) | (1 << FRZ) | (1 << PAR) | (1 << TOX
 	const SUBSTATUS_CHARGED
 	const SUBSTATUS_UNDERGROUND
 	const SUBSTATUS_FLYING
-	const_skip
+	const SUBSTATUS_TRUANT
 
 ; wPlayerSubStatus4 or wEnemySubStatus4 bit flags
 	const_def

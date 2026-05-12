@@ -248,6 +248,8 @@ endr
 	loadmem wPartyMon5SpeEV, MODERN_EV_LIMIT - MODERN_MAX_EV * 2
 	; hyper training
 	loadmem wPartyMon5HyperTraining, %01000000
+	givepoke SLAKING, 100
+	loadmem wPartyMon6Moves+1, FOCUS_ENERGY
 	; fill pokedex
 	callasm FillPokedex
 ;	; new bark events
@@ -264,7 +266,7 @@ endr
 	;halloffame
 	;setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
 	;disappear PLAYER
-	warp DRIFTVEIL_CITY, 11, 33
+	warp ROUTE_22, 6, 6
 	;closetext
 	end
 

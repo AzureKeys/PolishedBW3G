@@ -52,6 +52,7 @@ AbilityNames:
 	dw KeenEye
 	dw HyperCutter
 	dw Pickup
+	dw Truant
 	dw Hustle
 	dw CuteCharm
 	dw StickyHold
@@ -233,6 +234,7 @@ RunAway:         rawchar "Run Away@"
 KeenEye:         rawchar "Keen Eye@"
 HyperCutter:     rawchar "Hyper Cutter@"
 Pickup:          rawchar "Pickup@"
+Truant:          rawchar "Truant@"
 Hustle:          rawchar "Hustle@"
 CuteCharm:       rawchar "Cute Charm@"
 StickyHold:      rawchar "Sticky Hold@"

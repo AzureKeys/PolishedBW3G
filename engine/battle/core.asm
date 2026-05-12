@@ -1177,7 +1177,7 @@ SendInUserPkmn:
 	ld a, 1 << SUBSTATUS_FOCUS_ENERGY | 1 << SUBSTATUS_SUBSTITUTE | 1 << SUBSTATUS_LEECH_SEED
 	and [hl]
 	ld [hl], a
-
+	
 	call GetTurnsTaken
 	ld [hl], 0
 
@@ -1352,6 +1352,21 @@ endr
 .enemy_ability
 	call ResetEnemyAbility
 .done_ability
+
+; Truant flags toggle at end of turn. Newly sent out mons should not
+; loaf on 1st usable turn, so Truant flag should be set on initial
+; swap in, UNLESS it is the start of battle send-in
+	call GetTrueUserIgnorableAbility
+	cp TRUANT
+	jr nz, .done_truant
+	ld a, [wTotalBattleTurns]
+	and a ; turn zero = initial send-in
+	jr z, .done_truant
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVarAddr
+	set SUBSTATUS_TRUANT, [hl]
+	
+.done_truant
 	; Wild Pokémon are already out
 	ldh a, [hBattleTurn]
 	and a
@@ -4494,6 +4509,22 @@ BattleMenu_SafariBall:
 	jmp BattleMenu
 
 .UseItem:
+; Using item in battle doesn't affect truant turn.
+; Toggle bit here so it is set to original state at end turn.
+	call SetPlayerTurn
+	call GetTrueUserIgnorableAbility
+	cp TRUANT
+	jr nz, .no_truant
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVarAddr
+	bit SUBSTATUS_TRUANT, a
+	jr z, .set_flag
+	res SUBSTATUS_TRUANT, [hl]
+	jr .no_truant
+.set_flag
+	set SUBSTATUS_TRUANT, [hl]
+	; fallthrough
+.no_truant
 	ld a, [wWildMon]
 	and a
 	jr nz, .run
@@ -5811,6 +5842,21 @@ ParseEnemyAction:
 	jr nz, .not_using_move
 	farcall AI_TryItem
 	jr nc, .using_move
+; Using item in battle doesn't affect truant turn.
+; Toggle bit here so it is set to original state at end turn.
+	call SetEnemyTurn
+	call GetTrueUserIgnorableAbility
+	cp TRUANT
+	jr nz, .not_using_move
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVarAddr
+	bit SUBSTATUS_TRUANT, a
+	jr z, .set_flag
+	res SUBSTATUS_TRUANT, [hl]
+	jr .not_using_move
+.set_flag
+	set SUBSTATUS_TRUANT, [hl]
+	; fallthrough
 .not_using_move
 	call SetEnemyTurn
 	ld a, BATTLE_VARS_MOVE

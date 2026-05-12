@@ -108,7 +108,7 @@ HandleBetweenTurnEffects:
 .enemy_not_fainted
 	ld a, e
 	and a
-	ret z
+	jmp z, .handle_truant
 	push de
 	cp 3
 	jr nz, .not_both
@@ -195,6 +195,29 @@ HandleBetweenTurnEffects:
 	farcall SpikesDamage
 	farcall RunEntryAbilities
 	jmp .endturn_loop
+	
+.handle_truant
+; Truant flags are toggled after replacements for fainted mons 
+; have already been sent in, so handle after faint checking is done
+	call GetTrueUserIgnorableAbility
+	cp TRUANT
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call z, .ToggleTruantFlag
+	call GetOpponentIgnorableAbility
+	cp TRUANT
+	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	call z, .ToggleTruantFlag
+	ret
+	
+.ToggleTruantFlag:
+	call GetBattleVarAddr
+	bit SUBSTATUS_TRUANT, a
+	jr z, .set_flag
+	res SUBSTATUS_TRUANT, [hl]
+	ret
+.set_flag
+	set SUBSTATUS_TRUANT, [hl]
+	ret
 
 HandleEndturnBlockA:
 	call SetFastestTurn

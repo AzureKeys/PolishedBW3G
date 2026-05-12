@@ -809,8 +809,7 @@ UsedMoveInsteadText:
 	done
 
 LoafingAroundText:
-	text_ram wBattleMonNickname
-	text " is"
+	text "<USER> is"
 	line "loafing around."
 	prompt
 

@@ -235,11 +235,24 @@ BattleCommand_checkturn:
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVarAddr
 	bit SUBSTATUS_RECHARGE, [hl]
+	jr nz, .recharge
+	
+	bit SUBSTATUS_TRUANT, [hl]
 	jr z, .no_recharge
+	farcall BeginAbility
+	farcall ShowAbilityActivation
+	ld hl, LoafingAroundText
+	jr .cant_move_textbox
 
+.recharge
 	res SUBSTATUS_RECHARGE, [hl]
 	ld hl, MustRechargeText
+	jr .cant_move_textbox
+	
+.cant_move_textbox
 	call StdBattleTextbox
+	; for truant, does nothing in case we never showed an ability activation
+	farcall EndAbility
 	call CantMove
 	jmp EndTurn
 
@@ -292,6 +305,10 @@ if !DEF(FAITHFUL)
 	farcall ShowAbilityActivation
 endc
 .woke_up_no_early_bird
+	; reset truant on wake from sleep
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVarAddr
+	res SUBSTATUS_TRUANT, [hl]
 	ld hl, WokeUpText
 	call StdBattleTextbox
 	; does nothing in case we never showed an ability activation
@@ -494,6 +511,8 @@ CantMove:
 	call z, HandleRampage_ConfuseUser ; confuses user on last turn of rampage
 	pop hl
 .rampage_done
+	ld a, BATTLE_VARS_SUBSTATUS3
+	call GetBattleVarAddr
 	ld a, ~(1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_ROLLOUT)
 	and [hl]
 	ld [hl], a

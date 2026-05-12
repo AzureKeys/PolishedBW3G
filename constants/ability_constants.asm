@@ -55,6 +55,7 @@
 	const KEEN_EYE
 	const HYPER_CUTTER
 	const PICKUP
+	const TRUANT
 	const HUSTLE
 	const CUTE_CHARM
 	const STICKY_HOLD
