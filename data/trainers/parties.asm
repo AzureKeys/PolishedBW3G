@@ -101,41 +101,41 @@ MarlonGroup:
 
 	def_trainer_class MARLON
 	def_trainer 1, "Marlon"
-	tr_mon 10, MARILL
+	tr_mon 10, MARILL, MALE
 		tr_extra THICK_FAT
 		tr_evs 32 HP
 		tr_moves WATER_GUN, DEFENSE_CURL, ROLLOUT, RAIN_DANCE
-	tr_mon 13, BASCULIN @ ORAN_BERRY | BASCULIN_WHITE_FORM ; Decide on form. White chosen for now, for consistency with rematch team
+	tr_mon 13, BASCULIN @ ORAN_BERRY, MALE | BASCULIN_WHITE_FORM ; Decide on form. White chosen for now, for consistency with rematch team
 		tr_extra MOLD_BREAKER ; All Basculin's abilities are very good, and will either make it hit harder, take no recoil, or go through Sturdy etc. Mold Breaker seen to be least impactful at this stage of the game
 		tr_evs 32 Atk
 		tr_moves BITE, AQUA_JET, TAKE_DOWN, RAIN_DANCE
 	end_trainer
 
 	def_trainer 2, "Marlon"
-	tr_mon 65, PELIPPER @ DAMP_ROCK
+	tr_mon 65, PELIPPER @ DAMP_ROCK, MALE
 		tr_extra DRIZZLE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves HURRICANE, HYDRO_PUMP, U_TURN, ROOST
-	tr_mon 68, BASCULEGION  @ LIFE_ORB
+	tr_mon 68, BASCULEGION @ LIFE_ORB, MALE
 		tr_extra SWIFT_SWIM, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves WATERFALL, PHANTOM_FORCE, HEAD_SMASH, ZEN_HEADBUTT
-	tr_mon 66, AZUMARILL @ SITRUS_BERRY
+	tr_mon 66, AZUMARILL @ SITRUS_BERRY, MALE
 		tr_extra HUGE_POWER, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves PLAY_ROUGH, WATERFALL, AQUA_JET, BELLY_DRUM
-	tr_mon 66, JELLICENT @ LEFTOVERS
+	tr_mon 66, JELLICENT @ LEFTOVERS, MALE
 		tr_extra CURSED_BODY, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves SCALD, GIGA_DRAIN, SHADOW_BALL, RAIN_DANCE
-	tr_mon 67, CARRACOSTA @ CUSTAP_BERRY
+	tr_mon 67, CARRACOSTA @ CUSTAP_BERRY, MALE
 		tr_extra STURDY, SDEF_UP_SATK_DOWN
 		tr_evs 196 HP, 252 Atk
 		tr_moves CRUNCH, AQUA_JET, WATERFALL, ROCK_SLIDE
 	tr_mon 66, STARMIE @ EXPERT_BELT
 		tr_extra ANALYTIC, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
-		tr_moves SURF, ICE_BEAM, THUNDERBOLT, PSYCHIC
+		tr_moves SURF, ICE_BEAM, THUNDERBOLT, PSYCHIC_M
 	end_trainer
 
 
@@ -144,42 +144,42 @@ ShauntalGroup:
 
 	def_trainer_class SHAUNTAL
 	def_trainer 1, "Shauntal"
-	tr_mon 15, GASTLY
+	tr_mon 15, GASTLY, FEMALE
 		tr_extra LEVITATE
 		tr_evs 32 HP, 32 DEF
 		tr_moves HYPNOSIS, CURSE, NIGHT_SHADE, HEX
-	tr_mon 14, LITWICK
+	tr_mon 14, LITWICK, FEMALE
 		tr_extra FLAME_BODY
 		tr_evs 64 HP
 		tr_moves FIRE_SPIN, CONFUSE_RAY, WILL_O_WISP, HEX
-	tr_mon 18, SPIRITOMB @ ORAN_BERRY
+	tr_mon 18, SPIRITOMB @ ORAN_BERRY, FEMALE
 		tr_extra PRESSURE
 		tr_evs 32 HP, 32 Atk
 		tr_moves SHADOW_SNEAK, FEINT_ATTACK, HYPNOSIS, HEX
 	end_trainer
 
 	def_trainer 2, "Shauntal"
-	tr_mon 65, COFAGRIGUS @ LEFTOVERS
+	tr_mon 65, COFAGRIGUS @ LEFTOVERS, FEMALE
 		tr_extra MUMMY, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves HEX, WILL_O_WISP, PROTECT, TRICK_ROOM
-	tr_mon 66, SPIRITOMB @ CUSTAP_BERRY
+	tr_mon 66, SPIRITOMB @ CUSTAP_BERRY, FEMALE
 		tr_extra INFILTRATOR, SDEF_UP_SPE_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves SHADOW_BALL, SUCKER_PUNCH, DESTINY_BOND, CONFUSE_RAY
-	tr_mon 66, GOLURK @ ASSAULT_VEST
+	tr_mon 66, GOLURK @ ASSAULT_VEST, GENDERLESS
 		tr_extra NO_GUARD, ATK_UP_SATK_DOWN
 		tr_evs 196 HP, 252 Atk
-		tr_moves EARTHQUAKE, STONE_EDGE, DYNAMIC_PUNCH, DRAIN_PUNCH
-	tr_mon 67, GENGAR @ AIR_BALLOON
+		tr_moves EARTHQUAKE, STONE_EDGE, DYNAMICPUNCH, DRAIN_PUNCH
+	tr_mon 67, GENGAR @ AIR_BALLOON, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves SHADOW_BALL, SLUDGE_BOMB, DAZZLINGLEAM, DESTINY_BOND
-	tr_mon 66, MISMAGIUS @ FOCUS_SASH
+	tr_mon 66, MISMAGIUS @ FOCUS_SASH, FEMALE
 		tr_extra LEVITATE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves SHADOW_BALL, THUNDERBOLT, POWER_GEM, NASTY_PLOT
-	tr_mon 68, CHANDELURE @ CHOICE_SCARF
+	tr_mon 68, CHANDELURE @ CHOICE_SCARF, FEMALE
 		tr_extra INFILTRATOR, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves FLAMETHROWER, SHADOW_BALL, ENERGY_BALL, PSYCHIC_M
@@ -191,42 +191,42 @@ BurghGroup:
 
 	def_trainer_class BURGH
 	def_trainer 1, "Burgh"
-	tr_mon 28, LEAVANNY @ LUM_BERRY
+	tr_mon 28, LEAVANNY @ LUM_BERRY, FEMALE
 		tr_extra SWARM
 		tr_evs 32 Atk, 64 Spe
 		tr_moves RAZOR_LEAF, U_TURN, SLASH, DOUBLE_TEAM	
-	tr_mon 25, YANMA
+	tr_mon 25, YANMA, MALE
 		tr_extra SPEED_BOOST, SPE_UP_SATK_DOWN
 		tr_evs 96 SAt
-		tr_moves SONIC_BOOM, PROTECT, U_TURN, AIR_CUTTER
-	tr_mon 25, DWEBBLE @ ORAN_BERRY
+		tr_moves SONIC_BOOM, PROTECT, U_TURN, WING_ATTACK
+	tr_mon 25, DWEBBLE @ ORAN_BERRY, MALE
 		tr_extra SHELL_ARMOR
 		tr_evs 96 HP
-		tr_moves FEINT_ATTACK, ROCK_TOMB, CURSE, BUG_BITE
+		tr_moves FEINT_ATTACK, ROCK_BLAST, CURSE, BUG_BITE
 	end_trainer
 
 	def_trainer 2, "Burgh"
-	tr_mon 65, YANMEGA @ LIFE_ORB
+	tr_mon 65, YANMEGA @ LIFE_ORB, MALE
 		tr_extra SPEED_BOOST, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves BUG_BUZZ, AIR_SLASH, PROTECT, U_TURN
-	tr_mon 67, CRUSTLE @ LEFTOVERS
+	tr_mon 67, CRUSTLE @ LEFTOVERS, MALE
 		tr_extra STURDY, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves SPIKES, STONE_EDGE, X_SCISSOR, SUCKER_PUNCH
-	tr_mon 66, ESCAVALIER @ SHELL_ARMOR
-		tr_extra ASSAULT_VEST, ATK_UP_SATK_DOWN
+	tr_mon 66, ESCAVALIER @ ASSAULT_VEST, MALE
+		tr_extra SHELL_ARMOR, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves MEGAHORN, IRON_HEAD, KNOCK_OFF, X_SCISSOR
-	tr_mon 66, ACCELGOR @ CHOICE_SPECS
+	tr_mon 66, ACCELGOR @ CHOICE_SPECS, MALE
 		tr_extra STICKY_HOLD, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
-		tr_moves BUG_BUZZ, AURA_SPHERE, SLUDGE_BOMG, U_TURN
-	tr_mon 67, PINSIR @ CHOICE_SCARF
+		tr_moves BUG_BUZZ, AURA_SPHERE, SLUDGE_BOMB, U_TURN
+	tr_mon 67, PINSIR @ CHOICE_SCARF, MALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves X_SCISSOR, CLOSE_COMBAT, EARTHQUAKE, ROCK_SLIDE
-	tr_mon 68, LEAVANNY @ FOCUS_SASH
+	tr_mon 68, LEAVANNY @ FOCUS_SASH, FEMALE
 		tr_extra SWARM, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves LEAF_BLADE, X_SCISSOR, KNOCK_OFF, SWORDS_DANCE
@@ -238,42 +238,42 @@ RoxieGroup:
 
 	def_trainer_class ROXIE
 	def_trainer 1, "Roxie"
-	tr_mon 32, CROAGUNK @ MIRROR_HERB
+	tr_mon 32, CROAGUNK @ MIRROR_HERB, FEMALE
 		tr_extra DRY_SKIN
 		tr_evs 64 HP, 64 Atk
 		tr_moves TOXIC, VENOSHOCK, SWAGGER, DRAIN_PUNCH
-	tr_mon 33, GOLBAT @ ORAN_BERRY
+	tr_mon 33, GOLBAT @ ORAN_BERRY, FEMALE
 		tr_extra INNER_FOCUS
 		tr_evs 64 Atk, 64 Spe
 		tr_moves CONFUSE_RAY, WING_ATTACK, POISON_FANG, VENOSHOCK
-	tr_mon 36, SCOLIPEDE @ SITRUS_BERRY
+	tr_mon 36, SCOLIPEDE @ SITRUS_BERRY, FEMALE
 		tr_extra POISON_POINT
 		tr_evs 64 Atk, 64 Spe
-		tr_moves VENOSHOCK, BULLDOZE, X-SCISSOR, TOXIC
+		tr_moves VENOSHOCK, BULLDOZE, X_SCISSOR, TOXIC
 	end_trainer
 
 	def_trainer 2, "Roxie"
-	tr_mon 66, GARBODOR @ ROCKY_HELMET
+	tr_mon 66, GARBODOR @ ROCKY_HELMET, FEMALE
 		tr_extra AFTERMATH, DEF_UP_SATK_DOWN
 		tr_evs 32 Atk
 		tr_moves TOXIC_SPIKES, GUNK_SHOT, BODY_SLAM, EXPLOSION
-	tr_mon 65, TOXICROAK @ ASSAULT_VEST
+	tr_mon 65, TOXICROAK @ ASSAULT_VEST, FEMALE
 		tr_extra POISON_TOUCH, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves POISON_JAB, DRAIN_PUNCH, ICE_PUNCH, SUCKER_PUNCH
-	tr_mon 66, DRAPION @ SCOPE_LENS
+	tr_mon 66, DRAPION @ SCOPE_LENS, FEMALE
 		tr_extra SNIPER, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves POISON_JAB, NIGHT_SLASH, EARTHQUAKE, SWORDS_DANCE
-	tr_mon 67, CROBAT @ BLACK_SLUDGE
+	tr_mon 67, CROBAT @ BLACK_SLUDGE, FEMALE
 		tr_extra INNER_FOCUS, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Spe
 		tr_moves TOXIC, SUPER_FANG, VENOSHOCK, ROOST
-	tr_mon 67, NIDOQUEEN @ LIFE_ORB
+	tr_mon 67, NIDOQUEEN @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves EARTH_POWER, SLUDGE_BOMB, THUNDERBOLT, ICE_BEAM
-	tr_mon 68, SCOLIPEDE @ FOCUS_SASH
+	tr_mon 68, SCOLIPEDE @ FOCUS_SASH, FEMALE
 		tr_extra SPEED_BOOST, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves GUNK_SHOT, MEGAHORN, PROTECT, SWORDS_DANCE
@@ -285,23 +285,23 @@ CherenGroup:
 
 	def_trainer_class CHEREN
 	def_trainer 1, "Cheren"
-	tr_mon 35, WATCHOG @ SITRUS_BERRY
+	tr_mon 35, WATCHOG @ SITRUS_BERRY, MALE
 		tr_extra KEEN_EYE
 		tr_evs 160 Spe
 		tr_moves FOCUS_ENERGY, BODY_SLAM, SUPER_FANG, FACADE
-	tr_mon 35, ZANGOOSE @ TOXIC_ORB ; Added Zangoose in due to Facade + ability synergy. Feel free to review and remove another mon/rebalance levels around a 5 mon team 
+	tr_mon 35, ZANGOOSE @ TOXIC_ORB, MALE ; Added Zangoose in due to Facade + ability synergy. Feel free to review and remove another mon/rebalance levels around a 5 mon team 
 		tr_extra TOXIC_BOOST
 		tr_evs 160 HP
 		tr_moves FACADE, QUICK_ATTACK, NIGHT_SLASH, TRICK
-	tr_mon 35, WIGGLYTUFF @ CHESTO_BERRY
+	tr_mon 35, WIGGLYTUFF @ CHESTO_BERRY, MALE
 		tr_extra CUTE_CHARM
 		tr_evs 160 HP
 		tr_moves REST, FACADE, PLAY_ROUGH, SLEEP_TALK
-	tr_mon 37, BOUFFALANT @ PERSIM_BERRY
+	tr_mon 37, BOUFFALANT @ PERSIM_BERRY, MALE
 		tr_extra SAP_SIPPER
 		tr_evs 160 Atk
 		tr_moves THRASH, SCARY_FACE, MEGAHORN, FACADE
-	tr_mon 40, STOUTLAND @ SILK_SCARF
+	tr_mon 40, STOUTLAND @ SILK_SCARF, MALE
 		tr_extra SCRAPPY
 		tr_evs 160 Spe
 		tr_moves HONE_CLAWS, FACADE, PLAY_ROUGH, GIGA_IMPACT
@@ -309,27 +309,27 @@ CherenGroup:
 
 
 	def_trainer 2, "Cheren"
-	tr_mon 65, WATCHOG @ FOCUS_SASH
+	tr_mon 65, WATCHOG @ FOCUS_SASH, MALE
 		tr_extra ANALYTIC, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves SUPER_FANG, HYPNOSIS, CONFUSE_RAY, KNOCK_OFF
-	tr_mon 66, DUDUNSPARCE @ THROAT_SPRAY
+	tr_mon 66, DUDUNSPARCE @ THROAT_SPRAY, MALE
 		tr_extra SERENE_GRACE, SATK_UP_ATK_DOWN
 		tr_evs 196 SATK, 252 Spe
 		tr_moves AIR_SLASH, HYPER_VOICE, ANCIENTPOWER, GLARE
-	tr_mon 66, ZANGOOSE @ TOXIC_ORB
+	tr_mon 66, ZANGOOSE @ TOXIC_ORB, MALE
 		tr_extra TOXIC_BOOST, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves FACADE, KNOCK_OFF, CLOSE_COMBAT, QUICK_ATTACK
-	tr_mon 67, CINCCINO @ KINGS_ROCK
+	tr_mon 67, CINCCINO @ KINGS_ROCK, MALE
 		tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves TAIL_SLAP, ICICLE_SPEAR, ROCK_BLAST, U_TURN
-	tr_mon 67, BOUFFALANT @ ASSAULT_VEST
+	tr_mon 67, BOUFFALANT @ ASSAULT_VEST, MALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves DOUBLE_EDGE, ZEN_HEADBUTT, EARTHQUAKE, WILD_CHARGE
-	tr_mon 68, STOUTLAND @ CHOICE_SCARF
+	tr_mon 68, STOUTLAND @ CHOICE_SCARF, MALE
 		tr_extra SCRAPPY, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves RETURN, PLAY_ROUGH, CRUNCH, GIGA_IMPACT
@@ -341,46 +341,46 @@ CilanGroup:
 
 	def_trainer_class CILAN
 	def_trainer 1, "Cilan"
-	tr_mon 36, SAWSBUCK @ SITRUS_BERRY
+	tr_mon 36, SAWSBUCK @ SITRUS_BERRY, MALE
 		tr_extra CHLOROPHYLL
 		tr_evs 196 Atk
 		tr_moves LEAF_BLADE, MEGAHORN, TAKE_DOWN, LEECH_SEED
-	tr_mon 38, LILLIGANT @ SITRUS_BERRY ; Could re-add Roserade so the team isn't purely Unova mons
+	tr_mon 38, LILLIGANT @ SITRUS_BERRY, FEMALE ; Could re-add Roserade so the team isn't purely Unova mons
 		tr_extra OWN_TEMPO
 		tr_evs 196 HP
 		tr_moves QUIVER_DANCE, PETAL_DANCE, HEAL_BELL, HEALINGLIGHT
-	tr_mon 38, WHIMSICOTT @ LUM_BERRY
+	tr_mon 38, WHIMSICOTT @ LUM_BERRY, MALE
 		tr_extra PRANKSTER
 		tr_evs 196 HP
 		tr_moves LEECH_SEED, CHARM, ENERGY_BALL, DAZZLINGLEAM
-	tr_mon 42, SIMISAGE @ PETAYA_BERRY
+	tr_mon 42, SIMISAGE @ PETAYA_BERRY, MALE
 		tr_extra GLUTTONY
 		tr_evs 196 Spe
 		tr_moves ENERGY_BALL, NASTY_PLOT, FOCUS_BLAST, SWAGGER
 	end_trainer
 
 	def_trainer 2, "Cilan"
-	tr_mon 66, LUDICOLO @ DAMP_ROCK
+	tr_mon 66, LUDICOLO @ DAMP_ROCK, MALE
 		tr_extra SWIFT_SWIM, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves SCALD, ICE_BEAM, GIGA_DRAIN, RAIN_DANCE	
-	tr_mon 66, FERROTHORN @ ROCKY_HELMET
+	tr_mon 66, FERROTHORN @ ROCKY_HELMET, MALE
 		tr_extra IRON_BARBS, DEF_UP_SPE_DOWN
 		tr_evs 252 HP Atk, 196 Def
 		tr_moves LEECH_SEED, SPIKES, KNOCK_OFF, GYRO_BALL ; note that Leech Seed is missing from Ferroseed's level up learnset, which needs to be addressed
-	tr_mon 67, WHIMSICOTT @ LIGHT_CLAY
+	tr_mon 67, WHIMSICOTT @ LIGHT_CLAY, MALE
 		tr_extra PRANKSTER, SDEF_UP_ATK_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves MOONBLAST, SUNNY_DAY, LEECH_SEED, REFLECT
-	tr_mon 65, SAWSBUCK @ CHOICE_BAND
+	tr_mon 65, SAWSBUCK @ CHOICE_BAND, MALE
 		tr_extra CHLOROPHYLL, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves LEAF_BLADE, DOUBLE_EDGE, WILD_CHARGE, HI_JUMP_KICK
-	tr_mon 67, LILLIGANT @ POWER_HERB
+	tr_mon 67, LILLIGANT @ POWER_HERB, FEMALE
 		tr_extra CHLOROPHYLL, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves SOLAR_BEAM, HP_FIRE, QUIVER_DANCE, SUNNY_DAY
-	tr_mon 68, SIMISAGE @ FOCUS_SASH
+	tr_mon 68, SIMISAGE @ FOCUS_SASH, MALE
 		tr_extra OVERGROW, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves SEED_BOMB, ACROBATICS, ROCK_SLIDE, HONE_CLAWS
@@ -392,46 +392,46 @@ SkylaGroup:
 
 	def_trainer_class SKYLA
 	def_trainer 1, "Skyla"
-	tr_mon 50, SKARMORY @ SITRUS_BERRY
+	tr_mon 50, SKARMORY @ SITRUS_BERRY, FEMALE
 		tr_extra STURDY
 		tr_evs 224 HP
 		tr_moves SPIKES, STEEL_WING, ACROBATICS, ROOST
-	tr_mon 48, UNFEZANT @ RED_CARD
+	tr_mon 48, UNFEZANT @ RED_CARD, FEMALE
 		tr_extra SUPER_LUCK
 		tr_evs 224 Atk
 		tr_moves ACROBATICS, ROOST, SWAGGER, U_TURN
-	tr_mon 50, SWANNA @ SITRUS_BERRY
+	tr_mon 50, SWANNA @ SITRUS_BERRY, FEMALE
 		tr_extra HYDRATION
 		tr_evs 224 HP
 		tr_moves RAIN_DANCE, HURRICANE, SCALD, ROOST
-	tr_mon 53, ALTARIA @ WISE_GLASSES
+	tr_mon 53, ALTARIA @ WISE_GLASSES, FEMALE
 		tr_extra NATURAL_CURE
 		tr_evs 224 SAt
 		tr_moves DRAGON_PULSE, MOONBLAST, HURRICANE, FLAMETHROWER
 	end_trainer ; Could add other Unovan birds here - Archeops, Braviary or Mandibuzz
 
 	def_trainer 2, "Skyla"
-	tr_mon 66, SKARMORY @ CUSTAP_BERRY
+	tr_mon 66, SKARMORY @ CUSTAP_BERRY, FEMALE
 		tr_extra STURDY, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves SPIKES, IRON_HEAD, ACROBATICS, ROOST	
-	tr_mon 65, UNFEZANT @ LIFE_ORB
+	tr_mon 65, UNFEZANT @ LIFE_ORB, FEMALE
 		tr_extra BIG_PECKS, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves BRAVE_BIRD, RETURN, CHARM, STEEL_WING
-	tr_mon 66, HONCHKROW @ MIRROR_HERB
+	tr_mon 66, HONCHKROW @ MIRROR_HERB, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves BRAVE_BIRD, NIGHT_SLASH, SUCKER_PUNCH, SWAGGER
-	tr_mon 67, ARCHEOPS @ SITRUS_BERRY
+	tr_mon 67, ARCHEOPS @ SITRUS_BERRY, FEMALE
 		tr_extra DEFEATIST, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves HEAD_SMASH, ACROBATICS, EARTHQUAKE, ROOST
-	tr_mon 67, SWANNA @ DAMP_ROCK
+	tr_mon 67, SWANNA @ DAMP_ROCK, FEMALE
 		tr_extra HYDRATION, SPE_UP_SATK_DOWN
 		tr_evs 32 Atk
 		tr_moves HURRICANE, SCALD, ICE_BEAM, RAIN_DANCE
-	tr_mon 68, ALTARIA @ LEFTOVERS
+	tr_mon 68, ALTARIA @ LEFTOVERS, FEMALE
 		tr_extra NATURAL_CURE, SDEF_UP_ATK_DOWN
 		tr_evs 32 Atk
 		tr_moves BARRIER, HURRICANE, DRAGON_PULSE, MOONBLAST
@@ -443,46 +443,46 @@ DraydenGroup:
 
 	def_trainer_class DRAYDEN
 	def_trainer 1, "Drayden"
-	tr_mon 58, FLYGON @ SITRUS_BERRY
+	tr_mon 58, FLYGON @ SITRUS_BERRY, MALE
 		tr_extra LEVITATE
 		tr_evs 252 SAt, 4 Spe
 		tr_moves EARTH_POWER, BUG_BUZZ, DRAGON_PULSE, FIRE_BLAST
-	tr_mon 58, KINGDRA @ SCOPE_LENS
+	tr_mon 58, KINGDRA @ SCOPE_LENS, MALE
 		tr_extra SNIPER
 		tr_evs 4 SAt, 252 Spe
 		tr_moves FOCUS_ENERGY, DRAGON_PULSE, SURF, FLASH_CANNON
-	tr_mon 60, DRUDDIGON @ ROCKY_HELMET
+	tr_mon 60, DRUDDIGON @ ROCKY_HELMET, MALE
 		tr_extra SHEER_FORCE
 		tr_evs 4 HP, 252 Atk
 		tr_moves DRAGON_CLAW, IRON_HEAD, CRUNCH, BULLDOZE
-	tr_mon 63 HAXORUS @ LIFE_ORB
+	tr_mon 63, HAXORUS @ LIFE_ORB, MALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Spe
 		tr_moves DRAGON_DANCE, DRAGON_CLAW, FIRE_FANG, EARTHQUAKE
 	end_trainer ; Could add an eviolite Zweilous here, with 252 HP 4 Def, Hustle, Dragon Rush, Crunch, Thunder Wave, and Roar
 
 	def_trainer 2, "Drayden"
-	tr_mon 65, FLYGON @ CHOICE_SCARF
+	tr_mon 65, FLYGON @ CHOICE_SCARF, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves DRAGON_CLAW, EARTHQUAKE, ROCK_SLIDE, U_TURN
-	tr_mon 66, KINGDRA @ DAMP_ROCK
+	tr_mon 66, KINGDRA @ DAMP_ROCK, MALE
 		tr_extra SWIFT_SWIM, SATK_UP_ATK_DOWN
 		tr_evs 32 Atk
 		tr_moves DRAGON_PULSE, SCALD, ICE_BEAM, RAIN_DANCE
-	tr_mon 66, DRAGONITE @ WEAK_POLICY
+	tr_mon 66, DRAGONITE @ WEAK_POLICY, MALE
 		tr_extra MULTISCALE, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves HURRICANE, SURF, THUNDER, RAIN_DANCE
-	tr_mon 67, HYDREIGON @ FOCUS_SASH
+	tr_mon 67, HYDREIGON @ FOCUS_SASH, MALE
 		tr_extra LEVITATE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves DRAGON_PULSE, DARK_PULSE, EARTH_POWER, NASTY_PLOT
-	tr_mon 67, DRUDDIGON @ LIFE_ORB
+	tr_mon 67, DRUDDIGON @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves DRAGON_CLAW, IRON_HEAD, CRUNCH, ROCK_SLIDE
-	tr_mon 68, HAXORUS @ LUM_BERRY
+	tr_mon 68, HAXORUS @ LUM_BERRY, MALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, IRON_HEAD, DRAGON_DANCE
@@ -498,27 +498,27 @@ MarshalGroup:
 
 	def_trainer_class MARSHAL
 	def_trainer 1, "Marshal"
-	tr_mon 65, BRELOOM @ TOXIC_ORB
+	tr_mon 65, BRELOOM @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL
-		tr_evs 252 HP, 132 SDe
+		tr_evs 252 HP, 132 SDf
 		tr_moves PROTECT, DRAIN_PUNCH, GIGA_DRAIN, SPORE
-	tr_mon 65, THROH @ QUICK_CLAW
+	tr_mon 65, THROH @ QUICK_CLAW, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 252 HP, 132 Atk
 		tr_moves ENDURE, CLOSE_COMBAT, KNOCK_OFF, REVERSAL
-	tr_mon 66, SAWK @ EJECT_PACK
+	tr_mon 66, SAWK @ EJECT_PACK, MALE
 		tr_extra STURDY
 		tr_evs 132 Atk, 252 Spe
-		tr_moves COUNTER, CLOSE_COMBAT, STONE_EDGE, THUNDER_PUNCH
-	tr_mon 66, GALLADE @ PROTECT_PADS
+		tr_moves COUNTER, CLOSE_COMBAT, STONE_EDGE, THUNDERPUNCH
+	tr_mon 66, GALLADE @ PROTECT_PADS, MALE
 		tr_extra SHARPNESS
 		tr_evs 132 Atk, 252 Spe
-		tr_moves PSYCHO_CUT, CLOSE_COMBAT, LEAF_BLADE, NIGHT_SLASH
-	tr_mon 67, MIENSHAO @ EJECT_BUTTON
+		tr_moves ZEN_HEADBUTT, CLOSE_COMBAT, LEAF_BLADE, NIGHT_SLASH
+	tr_mon 67, MIENSHAO @ EJECT_BUTTON, MALE
 		tr_extra REGENERATOR
 		tr_evs 252 HP, 132 Spe
 		tr_moves DRAIN_PUNCH, U_TURN, ACROBATICS, HI_JUMP_KICK
-	tr_mon 68, CONKELDURR @ FLAME_ORB
+	tr_mon 68, CONKELDURR @ FLAME_ORB, MALE
 		tr_extra GUTS
 		tr_evs 132 HP, 252 Atk
 		tr_moves MACH_PUNCH, DRAIN_PUNCH, KNOCK_OFF, STONE_EDGE
@@ -530,27 +530,27 @@ GrimsleyGroup:
 
 	def_trainer_class GRIMSLEY
 	def_trainer 1, "Grimsley"
-	tr_mon 65, SCRAFTY @ MIRROR_HERB
+	tr_mon 65, SCRAFTY @ MIRROR_HERB, MALE
 		tr_extra INTIMIDATE
 		tr_evs 252 HP, 132 Def
 		tr_moves SWAGGER, SUCKER_PUNCH, DRAIN_PUNCH, IRON_HEAD
-	tr_mon 65, HOUNDOOM @ WHITE_HERB
+	tr_mon 65, HOUNDOOM @ WHITE_HERB, MALE
 		tr_extra FLASH_FIRE
 		tr_evs 132 SAt, 252 Spe
 		tr_moves NASTY_PLOT, OVERHEAT, DARK_PULSE, SLUDGE_BOMB
-	tr_mon 66, UMBREON @ LEFTOVERS
+	tr_mon 66, UMBREON @ LEFTOVERS, MALE
 		tr_extra SYNCHRONIZE
 		tr_evs 252 HP, 132 Def
 		tr_moves TOXIC, PROTECT, KNOCK_OFF, HEALINGLIGHT
-	tr_mon 66, WEAVILE @ FOCUS_SASH
+	tr_mon 66, WEAVILE @ FOCUS_SASH, MALE
 		tr_extra PICKPOCKET
 		tr_evs 132 Atk, 252 Spe
 		tr_moves HONE_CLAWS, ICICLE_CRASH, KNOCK_OFF, POISON_JAB
-	tr_mon 67, KROOKODILE @ ASSAULT_VEST
+	tr_mon 67, KROOKODILE @ ASSAULT_VEST, MALE
 		tr_extra INTIMIDATE
 		tr_evs 252 HP, 132 Spe
 		tr_moves CRUNCH, EARTHQUAKE, STONE_EDGE, SUCKER_PUNCH
-	tr_mon 68, KINGAMBIT @ LIFE_ORB
+	tr_mon 68, KINGAMBIT @ LIFE_ORB, MALE
 		tr_extra SUPREME_OVERLORD
 		tr_evs 132 HP, 252 Atk
 		tr_moves SUCKER_PUNCH, IRON_HEAD, SACRED_SWORD, SWORDS_DANCE
@@ -562,27 +562,27 @@ ElesaGroup:
 
 	def_trainer_class ELESA
 	def_trainer 1, "Elesa"
-	tr_mon 65, EMOLGA @ DAMP_ROCK
+	tr_mon 65, EMOLGA @ DAMP_ROCK, FEMALE
 		tr_extra STATIC
 		tr_evs 252 HP, 132 Spe
 		tr_moves LIGHT_SCREEN, AIR_SLASH, RAIN_DANCE, U_TURN
-	tr_mon 65, ELECTIVIRE @ AIR_BALLOON
+	tr_mon 65, ELECTIVIRE @ AIR_BALLOON, FEMALE
 		tr_extra VITAL_SPIRIT
 		tr_evs 132 Atk, 252 Spe
 		tr_moves WILD_CHARGE, ICE_PUNCH, EARTHQUAKE, BULK_UP
-	tr_mon 66, AMPHAROS @ CHOICE_SPECS
+	tr_mon 66, AMPHAROS @ CHOICE_SPECS, FEMALE
 		tr_extra MOLD_BREAKER
 		tr_evs 252 HP, 132 SAt
 		tr_moves THUNDER, DRAGON_PULSE, DAZZLINGLEAM, VOLT_SWITCH
-	tr_mon 66, EELEKTROSS @ SITRUS_BERRY
+	tr_mon 66, EELEKTROSS @ SITRUS_BERRY, FEMALE
 		tr_extra LEVITATE
 		tr_evs 132 HP, 252 Spe
 		tr_moves WILD_CHARGE, ACROBATICS, WATERFALL, DRAGON_DANCE
-	tr_mon 67, GALVANTULA @ LIFE_ORB
-		tr_extra COMPUND_EYES
+	tr_mon 67, GALVANTULA @ LIFE_ORB, FEMALE
+		tr_extra COMPOUND_EYES
 		tr_evs 252 SAt, 132 Spe
 		tr_moves THUNDER, BUG_BUZZ, ENERGY_BALL, THUNDER_WAVE
-	tr_mon 68, ZEBSTRIKA @ WHITE_HERB
+	tr_mon 68, ZEBSTRIKA @ WHITE_HERB, FEMALE
 		tr_extra SAP_SIPPER
 		tr_evs 252 Atk, 132 Spe
 		tr_moves WILD_CHARGE, RETURN, OVERHEAT, FLAME_CHARGE
@@ -594,27 +594,27 @@ ColressGroup:
 
 	def_trainer_class COLRESS
 	def_trainer 1, "Colress"
-	tr_mon 65, MAWILE @ EJECT_BUTTON
+	tr_mon 65, MAWILE @ EJECT_BUTTON, MALE
 		tr_extra INTIMIDATE
-		tr_evs 252 HP, 132 SDe
+		tr_evs 252 HP, 132 SDf
 		tr_moves PLAY_ROUGH, IRON_HEAD, ICE_PUNCH, SUCKER_PUNCH
-	tr_mon 67, FERROTHORN @ ROCKY_HELMET
+	tr_mon 67, FERROTHORN @ ROCKY_HELMET, MALE
 		tr_extra IRON_BARBS
-		tr_evs 252 HP, 132 SDe
+		tr_evs 252 HP, 132 SDf
 		tr_moves GYRO_BALL, SLEEP_TALK, CURSE, REST
-	tr_mon 65, AGGRON @ AIR_BALLOON
+	tr_mon 65, AGGRON @ AIR_BALLOON, MALE
 		tr_extra ROCK_HEAD
 		tr_evs 252 HP, 132 Atk
 		tr_moves IRON_HEAD, HEAD_SMASH, EARTHQUAKE, SANDSTORM
-	tr_mon 66, STEELIX @ LIFE_ORB
+	tr_mon 66, STEELIX @ LIFE_ORB, MALE
 		tr_extra SAND_FORCE
 		tr_evs 252 HP, 132 Atk
 		tr_moves GYRO_BALL, EARTHQUAKE, HEAD_SMASH, SANDSTORM
-	tr_mon 66, MAGNEZONE @ BLUNDRPOLICY
+	tr_mon 66, MAGNEZONE @ BLUNDRPOLICY, GENDERLESS
 		tr_extra STURDY
 		tr_evs 252 SAt, 132 Spe
 		tr_moves FLASH_CANNON, THUNDERBOLT, HP_ICE, ZAP_CANNON
-	tr_mon 68, KLINKLANG @ FOCUS_SASH
+	tr_mon 68, KLINKLANG @ FOCUS_SASH, GENDERLESS
 		tr_extra CLEAR_BODY
 		tr_evs 252 Atk, 132 Spe
 		tr_moves IRON_HEAD, WILD_CHARGE, FACADE, DRAGON_DANCE
@@ -629,81 +629,81 @@ ChampionGroup:
 
 	def_trainer_class CHAMPION
 	def_trainer JUNIPER_SNIVY, "Juniper"
-	tr_mon 68, METAGROSS @ WEAK_POLICY
+	tr_mon 68, METAGROSS @ WEAK_POLICY, GENDERLESS
 		tr_extra CLEAR_BODY, ATK_UP_SATK_DOWN
 		tr_evs 164 HP, 252 Atk
 		tr_moves IRON_HEAD, ZEN_HEADBUTT, KNOCK_OFF, BULLET_PUNCH
-	tr_mon 69, GENGAR @ FOCUS_SASH
+	tr_mon 69, GENGAR @ FOCUS_SASH, FEMALE
 		tr_extra SHADOW_TAG, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves SHADOW_BALL, SLUDGE_BOMB, WILL_O_WISP, DESTINY_BOND
-	tr_mon 68, CLEFABLE @ LEFTOVERS
+	tr_mon 68, CLEFABLE @ LEFTOVERS, FEMALE
 		tr_extra MAGIC_GUARD, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 164 Def
 		tr_moves CALM_MIND, MOONBLAST, THUNDER_WAVE, HEALINGLIGHT
-	tr_mon 70, ZOROARK @ RED_CARD
+	tr_mon 70, ZOROARK @ RED_CARD, FEMALE
 		tr_extra ILLUSION, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves DARK_PULSE, FOCUS_BLAST, PSYCHIC_M, NASTY_PLOT
-	tr_mon 70, VOLCARONA @ LIFE_ORB
+	tr_mon 70, VOLCARONA @ LIFE_ORB, FEMALE
 		tr_extra FLAME_BODY, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SAt
 		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE
-	tr_mon 73, SERPERIOR @ ASSAULT_VEST
+	tr_mon 73, SERPERIOR @ ASSAULT_VEST, FEMALE
 		tr_extra CONTRARY, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 164 Spe
 		tr_moves LEAF_STORM, DRAGON_PULSE, HP_FIRE, GIGA_DRAIN
 	end_trainer
 
 	def_trainer JUNIPER_TEPIG, "Juniper"
-	tr_mon 68, METAGROSS @ WEAK_POLICY
+	tr_mon 68, METAGROSS @ WEAK_POLICY, GENDERLESS
 		tr_extra CLEAR_BODY, ATK_UP_SATK_DOWN
 		tr_evs 164 HP, 252 Atk
 		tr_moves IRON_HEAD, ZEN_HEADBUTT, KNOCK_OFF, BULLET_PUNCH
-	tr_mon 69, GENGAR @ FOCUS_SASH
+	tr_mon 69, GENGAR @ FOCUS_SASH, FEMALE
 		tr_extra SHADOW_TAG, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves SHADOW_BALL, SLUDGE_BOMB, WILL_O_WISP, DESTINY_BOND
-	tr_mon 68, CLEFABLE @ LEFTOVERS
+	tr_mon 68, CLEFABLE @ LEFTOVERS, FEMALE
 		tr_extra MAGIC_GUARD, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 164 Def
 		tr_moves CALM_MIND, MOONBLAST, THUNDER_WAVE, HEALINGLIGHT
-	tr_mon 70, ZOROARK @ RED_CARD
+	tr_mon 70, ZOROARK @ RED_CARD, FEMALE
 		tr_extra ILLUSION, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves DARK_PULSE, FOCUS_BLAST, PSYCHIC_M, NASTY_PLOT
-	tr_mon 70, VOLCARONA @ LIFE_ORB
+	tr_mon 70, VOLCARONA @ LIFE_ORB, FEMALE
 		tr_extra FLAME_BODY, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SAt
 		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE
-	tr_mon 73, EMBOAR @ ASSAULT_VEST
+	tr_mon 73, EMBOAR @ ASSAULT_VEST, FEMALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 164 Atk
 		tr_moves FLARE_BLITZ, HAMMER_ARM, SUCKER_PUNCH, WILD_CHARGE
 	end_trainer
 
 	def_trainer JUNIPER_OSHAWOTT, "Juniper"
-	tr_mon 68, METAGROSS @ WEAK_POLICY
+	tr_mon 68, METAGROSS @ WEAK_POLICY, GENDERLESS
 		tr_extra CLEAR_BODY, ATK_UP_SATK_DOWN
 		tr_evs 164 HP, 252 Atk
 		tr_moves IRON_HEAD, ZEN_HEADBUTT, KNOCK_OFF, BULLET_PUNCH
-	tr_mon 69, GENGAR @ FOCUS_SASH
+	tr_mon 69, GENGAR @ FOCUS_SASH, FEMALE
 		tr_extra SHADOW_TAG, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves SHADOW_BALL, SLUDGE_BOMB, WILL_O_WISP, DESTINY_BOND
-	tr_mon 68, CLEFABLE @ LEFTOVERS
+	tr_mon 68, CLEFABLE @ LEFTOVERS, FEMALE
 		tr_extra MAGIC_GUARD, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 164 Def
 		tr_moves CALM_MIND, MOONBLAST, THUNDER_WAVE, HEALINGLIGHT
-	tr_mon 70, ZOROARK @ RED_CARD
+	tr_mon 70, ZOROARK @ RED_CARD, FEMALE
 		tr_extra ILLUSION, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves DARK_PULSE, FOCUS_BLAST, PSYCHIC_M, NASTY_PLOT
-	tr_mon 70, VOLCARONA @ LIFE_ORB
+	tr_mon 70, VOLCARONA @ LIFE_ORB, FEMALE
 		tr_extra FLAME_BODY, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SAt
 		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE
-	tr_mon 73, SAMUROTT @ ASSAULT_VEST
+	tr_mon 73, SAMUROTT @ ASSAULT_VEST, FEMALE
 		tr_extra SHELL_ARMOR, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 164 Atk
 		tr_moves WATERFALL, AQUA_JET, KNOCK_OFF, SACRED_SWORD
@@ -723,7 +723,7 @@ Infer0Group:
 	end_trainer
 
 	def_trainer INFER1_OSHAWOTT, "girl"
-	tr_mon 5, OSHAWATT
+	tr_mon 5, OSHAWOTT
 	end_trainer
 
 
@@ -732,252 +732,252 @@ Infer1Group:
 
 	def_trainer_class INFER1
 	def_trainer INFER2_SNIVY, "Infer"
-	tr_mon 18, RALTS
+	tr_mon 18, RALTS, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt
 		tr_moves PSYBEAM, DRAINING_KISS, HYPNOSIS, SHADOW_SNEAK
-	tr_mon 16, RIOLU
+	tr_mon 16, RIOLU, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP
 		tr_moves BULK_UP, METAL_CLAW, COUNTER, QUICK_ATTACK
-	tr_mon 20, SERVINE @ ORAN_BERRY
+	tr_mon 20, SERVINE @ ORAN_BERRY, FEMALE
 		tr_extra OVERGROW
 		tr_evs 72 HP
 		tr_moves LEECH_SEED, RAZOR_LEAF, GROWTH, WRAP
 	end_trainer
 
 	def_trainer INFER2_TEPIG, "Infer"
-	tr_mon 18, RALTS
+	tr_mon 18, RALTS, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt
 		tr_moves PSYBEAM, DRAINING_KISS, HYPNOSIS, SHADOW_SNEAK
-	tr_mon 16, RIOLU
+	tr_mon 16, RIOLU, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP
 		tr_moves BULK_UP, METAL_CLAW, COUNTER, QUICK_ATTACK
-	tr_mon 20, PIGNITE @ ORAN_BERRY
+	tr_mon 20, PIGNITE @ ORAN_BERRY, FEMALE
 		tr_extra BLAZE
 		tr_evs 72 HP
 		tr_moves FLAME_CHARGE, MUD_SLAP, DOUBLE_KICK, DEFENSE_CURL
 	end_trainer
 
 	def_trainer INFER2_OSHAWOTT, "Infer"
-	tr_mon 18, RALTS
+	tr_mon 18, RALTS, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt
 		tr_moves PSYBEAM, DRAINING_KISS, HYPNOSIS, SHADOW_SNEAK
-	tr_mon 16, RIOLU
+	tr_mon 16, RIOLU, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP
 		tr_moves BULK_UP, METAL_CLAW, COUNTER, QUICK_ATTACK
-	tr_mon 20, DEWOTT @ ORAN_BERRY
+	tr_mon 20, DEWOTT @ ORAN_BERRY, FEMALE
 		tr_extra TORRENT
 		tr_evs 72 HP
 		tr_moves RAZOR_SHELL, FOCUS_ENERGY, LEER, TACKLE
 	end_trainer
 
 	def_trainer INFER3_SNIVY, "Infer"
-	tr_mon 25, LITWICK
+	tr_mon 25, LITWICK, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 104 SAt
 		tr_moves FLAME_BURST, WILL_O_WISP, HEX, CONFUSE_RAY
-	tr_mon 25, RIOLU
+	tr_mon 25, RIOLU, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 32 Atk
 		tr_moves BULLDOZE, MACH_PUNCH, BULK_UP, METAL_CLAW
-	tr_mon 26, KIRLIA
+	tr_mon 26, KIRLIA, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt, 32 Spe
 		tr_moves PSYBEAM, DRAINING_KISS, HYPNOSIS, CONFUSE_RAY
-	tr_mon 28, SERVINE @ ORAN_BERRY
+	tr_mon 28, SERVINE @ ORAN_BERRY, FEMALE
 		tr_extra OVERGROW
 		tr_evs 104 HP
 		tr_moves LEECH_SEED, GROWTH, MEGA_DRAIN, DRAGONBREATH
 	end_trainer
 
 	def_trainer INFER3_TEPIG, "Infer"
-	tr_mon 25, LITWICK
+	tr_mon 25, LITWICK, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 104 SAt
 		tr_moves FLAME_BURST, WILL_O_WISP, HEX, CONFUSE_RAY
-	tr_mon 25, RIOLU
+	tr_mon 25, RIOLU, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 32 Atk
 		tr_moves BULLDOZE, MACH_PUNCH, BULK_UP, METAL_CLAW
-	tr_mon 26, KIRLIA
+	tr_mon 26, KIRLIA, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt, 32 Spe
 		tr_moves PSYBEAM, DRAINING_KISS, HYPNOSIS, CONFUSE_RAY
-	tr_mon 28, PIGNITE @ ORAN_BERRY
+	tr_mon 28, PIGNITE @ ORAN_BERRY, FEMALE
 		tr_extra BLAZE
 		tr_evs 104 HP
 		tr_moves DEFENSE_CURL, ROLLOUT, FLAME_CHARGE, DOUBLE_KICK
 	end_trainer
 
 	def_trainer INFER3_OSHAWOTT, "Infer"
-	tr_mon 25, LITWICK
+	tr_mon 25, LITWICK, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 104 SAt
 		tr_moves FLAME_BURST, WILL_O_WISP, HEX, CONFUSE_RAY
-	tr_mon 25, RIOLU
+	tr_mon 25, RIOLU, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 32 Atk
 		tr_moves BULLDOZE, MACH_PUNCH, BULK_UP, METAL_CLAW
-	tr_mon 26, KIRLIA
+	tr_mon 26, KIRLIA, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt, 32 Spe
 		tr_moves PSYBEAM, DRAINING_KISS, HYPNOSIS, CONFUSE_RAY
-	tr_mon 28, DEWOTT @ ORAN_BERRY
+	tr_mon 28, DEWOTT @ ORAN_BERRY, FEMALE
 		tr_extra TORRENT
 		tr_evs 104 HP
 		tr_moves RAZOR_SHELL, FURY_CUTTER, FOCUS_ENERGY, WATER_PULSE
 	end_trainer
 	
 	def_trainer INFER4_SNIVY, "Infer"
-	tr_mon 31, GLIGAR
+	tr_mon 31, GLIGAR, MALE
 		tr_extra IMMUNITY
 		tr_evs 128 HP
 		tr_moves U_TURN, ACROBATICS, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 31, LITWICK
+	tr_mon 31, LITWICK, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 128 SAt
 		tr_moves FLAME_BURST, WILL_O_WISP, HEX, CONFUSE_RAY
-	tr_mon 34, KIRLIA
+	tr_mon 34, KIRLIA, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt, 56 Spe
 		tr_moves CALM_MIND, PSYBEAM, DRAINING_KISS, CONFUSE_RAY
-	tr_mon 33, LUCARIO
+	tr_mon 33, LUCARIO, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 56 Atk
 		tr_moves BULLDOZE, MACH_PUNCH, BULK_UP, METAL_CLAW
-	tr_mon 35, SERVINE @ SITRUS_BERRY
+	tr_mon 35, SERVINE @ SITRUS_BERRY, FEMALE
 		tr_extra OVERGROW
 		tr_evs 128 HP
 		tr_moves LEECH_SEED, GROWTH, LEAF_BLADE, DRAGONBREATH
 	end_trainer
 
 	def_trainer INFER4_TEPIG, "Infer"
-	tr_mon 31, GLIGAR
+	tr_mon 31, GLIGAR, MALE
 		tr_extra IMMUNITY
 		tr_evs 128 HP
 		tr_moves U_TURN, ACROBATICS, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 31, LITWICK
+	tr_mon 31, LITWICK, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 128 SAt
 		tr_moves FLAME_BURST, WILL_O_WISP, HEX, CONFUSE_RAY
-	tr_mon 34, KIRLIA
+	tr_mon 34, KIRLIA, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt, 56 Spe
 		tr_moves CALM_MIND, PSYBEAM, DRAINING_KISS, CONFUSE_RAY
-	tr_mon 33, LUCARIO
+	tr_mon 33, LUCARIO, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 56 Atk
 		tr_moves BULLDOZE, MACH_PUNCH, BULK_UP, METAL_CLAW
-	tr_mon 35, PIGNITE @ SITRUS_BERRY
+	tr_mon 35, PIGNITE @ SITRUS_BERRY, FEMALE
 		tr_extra BLAZE
 		tr_evs 128 HP
 		tr_moves DEFENSE_CURL, ROLLOUT, FIRE_PUNCH, DOUBLE_KICK
 	end_trainer
 
 	def_trainer INFER4_OSHAWOTT, "Infer"
-	tr_mon 31, GLIGAR
+	tr_mon 31, GLIGAR, MALE
 		tr_extra IMMUNITY
 		tr_evs 128 HP
 		tr_moves U_TURN, ACROBATICS, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 31, LITWICK
+	tr_mon 31, LITWICK, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 128 SAt
 		tr_moves FLAME_BURST, WILL_O_WISP, HEX, CONFUSE_RAY
-	tr_mon 34, KIRLIA
+	tr_mon 34, KIRLIA, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 72 SAt, 56 Spe
 		tr_moves CALM_MIND, PSYBEAM, DRAINING_KISS, CONFUSE_RAY
-	tr_mon 33, LUCARIO
+	tr_mon 33, LUCARIO, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 56 Atk
 		tr_moves BULLDOZE, MACH_PUNCH, BULK_UP, METAL_CLAW
-	tr_mon 35, DEWOTT @ SITRUS_BERRY
+	tr_mon 35, DEWOTT @ SITRUS_BERRY, FEMALE
 		tr_extra TORRENT
 		tr_evs 128 HP
 		tr_moves RAZOR_SHELL, FURY_CUTTER, AERIAL_ACE, AQUA_JET
 	end_trainer
 	
 	def_trainer INFER5_SNIVY, "Infer"
-	tr_mon 40, GLIGAR
+	tr_mon 40, GLIGAR, MALE
 		tr_extra IMMUNITY
 		tr_evs 196 HP
 		tr_moves U_TURN, ACROBATICS, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 40, LARVITAR
+	tr_mon 40, LARVITAR, FEMALE
 		tr_extra SAND_VEIL ; using ability H for Tyranitar to not have Sand Stream
 		tr_evs 196 HP
 		tr_moves STONE_EDGE, EARTHQUAKE, CRUNCH, SANDSTORM
-	tr_mon 42, LAMPENT
+	tr_mon 42, LAMPENT, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 196 SAt
 		tr_moves FLAMETHROWER, WILL_O_WISP, SHADOW_BALL, CURSE
-	tr_mon 43, GARDEVOIR
+	tr_mon 43, GARDEVOIR, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 96 SAt, 100 Spe
 		tr_moves CALM_MIND, PSYCHIC_M, DAZZLINGLEAM, CONFUSE_RAY
-	tr_mon 43, LUCARIO
+	tr_mon 43, LUCARIO, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 124 Atk ; keeping HP EVs for consistency with earlier sets. Will assume EV reduction berry availability is after this battle
 		tr_moves METAL_CLAW, MACH_PUNCH, SWORDS_DANCE, DRAIN_PUNCH
-	tr_mon 45, SERPERIOR @ SITRUS_BERRY
+	tr_mon 45, SERPERIOR @ SITRUS_BERRY, FEMALE
 		tr_extra OVERGROW
 		tr_evs 196 HP
 		tr_moves LEECH_SEED, GROWTH, GIGA_DRAIN, DRAGON_PULSE
 	end_trainer
 
 	def_trainer INFER5_TEPIG, "Infer"
-	tr_mon 40, GLIGAR
+	tr_mon 40, GLIGAR, MALE
 		tr_extra IMMUNITY
 		tr_evs 196 HP
 		tr_moves U_TURN, ACROBATICS, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 40, LARVITAR
+	tr_mon 40, LARVITAR, FEMALE
 		tr_extra SAND_VEIL ; using ability H for Tyranitar to not have Sand Stream
 		tr_evs 196 HP
 		tr_moves STONE_EDGE, EARTHQUAKE, CRUNCH, SANDSTORM
-	tr_mon 42, LAMPENT
+	tr_mon 42, LAMPENT, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 196 SAt
 		tr_moves FLAMETHROWER, WILL_O_WISP, SHADOW_BALL, CURSE
-	tr_mon 43, GARDEVOIR
+	tr_mon 43, GARDEVOIR, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 96 SAt, 100 Spe
 		tr_moves CALM_MIND, PSYCHIC_M, DAZZLINGLEAM, CONFUSE_RAY
-	tr_mon 43, LUCARIO
+	tr_mon 43, LUCARIO, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 124 Atk ; keeping HP EVs for consistency with earlier sets. Will assume EV reduction berry availability is after this battle
 		tr_moves METAL_CLAW, MACH_PUNCH, SWORDS_DANCE, DRAIN_PUNCH
-	tr_mon 45, EMBOAR @ SITRUS_BERRY
+	tr_mon 45, EMBOAR @ SITRUS_BERRY, FEMALE
 		tr_extra BLAZE
 		tr_evs 196 HP
 		tr_moves DEFENSE_CURL, SUCKER_PUNCH, FLAMETHROWER, HAMMER_ARM
 	end_trainer
 
 	def_trainer INFER5_OSHAWOTT, "Infer"
-	tr_mon 40, GLIGAR
+	tr_mon 40, GLIGAR, MALE
 		tr_extra IMMUNITY
 		tr_evs 196 HP
 		tr_moves U_TURN, ACROBATICS, KNOCK_OFF, QUICK_ATTACK
-	tr_mon 40, LARVITAR
+	tr_mon 40, LARVITAR, FEMALE
 		tr_extra SAND_VEIL ; using ability H for Tyranitar to not have Sand Stream
 		tr_evs 196 HP
 		tr_moves STONE_EDGE, EARTHQUAKE, CRUNCH, SANDSTORM
-	tr_mon 42, LAMPENT
+	tr_mon 42, LAMPENT, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 196 SAt
 		tr_moves FLAMETHROWER, WILL_O_WISP, SHADOW_BALL, CURSE
-	tr_mon 43, GARDEVOIR
+	tr_mon 43, GARDEVOIR, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 96 SAt, 100 Spe
 		tr_moves CALM_MIND, PSYCHIC_M, DAZZLINGLEAM, CONFUSE_RAY
-	tr_mon 43, LUCARIO
+	tr_mon 43, LUCARIO, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 72 HP, 124 Atk ; keeping HP EVs for consistency with earlier sets. Will assume EV reduction berry availability is after this battle
 		tr_moves METAL_CLAW, MACH_PUNCH, SWORDS_DANCE, DRAIN_PUNCH
-	tr_mon 45, SAMUROTT @ SITRUS_BERRY
+	tr_mon 45, SAMUROTT @ SITRUS_BERRY, FEMALE
 		tr_extra TORRENT
 		tr_evs 196 HP
 		tr_moves AQUA_TAIL, SLASH, AERIAL_ACE, AQUA_JET
@@ -989,81 +989,81 @@ InferSageGroup: ; assume at this stage of the game that EV reducing berries, the
 
 	def_trainer_class INFER_SAGE
 	def_trainer INFER_SAGE_SNIVY, "Infer"
-	tr_mon 54, GLISCOR @ TOXIC_ORB
+	tr_mon 54, GLISCOR @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL
 		tr_evs 252 HP, 132 SDf
 		tr_moves U_TURN, EARTHQUAKE, KNOCK_OFF, TOXIC
-	tr_mon 52, PUPITAR @ EVIOLITE
-		tr_extra SAND_VEIL
+	tr_mon 52, PUPITAR @ EVIOLITE, FEMALE
+		tr_extra SHED_SKIN
 		tr_evs 252 HP, 132 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, CRUNCH, IRON_HEAD
-	tr_mon 53, LAMPENT @ SPELL_TAG
+	tr_mon 53, LAMPENT @ SPELL_TAG, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 132 HP, 252 SAt
 		tr_moves FLAMETHROWER, WILL_O_WISP, SHADOW_BALL, ENERGY_BALL
-	tr_mon 56, GARDEVOIR @ TWISTEDSPOON
+	tr_mon 56, GARDEVOIR @ TWISTEDSPOON, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 252 SAt, 132 Spe
 		tr_moves CALM_MIND, PSYCHIC_M, MOONBLAST, THUNDERBOLT
-	tr_mon 57, LUCARIO @ BLACK_BELT
+	tr_mon 57, LUCARIO @ BLACK_BELT, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 132 Atk, 252 Spe
 		tr_moves IRON_HEAD, EXTREMESPEED, SWORDS_DANCE, DRAIN_PUNCH
-	tr_mon 58, SERPERIOR @ MIRACLE_SEED
+	tr_mon 58, SERPERIOR @ MIRACLE_SEED, FEMALE
 		tr_extra OVERGROW
 		tr_evs 252 HP, 132 SAt
 		tr_moves LEECH_SEED, SUBSTITUTE, GIGA_DRAIN, DRAGON_PULSE
 	end_trainer
 
 	def_trainer INFER_SAGE_TEPIG, "Infer"
-	tr_mon 54, GLISCOR @ TOXIC_ORB
+	tr_mon 54, GLISCOR @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL
 		tr_evs 252 HP, 132 SDf
 		tr_moves U_TURN, EARTHQUAKE, KNOCK_OFF, TOXIC
-	tr_mon 52, PUPITAR @ EVIOLITE
-		tr_extra SAND_VEIL
+	tr_mon 52, PUPITAR @ EVIOLITE, FEMALE
+		tr_extra SHED_SKIN
 		tr_evs 252 HP, 132 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, CRUNCH, IRON_HEAD
-	tr_mon 53, LAMPENT @ SPELL_TAG
+	tr_mon 53, LAMPENT @ SPELL_TAG, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 132 HP, 252 SAt
 		tr_moves FLAMETHROWER, WILL_O_WISP, SHADOW_BALL, ENERGY_BALL
-	tr_mon 56, GARDEVOIR @ TWISTEDSPOON
+	tr_mon 56, GARDEVOIR @ TWISTEDSPOON, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 252 SAt, 132 Spe
 		tr_moves CALM_MIND, PSYCHIC_M, MOONBLAST, THUNDERBOLT
-	tr_mon 57, LUCARIO @ BLACK_BELT
+	tr_mon 57, LUCARIO @ BLACK_BELT, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 132 Atk, 252 Spe
 		tr_moves IRON_HEAD, EXTREMESPEED, SWORDS_DANCE, DRAIN_PUNCH
-	tr_mon 58, EMBOAR @ CHARCOAL
+	tr_mon 58, EMBOAR @ CHARCOAL, FEMALE
 		tr_extra BLAZE
 		tr_evs 252 HP, 132 Atk
 		tr_moves HAMMER_ARM, OVERHEAT, HEAD_SMASH, SUCKER_PUNCH
 	end_trainer
 
 	def_trainer INFER_SAGE_OSHAWOTT, "Infer"                                                          
-	tr_mon 54, GLISCOR @ TOXIC_ORB
+	tr_mon 54, GLISCOR @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL
 		tr_evs 252 HP, 132 SDf
 		tr_moves U_TURN, EARTHQUAKE, KNOCK_OFF, TOXIC
-	tr_mon 52, PUPITAR @ EVIOLITE
-		tr_extra SAND_VEIL
+	tr_mon 52, PUPITAR @ EVIOLITE, FEMALE
+		tr_extra SHED_SKIN
 		tr_evs 252 HP, 132 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, CRUNCH, IRON_HEAD
-	tr_mon 53, LAMPENT @ SPELL_TAG
+	tr_mon 53, LAMPENT @ SPELL_TAG, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 132 HP, 252 SAt
 		tr_moves FLAMETHROWER, WILL_O_WISP, SHADOW_BALL, ENERGY_BALL
-	tr_mon 56, GARDEVOIR @ TWISTEDSPOON
+	tr_mon 56, GARDEVOIR @ TWISTEDSPOON, FEMALE
 		tr_extra TRACE, SHINY
 		tr_evs 252 SAt, 132 Spe
 		tr_moves CALM_MIND, PSYCHIC_M, MOONBLAST, THUNDERBOLT
-	tr_mon 57, LUCARIO @ BLACK_BELT
+	tr_mon 57, LUCARIO @ BLACK_BELT, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 132 Atk, 252 Spe
 		tr_moves IRON_HEAD, EXTREMESPEED, SWORDS_DANCE, DRAIN_PUNCH
-	tr_mon 58, SAMUROTT @ MYSTIC_WATER
+	tr_mon 58, SAMUROTT @ MYSTIC_WATER, FEMALE
 		tr_extra TORRENT
 		tr_evs 252 HP, 132 SAt
 		tr_moves SCALD, ICE_BEAM, SURF, AQUA_JET
@@ -1075,81 +1075,81 @@ Infer2Group: ; assume at this stage of the game that nature and ability changing
 
 	def_trainer_class INFER2
 	def_trainer INFER7_SNIVY, "Infer"
-	tr_mon 60, GLISCOR @ TOXIC_ORB
+	tr_mon 60, GLISCOR @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves ROOST, EARTHQUAKE, KNOCK_OFF, TOXIC
-	tr_mon 62, CHANDELURE @ EJECT_PACK
+	tr_mon 62, CHANDELURE @ EJECT_PACK, FEMALE
 		tr_extra FLASH_FIRE, SPE_UP_ATK_DOWN
 		tr_evs 204 SAt, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, WILL_O_WISP
-	tr_mon 63, LUCARIO @ FOCUS_SASH
+	tr_mon 63, LUCARIO @ FOCUS_SASH, MALE
 		tr_extra JUSTIFIED, SPE_UP_SATK_DOWN
 		tr_evs 204 Atk, 252 Spe
 		tr_moves IRON_HEAD, EXTREMESPEED, SWORDS_DANCE, CLOSE_COMBAT
-	tr_mon 62, GARDEVOIR @ CHOICE_SCARF
+	tr_mon 62, GARDEVOIR @ CHOICE_SCARF, FEMALE
 		tr_extra TRACE, SPE_UP_ATK_DOWN, SHINY
 		tr_evs 252 SAt, 204 Spe
 		tr_moves PSYCHIC_M, MOONBLAST, THUNDERBOLT, ICE_BEAM
-	tr_mon 63, TYRANITAR @ ASSAULT_VEST
+	tr_mon 63, TYRANITAR @ ASSAULT_VEST, FEMALE
 		tr_extra UNNERVE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, KNOCK_OFF, FIRE_BLAST
-	tr_mon 68, SERPERIOR @ POWER_HERB
+	tr_mon 68, SERPERIOR @ POWER_HERB, FEMALE
 		tr_extra OVERGROW, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 204 SAt
 		tr_moves LEECH_SEED, SOLAR_BEAM, GIGA_DRAIN, DRAGON_PULSE
 	end_trainer
 
 	def_trainer INFER7_TEPIG, "Infer"
-	tr_mon 60, GLISCOR @ TOXIC_ORB
+	tr_mon 60, GLISCOR @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves ROOST, EARTHQUAKE, KNOCK_OFF, TOXIC
-	tr_mon 62, CHANDELURE @ EJECT_PACK
+	tr_mon 62, CHANDELURE @ EJECT_PACK, FEMALE
 		tr_extra FLASH_FIRE, SPE_UP_ATK_DOWN
 		tr_evs 204 SAt, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, WILL_O_WISP
-	tr_mon 63, LUCARIO @ FOCUS_SASH
+	tr_mon 63, LUCARIO @ FOCUS_SASH, MALE
 		tr_extra JUSTIFIED, SPE_UP_SATK_DOWN
 		tr_evs 204 Atk, 252 Spe
 		tr_moves IRON_HEAD, EXTREMESPEED, SWORDS_DANCE, CLOSE_COMBAT
-	tr_mon 62, GARDEVOIR @ CHOICE_SCARF
+	tr_mon 62, GARDEVOIR @ CHOICE_SCARF, FEMALE
 		tr_extra TRACE, SPE_UP_ATK_DOWN, SHINY
 		tr_evs 252 SAt, 204 Spe
 		tr_moves PSYCHIC_M, MOONBLAST, THUNDERBOLT, ICE_BEAM
-	tr_mon 63, TYRANITAR @ ASSAULT_VEST
+	tr_mon 63, TYRANITAR @ ASSAULT_VEST, FEMALE
 		tr_extra UNNERVE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, KNOCK_OFF, FIRE_BLAST
-	tr_mon 68, EMBOAR @ WHITE_HERB
+	tr_mon 68, EMBOAR @ WHITE_HERB, FEMALE
 		tr_extra BLAZE, ATK_UP_SPE_DOWN
 		tr_evs 252 HP, 204 Atk
 		tr_moves HAMMER_ARM, OVERHEAT, ICE_PUNCH, SUCKER_PUNCH
 	end_trainer
 
 	def_trainer INFER7_OSHAWOTT, "Infer"
-	tr_mon 60, GLISCOR @ TOXIC_ORB
+	tr_mon 60, GLISCOR @ TOXIC_ORB, MALE
 		tr_extra POISON_HEAL, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves ROOST, EARTHQUAKE, KNOCK_OFF, TOXIC
-	tr_mon 62, CHANDELURE @ EJECT_PACK
+	tr_mon 62, CHANDELURE @ EJECT_PACK, FEMALE
 		tr_extra FLASH_FIRE, SPE_UP_ATK_DOWN
 		tr_evs 204 SAt, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, WILL_O_WISP
-	tr_mon 63, LUCARIO @ FOCUS_SASH
+	tr_mon 63, LUCARIO @ FOCUS_SASH, MALE
 		tr_extra JUSTIFIED, SPE_UP_SATK_DOWN
 		tr_evs 204 Atk, 252 Spe
 		tr_moves IRON_HEAD, EXTREMESPEED, SWORDS_DANCE, CLOSE_COMBAT
-	tr_mon 62, GARDEVOIR @ CHOICE_SCARF
+	tr_mon 62, GARDEVOIR @ CHOICE_SCARF, FEMALE
 		tr_extra TRACE, SPE_UP_ATK_DOWN, SHINY
 		tr_evs 252 SAt, 204 Spe
 		tr_moves PSYCHIC_M, MOONBLAST, THUNDERBOLT, ICE_BEAM
-	tr_mon 63, TYRANITAR @ ASSAULT_VEST
+	tr_mon 63, TYRANITAR @ ASSAULT_VEST, FEMALE
 		tr_extra UNNERVE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 204 SDf
 		tr_moves STONE_EDGE, EARTHQUAKE, KNOCK_OFF, FIRE_BLAST
-	tr_mon 68, SAMUROTT @ QUICK_CLAW
+	tr_mon 68, SAMUROTT @ QUICK_CLAW, FEMALE
 		tr_extra TORRENT, SATK_UP_ATK_DOWN
 		tr_evs 204 HP, 252 SAt
 		tr_moves SCALD, ICE_BEAM, HYDRO_PUMP, AQUA_JET
@@ -3990,22 +3990,22 @@ GialloGroup:
 
 	def_trainer_class GIALLO
 	def_trainer 1, "Giallo"
-	tr_mon 26, JOLTIK
+	tr_mon 26, JOLTIK, MALE
 		tr_extra SWARM
 		tr_evs 96 Spe
 		tr_moves THUNDER_FANG, BUG_BITE, THUNDER_WAVE, VOLT_SWITCH
-	tr_mon 27, EMOLGA
+	tr_mon 27, EMOLGA, MALE
 		tr_extra STATIC
 		tr_evs 96 Atk
 		tr_moves SPARK, ACROBATICS, DOUBLE_TEAM, QUICK_ATTACK
-	tr_mon 30, FLAAFY @ EVIOLITE
+	tr_mon 30, FLAAFFY @ EVIOLITE, MALE
 		tr_extra STATIC
 		tr_evs 96 SAt
 		tr_moves SHOCK_WAVE, CONFUSE_RAY, CURSE, TAKE_DOWN
 	end_trainer
 
 	def_trainer 2, "Giallo"
-	tr_mon 53, EMOLGA @ EJECT_BUTTON
+	tr_mon 53, EMOLGA @ EJECT_BUTTON, MALE
 		tr_extra STATIC
 		tr_evs 240 Spe
 		tr_moves VOLT_SWITCH, LIGHT_SCREEN, ACROBATICS, THUNDER_WAVE
@@ -4013,15 +4013,15 @@ GialloGroup:
 		tr_extra STURDY
 		tr_evs 240 SAt
 		tr_moves THUNDERBOLT, FLASH_CANNON, REFLECT, TRI_ATTACK
-	tr_mon 53, ELECTABUZZ @ EVIOLITE
+	tr_mon 53, ELECTABUZZ @ EVIOLITE, MALE
 		tr_extra STATIC
 		tr_evs 240 HP
 		tr_moves THUNDERPUNCH, LOW_KICK, ICE_PUNCH, BULK_UP
-	tr_mon 54, GALVANTULA @ LOADED_DICE
+	tr_mon 54, GALVANTULA @ LOADED_DICE, MALE
 		tr_extra SWARM 
 		tr_evs 240 Atk
 		tr_moves PIN_MISSILE, THUNDER_FANG, SUBSTITUTE, U_TURN
-	tr_mon 56, AMPHAROS @ BLUNDRPOLICY
+	tr_mon 56, AMPHAROS @ BLUNDRPOLICY, MALE
 		tr_extra STATIC, SATK_UP_ATK_DOWN
 		tr_evs 240 SAt
 		tr_moves THUNDERBOLT, POWER_GEM, DAZZLINGLEAM, ZAP_CANNON
@@ -4033,39 +4033,39 @@ BroniusGroup:
 
 	def_trainer_class BRONIUS
 	def_trainer 1, "Bronius"
-	tr_mon 32, VULPIX
+	tr_mon 32, VULPIX, MALE
 		tr_extra FLASH_FIRE
 		tr_evs 160 Spe
 		tr_moves FLAMETHROWER, EXTRASENSORY, WILL_O_WISP, SUNNY_DAY
-	tr_mon 34, HEATMOR
+	tr_mon 34, HEATMOR, MALE
 		tr_extra GLUTTONY
 		tr_evs 160 HP
 		tr_moves FIRE_SPIN, BUG_BITE, FURY_STRIKES, SUNNY_DAY
-	tr_mon 36, MAGMAR @ EVIOLITE
+	tr_mon 36, MAGMAR @ EVIOLITE, MALE
 		tr_extra FLAME_BODY
 		tr_evs 160 HP
 		tr_moves FLAME_BURST, FLAME_CHARGE, FEINT_ATTACK, SUNNY_DAY
 	end_trainer
 
 	def_trainer 2, "Bronius"
-	tr_mon 54, NINETALES @ HEAT_ROCK
+	tr_mon 54, NINETALES @ HEAT_ROCK, MALE
 		tr_extra DROUGHT
 		tr_evs 240 Spe
 		tr_moves FIRE_BLAST, WILL_O_WISP, SHADOW_BALL, NASTY_PLOT
-	tr_mon 53, HEATMOR @ FIGY_BERRY
+	tr_mon 53, HEATMOR @ FIGY_BERRY, MALE
 		tr_extra GLUTTONY
 		tr_evs 240 HP
 		tr_moves FLAMETHROWER, SOLAR_BEAM, DRAIN_PUNCH, FLAME_CHARGE
-	tr_mon 54, CAMERUPT @ WHITE_HERB
+	tr_mon 54, CAMERUPT @ WHITE_HERB, MALE
 		tr_extra SOLID_ROCK
 		tr_evs 240 HP
 		tr_moves OVERHEAT, EARTH_POWER, ROCK_SLIDE, GROWTH
-	tr_mon 53, DARMANITAN @ SHELL_BELL ; This Darmanitan set has the potential to be kinda busted relative to other pre-E4 teams. Have given it Shell Bell instead of anything that will make it stronger. Happy to tone it down - suggest limiting coverage to only fire moves
+	tr_mon 53, DARMANITAN @ SHELL_BELL, MALE ; This Darmanitan set has the potential to be kinda busted relative to other pre-E4 teams. Have given it Shell Bell instead of anything that will make it stronger. Happy to tone it down - suggest limiting coverage to only fire moves
 		tr_extra SHEER_FORCE 
 		tr_evs 240 Spe
 		tr_moves FLARE_BLITZ, THRASH, ROCK_SLIDE, U_TURN
-	tr_mon 56, MAGMAR @ EVIOLITE
-		tr_extra STATIC, DEF_UP_ATK_DOWN
+	tr_mon 56, MAGMAR @ EVIOLITE, MALE
+		tr_extra FLAME_BODY, DEF_UP_ATK_DOWN
 		tr_evs 240 HP
 		tr_moves FLAMETHROWER, THUNDERPUNCH, FOCUS_BLAST, FLAME_CHARGE
 	end_trainer
@@ -4076,38 +4076,38 @@ RyokuGroup:
 
 	def_trainer_class RYOKU
 	def_trainer 1, "Ryoku"
-	tr_mon 37, ROSELIA
+	tr_mon 37, ROSELIA, MALE
 		tr_extra POISON_POINT
 		tr_evs 196 Spe
 		tr_moves GIGA_DRAIN, VENOSHOCK, TOXIC_SPIKES, HEALINGLIGHT
-	tr_mon 38, TROPIUS
+	tr_mon 38, TROPIUS, MALE
 		tr_extra HARVEST
 		tr_evs 196 HP
 		tr_moves LEAF_BLADE, AERIAL_ACE, ROAR, DRAGON_DANCE
-	tr_mon 40, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 40, AMOONGUSS @ BLACK_SLUDGE, MALE
 		tr_extra EFFECT_SPORE
 		tr_evs 196 HP
 		tr_moves TOXIC, SLUDGE_BOMB, GIGA_DRAIN, HEALINGLIGHT
 	end_trainer
 
 	def_trainer 2, "Ryoku"
-	tr_mon 54, ROSERADE @ FOCUS_SASH
+	tr_mon 54, ROSERADE @ FOCUS_SASH, MALE
 		tr_extra POISON_POINT
 		tr_evs 240 Spe
 		tr_moves LEAF_STORM, TOXIC, LEECH_SEED, TOXIC_SPIKES
-	tr_mon 53, FERROTHORN @ ROCKY_HELMET
+	tr_mon 53, FERROTHORN @ ROCKY_HELMET, MALE
 		tr_extra IRON_BARBS
 		tr_evs 240 HP
 		tr_moves POWER_WHIP, GYRO_BALL, LEECH_SEED, CURSE ; Ferroseed should have leech seed in its level up learnset, it is currently missing.
-	tr_mon 54, SAWSBUCK @ MUSCLE_BAND
+	tr_mon 54, SAWSBUCK @ MUSCLE_BAND, MALE
 		tr_extra CHLOROPHYLL
 		tr_evs 240 Atk
 		tr_moves DOUBLE_EDGE, LEAF_BLADE, MEGAHORN, ZEN_HEADBUTT
-	tr_mon 53, TROPIUS @ SITRUS_BERRY
+	tr_mon 53, TROPIUS @ SITRUS_BERRY, MALE
 		tr_extra HARVEST 
 		tr_evs 240 HP
 		tr_moves GIGA_DRAIN, AIR_SLASH, LEECH_SEED, ROOST
-	tr_mon 56, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 56, AMOONGUSS @ BLACK_SLUDGE, MALE
 		tr_extra EFFECT_SPORE, DEF_UP_ATK_DOWN
 		tr_evs 240 HP
 		tr_moves SPORE, SLUDGE_BOMB, GIGA_DRAIN, HEALINGLIGHT
@@ -4119,11 +4119,11 @@ GormGroup:
 
 	def_trainer_class GORM
 	def_trainer 1, "Gorm"
-	tr_mon 40, PALPITOAD
+	tr_mon 40, PALPITOAD, MALE
 		tr_extra SWIFT_SWIM
 		tr_evs 196 SAt
 		tr_moves SCALD, RAIN_DANCE, MUD_SHOT, ACID
-	tr_mon 42, FRILLISH
+	tr_mon 42, FRILLISH, MALE
 		tr_extra CURSED_BODY
 		tr_evs 196 HP
 		tr_moves SCALD, SHADOW_BALL, HYDRO_PUMP, HEX
@@ -4134,11 +4134,11 @@ GormGroup:
 	end_trainer
 
 	def_trainer 2, "Gorm"
-	tr_mon 53, SEISMITOAD @ DAMP_ROCK
+	tr_mon 53, SEISMITOAD @ DAMP_ROCK, MALE
 		tr_extra SWIFT_SWIM
 		tr_evs 240 HP
 		tr_moves RAIN_DANCE, WATERFALL, BULLDOZE, DRAIN_PUNCH 
-	tr_mon 53, OCTILLERY @ SCOPE_LENS
+	tr_mon 53, OCTILLERY @ SCOPE_LENS, MALE
 		tr_extra SNIPER
 		tr_evs 240 HP
 		tr_moves SCALD, FLAMETHROWER, ICE_BEAM, GUNK_SHOT
@@ -4146,11 +4146,11 @@ GormGroup:
 		tr_extra ANALYTIC
 		tr_evs 240 SAt
 		tr_moves SURF, PSYCHIC_M, THUNDERBOLT, ICE_BEAM
-	tr_mon 54, CRAWDAUNT @ FOCUS_SASH
+	tr_mon 54, CRAWDAUNT @ FOCUS_SASH, MALE
 		tr_extra ADAPTABILITY 
 		tr_evs 240 Atk
 		tr_moves WATERFALL, KNOCK_OFF, AQUA_JET, SWORDS_DANCE
-	tr_mon 56, JELLICENT @ SITRUS_BERRY
+	tr_mon 56, JELLICENT @ SITRUS_BERRY, MALE
 		tr_extra CURSED_BODY, DEF_UP_ATK_DOWN
 		tr_evs 240 HP
 		tr_moves HYDRO_PUMP, HEX, WILL_O_WISP, RECOVER
@@ -4162,11 +4162,11 @@ MysterymanGroup:
 
 	def_trainer_class MYSTERYMAN
 	def_trainer 1, "Vio"
-	tr_mon 42, SNEASEL
+	tr_mon 42, SNEASEL, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 208 Atk
 		tr_moves ICE_PUNCH, FEINT_ATTACK, METAL_CLAW, HONE_CLAWS 
-	tr_mon 42, SEALEO
+	tr_mon 42, SEALEO, MALE
 		tr_extra ICE_BODY
 		tr_evs 208 HP
 		tr_moves HAIL, BODY_SLAM, AURORA_BEAM, BRINE
@@ -4174,11 +4174,11 @@ MysterymanGroup:
 		tr_extra LEVITATE
 		tr_evs 208 Spe
 		tr_moves REFLECT, LIGHT_SCREEN, ICE_BEAM, ANCIENTPOWER
-	tr_mon 45, PILOSWINE
+	tr_mon 45, PILOSWINE, MALE
 		tr_extra THICK_FAT 
 		tr_evs 208 Atk
 		tr_moves ICE_FANG, BULLDOZE, AMNESIA, ICE_SHARD
-	tr_mon 48, GLALIE @ LOADED_DICE
+	tr_mon 48, GLALIE @ LOADED_DICE, MALE
 		tr_extra INNER_FOCUS, ATK_UP_SATK_DOWN
 		tr_evs 208 HP
 		tr_moves ICICLE_SPEAR, BITE, HAIL, ICE_SHARD
@@ -4190,7 +4190,7 @@ ZinzolinGroup:
 
 	def_trainer_class ZINZOLIN
 	def_trainer 1, "Zinzolin"
-	tr_mon 52, PILOSWINE @ EVIOLITE
+	tr_mon 52, PILOSWINE @ EVIOLITE, MALE
 		tr_extra THICK_FAT 
 		tr_evs 240 Atk
 		tr_moves ICE_FANG, EARTHQUAKE, HAIL, ICE_SHARD
@@ -4198,22 +4198,22 @@ ZinzolinGroup:
 		tr_extra LEVITATE
 		tr_evs 240 Spe
 		tr_moves REFLECT, LIGHT_SCREEN, BLIZZARD, HAIL
-	tr_mon 53, GLALIE @ ICY_ROCK
+	tr_mon 53, GLALIE @ ICY_ROCK, MALE
 		tr_extra INNER_FOCUS, ATK_UP_SATK_DOWN
 		tr_evs 240 HP
 		tr_moves ICICLE_CRASH, EXPLOSION, HAIL, ICE_SHARD
-	tr_mon 55, WALREIN @ LEFTOVERS
+	tr_mon 55, WALREIN @ LEFTOVERS, MALE
 		tr_extra ICE_BODY
 		tr_evs 240 HP
 		tr_moves HAIL, BODY_SLAM, AURORA_BEAM, BRINE
-	tr_mon 57, WEAVILE @ FOCUS_SASH
+	tr_mon 57, WEAVILE @ FOCUS_SASH, MALE
 		tr_extra PRESSURE, ATK_UP_SATK_DOWN
 		tr_evs 240 Atk
 		tr_moves ICE_PUNCH, NIGHT_SLASH, AERIAL_ACE, HONE_CLAWS 
 	end_trainer
 
 	def_trainer 2, "Zinzolin"
-	tr_mon 55, GLALIE @ ICY_ROCK
+	tr_mon 55, GLALIE @ ICY_ROCK, MALE
 		tr_extra INNER_FOCUS, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 96 Atk
 		tr_moves ICICLE_CRASH, EXPLOSION, HAIL, ICE_SHARD
@@ -4221,19 +4221,19 @@ ZinzolinGroup:
 		tr_extra LEVITATE
 		tr_evs 96 SAt, 252 Spe
 		tr_moves REFLECT, LIGHT_SCREEN, BLIZZARD, HAIL
-	tr_mon 58, MAMOSWINE @ MUSCLE_BAND
+	tr_mon 58, MAMOSWINE @ MUSCLE_BAND, MALE
 		tr_extra THICK_FAT 
 		tr_evs 96 Atk, 252 Spe
 		tr_moves ICICLE_CRASH, EARTHQUAKE, KNOCK_OFF, ICE_SHARD
-	tr_mon 56, WALREIN @ LEFTOVERS
+	tr_mon 56, WALREIN @ LEFTOVERS, MALE
 		tr_extra ICE_BODY
 		tr_evs 252 HP, 96 Def
 		tr_moves HAIL, BODY_SLAM, BLIZZARD, SURF
-	tr_mon 58, WEAVILE @ FOCUS_SASH
+	tr_mon 58, WEAVILE @ FOCUS_SASH, MALE
 		tr_extra PRESSURE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 96 Spe
 		tr_moves ICE_PUNCH, KNOCK_OFF, BRICK_BREAK, SWORDS_DANCE 
-	tr_mon 60, FROSLASS @ LIFE_ORB
+	tr_mon 60, FROSLASS @ LIFE_ORB, FEMALE
 		tr_extra CURSED_BODY, SATK_UP_ATK_DOWN
 		tr_evs 96 SAt, 252 Spe
 		tr_moves BLIZZARD, SHADOW_BALL, HAIL, THUNDERBOLT 
@@ -4245,27 +4245,27 @@ GenesisGroup:
 
 	def_trainer_class GENESIS
 	def_trainer 1, "Genesis"
-	tr_mon 67, COFAGRIGUS @ LEFTOVERS
+	tr_mon 67, COFAGRIGUS @ LEFTOVERS, MALE
 		tr_extra MUMMY, SDEF_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SDf
 		tr_moves SHADOW_BALL, DISABLE, WILL_O_WISP, PROTECT
-	tr_mon 69, EELEKTROSS @ ASSAULT_VEST
+	tr_mon 69, EELEKTROSS @ ASSAULT_VEST, MALE
 		tr_extra LEVITATE, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 SAt
 		tr_moves THUNDERBOLT, FLAMETHROWER, GIGA_DRAIN, SURF
-	tr_mon 69, TOXICROAK @ KINGS_ROCK
+	tr_mon 69, TOXICROAK @ KINGS_ROCK, MALE
 		tr_extra POISON_TOUCH, SPE_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
 		tr_moves DRAIN_PUNCH, GUNK_SHOT, SUCKER_PUNCH, ICE_PUNCH
-	tr_mon 68, DRAPION @ RED_CARD
+	tr_mon 68, DRAPION @ RED_CARD, MALE
 		tr_extra BATTLE_ARMOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 164 Def
 		tr_moves KNOCK_OFF, POISON_JAB, EARTHQUAKE, SWORDS_DANCE
-	tr_mon 68, SEISMITOAD @ WEAK_POLICY
+	tr_mon 68, SEISMITOAD @ WEAK_POLICY, MALE
 		tr_extra WATER_ABSORB, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 164 Spe
 		tr_moves SURF, EARTH_POWER, ICY_WIND, HYPER_VOICE 
-	tr_mon 70, HYDREIGON @ LIFE_ORB
+	tr_mon 70, HYDREIGON @ LIFE_ORB, MALE
 		tr_extra LEVITATE, SPE_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 		tr_moves DRAGON_PULSE, DARK_PULSE, NASTY_PLOT, FLASH_CANNON 
@@ -4277,23 +4277,23 @@ BiancaGroup:
 
 	def_trainer_class BIANCA
 	def_trainer 1, "Bianca"
-	tr_mon 38, STOUTLAND
+	tr_mon 38, STOUTLAND, FEMALE
 		tr_extra INTIMIDATE
 		tr_evs 196 Spe
 		tr_moves TAKE_DOWN, CRUNCH, PLAY_ROUGH, CHARM
-	tr_mon 41, SERVINE
+	tr_mon 41, SERVINE, FEMALE
 		tr_extra OVERGROW
 		tr_evs 196 HP
 		tr_moves GLARE, GIGA_DRAIN, LEECH_SEED, DRAGONBREATH
-	tr_mon 41, PIGNITE
+	tr_mon 41, PIGNITE, FEMALE
 		tr_extra BLAZE
 		tr_evs 196 HP
 		tr_moves FLAMETHROWER, DOUBLE_KICK, ROLLOUT, DEFENSE_CURL 
-	tr_mon 41, DEWOTT
+	tr_mon 41, DEWOTT, FEMALE
 		tr_extra TORRENT
 		tr_evs 196 HP
 		tr_moves RAZOR_SHELL, AERIAL_ACE, ENCORE, AQUA_JET
-	tr_mon 45, MUSHARNA @ ZOOM_LENS
+	tr_mon 45, MUSHARNA @ ZOOM_LENS, FEMALE
 		tr_extra SYNCHRONIZE
 		tr_evs 196 HP
 		tr_moves HYPNOSIS, DREAM_EATER, TRICK_ROOM, MOONBLAST 
@@ -4343,27 +4343,27 @@ AlderGroup:
 
 	def_trainer_class ALDER
 	def_trainer 1, "Alder"
-	tr_mon 68, ACCELGOR @ FOCUS_SASH
+	tr_mon 68, ACCELGOR @ FOCUS_SASH, MALE
 		tr_extra UNBURDEN, SATK_UP_SDEF_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves BUG_BUZZ, SPIKES, TOXIC, U_TURN
-	tr_mon 70, BOUFFALANT @ ASSAULT_VEST
+	tr_mon 70, BOUFFALANT @ ASSAULT_VEST, MALE
 		tr_extra SOUNDPROOF, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves RETURN, EARTHQUAKE, STONE_EDGE, IRON_HEAD
-	tr_mon 69, CONKELDURR @ PUNCHINGLOVE
+	tr_mon 69, CONKELDURR @ PUNCHINGLOVE, MALE
 		tr_extra IRON_FIST, ATK_UP_SATK_DOWN
 		tr_evs 196 HP, 252 Atk
 		tr_moves DRAIN_PUNCH, HAMMER_ARM, MACH_PUNCH, ICE_PUNCH
-	tr_mon 69, VANILLUXE @ CHOICE_SCARF
+	tr_mon 69, VANILLUXE @ CHOICE_SCARF, MALE
 		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves BLIZZARD, HP_GRASS ; Deliberately left with only 2 moves, and the second one is only there for AI to be able to switch
-	tr_mon 70, ESCAVALIER @ WEAK_POLICY
+	tr_mon 70, ESCAVALIER @ WEAK_POLICY, MALE
 		tr_extra OVERCOAT, ATK_UP_SPE_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves IRON_HEAD, MEGAHORN, SWORDS_DANCE, SUBSTITUTE
-	tr_mon 73, VOLCARONA @ LEFTOVERS
+	tr_mon 73, VOLCARONA @ LEFTOVERS, MALE
 		tr_extra FLAME_BODY, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves BUG_BUZZ, FLAMETHROWER, GIGA_DRAIN, QUIVER_DANCE 
@@ -4375,27 +4375,27 @@ IrisGroup:
 
 	def_trainer_class IRIS
 	def_trainer 1, "Iris"
-	tr_mon 68, HYDREIGON @ BLUNDRPOLICY
+	tr_mon 68, HYDREIGON @ BLUNDRPOLICY, FEMALE
 		tr_extra LEVITATE, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 196 Spe
 		tr_moves FIRE_BLAST, FOCUS_BLAST, DRAGON_PULSE, DARK_PULSE
-	tr_mon 70, ARCHEOPS @ CHOICE_BAND
+	tr_mon 70, ARCHEOPS @ CHOICE_BAND, FEMALE
 		tr_extra DEFEATIST, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves ROCK_SLIDE, EARTHQUAKE, KNOCK_OFF, U_TURN
-	tr_mon 69, AGGRON @ ASSAULT_VEST
+	tr_mon 69, AGGRON @ ASSAULT_VEST, FEMALE
 		tr_extra ROCK_HEAD, ATK_UP_SATK_DOWN
 		tr_evs 196 HP, 252 SDf
 		tr_moves HEAD_SMASH, IRON_TAIL, THUNDERPUNCH, ICE_PUNCH
-	tr_mon 70, SALAMENCE @ POWER_HERB
+	tr_mon 70, SALAMENCE @ POWER_HERB, FEMALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves OUTRAGE, FLY, IRON_HEAD, EARTHQUAKE
-	tr_mon 69, LAPRAS @ LEFTOVERS
+	tr_mon 69, LAPRAS @ LEFTOVERS, FEMALE
 		tr_extra SHELL_ARMOR, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves BLIZZARD, HYDRO_PUMP, PERISH_SONG, ICE_SHARD
-	tr_mon 73, HAXORUS @ FOCUS_SASH
+	tr_mon 73, HAXORUS @ FOCUS_SASH, FEMALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves DRAGON_CLAW, EARTHQUAKE, IRON_HEAD, DRAGON_DANCE 
@@ -4407,12 +4407,12 @@ CaitlinGroup:
 
 	def_trainer_class CAITLIN
 	def_trainer 1, "Caitlin"
-	tr_mon 68, MUSHARNA @ LEFTOVERS
+	tr_mon 68, MUSHARNA @ LEFTOVERS, FEMALE
 		tr_extra SYNCHRONIZE, SATK_UP_ATK_DOWN
 		tr_dvs 0 Spe
 		tr_evs 252 HP, 196 SAt
 		tr_moves PSYCHIC_M, MOONBLAST, HEALINGLIGHT, TRICK_ROOM
-	tr_mon 69, GALLADE @ WHITE_HERB
+	tr_mon 69, GALLADE @ WHITE_HERB, MALE
 		tr_extra JUSTIFIED, ATK_UP_SPE_DOWN
 		tr_dvs 0 Spe
 		tr_evs 196 HP, 252 Atk
@@ -4422,16 +4422,16 @@ CaitlinGroup:
 		tr_dvs 0 Spe
 		tr_evs 252 HP, 196 Atk
 		tr_moves IRON_HEAD, ZEN_HEADBUTT, KNOCK_OFF, BULLET_PUNCH
-	tr_mon 70, GOTHITELLE @ CHOICE_SPECS
+	tr_mon 70, GOTHITELLE @ CHOICE_SPECS, FEMALE
 		tr_extra COMPETITIVE, SATK_UP_SPE_DOWN
 		tr_dvs 0 Spe
 		tr_evs 196 HP, 252 SAt
 		tr_moves PSYCHIC_M, DAZZLINGLEAM, TRICK, TRICK_ROOM
-	tr_mon 70, SIGILYPH @ FLAME_ORB
+	tr_mon 70, SIGILYPH @ FLAME_ORB, FEMALE
 		tr_extra MAGIC_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 196 HP, 252 Spe
 		tr_moves AIR_SLASH, FUTURE_SIGHT, ROOST, TRICK
-	tr_mon 73, REUNICLUS @ LIFE_ORB
+	tr_mon 73, REUNICLUS @ LIFE_ORB, FEMALE
 		tr_extra MAGIC_GUARD, SPE_UP_ATK_DOWN
 		tr_dvs 0 Spe
 		tr_evs 252 HP, 196 Def
@@ -4444,27 +4444,27 @@ CynthiaGroup:
 
 	def_trainer_class CYNTHIA
 	def_trainer 1, "Cynthia"
-	tr_mon 68, SPIRITOMB @ ROCKY_HELMET
+	tr_mon 68, SPIRITOMB @ ROCKY_HELMET, FEMALE
 		tr_extra INFILTRATOR, SDEF_UP_ATK_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves SHADOW_BALL, PAIN_SPLIT, WILL_O_WISP, SUCKER_PUNCH
-	tr_mon 69, ROSERADE @ WHITE_HERB
+	tr_mon 69, ROSERADE @ WHITE_HERB, FEMALE
 		tr_extra TECHNICIAN, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves LEAF_STORM, SLUDGE_BOMB, HP_FIRE, DAZZLINGLEAM
-	tr_mon 69, GLACEON @ CHOICE_SCARF
+	tr_mon 69, GLACEON @ CHOICE_SCARF, FEMALE
 		tr_extra ICE_BODY, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves ICE_BEAM, HYPER_VOICE, SHADOW_BALL, ICY_WIND
-	tr_mon 70, TOGEKISS @ LEFTOVERS
+	tr_mon 70, TOGEKISS @ LEFTOVERS, FEMALE
 		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 196 DEF
 		tr_moves AIR_SLASH, MOONBLAST, THUNDER_WAVE, ROOST
-	tr_mon 70, LUCARIO @ LIFE_ORB
+	tr_mon 70, LUCARIO @ LIFE_ORB, FEMALE
 		tr_extra STEADFAST, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves FLASH_CANNON, AURA_SPHERE, PSYCHIC_M, NASTY_PLOT
-	tr_mon 73, GARCHOMP @ WEAK_POLICY
+	tr_mon 73, GARCHOMP @ WEAK_POLICY, FEMALE
 		tr_extra ROUGH_SKIN, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves DRAGON_CLAW, EARTHQUAKE, IRON_HEAD, STONE_EDGE
@@ -4476,27 +4476,27 @@ RoodGroup:
 
 	def_trainer_class ROOD
 	def_trainer 1, "Rood"
-	tr_mon 68, STOUTLAND @ ASSAULT_VEST
+	tr_mon 68, STOUTLAND @ ASSAULT_VEST, MALE
 		tr_extra INTIMIDATE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves RETURN, CRUNCH, PLAY_ROUGH, IRON_HEAD
-	tr_mon 70, UMBREON @ LEFTOVERS
+	tr_mon 70, UMBREON @ LEFTOVERS, MALE
 		tr_extra SYNCHRONIZE, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves KNOCK_OFF, SUCKER_PUNCH, TOXIC, HEALINGLIGHT
-	tr_mon 69, SWOOBAT @ LIFE_ORB
+	tr_mon 69, SWOOBAT @ LIFE_ORB, MALE
 		tr_extra SIMPLE, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves PSYCHIC_M, AIR_SLASH, SHADOW_BALL, CALM_MIND
-	tr_mon 70, SNORLAX @ CHESTO_BERRY
+	tr_mon 70, SNORLAX @ CHESTO_BERRY, MALE
 		tr_extra THICK_FAT, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 DEF
 		tr_moves FACADE, CRUNCH, REST, SLEEP_TALK
-	tr_mon 69, LEAVANNY @ FOCUS_SASH
+	tr_mon 69, LEAVANNY @ FOCUS_SASH, MALE
 		tr_extra SWARM, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves LEAF_BLADE, X_SCISSOR, BATON_PASS, SWORDS_DANCE
-	tr_mon 73, CROBAT @ BLACK_SLUDGE
+	tr_mon 73, CROBAT @ BLACK_SLUDGE, MALE
 		tr_extra INNER_FOCUS, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 196 Def
 		tr_moves SLUDGE_BOMB, FLY, GIGA_DRAIN, TOXIC
@@ -4508,23 +4508,23 @@ NGroup:
 
 	def_trainer_class N_T
 	def_trainer 1, "N"
-	tr_mon 69, VANILLUXE @ ICY_ROCK
+	tr_mon 69, VANILLUXE @ ICY_ROCK, MALE
 		tr_extra SNOW_WARNING, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 196 SAt
 		tr_moves BLIZZARD, ICY_WIND, LIGHT_SCREEN, REFLECT
-	tr_mon 69, SCRAFTY @ LEFTOVERS
+	tr_mon 69, SCRAFTY @ LEFTOVERS, MALE
 		tr_extra MOXIE, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 196 SDf
 		tr_moves DRAIN_PUNCH, KNOCK_OFF, IRON_HEAD, BULK_UP
-	tr_mon 70, ARCHEOPS @ POWER_HERB
+	tr_mon 70, ARCHEOPS @ POWER_HERB, MALE
 		tr_extra DEFEATIST, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves U_TURN, FLY, ROCK_SLIDE, ACROBATICS
-	tr_mon 73, ZOROARK @ FOCUS_SASH
+	tr_mon 73, ZOROARK @ FOCUS_SASH, MALE
 		tr_extra ILLUSION, SPE_UP_ATK_DOWN
 		tr_evs 196 SAt, 252 Spe
 		tr_moves DARK_PULSE, FLAMETHROWER, SLUDGE_BOMB, NASTY_PLOT
-	tr_mon 70, CARRACOSTA @ WHITE_HERB
+	tr_mon 70, CARRACOSTA @ WHITE_HERB, MALE
 		tr_extra STURDY, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves WATERFALL, ROCK_SLIDE, EARTHQUAKE, SHELL_SMASH
@@ -4540,81 +4540,81 @@ HughGroup:
 
 	def_trainer_class HUGH
 	def_trainer HUGH_SNIVY, "Hugh"
-	tr_mon 68, UNFEZANT @ SCOPE_LENS
+	tr_mon 68, UNFEZANT @ SCOPE_LENS, MALE
 		tr_extra SUPER_LUCK, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves BRAVE_BIRD, DOUBLE_EDGE, U_TURN, ROOST
-	tr_mon 70, BOUFFALANT @ LIFE_ORB
+	tr_mon 70, BOUFFALANT @ LIFE_ORB, MALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 196 HP, 252 Atk
 		tr_moves DOUBLE_EDGE, MEGAHORN, EARTHQUAKE, OUTRAGE
-	tr_mon 69, FLYGON @ CHOICE_SCARF
+	tr_mon 69, FLYGON @ CHOICE_SCARF, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves DRAGON_RUSH, EARTHQUAKE, STONE_EDGE, U_TURN
-	tr_mon 70, EELEKTROSS @ CHOICE_BAND
+	tr_mon 70, EELEKTROSS @ CHOICE_BAND, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves WILD_CHARGE, KNOCK_OFF, AQUA_TAIL, OUTRAGE
-	tr_mon 69, LIEPARD @ MIRROR_HERB
+	tr_mon 69, LIEPARD @ MIRROR_HERB, MALE
 		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves KNOCK_OFF, SWAGGER, PLAY_ROUGH, GUNK_SHOT
-	tr_mon 73, SERPERIOR @ MIRACLE_SEED
+	tr_mon 73, SERPERIOR @ MIRACLE_SEED, MALE
 		tr_extra OVERGROW, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves LEAF_BLADE, AQUA_TAIL, OUTRAGE, SWORDS_DANCE
 	end_trainer
 	
 	def_trainer HUGH_TEPIG, "Hugh"
-	tr_mon 68, UNFEZANT @ SCOPE_LENS
+	tr_mon 68, UNFEZANT @ SCOPE_LENS, MALE
 		tr_extra SUPER_LUCK, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves BRAVE_BIRD, DOUBLE_EDGE, U_TURN, ROOST
-	tr_mon 70, BOUFFALANT @ LIFE_ORB
+	tr_mon 70, BOUFFALANT @ LIFE_ORB, MALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 196 HP, 252 Atk
 		tr_moves DOUBLE_EDGE, MEGAHORN, EARTHQUAKE, OUTRAGE
-	tr_mon 69, FLYGON @ CHOICE_SCARF
+	tr_mon 69, FLYGON @ CHOICE_SCARF, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves DRAGON_RUSH, EARTHQUAKE, STONE_EDGE, U_TURN
-	tr_mon 70, EELEKTROSS @ CHOICE_BAND
+	tr_mon 70, EELEKTROSS @ CHOICE_BAND, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves WILD_CHARGE, KNOCK_OFF, AQUA_TAIL, OUTRAGE
-	tr_mon 69, LIEPARD @ MIRROR_HERB
+	tr_mon 69, LIEPARD @ MIRROR_HERB, MALE
 		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves KNOCK_OFF, SWAGGER, PLAY_ROUGH, GUNK_SHOT
-	tr_mon 73, EMBOAR @ CHARCOAL
+	tr_mon 73, EMBOAR @ CHARCOAL, MALE
 		tr_extra BLAZE, SPE_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves FLARE_BLITZ, HAMMER_ARM, WILD_CHARGE, BULK_UP
 	end_trainer
 	
 	def_trainer HUGH_OSHAWOTT, "Hugh"
-	tr_mon 68, UNFEZANT @ SCOPE_LENS
+	tr_mon 68, UNFEZANT @ SCOPE_LENS, MALE
 		tr_extra SUPER_LUCK, SPE_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves BRAVE_BIRD, DOUBLE_EDGE, U_TURN, ROOST
-	tr_mon 70, BOUFFALANT @ LIFE_ORB
+	tr_mon 70, BOUFFALANT @ LIFE_ORB, MALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 196 HP, 252 Atk
 		tr_moves DOUBLE_EDGE, MEGAHORN, EARTHQUAKE, OUTRAGE
-	tr_mon 69, FLYGON @ CHOICE_SCARF
+	tr_mon 69, FLYGON @ CHOICE_SCARF, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves DRAGON_RUSH, EARTHQUAKE, STONE_EDGE, U_TURN
-	tr_mon 70, EELEKTROSS @ CHOICE_BAND
+	tr_mon 70, EELEKTROSS @ CHOICE_BAND, MALE
 		tr_extra LEVITATE, ATK_UP_SATK_DOWN
 		tr_evs 196 Atk, 252 Spe
 		tr_moves WILD_CHARGE, KNOCK_OFF, AQUA_TAIL, OUTRAGE
-	tr_mon 69, LIEPARD @ MIRROR_HERB
+	tr_mon 69, LIEPARD @ MIRROR_HERB, MALE
 		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 196 Spe
 		tr_moves KNOCK_OFF, SWAGGER, PLAY_ROUGH, GUNK_SHOT
-	tr_mon 73, SAMUROTT @ MYSTIC_WATER
+	tr_mon 73, SAMUROTT @ MYSTIC_WATER, MALE
 		tr_extra TORRENT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 196 Atk
 		tr_moves WATERFALL, MEGAHORN, AQUA_JET, SWORDS_DANCE
@@ -4626,81 +4626,81 @@ NateGroup:
 
 	def_trainer_class NATE
 	def_trainer NATE_SNIVY, "Nate"
-	tr_mon 74, FROSLASS @ FOCUS_SASH
+	tr_mon 74, FROSLASS @ FOCUS_SASH, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
-	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE, MALE
 		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 DEF
 		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
-	tr_mon 75, KINGDRA @ SCOPE_LENS
+	tr_mon 75, KINGDRA @ SCOPE_LENS, MALE
 		tr_extra SNIPER, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
-	tr_mon 75, DARMANITAN @ LIFE_ORB
+	tr_mon 75, DARMANITAN @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 224 Atk, 252 Spe
 		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
-	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF, MALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 224 Spe
 		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
-	tr_mon 76, SERPERIOR @ ASSAULT_VEST
+	tr_mon 76, SERPERIOR @ ASSAULT_VEST, MALE
 		tr_extra CONTRARY, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 224 Spe
 		tr_moves LEAF_STORM, GIGA_DRAIN, DRAGON_PULSE, HP_ROCK
 	end_trainer
 	
 	def_trainer NATE_TEPIG, "Nate"
-	tr_mon 74, FROSLASS @ FOCUS_SASH
+	tr_mon 74, FROSLASS @ FOCUS_SASH, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
-	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE, MALE
 		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 DEF
 		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
-	tr_mon 75, KINGDRA @ SCOPE_LENS
+	tr_mon 75, KINGDRA @ SCOPE_LENS, MALE
 		tr_extra SNIPER, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
-	tr_mon 75, DARMANITAN @ LIFE_ORB
+	tr_mon 75, DARMANITAN @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 224 Atk, 252 Spe
 		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
-	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF, MALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 224 Spe
 		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
-	tr_mon 76, EMBOAR @ ASSAULT_VEST
+	tr_mon 76, EMBOAR @ ASSAULT_VEST, MALE
 		tr_extra BLAZE, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 224 Atk
 		tr_moves OVERHEAT, HAMMER_ARM, EARTHQUAKE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer NATE_OSHAWOTT, "Nate"
-	tr_mon 74, FROSLASS @ FOCUS_SASH
+	tr_mon 74, FROSLASS @ FOCUS_SASH, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
-	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE, MALE
 		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 DEF
 		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
-	tr_mon 75, KINGDRA @ SCOPE_LENS
+	tr_mon 75, KINGDRA @ SCOPE_LENS, MALE
 		tr_extra SNIPER, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
-	tr_mon 75, DARMANITAN @ LIFE_ORB
+	tr_mon 75, DARMANITAN @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 224 Atk, 252 Spe
 		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
-	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF, MALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 224 Spe
 		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
-	tr_mon 76, SAMUROTT @ ASSAULT_VEST
+	tr_mon 76, SAMUROTT @ ASSAULT_VEST, MALE
 		tr_extra SHELL_ARMOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 Atk
 		tr_moves WATERFALL, SACRED_SWORD, MEGAHORN, AQUA_JET
@@ -4712,81 +4712,81 @@ RosaGroup:
 
 	def_trainer_class ROSA
 	def_trainer ROSA_SNIVY, "Rosa"
-	tr_mon 74, FROSLASS @ FOCUS_SASH
+	tr_mon 74, FROSLASS @ FOCUS_SASH, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
-	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE, FEMALE
 		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 DEF
 		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
-	tr_mon 75, KINGDRA @ SCOPE_LENS
+	tr_mon 75, KINGDRA @ SCOPE_LENS, FEMALE
 		tr_extra SNIPER, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
-	tr_mon 75, DARMANITAN @ LIFE_ORB
+	tr_mon 75, DARMANITAN @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 224 Atk, 252 Spe
 		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
-	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 224 Spe
 		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
-	tr_mon 76, SERPERIOR @ ASSAULT_VEST
+	tr_mon 76, SERPERIOR @ ASSAULT_VEST, FEMALE
 		tr_extra CONTRARY, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 224 Spe
 		tr_moves LEAF_STORM, GIGA_DRAIN, DRAGON_PULSE, HP_ROCK
 	end_trainer
 	
 	def_trainer ROSA_TEPIG, "Rosa"
-	tr_mon 74, FROSLASS @ FOCUS_SASH
+	tr_mon 74, FROSLASS @ FOCUS_SASH, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
-	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE, FEMALE
 		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 DEF
 		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
-	tr_mon 75, KINGDRA @ SCOPE_LENS
+	tr_mon 75, KINGDRA @ SCOPE_LENS, FEMALE
 		tr_extra SNIPER, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
-	tr_mon 75, DARMANITAN @ LIFE_ORB
+	tr_mon 75, DARMANITAN @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 224 Atk, 252 Spe
 		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
-	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 224 Spe
 		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
-	tr_mon 76, EMBOAR @ ASSAULT_VEST
+	tr_mon 76, EMBOAR @ ASSAULT_VEST, FEMALE
 		tr_extra BLAZE, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 224 Atk
 		tr_moves OVERHEAT, HAMMER_ARM, EARTHQUAKE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer ROSA_OSHAWOTT, "Rosa"
-	tr_mon 74, FROSLASS @ FOCUS_SASH
+	tr_mon 74, FROSLASS @ FOCUS_SASH, FEMALE
 		tr_extra CURSED_BODY, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves ICY_WIND, HEX, WILL_O_WISP, DESTINY_BOND
-	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE
+	tr_mon 75, AMOONGUSS @ BLACK_SLUDGE, FEMALE
 		tr_extra REGENERATOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 DEF
 		tr_moves SLUDGE_BOMB, PROTECT, GIGA_DRAIN, SPORE
-	tr_mon 75, KINGDRA @ SCOPE_LENS
+	tr_mon 75, KINGDRA @ SCOPE_LENS, FEMALE
 		tr_extra SNIPER, SPE_UP_ATK_DOWN
 		tr_evs 224 SAt, 252 Spe
 		tr_moves HYDRO_PUMP, DRAGON_PULSE, FLASH_CANNON, FOCUS_ENERGY
-	tr_mon 75, DARMANITAN @ LIFE_ORB
+	tr_mon 75, DARMANITAN @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 224 Atk, 252 Spe
 		tr_moves FLARE_BLITZ, ROCK_SLIDE, EARTHQUAKE, FLAME_CHARGE
-	tr_mon 72, KROOKODILE @ CHOICE_SCARF
+	tr_mon 72, KROOKODILE @ CHOICE_SCARF, FEMALE
 		tr_extra MOXIE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 224 Spe
 		tr_moves EARTHQUAKE, CRUNCH, ROCK_SLIDE, GUNK_SHOT
-	tr_mon 76, SAMUROTT @ ASSAULT_VEST
+	tr_mon 76, SAMUROTT @ ASSAULT_VEST, FEMALE
 		tr_extra SHELL_ARMOR, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 224 Atk
 		tr_moves WATERFALL, SACRED_SWORD, MEGAHORN, AQUA_JET
@@ -4798,81 +4798,81 @@ HilbertGroup:
 
 	def_trainer_class HILBERT
 	def_trainer HILBERT_SNIVY, "Hilbert"
-	tr_mon 75, GIGALITH @ SMOOTH_ROCK
-		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK, MALE
+		tr_extra SAND_STREAM, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
-	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF, MALE
 		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
-	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+	tr_mon 75, BISHARP @ EVIOLITE, MALE ; can make this a Kingambit instead
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
-	tr_mon 74, HAXORUS @ CHOICE_BAND
+	tr_mon 74, HAXORUS @ CHOICE_BAND, MALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 76, CHANDELURE @ WHITE_HERB
+	tr_mon 76, CHANDELURE @ WHITE_HERB, MALE
 		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
-	tr_mon 78, SERPERIOR @ SAFE_GOGGLES
+	tr_mon 78, SERPERIOR @ SAFE_GOGGLES, MALE
 		tr_extra CONTRARY, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SAt, 252 Spe
 		tr_moves LEAF_STORM, LEECH_SEED, DRAGON_PULSE, PROTECT
 	end_trainer
 	
 	def_trainer HILBERT_TEPIG, "Hilbert"
-	tr_mon 75, GIGALITH @ SMOOTH_ROCK
-		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK, MALE
+		tr_extra SAND_STREAM, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
-	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF, MALE
 		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
-	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+	tr_mon 75, BISHARP @ EVIOLITE , MALE; can make this a Kingambit instead
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
-	tr_mon 74, HAXORUS @ CHOICE_BAND
+	tr_mon 74, HAXORUS @ CHOICE_BAND, MALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 76, CHANDELURE @ WHITE_HERB
+	tr_mon 76, CHANDELURE @ WHITE_HERB, MALE
 		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
-	tr_mon 78, EMBOAR @ SAFE_GOGGLES
+	tr_mon 78, EMBOAR @ SAFE_GOGGLES, MALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Atk, 4 Def
 		tr_moves FLARE_BLITZ, HAMMER_ARM, WILD_CHARGE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer HILBERT_OSHAWOTT, "Hilbert"
-	tr_mon 75, GIGALITH @ SMOOTH_ROCK
-		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK, MALE
+		tr_extra SAND_STREAM, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
-	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF, MALE
 		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
-	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+	tr_mon 75, BISHARP @ EVIOLITE , MALE; can make this a Kingambit instead
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
-	tr_mon 74, HAXORUS @ CHOICE_BAND
+	tr_mon 74, HAXORUS @ CHOICE_BAND, MALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 76, CHANDELURE @ WHITE_HERB
+	tr_mon 76, CHANDELURE @ WHITE_HERB, MALE
 		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
-	tr_mon 78, SAMUROTT @ SAFE_GOGGLES
+	tr_mon 78, SAMUROTT @ SAFE_GOGGLES, MALE
 		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Atk, 4 Def
 		tr_moves SCALD, ICE_BEAM, HYDRO_PUMP, HP_ELECTRIC
@@ -4884,81 +4884,81 @@ HildaGroup:
 
 	def_trainer_class HILDA
 	def_trainer HILDA_SNIVY, "Hilda"
-	tr_mon 75, GIGALITH @ SMOOTH_ROCK
-		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK, FEMALE
+		tr_extra SAND_STREAM, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
-	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF, FEMALE
 		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
-	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+	tr_mon 75, BISHARP @ EVIOLITE, FEMALE ; can make this a Kingambit instead
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
-	tr_mon 74, HAXORUS @ CHOICE_BAND
+	tr_mon 74, HAXORUS @ CHOICE_BAND, FEMALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 76, CHANDELURE @ WHITE_HERB
+	tr_mon 76, CHANDELURE @ WHITE_HERB, FEMALE
 		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
-	tr_mon 78, SERPERIOR @ SAFE_GOGGLES
+	tr_mon 78, SERPERIOR @ SAFE_GOGGLES, FEMALE
 		tr_extra CONTRARY, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SAt, 252 Spe
 		tr_moves LEAF_STORM, LEECH_SEED, DRAGON_PULSE, PROTECT
 	end_trainer
 	
 	def_trainer HILDA_TEPIG, "Hilda"
-	tr_mon 75, GIGALITH @ SMOOTH_ROCK
-		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK, FEMALE
+		tr_extra SAND_STREAM, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
-	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF, FEMALE
 		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
-	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+	tr_mon 75, BISHARP @ EVIOLITE, FEMALE ; can make this a Kingambit instead
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
-	tr_mon 74, HAXORUS @ CHOICE_BAND
+	tr_mon 74, HAXORUS @ CHOICE_BAND, FEMALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 76, CHANDELURE @ WHITE_HERB
+	tr_mon 76, CHANDELURE @ WHITE_HERB, FEMALE
 		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
-	tr_mon 78, EMBOAR @ SAFE_GOGGLES
+	tr_mon 78, EMBOAR @ SAFE_GOGGLES, FEMALE
 		tr_extra RECKLESS, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Atk, 4 Def
 		tr_moves FLARE_BLITZ, HAMMER_ARM, WILD_CHARGE, SUCKER_PUNCH
 	end_trainer
 	
 	def_trainer HILDA_OSHAWOTT, "Hilda"
-	tr_mon 75, GIGALITH @ SMOOTH_ROCK
-		tr_extra SANDSTREAM, SDEF_UP_SATK_DOWN
+	tr_mon 75, GIGALITH @ SMOOTH_ROCK, FEMALE
+		tr_extra SAND_STREAM, SDEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves SPIKES, STONE_EDGE, EXPLOSION, SANDSTORM
-	tr_mon 76, EXCADRILL @ CHOICE_SCARF
+	tr_mon 76, EXCADRILL @ CHOICE_SCARF, FEMALE
 		tr_extra SAND_FORCE, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves EARTHQUAKE, IRON_HEAD, ROCK_SLIDE ; deliberately left with only 3 moves
-	tr_mon 75, BISHARP @ EVIOLITE ; can make this a Kingambit instead
+	tr_mon 75, BISHARP @ EVIOLITE, FEMALE ; can make this a Kingambit instead
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
 		tr_moves IRON_HEAD, SUCKER_PUNCH, KNOCK_OFF, SWORDS_DANCE
-	tr_mon 74, HAXORUS @ CHOICE_BAND
+	tr_mon 74, HAXORUS @ CHOICE_BAND, FEMALE
 		tr_extra MOLD_BREAKER, SPE_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OUTRAGE, EARTHQUAKE, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 76, CHANDELURE @ WHITE_HERB
+	tr_mon 76, CHANDELURE @ WHITE_HERB, FEMALE
 		tr_extra FLASH_FIRE, SATK_UP_ATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves OVERHEAT, SHADOW_BALL, ENERGY_BALL, DESTINY_BOND
-	tr_mon 78, SAMUROTT @ SAFE_GOGGLES
+	tr_mon 78, SAMUROTT @ SAFE_GOGGLES, FEMALE
 		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Atk, 4 Def
 		tr_moves SCALD, ICE_BEAM, HYDRO_PUMP, HP_ELECTRIC

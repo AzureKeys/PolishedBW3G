@@ -140,6 +140,7 @@
 	const SAND_RUSH
 	const WONDER_SKIN
 	const ANALYTIC
+	const ILLUSION
 	const IMPOSTER
 	const INFILTRATOR
 	const MUMMY

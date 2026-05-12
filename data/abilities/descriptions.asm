@@ -137,6 +137,7 @@ AbilityDescriptions:
 	dw SandRushDescription
 	dw WonderSkinDescription
 	dw AnalyticDescription
+	dw IllusionDescription
 	dw ImposterDescription
 	dw InfiltratorDescription
 	dw MummyDescription
@@ -853,6 +854,11 @@ WonderSkinDescription:
 AnalyticDescription:
 	text "Boosts move power"
 	next "when moving last."
+	done
+
+IllusionDescription:
+	text "Appears disguised"
+	next "as last #mon."
 	done
 
 ImposterDescription:

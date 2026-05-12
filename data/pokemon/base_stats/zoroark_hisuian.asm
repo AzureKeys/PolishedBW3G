@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM   ; held items
 	dn GENDER_F12_5, HATCH_MEDIUM_SLOW   ; gender ratio, step cycles to hatch
 
-	abilities_for ZOROARK_HISUIAN, STENCH, WEAK_ARMOR, AFTERMATH
-	;abilities_for ZOROARK_HISUIAN, ILLUSION, ILLUSION, ILLUSION
+	abilities_for ZOROARK_HISUIAN, ILLUSION, ILLUSION, ILLUSION
 	db GROWTH_MEDIUM_SLOW   ; growth rate
 	dn EGG_GROUND, EGG_GROUND   ; egg groups
 

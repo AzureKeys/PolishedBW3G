@@ -137,6 +137,7 @@ AbilityNames:
 	dw SandRush
 	dw WonderSkin
 	dw Analytic
+	dw Illusion
 	dw Imposter
 	dw Infiltrator
 	dw Mummy
@@ -319,6 +320,7 @@ BigPecks:        rawchar "Big Pecks@"
 SandRush:        rawchar "Sand Rush@"
 WonderSkin:      rawchar "Wonder Skin@"
 Analytic:        rawchar "Analytic@"
+Illusion:        rawchar "Illusion@"
 Imposter:        rawchar "Imposter@"
 Infiltrator:     rawchar "Infiltrator@"
 Mummy:           rawchar "Mummy@"

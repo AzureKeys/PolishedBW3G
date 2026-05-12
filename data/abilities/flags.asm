@@ -153,6 +153,7 @@ AbilityFlags:
 	abilflag SAND_RUSH
 	abilflag WONDER_SKIN, IGNORABLE
 	abilflag ANALYTIC
+	abilflag ILLUSION, NO_COPY, NO_TRACE, NO_SWAP
 	abilflag IMPOSTER, NO_COPY, NO_TRACE ; can swap, but won't trigger
 	abilflag INFILTRATOR
 	abilflag MUMMY
