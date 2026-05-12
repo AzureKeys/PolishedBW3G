@@ -2259,8 +2259,8 @@ SuppressUserAbilities:
 	jr z, .neutralizing_gas
 	cp UNNERVE
 	jr z, .unnerve
-	cp FORECAST
-	jr z, .forecast
+	;cp FORECAST
+	;jr z, .forecast
 	cp ZEN_MODE
 	ret nz
 	farjp RevertZenMode

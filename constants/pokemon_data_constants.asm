@@ -353,7 +353,7 @@ DEF NUM_EVOLVE_METHODS EQU const_value
 
 ; wild data
 
-DEF NUM_GRASSMON EQU 7 ; data/wild/*_grass.asm table size
+DEF NUM_GRASSMON EQU 10 ; data/wild/*_grass.asm table size
 DEF NUM_WATERMON EQU 3 ; data/wild/*_water.asm table size
 
 DEF GRASS_WILDDATA_LENGTH EQU 2 + 1 + NUM_GRASSMON * 3 * 3
