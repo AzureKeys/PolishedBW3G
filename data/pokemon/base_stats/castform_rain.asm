@@ -7,8 +7,7 @@
 	db NO_ITEM, NO_ITEM  ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW  ; gender ratio, step cycles to hatch
 
-	 ;abilities_for CASTFORM_RAIN, FORECAST, FORECAST, FORECAST
-	abilities_for CASTFORM_RAIN, PRESSURE, PRESSURE, PRESSURE
+	abilities_for CASTFORM_RAIN, FORECAST, FORECAST, FORECAST
 	db GROWTH_MEDIUM_FAST  ; growth rate
 	dn EGG_FAIRY, EGG_INDETERMINATE  ; egg groups
 

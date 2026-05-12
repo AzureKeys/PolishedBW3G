@@ -71,6 +71,7 @@ AbilityFlags:
 	abilflag TRUANT
 	abilflag HUSTLE
 	abilflag CUTE_CHARM
+	abilflag FORECAST, NO_COPY, NO_TRACE
 	abilflag STICKY_HOLD, IGNORABLE
 	abilflag SHED_SKIN
 	abilflag GUTS

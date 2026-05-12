@@ -55,6 +55,7 @@ AbilityDescriptions:
 	dw TruantDescription
 	dw HustleDescription
 	dw CuteCharmDescription
+	dw ForecastDescription
 	dw StickyHoldDescription
 	dw ShedSkinDescription
 	dw GutsDescription
@@ -472,6 +473,11 @@ HustleDescription:
 CuteCharmDescription:
 	text "Contact may cause"
 	next "infatuation."
+	done
+
+ForecastDescription:
+	text "#mon transforms"
+	next "with the weather."
 	done
 
 StickyHoldDescription:

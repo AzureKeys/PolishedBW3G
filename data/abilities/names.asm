@@ -55,6 +55,7 @@ AbilityNames:
 	dw Truant
 	dw Hustle
 	dw CuteCharm
+	dw Forecast
 	dw StickyHold
 	dw ShedSkin
 	dw Guts
@@ -238,6 +239,7 @@ Pickup:          rawchar "Pickup@"
 Truant:          rawchar "Truant@"
 Hustle:          rawchar "Hustle@"
 CuteCharm:       rawchar "Cute Charm@"
+Forecast:        rawchar "Forecast@"
 StickyHold:      rawchar "Sticky Hold@"
 ShedSkin:        rawchar "Shed Skin@"
 Guts:            rawchar "Guts@"

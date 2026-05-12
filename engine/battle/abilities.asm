@@ -63,6 +63,7 @@ BattleEntryAbilities:
 	dbw TERAVOLT, TeravoltAbility
 	dbw NEUTRALIZING_GAS, NeutralizingGasAbility
 	dbw SCREEN_CLEANER, ScreenCleanerAbility
+	dbw FORECAST, ForecastAbility
 	; fallthrough
 StatusHealAbilities:
 ; Status immunity abilities that autoproc if the user gets the status or the ability
@@ -321,6 +322,99 @@ DownloadAbility:
 	farcall ForceRaiseStat
 	call EndAbility
 	farjp CheckMirrorHerb
+	
+ForecastAbility:
+; Transform Castform based on weather
+	ld a, BATTLE_VARS_SUBSTATUS2
+	call GetBattleVar
+	bit SUBSTATUS_TRANSFORMED, a
+	ret nz ; Don't apply to transformed mons
+	
+; Only apply to Castform
+	ld hl, wBattleMonSpecies
+	call GetUserMonAttr
+	ld a, [hl]
+	ld bc, wBattleMonForm - wBattleMonSpecies
+	add hl, bc
+	ld c, a
+	ld b, [hl]
+	ld de, LOW(CASTFORM)| (HIGH(CASTFORM) << (MON_EXTSPECIES_F + 8))
+	call CompareSpeciesWithDE
+	ret nz
+
+; Check weather
+	call GetWeatherAfterUserUmbrella
+	cp WEATHER_SUN
+	jr z, .sun
+	cp WEATHER_RAIN
+	jr z, .rain
+	cp WEATHER_HAIL
+	jr z, .hail
+	
+; Sandstorm or No Weather
+	ld a, b
+	and FORM_MASK
+	dec a
+	ret z ; Already in Plain Form (1)
+	ld c, 1
+	jr .apply_form
+.sun
+	ld a, b
+	and FORM_MASK
+	cp 2
+	ret z ; Already in Sun Form (2)
+	ld c, 2
+	jr .apply_form
+.rain
+	ld a, b
+	and FORM_MASK
+	cp 3
+	ret z ; Already in Rain Form (3)
+	ld c, 3
+	jr .apply_form
+.hail
+	ld a, b
+	and FORM_MASK
+	cp 4
+	ret z ; Already in Hail Form (4)
+	ld c, 4
+	; fallthrough
+
+.apply_form
+	ld a, b
+	and ~(FORM_MASK)
+	or c
+	ld [hl], a
+	call ReloadMonForm
+	call BeginAbility
+	call ShowPotentialAbilityActivation
+	farcall TransformDisplayedSpecies
+	jmp EndAbility
+	
+RevertForecast:
+; Reverts Castform back to plain form.
+	ld hl, wBattleMonSpecies
+	call GetUserMonAttr
+	ld a, [hl]
+	ld bc, wBattleMonForm - wBattleMonSpecies
+	add hl, bc
+	ld c, a
+	ld b, [hl]
+	ld de, LOW(CASTFORM) | (HIGH(CASTFORM) << (MON_EXTSPECIES_F + 8))
+	call CompareSpeciesWithDE
+	ret nz
+
+; Do nothing if we're already in form 1.
+	ld a, b
+	and FORM_MASK
+	dec a
+	ret z
+; Set to plain form (1)
+	ld a, b
+	and ~(FORM_MASK)
+	inc a
+	ld [hl], a
+	jmp ReloadMonForm
 
 ImposterAbility:
 	call BeginAbility

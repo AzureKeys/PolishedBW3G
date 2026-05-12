@@ -217,9 +217,9 @@ endr
 	loadmem wPartyMon1Stats+8, HIGH(999)
 	loadmem wPartyMon1Stats+9, LOW(999)
 	loadmem wPartyMon1Moves+0, BRINE
-	loadmem wPartyMon1Moves+1, RAZOR_SHELL
-	loadmem wPartyMon1Moves+2, THUNDER_FANG
-	loadmem wPartyMon1Moves+3, SHOCK_WAVE
+	loadmem wPartyMon1Moves+1, SUNNY_DAY
+	loadmem wPartyMon1Moves+2, HAIL
+	loadmem wPartyMon1Moves+3, RAIN_DANCE
 	; hm slave
 	givepoke KYUREM, KYUREM_BLACK_FORM, 100, LEFTOVERS
 	loadmem wPartyMon2Moves+0, FLY
@@ -248,7 +248,7 @@ endr
 	loadmem wPartyMon5SpeEV, MODERN_EV_LIMIT - MODERN_MAX_EV * 2
 	; hyper training
 	loadmem wPartyMon5HyperTraining, %01000000
-	givepoke SLAKING, 100
+	givepoke CASTFORM, 50
 	loadmem wPartyMon6Moves+1, FOCUS_ENERGY
 	; fill pokedex
 	callasm FillPokedex

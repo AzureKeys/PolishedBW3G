@@ -58,6 +58,7 @@
 	const TRUANT
 	const HUSTLE
 	const CUTE_CHARM
+	const FORECAST
 	const STICKY_HOLD
 	const SHED_SKIN
 	const GUTS
