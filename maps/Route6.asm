@@ -80,10 +80,10 @@ TrainerScientistMR6:
 .ChooseRematch:
 	callstd rematchm
 	winlosstext ScientistMR6BeatenText, 0
-	; checkevent EVENT_BEAT_POKEMON_LEAGUE
-	; iftrue .LoadFight2
-	; checkmapscene SEASIDE_CAVE_CHAMBER
-	; ifequal SCENE_FINISHED, .LoadFight1
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .LoadFight2
+	checkmapscene SEASIDE_CAVE_CHAMBER
+	ifequalfwd 1, .LoadFight1
 ; Fight0
 	loadtrainer SCIENTISTM, SCIENTISTM_R6
 	startbattle

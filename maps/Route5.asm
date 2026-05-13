@@ -133,16 +133,16 @@ TrainerDancer1R5:
 .ChooseRematch:
 	callstd rematchm
 	winlosstext Dancer1R5BeatenText, 0
-	; checkevent EVENT_BEAT_POKEMON_LEAGUE
-	; iftrue .LoadFight5
-	; checkmapscene SEASIDE_CAVE_CHAMBER
-	; ifequal SCENE_FINISHED, .LoadFight4
-	; checkevent EVENT_FINISHED_PWT
-	; iftrue .LoadFight3
-	; checkevent EVENT_BEAT_VIRBANK_COMPLEX_BRONIUS
-	; iftrue .LoadFight2
-	; checkevent EVENT_BIANCA_CASTELIA_CALL
-	; iftrue .LoadFight1
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .LoadFight5
+	checkmapscene SEASIDE_CAVE_CHAMBER
+	ifequalfwd 1, .LoadFight4
+	checkevent EVENT_FINISHED_PWT
+	iftruefwd .LoadFight3
+	checkmapscene VIRBANK_COMPLEX_B1F
+	ifequalfwd 1, .LoadFight2
+	checkevent EVENT_BIANCA_CASTELIA_CALL
+	iftruefwd .LoadFight1
 ; Fight0
 	loadtrainer DANCER, DANCER_R5_1
 	startbattle

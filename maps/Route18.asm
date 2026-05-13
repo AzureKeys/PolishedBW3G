@@ -150,12 +150,12 @@ TrainerBackpackerFR18:
 .ChooseRematch:
 	callstd rematchf
 	winlosstext BackpackerFR18BeatenText, 0
-	; checkevent EVENT_BEAT_POKEMON_LEAGUE
-	; iftrue .LoadFight3
-	; checkmapscene SEASIDE_CAVE_CHAMBER
-	; ifequal SCENE_FINISHED, .LoadFight2
-	; checkevent EVENT_FINISHED_PWT
-	; iftrue .LoadFight1
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .LoadFight3
+	checkmapscene SEASIDE_CAVE_CHAMBER
+	ifequalfwd 1, .LoadFight2
+	checkevent EVENT_FINISHED_PWT
+	iftruefwd .LoadFight1
 ; Fight0
 	loadtrainer BACKPACKERF, BACKPACKERF_R18
 	startbattle

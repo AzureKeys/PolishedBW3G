@@ -54,10 +54,10 @@ TrainerBackpackerMR7:
 .ChooseRematch:
 	callstd rematchm
 	winlosstext BackpackerMR7BeatenText, 0
-	; checkevent EVENT_BEAT_POKEMON_LEAGUE
-	; iftrue .LoadFight2
-	; checkmapscene SEASIDE_CAVE_CHAMBER
-	; ifequal SCENE_FINISHED, .LoadFight1
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .LoadFight2
+	checkmapscene SEASIDE_CAVE_CHAMBER
+	ifequalfwd 1, .LoadFight1
 ; Fight0
 	loadtrainer BACKPACKERM, BACKPACKERM_R7
 	startbattle

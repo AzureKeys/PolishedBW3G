@@ -58,13 +58,13 @@ TrainerMaidR1:
 .ChooseRematch:
 	callstd rematchf
 	winlosstext MaidR1BeatenText, 0
-	; checkevent EVENT_BEAT_POKEMON_LEAGUE
-	; iftrue .LoadFight3
-	; checkmapscene SEASIDE_CAVE_CHAMBER
-	; ifequal SCENE_FINISHED, .LoadFight2
-	; checkevent EVENT_FINISHED_PWT
-	; iftrue .LoadFight1
-; ; Fight0
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .LoadFight3
+	checkmapscene SEASIDE_CAVE_CHAMBER
+	ifequalfwd 1, .LoadFight2
+	checkevent EVENT_FINISHED_PWT
+	iftruefwd .LoadFight1
+; Fight0
 	loadtrainer MAID, MAID_R1
 	startbattle
 	reloadmapafterbattle

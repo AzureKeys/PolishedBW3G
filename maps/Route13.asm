@@ -74,16 +74,16 @@ TrainerYoungsterR13:
 .ChooseRematch:
 	callstd rematchm
 	winlosstext YoungsterR13BeatenText, 0
-	;checkevent EVENT_BEAT_POKEMON_LEAGUE
-	;iftruefwd .LoadFight6
-	;checkmapscene SEASIDE_CAVE_CHAMBER
-	;ifequalfwd SCENE_FINISHED, .LoadFight5
-	;checkevent EVENT_FINISHED_PWT
-	;iftruefwd .LoadFight4
-	;checkevent EVENT_BEAT_VIRBANK_COMPLEX_BRONIUS
-	;iftruefwd .LoadFight3
-	;checkevent EVENT_BIANCA_CASTELIA_CALL
-	;iftruefwd .LoadFight2
+	checkevent EVENT_BEAT_POKEMON_LEAGUE
+	iftruefwd .LoadFight6
+	checkmapscene SEASIDE_CAVE_CHAMBER
+	ifequalfwd 1, .LoadFight5
+	checkevent EVENT_FINISHED_PWT
+	iftruefwd .LoadFight4
+	checkmapscene VIRBANK_COMPLEX_B1F
+	ifequalfwd 1, .LoadFight3
+	checkevent EVENT_BIANCA_CASTELIA_CALL
+	iftruefwd .LoadFight2
 	checkevent EVENT_BEAT_MARLON
 	iftruefwd .LoadFight1
 ; Fight0
