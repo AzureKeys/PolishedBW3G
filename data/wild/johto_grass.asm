@@ -408,4 +408,300 @@ def_grass_wildmons LOSTLORN_FOREST
 	wildmon 12, ZORUA
 	end_grass_wildmons
 
+def_grass_wildmons ROUTE_16
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 13, DEERLING
+	wildmon 12, GOTHITA
+	wildmon 12, SOLOSIS
+	wildmon 13, SNUBBULL
+	wildmon 11, TRUBBISH
+	wildmon 12, MARILL
+	wildmon 13, TRUBBISH
+	wildmon 13, MAREEP
+	wildmon 12, MAGNEMITE
+	wildmon 14, MAGNEMITE
+	; day
+	wildmon 13, DEERLING
+	wildmon 12, GOTHITA
+	wildmon 12, SOLOSIS
+	wildmon 13, SNUBBULL
+	wildmon 11, TRUBBISH
+	wildmon 12, MARILL
+	wildmon 13, TRUBBISH
+	wildmon 13, MAREEP
+	wildmon 12, MAGNEMITE
+	wildmon 14, MAGNEMITE
+	; nite
+	wildmon 13, DEERLING
+	wildmon 12, GOTHITA
+	wildmon 12, SOLOSIS
+	wildmon 13, SNUBBULL
+	wildmon 11, TRUBBISH
+	wildmon 12, MARILL
+	wildmon 13, TRUBBISH
+	wildmon 13, MAREEP
+	wildmon 12, MAGNEMITE
+	wildmon 14, MAGNEMITE
+	end_grass_wildmons
+
+def_grass_wildmons ROUTE_5
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 13, MINCCINO
+	wildmon 12, KARRABLAST
+	wildmon 12, SHELMET
+	wildmon 12, DEERLING
+	wildmon 13, GOTHITA
+	wildmon 13, SOLOSIS
+	wildmon 12, GROWLITHE
+	wildmon 13, PURRLOIN
+	wildmon 14, GROWLITHE
+	wildmon 16, GROWLITHE
+	; day
+	wildmon 13, MINCCINO
+	wildmon 12, KARRABLAST
+	wildmon 12, SHELMET
+	wildmon 12, DEERLING
+	wildmon 13, GOTHITA
+	wildmon 13, SOLOSIS
+	wildmon 12, GROWLITHE
+	wildmon 13, PURRLOIN
+	wildmon 14, GROWLITHE
+	wildmon 16, GROWLITHE
+	; nite
+	wildmon 13, MINCCINO
+	wildmon 12, KARRABLAST
+	wildmon 12, SHELMET
+	wildmon 12, DEERLING
+	wildmon 13, GOTHITA
+	wildmon 13, SOLOSIS
+	wildmon 12, GROWLITHE
+	wildmon 13, PURRLOIN
+	wildmon 14, GROWLITHE
+	wildmon 16, GROWLITHE
+	end_grass_wildmons
+
+def_grass_wildmons ROUTE_4
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 14, DARUMAKA
+	wildmon 13, ELEKID
+	wildmon 13, MAGBY
+	wildmon 14, SANDILE
+	wildmon 13, DWEBBLE
+	wildmon 13, DRILBUR
+	wildmon 15, BLITZLE
+	wildmon 13, VULPIX
+	wildmon 15, SPOINK
+	wildmon 16, SPOINK
+	; day
+	wildmon 14, DARUMAKA
+	wildmon 13, ELEKID
+	wildmon 13, MAGBY
+	wildmon 14, SANDILE
+	wildmon 13, DWEBBLE
+	wildmon 13, DRILBUR
+	wildmon 15, BLITZLE
+	wildmon 13, VULPIX
+	wildmon 15, SPOINK
+	wildmon 16, SPOINK
+	; nite
+	wildmon 14, DARUMAKA
+	wildmon 13, ELEKID
+	wildmon 13, MAGBY
+	wildmon 14, SANDILE
+	wildmon 13, DWEBBLE
+	wildmon 13, DRILBUR
+	wildmon 15, BLITZLE
+	wildmon 13, VULPIX
+	wildmon 15, SPOINK
+	wildmon 16, SPOINK
+	end_grass_wildmons
+
+def_grass_wildmons DESERT_RESORT
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 15, SANDILE
+	wildmon 14, TRAPINCH
+	wildmon 14, NUMEL
+	wildmon 14, DARUMAKA
+	wildmon 13, MARACTUS
+	wildmon 13, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 15, MARACTUS
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	; day
+	wildmon 15, SANDILE
+	wildmon 14, TRAPINCH
+	wildmon 14, NUMEL
+	wildmon 14, DARUMAKA
+	wildmon 13, MARACTUS
+	wildmon 13, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 15, MARACTUS
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	; nite
+	wildmon 15, SANDILE
+	wildmon 14, TRAPINCH
+	wildmon 14, NUMEL
+	wildmon 14, DARUMAKA
+	wildmon 13, MARACTUS
+	wildmon 13, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 15, MARACTUS
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	end_grass_wildmons
+
+def_grass_wildmons RELIC_CASTLE_1F
+	db 5 percent ; encounter rate
+	; morn
+	wildmon 16, YAMASK
+	wildmon 14, BALTOY
+	wildmon 14, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 16, GASTLY
+	wildmon 16, SANDILE
+	wildmon 16, BALTOY
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	; day
+	wildmon 16, YAMASK
+	wildmon 14, BALTOY
+	wildmon 14, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 16, GASTLY
+	wildmon 16, SANDILE
+	wildmon 16, BALTOY
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	; nite
+	wildmon 16, YAMASK
+	wildmon 14, BALTOY
+	wildmon 14, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 16, GASTLY
+	wildmon 16, SANDILE
+	wildmon 16, BALTOY
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	end_grass_wildmons
+
+def_grass_wildmons RELIC_CASTLE_B1F
+	db 5 percent ; encounter rate
+	; morn
+	wildmon 16, BALTOY
+	wildmon 16, YAMASK
+	wildmon 15, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 16, GASTLY
+	wildmon 16, SANDILE
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	wildmon 16, GLIGAR
+	; day
+	wildmon 16, BALTOY
+	wildmon 16, YAMASK
+	wildmon 15, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 16, GASTLY
+	wildmon 16, SANDILE
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	wildmon 16, GLIGAR
+	; nite
+	wildmon 16, BALTOY
+	wildmon 16, YAMASK
+	wildmon 15, DWEBBLE
+	wildmon 15, TRAPINCH
+	wildmon 16, GASTLY
+	wildmon 16, SANDILE
+	wildmon 15, GLIGAR
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	wildmon 16, GLIGAR
+	end_grass_wildmons
+
+def_grass_wildmons RELIC_CASTLE_B2F
+	db 5 percent ; encounter rate
+	; morn
+	wildmon 16, BALTOY
+	wildmon 16, YAMASK
+	wildmon 17, SANDILE
+	wildmon 15, TRAPINCH
+	wildmon 17, GASTLY
+	wildmon 16, GLIGAR
+	wildmon 16, DWEBBLE
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	wildmon 18, SIGILYPH
+	; day
+	wildmon 16, BALTOY
+	wildmon 16, YAMASK
+	wildmon 17, SANDILE
+	wildmon 15, TRAPINCH
+	wildmon 17, GASTLY
+	wildmon 16, GLIGAR
+	wildmon 16, DWEBBLE
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	wildmon 18, SIGILYPH
+	; nite
+	wildmon 16, BALTOY
+	wildmon 16, YAMASK
+	wildmon 17, SANDILE
+	wildmon 15, TRAPINCH
+	wildmon 17, GASTLY
+	wildmon 16, GLIGAR
+	wildmon 16, DWEBBLE
+	wildmon 16, SIGILYPH
+	wildmon 15, GIBLE
+	wildmon 18, SIGILYPH
+	end_grass_wildmons
+
+def_grass_wildmons RELIC_CASTLE_B3F
+	db 5 percent ; encounter rate
+	; morn
+	wildmon 17, BALTOY
+	wildmon 16, YAMASK
+	wildmon 17, SANDILE
+	wildmon 15, TRAPINCH
+	wildmon 18, SIGILYPH
+	wildmon 16, GLIGAR
+	wildmon 16, DWEBBLE
+	wildmon 16, GIBLE
+	wildmon 17, GASTLY
+	wildmon 20, GASTLY
+	; day
+	wildmon 17, BALTOY
+	wildmon 16, YAMASK
+	wildmon 17, SANDILE
+	wildmon 15, TRAPINCH
+	wildmon 18, SIGILYPH
+	wildmon 16, GLIGAR
+	wildmon 16, DWEBBLE
+	wildmon 16, GIBLE
+	wildmon 17, GASTLY
+	wildmon 20, GASTLY
+	; nite
+	wildmon 17, BALTOY
+	wildmon 16, YAMASK
+	wildmon 17, SANDILE
+	wildmon 15, TRAPINCH
+	wildmon 18, SIGILYPH
+	wildmon 16, GLIGAR
+	wildmon 16, DWEBBLE
+	wildmon 16, GIBLE
+	wildmon 17, GASTLY
+	wildmon 20, GASTLY
+	end_grass_wildmons
+
 	db -1 ; end
