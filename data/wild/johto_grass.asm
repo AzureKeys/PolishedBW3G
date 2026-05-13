@@ -150,7 +150,7 @@ def_grass_wildmons ROUTE_14
 	end_grass_wildmons
 
 def_grass_wildmons GIANT_CHASM_1F
-	db 10 percent ; encounter rate
+	db 4 percent ; encounter rate
 	; morn
 	wildmon 2, ZUBAT
 	wildmon 3, WOOBAT
@@ -184,6 +184,228 @@ def_grass_wildmons GIANT_CHASM_1F
 	wildmon 3, MUNNA
 	wildmon 2, CLEFFA
 	wildmon 4, CLEFFA
+	end_grass_wildmons
+
+def_grass_wildmons REVERSAL_MOUNTAIN_1F
+	db 6 percent ; encounter rate
+	; morn
+	wildmon 7, GEODUDE
+	wildmon 6, WOOBAT
+	wildmon 6, ZUBAT
+	wildmon 7, ROGGENROLA
+	wildmon 6, PARAS
+	wildmon 7, MARILL
+	wildmon 6, NOSEPASS
+	wildmon 7, TIMBURR
+	wildmon 8, ONIX
+	wildmon 8, MAWILE
+	; day
+	wildmon 7, GEODUDE
+	wildmon 6, WOOBAT
+	wildmon 6, ZUBAT
+	wildmon 7, ROGGENROLA
+	wildmon 6, PARAS
+	wildmon 7, MARILL
+	wildmon 6, NOSEPASS
+	wildmon 7, TIMBURR
+	wildmon 8, ONIX
+	wildmon 8, MAWILE
+	; nite
+	wildmon 7, GEODUDE
+	wildmon 6, WOOBAT
+	wildmon 6, ZUBAT
+	wildmon 7, ROGGENROLA
+	wildmon 6, PARAS
+	wildmon 7, MARILL
+	wildmon 6, NOSEPASS
+	wildmon 7, TIMBURR
+	wildmon 8, ONIX
+	wildmon 8, MAWILE
+	end_grass_wildmons
+
+def_grass_wildmons REVERSAL_MOUNTAIN_B1F
+	db 6 percent ; encounter rate
+	; morn
+	wildmon 8, ROGGENROLA
+	wildmon 8, WOOBAT
+	wildmon 7, ZUBAT
+	wildmon 7, PARAS
+	wildmon 7, NOSEPASS
+	wildmon 8, ONIX
+	wildmon 8, SABLEYE
+	wildmon 8, MAWILE
+	wildmon 7, TIMBURR
+	wildmon 10, GEODUDE
+	; day
+	wildmon 8, ROGGENROLA
+	wildmon 8, WOOBAT
+	wildmon 7, ZUBAT
+	wildmon 7, PARAS
+	wildmon 7, NOSEPASS
+	wildmon 8, ONIX
+	wildmon 8, SABLEYE
+	wildmon 8, MAWILE
+	wildmon 7, TIMBURR
+	wildmon 10, GEODUDE
+	; nite
+	wildmon 8, ROGGENROLA
+	wildmon 8, WOOBAT
+	wildmon 7, ZUBAT
+	wildmon 7, PARAS
+	wildmon 7, NOSEPASS
+	wildmon 8, ONIX
+	wildmon 8, SABLEYE
+	wildmon 8, MAWILE
+	wildmon 7, TIMBURR
+	wildmon 10, GEODUDE
+	end_grass_wildmons
+
+def_grass_wildmons LENTIMAS_OUTSKIRT
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 8, DRILBUR
+	wildmon 8, SANDSHREW
+	wildmon 9, TIMBURR
+	wildmon 7, BLITZLE
+	wildmon 9, PARAS
+	wildmon 8, MANKEY
+	wildmon 8, DRIFLOON
+	wildmon 9, VULPIX
+	wildmon 7, HOUNDOUR
+	wildmon 10, HOUNDOUR
+	; day
+	wildmon 8, DRILBUR
+	wildmon 8, SANDSHREW
+	wildmon 9, TIMBURR
+	wildmon 7, BLITZLE
+	wildmon 9, PARAS
+	wildmon 8, MANKEY
+	wildmon 8, DRIFLOON
+	wildmon 9, VULPIX
+	wildmon 7, HOUNDOUR
+	wildmon 10, HOUNDOUR
+	; nite
+	wildmon 8, DRILBUR
+	wildmon 8, SANDSHREW
+	wildmon 9, TIMBURR
+	wildmon 7, BLITZLE
+	wildmon 9, PARAS
+	wildmon 8, MANKEY
+	wildmon 8, DRIFLOON
+	wildmon 9, VULPIX
+	wildmon 7, HOUNDOUR
+	wildmon 10, HOUNDOUR
+	end_grass_wildmons
+
+def_grass_wildmons STRANGE_HOUSE_1F
+	db 2 percent ; encounter rate
+	; morn
+	wildmon 8, YAMASK
+	wildmon 8, GASTLY
+	wildmon 8, DRIFLOON
+	wildmon 9, YAMASK
+	wildmon 9, GASTLY
+	wildmon 10, DRIFLOON
+	wildmon 8, MIME_JR_
+	wildmon 9, MISDREAVUS
+	wildmon 10, MIME_JR_
+	wildmon 12, MISDREAVUS
+	; day
+	wildmon 8, YAMASK
+	wildmon 8, GASTLY
+	wildmon 8, DRIFLOON
+	wildmon 9, YAMASK
+	wildmon 9, GASTLY
+	wildmon 10, DRIFLOON
+	wildmon 8, MIME_JR_
+	wildmon 9, MISDREAVUS
+	wildmon 10, MIME_JR_
+	wildmon 12, MISDREAVUS
+	; nite
+	wildmon 8, YAMASK
+	wildmon 8, GASTLY
+	wildmon 8, DRIFLOON
+	wildmon 9, YAMASK
+	wildmon 9, GASTLY
+	wildmon 10, DRIFLOON
+	wildmon 8, MIME_JR_
+	wildmon 9, MISDREAVUS
+	wildmon 10, MIME_JR_
+	wildmon 12, MISDREAVUS
+	end_grass_wildmons
+
+def_grass_wildmons STRANGE_HOUSE_B1F
+	db 6 percent ; encounter rate
+	; morn
+	wildmon 9, YAMASK
+	wildmon 9, GASTLY
+	wildmon 10, DRIFLOON
+	wildmon 10, GASTLY
+	wildmon 9, MIME_JR_
+	wildmon 10, YAMASK
+	wildmon 11, MIME_JR_
+	wildmon 10, MISDREAVUS
+	wildmon 12, MISDREAVUS
+	wildmon 14, MISDREAVUS
+	; day
+	wildmon 9, YAMASK
+	wildmon 9, GASTLY
+	wildmon 10, DRIFLOON
+	wildmon 10, GASTLY
+	wildmon 9, MIME_JR_
+	wildmon 10, YAMASK
+	wildmon 11, MIME_JR_
+	wildmon 10, MISDREAVUS
+	wildmon 12, MISDREAVUS
+	wildmon 14, MISDREAVUS
+	; nite
+	wildmon 9, YAMASK
+	wildmon 9, GASTLY
+	wildmon 10, DRIFLOON
+	wildmon 10, GASTLY
+	wildmon 9, MIME_JR_
+	wildmon 10, YAMASK
+	wildmon 11, MIME_JR_
+	wildmon 10, MISDREAVUS
+	wildmon 12, MISDREAVUS
+	wildmon 14, MISDREAVUS
+	end_grass_wildmons
+
+def_grass_wildmons LOSTLORN_FOREST
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 10, COMBEE
+	wildmon 11, SLAKOTH
+	wildmon 10, SEWADDLE
+	wildmon 10, VENIPEDE
+	wildmon 10, COTTONEE
+	wildmon 10, PETILIL
+	wildmon 11, YANMA
+	wildmon 10, BONSLY
+	wildmon 10, ZORUA
+	wildmon 12, ZORUA
+	; day
+	wildmon 10, COMBEE
+	wildmon 11, SLAKOTH
+	wildmon 10, SEWADDLE
+	wildmon 10, VENIPEDE
+	wildmon 10, COTTONEE
+	wildmon 10, PETILIL
+	wildmon 11, YANMA
+	wildmon 10, BONSLY
+	wildmon 10, ZORUA
+	wildmon 12, ZORUA
+	; nite
+	wildmon 10, COMBEE
+	wildmon 11, SLAKOTH
+	wildmon 10, SEWADDLE
+	wildmon 10, VENIPEDE
+	wildmon 10, COTTONEE
+	wildmon 10, PETILIL
+	wildmon 11, YANMA
+	wildmon 10, BONSLY
+	wildmon 10, ZORUA
+	wildmon 12, ZORUA
 	end_grass_wildmons
 
 	db -1 ; end
