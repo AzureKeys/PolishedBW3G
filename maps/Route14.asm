@@ -2,28 +2,64 @@ Route14_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
+	callback MAPCALLBACK_TILES, Route14BoulderHoles
+	callback MAPCALLBACK_STONETABLE, Route14BoulderCallback
 
 	def_warp_events
+	warp_event 20, 19, ROUTE_14, 2 ; hole
+	warp_event 21, 19, ROUTE_14, 2 ; spawn after fall in hole
 
 	def_coord_events
 
 	def_bg_events
 	
 	def_object_events
-	object_event  4, 20, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route14NurseryAideScript, -1
-	object_event 31,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 3, TrainerPreschoolerM1R14, -1
-	object_event 20,  9, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 3, TrainerPreschoolerF1R14, -1
-	object_event 18, 15, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, TrainerPreschoolerM2R14, -1
-	object_event 10, 22, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 3, TrainerPreschoolerF2R14, -1
-	fruittree_event 23, 14, FRUITTREE_ROUTE_14, PERSIM_BERRY, PAL_NPC_PINK
-	itemball_event 31,  9, ANTIDOTE, 1, EVENT_ROUTE_14_ANTIDOTE
-	itemball_event 14, 16, POTION, 1, EVENT_ROUTE_14_POTION
-	itemball_event 15, 25, NET_BALL, 3, EVENT_ROUTE_14_NET_BALL
-	itemball_event 11, 20, HEART_SCALE, 1, EVENT_ROUTE_14_HEART_SCALE
-	tmhmball_event 17,  9, TM_BULK_UP, EVENT_ROUTE_14_TM_BULK_UP
+	strengthboulder_event 19, 19, EVENT_ROUTE_14_BOULDER
+	object_event 25, 19, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route14NurseryAideScript, -1
+	object_event 47,  4, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, TrainerPreschoolerM1R14, -1
+	object_event 36,  9, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 2, TrainerPreschoolerF1R14, -1
+	object_event 35, 14, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, TrainerPreschoolerM2R14, -1
+	object_event 31, 22, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, TrainerPreschoolerF2R14, -1
+	fruittree_event 39, 14, FRUITTREE_ROUTE_14, PERSIM_BERRY, PAL_NPC_PINK
+	itemball_event 47, 11, ANTIDOTE, 1, EVENT_ROUTE_14_ANTIDOTE
+	itemball_event 36, 12, POTION, 1, EVENT_ROUTE_14_POTION
+	itemball_event 35, 21, NET_BALL, 3, EVENT_ROUTE_14_NET_BALL
+	itemball_event 30, 17, HEART_SCALE, 1, EVENT_ROUTE_14_HEART_SCALE
+	tmhmball_event 33, 11, TM_BULK_UP, EVENT_ROUTE_14_TM_BULK_UP
 	
 	object_const_def
-	const ROUTE14_NURSERY_AIDE
+	const ROUTE14_BOULDER
+	
+Route14BoulderHoles:
+	checkevent EVENT_ROUTE_14_BOULDER
+	iffalsefwd .done
+	changeblock 20, 18, $eb
+.done
+	endcallback
+	
+Route14BoulderCallback:
+	usestonetable .BoulderTable
+	endcallback
+	
+.BoulderTable:
+	stonetable 1, ROUTE14_BOULDER, .Disappear
+	db -1 ;end
+	
+.Disappear:
+	pause 30
+	playsound SFX_STRENGTH
+	waitsfx
+	opentext
+	writethistext
+	text "The boulder fell"
+	line "through!"
+	done
+	disappear ROUTE14_BOULDER
+	changeblock 20, 18, $eb
+	refreshmap
+	waitbutton
+	closetext
+	end
 	
 Route14NurseryAideScript:
 	checkevent EVENT_GOT_ROUTE_14_EGG
@@ -32,7 +68,6 @@ Route14NurseryAideScript:
 	iftruefwd .OfferEgg
 	showtext .SeenText
 	winlosstext .BeatenText, 0
-	setlasttalked ROUTE14_NURSERY_AIDE
 	loadtrainer NURSERY_AIDE, NURSERY_AIDE_R14
 	startbattle
 	reloadmapafterbattle
