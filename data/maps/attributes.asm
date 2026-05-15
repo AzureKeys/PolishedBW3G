@@ -166,6 +166,8 @@ ENDM
 	map_attributes CasteliaCityStreets, CASTELIA_CITY_STREETS, $1a, 0
 	map_attributes CasteliaCitySouth, CASTELIA_CITY_SOUTH, $31, 0
 	map_attributes CasteliaGym, CASTELIA_GYM, $0, 0
+	map_attributes CasteliaParkTunnel, CASTELIA_PARK_TUNNEL, $0, 0
+	map_attributes CasteliaPark, CASTELIA_PARK, $0, 0
 	map_attributes NimbasaParkCoasterRoom, NIMBASA_PARK_COASTER_ROOM, $0, 0
 	map_attributes NimbasaParkRunway, NIMBASA_PARK_RUNWAY, $0, 0
 	map_attributes NimbasaParkBasement, NIMBASA_PARK_BASEMENT, $0, 0

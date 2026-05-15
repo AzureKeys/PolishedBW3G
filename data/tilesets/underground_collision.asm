@@ -173,5 +173,9 @@
 	tilecoll WALL, WALL, FLOOR, LADDER ; ac
 	tilecoll WALL, WALL, WALL, WALL ; ad
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ae
-	tilecoll HOLE, FLOOR, WALL, WALL ; af
-	tilecoll FLOOR, FLOOR, WALL, WALL ; b0
+	tilecoll HOLE, FLOOR, TOP_WALL, TOP_WALL ; af
+	tilecoll FLOOR, FLOOR, TOP_WALL, TOP_WALL ; b0
+	tilecoll FLOOR, FLOOR, TOP_WALL, TOP_WALL ; b1
+	tilecoll WALL, WALL, WALL, WALL ; b2
+	tilecoll WARP_CARPET_LEFT, FLOOR, WARP_CARPET_LEFT, PUDDLE ; b3
+	tilecoll WALL, WALL, WALL, WALL ; b4

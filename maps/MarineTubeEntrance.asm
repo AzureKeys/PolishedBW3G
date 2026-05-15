@@ -5,7 +5,7 @@ MarineTubeEntrance_MapScriptHeader:
 
 	def_warp_events
 	warp_event  4,  9, UNDELLA_TOWN, 5
-	warp_event  5, 15, UNDELLA_TOWN, 5
+	warp_event  5,  9, UNDELLA_TOWN, 5
 	warp_event  4,  3, MARINE_TUBE, 1
 	warp_event  5,  3, MARINE_TUBE, 2
 	warp_event 20,  9, HUMILAU_CITY, 7

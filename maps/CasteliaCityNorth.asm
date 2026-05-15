@@ -18,6 +18,8 @@ CasteliaCityNorth_MapScriptHeader:
 	warp_event 16,  9, CASTELIA_TRADE_HOUSE_1, 2
 	warp_event 19,  8, CASTELIA_TRADE_HOUSE_2, 1
 	warp_event 19,  9, CASTELIA_TRADE_HOUSE_2, 2
+	warp_event 17, 21, CASTELIA_PARK_TUNNEL, 1
+	warp_event 18, 21, CASTELIA_PARK_TUNNEL, 2
 
 	def_coord_events
 
@@ -27,6 +29,7 @@ CasteliaCityNorth_MapScriptHeader:
 	bg_event 14, 25, BGEVENT_JUMPTEXT, CasteliaAlleySignText
 	bg_event 21, 25, BGEVENT_JUMPTEXT, CasteliaModeStreetSignText
 	bg_event 31, 27, BGEVENT_JUMPTEXT, CasteliaStreetSignText
+	bg_event 15, 21, BGEVENT_JUMPTEXT, CasteliaParkSignText
 	bg_event 10, 18, BGEVENT_ITEM + HEART_SCALE, EVENT_CASTELIA_CITY_NORTH_HEART_SCALE
 	bg_event 10, 19, BGEVENT_ITEM + HEART_SCALE, EVENT_CASTELIA_CITY_NORTH_HEART_SCALE
 	
@@ -131,5 +134,10 @@ CasteliaModeStreetSignText:
 
 CasteliaStreetSignText:
 	text "Castelia Street."
+	done
+
+CasteliaParkSignText:
+	text "Tunnel access to"
+	line "Castelia Park."
 	done
 	

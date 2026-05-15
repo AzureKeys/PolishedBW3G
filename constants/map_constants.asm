@@ -200,6 +200,8 @@ ENDM
 	map_const SKYARROW_BRIDGE,                            26,  5 ; 20
 	map_const PINWHEEL_SKYARROW_BRIDGE_GATE,               5,  9 ; 21
 	map_const FERRY_LEFT,                                  9,  2 ; 22
+	map_const CASTELIA_PARK_TUNNEL,                        3, 10 ; 23
+	map_const CASTELIA_PARK,                              10, 11 ; 24
 	
 	newgroup                                                     ; 10
 	map_const ASPERTIA_CITY,                              14, 22 ;  1

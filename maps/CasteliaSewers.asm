@@ -14,6 +14,8 @@ CasteliaSewers_MapScriptHeader:
 	warp_event  5, 25, CASTELIA_SEWERS_ROOMS, 9
 	warp_event 32,  2, CASTELIA_SEWERS, 1 ; hole
 	warp_event 33,  0, RELIC_PASSAGE_FRONT, 1
+	warp_event 32,  4, CASTELIA_PARK, 3
+	warp_event 32,  5, CASTELIA_PARK, 4
 
 	def_coord_events
 
@@ -198,6 +200,7 @@ CasteliaSewersSetTiles:
 	changeblock 12, 26, $9e ; flooded stairs left
 	changeblock 40,  4, $9e ; flooded stairs left
 	changeblock 40,  8, $9e ; flooded stairs left
+	changeblock 34,  4, $9e ; flooded stairs left
 	
 	changeblock 34, 18, $a0 ; flooded stairs left top
 	changeblock 34, 20, $a1 ; flooded stairs left bottom

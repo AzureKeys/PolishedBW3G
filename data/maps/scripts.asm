@@ -161,6 +161,8 @@ INCLUDE "maps/PinwheelSkyarrowBridgeGate.asm"
 INCLUDE "maps/FerryLeft.asm"
 INCLUDE "maps/CasteliaSewers.asm"
 INCLUDE "maps/CasteliaSewersRooms.asm"
+INCLUDE "maps/CasteliaParkTunnel.asm"
+INCLUDE "maps/CasteliaPark.asm"
 
 
 SECTION "Aspertia Scripts", ROMX

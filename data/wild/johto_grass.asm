@@ -704,4 +704,41 @@ def_grass_wildmons RELIC_CASTLE_B3F
 	wildmon 20, GASTLY
 	end_grass_wildmons
 
+def_grass_wildmons CASTELIA_PARK
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 14, SKITTY
+	wildmon 16, RATTATA
+	wildmon 17, PIDOVE
+	wildmon 15, BUNEARY
+	wildmon 16, COTTONEE
+	wildmon 16, PETILIL
+	wildmon 15, PIKACHU
+	wildmon 16, MARILL
+	wildmon 15, EEVEE
+	wildmon 18, EEVEE
+	; day
+	wildmon 14, SKITTY
+	wildmon 16, RATTATA
+	wildmon 17, PIDOVE
+	wildmon 15, BUNEARY
+	wildmon 16, COTTONEE
+	wildmon 16, PETILIL
+	wildmon 15, PIKACHU
+	wildmon 16, MARILL
+	wildmon 15, EEVEE
+	wildmon 18, EEVEE
+	; nite
+	wildmon 14, SKITTY
+	wildmon 16, RATTATA
+	wildmon 17, PIDOVE
+	wildmon 15, BUNEARY
+	wildmon 16, COTTONEE
+	wildmon 16, PETILIL
+	wildmon 15, PIKACHU
+	wildmon 16, MARILL
+	wildmon 15, EEVEE
+	wildmon 18, EEVEE
+	end_grass_wildmons
+
 	db -1 ; end
