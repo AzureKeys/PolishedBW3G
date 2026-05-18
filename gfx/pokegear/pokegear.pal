@@ -1,34 +1,34 @@
 if !DEF(MONOCHROME)
-; border and Mt. Silver
-	RGB 24, 18, 07
+; border
+	RGB 28, 31, 20
 	RGB 21, 21, 21
 	RGB 13, 13, 13
 	RGB 00, 00, 00
-; water and shores
-	RGB 20, 15, 03
-	RGB 12, 25, 01
-	RGB 13, 12, 31
-	RGB 18, 19, 31
-; land and mountains
-	RGB 22, 31, 10
-	RGB 12, 25, 01
-	RGB 24, 18, 07
-	RGB 20, 15, 03
-; water routes
-	RGB 27, 31, 27
-	RGB 03, 03, 10
-	RGB 13, 12, 31
-	RGB 18, 19, 31
-; cities
-	RGB 31, 19, 24
-	RGB 12, 25, 01
-	RGB 30, 10, 06
-	RGB 04, 04, 04
-; land routes
-	RGB 31, 31, 31
-	RGB 12, 25, 01
-	RGB 05, 14, 00
-	RGB 04, 04, 04
+; earth (green/blue/d-blue/brown)
+	RGB 18, 24, 16
+	RGB 11, 22, 26
+	RGB 03, 11, 21
+	RGB 10, 08, 05
+; dots (green/blue/d-blue/black)
+	RGB 18, 24, 16
+	RGB 11, 22, 26
+	RGB 03, 11, 21
+	RGB 00, 00, 00
+; city (green/yellow/d-blue/brown)
+	RGB 18, 24, 16
+	RGB 31, 24, 06
+	RGB 03, 11, 21
+	RGB 10, 08, 05
+; point of interest (green/d-green/d-blue/brown)
+	RGB 18, 24, 16
+	RGB 03, 09, 04
+	RGB 03, 11, 21
+	RGB 10, 08, 05
+; point of interest w/ road (green/d-green/yellow/brown)
+	RGB 18, 24, 16
+	RGB 03, 09, 04
+	RGB 31, 24, 06
+	RGB 10, 08, 05
 ; decorations
 	RGB 31, 31, 07
 	RGB 12, 25, 01

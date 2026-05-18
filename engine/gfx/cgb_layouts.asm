@@ -338,7 +338,7 @@ INCLUDE "gfx/battle/exp_bar.pal"
 _CGB_FlyMap:
 	ld hl, PokegearOBPals
 	ld de, wOBPals1
-	ld c, 3 palettes
+	ld c, 5 palettes
 	call LoadPalettes
 	; fallthrough
 

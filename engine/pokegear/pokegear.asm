@@ -116,7 +116,7 @@ Pokegear_LoadGFX:
 	ld a, BANK(TownMapGFX)
 	call FarDecompressToDE
 	ld hl, PokegearGFX
-	ld de, vTiles2 tile $50
+	ld de, vTiles2 tile $60
 	ld a, BANK(PokegearGFX)
 	call Decompress
 	ld hl, PokegearSpritesGFX
@@ -210,15 +210,7 @@ InitPokegearTilemap:
 	ld a, [wPokegearCard]
 	cp POKEGEARCARD_MAP
 	jr nz, .not_town_map
-	ld a, [wJumptableIndex]
-	cp 3 ; Johto
-	call z, TownMapJohtoFlips
-	ld a, [wJumptableIndex]
-	cp 5 ; Kanto
-	call z, TownMapKantoFlips
-	ld a, [wJumptableIndex]
-	cp 7 ; Orange
-	call z, TownMapOrangeFlips
+	call TownMapJohtoFlips
 .not_town_map
 	ld a, [wPokegearMapRegion]
 	and a
@@ -275,14 +267,6 @@ InitPokegearTilemap:
 
 .Map:
 	call PokegearMap
-	ld a, $07
-	ld bc, 18
-	hlcoord 1, 2
-	rst ByteFill
-	hlcoord 0, 2
-	ld [hl], $06
-	hlcoord 19, 2
-	ld [hl], $17
 	ld a, [wPokegearMapCursorLandmark]
 	jmp PokegearMap_UpdateLandmarkName
 
@@ -658,7 +642,7 @@ TownMap_UpdateLandmarkName:
 	jr _UpdateLandmarkName
 
 PokegearMap_UpdateLandmarkName:
-	hlcoord 8, 0
+	hlcoord 0, 0
 	; fallthrough
 _UpdateLandmarkName:
 	push hl
@@ -671,8 +655,10 @@ _UpdateLandmarkName:
 	farcall GetLandmarkName
 	pop de
 	pop hl
-	ld a, $44 ; up/down arrow
-	ld [hli], a
+	push hl
+	hlcoord 11, 1
+	ld [hl], $54
+	pop hl
 	push hl
 	ld hl, wStringBuffer1
 	ld d, h
@@ -1226,27 +1212,22 @@ _TownMap:
 
 .InitTilemap:
 	call PokegearMap
-	ld a, $06
-	hlcoord 12, 0
-	ld [hl], a
-	hlcoord 12, 1
-	ld [hl], $16
-	hlcoord 0, 2
-	ld [hli], a
-	inc a
-	ld bc, NAME_LENGTH
+	ld a, $0e
+	ld bc, 11
 	hlcoord 1, 2
 	rst ByteFill
-	ld [hl], $27
+	hlcoord 0, 2
+	ld [hl], $0d
+	hlcoord 12, 0
+	ld [hl], $0d
+	hlcoord 12, 1
+	ld [hl], $1e
+	hlcoord 12, 2
+	ld [hl], $1f
 	ld a, [wTownMapCursorLandmark]
 	call TownMap_UpdateLandmarkName
 	call TownMapPals
 
-	ld a, [wTownMapPlayerIconLandmark]
-	cp SHAMOUTI_LANDMARK
-	jmp nc, TownMapOrangeFlips
-	cp KANTO_LANDMARK
-	jmp nc, TownMapKantoFlips
 	jmp TownMapJohtoFlips
 
 TownMap_InitFlyPossible:
@@ -1380,11 +1361,6 @@ LoadStation_PokemonChannel:
 
 PokegearMap:
 	call LoadTownMapGFX
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp SHAMOUTI_LANDMARK
-	jmp nc, FillOrangeMap
-	cp KANTO_LANDMARK
-	jmp nc, FillKantoMap
 	jmp FillJohtoMap
 
 _FlyMap:
@@ -1497,42 +1473,35 @@ TownMapBubble:
 
 ; Top-left corner
 	hlcoord 1, 0
-	ld a, $40
+	ld a, $50
 	ld [hli], a
 ; Top row
-	ld bc, 16
+	ld bc, 15
 	ld a, ' '
 	rst ByteFill
+; Up/down arrows
+	ld a, $54
+	ld [hli], a
 ; Top-right corner
-	ld [hl], $41
-	hlcoord 1, 1
-
-; Middle row
-	ld bc, 18
-	ld a, ' '
-	rst ByteFill
+	ld [hl], $51
 
 ; Bottom-left corner
-	hlcoord 1, 2
-	ld a, $42
+	hlcoord 1, 1
+	ld a, $52
 	ld [hli], a
 ; Bottom row
 	ld bc, 16
 	ld a, ' '
 	rst ByteFill
 ; Bottom-right corner
-	ld [hl], $43
+	ld [hl], $53
 
 ; Print "Where?"
 	hlcoord 2, 0
 	ld de, .Where
 	rst PlaceString
 ; Print the name of the default flypoint
-	call .Name
-; Up/down arrows
-	hlcoord 18, 1
-	ld [hl], $44
-	ret
+	jmp .Name
 
 .Where:
 	db "Where?@"
@@ -1678,7 +1647,7 @@ FillTownMap:
 	ret z
 	; [de] == yxTTTTTT
 	ld a, [de]
-	and %00111111
+	and %01111111
 	; a == 00TTTTTT
 	ld [hli], a
 	inc de
@@ -1692,7 +1661,7 @@ TownMapPals:
 .loop
 	ld a, [hli]
 	push hl
-	cp $40 ; tiles after TownMapGFX use palette 0
+	cp $50 ; tiles after TownMapGFX use palette 0
 	jr nc, .pal0
 	call GetNextTownMapTilePalette
 	jr .update
@@ -1744,12 +1713,14 @@ MACRO townmappals
 		shift 2
 	endr
 ENDM
-	townmappals 2, 2, 2, 3, 3, 6, 1, 1, 4, 4, 4, 5, 6, 7, 7, 6
-	townmappals 2, 2, 2, 3, 3, 6, 1, 1, 4, 4, 4, 6, 4, 4, 1, 1
-	townmappals 2, 2, 2, 6, 6, 6, 1, 1, 4, 4, 4, 7, 2, 4, 1, 1
-	townmappals 2, 2, 2, 2, 4, 4, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0
+	townmappals 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1
+	townmappals 4, 4, 4, 4, 2, 2, 2, 2, 2, 2, 2, 2, 3, 1, 1, 1
+	townmappals 5, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 5, 5
+	townmappals 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+	townmappals 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
 
 TownMapJohtoFlips:
+	ret
 	decoord 0, 0, JohtoMap
 	jr TownMapFlips
 
@@ -1851,7 +1822,7 @@ INCLUDE "data/player/sprite_anims.asm"
 LoadTownMapGFX:
 	ld de, vTiles2
 	ld hl, TownMapGFX
-	lb bc, BANK(TownMapGFX), $45
+	lb bc, BANK(TownMapGFX), $55
 	jmp DecompressRequest2bpp
 
 JohtoMap:

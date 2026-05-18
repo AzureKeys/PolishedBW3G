@@ -272,7 +272,7 @@ KeyItemIconPointers:
 	dba TypeChartIcon
 	dba GBCSoundsIcon
 	dba BoardingPassIcon
-	dba SquirtBottleIcon
+	dba TownMapIcon
 	dba SilphScope2Icon
 	dba MysteryEggIcon
 	dba SecretPotionIcon

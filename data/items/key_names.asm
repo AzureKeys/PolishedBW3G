@@ -13,7 +13,7 @@ KeyItemNames::
 	li "Type Chart"
 	li "GBC Sounds"
 	li "BoardingPass"
-	li "SquirtBottle"
+	li "Town Map"
 	li "SilphScope2"
 	li "Mystery Egg"
 	li "SecretPotion"

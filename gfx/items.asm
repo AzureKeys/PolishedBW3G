@@ -721,8 +721,8 @@ ItemfinderIcon:: INCBIN "gfx/items/itemfinder.2bpp.lzp"
 SECTION "MysteryEggIcon", ROMX
 MysteryEggIcon:: INCBIN "gfx/items/mystery_egg.2bpp.lzp"
 
-SECTION "SquirtBottleIcon", ROMX
-SquirtBottleIcon:: INCBIN "gfx/items/squirtbottle.2bpp.lzp"
+SECTION "TownMapIcon", ROMX
+TownMapIcon:: INCBIN "gfx/items/town_map.2bpp.lzp"
 
 SECTION "SecretPotionIcon", ROMX
 SecretPotionIcon:: INCBIN "gfx/items/secretpotion.2bpp.lzp"

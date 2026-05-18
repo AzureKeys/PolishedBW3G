@@ -270,7 +270,7 @@ KeyItemDescriptions:
 	dw TypeChartDesc
 	dw GBCSoundsDesc
 	dw BoardingPassDesc
-	dw SquirtBottleDesc
+	dw TownMapDesc
 	dw SilphScope2Desc
 	dw MysteryEggDesc
 	dw SecretPotionDesc
@@ -1548,9 +1548,9 @@ MysteryEggDesc:
 	next "from Mr.#mon."
 	done
 
-SquirtBottleDesc:
-	text "A bottle used for"
-	next "watering plants."
+TownMapDesc:
+	text "A map of the"
+	next "Unova region."
 	done
 
 GoGogglesDesc:

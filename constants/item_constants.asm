@@ -645,7 +645,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const TYPE_CHART   ; 0a
 	const GBC_SOUNDS   ; 0b
 	const BOARDINGPASS ; 0c
-	const SQUIRTBOTTLE ; 0d
+	const TOWN_MAP     ; 0d
 	const SILPHSCOPE2  ; 0e
 	const MYSTERY_EGG  ; 0f
 	const SECRETPOTION ; 10
@@ -711,8 +711,8 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_SHINY_CHARM
 	const NAM_SILPHSCOPE2
 	const NAM_SILVER_WING
-	const NAM_SQUIRTBOTTLE
 	const NAM_SUPER_ROD
+	const NAM_TOWN_MAP
 	const NAM_TYPE_CHART
 	const NAM_WING_CASE
 	assert const_value - 1 == NUM_KEY_ITEMS

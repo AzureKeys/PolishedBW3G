@@ -16,12 +16,16 @@ Landmarks:
 	landmark 116,  36, LacunosaTownName
 	landmark 124,  44, Route13Name
 	landmark 124,  60, UndellaTownName
-	landmark 116,  68, Route14Name
+	landmark 120,  68, Route14Name
+	landmark 112,  68, AbundantShrineName
 	landmark 116,  60, ReversalMountainName
 	landmark 100,  60, LentimasOutskirtName
 	landmark 100,  52, StrangeHouseName
 	landmark  92,  60, LentimasTownName
 	landmark 100,  76, LostlornForestName
+	landmark 116,  76, UnknownAreaName
+	landmark 116,  84, Route15Name
+	landmark 108,  84, MarvelousBridgeName
 	landmark  92,  84, Route16Name
 	landmark  84,  84, NimbasaCityName
 	landmark  92,  92, NimbasaParkName
@@ -75,7 +79,7 @@ Landmarks:
 	landmark 108,  36, Route12Name
 	landmark 116,  24, Route23Name
 	landmark 108,  20, VictoryRoadName
-	landmark 100,  20, PokemonLeagueName
+	landmark 108,  12, PokemonLeagueName
 	landmark  28,  52, BattleTowerName
 	assert_table_length NUM_LANDMARKS
 
@@ -89,11 +93,15 @@ LacunosaTownName:      rawchar "Lacunosa¯Town@"
 Route13Name:           rawchar "Route 13@"
 UndellaTownName:       rawchar "Undella¯Town@"
 Route14Name:           rawchar "Route 14@"
+AbundantShrineName:    rawchar "Abundant¯Shrine@"
 ReversalMountainName:  rawchar "Reversal¯Mountain@"
 LentimasOutskirtName:  rawchar "Lentimas¯Outskirt@"
 StrangeHouseName:      rawchar "Strange¯House@"
 LentimasTownName:      rawchar "Lentimas¯Town@"
 LostlornForestName:    rawchar "Lostlorn¯Forest@"
+UnknownAreaName:       rawchar "???@"
+Route15Name:           rawchar "Route 15@"
+MarvelousBridgeName:   rawchar "Marvelous¯Bridge@"
 Route16Name:           rawchar "Route 16@"
 NimbasaCityName:       rawchar "Nimbasa¯City@"
 NimbasaParkName:       rawchar "Nimbasa¯Park@"

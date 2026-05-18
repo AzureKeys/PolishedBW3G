@@ -79,7 +79,7 @@ DoKeyItemEffect::
 	dw TypeChart          ; KEYITEMEFFECT_TYPE_CHART
 	dw GBCSounds          ; KEYITEMEFFECT_GBC_SOUNDS
 	dw BlueCard           ; KEYITEMEFFECT_BLUE_CARD
-	dw SquirtBottle       ; KEYITEMEFFECT_SQUIRTBOTTLE
+	dw TownMap            ; KEYITEMEFFECT_TOWN_MAP
 	dw CardKey            ; KEYITEMEFFECT_CARD_KEY
 	dw BasementKey        ; KEYITEMEFFECT_BASEMENT_KEY
 	assert_table_length NUM_KEY_ITEM_EFFECTS
@@ -2691,8 +2691,16 @@ PPRestoredText:
 	text_far _PPRestoredText
 	text_end
 
-SquirtBottle:
-	farjp _Squirtbottle
+TownMap:
+	call FadeToMenu
+	farcall _TownMap
+	call ExitMenu
+	xor a
+	ldh [hBGMapMode], a
+	farcall Pack_InitGFX
+	farcall WaitBGMap_DrawPackGFX
+	farcall Pack_InitColors
+	ret
 
 CardKey:
 	farjp _CardKey
