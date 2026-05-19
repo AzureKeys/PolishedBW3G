@@ -741,4 +741,485 @@ def_grass_wildmons CASTELIA_PARK
 	wildmon 18, EEVEE
 	end_grass_wildmons
 
+def_grass_wildmons ROUTE_19
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 17, MARILL
+	wildmon 18, BUIZEL
+	wildmon 17, WINGULL
+	wildmon 19, DUCKLETT
+	wildmon 17, SWABLU
+	wildmon 18, VULPIX
+	wildmon 16, AUDINO
+	wildmon 17, HERDIER
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	; day
+	wildmon 17, MARILL
+	wildmon 18, BUIZEL
+	wildmon 17, WINGULL
+	wildmon 19, DUCKLETT
+	wildmon 17, SWABLU
+	wildmon 18, VULPIX
+	wildmon 16, AUDINO
+	wildmon 17, HERDIER
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	; nite
+	wildmon 17, MARILL
+	wildmon 18, BUIZEL
+	wildmon 17, WINGULL
+	wildmon 19, DUCKLETT
+	wildmon 17, SWABLU
+	wildmon 18, VULPIX
+	wildmon 16, AUDINO
+	wildmon 17, HERDIER
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	end_grass_wildmons
+
+def_grass_wildmons ROUTE_20
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 19, DUCKLETT
+	wildmon 18, BUIZEL
+	wildmon 19, VULPIX
+	wildmon 19, MARILL
+	wildmon 18, SWABLU
+	wildmon 18, DUNSPARCE
+	wildmon 19, EMOLGA
+	wildmon 18, STARAVIA
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	; day
+	wildmon 19, DUCKLETT
+	wildmon 18, BUIZEL
+	wildmon 19, VULPIX
+	wildmon 19, MARILL
+	wildmon 18, SWABLU
+	wildmon 18, DUNSPARCE
+	wildmon 19, EMOLGA
+	wildmon 18, STARAVIA
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	; nite
+	wildmon 19, DUCKLETT
+	wildmon 18, BUIZEL
+	wildmon 19, VULPIX
+	wildmon 19, MARILL
+	wildmon 18, SWABLU
+	wildmon 18, DUNSPARCE
+	wildmon 19, EMOLGA
+	wildmon 18, STARAVIA
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	end_grass_wildmons
+
+def_grass_wildmons FLOCCESY_RANCH
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 19, EEVEE
+	wildmon 18, PSYDUCK
+	wildmon 19, VULPIX
+	wildmon 20, MARILL
+	wildmon 18, RIOLU
+	wildmon 20, DUNSPARCE
+	wildmon 19, EMOLGA
+	wildmon 20, FLAAFFY
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	; day
+	wildmon 19, EEVEE
+	wildmon 18, PSYDUCK
+	wildmon 19, VULPIX
+	wildmon 20, MARILL
+	wildmon 18, RIOLU
+	wildmon 20, DUNSPARCE
+	wildmon 19, EMOLGA
+	wildmon 20, FLAAFFY
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	; nite
+	wildmon 19, EEVEE
+	wildmon 18, PSYDUCK
+	wildmon 19, VULPIX
+	wildmon 20, MARILL
+	wildmon 18, RIOLU
+	wildmon 20, DUNSPARCE
+	wildmon 19, EMOLGA
+	wildmon 20, FLAAFFY
+	wildmon 20, AUDINO
+	wildmon 24, AUDINO
+	end_grass_wildmons
+
+def_grass_wildmons VIRBANK_COMPLEX_OUTSIDE
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 23, KOFFING
+	wildmon 21, ELEKID
+	wildmon 22, MAGNEMITE
+	wildmon 21, MAGBY
+	wildmon 23, SCRAGGY
+	wildmon 22, JOLTIK
+	wildmon 23, TRUBBISH
+	wildmon 22, GROWLITHE
+	wildmon 24, WATCHOG
+	wildmon 26, GROWLITHE
+	; day
+	wildmon 23, KOFFING
+	wildmon 21, ELEKID
+	wildmon 22, MAGNEMITE
+	wildmon 21, MAGBY
+	wildmon 23, SCRAGGY
+	wildmon 22, JOLTIK
+	wildmon 23, TRUBBISH
+	wildmon 22, GROWLITHE
+	wildmon 24, WATCHOG
+	wildmon 26, GROWLITHE
+	; nite
+	wildmon 23, KOFFING
+	wildmon 21, ELEKID
+	wildmon 22, MAGNEMITE
+	wildmon 21, MAGBY
+	wildmon 23, SCRAGGY
+	wildmon 22, JOLTIK
+	wildmon 23, TRUBBISH
+	wildmon 22, GROWLITHE
+	wildmon 24, WATCHOG
+	wildmon 26, GROWLITHE
+	end_grass_wildmons
+
+def_grass_wildmons PINWHEEL_FOREST
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 26, FOONGUS
+	wildmon 25, SWADLOON
+	wildmon 25, WHIRLIPEDE
+	wildmon 24, VIGOROTH
+	wildmon 26, FERROSEED
+	wildmon 25, ROSELIA
+	wildmon 27, PINSIR
+	wildmon 27, HERACROSS
+	wildmon 26, SCYTHER
+	wildmon 29, SCYTHER
+	; day
+	wildmon 26, FOONGUS
+	wildmon 25, SWADLOON
+	wildmon 25, WHIRLIPEDE
+	wildmon 24, VIGOROTH
+	wildmon 26, FERROSEED
+	wildmon 25, ROSELIA
+	wildmon 27, PINSIR
+	wildmon 27, HERACROSS
+	wildmon 26, SCYTHER
+	wildmon 29, SCYTHER
+	; nite
+	wildmon 26, FOONGUS
+	wildmon 25, SWADLOON
+	wildmon 25, WHIRLIPEDE
+	wildmon 24, VIGOROTH
+	wildmon 26, FERROSEED
+	wildmon 25, ROSELIA
+	wildmon 27, PINSIR
+	wildmon 27, HERACROSS
+	wildmon 26, SCYTHER
+	wildmon 29, SCYTHER
+	end_grass_wildmons
+
+def_grass_wildmons NACRENE_OUTSKIRT
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 26, CROAGUNK
+	wildmon 27, YANMA
+	wildmon 26, PALPITOAD
+	wildmon 25, SKORUPI
+	wildmon 27, THROH
+	wildmon 27, SAWK
+	wildmon 25, POLIWHIRL
+	wildmon 26, CARNIVINE
+	wildmon 28, POLIWHIRL
+	wildmon 30, GURDURR
+	; day
+	wildmon 26, CROAGUNK
+	wildmon 27, YANMA
+	wildmon 26, PALPITOAD
+	wildmon 25, SKORUPI
+	wildmon 27, THROH
+	wildmon 27, SAWK
+	wildmon 25, POLIWHIRL
+	wildmon 26, CARNIVINE
+	wildmon 28, POLIWHIRL
+	wildmon 30, GURDURR
+	; nite
+	wildmon 26, CROAGUNK
+	wildmon 27, YANMA
+	wildmon 26, PALPITOAD
+	wildmon 25, SKORUPI
+	wildmon 27, THROH
+	wildmon 27, SAWK
+	wildmon 25, POLIWHIRL
+	wildmon 26, CARNIVINE
+	wildmon 28, POLIWHIRL
+	wildmon 30, GURDURR
+	end_grass_wildmons
+
+def_grass_wildmons NACRENE_OUTSKIRT_EAST
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 26, CROAGUNK
+	wildmon 27, YANMA
+	wildmon 26, PALPITOAD
+	wildmon 25, SKORUPI
+	wildmon 27, THROH
+	wildmon 27, SAWK
+	wildmon 25, POLIWHIRL
+	wildmon 26, CARNIVINE
+	wildmon 28, POLIWHIRL
+	wildmon 30, GURDURR
+	; day
+	wildmon 26, CROAGUNK
+	wildmon 27, YANMA
+	wildmon 26, PALPITOAD
+	wildmon 25, SKORUPI
+	wildmon 27, THROH
+	wildmon 27, SAWK
+	wildmon 25, POLIWHIRL
+	wildmon 26, CARNIVINE
+	wildmon 28, POLIWHIRL
+	wildmon 30, GURDURR
+	; nite
+	wildmon 26, CROAGUNK
+	wildmon 27, YANMA
+	wildmon 26, PALPITOAD
+	wildmon 25, SKORUPI
+	wildmon 27, THROH
+	wildmon 27, SAWK
+	wildmon 25, POLIWHIRL
+	wildmon 26, CARNIVINE
+	wildmon 28, POLIWHIRL
+	wildmon 30, GURDURR
+	end_grass_wildmons
+
+def_grass_wildmons ROUTE_3
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 26, TRANQUILL
+	wildmon 27, WATCHOG
+	wildmon 26, HERDIER
+	wildmon 27, LIEPARD
+	wildmon 26, LOMBRE
+	wildmon 26, NUZLEAF
+	wildmon 26, YANMA
+	wildmon 28, YANMA
+	wildmon 27, ZEBSTRIKA
+	wildmon 30, ZEBSTRIKA
+	; day
+	wildmon 26, TRANQUILL
+	wildmon 27, WATCHOG
+	wildmon 26, HERDIER
+	wildmon 27, LIEPARD
+	wildmon 26, LOMBRE
+	wildmon 26, NUZLEAF
+	wildmon 26, YANMA
+	wildmon 28, YANMA
+	wildmon 27, ZEBSTRIKA
+	wildmon 30, ZEBSTRIKA
+	; nite
+	wildmon 26, TRANQUILL
+	wildmon 27, WATCHOG
+	wildmon 26, HERDIER
+	wildmon 27, LIEPARD
+	wildmon 26, LOMBRE
+	wildmon 26, NUZLEAF
+	wildmon 26, YANMA
+	wildmon 28, YANMA
+	wildmon 27, ZEBSTRIKA
+	wildmon 30, ZEBSTRIKA
+	end_grass_wildmons
+
+def_grass_wildmons WELLSPRING_CAVE_1F
+	db 4 percent ; encounter rate
+	; morn
+	wildmon 28, WOOBAT
+	wildmon 27, ARON
+	wildmon 26, SWINUB
+	wildmon 27, DRILBUR
+	wildmon 26, MEDITITE
+	wildmon 27, BOLDORE
+	wildmon 28, MUNNA
+	wildmon 28, GOLBAT
+	wildmon 27, SNEASEL
+	wildmon 24, BAGON
+	; day
+	wildmon 28, WOOBAT
+	wildmon 27, ARON
+	wildmon 26, SWINUB
+	wildmon 27, DRILBUR
+	wildmon 26, MEDITITE
+	wildmon 27, BOLDORE
+	wildmon 28, MUNNA
+	wildmon 28, GOLBAT
+	wildmon 27, SNEASEL
+	wildmon 24, BAGON
+	; nite
+	wildmon 28, WOOBAT
+	wildmon 27, ARON
+	wildmon 26, SWINUB
+	wildmon 27, DRILBUR
+	wildmon 26, MEDITITE
+	wildmon 27, BOLDORE
+	wildmon 28, MUNNA
+	wildmon 28, GOLBAT
+	wildmon 27, SNEASEL
+	wildmon 24, BAGON
+	end_grass_wildmons
+
+def_grass_wildmons WELLSPRING_CAVE_B1F
+	db 4 percent ; encounter rate
+	; morn
+	wildmon 28, ARON
+	wildmon 27, DRILBUR
+	wildmon 28, SWINUB
+	wildmon 27, BOLDORE
+	wildmon 26, MEDITITE
+	wildmon 30, MUNNA
+	wildmon 29, SNEASEL
+	wildmon 30, GOLBAT
+	wildmon 24, BAGON
+	wildmon 28, BAGON
+	; day
+	wildmon 28, ARON
+	wildmon 27, DRILBUR
+	wildmon 28, SWINUB
+	wildmon 27, BOLDORE
+	wildmon 26, MEDITITE
+	wildmon 30, MUNNA
+	wildmon 29, SNEASEL
+	wildmon 30, GOLBAT
+	wildmon 24, BAGON
+	wildmon 28, BAGON
+	; nite
+	wildmon 28, ARON
+	wildmon 27, DRILBUR
+	wildmon 28, SWINUB
+	wildmon 27, BOLDORE
+	wildmon 26, MEDITITE
+	wildmon 30, MUNNA
+	wildmon 29, SNEASEL
+	wildmon 30, GOLBAT
+	wildmon 24, BAGON
+	wildmon 28, BAGON
+	end_grass_wildmons
+
+def_grass_wildmons DREAMYARD
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 29, JIGGLYPUFF
+	wildmon 28, WATCHOG
+	wildmon 30, RATICATE
+	wildmon 28, LIEPARD
+	wildmon 29, MEDITITE
+	wildmon 27, MUNNA
+	wildmon 28, DUNSPARCE
+	wildmon 26, MUNCHLAX
+	wildmon 31, KANGASKHAN
+	wildmon 33, MUSHARNA
+	; day
+	wildmon 29, JIGGLYPUFF
+	wildmon 28, WATCHOG
+	wildmon 30, RATICATE
+	wildmon 28, LIEPARD
+	wildmon 29, MEDITITE
+	wildmon 27, MUNNA
+	wildmon 28, DUNSPARCE
+	wildmon 26, MUNCHLAX
+	wildmon 31, KANGASKHAN
+	wildmon 33, MUSHARNA
+	; nite
+	wildmon 29, JIGGLYPUFF
+	wildmon 28, WATCHOG
+	wildmon 30, RATICATE
+	wildmon 28, LIEPARD
+	wildmon 29, MEDITITE
+	wildmon 27, MUNNA
+	wildmon 28, DUNSPARCE
+	wildmon 26, MUNCHLAX
+	wildmon 31, KANGASKHAN
+	wildmon 33, MUSHARNA
+	end_grass_wildmons
+
+def_grass_wildmons DREAMYARD_B1F
+	db 6 percent ; encounter rate
+	; morn
+	wildmon 30, JIGGLYPUFF
+	wildmon 29, WATCHOG
+	wildmon 30, RATICATE
+	wildmon 30, MUNNA
+	wildmon 28, GOLBAT
+	wildmon 31, MEDITITE
+	wildmon 29, LIEPARD
+	wildmon 28, MUNCHLAX
+	wildmon 32, LIEPARD
+	wildmon 33, MUSHARNA
+	; day
+	wildmon 30, JIGGLYPUFF
+	wildmon 29, WATCHOG
+	wildmon 30, RATICATE
+	wildmon 30, MUNNA
+	wildmon 28, GOLBAT
+	wildmon 31, MEDITITE
+	wildmon 29, LIEPARD
+	wildmon 28, MUNCHLAX
+	wildmon 32, LIEPARD
+	wildmon 33, MUSHARNA
+	; nite
+	wildmon 30, JIGGLYPUFF
+	wildmon 29, WATCHOG
+	wildmon 30, RATICATE
+	wildmon 30, MUNNA
+	wildmon 28, GOLBAT
+	wildmon 31, MEDITITE
+	wildmon 29, LIEPARD
+	wildmon 28, MUNCHLAX
+	wildmon 32, LIEPARD
+	wildmon 33, MUSHARNA
+	end_grass_wildmons
+
+def_grass_wildmons ROUTE_23_EAST
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 20, PSYDUCK
+	wildmon 21, MIENFOO
+	wildmon 22, FOONGUS
+	wildmon 20, LICKITUNG
+	wildmon 21, GLIGAR
+	wildmon 22, AUDINO
+	wildmon 20, RUFFLET
+	wildmon 20, VULLABY
+	wildmon 22, EMOLGA
+	wildmon 25, EMOLGA
+	; day
+	wildmon 20, PSYDUCK
+	wildmon 21, MIENFOO
+	wildmon 22, FOONGUS
+	wildmon 20, LICKITUNG
+	wildmon 21, GLIGAR
+	wildmon 22, AUDINO
+	wildmon 20, RUFFLET
+	wildmon 20, VULLABY
+	wildmon 22, EMOLGA
+	wildmon 25, EMOLGA
+	; nite
+	wildmon 20, PSYDUCK
+	wildmon 21, MIENFOO
+	wildmon 22, FOONGUS
+	wildmon 20, LICKITUNG
+	wildmon 21, GLIGAR
+	wildmon 22, AUDINO
+	wildmon 20, RUFFLET
+	wildmon 20, VULLABY
+	wildmon 22, EMOLGA
+	wildmon 25, EMOLGA
+	end_grass_wildmons
+
 	db -1 ; end

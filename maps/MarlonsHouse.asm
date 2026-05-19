@@ -142,7 +142,7 @@ MarlonsWifeDirectionsScript:
 	opentext
 	writetext MarlonsHouseDirectionsText
 	promptbutton
-	;verbosegiveitem TOWN_MAP
+	verbosegivekeyitem TOWN_MAP
 	writetext MarlonsHouseDoneText
 	waitbutton
 	closetext
