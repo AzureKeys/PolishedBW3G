@@ -8,6 +8,8 @@ Route14_MapScriptHeader:
 	def_warp_events
 	warp_event 20, 19, ROUTE_14, 2 ; hole
 	warp_event 21, 19, ROUTE_14, 2 ; spawn after fall in hole
+	warp_event  2, 13, ABUNDANT_SHRINE, 1
+	warp_event  3, 13, ABUNDANT_SHRINE, 2
 
 	def_coord_events
 

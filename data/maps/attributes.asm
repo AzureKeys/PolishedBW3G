@@ -261,6 +261,7 @@ ENDM
 	map_attributes TwistMountain3F, TWIST_MOUNTAIN_3F, $9, 0
 	map_attributes TwistMountainB1F, TWIST_MOUNTAIN_B1F, $9, 0
 	map_attributes TwistMountainGenesectRoom, TWIST_MOUNTAIN_GENESECT_ROOM, $9, 0
+	map_attributes AbundantShrine, ABUNDANT_SHRINE, $25, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

@@ -229,6 +229,10 @@ SECTION "Route14_BlockData", ROMX
 Route14_BlockData:
 	INCBIN "maps/Route14.ablk.lzp"
 
+SECTION "AbundantShrine_BlockData", ROMX
+AbundantShrine_BlockData:
+	INCBIN "maps/AbundantShrine.ablk.lzp"
+
 SECTION "ReversalMountain1F_BlockData", ROMX
 ReversalMountain1F_BlockData:
 	INCBIN "maps/ReversalMountain1F.ablk.lzp"

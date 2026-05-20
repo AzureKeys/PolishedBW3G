@@ -210,6 +210,15 @@ TilesetIcePathAnim::
 	tileframe DoneTileAnimation
 	
 TilesetNacreneAnim::
+	tileframe ScrollTileRightLeft,      $1:48
+	tileframe ScrollTileRightLeft,      $1:49
+	tileframe ScrollTileRightLeft,      $1:58
+	tileframe ScrollTileRightLeft,      $1:59
+	tileframe AnimateFlowerTile,        $0:03
+	;tileframe AnimateRainTiles,         $0:1c
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
+	
 TilesetMistraltonAnim::
 	tileframe DoNothing
 	tileframe DoNothing
@@ -253,12 +262,12 @@ TilesetAirportAnim::
 	tileframe DoneTileAnimation
 	
 TilesetChampionsRoomAnim::
-	; tileframe AnimateBigStarTile1,      $1:60
-	; tileframe AnimateSmallStarsTile1,   $1:62
-	; tileframe AnimateDoubleStarTile,    $1:64
-	; tileframe AnimateBigStarTile2,      $1:61
-	; tileframe AnimateSmallStarsTile2,   $1:63
-	; tileframe StandingTileFrame8
+	tileframe AnimateBigStarTile1,      $1:60
+	tileframe AnimateSmallStarsTile1,   $1:62
+	tileframe AnimateDoubleStarTile,    $1:64
+	tileframe AnimateBigStarTile2,      $1:61
+	tileframe AnimateSmallStarsTile2,   $1:63
+	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
 TilesetJohto1Anim::

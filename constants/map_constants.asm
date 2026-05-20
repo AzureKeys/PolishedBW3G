@@ -139,7 +139,8 @@ ENDM
 	map_const CAITLINS_HOUSE,                              5,  8 ;  5
 	map_const MARINE_TUBE_ENTRANCE,                       13,  5 ;  6
 	map_const MARINE_TUBE,                                 5, 15 ;  7
-	map_const ROUTE_14,                                   21, 15 ;  8
+	map_const ROUTE_14,                                   29, 14 ;  8
+	map_const ABUNDANT_SHRINE,                            21, 18 ;  9
 	
 	newgroup                                                     ;  6
 	map_const LENTIMAS_OUTSKIRT,                          20, 12 ;  1
