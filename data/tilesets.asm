@@ -183,6 +183,28 @@ TilesetMistraltonAttr:: INCBIN "data/tilesets/mistralton_attributes.bin.lzp"
 TilesetMistraltonColl:: INCBIN "data/tilesets/mistralton_collision.bin.lzp"
 
 
+SECTION "Tileset Graphics - nacrene vram0", ROMX
+
+TilesetNacreneGFX0:: INCBIN "gfx/tilesets/nacrene_common.2bpp.lzp"
+
+
+SECTION "Tileset Graphics - nacrene vram1", ROMX
+
+TilesetNacreneGFX1:: INCBIN "gfx/tilesets/nacrene.nacrene_common.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - nacrene vram2", ROMX
+
+TilesetNacreneGFX2:: INCBIN "gfx/tilesets/nacrene.nacrene_common.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - nacrene", ROMX
+
+TilesetNacreneMeta:: INCBIN "data/tilesets/nacrene_metatiles.bin.lzp"
+TilesetNacreneAttr:: INCBIN "data/tilesets/nacrene_attributes.bin.lzp"
+TilesetNacreneColl:: INCBIN "data/tilesets/nacrene_collision.bin.lzp"
+
+
 SECTION "Tileset Graphics - johto common vram0", ROMX
 
 TilesetJohto1GFX0::
@@ -738,22 +760,6 @@ TilesetVillageBridgeMeta:: INCBIN "data/tilesets/village_bridge_metatiles.bin.lz
 TilesetVillageBridgeAttr:: INCBIN "data/tilesets/village_bridge_attributes.bin.lzp"
 TilesetVillageBridgeColl:: INCBIN "data/tilesets/village_bridge_collision.bin.lzp"
 
-SECTION "Tileset Graphics - nacrene vram0", ROMX
-
-TilesetNacreneGFX0:: INCBIN "gfx/tilesets/nacrene.2bpp.vram0.lzp"
-
-
-SECTION "Tileset Graphics - nacrene vram1", ROMX
-
-TilesetNacreneGFX1:: INCBIN "gfx/tilesets/nacrene.2bpp.vram1.lzp"
-
-
-SECTION "Tileset Data - nacrene", ROMX
-
-TilesetNacreneMeta:: INCBIN "data/tilesets/nacrene_metatiles.bin.lzp"
-TilesetNacreneAttr:: INCBIN "data/tilesets/nacrene_attributes.bin.lzp"
-TilesetNacreneColl:: INCBIN "data/tilesets/nacrene_collision.bin.lzp"
-
 
 SECTION "Tileset Graphics - opelucid vram0", ROMX
 
@@ -952,7 +958,6 @@ TilesetVirbankGFX2::
 TilesetComplexGFX2::
 TilesetBridgeGFX2::
 TilesetVillageBridgeGFX2::
-TilesetNacreneGFX2::
 TilesetStriatonGFX2::
 TilesetDreamyardGFX2::
 TilesetPWTOutsideGFX2::

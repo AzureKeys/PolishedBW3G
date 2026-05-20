@@ -121,6 +121,7 @@ TilesetOpelucidAnim::
 	tileframe AnimateFountainTile4,     $0:2c
 	tileframe AnimateFountainTile5,     $0:3c
 	tileframe AnimateFountainTile6,     $0:3d
+	tileframe AnimateFlowerTile,        $0:03
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe IncFountainFrame

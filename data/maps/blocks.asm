@@ -277,6 +277,10 @@ SECTION "Route16_BlockData", ROMX
 Route16_BlockData:
 	INCBIN "maps/Route16.ablk.lzp"
 
+SECTION "Route15_BlockData", ROMX
+Route15_BlockData:
+	INCBIN "maps/Route15.ablk.lzp"
+
 SECTION "NimbasaCity_BlockData", ROMX
 NimbasaCity_BlockData:
 	INCBIN "maps/NimbasaCity.ablk.lzp"

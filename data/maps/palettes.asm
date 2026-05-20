@@ -61,6 +61,7 @@ ENDM
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    ChampionsRoomPalette
 	special_bg_pal map,      TWIST_MOUNTAIN_B1F,          PAL_SINGLE,    ChargestoneCavePalette
 	special_bg_pal map,      ABUNDANT_SHRINE,             PAL_TIMEOFDAY, AbundantShrinePalette
+	special_bg_pal map,      ROUTE_15,                    PAL_TIMEOFDAY, Route15Palette
 	
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_EAST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
 	special_bg_pal map,      VICTORY_ROAD_ENTRANCE_SOUTH_WEST,             PAL_TIMEOFDAY, VictoryRoadEntrancePalette
@@ -740,6 +741,39 @@ endc
 AbundantShrinePalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/abundant_shrine.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+rept 4
+	MONOCHROME_RGB_FOUR_NIGHT
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+	MONOCHROME_RGB_FOUR_NIGHT
+	MONOCHROME_RGB_FOUR_NIGHT
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+Route15Palette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/route_15.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR
