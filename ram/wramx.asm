@@ -1095,7 +1095,9 @@ wEnteredMapFromContinue:: db
 
 wTimeOfDayPal:: db
 
-	ds 4 ; unused
+wFollowInSync:: db
+
+	ds 3 ; unused
 
 wTimeOfDayPalFlags:: db
 wTimeOfDayPalset:: db

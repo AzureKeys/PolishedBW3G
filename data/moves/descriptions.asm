@@ -285,6 +285,9 @@ SlashDescription:
 NightSlashDescription:
 ShadowClawDescription:
 StoneEdgeDescription:
+if !DEF(FAITHFUL)
+XScissorDescription:
+endc
 	text "Has a high criti-"
 	next "cal hit ratio."
 	done
@@ -912,10 +915,12 @@ CutDescription:
 	next "scythes, etc."
 	done
 
+if DEF(FAITHFUL)
 XScissorDescription:
 	text "Slashes foe with"
 	next "scythes or claws."
 	done
+endc
 
 GustDescription:
 	text "Whips up a strong"

@@ -98,7 +98,7 @@ DoBattle:
 .not_linked_2
 	call AutomaticBattleWeather
 	call SpikesDamageBoth ; for Air Balloon
-	call BoostGiovannisArmoredMewtwo
+	call CustomTrainerActions
 	call RunBothEntryAbilities
 	jr BattleTurn
 
@@ -2624,7 +2624,7 @@ SelectBattleMon:
 
 PickPartyMonInBattle:
 .loop
-	ld a, $2 ; Which PKMN?
+	ld a, PARTYMENUACTION_SWITCH
 	ld [wPartyMenuActionText], a
 	call JumpToPartyMenuAndPrintText
 	call SelectBattleMon
@@ -4592,7 +4592,7 @@ BattleMenuPKMN_ReturnFromStats:
 	call ClearBGPalettes
 BattleMenuPKMN_Loop:
 	call SetUpBattlePartyMenu
-	xor a
+	xor a ; PARTYMENUACTION_CHOOSE_POKEMON
 	ld [wPartyMenuActionText], a
 	call JumpToPartyMenuAndPrintText
 	call SelectBattleMon
@@ -7996,7 +7996,6 @@ BattleIntro:
 	xor a
 	ld [wTempBattleMonSpecies], a
 	ld [wBattleMenuCursorBuffer], a
-	xor a
 	ldh [hMapAnims], a
 	farcall PlayBattleMusic
 	farcall ShowLinkBattleParticipants
@@ -8985,9 +8984,11 @@ AutomaticBattleWeather:
 	call StdBattleTextbox
 	jmp EmptyBattleTextbox
 
-BoostGiovannisArmoredMewtwo:
-; leaving this routine to repurpose later
+CustomTrainerActions:
+	; keeping this routine to use for potential later additions
+	; currently not used for anything
 	ret
+	
 	call SetEnemyTurn
 	ld de, ANIM_SHARPEN
 	call PlayBattleAnimDE
