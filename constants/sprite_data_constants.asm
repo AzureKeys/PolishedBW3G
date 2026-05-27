@@ -58,25 +58,25 @@ ENDM
 	ow_npc_pal_const BADGE_YELLOW      ; 1c
 DEF NUM_OW_TIME_OF_DAY_PALS EQU const_value
 ; SingleObjectPals indexes (see gfx/overworld/npc_single_object.pal)
-	ow_npc_pal_const EMOTE_GRAY        ; 1d
-	ow_npc_pal_const EMOTE_BLACK       ; 1e
-	ow_npc_pal_const EMOTE_GREEN       ; 1f
-	ow_npc_pal_const EMOTE_PURPLE      ; 20
-	ow_npc_pal_const EMOTE_RED         ; 21
-	ow_npc_pal_const EMOTE_ORANGE      ; 22
-	ow_npc_pal_const EMOTE_BLUE        ; 23
-	ow_npc_pal_const FAN               ; 24
-	ow_npc_pal_const GENESIS           ; 25
+	ow_npc_pal_const EMOTE_GRAY        ; 1e
+	ow_npc_pal_const EMOTE_BLACK       ; 1f
+	ow_npc_pal_const EMOTE_GREEN       ; 20
+	ow_npc_pal_const EMOTE_PURPLE      ; 21
+	ow_npc_pal_const EMOTE_RED         ; 22
+	ow_npc_pal_const EMOTE_ORANGE      ; 23
+	ow_npc_pal_const EMOTE_BLUE        ; 24
+	ow_npc_pal_const FAN               ; 25
+	ow_npc_pal_const GENESIS           ; 26
 DEF NUM_OW_INDIVIDUAL_PALS EQU const_value - NUM_OW_TIME_OF_DAY_PALS
 DEF FIRST_COPY_BG_PAL EQU const_value
-	ow_npc_pal_const COPY_BG_GRAY      ; 26
-	ow_npc_pal_const COPY_BG_RED       ; 27
-	ow_npc_pal_const COPY_BG_GREEN     ; 28
-	ow_npc_pal_const COPY_BG_WATER     ; 29
-	ow_npc_pal_const COPY_BG_YELLOW    ; 2a
-	ow_npc_pal_const COPY_BG_BROWN     ; 2b
-	ow_npc_pal_const COPY_BG_ROOF      ; 2c
-	ow_npc_pal_const COPY_BG_TEXT      ; 2d
+	ow_npc_pal_const COPY_BG_GRAY      ; 27
+	ow_npc_pal_const COPY_BG_RED       ; 28
+	ow_npc_pal_const COPY_BG_GREEN     ; 29
+	ow_npc_pal_const COPY_BG_WATER     ; 2a
+	ow_npc_pal_const COPY_BG_YELLOW    ; 2b
+	ow_npc_pal_const COPY_BG_BROWN     ; 2c
+	ow_npc_pal_const COPY_BG_ROOF      ; 2d
+	ow_npc_pal_const COPY_BG_TEXT      ; 2e
 DEF NUM_OW_BG_COPY_PALS EQU const_value - NUM_OW_INDIVIDUAL_PALS
 DEF NUM_OW_PALS EQU const_value
 

@@ -174,6 +174,10 @@ DEF MAPOBJECT_SCREEN_HEIGHT EQU (SCREEN_HEIGHT / 2) + 2
 	const SPRITEMOVEDATA_BADGE_1              ; 35
 	const SPRITEMOVEDATA_BADGE_2              ; 36
 	const SPRITEMOVEDATA_BADGE_3              ; 37
+	const SPRITEMOVEDATA_MARVELOUS_LEFT_1     ; 38
+	const SPRITEMOVEDATA_MARVELOUS_LEFT_2     ; 39
+	const SPRITEMOVEDATA_MARVELOUS_RIGHT_1    ; 3a
+	const SPRITEMOVEDATA_MARVELOUS_RIGHT_2    ; 3b
 DEF NUM_SPRITEMOVEDATA EQU const_value
 
 ; StepFunction_FromMovement.Pointers indexes (see engine/overworld/map_objects.asm)
@@ -219,6 +223,10 @@ DEF NUM_SPRITEMOVEDATA EQU const_value
 	const SPRITEMOVEFN_BADGE_1               ; 26
 	const SPRITEMOVEFN_BADGE_2               ; 27
 	const SPRITEMOVEFN_BADGE_3               ; 28
+	const SPRITEMOVEFN_MARVELOUS_LEFT_1      ; 29
+	const SPRITEMOVEFN_MARVELOUS_LEFT_2      ; 2a
+	const SPRITEMOVEFN_MARVELOUS_RIGHT_1     ; 2b
+	const SPRITEMOVEFN_MARVELOUS_RIGHT_2     ; 2c
 DEF NUM_SPRITEMOVEFN EQU const_value
 
 ; _HandleStepType.StepTypesJumptable indexes (see engine/overworld/map_objects.asm)
@@ -287,8 +295,12 @@ DEF NUM_STEP_TYPES EQU const_value
 	const OBJECT_ACTION_BRIDGE_RAIL_RIGHT ; 21
 	const OBJECT_ACTION_ADMIN_MEOWTH     ; 22
 	const OBJECT_ACTION_BADGE_1          ; 23
-	const OBJECT_ACTION_BADGE_2          ; 23
-	const OBJECT_ACTION_BADGE_3          ; 23
+	const OBJECT_ACTION_BADGE_2          ; 24
+	const OBJECT_ACTION_BADGE_3          ; 25
+	const OBJECT_ACTION_MARVELOUS_LEFT_1 ; 26
+	const OBJECT_ACTION_MARVELOUS_LEFT_2 ; 27
+	const OBJECT_ACTION_MARVELOUS_RIGHT_1 ; 28
+	const OBJECT_ACTION_MARVELOUS_RIGHT_2 ; 29
 DEF NUM_OBJECT_ACTIONS EQU const_value
 
 ; Facings indexes (see data/sprites/facings.asm)
@@ -364,6 +376,10 @@ DEF NUM_OBJECT_ACTIONS EQU const_value
 	const FACING_BADGE_1            ; 44
 	const FACING_BADGE_2            ; 45
 	const FACING_BADGE_3            ; 46
+	const FACING_MARVELOUS_LEFT_1   ; 47
+	const FACING_MARVELOUS_LEFT_2   ; 48
+	const FACING_MARVELOUS_RIGHT_1  ; 49
+	const FACING_MARVELOUS_RIGHT_2  ; 4a
 DEF NUM_FACINGS EQU const_value
 
 ; DoPlayerMovement.DoStep arguments (see engine/overworld/player_movement.asm)

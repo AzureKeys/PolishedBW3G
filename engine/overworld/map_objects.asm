@@ -587,6 +587,10 @@ endr
 	dw .MovementBadge1               ; SPRITEMOVEFN_BADGE_1
 	dw .MovementBadge2               ; SPRITEMOVEFN_BADGE_2
 	dw .MovementBadge3               ; SPRITEMOVEFN_BADGE_3
+	dw .MovementMarvelousLeft1       ; SPRITEMOVEFN_MARVELOUS_LEFT_1
+	dw .MovementMarvelousLeft2       ; SPRITEMOVEFN_MARVELOUS_LEFT_2
+	dw .MovementMarvelousRight1      ; SPRITEMOVEFN_MARVELOUS_RIGHT_1
+	dw .MovementMarvelousRight2      ; SPRITEMOVEFN_MARVELOUS_RIGHT_2
 	assert_table_length NUM_SPRITEMOVEFN
 
 .RandomWalkY:
@@ -840,6 +844,22 @@ endr
 
 .MovementBadge3:
 	ld a, OBJECT_ACTION_BADGE_3
+	jr ._ActionA_StepFunction_Standing
+
+.MovementMarvelousLeft1:
+	ld a, OBJECT_ACTION_MARVELOUS_LEFT_1
+	jr ._ActionA_StepFunction_Standing
+
+.MovementMarvelousLeft2:
+	ld a, OBJECT_ACTION_MARVELOUS_LEFT_2
+	jr ._ActionA_StepFunction_Standing
+
+.MovementMarvelousRight1:
+	ld a, OBJECT_ACTION_MARVELOUS_RIGHT_1
+	jr ._ActionA_StepFunction_Standing
+
+.MovementMarvelousRight2:
+	ld a, OBJECT_ACTION_MARVELOUS_RIGHT_2
 	jr ._ActionA_StepFunction_Standing
 
 .StandingFlip:

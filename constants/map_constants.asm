@@ -170,7 +170,10 @@ ENDM
 	map_const NIMBASA_SUBWAY,                             10,  9 ; 15
 	map_const ROUTE_4_NIMBASA_GATE,                        5, 11 ; 16
 	map_const NIMBASA_PARK_OUTSIDE,                       27, 10 ; 17
-	map_const ROUTE_15,                                   23, 11 ; 18
+	map_const MARVELOUS_BRIDGE,                           22,  6 ; 18
+	map_const ROUTE_15,                                   23, 11 ; 19
+	map_const ROUTE_16_MARVELOUS_BRIDGE_GATE,              5,  4 ; 20
+	map_const ROUTE_15_MARVELOUS_BRIDGE_GATE,              5,  4 ; 21
 	
 	newgroup                                                     ;  8
 	map_const ROUTE_4,                                    24, 30 ;  1

@@ -450,5 +450,37 @@ SpriteMovementData::
 	db HIGH_PRIORITY ; flags2
 	db 0 ; palette flags
 
+; SPRITEMOVEDATA_MARVELOUS_LEFT_1
+	db SPRITEMOVEFN_MARVELOUS_LEFT_1 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_MARVELOUS_LEFT_1 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db LOW_PRIORITY ; flags2
+	db 0 ; palette flags
+
+; SPRITEMOVEDATA_MARVELOUS_LEFT_2
+	db SPRITEMOVEFN_MARVELOUS_LEFT_2 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_MARVELOUS_LEFT_2 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db LOW_PRIORITY ; flags2
+	db 0 ; palette flags
+
+; SPRITEMOVEDATA_MARVELOUS_RIGHT_1
+	db SPRITEMOVEFN_MARVELOUS_RIGHT_1 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_MARVELOUS_RIGHT_1 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db LOW_PRIORITY ; flags2
+	db 0 ; palette flags
+
+; SPRITEMOVEDATA_MARVELOUS_RIGHT_2
+	db SPRITEMOVEFN_MARVELOUS_RIGHT_2 ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_MARVELOUS_RIGHT_2 ; action
+	db WONT_DELETE | FIXED_FACING | SLIDING | MOVE_ANYWHERE ; flags1
+	db LOW_PRIORITY ; flags2
+	db 0 ; palette flags
+
 
 	assert_table_length NUM_SPRITEMOVEDATA

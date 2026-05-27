@@ -79,6 +79,7 @@ SECTION "EastWestGate_BlockData", ROMX
 Route12VillageBridgeGate_BlockData:
 Route16LostlornGate_BlockData:
 Route16NimbasaGate_BlockData:
+Route16MarvelousBridgeGate_BlockData:
 Route5NimbasaGate_BlockData:
 Route5DrawbridgeGate_BlockData:
 Route20VirbankGate_BlockData:
@@ -90,6 +91,7 @@ Route11VillageBridgeGate_BlockData:
 Route11OpelucidGate_BlockData:
 Route9OpelucidGate_BlockData:
 Route23Gate_BlockData:
+Route15MarvelousBridgeGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "NorthSouthGate_BlockData", ROMX
@@ -276,6 +278,10 @@ LostlornForest_BlockData:
 SECTION "Route16_BlockData", ROMX
 Route16_BlockData:
 	INCBIN "maps/Route16.ablk.lzp"
+
+SECTION "MarvelousBridge_BlockData", ROMX
+MarvelousBridge_BlockData:
+	INCBIN "maps/MarvelousBridge.ablk.lzp"
 
 SECTION "Route15_BlockData", ROMX
 Route15_BlockData:

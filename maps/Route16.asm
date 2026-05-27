@@ -8,6 +8,8 @@ Route16_MapScriptHeader:
 	warp_event 20,  5, ROUTE_16_LOSTLORN_GATE, 4
 	warp_event  4, 22, ROUTE_16_NIMBASA_GATE, 1
 	warp_event  4, 23, ROUTE_16_NIMBASA_GATE, 2
+	warp_event 37, 14, ROUTE_16_MARVELOUS_BRIDGE_GATE, 1
+	warp_event 37, 15, ROUTE_16_MARVELOUS_BRIDGE_GATE, 2
 	warp_event 29,  7, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events

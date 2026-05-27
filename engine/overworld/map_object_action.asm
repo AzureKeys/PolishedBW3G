@@ -40,6 +40,10 @@ ObjectActionPairPointers:
 	dw SetFacingBadge1,                SetFacingBadge1            ; OBJECT_ACTION_BADGE_1
 	dw SetFacingBadge2,                SetFacingBadge2            ; OBJECT_ACTION_BADGE_2
 	dw SetFacingBadge3,                SetFacingBadge3            ; OBJECT_ACTION_BADGE_3
+	dw SetFacingMarvelousLeft1,        SetFacingMarvelousLeft1    ; OBJECT_ACTION_MARVELOUS_LEFT_1
+	dw SetFacingMarvelousLeft2,        SetFacingMarvelousLeft2    ; OBJECT_ACTION_MARVELOUS_LEFT_2
+	dw SetFacingMarvelousRight1,       SetFacingMarvelousRight1   ; OBJECT_ACTION_MARVELOUS_RIGHT_1
+	dw SetFacingMarvelousRight2,       SetFacingMarvelousRight2   ; OBJECT_ACTION_MARVELOUS_RIGHT_2
 	assert_table_length NUM_OBJECT_ACTIONS
 
 SetFacingStanding:
@@ -101,6 +105,22 @@ SetFacingBadge2:
 SetFacingBadge3:
 	ld a, FACING_BADGE_3
 	jr SetFixedFacing
+	
+SetFacingMarvelousLeft1:
+	ld a, FACING_MARVELOUS_LEFT_1
+	jr SetFixedFacing
+	
+SetFacingMarvelousLeft2:
+	ld a, FACING_MARVELOUS_LEFT_2
+	jr SetFixedFacing
+
+SetFacingMarvelousRight1:
+	ld a, FACING_MARVELOUS_RIGHT_1
+	jr SetFixedFacing
+
+SetFacingMarvelousRight2:
+	ld a, FACING_MARVELOUS_RIGHT_2
+	jr SetFixedFacing
 
 SetFacingBigDoll:
 	ld a, [wVariableSprites + SPRITE_BIG_DOLL - SPRITE_VARS]
@@ -148,14 +168,14 @@ SetFacingStandAction:
 	add hl, bc
 	ld a, [hl]
 	and 1
-	jr z, SetFacingCurrent
+	jp z, SetFacingCurrent
 	; fallthrough
 SetFacingStepAction:
 SetFacingBumpAction:
 	ld hl, OBJECT_FLAGS1
 	add hl, bc
 	bit SLIDING_F, [hl]
-	jr nz, SetFacingCurrent
+	jp nz, SetFacingCurrent
 
 	call _GetNextStepFrame
 	rrca

@@ -269,7 +269,8 @@ endr
 	;halloffame
 	;setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
 	;disappear PLAYER
-	warp ROUTE_22, 6, 6
+	;warp ROUTE_22, 6, 6
+	warp MARVELOUS_BRIDGE, 5, 5
 	;closetext
 	end
 

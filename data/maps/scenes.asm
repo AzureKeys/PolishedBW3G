@@ -72,6 +72,7 @@ MapScenes::
 	scene_var ROUTE_11,                               wRoute11SceneID
 	scene_var ROUTE_12,                               wRoute12SceneID
 	scene_var ROUTE_12_VILLAGE_BRIDGE_GATE,           wRoute12VillageBridgeGateSceneID
+	scene_var ROUTE_15,                               wRoute15SceneID
 	scene_var ROUTE_18,                               wRoute18SceneID
 	scene_var ROUTE_23_EAST,                          wRoute23EastSceneID
 	scene_var ROUTE_23_GATE,                          wAlways0SceneID

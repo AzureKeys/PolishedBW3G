@@ -72,6 +72,10 @@ Facings:
 	dw FacingBadge1           ; FACING_BADGE_1
 	dw FacingBadge2           ; FACING_BADGE_2
 	dw FacingBadge3           ; FACING_BADGE_3
+	dw FacingMarvelousLeft1   ; FACING_MARVELOUS_LEFT_1
+	dw FacingMarvelousLeft2   ; FACING_MARVELOUS_LEFT_2
+	dw FacingMarvelousRight1  ; FACING_MARVELOUS_RIGHT_1
+	dw FacingMarvelousRight2  ; FACING_MARVELOUS_RIGHT_2
 	assert_table_length NUM_FACINGS
 	dw 0 ; end
 
@@ -563,6 +567,34 @@ FacingRailRight:
 	db 2 ; #
 	db   4, -8, OAM_XFLIP, $02
 	db  12,  0, OAM_XFLIP, $01
+	
+FacingMarvelousLeft1: 
+	db 4 ; #
+	db  -4, -8, 0, $03
+	db  -4,  8, 0, $03
+	db -12,  0, 0, $04
+	db -12, 16, 0, $04
+	
+FacingMarvelousLeft2: 
+	db 4 ; #
+	db  28, -8, 0, $05
+	db  28,  8, OAM_XFLIP, $05
+	db  20,  0, 0, $06
+	db  20, 16, 0, $06
+
+FacingMarvelousRight1: 
+	db 4 ; #
+	db  20, -8, OAM_XFLIP, $06
+	db  20,  8, OAM_XFLIP, $06
+	db  28,  0, 0, $05
+	db  28, 16, OAM_XFLIP, $05
+
+FacingMarvelousRight2: 
+	db 4 ; #
+	db -12, -8, OAM_XFLIP, $04
+	db -12,  8, OAM_XFLIP, $04
+	db  -4,  0, OAM_XFLIP, $03
+	db  -4, 16, OAM_XFLIP, $03
 
 FacingAdminMeowth:
 	db 4 ; #

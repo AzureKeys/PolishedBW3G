@@ -263,6 +263,7 @@ ENDM
 	map_attributes TwistMountainGenesectRoom, TWIST_MOUNTAIN_GENESECT_ROOM, $9, 0
 	map_attributes AbundantShrine, ABUNDANT_SHRINE, $25, 0
 	map_attributes Route15, ROUTE_15, $b0, 0
+	map_attributes MarvelousBridge, MARVELOUS_BRIDGE, $0, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0
@@ -391,6 +392,8 @@ ENDM
 	map_attributes Route11OpelucidGate, ROUTE_11_OPELUCID_GATE, $0, 0
 	map_attributes Route9OpelucidGate, ROUTE_9_OPELUCID_GATE, $0, 0
 	map_attributes Route23Gate, ROUTE_23_GATE, $0, 0
+	map_attributes Route15MarvelousBridgeGate, ROUTE_15_MARVELOUS_BRIDGE_GATE, $0, 0
+	map_attributes Route16MarvelousBridgeGate, ROUTE_16_MARVELOUS_BRIDGE_GATE, $0, 0
 	
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
 	map_attributes Colosseum, COLOSSEUM, $0, 0

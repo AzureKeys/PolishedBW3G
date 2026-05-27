@@ -1010,8 +1010,8 @@ LoadMapPals:
 ; Don't load Roof palettes for certain Outdoor maps:
 ; Celestial Tower Roof, Dragonspiral Tower Outside,
 ; Dragonspiral Tower Roof, Twist Mountain Outside, Nimbasa Park Outside,
-; Skyarrow Bridge, Driftveil Drawbridge, Village Bridge,
-; Tubeline Bridge, Pkmn League Entrance
+; Marvelous Bridge, Route 15. Skyarrow Bridge, Driftveil Drawbridge, 
+; Village Bridge, Tubeline Bridge, Pkmn League Entrance
 	ld a, [wMapGroup]
 	cp GROUP_CELESTIAL_TOWER_ROOF
 	jr nz, .CheckNimbasa
@@ -1030,6 +1030,10 @@ LoadMapPals:
 	jr nz, .CheckCastelia
 	ld a, [wMapNumber]
 	cp MAP_NIMBASA_PARK_OUTSIDE
+	ret z
+	cp MAP_ROUTE_15
+	ret z
+	cp MAP_MARVELOUS_BRIDGE
 	jr nz, .check_overcast
 	ret
 .CheckCastelia
