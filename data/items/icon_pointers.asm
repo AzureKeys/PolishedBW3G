@@ -289,8 +289,8 @@ KeyItemIconPointers:
 	dba FerryTicketIcon
 	dba RailPassIcon
 	dba MembersCardIcon
-	dba MysticTicketIcon
-	dba OldSeaMapIcon
+	dba BattlePassIcon
+	dba IronPassIcon
 	dba LiftKeyIcon
 	dba HarshLureIcon
 	dba PotentLureIcon

@@ -1229,6 +1229,7 @@ wNacreneCitySceneID:: db
 wNimbasaParkBasementSceneID:: db
 wNimbasaParkCoasterRoomSceneID:: db
 wNimbasaParkOutsideSceneID:: db
+wNimbasaSubwaySceneID:: db
 wNuvemaLabSceneID:: db
 wOpelucidCitySceneID:: db
 wP2LabSceneID:: db
@@ -1290,7 +1291,7 @@ wOvercastRandomMaps::
 	overcast_random_map Kanto1
 	overcast_random_map Kanto2
 
-	ds 93 ; unused
+	ds 92 ; unused
 	
 wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the light color palette index
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette

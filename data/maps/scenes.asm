@@ -49,7 +49,7 @@ MapScenes::
 	scene_var NIMBASA_PARK_BASEMENT,                  wNimbasaParkBasementSceneID
 	scene_var NIMBASA_PARK_COASTER_ROOM,              wNimbasaParkCoasterRoomSceneID
 	scene_var NIMBASA_PARK_OUTSIDE,                   wNimbasaParkOutsideSceneID
-	scene_var NIMBASA_SUBWAY,                         wAlways0SceneID
+	scene_var NIMBASA_SUBWAY,                         wNimbasaSubwaySceneID
 	scene_var NUVEMA_LAB,                             wNuvemaLabSceneID
 	scene_var OPELUCID_CITY,                          wOpelucidCitySceneID
 	scene_var P2_LAB,                                 wP2LabSceneID

@@ -662,8 +662,8 @@ DEF NUM_CANDIES EQU const_value - 1
 	const FERRY_TICKET ; 1b
 	const RAIL_PASS    ; 1c
 	const MEMBERS_CARD ; 1d
-	const MYSTICTICKET ; 1e
-	const OLD_SEA_MAP  ; 1f
+	const BATTLE_PASS  ; 1e
+	const IRON_PASS    ; 1f
 	const LIFT_KEY     ; 20
 	const HARSH_LURE   ; 21
 	const POTENT_LURE  ; 22
@@ -679,6 +679,7 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const_def 1
 	const NAM_APRICORN_BOX
 	const NAM_BASEMENT_KEY
+	const NAM_BATTLE_PASS
 	const NAM_BICYCLE
 	const NAM_BOARDINGPASS
 	const NAM_CANDY_JAR
@@ -693,15 +694,14 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_GOOD_ROD
 	const NAM_GS_BALL
 	const NAM_HARSH_LURE
+	const NAM_IRON_PASS
 	const NAM_ITEMFINDER
 	const NAM_LIFT_KEY
 	const NAM_LOST_ITEM
 	const NAM_MALIGN_LURE
 	const NAM_MEMBERS_CARD
 	const NAM_MYSTERY_EGG
-	const NAM_MYSTICTICKET
 	const NAM_OLD_ROD
-	const NAM_OLD_SEA_MAP
 	const NAM_OVAL_CHARM
 	const NAM_POTENT_LURE
 	const NAM_RAIL_PASS

@@ -234,3 +234,4 @@
 	tilecoll WALL, WALL, WALL, WALL ; e9
 	tilecoll WALL, TOP_WALL, HOLE, FLOOR ; ea
 	tilecoll WALL, TOP_WALL, FLOOR, FLOOR ; eb
+	tilecoll FLOOR, WALL, FLOOR, WALL ; ec

@@ -769,11 +769,11 @@ BoardingPassIcon:: INCBIN "gfx/items/boardingpass.2bpp.lzp"
 SECTION "MembersCardIcon", ROMX
 MembersCardIcon:: INCBIN "gfx/items/members_card.2bpp.lzp"
 
-SECTION "MysticTicketIcon", ROMX
-MysticTicketIcon:: INCBIN "gfx/items/mysticticket.2bpp.lzp"
+SECTION "BattlePassIcon", ROMX
+BattlePassIcon:: INCBIN "gfx/items/battle_pass.2bpp.lzp"
 
-SECTION "OldSeaMapIcon", ROMX
-OldSeaMapIcon:: INCBIN "gfx/items/old_sea_map.2bpp.lzp"
+SECTION "IronPassIcon", ROMX
+IronPassIcon:: INCBIN "gfx/items/iron_pass.2bpp.lzp"
 
 SECTION "ShinyCharmIcon", ROMX
 ShinyCharmIcon:: INCBIN "gfx/items/shiny_charm.2bpp.lzp"

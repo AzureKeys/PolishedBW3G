@@ -287,8 +287,8 @@ KeyItemDescriptions:
 	dw FerryTicketDesc
 	dw RailPassDesc
 	dw MembersCardDesc
-	dw MysticTicketDesc
-	dw OldSeaMapDesc
+	dw BattlePassDesc
+	dw IronPassDesc
 	dw LiftKeyDesc
 	dw HarshLureDesc
 	dw PotentLureDesc
@@ -1632,14 +1632,14 @@ MembersCardDesc:
 	next "for the Mall."
 	done
 	
-MysticTicketDesc:
+BattlePassDesc:
 	text "A ticket for the"
-	next "Seagallop Ferry."
+	next "Battle Subway."
 	done
 
-OldSeaMapDesc:
-	text "A faded sea chart"
-	next "of a small island."
+IronPassDesc:
+	text "A ticket for the"
+	next "Anville Town line."
 	done
 
 HarshLureDesc:

@@ -4,8 +4,8 @@ AspertiaSubway_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  6,  5, ASPERTIA_SUBWAY, 4
-	warp_event 11,  5, ASPERTIA_SUBWAY, 3
+	warp_event  6,  5, NIMBASA_SUBWAY, 2
+	warp_event 11,  5, NIMBASA_SUBWAY, 2
 	warp_event  8, 17, ASPERTIA_CITY, 1
 	warp_event  9, 17, ASPERTIA_CITY, 1
 
@@ -52,6 +52,7 @@ AspertiaSubwayOfficerScript:
 	warpcheck
 	newloadmap MAPSETUP_TRAIN
 	turnobject PLAYER, DOWN
+	setmapscene NIMBASA_SUBWAY, 1
 	wait 20
 	end
 	
