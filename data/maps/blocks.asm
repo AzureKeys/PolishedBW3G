@@ -1004,4 +1004,8 @@ SECTION "ClayTunnelConnector_BlockData", ROMX
 ClayTunnelConnector_BlockData:
 	INCBIN "maps/ClayTunnelConnector.ablk.lzp"
 
+SECTION "ClayTunnelChamber_BlockData", ROMX
+ClayTunnelChamber_BlockData:
+	INCBIN "maps/ClayTunnelChamber.ablk.lzp"
+
 ENDSECTION

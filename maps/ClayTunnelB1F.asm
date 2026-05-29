@@ -9,6 +9,7 @@ ClayTunnelB1F_MapScriptHeader:
 	warp_event 14,  9, CLAY_TUNNEL_B1F, 2 ; hole
 	warp_event 13,  9, CLAY_TUNNEL_B1F, 2 ; spawn after fall in hole
 	warp_event  3, 28, CLAY_TUNNEL_B1F, 2 ; hole
+	warp_event  2,  4, MISTRALTON_CAVE_1F, 6
 
 	def_coord_events
 

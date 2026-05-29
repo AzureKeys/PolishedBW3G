@@ -327,6 +327,7 @@ INCLUDE "maps/ClayTunnel1F.asm"
 INCLUDE "maps/ClayTunnelB1F.asm"
 INCLUDE "maps/ClayTunnelB2F.asm"
 INCLUDE "maps/ClayTunnelConnector.asm"
+INCLUDE "maps/ClayTunnelChamber.asm"
 
 
 SECTION "Mistralton Scripts", ROMX

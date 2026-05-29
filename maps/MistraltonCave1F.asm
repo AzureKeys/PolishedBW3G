@@ -11,6 +11,7 @@ MistraltonCave1F_MapScriptHeader:
 	warp_event 17, 18, MISTRALTON_CAVE_1F, 1 ; hole
 	warp_event  9,  4, MISTRALTON_CAVE_1F, 1 ; hole
 	warp_event 13,  9, MISTRALTON_CAVE_2F, 1
+	warp_event 21, 18, CLAY_TUNNEL_B1F, 4
 	
 	def_coord_events
 

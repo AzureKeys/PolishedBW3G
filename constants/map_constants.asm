@@ -113,6 +113,7 @@ ENDM
 	map_const CLAY_TUNNEL_B1F,                            12, 17 ; 70
 	map_const CLAY_TUNNEL_B2F,                            15, 29 ; 71
 	map_const CLAY_TUNNEL_CONNECTOR,                      11,  6 ; 72
+	map_const CLAY_TUNNEL_CHAMBER  ,                       9, 10 ; 73
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

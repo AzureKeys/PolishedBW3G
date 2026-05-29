@@ -9,6 +9,8 @@ ClayTunnelB2F_MapScriptHeader:
 	warp_event 15, 22, CLAY_TUNNEL_B2F, 2 ; hole
 	warp_event 14, 22, CLAY_TUNNEL_B2F, 2 ; spawn after fall in hole
 	warp_event 27, 28, CLAY_TUNNEL_CONNECTOR, 2
+	warp_event  9,  1, TWIST_MOUNTAIN_B1F, 2
+	warp_event 27, 14, CLAY_TUNNEL_CHAMBER, 1
 
 	def_coord_events
 
