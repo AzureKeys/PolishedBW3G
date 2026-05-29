@@ -988,4 +988,20 @@ SECTION "TwistMountainGenesectRoom_BlockData", ROMX
 TwistMountainGenesectRoom_BlockData:
 	INCBIN "maps/TwistMountainGenesectRoom.ablk.lzp"
 
+SECTION "ClayTunnel1F_BlockData", ROMX
+ClayTunnel1F_BlockData:
+	INCBIN "maps/ClayTunnel1F.ablk.lzp"
+
+SECTION "ClayTunnelB1F_BlockData", ROMX
+ClayTunnelB1F_BlockData:
+	INCBIN "maps/ClayTunnelB1F.ablk.lzp"
+
+SECTION "ClayTunnelB2F_BlockData", ROMX
+ClayTunnelB2F_BlockData:
+	INCBIN "maps/ClayTunnelB2F.ablk.lzp"
+
+SECTION "ClayTunnelConnector_BlockData", ROMX
+ClayTunnelConnector_BlockData:
+	INCBIN "maps/ClayTunnelConnector.ablk.lzp"
+
 ENDSECTION

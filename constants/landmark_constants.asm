@@ -53,6 +53,7 @@
 	const ROUTE_5              ; 31
 	const DRIFTVEIL_DRAWBRIDGE ; 32
 	const DRIFTVEIL_CITY       ; 33
+	const CLAY_TUNNEL          ; 33
 	const PWT                  ; 34
 	const RELIC_PASSAGE        ; 35
 	const ROUTE_6              ; 36

@@ -58,6 +58,7 @@ Landmarks:
 	landmark  76,  84, Route5Name
 	landmark  64,  84, DriftveilBridgeName
 	landmark  52,  84, DriftveilCityName
+	landmark  52,  76, ClayTunnelName
 	landmark  52,  92, PWTName
 	landmark  68, 104, RelicPassageName
 	landmark  40,  76, Route6Name
@@ -134,6 +135,7 @@ VirbankComplexName:    rawchar "Virbank¯Complex@"
 Route5Name:            rawchar "Route 5@"
 DriftveilBridgeName:   rawchar "Driftveil¯Bridge@"
 DriftveilCityName:     rawchar "Driftveil¯City@"
+ClayTunnelName:        rawchar "Clay¯Tunnel@"
 PWTName:               rawchar "World¯Tournament@"
 RelicPassageName:      rawchar "Relic¯Passage@"
 Route6Name:            rawchar "Route 6@"

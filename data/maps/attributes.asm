@@ -264,6 +264,10 @@ ENDM
 	map_attributes AbundantShrine, ABUNDANT_SHRINE, $25, 0
 	map_attributes Route15, ROUTE_15, $b0, 0
 	map_attributes MarvelousBridge, MARVELOUS_BRIDGE, $0, 0
+	map_attributes ClayTunnel1F, CLAY_TUNNEL_1F, $9, 0
+	map_attributes ClayTunnelB1F, CLAY_TUNNEL_B1F, $9, 0
+	map_attributes ClayTunnelB2F, CLAY_TUNNEL_B2F, $9, 0
+	map_attributes ClayTunnelConnector, CLAY_TUNNEL_CONNECTOR, $9, 0
 	
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $0, 0
 	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $0, 0

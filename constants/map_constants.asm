@@ -109,6 +109,10 @@ ENDM
 	map_const TWIST_MOUNTAIN_B1F,                         12,  9 ; 66
 	map_const TWIST_MOUNTAIN_GENESECT_ROOM,                7, 11 ; 67
 	map_const TWIST_MOUNTAIN_HOUSE,                        4,  4 ; 68
+	map_const CLAY_TUNNEL_1F,                             12, 20 ; 69
+	map_const CLAY_TUNNEL_B1F,                            12, 17 ; 70
+	map_const CLAY_TUNNEL_B2F,                            15, 29 ; 71
+	map_const CLAY_TUNNEL_CONNECTOR,                      11,  6 ; 72
 
 	newgroup                                                     ;  4
 	map_const PLAYERS_HOUSE_1F,                            5,  4 ;  1

@@ -323,6 +323,10 @@ INCLUDE "maps/Route7TradeHouse.asm"
 INCLUDE "maps/CelestialTower1F.asm"
 INCLUDE "maps/CelestialTower.asm"
 INCLUDE "maps/CelestialTowerRoof.asm"
+INCLUDE "maps/ClayTunnel1F.asm"
+INCLUDE "maps/ClayTunnelB1F.asm"
+INCLUDE "maps/ClayTunnelB2F.asm"
+INCLUDE "maps/ClayTunnelConnector.asm"
 
 
 SECTION "Mistralton Scripts", ROMX

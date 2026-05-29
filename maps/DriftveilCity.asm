@@ -18,6 +18,7 @@ DriftveilCity_MapScriptHeader:
 	warp_event 35,  9, DRIFTVEIL_STONE_EMPORIUM, 2
 	warp_event  4, 12, ROUTE_6, 1
 	warp_event  4, 13, ROUTE_6, 2
+	warp_event  6,  4, CLAY_TUNNEL_1F, 1
 	
 	def_coord_events
 

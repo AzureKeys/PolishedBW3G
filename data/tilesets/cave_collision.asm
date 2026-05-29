@@ -225,3 +225,19 @@
 	tilecoll STAIRS_LEFT_UP, STAIRS_RIGHT_DOWN, WALL, FLOOR ; e0
 	tilecoll WALL, STAIRS_LEFT_UP, WALL, STAIRS_LEFT_UP ; e1
 	tilecoll FLOOR, FLOOR, WALL, WALL ; e2
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; e3
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; e4
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; e5
+	tilecoll WALL, FLOOR, WALL, FLOOR ; e6
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; e7
+	tilecoll FLOOR, WALL, HOLE, FLOOR ; e8
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; e9
+	tilecoll WALL, WALL, FLOOR, WALL ; ea
+	tilecoll WALL, FLOOR, WALL, FLOOR ; eb
+	tilecoll FLOOR, WALL, FLOOR, FLOOR ; ec
+	tilecoll FLOOR, WALL, FLOOR, WALL ; ed
+	tilecoll WARP_CARPET_LEFT, FLOOR, FLOOR, FLOOR ; ee
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ef
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; f0
+	tilecoll WALL, WALL, WALL, WALL ; f1
+	tilecoll FLOOR, WARP_CARPET_RIGHT, FLOOR, FLOOR ; f2

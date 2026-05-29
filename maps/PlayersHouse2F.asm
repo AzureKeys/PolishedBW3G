@@ -270,7 +270,7 @@ endr
 	;setmapscene CHAMPIONS_ROOM, 3 ; post-credits scene
 	;disappear PLAYER
 	;warp ROUTE_22, 6, 6
-	warp NIMBASA_SUBWAY, 10, 14
+	warp CLAY_TUNNEL_1F,  9, 35
 	;closetext
 	end
 
