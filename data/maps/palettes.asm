@@ -32,6 +32,7 @@ ENDM
 	special_bg_pal map,      CASTELIA_SEWERS_ROOMS,       PAL_SINGLE,    SewersPalette
 	special_bg_pal map,      SKYARROW_BRIDGE,             PAL_TIMEOFDAY, SkyarrowBridgePalette
 	special_bg_pal map,      NIMBASA_SUBWAY,              PAL_SINGLE,    NimbasaSubwayPalette
+	special_bg_pal map,      ASPERTIA_SUBWAY,             PAL_SINGLE,    NimbasaSubwayPalette
 	special_bg_pal map,      NIMBASA_PARK_COASTER_ROOM,   PAL_SINGLE,    CoasterRoomPalette
 	special_bg_pal map,      VIRBANK_GYM,                 PAL_SINGLE,    VirbankGymPalette
 	special_bg_pal map,      STRIATON_GYM,                PAL_SINGLE,    StriatonGymPalette
