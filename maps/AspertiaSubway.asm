@@ -8,6 +8,7 @@ AspertiaSubway_MapScriptHeader:
 	warp_event 11,  5, NIMBASA_SUBWAY, 2
 	warp_event  8, 17, ASPERTIA_CITY, 1
 	warp_event  9, 17, ASPERTIA_CITY, 1
+	warp_event 10, 17, ASPERTIA_CITY, 1
 
 	def_coord_events
 	coord_event 11,  6, 0, AspertiaSubway_ArriveScript

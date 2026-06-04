@@ -5,7 +5,7 @@ AspertiaCity_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, AspertiaFlyPoint
 
 	def_warp_events
-	warp_event 10, 31, ASPERTIA_SUBWAY, 3
+	warp_event 10, 31, ASPERTIA_SUBWAY, 4
 	warp_event 15, 23, ASPERTIA_POKECENTER, 1
 	warp_event  5, 37, ASPERTIA_MOVE_DELETER, 1
 	warp_event 23, 15, ASPERTIA_BLACKBELT_HOUSE, 1
