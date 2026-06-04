@@ -1121,6 +1121,7 @@ _TownMap:
 	ldh [hBGMapMode], a
 	call .InitTilemap
 	call ApplyAttrAndTilemapInVBlank
+	call TownMap_InitFlyPossible
 	ld a, [wTownMapPlayerIconLandmark]
 	call PokegearMap_InitPlayerIcon
 	ld a, [wTownMapCursorLandmark]
@@ -1129,6 +1130,13 @@ _TownMap:
 	ld [wTownMapCursorObjectPointer], a
 	ld a, b
 	ld [wTownMapCursorObjectPointer + 1], a
+	ld a, [wTownMapCanShowFly]
+	and a
+	jr z, .no_fly
+	depixel 18, 12, 0, 0
+	ld a, SPRITE_ANIM_INDEX_TOWN_MAP_FLY
+	call InitSpriteAnimStruct
+.no_fly
 	ld a, CGB_POKEGEAR_PALS
 	call GetCGBLayout
 	call SetDefaultBGPAndOBP
@@ -1155,6 +1163,10 @@ _TownMap:
 	ret nz
 
 	ld hl, hJoyLast
+	ld a, [hl]
+	and PAD_A
+	jr nz, .fly
+	
 	ld a, [hl]
 	and PAD_UP
 	jr nz, .pressed_up
@@ -1197,8 +1209,21 @@ _TownMap:
 	dec [hl]
 	push de
 	call SkipHiddenOrangeIslandsDown
+	jr .next
+	
+.fly
+	ld a, [wTownMapCanFlyHere]
+	and a
+	jr z, .loop2
+	ld a, [wPokegearMapCursorSpawnpoint]
+	ld [wDefaultSpawnpoint], a
+	ld a, BANK(FlyFunction.FlyScript)
+	ld hl, FlyFunction.FlyScript
+	call FarQueueScript
+	ret
 
 .next
+	call TownMap_InitFlyPossible
 	ld a, [wTownMapCursorLandmark]
 	call TownMap_UpdateLandmarkName
 	ld a, [wTownMapCursorObjectPointer]
@@ -1207,6 +1232,13 @@ _TownMap:
 	ld b, a
 	ld a, [wTownMapCursorLandmark]
 	call PokegearMap_UpdateCursorPosition
+	ld a, [wTownMapCanShowFly]
+	and a
+	jr z, .no_fly2
+	depixel 18, 12, 0, 0
+	ld a, SPRITE_ANIM_INDEX_TOWN_MAP_FLY
+	call InitSpriteAnimStruct
+.no_fly2
 	pop de
 	jr .loop2
 
@@ -1580,13 +1612,13 @@ INCLUDE "data/maps/flypoints.asm"
 
 FlyMap:
 	push af
-; Start from New Bark Town
+; Start from Humilau City
 	ld a, FLY_HUMILAU
 	ld [wTownMapPlayerIconLandmark], a
-; Flypoints begin at New Bark Town...
+; Flypoints begin at Humilau City...
 	ld [wStartFlypoint], a
-; ..and end at Silver Cave
-	ld a, FLY_HUMILAU
+; ..and end at Pkmn League
+	ld a, FLY_PKMN_LEAGUE
 	ld [wEndFlypoint], a
 ; Fill out the map
 	call FillJohtoMap

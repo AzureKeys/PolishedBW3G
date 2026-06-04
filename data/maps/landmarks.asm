@@ -22,13 +22,13 @@ Landmarks:
 	landmark 100,  60, LentimasOutskirtName
 	landmark 100,  52, StrangeHouseName
 	landmark  92,  60, LentimasTownName
-	landmark 100,  76, LostlornForestName
+	landmark  92,  76, LostlornForestName
 	landmark 116,  76, UnknownAreaName
-	landmark 116,  84, Route15Name
-	landmark 108,  84, MarvelousBridgeName
+	landmark 112,  84, Route15Name
+	landmark 100,  84, MarvelousBridgeName
 	landmark  92,  84, Route16Name
 	landmark  84,  84, NimbasaCityName
-	landmark  92,  92, NimbasaParkName
+	landmark  84,  84, NimbasaParkName
 	landmark  84, 100, Route4Name
 	landmark  76,  92, DesertResortName
 	landmark  68,  92, RelicCastleName
@@ -133,7 +133,7 @@ Route20Name:           rawchar "Route 20@"
 VirbankCityName:       rawchar "Virbank¯City@"
 VirbankComplexName:    rawchar "Virbank¯Complex@"
 Route5Name:            rawchar "Route 5@"
-DriftveilBridgeName:   rawchar "Driftveil¯Bridge@"
+DriftveilBridgeName:   rawchar "Driftveil¯Drawbridge@"
 DriftveilCityName:     rawchar "Driftveil¯City@"
 ClayTunnelName:        rawchar "Clay¯Tunnel@"
 PWTName:               rawchar "World¯Tournament@"
