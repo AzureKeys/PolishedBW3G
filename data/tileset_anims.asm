@@ -36,13 +36,24 @@ TilesetUnovaNorthAnim::
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
 	tileframe AnimateFlowerTile,        $0:03
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:12
 	tileframe AnimateWaterfallTiles,    $0:10
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe DoneTileAnimation
 
 TilesetForestAnim::
+	tileframe DoNothing
+	tileframe DoNothing
+	tileframe AnimateUnovaWaterTile1,   $0:6d
+	tileframe AnimateUnovaWaterTile2,   $0:6e
+	tileframe AnimateUnovaWaterTile3,   $0:7d
+	tileframe AnimateUnovaWaterTile4,   $0:7e
+	tileframe AnimateFlowerTile,        $0:03
+	tileframe StandingTileFrame8
+	tileframe IncWaterFrame
+	tileframe DoneTileAnimation
+
 TilesetNimbasaAnim::
 TilesetParkAnim::
 TilesetStriatonAnim::
@@ -55,7 +66,7 @@ TilesetVillageBridgeAnim::
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
 	tileframe AnimateFlowerTile,        $0:03
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:23
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe DoneTileAnimation
@@ -70,14 +81,14 @@ TilesetIcirrusAnim::
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
 	tileframe AnimateFlowerTile,        $0:03
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:23
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
 	tileframe DoneTileAnimation
 
 TilesetDreamyardAnim::
 	tileframe ScrollTileDown,           $0:6f
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:37
 	tileframe AnimateUnovaWaterTile1,   $0:6d
 	tileframe AnimateUnovaWaterTile2,   $0:6e
 	tileframe AnimateUnovaWaterTile3,   $0:7d
@@ -94,7 +105,7 @@ TilesetPWTOutsideAnim::
 	tileframe AnimateUnovaWaterTile2,   $0:6e
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:0a
 	tileframe AnimateFountainTile1,     $0:2b
 	tileframe AnimateFountainTile2,     $0:3b
 	tileframe AnimateFountainTile3,     $0:2d
@@ -114,7 +125,7 @@ TilesetOpelucidAnim::
 	tileframe AnimateUnovaWaterTile2,   $0:6e
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:08
 	tileframe AnimateFountainTile1,     $0:2b
 	tileframe AnimateFountainTile2,     $0:3b
 	tileframe AnimateFountainTile3,     $0:2d
@@ -137,7 +148,7 @@ TilesetBridgeAnim::
 	tileframe AnimateUnovaWaterTile2,   $0:6e
 	tileframe AnimateUnovaWaterTile3,   $0:7d
 	tileframe AnimateUnovaWaterTile4,   $0:7e
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:08
 	tileframe DoNothing
 	tileframe StandingTileFrame8
 	tileframe IncWaterFrame
@@ -216,7 +227,7 @@ TilesetNacreneAnim::
 	tileframe ScrollTileRightLeft,      $1:58
 	tileframe ScrollTileRightLeft,      $1:59
 	tileframe AnimateFlowerTile,        $0:03
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:61
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 	
@@ -226,7 +237,7 @@ TilesetMistraltonAnim::
 	tileframe DoNothing
 	tileframe DoNothing
 	tileframe AnimateFlowerTile,        $0:03
-	;tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateRainTiles,         $0:4b
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
