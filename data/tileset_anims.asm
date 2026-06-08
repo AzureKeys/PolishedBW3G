@@ -255,7 +255,7 @@ TilesetFacilityAnim::
 	tileframe StandingTileFrame8
 	tileframe DoNothing
 	tileframe AnimateTurbineTiles,      $0:6c
-	tileframe StandingTileFrame8
+	tileframe DoNothing
 	tileframe DoNothing
 	tileframe AnimateTurbineTiles,      $0:6c
 	tileframe StandingTileFrame8

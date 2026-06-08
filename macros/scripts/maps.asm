@@ -158,9 +158,9 @@ ENDM
 
 MACRO strengthboulder_event
 	if _NARG == 2
-		object_event \1, \2, SPRITE_BOULDER_ROCK_FOSSIL, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, -1
+		object_event \1, \2, SPRITE_BOULDER_ROCK, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, -1
 	elif _NARG == 3
-		object_event \1, \2, SPRITE_BOULDER_ROCK_FOSSIL, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, \3
+		object_event \1, \2, SPRITE_BOULDER_ROCK, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, \3
 	else
 		object_event \1, \2, \3, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, strengthboulder, \4
 	endc
@@ -168,9 +168,9 @@ ENDM
 
 MACRO smashrock_event
 	if _NARG == 2
-		object_event \1, \2, SPRITE_BOULDER_ROCK_FOSSIL, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, smashrock, 0, -1
+		object_event \1, \2, SPRITE_BOULDER_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, smashrock, 0, -1
 	else
-		object_event \1, \2, SPRITE_BOULDER_ROCK_FOSSIL, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, smashrock, 0, \3
+		object_event \1, \2, SPRITE_BOULDER_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumpstd, smashrock, 0, \3
 	endc
 ENDM
 

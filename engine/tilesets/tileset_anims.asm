@@ -325,7 +325,7 @@ AnimateTurbineTiles:
 	ld c, l
 
 	; period 2, offset to 4 tiles (64 bytes)
-	ld a, [wTileAnimationTimer]
+	ldh a, [hVBlankCounter]
 	maskbits 2
 	swap a
 	add a
@@ -1706,7 +1706,7 @@ AnimateFireTiles:
 	sub l
 	ld h, a
 
-	jr WriteTwoTilesHLToDE
+	jmp WriteTwoTilesHLToDE
 
 AnimateTorchTile:
 	ld hl, sp + 0
@@ -1727,6 +1727,37 @@ AnimateTorchTile:
 	ld h, a
 
 	jmp WriteTileHLToDE
+
+AnimateJudgeMachineTiles:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	; random offset (0-64 bytes)
+	ldh a, [rDIV]
+	maskbits 32, 1
+
+	add LOW(vTiles5 tile $5c)
+	ld l, a
+	adc HIGH(vTiles5 tile $5c)
+	sub l
+	ld h, a
+
+	jr WriteTwoTilesHLToDE
+
+AnimateTubeLightTiles:
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ldh a, [hVBlankCounter]
+	and %10
+	ld hl, vTiles2 tile $48
+	jr z, WriteFourTilesHLToDE
+	assert HIGH(vTiles2 tile $48) == HIGH(vTiles2 tile $4c)
+	ld l, LOW(vTiles2 tile $4c)
+
+	; fallthrough
 
 WriteFourTilesHLToDE:
 	ld sp, hl
@@ -1850,3 +1881,49 @@ FlickeringCaveEntrancePalette:
 
 	pop af
 	ldh [rWBK], a
+	ret
+
+CycleJudgeMachinePalette:
+	ldh a, [rWBK]
+	push af
+	ld a, BANK(wStatusFlags3)
+	ldh [rWBK], a
+
+	ld hl, wStatusFlags3
+	bit STATUSFLAGS3_JUDGE_MACHINE_F, [hl]
+	jr z, .done
+
+	ld a, BANK(wBGPals2)
+	ldh [rWBK], a
+
+	ld a, [wTileAnimationTimer]
+	maskbits 16
+	add a
+	add a
+	add LOW(.JudgeMachinePaletteCycle)
+	ld l, a
+	adc HIGH(.JudgeMachinePaletteCycle)
+	sub l
+	ld h, a
+
+	ld de, wBGPals2 palette PAL_BG_ROOF color 1
+rept 3
+	ld a, [hli]
+	ld [de], a
+	inc de
+endr
+	ld a, [hl]
+	ld [de], a
+
+	ld a, TRUE
+	ldh [hCGBPalUpdate], a
+
+.done
+	pop af
+	ldh [rWBK], a
+	ret
+
+.JudgeMachinePaletteCycle:
+	table_width 4
+INCLUDE "gfx/stats/ev_iv_cycle.pal"
+	assert_table_length 16
